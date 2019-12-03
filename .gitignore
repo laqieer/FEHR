@@ -69,3 +69,7 @@ CTestTestfile.cmake
 
 # Build directory
 build/
+
+# Clion project files
+.idea/
+cmake-build-debug/
