@@ -23,8 +23,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 aux_source_directory(src DIR_SRCS)
 set_source_files_properties(src/dummy.c PROPERTIES OBJECT_DEPENDS ${CMAKE_SOURCE_DIR}/linkerscript)
 
-add_executable(${PROJECT_NAME} ${DIR_SRCS})
+add_executable(${PROJECT_NAME} ${DIR_SRCS}
+        src/rom.s)
 
+set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(${PROJECT_NAME} PRIVATE include)
-target_link_options(${PROJECT_NAME} PRIVATE -T linkerscript -Wl,-Map,${PROJECT_NAME}.map)
+target_link_options(${PROJECT_NAME} PRIVATE -nostdlib -T ${CMAKE_SOURCE_DIR}/linkerscript -Wl,-Map,${PROJECT_NAME}.map)
 make_gba_rom(${PROJECT_NAME})
