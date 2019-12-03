@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fe7_jp_stunning_tribble"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fe7_jp_stunning_tribble">
+				<Option output="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/fe7_jp_stunning_tribble" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 fe7_jp_stunning_tribble"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fe7_jp_stunning_tribble/fast">
+				<Option output="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/fe7_jp_stunning_tribble" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 fe7_jp_stunning_tribble/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/CMakeLists.txt">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/LICENSE">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/README.md">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake/devkitPro.cmake">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/cmake/overrides-gcc.cmake">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/configure.sh">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/linkerscript">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/rom/fe7-jp.gba">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/src/dummy.c">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/src/rom.s">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/toolchain-gcc.cmake">
+			<Option target="fe7_jp_stunning_tribble"/>
+		</Unit>
+		<Unit filename="/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
