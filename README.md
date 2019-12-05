@@ -8,6 +8,6 @@ A hack based on Fire Emblem 7 Japanese version
 ## Build
 ```
 cp <game_rom> rom/fe7-jp.gba
-./configure.sh
+./configure
 cd build && make
 ```
