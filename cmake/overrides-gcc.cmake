@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
-set(_arch_flags "-mthumb -mthumb-interwork -mcpu=arm7tdmi -mtune=arm7tdmi")
-set(_common_flags "${_arch_flags} -Wall -Wextra")
+set(_arch_flags "-mthumb -mthumb-interwork -mcpu=arm7tdmi -mtune=arm7tdmi -ffunction-sections -fdata-sections")
+set(_common_flags "${_arch_flags} -Wall -Wextra -mlong-calls")
 set(_c_flags "-fno-common")
 set(_cxx_flags "-fno-rtti -fno-exceptions -fno-asynchronous-unwind-tables")
 set(_debug_flags "-g -O0")
@@ -19,4 +19,4 @@ foreach(lang C CXX ASM)
     set(CMAKE_DEPFILE_FLAGS_${lang} "-MMD -MP -MF <DEPFILE>")
 endforeach()
 
-set(CMAKE_EXE_LINKER_FLAGS_INIT "-specs=gba.specs")
+set(CMAKE_EXE_LINKER_FLAGS_INIT "-nostartfiles -T ${CMAKE_SOURCE_DIR}/linkerscript")

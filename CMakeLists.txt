@@ -3,14 +3,14 @@
 cmake_minimum_required(VERSION 3.13)
 
 if(NOT DEFINED CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build, options are: Debug Release")
+    set(CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build, options are: Debug Release")
 endif()
 
 
 project(fe7-jp-stunning-tribble
         VERSION 0.0.1
         DESCRIPTION "GBA game hacking"
-        LANGUAGES CXX ASM)
+        LANGUAGES C CXX ASM)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
@@ -24,9 +24,14 @@ aux_source_directory(src DIR_SRCS)
 set_source_files_properties(src/dummy.c PROPERTIES OBJECT_DEPENDS ${CMAKE_SOURCE_DIR}/linkerscript)
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS}
-        src/rom.s)
+        src/rom.s src/dummy.c src/version.c)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(${PROJECT_NAME} PRIVATE include)
-target_link_options(${PROJECT_NAME} PRIVATE -nostdlib -T ${CMAKE_SOURCE_DIR}/linkerscript -Wl,-Map,${PROJECT_NAME}.map)
+target_link_options(${PROJECT_NAME} PRIVATE -Wl,-Map,${PROJECT_NAME}.map)
 make_gba_rom(${PROJECT_NAME})
+
+add_custom_target(version
+        COMMAND touch ${CMAKE_SOURCE_DIR}/src/version.c)
+
+add_dependencies(${PROJECT_NAME} version)
