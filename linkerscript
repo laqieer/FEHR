@@ -1,10 +1,16 @@
 ENTRY(_start)
 
+agbMain = 0x8000a21;
 SECTIONS
 {
+	. = 0x203F000;
+	.bss : {*(.bss*)}
+	__end__ = .;
 	. = 0x8000000;
-	.rom : {KEEP(*.o(.rom))}
+	.rom : {KEEP(*(.rom))}
+	. = 0x8000220;
+	.rodata.pAgbMain : {*(.rodata.pAgbMain)}
 	. = 0x9000000;
-	/*.text : {*(.text)}*/
-	.rodata : {*(.rodata) . = ALIGN(4);}
+	.text : {*(.text*)}
+	.rodata : {*(.rodata*) . = ALIGN(4);}
 }

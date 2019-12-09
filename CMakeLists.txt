@@ -15,6 +15,7 @@ project(fe7-jp-stunning-tribble
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 include(devkitPro)
+include(grit)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -23,15 +24,18 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 aux_source_directory(src DIR_SRCS)
 set_source_files_properties(src/dummy.c PROPERTIES OBJECT_DEPENDS ${CMAKE_SOURCE_DIR}/linkerscript)
 
-add_executable(${PROJECT_NAME} ${DIR_SRCS}
-        src/rom.s src/dummy.c src/version.c)
+process_gfx(GFX_SRCS font.grit)
+
+add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS}
+        src/rom.s src/dummy.c src/version.c src/gba_debug_print.c include/gba_debug_print.h include/mgba.h src/mgba.c
+        src/start.c)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
-target_include_directories(${PROJECT_NAME} PRIVATE include)
+target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx)
 target_link_options(${PROJECT_NAME} PRIVATE -Wl,-Map,${PROJECT_NAME}.map)
 make_gba_rom(${PROJECT_NAME})
 
 add_custom_target(version
-        COMMAND touch ${CMAKE_SOURCE_DIR}/src/version.c)
+        COMMAND ${CMAKE_COMMAND} -E touch ${CMAKE_SOURCE_DIR}/src/version.c)
 
 add_dependencies(${PROJECT_NAME} version)
