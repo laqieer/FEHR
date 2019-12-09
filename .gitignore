@@ -71,3 +71,7 @@ CTestTestfile.cmake
 build/
 cmake-build-debug/
 cmake-build-release/
+
+# Source files automatically generated from resource files
+src/res/gfx/*.h
+src/res/gfx/*.s
