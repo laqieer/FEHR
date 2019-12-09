@@ -2,10 +2,6 @@
 // Created by laqieer on 2019/12/7.
 //
 #include <gba_dma.h>
-#include <gba_input.h>
-#include <gba_interrupt.h>
-#include <gba_sio.h>
-#include <gba_systemcalls.h>
 #include <gba_video.h>
 
 #include <stdio.h>
