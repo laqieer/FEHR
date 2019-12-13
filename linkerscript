@@ -1,6 +1,13 @@
 ENTRY(_start)
 
+lastTextID = 0x202B5B0;
+decodedText = 0x202A5B0;
+
+compressedText = 0x8BBB370;
+
 agbMain = 0x8000a21;
+decompressText = 0x8004241;
+
 SECTIONS
 {
 	. = 0x203F000;
@@ -10,6 +17,8 @@ SECTIONS
 	.rom : {KEEP(*(.rom))}
 	. = 0x8000220;
 	.rodata.pAgbMain : {*(.rodata.pAgbMain)}
+	. = 0x8013318;
+	.text.decodeTextInjector : {*(.text.decodeTextInjector)}
 	. = 0x9000000;
 	.text : {*(.text*)}
 	.rodata : {*(.rodata*) . = ALIGN(4);}

@@ -28,7 +28,7 @@ process_gfx(GFX_SRCS font.grit)
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS}
         src/rom.s src/dummy.c src/version.c src/gba_debug_print.c include/gba_debug_print.h include/mgba.h src/mgba.c
-        src/start.c)
+        src/start.c src/text.c include/text.h)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx)
