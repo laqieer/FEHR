@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: MPL-2.0
-
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR ARM)
 set(CMAKE_SYSTEM_VERSION 1)

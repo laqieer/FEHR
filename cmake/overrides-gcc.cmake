@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: MPL-2.0
-
 set(_arch_flags "-mthumb -mthumb-interwork -mcpu=arm7tdmi -mtune=arm7tdmi -ffunction-sections -fdata-sections")
 set(_common_flags "${_arch_flags} -Wall -Wextra -mlong-calls")
 set(_c_flags "-fno-common")
