@@ -5,8 +5,10 @@ decodedText = 0x202A5B0;
 
 compressedText = 0x8BBB370;
 
-agbMain = 0x8000a21;
+agbMain = 0x8000A21;
 decompressText = 0x8004241;
+getStringTextWidth = 0x80054CD;
+getCharTextWidth = 0x8005529;
 
 SECTIONS
 {
