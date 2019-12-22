@@ -19,6 +19,12 @@ SECTIONS
 	.rom : {KEEP(*(.rom))}
 	. = 0x8000220;
 	.rodata.pAgbMain : {*(.rodata.pAgbMain)}
+	. = 0x800d6d6;
+	.rodata.patch_tutorial_disabler_d6d6 : {*(.rodata.patch_tutorial_disabler_d6d6)}
+	. = 0x800d752;
+	.rodata.patch_tutorial_disabler_d752 : {*(.rodata.patch_tutorial_disabler_d752)}
+	. = 0x802e3c6;
+	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
 	. = 0x8013318;
 	.text.decodeTextInjector : {*(.text.decodeTextInjector)}
 	. = 0x9000000;
