@@ -25,7 +25,9 @@ void initTextGrid();
 void updateTextGrid();
 void setTextGrid(int x, int y, const char* str);
 int textgridprintf(const char* fmt, ...);
-__attribute__((format(printf, 1, 2))) int savprintf(const char* fmt, ...);
+__attribute__((format(printf, 1, 2))) int savprintf(const char* fmt, ...); // print to 0xe007400
+bool mgba_open(void);
 __attribute__((format(printf, 1, 2))) int debugprintf(const char* fmt, ...);
+void mgba_close(void);
 
 #endif //GBA_DEBUG_PRINT_H

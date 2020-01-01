@@ -14,6 +14,7 @@ extern const char version[];
 void printVersion()
 {
     savprintf(version);
+    mgba_open();
     debugprintf(version);
     initTextGrid();
     textgridprintf(version);
