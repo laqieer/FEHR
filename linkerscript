@@ -3,12 +3,24 @@ ENTRY(_start)
 lastTextID = 0x202B5B0;
 decodedText = 0x202A5B0;
 
+portraitTSALowOrig = 0x81911D4;
+portraitTSAHighOrig = 0x819128C;
+
 compressedText = 0x8BBB370;
+portraitsOrig = 0x8D5E23C;
 
 agbMain = 0x8000A21;
+writeBGPalette = 0x800105D;
 decompressText = 0x8004241;
+func80045FC = 0x80045FD;
 getStringTextWidth = 0x80054CD;
 getCharTextWidth = 0x8005529;
+fixHighPortrait = 0x80070AD;
+playEyeAnimationOrig = 0x80075F1;
+playMouthAnimationOrig = 0x800749D;
+writeTiles = 0x8013689;
+writeTSAPlain = 0x801383D;
+writeTSA = 0x80C0C29;
 
 SECTIONS
 {
@@ -19,6 +31,20 @@ SECTIONS
 	.rom : {KEEP(*(.rom))}
 	. = 0x8000220;
 	.rodata.pAgbMain : {*(.rodata.pAgbMain)}
+	. = 0x80069B0;
+	.text.getPortraitByIDInjector : {*(.text.getPortraitByIDInjector)}
+	. = 0x8006C48;
+	.text.setPortaritOBJPointerInjector : {*(.text.setPortaritOBJPointerInjector)}
+	. = 0x8007160;
+	.text.drawPortraitInBGInjector : {*(.text.drawPortraitInBGInjector)}
+	. = 0x8007774;
+    .text.blinkInjector : {*(.text.blinkInjector)}
+    . = 0x80077E8;
+    .text.func80077E8Injector : {*(.text.func80077E8Injector)}
+    . = 0x8007824;
+    .text.func8007824Injector : {*(.text.func8007824Injector)}
+    . = 0x8007860;
+    .text.winkInjector : {*(.text.winkInjector)}
 	. = 0x800d6d6;
 	.rodata.patch_tutorial_disabler_d6d6 : {*(.rodata.patch_tutorial_disabler_d6d6)}
 	. = 0x800d752;
@@ -27,6 +53,8 @@ SECTIONS
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
 	. = 0x8013318;
 	.text.decodeTextInjector : {*(.text.decodeTextInjector)}
+	. = 0x8BFFA74;
+    .rodata.pPlayMouthAnimation : {*.o(.rodata.pPlayMouthAnimation)}
 	. = 0x9000000;
 	.text : {*(.text*)}
 	.rodata : {*(.rodata*) . = ALIGN(4);}

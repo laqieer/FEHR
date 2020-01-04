@@ -1,4 +1,5 @@
-set(_arch_flags "-mthumb -mthumb-interwork -mcpu=arm7tdmi -mtune=arm7tdmi -ffunction-sections -fdata-sections")
+# -fno-reorder-functions: remove section name .text.unlikely.xxx & .text.hot.xxx, keep section name .text.xxx
+set(_arch_flags "-mthumb -mthumb-interwork -mcpu=arm7tdmi -mtune=arm7tdmi -ffunction-sections -fdata-sections -fno-reorder-functions -fno-inline")
 set(_common_flags "${_arch_flags} -Wall -Wextra -mlong-calls")
 set(_c_flags "-fno-common")
 set(_cxx_flags "-fno-rtti -fno-exceptions -fno-asynchronous-unwind-tables")
