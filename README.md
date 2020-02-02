@@ -1,5 +1,8 @@
 # fe7-jp-stunning-tribble
-A hack based on Fire Emblem 7 Japanese version
+Fire Emblem Heroes on Game Boy Advance.
+![title screen](res/gfx/raw/title_screen.png)
+
+A hack based on Fire Emblem 7 Japanese version.
 
 ## Dependancy
 * devkitpro

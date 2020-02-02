@@ -1,7 +1,18 @@
 ENTRY(_start)
 
+BG0MapBuffer = 0x2022C60;
+BG1MapBuffer = 0x2023460;
+BG2MapBuffer = 0x2023C60;
+BG3MapBuffer = 0x2024460;
+BG0MapAddr = 0x2024C60;
+BG1MapAddr = 0x2024C64;
+BG2MapAddr = 0x2024C68;
+BG3MapAddr = 0x2024C6C;
+
 lastTextID = 0x202B5B0;
 decodedText = 0x202A5B0;
+
+REG_DISPCNT_BUFFER = 0x3002790;
 
 portraitTSALowOrig = 0x81911D4;
 portraitTSAHighOrig = 0x819128C;
@@ -10,7 +21,10 @@ compressedText = 0x8BBB370;
 portraitsOrig = 0x8D5E23C;
 
 agbMain = 0x8000A21;
+setBGMapBufferSyncFlag = 0x8000FD5;
 writeBGPalette = 0x800105D;
+enableOAMBufferSync = 0x80031BD;
+setOBJAttribute = 0x8003215;
 decompressText = 0x8004241;
 func80045FC = 0x80045FD;
 getStringTextWidth = 0x80054CD;
@@ -20,6 +34,8 @@ playEyeAnimationOrig = 0x80075F1;
 playMouthAnimationOrig = 0x800749D;
 writeTiles = 0x8013689;
 writeTSAPlain = 0x801383D;
+showTitleScreenOBJ = 0x80baf35;
+CpuFastSet = 0x80c0551;
 writeTSA = 0x80C0C29;
 
 SECTIONS
@@ -49,12 +65,18 @@ SECTIONS
 	.rodata.patch_tutorial_disabler_d6d6 : {*(.rodata.patch_tutorial_disabler_d6d6)}
 	. = 0x800d752;
 	.rodata.patch_tutorial_disabler_d752 : {*(.rodata.patch_tutorial_disabler_d752)}
-	. = 0x802e3c6;
-	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
+	. = 0x8012e22;
+	.rodata.patch_opening_movie_disabler_12e22 : {*(.rodata.patch_opening_movie_disabler_12e22)}
 	. = 0x8013318;
 	.text.decodeTextInjector : {*(.text.decodeTextInjector)}
+	. = 0x802e3c6;
+	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
+	. = 0x80bcfa8;
+	.rodata.patch_opening_movie_disabler_bcfa8 : {*(.rodata.patch_opening_movie_disabler_bcfa8)}
 	. = 0x8BFFA74;
-    .rodata.pPlayMouthAnimation : {*.o(.rodata.pPlayMouthAnimation)}
+    .rodata.pPlayMouthAnimation : {*(.rodata.pPlayMouthAnimation)}
+	. = 0x8db8ee8;
+    .rodata.procTitleScreen : {*(.rodata.procTitleScreen)}
 	. = 0x9000000;
 	.text : {*(.text*)}
 	.rodata : {*(.rodata*) . = ALIGN(4);}
