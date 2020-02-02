@@ -36,6 +36,7 @@
 *.x86_64
 *.hex
 *.gba
+tool/gbagfx/gbagfx
 
 # Debug files
 *.dSYM/
