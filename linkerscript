@@ -71,6 +71,8 @@ SECTIONS
 	.text.decodeTextInjector : {*(.text.decodeTextInjector)}
 	. = 0x802e3c6;
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
+	. = 0x8082e68;
+	.rodata.pChapterTitles : {*(.rodata.pChapterTitles)}
 	. = 0x80bcfa8;
 	.rodata.patch_opening_movie_disabler_bcfa8 : {*(.rodata.patch_opening_movie_disabler_bcfa8)}
 	. = 0x8BFFA74;
