@@ -23,7 +23,7 @@ aux_source_directory(src DIR_SRCS)
 set_source_files_properties(src/dummy.c PROPERTIES OBJECT_DEPENDS ${CMAKE_SOURCE_DIR}/linkerscript)
 
 process_gfx(GFX_SRCS font.grit title_screen.grit)
-process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit)
+process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit portrait_Anna_commander.grit)
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT}
         src/chapter_title_pre.s

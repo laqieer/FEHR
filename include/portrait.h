@@ -20,4 +20,6 @@ typedef struct Portrait {
 
 typedef struct Proc PortaritProc;
 
+#define DEFINE_PORTRAIT(name) const Portrait portrait##name = {portrait_##name##_tilesetTiles, portrait_##name##_miniTiles, portrait_##name##_tilesetPal, 0, 0, 0, 0};
+
 #endif //FE7_JP_STUNNING_TRIBBLE_PORTRAIT_H
