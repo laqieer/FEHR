@@ -11,6 +11,8 @@
 #include "portrait_alfonse_mini.h"
 #include "portrait_Anna_commander_tileset.h"
 #include "portrait_Anna_commander_mini.h"
+#include "portrait_Sharena_princess_tileset.h"
+#include "portrait_Sharena_princess_mini.h"
 
 const Portrait portraitAlfonse = {
         portrait_alfonse_tilesetTiles,
@@ -20,10 +22,12 @@ const Portrait portraitAlfonse = {
 };
 
 DEFINE_PORTRAIT(Anna_commander)
+DEFINE_PORTRAIT(Sharena_princess)
 
 const Portrait* const portraits[] = {
-    [0x16] = &portraitAlfonse, // Replace Lyn
-    [0x88] = &portraitAnna_commander, // Replace Lyn
+    [0x101] = &portraitAlfonse,
+    [0x102] = &portraitSharena_princess,
+    [0x103] = &portraitAnna_commander,
 };
 
 extern const Portrait portraitsOrig[];
