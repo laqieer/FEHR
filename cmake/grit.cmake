@@ -21,3 +21,26 @@ function(process_gfx gfx_src_files)
     endforeach()
     set(${gfx_src_files} "${result_files}" PARENT_SCOPE)
 endfunction()
+
+function(process_gfx_portrait gfx_src_files_portrait)
+    set(result_files)
+    foreach(grit_file ${ARGN})
+        set(gfx_src_file "${GFX_SRC_DIR}/${grit_file}")
+        string(REPLACE ".grit" "" gfx_src_file ${gfx_src_file})
+        set(gfx_src_file_temp "${GRIT_FILE_DIR}/${grit_file}")
+        string(REPLACE ".grit" "" gfx_src_file_temp ${gfx_src_file_temp})
+        add_custom_command(OUTPUT ${gfx_src_file}_mini.s ${gfx_src_file}_mini.h ${gfx_src_file}_tileset.s ${gfx_src_file}_tileset.h
+                COMMAND ${GRIT_EXECUTABLE} -ff ${grit_file} -fts -O${gfx_src_file}
+                # It seems to be a bug of grit that path doesn't work for -O
+                COMMAND mv ${gfx_src_file_temp}_mini.s ${gfx_src_file}_mini.s
+                COMMAND mv ${gfx_src_file_temp}_mini.h ${gfx_src_file}_mini.h
+                COMMAND mv ${gfx_src_file_temp}_tileset.s ${gfx_src_file}_tileset.s
+                COMMAND mv ${gfx_src_file_temp}_tileset.h ${gfx_src_file}_tileset.h
+                DEPENDS ${GRIT_FILE_DIR}/${grit_file}
+                WORKING_DIRECTORY ${GRIT_FILE_DIR}
+                COMMENT "Processing gfx ${grit_file}"
+                VERBATIM)
+        list(APPEND result_files ${gfx_src_file}_mini.s ${gfx_src_file}_mini.h ${gfx_src_file}_tileset.s ${gfx_src_file}_tileset.h)
+    endforeach()
+    set(${gfx_src_files_portrait} "${result_files}" PARENT_SCOPE)
+endfunction()

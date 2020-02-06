@@ -1,0 +1,53 @@
+OBJ: 112x96(14x12)
+ooooxxxxxxxxoo
+ooooxxxxxxxxoo
+ooooxxxxxxxxoo
+ooooxxxxxxxxoo
+ooyyyyyyyyyyoo
+ooyyyyyyyyyyoo
+ooyyyyyyyyyyoo
+ooyyyyyyyyyyoo
+zzzzzzzzzzzzzz
+zzzzzzzzzzzzzz
+zzzzzzzzzzzzzz
+zzzzzzzzzzzzzz
+
+BG: 80x72(10x9)
+oo|ooxxxxxxxx|oo
+oo|ooxxxxxxxx|oo
+oo|ooxxxxxxxx|oo
+oo|ooxxxxxxxx|oo
+oo|yyyyyyyyyy|oo
+oo|yyyyyyyyyy|oo
+oo|yyyyyyyyyy|oo
+oo|yyyyyyyyyy|oo
+zz|zzzzzzzzzz|zz
+zzzzzzzzzzzzzz
+zzzzzzzzzzzzzz
+zzzzzzzzzzzzzz
+
+Tileset: 256x32(32x4)
+xxxxxxxxyyyyyyyyyyzzzzzzzzzzzzzz
+xxxxxxxxyyyyyyyyyyzzzzzzzzzzzzzz
+xxxxxxxxyyyyyyyyyyzzzzzzzzzzzzzz
+xxxxxxxxyyyyyyyyyyzzzzzzzzzzzzzz
+
+Mini: 32x32(4x4)
+ssss
+ssss
+ssss
+ssss
+
+Template: 112x96(14x12)
+ssssxxxxxxxxoo
+ssssxxxxxxxxoo
+ssssxxxxxxxxoo
+ssssxxxxxxxxoo
+ooyyyyyyyyyyoo
+ooyyyyyyyyyyoo
+ooyyyyyyyyyyoo
+ooyyyyyyyyyyoo
+zzzzzzzzzzzzzz
+zzzzzzzzzzzzzz
+zzzzzzzzzzzzzz
+zzzzzzzzzzzzzz

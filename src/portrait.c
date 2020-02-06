@@ -5,16 +5,27 @@
 #include "portrait.h"
 #include "gba_debug_print.h"
 #include <gba_base.h>
+#include <gba_sprites.h>
+
+#include "portrait_alfonse_tileset.h"
+#include "portrait_alfonse_mini.h"
+
+const Portrait portraitAlfonse = {
+        portrait_alfonse_tilesetTiles,
+        portrait_alfonse_miniTiles,
+        portrait_alfonse_tilesetPal,
+        0, 0, 0, 0
+};
 
 const Portrait* const portraits[] = {
-    0, 0, 0, 0
+    [0x16] = &portraitAlfonse, // Replace Lyn
 };
 
 extern const Portrait portraitsOrig[];
 
 const Portrait *getPortraitByID(int id)
 {
-    if(id < sizeof(portraits) && portraits[id])
+    if(id < sizeof(portraits) / sizeof(portraits[0]) && portraits[id])
         return portraits[id];
     return &portraitsOrig[id];
 }
@@ -30,22 +41,44 @@ void setPortaritOBJPointerOrig(PortaritProc *proc)
     asm(".align 2\n.incbin \"../rom/fe7-jp.gba\",0x6c48,0x6d1c-0x6c48");
 }
 
+// default OBJ template for custom portraits
+const u16 portraitOBJDefault[] = {
+    6,
+    OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(32 - 56) | OBJ_SIZE(3), OBJ_CHAR(0),
+    OBJ_Y(-16 + 32) | ATTR0_TALL, OBJ_X(16 - 56) | OBJ_SIZE(2), OBJ_CHAR(8),
+    OBJ_Y(-16 + 32) | ATTR0_WIDE, OBJ_X(32 - 56) | OBJ_SIZE(3), OBJ_CHAR(10),
+    OBJ_Y(-16 + 32 * 2) | ATTR0_SQUARE, OBJ_X(0 - 56) | OBJ_SIZE(2), OBJ_CHAR(18),
+    OBJ_Y(-16 + 32 * 2) | ATTR0_WIDE, OBJ_X(32 - 56) | OBJ_SIZE(3), OBJ_CHAR(22),
+    OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(96 - 56) | OBJ_SIZE(2), OBJ_CHAR(30),
+    6,
+    OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(- (32 - 56) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(-16 + 32) | ATTR0_TALL, OBJ_X(- (16 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(8),
+    OBJ_Y(-16 + 32) | ATTR0_WIDE, OBJ_X(- (32 - 56) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(10),
+    OBJ_Y(-16 + 32 * 2) | ATTR0_SQUARE, OBJ_X(- (0 - 56) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(18),
+    OBJ_Y(-16 + 32 * 2) | ATTR0_WIDE, OBJ_X(- (32 - 56) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(22),
+    OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(- (96 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(30),
+};
+
 void setPortaritOBJPointer(PortaritProc *proc)
 {
     const Portrait *portrait;
     u32 flag;
+    const u16 *obj;
 
     setPortaritOBJPointerOrig(proc);
     portrait = *(const Portrait **)(&proc->data[3]);
-    if((u32)portrait >= 0x9000000) // for new portraits
+    if((u32)portrait >= 0x9000000) // for custom portraits
     {
         flag = *(u32 *)(&proc->data[7]) & 0x807;
         if(flag == 0x800 || flag == 0x801 || flag <= 5)
         {
+            obj = portrait->obj;
+            if (obj == NULL)
+                obj = portraitOBJDefault;
             if(flag & 1)
-                *(const u16 **)(&proc->data[15]) = portrait->obj; // orientation: right
+                *(const u16 **)(&proc->data[15]) = obj + 1 + 3 * *obj; // orientation: left
             else
-                *(const u16 **)(&proc->data[15]) = portrait->obj + 1 + 3 * *portrait->obj; // orientation: left
+                *(const u16 **)(&proc->data[15]) = obj; // orientation: right
         }
     }
 }
@@ -204,8 +237,23 @@ int fixHighPortrait(int portraitID);
 #define getBGTileAndPaletteIDBaseForTSA(currentBGTileID, currentBGPaletteID) (((currentBGTileID) & 0x3FF) + (((currentBGPaletteID) & 0xF) << 12))
 #define isHighPortrait(portraitIDD) (fixHighPortrait(portraitID)<<24)
 
+// TSA for original portraits
 extern const u16 portraitTSALowOrig[];
 extern const u16 portraitTSAHighOrig[];
+// default TSA for custom portraits
+const u16 portraitTSADefault[] = {
+        0x809,
+        20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+        8 + 32 * 3, 9 + 32 * 3, 10 + 32 * 3, 11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3, 15 + 32 * 3, 16 + 32 * 3, 17 + 32 * 3,
+        8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2,
+        8 + 32, 9 + 32, 10 + 32, 11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32,
+        8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
+        0, 0, 0 + 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3,
+        0, 0, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2,
+        0, 0, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 5 + 32, 6 + 32, 7 + 32,
+        0, 0, 0, 1, 2, 3, 4, 5, 6, 7,
+};
+// mask for original portraits
 const u16 portraitMaskOrig[] = {
         0,1,1,1,1,1,1,1,1,0,
         0,1,1,1,1,1,1,1,1,0,
@@ -213,6 +261,18 @@ const u16 portraitMaskOrig[] = {
         0,1,1,1,1,1,1,1,1,0,
         0,1,1,1,1,1,1,1,1,0,
         0,1,1,1,1,1,1,1,1,0,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1
+};
+// default mask for custom portraits
+const u16 portraitMaskDefault[] = {
+        0,0,1,1,1,1,1,1,1,1,
+        0,0,1,1,1,1,1,1,1,1,
+        0,0,1,1,1,1,1,1,1,1,
+        0,0,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
         1,1,1,1,1,1,1,1,1,1,
         1,1,1,1,1,1,1,1,1,1,
         1,1,1,1,1,1,1,1,1,1
@@ -235,22 +295,23 @@ void drawPortraitInBG(u16 *TSABuffer, int portraitID, int currentBGTileID, int c
         else
         {
             writeTiles(portrait->tiles, 32 * currentBGTileID + VRAM);
-            const u16 *TSA = 0;
+            const u16 *TSA = NULL;
             if((u32)portrait >= 0x9000000)
                 TSA = portrait->bg;
             else if (isHighPortrait(portraitID))
                 TSA = portraitTSAHighOrig;
             else
                 TSA = portraitTSALowOrig;
+            if(TSA == NULL)
+                TSA = portraitTSADefault;
             writeTSA(TSABuffer, TSA, getBGTileAndPaletteIDBaseForTSA(currentBGTileID, currentBGPaletteID));
             // crop
             const u16 *mask = (u32)portrait >= 0x9000000? portrait->mask: portraitMaskOrig;
-            if(mask)
-            {
-                for(i = 0; i < 9; i++)
-                    for(j = 0; j < 10; j++)
-                        TSABuffer[32 * i + j] &= - mask[10 * i + j];
-            }
+            if(mask == NULL)
+                mask = portraitMaskDefault;
+            for(i = 0; i < 9; i++)
+                for(j = 0; j < 10; j++)
+                    TSABuffer[32 * i + j] &= - mask[10 * i + j];
         }
     }
 }

@@ -23,8 +23,9 @@ aux_source_directory(src DIR_SRCS)
 set_source_files_properties(src/dummy.c PROPERTIES OBJECT_DEPENDS ${CMAKE_SOURCE_DIR}/linkerscript)
 
 process_gfx(GFX_SRCS font.grit title_screen.grit)
+process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit)
 
-add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS}
+add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT}
         src/chapter_title_pre.s
         src/rom.s src/dummy.c src/version.c src/gba_debug_print.c include/gba_debug_print.h include/mgba.h src/mgba.c
         src/start.c src/text.c include/text.h src/patch_tutorial_disabler.c src/portrait.c include/portrait.h include/proc.h src/patch_opening_movie_disabler.c src/title_screen_true_color.c src/chapter_title.c)

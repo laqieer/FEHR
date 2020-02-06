@@ -7,7 +7,7 @@
 
 #include "proc.h"
 
-// For new portraits without eye & mouth animation. I am too lazy to create those animation frames :)
+// For custom portraits without eye & mouth animation. I am too lazy to create those animation frames :)
 typedef struct Portrait {
     const u8 *tiles; // 256 x 32
     const u8 *mini; // 32 x 32
