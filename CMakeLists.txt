@@ -27,8 +27,9 @@ process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit portrait_Anna_comma
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT}
         src/chapter_title_pre.s
+        src/res/map/map/map_chap_pre.s
         src/rom.s src/dummy.c src/version.c src/gba_debug_print.c include/gba_debug_print.h include/mgba.h src/mgba.c
-        src/start.c src/text.c include/text.h src/patch_tutorial_disabler.c src/portrait.c include/portrait.h include/proc.h src/patch_opening_movie_disabler.c src/title_screen_true_color.c src/chapter_title.c)
+        src/start.c src/text.c include/text.h src/patch_tutorial_disabler.c src/portrait.c include/portrait.h include/proc.h src/patch_opening_movie_disabler.c src/title_screen_true_color.c src/chapter_title.c src/chapter_map.c src/chapter_setting.c)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx)
