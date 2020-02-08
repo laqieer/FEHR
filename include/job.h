@@ -7,19 +7,21 @@
 
 #include <gba_types.h>
 
-struct JobBattleAnimationConfigData
+struct JobBattleAnimationConf
 {
-    // 武器类型/ID
+    // 装备类型/ID
     union
     {
-        u8 weaponType; // 武器类型
-        u8 weaponID; // 武器ID
+        u8 equipType; // 装备类型
+        u8 equipID; // 装备ID
     };
-    // 武器类型/ID切换控制
-    u8 isWeaponID; // 是否是武器特殊战斗动画
+    // 装备类型/ID切换控制
+    u8 isequipID; // 是否是装备特殊战斗动画
     // 动画编号
     u16 animationId;
 };
+
+enum EquipType {Sword = 0, Lance, Axe, Bow, Staff, AnimaMagic, LightMagic, DarkMagic, EquipItem = 9, DragonStone = 11, Ring = 12, FlameDragonStone = 17, DanceRing = 18};
 
 struct Job
 {
@@ -217,7 +219,7 @@ struct Job
     u8 levelDark;
 
     // 职业战斗动画设定
-    JobBattleAnimationConfig *battleAnimationConf;
+    struct JobBattleAnimationConf *battleAnimationConf;
 
     // 地形移动力消耗(每个地形每种天气每种职业一张表，多个职业共享一张表)
 
