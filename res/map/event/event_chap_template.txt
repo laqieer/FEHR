@@ -1,0 +1,67 @@
+//Made by markyjoe1990 of Youtube
+//Modified by Nintenlord
+//Modified by Crazycolorz5 and Arch
+//Modified by laqieer
+
+#include EAstdlib.event
+
+#include "Project Definition.txt"
+
+
+//ORG VirtualOffset
+Pointers:
+POIN TurnEvents
+POIN CharacterEvents
+POIN LocationEvents
+POIN MiscEvents
+POIN TrapData
+POIN TrapData
+POIN EnemyUnitsEliwoodNM
+POIN EnemyUnitsEliwoodHM
+POIN EnemyUnitsHectorNM
+POIN EnemyUnitsHectorHM
+POIN PlayerUnitsEliwoodNM
+POIN PlayerUnitsEliwoodHM
+POIN PlayerUnitsHectorNM
+POIN PlayerUnitsHectorHM
+POIN OpeningEvent
+POIN EndingEvent
+
+EnemyUnitsEliwoodNM:
+EnemyUnitsEliwoodHM:
+EnemyUnitsHectorNM:
+EnemyUnitsHectorHM:
+UNIT
+
+PlayerUnitsEliwoodNM:
+PlayerUnitsEliwoodHM:
+PlayerUnitsHectorNM:
+PlayerUnitsHectorHM:
+UNIT
+
+TurnEvents:
+OpeningTurnEvent(OpeningEvent)
+END_MAIN
+
+CharacterEvents:
+END_MAIN
+
+LocationEvents:
+END_MAIN
+
+MiscEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+OpeningEvent:
+ENDA
+
+EndingEvent:
+MoveToChapter(NextChapter)
+ENDA
+
+TrapData:
+ENDTRAP
+
+
+MESSAGE Events data size CURRENTOFFSET bytes

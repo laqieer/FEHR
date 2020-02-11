@@ -1,0 +1,7 @@
+#ifndef PROJECT_DEFINITION
+#define PROJECT_DEFINITION
+
+#define VirtualOffset 0
+#define NextChapter 0
+
+#endif
