@@ -1,0 +1,65 @@
+##Ballistae
+BLST, 0, 6, -language:FE7:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
+	1, 0, 1, -fixed 
+##Position of the ballista
+	Position, 1, 2, -coordinates:2 -preferredBase:10
+##Type of the ballista
+	Type, 3, 1
+
+##Fire trap
+FIRE, 0, 6, -language:FE7:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
+	4, 0, 1, -fixed 
+##Position of the trap
+	Position, 1, 2, -coordinates:2 -preferredBase:10
+##Inital Timer
+	TimerStart, 4, 1
+##Repeat Timer
+	TimerRepeat, 5, 2
+
+##Gas trap
+GAST, 0, 6, -language:FE7:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
+	5, 0, 1, -fixed 
+##Position of the trap
+	Position, 1, 2, -coordinates:2 -preferredBase:10
+##Direction of the trap
+	Direction, 3, 1
+##Inital Timer
+	TimerStart, 4, 1
+##Repeat Timer
+	TimerRepeat, 5, 2
+
+##Vertical arrow
+ARROW, 0, 6, -language:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
+	7, 0, 1, -fixed 
+##Position of the trap
+	X coordinate, 1, 1, -coordinates:2 -preferredBase:10
+##Inital Timer
+	TimerStart, 4, 1
+##Repeat Timer
+	TimerRepeat, 5, 2
+
+##Instant fire - may work in FE7 as well but untested
+FIRE2, 0, 6, -language:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
+	8, 0, 1, -fixed 
+##Position of the trap
+	Position, 1, 2, -coordinates:2 -preferredBase:10
+	
+##Mine - may work in FE7 as well but untested
+MINE, 0, 6, -language:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
+	0xB, 0, 1, -fixed 
+##Position of the trap
+	Position, 1, 2, -coordinates:2 -preferredBase:10
+
+##Gorgon egg
+EGG, 0, 6, -language:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
+	0xC, 0, 1, -fixed 
+##Position of the trap
+	Position, 1, 2, -coordinates:2 -preferredBase:10
+##Turn to start hatching
+	StartHatching, 3, 1
+##Level when hatched
+	StartingLevel, 4, 1
+
+ENDTRAP, 0, 1, -language:FE7:FE8 -unsafe -priority:ballista -end -indexMode:8 -offsetMod:1
+	0, 0, 1, -fixed 
+

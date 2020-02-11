@@ -1,0 +1,489 @@
+
+# This contains raw aliases that I (Stan) consider to be better to the existing ones.
+# This is provided separately (perhaps "for now" for some of them) because "better" may be subjective.
+
+## Clears given flag
+FLAG_F, 0x0221, 4, -game:FE8 -indexMode:8
+	Flag, 2, 2, -preferredBase:10
+
+## Clears given flag
+FLAG_T, 0x0229, 4, -game:FE8 -indexMode:8
+	Flag, 2, 2, -preferredBase:10
+
+## Gets flag state in sC
+CHECK_FLAG, 0x0321, 4, -game:FE8 -indexMode:8
+	Flag, 2, 2, -preferredBase:10
+
+## Gets random number between 0 and Max in sC
+CHECK_RAND, 0x0420, 4, -game:FE8 -indexMode:8
+	Max, 2, 2, -preferredBase:10
+
+## Stall for x frames (skippable with B)
+STAL_SKIP, 0x0E21, 4, -game:FE8 -indexMode:8
+	Amount, 2, 2, -preferredBase:10
+
+## Stall for x frames (sped up if A is held or fast game speed)
+STAL_FAST, 0x0E22, 4, -game:FE8 -indexMode:8
+	Amount, 2, 2, -preferredBase:10
+
+## Stall for x frames (combines behavior of STALL_SKIP and STALL_FAST)
+STAL_SKIP_FAST, 0x0E23, 4, -game:FE8 -indexMode:8
+	Amount, 2, 2, -preferredBase:10
+
+## This Configures what the player is allowed to skip or not
+##  - param 0: everything is allowed
+##  - param 1: nothing is allowed
+##  - param 2: no text fast-forwarding
+##  - param 3: no scene-skipping
+##  - param 4: no scene-skipping, no text-skipping (text fast-forwarding still allowed)
+CONFIG_SKIP, 0x1020, 4, -game:FE8 -indexMode:8
+	Config, 2, 2, -preferredBase:10
+
+## Sets Key ignore mask 
+IGNORE_KEYS, 0x1120, 4, -game:FE8 -indexMode:8
+	KeyMask, 2, 2, -preferredBase:2
+
+MUSIC, 0x1220, 4, -game:FE8 -indexMode:8
+	SongId, 2, 2
+
+# Hacky shit ik
+MUSIC, 0, 32, -game:FE8
+	0x132, 4,  12, -fixed
+	SongId, 16, 16
+	Speed,  0,  4, -preferredBase:10
+
+MUSIC_REPLACE, 0x1420, 4, -game:FE8 -indexMode:8
+	SongId, 2, 2
+
+MUSIC_RESTORE, 0x1421, 4, -game:FE8 -indexMode:8
+	Delay, 2, 2, -preferredBase:10
+
+MUSIC_QUIET_T, 0x1520, 4, -game:FE8 -indexMode:8
+
+MUSIC_QUIET_F, 0x1521, 4, -game:FE8 -indexMode:8
+
+SOUND, 0x1620, 4, -game:FE8 -indexMode:8
+	SongId, 2, 2
+
+FADEOUT, 0x1720, 4, -game:FE8 -indexMode:8
+	Speed, 2, 2, -preferredBase:10
+
+FADEIN, 0x1721, 4, -game:FE8 -indexMode:8
+	Speed, 2, 2, -preferredBase:10
+
+FADEOUT_WHITE, 0x1722, 4, -game:FE8 -indexMode:8
+	Speed, 2, 2, -preferredBase:10
+
+FADEIN_WHITE, 0x1723, 4, -game:FE8 -indexMode:8
+	Speed, 2, 2, -preferredBase:10
+
+COLORFADE_INIT, 0x1860, 12, -game:FE8 -indexMode:8
+
+COLORFADE_TERM, 0x1861, 12, -game:FE8 -indexMode:8
+
+COLORFADE_FADE, 0x1862, 12, -game:FE8 -indexMode:8
+	Target, 2,  2, -preferredBase:10 -coordinates:2
+	Speed,  4,  2, -preferredBase:10
+	Red,    6,  2, -preferredBase:10
+	Green,  8,  2, -preferredBase:10
+	Blue,   10, 2, -preferredBase:10
+
+## Get's the Chapter Number associated with the map/location you're on.
+CHECK_CHAPTERID, 0x1921, 4, -game:FE8 -indexMode:8
+
+## Boolean check for Difficult Mode.
+CHECK_ISHARD, 0x1922, 4, -game:FE8 -indexMode:8
+
+## Stores current turn number to slot 0xC.
+CHECK_TURNNUMBER, 0x1923, 4, -game:FE8 -indexMode:8
+
+## Counts up number of enemies on the map
+CHECK_COUNT_RED, 0x1924, 4, -game:FE8 -indexMode:8
+
+## Counts up number of NPCs on the map
+CHECK_COUNT_GREEN, 0x1925, 4, -game:FE8 -indexMode:8
+
+## Gets 1 if you are in a skirmish or dungeon. Used for the Retreat command.
+CHECK_ISSKIRMISH, 0x1926, 4, -game:FE8 -indexMode:8
+
+## Gets 1 if tutorials are enabled (i.e. Easy Mode)
+CHECK_ISTUTORIAL, 0x1927, 4, -game:FE8 -indexMode:8
+
+## Loads the Event ID associated with the current event to slot 0xC.
+CHECK_ACTIVE_FLAG, 0x1929, 4, -game:FE8 -indexMode:8
+
+## Checks your Mode byte; likely checks to see if you are in the postgame.
+CHECK_ISPOSTGAME, 0x192A, 4, -game:FE8 -indexMode:8
+
+# mooom! stan is doing hacky shit again!
+## Sets active text mode
+TEXTMODE, 0, 32, -game:FE8
+	TextMode, 0, 4, -preferredBase:10
+	0x1A2, 4, 12, -fixed
+
+## Displays text given active text mode
+TEXT, 0x1B20, 4, -game:FE8 -indexMode:8
+	MsgId, 2, 2
+
+## Displays text given active text mode. Assumes a text was previously displayed.
+MORETEXT, 0x1B21, 4, -game:FE8 -indexMode:8
+	MsgId, 2, 2
+
+## Clears text-related things.
+TEXTCLEAR, 0x1B22, 4, -game:FE8 -indexMode:8
+
+## Puts face (portrait) on screen
+FACE, 0, 32, -game:FE8
+	0x1E2,    4,  12, -fixed
+	FaceSlot, 0,  4, -preferredBase:10
+	FaceId,   16, 16
+
+## Moves face (portrait) on screen
+FACE_MOVE, 0x1F20, 4, -game:FE8 -indexMode:8
+	FromFaceSlot, 2, 1, -preferredBase:10
+	ToFaceSlot,   3, 1, -preferredBase:10
+
+## Closes text boxes
+TEXTCLOSE, 0x2020, 4, -game:FE8 -indexMode:8
+
+## Displays background given active text type
+BACKGROUND, 0x2140, 8, -game:FE8 -indexMode:8
+	BackgroundId, 2, 2
+
+## Change background given active and target text type.
+BACKGROUND_CHANGE, 0x2141, 8, -game:FE8 -indexMode:8
+	BackgroundId,   2, 2
+	TargetTextType, 4, 2, -preferredBase:10
+	Speed,          6, 2, -preferredBase:10
+
+BACKGROUND_TOCOLOR, 0x2142, 8, -game:FE8 -indexMode:8
+	BackgroundId, 2, 2
+	SourceColor,  4, 2
+	Speed,        6, 2, -preferredBase:10
+
+BACKGROUND_FROMCOLOR, 0x2143, 8, -game:FE8 -indexMode:8
+	SourceColor,  4, 2
+	Speed,        6, 2, -preferredBase:10
+
+HIDEMAP, 0x2320, 4, -game:FE8 -indexMode:8
+
+SHOWMAP, 0x2420, 4, -game:FE8 -indexMode:8
+
+LOADMAP, 0x2520, 4, -game:FE8 -indexMode:8
+	ChapterId, 2, 2, -preferredBase:10
+
+## Moves camera such that given position is visible
+CAMERA, 0x2620, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinates:2 -preferredBase:10
+
+## Moves camera such that given character is visible
+CAMERA, 0x2621, 4, -game:FE8 -indexMode:8
+	Character, 2, 2
+
+## Moves camera such that position in sB is visible
+CAMERA_SB, 0x2620, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+## Centers camera on given position
+CAMERA_CENTERED, 0x2628, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinates:2 -preferredBase:10
+
+## Centers camera on given character
+CAMERA_CENTERED, 0x2629, 4, -game:FE8 -indexMode:8
+	Character, 2, 2
+
+## Centers camera on position in sB
+CAMERA_CENTERED_SB, 0x2628, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+TILEREVERT, 0x2721, 4, -game:FE8 -indexMode:8
+	MapChangeId, 2, 2, -preferredBase:10
+
+WEATHER, 0x2820, 4, -game:FE8 -indexMode:8
+	WeatherId, 2, 2, -preferredBase:10
+
+FOGVISION, 0x2920, 4, -game:FE8 -indexMode:8
+	Vision, 2, 2, -preferredBase:10
+
+## Return to title screen
+GOTO_TITLE, 0x2A20, 4, -game:FE8 -indexMode:8
+
+## Go to world map and call given chapter's WM intro scene
+GOTO_CHAPTER, 0x2A21, 4, -game:FE8 -indexMode:8
+	ChapterId, 2, 2
+
+## Go to given chapter.
+## WARNING: may require preparation in order to not consider the chapter as skirmish.
+GOTO_CHAPTER_NOWM, 0x2A22, 4, -game:FE8 -indexMode:8
+	ChapterId, 2, 2
+
+## Go to given chapter without prompting for a save.
+## WARNING: may require preparation in order to not consider the chapter as skirmish.
+GOTO_CHAPTER_NOSAVE, 0x2A23, 4, -game:FE8 -indexMode:8
+	ChapterId, 2, 2
+
+## Go to save screen, and then plays epilogue events corresponding to current mode
+GOTO_EPILOGUE, 0x2A24, 4, -game:FE8 -indexMode:8
+
+## Sets amount of units to load for next load
+LOADCONFIG_COUNT, 0x2B20, 4, -game:FE8 -indexMode:8
+	UnitCount, 2, 2
+
+## Sets proportion of units marked as being loaded at random position to actually be loaded at random position for next load.
+LOADCONFIG_RANDOM_POS_PROPORTION, 0x2B21, 4, -game:FE8 -indexMode:8
+	Chance, 2, 2
+
+## Disable defined movements ("REDAs") for next load.
+LOADCONFIG_DISABLE_DEFINED_MOVEMENT, 0x2B22, 4, -game:FE8 -indexMode:8
+
+## Load a group of units
+LOAD, 0x2C40, 8, -game:FE8 -indexMode:8 
+	Param, 2, 2
+	Units, 4, 4, -pointer:unit
+
+## Load a group of units (address in s2)
+LOAD_S2, 0x2C40, 8, -game:FE8 -indexMode:8 
+	Param, 2, 2
+	0xFFFFFFFF, 4, 4, -fixed
+
+## Load a group of units. Loaded units will dissapear when the event engine ends.
+LOAD_CUTSCENE, 0x2C41, 8, -game:FE8 -indexMode:8
+	Units, 4, 4, -pointer:unit
+
+## Load a group of units (address in s2). Loaded units will dissapear when the event engine ends.
+LOAD_CUTSCENE_S2, 0x2C41, 8, -game:FE8 -indexMode:8
+	0xFFFFFFFF, 4, 4, -fixed
+
+## Load a group of units. Loaded units get replaced with the player's currently deployed unit list.
+LOAD_DEPLOYED, 0x2C42, 8, -game:FE8 -indexMode:8
+	Param, 2, 2
+	Units, 4, 4, -pointer:unit
+
+## Load a group of units (address in s2). Loaded units get replaced with the player's currently deployed unit list.
+LOAD_DEPLOYED_S2, 0x2C42, 8, -game:FE8 -indexMode:8
+	Param, 2, 2
+	0xFFFFFFFF, 4, 4, -fixed
+
+## Load active skirmish enemy group.
+LOAD_SKIRMISH, 0x2C43, 8, -game:FE8 -indexMode:8
+	Param, 2, 2
+
+UNIT_COLORS, 0x2D20, 32, -game:FE8
+	NewBlue,  16, 4, -preferredBase:10
+	NewRed,   20, 4, -preferredBase:10
+	NewGreen, 24, 4, -preferredBase:10
+
+MOVE_ONTO, 0x2F41, 8, -game:FE8 -indexMode:8
+	Speed, 2, 2, -preferredBase:10
+	CharId, 4, 2
+	TargetCharId, 6, 2
+
+MOVE_DEFINED, 0x2F43, 8, -game:FE8 -indexMode:8
+	CharId, 4, 2
+
+MOVE_CLOSEST, 0x2F48, 8, -game:FE8 -indexMode:8
+	Speed, 2, 2, -preferredBase:10
+	CharId, 4, 2
+	Position, 6, 2, -coordinate:2 -preferredBase:10
+
+MOVE_NEXTTO, 0x2F49, 8, -game:FE8 -indexMode:8
+	Speed, 2, 2, -preferredBase:10
+	CharId, 4, 2
+	TargetCharId, 6, 2
+
+MOVE_1STEP_CLOSEST, 0x2F4A, 8, -game:FE8 -indexMode:8
+	Speed, 2, 2, -preferredBase:10
+	CharId, 4, 2
+	Direction, 6, 2, -preferredBase:10
+
+MOVE_DEFINED_CLOSEST, 0x2F4B, 8, -game:FE8 -indexMode:8
+	CharId, 4, 2
+
+## Shows movement & attack range for unit
+SHOW_MOVERANGE, 0x3120, 4, -game:FE8 -indexMode:8
+	Char, 2, 2
+
+## Hides currently displayed movement & attack range
+HIDE_MOVERANGE, 0x3121, 4, -game:FE8 -indexMode:8
+
+CHECK_BUGGED, 0x3321, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+CHECK_ISALIVE, 0x3322, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+CHECK_ISDEPLOYED, 0x3323, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+CHECK_ISACTIVE, 0x3324, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+CHECK_FACTION, 0x3325, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+HIDEUNIT, 0x3420, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+SHOWUNIT, 0x3421, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+FACTION_BLUE, 0x3422, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+FACTION_GREEN, 0x3423, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+FACTION_RED, 0x3424, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+SET_HASMOVED, 0x3426, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+SET_HASMOVED_AI, 0x3427, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+SET_DEPLOYED, 0x3428, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+REMOVEALL_BLUE, 0x342A, 4, -game:FE8 -indexMode:8
+
+REMOVEALL_GREEN, 0x342B, 4, -game:FE8 -indexMode:8
+
+REMOVEALL_RED, 0x342C, 4, -game:FE8 -indexMode:8
+
+KILL, 0x342D, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+AWAIT_KILL, 0x342E, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+REMOVEUNIT, 0x342F, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+## Checks if given unit is in Area defined by Rect (X, Y, X+W, Y+H) and stores 0 (false) or 1 (true) to slot 0xC accordingly
+CHECK_ISINAREA, 0x3640, 8, -game:FE8 -indexMode:8
+	CharId,     2, 2
+	TopLeftPos, 4, 2, -coordinates:2 -preferredBase:10
+	Size,       6, 2, -coordinates:2 -preferredBase:10
+
+ITEM, 0x3720, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+MONEY, 0x3721, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+TAKEMONEY, 0x3722, 4, -game:FE8 -indexMode:8
+
+SET_AI, 0x3920, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+SET_AI, 0x3921, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinates:2 -preferredBase:10
+
+SET_AI_SB, 0x3921, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+POPUP, 0x3A40, 8, -game:FE8 -indexMode:8
+	MsgId, 2, 2
+	SongId, 4, 2
+
+BROWNBOX, 0x3A41, 8, -game:FE8 -indexMode:8
+	MsgId, 2, 2
+	Position, 6, 2, -coordinates:2 -preferredBase:10
+
+## Display cursor sprite on given position
+CURSOR, 0x3B20, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinate:2 -preferredBase:10
+
+## Display cursor sprite on position in sB
+CUSOR_SB, 0x3B20, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+## Display cursor sprite on unit corresponding to given character
+CURSOR, 0x3B21, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+## Removes every displayed cursor sprites
+REMOVE_CURSORS, 0x3B22, 4, -game:FE8 -indexMode:8
+
+## Display flashing cursor sprite on given position
+CURSOR_FLASHING, 0x3B24, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinate:2 -preferredBase:10
+
+## Display flashing cursor sprite on position in sB
+CURSOR_FLASHING_SB, 0x3B24, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+## Display flashing cursor sprite on unit corresponding to given character
+CURSOR_FLASHING, 0x3B25, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+## Gets player cursor position in sC
+CHECK_CURSOR, 0x3C20, 4, -game:FE8 -indexMode:8
+
+## Sets player cursor position
+SET_CURSOR, 0x3C21, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinate:2 -preferredBase:10
+
+## Sets player cursor position to value of sB
+SET_CURSOR_SB, 0x3C21, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+DISABLEOPTIONS, 0x3D20, 4, -game:FE8 -indexMode:8
+	OptionBits, 2, 2, -preferredBase:2
+
+DISABLEWEAPONS, 0x3D21, 4, -game:FE8 -indexMode:8
+	WeaponBits, 2, 2, -preferredBase:2
+
+PREPSCREEN, 0x3E20, 4, -game:FE8 -indexMode:8
+
+FIGHT, 0x3F40, 8, -game:FE8 -indexMode:8
+	AttackCharId, 2, 2
+	DefendCharId, 4, 2
+	WeaponId,     6, 1
+	IsBallista,   7, 1
+
+FIGHT_MAP, 0x3F41, 8, -game:FE8 -indexMode:8
+	AttackCharId, 2, 2
+	DefendCharId, 4, 2
+	WeaponId,     6, 1
+	IsBallista,   7, 1
+
+FIGHT_SCRIPT, 0x3F42, 8, -game:FE8 -indexMode:8
+
+PROMOTE, 0x4040, 8, -game:FE8 -indexMode:8
+	Character, 2, 2
+	Class, 4, 2
+	Item, 6, 2
+
+WARPOUT, 0x4120, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinate:2 -preferredBase:10
+
+WARPIN, 0x4121, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinate:2 -preferredBase:10
+
+WARPOUT_SB, 0x4120, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+WARPIN_SB, 0x4121, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+ENDWARP, 0x412F, 4, -game:FE8 -indexMode:8
+
+EARTHQUAKE, 0x4220, 4, -game:FE8 -indexMode:8
+	ShakeDirection, 2, 1, -preferredBase:10
+	PlaySoundBool,  3, 1, -preferredBase:10
+
+## Displays summoning animation on the given character
+SUMMONUNIT, 0x4320, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+## Displays sacred stone breaking animation on the given character
+BREAKSTONE, 0x4420, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+#Makes a glowing X underneath the character.
+GLOWINGCROSS, 0x4520, 4, -game:FE8 -indexMode:8
+	CharId, 2, 2
+
+GLOWINGCROSS_END, 0x452F, 4, -game:FE8 -indexMode:8
