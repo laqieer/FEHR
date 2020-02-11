@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ColorzCore/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.DotNet.Analyzers.Compatibility": "0.2.12-alpha",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "ColorzCore.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.DotNet.Analyzers.Compatibility/0.2.12-alpha": {},
+      "System.Data.DataSetExtensions/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "ColorzCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.DotNet.Analyzers.Compatibility/0.2.12-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uu3yAa6hQZJoJZfBwXSvh+bN03KO06sWNZXwodxz7J1wva1g1+O4TnWJxX4dmsP6tLDTZtKy8IHiPLOOZIwt9w==",
+      "path": "microsoft.dotnet.analyzers.compatibility/0.2.12-alpha",
+      "hashPath": "microsoft.dotnet.analyzers.compatibility.0.2.12-alpha.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    }
+  }
+}

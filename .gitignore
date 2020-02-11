@@ -22,6 +22,11 @@
 *.la
 *.lo
 
+# Event Assembler ColorzCore
+tool/event/ColorzCore
+!tool/event/ColorzCore.dll
+!tool/event/ColorzCore.pdb
+
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
