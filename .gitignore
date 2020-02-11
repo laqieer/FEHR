@@ -23,9 +23,11 @@
 *.lo
 
 # Event Assembler ColorzCore
-tool/event/ColorzCore
-!tool/event/ColorzCore.dll
-!tool/event/ColorzCore.pdb
+tool/event/Core
+!tool/event/Core.dll
+!tool/event/Core.pdb
+!tool/event/Nintenlord.dll
+!tool/event/Nintenlord.pdb
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -84,3 +86,5 @@ src/res/gfx/*.s
 
 # Python virtual environment
 venv/
+
+.DS_Store
