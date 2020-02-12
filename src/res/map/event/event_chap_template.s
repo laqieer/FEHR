@@ -7,8 +7,8 @@ Pointers:
 	.word CharacterEvents
 	.word LocationEvents
 	.word MiscEvents
-	.word TrapData
-	.word TrapData
+	.word TrapDataEliwood
+	.word TrapDataHector
 	.word EnemyUnitsEliwoodNM
 	.word EnemyUnitsEliwoodHM
 	.word EnemyUnitsHectorNM
@@ -51,5 +51,6 @@ EndingEvent:
 	.byte 0x02, 0x00, 0x01, 0x00
 	.byte 0x01, 0x00, 0x00, 0x00
 	.byte 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-TrapData:
+TrapDataEliwood:
+TrapDataHector:
 	.byte 0x00

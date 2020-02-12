@@ -14,8 +14,8 @@ POIN TurnEvents
 POIN CharacterEvents
 POIN LocationEvents
 POIN MiscEvents
-POIN TrapData
-POIN TrapData
+POIN TrapDataEliwood
+POIN TrapDataHector
 POIN EnemyUnitsEliwoodNM
 POIN EnemyUnitsEliwoodHM
 POIN EnemyUnitsHectorNM
@@ -60,7 +60,8 @@ EndingEvent:
 MoveToChapter(NextChapter)
 ENDA
 
-TrapData:
+TrapDataEliwood:
+TrapDataHector:
 ENDTRAP
 
 
