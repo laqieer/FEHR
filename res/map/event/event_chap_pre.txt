@@ -1,0 +1,70 @@
+// Chapter prologue event
+
+#include EAStdlib.event
+#include "Project Definition.txt"
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN TrapsEliwoodMode
+POIN TrapsHectorMode
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN BeginningScene
+POIN EndingScene
+
+TurnBasedEvents:
+TURN 0x0 BeginningScene [1,0] 0x0 0x0
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+POIN 0x7AA5D // a bug of EA Core's C mode
+END_MAIN
+
+BeginningScene:
+LOU1 AllyUnitsENM
+ENUN
+CMOF
+LOU1 EnemyUnitsENM
+ENUN
+TEX1 TEXT_CHAP_PRE_OP
+ENDA
+
+EndingScene:
+TEX1 TEXT_CHAP_PRE_ED
+HIDEMAP
+MNCH 0x1
+ENDA
+
+AllyUnitsENM:
+UNIT Alfonse AlfonseLord Anna 0x8 [0,14] [0,14] [IronSword,Vulnerary,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT Anna AnnaLord 0x0 0x8 [0,13] [0,13] [IronAxe,Vulnerary,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+EnemyUnitsENM:
+UNIT GenericSoldierEmblianSuperWeak Soldier 0x0 0xC [0,0] [0,0] [IronLance,0x0,0x0,0x0] [0x0,0x0,0x9,0x0]
+UNIT GenericSoldierEmblianSuperWeak Mercenary 0x0 0xC [14,5] [14,5] [IronSword,0x0,0x0,0x0] [0x0,0x0,0x9,0x0]
+UNIT GenericSoldierEmblianSuperWeak Fighter 0x0 0xC [14,19] [14,19] [IronAxe,0x0,0x0,0x0] [0x0,0x0,0x9,0x0]
+UNIT
+
+TrapsEliwoodMode:
+ENDTRAP
+
+TrapsHectorMode:
+ENDTRAP
