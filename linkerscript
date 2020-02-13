@@ -1,5 +1,7 @@
 ENTRY(_start)
 
+textGrid = 0x203FC00;
+
 BG0MapBuffer = 0x2022C60;
 BG1MapBuffer = 0x2023460;
 BG2MapBuffer = 0x2023C60;
@@ -73,6 +75,18 @@ SECTIONS
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
 	. = 0x8031A6C;
 	.rodata.pChapters1 : {*(.rodata.pChapters1)}
+	. = 0x8079798;
+	.rodata.patch_tutorial_disabler_79798 : {*(.rodata.patch_tutorial_disabler_79798)}
+	. = 0x80797D4;
+	.rodata.patch_tutorial_disabler_797D4 : {*(.rodata.patch_tutorial_disabler_797D4)}
+	. = 0x807982C;
+	.rodata.patch_tutorial_disabler_7982C : {*(.rodata.patch_tutorial_disabler_7982C)}
+	. = 0x8079894;
+	.rodata.patch_tutorial_disabler_79894 : {*(.rodata.patch_tutorial_disabler_79894)}
+	. = 0x80798D4;
+	.rodata.patch_tutorial_disabler_798D4 : {*(.rodata.patch_tutorial_disabler_798D4)}
+	. = 0x80797D0;
+	.rodata.pTutorialEvents : {*(.rodata.pTutorialEvents)}
 	. = 0x80b71f4;
 	.rodata.pChapters2 : {*(.rodata.pChapters2)}
 	. = 0x80b7324;
@@ -85,6 +99,8 @@ SECTIONS
 	.rodata.pChapters6 : {*(.rodata.pChapters6)}
 	. = 0x8031ABC;
 	.rodata.pMaps : {*(.rodata.pMaps)}
+	. = 0x8031B18;
+	.rodata.pEvents : {*(.rodata.pEvents)}
 	. = 0x8082e68;
 	.rodata.pChapterTitles : {*(.rodata.pChapterTitles)}
 	. = 0x80bcfa8;

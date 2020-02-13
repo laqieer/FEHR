@@ -14,8 +14,6 @@
 
 #define textBase ((u16*) VRAM)
 
-char textGrid[GRID_STRIDE * 32];
-
 void updateTextGrid() {
     int i;
     for (i = 0; i < 20 * 32; ++i) {
