@@ -3,6 +3,7 @@
 //
 
 #include <gba_types.h>
+#include "text_id.h"
 
 struct Chapter {
     const char *ref;
@@ -173,10 +174,10 @@ const struct Chapter chapters[] = {
             1060,
             1060,
             1060,
-            0x56a,
-            0x56a,
-            6,
-            1,
+            TEXT_CHAP_PRE_TITLE,
+            TEXT_CHAP_PRE_TITLE,
+            2,
+            0,
             0,
             0,
             0,
@@ -189,11 +190,11 @@ const struct Chapter chapters[] = {
             0xff,
             0,
             0,
-            0,
             1,
-            0x626,
-            0x627,
             0,
+            TEXT_CHAP_STATUS_GOAL_DEFEAT_ALL,
+            TEXT_CHAP_GOAL_DEFEAT_ALL,
+            1,
             0,
             0,
             0xff,
