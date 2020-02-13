@@ -1,7 +1,43 @@
 #ifndef PROJECT_DEFINITION
 #define PROJECT_DEFINITION
 
+#include ../../../include/text_id.h
+#include ../../../include/music_id.h
+
+// For event template
+
 #define VirtualOffset 0
 #define NextChapter 0
+
+// Characters
+
+#define Alfonse Eliwood
+#define Anna Hector
+#define Sharena Lyn
+
+#define Bruno Ursula
+#define Veronica Sonia
+
+#define GenericSoldierAskr 0x75
+#define GenericSoldierAskrWeak 0x76
+#define GenericSoldierAskrStrong 0x77
+
+#define GenericSoldierEmblian 0x67
+#define GenericSoldierEmblianWeak 0x68
+#define GenericSoldierEmblianStrong 0x69
+#define GenericSoldierEmblianSuperWeak 0x88
+
+#define GenericSoldierSummoned 0x72
+#define GenericSoldierSummonedWeak 0x73
+#define GenericSoldierSummonedStrong 0x74
+
+#define GenericSoldierFlame 0x7c
+#define GenericSoldierFlameWeak 0x7d
+#define GenericSoldierFlameStrong 0x7e
+
+// Classes
+
+#define AlfonseLord EliwoodLord
+#define AnnaLord HectorLord
 
 #endif
