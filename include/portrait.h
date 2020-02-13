@@ -20,6 +20,10 @@ typedef struct Portrait {
 
 typedef struct Proc PortaritProc;
 
+#define PORTRAIT_NO_MASK 4
+
 #define DEFINE_PORTRAIT(name) const Portrait portrait##name = {portrait_##name##_tilesetTiles, portrait_##name##_miniTiles, portrait_##name##_tilesetPal, 0, 0, 0, 0};
+#define DEFINE_PORTRAIT_SPECIAL(name) const Portrait portrait##name = {portrait_##name##_tilesetTiles, portrait_##name##_miniTiles, portrait_##name##_tilesetPal, portrait_##name##_obj, 0, portrait_##name##_bg, portrait_##name##_mask};
+#define DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(name) const Portrait portrait##name = {portrait_##name##_tilesetTiles, portrait_##name##_miniTiles, portrait_##name##_tilesetPal, portrait_##name##_obj, 0, portrait_##name##_bg, PORTRAIT_NO_MASK};
 
 #endif //FE7_JP_STUNNING_TRIBBLE_PORTRAIT_H
