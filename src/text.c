@@ -11,6 +11,12 @@ const char* const texts[] = {
         // Tutorial Lyn's character description
         [0x01B4] = "キアラン公女、本名はリンディス。草原で一人、生きてきた過去を持つ、気丈でさっぱりとした性格。",
 
+        // character GenericSoldierEmblianSuperWeak name
+        [0x557] = "エンブラ兵",
+
+        // character GenericSoldierEmblianSuperWeak name
+        [0x221] = "エンブラ帝国の兵士",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
