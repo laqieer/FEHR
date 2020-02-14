@@ -14,8 +14,20 @@ const char* const texts[] = {
         // character GenericSoldierEmblianSuperWeak name
         [0x557] = "エンブラ兵",
 
-        // character GenericSoldierEmblianSuperWeak name
+        // character GenericSoldierEmblianSuperWeak description
         [0x221] = "エンブラ帝国の兵士",
+
+        // character Alfonse name
+        [0x4E4] = "アルフォンス",
+
+        // character Alfonse description
+        [0x1B2] = "アスク王国の王子。優しく真面目な性格。特務機関の一員として、国の平和を守っている。",
+
+        // character Anna name
+        [0x4E5] = "アンナ",
+
+        // character Anna description
+        [0x1B3] = "特務機関の隊長。アルフォンスたちの上官。経験豊富な頼れる人物。",
 
         // Chapter event dialogue
 
