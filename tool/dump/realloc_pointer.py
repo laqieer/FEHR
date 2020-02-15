@@ -10,6 +10,7 @@ ptrs = {
     "Job": b'\x68\xf4\xc4\x08',
     "Item": b'\x38\x15\xc5\x08',
     "StandingSprite": b'\xb8\x13\xd6\x08',
+    "MovingSprite": b'\xb4\x50\xd6\x08',
 }
 
 structName = sys.argv[1]

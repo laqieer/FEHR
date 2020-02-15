@@ -18,3 +18,12 @@
 .rodata.pStandingSprites9 : {*(.rodata.pStandingSprites9)}
 . = 0x8026958;
 .rodata.pStandingSprites10 : {*(.rodata.pStandingSprites10)}
+
+. = 0x806DD60;
+.rodata.pMovingSprites1 : {*(.rodata.pMovingSprites1)}
+. = 0x806DD8C;
+.rodata.pMovingSprites2 : {*(.rodata.pMovingSprites2)}
+. = 0x8402B10;
+.rodata.pMovingSprites3 : {*(.rodata.pMovingSprites3)}
+. = 0x8402B14;
+.rodata.pMovingSprites4 : {*(.rodata.pMovingSprites4)}

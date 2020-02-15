@@ -37,6 +37,12 @@ infos = {
         "list": "Class List.txt",
         "startIndex": 1
     },
+    "MovingSprite": {
+        "format": "u32u32<",
+        "start": 0xd650b4,
+        "list": "Class List.txt",
+        "startIndex": 1
+    },
 }
 
 structName = sys.argv[1]
