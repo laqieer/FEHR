@@ -51,7 +51,10 @@ struct Character {
     // 能力基础值
 
     // 等级
-    s8 baseLv;
+    s8 Lv;
+
+    // hp
+    s8 baseHp;
     // 力/魔力
     s8 baseStr;
     // 技术
