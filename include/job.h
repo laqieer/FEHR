@@ -239,17 +239,16 @@ struct Job
     // 魔防
     u8 *terrainBonusRes;
     // 未知指针，偏移0x50
-    /* 在下列职业中被用到:
-        0x1C Monk
-        0x1D Cleric
-        0x1E Bishop
-        0x1F Bishop(F)
-        0x39 Brigand
-        0x3A Pirate
-        0x3B Berserker
-        0x50 Corsair
-        即修道士、修女、司祭、山贼、海贼、湖贼、狂战士
-    */
+    // 在下列职业中被用到:
+    //    0x1C Monk
+    //    0x1D Cleric
+    //    0x1E Bishop
+    //    0x1F Bishop(F)
+    //    0x39 Brigand
+    //    0x3A Pirate
+    //    0x3B Berserker
+    //    0x50 Corsair
+    //    即修道士、修女、司祭、山贼、海贼、湖贼、狂战士
     u8 *unk_50;
 };
 
