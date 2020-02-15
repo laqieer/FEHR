@@ -71,6 +71,13 @@ SECTIONS
 	.rodata.patch_opening_movie_disabler_12e22 : {*(.rodata.patch_opening_movie_disabler_12e22)}
 	. = 0x8013318;
 	.text.decodeTextInjector : {*(.text.decodeTextInjector)}
+	. = 0x8017CE0;
+    .rodata.pJobs1 : {*(.rodata.pJobs1)}
+    . = 0x8018C1C;
+    .rodata.pJobs2 : {*(.rodata.pJobs2)}
+    . = 0x8019118;
+    .rodata.pJobs3 : {*(.rodata.pJobs3)}
+    INCLUDE ../lds/items.ld
 	. = 0x802e3c6;
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
 	. = 0x8031A6C;
@@ -87,6 +94,40 @@ SECTIONS
 	.rodata.patch_tutorial_disabler_798D4 : {*(.rodata.patch_tutorial_disabler_798D4)}
 	. = 0x80797D0;
 	.rodata.pTutorialEvents : {*(.rodata.pTutorialEvents)}
+	. = 0x809ac50;
+	.rodata.pCharacters1 : {*(.rodata.pCharacters1)}
+	. = 0x809add0;
+	.rodata.pCharacters2 : {*(.rodata.pCharacters2)}
+	. = 0x809bab4;
+	.rodata.pCharacters3 : {*(.rodata.pCharacters3)}
+	. = 0x809bb2c;
+	.rodata.pCharacters4 : {*(.rodata.pCharacters4)}
+	. = 0x809bdac;
+	.rodata.pCharacters5 : {*(.rodata.pCharacters5)}
+	. = 0x809c518;
+	.rodata.pCharacters6 : {*(.rodata.pCharacters6)}
+	. = 0x809c768;
+	.rodata.pCharacters7 : {*(.rodata.pCharacters7)}
+	. = 0x809c924;
+	.rodata.pCharacters8 : {*(.rodata.pCharacters8)}
+	. = 0x809cec0;
+	.rodata.pCharacters9 : {*(.rodata.pCharacters9)}
+	. = 0x809d124;
+	.rodata.pCharacters10 : {*(.rodata.pCharacters10)}
+	. = 0x809d290;
+	.rodata.pCharacters11 : {*(.rodata.pCharacters11)}
+	. = 0x809d7e4;
+	.rodata.pCharacters12 : {*(.rodata.pCharacters12)}
+	. = 0x809dfac;
+	.rodata.pCharacters13 : {*(.rodata.pCharacters13)}
+	. = 0x809f7b0;
+	.rodata.pCharacters14 : {*(.rodata.pCharacters14)}
+	. = 0x809f888;
+	.rodata.pCharacters15 : {*(.rodata.pCharacters15)}
+	. = 0x80b9494;
+	.rodata.pCharacters16 : {*(.rodata.pCharacters16)}
+	. = 0x80b96e4;
+	.rodata.pCharacters17 : {*(.rodata.pCharacters17)}
 	. = 0x80b71f4;
 	.rodata.pChapters2 : {*(.rodata.pChapters2)}
 	. = 0x80b7324;
