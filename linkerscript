@@ -128,6 +128,12 @@ SECTIONS
 	.rodata.pCharacters16 : {*(.rodata.pCharacters16)}
 	. = 0x80b96e4;
 	.rodata.pCharacters17 : {*(.rodata.pCharacters17)}
+    . = 0x8017C80;
+    .rodata.pCharacters18 : {*(.rodata.pCharacters18)}
+    . = 0x8017DDC;
+    .rodata.pCharacters19 : {*(.rodata.pCharacters19)}
+    . = 0x8019130;
+    .rodata.pCharacters20 : {*(.rodata.pCharacters20)}
 	. = 0x80b71f4;
 	.rodata.pChapters2 : {*(.rodata.pChapters2)}
 	. = 0x80b7324;

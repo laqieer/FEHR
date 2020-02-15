@@ -6,7 +6,7 @@ if len(sys.argv) == 1:
     print(sys.argv[0], " Character/Job/Item")
 
 ptrs = {
-    "Character": b'\x58\xc1\xc4\x08',
+    "Character": b'\x24\xc1\xc4\x08',
     "Job": b'\x68\xf4\xc4\x08',
     "Item": b'\x38\x15\xc5\x08',
 }
