@@ -38,7 +38,7 @@ struct EquipBuff
     s8 con;
 };
 
-struct ItemInfo
+struct Item
 {
 
     // The name
