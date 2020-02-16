@@ -49,6 +49,18 @@ infos = {
         "list": "Character Palettes.txt",
         "startIndex": 1
     },
+    "Song": {
+        "format": "u32u16u16<",
+        "start": 0x6ea8d0,
+        "list": "Music.txt",
+        "startIndex": 1
+    },
+    "SoundRoomEntry": {
+        "format": "u32u32u32u32<",
+        "start": 0xdae514,
+        "list": "Sound Room.txt",
+        "startIndex": 1
+    },
 }
 
 structName = sys.argv[1]
