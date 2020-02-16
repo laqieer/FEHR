@@ -4,8 +4,10 @@
 
 #include "map_sprite.h"
 
+#include "standing_sprite_Alfonse.h"
+
 const struct StandingSprite standingSprites[] = {
-    {2, 1, 137858152} ,  // 0x01 Eliwood Lord
+    {2, 1, standing_sprite_AlfonseTiles} ,  // 0x01 Eliwood Lord
 
     {2, 0, 137858548} ,  // 0x02 Lyn Lord
 
