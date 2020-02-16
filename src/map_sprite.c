@@ -5,13 +5,15 @@
 #include "map_sprite.h"
 
 #include "standing_sprite_Alfonse.h"
+#include "moving_sprite_Alfonse.h"
+#include "standing_sprite_Anna.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 1, standing_sprite_AlfonseTiles} ,  // 0x01 Eliwood Lord
 
     {2, 0, 137858548} ,  // 0x02 Lyn Lord
 
-    {2, 1, 137858832} ,  // 0x03 Hector Lord
+    {2, 1, standing_sprite_AnnaTiles} ,  // 0x03 Hector Lord
 
     {2, 1, 137859304} ,  // 0x04 Lord Knight {only by class name}
 
@@ -219,7 +221,7 @@ const struct StandingSprite * const pStandingSprites9 = standingSprites;
 const struct StandingSprite * const pStandingSprites10 = standingSprites;
 
 const struct MovingSprite movingSprites[] = {
-    {138147624, 138150124} ,  // 0x01 Eliwood Lord
+    {moving_sprite_AlfonseTiles, 138150124} ,  // 0x01 Eliwood Lord
 
     {138150468, 138152452} ,  // 0x02 Lyn Lord
 
