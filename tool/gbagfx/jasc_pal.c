@@ -38,15 +38,21 @@ void ReadJascPaletteLine(FILE *fp, char *line)
             c = fgetc(fp);
 
             if (c != '\n')
-                FATAL_ERROR("CR line endings aren't supported.\n");
-
+            {
+                fseek(fp, -1, SEEK_CUR);
+                line[length] = 0;
+            }
             line[length] = 0;
 
             return;
         }
 
         if (c == '\n')
-            FATAL_ERROR("LF line endings aren't supported.\n");
+        {
+            line[length] = 0;
+
+            return;
+        }
 
         if (c == EOF)
             FATAL_ERROR("Unexpected EOF. No CRLF at end of file.\n");
