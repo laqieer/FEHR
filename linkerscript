@@ -79,6 +79,7 @@ SECTIONS
     .rodata.pJobs3 : {*(.rodata.pJobs3)}
     INCLUDE ../lds/items.ld
     INCLUDE ../lds/map_sprites.ld
+    INCLUDE ../lds/character_palette.ld
 	. = 0x802e3c6;
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
 	. = 0x8031A6C;

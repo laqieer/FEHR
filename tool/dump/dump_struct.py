@@ -43,6 +43,12 @@ infos = {
         "list": "Class List.txt",
         "startIndex": 1
     },
+    "CharacterPalette": {
+        "format": "t96u32<",
+        "start": 0xfd8008,
+        "list": "Character Palettes.txt",
+        "startIndex": 1
+    },
 }
 
 structName = sys.argv[1]
