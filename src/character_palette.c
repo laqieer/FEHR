@@ -4,6 +4,8 @@
 
 #include "character_palette.h"
 
+extern u8 * const character_palette_Alfonse_lz[];
+
 const struct CharacterPalette characterPalettes[] = {
     {"lin", 150835200} ,  // 0x01 Lyn unpromoted
 
@@ -244,6 +246,8 @@ const struct CharacterPalette characterPalettes[] = {
     {"kishuna", 150847272} ,  // 0x77 Kishuna
 
     {"groznyi", 150847332} ,  // 0x78 Groznyi
+
+    {"alfonse", character_palette_Alfonse_lz}, // 0x79 Alfonse
 };
 
 const struct CharacterPalette * const pCharacterPalettes1 = characterPalettes;
