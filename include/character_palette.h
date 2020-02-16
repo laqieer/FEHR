@@ -9,7 +9,7 @@
 
 struct CharacterPalette {
     const char characterName[12];
-    u16 * palette;
+    u8 * paletteLZ; // LZ77 compressed palette group containing 5 palettes
 };
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_PALETTE_H
