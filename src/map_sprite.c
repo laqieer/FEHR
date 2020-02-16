@@ -7,6 +7,7 @@
 #include "standing_sprite_Alfonse.h"
 #include "moving_sprite_Alfonse.h"
 #include "standing_sprite_Anna.h"
+#include "moving_sprite_Anna.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 1, standing_sprite_AlfonseTiles} ,  // 0x01 Eliwood Lord
@@ -225,7 +226,7 @@ const struct MovingSprite movingSprites[] = {
 
     {138150468, 138152452} ,  // 0x02 Lyn Lord
 
-    {138152796, 138155020} ,  // 0x03 Hector Lord
+    {moving_sprite_AnnaTiles, 138155020} ,  // 0x03 Hector Lord
 
     {138147624, 138150124} ,  // 0x04 Lord Knight (only by class name)
 
