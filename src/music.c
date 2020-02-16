@@ -5,6 +5,9 @@
 #include "music.h"
 #include "music_id.h"
 
+extern const u8 musicEventPlain1[];
+extern const u8 musicEventSerious1[];
+
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0001 Precious Things
 
@@ -1428,6 +1431,8 @@ const struct Song songs[] = {
         {141477904, 0, 0} ,  //
         {141477904, 0, 0} ,  //
         {141477904, 0, 0} ,  //
+        [MUSIC_EVENT_PLAIN_1] = {musicEventPlain1, 0, 0},
+        [MUSIC_EVENT_SERIOUS_1] = {musicEventSerious1, 0, 0},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1549,8 +1554,11 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {118, 3840, 134921309, 138646628} ,  //
 
     // Insert new entry here
+    {MUSIC_EVENT_PLAIN_1, 61 * 0x30, 0, "イベント平和一"},
+    {MUSIC_EVENT_SERIOUS_1, 61 * 0x30, 0, "イベント緊張一"},
 
-    {0xffffffff, 0, 0, 0}, // End of table
+    // End of table
+    {0xffffffff, 0, 0, 0},
     {0xffffffff, 0, 0, 0}
 };
 
