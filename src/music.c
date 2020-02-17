@@ -1558,8 +1558,8 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_EVENT_SERIOUS_1, 61 * 0x30, 0, "イベント緊張一"},
 
     // End of table
-    {0xffffffff, 0, 0, 0},
-    {0xffffffff, 0, 0, 0}
+    {-1, 0, 0, 0},
+    {-1, 0, 0, 0}
 };
 
 const struct SoundRoomEntry * const pSoundRoomEntrys1 = soundRoomEntries;

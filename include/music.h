@@ -14,9 +14,9 @@ struct Song {
 };
 
 struct SoundRoomEntry {
-    u32 SongId;
+    int SongId;
     u32 length;
-    void * func;
+    void * conditionFunc; // For bonus songs
     const char * name;
 };
 

@@ -56,7 +56,7 @@ infos = {
         "startIndex": 1
     },
     "SoundRoomEntry": {
-        "format": "u32u32u32u32<",
+        "format": "s32u32u32u32<",
         "start": 0xdae514,
         "list": "Sound Room.txt",
         "startIndex": 1
