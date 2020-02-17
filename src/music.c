@@ -8,6 +8,7 @@
 extern const u8 musicEventPlain1[];
 extern const u8 musicEventSerious1[];
 extern const u8 musicEventSerious3[];
+extern const u8 musicMapFE3[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0001 Precious Things
@@ -1435,6 +1436,7 @@ const struct Song songs[] = {
         [MUSIC_EVENT_PLAIN_1] = {musicEventPlain1, 0, 0},
         [MUSIC_EVENT_SERIOUS_1] = {musicEventSerious1, 0, 0},
         [MUSIC_EVENT_SERIOUS_3] = {musicEventSerious3, 0 , 0},
+        [MUSIC_MAP_FE03] = {musicMapFE3, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1561,6 +1563,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_EVENT_PLAIN_1, 61 * 0x30, 0, "イベント平和一"},
     {MUSIC_EVENT_SERIOUS_1, 69 * 0x30, 0, "イベント緊張一"},
     {MUSIC_EVENT_SERIOUS_3, 99 * 0x30, 0, "イベント緊張三"},
+    {MUSIC_MAP_FE03, 77 * 0x30, 0, "決起の時"},
 
     // End of table
     {-1, 0, 0, 0},
