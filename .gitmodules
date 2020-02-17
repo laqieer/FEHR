@@ -1,3 +1,6 @@
 [submodule "tool/music/mid2agb"]
 	path = tool/music/mid2agb
 	url = https://github.com/snallapa/mid2agb-modified.git
+[submodule "tool/music/midi2agb"]
+	path = tool/music/midi2agb
+	url = https://github.com/ipatix/midi2agb.git
