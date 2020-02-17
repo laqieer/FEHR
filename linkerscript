@@ -163,6 +163,7 @@ SECTIONS
     .rodata.pPlayMouthAnimation : {*(.rodata.pPlayMouthAnimation)}
 	. = 0x8db8ee8;
     .rodata.procTitleScreen : {*(.rodata.procTitleScreen)}
+    /*INCLUDE ../lds/patch_song_music_track_note.ld*/
 	. = 0x9000000;
 	.text : {*(.text*)}
 	.rodata : {*(.rodata*) . = ALIGN(4);}
