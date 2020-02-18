@@ -153,6 +153,8 @@ SECTIONS
 	.rodata.pChapters6 : {*(.rodata.pChapters6)}
 	. = 0x8031ABC;
 	.rodata.pMaps : {*(.rodata.pMaps)}
+	. = 0x8031AE8;
+	.rodata.pMapChanges : {*(.rodata.pMapChanges)}
 	. = 0x8031B18;
 	.rodata.pEvents : {*(.rodata.pEvents)}
 	. = 0x8082e68;

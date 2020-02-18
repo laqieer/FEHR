@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tool/music/mid2agb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tool/music/midi2agb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tool/music/midi2agb/cppmidi" vcs="Git" />
   </component>
 </project>
