@@ -16,12 +16,14 @@ struct JobBattleAnimationConf
         u8 equipID; // 装备ID
     };
     // 装备类型/ID切换控制
-    u8 isequipID; // 是否是装备特殊战斗动画
+    u8 isequipType; // 是否是装备类型的战斗动画
     // 动画编号
     u16 animationId;
 };
 
-enum EquipType {Sword = 0, Lance, Axe, Bow, Staff, AnimaMagic, LightMagic, DarkMagic, EquipItem = 9, DragonStone = 11, Ring = 12, FlameDragonStone = 17, DanceRing = 18};
+#define JobBattleAnimationConfEnd {0, 0, 0}
+
+enum EquipType {Sword = 0, Lance, Axe, Bow, Staff, AnimaMagic, LightMagic, DarkMagic, Disarmed = 9, DragonStone = 11, Ring = 12, FlameDragonStone = 17, DanceRing = 18};
 
 struct Job
 {

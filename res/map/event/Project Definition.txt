@@ -39,5 +39,6 @@
 
 #define AlfonseLord EliwoodLord
 #define AnnaLord HectorLord
+#define SharenaLord LynLord
 
 #endif
