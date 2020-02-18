@@ -1,0 +1,77 @@
+// Chapter prologue event
+
+#include EAStdlib.event
+#include "Project Definition.txt"
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN TrapsEliwoodMode
+POIN TrapsHectorMode
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN BeginningScene
+POIN EndingScene
+
+TurnBasedEvents:
+TURN 0x0 BeginningScene [1,0] 0x0 0x0
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+POIN 0x7AA5D // a bug of EA Core's C mode
+END_MAIN
+
+BeginningScene:
+LOU1 AllyUnitSharena
+ENUN
+LOU1 AllyUnitsENM
+ENUN
+TEX1 TEXT_CHAP_1_OP_1
+LOU1 EnemyUnitsENM
+ENUN
+TEX1 TEXT_CHAP_1_OP_2
+ENDA
+
+EndingScene:
+TEX1 TEXT_CHAP_1_ED_1
+TEX1 TEXT_CHAP_1_ED_2
+MNCH 0
+ENDA
+
+AllyUnitsENM:
+UNIT Alfonse AlfonseLord Anna 0x8 [7,0] [7,0] [0x0,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT Anna AnnaLord 0x0 0x8 [9,0] [9,0] [0x0,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+EnemyUnitsENM:
+UNIT GenericSoldierSummonedWeak WyvernKnight_F 0x0 0x15 [14,16] [14,16] [IronLance,0x0,0x0,0x0] [0x0,0x3,0x9,0x0]
+UNIT GenericSoldierSummonedWeak PegasusKnight 0x0 0x14 [11,18] [11,18] [IronLance,0x0,0x0,0x0] [0x0,0x3,0x9,0x0]
+UNIT GenericSoldierSummonedWeak PegasusKnight 0x0 0x14 [12,18] [12,18] [IronLance,0x0,0x0,0x0] [0x0,0x3,0x9,0x0]
+UNIT GenericSoldierSummonedWeak Cleric 0x0 0x14 [14,15] [14,15] [Heal,0x0,0x0,0x0] [0xe,0x3,0x0,0x0]
+UNIT
+
+AllyUnitSharena:
+UNIT Sharena SharenaLord Anna 0x8 [11,0] [11,0] [IronLance,Vulnerary,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+TrapsEliwoodMode:
+ENDTRAP
+
+TrapsHectorMode:
+ENDTRAP

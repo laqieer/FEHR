@@ -2,9 +2,15 @@
 // Created by laqieer on 2019/12/12.
 //
 
+// help debug: http://freaka.freehostia.com/charset_js.html
+
+#include <stdbool.h>
+
 #include "text.h"
 #include "text_id.h"
 #include "portrait_id.h"
+
+#define TEXT_AUTO_NEW_LINE false
 
 // Add game text here
 const char* const texts[] = {
@@ -16,6 +22,12 @@ const char* const texts[] = {
 
         // character GenericSoldierEmblianSuperWeak description
         [0x221] = "エンブラ帝国の兵士",
+
+        // GenericSoldierSummoned name
+        [1377] = "異界の英雄",
+
+        // GenericSoldierSummoned description
+        [555] = "ヴェロニカと契約を結ぶ英雄",
 
         // character Alfonse name
         [0x4E4] = "アルフォンス",
@@ -128,6 +140,125 @@ const char* const texts[] = {
                    // Chapter title
                    [TEXT_CHAP_PRE_TITLE] = "至天の世界",
                    [TEXT_CHAP_1_TITLE] = "奴が力を示せ",
+
+                   // Chapter 1 opening part 1
+                   [TEXT_CHAP_1_OP_1] = TCC_OPEN_MID_LEFT
+                           TCC_LOAD_FACE PORTRAIT_SHARENA
+                           "アンナ隊長、お兄様！" TCC_NEWLINE
+                           "来るのが遅いですよーっ！" TCC_PUSH_A
+                           TCC_OPEN_RIGHT
+                           TCC_LOAD_FACE PORTRAIT_ALFONSE
+                           "すまない、シャロン。" TCC_NEWLINE
+                           "ここに来るまでに戦闘があってね。" TCC_PUSH_A
+                           TCC_OPEN_MID_LEFT
+                           "んん？そのお隣にいる方は。。。" TCC_NEWLINE
+                           "その手に燦然と輝く神器は。。。" TCC_NEWLINE TCC_PUSH_A
+                           "もしやあなたが、異界の大英雄様！？" TCC_NEWLINE
+                           "機関全員で夢にまで見た、" TCC_NEWLINE
+                           //"噂の救世主ですかーーっ！？" TCC_PUSH_A
+                           // somehow kanji 噂 will miss 0x5c here
+                           "\x89\x5Cの救世主ですかーーっ！？" TCC_PUSH_A
+                           TCC_OPEN_RIGHT
+                           "ああ。名は"TCC_TACTICIAN_NAME"だ。" TCC_NEWLINE
+                           "先程も見事な指揮で、" TCC_NEWLINE
+                           "僕たちに力を貸してくれた。" TCC_PUSH_A
+                           TCC_OPEN_MID_LEFT
+                           "すごーーい！すごいです！！" TCC_NEWLINE
+                           "さすが"TCC_TACTICIAN_NAME"さん！" TCC_NEWLINE
+                           "百年前からファンでしたっ！！" TCC_NEWLINE TCC_PUSH_A
+                           //"あ、申し遅れました！私、シャロンです！" TCC_NEWLINE
+                           "あ、\x90\x5Cし遅れました！私、シャロンです！" TCC_NEWLINE
+                           "アスク王国の王女で、" TCC_NEWLINE
+                           "アルフォンスお兄様の妹なんですよ。"TCC_PUSH_A
+                           TCC_OPEN_RIGHT
+                           "それでシャロン、戦況は？" TCC_PUSH_A
+                           TCC_OPEN_MID_LEFT
+                           "一言で言うとまずいですね。" TCC_NEWLINE
+                           "エンブラ軍の奴ら、" TCC_NEWLINE
+                           "空飛ぶ赤い英雄を従えたんです。" TCC_PUSH_A
+                           TCC_OPEN_RIGHT
+                           "紋章の異界にいる、" TCC_NEWLINE
+                           "赤色の飛兵。。。" TCC_NEWLINE
+                           "もしやミネルバ王女か？" TCC_NEWLINE TCC_PUSH_A
+                           "苦戦を強いられるかもしれないが、" TCC_NEWLINE
+                           "弓兵の英雄を連れていれば" TCC_NEWLINE
+                           "あるいは。。。" TCC_NEWLINE TCC_PUSH_A
+                           TCC_OPEN_RIGHT
+                           TCC_CLEAR_FACE
+                           TCC_OPEN_MID_LEFT
+                           TCC_CLEAR_FACE,
+
+        // Chapter 1 opening part 2
+        [TEXT_CHAP_1_OP_2] = TCC_OPEN_LEFT
+                             TCC_LOAD_FACE PORTRAIT_ALFONSE
+                             TCC_OPEN_MID_LEFT
+                             TCC_LOAD_FACE PORTRAIT_SHARENA
+                             TCC_OPEN_FAR_LEFT
+                             TCC_LOAD_FACE PORTRAIT_ANNA
+                             TCC_OPEN_FAR_FAR_RIGHT
+                             "わたしはミネルバ。" TCC_NEWLINE
+                             "マケドニア王女だ。" TCC_NEWLINE
+                             "異邦の旅人よ。元いた世界に帰りなさい。" TCC_NEWLINE TCC_PUSH_A
+                             "我が身は既に「契約」を結ばれた。" TCC_NEWLINE
+                             "エンブラ皇女ヴェロニカの命により、" TCC_NEWLINE
+                             "これから異界に攻め入ることになる。" TCC_PUSH_A
+                             TCC_OPEN_LEFT
+                             "ミネルバ王女、僕はアルフォンス。" TCC_NEWLINE
+                             "あなたが攻め入ることを命じられた" TCC_NEWLINE
+                             "アスク王国の王子です。" TCC_NEWLINE TCC_PUSH_A
+                             "どうか、武器を収めてください。" TCC_NEWLINE
+                             "僕たちは英雄たちとの戦争を" TCC_NEWLINE
+                             "望んではいません。" TCC_PUSH_A
+                             TCC_OPEN_FAR_FAR_RIGHT
+                             "ならば、力を示しなさい。" TCC_NEWLINE
+                             "貴殿が力を示したならば、わたしは" TCC_NEWLINE
+                             "ヴェロニカとの契約から解き放たれる。" TCC_PUSH_A
+                             TCC_OPEN_LEFT
+                             "力を示す。。" TCC_NEWLINE
+                             "それはつまり。。。" TCC_PUSH_A
+                             TCC_OPEN_FAR_LEFT
+                             "戦って勝ちなさいってことね。" TCC_NEWLINE
+                             "みんな、準備は良い？" TCC_PUSH_A,
+
+                             // Chapter 1 ending part 1
+                             [TEXT_CHAP_1_ED_1] = TCC_OPEN_FAR_FAR_RIGHT
+                                     "見事。。。力は示された。" TCC_NEWLINE TCC_PUSH_A
+                                     "ありがとう、アルフォンス王子。" TCC_NEWLINE
+                                     "これで私たちは自由の身となった。" TCC_NEWLINE TCC_PUSH_A
+                                     "もう貴国に攻め入ることはない。" TCC_NEWLINE
+                                     "我が名において誓いましょう。" TCC_PUSH_A,
+
+        // Chapter 1 ending part 2
+        [TEXT_CHAP_1_ED_2] = TCC_OPEN_MID_LEFT
+                TCC_LOAD_FACE PORTRAIT_SHARENA
+                TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+                "これで、任務は完了だね、" TCC_NEWLINE
+                TCC_TACTICIAN_NAME"。" TCC_NEWLINE TCC_PUSH_A
+                TCC_OPEN_MID_LEFT
+                TCC_TACTICIAN_NAME"さんの指揮、" TCC_NEWLINE
+                TCC_TACTICIAN_NAME"すっごく素晴らしかったです。。。！" TCC_NEWLINE
+                "ますます惚れ直しちゃいました！" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+                "みんな聞いて！" TCC_NEWLINE
+                "たった今入った知らせよ！" TCC_NEWLINE TCC_PUSH_A
+                "エンブラ軍が大規模軍を展開して" TCC_NEWLINE
+                "私たちの領地に侵攻してきたわ！" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "なんだって！？" TCC_NEWLINE
+                "まさか、この地に来させたのは陽動。。。！？" TCC_PUSH_A
+                TCC_OPEN_MID_LEFT
+                "そんなあ。。。！" TCC_NEWLINE
+                "私たち、まんまと敵の罠に" TCC_NEWLINE
+                "はまっちゃったんですか！？" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "とにかく、" TCC_NEWLINE
+                "急いで帰還しましょう！" TCC_PUSH_A,
+
+
+
+
 };
 
 extern int lastTextID;
@@ -147,33 +278,36 @@ char *decodeText(int textID)
     char *q = decodedText;
     if(textID < sizeof(texts) / 4 && p)
     {
-        // copy text directly
-        if(getStringTextWidth(texts[textID]) <= TEXT_LINE_WIDTH_MAX)
-            while(*p)
-                *q++ = *p++;
-        else
-        {
-            // add new lines automatically
-            unsigned int charWidth = 0;
-            unsigned int lineWidth = 0;
-
-            while(*p)
-            {
-                if(*p < 0x20)
+        if (TEXT_AUTO_NEW_LINE) {
+            // copy text directly
+            if (getStringTextWidth(texts[textID]) <= TEXT_LINE_WIDTH_MAX)
+                while (*p)
                     *q++ = *p++;
-                else
-                {
-                    char *p_next = getCharTextWidth(p, &charWidth);
-                    lineWidth += charWidth;
-                    if(lineWidth > TEXT_LINE_WIDTH_MAX)
-                    {
-                        *q++ = 1; // new line
-                        lineWidth = 0;
-                    }
-                    while(p < p_next)
+            else {
+                // add new lines automatically
+                unsigned int charWidth = 0;
+                unsigned int lineWidth = 0;
+
+                while (*p) {
+                    if (*p < 0x20)
                         *q++ = *p++;
+                    else {
+                        char *p_next = getCharTextWidth(p, &charWidth);
+                        lineWidth += charWidth;
+                        if (lineWidth > TEXT_LINE_WIDTH_MAX) {
+                            *q++ = 1; // new line
+                            lineWidth = 0;
+                        }
+                        while (p < p_next)
+                            *q++ = *p++;
+                    }
                 }
             }
+        }
+        else
+        {
+            while (*p)
+                *q++ = *p++;
         }
 
         // add 0 to end string
