@@ -164,6 +164,8 @@ SECTIONS
 	. = 0x8db8ee8;
     .rodata.procTitleScreen : {*(.rodata.procTitleScreen)}
     /*INCLUDE ../lds/patch_song_music_track_note.ld*/
+    INCLUDE ../lds/animation.ld
+    INCLUDE ../lds/patch_expand_animation_script_compression_type.ld
 	. = 0x9000000;
 	.text : {*(.text*)}
 	.rodata : {*(.rodata*) . = ALIGN(4);}
