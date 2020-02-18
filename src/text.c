@@ -9,7 +9,7 @@
 // Add game text here
 const char* const texts[] = {
         // Tutorial Lyn's character description
-        [0x01B4] = "キアラン公女、本名はリンディス。草原で一人、生きてきた過去を持つ、気丈でさっぱりとした性格。",
+        //[0x01B4] = "キアラン公女、本名はリンディス。草原で一人、生きてきた過去を持つ、気丈でさっぱりとした性格。",
 
         // character GenericSoldierEmblianSuperWeak name
         [0x557] = "エンブラ兵",
@@ -28,6 +28,12 @@ const char* const texts[] = {
 
         // character Anna description
         [0x1B3] = "特務機関の隊長。アルフォンスたちの上官。経験豊富な頼れる人物。",
+
+        // character Sharena name
+        [1254] = "シャロン",
+
+        // character Sharena description
+        [436] = "アスク王国の王女。アルフォンスの妹。明るく人懐っこい性格で、英雄とも仲が良い。",
 
         // Chapter event dialogue
 

@@ -13,7 +13,7 @@
 
 #define Alfonse Eliwood
 #define Anna Hector
-#define Sharena Lyn
+#define Sharena Lyn_t
 
 #define Bruno Ursula
 #define Veronica Sonia
