@@ -8,11 +8,13 @@
 #include "moving_sprite_Alfonse.h"
 #include "standing_sprite_Anna.h"
 #include "moving_sprite_Anna.h"
+#include "standing_sprite_Sharena.h"
+#include "moving_sprite_Sharena.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 1, standing_sprite_AlfonseTiles} ,  // 0x01 Eliwood Lord
 
-    {2, 0, 137858548} ,  // 0x02 Lyn Lord
+    {2, 1, standing_sprite_SharenaTiles} ,  // 0x02 Lyn Lord
 
     {2, 1, standing_sprite_AnnaTiles} ,  // 0x03 Hector Lord
 
@@ -224,7 +226,7 @@ const struct StandingSprite * const pStandingSprites10 = standingSprites;
 const struct MovingSprite movingSprites[] = {
     {moving_sprite_AlfonseTiles, 138150124} ,  // 0x01 Eliwood Lord
 
-    {138150468, 138152452} ,  // 0x02 Lyn Lord
+    {moving_sprite_SharenaTiles, 138152452} ,  // 0x02 Lyn Lord
 
     {moving_sprite_AnnaTiles, 138155020} ,  // 0x03 Hector Lord
 
