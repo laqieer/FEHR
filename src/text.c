@@ -127,6 +127,7 @@ const char* const texts[] = {
 
                    // Chapter title
                    [TEXT_CHAP_PRE_TITLE] = "Š“V‚Ì¢ŠE",
+                   [TEXT_CHAP_1_TITLE] = "“z‚ª—Í‚ğ¦‚¹",
 };
 
 extern int lastTextID;
