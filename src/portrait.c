@@ -17,6 +17,8 @@
 #include "portrait_Bruno_tileset.h"
 #include "portrait_Xander_mini.h"
 #include "portrait_Xander_tileset.h"
+#include "portrait_Veronica_mini.h"
+#include "portrait_Veronica_tileset.h"
 
 const Portrait portraitAlfonse = {
         portrait_alfonse_tilesetTiles,
@@ -63,6 +65,23 @@ const u16 portrait_Xander_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(96 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(29),
 };
 
+const u16 portrait_Veronica_obj[] = {
+        6,
+        OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(0 - 40) | OBJ_SIZE(3), OBJ_CHAR(0),
+        OBJ_Y(-16) | ATTR0_TALL, OBJ_X(64 - 40) | OBJ_SIZE(2), OBJ_CHAR(8),
+        OBJ_Y(-16 + 32) | ATTR0_WIDE, OBJ_X(0 - 40) | OBJ_SIZE(3), OBJ_CHAR(10),
+        OBJ_Y(-16 + 32) | ATTR0_TALL, OBJ_X(64 - 40) | OBJ_SIZE(2), OBJ_CHAR(18),
+        OBJ_Y(-16 + 32 * 2) | ATTR0_WIDE, OBJ_X(0 - 40) | OBJ_SIZE(3), OBJ_CHAR(20),
+        OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(64 - 40) | OBJ_SIZE(2), OBJ_CHAR(28),
+        6,
+        OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(-(0 - 40) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(0),
+        OBJ_Y(-16) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(8),
+        OBJ_Y(-16 + 32) | ATTR0_WIDE, OBJ_X(-(0 - 40) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(10),
+        OBJ_Y(-16 + 32) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(18),
+        OBJ_Y(-16 + 32 * 2) | ATTR0_WIDE, OBJ_X(-(0 - 40) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(20),
+        OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
+};
+
 const u16 portrait_Bruno_bg[] = {
         0x809,
         20 + 32, 21 + 32, 22 + 32, 23 + 32, 24 + 32, 25 + 32, 26 + 32, 27 + 32, 28 + 32, 29 + 32,
@@ -89,16 +108,31 @@ const u16 portrait_Xander_bg[] = {
         0, 0, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 0, 0, 0,
 };
 
+const u16 portrait_Veronica_bg[] = {
+        0x809,
+        20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+        10 + 32 * 3, 11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3, 15 + 32 * 3, 16 + 32 * 3, 17 + 32 * 3, 18 + 32 * 3, 19 + 32 * 3,
+        10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2,
+        10 + 32, 11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32, 19 + 32,
+        10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        0 + 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3,
+        0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2,
+        0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32,
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+};
+
 DEFINE_PORTRAIT(Anna_commander)
 DEFINE_PORTRAIT(Sharena_princess)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Xander)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica)
 
 const Portrait* const portraits[] = {
     [0x101] = &portraitAlfonse,
     [0x102] = &portraitSharena_princess,
     [0x103] = &portraitAnna_commander,
     [0x104] = &portraitBruno,
+    [0x105] = &portraitVeronica,
     [0x116] = &portraitXander,
 };
 
