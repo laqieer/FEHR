@@ -10,7 +10,7 @@
 #include "text_id.h"
 #include "portrait_id.h"
 
-#define TEXT_AUTO_NEW_LINE false
+#define TEXT_AUTO_NEW_LINE true
 
 // Add game text here
 const char* const texts[] = {
