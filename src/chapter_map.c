@@ -8,10 +8,12 @@
 extern const u8 map_chap_pre[];
 extern const u8 map_chap_1[];
 extern const u8 map_chap_1_change[];
+extern const u8 map_chap_2[];
 
 const u8 * const maps[] = {
         map_chap_pre,
         map_chap_1,
+        map_chap_2,
 };
 
 const u8 ** const pMaps = maps;
