@@ -142,6 +142,7 @@ const char* const texts[] = {
                    [TEXT_CHAP_STATUS_GOAL_DEFEAT_ALL] = "敵部隊の全滅",
                    [TEXT_CHAP_GOAL_SEIZE] = "目的：制圧",
                    [TEXT_CHAP_STATUS_GOAL_SEIZE] = "目的地を制圧",
+                   [TEXT_CHAP_GOAL_DEFEAT_BOSS] = "目的：ボス撃破",
 
                    // Chapter title
                    [TEXT_CHAP_PRE_TITLE] = "至天の世界",
@@ -262,7 +263,11 @@ const char* const texts[] = {
                 "とにかく、" TCC_NEWLINE
                 "急いで帰還しましょう！" TCC_PUSH_A,
 
+    // Chapter 2 title
+    [TEXT_CHAP_2_TITLE] = "英雄相争う",
 
+    // Chapter 2 goal
+    [TEXT_CHAP_STATUS_GOAL_DEFEAT_BOSS_XANDER] = "敵隊長マークスを倒す",
 
 
 };
