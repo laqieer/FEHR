@@ -17,6 +17,7 @@
 
 #define Bruno Ursula
 #define Veronica Sonia
+#define Xander Maxime
 
 #define GenericSoldierAskr 0x75
 #define GenericSoldierAskrWeak 0x76

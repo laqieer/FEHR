@@ -47,6 +47,12 @@ const char* const texts[] = {
         // character Sharena description
         [436] = "アスク王国の王女。アルフォンスの妹。明るく人懐っこい性格で、英雄とも仲が良い。",
 
+        // character Xander name
+        [1334] = "マークス",
+
+        // character Xander description
+        [528] = "暗夜王国の王子。神器「ジークフリート」の使い手。騎士道を重んじており、兵からの人望も厚い。",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
