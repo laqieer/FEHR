@@ -406,7 +406,12 @@ const char* const texts[] = {
             "英雄を敵の支配から解放しましょう。" TCC_NEWLINE TCC_PUSH_A
             "さあ、"TCC_TACTICIAN_NAME"。" TCC_NEWLINE
             "用意はいいわね？" TCC_NEWLINE
-            "出撃するわよ！" TCC_PUSH_A,
+            "出撃するわよ！" TCC_PUSH_A
+            TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+            TCC_CLEAR_FACE
+            TCC_OPEN_FAR_RIGHT
+            TCC_CLEAR_FACE,
 
     [TEXT_CHAP_3_OP_2] = TCC_OPEN_FAR_FAR_RIGHT
             "僕はマルス。アリティアの王子だ。" TCC_NEWLINE
