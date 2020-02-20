@@ -1,4 +1,4 @@
-// Chapter prologue event
+// Chapter 1 event
 
 #include EAStdlib.event
 #include "Project Definition.txt"

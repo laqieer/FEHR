@@ -1,4 +1,4 @@
-// Chapter prologue event
+// Chapter 2 event
 
 #include EAStdlib.event
 #include "Project Definition.txt"
@@ -48,7 +48,7 @@ ENDA
 
 EndingScene:
 TEX1 TEXT_CHAP_2_ED
-MNCH 0
+MNCH 3
 ENDA
 
 AllyUnitsENM:

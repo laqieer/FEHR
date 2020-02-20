@@ -1,0 +1,68 @@
+#include EAStdlib.event
+#include "Project Definition.txt"
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN TrapsEliwoodMode
+POIN TrapsHectorMode
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN BeginningScene
+POIN EndingScene
+
+TurnBasedEvents:
+TURN 0x0 BeginningScene [1,0] 0x0 0x0
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+POIN 0x7AA5D // a bug of EA Core's C mode
+END_MAIN
+
+BeginningScene:
+LOU1 AllyUnitsENM
+ENUN
+TEX1 TEXT_CHAP_3_OP_1
+LOU1 EnemyUnitsENM
+ENUN
+TEX1 TEXT_CHAP_3_OP_2
+ENDA
+
+EndingScene:
+TEX1 TEXT_CHAP_3_ED
+MNCH 0
+ENDA
+
+AllyUnitsENM:
+UNIT Alfonse AlfonseLord Anna 0x8 [0,6] [0,6] [0x0,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT Sharena SharenaLord Anna 0x8 [0,7] [0,7] [0x0,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT Anna AnnaLord 0x0 0x8 [0,8] [0,8] [0x0,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+EnemyUnitsENM:
+UNIT GenericSoldierSummonedWeak Cavalier 0x0 0x25 [14,12] [11,12] [IronLance,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT GenericSoldierSummonedWeak EliwoodLord 0x0 0x25 [14,14] [14,14] [IronSword,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT GenericSoldierSummonedWeak PegasusKnight 0x0 0x25 [14,15] [14,15] [IronLance,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+TrapsEliwoodMode:
+ENDTRAP
+
+TrapsHectorMode:
+ENDTRAP
