@@ -47,6 +47,17 @@ const char* const texts[] = {
         // character Sharena description
         [436] = "アスク王国の王女。アルフォンスの妹。明るく人懐っこい性格で、英雄とも仲が良い。",
 
+        // character Sharena death quote
+        [0x7b5] = TCC_OPEN_FAR_RIGHT
+                  TCC_LOAD_FACE PORTRAIT_SHARENA
+                  "。。。そんな" TCC_NEWLINE
+                  "ごめんね。。。お兄様。。。" TCC_PUSH_A
+                  TCC_CLEAR_FACE
+                  TCC_OPEN_LEFT
+                  TCC_LOAD_FACE PORTRAIT_ALFONSE
+                  "シャロン！！"
+                  ,
+
         // character Xander name
         [1334] = "マークス",
 
