@@ -375,6 +375,58 @@ const char* const texts[] = {
                 "特務機関。。。" TCC_NEWLINE
                 "「ヴァイス・ブレイヴ」の一員として。" TCC_PUSH_A
                 ,
+
+    [TEXT_CHAP_3_TITLE] = "紋章の試練",
+
+    [TEXT_CHAP_3_OP_1] = TCC_OPEN_LEFT
+            TCC_LOAD_FACE PORTRAIT_ANNA
+            TCC_OPEN_RIGHT
+            TCC_LOAD_FACE PORTRAIT_ALFONSE
+            TCC_OPEN_FAR_RIGHT
+            TCC_LOAD_FACE PORTRAIT_SHARENA
+            TCC_OPEN_LEFT
+            "みんな聞いて。" TCC_NEWLINE
+            "先程、エンブラ帝国軍が" TCC_NEWLINE
+            "「紋章の異界」に侵入したわ。" TCC_NEWLINE TCC_PUSH_A
+            "敵は英雄たちを支配に置き、" TCC_NEWLINE
+            "私たちの国に侵攻するつもりよ。" TCC_NEWLINE
+            "敵が狙う英雄の名は。。。マルス。" TCC_PUSH_A
+            TCC_OPEN_RIGHT
+            "マルス。。。" TCC_NEWLINE
+            "英雄王とも謳われた伝説の英雄か。" TCC_NEWLINE TCC_PUSH_A
+            "彼が我が国に侵攻することは、" TCC_NEWLINE
+            "なんとしても避けたいね。" TCC_PUSH_A
+            TCC_OPEN_FAR_RIGHT
+            "大丈夫ですっ。" TCC_NEWLINE
+            "伝説の英雄王が敵でも、こっちには" TCC_NEWLINE
+            "伝承の召喚し様がいるんですから！" TCC_PUSH_A
+            TCC_OPEN_LEFT
+            "手遅れになる前に、" TCC_NEWLINE
+            "私たちも「紋章の異界」に入り、" TCC_NEWLINE
+            "英雄を敵の支配から解放しましょう。" TCC_NEWLINE TCC_PUSH_A
+            "さあ、"TCC_TACTICIAN_NAME"。" TCC_NEWLINE
+            "用意はいいわね？" TCC_NEWLINE
+            "出撃するわよ！" TCC_PUSH_A,
+
+    [TEXT_CHAP_3_OP_2] = TCC_OPEN_FAR_FAR_RIGHT
+            "僕はマルス。アリティアの王子だ。" TCC_NEWLINE
+            "君たちが彼女。。。ヴェロニカ皇女が" TCC_NEWLINE
+            "言っていた特務機関か。" TCC_NEWLINE TCC_PUSH_A
+            "君たちも「契約」のことは知っているね。" TCC_NEWLINE
+            "国を支配されてしまった英雄は" TCC_NEWLINE
+            "支配者の命に服従せねばならない。。。" TCC_NEWLINE TCC_PUSH_A
+            "契約を破るには僕を倒し、" TCC_NEWLINE
+            "支配者よりも強い力を示すこと。" TCC_NEWLINE TCC_PUSH_A
+            "では、正々堂々と戦おう。" TCC_NEWLINE
+            "君たちの力、見せてもらうよ。" TCC_PUSH_A,
+
+    [TEXT_CHAP_3_ED] = TCC_OPEN_FAR_FAR_RIGHT
+            "。。。さすがだね。" TCC_NEWLINE
+            "でも、僕はまだここでは" TCC_NEWLINE
+            "諦めるわけにはいかない。" TCC_NEWLINE TCC_PUSH_A
+            "一度退かせてもらうよ。" TCC_NEWLINE
+            "次の戦いで、決着をつけよう。" TCC_PUSH_A,
+
 };
 
 extern int lastTextID;
