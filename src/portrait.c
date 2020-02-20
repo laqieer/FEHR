@@ -19,6 +19,7 @@
 #include "portrait_Xander_tileset.h"
 #include "portrait_Veronica_mini.h"
 #include "portrait_Veronica_tileset.h"
+#include "portrait_Lord_classcard.h"
 
 const Portrait portraitAlfonse = {
         portrait_alfonse_tilesetTiles,
@@ -127,6 +128,8 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Xander)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica)
 
+DEFINE_CLASSCARD(Lord)
+
 const Portrait* const portraits[] = {
     [0x101] = &portraitAlfonse,
     [0x102] = &portraitSharena_princess,
@@ -134,6 +137,7 @@ const Portrait* const portraits[] = {
     [0x104] = &portraitBruno,
     [0x105] = &portraitVeronica,
     [0x116] = &portraitXander,
+    [0x130] = &classcardLord,
 };
 
 extern const Portrait portraitsOrig[];
