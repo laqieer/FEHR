@@ -4,6 +4,14 @@
 
 // help debug: http://freaka.freehostia.com/charset_js.html
 
+/* Notice: These Kanjis need "\" following it.
+ * ?É\Ñ\?â\ä\ã\å\ç\é\è\ê\ë\í\ì\î\ï\ñ\ó\ò\ô\ö\õ\ú\ù\û\ü\‡\·\‚\„\‰\Â\Ê\Á\Ë\È\Í\??
+ * That is gcc's bug:
+ * http://www2d.biglobe.ne.jp/~gama/cgi/jcode/jcode.htm
+ * https://gcc.gnu.org/projects/cpplib.html
+ * https://www.novell.com/ja-jp/support/kb/tids/jp/00006500_/00006574.htm
+ * */
+
 #include <stdbool.h>
 
 #include "text.h"
