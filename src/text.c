@@ -269,7 +269,92 @@ const char* const texts[] = {
     // Chapter 2 goal
     [TEXT_CHAP_STATUS_GOAL_DEFEAT_BOSS_XANDER] = "敵隊長マークスを倒す",
 
+    // Chapter 2 opening
+    [TEXT_CHAP_2_OP] = TCC_OPEN_LEFT
+            TCC_LOAD_FACE PORTARIT_VERONICA
+            "いい子ね、あたしの英雄たち。。。" TCC_NEWLINE
+            "もっと奪って、もっと壊して。。。" TCC_NEWLINE
+            "邪魔する人は殺していいの。" TCC_NEWLINE TCC_PUSH_A
+            "この国さえなくなれば、" TCC_NEWLINE
+            "邪魔者はだれもいなくなる。。。" TCC_NEWLINE
+            "私は全部の英雄を手に出来る。" TCC_PUSH_A
+            TCC_OPEN_RIGHT
+            TCC_LOAD_FACE PORTRAIT_ALFONSE
+            "そうはさせない！" TCC_NEWLINE
+            "エンブラ帝国ヴェロニカ皇女。。。" TCC_NEWLINE
+            "国を蹂躙すること、僕たちが許しはしない。" TCC_PUSH_A
+            TCC_OPEN_LEFT
+            "もう戻ってきたの。。。？" TCC_NEWLINE
+            "せっかく遊び相手を用意してあげたのに、" TCC_NEWLINE
+            "面倒な人たち。。。" TCC_NEWLINE TCC_PUSH_A
+            "。。。？あなたは。。。" TCC_NEWLINE
+            "その神器、まさか。。。" TCC_NEWLINE
+            "伝承の召喚師なの。。。？" TCC_NEWLINE TCC_PUSH_A
+            "そう。。。それなら、" TCC_NEWLINE
+            "あなたを最初に殺すわ。。。" TCC_PUSH_A
+            TCC_OPEN_MID_LEFT
+            TCC_LOAD_FACE PORTARIT_XANDER
+            "。。。承知した、ヴェロニカ皇女。" TCC_NEWLINE
+            "私が行こう。" TCC_PUSH_A
+            TCC_OPEN_LEFT
+            TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+            "あれは暗夜の英雄、マークス！？" TCC_NEWLINE
+            "厄介だな。。。" TCC_NEWLINE
+            "彼は圧倒的な力を持っている。" TCC_PUSH_A
+            TCC_OPEN_MID_RIGHT
+            TCC_LOAD_FACE PORTRAIT_SHARENA
+            "で、でも大丈夫です！" TCC_NEWLINE
+            TCC_TACTICIAN_NAME"さんは、" TCC_NEWLINE
+            "私たちが守って見せますから！" TCC_PUSH_A
+            TCC_OPEN_FAR_RIGHT
+            TCC_LOAD_FACE PORTRAIT_ANNA
+            "行くわよ、みんあ。" TCC_NEWLINE
+            "アスク王国特務機関の力。。。" TCC_NEWLINE
+            "あの皇女サマに見つけてやりましょ！" TCC_PUSH_A
+            ,
 
+        // Chapter 2 ending
+        [TEXT_CHAP_2_ED] = TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTARIT_VERONICA
+                "つまんないの。。。" TCC_NEWLINE
+                "私はまた、ひとりぼっち。。。" TCC_NEWLINE TCC_PUSH_A
+                "むしろに帰って、" TCC_NEWLINE
+                "暖かい紅茶でも飲もうっと。。。" TCC_NEWLINE TCC_PUSH_A
+                TCC_CLEAR_FACE
+                TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+                "。。。。。。。。。" TCC_NEWLINE
+                "なんとか撤退してくれたみたいね。" TCC_NEWLINE
+                "皇女サマも、英雄たちも。" TCC_PUSH_A
+                TCC_OPEN_MID_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+                "ああ。" TCC_NEWLINE
+                "だが、これで終わるとは思えない。" TCC_NEWLINE
+                "彼らはまた、この地に侵攻して来るだろう。" TCC_PUSH_A
+                TCC_OPEN_FAR_RIGHT
+                TCC_LOAD_FACE PORTRAIT_SHARENA
+                "とにかくしつこいんですよね。" TCC_NEWLINE
+                "話し合おうって言ってるのに、" TCC_NEWLINE
+                "何度も何度も攻め込んでくるし！" TCC_NEWLINE TCC_PUSH_A
+                "大体、エンブラ帝国の皇帝は" TCC_NEWLINE
+                "いつになったらちゃんとした" TCC_NEWLINE
+                "外交をしてくださるんでしょう！" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "シャロン、感情的になってはだめよ。" TCC_NEWLINE
+                "そうれじゃ平和なんて夢のまた夢。" TCC_NEWLINE
+                "機関の人間は、いつも冷静に。いい？" TCC_PUSH_A
+                TCC_OPEN_FAR_RIGHT
+                "はあい。" TCC_NEWLINE
+                "わかりました、アンナ隊長。" TCC_PUSH_A
+                TCC_OPEN_MID_RIGHT
+                "すまない。。。"TCC_TACTICIAN_NAME"。" TCC_NEWLINE
+                "こんな戦いに巻き込んでしまって、" TCC_NEWLINE
+                "でも僕たちは、君が必要なんだ。" TCC_NEWLINE TCC_PUSH_A
+                "どうかこれからも力を貸して欲しい。" TCC_NEWLINE
+                "特務機関。。。" TCC_NEWLINE
+                "「ヴァイス・ブレイヴ」の一員として。" TCC_PUSH_A
+                ,
 };
 
 extern int lastTextID;

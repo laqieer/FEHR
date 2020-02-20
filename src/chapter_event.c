@@ -8,12 +8,14 @@
 extern const u8 * const event_chap_template[];
 extern const u8 * const event_chap_pre[];
 extern const u8 * const event_chap_1[];
+extern const u8 * const event_chap_2[];
 
 const u8 ** const events[] = {
         NULL,
         event_chap_template,
         event_chap_pre,
         event_chap_1,
+        event_chap_2,
 };
 
 const u8 *** const pEvents = events;
