@@ -10,6 +10,7 @@
  * http://www2d.biglobe.ne.jp/~gama/cgi/jcode/jcode.htm
  * https://gcc.gnu.org/projects/cpplib.html
  * https://www.novell.com/ja-jp/support/kb/tids/jp/00006500_/00006574.htm
+ * https://unofficialnextion.com/t/shift-jis-encoding-escape-characters/262
  * */
 
 #include <stdbool.h>
