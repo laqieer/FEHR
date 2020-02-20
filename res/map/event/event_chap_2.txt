@@ -23,7 +23,7 @@ POIN EndingScene
 
 TurnBasedEvents:
 TURN 0x0 BeginningScene [1,0] 0x0 0x0
-TURN 0x0 EndingScene [7,0] 0x8 0x0 // Xander is hard to defeat now :(, so you can wait until 7th turn :)
+TURN 0x0 EndingScene [10,0] 0x8 0x0 // Xander is hard to defeat now :(, so you can wait until 10th turn :)
 END_MAIN
 
 CharacterBasedEvents:
