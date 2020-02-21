@@ -432,6 +432,7 @@ const char* const texts[] = {
             "一度退かせてもらうよ。" TCC_NEWLINE
             "次の戦いで、決着をつけよう。" TCC_PUSH_A,
 
+    [TEXT_CHAP_4_TITLE] = "不屈なる猛者",
 };
 
 extern int lastTextID;

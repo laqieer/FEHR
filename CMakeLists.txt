@@ -26,7 +26,7 @@ process_gfx(GFX_SRCS font.grit title_screen.grit standing_sprite_Alfonse.grit mo
 process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit portrait_Anna_commander.grit portrait_Sharena_princess.grit portrait_Bruno.grit portrait_Xander.grit portrait_Veronica.grit)
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT}
-        src/res/chapter_title/chapter_title_pre.s src/res/chapter_title/chapter_title_1.s src/res/chapter_title/chapter_title_2.s src/res/chapter_title/chapter_title_3.s
+        src/res/chapter_title/chapter_title_pre.s src/res/chapter_title/chapter_title_1.s src/res/chapter_title/chapter_title_2.s src/res/chapter_title/chapter_title_3.s src/res/chapter_title/chapter_title_4.s
         src/res/map/map/map_chap_pre.s src/res/map/map/map_chap_1.s src/res/map/map/map_chap_2.s src/res/map/map/map_chap_3.s src/res/map/map/map_chap_4.s
         src/res/map/event/event_chap_template.s src/res/map/event/event_chap_pre.s src/res/map/event/event_chap_1.s src/res/map/event/event_chap_2.s src/res/map/event/event_chap_3.s
         src/res/character_palette/character_palette_Alfonse.s src/res/character_palette/character_palette_Anna.s src/res/character_palette/character_palette_Sharena.s src/res/character_palette/character_palette_Xander.s

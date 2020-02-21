@@ -8,13 +8,14 @@ extern u8 chapter_title_pre[];
 extern u8 chapter_title_1[];
 extern u8 chapter_title_2[];
 extern u8 chapter_title_3[];
+extern u8 chapter_title_4_lz[];
 
 const u8 * chapterTitles[] = {
-        chapter_title_pre, //0x84090a4,
-        chapter_title_1, //0x8409464,
-        chapter_title_2, //0x84097c4,
-        chapter_title_3, //0x8409b1c,
-        0x8409ef0,
+        chapter_title_pre,
+        chapter_title_1,
+        chapter_title_2,
+        chapter_title_3,
+        chapter_title_4_lz,
         0x840a280,
         0x840a634,
         0x840a9b0,
