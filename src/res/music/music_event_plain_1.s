@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	musicEventPlain1_grp, FE7Nativeinstrumentmap_bin
+	.equ	musicEventPlain1_grp, native_instrument_map_bin
 	.equ	musicEventPlain1_pri, 0
 	.equ	musicEventPlain1_rev, 0
 	.equ	musicEventPlain1_mvl, 127

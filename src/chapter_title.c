@@ -234,6 +234,7 @@ extern u8 chapter_titles_218_lz[];
 extern u8 chapter_titles_219_lz[];
 
 const u8 * chapterTitles[] = {
+        // awk 'BEGIN{for(i=0; i<220; i++) print "chapter_titles_"i"_lz,"}'
         chapter_titles_0_lz,
         chapter_titles_1_lz,
         chapter_titles_2_lz,

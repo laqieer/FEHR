@@ -1,6 +1,6 @@
         .include "MPlayDef.s"
 
-        .equ    musicMapFE3_grp, FE7Nativeinstrumentmap_bin
+        .equ    musicMapFE3_grp, native_instrument_map_bin
         .equ    musicMapFE3_pri, 0
         .equ    musicMapFE3_rev, 0
         .equ    musicMapFE3_key, 0
