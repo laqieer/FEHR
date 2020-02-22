@@ -10,84 +10,451 @@ extern u8 chapter_title_2[];
 extern u8 chapter_title_3[];
 extern u8 chapter_title_4_lz[];
 
+// awk 'BEGIN{for(i=0; i<220; i++) print "extern u8 chapter_title_"i"[];"}'
+
+extern u8 chapter_titles_0_lz[];
+extern u8 chapter_titles_1_lz[];
+extern u8 chapter_titles_2_lz[];
+extern u8 chapter_titles_3_lz[];
+extern u8 chapter_titles_4_lz[];
+extern u8 chapter_titles_5_lz[];
+extern u8 chapter_titles_6_lz[];
+extern u8 chapter_titles_7_lz[];
+extern u8 chapter_titles_8_lz[];
+extern u8 chapter_titles_9_lz[];
+extern u8 chapter_titles_10_lz[];
+extern u8 chapter_titles_11_lz[];
+extern u8 chapter_titles_12_lz[];
+extern u8 chapter_titles_13_lz[];
+extern u8 chapter_titles_14_lz[];
+extern u8 chapter_titles_15_lz[];
+extern u8 chapter_titles_16_lz[];
+extern u8 chapter_titles_17_lz[];
+extern u8 chapter_titles_18_lz[];
+extern u8 chapter_titles_19_lz[];
+extern u8 chapter_titles_20_lz[];
+extern u8 chapter_titles_21_lz[];
+extern u8 chapter_titles_22_lz[];
+extern u8 chapter_titles_23_lz[];
+extern u8 chapter_titles_24_lz[];
+extern u8 chapter_titles_25_lz[];
+extern u8 chapter_titles_26_lz[];
+extern u8 chapter_titles_27_lz[];
+extern u8 chapter_titles_28_lz[];
+extern u8 chapter_titles_29_lz[];
+extern u8 chapter_titles_30_lz[];
+extern u8 chapter_titles_31_lz[];
+extern u8 chapter_titles_32_lz[];
+extern u8 chapter_titles_33_lz[];
+extern u8 chapter_titles_34_lz[];
+extern u8 chapter_titles_35_lz[];
+extern u8 chapter_titles_36_lz[];
+extern u8 chapter_titles_37_lz[];
+extern u8 chapter_titles_38_lz[];
+extern u8 chapter_titles_39_lz[];
+extern u8 chapter_titles_40_lz[];
+extern u8 chapter_titles_41_lz[];
+extern u8 chapter_titles_42_lz[];
+extern u8 chapter_titles_43_lz[];
+extern u8 chapter_titles_44_lz[];
+extern u8 chapter_titles_45_lz[];
+extern u8 chapter_titles_46_lz[];
+extern u8 chapter_titles_47_lz[];
+extern u8 chapter_titles_48_lz[];
+extern u8 chapter_titles_49_lz[];
+extern u8 chapter_titles_50_lz[];
+extern u8 chapter_titles_51_lz[];
+extern u8 chapter_titles_52_lz[];
+extern u8 chapter_titles_53_lz[];
+extern u8 chapter_titles_54_lz[];
+extern u8 chapter_titles_55_lz[];
+extern u8 chapter_titles_56_lz[];
+extern u8 chapter_titles_57_lz[];
+extern u8 chapter_titles_58_lz[];
+extern u8 chapter_titles_59_lz[];
+extern u8 chapter_titles_60_lz[];
+extern u8 chapter_titles_61_lz[];
+extern u8 chapter_titles_62_lz[];
+extern u8 chapter_titles_63_lz[];
+extern u8 chapter_titles_64_lz[];
+extern u8 chapter_titles_65_lz[];
+extern u8 chapter_titles_66_lz[];
+extern u8 chapter_titles_67_lz[];
+extern u8 chapter_titles_68_lz[];
+extern u8 chapter_titles_69_lz[];
+extern u8 chapter_titles_70_lz[];
+extern u8 chapter_titles_71_lz[];
+extern u8 chapter_titles_72_lz[];
+extern u8 chapter_titles_73_lz[];
+extern u8 chapter_titles_74_lz[];
+extern u8 chapter_titles_75_lz[];
+extern u8 chapter_titles_76_lz[];
+extern u8 chapter_titles_77_lz[];
+extern u8 chapter_titles_78_lz[];
+extern u8 chapter_titles_79_lz[];
+extern u8 chapter_titles_80_lz[];
+extern u8 chapter_titles_81_lz[];
+extern u8 chapter_titles_82_lz[];
+extern u8 chapter_titles_83_lz[];
+extern u8 chapter_titles_84_lz[];
+extern u8 chapter_titles_85_lz[];
+extern u8 chapter_titles_86_lz[];
+extern u8 chapter_titles_87_lz[];
+extern u8 chapter_titles_88_lz[];
+extern u8 chapter_titles_89_lz[];
+extern u8 chapter_titles_90_lz[];
+extern u8 chapter_titles_91_lz[];
+extern u8 chapter_titles_92_lz[];
+extern u8 chapter_titles_93_lz[];
+extern u8 chapter_titles_94_lz[];
+extern u8 chapter_titles_95_lz[];
+extern u8 chapter_titles_96_lz[];
+extern u8 chapter_titles_97_lz[];
+extern u8 chapter_titles_98_lz[];
+extern u8 chapter_titles_99_lz[];
+extern u8 chapter_titles_100_lz[];
+extern u8 chapter_titles_101_lz[];
+extern u8 chapter_titles_102_lz[];
+extern u8 chapter_titles_103_lz[];
+extern u8 chapter_titles_104_lz[];
+extern u8 chapter_titles_105_lz[];
+extern u8 chapter_titles_106_lz[];
+extern u8 chapter_titles_107_lz[];
+extern u8 chapter_titles_108_lz[];
+extern u8 chapter_titles_109_lz[];
+extern u8 chapter_titles_110_lz[];
+extern u8 chapter_titles_111_lz[];
+extern u8 chapter_titles_112_lz[];
+extern u8 chapter_titles_113_lz[];
+extern u8 chapter_titles_114_lz[];
+extern u8 chapter_titles_115_lz[];
+extern u8 chapter_titles_116_lz[];
+extern u8 chapter_titles_117_lz[];
+extern u8 chapter_titles_118_lz[];
+extern u8 chapter_titles_119_lz[];
+extern u8 chapter_titles_120_lz[];
+extern u8 chapter_titles_121_lz[];
+extern u8 chapter_titles_122_lz[];
+extern u8 chapter_titles_123_lz[];
+extern u8 chapter_titles_124_lz[];
+extern u8 chapter_titles_125_lz[];
+extern u8 chapter_titles_126_lz[];
+extern u8 chapter_titles_127_lz[];
+extern u8 chapter_titles_128_lz[];
+extern u8 chapter_titles_129_lz[];
+extern u8 chapter_titles_130_lz[];
+extern u8 chapter_titles_131_lz[];
+extern u8 chapter_titles_132_lz[];
+extern u8 chapter_titles_133_lz[];
+extern u8 chapter_titles_134_lz[];
+extern u8 chapter_titles_135_lz[];
+extern u8 chapter_titles_136_lz[];
+extern u8 chapter_titles_137_lz[];
+extern u8 chapter_titles_138_lz[];
+extern u8 chapter_titles_139_lz[];
+extern u8 chapter_titles_140_lz[];
+extern u8 chapter_titles_141_lz[];
+extern u8 chapter_titles_142_lz[];
+extern u8 chapter_titles_143_lz[];
+extern u8 chapter_titles_144_lz[];
+extern u8 chapter_titles_145_lz[];
+extern u8 chapter_titles_146_lz[];
+extern u8 chapter_titles_147_lz[];
+extern u8 chapter_titles_148_lz[];
+extern u8 chapter_titles_149_lz[];
+extern u8 chapter_titles_150_lz[];
+extern u8 chapter_titles_151_lz[];
+extern u8 chapter_titles_152_lz[];
+extern u8 chapter_titles_153_lz[];
+extern u8 chapter_titles_154_lz[];
+extern u8 chapter_titles_155_lz[];
+extern u8 chapter_titles_156_lz[];
+extern u8 chapter_titles_157_lz[];
+extern u8 chapter_titles_158_lz[];
+extern u8 chapter_titles_159_lz[];
+extern u8 chapter_titles_160_lz[];
+extern u8 chapter_titles_161_lz[];
+extern u8 chapter_titles_162_lz[];
+extern u8 chapter_titles_163_lz[];
+extern u8 chapter_titles_164_lz[];
+extern u8 chapter_titles_165_lz[];
+extern u8 chapter_titles_166_lz[];
+extern u8 chapter_titles_167_lz[];
+extern u8 chapter_titles_168_lz[];
+extern u8 chapter_titles_169_lz[];
+extern u8 chapter_titles_170_lz[];
+extern u8 chapter_titles_171_lz[];
+extern u8 chapter_titles_172_lz[];
+extern u8 chapter_titles_173_lz[];
+extern u8 chapter_titles_174_lz[];
+extern u8 chapter_titles_175_lz[];
+extern u8 chapter_titles_176_lz[];
+extern u8 chapter_titles_177_lz[];
+extern u8 chapter_titles_178_lz[];
+extern u8 chapter_titles_179_lz[];
+extern u8 chapter_titles_180_lz[];
+extern u8 chapter_titles_181_lz[];
+extern u8 chapter_titles_182_lz[];
+extern u8 chapter_titles_183_lz[];
+extern u8 chapter_titles_184_lz[];
+extern u8 chapter_titles_185_lz[];
+extern u8 chapter_titles_186_lz[];
+extern u8 chapter_titles_187_lz[];
+extern u8 chapter_titles_188_lz[];
+extern u8 chapter_titles_189_lz[];
+extern u8 chapter_titles_190_lz[];
+extern u8 chapter_titles_191_lz[];
+extern u8 chapter_titles_192_lz[];
+extern u8 chapter_titles_193_lz[];
+extern u8 chapter_titles_194_lz[];
+extern u8 chapter_titles_195_lz[];
+extern u8 chapter_titles_196_lz[];
+extern u8 chapter_titles_197_lz[];
+extern u8 chapter_titles_198_lz[];
+extern u8 chapter_titles_199_lz[];
+extern u8 chapter_titles_200_lz[];
+extern u8 chapter_titles_201_lz[];
+extern u8 chapter_titles_202_lz[];
+extern u8 chapter_titles_203_lz[];
+extern u8 chapter_titles_204_lz[];
+extern u8 chapter_titles_205_lz[];
+extern u8 chapter_titles_206_lz[];
+extern u8 chapter_titles_207_lz[];
+extern u8 chapter_titles_208_lz[];
+extern u8 chapter_titles_209_lz[];
+extern u8 chapter_titles_210_lz[];
+extern u8 chapter_titles_211_lz[];
+extern u8 chapter_titles_212_lz[];
+extern u8 chapter_titles_213_lz[];
+extern u8 chapter_titles_214_lz[];
+extern u8 chapter_titles_215_lz[];
+extern u8 chapter_titles_216_lz[];
+extern u8 chapter_titles_217_lz[];
+extern u8 chapter_titles_218_lz[];
+extern u8 chapter_titles_219_lz[];
+
 const u8 * chapterTitles[] = {
-        chapter_title_pre,
-        chapter_title_1,
-        chapter_title_2,
-        chapter_title_3,
-        chapter_title_4_lz,
-        0x840a280,
-        0x840a634,
-        0x840a9b0,
-        0x840ad04,
-        0x840b084,
-        0x840b3d8,
-        0x840b748,
-        0x840bb4c,
-        0x840bebc,
-        0x840c230,
-        0x840c61c,
-        0x840ca8c,
-        0x840ce98,
-        0x840d290,
-        0x840d5f0,
-        0x840da24,
-        0x840dd5c,
-        0x840e050,
-        0x840e4e0,
-        0x840e7b8,
-        0x840ec00,
-        0x840ef0c,
-        0x840f2e4,
-        0x840f768,
-        0x840fb00,
-        0x840fe98,
-        0x8410384,
-        0x841071c,
-        0x8410ab4,
-        0x8410f38,
-        0x84113a8,
-        0x8411770,
-        0x8411ae8,
-        0x8411ee8,
-        0x841230c,
-        0x84126b8,
-        0x8412928,
-        0x8412d04,
-        0x841305c,
-        0x8413448,
-        0x84138b8,
-        0x8413cc4,
-        0x84140e4,
-        0x84144f0,
-        0x841485c,
-        0x8414c74,
-        0x8414fa8,
-        0x84152a4,
-        0x841571c,
-        0x8415b20,
-        0x8415df4,
-        0x841621c,
-        0x841653c,
-        0x841691c,
-        0x8416d8c,
-        0x8417104,
-        0x841747c,
-        0x84177f4,
-        0x8417ce0,
-        0x841805C,
-        0x84183d8,
-        0x8418860,
-        0x8418cdc,
-        0x8419094,
-        0x84194a4,
-        0x8419890,
-        0x8419c8c,
-        0x841a038,
-        0x841a454,
-        0x841a6c4,
-        0x841A964,
-        0x841AB8C
+        chapter_titles_0_lz,
+        chapter_titles_1_lz,
+        chapter_titles_2_lz,
+        chapter_titles_3_lz,
+        chapter_titles_4_lz,
+        chapter_titles_5_lz,
+        chapter_titles_6_lz,
+        chapter_titles_7_lz,
+        chapter_titles_8_lz,
+        chapter_titles_9_lz,
+        chapter_titles_10_lz,
+        chapter_titles_11_lz,
+        chapter_titles_12_lz,
+        chapter_titles_13_lz,
+        chapter_titles_14_lz,
+        chapter_titles_15_lz,
+        chapter_titles_16_lz,
+        chapter_titles_17_lz,
+        chapter_titles_18_lz,
+        chapter_titles_19_lz,
+        chapter_titles_20_lz,
+        chapter_titles_21_lz,
+        chapter_titles_22_lz,
+        chapter_titles_23_lz,
+        chapter_titles_24_lz,
+        chapter_titles_25_lz,
+        chapter_titles_26_lz,
+        chapter_titles_27_lz,
+        chapter_titles_28_lz,
+        chapter_titles_29_lz,
+        chapter_titles_30_lz,
+        chapter_titles_31_lz,
+        chapter_titles_32_lz,
+        chapter_titles_33_lz,
+        chapter_titles_34_lz,
+        chapter_titles_35_lz,
+        chapter_titles_36_lz,
+        chapter_titles_37_lz,
+        chapter_titles_38_lz,
+        chapter_titles_39_lz,
+        chapter_titles_40_lz,
+        chapter_titles_41_lz,
+        chapter_titles_42_lz,
+        chapter_titles_43_lz,
+        chapter_titles_44_lz,
+        chapter_titles_45_lz,
+        chapter_titles_46_lz,
+        chapter_titles_47_lz,
+        chapter_titles_48_lz,
+        chapter_titles_49_lz,
+        chapter_titles_50_lz,
+        chapter_titles_51_lz,
+        chapter_titles_52_lz,
+        chapter_titles_53_lz,
+        chapter_titles_54_lz,
+        chapter_titles_55_lz,
+        chapter_titles_56_lz,
+        chapter_titles_57_lz,
+        chapter_titles_58_lz,
+        chapter_titles_59_lz,
+        chapter_titles_60_lz,
+        chapter_titles_61_lz,
+        chapter_titles_62_lz,
+        chapter_titles_63_lz,
+        chapter_titles_64_lz,
+        chapter_titles_65_lz,
+        chapter_titles_66_lz,
+        chapter_titles_67_lz,
+        chapter_titles_68_lz,
+        chapter_titles_69_lz,
+        chapter_titles_70_lz,
+        chapter_titles_71_lz,
+        chapter_titles_72_lz,
+        chapter_titles_73_lz,
+        chapter_titles_74_lz,
+        chapter_titles_75_lz,
+        chapter_titles_76_lz,
+        chapter_titles_77_lz,
+        chapter_titles_78_lz,
+        chapter_titles_79_lz,
+        chapter_titles_80_lz,
+        chapter_titles_81_lz,
+        chapter_titles_82_lz,
+        chapter_titles_83_lz,
+        chapter_titles_84_lz,
+        chapter_titles_85_lz,
+        chapter_titles_86_lz,
+        chapter_titles_87_lz,
+        chapter_titles_88_lz,
+        chapter_titles_89_lz,
+        chapter_titles_90_lz,
+        chapter_titles_91_lz,
+        chapter_titles_92_lz,
+        chapter_titles_93_lz,
+        chapter_titles_94_lz,
+        chapter_titles_95_lz,
+        chapter_titles_96_lz,
+        chapter_titles_97_lz,
+        chapter_titles_98_lz,
+        chapter_titles_99_lz,
+        chapter_titles_100_lz,
+        chapter_titles_101_lz,
+        chapter_titles_102_lz,
+        chapter_titles_103_lz,
+        chapter_titles_104_lz,
+        chapter_titles_105_lz,
+        chapter_titles_106_lz,
+        chapter_titles_107_lz,
+        chapter_titles_108_lz,
+        chapter_titles_109_lz,
+        chapter_titles_110_lz,
+        chapter_titles_111_lz,
+        chapter_titles_112_lz,
+        chapter_titles_113_lz,
+        chapter_titles_114_lz,
+        chapter_titles_115_lz,
+        chapter_titles_116_lz,
+        chapter_titles_117_lz,
+        chapter_titles_118_lz,
+        chapter_titles_119_lz,
+        chapter_titles_120_lz,
+        chapter_titles_121_lz,
+        chapter_titles_122_lz,
+        chapter_titles_123_lz,
+        chapter_titles_124_lz,
+        chapter_titles_125_lz,
+        chapter_titles_126_lz,
+        chapter_titles_127_lz,
+        chapter_titles_128_lz,
+        chapter_titles_129_lz,
+        chapter_titles_130_lz,
+        chapter_titles_131_lz,
+        chapter_titles_132_lz,
+        chapter_titles_133_lz,
+        chapter_titles_134_lz,
+        chapter_titles_135_lz,
+        chapter_titles_136_lz,
+        chapter_titles_137_lz,
+        chapter_titles_138_lz,
+        chapter_titles_139_lz,
+        chapter_titles_140_lz,
+        chapter_titles_141_lz,
+        chapter_titles_142_lz,
+        chapter_titles_143_lz,
+        chapter_titles_144_lz,
+        chapter_titles_145_lz,
+        chapter_titles_146_lz,
+        chapter_titles_147_lz,
+        chapter_titles_148_lz,
+        chapter_titles_149_lz,
+        chapter_titles_150_lz,
+        chapter_titles_151_lz,
+        chapter_titles_152_lz,
+        chapter_titles_153_lz,
+        chapter_titles_154_lz,
+        chapter_titles_155_lz,
+        chapter_titles_156_lz,
+        chapter_titles_157_lz,
+        chapter_titles_158_lz,
+        chapter_titles_159_lz,
+        chapter_titles_160_lz,
+        chapter_titles_161_lz,
+        chapter_titles_162_lz,
+        chapter_titles_163_lz,
+        chapter_titles_164_lz,
+        chapter_titles_165_lz,
+        chapter_titles_166_lz,
+        chapter_titles_167_lz,
+        chapter_titles_168_lz,
+        chapter_titles_169_lz,
+        chapter_titles_170_lz,
+        chapter_titles_171_lz,
+        chapter_titles_172_lz,
+        chapter_titles_173_lz,
+        chapter_titles_174_lz,
+        chapter_titles_175_lz,
+        chapter_titles_176_lz,
+        chapter_titles_177_lz,
+        chapter_titles_178_lz,
+        chapter_titles_179_lz,
+        chapter_titles_180_lz,
+        chapter_titles_181_lz,
+        chapter_titles_182_lz,
+        chapter_titles_183_lz,
+        chapter_titles_184_lz,
+        chapter_titles_185_lz,
+        chapter_titles_186_lz,
+        chapter_titles_187_lz,
+        chapter_titles_188_lz,
+        chapter_titles_189_lz,
+        chapter_titles_190_lz,
+        chapter_titles_191_lz,
+        chapter_titles_192_lz,
+        chapter_titles_193_lz,
+        chapter_titles_194_lz,
+        chapter_titles_195_lz,
+        chapter_titles_196_lz,
+        chapter_titles_197_lz,
+        chapter_titles_198_lz,
+        chapter_titles_199_lz,
+        chapter_titles_200_lz,
+        chapter_titles_201_lz,
+        chapter_titles_202_lz,
+        chapter_titles_203_lz,
+        chapter_titles_204_lz,
+        chapter_titles_205_lz,
+        chapter_titles_206_lz,
+        chapter_titles_207_lz,
+        chapter_titles_208_lz,
+        chapter_titles_209_lz,
+        chapter_titles_210_lz,
+        chapter_titles_211_lz,
+        chapter_titles_212_lz,
+        chapter_titles_213_lz,
+        chapter_titles_214_lz,
+        chapter_titles_215_lz,
+        chapter_titles_216_lz,
+        chapter_titles_217_lz,
+        chapter_titles_218_lz,
+        chapter_titles_219_lz,
 };
 
 const u8 ** const pChapterTitles = chapterTitles;
+
