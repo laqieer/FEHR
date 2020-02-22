@@ -32,14 +32,14 @@ ITGV SlimSword
 ENDA
 
 LocationBasedEvents:
-LOCA 10 GetSlimSword [5, 2] 0
-WORD 0x205 // a bug of EA Core's C mode
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
 DefeatAll(EndingScene)
 POIN 0x7AA5D // a bug of EA Core's C mode
+AREA 10 GetSlimSword [5, 2] [5, 2]
+WORD 0x02050205 // a bug of EA Core's C mode
 END_MAIN
 
 BeginningScene:
