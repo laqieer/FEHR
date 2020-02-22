@@ -43,7 +43,7 @@ ENUN
 ENDA
 
 EndingScene:
-MNCH 0
+MNCH 5
 ENDA
 
 AllyUnitsENM:

@@ -1,0 +1,73 @@
+#include EAStdlib.event
+#include "Project Definition.txt"
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN TrapsEliwoodMode
+POIN TrapsHectorMode
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN EnemyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN AllyUnitsENM
+POIN BeginningScene
+POIN EndingScene
+
+TurnBasedEvents:
+TURN 0x0 BeginningScene [1,0] 0x0 0x0
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+GetSlimSword:
+TEX1 TEXT_CHAP_GET_SLIM_SWORD
+ITGV SlimSword
+ENDA
+
+LocationBasedEvents:
+LOCA 10 GetSlimSword [5, 2] 0
+WORD 0x205 // a bug of EA Core's C mode
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+POIN 0x7AA5D // a bug of EA Core's C mode
+END_MAIN
+
+BeginningScene:
+LOU1 EnemyUnitsENM
+ENUN
+LOU1 AllyUnitsENM
+ENUN
+TEX1 TEXT_CHAP_5_TIP
+ENDA
+
+EndingScene:
+MNCH 0
+ENDA
+
+AllyUnitsENM:
+UNIT Alfonse AlfonseLord Anna 0x8 [5,19] [5,17] NoItems NoAI
+UNIT Sharena SharenaLord Anna 0x8 [7,19] [7,17] NoItems NoAI
+UNIT Anna AnnaLord 0x0 0x8 [6,19] [6,16] NoItems NoAI
+UNIT
+
+EnemyUnitsENM:
+UNIT GenericSoldierSummonedWeak Mage_F 0x0 Level(5,Enemy,1) [0,3] [0,3] [Thunder,0x0,0x0,0x0] [AttackInRange,RandomMovement,NormalRecovery,DefaultAI4]
+UNIT GenericSoldierSummonedWeak Mage 0x0 Level(5,Enemy,1) [12,2] [12,2] [Fire,0x0,0x0,0x0] [AttackInRange,RandomMovement,NormalRecovery,DefaultAI4]
+UNIT GenericSoldierEmblianWeak Cleric 0x0 Level(5,Enemy,1) [6,2] [6,2] [Heal,0x0,0x0,0x0] [HealInjuredAllies,DontMove,NoRecovery,DefaultAI4]
+UNIT
+
+TrapsEliwoodMode:
+ENDTRAP
+
+TrapsHectorMode:
+ENDTRAP

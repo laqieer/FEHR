@@ -7,6 +7,8 @@
 
 #define PORTRAIT_TODO "\x1\x1"
 
+#define PORTRAIT_CURRENT "\xff\xff"
+
 #define PORTRAIT_ALFONSE "\x1\x2"
 #define PORTRAIT_SHARENA "\x2\x2"
 #define PORTRAIT_ANNA "\x3\x2"

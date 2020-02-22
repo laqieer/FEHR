@@ -737,6 +737,15 @@ const char* const texts[] = {
         [TEXT_CHAP_253_TITLE] = "",
         [TEXT_CHAP_254_TITLE] = "",
 
+
+        [TEXT_CHAP_5_TIP] = TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+                "財宝の匂い。。。",
+
+        [TEXT_CHAP_GET_SLIM_SWORD] = TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_CURRENT
+                "巨竜の骸骨に刺さった細い剣。。。" TCC_NEWLINE
+                "古いけどまだ使えそう。" TCC_PUSH_A,
 };
 
 extern int lastTextID;

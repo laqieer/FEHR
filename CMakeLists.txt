@@ -248,7 +248,7 @@ add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT}
         src/res/chapter_title/chapter_titles_219.s
         src/res/chapter_title/chapter_title_pre.s src/res/chapter_title/chapter_title_1.s src/res/chapter_title/chapter_title_2.s src/res/chapter_title/chapter_title_3.s src/res/chapter_title/chapter_title_4.s
         src/res/map/map/map_chap_pre.s src/res/map/map/map_chap_1.s src/res/map/map/map_chap_2.s src/res/map/map/map_chap_3.s src/res/map/map/map_chap_4.s src/res/map/map/map_chap_5.s
-        src/res/map/event/event_chap_template.s src/res/map/event/event_chap_pre.s src/res/map/event/event_chap_1.s src/res/map/event/event_chap_2.s src/res/map/event/event_chap_3.s src/res/map/event/event_chap_4.s
+        src/res/map/event/event_chap_template.s src/res/map/event/event_chap_pre.s src/res/map/event/event_chap_1.s src/res/map/event/event_chap_2.s src/res/map/event/event_chap_3.s src/res/map/event/event_chap_4.s src/res/map/event/event_chap_5.s
         src/res/character_palette/character_palette_Alfonse.s src/res/character_palette/character_palette_Anna.s src/res/character_palette/character_palette_Sharena.s src/res/character_palette/character_palette_Xander.s
         src/res/music/native_instrument_map.s src/res/music/music_event_plain_1.s src/res/music/music_event_serious_1.s src/res/music/music_event_serious_3.s src/res/music/music_map_fe3.s
         src/res/animation/character/animation_Sharena.s src/res/animation/character/animation_Sharena_disarmed.s
