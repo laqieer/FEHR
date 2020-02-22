@@ -51,7 +51,7 @@ TEX1 TEXT_CHAP_5_TIP
 ENDA
 
 EndingScene:
-MNCH 0
+MNCH 6
 ENDA
 
 AllyUnitsENM:
