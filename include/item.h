@@ -183,11 +183,11 @@ struct Item
     // The critical rate. 必殺.
     u8 CRT;
 
-    // The minimum range. 射程下限.
-    u8 minRange : 4;
-
     // The maximum range. 射程上限.
     u8 maxRange : 4;
+
+    // The minimum range. 射程下限.
+    u8 minRange : 4;
 
     // Cost Per Use (0 = Unsellable). 単価.
     u16 cost;
