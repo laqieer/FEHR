@@ -597,6 +597,7 @@ const struct Chapter chapters[] = {
             DEFINE_SIMPLE_CHAPTER(5, "1.2.3)05", 0x7b007c7d, 0, 0, MUSIC_MAP_FE03)
             DEFINE_SIMPLE_CHAPTER(6, "1.2.4)06", 0x1c1d1e1f, MAP_ANIM_WATER_FIELD, 0, MUSIC_MAP_FE03)
             DEFINE_SIMPLE_CHAPTER(7, "1.2.5)07", 0x1c1d1e1f, MAP_ANIM_WATER_FIELD, 0, MUSIC_MAP_FE03)
+            DEFINE_SIMPLE_CHAPTER(8, "1.3.1)08", 0x1c1d1e1f, MAP_ANIM_WATER_FIELD, 0, MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE)
 };
 
 const struct Chapter * const pChapters1 = chapters;
