@@ -747,7 +747,7 @@ const char* const texts[] = {
                 "巨竜の骸骨に刺さった細い剣。。。" TCC_NEWLINE
                 "古いけどまだ使えそう。" TCC_PUSH_A,
 
-        [TEXT_CHAP_6_OP] = TCC_OPEN_FAR_FAR_RIGHT
+        [TEXT_CHAP_6_OP] = TCC_OPEN_FAR_LEFT
                 "さすがだね。。。" TCC_NEWLINE
                 "よくここまで来てくれた。" TCC_NEWLINE
                 "君たちは平和を求めて戦っているんだね。" TCC_NEWLINE TCC_PUSH_A
@@ -757,7 +757,7 @@ const char* const texts[] = {
                 "さあ、最後の勝負だ。" TCC_NEWLINE
                 "正々堂々戦おう！" TCC_PUSH_A,
 
-        [TEXT_CHAP_6_ED] = TCC_OPEN_FAR_FAR_RIGHT
+        [TEXT_CHAP_6_ED] = TCC_OPEN_FAR_LEFT
                            "力は示された。。。" TCC_NEWLINE
                            "これで僕たちは、" TCC_NEWLINE
                            "契約から解放される。" TCC_NEWLINE TCC_PUSH_A
