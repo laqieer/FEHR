@@ -40,7 +40,7 @@ BeginningScene:
 	ENDA
 EndingScene:
 	TEX1 TEXT_CHAP_6_ED
-	MNCH 0
+	MNCH 8
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 10, 0, 10, 4)
