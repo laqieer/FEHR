@@ -1,8 +1,8 @@
 #ifndef PROJECT_DEFINITION
 #define PROJECT_DEFINITION
 
-#include ../../../include/text_id.h
-#include ../../../include/music_id.h
+/*#include ../../../include/text_id.h
+#include ../../../include/music_id.h*/
 
 // For event template
 
