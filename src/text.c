@@ -796,6 +796,28 @@ const char* const texts[] = {
                            "じゃああたしも、お城に帰るわ。" TCC_NEWLINE TCC_PUSH_A
                            "次はもっともっと強い英雄を" TCC_NEWLINE
                            "あたしのものにしようっと。。。" TCC_PUSH_A,
+
+        [TEXT_CHAP_8_OP] = TCC_OPEN_FAR_LEFT
+                TCC_LOAD_FACE PORTARIT_XANDER
+                "。。。来たか。" TCC_NEWLINE
+                "剣を交えるのは、これで二度目だな。" TCC_NEWLINE
+                "私たちはヴェロニカ皇女と契約した。" TCC_NEWLINE TCC_PUSH_A
+                "皇女のあの寂しげな瞳。。。" TCC_NEWLINE
+                "城塞から出られぬあいつを思わせて、" TCC_NEWLINE
+                "どうしても逆らえん。" TCC_NEWLINE TCC_PUSH_A
+                "カミラ、レオン、エリーゼ。" TCC_NEWLINE
+                "準備はいいか？" TCC_NEWLINE
+                "行くぞ！" TCC_PUSH_A,
+
+        [TEXT_CHAP_8_ED] = TCC_OPEN_FAR_LEFT
+                           TCC_LOAD_FACE PORTARIT_XANDER
+                           "ほう。。。" TCC_NEWLINE
+                           "なかなかやるよだな。" TCC_NEWLINE
+                           "だが、これで終わりではない。" TCC_NEWLINE TCC_PUSH_A
+                           "行っておくが、" TCC_NEWLINE
+                           "私のきょうだい。。。そして" TCC_NEWLINE
+                           "その臣下たちは手強いぞ。" TCC_PUSH_A,
+
 };
 
 extern int lastTextID;
