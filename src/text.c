@@ -746,6 +746,56 @@ const char* const texts[] = {
                 TCC_LOAD_FACE PORTRAIT_CURRENT
                 "巨竜の骸骨に刺さった細い剣。。。" TCC_NEWLINE
                 "古いけどまだ使えそう。" TCC_PUSH_A,
+
+        [TEXT_CHAP_6_OP] = TCC_OPEN_FAR_FAR_RIGHT
+                "さすがだね。。。" TCC_NEWLINE
+                "よくここまで来てくれた。" TCC_NEWLINE
+                "君たちは平和を求めて戦っているんだね。" TCC_NEWLINE TCC_PUSH_A
+                "その気持ちは、よくわかるつもりだよ。" TCC_NEWLINE
+                "僕たちは似ている、同じ仲間として。" TCC_NEWLINE
+                "出会えていたら。。。そう思うよ。" TCC_NEWLINE TCC_PUSH_A
+                "さあ、最後の勝負だ。" TCC_NEWLINE
+                "正々堂々戦おう！" TCC_PUSH_A,
+
+        [TEXT_CHAP_6_ED] = TCC_OPEN_FAR_FAR_RIGHT
+                           "力は示された。。。" TCC_NEWLINE
+                           "これで僕たちは、" TCC_NEWLINE
+                           "契約から解放される。" TCC_NEWLINE TCC_PUSH_A
+                           "ありがとう、感謝するよ。" TCC_NEWLINE
+                           "僕たちは似ている、同じ仲間として。" TCC_NEWLINE
+                           "君たちのような人と出会えて" TCC_NEWLINE TCC_PUSH_A
+                           "本当によかった。" TCC_NEWLINE
+                           "また、どこかで出会えたら良いね。" TCC_PUSH_A
+                           TCC_OPEN_LEFT
+                           TCC_LOAD_FACE PORTRAIT_ALFONSE
+                           "これで、なんとか" TCC_NEWLINE
+                           "危機は去ったようだね。" TCC_PUSH_A
+                           TCC_OPEN_RIGHT
+                           TCC_LOAD_FACE PORTARIT_VERONICA
+                           "つまらないの。。。" TCC_PUSH_A
+                           TCC_OPEN_LEFT
+                           "！？ヴェロニカ皇女。。。！" TCC_PUSH_A
+                           TCC_OPEN_RIGHT
+                           "せっかくマルスたちを" TCC_NEWLINE
+                           "あたしのものにしたのに。。。" TCC_NEWLINE
+                           "どうして解放しちゃうの？" TCC_NEWLINE TCC_PUSH_A
+                           "邪魔者には、" TCC_NEWLINE
+                           "みんな死でもらわなくちゃ。。。" TCC_PUSH_A
+                           TCC_OPEN_MID_LEFT
+                           TCC_LOAD_FACE PORTRAIT_ANNA
+                           "くっ。。。！みんな、下がって。" TCC_NEWLINE
+                           "今の私たちでは" TCC_NEWLINE
+                           "ヴェロニカ皇女には勝てないわ。" TCC_NEWLINE TCC_PUSH_A
+                           "全員の帰還を第一優先！" TCC_NEWLINE
+                           "直ちに撤退！" TCC_PUSH_A
+                           TCC_CLEAR_FACE
+                           TCC_OPEN_LEFT
+                           TCC_CLEAR_FACE
+                           TCC_OPEN_RIGHT
+                           "逃げるの？遊びたかったのに。。。" TCC_NEWLINE
+                           "じゃああたしも、お城に帰るわ。" TCC_NEWLINE TCC_PUSH_A
+                           "次はもっともっと強い英雄を" TCC_NEWLINE
+                           "あたしのものにしようっと。。。" TCC_PUSH_A,
 };
 
 extern int lastTextID;
