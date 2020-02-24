@@ -16,6 +16,7 @@ extern const u8 musicFEHMapBook2[];
 extern const u8 musicFEHSerious6[];
 extern const u8 musicFEHSerious6B[];
 extern const u8 musicFEHTempestTrial[];
+extern const u8 musicFE3DivineDragonLegendA[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0001 Precious Things
@@ -1451,6 +1452,7 @@ const struct Song songs[] = {
         [MUSIC_FE_H_SERIOUS_6] = {musicFEHSerious6, 0, 0},
         [MUSIC_FE_H_SERIOUS_6B] = {musicFEHSerious6B, 0, 0},
         [MUSIC_FE_H_TEMPEST_TRIAL] = {musicFEHTempestTrial, 1, 1},
+        [MUSIC_FE_3_DIVINE_DRAGON_LEGEND_A] = {musicFE3DivineDragonLegendA, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1585,6 +1587,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_H_SERIOUS_6, 129 * 0x30, 0, "ãŸí£òZ"},
     {MUSIC_FE_H_SERIOUS_6B, 177 * 0x30, 0, "ãŸí£òZâ¸"},
     {MUSIC_FE_H_TEMPEST_TRIAL, 120 * 0x30, 0, "êÌâQÇÃòAêÌ"},
+    {MUSIC_FE_3_DIVINE_DRAGON_LEGEND_A, 96 * 0x30, 0, "ê_ó≥ì`ê‡A"},
 
     // End of table
     {-1, 0, 0, 0},
