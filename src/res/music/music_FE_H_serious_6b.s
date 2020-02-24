@@ -13,6 +13,7 @@
 
 musicFEHSerious6B_0:
         .byte   KEYSH , musicFEHSerious6B_key+0
+musicFEHSerious6B_0_Loop:
 @ 000   ----------------------------------------
         .byte   TEMPO , 120/2
         .byte           VOICE , 0
@@ -1212,6 +1213,8 @@ musicFEHSerious6B_0_51:
         .byte                   Bn3
         .byte                   Dn4
         .byte                   Bn1
+        .byte   GOTO
+         .word  musicFEHSerious6B_0_Loop
         .byte   FINE
 
 
