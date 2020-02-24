@@ -13,6 +13,7 @@
 
 musicFEHGearUp_0:
         .byte   KEYSH , musicFEHGearUp_key+0
+musicFEHGearUp_0_Loop:
 @ 000   ----------------------------------------
         .byte   TEMPO , 120/2
         .byte           VOICE , 1
@@ -1603,12 +1604,15 @@ musicFEHGearUp_0_24:
         .byte   PATT
          .word  musicFEHGearUp_0_24
 @ 050   ----------------------------------------
+        .byte   GOTO
+        .word   musicFEHGearUp_0_Loop
         .byte   FINE
 
 @****************** Track 1 (Midi-Chn.9) ******************@
 
 musicFEHGearUp_1:
         .byte   KEYSH , musicFEHGearUp_key+0
+musicFEHGearUp_1_Loop:
 @ 000   ----------------------------------------
         .byte           VOICE , 0
         .byte           VOL   , 88
@@ -1766,6 +1770,8 @@ musicFEHGearUp_1_8:
         .byte   W96
         .byte   W96
 @ 050   ----------------------------------------
+        .byte   GOTO
+        .word   musicFEHGearUp_1_Loop
         .byte   FINE
 
 
