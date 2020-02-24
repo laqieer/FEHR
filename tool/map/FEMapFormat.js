@@ -14,7 +14,37 @@ var FEMapFormat = {
         let y;
         var file = new TextFile(fileName, TextFile.WriteOnly);
 
-        file.writeLine("@Exported by Tiled extension: FEMapFormat.js");
+        const getMapChangeProperty = function (layer) {
+            id = layer.property("ID");
+            x0 = layer.property("X");
+            y0 = layer.property("Y");
+            w = layer.property("Width");
+            h = layer.property("Height");
+
+            if (id === undefined) {
+                id = layer.name.replace(/ /g, "");
+            }
+
+            let boundary = layer.region().boundingRect;
+
+            if (x0 === undefined) {
+                x0 = boundary.x;
+            }
+
+            if (y0 === undefined) {
+                y0 = boundary.y;
+            }
+
+            if (w === undefined) {
+                w = boundary.width;
+            }
+
+            if (h === undefined) {
+                h = boundary.height;
+            }
+        };
+
+        file.writeLine("//Exported by Tiled extension: FEMapFormat.js");
         file.writeLine("\t.section .rodata");
         file.writeLine("\t.align 2");
 
@@ -61,11 +91,7 @@ var FEMapFormat = {
                 }
                 else {
                     // map change data
-                    id = layer.property("ID");
-                    x0 = layer.property("X");
-                    y0 = layer.property("Y");
-                    w = layer.property("Width");
-                    h = layer.property("Height");
+                    getMapChangeProperty(layer);
 
                     file.writeLine("mapChange".concat(id, ":"));
 
@@ -86,17 +112,15 @@ var FEMapFormat = {
             file.writeLine("\t.global ".concat(label, "_change"));
             file.writeLine(label.concat("_change", ":"));
 
-            for (i = 0; i < map.layerCount; ++i) {
+            for (let i = 0, j = 0; i < map.layerCount; ++i) {
                 layer = map.layerAt(i);
                 if (layer.isTileLayer && layer.name !== "Main") {
-                    id = layer.property("ID");
-                    x0 = layer.property("X");
-                    y0 = layer.property("Y");
-                    w = layer.property("Width");
-                    h = layer.property("Height");
+                    getMapChangeProperty(layer);
 
-                    file.writeLine("\t.byte ".concat(id, ", ", x0, ", ", y0, ", ", w, ", ", h, ", 0, 0, 0"));
+                    file.writeLine("\t.byte ".concat(j, ", ", x0, ", ", y0, ", ", w, ", ", h, ", 0, 0, 0"));
                     file.writeLine("\t.word mapChange".concat(id));
+
+                    j++;
                 }
             }
 
