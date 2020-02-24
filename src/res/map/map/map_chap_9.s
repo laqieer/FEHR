@@ -28,7 +28,6 @@ map_chap_9:
 	.align 2
 mapChangeBrokenWall1:
 	.hword 4028
-	.align 2
 mapChangeBrokenWall2:
 	.hword 4024
 	.global map_chap_9_change

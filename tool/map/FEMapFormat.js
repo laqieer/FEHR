@@ -111,6 +111,7 @@ var FEMapFormat = {
             }
 
             // map change config
+            file.writeLine("\t.align 2");
             file.writeLine("\t.global ".concat(label, "_change"));
             file.writeLine(label.concat("_change", ":"));
 
