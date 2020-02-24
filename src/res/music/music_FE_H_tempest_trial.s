@@ -13,6 +13,7 @@
 
 musicFEHTempestTrial_0:
         .byte   KEYSH , musicFEHTempestTrial_key+0
+musicFEHTempestTrial_0_Loop:
 @ 000   ----------------------------------------
         .byte   TEMPO , 216/2
         .byte           VOICE , 0
@@ -533,12 +534,15 @@ musicFEHTempestTrial_0_55:
         .byte           EOT   , Ds4
         .byte                   Ds5
         .byte   W08
+        .byte   GOTO
+         .word  musicFEHTempestTrial_0_Loop
         .byte   FINE
 
 @****************** Track 1 (Midi-Chn.0) ******************@
 
 musicFEHTempestTrial_1:
         .byte   KEYSH , musicFEHTempestTrial_key+0
+musicFEHTempestTrial_1_Loop:
 @ 000   ----------------------------------------
         .byte           N22   , Gs1 , v080
         .byte           VOL   , 127
@@ -1038,6 +1042,8 @@ musicFEHTempestTrial_1_56:
         .byte           N44   , Ds1 , v080 , gtp1
         .byte   W44
         .byte   W01
+        .byte   GOTO
+         .word  musicFEHTempestTrial_1_Loop
         .byte   FINE
 
 
