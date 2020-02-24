@@ -1,5 +1,9 @@
 ENTRY(_start)
 
+currentChapter = 0x202BC02;
+currentPhase = 0x202BC03;
+currentTurn = 0x202BC04;
+
 textGrid = 0x203FC00;
 
 BG0MapBuffer = 0x2022C60;
@@ -27,6 +31,7 @@ setBGMapBufferSyncFlag = 0x8000FD5;
 writeBGPalette = 0x800105D;
 enableOAMBufferSync = 0x80031BD;
 setOBJAttribute = 0x8003215;
+func800376C = 0x800376D;
 decompressText = 0x8004241;
 func80045FC = 0x80045FD;
 getStringTextWidth = 0x80054CD;
@@ -34,6 +39,7 @@ getCharTextWidth = 0x8005529;
 fixHighPortrait = 0x80070AD;
 playEyeAnimationOrig = 0x80075F1;
 playMouthAnimationOrig = 0x800749D;
+func8016318 = 0x8016319;
 writeTiles = 0x8013689;
 writeTSAPlain = 0x801383D;
 showTitleScreenOBJ = 0x80baf35;
