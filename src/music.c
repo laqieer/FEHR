@@ -10,6 +10,12 @@ extern const u8 musicEventSerious1[];
 extern const u8 musicEventSerious3[];
 extern const u8 musicMapFE3[];
 extern const u8 musicFEIfLostInThoughtsAllAlone[];
+extern const u8 musicFEHEvent1[];
+extern const u8 musicFEHGearUp[];
+extern const u8 musicFEHMapBook2[];
+extern const u8 musicFEHSerious6[];
+extern const u8 musicFEHSerious6B[];
+extern const u8 musicFEHTempestTrial[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0001 Precious Things
@@ -1439,6 +1445,12 @@ const struct Song songs[] = {
         [MUSIC_EVENT_SERIOUS_3] = {musicEventSerious3, 0 , 0},
         [MUSIC_MAP_FE03] = {musicMapFE3, 1, 1},
         [MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE] = {musicFEIfLostInThoughtsAllAlone, 1, 1},
+        [MUSIC_FE_H_EVENT_1] = {musicFEHEvent1, 0, 0},
+        [MUSIC_FE_H_GEAR_UP] = {musicFEHGearUp, 0, 0},
+        [MUSIC_FE_H_MAP_BOOK_2] = {musicFEHMapBook2, 1, 1},
+        [MUSIC_FE_H_SERIOUS_6] = {musicFEHSerious6, 0, 0},
+        [MUSIC_FE_H_SERIOUS_6B] = {musicFEHSerious6B, 0, 0},
+        [MUSIC_FE_H_TEMPEST_TRIAL] = {musicFEHTempestTrial, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1567,6 +1579,12 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_EVENT_SERIOUS_3, 99 * 0x30, 0, "イベント緊張三"},
     {MUSIC_MAP_FE03, 77 * 0x30, 0, "決起の時"},
     {MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE, 355 * 0x30, 0, "ひとり思う"},
+    {MUSIC_FE_H_EVENT_1, 115 * 0x30, 0, "イベント一"},
+    {MUSIC_FE_H_GEAR_UP, 219 * 0x30, 0, "準備"},
+    {MUSIC_FE_H_MAP_BOOK_2, 226 * 0x30, 0, "第二部マップ"},
+    {MUSIC_FE_H_SERIOUS_6, 129 * 0x30, 0, "緊張六"},
+    {MUSIC_FE_H_SERIOUS_6B, 177 * 0x30, 0, "緊張六改"},
+    {MUSIC_FE_H_TEMPEST_TRIAL, 120 * 0x30, 0, "戦渦の連戦"},
 
     // End of table
     {-1, 0, 0, 0},
