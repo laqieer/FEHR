@@ -13,6 +13,7 @@
 
 musicFEHEvent1_0:
         .byte   KEYSH , musicFEHEvent1_key+0
+musicFEHEvent1_0_Loop:
 @ 000   ----------------------------------------
         .byte   TEMPO , 200/2
         .byte           VOICE , 0
@@ -581,12 +582,15 @@ musicFEHEvent1_0_46:
         .byte   W12
         .byte                   Bn4
         .byte   W11
+        .byte   GOTO
+        .word   musicFEHEvent1_0_Loop
         .byte   FINE
 
 @****************** Track 1 (Midi-Chn.0) ******************@
 
 musicFEHEvent1_1:
         .byte   KEYSH , musicFEHEvent1_key+0
+musicFEHEvent1_1_Loop:
 @ 000   ----------------------------------------
         .byte           N11   , Cs1 , v080
         .byte           VOL   , 127
@@ -1113,6 +1117,8 @@ musicFEHEvent1_1_39:
         .byte                   Bn1
         .byte           N22   , Fs2
         .byte   W23
+        .byte   GOTO
+        .word   musicFEHEvent1_1_Loop
         .byte   FINE
 
 
