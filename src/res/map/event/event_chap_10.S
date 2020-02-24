@@ -38,7 +38,7 @@ BeginningScene:
 	ENUN
 	ENDA
 EndingScene:
-	MNCH 0
+	MNCH 11
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 3, 19, 2, 17)
