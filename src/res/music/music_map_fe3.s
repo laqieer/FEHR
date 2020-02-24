@@ -13,6 +13,7 @@
 
 musicMapFE3_0:
         .byte   KEYSH , musicMapFE3_key+0
+musicMapFE3_0_Loop:
 @ 000   ----------------------------------------
         .byte   TEMPO , 130/2
         .byte   W56
@@ -180,12 +181,15 @@ musicMapFE3_0:
 @ 041   ----------------------------------------
         .byte   W96
 @ 042   ----------------------------------------
+        .byte   GOTO
+         .word  musicMapFE3_0_Loop
         .byte   FINE
 
 @****************** Track 1 (Midi-Chn.1) ******************@
 
 musicMapFE3_1:
         .byte   KEYSH , musicMapFE3_key+0
+musicMapFE3_1_Loop:
 @ 000   ----------------------------------------
         .byte   W48
         .byte           VOICE , 57
@@ -338,12 +342,15 @@ musicMapFE3_1:
 @ 041   ----------------------------------------
         .byte   W96
 @ 042   ----------------------------------------
+        .byte   GOTO
+         .word  musicMapFE3_1_Loop
         .byte   FINE
 
 @****************** Track 2 (Midi-Chn.2) ******************@
 
 musicMapFE3_2:
         .byte   KEYSH , musicMapFE3_key+0
+musicMapFE3_2_Loop:
 @ 000   ----------------------------------------
         .byte           VOL   , 127
         .byte   W96
@@ -793,12 +800,15 @@ musicMapFE3_2_20:
         .byte                   10
         .byte   W16
 @ 042   ----------------------------------------
+        .byte   GOTO
+         .word  musicMapFE3_2_Loop
         .byte   FINE
 
 @****************** Track 3 (Midi-Chn.3) ******************@
 
 musicMapFE3_3:
         .byte   KEYSH , musicMapFE3_key+0
+musicMapFE3_3_Loop:
 @ 000   ----------------------------------------
         .byte           VOL   , 127
         .byte   W48
@@ -1263,12 +1273,15 @@ musicMapFE3_3_20:
         .byte                   10
         .byte   W32
 @ 042   ----------------------------------------
+        .byte   GOTO
+         .word  musicMapFE3_3_Loop
         .byte   FINE
 
 @****************** Track 4 (Midi-Chn.4) ******************@
 
 musicMapFE3_4:
         .byte   KEYSH , musicMapFE3_key+0
+musicMapFE3_4_Loop:
 @ 000   ----------------------------------------
         .byte   W44
         .byte   W02
@@ -1785,12 +1798,15 @@ musicMapFE3_4_20:
         .byte           N06   , Fn3
         .byte   W12
 @ 042   ----------------------------------------
+        .byte   GOTO
+         .word  musicMapFE3_4_Loop
         .byte   FINE
 
 @****************** Track 5 (Midi-Chn.5) ******************@
 
 musicMapFE3_5:
         .byte   KEYSH , musicMapFE3_key+0
+musicMapFE3_5_Loop:
 @ 000   ----------------------------------------
         .byte   W48
         .byte   W02
@@ -2052,6 +2068,8 @@ musicMapFE3_5_30:
         .byte           VOL   , 10
         .byte   W20
 @ 042   ----------------------------------------
+        .byte   GOTO
+         .word  musicMapFE3_5_Loop
         .byte   FINE
 
 
