@@ -28,6 +28,8 @@
 #define GenericSoldierEmblianStrong 0x69
 #define GenericSoldierEmblianSuperWeak 0x88
 
+#define GenericSoldierEmblianWeakDropItem 0x82
+
 #define GenericSoldierSummoned 0x72
 #define GenericSoldierSummonedWeak 0x73
 #define GenericSoldierSummonedStrong 0x74
