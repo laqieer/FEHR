@@ -93,6 +93,8 @@ var FEMapFormat = {
                     // map change data
                     getMapChangeProperty(layer);
 
+                    file.writeLine("\t.align 2");
+
                     file.writeLine("mapChange".concat(id, ":"));
 
                     for (y = y0; y < y0 + h; ++y) {

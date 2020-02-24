@@ -25,8 +25,10 @@ map_chap_9:
 	.hword 264, 652, 520, 392, 652, 528, 264, 524, 392, 652, 264, 396, 652, 656, 400
 	.hword 916, 268, 524, 648, 656, 524, 652, 652, 528, 656, 656, 524, 268, 400, 792
 	.hword 788, 792, 528, 648, 268, 400, 528, 656, 400, 648, 528, 524, 652, 916, 916
+	.align 2
 mapChangeBrokenWall1:
 	.hword 4028
+	.align 2
 mapChangeBrokenWall2:
 	.hword 4024
 	.global map_chap_9_change
