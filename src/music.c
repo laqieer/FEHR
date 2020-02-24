@@ -1583,7 +1583,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_H_SERIOUS_6, 129 * 0x30, 0, "ЛўТ£ШZ"},
     {MUSIC_FE_H_SERIOUS_6B, 177 * 0x30, 0, "ЛўТ£ШZЙь"},
     {MUSIC_FE_H_TEMPEST_TRIAL, 120 * 0x30, 0, "РнЙQВћШAРн"},
-    {MUSIC_FE_3_DIVINE_DRAGON_LEGEND_A, 96 * 0x30, 0, "Р_Ч≥У`РаA"},
+    {MUSIC_FE_3_DIVINE_DRAGON_LEGEND_A, 96 * 0x30, 0, "Р_Ч≥У`Ра"},
 
     // End of table
     {-1, 0, 0, 0},
