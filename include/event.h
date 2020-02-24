@@ -54,6 +54,7 @@
 
 // Change music
 #define MUS1 .hword 0x76,
+#define MUSC .hword 0x76,
 #define MUS2 .hword 0x77,
 #define MURE .hword 0x78,
 #define MUS3 .hword 0x79,
