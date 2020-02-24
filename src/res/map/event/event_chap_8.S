@@ -42,7 +42,7 @@ BeginningScene:
 EndingScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
 	TEX1 TEXT_CHAP_8_ED
-	MNCH 0
+	MNCH 9
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 14, 15, 9, 15)
