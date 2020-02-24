@@ -818,6 +818,64 @@ const char* const texts[] = {
                            "私のきょうだい。。。そして" TCC_NEWLINE
                            "その臣下たちは手強いぞ。" TCC_PUSH_A,
 
+        [TEXT_CHAP_12_OP] = TCC_OPEN_FAR_LEFT
+                            TCC_LOAD_FACE PORTARIT_XANDER
+                            "面白い。。。" TCC_NEWLINE
+                            "ここまで辿り着くとはな。" TCC_NEWLINE TCC_PUSH_A
+                            "これも特務機関の。。。" TCC_NEWLINE
+                            "ヴェロニカ皇女の言っていた" TCC_NEWLINE
+                            "伝承の召喚師の力か。" TCC_NEWLINE TCC_PUSH_A
+                            "ならば最後まで全力で応じよう。" TCC_NEWLINE
+                            "共に来てくれ、" TCC_NEWLINE
+                            "ラズワルド、ピエり。" TCC_PUSH_A,
+
+        [TEXT_CHAP_12_ED] = TCC_OPEN_FAR_LEFT
+                            TCC_LOAD_FACE PORTARIT_XANDER
+                            "。。。私たちの負けか。" TCC_NEWLINE
+                            "この地は解放された。" TCC_NEWLINE TCC_PUSH_A
+                            "これで貴殿らと闘う理由も、" TCC_NEWLINE
+                            "アスク王国に侵攻する理由もなくなった。" TCC_NEWLINE
+                            "だが。。。" TCC_NEWLINE TCC_PUSH_A
+                            "私はヴェロニカ皇女についていこう。" TCC_NEWLINE
+                            "次に会う時は、負けませんぞ。" TCC_PUSH_A
+                            TCC_CLEAR_FACE
+                            TCC_OPEN_RIGHT
+                            TCC_LOAD_FACE PORTRAIT_ANNA
+                            "英雄マークス。。。" TCC_NEWLINE
+                            "よりによって、ヴェロニカ皇女に" TCC_NEWLINE
+                            "味方するだなんて。" TCC_PUSH_A
+                            TCC_OPEN_MID_RIGHT
+                            TCC_LOAD_FACE PORTRAIT_ALFONSE
+                            "英雄の中には契約から解放されても、" TCC_NEWLINE
+                            "自分の意思でこの世界の人間に" TCC_NEWLINE
+                            "協力する者がいるんだ。" TCC_NEWLINE TCC_PUSH_A
+                            TCC_TACTICIAN_NAME"に召喚された" TCC_NEWLINE
+                            "英雄たちはすぐに味方になってくれるけど。。。" TCC_NEWLINE
+                            "本来、そういった者はとても少ないんだよ。" TCC_PUSH_A
+                            TCC_OPEN_FAR_RIGHT
+                            TCC_LOAD_FACE PORTRAIT_SHARENA
+                            "でも、その分仲良しになれると" TCC_NEWLINE
+                            "すっごく嬉しいんです。" TCC_NEWLINE
+                            "私にもいますよ、英雄のお友達。" TCC_PUSH_A
+                            TCC_OPEN_MID_RIGHT
+                            "シャロン。。。" TCC_NEWLINE
+                            "あまり肩入れしすぎるなと言っただろう。" TCC_NEWLINE TCC_PUSH_A
+                            "英雄たちとはあくまで協力関係。" TCC_NEWLINE
+                            "友人ではないのだから" TCC_PUSH_A
+                            TCC_OPEN_FAR_RIGHT
+                            "えーっ。でもお兄様にっだて" TCC_NEWLINE
+                            "仲良しの英雄がいたじゃないですか。" TCC_NEWLINE
+                            "今は異界に帰ったんでしたっけ？" TCC_PUSH_A
+                            TCC_OPEN_MID_RIGHT
+                            "。。。ああ。" TCC_NEWLINE
+                            "そうだね。。。" TCC_PUSH_A
+                            TCC_OPEN_FAR_RIGHT
+                            "お兄様。。。？" TCC_PUSH_A
+                            TCC_OPEN_RIGHT
+                            "はい、お話はそこまで。" TCC_NEWLINE
+                            "解放した地に長居は無用よ。" TCC_NEWLINE
+                            "帰還して、次の任務に備えましょう！" TCC_PUSH_A,
+
 };
 
 extern int lastTextID;
