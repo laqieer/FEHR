@@ -46,10 +46,10 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 7, 19, 7, 13)
 	END_UNIT
 EnemyUnitsENM:
-    UNIT(GenericSoldierSummonedWeak, Troubadour, 0, 6, SIDE_ENEMY, 1, 1, 1, 1, 1, Heal, 0, 0, 0, HealInjuredAllies, NoAI2, Cautious, DefaultAI4) // エリーゼ
-	UNIT(GenericSoldierSummonedWeak, Knight_F, 0, 6, SIDE_ENEMY, 1, 0, 8, 0, 8, SteelLance, 0, 0, 0, AttackInPlace, DontMove, NoRecovery, GuardTile) // エルフィ
-	UNIT(GenericSoldierSummonedWeak, Fighter, 0, 6, SIDE_ENEMY, 1, 14, 8, 14, 8, SteelAxe, 0, 0, 0, AttackInPlace, DontMove, NoRecovery, GuardTile) // ハロルド
-    UNIT(GenericSoldierEmblianWeak, Troubadour, 0, 6, SIDE_ENEMY, 1, 13, 1, 13, 1, Heal, 0, 0, 0, HealInjuredAllies, NoAI2, Cautious, DefaultAI4) // ロッドナイト
+    UNIT(GenericSoldierSummonedWeakDropItem, Troubadour, 0, 7, SIDE_ENEMY, 1, 1, 1, 1, 1, Heal, Vulnerary, 0, 0, HealInjuredAllies, NoAI2, Cautious, DefaultAI4) // エリーゼ
+	UNIT(GenericSoldierSummonedWeakDropItem, Knight_F, 0, 7, SIDE_ENEMY, 1, 0, 8, 0, 8, SteelLance, 0, 0, 0, AttackInPlace, DontMove, NoRecovery, GuardTile) // エルフィ
+	UNIT(GenericSoldierSummonedWeakDropItem, Fighter, 0, 7, SIDE_ENEMY, 1, 14, 8, 14, 8, SteelAxe, 0, 0, 0, AttackInPlace, DontMove, NoRecovery, GuardTile) // ハロルド
+    UNIT(GenericSoldierEmblianWeak, Troubadour, 0, 7, SIDE_ENEMY, 1, 13, 1, 13, 1, Heal, 0, 0, 0, HealInjuredAllies, NoAI2, Cautious, DefaultAI4) // ロッドナイト
 	END_UNIT
 TrapsEliwoodMode:
 	END_TRAP

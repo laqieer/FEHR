@@ -32,6 +32,10 @@
 #define GenericSoldierSummonedWeak 0x73
 #define GenericSoldierSummonedStrong 0x74
 
+#define GenericSoldierSummonedDropItem 0x7f
+#define GenericSoldierSummonedWeakDropItem 0x80
+#define GenericSoldierSummonedStrongDropItem 0x81
+
 #define GenericSoldierFlame 0x7c
 #define GenericSoldierFlameWeak 0x7d
 #define GenericSoldierFlameStrong 0x7e
