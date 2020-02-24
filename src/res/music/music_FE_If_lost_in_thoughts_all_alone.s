@@ -13,6 +13,7 @@
 
 musicFEIfLostInThoughtsAllAlone_0:
         .byte   KEYSH , musicFEIfLostInThoughtsAllAlone_key+0
+musicFEIfLostInThoughtsAllAlone_0_Loop:
 @ 000   ----------------------------------------
         .byte   TEMPO , 120/2
         .byte           VOICE , 0
@@ -3259,6 +3260,8 @@ musicFEIfLostInThoughtsAllAlone_0_87:
         .byte   W01
         .byte                   En1
         .byte                   En2
+        .byte   GOTO
+         .word  musicFEIfLostInThoughtsAllAlone_0_Loop
         .byte   FINE
 
 
