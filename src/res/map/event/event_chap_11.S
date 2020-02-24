@@ -43,7 +43,7 @@ EndingScene:
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 6, 19, 5, 14)
 	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 6, 19, 6, 14)
-	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 7, 19, 7, 17)
+	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 7, 19, 7, 14)
 	END_UNIT
 EnemyUnitsENM:
     UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 7, SIDE_ENEMY, 1, 7, 5, 7, 5, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // カミラ
