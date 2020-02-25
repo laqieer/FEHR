@@ -240,9 +240,9 @@ const struct Song songs[] = {
 
         {145905816, 0, 0} ,  // 0x006F Campaign of Fire (no intro)
 
-        {145907548, 0, 0} ,  // 0x0070 Beneath a New Light
+        {145907548, 1, 1} ,  // 0x0070 Beneath a New Light
 
-        {145910436, 0, 0} ,  // 0x0071 The Path to Greatness
+        {145910436, 1, 1} ,  // 0x0071 The Path to Greatness
 
         {145912340, 0, 0} ,  // 0x0072 In the Name of Bern
 
