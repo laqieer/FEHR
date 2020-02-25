@@ -28,7 +28,7 @@ If applicable, add screenshots to help explain your problem.
  - Flashcart [e.g. EZ-FLASH IV]
  - Version [e.g. 1.14]
 
-**Save (please [send Email](mailto:destinybreaknowel@gmail.com)):**
+**Save (please attach them here directly):**
  - Game Save: [e.g. *.sav]
  - Emulator Save: [e.g. *.sgm]
 *Notice:*
