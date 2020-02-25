@@ -31,9 +31,6 @@ If applicable, add screenshots to help explain your problem.
 **Save (please attach them here directly):**
  - Game Save: [e.g. *.sav]
  - Emulator Save: [e.g. *.sgm]
-*Notice:*
-- Exclude ROM and emulator before sending.
-- I don't use cloud storage service like Dropbox or SNS tool like Discord.
 
 **Additional context**
 Add any other context about the problem here.
