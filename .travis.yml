@@ -10,4 +10,5 @@ install:
 script:
   - sh configure
   - head -c 16MB /dev/urandom > rom/fe7-jp.gba
+  - cp -rf lds/ ../
   - make
