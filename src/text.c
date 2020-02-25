@@ -933,15 +933,20 @@ const char* const texts[] = {
                             "あなたが見たことのある世界も" TCC_NEWLINE
                             "どこかにあるかもしれないわね。" TCC_PUSH_A
                             TCC_OPEN_MID_LEFT
-                            "そういえば。。。君はどこから来たんだ？" TCC_NEWLINE
-                            "何か覚えている風景はないかい？" TCC_PUSH_A
+                            "そういえば。。。" TCC_NEWLINE
+                            "君はどこから来たんだ？" TCC_NEWLINE
+                            "何か覚えている風景は" TCC_NEWLINE
+                            "ないかい？" TCC_PUSH_A
                             "。。。鉄でできた大きな建物や、" TCC_NEWLINE
                             "馬のように走り回るキカイ？" TCC_NEWLINE
                             "へえ。興味深いよ。" TCC_PUSH_A
                             TCC_OPEN_LEFT
-                            "そんな世界に続く扉は見た事がないわね。。。" TCC_NEWLINE
-                            "え、じゃあどうやって帰るのかって？" TCC_NEWLINE TCC_PUSH_A
-                            "。。。ま、まあ細かいことはいいじゃない。" TCC_NEWLINE
+                            "そんな世界に続く扉は" TCC_NEWLINE
+                            "見た事がないわね。。。" TCC_NEWLINE
+                            "え、じゃあどうやって" TCC_NEWLINE
+                            "帰るのかって？" TCC_NEWLINE TCC_PUSH_A
+                            "。。。ま、まあ細かいことは" TCC_NEWLINE
+                            "いいじゃない。" TCC_NEWLINE
                             "どのみちあなたはもう、" TCC_NEWLINE
                             "私たち機関の人間なんだもの！" TCC_NEWLINE TCC_PUSH_A
                             "さあみんな、" TCC_NEWLINE
