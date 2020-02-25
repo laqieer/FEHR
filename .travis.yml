@@ -6,7 +6,7 @@ install:
   - sudo dkp-pacman --noconfirm -S gba-dev
   - export DEVKITPRO=/opt/devkitpro
   - export DEVKITARM=${DEVKITPRO}/devkitARM
-  - head -c 16MB /dev/urandon > rom/fe7-jp.gba
+  - head -c 16MB /dev/urandom > rom/fe7-jp.gba
 
 script:
   - sh configure
