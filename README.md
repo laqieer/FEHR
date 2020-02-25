@@ -1,4 +1,6 @@
 # fe7-jp-stunning-tribble
+[![Build Status](https://travis-ci.com/laqieer/fe7-jp-stunning-tribble.svg?branch=master)](https://travis-ci.com/laqieer/fe7-jp-stunning-tribble)
+
 Fire Emblem Heroes on Game Boy Advance.
 
 ![title screen](res/gfx/raw/title_screen.png)
