@@ -876,6 +876,77 @@ const char* const texts[] = {
                             "解放した地に長居は無用よ。" TCC_NEWLINE
                             "帰還して、次の任務に備えましょう！" TCC_PUSH_A,
 
+        [TEXT_CHAP_13_OP] = TCC_OPEN_FAR_LEFT
+                            "あなたがアスク王国の" TCC_NEWLINE
+                            "アルフォンス王子ですね。" TCC_NEWLINE
+                            "初めてお目にかかります。" TCC_NEWLINE TCC_PUSH_A
+                            "僕はロイ。若輩の身ですが、" TCC_NEWLINE
+                            "父の代理として、" TCC_NEWLINE
+                            "フェレの軍を率いています。" TCC_NEWLINE TCC_PUSH_A
+                            "異界の王族に刃を向ける無礼、" TCC_NEWLINE
+                            "どうかお許してください。" TCC_PUSH_A,
+
+        [TEXT_CHAP_13_ED] = TCC_OPEN_FAR_LEFT
+                            "強い。。。" TCC_NEWLINE
+                            "話に聞いていた通り、" TCC_NEWLINE
+                            "さすが異界の英雄。。。" TCC_NEWLINE TCC_PUSH_A
+                            "でも、僕も契約を交した身。" TCC_NEWLINE
+                            "まだ、ここで負けるわけには。。。" TCC_PUSH_A,
+
+        [TEXT_CHAP_17_OP] = TCC_OPEN_FAR_FAR_RIGHT
+                            "リリーナ、みんな！" TCC_NEWLINE
+                            "アルフォンス王子たちが" TCC_NEWLINE
+                            "ここへ来たみたいだ。" TCC_NEWLINE TCC_PUSH_A
+                            "彼らが勝てば、" TCC_NEWLINE
+                            "僕たちは契約から解き放たれる。" TCC_NEWLINE
+                            "もちろん手加減したりはできないけどね。" TCC_NEWLINE TCC_PUSH_A
+                            "リリーナの炎と、僕の剣で" TCC_NEWLINE
+                            "彼らに全力で挑んでみよう。" TCC_NEWLINE
+                            "さあ、行こう！" TCC_PUSH_A,
+
+        [TEXT_CHAP_17_ED] = TCC_OPEN_FAR_FAR_RIGHT
+                            "力は示された。。。" TCC_NEWLINE
+                            "アルフォンス王子、" TCC_NEWLINE
+                            "僕たちの完敗です。" TCC_NEWLINE TCC_PUSH_A
+                            "そして"TCC_TACTICIAN_NAME"、" TCC_NEWLINE
+                            "あなたの策にも感服したよ。" TCC_NEWLINE TCC_PUSH_A
+                            "いつか、あなたたちと仲間になって、" TCC_NEWLINE
+                            "共に戦える日が来ると良いな。。。" TCC_PUSH_A
+                            TCC_OPEN_LEFT
+                            TCC_LOAD_FACE PORTRAIT_ANNA
+                            "「封印の異界」、確かに解放したわ。" TCC_NEWLINE
+                            "みんな、お疲れ様。" TCC_PUSH_A
+                            TCC_OPEN_MID_LEFT
+                            TCC_LOAD_FACE PORTRAIT_ALFONSE
+                            "今回の戦場は厳しかったね。" TCC_NEWLINE
+                            TCC_TACTICIAN_NAME"、" TCC_NEWLINE
+                            "疲れていないかい？" TCC_PUSH_A
+                            TCC_OPEN_FAR_LEFT
+                            TCC_LOAD_FACE PORTRAIT_SHARENA
+                            "おお、涼しい顔をしてますね！" TCC_NEWLINE
+                            "さすが"TCC_TACTICIAN_NAME"さん！" TCC_NEWLINE
+                            "わたしなんかもう、暑くて暑くて。。。" TCC_PUSH_A
+                            TCC_OPEN_LEFT
+                            "位階には沢山の風景が広がっているわ。" TCC_NEWLINE
+                            "森に、遺跡に、溶岩の河に。。。" TCC_NEWLINE TCC_PUSH_A
+                            "もしかしたら、" TCC_NEWLINE
+                            "あなたが見たことのある世界も" TCC_NEWLINE
+                            "どこかにあるかもしれないわね。" TCC_PUSH_A
+                            TCC_OPEN_MID_LEFT
+                            "そういえば。。。君はどこから来たんだ？" TCC_NEWLINE
+                            "何か覚えている風景はないかい？" TCC_PUSH_A
+                            "。。。鉄でできた大きな建物や、" TCC_NEWLINE
+                            "馬のように走り回るキカイ？" TCC_NEWLINE
+                            "へえ。興味深いよ。" TCC_PUSH_A
+                            TCC_OPEN_LEFT
+                            "そんな世界に続く扉は見た事がないわね。。。" TCC_NEWLINE
+                            "え、じゃあどうやって帰るのかって？" TCC_NEWLINE TCC_PUSH_A
+                            "。。。ま、まあ細かいことはいいじゃない。" TCC_NEWLINE
+                            "どのみちあなたはもう、" TCC_NEWLINE
+                            "私たち機関の人間なんだもの！" TCC_NEWLINE TCC_PUSH_A
+                            "さあみんな、" TCC_NEWLINE
+                            "元気よく帰還するわよ！" TCC_PUSH_A,
+
 };
 
 extern int lastTextID;
