@@ -876,7 +876,7 @@ const char* const texts[] = {
                             "解放した地に長居は無用よ。" TCC_NEWLINE
                             "帰還して、次の任務に備えましょう！" TCC_PUSH_A,
 
-        [TEXT_CHAP_13_OP] = TCC_OPEN_FAR_LEFT
+        [TEXT_CHAP_13_OP] = TCC_OPEN_LEFT
                             "あなたがアスク王国の" TCC_NEWLINE
                             "アルフォンス王子ですね。" TCC_NEWLINE
                             "初めてお目にかかります。" TCC_NEWLINE TCC_PUSH_A
@@ -886,7 +886,7 @@ const char* const texts[] = {
                             "異界の王族に刃を向ける無礼、" TCC_NEWLINE
                             "どうかお許してください。" TCC_PUSH_A,
 
-        [TEXT_CHAP_13_ED] = TCC_OPEN_FAR_LEFT
+        [TEXT_CHAP_13_ED] = TCC_OPEN_LEFT
                             "強い。。。" TCC_NEWLINE
                             "話に聞いていた通り、" TCC_NEWLINE
                             "さすが異界の英雄。。。" TCC_NEWLINE TCC_PUSH_A
