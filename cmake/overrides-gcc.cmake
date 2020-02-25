@@ -2,15 +2,13 @@
 set(_arch_flags "-mthumb -mthumb-interwork -mcpu=arm7tdmi -mtune=arm7tdmi -ffunction-sections -fdata-sections -fno-reorder-functions -fno-inline")
 set(_common_flags "${_arch_flags} -Wall -Wextra -mlong-calls")
 set(_c_flags "-fno-common -fno-strict-aliasing")
-set(_cxx_flags "-fno-rtti -fno-exceptions -fno-asynchronous-unwind-tables")
 set(_debug_flags "-g -O0")
 set(_release_flags "-O2 -fomit-frame-pointer -ffast-math")
 
 set(CMAKE_ASM_FLAGS_INIT "${_arch_flags} -x assembler-with-cpp")
-set(CMAKE_CXX_FLAGS_INIT "${_common_flags} ${_cxx_flags}")
 set(CMAKE_C_FLAGS_INIT "${_common_flags} ${_c_flags}")
 
-foreach(lang C CXX ASM)
+foreach(lang C ASM)
     set(CMAKE_${lang}_FLAGS_DEBUG_INIT "${_debug_flags}")
     set(CMAKE_${lang}_FLAGS_MINSIZEREL_INIT "-Os")
     set(CMAKE_${lang}_FLAGS_RELEASE_INIT "${_release_flags}")
