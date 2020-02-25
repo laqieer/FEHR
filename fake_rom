@@ -1,3 +1,0 @@
-#!/bin/sh
-
-head -c 16MB /dev/urandom > rom/fe7-jp.gba
