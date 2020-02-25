@@ -44,12 +44,21 @@
 #define UNIT(character, job, leader, level, side, autoLevel, x0, y0, x, y, item1, item2, item3, item4, AI1, AI2, AI3, AI4) .byte character, job, leader, UNIT_LEVEL(level, side, autoLevel), x0, y0, x, y, item1, item2, item3, item4, AI1, AI2, AI3, AI4
 #define UNIT_ALLY_JOINED(character, job, leader, x0, y0, x, y) UNIT(character, job, leader, 1, SIDE_ALLY, 0, x0, y0, x, y, 0, 0, 0, 0, 0, 0, 0, 0)
 
+// Area event
+#define AREA(id, event, x1, y1, x2, y2) .word 0xb + ((id) << 16) , event, (x1) + ((y1) << 8) + ((x2) << 16) + ((y2) << 24)
+
+// Trap data
+#define BLST .byte 1,
+#define FIRE .byte 4,
+#define GAST .byte 5,
+
 // Loads units.
 #define LOU1 .word 0x30,
 #define LOU2 .word 0x34,
 
 // Shows text.
 #define TEX1 .word 0xd,
+#define TEXT .word 0xd,
 #define TEX2 .word 0xe,
 
 // Change music
@@ -63,6 +72,15 @@
 // Show CG
 #define BACG .hword 5,
 #define SHCG .hword 0xd6,
+
+// Gives item to the current character, like in villages.
+#define ITGV .hword 0x59,
+
+// Give item to the main character.
+#define ITGM .hword 0x5b,
+
+// Gives item to a character.
+#define ITGC .hword 0x5a,
 
 // wait until movement, loading and other unit changing events end.
 #define ENUN .word 0x39

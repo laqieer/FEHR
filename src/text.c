@@ -947,6 +947,11 @@ const char* const texts[] = {
                             "さあみんな、" TCC_NEWLINE
                             "元気よく帰還するわよ！" TCC_PUSH_A,
 
+        [TEXT_CHAP_15_GET_SLIM_LANCE] = TCC_OPEN_RIGHT
+                                        TCC_LOAD_FACE PORTRAIT_CURRENT
+                                        "巨竜の骸骨に刺さった細い槍。。。" TCC_NEWLINE
+                                        "古いけどまだ使えそう。" TCC_PUSH_A,
+
 };
 
 extern int lastTextID;

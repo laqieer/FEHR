@@ -2,8 +2,8 @@
 
 	.section .rodata
 	.align 2
-	.global event_chap_12
-event_chap_12:
+	.global event_chap_17
+event_chap_17:
 	.word TurnBasedEvents
 	.word CharacterBasedEvents
 	.word LocationBasedEvents
@@ -37,12 +37,12 @@ BeginningScene:
 	LOU1 EnemyUnitsENM
 	ENUN
 	MUSC MUSIC_FE_H_SERIOUS_6
-	TEX1 TEXT_CHAP_12_OP
+	TEX1 TEXT_CHAP_17_OP
 	ENDA
 EndingScene:
 	MUSC MUSIC_FE_H_EVENT_1
-	TEX1 TEXT_CHAP_12_ED
-	MNCH 13
+	TEX1 TEXT_CHAP_17_ED
+	MNCH 0
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 2, 19, 2, 19)
@@ -50,12 +50,13 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 12, 19, 12, 19)
 	END_UNIT
 EnemyUnitsENM:
-    UNIT(Xander, Cavalier, 0, 7, SIDE_ENEMY, 1, 5, 1, 5, 1, SteelSword, Dragonshield, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // マークス
-	UNIT(GenericSoldierSummonedWeak, Cavalier_F, Xander, 7, SIDE_ENEMY, 1, 2, 1, 2, 1, SteelLance, 0, 0, 0, AttackInRange, DelayedPursue, NoRecovery, DefaultAI4) // ピエリ
-	UNIT(GenericSoldierEmblianWeakDropItem, Cavalier, Xander, 7, SIDE_ENEMY, 1, 12, 1, 12, 1, Horseslayer, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // アクスナイト
-    UNIT(GenericSoldierSummonedWeak, Mercenary, Xander, 7, SIDE_ENEMY, 1, 9, 1, 9, 1, SteelSword, 0, 0, 0, AttackInRange, DelayedPursue, NoRecovery, DefaultAI4) // ラズワルド
+    UNIT(GenericSoldierSummonedWeak, Mage_F, 0, 9, SIDE_ENEMY, 1, 0, 12, 6, 12, Fire, 0, 0, 0, AttackInRange, Pursue, Cautious, DefaultAI4) // リリーナ
+	UNIT(GenericSoldierSummonedWeak, Knight_F, 0, 9, SIDE_ENEMY, 1, 10, 0, 10, 6, SteelLance, 0, 0, 0, AttackInRange, Pursue, Cautious, DefaultAI4) // ヴェンディ
+	UNIT(GenericSoldierEmblianWeak, Troubadour, 0, 9, SIDE_ENEMY, 1, 0, 6, 1, 6, Heal, Vulnerary, 0, 0, HealInjuredAllies, Pursue, Cautious, DefaultAI4) // ロッドナイト
+    UNIT(GenericSoldierSummonedWeakDropItem, EliwoodLord, 0, 9, SIDE_ENEMY, 1, 14, 0, 14, 1, SteelSword, SecretBook, 0, 0, AttackInRange, Pursue, Cautious, DefaultAI4) // ロイ
 	END_UNIT
 TrapsEliwoodMode:
-	END_TRAP
 TrapsHectorMode:
+    FIRE 13, 12, 0, 1, 1
+    FIRE 14, 12, 0, 1, 1
 	END_TRAP
