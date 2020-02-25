@@ -74,13 +74,13 @@
 #define SHCG .hword 0xd6,
 
 // Gives item to the current character, like in villages.
-#define ITGV .hword 0x59,
+#define ITGV .word 0x59,
 
 // Give item to the main character.
-#define ITGM .hword 0x5b,
+#define ITGM .word 0x5b,
 
 // Gives item to a character.
-#define ITGC .hword 0x5a,
+#define ITGC .word 0x5a,
 
 // wait until movement, loading and other unit changing events end.
 #define ENUN .word 0x39
