@@ -253,7 +253,7 @@ add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT}
 
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE C)
 target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx)
-target_link_options(${PROJECT_NAME} PRIVATE -Wl,-Map,${PROJECT_NAME}.map)
+target_link_libraries(${PROJECT_NAME} PRIVATE "-Wl,-Map,${PROJECT_NAME}.map")
 make_gba_rom(${PROJECT_NAME})
 
 add_custom_target(version
