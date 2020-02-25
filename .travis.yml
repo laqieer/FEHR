@@ -7,8 +7,7 @@ install:
   - export DEVKITPRO=/opt/devkitpro
   - export DEVKITARM=${DEVKITPRO}/devkitARM
 
-before_script: cd $TRAVIS_BUILD_DIR
 script:
   - sh configure
   - head -c 16MB /dev/urandom > rom/fe7-jp.gba
-  - cd build && make
+  - make
