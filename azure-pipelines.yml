@@ -55,8 +55,7 @@ steps:
 - script: |
     git config --global user.email "laqieer@126.com"
     git config --global user.name "laqieer"
-    echo $GITHUB_TOKEN
-    git clone --depth 1 https://$GITHUB_TOKEN@github.com/laqieer/FEHGBARemakePatch.git
+    git clone --depth 1 https://$(GITHUB_TOKEN)@github.com/laqieer/FEHGBARemakePatch.git
     cd FEHGBARemakePatch/
     cp ../FE7.JP.FEHeroes.bps FE7.JP.FEHeroes.bps
     git stage .
