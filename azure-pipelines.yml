@@ -47,7 +47,7 @@ steps:
     unzip floating.zip
     sudo chmod +x flips-linux
     sudo apt install libgtk-3-0
-    ./flips-linux -c -b rom/fe7-jp.gba $REPOSITORY_NAME.gba FE7.JP.FEHeroes.bps
+    ./flips-linux -c -b ../rom/fe7-jp.gba $REPOSITORY_NAME.gba FE7.JP.FEHeroes.bps
   displayName: 'Create patch'
 
 - script: |
