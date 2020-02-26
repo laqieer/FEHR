@@ -49,7 +49,7 @@ steps:
     sudo apt install libgtk-3-0
     ls -l rom/fe7-jp.gba
     ls -l build/$REPOSITORY_NAME.gba
-    ./flips-linux -c -b rom/fe7-jp.gba build/$REPOSITORY_NAME.gba FE7.JP.FEHeroes.bps
+    ./flips-linux -c -b rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.bps
   displayName: 'Create patch'
 
 - script: |
