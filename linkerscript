@@ -46,6 +46,8 @@ showTitleScreenOBJ = 0x80baf35;
 CpuFastSet = 0x80c0551;
 writeTSA = 0x80C0C29;
 
+chapter_titles_no_data = 0x841a6c4;
+
 SECTIONS
 {
 	. = 0x203F000;
@@ -165,6 +167,10 @@ SECTIONS
 	.rodata.pEvents : {*(.rodata.pEvents)}
 	. = 0x8082e68;
 	.rodata.pChapterTitles : {*(.rodata.pChapterTitles)}
+	. = 0x8082e32;
+	.rodata.chapterTitlesNum : {*(.rodata.chapterTitlesNum)}
+	. = 0x8082e36;
+	.rodata.chapterTitleNoData : {*(.rodata.chapterTitleNoData)}
 	. = 0x80bcfa8;
 	.rodata.patch_opening_movie_disabler_bcfa8 : {*(.rodata.patch_opening_movie_disabler_bcfa8)}
 	. = 0x8BFFA74;
