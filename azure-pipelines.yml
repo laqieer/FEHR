@@ -10,7 +10,6 @@ pool:
 
 variables:
   CURRENT_DATE: $[format('{0:yyyyMMdd\-HHmmss}', pipeline.startTime)]
-  REPOSITORY_NAME: $(Build.Repository.Name)
   COMMIT_TAG: $(git log --format=%h -1)
 
 steps:
@@ -39,7 +38,6 @@ steps:
     cd build/
     make
     echo '##vso[task.setvariable variable=COMMIT_TAG]'$(git log --format=%h -1)
-    echo '##vso[task.setvariable variable=COMMIT_MESSAGE]'$(git log --pretty=format:"%an - %s" -1)
   displayName: 'Build'
 
 - script: |
@@ -47,8 +45,6 @@ steps:
     unzip floating.zip
     sudo chmod +x flips-linux
     sudo apt install libgtk-3-0
-    ls -l rom/fe7-jp.gba
-    ls -l build/$REPOSITORY_NAME.gba
     ./flips-linux -c -b rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.bps
   displayName: 'Create patch'
 
@@ -62,21 +58,4 @@ steps:
     git commit -m "FEHGBARemake | $(COMMIT_TAG)"
     git push origin master
     git tag v$CURRENT_DATE
-    echo '##vso[task.setvariable variable=BOT_COMMIT]'$(git log -1 --format="%H")
   displayName: "Commit to laqieer/FEHGBARemakePatch"
-
-- task: GitHubRelease@0
-  displayName: "Release to laqieer/FEHGBARemakePatch"
-  inputs:
-    gitHubConnection: github.com_laqieer
-    repositoryName: laqieer/FEHGBARemakePatch
-    action: create
-    target: $(BOT_COMMIT)
-    tagSource: 'manual'
-    tag: v$(CURRENT_DATE)
-    title: FEHGBARemake | $(COMMIT_TAG)
-    releaseNotesSource: input
-    releaseNotes: $(COMMIT_MESSAGE)
-    assets: '$(Build.ArtifactStagingDirectory)/*'
-    isPreRelease: true
-    addChangeLog: false
