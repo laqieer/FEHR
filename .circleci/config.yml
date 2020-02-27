@@ -18,6 +18,7 @@ jobs:
           wget https://cdn.discordapp.com/attachments/682141375587680274/682160870960267274/fe7-jp.gba.3
           wget https://cdn.discordapp.com/attachments/682141375587680274/682161113470730261/fe7-jp.gba.4
           cat fe7-jp.gba.* > rom/fe7-jp.gba
+          cp rom/fe7-jp.gba /tmp
     - run:
           name: Install CMAKE
           command: |
@@ -30,10 +31,18 @@ jobs:
             ./configure
             cd build/
             make
+            cp build/fe7-jp-stunning-tribble.gba /tmp
+            cp build/fe7-jp-stunning-tribble.map /tmp
+    - persist_to_workspace:
+        root: /tmp
+        paths:
+          - *.gba
+          - *.map
   release:
     executor: my-executor
     working_directory: ~/fe7-jp-stunning-tribble
     steps:
+    - checkout
     - run:
           name: Create patch
           command: |
@@ -42,7 +51,7 @@ jobs:
             sudo apt-get install -y unzip libgtk-3-0 libgomp1
             unzip floating.zip
             sudo chmod +x flips-linux
-            ./flips-linux -c -b rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.`date +%Y%m%d%H%M`.bps
+            ./flips-linux -c -b /tmp/fe7-jp.gba /tmp/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.`date +%Y%m%d%H%M`.bps
     - run:
           name: Release to laqieer/FEHGBARemakePatch2
           command: |
@@ -52,6 +61,7 @@ jobs:
             git clone --depth 1 https://${GITHUB_TOKEN}@github.com/laqieer/FEHGBARemakePatch2.git
             cd FEHGBARemakePatch2/
             cp ../FE7.JP.FEHeroes.*.bps .
+            cp /tmp/fe7-jp-stunning-tribble.map build_map.txt
             git stage .
             git commit -m "fe7-jp-stunning-tribble | $COMMIT_MESSAGE"
             git push origin master
