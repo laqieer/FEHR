@@ -21,9 +21,9 @@ jobs:
     - run:
           name: Install CMAKE
           command: |
-            apt-get update
-            sudo apt-get install -y python3-pip
-            sudo pip3 install numpy scikit-build cmake
+            wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.sh
+            sudo chmod +x cmake-3.16.4-Linux-x86_64.sh
+            ./cmake-3.16.4-Linux-x86_64.sh
     - run: ./configure
     - run: make    
   release:
