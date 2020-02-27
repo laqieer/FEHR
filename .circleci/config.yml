@@ -38,6 +38,7 @@ jobs:
           name: Create patch
           command: |
             wget https://dl.smwcentral.net/11474/floating.zip
+            sudo apt-get install -y unzip
             unzip floating.zip
             sudo chmod +x flips-linux
             ./flips-linux -c -b rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.`date +%Y%m%d%H%M`.bps
