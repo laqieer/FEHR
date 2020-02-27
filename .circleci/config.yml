@@ -42,15 +42,16 @@ jobs:
     - run:
           name: Release to laqieer/FEHGBARemakePatch2
           command: |
-            echo 'export COMMIT_MESSAGE=`$(git log --pretty=format:"%s" -1`' >> $BASH_ENV
+            git log --pretty=format:"%s" -1 > COMMIT_MESSAGE
             git config --global user.email "laqieer@126.com"
             git config --global user.name "laqieer"
             git clone --depth 1 https://${GITHUB_TOKEN}@github.com/laqieer/FEHGBARemakePatch2.git
             cd FEHGBARemakePatch2/
+            rm *.bps
             cp ../FE7.JP.FEHeroes.*.bps .
             cp ../build/fe7-jp-stunning-tribble.map build_map.txt
             git stage .
-            git commit -m "fe7-jp-stunning-tribble | ${COMMIT_MESSAGE}"
+            git commit -m "`cat ../COMMIT_MESSAGE`"
             git push origin master
 workflows:
   nightly:
