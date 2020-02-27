@@ -7,7 +7,7 @@ executors:
 jobs:
   build:
     executor: my-executor
-    working_directory: ~/fe7-jp-stunning-tribble
+    working_directory: ~/${CIRCLE_PROJECT_REPONAME}
     steps:
     - checkout
     - run:
@@ -32,9 +32,27 @@ jobs:
             make
   release:
     executor: my-executor
-    working_directory: ~/fe7-jp-stunning-tribble
+    working_directory: ~/${CIRCLE_PROJECT_REPONAME}
     steps:
-    - run: ls -l
+    - run:
+          name: Create patch
+          command: |
+            https://dl.smwcentral.net/11474/floating.zip
+            unzip floating.zip
+            sudo chmod +x flips-linux
+            ./flips-linux -c -b rom/fe7-jp.gba build/${CIRCLE_PROJECT_REPONAME}.gba FE7.JP.FEHeroes.`date +%Y%m%d%H%M`.bps
+    - run:
+          name: Release to laqieer/FEHGBARemakePatch2
+          command: |
+            export COMMIT_MESSAGE=`$(git log --pretty=format:"%s" -1`
+            git config --global user.email "laqieer@126.com"
+            git config --global user.name "laqieer"
+            git clone --depth 1 https://${GITHUB_TOKEN}@github.com/laqieer/FEHGBARemakePatch2.git
+            cd FEHGBARemakePatch2/
+            cp ../FE7.JP.FEHeroes.*.bps .
+            git stage .
+            git commit -m "${CIRCLE_PROJECT_REPONAME} | $COMMIT_MESSAGE"
+            git push origin master
 workflows:
   nightly:
     jobs:
