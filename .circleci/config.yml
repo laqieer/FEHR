@@ -4,8 +4,6 @@ executors:
   my-executor:
     docker:
       - image: devkitpro/devkitarm
-        environment:
-          PATH: "~/$(CIRCLE_PROJECT_REPONAME)/cmake-3.16.4-Linux-x86_64/bin:$PATH"
 jobs:
   build:
     executor: my-executor
@@ -25,6 +23,7 @@ jobs:
           command: |
             wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.tar.gz
             tar -zxvf cmake-3.16.4-Linux-x86_64.tar.gz
+            export PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH
     - run: ./configure
     - run: make    
   release:
