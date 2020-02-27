@@ -1,0 +1,59 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+executors:
+  my-executor:
+    docker:
+      - image: devkitpro/devkitarm
+jobs:
+  build:
+    executor: my-executor
+    working_directory: ~/fe7-jp-stunning-tribble
+    steps:
+    - checkout
+    - run:
+        name: Fetch clean ROM
+        command: |
+          wget https://cdn.discordapp.com/attachments/682141375587680274/682160126496735263/fe7-jp.gba.1
+          wget https://cdn.discordapp.com/attachments/682141375587680274/682160613798969384/fe7-jp.gba.2
+          wget https://cdn.discordapp.com/attachments/682141375587680274/682160870960267274/fe7-jp.gba.3
+          wget https://cdn.discordapp.com/attachments/682141375587680274/682161113470730261/fe7-jp.gba.4
+          cat fe7-jp.gba.* > rom/fe7-jp.gba
+    - run:
+          name: Install CMAKE
+          command: |
+            wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.tar.gz
+            tar -zxvf cmake-3.16.4-Linux-x86_64.tar.gz
+    - run:
+          name: Build
+          command: |
+            export PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH
+            ./configure
+            cd build/
+            make
+    - run:
+          name: Create patch
+          command: |
+            wget https://dl.smwcentral.net/11474/floating.zip
+            apt-get update
+            sudo apt-get install -y unzip libgtk-3-0 libgomp1
+            unzip floating.zip
+            sudo chmod +x flips-linux
+            ./flips-linux -c -b rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.`date +%Y%m%d%H%M`.bps
+    - run:
+          name: Release to laqieer/FEHGBARemakePatch2
+          command: |
+            git log --pretty=format:"%s" -1 > COMMIT_MESSAGE
+            git config --global user.email "laqieer@126.com"
+            git config --global user.name "laqieer"
+            git clone --depth 1 https://${GITHUB_TOKEN}@github.com/laqieer/FEHGBARemakePatch2.git
+            cd FEHGBARemakePatch2/
+            rm *.bps
+            cp ../FE7.JP.FEHeroes.*.bps .
+            cp ../build/fe7-jp-stunning-tribble.map build_map.txt
+            git stage .
+            git commit -m "`cat ../COMMIT_MESSAGE`"
+            git push origin master
+workflows:
+  nightly:
+    jobs:
+    - build
