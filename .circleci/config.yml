@@ -21,6 +21,7 @@ jobs:
     - run:
           name: Install CMAKE
           command: |
+            apt-get update
             sudo apt-get install -y python3
             sudo python -m pip install --upgrade pip
             sudo python -m pip install cmake
