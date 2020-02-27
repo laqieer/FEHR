@@ -7,7 +7,7 @@ executors:
 jobs:
   build:
     executor: my-executor
-    working_directory: ~/$(CIRCLE_PROJECT_REPONAME)
+    working_directory: ~/fe7-jp-stunning-tribble
     steps:
     - checkout
     - run:
@@ -23,11 +23,16 @@ jobs:
           command: |
             wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.tar.gz
             tar -zxvf cmake-3.16.4-Linux-x86_64.tar.gz
-    - run: export PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH && ./configure
-    - run: make    
+    - run: Build
+          name: 
+          command: |
+            export PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH
+            ./configure
+            cd build/
+            make
   release:
     executor: my-executor
-    working_directory: ~/$(CIRCLE_PROJECT_REPONAME)
+    working_directory: ~/fe7-jp-stunning-tribble
     steps:
     - run: ls -l
 workflows:
