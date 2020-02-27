@@ -20,7 +20,9 @@ jobs:
           cat fe7-jp.gba.* > rom/fe7-jp.gba
     - run:
           name: Install CMAKE
-          command: apt-get update && sudo apt-get -y install cmake
+          command: |
+            sudo python -m pip install --upgrade pip
+            sudo python -m pip install cmake
     - run: ./configure
     - run: make    
   release:
