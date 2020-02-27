@@ -51,7 +51,7 @@ jobs:
             sudo apt-get install -y unzip libgtk-3-0 libgomp1
             unzip floating.zip
             sudo chmod +x flips-linux
-            ./flips-linux -c -b /tmp/fe7-jp.gba /tmp/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.`date +%Y%m%d%H%M`.bps
+            ./flips-linux -c -b /tmp/build/fe7-jp.gba /tmp/build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.`date +%Y%m%d%H%M`.bps
     - run:
           name: Release to laqieer/FEHGBARemakePatch2
           command: |
@@ -61,7 +61,7 @@ jobs:
             git clone --depth 1 https://${GITHUB_TOKEN}@github.com/laqieer/FEHGBARemakePatch2.git
             cd FEHGBARemakePatch2/
             cp ../FE7.JP.FEHeroes.*.bps .
-            cp /tmp/fe7-jp-stunning-tribble.map build_map.txt
+            cp /tmp/build/fe7-jp-stunning-tribble.map build_map.txt
             git stage .
             git commit -m "fe7-jp-stunning-tribble | $COMMIT_MESSAGE"
             git push origin master
