@@ -34,10 +34,9 @@ jobs:
             cp build/fe7-jp-stunning-tribble.gba /tmp
             cp build/fe7-jp-stunning-tribble.map /tmp
     - persist_to_workspace:
-        root: /tmp
+        root: /
         paths:
-          - *.gba
-          - *.map
+          - tmp
   release:
     executor: my-executor
     working_directory: ~/fe7-jp-stunning-tribble
