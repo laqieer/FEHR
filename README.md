@@ -21,4 +21,4 @@ cd build && make
 ## Latest Patch
 [Nightly Build 1](https://github.com/laqieer/FEHGBARemakePatch) [![Build Status](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_apis/build/status/fe7-jp-stunning-tribble-CI?branchName=master)](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_build/latest?definitionId=6&branchName=master)
 
-[Nightly Build 2](https://github.com/laqieer/FEHGBARemakePatch) [![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+[Nightly Build 2](https://github.com/laqieer/FEHGBARemakePatch) [![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://app.circleci.com/gh/laqieer/fe7-jp-stunning-tribble/pipelines)
