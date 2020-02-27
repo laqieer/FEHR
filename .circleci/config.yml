@@ -18,7 +18,8 @@ jobs:
           wget https://cdn.discordapp.com/attachments/682141375587680274/682160870960267274/fe7-jp.gba.3
           wget https://cdn.discordapp.com/attachments/682141375587680274/682161113470730261/fe7-jp.gba.4
           cat fe7-jp.gba.* > rom/fe7-jp.gba
-          cp rom/fe7-jp.gba /tmp
+          mkdir /tmp/build
+          cp rom/fe7-jp.gba /tmp/build
     - run:
           name: Install CMAKE
           command: |
@@ -31,12 +32,12 @@ jobs:
             ./configure
             cd build/
             make
-            cp fe7-jp-stunning-tribble.gba /tmp
-            cp fe7-jp-stunning-tribble.map /tmp
+            cp fe7-jp-stunning-tribble.gba /tmp/build
+            cp fe7-jp-stunning-tribble.map /tmp/build
     - persist_to_workspace:
-        root: /
+        root: /tmp
         paths:
-          - tmp
+          - build
   release:
     executor: my-executor
     working_directory: ~/fe7-jp-stunning-tribble
