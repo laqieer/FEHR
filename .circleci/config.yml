@@ -1,13 +1,34 @@
 # Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
-# Use a package of configuration called an orb.
-orbs:
-  # Declare a dependency on the welcome-orb
-  welcome: circleci/welcome-orb@0.4.1
-# Orchestrate or schedule a set of jobs
+executors:
+  my-executor:
+    docker:
+      - image: devkitpro/devkitarm
+jobs:
+  build:
+    executor: my-executor
+    working_directory: ~/$CIRCLE_PROJECT_REPONAME
+    steps:
+    - checkout
+    - run:
+        name: Fetch clean ROM
+        command: |
+          wget https://cdn.discordapp.com/attachments/682141375587680274/682160126496735263/fe7-jp.gba.1
+          wget https://cdn.discordapp.com/attachments/682141375587680274/682160613798969384/fe7-jp.gba.2
+          wget https://cdn.discordapp.com/attachments/682141375587680274/682160870960267274/fe7-jp.gba.3
+          wget https://cdn.discordapp.com/attachments/682141375587680274/682161113470730261/fe7-jp.gba.4
+          cat fe7-jp.gba.* > rom/fe7-jp.gba
+    - run: ./configure
+    - run: make    
+  release:
+    executor: my-executor
+    working_directory: ~/$CIRCLE_PROJECT_REPONAME
+    steps:
+    - run: ls -l
 workflows:
-  # Name the workflow "welcome"
-  welcome:
-    # Run the welcome/run job in its own container
+  nightly:
     jobs:
-      - welcome/run
+    - build
+    - release:
+        requires:
+        - build
