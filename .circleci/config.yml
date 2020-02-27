@@ -20,7 +20,7 @@ jobs:
           cat fe7-jp.gba.* > rom/fe7-jp.gba
     - run:
           name: Install CMAKE
-          command: sudo apt-get -y install cmake
+          command: apt-get update && sudo apt-get -y install cmake
     - run: ./configure
     - run: make    
   release:
