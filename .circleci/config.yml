@@ -31,8 +31,8 @@ jobs:
             ./configure
             cd build/
             make
-            cp build/fe7-jp-stunning-tribble.gba /tmp
-            cp build/fe7-jp-stunning-tribble.map /tmp
+            cp fe7-jp-stunning-tribble.gba /tmp
+            cp fe7-jp-stunning-tribble.map /tmp
     - persist_to_workspace:
         root: /
         paths:
