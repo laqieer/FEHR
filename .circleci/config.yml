@@ -13,7 +13,7 @@ jobs:
     - run:
         name: Generate fake ROM
         command: |
-          - head -c 16MB /dev/urandom > rom/fe7-jp.gba
+          head -c 16MB /dev/urandom > rom/fe7-jp.gba
     - run:
           name: Install CMAKE
           command: |

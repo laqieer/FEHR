@@ -14,7 +14,7 @@ variables:
 
 steps:
 - script: |
-    - head -c 16MB /dev/urandom > rom/fe7-jp.gba
+    head -c 16MB /dev/urandom > rom/fe7-jp.gba
   displayName: 'Generate fake ROM'
 
 - script: |

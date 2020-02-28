@@ -12,18 +12,30 @@ A hack based on Fire Emblem 7 Japanese version.
 * cmake(>=3.13)
 
 ## Build
+### Build Instruction
 ```
 cp <game_rom> rom/fe7-jp.gba
 ./configure
 cd build && make
 ```
 
-## Latest Patch
-Provided by third-party cloud continuous integration services.
-
-|Provider|Status|Link|
+### Build Status
+|Provider|Status|
 |---|---|---|
-|[Azure DevOps](https://azure.microsoft.com/en-us/services/devops/?nav=min)|[![Build Status](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_apis/build/status/fe7-jp-stunning-tribble-CI?branchName=master)](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_build/latest?definitionId=6&branchName=master)|[Patch & Patching Guide](https://github.com/laqieer/FEHGBARemakePatch)|
-|[Circle CI](https://circleci.com/)|[![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://app.circleci.com/gh/laqieer/fe7-jp-stunning-tribble/pipelines)|[Patch & ROM Map & Patching Guide](https://github.com/laqieer/FEHGBARemakePatch2)|
-|[Cirrus CI](https://cirrus-ci.org/)|[![Build Status](https://api.cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble.svg)](https://cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble)|[Patch](https://api.cirrus-ci.com/v1/artifact/github/laqieer/fe7-jp-stunning-tribble/main/patch/build/FE7.JP.FEHeroes.xdelta) [Patching Guide](https://linux.die.net/man/1/xdelta)|
-|[Travis CI](https://travis-ci.org/)|[![Build Status](https://travis-ci.com/laqieer/fe7-jp-stunning-tribble.svg?branch=master)](https://travis-ci.com/laqieer/fe7-jp-stunning-tribble)|Not Available (Only for build status check)|
+|[Azure DevOps](https://azure.microsoft.com/en-us/services/devops/?nav=min)|[![Build Status](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_apis/build/status/fe7-jp-stunning-tribble-CI?branchName=master)](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_build/latest?definitionId=6&branchName=master)|
+|[Circle CI](https://circleci.com/)|[![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://app.circleci.com/gh/laqieer/fe7-jp-stunning-tribble/pipelines)|
+|[Cirrus CI](https://cirrus-ci.org/)|[![Build Status](https://api.cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble.svg)](https://cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble)|
+|[Travis CI](https://travis-ci.org/)|[![Build Status](https://travis-ci.com/laqieer/fe7-jp-stunning-tribble.svg?branch=master)](https://travis-ci.com/laqieer/fe7-jp-stunning-tribble)|
+|[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079/badge.svg?token=17a080ae6f8b131ee525769bd14c9c265def2701a1a6e03ec223ca9213c46a9f "buddy pipeline")](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079)|
+
+## Patch
+[Latest release](https://github.com/laqieer/fe7-jp-stunning-tribble/releases/latest)
+
+## Clean ROM
+Fire Emblem: Rekka no Ken \[Japan\]
+
+md5: 9485f273f4e97e9e8f21966407f2e782
+
+## Patcher
+- [Web 1](https://www.marcrobledo.com/RomPatcher.js/)
+- [Web 2](https://hack64.net/tools/patcher.php)
