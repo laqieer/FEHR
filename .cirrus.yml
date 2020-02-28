@@ -16,7 +16,7 @@ task:
     - cd build && make
   create_patch_script:
     - sudo apt-get install -y xdelta
-    - xdelta delta -9 rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba build/FE7.JP.FEHeroes.xdelta
+    - allow_failures: xdelta delta -9 rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba build/FE7.JP.FEHeroes.xdelta
     - ls -l build/FE7.JP.FEHeroes.xdelta
   patch_artifacts:
     path: "build/FE7.JP.FEHeroes.xdelta"
