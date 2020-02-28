@@ -13,7 +13,7 @@
         - "if [ ! -d \"cmake-3.16.4-Linux-x86_64\" ]; then wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.tar.gz; tar -zxvf cmake-3.16.4-Linux-x86_64.tar.gz; fi"
         - "PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH ./configure"
         - "cd build && make"
-        - "xdelta3 -S djw -s rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba build/FE7.JP.FEHeroes.xd"
+        - "xdelta3 -S djw -s ../rom/fe7-jp.gba fe7-jp-stunning-tribble.gba fe7-jp-stunning-tribble.xd"
       setup_commands:
         - "apt-get update && apt-get -y install xdelta3"
       mount_filesystem_path: "/buddy/fe7-jp-stunning-tribble"
