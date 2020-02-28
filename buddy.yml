@@ -13,7 +13,7 @@
         - "if [ ! -d \"cmake-3.16.4-Linux-x86_64\" ]; then wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.tar.gz; tar -zxvf cmake-3.16.4-Linux-x86_64.tar.gz; fi"
         - "PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH ./configure"
         - "cd build && make"
-        - "if [ ! -f \"flips-linux\" ]; then wget https://dl.smwcentral.net/11474/floating.zip; unzip floating.zip; chmod +x flips-linux; fi"
+        - "if [ ! -f \"flips-linux\" ]; then wget https://dl.smwcentral.net/11474/floating.zip; unzip floating.zip; sudo chmod +x flips-linux; fi"
         - "tag=$(git describe --tags `git rev-list --tags --max-count=1`)"
         - "./flips-linux -c -b ../rom/fe7-jp.gba fe7-jp-stunning-tribble.gba FEHR$tag.bps"
         - "sudo github-release upload --owner laqieer --repo fe7-jp-stunning-tribble --tag \"$tag\" --name \"$tag\" --body \"Released automatically by Buddy CI pipeline.\" FEHR$tag.bps"
