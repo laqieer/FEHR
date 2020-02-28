@@ -10,8 +10,7 @@
       docker_image_name: "devkitpro/devkitarm"
       docker_image_tag: "latest"
       execute_commands:
-        - "export PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH"
-        - "./configure"
+        - "export PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH && ./configure"
         - "make"
         - "xdelta3 -S djw -s rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba build/FE7.JP.FEHeroes.xd"
       setup_commands:
