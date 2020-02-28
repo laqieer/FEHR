@@ -22,6 +22,6 @@ task:
     - ./generate_build_files.sh
     - ./configure
     - make install
-    - xdelta3 -9 -S lzma -e -f -s ../../../rom/fe7-jp.gba ../../fe7-jp-stunning-tribble.gba ../../FE7.JP.FEHeroes.xdelta
+    - xdelta3 -9 -S lzma -e -f -s ../../rom/fe7-jp.gba ../../build/fe7-jp-stunning-tribble.gba ../../build/FE7.JP.FEHeroes.xdelta
   patch_artifacts:
     path: "build/FE7.JP.FEHeroes.xdelta"
