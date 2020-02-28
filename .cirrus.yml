@@ -1,0 +1,12 @@
+container:
+  image: devkitpro/devkitarm
+task:
+  rom_script:
+    - wget https://cdn.discordapp.com/attachments/682141375587680274/682160126496735263/fe7-jp.gba.1
+    - wget https://cdn.discordapp.com/attachments/682141375587680274/682160613798969384/fe7-jp.gba.2
+    - wget https://cdn.discordapp.com/attachments/682141375587680274/682160870960267274/fe7-jp.gba.3
+    - wget https://cdn.discordapp.com/attachments/682141375587680274/682161113470730261/fe7-jp.gba.4
+    - cat fe7-jp.gba.* > rom/fe7-jp.gba
+  build_script:
+    - ./configure
+    - cd build && make
