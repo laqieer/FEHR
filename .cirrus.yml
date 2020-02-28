@@ -1,12 +1,16 @@
 container:
   image: devkitpro/devkitarm
 task:
-  rom_script:
+  fetch_rom_script:
     - wget https://cdn.discordapp.com/attachments/682141375587680274/682160126496735263/fe7-jp.gba.1
     - wget https://cdn.discordapp.com/attachments/682141375587680274/682160613798969384/fe7-jp.gba.2
     - wget https://cdn.discordapp.com/attachments/682141375587680274/682160870960267274/fe7-jp.gba.3
     - wget https://cdn.discordapp.com/attachments/682141375587680274/682161113470730261/fe7-jp.gba.4
     - cat fe7-jp.gba.* > rom/fe7-jp.gba
+  install_cmake_script:
+    - wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.tar.gz
+    - tar -zxvf cmake-3.16.4-Linux-x86_64.tar.gz
   build_script:
+    - export PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH
     - ./configure
     - cd build && make
