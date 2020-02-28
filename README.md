@@ -30,7 +30,7 @@ cd build && make
 |[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079/badge.svg?token=17a080ae6f8b131ee525769bd14c9c265def2701a1a6e03ec223ca9213c46a9f "buddy pipeline")](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079)|
 
 ## Patch
-[Latest release](https://github.com/laqieer/fe7-jp-stunning-tribble/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/laqieer/fe7-jp-stunning-tribble)](https://github.com/laqieer/fe7-jp-stunning-tribble/releases/latest)
 
 ## Clean ROM
 Fire Emblem: Rekka no Ken \[Japan\]
