@@ -1,0 +1,21 @@
+- pipeline: "Build"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "refs/tags/*"
+  ref_type: "WILDCARD"
+  trigger_condition: "ALWAYS"
+  actions:
+    - action: "Execute: git push origin --tags"
+      type: "BUILD"
+      working_directory: "/buddy/fe7-jp-stunning-tribble"
+      docker_image_name: "devkitpro/devkitarm"
+      docker_image_tag: "latest"
+      execute_commands:
+        - "cp ../fe7-jp.gba rom/"
+        - "./configure"
+        - "make"
+        - "xdelta3 -S djw -s rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.xd"
+      setup_commands:
+        - "apt-get update && apt-get -y install cmake xdelta3"
+      mount_filesystem_path: "/buddy/fe7-jp-stunning-tribble"
+      shell: "BASH"
+      trigger_condition: "ALWAYS"
