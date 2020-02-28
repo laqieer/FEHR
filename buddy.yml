@@ -16,7 +16,8 @@
         - "if [ ! -f \"flips-linux\" ]; then wget https://dl.smwcentral.net/11474/floating.zip; unzip floating.zip; sudo chmod +x flips-linux; fi"
         - "tag=$(git describe --tags `git rev-list --tags --max-count=1`)"
         - "./flips-linux -c -b ../rom/fe7-jp.gba fe7-jp-stunning-tribble.gba FEHR$tag.bps"
-        - "sudo github-release upload --owner laqieer --repo fe7-jp-stunning-tribble --tag \"$tag\" --name \"$tag\" --body \"Released automatically by Buddy CI pipeline.\" FEHR$tag.bps"
+        - "COMMIT_LOG=`git log -1 --format='%ci %H %s'`"
+        - "sudo github-release upload --owner laqieer --repo fe7-jp-stunning-tribble --tag \"latest\" --name \"$tag\" --body \"$COMMIT_LOG\" FEHR$tag.bps"
       setup_commands:
         - "apt-get update && apt-get -y install unzip libgtk-3-0 libgomp1"
         - "curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -"
