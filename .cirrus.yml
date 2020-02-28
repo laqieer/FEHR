@@ -17,7 +17,9 @@ task:
   create_patch_script:
     - git clone https://github.com/jmacd/xdelta.git
     - cd xdelta/xdelta3
-    - sudo apt-get install -y automake autoconf
+    - sudo apt-get install -y automake autoconf libtoolize
+    - sudo locale-gen en_US en_US.UTF-8
+    - sudo dpkg-reconfigure locales
     - ./generate_build_files.sh
     - ./configure
     - make
