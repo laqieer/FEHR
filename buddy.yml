@@ -18,7 +18,7 @@
         - "floating/flips-linux -c -b ../rom/fe7-jp.gba fe7-jp-stunning-tribble.gba FEHR$tag.bps"
         - "github-release upload --owner laqieer --repo fe7-jp-stunning-tribble --tag \"$tag\" --name \"$tag\" --body \"Released automatically by Buddy CI pipeline.\" FEHR$tag.bps"
       setup_commands:
-        - "apt-get update && apt-get -y install unzip libgtk-3-0 libgomp1 nodejs"
+        - "apt-get update && apt-get -y install unzip libgtk-3-0 libgomp1 nodejs npm"
         - "npm install -g github-release-cli"
       mount_filesystem_path: "/buddy/fe7-jp-stunning-tribble"
       shell: "BASH"
