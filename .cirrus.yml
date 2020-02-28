@@ -18,7 +18,7 @@ task:
     - git clone https://github.com/wdhongtw/xdelta.git
     - cd xdelta/xdelta3
     - apt-get update
-    - sudo apt-get install -y automake autoconf libtool g++
+    - sudo apt-get install -y automake autoconf libtool g++ lzma
     - ./generate_build_files.sh
     - ./configure
     - make install
