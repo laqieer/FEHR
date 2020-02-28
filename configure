@@ -6,4 +6,5 @@ if [ -z "$DEVKITPRO" ] || [ -z "$DEVKITARM" ]; then
 fi
 
 rm -rf build/
+mkdir build/
 cmake -B build . -DCMAKE_TOOLCHAIN_FILE=toolchain-gcc.cmake "$@"
