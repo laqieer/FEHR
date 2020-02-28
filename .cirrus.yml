@@ -15,7 +15,7 @@ task:
     - ./configure
     - cd build && make
   create_patch_script:
-    - git clone https://github.com/jmacd/xdelta.git
+    - git clone https://github.com/wdhongtw/xdelta.git
     - cd xdelta/xdelta3
     - apt-get update
     - export LC_CTYPE=en_US.UTF-8
@@ -23,7 +23,7 @@ task:
     - sudo apt-get install -y automake autoconf libtool
     - ./generate_build_files.sh
     - ./configure
-    - make
+    - make install
     - xdelta3 -9 -S lzma -e -f -s ../../../rom/fe7-jp.gba ../../fe7-jp-stunning-tribble.gba ../../FE7.JP.FEHeroes.xdelta
   patch_artifacts:
     path: "build/FE7.JP.FEHeroes.xdelta"
