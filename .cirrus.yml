@@ -14,3 +14,12 @@ task:
     - export PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH
     - ./configure
     - cd build && make
+  create_patch_script:
+    - git clone https://github.com/jmacd/xdelta.git
+    - cd xdelta/xdelta3
+    - ./generate_build_files.sh
+    - ./configure
+    - make
+    - xdelta3 -9 -S lzma -e -f -s ../../../rom/fe7-jp.gba ../../fe7-jp-stunning-tribble.gba ../../FE7.JP.FEHeroes.xdelta
+  patch_artifacts:
+    path: "build/FE7.JP.FEHeroes.xdelta"
