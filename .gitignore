@@ -88,3 +88,9 @@ src/res/gfx/*.s
 venv/
 
 .DS_Store
+
+# Patches
+*.ips
+*.ups
+*.bps
+*.xdelta
