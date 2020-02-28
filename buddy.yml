@@ -10,13 +10,13 @@
       docker_image_name: "devkitpro/devkitarm"
       docker_image_tag: "latest"
       execute_commands:
-        - "./configure_with_specific_cmake.sh"
+        - "wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.tar.gz"
+        - "tar -zxvf cmake-3.16.4-Linux-x86_64.tar.gz"
+        - "PATH=`pwd`/cmake-3.16.4-Linux-x86_64/bin:$PATH ./configure"
         - "make"
         - "xdelta3 -S djw -s rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba build/FE7.JP.FEHeroes.xd"
       setup_commands:
         - "apt-get update && apt-get -y install xdelta3"
-        - "wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4-Linux-x86_64.tar.gz"
-        - "tar -zxvf cmake-3.16.4-Linux-x86_64.tar.gz"
       mount_filesystem_path: "/buddy/fe7-jp-stunning-tribble"
       shell: "BASH"
       trigger_condition: "ALWAYS"
