@@ -11,13 +11,9 @@ jobs:
     steps:
     - checkout
     - run:
-        name: Fetch clean ROM
+        name: Generate fake ROM
         command: |
-          wget https://cdn.discordapp.com/attachments/682141375587680274/682160126496735263/fe7-jp.gba.1
-          wget https://cdn.discordapp.com/attachments/682141375587680274/682160613798969384/fe7-jp.gba.2
-          wget https://cdn.discordapp.com/attachments/682141375587680274/682160870960267274/fe7-jp.gba.3
-          wget https://cdn.discordapp.com/attachments/682141375587680274/682161113470730261/fe7-jp.gba.4
-          cat fe7-jp.gba.* > rom/fe7-jp.gba
+          - head -c 16MB /dev/urandom > rom/fe7-jp.gba
     - run:
           name: Install CMAKE
           command: |
@@ -30,29 +26,6 @@ jobs:
             ./configure
             cd build/
             make
-    - run:
-          name: Create patch
-          command: |
-            wget https://dl.smwcentral.net/11474/floating.zip
-            apt-get update
-            sudo apt-get install -y unzip libgtk-3-0 libgomp1
-            unzip floating.zip
-            sudo chmod +x flips-linux
-            ./flips-linux -c -b rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.`date +%Y%m%d%H%M`.bps
-    - run:
-          name: Release to laqieer/FEHGBARemakePatch2
-          command: |
-            git log --pretty=format:"%s" -1 > COMMIT_MESSAGE
-            git config --global user.email "laqieer@126.com"
-            git config --global user.name "laqieer"
-            git clone --depth 1 https://${GITHUB_TOKEN}@github.com/laqieer/FEHGBARemakePatch2.git
-            cd FEHGBARemakePatch2/
-            rm *.bps
-            cp ../FE7.JP.FEHeroes.*.bps .
-            cp ../build/fe7-jp-stunning-tribble.map build_map.txt
-            git stage .
-            git commit -m "`cat ../COMMIT_MESSAGE`"
-            git push origin master
 workflows:
   nightly:
     jobs:

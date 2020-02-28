@@ -14,12 +14,8 @@ variables:
 
 steps:
 - script: |
-    curl -L https://cdn.discordapp.com/attachments/682141375587680274/682160126496735263/fe7-jp.gba.1 -o fe7-jp.gba.1
-    curl -L https://cdn.discordapp.com/attachments/682141375587680274/682160613798969384/fe7-jp.gba.2 -o fe7-jp.gba.2
-    curl -L https://cdn.discordapp.com/attachments/682141375587680274/682160870960267274/fe7-jp.gba.3 -o fe7-jp.gba.3
-    curl -L https://cdn.discordapp.com/attachments/682141375587680274/682161113470730261/fe7-jp.gba.4 -o fe7-jp.gba.4
-    cat fe7-jp.gba.1 fe7-jp.gba.2 fe7-jp.gba.3 fe7-jp.gba.4 > rom/fe7-jp.gba
-  displayName: 'Get ROM'
+    - head -c 16MB /dev/urandom > rom/fe7-jp.gba
+  displayName: 'Generate fake ROM'
 
 - script: |
     curl -L https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.deb -o pacman.deb
@@ -37,25 +33,4 @@ steps:
     ./configure
     cd build/
     make
-    echo '##vso[task.setvariable variable=COMMIT_TAG]'$(git log --format=%h -1)
   displayName: 'Build'
-
-- script: |
-    curl -L https://dl.smwcentral.net/11474/floating.zip -o floating.zip
-    unzip floating.zip
-    sudo chmod +x flips-linux
-    sudo apt install libgtk-3-0
-    ./flips-linux -c -b rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.bps
-  displayName: 'Create patch'
-
-- script: |
-    git config --global user.email "laqieer@126.com"
-    git config --global user.name "laqieer"
-    git clone --depth 1 https://$(GITHUB_TOKEN)@github.com/laqieer/FEHGBARemakePatch.git
-    cd FEHGBARemakePatch/
-    cp ../FE7.JP.FEHeroes.bps FE7.JP.FEHeroes.bps
-    git stage .
-    git commit -m "FEHGBARemake | $(COMMIT_TAG)"
-    git push origin master
-    git tag v$CURRENT_DATE
-  displayName: "Commit to laqieer/FEHGBARemakePatch"
