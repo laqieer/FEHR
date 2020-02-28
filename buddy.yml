@@ -10,7 +10,6 @@
       docker_image_name: "devkitpro/devkitarm"
       docker_image_tag: "latest"
       execute_commands:
-        - "cp ../fe7-jp.gba rom/"
         - "./configure"
         - "make"
         - "xdelta3 -S djw -s rom/fe7-jp.gba build/fe7-jp-stunning-tribble.gba FE7.JP.FEHeroes.xd"
