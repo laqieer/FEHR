@@ -44,11 +44,23 @@ const char* const texts[] = {
         // character Alfonse description
         [0x1B2] = "アスク王国の王子。優しく真面目な性格。特務機関の一員として、国の平和を守っている。",
 
+        // character Alfonse death quote
+        [TEXT_DEATH_QUOTE_ALFONSE] = TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+                "国を守れない。。。" TCC_NEWLINE
+                "無念。。。" TCC_PUSH_A,
+
         // character Anna name
         [0x4E5] = "アンナ",
 
         // character Anna description
         [0x1B3] = "特務機関の隊長。アルフォンスたちの上官。経験豊富な頼れる人物。",
+
+        // character Anna death quote
+        [TEXT_DEATH_QUOTE_ANNA] = TCC_OPEN_RIGHT
+                                  TCC_LOAD_FACE PORTRAIT_ANNA
+                                  "ファイアーエムブレム。。。" TCC_NEWLINE
+                                  "手強いシミュレーション。。。" TCC_PUSH_A,
 
         // character Sharena name
         [1254] = "シャロン",
@@ -57,14 +69,14 @@ const char* const texts[] = {
         [436] = "アスク王国の王女。アルフォンスの妹。明るく人懐っこい性格で、英雄とも仲が良い。",
 
         // character Sharena death quote
-        [0x7b5] = TCC_OPEN_FAR_RIGHT
+        [TEXT_DEATH_QUOTE_SHARENA] = TCC_OPEN_FAR_RIGHT
                   TCC_LOAD_FACE PORTRAIT_SHARENA
                   "。。。そんな" TCC_NEWLINE
                   "ごめんね。。。お兄様。。。" TCC_PUSH_A
                   TCC_CLEAR_FACE
                   TCC_OPEN_LEFT
                   TCC_LOAD_FACE PORTRAIT_ALFONSE
-                  "シャロン！！"
+                  "シャロン！！" TCC_PUSH_A
                   ,
 
         // character Xander name
