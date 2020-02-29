@@ -1,0 +1,18 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Generate fake ROM
+      run: head -c 16MB /dev/urandom > rom/fe7-jp.gba
+    - name: Build
+      run: |
+        ./configure
+        cd build/
+        make
