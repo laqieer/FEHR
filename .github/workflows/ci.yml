@@ -17,10 +17,10 @@ jobs:
         sudo dpkg -i devkitpro-pacman.deb
         rm devkitpro-pacman.deb
         sudo dkp-pacman --noconfirm -S gba-dev
-        export DEVKITPRO=/opt/devkitpro
-        export DEVKITARM=${DEVKITPRO}/devkitARM
     - name: Build
       run: |
+        export DEVKITPRO=/opt/devkitpro
+        export DEVKITARM=${DEVKITPRO}/devkitARM
         ./configure
         cd build/
         make
