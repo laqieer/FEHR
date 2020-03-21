@@ -615,3 +615,5 @@ const struct Chapter * const pChapters3 = chapters;
 const struct Chapter * const pChapters4 = chapters;
 const struct Chapter * const pChapters5 = chapters;
 const struct Chapter * const pChapters6 = chapters;
+
+const u8 chapterNumber = 0xff;

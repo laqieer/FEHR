@@ -91,6 +91,8 @@ SECTIONS
     INCLUDE ../lds/music.ld
 	. = 0x802e3c6;
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
+	. = 0x8031A5E;
+	.rodata.chapterNumber : {*(.rodata.chapterNumber)}
 	. = 0x8031A6C;
 	.rodata.pChapters1 : {*(.rodata.pChapters1)}
 	. = 0x8079798;
