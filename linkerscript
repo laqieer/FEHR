@@ -1,5 +1,7 @@
 ENTRY(_start)
 
+currentBGMSongId = 0x2024E14;
+DAT_0202bbb8 = 0x202bbb8;
 currentChapter = 0x202BC02;
 currentPhase = 0x202BC03;
 currentTurn = 0x202BC04;
@@ -31,7 +33,9 @@ setBGMapBufferSyncFlag = 0x8000FD5;
 writeBGPalette = 0x800105D;
 enableOAMBufferSync = 0x80031BD;
 setOBJAttribute = 0x8003215;
+setBGMVolume = 0x800348D;
 func800376C = 0x800376D;
+changeBGMSong = 0x800394D;
 decompressText = 0x8004241;
 func80045FC = 0x80045FD;
 getStringTextWidth = 0x80054CD;
@@ -95,6 +99,8 @@ SECTIONS
 	.rodata.chapterNumber : {*(.rodata.chapterNumber)}
 	. = 0x8031A6C;
 	.rodata.pChapters1 : {*(.rodata.pChapters1)}
+	. = 0x8067e78;
+	.text.playBGMInjector : {*(.text.playBGMInjector)}
 	. = 0x8079798;
 	.rodata.patch_tutorial_disabler_79798 : {*(.rodata.patch_tutorial_disabler_79798)}
 	. = 0x80797D4;
