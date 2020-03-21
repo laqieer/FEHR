@@ -179,6 +179,8 @@ SECTIONS
 	.rodata.patch_opening_movie_disabler_bcfa8 : {*(.rodata.patch_opening_movie_disabler_bcfa8)}
 	. = 0x8BFFA74;
     .rodata.pPlayMouthAnimation : {*(.rodata.pPlayMouthAnimation)}
+	. = 0x8db8050;
+	.rodata.patch_remove_one_year_later_image : {*(.rodata.patch_remove_one_year_later_image)}
 	. = 0x8db8ee8;
     .rodata.procTitleScreen : {*(.rodata.procTitleScreen)}
     /*INCLUDE ../lds/patch_song_music_track_note.ld*/
