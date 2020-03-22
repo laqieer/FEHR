@@ -93,6 +93,8 @@ SECTIONS
     INCLUDE ../lds/map_sprites.ld
     INCLUDE ../lds/character_palette.ld
     INCLUDE ../lds/music.ld
+    . = 0x8029b42;
+    .rodata.levelLimit : {*(.rodata.levelLimit)}
 	. = 0x802e3c6;
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
 	. = 0x8031A5E;
