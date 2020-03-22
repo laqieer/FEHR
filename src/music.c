@@ -18,245 +18,247 @@ extern const u8 musicFE3DivineDragonLegendA[];
 extern const u8 musicFEIfEndAll[];
 
 const struct Song songs[] = {
-        {141477904, 0, 0} ,  // 0x0001 Precious Things
+        {141477904, 0, 0} ,  // 0x0000 Nothing
 
-        {145689224, 1, 1} ,  // 0x0002 Companions
+        {145689224, 1, 1} ,  // 0x0001 Precious Things
 
-        {145693492, 1, 1} ,  // 0x0003 Friendship and Adventure
+        {145693492, 1, 1} ,  // 0x0002 Companions
 
-        {145696240, 1, 1} ,  // 0x0004 Dragon's Gate II
+        {145696240, 1, 1} ,  // 0x0003 Friendship and Adventure
 
-        {145698776, 1, 1} ,  // 0x0005 Scars of the Scouring
+        {145698776, 1, 1} ,  // 0x0004 Dragon's Gate II
 
-        {145701600, 1, 1} ,  // 0x0006 Raise Your Spirits
+        {145701600, 1, 1} ,  // 0x0005 Scars of the Scouring
 
-        {145704048, 1, 1} ,  // 0x0007 Shadow Approaches
+        {145704048, 1, 1} ,  // 0x0006 Raise Your Spirits
 
-        {145706344, 1, 1} ,  // 0x0008 Binding Ties
+        {145706344, 1, 1} ,  // 0x0007 Shadow Approaches
 
-        {145708548, 1, 1} ,  // 0x0009 Winning Road
+        {145708548, 1, 1} ,  // 0x0008 Binding Ties
 
-        {145710752, 1, 1} ,  // 0x000A Distant Travels
+        {145710752, 1, 1} ,  // 0x0009 Winning Road
 
-        {145713524, 1, 1} ,  // 0x000B Inescapable Fate
+        {145713524, 1, 1} ,  // 0x000A Distant Travels
 
-        {145716068, 1, 1} ,  // 0x000C Enemies Appear
+        {145716068, 1, 1} ,  // 0x000B Inescapable Fate
 
-        {145719972, 1, 1} ,  // 0x000D The Messenger
+        {145719972, 1, 1} ,  // 0x000C Enemies Appear
 
-        {145722612, 1, 1} ,  // 0x000E Darkness Comes
+        {145722612, 1, 1} ,  // 0x000D The Messenger
 
-        {145725536, 1, 1} ,  // 0x000F Nabata's Wandering Messenger
+        {145725536, 1, 1} ,  // 0x000E Darkness Comes
 
-        {145730016, 1, 1} ,  // 0x0010 Dragon's Gate I
+        {145730016, 1, 1} ,  // 0x000F Nabata's Wandering Messenger
 
-        {145731888, 1, 1} ,  // 0x0011 Legendary Inheritance
+        {145731888, 1, 1} ,  // 0x0010 Dragon's Gate I
 
-        {145733224, 1, 1} ,  // 0x0012 Raid!
+        {145733224, 1, 1} ,  // 0x0011 Legendary Inheritance
 
-        {145735996, 1, 1} ,  // 0x0013 Messenger from the Darkness
+        {145735996, 1, 1} ,  // 0x0012 Raid!
 
-        {145738080, 1, 1} ,  // 0x0014 Victory Now!
+        {145738080, 1, 1} ,  // 0x0013 Messenger from the Darkness
 
-        {145739516, 0, 0} ,  // 0x0015 Rise to the Challenge
+        {145739516, 0, 0} ,  // 0x0014 Victory Now!
 
-        {145742532, 0, 0} ,  // 0x0016 Softly with Grace
+        {145742532, 0, 0} ,  // 0x0015 Rise to the Challenge
 
-        {145744160, 0, 0} ,  // 0x0017 Everything into the Dark
+        {145744160, 0, 0} ,  // 0x0016 Softly with Grace
 
-        {145746800, 0, 0} ,  // 0x0018 Campaign of Fire
+        {145746800, 0, 0} ,  // 0x0017 Everything into the Dark
 
-        {145749224, 0, 0} ,  // 0x0019 Healing
+        {145749224, 0, 0} ,  // 0x0018 Campaign of Fire
 
-        {145750460, 0, 0} ,  // 0x001A Curing
+        {145750460, 0, 0} ,  // 0x0019 Healing
 
-        {145750848, 0, 0} ,  // 0x001B To the Heights
+        {145750848, 0, 0} ,  // 0x001A Curing
 
-        {145752272, 0, 0} ,  // 0x001C Blessing of the 8 Generals I
+        {145752272, 0, 0} ,  // 0x001B To the Heights
 
-        {145753320, 0, 0} ,  // 0x001D Receive the Blessings of Water
+        {145753320, 0, 0} ,  // 0x001C Blessing of the 8 Generals I
 
-        {145754432, 0, 0} ,  // 0x001E Ride the Wind
+        {145754432, 0, 0} ,  // 0x001D Receive the Blessings of Water
 
-        {145755580, 0, 0} ,  // 0x001F Strike
+        {145755580, 0, 0} ,  // 0x001E Ride the Wind
 
-        {145758776, 0, 0} ,  // 0x0020 Safeguard
+        {145758776, 0, 0} ,  // 0x001F Strike
 
-        {145760292, 0, 0} ,  // 0x0021 Requiem
+        {145760292, 0, 0} ,  // 0x0020 Safeguard
 
-        {145761132, 0, 0} ,  // 0x0022 Land of Swirling Sands
+        {145761132, 0, 0} ,  // 0x0021 Requiem
 
-        {145762880, 0, 0} ,  // 0x0023 The Kingdom of Bern
+        {145762880, 0, 0} ,  // 0x0022 Land of Swirling Sands
 
-        {145765068, 1, 1} ,  // 0x0024 Bern - A Mother's Wish
+        {145765068, 1, 1} ,  // 0x0023 The Kingdom of Bern
 
-        {145766556, 0, 0} ,  // 0x0025 A Hint of Things to Come
+        {145766556, 0, 0} ,  // 0x0024 Bern - A Mother's Wish
 
-        {145768504, 0, 0} ,  // 0x0026 Road of Trials
+        {145768504, 0, 0} ,  // 0x0025 A Hint of Things to Come
 
-        {145770260, 0, 0} ,  // 0x0027 Destiny Enlaced by Fear
+        {145770260, 0, 0} ,  // 0x0026 Road of Trials
 
-        {145771848, 0, 0} ,  // 0x0028 Nothing
+        {145771848, 0, 0} ,  // 0x0027 Destiny Enlaced by Fear
 
-        {141477904, 0, 0} ,  // 0x0029 Results
+        {141477904, 0, 0} ,  // 0x0028 Nothing
 
-        {145774372, 0, 0} ,  // 0x002A Treasured Hope
+        {145774372, 0, 0} ,  // 0x0029 Results
 
-        {145788440, 0, 0} ,  // 0x002B Game Over
+        {145788440, 0, 0} ,  // 0x002A Treasured Hope
 
-        {145788728, 0, 0} ,  // 0x002C Within Sadness
+        {145788728, 0, 0} ,  // 0x002B Game Over
 
-        {145788984, 0, 0} ,  // 0x002D Arena Victory
+        {145788984, 0, 0} ,  // 0x002C Within Sadness
 
-        {145789244, 0, 0} ,  // 0x002E Arena Tactics
+        {145789244, 0, 0} ,  // 0x002D Arena Victory
 
-        {145790852, 0, 0} ,  // 0x002F Nothing
+        {145790852, 0, 0} ,  // 0x002E Arena Tactics
 
-        {141477904, 0, 0} ,  // 0x0030 Winds Across the Plains
+        {141477904, 0, 0} ,  // 0x002F Nothing
 
-        {145793608, 1, 1} ,  // 0x0031 Nothing
+        {145793608, 1, 1} ,  // 0x0030 Winds Across the Plains
 
-        {145793640, 0, 0} ,  // 0x0032 An Unexpected Caller
+        {145793640, 0, 0} ,  // 0x0031 Nothing
 
-        {145799668, 1, 1} ,  // 0x0033 When the Rush Comes
+        {145799668, 1, 1} ,  // 0x0032 An Unexpected Caller
 
-        {145802448, 0, 0} ,  // 0x0034 The Cogs of Fate
+        {145802448, 0, 0} ,  // 0x0033 When the Rush Comes
 
-        {145805340, 0, 0} ,  // 0x0035 Shocking Truth I
+        {145805340, 0, 0} ,  // 0x0034 The Cogs of Fate
 
-        {145807248, 1, 1} ,  // 0x0036 Shocking Truth II
+        {145807248, 1, 1} ,  // 0x0035 Shocking Truth I
 
-        {145808100, 0, 0} ,  // 0x0037 The Eight Generals
+        {145808100, 0, 0} ,  // 0x0036 Shocking Truth II
 
-        {145810304, 1, 1} ,  // 0x0038 Triumph
+        {145810304, 1, 1} ,  // 0x0037 The Eight Generals
 
-        {145812592, 1, 1} ,  // 0x0039 In the Shadow of Triumph
+        {145812592, 1, 1} ,  // 0x0038 Triumph
 
-        {145815420, 1, 1} ,  // 0x003A Reminiscence
+        {145815420, 1, 1} ,  // 0x0039 In the Shadow of Triumph
 
-        {145817904, 1, 1} ,  // 0x003B Nergal's Wrath
+        {145817904, 1, 1} ,  // 0x003A Reminiscence
 
-        {145819104, 0, 0} ,  // 0x003C The Archsage Athos
+        {145819104, 0, 0} ,  // 0x003B Nergal's Wrath
 
-        {145821256, 1, 1} ,  // 0x003D One Heart: Eliwood's Theme
+        {145821256, 1, 1} ,  // 0x003C The Archsage Athos
 
-        {145823708, 0, 0} ,  // 0x003E Loyalty: Hector's Theme
+        {145823708, 0, 0} ,  // 0x003D One Heart: Eliwood's Theme
 
-        {145825836, 0, 0} ,  // 0x003F Girl of the Plains: Lyn's Theme
+        {145825836, 0, 0} ,  // 0x003E Loyalty: Hector's Theme
 
-        {145829044, 0, 0} ,  // 0x0040 Final Farewell
+        {145829044, 0, 0} ,  // 0x003F Girl of the Plains: Lyn's Theme
 
-        {145831580, 0, 0} ,  // 0x0041 Going My Way
+        {145831580, 0, 0} ,  // 0x0040 Final Farewell
 
-        {145833364, 0, 0} ,  // 0x0042 Together, We Ride!
+        {145833364, 0, 0} ,  // 0x0041 Going My Way
 
-        {145835040, 0, 0} ,  // 0x0043 A Knight's Oath
+        {145835040, 0, 0} ,  // 0x0042 Together, We Ride!
 
-        {145838496, 0, 0} ,  // 0x0044 Happiness Abounds
+        {145838496, 0, 0} ,  // 0x0043 A Knight's Oath
 
-        {145841308, 0, 0} ,  // 0x0045 Main Theme Arrangement
+        {145841308, 0, 0} ,  // 0x0044 Happiness Abounds
 
-        {145844888, 0, 0} ,  // 0x0046 Shop
+        {145844888, 0, 0} ,  // 0x0045 Main Theme Arrangement
 
-        {145846124, 0, 0} ,  // 0x0047 Arena Entrance
+        {145846124, 0, 0} ,  // 0x0046 Shop
 
-        {145847372, 0, 0} ,  // 0x0048 Arena Battle
+        {145847372, 0, 0} ,  // 0x0047 Arena Entrance
 
-        {145848276, 0, 0} ,  // 0x0049 Prepare to Charge
+        {145848276, 0, 0} ,  // 0x0048 Arena Battle
 
-        {145849592, 0, 0} ,  // 0x004A Calamity Bringer: Nergal's Theme
+        {145849592, 0, 0} ,  // 0x0049 Prepare to Charge
 
-        {145851700, 1, 1} ,  // 0x004B Light to Tomorrow
+        {145851700, 1, 1} ,  // 0x004A Calamity Bringer: Nergal's Theme
 
-        {145855112, 0, 0} ,  // 0x004C Merchant Merlinus
+        {145855112, 0, 0} ,  // 0x004B Light to Tomorrow
 
-        {145856264, 0, 0} ,  // 0x004D Armory
+        {145856264, 0, 0} ,  // 0x004C Merchant Merlinus
 
-        {145856844, 0, 0} ,  // 0x004E Ships and Homes
+        {145856844, 0, 0} ,  // 0x004D Armory
 
-        {145857696, 1, 1} ,  // 0x004F Silent Ground
+        {145857696, 1, 1} ,  // 0x004E Ships and Homes
 
-        {145858488, 0, 0} ,  // 0x0050 Black Fang
+        {145858488, 0, 0} ,  // 0x004F Silent Ground
 
-        {145859888, 0, 0} ,  // 0x0051 Recollection of a Petal
+        {145859888, 0, 0} ,  // 0x0050 Black Fang
 
-        {145861664, 0, 0} ,  // 0x0052 What Comes from Darkness
+        {145861664, 0, 0} ,  // 0x0051 Recollection of a Petal
 
-        {145867980, 0, 0} ,  // 0x0053 Stratagem
+        {145867980, 0, 0} ,  // 0x0052 What Comes from Darkness
 
-        {145869772, 0, 0} ,  // 0x0054 Lyn's Desire
+        {145869772, 0, 0} ,  // 0x0053 Stratagem
 
-        {145870408, 0, 0} ,  // 0x0055 Nothing
+        {145870408, 0, 0} ,  // 0x0054 Lyn's Desire
 
-        {141477904, 0, 0} ,  // 0x0056 Eyes of Sorrow
+        {141477904, 0, 0} ,  // 0x0055 Nothing
 
-        {145871572, 0, 0} ,  // 0x0057 Unshakable Faith
+        {145871572, 0, 0} ,  // 0x0056 Eyes of Sorrow
 
-        {145874332, 0, 0} ,  // 0x0058 The Grieving Heart
+        {145874332, 0, 0} ,  // 0x0057 Unshakable Faith
 
-        {145876288, 0, 0} ,  // 0x0059 Nothing
+        {145876288, 0, 0} ,  // 0x0058 The Grieving Heart
 
-        {141477904, 0, 0} ,  // 0x005A Fire Emblem Theme
+        {141477904, 0, 0} ,  // 0x0059 Nothing
 
-        {145879976, 0, 0} ,  // 0x005B Fire Emblem Theme (looped)
+        {145879976, 0, 0} ,  // 0x005A Fire Emblem Theme
 
-        {145882920, 0, 0} ,  // 0x005C Opening: History Unveiled
+        {145882920, 0, 0} ,  // 0x005B Fire Emblem Theme {looped}
 
-        {145887136, 0, 0} ,  // 0x005D Distant Utopia
+        {145887136, 0, 0} ,  // 0x005C Opening: History Unveiled
 
-        {145888624, 0, 0} ,  // 0x005E Fortune Telling
+        {145888624, 0, 0} ,  // 0x005D Distant Utopia
 
-        {145889064, 1, 1} ,  // 0x005F Fire Emblem Theme (with intro)
+        {145889064, 1, 1} ,  // 0x005E Fortune Telling
 
-        {145894536, 0, 0} ,  // 0x0060 Chapter Display humming
+        {145894536, 0, 0} ,  // 0x005F Fire Emblem Theme {with intro}
 
-        {145895152, 6, 6} ,  // 0x0061 Chapter Display
+        {145895152, 6, 6} ,  // 0x0060 Chapter Display humming
 
-        {145897324, 7, 7} ,  // 0x0062 Water Droplet in the Opening
+        {145897324, 7, 7} ,  // 0x0061 Chapter Display
 
-        {145897356, 3, 3} ,  // 0x0063 Sword Sound in the Opening
+        {145897356, 3, 3} ,  // 0x0062 Water Droplet in the Opening
 
-        {145897464, 3, 3} ,  // 0x0064 What Comes from Darkness
+        {145897464, 3, 3} ,  // 0x0063 Sword Sound in the Opening
 
-        {145867980, 1, 1} ,  // 0x0065 Black Fang
+        {145867980, 1, 1} ,  // 0x0064 What Comes from Darkness
 
-        {145859888, 1, 1} ,  // 0x0066 Going My Way
+        {145859888, 1, 1} ,  // 0x0065 Black Fang
 
-        {145833364, 1, 1} ,  // 0x0067 Safeguard
+        {145833364, 1, 1} ,  // 0x0066 Going My Way
 
-        {145760292, 1, 1} ,  // 0x0068 Shattered Life
+        {145760292, 1, 1} ,  // 0x0067 Safeguard
 
-        {145900288, 0, 0} ,  // 0x0069 Anguish
+        {145900288, 0, 0} ,  // 0x0068 Shattered Life
 
-        {145902952, 0, 0} ,  // 0x006A Respite in Battle
+        {145902952, 0, 0} ,  // 0x0069 Anguish
 
-        {145903568, 0, 0} ,  // 0x006B The Inn
+        {145903568, 0, 0} ,  // 0x006A Respite in Battle
 
-        {145904128, 0, 0} ,  // 0x006C Nothing
+        {145904128, 0, 0} ,  // 0x006B The Inn
+
+        {141477904, 0, 0} ,  // 0x006C Nothing
 
         {141477904, 0, 0} ,  // 0x006D Nothing
 
-        {141477904, 0, 0} ,  // 0x006E Blessing of the 8 Generals II
+        {145905816, 0, 0} ,  // 0x006E Blessing of the 8 Generals II
 
-        {145905816, 0, 0} ,  // 0x006F Campaign of Fire (no intro)
+        {145907548, 0, 0} ,  // 0x006F Campaign of Fire {no intro}
 
-        {145907548, 1, 1} ,  // 0x0070 Beneath a New Light
+        {145910436, 1, 1} ,  // 0x0070 Beneath a New Light
 
-        {145910436, 1, 1} ,  // 0x0071 The Path to Greatness
+        {145912340, 1, 1} ,  // 0x0071 The Path to Greatness
 
-        {145912340, 0, 0} ,  // 0x0072 In the Name of Bern
+        {145914440, 0, 0} ,  // 0x0072 In the Name of Bern
 
-        {145914440, 0, 0} ,  // 0x0073 Legend of Athos
+        {145917212, 0, 0} ,  // 0x0073 Legend of Athos
 
-        {145917212, 0, 0} ,  // 0x0074 Avoided Fate
+        {145921460, 0, 0} ,  // 0x0074 Avoided Fate
 
-        {145921460, 1, 1} ,  // 0x0075 Legend of the God Dragon
+        {145923996, 0, 0} ,  // 0x0075 Legend of the God Dragon
 
-        {145923996, 0, 0} ,  // 0x0076 Royal Palace of Silezha
+        {145925268, 0, 0} ,  // 0x0076 Royal Palace of Silezha
 
-        {145925268, 0, 0} ,  // 0x0077 ???
+        {141477904, 0, 0} ,  // 0x0077 ???
 
-        {141477904, 0, 0} ,  // 0x0078 ??? (sounds like FE6's theme, but still unused there, too...)
+        {141477904, 0, 0} ,  // 0x0078 ??? {sounds like FE6's theme, but still unused there, too...}
 
         {141477904, 0, 0} ,  // 0x0079 Ominius
 
@@ -272,43 +274,43 @@ const struct Song songs[] = {
 
         {141477904, 0, 0} ,  // 0x007F Nothing
 
-        {141477904, 0, 0} ,  // 0x0080 Droplet? sounds familiar
+        {145925340, 3, 3} ,  // 0x0080 Droplet? sounds familiar
 
-        {145925340, 3, 3} ,  // 0x0081 Crowd cheering
+        {145925452, 8, 8} ,  // 0x0081 Crowd cheering
 
-        {145925452, 8, 8} ,  // 0x0082 Rest staff (map)
+        {145925532, 6, 6} ,  // 0x0082 Rest staff {map}
 
-        {145925532, 6, 6} ,  // 0x0083 Silence staff (map)
+        {145925580, 6, 6} ,  // 0x0083 Silence staff {map}
 
-        {145925580, 6, 6} ,  // 0x0084 Nothing
+        {145925608, 6, 6} ,  // 0x0084 Nothing
 
-        {145925608, 6, 6} ,  // 0x0085 Sleep staff (map)
+        {145925636, 6, 6} ,  // 0x0085 Sleep staff {map}
 
-        {145925636, 6, 6} ,  // 0x0086 Hammerne staff (map)
+        {145925716, 6, 6} ,  // 0x0086 Hammerne staff {map}
 
-        {145925716, 6, 6} ,  // 0x0087 Berserk staff (map)
+        {145925824, 6, 6} ,  // 0x0087 Berserk staff {map}
 
-        {145925824, 6, 6} ,  // 0x0088 Weird sound (Watch staff?)
+        {145925900, 6, 6} ,  // 0x0088 Weird sound {Watch staff?}
 
-        {145925900, 6, 6} ,  // 0x0089 Live staff
+        {145926008, 6, 6} ,  // 0x0089 Live staff
 
-        {145926008, 6, 6} ,  // 0x008A Relive staff
+        {145926116, 6, 6} ,  // 0x008A Relive staff
 
-        {145926116, 6, 6} ,  // 0x008B Recover staff
+        {145926236, 6, 6} ,  // 0x008B Recover staff
 
-        {145926236, 6, 6} ,  // 0x008C Reserve staff
+        {145926396, 7, 7} ,  // 0x008C Reserve staff
 
-        {145926396, 7, 7} ,  // 0x008D Recovery from a status effect (longer)
+        {145926560, 6, 6} ,  // 0x008D Recovery from a status effect {longer}
 
-        {145926560, 6, 6} ,  // 0x008E Crowd cheering (softer)
+        {145926688, 8, 8} ,  // 0x008E Crowd cheering {softer}
 
-        {145926688, 8, 8} ,  // 0x008F Crowd cheering, then stops
+        {145926852, 8, 8} ,  // 0x008F Crowd cheering, then stops
 
-        {145926852, 8, 8} ,  // 0x0090 FE6 Chapter opening humming
+        {145927056, 6, 6} ,  // 0x0090 FE6 Chapter opening humming
 
-        {145927056, 6, 6} ,  // 0x0091 FE6 Chapter opening
+        {145927336, 7, 7} ,  // 0x0091 FE6 Chapter opening
 
-        {145927336, 7, 7} ,  // 0x0092 Nothing
+        {141477904, 0, 0} ,  // 0x0092 Nothing
 
         {141477904, 0, 0} ,  // 0x0093 Footsteps
 
@@ -316,91 +318,91 @@ const struct Song songs[] = {
 
         {141477904, 0, 0} ,  // 0x0095 Footsteps 3
 
-        {141477904, 0, 0} ,  // 0x0096 Footsteps 4
+        {145927372, 4, 4} ,  // 0x0096 Footsteps 4
 
-        {145927372, 4, 4} ,  // 0x0097 Footsteps 5
+        {145927400, 4, 4} ,  // 0x0097 Footsteps 5
 
-        {145927400, 4, 4} ,  // 0x0098 Footsteps 6
+        {145927428, 5, 5} ,  // 0x0098 Footsteps 6
 
-        {145927428, 5, 5} ,  // 0x0099 Footsteps 7
+        {145927456, 5, 5} ,  // 0x0099 Footsteps 7
 
-        {145927456, 5, 5} ,  // 0x009A Footsteps 8
+        {145927484, 4, 4} ,  // 0x009A Footsteps 8
 
-        {145927484, 4, 4} ,  // 0x009B Horse trot
+        {145927512, 4, 4} ,  // 0x009B Horse trot
 
-        {145927512, 4, 4} ,  // 0x009C Horse trot 2
+        {145927540, 4, 4} ,  // 0x009C Horse trot 2
 
-        {145927540, 4, 4} ,  // 0x009D Horse trot 3
+        {145927568, 5, 5} ,  // 0x009D Horse trot 3
 
-        {145927568, 5, 5} ,  // 0x009E Horse trot 4
+        {145927596, 5, 5} ,  // 0x009E Horse trot 4
 
-        {145927596, 5, 5} ,  // 0x009F Horse trot 5
+        {145927624, 5, 5} ,  // 0x009F Horse trot 5
 
-        {145927624, 5, 5} ,  // 0x00A0 Armour walk
+        {145927652, 4, 4} ,  // 0x00A0 Armour walk
 
-        {145927652, 4, 4} ,  // 0x00A1 Armour walk 2
+        {145927680, 5, 5} ,  // 0x00A1 Armour walk 2
 
-        {145927680, 5, 5} ,  // 0x00A2 Armour walk 3
+        {145927708, 4, 4} ,  // 0x00A2 Armour walk 3
 
-        {145927708, 4, 4} ,  // 0x00A3 Armour walk 4
+        {145927736, 4, 4} ,  // 0x00A3 Armour walk 4
 
-        {145927736, 4, 4} ,  // 0x00A4 Armour walk 5
+        {145927764, 5, 5} ,  // 0x00A4 Armour walk 5
 
-        {145927764, 5, 5} ,  // 0x00A5 Armour walk 6
+        {145927792, 5, 5} ,  // 0x00A5 Armour walk 6
 
-        {145927792, 5, 5} ,  // 0x00A6 Pegasus flying
+        {145927820, 4, 4} ,  // 0x00A6 Pegasus flying
 
-        {145927820, 4, 4} ,  // 0x00A7 Pegasus flying 2
+        {145927848, 5, 5} ,  // 0x00A7 Pegasus flying 2
 
-        {145927848, 5, 5} ,  // 0x00A8 Nothing
+        {141477904, 0, 0} ,  // 0x00A8 Nothing
 
         {141477904, 0, 0} ,  // 0x00A9 Nothing
 
-        {141477904, 0, 0} ,  // 0x00AA Recovery from a status effect
+        {145927952, 6, 6} ,  // 0x00AA Recovery from a status effect
 
-        {145927952, 6, 6} ,  // 0x00AB Rock exploding?
+        {145927980, 6, 6} ,  // 0x00AB Rock exploding?
 
-        {145927980, 6, 6} ,  // 0x00AC Captive falling from dead holder
+        {145928008, 6, 6} ,  // 0x00AC Captive falling from dead holder
 
-        {145928008, 6, 6} ,  // 0x00AD Nothing
+        {141477904, 0, 0} ,  // 0x00AD Nothing
 
         {141477904, 0, 0} ,  // 0x00AE Nothing
 
-        {141477904, 0, 0} ,  // 0x00AF Destroyed wall/snag
+        {145928036, 7, 7} ,  // 0x00AF Destroyed wall/snag
 
-        {145928036, 7, 7} ,  // 0x00B0 Attacking wall/snag
+        {145928064, 7, 7} ,  // 0x00B0 Attacking wall/snag
 
-        {145928064, 7, 7} ,  // 0x00B1 Unlocking door
+        {145928092, 6, 6} ,  // 0x00B1 Unlocking door
 
-        {145928092, 6, 6} ,  // 0x00B2 Nothing
+        {141477904, 0, 0} ,  // 0x00B2 Nothing
 
-        {141477904, 0, 0} ,  // 0x00B3 Torch
+        {145928232, 6, 6} ,  // 0x00B3 Torch
 
-        {145928232, 6, 6} ,  // 0x00B4 Warping
+        {145928264, 6, 6} ,  // 0x00B4 Warping
 
-        {145928264, 6, 6} ,  // 0x00B5 Warp end
+        {145928292, 7, 7} ,  // 0x00B5 Warp end
 
-        {145928292, 7, 7} ,  // 0x00B6 Pure Water
+        {145928320, 6, 6} ,  // 0x00B6 Pure Water
 
-        {145928320, 6, 6} ,  // 0x00B7 Poison sound
+        {145928348, 6, 6} ,  // 0x00B7 Poison sound
 
-        {145928348, 6, 6} ,  // 0x00B8 ???
+        {145928516, 7, 7} ,  // 0x00B8 ???
 
-        {145928516, 7, 7} ,  // 0x00B9 Gold changing
+        {145928548, 4, 4} ,  // 0x00B9 Gold changing
 
-        {145928548, 4, 4} ,  // 0x00BA Poison vent
+        {145928580, 6, 6} ,  // 0x00BA Poison vent
 
-        {145928580, 6, 6} ,  // 0x00BB Nothing
+        {141477904, 0, 0} ,  // 0x00BB Nothing
 
         {141477904, 0, 0} ,  // 0x00BC Nothing
 
-        {141477904, 0, 0} ,  // 0x00BD Water tile going under
+        {145928648, 6, 6} ,  // 0x00BD Water tile going under
 
-        {145928648, 6, 6} ,  // 0x00BE Water tile coming up
+        {145928716, 6, 6} ,  // 0x00BE Water tile coming up
 
-        {145928716, 6, 6} ,  // 0x00BF Fire tile
+        {145928764, 6, 6} ,  // 0x00BF Fire tile
 
-        {145928764, 6, 6} ,  // 0x00C0 Nothing
+        {141477904, 0, 0} ,  // 0x00C0 Nothing
 
         {141477904, 0, 0} ,  // 0x00C1 Nothing
 
@@ -414,129 +416,129 @@ const struct Song songs[] = {
 
         {141477904, 0, 0} ,  // 0x00C6 Nothing
 
-        {141477904, 0, 0} ,  // 0x00C7 GBA version of Zelda:OoT future Hyrule Castle winds
+        {145929280, 7, 7} ,  // 0x00C7 GBA version of Zelda:OoT future Hyrule Castle winds
 
-        {145929280, 7, 7} ,  // 0x00C8 Small plunk?
+        {145929308, 6, 6} ,  // 0x00C8 Small plunk?
 
-        {145929308, 6, 6} ,  // 0x00C9 Light plunk?
+        {145929336, 6, 6} ,  // 0x00C9 Light plunk?
 
-        {145929336, 6, 6} ,  // 0x00CA Large plunk?
+        {145929364, 6, 6} ,  // 0x00CA Large plunk?
 
-        {145929364, 6, 6} ,  // 0x00CB Eliwood critical sword swing
+        {145929392, 6, 6} ,  // 0x00CB Eliwood critical sword swing
 
-        {145929392, 6, 6} ,  // 0x00CC Tap?
+        {145929420, 6, 6} ,  // 0x00CC Tap?
 
-        {145929420, 6, 6} ,  // 0x00CD Low plunk?
+        {145929448, 6, 6} ,  // 0x00CD Low plunk?
 
-        {145929448, 6, 6} ,  // 0x00CE Sword unsheathing
+        {145929476, 6, 6} ,  // 0x00CE Sword unsheathing
 
-        {145929476, 6, 6} ,  // 0x00CF Sword unsheathing 2
+        {145929504, 6, 6} ,  // 0x00CF Sword unsheathing 2
 
-        {145929504, 6, 6} ,  // 0x00D0 Ballista fire
+        {145929532, 6, 6} ,  // 0x00D0 Ballista fire
 
-        {145929532, 6, 6} ,  // 0x00D1 Creaking
+        {145929592, 7, 7} ,  // 0x00D1 Creaking
 
-        {145929592, 7, 7} ,  // 0x00D2 Hit (map)
+        {145929620, 7, 7} ,  // 0x00D2 Hit {map}
 
-        {145929620, 7, 7} ,  // 0x00D3 Hit 2 (map)
+        {145929648, 7, 7} ,  // 0x00D3 Hit 2 {map}
 
-        {145929648, 7, 7} ,  // 0x00D4 Hit 3 (map)
+        {145929676, 7, 7} ,  // 0x00D4 Hit 3 {map}
 
-        {145929676, 7, 7} ,  // 0x00D5 Kill (map)
+        {145929704, 7, 7} ,  // 0x00D5 Kill {map}
 
-        {145929704, 7, 7} ,  // 0x00D6 Death (map)
+        {145929732, 7, 7} ,  // 0x00D6 Death {map}
 
-        {145929732, 7, 7} ,  // 0x00D7 Miss (realtime)
+        {145929760, 7, 7} ,  // 0x00D7 Miss {realtime}
 
-        {145929760, 7, 7} ,  // 0x00D8 Crumbling?
+        {145929920, 3, 3} ,  // 0x00D8 Crumbling?
 
-        {145929920, 3, 3} ,  // 0x00D9 Nothing
+        {141477904, 0, 0} ,  // 0x00D9 Nothing
 
         {141477904, 0, 0} ,  // 0x00DA Nothing
 
         {141477904, 0, 0} ,  // 0x00DB Nothing
 
-        {141477904, 0, 0} ,  // 0x00DC Mamkute transform
+        {145930012, 6, 6} ,  // 0x00DC Mamkute transform
 
-        {145930012, 6, 6} ,  // 0x00DD Mamkute de-transform
+        {145930108, 6, 6} ,  // 0x00DD Mamkute de-transform
 
-        {145930108, 6, 6} ,  // 0x00DE Mamkute yowl
+        {145930232, 7, 7} ,  // 0x00DE Mamkute yowl
 
-        {145930232, 7, 7} ,  // 0x00DF Mamkute roar
+        {145930304, 7, 7} ,  // 0x00DF Mamkute roar
 
-        {145930304, 7, 7} ,  // 0x00E0 Nothing
+        {141477904, 0, 0} ,  // 0x00E0 Nothing
 
         {141477904, 0, 0} ,  // 0x00E1 Nothing
 
-        {141477904, 0, 0} ,  // 0x00E2 Armour triangle, allies striking
+        {145930332, 7, 7} ,  // 0x00E2 Armour triangle, allies striking
 
-        {145930332, 7, 7} ,  // 0x00E3 Idoun/Fire Dragon death roar
+        {145930364, 7, 7} ,  // 0x00E3 Idoun/Fire Dragon death roar
 
-        {145930364, 7, 7} ,  // 0x00E4 Nothing
+        {141477904, 0, 0} ,  // 0x00E4 Nothing
 
-        {141477904, 0, 0} ,  // 0x00E5 Idoun/Fire Dragon death roar
+        {145930396, 7, 7} ,  // 0x00E5 Idoun/Fire Dragon death roar
 
-        {145930396, 7, 7} ,  // 0x00E6 Mamkute transform growl
+        {145930428, 7, 7} ,  // 0x00E6 Mamkute transform growl
 
-        {145930428, 7, 7} ,  // 0x00E7 Brigand battle cry
+        {145930456, 6, 6} ,  // 0x00E7 Brigand battle cry
 
-        {145930456, 6, 6} ,  // 0x00E8 Nothing
+        {141477904, 0, 0} ,  // 0x00E8 Nothing
 
         {141477904, 0, 0} ,  // 0x00E9 Nothing
 
-        {141477904, 0, 0} ,  // 0x00EA Axe falling
+        {145930484, 6, 6} ,  // 0x00EA Axe falling
 
-        {145930484, 6, 6} ,  // 0x00EB Axe rising
+        {145930512, 6, 6} ,  // 0x00EB Axe rising
 
-        {145930512, 6, 6} ,  // 0x00EC Nothing
+        {141477904, 0, 0} ,  // 0x00EC Nothing
 
         {141477904, 0, 0} ,  // 0x00ED Nothing
 
         {141477904, 0, 0} ,  // 0x00EE Nothing
 
-        {141477904, 0, 0} ,  // 0x00EF Dance/Play effect
+        {145930540, 7, 7} ,  // 0x00EF Dance/Play effect
 
-        {145930540, 7, 7} ,  // 0x00F0 Divine weapon shine
+        {145930568, 7, 7} ,  // 0x00F0 Divine weapon shine
 
-        {145930568, 7, 7} ,  // 0x00F1 Fire charge
+        {145930596, 6, 6} ,  // 0x00F1 Fire charge
 
-        {145930596, 6, 6} ,  // 0x00F2 Fire shoot
+        {145930624, 6, 6} ,  // 0x00F2 Fire shoot
 
-        {145930624, 6, 6} ,  // 0x00F3 Nothing
+        {141477904, 0, 0} ,  // 0x00F3 Nothing
 
-        {141477904, 0, 0} ,  // 0x00F4 Thunderstorm static
+        {145930652, 6, 6} ,  // 0x00F4 Thunderstorm static
 
-        {145930652, 6, 6} ,  // 0x00F5 Thunderstorm strike
+        {145930680, 6, 6} ,  // 0x00F5 Thunderstorm strike
 
-        {145930680, 6, 6} ,  // 0x00F6 Shaman charging
+        {145930812, 6, 6} ,  // 0x00F6 Shaman charging
 
-        {145930812, 6, 6} ,  // 0x00F7 Weird rumbling
+        {145930920, 6, 6} ,  // 0x00F7 Weird rumbling
 
-        {145930920, 6, 6} ,  // 0x00F8 Weird rumbling 2
+        {145930948, 6, 6} ,  // 0x00F8 Weird rumbling 2
 
-        {145930948, 6, 6} ,  // 0x00F9 Berserk staff (realtime)
+        {145931108, 6, 6} ,  // 0x00F9 Berserk staff {realtime}
 
-        {145931108, 6, 6} ,  // 0x00FA Silence staff charging (realtime)
+        {145931204, 7, 7} ,  // 0x00FA Silence staff charging {realtime}
 
-        {145931204, 7, 7} ,  // 0x00FB Silence staff forming (realtime)
+        {145931268, 6, 6} ,  // 0x00FB Silence staff forming {realtime}
 
-        {145931268, 6, 6} ,  // 0x00FC Nothing
+        {145931296, 6, 6} ,  // 0x00FC Nothing
 
-        {145931296, 6, 6} ,  // 0x00FD Rest staff (realtime)
+        {145931400, 6, 6} ,  // 0x00FD Rest staff {realtime}
 
-        {145931400, 6, 6} ,  // 0x00FE Purge flash
+        {145931516, 6, 6} ,  // 0x00FE Purge flash
 
-        {145931516, 6, 6} ,  // 0x00FF Purge flash 2
+        {145931632, 7, 7} ,  // 0x00FF Purge flash 2
 
-        {145931632, 7, 7} ,  // 0x0100 Purge charging
+        {145931772, 6, 6} ,  // 0x0100 Purge charging
 
-        {145931772, 6, 6} ,  // 0x0101 Purge strike
+        {145931872, 3, 3} ,  // 0x0101 Purge strike
 
-        {145931872, 3, 3} ,  // 0x0102 Aureola light explosion (short)
+        {145931976, 6, 6} ,  // 0x0102 Aureola light explosion {short}
 
-        {145931976, 6, 6} ,  // 0x0103 Hammerne staff (realtime)
+        {145932220, 6, 6} ,  // 0x0103 Hammerne staff {realtime}
 
-        {145932220, 6, 6} ,  // 0x0104 Nothing
+        {141477904, 0, 0} ,  // 0x0104 Nothing
 
         {141477904, 0, 0} ,  // 0x0105 Nothing
 
@@ -548,29 +550,29 @@ const struct Song songs[] = {
 
         {141477904, 0, 0} ,  // 0x0109 Nothing
 
-        {141477904, 0, 0} ,  // 0x010A Flux charging
+        {145932300, 6, 6} ,  // 0x010A Flux charging
 
-        {145932300, 6, 6} ,  // 0x010B Nothing
+        {141477904, 0, 0} ,  // 0x010B Nothing
 
         {141477904, 0, 0} ,  // 0x010C Nothing
 
         {141477904, 0, 0} ,  // 0x010D Nothing
 
-        {141477904, 0, 0} ,  // 0x010E Live staff
+        {145932428, 7, 7} ,  // 0x010E Live staff
 
-        {145932428, 7, 7} ,  // 0x010F Live staff
+        {145932556, 6, 6} ,  // 0x010F Live staff
 
-        {145932556, 6, 6} ,  // 0x0110 Relive staff
+        {145932664, 7, 7} ,  // 0x0110 Relive staff
 
-        {145932664, 7, 7} ,  // 0x0111 Relive staff
+        {145932772, 6, 6} ,  // 0x0111 Relive staff
 
-        {145932772, 6, 6} ,  // 0x0112 Recover staff
+        {145932888, 7, 7} ,  // 0x0112 Recover staff
 
-        {145932888, 7, 7} ,  // 0x0113 Recover staff
+        {145933004, 6, 6} ,  // 0x0113 Recover staff
 
-        {145933004, 6, 6} ,  // 0x0114 Reserve staff (realtime)
+        {145933232, 2, 2} ,  // 0x0114 Reserve staff {realtime}
 
-        {145933232, 2, 2} ,  // 0x0115 Nothing
+        {141477904, 0, 0} ,  // 0x0115 Nothing
 
         {141477904, 0, 0} ,  // 0x0116 Nothing
 
@@ -578,83 +580,83 @@ const struct Song songs[] = {
 
         {141477904, 0, 0} ,  // 0x0118 Nothing
 
-        {141477904, 0, 0} ,  // 0x0119 Thunderstorm sparks
+        {145933284, 6, 6} ,  // 0x0119 Thunderstorm sparks
 
-        {145933284, 6, 6} ,  // 0x011A Thunderstorm strike
+        {145933312, 6, 6} ,  // 0x011A Thunderstorm strike
 
-        {145933312, 6, 6} ,  // 0x011B Sleep charging (realtime)
+        {145933340, 7, 7} ,  // 0x011B Sleep charging {realtime}
 
-        {145933340, 7, 7} ,  // 0x011C Sleep activating (realtime)
+        {145933368, 6, 6} ,  // 0x011C Sleep activating {realtime}
 
-        {145933368, 6, 6} ,  // 0x011D Rumbling?
+        {145933396, 6, 6} ,  // 0x011D Rumbling?
 
-        {145933396, 6, 6} ,  // 0x011E Some kind of wind
+        {145933504, 6, 6} ,  // 0x011E Some kind of wind
 
-        {145933504, 6, 6} ,  // 0x011F Weird charging sound
+        {145933556, 6, 6} ,  // 0x011F Weird charging sound
 
-        {145933556, 6, 6} ,  // 0x0120 Lightning charging
+        {145933596, 6, 6} ,  // 0x0120 Lightning charging
 
-        {145933596, 6, 6} ,  // 0x0121 Lightning strike
+        {145933636, 6, 6} ,  // 0x0121 Lightning strike
 
-        {145933636, 6, 6} ,  // 0x0122 Fimbulvetr wind
+        {145934028, 6, 6} ,  // 0x0122 Fimbulvetr wind
 
-        {145934028, 6, 6} ,  // 0x0123 Fimbulvetr ice
+        {145934060, 6, 6} ,  // 0x0123 Fimbulvetr ice
 
-        {145934060, 6, 6} ,  // 0x0124 Nosferatu symbol
+        {145934092, 6, 6} ,  // 0x0124 Nosferatu symbol
 
-        {145934092, 6, 6} ,  // 0x0125 Nosferatu drain
+        {145934120, 6, 6} ,  // 0x0125 Nosferatu drain
 
-        {145934120, 6, 6} ,  // 0x0126 Nosferatu heal
+        {145934180, 6, 6} ,  // 0x0126 Nosferatu heal
 
-        {145934180, 6, 6} ,  // 0x0127 Divine charging
+        {145934208, 6, 6} ,  // 0x0127 Divine charging
 
-        {145934208, 6, 6} ,  // 0x0128 Divine falling
+        {145934284, 7, 7} ,  // 0x0128 Divine falling
 
-        {145934284, 7, 7} ,  // 0x0129 Divine strike
+        {145934376, 6, 6} ,  // 0x0129 Divine strike
 
-        {145934376, 6, 6} ,  // 0x012A Divine strike 2
+        {145934464, 7, 7} ,  // 0x012A Divine strike 2
 
-        {145934464, 7, 7} ,  // 0x012B Aureola light bomb falling
+        {145934592, 6, 6} ,  // 0x012B Aureola light bomb falling
 
-        {145934592, 6, 6} ,  // 0x012C Aureola light explosion
+        {145934768, 6, 6} ,  // 0x012C Aureola light explosion
 
-        {145934768, 6, 6} ,  // 0x012D Nothing
+        {141477904, 0, 0} ,  // 0x012D Nothing
 
         {141477904, 0, 0} ,  // 0x012E Nothing
 
         {141477904, 0, 0} ,  // 0x012F Nothing
 
-        {141477904, 0, 0} ,  // 0x0130 Nothing
+        {145934860, 7, 7} ,  // 0x0130 Nothing
 
-        {145934860, 7, 7} ,  // 0x0131 Nothing
+        {145934892, 6, 6} ,  // 0x0131 Nothing
 
-        {145934892, 6, 6} ,  // 0x0132 Nothing
+        {145934920, 2, 2} ,  // 0x0132 Nothing
 
-        {145934920, 2, 2} ,  // 0x0133 Nothing
+        {145934972, 6, 6} ,  // 0x0133 Nothing
 
-        {145934972, 6, 6} ,  // 0x0134 Nothing
+        {145935036, 6, 6} ,  // 0x0134 Nothing
 
-        {145935036, 6, 6} ,  // 0x0135 Nothing
+        {145935092, 6, 6} ,  // 0x0135 Nothing
 
-        {145935092, 6, 6} ,  // 0x0136 Nothing
+        {145935120, 6, 6} ,  // 0x0136 Nothing
 
-        {145935120, 6, 6} ,  // 0x0137 Nothing
+        {145935232, 6, 6} ,  // 0x0137 Nothing
 
-        {145935232, 6, 6} ,  // 0x0138 Nothing
+        {145935464, 6, 6} ,  // 0x0138 Nothing
 
-        {145935464, 6, 6} ,  // 0x0139 Nothing
+        {145935496, 7, 7} ,  // 0x0139 Nothing
 
-        {145935496, 7, 7} ,  // 0x013A Nothing
+        {141477904, 0, 0} ,  // 0x013A Nothing
 
-        {141477904, 0, 0} ,  // 0x013B Nothing
+        {145935528, 6, 6} ,  // 0x013B Nothing
 
-        {145935528, 6, 6} ,  // 0x013C Nothing
+        {145935556, 6, 6} ,  // 0x013C Nothing
 
-        {145935556, 6, 6} ,  // 0x013D Nothing
+        {145935696, 4, 4} ,  // 0x013D Nothing
 
-        {145935696, 4, 4} ,  // 0x013E Nothing
+        {145935724, 7, 7} ,  // 0x013E Nothing
 
-        {145935724, 7, 7} ,  // 0x013F Nothing
+        {141477904, 0, 0} ,  // 0x013F Nothing
 
         {141477904, 0, 0} ,  // 0x0140 Nothing
 
@@ -670,46 +672,46 @@ const struct Song songs[] = {
 
         {141477904, 0, 0} ,  // 0x0146 Nothing
 
-        {141477904, 0, 0} ,  // 0x0147 Nothing
+        {145935776, 7, 7} ,  // 0x0147 Nothing
 
-        {145935776, 7, 7} ,  // 0x0148 Nothing
+        {141477904, 0, 0} ,  // 0x0148 Nothing
 
         {141477904, 0, 0} ,  // 0x0149 Nothing
 
-        {141477904, 0, 0} ,  // 0x014A Nothing
+        {145935804, 4, 4} ,  // 0x014A Nothing
 
-        {145935804, 4, 4} ,  // 0x014B Nothing
+        {145935832, 5, 5} ,  // 0x014B Nothing
 
-        {145935832, 5, 5} ,  // 0x014C Nothing
+        {145935860, 4, 4} ,  // 0x014C Nothing
 
-        {145935860, 4, 4} ,  // 0x014D Nothing
+        {145935888, 5, 5} ,  // 0x014D Nothing
 
-        {145935888, 5, 5} ,  // 0x014E Soft step
+        {145935916, 4, 4} ,  // 0x014E Soft step
 
-        {145935916, 4, 4} ,  // 0x014F Soft step 2
+        {145935944, 5, 5} ,  // 0x014F Soft step 2
 
-        {145935944, 5, 5} ,  // 0x0150 Soft step 3
+        {145935972, 4, 4} ,  // 0x0150 Soft step 3
 
-        {145935972, 4, 4} ,  // 0x0151 Soft step 4
+        {145936000, 5, 5} ,  // 0x0151 Soft step 4
 
-        {145936000, 5, 5} ,  // 0x0152 Nothing
+        {141477904, 0, 0} ,  // 0x0152 Nothing
 
         {141477904, 0, 0} ,  // 0x0153 Nothing
 
-        {141477904, 0, 0} ,  // 0x0154 Soft step
+        {145936028, 4, 4} ,  // 0x0154 Soft step
 
-        {145936028, 4, 4} ,  // 0x0155 Soft step 2
+        {145936056, 5, 5} ,  // 0x0155 Soft step 2
 
-        {145936056, 5, 5} ,  // 0x0156 Soft step 3
+        {145936084, 4, 4} ,  // 0x0156 Soft step 3
 
-        {145936084, 4, 4} ,  // 0x0157 Soft step 4
+        {145936112, 5, 5} ,  // 0x0157 Soft step 4
 
-        {145936112, 5, 5} ,  // 0x0158 Soft step 5
+        {145936140, 4, 4} ,  // 0x0158 Soft step 5
 
-        {145936140, 4, 4} ,  // 0x0159 The rest of high 01 just seems to be soft steps...
+        {145936168, 5, 5} ,  // 0x0159 The rest of high 01 just seems to be soft steps...
 
-        {145936168, 5, 5} ,  //
         {145936196, 4, 4} ,  //
+
         {145936224, 5, 5} ,  //
         {141477904, 0, 0} ,  //
         {141477904, 0, 0} ,  //
@@ -1121,9 +1123,9 @@ const struct Song songs[] = {
 
         {145942872, 6, 6} ,  // 0x02D4 Playing
 
-        {145942900, 6, 6} ,  // 0x02D5 Dancing (map)
+        {145942900, 6, 6} ,  // 0x02D5 Dancing {map}
 
-        {145942928, 6, 6} ,  // 0x02D6 Playing (map)
+        {145942928, 6, 6} ,  // 0x02D6 Playing {map}
 
         {145942956, 6, 6} ,  // 0x02D7 Snag falling
 
@@ -1147,7 +1149,7 @@ const struct Song songs[] = {
 
         {145943316, 4, 4} ,  // 0x02E1 Eclipse striking
 
-        {145943472, 6, 6} ,  // 0x02E2 Eclipse striking (shorter)
+        {145943472, 6, 6} ,  // 0x02E2 Eclipse striking {shorter}
 
         {145943576, 6, 6} ,  // 0x02E3 Dark Druid charging
 

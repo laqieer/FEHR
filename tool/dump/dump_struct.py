@@ -53,7 +53,7 @@ infos = {
         "format": "u32u16u16<",
         "start": 0x6ea8d0,
         "list": "Music.txt",
-        "startIndex": 1
+        "startIndex": 0
     },
     "SoundRoomEntry": {
         "format": "s32u32u32u32<",
