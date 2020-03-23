@@ -83,6 +83,10 @@ cmake-build-release/
 # Source files automatically generated from resource files
 src/res/gfx/*.h
 src/res/gfx/*.s
+res/voice/*.s
+
+# Audio (.wav) extracted from .ckb
+res/voice/*.wav
 
 # Python virtual environment
 venv/
@@ -94,3 +98,7 @@ venv/
 *.ups
 *.bps
 *.xdelta
+
+# Voice sound library
+!res/voice/Makefile
+!res/voice/libvoice.a
