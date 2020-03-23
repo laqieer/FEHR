@@ -211,4 +211,84 @@ struct Character {
 
 enum Affinity {None, Fire, Thunder, Wind, Water, Dark, Light, Anima};
 
+struct ItemSlot
+{
+    u8 itemId;
+    u8 residualDurability;
+};
+
+// Unit data in RAM
+struct Unit
+{
+    struct Character *character;
+    struct Job *job;
+    u8 lv;
+    u8 exp;
+    u8 unk_A;
+    u8 deployNumber;
+    u8 actionState;
+    u8 unk_flags_D_0_3:4;
+    u8 dropItem:1;
+    u8 growthPlus:1;
+    u8 unk_flags_D_6_7:2;
+    u8 unk_E;
+    u8 unk_F;
+    u8 PositionX;
+    u8 PositionY;
+    s8 maxHp;
+    s8 hp;
+    s8 str;
+    s8 skl;
+    s8 spd;
+    s8 def;
+    s8 res;
+    s8 luk;
+    s8 conBonus;
+    u8 aidUnitNumber;
+    u8 unk_1C;
+    s8 movBonus;
+
+    struct ItemSlot items[5];
+
+    u8 levelSword;
+    u8 levelLance;
+    u8 levelAxe;
+    u8 levelBow;
+    u8 levelStaff;
+    u8 levelAnima;
+    u8 levelLight;
+    u8 levelDark;
+
+    u8 stateType:4;
+    u8 stateTurn:4;
+
+    u8 sightBonus:4;
+    u8 resBonus:4;
+
+    u8 levelSupport[7];
+
+
+    u8 unlockSupport1:1;
+    u8 unlockSupport2:1;
+    u8 unlockSupport3:1;
+    u8 unlockSupport4:1;
+    u8 unlockSupport5:1;
+    u8 unlockSupport6:1;
+    u8 unlockSupport7:1;
+    u8 unlockSupport8:1;
+
+    u8 unk_3A[6];
+
+
+    u8 AI_healing:3;
+    u8 AI_targeting:5;
+    u8 AI_retreat;
+    u8 AI_action;
+    u8 AI_action_counter;
+    u8 AI_movement;
+    u8 AI_movement_counter;
+
+    u8 unk_46[2];
+};
+
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_H
