@@ -10,6 +10,7 @@
 #include "character_id.h"
 #include "voice.h"
 #include "character.h"
+#include "gba_debug_print.h"
 
 struct Wave {
     u16 type;
@@ -43,6 +44,7 @@ struct Song {
 
 struct CharacterVoice {
     const struct Song *map[3];
+    const struct Song *damage[2];
 };
 
 extern struct Unit *currentActiveUnit;

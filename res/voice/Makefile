@@ -16,8 +16,8 @@ $(objects): %.o: %.ckb
 	se2m4a/se2m4a.py $*.wav $*.s
 	arm-none-eabi-as -mcpu=arm7tdmi -Ise2m4a $*.s -o $@
 
-$(header): $(ckbs)
-	@echo $(foreach ckb, $^, "extern const struct Song $(subst .ckb,;,$(ckb))\n") > $@
+$(header): $(lib)
+	@echo $(foreach ckb, $(ckbs), "extern const struct Song $(subst .ckb,;,$(ckb))\n") > $@
 
 clean:
 	rm -f *.wav *.o $(lib) $(header)
