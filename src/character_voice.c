@@ -61,3 +61,16 @@ void playCharacterMapVoiceInjector()
     //playCharacterMapVoiceWrapper();
     asm("ldr r0,=playCharacterMapVoiceWrapper\nbx r0");
 }
+
+int isActiveUnitDead()
+{
+    // dead if current HP == 0
+    return getActiveUnitCurrentHp() == 0;
+}
+
+void playCharacterDeadVoice()
+{
+    playVoice(voices[getCurrentActiveUnitCharacterId()].dead);
+}
+
+const struct ProcCmd gProcEfxDead = PROC_CALL_ROUTINE(playCharacterDeadVoice);

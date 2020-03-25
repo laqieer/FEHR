@@ -10,6 +10,7 @@
 #include "character_id.h"
 #include "voice.h"
 #include "character.h"
+#include "proc.h"
 #include "gba_debug_print.h"
 
 struct Wave {
@@ -45,6 +46,7 @@ struct Song {
 struct CharacterVoice {
     const struct Song *map[3];
     const struct Song *damage[2];
+    const struct Song *dead;
 };
 
 extern struct Unit *currentActiveUnit;
@@ -59,12 +61,15 @@ extern u8 DAT_0203a50e;
 
 void DisplayActiveUnitEffectRange();
 void MPlayStart(void *player, const struct Song *song); // omit player info struct define, use void* instead
+int getActiveUnitCurrentHp();
+void HandleActiveUnitDeath(struct Proc *proc);
 
 #define MUSIC_PLAYER_8 0x3005d10 // omit lookup table at 0x86ea8b8 & entry struct define
 #define MUSIC_PLAYER_VOICE MUSIC_PLAYER_8
 
 #define DEFINE_CHARACTER_MAP_VOICE(name) {&VOICE_##name##_MAP_1, &VOICE_##name##_MAP_2, &VOICE_##name##_MAP_3}
 #define DEFINE_CHARACTER_DAMAGE_VOICE(name) {&VOICE_##name##_DAMAGE_1, &VOICE_##name##_DAMAGE_2}
-#define DEFINE_CHARACTER_VOICE(name) [CHARACTER_##name##_ID] = {DEFINE_CHARACTER_MAP_VOICE(name), DEFINE_CHARACTER_DAMAGE_VOICE(name)},
+#define DEFINE_CHARACTER_DEAD_VOICE(name) &VOICE_##name##_DEAD_1
+#define DEFINE_CHARACTER_VOICE(name) [CHARACTER_##name##_ID] = {DEFINE_CHARACTER_MAP_VOICE(name), DEFINE_CHARACTER_DAMAGE_VOICE(name), DEFINE_CHARACTER_DEAD_VOICE(name)},
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_VOICE_H
