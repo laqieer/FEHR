@@ -5,26 +5,11 @@
 #include "character_voice.h"
 
 const struct CharacterVoice voices[0xff] = {
-        [CHARACTER_ALFONSE_ID] = {
-                {&VOICE_ALFONS_MAP_1, &VOICE_ALFONS_MAP_2, &VOICE_ALFONS_MAP_3},
-                {&VOICE_ALFONS_DAMAGE_1, &VOICE_ALFONS_DAMAGE_2},
-        },
-        [CHARACTER_ANNA_ID] = {
-                {&VOICE_ANNA_MAP_1, &VOICE_ANNA_MAP_2, &VOICE_ANNA_MAP_3},
-                {&VOICE_ANNA_DAMAGE_1, &VOICE_ANNA_DAMAGE_2},
-        },
-        [CHARACTER_SHARENA_ID] = {
-                {&VOICE_SHARON_MAP_1, &VOICE_SHARON_MAP_2, &VOICE_SHARON_MAP_3},
-                {&VOICE_SHARON_DAMAGE_1, &VOICE_SHARON_DAMAGE_2},
-        },
-        [CHARACTER_BRUNO_ID] = {
-                {&VOICE_BRUNO_MAP_1, &VOICE_BRUNO_MAP_2, &VOICE_BRUNO_MAP_3},
-                {&VOICE_BRUNO_DAMAGE_1, &VOICE_BRUNO_DAMAGE_2},
-        },
-        [CHARACTER_VERONICA_ID] = {
-                {&VOICE_VERONICA_MAP_1, &VOICE_VERONICA_MAP_2, &VOICE_VERONICA_MAP_3},
-                {&VOICE_VERONICA_DAMAGE_1, &VOICE_VERONICA_DAMAGE_2},
-        },
+        DEFINE_CHARACTER_VOICE(ALFONS)
+        DEFINE_CHARACTER_VOICE(ANNA)
+        DEFINE_CHARACTER_VOICE(SHARON)
+        DEFINE_CHARACTER_VOICE(BRUNO)
+        DEFINE_CHARACTER_VOICE(VERONICA)
 };
 
 void playVoice(const struct Song *voice)

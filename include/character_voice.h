@@ -63,4 +63,8 @@ void MPlayStart(void *player, const struct Song *song); // omit player info stru
 #define MUSIC_PLAYER_8 0x3005d10 // omit lookup table at 0x86ea8b8 & entry struct define
 #define MUSIC_PLAYER_VOICE MUSIC_PLAYER_8
 
+#define DEFINE_CHARACTER_MAP_VOICE(name) {&VOICE_##name##_MAP_1, &VOICE_##name##_MAP_2, &VOICE_##name##_MAP_3}
+#define DEFINE_CHARACTER_DAMAGE_VOICE(name) {&VOICE_##name##_DAMAGE_1, &VOICE_##name##_DAMAGE_2}
+#define DEFINE_CHARACTER_VOICE(name) [CHARACTER_##name##_ID] = {DEFINE_CHARACTER_MAP_VOICE(name), DEFINE_CHARACTER_DAMAGE_VOICE(name)},
+
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_VOICE_H
