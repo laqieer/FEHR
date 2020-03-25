@@ -5,6 +5,8 @@
 #ifndef TEXT_H
 #define TEXT_H
 
+#include "proc.h"
+
 // Text Control Codes (single byte)
 
 #define TCC_END "\0"
@@ -63,6 +65,9 @@
 
 // max line width
 #define TEXT_LINE_WIDTH_MAX 185
+
+char *decodeText(int textID);
+void StartDialogue(int param_1, int param_2, char *text, u32 parent);
 
 #endif //TEXT_H
 #define TEXT_H

@@ -47,8 +47,8 @@ const char* const texts[] = {
         // character Alfonse death quote
         [TEXT_DEATH_QUOTE_ALFONSE] = TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_ALFONSE
-                "国を守れない。。。" TCC_NEWLINE
-                "無念。。。" TCC_PUSH_A,
+                "僕も。。。" TCC_NEWLINE
+                "負け。。。か。。。" TCC_PUSH_A,
 
         // character Anna name
         [0x4E5] = "アンナ",
@@ -59,8 +59,8 @@ const char* const texts[] = {
         // character Anna death quote
         [TEXT_DEATH_QUOTE_ANNA] = TCC_OPEN_RIGHT
                                   TCC_LOAD_FACE PORTRAIT_ANNA
-                                  "ファイアーエムブレム。。。" TCC_NEWLINE
-                                  "手強いシミュレーション。。。" TCC_PUSH_A,
+                                  "撤退。。。" TCC_NEWLINE
+                                  "するわ。。。" TCC_PUSH_A,
 
         // character Sharena name
         [1254] = "シャロン",
@@ -71,13 +71,18 @@ const char* const texts[] = {
         // character Sharena death quote
         [TEXT_DEATH_QUOTE_SHARENA] = TCC_OPEN_FAR_RIGHT
                   TCC_LOAD_FACE PORTRAIT_SHARENA
-                  "。。。そんな" TCC_NEWLINE
-                  "ごめんね。。。お兄様。。。" TCC_PUSH_A
-                  TCC_CLEAR_FACE
-                  TCC_OPEN_LEFT
-                  TCC_LOAD_FACE PORTRAIT_ALFONSE
-                  "シャロン！！" TCC_PUSH_A
-                  ,
+                  "失敗。。。" TCC_NEWLINE
+                  "しちゃいました。。。" TCC_PUSH_A,
+
+         // character Bruno death quote
+         [TEXT_DEATH_QUOTE_BRUNO] = TCC_OPEN_FAR_RIGHT
+                TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+                    "グアアアア" TCC_PUSH_A,
+
+        // character Veronica death quote
+        [TEXT_DEATH_QUOTE_VERONICA] = TCC_OPEN_FAR_RIGHT
+                TCC_LOAD_FACE PORTARIT_VERONICA
+                "つま。。。ないの。。。" TCC_PUSH_A,
 
         // character Xander name
         [1334] = "マークス",

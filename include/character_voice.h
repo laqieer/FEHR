@@ -11,6 +11,8 @@
 #include "voice.h"
 #include "character.h"
 #include "proc.h"
+#include "text_id.h"
+#include "text.h"
 #include "gba_debug_print.h"
 
 struct Wave {

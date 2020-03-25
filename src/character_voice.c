@@ -4,12 +4,23 @@
 
 #include "character_voice.h"
 
-const struct CharacterVoice voices[0xff] = {
+const struct CharacterVoice characterVoices[0xff] = {
         DEFINE_CHARACTER_VOICE(ALFONS)
         DEFINE_CHARACTER_VOICE(ANNA)
         DEFINE_CHARACTER_VOICE(SHARON)
         DEFINE_CHARACTER_VOICE(BRUNO)
         DEFINE_CHARACTER_VOICE(VERONICA)
+};
+
+const struct Song *textVoices[0xffff] = {
+        [TEXT_DEATH_QUOTE_SHARENA] = &VOICE_SHARON_DEAD_1,
+        [TEXT_DEATH_QUOTE_ALFONSE] = &VOICE_ALFONS_DEAD_1,
+        [TEXT_DEATH_QUOTE_ANNA] = &VOICE_ANNA_DEAD_1,
+        [TEXT_DEATH_QUOTE_BRUNO] = &VOICE_BRUNO_DEAD_1,
+        [TEXT_DEATH_QUOTE_VERONICA] = &VOICE_VERONICA_DEAD_1,
+        [TEXT_DEATH_QUOTE_FJORM] = &VOICE_FJORM_DEAD_1,
+        [TEXT_DEATH_QUOTE_EIR] = &VOICE_EIR_DEAD_1,
+        [TEXT_DEATH_QUOTE_PEONY] = &VOICE_PEONY_DEAD_1,
 };
 
 void playVoice(const struct Song *voice)
@@ -25,12 +36,12 @@ u8 getCurrentActiveUnitCharacterId()
 
 void playCharacterMapVoice()
 {
-    playVoice(voices[getCurrentActiveUnitCharacterId()].map[GetTrueRN(3)]);
+    playVoice(characterVoices[getCurrentActiveUnitCharacterId()].map[GetTrueRN(3)]);
 }
 
 void playCharacterDamageVoice()
 {
-    playVoice(voices[getCurrentActiveUnitCharacterId()].damage[GetTrueRN(2)]);
+    playVoice(characterVoices[getCurrentActiveUnitCharacterId()].damage[GetTrueRN(2)]);
 }
 
 // Called by function SetActiveUnit & SetupActiveUnit
@@ -70,7 +81,26 @@ int isActiveUnitDead()
 
 void playCharacterDeadVoice()
 {
-    playVoice(voices[getCurrentActiveUnitCharacterId()].dead);
+    playVoice(characterVoices[getCurrentActiveUnitCharacterId()].dead);
 }
 
 const struct ProcCmd gProcEfxDead = PROC_CALL_ROUTINE(playCharacterDeadVoice);
+
+void playDialogueVoice(u16 textId)
+{
+    playVoice(textVoices[textId]);
+}
+
+void startDialogueWithTextId(int param_1,int param_2,int textId)
+{
+    char *decodedText;
+
+    decodedText = decodeText(textId);
+    StartDialogue(param_1, param_2, decodedText, 0);
+    playDialogueVoice(textId);
+}
+
+void startDialogueWithTextIdInjector(int param_1,int param_2,int textId)
+{
+    startDialogueWithTextId(param_1, param_2, textId);
+}

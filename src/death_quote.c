@@ -30,6 +30,8 @@ const struct DeathQuote deathQuotes[] = {
         {Alfonse, AnyChapter, 0, TEXT_DEATH_QUOTE_ALFONSE, 0, LordDeathTriggerEventID},
         {Anna, AnyChapter, 0, TEXT_DEATH_QUOTE_ANNA, 0, LordDeathTriggerEventID},
         {Sharena, AnyChapter, 0, TEXT_DEATH_QUOTE_SHARENA, 0, LordDeathTriggerEventID},
+        {Bruno, AnyChapter, 0, TEXT_DEATH_QUOTE_BRUNO, 0, 0},
+        {Veronica, AnyChapter, 0, TEXT_DEATH_QUOTE_VERONICA, 0, 0},
 
         {0, 0, 0, 0, 0, 0}
 };
