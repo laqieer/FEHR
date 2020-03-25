@@ -1,6 +1,7 @@
-lib = libvoice.a
+lib = lib/libvoice.a
+header = include/voice.h
 
-all: $(lib)
+all: $(lib) $(header)
 
 ckbs = $(wildcard *.ckb)
 objects = $(ckbs:.ckb=.o)
@@ -15,7 +16,10 @@ $(objects): %.o: %.ckb
 	se2m4a/se2m4a.py $*.wav $*.s
 	arm-none-eabi-as -mcpu=arm7tdmi -Ise2m4a $*.s -o $@
 
+$(header): $(ckbs)
+	@echo $(foreach ckb, $^, "extern const struct Song $(subst .ckb,;,$(ckb))\n") > $@
+
 clean:
-	rm -f *.wav *.o *.a
+	rm -f *.wav *.o $(lib) $(header)
 
 .PHONY: all clean

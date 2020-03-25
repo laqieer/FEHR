@@ -101,4 +101,5 @@ venv/
 
 # Voice sound library
 !res/voice/Makefile
-!res/voice/libvoice.a
+!res/voice/lib/
+!res/voice/include/
