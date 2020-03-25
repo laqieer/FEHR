@@ -90,8 +90,6 @@ SECTIONS
 	.rodata.patch_tutorial_disabler_d6d6 : {*(.rodata.patch_tutorial_disabler_d6d6)}
 	. = 0x800d752;
 	.rodata.patch_tutorial_disabler_d752 : {*(.rodata.patch_tutorial_disabler_d752)}
-	. = 0x8012e22;
-	.rodata.patch_opening_movie_disabler_12e22 : {*(.rodata.patch_opening_movie_disabler_12e22)}
 	. = 0x8013318;
 	.text.decodeTextInjector : {*(.text.decodeTextInjector)}
 	. = 0x8017CE0;
@@ -194,8 +192,6 @@ SECTIONS
 	.rodata.chapterTitlesNum : {*(.rodata.chapterTitlesNum)}
 	. = 0x8082e36;
 	.rodata.chapterTitleNoData : {*(.rodata.chapterTitleNoData)}
-	. = 0x80bcfa8;
-	.rodata.patch_opening_movie_disabler_bcfa8 : {*(.rodata.patch_opening_movie_disabler_bcfa8)}
 	. = 0x8BFFA74;
     .rodata.pPlayMouthAnimation : {*(.rodata.pPlayMouthAnimation)}
 	. = 0x8db8050;
@@ -205,6 +201,7 @@ SECTIONS
     /*INCLUDE ../lds/patch_song_music_track_note.ld*/
     INCLUDE ../lds/animation.ld
     INCLUDE ../lds/patch_expand_animation_script_compression_type.ld
+    INCLUDE ../lds/patch_opening_movie_disabler.ld
     INCLUDE ../lds/death_quote.ld
 	. = 0x9000000;
 	.text : {*(.text*)}
