@@ -9,3 +9,5 @@
 
 const unsigned int patch_expand_animation_script_compression_type_54850 = 0xFF1AF7BE;
 const unsigned int patch_expand_animation_script_compression_type_548ec = 0xFECCF7BE;
+const unsigned short patch_expand_animation_script_compression_type_55316 = 0xF7BE;
+const unsigned short patch_expand_animation_script_compression_type_55318 = 0xF9B7;
