@@ -16,3 +16,6 @@ const int patch_opening_movie_disabler_12e24 = 0;
 // Disable class roll directly (class roll -> null)
 const short patch_opening_movie_disabler_12e1a = 0;
 const short patch_opening_movie_disabler_12e1c = 0;
+
+// Disable both replay intro & class roll. Stay in game title screen.
+const unsigned char patch_opening_movie_disabler_bb59d = 0xe0; // bne -> b to skip if-statement
