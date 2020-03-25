@@ -58,8 +58,8 @@ void NullSomeStuff()
 
 int isCurrentActiveUnitHeavilyDamaged()
 {
-    // current HP < 25% ?
-    return currentActiveUnit->hp < (float)currentActiveUnit->maxHp / 4;
+    // current HP <= 25% ?
+    return currentActiveUnit->hp <= currentActiveUnit->maxHp / 4;
 }
 
 void playCharacterMapVoiceWrapper()
