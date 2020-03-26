@@ -111,3 +111,7 @@ void startDialogueWithTextIdInjector(int param_1,int param_2,int textId)
     startDialogueWithTextId(param_1, param_2, textId);
 }
 */
+void playCharacterAttackVoice(void *AIS)
+{
+    playVoice(characterVoices[isAnimationAtRight(AIS)?characterIdAtRight:characterIdAtLeft].attack[GetTrueRN(2)]);
+}

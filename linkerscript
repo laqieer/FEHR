@@ -24,6 +24,9 @@ DAT_0203a50c = 0x203a50c;
 DAT_0203a50d = 0x203a50d;
 DAT_0203a50e = 0x203a50e;
 
+characterIdAtLeft = 0x203e074;
+characterIdAtRight = 0x203e075;
+
 currentGameClock = 0x3000010;
 currentActiveUnit = 0x30045b0;
 
@@ -57,6 +60,8 @@ writeTSAPlain = 0x801383D;
 getActiveUnitCurrentHp = 0x8018e61;
 DisplayActiveUnitEffectRange = 0x801ca29;
 HandleActiveUnitDeath = 0x802ff61;
+AnimEvtCode7Handler = 0x80544ef;
+isAnimationAtRight = 0x8054E61;
 showTitleScreenOBJ = 0x80baf35;
 m4aSongNumStart = 0x80bf0d9;
 MPlayStart = 0x80bf80d;

@@ -48,7 +48,8 @@ struct Song {
 struct CharacterVoice {
     const struct Song *map[3];
     const struct Song *damage[2];
-    const struct Song *dead;
+    //const struct Song *dead;
+    const struct Song *attack[2];
 };
 
 extern struct Unit *currentActiveUnit;
@@ -57,6 +58,12 @@ extern u32 currentGameClock;
 extern u8 DAT_0203a50c;
 extern u8 DAT_0203a50d;
 extern u8 DAT_0203a50e;
+
+extern u8 characterIdAtLeft;
+extern u8 characterIdAtRight;
+
+int isAnimationAtRight(void *AIS);
+void AnimEvtCode7Handler() __attribute__((noreturn));
 
 // Random Number range: [0, n)
 #define GetTrueRN(n) (currentGameClock % n)
@@ -72,7 +79,8 @@ void HandleActiveUnitDeath(struct Proc *proc);
 
 #define DEFINE_CHARACTER_MAP_VOICE(name) {&VOICE_##name##_MAP_1, &VOICE_##name##_MAP_2, &VOICE_##name##_MAP_3}
 #define DEFINE_CHARACTER_DAMAGE_VOICE(name) {&VOICE_##name##_DAMAGE_1, &VOICE_##name##_DAMAGE_2}
+#define DEFINE_CHARACTER_ATTACK_VOICE(name) {&VOICE_##name##_ATTACK_1, &VOICE_##name##_ATTACK_2}
 //#define DEFINE_CHARACTER_DEAD_VOICE(name) &VOICE_##name##_DEAD_1
-#define DEFINE_CHARACTER_VOICE(name) [CHARACTER_##name##_ID] = {DEFINE_CHARACTER_MAP_VOICE(name), DEFINE_CHARACTER_DAMAGE_VOICE(name)},
+#define DEFINE_CHARACTER_VOICE(name) [CHARACTER_##name##_ID] = {DEFINE_CHARACTER_MAP_VOICE(name), DEFINE_CHARACTER_DAMAGE_VOICE(name), DEFINE_CHARACTER_ATTACK_VOICE(name)},
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_VOICE_H

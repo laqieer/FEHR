@@ -4,3 +4,5 @@
 .rodata.gProcEfxDead : {*(.rodata.gProcEfxDead)}*/
 . = 0x8007eac;
 .text.startDialogueWithTextIdInjector : {*(.text.startDialogueWithTextIdInjector)}
+. = 0x8053cd0;
+.rodata.pAnimEvtCode7HandlerInjector : {*(.rodata.pAnimEvtCode7HandlerInjector)}
