@@ -1,5 +1,7 @@
 ENTRY(_start)
 
+pCurrentUnitInStatusScreen = 0x2003118;
+
 currentBGMSongId = 0x2024E14;
 DAT_0202bbb8 = 0x202bbb8;
 currentChapter = 0x202BC02;
@@ -62,6 +64,7 @@ DisplayActiveUnitEffectRange = 0x801ca29;
 HandleActiveUnitDeath = 0x802ff61;
 AnimEvtCode7Handler = 0x80544ef;
 isAnimationAtRight = 0x8054E61;
+drawStatPageWithPortrait = 0x8081ef9;
 showTitleScreenOBJ = 0x80baf35;
 m4aSongNumStart = 0x80bf0d9;
 MPlayStart = 0x80bf80d;

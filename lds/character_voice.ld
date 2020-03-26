@@ -6,3 +6,5 @@
 .text.startDialogueWithTextIdInjector : {*(.text.startDialogueWithTextIdInjector)}
 . = 0x8053cd0;
 .rodata.pAnimEvtCode7HandlerInjector : {*(.rodata.pAnimEvtCode7HandlerInjector)}
+. = 0x8d8a560;
+.rodata.pPlayCharacterStatusVoiceInjector : {*(.rodata.pPlayCharacterStatusVoiceInjector)}

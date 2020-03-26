@@ -50,7 +50,10 @@ struct CharacterVoice {
     const struct Song *damage[2];
     //const struct Song *dead;
     const struct Song *attack[2];
+    const struct Song *status[8];
 };
+
+extern struct Unit *pCurrentUnitInStatusScreen;
 
 extern struct Unit *currentActiveUnit;
 extern u32 currentGameClock;
@@ -72,6 +75,7 @@ void DisplayActiveUnitEffectRange();
 void MPlayStart(void *player, const struct Song *song); // omit player info struct define, use void* instead
 int getActiveUnitCurrentHp();
 void HandleActiveUnitDeath(struct Proc *proc);
+void drawStatPageWithPortrait(struct Proc *proc);
 
 #define MUSIC_PLAYER_8 0x3005d10 // omit lookup table at 0x86ea8b8 & entry struct define
 #define MUSIC_PLAYER_VOICE MUSIC_PLAYER_8
@@ -81,6 +85,25 @@ void HandleActiveUnitDeath(struct Proc *proc);
 #define DEFINE_CHARACTER_DAMAGE_VOICE(name) {&VOICE_##name##_DAMAGE_1, &VOICE_##name##_DAMAGE_2}
 #define DEFINE_CHARACTER_ATTACK_VOICE(name) {&VOICE_##name##_ATTACK_1, &VOICE_##name##_ATTACK_2}
 //#define DEFINE_CHARACTER_DEAD_VOICE(name) &VOICE_##name##_DEAD_1
-#define DEFINE_CHARACTER_VOICE(name) [CHARACTER_##name##_ID] = {DEFINE_CHARACTER_MAP_VOICE(name), DEFINE_CHARACTER_DAMAGE_VOICE(name), DEFINE_CHARACTER_ATTACK_VOICE(name)},
+#define DEFINE_CHARACTER_STATUS_VOICE(name) {&VOICE_##name##_STATUS_1, &VOICE_##name##_STATUS_2, &VOICE_##name##_STATUS_3, &VOICE_##name##_STATUS_4, &VOICE_##name##_STATUS_5, &VOICE_##name##_STATUS_6, &VOICE_##name##_STATUS_7, &VOICE_##name##_STATUS_8}
+#define DEFINE_CHARACTER_VOICE(name) [CHARACTER_##name##_ID] = {DEFINE_CHARACTER_MAP_VOICE(name), DEFINE_CHARACTER_DAMAGE_VOICE(name), DEFINE_CHARACTER_ATTACK_VOICE(name), DEFINE_CHARACTER_STATUS_VOICE(name)},
+
+#define VOICE_BRUNO_STATUS_2 VOICE_BRUNO_STATUS_1
+#define VOICE_BRUNO_STATUS_3 VOICE_BRUNO_STATUS_1
+#define VOICE_BRUNO_STATUS_4 VOICE_BRUNO_STATUS_1
+#define VOICE_BRUNO_STATUS_5 VOICE_BRUNO_STATUS_1
+#define VOICE_BRUNO_STATUS_6 VOICE_BRUNO_STATUS_1
+#define VOICE_BRUNO_STATUS_7 VOICE_BRUNO_STATUS_1
+#define VOICE_BRUNO_STATUS_8 VOICE_BRUNO_STATUS_1
+
+#define VOICE_VERONICA_STATUS_2 VOICE_VERONICA_STATUS_1
+#define VOICE_VERONICA_STATUS_3 VOICE_VERONICA_STATUS_1
+#define VOICE_VERONICA_STATUS_4 VOICE_VERONICA_STATUS_1
+#define VOICE_VERONICA_STATUS_5 VOICE_VERONICA_STATUS_1
+#define VOICE_VERONICA_STATUS_6 VOICE_VERONICA_STATUS_1
+#define VOICE_VERONICA_STATUS_7 VOICE_VERONICA_STATUS_1
+#define VOICE_VERONICA_STATUS_8 VOICE_VERONICA_STATUS_1
+
+void playCharacterStatusVoice();
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_VOICE_H

@@ -115,3 +115,14 @@ void playCharacterAttackVoice(void *AIS)
 {
     playVoice(characterVoices[isAnimationAtRight(AIS)?characterIdAtRight:characterIdAtLeft].attack[GetTrueRN(2)]);
 }
+
+u8 getStatusScreenUnitCharacterId()
+{
+    return pCurrentUnitInStatusScreen->character->id;
+}
+
+void playCharacterStatusVoice()
+{
+    playVoice(characterVoices[getStatusScreenUnitCharacterId()].status[GetTrueRN(8)]);
+}
+

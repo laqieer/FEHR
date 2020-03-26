@@ -6,6 +6,7 @@
 #include "gba_debug_print.h"
 #include <gba_base.h>
 #include <gba_sprites.h>
+#include "character_voice.h"
 
 #include "portrait_alfonse_tileset.h"
 #include "portrait_alfonse_mini.h"
@@ -439,4 +440,5 @@ void drawPortraitInBG(u16 *TSABuffer, int portraitID, int currentBGTileID, int c
 void drawPortraitInBGInjector(u16 *TSABuffer, int portraitID, int currentBGTileID, int currentBGPaletteID)
 {
     drawPortraitInBG(TSABuffer, portraitID, currentBGTileID, currentBGPaletteID);
+    playCharacterStatusVoice();
 }
