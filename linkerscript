@@ -80,8 +80,8 @@ SECTIONS
 	__end__ = .;
 	. = 0x8000000;
 	.rom : {KEEP(*(.rom))}
-	. = 0x8000220;
-	.rodata.pAgbMain : {*(.rodata.pAgbMain)}
+	/*. = 0x8000220;
+	.rodata.pAgbMain : {*(.rodata.pAgbMain)}*/
 	INCLUDE ../lds/character_voice.ld
 	. = 0x80069B0;
 	.text.getPortraitByIDInjector : {*(.text.getPortraitByIDInjector)}
