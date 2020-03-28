@@ -227,9 +227,10 @@ SECTIONS
     INCLUDE ../lds/patch_expand_animation_script_compression_type.ld
     INCLUDE ../lds/patch_opening_movie_disabler.ld
     INCLUDE ../lds/death_quote.ld
+	. = 0xE007400;
+	.data.skill : {*/skill.*(.data.*)}
 	. = 0x9000000;
 	.text : {*(.text*)}
 	.rodata : {*(.rodata*) . = ALIGN(4);}
-	. = 0xE007400;
-	.data.skill : {*/skill.*(.data.*)}
+	.data : {*(.data*) . = ALIGN(4);}
 }
