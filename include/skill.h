@@ -115,22 +115,22 @@ struct BattleHit {
 };
 
 enum {
-    BATTLE_HIT_ATTR_CRIT      = (1 << 0),
-    BATTLE_HIT_ATTR_MISS      = (1 << 1),
-    BATTLE_HIT_ATTR_FOLLOWUP  = (1 << 2),
+    BATTLE_HIT_ATTR_CRIT = (1 << 0),
+    BATTLE_HIT_ATTR_MISS = (1 << 1),
+    BATTLE_HIT_ATTR_FOLLOWUP = (1 << 2),
     BATTLE_HIT_ATTR_RETALIATE = (1 << 3),
-    BATTLE_HIT_ATTR_BRAVE     = (1 << 4),
-    BATTLE_HIT_ATTR_5         = (1 << 5), // unused?
-    BATTLE_HIT_ATTR_POISON    = (1 << 6),
-    BATTLE_HIT_ATTR_DEVIL     = (1 << 7),
-    BATTLE_HIT_ATTR_HPSTEAL   = (1 << 8),
-    BATTLE_HIT_ATTR_HPHALVE   = (1 << 9),
-    BATTLE_HIT_ATTR_TATTACK   = (1 << 10), // triangle attack!
-    BATTLE_HIT_ATTR_SILENCER  = (1 << 11),
-    BATTLE_HIT_ATTR_12        = (1 << 12), // unused?
-    BATTLE_HIT_ATTR_13        = (1 << 13), // unused?
-    BATTLE_HIT_ATTR_14        = (1 << 14), // unused?
-    BATTLE_HIT_ATTR_15        = (1 << 15), // unused?
+    BATTLE_HIT_ATTR_BRAVE = (1 << 4),
+    BATTLE_HIT_ATTR_SKILL_HEAL = (1 << 5), // special skill effect when heal
+    BATTLE_HIT_ATTR_POISON = (1 << 6),
+    BATTLE_HIT_ATTR_DEVIL = (1 << 7),
+    BATTLE_HIT_ATTR_HPSTEAL = (1 << 8),
+    BATTLE_HIT_ATTR_HPHALVE = (1 << 9),
+    BATTLE_HIT_ATTR_TATTACK = (1 << 10), // triangle attack!
+    BATTLE_HIT_ATTR_SILENCER = (1 << 11),
+    BATTLE_HIT_ATTR_SKILL_ATTACK = (1 << 12), // special skill effect when attack
+    BATTLE_HIT_ATTR_SKILL_DEFEND = (1 << 13), // special skill effect when defend
+    BATTLE_HIT_ATTR_SKILL_BATTLE_BEGIN = (1 << 14), // special skill effect when battle begins
+    BATTLE_HIT_ATTR_SKILL_BATTLE_END = (1 << 15), // special skill effect when battle ends
 };
 
 enum {
@@ -164,7 +164,7 @@ struct SpecialSkill {
     void (*effectWhenDefend)(struct BattleUnit* attacker, struct BattleUnit* defender);
     void (*effectWhenBattleBegin)(struct BattleUnit* attacker, struct BattleUnit* defender);
     void (*effectWhenBattleEnd)(struct BattleUnit* attacker, struct BattleUnit* defender);
-    void (*effectWhenHeal)(struct BattleUnit* attacker, struct BattleUnit* defender);
+    void (*effectWhenHeal)(struct Unit* unit, int *healAmount);
 };
 
 extern struct BattleStats gBattleStats;
@@ -213,5 +213,9 @@ void BattleUpdateBattleStats(struct BattleUnit* attacker, struct BattleUnit* def
 void BattleGenerateHitTriangleAttack(struct BattleUnit* attacker, struct BattleUnit* defender);
 void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender);
 void BattleGenerateHitEffects(struct BattleUnit* attacker, struct BattleUnit* defender);
+
+int GetUnitPower(struct Unit* unit);
+
+extern const struct Item items[];
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

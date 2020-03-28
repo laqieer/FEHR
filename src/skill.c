@@ -117,16 +117,16 @@ char *getUnitSkillCDPointer(struct Unit *unit)
     switch(unit->side)
     {
         case PlayerSide:
-            pUnitSkillCD = &gPlayerSkillCoolDown[unit->number];
+            pUnitSkillCD = &gPlayerSkillCoolDown[unit->number - 1];
             break;
         case EnemySide:
-            pUnitSkillCD = &gEnemySkillCoolDown[unit->number];
+            pUnitSkillCD = &gEnemySkillCoolDown[unit->number - 1];
             break;
         case NPCSide:
-            pUnitSkillCD = &gNPCSkillCoolDown[unit->number];
+            pUnitSkillCD = &gNPCSkillCoolDown[unit->number - 1];
             break;
         default:
-            pUnitSkillCD = &gP4SkillCoolDown[unit->number];
+            pUnitSkillCD = &gP4SkillCoolDown[unit->number - 1];
             break;
     }
 
@@ -154,7 +154,8 @@ char getUnitSkillCD(struct Unit *unit)
 
 int getUnitSkillCDMax(struct Unit *unit)
 {
-    return getUnitSpecialSkill(unit)?specialSkills[getUnitSpecialSkill(unit)].count:0;
+    // set default value to 9 for test
+    return getUnitSpecialSkill(unit)?specialSkills[getUnitSpecialSkill(unit)].count:9;
 }
 
 void increaseUnitSkillCD(struct Unit *unit, char count)
@@ -186,40 +187,52 @@ int isSkillCDFull(struct Unit *unit)
     return getUnitSkillCD(unit) >= getUnitSkillCDMax(unit);
 }
 
+// special skill CD + 1 if neither simulation or promotion
+int isInBattle()
+{
+    return gBattleStats.config & BATTLE_CONFIG_REAL || gBattleStats.config & BATTLE_CONFIG_BALLISTA
+            || gBattleStats.config & BATTLE_CONFIG_BALLISTA || gBattleStats.config & BATTLE_CONFIG_ARENA
+            || gBattleStats.config & BATTLE_CONFIG_REFRESH || gBattleStats.config & BATTLE_CONFIG_MAPANIMS
+            || gBattleStats.config & BATTLE_CONFIG_DANCERING;
+}
+
 void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUnit* defender) {
     u16 specialSkillId;
 
-    // special skill CD + 1 if neither simulation or promotion
-    if(gBattleStats.config & BATTLE_CONFIG_REAL || gBattleStats.config & BATTLE_CONFIG_BALLISTA
-        || gBattleStats.config & BATTLE_CONFIG_BALLISTA || gBattleStats.config & BATTLE_CONFIG_ARENA
-        || gBattleStats.config & BATTLE_CONFIG_REFRESH || gBattleStats.config & BATTLE_CONFIG_MAPANIMS
-        || gBattleStats.config & BATTLE_CONFIG_DANCERING)
-    {
-        increaseUnitSkillCD(&attacker->unit, 1);
-        increaseUnitSkillCD(&defender->unit, 1);
-    }
-
-    // special skill effect when attack
+    // special skill effect when attacking
     specialSkillId = getUnitSpecialSkill(&attacker->unit);
-    // if attacker has effective special skill when attack & skill CD completed & (skill has no condition or condition satisfied)
+    // if attacker has effective special skill when attacking & skill CD completed & (skill has no condition or condition satisfied)
     if(specialSkillId && specialSkills[specialSkillId].effectWhenAttack && isSkillCDFull(&attacker->unit)
         && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
     {
         specialSkills[specialSkillId].effectWhenAttack(attacker, defender);
-        // restart skill CD
-        initUnitSkillCD(&attacker->unit);
+        if(isInBattle())
+        {
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_ATTACK;
+            // restart skill CD (prediction for special skill is inaccurate)
+            initUnitSkillCD(&attacker->unit);
+        }
     }
 
-    // special skill effect when defend
+    // special skill effect when defending
     specialSkillId = getUnitSpecialSkill(&defender->unit);
-    // if defender has effective special skill when defend & skill CD completed & (skill has no condition or condition satisfied)
+    // if defender has effective special skill when defending & skill CD completed & (skill has no condition or condition satisfied)
     if(specialSkillId && specialSkills[specialSkillId].effectWhenDefend && isSkillCDFull(&defender->unit) &&
         (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(defender, defender)))
     {
         specialSkills[specialSkillId].effectWhenDefend(attacker, defender);
-        // restart skill CD
-        initUnitSkillCD(&defender->unit);
+        if(isInBattle())
+        {
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_DEFEND;
+            // restart skill CD (prediction for special skill is inaccurate)
+            initUnitSkillCD(&defender->unit);
+        }
     }
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_ATTACK == 0)
+        increaseUnitSkillCD(&attacker->unit, 1);
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_DEFEND == 0)
+        increaseUnitSkillCD(&defender->unit, 1);
 }
 
 char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender) {
@@ -253,4 +266,57 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
 char BattleGenerateHitInjector(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     return BattleGenerateHit(attacker, defender);
+}
+
+int GetUnitItemHealAmount(struct Unit* unit, int item)
+{
+    int result = 0;
+
+    switch (item & 0xff) {
+
+        case ITEM_STAFF_HEAL:
+        case ITEM_STAFF_PHYSIC:
+        case ITEM_STAFF_FORTIFY:
+        case ITEM_VULNERARY:
+        case ITEM_VULNERARY_2:
+            result = 10;
+            break;
+
+        case ITEM_STAFF_MEND:
+            result = 20;
+            break;
+
+        case ITEM_STAFF_RECOVER:
+        case ITEM_ELIXIR:
+            result = 80;
+            break;
+
+    } // switch (GetItemIndex(item))
+
+    if (items[item & 0xff].isStaff) {
+        result += GetUnitPower(unit);
+
+        // special skill effect when healing
+        u16 specialSkillId = getUnitSpecialSkill(unit);
+        // if attacker has effective special skill when healing & skill CD completed (heal special skill has no condition)
+        if(specialSkillId && specialSkills[specialSkillId].effectWhenHeal && isSkillCDFull(unit))
+        {
+            specialSkills[specialSkillId].effectWhenHeal(unit, &result);
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_HEAL;
+            // restart skill CD (healing has no prediction)
+            initUnitSkillCD(unit);
+        }
+
+        if (result > 80)
+            result = 80;
+    }
+
+    increaseUnitSkillCD(unit, 1);
+
+    return result;
+}
+
+int GetUnitItemHealAmountInjector(struct Unit* unit, int item)
+{
+    return GetUnitItemHealAmount(unit, item);
 }

@@ -68,6 +68,7 @@ func8016318 = 0x8016319;
 writeTiles = 0x8013689;
 writeTSAPlain = 0x801383D;
 getActiveUnitCurrentHp = 0x8018e61;
+GetUnitPower = 0x8018ec1;
 DisplayActiveUnitEffectRange = 0x801ca29;
 BattleUpdateBattleStats = 0x80296e5;
 BattleGenerateHitTriangleAttack = 0x80297d5;

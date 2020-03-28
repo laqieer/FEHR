@@ -209,7 +209,7 @@ struct Character {
     u8 dialogueId;
 };
 
-enum Affinity {None, Fire, Thunder, Wind, Water, Dark, Light, Anima};
+enum Affinity {None = 0, Fire, Thunder, Wind, Water, Dark, Light, Anima};
 
 struct ItemSlot
 {
@@ -321,6 +321,6 @@ enum
 #define NPC_TOTAL_AMOUNT 20
 #define P4_TOTAL_AMOUNT 5
 
-enum UnitSide {PlayerSide, NPCSide, EnemySide, P4Side};
+enum UnitSide {PlayerSide = 0, NPCSide, EnemySide, P4Side};
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_H
