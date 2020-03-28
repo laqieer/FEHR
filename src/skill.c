@@ -20,8 +20,8 @@ char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {0xff};
 char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {0xff};
 
 const struct SpecialSkill specialSkills[] = {
-        {0, 0, 0, 0, 0, 0, 0, 0},
-    {"治癒", "回復の杖使用時、回復効果+10", "Imbue", "When healing an ally with a staff, restores an additional 10 HP to target ally.", 1, SPECIAL_SKILL_TYPE_HEAL, 0, 0},
+        {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {"治癒", "回復の杖使用時、回復効果+10", "Imbue", "When healing an ally with a staff, restores an additional 10 HP to target ally.", 1, 0, 0, 0, 0, 0, 0},
 };
 
 const u16 itemSpecialSkills[0x100] = {
@@ -199,44 +199,26 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
         increaseUnitSkillCD(&defender->unit, 1);
     }
 
-    // handle attack special skill
+    // special skill effect when attack
     specialSkillId = getUnitSpecialSkill(&attacker->unit);
-    // if attacker has attack type special skill
-    if(specialSkillId && specialSkills[specialSkillId].type == SPECIAL_SKILL_TYPE_ATTACK)
+    // if attacker has effective special skill when attack & skill CD completed & (skill has no condition or condition satisfied)
+    if(specialSkillId && specialSkills[specialSkillId].effectWhenAttack && isSkillCDFull(&attacker->unit)
+        && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
     {
-        // if skill CD completed
-        if(isSkillCDFull(&attacker->unit))
-        {
-            // if skill has no condition or condition satisfied
-            if(specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender))
-            {
-                // if skill has effect
-                if(specialSkills[specialSkillId].effect)
-                    specialSkills[specialSkillId].effect(attacker, defender);
-                // restart skill CD
-                initUnitSkillCD(&attacker->unit);
-            }
-        }
+        specialSkills[specialSkillId].effectWhenAttack(attacker, defender);
+        // restart skill CD
+        initUnitSkillCD(&attacker->unit);
     }
 
-    // handle defend special skill
+    // special skill effect when defend
     specialSkillId = getUnitSpecialSkill(&defender->unit);
-    // if defender has defend type special skill
-    if(specialSkillId && specialSkills[specialSkillId].type == SPECIAL_SKILL_TYPE_DEFEND)
+    // if defender has effective special skill when defend & skill CD completed & (skill has no condition or condition satisfied)
+    if(specialSkillId && specialSkills[specialSkillId].effectWhenDefend && isSkillCDFull(&defender->unit) &&
+        (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(defender, defender)))
     {
-        // if skill CD completed
-        if(isSkillCDFull(&defender->unit))
-        {
-            // if skill has no condition or condition satisfied
-            if(specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(defender, defender))
-            {
-                // if skill has effect
-                if(specialSkills[specialSkillId].effect)
-                    specialSkills[specialSkillId].effect(defender, defender);
-                // restart skill CD
-                initUnitSkillCD(&defender->unit);
-            }
-        }
+        specialSkills[specialSkillId].effectWhenDefend(attacker, defender);
+        // restart skill CD
+        initUnitSkillCD(&defender->unit);
     }
 }
 

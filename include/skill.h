@@ -159,18 +159,12 @@ struct SpecialSkill {
     const char *description;
     const char *description_en;
     unsigned short count;
-    unsigned short type;
     int (*condition)(struct BattleUnit* attacker, struct BattleUnit* defender);
-    void (*effect)(struct BattleUnit* attacker, struct BattleUnit* defender);
-};
-
-enum SpecialSkillType {
-    SPECIAL_SKILL_TYPE_ATTACK,
-    SPECIAL_SKILL_TYPE_DEFEND,
-    SPECIAL_SKILL_TYPE_BATTLE_BEGIN,
-    SPECIAL_SKILL_TYPE_HEAL,
-    SPECIAL_SKILL_TYPE_BUFF,
-    SPECIAL_SKILL_TYPE_DEBUFF,
+    void (*effectWhenAttack)(struct BattleUnit* attacker, struct BattleUnit* defender);
+    void (*effectWhenDefend)(struct BattleUnit* attacker, struct BattleUnit* defender);
+    void (*effectWhenBattleBegin)(struct BattleUnit* attacker, struct BattleUnit* defender);
+    void (*effectWhenBattleEnd)(struct BattleUnit* attacker, struct BattleUnit* defender);
+    void (*effectWhenHeal)(struct BattleUnit* attacker, struct BattleUnit* defender);
 };
 
 extern struct BattleStats gBattleStats;
