@@ -129,8 +129,8 @@ enum {
     BATTLE_HIT_ATTR_SILENCER = (1 << 11),
     BATTLE_HIT_ATTR_SKILL_ATTACK = (1 << 12), // special skill effect when attack
     BATTLE_HIT_ATTR_SKILL_DEFEND = (1 << 13), // special skill effect when defend
-    BATTLE_HIT_ATTR_SKILL_BATTLE_BEGIN = (1 << 14), // special skill effect when battle begins
-    BATTLE_HIT_ATTR_SKILL_BATTLE_END = (1 << 15), // special skill effect when battle ends
+    BATTLE_HIT_ATTR_SKILL_BEFORE_BATTLE = (1 << 14), // special skill effect before battle
+    BATTLE_HIT_ATTR_SKILL_AFTER_BATTLE = (1 << 15), // special skill effect after battle
 };
 
 enum {
@@ -162,8 +162,8 @@ struct SpecialSkill {
     int (*condition)(struct BattleUnit* attacker, struct BattleUnit* defender);
     void (*effectWhenAttack)(struct BattleUnit* attacker, struct BattleUnit* defender);
     void (*effectWhenDefend)(struct BattleUnit* attacker, struct BattleUnit* defender);
-    void (*effectWhenBattleBegin)(struct BattleUnit* attacker, struct BattleUnit* defender);
-    void (*effectWhenBattleEnd)(struct BattleUnit* attacker, struct BattleUnit* defender);
+    void (*effectBeforeBattle)(struct BattleUnit* attacker, struct BattleUnit* defender);
+    void (*effectAfterBattle)(struct BattleUnit* attacker, struct BattleUnit* defender);
     void (*effectWhenHeal)(struct Unit* unit, int *healAmount);
 };
 

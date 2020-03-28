@@ -196,7 +196,8 @@ int isInBattle()
             || gBattleStats.config & BATTLE_CONFIG_DANCERING;
 }
 
-void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUnit* defender) {
+void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
     u16 specialSkillId;
 
     // special skill effect when attacking
@@ -235,8 +236,52 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
         increaseUnitSkillCD(&defender->unit, 1);
 }
 
-char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender) {
+void SpecialSkillEffectBeforeBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 specialSkillId;
+
+    // attacker's special skill effect before battle
+    specialSkillId = getUnitSpecialSkill(&attacker->unit);
+    // if attacker has effective special skill after battle & skill CD completed & (skill has no condition or condition satisfied)
+    if(specialSkillId && specialSkills[specialSkillId].effectBeforeBattle && isSkillCDFull(&attacker->unit)
+       && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
+    {
+        specialSkills[specialSkillId].effectBeforeBattle(attacker, defender);
+        if(isInBattle())
+        {
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_BEFORE_BATTLE;
+            initUnitSkillCD(&attacker->unit);
+        }
+    }
+}
+
+// This doesn't work for special skill Fire Emblem (‰Š‚Ì–äÍ).
+void SpecialSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 specialSkillId;
+
+    // attacker's special skill effect after battle
+    specialSkillId = getUnitSpecialSkill(&attacker->unit);
+    // if attacker has effective special skill after battle & skill CD completed & (skill has no condition or condition satisfied)
+    if(specialSkillId && specialSkills[specialSkillId].effectAfterBattle && isSkillCDFull(&attacker->unit)
+       && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
+    {
+        specialSkills[specialSkillId].effectAfterBattle(attacker, defender);
+        if(isInBattle())
+        {
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_AFTER_BATTLE;
+            initUnitSkillCD(&attacker->unit);
+        }
+    }
+}
+
+char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
     char hit = 0;
+
+    // special skill effect before battle
+    if(gBattleHitIterator->info & BATTLE_HIT_INFO_BEGIN)
+        SpecialSkillEffectBeforeBattle(attacker, defender);
 
     if (attacker == &gBattleTarget)
         gBattleHitIterator->info |= BATTLE_HIT_INFO_RETALIATION;
@@ -258,6 +303,10 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
 
         hit = 1;
     }
+
+    // special skill effect after battle
+    if(gBattleHitIterator->info & BATTLE_HIT_INFO_FINISHES)
+        SpecialSkillEffectAfterBattle(attacker, defender);
 
     gBattleHitIterator++;
     return hit;
