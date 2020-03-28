@@ -19,8 +19,16 @@ BG1MapAddr = 0x2024C64;
 BG2MapAddr = 0x2024C68;
 BG3MapAddr = 0x2024C6C;
 
+gBattleStats = 0x203a3d4;
+gBattleActor = 0x203a3ec;
+gBattleTarget = 0x203a46c;
+
+gBattleHitArray = 0x203a4ec;
+
 decodedText = 0x202A5B0;
 lastTextID = 0x202B5B0;
+
+gBattleHitIterator = 0x203a508;
 
 DAT_0203a50c = 0x203a50c;
 DAT_0203a50d = 0x203a50d;
@@ -61,6 +69,10 @@ writeTiles = 0x8013689;
 writeTSAPlain = 0x801383D;
 getActiveUnitCurrentHp = 0x8018e61;
 DisplayActiveUnitEffectRange = 0x801ca29;
+BattleUpdateBattleStats = 0x80296e5;
+BattleGenerateHitTriangleAttack = 0x80297d5;
+BattleGenerateHitAttributes = 0x8029715;
+BattleGenerateHitEffects = 0x802984d;
 HandleActiveUnitDeath = 0x802ff61;
 AnimEvtCode7Handler = 0x80544ef;
 isAnimationAtRight = 0x8054E61;
@@ -83,6 +95,7 @@ SECTIONS
 	/*. = 0x8000220;
 	.rodata.pAgbMain : {*(.rodata.pAgbMain)}*/
 	INCLUDE ../lds/character_voice.ld
+	INCLUDE ../lds/skill.ld
 	. = 0x80069B0;
 	.text.getPortraitByIDInjector : {*(.text.getPortraitByIDInjector)}
 	. = 0x8006C48;
@@ -217,4 +230,6 @@ SECTIONS
 	. = 0x9000000;
 	.text : {*(.text*)}
 	.rodata : {*(.rodata*) . = ALIGN(4);}
+	. = 0xE007400;
+	.data.skill : {*/skill.*(.data.*)}
 }

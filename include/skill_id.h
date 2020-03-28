@@ -1,0 +1,13 @@
+//
+// Created by laqieer on 2020/3/27.
+//
+
+#ifndef FE7_JP_STUNNING_TRIBBLE_SKILL_ID_H
+#define FE7_JP_STUNNING_TRIBBLE_SKILL_ID_H
+
+enum SpecialSkillID {
+    SPECIAL_SKILL_NONE,
+    SPECIAL_SKILL_IMBUE,
+};
+
+#endif //FE7_JP_STUNNING_TRIBBLE_SKILL_ID_H

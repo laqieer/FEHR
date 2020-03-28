@@ -225,7 +225,8 @@ struct Unit
     u8 lv;
     u8 exp;
     u8 unk_A;
-    u8 deployNumber;
+    u8 number:6;
+    u8 side:2;
     u8 actionState;
     u8 unk_flags_D_0_3:4;
     u8 dropItem:1;
@@ -290,5 +291,36 @@ struct Unit
 
     u8 unk_46[2];
 };
+
+enum
+{
+    // Unit status identifiers
+
+    UNIT_STATUS_NONE = 0,
+
+    UNIT_STATUS_POISON = 1,
+    UNIT_STATUS_SLEEP = 2,
+    UNIT_STATUS_SILENCED = 3,
+    UNIT_STATUS_BERSERK = 4,
+
+    UNIT_STATUS_ATTACK = 5,
+    UNIT_STATUS_DEFENSE = 6,
+    UNIT_STATUS_CRIT = 7,
+    UNIT_STATUS_AVOID = 8,
+
+    UNIT_STATUS_SICK = 9,
+    UNIT_STATUS_RECOVER = 10,
+
+    UNIT_STATUS_PETRIFY = 11,
+    UNIT_STATUS_12 = 12,
+    UNIT_STATUS_13 = 13,
+};
+
+#define PLAYER_TOTAL_AMOUNT 62
+#define ENEMY_TOTAL_AMOUNT 50
+#define NPC_TOTAL_AMOUNT 20
+#define P4_TOTAL_AMOUNT 5
+
+enum UnitSide {PlayerSide, NPCSide, EnemySide, P4Side};
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_H
