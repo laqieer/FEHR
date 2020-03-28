@@ -154,7 +154,7 @@ char getUnitSkillCD(struct Unit *unit)
 
 int getUnitSkillCDMax(struct Unit *unit)
 {
-    return getUnitSpecialSkill(unit)?specialSkills[getUnitSpecialSkill(unit)].count:4;
+    return getUnitSpecialSkill(unit)?specialSkills[getUnitSpecialSkill(unit)].count:0;
 }
 
 void increaseUnitSkillCD(struct Unit *unit, char count)
