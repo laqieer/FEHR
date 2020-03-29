@@ -341,6 +341,12 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
         hit = 1;
     }
 
+    // clear special skill CD for dead side
+    if (attacker->unit.hp == 0)
+        initUnitSkillCD(&attacker->unit);
+    if (defender->unit.hp == 0)
+        initUnitSkillCD(&defender->unit);
+
     // special skill effect after battle
     if(gBattleHitIterator->info & BATTLE_HIT_INFO_FINISHES)
         SpecialSkillEffectAfterBattle(attacker, defender);
