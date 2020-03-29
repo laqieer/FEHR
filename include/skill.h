@@ -154,10 +154,10 @@ enum {
 };
 
 struct SpecialSkill {
-    const char *name;
-    const char *name_en;
-    const char *description;
-    const char *description_en;
+    const char * const name;
+    const char * const description;
+    const char * const name_en;
+    const char * const description_en;
     unsigned short count;
     int (*condition)(struct BattleUnit* attacker, struct BattleUnit* defender);
     void (*effectWhenAttack)(struct BattleUnit* attacker, struct BattleUnit* defender);
