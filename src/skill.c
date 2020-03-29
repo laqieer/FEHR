@@ -110,6 +110,38 @@ void initSkillCDForAllUnits()
     initSkillCDForP4Units();
 }
 
+void setSkillCDFullForPlayerUnits()
+{
+    for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
+        gPlayerSkillCoolDown[i] = SPECIAL_SKILL_CD_MAX;
+}
+
+void setSkillCDFullForEnemyUnits()
+{
+    for(int i = 0; i < ENEMY_TOTAL_AMOUNT; i++)
+        gEnemySkillCoolDown[i] = SPECIAL_SKILL_CD_MAX;
+}
+
+void setSkillCDFullForNPCUnits()
+{
+    for(int i = 0; i < NPC_TOTAL_AMOUNT; i++)
+        gNPCSkillCoolDown[i] = SPECIAL_SKILL_CD_MAX;
+}
+
+void setSkillCDFullForP4Units()
+{
+    for(int i = 0; i < P4_TOTAL_AMOUNT; i++)
+        gP4SkillCoolDown[i] = SPECIAL_SKILL_CD_MAX;
+}
+
+void setSkillCDFullForAllUnits()
+{
+    setSkillCDFullForPlayerUnits();
+    setSkillCDFullForEnemyUnits();
+    setSkillCDFullForNPCUnits();
+    setSkillCDFullForP4Units();
+}
+
 char *getUnitSkillCDPointer(struct Unit *unit)
 {
     char *pUnitSkillCD = 0;
@@ -147,15 +179,20 @@ void initUnitSkillCD(struct Unit *unit)
 char getUnitSkillCD(struct Unit *unit)
 {
     char *pUnitSkillCD = getUnitSkillCDPointer(unit);
-    if(*pUnitSkillCD == 0xff) // uninitialized
+    if (*pUnitSkillCD == 0xff) // uninitialized
         *pUnitSkillCD = 0;
     return *pUnitSkillCD;
 }
 
 int getUnitSkillCDMax(struct Unit *unit)
 {
-    // set default value to 9 for test
-    return getUnitSpecialSkill(unit)?specialSkills[getUnitSpecialSkill(unit)].count:9;
+    // set default max value to possible max value for testing
+    return getUnitSpecialSkill(unit)?specialSkills[getUnitSpecialSkill(unit)].count:SPECIAL_SKILL_CD_MAX;
+}
+
+void setUnitSkillCDFull(struct Unit *unit)
+{
+    setUnitSkillCD(unit, getUnitSkillCDMax(unit));
 }
 
 void increaseUnitSkillCD(struct Unit *unit, char count)

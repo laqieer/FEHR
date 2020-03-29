@@ -295,4 +295,6 @@ void RefreshTorchLightsOnBmMap();
 void RefreshUnitsOnBmMap();
 void RefreshMinesOnBmMap();
 
+#define SPECIAL_SKILL_CD_MAX 9
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
