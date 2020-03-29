@@ -24,7 +24,7 @@ extern const u8 * const event_chap_15[];
 extern const u8 * const event_chap_16[];
 extern const u8 * const event_chap_17[];
 
-const u8 ** const events[] = {
+const u8 ** const events[0xff] = {
         NULL,
         event_chap_pre,
         event_chap_1,

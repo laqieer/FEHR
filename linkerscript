@@ -237,6 +237,7 @@ SECTIONS
     INCLUDE ../lds/patch_expand_animation_script_compression_type.ld
     INCLUDE ../lds/patch_opening_movie_disabler.ld
     INCLUDE ../lds/death_quote.ld
+    INCLUDE ../lds/patch_expand_chapter_amount.ld
 	. = 0xE007400;
 	.data.skill : {*/skill.*(.data.*)}
 	. = 0x9000000;

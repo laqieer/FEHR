@@ -26,7 +26,7 @@ extern const u8 map_chap_15[];
 extern const u8 map_chap_16[];
 extern const u8 map_chap_17[];
 
-const u8 * const maps[] = {
+const u8 * const maps[0xff] = {
         map_chap_pre,
         map_chap_1,
         map_chap_2,
