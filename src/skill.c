@@ -19,6 +19,37 @@ char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT] = {0xff};
 char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {0xff};
 char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {0xff};
 
+// —¬¯
+void specialSkillAstraEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 2.5;
+}
+
+// ŒŽŒõ
+void specialSkillLunaEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += gBattleStats.defense * 0.5 * 3;
+    else
+        if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+            gBattleStats.damage += gBattleStats.defense * 0.5;
+}
+
+// ‘¾—z
+void specialSkillSolEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+    {
+        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
+            attacker->unit.hp = attacker->unit.maxHp;
+        else
+            attacker->unit.hp += gBattleStats.damage * 0.5;
+
+        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+    }
+
+}
+
 const struct SpecialSkill specialSkills[] = {
         {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
         {
@@ -288,7 +319,7 @@ const struct SpecialSkill specialSkills[] = {
             "Restores HP = 50% of damage dealt.",
             3,
                 0,
-                0,
+                specialSkillSolEffect,
                 0,
                 0,
                 0,
@@ -314,7 +345,7 @@ const struct SpecialSkill specialSkills[] = {
             "Treats foe's Def/Res as if reduced by 50% during combat.",
             3,
                 0,
-                0,
+                specialSkillLunaEffect,
                 0,
                 0,
                 0,
@@ -340,7 +371,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage dealt by 150%.",
             4,
                 0,
-                0,
+                specialSkillAstraEffect,
                 0,
                 0,
                 0,
@@ -940,7 +971,9 @@ const u16 itemSpecialSkills[0x100] = {
 };
 
 const u16 characterSpecialSkills[0x100] = {
-        0,
+        [CHARACTER_ALFONSE_ID] = SPECIAL_SKILL_SOL,
+        [CHARACTER_ANNA_ID] = SPECIAL_SKILL_ASTRA,
+        [CHARACTER_SHARENA_ID] = SPECIAL_SKILL_LUNA,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -1154,7 +1187,7 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
     if(specialSkillId && specialSkills[specialSkillId].effectWhenAttack && isSkillCDFull(&attacker->unit)
         && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
     {
-        specialSkills[specialSkillId].effectWhenAttack(attacker, defender);
+        (*(specialSkills[specialSkillId].effectWhenAttack))(attacker, defender);
         if(isInBattle())
         {
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_ATTACK;
@@ -1169,7 +1202,7 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
     if(specialSkillId && specialSkills[specialSkillId].effectWhenDefend && isSkillCDFull(&defender->unit) &&
         (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(defender, defender)))
     {
-        specialSkills[specialSkillId].effectWhenDefend(attacker, defender);
+        (*(specialSkills[specialSkillId].effectWhenDefend))(attacker, defender);
         if(isInBattle())
         {
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_DEFEND;
@@ -1194,7 +1227,7 @@ void SpecialSkillEffectBeforeBattle(struct BattleUnit* attacker, struct BattleUn
     if(specialSkillId && specialSkills[specialSkillId].effectBeforeBattle && isSkillCDFull(&attacker->unit)
        && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
     {
-        specialSkills[specialSkillId].effectBeforeBattle(attacker, defender);
+        (*(specialSkills[specialSkillId].effectBeforeBattle))(attacker, defender);
         if(isInBattle())
         {
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_BEFORE_BATTLE;
@@ -1214,7 +1247,7 @@ void SpecialSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUni
     if(specialSkillId && specialSkills[specialSkillId].effectAfterBattle && isSkillCDFull(&attacker->unit)
        && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
     {
-        specialSkills[specialSkillId].effectAfterBattle(attacker, defender);
+        (*(specialSkills[specialSkillId].effectAfterBattle))(attacker, defender);
         if(isInBattle())
         {
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_AFTER_BATTLE;
@@ -1304,7 +1337,7 @@ int GetUnitItemHealAmount(struct Unit* unit, int item)
         // if attacker has effective special skill when healing & skill CD completed (heal special skill has no condition)
         if(specialSkillId && specialSkills[specialSkillId].effectWhenHeal && isSkillCDFull(unit))
         {
-            specialSkills[specialSkillId].effectWhenHeal(unit, &result);
+            (*(specialSkills[specialSkillId].effectWhenHeal))(unit, &result);
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_HEAL;
             // restart skill CD (healing has no prediction)
             initUnitSkillCD(unit);
