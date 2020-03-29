@@ -19,6 +19,11 @@ BG1MapAddr = 0x2024C64;
 BG2MapAddr = 0x2024C68;
 BG3MapAddr = 0x2024C6C;
 
+gBmMapUnit = 0x202e3d8;
+gBmMapFog = 0x202e3e8;
+gBmMapHidden = 0x202e3ec;
+gRAMChapterData = 0x202bbf4;
+
 gBattleStats = 0x203a3d4;
 gBattleActor = 0x203a3ec;
 gBattleTarget = 0x203a46c;
@@ -69,6 +74,10 @@ writeTiles = 0x8013689;
 writeTSAPlain = 0x801383D;
 getActiveUnitCurrentHp = 0x8018e61;
 GetUnitPower = 0x8018ec1;
+BmMapFill = 0x8019495;
+RefreshTorchLightsOnBmMap = 0x8019e25;
+RefreshUnitsOnBmMap = 0x8019c51;
+RefreshMinesOnBmMap = 0x8019e51;
 DisplayActiveUnitEffectRange = 0x801ca29;
 BattleUpdateBattleStats = 0x80296e5;
 BattleGenerateHitTriangleAttack = 0x80297d5;

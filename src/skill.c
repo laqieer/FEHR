@@ -369,3 +369,31 @@ int GetUnitItemHealAmountInjector(struct Unit* unit, int item)
 {
     return GetUnitItemHealAmount(unit, item);
 }
+/*
+// Runs each time loading map
+void RefreshEntityBmMaps()
+{
+    // 1. Clear unit & hidden maps
+
+    BmMapFill(gBmMapUnit, 0);
+    BmMapFill(gBmMapHidden, 0);
+
+    // 2. Clear fog map, with true (visible) if no fog, with false (hidden) if has fog
+
+    BmMapFill(gBmMapFog, gRAMChapterData.chapterVisionRange == 0);
+
+    // 3. Populate unit, fog & hidden maps
+
+    RefreshTorchLightsOnBmMap();
+    RefreshUnitsOnBmMap();
+    RefreshMinesOnBmMap();
+
+    // 4. Clear unit special skill CD
+    initSkillCDForAllUnits();
+}
+
+void RefreshEntityBmMapsInjector()
+{
+    RefreshEntityBmMaps();
+}
+*/

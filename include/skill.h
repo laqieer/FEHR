@@ -218,4 +218,81 @@ int GetUnitPower(struct Unit* unit);
 
 extern const struct Item items[];
 
+struct RAMChapterData
+{
+    /* 00 */ unsigned int unk0; // a time value
+    /* 04 */ unsigned int unk4; // a time value
+
+    /* 08 */ unsigned int partyGoldAmount;
+    /* 0C */ unsigned char gameSaveSlot;
+
+    /* 0D */ unsigned char chapterVisionRange; // 0 means no fog
+    /* 0E */ char chapterIndex;
+
+    /* 0F */ unsigned char chapterPhaseIndex; // 0x00 = Player phase, 0x40 = NPC phase, 0x80 = Enemy phase (0xC0 = link arena 4th team?)
+
+    /* 10 */ unsigned short chapterTurnNumber;
+
+    /* 12 */ unsigned char xCursor, yCursor; // map cursor position
+
+    /* 14 */ unsigned char chapterStateBits; // +0x04 = postgame, +0x10 = in prep screen, +0x40 = difficult mode, +0x80 = link arena?
+    /* 15 */ unsigned char chapterWeatherId;
+    /* 16 */ unsigned short chapterTotalSupportGain;
+
+    /* 18 */ unsigned char playthroughIdentifier;
+    /* 19 */ unsigned char unk19;
+    /* 1A */ unsigned char lastUnitSortType;
+
+    /* 1B */ unsigned char chapterModeIndex;
+
+    // character identifiers indexed by weapon type.
+    // has to do with allowing unusable weapons to be used
+    /* 1C */ unsigned char unk1C[4];
+
+    /* 20 */ char playerName[32]; // unused outside of link arena (was tactician name in FE7); Size unknown
+
+// option bits
+    unsigned int unk40_1:1; // 1
+    unsigned int unk40_2:1; // 1
+    unsigned int unk40_3:2; // 2
+    unsigned int unk40_5:1; // 1
+    unsigned int cfgTextSpeed:2;
+    unsigned int unk40_8:1; // 1
+    unsigned int unk41_1:1; // 1
+    unsigned int unk41_2:1; // 1
+    unsigned int cfgWindowColor:2;
+    unsigned int unk41_5:1; // 1
+    unsigned int unk41_6:1; // unk
+    unsigned int unk41_7:1; // 1
+    unsigned int unk41_8:1; // 1
+    unsigned int unk42_1:1; // unk
+    unsigned int unk42_2:2; // 2
+    unsigned int unk42_4:2; // 2
+    unsigned int unk42_6:1; // 1
+    unsigned int unk42_7:1; // unk
+    unsigned int unk42_8:2; // 2 (!)
+    unsigned int unk43_2:2; // 2
+    unsigned int unk43_4:5; // unk
+
+    unsigned char unk44[4];
+
+    unsigned short unk48;
+
+    unsigned unk4A_1 : 1;
+    unsigned unk4A_2 : 3;
+    unsigned unk4A_5 : 4;
+    unsigned char unk4B;
+};
+
+extern struct RAMChapterData gRAMChapterData;
+
+extern unsigned char ** gBmMapUnit;
+extern unsigned char ** gBmMapFog;
+extern unsigned char ** gBmMapHidden;
+
+void BmMapFill(unsigned char ** map, int value);
+void RefreshTorchLightsOnBmMap();
+void RefreshUnitsOnBmMap();
+void RefreshMinesOnBmMap();
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
