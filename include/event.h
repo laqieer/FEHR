@@ -95,4 +95,10 @@
 // Move to chapter
 #define MNCH .hword 0x7f,
 
+// call function
+#define ASMC .word 0x3c,
+
+// clear special skill CD
+#define ClearSpecialSkillCD ASMC initSkillCDForAllUnits
+
 #endif //FE7_JP_STUNNING_TRIBBLE_EVENT_H

@@ -37,6 +37,7 @@ MiscBasedEvents:
 	AREA(10, GetSlimLance, 12, 17, 14, 19)
 	END_MAIN
 BeginningScene:
+    ClearSpecialSkillCD
 	LOU1 EnemyUnitsENM
 	ENUN
 	LOU1 AllyUnitsENM

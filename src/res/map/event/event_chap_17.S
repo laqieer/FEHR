@@ -32,6 +32,7 @@ MiscBasedEvents:
 	DefeatAll(EndingScene)
 	END_MAIN
 BeginningScene:
+    ClearSpecialSkillCD
 	LOU1 AllyUnitsENM
 	ENUN
 	LOU1 EnemyUnitsENM

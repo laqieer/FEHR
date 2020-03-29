@@ -267,9 +267,9 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
         }
     }
 
-    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_ATTACK == 0)
+    if(isInBattle() && (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_ATTACK) == 0)
         increaseUnitSkillCD(&attacker->unit, 1);
-    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_DEFEND == 0)
+    if(isInBattle() && (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_DEFEND) == 0)
         increaseUnitSkillCD(&defender->unit, 1);
 }
 
@@ -397,7 +397,8 @@ int GetUnitItemHealAmount(struct Unit* unit, int item)
             result = 80;
     }
 
-    increaseUnitSkillCD(unit, 1);
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_HEAL) == 0)
+        increaseUnitSkillCD(unit, 1);
 
     return result;
 }
