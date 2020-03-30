@@ -227,15 +227,15 @@ struct Unit
     u8 unk_A;
     u8 number:6;
     u8 side:2;
-    u8 actionState;
+    u8 state;
     u8 unk_flags_D_0_3:4;
     u8 dropItem:1;
     u8 growthPlus:1;
     u8 unk_flags_D_6_7:2;
     u8 unk_E;
     u8 unk_F;
-    u8 PositionX;
-    u8 PositionY;
+    u8 positionX;
+    u8 positionY;
     s8 maxHp;
     s8 hp;
     s8 str;
@@ -294,6 +294,50 @@ struct Unit
 
 enum
 {
+    // Unit state constant masks
+
+    UNIT_STATE_NONE = 0,
+
+    UNIT_STATE_HIDDEN = (1 << 0),
+    UNIT_STATE_UNSELECTABLE = (1 << 1),
+    UNIT_STATE_DEAD = (1 << 2),
+    UNIT_STATE_NOT_DEPLOYED = (1 << 3),
+    UNIT_STATE_RESCUING = (1 << 4),
+    UNIT_STATE_RESCUED = (1 << 5),
+    UNIT_STATE_HAS_MOVED = (1 << 6), // Bad name?
+    UNIT_STATE_CANTOING = UNIT_STATE_HAS_MOVED, // Alias
+    UNIT_STATE_UNDER_A_ROOF = (1 << 7),
+    UNIT_STATE_BIT8 = (1 << 8), // has been seen?
+    UNIT_STATE_BIT9 = (1 << 9), // hidden by fog?
+    UNIT_STATE_HAS_MOVED_AI = (1 << 10),
+    UNIT_STATE_IN_BALLISTA = (1 << 11),
+    UNIT_STATE_DROP_ITEM = (1 << 12),
+    UNIT_STATE_GROWTH_BOOST = (1 << 13),
+    UNIT_STATE_SOLOANIM_1 = (1 << 14),
+    UNIT_STATE_SOLOANIM_2 = (1 << 15),
+    UNIT_STATE_BIT16 = (1 << 16),
+    UNIT_STATE_BIT17 = (1 << 17),
+    UNIT_STATE_BIT18 = (1 << 18),
+    UNIT_STATE_BIT19 = (1 << 19),
+    UNIT_STATE_BIT20 = (1 << 20),
+    UNIT_STATE_BIT21 = (1 << 21),
+    UNIT_STATE_BIT22 = (1 << 22),
+    UNIT_STATE_BIT23 = (1 << 23),
+    // = (1 << 24),
+    UNIT_STATE_BIT25 = (1 << 25),
+    UNIT_STATE_BIT26 = (1 << 26),
+    // = (1 << 27),
+    // = (1 << 28),
+    // = (1 << 29),
+    // = (1 << 30),
+    // = (1 << 31),
+
+    // Helpers
+    UNIT_STATE_UNAVAILABLE = (UNIT_STATE_DEAD | UNIT_STATE_NOT_DEPLOYED | UNIT_STATE_BIT16),
+};
+
+enum
+{
     // Unit status identifiers
 
     UNIT_STATUS_NONE = 0,
@@ -320,6 +364,11 @@ enum
 #define ENEMY_TOTAL_AMOUNT 50
 #define NPC_TOTAL_AMOUNT 20
 #define P4_TOTAL_AMOUNT 5
+
+extern const struct Unit playerUnits[PLAYER_TOTAL_AMOUNT];
+extern const struct Unit enemyUnits[ENEMY_TOTAL_AMOUNT];
+extern const struct Unit NPCUnits[NPC_TOTAL_AMOUNT];
+extern const struct Unit P4Units[P4_TOTAL_AMOUNT];
 
 enum UnitSide {PlayerSide = 0, NPCSide, EnemySide, P4Side};
 

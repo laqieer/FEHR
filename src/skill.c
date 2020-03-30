@@ -19,26 +19,793 @@ char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT] = {0xff};
 char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {0xff};
 char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {0xff};
 
-// ó¨êØ
+/*
+ * îÍâäÅEïXëìånÇÃâúã`ÉXÉLÉã
+ */
+
+// åuâŒ: éÁîıÇÃ50%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillGlowingEmberEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->unit.def * 0.5;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// îÍâä: éÁîıÇÃ50%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillBonfireEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->unit.def * 0.5;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// âÿâä: éÁîıÇÃ80%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillIgnisEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->unit.def * 0.8;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// ïXì_: ñÇñhÇÃ50%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillChillingWindEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->unit.res * 0.5;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// ëoên: ñÇñhÇÃ40%Çâúã`É_ÉÅÅ[ÉWÇ…â¡éZ
+//âúã`à»äOÇÃÉXÉLÉãÇ…ÇÊÇÈÅuÉ_ÉÅÅ[ÉWÇÅõÅõÅìåyå∏ÅvÇñ≥å¯
+void specialSkillTwinBladesEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->unit.res * 0.4;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+
+    //TODO: immunity to damage reduce skills except special skills
+}
+
+// ïXëì: ñÇñhÇÃ50%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillIcebergEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->unit.res * 0.5;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// ïXâÿ: ñÇñhÇÃ80%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillGlaciesEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->unit.res * 0.8;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// îjìV: ìGÇÃçUåÇÇÃ20%Çâúã`É_ÉÅÅ[ÉWÇ…â¡éZ
+//ìGÇ™ó≥ÅAèbÇÃéûÅA
+//20%Ç≈ÇÕÇ»Ç≠40%Çâúã`É_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillRupturedSkyEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = defender->battleAttack * 0.2;
+
+    // 0.4 when enemy is dragon
+    if(defender->weaponType == ITYPE_DRAGN)
+        damagePlus *= 2;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+int isUnitAlive(struct Unit *unit)
+{
+    return unit->character && unit->job && unit->hp && (unit->state & UNIT_STATE_DEAD) == 0;
+}
+
+void forAllPlayerUnits(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
+        (*func)(&playerUnits[i], args);
+}
+
+void forAllEnemyUnits(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    for(int i = 0; i < ENEMY_TOTAL_AMOUNT; i++)
+        (*func)(&enemyUnits[i], args);
+}
+
+void forAllNPCUnits(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    for(int i = 0; i < NPC_TOTAL_AMOUNT; i++)
+        (*func)(&NPCUnits[i], args);
+}
+
+void forAllP4Units(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    for(int i = 0; i < P4_TOTAL_AMOUNT; i++)
+        (*func)(&P4Units[i], args);
+}
+
+void forAllUnitsInSide(void (*func)(struct Unit *unit, void *args), void *args, int side)
+{
+    switch (side)
+    {
+        case PlayerSide:
+            forAllNPCUnits(func, args);
+            break;
+        case NPCSide:
+            forAllNPCUnits(func, args);
+            break;
+        case EnemySide:
+            forAllEnemyUnits(func, args);
+            break;
+        default:
+            forAllP4Units(func, args);
+    }
+}
+
+struct Unit *findInPlayerUnits(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit = 0;
+
+    for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
+    {
+        unit = &playerUnits[i];
+        if((*condition)(unit, args))
+            break;
+    }
+
+    return unit;
+}
+
+struct Unit *findInEnemyUnits(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit = 0;
+
+    for(int i = 0; i < ENEMY_TOTAL_AMOUNT; i++)
+    {
+        unit = &enemyUnits[i];
+        if((*condition)(unit, args))
+            break;
+    }
+
+    return unit;
+}
+
+struct Unit *findInNPCUnits(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit = 0;
+
+    for(int i = 0; i < NPC_TOTAL_AMOUNT; i++)
+    {
+        unit = &NPCUnits[i];
+        if((*condition)(unit, args))
+            break;
+    }
+
+    return unit;
+}
+
+struct Unit *findInP4Units(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit = 0;
+
+    for(int i = 0; i < P4_TOTAL_AMOUNT; i++)
+    {
+        unit = &P4Units[i];
+        if((*condition)(unit, args))
+            break;
+    }
+
+    return unit;
+}
+
+struct Unit *findUnitInSide(int (*condition)(struct Unit *unit, void *args), void *args, int side)
+{
+    switch (side)
+    {
+        case PlayerSide:
+            return findInPlayerUnits(condition, args);
+        case NPCSide:
+            return findInNPCUnits(condition, args);
+        case EnemySide:
+            return findInEnemyUnits(condition, args);
+        default:
+            return findInP4Units(condition, args);
+    }
+}
+
+void forAllPlayerUnitsAlive(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit;
+
+    for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
+    {
+        unit = &playerUnits[i];
+        if(isUnitAlive(unit))
+            (*func)(unit, args);
+    }
+}
+
+void forAllEnemyUnitsAlive(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit;
+
+    for(int i = 0; i < ENEMY_TOTAL_AMOUNT; i++)
+    {
+        unit = &enemyUnits[i];
+        if(isUnitAlive(unit))
+            (*func)(unit, args);
+    }
+}
+
+void forAllNPCUnitsAlive(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit;
+
+    for(int i = 0; i < NPC_TOTAL_AMOUNT; i++)
+    {
+        unit = &NPCUnits[i];
+        if(isUnitAlive(unit))
+            (*func)(unit, args);
+    }
+}
+
+void forAllP4UnitsAlive(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit;
+
+    for(int i = 0; i < P4_TOTAL_AMOUNT; i++)
+    {
+        unit = &P4Units[i];
+        if(isUnitAlive(unit))
+            (*func)(unit, args);
+    }
+}
+
+void forAllAliveUnitsInSide(void (*func)(struct Unit *unit, void *args), void *args, int side)
+{
+    switch (side)
+    {
+        case PlayerSide:
+            forAllNPCUnitsAlive(func, args);
+            break;
+        case NPCSide:
+            forAllNPCUnitsAlive(func, args);
+            break;
+        case EnemySide:
+            forAllEnemyUnitsAlive(func, args);
+            break;
+        default:
+            forAllP4UnitsAlive(func, args);
+    }
+}
+
+struct Unit *findInPlayerUnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit = 0;
+
+    for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
+    {
+        unit = &playerUnits[i];
+        if(isUnitAlive(unit) && (*condition)(unit, args))
+            break;
+    }
+
+    return unit;
+}
+
+struct Unit *findInEnemyUnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit = 0;
+
+    for(int i = 0; i < ENEMY_TOTAL_AMOUNT; i++)
+    {
+        unit = &enemyUnits[i];
+        if(isUnitAlive(unit) && (*condition)(unit, args))
+            break;
+    }
+
+    return unit;
+}
+
+struct Unit *findInNPCUnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit = 0;
+
+    for(int i = 0; i < NPC_TOTAL_AMOUNT; i++)
+    {
+        unit = &NPCUnits[i];
+        if(isUnitAlive(unit) && (*condition)(unit, args))
+            break;
+    }
+
+    return unit;
+}
+
+struct Unit *findInP4UnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *unit = 0;
+
+    for(int i = 0; i < P4_TOTAL_AMOUNT; i++)
+    {
+        unit = &P4Units[i];
+        if(isUnitAlive(unit) && (*condition)(unit, args))
+            break;
+    }
+
+    return unit;
+}
+
+struct Unit *findAliveUnitInSide(int (*condition)(struct Unit *unit, void *args), void *args, int side)
+{
+    switch (side)
+    {
+        case PlayerSide:
+            return findInPlayerUnitsAlive(condition, args);
+        case NPCSide:
+            return findInNPCUnitsAlive(condition, args);
+        case EnemySide:
+            return findInEnemyUnitsAlive(condition, args);
+        default:
+            return findInP4UnitsAlive(condition, args);
+    }
+}
+
+int areTwoUnitsAdjacent(struct Unit *unit1, struct Unit *unit2)
+{
+    return RECT_DISTANCE(unit1->positionX, unit1->positionY, unit2->positionX, unit2->positionY) == 1;
+}
+
+int isAdjacentToAnyCompanion(struct Unit *unit)
+{
+    return findAliveUnitInSide(areTwoUnitsAdjacent, &unit, unit->side);
+}
+
+// ÉuÉãÅ[ÉtÉåÉCÉÄ: 10Çâúã`É_ÉÅÅ[ÉWÇ…â¡éZÅ@ñ°ï˚Ç∆ó◊ê⁄ÇµÇƒÇ¢ÇÈéûÅAÇ≥ÇÁÇ…15Çâúã`É_ÉÅÅ[ÉWÇ…â¡éZÅBçáåv25Çâ¡éZÇ∑ÇÈ
+void specialSkillBlueFlameEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = 10;
+
+    if(isAdjacentToAnyCompanion(&attacker->unit))
+        damagePlus += 15;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+/*
+ * åéì¯ÅEåéåıånÇÃâúã`ÉXÉLÉã
+ */
+
+// âeåé: ìGÇÃéÁîıÅAñÇñh-30%àµÇ¢Ç≈çUåÇ
+void specialSkillNewMoonEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack - gBattleStats.defense * (1 - 0.3);
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// åéì¯: ìGÇÃéÁîıÅAñÇñh-30%àµÇ¢Ç≈çUåÇ
+void specialSkillMoonbowEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack - gBattleStats.defense * (1 - 0.3);
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// åéåı: ìGÇÃéÁîıÅAñÇñh-50%àµÇ¢Ç≈çUåÇ
+void specialSkillLunaEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack - gBattleStats.defense * (1 - 0.5);
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// çïÇÃåéåı: ìGÇÃéÁîıÅAñÇñh-80%àµÇ¢Ç≈çUåÇ
+void specialSkillBlackLunaEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack - gBattleStats.defense * (1 - 0.8);
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// åéåıëM: ìGÇÃéÁîıÅAñÇñh-20%àµÇ¢Ç≈çUåÇ
+//ë¨Ç≥ÇÃ20%Çâúã`É_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillLunarFlashEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack - gBattleStats.defense * (1 - 0.2);
+
+    gBattleStats.damage += attacker->battleSpeed * 0.2;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+/*
+ * ó≥óÙÅEó≥ê˙ånÇÃâúã`ÉXÉLÉã
+ */
+
+// ïöó≥: çUåÇ+30%
+void specialSkillDragonGazeEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack * 1.3 - gBattleStats.defense;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// ó≥óÙ: çUåÇ+30%
+void specialSkillDraconicAuraEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack * 1.3 - gBattleStats.defense;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// ó≥ê˙: çUåÇ+50%
+void specialSkillDraconicFangEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack * 1.5 - gBattleStats.defense;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+/*
+ * ã•êØÅEó¨êØånÇÃâúã`ÉXÉLÉã
+ */
+
+// êØâe: ó^Ç¶ÇÈÉ_ÉÅÅ[ÉW1.5î{
+void specialSkillNightSkyEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 1.5;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+}
+
+// ã•êØ: ó^Ç¶ÇÈÉ_ÉÅÅ[ÉW1.5î{
+void specialSkillGlimmerEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 1.5;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+}
+
+// ó¨êØ: ó^Ç¶ÇÈÉ_ÉÅÅ[ÉW2.5î{
 void specialSkillAstraEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     gBattleStats.damage *= 2.5;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
 }
 
-// åéåı
-void specialSkillLunaEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+// åïïPÇÃó¨êØ: ë¨Ç≥ÇÃ40ÅìÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillRegnalAstraEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
+    int damagePlus = attacker->battleSpeed * 0.4;
+
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
-        gBattleStats.damage += gBattleStats.defense * 0.5 * 3;
+        gBattleStats.damage += damagePlus * 3;
     else
-        if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
-            gBattleStats.damage += gBattleStats.defense * 0.5;
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
 }
 
-// ëæóz
+// åïçcÇÃó¨êØ: ë¨Ç≥ÇÃ40ÅìÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillImperialAstraEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->battleSpeed * 0.4;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// âäÇÃñ‰èÕ: ë¨Ç≥ÇÃ30ÅìÇÉ_ÉÅÅ[ÉWÇ…â¡éZÅ@êÌì¨å„ÅAé©ï™Ç∆ëSñ°ï˚ÇÃçUåÇÅAë¨Ç≥ÅAéÁîıÅAñÇñh+4Åi1É^Å[ÉìÅjÅiÇªÇÃêÌì¨Ç≈é©ï™ÇÃHPÇ™0Ç…Ç»Ç¡ÇƒÇ‡å¯â ÇÕî≠ìÆÅj
+void specialSkillFireEmblemEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->battleSpeed * 0.3;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+
+    //TODO: buff self & companions
+}
+
+/*
+ * ååèQÅEïúèQånÇÃâúã`ÉXÉLÉã
+ */
+
+// ê·êJ: é©ï™ÇÃÅiç≈ëÂHP-åªHPÅjÇÃ30%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillRetributionEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.3;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// ååèQ: é©ï™ÇÃÅiç≈ëÂHP-åªHPÅjÇÃ30%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillReprisalEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.3;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+// ïúèQ: é©ï™ÇÃÅiç≈ëÂHP-åªHPÅjÇÃ50%ÇÉ_ÉÅÅ[ÉWÇ…â¡éZ
+void specialSkillVengeanceEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.5;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
+/*
+ * ó[ózÅEëæózånÇÃâúã`ÉXÉLÉã
+ */
+
+// ózâe: ó^Ç¶ÇΩÉ_ÉÅÅ[ÉWÇÃ30%ÇâÒïú
+void specialSkillDaylightEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
+    {
+        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
+            attacker->unit.hp = attacker->unit.maxHp;
+        else
+            attacker->unit.hp += gBattleStats.damage * 0.3;
+
+        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+    }
+}
+
+// ó[óz: ó^Ç¶ÇΩÉ_ÉÅÅ[ÉWÇÃ30%ÇâÒïú
+void specialSkillNoontimeEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
+    {
+        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
+            attacker->unit.hp = attacker->unit.maxHp;
+        else
+            attacker->unit.hp += gBattleStats.damage * 0.3;
+
+        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+    }
+}
+
+// ëæóz: ó^Ç¶ÇΩÉ_ÉÅÅ[ÉWÇÃ50%é©ï™ÇâÒïú
 void specialSkillSolEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
     {
         if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
             attacker->unit.hp = attacker->unit.maxHp;
@@ -47,7 +814,411 @@ void specialSkillSolEffect(struct BattleUnit* attacker, struct BattleUnit* defen
 
         gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
     }
+}
 
+// ìVãÛ: ìGÇÃéÁîıÅAñÇñh-50%àµÇ¢Ç≈çUåÇÅAó^Ç¶ÇΩÉ_ÉÅÅ[ÉWÇÃ50%é©ï™ÇâÒïú
+void specialSkillAetherEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+    {
+        gBattleStats.damage = gBattleStats.attack - gBattleStats.defense * (1 - 0.5);
+
+        if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+            gBattleStats.damage *= 3;
+
+        if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+            gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+        if (gBattleStats.damage < 0)
+            gBattleStats.damage = 0;
+
+        if(gBattleStats.damage)
+        {
+            attacker->nonZeroDamage = 1;
+
+            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
+                attacker->unit.hp = attacker->unit.maxHp;
+            else
+                attacker->unit.hp += gBattleStats.damage * 0.5;
+
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+        }
+    }
+}
+
+// ëìÇÃìVãÛ: ìGÇÃéÁîıÅAñÇñh-50%àµÇ¢Ç≈çUåÇÅAó^Ç¶ÇΩÉ_ÉÅÅ[ÉWÇÃ50%é©ï™ÇâÒïú
+void specialSkillRadientAetherEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+    {
+        gBattleStats.damage = gBattleStats.attack - gBattleStats.defense * (1 - 0.5);
+
+        if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+            gBattleStats.damage *= 3;
+
+        if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+            gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+        if (gBattleStats.damage < 0)
+            gBattleStats.damage = 0;
+
+        if(gBattleStats.damage)
+        {
+            attacker->nonZeroDamage = 1;
+
+            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
+                attacker->unit.hp = attacker->unit.maxHp;
+            else
+                attacker->unit.hp += gBattleStats.damage * 0.5;
+
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+        }
+    }
+}
+
+// ìVòT: ë¨Ç≥ÇÃ30ÅìÇâúã`É_ÉÅÅ[ÉWÇ…â¡éZ
+//ó^Ç¶ÇΩÉ_ÉÅÅ[ÉWÇÃ30Åìé©ï™ÇâÒïú
+void specialSkillSiriusEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+    {
+        int damagePlus = attacker->battleSpeed * 0.3;
+
+        if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+            gBattleStats.damage += damagePlus * 3;
+        else
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+                gBattleStats.damage += damagePlus;
+
+        if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+            gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+        if(gBattleStats.damage)
+        {
+            attacker->nonZeroDamage = 1;
+
+            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
+                attacker->unit.hp = attacker->unit.maxHp;
+            else
+                attacker->unit.hp += gBattleStats.damage * 0.3;
+
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+        }
+    }
+}
+
+// äJê¢: éÁîıÇÃ50%Çâúã`É_ÉÅÅ[ÉWÇ…â¡éZ
+//ó^Ç¶ÇΩÉ_ÉÅÅ[ÉWÇÃ25%é©ï™ÇâÒïú
+void specialSkillOpenFutureEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = attacker->unit.def * 0.5;
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+    {
+        attacker->nonZeroDamage = 1;
+
+        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.25)
+            attacker->unit.hp = attacker->unit.maxHp;
+        else
+            attacker->unit.hp += gBattleStats.damage * 0.25;
+
+        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+    }
+}
+
+/*
+ * îÕàÕçUåÇånÇÃâúã`ÉXÉLÉã
+ */
+
+// ç”åı: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+ÅüÅ@Åü
+Å@ÅûÅ@
+ÅüÅ@Åü
+ */
+
+// ç”âŒ: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+ ÅüÅüÅûÅüÅü
+ */
+
+
+// ç”óã: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAì¡íËîÕàÕì‡ÇÃìGÇ…Åié©ï™ÇÃçUåÇÅ|ìGÇÃéÁîıorñÇñhÅjÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+Åü
+Åü
+Åû
+Åü
+Åü
+ */
+
+
+// ç”ïó: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+Å@ÅüÅ@
+ ÅüÅûÅü
+Å@ÅüÅ@
+ */
+
+
+// óÛåı: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÅ~1.5ÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+ÅüÅ@Åü
+Å@ÅûÅ@
+ÅüÅ@Åü
+ */
+
+
+// óÛâŒ: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÅ~1.5ÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+ÅüÅüÅûÅüÅü
+ */
+
+
+// óÛóã: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÅ~1.5ÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+Åü
+Åü
+Åû
+Åü
+Åü
+ */
+
+
+// óÛïó: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÅ~1.5ÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+Å@ÅüÅ@
+ ÅüÅûÅü
+Å@ÅüÅ@
+ */
+
+// îöåı: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAçLÇ¢ì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+   Åü
+Å@ÅüÅ@ÅüÅ@
+ Åü Åû Åü
+Å@ÅüÅ@ÅüÅ@
+   Åü
+ */
+
+
+// îöâŒ: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAçLÇ¢ì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+Å@ÅüÅ@ÅüÅ@
+ ÅüÅüÅûÅüÅü
+Å@ÅüÅ@ÅüÅ@
+ */
+
+// îöóã: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAçLÇ¢ì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+Å@ÅüÅ@
+Å@ÅüÅ@
+Å@ÅüÅ@
+ ÅüÅûÅü
+Å@ÅüÅ@
+Å@ÅüÅ@
+Å@ÅüÅ@
+ */
+
+// îöïó: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨ëOÅAçLÇ¢ì¡íËîÕàÕÇÃìGÇ…Åié©ï™ÇÃçUåÇ-ìGÇÃéÁîıorñÇñhÅjÇÃÉ_ÉÅÅ[ÉW
+/*
+ * îÕàÕ:
+ÅüÅüÅü
+ÅüÅûÅü
+ÅüÅüÅü
+ */
+
+/*
+ * É_ÉÅÅ[ÉWåyå∏ånÇÃâúã`ÉXÉLÉã
+ */
+
+// è¨èÇ: ìGÇÃ1ãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏
+int specialSkillBucklerCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gBattleStats.range == 1;
+}
+
+void specialSkillBucklerEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 1 - 0.3;
+    if(gBattleStats.damage == 0)
+        attacker->nonZeroDamage = 0;
+}
+
+// í∑èÇ: ìGÇÃ1ãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏
+int specialSkillEscutcheonCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gBattleStats.range == 1;
+}
+
+void specialSkillEscutcheonEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 1 - 0.3;
+    if(gBattleStats.damage == 0)
+        attacker->nonZeroDamage = 0;
+}
+
+// ëÂèÇ: ìGÇÃ1ãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ50%åyå∏
+int specialSkillPaviseCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gBattleStats.range == 1;
+}
+
+void specialSkillPaviseEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 1 - 0.5;
+    if(gBattleStats.damage == 0)
+        attacker->nonZeroDamage = 0;
+}
+
+// êπàﬂ: ìGÇÃâìãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏
+int specialSkillHolyVestmentsCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gBattleStats.range > 1;
+}
+
+void specialSkillHolyVestmentsEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 1 - 0.3;
+    if(gBattleStats.damage == 0)
+        attacker->nonZeroDamage = 0;
+}
+
+// êπäï: ìGÇÃâìãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏
+int specialSkillSacredCowlsCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gBattleStats.range > 1;
+}
+
+void specialSkillSacredCowlsEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 1 - 0.3;
+    if(gBattleStats.damage == 0)
+        attacker->nonZeroDamage = 0;
+}
+
+// êπèÇ: ìGÇÃâìãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ50%åyå∏
+int specialSkillAegisCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gBattleStats.range > 1;
+}
+
+void specialSkillAegisEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage *= 1 - 0.5;
+    if(gBattleStats.damage == 0)
+        attacker->nonZeroDamage = 0;
+}
+
+// ïXÇÃêπãæ: ìGÇÃâìãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏Å@âúã`î≠ìÆÇ≈åyå∏ÇµÇΩílÇÅAìGÇ…îΩéÀ
+int specialSkillIceMirrorCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gBattleStats.range > 1;
+}
+
+void specialSkillIceMirrorEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damageReduced = gBattleStats.damage * 0.3;
+
+    gBattleStats.damage -= damageReduced;
+    if(attacker->unit.hp < damageReduced)
+        attacker->unit.hp = 0;
+    else
+        attacker->unit.hp -= damageReduced;
+
+    if(damageReduced)
+        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_DEVIL;
+
+    if(gBattleStats.damage == 0)
+        attacker->nonZeroDamage = 0;
+}
+
+/*
+ * ì¡éÍånÇÃâúã`ÉXÉLÉã
+ */
+
+// éæïóêvóã: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨å„ÅAé©ï™ÇçsìÆâ¬î\Ç…Ç∑ÇÈ
+void specialSkillGaleforceEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    attacker->unit.state &= ~UNIT_STATE_HAS_MOVED;
+    //TODO: ensure only once per turn
+}
+
+// ÉmÉîÉ@ÇÃêπêÌém: é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨å„ÅAé©ï™ÇçsìÆâ¬î\Ç…Ç∑ÇÈ(1É^Å[ÉìÇ…1âÒÇÃÇ›)
+//Ç±ÇÃâúã`î≠ìÆéûÅAé©ï™Ç∆É_ÉuÉãëäéËÇ…à⁄ìÆÇç≈ëÂ1É}ÉXÇ…êßå¿Ç∑ÇÈèÛë‘àŸèÌÇïtó^ÅiéüâÒçsìÆèIóπÇ‹Ç≈Åj
+void specialSkillNjorunZealEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    attacker->unit.state &= ~UNIT_STATE_HAS_MOVED;
+    //TODO: ensure only once per turn
+
+    //TODO: movement limited state
+}
+
+// ãFÇË: é©ï™ÇÃHPÇ™2à»è„Ç≈ìGÇÃívéÄçUåÇÇéÛÇØÇΩéûÅAÉ_ÉÅÅ[ÉWÇHPÇ™1écÇÈÇÊÇ§Ç…åyå∏
+int specialSkillMiracleCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return defender->unit.hp - gBattleStats.damage <= 0 && defender->unit.hp > 1;
+}
+
+void specialSkillMiracleEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    gBattleStats.damage = defender->unit.hp - 1;
+}
+
+/*
+ * èÒëïîıånÇÃâúã`ÉXÉLÉã
+ */
+
+// é°ñ¸: âÒïúÇÃèÒégópéûÅAâÒïúå¯â +10
+void specialSkillImbueEffect(struct Unit* unit, int *healAmount)
+{
+    *healAmount += 10;
+}
+
+void fixedAmountHeal(struct Unit* unit, int *healAmount)
+{
+    unit->hp += *healAmount;
+    if(unit->hp > unit->maxHp)
+        unit->hp = unit->maxHp;
+}
+
+void healAllCompanions(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSide(fixedAmountHeal, healAmount, unit->side);
+}
+
+// ìVè∆: âÒïúÇÃèÒégópéûÅAé©ï™ÇèúÇ≠ëSñ°ï˚Ç10âÒïúÇ∑ÇÈ
+void specialSkillHeavenlyLightEffect(struct Unit* unit, int *healAmount)
+{
+    int healAmountForAllCompanions = 10;
+
+    healAllCompanions(unit, &healAmountForAllCompanions);
+
+    //TODO: better implementation to exclude self
+    if(unit->hp < 10)
+        unit->hp = 0;
+    else
+        unit->hp -= 10;
 }
 
 const struct SpecialSkill specialSkills[] = {
@@ -63,7 +1234,7 @@ const struct SpecialSkill specialSkills[] = {
             0,
             0,
             0,
-            0
+            specialSkillImbueEffect
             },
         {
             "âeåé",
@@ -72,7 +1243,7 @@ const struct SpecialSkill specialSkills[] = {
             "Treats foe's Def/Res as if reduced by 30% during combat.",
             3,
                 0,
-                0,
+                specialSkillNewMoonEffect,
                 0,
                 0,
                 0,
@@ -85,7 +1256,7 @@ const struct SpecialSkill specialSkills[] = {
             "Restores HP = 30% of damage dealt.",
             3,
                 0,
-                0,
+                specialSkillDaylightEffect,
                 0,
                 0,
                 0,
@@ -98,7 +1269,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage dealt by 50%.",
             3,
                 0,
-                0,
+                specialSkillNightSkyEffect,
                 0,
                 0,
                 0,
@@ -111,7 +1282,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 30% of damage dealt to unit.",
             3,
                 0,
-                0,
+                specialSkillRetributionEffect,
                 0,
                 0,
                 0,
@@ -124,7 +1295,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 30% of unit's Atk.",
             4,
                 0,
-                0,
+                specialSkillDragonGazeEffect,
                 0,
                 0,
                 0,
@@ -137,7 +1308,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 50% of unit's Def.",
             4,
                 0,
-                0,
+                specialSkillGlowingEmberEffect,
                 0,
                 0,
                 0,
@@ -150,7 +1321,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 50% of unit's Res.",
             4,
                 0,
-                0,
+                specialSkillChillingWindEffect,
                 0,
                 0,
                 0,
@@ -162,22 +1333,22 @@ const struct SpecialSkill specialSkills[] = {
             "Buckler",
             "Reduces damage from an adjacent foe's attack by 30%.",
             3,
+                specialSkillBucklerCondition,
                 0,
-                0,
-                0,
+                specialSkillBucklerEffect,
                 0,
                 0,
                 0
         },
         {
             "êπàﬂ",
-            "ìGÇÃ2ãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏",
+            "ìGÇÃâìãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏",
             "Holy Vestments",
             "If foe's Range = 2, reduces damage from that foe's attack by 30%.",
             3,
+                specialSkillHolyVestmentsCondition,
                 0,
-                0,
-                0,
+                specialSkillHolyVestmentsEffect,
                 0,
                 0,
                 0
@@ -245,7 +1416,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillHeavenlyLightEffect
         },
         {
             "ã∆âŒÇÃèjïü",
@@ -306,7 +1477,7 @@ const struct SpecialSkill specialSkills[] = {
             "Restores HP = 30% of damage dealt.",
             2,
                 0,
-                0,
+                specialSkillNoontimeEffect,
                 0,
                 0,
                 0,
@@ -332,7 +1503,7 @@ const struct SpecialSkill specialSkills[] = {
             "Treats foe's Def/Res as if reduced by 30% during combat.",
             2,
                 0,
-                0,
+                specialSkillMoonbowEffect,
                 0,
                 0,
                 0,
@@ -358,7 +1529,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage dealt by 50%.",
             2,
                 0,
-                0,
+                specialSkillGlimmerEffect,
                 0,
                 0,
                 0,
@@ -384,7 +1555,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 30% of damage dealt to unit.",
             2,
                 0,
-                0,
+                specialSkillReprisalEffect,
                 0,
                 0,
                 0,
@@ -397,7 +1568,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 50% of damage dealt to unit.",
             3,
                 0,
-                0,
+                specialSkillVengeanceEffect,
                 0,
                 0,
                 0,
@@ -410,7 +1581,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 30% of unit's Atk.",
             3,
                 0,
-                0,
+                specialSkillDraconicAuraEffect,
                 0,
                 0,
                 0,
@@ -423,7 +1594,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 50% of unit's Atk.",
             4,
                 0,
-                0,
+                specialSkillDraconicFangEffect,
                 0,
                 0,
                 0,
@@ -436,7 +1607,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 50% of unit's Def.",
             3,
                 0,
-                0,
+                specialSkillBonfireEffect,
                 0,
                 0,
                 0,
@@ -449,7 +1620,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 80% of unit's Def.",
             4,
                 0,
-                0,
+                specialSkillIgnisEffect,
                 0,
                 0,
                 0,
@@ -462,7 +1633,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 50% of unit's Res.",
             3,
                 0,
-                0,
+                specialSkillIcebergEffect,
                 0,
                 0,
                 0,
@@ -475,7 +1646,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 80% of unit's Res.",
             4,
                 0,
-                0,
+                specialSkillGlaciesEffect,
                 0,
                 0,
                 0,
@@ -487,9 +1658,9 @@ const struct SpecialSkill specialSkills[] = {
             "Escutcheon",
             "Reduces damage from an adjacent foe's attack by 30%.",
             2,
+                specialSkillEscutcheonCondition,
                 0,
-                0,
-                0,
+                specialSkillEscutcheonEffect,
                 0,
                 0,
                 0
@@ -500,35 +1671,35 @@ const struct SpecialSkill specialSkills[] = {
             "Pavise",
             "Reduces damage from an adjacent foe's attack by 50%.",
             3,
+                specialSkillPaviseCondition,
                 0,
-                0,
-                0,
+                specialSkillPaviseEffect,
                 0,
                 0,
                 0
         },
         {
             "êπäï",
-            "ìGÇÃ2ãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏",
+            "ìGÇÃâìãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏",
             "Sacred Cowl",
             "If foe's Range = 2, reduces damage from that foe's attack by 30%.",
             2,
+                specialSkillSacredCowlsCondition,
                 0,
-                0,
-                0,
+                specialSkillSacredCowlsEffect,
                 0,
                 0,
                 0
         },
         {
             "êπèÇ",
-            "ìGÇÃ2ãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ50%åyå∏",
+            "ìGÇÃâìãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ50%åyå∏",
             "Aegis",
             "If foe's Range = 2, reduces damage from that foe's attack by 50%.",
             3,
+                specialSkillAegisCondition,
                 0,
-                0,
-                0,
+                specialSkillAegisEffect,
                 0,
                 0,
                 0
@@ -539,9 +1710,9 @@ const struct SpecialSkill specialSkills[] = {
             "Miracle",
             "If unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP.",
             5,
+                specialSkillMiracleCondition,
                 0,
-                0,
-                0,
+                specialSkillMiracleEffect,
                 0,
                 0,
                 0
@@ -762,7 +1933,7 @@ const struct SpecialSkill specialSkills[] = {
             "Restores HP = half of damage dealt.",
             5,
                 0,
-                0,
+                specialSkillAetherEffect,
                 0,
                 0,
                 0,
@@ -779,7 +1950,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0,
+                specialSkillGaleforceEffect,
                 0
         },
         {
@@ -790,7 +1961,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 20% of foe's Atk. If in combat against a dragon foe or beast foe, boosts damage by 40% instead of 20%.",
             2,
                 0,
-                0,
+                specialSkillRupturedSkyEffect,
                 0,
                 0,
                 0,
@@ -804,7 +1975,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 10. If unit is adjacent to an ally, boosts damage by 25 instead.\t",
             3,
                 0,
-                0,
+                specialSkillBlueFlameEffect,
                 0,
                 0,
                 0,
@@ -817,7 +1988,7 @@ const struct SpecialSkill specialSkills[] = {
             "Treats foe's Def/Res as if reduced by 80% during combat.",
             3,
                 0,
-                0,
+                specialSkillBlackLunaEffect,
                 0,
                 0,
                 0,
@@ -830,7 +2001,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 40% of unit's Spd.",
             2,
                 0,
-                0,
+                specialSkillRegnalAstraEffect,
                 0,
                 0,
                 0,
@@ -843,7 +2014,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 40% of unit's Spd.",
             2,
                 0,
-                0,
+                specialSkillImperialAstraEffect,
                 0,
                 0,
                 0,
@@ -851,15 +2022,14 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ïXÇÃêπãæ",
-            "ìGÇÃ2ãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏\n"
-            "âúã`î≠ìÆÇ≈åyå∏ÇµÇΩílÇÅAé©êgÇÃéüÇÃçUåÇÇÃÉ_ÉÅÅ[ÉWÇ…+\n"
-            "(ÇªÇÃêÌì¨íÜÇÃÇ›ÅBåyå∏ílÇÕÉXÉLÉãÇ…ÇÊÇÈåyå∏å¯â Çä‹Çﬁ)",
+            "ìGÇÃâìãóó£çUåÇÇÃÉ_ÉÅÅ[ÉWÇ30%åyå∏\n"
+            "âúã`î≠ìÆÇ≈åyå∏ÇµÇΩílÇÅAìGÇ…îΩéÀ",
             "Ice Mirror",
             "If foe's Range = 2, reduces damage from foe's attacks by 30%. Boosts unit's next attack by total damage reduced (by any source, including other skills) when Special triggers. Resets at end of combat.",
             2,
+                specialSkillIceMirrorCondition,
                 0,
-                0,
-                0,
+                specialSkillIceMirrorEffect,
                 0,
                 0,
                 0
@@ -872,7 +2042,7 @@ const struct SpecialSkill specialSkills[] = {
             "Restores HP = 50% of damage dealt.",
             4,
                 0,
-                0,
+                specialSkillRadientAetherEffect,
                 0,
                 0,
                 0,
@@ -888,7 +2058,7 @@ const struct SpecialSkill specialSkills[] = {
             "Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
             2,
                 0,
-                0,
+                specialSkillFireEmblemEffect,
                 0,
                 0,
                 0,
@@ -902,7 +2072,7 @@ const struct SpecialSkill specialSkills[] = {
             "Treats foeÅfs Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd.",
             2,
                 0,
-                0,
+                specialSkillLunarFlashEffect,
                 0,
                 0,
                 0,
@@ -916,7 +2086,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 30% of unit's Spd. Restores HP = 30% of damage dealt.",
             2,
                 0,
-                0,
+                specialSkillSiriusEffect,
                 0,
                 0,
                 0,
@@ -933,7 +2103,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0,
+                specialSkillNjorunZealEffect,
                 0
         },
         {
@@ -944,7 +2114,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 40% of unit's Res. Disables non-Special skills that \"reduce damage by X%.\"",
             2,
                 0,
-                0,
+                specialSkillTwinBladesEffect,
                 0,
                 0,
                 0,
@@ -958,7 +2128,7 @@ const struct SpecialSkill specialSkills[] = {
             "Boosts damage by 50% of unit's Def. Restores HP = 25% of damage dealt.",
             3,
                 0,
-                0,
+                specialSkillOpenFutureEffect,
                 0,
                 0,
                 0,

@@ -77,6 +77,22 @@ struct BattleUnit {
     /* 7F */ /* pad */
 };
 
+enum {
+    ITYPE_SWORD = 0,
+    ITYPE_LANCE = 1,
+    ITYPE_AXE   = 2,
+    ITYPE_BOW   = 3,
+    ITYPE_STAFF = 4,
+    ITYPE_ANIMA = 5,
+    ITYPE_LIGHT = 6,
+    ITYPE_DARK  = 7,
+    ITYPE_BLLST = 8,
+    ITYPE_ITEM  = 9,
+    ITYPE_DRAGN = 10,
+
+    ITYPE_12    = 12,
+};
+
 struct BattleStats {
     /* 00 */ unsigned short config;
 
@@ -296,5 +312,8 @@ void RefreshUnitsOnBmMap();
 void RefreshMinesOnBmMap();
 
 #define SPECIAL_SKILL_CD_MAX 9
+
+#define ABS(aValue) ((aValue) >= 0 ? (aValue) : -(aValue))
+#define RECT_DISTANCE(aXA, aYA, aXB, aYB) (ABS((aXA) - (aXB)) + ABS((aYA) - (aYB)))
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

@@ -19,6 +19,11 @@ BG1MapAddr = 0x2024C64;
 BG2MapAddr = 0x2024C68;
 BG3MapAddr = 0x2024C6C;
 
+playerUnits = 0x202BD4C;
+enemyUnits = 0x202BD4C + 0x48 * 62;
+NPCUnits = 0x202BD4C + 0x48 * (62 + 50);
+P4Units = 0x202BD4C + 0x48 * (62 + 50 + 20);
+
 gBmMapUnit = 0x202e3d8;
 gBmMapFog = 0x202e3e8;
 gBmMapHidden = 0x202e3ec;
