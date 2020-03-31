@@ -11,4 +11,4 @@
 . = 0x8081824;
 .rodata.pStatScreenPageNameOAM : {*(.rodata.pStatScreenPageNameOAM)}
 .rodata.pStatScreenPageNameChrOffsetLut : {*(.rodata.pStatScreenPageNameChrOffsetLut)}
-/*.rodata.ptatScreenPageNamePalGroup : {*(.rodata.ptatScreenPageNamePalGroup)}*/
+.rodata.ptatScreenPageNamePalGroup : {*(.rodata.ptatScreenPageNamePalGroup)}
