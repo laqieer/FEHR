@@ -316,4 +316,10 @@ void RefreshMinesOnBmMap();
 #define ABS(aValue) ((aValue) >= 0 ? (aValue) : -(aValue))
 #define RECT_DISTANCE(aXA, aYA, aXB, aYB) (ABS((aXA) - (aXB)) + ABS((aYA) - (aYB)))
 
+/*
+ * stat screen related
+ */
+
+
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

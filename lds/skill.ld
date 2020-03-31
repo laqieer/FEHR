@@ -4,3 +4,11 @@
 .text.GetUnitItemHealAmountInjector : {*(.text.GetUnitItemHealAmountInjector)}
 /*. = 0x8019ea4;
 .text.RefreshEntityBmMapsInjector : {*(.text.RefreshEntityBmMapsInjector)}*/
+. = 0x8081f18;
+.rodata.statScreenPageMax : {*(.rodata.statScreenPageMax)}
+. = 0x841cd9c;
+.rodata.pDisplayPage3 : {*(.rodata.pDisplayPage3)}
+. = 0x8081824;
+.rodata.pStatScreenPageNameOAM : {*(.rodata.pStatScreenPageNameOAM)}
+.rodata.pStatScreenPageNameChrOffsetLut : {*(.rodata.pStatScreenPageNameChrOffsetLut)}
+/*.rodata.ptatScreenPageNamePalGroup : {*(.rodata.ptatScreenPageNamePalGroup)}*/
