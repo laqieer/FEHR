@@ -5,4 +5,7 @@ if [ -z "$DEVKITPRO" ] || [ -z "$DEVKITARM" ]; then
     exit 1
 fi
 
+rm -rf build/*
+rm -rf src/res/gfx/*
+
 cmake -B build . -DCMAKE_TOOLCHAIN_FILE=toolchain-gcc.cmake "$@"
