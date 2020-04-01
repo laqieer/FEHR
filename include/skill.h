@@ -318,6 +318,9 @@ void RefreshMinesOnBmMap();
 
 void CpuFastSet(const void *source, void *dest, u32 mode);
 
+void writeTiles(const u8 *src, u8 *dst);
+void writeTSA(u16 *TSABuffer, u16 *TSA, int BGTileAndPaletteIDBase);
+
 /*
  * stat screen related
  */

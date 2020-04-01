@@ -2633,6 +2633,10 @@ void DisplayPage3()
     CpuFastSet(&zero, 0x6015e80, 96 | FILL);
     CpuFastSet(stat_screen_page_name_skillTiles, 0x6015b00, stat_screen_page_name_skillTilesLen/8);
     CpuFastSet(&stat_screen_page_name_skillTiles[32], 0x6015f00, stat_screen_page_name_skillTilesLen/8);
+
+    // draw the same UI frame as the 2nd page on layer BG1
+    writeTiles(0x8403560, 0x02020140);
+    writeTSA(0x200373c, 0x2020140, 0x1000);
 }
 
 const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Display
