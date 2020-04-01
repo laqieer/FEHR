@@ -316,6 +316,8 @@ void RefreshMinesOnBmMap();
 #define ABS(aValue) ((aValue) >= 0 ? (aValue) : -(aValue))
 #define RECT_DISTANCE(aXA, aYA, aXB, aYB) (ABS((aXA) - (aXB)) + ABS((aYA) - (aYB)))
 
+void CpuFastSet(const void *source, void *dest, u32 mode);
+
 /*
  * stat screen related
  */

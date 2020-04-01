@@ -103,3 +103,6 @@ venv/
 !res/voice/Makefile
 !res/voice/lib/
 !res/voice/include/
+
+# gbagfx's Makefile
+!tool/gbagfx/Makefile

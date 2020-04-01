@@ -2,11 +2,15 @@
 // Created by laqieer on 2020/3/27.
 //
 
+#include <gba_base.h>
+
 #include "skill.h"
 #include "skill_id.h"
 #include "character_id.h"
 #include "job_id.h"
 #include "item_id.h"
+#include "portrait.h"
+#include "stat_screen_page_name_skill.h"
 #include "gba_debug_print.h"
 
 /*
@@ -2622,7 +2626,13 @@ enum
 
 void DisplayPage3()
 {
-    ;
+    int zero = 0;
+
+    // write tiles for page name "Skill"
+    CpuFastSet(&zero, 0x6015a80, 96 | FILL);
+    CpuFastSet(&zero, 0x6015e80, 96 | FILL);
+    CpuFastSet(stat_screen_page_name_skillTiles, 0x6015b00, stat_screen_page_name_skillTilesLen/8);
+    CpuFastSet(&stat_screen_page_name_skillTiles[32], 0x6015f00, stat_screen_page_name_skillTilesLen/8);
 }
 
 const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Display
@@ -2644,7 +2654,7 @@ const u16 statScreenPageNameChrOffsetLut[] =
     20, // page 0
     8, // page 1
     84, // page 2
-    8, // page 3
+    148, // page 3
     0,
 };
 
