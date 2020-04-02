@@ -311,20 +311,31 @@ void RefreshTorchLightsOnBmMap();
 void RefreshUnitsOnBmMap();
 void RefreshMinesOnBmMap();
 
-#define SPECIAL_SKILL_CD_MAX 9
+#define SPECIAL_SKILL_CD_MAX 6
 
 #define ABS(aValue) ((aValue) >= 0 ? (aValue) : -(aValue))
 #define RECT_DISTANCE(aXA, aYA, aXB, aYB) (ABS((aXA) - (aXB)) + ABS((aYA) - (aYB)))
 
 void CpuFastSet(const void *source, void *dest, u32 mode);
 
-void writeTiles(const u8 *src, u8 *dst);
-void writeTSA(u16 *TSABuffer, u16 *TSA, int BGTileAndPaletteIDBase);
-
 /*
  * stat screen related
  */
 
+void writeTiles(const u8 *src, u8 *dst);
+void writeTSA(u16 *TSABuffer, u16 *TSA, int BGTileAndPaletteIDBase);
 
+#define BWLTextHandle (struct TextHandle *)0x2003234
+
+#define TILEMAP_INDEX(aX, aY) (0x20 * (aY) + (aX))
+#define TILEREF(aChar, aPal) ((aChar) + ((aPal) << 12))
+
+void DrawStatWithBar(int num, int x, int y, int base, int total, int max);
+void DrawStatWithVariableLengthBar(int num, int x, int y, int base, int total, int max, int zoom);
+void DrawStatBar(int arg0, int arg1, u16* tilemap, int arg3, int arg4, int arg5, int arg6);
+
+extern struct Unit *pCurrentUnitInStatusScreen;
+extern u16 gBmFrameTmap0[]; // bg0 tilemap buffer for stat screen page
+extern u16 gBmFrameTmap1[]; // bg2 tilemap buffer for stat screen page
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

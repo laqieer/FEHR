@@ -1,6 +1,8 @@
 ENTRY(_start)
 
 pCurrentUnitInStatusScreen = 0x2003118;
+gBmFrameTmap0 = 0x200323c;
+gBmFrameTmap1 = 0x2003c3c;
 
 currentBGMSongId = 0x2024E14;
 DAT_0202bbb8 = 0x202bbb8;
@@ -68,8 +70,13 @@ func800376C = 0x800376D;
 changeBGMSong = 0x800394D;
 decompressText = 0x8004241;
 func80045FC = 0x80045FD;
+Text_Clear = 0x80053b1;
+Text_Draw = 0x8005461;
 getStringTextWidth = 0x80054CD;
 getCharTextWidth = 0x8005529;
+Text_InsertString = 0x080059dd;
+DrawDecNumber = 0x8006075;
+DrawStatScreenBonusNumber = 0x80060d1;
 fixHighPortrait = 0x80070AD;
 playEyeAnimationOrig = 0x80075F1;
 playMouthAnimationOrig = 0x800749D;
@@ -91,6 +98,8 @@ BattleGenerateHitEffects = 0x802984d;
 HandleActiveUnitDeath = 0x802ff61;
 AnimEvtCode7Handler = 0x80544ef;
 isAnimationAtRight = 0x8054E61;
+DrawStatBar = 0x8080601;
+DrawStatWithBar = 0x8080a95;
 drawStatPageWithPortrait = 0x8081ef9;
 showTitleScreenOBJ = 0x80baf35;
 m4aSongNumStart = 0x80bf0d9;

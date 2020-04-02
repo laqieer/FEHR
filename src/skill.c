@@ -11,6 +11,7 @@
 #include "item_id.h"
 #include "portrait.h"
 #include "stat_screen_page_name_skill.h"
+#include "fontgrp.h"
 #include "gba_debug_print.h"
 
 /*
@@ -2624,6 +2625,63 @@ enum
     STATSCREEN_TEXT_MAX
 };
 
+enum
+{
+    // BG palette allocation
+    STATSCREEN_BGPAL_HALO = 1,
+    STATSCREEN_BGPAL_2 = 2,
+    STATSCREEN_BGPAL_3 = 3,
+    STATSCREEN_BGPAL_ITEMICONS = 4,
+    STATSCREEN_BGPAL_EXTICONS = 5,
+    STATSCREEN_BGPAL_6 = 6,
+    STATSCREEN_BGPAL_7 = 7,
+    STATSCREEN_BGPAL_FACE = 11,
+    STATSCREEN_BGPAL_BACKGROUND = 12, // 4 palettes
+
+    // OBJ palette allocation
+    STATSCREEN_OBJPAL_4 = 4,
+};
+
+void DrawStatWithVariableLengthBar(int num, int x, int y, int base, int total, int max, int zoom)
+{
+    int diff = total - base;
+
+    DrawDecNumber(gBmFrameTmap0 + TILEMAP_INDEX(x, y),
+                  (base == max) ? TEXT_COLOR_GREEN : TEXT_COLOR_BLUE, base);
+
+    DrawStatScreenBonusNumber(diff, gBmFrameTmap0 + TILEMAP_INDEX(x + 1, y));
+
+    if (total > max)
+    {
+        total = max;
+        diff = total - base;
+    }
+
+    DrawStatBar(0x401 + num * 6, 6,
+                gBmFrameTmap1 + TILEMAP_INDEX(x - 2, y + 1),
+                TILEREF(0, STATSCREEN_BGPAL_6), max * zoom, base * zoom, diff * zoom);
+}
+
+void DrawStatWithFixedLengthBar(int num, int x, int y, int base, int total, int max, int length)
+{
+    int diff = total - base;
+
+    DrawDecNumber(gBmFrameTmap0 + TILEMAP_INDEX(x, y),
+                  (base == max) ? TEXT_COLOR_GREEN : TEXT_COLOR_BLUE, base);
+
+    DrawStatScreenBonusNumber(diff, gBmFrameTmap0 + TILEMAP_INDEX(x + 1, y));
+
+    if (total > length)
+    {
+        total = length;
+        diff = total - base;
+    }
+
+    DrawStatBar(0x401 + num * 6, 6,
+                gBmFrameTmap1 + TILEMAP_INDEX(x - 2, y + 1),
+                TILEREF(0, STATSCREEN_BGPAL_6), max * length / max, base * length / max, diff * length / max);
+}
+
 void DisplayPage3()
 {
     int zero = 0;
@@ -2635,8 +2693,16 @@ void DisplayPage3()
     CpuFastSet(&stat_screen_page_name_skillTiles[32], 0x6015f00, stat_screen_page_name_skillTilesLen/8);
 
     // draw the same UI frame as the 2nd page on layer BG1
-    writeTiles(0x8403560, 0x02020140);
+    writeTiles(0x8403560, 0x2020140);
     writeTSA(0x200373c, 0x2020140, 0x1000);
+
+    // display special skill CD
+    Text_Clear(BWLTextHandle);
+    Text_InsertString(BWLTextHandle, 0, TEXT_COLOR_GOLD, "ƒJƒEƒ“ƒg");
+    Text_Draw(BWLTextHandle, 0x20035c2 - TILEMAP_INDEX(1, 24));
+    DrawStatWithVariableLengthBar(8, 8, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
+    //DrawStatWithFixedLengthBar(8, 8, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 42);
+
 }
 
 const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Display
@@ -2676,7 +2742,7 @@ const u8 statScreenPageNamePalGroup[] =
         0xFF, 0x7F, 0x7B, 0x6F, 0xD6, 0x5A, 0x52, 0x4A, 0xCE, 0x39, 0x6B, 0x2D, 0xE7, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x10, 0x6B, 0x2D, 0xAD, 0x35, 0x10, 0x42, 0xB5, 0x56, 0x39, 0x67, 0xFF, 0x7F, // page 3 palette 1
 };
 
-const u8 * const ptatScreenPageNamePalGroup = statScreenPageNamePalGroup; // function: DisplayPageNameSprite
+const u8 * const pStatScreenPageNamePalGroup = statScreenPageNamePalGroup; // function: DisplayPageNameSprite
 
 //TODO: 4th page's help box
 
