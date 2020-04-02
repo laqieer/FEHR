@@ -11,7 +11,6 @@
 #include "item_id.h"
 #include "portrait.h"
 #include "stat_screen_page_name_skill.h"
-#include "fontgrp.h"
 #include "gba_debug_print.h"
 
 /*
@@ -1227,7 +1226,7 @@ void specialSkillHeavenlyLightEffect(struct Unit* unit, int *healAmount)
 }
 
 const struct SpecialSkill specialSkills[] = {
-        {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+        {"奥義スキル", "奥義スキルを持っていない", "Special Skill", "No special skill", 0, 0, 0, 0, 0, 0, 0},
         {
             "治癒",
             "回復の杖使用時、回復効果+10",
@@ -2565,83 +2564,6 @@ void RefreshEntityBmMapsInjector()
  * Display special skill in unit profile (4th page in stat screen).
  */
 
-enum
-{
-    STATSCREEN_PAGE_0,
-    STATSCREEN_PAGE_1,
-    STATSCREEN_PAGE_2,
-    STATSCREEN_PAGE_3,
-
-    STATSCREEN_PAGE_MAX,
-};
-
-enum
-{
-    // Enumerate stat screen texts
-
-    STATSCREEN_TEXT_CHARANAME, // 0
-    STATSCREEN_TEXT_CLASSNAME, // 1
-
-    STATSCREEN_TEXT_UNUSUED, // 2 (was Exp?)
-
-    STATSCREEN_TEXT_POWLABEL, // 3
-    STATSCREEN_TEXT_SKLLABEL, // 4
-    STATSCREEN_TEXT_SPDLABEL, // 5
-    STATSCREEN_TEXT_LCKLABEL, // 6
-    STATSCREEN_TEXT_DEFLABEL, // 7
-    STATSCREEN_TEXT_RESLABEL, // 8
-    STATSCREEN_TEXT_MOVLABEL, // 9
-    STATSCREEN_TEXT_CONLABEL, // 10
-    STATSCREEN_TEXT_AIDLABEL, // 11
-    STATSCREEN_TEXT_RESCUENAME, // 12
-    STATSCREEN_TEXT_AFFINLABEL, // 13
-    STATSCREEN_TEXT_STATUS, // 14
-
-    STATSCREEN_TEXT_ITEM0, // 15
-    STATSCREEN_TEXT_ITEM1, // 16
-    STATSCREEN_TEXT_ITEM2, // 17
-    STATSCREEN_TEXT_ITEM3, // 18
-    STATSCREEN_TEXT_ITEM4, // 19
-
-    STATSCREEN_TEXT_BSRANGE, // 20
-    STATSCREEN_TEXT_BSATKLABEL, // 21
-    STATSCREEN_TEXT_BSHITLABEL, // 22
-    STATSCREEN_TEXT_BSCRTLABEL, // 23
-    STATSCREEN_TEXT_BSAVOLABEL, // 24
-
-    STATSCREEN_TEXT_WEXP0, // 25
-    STATSCREEN_TEXT_WEXP1, // 26
-    STATSCREEN_TEXT_WEXP2, // 27
-    STATSCREEN_TEXT_WEXP3, // 28
-
-    STATSCREEN_TEXT_SUPPORT0, // 29
-    STATSCREEN_TEXT_SUPPORT1, // 30
-    STATSCREEN_TEXT_SUPPORT2, // 31
-    STATSCREEN_TEXT_SUPPORT3, // 32
-    STATSCREEN_TEXT_SUPPORT4, // 33
-
-    STATSCREEN_TEXT_BWL, // 34
-
-    STATSCREEN_TEXT_MAX
-};
-
-enum
-{
-    // BG palette allocation
-    STATSCREEN_BGPAL_HALO = 1,
-    STATSCREEN_BGPAL_2 = 2,
-    STATSCREEN_BGPAL_3 = 3,
-    STATSCREEN_BGPAL_ITEMICONS = 4,
-    STATSCREEN_BGPAL_EXTICONS = 5,
-    STATSCREEN_BGPAL_6 = 6,
-    STATSCREEN_BGPAL_7 = 7,
-    STATSCREEN_BGPAL_FACE = 11,
-    STATSCREEN_BGPAL_BACKGROUND = 12, // 4 palettes
-
-    // OBJ palette allocation
-    STATSCREEN_OBJPAL_4 = 4,
-};
-
 void DrawStatWithVariableLengthBar(int num, int x, int y, int base, int total, int max, int zoom)
 {
     int diff = total - base;
@@ -2685,6 +2607,7 @@ void DrawStatWithFixedLengthBar(int num, int x, int y, int base, int total, int 
 void DisplayPage3()
 {
     int zero = 0;
+    int specialSkillNameColor = 0;
 
     // write tiles for page name "Skill"
     CpuFastSet(&zero, 0x6015a80, 96 | FILL);
@@ -2696,12 +2619,20 @@ void DisplayPage3()
     writeTiles(0x8403560, 0x2020140);
     writeTSA(0x200373c, 0x2020140, 0x1000);
 
+    // display special skill name
+//    if(getUnitSpecialSkill(gStatScreen.unit))
+//    {
+        Text_Clear(BWLTextHandle);
+        if(isSkillCDFull(gStatScreen.unit))
+            specialSkillNameColor = TEXT_COLOR_GREEN;
+        Text_InsertString(BWLTextHandle, 0, specialSkillNameColor, specialSkills[getUnitSpecialSkill(gStatScreen.unit)].name);
+        Text_Draw(BWLTextHandle, 0x20035c2 - TILEMAP_INDEX(0, 24));
+//    }
+
     // display special skill CD
-    Text_Clear(BWLTextHandle);
-    Text_InsertString(BWLTextHandle, 0, TEXT_COLOR_GOLD, "カウント");
-    Text_Draw(BWLTextHandle, 0x20035c2 - TILEMAP_INDEX(1, 24));
-    DrawStatWithVariableLengthBar(8, 8, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
-    //DrawStatWithFixedLengthBar(8, 8, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 42);
+    DrawStatWithVariableLengthBar(8, 11, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
+    //DrawStatWithFixedLengthBar(8, 11, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 42);
+
 
 }
 
