@@ -251,6 +251,7 @@ SECTIONS
     INCLUDE ../lds/death_quote.ld
     INCLUDE ../lds/patch_expand_chapter_amount.ld
     INCLUDE ../lds/patch_remove_chapter_12_special_handle_routine.ld
+    INCLUDE ../lds/patch_enable_BWL_display_at_first.ld
 	. = 0xE007400;
 	.data.skill : {*/skill.*(.data.*)}
 	. = 0x9000000;
