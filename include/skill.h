@@ -433,4 +433,8 @@ extern struct Unit *pCurrentUnitInStatusScreen;
 extern u16 gBmFrameTmap0[]; // bg0 tilemap buffer for stat screen page
 extern u16 gBmFrameTmap1[]; // bg2 tilemap buffer for stat screen page
 
+void writeBGPalette(const u16 *palette, int start, int length);
+void DrawIcon(u16* BgOut, int IconIndex, int OamPalBase);
+void EnablePaletteSync();
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

@@ -63,6 +63,7 @@ portraitsOrig = 0x8D5E23C;
 
 agbMain = 0x8000A21;
 setBGMapBufferSyncFlag = 0x8000FD5;
+EnablePaletteSync = 0x8001035;
 writeBGPalette = 0x800105D;
 enableOAMBufferSync = 0x80031BD;
 setOBJAttribute = 0x8003215;
@@ -71,6 +72,7 @@ func800376C = 0x800376D;
 changeBGMSong = 0x800394D;
 decompressText = 0x8004241;
 func80045FC = 0x80045FD;
+DrawIcon = 0x8004d05;
 Text_Clear = 0x80053b1;
 Text_Draw = 0x8005461;
 getStringTextWidth = 0x80054CD;

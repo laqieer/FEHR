@@ -11,6 +11,7 @@
 #include "item_id.h"
 #include "portrait.h"
 #include "stat_screen_page_name_skill.h"
+#include "special_skill_icon.h"
 #include "gba_debug_print.h"
 
 /*
@@ -2633,7 +2634,10 @@ void DisplayPage3()
     DrawStatWithVariableLengthBar(8, 11, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
     //DrawStatWithFixedLengthBar(8, 11, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 42);
 
-
+    // display special skill icon (use bg palatte 8)
+    writeBGPalette(special_skill_iconPal, 32 * 8, 32);
+    //EnablePaletteSync();
+    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 2), 0xAD, 0x8000);
 }
 
 const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Display
