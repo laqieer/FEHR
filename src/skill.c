@@ -9,6 +9,7 @@
 #include "character_id.h"
 #include "job_id.h"
 #include "item_id.h"
+#include "text_id.h"
 #include "portrait.h"
 #include "stat_screen_page_name_skill.h"
 #include "special_skill_icon.h"
@@ -2638,6 +2639,9 @@ void DisplayPage3()
     writeBGPalette(special_skill_iconPal, 32 * 8, 32);
     //EnablePaletteSync();
     DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 2), 0xAD, 0x8000);
+
+    // Help Box Info
+    gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
 }
 
 const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Display
@@ -2679,6 +2683,16 @@ const u8 statScreenPageNamePalGroup[] =
 
 const u8 * const pStatScreenPageNamePalGroup = statScreenPageNamePalGroup; // function: DisplayPageNameSprite
 
-//TODO: 4th page's help box
+// =================
+// = HELP BOX INFO =
+// =================
 
-//function: StartStatScreenHelp
+char *getSpecialSkillDescriptionText()
+{
+    return specialSkills[getUnitSpecialSkill(gStatScreen.unit)].description;
+}
+
+const struct HelpBoxInfo sHelpInfo_Ss3CharacterName = {NULL, &sHelpInfo_Ss3JobName, NULL, &gHelpInfo_Ss3SpecialSkillName, 0x28, 0x50, NULL, NULL, 0x808245d};
+const struct HelpBoxInfo sHelpInfo_Ss3JobName = {&sHelpInfo_Ss3CharacterName, NULL, NULL, &sHelpInfo_Ss3SpecialSkillCD, 6, 0x68, 0x22e, NULL, 0x8082485};
+const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName = {NULL, NULL, &sHelpInfo_Ss3CharacterName, &sHelpInfo_Ss3SpecialSkillCD, 112, 32, TEXT_SPECIAL_SKILL_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD = {NULL, NULL, &gHelpInfo_Ss3SpecialSkillName, NULL, 172, 32, TEXT_SPECIAL_SKILL_CD_HELP, NULL, NULL};

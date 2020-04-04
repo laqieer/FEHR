@@ -18,6 +18,7 @@
 #include "text.h"
 #include "text_id.h"
 #include "portrait_id.h"
+#include "skill.h"
 
 #define TEXT_AUTO_NEW_LINE true
 
@@ -974,6 +975,9 @@ const char* const texts[] = {
                                         "巨竜の骸骨に刺さった細い槍。。。" TCC_NEWLINE
                                         "古いけどまだ使えそう。" TCC_PUSH_A,
 
+        [TEXT_SPECIAL_SKILL_HELP] = "奥義スキル",
+        [TEXT_SPECIAL_SKILL_CD_HELP] = "奥義カウント",
+
 };
 
 extern int lastTextID;
@@ -986,10 +990,12 @@ char *getCharTextWidth(char *str, unsigned int *pWidth);
 
 char *decodeText(int textID)
 {
-    if(textID == lastTextID)
+    if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP)
         return decodedText;
     lastTextID = textID;
     char *p = texts[textID];
+    if(textID == TEXT_SPECIAL_SKILL_HELP)
+        p = getSpecialSkillDescriptionText();
     char *q = decodedText;
     if(textID < sizeof(texts) / 4 && p)
     {

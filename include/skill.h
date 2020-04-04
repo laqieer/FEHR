@@ -437,4 +437,28 @@ void writeBGPalette(const u16 *palette, int start, int length);
 void DrawIcon(u16* BgOut, int IconIndex, int OamPalBase);
 void EnablePaletteSync();
 
+/*
+ * Help box text
+ */
+
+struct HelpBoxInfo
+{
+    /* 00 */ const struct HelpBoxInfo* adjUp;
+    /* 04 */ const struct HelpBoxInfo* adjDown;
+    /* 08 */ const struct HelpBoxInfo* adjLeft;
+    /* 0C */ const struct HelpBoxInfo* adjRight;
+    /* 10 */ u8 xDisplay;
+    /* 11 */ u8 yDisplay;
+    /* 12 */ u16 mid;
+    /* 14 */ void(*redirect)(struct Proc* proc);
+    /* 18 */ void(*populate)(struct Proc* proc);
+};
+
+extern const struct HelpBoxInfo sHelpInfo_Ss3CharacterName;
+extern const struct HelpBoxInfo sHelpInfo_Ss3JobName;
+extern const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName;
+extern const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD;
+
+char *getSpecialSkillDescriptionText();
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
