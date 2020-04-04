@@ -1231,7 +1231,7 @@ const struct SpecialSkill specialSkills[] = {
         {"奥義スキル", "奥義スキルを持っていない", "Special Skill", "No special skill", 0, 0, 0, 0, 0, 0, 0},
         {
             "治癒",
-            "回復の杖使用時、回復効果+10",
+            "回復の杖使用時、回復効果＋１０",
             "Imbue",
             "When healing an ally with a staff, restores an additional 10 HP to target ally.",
             1,
@@ -1244,7 +1244,7 @@ const struct SpecialSkill specialSkills[] = {
             },
         {
             "影月",
-            "敵の守備、魔防-30%扱いで攻撃",
+            "敵の守備、魔防７割扱いで攻撃",
             "New Moon",
             "Treats foe's Def/Res as if reduced by 30% during combat.",
             3,
@@ -1257,7 +1257,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "陽影",
-            "与えたダメージの30%を回復",
+            "与えたダメージの３割を回復",
             "Daylight",
             "Restores HP = 30% of damage dealt.",
             3,
@@ -1270,7 +1270,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "星影",
-            "与えるダメージ1.5倍",
+            "与えるダメージ１。５倍",
             "Night Sky",
             "Boosts damage dealt by 50%.",
             3,
@@ -1283,7 +1283,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "雪辱",
-            "自分の最大HP-現HPの30%を奥義ダメージに加算",
+            "自分の最大ＨＰー現ＨＰの３割を奥義ダメージに加算",
             "Retribution",
             "Boosts damage by 30% of damage dealt to unit.",
             3,
@@ -1296,7 +1296,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "伏竜",
-            "攻撃の30%を奥義ダメージに加算",
+            "攻撃の３割を奥義ダメージに加算",
             "Dragon Gaze",
             "Boosts damage by 30% of unit's Atk.",
             4,
@@ -1309,7 +1309,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "蛍火",
-            "守備の50%を奥義ダメージに加算",
+            "守備の半分を奥義ダメージに加算",
             "Glowing Ember",
             "Boosts damage by 50% of unit's Def.",
             4,
@@ -1322,7 +1322,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "氷点",
-            "魔防の50%を奥義ダメージに加算",
+            "魔防の半分を奥義ダメージに加算",
             "Chilling Wind",
             "Boosts damage by 50% of unit's Res.",
             4,
@@ -1335,7 +1335,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "小盾",
-            "敵の1距離攻撃のダメージを30%軽減",
+            "敵の近距離攻撃のダメージを３割軽減",
             "Buckler",
             "Reduces damage from an adjacent foe's attack by 30%.",
             3,
@@ -1348,7 +1348,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "聖衣",
-            "敵の遠距離攻撃のダメージを30%軽減",
+            "敵の遠距離攻撃のダメージを３割軽減",
             "Holy Vestments",
             "If foe's Range = 2, reduces damage from that foe's attack by 30%.",
             3,
@@ -1361,7 +1361,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "砕火",
-            "自分から攻撃した時、戦闘前、特定範囲の敵に(自分の攻撃-敵の守備or魔防)のダメージ",
+            "自分から攻撃した時、戦闘前、特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）のダメージ",
             "Rising Flame",
             "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
             4,
@@ -1374,7 +1374,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "砕風",
-            "自分から攻撃した時、戦闘前、特定範囲の敵に(自分の攻撃-敵の守備or魔防)のダメージ",
+            "自分から攻撃した時、戦闘前、特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）のダメージ",
             "Rising Wind",
             "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
             4,
@@ -1387,7 +1387,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "砕雷",
-            "自分から攻撃した時、戦闘前、特定範囲の敵に(自分の攻撃-敵の守備or魔防)のダメージ",
+            "自分から攻撃した時、戦闘前、特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）のダメージ",
             "Rising Thunder",
             "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
             4,
@@ -1400,7 +1400,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "砕光",
-            "自分から攻撃した時、戦闘前、特定範囲の敵に(自分の攻撃-敵の守備or魔防)のダメージ",
+            "自分から攻撃した時、戦闘前、特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）のダメージ",
             "Rising Light",
             "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
             4,
@@ -1413,7 +1413,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "天照",
-            "回復の杖使用時、自分と対象を除く全味方を10回復する",
+            "回復の杖使用時、自分と対象を除く全味方を１０回復する",
             "Heavenly Light",
             "When healing an ally with a staff, restores 10 HP to all allies.\t",
             2,
@@ -1426,7 +1426,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "業火の祝福",
-            "回復の杖使用時、自分を除く全味方の攻撃+4(1ターン)",
+            "回復の杖使用時、自分を除く全味方の攻撃＋４（１ターン）",
             "Kindled-Fire Balm",
             "When healing an ally with a staff, grants Atk+4 to all allies for 1 turn.",
             1,
@@ -1439,7 +1439,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "疾風の祝福",
-            "回復の杖使用時、自分を除く全味方の速さ+4(1ターン)",
+            "回復の杖使用時、自分を除く全味方の速さ＋４（1ターン）",
             "Swift-Winds Balm",
             "When healing an ally with a staff, grants Spd+4 to all allies for 1 turn.",
             1,
@@ -1452,7 +1452,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "大地の祝福",
-            "回復の杖使用時、自分を除く全味方の守備+4(1ターン)",
+            "回復の杖使用時、自分を除く全味方の守備＋４（１ターン）",
             "Solid-Earth Balm",
             "When healing an ally with a staff, grants Def+4 to all allies for 1 turn.",
             1,
@@ -1465,7 +1465,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "静水の祝福",
-            "回復の杖使用時、自分を除く全味方の魔防+4(1ターン)",
+            "回復の杖使用時、自分を除く全味方の魔防＋４（１ターン）",
             "Still-Water Balm",
             "When healing an ally with a staff, grants Res+4 to all allies for 1 turn.",
             1,
@@ -1478,7 +1478,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "夕陽",
-            "与えたダメージの30%自分を回復",
+            "与えたダメージの３割自分を回復",
             "Noontime",
             "Restores HP = 30% of damage dealt.",
             2,
@@ -1491,7 +1491,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "太陽",
-            "与えたダメージの50%自分を回復",
+            "与えたダメージの半分自分を回復ＨＰ",
             "Sol",
             "Restores HP = 50% of damage dealt.",
             3,
@@ -1504,7 +1504,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "月虹",
-            "敵の守備、魔防-30%扱いで攻撃",
+            "敵の守備、魔防７割扱いで攻撃",
             "Moonbow",
             "Treats foe's Def/Res as if reduced by 30% during combat.",
             2,
@@ -1517,7 +1517,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "月光",
-            "敵の守備、魔防-50%扱いで攻撃",
+            "敵の守備、魔防半分扱いで攻撃",
             "Luna",
             "Treats foe's Def/Res as if reduced by 50% during combat.",
             3,
@@ -1530,7 +1530,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "凶星",
-            "与えるダメージ1.5倍",
+            "与えるダメージ１。５倍",
             "Glimmer",
             "Boosts damage dealt by 50%.",
             2,
@@ -1543,7 +1543,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "流星",
-            "与えるダメージ2.5倍",
+            "与えるダメージ２。５倍",
             "Astra",
             "Boosts damage dealt by 150%.",
             4,
@@ -1556,7 +1556,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "血讐",
-            "自分の最大HP-現HPの30%を奥義ダメージに加算",
+            "自分の最大ＨＰー現ＨＰの３割を奥義ダメージに加算",
             "Reprisal",
             "Boosts damage by 30% of damage dealt to unit.",
             2,
@@ -1569,7 +1569,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "復讐",
-            "自分の最大HP-現HPの50%を奥義ダメージに加算",
+            "自分の最大ＨＰ-現ＨＰの半分を奥義ダメージに加算",
             "Vengeance",
             "Boosts damage by 50% of damage dealt to unit.",
             3,
@@ -1582,7 +1582,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "竜裂",
-            "攻撃の30%を奥義ダメージに加算",
+            "攻撃の３割を奥義ダメージに加算",
             "Draconic Aura",
             "Boosts damage by 30% of unit's Atk.",
             3,
@@ -1595,7 +1595,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "竜穿",
-            "攻撃の50%を奥義ダメージに加算",
+            "攻撃の半分を奥義ダメージに加算",
             "Dragon Fang",
             "Boosts damage by 50% of unit's Atk.",
             4,
@@ -1608,7 +1608,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "緋炎",
-            "守備の50%を奥義ダメージに加算",
+            "守備の半分を奥義ダメージに加算",
             "Bonfire",
             "Boosts damage by 50% of unit's Def.",
             3,
@@ -1621,7 +1621,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "華炎",
-            "守備の80%を奥義ダメージに加算",
+            "守備の８割を奥義ダメージに加算",
             "Ignis",
             "Boosts damage by 80% of unit's Def.",
             4,
@@ -1634,7 +1634,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "氷蒼",
-            "魔防の50%を奥義ダメージに加算",
+            "魔防の半分を奥義ダメージに加算",
             "Iceberg",
             "Boosts damage by 50% of unit's Res.",
             3,
@@ -1647,7 +1647,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "氷華",
-            "魔防の80%を奥義ダメージに加算",
+            "魔防の８割を奥義ダメージに加算",
             "Glacies",
             "Boosts damage by 80% of unit's Res.",
             4,
@@ -1660,7 +1660,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "長盾",
-            "敵の1距離攻撃のダメージを30%軽減",
+            "敵の近距離攻撃のダメージを３割軽減",
             "Escutcheon",
             "Reduces damage from an adjacent foe's attack by 30%.",
             2,
@@ -1673,7 +1673,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "大盾",
-            "敵の1距離攻撃のダメージを50%軽減",
+            "敵の近距離攻撃のダメージを半分軽減",
             "Pavise",
             "Reduces damage from an adjacent foe's attack by 50%.",
             3,
@@ -1686,7 +1686,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "聖兜",
-            "敵の遠距離攻撃のダメージを30%軽減",
+            "敵の遠距離攻撃のダメージを３割軽減",
             "Sacred Cowl",
             "If foe's Range = 2, reduces damage from that foe's attack by 30%.",
             2,
@@ -1699,7 +1699,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "聖盾",
-            "敵の遠距離攻撃のダメージを50%軽減",
+            "敵の遠距離攻撃のダメージを半分軽減",
             "Aegis",
             "If foe's Range = 2, reduces damage from that foe's attack by 50%.",
             3,
@@ -1712,7 +1712,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "祈り",
-            "自分のHPが2以上で敵の致死攻撃を受けた時、ダメージをHPが1残るように軽減",
+            "自分のＨＰが２以上で敵の致死攻撃を受けた時、ダメージをＨＰが１残るように軽減",
             "Miracle",
             "If unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP.",
             5,
@@ -1725,7 +1725,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "業火疾風の祝福",
-            "回復の杖使用時、自分を除く全味方の攻撃、速さ+4",
+            "回復の杖使用時、自分を除く全味方の攻撃、速さ＋４",
             "Windfire Balm",
             "When healing an ally with a staff, grants Atk/Spd+4 to all allies for 1 turn.",
             1,
@@ -1738,7 +1738,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "業火大地の祝福",
-            "回復の杖使用時、自分を除く全味方の攻撃、守備+4",
+            "回復の杖使用時、自分を除く全味方の攻撃、守備＋４",
             "Earthfire Balm",
             "When healing an ally with a staff, grants Atk/Def+4 to all allies for 1 turn.",
             1,
@@ -1751,7 +1751,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "業火静水の祝福",
-            "回復の杖使用時、自分を除く全味方の攻撃、魔防+4",
+            "回復の杖使用時、自分を除く全味方の攻撃、魔防＋４",
             "Fireflood Balm",
             "When healing an ally with a staff, grants Atk/Res+4 to all allies for 1 turn.",
             1,
@@ -1764,7 +1764,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "大地静水の祝福",
-            "回復の杖使用時、自分を除く全味方の守備、魔防+4",
+            "回復の杖使用時、自分を除く全味方の守備、魔防＋４",
             "Earthwater Balm",
             "When healing an ally with a staff, grants Def/Res+4 to all allies for 1 turn.",
             1,
@@ -1777,7 +1777,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "爆火",
-            "自分から攻撃した時、戦闘前、広い範囲の敵に(自分の攻撃-敵の守備or魔防)のダメージ",
+            "自分から攻撃した時、戦闘前、広い範囲の敵に（自分の攻撃ー敵の守備或は魔防）のダメージ",
             "Growing Flame",
             "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
             4,
@@ -1790,7 +1790,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "烈火",
-            "自分から攻撃した時、戦闘前、特定範囲の敵に(自分の攻撃-敵の守備or魔防)×1.5のダメージ",
+            "自分から攻撃した時、戦闘前、特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）の１。５倍のダメージ",
             "Blazing Flame",
             "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
             4,
@@ -1803,7 +1803,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "爆風",
-            "自分から攻撃した時、戦闘前、広い特定範囲の敵に(自分の攻撃-敵の守備or魔防)のダメージ",
+            "自分から攻撃した時、戦闘前、広い特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）のダメージ",
             "Growing Wind",
             "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
             4,
@@ -1816,7 +1816,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "烈風",
-            "自分から攻撃した時、戦闘前、特定範囲の敵に(自分の攻撃-敵の守備or魔防)×1.5のダメージ",
+            "自分から攻撃した時、戦闘前、特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）の１。５倍のダメージ",
             "Blazing Wind",
             "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
             4,
@@ -1829,7 +1829,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "爆雷",
-            "自分から攻撃した時、戦闘前、広い特定範囲の敵に(自分の攻撃-敵の守備or魔防)のダメージ",
+            "自分から攻撃した時、戦闘前、広い特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）のダメージ",
             "Growing Thunder",
             "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
             4,
@@ -1842,7 +1842,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "烈雷",
-            "自分から攻撃した時、戦闘前、特定範囲の敵に(自分の攻撃-敵の守備or魔防)×1.5のダメージ",
+            "自分から攻撃した時、戦闘前、特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）の１。５倍のダメージ",
             "Blazing Thunder",
             "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
             4,
@@ -1855,7 +1855,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "爆光",
-            "自分から攻撃した時、戦闘前、広い特定範囲の敵に(自分の攻撃-敵の守備or魔防)のダメージ",
+            "自分から攻撃した時、戦闘前、広い特定範囲の敵に（自分の攻撃ー敵の守備或は魔防）のダメージ",
             "Growing Light",
             "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
             4,
@@ -1868,7 +1868,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "烈光",
-            "自分から攻撃した時、戦闘時、特定範囲の敵に(自分の攻撃-敵の守備or魔防)x1.5のダメージ",
+            "自分から攻撃した時、戦闘時、特定範囲の敵に（自分の攻撃ー敵の守備or魔防）の１。５倍のダメージ",
             "Blazing Light",
             "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
             4,
@@ -1881,7 +1881,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "業火疾風の祝福+",
-            "回復の杖使用時、自分を除く全味方の攻撃、速さ+6",
+            "回復の杖使用時、自分を除く全味方の攻撃、速さ＋６",
             "Windfire Balm+",
             "When healing an ally with a staff, grants Atk/Spd+6 to all allies for 1 turn.",
             1,
@@ -1894,7 +1894,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "業火大地の祝福+",
-            "回復の杖使用時、自分を除く全味方の攻撃、守備+6",
+            "回復の杖使用時、自分を除く全味方の攻撃、守備＋６",
             "Earthfire Balm+",
             "When healing an ally with a staff, grants Atk/Def+6 to all allies for 1 turn.",
             1,
@@ -1907,7 +1907,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "業火静水の祝福+",
-            "回復の杖使用時、自分を除く全味方の攻撃、魔防+6",
+            "回復の杖使用時、自分を除く全味方の攻撃、魔防＋６",
             "Fireflood Balm+",
             "When healing an ally with a staff, grants Atk/Res+6 to all allies for 1 turn.\t",
             1,
@@ -1920,7 +1920,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "大地静水の祝福+",
-            "回復の杖使用時、自分を除く全味方の守備、魔防+6",
+            "回復の杖使用時、自分を除く全味方の守備、魔防＋６",
             "Earthwater Balm+",
             "When healing an ally with a staff, grants Def/Res+6 to all allies for 1 turn.",
             1,
@@ -1933,7 +1933,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "天空",
-            "敵の守備、魔防-50%扱いで攻撃　与えたダメージの50%自分を回復",
+            "敵の守備、魔防半分扱いで攻撃　与えたダメージの半分自分を回復",
             "Aether",
             "Treats foe's Def/Res as if reduced by 50% during combat.\n"
             "Restores HP = half of damage dealt.",
@@ -1947,7 +1947,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "疾風迅雷",
-            "自分から攻撃した時、戦闘後、自分を行動可能\にする(1ターンに1回のみ)",
+            "自分から攻撃した時、戦闘後、自分を行動可能\にする（１ターンに１回のみ)",
             "Galeforce",
             "If unit initiates combat, grants unit another action after combat.\n"
             "(Once per turn.)",
@@ -1961,8 +1961,8 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "破天",
-            "敵の攻撃の20%を奥義ダメージに加算\n"
-            "敵が竜、獣の時、20%ではなく40%を奥義ダメージに加算",
+            "敵の攻撃の２割を奥義ダメージに加算\n"
+            "敵が竜、獣の時、２割ではなく４割を奥義ダメージに加算",
             "Ruptured Sky",
             "Boosts damage by 20% of foe's Atk. If in combat against a dragon foe or beast foe, boosts damage by 40% instead of 20%.",
             2,
@@ -1975,8 +1975,8 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ブルーフレイム",
-            "10を奥義ダメージに加算\n"
-            "味方と隣接している時、さらに15を奥義ダメージに加算。合計25を加算する。",
+            "１０を奥義ダメージに加算\n"
+            "味方と隣接している時、さらに１５を奥義ダメージに加算。合計２５を加算する。",
             "Blue Flame",
             "Boosts damage by 10. If unit is adjacent to an ally, boosts damage by 25 instead.\t",
             3,
@@ -1989,7 +1989,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "黒の月光",
-            "敵の守備、魔防-80%扱いで攻撃",
+            "敵の守備、魔防２割扱いで攻撃",
             "Black Luna",
             "Treats foe's Def/Res as if reduced by 80% during combat.",
             3,
@@ -2002,7 +2002,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "剣姫の流星",
-            "速さの40%を奥義ダメージに加算",
+            "速さの４割を奥義ダメージに加算",
             "Regnal Astra",
             "Boosts damage by 40% of unit's Spd.",
             2,
@@ -2015,7 +2015,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "剣皇の流星",
-            "速さの40%を奥義ダメージに加算",
+            "速さの４割を奥義ダメージに加算",
             "Imperial Astra",
             "Boosts damage by 40% of unit's Spd.",
             2,
@@ -2028,7 +2028,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "氷の聖鏡",
-            "敵の遠距離攻撃のダメージを30%軽減\n"
+            "敵の遠距離攻撃のダメージを３割軽減\n"
             "奥義発動で軽減した値を、敵に反射",
             "Ice Mirror",
             "If foe's Range = 2, reduces damage from foe's attacks by 30%. Boosts unit's next attack by total damage reduced (by any source, including other skills) when Special triggers. Resets at end of combat.",
@@ -2042,7 +2042,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "蒼の天空",
-            "敵の守備、魔防-50%扱いで攻撃　与えたダメージの50%自分を回復",
+            "敵の守備、魔防半分扱いで攻撃　与えたダメージの半分自分を回復",
             "Radiant Aether",
             "During combat, treats foe's Def/Res as if reduced by 50%.\n"
             "Restores HP = 50% of damage dealt.",
@@ -2056,9 +2056,9 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "炎の紋章",
-            "速さの30％を奥義ダメージに加算\n"
-            "戦闘後、自分と全味方の攻撃、速さ、守備、魔防+4(1ターン)\n"
-            "(その戦闘で時分のHPが0になっても効果は発動)",
+            "速さの３割を奥義ダメージに加算\n"
+            "戦闘後、自分と全味方の攻撃、速さ、守備、魔防＋４（１ターン）\n"
+            "（その戦闘で時分のＨＰが０になっても効果は発動）",
             "Fire Emblem",
             "Boosts damage by 30% of unit's Spd.\n"
             "Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
@@ -2072,8 +2072,8 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "月光閃",
-            "敵の守備・魔防-20％扱いで攻撃\n"
-            "速さの20%を奥義ダメージに加算",
+            "敵の守備・魔防８割扱いで攻撃\n"
+            "速さの２割を奥義ダメージに加算",
             "Lunar Flash",
             "Treats foe’s Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd.",
             2,
@@ -2086,8 +2086,8 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "天狼",
-            "速さの30％を奥義ダメージに加算\n"
-            "与えたダメージの30%自分を回復",
+            "速さの３割を奥義ダメージに加算\n"
+            "与えたダメージの３割自分を回復",
             "Sirius",
             "Boosts damage by 30% of unit's Spd. Restores HP = 30% of damage dealt.",
             2,
@@ -2100,8 +2100,8 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ノヴァの聖戦士",
-            "自分から攻撃した時、戦闘後、自分を行動可能\にする(1ターンに1回のみ)\n"
-            "この奥義発動時、自分とダブル相手に移動を最大1マスに制限する状態異常を付与(次回行動終了まで)",
+            "自分から攻撃した時、戦闘後、自分を行動可能\にする（１ターンに１回のみ）\n"
+            "この奥義発動時、自分とダブル相手に移動を最大1マスに制限する状態異常を付与（次回行動終了まで）",
             "Njorun's Zeal",
             "If unit initiates combat, grants another action to unit after combat. (Once per turn.) When Special triggers, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort through their next action.",
             3,
@@ -2114,8 +2114,8 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "双刃",
-            "魔防の40%を奥義ダメージに加算\n"
-            "奥義以外のスキルによる「ダメージを〇〇％軽減」を無効",
+            "魔防の４割を奥義ダメージに加算\n"
+            "奥義以外のスキルによる「ダメージを〇割軽減」を無効",
             "Twin Blades",
             "Boosts damage by 40% of unit's Res. Disables non-Special skills that \"reduce damage by X%.\"",
             2,
@@ -2128,8 +2128,8 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "開世",
-            "守備の50%を奥義ダメージに加算\n"
-            "与えたダメージの25%自分を回復",
+            "守備の半分を奥義ダメージに加算\n"
+            "与えたダメージの４分の１自分を回復",
             "Open the Future",
             "Boosts damage by 50% of unit's Def. Restores HP = 25% of damage dealt.",
             3,
