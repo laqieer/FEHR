@@ -23,4 +23,6 @@ int GetItemLukBonus(u16 item);
 void DrawUiSymbol(u16 *tileMap, int color, int symbol);
 void DrawUiSmallNumber(u16 *tileMap, int color, int number);
 
+u32 func8015818();
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

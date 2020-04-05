@@ -8,6 +8,8 @@
 
 #include "character.h"
 #include "fontgrp.h"
+#include "skill.h"
+#include "proc.h"
 
 // Buff
 struct Buff gPlayerBuff[PLAYER_TOTAL_AMOUNT];
@@ -626,3 +628,40 @@ void DrawStatScreenBonusNumberInjector(int bonusNumber, u16 *tileMap)
 {
     DrawStatScreenBonusNumber(bonusNumber, tileMap);
 }
+
+/*
+ * Duration: 1 turn. Clear units' buff & debuff when switching phase.
+ */
+
+// Phase switch: player phase -> enemy phase -> NPC phase -> player phase -> ...
+void clearUnitsBuffAndDebuffForPhaseSwitch()
+{
+    switch (gRAMChapterData.chapterPhaseIndex >> 6)
+    {
+        case NPCSide: //PlayerSide
+            if(gRAMChapterData.chapterTurnNumber == 0)
+                clearBuffAndDebuffForAllUnits();
+            else
+                clearBuffAndDebuffForAllPlayerUnits();
+            break;
+        case PlayerSide: //EnemySide
+            clearBuffAndDebuffForAllEnemyUnits();
+            break;
+        case EnemySide: //NPCSide
+            clearBuffAndDebuffForAllNPCUnits();
+            break;
+        default: //TODO: for link arena
+            clearBuffAndDebuffForAllP4Units();
+            break;
+    }
+}
+
+u32 phaseSwitchInjector()
+{
+    clearUnitsBuffAndDebuffForPhaseSwitch();
+    return func8015818();
+}
+
+const struct ProcCmd gProcPhaseSwitchInjector = PROC_CALL_ROUTINE_2(phaseSwitchInjector);
+
+

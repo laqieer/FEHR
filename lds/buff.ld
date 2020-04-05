@@ -14,3 +14,5 @@
 .text.GetUnitLuckInjector : {*(.text.GetUnitLuckInjector)}
 . = 0x80060d0;
 .text.DrawStatScreenBonusNumberInjector : {*(.text.DrawStatScreenBonusNumberInjector)}
+. = 0x8c01e54;
+.rodata.gProcPhaseSwitchInjector : {*(.rodata.gProcPhaseSwitchInjector)}

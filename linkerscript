@@ -89,6 +89,7 @@ func8016318 = 0x8016319;
 writeTiles = 0x8013689;
 writeTSAPlain = 0x801383D;
 GetItemHpBonus = 0x80164bd;
+func8015818 = 0x8015819;
 GetItemPowBonus = 0x80164e9;
 GetItemSklBonus = 0x8016515;
 GetItemSpdBonus = 0x8016541;
