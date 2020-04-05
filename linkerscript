@@ -114,9 +114,6 @@ chapter_titles_no_data = 0x841a6c4;
 
 SECTIONS
 {
-	. = 0x203F000;
-	.bss : {*(.bss*)}
-	__end__ = .;
 	. = 0x8000000;
 	.rom : {KEEP(*(.rom))}
 	/*. = 0x8000220;
@@ -257,6 +254,10 @@ SECTIONS
     INCLUDE ../lds/patch_enable_BWL_display_at_first.ld
 	. = 0xE007400;
 	.data.skill : {*/skill.*(.data.*)}
+	.bss.buff : {*/buff.*(.bss.*)}
+	. = 0x203F000;
+	.bss : {*(.bss*)}
+	__end__ = .;
 	. = 0x9000000;
 	.text : {*(.text*)}
 	.rodata : {*(.rodata*) . = ALIGN(4);}
