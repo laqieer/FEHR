@@ -238,7 +238,7 @@ struct Unit
     u8 positionY;
     s8 maxHp;
     s8 hp;
-    s8 str;
+    s8 pow;
     s8 skl;
     s8 spd;
     s8 def;

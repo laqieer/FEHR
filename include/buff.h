@@ -11,4 +11,13 @@ struct Buff {
     s8 luk;
 };
 
+u16 GetUnitEquippedItem(struct Unit* unit);
+int GetItemHpBonus(u16 item);
+int GetItemPowBonus(u16 item);
+int GetItemSklBonus(u16 item);
+int GetItemSpdBonus(u16 item);
+int GetItemDefBonus(u16 item);
+int GetItemResBonus(u16 item);
+int GetItemLukBonus(u16 item);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

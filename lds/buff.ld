@@ -1,0 +1,14 @@
+. = 0x8018ea0;
+.text.GetUnitMaxHpInjector : {*(.text.GetUnitMaxHpInjector)}
+. = 0x8018ec0;
+.text.GetUnitPowerInjector : {*(.text.GetUnitPowerInjector)}
+. = 0x8018ee0;
+.text.GetUnitSkillInjector : {*(.text.GetUnitSkillInjector)}
+. = 0x8018f20;
+.text.GetUnitSpeedInjector : {*(.text.GetUnitSpeedInjector)}
+. = 0x8018f60;
+.text.GetUnitDefenseInjector : {*(.text.GetUnitDefenseInjector)}
+. = 0x8018f80;
+.text.GetUnitResistanceInjector : {*(.text.GetUnitResistanceInjector)}
+. = 0x8018fa8;
+.text.GetUnitLuckInjector : {*(.text.GetUnitLuckInjector)}

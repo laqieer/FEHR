@@ -87,8 +87,15 @@ StartDialogue = 0x8007e09;
 func8016318 = 0x8016319;
 writeTiles = 0x8013689;
 writeTSAPlain = 0x801383D;
+GetItemHpBonus = 0x80164bd;
+GetItemPowBonus = 0x80164e9;
+GetItemSklBonus = 0x8016515;
+GetItemSpdBonus = 0x8016541;
+GetItemDefBonus = 0x801656d;
+GetItemResBonus = 0x8016599;
+GetItemLukBonus = 0x80165c5;
+GetUnitEquippedItem = 0x8016bc5;
 getActiveUnitCurrentHp = 0x8018e61;
-GetUnitPower = 0x8018ec1;
 BmMapFill = 0x8019495;
 RefreshTorchLightsOnBmMap = 0x8019e25;
 RefreshUnitsOnBmMap = 0x8019c51;
@@ -120,6 +127,7 @@ SECTIONS
 	.rodata.pAgbMain : {*(.rodata.pAgbMain)}*/
 	INCLUDE ../lds/character_voice.ld
 	INCLUDE ../lds/skill.ld
+	INCLUDE ../lds/buff.ld
 	. = 0x80069B0;
 	.text.getPortraitByIDInjector : {*(.text.getPortraitByIDInjector)}
 	. = 0x8006C48;

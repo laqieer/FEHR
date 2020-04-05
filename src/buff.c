@@ -511,3 +511,87 @@ void addUnitDebuffLuck(struct Unit *unit, s8 debuffValue)
     struct Buff *pUnitDebuff = getUnitDebuff(unit);
     pUnitDebuff->luk += debuffValue;
 }
+
+/*
+ * Effect & Display
+ */
+
+int GetUnitMaxHp(struct Unit* unit) 
+{
+    return unit->maxHp + GetItemHpBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffHP(unit);
+}
+
+int GetUnitPower(struct Unit* unit) 
+{
+    return unit->pow + GetItemPowBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffPower(unit);
+}
+
+int GetUnitSkill(struct Unit* unit) 
+{
+    int item = GetUnitEquippedItem(unit);
+
+    if (unit->state & UNIT_STATE_RESCUING)
+        return unit->skl / 2 + GetItemSklBonus(item) + getUnitTotalBuffSkill(unit);
+
+    return unit->skl + GetItemSklBonus(item) + getUnitTotalBuffSkill(unit);
+}
+
+int GetUnitSpeed(struct Unit* unit) 
+{
+    int item = GetUnitEquippedItem(unit);
+
+    if (unit->state & UNIT_STATE_RESCUING)
+        return unit->spd / 2 + GetItemSpdBonus(item) + getUnitTotalBuffSpeed(unit);
+
+    return unit->spd + GetItemSpdBonus(item) + getUnitTotalBuffSpeed(unit);
+}
+
+int GetUnitDefense(struct Unit* unit) 
+{
+    return unit->def + GetItemDefBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffDefense(unit);
+}
+
+int GetUnitResistance(struct Unit* unit) 
+{
+    return unit->res + GetItemResBonus(GetUnitEquippedItem(unit)) + unit->resBonus + getUnitTotalBuffResistance(unit);
+}
+
+int GetUnitLuck(struct Unit* unit) 
+{
+    return unit->luk + GetItemLukBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffLuck(unit);
+}
+
+int GetUnitMaxHpInjector(struct Unit* unit)
+{
+    return GetUnitMaxHp(unit);
+}
+
+int GetUnitPowerInjector(struct Unit* unit)
+{
+    return GetUnitPower(unit);
+}
+
+int GetUnitSkillInjector(struct Unit* unit)
+{
+    return GetUnitSkill(unit);
+}
+
+int GetUnitSpeedInjector(struct Unit* unit)
+{
+    return GetUnitSpeed(unit);
+}
+
+int GetUnitDefenseInjector(struct Unit* unit)
+{
+    return GetUnitDefense(unit);
+}
+
+int GetUnitResistanceInjector(struct Unit* unit)
+{
+    return GetUnitResistance(unit);
+}
+
+int GetUnitLuckInjector(struct Unit* unit)
+{
+    return GetUnitLuck(unit);
+}
