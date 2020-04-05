@@ -1228,7 +1228,7 @@ void specialSkillHeavenlyLightEffect(struct Unit* unit, int *healAmount)
 }
 
 const struct SpecialSkill specialSkills[] = {
-        {"奥義スキル", "奥義スキルを持っていない", "Special Skill", "No special skill", 0, 0, 0, 0, 0, 0, 0},
+        {"ーー", "奥義スキルを持っていない", "Special Skill", "No special skill", 0, 0, 0, 0, 0, 0, 0},
         {
             "治癒",
             "回復の杖使用時、回復効果＋１０",
