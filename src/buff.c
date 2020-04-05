@@ -595,3 +595,33 @@ int GetUnitLuckInjector(struct Unit* unit)
 {
     return GetUnitLuck(unit);
 }
+
+/*
+ * Display buff & debuff
+ */
+
+void DrawStatScreenBonusNumber(int bonusNumber, u16 *tileMap)
+{
+    if (bonusNumber > 0)
+    {
+        // Draw '+' before bonus number
+        DrawUiSymbol(tileMap, 4, 21);
+        // Draw positive bonus number
+        DrawUiSmallNumber(tileMap + ((bonusNumber >= 10) ? 2 : 1), 4, bonusNumber);
+    }
+    else
+    {
+        if (bonusNumber < 0)
+        {
+            // Draw '-' before bonus number
+            DrawUiSymbol(tileMap, 4, 20);
+            // Draw negative bonus number
+            DrawUiSmallNumber(tileMap + ((bonusNumber >= 10) ? 2 : 1), 4, -bonusNumber);            
+        }
+    }
+}
+
+void DrawStatScreenBonusNumberInjector(int bonusNumber, u16 *tileMap)
+{
+    DrawStatScreenBonusNumber(bonusNumber, tileMap);
+}

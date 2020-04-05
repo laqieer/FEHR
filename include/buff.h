@@ -20,4 +20,7 @@ int GetItemDefBonus(u16 item);
 int GetItemResBonus(u16 item);
 int GetItemLukBonus(u16 item);
 
+void DrawUiSymbol(u16 *tileMap, int color, int symbol);
+void DrawUiSmallNumber(u16 *tileMap, int color, int number);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

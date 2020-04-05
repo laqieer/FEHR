@@ -12,3 +12,5 @@
 .text.GetUnitResistanceInjector : {*(.text.GetUnitResistanceInjector)}
 . = 0x8018fa8;
 .text.GetUnitLuckInjector : {*(.text.GetUnitLuckInjector)}
+. = 0x80060d0;
+.text.DrawStatScreenBonusNumberInjector : {*(.text.DrawStatScreenBonusNumberInjector)}
