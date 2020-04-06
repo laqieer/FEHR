@@ -130,6 +130,7 @@ SECTIONS
 	INCLUDE ../lds/character_voice.ld
 	INCLUDE ../lds/skill.ld
 	INCLUDE ../lds/buff.ld
+	INCLUDE ../lds/new_unit_state.ld
 	. = 0x80069B0;
 	.text.getPortraitByIDInjector : {*(.text.getPortraitByIDInjector)}
 	. = 0x8006C48;
@@ -265,6 +266,7 @@ SECTIONS
 	. = 0xE007400;
 	.data.skill : {*/skill.*(.data.*)}
 	.bss.buff : {*/buff.*(.bss.*)}
+	.bss.new_unit_state : {*/new_unit_state.*(.bss.*)}
 	. = 0x203F000;
 	.bss : {*(.bss*)}
 	__end__ = .;
