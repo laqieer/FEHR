@@ -77,6 +77,7 @@ Text_Clear = 0x80053b1;
 Text_Draw = 0x8005461;
 getStringTextWidth = 0x80054CD;
 getCharTextWidth = 0x8005529;
+DrawTextInLine = 0x8005999;
 Text_InsertString = 0x080059dd;
 DrawUiSymbol = 0x8005fed;
 DrawUiSmallNumber = 0x80060c5;

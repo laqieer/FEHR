@@ -69,5 +69,7 @@
 char *decodeText(int textID);
 void StartDialogue(int param_1, int param_2, char *text, u32 parent);
 
+extern const char* const texts[];
+
 #endif //TEXT_H
 #define TEXT_H

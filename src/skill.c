@@ -12,7 +12,9 @@
 #include "text_id.h"
 #include "portrait.h"
 #include "stat_screen_page_name_skill.h"
-#include "special_skill_icon.h"
+//#include "special_skill_icon.h"
+#include "skill_page_icons_1.h"
+#include "skill_page_icons_2.h"
 #include "gba_debug_print.h"
 
 /*
@@ -1491,7 +1493,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "‘¾—z",
-            "—^‚¦‚½ƒ_ƒ[ƒW‚Ì”¼•ªŽ©•ª‚ð‰ñ•œ‚g‚o",
+            "—^‚¦‚½ƒ_ƒ[ƒW‚Ì”¼•ªŽ©•ª‚ð‰ñ•œ",
             "Sol",
             "Restores HP = 50% of damage dealt.",
             3,
@@ -2606,6 +2608,80 @@ void DrawStatWithFixedLengthBar(int num, int x, int y, int base, int total, int 
                 TILEREF(0, STATSCREEN_BGPAL_6), max * length / max, base * length / max, diff * length / max);
 }
 
+void displayPositiveStateText()
+{
+    int x = 2;
+    int y = 10;
+
+    if(checkUnitStateMobilityIncreased(gStatScreen.unit))
+    {
+        DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(x + 2, y), TEXT_COLOR_NORMAL, 0, 4, "ˆÚ“®ã¸");
+        x += 6;
+    }
+
+    if(checkUnitStateAirOrders(gStatScreen.unit))
+    {
+        DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(x + 2, y), TEXT_COLOR_NORMAL, 0, 4, "æ“±“`—ß");
+        x += 6;
+    }
+
+    if(checkUnitStateEffectiveAgainstDragons(gStatScreen.unit))
+    {
+        if(x >= 2 + 2 * 6)
+        {
+            y += 2;
+            x = 2;
+        }
+        DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(x + 2, y), TEXT_COLOR_NORMAL, 0, 4, "—³“ÁŒø");
+        x += 6;
+    }
+}
+
+void displayPositiveStateIcons()
+{
+    int x = 1;
+    int y = 10;
+
+    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_POSITIVE_STATE, 0x8000);
+    x += 2;
+
+    if(checkUnitStateMobilityIncreased(gStatScreen.unit))
+    {
+        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_MOBILITY_INCREASED, 0x8000);
+        x += 2;
+    }
+
+    if(checkUnitStateAirOrders(gStatScreen.unit))
+    {
+        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_AIR_ORDERS, 0x9000);
+        x += 2;
+    }
+
+    if(checkUnitStateEffectiveAgainstDragons(gStatScreen.unit))
+    {
+        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_EFFECTIVE_AGAINST_DRAGONS, 0x9000);
+        x += 2;
+    }
+
+    if(checkUnitStateBonusDoubler(gStatScreen.unit))
+    {
+        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_BONUS_DOUBLER, 0x9000);
+        x += 2;
+    }
+
+    if(checkUnitStateDragonShield(gStatScreen.unit))
+    {
+        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_DRAGON_SHIELD, 0x9000);
+        x += 2;
+    }
+
+    if(checkUnitStateSvalinnShield(gStatScreen.unit))
+    {
+        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_SVALINN_SHIELD, 0x9000);
+        x += 2;
+    }
+}
+
 void DisplayPage3()
 {
     int zero = 0;
@@ -2635,13 +2711,24 @@ void DisplayPage3()
     DrawStatWithVariableLengthBar(8, 11, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
     //DrawStatWithFixedLengthBar(8, 11, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 42);
 
-    // display special skill icon (use bg palatte 8)
-    writeBGPalette(special_skill_iconPal, 32 * 8, 32);
+    // display special skill icon (use bg palatte 8 & 9)
+    //writeBGPalette(special_skill_iconPal, 32 * 8, 32);
+    writeBGPalette(skill_page_icons_1Pal, 32 * 8, 32);
+    writeBGPalette(skill_page_icons_2Pal, 32 * 9, 32);
     //EnablePaletteSync();
-    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 2), 0xAD, 0x8000);
+    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 2), ICON_SPECIAL_SKILL, 0x8000);
+
+    // display assist skill icon
+    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 4), ICON_ASSIST_SKILL, 0x8000);
 
     // Help Box Info
     gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
+
+    // display positive states
+    //DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 10), TEXT_COLOR_GOLD, 0, 2, "‹­‰»");
+    //displayPositiveStateText();
+    // The page is too small to display all state text, display icons instead.
+    displayPositiveStateIcons();
 }
 
 const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Display
