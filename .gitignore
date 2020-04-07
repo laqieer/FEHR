@@ -84,9 +84,11 @@ cmake-build-release/
 src/res/gfx/*.h
 src/res/gfx/*.s
 res/voice/*.s
+res/se/*.s
 
 # Audio (.wav) extracted from .ckb
 res/voice/*.wav
+res/se/*.wav
 
 # Python virtual environment
 venv/
@@ -101,8 +103,12 @@ venv/
 
 # Voice sound library
 !res/voice/Makefile
-!res/voice/lib/
-!res/voice/include/
+!res/voice/lib/*.a
 
 # gbagfx's Makefile
 !tool/gbagfx/Makefile
+
+# Sound effect library
+!res/se/Makefile
+!res/se/lib/*.a
+

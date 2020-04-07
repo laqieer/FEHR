@@ -23,9 +23,10 @@ process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit portrait_Anna_comma
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT})
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE C)
-target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx res/voice/include)
+target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx res/voice/include res/se/include)
 find_library(VOICE_LIBRARY voice HINTS res/voice/lib)
-target_link_libraries(${PROJECT_NAME} PRIVATE "-Wl,-Map,${PROJECT_NAME}.map" ${VOICE_LIBRARY})
+find_library(SE_LIBRARY se HINTS res/se/lib)
+target_link_libraries(${PROJECT_NAME} PRIVATE "-Wl,-Map,${PROJECT_NAME}.map" ${VOICE_LIBRARY} ${SE_LIBRARY})
 make_gba_rom(${PROJECT_NAME})
 
 add_custom_target(version
