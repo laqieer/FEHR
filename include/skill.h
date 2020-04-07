@@ -460,6 +460,9 @@ extern const struct HelpBoxInfo sHelpInfo_Ss3CharacterName;
 extern const struct HelpBoxInfo sHelpInfo_Ss3JobName;
 extern const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName;
 extern const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD;
+extern const struct HelpBoxInfo sHelpInfo_Ss3PositiveState;
+extern const struct HelpBoxInfo sHelpInfo_Ss3NegativeState;
+extern const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState;
 
 char *getSpecialSkillDescriptionText();
 

@@ -2854,6 +2854,9 @@ char *getSpecialSkillDescriptionText()
 }
 
 const struct HelpBoxInfo sHelpInfo_Ss3CharacterName = {NULL, &sHelpInfo_Ss3JobName, NULL, &gHelpInfo_Ss3SpecialSkillName, 0x28, 0x50, NULL, NULL, 0x808245d};
-const struct HelpBoxInfo sHelpInfo_Ss3JobName = {&sHelpInfo_Ss3CharacterName, NULL, NULL, &sHelpInfo_Ss3SpecialSkillCD, 6, 0x68, 0x22e, NULL, 0x8082485};
-const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName = {NULL, NULL, &sHelpInfo_Ss3CharacterName, &sHelpInfo_Ss3SpecialSkillCD, 112, 32, TEXT_SPECIAL_SKILL_HELP, NULL, NULL};
-const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD = {NULL, NULL, &gHelpInfo_Ss3SpecialSkillName, NULL, 172, 32, TEXT_SPECIAL_SKILL_CD_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3JobName = {&sHelpInfo_Ss3CharacterName, NULL, NULL, &sHelpInfo_Ss3NewUnitState, 6, 0x68, 0x22e, NULL, 0x8082485};
+const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName = {NULL, &sHelpInfo_Ss3NewUnitState, &sHelpInfo_Ss3CharacterName, &sHelpInfo_Ss3SpecialSkillCD, 112, 32, TEXT_SPECIAL_SKILL_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD = {NULL, &sHelpInfo_Ss3NewUnitState, &gHelpInfo_Ss3SpecialSkillName, NULL, 172, 32, TEXT_SPECIAL_SKILL_CD_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3PositiveState = {&sHelpInfo_Ss3SpecialSkillCD, &sHelpInfo_Ss3NegativeState, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_UNIT_POSITIVE_STATE_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3NegativeState = {&sHelpInfo_Ss3PositiveState, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x88, TEXT_UNIT_NEGATIVE_STATE_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState = {&gHelpInfo_Ss3SpecialSkillName, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_NEW_UNIT_STATE_HELP, NULL, NULL};

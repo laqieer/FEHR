@@ -1002,6 +1002,10 @@ const char* const texts[] = {
         [TEXT_UNIT_STATE_DRAGON_SHIELD_HELP] = "竜に対する特効を無効にする",
         [TEXT_UNIT_STATE_SVALINN_SHIELD_NAME] = "重装特効無効",
         [TEXT_UNIT_STATE_SVALINN_SHIELD_HELP] = "重装に対する特効を無効にする",
+
+        [TEXT_UNIT_POSITIVE_STATE_HELP] = "状態強化（有利な状態）",
+        [TEXT_UNIT_POSITIVE_STATE_HELP] = "状態異常（不利な状態）",
+        [TEXT_NEW_UNIT_STATE_HELP] = "状態強化と状態異常",
 };
 
 extern int lastTextID;
