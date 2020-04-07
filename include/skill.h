@@ -437,6 +437,7 @@ extern u16 BG0MapBuffer[]; // gBG0TilemapBuffer
 void writeBGPalette(const u16 *palette, int start, int length);
 void DrawIcon(u16* BgOut, int IconIndex, int OamPalBase);
 void EnablePaletteSync();
+void RegisterTileGraphics(const void *GFX, void *Dest, u32 size);
 
 /*
  * Help box text
@@ -464,25 +465,23 @@ char *getSpecialSkillDescriptionText();
 
 enum {
     // Icons in skill page.
-    ICON_SPECIAL_SKILL = 0xAD,
+    ICON_SPECIAL_SKILL = 0,
     ICON_ASSIST_SKILL,
     ICON_POSITIVE_STATE,
     ICON_NEGATIVE_STATE,
-    ICON_MOBILITY_INCREASED,
     ICON_GRAVITY,
     ICON_PANIC,
     ICON_COUNTERATTACKS_DISRUPTED,
-    ICON_PALETTE_1,
+    ICON_MOBILITY_INCREASED,
 
     ICON_TRIANGLE_ADEPT,
     ICON_GUARD,
     ICON_AIR_ORDERS,
-    ICON_EFFECTIVE_AGAINST_DRAGONS,
     ICON_ISOLATION,
+    ICON_EFFECTIVE_AGAINST_DRAGONS,
     ICON_BONUS_DOUBLER,
     ICON_DRAGON_SHIELD,
     ICON_SVALINN_SHIELD,
-    ICON_PALETTE_2,
 };
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

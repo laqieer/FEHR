@@ -65,6 +65,7 @@ agbMain = 0x8000A21;
 setBGMapBufferSyncFlag = 0x8000FD5;
 EnablePaletteSync = 0x8001035;
 writeBGPalette = 0x800105D;
+RegisterTileGraphics = 0x8002f55;
 enableOAMBufferSync = 0x80031BD;
 setOBJAttribute = 0x8003215;
 setBGMVolume = 0x800348D;
@@ -264,6 +265,7 @@ SECTIONS
     INCLUDE ../lds/patch_expand_chapter_amount.ld
     INCLUDE ../lds/patch_remove_chapter_12_special_handle_routine.ld
     INCLUDE ../lds/patch_enable_BWL_display_at_first.ld
+    /*INCLUDE ../lds/patch_expand_icon_amount.ld*/
 	. = 0xE007400;
 	.data.skill : {*/skill.*(.data.*)}
 	.bss.buff : {*/buff.*(.bss.*)}

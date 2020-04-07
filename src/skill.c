@@ -2637,49 +2637,120 @@ void displayPositiveStateText()
     }
 }
 
+void initIconInSkillPage()
+{
+    writeBGPalette(skill_page_icons_1Pal, 32 * 8, 32);
+    writeBGPalette(skill_page_icons_2Pal, 32 * 9, 32);
+    RegisterTileGraphics(skill_page_icons_1Tiles, 0x6005000, 0x400); // Tile #640 = 0x6005000
+    RegisterTileGraphics(skill_page_icons_2Tiles, 0x6005400, 0x400); // Tile #672 = 0x6005400
+}
+
+void drawIconInSkillPage(int x, int y, int iconId, int paletteId)
+{
+    u16 *pTile = gBmFrameTmap0 + TILEMAP_INDEX(x, y);
+    u16 tile = 640 + 4 * iconId + (paletteId << 12);
+
+    // A 16x16 icon = 4 8x8 tiles
+    pTile[TILEMAP_INDEX(0, 0)] = tile++; // left-top tile
+    pTile[TILEMAP_INDEX(1, 0)] = tile++; // right-top tile
+    pTile[TILEMAP_INDEX(0, 1)] = tile++; // left-bottom tile
+    pTile[TILEMAP_INDEX(1, 1)] = tile++; // right-bottom tile
+}
+
 void displayPositiveStateIcons()
 {
     int x = 1;
-    int y = 10;
+    int y = 12;
 
-    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_POSITIVE_STATE, 0x8000);
+    drawIconInSkillPage(x, y, ICON_POSITIVE_STATE, 8);
     x += 2;
 
     if(checkUnitStateMobilityIncreased(gStatScreen.unit))
     {
-        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_MOBILITY_INCREASED, 0x8000);
+        drawIconInSkillPage(x, y, ICON_MOBILITY_INCREASED, 8);
         x += 2;
     }
 
     if(checkUnitStateAirOrders(gStatScreen.unit))
     {
-        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_AIR_ORDERS, 0x9000);
+        drawIconInSkillPage(x, y, ICON_AIR_ORDERS, 9);
         x += 2;
     }
 
     if(checkUnitStateEffectiveAgainstDragons(gStatScreen.unit))
     {
-        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_EFFECTIVE_AGAINST_DRAGONS, 0x9000);
+        drawIconInSkillPage(x, y, ICON_EFFECTIVE_AGAINST_DRAGONS, 9);
         x += 2;
     }
 
     if(checkUnitStateBonusDoubler(gStatScreen.unit))
     {
-        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_BONUS_DOUBLER, 0x9000);
+        drawIconInSkillPage(x, y, ICON_BONUS_DOUBLER, 9);
         x += 2;
     }
 
     if(checkUnitStateDragonShield(gStatScreen.unit))
     {
-        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_DRAGON_SHIELD, 0x9000);
+        drawIconInSkillPage(x, y, ICON_DRAGON_SHIELD, 9);
         x += 2;
     }
 
     if(checkUnitStateSvalinnShield(gStatScreen.unit))
     {
-        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), ICON_SVALINN_SHIELD, 0x9000);
+        drawIconInSkillPage(x, y, ICON_SVALINN_SHIELD, 9);
         x += 2;
     }
+}
+
+void displayNegativeStateIcons()
+{
+    int x = 1;
+    int y = 14;
+
+    drawIconInSkillPage(x, y, ICON_NEGATIVE_STATE, 8);
+    x += 2;
+
+    if(checkUnitStateGravity(gStatScreen.unit))
+    {
+        drawIconInSkillPage(x, y, ICON_GRAVITY, 8);
+        x += 2;
+    }
+
+    if(checkUnitStatePanic(gStatScreen.unit))
+    {
+        drawIconInSkillPage(x, y, ICON_PANIC, 8);
+        x += 2;
+    }
+
+    if(checkUnitStateCounterattacksDisrupted(gStatScreen.unit))
+    {
+        drawIconInSkillPage(x, y, ICON_COUNTERATTACKS_DISRUPTED, 8);
+        x += 2;
+    }
+
+    if(checkUnitStateTriangleAdept(gStatScreen.unit))
+    {
+        drawIconInSkillPage(x, y, ICON_TRIANGLE_ADEPT, 9);
+        x += 2;
+    }
+
+    if(checkUnitStateGuard(gStatScreen.unit))
+    {
+        drawIconInSkillPage(x, y, ICON_GUARD, 9);
+        x += 2;
+    }
+
+    if(checkUnitStateIsolation(gStatScreen.unit))
+    {
+        drawIconInSkillPage(x, y, ICON_ISOLATION, 9);
+        x += 2;
+    }
+}
+
+void displayNewUnitStateIcons()
+{
+    displayPositiveStateIcons();
+    displayNegativeStateIcons();
 }
 
 void DisplayPage3()
@@ -2713,13 +2784,15 @@ void DisplayPage3()
 
     // display special skill icon (use bg palatte 8 & 9)
     //writeBGPalette(special_skill_iconPal, 32 * 8, 32);
-    writeBGPalette(skill_page_icons_1Pal, 32 * 8, 32);
-    writeBGPalette(skill_page_icons_2Pal, 32 * 9, 32);
     //EnablePaletteSync();
-    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 2), ICON_SPECIAL_SKILL, 0x8000);
+    initIconInSkillPage();
+
+    //DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 2), ICON_SPECIAL_SKILL, 0x8000);
+    drawIconInSkillPage(1, 2, ICON_SPECIAL_SKILL, 8);
 
     // display assist skill icon
-    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 4), ICON_ASSIST_SKILL, 0x8000);
+    //DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 4), ICON_ASSIST_SKILL, 0x8000);
+    drawIconInSkillPage(1, 4, ICON_ASSIST_SKILL, 8);
 
     // Help Box Info
     gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
@@ -2728,7 +2801,8 @@ void DisplayPage3()
     //DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 10), TEXT_COLOR_GOLD, 0, 2, "‹­‰»");
     //displayPositiveStateText();
     // The page is too small to display all state text, display icons instead.
-    displayPositiveStateIcons();
+    
+    displayNewUnitStateIcons();
 }
 
 const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Display
