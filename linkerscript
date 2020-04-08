@@ -41,6 +41,9 @@ gBattleHitArray = 0x203a4ec;
 decodedText = 0x202A5B0;
 lastTextID = 0x202B5B0;
 
+gBmMapMovement = 0x202e3e0;
+gWorkingBmMap = 0x3004100;
+
 gBattleHitIterator = 0x203a508;
 
 DAT_0203a50c = 0x203a50c;
@@ -99,11 +102,14 @@ GetItemDefBonus = 0x801656d;
 GetItemResBonus = 0x8016599;
 GetItemLukBonus = 0x80165c5;
 GetUnitEquippedItem = 0x8016bc5;
+GetUnitMovementCost = 0x8018bc5;
 getActiveUnitCurrentHp = 0x8018e61;
 BmMapFill = 0x8019495;
 RefreshTorchLightsOnBmMap = 0x8019e25;
 RefreshUnitsOnBmMap = 0x8019c51;
 RefreshMinesOnBmMap = 0x8019e51;
+SetWorkingMoveCosts = 0x801a0c1;
+GenerateMovementMap = 0x801a0e1;
 DisplayActiveUnitEffectRange = 0x801ca29;
 BattleUpdateBattleStats = 0x80296e5;
 BattleGenerateHitTriangleAttack = 0x80297d5;

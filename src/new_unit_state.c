@@ -4,6 +4,7 @@
 
 #include <gba_base.h>
 
+#include "job.h"
 #include "character.h"
 
 #include "new_unit_state.h"
@@ -458,3 +459,55 @@ void clearUnitStateIsolation(struct Unit *unit)
     getUnitNegativeState(unit)->isolation = 0;
 }
 
+/*
+ * New unit state effect.
+ */
+
+int GetUnitMovement(struct Unit* unit)
+{
+    if(checkUnitStateGravity(unit))
+        return 1;
+    return unit->job->baseMov + unit->movBonus + checkUnitStateMobilityIncreased(unit);
+}
+
+const s8* GetUnitMovementCost(struct Unit* unit);
+void SetWorkingMoveCosts(const s8 mct[]);
+void GenerateMovementMap(int x, int y, int movement, int unitId);
+
+extern u8** gBmMapMovement;
+extern u8** gWorkingBmMap;
+
+void GenerateUnitMovementMap(struct Unit* unit)
+{
+    SetWorkingMoveCosts(GetUnitMovementCost(unit));
+    gWorkingBmMap = gBmMapMovement;
+    GenerateMovementMap(unit->positionX, unit->positionY, GetUnitMovement(unit), unit->number + (unit->side << 6));
+}
+
+void GenerateUnitMovementMapInjector(struct Unit* unit)
+{
+    GenerateUnitMovementMap(unit);
+}
+
+void GenerateUnitMovementMapExt(struct Unit* unit, s8 movement)
+{
+    SetWorkingMoveCosts(GetUnitMovementCost(unit));
+    gWorkingBmMap = gBmMapMovement;
+    GenerateMovementMap(unit->positionX, unit->positionY, checkUnitStateGravity(unit)? 1: movement + checkUnitStateMobilityIncreased(unit), unit->number + (unit->side << 6));
+}
+
+void GenerateUnitMovementMapExtInjector(struct Unit* unit, s8 movement)
+{
+    GenerateUnitMovementMapExt(unit, movement);
+}
+
+void GenerateMovementMapOnWorkingMap(struct Unit* unit, int x, int y, int movement)
+{
+    SetWorkingMoveCosts(GetUnitMovementCost(unit));
+    GenerateMovementMap(x, y, checkUnitStateGravity(unit)? 1: movement + checkUnitStateMobilityIncreased(unit), unit->number + (unit->side << 6));
+}
+
+void GenerateMovementMapOnWorkingMapInjector(struct Unit* unit, int x, int y, int movement)
+{
+    GenerateMovementMapOnWorkingMap(unit, x, y, movement);
+}
