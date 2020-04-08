@@ -10,6 +10,7 @@
 #include "fontgrp.h"
 #include "skill.h"
 #include "proc.h"
+#include "new_unit_state.h"
 
 // Buff
 struct Buff gPlayerBuff[PLAYER_TOTAL_AMOUNT];
@@ -304,107 +305,128 @@ void clearBuffAndDebuffForAllUnits()
 
 s8 getUnitBuffHP(struct Unit *unit)
 {
-    return getUnitBuff(unit)->hp;
+    return checkUnitStatePanic(unit)? -getUnitBuff(unit)->hp: getUnitBuff(unit)->hp;
 }
 
 s8 getUnitBuffPower(struct Unit *unit)
 {
-    return getUnitBuff(unit)->pow;
+    return checkUnitStatePanic(unit)? -getUnitBuff(unit)->pow: getUnitBuff(unit)->pow;
 }
 
 s8 getUnitBuffSkill(struct Unit *unit)
 {
-    return getUnitBuff(unit)->skl;
+    return checkUnitStatePanic(unit)? -getUnitBuff(unit)->skl: getUnitBuff(unit)->skl;
 }
 
 s8 getUnitBuffSpeed(struct Unit *unit)
 {
-    return getUnitBuff(unit)->spd;
+    return checkUnitStatePanic(unit)? -getUnitBuff(unit)->spd: getUnitBuff(unit)->spd;
 }
 
 s8 getUnitBuffDefense(struct Unit *unit)
 {
-    return getUnitBuff(unit)->def;
+    return checkUnitStatePanic(unit)? -getUnitBuff(unit)->def: getUnitBuff(unit)->def;
 }
 
 s8 getUnitBuffResistance(struct Unit *unit)
 {
-    return getUnitBuff(unit)->res;
+    return checkUnitStatePanic(unit)? -getUnitBuff(unit)->res: getUnitBuff(unit)->res;
 }
 
 s8 getUnitBuffLuck(struct Unit *unit)
 {
-    return getUnitBuff(unit)->luk;
+    return checkUnitStatePanic(unit)? -getUnitBuff(unit)->luk: getUnitBuff(unit)->luk;
 }
 
 s8 getUnitDebuffHP(struct Unit *unit)
 {
-    return getUnitDebuff(unit)->hp;
+    return checkUnitStateHarshed(unit)? -getUnitDebuff(unit)->hp: getUnitDebuff(unit)->hp;
 }
 
 s8 getUnitDebuffPower(struct Unit *unit)
 {
-    return getUnitDebuff(unit)->pow;
+    return checkUnitStateHarshed(unit)? -getUnitDebuff(unit)->pow: getUnitDebuff(unit)->pow;
 }
 
 s8 getUnitDebuffSkill(struct Unit *unit)
 {
-    return getUnitDebuff(unit)->skl;
+    return checkUnitStateHarshed(unit)? -getUnitDebuff(unit)->skl: getUnitDebuff(unit)->skl;
 }
 
 s8 getUnitDebuffSpeed(struct Unit *unit)
 {
-    return getUnitDebuff(unit)->spd;
+    return checkUnitStateHarshed(unit)? -getUnitDebuff(unit)->spd: getUnitDebuff(unit)->spd;
 }
 
 s8 getUnitDebuffDefense(struct Unit *unit)
 {
-    return getUnitDebuff(unit)->def;
+    return checkUnitStateHarshed(unit)? -getUnitDebuff(unit)->def: getUnitDebuff(unit)->def;
 }
 
 s8 getUnitDebuffResistance(struct Unit *unit)
 {
-    return getUnitDebuff(unit)->res;
+    return checkUnitStateHarshed(unit)? -getUnitDebuff(unit)->res: getUnitDebuff(unit)->res;
 }
 
 s8 getUnitDebuffLuck(struct Unit *unit)
 {
-    return getUnitDebuff(unit)->luk;
+    return checkUnitStateHarshed(unit)? -getUnitDebuff(unit)->luk: getUnitDebuff(unit)->luk;
 }
 
 s8 getUnitTotalBuffHP(struct Unit *unit)
 {
-    return getUnitBuffHP(unit) + getUnitDebuffHP(unit);
+    s8 total = getUnitBuffHP(unit) + getUnitDebuffHP(unit);
+    if(total > 0 && checkUnitStateBonusDoubler(unit))
+        total *= 2;
+    return total;
 }
 
 s8 getUnitTotalBuffPower(struct Unit *unit)
 {
-    return getUnitBuffPower(unit) + getUnitDebuffPower(unit);
+    s8 total = getUnitBuffPower(unit) + getUnitDebuffPower(unit);
+    if(total > 0 && checkUnitStateBonusDoubler(unit))
+        total *= 2;
+    return total;
 }
 
 s8 getUnitTotalBuffSkill(struct Unit *unit)
 {
-    return getUnitBuffSkill(unit) + getUnitDebuffSkill(unit);
+    s8 total = getUnitBuffSkill(unit) + getUnitDebuffSkill(unit);
+    if(total > 0 && checkUnitStateBonusDoubler(unit))
+        total *= 2;
+    return total;
 }
 
 s8 getUnitTotalBuffSpeed(struct Unit *unit)
 {
-    return getUnitBuffSpeed(unit) + getUnitDebuffSpeed(unit);
+    s8 total = getUnitBuffSpeed(unit) + getUnitDebuffSpeed(unit);
+    if(total > 0 && checkUnitStateBonusDoubler(unit))
+        total *= 2;
+    return total;
 }
 
 s8 getUnitTotalBuffDefense(struct Unit *unit)
 {
-    return getUnitBuffDefense(unit) + getUnitDebuffDefense(unit);
+    s8 total = getUnitBuffDefense(unit) + getUnitDebuffDefense(unit);
+    if(total > 0 && checkUnitStateBonusDoubler(unit))
+        total *= 2;
+    return total;
 }
 
 s8 getUnitTotalBuffResistance(struct Unit *unit)
 {
-    return getUnitBuffResistance(unit) + getUnitDebuffResistance(unit);
+    s8 total = getUnitBuffResistance(unit) + getUnitDebuffResistance(unit);
+    if(total > 0 && checkUnitStateBonusDoubler(unit))
+        total *= 2;
+    return total;
 }
 
 s8 getUnitTotalBuffLuck(struct Unit *unit)
 {
-    return getUnitBuffLuck(unit) + getUnitDebuffLuck(unit);
+    s8 total = getUnitBuffLuck(unit) + getUnitDebuffLuck(unit);
+    if(total > 0 && checkUnitStateBonusDoubler(unit))
+        total *= 2;
+    return total;
 }
 
 void addUnitBuff(struct Unit *unit, struct Buff *pBuff)

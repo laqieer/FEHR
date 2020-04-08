@@ -8,6 +8,7 @@ struct PositiveState {
     u8 bonusDoubler:1;
     u8 dragonShield:1;
     u8 svalinnShield:1;
+    u8 harshed:1; // Converts penalties into bonuses.
 };
 
 struct NegativeState {
@@ -31,5 +32,6 @@ int checkUnitStateCounterattacksDisrupted(struct Unit *unit);
 int checkUnitStateTriangleAdept(struct Unit *unit);
 int checkUnitStateGuard(struct Unit *unit);
 int checkUnitStateIsolation(struct Unit *unit);
+int checkUnitStateHarshed(struct Unit *unit);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_NEW_UNIT_STATE_H

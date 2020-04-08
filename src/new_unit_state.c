@@ -77,6 +77,7 @@ void clearUnitPositiveState(struct Unit *unit)
     pUnitPositiveState->bonusDoubler = 0;
     pUnitPositiveState->dragonShield = 0;
     pUnitPositiveState->svalinnShield = 0;
+    pUnitPositiveState->harshed = 0;
 }
 
 void clearUnitNegativeState(struct Unit *unit)
@@ -111,6 +112,7 @@ void clearPositiveStateForAllPlayerUnits()
         pUnitPositiveState->bonusDoubler = 0;
         pUnitPositiveState->dragonShield = 0;
         pUnitPositiveState->svalinnShield = 0;
+        pUnitPositiveState->harshed = 0;
     }
 }
 
@@ -145,6 +147,7 @@ void clearPositiveStateForAllEnemyUnits()
         pUnitPositiveState->bonusDoubler = 0;
         pUnitPositiveState->dragonShield = 0;
         pUnitPositiveState->svalinnShield = 0;
+        pUnitPositiveState->harshed = 0;
     }
 }
 
@@ -179,6 +182,7 @@ void clearPositiveStateForAllNPCUnits()
         pUnitPositiveState->bonusDoubler = 0;
         pUnitPositiveState->dragonShield = 0;
         pUnitPositiveState->svalinnShield = 0;
+        pUnitPositiveState->harshed = 0;
     }
 }
 
@@ -213,6 +217,7 @@ void clearPositiveStateForAllP4Units()
         pUnitPositiveState->bonusDoubler = 0;
         pUnitPositiveState->dragonShield = 0;
         pUnitPositiveState->svalinnShield = 0;
+        pUnitPositiveState->harshed = 0;
     }
 }
 
@@ -458,6 +463,22 @@ void clearUnitStateIsolation(struct Unit *unit)
 {
     getUnitNegativeState(unit)->isolation = 0;
 }
+
+int checkUnitStateHarshed(struct Unit *unit)
+{
+    return getUnitPositiveState(unit)->harshed;
+}
+
+void setUnitStateHarshed(struct Unit *unit)
+{
+    getUnitPositiveState(unit)->harshed = 1;
+}
+
+void clearUnitStateHarshed(struct Unit *unit)
+{
+    getUnitPositiveState(unit)->harshed = 0;
+}
+
 
 /*
  * New unit state effect.
