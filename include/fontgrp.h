@@ -82,7 +82,7 @@ void Text_AppendString(struct TextHandle *th, const char* str);
 const char *Text_AppendChar(struct TextHandle *a, const char *b);
 void *GetVRAMPointerForTextMaybe(struct TextHandle *a);
 void Font_LoadForUI(void);
-void DrawTextInline(struct TextHandle* text, u16* dest, int colorId, int x, int tileWidth, const char* string);
+void DrawTextInLine(struct TextHandle* text, u16* dest, int colorId, int x, int tileWidth, const char* string);
 void Text_InsertString(struct TextHandle *th, int x, int colorId, const char *str);
 void Text_AppendStringASCII(struct TextHandle *text, const char *str);
 const char *Text_AppendCharASCII(struct TextHandle *text, const char *str);

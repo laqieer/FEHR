@@ -15,6 +15,7 @@
 //#include "special_skill_icon.h"
 #include "skill_page_icons_1.h"
 #include "skill_page_icons_2.h"
+#include "new_unit_state.h"
 #include "gba_debug_print.h"
 
 /*
@@ -2860,3 +2861,179 @@ const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD = {NULL, &sHelpInfo_Ss3NewU
 const struct HelpBoxInfo sHelpInfo_Ss3PositiveState = {&sHelpInfo_Ss3SpecialSkillCD, &sHelpInfo_Ss3NegativeState, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_UNIT_POSITIVE_STATE_HELP, NULL, NULL};
 const struct HelpBoxInfo sHelpInfo_Ss3NegativeState = {&sHelpInfo_Ss3PositiveState, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x88, TEXT_UNIT_NEGATIVE_STATE_HELP, NULL, NULL};
 const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState = {&gHelpInfo_Ss3SpecialSkillName, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_NEW_UNIT_STATE_HELP, NULL, NULL};
+
+// Struct size
+const int sizeofUnit = sizeof(struct Unit);
+const int sizeofBattleUnit = sizeof(struct BattleUnit);
+
+/*
+ * Battle stat calculation.
+ */
+
+void ComputeBattleUnitDefense(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if (GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE)
+        attacker->battleDefense = attacker->terrainResistance + attacker->unit.res;
+    else if (GetItemAttributes(defender->weapon) & IA_MAGIC)
+        attacker->battleDefense = attacker->terrainResistance + attacker->unit.res;
+    else
+        attacker->battleDefense = attacker->terrainDefense + attacker->unit.def;
+}
+
+void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    short attack;
+
+    attacker->battleAttack = GetItemMight(attacker->weapon) + attacker->wTriangleDmgBonus;
+    attack = attacker->battleAttack;
+
+/*    if (IsUnitEffectiveAgainst(&attacker->unit, &defender->unit))
+        attack = attacker->battleAttack * 3;*/
+
+    if (IsItemEffectiveAgainst(attacker->weapon, &defender->unit))
+    {
+        attack = attacker->battleAttack;
+
+        switch (GetItemIndex(attacker->weapon))
+        {
+
+        /*
+         * Effective coefficient (English version): 2 if weapon is effective against enemy, 1 if not.
+         * Effective coefficient (Japanese version): 3 if weapon is effective against enemy (2 for dragon-slaying weapons, excluding Aureola), 1 if not.
+         */
+
+        case ITEM_WYRMSLAYER:
+        case ITEM_FORBLAZE:
+        case ITEM_DURANDAL:
+        case ITEM_ARMADS:
+        case ITEM_SOL_KATTI:
+            attack *= 2;
+            break;
+
+        default:
+            attack *= 3;
+            break;
+
+        } // switch (GetItemIndex(attacker->weapon))
+    }
+
+    attacker->battleAttack = attack;
+    attacker->battleAttack += attacker->unit.pow;
+}
+
+void ComputeBattleUnitSpeed(struct BattleUnit* bu)
+{
+    int effWt = GetItemWeight(bu->weaponBefore);
+
+    effWt -= bu->unit.conBonus;
+
+    if (effWt < 0)
+        effWt = 0;
+
+    bu->battleSpeed = bu->unit.spd - effWt;
+
+    if (bu->battleSpeed < 0)
+        bu->battleSpeed = 0;
+}
+
+// Tactician bonus is removed
+void ComputeBattleUnitHitRate(struct BattleUnit* bu)
+{
+    bu->battleHitRate = (bu->unit.skl * 2) + GetItemHit(bu->weapon) + (bu->unit.luk / 2) + bu->wTriangleHitBonus;
+}
+
+// Tactician bonus is removed
+void ComputeBattleUnitAvoidRate(struct BattleUnit* bu)
+{
+    bu->battleAvoidRate = (bu->battleSpeed * 2) + bu->terrainAvoid + (bu->unit.luk);
+
+    if (bu->battleAvoidRate < 0)
+        bu->battleAvoidRate = 0;
+}
+
+void ComputeBattleUnitCritRate(struct BattleUnit* bu)
+{
+    bu->battleCritRate = GetItemCrit(bu->weapon) + (bu->unit.skl / 2);
+
+    if (bu->unit.character->ability_criticalBonus || bu->unit.job->ability_criticalBonus)
+        bu->battleCritRate += 15;
+}
+
+void ComputeBattleUnitDodgeRate(struct BattleUnit* bu)
+{
+    bu->battleDodgeRate = bu->unit.luk;
+}
+
+void ComputeBattleUnitSupportBonuses(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if (!(gBattleStats.config & BATTLE_CONFIG_ARENA) || gRAMChapterData.chapterWeatherId)
+    {
+        struct SupportBonuses tmpBonuses;
+
+        GetUnitSupportBonuses(&attacker->unit, &tmpBonuses);
+
+        attacker->battleAttack    += tmpBonuses.bonusAttack;
+        attacker->battleDefense   += tmpBonuses.bonusDefense;
+        attacker->battleHitRate   += tmpBonuses.bonusHit;
+        attacker->battleAvoidRate += tmpBonuses.bonusAvoid;
+        attacker->battleCritRate  += tmpBonuses.bonusCrit;
+        attacker->battleDodgeRate += tmpBonuses.bonusDodge;
+    }
+}
+
+void ComputeBattleUnitWeaponRankBonuses(struct BattleUnit* bu)
+{
+    if (bu->weapon)
+    {
+        int wType = GetItemType(bu->weapon);
+
+        if (wType < 8 && (&bu->unit.levelSword)[wType] >= WPN_EXP_S)
+        {
+            bu->battleHitRate += 5;
+            bu->battleCritRate += 5;
+        }
+    }
+}
+
+void ComputeBattleUnitStatusBonuses(struct BattleUnit* bu)
+{
+    switch (bu->unit.stateType)
+    {
+
+    case UNIT_STATUS_ATTACK:
+        bu->battleAttack += 10;
+        break;
+
+    case UNIT_STATUS_DEFENSE:
+        bu->battleDefense += 10;
+        break;
+
+    case UNIT_STATUS_CRIT:
+        bu->battleCritRate += 10;
+        break;
+
+    case UNIT_STATUS_AVOID:
+        bu->battleAvoidRate += 10;
+        break;
+
+    } // switch (bu->unit.statusIndex)
+}
+
+void ComputeBattleUnitStats(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    ComputeBattleUnitDefense(attacker, defender);
+    ComputeBattleUnitAttack(attacker, defender);
+    ComputeBattleUnitSpeed(attacker);
+    ComputeBattleUnitHitRate(attacker);
+    ComputeBattleUnitAvoidRate(attacker);
+    ComputeBattleUnitCritRate(attacker);
+    ComputeBattleUnitDodgeRate(attacker);
+    ComputeBattleUnitSupportBonuses(attacker, defender);
+    ComputeBattleUnitWeaponRankBonuses(attacker);
+    ComputeBattleUnitStatusBonuses(attacker);
+}
+
+void ComputeBattleUnitStatsInjector(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    ComputeBattleUnitStats(attacker, defender);
+}

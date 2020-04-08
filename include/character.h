@@ -217,6 +217,19 @@ struct ItemSlot
     u8 residualDurability;
 };
 
+struct SMSHandle
+{
+    /* 00 */ struct SMSHandle* pNext;
+
+    /* 04 */ short xDisplay;
+    /* 06 */ short yDisplay;
+
+    /* 08 */ u16 oam2Base;
+
+    /* 0A */ u8 _u0A;
+    /* 0B */ s8 config;
+};
+
 // Unit data in RAM
 struct Unit
 {
@@ -227,13 +240,7 @@ struct Unit
     u8 unk_A;
     u8 number:6;
     u8 side:2;
-    u8 state;
-    u8 unk_flags_D_0_3:4;
-    u8 dropItem:1;
-    u8 growthPlus:1;
-    u8 unk_flags_D_6_7:2;
-    u8 unk_E;
-    u8 unk_F;
+    u32 state;
     u8 positionX;
     u8 positionY;
     s8 maxHp;
@@ -246,7 +253,7 @@ struct Unit
     s8 luk;
     s8 conBonus;
     u8 aidUnitNumber;
-    u8 unk_1C;
+    u8 ballistaIndex;
     s8 movBonus;
 
     struct ItemSlot items[5];
@@ -268,7 +275,6 @@ struct Unit
 
     u8 levelSupport[7];
 
-
     u8 unlockSupport1:1;
     u8 unlockSupport2:1;
     u8 unlockSupport3:1;
@@ -278,8 +284,10 @@ struct Unit
     u8 unlockSupport7:1;
     u8 unlockSupport8:1;
 
-    u8 unk_3A[6];
+    u8 unk_3A;
+    u8 unk_3B;
 
+    struct SMSHandle* pMapSpriteHandle;
 
     u8 AI_healing:3;
     u8 AI_targeting:5;
@@ -289,7 +297,8 @@ struct Unit
     u8 AI_movement;
     u8 AI_movement_counter;
 
-    u8 unk_46[2];
+    u8 unk_46;
+    u8 unk_47;
 };
 
 enum
@@ -371,5 +380,19 @@ extern const struct Unit NPCUnits[NPC_TOTAL_AMOUNT];
 extern const struct Unit P4Units[P4_TOTAL_AMOUNT];
 
 enum UnitSide {PlayerSide = 0, NPCSide, EnemySide, P4Side};
+
+struct SupportBonuses
+{
+    /* 00 */ u8 affinity;
+
+    /* 01 */ u8 bonusAttack;
+    /* 02 */ u8 bonusDefense;
+    /* 03 */ u8 bonusHit;
+    /* 04 */ u8 bonusAvoid;
+    /* 05 */ u8 bonusCrit;
+    /* 06 */ u8 bonusDodge;
+};
+
+int GetUnitSupportBonuses(struct Unit* unit, struct SupportBonuses* bonuses);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_H

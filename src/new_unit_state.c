@@ -511,3 +511,5 @@ void GenerateMovementMapOnWorkingMapInjector(struct Unit* unit, int x, int y, in
 {
     GenerateMovementMapOnWorkingMap(unit, x, y, movement);
 }
+
+

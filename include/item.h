@@ -208,4 +208,60 @@ struct Item
     u8 WPEXP;
 };
 
+int GetItemType(int item);
+int GetItemAttributes(int item);
+int GetItemMight(int item);
+int GetItemIndex(int item);
+int GetItemHit(int item);
+int GetItemWeight(int item);
+int GetItemCrit(int item);
+
+s8 IsItemEffectiveAgainst(u16 item, struct Unit* unit);
+s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target);
+
+enum {
+    // Item attributes
+
+    IA_NONE           = 0,
+
+    IA_WEAPON         = (1 << 0),
+    IA_MAGIC          = (1 << 1),
+    IA_STAFF          = (1 << 2),
+    IA_UNBREAKABLE    = (1 << 3),
+    IA_UNSELLABLE     = (1 << 4),
+    IA_BRAVE          = (1 << 5),
+    IA_MAGICDAMAGE    = (1 << 6),
+    IA_UNCOUNTERABLE  = (1 << 7),
+    IA_REVERTTRIANGLE = (1 << 8),
+    IA_HAMMERNE       = (1 << 9), // Defined as Hammerne effect in FE6 Nightmare module, but as ??? in FE7 & FE8.
+    IA_LOCK_3         = (1 << 10), // Dragons or Monster depending of game
+    IA_LOCK_1         = (1 << 11),
+    IA_LOCK_2         = (1 << 12),
+    IA_LOCK_0         = (1 << 13), // King in FE6
+    IA_NEGATE_FLYING  = (1 << 14),
+    IA_NEGATE_CRIT    = (1 << 15),
+    IA_UNUSABLE       = (1 << 16),
+    IA_NEGATE_DEFENSE = (1 << 17),
+    IA_LOCK_4         = (1 << 18),
+    IA_LOCK_5         = (1 << 19),
+    IA_LOCK_6         = (1 << 20),
+    IA_LOCK_7         = (1 << 21),
+
+    // Helpers
+    IA_REQUIRES_WEXP = (IA_WEAPON | IA_STAFF),
+    IA_LOCK_ANY = (IA_LOCK_0 | IA_LOCK_1 | IA_LOCK_2 | IA_LOCK_3 | IA_LOCK_4 | IA_LOCK_5 | IA_LOCK_6 | IA_LOCK_7 | IA_UNUSABLE)
+};
+
+enum {
+    // Weapon exp needed to have a given weapon level
+
+    WPN_EXP_0 = 0,
+    WPN_EXP_E = 1,
+    WPN_EXP_D = 31,
+    WPN_EXP_C = 71,
+    WPN_EXP_B = 121,
+    WPN_EXP_A = 181,
+    WPN_EXP_S = 251,
+};
+
 #endif //FE7_JP_STUNNING_TRIBBLE_ITEM_H
