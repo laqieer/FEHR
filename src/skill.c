@@ -2887,34 +2887,36 @@ void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* def
     attacker->battleAttack = GetItemMight(attacker->weapon) + attacker->wTriangleDmgBonus;
     attack = attacker->battleAttack;
 
-/*    if (IsUnitEffectiveAgainst(&attacker->unit, &defender->unit))
-        attack = attacker->battleAttack * 3;*/
-
-    if (IsItemEffectiveAgainst(attacker->weapon, &defender->unit))
+    if (IsUnitEffectiveAgainst(&attacker->unit, &defender->unit))
+        attack = attacker->battleAttack * 3;
+    else
     {
-        attack = attacker->battleAttack;
-
-        switch (GetItemIndex(attacker->weapon))
+        if (IsItemEffectiveAgainst(attacker->weapon, &defender->unit))
         {
-
-        /*
-         * Effective coefficient (English version): 2 if weapon is effective against enemy, 1 if not.
-         * Effective coefficient (Japanese version): 3 if weapon is effective against enemy (2 for dragon-slaying weapons, excluding Aureola), 1 if not.
-         */
-
-        case ITEM_WYRMSLAYER:
-        case ITEM_FORBLAZE:
-        case ITEM_DURANDAL:
-        case ITEM_ARMADS:
-        case ITEM_SOL_KATTI:
-            attack *= 2;
-            break;
-
-        default:
-            attack *= 3;
-            break;
-
-        } // switch (GetItemIndex(attacker->weapon))
+            attack = attacker->battleAttack;
+    
+            switch (GetItemIndex(attacker->weapon))
+            {
+    
+            /*
+             * Effective coefficient (English version): 2 if weapon is effective against enemy, 1 if not.
+             * Effective coefficient (Japanese version): 3 if weapon is effective against enemy (2 for dragon-slaying weapons, excluding Aureola), 1 if not.
+             */
+    
+            case ITEM_WYRMSLAYER:
+            case ITEM_FORBLAZE:
+            case ITEM_DURANDAL:
+            case ITEM_ARMADS:
+            case ITEM_SOL_KATTI:
+                attack *= 2;
+                break;
+    
+            default:
+                attack *= 3;
+                break;
+    
+            } // switch (GetItemIndex(attacker->weapon))
+        }
     }
 
     attacker->battleAttack = attack;

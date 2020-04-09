@@ -138,6 +138,11 @@ writeTSA = 0x80C0C29;
 
 chapter_titles_no_data = 0x841a6c4;
 
+JobListDragon = 0x8d5fb7d;
+JobListArmour = 0x8d5fb4e;
+JobListKnight = 0x8d5fb6f;
+JobListFlier = 0x8d5fb8a;
+
 SECTIONS
 {
 	. = 0x8000000;

@@ -34,4 +34,13 @@ int checkUnitStateGuard(struct Unit *unit);
 int checkUnitStateIsolation(struct Unit *unit);
 int checkUnitStateHarshed(struct Unit *unit);
 
+s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target);
+
+s8 IsUnitInJobList(struct Unit* unit, const u8* jobList);
+s8 IsUnitDragon(struct Unit* unit);
+s8 IsUnitArmour(struct Unit* unit);
+s8 IsUnitKnight(struct Unit* unit);
+s8 IsUnitFlier(struct Unit* unit);
+s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_NEW_UNIT_STATE_H

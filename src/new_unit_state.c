@@ -569,3 +569,43 @@ void BattleInitTargetCanCounterInjector(void)
     BattleInitTargetCanCounter();
 }
 
+s8 IsUnitInJobList(struct Unit* unit, const u8* jobList)
+{
+    int jobId = unit->job->id;
+    if(jobList)
+    {
+        for(u8 *job = jobList; *job; job++)
+        {
+            if(*job == jobId)
+                return 1;
+        }
+    }
+    return 0;
+}
+
+s8 IsUnitDragon(struct Unit* unit)
+{
+    IsUnitInJobList(unit, JobListDragon);
+}
+
+s8 IsUnitArmour(struct Unit* unit)
+{
+    IsUnitInJobList(unit, JobListArmour);
+}
+
+s8 IsUnitKnight(struct Unit* unit)
+{
+    IsUnitInJobList(unit, JobListKnight);
+}
+
+s8 IsUnitFlier(struct Unit* unit)
+{
+    IsUnitInJobList(unit, JobListFlier);
+}
+
+s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target)
+{
+    // effect of unit state Effective against dragons & Dragon Shield
+    return checkUnitStateEffectiveAgainstDragons(actor) && (!checkUnitStateDragonShield(target)) && IsUnitDragon(target);
+}
+
