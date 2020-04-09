@@ -609,3 +609,39 @@ s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target)
     return checkUnitStateEffectiveAgainstDragons(actor) && (!checkUnitStateDragonShield(target)) && IsUnitDragon(target);
 }
 
+void BattleApplyTriangleAdeptEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    // Effect of unit state Triangle Adept
+    if (checkUnitStateTriangleAdept(&attacker->unit) || checkUnitStateTriangleAdept(&defender->unit))
+    {
+        attacker->wTriangleHitBonus *= 2;
+        attacker->wTriangleDmgBonus *= 2; 
+        defender->wTriangleHitBonus *= 2;
+        defender->wTriangleDmgBonus *= 2;
+    }
+}
+
+void BattleApplyWeaponTriangleEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    const struct WeaponTriangleRule* it;
+
+    for (it = sWeaponTriangleRules; it->attackerWeaponType >= 0; ++it) {
+        if ((attacker->weaponType == it->attackerWeaponType) && (defender->weaponType == it->defenderWeaponType)) {
+            attacker->wTriangleHitBonus = it->hitBonus;
+            attacker->wTriangleDmgBonus = it->atkBonus;
+
+            defender->wTriangleHitBonus = -it->hitBonus;
+            defender->wTriangleDmgBonus = -it->atkBonus;
+
+            break;
+        }
+    }
+
+    if (attacker->weaponAttributes & IA_REVERTTRIANGLE)
+        BattleApplyReaverEffect(attacker, defender);
+
+    if (defender->weaponAttributes & IA_REVERTTRIANGLE)
+        BattleApplyReaverEffect(attacker, defender);
+
+    BattleApplyTriangleAdeptEffect(attacker, defender);
+}

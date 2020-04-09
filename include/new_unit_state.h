@@ -43,4 +43,15 @@ s8 IsUnitKnight(struct Unit* unit);
 s8 IsUnitFlier(struct Unit* unit);
 s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target);
 
+struct WeaponTriangleRule {
+    s8 attackerWeaponType;
+    s8 defenderWeaponType;
+    s8 hitBonus;
+    s8 atkBonus;
+};
+
+extern const struct WeaponTriangleRule sWeaponTriangleRules[];
+
+void BattleApplyReaverEffect(struct BattleUnit* attacker, struct BattleUnit* defender);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_NEW_UNIT_STATE_H

@@ -124,6 +124,7 @@ BattleUpdateBattleStats = 0x80296e5;
 BattleGenerateHitTriangleAttack = 0x80297d5;
 BattleGenerateHitAttributes = 0x8029715;
 BattleGenerateHitEffects = 0x802984d;
+BattleApplyReaverEffect = 0x802a5d1;
 HandleActiveUnitDeath = 0x802ff61;
 AnimEvtCode7Handler = 0x80544ef;
 isAnimationAtRight = 0x8054E61;
@@ -137,6 +138,8 @@ CpuFastSet = 0x80c0551;
 writeTSA = 0x80C0C29;
 
 chapter_titles_no_data = 0x841a6c4;
+
+sWeaponTriangleRules = 0x8c03528;
 
 JobListDragon = 0x8d5fb7d;
 JobListArmour = 0x8d5fb4e;
