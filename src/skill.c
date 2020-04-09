@@ -2390,9 +2390,10 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
         }
     }
 
-    if(isInBattle() && (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_ATTACK) == 0)
+    // Effect of unit state Guard (special skill cooldown stops counting during battle)
+    if(isInBattle() && (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_ATTACK) == 0 && (!checkUnitStateGuard(&attacker->unit)))
         increaseUnitSkillCD(&attacker->unit, 1);
-    if(isInBattle() && (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_DEFEND) == 0)
+    if(isInBattle() && (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_DEFEND) == 0 && (!(checkUnitStateGuard(&defender->unit))))
         increaseUnitSkillCD(&defender->unit, 1);
 }
 
