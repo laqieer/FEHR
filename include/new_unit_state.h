@@ -34,6 +34,12 @@ int checkUnitStateGuard(struct Unit *unit);
 int checkUnitStateIsolation(struct Unit *unit);
 int checkUnitStateHarshed(struct Unit *unit);
 
+void clearNewStateForPlayerUnits();
+void clearNewStateForEnemyUnits();
+void clearNewStateForNPCUnits();
+void clearNewStateForP4Units();
+void clearNewStateForAllUnits();
+
 s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target);
 
 s8 IsUnitInJobList(struct Unit* unit, const u8* jobList);

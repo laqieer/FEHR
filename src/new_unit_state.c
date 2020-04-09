@@ -279,7 +279,7 @@ void clearNegativeStateForAllUnits()
     clearNegativeStateForAllP4Units();
 }
 
-void clearNewStateForUnits()
+void clearNewStateForAllUnits()
 {
     clearPositiveStateForAllUnits();
     clearNegativeStateForAllUnits();

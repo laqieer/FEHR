@@ -263,10 +263,20 @@ void clearBuffAndDebuffForAllPlayerUnits()
     clearDebuffForAllPlayerUnits();
 }
 
+void clearBuffAndDebuffForPlayerUnits()
+{
+    clearBuffAndDebuffForAllPlayerUnits();
+}
+
 void clearBuffAndDebuffForAllEnemyUnits()
 {
     clearBuffForAllEnemyUnits();
     clearDebuffForAllEnemyUnits();
+}
+
+void clearBuffAndDebuffForEnemyUnits()
+{
+    clearBuffAndDebuffForAllEnemyUnits();
 }
 
 void clearBuffAndDebuffForAllNPCUnits()
@@ -275,10 +285,20 @@ void clearBuffAndDebuffForAllNPCUnits()
     clearDebuffForAllNPCUnits();
 }
 
+void clearBuffAndDebuffForNPCUnits()
+{
+    clearBuffAndDebuffForAllNPCUnits();
+}
+
 void clearBuffAndDebuffForAllP4Units()
 {
     clearBuffForAllP4Units();
     clearDebuffForAllP4Units();
+}
+
+void clearBuffAndDebuffForP4Units()
+{
+    clearBuffAndDebuffForAllP4Units();
 }
 
 void clearBuffForAllUnits()
@@ -651,6 +671,36 @@ void DrawStatScreenBonusNumberInjector(int bonusNumber, u16 *tileMap)
     DrawStatScreenBonusNumber(bonusNumber, tileMap);
 }
 
+void clearBuffDebuffAndNewStateForAllUnits()
+{
+    clearBuffAndDebuffForAllUnits();
+    clearNewStateForAllUnits();
+}
+
+void clearBuffDebuffAndNewStateForPlayerUnits()
+{
+    clearBuffAndDebuffForPlayerUnits();
+    clearNewStateForPlayerUnits();
+}
+
+void clearBuffDebuffAndNewStateForEnemyUnits()
+{
+    clearBuffAndDebuffForEnemyUnits();
+    clearNewStateForEnemyUnits();
+}
+
+void clearBuffDebuffAndNewStateForNPCUnits()
+{
+    clearBuffAndDebuffForNPCUnits();
+    clearNewStateForNPCUnits();
+}
+
+void clearBuffDebuffAndNewStateForP4Units()
+{
+    clearBuffAndDebuffForP4Units();
+    clearNewStateForP4Units();
+}
+
 /*
  * Duration: 1 turn. Clear units' buff & debuff when switching phase.
  */
@@ -662,18 +712,18 @@ void clearUnitsBuffAndDebuffForPhaseSwitch()
     {
         case NPCSide: //PlayerSide
             if(gRAMChapterData.chapterTurnNumber == 0)
-                clearBuffAndDebuffForAllUnits();
+                clearBuffDebuffAndNewStateForAllUnits();
             else
-                clearBuffAndDebuffForAllPlayerUnits();
+                clearBuffDebuffAndNewStateForPlayerUnits();
             break;
         case PlayerSide: //EnemySide
-            clearBuffAndDebuffForAllEnemyUnits();
+            clearBuffDebuffAndNewStateForEnemyUnits();
             break;
         case EnemySide: //NPCSide
-            clearBuffAndDebuffForAllNPCUnits();
+            clearBuffDebuffAndNewStateForNPCUnits();
             break;
         default: //TODO: for link arena
-            clearBuffAndDebuffForAllP4Units();
+            clearBuffDebuffAndNewStateForP4Units();
             break;
     }
 }
