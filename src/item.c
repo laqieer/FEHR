@@ -376,3 +376,7 @@ const struct Item * const pItems57 = items;
 const struct Item * const pItems58 = items;
 const struct Item * const pItems59 = items;
 const struct Item * const pItems60 = items;
+
+const u8* GetItemEffectiveness(int item) {
+    return items[ITEM_INDEX(item)].pEffectivenessJobList;
+}

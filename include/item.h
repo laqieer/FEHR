@@ -215,6 +215,7 @@ int GetItemIndex(int item);
 int GetItemHit(int item);
 int GetItemWeight(int item);
 int GetItemCrit(int item);
+const u8* GetItemEffectiveness(int item);
 
 s8 IsItemEffectiveAgainst(u16 item, struct Unit* unit);
 s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target);
@@ -263,5 +264,7 @@ enum {
     WPN_EXP_A = 181,
     WPN_EXP_S = 251,
 };
+
+#define ITEM_INDEX(aItem) ((aItem) & 0xFF)
 
 #endif //FE7_JP_STUNNING_TRIBBLE_ITEM_H

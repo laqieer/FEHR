@@ -2894,28 +2894,32 @@ void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* def
         if (IsItemEffectiveAgainst(attacker->weapon, &defender->unit))
         {
             attack = attacker->battleAttack;
-    
-            switch (GetItemIndex(attacker->weapon))
+  
+            // Effect of unit state Dragon Shield & Svalinn Shield
+            if(!((checkUnitStateDragonShield(&defender->unit) && GetItemEffectiveness(attacker->weapon) == JobListDragon) || (checkUnitStateSvalinnShield(&defender->unit) && GetItemEffectiveness(attacker->weapon) == JobListArmour)))
             {
+                switch (GetItemIndex(attacker->weapon))
+                {
     
-            /*
-             * Effective coefficient (English version): 2 if weapon is effective against enemy, 1 if not.
-             * Effective coefficient (Japanese version): 3 if weapon is effective against enemy (2 for dragon-slaying weapons, excluding Aureola), 1 if not.
-             */
+                /*
+                 * Effective coefficient (English version): 2 if weapon is effective against enemy, 1 if not.
+                 * Effective coefficient (Japanese version): 3 if weapon is effective against enemy (2 for dragon-slaying weapons, excluding Aureola), 1 if not.
+                 */
     
-            case ITEM_WYRMSLAYER:
-            case ITEM_FORBLAZE:
-            case ITEM_DURANDAL:
-            case ITEM_ARMADS:
-            case ITEM_SOL_KATTI:
-                attack *= 2;
-                break;
+                case ITEM_WYRMSLAYER:
+                case ITEM_FORBLAZE:
+                case ITEM_DURANDAL:
+                case ITEM_ARMADS:
+                case ITEM_SOL_KATTI:
+                    attack *= 2;
+                    break;
     
-            default:
-                attack *= 3;
-                break;
+                default:
+                    attack *= 3;
+                    break;
     
-            } // switch (GetItemIndex(attacker->weapon))
+                } // switch (GetItemIndex(attacker->weapon))
+            }
         }
     }
 
