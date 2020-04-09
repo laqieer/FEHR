@@ -6,6 +6,7 @@
 
 #include "job.h"
 #include "character.h"
+#include "skill.h"
 
 #include "new_unit_state.h"
 
@@ -533,4 +534,38 @@ void GenerateMovementMapOnWorkingMapInjector(struct Unit* unit, int x, int y, in
     GenerateMovementMapOnWorkingMap(unit, x, y, movement);
 }
 
+void DisableTargetCounter()
+{
+    gBattleTarget.weapon = 0;
+    gBattleTarget.canCounter = 0;
+}
+
+void BattleInitTargetCanCounter(void)
+{
+    // Unit state CounterattacksDisrupted's effect
+    if(checkUnitStateCounterattacksDisrupted(&gBattleTarget.unit))
+    {
+        DisableTargetCounter();
+    }
+
+    // Target cannot counter if either units are using "uncounterable" weapons
+    if((gBattleActor.weaponAttributes | gBattleTarget.weaponAttributes) & IA_UNCOUNTERABLE)
+    {
+        DisableTargetCounter();
+    }
+
+    // Target cannot counter if a berserked player unit is attacking another player unit
+    if(gBattleActor.unit.stateType == UNIT_STATUS_BERSERK)
+    {
+        if(gBattleActor.unit.side == PlayerSide && gBattleTarget.unit.side == PlayerSide)
+        {
+            DisableTargetCounter();
+        }
+    }
+}
+
+void BattleInitTargetCanCounterInjector(void)
+{
+    BattleInitTargetCanCounter();
+}
 

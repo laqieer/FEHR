@@ -4,3 +4,6 @@
 .text.GenerateUnitMovementMapExtInjector : {*(.text.GenerateUnitMovementMapExtInjector)}
 . = 0x801a090;
 .text.GenerateMovementMapOnWorkingMapInjector : {*(.text.GenerateMovementMapOnWorkingMapInjector)}
+. = 0x802a6a4;
+.text.BattleInitTargetCanCounterInjector : {*(.text.BattleInitTargetCanCounterInjector)}
+
