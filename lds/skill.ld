@@ -12,5 +12,7 @@
 .rodata.pStatScreenPageNameOAM : {*(.rodata.pStatScreenPageNameOAM)}
 .rodata.pStatScreenPageNameChrOffsetLut : {*(.rodata.pStatScreenPageNameChrOffsetLut)}
 .rodata.pStatScreenPageNamePalGroup : {*(.rodata.pStatScreenPageNamePalGroup)}
-. = 0x08028e2c;
+. = 0x8028e2c;
 .text.ComputeBattleUnitStatsInjector : {*(.text.ComputeBattleUnitStatsInjector)}
+. = 0x8c04d70;
+.rodata.pUnitActionMenuItems : {*(.rodata.pUnitActionMenuItems)}

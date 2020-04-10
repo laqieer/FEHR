@@ -62,6 +62,12 @@ infos = {
         "list": "Sound Room.txt",
         "startIndex": 1
     },
+    "UnitActionMenuItem": {
+        "format": "u32u16u16u8u8p16u32u32u32u32u32u32<",
+        "start": 0xc045d0,
+        "list": "UnitActionMenuItem.txt",
+        "startIndex": 1
+    },
 }
 
 structName = sys.argv[1]

@@ -381,6 +381,8 @@ extern const struct Unit P4Units[P4_TOTAL_AMOUNT];
 
 enum UnitSide {PlayerSide = 0, NPCSide, EnemySide, P4Side};
 
+extern struct Unit *currentActiveUnit;
+
 struct SupportBonuses
 {
     /* 00 */ u8 affinity;

@@ -11,6 +11,7 @@
 #include "item_id.h"
 #include "text_id.h"
 #include "portrait.h"
+#include "text.h"
 #include "stat_screen_page_name_skill.h"
 //#include "special_skill_icon.h"
 #include "skill_page_icons_1.h"
@@ -1418,7 +1419,7 @@ const struct SpecialSkill specialSkills[] = {
             "天照",
             "回復の杖使用時、自分と対象を除く全味方を１０回復する",
             "Heavenly Light",
-            "When healing an ally with a staff, restores 10 HP to all allies.\t",
+            "When healing an ally with a staff, restores 10 HP to all allies.",
             2,
                 0,
                 0,
@@ -1912,7 +1913,7 @@ const struct SpecialSkill specialSkills[] = {
             "業火静水の祝福+",
             "回復の杖使用時、自分を除く全味方の攻撃、魔防＋６",
             "Fireflood Balm+",
-            "When healing an ally with a staff, grants Atk/Res+6 to all allies for 1 turn.\t",
+            "When healing an ally with a staff, grants Atk/Res+6 to all allies for 1 turn.",
             1,
                 0,
                 0,
@@ -1938,7 +1939,7 @@ const struct SpecialSkill specialSkills[] = {
             "天空",
             "敵の守備、魔防半分扱いで攻撃　与えたダメージの半分自分を回復",
             "Aether",
-            "Treats foe's Def/Res as if reduced by 50% during combat.\n"
+            "Treats foe's Def/Res as if reduced by 50% during combat."
             "Restores HP = half of damage dealt.",
             5,
                 0,
@@ -1952,7 +1953,7 @@ const struct SpecialSkill specialSkills[] = {
             "疾風迅雷",
             "自分から攻撃した時、戦闘後、自分を行動可能\にする（１ターンに１回のみ)",
             "Galeforce",
-            "If unit initiates combat, grants unit another action after combat.\n"
+            "If unit initiates combat, grants unit another action after combat."
             "(Once per turn.)",
             5,
                 0,
@@ -1964,7 +1965,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "破天",
-            "敵の攻撃の２割を奥義ダメージに加算\n"
+            "敵の攻撃の２割を奥義ダメージに加算"
             "敵が竜、獣の時、２割ではなく４割を奥義ダメージに加算",
             "Ruptured Sky",
             "Boosts damage by 20% of foe's Atk. If in combat against a dragon foe or beast foe, boosts damage by 40% instead of 20%.",
@@ -1978,10 +1979,10 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ブルーフレイム",
-            "１０を奥義ダメージに加算\n"
+            "１０を奥義ダメージに加算"
             "味方と隣接している時、さらに１５を奥義ダメージに加算。合計２５を加算する。",
             "Blue Flame",
-            "Boosts damage by 10. If unit is adjacent to an ally, boosts damage by 25 instead.\t",
+            "Boosts damage by 10. If unit is adjacent to an ally, boosts damage by 25 instead.",
             3,
                 0,
                 specialSkillBlueFlameEffect,
@@ -2031,7 +2032,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "氷の聖鏡",
-            "敵の遠距離攻撃のダメージを３割軽減\n"
+            "敵の遠距離攻撃のダメージを３割軽減"
             "奥義発動で軽減した値を、敵に反射",
             "Ice Mirror",
             "If foe's Range = 2, reduces damage from foe's attacks by 30%. Boosts unit's next attack by total damage reduced (by any source, including other skills) when Special triggers. Resets at end of combat.",
@@ -2047,7 +2048,7 @@ const struct SpecialSkill specialSkills[] = {
             "蒼の天空",
             "敵の守備、魔防半分扱いで攻撃　与えたダメージの半分自分を回復",
             "Radiant Aether",
-            "During combat, treats foe's Def/Res as if reduced by 50%.\n"
+            "During combat, treats foe's Def/Res as if reduced by 50%."
             "Restores HP = 50% of damage dealt.",
             4,
                 0,
@@ -2059,11 +2060,11 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "炎の紋章",
-            "速さの３割を奥義ダメージに加算\n"
-            "戦闘後、自分と全味方の攻撃、速さ、守備、魔防＋４（１ターン）\n"
+            "速さの３割を奥義ダメージに加算"
+            "戦闘後、自分と全味方の攻撃、速さ、守備、魔防＋４（１ターン）"
             "（その戦闘で時分のＨＰが０になっても効果は発動）",
             "Fire Emblem",
-            "Boosts damage by 30% of unit's Spd.\n"
+            "Boosts damage by 30% of unit's Spd."
             "Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
             2,
                 0,
@@ -2075,7 +2076,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "月光閃",
-            "敵の守備・魔防８割扱いで攻撃\n"
+            "敵の守備・魔防８割扱いで攻撃"
             "速さの２割を奥義ダメージに加算",
             "Lunar Flash",
             "Treats foe’s Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd.",
@@ -2089,7 +2090,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "天狼",
-            "速さの３割を奥義ダメージに加算\n"
+            "速さの３割を奥義ダメージに加算"
             "与えたダメージの３割自分を回復",
             "Sirius",
             "Boosts damage by 30% of unit's Spd. Restores HP = 30% of damage dealt.",
@@ -2103,7 +2104,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ノヴァの聖戦士",
-            "自分から攻撃した時、戦闘後、自分を行動可能\にする（１ターンに１回のみ）\n"
+            "自分から攻撃した時、戦闘後、自分を行動可能\にする（１ターンに１回のみ）"
             "この奥義発動時、自分とダブル相手に移動を最大1マスに制限する状態異常を付与（次回行動終了まで）",
             "Njorun's Zeal",
             "If unit initiates combat, grants another action to unit after combat. (Once per turn.) When Special triggers, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort through their next action.",
@@ -2117,7 +2118,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "双刃",
-            "魔防の４割を奥義ダメージに加算\n"
+            "魔防の４割を奥義ダメージに加算"
             "奥義以外のスキルによる「ダメージを〇割軽減」を無効",
             "Twin Blades",
             "Boosts damage by 40% of unit's Res. Disables non-Special skills that \"reduce damage by X%.\"",
@@ -2131,7 +2132,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "開世",
-            "守備の半分を奥義ダメージに加算\n"
+            "守備の半分を奥義ダメージに加算"
             "与えたダメージの４分の１自分を回復",
             "Open the Future",
             "Boosts damage by 50% of unit's Def. Restores HP = 25% of damage dealt.",
@@ -2180,7 +2181,7 @@ u16 getUnitCharacterSpecialSkill(struct Unit *unit)
 
 u16 getUnitJobSpecialSkill(struct Unit *unit)
 {
-    return characterSpecialSkills[unit->job->id];
+    return jobSpecialSkills[unit->job->id];
 }
 
 // priority: itemSpecialSkills > characterSpecialSkills > jobSpecialSkills
@@ -2795,6 +2796,7 @@ void DisplayPage3()
     // display assist skill icon
     //DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 4), ICON_ASSIST_SKILL, 0x8000);
     drawIconInSkillPage(1, 4, ICON_ASSIST_SKILL, 8);
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 4), TEXT_COLOR_NORMAL, 0, 10, getAssistSkillNameTextInStatScreen());
 
     // Help Box Info
     gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
@@ -2857,11 +2859,12 @@ char *getSpecialSkillDescriptionText()
 
 const struct HelpBoxInfo sHelpInfo_Ss3CharacterName = {NULL, &sHelpInfo_Ss3JobName, NULL, &gHelpInfo_Ss3SpecialSkillName, 0x28, 0x50, NULL, NULL, 0x808245d};
 const struct HelpBoxInfo sHelpInfo_Ss3JobName = {&sHelpInfo_Ss3CharacterName, NULL, NULL, &sHelpInfo_Ss3NewUnitState, 6, 0x68, 0x22e, NULL, 0x8082485};
-const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName = {NULL, &sHelpInfo_Ss3NewUnitState, &sHelpInfo_Ss3CharacterName, &sHelpInfo_Ss3SpecialSkillCD, 112, 32, TEXT_SPECIAL_SKILL_HELP, NULL, NULL};
-const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD = {NULL, &sHelpInfo_Ss3NewUnitState, &gHelpInfo_Ss3SpecialSkillName, NULL, 172, 32, TEXT_SPECIAL_SKILL_CD_HELP, NULL, NULL};
+const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName = {NULL, &sHelpInfo_Ss3AssistSkillName, &sHelpInfo_Ss3CharacterName, &sHelpInfo_Ss3SpecialSkillCD, 112, 32, TEXT_SPECIAL_SKILL_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3AssistSkillName = {&gHelpInfo_Ss3SpecialSkillName, &sHelpInfo_Ss3NewUnitState, &sHelpInfo_Ss3CharacterName, NULL, 112, 48, TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD = {NULL, &sHelpInfo_Ss3AssistSkillName, &gHelpInfo_Ss3SpecialSkillName, NULL, 172, 32, TEXT_SPECIAL_SKILL_CD_HELP, NULL, NULL};
 const struct HelpBoxInfo sHelpInfo_Ss3PositiveState = {&sHelpInfo_Ss3SpecialSkillCD, &sHelpInfo_Ss3NegativeState, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_UNIT_POSITIVE_STATE_HELP, NULL, NULL};
 const struct HelpBoxInfo sHelpInfo_Ss3NegativeState = {&sHelpInfo_Ss3PositiveState, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x88, TEXT_UNIT_NEGATIVE_STATE_HELP, NULL, NULL};
-const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState = {&gHelpInfo_Ss3SpecialSkillName, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_NEW_UNIT_STATE_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState = {&sHelpInfo_Ss3AssistSkillName, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_NEW_UNIT_STATE_HELP, NULL, NULL};
 
 // Struct size
 const int sizeofUnit = sizeof(struct Unit);
@@ -3044,3 +3047,449 @@ void ComputeBattleUnitStatsInjector(struct BattleUnit* attacker, struct BattleUn
 {
     ComputeBattleUnitStats(attacker, defender);
 }
+
+
+/*
+ * Assist Skills. 補助スキル.
+ */
+
+
+extern const struct AssistSkill assistSkills[];
+
+const u16 itemAssistSkills[0x100] = {
+        0,
+};
+
+const u16 characterAssistSkills[0x100] = {
+        [CHARACTER_ALFONSE_ID] = ASSIST_SKILL_SWAP,
+        [CHARACTER_ANNA_ID] = ASSIST_SKILL_HARSH_COMMAND,
+        [CHARACTER_SHARENA_ID] = ASSIST_SKILL_RALLY_ATK,
+};
+
+const u16 jobAssistSkills[0x100] = {
+        0,
+};
+
+u16 getUnitItemAssistSkill(struct Unit *unit)
+{
+    u16 assistSkill = 0;
+
+    for(int i = 0; i < 5; i++)
+    {
+        assistSkill = itemAssistSkills[unit->items[i].itemId];
+        if(assistSkill)
+            return assistSkill;
+    }
+
+    return assistSkill;
+}
+
+u16 getUnitCharacterAssistSkill(struct Unit *unit)
+{
+    return characterAssistSkills[unit->character->id];
+}
+
+u16 getUnitJobAssistSkill(struct Unit *unit)
+{
+    return jobAssistSkills[unit->job->id];
+}
+
+// priority: itemAssistSkills > characterAssistSkills > jobAssistSkills
+u16 getUnitAssistSkill(struct Unit *unit)
+{
+    u16 assistSkill = 0;
+
+    assistSkill = getUnitItemAssistSkill(unit);
+    if(assistSkill)
+        return assistSkill;
+
+    assistSkill = getUnitCharacterAssistSkill(unit);
+    if(assistSkill)
+        return assistSkill;
+
+    assistSkill = getUnitJobAssistSkill(unit);
+
+    return assistSkill;
+}
+
+
+u8 isAssistSkillAvailable(const struct MenuItem* menuItem, int number)
+{
+    // Check if unit has available assist skill
+    int assistSkillId = getUnitAssistSkill(currentActiveUnit);
+    if(assistSkillId == 0)
+        return MENU_NOTSHOWN;
+
+    // Effect of unit state Isolation
+    if(checkUnitStateIsolation(currentActiveUnit))
+        return MENU_DISABLED;
+
+    // Assist skill's condition
+    if(assistSkills[assistSkillId].condition)
+        return assistSkills[assistSkillId].condition();
+
+    return MENU_ENABLED;
+}
+
+u8 AssistSkillSelected(struct MenuProc* menuProc, struct MenuItemProc* menuItemProc)
+{
+    int assistSkillId = getUnitAssistSkill(currentActiveUnit);
+
+    if(assistSkillId && assistSkills[assistSkillId].effect)
+        return assistSkills[assistSkillId].effect();
+
+    return 1;
+}
+
+const struct MenuItem gUnitActionMenuItems[] = {
+    {136091504, 4285, 866, 0, 77, 134357809, 0, 134357877, 0, 0, 0} ,  //
+    {136091496, 4286, 854, 0, 78, 134363657, 0, 134356661, 0, 134356909, 134357013} ,  //
+    {136091496, 4286, 854, 0, 79, 134363781, 0, 134356661, 0, 134356909, 134357013} ,  //
+    {136091488, 4287, 855, 0, 80, 134360453, 0, 134360573, 0, 134360681, 134360753} ,  //
+    {136091480, 0, 877, 4, 81, 134363429, 0, 134363521, 0, 0, 0} ,  //
+    {136091468, 0, 878, 4, 82, 134363565, 0, 134363613, 0, 0, 0} ,  //
+    {136091456, 4288, 857, 0, 83, 134358165, 0, 134358285, 0, 0, 0} ,  //
+    {136091448, 4289, 856, 0, 84, 134358225, 0, 134358285, 0, 0, 0} ,  //
+    {136091440, 4290, 858, 0, 85, 134362117, 0, 134362197, 0, 0, 0} ,  //
+    {136091432, 4291, 864, 0, 86, 134361005, 0, 134361073, 0, 0, 0} ,  //
+    {136091424, 4292, 992, 0, 87, 134361145, 0, 134361225, 0, 0, 0} ,  //
+    {136091416, 4293, 865, 0, 88, 134357909, 0, 134358021, 0, 0, 0} ,  //
+    {136091408, 4294, 869, 0, 89, 134361401, 0, 134361461, 0, 0, 0} ,  //
+    {136091400, 4295, 867, 0, 90, 134361297, 0, 134361361, 0, 0, 0} ,  //
+    {136091388, 4296, 870, 0, 91, 134361677, 0, 134361729, 0, 0, 0} ,  //
+    {136091376, 4297, 871, 0, 92, 134361761, 0, 134361813, 0, 0, 0} ,  //
+    {136091364, 4298, 872, 0, 93, 134361845, 0, 134361897, 0, 0, 0} ,  //
+    {136091352, 4299, 873, 0, 94, 134361929, 0, 134362009, 0, 0, 0} ,  //
+    {136091344, 4300, 859, 0, 95, 134356009, 0, 134356065, 0, 0, 0} ,  //
+    {136091332, 4301, 860, 0, 96, 134356117, 0, 134356173, 0, 0, 0} ,  //
+    {136091320, 4302, 862, 4, 97, 134356241, 0, 134356313, 0, 0, 0} ,  //
+    {136091308, 4303, 861, 4, 98, 134356345, 0, 134356417, 0, 0, 0} ,  //
+    {136091296, 4304, 874, 0, 99, 134358517, 0, 134358549, 0, 0, 0} ,  //
+    {136091288, 4305, 875, 4, 100, 134357641, 0, 134357725, 0, 0, 0} ,  //
+    {136091276, 4306, 876, 4, 101, 134361497, 0, 134361645, 0, 0, 0} ,  //
+    {136091268, 4310, 886, 0, 102, 134362081, 0, 134362105, 0, 0, 0} ,  //
+    {136091260, 4307, 853, 0, 103, 134525141, 0, 134355645, 0, 0, 0} ,  //
+//    {"補助スキル", TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU, TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU, TEXT_COLOR_GREEN, 105, isAssistSkillAvailable, 0, AssistSkillSelected, 0, 0, 0} ,  //
+    // TODO: display assist skill name in menu directly or concat assist skill name and description text and then display it in helpbox message.
+    {"補助スキル", TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU, TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU, TEXT_COLOR_GREEN, 105, isAssistSkillAvailable, 0, AssistSkillSelected, 0, 0, 0} ,  //
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  //
+};
+
+const struct MenuItem *const pUnitActionMenuItems = gUnitActionMenuItems;
+
+int conditionAlwaysEnabled()
+{
+    return MENU_ENABLED;
+}
+
+int conditionAlwaysDisabled()
+{
+    return MENU_DISABLED;
+}
+
+int conditionAlwaysHidden()
+{
+    return MENU_NOTSHOWN;
+}
+
+/*
+ * 応援系の補助スキル.
+ */
+
+// 攻撃の応援: 対象の攻撃+4（1ターン）
+u8 assistSkillRallyAttackEffect()
+{
+    return 1;
+}
+
+// 速さの応援: 対象の速さ+4（1ターン）
+u8 assistSkillRallySpeedEffect()
+{
+    return 1;
+}
+
+// 守備の応援: 対象の守備+4（1ターン）
+u8 assistSkillRallyDefenseEffect()
+{
+    return 1;
+}
+
+// 魔防の応援: 対象の魔防+4（1ターン）
+u8 assistSkillRallyResistanceEffect()
+{
+    return 1;
+}
+
+// 攻撃速さの応援: 対象の攻撃、速さ+3（1ターン）
+u8 assistSkillRallyAttackSpeedEffect()
+{
+    return 1;
+}
+
+// 攻撃守備の応援: 対象の攻撃、守備+3（1ターン）
+u8 assistSkillRallyAttackDefenseEffect()
+{
+    return 1;
+}
+
+// 攻撃魔防の応援: 対象の攻撃、魔防+3(1ターン)
+u8 assistSkillRallyAttackResistanceEffect()
+{
+    return 1;
+}
+
+// 速さ守備の応援: 対象の速さ、守備+3（1ターン）
+u8 assistSkillRallySpeedDefenseEffect()
+{
+    return 1;
+}
+
+// 守備魔防の応援: 対象の守備、魔防+3（1ターン）
+u8 assistSkillRallyDefenseResistanceEffect()
+{
+    return 1;
+}
+
+// 速さ魔防の応援: 対象の速さ、魔防+3（1ターン）
+u8 assistSkillRallySpeedResistanceEffect()
+{
+    return 1;
+}
+
+// 速さ守備の応援+: 対象の速さ、守備+6（1ターン）
+u8 assistSkillRallySpeedDefensePlusEffect()
+{
+    return 1;
+}
+
+// 攻撃の大応援: 対象とその周囲2マスの味方（自分は除く）の攻撃+3（1ターン）
+u8 assistSkillRallyUpAttackEffect()
+{
+    return 1;
+}
+
+// 攻撃の大応援+: 対象とその周囲2マスの味方（自分は除く）の攻撃+6（1ターン）
+u8 assistSkillRallyUpAttackPlusEffect()
+{
+    return 1;
+}
+
+// 攻撃速さの応援+: 対象の攻撃、速さ+6（1ターン）
+u8 assistSkillRallyAttackSpeedPlusEffect()
+{
+    return 1;
+}
+
+// 守備魔防の応援+: 対象の守備、魔防+6（1ターン）
+u8 assistSkillRallyDefenseResistancePlusEffect()
+{
+    return 1;
+}
+
+// 魔防の大応援: 対象とその周囲2マス味方（自分は除く）の魔防+4（1ターン）
+u8 assistSkillRallyUpResistanceEffect()
+{
+    return 1;
+}
+
+// 魔防の大応援+: 対象とその周囲2マス味方（自分は除く）の魔防+6（1ターン）
+u8 assistSkillRallyUpResistancePlusEffect()
+{
+    return 1;
+}
+
+// 攻撃守備の応援+: 対象の攻撃、守備+6（1ターン）
+u8 assistSkillRallyAttackDefensePlusEffect()
+{
+    return 1;
+}
+
+// 速さ魔防の応援+: 対象の速さ、魔防+6（1ターン）
+u8 assistSkillRallySpeedResistancePlusEffect()
+{
+    return 1;
+}
+
+// 攻撃魔防の応援+: 対象の攻撃、魔防＋6（1ターン）
+u8 assistSkillRallyAttackResistancePlusEffect()
+{
+    return 1;
+}
+
+/*
+ * 移動系の補助スキル.
+ */
+
+// 引き寄せ: 対象を自分の位置に移動させ、自分は1マス手前へ移動する
+u8 assistSkillDrawBackEffect()
+{
+    return 1;
+}
+
+// 引き戻し: 対象を自分の反対側の位置に移動させる
+u8 assistSkillReposistionEffect()
+{
+    return 1;
+}
+
+// 入れ替え: 自分と対象の位置を入れ替える
+u8 assistSkillSwapEffect()
+{
+    return 1;
+}
+
+// 回り込み: 自分が対象の反対側の位置に移動する
+u8 assistSkillPivotEffect()
+{
+    return 1;
+}
+
+// 体当たり: 対象を自分と反対方向に1マス移動させる
+u8 assistSkillShoveEffect()
+{
+    return 1;
+}
+
+// ぶちかまし: 対象を自分と反対方向に2マス移動させる
+u8 assistSkillSmiteEffect()
+{
+    return 1;
+}
+
+
+/*
+ * 特殊系の補助スキル.
+ */
+
+// 一喝: 対象が受けている弱化を無効化し、強化に変換する
+u8 assistSkillHarshCommandEffect()
+{
+    return 1;
+}
+
+// 一喝+: 対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）もし弱化の状態異常を受けている場合、解除後、強化に変換する
+u8 assistSkillHarshCommandPlusEffect()
+{
+    return 1;
+}
+
+// 献身: 対象のHPを10回復し、自分のHPを10減少
+u8 assistSkillArdentSacrificeEffect()
+{
+    return 1;
+}
+
+// 相互援助: 自分と対象のHPを入れ替える	
+u8 assistSkillReciprocalAidEffect()
+{
+    return 1;
+}
+
+/*
+ * 専用系の補助スキル.
+ */
+
+// 癒しの手: 対象が受けている弱化を無効化し、強化に変換する　対象のHPを回復し、その分自分のHPが減少する（回復量は、最大で自分の現HP-1）
+u8 assistSkillSacrificeEffect()
+{
+    return 1;
+}
+
+// 未来を映す瞳: 自分と対象の位置を入れ替え、その後、自分を行動可能にする
+u8 assistSkillFutureVisionEffect()
+{
+    return 1;
+}
+
+// ユラリユルレリ: このスキルは「歌う」「踊る」として扱われる 対象を行動可能にする 対象が歩行、飛行の時、対象の移動+1（1ターン、重複しない）
+u8 assistSkillGrayWavesEffect()
+{
+    return 1;
+}
+
+// やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、自分と対象の十字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防+3、かつ「周囲2マス以内の味方の隣接マスに移動可能」を付与（1ターン）
+u8 assistSkillGentleDreamEffect()
+{
+    return 1;
+}
+
+// こわいゆめ
+u8 assistSkillFrightfulDreamEffect()
+{
+    return 1;
+}
+
+// あまいゆめ
+u8 assistSkillSweetDreamsEffect()
+{
+    return 1;
+}
+
+// 運命を変える！: 対象を自分の反対側の位置に移動させ、その後、自分を行動可能にする、かつ自分とダブル相手の攻撃+6（1ターン）、自分とダブル相手に【補助不可】を付与（次回行動終了まで）（「その後」以降の効果は1ターンに1回のみ）【補助不可】自分は補助スキルを使用できず、仲間から補助スキルを受けることもできない異常状態（次回行動終了まで）（不利な状態異常を解除する「レスト」「一喝+」等の補助スキルを受けることもできない）
+u8 assistSkillToChangeFateEffect()
+{
+    return 1;
+}
+
+
+const struct AssistSkill assistSkills[] = {
+    {"ーー", "補助スキルを持っていない", "NO DATA", "No assist skill available", conditionAlwaysHidden, NULL},
+    {"引き戻し", "対象を自分の反対側の位置に移動させる", "Reposition", "Target ally moves to opposite side of unit.", NULL, assistSkillReposistionEffect},
+    {"ぶちかまし", "対象を自分と反対方向に２マス移動させる", "Smite", "Pushes target ally 2 spaces away.", NULL, assistSkillSmiteEffect},
+    {"引き寄せ", "対象を自分の位置に移動させ、自分は１マス手前へ移動する", "Draw Back", "Unit moves 1 space away from target ally. Ally moves to unit's previous space.", NULL, assistSkillDrawBackEffect},
+    {"入れ替え", "自分と対象の位置を入れ替える", "Swap", "Unit and target ally swap spaces.", NULL, assistSkillSwapEffect},
+    {"速さの応援", "対象の速さ＋４", "Rally Speed", "Grants Spd+4 to target ally for 1 turn.", NULL, assistSkillRallySpeedEffect},
+    {"攻撃の応援", "対象の攻撃＋４", "Rally Attack", "Grants Atk+4 to target ally for 1 turn.", NULL, assistSkillRallyAttackEffect},
+    {"守備の応援", "対象の守備＋４", "Rally Defense", "Grants Def+4 to target ally for 1 turn.", NULL, assistSkillRallyDefenseEffect},
+    {"魔防の応援", "対象の魔防＋４", "Rally Resistance", "Grants Res+4 to target ally for 1 turn.", NULL, assistSkillRallyResistanceEffect},
+    {"献身", "対象のＨＰを１０回復し、自分のＨＰを１０減少", "Ardent Sacrifice", "Restores 10 HP to target ally. Unit loses 10 HP but cannot go below 1.", NULL, assistSkillArdentSacrificeEffect},
+    {"回り込み", "自分が対象の反対側の位置に移動する", "Pivot", "Unit moves to opposite side of target ally.", NULL, assistSkillPivotEffect},
+    {"いっかつ", "対象が受けている弱化を"TCC_NEWLINE"無効化し、強化に変換する", "Harsh Command", "Converts penalties on target into bonuses.", NULL, assistSkillHarshCommandEffect},
+    {"体当たり", "対象を自分と反対方向に１マス移動させる", "Shove", "Pushes target ally 1 space away.", NULL, assistSkillShoveEffect},
+    {"相互援助", "自分と対象のＨＰを入れ替える", "Reciprocal Aid", "Unit and target ally swap HP.(Neither can go above their max HP.)", NULL, assistSkillReciprocalAidEffect},
+    {"攻撃速さの応援", "対象の攻撃、速さ＋３", "Rally Atk/Spd", "Grants Atk/Spd+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackSpeedEffect},
+    {"守備魔防の応援", "対象の守備、魔防＋３", "Rally Def/Res", "Grants Def/Res+3 to target ally for 1 turn.", NULL, assistSkillRallyDefenseResistanceEffect},
+    {"攻撃魔防の応援", "対象の攻撃、魔防＋３", "Rally Atk/Res", "Grants Atk/Res+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistanceEffect},
+    {"速さ守備の応援", "対象の速さ、守備＋３", "Rally Spd/Def", "Grants Spd/Def+3 to target ally for 1 turn.", NULL, assistSkillRallySpeedDefenseEffect},
+    {"速さ魔防の応援", "対象の速さ、魔防＋３", "Rally Spd/Res", "Grants Spd/Res+3 to target ally for 1 turn.", NULL, assistSkillRallySpeedResistanceEffect},
+    {"攻撃守備の応援", "対象の攻撃、守備＋３", "Rally Atk/Def", "Grants Atk/Def+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefenseEffect},
+    {"攻撃の大応援", "対象とその周囲２マスの味方（自分は除く）の攻撃＋４", "Rally Up Atk", "Grants Atk+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackEffect},
+    {"魔防の大応援", "対象とその周囲２マスの味方（自分は除く）の魔防＋４", "Rally Up Res", "Grants Res+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpResistanceEffect},
+    {"癒しの手", "対象が受けている弱化を無効化し、強化に変換する。対象のＨＰを回復し、その分自分のＨＰが減少する（回復量は、最大で自分の現ＨＰー１）", "Sacrifice", "Converts penalties on target into bonuses. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.", NULL, assistSkillSacrificeEffect},
+    {"未来を映す瞳", "自分と対象の位置を入れ替え、その後、自分を行動可能\にする", "Future Vision", "Unit and target ally swap spaces. Grants another action to unit.", NULL, assistSkillFutureVisionEffect},
+    {"速さ守備の応援＋", "対象の速さ、守備＋６", "Rally Spd/Def+", "Grants Spd/Def+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedDefensePlusEffect},
+    {"攻撃の大応援＋", "対象とその周囲２マスの味方（自分は除く）の攻撃＋６", "Rally Up Atk+", "Grants Atk+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackPlusEffect},
+    {"攻撃速さの応援＋", "対象の攻撃、速さ＋６", "Rally Atk/Spd+", "Grants Atk/Spd+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackSpeedPlusEffect},
+    {"ユラリユルレリ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にする。対象が歩行、飛行の時、対象の移動＋１", "Gray Waves", "Grants another action to target ally, and if target is an infantry or flying ally, target can move 1 extra space.", NULL, assistSkillGrayWavesEffect},
+    {"守備魔防の応援＋", "対象の守備、魔防＋６", "Rally Def/Res+", "Grants Def/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyDefenseResistancePlusEffect},
+    {"魔防の大応援＋", "対象とその周囲２マスの味方（自分は除く）の魔防＋６", "Rally Up Res+", "Grants Res+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpResistancePlusEffect},
+    {"攻撃守備の応援＋", "対象の攻撃、守備＋６", "Rally Atk/Def+", "Grants Atk/Def+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefensePlusEffect},
+    {"一喝＋", "対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）。もし弱化の状態異常を受けている場合、解除後、強化に変換する", "Harsh Command+", "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.", NULL, assistSkillHarshCommandPlusEffect},
+    {"速さ魔防の応援＋", "対象の速さ、魔防＋６", "Rally Spd/Res+", "Grants Spd/Res+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedResistancePlusEffect},
+    {"やさしいゆめ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にし、対象と、自分と対象の十\字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防＋３、かつ「周囲２マス以内の味方の隣接マスに移動可能\」を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of unit and target (excluding unit): Unit can move to a space adjacent to any ally within 2 spaces.", NULL, assistSkillGentleDreamEffect},
+    {"攻撃魔防の応援＋", "対象の攻撃、魔防＋６", "Rally Atk/Res+", "Grants Atk/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistancePlusEffect},
+    {"運命を変える！", "対象を自分の反対側の位置に移動させ、その後、自分を行動可能\にする、かつ自分とダブル相手の攻撃＋６、自分とダブル相手に【補助不可】を付与", "To Change Fate!", "Moves target ally to opposite side of unit and grants another action to unit. Grants Atk+6 to unit and Pair Up cohort (if any) for 1 turn and inflicts【Isolation】on unit and Pair Up cohort (if any) through their next action.", NULL, assistSkillToChangeFateEffect},
+    {"こわいゆめ", "こわいゆめ", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of unit and target through their next actions.", NULL, assistSkillFrightfulDreamEffect},
+    {"あまいゆめ", "あまいゆめ", "Sweet Dreams", "Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces of target ally through foes' next actions.", NULL, assistSkillSweetDreamsEffect},
+};
+
+char *getAssistSkillNameTextInActionMenu()
+{
+    return assistSkills[getUnitAssistSkill(currentActiveUnit)].name;
+}
+
+char *getAssistSkillDescriptionTextInActionMenu()
+{
+    return assistSkills[getUnitAssistSkill(currentActiveUnit)].help;
+}
+
+char *getAssistSkillNameTextInStatScreen()
+{
+    return assistSkills[getUnitAssistSkill(gStatScreen.unit)].name;
+}
+
+char *getAssistSkillDescriptionTextInStatScreen()
+{
+    return assistSkills[getUnitAssistSkill(gStatScreen.unit)].help;
+}
+

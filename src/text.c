@@ -1006,6 +1006,10 @@ const char* const texts[] = {
         [TEXT_UNIT_POSITIVE_STATE_HELP] = "状態強化（有利な状態）",
         [TEXT_UNIT_NEGATIVE_STATE_HELP] = "状態異常（不利な状態）",
         [TEXT_NEW_UNIT_STATE_HELP] = "状態強化と状態異常",
+
+        [TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU] = "補助スキル",
+        [TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU] = "補助スキルヘルプ情報",
+        [TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN] = "補助スキルヘルプ情報",
 };
 
 extern int lastTextID;
@@ -1024,6 +1028,12 @@ char *decodeText(int textID)
     char *p = texts[textID];
     if(textID == TEXT_SPECIAL_SKILL_HELP)
         p = getSpecialSkillDescriptionText();
+    if(textID == TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU)
+        p = getAssistSkillNameTextInActionMenu();
+    if(textID == TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU)
+        p = getAssistSkillDescriptionTextInActionMenu();
+    if(textID == TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN)
+        p = getAssistSkillDescriptionTextInStatScreen();
     char *q = decodedText;
     if(textID < sizeof(texts) / 4 && p)
     {

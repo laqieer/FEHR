@@ -9,6 +9,7 @@
 #include "job.h"
 #include "item.h"
 #include "fontgrp.h"
+#include "proc.h"
 
 enum {
     // Battle-related magic constants
@@ -463,8 +464,13 @@ extern const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD;
 extern const struct HelpBoxInfo sHelpInfo_Ss3PositiveState;
 extern const struct HelpBoxInfo sHelpInfo_Ss3NegativeState;
 extern const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState;
+extern const struct HelpBoxInfo sHelpInfo_Ss3AssistSkillName;
 
 char *getSpecialSkillDescriptionText();
+char *getAssistSkillNameTextInActionMenu();
+char *getAssistSkillDescriptionTextInActionMenu();
+char *getAssistSkillNameTextInStatScreen();
+char *getAssistSkillDescriptionTextInStatScreen();
 
 enum {
     // Icons in skill page.
@@ -485,6 +491,87 @@ enum {
     ICON_BONUS_DOUBLER,
     ICON_DRAGON_SHIELD,
     ICON_SVALINN_SHIELD,
+};
+
+enum
+{
+    MENU_ITEM_MAX = 11,       //!< max menu item count
+    MENU_OVERRIDE_MAX = 0x10, //!< max menu overrides
+};
+
+struct MenuRect { s8 x, y, w, h; };
+
+struct MenuItem
+{
+    /* 00 */ const char* name; // display in Japanese version
+
+    /* 04 */ u16 nameMsgId; // display in English version
+    /* 06 */ u16 helpMsgId; // display in both versions
+    /* 08 */ u8 color, overrideId;
+
+    /* 0C */ u8(*isAvailable)(const struct MenuItemDef*, int number);
+
+    /* 10 */ int(*onDraw)(struct MenuProc*, struct MenuItemProc*);
+
+    /* 14 */ u8(*onSelected)(struct MenuProc*, struct MenuItemProc*);
+    /* 18 */ u8(*onIdle)(struct MenuProc*, struct MenuItemProc*);
+
+    /* 1C */ int(*onSwitchIn)(struct MenuProc*, struct MenuItemProc*);
+    /* 20 */ int(*onSwitchOut)(struct MenuProc*, struct MenuItemProc*);
+};
+
+enum
+{
+    // Menu availability identifiers
+
+    MENU_ENABLED  = 1,
+    MENU_DISABLED = 2,
+    MENU_NOTSHOWN = 3,
+};
+
+struct MenuProc
+{
+    /* 00 */ PROC_HEADER;
+
+    /* 2C */ struct MenuRect rect;
+    /* 30 */ const struct MenuDef* def;
+
+    /* 34 */ struct MenuItemProc* menuItems[MENU_ITEM_MAX];
+
+    /* 60 */ u8 itemCount;
+    /* 61 */ u8 itemCurrent;
+    /* 62 */ u8 itemPrevious;
+    /* 63 */ u8 state;
+
+    /* 64 */ u8 backBg : 2;
+    /* 64 */ u8 frontBg : 2;
+
+    /* 66 */ u16 tileref;
+    /* 68 */ u16 unk68;
+};
+
+struct MenuItemProc
+{
+    /* 00 */ PROC_HEADER;
+
+    /* 2A */ short xTile;
+    /* 2C */ short yTile;
+
+    /* 30 */ const struct MenuItemDef* def;
+
+    /* 34 */ struct TextHandle text;
+
+    /* 3C */ s8 itemNumber;
+    /* 3D */ u8 availability;
+};
+
+struct AssistSkill {
+    const char * const name;
+    const char * const help;
+    const char * const name_en;
+    const char * const help_en;
+    int(*condition)();
+    int(*effect)();
 };
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
