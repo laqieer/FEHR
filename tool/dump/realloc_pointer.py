@@ -4,6 +4,7 @@ import sys
 
 if len(sys.argv) == 1:
     print(sys.argv[0], " Character/Job/Item")
+    exit(1)
 
 ptrs = {
     "Character": b'\x24\xc1\xc4\x08',

@@ -8,6 +8,7 @@ import math
 
 if len(sys.argv) == 1:
     print(sys.argv[0], " c_header_file(.h) struct_name")
+    exit(1)
 
 with open(sys.argv[1], 'r') as h:
     lines = h.readlines()
