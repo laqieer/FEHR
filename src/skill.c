@@ -24,10 +24,10 @@
  * Specials are skills that activate based on a cooldown. They are reminiscent of critical hits from the main series Fire Emblem titles.
  */
 
-char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT] = {0xff};
-char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT] = {0xff};
-char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {0xff};
-char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {0xff};
+char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT] = {-1};
+char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT] = {-1};
+char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {-1};
+char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {-1};
 
 /*
  * ”ê‰ŠE•X‘“Œn‚Ì‰œ‹`ƒXƒLƒ‹
@@ -2303,7 +2303,7 @@ void initUnitSkillCD(struct Unit *unit)
 char getUnitSkillCD(struct Unit *unit)
 {
     char *pUnitSkillCD = getUnitSkillCDPointer(unit);
-    if (*pUnitSkillCD == 0xff) // uninitialized
+    if (*pUnitSkillCD == -1) // uninitialized
         *pUnitSkillCD = 0;
     return *pUnitSkillCD;
 }
@@ -2324,7 +2324,7 @@ void increaseUnitSkillCD(struct Unit *unit, char count)
     char *pUnitSkillCD = getUnitSkillCDPointer(unit);
     int maxCD = getUnitSkillCDMax(unit);
 
-    if(*pUnitSkillCD == 0xff) // uninitialized
+    if(*pUnitSkillCD == -1) // uninitialized
         *pUnitSkillCD = 0;
     *pUnitSkillCD += count;
     if(*pUnitSkillCD > maxCD)
@@ -2336,7 +2336,7 @@ void decreaseUnitSkillCD(struct Unit *unit, char count)
     char *pUnitSkillCD = getUnitSkillCDPointer(unit);
     int maxCD = getUnitSkillCDMax(unit);
 
-    if(*pUnitSkillCD == 0xff) // uninitialized
+    if(*pUnitSkillCD == -1) // uninitialized
         *pUnitSkillCD = 0;
     *pUnitSkillCD -= count;
     if(*pUnitSkillCD > maxCD || *pUnitSkillCD < 0)
