@@ -3032,15 +3032,25 @@ void ComputeBattleUnitStatusBonuses(struct BattleUnit* bu)
 void ComputeBattleUnitStats(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     ComputeBattleUnitDefense(attacker, defender);
+    //ComputeBattleUnitDefenseOriginal(attacker, defender);
     ComputeBattleUnitAttack(attacker, defender);
+    //ComputeBattleUnitAttackOriginal(attacker, defender);
     ComputeBattleUnitSpeed(attacker);
+    //ComputeBattleUnitSpeedOriginal(attacker);
     ComputeBattleUnitHitRate(attacker);
+    //ComputeBattleUnitHitRateOriginal(attacker);
     ComputeBattleUnitAvoidRate(attacker);
+    //ComputeBattleUnitAvoidRateOriginal(attacker);
     ComputeBattleUnitCritRate(attacker);
+    //ComputeBattleUnitCritRateOriginal(attacker);
     ComputeBattleUnitDodgeRate(attacker);
+    //ComputeBattleUnitDodgeRateOriginal(attacker);
     ComputeBattleUnitSupportBonuses(attacker, defender);
+    //ComputeBattleUnitSupportBonusesOriginal(attacker, defender);
     ComputeBattleUnitWeaponRankBonuses(attacker);
+    //ComputeBattleUnitWeaponRankBonusesOriginal(attacker);
     ComputeBattleUnitStatusBonuses(attacker);
+    //ComputeBattleUnitStatusBonusesOriginal(attacker);
 }
 
 void ComputeBattleUnitStatsInjector(struct BattleUnit* attacker, struct BattleUnit* defender)

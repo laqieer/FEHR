@@ -160,6 +160,17 @@ JobListArmour = 0x8d5fb4e;
 JobListKnight = 0x8d5fb6f;
 JobListFlier = 0x8d5fb8a;
 
+ComputeBattleUnitDefenseOriginal = 0x08028f15;
+ComputeBattleUnitAttackOriginal = 0x8028f8d;
+ComputeBattleUnitSpeedOriginal = 0x8029009;
+ComputeBattleUnitHitRateOriginal = 0x8029041;
+ComputeBattleUnitAvoidRateOriginal = 0x80290f9;
+ComputeBattleUnitCritRateOriginal = 0x80291b1;
+ComputeBattleUnitDodgeRateOriginal = 0x80291ed;
+ComputeBattleUnitSupportBonusesOriginal = 0x8028ea1;
+ComputeBattleUnitWeaponRankBonusesOriginal = 0x8029329;
+ComputeBattleUnitStatusBonusesOriginal = 0x8029365;
+
 SECTIONS
 {
 	. = 0x8000000;

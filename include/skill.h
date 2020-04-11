@@ -692,4 +692,19 @@ struct Proc* NewTargetSelection(const struct SelectInfo* selectInfo);
 void ChangeActiveUnitFacing(int x,int y);
 struct Unit* GetUnit(int id);
 
+/*
+ * Original battle stat calculation functions.
+ */
+
+void ComputeBattleUnitDefenseOriginal(struct BattleUnit* attacker, struct BattleUnit* defender);
+void ComputeBattleUnitAttackOriginal(struct BattleUnit* attacker, struct BattleUnit* defender);
+void ComputeBattleUnitSpeedOriginal(struct BattleUnit* bu);
+void ComputeBattleUnitHitRateOriginal(struct BattleUnit* bu);
+void ComputeBattleUnitAvoidRateOriginal(struct BattleUnit* bu);
+void ComputeBattleUnitCritRateOriginal(struct BattleUnit* bu);
+void ComputeBattleUnitDodgeRateOriginal(struct BattleUnit* bu);
+void ComputeBattleUnitSupportBonusesOriginal(struct BattleUnit* attacker, struct BattleUnit* defender);
+void ComputeBattleUnitWeaponRankBonusesOriginal(struct BattleUnit* bu);
+void ComputeBattleUnitStatusBonusesOriginal(struct BattleUnit* bu);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
