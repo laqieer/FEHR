@@ -496,9 +496,6 @@ const s8* GetUnitMovementCost(struct Unit* unit);
 void SetWorkingMoveCosts(const s8 mct[]);
 void GenerateMovementMap(int x, int y, int movement, int unitId);
 
-extern u8** gBmMapMovement;
-extern u8** gWorkingBmMap;
-
 void GenerateUnitMovementMap(struct Unit* unit)
 {
     SetWorkingMoveCosts(GetUnitMovementCost(unit));

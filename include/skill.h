@@ -225,6 +225,53 @@ struct ActionData
     /* 18 */ struct BattleHit* scriptedBattleHits;
 };
 
+enum
+{
+    FACING_LEFT  = 0,
+    FACING_RIGHT = 1,
+    FACING_DOWN  = 2,
+    FACING_UP    = 3,
+};
+
+enum
+{
+    // 0x00?
+    UNIT_ACTION_WAIT = 0x01,
+    UNIT_ACTION_COMBAT = 0x02,
+    UNIT_ACTION_STAFF = 0x03,
+    UNIT_ACTION_DANCE = 0x04,
+    // 0x05?
+    UNIT_ACTION_STEAL = 0x06,
+    UNIT_ACTION_SUMMON = 0x07,
+    UNIT_ACTION_SUMMON_DK = 0x08,
+    UNIT_ACTION_RESCUE = 0x09,
+    UNIT_ACTION_DROP = 0x0A,
+    UNIT_ACTION_TAKE = 0x0B,
+    UNIT_ACTION_GIVE = 0x0C,
+    // 0x0D?
+    UNIT_ACTION_TALK = 0x0E,
+    UNIT_ACTION_SUPPORT = 0x0F,
+    UNIT_ACTION_VISIT = 0x10,
+    UNIT_ACTION_SEIZE = 0x11,
+    UNIT_ACTION_DOOR = 0x12,
+    // 0x13?
+    UNIT_ACTION_CHEST = 0x14,
+    UNIT_ACTION_PICK = 0x15,
+    // 0x16?
+    UNIT_ACTION_SHOPPED = 0x17,
+    // 0x18?
+    UNIT_ACTION_ARENA = 0x19,
+    UNIT_ACTION_USE_ITEM = 0x1A,
+    UNIT_ACTION_TRADED = 0x1B,
+    // 0x1C?
+    UNIT_ACTION_TRADED_1D = 0x1D,
+    UNIT_ACTION_TRAPPED = 0x1E,
+    // 0x1F?
+    // 0x20?
+    UNIT_ACTION_RIDE_BALLISTA = 0x21,
+    UNIT_ACTION_EXIT_BALLISTA = 0x22
+};
+
 extern struct ActionData gActionData;
 
 void BattleUpdateBattleStats(struct BattleUnit* attacker, struct BattleUnit* defender);
@@ -501,6 +548,9 @@ enum
 
 struct MenuRect { s8 x, y, w, h; };
 
+struct MenuProc;
+struct MenuItemProc;
+
 struct MenuItem
 {
     /* 00 */ const char* name; // display in Japanese version
@@ -509,7 +559,7 @@ struct MenuItem
     /* 06 */ u16 helpMsgId; // display in both versions
     /* 08 */ u8 color, overrideId;
 
-    /* 0C */ u8(*isAvailable)(const struct MenuItemDef*, int number);
+    /* 0C */ u8(*isAvailable)(const struct MenuItem*, int number);
 
     /* 10 */ int(*onDraw)(struct MenuProc*, struct MenuItemProc*);
 
@@ -518,6 +568,20 @@ struct MenuItem
 
     /* 1C */ int(*onSwitchIn)(struct MenuProc*, struct MenuItemProc*);
     /* 20 */ int(*onSwitchOut)(struct MenuProc*, struct MenuItemProc*);
+};
+
+struct Menu
+{
+    /* 00 */ struct MenuRect rect;
+    /* 04 */ u8 style;
+    /* 08 */ const struct MenuItem* menuItems;
+
+    /* 0C */ void(*onInit)(struct MenuProc*);
+    /* 10 */ void(*onEnd)(struct MenuProc*);
+    /* 14 */ void(*_u14)(struct MenuProc*);
+    /* 18 */ u8(*onBPress)(struct MenuProc*, struct MenuItemProc*);
+    /* 1C */ u8(*onRPress)(struct MenuProc*);
+    /* 20 */ void(*onHelpBox)(struct MenuProc*, struct MenuItemProc*);
 };
 
 enum
@@ -529,12 +593,26 @@ enum
     MENU_NOTSHOWN = 3,
 };
 
+enum
+{
+    // Menu action bits
+
+    MENU_ACT_SKIPCURSOR = (1 << 0),
+    MENU_ACT_END = (1 << 1),
+    MENU_ACT_SND6A = (1 << 2),
+    MENU_ACT_SND6B = (1 << 3),
+    MENU_ACT_CLEAR = (1 << 4),
+    MENU_ACT_ENDFACE = (1 << 5),
+    MENU_ACT_UNUSED6 = (1 << 6),
+    MENU_ACT_DOOM = (1 << 7),
+};
+
 struct MenuProc
 {
     /* 00 */ PROC_HEADER;
 
     /* 2C */ struct MenuRect rect;
-    /* 30 */ const struct MenuDef* def;
+    /* 30 */ const struct Menu* def;
 
     /* 34 */ struct MenuItemProc* menuItems[MENU_ITEM_MAX];
 
@@ -557,7 +635,7 @@ struct MenuItemProc
     /* 2A */ short xTile;
     /* 2C */ short yTile;
 
-    /* 30 */ const struct MenuItemDef* def;
+    /* 30 */ const struct MenuItem* def;
 
     /* 34 */ struct TextHandle text;
 
@@ -571,7 +649,47 @@ struct AssistSkill {
     const char * const name_en;
     const char * const help_en;
     int(*condition)();
-    int(*effect)();
+    void(*effect)(struct Proc* proc, struct SelectTarget* target);
 };
+
+extern struct Unit *unitToMakeTargetList;
+extern u8 **gBmMapPtr;
+
+void ForEachAdjacentUnit(int x,int y,u32 func);
+void AddTarget(int x, int y, u8 state, int param);
+void MenuCallHelpBox(struct MenuProc *menuProc,int textId);
+void NewBottomHelpText(u32 parent,char *string);
+char *GetStringFromTextId(int textId);
+int GetTargetListSize();
+
+struct SelectTarget
+{
+    /* 00 */ s8 x, y;
+    /* 02 */ s8 uid;
+    /* 03 */ u8 extra;
+
+    /* 04 */ struct SelectTarget* next;
+    /* 08 */ struct SelectTarget* prev;
+};
+
+struct SelectInfo
+{
+    /* 00 */ void(*onInit)(struct Proc* proc);
+    /* 04 */ void(*onEnd)(struct Proc* proc);
+
+    /* 08 */ void(*onUnk08)(struct Proc* proc, struct SelectTarget* target);
+
+    /* 0C */ void(*onSwitchIn)(struct Proc* proc, struct SelectTarget* target);
+    /* 10 */ void(*onSwitchOut)(struct Proc* proc, struct SelectTarget* target);
+
+    /* 14 */ int(*onSelect)(struct Proc* proc, struct SelectTarget* target);
+    /* 18 */ int(*onCancel)(struct Proc* proc, struct SelectTarget* target);
+    /* 1C */ int(*onHelp)(struct Proc* proc, struct SelectTarget* target);
+};
+
+struct Proc* NewTargetSelection(const struct SelectInfo* selectInfo);
+
+void ChangeActiveUnitFacing(int x,int y);
+struct Unit* GetUnit(int id);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

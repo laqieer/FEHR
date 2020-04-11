@@ -1010,6 +1010,8 @@ const char* const texts[] = {
         [TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU] = "補助スキル",
         [TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU] = "補助スキルヘルプ情報",
         [TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN] = "補助スキルヘルプ情報",
+        [TEXT_ASSIST_SKILL_DISABLED_HELP_IN_ACTION_MENU] = "補助スキルが使えない",
+        [TEXT_ASSIST_SKILL_TARGET_SELECTION_HELP] = "補助スキルの対象を選びなさい",
 };
 
 extern int lastTextID;

@@ -3112,6 +3112,23 @@ u16 getUnitAssistSkill(struct Unit *unit)
     return assistSkill;
 }
 
+void TryAddUnitToAssistSkillTargetList(struct Unit *unit)
+{
+    if(((unit->state & UNIT_STATE_RESCUED) == 0) && ((unit->state & UNIT_STATE_DEAD) == 0) && (unitToMakeTargetList->side == unit->side))
+        AddTarget(unit->positionX, unit->positionY, (unit->side << 6) + unit->number, 0);
+}
+
+void MakeTargetListForAssistSkill(struct Unit *unit)
+{
+    u8 x;
+    u8 y;
+    
+    x = unit->positionX;
+    y = unit->positionY;
+    unitToMakeTargetList = unit;
+    BmMapFill(gBmMapPtr, 0);
+    ForEachAdjacentUnit(x, y, TryAddUnitToAssistSkillTargetList);
+}
 
 u8 isAssistSkillAvailable(const struct MenuItem* menuItem, int number)
 {
@@ -3124,6 +3141,11 @@ u8 isAssistSkillAvailable(const struct MenuItem* menuItem, int number)
     if(checkUnitStateIsolation(currentActiveUnit))
         return MENU_DISABLED;
 
+    // Check if target list is empty (no companion unit adjacent)
+    MakeTargetListForAssistSkill(currentActiveUnit);
+    if(GetTargetListSize() == 0)
+        return MENU_NOTSHOWN;
+
     // Assist skill's condition
     if(assistSkills[assistSkillId].condition)
         return assistSkills[assistSkillId].condition();
@@ -3131,14 +3153,65 @@ u8 isAssistSkillAvailable(const struct MenuItem* menuItem, int number)
     return MENU_ENABLED;
 }
 
+void AssistSkillTargetSelectInit(struct Proc *proc)
+{
+    NewBottomHelpText(proc, decodeText(TEXT_ASSIST_SKILL_TARGET_SELECTION_HELP));
+}
+
+void AssistSkillTargetSelectSwitchIn(struct Proc* proc, struct SelectTarget* target)
+{
+    ChangeActiveUnitFacing(target->x, target->y);
+}
+
+int AssistSkillTargetSelectSelect(struct Proc* proc, struct SelectTarget* target)
+{
+    if(assistSkills[getUnitAssistSkill(currentActiveUnit)].effect)
+        assistSkills[getUnitAssistSkill(currentActiveUnit)].effect(proc, target);
+    return MENU_ACT_SKIPCURSOR | MENU_ACT_END | MENU_ACT_SND6A | MENU_ACT_CLEAR;
+}
+
+int GenericSelection_BackToUM();
+
+int AssistSkillTargetSelectCancel(struct Proc* proc, struct SelectTarget* target)
+{
+    return GenericSelection_BackToUM();
+}
+
+const struct SelectInfo gSelectInfoAssistSkill = {
+    AssistSkillTargetSelectInit,
+    NULL, //AssistSkillTargetSelectEnd,
+    NULL,
+    AssistSkillTargetSelectSwitchIn,
+    NULL, //AssistSkillTargetSelectSwitchOut,
+    AssistSkillTargetSelectSelect,
+    AssistSkillTargetSelectCancel,
+    NULL, //AssistSkillTargetSelectHelp,
+};
+
+/*void AssistSkillEffectWrapper(struct Proc *proc)
+{
+    //if(assistSkills[getUnitAssistSkill(currentActiveUnit)].effect)
+        //assistSkills[getUnitAssistSkill(currentActiveUnit)].effect();
+    //NewBottomHelpText(parent, GetStringFromTextId(TEXT_ASSIST_SKILL_TARGET_SELECTION_HELP));
+    NewBottomHelpText(proc, decodeText(TEXT_ASSIST_SKILL_TARGET_SELECTION_HELP));
+}*/
+
 u8 AssistSkillSelected(struct MenuProc* menuProc, struct MenuItemProc* menuItemProc)
 {
-    int assistSkillId = getUnitAssistSkill(currentActiveUnit);
-
-    if(assistSkillId && assistSkills[assistSkillId].effect)
-        return assistSkills[assistSkillId].effect();
-
-    return 1;
+    if(menuItemProc->availability == MENU_DISABLED)
+    {
+        MenuCallHelpBox(menuProc, TEXT_ASSIST_SKILL_DISABLED_HELP_IN_ACTION_MENU);
+        //return MENU_ACT_SKIPCURSOR | MENU_ACT_END | MENU_ACT_SND6B;
+        return MENU_ACT_SKIPCURSOR;
+    }
+    
+    MakeTargetListForAssistSkill(currentActiveUnit);
+    BmMapFill(gBmMapMovement,-1);
+    NewTargetSelection(&gSelectInfoAssistSkill);
+    //NewBottomHelpText(NewTargetSelection(AssistSkillEffectWrapper), decodeText(TEXT_ASSIST_SKILL_TARGET_SELECTION_HELP));
+    return MENU_ACT_SKIPCURSOR | MENU_ACT_END | MENU_ACT_SND6A;
+    //gActionData.unitActionType = UNIT_ACTION_WAIT;
+    //return MENU_ACT_SKIPCURSOR | MENU_ACT_END | MENU_ACT_SND6A | MENU_ACT_CLEAR;
 }
 
 const struct MenuItem gUnitActionMenuItems[] = {
@@ -3197,123 +3270,123 @@ int conditionAlwaysHidden()
  */
 
 // 攻撃の応援: 対象の攻撃+4（1ターン）
-u8 assistSkillRallyAttackEffect()
+void assistSkillRallyAttackEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 速さの応援: 対象の速さ+4（1ターン）
-u8 assistSkillRallySpeedEffect()
+void assistSkillRallySpeedEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 守備の応援: 対象の守備+4（1ターン）
-u8 assistSkillRallyDefenseEffect()
+void assistSkillRallyDefenseEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 魔防の応援: 対象の魔防+4（1ターン）
-u8 assistSkillRallyResistanceEffect()
+void assistSkillRallyResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 攻撃速さの応援: 対象の攻撃、速さ+3（1ターン）
-u8 assistSkillRallyAttackSpeedEffect()
+void assistSkillRallyAttackSpeedEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 攻撃守備の応援: 対象の攻撃、守備+3（1ターン）
-u8 assistSkillRallyAttackDefenseEffect()
+void assistSkillRallyAttackDefenseEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 攻撃魔防の応援: 対象の攻撃、魔防+3(1ターン)
-u8 assistSkillRallyAttackResistanceEffect()
+void assistSkillRallyAttackResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 速さ守備の応援: 対象の速さ、守備+3（1ターン）
-u8 assistSkillRallySpeedDefenseEffect()
+void assistSkillRallySpeedDefenseEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 守備魔防の応援: 対象の守備、魔防+3（1ターン）
-u8 assistSkillRallyDefenseResistanceEffect()
+void assistSkillRallyDefenseResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 速さ魔防の応援: 対象の速さ、魔防+3（1ターン）
-u8 assistSkillRallySpeedResistanceEffect()
+void assistSkillRallySpeedResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 速さ守備の応援+: 対象の速さ、守備+6（1ターン）
-u8 assistSkillRallySpeedDefensePlusEffect()
+void assistSkillRallySpeedDefensePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 攻撃の大応援: 対象とその周囲2マスの味方（自分は除く）の攻撃+3（1ターン）
-u8 assistSkillRallyUpAttackEffect()
+void assistSkillRallyUpAttackEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 攻撃の大応援+: 対象とその周囲2マスの味方（自分は除く）の攻撃+6（1ターン）
-u8 assistSkillRallyUpAttackPlusEffect()
+void assistSkillRallyUpAttackPlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 攻撃速さの応援+: 対象の攻撃、速さ+6（1ターン）
-u8 assistSkillRallyAttackSpeedPlusEffect()
+void assistSkillRallyAttackSpeedPlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 守備魔防の応援+: 対象の守備、魔防+6（1ターン）
-u8 assistSkillRallyDefenseResistancePlusEffect()
+void assistSkillRallyDefenseResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 魔防の大応援: 対象とその周囲2マス味方（自分は除く）の魔防+4（1ターン）
-u8 assistSkillRallyUpResistanceEffect()
+void assistSkillRallyUpResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 魔防の大応援+: 対象とその周囲2マス味方（自分は除く）の魔防+6（1ターン）
-u8 assistSkillRallyUpResistancePlusEffect()
+void assistSkillRallyUpResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 攻撃守備の応援+: 対象の攻撃、守備+6（1ターン）
-u8 assistSkillRallyAttackDefensePlusEffect()
+void assistSkillRallyAttackDefensePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 速さ魔防の応援+: 対象の速さ、魔防+6（1ターン）
-u8 assistSkillRallySpeedResistancePlusEffect()
+void assistSkillRallySpeedResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 攻撃魔防の応援+: 対象の攻撃、魔防＋6（1ターン）
-u8 assistSkillRallyAttackResistancePlusEffect()
+void assistSkillRallyAttackResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 /*
@@ -3321,39 +3394,50 @@ u8 assistSkillRallyAttackResistancePlusEffect()
  */
 
 // 引き寄せ: 対象を自分の位置に移動させ、自分は1マス手前へ移動する
-u8 assistSkillDrawBackEffect()
+void assistSkillDrawBackEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 引き戻し: 対象を自分の反対側の位置に移動させる
-u8 assistSkillReposistionEffect()
+void assistSkillReposistionEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 入れ替え: 自分と対象の位置を入れ替える
-u8 assistSkillSwapEffect()
+void assistSkillSwapEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    // swap actor's & target's position
+    struct Unit *targetUnit = GetUnit(target->uid);
+    targetUnit->positionX = currentActiveUnit->positionX;
+    targetUnit->positionY = currentActiveUnit->positionY;
+    //currentActiveUnit->positionX = target->x;
+    //currentActiveUnit->positionY = target->y;
+    //gActionData.xOther = target->x;
+    //gActionData.yOther = target->y;
+    gActionData.xMove = target->x;
+    gActionData.yMove = target->y;
+    
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 回り込み: 自分が対象の反対側の位置に移動する
-u8 assistSkillPivotEffect()
+void assistSkillPivotEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 体当たり: 対象を自分と反対方向に1マス移動させる
-u8 assistSkillShoveEffect()
+void assistSkillShoveEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // ぶちかまし: 対象を自分と反対方向に2マス移動させる
-u8 assistSkillSmiteEffect()
+void assistSkillSmiteEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 
@@ -3362,27 +3446,27 @@ u8 assistSkillSmiteEffect()
  */
 
 // 一喝: 対象が受けている弱化を無効化し、強化に変換する
-u8 assistSkillHarshCommandEffect()
+void assistSkillHarshCommandEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 一喝+: 対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）もし弱化の状態異常を受けている場合、解除後、強化に変換する
-u8 assistSkillHarshCommandPlusEffect()
+void assistSkillHarshCommandPlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 献身: 対象のHPを10回復し、自分のHPを10減少
-u8 assistSkillArdentSacrificeEffect()
+void assistSkillArdentSacrificeEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 相互援助: 自分と対象のHPを入れ替える	
-u8 assistSkillReciprocalAidEffect()
+void assistSkillReciprocalAidEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 /*
@@ -3390,45 +3474,45 @@ u8 assistSkillReciprocalAidEffect()
  */
 
 // 癒しの手: 対象が受けている弱化を無効化し、強化に変換する　対象のHPを回復し、その分自分のHPが減少する（回復量は、最大で自分の現HP-1）
-u8 assistSkillSacrificeEffect()
+void assistSkillSacrificeEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 未来を映す瞳: 自分と対象の位置を入れ替え、その後、自分を行動可能にする
-u8 assistSkillFutureVisionEffect()
+void assistSkillFutureVisionEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // ユラリユルレリ: このスキルは「歌う」「踊る」として扱われる 対象を行動可能にする 対象が歩行、飛行の時、対象の移動+1（1ターン、重複しない）
-u8 assistSkillGrayWavesEffect()
+void assistSkillGrayWavesEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、自分と対象の十字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防+3、かつ「周囲2マス以内の味方の隣接マスに移動可能」を付与（1ターン）
-u8 assistSkillGentleDreamEffect()
+void assistSkillGentleDreamEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // こわいゆめ
-u8 assistSkillFrightfulDreamEffect()
+void assistSkillFrightfulDreamEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // あまいゆめ
-u8 assistSkillSweetDreamsEffect()
+void assistSkillSweetDreamsEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 // 運命を変える！: 対象を自分の反対側の位置に移動させ、その後、自分を行動可能にする、かつ自分とダブル相手の攻撃+6（1ターン）、自分とダブル相手に【補助不可】を付与（次回行動終了まで）（「その後」以降の効果は1ターンに1回のみ）【補助不可】自分は補助スキルを使用できず、仲間から補助スキルを受けることもできない異常状態（次回行動終了まで）（不利な状態異常を解除する「レスト」「一喝+」等の補助スキルを受けることもできない）
-u8 assistSkillToChangeFateEffect()
+void assistSkillToChangeFateEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    return 1;
+    
 }
 
 

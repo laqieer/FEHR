@@ -58,6 +58,9 @@ struct WeaponTriangleRule {
 
 extern const struct WeaponTriangleRule sWeaponTriangleRules[];
 
+extern u8** gBmMapMovement;
+extern u8** gWorkingBmMap;
+
 void BattleApplyReaverEffect(struct BattleUnit* attacker, struct BattleUnit* defender);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_NEW_UNIT_STATE_H
