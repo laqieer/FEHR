@@ -717,4 +717,6 @@ void ForEachAdjacentPosition(int x, int y, void(*func)(int x, int y));
 extern u8** gBmMapTerrain;
 s8 CanUnitCrossTerrain(struct Unit* unit, int terrain);
 
+extern short gBmMapWidth, gBmMapHeight;
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

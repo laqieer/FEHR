@@ -3514,9 +3514,49 @@ int CanUnitEnterPosition(struct Unit *unit, int x, int y)
 }
 
 // 引き寄せ: 対象を自分の位置に移動させ、自分は1マス手前へ移動する
+int assistSkillDrawBackCondition(struct Unit *targetUnit)
+{
+    if(!CanUnitEnterPosition(targetUnit, currentActiveUnit->positionX, currentActiveUnit->positionY))
+        return 0;
+
+    if(currentActiveUnit->positionX == targetUnit->positionX)
+    {
+        if(currentActiveUnit->positionY < targetUnit->positionY)
+            return currentActiveUnit->positionY && CanUnitEnterPosition(currentActiveUnit, currentActiveUnit->positionX, currentActiveUnit->positionY - 1);
+        return currentActiveUnit->positionY > targetUnit->positionY && currentActiveUnit->positionY < gBmMapHeight - 1 && CanUnitEnterPosition(currentActiveUnit, currentActiveUnit->positionX, currentActiveUnit->positionY + 1);
+    }
+
+    if(currentActiveUnit->positionY == targetUnit->positionY)
+    {
+        if(currentActiveUnit->positionX < targetUnit->positionX)
+            return currentActiveUnit->positionX && CanUnitEnterPosition(currentActiveUnit, currentActiveUnit->positionX - 1, currentActiveUnit->positionY);
+        return currentActiveUnit->positionX > targetUnit->positionX && currentActiveUnit->positionX < gBmMapWidth - 1 && CanUnitEnterPosition(currentActiveUnit, currentActiveUnit->positionX + 1, currentActiveUnit->positionY);
+    }
+
+    return 0;
+}
+
 void assistSkillDrawBackEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid);
+
+    targetUnit->positionX = currentActiveUnit->positionX;
+    targetUnit->positionY = currentActiveUnit->positionY;
+
+    if(currentActiveUnit->positionX < target->x)
+        gActionData.xMove = currentActiveUnit->positionX - 1;
+    else
+        if(currentActiveUnit->positionX > target->x)
+            gActionData.xMove = currentActiveUnit->positionX + 1;
+        else
+            if(currentActiveUnit->positionY < target->y)
+                gActionData.yMove = currentActiveUnit->positionY - 1;
+            else
+                if(currentActiveUnit->positionY > target->y)
+                    gActionData.yMove = currentActiveUnit->positionY + 1;
+
+    StartSoundEffect(&se_test_jump);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 引き戻し: 対象を自分の反対側の位置に移動させる
@@ -3649,7 +3689,7 @@ const struct AssistSkill assistSkills[] = {
     {"ーー", "補助スキルを持っていない", "NO DATA", "No assist skill available", conditionAlwaysFalse, NULL},
     {"引き戻し", "対象を自分の反対側の位置に移動させる", "Reposition", "Target ally moves to opposite side of unit.", NULL, assistSkillReposistionEffect},
     {"ぶちかまし", "対象を自分と反対方向に２マス移動させる", "Smite", "Pushes target ally 2 spaces away.", NULL, assistSkillSmiteEffect},
-    {"引き寄せ", "対象を自分の位置に移動させ、自分は１マス手前へ移動する", "Draw Back", "Unit moves 1 space away from target ally. Ally moves to unit's previous space.", NULL, assistSkillDrawBackEffect},
+    {"引き寄せ", "対象を自分の位置に移動させ、自分は１マス手前へ移動する", "Draw Back", "Unit moves 1 space away from target ally. Ally moves to unit's previous space.", assistSkillDrawBackCondition, assistSkillDrawBackEffect},
     {"入れ替え", "自分と対象の位置を入れ替える", "Swap", "Unit and target ally swap spaces.", assistSkillSwapCondition, assistSkillSwapEffect},
     {"速さの応援", "対象の速さ＋４", "Rally Speed", "Grants Spd+4 to target ally for 1 turn.", NULL, assistSkillRallySpeedEffect},
     {"攻撃の応援", "対象の攻撃＋４", "Rally Attack", "Grants Atk+4 to target ally for 1 turn.", NULL, assistSkillRallyAttackEffect},

@@ -28,6 +28,8 @@ enemyUnits = 0x202BD4C + 0x48 * 62;
 NPCUnits = 0x202BD4C + 0x48 * (62 + 50);
 P4Units = 0x202BD4C + 0x48 * (62 + 50 + 20);
 
+gBmMapWidth = 0x202e3d4;
+gBmMapHeight = 0x202e3d6;
 gBmMapUnit = 0x202e3d8;
 gBmMapTerrain = 0x202e3dc;
 gBmMapMovement = 0x202e3e0;
