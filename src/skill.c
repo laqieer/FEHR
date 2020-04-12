@@ -3638,9 +3638,21 @@ void assistSkillShoveEffect(struct Proc* proc, struct SelectTarget* target)
 }
 
 // ぶちかまし: 対象を自分と反対方向に2マス移動させる
+int assistSkillSmiteCondition(struct Unit *targetUnit)
+{
+    int x = targetUnit->positionX - (currentActiveUnit->positionX - targetUnit->positionX) * 2;
+    int y = targetUnit->positionY - (currentActiveUnit->positionY - targetUnit->positionY) * 2;
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y);
+}
+
 void assistSkillSmiteEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid); 
+    targetUnit->positionX = targetUnit->positionX - (currentActiveUnit->positionX - targetUnit->positionX) * 2;
+    targetUnit->positionY = targetUnit->positionY - (currentActiveUnit->positionY - targetUnit->positionY) * 2;
+
+    StartSoundEffect(&se_test_dash);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 
@@ -3724,7 +3736,7 @@ void assistSkillToChangeFateEffect(struct Proc* proc, struct SelectTarget* targe
 const struct AssistSkill assistSkills[] = {
     {"ーー", "補助スキルを持っていない", "NO DATA", "No assist skill available", conditionAlwaysFalse, NULL},
     {"引き戻し", "対象を自分の反対側の位置に移動させる", "Reposition", "Target ally moves to opposite side of unit.", assistSkillRepositionCondition, assistSkillRepositionEffect},
-    {"ぶちかまし", "対象を自分と反対方向に２マス移動させる", "Smite", "Pushes target ally 2 spaces away.", NULL, assistSkillSmiteEffect},
+    {"ぶちかまし", "対象を自分と反対方向に２マス移動させる", "Smite", "Pushes target ally 2 spaces away.", assistSkillSmiteCondition, assistSkillSmiteEffect},
     {"引き寄せ", "対象を自分の位置に移動させ、自分は１マス手前へ移動する", "Draw Back", "Unit moves 1 space away from target ally. Ally moves to unit's previous space.", assistSkillDrawBackCondition, assistSkillDrawBackEffect},
     {"入れ替え", "自分と対象の位置を入れ替える", "Swap", "Unit and target ally swap spaces.", assistSkillSwapCondition, assistSkillSwapEffect},
     {"速さの応援", "対象の速さ＋４", "Rally Speed", "Grants Spd+4 to target ally for 1 turn.", NULL, assistSkillRallySpeedEffect},
