@@ -4,6 +4,7 @@
 
 #include <gba_base.h>
 
+#include "se.h"
 #include "skill.h"
 #include "skill_id.h"
 #include "character_id.h"
@@ -17,6 +18,7 @@
 #include "skill_page_icons_1.h"
 #include "skill_page_icons_2.h"
 #include "new_unit_state.h"
+#include "sound_effect.h"
 #include "gba_debug_print.h"
 
 /*
@@ -3072,7 +3074,8 @@ const u16 itemAssistSkills[0x100] = {
 
 const u16 characterAssistSkills[0x100] = {
         [CHARACTER_ALFONSE_ID] = ASSIST_SKILL_SWAP,
-        [CHARACTER_ANNA_ID] = ASSIST_SKILL_HARSH_COMMAND,
+        //[CHARACTER_ANNA_ID] = ASSIST_SKILL_HARSH_COMMAND,
+        [CHARACTER_ANNA_ID] = ASSIST_SKILL_RALLY_ATK,
         [CHARACTER_SHARENA_ID] = ASSIST_SKILL_RALLY_ATK,
 };
 
@@ -3282,7 +3285,9 @@ int conditionAlwaysHidden()
 // 攻撃の応援: 対象の攻撃+4（1ターン）
 void assistSkillRallyAttackEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffPower(GetUnit(target->uid), 4);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 速さの応援: 対象の速さ+4（1ターン）

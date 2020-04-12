@@ -152,7 +152,7 @@ CpuFastSet = 0x80c0551;
 writeTSA = 0x80C0C29;
 
 chapter_titles_no_data = 0x841a6c4;
-
+musicPlayers = 0x86ea858;
 sWeaponTriangleRules = 0x8c03528;
 
 JobListDragon = 0x8d5fb7d;

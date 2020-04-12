@@ -643,6 +643,16 @@ struct MenuItemProc
     /* 3D */ u8 availability;
 };
 
+struct SelectTarget
+{
+    /* 00 */ s8 x, y;
+    /* 02 */ s8 uid;
+    /* 03 */ u8 extra;
+
+    /* 04 */ struct SelectTarget* next;
+    /* 08 */ struct SelectTarget* prev;
+};
+
 struct AssistSkill {
     const char * const name;
     const char * const help;
@@ -661,16 +671,6 @@ void MenuCallHelpBox(struct MenuProc *menuProc,int textId);
 void NewBottomHelpText(u32 parent,char *string);
 char *GetStringFromTextId(int textId);
 int GetTargetListSize();
-
-struct SelectTarget
-{
-    /* 00 */ s8 x, y;
-    /* 02 */ s8 uid;
-    /* 03 */ u8 extra;
-
-    /* 04 */ struct SelectTarget* next;
-    /* 08 */ struct SelectTarget* prev;
-};
 
 struct SelectInfo
 {
