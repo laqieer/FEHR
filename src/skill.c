@@ -3616,6 +3616,7 @@ void assistSkillShoveEffect(struct Proc* proc, struct SelectTarget* target)
 }
 
 // ‚Ô‚¿‚©‚Ü‚µ: ‘ÎÛ‚ðŽ©•ª‚Æ”½‘Î•ûŒü‚É2ƒ}ƒXˆÚ“®‚³‚¹‚é
+// Notice: Smite can push unit 1 space away (the effect is the same as Shove) if unit cannot enter destination in FEHeroes. I don't think that is good, so I don't do that.
 int assistSkillSmiteCondition(struct Unit *targetUnit)
 {
     int x = targetUnit->positionX - (currentActiveUnit->positionX - targetUnit->positionX) * 2;
