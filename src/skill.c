@@ -3560,9 +3560,21 @@ void assistSkillDrawBackEffect(struct Proc* proc, struct SelectTarget* target)
 }
 
 // 引き戻し: 対象を自分の反対側の位置に移動させる
-void assistSkillReposistionEffect(struct Proc* proc, struct SelectTarget* target)
+int assistSkillRepositionCondition(struct Unit *targetUnit)
 {
-    
+    int x = currentActiveUnit->positionX * 2 - targetUnit->positionX;
+    int y = currentActiveUnit->positionY * 2 - targetUnit->positionY;
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y);
+}
+
+void assistSkillRepositionEffect(struct Proc* proc, struct SelectTarget* target)
+{
+    struct Unit *targetUnit = GetUnit(target->uid); 
+    targetUnit->positionX = currentActiveUnit->positionX * 2 - targetUnit->positionX;
+    targetUnit->positionY = currentActiveUnit->positionY * 2 - targetUnit->positionY;
+
+    StartSoundEffect(&se_test_jump);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 入れ替え: 自分と対象の位置を入れ替える
@@ -3687,7 +3699,7 @@ void assistSkillToChangeFateEffect(struct Proc* proc, struct SelectTarget* targe
 
 const struct AssistSkill assistSkills[] = {
     {"ーー", "補助スキルを持っていない", "NO DATA", "No assist skill available", conditionAlwaysFalse, NULL},
-    {"引き戻し", "対象を自分の反対側の位置に移動させる", "Reposition", "Target ally moves to opposite side of unit.", NULL, assistSkillReposistionEffect},
+    {"引き戻し", "対象を自分の反対側の位置に移動させる", "Reposition", "Target ally moves to opposite side of unit.", assistSkillRepositionCondition, assistSkillRepositionEffect},
     {"ぶちかまし", "対象を自分と反対方向に２マス移動させる", "Smite", "Pushes target ally 2 spaces away.", NULL, assistSkillSmiteEffect},
     {"引き寄せ", "対象を自分の位置に移動させ、自分は１マス手前へ移動する", "Draw Back", "Unit moves 1 space away from target ally. Ally moves to unit's previous space.", assistSkillDrawBackCondition, assistSkillDrawBackEffect},
     {"入れ替え", "自分と対象の位置を入れ替える", "Swap", "Unit and target ally swap spaces.", assistSkillSwapCondition, assistSkillSwapEffect},
