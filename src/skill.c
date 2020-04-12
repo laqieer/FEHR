@@ -3292,115 +3292,208 @@ void assistSkillRallyAttackEffect(struct Proc* proc, struct SelectTarget* target
 // 速さの応援: 対象の速さ+4（1ターン）
 void assistSkillRallySpeedEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffSpeed(GetUnit(target->uid), 4);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 守備の応援: 対象の守備+4（1ターン）
 void assistSkillRallyDefenseEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffDefense(GetUnit(target->uid), 4);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 魔防の応援: 対象の魔防+4（1ターン）
 void assistSkillRallyResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffResistance(GetUnit(target->uid), 4);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 攻撃速さの応援: 対象の攻撃、速さ+3（1ターン）
 void assistSkillRallyAttackSpeedEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffPower(GetUnit(target->uid), 3);
+    addUnitBuffSpeed(GetUnit(target->uid), 3);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 攻撃守備の応援: 対象の攻撃、守備+3（1ターン）
 void assistSkillRallyAttackDefenseEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffPower(GetUnit(target->uid), 3);
+    addUnitBuffDefense(GetUnit(target->uid), 3);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 攻撃魔防の応援: 対象の攻撃、魔防+3(1ターン)
 void assistSkillRallyAttackResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffPower(GetUnit(target->uid), 3);
+    addUnitBuffResistance(GetUnit(target->uid), 3);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 速さ守備の応援: 対象の速さ、守備+3（1ターン）
 void assistSkillRallySpeedDefenseEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffSpeed(GetUnit(target->uid), 3);
+    addUnitBuffDefense(GetUnit(target->uid), 3);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 守備魔防の応援: 対象の守備、魔防+3（1ターン）
 void assistSkillRallyDefenseResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffDefense(GetUnit(target->uid), 3);
+    addUnitBuffResistance(GetUnit(target->uid), 3);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 速さ魔防の応援: 対象の速さ、魔防+3（1ターン）
 void assistSkillRallySpeedResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffSpeed(GetUnit(target->uid), 3);
+    addUnitBuffResistance(GetUnit(target->uid), 3);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 速さ守備の応援+: 対象の速さ、守備+6（1ターン）
 void assistSkillRallySpeedDefensePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffSpeed(GetUnit(target->uid), 6);
+    addUnitBuffDefense(GetUnit(target->uid), 6);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
+}
+
+void ForEachUnitIn2Spaces(int x, int y, void(*func)(struct Unit *unit))
+{
+    InitTargets(x, y);
+    MapAddInRange(x, y, 2, 1);
+    ForEachUnitInRange(func);
+}
+
+void ForEachUnitIn2SpacesExceptTargetUnit(int x, int y, void(*func)(struct Unit *unit))
+{
+    InitTargets(x, y);
+    MapAddInRange(x, y, 2, 1);
+    MapAddInRange(x, y, 0, -1);
+    ForEachUnitInRange(func);
+}
+
+void ForEachUnitIn2SpacesExceptActorUnit(int x, int y, void(*func)(struct Unit *unit))
+{
+    InitTargets(x, y);
+    MapAddInRange(x, y, 2, 1);
+    MapAddInRange(currentActiveUnit->positionX, currentActiveUnit->positionY, 0, -1);
+    ForEachUnitInRange(func);
+}
+
+void addUnitBuffPowerBy3(struct Unit *unit)
+{
+    addUnitBuffPower(unit, 3);
 }
 
 // 攻撃の大応援: 対象とその周囲2マスの味方（自分は除く）の攻撃+3（1ターン）
 void assistSkillRallyUpAttackEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addUnitBuffPowerBy3);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
+}
+
+void addUnitBuffPowerBy6(struct Unit *unit)
+{
+    addUnitBuffPower(unit, 6);
 }
 
 // 攻撃の大応援+: 対象とその周囲2マスの味方（自分は除く）の攻撃+6（1ターン）
 void assistSkillRallyUpAttackPlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addUnitBuffPowerBy6);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 攻撃速さの応援+: 対象の攻撃、速さ+6（1ターン）
 void assistSkillRallyAttackSpeedPlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffPower(GetUnit(target->uid), 6);
+    addUnitBuffSpeed(GetUnit(target->uid), 6);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 守備魔防の応援+: 対象の守備、魔防+6（1ターン）
 void assistSkillRallyDefenseResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffDefense(GetUnit(target->uid), 6);
+    addUnitBuffResistance(GetUnit(target->uid), 6);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
+}
+
+void addUnitBuffResistanceBy4(struct Unit *unit)
+{
+    addUnitBuffResistance(unit, 4);
 }
 
 // 魔防の大応援: 対象とその周囲2マス味方（自分は除く）の魔防+4（1ターン）
 void assistSkillRallyUpResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addUnitBuffResistanceBy4);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
+}
+
+void addUnitBuffResistanceBy6(struct Unit *unit)
+{
+    addUnitBuffResistance(unit, 6);
 }
 
 // 魔防の大応援+: 対象とその周囲2マス味方（自分は除く）の魔防+6（1ターン）
 void assistSkillRallyUpResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addUnitBuffResistanceBy6);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 攻撃守備の応援+: 対象の攻撃、守備+6（1ターン）
 void assistSkillRallyAttackDefensePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffPower(GetUnit(target->uid), 6);
+    addUnitBuffDefense(GetUnit(target->uid), 6);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 速さ魔防の応援+: 対象の速さ、魔防+6（1ターン）
 void assistSkillRallySpeedResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffSpeed(GetUnit(target->uid), 6);
+    addUnitBuffResistance(GetUnit(target->uid), 6);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 攻撃魔防の応援+: 対象の攻撃、魔防＋6（1ターン）
 void assistSkillRallyAttackResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    addUnitBuffPower(GetUnit(target->uid), 6);
+    addUnitBuffResistance(GetUnit(target->uid), 6);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 /*

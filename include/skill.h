@@ -665,7 +665,6 @@ struct AssistSkill {
 extern struct Unit *unitToMakeTargetList;
 extern u8 **gBmMapPtr;
 
-void ForEachAdjacentUnit(int x,int y,u32 func);
 void AddTarget(int x, int y, u8 state, int param);
 void MenuCallHelpBox(struct MenuProc *menuProc,int textId);
 void NewBottomHelpText(u32 parent,char *string);
@@ -706,5 +705,13 @@ void ComputeBattleUnitDodgeRateOriginal(struct BattleUnit* bu);
 void ComputeBattleUnitSupportBonusesOriginal(struct BattleUnit* attacker, struct BattleUnit* defender);
 void ComputeBattleUnitWeaponRankBonusesOriginal(struct BattleUnit* bu);
 void ComputeBattleUnitStatusBonusesOriginal(struct BattleUnit* bu);
+
+void InitTargets(int x, int y);
+void MapAddInRange(int x, int y, int range, int value);
+void ForEachUnitInRange(void(*func)(struct Unit *unit));
+void ForEachPositionInRange(void(*func)(int x, int y));
+
+void ForEachAdjacentUnit(int x, int y, void(*func)(struct Unit *unit));
+void ForEachAdjacentPosition(int x, int y, void(*func)(int x, int y));
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
