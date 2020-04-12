@@ -3127,7 +3127,9 @@ u16 getUnitAssistSkill(struct Unit *unit)
 void TryAddUnitToAssistSkillTargetList(struct Unit *unit)
 {
     if(((unit->state & UNIT_STATE_RESCUED) == 0) && ((unit->state & UNIT_STATE_DEAD) == 0) && (unitToMakeTargetList->side == unit->side))
-        AddTarget(unit->positionX, unit->positionY, (unit->side << 6) + unit->number, 0);
+        // Assist skill's condition
+        if(assistSkills[getUnitAssistSkill(currentActiveUnit)].condition == NULL || assistSkills[getUnitAssistSkill(currentActiveUnit)].condition(unit))
+            AddTarget(unit->positionX, unit->positionY, (unit->side << 6) + unit->number, 0);
 }
 
 void MakeTargetListForAssistSkill(struct Unit *unit)
@@ -3157,10 +3159,6 @@ u8 isAssistSkillAvailable(const struct MenuItem* menuItem, int number)
     MakeTargetListForAssistSkill(currentActiveUnit);
     if(GetTargetListSize() == 0)
         return MENU_NOTSHOWN;
-
-    // Assist skill's condition
-    if(assistSkills[assistSkillId].condition)
-        return assistSkills[assistSkillId].condition();
 
     return MENU_ENABLED;
 }
@@ -3275,6 +3273,16 @@ int conditionAlwaysDisabled()
 int conditionAlwaysHidden()
 {
     return MENU_NOTSHOWN;
+}
+
+int conditionAlwaysTrue()
+{
+    return 1;
+}
+
+int conditionAlwaysFalse()
+{
+    return 0;
 }
 
 /*
@@ -3500,6 +3508,11 @@ void assistSkillRallyAttackResistancePlusEffect(struct Proc* proc, struct Select
  * 移動系の補助スキル.
  */
 
+int CanUnitEnterPosition(struct Unit *unit, int x, int y)
+{
+    return CanUnitCrossTerrain(unit, gBmMapTerrain[y][x]);
+}
+
 // 引き寄せ: 対象を自分の位置に移動させ、自分は1マス手前へ移動する
 void assistSkillDrawBackEffect(struct Proc* proc, struct SelectTarget* target)
 {
@@ -3513,6 +3526,11 @@ void assistSkillReposistionEffect(struct Proc* proc, struct SelectTarget* target
 }
 
 // 入れ替え: 自分と対象の位置を入れ替える
+int assistSkillSwapCondition(struct Unit *targetUnit)
+{
+    return CanUnitEnterPosition(currentActiveUnit, targetUnit->positionX, targetUnit->positionY) && CanUnitEnterPosition(targetUnit, currentActiveUnit->positionX, currentActiveUnit->positionY);
+}
+
 void assistSkillSwapEffect(struct Proc* proc, struct SelectTarget* target)
 {
     // swap actor's & target's position
@@ -3628,11 +3646,11 @@ void assistSkillToChangeFateEffect(struct Proc* proc, struct SelectTarget* targe
 
 
 const struct AssistSkill assistSkills[] = {
-    {"ーー", "補助スキルを持っていない", "NO DATA", "No assist skill available", conditionAlwaysHidden, NULL},
+    {"ーー", "補助スキルを持っていない", "NO DATA", "No assist skill available", conditionAlwaysFalse, NULL},
     {"引き戻し", "対象を自分の反対側の位置に移動させる", "Reposition", "Target ally moves to opposite side of unit.", NULL, assistSkillReposistionEffect},
     {"ぶちかまし", "対象を自分と反対方向に２マス移動させる", "Smite", "Pushes target ally 2 spaces away.", NULL, assistSkillSmiteEffect},
     {"引き寄せ", "対象を自分の位置に移動させ、自分は１マス手前へ移動する", "Draw Back", "Unit moves 1 space away from target ally. Ally moves to unit's previous space.", NULL, assistSkillDrawBackEffect},
-    {"入れ替え", "自分と対象の位置を入れ替える", "Swap", "Unit and target ally swap spaces.", NULL, assistSkillSwapEffect},
+    {"入れ替え", "自分と対象の位置を入れ替える", "Swap", "Unit and target ally swap spaces.", assistSkillSwapCondition, assistSkillSwapEffect},
     {"速さの応援", "対象の速さ＋４", "Rally Speed", "Grants Spd+4 to target ally for 1 turn.", NULL, assistSkillRallySpeedEffect},
     {"攻撃の応援", "対象の攻撃＋４", "Rally Attack", "Grants Atk+4 to target ally for 1 turn.", NULL, assistSkillRallyAttackEffect},
     {"守備の応援", "対象の守備＋４", "Rally Defense", "Grants Def+4 to target ally for 1 turn.", NULL, assistSkillRallyDefenseEffect},

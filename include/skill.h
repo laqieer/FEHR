@@ -658,7 +658,7 @@ struct AssistSkill {
     const char * const help;
     const char * const name_en;
     const char * const help_en;
-    int(*condition)();
+    int(*condition)(struct Unit *targetUnit);
     void(*effect)(struct Proc* proc, struct SelectTarget* target);
 };
 
@@ -713,5 +713,8 @@ void ForEachPositionInRange(void(*func)(int x, int y));
 
 void ForEachAdjacentUnit(int x, int y, void(*func)(struct Unit *unit));
 void ForEachAdjacentPosition(int x, int y, void(*func)(int x, int y));
+
+extern u8** gBmMapTerrain;
+s8 CanUnitCrossTerrain(struct Unit* unit, int terrain);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
