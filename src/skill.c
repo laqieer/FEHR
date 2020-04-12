@@ -3433,7 +3433,7 @@ void assistSkillSwapEffect(struct Proc* proc, struct SelectTarget* target)
     gActionData.xMove = target->x;
     gActionData.yMove = target->y;
     
-    //TODO: sound effect of position change
+    StartSoundEffect(&se_test_jump);
     //TODO: map sprite movement animation
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }

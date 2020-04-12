@@ -6,4 +6,6 @@ extern const struct Song se_effect_anticounter;
  extern const struct Song se_effect_trilemma;
  extern const struct Song se_sys_powerdown1;
  extern const struct Song se_sys_powerup1;
+ extern const struct Song se_test_dash;
+ extern const struct Song se_test_jump;
 
