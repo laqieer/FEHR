@@ -3074,8 +3074,7 @@ const u16 itemAssistSkills[0x100] = {
 
 const u16 characterAssistSkills[0x100] = {
         [CHARACTER_ALFONSE_ID] = ASSIST_SKILL_SWAP,
-        //[CHARACTER_ANNA_ID] = ASSIST_SKILL_HARSH_COMMAND,
-        [CHARACTER_ANNA_ID] = ASSIST_SKILL_RALLY_ATK,
+        [CHARACTER_ANNA_ID] = ASSIST_SKILL_HARSH_COMMAND,
         [CHARACTER_SHARENA_ID] = ASSIST_SKILL_RALLY_ATK,
 };
 
@@ -3465,7 +3464,9 @@ void assistSkillSmiteEffect(struct Proc* proc, struct SelectTarget* target)
 // 一喝: 対象が受けている弱化を無効化し、強化に変換する
 void assistSkillHarshCommandEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+   setUnitStateHarshed(GetUnit(target->uid));
+   StartSoundEffect(&se_sys_powerup1);
+   gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 一喝+: 対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）もし弱化の状態異常を受けている場合、解除後、強化に変換する
