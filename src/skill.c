@@ -3519,21 +3519,9 @@ int assistSkillDrawBackCondition(struct Unit *targetUnit)
     if(!CanUnitEnterPosition(targetUnit, currentActiveUnit->positionX, currentActiveUnit->positionY))
         return 0;
 
-    if(currentActiveUnit->positionX == targetUnit->positionX)
-    {
-        if(currentActiveUnit->positionY < targetUnit->positionY)
-            return currentActiveUnit->positionY && CanUnitEnterPosition(currentActiveUnit, currentActiveUnit->positionX, currentActiveUnit->positionY - 1);
-        return currentActiveUnit->positionY > targetUnit->positionY && currentActiveUnit->positionY < gBmMapHeight - 1 && CanUnitEnterPosition(currentActiveUnit, currentActiveUnit->positionX, currentActiveUnit->positionY + 1);
-    }
-
-    if(currentActiveUnit->positionY == targetUnit->positionY)
-    {
-        if(currentActiveUnit->positionX < targetUnit->positionX)
-            return currentActiveUnit->positionX && CanUnitEnterPosition(currentActiveUnit, currentActiveUnit->positionX - 1, currentActiveUnit->positionY);
-        return currentActiveUnit->positionX > targetUnit->positionX && currentActiveUnit->positionX < gBmMapWidth - 1 && CanUnitEnterPosition(currentActiveUnit, currentActiveUnit->positionX + 1, currentActiveUnit->positionY);
-    }
-
-    return 0;
+    int x = currentActiveUnit->positionX * 2 - targetUnit->positionX;
+    int y = currentActiveUnit->positionY * 2 - targetUnit->positionY;
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(currentActiveUnit, x, y);
 }
 
 void assistSkillDrawBackEffect(struct Proc* proc, struct SelectTarget* target)
@@ -3542,18 +3530,8 @@ void assistSkillDrawBackEffect(struct Proc* proc, struct SelectTarget* target)
 
     targetUnit->positionX = currentActiveUnit->positionX;
     targetUnit->positionY = currentActiveUnit->positionY;
-
-    if(currentActiveUnit->positionX < target->x)
-        gActionData.xMove = currentActiveUnit->positionX - 1;
-    else
-        if(currentActiveUnit->positionX > target->x)
-            gActionData.xMove = currentActiveUnit->positionX + 1;
-        else
-            if(currentActiveUnit->positionY < target->y)
-                gActionData.yMove = currentActiveUnit->positionY - 1;
-            else
-                if(currentActiveUnit->positionY > target->y)
-                    gActionData.yMove = currentActiveUnit->positionY + 1;
+    gActionData.xMove = currentActiveUnit->positionX * 2 - target->x;
+    gActionData.yMove = currentActiveUnit->positionY * 2 - target->y;
 
     StartSoundEffect(&se_test_jump);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
