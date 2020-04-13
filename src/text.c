@@ -1024,7 +1024,7 @@ char *getCharTextWidth(char *str, unsigned int *pWidth);
 
 char *decodeText(int textID)
 {
-    if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP)
+    if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP && textID != TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN)
         return decodedText;
     lastTextID = textID;
     char *p = texts[textID];
