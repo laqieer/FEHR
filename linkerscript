@@ -330,6 +330,8 @@ SECTIONS
 	.data.skill : {*/skill.*(.data.*)}
 	.bss.buff : {*/buff.*(.bss.*)}
 	.bss.new_unit_state : {*/new_unit_state.*(.bss.*)}
+    . = 0xE008000 - 2;
+    .bss.location.5540 : {*/gba_debug_print.*(.bss.location.5540)}
 	. = 0x203F000;
 	.bss : {*(.bss*)}
 	__end__ = .;
