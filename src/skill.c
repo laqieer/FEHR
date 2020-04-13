@@ -3383,11 +3383,22 @@ void assistSkillRallySpeedDefensePlusEffect(struct Proc* proc, struct SelectTarg
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
-void ForEachUnitIn2Spaces(int x, int y, void(*func)(struct Unit *unit))
+// N is distance to target
+void ForEachUnitInNSpaces(int x, int y, void(*func)(struct Unit *unit), int N)
 {
     InitTargets(x, y);
-    MapAddInRange(x, y, 2, 1);
+    MapAddInRange(x, y, N, 1);
     ForEachUnitInRange(func);
+}
+
+void ForEachUnitIn2Spaces(int x, int y, void(*func)(struct Unit *unit))
+{
+    ForEachUnitInNSpaces(x, y, func, 2);
+}
+
+void ForEachUnitIn4Spaces(int x, int y, void(*func)(struct Unit *unit))
+{
+    ForEachUnitInNSpaces(x, y, func, 4);
 }
 
 void ForEachUnitIn2SpacesExceptTargetUnit(int x, int y, void(*func)(struct Unit *unit))
@@ -3884,9 +3895,34 @@ void assistSkillFrightfulDreamEffect(struct Proc* proc, struct SelectTarget* tar
 }
 
 // あまいゆめ
+int assistSkillSweetDreamsCondition(struct Unit *targetUnit)
+{
+    return targetUnit->state & UNIT_STATE_HAS_MOVED > 0;
+}
+
+void addUnitDebuffAttackSpeedDefenseResistanceBy4(struct Unit *unit)
+{
+    addUnitDebuffPower(unit, -4);
+    addUnitDebuffSpeed(unit, -4);
+    addUnitDebuffDefense(unit, -4);
+    addUnitDebuffResistance(unit, -4);
+}
+
+void addFoeUnitDebuffAttackSpeedDefenseResistanceBy4(struct Unit *unit)
+{
+    if(isFoeUnit(unit))
+        addUnitDebuffAttackSpeedDefenseResistanceBy4(unit);
+}
+
 void assistSkillSweetDreamsEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid);
+    giveUnitReaction(targetUnit);
+    m4aSongNumStart(SFX_REACTION);
+    addUnitBuffAttackSpeedDefenseResistanceBy3(targetUnit);
+    ForEachUnitIn4Spaces(target->x, target->y, addFoeUnitDebuffAttackSpeedDefenseResistanceBy4);
+    // Air Order has no real effect now.
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 運命を変える！: 対象を自分の反対側の位置に移動させ、その後、自分を行動可能にする、かつ自分とダブル相手の攻撃+6（1ターン）、自分とダブル相手に【補助不可】を付与（次回行動終了まで）（「その後」以降の効果は1ターンに1回のみ）【補助不可】自分は補助スキルを使用できず、仲間から補助スキルを受けることもできない異常状態（次回行動終了まで）（不利な状態異常を解除する「レスト」「一喝+」等の補助スキルを受けることもできない）
@@ -3947,7 +3983,7 @@ const struct AssistSkill assistSkills[] = {
     {"攻撃魔防の応援＋", "対象の攻撃、魔防＋６", "Rally Atk/Res+", "Grants Atk/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistancePlusEffect},
     {"運命を変える！", "対象を自分の反対側の位置に移動させ、その後、自分を行動可能\にする、かつ自分とダブル相手の攻撃＋６、自分とダブル相手に【補助不可】を付与", "To Change Fate!", "Moves target ally to opposite side of unit and grants another action to unit. Grants Atk+6 to unit and Pair Up cohort (if any) for 1 turn and inflicts【Isolation】on unit and Pair Up cohort (if any) through their next action.", assistSkillToChangeFateCondition, assistSkillToChangeFateEffect},
     {"こわいゆめ", "こわいゆめ", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of unit and target through their next actions.", NULL, assistSkillFrightfulDreamEffect},
-    {"あまいゆめ", "あまいゆめ", "Sweet Dreams", "Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces of target ally through foes' next actions.", NULL, assistSkillSweetDreamsEffect},
+    {"あまいゆめ", "あまいゆめ", "Sweet Dreams", "Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces of target ally through foes' next actions.", assistSkillSweetDreamsCondition, assistSkillSweetDreamsEffect},
 };
 
 char *getAssistSkillNameTextInActionMenu()
