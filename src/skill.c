@@ -3427,15 +3427,50 @@ void ForEachUnitInCardinalDirectionExceptCenter(int x, int y, void(*func)(struct
     ForEachUnitInRange(func);
 }
 
+int isAllyUnit(struct Unit *unit)
+{
+    return (unit->state & UNIT_STATE_DEAD) == 0 && unit->side == currentActiveUnit->side;
+}
+
+int isFoeUnit(struct Unit *unit)
+{
+    if (unit->state & UNIT_STATE_DEAD)
+        return 0;
+
+    if(unit->side == EnemySide || unit->side == P4Side)
+    {
+        if(currentActiveUnit->side == PlayerSide || currentActiveUnit->side == NPCSide)
+            return 1;
+        else
+            return 0;
+    }
+
+    if(unit->side == PlayerSide || unit->side == NPCSide)
+    {
+        if(currentActiveUnit->side == EnemySide || currentActiveUnit->side == P4Side)
+            return 1;
+        else
+            return 0;
+    }
+
+    return 0;
+}
+
 void addUnitBuffPowerBy3(struct Unit *unit)
 {
     addUnitBuffPower(unit, 3);
 }
 
+void addAllyUnitBuffPowerBy3(struct Unit *unit)
+{
+    if(isAllyUnit(unit))
+        addUnitBuffPower(unit, 3);
+}
+
 // 攻撃の大応援: 対象とその周囲2マスの味方（自分は除く）の攻撃+3（1ターン）
 void assistSkillRallyUpAttackEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addUnitBuffPowerBy3);
+    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addAllyUnitBuffPowerBy3);
     StartSoundEffect(&se_sys_powerup1);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
@@ -3445,10 +3480,16 @@ void addUnitBuffPowerBy6(struct Unit *unit)
     addUnitBuffPower(unit, 6);
 }
 
+void addAllyUnitBuffPowerBy6(struct Unit *unit)
+{
+    if(isAllyUnit(unit))
+        addUnitBuffPowerBy6(unit);
+}
+
 // 攻撃の大応援+: 対象とその周囲2マスの味方（自分は除く）の攻撃+6（1ターン）
 void assistSkillRallyUpAttackPlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addUnitBuffPowerBy6);
+    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addAllyUnitBuffPowerBy6);
     StartSoundEffect(&se_sys_powerup1);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
@@ -3476,10 +3517,16 @@ void addUnitBuffResistanceBy4(struct Unit *unit)
     addUnitBuffResistance(unit, 4);
 }
 
+void addAllyUnitBuffResistanceBy4(struct Unit *unit)
+{
+    if(isAllyUnit(unit))
+        addUnitBuffResistanceBy4(unit);
+}
+
 // 魔防の大応援: 対象とその周囲2マス味方（自分は除く）の魔防+4（1ターン）
 void assistSkillRallyUpResistanceEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addUnitBuffResistanceBy4);
+    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addAllyUnitBuffResistanceBy4);
     StartSoundEffect(&se_sys_powerup1);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
@@ -3489,10 +3536,16 @@ void addUnitBuffResistanceBy6(struct Unit *unit)
     addUnitBuffResistance(unit, 6);
 }
 
+void addAllyUnitBuffResistanceBy6(struct Unit *unit)
+{
+    if(isAllyUnit(unit))
+        addUnitBuffResistanceBy6(unit);
+}
+
 // 魔防の大応援+: 対象とその周囲2マス味方（自分は除く）の魔防+6（1ターン）
 void assistSkillRallyUpResistancePlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addUnitBuffResistanceBy6);
+    ForEachUnitIn2SpacesExceptActorUnit(target->x, target->y, addAllyUnitBuffResistanceBy6);
     StartSoundEffect(&se_sys_powerup1);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
@@ -3807,13 +3860,19 @@ void addUnitBuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
     addUnitBuffResistance(unit, 3);
 }
 
+void addAllyUnitBuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
+{
+    if(isAllyUnit(unit))
+        addUnitBuffAttackSpeedDefenseResistanceBy3(unit);
+}
+
 void assistSkillGentleDreamEffect(struct Proc* proc, struct SelectTarget* target)
 {
     struct Unit *targetUnit = GetUnit(target->uid);
     giveUnitReaction(targetUnit);
     m4aSongNumStart(SFX_REACTION);
-    ForEachUnitInCardinalDirection(target->x, target->y, addUnitBuffAttackSpeedDefenseResistanceBy3);
-    ForEachUnitInCardinalDirectionExceptCenter(currentActiveUnit->positionX, currentActiveUnit->positionY, addUnitBuffAttackSpeedDefenseResistanceBy3);
+    ForEachUnitInCardinalDirection(target->x, target->y, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
+    ForEachUnitInCardinalDirectionExceptCenter(currentActiveUnit->positionX, currentActiveUnit->positionY, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
     // Air Order has no real effect now.
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
