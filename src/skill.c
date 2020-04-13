@@ -3982,7 +3982,7 @@ const struct AssistSkill assistSkills[] = {
     {"–‚–h‚Ì‰‰‡", "‘ÎÛ‚Ì–‚–h{‚S", "Rally Resistance", "Grants Res+4 to target ally for 1 turn.", NULL, assistSkillRallyResistanceEffect},
     {"Œ£g", "‘ÎÛ‚Ì‚g‚o‚ğ‚P‚O‰ñ•œ‚µA©•ª‚Ì‚g‚o‚ğ‚P‚OŒ¸­", "Ardent Sacrifice", "Restores 10 HP to target ally. Unit loses 10 HP but cannot go below 1.", assistSkillArdentSacrificeCondition, assistSkillArdentSacrificeEffect},
     {"‰ñ‚è‚İ", "©•ª‚ª‘ÎÛ‚Ì”½‘Î‘¤‚ÌˆÊ’u‚ÉˆÚ“®‚·‚é", "Pivot", "Unit moves to opposite side of target ally.", assistSkillPivotCondition, assistSkillPivotEffect},
-    {"‚¢‚Á‚©‚Â", "‘ÎÛ‚ªó‚¯‚Ä‚¢‚éã‰»‚ğ"TCC_NEWLINE"–³Œø‰»‚µA‹­‰»‚É•ÏŠ·‚·‚é", "Harsh Command", "Converts penalties on target into bonuses.", assistSkillHarshCommandCondition, assistSkillHarshCommandEffect},
+    {"‚¢‚Á‚©‚Â", "‘ÎÛ‚ªó‚¯‚Ä‚¢‚éã‰»‚ğ–³Œø‰»‚µA‹­‰»‚É•ÏŠ·‚·‚é", "Harsh Command", "Converts penalties on target into bonuses.", assistSkillHarshCommandCondition, assistSkillHarshCommandEffect},
     {"‘Ì“–‚½‚è", "‘ÎÛ‚ğ©•ª‚Æ”½‘Î•ûŒü‚É‚Pƒ}ƒXˆÚ“®‚³‚¹‚é", "Shove", "Pushes target ally 1 space away.", assistSkillShoveCondition, assistSkillShoveEffect},
     {"‘ŠŒİ‰‡•", "©•ª‚Æ‘ÎÛ‚Ì‚g‚o‚ğ“ü‚ê‘Ö‚¦‚é", "Reciprocal Aid", "Unit and target ally swap HP.(Neither can go above their max HP.)", assistSkillReciprocalAidCondition, assistSkillReciprocalAidEffect},
     {"UŒ‚‘¬‚³‚Ì‰‰‡", "‘ÎÛ‚ÌUŒ‚A‘¬‚³{‚R", "Rally Atk/Spd", "Grants Atk/Spd+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackSpeedEffect},

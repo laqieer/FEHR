@@ -1024,7 +1024,9 @@ char *decodeText(int textID)
 {
     if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP && textID != TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN)
         return decodedText;
+
     lastTextID = textID;
+
     char *p = texts[textID];
     if(textID == TEXT_SPECIAL_SKILL_HELP)
         p = getSpecialSkillDescriptionText();
@@ -1034,11 +1036,16 @@ char *decodeText(int textID)
         p = getAssistSkillDescriptionTextInActionMenu();
     if(textID == TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN)
         p = getAssistSkillDescriptionTextInStatScreen();
+
     char *q = decodedText;
     if(textID < sizeof(texts) / 4 && p)
     {
+        unsigned int maxLineWidth = TEXT_LINE_WIDTH_MAX;
+        if(textID == TEXT_SPECIAL_SKILL_HELP || textID == TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU || textID == TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN)
+            maxLineWidth = SKILL_HELP_WIDTH_MAX;
+
         // copy text directly
-        if (getStringTextWidth(texts[textID]) <= TEXT_LINE_WIDTH_MAX)
+        if (getStringTextWidth(texts[textID]) <= maxLineWidth)
             while (*p)
                 *q++ = *p++;
         else {
@@ -1052,7 +1059,7 @@ char *decodeText(int textID)
                 else {
                     char *p_next = getCharTextWidth(p, &charWidth);
                     lineWidth += charWidth;
-                    if (lineWidth > TEXT_LINE_WIDTH_MAX) {
+                    if (lineWidth > maxLineWidth) {
                         *q++ = 1; // new line
                         lineWidth = 0;
                     }
