@@ -3406,6 +3406,27 @@ void ForEachUnitIn2SpacesExceptActorUnit(int x, int y, void(*func)(struct Unit *
     ForEachUnitInRange(func);
 }
 
+void ForEachUnitInCardinalDirection(int x, int y, void(*func)(struct Unit *unit))
+{
+    InitTargets(x, y);
+    for (int i = 0; i < gBmMapWidth; i++)
+        MapAddInRange(i, y, 0, 1);
+    for (int j = 0; j < gBmMapHeight; j++)
+        MapAddInRange(x, j, 0, 1);
+    ForEachUnitInRange(func);
+}
+
+void ForEachUnitInCardinalDirectionExceptCenter(int x, int y, void(*func)(struct Unit *unit))
+{
+    InitTargets(x, y);
+    for (int i = 0; i < gBmMapWidth; i++)
+        MapAddInRange(i, y, 0, 1);
+    for (int j = 0; j < gBmMapHeight; j++)
+        MapAddInRange(x, j, 0, 1);
+    MapAddInRange(x, y, 0, -1);
+    ForEachUnitInRange(func);
+}
+
 void addUnitBuffPowerBy3(struct Unit *unit)
 {
     addUnitBuffPower(unit, 3);
@@ -3773,9 +3794,28 @@ void assistSkillGrayWavesEffect(struct Proc* proc, struct SelectTarget* target)
 }
 
 // やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、自分と対象の十字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防+3、かつ「周囲2マス以内の味方の隣接マスに移動可能」を付与（1ターン）
+int assistSkillGentleDreamCondition(struct Unit *targetUnit)
+{
+    return targetUnit->state & UNIT_STATE_HAS_MOVED > 0;
+}
+
+void addUnitBuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
+{
+    addUnitBuffPower(unit, 3);
+    addUnitBuffSpeed(unit, 3);
+    addUnitBuffDefense(unit, 3);
+    addUnitBuffResistance(unit, 3);
+}
+
 void assistSkillGentleDreamEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid);
+    giveUnitReaction(targetUnit);
+    m4aSongNumStart(SFX_REACTION);
+    ForEachUnitInCardinalDirection(target->x, target->y, addUnitBuffAttackSpeedDefenseResistanceBy3);
+    ForEachUnitInCardinalDirectionExceptCenter(currentActiveUnit->positionX, currentActiveUnit->positionY, addUnitBuffAttackSpeedDefenseResistanceBy3);
+    // Air Order has no real effect now.
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // こわいゆめ
@@ -3844,7 +3884,7 @@ const struct AssistSkill assistSkills[] = {
     {"攻撃守備の応援＋", "対象の攻撃、守備＋６", "Rally Atk/Def+", "Grants Atk/Def+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefensePlusEffect},
     {"いっかつ＋", "対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）。もし弱化の状態異常を受けている場合、解除後、強化に変換する", "Harsh Command+", "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.", assistSkillHarshCommandPlusCondition, assistSkillHarshCommandPlusEffect},
     {"速さ魔防の応援＋", "対象の速さ、魔防＋６", "Rally Spd/Res+", "Grants Spd/Res+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedResistancePlusEffect},
-    {"やさしいゆめ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にし、対象と、自分と対象の十\字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防＋３、かつ「周囲２マス以内の味方の隣接マスに移動可能\」を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of unit and target (excluding unit): Unit can move to a space adjacent to any ally within 2 spaces.", NULL, assistSkillGentleDreamEffect},
+    {"やさしいゆめ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にし、対象と、自分と対象の十\字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防＋３、かつ「周囲２マス以内の味方の隣接マスに移動可能\」を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of unit and target (excluding unit): Unit can move to a space adjacent to any ally within 2 spaces.", assistSkillGentleDreamCondition, assistSkillGentleDreamEffect},
     {"攻撃魔防の応援＋", "対象の攻撃、魔防＋６", "Rally Atk/Res+", "Grants Atk/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistancePlusEffect},
     {"運命を変える！", "対象を自分の反対側の位置に移動させ、その後、自分を行動可能\にする、かつ自分とダブル相手の攻撃＋６、自分とダブル相手に【補助不可】を付与", "To Change Fate!", "Moves target ally to opposite side of unit and grants another action to unit. Grants Atk+6 to unit and Pair Up cohort (if any) for 1 turn and inflicts【Isolation】on unit and Pair Up cohort (if any) through their next action.", assistSkillToChangeFateCondition, assistSkillToChangeFateEffect},
     {"こわいゆめ", "こわいゆめ", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of unit and target through their next actions.", NULL, assistSkillFrightfulDreamEffect},
