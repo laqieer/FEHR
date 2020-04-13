@@ -64,6 +64,7 @@ extern const struct MusicPlayer musicPlayers[];
 #define MUSIC_PLAYER_VOICE MUSIC_PLAYER_8
 
 void MPlayStart(void *musicPlayerArea, const struct Song *song);
+void m4aSongNumStart(u16 songId);
 
 #define StartBGM(song) MPlayStart(MUSIC_PLAYER_BGM, song)
 #define StartMapMusic(song) MPlayStart(MUSIC_PLAYER_MAP, song)

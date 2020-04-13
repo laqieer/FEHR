@@ -19,6 +19,7 @@
 #include "skill_page_icons_2.h"
 #include "new_unit_state.h"
 #include "sound_effect.h"
+#include "music_id.h"
 #include "gba_debug_print.h"
 
 /*
@@ -3731,9 +3732,20 @@ void assistSkillSacrificeEffect(struct Proc* proc, struct SelectTarget* target)
 }
 
 // 未来を映す瞳: 自分と対象の位置を入れ替え、その後、自分を行動可能にする
+int assistSkillFutureVisionCondition(struct Unit *targetUnit)
+{
+    return CanUnitEnterPosition(currentActiveUnit, targetUnit->positionX, targetUnit->positionY) && CanUnitEnterPosition(targetUnit, currentActiveUnit->positionX, currentActiveUnit->positionY);
+}
+
 void assistSkillFutureVisionEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid);
+    targetUnit->positionX = currentActiveUnit->positionX;
+    targetUnit->positionY = currentActiveUnit->positionY;
+    gActionData.xMove = target->x;
+    gActionData.yMove = target->y;
+    StartSoundEffect(&se_test_jump);
+    m4aSongNumStart(SFX_REACTION);
 }
 
 // ユラリユルレリ: このスキルは「歌う」「踊る」として扱われる 対象を行動可能にする 対象が歩行、飛行の時、対象の移動+1（1ターン、重複しない）
@@ -3791,7 +3803,7 @@ const struct AssistSkill assistSkills[] = {
     {"攻撃の大応援", "対象とその周囲２マスの味方（自分は除く）の攻撃＋４", "Rally Up Atk", "Grants Atk+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackEffect},
     {"魔防の大応援", "対象とその周囲２マスの味方（自分は除く）の魔防＋４", "Rally Up Res", "Grants Res+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpResistanceEffect},
     {"癒しの手", "対象が受けている弱化を無効化し、強化に変換する。対象のＨＰを回復し、その分自分のＨＰが減少する（回復量は、最大で自分の現ＨＰー１）", "Sacrifice", "Converts penalties on target into bonuses. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.", NULL, assistSkillSacrificeEffect},
-    {"未来を映す瞳", "自分と対象の位置を入れ替え、その後、自分を行動可能\にする", "Future Vision", "Unit and target ally swap spaces. Grants another action to unit.", NULL, assistSkillFutureVisionEffect},
+    {"未来を映す瞳", "自分と対象の位置を入れ替え、その後、自分を行動可能\にする", "Future Vision", "Unit and target ally swap spaces. Grants another action to unit.", assistSkillFutureVisionCondition, assistSkillFutureVisionEffect},
     {"速さ守備の応援＋", "対象の速さ、守備＋６", "Rally Spd/Def+", "Grants Spd/Def+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedDefensePlusEffect},
     {"攻撃の大応援＋", "対象とその周囲２マスの味方（自分は除く）の攻撃＋６", "Rally Up Atk+", "Grants Atk+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackPlusEffect},
     {"攻撃速さの応援＋", "対象の攻撃、速さ＋６", "Rally Atk/Spd+", "Grants Atk/Spd+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackSpeedPlusEffect},
