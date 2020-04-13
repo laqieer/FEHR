@@ -3638,6 +3638,11 @@ void assistSkillSmiteEffect(struct Proc* proc, struct SelectTarget* target)
  */
 
 // 一喝: 対象が受けている弱化を無効化し、強化に変換する
+int assistSkillHarshCommandCondition(struct Unit *unit)
+{
+    return !checkUnitStateHarshed(unit);
+}
+
 void assistSkillHarshCommandEffect(struct Proc* proc, struct SelectTarget* target)
 {
    setUnitStateHarshed(GetUnit(target->uid));
@@ -3646,9 +3651,18 @@ void assistSkillHarshCommandEffect(struct Proc* proc, struct SelectTarget* targe
 }
 
 // 一喝+: 対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）もし弱化の状態異常を受けている場合、解除後、強化に変換する
+int assistSkillHarshCommandPlusCondition(struct Unit *unit)
+{
+    return !checkUnitStateHarshed(unit) || checkUnitNegativeState(unit);
+}
+
 void assistSkillHarshCommandPlusEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid);
+    clearUnitNegativeState(targetUnit);
+    setUnitStateHarshed(targetUnit);
+    StartSoundEffect(&se_sys_powerup1);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 献身: 対象のHPを10回復し、自分のHPを10減少
@@ -3722,7 +3736,7 @@ const struct AssistSkill assistSkills[] = {
     {"魔防の応援", "対象の魔防＋４", "Rally Resistance", "Grants Res+4 to target ally for 1 turn.", NULL, assistSkillRallyResistanceEffect},
     {"献身", "対象のＨＰを１０回復し、自分のＨＰを１０減少", "Ardent Sacrifice", "Restores 10 HP to target ally. Unit loses 10 HP but cannot go below 1.", NULL, assistSkillArdentSacrificeEffect},
     {"回り込み", "自分が対象の反対側の位置に移動する", "Pivot", "Unit moves to opposite side of target ally.", assistSkillPivotCondition, assistSkillPivotEffect},
-    {"いっかつ", "対象が受けている弱化を"TCC_NEWLINE"無効化し、強化に変換する", "Harsh Command", "Converts penalties on target into bonuses.", NULL, assistSkillHarshCommandEffect},
+    {"いっかつ", "対象が受けている弱化を"TCC_NEWLINE"無効化し、強化に変換する", "Harsh Command", "Converts penalties on target into bonuses.", assistSkillHarshCommandCondition, assistSkillHarshCommandEffect},
     {"体当たり", "対象を自分と反対方向に１マス移動させる", "Shove", "Pushes target ally 1 space away.", assistSkillShoveCondition, assistSkillShoveEffect},
     {"相互援助", "自分と対象のＨＰを入れ替える", "Reciprocal Aid", "Unit and target ally swap HP.(Neither can go above their max HP.)", NULL, assistSkillReciprocalAidEffect},
     {"攻撃速さの応援", "対象の攻撃、速さ＋３", "Rally Atk/Spd", "Grants Atk/Spd+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackSpeedEffect},
@@ -3742,7 +3756,7 @@ const struct AssistSkill assistSkills[] = {
     {"守備魔防の応援＋", "対象の守備、魔防＋６", "Rally Def/Res+", "Grants Def/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyDefenseResistancePlusEffect},
     {"魔防の大応援＋", "対象とその周囲２マスの味方（自分は除く）の魔防＋６", "Rally Up Res+", "Grants Res+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpResistancePlusEffect},
     {"攻撃守備の応援＋", "対象の攻撃、守備＋６", "Rally Atk/Def+", "Grants Atk/Def+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefensePlusEffect},
-    {"一喝＋", "対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）。もし弱化の状態異常を受けている場合、解除後、強化に変換する", "Harsh Command+", "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.", NULL, assistSkillHarshCommandPlusEffect},
+    {"いっかつ＋", "対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）。もし弱化の状態異常を受けている場合、解除後、強化に変換する", "Harsh Command+", "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.", assistSkillHarshCommandPlusCondition, assistSkillHarshCommandPlusEffect},
     {"速さ魔防の応援＋", "対象の速さ、魔防＋６", "Rally Spd/Res+", "Grants Spd/Res+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedResistancePlusEffect},
     {"やさしいゆめ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にし、対象と、自分と対象の十\字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防＋３、かつ「周囲２マス以内の味方の隣接マスに移動可能\」を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of unit and target (excluding unit): Unit can move to a space adjacent to any ally within 2 spaces.", NULL, assistSkillGentleDreamEffect},
     {"攻撃魔防の応援＋", "対象の攻撃、魔防＋６", "Rally Atk/Res+", "Grants Atk/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistancePlusEffect},

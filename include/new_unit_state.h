@@ -33,6 +33,8 @@ int checkUnitStateTriangleAdept(struct Unit *unit);
 int checkUnitStateGuard(struct Unit *unit);
 int checkUnitStateIsolation(struct Unit *unit);
 int checkUnitStateHarshed(struct Unit *unit);
+int checkUnitPositiveState(struct Unit *unit);
+int checkUnitNegativeState(struct Unit *unit);
 
 void setUnitStateMobilityIncreased(struct Unit *unit);
 void setUnitStateAirOrders(struct Unit *unit);
@@ -47,6 +49,23 @@ void setUnitStateTriangleAdept(struct Unit *unit);
 void setUnitStateGuard(struct Unit *unit);
 void setUnitStateIsolation(struct Unit *unit);
 void setUnitStateHarshed(struct Unit *unit);
+
+void clearUnitPositiveState(struct Unit *unit);
+void clearUnitNegativeState(struct Unit *unit);
+void clearUnitNewState(struct Unit *unit);
+void clearUnitStateMobilityIncreased(struct Unit *unit);
+void clearUnitStateAirOrders(struct Unit *unit);
+void clearUnitStateEffectiveAgainstDragons(struct Unit *unit);
+void clearUnitStateBonusDoubler(struct Unit *unit);
+void clearUnitStateDragonShield(struct Unit *unit);
+void clearUnitStateSvalinnShield(struct Unit *unit);
+void clearUnitStateGravity(struct Unit *unit);
+void clearUnitStatePanic(struct Unit *unit);
+void clearUnitStateCounterattacksDisrupted(struct Unit *unit);
+void clearUnitStateTriangleAdept(struct Unit *unit);
+void clearUnitStateGuard(struct Unit *unit);
+void clearUnitStateIsolation(struct Unit *unit);
+void clearUnitStateHarshed(struct Unit *unit);
 
 void clearNewStateForPlayerUnits();
 void clearNewStateForEnemyUnits();

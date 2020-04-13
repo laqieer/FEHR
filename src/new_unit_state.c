@@ -365,6 +365,17 @@ int checkUnitStateSvalinnShield(struct Unit *unit)
     return getUnitPositiveState(unit)->svalinnShield;
 }
 
+int checkUnitPositiveState(struct Unit *unit)
+{
+    // Harshed is not displayed in stat screen.
+    return checkUnitStateMobilityIncreased(unit) || checkUnitStateAirOrders(unit) || checkUnitStateEffectiveAgainstDragons(unit) || checkUnitStateBonusDoubler(unit) || checkUnitStateDragonShield(unit) || checkUnitStateSvalinnShield(unit);
+}
+
+int checkUnitNegativeState(struct Unit *unit)
+{
+    return checkUnitStateGravity(unit) || checkUnitStatePanic(unit) || checkUnitStateCounterattacksDisrupted(unit) || checkUnitStateTriangleAdept(unit) || checkUnitStateGuard(unit) || checkUnitStateIsolation(unit);
+}
+
 void setUnitStateSvalinnShield(struct Unit *unit)
 {
     getUnitPositiveState(unit)->svalinnShield = 1;
