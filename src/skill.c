@@ -3709,9 +3709,25 @@ void assistSkillReciprocalAidEffect(struct Proc* proc, struct SelectTarget* targ
  */
 
 // 癒しの手: 対象が受けている弱化を無効化し、強化に変換する　対象のHPを回復し、その分自分のHPが減少する（回復量は、最大で自分の現HP-1）
+int assistSkillSacrificeCondition(struct Unit *targetUnit)
+{
+    return !checkUnitStateHarshed(targetUnit) || (targetUnit->hp < targetUnit->maxHp && currentActiveUnit->hp > 1);
+}
+
 void assistSkillSacrificeEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid);
+    setUnitStateHarshed(targetUnit);
+    if(targetUnit->hp < targetUnit->maxHp && currentActiveUnit->hp > 1)
+    {
+        targetUnit->hp = targetUnit->maxHp;
+        currentActiveUnit->hp -= targetUnit->maxHp - targetUnit->hp;
+        if(currentActiveUnit->hp < 1)
+            currentActiveUnit->hp = 1;
+    }
+    StartSoundEffect(&se_sys_powerup1);
+    StartLowSoundEffect(&se_effect_live);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // 未来を映す瞳: 自分と対象の位置を入れ替え、その後、自分を行動可能にする
