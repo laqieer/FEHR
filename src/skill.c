@@ -3203,7 +3203,6 @@ const struct SelectInfo gSelectInfoAssistSkill = {
 {
     //if(assistSkills[getUnitAssistSkill(currentActiveUnit)].effect)
         //assistSkills[getUnitAssistSkill(currentActiveUnit)].effect();
-    //NewBottomHelpText(parent, GetStringFromTextId(TEXT_ASSIST_SKILL_TARGET_SELECTION_HELP));
     NewBottomHelpText(proc, decodeText(TEXT_ASSIST_SKILL_TARGET_SELECTION_HELP));
 }*/
 
@@ -4074,7 +4073,7 @@ void RedrawMenu(struct MenuProc* proc)
         if (!item->def->nameMsgId)
             Text_AppendString(&item->text, item->def->name);
         else
-            Text_AppendString(&item->text, GetStringFromTextId(item->def->nameMsgId));
+            Text_AppendString(&item->text, decodeText(item->def->nameMsgId));
 
         Text_Draw( \
             &item->text, \

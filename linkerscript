@@ -99,7 +99,6 @@ fixHighPortrait = 0x80070AD;
 playEyeAnimationOrig = 0x80075F1;
 playMouthAnimationOrig = 0x800749D;
 StartDialogue = 0x8007e09;
-GetStringFromTextId = 0x8013319;
 GetItemHit = 0x8017701;
 GetItemWeight = 0x8017719;
 GetItemCrit = 0x8017731;
