@@ -3749,9 +3749,27 @@ void assistSkillFutureVisionEffect(struct Proc* proc, struct SelectTarget* targe
 }
 
 // ユラリユルレリ: このスキルは「歌う」「踊る」として扱われる 対象を行動可能にする 対象が歩行、飛行の時、対象の移動+1（1ターン、重複しない）
+int assistSkillGrayWavesCondition(struct Unit *targetUnit)
+{
+    return targetUnit->state & UNIT_STATE_HAS_MOVED > 0;
+}
+
+void giveUnitReaction(struct Unit *unit)
+{
+    unit->state &= ~UNIT_STATE_HAS_MOVED;
+}
+
 void assistSkillGrayWavesEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid);
+    giveUnitReaction(targetUnit);
+    m4aSongNumStart(SFX_REACTION);
+    if(!IsUnitArmour(targetUnit) && !IsUnitKnight(targetUnit))
+    {
+        setUnitStateMobilityIncreased(targetUnit);
+        StartSoundEffect(&se_sys_powerup1);
+    }
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、自分と対象の十字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防+3、かつ「周囲2マス以内の味方の隣接マスに移動可能」を付与（1ターン）
@@ -3807,7 +3825,7 @@ const struct AssistSkill assistSkills[] = {
     {"速さ守備の応援＋", "対象の速さ、守備＋６", "Rally Spd/Def+", "Grants Spd/Def+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedDefensePlusEffect},
     {"攻撃の大応援＋", "対象とその周囲２マスの味方（自分は除く）の攻撃＋６", "Rally Up Atk+", "Grants Atk+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackPlusEffect},
     {"攻撃速さの応援＋", "対象の攻撃、速さ＋６", "Rally Atk/Spd+", "Grants Atk/Spd+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackSpeedPlusEffect},
-    {"ユラリユルレリ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にする。対象が歩行、飛行の時、対象の移動＋１", "Gray Waves", "Grants another action to target ally, and if target is an infantry or flying ally, target can move 1 extra space.", NULL, assistSkillGrayWavesEffect},
+    {"ユラリユルレリ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にする。対象が歩行、飛行の時、対象の移動＋１", "Gray Waves", "Grants another action to target ally, and if target is an infantry or flying ally, target can move 1 extra space.", assistSkillGrayWavesCondition, assistSkillGrayWavesEffect},
     {"守備魔防の応援＋", "対象の守備、魔防＋６", "Rally Def/Res+", "Grants Def/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyDefenseResistancePlusEffect},
     {"魔防の大応援＋", "対象とその周囲２マスの味方（自分は除く）の魔防＋６", "Rally Up Res+", "Grants Res+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpResistancePlusEffect},
     {"攻撃守備の応援＋", "対象の攻撃、守備＋６", "Rally Atk/Def+", "Grants Atk/Def+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefensePlusEffect},
