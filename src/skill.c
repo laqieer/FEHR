@@ -3685,9 +3685,23 @@ void assistSkillArdentSacrificeEffect(struct Proc* proc, struct SelectTarget* ta
 }
 
 // ‘ŠŒİ‰‡•: ©•ª‚Æ‘ÎÛ‚ÌHP‚ğ“ü‚ê‘Ö‚¦‚é	
+int assistSkillReciprocalAidCondition(struct Unit *targetUnit)
+{
+    return targetUnit->hp != currentActiveUnit->hp;
+}
+
 void assistSkillReciprocalAidEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    
+    struct Unit *targetUnit = GetUnit(target->uid);
+    int targetHp = targetUnit->hp;
+    targetUnit->hp = currentActiveUnit->hp;
+    if(targetUnit->hp > targetUnit->maxHp)
+        targetUnit->hp = targetUnit->maxHp;
+    currentActiveUnit->hp = targetHp;
+    if(currentActiveUnit->hp > currentActiveUnit->maxHp)
+        currentActiveUnit->hp = currentActiveUnit->maxHp;
+    StartSoundEffect(&se_effect_live);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 /*
@@ -3751,7 +3765,7 @@ const struct AssistSkill assistSkills[] = {
     {"‰ñ‚è‚İ", "©•ª‚ª‘ÎÛ‚Ì”½‘Î‘¤‚ÌˆÊ’u‚ÉˆÚ“®‚·‚é", "Pivot", "Unit moves to opposite side of target ally.", assistSkillPivotCondition, assistSkillPivotEffect},
     {"‚¢‚Á‚©‚Â", "‘ÎÛ‚ªó‚¯‚Ä‚¢‚éã‰»‚ğ"TCC_NEWLINE"–³Œø‰»‚µA‹­‰»‚É•ÏŠ·‚·‚é", "Harsh Command", "Converts penalties on target into bonuses.", assistSkillHarshCommandCondition, assistSkillHarshCommandEffect},
     {"‘Ì“–‚½‚è", "‘ÎÛ‚ğ©•ª‚Æ”½‘Î•ûŒü‚É‚Pƒ}ƒXˆÚ“®‚³‚¹‚é", "Shove", "Pushes target ally 1 space away.", assistSkillShoveCondition, assistSkillShoveEffect},
-    {"‘ŠŒİ‰‡•", "©•ª‚Æ‘ÎÛ‚Ì‚g‚o‚ğ“ü‚ê‘Ö‚¦‚é", "Reciprocal Aid", "Unit and target ally swap HP.(Neither can go above their max HP.)", NULL, assistSkillReciprocalAidEffect},
+    {"‘ŠŒİ‰‡•", "©•ª‚Æ‘ÎÛ‚Ì‚g‚o‚ğ“ü‚ê‘Ö‚¦‚é", "Reciprocal Aid", "Unit and target ally swap HP.(Neither can go above their max HP.)", assistSkillReciprocalAidCondition, assistSkillReciprocalAidEffect},
     {"UŒ‚‘¬‚³‚Ì‰‰‡", "‘ÎÛ‚ÌUŒ‚A‘¬‚³{‚R", "Rally Atk/Spd", "Grants Atk/Spd+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackSpeedEffect},
     {"ç”õ–‚–h‚Ì‰‰‡", "‘ÎÛ‚Ìç”õA–‚–h{‚R", "Rally Def/Res", "Grants Def/Res+3 to target ally for 1 turn.", NULL, assistSkillRallyDefenseResistanceEffect},
     {"UŒ‚–‚–h‚Ì‰‰‡", "‘ÎÛ‚ÌUŒ‚A–‚–h{‚R", "Rally Atk/Res", "Grants Atk/Res+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistanceEffect},
