@@ -377,6 +377,7 @@ void writeTSA(u16 *TSABuffer, u16 *TSA, int BGTileAndPaletteIDBase);
 #define BWLTextHandle (struct TextHandle *)0x2003234
 
 #define TILEMAP_INDEX(aX, aY) (0x20 * (aY) + (aX))
+#define TILEMAP_LOCATED(aMap, aX, aY) (TILEMAP_INDEX((aX), (aY)) + (aMap))
 #define TILEREF(aChar, aPal) ((aChar) + ((aPal) << 12))
 
 void DrawStatWithBar(int num, int x, int y, int base, int total, int max);
@@ -481,6 +482,10 @@ extern struct Unit *pCurrentUnitInStatusScreen;
 extern u16 gBmFrameTmap0[]; // bg0 tilemap buffer for stat screen page
 extern u16 gBmFrameTmap1[]; // bg2 tilemap buffer for stat screen page
 extern u16 BG0MapBuffer[]; // gBG0TilemapBuffer
+extern u16 BG1MapBuffer[]; // gBG0TilemapBuffer
+extern u16 BG2MapBuffer[]; // gBG0TilemapBuffer
+extern u16 BG3MapBuffer[]; // gBG0TilemapBuffer
+#define BGMapBuffer(n) BG##n##MapBuffer
 
 void writeBGPalette(const u16 *palette, int start, int length);
 void DrawIcon(u16* BgOut, int IconIndex, int OamPalBase);
@@ -595,6 +600,20 @@ enum
 
 enum
 {
+    // Menu state bits
+
+    MENU_STATE_GAMELOCKING = (1 << 0),
+    MENU_STATE_UNUSED1 = (1 << 1),
+    MENU_STATE_ENDING = (1 << 2),
+    MENU_STATE_NOTSHOWN = (1 << 3),
+    MENU_STATE_FLAT = (1 << 4),
+    MENU_STATE_NOCURSOR = (1 << 5),
+    MENU_STATE_FROZEN = (1 << 6),
+    MENU_STATE_DOOMED = (1 << 7),
+};
+
+enum
+{
     // Menu action bits
 
     MENU_ACT_SKIPCURSOR = (1 << 0),
@@ -610,6 +629,7 @@ enum
 struct MenuProc
 {
     /* 00 */ PROC_HEADER;
+    s8 padAfterProcHeader[3];
 
     /* 2C */ struct MenuRect rect;
     /* 30 */ const struct Menu* def;
@@ -718,5 +738,8 @@ extern u8** gBmMapTerrain;
 s8 CanUnitCrossTerrain(struct Unit* unit, int terrain);
 
 extern short gBmMapWidth, gBmMapHeight;
+
+void DrawUiFrame(int x, int y, int width, int height, int style);
+void DrawMenuItemHover(struct MenuProc* proc, int item, s8 boolHover);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

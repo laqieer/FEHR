@@ -16,3 +16,5 @@
 .text.ComputeBattleUnitStatsInjector : {*(.text.ComputeBattleUnitStatsInjector)}
 . = 0x8c04d70;
 .rodata.pUnitActionMenuItems : {*(.rodata.pUnitActionMenuItems)}
+. = 0x8c09c14;
+.rodata.gProcRedrawMenu : {*(.rodata.gProcRedrawMenu)}

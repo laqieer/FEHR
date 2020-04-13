@@ -3252,9 +3252,7 @@ const struct MenuItem gUnitActionMenuItems[] = {
     {136091276, 4306, 876, 4, 101, 134361497, 0, 134361645, 0, 0, 0} ,  //
     {136091268, 4310, 886, 0, 102, 134362081, 0, 134362105, 0, 0, 0} ,  //
     {136091260, 4307, 853, 0, 103, 134525141, 0, 134355645, 0, 0, 0} ,  //
-//    {"補助スキル", TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU, TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU, TEXT_COLOR_GREEN, 105, isAssistSkillAvailable, 0, AssistSkillSelected, 0, 0, 0} ,  //
-    // TODO: display assist skill name in menu directly or concat assist skill name and description text and then display it in helpbox message.
-    {"補助スキル", TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU, TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU, TEXT_COLOR_GREEN, 105, isAssistSkillAvailable, 0, AssistSkillSelected, 0, 0, 0} ,  //
+    {"補助スキル", TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU, TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU, TEXT_COLOR_GREEN, 105, isAssistSkillAvailable, 0, AssistSkillSelected, 0, 0, 0} ,  //
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  //
 };
 
@@ -3772,4 +3770,59 @@ char *getAssistSkillDescriptionTextInStatScreen()
 {
     return assistSkills[getUnitAssistSkill(gStatScreen.unit)].help;
 }
+
+u16 * const BGMapBufferLUT[] = {
+    BG0MapBuffer,
+    BG1MapBuffer,
+    BG2MapBuffer,
+    BG3MapBuffer
+};
+
+u16 *getBGMapBuffer(int n)
+{
+    return BGMapBufferLUT[n];
+}
+
+void RedrawMenu(struct MenuProc* proc)
+{
+    int i;
+
+    if (proc->state & MENU_STATE_NOTSHOWN)
+        return;
+
+    DrawUiFrame( \
+        proc->rect.x, proc->rect.y, proc->rect.w, proc->rect.h, \
+        proc->def->style);
+
+    for (i = 0; i < proc->itemCount; ++i)
+    {
+        struct MenuItemProc* item = proc->menuItems[i];
+
+        if (item->def->onDraw)
+        {
+            item->def->onDraw(proc, item);
+            continue;
+        }
+
+        if (item->def->color)
+            Text_SetColorId(&item->text, item->def->color);
+
+        if (item->availability == MENU_DISABLED)
+            Text_SetColorId(&item->text, TEXT_COLOR_GRAY);
+
+        if (!item->def->nameMsgId)
+            Text_AppendString(&item->text, item->def->name);
+        else
+            Text_AppendString(&item->text, GetStringFromTextId(item->def->nameMsgId));
+
+        Text_Draw( \
+            &item->text, \
+            TILEMAP_LOCATED(BG0MapBuffer, item->xTile, item->yTile));
+    }
+
+    DrawMenuItemHover(proc, proc->itemCurrent, 1);
+    setBGMapBufferSyncFlag(3);
+}
+
+const struct ProcCmd gProcRedrawMenu = PROC_CALL_ROUTINE(RedrawMenu);
 
