@@ -20,8 +20,6 @@
 #include "portrait_id.h"
 #include "skill.h"
 
-#define TEXT_AUTO_NEW_LINE true
-
 // Add game text here
 const char* const texts[] = {
         // Tutorial Lyn's character description
@@ -1039,40 +1037,34 @@ char *decodeText(int textID)
     char *q = decodedText;
     if(textID < sizeof(texts) / 4 && p)
     {
-        if (TEXT_AUTO_NEW_LINE) {
-            // copy text directly
-            if (getStringTextWidth(texts[textID]) <= TEXT_LINE_WIDTH_MAX)
-                while (*p)
-                    *q++ = *p++;
-            else {
-                // add new lines automatically
-                unsigned int charWidth = 0;
-                unsigned int lineWidth = 0;
+        // copy text directly
+        if (getStringTextWidth(texts[textID]) <= TEXT_LINE_WIDTH_MAX)
+            while (*p)
+                *q++ = *p++;
+        else {
+            // add new lines automatically
+            unsigned int charWidth = 0;
+            unsigned int lineWidth = 0;
 
-                while (*p) {
-                    if (*p < 0x20)
-                        *q++ = *p++;
-                    else {
-                        char *p_next = getCharTextWidth(p, &charWidth);
-                        lineWidth += charWidth;
-                        if (lineWidth > TEXT_LINE_WIDTH_MAX) {
-                            *q++ = 1; // new line
-                            lineWidth = 0;
-                        }
-                        while (p < p_next)
-                            *q++ = *p++;
+            while (*p) {
+                if (*p > 0 && *p < 0x20)
+                    *q++ = *p++;
+                else {
+                    char *p_next = getCharTextWidth(p, &charWidth);
+                    lineWidth += charWidth;
+                    if (lineWidth > TEXT_LINE_WIDTH_MAX) {
+                        *q++ = 1; // new line
+                        lineWidth = 0;
                     }
+                    while (*p && p < p_next)
+                        *q++ = *p++;
                 }
             }
         }
-        else
-        {
-            while (*p)
-                *q++ = *p++;
-        }
-
+        
         // add 0 to end string
         *q = 0;
+
     }
     else
         decompressText(compressedText[textID], decodedText);
