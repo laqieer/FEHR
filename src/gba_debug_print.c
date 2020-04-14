@@ -39,10 +39,9 @@ int savprintf(const char* fmt, ...) {
     u16 location;
 
     char tmp[128];
-    if (locationHiByte >= 0x80) 
+    location = (locationHiByte << 8) + locationLoByte;
+    if(location >= &locationLoByte - savLog)
         location = 0;
-    else
-        location = (locationHiByte << 8) + locationLoByte;
 
     va_list args;
     va_start(args, fmt);
@@ -52,16 +51,16 @@ int savprintf(const char* fmt, ...) {
     mgba_printf(MGBA_LOG_INFO, "%s", tmp);
     nocash_printf(tmp);
 
-    vs8* sbase = (vs8*) SRAM + 0x8000 + location;
+    u8* sbase = savLog + location;
     size_t i;
-    for (i = 0; i < s; ++i) {
+    for (i = 0; i < s && sbase + i < &locationLoByte - 2; ++i) {
         sbase[i] = tmp[i];
     }
     sbase[s] = '\n';
     ++s;
     sbase[s] = '\0';
     location += s;
-    if(location >= 0x8000)
+    if(location >= &locationLoByte - savLog)
         location = 0;
     locationLoByte = location & 0xff;
     locationHiByte = location >> 8;

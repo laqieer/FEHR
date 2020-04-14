@@ -20,6 +20,7 @@
 
 #define GRID_STRIDE 32
 extern char textGrid[GRID_STRIDE * 32];
+extern u8 savLog[];
 
 void initTextGrid();
 void updateTextGrid();
