@@ -73,6 +73,7 @@ void playCharacterMapVoiceWrapper()
         playCharacterMapVoice();
 }
 
+__attribute__ ((optimize(2)))
 void playCharacterMapVoiceInjector()
 {
     //playCharacterMapVoiceWrapper();

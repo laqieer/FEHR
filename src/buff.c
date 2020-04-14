@@ -606,6 +606,9 @@ int GetUnitLuck(struct Unit* unit)
     return unit->luk + GetItemLukBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffLuck(unit);
 }
 
+#pragma GCC push_options
+#pragma GCC optimize ("-O2")
+
 int GetUnitMaxHpInjector(struct Unit* unit)
 {
     return GetUnitMaxHp(unit);
@@ -640,6 +643,8 @@ int GetUnitLuckInjector(struct Unit* unit)
 {
     return GetUnitLuck(unit);
 }
+
+#pragma GCC pop_options
 
 /*
  * Display buff & debuff

@@ -150,12 +150,14 @@ const Portrait *getPortraitByID(int id)
     return &portraitsOrig[id];
 }
 
+__attribute__ ((optimize(2)))
 const Portrait *getPortraitByIDInjector(int id)
 {
     //return getPortraitByID(id);
     asm("ldr r1,=getPortraitByID\nbx r1");
 }
 
+__attribute__ ((optimize(2)))
 void setPortaritOBJPointerOrig(PortaritProc *proc)
 {
     asm(".align 2\n.incbin \"../rom/fe7-jp.gba\",0x6c48,0x6d1c-0x6c48");
