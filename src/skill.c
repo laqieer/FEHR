@@ -18,6 +18,7 @@
 #include "skill_page_icons_1.h"
 #include "skill_page_icons_2.h"
 #include "new_unit_state.h"
+#include "buff.h"
 #include "sound_effect.h"
 #include "music_id.h"
 #include "gba_debug_print.h"
@@ -2799,7 +2800,24 @@ void DisplayPage3()
     // display assist skill icon
     //DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 4), ICON_ASSIST_SKILL, 0x8000);
     drawIconInSkillPage(1, 4, ICON_ASSIST_SKILL, 8);
+    //FIXME: Call to DrawTextInLine with null TextHandle causes memory leak in VRAM, which corrupts the display finally.
     DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 4), TEXT_COLOR_NORMAL, 0, 10, getAssistSkillNameTextInStatScreen());
+
+    // display passive skill A
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 6), TEXT_COLOR_GOLD, 0, 1, "Ａ");
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 6), TEXT_COLOR_NORMAL, 0, 10, passiveSkillAs[getUnitPassiveSkillA(gStatScreen.unit)].name);
+
+    // display passive skill B
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 8), TEXT_COLOR_GOLD, 0, 1, "Ｂ");
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 8), TEXT_COLOR_NORMAL, 0, 10, passiveSkillBs[getUnitPassiveSkillB(gStatScreen.unit)].name);
+
+    // display passive skill C
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 10), TEXT_COLOR_GOLD, 0, 1, "Ｃ");
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 10), TEXT_COLOR_NORMAL, 0, 10, passiveSkillCs[getUnitPassiveSkillC(gStatScreen.unit)].name);
+
+    // display passive skill S
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 0), TEXT_COLOR_GOLD, 0, 2, "聖印");
+    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 0), TEXT_COLOR_NORMAL, 0, 10, passiveSkillSs[getUnitPassiveSkillS(gStatScreen.unit)].name);
 
     // Help Box Info
     gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
@@ -4085,4 +4103,118 @@ void RedrawMenu(struct MenuProc* proc)
 }
 
 const struct ProcCmd gProcRedrawMenu = PROC_CALL_ROUTINE(RedrawMenu);
+
+/*
+ * Passive skill A.
+ */
+
+const struct PassiveSkill passiveSkillAs[] = {
+    {"ーー", "パッシブスキルＡを持っていない", "NO DATA", "No passive skill A available."},
+};
+
+const u16 characterPassiveSkillAs[0x100][4] = {
+    {0, 0, 0, 0},
+};
+
+u16 getUnitPassiveSkillA(struct Unit *unit)
+{
+    u16 PassiveSkillA = 0;
+
+    if(characterPassiveSkillAs[unit->character->id][0])
+        PassiveSkillA = characterPassiveSkillAs[unit->character->id][0];
+    if(characterPassiveSkillAs[unit->character->id][1] && unit->lv >= 15)
+        PassiveSkillA = characterPassiveSkillAs[unit->character->id][1];
+    if(characterPassiveSkillAs[unit->character->id][2] && unit->job->ability_promoted)
+        PassiveSkillA = characterPassiveSkillAs[unit->character->id][2];
+    if(characterPassiveSkillAs[unit->character->id][3] && unit->job->ability_promoted && unit->lv >= 15)
+        PassiveSkillA = characterPassiveSkillAs[unit->character->id][3];
+
+    return PassiveSkillA;
+}
+
+
+/*
+ * Passive skill B.
+ */
+
+const struct PassiveSkill passiveSkillBs[] = {
+    {"ーー", "パッシブスキルＢを持っていない", "NO DATA", "No passive skill B available."},
+};
+
+const u16 characterPassiveSkillBs[0x100][4] = {
+    {0, 0, 0, 0},
+};
+
+u16 getUnitPassiveSkillB(struct Unit *unit)
+{
+    u16 PassiveSkillB = 0;
+
+    if(characterPassiveSkillBs[unit->character->id][0] && unit->lv >= 5)
+        PassiveSkillB = characterPassiveSkillBs[unit->character->id][0];
+    if(characterPassiveSkillBs[unit->character->id][1] && unit->lv >= 20)
+        PassiveSkillB = characterPassiveSkillBs[unit->character->id][1];
+    if(characterPassiveSkillBs[unit->character->id][2] && unit->job->ability_promoted && unit->lv >= 5)
+        PassiveSkillB = characterPassiveSkillBs[unit->character->id][2];
+    if(characterPassiveSkillBs[unit->character->id][3] && unit->job->ability_promoted && unit->lv >= 20)
+        PassiveSkillB = characterPassiveSkillBs[unit->character->id][3];
+
+    return PassiveSkillB;
+}
+
+
+/*
+ * Passive skill C.
+ */
+
+const struct PassiveSkill passiveSkillCs[] = {
+    {"ーー", "パッシブスキルＣを持っていない", "NO DATA", "No passive skill C available."},
+};
+
+const u16 characterPassiveSkillCs[0x100][4] = {
+    {0, 0, 0, 0},
+};
+
+u16 getUnitPassiveSkillC(struct Unit *unit)
+{
+    u16 PassiveSkillC = 0;
+
+    if(characterPassiveSkillCs[unit->character->id][0] && unit->lv >= 10)
+        PassiveSkillC = characterPassiveSkillCs[unit->character->id][0];
+    if(characterPassiveSkillCs[unit->character->id][1] && unit->lv >= 25)
+        PassiveSkillC = characterPassiveSkillCs[unit->character->id][1];
+    if(characterPassiveSkillCs[unit->character->id][2] && unit->job->ability_promoted && unit->lv >= 10)
+        PassiveSkillC = characterPassiveSkillCs[unit->character->id][2];
+    if(characterPassiveSkillCs[unit->character->id][3] && unit->job->ability_promoted && unit->lv >= 25)
+        PassiveSkillC = characterPassiveSkillCs[unit->character->id][3];
+
+    return PassiveSkillC;
+}
+
+
+/*
+ * Passive skill S.
+ */
+
+const struct PassiveSkill passiveSkillSs[] = {
+    {"ーー", "聖印を装備していない", "NO DATA", "No sacred seal equipped."},
+};
+
+const u16 itemPassiveSkillSs[0x100] = {
+    0,
+};
+
+u16 getUnitPassiveSkillS(struct Unit *unit)
+{
+    u16 passiveSkillS = 0;
+
+    for(int i = 0; i < 5; i++)
+    {
+        passiveSkillS = itemSpecialSkills[unit->items[i].itemId];
+        if(passiveSkillS)
+            return passiveSkillS;
+    }
+
+    return passiveSkillS;
+}
+
 

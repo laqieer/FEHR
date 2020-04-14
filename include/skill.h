@@ -741,4 +741,23 @@ extern short gBmMapWidth, gBmMapHeight;
 void DrawUiFrame(int x, int y, int width, int height, int style);
 void DrawMenuItemHover(struct MenuProc* proc, int item, s8 boolHover);
 
+struct PassiveSkill {
+    const char * const name;
+    const char * const description;
+    const char * const name_en;
+    const char * const description_en;
+};
+
+extern const struct PassiveSkill passiveSkillAs[];
+extern const struct PassiveSkill passiveSkillBs[];
+extern const struct PassiveSkill passiveSkillCs[];
+extern const struct PassiveSkill passiveSkillSs[];
+
+u16 getUnitPassiveSkillA(struct Unit *unit);
+u16 getUnitPassiveSkillB(struct Unit *unit);
+u16 getUnitPassiveSkillC(struct Unit *unit);
+u16 getUnitPassiveSkillS(struct Unit *unit);
+
+void setBGMapBufferSyncFlag(u8 flag);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

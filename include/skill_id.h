@@ -119,4 +119,20 @@ enum AssistSkillID {
     ASSIST_SKILL_SWEET_DREAMS, // あまいゆめ
 };
 
+enum PassiveSkillAID {
+    PASSIVE_SKILL_A_NONE = 0,
+};
+
+enum PassiveSkillBID {
+    PASSIVE_SKILL_B_NONE = 0,
+};
+
+enum PassiveSkillCID {
+    PASSIVE_SKILL_C_NONE = 0,
+};
+
+enum PassiveSkillSID {
+    PASSIVE_SKILL_S_NONE = 0,
+};
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_ID_H
