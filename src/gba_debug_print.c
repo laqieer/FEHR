@@ -31,7 +31,6 @@ void nocash_printf(const char* str) {
     }
 }
 
-// Warning: Text is printed to 0xe008000 ~ 0xe00ffff area. It will destroy game save if the emulator thinks the game's save area is up to 0xe007fff and mirrors 0xe008000 ~ 0xe00ffff area to 0xe000000 ~ 0xe007fff area.
 __attribute__((format(printf, 1, 2)))
 int savprintf(const char* fmt, ...) {
     static u8 locationLoByte = 0;
@@ -46,6 +45,8 @@ int savprintf(const char* fmt, ...) {
     va_list args;
     va_start(args, fmt);
     int s = vsnprintf(tmp, sizeof(tmp), fmt, args);
+    if(s > &locationLoByte - location - savLog - 2)
+        s = &locationLoByte - location - savLog - 2;
     va_end(args);
 
     mgba_printf(MGBA_LOG_INFO, "%s", tmp);
@@ -53,14 +54,14 @@ int savprintf(const char* fmt, ...) {
 
     u8* sbase = savLog + location;
     size_t i;
-    for (i = 0; i < s && sbase + i < &locationLoByte - 2; ++i) {
+    for (i = 0; i < s; ++i) {
         sbase[i] = tmp[i];
     }
     sbase[s] = '\n';
     ++s;
     sbase[s] = '\0';
     location += s;
-    if(location >= &locationLoByte - savLog)
+    if(location >= &locationLoByte - savLog - 1)
         location = 0;
     locationLoByte = location & 0xff;
     locationHiByte = location >> 8;
