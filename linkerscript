@@ -187,8 +187,8 @@ SECTIONS
 {
 	. = 0x8000000;
 	.rom : {KEEP(*(.rom))}
-	/*. = 0x8000220;
-	.rodata.pAgbMain : {*(.rodata.pAgbMain)}*/
+	. = 0x8000220;
+	.rodata.pAgbMain : {*(.rodata.pAgbMain)}
 	INCLUDE ../lds/character_voice.ld
 	INCLUDE ../lds/skill.ld
 	INCLUDE ../lds/buff.ld

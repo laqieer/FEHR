@@ -1074,7 +1074,7 @@ char *decodeText(int textID)
 
         if(getStringTextWidth(texts[textID]) > maxLineWidth)
         {
-            savprintf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(texts[textID]), getStringTextWidth(decodedText));
+            debugprintf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(texts[textID]), getStringTextWidth(decodedText));
         }
     }
     else
