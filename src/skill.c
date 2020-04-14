@@ -27,10 +27,10 @@
  * Specials are skills that activate based on a cooldown. They are reminiscent of critical hits from the main series Fire Emblem titles.
  */
 
-char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT] = {-1};
-char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT] = {-1};
-char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {-1};
-char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {-1};
+char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT];
+char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT];
+char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT];
+char gP4SkillCoolDown[P4_TOTAL_AMOUNT];
 
 /*
  * 緋炎・氷蒼系の奥義スキル

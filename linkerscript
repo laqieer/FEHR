@@ -327,7 +327,7 @@ SECTIONS
     INCLUDE ../lds/patch_enable_BWL_display_at_first.ld
     /*INCLUDE ../lds/patch_expand_icon_amount.ld*/
 	. = 0xE007400;
-	.data.skill : {*/skill.*(.data.*)}
+	.bss.skill : {*/skill.*(.data.*)}
 	.bss.buff : {*/buff.*(.bss.*)}
 	.bss.new_unit_state : {*/new_unit_state.*(.bss.*)}
     savLog = .;
