@@ -14,8 +14,11 @@ extern const char version[];
 void printVersion()
 {
     savprintf(version);
-    mgba_open();
+#ifdef EMULATOR
+    if(EMULATOR == EMU_MGBA)
+        mgba_open();
     debugprintf(version);
+#endif
     initTextGrid();
     textgridprintf(version);
 }
