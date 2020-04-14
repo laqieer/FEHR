@@ -16,7 +16,7 @@
 extern char textGrid[GRID_STRIDE * 32];
 extern u8 savLog[];
 
-enum GBAEmulator {EMU_NONE = 0, EMU_MGBA, EMU_NOCASH, EMU_VBAM};
+enum GBAEmulator {EMU_NONE = 0, EMU_MGBA, EMU_NOCASH, EMU_VBAM, EMU_VBA};
 
 void initTextGrid();
 void updateTextGrid();

@@ -31,6 +31,33 @@ void nocash_print(const char* str) {
     }
 }
 
+#define __thumb__
+#define _M_ARMT
+
+#if defined(__thumb__) || defined(_M_ARMT)
+
+	void vba_print(const char *s) // THUMB code
+	{
+		asm volatile("mov r0, %0;"
+					"swi 0xff;"
+					: // no ouput
+					: "r" (s)
+					: "r0");
+	}
+
+#else
+
+	void vba_print(const char *s) // ARM code
+	{
+		asm volatile("mov r0, %0;"
+					"swi 0xff0000;"
+					: // no ouput
+					: "r" (s)
+					: "r0");
+	}
+
+#endif
+
 __attribute__((format(printf, 1, 2)))
 int savprintf(const char* fmt, ...) {
     static u8 locationLoByte = 0;
@@ -83,6 +110,9 @@ int debugprintf(const char* fmt, ...) {
 
     if(EMULATOR == EMU_NOCASH)
         nocash_print(tmp);
+
+    if(EMULATOR == EMU_VBA)
+        vba_print(tmp);
 
     return s;
 
