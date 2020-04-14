@@ -21,7 +21,7 @@ void updateTextGrid() {
     }
 }
 
-void nocash_printf(const char* str) {
+void nocash_print(const char* str) {
     static const char* ID = (const char*) 0x4FFFA00;
     static volatile const char** OUT = (volatile const char**) 0x4FFFA10;
     static volatile char* OUTC = (volatile char*) 0x4FFFA1C;
@@ -49,9 +49,6 @@ int savprintf(const char* fmt, ...) {
         s = &locationLoByte - location - savLog - 2;
     va_end(args);
 
-    mgba_printf(MGBA_LOG_INFO, "%s", tmp);
-    nocash_printf(tmp);
-
     u8* sbase = savLog + location;
     size_t i;
     for (i = 0; i < s; ++i) {
@@ -71,9 +68,8 @@ int savprintf(const char* fmt, ...) {
 
 __attribute__((format(printf, 1, 2)))
 int debugprintf(const char* fmt, ...) {
-    if (!isMgba) {
-        return 0;
-    }
+
+#ifdef EMULATOR
 
     char tmp[128];
 
@@ -82,8 +78,17 @@ int debugprintf(const char* fmt, ...) {
     int s = vsnprintf(tmp, sizeof(tmp), fmt, args);
     va_end(args);
 
-    mgba_printf(MGBA_LOG_DEBUG, "%s", tmp);
+    if(EMULATOR == EMU_MGBA)
+        mgba_printf(MGBA_LOG_DEBUG, "%s", tmp);
+
+    if(EMULATOR == EMU_NOCASH)
+        nocash_print(tmp);
+
     return s;
+
+#endif
+
+    return 0;
 }
 
 void initTextGrid()
