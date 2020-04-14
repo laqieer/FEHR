@@ -1072,6 +1072,10 @@ char *decodeText(int textID)
         // add 0 to end string
         *q = 0;
 
+        if(getStringTextWidth(texts[textID]) > maxLineWidth)
+        {
+            savprintf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(texts[textID]), getStringTextWidth(decodedText));
+        }
     }
     else
         decompressText(compressedText[textID], decodedText);
