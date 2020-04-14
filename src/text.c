@@ -19,6 +19,7 @@
 #include "text_id.h"
 #include "portrait_id.h"
 #include "skill.h"
+#include "gba_debug_print.h"
 
 // Add game text here
 const char* const texts[] = {
@@ -1074,7 +1075,7 @@ char *decodeText(int textID)
 
         if(getStringTextWidth(texts[textID]) > maxLineWidth)
         {
-            debugprintf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(texts[textID]), getStringTextWidth(decodedText));
+            Debugf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(texts[textID]), getStringTextWidth(decodedText));
         }
     }
     else

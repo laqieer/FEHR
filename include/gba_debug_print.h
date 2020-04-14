@@ -18,6 +18,15 @@ extern u8 savLog[];
 
 enum GBAEmulator {EMU_NONE = 0, EMU_MGBA, EMU_NOCASH, EMU_VBAM, EMU_VBA};
 
+#ifdef EMULATOR
+#define Debugf(fmt, ...) \
+    debugprintf("File %s, Line %d, Function %s: ", __FILE__, __LINE__, __func__); \
+    debugprintf(fmt, __VA_ARGS__)
+#else
+#define Debugf(fmt, ...) \
+    savprintf(fmt, __VA_ARGS__)
+#endif
+
 void initTextGrid();
 void updateTextGrid();
 void setTextGrid(int x, int y, const char* str);
