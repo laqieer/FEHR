@@ -1011,6 +1011,10 @@ const char* const texts[] = {
         [TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN] = "補助スキルヘルプ情報",
         [TEXT_ASSIST_SKILL_DISABLED_HELP_IN_ACTION_MENU] = "補助スキルが使えない",
         [TEXT_ASSIST_SKILL_TARGET_SELECTION_HELP] = "補助スキルの対象を選びなさい",
+        [TEXT_PASSIVE_SKILL_A_HELP] = "",
+        [TEXT_PASSIVE_SKILL_B_HELP] = "",
+        [TEXT_PASSIVE_SKILL_C_HELP] = "",
+        [TEXT_PASSIVE_SKILL_S_HELP] = "",
 };
 
 extern int lastTextID;
@@ -1023,7 +1027,7 @@ char *getCharTextWidth(char *str, unsigned int *pWidth);
 
 char *decodeText(int textID)
 {
-    if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP && textID != TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN)
+    if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP && textID != TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN && textID != TEXT_PASSIVE_SKILL_A_HELP && textID != TEXT_PASSIVE_SKILL_B_HELP && textID != TEXT_PASSIVE_SKILL_C_HELP && textID != TEXT_PASSIVE_SKILL_S_HELP)
         return decodedText;
 
     lastTextID = textID;
@@ -1037,6 +1041,14 @@ char *decodeText(int textID)
         p = getAssistSkillDescriptionTextInActionMenu();
     if(textID == TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN)
         p = getAssistSkillDescriptionTextInStatScreen();
+    if(textID == TEXT_PASSIVE_SKILL_A_HELP)
+        p = getPassiveSkillAHelpText();
+    if(textID == TEXT_PASSIVE_SKILL_B_HELP)
+        p = getPassiveSkillBHelpText();
+    if(textID == TEXT_PASSIVE_SKILL_C_HELP)
+        p = getPassiveSkillCHelpText();
+    if(textID == TEXT_PASSIVE_SKILL_S_HELP)
+        p = getPassiveSkillSHelpText();
 
     char *q = decodedText;
     if(textID < sizeof(texts) / 4 && p)

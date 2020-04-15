@@ -2985,13 +2985,17 @@ char *getSpecialSkillDescriptionText()
 }
 
 const struct HelpBoxInfo sHelpInfo_Ss3CharacterName = {NULL, &sHelpInfo_Ss3JobName, NULL, &gHelpInfo_Ss3SpecialSkillName, 0x28, 0x50, NULL, NULL, 0x808245d};
-const struct HelpBoxInfo sHelpInfo_Ss3JobName = {&sHelpInfo_Ss3CharacterName, NULL, NULL, &sHelpInfo_Ss3NewUnitState, 6, 0x68, 0x22e, NULL, 0x8082485};
-const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName = {NULL, &sHelpInfo_Ss3AssistSkillName, &sHelpInfo_Ss3CharacterName, &sHelpInfo_Ss3SpecialSkillCD, 112, 32, TEXT_SPECIAL_SKILL_HELP, NULL, NULL};
-const struct HelpBoxInfo sHelpInfo_Ss3AssistSkillName = {&gHelpInfo_Ss3SpecialSkillName, &sHelpInfo_Ss3NewUnitState, &sHelpInfo_Ss3CharacterName, NULL, 112, 48, TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN, NULL, NULL};
-const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD = {NULL, &sHelpInfo_Ss3AssistSkillName, &gHelpInfo_Ss3SpecialSkillName, NULL, 172, 32, TEXT_SPECIAL_SKILL_CD_HELP, NULL, NULL};
-const struct HelpBoxInfo sHelpInfo_Ss3PositiveState = {&sHelpInfo_Ss3SpecialSkillCD, &sHelpInfo_Ss3NegativeState, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_UNIT_POSITIVE_STATE_HELP, NULL, NULL};
-const struct HelpBoxInfo sHelpInfo_Ss3NegativeState = {&sHelpInfo_Ss3PositiveState, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x88, TEXT_UNIT_NEGATIVE_STATE_HELP, NULL, NULL};
-const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState = {&sHelpInfo_Ss3AssistSkillName, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x78, TEXT_NEW_UNIT_STATE_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3JobName = {&sHelpInfo_Ss3CharacterName, NULL, NULL, &sHelpInfo_Ss3NegativeState, 6, 0x68, 0x22e, NULL, 0x8082485};
+const struct HelpBoxInfo gHelpInfo_Ss3SpecialSkillName = {NULL, &sHelpInfo_Ss3AssistSkillName, &sHelpInfo_Ss3CharacterName, &sHelpInfo_Ss3SpecialSkillCD, 112, 8 + 16, TEXT_SPECIAL_SKILL_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3AssistSkillName = {&gHelpInfo_Ss3SpecialSkillName, &sHelpInfo_Ss3PassiveSkillAName, &sHelpInfo_Ss3CharacterName, NULL, 112, 8 + 16 * 2, TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3PassiveSkillAName = {&sHelpInfo_Ss3AssistSkillName, &sHelpInfo_Ss3PassiveSkillBName, &sHelpInfo_Ss3CharacterName, NULL, 112, 8 + 16 * 3, TEXT_PASSIVE_SKILL_A_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3PassiveSkillBName = {&sHelpInfo_Ss3PassiveSkillAName, &sHelpInfo_Ss3PassiveSkillCName, &sHelpInfo_Ss3CharacterName, NULL, 112, 8 + 16 * 4, TEXT_PASSIVE_SKILL_B_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3PassiveSkillCName = {&sHelpInfo_Ss3PassiveSkillBName, &sHelpInfo_Ss3PassiveSkillSName, &sHelpInfo_Ss3CharacterName, NULL, 112, 8 + 16 * 5, TEXT_PASSIVE_SKILL_C_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3PassiveSkillSName = {&sHelpInfo_Ss3PassiveSkillCName, &sHelpInfo_Ss3PositiveState, &sHelpInfo_Ss3JobName, NULL, 112, 8 + 16 * 6, TEXT_PASSIVE_SKILL_S_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3SpecialSkillCD = {NULL, &sHelpInfo_Ss3AssistSkillName, &gHelpInfo_Ss3SpecialSkillName, NULL, 172, 8 + 16, TEXT_SPECIAL_SKILL_CD_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3PositiveState = {&sHelpInfo_Ss3SpecialSkillCD, &sHelpInfo_Ss3NegativeState, &sHelpInfo_Ss3JobName, NULL, 112, 8 + 16 * 7, TEXT_UNIT_POSITIVE_STATE_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3NegativeState = {&sHelpInfo_Ss3PositiveState, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 8 + 16 * 8, TEXT_UNIT_NEGATIVE_STATE_HELP, NULL, NULL};
+const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState = {&sHelpInfo_Ss3AssistSkillName, NULL, &sHelpInfo_Ss3JobName, NULL, 112, 0x78 + 16, TEXT_NEW_UNIT_STATE_HELP, NULL, NULL};
 
 // Struct size
 const int sizeofUnit = sizeof(struct Unit);
@@ -4323,4 +4327,23 @@ u16 getUnitPassiveSkillS(struct Unit *unit)
     return passiveSkillS;
 }
 
+char *getPassiveSkillAHelpText()
+{
+    return passiveSkillAs[getUnitPassiveSkillA(gStatScreen.unit)].description;
+}
+
+char *getPassiveSkillBHelpText()
+{
+    return passiveSkillBs[getUnitPassiveSkillB(gStatScreen.unit)].description;
+}
+
+char *getPassiveSkillCHelpText()
+{
+    return passiveSkillCs[getUnitPassiveSkillC(gStatScreen.unit)].description;
+}
+
+char *getPassiveSkillSHelpText()
+{
+    return passiveSkillSs[getUnitPassiveSkillS(gStatScreen.unit)].description;
+}
 

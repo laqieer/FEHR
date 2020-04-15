@@ -542,12 +542,20 @@ extern const struct HelpBoxInfo sHelpInfo_Ss3PositiveState;
 extern const struct HelpBoxInfo sHelpInfo_Ss3NegativeState;
 extern const struct HelpBoxInfo sHelpInfo_Ss3NewUnitState;
 extern const struct HelpBoxInfo sHelpInfo_Ss3AssistSkillName;
+extern const struct HelpBoxInfo sHelpInfo_Ss3PassiveSkillAName;
+extern const struct HelpBoxInfo sHelpInfo_Ss3PassiveSkillBName;
+extern const struct HelpBoxInfo sHelpInfo_Ss3PassiveSkillCName;
+extern const struct HelpBoxInfo sHelpInfo_Ss3PassiveSkillSName;
 
 char *getSpecialSkillDescriptionText();
 char *getAssistSkillNameTextInActionMenu();
 char *getAssistSkillDescriptionTextInActionMenu();
 char *getAssistSkillNameTextInStatScreen();
 char *getAssistSkillDescriptionTextInStatScreen();
+char *getPassiveSkillAHelpText();
+char *getPassiveSkillBHelpText();
+char *getPassiveSkillCHelpText();
+char *getPassiveSkillSHelpText();
 
 enum {
     // Icons in skill page.
