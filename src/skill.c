@@ -4220,10 +4220,18 @@ const struct ProcCmd gProcRedrawMenu = PROC_CALL_ROUTINE(RedrawMenu);
 
 const struct PassiveSkill passiveSkillAs[] = {
     {"[[", "ƒpƒbƒVƒuƒXƒLƒ‹‚`‚ğ‚Á‚Ä‚¢‚È‚¢", "NO DATA", "No passive skill A available."},
+    {"‹S_‚ÌˆêŒ‚‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚Q", "Death Blow 1", "If unit initiates      combat, grants Atk+2 during combat."},
+    {"‹S_‚ÌˆêŒ‚‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚S", "Death Blow 2", "If unit initiates      combat, grants Atk+4 during combat."},
+    {"‹S_‚ÌˆêŒ‚‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚U", "Death Blow 3", "If unit initiates      combat, grants Atk+6 during combat."},
+    {"‹S_‚ÌˆêŒ‚‚S", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚W", "Death Blow 4", "If unit initiates      combat, grants Atk+8 during combat."},
+    {"‘¬‚³‚P", "‘¬‚³{‚P", "Speed +1", "Grants Spd+1."},
+    {"‘¬‚³‚Q", "‘¬‚³{‚Q", "Speed +2", "Grants Spd+2."},
+    {"‘¬‚³‚R", "‘¬‚³{‚R", "Speed +3", "Grants Spd+3."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
     {0, 0, 0, 0},
+    [CHARACTER_ALFONSE_ID] = {PASSIVE_SKILL_A_DEATH_BLOW_1, PASSIVE_SKILL_A_DEATH_BLOW_2, PASSIVE_SKILL_A_DEATH_BLOW_3, PASSIVE_SKILL_A_DEATH_BLOW_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -4249,10 +4257,15 @@ u16 getUnitPassiveSkillA(struct Unit *unit)
 
 const struct PassiveSkill passiveSkillBs[] = {
     {"[[", "ƒpƒbƒVƒuƒXƒLƒ‹‚a‚ğ‚Á‚Ä‚¢‚È‚¢", "NO DATA", "No passive skill B available."},
+    {"‘Ò‚¿•š‚¹‚P", "©•ª‚Ì‚g‚o‚ª‚S•ª‚Ì‚PˆÈ‰º‚ÅA“G‚©‚çUŒ‚‚³‚ê‚½Aæ§UŒ‚", "Vantage 1", "If unit's HP <= 25% and foe initiates combat, unit can counterattack before foe's first attack."},
+    {"‘Ò‚¿•š‚¹‚Q", "©•ª‚Ì‚g‚o‚ª”¼•ªˆÈ‰º‚ÅA“G‚©‚çUŒ‚‚³‚ê‚½Aæ§UŒ‚", "Vantage 2", "If unit's HP <= 50% and foe initiates combat, unit can counterattack before foe's first attack."},
+    {"‘Ò‚¿•š‚¹‚R", "©•ª‚Ì‚g‚o‚ª‚S•ª‚Ì‚RˆÈ‰º‚ÅA“G‚©‚çUŒ‚‚³‚ê‚½Aæ§UŒ‚", "Vantage 3", "If unit's HP <= 75% and foe initiates combat, unit can counterattack before foe's first attack."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
     {0, 0, 0, 0},
+    [CHARACTER_ANNA_ID] = {PASSIVE_SKILL_B_VANTAGE_1, PASSIVE_SKILL_B_VANTAGE_2, PASSIVE_SKILL_B_VANTAGE_3, 0},
+    [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_A_SPEED_1, PASSIVE_SKILL_A_SPEED_2, PASSIVE_SKILL_A_SPEED_3, 0},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -4278,10 +4291,22 @@ u16 getUnitPassiveSkillB(struct Unit *unit)
 
 const struct PassiveSkill passiveSkillCs[] = {
     {"[[", "ƒpƒbƒVƒuƒXƒLƒ‹‚b‚ğ‚Á‚Ä‚¢‚È‚¢", "NO DATA", "No passive skill C available."},
+    {"UŒ‚‚Ì–äÍ‚P", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚{‚Q", "Spur Atk 1", "Grants Atk+2 to adjacent allies during combat."},
+    {"UŒ‚‚Ì–äÍ‚Q", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚{‚R", "Spur Atk 2", "Grants Atk+3 to adjacent allies during combat."},
+    {"UŒ‚‚Ì–äÍ‚R", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚{‚S", "Spur Atk 3", "Grants Atk+4 to adjacent allies during combat."},
+    {"–‚–h‚Ì–äÍ‚P", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†A–‚–h{‚Q", "Spur Res 1", "Grants Res+2 to adjacent allies during combat."},
+    {"–‚–h‚Ì–äÍ‚Q", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†A–‚–h{‚R", "Spur Res 2", "Grants Res+3 to adjacent allies during combat."},
+    {"–‚–h‚Ì–äÍ‚R", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†A–‚–h{‚S", "Spur Res 3", "Grants Res+4 to adjacent allies during combat."},
+    {"ç”õ‚ÌŒÛ•‘‚P", "ƒ^[ƒ“ŠJnAüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ìç”õ{‚Qi‚Pƒ^[ƒ“j", "Fortify Def 1", "At start of turn, grants Def+2 to adjacent allies for 1 turn."},
+    {"ç”õ‚ÌŒÛ•‘‚Q", "ƒ^[ƒ“ŠJnAüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ìç”õ{‚Ri‚Pƒ^[ƒ“j", "Fortify Def 2", "At start of turn, grants Def+3 to adjacent allies for 1 turn."},
+    {"ç”õ‚ÌŒÛ•‘‚R", "ƒ^[ƒ“ŠJnAüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ìç”õ{‚Si‚Pƒ^[ƒ“j", "Fortify Def 3", "At start of turn, grants Def+4 to adjacent allies for 1 turn."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
     {0, 0, 0, 0},
+    [CHARACTER_ALFONSE_ID] = {PASSIVE_SKILL_C_SPUR_ATK_1, PASSIVE_SKILL_C_SPUR_ATK_2, PASSIVE_SKILL_C_SPUR_ATK_3, 0},
+    [CHARACTER_ANNA_ID] = {PASSIVE_SKILL_C_SPUR_RES_1, PASSIVE_SKILL_C_SPUR_RES_2, PASSIVE_SKILL_C_SPUR_RES_3, 0},
+    [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_C_FORTIFY_DEF_1, PASSIVE_SKILL_C_FORTIFY_DEF_2, PASSIVE_SKILL_C_FORTIFY_DEF_3, 0},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
