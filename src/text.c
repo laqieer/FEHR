@@ -1025,6 +1025,41 @@ void decompressText(const char *src, char *dst);
 int getStringTextWidth(const char *str);
 char *getCharTextWidth(char *str, unsigned int *pWidth);
 
+void stripTextControlCode(char *textIn, char *textOut, int maxLength)
+{
+    char *textOutGuard = textOut + maxLength;
+
+    while(*textIn)
+    {
+        // single byte control code
+        if(*textIn > 0 && *textIn < 0x20)
+        {
+            textIn++;
+            continue;
+        }
+
+        // double byte control code
+        if(*textIn == -128) // 0x80
+        {
+            textIn += 2;
+            continue;
+        }
+
+        // double byte encoding
+        if((u8)*textIn < 0) // 0x81 ~
+            *textOut++ = *textIn++;
+
+        *textOut++ = *textIn++;
+
+        // prevent overflow
+        if(textOut > textOutGuard - 3)
+            break;
+    }
+
+    // end of string
+    *textOut = 0;
+}
+
 char *decodeText(int textID)
 {
     if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP && textID != TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN && textID != TEXT_PASSIVE_SKILL_A_HELP && textID != TEXT_PASSIVE_SKILL_B_HELP && textID != TEXT_PASSIVE_SKILL_C_HELP && textID != TEXT_PASSIVE_SKILL_S_HELP)
