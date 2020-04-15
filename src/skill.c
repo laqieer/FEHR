@@ -2772,7 +2772,6 @@ const struct TextBatch textBatchInPage3[] = {
     [STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL], 1},
     [STATSCREEN_NEWTEXT_PASSIVESKILLC] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLC], 8},
     [STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL], 2},
-    [STATSCREEN_NEWTEXT_PASSIVESKILLS] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLS], 8},
 
     [STATSCREEN_NEWTEXT_MAX]= {  },
 };
@@ -2837,7 +2836,6 @@ const struct StatScreenNewTextDisplayInfo textLayoutInPage3[] = {
     {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL], 1, 9, TEXT_COLOR_GOLD, 0, getPassiveSkillCLabelInStatScreen},
     {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLC], 3, 9, TEXT_COLOR_NORMAL, 0, getPassiveSkillCNameInStatScreen},
     {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL], 1, 11, TEXT_COLOR_GOLD, 0, getPassiveSkillSLabelInStatScreen},
-    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLS], 3, 11, TEXT_COLOR_NORMAL, 0, getPassiveSkillSNameInStatScreen},
     {  },
 };
 
@@ -2907,6 +2905,11 @@ void displayNewTexts(const struct StatScreenNewTextDisplayInfo *textDisplayInfo)
 void displayTextsInPage3()
 {
     displayNewTexts(textLayoutInPage3);
+
+    // display passive skill S name
+    Text_Clear(BWLTextHandle);
+    Text_InsertString(BWLTextHandle, 0, TEXT_COLOR_NORMAL, getPassiveSkillSNameInStatScreen());
+    Text_Draw(BWLTextHandle, gBmFrameTmap0 + TILEMAP_INDEX(3, 11));
 }
 
 // page 3 is skill page
