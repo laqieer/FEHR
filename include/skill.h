@@ -446,6 +446,32 @@ enum
 
 enum
 {
+    STATSCREEN_NEWTEXT_SPECIALSKILL, // 0
+    STATSCREEN_NEWTEXT_ASSISTSKILL, // 1
+    STATSCREEN_NEWTEXT_PASSIVESKILLALABEL, // 2
+    STATSCREEN_NEWTEXT_PASSIVESKILLA, // 3
+    STATSCREEN_NEWTEXT_PASSIVESKILLBLABEL, // 4
+    STATSCREEN_NEWTEXT_PASSIVESKILLB, // 5
+    STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL, // 6
+    STATSCREEN_NEWTEXT_PASSIVESKILLC, // 7
+    STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL, // 8
+    STATSCREEN_NEWTEXT_PASSIVESKILLS, // 9
+
+    STATSCREEN_NEWTEXT_MAX
+};
+
+struct StatScreenNewTextDisplayInfo
+{
+    struct TextHandle* textHandle;
+    u8 x;
+    u8 y;
+    u8 colorId;
+    u8 offsetX;
+    char*(*getText)();
+};
+
+enum
+{
     // BG palette allocation
     STATSCREEN_BGPAL_HALO = 1,
     STATSCREEN_BGPAL_2 = 2,
@@ -759,5 +785,8 @@ u16 getUnitPassiveSkillC(struct Unit *unit);
 u16 getUnitPassiveSkillS(struct Unit *unit);
 
 void setBGMapBufferSyncFlag(u8 flag);
+
+void UnitSlide_SetNewUnit(struct Proc* proc);
+void StatScreen_Display(struct Proc* proc);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

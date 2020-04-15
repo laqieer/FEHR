@@ -2667,7 +2667,7 @@ void drawIconInSkillPage(int x, int y, int iconId, int paletteId)
 void displayPositiveStateIcons()
 {
     int x = 1;
-    int y = 12;
+    int y = 13;
 
     drawIconInSkillPage(x, y, ICON_POSITIVE_STATE, 8);
     x += 2;
@@ -2712,7 +2712,7 @@ void displayPositiveStateIcons()
 void displayNegativeStateIcons()
 {
     int x = 1;
-    int y = 14;
+    int y = 15;
 
     drawIconInSkillPage(x, y, ICON_NEGATIVE_STATE, 8);
     x += 2;
@@ -2760,73 +2760,176 @@ void displayNewUnitStateIcons()
     displayNegativeStateIcons();
 }
 
-void DisplayPage3()
+struct TextHandle textHandleInPage3[STATSCREEN_NEWTEXT_MAX];
+
+const struct TextBatch textBatchInPage3[] = {
+    [STATSCREEN_NEWTEXT_SPECIALSKILL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_SPECIALSKILL], 8},
+    [STATSCREEN_NEWTEXT_ASSISTSKILL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_ASSISTSKILL], 8},
+    [STATSCREEN_NEWTEXT_PASSIVESKILLALABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLALABEL], 1},
+    [STATSCREEN_NEWTEXT_PASSIVESKILLA] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLA], 8},
+    [STATSCREEN_NEWTEXT_PASSIVESKILLBLABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLBLABEL], 1},
+    [STATSCREEN_NEWTEXT_PASSIVESKILLB] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLB], 8},
+    [STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL], 1},
+    [STATSCREEN_NEWTEXT_PASSIVESKILLC] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLC], 8},
+    [STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL], 2},
+    [STATSCREEN_NEWTEXT_PASSIVESKILLS] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLS], 8},
+
+    [STATSCREEN_NEWTEXT_MAX]= {  },
+};
+
+char *getSpecialSkillNameInStatScreen()
+{
+    return specialSkills[getUnitSpecialSkill(gStatScreen.unit)].name;
+}
+
+char *getAssistSkillNameInStatScreen()
+{
+    return getAssistSkillNameTextInStatScreen();
+}
+
+char *getPassiveSkillALabelInStatScreen()
+{
+    return "Ç`";
+}
+
+char *getPassiveSkillBLabelInStatScreen()
+{
+    return "Ça";
+}
+
+char *getPassiveSkillCLabelInStatScreen()
+{
+    return "Çb";
+}
+
+char *getPassiveSkillSLabelInStatScreen()
+{
+    return "êπàÛ";
+}
+
+char *getPassiveSkillANameInStatScreen()
+{
+    return passiveSkillAs[getUnitPassiveSkillA(gStatScreen.unit)].name;
+}
+
+char *getPassiveSkillBNameInStatScreen()
+{
+    return passiveSkillBs[getUnitPassiveSkillB(gStatScreen.unit)].name;
+}
+
+char *getPassiveSkillCNameInStatScreen()
+{
+    return passiveSkillCs[getUnitPassiveSkillC(gStatScreen.unit)].name;
+}
+
+char *getPassiveSkillSNameInStatScreen()
+{
+    return passiveSkillSs[getUnitPassiveSkillS(gStatScreen.unit)].name;
+}
+
+const struct StatScreenNewTextDisplayInfo textLayoutInPage3[] = {
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_SPECIALSKILL], 3, 1, TEXT_COLOR_NORMAL, 0, getSpecialSkillNameInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_ASSISTSKILL], 3, 3, TEXT_COLOR_NORMAL, 0, getAssistSkillNameInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLALABEL], 1, 5, TEXT_COLOR_GOLD, 0, getPassiveSkillALabelInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLA], 3, 5, TEXT_COLOR_NORMAL, 0, getPassiveSkillANameInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLBLABEL], 1, 7, TEXT_COLOR_GOLD, 0, getPassiveSkillBLabelInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLB], 3, 7, TEXT_COLOR_NORMAL, 0, getPassiveSkillBNameInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL], 1, 9, TEXT_COLOR_GOLD, 0, getPassiveSkillCLabelInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLC], 3, 9, TEXT_COLOR_NORMAL, 0, getPassiveSkillCNameInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL], 1, 11, TEXT_COLOR_GOLD, 0, getPassiveSkillSLabelInStatScreen},
+    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLS], 3, 11, TEXT_COLOR_NORMAL, 0, getPassiveSkillSNameInStatScreen},
+    {  },
+};
+
+void InitTextsInPage3()
+{
+    InitTextBatch(textBatchInPage3);
+}
+
+void StatScreen_DisplayInjector(struct Proc* proc)
+{
+    StatScreen_Display(proc);
+    InitTextsInPage3();
+    initIconInSkillPage();
+}
+
+const struct ProcCmd gProcStatScreen_DisplayInjector = PROC_CALL_ROUTINE(StatScreen_DisplayInjector);
+
+void UnitSlide_SetNewUnitInjector(struct Proc* proc)
+{
+    StatScreen_Display(proc);
+    InitTextsInPage3();
+    initIconInSkillPage();
+}
+
+const struct ProcCmd gProcUnitSlide_SetNewUnitInjector = PROC_CALL_ROUTINE(UnitSlide_SetNewUnitInjector);
+
+// write tiles for page name "Skill"
+void diplaySkillPageTitle()
 {
     int zero = 0;
-    int specialSkillNameColor = 0;
 
-    // write tiles for page name "Skill"
     CpuFastSet(&zero, 0x6015a80, 96 | FILL);
     CpuFastSet(&zero, 0x6015e80, 96 | FILL);
     CpuFastSet(stat_screen_page_name_skillTiles, 0x6015b00, stat_screen_page_name_skillTilesLen/8);
     CpuFastSet(&stat_screen_page_name_skillTiles[32], 0x6015f00, stat_screen_page_name_skillTilesLen/8);
+}
 
-    // draw the same UI frame as the 2nd page on layer BG1
+// draw the same UI frame as the 2nd page on layer BG1
+void displayPage3Frame()
+{
     writeTiles(0x8403560, 0x2020140);
     writeTSA(0x200373c, 0x2020140, 0x1000);
+}
 
-    // display special skill name
-//    if(getUnitSpecialSkill(gStatScreen.unit))
-//    {
-        Text_Clear(BWLTextHandle);
-        if(isSkillCDFull(gStatScreen.unit))
-            specialSkillNameColor = TEXT_COLOR_GREEN;
-        Text_InsertString(BWLTextHandle, 0, specialSkillNameColor, specialSkills[getUnitSpecialSkill(gStatScreen.unit)].name);
-        Text_Draw(BWLTextHandle, 0x20035c2 - TILEMAP_INDEX(0, 24));
-//    }
+void displayNewTexts(const struct StatScreenNewTextDisplayInfo *textDisplayInfo)
+{
+    while (textDisplayInfo->textHandle)
+    {
+        if (textDisplayInfo->getText)
+        {
+            DrawTextInLine(
+                textDisplayInfo->textHandle,
+                gBmFrameTmap0 + TILEMAP_INDEX(textDisplayInfo->x, textDisplayInfo->y),
+                textDisplayInfo->colorId,
+                textDisplayInfo->offsetX, 0,
+                textDisplayInfo->getText());
+        }
+        else
+        {
+            Text_Draw(textDisplayInfo->textHandle, gBmFrameTmap0 + TILEMAP_INDEX(textDisplayInfo->x, textDisplayInfo->y));
+        }
 
-    // display special skill CD
-    DrawStatWithVariableLengthBar(8, 11, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
-    //DrawStatWithFixedLengthBar(8, 11, 2, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 42);
+        ++textDisplayInfo;
+    }
+}
 
-    // display special skill icon (use bg palatte 8 & 9)
-    //writeBGPalette(special_skill_iconPal, 32 * 8, 32);
-    //EnablePaletteSync();
-    initIconInSkillPage();
+void displayTextsInPage3()
+{
+    displayNewTexts(textLayoutInPage3);
+}
 
-    //DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 2), ICON_SPECIAL_SKILL, 0x8000);
-    drawIconInSkillPage(1, 2, ICON_SPECIAL_SKILL, 8);
+// page 3 is skill page
+void DisplayPage3()
+{
+    diplaySkillPageTitle();
+
+    displayPage3Frame();
+
+    displayTextsInPage3();
+
+      // display special skill CD
+    DrawStatWithVariableLengthBar(8, 11, 1, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
+
+     // display special skill icon
+    drawIconInSkillPage(1, 1, ICON_SPECIAL_SKILL, 8);
 
     // display assist skill icon
-    //DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 4), ICON_ASSIST_SKILL, 0x8000);
-    drawIconInSkillPage(1, 4, ICON_ASSIST_SKILL, 8);
-    //FIXME: Call to DrawTextInLine with null TextHandle causes memory leak in VRAM, which corrupts the display finally.
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 4), TEXT_COLOR_NORMAL, 0, 10, getAssistSkillNameTextInStatScreen());
-
-    // display passive skill A
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 6), TEXT_COLOR_GOLD, 0, 1, "Ç`");
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 6), TEXT_COLOR_NORMAL, 0, 10, passiveSkillAs[getUnitPassiveSkillA(gStatScreen.unit)].name);
-
-    // display passive skill B
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 8), TEXT_COLOR_GOLD, 0, 1, "Ça");
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 8), TEXT_COLOR_NORMAL, 0, 10, passiveSkillBs[getUnitPassiveSkillB(gStatScreen.unit)].name);
-
-    // display passive skill C
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 10), TEXT_COLOR_GOLD, 0, 1, "Çb");
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 10), TEXT_COLOR_NORMAL, 0, 10, passiveSkillCs[getUnitPassiveSkillC(gStatScreen.unit)].name);
-
-    // display passive skill S
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 0), TEXT_COLOR_GOLD, 0, 2, "êπàÛ");
-    DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(3, 0), TEXT_COLOR_NORMAL, 0, 10, passiveSkillSs[getUnitPassiveSkillS(gStatScreen.unit)].name);
-
+    drawIconInSkillPage(1, 3, ICON_ASSIST_SKILL, 8);
+    
     // Help Box Info
     gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
-
-    // display positive states
-    //DrawTextInLine(NULL, gBmFrameTmap0 + TILEMAP_INDEX(1, 10), TEXT_COLOR_GOLD, 0, 2, "ã≠âª");
-    //displayPositiveStateText();
-    // The page is too small to display all state text, display icons instead.
-    
+   
     displayNewUnitStateIcons();
 }
 

@@ -45,8 +45,8 @@ struct Font
 
 struct TextBatch
 {
-    struct TextHandle *unk0;
-    u8 unk4;
+    struct TextHandle *textHandle;
+    u8 textWidth;
 };
 
 enum {
@@ -67,6 +67,7 @@ void Font_InitForUI(struct Font *a, void *b, int c, int d);
 void SetFontGlyphSet(int a);
 void SetFont(struct Font *a);
 void Text_Init(struct TextHandle *a, int tileWidth);
+void InitTextBatch(const struct TextBatch *texts);
 void Text_Allocate(struct TextHandle *th, int tileWidth);
 void InitTextBatch(const struct TextBatch* a);
 void Text_Clear(struct TextHandle* a);
