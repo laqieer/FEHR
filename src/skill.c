@@ -2844,23 +2844,19 @@ void InitTextsInPage3()
     InitTextBatch(textBatchInPage3);
 }
 
-void StatScreen_DisplayInjector(struct Proc* proc)
+void InitTextsInjector()
 {
-    StatScreen_Display(proc);
+    InitTextBatch(sSSMasterTextBatch);
     InitTextsInPage3();
     initIconInSkillPage();
 }
 
-const struct ProcCmd gProcStatScreen_DisplayInjector = PROC_CALL_ROUTINE(StatScreen_DisplayInjector);
-
-void UnitSlide_SetNewUnitInjector(struct Proc* proc)
+__attribute__ ((optimize(2)))
+void InitTextsInjectorInjector()
 {
-    StatScreen_Display(proc);
-    InitTextsInPage3();
-    initIconInSkillPage();
+    //InitTextsInjector();
+    asm("ldr r0,=InitTextsInjector\nbx r0");
 }
-
-const struct ProcCmd gProcUnitSlide_SetNewUnitInjector = PROC_CALL_ROUTINE(UnitSlide_SetNewUnitInjector);
 
 // write tiles for page name "Skill"
 void diplaySkillPageTitle()

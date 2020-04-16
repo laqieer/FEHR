@@ -82,6 +82,8 @@ setBGMVolume = 0x800348D;
 func800376C = 0x800376D;
 changeBGMSong = 0x800394D;
 decompressText = 0x8004241;
+Proc_Break = 0x800457D;
+Proc_Find = 0x8004585;
 func80045FC = 0x80045FD;
 DrawIcon = 0x8004d05;
 InitTextBatch = 0x8005395;
@@ -173,6 +175,9 @@ JobListDragon = 0x8d5fb7d;
 JobListArmour = 0x8d5fb4e;
 JobListKnight = 0x8d5fb6f;
 JobListFlier = 0x8d5fb8a;
+
+sSSMasterTextBatch = 0x8d8a238;
+gProcScr_StatScreen = 0x8d8a530;
 
 ComputeBattleUnitDefenseOriginal = 0x08028f15;
 ComputeBattleUnitAttackOriginal = 0x8028f8d;

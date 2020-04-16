@@ -93,4 +93,7 @@ enum {
 #define ROOT_PROC_6 (struct Proc *)6
 #define ROOT_PROC_7 (struct Proc *)7
 
+struct Proc* Proc_Find(const struct ProcCmd* script);
+void Proc_Break(struct Proc* proc);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_PROC_H

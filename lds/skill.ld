@@ -18,7 +18,5 @@
 .rodata.pUnitActionMenuItems : {*(.rodata.pUnitActionMenuItems)}
 . = 0x8c09c14;
 .rodata.gProcRedrawMenu : {*(.rodata.gProcRedrawMenu)}
-. = 0x8d8a560;
-.rodata.gProcStatScreen_DisplayInjector : {*(.rodata.gProcStatScreen_DisplayInjector)}
-. = 0x8d8a398;
-.rodata.gProcUnitSlide_SetNewUnitInjector : {*(.rodata.gProcUnitSlide_SetNewUnitInjector)}
+. = 0x80807f0;
+.text.InitTextsInjectorInjector : {*(.text.InitTextsInjectorInjector)}
