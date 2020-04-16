@@ -3405,7 +3405,7 @@ const u16 itemAssistSkills[0x100] = {
 
 const u16 characterAssistSkills[0x100] = {
         [CHARACTER_ALFONSE_ID] = ASSIST_SKILL_SWAP,
-        [CHARACTER_ANNA_ID] = ASSIST_SKILL_HARSH_COMMAND,
+        [CHARACTER_ANNA_ID] = ASSIST_SKILL_ARDENT_SACRIFICE,
         [CHARACTER_SHARENA_ID] = ASSIST_SKILL_RALLY_ATK,
 };
 
@@ -4310,7 +4310,7 @@ const struct AssistSkill assistSkills[] = {
     {"UŒ‚‚Ì‰‰‡", "‘ÎÛ‚ÌUŒ‚{‚S", "Rally Attack", "Grants Atk+4 to target ally for 1 turn.", NULL, assistSkillRallyAttackEffect},
     {"ç”õ‚Ì‰‰‡", "‘ÎÛ‚Ìç”õ{‚S", "Rally Defense", "Grants Def+4 to target ally for 1 turn.", NULL, assistSkillRallyDefenseEffect},
     {"–‚–h‚Ì‰‰‡", "‘ÎÛ‚Ì–‚–h{‚S", "Rally Resistance", "Grants Res+4 to target ally for 1 turn.", NULL, assistSkillRallyResistanceEffect},
-    {"Œ£g", "‘ÎÛ‚Ì‚g‚o‚ğ‚P‚O‰ñ•œ‚µA©•ª‚Ì‚g‚o‚ğ‚P‚OŒ¸­", "Ardent Sacrifice", "Restores 10 HP to target ally. Unit loses 10 HP but cannot go below 1.", assistSkillArdentSacrificeCondition, assistSkillArdentSacrificeEffect},
+    {"‚¯‚ñ‚µ‚ñ", "‘ÎÛ‚Ì‚g‚o‚ğ‚P‚O‰ñ•œ‚µA©•ª‚Ì‚g‚o‚ğ‚P‚OŒ¸­", "Ardent Sacrifice", "Restores 10 HP to target ally. Unit loses 10 HP but cannot go below 1.", assistSkillArdentSacrificeCondition, assistSkillArdentSacrificeEffect},
     {"‰ñ‚è‚İ", "©•ª‚ª‘ÎÛ‚Ì”½‘Î‘¤‚ÌˆÊ’u‚ÉˆÚ“®‚·‚é", "Pivot", "Unit moves to opposite side of target ally.", assistSkillPivotCondition, assistSkillPivotEffect},
     {"‚¢‚Á‚©‚Â", "‘ÎÛ‚ªó‚¯‚Ä‚¢‚éã‰»‚ğ–³Œø‰»‚µA‹­‰»‚É•ÏŠ·‚·‚é", "Harsh Command", "Converts penalties on target into bonuses.", assistSkillHarshCommandCondition, assistSkillHarshCommandEffect},
     {"‘Ì“–‚½‚è", "‘ÎÛ‚ğ©•ª‚Æ”½‘Î•ûŒü‚É‚Pƒ}ƒXˆÚ“®‚³‚¹‚é", "Shove", "Pushes target ally 1 space away.", assistSkillShoveCondition, assistSkillShoveEffect},
