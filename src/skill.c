@@ -3279,6 +3279,59 @@ void ComputeBattleUnitStatusBonuses(struct BattleUnit* bu)
     } // switch (bu->unit.statusIndex)
 }
 
+void ComputePassiveSkillCSpur(struct Unit *unit)
+{
+    // How to decide if the unit is in the same side is a problem. To make it easy, let's assume that only units in player side have passive skill C spur series.
+    // TODO: a real side detection with attacker.
+    if(unit->side == PlayerSide)
+    {
+        struct BattleUnit* attacker = NULL;
+        struct BattleUnit* defender = NULL;
+
+        if(gBattleActor.unit.side == PlayerSide && gBattleActor.unit.stateType != UNIT_STATUS_BERSERK)
+        {
+            attacker = &gBattleActor;
+            defender = &gBattleTarget;
+        }
+
+        if(gBattleTarget.unit.side == PlayerSide && gBattleTarget.unit.stateType != UNIT_STATUS_BERSERK)
+        {
+            attacker = &gBattleTarget;
+            defender = &gBattleActor;
+        }
+
+        if(attacker == NULL)
+            return;
+
+        switch (getUnitPassiveSkillC(unit))
+        {
+            case PASSIVE_SKILL_C_SPUR_ATK_1:
+                attacker->battleAttack += 2;
+                break;
+            case PASSIVE_SKILL_C_SPUR_ATK_2:
+                attacker->battleAttack += 3;
+                break;
+            case PASSIVE_SKILL_C_SPUR_ATK_3:
+                attacker->battleAttack += 4;
+                break;
+            case PASSIVE_SKILL_C_SPUR_RES_1:
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 2;
+                break;
+            case PASSIVE_SKILL_C_SPUR_RES_2:
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 3;
+                break;
+            case PASSIVE_SKILL_C_SPUR_RES_3:
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 4;
+                break;
+            default:
+                break;
+        }
+    }
+}
+
 void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     // passive skill effect defined here works and visible to player
@@ -3303,6 +3356,8 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
         default:
             break;
     }
+
+    ForEachAdjacentUnit(attacker->unit.positionX, attacker->unit.positionY, ComputePassiveSkillCSpur);
 }
 
 void ComputeBattleUnitStats(struct BattleUnit* attacker, struct BattleUnit* defender)
