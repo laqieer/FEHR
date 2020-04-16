@@ -20,3 +20,5 @@
 .rodata.gProcRedrawMenu : {*(.rodata.gProcRedrawMenu)}
 . = 0x80807f0;
 .text.InitTextsInjectorInjector : {*(.text.InitTextsInjectorInjector)}
+. = 0x80294d8;
+.text.BattleGetBattleUnitOrderInjector : {*(.text.BattleGetBattleUnitOrderInjector)}

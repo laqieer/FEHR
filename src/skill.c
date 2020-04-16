@@ -4519,3 +4519,43 @@ char *getPassiveSkillSHelpText()
     return passiveSkillSs[getUnitPassiveSkillS(gStatScreen.unit)].description;
 }
 
+void BattleGetBattleUnitOrder(struct BattleUnit** outAttacker, struct BattleUnit** outDefender)
+{
+    *outAttacker = &gBattleActor;
+    *outDefender = &gBattleTarget;
+
+    switch(getUnitPassiveSkillB(&gBattleTarget.unit))
+    {
+        case PASSIVE_SKILL_B_VANTAGE_1:
+            if(gBattleTarget.unit.hp < gBattleTarget.unit.maxHp * 0.25)
+            {
+                *outAttacker = &gBattleTarget;
+                *outDefender = &gBattleActor;
+            }
+            break;
+        case PASSIVE_SKILL_B_VANTAGE_2:
+            if(gBattleTarget.unit.hp < gBattleTarget.unit.maxHp * 0.5)
+            {
+                *outAttacker = &gBattleTarget;
+                *outDefender = &gBattleActor;
+            }
+            break;
+        case PASSIVE_SKILL_B_VANTAGE_3:
+            if(gBattleTarget.unit.hp < gBattleTarget.unit.maxHp * 0.75)
+            {
+                *outAttacker = &gBattleTarget;
+                *outDefender = &gBattleActor;
+            }
+            break;
+        default:
+            break;
+    }
+}
+
+__attribute__ ((optimize(2)))
+void BattleGetBattleUnitOrderInjector(struct BattleUnit** outAttacker, struct BattleUnit** outDefender)
+{
+    //BattleGetBattleUnitOrder(outAttacker, outDefender);
+    asm("ldr r2,=BattleGetBattleUnitOrder\nbx r2");
+}
+
