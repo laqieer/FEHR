@@ -9,6 +9,7 @@
 #include "character.h"
 #include "fontgrp.h"
 #include "skill.h"
+#include "skill_id.h"
 #include "proc.h"
 #include "new_unit_state.h"
 
@@ -584,11 +585,29 @@ int GetUnitSkill(struct Unit* unit)
 int GetUnitSpeed(struct Unit* unit) 
 {
     int item = GetUnitEquippedItem(unit);
+    int speed = GetItemSpdBonus(item) + getUnitTotalBuffSpeed(unit);
 
     if (unit->state & UNIT_STATE_RESCUING)
-        return unit->spd / 2 + GetItemSpdBonus(item) + getUnitTotalBuffSpeed(unit);
+        speed += unit->spd / 2;
+    else
+        speed += unit->spd;
 
-    return unit->spd + GetItemSpdBonus(item) + getUnitTotalBuffSpeed(unit);
+    switch(getUnitPassiveSkillA(unit))
+    {
+        case PASSIVE_SKILL_A_SPEED_1:
+            speed += 1;
+            break;
+        case PASSIVE_SKILL_A_SPEED_2:
+            speed += 2;
+            break;
+        case PASSIVE_SKILL_A_SPEED_3:
+            speed += 3;
+            break;
+        default:
+            break;
+    }
+
+    return speed;
 }
 
 int GetUnitDefense(struct Unit* unit) 

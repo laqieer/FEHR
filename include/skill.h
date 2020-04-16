@@ -820,4 +820,9 @@ struct StatScreenEffectProc
 extern const struct ProcCmd gProcScr_StatScreen[];
 extern const struct TextBatch sSSMasterTextBatch[];
 
+u16 getUnitPassiveSkillA(struct Unit *unit);
+u16 getUnitPassiveSkillB(struct Unit *unit);
+u16 getUnitPassiveSkillC(struct Unit *unit);
+u16 getUnitPassiveSkillS(struct Unit *unit);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
