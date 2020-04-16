@@ -2356,9 +2356,14 @@ int isSkillCDFull(struct Unit *unit)
 int isInBattle()
 {
     return gBattleStats.config & BATTLE_CONFIG_REAL || gBattleStats.config & BATTLE_CONFIG_BALLISTA
-            || gBattleStats.config & BATTLE_CONFIG_BALLISTA || gBattleStats.config & BATTLE_CONFIG_ARENA
+            || gBattleStats.config & BATTLE_CONFIG_ARENA
             || gBattleStats.config & BATTLE_CONFIG_REFRESH || gBattleStats.config & BATTLE_CONFIG_MAPANIMS
             || gBattleStats.config & BATTLE_CONFIG_DANCERING;
+}
+
+int isInSimulation()
+{
+    return gBattleStats.config & BATTLE_CONFIG_SIMULATE;
 }
 
 void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -2441,6 +2446,123 @@ void SpecialSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUni
     }
 }
 
+void BattleUpdateBattleStatsWithAttackerPassiveSkillA(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 passiveSkill = getUnitPassiveSkillA(&attacker->unit);
+
+    switch (passiveSkill)
+    {
+        // passive skill effect here works but invisible to player
+        /*case PASSIVE_SKILL_A_DEATH_BLOW_1:
+            if((gBattleHitIterator->info & BATTLE_HIT_INFO_RETALIATION) == 0)
+                gBattleStats.attack += 2;
+            break;
+        case PASSIVE_SKILL_A_DEATH_BLOW_2:
+            if((gBattleHitIterator->info & BATTLE_HIT_INFO_RETALIATION) == 0)
+                gBattleStats.attack += 4;
+            break;
+        case PASSIVE_SKILL_A_DEATH_BLOW_3:
+            if((gBattleHitIterator->info & BATTLE_HIT_INFO_RETALIATION) == 0)
+                gBattleStats.attack += 6;
+            break;
+        case PASSIVE_SKILL_A_DEATH_BLOW_4:
+            if((gBattleHitIterator->info & BATTLE_HIT_INFO_RETALIATION) == 0)
+                gBattleStats.attack += 8;
+            break;*/
+        default:
+            break;
+    }
+}
+
+void BattleUpdateBattleStatsWithAttackerPassiveSkillB(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 passiveSkill = getUnitPassiveSkillB(&attacker->unit);
+
+    switch (passiveSkill)
+    {
+        default:
+            break;
+    }
+}
+
+void BattleUpdateBattleStatsWithAttackerPassiveSkillC(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 passiveSkill = getUnitPassiveSkillC(&attacker->unit);
+
+    switch (passiveSkill)
+    {
+        default:
+            break;
+    }
+}
+
+void BattleUpdateBattleStatsWithAttackerPassiveSkillS(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 passiveSkill = getUnitPassiveSkillS(&attacker->unit);
+
+    switch (passiveSkill)
+    {
+        default:
+            break;
+    }
+}
+
+void BattleUpdateBattleStatsWithDefenderPassiveSkillA(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 passiveSkill = getUnitPassiveSkillA(&defender->unit);
+
+    switch (passiveSkill)
+    {
+        default:
+            break;
+    }
+}
+
+void BattleUpdateBattleStatsWithDefenderPassiveSkillB(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 passiveSkill = getUnitPassiveSkillB(&defender->unit);
+
+    switch (passiveSkill)
+    {
+        default:
+            break;
+    }
+}
+
+void BattleUpdateBattleStatsWithDefenderPassiveSkillC(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 passiveSkill = getUnitPassiveSkillC(&defender->unit);
+
+    switch (passiveSkill)
+    {
+        default:
+            break;
+    }
+}
+
+void BattleUpdateBattleStatsWithDefenderPassiveSkillS(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    u16 passiveSkill = getUnitPassiveSkillS(&defender->unit);
+
+    switch (passiveSkill)
+    {
+        default:
+            break;
+    }
+}
+
+void BattleUpdateBattleStatsWithPassiveSkills(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    BattleUpdateBattleStatsWithAttackerPassiveSkillA(attacker, defender);
+    BattleUpdateBattleStatsWithAttackerPassiveSkillB(attacker, defender);
+    BattleUpdateBattleStatsWithAttackerPassiveSkillC(attacker, defender);
+    BattleUpdateBattleStatsWithAttackerPassiveSkillS(attacker, defender);
+    BattleUpdateBattleStatsWithDefenderPassiveSkillA(attacker, defender);
+    BattleUpdateBattleStatsWithDefenderPassiveSkillB(attacker, defender);
+    BattleUpdateBattleStatsWithDefenderPassiveSkillC(attacker, defender);
+    BattleUpdateBattleStatsWithDefenderPassiveSkillS(attacker, defender);
+}
+
 char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     char hit = 0;
@@ -2453,6 +2575,7 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
         gBattleHitIterator->info |= BATTLE_HIT_INFO_RETALIATION;
 
     BattleUpdateBattleStats(attacker, defender);
+    BattleUpdateBattleStatsWithPassiveSkills(attacker, defender);
     BattleGenerateHitTriangleAttack(attacker, defender);
     BattleGenerateHitAttributes(attacker, defender);
     BattleGenerateHitSpecialSkill(attacker, defender);
@@ -3156,6 +3279,32 @@ void ComputeBattleUnitStatusBonuses(struct BattleUnit* bu)
     } // switch (bu->unit.statusIndex)
 }
 
+void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    // passive skill effect defined here works and visible to player
+    switch (getUnitPassiveSkillA(&attacker->unit))
+    {
+        case PASSIVE_SKILL_A_DEATH_BLOW_1:
+            if(attacker == &gBattleActor)
+                attacker->battleAttack += 2;
+            break;
+        case PASSIVE_SKILL_A_DEATH_BLOW_2:
+            if(attacker == &gBattleActor)
+                attacker->battleAttack += 4;
+            break;
+        case PASSIVE_SKILL_A_DEATH_BLOW_3:
+            if(attacker == &gBattleActor)
+                attacker->battleAttack += 6;
+            break;
+        case PASSIVE_SKILL_A_DEATH_BLOW_4:
+            if(attacker == &gBattleActor)
+                attacker->battleAttack += 8;
+            break;
+        default:
+            break;
+    }
+}
+
 void ComputeBattleUnitStats(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     ComputeBattleUnitDefense(attacker, defender);
@@ -3178,6 +3327,8 @@ void ComputeBattleUnitStats(struct BattleUnit* attacker, struct BattleUnit* defe
     //ComputeBattleUnitWeaponRankBonusesOriginal(attacker);
     ComputeBattleUnitStatusBonuses(attacker);
     //ComputeBattleUnitStatusBonusesOriginal(attacker);
+    if(isInBattle() || isInSimulation())
+        ComputeBattleUnitPassiveSkillEffects(attacker, defender);
 }
 
 void ComputeBattleUnitStatsInjector(struct BattleUnit* attacker, struct BattleUnit* defender)
