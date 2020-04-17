@@ -516,6 +516,57 @@ void addUnitBuffLuck(struct Unit *unit, s8 buffValue)
     pUnitBuff->luk += buffValue;
 }
 
+// updateUnitBuffXXX is for passive skill C Spur series
+
+void updateUnitBuffHP(struct Unit *unit, s8 buffValue)
+{
+    struct Buff *pUnitBuff = getUnitBuff(unit);
+    if(pUnitBuff->hp < buffValue)
+        pUnitBuff->hp = buffValue;
+}
+
+void updateUnitBuffPower(struct Unit *unit, s8 buffValue)
+{
+    struct Buff *pUnitBuff = getUnitBuff(unit);
+    if(pUnitBuff->pow < buffValue)
+        pUnitBuff->pow = buffValue;
+}
+
+void updateUnitBuffSkill(struct Unit *unit, s8 buffValue)
+{
+    struct Buff *pUnitBuff = getUnitBuff(unit);
+    if(pUnitBuff->skl < buffValue)
+        pUnitBuff->skl = buffValue;
+}
+
+void updateUnitBuffSpeed(struct Unit *unit, s8 buffValue)
+{
+    struct Buff *pUnitBuff = getUnitBuff(unit);
+    if(pUnitBuff->spd < buffValue)
+        pUnitBuff->spd = buffValue;
+}
+
+void updateUnitBuffDefense(struct Unit *unit, s8 buffValue)
+{
+    struct Buff *pUnitBuff = getUnitBuff(unit);
+    if(pUnitBuff->def < buffValue)
+        pUnitBuff->def = buffValue;
+}
+
+void updateUnitBuffResistance(struct Unit *unit, s8 buffValue)
+{
+    struct Buff *pUnitBuff = getUnitBuff(unit);
+    if(pUnitBuff->res < buffValue)
+        pUnitBuff->res = buffValue;
+}
+
+void updateUnitBuffLuck(struct Unit *unit, s8 buffValue)
+{
+    struct Buff *pUnitBuff = getUnitBuff(unit);
+    if(pUnitBuff->luk < buffValue)
+        pUnitBuff->luk = buffValue;
+}
+
 void addUnitDebuffHP(struct Unit *unit, s8 debuffValue)
 {
     struct Buff *pUnitDebuff = getUnitDebuff(unit);
@@ -725,6 +776,61 @@ void clearBuffDebuffAndNewStateForP4Units()
     clearNewStateForP4Units();
 }
 
+void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
+{
+    for(int i = 0; i < number; i++)
+    {
+        if(units[i].state & UNIT_STATE_DEAD == 0)
+        {
+            for(int j = 0; j < number; j++)
+            {
+                if(units[j].state & UNIT_STATE_DEAD == 0)
+                {
+                    u32 distance = RECT_DISTANCE(units[i].positionX, units[i].positionY, units[j].positionX, units[j].positionY);
+                        
+                    switch(getUnitPassiveSkillC(&units[j]))
+                    {
+                        case PASSIVE_SKILL_C_FORTIFY_DEF_1:
+                            if(distance == 1)
+                                updateUnitBuffDefense(&units[i], 2);
+                            break;
+                        case PASSIVE_SKILL_C_FORTIFY_DEF_2:
+                            if(distance == 1)
+                                updateUnitBuffDefense(&units[i], 3);
+                            break;
+                        case PASSIVE_SKILL_C_FORTIFY_DEF_3:
+                            if(distance == 1)
+                                updateUnitBuffDefense(&units[i], 4);
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+        }
+    }
+}
+
+void updateBuffAndDebuffWithPassiveSkillCForPlayerUnits()
+{
+    updateBuffAndDebuffWithPassiveSkillC(playerUnits, PLAYER_TOTAL_AMOUNT);
+}
+
+void updateBuffAndDebuffWithPassiveSkillCForEnemyUnits()
+{
+    updateBuffAndDebuffWithPassiveSkillC(enemyUnits, ENEMY_TOTAL_AMOUNT);
+}
+
+void updateBuffAndDebuffWithPassiveSkillCForNPCUnits()
+{
+    updateBuffAndDebuffWithPassiveSkillC(NPCUnits, NPC_TOTAL_AMOUNT);
+}
+
+void updateBuffAndDebuffWithPassiveSkillCForP4Units()
+{
+    updateBuffAndDebuffWithPassiveSkillC(P4Units, P4_TOTAL_AMOUNT);
+}
+
 /*
  * Duration: 1 turn. Clear units' buff & debuff when switching phase.
  */
@@ -739,15 +845,19 @@ void clearUnitsBuffAndDebuffForPhaseSwitch()
                 clearBuffDebuffAndNewStateForAllUnits();
             else
                 clearBuffDebuffAndNewStateForPlayerUnits();
+            updateBuffAndDebuffWithPassiveSkillCForPlayerUnits();
             break;
         case PlayerSide: //EnemySide
             clearBuffDebuffAndNewStateForEnemyUnits();
+            updateBuffAndDebuffWithPassiveSkillCForEnemyUnits();
             break;
         case EnemySide: //NPCSide
             clearBuffDebuffAndNewStateForNPCUnits();
+            updateBuffAndDebuffWithPassiveSkillCForNPCUnits();
             break;
         default: //TODO: for link arena
             clearBuffDebuffAndNewStateForP4Units();
+            updateBuffAndDebuffWithPassiveSkillCForP4Units();
             break;
     }
 }
