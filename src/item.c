@@ -3,6 +3,7 @@
 //
 
 #include "item.h"
+#include "text_id.h"
 
 const int sizeofItem = sizeof(struct Item);
 
@@ -314,6 +315,10 @@ const struct Item items[] = {
 {1170, 770, 832, 152, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 5000, 0, 137, 0, 0, 0} ,  // 0x98 5000 G
 
 {1165, 772, 0, 153, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148241290, 40, 9, 70, 9, 0, 2, 1, 200, 121, 170, 0, 0, 1} ,  // 0x99 Wind Sword
+
+{1137, 759, 824, 154, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 1, 1, 100, 0, 106, 51, 0, 0} ,  // 0x9A Vulnerary 2
+
+{TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_NAME, TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_HELP, TEXT_ITEM_CANNOT_USE, 155, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9B Sacred Seal: Quickened Pulse
 };
 
 const struct Item * const pItems1 = items;

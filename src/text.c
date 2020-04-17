@@ -1015,6 +1015,10 @@ const char* const texts[] = {
         [TEXT_PASSIVE_SKILL_B_HELP] = "",
         [TEXT_PASSIVE_SKILL_C_HELP] = "",
         [TEXT_PASSIVE_SKILL_S_HELP] = "",
+        
+        [TEXT_ITEM_CANNOT_USE] = "使用不可",
+        [TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_NAME] = "奥義のこどう",
+        [TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_HELP] = "１ターン目開始時、奥義発動カウントー１",
 };
 
 extern int lastTextID;

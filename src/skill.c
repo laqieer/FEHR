@@ -4532,10 +4532,11 @@ u16 getUnitPassiveSkillC(struct Unit *unit)
 
 const struct PassiveSkill passiveSkillSs[] = {
     {"ーー", "聖印を装備していない", "NO DATA", "No sacred seal equipped."},
+    {"奥義のこどう", "１ターン目開始時、奥義発動カウントー１", "Quickened Pulse", "At the start of turn 1, grants Special cooldown count-1."},
 };
 
 const u16 itemPassiveSkillSs[0x100] = {
-    0,
+    [ITEM_SACRED_SEAL_QUICKENED_PULSE] = PASSIVE_SKILL_S_QUICKENED_PULSE,
 };
 
 u16 getUnitPassiveSkillS(struct Unit *unit)
@@ -4544,7 +4545,7 @@ u16 getUnitPassiveSkillS(struct Unit *unit)
 
     for(int i = 0; i < 5; i++)
     {
-        passiveSkillS = itemSpecialSkills[unit->items[i].itemId];
+        passiveSkillS = itemPassiveSkillSs[unit->items[i].itemId];
         if(passiveSkillS)
             return passiveSkillS;
     }
