@@ -2888,13 +2888,9 @@ struct TextHandle textHandleInPage3[STATSCREEN_NEWTEXT_MAX];
 const struct TextBatch textBatchInPage3[] = {
     [STATSCREEN_NEWTEXT_SPECIALSKILL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_SPECIALSKILL], 8},
     [STATSCREEN_NEWTEXT_ASSISTSKILL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_ASSISTSKILL], 8},
-    [STATSCREEN_NEWTEXT_PASSIVESKILLALABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLALABEL], 1},
     [STATSCREEN_NEWTEXT_PASSIVESKILLA] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLA], 8},
-    [STATSCREEN_NEWTEXT_PASSIVESKILLBLABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLBLABEL], 1},
     [STATSCREEN_NEWTEXT_PASSIVESKILLB] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLB], 8},
-    [STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL], 1},
     [STATSCREEN_NEWTEXT_PASSIVESKILLC] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLC], 8},
-    [STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL] = {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL], 2},
 
     [STATSCREEN_NEWTEXT_MAX]= {  },
 };
@@ -2952,13 +2948,9 @@ char *getPassiveSkillSNameInStatScreen()
 const struct StatScreenNewTextDisplayInfo textLayoutInPage3[] = {
     {&textHandleInPage3[STATSCREEN_NEWTEXT_SPECIALSKILL], 3, 1, TEXT_COLOR_NORMAL, 0, getSpecialSkillNameInStatScreen},
     {&textHandleInPage3[STATSCREEN_NEWTEXT_ASSISTSKILL], 3, 3, TEXT_COLOR_NORMAL, 0, getAssistSkillNameInStatScreen},
-    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLALABEL], 1, 5, TEXT_COLOR_GOLD, 0, getPassiveSkillALabelInStatScreen},
     {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLA], 3, 5, TEXT_COLOR_NORMAL, 0, getPassiveSkillANameInStatScreen},
-    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLBLABEL], 1, 7, TEXT_COLOR_GOLD, 0, getPassiveSkillBLabelInStatScreen},
     {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLB], 3, 7, TEXT_COLOR_NORMAL, 0, getPassiveSkillBNameInStatScreen},
-    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLCLABEL], 1, 9, TEXT_COLOR_GOLD, 0, getPassiveSkillCLabelInStatScreen},
     {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLC], 3, 9, TEXT_COLOR_NORMAL, 0, getPassiveSkillCNameInStatScreen},
-    {&textHandleInPage3[STATSCREEN_NEWTEXT_PASSIVESKILLSLABEL], 1, 11, TEXT_COLOR_GOLD, 0, getPassiveSkillSLabelInStatScreen},
     {  },
 };
 
@@ -3031,6 +3023,16 @@ void displayTextsInPage3()
     Text_Draw(BWLTextHandle, gBmFrameTmap0 + TILEMAP_INDEX(3, 11));
 }
 
+void displaySkillLabelIconsInSkillPage()
+{
+    drawIconInSkillPage(1, 1, ICON_SPECIAL_SKILL, 8);
+    drawIconInSkillPage(1, 3, ICON_ASSIST_SKILL, 8);
+    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 5), PASSIVE_SKILL_A_ICON, TILEREF(0, 4));
+    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 7), PASSIVE_SKILL_B_ICON, TILEREF(0, 4));
+    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 9), PASSIVE_SKILL_C_ICON, TILEREF(0, 4));
+    DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 11), PASSIVE_SKILL_S_ICON, TILEREF(0, 4));
+}
+
 // page 3 is skill page
 void DisplayPage3()
 {
@@ -3040,15 +3042,11 @@ void DisplayPage3()
 
     displayTextsInPage3();
 
+    displaySkillLabelIconsInSkillPage();
+
       // display special skill CD
     DrawStatWithVariableLengthBar(8, 11, 1, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
 
-     // display special skill icon
-    drawIconInSkillPage(1, 1, ICON_SPECIAL_SKILL, 8);
-
-    // display assist skill icon
-    drawIconInSkillPage(1, 3, ICON_ASSIST_SKILL, 8);
-    
     // Help Box Info
     gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
    

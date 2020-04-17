@@ -267,4 +267,6 @@ enum {
 
 #define ITEM_INDEX(aItem) ((aItem) & 0xFF)
 
+#define ITEM_EMBLEM_SEAL_ICON 157
+
 #endif //FE7_JP_STUNNING_TRIBBLE_ITEM_H
