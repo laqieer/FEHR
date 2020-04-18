@@ -37,6 +37,7 @@ BeginningScene:
 	ENUN
 	LOU1 AllyUnitsENM
 	ENUN
+    UpdateSpecialSkillCD
 	ENDA
 EndingScene:
 	MNCH 17

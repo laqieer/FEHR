@@ -98,7 +98,8 @@
 // call function
 #define ASMC .word 0x3c,
 
-// clear special skill CD
+// change special skill CD
 #define ClearSpecialSkillCD ASMC initSkillCDForAllUnits
+#define UpdateSpecialSkillCD ASMC updateSkillCDForAllUnits
 
 #endif //FE7_JP_STUNNING_TRIBBLE_EVENT_H

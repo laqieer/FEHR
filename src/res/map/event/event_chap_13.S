@@ -37,6 +37,7 @@ BeginningScene:
 	ENUN
 	LOU1 EnemyUnitsENM
 	ENUN
+    UpdateSpecialSkillCD
 	MUSC MUSIC_FE_H_EVENT_1
 	TEX1 TEXT_CHAP_13_OP
 	ENDA

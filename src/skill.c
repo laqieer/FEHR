@@ -2230,6 +2230,63 @@ void initSkillCDForP4Units()
         gP4SkillCoolDown[i] = 0;
 }
 
+void ForAllPlayerUnits(void(*func)(struct Unit *unit))
+{
+    struct Unit *unit = playerUnits;
+
+    for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
+        func(&unit[i]);
+}
+
+void ForAllEnemyUnits(void(*func)(struct Unit *unit))
+{
+    struct Unit *unit = enemyUnits;
+
+    for(int i = 0; i < ENEMY_TOTAL_AMOUNT; i++)
+        func(&unit[i]);
+}
+
+void ForAllNPCUnits(void(*func)(struct Unit *unit))
+{
+    struct Unit *unit = NPCUnits;
+
+    for(int i = 0; i < NPC_TOTAL_AMOUNT; i++)
+        func(&unit[i]);
+}
+
+void ForAllP4Units(void(*func)(struct Unit *unit))
+{
+    struct Unit *unit = P4Units;
+
+    for(int i = 0; i < P4_TOTAL_AMOUNT; i++)
+        func(&unit[i]);
+}
+
+void ForAllUnits(void(*func)(struct Unit *unit))
+{
+    ForAllPlayerUnits(func);
+    ForAllEnemyUnits(func);
+    ForAllNPCUnits(func);
+    ForAllP4Units(func);
+}
+
+void updateUnitSkillCD(struct Unit *unit)
+{
+    switch(getUnitPassiveSkillS(unit))
+    {
+        case PASSIVE_SKILL_S_QUICKENED_PULSE:
+            increaseUnitSkillCD(unit, 1);
+            break;
+        default:
+            break;
+    }
+}
+
+void updateSkillCDForAllUnits()
+{
+    ForAllUnits(updateUnitSkillCD);
+}
+
 void initSkillCDForAllUnits()
 {
     initSkillCDForPlayerUnits();
