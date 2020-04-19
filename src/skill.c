@@ -4489,6 +4489,7 @@ const struct PassiveSkill passiveSkillAs[] = {
 const u16 characterPassiveSkillAs[0x100][4] = {
     {0, 0, 0, 0},
     [CHARACTER_ALFONSE_ID] = {PASSIVE_SKILL_A_DEATH_BLOW_1, PASSIVE_SKILL_A_DEATH_BLOW_2, PASSIVE_SKILL_A_DEATH_BLOW_3, PASSIVE_SKILL_A_DEATH_BLOW_4},
+    [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_A_SPEED_1, PASSIVE_SKILL_A_SPEED_2, PASSIVE_SKILL_A_SPEED_3, 0},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -4522,7 +4523,6 @@ const struct PassiveSkill passiveSkillBs[] = {
 const u16 characterPassiveSkillBs[0x100][4] = {
     {0, 0, 0, 0},
     [CHARACTER_ANNA_ID] = {PASSIVE_SKILL_B_VANTAGE_1, PASSIVE_SKILL_B_VANTAGE_2, PASSIVE_SKILL_B_VANTAGE_3, 0},
-    [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_A_SPEED_1, PASSIVE_SKILL_A_SPEED_2, PASSIVE_SKILL_A_SPEED_3, 0},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
