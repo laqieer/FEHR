@@ -230,6 +230,7 @@ SECTIONS
     INCLUDE ../lds/map_sprites.ld
     INCLUDE ../lds/character_palette.ld
     INCLUDE ../lds/music.ld
+    INCLUDE ../lds/support.ld
     . = 0x8029b42;
     .rodata.levelLimit : {*(.rodata.levelLimit)}
 	. = 0x802e3c6;
