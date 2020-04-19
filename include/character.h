@@ -397,4 +397,15 @@ struct SupportBonuses
 
 int GetUnitSupportBonuses(struct Unit* unit, struct SupportBonuses* bonuses);
 
+// support conversation between character 1 & character 2
+struct SupportConversation
+{
+    u8 character1;
+    u8 character2;
+    int rankA;
+    int rankB;
+    int rankC;
+    int unk;
+};
+
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_H

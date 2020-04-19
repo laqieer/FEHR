@@ -1019,6 +1019,58 @@ const char* const texts[] = {
         [TEXT_ITEM_CANNOT_USE] = "使用不可",
         [TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_NAME] = "奥義のこどう",
         [TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_HELP] = "１ターン目開始時、奥義発動カウントー１",
+
+        [TEXT_SUPPORT_CONVERSATION_ALFONSE_SHARENA_TEMP] = TCC_OPEN_LEFT
+            TCC_LOAD_FACE PORTRAIT_ALFONSE
+                TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_SHARENA
+                "ねえお兄ちゃん結婚しないの？" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "えっしないよ" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "なんで？" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "俺には心に決めた人がいるから。。。" TCC_NEWLINE
+                "その人が振り向いてくれるのを" TCC_NEWLINE
+                "１０年間ずっと待ってるんだよ（適当）" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "ただモテないだけでしょ？" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "ぶっころすぞ" TCC_PUSH_A
+                TCC_CLEAR_FACE
+                TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_ALFONSE_ANNA_TEMP] = TCC_OPEN_LEFT
+            TCC_LOAD_FACE PORTRAIT_ALFONSE
+                TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+                "敵が沸いてくる。行くわよ。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "はい、隊長！" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+                TCC_OPEN_LEFT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_TEMP] = TCC_OPEN_MID_LEFT
+            TCC_LOAD_FACE PORTRAIT_SHARENA
+                TCC_OPEN_FAR_RIGHT 
+                TCC_LOAD_FACE PORTRAIT_ANNA
+                "シャロン、怪我はありませんか。" TCC_PUSH_A
+                TCC_OPEN_MID_LEFT
+                "隊長、すみません。油断しました。" TCC_PUSH_A
+                TCC_OPEN_FAR_RIGHT
+                TCC_MOVE_TO_MID_RIGHT
+                "薬を傷口に塗ってあげましょう。" TCC_PUSH_A
+                TCC_OPEN_MID_LEFT
+                "ありがとうございます。" TCC_NEWLINE
+                TCC_OPEN_MID_RIGHT
+                TCC_CLEAR_FACE
+                TCC_OPEN_MID_LEFT 
+                "隊長さんは優しいですね。" TCC_PUSH_A
+                TCC_CLEAR_FACE,
+
 };
 
 extern int lastTextID;
