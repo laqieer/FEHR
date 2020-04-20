@@ -21,6 +21,7 @@
 #include "buff.h"
 #include "sound_effect.h"
 #include "music_id.h"
+#include "popup.h"
 #include "gba_debug_print.h"
 
 /*
@@ -4669,4 +4670,147 @@ void BattleGetBattleUnitOrderInjector(struct BattleUnit** outAttacker, struct Ba
     //BattleGetBattleUnitOrder(outAttacker, outDefender);
     asm("ldr r2,=BattleGetBattleUnitOrder\nbx r2");
 }
+
+/*
+ * Popup when unlock new passive skill A/B/C.
+ */
+
+#define SFX_UNLOCK_SKILL 0xB1
+
+const struct PopupCmd gPopupPassiveSkillUnlocked[] = {
+    Popup_SetSound(SFX_UNLOCK_SKILL),
+    Popup_SetColor(TEXT_COLOR_NORMAL),
+    Popup_StringPtr("ƒXƒLƒ‹"),
+    //Popup_Space(1),
+    Popup_SetColor(TEXT_COLOR_BLUE),
+    Popup_StringId(TEXT_NEW_PASSIVE_SKILL_UNLOCKED),
+    //Popup_Space(1),
+    Popup_SetColor(TEXT_COLOR_NORMAL),
+    Popup_StringPtr("‚ª‰ð•ú‚µ‚½"),
+    Popup_End
+};
+
+char *tryToGetPassiveSkillANameText(struct Unit *unit, int skillLevel)
+{
+    int passiveSkillId = characterPassiveSkillAs[unit->character->id][skillLevel - 1];
+    
+    if(passiveSkillId)
+        return passiveSkillAs[passiveSkillId].name;
+
+    return NULL;
+}
+
+char *tryToGetPassiveSkillBNameText(struct Unit *unit, int skillLevel)
+{
+    int passiveSkillId = characterPassiveSkillBs[unit->character->id][skillLevel - 1];
+    
+    if(passiveSkillId)
+        return passiveSkillBs[passiveSkillId].name;
+
+    return NULL;
+}
+
+char *tryToGetPassiveSkillCNameText(struct Unit *unit, int skillLevel)
+{
+    int passiveSkillId = characterPassiveSkillCs[unit->character->id][skillLevel - 1];
+    
+    if(passiveSkillId)
+        return passiveSkillCs[passiveSkillId].name;
+
+    return NULL;
+}
+
+void *getCurrentAIS()
+{
+    if(DAT_0203e0ac)
+        return gAISTable[0];
+
+    return gAISTable[2];
+}
+
+struct Unit *getUnitByAIS(void *AIS)
+{
+    if(isAnimationAtRight(AIS))
+        return unitAtRight;
+
+    return unitAtLeft;
+}
+
+struct Unit *getUnitByCurrentAIS()
+{
+    return getUnitByAIS(getCurrentAIS());
+}
+
+char *getNewUnlockedPassiveSkillNameText(struct Unit *unit)
+{
+    if(unit->job->ability_promoted)
+    {
+        switch(unit->lv)
+        {
+            case 1:
+                return tryToGetPassiveSkillANameText(unit, 3);
+            case 5:
+                return tryToGetPassiveSkillBNameText(unit, 3);
+            case 10:
+                return tryToGetPassiveSkillCNameText(unit, 3);
+            case 15:
+                return tryToGetPassiveSkillANameText(unit, 4);
+            case 20:
+                return tryToGetPassiveSkillBNameText(unit, 4);
+            case 25:
+                return tryToGetPassiveSkillCNameText(unit, 4);
+            default:
+                return NULL;
+        }
+    }
+    else
+    {
+        switch(unit->lv)
+        {
+            case 1:
+                return tryToGetPassiveSkillANameText(unit, 1);
+            case 5:
+                return tryToGetPassiveSkillBNameText(unit, 1);
+            case 10:
+                return tryToGetPassiveSkillCNameText(unit, 1);
+            case 15:
+                return tryToGetPassiveSkillANameText(unit, 2);
+            case 20:
+                return tryToGetPassiveSkillBNameText(unit, 2);
+            case 25:
+                return tryToGetPassiveSkillCNameText(unit, 2);
+            default:
+                return NULL;
+        }
+    }
+}
+
+char *getNewUnlockedPassiveSkillNameTextByCurrentAIS()
+{
+    return getNewUnlockedPassiveSkillNameText(getUnitByCurrentAIS());
+}
+
+void newPopupPassiveSkillUnlocked(struct Proc *proc, struct Unit *unit)
+{
+    if(getNewUnlockedPassiveSkillNameText(unit))
+        newPopup(gPopupPassiveSkillUnlocked, 0x60, 0, proc);
+}
+
+void endProcLevelUp(struct Proc *proc);
+
+void newPopupPassiveSkillUnlockedWhenLevelUp(struct Proc *proc)
+{
+    void *AIS = *(void **)&proc->data[0x33];
+
+    if(isAnimationAtRight(AIS))
+        newPopupPassiveSkillUnlocked(proc, unitAtRight);
+    else
+        newPopupPassiveSkillUnlocked(proc, unitAtLeft);
+
+    Proc_Break(proc);
+}
+
+const struct ProcCmd gProcNewPopupPassiveSkillUnlockedWhenLevelUp1 = PROC_LOOP_ROUTINE(newPopupPassiveSkillUnlockedWhenLevelUp);
+
+const struct ProcCmd gProcNewPopupPassiveSkillUnlockedWhenLevelUp2 = PROC_LOOP_ROUTINE(newPopupPassiveSkillUnlockedWhenLevelUp);
 

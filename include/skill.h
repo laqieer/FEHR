@@ -829,4 +829,12 @@ u16 getUnitPassiveSkillB(struct Unit *unit);
 u16 getUnitPassiveSkillC(struct Unit *unit);
 u16 getUnitPassiveSkillS(struct Unit *unit);
 
+char *getNewUnlockedPassiveSkillNameText(struct Unit *unit);
+int isAnimationAtRight(void *AIS);
+
+extern void *gAISTable[4];
+extern u16 DAT_0203e0ac;
+
+char *getNewUnlockedPassiveSkillNameTextByCurrentAIS();
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

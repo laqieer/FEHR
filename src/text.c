@@ -1071,6 +1071,7 @@ const char* const texts[] = {
                 "隊長さんは優しいですね。" TCC_PUSH_A
                 TCC_CLEAR_FACE,
 
+        [TEXT_NEW_PASSIVE_SKILL_UNLOCKED] = "新たなパッシブスキル",
 };
 
 extern int lastTextID;
@@ -1118,7 +1119,7 @@ void stripTextControlCode(char *textIn, char *textOut, int maxLength)
 
 char *decodeText(int textID)
 {
-    if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP && textID != TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN && textID != TEXT_PASSIVE_SKILL_A_HELP && textID != TEXT_PASSIVE_SKILL_B_HELP && textID != TEXT_PASSIVE_SKILL_C_HELP && textID != TEXT_PASSIVE_SKILL_S_HELP)
+    if(textID == lastTextID && textID != TEXT_SPECIAL_SKILL_HELP && textID != TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU && textID != TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN && textID != TEXT_PASSIVE_SKILL_A_HELP && textID != TEXT_PASSIVE_SKILL_B_HELP && textID != TEXT_PASSIVE_SKILL_C_HELP && textID != TEXT_PASSIVE_SKILL_S_HELP && textID != TEXT_NEW_PASSIVE_SKILL_UNLOCKED)
         return decodedText;
 
     lastTextID = textID;
@@ -1140,6 +1141,8 @@ char *decodeText(int textID)
         p = getPassiveSkillCHelpText();
     if(textID == TEXT_PASSIVE_SKILL_S_HELP)
         p = getPassiveSkillSHelpText();
+    if(textID == TEXT_NEW_PASSIVE_SKILL_UNLOCKED)
+        p = getNewUnlockedPassiveSkillNameTextByCurrentAIS();
 
     char *q = decodedText;
     if(textID < sizeof(texts) / 4 && p)

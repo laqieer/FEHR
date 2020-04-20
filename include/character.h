@@ -408,4 +408,7 @@ struct SupportConversation
     int unk;
 };
 
+extern struct Unit *unitAtLeft;
+extern struct Unit *unitAtRight;
+
 #endif //FE7_JP_STUNNING_TRIBBLE_CHARACTER_H

@@ -1,5 +1,8 @@
 ENTRY(_start)
 
+gAISTable = 0x2000000;
+DAT_0203e0ac = 0x203e0ac;
+
 gStatScreen = 0x200310C;
 pCurrentUnitInStatusScreen = 0x2003118;
 gBmFrameTmap0 = 0x200323c;
@@ -57,6 +60,8 @@ DAT_0203a50e = 0x203a50e;
 
 gActionData = 0x203a858;
 
+unitAtLeft = 0x203e06c;
+unitAtRight = 0x203e070;
 characterIdAtLeft = 0x203e074;
 characterIdAtRight = 0x203e075;
 
@@ -102,6 +107,7 @@ fixHighPortrait = 0x80070AD;
 playEyeAnimationOrig = 0x80075F1;
 playMouthAnimationOrig = 0x800749D;
 StartDialogue = 0x8007e09;
+newPopup = 0x800ace9;
 GetItemHit = 0x8017701;
 GetItemWeight = 0x8017719;
 GetItemCrit = 0x8017731;
@@ -155,8 +161,10 @@ InitTargets = 0x804b4c1;
 AddTarget = 0x804b4d9;
 NewTargetSelection = 0x804b665;
 GetTargetListSize = 0x804b951;
+ekrBattle_MakePopups = 0x804c74d;
 AnimEvtCode7Handler = 0x80544ef;
 isAnimationAtRight = 0x8054E61;
+endProcLevelUp = 0x806a299;
 DrawStatBar = 0x8080601;
 DrawStatWithBar = 0x8080a95;
 UnitSlide_SetNewUnit = 0x80816c9;
