@@ -4796,8 +4796,6 @@ void newPopupPassiveSkillUnlocked(struct Proc *proc, struct Unit *unit)
         newPopup(gPopupPassiveSkillUnlocked, 0x60, 0, proc);
 }
 
-void endProcLevelUp(struct Proc *proc);
-
 void newPopupPassiveSkillUnlockedWhenLevelUp(struct Proc *proc)
 {
     void *AIS = *(void **)&proc->data[0x33];
