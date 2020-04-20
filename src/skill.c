@@ -4814,3 +4814,5 @@ const struct ProcCmd gProcNewPopupPassiveSkillUnlockedWhenLevelUp1 = PROC_LOOP_R
 
 const struct ProcCmd gProcNewPopupPassiveSkillUnlockedWhenLevelUp2 = PROC_LOOP_ROUTINE(newPopupPassiveSkillUnlockedWhenLevelUp);
 
+const u16 notQuitIfNoWeaponRankUp[6] = {0xd112, 0, 0, 0, 0, 0};
+
