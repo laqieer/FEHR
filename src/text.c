@@ -1072,6 +1072,8 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE,
 
         [TEXT_NEW_PASSIVE_SKILL_UNLOCKED] = "新たなパッシブスキル",
+        
+        [TEXT_UNIT_LEVEL_HELP] = "ユニットのレベルです"TCC_NEWLINE"最高３０レベルです",
 };
 
 extern int lastTextID;
