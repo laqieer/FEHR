@@ -1144,15 +1144,16 @@ char *decodeText(int textID)
     if(textID == TEXT_NEW_PASSIVE_SKILL_UNLOCKED)
         p = getNewUnlockedPassiveSkillNameTextByCurrentAIS();
 
+    char *p0 = p;
     char *q = decodedText;
     if(textID < sizeof(texts) / 4 && p)
     {
         unsigned int maxLineWidth = TEXT_LINE_WIDTH_MAX;
-        if(textID == TEXT_SPECIAL_SKILL_HELP || textID == TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU || textID == TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN)
+        if(textID == TEXT_SPECIAL_SKILL_HELP || textID == TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU || textID == TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN || textID == TEXT_PASSIVE_SKILL_A_HELP || textID == TEXT_PASSIVE_SKILL_B_HELP || textID == TEXT_PASSIVE_SKILL_C_HELP || textID == TEXT_PASSIVE_SKILL_S_HELP)
             maxLineWidth = SKILL_HELP_WIDTH_MAX;
 
         // copy text directly
-        if (getStringTextWidth(texts[textID]) <= maxLineWidth)
+        if (getStringTextWidth(p) <= maxLineWidth)
             while (*p)
                 *q++ = *p++;
         else {
@@ -1179,9 +1180,9 @@ char *decodeText(int textID)
         // add 0 to end string
         *q = 0;
 
-        if(getStringTextWidth(texts[textID]) > maxLineWidth)
+        if(getStringTextWidth(p0) > maxLineWidth)
         {
-            Debugf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(texts[textID]), getStringTextWidth(decodedText));
+            Debugf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(p0), getStringTextWidth(decodedText));
         }
     }
     else
