@@ -1,6 +1,7 @@
 ENTRY(_start)
 
 gAISTable = 0x2000000;
+gLevelUpProc = 0x20200ac;
 DAT_0203e0ac = 0x203e0ac;
 
 gStatScreen = 0x200310C;

@@ -4736,6 +4736,21 @@ struct Unit *getUnitByAIS(void *AIS)
     return unitAtLeft;
 }
 
+struct Unit *getUnitBySideAndNumber(int side, int number)
+{
+    switch(side)
+    {
+        case PlayerSide:
+            return &playerUnits[number];
+        case EnemySide:
+            return &enemyUnits[number];
+        case NPCSide:
+            return &NPCUnits[number];
+        default:
+            return &P4Units[number];
+    }
+}
+
 struct Unit *getUnitByCurrentAIS()
 {
     return getUnitByAIS(getCurrentAIS());
@@ -4790,10 +4805,15 @@ char *getNewUnlockedPassiveSkillNameTextByCurrentAIS()
     return getNewUnlockedPassiveSkillNameText(getUnitByCurrentAIS());
 }
 
+extern struct Proc *gLevelUpProc;
+
 void newPopupPassiveSkillUnlocked(struct Proc *proc, struct Unit *unit)
 {
-    if(getNewUnlockedPassiveSkillNameText(unit))
+    if(gLevelUpProc != NULL && getNewUnlockedPassiveSkillNameText(unit))
+    {
         newPopup(gPopupPassiveSkillUnlocked, 0x60, 0, proc);
+        gLevelUpProc = NULL;
+    }
 }
 
 void newPopupPassiveSkillUnlockedWhenLevelUp(struct Proc *proc)
