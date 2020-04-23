@@ -59,4 +59,7 @@ void addU16InSRAM(struct U16InSRAM *U16, u16 value);
 
 u32 GetGameClock();
 
+void EnableItemInSavemenu(struct Proc *proc, u8 flag);
+void EnableItemInExtramenu(struct Proc *proc, u8 flag);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_ACHIEVEMENT_H

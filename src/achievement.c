@@ -3,9 +3,10 @@
  * https://github.com/laqieer/fe7-jp-stunning-tribble/projects/2.
  */
 
-#include "achievement.h"
-
 #include "character.h"
+#include "proc.h"
+
+#include "achievement.h"
 
 u16 getU16InSRAM(struct U16InSRAM *U16)
 {
@@ -344,4 +345,53 @@ const struct Achievement achievements[] = {
     {"卒業おめでとう", "トロフィーを全て獲得", isAllAchievementUnlocked, ChallengeAchievement, GoldAchievement, 0},
 };
 
+void EnableGameMainMenuItems(struct Proc *proc)
+{
+    int i = 0;
+    int j = 0;
+
+    proc->data[7] = 0;
+    proc->data[8] = 0;
+    proc->data[9] = 0;
+    proc->data[10] = 0;
+    if (*(short *)(proc->data + 0x1b) == 0x100)
+        EnableItemInSavemenu(proc, 1);
+    do {
+        if (proc->data[j + 0xe] != 0xff) {
+          i = i + 1;
+        }
+        j = j + 1;
+    }   while (j < 3);
+    if   (0 < i) {
+        EnableItemInSavemenu(proc, 2);
+        if (i < 3) {
+          EnableItemInSavemenu(proc, 4);
+        }
+        EnableItemInSavemenu(proc, 8);
+    }
+    if   (i < 3) {
+        EnableItemInSavemenu(proc, 0x10);
+    }
+
+    // Unlock all extra menu items by default
+    EnableItemInExtramenu(proc, 1);
+    EnableItemInExtramenu(proc, 2);
+    EnableItemInExtramenu(proc, 4);
+    EnableItemInExtramenu(proc, 8);
+    EnableItemInExtramenu(proc, 0x10);
+    EnableItemInExtramenu(proc, 0x20);
+    EnableItemInExtramenu(proc, 0x40);
+    EnableItemInExtramenu(proc, 0x80);
+
+    if(proc->data[9])
+    {
+        proc->data[7] |= 0x20;
+        proc->data[8] += 1;
+    }
+}
+
+void EnableGameMainMenuItemsInjector(struct Proc *proc)
+{
+    EnableGameMainMenuItems(proc);
+}
 
