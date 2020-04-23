@@ -78,6 +78,7 @@ compressedText = 0x8BBB370;
 portraitsOrig = 0x8D5E23C;
 
 agbMain = 0x8000A21;
+GetGameClock = 0x8000eed;
 setBGMapBufferSyncFlag = 0x8000FD5;
 EnablePaletteSync = 0x8001035;
 writeBGPalette = 0x800105D;
@@ -130,6 +131,7 @@ GetItemIndex = 0x8017609;
 GetItemType = 0x8017665;
 GetItemAttributes = 0x8017685;
 GetItemMight = 0x80176e9;
+ClearUnitSupports = 0x8026cd1;
 getActiveUnitCurrentHp = 0x8018e61;
 GetUnit = 0x80190f5;
 CanUnitCrossTerrain = 0x8019151;
@@ -209,6 +211,7 @@ SECTIONS
 	INCLUDE ../lds/skill.ld
 	INCLUDE ../lds/buff.ld
 	INCLUDE ../lds/new_unit_state.ld
+	INCLUDE ../lds/achievement.ld
 	. = 0x80069B0;
 	.text.getPortraitByIDInjector : {*(.text.getPortraitByIDInjector)}
 	. = 0x8006C48;
@@ -347,6 +350,7 @@ SECTIONS
 	.bss.skill : {*/skill.*(.data.*)}
 	.bss.buff : {*/buff.*(.bss.*)}
 	.bss.new_unit_state : {*/new_unit_state.*(.bss.*)}
+	.bss.achievement : {*/achievement.*(.bss.*)}
     savLog = .;
     . = 0xE008000 - 2;
     .bss.locationLoByte : {*/gba_debug_print.*(.bss.locationLoByte.*)}

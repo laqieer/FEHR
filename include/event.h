@@ -102,4 +102,20 @@
 #define ClearSpecialSkillCD ASMC initSkillCDForAllUnits
 #define UpdateSpecialSkillCD ASMC updateSkillCDForAllUnits
 
+// unlock progress achievements
+#define UnlockPrologueClearAchievement ASMC setPrologueClear
+#define UnlockEpilogueClearAchievement ASMC setEpilogueClear
+#define UnlockBook1ClearAchievement ASMC setBook1Clear
+#define UnlockBook2ClearAchievement ASMC setBook2Clear
+#define UnlockBook3ClearAchievement ASMC setBook3Clear
+#define UnlockBook4ClearAchievement ASMC setBook4Clear
+#define UnlockHiddenTreasure0Achievement ASMC findTreasure0
+#define UnlockHiddenTreasure1Achievement ASMC findTreasure1
+#define UnlockHiddenTreasure2Achievement ASMC findTreasure2
+#define UnlockHiddenTreasure3Achievement ASMC findTreasure3
+#define UnlockHiddenTreasure4Achievement ASMC findTreasure4
+#define UnlockHiddenTreasure5Achievement ASMC findTreasure5
+#define UnlockHiddenTreasure6Achievement ASMC findTreasure6
+#define UnlockHiddenTreasure7Achievement ASMC findTreasure7
+
 #endif //FE7_JP_STUNNING_TRIBBLE_EVENT_H

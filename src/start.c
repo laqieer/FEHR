@@ -5,6 +5,8 @@
 
 #include <gba.h>
 
+#include "achievement.h"
+
 #include "gba_debug_print.h"
 
 void agbMain();
@@ -27,6 +29,7 @@ void agbMainNew()
 {
     printVersion();
     REG_DISPCNT = 0x80;
+    initInvalidGlobalCounter();
     agbMain();
 }
 

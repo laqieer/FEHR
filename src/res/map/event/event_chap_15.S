@@ -28,6 +28,7 @@ CharacterBasedEvents:
 LocationBasedEvents:
 	END_MAIN
 GetSlimLance:
+    UnlockHiddenTreasure1Achievement
     TEXT TEXT_CHAP_15_GET_SLIM_LANCE
     ITGV SlimLance
     ENDA
