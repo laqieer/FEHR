@@ -375,14 +375,14 @@ void EnableGameMainMenuItems(struct Proc *proc)
     }
 
     // Unlock all extra menu items by default
-    EnableItemInExtramenu(proc, 1);
-    EnableItemInExtramenu(proc, 2);
-    EnableItemInExtramenu(proc, 4);
-    EnableItemInExtramenu(proc, 8);
-    EnableItemInExtramenu(proc, 0x10);
-    EnableItemInExtramenu(proc, 0x20);
-    EnableItemInExtramenu(proc, 0x40);
-    EnableItemInExtramenu(proc, 0x80);
+    EnableItemInExtramenu(proc, EXTRA_MENU_ITEM_LINK_ARENA);
+    EnableItemInExtramenu(proc, EXTRA_MENU_ITEM_SOUND_ROOM);
+    EnableItemInExtramenu(proc, EXTRA_MENU_ITEM_SUPPORT_CONVERSATION);
+    EnableItemInExtramenu(proc, EXTRA_MENU_ITEM_BATTLE_HISTORY);
+    EnableItemInExtramenu(proc, EXTRA_MENU_ITEM_LINK_FE6);
+    EnableItemInExtramenu(proc, EXTRA_MENU_ITEM_DOWNLOAD_DATA);
+    EnableItemInExtramenu(proc, EXTRA_MENU_ITEM_TRIAL_MAPS);
+    EnableItemInExtramenu(proc, EXTRA_MENU_ITEM_ACHIEVEMENT);
 
     if(proc->data[9])
     {
@@ -405,7 +405,7 @@ const struct ProcCmd gProcScriptAchievement[] = {
 
 void startAchievementMenuProc(struct Proc *proc)
 {
-    if(proc->data[0xc] == 0x80)
+    if(proc->data[0xc] == EXTRA_MENU_ITEM_ACHIEVEMENT)
         Proc_StartBlocking(gProcScriptAchievement, proc);
 }
 
@@ -419,7 +419,7 @@ const struct ProcCmd gProcCommand_StartAchievementMenuProcInjector = PROC_CALL_R
 
 void AchievementMenuHandlerInExtraMenuLoop(struct Proc *proc)
 {
-    if(proc->data[0xc] == 0x80)
+    if(proc->data[0xc] == EXTRA_MENU_ITEM_ACHIEVEMENT)
     {
         Debugf("proc = 0x%x, proc->data[0xc] = 0x%x", proc, proc->data[0xc]);
         EndProc(gpProc_0300003c);
@@ -438,7 +438,7 @@ const struct ProcCmd gProcCommand_AchievementMenuHandlerInExtraMenuLoopInjector 
 
 void endAchievementMenu(struct Proc *proc)
 {
-    if(proc->data[0xc] == 0x80)
+    if(proc->data[0xc] == EXTRA_MENU_ITEM_ACHIEVEMENT)
     {
         proc->data[0xc] = 0;
         GotoProcLabel(proc,10);
