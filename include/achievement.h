@@ -61,5 +61,10 @@ u32 GetGameClock();
 
 void EnableItemInSavemenu(struct Proc *proc, u8 flag);
 void EnableItemInExtramenu(struct Proc *proc, u8 flag);
+void startExtraMenuItemProc(struct Proc *proc);
+void ExtraMenuLoop(struct Proc *proc);
+void endExtraMenuItem(struct Proc *proc);
+
+extern struct Proc *gpProc_0300003c;
 
 #endif //FE7_JP_STUNNING_TRIBBLE_ACHIEVEMENT_H

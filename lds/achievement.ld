@@ -2,3 +2,9 @@
 .text.UnitKillInjector : {*(.text.UnitKillInjector)}
 . = 0x80a6cd0;
 .text.EnableGameMainMenuItemsInjector : {*(.text.EnableGameMainMenuItemsInjector)}
+. = 0x8dad5ac;
+.rodata.gProcCommand_StartAchievementMenuProcInjector : {*(.rodata.gProcCommand_StartAchievementMenuProcInjector)}
+. = 0x8dad564;
+.rodata.gProcCommand_AchievementMenuHandlerInExtraMenuLoopInjector : {*(.rodata.gProcCommand_AchievementMenuHandlerInExtraMenuLoopInjector)}
+. = 0x8dad5fc;
+.rodata.gProcCommand_EndAchievementMenuInjector : {*(.rodata.gProcCommand_EndAchievementMenuInjector)}

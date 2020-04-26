@@ -7,6 +7,7 @@
 #include <gba_base.h>
 #include <gba_sprites.h>
 #include "character_voice.h"
+#include "proc.h"
 
 #include "portrait_alfonse_tileset.h"
 #include "portrait_alfonse_mini.h"
@@ -238,8 +239,6 @@ void playEyeAnimation(u32 *p, int eyeStatus)
         playEyeAnimationOrig(p, eyeStatus);
 }
 
-void func80045FC(s16*, int);
-
 void blink(s16 *p)
 {
     int eyeStatus;
@@ -263,7 +262,7 @@ void blink(s16 *p)
                 eyeStatus = 1;
                 break;
             case 0xAu:
-                func80045FC(p,0);
+                GotoProcLabel(p,0);
                 break;
             default:
                 break;
@@ -284,7 +283,7 @@ void func80077E8(s16 *p)
     {
         playEyeAnimation(p,0);
         if(!p[25])
-            func80045FC(p,1);
+            GotoProcLabel(p,1);
     }
     else
         blink(p);
@@ -301,7 +300,7 @@ void func8007824(s16 *p)
     {
         playEyeAnimation(p,1);
         if(!p[25])
-            func80045FC(p,1);
+            GotoProcLabel(p,1);
     }
     else
         blink(p);
@@ -335,7 +334,7 @@ void wink(s16 *p)
                 eyeStatus = 1;
                 break;
             case 0xAu:
-                func80045FC(p,0);
+                GotoProcLabel(p,0);
                 break;
             default:
                 break;

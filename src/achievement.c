@@ -5,6 +5,7 @@
 
 #include "character.h"
 #include "proc.h"
+#include "gba_debug_print.h"
 
 #include "achievement.h"
 
@@ -394,4 +395,61 @@ void EnableGameMainMenuItemsInjector(struct Proc *proc)
 {
     EnableGameMainMenuItems(proc);
 }
+
+const struct ProcCmd gProcScriptAchievement[] = {
+    PROC_19,
+    PROC_SLEEP(0),
+    PROC_CALL_ROUTINE(0x80aac89),
+    PROC_END
+};
+
+void startAchievementMenuProc(struct Proc *proc)
+{
+    if(proc->data[0xc] == 0x80)
+        Proc_StartBlocking(gProcScriptAchievement, proc);
+}
+
+void startAchievementMenuProcInjector(struct Proc *proc)
+{
+    startExtraMenuItemProc(proc);
+    startAchievementMenuProc(proc);
+}
+
+const struct ProcCmd gProcCommand_StartAchievementMenuProcInjector = PROC_CALL_ROUTINE(startAchievementMenuProcInjector);
+
+void AchievementMenuHandlerInExtraMenuLoop(struct Proc *proc)
+{
+    if(proc->data[0xc] == 0x80)
+    {
+        Debugf("proc = 0x%x, proc->data[0xc] = 0x%x", proc, proc->data[0xc]);
+        EndProc(gpProc_0300003c);
+        GotoProcLabel(proc, 14);
+        func8003fd4(0, 0xc0, 0, 0x18, 0);
+    }
+}
+
+void AchievementMenuHandlerInExtraMenuLoopInjector(struct Proc *proc)
+{
+    ExtraMenuLoop(proc);
+    AchievementMenuHandlerInExtraMenuLoop(proc);
+}
+
+const struct ProcCmd gProcCommand_AchievementMenuHandlerInExtraMenuLoopInjector = PROC_LOOP_ROUTINE(AchievementMenuHandlerInExtraMenuLoopInjector);
+
+void endAchievementMenu(struct Proc *proc)
+{
+    if(proc->data[0xc] == 0x80)
+    {
+        proc->data[0xc] = 0;
+        GotoProcLabel(proc,10);
+    }
+}
+
+void endAchievementMenuInjector(struct Proc *proc)
+{
+    endExtraMenuItem(proc);
+    endAchievementMenu(proc);
+}
+
+const struct ProcCmd gProcCommand_EndAchievementMenuInjector = PROC_CALL_ROUTINE(endAchievementMenuInjector);
 
