@@ -63,7 +63,7 @@ enum {
 void PrintDebugStringToBG(u16 *bg, const char *asciiStr);
 void PrintStringToDBG(const char *str);
 void Font_InitForUIDefault(void);
-void Font_InitForUI(struct Font *a, void *b, int c, int d);
+void Font_InitForUI(struct Font *font, void *vramDest, int baseTileId, int paletteId);
 void SetFontGlyphSet(int a);
 void SetFont(struct Font *a);
 void Text_Init(struct TextHandle *a, int tileWidth);
@@ -93,5 +93,7 @@ void NewGreenTextColorManager(struct Proc* parent);
 void EndGreenTextColorManager(void);
 void DrawDecNumber(u16* a, int b, int c);
 void DrawStatScreenBonusNumber(int bonusNumber, u16 *dest);
+
+extern u8 DAT_02028d6c;
 
 #endif //FE7_JP_STUNNING_TRIBBLE_FONTGRP_H

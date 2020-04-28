@@ -29,7 +29,6 @@ void agbMainNew()
 {
     printVersion();
     REG_DISPCNT = 0x80;
-    initInvalidGlobalCounter();
     agbMain();
 }
 

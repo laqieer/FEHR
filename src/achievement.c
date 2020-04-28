@@ -3,11 +3,21 @@
  * https://github.com/laqieer/fe7-jp-stunning-tribble/projects/2.
  */
 
+#include <gba_types.h>
+#include <gba_input.h>
+#include <gba_video.h>
+
+#include <string.h>
+
 #include "character.h"
-#include "proc.h"
 #include "gba_debug_print.h"
+#include "music_id.h"
 
 #include "achievement.h"
+
+#include "skill.h"
+
+#include "trophy.h"
 
 u16 getU16InSRAM(struct U16InSRAM *U16)
 {
@@ -61,11 +71,13 @@ void initInvalidStoryProgress()
 
 int isPrologueClear()
 {
+    initInvalidStoryProgress();
     return gStoryProgress.clearPrologue;
 }
 
 void setPrologueClear()
 {
+    initInvalidStoryProgress();
     gStoryProgress.clearPrologue = 1;
 }
 
@@ -134,21 +146,25 @@ void initInvalidDeathCount()
 
 void addKillCount()
 {
+    initInvalidKillCount();
     addU16InSRAM(&killCount, 1);
 }
 
 void addDeathCount()
 {
+    initInvalidDeathCount();
     addU16InSRAM(&deathCount, 1);
 }
 
 u16 getKillCount()
 {
+    initInvalidKillCount();
     return getU16InSRAM(&killCount);
 }
 
 u16 getDeathCount()
 {
+    initInvalidDeathCount();
     return getU16InSRAM(&deathCount);
 }
 
@@ -298,7 +314,7 @@ int getHiddenTreasureAmount()
 
     for(int i = 0; i < 8; i++)
     {
-        if(isTreasureHidden(i))
+        if(!isTreasureHidden(i))
             hidden++;
     }
 
@@ -327,14 +343,14 @@ int isAllAchievementUnlocked()
 
 const struct Achievement achievements[] = {
     {"ã‡óÉÇÃâ§éq", "ÉXÉgÅ[ÉäÅ[èòèÕÉNÉäÉA", isPrologueClear, ProgressAchievement, BronzeAchievement, 0},
-    {"ì`è≥ÇÃè¢ä´ét", "ÉXÉgÅ[ÉäÅ[èIèÕÉNÉäÉA", isEpilogueClear, ProgressAchievement, GoldAchievement, 0},
+    {"ì`ê‡ÇÃâpóY", "ÉXÉgÅ[ÉäÅ[èIèÕÉNÉäÉA", isEpilogueClear, ProgressAchievement, GoldAchievement, 0},
     {"énÇ‹ÇËÇÃèÿ", "ÉXÉgÅ[ÉäÅ[ëÊÇPïîÉNÉäÉA", isBook1Clear, ProgressAchievement, BronzeAchievement, 0},
     {"âäÇÃèÿ", "ÉXÉgÅ[ÉäÅ[ëÊÇQïîÉNÉäÉA", isBook2Clear, ProgressAchievement, SilverAchievement, 0},
     {"éÄÇÃèÿ", "ÉXÉgÅ[ÉäÅ[ëÊÇRïîÉNÉäÉA", isBook3Clear, ProgressAchievement, SilverAchievement, 0},
     {"ñ≤ÇÃèÿ", "ÉXÉgÅ[ÉäÅ[ëÊÇSïîÉNÉäÉA", isBook4Clear, ProgressAchievement, GoldAchievement, 0},
-    {"è\\êléa", "ìGÇÇPÇOëÃì|Ç∑", isKillCountOver10, ChallengeAchievement, BronzeAchievement, 0},
-    {"ïSêléa", "ìGÇÇPÇOÇOëÃì|Ç∑", isKillCountOver100, ChallengeAchievement, SilverAchievement, 0},
-    {"êÁêléa", "ìGÇÇPÇOÇOÇOëÃì|Ç∑", isKillCountOver1000, ChallengeAchievement, GoldAchievement, 0},
+    {"è\\êlÇ¥ÇÒ", "ìGÇÇPÇOëÃì|Ç∑", isKillCountOver10, ChallengeAchievement, BronzeAchievement, 0},
+    {"ïSêlÇ¥ÇÒ", "ìGÇÇPÇOÇOëÃì|Ç∑", isKillCountOver100, ChallengeAchievement, SilverAchievement, 0},
+    {"êÁêlÇ¥ÇÒ", "ìGÇÇPÇOÇOÇOëÃì|Ç∑", isKillCountOver1000, ChallengeAchievement, GoldAchievement, 0},
     {"ÉmÅ[ÉMÉuÉAÉbÉv", "ÇTÇOâÒéÄÇ ", isDeathCountOver50, ChallengeAchievement, BronzeAchievement, 0},
     {"ÉjÉÖÅ[ÉJÉ}Å[", "ÉQÅ[ÉÄÇóVÇ‘", unlockedFromGameStart, ChallengeAchievement, BronzeAchievement, 0},
     {"ÉrÉMÉiÅ[", "ÉQÅ[ÉÄÇÇPéûä‘óVÇ‘", isGameTimeOver1h, ChallengeAchievement, BronzeAchievement, 0},
@@ -343,7 +359,7 @@ const struct Achievement achievements[] = {
     {"ç‡ïÛî≠å©", "âBÇµç‡ïÛÇàÍÇ¬ì¸éË", isOneTreasureFound, ChallengeAchievement, BronzeAchievement, 0},
     {"ç‡ïÛéÎÇËêl", "âBÇµç‡ïÛÇå‹Ç¬ì¸éË", isFiveTreasureFound, ChallengeAchievement, SilverAchievement, 0},
     {"ç‡ïÛã∂êl", "âBÇµç‡ïÛÇëSÇƒì¸éË", isAllTreasureFound, ChallengeAchievement, GoldAchievement, 0},
-    {"ë≤ã∆Ç®ÇﬂÇ≈Ç∆Ç§", "ÉgÉçÉtÉBÅ[ÇëSÇƒälìæ", isAllAchievementUnlocked, ChallengeAchievement, GoldAchievement, 0},
+    {"íBêl", "ÉgÉçÉtÉBÅ[ÇëSÇƒâï˙", isAllAchievementUnlocked, ChallengeAchievement, GoldAchievement, 0},
 };
 
 void EnableGameMainMenuItems(struct Proc *proc)
@@ -396,10 +412,106 @@ void EnableGameMainMenuItemsInjector(struct Proc *proc)
     EnableGameMainMenuItems(proc);
 }
 
+extern vu16 REG_DISPCNT_BUFFER;
+extern vu16 REG_BG0CNT_BUFFER;
+extern vu16 REG_BG1CNT_BUFFER;
+extern vu16 REG_BG2CNT_BUFFER;
+extern vu16 REG_BG3CNT_BUFFER;
+extern vu16 REG_BLDCNT_BUFFER;
+extern vu16 BGPaletteBuffer[];
+extern vu16 OBJPaletteBuffer[];
+
+void displayAchievement(int achievementId)
+{
+    if(achievementId < 18)
+    {
+        int y = 2 + (achievementId >> 1) * 2;
+        int x = (achievementId & 1) * 15;
+        int colorId = TEXT_COLOR_NORMAL;
+        switch(achievements[achievementId].level)
+        {
+            case GoldAchievement:
+                colorId = TEXT_COLOR_GOLD;
+                break;
+            case SilverAchievement:
+                colorId = TEXT_COLOR_NORMAL;
+                break;
+            case BronzeAchievement:
+                colorId = TEXT_COLOR_BLUE;
+                break;
+            default:
+                colorId = TEXT_COLOR_NORMAL;
+        }
+        if(achievements[achievementId].condition())
+        {
+            DrawTextInLine(0, BG0MapBuffer + TILEMAP_INDEX(x, y), colorId, 0, 7, achievements[achievementId].name);
+        }
+        else
+        {
+            DrawTextInLine(0, BG0MapBuffer + TILEMAP_INDEX(x, y), colorId, 0, 3, "ÅHÅHÅH");
+            DrawTextInLine(0, BG0MapBuffer + TILEMAP_INDEX(x + 4, y), TEXT_COLOR_GRAY, 0, 11, achievements[achievementId].description);
+        }
+    }
+}
+
+void displayAchievements()
+{
+    for(int i = 0; i < 18; i++)
+        displayAchievement(i);
+}
+
+// display trophy.png in BG1
+void displayAchievementBG()
+{
+    REG_BG1CNT_BUFFER = (1<<7) | 3 | (2<<2) | (13<<8);
+    writeTiles(trophyPal, &BGPaletteBuffer[16]);
+    writeTiles(trophyTiles, VRAM + 0x8000);
+    writeTiles(trophyMap, BG1MapBuffer);
+}
+
+void AchievementMenuInit(struct Proc *proc)
+{
+    // Achievement menu BGM
+    m4aSongNumStart(MAIN_THEME_ARRANGE);
+
+    // turn off alpha blending
+    REG_BLDCNT_BUFFER = 0;
+    // turn BG0 & BG1 on
+    REG_DISPCNT_BUFFER |=  BG0_ON | BG1_ON;
+    // clear BG0 map
+    memset(BG0MapBuffer, 0, 2048);
+    // clear tile #0
+    memset(VRAM, 0, 32);
+    // init font
+    // Font_InitForUIDefault();
+    Font_InitForUI(NULL, VRAM + 32, 1, 0);
+    // draw text
+    DrawTextInLine(0, BG0MapBuffer + TILEMAP_INDEX(11, 0), TEXT_COLOR_GREEN, 0, 9, "ÉgÅ@ÉçÅ@ÉtÅ@ÉBÅ@Å[");
+    displayAchievements();
+    displayAchievementBG();
+    // sync BG0 & BG1 map
+    setBGMapBufferSyncFlag(3);
+}
+
+void AchievementMenuLoop(struct Proc *proc)
+{
+    // Exit if key B is pressed
+    if(sKeyStatusBuffer.newKeys == KEY_B)
+        Proc_Break(proc);
+}
+
+void AchievementMenuEnd(struct Proc *proc)
+{
+    // Restart BGM
+    m4aSongNumStart(FIRE_EMBLEM_THEME_LOOPED);
+}
+
 const struct ProcCmd gProcScriptAchievement[] = {
     PROC_19,
     PROC_SLEEP(0),
-    PROC_CALL_ROUTINE(0x80aac89),
+    PROC_CALL_ROUTINE(AchievementMenuInit),
+    PROC_LOOP_ROUTINE(AchievementMenuLoop),
+    PROC_CALL_ROUTINE(AchievementMenuEnd),
     PROC_END
 };
 
@@ -425,6 +537,13 @@ void AchievementMenuHandlerInExtraMenuLoop(struct Proc *proc)
         EndProc(gpProc_0300003c);
         GotoProcLabel(proc, 14);
         func8003fd4(0, 0xc0, 0, 0x18, 0);
+    }
+    else
+    {
+        if(proc->data[0xc])
+        {
+            m4aSongNumStop(FIRE_EMBLEM_THEME_LOOPED);
+        }
     }
 }
 
