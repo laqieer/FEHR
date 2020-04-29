@@ -428,3 +428,10 @@
 
 	.equ	reverb_set,0x80		@ SOUND_MODE_REVERB_SET
 	.equ	PAM, PAN		@
+
+@ custom
+
+    .macro VolHalf volume
+    .byte  VOL, (\volume + 1) / 2 - 1
+    .endm
+

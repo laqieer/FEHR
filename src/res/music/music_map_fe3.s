@@ -18,7 +18,7 @@ musicMapFE3_0_Loop:
         .byte   TEMPO , 130/2
         .byte   W56
         .byte   W02
-        .byte           VOL   , 127
+        VolHalf(127)
         .byte   W08
         .byte           VOICE , 56
         .byte   W30
@@ -194,7 +194,7 @@ musicMapFE3_1_Loop:
         .byte   W48
         .byte           VOICE , 57
         .byte   W14
-        .byte           VOL   , 127
+        VolHalf(127)
         .byte   W32
         .byte   W02
 @ 001   ----------------------------------------
@@ -352,7 +352,7 @@ musicMapFE3_2:
         .byte   KEYSH , musicMapFE3_key+0
 musicMapFE3_2_Loop:
 @ 000   ----------------------------------------
-        .byte           VOL   , 127
+        VolHalf(127)
         .byte   W96
 @ 001   ----------------------------------------
         .byte   W18
@@ -739,7 +739,7 @@ musicMapFE3_2_20:
         .byte           N18   , Bn3 , v127
         .byte           N18   , Dn4
         .byte   W04
-        .byte           VOL   , 120
+        VolHalf(120)
         .byte   W14
         .byte           N06   , An3
         .byte           N06   , Cn4
@@ -747,7 +747,7 @@ musicMapFE3_2_20:
         .byte           N68   , An3 , v127 , gtp2
         .byte           N68   , Cn4
         .byte   W08
-        .byte           VOL   , 110
+        VolHalf(110)
         .byte   W22
         .byte                   100
         .byte   W24
@@ -758,7 +758,7 @@ musicMapFE3_2_20:
         .byte           N08   , Bn2
         .byte           N08   , Dn3
         .byte   W06
-        .byte           VOL   , 80
+        VolHalf(80)
         .byte   W02
         .byte           N08
         .byte           N08   , Gn3
@@ -769,7 +769,7 @@ musicMapFE3_2_20:
         .byte           N48
         .byte           N48   , Dn4
         .byte   W04
-        .byte           VOL   , 70
+        VolHalf(70)
         .byte   W28
         .byte                   60
         .byte   W22
@@ -785,7 +785,7 @@ musicMapFE3_2_20:
         .byte           N18   , As3
         .byte           N18   , Dn4
         .byte   W08
-        .byte           VOL   , 40
+        VolHalf(40)
         .byte   W10
         .byte           N06   , Cn4
         .byte           N06   , Ds4
@@ -793,7 +793,7 @@ musicMapFE3_2_20:
         .byte           N68   , Dn4 , v127 , gtp2
         .byte           N68   , Fn4
         .byte   W06
-        .byte           VOL   , 30
+        VolHalf(30)
         .byte   W22
         .byte                   20
         .byte   W28
@@ -810,7 +810,7 @@ musicMapFE3_3:
         .byte   KEYSH , musicMapFE3_key+0
 musicMapFE3_3_Loop:
 @ 000   ----------------------------------------
-        .byte           VOL   , 127
+        VolHalf(127)
         .byte   W48
         .byte           VOICE , 48
         .byte   W48
@@ -1203,7 +1203,7 @@ musicMapFE3_3_20:
         .byte           N48
         .byte           N48   , Dn5
         .byte   W60
-        .byte           VOL   , 120
+        VolHalf(120)
         .byte           N06   , Bn4
         .byte           N06   , Dn5
         .byte   W06
@@ -1214,7 +1214,7 @@ musicMapFE3_3_20:
         .byte           N18   , Bn4
         .byte           N18   , Dn5
         .byte   W16
-        .byte           VOL   , 110
+        VolHalf(110)
         .byte   W02
         .byte           N06   , An4
         .byte           N06   , Cn5
@@ -1222,7 +1222,7 @@ musicMapFE3_3_20:
         .byte           N68   , An4 , v052 , gtp2
         .byte           N68   , Cn5
         .byte   W14
-        .byte           VOL   , 100
+        VolHalf(100)
         .byte   W24
         .byte   W02
         .byte                   90
@@ -1236,7 +1236,7 @@ musicMapFE3_3_20:
         .byte                   Dn4
         .byte           N08   , Gn4
         .byte   W04
-        .byte           VOL   , 70
+        VolHalf(70)
         .byte   W04
         .byte           N08
         .byte           N08   , Bn4
@@ -1244,14 +1244,14 @@ musicMapFE3_3_20:
         .byte           N48
         .byte           N48   , Dn5
         .byte   W16
-        .byte           VOL   , 60
+        VolHalf(60)
         .byte   W22
         .byte                   50
         .byte   W22
         .byte           N06   , Bn4
         .byte           N06   , Dn5
         .byte   W04
-        .byte           VOL   , 40
+        VolHalf(40)
         .byte   W02
         .byte           N06   , Bn4
         .byte           N06   , Dn5
@@ -1260,7 +1260,7 @@ musicMapFE3_3_20:
         .byte           N18   , As4
         .byte           N18   , Dn5
         .byte   W14
-        .byte           VOL   , 30
+        VolHalf(30)
         .byte   W04
         .byte           N06   , Cn5
         .byte           N06   , Ds5
@@ -1268,7 +1268,7 @@ musicMapFE3_3_20:
         .byte           N68   , Dn5 , v052 , gtp2
         .byte           N68   , Fn5
         .byte   W12
-        .byte           VOL   , 20
+        VolHalf(20)
         .byte   W28
         .byte                   10
         .byte   W32
@@ -1285,7 +1285,7 @@ musicMapFE3_4_Loop:
 @ 000   ----------------------------------------
         .byte   W44
         .byte   W02
-        .byte           VOL   , 127
+        VolHalf(127)
         .byte   W06
         .byte           VOICE , 48
         .byte   W44
@@ -1719,7 +1719,7 @@ musicMapFE3_4_20:
         .byte           N06   , Dn3
         .byte           N06   , Bn2
         .byte   W22
-        .byte           VOL   , 120
+        VolHalf(120)
         .byte   W02
         .byte           N06   , Gn3
         .byte           N06   , Dn3
@@ -1731,7 +1731,7 @@ musicMapFE3_4_20:
         .byte           N06   , An2
         .byte           N06   , Cn3
         .byte   W02
-        .byte           VOL   , 110
+        VolHalf(110)
         .byte   W22
         .byte                   100
         .byte           N06   , Fn3
@@ -1742,7 +1742,7 @@ musicMapFE3_4_20:
         .byte           N06   , An2
         .byte           N06   , Cn3
         .byte   W02
-        .byte           VOL   , 90
+        VolHalf(90)
         .byte   W22
         .byte                   80
         .byte           N06   , Fn3
@@ -1751,7 +1751,7 @@ musicMapFE3_4_20:
         .byte   W12
 @ 040   ----------------------------------------
         .byte   W10
-        .byte           VOL   , 70
+        VolHalf(70)
         .byte   W02
         .byte           N06   , Gn3
         .byte           N06   , Dn3
@@ -1761,7 +1761,7 @@ musicMapFE3_4_20:
         .byte           N06   , Dn3
         .byte           N06   , Bn2
         .byte   W02
-        .byte           VOL   , 60
+        VolHalf(60)
         .byte   W22
         .byte                   50
         .byte           N06   , Gn3
@@ -1772,7 +1772,7 @@ musicMapFE3_4_20:
         .byte           N06   , Dn3
         .byte           N06   , Bn2
         .byte   W02
-        .byte           VOL   , 40
+        VolHalf(40)
         .byte   W10
 @ 041   ----------------------------------------
         .byte   W12
@@ -1781,7 +1781,7 @@ musicMapFE3_4_20:
         .byte           N06   , Dn3
         .byte           N06   , Fn3
         .byte   W22
-        .byte           VOL   , 20
+        VolHalf(20)
         .byte   W02
         .byte           N06   , As2
         .byte           N06   , Dn3
@@ -1791,7 +1791,7 @@ musicMapFE3_4_20:
         .byte           N06   , Dn3
         .byte           N06   , Fn3
         .byte   W02
-        .byte           VOL   , 10
+        VolHalf(10)
         .byte   W22
         .byte           N06   , As2
         .byte           N06   , Dn3
@@ -1810,7 +1810,7 @@ musicMapFE3_5_Loop:
 @ 000   ----------------------------------------
         .byte   W48
         .byte   W02
-        .byte           VOL   , 127
+        VolHalf(127)
         .byte   W08
         .byte           VOICE , 32
         .byte   W36
@@ -2020,52 +2020,52 @@ musicMapFE3_5_30:
         .byte   PATT
          .word  musicMapFE3_5_2
 @ 039   ----------------------------------------
-        .byte           VOL   , 120
+        VolHalf(120)
         .byte           N24   , Fn1 , v096
         .byte   W24
         .byte                   Fn1
         .byte   W04
-        .byte           VOL   , 110
+        VolHalf(110)
         .byte   W20
         .byte           N24
         .byte   W02
-        .byte           VOL   , 100
+        VolHalf(100)
         .byte   W22
         .byte           N24
         .byte   W04
-        .byte           VOL   , 90
+        VolHalf(90)
         .byte   W20
 @ 040   ----------------------------------------
         .byte           N24   , Gn1
         .byte   W02
-        .byte           VOL   , 80
+        VolHalf(80)
         .byte   W22
         .byte                   70
         .byte           N24
         .byte   W24
         .byte                   Gn1
         .byte   W04
-        .byte           VOL   , 60
+        VolHalf(60)
         .byte   W20
         .byte           N24
         .byte   W02
-        .byte           VOL   , 50
+        VolHalf(50)
         .byte   W22
 @ 041   ----------------------------------------
         .byte           N24   , As1
         .byte   W04
-        .byte           VOL   , 40
+        VolHalf(40)
         .byte   W20
         .byte           N24
         .byte   W02
-        .byte           VOL   , 30
+        VolHalf(30)
         .byte   W22
         .byte                   20
         .byte           N24
         .byte   W24
         .byte                   As1
         .byte   W04
-        .byte           VOL   , 10
+        VolHalf(10)
         .byte   W20
 @ 042   ----------------------------------------
         .byte   GOTO
