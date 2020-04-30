@@ -1,5 +1,14 @@
 --- FEditor Adv/src/Graphics/CGImage.java	2010-12-15 05:28:02.000000000 +0800
-+++ FEditor Adv/src/Graphics/MapImage.java	2020-04-30 19:38:15.000000000 +0800
++++ FEditor Adv/src/Graphics/MapImage.java	2020-04-30 23:05:36.000000000 +0800
+@@ -18,7 +18,7 @@
+  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+  *
+  *  <Description> This class is for formatting images to be compatible with
+- *  the display settings of a full screen Fire Emblem CG
++ *  map with custome tileset.
+  */
+ 
+ package Graphics;
 @@ -38,7 +38,7 @@
  import Compression.LempelZiv;
  import Model.Util;
@@ -25,7 +34,7 @@
  	// sections with this height (in pixels)
  	public static final int SECTION_HEIGHT = 16;
 -	public static final int PALETTE_LIMIT = 8;
-+	public static final int PALETTE_LIMIT = 5;
++	public static final int PALETTE_LIMIT = 5 * 2;
  	public static final int PAL_COLOR_LIMIT = 15;
  	public static final int PAL_LEN = 16;
  	public static final int COLOR_LIMIT = PALETTE_LIMIT * PAL_COLOR_LIMIT;
@@ -67,7 +76,7 @@
  		byte[][] imageData, byte[] mapData, byte[] paletteData
  	) {
  		this(Util.bytesToBytes(imageData), mapData, paletteData);
-@@ -651,8 +651,8 @@
+@@ -651,12 +651,12 @@
  	private static void testWrite()
  	throws Exception {
  		File imageFile = FEditorAdvance.CommonDialogs
@@ -78,6 +87,29 @@
  		ImageIO.write(
  			cg.getRendered(), "PNG",
  			FEditorAdvance.CommonDialogs.showSaveFileDialog(
+-				"rendered CG"
++				"rendered map"
+ 			)
+ 		);
+ 		FileOutputStream imageDataStream = null;
+@@ -665,7 +665,7 @@
+ 			FEditorAdvance.CommonDialogs.showSaveFileDialog(
+ 				"image data dump"
+ 			));
+-			imageDataStream.write(LempelZiv.compress(cg.getImageData()));
++			imageDataStream.write(cg.getImageData());
+ 		} catch (Exception e) {}
+ 		try {
+ 			imageDataStream.close();
+@@ -674,7 +674,7 @@
+ 		try {
+ 			cgMapDataStream = new FileOutputStream(
+ 			FEditorAdvance.CommonDialogs.showSaveFileDialog(
+-				"CG map data dump"
++				"map data dump"
+ 			));
+ 			cgMapDataStream.write(cg.getMapData());
+ 		} catch (Exception e) {}
 @@ -711,7 +711,7 @@
  		imageDataStream.read(imageData);
  		mapDataStream.read(mapData);
