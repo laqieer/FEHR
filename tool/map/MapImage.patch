@@ -1,0 +1,104 @@
+--- FEditor Adv/src/Graphics/CGImage.java	2010-12-15 05:28:02.000000000 +0800
++++ FEditor Adv/src/Graphics/MapImage.java	2020-04-30 19:38:15.000000000 +0800
+@@ -38,7 +38,7 @@
+ import Compression.LempelZiv;
+ import Model.Util;
+ 
+-public class CGImage {
++public class MapImage {
+ 	// Set to true to test making CG data given an image
+ 	// Set to false to test rendering a CG given data
+ 	public static boolean testWrite = true;
+@@ -59,24 +59,24 @@
+ 	// Class constants
+ 	public static final int FULL_COLOR_BITS = 8;
+ 	public static final int HARDWARE_COLOR_BITS = 5;
+-	public static final int TILE_COUNT = 600;
++	public static final int TILE_COUNT = 600 * 2;
+ 	public static final int TILE_DIM = 8;
+ 	public static final int WIDTH = 240;
+ 	public static final int TILE_WIDTH = WIDTH/TILE_DIM;
+-	public static final int HEIGHT = 160;
++	public static final int HEIGHT = 320;
+ 	public static final int TILE_HEIGHT = HEIGHT/TILE_DIM;
+ 	// CG image data split into multiple sections will be split into
+ 	// sections with this height (in pixels)
+ 	public static final int SECTION_HEIGHT = 16;
+-	public static final int PALETTE_LIMIT = 8;
++	public static final int PALETTE_LIMIT = 5;
+ 	public static final int PAL_COLOR_LIMIT = 15;
+ 	public static final int PAL_LEN = 16;
+ 	public static final int COLOR_LIMIT = PALETTE_LIMIT * PAL_COLOR_LIMIT;
+-	public static final int IMAGE_DATA_LEN = 0x5000;
++	public static final int IMAGE_DATA_LEN = 0x5000 * 2;
+ 	// Extra 2 bytes for width and height settings
+ 	// 2 bytes per tile
+ 	public static final int MAP_DATA_LEN = (TILE_WIDTH * TILE_HEIGHT * 2) + 2;
+-	public static final int PAL_DATA_LEN = 0x100;
++	public static final int PAL_DATA_LEN = 0x20 * PALETTE_LIMIT;
+ 
+ 	private class PaletteInfo implements Comparable {
+ 		private Palette palette;
+@@ -456,15 +456,15 @@
+ 		} catch (Exception e) {}
+ 	}
+ 
+-	public CGImage(BufferedImage theImage) {
++	public MapImage(BufferedImage theImage) {
+ 		initFromImage(theImage);
+ 	}
+ 
+-	public CGImage(File imageFile) {
++	public MapImage(File imageFile) {
+ 		initFromFile(imageFile);
+ 	}
+ 
+-	public CGImage(byte[] imageData, byte[] mapData, byte[] paletteData) {
++	public MapImage(byte[] imageData, byte[] mapData, byte[] paletteData) {
+ 		String methodName = Util.methodName() + ": ";
+ 		if (
+ 			imageData == null || imageData.length != IMAGE_DATA_LEN
+@@ -528,7 +528,7 @@
+ 		}
+ 	}
+ 
+-	public CGImage(
++	public MapImage(
+ 		byte[][] imageData, byte[] mapData, byte[] paletteData
+ 	) {
+ 		this(Util.bytesToBytes(imageData), mapData, paletteData);
+@@ -651,8 +651,8 @@
+ 	private static void testWrite()
+ 	throws Exception {
+ 		File imageFile = FEditorAdvance.CommonDialogs
+-			.showOpenFileDialog("240x160 px image file");
+-		CGImage cg = new CGImage(imageFile);
++			.showOpenFileDialog("240x320 px image file");
++		MapImage cg = new MapImage(imageFile);
+ 		ImageIO.write(
+ 			cg.getRendered(), "PNG",
+ 			FEditorAdvance.CommonDialogs.showSaveFileDialog(
+@@ -711,7 +711,7 @@
+ 		imageDataStream.read(imageData);
+ 		mapDataStream.read(mapData);
+ 		palDataStream.read(paletteData);
+-		CGImage cg = new CGImage(
++		MapImage cg = new MapImage(
+ 			LempelZiv.decompress(imageData), mapData, paletteData
+ 		);
+ 		ImageIO.write(
+@@ -734,11 +734,12 @@
+ 	public static void main(String[] args) {
+ 		int answer = javax.swing.JOptionPane.showConfirmDialog(
+ 			null,
+-			"Are you creating a CG instead of dumping one?",
+-			"CG Maker",
++			"Are you creating a map with custom tileset?",
++			"Map Maker",
+ 			javax.swing.JOptionPane.YES_NO_OPTION
+ 		);
+ 		testWrite = answer == javax.swing.JOptionPane.YES_OPTION;
++        testWrite = true;
+ 		try {
+ 			if (testWrite) testWrite();
+ 			else testRead();
