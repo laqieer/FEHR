@@ -115,3 +115,6 @@ venv/
 # DecreaseColor build output
 tool/map/DecreaseColor/bin
 tool/map/DecreaseColor/obj
+
+# DecreaseTile test
+tool/map/DecreaseTile/test
