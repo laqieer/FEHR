@@ -112,3 +112,6 @@ venv/
 !res/se/Makefile
 !res/se/lib/*.a
 
+# DecreaseColor build output
+tool/map/DecreaseColor/bin
+tool/map/DecreaseColor/obj
