@@ -27,9 +27,17 @@ def getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, hflip, vflip):
                         differentPixelNumber += 1
     return differentPixelNumber
 
+def getDifferentPixelNumberBetweenTilesTryingFlip(x1, y1, x2, y2):
+    N = getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, False, False)
+    Nh = getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, True, False)
+    Nv = getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, False, True)
+    Nhv = getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, True, True)
+    Ns = [N, Nh, Nv, Nhv]
+    Nmin = min(Ns)
+    Ni = Ns.index(Nmin)
+    return (Nmin, Ni)
+
 def replaceTile(x1, y1, x2, y2, hflip, vflip):
-    replacedTiles.append((x2, y2))
-    print("replace tile ({}, {}) with tile ({}, {}) HFlip: {} VFlip: {}".format(x2, y2, x1, y1, hflip, vflip))
     if hflip:
         if vflip:
             im.paste(im.crop((x1, y1, x1 + 8, y1 + 8)).transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM), (x2, y2))
@@ -41,20 +49,38 @@ def replaceTile(x1, y1, x2, y2, hflip, vflip):
         else:
             im.paste(im.crop((x1, y1, x1 + 8, y1 + 8)), (x2, y2))
 
+hflips = (False, True, False, True)
+vflips = (False, False, True, True)
+
+def replaceTileWithFlip(xy12, Ni):
+    replaceTile(xy12[0], xy12[1], xy12[2], xy12[3], hflips[Ni], vflips[Ni])
+
+print("==== Scanning different pixels between tiles... ====")
+
+diff = {}
+
 for y1 in range(0, im.height, 8):
+    print("Complete {}%".format(100 * y1 // im.height))
     for x1 in range(0, im.width, 8):
         if (x1, y1) not in replacedTiles:
             for y2 in range(y1, im.height, 8):
                 for x2 in range(0, im.width, 8):
-                    if (y1 != y2 or x1 != x2) and ((x2, y2) not in replacedTiles):
-                        if getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, False, False) <= int(sys.argv[3]):
-                            replaceTile(x1, y1, x2, y2, False, False)
-                        elif getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, True, False) <= int(sys.argv[3]):
-                            replaceTile(x1, y1, x2, y2, True, False)
-                        elif getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, False, True) <= int(sys.argv[3]):
-                            replaceTile(x1, y1, x2, y2, False, True)
-                        elif getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, True, True) <= int(sys.argv[3]):
-                            replaceTile(x1, y1, x2, y2, True, True)
+                    if y1 != y2 or x1 != x2:
+                        diff[(x1, y1, x2, y2)] = getDifferentPixelNumberBetweenTilesTryingFlip(x1, y1, x2, y2)
 
-print("{} tiles replaced in total".format(len(replacedTiles)))
+print("=============== Replacing tiles... ================")
+
+num = 0
+numTarget = im.width * im.height // 64 - int(sys.argv[3])
+
+for k in sorted(diff, key=diff.get):
+    print(diff[k][0], k, diff[k][1])
+    replaceTileWithFlip(k, diff[k][1])
+    num += 1
+    if num >= numTarget:
+        break
+
+print("===================== Done! =======================")
+print("{} tiles replaced in total.".format(num))
+
 im.save(sys.argv[2])
