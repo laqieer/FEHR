@@ -172,6 +172,7 @@ BattleGenerateHitAttributes = 0x8029715;
 BattleGenerateHitEffects = 0x802984d;
 BattleApplyReaverEffect = 0x802a5d1;
 HandleActiveUnitDeath = 0x802ff61;
+GetChapterSetting = 0x8031a5d;
 NewBottomHelpText = 0x8032a91;
 DrawUiFrame = 0x804a4cd;
 DrawMenuItemHover = 0x804adbd;
@@ -349,6 +350,8 @@ SECTIONS
 	.rodata.pTilesetImgs : {*(.rodata.pTilesetImgs)}
 	. = 0x80195B0;
 	.rodata.pTilesetCfgs : {*(.rodata.pTilesetCfgs)}
+	. = 0x80195BC;
+	.text.LoadChapterMapGfxInjector : {*(.text.LoadChapterMapGfxInjector)}
 	. = 0x801964C;
 	.rodata.pTilesetPals : {*(.rodata.pTilesetPals)}
 	. = 0x8031B18;

@@ -5,6 +5,8 @@
 #include <gba_types.h>
 #include <gba_base.h>
 
+#include "chapter.h"
+
 extern const u8 map_chap_pre[];
 extern const u8 map_chap_1[];
 extern const u8 map_chap_1_change[];
@@ -68,7 +70,6 @@ const u8 ** const pMapChanges = mapChanges;
 const u8 * const tilesetImgs[] = {
     NULL,
     tileset_chap_pre_img,
-    tileset_chap_pre_pal,
 };
 
 const u8 ** const pTilesetImgs = tilesetImgs;
@@ -82,10 +83,27 @@ const u8 ** const pTilesetCfgs = tilesetCfgs;
 
 const u8 * const tilesetPals[] = {
     NULL,
+    tileset_chap_pre_pal,
 };
 
-// マップ設定の開始位置(obj) objとpalは同時参照があるので、同一値である必要がある
-// TODO: split pTilesetPals and pTilesetImgs
-const u8 ** const pTilesetPals = tilesetImgs;
+const u8 ** const pTilesetPals = tilesetPals;
+
+void writeTiles(const u8 *src, u8 *dst);
+void writeBGPalette(void *src,int base,int size);
+
+void LoadChapterMapGfx(u32 chapterId)
+{
+   struct Chapter *chapter = GetChapterSetting(chapterId);
+
+   writeTiles(tilesetImgs[chapter->mapGfx1Id], 0x6008000);
+   if(tilesetImgs[chapter->mapGfx2Id])
+       writeTiles(tilesetImgs[chapter->mapGfx1Id], 0x600c000);
+   writeBGPalette(tilesetPals[chapter->mapPalId], 0xc0, 0x140);
+}
+
+void LoadChapterMapGfxInjector(u32 chapterId)
+{
+    LoadChapterMapGfx(chapterId);
+}
 
 
