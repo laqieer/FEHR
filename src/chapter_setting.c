@@ -121,12 +121,12 @@ const int sizeofChapter = sizeof(struct Chapter);
 const struct Chapter chapters[0xff] = {
             {
             "1.1.1)00",
-            0x1c,
-            0x1d,
-            0x1e,
-            0x1f,
+            1,
             0,
-            5,
+            2,
+            1,
+            18,
+            0,
             0,
             0,
             0,

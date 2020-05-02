@@ -25,6 +25,11 @@ extern const u8 map_chap_14[];
 extern const u8 map_chap_15[];
 extern const u8 map_chap_16[];
 extern const u8 map_chap_17[];
+extern const u8 map_common[];
+
+extern const u8 tileset_chap_pre_img[];
+extern const u8 tileset_chap_pre_cfg[];
+extern const u8 tileset_chap_pre_pal[];
 
 const u8 * const maps[0xff] = {
         map_chap_pre,
@@ -45,6 +50,7 @@ const u8 * const maps[0xff] = {
         map_chap_15,
         map_chap_16,
         map_chap_17,
+        map_common,
 };
 
 const u8 ** const pMaps = maps;
@@ -56,3 +62,30 @@ const u8 * const mapChanges[] = {
 };
 
 const u8 ** const pMapChanges = mapChanges;
+
+/* Map Tileset */
+
+const u8 * const tilesetImgs[] = {
+    NULL,
+    tileset_chap_pre_img,
+    tileset_chap_pre_pal,
+};
+
+const u8 ** const pTilesetImgs = tilesetImgs;
+
+const u8 * const tilesetCfgs[] = {
+    NULL,
+    tileset_chap_pre_cfg,
+};
+
+const u8 ** const pTilesetCfgs = tilesetCfgs;
+
+const u8 * const tilesetPals[] = {
+    NULL,
+};
+
+// マップ設定の開始位置(obj) objとpalは同時参照があるので、同一値である必要がある
+// TODO: split pTilesetPals and pTilesetImgs
+const u8 ** const pTilesetPals = tilesetImgs;
+
+

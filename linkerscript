@@ -345,6 +345,12 @@ SECTIONS
 	.rodata.pMaps : {*(.rodata.pMaps)}
 	. = 0x8031AE8;
 	.rodata.pMapChanges : {*(.rodata.pMapChanges)}
+	. = 0x8019618;
+	.rodata.pTilesetImgs : {*(.rodata.pTilesetImgs)}
+	. = 0x80195B0;
+	.rodata.pTilesetCfgs : {*(.rodata.pTilesetCfgs)}
+	. = 0x801964C;
+	.rodata.pTilesetPals : {*(.rodata.pTilesetPals)}
 	. = 0x8031B18;
 	.rodata.pEvents : {*(.rodata.pEvents)}
 	. = 0x8082e68;
