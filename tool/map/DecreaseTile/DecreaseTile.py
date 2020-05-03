@@ -5,8 +5,6 @@ from PIL import Image
 
 im = Image.open(sys.argv[1])
 
-replacedTiles = []
-
 def getDifferentPixelNumberBetweenTiles(x1, y1, x2, y2, hflip, vflip):
     differentPixelNumber = 0
     for y in range(8):
@@ -62,23 +60,34 @@ diff = {}
 for y1 in range(0, im.height, 8):
     print("Complete {}%".format(100 * y1 // im.height))
     for x1 in range(0, im.width, 8):
-        if (x1, y1) not in replacedTiles:
-            for y2 in range(y1, im.height, 8):
-                for x2 in range(0, im.width, 8):
-                    if y1 != y2 or x1 != x2:
-                        diff[(x1, y1, x2, y2)] = getDifferentPixelNumberBetweenTilesTryingFlip(x1, y1, x2, y2)
+        for y2 in range(y1, im.height, 8):
+            for x2 in range(0, im.width, 8):
+                if y1 != y2 or x1 != x2:
+                    diff[(x1, y1, x2, y2)] = getDifferentPixelNumberBetweenTilesTryingFlip(x1, y1, x2, y2)
 
 print("=============== Replacing tiles... ================")
 
 num = 0
 numTarget = im.width * im.height // 64 - int(sys.argv[3])
 
+replacedTiles = []
+result = {}
+
 for k in sorted(diff, key=diff.get):
-    print(diff[k][0], k, diff[k][1])
-    replaceTileWithFlip(k, diff[k][1])
-    num += 1
     if num >= numTarget:
         break
+    if (k[0], k[1]) not in replacedTiles and (k[2], k[3]) not in replacedTiles:
+        replacedTiles.append((k[2], k[3]))
+        result[k] = diff[k]
+#        print(diff[k][0], k, diff[k][1])
+#        replaceTileWithFlip(k, diff[k][1])
+        num += 1
+
+sortedResult = {k: result[k] for k in sorted(result, key=lambda x: (x[1], x[0], x[3], x[2]))}
+
+for k in sortedResult:
+    replaceTileWithFlip(k, sortedResult[k][1])
+    print("({}, {}) => ({}, {})".format(k[0], k[1], k[2], k[3]))
 
 print("===================== Done! =======================")
 print("{} tiles replaced in total.".format(num))
