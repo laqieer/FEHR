@@ -4,7 +4,7 @@ import sys
 from PIL import Image
 
 with Image.open(sys.argv[1]) as imIn:
-    imOut = Image.new("P", (16, imIn.width * imIn.height // 16))
+    imOut = Image.new("P", (16, 512 * 512 // 16))
     imOut.putpalette(imIn.getpalette())
     for y in range(0, imIn.height, 16):
         for x in range(0, imIn.width, 16):
