@@ -4,14 +4,14 @@
      "export":
         {
          "format":"Fire Emblem (GBA) Tileset Terrain Binary",
-         "target":"S0102P4Terrain.bin"
+         "target":"chap_1_terrain.bin"
         }
     },
- "image":"S0102P4T.png",
+ "image":"chap_1.png",
  "imageheight":336,
  "imagewidth":240,
  "margin":0,
- "name":"S0102P4T",
+ "name":"chap_1",
  "spacing":0,
  "terrains":[
         {

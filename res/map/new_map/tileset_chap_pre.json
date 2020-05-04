@@ -4,14 +4,14 @@
      "export":
         {
          "format":"Fire Emblem (GBA) Tileset Terrain",
-         "target":"S0101FEB5DTerrian.s"
+         "target":"chap_pre_terrian.s"
         }
     },
- "image":"S0101FEB5D.png",
+ "image":"chap_pre.png",
  "imageheight":320,
  "imagewidth":240,
  "margin":0,
- "name":"S0101FEB5D",
+ "name":"chap_pre",
  "spacing":0,
  "terrains":[
         {

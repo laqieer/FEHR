@@ -83,7 +83,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"S0102P4T.json"
+         "source":"tileset_chap_1.json"
         }],
  "tilewidth":16,
  "type":"map",
