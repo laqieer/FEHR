@@ -116,5 +116,5 @@ venv/
 tool/map/DecreaseColor/bin
 tool/map/DecreaseColor/obj
 
-# DecreaseTile test
-tool/map/DecreaseTile/test
+# temp files during map creation
+tool/map/tmp
