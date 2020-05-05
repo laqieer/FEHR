@@ -757,7 +757,7 @@ const char* const texts[] = {
 
         [TEXT_CHAP_5_TIP] = TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_ANNA
-                "財宝の匂い。。。",
+                "財宝の匂い。。。" TCC_PUSH_A,
 
         [TEXT_CHAP_GET_SLIM_SWORD] = TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_CURRENT
