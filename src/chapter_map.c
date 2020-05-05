@@ -37,6 +37,9 @@ extern const u8 tileset_chap_pre_pal[];
 extern const u8 tileset_chap_1_img[];
 extern const u8 tileset_chap_1_cfg_lz[];
 extern const u8 tileset_chap_1_pal[];
+extern const u8 S0103Tiles[];
+extern const u8 S0103Pal[];
+extern const u8 S0103_cfg[];
 
 const u8 * const maps[0xff] = {
         map_chap_pre,
@@ -78,6 +81,7 @@ const u8 * const tilesetImgs[] = {
     NULL,
     tileset_chap_pre_img,
     tileset_chap_1_img,
+    S0103Tiles,
 };
 
 const u8 ** const pTilesetImgs = tilesetImgs;
@@ -86,6 +90,7 @@ const u8 * const tilesetCfgs[] = {
     NULL,
     tileset_chap_pre_cfg,
     tileset_chap_1_cfg_lz,
+    S0103_cfg,
 };
 
 const u8 ** const pTilesetCfgs = tilesetCfgs;
@@ -94,6 +99,7 @@ const u8 * const tilesetPals[] = {
     NULL,
     tileset_chap_pre_pal,
     tileset_chap_1_pal,
+    S0103Pal,
 };
 
 const u8 ** const pTilesetPals = tilesetPals;
