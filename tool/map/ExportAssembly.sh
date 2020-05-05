@@ -1,6 +1,5 @@
 #!/bin/bash
 
-mkdir tmp
 cd tmp
 for arg in $*
 do
