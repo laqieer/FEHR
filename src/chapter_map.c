@@ -142,4 +142,9 @@ void LoadChapterMapGfxInjector(u32 chapterId)
     LoadChapterMapGfx(chapterId);
 }
 
+//XXX: The 1st tile (16x16) in the map tileset is special. Vanilla tilesets all have the similar 1st tile. All 4 tiles (8x8) of it will be written to zeroes by func8019f20. This injector is to remove this behaviour. Besides, they are also read by function UpdateGameTileGfx at 0x80197c8. I don't care it here. The best solution may be keep it special and improve the custom tilesets. I try this just because I don't want to remake my map tilesets. Remember this is unsafe and maybe buggy. 
+void func8019f20Injector()
+{
+
+}
 
