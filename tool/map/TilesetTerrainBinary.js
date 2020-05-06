@@ -25,7 +25,7 @@ var TilesetTerrainBinary = {
             "Thicket":13, "深い森":13, "密林":13,
             "Sand":14, "砂地":14, "沙滩":14,
             "Desert":15, "砂漠": 15, "沙漠":15,
-            "River":16, "川":16, "河流":16, "小河":16, "溪流":16, "小溪":16,
+            "River":16, "川":16, "河流":16, "小河":16, "溪流":16, "小溪":16, "河":16,
             "Mountain":17, "山":17, "丘陵":17, "小山":17, "山":17,
             "Peak":18, "高い山":18, "高山":18, "山峰":18,
             "Bridge":19, "橋":19, "桥":19, "桥梁":19,
@@ -90,8 +90,8 @@ var TilesetTerrainBinary = {
                         bufView[i + 1] = terrains[terrain.name]
                     } else {
                         var msg2 = "Unknown terrain: " + terrain.name;
-                        tiled.alert(msg);
-                        tiled.error(msg);
+                        tiled.alert(msg2);
+                        tiled.error(msg2);
                     }
                 } else {
                     bufView[i + 1] = terrain.property("ID");
