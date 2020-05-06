@@ -9,7 +9,7 @@ do
     cat $arg.map.bin $arg.terrain.bin > $arg.cfg.bin
     gbalzss e $arg.cfg.bin $arg.cfg
     grit $arg.png -gB4 -mR4 -pn160 -gzl
-    sed '/Map/,/align/d' $arg.s > ../../../src/res/map/map/$arg.s
-    bin2s $arg.cfg >> ../../../src/res/map/map/$arg.s
+    sed '/Map/,/align/d' $arg.s > ../../../src/res/map/tileset/$arg.s
+    bin2s $arg.cfg >> ../../../src/res/map/tileset/$arg.s
 done
 cd ..

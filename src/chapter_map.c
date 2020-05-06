@@ -32,12 +32,12 @@ extern const u8 map_chap_16[];
 extern const u8 map_chap_17[];
 extern const u8 map_common[];
 
-extern const u8 tileset_chap_pre_img[];
-extern const u8 tileset_chap_pre_cfg[];
-extern const u8 tileset_chap_pre_pal[];
-extern const u8 tileset_chap_1_img[];
-extern const u8 tileset_chap_1_cfg_lz[];
-extern const u8 tileset_chap_1_pal[];
+extern const u8 chap_preTiles[];
+extern const u8 chap_prePal[];
+extern const u8 chap_pre_cfg[];
+extern const u8 chap_1Tiles[];
+extern const u8 chap_1Pal[];
+extern const u8 chap_1_cfg[];
 extern const u8 S0103Tiles[];
 extern const u8 S0103Pal[];
 extern const u8 S0103_cfg[];
@@ -90,8 +90,8 @@ const u8 ** const pMapChanges = mapChanges;
 
 const u8 * const tilesetImgs[] = {
     NULL,
-    tileset_chap_pre_img,
-    tileset_chap_1_img,
+    chap_preTiles,
+    chap_1Tiles,
     S0103Tiles,
     S0201Tiles,
     S0202Tiles,
@@ -102,8 +102,8 @@ const u8 ** const pTilesetImgs = tilesetImgs;
 
 const u8 * const tilesetCfgs[] = {
     NULL,
-    tileset_chap_pre_cfg,
-    tileset_chap_1_cfg_lz,
+    chap_pre_cfg,
+    chap_1_cfg,
     S0103_cfg,
     S0201_cfg,
     S0202_cfg,
@@ -114,8 +114,8 @@ const u8 ** const pTilesetCfgs = tilesetCfgs;
 
 const u8 * const tilesetPals[] = {
     NULL,
-    tileset_chap_pre_pal,
-    tileset_chap_1_pal,
+    chap_prePal,
+    chap_1Pal,
     S0103Pal,
     S0201Pal,
     S0202Pal,
@@ -140,11 +140,5 @@ void LoadChapterMapGfx(u32 chapterId)
 void LoadChapterMapGfxInjector(u32 chapterId)
 {
     LoadChapterMapGfx(chapterId);
-}
-
-//XXX: The 1st tile (16x16) in the map tileset is special. Vanilla tilesets all have the similar 1st tile. All 4 tiles (8x8) of it will be written to zeroes by func8019f20. This injector is to remove this behaviour. Besides, they are also read by function UpdateGameTileGfx at 0x80197c8. I don't care it here. The best solution may be keep it special and improve the custom tilesets. I try this just because I don't want to remake my map tilesets. Remember this is unsafe and maybe buggy. 
-void func8019f20Injector()
-{
-
 }
 

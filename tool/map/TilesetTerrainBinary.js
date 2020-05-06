@@ -87,14 +87,14 @@ var TilesetTerrainBinary = {
                 var terrain = tileset.tiles[i].terrain.topLeft;
                 if(terrain.property("ID") === undefined) {
                     if(terrains.hasOwnProperty(terrain.name)) {
-                        bufView[i] = terrains[terrain.name]
+                        bufView[i + 1] = terrains[terrain.name]
                     } else {
                         var msg2 = "Unknown terrain: " + terrain.name;
                         tiled.alert(msg);
                         tiled.error(msg);
                     }
                 } else {
-                    bufView[i] = terrain.property("ID");
+                    bufView[i + 1] = terrain.property("ID");
                 }
             }
         }

@@ -65,7 +65,7 @@ var FEMapFormat = {
             for (y = 0; y < layer.height; ++y) {
                 file.write("\t.hword ");
                 for (x = 0; x < layer.width; ++x) {
-                    file.write(String(4 * (layer.cellAt(x, y).tileId & 1023)));
+                    file.write(String(4 * ((layer.cellAt(x, y).tileId + 1) & 1023)));
                     if (x === layer.width - 1)
                         file.write("\n");
                     else
@@ -81,7 +81,7 @@ var FEMapFormat = {
                     for (y = 0; y < layer.height; ++y) {
                         file.write("\t.hword ");
                         for (x = 0; x < layer.width; ++x) {
-                            file.write(String(4 * (layer.cellAt(x, y).tileId & 1023)));
+                            file.write(String(4 * ((layer.cellAt(x, y).tileId + 1) & 1023)));
                             if (x === layer.width - 1)
                                 file.write("\n");
                             else
@@ -100,7 +100,7 @@ var FEMapFormat = {
                     for (y = y0; y < y0 + h; ++y) {
                         file.write("\t.hword ");
                         for (x = x0; x < x0 + w; ++x) {
-                            file.write(String(4 * (layer.cellAt(x, y).tileId & 1023)));
+                            file.write(String(4 * ((layer.cellAt(x, y).tileId + 1) & 1023)));
                             if (x === x0 + w - 1)
                                 file.write("\n");
                             else
