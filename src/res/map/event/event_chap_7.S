@@ -48,14 +48,14 @@ EndingScene:
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 10, 0, 10, 4)
-	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 14, 9, 14, 9)
-	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 1, 19, 1, 19)
+	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 13, 10, 13, 10)
+	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 3, 19, 3, 19)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(GenericSoldierSummonedWeak, EliwoodLord, 0, 5, SIDE_ENEMY, 1, 3, 12, 3, 12, IronSword, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // マルス
-	UNIT(GenericSoldierSummonedWeak, Mage, 0, 5, SIDE_ENEMY, 1, 3, 9, 3, 9, Fire, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // マリク
-    UNIT(GenericSoldierSummonedWeak, Archer, 0, 5, SIDE_ENEMY, 1, 4, 12, 4, 12, IronBow, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // ゴードン
-    UNIT(GenericSoldierSummonedWeak, PegasusKnight, 0, 5, SIDE_ENEMY, 1, 3, 13, 3, 13, SlimLance, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // シーダ
+	UNIT(GenericSoldierSummonedWeak, EliwoodLord, 0, 5, SIDE_ENEMY, 1, 5, 11, 5, 11, IronSword, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // マルス
+	UNIT(GenericSoldierSummonedWeak, Mage, 0, 5, SIDE_ENEMY, 1, 5, 8, 5, 8, Fire, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // マリク
+    UNIT(GenericSoldierSummonedWeak, Archer, 0, 5, SIDE_ENEMY, 1, 8, 11, 8, 11, IronBow, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // ゴードン
+    UNIT(GenericSoldierSummonedWeak, PegasusKnight, 0, 5, SIDE_ENEMY, 1, 5, 12, 5, 12, SlimLance, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // シーダ
 	END_UNIT
 TrapsEliwoodMode:
 	END_TRAP
