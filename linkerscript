@@ -261,8 +261,6 @@ SECTIONS
     .rodata.pJobs2 : {*(.rodata.pJobs2)}
     . = 0x8019118;
     .rodata.pJobs3 : {*(.rodata.pJobs3)}
-    . = 0x8019f20;
-    .text.func8019f20Injector : {*(.text.func8019f20Injector)}
     INCLUDE ../lds/items.ld
     INCLUDE ../lds/map_sprites.ld
     INCLUDE ../lds/character_palette.ld
