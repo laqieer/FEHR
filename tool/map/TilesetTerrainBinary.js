@@ -1,6 +1,6 @@
 var TilesetTerrainBinary = {
     name: "Fire Emblem (GBA) map tileset terrain binary",
-    extension: "bin",
+    extension: "terrain.bin",
 
     write: function(tileset, fileName) {
         var file = new BinaryFile(fileName, BinaryFile.WriteOnly);
