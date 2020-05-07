@@ -52,10 +52,10 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 6, 19, 6, 15)
 	END_UNIT
 EnemyUnitsENM:
-    UNIT(GenericSoldierEmblianWeak, Archer, 0, 8, SIDE_ENEMY, 1, 0, 13, 5, 13, SteelBow, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ボウファイター
-	UNIT(GenericSoldierEmblianWeak, Cavalier, 0, 8, SIDE_ENEMY, 1, 0, 6, 9, 6, SteelLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ランスナイト
-	UNIT(GenericSoldierEmblianWeak, Cavalier, 0, 8, SIDE_ENEMY, 1, 0, 6, 5, 10, SteelSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // アクスナイト
-    UNIT(GenericSoldierSummonedWeak, EliwoodLord, 0, 8, SIDE_ENEMY, 1, 0, 6, 5, 6, SteelSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ロイ
+    UNIT(GenericSoldierEmblianWeak, Archer, 0, 8, SIDE_ENEMY, 1, 0, 9, 3, 9, SteelBow, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ボウファイター
+	UNIT(GenericSoldierEmblianWeak, Cavalier, 0, 8, SIDE_ENEMY, 1, 0, 3, 8, 3, SteelLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ランスナイト
+	UNIT(GenericSoldierEmblianWeak, Cavalier, 0, 8, SIDE_ENEMY, 1, 0, 6, 6, 6, SteelSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ソードナイト
+    UNIT(GenericSoldierSummonedWeak, EliwoodLord, 0, 8, SIDE_ENEMY, 1, 0, 3, 3, 3, SteelSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ロイ
 	END_UNIT
 TrapsEliwoodMode:
 	END_TRAP
