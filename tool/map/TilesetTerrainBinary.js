@@ -9,7 +9,7 @@ var TilesetTerrainBinary = {
         var bufView = new Uint8Array(buf);
 
         var terrains = {
-            "None":0, "ーー":0, "无":0,
+            "None":0, "ーー":0, "无":0, "空白":0,
             "Plains":1, "平地":1, "平地":1,
             "Road":2, "道":2, "道路":2,
             "Village":3, "Village Entrance":3, "村":3, "村庄":3, "村子":3,
