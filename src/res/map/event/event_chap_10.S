@@ -43,15 +43,15 @@ EndingScene:
 	MNCH 11
 	ENDA
 AllyUnitsENM:
-	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 3, 19, 2, 17)
-	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 12, 19, 13, 17)
-	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 4, 19, 3, 17)
+	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 5, 19, 2, 15)
+	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 8, 19, 12, 15)
+	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 6, 19, 3, 15)
 	END_UNIT
 EnemyUnitsENM:
     UNIT(GenericSoldierSummonedWeak, Shaman, 0, 7, SIDE_ENEMY, 1, 9, 4, 9, 4, Flux, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // レオン
 	UNIT(GenericSoldierSummonedWeak, Archer, 0, 7, SIDE_ENEMY, 1, 11, 6, 11, 6, SteelBow, 0, 0, 0, AttackIfClose, DontMove, NoRecovery, DefaultAI4) // ゼロ
-	UNIT(GenericSoldierSummonedWeak, Mage, 0, 7, SIDE_ENEMY, 1, 4, 5, 4, 5, Thunder, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // オーディン
-    UNIT(GenericSoldierEmblianWeak, Mage, 0, 7, SIDE_ENEMY, 1, 1, 4, 1, 4, Fire, 0, 0, 0, AttackIfClose, DontMove, NoRecovery, DefaultAI4) // レッドマージ
+	UNIT(GenericSoldierSummonedWeak, Mage, 0, 7, SIDE_ENEMY, 1, 5, 6, 5, 6, Thunder, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // オーディン
+    UNIT(GenericSoldierEmblianWeak, Mage, 0, 7, SIDE_ENEMY, 1, 0, 6, 0, 6, Fire, 0, 0, 0, AttackIfClose, DontMove, NoRecovery, DefaultAI4) // レッドマージ
 	END_UNIT
 TrapsEliwoodMode:
 	END_TRAP
