@@ -77,25 +77,51 @@ var TilesetTerrainBinary = {
             "壊れた家":42,
         };
 
-        for (var i = 0, len = tileset.tiles.length; i < len; i++) {
-            // One tile has 4 corners. Top left corner's terrain info is used here.
-            if(tileset.tiles[i].terrain.topLeft == null) {
-                var msg = "Tile (" + String(i * tileset.tileWidth % tileset.imageWidth / tileset.tileWidth) + "," + String(Math.floor(i * tileset.tileWidth / tileset.imageWidth)) + ") is not attached to any terrain.";
-                tiled.alert(msg);
-                tiled.error(msg);
-            } else {
-                var terrain = tileset.tiles[i].terrain.topLeft;
-                if(terrain.property("ID") === undefined) {
-                    if(terrains.hasOwnProperty(terrain.name)) {
-                        bufView[i + 1] = terrains[terrain.name]
-                    } else {
-                        var msg2 = "Unknown terrain: " + terrain.name;
-                        tiled.alert(msg2);
-                        tiled.error(msg2);
-                    }
+        let defaultTerrain;
+        let error;
+
+        for (const t of tileset.terrains) {
+            if(t.property("default") === true) {
+                if(defaultTerrain === undefined) {
+                    defaultTerrain = t;
                 } else {
-                    bufView[i + 1] = terrain.property("ID");
+                    error = "Redeclare default terrain: " + defaultTerrain.name + " and " + t.name;
+                    tiled.alert(error);
+                    tiled.error(error);
                 }
+            }
+        }
+
+        function getTerrainID(terrain) {
+            if(terrain.property("ID") === undefined) {
+                if(terrains.hasOwnProperty(terrain.name)) {
+                    return terrains[terrain.name];
+                } else {
+                    error = "Unknown terrain: " + terrain.name;
+                    tiled.alert(error);
+                    tiled.error(error);
+                }
+            } else {
+                return terrain.property("ID");
+            }
+        }
+
+        //if (defaultTerrain !== undefined) {
+        //    bufView.fill(getTerrainID(defaultTerrain));
+        //}
+
+        for (const tile of tileset.tiles) {
+            // One tile has 4 corners. Top left corner's terrain info is used here.
+            if(tile.terrain.topLeft == null) {
+                if(defaultTerrain === undefined) {
+                    error = "tile #" + tile.id + " doesn't have terrain info.";
+                    tiled.alert(error);
+                    tiled.error(error);
+                } else {
+                    bufView[tile.id + 1] = getTerrainID(defaultTerrain);
+                }
+            } else {
+                bufView[tile.id + 1] = getTerrainID(tile.terrain.topLeft);
             }
         }
 
