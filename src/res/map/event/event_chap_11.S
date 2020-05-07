@@ -48,10 +48,10 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 7, 19, 7, 14)
 	END_UNIT
 EnemyUnitsENM:
-    UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 7, SIDE_ENEMY, 1, 7, 5, 7, 5, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // カミラ
-	UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 7, SIDE_ENEMY, 1, 4, 5, 4, 5, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ベルカ
-	UNIT(GenericSoldierEmblianWeak, PegasusKnight, 0, 7, SIDE_ENEMY, 1, 10, 5, 10, 5, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ランスペガサス
-    UNIT(GenericSoldierSummonedWeak, Mercenary_F, 0, 7, SIDE_ENEMY, 1, 12, 8, 12, 8, SteelSword, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ルーナ
+    UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 7, SIDE_ENEMY, 1, 7, 4, 7, 4, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // カミラ
+	UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 7, SIDE_ENEMY, 1, 4, 4, 4, 4, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ベルカ
+	UNIT(GenericSoldierEmblianWeak, PegasusKnight, 0, 7, SIDE_ENEMY, 1, 10, 4, 10, 4, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ランスペガサス
+    UNIT(GenericSoldierSummonedWeak, Mercenary_F, 0, 7, SIDE_ENEMY, 1, 12, 9, 10, 9, SteelSword, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ルーナ
 	END_UNIT
 TrapsEliwoodMode:
 	END_TRAP
