@@ -99,6 +99,17 @@ struct Chapter {
     u8 unk_91;
 };
 
+enum {
+    WEATHER_NONE = 0,
+    WEATHER_SNOW,
+    WEATHER_SNOWSTORM,
+    WEATHER_BLUE_BACKGROUND,
+    WEATHER_RAIN,
+    WEATHER_FIERY_GLOW,
+    WEATHER_SANDSTORM,
+    WEATHER_MOVING_CLOUDS_BACKGROUND,
+};
+
 struct Chapter *GetChapterSetting(u32 chapterId);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHAPTER_H

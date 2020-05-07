@@ -22,6 +22,7 @@ const int sizeofChapter = sizeof(struct Chapter);
 #define DEFINE_SIMPLE_CHAPTER(index, name, tileSet, animation, mapChange, bgm) { name, (tileSet) >> 24, ((tileSet) >> 16) & 0xff, ((tileSet) >> 8) & 0xff, (tileSet) & 0xff, index, (animation) & 0xff, (animation) >> 8, mapChange, 0, 0, index, index, 1, 0, 0, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, TEXT_CHAP_##index##_TITLE, TEXT_CHAP_##index##_TITLE, (index) + 1, 0, 0, 0, 0, 0, 0, 0, index, index, 0xff, 0xff, 0, 0, 1, 0, TEXT_CHAP_STATUS_GOAL_DEFEAT_ALL, TEXT_CHAP_GOAL_DEFEAT_ALL, 1, 0, 0, 0xff, 0, 14},
 #define DEFINE_SIMPLE_CHAPTER_NEW(index, name, bgm) { name, (index) + 1, 0, (index) + 1, (index) + 1, 18, 0, 0, 0, 0, 0, index, index, 1, 0, 0, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, TEXT_CHAP_##index##_TITLE, TEXT_CHAP_##index##_TITLE, (index) + 1, 0, 0, 0, 0, 0, 0, 0, index, index, 0xff, 0xff, 0, 0, 1, 0, TEXT_CHAP_STATUS_GOAL_DEFEAT_ALL, TEXT_CHAP_GOAL_DEFEAT_ALL, 1, 0, 0, 0xff, 0, 14},
 #define DEFINE_SIMPLE_CHAPTER_WITH_MAP(index, name, bgm, map, mapChange) { name, (index) + 1, 0, (index) + 1, (index) + 1, map, 0, 0, mapChange, 0, 0, index, index, 1, 0, 0, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, TEXT_CHAP_##index##_TITLE, TEXT_CHAP_##index##_TITLE, (index) + 1, 0, 0, 0, 0, 0, 0, 0, index, index, 0xff, 0xff, 0, 0, 1, 0, TEXT_CHAP_STATUS_GOAL_DEFEAT_ALL, TEXT_CHAP_GOAL_DEFEAT_ALL, 1, 0, 0, 0xff, 0, 14},
+#define DEFINE_SIMPLE_CHAPTER_WITH_WEATHER(index, name, bgm, weather) { name, (index) + 1, 0, (index) + 1, (index) + 1, 18, 0, 0, 0, 0, 0, index, index, 1, 0, weather, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, TEXT_CHAP_##index##_TITLE, TEXT_CHAP_##index##_TITLE, (index) + 1, 0, 0, 0, 0, 0, 0, 0, index, index, 0xff, 0xff, 0, 0, 1, 0, TEXT_CHAP_STATUS_GOAL_DEFEAT_ALL, TEXT_CHAP_GOAL_DEFEAT_ALL, 1, 0, 0, 0xff, 0, 14},
 
 const struct Chapter chapters[0xff] = {
             {
@@ -511,7 +512,9 @@ const struct Chapter chapters[0xff] = {
             DEFINE_SIMPLE_CHAPTER_WITH_MAP(9, "1.3.2)09", MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE, 21, 4)
             //DEFINE_SIMPLE_CHAPTER(10, "1.3.3)10", 0x6a006b6c, MAP_ANIM_NONE, 0, MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE)
             DEFINE_SIMPLE_CHAPTER_NEW(10, "1.3.3)10", MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE)
-            DEFINE_SIMPLE_CHAPTER(11, "1.3.4)11", 0xa700a8a9, MAP_ANIM_LAVA, 0, MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE)
+            //DEFINE_SIMPLE_CHAPTER(11, "1.3.4)11", 0xa700a8a9, MAP_ANIM_LAVA, 0, MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE)
+            //DEFINE_SIMPLE_CHAPTER_WITH_WEATHER(11, "1.3.4)11", MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE, WEATHER_FIERY_GLOW)
+            DEFINE_SIMPLE_CHAPTER_NEW(11, "1.3.4)11", MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE)
             DEFINE_SIMPLE_CHAPTER(12, "1.3.5)12", 0x6a006b6c, MAP_ANIM_NONE, 0, MUSIC_FE_IF_END_ALL)
             DEFINE_SIMPLE_CHAPTER(13, "1.4.1)13", 0x6a006b6c, MAP_ANIM_NONE, 0, 112)
             DEFINE_SIMPLE_CHAPTER(14, "1.4.2)14", 0x6a006b6c, MAP_ANIM_NONE, 0, 112)
