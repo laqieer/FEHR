@@ -22,6 +22,8 @@ extern const u8 map_chap_7[];
 extern const u8 map_chap_8[];
 extern const u8 map_chap_9[];
 extern const u8 map_chap_9_change[];
+extern const u8 map_chap_9_new[];
+extern const u8 map_chap_9_new_change[];
 extern const u8 map_chap_10[];
 extern const u8 map_chap_11[];
 extern const u8 map_chap_12[];
@@ -59,6 +61,12 @@ extern const u8 S0205_cfg[];
 extern const u8 S0301Tiles[];
 extern const u8 S0301Pal[];
 extern const u8 S0301_cfg[];
+extern const u8 S0302Tiles[];
+extern const u8 S0302Pal[];
+extern const u8 S0302_cfg[];
+extern const u8 S0303Tiles[];
+extern const u8 S0303Pal[];
+extern const u8 S0303_cfg[];
 
 const u8 * const maps[0xff] = {
         map_chap_pre,
@@ -79,9 +87,10 @@ const u8 * const maps[0xff] = {
         map_chap_15,
         map_chap_16,
         map_chap_17,
-        map_common,
+        map_common, // 18
         map_chap_1_new,
         map_chap_3_new,
+        map_chap_9_new,
 };
 
 const u8 ** const pMaps = maps;
@@ -91,6 +100,7 @@ const u8 * const mapChanges[] = {
         map_chap_1_change,
         map_chap_9_change,
         map_chap_1_new_change,
+        map_chap_9_new_change,
 };
 
 const u8 ** const pMapChanges = mapChanges;
@@ -108,6 +118,8 @@ const u8 * const tilesetImgs[] = {
     S0204Tiles,
     S0205Tiles,
     S0301Tiles,
+    S0302Tiles,
+    S0303Tiles,
 };
 
 const u8 ** const pTilesetImgs = tilesetImgs;
@@ -123,6 +135,8 @@ const u8 * const tilesetCfgs[] = {
     S0204_cfg,
     S0205_cfg,
     S0301_cfg,
+    S0302_cfg,
+    S0303_cfg,
 };
 
 const u8 ** const pTilesetCfgs = tilesetCfgs;
@@ -138,6 +152,8 @@ const u8 * const tilesetPals[] = {
     S0204Pal,
     S0205Pal,
     S0301Pal,
+    S0302Pal,
+    S0303Pal,
 };
 
 const u8 ** const pTilesetPals = tilesetPals;
