@@ -1077,6 +1077,27 @@ const char* const texts[] = {
         [TEXT_NEW_PASSIVE_SKILL_UNLOCKED] = "新たなパッシブスキル",
         
         [TEXT_UNIT_LEVEL_HELP] = "ユニットのレベルです"TCC_NEWLINE"最高３０レベルです",
+
+        [TEXT_CHAP_18_OP] = TCC_OPEN_LEFT
+            "。。。現れたか。" TCC_NEWLINE
+            "お前たちが特務機関を名乗る" TCC_NEWLINE
+            "侵略者だな？" TCC_NEWLINE TCC_PUSH_A
+            "先ほどエンブラ帝国の兵より、" TCC_NEWLINE
+            "イーリス聖王国に仇なす勢力ありとの" TCC_NEWLINE
+            "報せを受けた。" TCC_NEWLINE TCC_PUSH_A
+            "イーリスの平和を乱す者は、" TCC_NEWLINE
+            "このクロム自警団が許さん！" TCC_NEWLINE
+            "行くぞ、リズ、フレデリク！" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
+
+        [TEXT_CHAP_18_ED] = TCC_OPEN_LEFT
+            "くっ。。。" TCC_NEWLINE
+            "俺たちはまだ負けん。。。！" TCC_NEWLINE TCC_PUSH_A
+            "ここからは自警団の皆で、" TCC_NEWLINE
+            "お前たちを食い止めてみせる。" TCC_NEWLINE TCC_PUSH_A
+            "クロム自警団の絆の力。。。" TCC_NEWLINE
+            "よく見ておくんだな。" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
 };
 
 extern int lastTextID;

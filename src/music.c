@@ -16,6 +16,8 @@ extern const u8 musicFEHSerious6B[];
 extern const u8 musicFEHTempestTrial[];
 extern const u8 musicFE3DivineDragonLegendA[];
 extern const u8 musicFEIfEndAll[];
+extern const u8 music_FE_Awakening_Id_Serenity[];
+extern const u8 music_FE_Awakening_Id_Purpose[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1452,6 +1454,8 @@ const struct Song songs[] = {
         [MUSIC_FE_H_SERIOUS_6B] = {musicFEHSerious6B, 0, 0},
         [MUSIC_FE_H_TEMPEST_TRIAL] = {musicFEHTempestTrial, 1, 1},
         [MUSIC_FE_IF_END_ALL] = {musicFEIfEndAll, 1, 1},
+        [MUSIC_FE_AWAKENING_ID_SERENITY] = {music_FE_Awakening_Id_Serenity, 1, 1},
+        [MUSIC_FE_AWAKENING_ID_PURPOSE] = {music_FE_Awakening_Id_Purpose, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1585,6 +1589,8 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_H_SERIOUS_6B, 177 * 0x30,                  0, "ãŸí£òZâ¸"},
     {MUSIC_FE_H_TEMPEST_TRIAL, 120 * 0x30,               0, "êÌâQÇÃòAêÌ"},
     {MUSIC_FE_IF_END_ALL, (8 * 60 + 38) * 0x30,          0, "Ç∑Ç◊ÇƒÇÃòHÇÃâ ÇƒÇ…"},
+    {MUSIC_FE_AWAKENING_ID_SERENITY, (2 * 60 + 43) * 0x30,          0, "à¿"},
+    {MUSIC_FE_AWAKENING_ID_PURPOSE, (8 * 60 + 3) * 0x30,          0, "à◊ÅiÇ¢Åj"},
 
     // End of table
     {-1, 0,                                              0, 0},

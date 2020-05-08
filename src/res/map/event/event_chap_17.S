@@ -44,7 +44,7 @@ BeginningScene:
 EndingScene:
 	MUSC MUSIC_FE_H_EVENT_1
 	TEX1 TEXT_CHAP_17_ED
-	MNCH 0
+	MNCH 18
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 2, 19, 2, 19)
