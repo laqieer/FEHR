@@ -757,12 +757,14 @@ const char* const texts[] = {
 
         [TEXT_CHAP_5_TIP] = TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_ANNA
-                "財宝の匂い。。。" TCC_PUSH_A,
+                "財宝の匂い。。。" TCC_PUSH_A
+                TCC_CLEAR_FACE,
 
         [TEXT_CHAP_GET_SLIM_SWORD] = TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_CURRENT
                 "巨竜の骸骨に刺さった細い剣。。。" TCC_NEWLINE
-                "古いけどまだ使えそう。" TCC_PUSH_A,
+                "古いけどまだ使えそう。" TCC_PUSH_A
+                TCC_CLEAR_FACE,
 
         [TEXT_CHAP_6_OP] = TCC_OPEN_FAR_LEFT
                 "さすがだね。。。" TCC_NEWLINE
@@ -972,7 +974,8 @@ const char* const texts[] = {
         [TEXT_CHAP_15_GET_SLIM_LANCE] = TCC_OPEN_RIGHT
                                         TCC_LOAD_FACE PORTRAIT_CURRENT
                                         "巨竜の骸骨に刺さった細い槍。。。" TCC_NEWLINE
-                                        "古いけどまだ使えそう。" TCC_PUSH_A,
+                                        "古いけどまだ使えそう。" TCC_PUSH_A
+                                        TCC_CLEAR_FACE,
 
         [TEXT_SPECIAL_SKILL_HELP] = "奥義スキル",
         [TEXT_SPECIAL_SKILL_CD_HELP] = "奥義カウント",
