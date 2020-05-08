@@ -4555,9 +4555,9 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"魔防の紋章１", "周囲１マスの味方は、戦闘中、魔防＋２", "Spur Res 1", "Grants Res+2 to adjacent allies during combat."},
     {"魔防の紋章２", "周囲１マスの味方は、戦闘中、魔防＋３", "Spur Res 2", "Grants Res+3 to adjacent allies during combat."},
     {"魔防の紋章３", "周囲１マスの味方は、戦闘中、魔防＋４", "Spur Res 3", "Grants Res+4 to adjacent allies during combat."},
-    {"守備の鼓舞１", "ターン開始時、周囲１マスの味方の守備＋２（１ターン）", "Fortify Def 1", "At start of turn, grants Def+2 to adjacent allies for 1 turn."},
-    {"守備の鼓舞２", "ターン開始時、周囲１マスの味方の守備＋３（１ターン）", "Fortify Def 2", "At start of turn, grants Def+3 to adjacent allies for 1 turn."},
-    {"守備の鼓舞３", "ターン開始時、周囲１マスの味方の守備＋４（１ターン）", "Fortify Def 3", "At start of turn, grants Def+4 to adjacent allies for 1 turn."},
+    {"守備のこぶ１", "ターン開始時、周囲１マスの味方の守備＋２（１ターン）", "Fortify Def 1", "At start of turn, grants Def+2 to adjacent allies for 1 turn."},
+    {"守備のこぶ２", "ターン開始時、周囲１マスの味方の守備＋３（１ターン）", "Fortify Def 2", "At start of turn, grants Def+3 to adjacent allies for 1 turn."},
+    {"守備のこぶ３", "ターン開始時、周囲１マスの味方の守備＋４（１ターン）", "Fortify Def 3", "At start of turn, grants Def+4 to adjacent allies for 1 turn."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
