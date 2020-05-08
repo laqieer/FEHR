@@ -12,6 +12,7 @@
 #include "skill_id.h"
 #include "proc.h"
 #include "new_unit_state.h"
+#include "gba_debug_print.h"
 
 // Buff
 struct Buff gPlayerBuff[PLAYER_TOTAL_AMOUNT];
@@ -780,11 +781,11 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
 {
     for(int i = 0; i < number; i++)
     {
-        if(units[i].state & UNIT_STATE_DEAD == 0)
+        if((units[i].state & UNIT_STATE_DEAD) == 0)
         {
             for(int j = 0; j < number; j++)
             {
-                if(units[j].state & UNIT_STATE_DEAD == 0)
+                if((units[j].state & UNIT_STATE_DEAD) == 0)
                 {
                     u32 distance = RECT_DISTANCE(units[i].positionX, units[i].positionY, units[j].positionX, units[j].positionY);
                         
