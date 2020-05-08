@@ -35,7 +35,7 @@ GetSlimLance:
 MiscBasedEvents:
 	CauseGameOverIfLordDies
 	DefeatAll(EndingScene)
-	AREA(10, GetSlimLance, 12, 17, 14, 19)
+	AREA(10, GetSlimLance, 12, 16, 14, 18)
 	END_MAIN
 BeginningScene:
     ClearSpecialSkillCD
@@ -50,13 +50,13 @@ EndingScene:
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 0, 8, 0, 8)
-	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 8, 11, 8, 11)
-	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 8, 17, 8, 17)
+	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 9, 13, 9, 13)
+	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 9, 17, 9, 17)
 	END_UNIT
 EnemyUnitsENM:
     UNIT(GenericSoldierSummonedWeak, WyvernKnight, 0, 8, SIDE_ENEMY, 1, 0, 0, 0, 0, SteelLance, 0, 0, 0, AttackInRange, RandomMovement, NoRecovery, DefaultAI4) // ファ
-	UNIT(GenericSoldierSummonedWeak, Shaman, 0, 8, SIDE_ENEMY, 1, 5, 4, 5, 4, Flux, 0, 0, 0, AttackInRange, RandomMovement, NoRecovery, DefaultAI4) // レイ
-	UNIT(GenericSoldierEmblianWeak, Fighter, 0, 8, SIDE_ENEMY, 1, 12, 2, 12, 2, SteelAxe, 0, 0, 0, AttackInRange, RandomMovement, NoRecovery, DefaultAI4) // アクスファイター
+	UNIT(GenericSoldierSummonedWeak, Shaman, 0, 8, SIDE_ENEMY, 1, 5, 6, 5, 6, Flux, 0, 0, 0, AttackInRange, RandomMovement, NoRecovery, DefaultAI4) // レイ
+	UNIT(GenericSoldierEmblianWeak, Fighter, 0, 8, SIDE_ENEMY, 1, 10, 4, 10, 4, SteelAxe, 0, 0, 0, AttackInRange, RandomMovement, NoRecovery, DefaultAI4) // アクスファイター
     UNIT(GenericSoldierSummonedWeak, Shaman_F, 0, 8, SIDE_ENEMY, 1, 14, 6, 14, 6, Flux, 0, 0, 0, AttackInRange, RandomMovement, NoRecovery, DefaultAI4) // ソフィーヤ
 	END_UNIT
 TrapsEliwoodMode:

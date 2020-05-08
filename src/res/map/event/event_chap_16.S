@@ -43,15 +43,15 @@ EndingScene:
 	MNCH 17
 	ENDA
 AllyUnitsENM:
-	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 14, 18, 4, 18)
-	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 14, 18, 3, 18)
-	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 14, 18, 5, 18)
+	UNIT_ALLY_JOINED(Anna, AnnaLord, 0, 14, 16, 9, 16)
+	UNIT_ALLY_JOINED(Alfonse, AlfonseLord, Anna, 14, 16, 5, 16)
+	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 14, 16, 10, 16)
 	END_UNIT
 EnemyUnitsENM:
-    UNIT(GenericSoldierSummonedWeak, Fighter, 0, 8, SIDE_ENEMY, 1, 2, 9, 2, 9, SteelAxe, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // バアトル
-	UNIT(GenericSoldierSummonedWeak, Myrmidon_F, 0, 8, SIDE_ENEMY, 1, 6, 4, 6, 4, SteelSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // フィル
-	UNIT(GenericSoldierEmblianWeak, Archer, 0, 8, SIDE_ENEMY, 1, 2, 8, 2, 8, SteelBow, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ボウファイター
-    UNIT(GenericSoldierSummonedWeak, PegasusKnight, 0, 8, SIDE_ENEMY, 1, 5, 4, 5, 4, SteelLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // シャニー
+    UNIT(GenericSoldierSummonedWeak, Fighter, 0, 8, SIDE_ENEMY, 1, 4, 6, 4, 6, SteelAxe, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // バアトル
+	UNIT(GenericSoldierSummonedWeak, Myrmidon_F, 0, 8, SIDE_ENEMY, 1, 10, 3, 10, 3, SteelSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // フィル
+	UNIT(GenericSoldierEmblianWeak, Archer, 0, 8, SIDE_ENEMY, 1, 4, 5, 4, 5, SteelBow, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ボウファイター
+    UNIT(GenericSoldierSummonedWeak, PegasusKnight, 0, 8, SIDE_ENEMY, 1, 9, 3, 9, 3, SteelLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // シャニー
 	END_UNIT
 TrapsEliwoodMode:
 	END_TRAP

@@ -50,8 +50,8 @@ AllyUnitsENM:
 EnemyUnitsENM:
     UNIT(GenericSoldierEmblianWeak, Cavalier, 0, 8, SIDE_ENEMY, 1, 14, 3, 10, 3, SteelLance, 0, 0, 0, AttackInRange, DontMove, NormalRecovery, DefaultAI4) // ランスナイト
 	UNIT(GenericSoldierSummonedWeak, Troubadour, 0, 8, SIDE_ENEMY, 1, 14, 4, 10, 4, Heal, 0, 0, 0, HealInjuredAllies, DontMove, NoRecovery, DefaultAI4) // クラリーネ
-	UNIT(GenericSoldierSummonedWeak, Valkyrie, 0, 1, SIDE_ENEMY, 0, 14, 17, 10, 17, Fire, 0, 0, 0, AttackInRange, DontMove, NormalRecovery, DefaultAI4) // セシリア
-    UNIT(GenericSoldierEmblianWeak, Cavalier, 0, 8, SIDE_ENEMY, 1, 14, 18, 10, 18, SteelLance, 0, 0, 0, AttackInRange, DontMove, NormalRecovery, DefaultAI4) // ランスナイト
+	UNIT(GenericSoldierSummonedWeak, Valkyrie, 0, 1, SIDE_ENEMY, 0, 14, 16, 10, 16, Fire, 0, 0, 0, AttackInRange, DontMove, NormalRecovery, DefaultAI4) // セシリア
+    UNIT(GenericSoldierEmblianWeak, Cavalier, 0, 8, SIDE_ENEMY, 1, 14, 17, 10, 17, SteelLance, 0, 0, 0, AttackInRange, DontMove, NormalRecovery, DefaultAI4) // ランスナイト
 	END_UNIT
 TrapsEliwoodMode:
 	END_TRAP

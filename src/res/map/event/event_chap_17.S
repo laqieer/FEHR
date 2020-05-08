@@ -59,6 +59,6 @@ EnemyUnitsENM:
 	END_UNIT
 TrapsEliwoodMode:
 TrapsHectorMode:
-    FIRE 13, 12, 0, 1, 1
-    FIRE 14, 12, 0, 1, 1
+    FIRE 13, 11, 0, 1, 1
+    FIRE 14, 11, 0, 1, 1
 	END_TRAP
