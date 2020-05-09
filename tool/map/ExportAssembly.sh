@@ -13,3 +13,4 @@ do
     bin2s $arg.cfg >> ../../../src/res/map/tileset/$arg.s
 done
 cd ..
+grep -o -E "[0-9]* tiles" ../../src/res/map/tileset/$arg.s
