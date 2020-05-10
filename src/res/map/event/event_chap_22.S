@@ -38,8 +38,12 @@ BeginningScene:
 	LOU1 EnemyUnitsENM
 	ENUN
     UpdateSpecialSkillCD
+    MUSC MUSIC_FE_H_SERIOUS_6
+    TEX1 TEXT_CHAP_22_OP
 	ENDA
 EndingScene:
+    MUSC MUSIC_FE_H_EVENT_1
+    TEX1 TEXT_CHAP_22_ED
 	MNCH 23
 	ENDA
 AllyUnitsENM:

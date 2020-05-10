@@ -35,6 +35,8 @@ extern const u8 map_chap_17[];
 extern const u8 map_common[];
 extern const u8 map_chap_21[];
 extern const u8 map_chap_21_change[];
+extern const u8 map_chap_24[];
+extern const u8 map_chap_24_change[];
 
 extern const u8 chap_preTiles[];
 extern const u8 chap_prePal[];
@@ -105,6 +107,21 @@ extern const u8 S0504_cfg[];
 extern const u8 S0505Tiles[];
 extern const u8 S0505Pal[];
 extern const u8 S0505_cfg[];
+extern const u8 S0601Tiles[];
+extern const u8 S0601Pal[];
+extern const u8 S0601_cfg[];
+extern const u8 S0602Tiles[];
+extern const u8 S0602Pal[];
+extern const u8 S0602_cfg[];
+extern const u8 S0603Tiles[];
+extern const u8 S0603Pal[];
+extern const u8 S0603_cfg[];
+extern const u8 S0604Tiles[];
+extern const u8 S0604Pal[];
+extern const u8 S0604_cfg[];
+extern const u8 S0605Tiles[];
+extern const u8 S0605Pal[];
+extern const u8 S0605_cfg[];
 
 const u8 * const maps[0xff] = {
         map_chap_pre,
@@ -130,6 +147,7 @@ const u8 * const maps[0xff] = {
         map_chap_3_new,
         map_chap_9_new,
         map_chap_21,
+        map_chap_24,
 };
 
 const u8 ** const pMaps = maps;
@@ -141,6 +159,7 @@ const u8 * const mapChanges[] = {
         map_chap_1_new_change,
         map_chap_9_new_change,
         map_chap_21_change,
+        map_chap_24_change,
 };
 
 const u8 ** const pMapChanges = mapChanges;
@@ -172,6 +191,11 @@ const u8 * const tilesetImgs[] = {
     S0503Tiles,
     S0504Tiles,
     S0505Tiles,
+    S0601Tiles,
+    S0602Tiles,
+    S0603Tiles,
+    S0604Tiles,
+    S0605Tiles,
 };
 
 const u8 ** const pTilesetImgs = tilesetImgs;
@@ -201,6 +225,11 @@ const u8 * const tilesetCfgs[] = {
     S0503_cfg,
     S0504_cfg,
     S0505_cfg,
+    S0601_cfg,
+    S0602_cfg,
+    S0603_cfg,
+    S0604_cfg,
+    S0605_cfg,
 };
 
 const u8 ** const pTilesetCfgs = tilesetCfgs;
@@ -230,6 +259,11 @@ const u8 * const tilesetPals[] = {
     S0503Pal,
     S0504Pal,
     S0505Pal,
+    S0601Pal,
+    S0602Pal,
+    S0603Pal,
+    S0604Pal,
+    S0605Pal,
 };
 
 const u8 ** const pTilesetPals = tilesetPals;

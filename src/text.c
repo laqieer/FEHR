@@ -1098,6 +1098,138 @@ const char* const texts[] = {
             "クロム自警団の絆の力。。。" TCC_NEWLINE
             "よく見ておくんだな。" TCC_NEWLINE TCC_PUSH_A
             TCC_CLEAR_FACE,
+
+        [TEXT_CHAP_22_OP] = TCC_OPEN_RIGHT
+            "ほう。。。ここまで来たか。" TCC_NEWLINE
+            "その腕、敵にしておくのは" TCC_NEWLINE
+            "惜しいほどだな。" TCC_NEWLINE TCC_PUSH_A
+            "どうやらそちらにも" TCC_NEWLINE
+            "有能な軍師がいるようだが。。。" TCC_NEWLINE
+            "こちらだって負けてはいない。"  TCC_NEWLINE TCC_PUSH_A
+            "頼んだぞ、ルフレ！" TCC_NEWLINE
+            "お前の策で俺たち自警団を、" TCC_NEWLINE
+            "勝ちに導いてくれ！" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
+
+        [TEXT_CHAP_22_ED] = TCC_OPEN_RIGHT
+            "すまなかった、アルフォンス王子。。。" TCC_NEWLINE
+            "どうやら俺たちは騙されていたらしい。" TCC_NEWLINE TCC_PUSH_A
+            "侵略者はエンブラ帝国軍のほうで、" TCC_NEWLINE
+            "特務機関は俺たちを" TCC_NEWLINE
+            "助けに来てくれたんだな。" TCC_NEWLINE TCC_PUSH_A
+            "無礼をどうか許してくれ。" TCC_NEWLINE
+            "そして、ありがとう。" TCC_NEWLINE
+            "この地を解放してくれて。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE
+            TCC_OPEN_LEFT
+            TCC_LOAD_FACE PORTRAIT_ALFONSE
+            "「覚醒の異界」。。。" TCC_NEWLINE
+            "何とか解放できたね。" TCC_NEWLINE
+            TCC_TACTICIAN_NAME "のおかげだ。" TCC_NEWLINE TCC_PUSH_A
+            "君の指揮は、経験を重ねるごとに" TCC_NEWLINE
+            "迷いのない確かなものになっていく。。。" TCC_NEWLINE
+            "本当に心強いよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+            TCC_LOAD_FACE PORTRAIT_SHARENA
+            "指揮といえば。。。" TCC_NEWLINE
+            "さっきの軍師、ちょっと似てましたよね。" TCC_NEWLINE
+            TCC_TACTICIAN_NAME "さんに。" TCC_NEWLINE TCC_PUSH_A
+            "なんかこう、雰囲気とかがそっくりでした。" TCC_NEWLINE
+            "わたしが愛するのはもちろん断然、" TCC_NEWLINE
+            TCC_TACTICIAN_NAME "さんですが！" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_MID_LEFT
+            TCC_LOAD_FACE PORTRAIT_ANNA
+            "まあこんなに沢山異界があるのだもの。" TCC_NEWLINE
+            "似ている人が１人や２人。。。いえ、" TCC_NEWLINE
+            "５０人や１００人いても不思議じゃないわ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+            "多すぎです、アンナ隊長。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_MID_LEFT
+            "あら、そうかしら？" TCC_NEWLINE
+            "とにかく、今回も一件落着ね。" TCC_NEWLINE
+            "アスク王国に帰還を。。。" TCC_NEWLINE TCC_PUSH_A
+            "。。。！？" TCC_NEWLINE
+            "大変だわ、みんな。" TCC_NEWLINE
+            "たった今、隊員から連絡が入ったわ。" TCC_NEWLINE TCC_PUSH_A
+            "「紋章の異界」の扉が。。。" TCC_NEWLINE
+            "エンブラ帝国軍に襲撃されているの！" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+            "なんだって！？" TCC_NEWLINE
+            "まさか奴ら、また英雄マルスを狙って。。。！？" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
+
+    [TEXT_CHAP_23_OP] = TCC_OPEN_RIGHT
+        "。。。来たか。" TCC_NEWLINE TCC_PUSH_A
+        "お前たちに恨みはないが、" TCC_NEWLINE
+        "雇われた以上、仕事は果たす。" TCC_NEWLINE TCC_PUSH_A
+        "かわいそうだが。。。" TCC_NEWLINE
+        "死んでもらう。" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE,
+
+    [TEXT_CHAP_23_ED] = TCC_OPEN_RIGHT
+        "。。。やるな。。。" TCC_NEWLINE
+        "あの男とどちらが上か。。。" TCC_NEWLINE TCC_PUSH_A
+        "ふっ。。。面白い。" TCC_NEWLINE
+        "また会おう。いずれ、な。。。" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE,
+
+    [TEXT_CHAP_27_OP] = TCC_OPEN_LEFT
+        "あっ。。。" TCC_NEWLINE
+        "あなたたちが、" TCC_NEWLINE
+        "ヴェロニカの言ってた悪い人？" TCC_NEWLINE TCC_PUSH_A
+        "ヤーっ、おねがい、来ないで！" TCC_NEWLINE
+        "それ以上近付いたら。。。" TCC_NEWLINE TCC_PUSH_A
+        "チキ、手加減できないの。" TCC_NEWLINE
+        "あなたたちが、" TCC_NEWLINE
+        "大変なことになっちゃう。。。" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE,
+
+    [TEXT_CHAP_27_ED] = TCC_OPEN_LEFT
+        "やられちゃった。。。" TCC_NEWLINE
+        "でも、ありがとう！" TCC_NEWLINE
+        "これでチキ、もとに戻れるの。" TCC_NEWLINE TCC_PUSH_A
+        "もう無理やり戦わなくても" TCC_NEWLINE
+        "よくなったの。。。" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE
+        TCC_OPEN_RIGHT
+        TCC_LOAD_FACE PORTRAIT_ANNA
+        "ふうっ、お疲れさま。" TCC_NEWLINE
+        "無事に任務を果たせたわ。" TCC_NEWLINE
+        "今回の狙いはマルスではなかったようね。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_LEFT
+        TCC_LOAD_FACE PORTRAIT_ALFONSE
+        "「紋章の異界」は以前も解放した。" TCC_NEWLINE
+        "けれど扉が開いている限り、" TCC_NEWLINE
+        "奴等は何度も同じ異界に攻め込んでくる" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_MID_RIGHT
+        TCC_LOAD_FACE PORTRAIT_SHARENA
+        "もちろん特務機関は、" TCC_NEWLINE
+        "扉の警護もしているんですよ？" TCC_NEWLINE
+        "でも、存在する扉の数は膨大で。。。" TCC_NEWLINE TCC_PUSH_A
+        "その上、エンブラ帝国軍は" TCC_NEWLINE
+        "いつどこに攻め込んでくるかわかりません。" TCC_NEWLINE TCC_PUSH_A
+        "私たち王族が扉を閉める力さえ" TCC_NEWLINE
+        "持っていればいいんですけど。。。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_LEFT
+        "両国の力は二つで一つ。" TCC_NEWLINE
+        "僕たちが扉を閉める力を持つとしたら、" TCC_NEWLINE
+        "向こうは扉を開く力を持つことになる。" TCC_NEWLINE TCC_PUSH_A
+        "そうしたらエンブラ帝国軍は" TCC_NEWLINE
+        "僕たちが閉める扉を、" TCC_NEWLINE
+        "何度も開きにくることになるだろうね。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_MID_RIGHT
+        "ううっ、それはそれで厄介です。。。！" TCC_NEWLINE
+        "というか今より大変かもしれません。" TCC_NEWLINE
+        "閉じてる扉でも油断できなくなりますから。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_RIGHT
+        "片方の国が両方の力を持てない以上、" TCC_NEWLINE
+        "協力しないことにはこの戦いは" TCC_NEWLINE
+        "終わらないということね。" TCC_NEWLINE TCC_PUSH_A
+        "。。。さて、この前の陽動を考えると、" TCC_NEWLINE
+        "他の扉が襲撃されている可能性もあるわ。" TCC_NEWLINE
+        "念のため、見回りをしておきましょう！" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE,
+
 };
 
 extern int lastTextID;
