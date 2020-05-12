@@ -1230,6 +1230,84 @@ const char* const texts[] = {
         "念のため、見回りをしておきましょう！" TCC_NEWLINE TCC_PUSH_A
         TCC_CLEAR_FACE,
 
+    [TEXT_CHAP_28_OP] = TCC_OPEN_FAR_RIGHT
+        "なに。。。？" TCC_NEWLINE
+        "この地が異界の軍勢に" TCC_NEWLINE
+        "支配されているだと？" TCC_NEWLINE TCC_PUSH_A
+        "馬鹿を言え。" TCC_NEWLINE
+        "この白夜王国は女王の力により" TCC_NEWLINE
+        "悪しき者の侵入から守られている。" TCC_NEWLINE TCC_PUSH_A
+        "どうやってここまで" TCC_NEWLINE
+        "辿り着いた蚊は知らんが。。。" TCC_NEWLINE
+        "貴様らは俺たちきょうだいが討つ！" TCC_NEWLINE TCC_PUSH_A,
+
+    [TEXT_CHAP_28_ED] = TCC_OPEN_FAR_RIGHT
+        "まさか、これほどの力とは。。。" TCC_NEWLINE
+        "皆、態勢を整えて" TCC_NEWLINE
+        "再度迎え撃つぞ！" TCC_NEWLINE TCC_PUSH_A
+        "民たちのためにも、" TCC_NEWLINE
+        "この白夜王国。。。" TCC_NEWLINE
+        "落とさせてなるものか！" TCC_NEWLINE TCC_PUSH_A,
+
+    [TEXT_CHAP_32_OP] = TCC_OPEN_LEFT
+        "よくここまで辿り着いたな。" TCC_NEWLINE
+        "我が白夜軍。。。そして" TCC_NEWLINE
+        "きょうだいたちは敗れたということか。" TCC_NEWLINE TCC_PUSH_A
+        "だが。。。ここは通さん。" TCC_NEWLINE
+        "この命に代えても、" TCC_NEWLINE
+        "貴様らを止めてみせよう！" TCC_NEWLINE TCC_PUSH_A
+        "我が名は白夜王国第一の王子、" TCC_NEWLINE
+        "リョウマ！！" TCC_NEWLINE
+        "軍の将よ。。。一騎討ちを所望する！" TCC_NEWLINE TCC_PUSH_A,
+
+    [TEXT_CHAP_32_ED] = TCC_OPEN_LEFT
+        "この清清しい感じ。。。どういうことだ？" TCC_NEWLINE
+        "お前たちの言うとおり、" TCC_NEWLINE
+        "俺たちは何者かに洗脳されていたのか。" TCC_NEWLINE TCC_PUSH_A
+        "お前たちが助けてくれたのだな、この国を、" TCC_NEWLINE
+        "きょうだいや。。。臣下たちを。" TCC_NEWLINE
+        "ありがとう。。。" TCC_NEWLINE TCC_PUSH_A
+        "そして、すまなかった。" TCC_NEWLINE
+        "悪しき者から解放してくれたこと、" TCC_NEWLINE
+        "恩に着るぞ。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_RIGHT
+        TCC_LOAD_FACE PORTRAIT_ANNA
+        "おつかれさま。" TCC_NEWLINE
+        "「白夜の異界」、" TCC_NEWLINE
+        "無事に解放できたわね！" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_LEFT
+        TCC_LOAD_FACE PORTRAIT_ALFONSE
+        "一騎打ちに肝を冷やしたな。。。" TCC_NEWLINE
+        "壁を壊せたからよかったけど、" TCC_NEWLINE
+        "単独での戦闘はできれば避けたいよ。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_MID_LEFT
+        TCC_LOAD_FACE PORTRAIT_SHARENA
+        "ほんとですよーっ！" TCC_NEWLINE
+        "あんな風に分断されて、" TCC_NEWLINE
+        "そのまま会えなくなったらって思うと。。。" TCC_NEWLINE TCC_PUSH_A
+        "そう思うと、たまらないです。" TCC_NEWLINE
+        "あのとき。。。" TCC_NEWLINE
+        "。。。サガリアさんのときみたいに。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_LEFT
+        "。。。。。。" TCC_NEWLINE
+        "そうだね。" TCC_NEWLINE
+        "僕も少し、それを思い出したよ。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_RIGHT
+        "。。。二人とも、" TCC_NEWLINE
+        "その話は控えるように言ったでしょう。" TCC_NEWLINE
+        "私達はできる限りのことをしたわ。" TCC_NEWLINE TCC_PUSH_A
+        "。。。ああ、" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+        "ごめんなさいね。" TCC_NEWLINE
+        "あなたにも言っておくべきかもしれないわ。" TCC_NEWLINE TCC_PUSH_A
+        "実は。。。私たちの隊には昔、" TCC_NEWLINE
+        "もう一人の隊員がいたの。" TCC_NEWLINE
+        "名前はザカリア。" TCC_NEWLINE TCC_PUSH_A
+        "屈強な青年で、とても頼りになる子だった。" TCC_NEWLINE
+        "でも、ある任務がきっかけで" TCC_NEWLINE
+        "ザカリアは行方不明になってしまったわ。" TCC_NEWLINE TCC_PUSH_A
+        "私達はずっと。。。" TCC_NEWLINE
+        "彼を探しているのよ。" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE,
 };
 
 extern int lastTextID;
