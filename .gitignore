@@ -118,3 +118,5 @@ tool/map/DecreaseColor/obj
 
 # temp files during map creation
 tool/map/tmp
+
+tool/__pycache__/
