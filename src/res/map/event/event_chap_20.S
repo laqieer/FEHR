@@ -49,8 +49,8 @@ AllyUnitsENM:
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSoldierEmblianWeak, PegasusKnight, 0, 12, SIDE_ENEMY, 1, 0, 0, 0, 0, IronLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ランスペガサス
-	UNIT(GenericSoldierEmblianWeak, PegasusKnight, 0, 12, SIDE_ENEMY, 1, 14, 0, 14, 0, IronLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // アクスペガサス
-	UNIT(GenericSoldierEmblianWeak, PegasusKnight, 0, 12, SIDE_ENEMY, 1, 0, 19, 0, 19, IronLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ソードペガサス
+	UNIT(GenericSoldierEmblianWeak, FalcoKnight, 0, 1, SIDE_ENEMY, 1, 14, 0, 14, 0, HandAxe, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // アクスペガサス
+	UNIT(GenericSoldierEmblianWeak, PegasusKnight, 0, 12, SIDE_ENEMY, 1, 0, 19, 0, 19, IronSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ソードペガサス
     UNIT(GenericSoldierSummonedWeak, PegasusKnight, 0, 12, SIDE_ENEMY, 1, 14, 19, 14, 19, SteelLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ティアモ
 	END_UNIT
 TrapsEliwoodMode:

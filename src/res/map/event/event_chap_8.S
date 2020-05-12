@@ -53,7 +53,7 @@ AllyUnitsENM:
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(Xander, Cavalier, 0, 6, SIDE_ENEMY, 1, 5, 0, 5, 4, SteelSword, 0, 0, 0, AttackInRange, DelayedPursue, NoRecovery, DefaultAI4) // マクス
-	UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, Xander, 6, SIDE_ENEMY, 1, 0, 11, 4, 11, IronLance, 0, 0, 0, AttackInRange, DelayedPursue, NormalRecovery, DefaultAI4) // カミラ
+	UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, Xander, 6, SIDE_ENEMY, 1, 0, 11, 4, 11, IronAxe, 0, 0, 0, AttackInRange, DelayedPursue, NormalRecovery, DefaultAI4) // カミラ
     UNIT(GenericSoldierSummonedWeak, Shaman, Xander, 6, SIDE_ENEMY, 1, 0, 14, 0, 14, Flux, 0, 0, 0, AttackInRange, DelayedPursue, NormalRecovery, DefaultAI4) // レオン
     UNIT(GenericSoldierSummonedWeak, Troubadour, Xander, 6, SIDE_ENEMY, 1, 0, 8, 0, 8, Heal, 0, 0, 0, HealInjuredAllies, DelayedPursue, NoRecovery, DefaultAI4) // エリーゼ
 	END_UNIT

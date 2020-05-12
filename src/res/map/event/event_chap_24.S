@@ -49,8 +49,8 @@ AllyUnitsENM:
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSoldierEmblianWeak, Archer, 0, 15, SIDE_ENEMY, 1, 0, 5, 0, 5, SteelBow, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ボウファイター
-	UNIT(GenericSoldierEmblianWeak, Knight, 0, 15, SIDE_ENEMY, 1, 9, 0xb, 9, 0xb, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ソードアーマー
-    UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 15, SIDE_ENEMY, 1, 6, 8, 6, 8, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ミネルバ
+	UNIT(GenericSoldierEmblianWeak, Knight, 0, 15, SIDE_ENEMY, 1, 9, 0xb, 9, 0xb, SteelSword, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ソードアーマー
+    UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 15, SIDE_ENEMY, 1, 6, 8, 6, 8, SteelAxe, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ミネルバ
     UNIT(GenericSoldierSummonedWeak, Cleric, 0, 15, SIDE_ENEMY, 1, 3, 3, 3, 3, Mend, 0, 0, 0, HealAllies, DontMove, NoRecovery, DefaultAI4) // マリア
 	END_UNIT
 TrapsEliwoodMode:

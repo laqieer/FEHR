@@ -53,7 +53,7 @@ AllyUnitsENM:
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSoldierSummonedWeak, FireDragon, 0, 20, SIDE_ENEMY, 0, 3, 16, 3, 16, Flametongue, 0, 0, 0, AttackInRange, DontMove, NoRecovery, GuardTile) // チキ
-	UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 17, SIDE_ENEMY, 1, 7, 15, 7, 15, SteelLance, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ミネルバ
+	UNIT(GenericSoldierSummonedWeak, WyvernKnight_F, 0, 17, SIDE_ENEMY, 1, 7, 15, 7, 15, SteelAxe, 0, 0, 0, AttackInRange, DontMove, NoRecovery, DefaultAI4) // ミネルバ
 	UNIT(GenericSoldierEmblianWeakDropItem, Thief, 0, 17, SIDE_ENEMY, 1, 0xb, 0xc, 0xb, 0xc, Wyrmslayer, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // シーフ
     UNIT(GenericSoldierEmblianWeak, Soldier, 0, 17, SIDE_ENEMY, 1, 0xc, 0xd, 0xc, 0xd, SteelLance, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ランスファイター
 	END_UNIT

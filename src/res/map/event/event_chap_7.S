@@ -55,7 +55,7 @@ EnemyUnitsENM:
 	UNIT(GenericSoldierSummonedWeak, EliwoodLord, 0, 5, SIDE_ENEMY, 1, 5, 11, 5, 11, IronSword, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // マルス
 	UNIT(GenericSoldierSummonedWeak, Mage, 0, 5, SIDE_ENEMY, 1, 5, 8, 5, 8, Fire, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // マリク
     UNIT(GenericSoldierSummonedWeak, Archer, 0, 5, SIDE_ENEMY, 1, 8, 11, 8, 11, IronBow, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // ゴードン
-    UNIT(GenericSoldierSummonedWeak, PegasusKnight, 0, 5, SIDE_ENEMY, 1, 5, 12, 5, 12, SlimLance, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // シーダ
+    UNIT(GenericSoldierSummonedWeak, PegasusKnight, 0, 5, SIDE_ENEMY, 1, 5, 12, 5, 12, SlimSword, Vulnerary, 0, 0, AttackInRange, PursueOnceApproached, Cautious, DefaultAI4) // シーダ
 	END_UNIT
 TrapsEliwoodMode:
 	END_TRAP

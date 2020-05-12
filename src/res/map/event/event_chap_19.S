@@ -48,7 +48,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Sharena, SharenaLord, Anna, 3, 19, 3, 15)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(GenericSoldierEmblianWeak, General, 0, 1, SIDE_ENEMY, 1, 12, 11, 12, 11, IronAxe, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // アクスアーマー
+	UNIT(GenericSoldierEmblianWeak, Knight, 0, 11, SIDE_ENEMY, 1, 12, 11, 12, 11, IronAxe, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // アクスアーマー
 	UNIT(GenericSoldierEmblianWeak, Archer, 0, 11, SIDE_ENEMY, 1, 12, 7, 12, 7, IronBow, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ボウファイター
     UNIT(GenericSoldierSummonedWeak, Myrmidon, 0, 11, SIDE_ENEMY, 1, 2, 7, 2, 7, SteelSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // ロンクー
     UNIT(GenericSoldierSummonedWeak, Myrmidon_F, 0, 11, SIDE_ENEMY, 1, 3, 7, 3, 7, IronSword, 0, 0, 0, AttackInRange, Pursue, NoRecovery, DefaultAI4) // オリヴィエ
