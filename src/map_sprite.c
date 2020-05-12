@@ -418,9 +418,9 @@ const struct MovingSprite movingSprites[] = {
 
     {138351716, 138353320} ,  // 0x61 Ballistician
 
-    {138353680, 138355324} ,  // 0x62 Empty (Make a custom class!)
+    {138189024, 138191316} ,  // 0x62 Magic Knight
 
-    {138355684, 138356600} ,  // 0x63 Empty (Make a custom class!)
+    {138260520, 138263996} ,  // 0x63 Magic Falcon Knight
 };
 
 const struct MovingSprite * const pMovingSprites1 = movingSprites;
