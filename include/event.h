@@ -14,6 +14,8 @@
 #include "text_id.h"
 #include "music_id.h"
 
+#define None 0
+
 // Ends an event.
 #define ENDA .word 0xA, 0
 

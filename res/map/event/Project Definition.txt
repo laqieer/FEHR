@@ -47,5 +47,7 @@
 #define AlfonseLord EliwoodLord
 #define AnnaLord HectorLord
 #define SharenaLord LynLord
+#define MagicKnight 0x62
+#define MagicFalcoKnight 0x63
 
 #endif
