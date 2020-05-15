@@ -51,7 +51,7 @@ AllyUnitsENM:
 EnemyUnitsENM:
 	UNIT(GenericSoldierSummonedWeak,PegasusKnight,0,17,SIDE_ENEMY,1,9,4,9,4,IronLance,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ツバキ
 	UNIT(GenericSoldierSummonedWeak,Bishop,0,17,SIDE_ENEMY,1,8,4,8,4,Heal,None,0,0,HealAllies,DontMove,Cautious,DefaultAI4) // アサマ
-	UNIT(GenericSoldierSummonedWeak,PegasusKnight,0,17,SIDE_ENEMY,1,7,3,7,3,IronLance,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ヒノカ
+	UNIT(GenericSoldierSummonedWeak,PegasusKnight,0,17,SIDE_ENEMY,1,7,4,7,4,IronLance,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ヒノカ
 	UNIT(GenericSoldierSummonedWeak,Archer_F,0,17,SIDE_ENEMY,1,4,9,4,9,IronBow,None,0,0,AttackInRange,DontMove,Cautious,DefaultAI4) // セツナ
 	END_UNIT
 TrapsEliwoodMode:
