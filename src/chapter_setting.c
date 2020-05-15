@@ -540,6 +540,7 @@ const struct Chapter chapters[0xff] = {
             DEFINE_SIMPLE_CHAPTER_NEW(27, "1.6.5)27", MUSIC_FE_3_DIVINE_DRAGON_LEGEND_B)
             DEFINE_SIMPLE_CHAPTER_NEW(28, "1.7.1)28", MUSIC_FE_FATES_ROAD_TAKEN)
             DEFINE_SIMPLE_CHAPTER_WITH_MAP_CHANGE(29, "1.7.2)29", MUSIC_FE_FATES_ROAD_TAKEN, 7)
+            DEFINE_SIMPLE_CHAPTER_NEW(30, "1.7.3)30", MUSIC_FE_FATES_ROAD_TAKEN)
 };
 
 const struct Chapter * const pChapters1 = chapters;
