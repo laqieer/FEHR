@@ -1104,7 +1104,7 @@ const char* const texts[] = {
             "その腕、敵にしておくのは" TCC_NEWLINE
             "惜しいほどだな。" TCC_NEWLINE TCC_PUSH_A
             "どうやらそちらにも" TCC_NEWLINE
-            "有能な軍師がいるようだが。。。" TCC_NEWLINE
+            "有能\な軍師がいるようだが。。。" TCC_NEWLINE
             "こちらだって負けてはいない。"  TCC_NEWLINE TCC_PUSH_A
             "頼んだぞ、ルフレ！" TCC_NEWLINE
             "お前の策で俺たち自警団を、" TCC_NEWLINE
@@ -1226,7 +1226,7 @@ const char* const texts[] = {
         "協力しないことにはこの戦いは" TCC_NEWLINE
         "終わらないということね。" TCC_NEWLINE TCC_PUSH_A
         "。。。さて、この前の陽動を考えると、" TCC_NEWLINE
-        "他の扉が襲撃されている可能性もあるわ。" TCC_NEWLINE
+        "他の扉が襲撃されている可能\性もあるわ。" TCC_NEWLINE
         "念のため、見回りをしておきましょう！" TCC_NEWLINE TCC_PUSH_A
         TCC_CLEAR_FACE,
 
