@@ -53,7 +53,43 @@ var ChapterEvent = {
         file.writeLine("MiscBasedEvents:");
         file.writeLine("\tCauseGameOverIfLordDies"); // Game Over
         file.writeLine("\tDefeatAll(EndingScene)"); // Chapter Clear
+        // Hidden Treasures
+        for (var i = 0; i < map.layerCount; ++i) {
+            var layer = map.layerAt(i);
+            if(layer.name == "Treasure") {
+                if(layer.isObjectLayer) {
+                    for (const object of layer.objects) {
+                        var eventId = object.property("EventID");
+                        var x1 = parseInt(object.x / 16);
+                        var y1 = parseInt((object.y - object.height) / 16);
+                        var x2 = Math.ceil((object.x + object.width) / 16);
+                        var y2 = Math.ceil(object.y / 16);
+                        var areaEvent = new Array("\tAREA(" + eventId, "Event" + eventId, x1, y1, x2, y2 + ") // Hidden Treasure");
+                        file.writeLine(areaEvent.join(","));
+                    }
+                }
+            }
+        }
         file.writeLine("\tEND_MAIN");
+
+        for (var i = 0; i < map.layerCount; ++i) {
+            var layer = map.layerAt(i);
+            if(layer.name == "Treasure") {
+                if(layer.isObjectLayer) {
+                    for (const object of layer.objects) {
+                        var eventId = object.property("EventID");
+                        var item = object.property("Item");
+                        file.writeLine("Event" + eventId + ":");
+                        var treasureId = object.property("TreasureID");
+                        if(typeof(treasureId) == "number") {
+                            file.writeLine("\tUnlockHiddenTreasure" + treasureId + "Achievement");
+                        }
+                        file.writeLine("\tITGV " + item);
+                        file.writeLine("\tENDA");
+                    }
+                }
+            }
+        }
 
         // Beginning Scene
         file.writeLine("BeginningScene:");
