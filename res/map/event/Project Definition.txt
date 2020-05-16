@@ -42,6 +42,33 @@
 #define GenericSoldierFlameWeak 0x7d
 #define GenericSoldierFlameStrong 0x7e
 
+#define GenericAskr 0x75
+#define GenericAskrWeak 0x76
+#define GenericAskrStrong 0x77
+
+#define GenericEmblian 0x67
+#define GenericEmblianWeak 0x68
+#define GenericEmblianStrong 0x69
+#define GenericEmblianSuperWeak 0x88
+
+#define GenericEmblianWeakDropItem 0x82
+#define GenericEmblianWeakDrop 0x82
+
+#define GenericSummoned 0x72
+#define GenericSummonedWeak 0x73
+#define GenericSummonedStrong 0x74
+
+#define GenericSummonedDropItem 0x7f
+#define GenericSummonedWeakDropItem 0x80
+#define GenericSummonedStrongDropItem 0x81
+#define GenericSummonedDrop 0x7f
+#define GenericSummonedWeakDrop 0x80
+#define GenericSummonedStrongDrop 0x81
+
+#define GenericFlame 0x7c
+#define GenericFlameWeak 0x7d
+#define GenericFlameStrong 0x7e
+
 // Classes
 
 #define AlfonseLord EliwoodLord

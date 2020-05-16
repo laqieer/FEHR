@@ -58,6 +58,9 @@
 #define LOU1 .word 0x30,
 #define LOU2 .word 0x34,
 
+// Remove units.
+#define DISA .word 0x69,
+
 // Shows text.
 #define TEX1 .word 0xd,
 #define TEXT .word 0xd,
