@@ -1308,6 +1308,80 @@ const char* const texts[] = {
         "私達はずっと。。。" TCC_NEWLINE
         "彼を探しているのよ。" TCC_NEWLINE TCC_PUSH_A
         TCC_CLEAR_FACE,
+
+    [TEXT_CHAP_33_OP] = TCC_OPEN_FAR_LEFT
+        "あっ、来たわね。あなたたちが" TCC_NEWLINE
+        "エリウッド様が言ってた異界の英雄？" TCC_NEWLINE
+        "ふーん、なかなか強そうじゃない。" TCC_NEWLINE TCC_PUSH_A
+        "でも、残念ね。" TCC_NEWLINE
+        "このセーラ様と下僕たちに" TCC_NEWLINE
+        "かなうはずないんだから！" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLOSE_FAST,
+
+    [TEXT_CHAP_33_ED] = TCC_OPEN_FAR_LEFT
+        "いたた。。。" TCC_NEWLINE
+        "ちょっと！ひどいじゃない！" TCC_NEWLINE
+        "私が傷ついたらかわいそうでしょ！" TCC_NEWLINE TCC_PUSH_A
+        "私はこれで退いてあげるけど、" TCC_NEWLINE
+        "エリウッド様たちはもっと強いんだから。" TCC_NEWLINE
+        "覚えてなさいよね！" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLOSE_FAST,
+
+    [TEXT_CHAP_37_OP] = TCC_OPEN_LEFT
+        "僕はフェレ侯公子エリウッド。" TCC_NEWLINE
+        "契約に基づき、" TCC_NEWLINE
+        "君たちの相手を務めさせてもらうよ。" TCC_NEWLINE TCC_PUSH_A
+        "ロイ？" TCC_NEWLINE
+        "ああ、君たちが戦ったロイは僕の息子だよ。" TCC_NEWLINE
+        "僕はロイほどの戦いの才はないけれど。。。" TCC_NEWLINE TCC_PUSH_A
+        "けど、全くの無策と言うわけでもない。" TCC_NEWLINE
+        "では、始めようか。" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLOSE_FAST,
+
+    [TEXT_CHAP_37_ED] = TCC_OPEN_LEFT
+        "やはり、強いね。。。" TCC_NEWLINE
+        "ありがとう、これで" TCC_NEWLINE
+        "僕たちは契約から解放された。" TCC_NEWLINE TCC_PUSH_A
+        "いつか。。。君たちと共にいられる" TCC_NEWLINE
+        "日が来ることを願ってるよ。" TCC_NEWLINE
+        "その時は、ロイも一緒にね。。。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_RIGHT
+        TCC_LOAD_FACE PORTRAIT_ANNA
+        "「烈火の異界」、解放できたわね。" TCC_NEWLINE
+        "みんな、よくやってくれたわ。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_LEFT
+        TCC_LOAD_FACE PORTRAIT_SHARENA
+        "。。。あれ？" TCC_NEWLINE
+        TCC_TACTICIAN_NAME"さん。。。？" TCC_NEWLINE
+        "黙り込んでどうしたんですか？" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_RIGHT
+        "もしかして、この前の話が気になるの？" TCC_NEWLINE
+        "行方不明になった隊員。。。" TCC_NEWLINE
+        "ザカリアのこと。" TCC_NEWLINE TCC_PUSH_A
+        "。。。そう。じゃあ少し話しましょうか。" TCC_NEWLINE
+        "彼は貴族の青年でね、" TCC_NEWLINE
+        "アルフォンスとシャロンの幼馴染だったの。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_MID_RIGHT
+        TCC_LOAD_FACE PORTRAIT_ALFONSE
+        "ああ。明るくて優しくて、" TCC_NEWLINE
+        "腕のいい槍使いだった。。。" TCC_NEWLINE
+        "とても信頼していた仲間だった。" TCC_NEWLINE TCC_PUSH_A
+        "少し前。。。僕たちは二手に分かれて" TCC_NEWLINE
+        "単独で異界の扉の偵察に出掛けたんだ。" TCC_NEWLINE
+        "その方が効率的だからって。。。" TCC_NEWLINE TCC_PUSH_A
+        "でも、ザカリアは帰ってこなかった。" TCC_NEWLINE
+        "彼が偵察に行った異界の扉は" TCC_NEWLINE
+        "ヴェロニカ皇女によって閉じられ、" TCC_NEWLINE TCC_PUSH_A
+        "中に閉じ込められてしまったんだ。" TCC_NEWLINE
+        "王族でないものは、内側から扉を開けない。" TCC_NEWLINE
+        "僕はすぐに扉を開いて彼を探したけど。。。" TCC_NEWLINE TCC_PUSH_A
+        "いくら探しても結局、" TCC_NEWLINE
+        "見つけることはできなかった。" TCC_NEWLINE TCC_PUSH_A
+        "彼が閉じ込められたのは「覚醒の異界」。" TCC_NEWLINE
+        "そうだね。。。次はもう一度、" TCC_NEWLINE
+        "あの場所に行ってみてもいいかもしれない。" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE,
+
 };
 
 extern int lastTextID;
