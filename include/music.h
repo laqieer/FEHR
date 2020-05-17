@@ -20,4 +20,6 @@ struct SoundRoomEntry {
     const char * name;
 };
 
+#define MUSIC_LENGTH(minutes,seconds) (((minutes) * 60 + (seconds)) * 0x30)
+
 #endif //FE7_JP_STUNNING_TRIBBLE_MUSIC_H

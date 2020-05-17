@@ -1382,6 +1382,87 @@ const char* const texts[] = {
         "あの場所に行ってみてもいいかもしれない。" TCC_NEWLINE TCC_PUSH_A
         TCC_CLEAR_FACE,
 
+    [TEXT_CHAP_38_OP] = TCC_OPEN_FAR_LEFT
+        "君たちは何者だい？" TCC_NEWLINE
+        "異界から来た、特務機関。。。？" TCC_NEWLINE
+        "なんだか怪しいな。" TCC_NEWLINE TCC_PUSH_A
+        "悪いけど、ここを通すわけにはいかないよ。" TCC_NEWLINE
+        "クロムがいなくたって、" TCC_NEWLINE
+        "僕一人でやってみせ。。。" TCC_NEWLINE TCC_PUSH_A
+        "。。。あれ、サーリャもいたのかい？" TCC_NEWLINE
+        "ああ。。。また僕の後をつけてたんだね。。。" TCC_NEWLINE
+        "まあいい、君も力を貸してくれ！" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE TCC_CLOSE_FAST,
+
+    [TEXT_CHAP_38_ED] = TCC_OPEN_FAR_LEFT
+        "僕の柵を破るなんて。。。" TCC_NEWLINE
+        "そちらの軍師もやるようだね。" TCC_NEWLINE TCC_PUSH_A
+        "でも、これで終わりはしないさ。" TCC_NEWLINE
+        "僕の策も仲間も、" TCC_NEWLINE
+        "まだまだ尽きてはいないよ！" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE TCC_CLOSE_FAST,
+
+    [TEXT_CHAP_42_OP] = TCC_OPEN_RIGHT
+        "特務機関。。。" TCC_NEWLINE
+        "ルフレさんの言っていた通り、" TCC_NEWLINE
+        "一筋縄ではいかない相手のようですね。" TCC_NEWLINE TCC_PUSH_A
+        "特に後方に控えている、" TCC_NEWLINE
+        TCC_TACTICIAN_NAME"という軍師が"TCC_NEWLINE
+        "なかなかの切れ者だとか。" TCC_NEWLINE TCC_PUSH_A
+        "ですが負けはしませんよ。。。" TCC_NEWLINE
+        "お父様の力を借りるまでもありません、" TCC_NEWLINE
+        "私たちだけで片付けて見せます！" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE TCC_CLOSE_FAST,
+
+    [TEXT_CHAP_42_ED] = TCC_OPEN_RIGHT
+        "誤解をしてごめんなさい。。。" TCC_NEWLINE
+        "あなたたちは、私たちを解放するために" TCC_NEWLINE
+        "戦ってくださっていたのですね。" TCC_NEWLINE TCC_PUSH_A
+        "。。。え？探している人がいるのですか？" TCC_NEWLINE
+        "ザカリアさんという槍使い。。。" TCC_NEWLINE
+        "いいえ、お見かけしたことはありません。" TCC_NEWLINE TCC_PUSH_A
+        "ですが大切な人がいなくなる辛さは、" TCC_NEWLINE
+        "私もよくわかります。。。" TCC_NEWLINE
+        "早く再会できるといいですね。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_LEFT
+        TCC_LOAD_FACE PORTRAIT_ALFONSE
+        "やはり見つからなかったか。" TCC_NEWLINE
+        "ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_RIGHT
+        TCC_LOAD_FACE PORTRAIT_SHARENA
+        "ううっ。。。ザカリアさん。。。" TCC_NEWLINE
+        "どこにいっちゃったんでしょう。。。" TCC_NEWLINE
+        "私の槍の師匠だったのに。。。" TCC_NEWLINE TCC_PUSH_A
+        "強くなったねって、" TCC_NEWLINE
+        "いつかそう言って褒めてもらいたかったのに" TCC_NEWLINE
+        "もう叶わないんでしょうか。。。！" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_MID_RIGHT
+        TCC_LOAD_FACE PORTRAIT_ANNA
+        "。。。。。。" TCC_NEWLINE
+        "泣くのはやめなさい、シャロン。" TCC_NEWLINE
+        "まだ任務中だということを忘れたの？" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_RIGHT
+        "。。。！" TCC_NEWLINE
+        "す、すみません、アンナ隊長。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_MID_RIGHT
+        "アルフォンスも。落ち込むのはいいけど、" TCC_NEWLINE
+        "ザカリアが帰ってきた時に" TCC_NEWLINE
+        "そんな情けない姿を見せるつもり？" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_LEFT
+        "すまない。。。" TCC_NEWLINE TCC_PUSH_A
+        TCC_OPEN_MID_RIGHT
+        "もし責任を感じているのならお門違いよ。" TCC_NEWLINE
+        "任務中は何があっても、" TCC_NEWLINE
+        "例え死んだとしても責任は自分自身に。。。" TCC_NEWLINE TCC_PUSH_A
+        "そして、隊長である私にあるの。" TCC_NEWLINE
+        "あなたたちはただ目の前にある" TCC_NEWLINE
+        "任務に集中して。" TCC_NEWLINE TCC_PUSH_A
+        "さあ、帰還するわよ。" TCC_NEWLINE
+        "今日はだめでもいつか、" TCC_NEWLINE
+        "また彼に会えると信じましょう。" TCC_NEWLINE TCC_PUSH_A
+        TCC_CLEAR_FACE,
+
+
 };
 
 extern int lastTextID;
