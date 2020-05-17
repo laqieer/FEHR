@@ -177,6 +177,22 @@ var ChapterEvent = {
         // traps
         file.writeLine("TrapsEliwoodMode:");
         file.writeLine("TrapsHectorMode:");
+        for (var i = 0; i < map.layerCount; ++i) {
+            var layer = map.layerAt(i);
+            if(layer.name == "Trap") {
+                if (layer.isObjectLayer) {
+                    for (const object of layer.objects) {
+                        var type = object.tile.imageFileName;
+                        type = type.substring(type.lastIndexOf("\\")+1).substring(type.lastIndexOf("/")+1).split(".")[0];
+                        if (type.indexOf("Ballista") != -1) {
+                            var x = parseInt(object.x / 16);
+                            var y = parseInt(object.y / 16) - 1;
+                            file.writeLine("\tTrap" + type + "(" + x + "," + y + ")");
+                        }
+                    }
+                }
+            }
+        }
         file.writeLine("END_TRAP");
 
         // Map Changes
