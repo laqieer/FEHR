@@ -23,8 +23,7 @@ enum GBAEmulator {EMU_NONE = 0, EMU_MGBA, EMU_NOCASH, EMU_VBAM, EMU_VBA, EMU_RET
     debugprintf("File %s, Line %d, Function %s: ", __FILE__, __LINE__, __func__); \
     debugprintf(fmt, __VA_ARGS__)
 #else
-#define Debugf(fmt, ...) \
-    savprintf(fmt, __VA_ARGS__)
+#define Debugf(fmt, ...) 
 #endif
 
 void initTextGrid();
