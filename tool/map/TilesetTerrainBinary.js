@@ -115,7 +115,6 @@ var TilesetTerrainBinary = {
             if(tile.terrain.topLeft == null) {
                 if(defaultTerrain === undefined) {
                     error = "tile #" + tile.id + " doesn't have terrain info.";
-                    tiled.alert(error);
                     tiled.error(error);
                 } else {
                     bufView[tile.id + 1] = getTerrainID(defaultTerrain);
