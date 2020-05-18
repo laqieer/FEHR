@@ -74,10 +74,28 @@ const char* const texts[] = {
                   "失敗。。。" TCC_NEWLINE
                   "しちゃいました。。。" TCC_PUSH_A,
 
+        // character Bruno name
+        [1323] = "ブルーノ",
+
+        // character Bruno description
+        [522] = "仮面の騎士。その素性も目的も不明。",
+
          // character Bruno death quote
          [TEXT_DEATH_QUOTE_BRUNO] = TCC_OPEN_FAR_RIGHT
                 TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
                     "グアアアア" TCC_PUSH_A,
+
+        // character Veronica name
+        [1335] = "ヴェロニカ",
+
+        // character Veronica description
+        [529] = "エンブラ帝国の皇女。英雄たちを使い、アスク王国へと侵攻する。",
+
+        // Veronica job name
+        [1205] = "死の皇女",
+
+        // Veronica job description
+        [593] = "エンブラ帝国皇女。",
 
         // character Veronica death quote
         [TEXT_DEATH_QUOTE_VERONICA] = TCC_OPEN_FAR_RIGHT
