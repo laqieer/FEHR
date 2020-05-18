@@ -10,3 +10,6 @@
 [submodule "res/voice/se2m4a"]
 	path = res/voice/se2m4a
 	url = https://github.com/laqieer/se2m4a.git
+[submodule "res/feh"]
+	path = res/feh
+	url = https://github.com/HertzDevil/feh-assets-json.git
