@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4074] = TCC_OPEN_LEFT 
+"。。。っ。。。！" TCC_NEWLINE
+"触るな！" TCC_NEWLINE
+"俺に触るんじゃない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

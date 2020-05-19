@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2092] = TCC_OPEN_LEFT 
+"魔剣ミストルティンは" TCC_NEWLINE
+"人の血をほしがる。。。" TCC_NEWLINE
+"むざむざと餌食になりたいか。" TCC_NEWLINE TCC_PUSH_A
+""
+,

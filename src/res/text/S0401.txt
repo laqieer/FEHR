@@ -1,0 +1,19 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0401] = TCC_OPEN_LEFT 
+"あなたがアスク王国の" TCC_NEWLINE
+"アルフォンス王子ですね。" TCC_NEWLINE
+"初めてお目にかかります。" TCC_NEWLINE TCC_PUSH_A
+"ぼくはロイ。若輩の身ですが、" TCC_NEWLINE
+"父の代理として、" TCC_NEWLINE
+"フェレの軍を率いています。" TCC_NEWLINE TCC_PUSH_A
+"異界の王族に刃を向ける無礼、" TCC_NEWLINE
+"どうかお許しください。"
+,
+[MID_SCENARIO_MAP_END_S0401] = TCC_OPEN_LEFT 
+"強い。。。" TCC_NEWLINE
+"話に聞いていた通り、" TCC_NEWLINE
+"さすが異界の英雄。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、ぼくも契約を交わした身。" TCC_NEWLINE
+"まだ、ここで負けるわけには。。。"
+,

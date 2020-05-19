@@ -1,0 +1,96 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4043] = TCC_OPEN_LEFT 
+"いくら嘆いても、" TCC_NEWLINE
+"故郷の雪は解けてはくれません。" TCC_NEWLINE
+"私は戦わなければ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4043] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"。。。あ。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。この。。。景色って。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"シャロン？" TCC_NEWLINE
+"どうかしたのかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あのお花畑。。。" TCC_NEWLINE
+"わたし。。。おぼえてます。" TCC_NEWLINE
+"そんな気がするんです。" TCC_NEWLINE TCC_PUSH_A
+"胸の奥からいっぱい。。。" TCC_NEWLINE
+"懐かしい気持ちが" TCC_NEWLINE
+"あふれてきて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"懐かしい。。。？" TCC_NEWLINE
+"この夢の世界アルフがってこと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。ずっと昔。。。子供の頃。。。" TCC_NEWLINE
+"わたし、ここへ来たんです。" TCC_NEWLINE
+"きっと、眠っている間に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"きゃ、思った通り。" TCC_NEWLINE
+"やっぱりそうだったのね。" TCC_NEWLINE TCC_PUSH_A
+"もしかしてここで" TCC_NEWLINE
+"アルフの妖精さんと" TCC_NEWLINE
+"遊んだりしたのかも？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。一緒に遊んだのは、" TCC_NEWLINE
+"。。。わたしと同じくらいの女の子たちで。。。" TCC_NEWLINE
+"かくれんぼしたり、おままごとしたり。。。" TCC_NEWLINE TCC_PUSH_A
+"あ、ピアニーさんに" TCC_NEWLINE
+"どこか似てた子もいたような。。。" TCC_NEWLINE
+"ピアニーさん、憶えてません？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"うーん、うーん。。。ごめんなさい。" TCC_NEWLINE
+"夢の中でいろんな子たちと遊んだけど、" TCC_NEWLINE
+"シャロンはいなかったかも。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうですか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"シャロンが子供の頃ということは、" TCC_NEWLINE
+"何年も。。。もしかしたら十\年近く" TCC_NEWLINE
+"昔のことかもしれないね。" TCC_NEWLINE TCC_PUSH_A
+"ピアニー、" TCC_NEWLINE
+"そういえば君の年齢は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お兄様！" TCC_NEWLINE
+"女性に年を聞くなんて" TCC_NEWLINE
+"失礼ですよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そうよアルフォンス！" TCC_NEWLINE
+"失礼よ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"す、すみません。。。" TCC_NEWLINE
+"なぜアンナ隊長まで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"年齢？　それって生まれてから" TCC_NEWLINE
+"何年経ったかってことよね。" TCC_NEWLINE
+"それは。。。私もわからないの。" TCC_NEWLINE TCC_PUSH_A
+"アルフの時の流れは" TCC_NEWLINE
+"人間界とは違っているし。。。" TCC_NEWLINE
+"私は気がついたらここにいたの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"気がついたら、このアルフに？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ええ。フロージ様と、" TCC_NEWLINE
+"フロージ様の妹君のフレイヤ様の御力で、" TCC_NEWLINE
+"私は妖精として生を受けたの。" TCC_NEWLINE TCC_PUSH_A
+"だから、みんなに" TCC_NEWLINE
+"幸せな夢をいっぱい届けたい。" TCC_NEWLINE
+"きっとそれが、私の生まれた意味。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

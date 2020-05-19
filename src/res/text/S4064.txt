@@ -1,0 +1,39 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4064] = TCC_OPEN_LEFT 
+"ミドリコ、" TCC_NEWLINE
+"もっとお父さんのそばにいたいな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4064] = "この森に" TCC_NEWLINE
+"お兄様たちはいるはずよ。。。" TCC_NEWLINE
+"もう少し、おくかしら。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"この一帯は視界が悪い。" TCC_NEWLINE
+"みんなで手分けした方が" TCC_NEWLINE
+"良さそうだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"じゃあピアニーさん、" TCC_NEWLINE
+"わたしたちはこの付近を捜しましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"はーい。" TCC_NEWLINE
+"かくれんぼみたいで楽しそう。" TCC_NEWLINE
+"わくわく♪" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうですね、" TCC_NEWLINE
+"うきうきします！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。へんなひとたち。" TCC_NEWLINE
+"こどもみたい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ヴェロニカ皇女、" TCC_NEWLINE
+"僕たちは奥へ向かおう。" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,206 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4065] = "あ。。。！" TCC_NEWLINE
+"お兄様、マークスも。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"ヴェロニカ。。。？" TCC_NEWLINE
+"お前も来ていたのか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT 
+"ひさしぶりだな、" TCC_NEWLINE
+"ヴェロニカ皇女。" TCC_NEWLINE TCC_PUSH_A
+""
+"ふたりとも、ぶじでよかった。。。" TCC_NEWLINE
+"しんぱいしたんだから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。すまない。" TCC_NEWLINE
+"だが、まだ目的は果たせていない。" TCC_NEWLINE
+"すぐにまた出かけねばな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"そんな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ヴェロニカ。。。" TCC_NEWLINE
+"お前も共に来てくれ。" TCC_NEWLINE
+"危険な旅になるが。。。" TCC_NEWLINE TCC_PUSH_A
+"もうこれ以上、" TCC_NEWLINE
+"お前に寂しい思いを" TCC_NEWLINE
+"させたくはない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+"ええ、もちろん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。すまない、ザカリア。" TCC_NEWLINE
+"僕も君に協力して欲しいことがあるんだ。" TCC_NEWLINE TCC_PUSH_A
+"僕の仲間が教えてくれた。。。" TCC_NEWLINE
+"今、この世界は、" TCC_NEWLINE
+"悪夢に襲われている。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"悪夢。。。だと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"信じられないのも無理はないよ。" TCC_NEWLINE
+"でも、君も実際に会って" TCC_NEWLINE
+"話を聞いてもらえれば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あのひと、いまは、もりの入り口で" TCC_NEWLINE
+"シャロン王女とあそんでるわ。" TCC_NEWLINE
+"すぐそこよ。。。" TCC_NEWLINE TCC_PUSH_A
+"へんなかっこうで、" TCC_NEWLINE
+"なんだかこどもっぽいし。。。" TCC_NEWLINE
+"頼りになるかはわからないけど。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。信用できるのか？" TCC_NEWLINE
+"お前を欺こうとしている可能\性は？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"いや、僕は" TCC_NEWLINE
+"信頼できると思っているよ。" TCC_NEWLINE
+"だから頼む、ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。わかった。" TCC_NEWLINE
+"アルフォンス、" TCC_NEWLINE
+"お前がそこまで言うのなら。" TCC_NEWLINE TCC_PUSH_A
+"悪夢とやらの真偽はともかく。。。ひとまず" TCC_NEWLINE
+"お前の言う通り、彼女の話を聞こう。" TCC_NEWLINE
+"それでいいな？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。ありがとう。" TCC_NEWLINE TCC_PUSH_A
+""
+"やはり君は、" TCC_NEWLINE
+"ザカリアではないんだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あえて説明する必要もないけれど。。。" TCC_NEWLINE
+"君は、君がまだ知るはずのない" TCC_NEWLINE
+"事実を口にしたんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"君は悪夢の存在だ。" TCC_NEWLINE
+"ヴェロニカ皇女を" TCC_NEWLINE
+"連れて行かせはしない。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4065] = "くっ。。。" TCC_NEWLINE
+"くくく。。。" TCC_NEWLINE
+"くくくくく。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT 
+"くくく。。。" TCC_NEWLINE
+"くくくく。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"お兄様。。。マークス。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"待つんだ、ヴェロニカ皇女。" TCC_NEWLINE
+"あれは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあアルフォンス、" TCC_NEWLINE
+"夢の続きといこうか？" TCC_NEWLINE TCC_PUSH_A
+"お前の母親を" TCC_NEWLINE
+"また殺してやろう。" TCC_NEWLINE
+"この現実でもな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"やはり、悪夢のザカリア。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4065] = "お兄様とマークスが。。。" TCC_NEWLINE
+"消えてしまう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"あれは僕の見た悪夢だ。。。" TCC_NEWLINE
+"僕たちの知る" TCC_NEWLINE
+"ザカリアたちじゃない。" TCC_NEWLINE TCC_PUSH_A
+""
+"そんな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4065] = "アルフォンス王子。" TCC_NEWLINE
+"あなたたちは、" TCC_NEWLINE
+"ようせいに会いに行くのね。" TCC_NEWLINE TCC_PUSH_A
+"。。。あたしもいくわ。" TCC_NEWLINE
+"あなたたちは、今起きてるへんなことを" TCC_NEWLINE
+"なんとかできそうだし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ありがとう、ヴェロニカ皇女。" TCC_NEWLINE
+"協力に感謝するよ。" TCC_NEWLINE TCC_PUSH_A
+""
+"べつに。。。" TCC_NEWLINE
+"あなたのためじゃないわ。" TCC_NEWLINE TCC_PUSH_A
+"でも、" TCC_NEWLINE
+"お兄様には会えなかった。。。" TCC_NEWLINE
+"ずっと。。。会いたかったのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"アルフォンス王子。。。" TCC_NEWLINE
+"あなたは昔のお兄様と" TCC_NEWLINE
+"仲良しだったんでしょう？" TCC_NEWLINE TCC_PUSH_A
+"お兄様のこと、教えて。" TCC_NEWLINE
+"初めて出会ったのは、いつ？" TCC_NEWLINE
+"どんなふうに一緒にいたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ、それはね。。。" TCC_NEWLINE TCC_PUSH_A
+"それは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"！" TCC_NEWLINE
+"そんな。。。どうして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。思い出せないんだ。。。" TCC_NEWLINE TCC_PUSH_A
+"古い過去の記憶が。。。" TCC_NEWLINE
+"ぼやけている。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"忘れちゃったの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうしてなんだ。。。？" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "のことは" TCC_NEWLINE
+"はっきり覚えている。" TCC_NEWLINE
+"初めて会った日のことも。。。" TCC_NEWLINE TCC_PUSH_A
+"なのに、昔の記憶は。。。" TCC_NEWLINE
+"もやがかかったように。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"もしかして、夢現のせい。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わからない。。。" TCC_NEWLINE
+"でも、違う。。。そんな予\感がする。" TCC_NEWLINE TCC_PUSH_A
+"これには何か理由がある。。。" TCC_NEWLINE
+"とてもはっきりした理由が。。。" TCC_NEWLINE TCC_PUSH_A
+"ただ、今の僕には" TCC_NEWLINE
+"それが何かわからない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"もし今、ザカリアと再会できても。。。" TCC_NEWLINE
+"彼が昔を懐かしんで、" TCC_NEWLINE
+"思い出を語ってくれても。。。" TCC_NEWLINE TCC_PUSH_A
+"僕はそれを覚えていない。。。" TCC_NEWLINE
+"まるで彼への気持ちを" TCC_NEWLINE
+"なくしてしまったかのように。。。" TCC_NEWLINE TCC_PUSH_A
+"辛いことだね。。。" TCC_NEWLINE
+"忘れてしまうというのは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"アルフォンス王子。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

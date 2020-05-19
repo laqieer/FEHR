@@ -1,0 +1,114 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S1601] = TCC_OPEN_LEFT 
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE TCC_PUSH_A
+"こんばんは。" TCC_NEWLINE
+"お休み中のところ、" TCC_NEWLINE
+"大変失礼いたします。" TCC_NEWLINE TCC_PUSH_A
+"今、私の儀式で。。。" TCC_NEWLINE
+"眠っているあなたに" TCC_NEWLINE
+"語りかけています。" TCC_NEWLINE TCC_PUSH_A
+"エンブラ、ムスペルとの" TCC_NEWLINE
+"戦いの渦中にあるあなたに、" TCC_NEWLINE
+"少しでもお力添えをしたくて。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。あら、ごめんなさい。" TCC_NEWLINE
+"申\し遅れました。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT 
+"私はスリーズと申\します。" TCC_NEWLINE
+"氷の王国ニフルの第一王女です。" TCC_NEWLINE TCC_PUSH_A
+"フィヨルムとはもう" TCC_NEWLINE
+"お会いになりましたか？" TCC_NEWLINE
+"私はフィヨルムの姉なのです。" TCC_NEWLINE TCC_PUSH_A
+"あの子は思いつめすぎるところが" TCC_NEWLINE
+"玉にきずですけれど、" TCC_NEWLINE
+"でも本当に優しい良い子で。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。あら、ごめんなさい。" TCC_NEWLINE
+"お伝えしたいのは" TCC_NEWLINE
+"そのことではなくて。。。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国の西方に、" TCC_NEWLINE
+"アスクの【覚醒の儀】の" TCC_NEWLINE
+"神殿がありますね。" TCC_NEWLINE TCC_PUSH_A
+"そのさらに西方に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S1601] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"西方にある神殿。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "が" TCC_NEWLINE
+"言ったとおりだったね。" TCC_NEWLINE TCC_PUSH_A
+"まさかこんな場所に" TCC_NEWLINE
+"こんな神殿があるなんて。。。" TCC_NEWLINE
+"僕たちも知らなかったよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"すごいです！" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんは" TCC_NEWLINE
+"何でもご存じなんですね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな、気をつけて。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "が夢で" TCC_NEWLINE
+"聞いたという謎の人物の声。。。" TCC_NEWLINE TCC_PUSH_A
+"敵の罠である可能\性も" TCC_NEWLINE
+"無いわけじゃないわ。" TCC_NEWLINE
+"慎重に奥へ進むわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S1601] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ここが神殿の最奥部。。。" TCC_NEWLINE
+"この間の神殿と" TCC_NEWLINE
+"よく似たつくりみたいね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ほんとですね、" TCC_NEWLINE
+"あ、前みたいに" TCC_NEWLINE
+"石板がありますよ！" TCC_NEWLINE TCC_PUSH_A
+""
+"お兄様、お兄様！" TCC_NEWLINE
+"さあ、出番です！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。僕は解読係じゃないんだけどな。" TCC_NEWLINE
+"わかったよ、読んでみよう。" TCC_NEWLINE
+"ええと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"『この儀を語るを禁ず。" TCC_NEWLINE
+"　この儀を写すを禁ず。" TCC_NEWLINE
+"　この儀を明かすを禁ず』" TCC_NEWLINE TCC_PUSH_A
+"『これなる儀は" TCC_NEWLINE
+"　エンブラの【覚醒の儀】。。。" TCC_NEWLINE
+"　その片鱗をあらわすもの』" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"エンブラ帝国の。。。！？" TCC_NEWLINE
+"そんなものが" TCC_NEWLINE
+"どうしてこのアスクに？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"『儀は、刃を研ぐに似たるもの。" TCC_NEWLINE
+"　剣はその力を増し、" TCC_NEWLINE
+"　書はその魔を増す』" TCC_NEWLINE TCC_PUSH_A
+"『封じられし殺戮の力。。。" TCC_NEWLINE
+"　されど、戦においては" TCC_NEWLINE
+"　万の兵に勝る味方とならん』" TCC_NEWLINE TCC_PUSH_A
+"『我がアスクが" TCC_NEWLINE
+"　予\言の炎に焼かれし時、" TCC_NEWLINE
+"　この禁を解くものとす』" TCC_NEWLINE TCC_PUSH_A
+"ここから先は、" TCC_NEWLINE
+"儀式の手順が" TCC_NEWLINE
+"書かれているようだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どうします、アンナ隊長？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"敵国エンブラの力。。。" TCC_NEWLINE
+"でも、使い方を誤らなければ" TCC_NEWLINE
+"強力な武器になるかもしれない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"迷う理由はないわ。" TCC_NEWLINE
+"持ち帰って、" TCC_NEWLINE
+"詳しく調べてみましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,

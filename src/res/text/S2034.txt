@@ -1,0 +1,23 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2034] = TCC_OPEN_LEFT 
+"私は帝国の将ゼルギウス。" TCC_NEWLINE
+"貴殿らが異界の強者。。。" TCC_NEWLINE
+"相手にとって不足はない。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2034] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"もうすぐです、皆さん。" TCC_NEWLINE
+"この山を越えれば、私がニフルから" TCC_NEWLINE
+"来る時に通った、儀式の【門】が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"！　あの炎は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"街に火の手が。。。！" TCC_NEWLINE
+"あれは。。。ムスペル軍。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"くっ。。。！　急ごう！" TCC_NEWLINE TCC_PUSH_A
+""
+,

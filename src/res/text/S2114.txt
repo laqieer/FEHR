@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2114] = TCC_OPEN_LEFT 
+"た、高い所から失礼致します。" TCC_NEWLINE
+"この子と空を飛ぶのはまだ慣れな。。。ああん、" TCC_NEWLINE
+"待って、止まってください～" TCC_NEWLINE TCC_PUSH_A
+""
+,

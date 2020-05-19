@@ -1,0 +1,13 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2032] = TCC_OPEN_LEFT 
+"私は。。。" TCC_NEWLINE
+"ヴェロニカ皇女との契約がある。。。" TCC_NEWLINE
+"戦うしか。。。ないもの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT 
+"ミカヤ。。。" TCC_NEWLINE
+"俺はあんたの傍を離れない。" TCC_NEWLINE
+"ミカヤは、俺が守る。" TCC_NEWLINE TCC_PUSH_A
+""
+,

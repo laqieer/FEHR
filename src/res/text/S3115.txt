@@ -1,0 +1,145 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"エイル王女が、ヘルのもとに。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"ええ。。。私は死の王ヘルの娘。" TCC_NEWLINE
+"死の王国に戻って。。。あなたが今" TCC_NEWLINE
+"知りたい情報をひそかに送るの。" TCC_NEWLINE TCC_PUSH_A
+"死の軍勢の配置や。。。" TCC_NEWLINE
+"お母様の所在も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それは。。。あまりに危険すぎる。" TCC_NEWLINE
+"君が僕たちと共にいることは" TCC_NEWLINE
+"既にヘルも知っているはずだよ。" TCC_NEWLINE TCC_PUSH_A
+"必ずヘルに疑われる。" TCC_NEWLINE
+"遅かれ早かれ。。。" TCC_NEWLINE
+"君は拷問され、殺される。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"構\わないわ、" TCC_NEWLINE
+"私の命なら、どうなっても。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちは私の友達。" TCC_NEWLINE
+"私は、あなたたちの命が" TCC_NEWLINE
+"失われてほしくないの。だから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ありがとう、エイル王女。" TCC_NEWLINE TCC_PUSH_A
+"。。。でも、それはできない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"どうして。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"確かに、そうすれば" TCC_NEWLINE
+"この戦に勝つ可能\性を" TCC_NEWLINE
+"高められるかもしれない。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、それは君を犠牲にした勝利だ。" TCC_NEWLINE
+"僕はその道は選びたくない。" TCC_NEWLINE TCC_PUSH_A
+"今の君のように。。。" TCC_NEWLINE
+"苦しんでいる人を、" TCC_NEWLINE
+"見捨てたりはできない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"アルフォンス王子。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"大丈夫だよ、エイル王女。" TCC_NEWLINE
+"今までの戦いもそうだった。" TCC_NEWLINE
+"どんなに不利に見える状況でも。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "や" TCC_NEWLINE
+"みんなと力を合わせれば、" TCC_NEWLINE
+"僕たちは決して負けない。" TCC_NEWLINE TCC_PUSH_A
+"僕を信じて欲しい。" TCC_NEWLINE
+"戦いが終わって、僕たちが" TCC_NEWLINE
+"みんなで笑い合えるように。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"何が。。。" TCC_NEWLINE
+"みんなで笑い合えるように。。。だ。" TCC_NEWLINE
+"アルフォンス。。。" TCC_NEWLINE TCC_PUSH_A
+"お前は。。。" TCC_NEWLINE
+"誰も救えなかったのだ。" TCC_NEWLINE
+"誰も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。やはり、" TCC_NEWLINE
+"ここへ来たか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。やはり、" TCC_NEWLINE
+"ここにいたんだね。" TCC_NEWLINE
+"リーヴ。。。" TCC_NEWLINE TCC_PUSH_A
+"いや。。。アルフォンス。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。行くぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ああ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。ぐ。。。ぅっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。勝負はついた。" TCC_NEWLINE
+"もう、終わりにしよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。まだだ。" TCC_NEWLINE
+"こんなものは。。。" TCC_NEWLINE
+"まだ終わりではない。" TCC_NEWLINE TCC_PUSH_A
+"アルフォンス。" TCC_NEWLINE
+"お前がまだ知らず。。。" TCC_NEWLINE
+"俺だけが知っていることがある。" TCC_NEWLINE TCC_PUSH_A
+"何かわかるか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"敗北だ。" TCC_NEWLINE TCC_PUSH_A
+"敗北がどれほど無残な結果を生むか。。。" TCC_NEWLINE
+"俺はいやというほど味わわされた。" TCC_NEWLINE TCC_PUSH_A
+"だから俺は。。。二度と敗北しない。" TCC_NEWLINE
+"敗北してはならない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"無駄な抵抗は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"この戦い。。。俺とお前の条件は違う。" TCC_NEWLINE
+"お前の勝利は、生き延びてヘルを討つこと。" TCC_NEWLINE
+"だが。。。" TCC_NEWLINE TCC_PUSH_A
+"俺の勝利は、俺が生き延びることではない。" TCC_NEWLINE
+"たとえこの身がどうなろうと。。。" TCC_NEWLINE
+"お前の死が、俺の勝利だ。" TCC_NEWLINE TCC_PUSH_A
+"だから俺は、ずっと前から考えていた。。。" TCC_NEWLINE
+"世界が滅び、ヘルと契約した時から。。。" TCC_NEWLINE
+"この城でお前と戦う可能\性を。" TCC_NEWLINE TCC_PUSH_A
+"そう、ずっと前からだ。。。" TCC_NEWLINE
+"城のすべての柱と壁に" TCC_NEWLINE
+"細工を打っておくには十\分なほど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！？" TCC_NEWLINE TCC_PUSH_A
+"みんな、急いで脱出を。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もう、遅い。" TCC_NEWLINE TCC_PUSH_A
+"ヴァイス・ブレイヴの。。。" TCC_NEWLINE
+"懐かしき城の瓦礫に埋もれ、" TCC_NEWLINE
+"眠るがいい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

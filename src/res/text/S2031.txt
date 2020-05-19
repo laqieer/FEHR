@@ -1,0 +1,85 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2031] = TCC_OPEN_LEFT 
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE TCC_PUSH_A
+"こんにちは。" TCC_NEWLINE
+"以前も夢の中でこんなふうに、" TCC_NEWLINE
+"お話させていただきましたね。" TCC_NEWLINE TCC_PUSH_A
+"ニフル王国の王女スリーズと申\します。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"あなたがご無事でほっと致しました。。。" TCC_NEWLINE TCC_PUSH_A
+"ムスペル軍との戦いで、" TCC_NEWLINE
+"お疲れではありませんか？" TCC_NEWLINE TCC_PUSH_A
+"もし直接お会いできたなら、" TCC_NEWLINE
+"あなたの疲れを" TCC_NEWLINE
+"私が癒してさしあげたいのですが。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。あ、すみません。" TCC_NEWLINE
+"本題はそのことではなくて。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "様、" TCC_NEWLINE
+"どうかこちらへ。。。" TCC_NEWLINE
+"ニフル王国へお越しください。" TCC_NEWLINE TCC_PUSH_A
+"スルトは不死不滅。。。" TCC_NEWLINE
+"私たちニフルも、あなた方アスクも、" TCC_NEWLINE
+"スルトを討つことはできません。" TCC_NEWLINE TCC_PUSH_A
+"ですが、" TCC_NEWLINE
+"私たちが共に力を合わせれば、" TCC_NEWLINE
+"まだ希望はあるのです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"スルト率いるムスペルの軍勢は" TCC_NEWLINE
+"アスク王国内を依然侵攻中。。。" TCC_NEWLINE TCC_PUSH_A
+"現在は、国王陛下率いる" TCC_NEWLINE
+"王国騎士団が迎撃にあたっているわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"父上が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"王国騎士団は特務機関の情報をもとに、" TCC_NEWLINE
+"スルト本人とは極力交戦せず、" TCC_NEWLINE
+"徐々に自領奥深くへと後退。。。" TCC_NEWLINE TCC_PUSH_A
+"今は時間稼ぎね。" TCC_NEWLINE
+"でも、いつまでも続けられる" TCC_NEWLINE
+"作戦じゃないわ。" TCC_NEWLINE TCC_PUSH_A
+"撤退中、逃げ遅れた兵たちは、" TCC_NEWLINE
+"スルトに焼き殺されたそうよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE TCC_PUSH_A
+"私の姉が。。。スリーズが" TCC_NEWLINE
+"ニフルへ来てくださいと、" TCC_NEWLINE
+"そう話したのですね？" TCC_NEWLINE TCC_PUSH_A
+"それなら、共に参りましょう。" TCC_NEWLINE
+"姉はニフルの魔道や儀式に詳しい方です。" TCC_NEWLINE
+"きっと、何か手立てがあるのです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"スルトに。。。" TCC_NEWLINE
+"あの男に対抗する手段が" TCC_NEWLINE
+"ニフル王国に？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"はい。そしてそれはきっと、" TCC_NEWLINE
+"ニフル王国の私たちでは果たせないこと。。。" TCC_NEWLINE
+"アスク王国の皆様のお力が必要なのです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わかった。" TCC_NEWLINE
+"それなら、行こう。" TCC_NEWLINE
+"ニフル王国へ。" TCC_NEWLINE TCC_PUSH_A
+"一刻も早く、" TCC_NEWLINE
+"スルトに対抗する手段を見つける。" TCC_NEWLINE
+"できなければ、アスクは滅んでしまう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"ニフル王国への道行きは、" TCC_NEWLINE
+"私がご案内いたします。" TCC_NEWLINE
+"さあ、参りましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,126 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3063] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"極力交戦を避け、" TCC_NEWLINE
+"敵から身を隠しながら行軍を続けて。。。" TCC_NEWLINE
+"今日で十\日になるわね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"遥か遠くに見えていた城が" TCC_NEWLINE
+"近づいてきた。" TCC_NEWLINE
+"あれがヘルの居城。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"ええ、死の国の最果て。。。" TCC_NEWLINE
+"死者を統べるお母様の。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。あ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"止まって。" TCC_NEWLINE TCC_PUSH_A
+"死が。。。" TCC_NEWLINE
+"お母様が。。。来るわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3063] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HEL
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"やはり現れたな、ヘル。。。" TCC_NEWLINE TCC_PUSH_A
+"この死の王国でお前を倒せば、" TCC_NEWLINE
+"お前は死ぬのか。。。" TCC_NEWLINE
+"それとも、別の方法が必要なのか。。。" TCC_NEWLINE TCC_PUSH_A
+"今ここで、確かめさせてもらう！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3063] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HEL
+"。。。死を前にして、" TCC_NEWLINE
+"何をしようと無駄なこと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3063] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ヘルは消えた。。。" TCC_NEWLINE
+"だが。。。ここから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HEL
+"。。。死すべき定めの人間よ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！" TCC_NEWLINE
+""
+"" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"呪う。" TCC_NEWLINE
+"死の王ヘルの名において。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。っ。。。。。。！" TCC_NEWLINE
+"だめ。。。。。。か。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"父を死なせて" TCC_NEWLINE
+"命を長らえたとて。。。" TCC_NEWLINE
+"無駄なこと。" TCC_NEWLINE TCC_PUSH_A
+"アルフォンス。。。" TCC_NEWLINE
+"お前が死ぬことに" TCC_NEWLINE
+"何の変わりもない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE
+"確かに、その通りだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、僕を呪うがいい。" TCC_NEWLINE
+"僕に【死すべき定め】を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。貴様、何を笑っている？" TCC_NEWLINE TCC_PUSH_A
+"私の【死すべき定め】で。。。" TCC_NEWLINE
+"貴様は九日後に必ず死ぬ。" TCC_NEWLINE
+"貴様の父と同じ目に遭うのだ。。。" TCC_NEWLINE TCC_PUSH_A
+"その恐怖に気でも狂ったか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。わからないか、死の王よ。" TCC_NEWLINE TCC_PUSH_A
+"お前の呪いで、" TCC_NEWLINE
+"九日後に必ず死ぬというのなら。。。" TCC_NEWLINE
+"それが絶対の定めだというのなら。。。" TCC_NEWLINE TCC_PUSH_A
+"九日後が来るまで、" TCC_NEWLINE
+"お前は僕を絶対に殺せない。。。" TCC_NEWLINE
+"ということだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"僕は既にこの国に侵入を果たした。" TCC_NEWLINE
+"ここにお前を討つ手がかりが必ずある。" TCC_NEWLINE
+"後は、それを見つけるだけだ。" TCC_NEWLINE TCC_PUSH_A
+"そして九日後、お前は必ず" TCC_NEWLINE
+"僕の目の前に現れてくれる。。。" TCC_NEWLINE
+"お前を捜す必要さえない。" TCC_NEWLINE TCC_PUSH_A
+"さあ、呪うがいい。" TCC_NEWLINE
+"死の王ヘルよ。" TCC_NEWLINE
+"僕は喜んで呪われよう。" TCC_NEWLINE TCC_PUSH_A
+""
+"そして予\告する。" TCC_NEWLINE
+"お前の命こそが、あと九日だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。貴様。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。【死すべき定め】を恐れぬか。。。" TCC_NEWLINE
+"。。。死を、私を恐れぬというか。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。良かろう。" TCC_NEWLINE
+"貴様は呪わぬ。" TCC_NEWLINE
+"そのような生易しい死は与えぬ。。。" TCC_NEWLINE TCC_PUSH_A
+"死の恐怖を。。。" TCC_NEWLINE
+"骨の髄まで刻み込んだ後。。。" TCC_NEWLINE
+"殺すと予\言しよう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"消えた。。。" TCC_NEWLINE
+"立ち去ったのか。。。" TCC_NEWLINE TCC_PUSH_A
+"やはり、ここにあるんだ。" TCC_NEWLINE
+"ヘルを討つ手がかりが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

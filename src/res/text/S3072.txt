@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3072] = TCC_OPEN_LEFT 
+"身体が熱い。。。" TCC_NEWLINE
+"私の中の血が。。。暴\れ出そうと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3102] = TCC_OPEN_LEFT 
+"面倒くさいのはやだけど、" TCC_NEWLINE
+"ヒルダちゃんがやるしかないみたいねー。" TCC_NEWLINE TCC_PUSH_A
+""
+,

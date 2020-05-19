@@ -1,0 +1,24 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4033] = TCC_OPEN_LEFT 
+"アイラ母様は生きているわ！" TCC_NEWLINE
+"。。。わたしは信じてるもの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4033] = TCC_OPEN_LEFT 
+"あそぼ　あそぼ" TCC_NEWLINE
+"あそびましょ" TCC_NEWLINE TCC_PUSH_A
+"あそぼ　あそぼ" TCC_NEWLINE
+"かくれんぼ　しましょ" TCC_NEWLINE TCC_PUSH_A
+"ここは　ひみつの" TCC_NEWLINE
+"あそびばよ" TCC_NEWLINE TCC_PUSH_A
+"おとな　たちには" TCC_NEWLINE
+"ないしょだよ" TCC_NEWLINE TCC_PUSH_A
+"あそぼ　あそぼ" TCC_NEWLINE
+"あそびましょ" TCC_NEWLINE TCC_PUSH_A
+"あそぼ　あそぼ" TCC_NEWLINE
+"いつまでも" TCC_NEWLINE TCC_PUSH_A
+"あそぼ" TCC_NEWLINE
+"あそぼ" TCC_NEWLINE TCC_PUSH_A
+""
+,

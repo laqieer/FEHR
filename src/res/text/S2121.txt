@@ -1,0 +1,154 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2121] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ねえ、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "はどう思う？" TCC_NEWLINE
+"フリーズ王子の言う裏切者の話。。。" TCC_NEWLINE TCC_PUSH_A
+"本当に、" TCC_NEWLINE
+"私たちの中に裏切者が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"そんな、裏切者なんて、" TCC_NEWLINE
+"いるはずないですよ。" TCC_NEWLINE TCC_PUSH_A
+"わたしたちも、ニフルの人たちも、" TCC_NEWLINE
+"仲間なんですから。" TCC_NEWLINE
+"絶対大丈夫です！　うん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でも。。。万が一本当に裏切者がいたら、" TCC_NEWLINE
+"フリーズ王子の言う通り、" TCC_NEWLINE
+"これは致命傷になるわ。" TCC_NEWLINE TCC_PUSH_A
+"裏切者の可能\性。。。" TCC_NEWLINE TCC_PUSH_A
+"まず、私たちアスクや" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "は" TCC_NEWLINE
+"絶対あり得ないでしょ。" TCC_NEWLINE TCC_PUSH_A
+"特務機関の内部調査は完璧よ。" TCC_NEWLINE
+"機関の人間に" TCC_NEWLINE
+"裏切り者はいないと断言できるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい！　もちろんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ニフルの人々は。。。" TCC_NEWLINE
+"フィヨルム王女も、" TCC_NEWLINE
+"とても裏切者とは思えないわ。" TCC_NEWLINE TCC_PUSH_A
+"あとは消去法で言えば、" TCC_NEWLINE
+"ユルグ王女か、" TCC_NEWLINE
+"フリーズ王子のどちらか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"安心してください。" TCC_NEWLINE
+"それは、どちらもあり得ません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あっ、フィヨルム王女。。。" TCC_NEWLINE
+"ごめんなさい。" TCC_NEWLINE
+"別にニフルを疑ってるわけじゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"お気になさらないでください。" TCC_NEWLINE
+"フリーズ兄様と同じく、" TCC_NEWLINE
+"万一をお考えになるのは当然です。" TCC_NEWLINE TCC_PUSH_A
+"でも、それは絶対にない。。。" TCC_NEWLINE
+"そのことをお伝えしたいのです。" TCC_NEWLINE TCC_PUSH_A
+"私たち兄妹は皆、" TCC_NEWLINE
+"誓約を交わした身ですから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"誓約ってなんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"私たちの神にして祖。。。" TCC_NEWLINE
+"氷竜ニフルへの神聖なる誓いです。" TCC_NEWLINE TCC_PUSH_A
+"私たち四人の兄妹は、" TCC_NEWLINE
+"ムスペルの侵略に立ち向かう時、" TCC_NEWLINE
+"皆で誓約したのです。" TCC_NEWLINE TCC_PUSH_A
+"ムスペルに立ち向かうために" TCC_NEWLINE
+"この身を捧げると。。。" TCC_NEWLINE
+"こほっ。。。けほっ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"フィヨルム王女、" TCC_NEWLINE
+"ご無理なさらないでください。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ただの誓いの言葉。。。" TCC_NEWLINE
+"そう思われるかもしれません。" TCC_NEWLINE
+"でも、違うのです。" TCC_NEWLINE TCC_PUSH_A
+"私たちニフルの王族にとって、" TCC_NEWLINE
+"誓約を破ることは" TCC_NEWLINE
+"死にも勝る恥辱。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、私は約束できるのです。" TCC_NEWLINE
+"ニフルの者たちは皆、" TCC_NEWLINE
+"あなたたちの味方だと。。。けほっ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もちろんです！" TCC_NEWLINE
+"わたしたちもそう信じてます。" TCC_NEWLINE
+"ですよね、お兄様？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。そうだね。" TCC_NEWLINE
+"僕もニフルの皆を" TCC_NEWLINE
+"疑うつもりはないよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"そしてもちろん、" TCC_NEWLINE
+"あなた方アスクの中にも" TCC_NEWLINE
+"裏切者はいません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうね。" TCC_NEWLINE
+"だからこそ、わからないの。。。" TCC_NEWLINE TCC_PUSH_A
+"本当に裏切者はいるのかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2121] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HRID
+"炎の儀には今、" TCC_NEWLINE
+"供物として二人の少女が" TCC_NEWLINE
+"捧げられている。。。" TCC_NEWLINE TCC_PUSH_A
+"スルトを蘇らせる炎、" TCC_NEWLINE
+"その炎を保つための。。。" TCC_NEWLINE
+"言うなれば、薪だ。" TCC_NEWLINE TCC_PUSH_A
+"ザカリアは言っていた。" TCC_NEWLINE
+"二人の少女のうち一人は、" TCC_NEWLINE
+"自分の妹だと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"妹。。。？" TCC_NEWLINE
+"ヴェロニカ皇女が。。。！" TCC_NEWLINE TCC_PUSH_A
+"皇女まで" TCC_NEWLINE
+"スルトの犠牲に" TCC_NEWLINE
+"なっているのか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ヴェロニカ皇女は敵ですけど。。。" TCC_NEWLINE
+"でも、こうなると" TCC_NEWLINE
+"なんだかかわいそうですね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_YLGR
+"二人の少女。。。？" TCC_NEWLINE
+"もう一人って誰？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ザカリアも知らないようだった。" TCC_NEWLINE
+"ムスペルの王族か。。。" TCC_NEWLINE
+"それとも他の国の王族か。。。" TCC_NEWLINE TCC_PUSH_A
+"いずれにせよ早く救い出さねば、" TCC_NEWLINE
+"二人は焼き尽くされ、" TCC_NEWLINE
+"息絶えることになるだろう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"ええ、急ぎましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2121] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HRID
+"道はこちらだ。" TCC_NEWLINE
+"これから先、敵襲はもはや避けられない、" TCC_NEWLINE
+"覚悟して臨もう。" TCC_NEWLINE TCC_PUSH_A
+""
+,

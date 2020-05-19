@@ -1,0 +1,143 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"ここは、夢の門。。。" TCC_NEWLINE
+"フロージ様がおっしゃっていた場所よ。" TCC_NEWLINE
+"きっとここに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"来たのね、" TCC_NEWLINE
+"幸夢のピアニー。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたは、スカビオサ！" TCC_NEWLINE
+"やっぱりここにいたのね。" TCC_NEWLINE TCC_PUSH_A
+"黒妖精さんたち、" TCC_NEWLINE
+"人間たちにまた悪い夢を見せてるでしょ？" TCC_NEWLINE
+"そんなのだめ！" TCC_NEWLINE TCC_PUSH_A
+"さあ、もう元の世界に戻って。" TCC_NEWLINE
+"人間たちを悪夢から解放してあげて！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。それはできないわ。" TCC_NEWLINE
+"幸夢のピアニー。" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたを消せば。。。" TCC_NEWLINE
+"人間たちは悪夢だけを" TCC_NEWLINE
+"見るようになるのかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4045] = "っ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。私たちの負け、ね。" TCC_NEWLINE
+"退きましょう。。。プルメリア。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"黒妖精さん、もう悪いことしちゃだめ。" TCC_NEWLINE
+"みんな悲しんじゃうんだから。" TCC_NEWLINE TCC_PUSH_A
+"さ、これでいいわ。" TCC_NEWLINE
+"フロージ様から" TCC_NEWLINE
+"賜った角笛の出番よ。" TCC_NEWLINE TCC_PUSH_A
+"今吹けば、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんも" TCC_NEWLINE
+"きっと戻ってくるわ。" TCC_NEWLINE TCC_PUSH_A
+"吹いて。さあ吹いて。" TCC_NEWLINE
+"わくわく、わくわく♪" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"わかった。やってみるよ。" TCC_NEWLINE TCC_PUSH_A
+"夢の王フロージの名において。。。" TCC_NEWLINE
+"僕たちに、目覚めを。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"角笛の音。。。" TCC_NEWLINE
+"うん、うまくいったみたい。" TCC_NEWLINE
+"良かった。。。" TCC_NEWLINE TCC_PUSH_A
+"悪夢はいなくなって、" TCC_NEWLINE
+"あなたたちは夢から目覚めるの。" TCC_NEWLINE TCC_PUSH_A
+"寂しいけれど。。。" TCC_NEWLINE
+"ここでお別れね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ピアニーさん？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"夢が終わるわ。。。" TCC_NEWLINE TCC_PUSH_A
+"目が覚めると、あなたたちは" TCC_NEWLINE
+"私たち妖精のことを" TCC_NEWLINE
+"忘れてしまうの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そんな。。。！" TCC_NEWLINE
+"せっかく友達になれたのに、" TCC_NEWLINE
+"そんなの悲しいです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ありがとう、シャロン。" TCC_NEWLINE
+"ごめんね。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、私はいつでも" TCC_NEWLINE
+"あなたたちのことを" TCC_NEWLINE
+"見守ってるから。。。" TCC_NEWLINE TCC_PUSH_A
+"いつか、またね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ピアニー。。。" TCC_NEWLINE TCC_PUSH_A
+"ああ、いつかまた会おう。。。" TCC_NEWLINE
+"夢の中で。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FREYR
+"。。。。。。角笛の音。。。。。。" TCC_NEWLINE
+"これで、彼らは元の世界へ。。。" TCC_NEWLINE TCC_PUSH_A
+"！？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。おひさしぶりね、お兄様。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"フレイヤ。。。" TCC_NEWLINE
+"なぜお前がここへ？" TCC_NEWLINE TCC_PUSH_A
+""
+"だって、お兄様がいない世界なんて" TCC_NEWLINE
+"つまらないんですもの。" TCC_NEWLINE TCC_PUSH_A
+"お兄様には、私の世界。。。" TCC_NEWLINE
+"スヴァルトアルフに" TCC_NEWLINE
+"来ていただくわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それは許されぬことだ。" TCC_NEWLINE
+"そのようなことをすれば、" TCC_NEWLINE
+"悪夢が人間たちの世界に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ。夢は現に。。。" TCC_NEWLINE
+"人間たちは寝ても覚めても終わらない" TCC_NEWLINE
+"真の悪夢を見ることになる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"よすのだ、フレイヤ。" TCC_NEWLINE
+"人間たちには幸せな営みを。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"相変わらず、人間想いなのね。。。" TCC_NEWLINE
+"妬けてしまうわ。" TCC_NEWLINE TCC_PUSH_A
+"大切な角笛を人間なんかに" TCC_NEWLINE
+"渡してしまったせいで。。。" TCC_NEWLINE
+"今、私に抗えずにいるなんて。" TCC_NEWLINE TCC_PUSH_A
+"ああ、許せない。許せないわ。。。" TCC_NEWLINE
+"私のお兄様の愛が。。。" TCC_NEWLINE
+"人間なんかに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"フレイヤ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、スカビオサ、プルメリア。" TCC_NEWLINE
+"お兄様をお連れしなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+"はい、フレイヤ様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あの人間たち。。。" TCC_NEWLINE
+"角笛の音で、" TCC_NEWLINE
+"もう目覚めた頃でしょうね。" TCC_NEWLINE TCC_PUSH_A
+"でも、目覚めた先まで" TCC_NEWLINE
+"悪夢が追いかけてきたら。。。" TCC_NEWLINE
+"一体どんな顔をするのかしら？" TCC_NEWLINE TCC_PUSH_A
+"お兄様のお心を奪ったお前たちが、" TCC_NEWLINE
+"報いを受けるのはこれからよ、" TCC_NEWLINE
+"人間。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

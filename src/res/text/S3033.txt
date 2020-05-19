@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3033] = TCC_OPEN_LEFT 
+"英雄に、契約。。。なんとも物珍しい話だ。" TCC_NEWLINE
+"さて、異邦のベオクよ。" TCC_NEWLINE
+"せっかくの縁だ、ひとつ腕比べといこうか？" TCC_NEWLINE TCC_PUSH_A
+""
+,

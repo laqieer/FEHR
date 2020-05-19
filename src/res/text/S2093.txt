@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2093] = TCC_OPEN_LEFT 
+"すまないが。。。死んでもらう。" TCC_NEWLINE
+"雷神イシュタルの魔道。。。" TCC_NEWLINE
+"受けるがいい。" TCC_NEWLINE TCC_PUSH_A
+""
+,

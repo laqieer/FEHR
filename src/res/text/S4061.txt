@@ -1,0 +1,172 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4061] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ありがとう、ピアニー。" TCC_NEWLINE
+"君のおかげで、隊長やみんなも" TCC_NEWLINE
+"思い出してくれたよ。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "のこと。。。" TCC_NEWLINE
+"それに、君のことも。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"どういたしまして！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それで、君が言っていた" TCC_NEWLINE
+"フロージ王のことだけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。フロージ様がね、" TCC_NEWLINE
+"悪夢の国スヴァルトアルフに" TCC_NEWLINE
+"連れ去られてしまったの。" TCC_NEWLINE TCC_PUSH_A
+"そこには妹君のフレイヤ様がいて、" TCC_NEWLINE
+"フロージ様とフレイヤ様が一緒にいると、" TCC_NEWLINE
+"とってもたいへんなの。" TCC_NEWLINE TCC_PUSH_A
+"夢現。。。" TCC_NEWLINE
+"それが起きてしまうの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ゆめうつつ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"夢が、別の世界。。。" TCC_NEWLINE
+"この現実世界にまで" TCC_NEWLINE
+"影響を与えてしまうこと。" TCC_NEWLINE TCC_PUSH_A
+"スヴァルトアルフの悪い夢が、" TCC_NEWLINE
+"この世界まであふれてきちゃうの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そういうことか。。。" TCC_NEWLINE
+"それで、アスク王国が" TCC_NEWLINE
+"こんな状態に。。。" TCC_NEWLINE TCC_PUSH_A
+"どうすれば、元に戻せる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"スヴァルトアルフに行って、" TCC_NEWLINE
+"フロージ様を助け出すの。" TCC_NEWLINE
+"おねがい、私たちを助けて！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わかった。" TCC_NEWLINE
+"。。。けれど、どうやって" TCC_NEWLINE
+"スヴァルトアルフへ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"えっとね、えっとね、" TCC_NEWLINE
+"私に考えがあるの！" TCC_NEWLINE TCC_PUSH_A
+"この世界にいる" TCC_NEWLINE
+"妖精さんの力を借りるのよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"妖精さん。。。？" TCC_NEWLINE
+"このアスク王国にも妖精が。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ。起きているのに、" TCC_NEWLINE
+"ふと夢を見てしまう。。。" TCC_NEWLINE
+"そんなことってない？" TCC_NEWLINE TCC_PUSH_A
+"人間たちが白昼夢と呼ぶ" TCC_NEWLINE
+"その夢を見せるのが。。。" TCC_NEWLINE
+"【白夢】のルピナス。私の友達よ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4061] = "アスクは、ころすわ。。。" TCC_NEWLINE TCC_PUSH_A
+"ころすわ。。。" TCC_NEWLINE
+"ころすわ。。。" TCC_NEWLINE
+"ころすわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"これは。。。以前も" TCC_NEWLINE
+"夢で見たことがある。" TCC_NEWLINE
+"悪夢のヴェロニカ皇女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな、準備は良いわね！" TCC_NEWLINE
+"迎え撃つわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4061] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"悪夢が消えていく。。。" TCC_NEWLINE
+"これで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。ねえ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！？" TCC_NEWLINE
+"くっ。。。" TCC_NEWLINE
+"また悪夢が。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+"悪夢。。。？" TCC_NEWLINE
+"失礼な人ね。" TCC_NEWLINE TCC_PUSH_A
+"。。。あなたたちにとっては" TCC_NEWLINE
+"あたしは敵だから。。。" TCC_NEWLINE
+"そうなのかもしれないけど。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。？" TCC_NEWLINE
+"もしかして君は。。。" TCC_NEWLINE
+"現実のヴェロニカ皇女なのか？" TCC_NEWLINE TCC_PUSH_A
+""
+"現実？" TCC_NEWLINE
+"ええ、そうよ。" TCC_NEWLINE
+"あたりまえでしょう。" TCC_NEWLINE TCC_PUSH_A
+"あなた、今起きていることについて" TCC_NEWLINE
+"何か知ってるのね。" TCC_NEWLINE
+"話してちょうだい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ。それなら" TCC_NEWLINE
+"彼女が詳しい話を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"きゃっ、私の出番ね。" TCC_NEWLINE
+"嬉しいな、嬉しいな。" TCC_NEWLINE TCC_PUSH_A
+"はじめまして！" TCC_NEWLINE
+"私、ピアニー。" TCC_NEWLINE
+"夢の国アルフの妖精よ。" TCC_NEWLINE TCC_PUSH_A
+""
+"夢の国。。。？" TCC_NEWLINE
+"ようせい。。。？" TCC_NEWLINE TCC_PUSH_A
+"なにこのひと、へんなひと。。。" TCC_NEWLINE
+"かっこうもへんだし。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ひ、ひどーい！" TCC_NEWLINE
+"あなたはちっちゃな子供なのに、" TCC_NEWLINE
+"もう夢見る心をなくしちゃったの？" TCC_NEWLINE TCC_PUSH_A
+""
+"夢みる心とか。。。" TCC_NEWLINE
+"そういうのはあとにして。" TCC_NEWLINE
+"しってることをはやく話して。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4061] = "ふぅん。。。" TCC_NEWLINE TCC_PUSH_A
+"それで、ルピナスっていう" TCC_NEWLINE
+"ようせいはどこにいるの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"あっちよ。" TCC_NEWLINE
+"あのひろーい森の中！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"あっち。。。" TCC_NEWLINE
+"国境の霧の森のことのようだね。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。いいわ。" TCC_NEWLINE
+"それなら、あたしも" TCC_NEWLINE
+"一緒にいってあげる。" TCC_NEWLINE TCC_PUSH_A
+"お兄様も、" TCC_NEWLINE
+"そこにいるはずだから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ザカリアが？" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ。" TCC_NEWLINE
+"お兄様はマークスといっしょに。。。" TCC_NEWLINE
+"ながい旅にでてるの。" TCC_NEWLINE TCC_PUSH_A
+"ずっと会えなかったけど。。。" TCC_NEWLINE
+"でも、しらせがあったの。" TCC_NEWLINE
+"お兄様らしき人をみかけたって。" TCC_NEWLINE TCC_PUSH_A
+"お兄様が戻ってきてる。。。" TCC_NEWLINE
+"だから、会いにいくわ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

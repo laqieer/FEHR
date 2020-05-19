@@ -1,0 +1,20 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4042] = TCC_OPEN_LEFT 
+"竜の門から僕らを呼ぶ懐かしい声。。。" TCC_NEWLINE
+"あれは。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4042] = TCC_OPEN_LEFT 
+"あそぼ　あそぼ" TCC_NEWLINE
+"あそびましょ" TCC_NEWLINE TCC_PUSH_A
+"あそぼ　あそぼ" TCC_NEWLINE
+"なぞなぞあそび　しましょ" TCC_NEWLINE TCC_PUSH_A
+"めを　あけたとき　みえなくて" TCC_NEWLINE
+"めを　とじたとき　みえるもの" TCC_NEWLINE TCC_PUSH_A
+"ひとつめ　こたえは　ゆめかしら" TCC_NEWLINE
+"もひとつ　こたえは　なーんだ" TCC_NEWLINE TCC_PUSH_A
+"あそぼ" TCC_NEWLINE
+"あそぼ" TCC_NEWLINE TCC_PUSH_A
+""
+,

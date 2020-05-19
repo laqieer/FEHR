@@ -1,0 +1,84 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"え。。。？" TCC_NEWLINE
+"あ、あれ。。。？" TCC_NEWLINE TCC_PUSH_A
+"ここって。。。もしかして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"この風景、" TCC_NEWLINE
+"そしてこの大地。。。" TCC_NEWLINE TCC_PUSH_A
+"ここは、まさか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"！" TCC_NEWLINE
+"アルフォンス、シャロン、" TCC_NEWLINE
+"敵襲に備えて！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵部隊は撃破したわ。" TCC_NEWLINE
+"でも、ここって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様、" TCC_NEWLINE
+"ここってやっぱり。。。" TCC_NEWLINE TCC_PUSH_A
+"わたしたちの" TCC_NEWLINE
+"アスク王国ですよね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"そのようだね。" TCC_NEWLINE
+"おそらく、ここは" TCC_NEWLINE
+"異界のアスク王国。。。" TCC_NEWLINE TCC_PUSH_A
+"それ自体は驚きはしない。" TCC_NEWLINE
+"この世界には無数の異界がある。。。" TCC_NEWLINE
+"異界のアスク王国もね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"でも。。。" TCC_NEWLINE
+"アスク王国なのに、" TCC_NEWLINE
+"誰もいません。" TCC_NEWLINE TCC_PUSH_A
+"街の人たちも、誰も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"四方を偵察が見てきた限り、" TCC_NEWLINE
+"どこも状況は同じよ。" TCC_NEWLINE
+"全く人の気配がない。。。" TCC_NEWLINE TCC_PUSH_A
+"いるのはただ、" TCC_NEWLINE
+"死者の兵だけ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"みんな、どこに行って" TCC_NEWLINE
+"しまったんでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。先へ進もう。" TCC_NEWLINE
+"もう少し、調べてみたい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"あらん、おかえりなさい。" TCC_NEWLINE
+"どうだったかしら、ヘルの軍勢は？" TCC_NEWLINE TCC_PUSH_A
+""
+"よわいわ。。。" TCC_NEWLINE
+"でも、ころしてもころしても" TCC_NEWLINE
+"わいてくる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうねえ。それが死の軍勢の恐ろしさ。。。" TCC_NEWLINE
+"彼らは死ぬことがないの。" TCC_NEWLINE
+"だって、もう死んでるものねえ？" TCC_NEWLINE TCC_PUSH_A
+"死の女王ヘルが存在する限り、" TCC_NEWLINE
+"死の軍勢は止まらない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。じゃあ、おしえて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え？" TCC_NEWLINE TCC_PUSH_A
+""
+"ヘルの国への行きかた。" TCC_NEWLINE TCC_PUSH_A
+"あたしがいって、" TCC_NEWLINE
+"ヘルをころしてくるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

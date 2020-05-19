@@ -1,0 +1,88 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3091] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様、" TCC_NEWLINE
+"どういうことなんですか？" TCC_NEWLINE
+"リーヴがお兄様って。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"あの男は" TCC_NEWLINE
+"否定も肯定もしなかった。。。" TCC_NEWLINE
+"でも、おそらく間違いない。" TCC_NEWLINE TCC_PUSH_A
+"彼は、初代王リーヴではなく、" TCC_NEWLINE
+"異界の僕だ。" TCC_NEWLINE TCC_PUSH_A
+"今はヘルの配下だが。。。" TCC_NEWLINE
+"ヘルを倒す方法。。。" TCC_NEWLINE
+"【心臓】のことも知っているはず。" TCC_NEWLINE TCC_PUSH_A
+""
+"【心臓】。。。" TCC_NEWLINE
+"なぁに、それ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"おそらくエンブラ帝国の何らかの儀式。。。" TCC_NEWLINE
+"って！？" TCC_NEWLINE
+"ヴェ、ヴェロニカ皇女。。。！？" TCC_NEWLINE TCC_PUSH_A
+"な、なぜ。。。ここに！？" TCC_NEWLINE
+"いったいどうやって！？" TCC_NEWLINE TCC_PUSH_A
+""
+"ヘルの軍勢のせいで。。。" TCC_NEWLINE
+"エンブラの民まで" TCC_NEWLINE
+"おびやかされているわ。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、きたの。" TCC_NEWLINE
+"ほうほうは、" TCC_NEWLINE
+"ロキがおしえてくれたわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ではヴェロニカ皇女。" TCC_NEWLINE
+"ヘルを倒すために" TCC_NEWLINE
+"僕たちに協力すると？" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ、そうよ。。。" TCC_NEWLINE TCC_PUSH_A
+"ヘルをころす。。。" TCC_NEWLINE
+"それまでのあいだだけ。。。" TCC_NEWLINE
+"協力してあげる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えー、ほんとですか～？" TCC_NEWLINE
+"そんなこと言って" TCC_NEWLINE
+"裏切るつもりじゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"し。。。だまって。" TCC_NEWLINE TCC_PUSH_A
+"あっち。。。てきがきたわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3091] = "。。。死の軍勢ね。" TCC_NEWLINE
+"あれはあなたたちでなんとかして。" TCC_NEWLINE
+"終わったら、続きを話して。。。" TCC_NEWLINE TCC_PUSH_A
+"あたし、やすむわ。" TCC_NEWLINE
+"ここに来るまでで" TCC_NEWLINE
+"つかれてるから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"わ、わがまま！" TCC_NEWLINE
+"やっぱり仲間じゃないです！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3091] = "ふぅん。。。" TCC_NEWLINE
+"【心臓】が。。。" TCC_NEWLINE
+"ヘルをころす儀式、ね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ああ。でも、それ以上" TCC_NEWLINE
+"詳しい情報は" TCC_NEWLINE
+"書庫には残されていなかった。" TCC_NEWLINE TCC_PUSH_A
+""
+"じゃあ、行きましょう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"え？" TCC_NEWLINE
+"行くって、どこにですか？" TCC_NEWLINE TCC_PUSH_A
+""
+"あたしの国。。。エンブラよ。。。" TCC_NEWLINE TCC_PUSH_A
+"この世界のアスクに" TCC_NEWLINE
+"【心臓】の記録が" TCC_NEWLINE
+"残されていたのなら。。。" TCC_NEWLINE TCC_PUSH_A
+"この世界のエンブラにも" TCC_NEWLINE
+"何かあるはずでしょう。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+,

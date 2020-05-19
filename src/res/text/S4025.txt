@@ -1,0 +1,139 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4025] = "。。。私の悪夢を消したのは、" TCC_NEWLINE
+"あなたね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"あなた、" TCC_NEWLINE
+"アルフの妖精ではないのね。" TCC_NEWLINE
+"もしかして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"私は黒い夢の国" TCC_NEWLINE
+"スヴァルトアルフの黒妖精。。。" TCC_NEWLINE TCC_PUSH_A
+"悪夢のスカビオサ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"このアルフに入って、" TCC_NEWLINE
+"人々に怖い夢を見せているのは" TCC_NEWLINE
+"あなたなの？" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ。" TCC_NEWLINE
+"人々に悪夢を見せる。。。" TCC_NEWLINE
+"それが私だから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そんな、やめてあげて！" TCC_NEWLINE
+"そんなことしたら" TCC_NEWLINE
+"人間たちがかわいそうよ。" TCC_NEWLINE TCC_PUSH_A
+""
+"幸夢のピアニー。。。" TCC_NEWLINE
+"あなたのことは。。。" TCC_NEWLINE
+"フレイヤ様から聞いたわ。" TCC_NEWLINE TCC_PUSH_A
+"人に幸せな夢を見せる。。。" TCC_NEWLINE
+"私と正反対の妖精。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。消えて。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4025] = "フレイヤ様の御命令は絶対。" TCC_NEWLINE
+"私は諦めない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"ついたわ、" TCC_NEWLINE
+"ほら、ここよ。ここここ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ここって。。。" TCC_NEWLINE
+"大きなベッドがありますけど、" TCC_NEWLINE
+"ピアニーさんのですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ううん、これはね、" TCC_NEWLINE
+"夢の中で眠るためのベッドなの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"夢の中で。。。眠る。。。？" TCC_NEWLINE TCC_PUSH_A
+"すまない、混乱してきた。。。" TCC_NEWLINE
+"夢の中にいるということは、" TCC_NEWLINE
+"もう既に眠っているわけだから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だめだめ、難しく考えちゃ。" TCC_NEWLINE
+"さあ、みんなでここにごろーんてして。" TCC_NEWLINE
+"そしてぐっすりねんねするの。" TCC_NEWLINE TCC_PUSH_A
+"そうすれば、夢の中の夢で、" TCC_NEWLINE
+"私たちの王フロージ様に" TCC_NEWLINE
+"お会いできるの。" TCC_NEWLINE TCC_PUSH_A
+"さ、おやすみなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"き、急にそう言われても" TCC_NEWLINE
+"そう簡単に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。すぅすぅ。。。うふふ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"早いね、シャロン。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"シャロンくらい自由でないと" TCC_NEWLINE
+"この夢の世界には" TCC_NEWLINE
+"ついていけないのかしら。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。くっ、こうなったら" TCC_NEWLINE
+"私も覚悟を決めるわ。" TCC_NEWLINE
+"寝ればいいのね、寝れば。。。" TCC_NEWLINE TCC_PUSH_A
+"寝る！" TCC_NEWLINE
+"ここんとこ寝不足だったし、" TCC_NEWLINE
+"もう熟睡してやるわ！" TCC_NEWLINE TCC_PUSH_A
+"じゅくすい。。。して。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうそう、良い感じね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうしたの？" TCC_NEWLINE
+"私のこと、信用できない？" TCC_NEWLINE
+"悪い人かもって思ってる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"いや、そうじゃない。" TCC_NEWLINE TCC_PUSH_A
+"君のことは信用しているよ。" TCC_NEWLINE
+"もし君が敵なら、もっとたやすく" TCC_NEWLINE
+"僕たちを罠にかけることができた。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"じゃあ、" TCC_TACTICIAN_NAME "さんの" TCC_NEWLINE
+"ことが心配？" TCC_NEWLINE
+"大丈夫、フロージ様ならきっとご存知よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ああ、そうだね。。。" TCC_NEWLINE TCC_PUSH_A
+"気になっていることがあるんだ。。。" TCC_NEWLINE
+"昔の記憶が。。。" TCC_NEWLINE
+"どこかあいまいになっている。。。" TCC_NEWLINE TCC_PUSH_A
+"子供の頃の記憶を。。。" TCC_NEWLINE
+"うまく思い出せない。。。" TCC_NEWLINE TCC_PUSH_A
+"僕は。。。" TCC_NEWLINE
+"何か大切な。。。ことを。。。" TCC_NEWLINE
+"忘れているような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"おやすみなさい。" TCC_NEWLINE TCC_PUSH_A
+"人が誰かの傍で眠れるのは。。。" TCC_NEWLINE
+"相手のことを信頼してるから。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちは私を信じてくれた。" TCC_NEWLINE
+"それが、とっても嬉しいわ。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちの気持ちに応えたい。" TCC_NEWLINE
+"私、がんばるわ。" TCC_NEWLINE TCC_PUSH_A
+"私は幸夢のピアニー。" TCC_NEWLINE
+"あなたたちの見る夢が" TCC_NEWLINE
+"幸せでありますように。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

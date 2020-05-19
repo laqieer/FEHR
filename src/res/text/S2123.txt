@@ -1,0 +1,88 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2123] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"まだあがきやがるのか、てめーら。。。" TCC_NEWLINE
+"いい加減諦めてくたばりやがれ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2123] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"なんなんだ。。。てめーらは。。。" TCC_NEWLINE
+"くそっ。。。諦められねーのは" TCC_NEWLINE
+"俺だって同じだ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2123] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"勝てねえ。。。けど。。。" TCC_NEWLINE
+"勝たなきゃならねーんだ。。。" TCC_NEWLINE TCC_PUSH_A
+"俺が勝たなきゃ。。。" TCC_NEWLINE
+"あいつは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"。。。ヘルビンディ、" TCC_NEWLINE
+"ここにいたのね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ？" TCC_NEWLINE
+"あんたか。。。俺に何の用だ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。あなたへの命令はここまでよ。" TCC_NEWLINE
+"もうこれ以上、" TCC_NEWLINE
+"あなたは戦わなくていい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ？　何言ってんだ？" TCC_NEWLINE
+"俺は奴らをぶっ殺さなきゃ" TCC_NEWLINE
+"ならねーんだろうが！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それは私たちがやるわ。" TCC_NEWLINE
+"ムスペル王族の責務として。" TCC_NEWLINE
+"あなたは戦場を離れなさい。" TCC_NEWLINE TCC_PUSH_A
+"安心しなさい。" TCC_NEWLINE
+"あなたが生きていることは" TCC_NEWLINE
+"父上には決して知らせたりしないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どういう風の吹き回しだ？" TCC_NEWLINE
+"なんで急にそんな話をしやがる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"父上から聞かされたわ。" TCC_NEWLINE
+"ヘルビンディ。。。" TCC_NEWLINE
+"あなたが黒灰の城で敗れた後。。。" TCC_NEWLINE TCC_PUSH_A
+"父上は見せしめに" TCC_NEWLINE
+"あなたたちの貧民街を焼き尽くし、" TCC_NEWLINE
+"皆殺しにしたそうよ。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたの妹も。。。" TCC_NEWLINE
+"焼き殺されたと。。。そう聞いたわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。言いにくいけれど、だからもう。。。" TCC_NEWLINE
+"あなたが戦う必要はないの。" TCC_NEWLINE
+"私たちに従う必要も。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、あなたは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ヘルビンディ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。そうかよ。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。よく。。。わかったぜ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。なら、そうだな。。。" TCC_NEWLINE
+"。。。俺は。。。これから。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。これから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

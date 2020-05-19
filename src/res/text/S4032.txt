@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4032] = TCC_OPEN_LEFT 
+"いつか、時が経てば、あの頃のように" TCC_NEWLINE
+"共に空を駆けることが叶うのでしょうか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

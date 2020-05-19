@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3032] = TCC_OPEN_LEFT 
+"黒い鴉は、死の使い。。。だったか？" TCC_NEWLINE
+"まったく、ニンゲンってのは迷信好きだね。" TCC_NEWLINE
+"。。。ま、運がなかったと諦めてもらおうか。" TCC_NEWLINE TCC_PUSH_A
+""
+,

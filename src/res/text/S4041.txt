@@ -1,0 +1,80 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4041] = "。。。アルフの妖精たちは" TCC_NEWLINE
+"私たちを追ってきているわ。" TCC_NEWLINE
+"フレイヤ様が言っていた通り。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"はい。このまま順調にいけば、" TCC_NEWLINE
+"フレイヤ様に" TCC_NEWLINE
+"褒めていただけますね。" TCC_NEWLINE TCC_PUSH_A
+"それにしても、" TCC_NEWLINE
+"夢の国アルフ。。。" TCC_NEWLINE
+"ここは思ったより良い場所ですね。" TCC_NEWLINE TCC_PUSH_A
+"いやらしい心を持った" TCC_NEWLINE
+"人間の男たちもいないようですし。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。そうね。" TCC_NEWLINE TCC_PUSH_A
+""
+"私は人間に" TCC_NEWLINE
+"淫らな夢を見せる黒妖精。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、人間たちのいやらしい想像には" TCC_NEWLINE
+"とてもついていけません。" TCC_NEWLINE
+"あんな、けだもののような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。私は、そういう夢を" TCC_NEWLINE
+"人間に見せたことはないけれど。" TCC_NEWLINE TCC_PUSH_A
+"でも、" TCC_NEWLINE
+"私の悪夢を見た人間はみんな、" TCC_NEWLINE
+"苦しんで、悲しんでいたわ。。。" TCC_NEWLINE TCC_PUSH_A
+"幸夢のピアニー。。。" TCC_NEWLINE
+"彼女とは、正反対。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。何か？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。いいえ。行きましょう。" TCC_NEWLINE
+"私たち黒妖精は、" TCC_NEWLINE
+"あの方の御命令のままに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"くんくん、くんくん。" TCC_NEWLINE TCC_PUSH_A
+"うん、悪い夢の匂いがするわ。" TCC_NEWLINE
+"黒妖精さんたちはこっちよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ほ、本当。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。この夢の世界では、" TCC_NEWLINE
+"ピアニーを信じる他ありません。" TCC_NEWLINE
+"行きましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"悪い妖精さんたちは。。。こっちね！" TCC_NEWLINE
+"さあ、みんな、" TCC_NEWLINE
+"ピアニーについてきて！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ちょ、ちょっと待ちなさい！" TCC_NEWLINE
+"そっちは今来た道でしょ？" TCC_NEWLINE
+"戻ってどうするのよ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"人間界ではへんかもしれないけれど、" TCC_NEWLINE
+"夢の世界ではこっちでいいの。" TCC_NEWLINE
+"さ、ピアニーについてきて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はい、ピアニーさん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"なんか色々、" TCC_NEWLINE
+"私の中の常識が" TCC_NEWLINE
+"崩れていきそうだわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"はい、僕もです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

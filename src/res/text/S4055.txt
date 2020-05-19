@@ -1,0 +1,111 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4055] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"だめーっ、" TCC_NEWLINE
+"悪夢さんたち、こっちに来ないでー。" TCC_NEWLINE TCC_PUSH_A
+"元の世界に戻って！" TCC_NEWLINE
+"人間たちに悪いことしちゃだめ！" TCC_NEWLINE TCC_PUSH_A
+""
+"あっ、" TCC_NEWLINE
+"待って待って、" TCC_NEWLINE
+"妖精にもしちゃだめー！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"あれは。。。まさか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"誰か襲われているようね！" TCC_NEWLINE
+"すぐに敵を撃破して" TCC_NEWLINE
+"救出するわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4055] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"はぁ～良かった。" TCC_NEWLINE
+"ありがとう、助けてくれて。" TCC_NEWLINE
+"私は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"君は。。。" TCC_NEWLINE
+"やっぱり、ピアニーだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、あれ？" TCC_NEWLINE
+"私のこと、覚えてるの？" TCC_NEWLINE
+"ふしぎ。" TCC_NEWLINE TCC_PUSH_A
+"夢から覚めた人は" TCC_NEWLINE
+"妖精のことを" TCC_NEWLINE
+"忘れちゃうはずなのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様、" TCC_NEWLINE
+"この人は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"彼女は。。。" TCC_NEWLINE TCC_PUSH_A
+"そうだ、ピアニー。" TCC_NEWLINE
+"君に頼みがあるんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"なになに？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"君は初めて会った時、不思議な力で" TCC_NEWLINE
+"ザカリアたちの悪夢を" TCC_NEWLINE
+"かき消してくれた。。。" TCC_NEWLINE TCC_PUSH_A
+"同じことを、今ここで" TCC_NEWLINE
+"やってみてもらえないかな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うん、やってみるわ。" TCC_NEWLINE
+"強い悪夢さんは" TCC_NEWLINE
+"私だけじゃむずかしいけど。。。" TCC_NEWLINE TCC_PUSH_A
+"悪い夢さん、怖い夢さん。。。" TCC_NEWLINE
+"お願い、いなくなって。" TCC_NEWLINE TCC_PUSH_A
+"この世界は、" TCC_NEWLINE
+"人が幸せに暮らす場所なの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あ。。。あああっ！" TCC_NEWLINE TCC_PUSH_A
+"わたし。。。わたし。。。" TCC_NEWLINE
+"どうして。。。" TCC_NEWLINE
+"忘れてたんでしょう。" TCC_NEWLINE TCC_PUSH_A
+""
+"" TCC_TACTICIAN_NAME "さん。。。！" TCC_NEWLINE
+"それに、ピアニーさん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"きゃっ。" TCC_NEWLINE
+"思い出してくれたのね、シャロン。" TCC_NEWLINE
+"嬉しいな、嬉しいな。" TCC_NEWLINE TCC_PUSH_A
+""
+"みんな、" TCC_NEWLINE
+"私たちのアルフを助けて！" TCC_NEWLINE
+"たいへんなことが起きちゃったの！" TCC_NEWLINE TCC_PUSH_A
+"フロージ様が、" TCC_NEWLINE
+"悪夢の世界スヴァルトアルフに" TCC_NEWLINE
+"連れ去られちゃったの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だからだから悪い悪夢さんが" TCC_NEWLINE
+"現実世界にまでいっぱいきちゃって" TCC_NEWLINE
+"ああんもうフロージ様を助けなきゃ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ちょ、ちょっと待って欲しい。" TCC_NEWLINE
+"順番に話してくれないか。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、君に出会えて良かった。" TCC_NEWLINE
+"感謝するよ、ピアニー。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どういたしまして！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"この混乱を解決する手がかり。。。" TCC_NEWLINE
+"それはおそらく夢の中にある。" TCC_NEWLINE TCC_PUSH_A
+"君と一緒なら、それを探し出せるはずだ。" TCC_NEWLINE
+"そして、" TCC_TACTICIAN_NAME "も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

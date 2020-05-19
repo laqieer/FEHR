@@ -1,0 +1,48 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S1103] = "。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"君は。。。！" TCC_NEWLINE
+"待ってくれ。" TCC_NEWLINE
+"できれば君とは戦いたくない。" TCC_NEWLINE TCC_PUSH_A
+"君は以前、ヴェロニカ皇女の" TCC_NEWLINE
+"遺跡侵攻の情報を教えてくれた。" TCC_NEWLINE
+"あの時のことは感謝して。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"感謝。。。？" TCC_NEWLINE
+"。。。愚かな。。。" TCC_NEWLINE
+"勘違いも甚だしいな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何？" TCC_NEWLINE TCC_PUSH_A
+""
+"あれはただの戯れ。。。" TCC_NEWLINE
+"妹にアスク征服の名誉を奪われるのは" TCC_NEWLINE
+"愉快ではなかっただけのこと。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"妹。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"そうだ。。。" TCC_NEWLINE
+"ヴェロニカは我が妹。" TCC_NEWLINE TCC_PUSH_A
+"我が名はブルーノ。。。" TCC_NEWLINE
+"エンブラ帝国皇子ブルーノだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！" TCC_NEWLINE
+"エンブラの皇子。。。ブルーノ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"敵対国の王族同士。。。" TCC_NEWLINE
+"殺し合う理由は十\分だな。" TCC_NEWLINE
+"では、行くぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1103] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。いくら抗おうが、無駄なことだ。" TCC_NEWLINE TCC_PUSH_A
+"こちらに" TCC_NEWLINE
+"加護を受けた英雄がいる以上、" TCC_NEWLINE
+"お前たちに永遠に勝ち目はない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

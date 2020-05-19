@@ -1,0 +1,98 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4053] = TCC_OPEN_LEFT 
+"はあ。。。疲れた。" TCC_NEWLINE
+"何か甘いもの食べたいなあ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4053] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。" TCC_NEWLINE
+"。。。フロージ王の話によれば。。。" TCC_NEWLINE TCC_PUSH_A
+"夢から覚めれば、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "は" TCC_NEWLINE
+"戻ってくるはずだった。だが。。。" TCC_NEWLINE TCC_PUSH_A
+"これも、悪夢のせい。。。？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "を失うことを" TCC_NEWLINE
+"僕が恐れたから、悪夢が現実に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あの、お兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、すまない。。。" TCC_NEWLINE
+"考え事をしていたんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"何か悩み事ですか？" TCC_NEWLINE
+"わたしで良かったら話してください。" TCC_NEWLINE
+"お兄様のお力になりたいです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ありがとう、シャロン。" TCC_NEWLINE
+"。。。そうだね。。。" TCC_NEWLINE TCC_PUSH_A
+"信じられないだろうけど。。。" TCC_NEWLINE
+"さっきまで、僕たちはみんな" TCC_NEWLINE
+"夢の世界にいたんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"夢の、世界。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ。" TCC_NEWLINE
+"そして、夢の世界に現れた悪夢が、" TCC_NEWLINE
+"この現実にまで影響を及ぼしている。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。なんて、" TCC_NEWLINE
+"急におかしなことを言い始めたと" TCC_NEWLINE
+"思うだろうけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いいえ。" TCC_NEWLINE
+"わたし、もちろん信じますよ、" TCC_NEWLINE
+"夢の世界！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ほ、本当に。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい。だってわたし、子供の頃から" TCC_NEWLINE
+"夢の世界ってあるんじゃないかなーって" TCC_NEWLINE
+"なんとなく思ってましたから。" TCC_NEWLINE TCC_PUSH_A
+"お兄様がそうおっしゃるのでしたら、" TCC_NEWLINE
+"ますます間違いないです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロンの純真さに" TCC_NEWLINE
+"救われた気持ちだよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ。" TCC_NEWLINE
+"でも、もしそうだとしたら、" TCC_NEWLINE
+"どうしたらいいんでしょうか。。。？" TCC_NEWLINE TCC_PUSH_A
+"だって、もしも夢が" TCC_NEWLINE
+"現実に出てくるとしたら。。。それってもう" TCC_NEWLINE
+"なんでもありってことですよね？" TCC_NEWLINE TCC_PUSH_A
+"そんなの、考えても" TCC_NEWLINE
+"どうしようもない気がしますけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いや。。。僕はそうは思わない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"悪夢は、恐怖が生み出すものらしい。" TCC_NEWLINE
+"それなら、現れる敵、起こる出来事は" TCC_NEWLINE
+"僕たちの想像の範囲に限られるはずだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"そして、夢の世界の理は、" TCC_NEWLINE
+"この現実でも通用する。。。" TCC_NEWLINE TCC_PUSH_A
+"夢で悪夢を倒せたなら、" TCC_NEWLINE
+"現実でも倒せる。。。" TCC_NEWLINE
+"つまり。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"さ、さすがお兄様。。。" TCC_NEWLINE
+"夢のことでも現実的です！" TCC_NEWLINE TCC_PUSH_A
+""
+,

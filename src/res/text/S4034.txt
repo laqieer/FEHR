@@ -1,0 +1,22 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4034] = TCC_OPEN_LEFT 
+"私は勇者などではない。" TCC_NEWLINE
+"ただの臆病者です。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4034] = TCC_OPEN_LEFT 
+"あそぼ　あそぼ" TCC_NEWLINE
+"あそびましょ" TCC_NEWLINE TCC_PUSH_A
+"あそぼ　あそぼ" TCC_NEWLINE
+"とりかえっこ　しましょ" TCC_NEWLINE TCC_PUSH_A
+"かわいい　おようふく" TCC_NEWLINE
+"ちいさな　おくつ" TCC_NEWLINE TCC_PUSH_A
+"あなたは　わたし" TCC_NEWLINE
+"わたしは　あなた" TCC_NEWLINE TCC_PUSH_A
+"あなたは　だあれ" TCC_NEWLINE
+"わたしは　だあれ" TCC_NEWLINE TCC_PUSH_A
+"わたしは" TCC_NEWLINE
+"だあれ" TCC_NEWLINE TCC_PUSH_A
+""
+,

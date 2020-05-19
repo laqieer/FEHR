@@ -1,0 +1,61 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0605] = TCC_OPEN_LEFT 
+"あっ。。。" TCC_NEWLINE
+"あなたたちが、" TCC_NEWLINE
+"ヴェロニカの言ってた悪い人？" TCC_NEWLINE TCC_PUSH_A
+"やーっ、おねがい、来ないで！" TCC_NEWLINE
+"それ以上近づいたら。。。" TCC_NEWLINE TCC_PUSH_A
+"チキ、てかげんできないの。" TCC_NEWLINE
+"あなたたちが、" TCC_NEWLINE
+"大変なことになっちゃう。。。"
+,
+[MID_SCENARIO_MAP_END_S0605] = TCC_OPEN_LEFT 
+"やられちゃった。。。" TCC_NEWLINE
+"でも、ありがとう！" TCC_NEWLINE
+"これでチキ、もとに戻れるの。" TCC_NEWLINE TCC_PUSH_A
+"もうむりやりたたかわなくても" TCC_NEWLINE
+"よくなったの。。。"
+,
+[MID_SCENARIO_ENDING_S0605] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ふうっ、お疲れさま。" TCC_NEWLINE
+"無事に任務を果たせたわ。" TCC_NEWLINE
+"今回の狙いはマルスではなかったようね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"「紋章の異界」は以前も解放した。" TCC_NEWLINE
+"けれど扉が開いている限り、" TCC_NEWLINE
+"奴等は何度でも同じ異界に攻め込んでくる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"もちろん特務機関は、" TCC_NEWLINE
+"扉の警護もしているんですよ？" TCC_NEWLINE
+"でも、存在する扉の数は膨大で。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"その上、エンブラ帝国軍は" TCC_NEWLINE
+"いつどこに攻め込んでくるかわかりません。" TCC_NEWLINE TCC_PUSH_A
+"わたしたち王族が扉を閉める力さえ" TCC_NEWLINE
+"持っていればいいんですけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"両国の力はふたつでひとつ。" TCC_NEWLINE
+"僕たちが扉を閉める力を持つとしたら、" TCC_NEWLINE
+"向こうは扉を開く力を持つことになる。" TCC_NEWLINE TCC_PUSH_A
+""
+"そうしたらエンブラ帝国軍は" TCC_NEWLINE
+"僕たちが閉じた扉を、" TCC_NEWLINE
+"何度も開きに来ることになるだろうね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ううっ、それはそれで厄介です。。。！" TCC_NEWLINE
+"というか今より大変かもしれません。" TCC_NEWLINE
+"閉じてる扉でも油断できなくなりますから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"片方の国が両方の力を持てない以上、" TCC_NEWLINE
+"協力しないことにはこの戦いは" TCC_NEWLINE
+"終わらないということね。" TCC_NEWLINE TCC_PUSH_A
+"。。。さて、この前の陽動を考えると、" TCC_NEWLINE
+"他の扉が襲撃されている可能\性もあるわ。" TCC_NEWLINE
+"念のため、見回りをしておきましょう！"
+,

@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4062] = TCC_OPEN_LEFT 
+"‚ ‚½‚µ‚É‚Í‰Š‚ÌŒŒ‚ª—¬‚ê‚Ä‚é‚ñ‚¾B" TCC_NEWLINE
+"‹CˆÀ‚­G‚ê‚½‚ç‰Î‚·‚é‚¼H" TCC_NEWLINE TCC_PUSH_A
+""
+,

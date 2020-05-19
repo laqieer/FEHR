@@ -1,0 +1,121 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3111] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ヘルを討つ武器の行方。。。" TCC_NEWLINE
+"結局、振り出しに" TCC_NEWLINE
+"戻っちゃったわね。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女が" TCC_NEWLINE
+"くれた情報は" TCC_NEWLINE
+"敵の罠だったし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。む。" TCC_NEWLINE
+"あたしのせいって言いたいの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、いや、そういうわけじゃ。。。" TCC_NEWLINE
+"そんなに睨まないで？" TCC_NEWLINE TCC_PUSH_A
+""
+"問題は、これからどこを探すかね。" TCC_NEWLINE
+"さすがに大陸をやみくもに" TCC_NEWLINE
+"探すわけにもいかないし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"武器はおそらく、リーヴ。。。" TCC_NEWLINE
+"異界の僕自身が持っています。" TCC_NEWLINE TCC_PUSH_A
+"そしてリーヴがいる場所は。。。" TCC_NEWLINE
+"僕たちの本拠。。。" TCC_NEWLINE
+"特務機関の城。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"す、すごいですお兄様！" TCC_NEWLINE
+"どうして" TCC_NEWLINE
+"そこまでわかるんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。僕なら。。。" TCC_NEWLINE
+"自分ならどうするだろうか。。。？" TCC_NEWLINE
+"そう考えてみただけだよ。" TCC_NEWLINE TCC_PUSH_A
+"僕は、リーヴの考えが" TCC_NEWLINE
+"わかる気がするんだ。" TCC_NEWLINE
+"リーヴは、僕自身だから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3111] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"他に有効な手がかりもないわ。" TCC_NEWLINE
+"アルフォンスの読みに" TCC_NEWLINE
+"賭けましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+"目指すは" TCC_NEWLINE
+"ヴァイス・ブレイヴの本拠地よ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3111] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"敵は撃破した。" TCC_NEWLINE
+"行こう、リーヴのもとへ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3111] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_THRASIR
+"じゃあ、行ってくるわ。" TCC_NEWLINE
+"アルフォンス。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ヴェロニカ。。。" TCC_NEWLINE TCC_PUSH_A
+"僕も共に行こう。" TCC_NEWLINE
+"敵の動きが罠だとすれば、" TCC_NEWLINE
+"君一人で行かせるわけには。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いいえ。それだと、あなたの策が" TCC_NEWLINE
+"使えなくなってしまうでしょう。" TCC_NEWLINE
+"あなたはここにいて。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。" TCC_NEWLINE
+"ねえ、アルフォンス。" TCC_NEWLINE TCC_PUSH_A
+"ヘルは本当に、" TCC_NEWLINE
+"私たちの世界を" TCC_NEWLINE
+"蘇らせてくれる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ああ。" TCC_NEWLINE
+"ヘルにはその力がある。" TCC_NEWLINE TCC_PUSH_A
+"死者の数の帳尻を合わせる。。。" TCC_NEWLINE
+"そうして、僕たちの世界を取り戻すんだ。" TCC_NEWLINE
+"僕たち二人で。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうね。。。" TCC_NEWLINE
+"あなたの言うことなら、信じるわ。" TCC_NEWLINE TCC_PUSH_A
+"。。。おかしなものね。" TCC_NEWLINE
+"世界がこうなる前は、" TCC_NEWLINE
+"あなたは敵だったのに。。。" TCC_NEWLINE TCC_PUSH_A
+"世界が滅んだ後、" TCC_NEWLINE
+"私が心を通わせる相手は、" TCC_NEWLINE
+"あなただけ。。。" TCC_NEWLINE TCC_PUSH_A
+"すべてを失ったあの滅びの中で、" TCC_NEWLINE
+"私が一つだけ得たものは。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたとの、" TCC_NEWLINE
+"この不思議な関係。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふ。。。そうだね。" TCC_NEWLINE
+"確かに、僕たちは" TCC_NEWLINE
+"随分と変わった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"この戦いに勝って、" TCC_NEWLINE
+"全部がもとに戻ったら。。。" TCC_NEWLINE TCC_PUSH_A
+"その時、" TCC_NEWLINE
+"また私と会ってくれる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ヴェロニカ。。。" TCC_NEWLINE TCC_PUSH_A
+"ああ、約束しよう。" TCC_NEWLINE TCC_PUSH_A
+""
+,

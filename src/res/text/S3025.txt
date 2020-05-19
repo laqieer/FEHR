@@ -1,0 +1,305 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"シャロン、" TCC_NEWLINE
+"偵察から戻りました！" TCC_NEWLINE
+"墳墓周辺に敵影あり！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"やっぱりね。。。" TCC_NEWLINE
+"それで、数は？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"すごくたくさん。。。" TCC_NEWLINE
+"数千規模でした！" TCC_NEWLINE TCC_PUSH_A
+"でも、みんなあっちに。。。" TCC_NEWLINE
+"南の方に移動してるみたいです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"南。。。？" TCC_NEWLINE
+"ここから南には確か。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"南方の。。。白き丘の街。。。" TCC_NEWLINE
+"ここから一日もない距離。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。まずいわね。" TCC_NEWLINE
+"今、あの街には防衛のための" TCC_NEWLINE
+"兵はほとんどいないわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わ、わたしたちで" TCC_NEWLINE
+"助けに行きましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ちょ、ちょっと待ちなさい！" TCC_NEWLINE
+"数千規模の敵軍。。。私たちだけで" TCC_NEWLINE
+"立ち向かえる相手じゃないわ。" TCC_NEWLINE TCC_PUSH_A
+"国王陛下には" TCC_NEWLINE
+"至急の伝令を向かわせるわ。" TCC_NEWLINE
+"今は騎士団の到着を待つべきよ。" TCC_NEWLINE TCC_PUSH_A
+"ただ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ただ。。。" TCC_NEWLINE
+"おそらくは間に合わない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そんな。。。" TCC_NEWLINE
+"このままじゃ" TCC_NEWLINE
+"街の人たちがみんな。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"っ。。。。。。" TCC_NEWLINE
+"そうね。このまま" TCC_NEWLINE
+"見殺しにはできないわ。。。" TCC_NEWLINE TCC_PUSH_A
+"なんとかして、少しでも" TCC_NEWLINE
+"時間稼ぎができれば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"アンナ隊長。。。" TCC_NEWLINE
+"今、敵軍の後方に" TCC_NEWLINE
+"僕たちが姿を晒せば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"敵軍は止まり。。。" TCC_NEWLINE
+"標的は私たちに切り替わる。" TCC_NEWLINE
+"でも。。。" TCC_NEWLINE TCC_PUSH_A
+"そこから逃げ延びるか、" TCC_NEWLINE
+"騎士団到着まで耐え凌がないと" TCC_NEWLINE
+"いけない。。。" TCC_NEWLINE TCC_PUSH_A
+"危険すぎるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"はい。。。危険は承知しています。" TCC_NEWLINE
+"ですが、今、" TCC_NEWLINE
+"彼らを救う方法は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。それしかない。。。か。" TCC_NEWLINE TCC_PUSH_A
+""
+"時間がないわ！" TCC_NEWLINE
+"みんな、少数隠密行動で" TCC_NEWLINE
+"敵の後背を狙うわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"潜伏を保ったまま、" TCC_NEWLINE
+"部隊を最少規模に分散し、" TCC_NEWLINE
+"敵後方から側面にかけて広く展開。。。" TCC_NEWLINE TCC_PUSH_A
+"各部隊が潜伏を解き、" TCC_NEWLINE
+"大軍の存在を偽装する。。。" TCC_NEWLINE TCC_PUSH_A
+"敵は警戒し、陣を組む。。。" TCC_NEWLINE
+"でも、時間稼ぎできるのは数刻だ。" TCC_NEWLINE
+"いずれ露見する。その時は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"各部隊は即時離脱っ！" TCC_NEWLINE
+"はぁっ。。。はぁっ。。。で、でも、" TCC_NEWLINE
+"あの敵どこまで追ってくるんですか～！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"逃げ回れるのはここまで。" TCC_NEWLINE
+"騎士団到着まで。。。" TCC_NEWLINE
+"それまでなんとか生き延びるわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"国王陛下の" TCC_NEWLINE
+"王国騎士団が到着したわ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"敵軍が退いていきます！" TCC_NEWLINE
+"やりました！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ああ、ここから敵軍が" TCC_NEWLINE
+"街へ向かえば" TCC_NEWLINE
+"騎士団に背を討たれる。" TCC_NEWLINE TCC_PUSH_A
+"これで、" TCC_NEWLINE
+"街の人々の安全は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_GUSTAV
+"アルフォンス。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！" TCC_NEWLINE
+"父上。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"状況は聞いた。" TCC_NEWLINE TCC_PUSH_A
+"なぜ危険を冒した？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"それは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お父様！" TCC_NEWLINE
+"わたしたちは街の人たちを。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"シャロン。" TCC_NEWLINE
+"わしはアルフォンスに問うておる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"は、はい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。父上。" TCC_NEWLINE
+"敵軍は、白き丘の街に" TCC_NEWLINE
+"迫りつつありました。" TCC_NEWLINE TCC_PUSH_A
+"僕たちは、敵軍が" TCC_NEWLINE
+"街を侵すのを阻止するため、" TCC_NEWLINE
+"作戦行動を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"敵軍の情報は兵数のみ。。。" TCC_NEWLINE
+"その練度は未知であった。" TCC_NEWLINE TCC_PUSH_A
+"敵軍がお前の想定以上に" TCC_NEWLINE
+"精強であったなら。。。" TCC_NEWLINE
+"お前は死んでいた。違うか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"それは。。。" TCC_NEWLINE
+"。。。仰る通りです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"先のムスペルとの戦で、" TCC_NEWLINE
+"特務機関は大功を成した。。。" TCC_NEWLINE
+"そのことは認めている。" TCC_NEWLINE TCC_PUSH_A
+"だが、アルフォンス。" TCC_NEWLINE
+"お前がその中にあって" TCC_NEWLINE
+"剣を振るうべきだとは思わぬ。" TCC_NEWLINE TCC_PUSH_A
+"お前は" TCC_NEWLINE
+"英雄になる必要はない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"父上、僕はただ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"民を救いたい、か。" TCC_NEWLINE
+"王は目の前の民だけを" TCC_NEWLINE
+"救えばよいのではない。" TCC_NEWLINE TCC_PUSH_A
+"広き領土に住まう" TCC_NEWLINE
+"何十\万、何百万もの民を" TCC_NEWLINE
+"等しく救わねばならぬ。" TCC_NEWLINE TCC_PUSH_A
+"今のお前に" TCC_NEWLINE
+"それができるというのか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。" TCC_NEWLINE
+"。。。言葉もありません。" TCC_NEWLINE
+"ですが。。。" TCC_NEWLINE TCC_PUSH_A
+"父上が広く国を治める間、" TCC_NEWLINE
+"助けを求める人々を" TCC_NEWLINE
+"僕が少しでも救えたなら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"わしが死んだならば" TCC_NEWLINE
+"どうなる。" TCC_NEWLINE TCC_PUSH_A
+"お前はただちに王となり、" TCC_NEWLINE
+"国を治められるか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"それは。。。" TCC_NEWLINE TCC_PUSH_A
+"いえ、僕にはまだ" TCC_NEWLINE
+"父上のような力はありません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"では、お前が剣を振るい、" TCC_NEWLINE
+"戦で死んだならばどうなる。" TCC_NEWLINE TCC_PUSH_A
+"わしが王位を務められる時は" TCC_NEWLINE
+"そう長くはあるまい。" TCC_NEWLINE
+"遠からず、わしは死ぬ。。。" TCC_NEWLINE TCC_PUSH_A
+"その後、" TCC_NEWLINE
+"アスクの民はどうなる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"それは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"アルフォンス。" TCC_NEWLINE
+"お前に必要な力は、剣ではない。" TCC_NEWLINE TCC_PUSH_A
+"万民を守り導くことがお前の役目だ。" TCC_NEWLINE
+"だが、お前は目の前で苦しむ民しか" TCC_NEWLINE
+"見えておらぬ。" TCC_NEWLINE TCC_PUSH_A
+"それは、ただの情に過ぎぬ。" TCC_NEWLINE
+"王たる者の器にはほど遠い。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"申\し訳。。。ありません。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HENRIETTE
+"ア～ルフォンスっ" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"は、母上。。。！？" TCC_NEWLINE
+"どうされたのですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"可愛い息子が" TCC_NEWLINE
+"叱られてたから、" TCC_NEWLINE
+"慰めてあげようと思って。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"だ、大丈夫ですよ。" TCC_NEWLINE
+"僕はもう子供では" TCC_NEWLINE
+"ありませんから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そう？" TCC_NEWLINE
+"それはそれで寂しいけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それに。。。" TCC_NEWLINE
+"父上が仰られたお言葉は" TCC_NEWLINE
+"正しいです。" TCC_NEWLINE TCC_PUSH_A
+"僕は、父上のように" TCC_NEWLINE
+"広くものを考えることが" TCC_NEWLINE
+"できていません。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そう。。。あなたが" TCC_NEWLINE
+"そう言っていたのを知ったら、" TCC_NEWLINE
+"あの人も喜ぶでしょうね。" TCC_NEWLINE TCC_PUSH_A
+"ふふ。。。でも、懐かしいわ。" TCC_NEWLINE
+"あの人もね、若い頃は" TCC_NEWLINE
+"あなたにそっくりだったのよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え！？" TCC_NEWLINE
+"ち、父上がですか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ。城を飛び出して、" TCC_NEWLINE
+"人々を助けるために戦ったり、" TCC_NEWLINE
+"異界に探索に出かけたり。。。" TCC_NEWLINE TCC_PUSH_A
+"いつも無茶ばかりしてて。。。" TCC_NEWLINE
+"私があの人と出会ったのも" TCC_NEWLINE
+"そんな頃だったわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"信じられません。。。" TCC_NEWLINE
+"あの父上が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"本当に血気盛んで、" TCC_NEWLINE
+"傍にいないと" TCC_NEWLINE
+"危なっかしくて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あの人が今みたいに" TCC_NEWLINE
+"用心深くなったのは。。。" TCC_NEWLINE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"母上。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"なんでもないわ。" TCC_NEWLINE
+"今日はゆっくりやすんで、アルフォンス。" TCC_NEWLINE
+"また明日ね。" TCC_NEWLINE TCC_PUSH_A
+""
+,

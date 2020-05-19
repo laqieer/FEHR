@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3084] = TCC_OPEN_LEFT 
+"私の名前ですか？" TCC_NEWLINE
+"。。。ンンです。ンン。" TCC_NEWLINE
+"。。。ちょっぴり呼びにくいですか？" TCC_NEWLINE TCC_PUSH_A
+""
+,

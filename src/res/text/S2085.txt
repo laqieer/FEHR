@@ -1,0 +1,161 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2085] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"ここが最奥部。。。" TCC_NEWLINE
+"壁に、ニフルの古代文字が" TCC_NEWLINE
+"刻まれています。" TCC_NEWLINE TCC_PUSH_A
+"『ここは我らが神" TCC_NEWLINE
+"　氷竜ニフルの眠る地。。。』" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"と、その前に" TCC_NEWLINE
+"敵をなんとかしましょう。" TCC_NEWLINE
+"応戦するわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2085] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"『氷神ニフルと" TCC_NEWLINE
+"　その子フィヨルムの名において。。。" TCC_NEWLINE
+"　ここに願う』" TCC_NEWLINE TCC_PUSH_A
+"『供物は我が肉、" TCC_NEWLINE
+"　器は万界を統べし異邦の神器。。。』" TCC_NEWLINE TCC_PUSH_A
+"『願う。" TCC_NEWLINE
+"　荒ぶる炎鎮める力を』" TCC_NEWLINE TCC_PUSH_A
+"『不死を殺し、" TCC_NEWLINE
+"　不滅を滅す』" TCC_NEWLINE TCC_PUSH_A
+"『その力を、器に。。。』" TCC_NEWLINE TCC_PUSH_A
+""
+"っ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"わわっ、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんの神器が。。。" TCC_NEWLINE TCC_PUSH_A
+"凍っちゃいました。。。" TCC_NEWLINE
+"だ、大丈夫ですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ご安心ください。" TCC_NEWLINE
+"儀式は神器に" TCC_NEWLINE
+"氷の力を宿すものですから。" TCC_NEWLINE TCC_PUSH_A
+"これで。。。" TCC_NEWLINE
+"氷の儀は成りました。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"これで、スルトを。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。" TCC_NEWLINE
+"次にスルトに対峙した時。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "様の神器に" TCC_NEWLINE
+"受け継がれた氷の儀の力で、" TCC_NEWLINE
+"スルトの不死不滅を封じます。" TCC_NEWLINE TCC_PUSH_A
+""
+"そうすれば。。。こほっ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"フィヨルム王女？" TCC_NEWLINE
+"大丈夫かい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、すみません。。。" TCC_NEWLINE
+"祭壇で冷気に肌を晒したせいか。。。" TCC_NEWLINE
+"風邪をひいてしまったようです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ニフル王国の方でも、" TCC_NEWLINE
+"風邪ひいちゃうことあるんですね。" TCC_NEWLINE
+"わたしたちと一緒です！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"失礼しました。" TCC_NEWLINE
+"お見苦しいところを。。。こほん。" TCC_NEWLINE TCC_PUSH_A
+"ともかく、氷の儀の力を使えば、" TCC_NEWLINE
+"スルトはただの人間と同じ。。。" TCC_NEWLINE
+"その時こそ、スルトの最期です。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"よし！" TCC_NEWLINE
+"首を洗って待ってなさい、" TCC_NEWLINE
+"スルト！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。はい。" TCC_NEWLINE
+"スルトは私が討ちます。" TCC_NEWLINE
+"楽に死なせはしません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"フィヨルム王女。。。" TCC_NEWLINE
+"スルトのこととなると" TCC_NEWLINE
+"おっかないわね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、みんな！" TCC_NEWLINE
+"覚悟はいいわね？" TCC_NEWLINE
+"ついにスルトとの決戦の時よ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2085] = "マークス。。。" TCC_NEWLINE TCC_PUSH_A
+"めいれい。。。よ。。。" TCC_NEWLINE
+"あなたは。。。" TCC_NEWLINE
+"にげ。。。なさい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT 
+"その命令には。。。従えない。。。" TCC_NEWLINE
+"ヴェロニカ。。。皇女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"マークス。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_SURTR
+"ぐははははははははははははっ！" TCC_NEWLINE
+"良いぞ良いぞ！" TCC_NEWLINE
+"まだ焼かれたいか、小娘の騎士よ。" TCC_NEWLINE TCC_PUSH_A
+"では、次は" TCC_NEWLINE
+"腕を焼きちぎるとしよう。" TCC_NEWLINE
+"それとも、頭が望みか？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。待って。。。！" TCC_NEWLINE TCC_PUSH_A
+"あたしは。。。ムスペルに行く。。。" TCC_NEWLINE
+"だから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"そ。" TCC_NEWLINE
+"わかってくれて良かったわあ、" TCC_NEWLINE
+"誠心誠意説得した甲斐があったわねえ。" TCC_NEWLINE TCC_PUSH_A
+"マークス王子、" TCC_NEWLINE
+"あなたもじっとしててねえ？" TCC_NEWLINE
+"ヴェロニカ皇女を殺されたくないでしょ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"っ。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"さあ、ヴェロニカ皇女。" TCC_NEWLINE
+"こちらへ。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"手間をかけさせおって。。。" TCC_NEWLINE
+"塵芥が。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。ぅっ。。。。。。あぁっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"まさか本気で思っておったか？" TCC_NEWLINE
+"貴様如きが" TCC_NEWLINE
+"この王を御せると。" TCC_NEWLINE TCC_PUSH_A
+""
+"スル。。。ト。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あらん。王様、そろそろおやめになって。" TCC_NEWLINE
+"それ以上やったら" TCC_NEWLINE
+"ほんとに死んじゃいますわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、ヴェロニカ皇女。" TCC_NEWLINE
+"すっかり素直になったあなたを" TCC_NEWLINE
+"炎の王国ムスペルへご招待してあげる。" TCC_NEWLINE TCC_PUSH_A
+"あなたはそこで、" TCC_NEWLINE
+"王様の炎の供物に捧げられるの。。。" TCC_NEWLINE
+"ごめんなさい、ねえ？" TCC_NEWLINE TCC_PUSH_A
+""
+,

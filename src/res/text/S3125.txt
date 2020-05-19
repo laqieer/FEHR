@@ -1,0 +1,116 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3125] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。来たか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。もう、ここまでだ。" TCC_NEWLINE
+"降伏して欲しい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"できない。" TCC_NEWLINE
+"俺かお前が死ぬ。。。その時まで、" TCC_NEWLINE
+"この戦いは決して終わらない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"そんな、もうやめてください！" TCC_NEWLINE
+"これ以上戦ったって。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたの妹のシャロンが。。。" TCC_NEWLINE
+"彼女が望む道を選んであげてください！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"その道は。。。遥か昔に捨て去った。" TCC_NEWLINE
+"。。。行くぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+"我は死の将リーヴ。。。" TCC_NEWLINE
+"我が剣に散る死者を数える者。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3125] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。僕の。。。負け。。。か。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"すまない。。。" TCC_NEWLINE
+"僕は君を。。。" TCC_NEWLINE
+"救えなかった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"謝る必要はないよ。。。" TCC_NEWLINE
+"アルフォンス。" TCC_NEWLINE
+"君は自分を誇って良い。。。" TCC_NEWLINE TCC_PUSH_A
+"僕は狂い、堕ちた。" TCC_NEWLINE
+"でも、君は。。。" TCC_NEWLINE TCC_PUSH_A
+"まだ、君のままだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"アルフォンス。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"僕はシャロンも、民も。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "も。。。" TCC_NEWLINE
+"誰も救えなかった。" TCC_NEWLINE TCC_PUSH_A
+"無念だ。" TCC_NEWLINE
+"狂おしいほどに。。。" TCC_NEWLINE TCC_PUSH_A
+"だが、君にも。。。" TCC_NEWLINE
+"僕と同じ、大切なものがある。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、せめて。。。" TCC_NEWLINE
+"アルフォンス。。。" TCC_NEWLINE
+"せめてもの慰めとして。。。" TCC_NEWLINE TCC_PUSH_A
+"君たちの世界は。。。" TCC_NEWLINE
+"幸せであってほしい。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"君は僕だ。" TCC_NEWLINE
+"ほんの少しの偶然で。。。" TCC_NEWLINE
+"僕は君に、君は僕になっていた。" TCC_NEWLINE TCC_PUSH_A
+"約束するよ。" TCC_NEWLINE
+"僕はせめて。。。" TCC_NEWLINE
+"僕たちの世界を幸せにする。" TCC_NEWLINE TCC_PUSH_A
+""
+"僕が。。。" TCC_NEWLINE
+"すべての元凶を断つ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3125] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"これを。。。" TCC_NEWLINE
+"リーヴが持っていた神器だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"これって、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "の" TCC_NEWLINE
+"【ブレイザブリク】じゃない。。。！？" TCC_NEWLINE TCC_PUSH_A
+"異界のアルフォンスたちは" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "の神器に" TCC_NEWLINE
+"力を宿したってこと。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。。。そして。。。" TCC_NEWLINE TCC_PUSH_A
+"この世界の" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "は。。。" TCC_NEWLINE
+"もう死んでしまった。。。" TCC_NEWLINE TCC_PUSH_A
+"だから異界の僕は、" TCC_NEWLINE
+"この形見を持ち続けていた。。。" TCC_NEWLINE
+"手離すことができなかった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"君なら、これを使えるはずだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+"死の国へ戻ろう。" TCC_NEWLINE
+"そして。。。" TCC_NEWLINE
+"ヘルの悪夢を終わらせる。" TCC_NEWLINE TCC_PUSH_A
+"僕たちの手で、必ず。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

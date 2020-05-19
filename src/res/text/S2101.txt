@@ -1,0 +1,55 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_YLGR
+"ムスペルの王城はここ。。。" TCC_NEWLINE
+"あの大きな火山の中腹だって。" TCC_NEWLINE
+"ムスペル兵が言ってたよ。" TCC_NEWLINE TCC_PUSH_A
+"わたし、捕まった時" TCC_NEWLINE
+"そこに連れて行かれそうに" TCC_NEWLINE
+"なったんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"なるほど。。。" TCC_NEWLINE
+"とすると正面から行くなら" TCC_NEWLINE
+"この山道ね。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、ここはおそらく" TCC_NEWLINE
+"敵が大勢待ち受けてるから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それなら、こっちは？" TCC_NEWLINE
+"塔に閉じ込められてた時、" TCC_NEWLINE
+"山の向こうに森が見えたの。" TCC_NEWLINE TCC_PUSH_A
+"裏から回り込めば、" TCC_NEWLINE
+"敵に気づかれにくいかも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"ユルグ。。。良い子ですね。" TCC_NEWLINE
+"あなたがいてくれて" TCC_NEWLINE
+"本当に助かります。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"よし、これで行けるわ！" TCC_NEWLINE
+"いよいよスルトとの決戦の時よ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"この道を突っ切って、" TCC_NEWLINE
+"一気に王城へ向かうわ。" TCC_NEWLINE
+"作戦開始よ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"敵部隊は撃破した。" TCC_NEWLINE
+"急ごう、スルトのもとへ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_SURTR
+"奴らが来る、か。。。" TCC_NEWLINE TCC_PUSH_A
+"くく、良かろう。" TCC_NEWLINE
+"早く我が城までやってこい。" TCC_NEWLINE TCC_PUSH_A
+""
+"この王によく見せるのだ。" TCC_NEWLINE
+"弱者の絶望の顔をなあ？" TCC_NEWLINE TCC_PUSH_A
+"ぐはははははははははぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

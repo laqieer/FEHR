@@ -1,0 +1,97 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ふぅ。。。" TCC_NEWLINE
+"予\定より時間はかかったけど。。。" TCC_NEWLINE
+"なんとか復旧できたようだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"はい。" TCC_NEWLINE
+"人々の笑顔、感謝の言葉。。。" TCC_NEWLINE
+"とても胸に響きました。" TCC_NEWLINE TCC_PUSH_A
+"アルフォンス王子たちは、" TCC_NEWLINE
+"いつもこんなふうに人々を" TCC_NEWLINE
+"助けてらっしゃるのですね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。本来なら、" TCC_NEWLINE
+"王族がすべきことでは" TCC_NEWLINE
+"ないのかもしれない。" TCC_NEWLINE TCC_PUSH_A
+"僕が人々を助けるために" TCC_NEWLINE
+"周囲の反対を押し切って" TCC_NEWLINE
+"特務機関に入った時。。。" TCC_NEWLINE TCC_PUSH_A
+"父上は大変お怒りになられて、" TCC_NEWLINE
+"もう王宮でお会いすることも" TCC_NEWLINE
+"許されなくなってしまった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"まあ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でも、国と民を思う気持ちは" TCC_NEWLINE
+"父上も僕も同じ。。。" TCC_NEWLINE
+"僕はそう思っているよ。" TCC_NEWLINE TCC_PUSH_A
+"父上は今、騎士団を率いて" TCC_NEWLINE
+"国のために戦っておられる。" TCC_NEWLINE
+"僕も、民のためにできることを。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"" TCC_TACTICIAN_NAME "さんっ！" TCC_NEWLINE
+"お兄様っ！　フィヨルム王女っ！" TCC_NEWLINE TCC_PUSH_A
+"ほらっ、見てください。" TCC_NEWLINE
+"街の人たちにたくさん" TCC_NEWLINE
+"りんごもらっちゃいました！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"良かったね、シャロン。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あ、それからこれは、" TCC_NEWLINE
+"長老様からお兄様にって。" TCC_NEWLINE TCC_PUSH_A
+"これ、なんでしょう？" TCC_NEWLINE
+"変な色の枯れ草？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ、それは" TCC_NEWLINE
+"僕が頼んでおいたんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"でも、枯れ草なんて" TCC_NEWLINE
+"美味しくないですよ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"これは珍しい色の煙を出すからね、" TCC_NEWLINE
+"狼煙に使えるんだ。" TCC_NEWLINE
+"いざという時に役に立つかもしれない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"さあみんな！" TCC_NEWLINE
+"そろそろ準備はいいわね？" TCC_NEWLINE
+"出発するわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ここにも敵部隊が。。。" TCC_NEWLINE
+"この地は、他より明らかに" TCC_NEWLINE
+"配置されている敵軍が多いようだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"【門】まではあと少し。。。" TCC_NEWLINE
+"でも、たやすい道のりでは" TCC_NEWLINE
+"なさそうですね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵はそれだけ私たちを" TCC_NEWLINE
+"ニフルに行かせたくないということ。。。" TCC_NEWLINE
+"それなら、なおさら行く価値があるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、行くわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵部隊は撃破したわね。" TCC_NEWLINE TCC_PUSH_A
+"少数の利を生かし、" TCC_NEWLINE
+"このまま隠密行動で" TCC_NEWLINE
+"目的地へ向かいましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,

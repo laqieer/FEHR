@@ -1,0 +1,65 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3043] = TCC_OPEN_LEFT 
+"俺はフランネル。" TCC_NEWLINE
+"誇り高き人狼、ガルーだ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3043] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_GUSTAV
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"あ。。。父上！" TCC_NEWLINE
+"こちらにお越しでしたか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。本陣へ戻る途中に" TCC_NEWLINE
+"たまたま通りがかっただけのこと。" TCC_NEWLINE
+"お前に用があったわけではない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうでしたか。。。" TCC_NEWLINE TCC_PUSH_A
+"よろしければ、" TCC_NEWLINE
+"本陣まで護衛致します。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。無用だ。" TCC_NEWLINE
+"息子の手を借りるほど" TCC_NEWLINE
+"老いてはおらぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"も、申\し訳ありません。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。アルフォンスよ。" TCC_NEWLINE
+"これを憶えているか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それは。。。？" TCC_NEWLINE
+"何かの枯れ枝。。。ですか？" TCC_NEWLINE
+"随分古いもののようですが。。。" TCC_NEWLINE TCC_PUSH_A
+"いえ、特に見覚えは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。そう、か。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"もう良い、" TCC_NEWLINE
+"わしは本陣へ戻る。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、お待ちください。" TCC_NEWLINE
+"父上、僕が護衛を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。無用と言ったはずだ。" TCC_NEWLINE
+"お前は己の身を案じよ、" TCC_NEWLINE
+"愚か者め。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"も、申\し訳ありません。。。" TCC_NEWLINE TCC_PUSH_A
+"父上の。。。" TCC_NEWLINE
+"あの枯れ枝は。。。いったい。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+,

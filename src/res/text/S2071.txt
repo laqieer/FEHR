@@ -1,0 +1,63 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2071] = TCC_OPEN_LEFT 
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE TCC_PUSH_A
+"もうすぐあなたと" TCC_NEWLINE
+"お会いできますね。" TCC_NEWLINE
+"嬉しく思います。" TCC_NEWLINE TCC_PUSH_A
+"私たちニフルには" TCC_NEWLINE
+"氷の儀。。。そう呼ばれる" TCC_NEWLINE
+"特別な儀式があります。" TCC_NEWLINE TCC_PUSH_A
+"氷の儀の力は、" TCC_NEWLINE
+"あのムスペルの炎さえ" TCC_NEWLINE
+"消し去るものです。" TCC_NEWLINE TCC_PUSH_A
+"かつて私の母は、" TCC_NEWLINE
+"氷の儀を執り行った上で" TCC_NEWLINE
+"スルトと戦い。。。敗れました。" TCC_NEWLINE TCC_PUSH_A
+"ニフルの力はスルトには通じない。。。" TCC_NEWLINE
+"スルトはそう思ったことでしょう。" TCC_NEWLINE
+"でも、本当は違います。" TCC_NEWLINE TCC_PUSH_A
+"氷の儀に必要な宝が足りないまま。。。" TCC_NEWLINE
+"母はスルトを油断させるために、" TCC_NEWLINE
+"自分を犠牲にしたのです。" TCC_NEWLINE TCC_PUSH_A
+"氷の儀に必要な宝。。。" TCC_NEWLINE
+"一つは私が持つ玉雪の宝珠。。。" TCC_NEWLINE TCC_PUSH_A
+"そしてもう一つが" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"あなたの持つ神器なのです。" TCC_NEWLINE TCC_PUSH_A
+"あなたの神器は" TCC_NEWLINE
+"あらゆる異界を統べる" TCC_NEWLINE
+"特別な力持つもの。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたにお会いできたら、" TCC_NEWLINE
+"私が持つこの宝珠で" TCC_NEWLINE
+"あなたの神器に力を宿します。" TCC_NEWLINE TCC_PUSH_A
+"そうすれば、後は" TCC_NEWLINE
+"あなたの神器が導き、" TCC_NEWLINE
+"道を開いてくれるでしょう。" TCC_NEWLINE TCC_PUSH_A
+"ニフルの真の氷の儀。。。" TCC_NEWLINE
+"スルトを倒す力へと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"先の戦いで" TCC_NEWLINE
+"レーギャルンを失ったことで、" TCC_NEWLINE
+"やはり敵部隊の動きは乱れているわ。" TCC_NEWLINE TCC_PUSH_A
+"今が千載一遇の好機！" TCC_NEWLINE
+"行くわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"フィヨルム王女、" TCC_NEWLINE
+"ここからスリーズ王女の" TCC_NEWLINE
+"神殿までの距離は？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"ここからなら、" TCC_NEWLINE
+"あと３日もあれば到着できます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"よし。敵を突破し、西へ。。。" TCC_NEWLINE
+"スリーズ王女のもとへ急ぐわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

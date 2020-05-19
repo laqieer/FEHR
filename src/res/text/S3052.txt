@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3052] = TCC_OPEN_LEFT 
+"『交わした契約は裏切らない』。。。" TCC_NEWLINE
+"それが、イリアの騎士の誓い。" TCC_NEWLINE TCC_PUSH_A
+""
+,

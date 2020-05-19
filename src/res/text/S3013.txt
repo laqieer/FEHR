@@ -1,0 +1,79 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3013] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"君は。。。？" TCC_NEWLINE
+"君も死の王国の兵なのか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"我が名は。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。リーヴ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"リーヴ。。。！？" TCC_NEWLINE TCC_PUSH_A
+"まさか。。。そんな。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"？" TCC_NEWLINE
+"どうしたんですか、" TCC_NEWLINE
+"お兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。震えよ、" TCC_NEWLINE
+"【崩剣セクヴァベク】。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。この世界を、壊せ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3013] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"消えた。。。？" TCC_NEWLINE
+"なんとか、敵は退いたようね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"リーヴ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様、" TCC_NEWLINE
+"あの人のこと" TCC_NEWLINE
+"ご存じなんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"出会ったのは初めてだよ。" TCC_NEWLINE
+"でも、その名は文献で" TCC_NEWLINE
+"何度も目にしている。。。" TCC_NEWLINE TCC_PUSH_A
+"シャロンも知っているはずだよ。" TCC_NEWLINE
+"僕たちアスク王家の" TCC_NEWLINE
+"偉大なる祖。。。" TCC_NEWLINE TCC_PUSH_A
+"神竜アスクと契約し、" TCC_NEWLINE
+"異界を開く力を得た" TCC_NEWLINE
+"真の王。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国初代王。。。" TCC_NEWLINE
+"リーヴ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"しょ、初代王リーヴ。。。！？" TCC_NEWLINE
+"で、でも、その人って" TCC_NEWLINE
+"大昔に亡くなったはずじゃ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ、そうだね。" TCC_NEWLINE
+"でも、敵が死者だというのなら。。。" TCC_NEWLINE TCC_PUSH_A
+"遥か昔の祖先が。。。" TCC_NEWLINE
+"僕たちの前に立ちふさがっても" TCC_NEWLINE
+"不思議はない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ご先祖様が、" TCC_NEWLINE
+"わたしたちの敵に。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"初代王リーヴは" TCC_NEWLINE
+"その力でアスクを統一し、" TCC_NEWLINE
+"神竜の血を得た真の英雄。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"その力は計り知れない。" TCC_NEWLINE
+"これからの戦い、" TCC_NEWLINE
+"心して臨もう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

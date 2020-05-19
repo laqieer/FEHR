@@ -1,0 +1,198 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"あの、お母様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HEL
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私。。。がんばるから。。。" TCC_NEWLINE
+"少しでもお母様の" TCC_NEWLINE
+"お役に立てるように。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お前にそんな力はない、" TCC_NEWLINE
+"エイル。" TCC_NEWLINE TCC_PUSH_A
+"間もなくあの者たちが来る。" TCC_NEWLINE
+"戦ったとて。。。" TCC_NEWLINE
+"お前ごときでは勝つことはできぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。お母様。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お前が死ぬのならばそれで良い。" TCC_NEWLINE
+"だが、万一生き延びたなら。。。" TCC_NEWLINE
+"お前は生者どもにくだれ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？" TCC_NEWLINE
+"どうして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"生者どもの軍に入り、" TCC_NEWLINE
+"生者どもに尽くせ。" TCC_NEWLINE
+"身も心も服従せよ。" TCC_NEWLINE TCC_PUSH_A
+"そして十\分に信用を得た後。。。" TCC_NEWLINE
+"私が命じたその時、" TCC_NEWLINE
+"生者どもを殺せ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お母様。。。" TCC_NEWLINE
+"でも。。。私は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お前の意思など聞いてはいない。" TCC_NEWLINE
+"命令は下した。従え。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。はい。。。お母様。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちは。。。" TCC_NEWLINE
+"アスク王国の人ね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"君は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私はエイル。。。" TCC_NEWLINE
+"死の国の。。。王女。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"死の国。。。では、君も" TCC_NEWLINE
+"ヘルの軍勢の一人なのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ええ、そうよ。" TCC_NEWLINE
+"でも。。。私は。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたたちと、私。。。" TCC_NEWLINE
+"どちらが勝っても。。。" TCC_NEWLINE
+"かまわない。。。" TCC_NEWLINE TCC_PUSH_A
+"始めましょう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"。。。私の負け、ね。。。" TCC_NEWLINE TCC_PUSH_A
+"さあ、殺して。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。？" TCC_NEWLINE
+"どうして、殺さないの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。戦う意志をなくした相手の" TCC_NEWLINE
+"命を奪う気はないよ。" TCC_NEWLINE TCC_PUSH_A
+"それに、君には" TCC_NEWLINE
+"聞きたいことがある。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私を捕虜にするのね。。。" TCC_NEWLINE
+"そう、わかったわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HENRIETTE
+"さ、アルフォンス。" TCC_NEWLINE
+"行きましょうか。" TCC_NEWLINE
+"国王陛下がお待ちよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"はい、母上。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロン、あなたもいらっしゃい。" TCC_NEWLINE
+"でも、陛下の" TCC_NEWLINE
+"お話の邪魔をしちゃだめよ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はい！" TCC_NEWLINE
+"お父様怒ると怖いですから！" TCC_NEWLINE
+"そーっとおとなしくしてますね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"じゃあ、二人とも" TCC_NEWLINE
+"行ってらっしゃい。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"私たちは謁見が終わるまで、" TCC_NEWLINE
+"しばらくこの王城内で休息ね。" TCC_NEWLINE TCC_PUSH_A
+"あとは、" TCC_NEWLINE
+"その子の処遇なんだけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTARIT_EIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"私は。。。" TCC_NEWLINE
+"あなたたちの仲間になりたい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"仲間に。。。？" TCC_NEWLINE
+"でも、あなたは" TCC_NEWLINE
+"死の王国の王女じゃないの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ。。。そうだったわ。" TCC_NEWLINE
+"でも私は。。。逃げ出してきたの。" TCC_NEWLINE
+"だから、もうあの国には戻れない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"脱走。。。？" TCC_NEWLINE
+"いったいなぜ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それは。。。" TCC_NEWLINE TCC_PUSH_A
+"言えないわ。。。ごめんなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。なんだか怪しいわね。" TCC_NEWLINE
+"正直に言ってくれないと、" TCC_NEWLINE
+"私たちも信用できないわよ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。そうね。こんなこと、" TCC_NEWLINE
+"信じてもらおうなんて" TCC_NEWLINE
+"虫の良い話ね。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、私は" TCC_NEWLINE
+"あなたたちの仲間になりたいの。" TCC_NEWLINE TCC_PUSH_A
+"信用できないと思ったら。。。" TCC_NEWLINE
+"その時は、" TCC_NEWLINE
+"いつでも私を殺して。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。うーん。" TCC_NEWLINE TCC_PUSH_A
+"信用はできないわ。" TCC_NEWLINE
+"でも敵国の情報源として" TCC_NEWLINE
+"この子の存在は価値がある。。。" TCC_NEWLINE TCC_PUSH_A
+"言っとくけど、いいわね！" TCC_NEWLINE
+"少しでも怪しい行動を取ったら" TCC_NEWLINE
+"容赦しないわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ。。。それでいいわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。この子、なんだか調子が狂うわね。" TCC_NEWLINE
+"敵意はないようだけど、" TCC_NEWLINE
+"何もかも諦めているような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ねえ、" TCC_TACTICIAN_NAME "。" TCC_NEWLINE
+"彼女のことは" TCC_NEWLINE
+"あなたに任せていい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"そう。。。私は" TCC_NEWLINE
+"あなたの捕虜になるのね。。。" TCC_NEWLINE TCC_PUSH_A
+"いいわ、好きにして。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

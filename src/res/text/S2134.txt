@@ -1,0 +1,188 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_YLGR
+"ええと、ええと。。。どっち。。。？" TCC_NEWLINE
+"どっちに行けば出口なの。。。？" TCC_NEWLINE TCC_PUSH_A
+"ああ。。。どうしよう。。。" TCC_NEWLINE
+"急がないと、スルトがやってきて" TCC_NEWLINE
+"わたしたち二人とも。。。" TCC_NEWLINE TCC_PUSH_A
+"いや！　そんなのいや！" TCC_NEWLINE
+"わたし、まだ恋人もいないのに、" TCC_NEWLINE
+"この年で死んじゃうなんて。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"あなた、さっきからうるさいわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えー、ごめんなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+"こっちよ。はやく。。。" TCC_NEWLINE TCC_PUSH_A
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたは。。。" TCC_NEWLINE
+"スルトの娘の" TCC_NEWLINE
+"レーヴァテイン。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ちがう。。。" TCC_NEWLINE TCC_PUSH_A
+"父上に娘なんていない。。。" TCC_NEWLINE
+"父上にとっては、" TCC_NEWLINE
+"ただの道具があるだけ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。それで？" TCC_NEWLINE
+"あたしたちを" TCC_NEWLINE
+"つかまえにきたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そう。" TCC_NEWLINE
+"それに。。。敵も必ずここに来る。" TCC_NEWLINE
+"それが父上を倒す方法だから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ふぅん。。。" TCC_NEWLINE
+"レーギャルンは？" TCC_NEWLINE
+"もう負けて死んだの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE
+"姉上を侮辱したら。。。斬る。" TCC_NEWLINE TCC_PUSH_A
+""
+"やればいいわ。。。" TCC_NEWLINE
+"炎の儀の供物が半分きえて" TCC_NEWLINE
+"お兄様も助かるもの。。。" TCC_NEWLINE TCC_PUSH_A
+"スルトのために" TCC_NEWLINE
+"生かされるくらいなら" TCC_NEWLINE
+"死んだ方がまし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"殺せるものなら" TCC_NEWLINE
+"殺してみなさい。。。" TCC_NEWLINE
+"はやく。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"この。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。そこまでだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"！？" TCC_NEWLINE
+"お兄様。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"邪魔を。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"ユルグ！　ユルグ！" TCC_NEWLINE
+"そこにいるのですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あっ、姉様！" TCC_NEWLINE
+"ここだよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ヴェロニカ皇女、" TCC_NEWLINE
+"しょうがないから" TCC_NEWLINE
+"今回だけは助けてあげます！" TCC_NEWLINE TCC_PUSH_A
+""
+"アスクの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"アスクの者たち。。。" TCC_NEWLINE
+"姉上はどこ。。。？" TCC_NEWLINE TCC_PUSH_A
+"姉上を殺したの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"それは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"許さない。。。" TCC_NEWLINE TCC_PUSH_A
+"父上の命令。。。違う。。。" TCC_NEWLINE
+"私の。。。私の心で。。。" TCC_NEWLINE TCC_PUSH_A
+"お前たちを斬る！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"。。。。。。う。。。。。。ぁっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"まだ。。。" TCC_NEWLINE
+"私は。。。まだ。。。戦える。。。" TCC_NEWLINE
+"ムスペルの。。。業火よ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"炎竜ムスペルよ。。。" TCC_NEWLINE
+"我が身を喰らい尽くせ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"だ、だめですっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"頭を、胸を、" TCC_NEWLINE
+"腕を、脚を。。。" TCC_NEWLINE
+"我が身すべてを。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"やめなさい！" TCC_NEWLINE
+"あなたの姉様の言葉ですよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+"姉上が。。。どうして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"レーギャルン王女は最期に。。。" TCC_NEWLINE
+"あなたが生きることを願ったのです。" TCC_NEWLINE TCC_PUSH_A
+"だから、あなたは死んではいけません。" TCC_NEWLINE
+"あなたは生きて。。。" TCC_NEWLINE
+"レーギャルンの遺志をかなえてください。" TCC_NEWLINE TCC_PUSH_A
+"いつか、ムスペルとニフルが争いなく、" TCC_NEWLINE
+"共に過ごせるように。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それが。。。姉上の命令。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いいえ、願いです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"願い。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。ヴェロニカ。" TCC_NEWLINE
+"すまない、遅くなったな。" TCC_NEWLINE TCC_PUSH_A
+""
+"いいの、お兄様。。。" TCC_NEWLINE
+"マークスが" TCC_NEWLINE
+"お兄様に伝えてくれたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ああ、彼も無事だ。" TCC_NEWLINE
+"心配はいらない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ザカリア。。。" TCC_NEWLINE
+"ありがとう。" TCC_NEWLINE
+"また、君に助けられたよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"いや、礼を言うのはこちらの方だ。" TCC_NEWLINE
+"お前たちと協力できて助かった。" TCC_NEWLINE TCC_PUSH_A
+"一時だけだが。。。" TCC_NEWLINE
+"昔を思い出したな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ザカリア。。。" TCC_NEWLINE
+"ああ、そうだね。" TCC_NEWLINE TCC_PUSH_A
+""
+"君はヴェロニカ皇女たちを頼む。" TCC_NEWLINE
+"僕たちはスルトのもとへ向かう。" TCC_NEWLINE TCC_PUSH_A
+""
+"供物は失われ、" TCC_NEWLINE
+"炎の儀の力は消えた。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"今度こそ、スルトを討つ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

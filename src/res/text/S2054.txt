@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2054] = TCC_OPEN_LEFT 
+"逃亡兵ども、早く来るがいい。" TCC_NEWLINE
+"このグラディウスの槍で" TCC_NEWLINE
+"その胸を貫いてやろう！" TCC_NEWLINE TCC_PUSH_A
+""
+,

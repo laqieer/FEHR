@@ -1,0 +1,11 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S1403] = TCC_OPEN_LEFT 
+"。。。。。。。。。。。。" TCC_NEWLINE
+"外が騒がしい。" TCC_NEWLINE
+"どうやら始まったようだな。。。" TCC_NEWLINE TCC_PUSH_A
+"ならば、私も出るとしよう。" TCC_NEWLINE
+"私の見込み違い。。。" TCC_NEWLINE
+"ではないことを願うぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

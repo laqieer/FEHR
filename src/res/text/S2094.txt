@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2094] = TCC_OPEN_LEFT 
+"あなたたちが敵。。。？" TCC_NEWLINE
+"言っとくけど、あたしに手を出したら" TCC_NEWLINE
+"アレスが許さないんだから！" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,159 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3021] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_GUSTAV
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"父上。。。お久しぶりです。" TCC_NEWLINE
+"拝謁を賜り、" TCC_NEWLINE
+"光栄に思います。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、あの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_HENRIETTE
+"アルフォンス、" TCC_NEWLINE
+"緊張しなくて大丈夫よっ。" TCC_NEWLINE TCC_PUSH_A
+"この人、本当は" TCC_NEWLINE
+"あなたたちに会えなくて" TCC_NEWLINE
+"寂しがってたんだから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ヘンリエッテ。。。" TCC_NEWLINE
+"その話は今無用だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あら、ごめんなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アルフォンスよ。" TCC_NEWLINE
+"ヘンリエッテから" TCC_NEWLINE
+"事のあらましは聞いたであろう。" TCC_NEWLINE TCC_PUSH_A
+"今、アスク王国は" TCC_NEWLINE
+"外敵に脅かされておる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"死の王国ヘル。。。" TCC_NEWLINE
+"母上からそう伺いました。" TCC_NEWLINE TCC_PUSH_A
+"ですが、僕が知る限り" TCC_NEWLINE
+"そのような異界の存在は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"西方の荒涼たる墳墓。。。" TCC_NEWLINE
+"そこに、" TCC_NEWLINE
+"死の王国へ通じる扉がある。" TCC_NEWLINE TCC_PUSH_A
+"二十\年前。。。" TCC_NEWLINE
+"わしが命じて壁を築き、" TCC_NEWLINE
+"今まで封じてきたものだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"壁を。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お前も知っての通り、" TCC_NEWLINE
+"我らアスクは" TCC_NEWLINE
+"扉を閉じる力は持たぬ。。。" TCC_NEWLINE TCC_PUSH_A
+"ゆえにヘルとの道を閉ざす" TCC_NEWLINE
+"唯一の方法は、" TCC_NEWLINE
+"高く厚き壁を築くこと。。。" TCC_NEWLINE TCC_PUSH_A
+"二十\年の間、" TCC_NEWLINE
+"ヘルからの侵入はなく、" TCC_NEWLINE
+"壁はひび一つ入りはしなかった。" TCC_NEWLINE TCC_PUSH_A
+"だが、今。。。突如、" TCC_NEWLINE
+"その壁が打ち砕かれた。" TCC_NEWLINE TCC_PUSH_A
+"死の軍勢が" TCC_NEWLINE
+"このアスク王国に" TCC_NEWLINE
+"雪崩れ込んできたのだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"民に害が及ぶ前に、" TCC_NEWLINE
+"我々の手で敵を" TCC_NEWLINE
+"食い止めねばならぬ。" TCC_NEWLINE TCC_PUSH_A
+"よいな、アルフォンス。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"承知致しました、父上。" TCC_NEWLINE
+"必ず。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3021] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"僕たち特務機関は先行して、" TCC_NEWLINE
+"荒涼たる墳墓に向かうことになったよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"現地の敵情を偵察し、" TCC_NEWLINE
+"本隊の王国騎士団が到着した時に" TCC_NEWLINE
+"情報を伝えるのが私たちの役目。" TCC_NEWLINE TCC_PUSH_A
+""
+"責任重大よ。" TCC_NEWLINE
+"さあ、行くわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3021] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+"私は。。。" TCC_NEWLINE
+"あなたたちに尽くすわ。。。" TCC_NEWLINE
+"どんな命令でも。。。服従する。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3021] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"死の国の軍勢。。。" TCC_NEWLINE
+"厄介な相手ねえ。" TCC_NEWLINE
+"ねえ、ヴェロニカ皇女？" TCC_NEWLINE TCC_PUSH_A
+""
+"ロキ、あなた。。。" TCC_NEWLINE
+"あたしをうらぎったくせに。。。" TCC_NEWLINE
+"よく平気なかおでもどってきたわね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あらん。そんな顔しないでぇ。" TCC_NEWLINE
+"最後は助けてあげたじゃない。" TCC_NEWLINE TCC_PUSH_A
+"それとも、許さない？" TCC_NEWLINE
+"殺しちゃう？" TCC_NEWLINE TCC_PUSH_A
+""
+"そうしたいけど。。。" TCC_NEWLINE
+"あなたの首を引き抜いたって、" TCC_NEWLINE
+"どうせあなたはころせない。。。そうでしょ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"まあ、私のことなんて" TCC_NEWLINE
+"どうでもいいじゃない。それより。。。" TCC_NEWLINE
+"どうするのかしら、ヴェロニカ皇女？" TCC_NEWLINE TCC_PUSH_A
+"お兄様は例の件で" TCC_NEWLINE
+"ずっとご不在なんでしょう？" TCC_NEWLINE
+"あなたは。。。エンブラ帝国はどうするの？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE
+"ヘルがアスクを" TCC_NEWLINE
+"ほろぼすのはいいわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、エンブラまで攻撃されてる。。。" TCC_NEWLINE
+"それは、ゆるせない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"仕方ないわ、" TCC_NEWLINE
+"死の国にとっては、" TCC_NEWLINE
+"生者はすべて敵だもの。" TCC_NEWLINE TCC_PUSH_A
+"ヘルは厄介な相手よ。" TCC_NEWLINE
+"アスクだけでヘルに勝つのは。。。" TCC_NEWLINE
+"まあ、無理ね。" TCC_NEWLINE TCC_PUSH_A
+""
+"ロキ。。。" TCC_NEWLINE TCC_PUSH_A
+"これは。。。" TCC_NEWLINE
+"あなたのしわざ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"まさか、そんなことしないわ。" TCC_NEWLINE
+"私はいつだって" TCC_NEWLINE
+"ヴェロニカ皇女の味方よ？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。ふぅん。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,143 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"ごめんなさい。。。" TCC_NEWLINE
+"急に呼び出したりして。" TCC_NEWLINE TCC_PUSH_A
+"どうしても、" TCC_NEWLINE
+"あなたと二人きりに" TCC_NEWLINE
+"なりたかったの。。。" TCC_NEWLINE TCC_PUSH_A
+"お母様は言ったわ。" TCC_NEWLINE
+"従えって。。。" TCC_NEWLINE
+"だから、私。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"私、あなたを殺すわ。" TCC_NEWLINE TCC_PUSH_A
+"動かないで。" TCC_NEWLINE
+"あなた自身に戦う力はない。。。" TCC_NEWLINE
+"抵抗しても無駄よ。" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたたちは私に優しくしてくれた。。。" TCC_NEWLINE
+"それなのに。。。ごめんなさい。" TCC_NEWLINE
+"ほんとうに。。。ごめんなさい。。。" TCC_NEWLINE TCC_PUSH_A
+"さようなら。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HEL
+"殺したか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。" TCC_NEWLINE
+"お母様の言いつけ通りに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それで良い。" TCC_NEWLINE
+"もはや何者も、" TCC_NEWLINE
+"私を討つことはできない。。。" TCC_NEWLINE TCC_PUSH_A
+"エイル。お前ももう不要だ。" TCC_NEWLINE
+"お前の最後の命も、" TCC_NEWLINE
+"ここで刈り取るとしよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お母様。。。教えて。" TCC_NEWLINE
+"お母様は私に約束してくれたわ。" TCC_NEWLINE TCC_PUSH_A
+"私の幼い頃の記憶。。。" TCC_NEWLINE
+"それを教えてくれるって。。。" TCC_NEWLINE TCC_PUSH_A
+"白い翼。。。" TCC_NEWLINE
+"私とお母様の。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それは私ではない。" TCC_NEWLINE
+"お前の実の母だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"エイル。お前は私の娘ではない。" TCC_NEWLINE
+"生命の竜の力持つ王族。。。" TCC_NEWLINE
+"その娘が、お前だ。" TCC_NEWLINE TCC_PUSH_A
+"私はお前の一族を殺し尽くした。" TCC_NEWLINE
+"そうして幼いお前をさらったのだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お母。。。様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうしてお前の記憶を封じ、" TCC_NEWLINE
+"私が母だと信じ込ませた。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"なぜ。。。" TCC_NEWLINE
+"どうして、母親のふりを。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"服従させるためだ。" TCC_NEWLINE TCC_PUSH_A
+"人間は、母に情を抱く。。。" TCC_NEWLINE
+"現にお前は、私に唯々諾々と従い、" TCC_NEWLINE
+"殺され続けた。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。お母様。。。" TCC_NEWLINE
+"。。。私を。。。騙していたの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうだ。" TCC_NEWLINE
+"だが嘆く必要はない。" TCC_NEWLINE
+"お前はもう死ぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。いいや。" TCC_NEWLINE
+"死なせはしない。" TCC_NEWLINE
+"もう、誰も。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HEL
+"アルフォンス。。。" TCC_NEWLINE
+"なぜ、お前がここにいる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_EIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。エイル。私に背いたか。" TCC_NEWLINE TCC_PUSH_A
+"お前は私に抗えない。。。" TCC_NEWLINE
+"確かにそう刻み込んだはずだ。" TCC_NEWLINE
+"だというのに、なぜ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"お前にはわからない、死の王よ。" TCC_NEWLINE
+"人の心を持たないお前には。" TCC_NEWLINE TCC_PUSH_A
+"エイルは僕たちに" TCC_NEWLINE
+"すべてを打ち明けてくれた。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "も無事だよ。" TCC_NEWLINE
+"お前を討つ力は、生きている。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ならば今。。。" TCC_NEWLINE
+"それを失わせるとしよう。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ヘルは消えた。。。" TCC_NEWLINE
+"退いたのか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_EIR
+"お母様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"エイル王女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。大丈夫よ。" TCC_NEWLINE
+"私は、大丈夫。。。" TCC_NEWLINE TCC_PUSH_A
+"行きましょう、" TCC_NEWLINE
+"ヘルの城へ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

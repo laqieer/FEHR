@@ -1,0 +1,175 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"今、報告が入ったわ。" TCC_NEWLINE
+"かなり深刻な状況ね。。。" TCC_NEWLINE TCC_PUSH_A
+"正体不明の敵は" TCC_NEWLINE
+"各地に次々と出現し、" TCC_NEWLINE
+"兵たちでは対処しきれないわ。" TCC_NEWLINE TCC_PUSH_A
+"しかも、倒しても倒しても、" TCC_NEWLINE
+"またすぐに別の敵が現れる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。" TCC_NEWLINE
+"やはり、" TCC_NEWLINE
+"この悪夢の元凶を絶たなければ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"うん。スヴァルトアルフに行って" TCC_NEWLINE
+"フロージ様を助け出せば、" TCC_NEWLINE
+"きっと元に戻るわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はい、がんばりましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"くんくん。" TCC_NEWLINE
+"近くで【白夢】の匂い。。。" TCC_NEWLINE
+"ルピナスの匂いがするわ。" TCC_NEWLINE TCC_PUSH_A
+"どこかな、どこかな？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"？" TCC_NEWLINE
+"今のって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"周囲の風景が" TCC_NEWLINE
+"一瞬ぼやけたような。。。" TCC_NEWLINE
+"幻覚。。。なのか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あ、それってきっと" TCC_NEWLINE
+"近くでルピナスが" TCC_NEWLINE
+"お昼寝してるんだわ。" TCC_NEWLINE TCC_PUSH_A
+"どこかな？" TCC_NEWLINE
+"このへんかな。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTARIT_LUPINUS
+"むにゃむにゃ。。。" TCC_NEWLINE
+"むにゃっ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あ、ルピナス見つけた！" TCC_NEWLINE
+"ふんづけちゃった？" TCC_NEWLINE
+"ごめんなさい。" TCC_NEWLINE TCC_PUSH_A
+"おねぼうさん、起きて。" TCC_NEWLINE
+"私よ、ピアニーよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"んんぅ。。。。。。ピアニー。。。？" TCC_NEWLINE TCC_PUSH_A
+"ふわぁ。。。" TCC_NEWLINE
+"おはようございますぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"おはようございます！" TCC_NEWLINE
+"ルピナス、実はあなたに" TCC_NEWLINE
+"お願いがあって来たの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"むにゃむにゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ああん、ルピナス、" TCC_NEWLINE
+"寝ないで寝ないで。" TCC_NEWLINE
+"起きて起きて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふわぁ。。。" TCC_NEWLINE
+"おはようございますぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"今、この世界は" TCC_NEWLINE
+"悪夢さんがいっぱいなの。" TCC_NEWLINE
+"フロージ様がさらわれたせいよ。" TCC_NEWLINE TCC_PUSH_A
+"私たち、" TCC_NEWLINE
+"スヴァルトアルフに行って" TCC_NEWLINE
+"フロージ様を助け出したいの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"フロージ様が？" TCC_NEWLINE
+"たいへんですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+"むにゃむにゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あんもう、" TCC_NEWLINE
+"ねぼすけさん、起きて起きて。" TCC_NEWLINE
+"あなたの力を貸して欲しいの。" TCC_NEWLINE TCC_PUSH_A
+"あなたの【白夢】の力があれば、" TCC_NEWLINE
+"スヴァルトアルフに行けるはず。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。そう。" TCC_NEWLINE
+"それなら、阻止するわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！？" TCC_NEWLINE
+"あなたは。。。" TCC_NEWLINE
+"黒妖精さんまでこの世界に。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4071] = "蠢きなさい、悪夢たち。" TCC_NEWLINE
+"不安と恐怖を糧として。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"あ、あれは。。。" TCC_NEWLINE
+"まさか。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HEL
+"。。。死すべき定めの人間よ。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。再び時が来た。。。" TCC_NEWLINE
+"。。。死者の帳尻を合わせる時が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4071] = "人が夢を見る限り、" TCC_NEWLINE
+"何度でも現れる。。。それが私の悪夢。。。" TCC_NEWLINE
+"悪夢は永遠に終わらない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"さ、ルピナス、お願い。" TCC_NEWLINE
+"スヴァルトアルフまで、" TCC_NEWLINE
+"案内してくれる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LUPINUS
+"えっと、あっちですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+"夕日の沈む。。。黄昏の岬。。。" TCC_NEWLINE
+"そこはスヴァルトアルフに" TCC_NEWLINE
+"すごく近い場所なんですぅ。" TCC_NEWLINE TCC_PUSH_A
+"そこから。。。" TCC_NEWLINE
+"むにゃむにゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ルピナス、" TCC_NEWLINE
+"もう、だめったら。" TCC_NEWLINE
+"起きて起きて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ふわわぁ。。。" TCC_NEWLINE
+"この森、霧が濃くて" TCC_NEWLINE
+"とっても寝心地がいいんですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"はやくして。" TCC_NEWLINE
+"ぐずぐずしてるなら。。。" TCC_NEWLINE
+"ここは寝心地良い場所じゃなくなるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええぇ。。。" TCC_NEWLINE
+"く、黒妖精さんたちが" TCC_NEWLINE
+"おそって来るからですかぁ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"いいえ。" TCC_NEWLINE
+"あたしがこの森を" TCC_NEWLINE
+"めちゃめちゃにするからよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ひぇぇぇ。。。" TCC_NEWLINE
+"こわいおんなのこですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"しゃんとしなさい。" TCC_NEWLINE
+"さあ、行くわよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はぁい。" TCC_NEWLINE
+"こわいから" TCC_NEWLINE
+"いうことききますぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

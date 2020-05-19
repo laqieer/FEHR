@@ -1,0 +1,59 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3073] = TCC_OPEN_LEFT 
+"この地をおかすもの。。。" TCC_NEWLINE
+"すべて。。。やきつくす。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3073] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"。。。。。。あ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたはリーヴ。。。" TCC_NEWLINE
+"どうしてここに。。。？" TCC_NEWLINE TCC_PUSH_A
+"もしかして、" TCC_NEWLINE
+"お母様のご命令で" TCC_NEWLINE
+"私を監視しているの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"やっぱり、" TCC_NEWLINE
+"何も答えてはくれないのね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"私が死の国にいた時もそうだった。" TCC_NEWLINE
+"いくら話しかけても、" TCC_NEWLINE
+"あなたはずっと無言のまま。。。" TCC_NEWLINE TCC_PUSH_A
+"私が誰かと話をしたのは、" TCC_NEWLINE
+"アスク王国に行ってからの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。え。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"待って。。。" TCC_NEWLINE
+"今、何か。。。" TCC_NEWLINE
+"不思議な記憶が。。。" TCC_NEWLINE TCC_PUSH_A
+"私。。。私、" TCC_NEWLINE
+"前にあなたと話したことが。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。よせ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"何も思い出すな。" TCC_NEWLINE
+"何もかも忘れろ。" TCC_NEWLINE TCC_PUSH_A
+"それが。。。" TCC_NEWLINE
+"お前の幸せだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

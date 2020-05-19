@@ -1,0 +1,63 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3113] = TCC_OPEN_LEFT 
+"ふーん。。。あなたもリーヴさんも、" TCC_NEWLINE
+"顔は悪くないけど" TCC_NEWLINE
+"服のセンスがいまいちね。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3113] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"リーヴが。。。" TCC_NEWLINE
+"アルフォンス王子が、" TCC_NEWLINE
+"まだシャロン王女を亡くす前。。。" TCC_NEWLINE TCC_PUSH_A
+"私は二人と共にいたの。" TCC_NEWLINE
+"二人とも、眩しい生命に満ちていて。。。" TCC_NEWLINE
+"優しい人たちだった。" TCC_NEWLINE TCC_PUSH_A
+"私の正体を知っても。。。" TCC_NEWLINE
+"それでも。。。" TCC_NEWLINE
+"友達になってくれた。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうして、私を殺さないの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"エイル王女。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私は、死の王ヘルの娘。。。" TCC_NEWLINE
+"あなたたちの敵なのよ。" TCC_NEWLINE
+"それなのに、どうして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"エイル王女。" TCC_NEWLINE
+"王女はわたしたちのこと、" TCC_NEWLINE
+"嫌いですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。いいえ。" TCC_NEWLINE TCC_PUSH_A
+"一緒にいてわかったの。" TCC_NEWLINE
+"あなたたちの心は優しくて、暖かい。。。" TCC_NEWLINE
+"嫌いになんて、なれない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"じゃあ、好きですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ええ。好きよ、とても。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"わたしたちもです！" TCC_NEWLINE
+"エイル王女のこと、大好きですよ。" TCC_NEWLINE TCC_PUSH_A
+"たとえヘルの娘でも、" TCC_NEWLINE
+"エイル王女は優しくて良い人だって、" TCC_NEWLINE
+"わかってますから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。" TCC_NEWLINE
+"それが、僕とシャロンの答えだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アルフォンス王子。。。" TCC_NEWLINE
+"シャロン王女。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

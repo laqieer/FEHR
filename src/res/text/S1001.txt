@@ -1,0 +1,43 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S1001] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"大変よ、みんな！" TCC_NEWLINE TCC_PUSH_A
+"エンブラ帝国軍が英雄を引き連れて" TCC_NEWLINE
+"アスク王国領内に侵攻してきたわ！" TCC_NEWLINE TCC_PUSH_A
+""
+"情報によると、" TCC_NEWLINE
+"エンブラ軍の英雄は" TCC_NEWLINE
+"複数の異界から集められているみたいなの。" TCC_NEWLINE TCC_PUSH_A
+"「紋章の異界」、「封印の異界」。。。" TCC_NEWLINE
+"それから「烈火の異界」ね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"紋章、封印、烈火。。。" TCC_NEWLINE
+"どれも最近支配を受けた異界だ。" TCC_NEWLINE
+"無事に解放したと思っていたのに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"むむむ。。。" TCC_NEWLINE
+"エンブラ帝国軍の奴らーっ！" TCC_NEWLINE
+"裏で動いていたんですねっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"英雄たちは王都に向かっているわ。" TCC_NEWLINE
+"このままでは民たちが危険よ。" TCC_NEWLINE
+"一刻も早く出動しましょう！"
+,
+[MID_SCENARIO_MAP_BEGIN_S1001] = TCC_OPEN_LEFT 
+"貴様らがヴェロニカの言う邪魔者か。" TCC_NEWLINE
+"ふん。。。この程度の連中とはな。" TCC_NEWLINE TCC_PUSH_A
+"マケドニア王が" TCC_NEWLINE
+"わざわざ出向いてやったのだ。" TCC_NEWLINE
+"俺を失望させるなよ。"
+,
+[MID_SCENARIO_MAP_END_S1001] = TCC_OPEN_LEFT 
+"俺を破るか。。。" TCC_NEWLINE
+"気に入らぬが、認めてやろう。" TCC_NEWLINE
+"貴様らは確かに英雄の器。。。" TCC_NEWLINE TCC_PUSH_A
+"先へ進むがいい。" TCC_NEWLINE
+"俺に勝った以上。。。" TCC_NEWLINE
+"無様な敗北は許さんぞ。"
+,

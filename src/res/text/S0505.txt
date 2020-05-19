@@ -1,0 +1,64 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0505] = TCC_OPEN_LEFT 
+"ほう。。。ここまで来たか。" TCC_NEWLINE
+"その腕、敵にしておくのは" TCC_NEWLINE
+"惜しいほどだな。" TCC_NEWLINE TCC_PUSH_A
+"どうやらそちらにも" TCC_NEWLINE
+"有能\な軍師がいるようだが。。。" TCC_NEWLINE
+"こちらだって負けてはいない。" TCC_NEWLINE TCC_PUSH_A
+"頼んだぞ、ルフレ！" TCC_NEWLINE
+"お前の策で俺たち自警団を、" TCC_NEWLINE
+"勝ちに導いてくれ！"
+,
+[MID_SCENARIO_MAP_END_S0505] = TCC_OPEN_LEFT 
+"すまなかった、アルフォンス王子。。。" TCC_NEWLINE
+"どうやら俺たちは騙されていたらしい。" TCC_NEWLINE TCC_PUSH_A
+"侵略者はエンブラ帝国軍のほうで、" TCC_NEWLINE
+"特務機関は俺たちを" TCC_NEWLINE
+"助けに来てくれたんだな。" TCC_NEWLINE TCC_PUSH_A
+"無礼をどうか許してくれ。" TCC_NEWLINE
+"そして、ありがとう。" TCC_NEWLINE
+"この地を解放してくれて。。。"
+,
+[MID_SCENARIO_ENDING_S0505] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"「覚醒の異界」。。。" TCC_NEWLINE
+"何とか解放できたね。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "のおかげだ。" TCC_NEWLINE TCC_PUSH_A
+"君の指揮は、経験を重ねるごとに" TCC_NEWLINE
+"迷いのない確かなものになっていく。。。" TCC_NEWLINE
+"本当に心強いよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"指揮といえば。。。" TCC_NEWLINE
+"さっきの軍師、ちょっと似てましたよね。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんに。" TCC_NEWLINE TCC_PUSH_A
+""
+"なんかこう、雰囲気とかがそっくりでした。" TCC_NEWLINE
+"わたしが愛するのはもちろん断然、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんですが！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"まあこんなに沢山異界があるのだもの。" TCC_NEWLINE
+"似ている人が１人や２人。。。いえ、" TCC_NEWLINE
+"５０人や１００人いても不思議じゃないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"多すぎです、アンナ隊長。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あら、そうかしら？" TCC_NEWLINE
+"とにかく、今回も一件落着ね。" TCC_NEWLINE
+"アスク王国に帰還を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。！？" TCC_NEWLINE
+"大変だわ、みんな。" TCC_NEWLINE
+"たった今、隊員から連絡が入ったわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"「紋章の異界」の扉が。。。" TCC_NEWLINE
+"エンブラ帝国軍に襲撃されているの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"なんだって！？" TCC_NEWLINE
+"まさか奴ら、また英雄マルスを狙って。。。！？"
+,

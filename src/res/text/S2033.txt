@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2033] = TCC_OPEN_LEFT 
+"ほほ。あの儚く小さき皇女には" TCC_NEWLINE
+"強く美しき庇護者が必要であろう。" TCC_NEWLINE
+"すなわち、そう。。。私のような！" TCC_NEWLINE TCC_PUSH_A
+""
+,

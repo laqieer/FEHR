@@ -1,0 +1,53 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4063] = TCC_OPEN_LEFT 
+"カムイ様。。。真実は明かせなくても、" TCC_NEWLINE
+"私はずっとあなたをお守りします。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4063] = "。。。着いたわ。" TCC_NEWLINE TCC_PUSH_A
+"ここが、" TCC_NEWLINE
+"ミズガルズのアスク王国。。。" TCC_NEWLINE
+"人間たちの世界。" TCC_NEWLINE TCC_PUSH_A
+""
+"いやらしい人間たちが" TCC_NEWLINE
+"いかがわしい行いをする地ですね。" TCC_NEWLINE
+"とても不健全です。" TCC_NEWLINE TCC_PUSH_A
+""
+"はぁ。。。" TCC_NEWLINE
+"早くフレイヤ様のご命令を果たして、" TCC_NEWLINE
+"スヴァルトアルフに帰りたいです。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。そうね。" TCC_NEWLINE TCC_PUSH_A
+""
+"この地で万が一敗北すれば、人間たちに" TCC_NEWLINE
+"どんな目に遭わされることでしょうか。。。" TCC_NEWLINE
+"考えただけで私は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。　。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"プルメリア。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。あ、いえ。" TCC_NEWLINE
+"大したことではないのですが。。。" TCC_NEWLINE TCC_PUSH_A
+"この世界の風景。。。" TCC_NEWLINE
+"奇妙な感覚を覚えました。" TCC_NEWLINE
+"既視感、というのでしょうか。" TCC_NEWLINE TCC_PUSH_A
+"私は。。。" TCC_NEWLINE
+"前にもここに" TCC_NEWLINE
+"来たことがあったような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。そう。" TCC_NEWLINE TCC_PUSH_A
+"不思議ね。" TCC_NEWLINE
+"私もなぜか。。。" TCC_NEWLINE
+"そんな気持ちになるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、そんなことあるはずありません。" TCC_NEWLINE
+"私たちはスヴァルトアルフの気高き黒妖精。" TCC_NEWLINE
+"いやらしい人間たちとは違うのですから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。そうね。" TCC_NEWLINE
+"行きましょう。" TCC_NEWLINE
+"フレイヤ様のご命令のままに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

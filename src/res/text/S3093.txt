@@ -1,0 +1,69 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3093] = TCC_OPEN_LEFT 
+"俺はクロード。" TCC_NEWLINE
+"俺は戦術はともかく戦闘はからきしでね、" TCC_NEWLINE
+"少しは手加減してくれよ？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3093] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"あなたにどうしても、" TCC_NEWLINE
+"話しておきたいことがあるの。" TCC_NEWLINE TCC_PUSH_A
+"私。。。思い出したの。" TCC_NEWLINE
+"とても大切なことを。。。" TCC_NEWLINE TCC_PUSH_A
+"私ね。。。前にも会ったことがあるの。" TCC_NEWLINE
+"アルフォンス王子や、" TCC_NEWLINE
+"シャロン王女と。。。" TCC_NEWLINE TCC_PUSH_A
+"ええ。。。そうよ。" TCC_NEWLINE
+"あなたたちの住む場所とは違う、" TCC_NEWLINE
+"この異界のアスク王国で。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"じゃあ、はじめましてですね！" TCC_NEWLINE
+"わたしはシャロン、そして" TCC_NEWLINE
+"こちらがお兄様です！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"はじめまして。" TCC_NEWLINE
+"僕はアルフォンス、" TCC_NEWLINE
+"アスク王国の王子だよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロン王女。。。" TCC_NEWLINE
+"アルフォンス王子。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あなたは？" TCC_NEWLINE
+"なんとお呼びすれば" TCC_NEWLINE
+"いいでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私は。。。。。。　。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、もし言いたくないのでしたら" TCC_NEWLINE
+"ご無理なさらないでください！" TCC_NEWLINE
+"大丈夫ですからね。" TCC_NEWLINE TCC_PUSH_A
+"あ、でもそれだと何とお呼びすれば。。。" TCC_NEWLINE
+"そうです！　もしわたしが異名をつけても" TCC_NEWLINE
+"よければ色々考えてみますよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ふふっ。" TCC_NEWLINE TCC_PUSH_A
+"シャロン王女、あなたは元気ね。。。" TCC_NEWLINE
+"あなたの生命は" TCC_NEWLINE
+"輝きに彩られているわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そ、そうですか？" TCC_NEWLINE
+"そう言われると" TCC_NEWLINE
+"なんだか照れます！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"エイル。" TCC_NEWLINE
+"私の名前は、エイルよ。。。" TCC_NEWLINE TCC_PUSH_A
+"よろしく。。。" TCC_NEWLINE
+"アルフォンス王子、シャロン王女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,116 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2064] = TCC_OPEN_LEFT 
+"僕はマークです！" TCC_NEWLINE
+"あなたが" TCC_TACTICIAN_NAME "さん。。。" TCC_NEWLINE
+"特務機関の軍師の策、学ばせてもらいます！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2064] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな聞いて！" TCC_NEWLINE
+"ちょっと" TCC_NEWLINE
+"まずい状況になったわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"どうしたんですか？" TCC_NEWLINE
+"アンナ隊長。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"偵察によると。。。" TCC_NEWLINE
+"敵軍は私たちの行く先、" TCC_NEWLINE
+"その一帯をくまなく捜索しているわ。" TCC_NEWLINE TCC_PUSH_A
+"私たちの移動に合わせて、" TCC_NEWLINE
+"常に先回りするようにね。" TCC_NEWLINE TCC_PUSH_A
+"このまま私たちが" TCC_NEWLINE
+"スリーズ王女との合流地点に" TCC_NEWLINE
+"近づけば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"！" TCC_NEWLINE
+"合流する前に、姉様が敵に見つかり、" TCC_NEWLINE
+"殺されてしまいます。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"じゃあ、" TCC_TACTICIAN_NAME "さんが" TCC_NEWLINE
+"スリーズ王女に連絡して" TCC_NEWLINE
+"合流場所を変えますか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それでも、私たちの位置が" TCC_NEWLINE
+"常に捕捉されている以上。。。" TCC_NEWLINE
+"敵に先回りされるのは同じよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"このままでは" TCC_NEWLINE
+"スリーズ王女との合流はできない、か。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"いったい、どうすれば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。フィヨルム王女。" TCC_NEWLINE
+"このあたりの地理を" TCC_NEWLINE
+"もう一度詳しく教えてもらえるだろうか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"？" TCC_NEWLINE
+"アルフォンス王子。。。？" TCC_NEWLINE
+"もしや、何かお考えが。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"まだ、わからない。ただ。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"一緒に考えてくれるかい？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2064] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"敵は進路を変えたわ。" TCC_NEWLINE
+"北に向かっている。。。" TCC_NEWLINE TCC_PUSH_A
+"なぜ、行先を変えたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"。。。うーんと。。。わからない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"彼らの目的が" TCC_NEWLINE
+"もし武器や戦場だったなら、" TCC_NEWLINE
+"彼らはいずれ西に行く他ないはず。" TCC_NEWLINE TCC_PUSH_A
+"目的地が変わった。。。" TCC_NEWLINE
+"もしかして、味方。。。？" TCC_NEWLINE
+"誰かと合流しようとしている。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"誰かって、誰？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"武では父上を倒せないわ。" TCC_NEWLINE
+"彼らが頼るとしたら" TCC_NEWLINE
+"ニフルの怪しげな魔道や儀式の類。。。" TCC_NEWLINE TCC_PUSH_A
+"落ち延びたニフル王族の一人。。。" TCC_NEWLINE
+"魔道を使うというスリーズ王女。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"じゃあ、" TCC_NEWLINE
+"スリーズ王女も北に。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"もしそうだとしても。。。" TCC_NEWLINE
+"かわいそうだけど無駄なことね。" TCC_NEWLINE TCC_PUSH_A
+"彼らが北に向かえば、" TCC_NEWLINE
+"王女も北にいると" TCC_NEWLINE
+"教えているようなもの。" TCC_NEWLINE TCC_PUSH_A
+"たとえこの動きが陽動で、" TCC_NEWLINE
+"本当の目的地が南だったとしても。。。" TCC_NEWLINE
+"彼らはいつか南に転進せざるを得ない。" TCC_NEWLINE TCC_PUSH_A
+"私は彼らの四方を囲うように" TCC_NEWLINE
+"常に細かく部隊を動かし、" TCC_NEWLINE
+"網を張っている。" TCC_NEWLINE TCC_PUSH_A
+"スリーズ王女の顔は、" TCC_NEWLINE
+"ニフル王城陥落の時に憶えているわ。" TCC_NEWLINE
+"見れば、すぐに本人かどうかわかる。" TCC_NEWLINE TCC_PUSH_A
+"私たちムスペル軍がいる限り、" TCC_NEWLINE
+"彼らがどう動こうと。。。" TCC_NEWLINE
+"絶対に合流は不可能\よ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

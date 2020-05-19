@@ -1,0 +1,21 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0701] = TCC_OPEN_LEFT 
+"なに。。。？" TCC_NEWLINE
+"この地が異界の軍勢に" TCC_NEWLINE
+"支配されているだと？" TCC_NEWLINE TCC_PUSH_A
+"馬鹿を言え。" TCC_NEWLINE
+"この白夜王国は女王の力により" TCC_NEWLINE
+"悪しき者の侵入から守られている。" TCC_NEWLINE TCC_PUSH_A
+"どうやってここまで" TCC_NEWLINE
+"辿り着いたかは知らんが。。。" TCC_NEWLINE
+"貴様らは俺たちきょうだいが討つ！"
+,
+[MID_SCENARIO_MAP_END_S0701] = TCC_OPEN_LEFT 
+"まさか、これほどの力とは。。。" TCC_NEWLINE
+"皆、態勢を整えて" TCC_NEWLINE
+"再度迎え撃つぞ！" TCC_NEWLINE TCC_PUSH_A
+"民たちのためにも、" TCC_NEWLINE
+"この白夜王国。。。" TCC_NEWLINE
+"落とさせてなるものか！"
+,

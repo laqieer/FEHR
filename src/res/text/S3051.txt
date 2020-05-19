@@ -1,0 +1,261 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HENRIETTE
+"。。。グスタフ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お父様。。。っ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"お父様。。。おっしゃったんです。。。" TCC_NEWLINE
+"アスク王族は一人死んだ。。。" TCC_NEWLINE
+"そう思って、今後を考えよ。。。" TCC_NEWLINE TCC_PUSH_A
+"あれは、お兄様じゃなくて。。。" TCC_NEWLINE
+"ご自分が亡くなられた後のことを。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アルフォンス。" TCC_NEWLINE
+"あなたは自分を責めないで。" TCC_NEWLINE TCC_PUSH_A
+"あなたを救うことができて、" TCC_NEWLINE
+"あの人は幸せだったわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ですが。。。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国にとって、" TCC_NEWLINE
+"僕より父上の方が遥かに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"聞いて、アルフォンス。" TCC_NEWLINE
+"あの人はね。。。" TCC_NEWLINE
+"重い病にかかっていたの。" TCC_NEWLINE TCC_PUSH_A
+"もう。。。" TCC_NEWLINE
+"長くは生きられなかった。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"病。。。に。。。？" TCC_NEWLINE
+"ですが、" TCC_NEWLINE
+"父上にそんなご様子は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの人は知られないようにしていたの。" TCC_NEWLINE
+"王が危うくなれば民は不安を抱き、" TCC_NEWLINE
+"敵は好機と動き出す。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、あなたが王位を継ぐ時まで、" TCC_NEWLINE
+"病を隠し続け、" TCC_NEWLINE
+"耐え続けるつもりだったの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。そう。。。だったのですか。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"僕は。。。" TCC_NEWLINE
+"何もわかっていませんでした。" TCC_NEWLINE
+"父上のお心を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。母上。" TCC_NEWLINE
+"父上は以前、見慣れない枯れ枝を" TCC_NEWLINE
+"僕に見せてくれました。あれは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ、それはね。。。" TCC_NEWLINE
+"せいぎのけん、よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"せいぎの。。。けん。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そう名づけたのはあなたよ、アルフォンス。" TCC_NEWLINE
+"あなたがまだ小さい。。。" TCC_NEWLINE
+"三つくらいの時だったかしら。。。" TCC_NEWLINE TCC_PUSH_A
+"王位を継ぐ者としての教育をはじめて受けた" TCC_NEWLINE
+"あなたは、王国のために" TCC_NEWLINE
+"がんばろうって思ったんでしょうね。" TCC_NEWLINE TCC_PUSH_A
+"拾った小枝を二つ、" TCC_NEWLINE
+"陛下のもとに持ってきたの。" TCC_NEWLINE TCC_PUSH_A
+"一つを陛下に渡して、" TCC_NEWLINE
+"もう一つは自分が構\えた。" TCC_NEWLINE
+"一生懸命、剣を構\えるみたいにね。" TCC_NEWLINE TCC_PUSH_A
+"そして、言ったの。" TCC_NEWLINE
+"「ちちうえ、" TCC_NEWLINE
+"　ともに、くにをまもりましょう」" TCC_NEWLINE TCC_PUSH_A
+"「ぼくが、" TCC_NEWLINE
+"　ちちうえをおたすけします」って。。。" TCC_NEWLINE TCC_PUSH_A
+"あの人。。。" TCC_NEWLINE
+"本当に嬉しそうだったわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"現在の戦線は膠着状態よ。" TCC_NEWLINE
+"敵軍は死の王国につながる扉の" TCC_NEWLINE
+"周辺に布陣している。。。" TCC_NEWLINE TCC_PUSH_A
+"今は、王国騎士団が" TCC_NEWLINE
+"対峙しているから、" TCC_NEWLINE
+"周辺への被害は少ないけれど。。。" TCC_NEWLINE TCC_PUSH_A
+"敵の増援は、" TCC_NEWLINE
+"死の扉から次々と湧いてくる。。。" TCC_NEWLINE
+"きりがないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"膠着は敵に利があります。" TCC_NEWLINE
+"ヘルが現れ、死の呪いをかける度に" TCC_NEWLINE
+"僕たちは次々と死んでいく。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ。でも、王国騎士団は" TCC_NEWLINE
+"指揮官である国王陛下を失ったばかり。。。" TCC_NEWLINE TCC_PUSH_A
+"今は、陛下のかわりを" TCC_NEWLINE
+"王妃や騎士団長がつとめているけれど、" TCC_NEWLINE
+"攻勢に出られるような状況じゃない。。。" TCC_NEWLINE TCC_PUSH_A
+"となると、私たち特務機関が、" TCC_NEWLINE
+"一刻も早く、" TCC_NEWLINE
+"ヘルを討つ方法を見つけないと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"昨晩、お兄様とわたしで、" TCC_NEWLINE
+"王宮の書物を手あたり次第" TCC_NEWLINE
+"探したんです。でも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。。。" TCC_NEWLINE
+"数々の文献をあたったが、" TCC_NEWLINE
+"有効な記述はなかった。" TCC_NEWLINE TCC_PUSH_A
+"でも、まだ一つだけ、" TCC_NEWLINE
+"調べていない場所がある。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"どこですか、お兄様？" TCC_NEWLINE
+"わたしもお手伝いします！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"死の扉の向こう側だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"え。。。えええっ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"死の王国に行くって。。。" TCC_NEWLINE
+"そういうこと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい。ヘルの支配地。。。" TCC_NEWLINE
+"あそこなら、必ず" TCC_NEWLINE
+"ヘルの情報があります。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵軍の数は" TCC_NEWLINE
+"徐々に増してきているわ。。。" TCC_NEWLINE TCC_PUSH_A
+"死の王国に行くには、" TCC_NEWLINE
+"少数で敵陣をかいくぐり、" TCC_NEWLINE
+"死の扉を突破するしかないわね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"はい。死地に飛び込むような" TCC_NEWLINE
+"危険な戦いになります。" TCC_NEWLINE
+"ですが。。。" TCC_NEWLINE TCC_PUSH_A
+"勝算はある。" TCC_NEWLINE
+"僕はそう考えています。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"確かに、少数隠密を得意とする" TCC_NEWLINE
+"私たち特務機関なら。。。" TCC_NEWLINE
+"不可能\じゃないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"いいわ！　やってやろうじゃない！" TCC_NEWLINE
+"私たちの一矢でヘルを討ち、" TCC_NEWLINE
+"アスクを救いましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"ねえ、" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"本気なの。。。？" TCC_NEWLINE TCC_PUSH_A
+"。。。あなたたち、本当に" TCC_NEWLINE
+"死の国に行くつもりなの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"エイル王女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうしてそこまで抗うの。。。？" TCC_NEWLINE
+"死には勝てないのに。。。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国の人間をすべて殺し、" TCC_NEWLINE
+"死者に変えるのが" TCC_NEWLINE
+"お母様のご意思よ。" TCC_NEWLINE TCC_PUSH_A
+"お母様は死の支配者。。。" TCC_NEWLINE
+"誰をいつ死なせるかは思いのまま。。。" TCC_NEWLINE
+"誰も抗うことはできない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いや。。。僕はそうは思わない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"誰をいつ死なせるかは思いのまま。。。" TCC_NEWLINE
+"もしもヘルの呪いが" TCC_NEWLINE
+"それほど万能\であれば。。。" TCC_NEWLINE TCC_PUSH_A
+"アスクの民全員一斉に、" TCC_NEWLINE
+"あと一瞬で死ねと" TCC_NEWLINE
+"呪いをかければいい。" TCC_NEWLINE TCC_PUSH_A
+"そうすれば、" TCC_NEWLINE
+"僕たちは今頃全滅していた。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"【死すべき定め】には制約がある。。。" TCC_NEWLINE
+"僕はそう予\想している。" TCC_NEWLINE TCC_PUSH_A
+"呪いから成就までには" TCC_NEWLINE
+"少なくとも九日間が必要。。。" TCC_NEWLINE TCC_PUSH_A
+"そして、" TCC_NEWLINE
+"一度に呪える相手は一人だけだ。" TCC_NEWLINE TCC_PUSH_A
+"そして敵を呪う時と、" TCC_NEWLINE
+"呪いの成就の時しか" TCC_NEWLINE
+"ヘルは姿を見せなかった。" TCC_NEWLINE TCC_PUSH_A
+"なぜヘルは身を隠していた。。。？" TCC_NEWLINE
+"それは。。。" TCC_NEWLINE TCC_PUSH_A
+"ヘルを討つ方法があるからだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。変わった考え方をするのね、あなた。" TCC_NEWLINE
+"あなたはお母様を恐れてないみたい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"恐れているよ。。。" TCC_NEWLINE
+"でも、ただ怯えて隠れていても" TCC_NEWLINE
+"何も生まれない。" TCC_NEWLINE TCC_PUSH_A
+"僕はね、子供の頃。。。" TCC_NEWLINE
+"おばけがこわかったんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"おばけ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どこに逃げても必ず追いかけてきて、" TCC_NEWLINE
+"何をしても倒すことができない。。。" TCC_NEWLINE
+"話を聞くだけで恐ろしかった。" TCC_NEWLINE TCC_PUSH_A
+"でも。。。ヘルは、" TCC_NEWLINE
+"空想上のおばけとは違う。" TCC_NEWLINE
+"現実の敵なんだ。" TCC_NEWLINE TCC_PUSH_A
+"それなら、倒せる。" TCC_NEWLINE
+"いや、倒さなければならない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"倒す。。。？" TCC_NEWLINE
+"お母様を。。。死を。。。倒す？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ、倒す。" TCC_NEWLINE
+"たとえどんな敵でも。。。" TCC_NEWLINE
+"必ず何か糸口があるはずだ。" TCC_NEWLINE TCC_PUSH_A
+"そこを切り開けば。。。倒せる。" TCC_NEWLINE TCC_PUSH_A
+""
+,

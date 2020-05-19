@@ -1,0 +1,58 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4052] = TCC_OPEN_LEFT 
+"もう一度家族みんなで暮らす。。。" TCC_NEWLINE
+"それがあたしの願いです。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4052] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あの、お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"シャロン。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お兄様、前に言ってましたよね。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんのこと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE
+"もしかして、" TCC_NEWLINE
+"思い出したのかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いえ、ごめんなさいお兄様。" TCC_NEWLINE
+"やっぱり。。。その方は" TCC_NEWLINE
+"ここにはいないんだと思います。" TCC_NEWLINE TCC_PUSH_A
+"アンナ隊長も、" TCC_NEWLINE
+"他の皆さんもみんな" TCC_NEWLINE
+"知らないって言ってました。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。そうか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でも。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、なぜか" TCC_NEWLINE
+"悲しくなるんです。。。" TCC_NEWLINE
+"寂しくなるんです。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "さんの" TCC_NEWLINE
+"名前を聞くと。。。" TCC_NEWLINE
+"涙が出そうになるんです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"シャロン。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何も覚えていないのに。。。" TCC_NEWLINE
+"どうしてなんでしょう。。。" TCC_NEWLINE TCC_PUSH_A
+"お兄様。。。" TCC_NEWLINE
+"わたし、大切な何かを" TCC_NEWLINE
+"忘れてしまったんでしょうか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"大丈夫だよ、シャロン。" TCC_NEWLINE
+"僕が必ずなんとかする。" TCC_NEWLINE
+"だから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

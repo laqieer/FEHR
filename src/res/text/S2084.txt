@@ -1,0 +1,13 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2084] = TCC_OPEN_LEFT 
+"あたしのお父さんは" TCC_NEWLINE
+"かっこよくってすごいんだよ！" TCC_NEWLINE
+"あたしもお父さんみたいに！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT 
+"僕のお母さんは" TCC_NEWLINE
+"すっごく強くて、憧れなんだ。" TCC_NEWLINE
+"僕もお母さんみたいに！" TCC_NEWLINE TCC_PUSH_A
+""
+,

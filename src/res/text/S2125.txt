@@ -1,0 +1,189 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2125] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。最初に疑問を持ったのは、" TCC_NEWLINE
+"たぶん、" TCC_TACTICIAN_NAME "だ。" TCC_NEWLINE TCC_PUSH_A
+"ムスペルへ来て、" TCC_NEWLINE
+"初めてユルグ王女と出会った時。。。" TCC_NEWLINE TCC_PUSH_A
+"王女は名前も顔も知らないはずの" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "の名を呼び、" TCC_NEWLINE
+"見知った顔のように呼びかけた。" TCC_NEWLINE TCC_PUSH_A
+"あの時、僕も不思議に思ったんだ。" TCC_NEWLINE
+"囚われていた間に、偶然" TCC_NEWLINE
+"名前や風貌まで知ったのだろうか。。。" TCC_NEWLINE TCC_PUSH_A
+"それとも、彼女は以前どこかで" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "に" TCC_NEWLINE
+"会ったことがあるのだろうか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"そ、そんなことが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"彼女は、わざとそう言ったんだ。" TCC_NEWLINE
+"僕たちが疑問を抱くように、" TCC_NEWLINE
+"まるで子供が悪戯を仕掛けるように。。。" TCC_NEWLINE TCC_PUSH_A
+"そこから、彼女の" TCC_NEWLINE
+"真の姿も見えてくる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_HRID
+"ならば確かめるべきだ。" TCC_NEWLINE
+"一刻も早くユルグのもとへ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"フリーズ王子。。。" TCC_NEWLINE TCC_PUSH_A
+"その場を動かないで欲しい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"君の言う通り、" TCC_NEWLINE
+"ユルグ王女は疑わしい。" TCC_NEWLINE TCC_PUSH_A
+"だが今、僕たちが警戒すべきなのは" TCC_NEWLINE
+"ユルグ王女じゃない。。。" TCC_NEWLINE TCC_PUSH_A
+"君だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"何を。。。言っている。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アスク王国でも、" TCC_NEWLINE
+"君は戯れに披露してみせた。。。" TCC_NEWLINE
+"姿を自在に変える術を。" TCC_NEWLINE TCC_PUSH_A
+"君は誰の姿にでもなれる。" TCC_NEWLINE
+"アンナ隊長にも、ユルグ王女にも、" TCC_NEWLINE
+"そして。。。フリーズ王子にも。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ユルグ王女が疑わしいのは事実。。。" TCC_NEWLINE
+"だからこそ、今の姿の君を" TCC_NEWLINE
+"誰も疑おうとはしない。" TCC_NEWLINE TCC_PUSH_A
+"わざと答えをちらつかせて僕たちを誘い、" TCC_NEWLINE
+"こっそりその背後に忍び寄る。。。" TCC_NEWLINE
+"それが、君の本当の狙いだった。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"に、兄様。。。！？" TCC_NEWLINE
+"本当なのですか。。。！？" TCC_NEWLINE TCC_PUSH_A
+"いえ、あなたは。。。" TCC_NEWLINE
+"もしや。。。兄様では。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"フィヨルム。。。騙されるな。" TCC_NEWLINE
+"私を信じろ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"フィヨルム王女、こっちへ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わ。。。私は。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"お教えください。。。" TCC_NEWLINE
+"私は。。。どうしたら。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。そこまでだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+"ア。。。" TCC_NEWLINE
+"アルフォンス王子が。。。" TCC_NEWLINE
+"二人。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ずっと警戒はしていた。" TCC_NEWLINE
+"でもまさか、" TCC_NEWLINE
+"こんな手に出るとは。。。" TCC_NEWLINE TCC_PUSH_A
+"終わりにしよう。" TCC_NEWLINE
+"君の好きな混乱と騒動。。。" TCC_NEWLINE
+"もう十\分楽しんだはずだ。" TCC_NEWLINE TCC_PUSH_A
+"。。。ロキ。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。あらん。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2125] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"もうばれちゃったの？" TCC_NEWLINE
+"残念、ねえ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"君は最初にユルグ王女に化け、" TCC_NEWLINE
+"僕たちの中に入り込んだ。" TCC_NEWLINE
+"さっき、君自身が明かした通りに。。。" TCC_NEWLINE TCC_PUSH_A
+"本物のユルグ王女は、" TCC_NEWLINE
+"おそらく炎の儀の供物として" TCC_NEWLINE
+"捧げられている。。。" TCC_NEWLINE TCC_PUSH_A
+"ザカリアが言っていた" TCC_NEWLINE
+"二人の少女のうちの一人。。。" TCC_NEWLINE
+"それがユルグ王女だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あたり。" TCC_NEWLINE
+"あの子はヴェロニカ皇女ともども、" TCC_NEWLINE
+"王を蘇らせる炎になってもらってるわ。" TCC_NEWLINE TCC_PUSH_A
+"じゃあ、もう一問" TCC_NEWLINE
+"謎解きを出そうかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+"これから私を相手に、" TCC_NEWLINE
+"どうやって勝つか。。。" TCC_NEWLINE
+"答えてみてちょうだい？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2125] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"あらん、やられちゃった。。。" TCC_NEWLINE
+"ふふ、さすがねえ、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2125] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"お見事。。。" TCC_NEWLINE
+"じゃあ、謎解きに正解した" TCC_NEWLINE
+"あなたたちにご褒美。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女のいる" TCC_NEWLINE
+"炎の儀の神殿はね、" TCC_NEWLINE
+"表\側は王様が待ち構\えているの。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女たちを助けるにはね、" TCC_NEWLINE
+"裏側の秘密の入り口から入るの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"その場所が記された古文書。。。" TCC_NEWLINE
+"ご褒美にあげるわ、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+"あ、そうそう。" TCC_NEWLINE
+"ヴェロニカ皇女、もうすぐ死んじゃうから。" TCC_NEWLINE
+"それまでに助けてあげてね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"なぜこんな情報を。。。？" TCC_NEWLINE
+"君はスルトの配下じゃないのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ、もちろんそうだけど。。。" TCC_NEWLINE
+"でも、別の役割もあるのよねえ。" TCC_NEWLINE TCC_PUSH_A
+""
+"それに私、" TCC_NEWLINE
+"ヴェロニカ皇女が気に入っちゃったの。" TCC_NEWLINE
+"いつかじっくり可愛がってあげたいわねえ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。さて、私の出番はここまで。" TCC_NEWLINE
+"あなたたちがスルトを倒すか、" TCC_NEWLINE
+"それとも負けて死ぬのか。。。" TCC_NEWLINE TCC_PUSH_A
+"ゆっくり、" TCC_NEWLINE
+"お空の客席から見物させてもらうわ。" TCC_NEWLINE
+"がんばって、ねえ？" TCC_NEWLINE TCC_PUSH_A
+""
+,

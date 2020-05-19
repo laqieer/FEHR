@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3112] = TCC_OPEN_LEFT 
+"私はシリウス。" TCC_NEWLINE
+"ただの、旅の者だ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

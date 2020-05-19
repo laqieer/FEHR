@@ -1,0 +1,47 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3083] = TCC_OPEN_LEFT 
+"私は強くなるの。" TCC_NEWLINE
+"いつかすべてを取り戻すために。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3083] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"待って、リーヴ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたは私のことを。。。" TCC_NEWLINE
+"何か知っているの？" TCC_NEWLINE
+"お願い、教えて。" TCC_NEWLINE TCC_PUSH_A
+""
+"もう少しで。。。" TCC_NEWLINE
+"思い出しそうなの。" TCC_NEWLINE
+"とても。。。とても大切な何かを。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの街の花。。。" TCC_NEWLINE
+"あなたが手向けたの。。。？" TCC_NEWLINE
+"どこかで、見覚えがあるの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あれは。。。。。。" TCC_NEWLINE
+"あれは。。。。。。そう。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。ヘルに伝えろ。" TCC_NEWLINE TCC_PUSH_A
+"そうすれば、" TCC_NEWLINE
+"ヘルがすべてを忘れさせる。" TCC_NEWLINE
+"何もかも、すべて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうして。。。" TCC_NEWLINE
+"どうして。。。そんなに悲しい顔を。。。？" TCC_NEWLINE TCC_PUSH_A
+"あなたは。。。" TCC_NEWLINE
+"もしかして。。。あなたは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

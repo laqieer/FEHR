@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4024] = TCC_OPEN_LEFT 
+"いつか、この胸の空白が" TCC_NEWLINE
+"埋まる時がくるのでしょうか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

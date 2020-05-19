@@ -1,0 +1,199 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2095] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"。。。おい、クソ\ガキ。" TCC_NEWLINE
+"出ろ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_YLGR
+"え？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"てめーは王城に送られる。" TCC_NEWLINE
+"王の御命令だとさ。" TCC_NEWLINE TCC_PUSH_A
+"兵がてめーを連れてく。" TCC_NEWLINE
+"言っとくが、" TCC_NEWLINE
+"逃げんじゃねーぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あなたは？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"俺はこの城で" TCC_NEWLINE
+"奴らを迎え撃つ。" TCC_NEWLINE TCC_PUSH_A
+"王の命令は" TCC_NEWLINE
+"この黒灰の城に来る" TCC_NEWLINE
+"敵をぶっ殺すことだ。" TCC_NEWLINE TCC_PUSH_A
+"できなきゃ、俺は死ぬ。" TCC_NEWLINE
+"敗北も逃亡も死だ。" TCC_NEWLINE
+"死ぬまでここに居残りってわけだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ねえ、あなたはどうして" TCC_NEWLINE
+"あんな王様に従うの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。あ？" TCC_NEWLINE
+"決まってんだろ。" TCC_NEWLINE
+"生きるためだ。" TCC_NEWLINE TCC_PUSH_A
+"なんでもクソ\もねー。" TCC_NEWLINE
+"この国ではそれしか" TCC_NEWLINE
+"生きてく道はねーんだ。" TCC_NEWLINE TCC_PUSH_A
+"ましてや俺は" TCC_NEWLINE
+"クソ\足手まといの" TCC_NEWLINE
+"家族を抱えてる。。。" TCC_NEWLINE TCC_PUSH_A
+"弱者は死ね。" TCC_NEWLINE
+"それを曲げて生かしたきゃ、" TCC_NEWLINE
+"でけえ戦功がいる。" TCC_NEWLINE TCC_PUSH_A
+"だから敵をぶっ殺す。" TCC_NEWLINE
+"それだけだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。あなたの家族って、" TCC_NEWLINE
+"もしかして妹？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。あ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"やっぱり。。。だから、" TCC_NEWLINE
+"わたしのことも殺さないで" TCC_NEWLINE
+"いてくれたんだね。" TCC_NEWLINE TCC_PUSH_A
+""
+"えへへ。" TCC_NEWLINE
+"あなたって、良い人なんだね！" TCC_NEWLINE
+"。。。そんな顔してるのに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ぶっ殺すぞてめー！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2095] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"ぎゃはははははははっ！" TCC_NEWLINE
+"来やがったなクソ\どもが！" TCC_NEWLINE TCC_PUSH_A
+"おいおい、それで全部か？" TCC_NEWLINE
+"そんな少数で" TCC_NEWLINE
+"のこのこ殺されに来やがったか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"いいえ。" TCC_TACTICIAN_NAME "様が" TCC_NEWLINE
+"召喚した英雄たちは皆、" TCC_NEWLINE
+"一人で一隊に勝る勇者たち。" TCC_NEWLINE TCC_PUSH_A
+"たとえムスペルの軍勢が" TCC_NEWLINE
+"どれだけいようと、" TCC_NEWLINE
+"勝つのは私たちです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"クソ\が。。。なら来やがれ！" TCC_NEWLINE
+"てめーら勇者様のケツに" TCC_NEWLINE
+"こいつを突っ込んでやるからよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2095] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"俺はまだ。。。死ねねえ。。。" TCC_NEWLINE
+"俺がいなけりゃ。。。あいつは。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。メニ。。。ヤ。。。。。。" TCC_NEWLINE
+"俺は。。。まだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2095] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵軍は撃破したわ。" TCC_NEWLINE
+"さあ、このまま" TCC_NEWLINE
+"スルトのもとへ急ぐわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_YLGR
+"ねえさま～！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ん？" TCC_NEWLINE
+"あれは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"姉様！" TCC_NEWLINE
+"フィヨルム姉様！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"ユルグ。。。！？" TCC_NEWLINE TCC_PUSH_A
+"まさか、ほんとうに。。。" TCC_NEWLINE
+"あなたなのですか？" TCC_NEWLINE TCC_PUSH_A
+"ああ。。。よく無事で。。。" TCC_NEWLINE
+"ああ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"スルトのお城に" TCC_NEWLINE
+"連れていかれそうになったけど、" TCC_NEWLINE
+"がんばってにげてきたの。" TCC_NEWLINE TCC_PUSH_A
+"姉様も無事でよかった、" TCC_NEWLINE
+"うれしい！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"皆様、この子はユルグ。。。" TCC_NEWLINE
+"私の妹です。" TCC_NEWLINE TCC_PUSH_A
+"私たち兄弟は四人。。。" TCC_NEWLINE
+"スリーズ姉様、フリーズ兄様、" TCC_NEWLINE
+"私、ユルグ。。。" TCC_NEWLINE TCC_PUSH_A
+"ニフルが敗れた後は。。。" TCC_NEWLINE
+"みんな散り散りになってしまい、" TCC_NEWLINE
+"生死もわからないままでした。。。" TCC_NEWLINE TCC_PUSH_A
+"ああ、" TCC_NEWLINE
+"でも無事で良かった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ねえねえ、姉様。" TCC_NEWLINE
+"この人たちは？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"こちらはアスク王国の皆様です。" TCC_NEWLINE
+"アルフォンス王子、シャロン王女、" TCC_NEWLINE
+"それから。。。こほっ、こほっ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"姉様、へいき？" TCC_NEWLINE
+"おかぜひいちゃったの？" TCC_NEWLINE
+"わたしが看病してあげる！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ありがとう、ユルグ。" TCC_NEWLINE
+"あなたは優しい子ですね。" TCC_NEWLINE
+"あなたも大変な目にあったのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"フィヨルム王女とユルグ王女は" TCC_NEWLINE
+"仲が良い姉妹なんですね。" TCC_NEWLINE
+"わたしとお兄様みたいです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ユルグ王女。" TCC_NEWLINE
+"あなたは戦えないようだし、" TCC_NEWLINE
+"後方に残って安全を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ううん、わたしも一緒にいく！" TCC_NEWLINE
+"わたし、がんばって役に立つの。" TCC_NEWLINE TCC_PUSH_A
+""
+"ね、おねがい、" TCC_NEWLINE
+"フィヨルム姉様。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"どうしましょう。。。皆様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"そうだね。。。" TCC_NEWLINE
+"小さな子を危険には" TCC_NEWLINE
+"巻き込みたくないけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わたしならへいき！" TCC_NEWLINE
+"ね、おねがい。アルフォンスさん、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さん。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"お兄様！　" TCC_TACTICIAN_NAME "さん！" TCC_NEWLINE
+"連れてってあげましょう！　ね、ね？" TCC_NEWLINE
+"かわいそうですし。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"仕方ないね。。。" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"彼女の身の安全は" TCC_NEWLINE
+"僕たちで守ろう。" TCC_NEWLINE TCC_PUSH_A
+""
+,

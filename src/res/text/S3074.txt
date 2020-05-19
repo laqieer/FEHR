@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3074] = TCC_OPEN_LEFT 
+"バレンシアもこの世界も。。。" TCC_NEWLINE
+"何もかも俺が焼き尽くしてやる。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,

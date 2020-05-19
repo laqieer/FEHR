@@ -1,0 +1,21 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0501] = TCC_OPEN_LEFT 
+"。。。現れたか。" TCC_NEWLINE
+"お前たちが特務機関を名乗る" TCC_NEWLINE
+"侵略者だな？" TCC_NEWLINE TCC_PUSH_A
+"先ほどエンブラ帝国の兵より、" TCC_NEWLINE
+"イーリス聖王国に仇なす勢力ありとの" TCC_NEWLINE
+"報せを受けた。" TCC_NEWLINE TCC_PUSH_A
+"イーリスの平和を乱す者は、" TCC_NEWLINE
+"このクロム自警団が許さん！" TCC_NEWLINE
+"行くぞ、リズ、フレデリク！"
+,
+[MID_SCENARIO_MAP_END_S0501] = TCC_OPEN_LEFT 
+"くっ。。。" TCC_NEWLINE
+"俺たちはまだ負けん。。。！" TCC_NEWLINE TCC_PUSH_A
+"ここからは自警団の皆で、" TCC_NEWLINE
+"お前たちを食い止めてみせる。" TCC_NEWLINE TCC_PUSH_A
+"クロム自警団の絆の力。。。" TCC_NEWLINE
+"よく見ておくんだな。"
+,

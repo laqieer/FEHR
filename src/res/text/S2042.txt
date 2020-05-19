@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2042] = TCC_OPEN_LEFT 
+"私の出番。。。" TCC_NEWLINE
+"どっちを斬ればいい？　あっち。。。？" TCC_NEWLINE
+"そう。。。それじゃ、行くから。" TCC_NEWLINE TCC_PUSH_A
+""
+,

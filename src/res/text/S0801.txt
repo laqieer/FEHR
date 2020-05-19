@@ -1,0 +1,18 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0801] = TCC_OPEN_LEFT 
+"あっ、来たわね。あなたたちが" TCC_NEWLINE
+"エリウッド様が言ってた異界の英雄？" TCC_NEWLINE
+"ふーん、なかなか強そうじゃない。" TCC_NEWLINE TCC_PUSH_A
+"でも、残念ね。" TCC_NEWLINE
+"このセーラ様と下僕たちに" TCC_NEWLINE
+"かなうはずないんだから！"
+,
+[MID_SCENARIO_MAP_END_S0801] = TCC_OPEN_LEFT 
+"いたた。。。" TCC_NEWLINE
+"ちょっと！　ひどいじゃない！" TCC_NEWLINE
+"私が傷ついたらかわいそうでしょ！" TCC_NEWLINE TCC_PUSH_A
+"私はこれで退いてあげるけど、" TCC_NEWLINE
+"エリウッド様たちはもっと強いんだから。" TCC_NEWLINE
+"覚えてなさいよね！"
+,

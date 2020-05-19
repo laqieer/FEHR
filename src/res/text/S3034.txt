@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3034] = TCC_OPEN_LEFT 
+"私たちと契約を交わした" TCC_NEWLINE
+"あのリーヴという名のベオク。。。" TCC_NEWLINE
+"あの男の心は、まるですべてを。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,42 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3014] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_THRASIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様、また敵が。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。私はスラシル。" TCC_NEWLINE TCC_PUSH_A
+"死の王国の将。。。" TCC_NEWLINE
+"鏖殺の魔女スラシル。。。" TCC_NEWLINE TCC_PUSH_A
+"みんな殺す。" TCC_NEWLINE
+"そのために、私は来たの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3014] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様、" TCC_NEWLINE
+"敵は退いたみたいです。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、スラシルって。。。" TCC_NEWLINE
+"どこかで聞いたような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"エンブラ帝国の祖。。。" TCC_NEWLINE
+"初代皇帝スラシル。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！　じゃあ、" TCC_NEWLINE
+"あれはヴェロニカ皇女の" TCC_NEWLINE
+"ご先祖様ってことですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そういうことになるね。" TCC_NEWLINE
+"スラシルは一国を滅ぼすほどの" TCC_NEWLINE
+"魔力を持っていたという魔女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"リーヴにスラシル。。。" TCC_NEWLINE
+"歴史書にも載る伝説の王たちが、" TCC_NEWLINE
+"僕たちの敵というわけか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

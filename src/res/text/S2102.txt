@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2102] = TCC_OPEN_LEFT 
+"あ、どうもこんにちは。" TCC_NEWLINE
+"僕はカナスといいます。" TCC_NEWLINE
+"ご迷惑をおかけしてすみません。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

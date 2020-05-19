@@ -1,0 +1,120 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S1305] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"く。。。くく。。。。。。" TCC_NEWLINE
+"さあ、約束通り殺してやるぞ。。。" TCC_NEWLINE
+"アスクの王族ども。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"こ、怖いです。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さん。。。" TCC_NEWLINE TCC_PUSH_A
+"前に会った時は、" TCC_NEWLINE
+"あんな風じゃなかった気が" TCC_NEWLINE
+"するんですけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"何か。。。理由があるのかもしれない。" TCC_NEWLINE
+"でも、今はそれよりザカリアのことだ。" TCC_NEWLINE TCC_PUSH_A
+"ブルーノ皇子！" TCC_NEWLINE
+"ザカリアに何をした！？" TCC_NEWLINE
+"ここで全部話してもらう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"く。。。くく。。。" TCC_NEWLINE
+"何をしたか。。。知りたい。。。か。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。これでも、か？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE
+"それは。。。！" TCC_NEWLINE
+"ザカリアさんの槍。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"奴は、私が首を落とした。" TCC_NEWLINE
+"エンブラの知ってはならぬ秘密を" TCC_NEWLINE
+"知ってしまったのでな。。。" TCC_NEWLINE TCC_PUSH_A
+"お前たちから離れ、" TCC_NEWLINE
+"たった一人で行動していた奴に" TCC_NEWLINE
+"抗う術などなかった。。。" TCC_NEWLINE TCC_PUSH_A
+"最後にはお前たちの名を呼び、" TCC_NEWLINE
+"みじめに命乞いをしていたぞ。" TCC_NEWLINE TCC_PUSH_A
+"お願いだ、何でもするから" TCC_NEWLINE
+"俺を助けてくれ。。。とな。" TCC_NEWLINE
+"くく。。。くくく。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そん。。。な。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"貴様。。。貴様っ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私が憎いか？　ならば来い！" TCC_NEWLINE
+"貴様らも奴のもとへ送ってやろう！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1305] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"が。。。はっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S1305] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"さあ、殺すがいい。。。" TCC_NEWLINE
+"今度は。。。後悔しないようにな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。最後に、一度だけ聞く。" TCC_NEWLINE
+"本当に君が" TCC_NEWLINE
+"ザカリアを殺したんだな？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"く。。。くくく。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"くどい！　奴は私が殺した！" TCC_NEWLINE
+"お前も妹も" TCC_NEWLINE
+"同じ目に遭わせてやるぞ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。わかった。" TCC_NEWLINE
+"それならここで、" TCC_NEWLINE
+"友の仇討たせてもらう！" TCC_NEWLINE TCC_PUSH_A
+""
+"？" TCC_NEWLINE
+"。。。" TCC_TACTICIAN_NAME "。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE
+"まさか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"いや。。。そんなはずはない。" TCC_NEWLINE
+"しかし。。。" TCC_NEWLINE TCC_PUSH_A
+"まさか、あれは。。。" TCC_NEWLINE
+"そういうことだったのか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"え？　え？" TCC_NEWLINE
+"どういうことなんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あの時の、" TCC_NEWLINE
+"ヤクシの石の儀式。。。" TCC_NEWLINE TCC_PUSH_A
+"生きていれば必ず" TCC_NEWLINE
+"言葉を交わせるあの儀式で、" TCC_NEWLINE
+"ザカリアの声は聞こえなかった。" TCC_NEWLINE TCC_PUSH_A
+"だからザカリアは死んだ。" TCC_NEWLINE
+"僕たちはそう思った。" TCC_NEWLINE
+"。。。でも、もう一つ可能\性があった。" TCC_NEWLINE TCC_PUSH_A
+"僕たちは、あの時、" TCC_NEWLINE
+"ザカリアと言葉を交わしていたんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"え？　え？　え？" TCC_NEWLINE TCC_PUSH_A
+""
+"それって、もしかして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"エンブラ帝国皇子ブルーノ。。。" TCC_NEWLINE TCC_PUSH_A
+"君が、ザカリアなのか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

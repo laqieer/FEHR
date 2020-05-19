@@ -1,0 +1,148 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3061] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"暗い。。。" TCC_NEWLINE
+"まるで伝承にある" TCC_NEWLINE
+"冥界のようだ。。。" TCC_NEWLINE TCC_PUSH_A
+"ここが、死の王国。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_EIR
+"死の王国ヘル。。。" TCC_NEWLINE
+"死を司るお母様の国よ。。。" TCC_NEWLINE TCC_PUSH_A
+"死後、喜びの園に" TCC_NEWLINE
+"行けなかった者たちは、" TCC_NEWLINE
+"亡者としてこの死の国に留まる。。。" TCC_NEWLINE TCC_PUSH_A
+"あらゆる世界の死者が" TCC_NEWLINE
+"ここに集まるわ。。。" TCC_NEWLINE
+"人の死が、お母様の力を増す。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"死者、か。。。" TCC_NEWLINE
+"エイル王女、君も死者なのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"でも、エイルさんは、" TCC_NEWLINE
+"死の兵とは違う気がします。" TCC_NEWLINE
+"お肌もぴちぴちしてますし！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ぴちぴち。。。？" TCC_NEWLINE
+"それはよくわからないけれど。。。" TCC_NEWLINE TCC_PUSH_A
+"ええ。私は。。。人間。。。" TCC_NEWLINE
+"死の軍勢のように不死の力はない。。。" TCC_NEWLINE
+"無価値な存在。。。" TCC_NEWLINE TCC_PUSH_A
+"私に彼らのような力があれば、" TCC_NEWLINE
+"お母様は喜んで" TCC_NEWLINE
+"くださったのかもしれない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"エイル王女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。王城はあっちよ。" TCC_NEWLINE
+"行きましょう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3061] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"あなたは。。。" TCC_NEWLINE
+"アスク初代王。。。リーヴ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"生者がなぜここへ来た。。。" TCC_NEWLINE
+"死の王国は" TCC_NEWLINE
+"貴様らのいるべき場所ではない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3061] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"無駄だ。死には抗えない。。。" TCC_NEWLINE
+"だが、生者は死なねば" TCC_NEWLINE
+"わからないのだろうな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3061] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"！" TCC_NEWLINE
+"みんな、止まって。" TCC_NEWLINE
+"ここは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"これは。。。" TCC_NEWLINE
+"おびただしい血の跡。。。" TCC_NEWLINE TCC_PUSH_A
+"異様な場所だ。。。" TCC_NEWLINE
+"処刑場。。。" TCC_NEWLINE
+"それとも拷問場。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"ここは、私の居場所。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"え。。。えええ！？" TCC_NEWLINE
+"どういうことですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"私の役目は。。。" TCC_NEWLINE
+"死ぬことだったの。" TCC_NEWLINE TCC_PUSH_A
+"お母様は言ったわ。。。" TCC_NEWLINE
+"私はふつうの人間とは違う。" TCC_NEWLINE TCC_PUSH_A
+"生命の竜の力で、" TCC_NEWLINE
+"この身にいくつもの命を" TCC_NEWLINE
+"宿している。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いくつもの。。。命。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ふつうの人間は、命は一つ。" TCC_NEWLINE
+"でも私は幾千幾万もの命を持つ。。。" TCC_NEWLINE
+"私は殺されてもしばらくすると蘇るの。" TCC_NEWLINE TCC_PUSH_A
+"だから、" TCC_NEWLINE
+"お母様はここで私を殺すの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"どうして。。。" TCC_NEWLINE
+"自分の娘に。。。" TCC_NEWLINE
+"そんなひどいこと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"人の死が。。。" TCC_NEWLINE
+"お母様の力になるから。" TCC_NEWLINE TCC_PUSH_A
+"だから、私は、毎日殺される。" TCC_NEWLINE
+"毎日、毎日、毎日。。。殺され続ける。" TCC_NEWLINE TCC_PUSH_A
+"ふつうの人たちは、一度きり。" TCC_NEWLINE
+"一度、死の痛みを味わえば終わる。。。" TCC_NEWLINE
+"だから、死は優しさ。" TCC_NEWLINE TCC_PUSH_A
+"私にとっては、" TCC_NEWLINE
+"死は終わりない苦痛。。。" TCC_NEWLINE
+"毎日味わうべき務めなの。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"エイル王女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"でも、それも。。。" TCC_NEWLINE
+"終わってしまった。。。" TCC_NEWLINE TCC_PUSH_A
+"お母様は言ったわ。" TCC_NEWLINE
+"私の中の命が。。。" TCC_NEWLINE
+"殺し尽くされた。。。" TCC_NEWLINE TCC_PUSH_A
+"私の中の幾千の命は。。。" TCC_NEWLINE
+"幾千の死として" TCC_NEWLINE
+"お母様の力となった。。。" TCC_NEWLINE TCC_PUSH_A
+"私に残った命はもう、一つだけ。。。" TCC_NEWLINE
+"私はお母様にとって" TCC_NEWLINE
+"無価値な存在になった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"エイル王女。。。" TCC_NEWLINE
+"君は、平気なのか。。。？" TCC_NEWLINE
+"母親にそんな目に遭わされて。。。" TCC_NEWLINE TCC_PUSH_A
+"そうか。。。" TCC_NEWLINE
+"だから君は" TCC_NEWLINE
+"脱走してきたのか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。そう。。。かも。。。" TCC_NEWLINE
+"しれないわね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

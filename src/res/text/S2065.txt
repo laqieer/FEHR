@@ -1,0 +1,202 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2065] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"彼らの目的地は、ここ。。。" TCC_NEWLINE
+"ニフル北部の最果て。。。" TCC_NEWLINE
+"細氷の神殿。。。" TCC_NEWLINE TCC_PUSH_A
+"飛竜すら越せぬ峻厳な山々に左右を遮られ、" TCC_NEWLINE
+"私たちも一度しか足を踏み入れたことが" TCC_NEWLINE
+"なかった厳寒の極地。。。" TCC_NEWLINE TCC_PUSH_A
+"でも。。。奇妙ね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"姉上、だめ。" TCC_NEWLINE
+"スリーズ王女はいなかった。" TCC_NEWLINE TCC_PUSH_A
+"神殿の中も外も誰もいない。" TCC_NEWLINE
+"この一帯には" TCC_NEWLINE
+"誰もいないし、何もない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そう。。。" TCC_NEWLINE
+"ありがとうレーヴァテイン。" TCC_NEWLINE TCC_PUSH_A
+""
+"これは。。。どういうこと？" TCC_NEWLINE TCC_PUSH_A
+"彼らがこの地を" TCC_NEWLINE
+"今も目指しているのは" TCC_NEWLINE
+"間違いない。。。" TCC_NEWLINE TCC_PUSH_A
+"ここには必ず何かがある。" TCC_NEWLINE
+"彼らが目的とする何かが。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、それは何。。。？" TCC_NEWLINE
+"こんな不毛の地に何が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"うー。。。わからない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。レーヴァテイン、" TCC_NEWLINE
+"以前見つけた大洞窟はどう？" TCC_NEWLINE
+"山脈を潜り、西へ抜ける道があったはず。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"だめ。。。洞窟は氷柱で凍ってて通れなかった。" TCC_NEWLINE
+"前に姉上と来た時は" TCC_NEWLINE
+"そんなことなかったのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そう。。。私たちムスペルはまだ" TCC_NEWLINE
+"このニフルの地理に疎いようね。" TCC_NEWLINE
+"あの道が閉ざされているだなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"！？" TCC_NEWLINE
+"。。。あの道が。。。閉ざされている。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どうしたの。。。姉上？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"彼らの気持ちになって" TCC_NEWLINE
+"考えてみると。。。" TCC_NEWLINE TCC_PUSH_A
+"彼らは今、合流を果たしたい。" TCC_NEWLINE
+"でも、私たちムスペル軍がいる限り" TCC_NEWLINE
+"それは決してかなわない。。。" TCC_NEWLINE TCC_PUSH_A
+"それなら、" TCC_NEWLINE
+"彼らが次に狙うのは。。。" TCC_NEWLINE TCC_PUSH_A
+"私。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"敵の狙いは私。。。" TCC_NEWLINE
+"私を討ち取るために" TCC_NEWLINE
+"この隘路に誘った。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そんな。。。" TCC_NEWLINE TCC_PUSH_A
+"！？" TCC_NEWLINE
+"姉上、知らせが。。。" TCC_NEWLINE
+"敵が行軍を速めてこっちに。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+"彼らの方が、" TCC_NEWLINE
+"一枚上手だった。。。ということ。。。？" TCC_NEWLINE TCC_PUSH_A
+"今、狩られる獲物は。。。" TCC_NEWLINE
+"私の方。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2065] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"姉上！" TCC_NEWLINE
+"敵がすぐそこまで。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"っ。。。今のうちに逃げなさい、" TCC_NEWLINE
+"レーヴァテイン。" TCC_NEWLINE TCC_PUSH_A
+"あなた一人なら、" TCC_NEWLINE
+"敵の目を逃れることもできる。" TCC_NEWLINE
+"それまで、私が彼らの相手をするわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でも、それは姉上が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"安心なさい、レーヴァテイン。" TCC_NEWLINE
+"私はこの地を統べるムスペルの将、" TCC_NEWLINE
+"決して負けたりしないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それなら、私も一緒に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それはだめ。" TCC_NEWLINE
+"命令よ、レーヴァテイン。" TCC_NEWLINE
+"行きなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉上。。。" TCC_NEWLINE TCC_PUSH_A
+"姉上の命令なら。。。" TCC_NEWLINE
+"そうする。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"良い子ね、レーヴァテイン。" TCC_NEWLINE
+"あとでまた会いましょう。。。" TCC_NEWLINE TCC_PUSH_A
+"アスクの勇者たちよ！" TCC_NEWLINE
+"私をここで討つつもりなら、" TCC_NEWLINE
+"ずいぶん侮られたものね。" TCC_NEWLINE TCC_PUSH_A
+"ムスペルの三炎が一人、" TCC_NEWLINE
+"レーギャルンの力。。。" TCC_NEWLINE
+"見せてあげるわ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2065] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"ここまで。。。ね。。。" TCC_NEWLINE TCC_PUSH_A
+"ごめんなさい。。。" TCC_NEWLINE
+"レーヴァテイン。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"ムスペルの軍勢よ、聞きなさい！" TCC_NEWLINE
+"あなた方の将" TCC_NEWLINE
+"レーギャルンは討ちました！" TCC_NEWLINE TCC_PUSH_A
+"もはやそちらに勝ち目はありません。" TCC_NEWLINE
+"逃げるのなら見逃しましょう。" TCC_NEWLINE
+"なお戦うのなら容赦はしません！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2065] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"。。。。。。ぅ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"気がつきましたか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたは。。。" TCC_NEWLINE
+"フィヨルム王女ね。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。殺しなさい。" TCC_NEWLINE TCC_PUSH_A
+"人質をとったところで無駄よ。" TCC_NEWLINE
+"父上は私の命など一顧だにしない。" TCC_NEWLINE TCC_PUSH_A
+"それとも、拷問が望み？" TCC_NEWLINE
+"私は敗戦の将、虜囚の辱めを" TCC_NEWLINE
+"受ける覚悟はできているわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あなたが討たれた。。。" TCC_NEWLINE
+"その報で、ムスペル軍の動きは" TCC_NEWLINE
+"混迷の極みにあります。" TCC_NEWLINE TCC_PUSH_A
+"契約のもとに下される命令。。。" TCC_NEWLINE
+"それを失った英雄は次の動きが取れず、" TCC_NEWLINE
+"将を失った兵もまた動けない。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちの目的は果たされました。" TCC_NEWLINE
+"無駄に命を奪う必要はありません。" TCC_NEWLINE
+"それに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたは私たちニフルが敗れた後、" TCC_NEWLINE
+"民たちの尊厳を守ってくれた。。。" TCC_NEWLINE
+"その御恩があります。" TCC_NEWLINE TCC_PUSH_A
+"あなたは、本当は侵略など" TCC_NEWLINE
+"望んでいなかったのでは" TCC_NEWLINE
+"ありませんか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。" TCC_NEWLINE
+"敵に答えるつもりはないわ。" TCC_NEWLINE TCC_PUSH_A
+"父上は炎。" TCC_NEWLINE
+"すべてを焼き尽くし、" TCC_NEWLINE
+"滅ぼさずにはいられない。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちはムスペルの将。。。" TCC_NEWLINE
+"ただ、父上の命に従う。" TCC_NEWLINE
+"それだけよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうですか。。。" TCC_NEWLINE
+"ですが私は、どうしても" TCC_NEWLINE
+"あなたのことは憎み切れません。" TCC_NEWLINE TCC_PUSH_A
+"もし、あんな戦争など起こらずに。。。" TCC_NEWLINE
+"同じ王族として、" TCC_NEWLINE
+"あなたと友達になれていたら。。。" TCC_NEWLINE TCC_PUSH_A
+"つい、そう思ってしまうのです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

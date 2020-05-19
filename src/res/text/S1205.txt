@@ -1,0 +1,118 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S1205] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"あったわ！" TCC_NEWLINE
+"あれが妖術師の館。。。" TCC_NEWLINE
+"あそこに儀式の魔法陣があるはずよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"待ってください、アンナ隊長！" TCC_NEWLINE
+"その向こうにいるのは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。。。。" TCC_NEWLINE
+"っ。。。ぅ。。。っ。。。！" TCC_NEWLINE
+"来た。。。か。。。ならば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"殺す。。。。。。" TCC_NEWLINE
+"貴様らは。。。" TCC_NEWLINE
+"全員。。。殺す。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"何か。。。様子がおかしい。" TCC_NEWLINE
+"以前とは別人のような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"殺してやるぞ！　アスクの王子よ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1205] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。が。。。はっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"私の負けだ。。。" TCC_NEWLINE
+"さあ。。。早く殺せ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。君は以前、" TCC_NEWLINE
+"僕たちを手助けしてくれた。" TCC_NEWLINE
+"だから、ここで命を奪うつもりはない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"甘いな。。。" TCC_NEWLINE
+"後悔することになるぞ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S1205] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"さあ、儀式の準備ができたわ。" TCC_NEWLINE
+"アルフォンス、シャロン、" TCC_NEWLINE
+"こっちに来て。" TCC_NEWLINE TCC_PUSH_A
+""
+"『我が求めは汝が声を" TCC_NEWLINE
+"　我が叫びは汝が心を』。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"心の中で呼びかけたい人物を" TCC_NEWLINE
+"思い浮かべて、叫ぶの。" TCC_NEWLINE
+"今よ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ザカリア！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ザカリアさん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ザカリア！" TCC_NEWLINE
+"お願い！" TCC_NEWLINE
+"返事をして、ザカリア。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。無駄なことを。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。何も。。。起こらない。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。いくら叫ぼうが無駄なことだ。" TCC_NEWLINE
+"あの男はもはや言葉を交わせない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"嘘よ！" TCC_NEWLINE
+"そんなはずはないわ！" TCC_NEWLINE
+"儀式はちゃんと成功してる。。。" TCC_NEWLINE TCC_PUSH_A
+"ザカリアが生きていれば、" TCC_NEWLINE
+"どこにいようと、眠っていようと、" TCC_NEWLINE
+"必ず声を交わせるはず。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。生きていれば。。。な。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！" TCC_NEWLINE
+"どういうこと？" TCC_NEWLINE
+"まさか。。。もうザカリアは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"死んでいる。。。というのか。。。" TCC_NEWLINE TCC_PUSH_A
+"ブルーノ皇子。。。" TCC_NEWLINE
+"君は何かを知っているのか！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。この異界へ来る前のことだ。" TCC_NEWLINE
+"あの男は余計なことを" TCC_NEWLINE
+"嗅ぎまわりすぎた。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、私が殺した。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"な。。。。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"言っただろう。。。？" TCC_NEWLINE
+"私を生かしておけば後悔するとな。。。" TCC_NEWLINE TCC_PUSH_A
+"今は退かせてもらう。。。" TCC_NEWLINE
+"だがアルフォンス、シャロン。。。" TCC_NEWLINE
+"次は貴様らの番だ。。。" TCC_NEWLINE TCC_PUSH_A
+"一人ずつ、" TCC_NEWLINE
+"ザカリアのもとへ送ってやる。。。" TCC_NEWLINE
+"楽しみにしているがいい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

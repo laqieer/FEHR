@@ -1,0 +1,101 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3132] = TCC_OPEN_LEFT 
+"俺はジスト。傭兵団のリーダーだ。" TCC_NEWLINE
+"悪いが、今はあんたたちの" TCC_NEWLINE
+"敵側ってことだな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3132] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あの、エイル王女。。。" TCC_NEWLINE
+"もしかして、どこか身体の具合が。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。平気よ。" TCC_NEWLINE
+"どうして。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"なんだか、" TCC_NEWLINE
+"とてもお辛そうに見えたんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"大丈夫ですよ。" TCC_NEWLINE
+"もうすぐ、戦いは全部終わります。" TCC_NEWLINE TCC_PUSH_A
+"そしたらわたしたちのアスクに" TCC_NEWLINE
+"一緒に帰りましょう。" TCC_NEWLINE
+"わたし、いろいろご案内しますからね！" TCC_NEWLINE TCC_PUSH_A
+""
+"わたしのお気に入りの丘があるんです。" TCC_NEWLINE
+"一緒にあの丘でのんびりしましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"同じことを。。。言うのね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。なんでもないわ。" TCC_NEWLINE
+"ありがとう、シャロン王女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3132] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"エイル。。。これが、最後の戦いになる。" TCC_NEWLINE
+"僕たちはこれから、" TCC_NEWLINE
+"ヘルを討つために出撃する。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お母様を。。。？" TCC_NEWLINE
+"やめて、お母様を倒すなんて、" TCC_NEWLINE
+"できるはずがないわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"エイル、君はここに残るんだ。" TCC_NEWLINE
+"ヘルは君にとっては母親。。。" TCC_NEWLINE
+"辛い思いをさせたくはない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"待っててください、" TCC_NEWLINE
+"すぐに帰ってきますからね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"大丈夫ですよ。" TCC_NEWLINE
+"もうすぐ、戦いは全部終わります。" TCC_NEWLINE TCC_PUSH_A
+""
+"そしたら、また一緒に" TCC_NEWLINE
+"あの丘でのんびりしましょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。約束、よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ、約束する。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"はい、約束です！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロン王女は。。。" TCC_NEWLINE
+"お母様に殺されたわ。" TCC_NEWLINE TCC_PUSH_A
+"アルフォンス王子は絶望して。。。" TCC_NEWLINE
+"シャロン王女を蘇らせるために" TCC_NEWLINE
+"お母様と契約した。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"私、何もできなかった。" TCC_NEWLINE
+"二人のために、何も。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。私は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

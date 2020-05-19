@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4072] = TCC_OPEN_LEFT 
+"セリス。。。？" TCC_NEWLINE
+"誰ナノ。。。懐カシイ。。。" TCC_NEWLINE
+"温カイ気持チガスル。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

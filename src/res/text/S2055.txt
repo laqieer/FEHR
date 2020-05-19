@@ -1,0 +1,151 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2055] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵の本隊に追いつかれた。。。！？" TCC_NEWLINE
+"くっ。。。こうなったら、" TCC_NEWLINE
+"増援が増える前に突破を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"降伏しなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私はムスペルの将レーギャルン。" TCC_NEWLINE
+"父王スルトの代理として、" TCC_NEWLINE
+"この地を統べる者。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国の勇者たちよ、" TCC_NEWLINE
+"寡兵にもかかわらずここまでの奮戦、" TCC_NEWLINE
+"敵ながら敬意を表\するわ。" TCC_NEWLINE TCC_PUSH_A
+"でも、ここまでよ。あなたたちが" TCC_NEWLINE
+"いくら小さな勝利を重ねても、" TCC_NEWLINE
+"我々とは数が違いすぎる。" TCC_NEWLINE TCC_PUSH_A
+"降伏しなさい。" TCC_NEWLINE
+"そうすれば、誰も傷つけはしない。" TCC_NEWLINE
+"我が名において誓うわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あれがレーギャルン。。。" TCC_NEWLINE
+"スルトとは" TCC_NEWLINE
+"ずいぶん違うようだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"はい。レーギャルンは高潔な女性です。" TCC_NEWLINE
+"戦いに敗れたニフルの民たちのことも、" TCC_NEWLINE
+"丁重に扱ってくれました。" TCC_NEWLINE TCC_PUSH_A
+"あのスルトの娘とは" TCC_NEWLINE
+"とても思えないほどです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SHARENA
+"顔も人柄も" TCC_NEWLINE
+"似なくて良かったです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ムスペルの将よ。" TCC_NEWLINE
+"あなたの心遣いには感謝するが、" TCC_NEWLINE
+"僕たちは降伏するつもりはない。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国を救う。" TCC_NEWLINE
+"そのために僕たちはここへ来た。" TCC_NEWLINE
+"何があろうと諦めはしない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そう。残念ね。。。" TCC_NEWLINE
+"それなら、私たちも" TCC_NEWLINE
+"父上の御命令に従うしかない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ムスペルの将" TCC_NEWLINE
+"レーギャルンとレーヴァテインが、" TCC_NEWLINE
+"あなたたちをここで討つわ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2055] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"な。。。！？" TCC_NEWLINE
+"なんて。。。強さなの。。。" TCC_NEWLINE TCC_PUSH_A
+"力も策も、私より上。。。" TCC_NEWLINE
+"見誤っていたわ。" TCC_NEWLINE
+"あなたたちは強い。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、ここでその情報を得たことは" TCC_NEWLINE
+"何より価値がある。。。" TCC_NEWLINE
+"今は、退かせてもらうわ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2055] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"姉上。。。おけがは？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"大丈夫よ、" TCC_NEWLINE
+"ありがとうレーヴァテイン。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、今のまま彼らを追っても、" TCC_NEWLINE
+"力では勝てないわ。。。" TCC_NEWLINE
+"彼らは私より強い。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私が、自分の体を燃やせば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いいえ、レーヴァテイン。" TCC_NEWLINE
+"それはだめ。" TCC_NEWLINE TCC_PUSH_A
+"ムスペルの業火は" TCC_NEWLINE
+"己を滅ぼす危険な力。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたがそれを使えば、" TCC_NEWLINE
+"あなたの命も焼き尽くされてしまうわ。。。" TCC_NEWLINE TCC_PUSH_A
+"それだけはやめなさい。" TCC_NEWLINE
+"いいわね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わかった。。。やめる。" TCC_NEWLINE
+"姉上がそう言うなら。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、さっきは負けた。。。" TCC_NEWLINE
+"どうしたら。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"安心なさい、レーヴァテイン。" TCC_NEWLINE
+"私の可愛い妹。。。" TCC_NEWLINE TCC_PUSH_A
+"そうね、昔みたいに" TCC_NEWLINE
+"一緒に考えてみましょうか。" TCC_NEWLINE
+"敵はなぜここに来たの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。？" TCC_NEWLINE
+"そんなの、わからない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"国と民が滅ぶ危機の中。。。" TCC_NEWLINE
+"彼らがここに来たのは、" TCC_NEWLINE
+"よほどの理由のはずよ。" TCC_NEWLINE TCC_PUSH_A
+"父上を恐れて逃げてきた？" TCC_NEWLINE
+"いいえ。彼らの目は" TCC_NEWLINE
+"負け犬のそれではない。。。" TCC_NEWLINE TCC_PUSH_A
+"彼らは父上を。。。" TCC_NEWLINE
+"我々ムスペルを討つために" TCC_NEWLINE
+"ここへ来たのよ。" TCC_NEWLINE TCC_PUSH_A
+"このニフルには、" TCC_NEWLINE
+"ムスペルを打倒できる" TCC_NEWLINE
+"何かがある。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。姉上が言うのなら、" TCC_NEWLINE
+"きっとそう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ありがとう、レーヴァテイン。" TCC_NEWLINE
+"彼らの勝機。。。それは何かしら？" TCC_NEWLINE TCC_PUSH_A
+"味方？" TCC_NEWLINE
+"武器？" TCC_NEWLINE
+"それとも戦場？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。？？" TCC_NEWLINE
+"そんなの、わからない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうね。" TCC_NEWLINE
+"今はまだ。。。わからない。" TCC_NEWLINE
+"でも、たとえそれが何であろうと。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちが先にそれを奪ってしまえば、" TCC_NEWLINE
+"彼らの勝利は潰える。" TCC_NEWLINE
+"ただそれだけで。。。私たちの勝ちよ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

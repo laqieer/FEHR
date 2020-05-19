@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S1203] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵の奇襲。。。！" TCC_NEWLINE
+"でも、守り切れば敵は撤退するはずよ。" TCC_NEWLINE
+"無理をせず時間を稼いで！" TCC_NEWLINE TCC_PUSH_A
+""
+,

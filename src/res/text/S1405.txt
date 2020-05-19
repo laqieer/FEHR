@@ -1,0 +1,131 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S1405] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"ぐっ。。。ぅっ。。。" TCC_NEWLINE
+"はぁっ。。。はぁっ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"俺が、いつあの衝動に" TCC_NEWLINE
+"支配されるかはわからん。。。" TCC_NEWLINE TCC_PUSH_A
+"だが、一度それが来れば。。。" TCC_NEWLINE
+"抗うことはできない。。。" TCC_NEWLINE TCC_PUSH_A
+"俺も。。。ヴェロニカも。。。" TCC_NEWLINE
+"皇帝であった父も。。。" TCC_NEWLINE
+"この支配から逃れられはしない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"神の本質は邪悪。。。望むのは死と破滅だ。" TCC_NEWLINE
+"そしてこの神は" TCC_NEWLINE
+"アスク王国の破滅を望んでいる。。。" TCC_NEWLINE TCC_PUSH_A
+"お前は気づいていないだろうが。。。" TCC_NEWLINE
+"かつて、俺は衝動に支配され。。。" TCC_NEWLINE
+"背後からお前を殺そうとした。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"みずから命を絶つことも試みたが、" TCC_NEWLINE
+"無駄に終わった。" TCC_NEWLINE
+"俺は支配から逃れられない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ぐっ。。。" TCC_NEWLINE
+"だから、殺せ。。。" TCC_NEWLINE
+"俺に殺される前に。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"殺せ。。。" TCC_NEWLINE
+"殺せ。。。" TCC_NEWLINE
+"殺せ。。。くくく。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ザカリア。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1405] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。これ。。。で。。。。。。　。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S1405] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"なぜ。。。" TCC_NEWLINE
+"なぜ。。。殺さない。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ザカリア。。。僕たちは仲間だ。" TCC_NEWLINE
+"仲間を殺すことはできない。" TCC_NEWLINE TCC_PUSH_A
+"なぜ、僕たちにもっと早く" TCC_NEWLINE
+"打ち明けてくれなかったんだ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お前は優しい。。。" TCC_NEWLINE
+"言えばお前は。。。どんな危険を冒しても" TCC_NEWLINE
+"俺を助けようとしただろう。" TCC_NEWLINE TCC_PUSH_A
+"たとえその結果、" TCC_NEWLINE
+"お前が殺されることに" TCC_NEWLINE
+"なったとしてもな。。。" TCC_NEWLINE TCC_PUSH_A
+"そんなお前だからこそ。。。" TCC_NEWLINE
+"言うわけにはいかなかったんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"。。。ザカリア。" TCC_NEWLINE
+"あなたは特務機関の一員よ。" TCC_NEWLINE
+"機関の人間は決して諦めないわ。" TCC_NEWLINE TCC_PUSH_A
+"支配に抗えないのなら、" TCC_NEWLINE
+"抗う方法を見つければいい。" TCC_NEWLINE TCC_PUSH_A
+"この世界は無数の異界とつながっている。。。" TCC_NEWLINE
+"どこかで、あなたを救う方法は" TCC_NEWLINE
+"きっと見つかるはずよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"無理だ、隊長。" TCC_NEWLINE
+"俺も試してみたからわかる。。。" TCC_NEWLINE TCC_PUSH_A
+"無数の星々を訪ね歩き、" TCC_NEWLINE
+"砂粒を探すようなものだ。" TCC_NEWLINE
+"望みはない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"でも、あなたもわかっているでしょう。" TCC_NEWLINE
+"真相を知った以上、もう" TCC_NEWLINE
+"アルフォンスたちはあなたを殺せない。" TCC_NEWLINE TCC_PUSH_A
+"正体を隠し、" TCC_NEWLINE
+"敵として殺されるという" TCC_NEWLINE
+"あなたの目論見はもう失敗しているの。" TCC_NEWLINE TCC_PUSH_A
+"あなたがアルフォンスたちを救いたいなら、" TCC_NEWLINE
+"決して諦めないことよ。" TCC_NEWLINE
+"私たちと同じように。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。俺の負けだ。" TCC_NEWLINE
+"俺は。。。エンブラへ戻ろう。" TCC_NEWLINE
+"お前たちも帰還してくれ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"待ってください！" TCC_NEWLINE
+"わたしたちのところに" TCC_NEWLINE
+"戻ってきてくれないんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"悪いが、共には行けない。" TCC_NEWLINE
+"お前たちといれば、" TCC_NEWLINE
+"俺はいずれお前たちを殺してしまう。" TCC_NEWLINE TCC_PUSH_A
+"だが、もう死を望みはしない。" TCC_NEWLINE
+"無数の異界を渡り、" TCC_NEWLINE
+"邪な神の支配を脱する術を探そう。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"どうか俺のかわりに、" TCC_NEWLINE
+"アルフォンスたちを頼む。" TCC_NEWLINE TCC_PUSH_A
+"もし俺が支配下に置かれ、" TCC_NEWLINE
+"アルフォンスやシャロンの命を" TCC_NEWLINE
+"奪いそうになったら。。。" TCC_NEWLINE TCC_PUSH_A
+"その時は、俺を殺してくれ。" TCC_NEWLINE
+"それが、俺の最後の頼みだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

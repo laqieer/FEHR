@@ -1,0 +1,184 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ヘル！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HEL
+"我が城まで来たか。。。" TCC_NEWLINE
+"生者どもよ。" TCC_NEWLINE TCC_PUSH_A
+"ならば" TCC_NEWLINE
+"ここで死者に変えるとしよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お前は" TCC_NEWLINE
+"異界のアスク王国を襲い、" TCC_NEWLINE
+"多くの人々を死に追いやった。。。" TCC_NEWLINE TCC_PUSH_A
+"エイルの家族を殺し、" TCC_NEWLINE
+"エイルの命も奪った。。。" TCC_NEWLINE
+"何度も、何度も。。。" TCC_NEWLINE TCC_PUSH_A
+"そして、" TCC_NEWLINE
+"父上の命も。。。" TCC_NEWLINE TCC_PUSH_A
+"お前が存在する限り、" TCC_NEWLINE
+"あらゆる世界の" TCC_NEWLINE
+"あらゆる人に幸せはない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"無論だ。私は死だ。" TCC_NEWLINE
+"死に理由などない。" TCC_NEWLINE
+"死に意味などない。" TCC_NEWLINE TCC_PUSH_A
+"ただ、生者を死者とし。。。" TCC_NEWLINE
+"力を増す。。。それが私だ。" TCC_NEWLINE TCC_PUSH_A
+"無限の世界があるならば。。。" TCC_NEWLINE
+"無限の死をくれてやろう。" TCC_NEWLINE
+"敗れ去った異界のお前と同じく、な。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お前が滅ぼした世界の僕。。。" TCC_NEWLINE
+"彼への誓いを。。。今ここで果たす。" TCC_NEWLINE TCC_PUSH_A
+""
+"もうこれ以上。。。" TCC_NEWLINE
+"一つの命も" TCC_NEWLINE
+"お前に簒奪させはしない！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HEL
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ヘルの姿が消える。。。" TCC_NEWLINE
+"ヴェロニカ皇女！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。アングルボザよ。。。" TCC_NEWLINE
+"。。。生と死の巫女。。。" TCC_NEWLINE
+"。。。三つの災いの母よ。。。" TCC_NEWLINE TCC_PUSH_A
+"生けるものを殺せ。" TCC_NEWLINE
+"死せるものを殺せ。" TCC_NEWLINE TCC_PUSH_A
+"殺せぬものをーー殺せ。" TCC_NEWLINE TCC_PUSH_A
+""
+"今よ、" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"あなたの神器でヘルを。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。　。。。。。。　。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。滅ぶ。。。のか。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"私が。。。死が。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"お母様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。私はお前の母ではない。" TCC_NEWLINE
+"エイル。。。既に教えたはずだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"でも、お母様は。。。" TCC_NEWLINE TCC_PUSH_A
+"子供の時。。。一度だけ。。。" TCC_NEWLINE
+"私を優しく抱きしめてくれたわ。。。" TCC_NEWLINE TCC_PUSH_A
+"私は憶えている。。。" TCC_NEWLINE
+"あれは。。。本当のお母様じゃなかった。" TCC_NEWLINE
+"ヘル。。。あなただった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"模倣したのだ。" TCC_NEWLINE
+"人間を。" TCC_NEWLINE TCC_PUSH_A
+"お前の母が、お前にそうしていた。。。" TCC_NEWLINE
+"だから、真似た。" TCC_NEWLINE
+"お前を服従させるために。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お母様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"なぜ、そんな顔をする。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"悲しいから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"悲しい。。。？" TCC_NEWLINE TCC_PUSH_A
+"私が滅んで、" TCC_NEWLINE
+"なぜお前が悲しむ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お母様。。。" TCC_NEWLINE TCC_PUSH_A
+"お母様にとっては、" TCC_NEWLINE
+"私は娘じゃなかった。。。" TCC_NEWLINE
+"でも。。。" TCC_NEWLINE TCC_PUSH_A
+"私にとっては、" TCC_NEWLINE
+"お母様はたった一人の家族だった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"さようなら、お母様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。これで、すべて終わりだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。ええ、そうね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"アスクへ戻ろう。" TCC_NEWLINE
+"僕は約束したんだ。" TCC_NEWLINE
+"必ず、アスクを幸せにすると。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。ああ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_THRASIR
+"。。。どうしたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"夢を。。。見ていたんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"夢。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"僕がヘルを倒して。。。" TCC_NEWLINE
+"アスク王国の皆は" TCC_NEWLINE
+"平和に暮らす。。。" TCC_NEWLINE TCC_PUSH_A
+"そんな幸せな夢だったよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そう。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、それは。。。" TCC_NEWLINE
+"夢じゃないのかもしれないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"今ここにいるあなたと私が夢で。。。" TCC_NEWLINE
+"あなたが見ていた光景こそが" TCC_NEWLINE
+"現実なのかもしれない。" TCC_NEWLINE TCC_PUSH_A
+"どちらが夢で、" TCC_NEWLINE
+"どちらが現実か。。。" TCC_NEWLINE TCC_PUSH_A
+"それは誰にもわからない。" TCC_NEWLINE
+"そうでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふ。。。そうだね。" TCC_NEWLINE
+"確かに、君の言う通りだ。" TCC_NEWLINE TCC_PUSH_A
+"どこかで、" TCC_NEWLINE
+"みんな幸せに生きている。。。" TCC_NEWLINE
+"それが現実なのかもしれない。。。" TCC_NEWLINE TCC_PUSH_A
+"たとえそれが、" TCC_NEWLINE
+"今の僕たちではなくても。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。ええ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。今、君はどんな夢を見ているのだろう。。。？" TCC_NEWLINE TCC_PUSH_A
+"。。。君はどうか、幸せに。。。" TCC_NEWLINE
+"。。。アルフォンス。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

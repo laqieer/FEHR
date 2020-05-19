@@ -1,0 +1,211 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。ここは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"ここは夢幻郷。。。" TCC_NEWLINE
+"夢の中で見る夢の世界。。。" TCC_NEWLINE TCC_PUSH_A
+"そして、私たちの" TCC_NEWLINE
+"夢の王フロージ様のお住まいよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FREYR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"わわっ、" TCC_NEWLINE
+"神々しいです！" TCC_NEWLINE
+"この方が王様なんですね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"フロージ様、" TCC_NEWLINE
+"フロージ様。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"眠ってらっしゃるわ。" TCC_NEWLINE
+"フロージ様はいつもそうなの。" TCC_NEWLINE
+"夢の王だから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええと。。。" TCC_NEWLINE
+"じゃあ、起きるまで" TCC_NEWLINE
+"お待ちしようか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。それには及ばぬ。" TCC_NEWLINE
+"礼節ある人の子よ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"え。。。？" TCC_NEWLINE
+"ね、寝言ですか。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"夢の中にあっても、" TCC_NEWLINE
+"そなたらと心を交わすことはできる。" TCC_NEWLINE TCC_PUSH_A
+"そなたらが" TCC_NEWLINE
+"ここに来た理由。。。" TCC_NEWLINE
+"その答えを授けよう。" TCC_NEWLINE TCC_PUSH_A
+"眠り続ける者たちを目覚めさせ、" TCC_NEWLINE
+"そなたらもまた目覚める方法。。。" TCC_NEWLINE TCC_PUSH_A
+"これを持っていくがいい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"これは、角笛。。。ですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"【グリンカムビの角笛】。。。" TCC_NEWLINE
+"まことの目覚めを告げるものだ。" TCC_NEWLINE TCC_PUSH_A
+"眠りに落ちる前の自分を思い出し、" TCC_NEWLINE
+"その世界に戻りたいと願うのだ。" TCC_NEWLINE
+"そして、角笛を吹くが良い。" TCC_NEWLINE TCC_PUSH_A
+"さすれば、目覚めは訪れる。" TCC_NEWLINE
+"そなたが求めるすべての者たちに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"わたしたちも" TCC_NEWLINE
+"みんなも目が覚めるんですね！" TCC_NEWLINE
+"ではさっそく！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。いや、吹くべきは" TCC_NEWLINE
+"今ここで。。。ではない。" TCC_NEWLINE TCC_PUSH_A
+"今。。。夢の国アルフには" TCC_NEWLINE
+"黒妖精が忍び込んでいる。" TCC_NEWLINE TCC_PUSH_A
+"彼女らを退け、" TCC_NEWLINE
+"黒い夢の力を弱めねば、" TCC_NEWLINE
+"角笛の音は鳴らぬ。" TCC_NEWLINE TCC_PUSH_A
+"そして" TCC_NEWLINE
+"アルフの夢の門でなければ、" TCC_NEWLINE
+"角笛の音は響かぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"おまかせください、フロージ様。" TCC_NEWLINE
+"夢の国アルフの妖精として、" TCC_NEWLINE
+"私も彼らと共に参ります。" TCC_NEWLINE TCC_PUSH_A
+"人間たちにひどい夢を見せる" TCC_NEWLINE
+"悪い妖精さんにはおしおきしなきゃ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"今、アルフに跳梁する" TCC_NEWLINE
+"黒妖精は二人。。。" TCC_NEWLINE
+"ピアニーが道を示すであろう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"感謝します、夢の王フロージよ。" TCC_NEWLINE TCC_PUSH_A
+"最後にもう一つ、" TCC_NEWLINE
+"お伺いしたいことがあります。" TCC_NEWLINE
+"僕たちの仲間の。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"" TCC_TACTICIAN_NAME "の居場所。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。残念だが、それはわからぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え？" TCC_NEWLINE
+"そんな、フロージ様でも" TCC_NEWLINE
+"わからないことがあるなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"その者は、計り知れぬ者。" TCC_NEWLINE
+"我々とは異なる理外の者だ。" TCC_NEWLINE TCC_PUSH_A
+"だが、案ずることはない。" TCC_NEWLINE
+"黒い妖精を退け、" TCC_NEWLINE
+"角笛を吹き鳴らしたならば、" TCC_NEWLINE TCC_PUSH_A
+"その者にも目覚めは訪れる。" TCC_NEWLINE
+"そなたらは皆、" TCC_NEWLINE
+"元の世界に戻ることができよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"それなら、" TCC_NEWLINE
+"やるべきことは一つね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"はい。" TCC_NEWLINE
+"黒妖精さんたちと対決です！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"おはようございます！" TCC_NEWLINE
+"さあみんな、ベッドから起きて、" TCC_NEWLINE
+"出発の時間よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はい、むにゃむにゃ。。。" TCC_NEWLINE
+"みんな、起きてますか～？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"僕も起きてるよ。" TCC_NEWLINE
+"いや、ここはまだ夢の中だから" TCC_NEWLINE
+"起きてはいないのか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ややこしいわね。" TCC_NEWLINE
+"とにかくここから目を覚ませば、" TCC_NEWLINE
+"元の世界に帰れるわけね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うーんと。。。" TCC_NEWLINE
+"黒妖精さんはどっちかしら？" TCC_NEWLINE
+"あっちかな、そっちかな。" TCC_NEWLINE TCC_PUSH_A
+"いいえ、こっち！" TCC_NEWLINE
+"こっちに黒妖精がいる気がするわ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"だ、大丈夫かしら。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"きっと大丈夫です。" TCC_NEWLINE
+"信じましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"うん、自信でてきたわ。" TCC_NEWLINE
+"みんな、こっちよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はい。行きましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"そうだね。" TCC_NEWLINE
+"見たところ、" TCC_NEWLINE
+"他の道には特に何も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT 
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ま、待ってくれ、" TCC_NEWLINE
+"どこへ。。。" TCC_TACTICIAN_NAME "！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どうしたんですか、お兄様？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"さっき、あの茂みの影に。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "がいたような。。。" TCC_NEWLINE TCC_PUSH_A
+"いや、確かにいたんだ。" TCC_NEWLINE
+"こっちを見ていた。" TCC_NEWLINE
+"でも、消えてしまった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どうしてなんでしょう？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんなら、" TCC_NEWLINE
+"すぐこっちに来てくれそうですけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。そうだね。" TCC_NEWLINE
+"この夢の世界は、" TCC_NEWLINE
+"不可解なことばかりだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

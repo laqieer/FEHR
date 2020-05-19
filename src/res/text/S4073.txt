@@ -1,0 +1,70 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4073] = TCC_OPEN_LEFT 
+"ほう。。。人間ごときが我に触れるか。" TCC_NEWLINE
+"命がいらぬと見える。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4073] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"うーん。。。うーん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LUPINUS
+"ほええ？" TCC_NEWLINE
+"なんですかぁ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"実はですね、わたし、" TCC_NEWLINE
+"ルピナスさんにもどこかで" TCC_NEWLINE
+"会ったような気がするんです。" TCC_NEWLINE TCC_PUSH_A
+"ルピナスさん、" TCC_NEWLINE
+"もしかして" TCC_NEWLINE
+"わたしのこと憶えて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"むにゃむにゃ。。。" TCC_NEWLINE
+"しあわせですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"おきてくださーい！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"むにゃにゃ。。。" TCC_NEWLINE
+"ごめんなさいですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+"会ったって。。。" TCC_NEWLINE
+"夢の中でですかぁ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。こうやって" TCC_NEWLINE
+"妖精の皆さんとお話してると。。。" TCC_NEWLINE
+"少しずつ思い出してくるんです。" TCC_NEWLINE TCC_PUSH_A
+"子供の頃、わたし、" TCC_NEWLINE
+"眠るといつも同じ夢を見ました。" TCC_NEWLINE
+"お花畑でみんなと一緒に遊ぶ夢。。。" TCC_NEWLINE TCC_PUSH_A
+"ピアニーさんに似た女の子。。。" TCC_NEWLINE
+"ルピナスさんに似た女の子。。。" TCC_NEWLINE
+"それと、あと２人。。。いたような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"うーん。わかんないですぅ。。。" TCC_NEWLINE
+"妖精は人間とは" TCC_NEWLINE
+"時間の流れが違いますし。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、シャロンさんが" TCC_NEWLINE
+"出会ったのなら、" TCC_NEWLINE
+"そうかもしれないですぅ。" TCC_NEWLINE TCC_PUSH_A
+"よく眠れるなら" TCC_NEWLINE
+"どっちでもいいですぅ。。。" TCC_NEWLINE
+"むにゃむにゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そう、ですか。。。" TCC_NEWLINE TCC_PUSH_A
+"わたし、女の子たちと一緒に" TCC_NEWLINE
+"何か。。。大切なことを。。。" TCC_NEWLINE
+"していたような。。。" TCC_NEWLINE TCC_PUSH_A
+"ぼうけんごっこ。。。" TCC_NEWLINE
+"世界を。。。救う。。。" TCC_NEWLINE
+"ために。。。" TCC_NEWLINE TCC_PUSH_A
+"うーん。。。" TCC_NEWLINE
+"忘れちゃいました。" TCC_NEWLINE
+"なんだったのかな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

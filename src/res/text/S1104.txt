@@ -1,0 +1,34 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_END_S1104] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"何とか、凌ぎ切れたようだね。" TCC_NEWLINE
+"でも、このままいつまでも" TCC_NEWLINE
+"守り続けることは難しい。" TCC_NEWLINE TCC_PUSH_A
+"なんとかこの戦況を" TCC_NEWLINE
+"打破しなければ。。。" TCC_NEWLINE
+"でも、いったいどうすれば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"？　" TCC_TACTICIAN_NAME "。。。？" TCC_NEWLINE
+"どこへ行くんだ？" TCC_NEWLINE
+"まさか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"え！？　まさか、敵を追う気ですか？" TCC_NEWLINE
+"無茶ですよ～！" TCC_NEWLINE
+"敵の異界に踏み込むなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"いえ、待って！" TCC_NEWLINE
+"確かに、他に手は" TCC_NEWLINE
+"ないかもしれないわ。" TCC_NEWLINE TCC_PUSH_A
+"敵の加護は一時的なもの。。。" TCC_NEWLINE
+"それが切れて撤退した今こそ" TCC_NEWLINE
+"唯一の勝機。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何が待ち受けているか" TCC_NEWLINE
+"わからないけど。。。" TCC_NEWLINE
+"やるしかないようだね。" TCC_NEWLINE TCC_PUSH_A
+"行こう。蒼炎の異界へ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

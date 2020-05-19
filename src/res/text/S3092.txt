@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3092] = TCC_OPEN_LEFT 
+"ファーガスの王位継承者、ディミトリ＝" TCC_NEWLINE
+"アレクサンドル＝ブレーダッド。" TCC_NEWLINE
+"全力で行かせてもらうぞ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

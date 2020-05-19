@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3062] = TCC_OPEN_LEFT 
+"オレはライ。" TCC_NEWLINE
+"次代のガリア王の片腕だ。一応な。" TCC_NEWLINE TCC_PUSH_A
+""
+,

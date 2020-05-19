@@ -1,0 +1,82 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2112] = TCC_OPEN_LEFT 
+"される。。。されない。。。される。。。" TCC_NEWLINE
+"あ、ええと、花占いをしていたんです。" TCC_NEWLINE
+"この契約から解放されるかどうか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2112] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"レーヴァテイン、" TCC_NEWLINE
+"父上から新たなご命令があったわ。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国軍はムスペル領内を逃亡中。。。" TCC_NEWLINE
+"私たちの任務は、" TCC_NEWLINE
+"彼らを捜し出し。。。殺すこと。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"うん、姉上。" TCC_NEWLINE
+"私は、姉上と一緒に捜す。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ありがとう。。。" TCC_NEWLINE
+"良い子ね、レーヴァテイン。" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたもいいわね？" TCC_NEWLINE
+"ヘルビンディ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"。。。けっ。" TCC_NEWLINE
+"勘違いすんじゃねー。" TCC_NEWLINE TCC_PUSH_A
+""
+"俺はあんたらに" TCC_NEWLINE
+"助けられはしたが。。。" TCC_NEWLINE
+"あんたらの手下になった覚えはねーぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"恩知らず。。。" TCC_NEWLINE
+"姉上、どうして" TCC_NEWLINE
+"こんな男を助けたの？" TCC_NEWLINE TCC_PUSH_A
+"あのまま" TCC_NEWLINE
+"死んでも別に良かったのに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そんな言い方はだめよ、" TCC_NEWLINE
+"レーヴァテイン。" TCC_NEWLINE TCC_PUSH_A
+""
+"確かにこの男は" TCC_NEWLINE
+"粗暴\で無教養で" TCC_NEWLINE
+"品性の欠片もないけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"おい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でも、この男は。。。" TCC_NEWLINE
+"妹のために戦っているの。" TCC_NEWLINE
+"だから、信用できるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。ご丁寧に調べやがったのか、" TCC_NEWLINE
+"俺の素性を。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ヘルビンディ、" TCC_NEWLINE
+"あなたは黒灰の城で敗北したわ。" TCC_NEWLINE
+"父上の前に顔を見せれば死。。。" TCC_NEWLINE TCC_PUSH_A
+"ロキに見つかっても、" TCC_NEWLINE
+"父上への口止めを条件に" TCC_NEWLINE
+"使い捨てにされて死ぬだけよ。" TCC_NEWLINE TCC_PUSH_A
+"でも、ここで大きな戦功をあげれば、" TCC_NEWLINE
+"あなたはまだ無事でいられる。" TCC_NEWLINE
+"あなたの妹もね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"けっ。。。" TCC_NEWLINE
+"んなこた言われなくたって" TCC_NEWLINE
+"わかってんだよ！" TCC_NEWLINE TCC_PUSH_A
+""
+"奴らをぶっ殺す。" TCC_NEWLINE
+"俺たちが生き残る道は" TCC_NEWLINE
+"それしかねえんだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

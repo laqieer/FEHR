@@ -1,0 +1,62 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_ENDING_S4014] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"この調子なら、もうじき" TCC_NEWLINE
+"村にたどり着くわね。" TCC_NEWLINE
+"アルフォンス、例の香炉は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"はい。" TCC_NEWLINE
+"馥郁たる香炉の香は" TCC_NEWLINE
+"ずっと焚いてあります。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"でもこれ、" TCC_NEWLINE
+"ちょっとけむいんですよね。" TCC_NEWLINE
+"けほんけほん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あまり馥郁たる。。。" TCC_NEWLINE
+"という香りではないようだね。" TCC_NEWLINE TCC_PUSH_A
+"でも、我慢しよう、" TCC_NEWLINE
+"この香炉の香りが、" TCC_NEWLINE
+"僕たちを守ってくれるはずだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そうですよね！" TCC_NEWLINE
+"さすがはお母様とお兄様、" TCC_NEWLINE
+"これで村に着いても一安心です。" TCC_NEWLINE TCC_PUSH_A
+"ふわぁぁ。。。" TCC_NEWLINE
+"安心しすぎて" TCC_NEWLINE
+"眠くなってきちゃいました。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ちょっとシャロン、任務中よ。" TCC_NEWLINE
+"あくびなんてせずに緊張感をもって。。。" TCC_NEWLINE TCC_PUSH_A
+"ふわぁぁ。。。" TCC_NEWLINE
+"あ、あれ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"アンナ隊長。。。？" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。？" TCC_NEWLINE
+"。。。なんだ。。。力が。。。入らな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ね、ねむいです。。。" TCC_NEWLINE
+"わたし、もうねちゃいますね。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だめよ、シャロン、" TCC_NEWLINE
+"任務の。。。と。。。ちゅう。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"例の。。。眠り。。。びょう。。。？" TCC_NEWLINE
+"香炉が。。。" TCC_NEWLINE
+"きいて。。。いない。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"っ。。。このまま。。。では。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

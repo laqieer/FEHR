@@ -1,0 +1,253 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_SURTR
+"ほう。ニフルへ向かうか。" TCC_NEWLINE
+"民を捨て、無様に逃げ延びるか？" TCC_NEWLINE
+"弱き者どもよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"スルト。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"逃げるのではありません、スルト！" TCC_NEWLINE
+"私たちはお前を倒す術を手に入れ、" TCC_NEWLINE
+"必ずお前のもとに戻ります！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ほう、面白い。" TCC_NEWLINE
+"だが、貴様らは果たして" TCC_NEWLINE
+"ニフルまで辿り着けるか？" TCC_NEWLINE TCC_PUSH_A
+"アスクの王子よ。" TCC_NEWLINE
+"あちらの山に、" TCC_NEWLINE
+"貴様らの民の街があったな？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"貴様がここで逃げ出せば、" TCC_NEWLINE
+"我はあの街の者どもを焼き殺す。" TCC_NEWLINE TCC_PUSH_A
+"女も赤子も、一人一人、" TCC_NEWLINE
+"生きながら焼いてやろう。" TCC_NEWLINE
+"必ずな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"なっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"知っておるか？" TCC_NEWLINE
+"人が焼かれて死ぬ痛みは" TCC_NEWLINE
+"あらゆる死の中でも格別よ。" TCC_NEWLINE TCC_PUSH_A
+""
+"皮が剥がれ、肉が崩れ。。。" TCC_NEWLINE
+"皆、我に懇願するのだ。" TCC_NEWLINE
+"お願いですから殺してください、となあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"スルトっ。。。！" TCC_NEWLINE
+"貴様。。。どこまで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"民を助けたいか？" TCC_NEWLINE
+"ならば我が前に跪き、その首を差し出せ。" TCC_NEWLINE
+"泣いて慈悲を乞うてみよ。" TCC_NEWLINE TCC_PUSH_A
+"我の気が変われば、" TCC_NEWLINE
+"民を見逃してやる気に" TCC_NEWLINE
+"なるやもしれんなあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"さあ、どうする？" TCC_NEWLINE
+"民を守るか、" TCC_NEWLINE
+"民を殺すか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"貴様自身が決めよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"【門】は開きました。" TCC_NEWLINE
+"さあ、皆さん！" TCC_NEWLINE
+"急ぎましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"で、でも、" TCC_NEWLINE
+"わたしたちが逃げたら、" TCC_NEWLINE
+"街のみんながスルトに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。っ" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"気持ちはわかるわ。。。シャロン。" TCC_NEWLINE
+"でも、冷静になりなさい。" TCC_NEWLINE TCC_PUSH_A
+"私たちがここに残れば、" TCC_NEWLINE
+"私たちも民もみんな死ぬの。" TCC_NEWLINE
+"わかるでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"でも。。。！" TCC_NEWLINE
+"それでも、" TCC_NEWLINE
+"見殺しにするなんて。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。" TCC_NEWLINE
+"僕たちは問われている。" TCC_NEWLINE TCC_PUSH_A
+"民を守るか。。。" TCC_NEWLINE
+"民を見捨てるか。。。" TCC_NEWLINE TCC_PUSH_A
+"戦って死ぬか。。。" TCC_NEWLINE
+"逃げて生きるか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"アルフォンス。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"僕は。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。ニフルへ向かう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お兄様。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"これは、僕が決めたことだ。" TCC_NEWLINE
+"アンナ隊長の命令だからじゃない、" TCC_NEWLINE
+"シャロンのせいでもない。" TCC_NEWLINE TCC_PUSH_A
+"僕は民を見捨て。。。" TCC_NEWLINE
+"ニフルへ向かう。" TCC_NEWLINE TCC_PUSH_A
+"そして必ず。。。" TCC_NEWLINE
+"スルトを討つ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_SURTR
+"ぐはははははははははっ！" TCC_NEWLINE
+"なるほど、奴らもそこまで" TCC_NEWLINE
+"腐ってはおらんか。" TCC_NEWLINE TCC_PUSH_A
+""
+"ここで民と共に美しく散るを" TCC_NEWLINE
+"選ぶような生ぬるい阿呆なら、" TCC_NEWLINE
+"心底失望しておったところ。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。おどしは、しっぱい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうだな。" TCC_NEWLINE
+"だが、それならばそれで" TCC_NEWLINE
+"楽しみができたというもの。" TCC_NEWLINE TCC_PUSH_A
+"では、" TCC_NEWLINE
+"奴らの民を焼き殺すとしよう。" TCC_NEWLINE
+"約束通り、一人一人な。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT 
+"何。。。！？" TCC_NEWLINE TCC_PUSH_A
+"敵は既に逃亡した。" TCC_NEWLINE
+"今さら民を殺したところで" TCC_NEWLINE
+"何の益もない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"益があるかどうかは我が決めること。" TCC_NEWLINE
+"千、二千は焼かねば" TCC_NEWLINE
+"我が炎が収まらぬわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、待っておれ。" TCC_NEWLINE
+"この王が直々に焼き殺してくれるぞ。" TCC_NEWLINE
+"ぐははははははははははっ！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。だめ。" TCC_NEWLINE TCC_PUSH_A
+"それはゆるさない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。なんだと？" TCC_NEWLINE TCC_PUSH_A
+""
+"アスクはころす。" TCC_NEWLINE
+"でも、民たちには手を出させない。" TCC_NEWLINE TCC_PUSH_A
+"アスクをほろぼしたら、" TCC_NEWLINE
+"この地はエンブラのものになる。。。" TCC_NEWLINE TCC_PUSH_A
+"民をまもるのが王。。。" TCC_NEWLINE
+"でしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ぐはははははははははははっ！" TCC_NEWLINE
+"これは面白い！" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女よ、" TCC_NEWLINE
+"我に命令か？" TCC_NEWLINE
+"我に勝てる気でおるのか？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"やはり同盟など生ぬるい。" TCC_NEWLINE
+"どちらが上か、" TCC_NEWLINE
+"今、決めておかねばならんなあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ならば、" TCC_NEWLINE
+"私が相手になろう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ぐはははははははははははっ！" TCC_NEWLINE
+"良かろう。" TCC_NEWLINE
+"ならば皆殺しだ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"あらん、まってぇ王様。" TCC_NEWLINE
+"私のために争わないでぇ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"下がれロキ。" TCC_NEWLINE
+"さもなくば貴様から" TCC_NEWLINE
+"灰にしてくれるぞ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ええ、私の身体なら、" TCC_NEWLINE
+"煮るなり焼くなり" TCC_NEWLINE
+"お好きになさって。" TCC_NEWLINE TCC_PUSH_A
+"でも王様、兵から報告が。" TCC_NEWLINE
+"あの街の者たち。。。" TCC_NEWLINE
+"すでに姿を消していますわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"アルフォンス王子が交戦中に" TCC_NEWLINE
+"何かしていたようですけど。。。" TCC_NEWLINE
+"あの狼煙が合図だったのかしら、ねえ？" TCC_NEWLINE TCC_PUSH_A
+"さすが、お優しい王子様は" TCC_NEWLINE
+"民思いですこと。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"小賢しい鼠が。。。" TCC_NEWLINE
+"逃げ隠れる知恵だけは回ると見える。" TCC_NEWLINE TCC_PUSH_A
+"ふん、くだらん。" TCC_NEWLINE
+"興が削がれたわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ええ、民草など放っておきましょう。" TCC_NEWLINE
+"このアスクの者はいずれすべて" TCC_NEWLINE
+"王の炎に焼かれるのですから。" TCC_NEWLINE TCC_PUSH_A
+"それに、" TCC_NEWLINE
+"ムスペルの炎の儀。。。" TCC_NEWLINE
+"そのためにも。。。ねえ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"くく。。。そうであったな。" TCC_NEWLINE
+"今、小娘を殺してはもったいない。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レーヴァテイン！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"。。。はい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アスクの王族どもを追え。" TCC_NEWLINE
+"地の果てまで" TCC_NEWLINE
+"奴らを追い詰め、殺せ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。はい。" TCC_NEWLINE TCC_PUSH_A
+""
+,

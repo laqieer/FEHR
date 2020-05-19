@@ -1,0 +1,106 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S1101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな、緊急事態よ！" TCC_NEWLINE
+"ヴェロニカ皇女率いる" TCC_NEWLINE
+"異界の軍勢が侵攻中！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"えー、またですか！？" TCC_NEWLINE
+"まったくもう、皇女サマときたら" TCC_NEWLINE
+"次はどこの異界に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"このアスク王国よ！" TCC_NEWLINE
+"すでに国境を破られ、異界の軍勢が" TCC_NEWLINE
+"この拠点近くまで侵攻してきてるわ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"えええー！？　で、でも" TCC_NEWLINE
+"ヴェロニカ皇女はいつの間に" TCC_NEWLINE
+"異界の英雄を支配してたんです？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それが、まったく情報がないの。" TCC_NEWLINE
+"特務機関はヴェロニカ皇女の動向には" TCC_NEWLINE
+"最大限の注意を払ってきたのに。。。" TCC_NEWLINE TCC_PUSH_A
+"さらに厄介なのが敵軍の英雄よ。" TCC_NEWLINE
+"私たちが知る異界の中でも" TCC_NEWLINE
+"最強と称される英雄。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"最強の英雄？" TCC_NEWLINE
+"まさか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そう。" TCC_NEWLINE
+"蒼炎の勇者。。。アイクよ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S1101] = TCC_OPEN_LEFT 
+"あんたたちが噂\の特務部隊か。。。" TCC_NEWLINE
+"これまでの王国軍とは" TCC_NEWLINE
+"違うようだな。" TCC_NEWLINE TCC_PUSH_A
+"俺たちグレイル傭兵団は、" TCC_NEWLINE
+"ヴェロニカ皇女と契約を結んだ。" TCC_NEWLINE
+"傭兵として、受けた仕事は果たす。" TCC_NEWLINE TCC_PUSH_A
+"覚悟がない者は" TCC_NEWLINE
+"今のうちに退いてくれ。" TCC_NEWLINE
+"。。。行くぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな、この戦いは敵を倒す必要はないわ。" TCC_NEWLINE
+"守り切れればそれでいい。" TCC_NEWLINE
+"アイクとは無理に戦わず、時間を稼いで！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1101] = TCC_OPEN_LEFT 
+"潮時。。。ですね。" TCC_NEWLINE
+"退きましょう、アイク。" TCC_NEWLINE TCC_PUSH_A
+""
+"そうね。" TCC_NEWLINE
+"あたしがあげた加護の力は" TCC_NEWLINE
+"ずっとはつづかない。。。" TCC_NEWLINE TCC_PUSH_A
+"ひいて、力がもどったら" TCC_NEWLINE
+"またせめこむのよ。" TCC_NEWLINE
+"なんどでも、なんどでも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S1101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"なんとか、" TCC_NEWLINE
+"退いてくれたようだね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"蒼炎の勇者アイク。。。" TCC_NEWLINE
+"強すぎじゃないですか！？" TCC_NEWLINE
+"無敵すぎて反則すぎです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ。高い戦闘能\力に加えて、" TCC_NEWLINE
+"決して倒れない頑強さ。。。" TCC_NEWLINE
+"正直、勝つ方法が見つからないな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"諦めちゃだめよ、みんな。" TCC_NEWLINE
+"確かに絶望的な状況だけど。。。" TCC_NEWLINE
+"。。。でも、わかったことがあるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"あなたも気づいたでしょう？" TCC_NEWLINE
+"敵軍はこの有利な状況で撤退した。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"確かにあのまま戦えば" TCC_NEWLINE
+"敵軍が優勢だったのに。。。" TCC_NEWLINE
+"！　もしかしたら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ええ。" TCC_NEWLINE
+"きっとあの無敵の加護は一時的。。。" TCC_NEWLINE
+"決して万能\じゃないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"敵はまた来るわ。" TCC_NEWLINE
+"今のうちに、態勢を整えましょう。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_NEWLINE
+""
+,

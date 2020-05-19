@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4022] = TCC_OPEN_LEFT 
+"どいつもこいつもラインハルトと。。。" TCC_NEWLINE
+"あいつのどこが俺に勝るというのだ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

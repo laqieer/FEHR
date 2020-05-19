@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3094] = TCC_OPEN_LEFT 
+"私はアドラステアの皇位継承者、" TCC_NEWLINE
+"エーデルガルト＝フォン＝フレスベルグ。" TCC_NEWLINE
+"貴方の実力、試させてもらうわ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

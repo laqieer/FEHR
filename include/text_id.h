@@ -408,4 +408,6 @@
 #define TEXT_CHAP_47_OP 5034
 #define TEXT_CHAP_47_ED 5035
 
+#include "texts.h"
+
 #endif //FE7_JP_STUNNING_TRIBBLE_TEXT_ID_H

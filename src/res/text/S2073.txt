@@ -1,0 +1,11 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2073] = TCC_OPEN_LEFT 
+"ぼくはもっと強くなってみせる。。。" TCC_NEWLINE
+"そう約束したんだ。" TCC_NEWLINE
+"一緒に行こう、ナンナ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT 
+"はい、リーフ様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

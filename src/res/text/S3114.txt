@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3114] = TCC_OPEN_LEFT 
+"わたしは。。。ナギ。" TCC_NEWLINE
+"あなたは。。。誰？" TCC_NEWLINE TCC_PUSH_A
+""
+,

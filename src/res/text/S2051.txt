@@ -1,0 +1,234 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"街のみんな。。。" TCC_NEWLINE
+"無事でしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"大丈夫よ、シャロン。" TCC_NEWLINE
+"アルフォンスの機転のおかげで" TCC_NEWLINE
+"みんな脱出できてるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"それより、私たちは" TCC_NEWLINE
+"早くここを離れましょう。" TCC_NEWLINE
+"敵の追っ手が来る前に。" TCC_NEWLINE TCC_PUSH_A
+"それにしても。。。" TCC_NEWLINE
+"一面の雪、雪、雪ね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ここが、ニフル王国。。。" TCC_NEWLINE
+"ここにスルトを討つ手がかりが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。でも。。。" TCC_NEWLINE TCC_PUSH_A
+"ひゃ。。。ひゃくしゅん！" TCC_NEWLINE
+"さ、さ、寒いです～！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"そうですか？" TCC_NEWLINE
+"私は心地良く感じますけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"" TCC_TACTICIAN_NAME "も大丈夫かい？" TCC_NEWLINE
+"なるべく身を寄せ合って" TCC_NEWLINE
+"雪風を防ごう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ニフル王国は先の戦いで" TCC_NEWLINE
+"ムスペル軍に滅ぼされました。" TCC_NEWLINE TCC_PUSH_A
+"今、ここを支配するのは" TCC_NEWLINE
+"スルト配下の三将の一人。。。" TCC_NEWLINE
+"レーギャルンです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ここも敵地。。。" TCC_NEWLINE
+"ということね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"はい。姉のスリーズは" TCC_NEWLINE
+"この国のどこかに潜み、" TCC_NEWLINE
+"私たちを待っているはずです。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "様、" TCC_NEWLINE
+"私たちはこれから" TCC_NEWLINE
+"姉様と合流を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE
+"後背から敵襲！" TCC_NEWLINE
+"みんな、戦闘準備を！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"アスクの王族。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"あれは。。。" TCC_NEWLINE
+"スルトの配下の。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"レーヴァテイン。。。" TCC_NEWLINE
+"私たちを追ってきたのですね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"命令の通りに。。。する。" TCC_NEWLINE
+"地の果てまで追いかけて。。。殺す。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"強い。。。" TCC_NEWLINE TCC_PUSH_A
+"死んではだめ。。。退く。。。" TCC_NEWLINE
+"姉上の言うとおりに。。。する。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな、今のうちに" TCC_NEWLINE
+"この場を離れるわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はい！" TCC_NEWLINE
+"でも、雪がいっぱいで。。。" TCC_NEWLINE
+"うまく動けないです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"僕が先頭で道を開こう。" TCC_NEWLINE
+"しかし、これでは" TCC_NEWLINE
+"雪に行軍の足跡が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"確かに。。。まずいわね。" TCC_NEWLINE
+"追手をまくには、足跡を消しながら" TCC_NEWLINE
+"少しずつ進むしか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"！　良い手を思いついたわ！" TCC_NEWLINE
+"みんな、急ぐわよ。" TCC_NEWLINE
+"足跡を目立たせたまま進んで！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"え？" TCC_NEWLINE
+"でも、良いんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"この足跡を逆手にとるの。" TCC_NEWLINE
+"賢い獣が、狩人の追跡を" TCC_NEWLINE
+"まくときに使う手よ。" TCC_NEWLINE TCC_PUSH_A
+"偽の足跡を目立たせておいて、" TCC_NEWLINE
+"途中でそっとその足跡を引き返す。。。" TCC_NEWLINE TCC_PUSH_A
+"そこから、全然別方向に進むの。" TCC_NEWLINE
+"もちろん、そっちは" TCC_NEWLINE
+"慎重に足跡を消しながらね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"すごいです！" TCC_NEWLINE
+"そうやって" TCC_NEWLINE
+"相手の裏をかくんですね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ふっ、伊達に特務機関の隊長やってないわ。" TCC_NEWLINE
+"少数隠密任務なら任せなさい。" TCC_NEWLINE
+"さあ、急ぐわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"。。。雪だらけ。。。" TCC_NEWLINE
+"。。。さむい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"レーヴァテイン。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ。。。！" TCC_NEWLINE
+"姉上。。。！" TCC_NEWLINE TCC_PUSH_A
+"迎えに来てくれたの？" TCC_NEWLINE
+"嬉しい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私も嬉しいわ。" TCC_NEWLINE
+"また二人一緒ね。" TCC_NEWLINE
+"レーヴァテイン、私の可愛い妹。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉上、" TCC_NEWLINE
+"私は父上の命令で。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ。知らせは聞いてるわ。" TCC_NEWLINE
+"父上の御命令。。。また、この国で" TCC_NEWLINE
+"血が流れることになるのね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉上。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。大丈夫よ。" TCC_NEWLINE
+"それでレーヴァテイン、" TCC_NEWLINE
+"敵の行方はわかる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"見失った。。。" TCC_NEWLINE
+"でも、あっちに足跡を見つけた。" TCC_NEWLINE
+"ほら、これ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ありがとう、レーヴァテイン。" TCC_NEWLINE
+"よく見つけてくれたわね。" TCC_NEWLINE TCC_PUSH_A
+""
+"では、足跡を追跡しましょう。" TCC_NEWLINE
+"降る雪で消える前に追えば、" TCC_NEWLINE
+"いずれ彼らを捕捉でき。。。" TCC_NEWLINE TCC_PUSH_A
+"？" TCC_NEWLINE
+"。。。この足跡。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉上、どうかした？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"雪で半ば消えつつあるけれど。。。" TCC_NEWLINE
+"。。。この足跡。。。奇妙ね。" TCC_NEWLINE TCC_PUSH_A
+"逃亡者たちのものにしては、" TCC_NEWLINE
+"目立ちすぎてる。" TCC_NEWLINE TCC_PUSH_A
+"降り続ける雪で" TCC_NEWLINE
+"足跡が消えてくれれば。。。" TCC_NEWLINE
+"そう願うのが逃亡者の心理のはず。" TCC_NEWLINE TCC_PUSH_A
+"でも、この足跡にはそれを感じない。" TCC_NEWLINE
+"追手に見つかっても構\わない、" TCC_NEWLINE
+"そういう意図が見える。。。なぜ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"もしかして、" TCC_NEWLINE
+"私たちをだますために、" TCC_NEWLINE
+"わざと。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"アスク王国側の。。。" TCC_NEWLINE
+"彼らの気持ちになって" TCC_NEWLINE
+"考えてみましょうか。" TCC_NEWLINE TCC_PUSH_A
+"彼らは今、身を隠したい。" TCC_NEWLINE
+"慌てて遠方へ逃がれたところで、" TCC_NEWLINE
+"ここは敵の支配地。。。" TCC_NEWLINE TCC_PUSH_A
+"敵軍の警戒の網に" TCC_NEWLINE
+"捕捉されては無意味よ。" TCC_NEWLINE TCC_PUSH_A
+"それなら、痕跡は残したくない。" TCC_NEWLINE
+"足跡を消し、そう遠くない場所に潜み、" TCC_NEWLINE
+"敵の目から逃れたい。。。" TCC_NEWLINE TCC_PUSH_A
+"足跡に惑わされず、" TCC_NEWLINE
+"このあたり一帯を" TCC_NEWLINE
+"調べてみましょう。" TCC_NEWLINE TCC_PUSH_A
+"足跡を消しながらでは" TCC_NEWLINE
+"行軍の速度は極端に遅くなる。" TCC_NEWLINE
+"じき見つかるはずよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉上が言うなら、きっとそう。" TCC_NEWLINE
+"姉上はなんでも知ってるから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ふふ、ありがとう。" TCC_NEWLINE
+"可愛い妹に" TCC_NEWLINE
+"そう言ってもらえるのは嬉しいわ。" TCC_NEWLINE TCC_PUSH_A
+"行きましょう、レーヴァテイン。" TCC_NEWLINE
+"あなたと私、ムスペルの二人の将が" TCC_NEWLINE
+"追跡する以上。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"かわいそうだけど。。。" TCC_NEWLINE
+"彼らは狩られる獲物よ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

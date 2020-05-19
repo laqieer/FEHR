@@ -15,7 +15,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 include(devkitPro)
 include(grit)
 
-file(GLOB_RECURSE DIR_SRCS src/*.h src/*.c src/*.s src/*.S)
+file(GLOB_RECURSE DIR_SRCS src/*.h src/*.c src/*.s src/*.S src/res/text/*.txt)
 set_source_files_properties(src/dummy.c PROPERTIES OBJECT_DEPENDS ${CMAKE_SOURCE_DIR}/linkerscript)
 
 process_gfx(GFX_SRCS font.grit title_screen.grit stat_screen_page_name_skill.grit special_skill_icon.grit skill_page_icons_1.grit skill_page_icons_2.grit new_item_icons.grit trophy.grit standing_sprite_Alfonse.grit moving_sprite_Alfonse.grit standing_sprite_Anna.grit moving_sprite_Anna.grit standing_sprite_Sharena.grit moving_sprite_Sharena.grit portrait_Lord_classcard.grit)
@@ -23,7 +23,7 @@ process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit portrait_Anna_comma
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT})
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE C)
-target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx res/voice/include res/se/include)
+target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx res/voice/include res/se/include src/res/text)
 find_library(VOICE_LIBRARY voice HINTS res/voice/lib)
 find_library(SE_LIBRARY se HINTS res/se/lib)
 target_link_libraries(${PROJECT_NAME} PRIVATE "-Wl,-Map,${PROJECT_NAME}.map" ${VOICE_LIBRARY} ${SE_LIBRARY})

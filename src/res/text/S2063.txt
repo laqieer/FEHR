@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2063] = TCC_OPEN_LEFT 
+"私はマークです！" TCC_NEWLINE
+"天才軍師ルフレの娘である私の策と、" TCC_NEWLINE
+"あなたの策、どっちがすごいか勝負です！" TCC_NEWLINE TCC_PUSH_A
+""
+,

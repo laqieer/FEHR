@@ -1,0 +1,22 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4044] = TCC_OPEN_LEFT 
+"この仕事が終わったら。。。" TCC_NEWLINE
+"マシュー、あなたと。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4044] = TCC_OPEN_LEFT 
+"あそぼ　あそぼ" TCC_NEWLINE
+"あそびましょ" TCC_NEWLINE TCC_PUSH_A
+"あそぼ　あそぼ" TCC_NEWLINE
+"ぼうけんごっこ　しましょ" TCC_NEWLINE TCC_PUSH_A
+"あまく　とろける　はなのみつ" TCC_NEWLINE
+"こくん　こくんと　のみこんで" TCC_NEWLINE TCC_PUSH_A
+"みんな　ちいさな　ゆうしゃたち" TCC_NEWLINE
+"ゆめの　せかいを　すくいましょ" TCC_NEWLINE TCC_PUSH_A
+"けれど　あのこは　ひきかえに" TCC_NEWLINE
+"にどと　うちへは　かえれない" TCC_NEWLINE TCC_PUSH_A
+"あそぼ" TCC_NEWLINE
+"あそぼ" TCC_NEWLINE TCC_PUSH_A
+""
+,

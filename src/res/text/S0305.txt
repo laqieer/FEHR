@@ -1,0 +1,64 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0305] = TCC_OPEN_LEFT 
+"面白い。。。" TCC_NEWLINE
+"ここまで辿り着くとはな。" TCC_NEWLINE TCC_PUSH_A
+"これも特務機関の。。。" TCC_NEWLINE
+"ヴェロニカ皇女の言っていた" TCC_NEWLINE
+"伝承の召喚師の力か。" TCC_NEWLINE TCC_PUSH_A
+"ならば最後まで全力で応じよう。" TCC_NEWLINE
+"共に来てくれ、" TCC_NEWLINE
+"ラズワルド、ピエリ。"
+,
+[MID_SCENARIO_MAP_END_S0305] = TCC_OPEN_LEFT 
+"。。。私たちの負けか。" TCC_NEWLINE
+"この地は解放された。" TCC_NEWLINE TCC_PUSH_A
+"これで貴殿らと闘う理由も、" TCC_NEWLINE
+"アスク王国に侵攻する理由もなくなった。" TCC_NEWLINE
+"だが。。。" TCC_NEWLINE TCC_PUSH_A
+"私はヴェロニカ皇女について行こう。" TCC_NEWLINE
+"次に会う時は、負けはせんぞ。"
+,
+[MID_SCENARIO_ENDING_S0305] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"英雄マークス。。。" TCC_NEWLINE
+"よりによって、ヴェロニカ皇女に" TCC_NEWLINE
+"味方するだなんて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"英雄の中には契約から解放されても、" TCC_NEWLINE
+"自分の意思でこの世界の人間に" TCC_NEWLINE
+"協力する者がいるんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"" TCC_TACTICIAN_NAME "に召喚された" TCC_NEWLINE
+"英雄たちはすぐに味方になってくれるけど。。。" TCC_NEWLINE
+"本来、そういった者はとても少ないんだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"でも、その分仲良しになれると" TCC_NEWLINE
+"すっごく嬉しいんです。" TCC_NEWLINE
+"わたしにもいますよ、英雄のお友達。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"シャロン。。。" TCC_NEWLINE
+"あまり肩入れしすぎるなと言っただろう。" TCC_NEWLINE TCC_PUSH_A
+"英雄たちとはあくまで協力関係。" TCC_NEWLINE
+"友人ではないのだから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"えーっ。でもお兄様にだって" TCC_NEWLINE
+"仲良しの英雄がいたじゃないですか。" TCC_NEWLINE
+"今は異界に帰ったんでしたっけ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ああ。" TCC_NEWLINE
+"そうだね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい、お話はそこまで。" TCC_NEWLINE
+"解放した地に長居は無用よ。" TCC_NEWLINE
+"帰還して、次の任務に備えましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,79 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S1501] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな、準備は良い？" TCC_NEWLINE
+"今回の任地は" TCC_NEWLINE
+"アスク王国の西方。。。" TCC_NEWLINE TCC_PUSH_A
+"「永遠なる神の寝所」。。。" TCC_NEWLINE
+"そう呼ばれる" TCC_NEWLINE
+"古代の遺跡よ。" TCC_NEWLINE TCC_PUSH_A
+"そこに、" TCC_NEWLINE
+"私たちヴァイス・ブレイヴの" TCC_NEWLINE
+"助けになる力が眠っているわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"力。。。？" TCC_NEWLINE
+"力ってなんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私も詳しいことはわからないの。" TCC_NEWLINE
+"でもこれは、" TCC_NEWLINE
+"ザカリアがくれた情報なのよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ザカリアさんが！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"僕たちと一緒にはいられない。。。" TCC_NEWLINE
+"それでも彼は、僕たちを" TCC_NEWLINE
+"助けようとしてくれているんだね。" TCC_NEWLINE TCC_PUSH_A
+""
+"行こう、その遺跡に。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S1501] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ここが、" TCC_NEWLINE
+"「永遠なる神の寝所」。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"遺跡は、英雄たちが守護しているわ。" TCC_NEWLINE
+"彼らに力を示して、道を開くわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S1501] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ここが遺跡の最奥部。。。" TCC_NEWLINE TCC_PUSH_A
+"？" TCC_NEWLINE
+"この石板は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"なんだか難しそうな字が" TCC_NEWLINE
+"いっぱい書いてあります！" TCC_NEWLINE
+"お兄様、わかります？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"これはアスクの古代文字。。。" TCC_NEWLINE
+"それもかなり古い時代のものだね。" TCC_NEWLINE
+"ええと。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"『偉大なる" TCC_NEWLINE
+"　解放の神アスクの名のもとに、" TCC_NEWLINE
+"　ここに記す』" TCC_NEWLINE TCC_PUSH_A
+"『これなる儀は" TCC_NEWLINE
+"　神竜アスクの【覚醒の儀】。。。" TCC_NEWLINE
+"　その片鱗をあらわすもの』" TCC_NEWLINE TCC_PUSH_A
+"『神竜の聖なる印。。。" TCC_NEWLINE
+"　その内に秘められし力を" TCC_NEWLINE
+"　呼び覚ますものなり』" TCC_NEWLINE TCC_PUSH_A
+"。。。この後には、" TCC_NEWLINE
+"儀式の手順が" TCC_NEWLINE
+"詳しく書かれているようだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"この儀式で、" TCC_NEWLINE
+"聖なる印の力が" TCC_NEWLINE
+"呼び覚まされる。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"試してみる価値はあるわね。" TCC_NEWLINE
+"拠点に持ち帰って、" TCC_NEWLINE
+"詳しく調べてみましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,

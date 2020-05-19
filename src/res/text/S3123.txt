@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3123] = TCC_OPEN_LEFT 
+"ミラ様。。。" TCC_NEWLINE
+"どうかこの世界をお守りください。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

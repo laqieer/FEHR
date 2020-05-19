@@ -1,0 +1,87 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S1201] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"そうか。" TCC_NEWLINE
+"ザカリアは今も無事だったんだね、" TCC_NEWLINE
+"良かった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"でも、どうして" TCC_NEWLINE
+"わたしたちが来る前に" TCC_NEWLINE
+"いなくなってしまったんでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"" TCC_TACTICIAN_NAME "の話からすると。。。" TCC_NEWLINE
+"何かわけありみたいね。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、大丈夫よ。" TCC_NEWLINE
+"ザカリアが姿を隠していても、" TCC_NEWLINE
+"彼と話す方法はあるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どういうことですか、" TCC_NEWLINE
+"アンナ隊長？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ふふ。。。実はね、" TCC_NEWLINE
+"この前行った蒼炎の異界で、" TCC_NEWLINE
+"これを手に入れてたの。" TCC_NEWLINE TCC_PUSH_A
+"【ヤクシの石】。。。" TCC_NEWLINE
+"どんなに遠くの相手とでも" TCC_NEWLINE
+"言葉を交わせる魔法の石よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"魔法の石。。。" TCC_NEWLINE
+"それでザカリアと" TCC_NEWLINE
+"話ができるんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"普通なら、相手側。。。" TCC_NEWLINE
+"ザカリアも石を持っていないと" TCC_NEWLINE
+"いけないんだけど。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちはこれを触媒にして、" TCC_NEWLINE
+"今から行く『共鳴の異界』で" TCC_NEWLINE
+"特殊な魔道儀式を行うの。" TCC_NEWLINE TCC_PUSH_A
+""
+"ザカリアが生きていれば、" TCC_NEWLINE
+"必ず意思疎通ができるわ。" TCC_NEWLINE
+"たとえ相手が眠っていてもね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"すごいです、さすがアンナ隊長！" TCC_NEWLINE
+"行きましょう、" TCC_NEWLINE
+"ザカリアさんとお話したいです！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S1201] = TCC_OPEN_LEFT 
+"私はセリカ。" TCC_NEWLINE
+"アルムの幼なじみよ。" TCC_NEWLINE
+"戦いは好きではないけれど。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"ごめんなさい。" TCC_NEWLINE
+"契約にはどうしても抗うことが" TCC_NEWLINE
+"できないみたい。。。" TCC_NEWLINE TCC_PUSH_A
+"今は、戦うしかない。。。でも、" TCC_NEWLINE
+"あなたたちの力が、私たちを" TCC_NEWLINE
+"解放してくれることを願っているわ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1201] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"この異界の英雄たちは、" TCC_NEWLINE
+"既にエンブラ軍の支配下にあるようね。" TCC_NEWLINE
+"ということは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。目障りな連中が来たか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"君は。。。ブルーノ皇子。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"っ。。。！　消え失せろ。。。" TCC_NEWLINE
+"これ以上、" TCC_NEWLINE
+"私の邪魔をすれば殺す。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ま、待て！" TCC_NEWLINE TCC_PUSH_A
+""
+,

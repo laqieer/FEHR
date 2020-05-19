@@ -1,0 +1,117 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3081] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"さて、これから" TCC_NEWLINE
+"どう動くべきかしらね。。。？" TCC_NEWLINE TCC_PUSH_A
+"一日も無駄にはできないわ。" TCC_NEWLINE
+"この異界をもっと探索するか、" TCC_NEWLINE
+"死の王国に戻るか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"アンナ隊長、" TCC_NEWLINE
+"僕はアスク王城の書庫を" TCC_NEWLINE
+"調べてみたいと思います。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"でも、お兄様。" TCC_NEWLINE
+"書庫にはヘルを倒す" TCC_NEWLINE
+"手がかりはなかったですよ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうだね、でも" TCC_NEWLINE
+"この世界の書庫を調べれば、" TCC_NEWLINE
+"このアスクのことがわかる。" TCC_NEWLINE TCC_PUSH_A
+"今はアスク王国歴何年か。。。" TCC_NEWLINE
+"この国でどんなことが起きたか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"なるほどね。" TCC_NEWLINE
+"このアスクがもしも" TCC_NEWLINE
+"ヘルによって滅亡したのなら。。。" TCC_NEWLINE TCC_PUSH_A
+"ヘルの手がかりも" TCC_NEWLINE
+"何かあるはずよ。" TCC_NEWLINE
+"行ってみましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3081] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_THRASIR
+"あなたたち。。。諦めないのね。" TCC_NEWLINE
+"でも、生者はいつか死ぬの。。。" TCC_NEWLINE
+"必ず。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3081] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"まわりの景色はやっぱり" TCC_NEWLINE
+"わたしたちの世界と同じ。。。" TCC_NEWLINE
+"勝手知ったる場所です。" TCC_NEWLINE TCC_PUSH_A
+""
+"今日は" TCC_NEWLINE
+"あの丘の砦で休みましょう。" TCC_NEWLINE
+"わたしのお気に入りの場所なんです！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3081] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。滅びのアスク、か。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。まだ、確信はない。" TCC_NEWLINE
+"。。。でもやはり、気になる。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。もしかしたら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ーーーー！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。死ね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"リーヴ！？　くっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様っ！？" TCC_NEWLINE TCC_PUSH_A
+"お兄様は死なせません！" TCC_NEWLINE
+"殺すつもりならわたしから。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"っ。。。" TCC_NEWLINE
+"。。。どけ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵襲！" TCC_NEWLINE
+"みんな、敵襲よ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。立ち去った、か。" TCC_NEWLINE TCC_PUSH_A
+"すまない。" TCC_NEWLINE
+"油断していた。。。" TCC_NEWLINE
+"単身で僕を暗殺に来るなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お兄様、ご無事ですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ありがとう、シャロン。" TCC_NEWLINE
+"おかげで命拾いしたよ。" TCC_NEWLINE TCC_PUSH_A
+"そういえば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"リーヴはさっき一瞬。。。" TCC_NEWLINE
+"シャロンに刃を向けることを" TCC_NEWLINE
+"ためらったように見えた。" TCC_NEWLINE TCC_PUSH_A
+"なぜだろう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そういえば。。。" TCC_NEWLINE
+"そうだったような気が。" TCC_NEWLINE TCC_PUSH_A
+"どうしてなんでしょう？" TCC_NEWLINE
+"わたしがかよわい女の子" TCC_NEWLINE
+"だからでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それを気にする" TCC_NEWLINE
+"相手とも思えないけれど。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

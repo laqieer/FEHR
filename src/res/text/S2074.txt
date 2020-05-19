@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2074] = TCC_OPEN_LEFT 
+"兄上は剣で。。。" TCC_NEWLINE
+"私はこの新たな魔道で。。。" TCC_NEWLINE
+"お相手致します。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,168 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_SURTR
+"レーヴァテインよ。" TCC_NEWLINE TCC_PUSH_A
+"奴らを殺せ。。。" TCC_NEWLINE
+"我はそう命じた。" TCC_NEWLINE
+"そうだな？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"はい。。。" TCC_NEWLINE
+"それが、父上の御命令。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"う。。。ぁっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"屑が。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。か。。。かは。。。っ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ならばなぜ奴らは生きておる？" TCC_NEWLINE
+"なぜ貴様は生き恥を晒しておる？" TCC_NEWLINE
+"ムスペル王族の面汚しが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"弱者は死ね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。父。。。上。。。。。。申\し訳。。。" TCC_NEWLINE
+"っ。。。うぁぁっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"お、おやめください、父上！" TCC_NEWLINE
+"それ以上は" TCC_NEWLINE
+"レーヴァテインの体が。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"体が、なんだというのだ？" TCC_NEWLINE
+"こやつの体が壊れたとて、" TCC_NEWLINE
+"それがなんだというのだ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"父上。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レーヴァテイン。" TCC_NEWLINE
+"お前に最後の機会をくれてやろう。" TCC_NEWLINE TCC_PUSH_A
+"ムスペルの業火で" TCC_NEWLINE
+"貴様の身を焼き尽くせ。" TCC_NEWLINE TCC_PUSH_A
+""
+"火付きの悪い生木も、" TCC_NEWLINE
+"多少はましな炎になるであろう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ムスペルの業火。。。" TCC_NEWLINE
+"父上、そんなことをすれば" TCC_NEWLINE
+"レーヴァテインは。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"無論、死ぬ。" TCC_NEWLINE
+"それがなんだ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。ち、父上。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"恐れながら、申\し上げます。" TCC_NEWLINE
+"妹のかわりに私が。。。" TCC_NEWLINE
+"このレーギャルンが出陣を。" TCC_NEWLINE TCC_PUSH_A
+"ムスペルの業火に身を焦がし。。。" TCC_NEWLINE
+"私が彼らを討ち果たしましょう。" TCC_NEWLINE
+"ですから、どうか妹のことは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"良かろう。" TCC_NEWLINE
+"ならば貴様から死ね。" TCC_NEWLINE
+"奴らを討てなくば、次はこ奴だ。" TCC_NEWLINE TCC_PUSH_A
+"行け。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"承知致しました。。。父上。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"巧妙に隠された隠し扉。。。" TCC_NEWLINE
+"こんなの、ロキが教えてくれなかったら" TCC_NEWLINE
+"絶対見つけられなかったわね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"この神殿の中に、" TCC_NEWLINE
+"囚われたヴェロニカ皇女たちが。。。" TCC_NEWLINE TCC_PUSH_A
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"レーギャルン王女！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"待つんだ、フィヨルム王女。" TCC_NEWLINE
+"何か様子がおかしい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"炎竜ムスペルよ。。。" TCC_NEWLINE
+"我が身を喰らい尽くせ。。。" TCC_NEWLINE TCC_PUSH_A
+"頭を、胸を、" TCC_NEWLINE
+"腕を、脚を。。。" TCC_NEWLINE
+"我が身すべてを。。。咀嚼せよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あ。。。ああっ。。。" TCC_NEWLINE
+"あ。。。あ。。。あ。。。っ。。。" TCC_NEWLINE
+"ああ。。。ああ。。。ああ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ああああああああああああああああああっ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"。。。レーヴァ。。。テイン。。。" TCC_NEWLINE
+"どうか。。。あなただけは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"レーギャルン。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LAEGJARN
+"余計な情けは。。。無用よ。。。" TCC_NEWLINE
+"私はもう。。。助からない。。。" TCC_NEWLINE TCC_PUSH_A
+"ムスペルの業火に身を焼いた者は、" TCC_NEWLINE
+"一時の間、力を得。。。" TCC_NEWLINE
+"そして死ぬ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そんな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もし、私に" TCC_NEWLINE
+"情けをかけてくれるなら。。。" TCC_NEWLINE TCC_PUSH_A
+"どうか、" TCC_NEWLINE
+"レーヴァテインを。。。" TCC_NEWLINE TCC_PUSH_A
+"私の可愛い妹。。。" TCC_NEWLINE
+"あの子の命だけは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。わかりました。" TCC_NEWLINE
+"お救いできるよう努めます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ありがとう。" TCC_NEWLINE
+"フィヨルム王女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ムスペルの業火で。。。" TCC_NEWLINE
+"私の目は焼かれた。。。" TCC_NEWLINE TCC_PUSH_A
+"もう。。。" TCC_NEWLINE
+"私には。。。あなたの姿は" TCC_NEWLINE
+"見えないけれど。。。" TCC_NEWLINE TCC_PUSH_A
+"でも。。。不思議ね。。。" TCC_NEWLINE
+"あなたの姿が。。。見える。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"フィヨルム王女。。。" TCC_NEWLINE
+"もし、あなたたちニフルと" TCC_NEWLINE
+"共に歩める道があったなら。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちは。。。友に。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レーギャルン。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

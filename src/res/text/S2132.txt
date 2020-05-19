@@ -1,0 +1,74 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2132] = TCC_OPEN_LEFT 
+"契約。。。彼はその力に縛られ、" TCC_NEWLINE
+"自分を召喚したその男に。。。" TCC_NEWLINE
+"んふふ。。。色んな空想ができそう。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2132] = "。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_YLGR
+"ねえ、へいき？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。いいえ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうだよね。。。" TCC_NEWLINE
+"わたしも体が熱くて。。。" TCC_NEWLINE
+"でもだんだん力が抜けていく感じ。。。" TCC_NEWLINE TCC_PUSH_A
+"このまま、" TCC_NEWLINE
+"炎の儀の供物にされて" TCC_NEWLINE
+"死んじゃうのかな。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。そうね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"やだ、死にたくないよ！" TCC_NEWLINE
+"わたし、もっと" TCC_NEWLINE
+"いろんな世界を見てみたいもの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"で、でも元気出して！" TCC_NEWLINE
+"きっと兄様や姉様が" TCC_NEWLINE
+"助けに来てくれるから、ね、ね？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。あなた、" TCC_NEWLINE
+"さっきからうるさいわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えー、ごめんなさい。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、このままじゃ。。。" TCC_NEWLINE
+"わたしたち。。。もう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"。。。おい、ガキ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ！" TCC_NEWLINE
+"あなた。。。！" TCC_NEWLINE TCC_PUSH_A
+"生きてたの。。。！？" TCC_NEWLINE
+"良かった。。。" TCC_NEWLINE
+"わたしてっきりもう。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"おい、頼むから少し黙れ。" TCC_NEWLINE
+"他の兵どもに" TCC_NEWLINE
+"聞こえるだろうが。。。" TCC_NEWLINE TCC_PUSH_A
+"今、鎖を切ってやる。" TCC_NEWLINE
+"王に感づかれる前に" TCC_NEWLINE
+"ずらかるぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え？" TCC_NEWLINE
+"助けてくれるの。。。？" TCC_NEWLINE
+"どうして。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どうして、だ？" TCC_NEWLINE
+"けっ、てめーは俺に" TCC_NEWLINE
+"そう聞いてばっかりだな。" TCC_NEWLINE TCC_PUSH_A
+""
+"理由なんざ。。。" TCC_NEWLINE
+"俺にわかるわけねーだろうが。" TCC_NEWLINE TCC_PUSH_A
+""
+,

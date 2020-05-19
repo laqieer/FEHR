@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2104] = TCC_OPEN_LEFT 
+"カアラと申\す。元来戦いは好まぬが、" TCC_NEWLINE
+"契約とやらに抗えぬ身なれば。。。" TCC_NEWLINE
+"是非もない。"
+,

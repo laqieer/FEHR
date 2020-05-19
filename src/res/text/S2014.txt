@@ -1,0 +1,80 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_END_S2014] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"もうじき、報告があった場所に到着するわ。" TCC_NEWLINE
+"急ぎましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2014] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"はぁ。。。はぁ。。。っ。。。" TCC_NEWLINE TCC_PUSH_A
+"わ。。。私は。。。" TCC_NEWLINE
+"母様の。。。仇を。。。。。。っ" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_SURTR
+"弱者が。" TCC_NEWLINE
+"最早抗う力もないか。" TCC_NEWLINE TCC_PUSH_A
+"貴様如きが" TCC_NEWLINE
+"この王に刃向かえると" TCC_NEWLINE
+"本気で思ったか？" TCC_NEWLINE TCC_PUSH_A
+"その驕り、身体で贖え。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ぁぁぁぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"痛かろう。苦しかろう。" TCC_NEWLINE
+"氷の娘よ。" TCC_NEWLINE
+"次はどこが望みだ？" TCC_NEWLINE TCC_PUSH_A
+"その顔を焼くか。" TCC_NEWLINE
+"その指を一本ずつ" TCC_NEWLINE
+"灰にしてくれようか。" TCC_NEWLINE TCC_PUSH_A
+""
+"貴様の母に" TCC_NEWLINE
+"そうしてやったようになあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！" TCC_NEWLINE
+"スルト。。。ぉっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ぐははははははははっ！" TCC_NEWLINE
+"弱者は蹂躙されねばならぬ。" TCC_NEWLINE
+"それが理よ。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、抗え！" TCC_NEWLINE
+"貴様の命、" TCC_NEWLINE
+"その最期の炎を見せよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。スル。。。トっ。。。。。。！" TCC_NEWLINE
+"。。。お前。。。だけは。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。お。。。。。。前。。。。。。" TCC_NEWLINE
+"。。。。。。だけ。。。は。。。。。。" TCC_NEWLINE
+"。。。。。。　。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"気を失ったか。" TCC_NEWLINE
+"。。。くだらん。" TCC_NEWLINE
+"嬲る価値すらない塵芥が。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT 
+"あらん。" TCC_NEWLINE
+"王様、どちらへ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"進軍だ。" TCC_NEWLINE
+"我が炎でこの大地" TCC_NEWLINE
+"すべてを焼いてくれる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あらん。せっかちなお方。" TCC_NEWLINE
+"こんなかわいい女の子を" TCC_NEWLINE
+"放っておくなんて、ねえ？" TCC_NEWLINE TCC_PUSH_A
+""
+"うふふ。" TCC_NEWLINE
+"じゃあ、あなたは私が" TCC_NEWLINE
+"たっぷりかわいがってあげる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

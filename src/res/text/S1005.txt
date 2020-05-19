@@ -1,0 +1,134 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S1005] = "あなたたち。。。" TCC_NEWLINE
+"どうしてここがわかったの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。まあいいわ。" TCC_NEWLINE
+"そんなにあたしとあそびたいのなら、" TCC_NEWLINE
+"歓迎してあげる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"それに、遺跡をこわすよりも。。。" TCC_NEWLINE
+"。。。" TCC_TACTICIAN_NAME "。" TCC_NEWLINE
+"あなたをころしたほうが早いものね。"
+,
+[MID_SCENARIO_MAP_END_S1005] = "どうして。。。" TCC_NEWLINE
+"いつもまけちゃうの。。。" TCC_NEWLINE
+"ずるい。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちばかりずるいわ。。。" TCC_NEWLINE
+"英雄に、召喚師に。。。" TCC_NEWLINE
+"ゆたかな国に。。。" TCC_NEWLINE TCC_PUSH_A
+"これいじょうなにがほしいの。。。" TCC_NEWLINE
+"あたしには。。。" TCC_NEWLINE
+"なんにもないのに。。。"
+,
+[MID_SCENARIO_ENDING_S1005] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"。。。撤退したようね。" TCC_NEWLINE
+"でも、これで終わるとは思えないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"どうしてこんなことになったんでしょう。。。" TCC_NEWLINE
+"エンブラの先代皇帝が亡くなった時、" TCC_NEWLINE
+"もう戦争は終わるって言われてたのに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"先代皇帝。。。ヴェロニカ皇女の父上は" TCC_NEWLINE
+"英雄やアスク王国を支配することを" TCC_NEWLINE
+"画策していたんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"それも自国を豊かにしたいがため。。。" TCC_NEWLINE
+"帝国内の人気は圧倒的だった。" TCC_NEWLINE
+"亡くなった時は後を追う民までいたほどに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"で、帝位を継いだのが皇帝の後妻。" TCC_NEWLINE
+"ヴェロニカ皇女は前妻との娘だから、" TCC_NEWLINE
+"女帝と皇女と血の繋がりはないのよ。" TCC_NEWLINE TCC_PUSH_A
+"女帝は支配的な性格ではなかったから" TCC_NEWLINE
+"異界やアスクへの侵攻もなくなって、" TCC_NEWLINE
+"束の間の平和が訪れたわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"数年前、ヴェロニカ皇女が突然" TCC_NEWLINE
+"異界を支配し。。。かつてのように" TCC_NEWLINE
+"アスク王国に侵攻を始めるまではね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"民も、国の要人たちも。。。女帝ではなく" TCC_NEWLINE
+"先代皇帝の血と意思を継いだ" TCC_NEWLINE
+"ヴェロニカ皇女を支援していると聞くよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"狙いはアスク王国の支配。。。" TCC_NEWLINE
+"本当にそうでしょうか。" TCC_NEWLINE
+"わたしにはただ、寂しいだけに見えますが。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"例えそうだとしても、" TCC_NEWLINE
+"アスク王国に侵略していい" TCC_NEWLINE
+"理由にはならないよ。" TCC_NEWLINE TCC_PUSH_A
+""
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"きっとこれからも厳しい戦いが待つだろう。" TCC_NEWLINE
+"けれど君は、僕たちが守ってみせる。" TCC_NEWLINE TCC_PUSH_A
+""
+"だからこれからも僕たちと。。。" TCC_NEWLINE
+"そして英雄たちとともに、" TCC_NEWLINE
+"戦ってくれ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"さあ、それじゃみんな。" TCC_NEWLINE
+"お城に戻りましょうか。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。！？　あれは。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"君は、さっきの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"礼を言っておくよ。" TCC_NEWLINE
+"君のおかげで遺跡は無事に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"覚醒の異界にいる英雄に聞いた。" TCC_NEWLINE
+"貴様らは、人を捜しているようだな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ザカリアのことかい？" TCC_NEWLINE TCC_PUSH_A
+""
+"ああ。" TCC_NEWLINE
+"気の毒だが、そいつはもう戻ってこない。" TCC_NEWLINE
+"。。。潔く諦めろ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！！　なに。。。！？" TCC_NEWLINE
+"彼の行方を知っているのか！？" TCC_NEWLINE
+"お願いだ、何か知っているのなら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あ。。。！" TCC_NEWLINE
+"待ってくれ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だめよアルフォンス！" TCC_NEWLINE
+"今度こそ罠かもしれないわ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"でも。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"落ち着きなさい！" TCC_NEWLINE
+"敵か味方かわからない以上、" TCC_NEWLINE
+"誘いには乗らない方が賢明よ。" TCC_NEWLINE TCC_PUSH_A
+""
+"あの男。。。" TCC_NEWLINE
+"きっとまた私たちに接触してくるわ。" TCC_NEWLINE
+"機が熟すのを待ちましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"くっ。。。！" TCC_NEWLINE
+"。。。わかったよ。" TCC_NEWLINE TCC_PUSH_A
+""
+"ザカリア。。。" TCC_NEWLINE
+"どうか、無事でいてくれ。。。"
+,

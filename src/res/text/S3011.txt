@@ -1,0 +1,156 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HENRIETTE
+"アルフォンスっ！" TCC_NEWLINE
+"シャロンっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"え。。。？" TCC_NEWLINE
+"は、母上。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あれ、お母様？" TCC_NEWLINE
+"どうしてここに？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"きゃあっ、嬉しいっ！" TCC_NEWLINE
+"二人とも無事だったのね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"あ、あの。。。王妃、なぜこちらに？" TCC_NEWLINE
+"もしかして、" TCC_NEWLINE
+"護衛も連れずにお一人で。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アンナ隊長もおひさしぶりねっ。" TCC_NEWLINE
+"子供たちを立派に" TCC_NEWLINE
+"鍛えてくれてありがとう。" TCC_NEWLINE TCC_PUSH_A
+"それにこのお城。。。" TCC_NEWLINE
+"素敵な場所ねっ。" TCC_NEWLINE
+"たくさんの英雄たちに囲まれて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"君は会うのは初めてだったね。" TCC_NEWLINE
+"こちらは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"きゃあ！" TCC_NEWLINE
+"あなたが" TCC_TACTICIAN_NAME "ね！" TCC_NEWLINE TCC_PUSH_A
+"シャロンたちから聞いてるわ。" TCC_NEWLINE
+"素敵っ、私たちアスクの救い主に" TCC_NEWLINE
+"こうして出会えるなんて。。。" TCC_NEWLINE TCC_PUSH_A
+"私はヘンリエッテ。" TCC_NEWLINE
+"いつもアルフォンスとシャロンが" TCC_NEWLINE
+"お世話になってます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あの、母上、それで。。。" TCC_NEWLINE
+"どのようなご用件でこちらに？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、そうそう。" TCC_NEWLINE
+"アルフォンス、" TCC_NEWLINE
+"一緒に王城に来てほしいの。" TCC_NEWLINE TCC_PUSH_A
+"あの人から。。。" TCC_NEWLINE
+"陛下からあなたに" TCC_NEWLINE
+"大切なお話があるそうよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"父上が。。。ですか？" TCC_NEWLINE
+"ですが、僕は父上から" TCC_NEWLINE
+"お会いすることを禁じられて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"大丈夫よ。" TCC_NEWLINE
+"だって、あの人の方から" TCC_NEWLINE
+"頼んできたんだからっ。" TCC_NEWLINE TCC_PUSH_A
+"どうしても、内密に" TCC_NEWLINE
+"お話ししたいことがあるそうよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"よほど重要な用件。。。" TCC_NEWLINE
+"ということでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ。" TCC_NEWLINE
+"あの人にとっても、" TCC_NEWLINE
+"あなたにとっても。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"さ、じゃあ出発しましょう！" TCC_NEWLINE
+"急いで荷物の準備をしてねっ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"！" TCC_NEWLINE
+"これは、敵襲。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"えええ！？" TCC_NEWLINE
+"で、でも、ここって" TCC_NEWLINE
+"アスク王国領内の奥深くですよ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"どういうこと。。。？" TCC_NEWLINE
+"偵察からも国境警備からも" TCC_NEWLINE
+"何も報告はなかったわよ！" TCC_NEWLINE TCC_PUSH_A
+"それなのに、" TCC_NEWLINE
+"いきなりこんな" TCC_NEWLINE
+"深部まで侵入を許すなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"敵軍の姿。。。" TCC_NEWLINE
+"あれは、エンブラ兵。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_HENRIETTE
+"。。。いいえ。" TCC_NEWLINE
+"あれは、ヘルの軍勢。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ヘル。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お下がりください、王妃。" TCC_NEWLINE
+"みんな、私たちで" TCC_NEWLINE
+"敵部隊を排除するわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"敵兵の姿が。。。消えていく。。。" TCC_NEWLINE
+"まるで亡霊のように。。。" TCC_NEWLINE
+"これは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HENRIETTE
+"あの兵たちは既に死者。。。" TCC_NEWLINE
+"かつて亡くなった" TCC_NEWLINE
+"エンブラ軍の兵士たちよ。" TCC_NEWLINE TCC_PUSH_A
+"今は、死の王国ヘルの" TCC_NEWLINE
+"尖兵にされているわ。。。" TCC_NEWLINE
+"かわいそうに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"死の王国。。。" TCC_NEWLINE
+"それは一体？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"死後、喜びの園に" TCC_NEWLINE
+"行くことができなかった者たちが" TCC_NEWLINE
+"永遠に留まるという死者の世界。。。" TCC_NEWLINE TCC_PUSH_A
+"それが、死の王国ヘルよ。" TCC_NEWLINE
+"。。。詳しいことは、" TCC_NEWLINE
+"陛下からお話しになるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"今回、父上が" TCC_NEWLINE
+"僕を呼んだことと" TCC_NEWLINE
+"関係があるのですね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ。" TCC_NEWLINE
+"でも、思っていたより" TCC_NEWLINE
+"私たちには時間がないみたい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"さ、陛下のもとへ" TCC_NEWLINE
+"急ぎましょうっ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

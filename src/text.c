@@ -1696,6 +1696,7 @@ const char* const texts[] = {
            "どうか、無事でいてくれ。。。" TCC_NEWLINE TCC_PUSH_A
            ,
 
+#include "texts.txt"
 };
 
 extern int lastTextID;

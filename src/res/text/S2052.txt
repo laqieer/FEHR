@@ -1,0 +1,14 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2052] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"くっ。。。こんなに早く" TCC_NEWLINE
+"敵軍に捕捉されるなんて。。。！" TCC_NEWLINE
+"みんな、戦闘準備を！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2052] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵の包囲が狭まりつつある。。。" TCC_NEWLINE
+"急いで！　他の敵が来る前に" TCC_NEWLINE
+"場所を変えるわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

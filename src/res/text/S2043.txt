@@ -1,0 +1,13 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2043] = TCC_OPEN_LEFT 
+"邪悪な英雄たち、お覚悟なさい！" TCC_NEWLINE
+"このラーチェルが成敗してさしあげますわ。" TCC_NEWLINE
+"さ、行きますわよエイリーク。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT 
+"ええ、ラーチェル。" TCC_NEWLINE
+"この身が契約の下にある限り、" TCC_NEWLINE
+"私たちも戦わなければ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

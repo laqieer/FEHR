@@ -1,0 +1,151 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3085] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"幸いなことに、書庫の書物は" TCC_NEWLINE
+"いくらか残っていたよ。" TCC_NEWLINE TCC_PUSH_A
+"どうやらここは、" TCC_NEWLINE
+"僕たちの世界の数年後の" TCC_NEWLINE
+"アスク王国のようだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"じゃあ、" TCC_NEWLINE
+"この世界のわたしも" TCC_NEWLINE
+"どこかにいるんでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"言いにくいんだけど。。。シャロン。" TCC_NEWLINE
+"書物の記録によると、" TCC_NEWLINE
+"君は亡くなっているようだよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"えええ！？" TCC_NEWLINE
+"わたし死んじゃったんですか？" TCC_NEWLINE TCC_PUSH_A
+"あ、でも。。。" TCC_NEWLINE
+"この世界が滅んだのなら、" TCC_NEWLINE
+"みんなそうですよね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"それでアルフォンス、" TCC_NEWLINE
+"滅亡の原因は何なの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"この書によれば。。。" TCC_NEWLINE TCC_PUSH_A
+"『忌まわしき" TCC_NEWLINE
+"　死の王の呪詛により" TCC_NEWLINE
+"　偉大なる王は失われ。。。』" TCC_NEWLINE TCC_PUSH_A
+"『滅びの淵にあった" TCC_NEWLINE
+"　我らはエンブラと結び" TCC_NEWLINE
+"　【心臓】の禁忌に触れた。。。』" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"【心臓】って。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。僕にもわかりません。" TCC_NEWLINE
+"エンブラ帝国に関わる" TCC_NEWLINE
+"何らかの儀式のようです。。。" TCC_NEWLINE TCC_PUSH_A
+"『封じられし【心臓】の儀こそ" TCC_NEWLINE
+"　かの死の王を討ち果たす" TCC_NEWLINE
+"　唯一の法。。。』" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！　これって大きな手掛かりじゃない！" TCC_NEWLINE
+"その【心臓】っていうのが" TCC_NEWLINE
+"ヘルを討つ手段なのよね？" TCC_NEWLINE TCC_PUSH_A
+"じゃあ、それを見つければ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。いえ、それが。。。" TCC_NEWLINE TCC_PUSH_A
+"『【心臓】こそは" TCC_NEWLINE
+"　死の王を討つ力。。。" TCC_NEWLINE
+"　そして我らに死をもたらすもの。。。』" TCC_NEWLINE TCC_PUSH_A
+"『禁を解かれた【心臓】は" TCC_NEWLINE
+"　一つ脈打つたび、" TCC_NEWLINE
+"　一人を死に至らしめた。。。』" TCC_NEWLINE TCC_PUSH_A
+"『死は瞬く間に広がり。。。" TCC_NEWLINE
+"　街を失わせ、" TCC_NEWLINE
+"　ついには国をも覆った。。。』" TCC_NEWLINE TCC_PUSH_A
+"『人も獣も。。。" TCC_NEWLINE
+"　大地に息づくすべてのものが" TCC_NEWLINE
+"　死に絶えた。。。』" TCC_NEWLINE TCC_PUSH_A
+"『偉大なる神竜アスクよ、" TCC_NEWLINE
+"　どうか我らを許されんことを。。。" TCC_NEWLINE
+"　我らの滅びを。。。』" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そんな。。。！" TCC_NEWLINE
+"それが、" TCC_NEWLINE
+"この世界だっていうの。。。？" TCC_NEWLINE TCC_PUSH_A
+"ヘルを討つ力のかわりに、" TCC_NEWLINE
+"私たちの世界が" TCC_NEWLINE
+"こんなふうになってしまう。。。" TCC_NEWLINE TCC_PUSH_A
+"そうだとしたら、" TCC_NEWLINE
+"そんな力、" TCC_NEWLINE
+"使えるはずないじゃない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3085] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"！" TCC_NEWLINE
+"あ、あれは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"リーヴ。。。" TCC_NEWLINE
+"どこまでも僕たちの" TCC_NEWLINE
+"命を狙うつもりか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"迎撃するわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3085] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"っ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"待て、リーヴ！" TCC_NEWLINE
+"君に聞きたいことがある！" TCC_NEWLINE TCC_PUSH_A
+"君の名はリーヴではない。" TCC_NEWLINE
+"そうだろう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はじめは君の言う通り、" TCC_NEWLINE
+"初代王リーヴその人だと" TCC_NEWLINE
+"思っていた。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、違う。。。" TCC_NEWLINE
+"君はシャロンを知っている。。。" TCC_NEWLINE
+"親しい間柄だったんだ。" TCC_NEWLINE TCC_PUSH_A
+"だから、一番好きな花を手向けた。。。" TCC_NEWLINE
+"だから、殺すことをためらった。。。" TCC_NEWLINE TCC_PUSH_A
+"君は僕たちと同じ時代の存在だ。。。" TCC_NEWLINE
+"そして、扉を開く" TCC_NEWLINE
+"アスク王家の血を継ぐ者。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それなら。。。" TCC_NEWLINE
+"僕が知る人物は" TCC_NEWLINE
+"たった一人しかいない。" TCC_NEWLINE TCC_PUSH_A
+"君の真の名は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。黙れ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。アルフォンス。それが君の名だ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

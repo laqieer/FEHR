@@ -32,6 +32,12 @@
 #define PORTARIT_THRASIR "\x14\x2"
 #define PORTARIT_YLGR "\x15\x2"
 #define PORTARIT_XANDER "\x16\x2"
+#define PORTARIT_HEL "\x17\x2"
+#define PORTARIT_FREYR "\x18\x2"
+#define PORTARIT_GUSTAV "\x19\x2"
+#define PORTARIT_HENRIETTE "\x1A\x2"
+#define PORTARIT_LUPINUS "\x1B\x2"
+#define PORTARIT_THORR "\x1C\x2"
 
 #define PORTRAIT_GENERIC_SODIER_BLUE "\x20\x2"
 #define PORTRAIT_GENERIC_SODIER_RED "\x21\x2"

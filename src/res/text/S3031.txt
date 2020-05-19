@@ -1,0 +1,90 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_GUSTAV
+"アルフォンスよ。" TCC_NEWLINE
+"明朝、我が軍は" TCC_NEWLINE
+"ヘルの軍勢に攻撃を仕掛ける。" TCC_NEWLINE TCC_PUSH_A
+"あ奴らを死の国へ押し戻し、" TCC_NEWLINE
+"再び壁を築かねばならぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"はい、父上。" TCC_NEWLINE TCC_PUSH_A
+"僕たち特務機関も、" TCC_NEWLINE
+"アンナ隊長の指揮のもと" TCC_NEWLINE
+"遊撃部隊として参戦します。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE
+"好きにせよ。" TCC_NEWLINE
+"だが、もし。。。" TCC_NEWLINE TCC_PUSH_A
+"敵の女王ヘルと" TCC_NEWLINE
+"会うことがあれば、" TCC_NEWLINE
+"ただちに撤退せよ。" TCC_NEWLINE TCC_PUSH_A
+"ヘルに決して" TCC_NEWLINE
+"近づいてはならぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"父上は、敵の王を" TCC_NEWLINE
+"ご存じなのですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"二十\年前。。。" TCC_NEWLINE
+"わしはあの者と戦った。" TCC_NEWLINE TCC_PUSH_A
+"この傷は。。。" TCC_NEWLINE
+"奴に負わされたものだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE
+"父上がそれほどの手傷を" TCC_NEWLINE
+"負うほどの相手。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうではない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"強い。。。弱い。。。" TCC_NEWLINE
+"死はそのような尺度で" TCC_NEWLINE
+"測れるものではない。" TCC_NEWLINE TCC_PUSH_A
+"あ奴は死そのものだ。" TCC_NEWLINE
+"定命の者は、必ず死ぬ。" TCC_NEWLINE
+"それは世の理、覆せぬ真理だ。" TCC_NEWLINE TCC_PUSH_A
+"わしが奴と出会い、" TCC_NEWLINE
+"いまだ命があるのは。。。" TCC_NEWLINE
+"ただ幸運であったにすぎぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"良いか、アルフォンス。" TCC_NEWLINE
+"ヘルには決して" TCC_NEWLINE
+"近づいてはならぬ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"死の女王ヘル。。。" TCC_NEWLINE
+"それが敵の王というわけね。" TCC_NEWLINE TCC_PUSH_A
+"私たち遊撃部隊が" TCC_NEWLINE
+"敵王の首を取れば、" TCC_NEWLINE
+"一気に戦争を終わらせられるけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_EIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"まずは、目の前の敵が先ね。" TCC_NEWLINE
+"行くわよみんな！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"いくのね。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+"死の軍勢の主力は" TCC_NEWLINE
+"あちらの方角。。。" TCC_NEWLINE TCC_PUSH_A
+"そこにはたぶん。。。" TCC_NEWLINE
+"お母様も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

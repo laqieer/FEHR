@@ -1,0 +1,65 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0905] = TCC_OPEN_LEFT 
+"特務機関。。。" TCC_NEWLINE
+"ルフレさんの言っていた通り、" TCC_NEWLINE
+"一筋縄ではいかない相手のようですね。" TCC_NEWLINE TCC_PUSH_A
+"特に後方に控えている、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "という軍師が" TCC_NEWLINE
+"なかなかの切れ者だとか。" TCC_NEWLINE TCC_PUSH_A
+"ですが負けはしませんよ。。。" TCC_NEWLINE
+"お父様の力を借りるまでもありません、" TCC_NEWLINE
+"私たちだけで片付けてみせます！"
+,
+[MID_SCENARIO_MAP_END_S0905] = TCC_OPEN_LEFT 
+"誤解をしてごめんなさい。。。" TCC_NEWLINE
+"あなたたちは、私たちを解放するために" TCC_NEWLINE
+"戦ってくださっていたのですね。" TCC_NEWLINE TCC_PUSH_A
+"。。。え？　探している人がいるのですか？" TCC_NEWLINE
+"ザカリアさんという槍使い。。。" TCC_NEWLINE
+"いいえ、お見かけしたことはありません。" TCC_NEWLINE TCC_PUSH_A
+"ですが大切な人がいなくなる辛さは、" TCC_NEWLINE
+"私にもよくわかります。。。" TCC_NEWLINE
+"早く再会できるといいですね。"
+,
+[MID_SCENARIO_ENDING_S0905] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"やはり見つからなかったか。" TCC_NEWLINE
+"ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ううっ。。。ザカリアさん。。。" TCC_NEWLINE
+"どこにいっちゃったんでしょう。。。" TCC_NEWLINE
+"わたしの槍の師匠だったのに。。。" TCC_NEWLINE TCC_PUSH_A
+"強くなったねって、" TCC_NEWLINE
+"いつかそう言って褒めてもらいたかったのに" TCC_NEWLINE
+"もう叶わないんでしょうか。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"。。。。。。。。。。。。" TCC_NEWLINE
+"泣くのはやめなさい、シャロン。" TCC_NEWLINE
+"まだ任務中だということを忘れたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。！" TCC_NEWLINE
+"す、すみません、アンナ隊長。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"アルフォンスも。落ち込むのはいいけど、" TCC_NEWLINE
+"ザカリアが帰ってきた時に" TCC_NEWLINE
+"そんな情けない姿を見せるつもり？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"すまない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"もし責任を感じているのならお門違いよ。" TCC_NEWLINE
+"任務中は何があっても、" TCC_NEWLINE
+"例え死んだとしても責任は自分自身に。。。" TCC_NEWLINE TCC_PUSH_A
+"そして、隊長である私にあるの。" TCC_NEWLINE
+"あなたたちはただ目の前にある" TCC_NEWLINE
+"任務に集中して。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、帰還するわよ。" TCC_NEWLINE
+"今日がだめでもいつか、" TCC_NEWLINE
+"また彼に会えると信じましょう。"
+,

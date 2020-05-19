@@ -1,0 +1,121 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3105] = "この奥よ。。。" TCC_NEWLINE
+"神殿のいちばん奥に。。。" TCC_NEWLINE
+"武器はあるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"鮮血の神殿。。。" TCC_NEWLINE
+"なんだか" TCC_NEWLINE
+"不気味な場所です。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"いそいで。。。" TCC_NEWLINE
+"じゃまが入る前に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"待つんだ、ヴェロニカ皇女。" TCC_NEWLINE
+"それ以上奥に行ってはいけない。" TCC_NEWLINE TCC_PUSH_A
+""
+"？" TCC_NEWLINE
+"なに言ってるの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"異界のヴェロニカ皇女。。。" TCC_NEWLINE
+"スラシルは言っていた。" TCC_NEWLINE
+"ヘルは殺させないと。。。" TCC_NEWLINE TCC_PUSH_A
+"僕たちが次に" TCC_NEWLINE
+"ヘルを討つ武器を目指すことは" TCC_NEWLINE
+"予\測していたはずだ。" TCC_NEWLINE TCC_PUSH_A
+"にもかかわらず、エンブラの書庫に" TCC_NEWLINE
+"この神殿の情報は残されていた。。。" TCC_NEWLINE
+"隠滅されることなく。" TCC_NEWLINE TCC_PUSH_A
+"つまり、それは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"わな。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_THRASIR
+"。。。ふぅん。。。" TCC_NEWLINE
+"知っててここへ来たのね。" TCC_NEWLINE TCC_PUSH_A
+""
+"あなた。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"その通りよ。" TCC_NEWLINE
+"ヘルを殺せる武器は" TCC_NEWLINE
+"ここにはもうない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"だましたのね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"おばかさん。。。" TCC_NEWLINE
+"あなたの考えてることなんて" TCC_NEWLINE
+"手に取るようにわかるわ。" TCC_NEWLINE TCC_PUSH_A
+"だって、" TCC_NEWLINE
+"あなたは私だもの。。。" TCC_NEWLINE TCC_PUSH_A
+"でもアルフォンス王子。。。" TCC_NEWLINE
+"あなたはだまされたふりをして" TCC_NEWLINE
+"ここまで来た。。。どうして？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"僕たちを罠に嵌められると思えば" TCC_NEWLINE
+"君は、ここに来る。。。" TCC_NEWLINE
+"みずからとどめを刺すために。" TCC_NEWLINE TCC_PUSH_A
+"それは同時に、" TCC_NEWLINE
+"ヘルの将である君を討つ" TCC_NEWLINE
+"好機でもある。。。" TCC_NEWLINE TCC_PUSH_A
+"死の王国の将スラシル。。。" TCC_NEWLINE
+"君は、ここで倒す。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3105] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_THRASIR
+"いさましいわね。。。" TCC_NEWLINE
+"でも、ここで死ぬのは" TCC_NEWLINE
+"あなたたちよ。。。" TCC_NEWLINE TCC_PUSH_A
+"ヘルは殺させない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"なぜヘルを守る？" TCC_NEWLINE
+"ヘルは君にとっても敵のはず。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だって、そうでしょう？" TCC_NEWLINE
+"あなたたちがヘルを討てば、" TCC_NEWLINE
+"あなたたちの世界は救われる。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、もう滅んでしまった" TCC_NEWLINE
+"私たちの世界は。。。？" TCC_NEWLINE
+"誰が救ってくれるの？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"誰も救ってはくれない。" TCC_NEWLINE
+"あたりまえでしょう？" TCC_NEWLINE TCC_PUSH_A
+"だから、" TCC_NEWLINE
+"私とアルフォンスは。。。" TCC_NEWLINE
+"あなたたちを殺すしかないの。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちの世界を滅ぼして。。。" TCC_NEWLINE
+"ヘルの力で" TCC_NEWLINE
+"私たちの世界を元に戻す。。。" TCC_NEWLINE TCC_PUSH_A
+"これは、どちらに" TCC_NEWLINE
+"死を押しつけるかの戦いなの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3105] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_THRASIR
+"ああ。。。" TCC_NEWLINE
+"ごめん。。。なさい。。。" TCC_NEWLINE
+"お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+"お兄様を。。。たすけるって。。。" TCC_NEWLINE
+"やくそく。。。したのに。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ヴェロニカ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。同情はしないわ。" TCC_NEWLINE
+"あたしたちは、" TCC_NEWLINE
+"どちらもゆずれなかった。。。" TCC_NEWLINE TCC_PUSH_A
+"たたかって、一方が" TCC_NEWLINE
+"生きのこるしかなかった。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、やくそくしてあげる。" TCC_NEWLINE TCC_PUSH_A
+"ヘルは、ころすわ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

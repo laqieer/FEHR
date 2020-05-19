@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2053] = TCC_OPEN_LEFT 
+"我はギムレー。破滅と絶望の竜。。。" TCC_NEWLINE
+"さあ、誰から食い殺そうか？" TCC_NEWLINE TCC_PUSH_A
+""
+,

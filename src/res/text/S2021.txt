@@ -1,0 +1,83 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2021] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。ぅ。。。。。。ぅん。。。" TCC_NEWLINE TCC_PUSH_A
+"ここ。。。は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あ、気がつかれましたか？" TCC_NEWLINE
+"良かったです！" TCC_NEWLINE
+"お水飲みます？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、ありがとうございます。。。" TCC_NEWLINE
+"あなたが" TCC_NEWLINE
+"助けてくださったのですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いえいえ。" TCC_NEWLINE
+"倒れていたあなたを発見したのは、" TCC_NEWLINE
+"こちらの千年に一度の大英雄。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"じゃーん、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"ありがとうございます。" TCC_NEWLINE TCC_PUSH_A
+"私はフィヨルムと申\します。" TCC_NEWLINE
+"ニフル王国の王女、でした。" TCC_NEWLINE TCC_PUSH_A
+""
+"ですが。。。" TCC_NEWLINE
+"祖国は敵に滅ぼされました。。。" TCC_NEWLINE
+"ムスペルの炎の軍勢によって。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"炎の軍勢？" TCC_NEWLINE
+"もしかしてそれは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。" TCC_NEWLINE
+"今、あなたたちの王国をも" TCC_NEWLINE
+"侵そうとしている軍勢です。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"フィヨルム王女、" TCC_NEWLINE
+"私たちは任務に向かうわ。" TCC_NEWLINE
+"あなたはここでひとまず休息を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いえ、どうか私も" TCC_NEWLINE
+"ご一緒させてください。" TCC_NEWLINE TCC_PUSH_A
+"私の祖国は" TCC_NEWLINE
+"ムスペルの王スルトに滅ぼされ、" TCC_NEWLINE
+"母は目の前で殺されました。。。" TCC_NEWLINE TCC_PUSH_A
+"このままでは、あなた方の王国も。。。" TCC_NEWLINE
+"ですから、せめて私にできる" TCC_NEWLINE
+"お手伝いをさせてください。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2021] = "ふぅん。。。" TCC_NEWLINE
+"あなたたち、まだ生きてたの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"！　ヴェロニカ皇女！" TCC_NEWLINE
+"ムスペルの侵攻は、君が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ。あたしと" TCC_NEWLINE
+"ムスペルの王スルトは" TCC_NEWLINE
+"同盟をむすんだの。。。" TCC_NEWLINE TCC_PUSH_A
+"あたしの英雄たちや兵で" TCC_NEWLINE
+"スルトに協力してあげてる。。。" TCC_NEWLINE TCC_PUSH_A
+"だって、" TCC_NEWLINE
+"アスクはころさないと" TCC_NEWLINE
+"いけないんだもの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2021] = "つかれちゃった。。。" TCC_NEWLINE
+"かえるわ。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、あなたたちはころすわ。" TCC_NEWLINE
+"スルトとあたしが、かならず。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,126 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S0102] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"アンナ隊長、お兄様！" TCC_NEWLINE
+"来るのが遅いですよーっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"すまない、シャロン。" TCC_NEWLINE
+"ここにくるまでに戦闘があってね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"んん？　そのお隣にいる方は。。。" TCC_NEWLINE
+"その手に燦然と輝く神器は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"もしやあなたが、異界の大英雄様！？" TCC_NEWLINE
+"機関全員で夢にまで見た、" TCC_NEWLINE
+"噂\の救世主ですかーーっ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。名は" TCC_TACTICIAN_NAME "だ。" TCC_NEWLINE
+"先ほども見事な指揮で、" TCC_NEWLINE
+"僕たちに力を貸してくれた。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"すごーーい！　すごいです！！" TCC_NEWLINE
+"さすが" TCC_TACTICIAN_NAME "さん！" TCC_NEWLINE
+"百年前からファンでしたっ！！" TCC_NEWLINE TCC_PUSH_A
+""
+"あ、申\し遅れました。私、シャロンです！" TCC_NEWLINE
+"アスク王国の王女で、" TCC_NEWLINE
+"アルフォンスお兄様の妹なんですよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それでシャロン、戦況は？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"一言で言うとまずいですね。" TCC_NEWLINE
+"エンブラ軍の奴ら、" TCC_NEWLINE
+"空飛ぶ赤い英雄を従えたんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"紋章の異界にいる、" TCC_NEWLINE
+"赤色の飛兵。。。" TCC_NEWLINE
+"もしやミネルバ王女か？" TCC_NEWLINE TCC_PUSH_A
+""
+"苦戦を強いられるかもしれないが、" TCC_NEWLINE
+"弓兵の英雄を連れていれば" TCC_NEWLINE
+"あるいは。。。"
+,
+[MID_SCENARIO_MAP_BEGIN_S0102] = TCC_OPEN_LEFT 
+"わたしはミネルバ。" TCC_NEWLINE
+"マケドニア王女だ。" TCC_NEWLINE
+"異邦の旅人よ。元いた世界に帰りなさい。" TCC_NEWLINE TCC_PUSH_A
+"我が身は既に【契約】を結ばれた。" TCC_NEWLINE
+"エンブラ皇女ヴェロニカの命により、" TCC_NEWLINE
+"これから異界に攻め入ることになる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ミネルバ王女、僕はアルフォンス。" TCC_NEWLINE
+"あなたが攻め入ることを命じられた" TCC_NEWLINE
+"アスク王国の王子です。" TCC_NEWLINE TCC_PUSH_A
+"どうか、武器を収めてください。" TCC_NEWLINE
+"僕たちは英雄たちとの戦争を" TCC_NEWLINE
+"望んではいません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ならば、力を示しなさい。" TCC_NEWLINE
+"貴殿が力を示したならば、わたしは" TCC_NEWLINE
+"ヴェロニカとの契約から解き放たれる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"力を示す。" TCC_NEWLINE
+"それはつまり。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"戦って勝ちなさいってことね。" TCC_NEWLINE
+"みんな、準備は良い？"
+,
+[MID_TUTORIAL_1_S0102] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"あの壊れる壁は、攻撃で壊せるよ。" TCC_NEWLINE
+"必要なら指示してほしい。"
+,
+[MID_TUTORIAL_2_S0102] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"空を飛ぶ者は、弓に弱いよ。" TCC_NEWLINE
+"だから、こちらに弓使いがいれば。。。"
+,
+[MID_TUTORIAL_DIALOG_1_S0102] = "壊れる壁は、攻撃で破壊できる"
+,
+[MID_TUTORIAL_DIALOG_2_S0102] = "空を飛ぶ者は、弓に弱い"
+,
+[MID_SCENARIO_MAP_END_S0102] = TCC_OPEN_LEFT 
+"見事。。。力は示された。" TCC_NEWLINE TCC_PUSH_A
+"ありがとう、アルフォンス王子。" TCC_NEWLINE
+"これでわたしたちは自由の身となった。" TCC_NEWLINE TCC_PUSH_A
+"もう貴国に攻め入ることはない。" TCC_NEWLINE
+"我が名において誓いましょう。"
+,
+[MID_SCENARIO_ENDING_S0102] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"これで、任務は完了だね、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"" TCC_TACTICIAN_NAME "さんの指揮、" TCC_NEWLINE
+"すっごく素晴らしかったです。。。！" TCC_NEWLINE
+"ますます惚れ直しちゃいました！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな聞いて！" TCC_NEWLINE
+"たった今入った知らせよ！" TCC_NEWLINE TCC_PUSH_A
+"エンブラ軍が大規模軍を展開して" TCC_NEWLINE
+"私たちの領地に侵攻してきたわ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"なんだって！？" TCC_NEWLINE
+"まさか、この地に来させたのは陽動。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そんなあ。。。！" TCC_NEWLINE
+"わたしたち、まんまと敵の罠に" TCC_NEWLINE
+"はまっちゃったんですか！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"とにかく、" TCC_NEWLINE
+"急いで帰還しましょう！"
+,

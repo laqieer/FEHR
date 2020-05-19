@@ -1,0 +1,106 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S1401] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ザカリアさん。。。" TCC_NEWLINE
+"今はどこにいるんでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"わからない。。。" TCC_NEWLINE
+"あの後、彼は何も言わずに" TCC_NEWLINE
+"姿を消してしまった。" TCC_NEWLINE TCC_PUSH_A
+"昔、僕たちの仲間だったザカリアが" TCC_NEWLINE
+"なぜ黙ってエンブラ帝国についたのか。。。" TCC_NEWLINE
+"なぜ正体を隠していたのか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"彼に直接会って、事情を聞かなければ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな！" TCC_NEWLINE
+"ブルーノ皇子。。。ザカリアの" TCC_NEWLINE
+"新たな情報が入ったわ！" TCC_NEWLINE TCC_PUSH_A
+"彼がいるのは、「蒼炎の異界」。" TCC_NEWLINE
+"さあ、行きましょう！" TCC_NEWLINE
+"とっつかまえて話を聞くわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S1401] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。駄目、か。。。" TCC_NEWLINE
+"これだけ探しても。。。" TCC_NEWLINE
+"やはり手がかりはない。。。" TCC_NEWLINE TCC_PUSH_A
+"ぐっ。。。ぅ。。。。。。" TCC_NEWLINE
+"。。。もう、時間が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ザカリア！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アルフォンス。。。" TCC_NEWLINE
+"。。。っ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"何があったんだ？" TCC_NEWLINE
+"全部話してくれ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"エンブラの皇族は。。。" TCC_NEWLINE
+"血には抗えない。。。" TCC_NEWLINE
+"神に呑まれ、神に従う木偶となる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"神？" TCC_NEWLINE
+"どういうことだ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"俺はエンブラの血を引く皇族。。。" TCC_NEWLINE TCC_PUSH_A
+"だが、あの国で母と俺は、" TCC_NEWLINE
+"他の皇族どもに蔑まれ、" TCC_NEWLINE
+"遠ざけられてきた。。。" TCC_NEWLINE TCC_PUSH_A
+"母はアスクへの内通という" TCC_NEWLINE
+"無実の罪で獄中に追いやられ、" TCC_NEWLINE
+"無惨に殺された。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"追放同然に辺境に追いやられた俺は、" TCC_NEWLINE
+"身分を偽り、アスクへ潜み。。。" TCC_NEWLINE
+"お前たちの仲間となった。" TCC_NEWLINE TCC_PUSH_A
+"かつての祖国。。。" TCC_NEWLINE
+"エンブラを滅ぼすために。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だが、俺の中に流れるエンブラの血。。。" TCC_NEWLINE
+"その呪いは、決して消えることがない。。。" TCC_NEWLINE TCC_PUSH_A
+"俺がお前たちと共にいれば、" TCC_NEWLINE
+"お前やシャロンは殺される。。。" TCC_NEWLINE
+"だから、俺は去った。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"抗う手立ては。。。" TCC_NEWLINE
+"ぐぅっ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ザカリア！？" TCC_NEWLINE
+"どうしたんだ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"時間がない。。。" TCC_NEWLINE
+"離れろ。。。" TCC_NEWLINE
+"俺が。。。お前を殺す前に。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1401] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"ぐっ。。。" TCC_NEWLINE
+"まだだ。。。まだ。。。" TCC_NEWLINE TCC_PUSH_A
+"くく。。。くくく。。。殺せ。。。" TCC_NEWLINE
+"アスクの王族を。。。" TCC_NEWLINE
+"殺し尽くせ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ザカリア！" TCC_NEWLINE
+"待ってくれ、ザカリア！" TCC_NEWLINE TCC_PUSH_A
+""
+,

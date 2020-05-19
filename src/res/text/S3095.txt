@@ -1,0 +1,165 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3095] = "エンブラのお城。。。" TCC_NEWLINE
+"あたしたちのとおんなじね。。。" TCC_NEWLINE TCC_PUSH_A
+"じゃあ、しらべてくるわ。" TCC_NEWLINE
+"あなたたちは外でまってて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"え？" TCC_NEWLINE
+"わたしたちも" TCC_NEWLINE
+"調べもののお手伝いしますよ？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。かんちがいしないで。" TCC_NEWLINE
+"あなたたちとあたしが手を組むのは、" TCC_NEWLINE
+"ヘルをころすまでのあいだだけ。" TCC_NEWLINE TCC_PUSH_A
+"てきに、うちのお城の中を" TCC_NEWLINE
+"うろうろさせるはずないでしょ。。。" TCC_NEWLINE
+"さあ、出てって。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"け、けちです！" TCC_NEWLINE TCC_PUSH_A
+""
+"いそいで。" TCC_NEWLINE
+"外にてきが来たわ。。。" TCC_NEWLINE
+"アルフォンス王子、あなたのてきが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3095] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"リーヴ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アルフォンス。。。" TCC_NEWLINE TCC_PUSH_A
+"お前の世界と、" TCC_NEWLINE
+"俺の世界。。。" TCC_NEWLINE
+"これは世界の選定だ。" TCC_NEWLINE TCC_PUSH_A
+"だから俺は。。。" TCC_NEWLINE TCC_PUSH_A
+"だから僕は。。。" TCC_NEWLINE
+"一人を生かすために、" TCC_NEWLINE
+"一人を殺す。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！？" TCC_NEWLINE
+"何を言って。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの時。。。" TCC_NEWLINE
+"僕はヘルを討つために、" TCC_NEWLINE
+"禁じられた呪いの封印を解いた。" TCC_NEWLINE TCC_PUSH_A
+"だが、それは過ちだった。" TCC_NEWLINE
+"呪いは民たちを次々と殺していった。。。" TCC_NEWLINE
+"すべて、僕のせいだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"一刻も早くヘルを討たなければ。。。" TCC_NEWLINE
+"僕は危険な賭けを挑み。。。" TCC_NEWLINE
+"ヘルに敗れた。" TCC_NEWLINE TCC_PUSH_A
+"シャロンはヘルに殺された。" TCC_NEWLINE TCC_PUSH_A
+"「逃げてください」。。。" TCC_NEWLINE
+"シャロンは最期にそう言った。" TCC_NEWLINE
+"僕だけでも助けようとしたんだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"すべてが終わった後。。。" TCC_NEWLINE
+"ヘルは言った。" TCC_NEWLINE
+"「死者の数の帳尻を合わせよ」と。" TCC_NEWLINE TCC_PUSH_A
+"異界で一人が死ねば、" TCC_NEWLINE
+"僕たちの世界の一人は" TCC_NEWLINE
+"死なずにすむ。。。" TCC_NEWLINE TCC_PUSH_A
+"シャロンの、民たちの、みんなの死を" TCC_NEWLINE
+"なかったことにできる。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、僕はヘルと契約したんだ。" TCC_NEWLINE
+"君たちの世界を滅ぼし。。。" TCC_NEWLINE
+"僕たちの世界を救う。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"馬鹿な。。。" TCC_NEWLINE TCC_PUSH_A
+"僕が、" TCC_NEWLINE
+"そのためにヘルの配下に。。。？" TCC_NEWLINE
+"正気とは思えない。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうだね。" TCC_NEWLINE
+"僕はとうに狂っている。" TCC_NEWLINE TCC_PUSH_A
+"僕のせいでシャロンは死に、" TCC_NEWLINE
+"隊長は死に、民は皆死んだ。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "まで。。。" TCC_NEWLINE TCC_PUSH_A
+"正気を失うには、十\分だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3095] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"倒れるわけにはいかない。。。" TCC_NEWLINE
+"止まれば。。。みんなは。。。" TCC_NEWLINE TCC_PUSH_A
+"死者の数の帳尻を合わせる。。。" TCC_NEWLINE
+"僕は。。。みんなを救うんだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3095] = "。。。てきは逃げたみたいね。" TCC_NEWLINE
+"すごくしゅうねんぶかい。。。" TCC_NEWLINE TCC_PUSH_A
+"ふぅん。。。" TCC_NEWLINE
+"あれが、この世界の" TCC_NEWLINE
+"アルフォンス王子なのね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"それで、ヴェロニカ皇女、" TCC_NEWLINE
+"【心臓】の情報は？" TCC_NEWLINE TCC_PUSH_A
+""
+"【アングルボザの心臓】。。。" TCC_NEWLINE
+"そう呼ばれている儀式よ。" TCC_NEWLINE TCC_PUSH_A
+"アングルボザは" TCC_NEWLINE
+"ヘルを生み出した" TCC_NEWLINE
+"大いなる者。。。" TCC_NEWLINE TCC_PUSH_A
+"その力を武器に宿せば、" TCC_NEWLINE
+"ヘルをころせる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だが、呪いがあると。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ。【アングルボザの心臓】は" TCC_NEWLINE
+"エンブラの鮮血の神殿に" TCC_NEWLINE
+"封印されている。。。" TCC_NEWLINE TCC_PUSH_A
+"封印を解けば、" TCC_NEWLINE
+"【心臓】が脈を打つ度、" TCC_NEWLINE
+"人が死んでいく。。。" TCC_NEWLINE TCC_PUSH_A
+"どんどんどんどん。。。" TCC_NEWLINE
+"際限なく人が死んでいく。。。" TCC_NEWLINE TCC_PUSH_A
+"人がみんないなくなって、" TCC_NEWLINE
+"【心臓】がまた眠りにつくまで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"じゃあ、やっぱり" TCC_NEWLINE
+"その力は使えないわね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"そうかしら。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"あたしたちの世界で" TCC_NEWLINE
+"【心臓】の儀式は行えない。。。" TCC_NEWLINE
+"世界が滅んでしまうから。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、この異界はもう" TCC_NEWLINE
+"【心臓】の儀式を行っている。。。" TCC_NEWLINE TCC_PUSH_A
+"じゃあ、" TCC_NEWLINE
+"この異界のどこかに" TCC_NEWLINE
+"あるはずでしょう？" TCC_NEWLINE TCC_PUSH_A
+"【アングルボザの心臓】の儀式で。。。" TCC_NEWLINE
+"ヘルをころす力を得た武器が。" TCC_NEWLINE TCC_PUSH_A
+""
+,

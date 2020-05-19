@@ -1,0 +1,107 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな聞いて！" TCC_NEWLINE
+"我が国の東方領、" TCC_NEWLINE
+"豊穣なる丘に敵軍が侵攻！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"敵軍！" TCC_NEWLINE
+"またエンブラですか！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それが、まだわからないの。" TCC_NEWLINE
+"報告した兵は。。。ひどい火傷を" TCC_NEWLINE
+"負って意識を失っていた。。。" TCC_NEWLINE TCC_PUSH_A
+"彼はうわ言のように" TCC_NEWLINE
+"『炎が来た』と" TCC_NEWLINE
+"繰り返していたそうよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"炎。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私たち特務機関がまず" TCC_NEWLINE
+"状況の偵察に向かうわ。" TCC_NEWLINE
+"さあ、急ぐわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S2011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"これは。。。！？" TCC_NEWLINE TCC_PUSH_A
+"あの美しかった豊穣の丘が" TCC_NEWLINE
+"見る影もなく。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ひどい。。。" TCC_NEWLINE
+"小さい頃、お母様やお兄様と" TCC_NEWLINE
+"一緒に遊んだ思い出の場所なのに。。。" TCC_NEWLINE TCC_PUSH_A
+"こんなの。。。" TCC_NEWLINE
+"ひどすぎます。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"アルフォンス、シャロン、警戒して！" TCC_NEWLINE
+"敵が来るわ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵軍の旗は" TCC_NEWLINE
+"エンブラ軍のものだったわ。" TCC_NEWLINE
+"ということは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"やっぱりエンブラ軍が" TCC_NEWLINE
+"こんなことを。。。" TCC_NEWLINE
+"ぜったい許せません！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"いや。" TCC_NEWLINE
+"おそらく、違う。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"この炎は、消えないんだ。。。" TCC_NEWLINE TCC_PUSH_A
+"河の水で消そうとしても、" TCC_NEWLINE
+"水を焼いて勢いを増す。。。" TCC_NEWLINE
+"こんな異様な炎を見たのは初めてだ。" TCC_NEWLINE TCC_PUSH_A
+"決して消えることのない" TCC_NEWLINE
+"不滅の炎。。。" TCC_NEWLINE TCC_PUSH_A
+"まさか、予\言書の。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！　まさか、あり得ないわ。" TCC_NEWLINE
+"あれはただの古い予\言、" TCC_NEWLINE
+"現実に起こるわけじゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"予\言書ってなんですか？" TCC_NEWLINE
+"教えてください！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。世界の終末を予\言した" TCC_NEWLINE
+"いにしえの予\言書の一つに、" TCC_NEWLINE
+"こういう一節があるんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"『その者、" TCC_NEWLINE
+"　炎に包まれ、" TCC_NEWLINE
+"　海を渡り来る』" TCC_NEWLINE TCC_PUSH_A
+"『その炎、" TCC_NEWLINE
+"　不死にして不滅。" TCC_NEWLINE
+"　決して消えることなし』" TCC_NEWLINE TCC_PUSH_A
+"『山は焼け、木は倒れ、" TCC_NEWLINE
+"　水は乾き、海は呑まれ、" TCC_NEWLINE
+"　天は焦げ、月は堕ちる』" TCC_NEWLINE TCC_PUSH_A
+"『世界は炎に包まれ、滅ぶ』。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"滅ぶ。。。って、" TCC_NEWLINE
+"え。。。えええっ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私たちはこのまま先に進むわ。" TCC_NEWLINE
+"敵軍の情報収集が必要よ。" TCC_NEWLINE TCC_PUSH_A
+"それにしても。。。" TCC_NEWLINE
+"一体、何が起こっているの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+,

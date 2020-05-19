@@ -1,0 +1,50 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0205] = TCC_OPEN_LEFT 
+"さすがだね。。。" TCC_NEWLINE
+"よくここまで来てくれた。" TCC_NEWLINE
+"君たちは平和を求めて戦っているんだね。" TCC_NEWLINE TCC_PUSH_A
+"その気持ちは、よくわかるつもりだよ。" TCC_NEWLINE
+"ぼくたちは似ている。同じ仲間として" TCC_NEWLINE
+"出会えていたら。。。そう思うよ。" TCC_NEWLINE TCC_PUSH_A
+"さあ、最後の勝負だ。" TCC_NEWLINE
+"正々堂々戦おう！"
+,
+[MID_SCENARIO_MAP_END_S0205] = TCC_OPEN_LEFT 
+"力は示された。。。" TCC_NEWLINE
+"これでぼくたちは、" TCC_NEWLINE
+"契約から解放される。" TCC_NEWLINE TCC_PUSH_A
+"ありがとう、感謝するよ。" TCC_NEWLINE
+"君たちのような人と出会えて" TCC_NEWLINE
+"本当によかった。" TCC_NEWLINE TCC_PUSH_A
+"また、どこかで会えたら良いね。"
+,
+[MID_SCENARIO_ENDING_S0205] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"これで、なんとか" TCC_NEWLINE
+"危機は去ったようだね。" TCC_NEWLINE TCC_PUSH_A
+""
+"つまらないの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！？　ヴェロニカ皇女。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"せっかくマルスたちを" TCC_NEWLINE
+"あたしのものにしたのに。。。" TCC_NEWLINE
+"どうして解放しちゃうの？" TCC_NEWLINE TCC_PUSH_A
+"じゃまものには、" TCC_NEWLINE
+"みんな死んでもらわなくちゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"くっ。。。！　みんな、下がって。" TCC_NEWLINE
+"今の私たちでは" TCC_NEWLINE
+"ヴェロニカ皇女には勝てないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"全員の帰還を第一優先！" TCC_NEWLINE
+"ただちに撤退！" TCC_NEWLINE TCC_PUSH_A
+""
+"にげるの？　あそびたかったのに。。。" TCC_NEWLINE
+"じゃああたしも、おしろにかえるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"つぎはもっともっとつよい英雄を" TCC_NEWLINE
+"あたしのものにしようっと。。。"
+,

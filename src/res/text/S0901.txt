@@ -1,0 +1,20 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0901] = TCC_OPEN_LEFT 
+"君たちは何者だい？" TCC_NEWLINE
+"異界から来た、特務機関。。。？" TCC_NEWLINE
+"なんだか怪しいな。" TCC_NEWLINE TCC_PUSH_A
+"悪いけど、ここを通すわけにはいかないよ。" TCC_NEWLINE
+"クロムがいなくたって、" TCC_NEWLINE
+"僕一人でやってみせ。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。あれ、サーリャもいたのかい？" TCC_NEWLINE
+"ああ。。。また僕の後をつけてたんだね。。。" TCC_NEWLINE
+"まあいい、君も力を貸してくれ！"
+,
+[MID_SCENARIO_MAP_END_S0901] = TCC_OPEN_LEFT 
+"僕の策を破るなんて。。。" TCC_NEWLINE
+"そちらの軍師もやるようだね。" TCC_NEWLINE TCC_PUSH_A
+"でも、これで終わりはしないさ。" TCC_NEWLINE
+"僕の策も仲間も、" TCC_NEWLINE
+"まだまだ尽きてはいないよ！"
+,

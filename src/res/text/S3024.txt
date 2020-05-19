@@ -1,0 +1,11 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_END_S3024] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"もうすぐ私たちは" TCC_NEWLINE
+"荒涼たる墳墓が" TCC_NEWLINE
+"見える位置まで近づくわ。" TCC_NEWLINE TCC_PUSH_A
+"墳墓には敵の本軍が" TCC_NEWLINE
+"待ち受けているかもしれない。" TCC_NEWLINE
+"慎重に行動するわよ。" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,114 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S3075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ここまで来ても、" TCC_NEWLINE
+"状況は同じね。。。" TCC_NEWLINE
+"どこにも誰もいないわ。" TCC_NEWLINE TCC_PUSH_A
+"考えたくはないけれど。。。" TCC_NEWLINE
+"このアスク王国はもう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"滅亡した。。。" TCC_NEWLINE
+"一人残らず。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"そんな。。。！" TCC_NEWLINE
+"みんな。。。みんな" TCC_NEWLINE
+"死んじゃったってことですか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"残念だけど、" TCC_NEWLINE
+"そう考える他ない。。。" TCC_NEWLINE TCC_PUSH_A
+"ただ、もしそうだとしても" TCC_NEWLINE
+"わからないことがある。。。" TCC_NEWLINE TCC_PUSH_A
+"この異界のアスクは、" TCC_NEWLINE
+"僕たちの暮らすアスクと瓜二つだ。。。" TCC_NEWLINE
+"街並みも、大地も、感じる風も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"はい。わたしたちのアスクに" TCC_NEWLINE
+"帰ってきた気持ちになります。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それが突如、滅亡し。。。" TCC_NEWLINE
+"こんな死の世界に" TCC_NEWLINE
+"変わってしまった。。。" TCC_NEWLINE TCC_PUSH_A
+"一体、ここで" TCC_NEWLINE
+"何が起きたんだ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S3075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵襲よ！" TCC_NEWLINE
+"みんな、迎撃準備を！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。この滅びの地には、" TCC_NEWLINE
+"お前たちの亡骸こそがふさわしい。" TCC_NEWLINE TCC_PUSH_A
+"。。。死ぬがいい。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S3075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LIF
+"。。。まだ、死に抗うか。" TCC_NEWLINE
+"いつまでも無駄なことを。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"。。。リーヴの軍勢は退いたようね。" TCC_NEWLINE TCC_PUSH_A
+""
+"もうすぐ日が暮れるわ。" TCC_NEWLINE
+"今夜はこの街で" TCC_NEWLINE
+"夜を明かしましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はい！" TCC_NEWLINE
+"わたし、ごはんの準備を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あれ？" TCC_NEWLINE
+"お兄様！" TCC_NEWLINE
+"見てください、これ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"これは。。。花束。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お兄様もご存じですよね。" TCC_NEWLINE
+"わたしの一番好きな温もりの花です！" TCC_NEWLINE TCC_PUSH_A
+"広場のところに、" TCC_NEWLINE
+"こんなふうに置かれてたんです。" TCC_NEWLINE
+"これって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"弔いの花。。。" TCC_NEWLINE
+"亡くなった人を思って" TCC_NEWLINE
+"手向けられたものだね。" TCC_NEWLINE TCC_PUSH_A
+"誰が。。。" TCC_NEWLINE
+"まさか、リーヴが置いたのか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ここで亡くなられた" TCC_NEWLINE
+"アスクの人々を思って。。。" TCC_NEWLINE
+"でしょうか。。。" TCC_NEWLINE TCC_PUSH_A
+"わたしたちの御先祖様。。。" TCC_NEWLINE
+"怖い人だと思ってましたけど、" TCC_NEWLINE
+"優しい一面もあるんですね。" TCC_NEWLINE TCC_PUSH_A
+"民思いなところ。。。" TCC_NEWLINE
+"お父様やお兄様と" TCC_NEWLINE
+"そっくりです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。あ、すまないシャロン。" TCC_NEWLINE
+"ぼんやりしてしまっていた。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"何か、気になる。。。" TCC_NEWLINE
+"何か大切なことを" TCC_NEWLINE
+"忘れているような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

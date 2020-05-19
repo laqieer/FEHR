@@ -1,0 +1,230 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"スルト！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_SURTR
+"ぐははははははははははははっ！" TCC_NEWLINE
+"また会ったな、弱き者どもよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ムスペルの王スルト。。。" TCC_NEWLINE
+"お前はニフルを、アスクを侵略し、" TCC_NEWLINE
+"多くの善良な人々の命を奪った。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国の第一王子として、" TCC_NEWLINE
+"ヴァイス・ブレイヴの一員として。。。" TCC_NEWLINE TCC_PUSH_A
+"ここにお前を討つ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"面白い！" TCC_NEWLINE
+"ならばこの王に挑んでみよ！" TCC_NEWLINE TCC_PUSH_A
+"王は一人！" TCC_NEWLINE
+"我が教えを、貴様らの柔い肌に" TCC_NEWLINE
+"焼き刻んでくれるわ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"違う！" TCC_NEWLINE
+"お前は王ではない。" TCC_NEWLINE
+"民を思わぬ者に王の資格はない。" TCC_NEWLINE TCC_PUSH_A
+"お前の歩む道には何も残りはしない。。。" TCC_NEWLINE
+"それは、ただの暴\虐だ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ぐはははははははははははははっ！" TCC_NEWLINE
+"相変わらず笑わせよるわ、" TCC_NEWLINE
+"尻の青い小僧が。" TCC_NEWLINE TCC_PUSH_A
+""
+"暴\虐こそ王よ！" TCC_NEWLINE
+"ただ欲しいがままに" TCC_NEWLINE
+"殺し！　貪り！　虐げる！" TCC_NEWLINE TCC_PUSH_A
+"その暴\虐を" TCC_NEWLINE
+"成し得る力の頂！" TCC_NEWLINE
+"それこそが王よ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。それならばスルト、" TCC_NEWLINE
+"お前はやはり王ではないのです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。何？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ただ欲しいがままに" TCC_NEWLINE
+"殺し、貪り、虐げる。。。" TCC_NEWLINE TCC_PUSH_A
+"お前が言ったその言葉を、" TCC_NEWLINE
+"お前は成し得ることなく。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちに" TCC_NEWLINE
+"殺されるのですから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ぐはははははははははははっ！" TCC_NEWLINE
+"言うようになったではないか、" TCC_NEWLINE
+"氷の娘よ。" TCC_NEWLINE TCC_PUSH_A
+"復讐。。。その暗き炎が" TCC_NEWLINE
+"弱き貴様を燃え上がらせた。" TCC_NEWLINE TCC_PUSH_A
+"今の貴様は良いぞ。" TCC_NEWLINE
+"ようやく、" TCC_NEWLINE
+"我が嬲るに値する炎となった。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"戯言を。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"さて、御託はもう良かろう。" TCC_NEWLINE
+"我が炎がたまらず疼いておる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"殺し合いだぁ！" TCC_NEWLINE
+"ぐはははははははははははぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_SURTR
+"ぐ。。。が。。。はぁ。。。。。。っ。。。" TCC_NEWLINE TCC_PUSH_A
+"ば、馬鹿な。。。" TCC_NEWLINE
+"あ。。。ありえぬ。。。" TCC_NEWLINE
+"こんな。。。ことは。。。" TCC_NEWLINE TCC_PUSH_A
+"我は決めたのだ。。。" TCC_NEWLINE
+"貴様らを殺すと。。。" TCC_NEWLINE
+"だというのに。。。なぜ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"教えてあげましょう、スルト。" TCC_NEWLINE
+"それは。。。" TCC_NEWLINE TCC_PUSH_A
+"お前が、弱者だからです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！？" TCC_NEWLINE
+"ぬああああああああああああっ！" TCC_NEWLINE TCC_PUSH_A
+"貴様ぁっ！" TCC_NEWLINE
+"貴様如きがぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お前は私たちの大切なものを" TCC_NEWLINE
+"幾つも幾つも奪いました。。。" TCC_NEWLINE TCC_PUSH_A
+"だから今、お前は奪われるのです。" TCC_NEWLINE
+"すべてを。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"がぁぁぁぁぁぁぁぁぁぁぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+"ぁぁぁぁ。。。ぁぁ。。。ぁ。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。　。。。。。。　。。。。。。　。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。母様。。。" TCC_NEWLINE
+"。。。姉様。。。" TCC_NEWLINE TCC_PUSH_A
+"やっと。。。" TCC_NEWLINE
+"やっと終わりました。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ああ。" TCC_NEWLINE
+"これで、今度こそ終わりだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"今回の任務も、" TCC_NEWLINE
+"無事完了ってことね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はい、戻ってみんなに" TCC_NEWLINE
+"伝えてあげましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ああ。" TCC_NEWLINE TCC_PUSH_A
+"帰ろう。" TCC_NEWLINE
+"僕たちのアスクへ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"。。。それでは兄様、" TCC_NEWLINE
+"今までお世話になりました。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HRID
+"。。。行くのか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_YLGR
+"姉様。。。" TCC_NEWLINE
+"ほんとにいっちゃうの？" TCC_NEWLINE TCC_PUSH_A
+"さびしいよ～。" TCC_NEWLINE
+"せっかく兄妹一緒に" TCC_NEWLINE
+"ニフルで暮らせるようになったのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ごめんなさい、ユルグ。" TCC_NEWLINE
+"でも。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "様たちには" TCC_NEWLINE
+"一生かけても返しきれないほどの" TCC_NEWLINE
+"御恩ができてしまいました。" TCC_NEWLINE TCC_PUSH_A
+"ですから私は、" TCC_NEWLINE
+"その恩返しをしたいのです。" TCC_NEWLINE
+"勝手を言ってすみません。" TCC_NEWLINE TCC_PUSH_A
+"兄様。。。" TCC_NEWLINE
+"このニフル王国をお願いします。" TCC_NEWLINE
+"兄様なら、きっと良き王になられます。" TCC_NEWLINE TCC_PUSH_A
+"そしていつか、" TCC_NEWLINE
+"レーヴァテインのムスペル王国とも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"こほっ。。。こほっ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"フィヨルム。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。彼らは知っているのか？" TCC_NEWLINE
+"お前の身体を。。。氷の儀の供物を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"氷の儀は" TCC_NEWLINE
+"炎の儀と対を成すもの。。。" TCC_NEWLINE TCC_PUSH_A
+"供物として捧げられるのは、" TCC_NEWLINE
+"人の命だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"母様もスリーズ姉様も。。。" TCC_NEWLINE
+"ご自分の命を犠牲にして" TCC_NEWLINE
+"私たちを助けてくださいました。" TCC_NEWLINE TCC_PUSH_A
+"私も、" TCC_TACTICIAN_NAME "様の" TCC_NEWLINE
+"お役に立てるのでしたら、" TCC_NEWLINE
+"これ以上の喜びはありません。" TCC_NEWLINE TCC_PUSH_A
+"私がまだ。。。" TCC_NEWLINE
+"生きていられるのは、" TCC_NEWLINE
+"姉様のおかげなのかもしれませんね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あとどれだけ" TCC_NEWLINE
+"生きられるかはわかりませんが。。。" TCC_NEWLINE TCC_PUSH_A
+"残されたこの時間を、" TCC_NEWLINE
+"大切にしたいと思います。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"酷なことだが。。。" TCC_NEWLINE
+"その時間はおそらく長くはない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。。。" TCC_NEWLINE TCC_PUSH_A
+"不思議です。。。" TCC_NEWLINE
+"スルトを討てるなら、いつ死んでも本望。。。" TCC_NEWLINE
+"今までそう思って生きてきました。" TCC_NEWLINE TCC_PUSH_A
+"でも" TCC_TACTICIAN_NAME "様や。。。" TCC_NEWLINE
+"皆様と一緒にいると。。。" TCC_NEWLINE
+"心が揺れてしまうのを感じます。" TCC_NEWLINE TCC_PUSH_A
+"私、もう少しだけ、生きたいです。。。" TCC_NEWLINE
+"あの御方と共に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。わかった。" TCC_NEWLINE
+"それがお前の望みなら、行くがいい。" TCC_NEWLINE
+"無事を祈っている。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ありがとうございます、兄様。。。" TCC_NEWLINE
+"それでは。。。" TCC_NEWLINE TCC_PUSH_A
+"私は戻ります。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "様のもとへ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

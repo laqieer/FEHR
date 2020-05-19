@@ -1,0 +1,53 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S1301] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"結局、ザカリアの行方は" TCC_NEWLINE
+"わからなかったわね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"うう。。。ザカリアさん。。。" TCC_NEWLINE
+"本当に死んで" TCC_NEWLINE
+"しまったんでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"ブルーノ皇子を追おう。" TCC_NEWLINE TCC_PUSH_A
+""
+"彼は『共鳴の異界』にいた。" TCC_NEWLINE
+"目的がまだ達せられていないのなら、" TCC_NEWLINE
+"再びあの地にいるかもしれない。" TCC_NEWLINE TCC_PUSH_A
+"あの男が真実を知っている。" TCC_NEWLINE
+"ザカリアがもし本当に殺されたのなら。。。" TCC_NEWLINE
+"僕はあの男を許せない。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S1301] = TCC_OPEN_LEFT 
+"あ、やっと来た～！　ボク、デューテ！" TCC_NEWLINE
+"ちょうど退屈してたんだ。" TCC_NEWLINE
+"ボクと勝負してくれるんでしょ？" TCC_NEWLINE TCC_PUSH_A
+"可愛いからって甘く見ないでね！" TCC_NEWLINE
+"さあ、ボクの魔法で" TCC_NEWLINE
+"ぶっ飛ばされたいのは誰～？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1301] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"ぐっ。。。ぅ。。。。。。。。。ぐ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"くく。。。くくく。。。。。。" TCC_NEWLINE
+"くくくくく。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ブルーノ皇子！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"くくく。。。ようやく来たか。。。" TCC_NEWLINE
+"待ちわびたぞ。。。！" TCC_NEWLINE TCC_PUSH_A
+"アルフォンス。。。！" TCC_NEWLINE
+"シャロン。。。！" TCC_NEWLINE
+"アスクの王族は惨たらしく殺す。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、追ってこい。。。！" TCC_NEWLINE
+"ザカリアの仇を討ちにな。。。" TCC_NEWLINE
+"くく。。。くはははははっ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

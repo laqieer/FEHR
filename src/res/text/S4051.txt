@@ -1,0 +1,180 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。ぅ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"この。。。匂い。。。" TCC_NEWLINE
+"馥郁たる。。。香炉か。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"みんなは。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"うーん。。。よく寝ました！" TCC_NEWLINE
+"おはようございます！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"私まで眠ってしまうなんて、" TCC_NEWLINE
+"隊長として一生の不覚だわ。。。" TCC_NEWLINE TCC_PUSH_A
+"みんな、無事？" TCC_NEWLINE
+"全員揃ってる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"香炉を見る限り。。。" TCC_NEWLINE
+"僕たちが眠っていたのは" TCC_NEWLINE
+"ほんの一瞬のようです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"それなら良かったわ。" TCC_NEWLINE
+"何か。。。長い夢を見たような気がするのよね、" TCC_NEWLINE
+"よく思い出せないけれど。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうですよね、" TCC_NEWLINE
+"わたしも大冒険の夢を見た気がするんです！" TCC_NEWLINE
+"思い出せなくて残念です！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そういえば、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんって。。。" TCC_NEWLINE TCC_PUSH_A
+"ええと。。。お兄様。" TCC_NEWLINE
+"誰かのお名前と間違えてます？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロン。。。？" TCC_NEWLINE
+"そんな冗談は良くないよ。" TCC_NEWLINE TCC_PUSH_A
+"僕たちは、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "と一緒に" TCC_NEWLINE
+"ここまで来て。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"どうしたの、アルフォンス。" TCC_NEWLINE
+"もしかして、まだ寝ぼけてるの？" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "って確か、" TCC_NEWLINE
+"伝承にある偉大な召喚師の名前でしょ？" TCC_NEWLINE
+"もう、そんな人いるわけないじゃない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"でも、伝承の通りに" TCC_NEWLINE
+"この世界に来てくれるかもしれませんよね！" TCC_NEWLINE
+"わたし、ずっと信じてるんです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"まさか。。。" TCC_NEWLINE
+"まさか、二人とも本気で。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ど、どうしちゃったんですか、" TCC_NEWLINE
+"お兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"もしかして、この香炉の影響。。。？" TCC_NEWLINE
+"アルフォンス、あなた何か" TCC_NEWLINE
+"変な夢を見たんじゃない？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そんな。。。" TCC_NEWLINE
+"そんな、馬鹿な。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"どういう。。。ことなんだ。。。？" TCC_NEWLINE
+"僕の頭が" TCC_NEWLINE
+"おかしくなってしまったのか。。。？" TCC_NEWLINE TCC_PUSH_A
+"いや、そんなはずはない。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "は確かに" TCC_NEWLINE
+"僕たちと一緒にいたんだ。。。" TCC_NEWLINE TCC_PUSH_A
+"いったい、" TCC_NEWLINE
+"何が。。。どうなって。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"！？" TCC_NEWLINE
+"敵襲よ！" TCC_NEWLINE
+"みんな、戦闘準備を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あ、あれは。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_SURTR
+"ぐはははははははははぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"なっ。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"久しいなあ？" TCC_NEWLINE
+"弱き者どもよ。" TCC_NEWLINE
+"我が名を讃え、平伏せよ。" TCC_NEWLINE TCC_PUSH_A
+"我はスルト。" TCC_NEWLINE
+"我は王なり。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"う、うそでしょ。。。？" TCC_NEWLINE
+"前にあんなに苦労して" TCC_NEWLINE
+"私たちが倒したはずなのに。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そんな。。。" TCC_NEWLINE
+"このままじゃ、" TCC_NEWLINE
+"またみんなが。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"っ。。。考えるんだ。" TCC_NEWLINE
+"なぜこんなことになっている。。。？" TCC_NEWLINE
+"どうすれば元に戻せる。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"スルトの姿が消えていく。。。" TCC_NEWLINE
+"これは。。。" TCC_NEWLINE TCC_PUSH_A
+"思い出した。。。以前見た悪夢。。。" TCC_NEWLINE
+"ザカリアたちが" TCC_NEWLINE
+"消えていったのと同じ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様、ご無事ですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ、僕なら大丈夫だよ。" TCC_NEWLINE
+"でも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"今、このアスクには何か。。。" TCC_NEWLINE
+"僕たちの理解を越えた" TCC_NEWLINE
+"奇妙な出来事が起きている。" TCC_NEWLINE TCC_PUSH_A
+"まるで。。。" TCC_NEWLINE
+"この現実にまで" TCC_NEWLINE
+"悪夢が入り込んできたような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"今、報告が入ったわ！" TCC_NEWLINE
+"麦の穂の村の人々は、" TCC_NEWLINE
+"みんな眠りから目覚めたようよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"わたしたちのおかげ？" TCC_NEWLINE
+"かどうかはわからないですけど、" TCC_NEWLINE
+"これで任務は完了ですね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ。でも、さっきのスルトのような。。。" TCC_NEWLINE
+"正体不明の敵軍が" TCC_NEWLINE
+"あちこちに出現しているわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"幸い、敵の数は多くないわ。" TCC_NEWLINE
+"付近の民たちに被害が出る前に、" TCC_NEWLINE
+"私たちで掃討するわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。もしも、この世界に" TCC_NEWLINE
+"悪夢が出現しているのだとしたら。。。" TCC_NEWLINE TCC_PUSH_A
+"どうする。。。？" TCC_NEWLINE
+"どうすればいい。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+,

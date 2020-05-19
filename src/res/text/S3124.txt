@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3124] = TCC_OPEN_LEFT 
+"私はカチュア。" TCC_NEWLINE
+"妹を探しているのだけど。。。" TCC_NEWLINE
+"あなた、知らない？" TCC_NEWLINE TCC_PUSH_A
+""
+,

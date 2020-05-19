@@ -1,0 +1,58 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3064] = TCC_OPEN_LEFT 
+"わしはカイネギス。" TCC_NEWLINE
+"ガリア王国。。。獣牙族の王だ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S3064] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_EIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。お母様。。。。。。私は。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HEL
+"。。。エイルよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！" TCC_NEWLINE
+"お母様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お前は死ななかった。" TCC_NEWLINE
+"そしてあの者たちの中に潜んだ。" TCC_NEWLINE TCC_PUSH_A
+"ならば、続けよ。" TCC_NEWLINE
+"あの者たちに尽くせ。" TCC_NEWLINE
+"あの者たちに服従せよ。" TCC_NEWLINE TCC_PUSH_A
+"私が、殺せと命じる" TCC_NEWLINE
+"その時まで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お母様。。。あの。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "も" TCC_NEWLINE
+"アルフォンス王子もみんな優しい人よ。" TCC_NEWLINE
+"私によくしてくれるの。。。" TCC_NEWLINE TCC_PUSH_A
+"お願い、" TCC_NEWLINE
+"もうこんなことやめて。" TCC_NEWLINE
+"許してあげて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お前の意思など聞いてはいない。" TCC_NEWLINE
+"命令は下した。従え。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。お母様。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。" TCC_TACTICIAN_NAME "たちと" TCC_NEWLINE
+"一緒にいるようになってから。。。" TCC_NEWLINE
+"私、昔の夢を見るの。。。" TCC_NEWLINE TCC_PUSH_A
+"白い翼。。。" TCC_NEWLINE
+"生命の暖かさ。。。" TCC_NEWLINE
+"お母様の優しい笑顔。。。" TCC_NEWLINE TCC_PUSH_A
+"あれは。。。いつの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"命令は下した。従え。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。はい。。。お母様。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

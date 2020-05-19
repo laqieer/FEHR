@@ -1,0 +1,64 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4023] = TCC_OPEN_LEFT 
+"。。。私が幼かったから。。。" TCC_NEWLINE
+"。。。魔剣なんかに負けてしまったから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4023] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"うーん、うーん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの、ピアニーさん。" TCC_NEWLINE TCC_PUSH_A
+"わたしたち。。。" TCC_NEWLINE
+"前にどこかでお会いしたこと" TCC_NEWLINE
+"ありませんでしたっけ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え、そうなの？" TCC_NEWLINE
+"いつ？" TCC_NEWLINE
+"いつ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うーん。。。" TCC_NEWLINE
+"それが、思い出せないんです。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、胸の奥で、なんだか、" TCC_NEWLINE
+"すごく懐かしいような気持ちがして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうなんだ。。。" TCC_NEWLINE
+"あ、もしかしたら、" TCC_NEWLINE
+"夢の中で会ったのかも？" TCC_NEWLINE TCC_PUSH_A
+"純真な子供はね、" TCC_NEWLINE
+"夢で私たち妖精と" TCC_NEWLINE
+"きゃっきゃって遊んだりするのよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"夢。。。" TCC_NEWLINE
+"そう言われると。。。" TCC_NEWLINE
+"なんだかそんな気がしてきました。" TCC_NEWLINE TCC_PUSH_A
+"あれは。。。夢だったのかな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、でもね。" TCC_NEWLINE
+"私たち、なんとなく" TCC_NEWLINE
+"仲良くなれる気がするの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、それ私も思いました！" TCC_NEWLINE
+"似た者同士というか、" TCC_NEWLINE
+"いろいろ自由というか。。。" TCC_NEWLINE TCC_PUSH_A
+"わたしたち、気が合う気がします。" TCC_NEWLINE
+"これからよろしくお願いしますね、" TCC_NEWLINE
+"ピアニーさん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わ、うれしい。" TCC_NEWLINE
+"こちらこそよろしくね、" TCC_NEWLINE
+"シャロン！" TCC_NEWLINE TCC_PUSH_A
+""
+,

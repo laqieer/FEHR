@@ -1,0 +1,101 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S1105] = TCC_OPEN_LEFT 
+"危険を承知で、" TCC_NEWLINE
+"ここまで踏み込んできたのね。" TCC_NEWLINE
+"その勇気は賞賛に値するわ。" TCC_NEWLINE TCC_PUSH_A
+"でも、私たちも" TCC_NEWLINE
+"負けるわけにはいかない。" TCC_NEWLINE
+"返り討ちにさせてもらうわ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S1105] = TCC_OPEN_LEFT 
+"俺たちの負けか。。。" TCC_NEWLINE
+"だが、悔いはない。" TCC_NEWLINE TCC_PUSH_A
+"力は示された。。。" TCC_NEWLINE
+"俺たちはもう" TCC_NEWLINE
+"あんたたちに敵対しない。" TCC_NEWLINE TCC_PUSH_A
+"いつかどこかで。。。あんたたちとは" TCC_NEWLINE
+"また会えるかもしれないな。" TCC_NEWLINE
+"その時を楽しみにしている。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S1105] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"なんとか、勝てたわね。" TCC_NEWLINE
+"これで祖国は救われたわ。" TCC_NEWLINE
+"さあみんな、帰還するわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"疲れました～" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"さ、" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"私たちも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"え。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"これは。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+"扉が。。。閉じ。。。。。。！" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "っ。。。！" TCC_NEWLINE
+"早くこっちへ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。こんにちは、しょうかんし。" TCC_NEWLINE
+"いまここには、あなただけ。" TCC_NEWLINE TCC_PUSH_A
+"ほかの子たちは扉のむこう。" TCC_NEWLINE
+"だれも、あなたを" TCC_NEWLINE
+"たすけにはきてくれない。。。" TCC_NEWLINE TCC_PUSH_A
+"まえに約束したとおり。。。" TCC_NEWLINE
+"あなたをさいしょにころすわ。" TCC_NEWLINE TCC_PUSH_A
+"おにんぎょうみたいに、" TCC_NEWLINE
+"くびをひきぬいて。。。" TCC_NEWLINE
+"ころしてあげる。" TCC_NEWLINE TCC_PUSH_A
+""
+"！？" TCC_NEWLINE
+"だれ、じゃまをーー" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT 
+"今だ！" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "、逃げろ！" TCC_NEWLINE
+"光の見える方へ走れ！" TCC_NEWLINE TCC_PUSH_A
+"行け！　俺を信じろ！" TCC_NEWLINE
+"俺はザカリア！" TCC_NEWLINE
+"アルフォンスたちの仲間だ！" TCC_NEWLINE TCC_PUSH_A
+""
+"そうだ！　行け！　早く！" TCC_NEWLINE TCC_PUSH_A
+""
+"" TCC_TACTICIAN_NAME "！" TCC_NEWLINE
+"アルフォンスたちのこと、頼んだぜ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"" TCC_TACTICIAN_NAME "。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"" TCC_TACTICIAN_NAME "！" TCC_NEWLINE
+"良かった。。。" TCC_NEWLINE
+"無事だったんだね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"" TCC_TACTICIAN_NAME "さーん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"良かった。。。君もザカリアのように" TCC_NEWLINE
+"いなくなってしまったら。。。" TCC_NEWLINE
+"そう思うと胸が張り裂けそうだったよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ほんとですよ～" TCC_NEWLINE
+"今度は助けられて、" TCC_NEWLINE
+"本当に本当にうれしいです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"え、ザカリアに助けられた。。。？" TCC_NEWLINE
+"どういうことだい？" TCC_NEWLINE
+"いったいどこで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"みんな、話の続きは後！" TCC_NEWLINE
+"敵にまた扉を閉ざされる前に" TCC_NEWLINE
+"今度こそ帰還するわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

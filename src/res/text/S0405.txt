@@ -1,0 +1,61 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S0405] = TCC_OPEN_LEFT 
+"リリーナ、みんな！" TCC_NEWLINE
+"アルフォンス王子たちが" TCC_NEWLINE
+"ここへ来たみたいだ。" TCC_NEWLINE TCC_PUSH_A
+"彼らが勝てば、" TCC_NEWLINE
+"ぼくたちは契約から解き放たれる。" TCC_NEWLINE
+"もちろん手加減したりはできないけどね。" TCC_NEWLINE TCC_PUSH_A
+"リリーナの炎と、ぼくの剣で" TCC_NEWLINE
+"彼らに全力で挑んでみよう。" TCC_NEWLINE
+"さあ、行こう！"
+,
+[MID_SCENARIO_MAP_END_S0405] = TCC_OPEN_LEFT 
+"力は示された。。。" TCC_NEWLINE
+"アルフォンス王子、" TCC_NEWLINE
+"ぼくたちの完敗です。" TCC_NEWLINE TCC_PUSH_A
+"そして" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"あなたの策にも感服したよ。" TCC_NEWLINE TCC_PUSH_A
+"いつか、あなたたちと仲間になって、" TCC_NEWLINE
+"共に戦える日が来ると良いな。。。"
+,
+[MID_SCENARIO_ENDING_S0405] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"「封印の異界」、確かに解放したわ。" TCC_NEWLINE
+"みんな、お疲れさま。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"今回の戦場は厳しかったね。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"疲れていないかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"おお、涼しい顔をしてますね！" TCC_NEWLINE
+"さすが" TCC_TACTICIAN_NAME "さん！" TCC_NEWLINE
+"わたしなんかもう、暑くて暑くて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"異界には沢山の風景が広がっているわ。" TCC_NEWLINE
+"森に、遺跡に、溶岩の河に。。。" TCC_NEWLINE TCC_PUSH_A
+"もしかしたら、" TCC_NEWLINE
+"あなたが見たことのある世界も" TCC_NEWLINE
+"どこかにあるかもしれないわね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そういえば。。。君はどこから来たんだ？" TCC_NEWLINE
+"何か覚えている風景はないかい？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。鉄でできた大きな建物や、" TCC_NEWLINE
+"馬のように走り回るキカイ？" TCC_NEWLINE
+"へえ。興味深いよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そんな世界に続く扉は見た事がないわね。。。" TCC_NEWLINE
+"え、じゃあどうやって帰るのかって？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。ま、まあ細かいことはいいじゃない。" TCC_NEWLINE
+"どのみちあなたはもう、" TCC_NEWLINE
+"私たち機関の人間なんだもの！" TCC_NEWLINE TCC_PUSH_A
+"さあみんな、" TCC_NEWLINE
+"元気よく帰還するわよ！"
+,

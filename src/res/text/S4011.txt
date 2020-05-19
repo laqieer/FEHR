@@ -1,0 +1,100 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"眠り病、ですか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_HENRIETTE
+"ええ。それが起きたのは、" TCC_NEWLINE
+"アスク王国辺境の" TCC_NEWLINE
+"麦の穂の村。。。" TCC_NEWLINE TCC_PUSH_A
+"いつもは活気あふれるその村に" TCC_NEWLINE
+"巡回の兵士が立ち寄った時。。。" TCC_NEWLINE
+"人の声がしないことに気づいたの。" TCC_NEWLINE TCC_PUSH_A
+"村人たちはいつも通り、村にいたわ。" TCC_NEWLINE
+"でも、みんな眠っていた。" TCC_NEWLINE TCC_PUSH_A
+"声をかけても、肩を揺すっても、" TCC_NEWLINE
+"まったく目覚めなかった。。。" TCC_NEWLINE TCC_PUSH_A
+"そして、" TCC_NEWLINE
+"夜になっても朝になっても、" TCC_NEWLINE
+"誰一人目覚めなかった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。生きては、いるのですね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ、でも" TCC_NEWLINE
+"まるで悪夢を見ているみたいに" TCC_NEWLINE
+"うなされているそうよ。" TCC_NEWLINE TCC_PUSH_A
+"今は兵や癒し手が" TCC_NEWLINE
+"手を尽くしているわ。" TCC_NEWLINE
+"でも、村人たちは眠りについたまま。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"なるほど。。。" TCC_NEWLINE
+"女王陛下、私たち" TCC_NEWLINE
+"ヴァイス・ブレイヴにお任せください。" TCC_NEWLINE TCC_PUSH_A
+"私たちの手にかかれば、" TCC_NEWLINE
+"すぐに事件を解決してみせます！" TCC_NEWLINE
+"行くわよ、みんな！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"はい。" TCC_NEWLINE
+"母上、どうか吉報をお待ちください。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、待って、アルフォンス。" TCC_NEWLINE
+"念のために、" TCC_NEWLINE
+"これを持っていってね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"これは。。。" TCC_NEWLINE
+"香炉、でしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ。" TCC_NEWLINE
+"【馥郁たる香炉】。。。" TCC_NEWLINE
+"アスク王国に伝わる宝物よ。" TCC_NEWLINE TCC_PUSH_A
+"人々を眠らせた眠りが。。。" TCC_NEWLINE
+"もし何かの毒だった時は。。。" TCC_NEWLINE
+"この香炉の香りがそれを打ち消してくれるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたたちの身を守るために" TCC_NEWLINE
+"使えるはずよ。" TCC_NEWLINE
+"私だと思って大切にしてね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ありがとうございます、母上。" TCC_NEWLINE
+"それでは、行って参ります。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"あらん。こんにちは。" TCC_NEWLINE
+"良いお天気ねえ。" TCC_NEWLINE
+"ご機嫌いかがかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"現れたわね、ロキ。。。" TCC_NEWLINE
+"このアスク王国で" TCC_NEWLINE
+"今度はいったい何を始める気！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私は何も。もし何かしたとしたら。。。" TCC_NEWLINE
+"それはあなたたちが知らない新たな世界。。。" TCC_NEWLINE
+"かしら、ねえ？" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"また逃げられちゃいました。。。" TCC_NEWLINE
+"いつもいつも掴みどころがないです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"さっきのあの言い方。。。" TCC_NEWLINE
+"ロキは眠り病のことを" TCC_NEWLINE
+"知っているようだった。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"今回の件、" TCC_NEWLINE
+"ロキの仕業って可能\性もあるわね。" TCC_NEWLINE
+"用心しましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,

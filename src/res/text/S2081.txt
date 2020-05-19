@@ -1,0 +1,70 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2081] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"ニフルの伝承に伝えられる" TCC_NEWLINE
+"氷の儀の神殿。。。" TCC_NEWLINE
+"私もこの目で見たのは初めてです。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "様の" TCC_NEWLINE
+"神器の導きの光がなければ、" TCC_NEWLINE
+"ここへ着くことはできませんでした。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"神殿は、英雄たちに" TCC_NEWLINE
+"守護されているようだね。" TCC_NEWLINE
+"この英雄を呼んだ力は、アスクの。。。？" TCC_NEWLINE TCC_PUSH_A
+"遥か昔、ニフル王国は" TCC_NEWLINE
+"アスク王国と交流があった。。。" TCC_NEWLINE
+"ということなのだろうか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"目的地は神殿の奥ですね、" TCC_NEWLINE
+"行きましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2081] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"神殿の奥はこちらです。" TCC_NEWLINE
+"皆様、参りましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2081] = "。。。ムスペル。。。に？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"ええ。" TCC_NEWLINE
+"私たちはムスペル王国に戻るわ。" TCC_NEWLINE
+"ちょっとした儀式をしないと、ねえ？" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女、" TCC_NEWLINE
+"王様はあなたもご招待すると" TCC_NEWLINE
+"おっしゃってるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"いらない。。。" TCC_NEWLINE
+"それに、かってに" TCC_NEWLINE
+"帰るのもゆるさない。" TCC_NEWLINE TCC_PUSH_A
+"アスクをまだ" TCC_NEWLINE
+"ころしてないでしょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_SURTR
+"ぐははははははははははははっ！" TCC_NEWLINE
+"なあ、ヴェロニカ皇女よ。" TCC_NEWLINE
+"勘違いするな。" TCC_NEWLINE TCC_PUSH_A
+""
+"我は皇女に" TCC_NEWLINE
+"ムスペルに来てくれと" TCC_NEWLINE
+"頼んでいるのではない。" TCC_NEWLINE TCC_PUSH_A
+"叩き潰し、" TCC_NEWLINE
+"引きずって連れていく。。。" TCC_NEWLINE
+"そう言っておるのだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT 
+"貴様。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"エンブラの者どもよ。" TCC_NEWLINE
+"以前はいらぬ邪魔が入ったが、" TCC_NEWLINE
+"今始めようではないか。" TCC_NEWLINE TCC_PUSH_A
+""
+"殺し合いをなあ！" TCC_NEWLINE
+"ぐははははははははははははぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

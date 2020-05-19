@@ -1,0 +1,166 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LUPINUS
+"つきましたぁ、黄昏の岬ですぅ。" TCC_NEWLINE
+"ちょうど日が沈んで。。。" TCC_NEWLINE
+"昼から夜へ変わる狭間ですぅ。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。行き止まりだけど。" TCC_NEWLINE
+"ほんとうにここでいいの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えっとですねぇ。。。" TCC_NEWLINE
+"わたしは起きてる人に" TCC_NEWLINE
+"白昼夢を見せてあげられるんですぅ。" TCC_NEWLINE TCC_PUSH_A
+"夕日が照らすこの時間は、" TCC_NEWLINE
+"特別に怖い" TCC_NEWLINE
+"白昼夢を見せてあげられますぅ。" TCC_NEWLINE TCC_PUSH_A
+"それは" TCC_NEWLINE
+"悪夢の世界にとっても近いもので。。。" TCC_NEWLINE
+"むにゃむにゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"その白昼夢から、" TCC_NEWLINE
+"悪夢の世界に渡ることができるのね。" TCC_NEWLINE
+"じゃあ、ルピナス、おねがい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふわぁい。" TCC_NEWLINE
+"じゃあ、皆さんに" TCC_NEWLINE
+"妖精の粉を振りかけますぅ。。。" TCC_NEWLINE TCC_PUSH_A
+"この粉を浴びると、" TCC_NEWLINE
+"人間はみんな白昼夢に。。。" TCC_NEWLINE
+"あ、あれれ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"どうかしたのかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"まだ悪夢の世界に行ってないのに。。。" TCC_NEWLINE
+"あっちから、いっぱい" TCC_NEWLINE
+"怖い夢がやってきますぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4075] = "まわりは海。。。" TCC_NEWLINE
+"逃げ場のない場所。" TCC_NEWLINE TCC_PUSH_A
+"あなたの心が" TCC_NEWLINE
+"想像できる限りの悪夢を。。。" TCC_NEWLINE
+"すべて見せてあげる。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S4075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"くっ。。。！" TCC_NEWLINE
+"悪夢が。。。また向こうから次から次へと。。。" TCC_NEWLINE
+"止まらない！" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたには止められない。" TCC_NEWLINE
+"あなたがそう恐れているから。。。" TCC_NEWLINE TCC_PUSH_A
+"どこにも逃げ場はない。" TCC_NEWLINE
+"おしまいよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_LUPINUS
+"あわわ。。。" TCC_NEWLINE
+"ど、どうしましょうぅ。。。？" TCC_NEWLINE TCC_PUSH_A
+"そ、そうですぅ。。。こういう時は。。。" TCC_NEWLINE
+"むにゃむにゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"ルピナス、起きて起きて。" TCC_NEWLINE
+"夢に逃げないで。" TCC_NEWLINE
+"妖精の粉を使って！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"で、でも、" TCC_NEWLINE
+"戦ってる人には" TCC_NEWLINE
+"妖精の粉は効かないんですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"っ。。。このままでは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。あたしに任せて。" TCC_NEWLINE TCC_PUSH_A
+"アルフォンス王子、" TCC_NEWLINE
+"あなたたちは先に行って。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"しかし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。かんちがいしないで。" TCC_NEWLINE
+"別に、あなたたちのためじゃないわ。" TCC_NEWLINE TCC_PUSH_A
+"あのへんなてきが" TCC_NEWLINE
+"エンブラの民を苦しめるのが" TCC_NEWLINE
+"ゆるせないだけ。。。早く行って。" TCC_NEWLINE TCC_PUSH_A
+"あたしが、" TCC_NEWLINE
+"あんなてきに負けるはず" TCC_NEWLINE
+"ないでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わかった、ヴェロニカ皇女。" TCC_NEWLINE TCC_PUSH_A
+"ルピナス、頼む。" TCC_NEWLINE
+"手遅れになる前に。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あわわ、" TCC_NEWLINE
+"わかりましたぁ。。。" TCC_NEWLINE TCC_PUSH_A
+"みなさん、" TCC_NEWLINE
+"おめめを閉じて、" TCC_NEWLINE
+"楽にしてくださ～い。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"せ、戦闘の真っ最中に" TCC_NEWLINE
+"みんなで寝ちゃおうってわけ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SHARENA
+"。。。ヴェロニカ皇女一人だけで" TCC_NEWLINE
+"大丈夫でしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"僕たちが前に夢の世界にいた間。。。" TCC_NEWLINE
+"現実では一瞬の出来事だった。" TCC_NEWLINE
+"だから、間に合うはずだ。" TCC_NEWLINE TCC_PUSH_A
+"迷っている時間はない。" TCC_NEWLINE
+"行こう、悪夢の世界へ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4075] = TCC_OPEN_LEFT 
+"あたしたちが。。。" TCC_NEWLINE
+"せかいをすくう、えいゆう。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"この世界は滅びようとしている。。。" TCC_NEWLINE
+"救えるのは、" TCC_NEWLINE
+"純粋な心持つ子供たちのみ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"夢を忘れた大人は無力。。。" TCC_NEWLINE
+"あなたたちにしか頼めないの。" TCC_NEWLINE
+"力を貸してくれるかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、あたしたち。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"心配しないで。" TCC_NEWLINE
+"この花の蜜をお飲みなさい。" TCC_NEWLINE TCC_PUSH_A
+"そうすれば、" TCC_NEWLINE
+"あなたたちは、" TCC_NEWLINE
+"特別な自分になれる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"とくべつな、自分。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ。" TCC_NEWLINE
+"世界を救う英雄にだって。" TCC_NEWLINE
+"なりたい自分になれるのよ。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。あたし、のむ。" TCC_NEWLINE TCC_PUSH_A
+""
+"わたしも。" TCC_NEWLINE
+"わたしもなります。" TCC_NEWLINE
+"えいゆうに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"まあ、ありがとう。" TCC_NEWLINE TCC_PUSH_A
+""
+"わあ。。。いいなあ。" TCC_NEWLINE
+"わたしも、わたしものみたいです！" TCC_NEWLINE TCC_PUSH_A
+""
+"ええ、もちろん。" TCC_NEWLINE
+"あなたにも飲ませてあげましょう。" TCC_NEWLINE
+"シャロン。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

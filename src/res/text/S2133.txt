@@ -1,0 +1,99 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2133] = TCC_OPEN_LEFT 
+"私はフローラ。" TCC_NEWLINE
+"契約に従い、我が主のために。。。" TCC_NEWLINE
+"殲滅します。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2133] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HELBINDI
+"おいガキ、" TCC_NEWLINE
+"もっと気合い入れて走れ！" TCC_NEWLINE
+"死にてーのか！？" TCC_NEWLINE TCC_PUSH_A
+"今頃、兵は俺たちを追ってんだ。" TCC_NEWLINE
+"いつ追いつかれても" TCC_NEWLINE
+"おかしくねーんだぞ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_YLGR
+"えー、ごめんなさい。。。" TCC_NEWLINE
+"でも、この遺跡。。。" TCC_NEWLINE
+"すごく入り組んでるんだもん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"まるで、めいろ。。。" TCC_NEWLINE
+"そのおかげで、" TCC_NEWLINE
+"まだ追いつかれてないけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"階段をあがったりおりたり、" TCC_NEWLINE
+"おりたりあがったり、" TCC_NEWLINE
+"もうへとへと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"おい、くっちゃべってる暇が" TCC_NEWLINE
+"あるんならさっさと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"！" TCC_NEWLINE
+"。。。ガキども。先に行け。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え？" TCC_NEWLINE
+"でも、あなたは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"行けっつってんだろーが！" TCC_NEWLINE
+"ぶっ殺すぞ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"う、うん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"けっ、ガキは黙って" TCC_NEWLINE
+"言うこと聞いてりゃいいんだよ。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。さて、お出ましかよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_SURTR
+"ほう。。。" TCC_NEWLINE TCC_PUSH_A
+"鼠の気配を追ってきてみれば。。。" TCC_NEWLINE
+"貴様は。。。" TCC_NEWLINE TCC_PUSH_A
+"そう、思い出したぞ。" TCC_NEWLINE
+"国境の守りを命じた" TCC_NEWLINE
+"下層民であったな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"王。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"貴様は殺す。" TCC_NEWLINE
+"どんな弁明をしようともだ。" TCC_NEWLINE
+"それはもう覆らぬ。" TCC_NEWLINE TCC_PUSH_A
+"我に反逆とはな。" TCC_NEWLINE
+"貴様は弱いばかりでなく、" TCC_NEWLINE
+"救いようもなく愚かしい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"まさに下層の汚物よ。" TCC_NEWLINE
+"貴様の妹も" TCC_NEWLINE
+"さぞ嘆いておろうなあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"なんだ、汚物よ？" TCC_NEWLINE
+"最期にこの王に何か言いたいか？" TCC_NEWLINE
+"良いぞ、申\してみよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"俺が。。。" TCC_NEWLINE
+"あんたに言いたいこと。。。？" TCC_NEWLINE TCC_PUSH_A
+"ああ、一つだけあるぜ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ざまあみろ、だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"き。。。貴様ぁっ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"逃げ切れよ。。。ガキども。。。" TCC_NEWLINE TCC_PUSH_A
+""
+,

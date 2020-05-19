@@ -1,0 +1,111 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_SURTR
+"ほう、見慣れぬ者どもよ。" TCC_NEWLINE
+"よく来た、" TCC_NEWLINE
+"ちょうど退屈しておったところ。。。" TCC_NEWLINE TCC_PUSH_A
+"炎に弱き者どもよ、" TCC_NEWLINE
+"力に脆き者どもよ、" TCC_NEWLINE
+"平伏せよ。" TCC_NEWLINE TCC_PUSH_A
+"我はスルト。" TCC_NEWLINE
+"我は王なり。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたが、ムスペルの王スルト。。。" TCC_NEWLINE TCC_PUSH_A
+"僕はアスク王国の王子アルフォンス。" TCC_NEWLINE
+"スルト王よ、答えよ！" TCC_NEWLINE
+"なぜ我が国でこのような暴\虐を！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ぐははははははははははははははっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"生ぬるい寝言を抜かすな。" TCC_NEWLINE
+"他国を奪い尽くし、民を殺し尽くさずして" TCC_NEWLINE
+"何が王か。" TCC_NEWLINE TCC_PUSH_A
+"王はただ一人。国はただ一つ。" TCC_NEWLINE
+"他はすべて焼き尽くされねばならぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それが答えか、侵略の王よ。" TCC_NEWLINE
+"ならば、僕たちの答えも一つだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうだ。殺し合う他あるまい？" TCC_NEWLINE
+"それが理よ。" TCC_NEWLINE TCC_PUSH_A
+"開かれし王国アスク。。。" TCC_NEWLINE
+"異界の力とやらを使うと聞く。" TCC_NEWLINE TCC_PUSH_A
+""
+"面白い！" TCC_NEWLINE
+"我がムスペルの炎とどちらが勝るか、" TCC_NEWLINE
+"試してみようではないか！" TCC_NEWLINE TCC_PUSH_A
+""
+"レーヴァテイン！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"。。。はい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ロキ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_LOKI
+"はぁい、こちらに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"皆殺しだ！" TCC_NEWLINE
+"ぐはははははははははははぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"スルトに。。。" TCC_NEWLINE
+"攻撃が通じない。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"あれはエンブラの加護。。。？" TCC_NEWLINE
+"それなら加護が途切れた" TCC_NEWLINE
+"隙を狙えば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"いいえ、あれは" TCC_NEWLINE
+"ムスペルの王スルトの力。。。" TCC_NEWLINE TCC_PUSH_A
+"あの炎は不死不滅。。。" TCC_NEWLINE
+"どんな英雄も、どんな武器も、" TCC_NEWLINE
+"スルトを討つことはできません。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"予\言書の、" TCC_NEWLINE
+"不死不滅の炎。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"そんな。。。" TCC_NEWLINE
+"じ、じゃあ、どうすれば！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"くっ。。。今は。。。" TCC_NEWLINE
+"撤退するしかないわね。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "、急ぎましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTARIT_SURTR
+"逃げるか。" TCC_NEWLINE
+"ぬるい。。。" TCC_NEWLINE
+"なんとも生ぬるいことよ。" TCC_NEWLINE TCC_PUSH_A
+"どこへ隠れようが無駄なこと。" TCC_NEWLINE
+"この大地は" TCC_NEWLINE
+"いずれ我が炎に染められる。。。" TCC_NEWLINE TCC_PUSH_A
+"貴様らと貴様らの民すべての" TCC_NEWLINE
+"皮を剥ぎ、火にくべ、" TCC_NEWLINE
+"松明として焼いてやるわ。" TCC_NEWLINE TCC_PUSH_A
+"ニフルは半年。。。" TCC_NEWLINE
+"その前の国は三月。。。" TCC_NEWLINE
+"貴様らの国はどこまで抗える？" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、王を愉しませよ！" TCC_NEWLINE
+"ぐははははははははははははははぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

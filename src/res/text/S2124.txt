@@ -1,0 +1,152 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2124] = TCC_OPEN_LEFT 
+"俺はただの旅人。。。吟遊詩人さ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2124] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_HRID
+"目的地まであと一息だ。" TCC_NEWLINE
+"今日はここで夜を明かそう。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2124] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_YLGR
+"起きて。。。" TCC_NEWLINE
+"姉様。。。姉様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_FJORM
+"ユルグ。。。？" TCC_NEWLINE
+"どうしたのですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わたしね。。。姉様にお礼言いたかったの。" TCC_NEWLINE TCC_PUSH_A
+"アスクの人たちに疑われてた時、" TCC_NEWLINE
+"姉様、わたしのこと信じてくれたでしょ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そんな、お礼なんて。。。" TCC_NEWLINE
+"姉妹なのですから、" TCC_NEWLINE
+"当たり前のことです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えへへ、ありがと。" TCC_NEWLINE
+"姉様は、" TCC_NEWLINE
+"ず～っとわたしの味方だよね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ、もちろんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えへへ。じゃあね～。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。こんなことしても？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！？" TCC_NEWLINE
+"け。。。ほっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"ユル。。。グ。。。？" TCC_NEWLINE
+"何を。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えへへ。" TCC_NEWLINE
+"ちょっと匂いの強いおくすりだよ。" TCC_NEWLINE TCC_PUSH_A
+"かぐとね、うっとりして" TCC_NEWLINE
+"身体に力が入らなくなっちゃうの。" TCC_NEWLINE
+"ほら、もう槍も持てないよね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ユ。。。ルグ。。。？" TCC_NEWLINE
+"いったい何を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えへへ。" TCC_NEWLINE
+"ごめんね、姉様。" TCC_NEWLINE TCC_PUSH_A
+"わたし、裏切者なんだー。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+"う、嘘です。。。" TCC_NEWLINE
+"そんなこと。。。絶対に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ごめんねー？" TCC_NEWLINE
+"信じてくれたのに。" TCC_NEWLINE TCC_PUSH_A
+"フィヨルム姉様は、これから" TCC_NEWLINE
+"王様に嬲り殺しにされちゃうんだ～。" TCC_NEWLINE
+"スリーズ姉様とおんなじだね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ユルグ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"嘘です。。。" TCC_NEWLINE
+"ユルグは。。。私たちの仲間。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちはみんな。。。！" TCC_NEWLINE
+"みんな大切な仲間です。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。その通りだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"フィヨルム王女、" TCC_NEWLINE
+"君は間違っていない。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "が" TCC_NEWLINE
+"そう教えてくれたよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "様が。。。？" TCC_NEWLINE TCC_PUSH_A
+"それは。。。" TCC_NEWLINE
+"それはいったい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+"ゆ、夢。。。？" TCC_NEWLINE TCC_PUSH_A
+"疲れているのでしょうか。。。" TCC_NEWLINE
+"あんな夢を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_HRID
+"。。。フィヨルム。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。ユルグだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"裏切者はユルグ。。。" TCC_NEWLINE
+"その証拠を見つけた。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ユルグが。。。？　で、ですが。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"信じられないのも無理はない。" TCC_NEWLINE
+"だが、私と来ればわかる。" TCC_NEWLINE TCC_PUSH_A
+"さあ、こっちだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ。。。兄様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。フィヨルム王女。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"アルフォンス王子。。。？" TCC_NEWLINE TCC_PUSH_A
+"聞いてください、王子。" TCC_NEWLINE
+"兄様のお話では、裏切者は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。僕もそう思っていた。" TCC_NEWLINE
+"それはおそらく正しい。。。" TCC_NEWLINE TCC_PUSH_A
+"そして、" TCC_NEWLINE
+"そう思わせることが。。。" TCC_NEWLINE
+"敵の狙いだった。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+,

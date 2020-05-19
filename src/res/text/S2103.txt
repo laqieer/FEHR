@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2103] = TCC_OPEN_LEFT 
+"ロイドにいちゃん！" TCC_NEWLINE
+"ライナスにいちゃん！" TCC_NEWLINE
+"あたしも。。。あたしもがんばるから。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+,

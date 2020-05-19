@@ -1,0 +1,160 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4021] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"夢の国。。。？" TCC_NEWLINE
+"妖精。。。？" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"あーっ、もう、信じてないでしょ！" TCC_NEWLINE TCC_PUSH_A
+"大人になると、" TCC_NEWLINE
+"人間はみんなそうなってしまうんだから。" TCC_NEWLINE
+"子供の頃はあんなに純真だったのに。。。" TCC_NEWLINE TCC_PUSH_A
+"成長していくうちに、" TCC_NEWLINE
+"夢見る心を忘れて。。。" TCC_NEWLINE
+"現実だけを見るようになってしまうの。" TCC_NEWLINE TCC_PUSH_A
+"仕方ないわ。" TCC_NEWLINE
+"そうしないと、厳しい人間界では" TCC_NEWLINE
+"生きていけないものね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ちょ、ちょっと待って欲しい。" TCC_NEWLINE
+"頭を整理させてくれないか。。。" TCC_NEWLINE TCC_PUSH_A
+"僕たちは確か。。。" TCC_NEWLINE
+"そうだ。。。みんな眠ってしまった。。。" TCC_NEWLINE
+"そして。。。この世界に。。。" TCC_NEWLINE TCC_PUSH_A
+"みんなは。。。どこに？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"二人とも、ここにいたのね。" TCC_NEWLINE
+"でも、一体ここってどこなの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロン、アンナ隊長、" TCC_NEWLINE
+"無事で良かった。。。" TCC_NEWLINE TCC_PUSH_A
+"？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あ、あれれ？" TCC_NEWLINE
+"どこへ行ってしまったんでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"たいへん。" TCC_NEWLINE
+"あなたの夢の中で、" TCC_NEWLINE
+"迷子になっているのかもしれないわ。" TCC_NEWLINE TCC_PUSH_A
+"悪夢に襲われる前に、" TCC_NEWLINE
+"見つけてあげましょう。" TCC_NEWLINE
+"さ、こっちよ。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_BEGIN_S4021] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
+"ここ、夢の国アルフはね、" TCC_NEWLINE
+"人間たちの心が生み出した" TCC_NEWLINE
+"幸せな夢の世界なの。" TCC_NEWLINE TCC_PUSH_A
+"子供たちが夢見るような" TCC_NEWLINE
+"ぽわわんってして、ふわわんってして、" TCC_NEWLINE
+"あったかい世界よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"よくわからないけれど。。。" TCC_NEWLINE
+"景色は確かに幻想的だね。" TCC_NEWLINE
+"でも、あの兵士は？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あれは、悪夢の兵士。" TCC_NEWLINE
+"あなたの心の中の、こわいよーっていう" TCC_NEWLINE
+"気持ちが生み出したものよ。" TCC_NEWLINE TCC_PUSH_A
+"先へ進むには、" TCC_NEWLINE
+"邪魔をする悪夢さんを" TCC_NEWLINE
+"なんとかしないといけないの。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S4021] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"敵は倒した。。。" TCC_NEWLINE
+"だが、" TCC_TACTICIAN_NAME "は" TCC_NEWLINE
+"ここにもいないようだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_PEONY
+"そう。。。どこに" TCC_NEWLINE
+"行っちゃったのかしら？" TCC_NEWLINE TCC_PUSH_A
+"あ、そうだわ。" TCC_NEWLINE
+"私良いこと思いついちゃった！" TCC_NEWLINE TCC_PUSH_A
+"あなたが望んでみたらどうかしら？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さん、" TCC_NEWLINE
+"来てくださいなって。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。どういうことだい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"だって、ここはあなたの夢だもの。" TCC_NEWLINE
+"あなたが望めば、なんでも" TCC_NEWLINE
+"あなたの自由になるはずよ。" TCC_NEWLINE TCC_PUSH_A
+"夢の中では、" TCC_NEWLINE
+"なんでもできる。" TCC_NEWLINE
+"なんにでもなれる。" TCC_NEWLINE TCC_PUSH_A
+"この世界は全部、" TCC_NEWLINE
+"あなたの想い通りにできるのよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。。。。" TCC_NEWLINE
+"そんなことが。。。" TCC_NEWLINE TCC_PUSH_A
+"では、僕が" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "に" TCC_NEWLINE
+"会いたいと望めば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"アルフォンス、ものは試しよ。" TCC_NEWLINE
+"やってみましょう！" TCC_NEWLINE
+"どうせ失敗してもタダなんだから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わ、わかりました。" TCC_NEWLINE
+"試してみます。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"僕の傍に来てくれ、" TCC_NEWLINE
+"。。。" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わくわく、わくわく♪" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あっちからでしょうか？" TCC_NEWLINE
+"それともこっちから御登場？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。えーと、誰も来ないんだけど。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あん、ざんねん。" TCC_NEWLINE
+"あなたはもう、純真な子供じゃなくて。。。" TCC_NEWLINE
+"大人になってしまったのね。" TCC_NEWLINE TCC_PUSH_A
+"大人になるとね、心のどこかで、" TCC_NEWLINE
+"ありえないって否定してしまうの。。。" TCC_NEWLINE
+"だから、夢は自由にできない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"う。。。。。。す、すまない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"お兄様は大人ですからね、" TCC_NEWLINE
+"仕方ないですよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"だいじょうぶ、それなら私に任せて。" TCC_NEWLINE
+"アルフは私たち" TCC_NEWLINE
+"妖精の世界なんだから。" TCC_NEWLINE TCC_PUSH_A
+"夢の王フロージ様なら、" TCC_NEWLINE
+"きっと全部解決してくださるわ。" TCC_NEWLINE
+"さあ、こっちこっち。" TCC_NEWLINE TCC_PUSH_A
+""
+,

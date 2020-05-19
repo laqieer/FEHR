@@ -1,0 +1,99 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2035] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"私は剣。。。父上の剣。。。" TCC_NEWLINE TCC_PUSH_A
+"命令通りに。。。する。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2035] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"。。。怪我をしたから、撤退する。。。" TCC_NEWLINE TCC_PUSH_A
+"姉上の言うとおりに。。。する。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"アンナ隊長、皆の様子は？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"大丈夫。街の人々に" TCC_NEWLINE
+"大きな怪我はないわ。" TCC_NEWLINE
+"間一髪だったわね。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも家々が焼き払われ。。。" TCC_NEWLINE
+"近くの森にはまだ" TCC_NEWLINE
+"炎がくすぶっている。" TCC_NEWLINE TCC_PUSH_A
+"街の男たちが" TCC_NEWLINE
+"がんばってるけれど、" TCC_NEWLINE
+"復旧には時間がかかりそうね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"わたしたちも" TCC_NEWLINE
+"お手伝いしましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そうね。。。" TCC_NEWLINE
+"最優先任務の途中だけど、" TCC_NEWLINE
+"少しくらいなら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。フィヨルム王女、すまない。" TCC_NEWLINE
+"少しの間、出発を" TCC_NEWLINE
+"待ってもらえるだろうか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTARIT_FJORM
+"はい。。。もちろんです。" TCC_NEWLINE
+"人々を助けたいお気持ちは、" TCC_NEWLINE
+"私もわかるつもりです。" TCC_NEWLINE TCC_PUSH_A
+"私の【氷槍レイプト】なら、" TCC_NEWLINE
+"あの炎を消すこともできるでしょう。" TCC_NEWLINE
+"私もお手伝いさせていただきますね。" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2035] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_LOKI
+"さあ、王様。" TCC_NEWLINE
+"ヴェロニカ皇女。" TCC_NEWLINE
+"にっこり笑ってくださいな。" TCC_NEWLINE TCC_PUSH_A
+"お二人は" TCC_NEWLINE
+"同盟を結ばれたのですから。" TCC_NEWLINE
+"アスク王国を滅ぼすための、ねえ？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_SURTR
+"ふん。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あらん。" TCC_NEWLINE
+"お二人とも、" TCC_NEWLINE
+"仲がよろしそうで何よりですわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"やくそく通り。。。" TCC_NEWLINE
+"あたしの英雄たちは、かしてあげる。" TCC_NEWLINE
+"それでいいでしょ。。。？" TCC_NEWLINE TCC_PUSH_A
+"あたし、帰るわ。。。" TCC_NEWLINE
+"つかれちゃった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あらん、皇女様ったら" TCC_NEWLINE
+"照れ屋さんねえ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ふん。あれが" TCC_NEWLINE
+"閉ざされし帝国エンブラの" TCC_NEWLINE
+"ヴェロニカか。。。" TCC_NEWLINE TCC_PUSH_A
+"アスクを焼き尽くした次は" TCC_NEWLINE
+"エンブラ。。。" TCC_NEWLINE
+"たやすい相手よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あらん。" TCC_NEWLINE
+"王様ったら、あんな小さな女の子まで" TCC_NEWLINE
+"殺しちゃうおつもり？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"無論、殺す。" TCC_NEWLINE
+"王はこの世にただ一人。" TCC_NEWLINE TCC_PUSH_A
+""
+"我が炎で焼かれた小娘が" TCC_NEWLINE
+"どれほどの悲鳴で泣き叫んでくれるか。。。" TCC_NEWLINE
+"愉しみなことよなあ？" TCC_NEWLINE TCC_PUSH_A
+""
+,

@@ -1,0 +1,231 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S2075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"あれが玉雪の神殿です。" TCC_NEWLINE
+"あそこに姉様が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"！？" TCC_NEWLINE
+"あ、あれは。。。敵軍。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"う、うそでしょ。。。！？" TCC_NEWLINE
+"周辺の敵部隊の動きは" TCC_NEWLINE
+"偵察で常に把握していたわ！" TCC_NEWLINE TCC_PUSH_A
+"先回りされることは絶対ないはず。" TCC_NEWLINE
+"なのになぜ。。。敵が。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いけません！" TCC_NEWLINE
+"姉様の御無事を" TCC_NEWLINE
+"確かめなくては。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"待つんだ、フィヨルム王女！" TCC_NEWLINE
+"敵軍の奥。。。" TCC_NEWLINE
+"あそこにいる男は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！" TCC_NEWLINE
+"まさか。。。あれは。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTARIT_SURTR
+"おお、弱き者どもよ。" TCC_NEWLINE
+"久しいな？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ス。。。スルト！？" TCC_NEWLINE TCC_PUSH_A
+"なぜ、お前がここに。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ロキめが言いおった。" TCC_NEWLINE
+"レーギャルンとレーヴァテインでは" TCC_NEWLINE
+"貴様らに敗れるとな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"その通りになるとは。。。" TCC_NEWLINE
+"まったく、使えぬ。" TCC_NEWLINE
+"万死に値する腑抜けどもよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉様はどこです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"姉。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"これのことか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE 
+"フィヨ。。。。。。ルム。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTARIT_FJORM
+"ね、姉。。。様。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"貴様らが何を企んでおるのか。。。" TCC_NEWLINE
+"死に勝る痛みを与えてやったが、" TCC_NEWLINE
+"こ奴は最後まで口を割らなんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"妹の貴様を救おうとしてか。。。" TCC_NEWLINE
+"健気なことよなあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉様！" TCC_NEWLINE
+"今、私がお助けし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"阿呆が。" TCC_NEWLINE
+"こ奴をこうして" TCC_NEWLINE
+"今まで生かしてやったのはなあ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE 
+"ぁぁぁぁぁぁぁぁぁぁっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ほうれ。" TCC_NEWLINE
+"こうして、貴様の目の前で" TCC_NEWLINE
+"焼き殺してやるためよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTARIT_FJORM
+"姉様っ！" TCC_NEWLINE
+"姉様っ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE 
+"フィヨルム。。。" TCC_NEWLINE
+"だいじょうぶ。。。" TCC_NEWLINE
+"私のことは。。。いいのです。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたは。。。" TCC_NEWLINE
+"あなたは。。。生き。。。て。。。" TCC_NEWLINE
+"しあわせに。。。。。。　。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTARIT_FJORM
+"。。。姉。。。様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"もう死んだか。つまらぬな。" TCC_NEWLINE TCC_PUSH_A
+""
+"弱者らしく足掻いてみせれば、" TCC_NEWLINE
+"貴様らの母のように" TCC_NEWLINE
+"もっと嬲ってやったものをなあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ。。。あ。。。ぁ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"スルトぉぉぉぉぉぉっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ぐはははははははははははぁっ！" TCC_NEWLINE
+"我が力が憎いか？" TCC_NEWLINE
+"己が無力が恨めしいか？" TCC_NEWLINE TCC_PUSH_A
+""
+"ならば怒れ！" TCC_NEWLINE
+"怒りの炎に焼かれ狂え！" TCC_NEWLINE
+"すべて我が炎の糧としてくれるわ！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_MAP_END_S2075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"よくも。。。！" TCC_NEWLINE
+"よくも姉様を。。。！" TCC_NEWLINE
+"スルトぉぉっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTARIT_SURTR
+"ぐはははははははははははぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"駄目よ、フィヨルム王女！" TCC_NEWLINE
+"スルトは絶対に倒せない！" TCC_NEWLINE
+"あなたが教えてくれたことでしょう！？" TCC_NEWLINE TCC_PUSH_A
+"スルトに捕まる前に脱出するの！" TCC_NEWLINE
+"急いで！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT 
+"。。。。。。様。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "。。。様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"え。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ニフルの子。。。" TCC_NEWLINE
+"スリーズの名において。。。" TCC_NEWLINE TCC_PUSH_A
+"珠を。。。器に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"なんだと。。。？" TCC_NEWLINE
+"貴様、まだ生きて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"我が身と。。。" TCC_NEWLINE
+"我が魂を。。。もって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉様。。。" TCC_NEWLINE
+"ご自分の命を。。。供物に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"これで。。。" TCC_NEWLINE
+"私の役目は果たされました。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"あなたの神器に、" TCC_NEWLINE
+"力は宿りました。。。" TCC_NEWLINE TCC_PUSH_A
+"あとは、光のままに。。。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"お会いできて。。。良かった。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"姉様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"死に損ないが。。。" TCC_NEWLINE TCC_PUSH_A
+"なんだ？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。こ奴が" TCC_NEWLINE
+"貴様らの希望というわけか？" TCC_NEWLINE TCC_PUSH_A
+""
+"これは面白い。" TCC_NEWLINE
+"ならば、まずはこ奴から" TCC_NEWLINE
+"焼き殺してやらねばならんなあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。" TCC_TACTICIAN_NAME "！" TCC_NEWLINE
+"みんな、脱出を！" TCC_NEWLINE
+"急いで！" TCC_NEWLINE TCC_PUSH_A
+""
+,
+[MID_SCENARIO_ENDING_S2075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな無事！？" TCC_NEWLINE
+"逃げ遅れている者は？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"大丈夫です！" TCC_NEWLINE
+"お兄様もわたしもフィヨルム王女も" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あ、あれ？" TCC_NEWLINE
+"レーギャルン将軍がいません！" TCC_NEWLINE
+"逃げられちゃいました！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTARIT_FJORM
+"す、すみません。。。" TCC_NEWLINE
+"私が見張っておくべき" TCC_NEWLINE
+"だったのに。。。" TCC_NEWLINE TCC_PUSH_A
+"動揺して自分を見失い。。。" TCC_NEWLINE
+"皆様にご迷惑をかけてばかり。。。" TCC_NEWLINE
+"お詫びのしようもありません。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"過ぎたことは仕方ないわ。" TCC_NEWLINE
+"それより、これからのことを" TCC_NEWLINE
+"考えましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わっ、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんの" TCC_NEWLINE
+"神器が光ってます！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"姉様は、最期の力を振り絞り、" TCC_NEWLINE
+"私たちに託してくださいました。。。" TCC_NEWLINE TCC_PUSH_A
+"光が導く先に。。。" TCC_NEWLINE
+"私たちの求める氷の儀。。。" TCC_NEWLINE
+"スルトを討つ力があります。" TCC_NEWLINE TCC_PUSH_A
+""
+,

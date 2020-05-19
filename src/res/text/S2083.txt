@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2083] = TCC_OPEN_LEFT 
+"白夜王国第一の王女。。。" TCC_NEWLINE
+"ヒノカ、参る！" TCC_NEWLINE TCC_PUSH_A
+""
+,

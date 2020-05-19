@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S3042] = TCC_OPEN_LEFT 
+"はじめまして！　ボクはニシキ！" TCC_NEWLINE
+"世界一美しい種族、妖狐さ！" TCC_NEWLINE TCC_PUSH_A
+""
+,

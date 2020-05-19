@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S2062] = TCC_OPEN_LEFT 
+"イーリス聖王国のクロムだ。" TCC_NEWLINE
+"契約のため。。。そして仲間たちのため、" TCC_NEWLINE
+"ここから先は通さん！" TCC_NEWLINE TCC_PUSH_A
+""
+,
