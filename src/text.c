@@ -1551,7 +1551,7 @@ const char* const texts[] = {
            TCC_LOAD_FACE PORTRAIT_ALFONSE
            "え。。。" TCC_NEWLINE TCC_PUSH_A
            TCC_OPEN_RIGHT
-           "その召喚師の能力を封じること。。。" TCC_NEWLINE
+           "その召喚師の能\力を封じること。。。" TCC_NEWLINE
            "それがヴェロニカ皇女の目的だ。" TCC_NEWLINE
            "わかったら。。。遺跡に向え。" TCC_NEWLINE TCC_PUSH_A
            TCC_OPEN_LEFT

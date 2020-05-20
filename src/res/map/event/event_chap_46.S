@@ -38,9 +38,13 @@ BeginningScene:
 	LOU1 AllyUnitsENM
 	ENUN
 	UpdateSpecialSkillCD
+	MUSC MUSIC_FE_H_SERIOUS_6
+	TEX1 TEXT_CHAP_46_OP
 	ENDA
 EndingScene:
 	ClearSpecialSkillCD
+	MUSC MUSIC_FE_H_EVENT_1
+	TEX1 TEXT_CHAP_46_ED
 	MNCH 47
 	ENDA
 AllyUnitsENM:
