@@ -34,6 +34,16 @@ char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT];
 char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT];
 char gP4SkillCoolDown[P4_TOTAL_AMOUNT];
 
+// Effect of Sacred Seals which reduce damaged received to 0.
+void PassiveSkillSNoDamageEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if(getUnitPassiveSkillS(&defender->unit) == PASSIVE_SKILL_S_EMBLA_WARD || getUnitPassiveSkillS(&defender->unit) == PASSIVE_SKILL_S_MUSPELL_FLAME)
+    {
+        gBattleStats.damage = 0;
+        attacker->nonZeroDamage = 0;
+    }
+}
+
 /*
  * 緋炎・氷蒼系の奥義スキル
  */
@@ -2637,6 +2647,7 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
     BattleGenerateHitTriangleAttack(attacker, defender);
     BattleGenerateHitAttributes(attacker, defender);
     BattleGenerateHitSpecialSkill(attacker, defender);
+    PassiveSkillSNoDamageEffect(attacker, defender);
     BattleGenerateHitEffects(attacker, defender);
 
     if (attacker->unit.hp == 0 || defender->unit.hp == 0) {
@@ -4591,6 +4602,8 @@ u16 getUnitPassiveSkillC(struct Unit *unit)
 const struct PassiveSkill passiveSkillSs[] = {
     {"ーー", "聖印を装備していない", "NO DATA", "No sacred seal equipped."},
     {"奥義のこどう", "１ターン目開始時、奥義発動カウントー１", "Quickened Pulse", "At the start of turn 1, grants Special cooldown count-1."},
+    {"エンブラの加護", "自身が受けるダメージは０になる", "Embla's Ward", "Reduces damage dealt to unit to 0."},
+    {"ムスペルの炎", "自身が受けるダメージは０になる", "Muspellflame", "Reduces damage dealt to unit to 0."},
 };
 
 const u16 itemPassiveSkillSs[0x100] = {

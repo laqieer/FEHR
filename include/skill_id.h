@@ -153,6 +153,8 @@ enum PassiveSkillCID {
 enum PassiveSkillSID {
     PASSIVE_SKILL_S_NONE = 0,
     PASSIVE_SKILL_S_QUICKENED_PULSE, // 奥義の鼓動
+    PASSIVE_SKILL_S_EMBLA_WARD, // エンブラの加護
+    PASSIVE_SKILL_S_MUSPELL_FLAME, // ムスペルの炎
 };
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_ID_H

@@ -57,7 +57,7 @@ EnemyUnitsENM:
 	UNIT(GenericEmblian,Mercenary,0,29,SIDE_ENEMY,1,13,0,13,0,SteelSword,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // ソードファイター
 	UNIT(Veronica,VeronicaPrincess,0,1,SIDE_ENEMY,1,12,0,12,0,Flux,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // ヴェロニカ
 	UNIT(GenericEmblian,Troubadour,0,29,SIDE_ENEMY,1,11,0,11,0,Mend,None,0,0,HealAllies,DelayedPursue,NoRecovery,DefaultAI4) // ロッドナイト
-	UNIT(Xander,Cavalier,0,29,SIDE_ENEMY,1,10,0,10,0,Armourslayer,None,0,0,AttackInRange,DelayedPursue,NormalRecovery,DefaultAI4) // マークス
+	UNIT(Xander,Cavalier,0,29,SIDE_ENEMY,1,10,0,10,0,LightBrand,None,0,0,AttackInRange,DelayedPursue,NormalRecovery,DefaultAI4) // マークス
 	UNIT(GenericEmblianWeakDrop,Cavalier,0,29,SIDE_ENEMY,1,9,0,9,0,KillerLance,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ランスナイト
 	END_UNIT
 TrapsEliwoodMode:
