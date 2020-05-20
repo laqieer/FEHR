@@ -43,7 +43,7 @@ BeginningScene:
 	ENDA
 EndingScene:
 	ClearSpecialSkillCD
-	MUSC MUSIC_FE_H_EVENT_1
+	MUSC MUSIC_FE_H_SERIOUS_6B
 	TEX1 TEXT_CHAP_47_ED
 	MNCH 48
 	ENDA
