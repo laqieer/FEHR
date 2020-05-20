@@ -1696,6 +1696,14 @@ const char* const texts[] = {
            "どうか、無事でいてくれ。。。" TCC_NEWLINE TCC_PUSH_A
            ,
 
+       [TEXT_ITEM_SACRED_SEAL_EMBLA_WARD_NAME] = "エンブラの加護",
+
+       [TEXT_ITEM_SACRED_SEAL_EMBLA_WARD_HELP] = "自身が受けるダメージは０になる",
+
+       [TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_NAME] = "ムスペルの炎",
+
+       [TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_HELP] = "自身が受けるダメージは０になる",
+
 #include "texts.txt"
 };
 

@@ -319,6 +319,10 @@ const struct Item items[] = {
 {1137, 759, 824, 154, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 1, 1, 100, 0, 106, 51, 0, 0} ,  // 0x9A Vulnerary 2
 
 {TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_NAME, TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_HELP, TEXT_ITEM_CANNOT_USE, 155, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9B Sacred Seal: Quickened Pulse
+
+{TEXT_ITEM_SACRED_SEAL_EMBLA_WARD_NAME, TEXT_ITEM_SACRED_SEAL_EMBLA_WARD_HELP, TEXT_ITEM_CANNOT_USE, 156, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9C Sacred Seal: Embla's Ward
+
+{TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_NAME, TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_HELP, TEXT_ITEM_CANNOT_USE, 157, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9D Sacred Seal: Muspellflame
 };
 
 const struct Item * const pItems1 = items;

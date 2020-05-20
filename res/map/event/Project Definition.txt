@@ -78,4 +78,9 @@
 #define MagicFalcoKnight 0x63
 #define VeronicaPrincess UberSage
 
+// Items
+#define QuickenedPulse 0x9b
+#define EmblaWard 0x9c
+#define Muspellflame 0x9d
+
 #endif

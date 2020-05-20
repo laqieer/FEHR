@@ -4608,6 +4608,8 @@ const struct PassiveSkill passiveSkillSs[] = {
 
 const u16 itemPassiveSkillSs[0x100] = {
     [ITEM_SACRED_SEAL_QUICKENED_PULSE] = PASSIVE_SKILL_S_QUICKENED_PULSE,
+    [ITEM_SACRED_SEAL_EMBLA_WARD] = PASSIVE_SKILL_S_EMBLA_WARD,
+    [ITEM_SACRED_SEAL_MUSPELL_FLAME] = PASSIVE_SKILL_S_MUSPELL_FLAME,
 };
 
 u16 getUnitPassiveSkillS(struct Unit *unit)
