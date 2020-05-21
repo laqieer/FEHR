@@ -39,6 +39,17 @@ var ChapterEvent = {
         // Turn Events
         file.writeLine("TurnBasedEvents:");
         file.writeLine("\tLoadBeginningScene");
+        if (typeof(map.property("turns")) !== 'undefined') {
+            file.writeLine("\tTurnEvent(" + (map.property("turns") + 1).toString() + ", EndingScene, 0, 0)");
+        }
+        for (var i = 0; i < map.layerCount; ++i) {
+            var layer = map.layerAt(i);
+            if(layer.name.startsWith("Turn")) {
+                if (layer.isObjectLayer) {
+                    file.writeLine("\tTurnEvent(" + layer.name.substring(4) + ", LoadEnemyUnits" + layer.name + ", 0, 0)");
+                }
+            }
+        }
         file.writeLine("\tEND_MAIN");
 
         // Character Events
@@ -52,7 +63,9 @@ var ChapterEvent = {
         // Misc Events
         file.writeLine("MiscBasedEvents:");
         file.writeLine("\tCauseGameOverIfLordDies"); // Game Over
-        file.writeLine("\tDefeatAll(EndingScene)"); // Chapter Clear
+        if (typeof(map.property("turns")) === 'undefined') {
+            file.writeLine("\tDefeatAll(EndingScene)"); // Chapter Clear
+        }
         // Hidden Treasures
         for (var i = 0; i < map.layerCount; ++i) {
             var layer = map.layerAt(i);
@@ -91,8 +104,22 @@ var ChapterEvent = {
             }
         }
 
+        var scenarioText = "";
+        var mapName = "";
+        for(const tileset of map.usedTilesets()) {
+            if(tileset.name.startsWith("S")) {
+                mapName = tileset.name;
+                var scenarioFile = new TextFile("/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/res/feh/files/assets/JPJA/Message/Scenario/" + tileset.name + ".json", TextFile.ReadOnly);
+                scenarioText = scenarioFile.readAll();
+            }
+        }
+
         // Beginning Scene
         file.writeLine("BeginningScene:");
+        if(scenarioText.indexOf("MID_SCENARIO_OPENING") != -1) {
+            file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6");
+            file.writeLine("\tTEX1 MID_SCENARIO_OPENING_" + mapName);
+        }
         file.writeLine("\tClearSpecialSkillCD");
         file.writeLine("\tLOU1 EnemyUnitsENM");
         file.writeLine("\tENUN");
@@ -103,6 +130,10 @@ var ChapterEvent = {
             file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6"); // dialogue bgm
             file.writeLine("\tTEX1 TEXT_CHAP_" + chapterId + "_OP"); // dialogue text
         }
+        if(scenarioText.indexOf("MID_SCENARIO_MAP_BEGIN") != -1) {
+            file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6");
+            file.writeLine("\tTEX1 MID_SCENARIO_MAP_BEGIN_" + mapName);
+        }
         file.writeLine("\tENDA");
 
         // Ending Scene
@@ -111,6 +142,14 @@ var ChapterEvent = {
         if(map.property("hasScene") === true) {
             file.writeLine("\tMUSC MUSIC_FE_H_EVENT_1"); // dialogue bgm
             file.writeLine("\tTEX1 TEXT_CHAP_" + chapterId + "_ED"); // dialogue text
+        }
+        if(scenarioText.indexOf("MID_SCENARIO_MAP_END") != -1) {
+            file.writeLine("\tMUSC MUSIC_FE_H_EVENT_1");
+            file.writeLine("\tTEX1 MID_SCENARIO_MAP_END_" + mapName);
+        }
+        if(scenarioText.indexOf("MID_SCENARIO_ENDING") != -1) {
+            file.writeLine("\tMUSC MUSIC_FE_H_EVENT_1");
+            file.writeLine("\tTEX1 MID_SCENARIO_ENDING_" + mapName);
         }
         var nextChapterId = chapterId + 1;
         file.writeLine("\tMNCH " + nextChapterId);
@@ -173,6 +212,40 @@ var ChapterEvent = {
             }
         }
         file.writeLine("\tEND_UNIT");
+
+        // Reinforcements
+        for (var i = 0; i < map.layerCount; ++i) {
+            var layer = map.layerAt(i);
+            if(layer.name.startsWith("Turn")) {
+                if (layer.isObjectLayer) {
+                    file.writeLine("LoadEnemyUnits" + layer.name + ":");
+                    file.writeLine("\tLOU1 EnemyUnits" + layer.name);
+                    file.writeLine("\tENUN")
+                    file.writeLine("\tENDA")
+                    file.writeLine("EnemyUnits" + layer.name + ":");
+                    for (const object of layer.objects) {
+                        var x = parseInt(object.x / 16);
+                        var y = parseInt(object.y / 16) - 1;
+                        var comment = object.name;
+                        var character = object.property("Character");
+                        var leader = 0;
+                        var job = object.tile.imageFileName;
+                        job = job.substring(job.lastIndexOf("\\")+1).substring(job.lastIndexOf("/")+1).split(".")[0];
+                        var level = object.property("Level");
+                        var autoLevel = object.property("AutoLevel");
+                        var equip = object.property("Equip");
+                        var item = object.property("Item");
+                        var AI1 = object.property("AI1");
+                        var AI2 = object.property("AI2");
+                        var AI3 = object.property("AI3");
+                        var AI4 = object.property("AI4");
+                        var enemyUnit = new Array("\tUNIT(" + character, job, leader, level, "SIDE_ENEMY", autoLevel, x, y, x, y, equip, item, 0, 0, AI1, AI2, AI3, AI4 + ") // " + comment);
+                        file.writeLine(enemyUnit.join(","));
+                    }
+                    file.writeLine("\tEND_UNIT");
+                }
+            }
+        }
 
         // traps
         file.writeLine("TrapsEliwoodMode:");
