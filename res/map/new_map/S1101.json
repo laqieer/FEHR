@@ -1,13 +1,97 @@
 { "columns":15,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"",
+         "target":"."
+        }
+    },
  "image":"S1101.png",
  "imageheight":320,
  "imagewidth":240,
  "margin":0,
  "name":"S1101",
  "spacing":0,
+ "terrains":[
+        {
+         "name":"\u5e73\u5730",
+         "properties":[
+                {
+                 "name":"default",
+                 "type":"bool",
+                 "value":true
+                }],
+         "tile":-1
+        }, 
+        {
+         "name":"\u68ee\u6797",
+         "tile":-1
+        }, 
+        {
+         "name":"\u5899\u58c1",
+         "tile":270
+        }, 
+        {
+         "name":"\u7834\u5899",
+         "tile":286
+        }],
  "tilecount":300,
  "tiledversion":"1.3.4",
  "tileheight":16,
+ "tiles":[
+        {
+         "id":1,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":2,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":14,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":164,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":210,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":225,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":270,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":271,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":274,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":285,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":286,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":287,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":288,
+         "terrain":[3, 3, 3, 3]
+        }],
  "tilewidth":16,
  "type":"tileset",
  "version":1.2

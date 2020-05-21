@@ -1704,6 +1704,8 @@ const char* const texts[] = {
 
        [TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_HELP] = "自身が受けるダメージは０になる",
 
+       [TEXT_CHAP_GOAL_DEFENSE_6_TURNS] = "６ターン防御",
+
 #include "texts.txt"
 };
 

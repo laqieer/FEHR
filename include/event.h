@@ -99,6 +99,14 @@
 #define DefeatAll(event) .word 0xe, event, 0x807aa5d
 
 // Turn events
+#define TURN .hword 2, 
+#define TurnEvent(turn, event, moment, id) TURN id;\
+    .word event;\
+    .byte turn, 0, 0x40 * moment, 0;\
+    .word 0
+#define TURN_MOMENT_PLAYER_PHASE 0
+#define TURN_MOMENT_NPC_PHASE 1
+#define TURN_MOMENT_ENEMY_PHASE 2
 #define LoadBeginningScene .word 2, BeginningScene, 1, 0
 
 // Move to chapter
