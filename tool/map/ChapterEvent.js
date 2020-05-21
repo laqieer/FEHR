@@ -109,8 +109,15 @@ var ChapterEvent = {
         for(const tileset of map.usedTilesets()) {
             if(tileset.name.startsWith("S")) {
                 mapName = tileset.name;
-                var scenarioFile = new TextFile("/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/res/feh/files/assets/JPJA/Message/Scenario/" + tileset.name + ".json", TextFile.ReadOnly);
-                scenarioText = scenarioFile.readAll();
+                var jsonFilename = "/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/res/feh/files/assets/JPJA/Message/Scenario/" + tileset.name + ".json"
+                try {
+                    var scenarioFile = new TextFile(jsonFilename, TextFile.ReadOnly);
+                    scenarioText = scenarioFile.readAll();
+                    scenarioFile.close();
+                }
+                catch (e) {
+                    ;
+                }
             }
         }
 
