@@ -371,8 +371,8 @@ void EnableGameMainMenuItems(struct Proc *proc)
     proc->data[8] = 0;
     proc->data[9] = 0;
     proc->data[10] = 0;
-    if (*(short *)(proc->data + 0x1b) == 0x100)
-        EnableItemInSavemenu(proc, 1);
+    //if (*(short *)(proc->data + 0x1b) == 0x100)
+    //    EnableItemInSavemenu(proc, 1);
     do {
         if (proc->data[j + 0xe] != 0xff) {
           i = i + 1;

@@ -68,6 +68,12 @@ infos = {
         "list": "UnitActionMenuItem.txt",
         "startIndex": 1
     },
+    "MapMenuItem": {
+        "format": "u32u16u16u8u8p16u32u32u32u32u32u32<",
+        "start": 0xc04a08,
+        "list": "MapMenuItem.txt",
+        "startIndex": 1
+    },
 }
 
 structName = sys.argv[1]

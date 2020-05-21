@@ -376,6 +376,7 @@ SECTIONS
     INCLUDE ../lds/patch_expand_chapter_amount.ld
     INCLUDE ../lds/patch_remove_chapter_12_special_handle_routine.ld
     INCLUDE ../lds/patch_enable_BWL_display_at_first.ld
+    INCLUDE ../lds/patch_disable_suspend.ld
     /*INCLUDE ../lds/patch_expand_icon_amount.ld*/
 	. = 0xE007400;
 	.bss.skill : {*/skill.*(.data.*)}
