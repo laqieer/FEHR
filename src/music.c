@@ -24,6 +24,8 @@ extern const u8 musicFEFatesRoadTaken[];
 extern const u8 musicFEFatesAsAllStarsFall[];
 extern const u8 musicFEAwakeningMainThemeTitle[];
 extern const u8 musicFEAwakeningYouCanCallMeMarth[];
+extern const u8 musicFEPathOfRadianceLikeFatherLikeSon[];
+extern const u8 musicFEPathOfRadiancePowerHungryFool[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1468,6 +1470,8 @@ const struct Song songs[] = {
         [MUSIC_FE_FATES_AS_ALL_STARS_FALL] = {musicFEFatesAsAllStarsFall, 1, 1},
         [MUSIC_FE_AWAKENING_MAIN_THEME_TITLE] = {musicFEAwakeningMainThemeTitle, 1, 1},
         [MUSIC_FE_AWAKENING_YOU_CAN_CALL_ME_MARTH] = {musicFEAwakeningYouCanCallMeMarth, 1, 1},
+        [MUSIC_FE_PATH_OF_RADIANCE_LIKE_FATHER_LIKE_SON] = {musicFEPathOfRadianceLikeFatherLikeSon, 1, 1},
+        [MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL] = {musicFEPathOfRadiancePowerHungryFool, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1607,8 +1611,10 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_3_HEROES_WAR, (1 * 60 + 32) * 0x30, 0, "英雄戦争"},
     {MUSIC_FE_FATES_ROAD_TAKEN, (5 * 60 + 11) * 0x30, 0, "いつかきた旅路"},
     {MUSIC_FE_FATES_AS_ALL_STARS_FALL, (2 * 60 + 25) * 0x30, 0, "すべての星は堕ちて"},
-    {MUSIC_FE_AWAKENING_MAIN_THEME_TITLE, MUSIC_LENGTH(0, 28), 0, "覚醒　メインテーマタイトル"},
+    {MUSIC_FE_AWAKENING_MAIN_THEME_TITLE, MUSIC_LENGTH(0, 28), 0, "かくせい　メインテーマタイトル"},
     {MUSIC_FE_AWAKENING_YOU_CAN_CALL_ME_MARTH, MUSIC_LENGTH(1, 25), 0, "僕の名はマルスだ"},
+    {MUSIC_FE_PATH_OF_RADIANCE_LIKE_FATHER_LIKE_SON, MUSIC_LENGTH(1, 45), 0, "この父にしてこの子あり"},
+    {MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL, MUSIC_LENGTH(3, 8), 0, "Ｐｏｗｅｒｈｕｎｇｒｙ　Ｆｏｏｌ"},
 
     // End of table
     {-1, 0,                                              0, 0},
