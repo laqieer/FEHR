@@ -90,21 +90,23 @@ var FEMapFormat = {
                     }
                 }
                 else {
-                    // map change data
-                    getMapChangeProperty(layer);
+                    if (layer.isTileLayer) {
+                        // map change data
+                        getMapChangeProperty(layer);
 
-                    file.writeLine("\t.align 2");
+                        file.writeLine("\t.align 2");
 
-                    file.writeLine("mapChange".concat(id, ":"));
+                        file.writeLine("mapChange".concat(id, ":"));
 
-                    for (y = y0; y < y0 + h; ++y) {
-                        file.write("\t.hword ");
-                        for (x = x0; x < x0 + w; ++x) {
-                            file.write(String(4 * ((layer.cellAt(x, y).tileId + 1) & 1023)));
-                            if (x === x0 + w - 1)
-                                file.write("\n");
-                            else
-                                file.write(", ");
+                        for (y = y0; y < y0 + h; ++y) {
+                            file.write("\t.hword ");
+                            for (x = x0; x < x0 + w; ++x) {
+                                file.write(String(4 * ((layer.cellAt(x, y).tileId + 1) & 1023)));
+                                if (x === x0 + w - 1)
+                                    file.write("\n");
+                                else
+                                    file.write(", ");
+                            }
                         }
                     }
                 }
