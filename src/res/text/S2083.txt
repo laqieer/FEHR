@@ -4,4 +4,4 @@
 "白夜王国第一の王女。。。" TCC_NEWLINE
 "ヒノカ、参る！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

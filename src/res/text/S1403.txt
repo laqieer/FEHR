@@ -8,4 +8,4 @@
 "私の見込み違い。。。" TCC_NEWLINE
 "ではないことを願うぞ。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

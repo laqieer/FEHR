@@ -4,4 +4,4 @@
 "わたしは。。。ナギ。" TCC_NEWLINE
 "あなたは。。。誰？" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

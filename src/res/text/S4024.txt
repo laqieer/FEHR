@@ -4,4 +4,4 @@
 "いつか、この胸の空白が" TCC_NEWLINE
 "埋まる時がくるのでしょうか。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

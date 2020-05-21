@@ -5,4 +5,4 @@
 "天才軍師ルフレの娘である私の策と、" TCC_NEWLINE
 "あなたの策、どっちがすごいか勝負です！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

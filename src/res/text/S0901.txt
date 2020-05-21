@@ -10,11 +10,11 @@
 "。。。あれ、サーリャもいたのかい？" TCC_NEWLINE
 "ああ。。。また僕の後をつけてたんだね。。。" TCC_NEWLINE
 "まあいい、君も力を貸してくれ！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0901] = TCC_OPEN_LEFT 
 "僕の策を破るなんて。。。" TCC_NEWLINE
 "そちらの軍師もやるようだね。" TCC_NEWLINE TCC_PUSH_A
 "でも、これで終わりはしないさ。" TCC_NEWLINE
 "僕の策も仲間も、" TCC_NEWLINE
 "まだまだ尽きてはいないよ！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

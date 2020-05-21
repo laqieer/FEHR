@@ -5,4 +5,4 @@
 "私はこの新たな魔道で。。。" TCC_NEWLINE
 "お相手致します。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

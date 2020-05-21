@@ -8,4 +8,4 @@
 "待ち受けているかもしれない。" TCC_NEWLINE
 "慎重に行動するわよ。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -5,4 +5,4 @@
 "。。。幾千の昼が過ぎ、幾万の夜が流れても。。。" TCC_NEWLINE
 "必ず。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

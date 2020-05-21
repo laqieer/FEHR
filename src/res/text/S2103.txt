@@ -5,4 +5,4 @@
 "ライナスにいちゃん！" TCC_NEWLINE
 "あたしも。。。あたしもがんばるから。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

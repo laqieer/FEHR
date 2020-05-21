@@ -9,7 +9,7 @@
 "僕はロイほどの戦いの才はないけれど。。。" TCC_NEWLINE TCC_PUSH_A
 "けど、全くの無策というわけでもない。" TCC_NEWLINE
 "では、始めようか。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0805] = TCC_OPEN_LEFT 
 "やはり、強いね。。。" TCC_NEWLINE
 "ありがとう、これで" TCC_NEWLINE
@@ -17,7 +17,7 @@
 "いつか。。。君たちと共にいられる" TCC_NEWLINE
 "日が来ることを願ってるよ。" TCC_NEWLINE
 "その時は、ロイも一緒にね。。。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0805] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
 "「烈火の異界」、解放できたわね。" TCC_NEWLINE
 "みんな、よくやってくれたわ。" TCC_NEWLINE TCC_PUSH_A
@@ -57,4 +57,4 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "彼が閉じ込められたのは「覚醒の異界」。" TCC_NEWLINE
 "そうだね。。。次はもう一度、" TCC_NEWLINE
 "あの場所に行ってみてもいいかもしれない。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

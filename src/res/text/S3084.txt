@@ -5,4 +5,4 @@
 "。。。ンンです。ンン。" TCC_NEWLINE
 "。。。ちょっぴり呼びにくいですか？" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

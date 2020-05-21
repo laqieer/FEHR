@@ -5,4 +5,4 @@
 "妹を探しているのだけど。。。" TCC_NEWLINE
 "あなた、知らない？" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

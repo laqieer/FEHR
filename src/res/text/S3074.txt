@@ -4,4 +4,4 @@
 "バレンシアもこの世界も。。。" TCC_NEWLINE
 "何もかも俺が焼き尽くしてやる。。。。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

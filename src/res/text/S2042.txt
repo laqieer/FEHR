@@ -5,4 +5,4 @@
 "どっちを斬ればいい？　あっち。。。？" TCC_NEWLINE
 "そう。。。それじゃ、行くから。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

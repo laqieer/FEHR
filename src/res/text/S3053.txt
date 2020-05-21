@@ -5,4 +5,4 @@
 "母なる大地がなくなるわけでもなく、" TCC_NEWLINE
 "父なる天が消えるわけでもないわ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

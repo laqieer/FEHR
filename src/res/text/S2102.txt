@@ -5,4 +5,4 @@
 "僕はカナスといいます。" TCC_NEWLINE
 "ご迷惑をおかけしてすみません。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -5,4 +5,4 @@
 "白夜王国に仕える忍の者です。" TCC_NEWLINE
 "古き契約のもとに。。。お相手致しましょう。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -5,4 +5,4 @@
 "このグラディウスの槍で" TCC_NEWLINE
 "その胸を貫いてやろう！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

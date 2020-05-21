@@ -5,4 +5,4 @@
 "聖戦士ノヴァの血を引く勇者の家。。。" TCC_NEWLINE
 "このゲイボルグある限り、負けはしない。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

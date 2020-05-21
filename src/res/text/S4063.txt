@@ -4,7 +4,7 @@
 "カムイ様。。。真実は明かせなくても、" TCC_NEWLINE
 "私はずっとあなたをお守りします。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4063] = "。。。着いたわ。" TCC_NEWLINE TCC_PUSH_A
 "ここが、" TCC_NEWLINE
 "ミズガルズのアスク王国。。。" TCC_NEWLINE

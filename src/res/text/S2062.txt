@@ -5,4 +5,4 @@
 "契約のため。。。そして仲間たちのため、" TCC_NEWLINE
 "ここから先は通さん！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

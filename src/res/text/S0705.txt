@@ -10,7 +10,7 @@
 "我が名は白夜王国第一の王子、" TCC_NEWLINE
 "リョウマ！！" TCC_NEWLINE
 "軍の将よ。。。一騎討ちを所望する！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0705] = TCC_OPEN_LEFT 
 "この清清しい感じ。。。どういうことだ？" TCC_NEWLINE
 "お前たちの言うとおり、" TCC_NEWLINE
@@ -21,7 +21,7 @@
 "そして、すまなかった。" TCC_NEWLINE
 "悪しき者から解放してくれたこと、" TCC_NEWLINE
 "恩に着るぞ。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0705] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
 "おつかれさま。" TCC_NEWLINE
 "「白夜の異界」、" TCC_NEWLINE
@@ -62,4 +62,4 @@ TCC_OPEN_LEFT
 "ザカリアは行方不明になってしまったわ。" TCC_NEWLINE TCC_PUSH_A
 "私たちはずっと。。。" TCC_NEWLINE
 "彼を探しているのよ。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

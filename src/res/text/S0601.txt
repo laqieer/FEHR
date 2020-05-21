@@ -6,10 +6,10 @@
 "雇われた以上、仕事は果たす。" TCC_NEWLINE TCC_PUSH_A
 "かわいそうだが。。。" TCC_NEWLINE
 "死んでもらう。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0601] = TCC_OPEN_LEFT 
 "。。。やるな。。。" TCC_NEWLINE
 "あの男とどちらが上か。。。" TCC_NEWLINE TCC_PUSH_A
 "ふっ。。。面白い。" TCC_NEWLINE
 "また会おう。いずれ、な。。。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

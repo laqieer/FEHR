@@ -5,4 +5,4 @@
 "エーデルガルト＝フォン＝フレスベルグ。" TCC_NEWLINE
 "貴方の実力、試させてもらうわ。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -9,11 +9,11 @@
 "フェレの軍を率いています。" TCC_NEWLINE TCC_PUSH_A
 "異界の王族に刃を向ける無礼、" TCC_NEWLINE
 "どうかお許しください。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0401] = TCC_OPEN_LEFT 
 "強い。。。" TCC_NEWLINE
 "話に聞いていた通り、" TCC_NEWLINE
 "さすが異界の英雄。。。" TCC_NEWLINE TCC_PUSH_A
 "でも、ぼくも契約を交わした身。" TCC_NEWLINE
 "まだ、ここで負けるわけには。。。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

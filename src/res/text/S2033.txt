@@ -5,4 +5,4 @@
 "強く美しき庇護者が必要であろう。" TCC_NEWLINE
 "すなわち、そう。。。私のような！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

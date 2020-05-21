@@ -9,14 +9,14 @@
 "チキ、てかげんできないの。" TCC_NEWLINE
 "あなたたちが、" TCC_NEWLINE
 "大変なことになっちゃう。。。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0605] = TCC_OPEN_LEFT 
 "やられちゃった。。。" TCC_NEWLINE
 "でも、ありがとう！" TCC_NEWLINE
 "これでチキ、もとに戻れるの。" TCC_NEWLINE TCC_PUSH_A
 "もうむりやりたたかわなくても" TCC_NEWLINE
 "よくなったの。。。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0605] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
 "ふうっ、お疲れさま。" TCC_NEWLINE
 "無事に任務を果たせたわ。" TCC_NEWLINE
@@ -58,4 +58,4 @@ TCC_OPEN_LEFT
 "。。。さて、この前の陽動を考えると、" TCC_NEWLINE
 "他の扉が襲撃されている可能\性もあるわ。" TCC_NEWLINE
 "念のため、見回りをしておきましょう！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

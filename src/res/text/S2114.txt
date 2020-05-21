@@ -5,4 +5,4 @@
 "この子と空を飛ぶのはまだ慣れな。。。ああん、" TCC_NEWLINE
 "待って、止まってください～" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

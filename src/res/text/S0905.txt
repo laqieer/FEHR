@@ -10,7 +10,7 @@
 "ですが負けはしませんよ。。。" TCC_NEWLINE
 "お父様の力を借りるまでもありません、" TCC_NEWLINE
 "私たちだけで片付けてみせます！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0905] = TCC_OPEN_LEFT 
 "誤解をしてごめんなさい。。。" TCC_NEWLINE
 "あなたたちは、私たちを解放するために" TCC_NEWLINE
@@ -21,7 +21,7 @@
 "ですが大切な人がいなくなる辛さは、" TCC_NEWLINE
 "私にもよくわかります。。。" TCC_NEWLINE
 "早く再会できるといいですね。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0905] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "やはり見つからなかったか。" TCC_NEWLINE
 "ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
@@ -62,4 +62,4 @@ TCC_OPEN_MID_LEFT
 "さあ、帰還するわよ。" TCC_NEWLINE
 "今日がだめでもいつか、" TCC_NEWLINE
 "また彼に会えると信じましょう。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

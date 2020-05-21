@@ -4,4 +4,4 @@
 "いつか、時が経てば、あの頃のように" TCC_NEWLINE
 "共に空を駆けることが叶うのでしょうか。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

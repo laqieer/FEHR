@@ -4,4 +4,4 @@
 "オレはライ。" TCC_NEWLINE
 "次代のガリア王の片腕だ。一応な。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -10,7 +10,7 @@
 "カミラ、レオン、エリーゼ。" TCC_NEWLINE
 "準備はいいか？" TCC_NEWLINE
 "行くぞ！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0301] = TCC_OPEN_LEFT 
 "ほう。。。" TCC_NEWLINE
 "なかなかやるようだな。" TCC_NEWLINE
@@ -18,4 +18,4 @@
 "言っておくが、" TCC_NEWLINE
 "私のきょうだい。。。そして" TCC_NEWLINE
 "その臣下たちは手強いぞ。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -4,4 +4,4 @@
 "私はシリウス。" TCC_NEWLINE
 "ただの、旅の者だ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

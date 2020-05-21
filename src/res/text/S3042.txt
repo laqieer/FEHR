@@ -4,4 +4,4 @@
 "はじめまして！　ボクはニシキ！" TCC_NEWLINE
 "世界一美しい種族、妖狐さ！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -5,4 +5,4 @@
 "あのリーヴという名のベオク。。。" TCC_NEWLINE
 "あの男の心は、まるですべてを。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

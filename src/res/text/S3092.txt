@@ -5,4 +5,4 @@
 "アレクサンドル＝ブレーダッド。" TCC_NEWLINE
 "全力で行かせてもらうぞ！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

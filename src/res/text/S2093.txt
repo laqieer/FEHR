@@ -5,4 +5,4 @@
 "雷神イシュタルの魔道。。。" TCC_NEWLINE
 "受けるがいい。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

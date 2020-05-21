@@ -80,4 +80,7 @@ for filename in sys.argv[1:]:
                         #elif "$" not in t:
                             # omit some rare chracters here
                             text += "\"" + t.replace("…", "。。。").replace("―", "ー").replace("ソ", "ソ\\").replace("噂", "噂\\").replace("浬", "浬\\").replace("圭", "圭\\").replace("構", "構\\").replace("蚕", "蚕\\").replace("十", "十\\").replace("申", "申\\").replace("曾", "曾\\").replace("箪", "箪\\").replace("貼", "貼\\").replace("能", "能\\").replace("表", "表\\").replace("暴", "暴\\").replace("予", "予\\").replace("禄", "禄\\").replace("兔", "兔\\").replace("媾", "媾\\").replace("拿", "拿\\") + "\"\n"
+                if len(faces) > 0:
+                    for facePos in faces.values():
+                        text += "TCC_OPEN_" + FacePositions[facePos] + " TCC_CLEAR_FACE "
                 fOut.write("[{}] = {},\n".format(mid, text))

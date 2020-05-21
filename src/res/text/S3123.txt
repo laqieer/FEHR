@@ -4,4 +4,4 @@
 "ミラ様。。。" TCC_NEWLINE
 "どうかこの世界をお守りください。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -10,7 +10,7 @@
 "イーリスの平和を乱す者は、" TCC_NEWLINE
 "このクロム自警団が許さん！" TCC_NEWLINE
 "行くぞ、リズ、フレデリク！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0501] = TCC_OPEN_LEFT 
 "くっ。。。" TCC_NEWLINE
 "俺たちはまだ負けん。。。！" TCC_NEWLINE TCC_PUSH_A
@@ -18,4 +18,4 @@
 "お前たちを食い止めてみせる。" TCC_NEWLINE TCC_PUSH_A
 "クロム自警団の絆の力。。。" TCC_NEWLINE
 "よく見ておくんだな。"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

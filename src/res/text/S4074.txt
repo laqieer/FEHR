@@ -5,4 +5,4 @@
 "触るな！" TCC_NEWLINE
 "俺に触るんじゃない。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

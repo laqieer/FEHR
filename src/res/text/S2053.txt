@@ -4,4 +4,4 @@
 "我はギムレー。破滅と絶望の竜。。。" TCC_NEWLINE
 "さあ、誰から食い殺そうか？" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

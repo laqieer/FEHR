@@ -4,4 +4,4 @@
 "どいつもこいつもラインハルトと。。。" TCC_NEWLINE
 "あいつのどこが俺に勝るというのだ！" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -10,7 +10,7 @@
 "どうやってここまで" TCC_NEWLINE
 "辿り着いたかは知らんが。。。" TCC_NEWLINE
 "貴様らは俺たちきょうだいが討つ！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0701] = TCC_OPEN_LEFT 
 "まさか、これほどの力とは。。。" TCC_NEWLINE
 "皆、態勢を整えて" TCC_NEWLINE
@@ -18,4 +18,4 @@
 "民たちのためにも、" TCC_NEWLINE
 "この白夜王国。。。" TCC_NEWLINE
 "落とさせてなるものか！"
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
