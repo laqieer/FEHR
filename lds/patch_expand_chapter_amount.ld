@@ -8,3 +8,5 @@
 .rodata.chapterEventAmount : {*(.rodata.chapterEventAmount)}
 . = 0x8031b1e;
 .rodata.chapterNameStringAmount : {*(.rodata.chapterNameStringAmount)}
+. = 0x8082f30;
+.text.GetChapterIDInjector : {*(.text.GetChapterIDInjector)}
