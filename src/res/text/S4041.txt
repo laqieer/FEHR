@@ -1,9 +1,11 @@
 // Converted by ./ConvertText.py
 
-[MID_SCENARIO_OPENING_S4041] = "。。。アルフの妖精たちは" TCC_NEWLINE
+[MID_SCENARIO_OPENING_S4041] = TCC_OPEN_LEFT 
+"。。。アルフの妖精たちは" TCC_NEWLINE
 "私たちを追ってきているわ。" TCC_NEWLINE
 "フレイヤ様が言っていた通り。。。" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_RIGHT 
 "はい。このまま順調にいけば、" TCC_NEWLINE
 "フレイヤ様に" TCC_NEWLINE
 "褒めていただけますね。" TCC_NEWLINE TCC_PUSH_A
@@ -13,8 +15,10 @@
 "いやらしい心を持った" TCC_NEWLINE
 "人間の男たちもいないようですし。" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_LEFT
 "。。。そうね。" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_RIGHT
 "私は人間に" TCC_NEWLINE
 "淫らな夢を見せる黒妖精。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -22,6 +26,7 @@
 "とてもついていけません。" TCC_NEWLINE
 "あんな、けだもののような。。。" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_LEFT
 "。。。私は、そういう夢を" TCC_NEWLINE
 "人間に見せたことはないけれど。" TCC_NEWLINE TCC_PUSH_A
 "でも、" TCC_NEWLINE
@@ -30,13 +35,15 @@
 "幸夢のピアニー。。。" TCC_NEWLINE
 "彼女とは、正反対。。。" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_RIGHT
 "。。。何か？" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_LEFT
 "。。。いいえ。行きましょう。" TCC_NEWLINE
 "私たち黒妖精は、" TCC_NEWLINE
 "あの方の御命令のままに。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-,
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTARIT_PEONY
 "くんくん、くんくん。" TCC_NEWLINE TCC_PUSH_A
 "うん、悪い夢の匂いがするわ。" TCC_NEWLINE

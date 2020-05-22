@@ -21,6 +21,7 @@ FaceDefines = {
     "PID_レーヴァテイン":"PORTARIT_LAEVATEIN",
     "PID_ヘル":"PORTARIT_HEL",
     "PID_ブルーノ皇子":"PORTRAIT_BRUNO_MASKED",
+    "EID_ブルーノ":"PORTRAIT_BRUNO_MASKED",
     "PID_グスタフ":"PORTARIT_GUSTAV",
     "PID_ユルグ":"PORTARIT_YLGR",
     "PID_ヘルビンディ":"PORTARIT_HELBINDI",
@@ -58,8 +59,10 @@ for filename in sys.argv[1:]:
                 faces = {}
                 for t in texts:
                     if len(t) > 0:
-                        if t[:7] == "$WmMPID":
+                        if t[:7] in ("$WmMPID", "$WmMEID"):
                             faceName = t[4:].split(',')[0]
+                            if faceName == "EID_ブルーノ":
+                                faceName = "PID_ブルーノ皇子"
                             if faceName in faces:
                                 facePos = faces[faceName]
                                 text += "TCC_OPEN_" + FacePositions[facePos] + "\n"

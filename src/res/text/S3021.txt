@@ -108,6 +108,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 "厄介な相手ねえ。" TCC_NEWLINE
 "ねえ、ヴェロニカ皇女？" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_RIGHT 
 "ロキ、あなた。。。" TCC_NEWLINE
 "あたしをうらぎったくせに。。。" TCC_NEWLINE
 "よく平気なかおでもどってきたわね。" TCC_NEWLINE TCC_PUSH_A
@@ -118,6 +119,7 @@ TCC_OPEN_LEFT
 "それとも、許さない？" TCC_NEWLINE
 "殺しちゃう？" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_RIGHT
 "そうしたいけど。。。" TCC_NEWLINE
 "あなたの首を引き抜いたって、" TCC_NEWLINE
 "どうせあなたはころせない。。。そうでしょ？" TCC_NEWLINE TCC_PUSH_A
@@ -130,6 +132,7 @@ TCC_OPEN_LEFT
 "ずっとご不在なんでしょう？" TCC_NEWLINE
 "あなたは。。。エンブラ帝国はどうするの？" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_RIGHT
 "。。。。。。。。。。。。" TCC_NEWLINE
 "ヘルがアスクを" TCC_NEWLINE
 "ほろぼすのはいいわ。。。" TCC_NEWLINE TCC_PUSH_A
@@ -145,6 +148,7 @@ TCC_OPEN_LEFT
 "アスクだけでヘルに勝つのは。。。" TCC_NEWLINE
 "まあ、無理ね。" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_RIGHT
 "ロキ。。。" TCC_NEWLINE TCC_PUSH_A
 "これは。。。" TCC_NEWLINE
 "あなたのしわざ。。。？" TCC_NEWLINE TCC_PUSH_A
@@ -154,6 +158,7 @@ TCC_OPEN_LEFT
 "私はいつだって" TCC_NEWLINE
 "ヴェロニカ皇女の味方よ？" TCC_NEWLINE TCC_PUSH_A
 ""
+TCC_OPEN_RIGHT
 "。。。。。。ふぅん。。。。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
