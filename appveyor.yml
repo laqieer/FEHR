@@ -16,6 +16,6 @@ install:
     source /etc/profile.d/devkit-env.sh
 build_script:
 - sh: >-
-    configure
+    ./configure
 
     cd build/ && make
