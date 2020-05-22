@@ -1,0 +1,21 @@
+version: AppVeyor build {build}
+image: Ubuntu
+init:
+- sh: >-
+    mkdir ../resources
+    
+    wget https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.deb -P ../resources
+install:
+- sh: >-
+    sudo dpkg -i ../resources/devkitpro-pacman.deb
+    
+    echo -en "\n\n" | sudo dkp-pacman -S gba-dev
+    
+    echo -en "\n\n" | sudo dkp-pacman -S devkitARM
+    
+    source /etc/profile.d/devkit-env.sh
+build_script:
+- sh: >-
+    configure
+
+    cd build/ && make
