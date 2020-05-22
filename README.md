@@ -27,8 +27,9 @@ cd build && make
 |[Azure DevOps](https://azure.microsoft.com/en-us/services/devops/?nav=min)|[![Build Status](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_apis/build/status/fe7-jp-stunning-tribble-CI?branchName=master)](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_build/latest?definitionId=6&branchName=master)|
 |[Circle CI](https://circleci.com/)|[![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://app.circleci.com/gh/laqieer/fe7-jp-stunning-tribble/pipelines)|
 |[Cirrus CI](https://cirrus-ci.org/)|[![Build Status](https://api.cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble.svg)](https://cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble)|
-|[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079/badge.svg?token=17a080ae6f8b131ee525769bd14c9c265def2701a1a6e03ec223ca9213c46a9f "buddy pipeline")](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079)|
+|[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079/badge.svg?token=04d9785a0636914175da8f17c5e66596a002faf43e68051077e30328eb070fe8 "buddy pipeline")](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079)|
 |[Github Action](https://github.com/features/actions)|[![CI](https://github.com/laqieer/fe7-jp-stunning-tribble/workflows/CI/badge.svg)](https://github.com/laqieer/fe7-jp-stunning-tribble/actions?query=workflow%3ACI)|
+|[AppVeyor](https://www.appveyor.com/)|[![Build status](https://ci.appveyor.com/api/projects/status/8ughy0knacki06k3/branch/master?svg=true&passingText=master%20-%20OK)](https://ci.appveyor.com/project/laqieer/fe7-jp-stunning-tribble/branch/master)|
 
 ## Patch
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/laqieer/fe7-jp-stunning-tribble)](https://github.com/laqieer/fe7-jp-stunning-tribble/releases/latest)
