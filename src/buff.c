@@ -837,6 +837,7 @@ void updateBuffAndDebuffWithPassiveSkillCForP4Units()
  */
 
 // Phase switch: player phase -> enemy phase -> NPC phase -> player phase -> ...
+// FIXME: 1st player phase doesn't have a NPC phase before it, so the units have buff & debuff from previous chapter at the 1st turn.
 void clearUnitsBuffAndDebuffForPhaseSwitch()
 {
     switch (gRAMChapterData.chapterPhaseIndex >> 6)
