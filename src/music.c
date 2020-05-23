@@ -26,6 +26,8 @@ extern const u8 musicFEAwakeningMainThemeTitle[];
 extern const u8 musicFEAwakeningYouCanCallMeMarth[];
 extern const u8 musicFEPathOfRadianceLikeFatherLikeSon[];
 extern const u8 musicFEPathOfRadiancePowerHungryFool[];
+extern const u8 musicFEGaidenCelicaMap1[];
+extern const u8 musicFEGaidenFinalMap[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1472,6 +1474,8 @@ const struct Song songs[] = {
         [MUSIC_FE_AWAKENING_YOU_CAN_CALL_ME_MARTH] = {musicFEAwakeningYouCanCallMeMarth, 1, 1},
         [MUSIC_FE_PATH_OF_RADIANCE_LIKE_FATHER_LIKE_SON] = {musicFEPathOfRadianceLikeFatherLikeSon, 1, 1},
         [MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL] = {musicFEPathOfRadiancePowerHungryFool, 1, 1},
+        [MUSIC_FE_GAIDEN_CELICA_MAP_1] = {musicFEGaidenCelicaMap1, 1, 1},
+        [MUSIC_FE_GAIDEN_FINAL_MAP] = {musicFEGaidenFinalMap, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1615,6 +1619,8 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_AWAKENING_YOU_CAN_CALL_ME_MARTH, MUSIC_LENGTH(1, 25), 0, "僕の名はマルスだ"},
     {MUSIC_FE_PATH_OF_RADIANCE_LIKE_FATHER_LIKE_SON, MUSIC_LENGTH(1, 45), 0, "この父にしてこの子あり"},
     {MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL, MUSIC_LENGTH(3, 8), 0, "Ｐｏｗｅｒｈｕｎｇｒｙ　Ｆｏｏｌ"},
+    {MUSIC_FE_GAIDEN_CELICA_MAP_1, MUSIC_LENGTH(1, 21), 0, "ミラの加護とともに"},
+    {MUSIC_FE_GAIDEN_FINAL_MAP, MUSIC_LENGTH(1, 24), 0, "神よ、そのたそがれよ"},
 
     // End of table
     {-1, 0,                                              0, 0},
