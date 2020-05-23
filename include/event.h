@@ -95,7 +95,8 @@
 #define ENUN .word 0x39
 
 // Misc events
-#define CauseGameOverIfLordDies .word 1, 0x8d6f71c, 0x65
+#define GameOver 0x8d6f71c
+#define CauseGameOverIfLordDies .word 1, GameOver, 0x65
 #define DefeatAll(event) .word 0xe, event, 0x807aa5d
 
 // Turn events
