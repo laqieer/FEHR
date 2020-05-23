@@ -28,6 +28,8 @@ extern const u8 musicFEPathOfRadianceLikeFatherLikeSon[];
 extern const u8 musicFEPathOfRadiancePowerHungryFool[];
 extern const u8 musicFEGaidenCelicaMap1[];
 extern const u8 musicFEGaidenFinalMap[];
+extern const u8 musicFEGaidenSeparateWays[];
+extern const u8 musicFEGaidenEncounter[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1476,6 +1478,8 @@ const struct Song songs[] = {
         [MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL] = {musicFEPathOfRadiancePowerHungryFool, 1, 1},
         [MUSIC_FE_GAIDEN_CELICA_MAP_1] = {musicFEGaidenCelicaMap1, 1, 1},
         [MUSIC_FE_GAIDEN_FINAL_MAP] = {musicFEGaidenFinalMap, 1, 1},
+        [MUSIC_FE_GAIDEN_SEPARATE_WAYS] = {musicFEGaidenSeparateWays, 1, 1},
+        [MUSIC_FE_GAIDEN_ENCOUNTER] = {musicFEGaidenEncounter, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1621,6 +1625,8 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL, MUSIC_LENGTH(3, 8), 0, "Ｐｏｗｅｒｈｕｎｇｒｙ　Ｆｏｏｌ"},
     {MUSIC_FE_GAIDEN_CELICA_MAP_1, MUSIC_LENGTH(1, 21), 0, "ミラの加護とともに"},
     {MUSIC_FE_GAIDEN_FINAL_MAP, MUSIC_LENGTH(1, 24), 0, "神よ、そのたそがれよ"},
+    {MUSIC_FE_GAIDEN_SEPARATE_WAYS, MUSIC_LENGTH(2, 11), 0, "それぞれの道"},
+    {MUSIC_FE_GAIDEN_ENCOUNTER, MUSIC_LENGTH(1, 28), 0, "外伝　出会い"},
 
     // End of table
     {-1, 0,                                              0, 0},
