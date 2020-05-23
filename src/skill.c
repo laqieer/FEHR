@@ -4508,9 +4508,9 @@ u16 getUnitPassiveSkillA(struct Unit *unit)
 {
     u16 PassiveSkillA = 0;
 
-    if(characterPassiveSkillAs[unit->character->id][0] && unit->lv >= 2)
+    if(characterPassiveSkillAs[unit->character->id][0] && (unit->lv >= 2 || unit->job->ability_promoted))
         PassiveSkillA = characterPassiveSkillAs[unit->character->id][0];
-    if(characterPassiveSkillAs[unit->character->id][1] && unit->lv >= 15)
+    if(characterPassiveSkillAs[unit->character->id][1] && (unit->lv >= 15 || unit->job->ability_promoted))
         PassiveSkillA = characterPassiveSkillAs[unit->character->id][1];
     if(characterPassiveSkillAs[unit->character->id][2] && unit->job->ability_promoted && unit->lv >= 2)
         PassiveSkillA = characterPassiveSkillAs[unit->character->id][2];
@@ -4541,9 +4541,9 @@ u16 getUnitPassiveSkillB(struct Unit *unit)
 {
     u16 PassiveSkillB = 0;
 
-    if(characterPassiveSkillBs[unit->character->id][0] && unit->lv >= 5)
+    if(characterPassiveSkillBs[unit->character->id][0] && (unit->lv >= 5 || unit->job->ability_promoted))
         PassiveSkillB = characterPassiveSkillBs[unit->character->id][0];
-    if(characterPassiveSkillBs[unit->character->id][1] && unit->lv >= 20)
+    if(characterPassiveSkillBs[unit->character->id][1] && (unit->lv >= 20 || unit->job->ability_promoted))
         PassiveSkillB = characterPassiveSkillBs[unit->character->id][1];
     if(characterPassiveSkillBs[unit->character->id][2] && unit->job->ability_promoted && unit->lv >= 5)
         PassiveSkillB = characterPassiveSkillBs[unit->character->id][2];
@@ -4582,9 +4582,9 @@ u16 getUnitPassiveSkillC(struct Unit *unit)
 {
     u16 PassiveSkillC = 0;
 
-    if(characterPassiveSkillCs[unit->character->id][0] && unit->lv >= 10)
+    if(characterPassiveSkillCs[unit->character->id][0] && (unit->lv >= 10 || unit->job->ability_promoted))
         PassiveSkillC = characterPassiveSkillCs[unit->character->id][0];
-    if(characterPassiveSkillCs[unit->character->id][1] && unit->lv >= 25)
+    if(characterPassiveSkillCs[unit->character->id][1] && (unit->lv >= 25 || unit->job->ability_promoted))
         PassiveSkillC = characterPassiveSkillCs[unit->character->id][1];
     if(characterPassiveSkillCs[unit->character->id][2] && unit->job->ability_promoted && unit->lv >= 10)
         PassiveSkillC = characterPassiveSkillCs[unit->character->id][2];
