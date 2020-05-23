@@ -368,6 +368,7 @@ SECTIONS
 	.rodata.patch_remove_one_year_later_image : {*(.rodata.patch_remove_one_year_later_image)}
 	. = 0x8db8ee8;
     .rodata.procTitleScreen : {*(.rodata.procTitleScreen)}
+    INCLUDE ../lds/promotion.ld
     INCLUDE ../lds/patch_song_music_track_note.ld
     INCLUDE ../lds/animation.ld
     INCLUDE ../lds/patch_expand_animation_script_compression_type.ld
