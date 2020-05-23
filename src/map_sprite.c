@@ -18,11 +18,17 @@ const struct StandingSprite standingSprites[] = {
 
     {2, 1, standing_sprite_AnnaTiles} ,  // 0x03 Hector Lord
 
-    {2, 1, 137859304} ,  // 0x04 Lord Knight {only by class name}
+    {2, 1, standing_sprite_AlfonseTiles} ,  // 0x04 Eliwood Lord
 
-    {2, 0, 137859800} ,  // 0x05 Blade Lord {only by class name}
+    {2, 1, standing_sprite_SharenaTiles} ,  // 0x05 Lyn Lord
 
-    {2, 1, 137860100} ,  // 0x06 Great Lord {only by class name}
+    {2, 1, standing_sprite_AnnaTiles} ,  // 0x06 Hector Lord
+
+    //{2, 1, 137859304} ,  // 0x04 Lord Knight {only by class name}
+
+    //{2, 0, 137859800} ,  // 0x05 Blade Lord {only by class name}
+
+    //{2, 1, 137860100} ,  // 0x06 Great Lord {only by class name}
 
     {2, 0, 137860584} ,  // 0x07 Lord Knight
 
@@ -230,11 +236,17 @@ const struct MovingSprite movingSprites[] = {
 
     {moving_sprite_AnnaTiles, 138155020} ,  // 0x03 Hector Lord
 
-    {138147624, 138150124} ,  // 0x04 Lord Knight (only by class name)
+    {moving_sprite_AlfonseTiles, 138150124} ,  // 0x04 Eliwood Lord
 
-    {138150468, 138152452} ,  // 0x05 Blade Lord (only by class name)
+    {moving_sprite_SharenaTiles, 138152452} ,  // 0x05 Lyn Lord
 
-    {138152796, 138155020} ,  // 0x06 Great Lord (only by class name)
+    {moving_sprite_AnnaTiles, 138155020} ,  // 0x06 Hector Lord
+
+    //{138147624, 138150124} ,  // 0x04 Lord Knight (only by class name)
+
+    //{138150468, 138152452} ,  // 0x05 Blade Lord (only by class name)
+
+    //{138152796, 138155020} ,  // 0x06 Great Lord (only by class name)
 
     {138155364, 138157780} ,  // 0x07 Lord Knight
 
