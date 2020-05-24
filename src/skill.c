@@ -2169,6 +2169,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_ALFONSE_ID] = SPECIAL_SKILL_SOL,
         [CHARACTER_ANNA_ID] = SPECIAL_SKILL_ASTRA,
         [CHARACTER_SHARENA_ID] = SPECIAL_SKILL_LUNA,
+        [CHARACTER_BRUNO_ID] = SPECIAL_SKILL_VENGEANCE,
 };
 
 const u16 jobSpecialSkills[0x100] = {
