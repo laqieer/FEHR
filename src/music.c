@@ -30,6 +30,8 @@ extern const u8 musicFEGaidenCelicaMap1[];
 extern const u8 musicFEGaidenFinalMap[];
 extern const u8 musicFEGaidenSeparateWays[];
 extern const u8 musicFEGaidenEncounter[];
+extern const u8 musicFEPoRBeautifulPrincessElincia[];
+extern const u8 musicFEPoRLifeReturns[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1480,6 +1482,8 @@ const struct Song songs[] = {
         [MUSIC_FE_GAIDEN_FINAL_MAP] = {musicFEGaidenFinalMap, 1, 1},
         [MUSIC_FE_GAIDEN_SEPARATE_WAYS] = {musicFEGaidenSeparateWays, 1, 1},
         [MUSIC_FE_GAIDEN_ENCOUNTER] = {musicFEGaidenEncounter, 1, 1},
+        [MUSIC_FE_PATH_OF_RADIANCE_BEAUTIFUL_PRINCESS_ELINCIA] = {musicFEPoRBeautifulPrincessElincia, 1, 1},
+        [MUSIC_FE_PATH_OF_RADIANCE_LIFE_RETURNS] = {musicFEPoRLifeReturns, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1627,6 +1631,8 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_GAIDEN_FINAL_MAP, MUSIC_LENGTH(1, 24), 0, "神よ、そのたそがれよ"},
     {MUSIC_FE_GAIDEN_SEPARATE_WAYS, MUSIC_LENGTH(2, 11), 0, "それぞれの道"},
     {MUSIC_FE_GAIDEN_ENCOUNTER, MUSIC_LENGTH(1, 28), 0, "外伝　出会い"},
+    {MUSIC_FE_PATH_OF_RADIANCE_BEAUTIFUL_PRINCESS_ELINCIA, MUSIC_LENGTH(2, 26), 0, "Ｂｅａｕｔｉｆｕｌ　Ｐｒｉｎｃｅｓｓ　Ｅｌｉｎｃｉａ"},
+    {MUSIC_FE_PATH_OF_RADIANCE_LIFE_RETURNS, MUSIC_LENGTH(4, 22), 0, "Ｌｉｆｅ　Ｒｅｔｕｒｎｓ"},
 
     // End of table
     {-1, 0,                                              0, 0},
