@@ -1706,6 +1706,8 @@ const char* const texts[] = {
 
        [TEXT_CHAP_GOAL_DEFENSE_6_TURNS] = "６ターン防御",
 
+       [TEXT_CHAP_GOAL_DEFENSE_7_TURNS] = "７ターン防御",
+
        [TEXT_ANNA_JOB_NAME] = "隊長",
 
        [TEXT_ANNA_JOB_HELP] = "アスク王国特務機関のリーダー",
