@@ -1712,6 +1712,19 @@ const char* const texts[] = {
 
        [TEXT_ANNA_JOB_HELP] = "アスク王国特務機関のリーダー",
 
+       [TEXT_BRUNO_JOIN_US] = TCC_OPEN_MID_LEFT
+           TCC_LOAD_FACE PORTRAIT_ALFONSE
+            TCC_OPEN_MID_RIGHT
+            TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+            TCC_OPEN_MID_LEFT
+            "ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_MID_RIGHT
+            "。。。。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_MID_LEFT
+            "そうですか。" TCC_NEWLINE
+            "とりあえず敵を一掃しましょう！" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
+
 #include "texts.txt"
 };
 

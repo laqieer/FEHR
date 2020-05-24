@@ -1,4 +1,12 @@
 { "columns":0,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"",
+         "target":"."
+        }
+    },
  "grid":
     {
      "height":1,
@@ -8,9 +16,9 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":3,
+ "tilecount":4,
  "tiledversion":"1.3.4",
- "tileheight":16,
+ "tileheight":19,
  "tiles":[
         {
          "id":0,
@@ -28,6 +36,12 @@
          "id":2,
          "image":"player_units\/SharenaLord.png",
          "imageheight":16,
+         "imagewidth":15
+        }, 
+        {
+         "id":3,
+         "image":"player_units\/Valkyrie.png",
+         "imageheight":19,
          "imagewidth":15
         }],
  "tilewidth":16,

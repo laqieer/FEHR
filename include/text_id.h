@@ -419,6 +419,8 @@
 #define TEXT_ANNA_JOB_NAME 6005
 #define TEXT_ANNA_JOB_HELP 6006
 
+#define TEXT_BRUNO_JOIN_US 6008
+
 #include "texts.h"
 
 #endif //FE7_JP_STUNNING_TRIBBLE_TEXT_ID_H

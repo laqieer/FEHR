@@ -110,6 +110,19 @@
 #define TURN_MOMENT_ENEMY_PHASE 2
 #define LoadBeginningScene .word 2, BeginningScene, 1, 0
 
+// Character (chat) events
+#define CHAR .hword 3,
+#define CharacterEvent(character1, character2, id, event, condition) CHAR id;\
+    .word event;\
+    .byte character1, character2, 0, 0;\
+    .word condition
+
+// Changes units affiliation.
+// CUSI Character, Affiliation
+#define CUSI .word 0x63, 
+#define ChangeUnitSide(character, side) CUSI character, side
+#define CharacterJoin(character) ChangeUnitSide(character, 0)
+
 // Move to chapter
 #define MNCH .hword 0x7f,
 
