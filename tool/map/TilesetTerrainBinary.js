@@ -54,7 +54,7 @@ var TilesetTerrainBinary = {
             "Flat Tile (Ship)":42, "Flat (Volcano zones)":42, "荒地":42, "荒地":42,
             "Wreck Tile (Ship)":43, "沉船":43,
             "Building 1 (Desert)":44,
-            "Stairs":45, "階段":45, "楼梯":45,
+            "Stairs":45, "階段":45, "楼梯":45, "台阶":45,
             "Tile 46":46, "Building 2 (Village, Vendor, etc)":46, "建筑":46,
             "Glacier":47, "氷河":47, "冰川":47,
             "Link Arena":48, "通信闘技":48, "通信斗技场":48,
