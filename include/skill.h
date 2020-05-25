@@ -837,4 +837,13 @@ extern u16 DAT_0203e0ac;
 
 char *getNewUnlockedPassiveSkillNameTextByCurrentAIS();
 
+void ForEachUnitInNSpaces(int x, int y, void(*func)(struct Unit *unit), int N);
+void ForEachUnitIn2Spaces(int x, int y, void(*func)(struct Unit *unit));
+void ForEachUnitIn4Spaces(int x, int y, void(*func)(struct Unit *unit));
+void ForEachUnitIn2SpacesExceptTargetUnit(int x, int y, void(*func)(struct Unit *unit));
+void ForEachUnitIn2SpacesExceptActorUnit(int x, int y, void(*func)(struct Unit *unit));
+void ForEachUnitInCardinalDirection(int x, int y, void(*func)(struct Unit *unit));
+void ForEachUnitInCardinalDirectionExceptCenter(int x, int y, void(*func)(struct Unit *unit));
+
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

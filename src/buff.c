@@ -619,9 +619,36 @@ int GetUnitMaxHp(struct Unit* unit)
     return unit->maxHp + GetItemHpBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffHP(unit);
 }
 
+int GetUnitHp(struct Unit* unit)
+{
+    if(unit->hp > GetUnitMaxHp(unit))
+        unit->hp = GetUnitMaxHp(unit);
+    return unit->hp;
+}
+
 int GetUnitPower(struct Unit* unit) 
 {
-    return unit->pow + GetItemPowBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffPower(unit);
+    int power = unit->pow + GetItemPowBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffPower(unit);
+
+    switch(getUnitPassiveSkillA(unit))
+    {
+        case PASSIVE_SKILL_A_FURY_1:
+            power += 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_2:
+            power += 2;
+            break;
+        case PASSIVE_SKILL_A_FURY_3:
+            power += 3;
+            break;
+        case PASSIVE_SKILL_A_FURY_4:
+            power += 4;
+            break;
+        default:
+            break;
+    }
+
+    return power;
 }
 
 int GetUnitSkill(struct Unit* unit) 
@@ -655,6 +682,21 @@ int GetUnitSpeed(struct Unit* unit)
         case PASSIVE_SKILL_A_SPEED_3:
             speed += 3;
             break;
+        case PASSIVE_SKILL_A_SPEED_4:
+            speed += 4;
+            break;
+        case PASSIVE_SKILL_A_FURY_1:
+            speed += 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_2:
+            speed += 2;
+            break;
+        case PASSIVE_SKILL_A_FURY_3:
+            speed += 3;
+            break;
+        case PASSIVE_SKILL_A_FURY_4:
+            speed += 4;
+            break;
         default:
             break;
     }
@@ -664,12 +706,52 @@ int GetUnitSpeed(struct Unit* unit)
 
 int GetUnitDefense(struct Unit* unit) 
 {
-    return unit->def + GetItemDefBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffDefense(unit);
+    int defense = unit->def + GetItemDefBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffDefense(unit);
+
+    switch(getUnitPassiveSkillA(unit))
+    {
+        case PASSIVE_SKILL_A_FURY_1:
+            defense += 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_2:
+            defense += 2;
+            break;
+        case PASSIVE_SKILL_A_FURY_3:
+            defense += 3;
+            break;
+        case PASSIVE_SKILL_A_FURY_4:
+            defense += 4;
+            break;
+        default:
+            break;
+    }
+
+    return defense;
 }
 
 int GetUnitResistance(struct Unit* unit) 
 {
-    return unit->res + GetItemResBonus(GetUnitEquippedItem(unit)) + unit->resBonus + getUnitTotalBuffResistance(unit);
+    int resistance = unit->res + GetItemResBonus(GetUnitEquippedItem(unit)) + unit->resBonus + getUnitTotalBuffResistance(unit);
+    
+    switch(getUnitPassiveSkillA(unit))
+    {
+        case PASSIVE_SKILL_A_FURY_1:
+            resistance += 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_2:
+            resistance += 2;
+            break;
+        case PASSIVE_SKILL_A_FURY_3:
+            resistance += 3;
+            break;
+        case PASSIVE_SKILL_A_FURY_4:
+            resistance += 4;
+            break;
+        default:
+            break;
+    }
+
+    return resistance;
 }
 
 int GetUnitLuck(struct Unit* unit) 
@@ -679,6 +761,11 @@ int GetUnitLuck(struct Unit* unit)
 
 #pragma GCC push_options
 #pragma GCC optimize ("-O2")
+
+int GetUnitHpInjector(struct Unit* unit)
+{
+    return GetUnitHp(unit);
+}
 
 int GetUnitMaxHpInjector(struct Unit* unit)
 {
@@ -803,6 +890,10 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
                             if(distance == 1)
                                 updateUnitBuffDefense(&units[i], 4);
                             break;
+                        case PASSIVE_SKILL_C_FORTIFY_DEF_4:
+                            if(distance == 1)
+                                updateUnitBuffDefense(&units[i], 5);
+                            break;
                         default:
                             break;
                     }
@@ -837,7 +928,7 @@ void updateBuffAndDebuffWithPassiveSkillCForP4Units()
  */
 
 // Phase switch: player phase -> enemy phase -> NPC phase -> player phase -> ...
-// FIXME: 1st player phase doesn't have a NPC phase before it, so the units have buff & debuff from previous chapter at the 1st turn.
+// 1st player phase doesn't have a NPC phase before it, so the units have buff & debuff from previous chapter at the 1st turn.
 void clearUnitsBuffAndDebuffForPhaseSwitch()
 {
     switch (gRAMChapterData.chapterPhaseIndex >> 6)
@@ -864,12 +955,118 @@ void clearUnitsBuffAndDebuffForPhaseSwitch()
     }
 }
 
+void clearUnitsBuffAndDebuffEachTurn()
+{
+    switch (gRAMChapterData.chapterPhaseIndex >> 6)
+    {
+        case PlayerSide: //PlayerSide
+            if(gRAMChapterData.chapterTurnNumber == 0)
+                clearBuffDebuffAndNewStateForAllUnits();
+            else
+                clearBuffDebuffAndNewStateForPlayerUnits();
+            updateBuffAndDebuffWithPassiveSkillCForPlayerUnits();
+            break;
+        case EnemySide: //EnemySide
+            clearBuffDebuffAndNewStateForEnemyUnits();
+            updateBuffAndDebuffWithPassiveSkillCForEnemyUnits();
+            break;
+        case NPCSide: //NPCSide
+            clearBuffDebuffAndNewStateForNPCUnits();
+            updateBuffAndDebuffWithPassiveSkillCForNPCUnits();
+            break;
+        default: //TODO: for link arena
+            clearBuffDebuffAndNewStateForP4Units();
+            updateBuffAndDebuffWithPassiveSkillCForP4Units();
+            break;
+    }
+}
+
 u32 phaseSwitchInjector()
 {
-    clearUnitsBuffAndDebuffForPhaseSwitch();
+    //clearUnitsBuffAndDebuffForPhaseSwitch();
     return func8015818();
 }
 
 const struct ProcCmd gProcPhaseSwitchInjector = PROC_CALL_ROUTINE_2(phaseSwitchInjector);
 
+int GetSkillHealAmount(struct Unit *unit)
+{
+    int healAmount = 0;
+
+    switch(getUnitPassiveSkillB(unit))
+    {
+        case PASSIVE_SKILL_B_RENEWAL_1:
+            if(gRAMChapterData.chapterTurnNumber % 4 == 1)
+                healAmount += 10;
+            break;
+        case PASSIVE_SKILL_B_RENEWAL_2:
+            if(gRAMChapterData.chapterTurnNumber % 3 == 1)
+                healAmount += 10;
+            break;
+        case PASSIVE_SKILL_B_RENEWAL_3:
+            if(gRAMChapterData.chapterTurnNumber % 2 == 1)
+                healAmount += 10;
+            break;
+        case PASSIVE_SKILL_B_RENEWAL_4:
+                healAmount += 10;
+            break;
+        default:
+            break;
+    }
+
+    return healAmount;
+}
+
+void HealUnitsHPByTerrain(int unitIDSideBase)
+{
+    struct Unit *unit;
+    int terrain;
+    int healAmount;
+
+    InitTargets(0,0);
+
+    for(int i = unitIDSideBase + 1; i < 0x40; i++)
+    {
+        unit = GetUnit(i);
+        if(unit && unit->character && !(unit->state & (UNIT_STATE_UNAVAILABLE | UNIT_STATE_RESCUED)))
+        {
+            terrain = gBmMapTerrain[unit->positionY][unit->positionX];
+            healAmount = GetTerrainHealAmount(terrain) + GetSkillHealAmount(unit);
+            if(healAmount)
+            {
+                if(GetUnitHp(unit) < GetUnitMaxHp(unit))
+                {
+                    AddTarget(unit->positionX, unit->positionY, unit->number + unit->side * 0x40, GetUnitMaxHp(unit) * healAmount / 100);
+                }
+            }
+            if((GetTerrainCureBadStatus(terrain) & 0xff) && unit->stateType)
+            {
+                AddTarget(unit->positionX, unit->positionY, unit->number + unit->side * 0x40, 0xff);
+            }
+        }
+    }
+}
+
+void HealUnitsHPEachTurn(struct Proc *proc)
+{
+    HealUnitsHPByTerrain(gRAMChapterData.chapterPhaseIndex);
+
+    if(GetTargetListSize())
+    {
+        proc->data[0x23] = 0;
+        proc->data[0x24] = 0;
+    }
+    else
+    {
+        EndProc(proc);
+    }
+}
+
+void HealUnitsHPEachTurnInjector(struct Proc *proc)
+{
+    clearUnitsBuffAndDebuffEachTurn();
+    HealUnitsHPEachTurn(proc);
+}
+
+const struct ProcCmd gProcHealUnitsHPEachTurnInjector = PROC_CALL_ROUTINE(HealUnitsHPEachTurnInjector);
 

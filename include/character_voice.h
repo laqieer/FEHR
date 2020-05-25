@@ -42,7 +42,7 @@ void AnimEvtCode7Handler() __attribute__((noreturn));
 
 void DisplayActiveUnitEffectRange();
 void MPlayStart(void *player, const struct Song *song); // omit player info struct define, use void* instead
-int getActiveUnitCurrentHp();
+//int getActiveUnitCurrentHp();
 void HandleActiveUnitDeath(struct Proc *proc);
 void drawStatPageWithPortrait(struct Proc *proc);
 

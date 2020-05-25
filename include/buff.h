@@ -44,4 +44,16 @@ void DrawUiSmallNumber(u16 *tileMap, int color, int number);
 
 u32 func8015818();
 
+int GetTerrainHealAmount(int terrainID);
+int GetTerrainCureBadStatus(int terrainID);
+
+int GetUnitMaxHp(struct Unit* unit);
+int GetUnitHp(struct Unit* unit);
+int GetUnitPower(struct Unit* unit);
+int GetUnitSkill(struct Unit* unit);
+int GetUnitSpeed(struct Unit* unit);
+int GetUnitDefense(struct Unit* unit);
+int GetUnitResistance(struct Unit* unit);
+int GetUnitLuck(struct Unit* unit);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

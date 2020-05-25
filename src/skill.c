@@ -51,7 +51,7 @@ void PassiveSkillSNoDamageEffect(struct BattleUnit* attacker, struct BattleUnit*
 // Œu‰Î: ç”õ‚Ì50%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillGlowingEmberEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = attacker->unit.def * 0.5;
+    int damagePlus = GetUnitDefense(&attacker->unit) * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -69,7 +69,7 @@ void specialSkillGlowingEmberEffect(struct BattleUnit* attacker, struct BattleUn
 // ”ê‰Š: ç”õ‚Ì50%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillBonfireEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = attacker->unit.def * 0.5;
+    int damagePlus = GetUnitDefense(&attacker->unit) * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -87,7 +87,7 @@ void specialSkillBonfireEffect(struct BattleUnit* attacker, struct BattleUnit* d
 // ‰Ø‰Š: ç”õ‚Ì80%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillIgnisEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = attacker->unit.def * 0.8;
+    int damagePlus = GetUnitDefense(&attacker->unit) * 0.8;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -105,7 +105,7 @@ void specialSkillIgnisEffect(struct BattleUnit* attacker, struct BattleUnit* def
 // •X“_: –‚–h‚Ì50%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillChillingWindEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = attacker->unit.res * 0.5;
+    int damagePlus = GetUnitResistance(&attacker->unit) * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -124,7 +124,7 @@ void specialSkillChillingWindEffect(struct BattleUnit* attacker, struct BattleUn
 //‰œ‹`ˆÈŠO‚ÌƒXƒLƒ‹‚É‚æ‚éuƒ_ƒ[ƒW‚ğ››“ŒyŒ¸v‚ğ–³Œø
 void specialSkillTwinBladesEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = attacker->unit.res * 0.4;
+    int damagePlus = GetUnitResistance(&attacker->unit) * 0.4;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -144,7 +144,7 @@ void specialSkillTwinBladesEffect(struct BattleUnit* attacker, struct BattleUnit
 // •X‘“: –‚–h‚Ì50%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillIcebergEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = attacker->unit.res * 0.5;
+    int damagePlus = GetUnitResistance(&attacker->unit) * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -162,7 +162,7 @@ void specialSkillIcebergEffect(struct BattleUnit* attacker, struct BattleUnit* d
 // •X‰Ø: –‚–h‚Ì80%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillGlaciesEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = attacker->unit.res * 0.8;
+    int damagePlus = GetUnitResistance(&attacker->unit) * 0.8;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -744,7 +744,7 @@ void specialSkillFireEmblemEffect(struct BattleUnit* attacker, struct BattleUnit
 // áJ: ©•ª‚ÌiÅ‘åHP-Œ»HPj‚Ì30%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillRetributionEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.3;
+    int damagePlus = (GetUnitMaxHp(&attacker->unit) - attacker->unit.hp) * 0.3;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -762,7 +762,7 @@ void specialSkillRetributionEffect(struct BattleUnit* attacker, struct BattleUni
 // ŒŒQ: ©•ª‚ÌiÅ‘åHP-Œ»HPj‚Ì30%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillReprisalEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.3;
+    int damagePlus = (GetUnitMaxHp(&attacker->unit) - attacker->unit.hp) * 0.3;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -780,7 +780,7 @@ void specialSkillReprisalEffect(struct BattleUnit* attacker, struct BattleUnit* 
 // •œQ: ©•ª‚ÌiÅ‘åHP-Œ»HPj‚Ì50%‚ğƒ_ƒ[ƒW‚É‰ÁZ
 void specialSkillVengeanceEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.5;
+    int damagePlus = (GetUnitMaxHp(&attacker->unit) - attacker->unit.hp) * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -804,8 +804,8 @@ void specialSkillDaylightEffect(struct BattleUnit* attacker, struct BattleUnit* 
 {
     if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
     {
-        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
-            attacker->unit.hp = attacker->unit.maxHp;
+        if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.3)
+            attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
         else
             attacker->unit.hp += gBattleStats.damage * 0.3;
 
@@ -818,8 +818,8 @@ void specialSkillNoontimeEffect(struct BattleUnit* attacker, struct BattleUnit* 
 {
     if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
     {
-        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
-            attacker->unit.hp = attacker->unit.maxHp;
+        if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.3)
+            attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
         else
             attacker->unit.hp += gBattleStats.damage * 0.3;
 
@@ -832,8 +832,8 @@ void specialSkillSolEffect(struct BattleUnit* attacker, struct BattleUnit* defen
 {
     if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
     {
-        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
-            attacker->unit.hp = attacker->unit.maxHp;
+        if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.5)
+            attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
         else
             attacker->unit.hp += gBattleStats.damage * 0.5;
 
@@ -861,8 +861,8 @@ void specialSkillAetherEffect(struct BattleUnit* attacker, struct BattleUnit* de
         {
             attacker->nonZeroDamage = 1;
 
-            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
-                attacker->unit.hp = attacker->unit.maxHp;
+            if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.5)
+                attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
             else
                 attacker->unit.hp += gBattleStats.damage * 0.5;
 
@@ -891,8 +891,8 @@ void specialSkillRadientAetherEffect(struct BattleUnit* attacker, struct BattleU
         {
             attacker->nonZeroDamage = 1;
 
-            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
-                attacker->unit.hp = attacker->unit.maxHp;
+            if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.5)
+                attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
             else
                 attacker->unit.hp += gBattleStats.damage * 0.5;
 
@@ -922,8 +922,8 @@ void specialSkillSiriusEffect(struct BattleUnit* attacker, struct BattleUnit* de
         {
             attacker->nonZeroDamage = 1;
 
-            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
-                attacker->unit.hp = attacker->unit.maxHp;
+            if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.3)
+                attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
             else
                 attacker->unit.hp += gBattleStats.damage * 0.3;
 
@@ -936,7 +936,7 @@ void specialSkillSiriusEffect(struct BattleUnit* attacker, struct BattleUnit* de
 //—^‚¦‚½ƒ_ƒ[ƒW‚Ì25%©•ª‚ğ‰ñ•œ
 void specialSkillOpenFutureEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = attacker->unit.def * 0.5;
+    int damagePlus = GetUnitDefense(&attacker->unit) * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -951,8 +951,8 @@ void specialSkillOpenFutureEffect(struct BattleUnit* attacker, struct BattleUnit
     {
         attacker->nonZeroDamage = 1;
 
-        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.25)
-            attacker->unit.hp = attacker->unit.maxHp;
+        if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.25)
+            attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
         else
             attacker->unit.hp += gBattleStats.damage * 0.25;
 
@@ -2633,6 +2633,332 @@ void BattleUpdateBattleStatsWithPassiveSkills(struct BattleUnit* attacker, struc
     BattleUpdateBattleStatsWithDefenderPassiveSkillS(attacker, defender);
 }
 
+void PassiveSkillAEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    switch(getUnitPassiveSkillA(&attacker->unit))
+    {
+        case PASSIVE_SKILL_A_FURY_1:
+            if(attacker->unit.hp < 2)
+                break;
+            attacker->unit.hp -= 2;
+            if(attacker->unit.hp < 1)
+                attacker->unit.hp = 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_2:
+            if(attacker->unit.hp < 2)
+                break;
+            attacker->unit.hp -= 4;
+            if(attacker->unit.hp < 1)
+                attacker->unit.hp = 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_3:
+            if(attacker->unit.hp < 2)
+                break;
+            attacker->unit.hp -= 6;
+            if(attacker->unit.hp < 1)
+                attacker->unit.hp = 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_4:
+            if(attacker->unit.hp < 2)
+                break;
+            attacker->unit.hp -= 8;
+            if(attacker->unit.hp < 1)
+                attacker->unit.hp = 1;
+            break;
+        default:
+            break;
+    }
+
+    switch(getUnitPassiveSkillA(&defender->unit))
+    {
+        case PASSIVE_SKILL_A_FURY_1:
+            if(defender->unit.hp < 2)
+                break;
+            defender->unit.hp -= 2;
+            if(defender->unit.hp < 1)
+                defender->unit.hp = 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_2:
+            if(defender->unit.hp < 2)
+                break;
+            defender->unit.hp -= 4;
+            if(defender->unit.hp < 1)
+                defender->unit.hp = 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_3:
+            if(defender->unit.hp < 2)
+                break;
+            defender->unit.hp -= 6;
+            if(defender->unit.hp < 1)
+                defender->unit.hp = 1;
+            break;
+        case PASSIVE_SKILL_A_FURY_4:
+            if(defender->unit.hp < 2)
+                break;
+            defender->unit.hp -= 8;
+            if(defender->unit.hp < 1)
+                defender->unit.hp = 1;
+            break;
+        default:
+            break;
+    }
+}
+
+void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    switch(getUnitPassiveSkillB(&attacker->unit))
+    {
+        default:
+            break;
+    }
+
+    switch(getUnitPassiveSkillB(&defender->unit))
+    {
+        default:
+            break;
+    }
+}
+
+void reduceHPKeepAlive(struct Unit *unit, int damage, int side)
+{
+    if(unit->side == side && unit->hp)
+    {
+        unit->hp -= damage;
+        if(unit->hp < 1)
+            unit->hp = 1;
+    }
+}
+
+void reducePlayerHPKeepAlive(struct Unit *unit, int damage)
+{
+    reduceHPKeepAlive(unit, damage, PlayerSide);
+}
+
+void reduceEnemyHPKeepAlive(struct Unit *unit, int damage)
+{
+    reduceHPKeepAlive(unit, damage, EnemySide);
+}
+
+void reduceNPCHPKeepAlive(struct Unit *unit, int damage)
+{
+    reduceHPKeepAlive(unit, damage, NPCSide);
+}
+
+void reduceP4HPKeepAlive(struct Unit *unit, int damage)
+{
+    reduceHPKeepAlive(unit, damage, P4Side);
+}
+
+void reduceHPBy3(struct Unit *unit, int side)
+{
+    reduceHPKeepAlive(unit, 3, side);
+}
+
+void reduceHPBy5(struct Unit *unit, int side)
+{
+    reduceHPKeepAlive(unit, 5, side);
+}
+
+void reduceHPBy7(struct Unit *unit, int side)
+{
+    reduceHPKeepAlive(unit, 7, side);
+}
+
+void reduceHPBy10(struct Unit *unit, int side)
+{
+    reduceHPKeepAlive(unit, 10, side);
+}
+
+void reducePlayerHPBy3(struct Unit *unit)
+{
+    reducePlayerHPKeepAlive(unit, 3);
+}
+
+void reducePlayerHPBy5(struct Unit *unit)
+{
+    reducePlayerHPKeepAlive(unit, 5);
+}
+
+void reducePlayerHPBy7(struct Unit *unit)
+{
+    reducePlayerHPKeepAlive(unit, 7);
+}
+
+void reducePlayerHPBy10(struct Unit *unit)
+{
+    reducePlayerHPKeepAlive(unit, 10);
+}
+
+void reduceEnemyHPBy3(struct Unit *unit)
+{
+    reduceEnemyHPKeepAlive(unit, 3);
+}
+
+void reduceEnemyHPBy5(struct Unit *unit)
+{
+    reduceEnemyHPKeepAlive(unit, 5);
+}
+
+void reduceEnemyHPBy7(struct Unit *unit)
+{
+    reduceEnemyHPKeepAlive(unit, 7);
+}
+
+void reduceEnemyHPBy10(struct Unit *unit)
+{
+    reduceEnemyHPKeepAlive(unit, 10);
+}
+
+void reduceNPCHPBy3(struct Unit *unit)
+{
+    reduceNPCHPKeepAlive(unit, 3);
+}
+
+void reduceNPCHPBy5(struct Unit *unit)
+{
+    reduceNPCHPKeepAlive(unit, 5);
+}
+
+void reduceNPCHPBy7(struct Unit *unit)
+{
+    reduceNPCHPKeepAlive(unit, 7);
+}
+
+void reduceNPCHPBy10(struct Unit *unit)
+{
+    reduceNPCHPKeepAlive(unit, 10);
+}
+
+void reduceP4HPBy3(struct Unit *unit)
+{
+    reduceP4HPKeepAlive(unit, 3);
+}
+
+void reduceP4HPBy5(struct Unit *unit)
+{
+    reduceP4HPKeepAlive(unit, 5);
+}
+
+void reduceP4HPBy7(struct Unit *unit)
+{
+    reduceP4HPKeepAlive(unit, 7);
+}
+
+void reduceP4HPBy10(struct Unit *unit)
+{
+    reduceP4HPKeepAlive(unit, 10);
+}
+
+void PassiveSkillCEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    switch(getUnitPassiveSkillC(&gBattleActor.unit))
+    {
+        case PASSIVE_SKILL_C_SAVAGE_BLOW_1:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reducePlayerHPBy3);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceEnemyHPBy3);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceNPCHPBy3);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceP4HPBy3);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_SAVAGE_BLOW_2:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reducePlayerHPBy5);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceEnemyHPBy5);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceNPCHPBy5);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceP4HPBy5);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_SAVAGE_BLOW_3:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reducePlayerHPBy7);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceEnemyHPBy7);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceNPCHPBy7);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceP4HPBy7);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_SAVAGE_BLOW_4:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reducePlayerHPBy10);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceEnemyHPBy10);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceNPCHPBy10);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceP4HPBy10);
+                    break;
+            }
+            break;
+
+        default:
+            break;
+    }
+
+    switch(getUnitPassiveSkillC(&gBattleTarget.unit))
+    {
+        default:
+            break;
+    }
+}
+
+void PassiveSkillSEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    switch(getUnitPassiveSkillS(&attacker->unit))
+    {
+        default:
+            break;
+    }
+
+    switch(getUnitPassiveSkillS(&defender->unit))
+    {
+        default:
+            break;
+    }
+}
+
+void PassiveSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    PassiveSkillAEffectAfterBattle(attacker, defender);
+    PassiveSkillBEffectAfterBattle(attacker, defender);
+    PassiveSkillCEffectAfterBattle(attacker, defender);
+    PassiveSkillSEffectAfterBattle(attacker, defender);
+}
+
 char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     char hit = 0;
@@ -2672,7 +2998,10 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
 
     // special skill effect after battle
     if(gBattleHitIterator->info & BATTLE_HIT_INFO_FINISHES)
+    {
         SpecialSkillEffectAfterBattle(attacker, defender);
+        PassiveSkillEffectAfterBattle(attacker, defender);
+    }
 
     gBattleHitIterator++;
     return hit;
@@ -3196,11 +3525,11 @@ const int sizeofBattleUnit = sizeof(struct BattleUnit);
 void ComputeBattleUnitDefense(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     if (GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE)
-        attacker->battleDefense = attacker->terrainResistance + attacker->unit.res;
+        attacker->battleDefense = attacker->terrainResistance + GetUnitResistance(&attacker->unit);
     else if (GetItemAttributes(defender->weapon) & IA_MAGIC)
-        attacker->battleDefense = attacker->terrainResistance + attacker->unit.res;
+        attacker->battleDefense = attacker->terrainResistance + GetUnitResistance(&attacker->unit);
     else
-        attacker->battleDefense = attacker->terrainDefense + attacker->unit.def;
+        attacker->battleDefense = attacker->terrainDefense + GetUnitDefense(&attacker->unit);
 }
 
 void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -3259,7 +3588,7 @@ void ComputeBattleUnitSpeed(struct BattleUnit* bu)
     if (effWt < 0)
         effWt = 0;
 
-    bu->battleSpeed = bu->unit.spd - effWt;
+    bu->battleSpeed = GetUnitSpeed(&bu->unit) - effWt;
 
     if (bu->battleSpeed < 0)
         bu->battleSpeed = 0;
@@ -3268,13 +3597,13 @@ void ComputeBattleUnitSpeed(struct BattleUnit* bu)
 // Tactician bonus is removed
 void ComputeBattleUnitHitRate(struct BattleUnit* bu)
 {
-    bu->battleHitRate = (bu->unit.skl * 2) + GetItemHit(bu->weapon) + (bu->unit.luk / 2) + bu->wTriangleHitBonus;
+    bu->battleHitRate = (GetUnitSkill(&bu->unit) * 2) + GetItemHit(bu->weapon) + (GetUnitLuck(&bu->unit) / 2) + bu->wTriangleHitBonus;
 }
 
 // Tactician bonus is removed
 void ComputeBattleUnitAvoidRate(struct BattleUnit* bu)
 {
-    bu->battleAvoidRate = (bu->battleSpeed * 2) + bu->terrainAvoid + (bu->unit.luk);
+    bu->battleAvoidRate = (bu->battleSpeed * 2) + bu->terrainAvoid + (GetUnitLuck(&bu->unit));
 
     if (bu->battleAvoidRate < 0)
         bu->battleAvoidRate = 0;
@@ -3282,7 +3611,7 @@ void ComputeBattleUnitAvoidRate(struct BattleUnit* bu)
 
 void ComputeBattleUnitCritRate(struct BattleUnit* bu)
 {
-    bu->battleCritRate = GetItemCrit(bu->weapon) + (bu->unit.skl / 2);
+    bu->battleCritRate = GetItemCrit(bu->weapon) + (GetUnitSkill(&bu->unit) / 2);
 
     if (bu->unit.character->ability_criticalBonus || bu->unit.job->ability_criticalBonus)
         bu->battleCritRate += 15;
@@ -3290,7 +3619,7 @@ void ComputeBattleUnitCritRate(struct BattleUnit* bu)
 
 void ComputeBattleUnitDodgeRate(struct BattleUnit* bu)
 {
-    bu->battleDodgeRate = bu->unit.luk;
+    bu->battleDodgeRate = GetUnitLuck(&bu->unit);
 }
 
 void ComputeBattleUnitSupportBonuses(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -3383,6 +3712,9 @@ void ComputePassiveSkillCSpur(struct Unit *unit)
             case PASSIVE_SKILL_C_SPUR_ATK_3:
                 attacker->battleAttack += 4;
                 break;
+            case PASSIVE_SKILL_C_SPUR_ATK_4:
+                attacker->battleAttack += 5;
+                break;
             case PASSIVE_SKILL_C_SPUR_RES_1:
                 if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
                     attacker->battleDefense += 2;
@@ -3394,6 +3726,9 @@ void ComputePassiveSkillCSpur(struct Unit *unit)
             case PASSIVE_SKILL_C_SPUR_RES_3:
                 if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
                     attacker->battleDefense += 4;
+            case PASSIVE_SKILL_C_SPUR_RES_4:
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 5;
                 break;
             default:
                 break;
@@ -4493,19 +4828,25 @@ const struct ProcCmd gProcRedrawMenu = PROC_CALL_ROUTINE(RedrawMenu);
 
 const struct PassiveSkill passiveSkillAs[] = {
     {"[[", "ƒpƒbƒVƒuƒXƒLƒ‹‚`‚ğ‚Á‚Ä‚¢‚È‚¢", "NO DATA", "No passive skill A available."},
-    {"‹S_‚ÌˆêŒ‚‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚Q", "Death Blow 1", "If unit initiates      combat, grants Atk+2 during combat."},
-    {"‹S_‚ÌˆêŒ‚‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚S", "Death Blow 2", "If unit initiates      combat, grants Atk+4 during combat."},
-    {"‹S_‚ÌˆêŒ‚‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚U", "Death Blow 3", "If unit initiates      combat, grants Atk+6 during combat."},
-    {"‹S_‚ÌˆêŒ‚‚S", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚W", "Death Blow 4", "If unit initiates      combat, grants Atk+8 during combat."},
+    {"‹S_‚ÌˆêŒ‚‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚Q", "Death Blow 1", "If unit initiates combat, grants Atk+2 during combat."},
+    {"‹S_‚ÌˆêŒ‚‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚S", "Death Blow 2", "If unit initiates combat, grants Atk+4 during combat."},
+    {"‹S_‚ÌˆêŒ‚‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚U", "Death Blow 3", "If unit initiates combat, grants Atk+6 during combat."},
+    {"‹S_‚ÌˆêŒ‚‚S", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚W", "Death Blow 4", "If unit initiates combat, grants Atk+8 during combat."},
     {"‘¬‚³‚P", "‘¬‚³{‚P", "Speed +1", "Grants Spd+1."},
     {"‘¬‚³‚Q", "‘¬‚³{‚Q", "Speed +2", "Grants Spd+2."},
     {"‘¬‚³‚R", "‘¬‚³{‚R", "Speed +3", "Grants Spd+3."},
+    {"‘¬‚³‚S", "‘¬‚³{‚S", "Speed +4", "Grants Spd+4."},
+    {"‚q•±v‚P", "UŒ‚A‘¬‚³Aç”õA–‚–h{‚PBí“¬ŒãA©•ª‚É‚Qƒ_ƒ[ƒWB", "Fury 1", "Grants Atk/Spd/Def/Res+1. After combat, deals 2 damage to unit."},
+    {"‚q•±v‚Q", "UŒ‚A‘¬‚³Aç”õA–‚–h{‚QBí“¬ŒãA©•ª‚É‚Sƒ_ƒ[ƒWB", "Fury 2", "Grants Atk/Spd/Def/Res+2. After combat, deals 4 damage to unit."},
+    {"‚q•±v‚R", "UŒ‚A‘¬‚³Aç”õA–‚–h{‚RBí“¬ŒãA©•ª‚É‚Uƒ_ƒ[ƒWB", "Fury 3", "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."},
+    {"‚q•±v‚S", "UŒ‚A‘¬‚³Aç”õA–‚–h{‚SBí“¬ŒãA©•ª‚É‚Wƒ_ƒ[ƒWB", "Fury 4", "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
     {0, 0, 0, 0},
     [CHARACTER_ALFONSE_ID] = {PASSIVE_SKILL_A_DEATH_BLOW_1, PASSIVE_SKILL_A_DEATH_BLOW_2, PASSIVE_SKILL_A_DEATH_BLOW_3, PASSIVE_SKILL_A_DEATH_BLOW_4},
-    [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_A_SPEED_1, PASSIVE_SKILL_A_SPEED_2, PASSIVE_SKILL_A_SPEED_3, 0},
+    [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_A_SPEED_1, PASSIVE_SKILL_A_SPEED_2, PASSIVE_SKILL_A_SPEED_3, PASSIVE_SKILL_A_SPEED_4},
+    [CHARACTER_BRUNO_ID] = {PASSIVE_SKILL_A_FURY_1, PASSIVE_SKILL_A_FURY_2, PASSIVE_SKILL_A_FURY_3, PASSIVE_SKILL_A_FURY_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -4534,11 +4875,18 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"‘Ò‚¿•š‚¹‚P", "©•ª‚Ì‚g‚o‚ª‚S•ª‚Ì‚PˆÈ‰º‚ÅA“G‚©‚çUŒ‚‚³‚ê‚½Aæ§UŒ‚", "Vantage 1", "If unit's HP <= 25% and foe initiates combat, unit can counterattack before foe's first attack."},
     {"‘Ò‚¿•š‚¹‚Q", "©•ª‚Ì‚g‚o‚ª”¼•ªˆÈ‰º‚ÅA“G‚©‚çUŒ‚‚³‚ê‚½Aæ§UŒ‚", "Vantage 2", "If unit's HP <= 50% and foe initiates combat, unit can counterattack before foe's first attack."},
     {"‘Ò‚¿•š‚¹‚R", "©•ª‚Ì‚g‚o‚ª‚S•ª‚Ì‚RˆÈ‰º‚ÅA“G‚©‚çUŒ‚‚³‚ê‚½Aæ§UŒ‚", "Vantage 3", "If unit's HP <= 75% and foe initiates combat, unit can counterattack before foe's first attack."},
+    {"‘Ò‚¿•š‚¹‚S", "“G‚©‚çUŒ‚‚³‚ê‚½Aæ§UŒ‚", "Vantage 4", "If foe initiates combat, unit can counterattack before foe's first attack."},
+    {"‰ñ•œ‚P", "‚Sƒ^[ƒ“‚É‚P‰ñAƒ^[ƒ“ŠJnA‚g‚o‚P‚O‰ñ•œ", "Renewal 1", "At the start of every fourth turn, restores 10 HP."},
+    {"‰ñ•œ‚Q", "‚Rƒ^[ƒ“‚É‚P‰ñAƒ^[ƒ“ŠJnA‚g‚o‚P‚O‰ñ•œ", "Renewal 2", "At the start of every third turn, restores 10 HP."},
+    {"‰ñ•œ‚R", "Šï”ƒ^[ƒ“‚É‚P‰ñAƒ^[ƒ“ŠJnA‚g‚o‚P‚O‰ñ•œ", "Renewal 3", "At the start of odd-numbered turns, restores 10 HP."},
+    {"‰ñ•œ‚S", "ƒ^[ƒ“ŠJnA‚g‚o‚P‚O‰ñ•œ", "Renewal 4", "At the start of turn, restores 10 HP."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
     {0, 0, 0, 0},
-    [CHARACTER_ANNA_ID] = {PASSIVE_SKILL_B_VANTAGE_1, PASSIVE_SKILL_B_VANTAGE_2, PASSIVE_SKILL_B_VANTAGE_3, 0},
+    [CHARACTER_ANNA_ID] = {PASSIVE_SKILL_B_VANTAGE_1, PASSIVE_SKILL_B_VANTAGE_2, PASSIVE_SKILL_B_VANTAGE_3, PASSIVE_SKILL_B_VANTAGE_4},
+    [CHARACTER_BRUNO_ID] = {PASSIVE_SKILL_B_VANTAGE_1, PASSIVE_SKILL_B_VANTAGE_2, PASSIVE_SKILL_B_VANTAGE_3, PASSIVE_SKILL_B_VANTAGE_4},
+    [CHARACTER_VERONICA_ID] = {PASSIVE_SKILL_B_RENEWAL_1, PASSIVE_SKILL_B_RENEWAL_2, PASSIVE_SKILL_B_RENEWAL_3, PASSIVE_SKILL_B_RENEWAL_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -4567,19 +4915,27 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"UŒ‚‚Ì–äÍ‚P", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚{‚Q", "Spur Atk 1", "Grants Atk+2 to adjacent allies during combat."},
     {"UŒ‚‚Ì–äÍ‚Q", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚{‚R", "Spur Atk 2", "Grants Atk+3 to adjacent allies during combat."},
     {"UŒ‚‚Ì–äÍ‚R", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚{‚S", "Spur Atk 3", "Grants Atk+4 to adjacent allies during combat."},
+    {"UŒ‚‚Ì–äÍ‚S", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚{‚T", "Spur Atk 4", "Grants Atk+5 to adjacent allies during combat."},
     {"–‚–h‚Ì–äÍ‚P", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†A–‚–h{‚Q", "Spur Res 1", "Grants Res+2 to adjacent allies during combat."},
     {"–‚–h‚Ì–äÍ‚Q", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†A–‚–h{‚R", "Spur Res 2", "Grants Res+3 to adjacent allies during combat."},
     {"–‚–h‚Ì–äÍ‚R", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†A–‚–h{‚S", "Spur Res 3", "Grants Res+4 to adjacent allies during combat."},
+    {"–‚–h‚Ì–äÍ‚S", "üˆÍ‚Pƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†A–‚–h{‚T", "Spur Res 4", "Grants Res+5 to adjacent allies during combat."},
     {"ç”õ‚Ì‚±‚Ô‚P", "ƒ^[ƒ“ŠJnAüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ìç”õ{‚Qi‚Pƒ^[ƒ“j", "Fortify Def 1", "At start of turn, grants Def+2 to adjacent allies for 1 turn."},
     {"ç”õ‚Ì‚±‚Ô‚Q", "ƒ^[ƒ“ŠJnAüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ìç”õ{‚Ri‚Pƒ^[ƒ“j", "Fortify Def 2", "At start of turn, grants Def+3 to adjacent allies for 1 turn."},
     {"ç”õ‚Ì‚±‚Ô‚R", "ƒ^[ƒ“ŠJnAüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ìç”õ{‚Si‚Pƒ^[ƒ“j", "Fortify Def 3", "At start of turn, grants Def+4 to adjacent allies for 1 turn."},
+    {"ç”õ‚Ì‚±‚Ô‚S", "ƒ^[ƒ“ŠJnAüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ìç”õ{‚Ti‚Pƒ^[ƒ“j", "Fortify Def 4", "At start of turn, grants Def+5 to adjacent allies for 1 turn."},
+    {"€‚Ì“f‘§‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬ŒãA“G‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚É‚Rƒ_ƒ[ƒW", "Savage Blow 1", "If unit initiates combat, deals 3 damage to foes within 2 spaces of target after combat."},
+    {"€‚Ì“f‘§‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬ŒãA“G‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚É‚Tƒ_ƒ[ƒW", "Savage Blow 2", "If unit initiates combat, deals 5 damage to foes within 2 spaces of target after combat."},
+    {"€‚Ì“f‘§‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬ŒãA“G‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚É‚Vƒ_ƒ[ƒW", "Savage Blow 3", "If unit initiates combat, deals 7 damage to foes within 2 spaces of target after combat."},
+    {"€‚Ì“f‘§‚S", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬ŒãA“G‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚É‚P‚Oƒ_ƒ[ƒW", "Savage Blow 4", "If unit initiates combat, deals 10 damage to foes within 2 spaces of target after combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
     {0, 0, 0, 0},
-    [CHARACTER_ALFONSE_ID] = {PASSIVE_SKILL_C_SPUR_ATK_1, PASSIVE_SKILL_C_SPUR_ATK_2, PASSIVE_SKILL_C_SPUR_ATK_3, 0},
-    [CHARACTER_ANNA_ID] = {PASSIVE_SKILL_C_SPUR_RES_1, PASSIVE_SKILL_C_SPUR_RES_2, PASSIVE_SKILL_C_SPUR_RES_3, 0},
-    [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_C_FORTIFY_DEF_1, PASSIVE_SKILL_C_FORTIFY_DEF_2, PASSIVE_SKILL_C_FORTIFY_DEF_3, 0},
+    [CHARACTER_ALFONSE_ID] = {PASSIVE_SKILL_C_SPUR_ATK_1, PASSIVE_SKILL_C_SPUR_ATK_2, PASSIVE_SKILL_C_SPUR_ATK_3, PASSIVE_SKILL_C_SPUR_ATK_4},
+    [CHARACTER_ANNA_ID] = {PASSIVE_SKILL_C_SPUR_RES_1, PASSIVE_SKILL_C_SPUR_RES_2, PASSIVE_SKILL_C_SPUR_RES_3, PASSIVE_SKILL_C_SPUR_RES_4},
+    [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_C_FORTIFY_DEF_1, PASSIVE_SKILL_C_FORTIFY_DEF_2, PASSIVE_SKILL_C_FORTIFY_DEF_3, PASSIVE_SKILL_C_FORTIFY_DEF_4},
+    [CHARACTER_VERONICA_ID] = {PASSIVE_SKILL_C_SAVAGE_BLOW_1, PASSIVE_SKILL_C_SAVAGE_BLOW_2, PASSIVE_SKILL_C_SAVAGE_BLOW_3, PASSIVE_SKILL_C_SAVAGE_BLOW_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
@@ -4677,6 +5033,10 @@ void BattleGetBattleUnitOrder(struct BattleUnit** outAttacker, struct BattleUnit
                 *outAttacker = &gBattleTarget;
                 *outDefender = &gBattleActor;
             }
+            break;
+        case PASSIVE_SKILL_B_VANTAGE_4:
+            *outAttacker = &gBattleTarget;
+            *outDefender = &gBattleActor;
             break;
         default:
             break;

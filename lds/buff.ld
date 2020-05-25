@@ -16,3 +16,7 @@
 .text.DrawStatScreenBonusNumberInjector : {*(.text.DrawStatScreenBonusNumberInjector)}
 . = 0x8c01e54;
 .rodata.gProcPhaseSwitchInjector : {*(.rodata.gProcPhaseSwitchInjector)}
+. = 0x8c05e68;
+.rodata.gProcHealUnitsHPEachTurnInjector : {*(.rodata.gProcHealUnitsHPEachTurnInjector)}
+. = 0x8018e60;
+.text.GetUnitHpInjector : {*(.text.GetUnitHpInjector)}
