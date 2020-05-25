@@ -1587,8 +1587,8 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "復讐",
-            "自分の最大ＨＰ-現ＨＰの半分を奥義ダメージに加算",
+            "ふくしゅう",
+            "自分の最大ＨＰー現ＨＰの半分を奥義ダメージに加算",
             "Vengeance",
             "Boosts damage by 50% of damage dealt to unit.",
             3,
@@ -4836,10 +4836,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"速さ２", "速さ＋２", "Speed +2", "Grants Spd+2."},
     {"速さ３", "速さ＋３", "Speed +3", "Grants Spd+3."},
     {"速さ４", "速さ＋４", "Speed +4", "Grants Spd+4."},
-    {"獅子奮迅１", "攻撃、速さ、守備、魔防＋１。戦闘後、自分に２ダメージ。", "Fury 1", "Grants Atk/Spd/Def/Res+1. After combat, deals 2 damage to unit."},
-    {"獅子奮迅２", "攻撃、速さ、守備、魔防＋２。戦闘後、自分に４ダメージ。", "Fury 2", "Grants Atk/Spd/Def/Res+2. After combat, deals 4 damage to unit."},
-    {"獅子奮迅３", "攻撃、速さ、守備、魔防＋３。戦闘後、自分に６ダメージ。", "Fury 3", "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."},
-    {"獅子奮迅４", "攻撃、速さ、守備、魔防＋４。戦闘後、自分に８ダメージ。", "Fury 4", "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit."},
+    {"獅子ふんじん１", "攻撃、速さ、守備、魔防＋１。戦闘後、自分に２ダメージ。", "Fury 1", "Grants Atk/Spd/Def/Res+1. After combat, deals 2 damage to unit."},
+    {"獅子ふんじん２", "攻撃、速さ、守備、魔防＋２。戦闘後、自分に４ダメージ。", "Fury 2", "Grants Atk/Spd/Def/Res+2. After combat, deals 4 damage to unit."},
+    {"獅子ふんじん３", "攻撃、速さ、守備、魔防＋３。戦闘後、自分に６ダメージ。", "Fury 3", "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."},
+    {"獅子ふんじん４", "攻撃、速さ、守備、魔防＋４。戦闘後、自分に８ダメージ。", "Fury 4", "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
