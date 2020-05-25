@@ -1,0 +1,134 @@
+{ "columns":15,
+ "image":"S1601.png",
+ "imageheight":320,
+ "imagewidth":240,
+ "margin":0,
+ "name":"S1601",
+ "spacing":0,
+ "terrains":[
+        {
+         "name":"\u5e73\u5730",
+         "properties":[
+                {
+                 "name":"default",
+                 "type":"bool",
+                 "value":true
+                }],
+         "tile":-1
+        }, 
+        {
+         "name":"\u5899\u58c1",
+         "tile":-1
+        }, 
+        {
+         "name":"\u7834\u5899",
+         "tile":-1
+        }],
+ "tilecount":300,
+ "tiledversion":"1.3.4",
+ "tileheight":16,
+ "tiles":[
+        {
+         "id":123,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":124,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":130,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":131,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":138,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":139,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":145,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":146,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":163,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":164,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":173,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":178,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":179,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":195,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":196,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":210,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":211,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":230,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":231,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":238,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":239,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":245,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":246,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":253,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":254,
+         "terrain":[1, 1, 1, 1]
+        }],
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.2
+}
