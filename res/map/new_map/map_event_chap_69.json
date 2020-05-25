@@ -1,4 +1,12 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"Fire Emblem (GBA)",
+         "target":"..\/..\/..\/src\/res\/map\/map\/map_chap_69.s"
+        }
+    },
  "height":20,
  "infinite":false,
  "layers":[
@@ -308,7 +316,7 @@
                         {
                          "name":"Item",
                          "type":"string",
-                         "value":"AfasDrops"
+                         "value":"None"
                         }, 
                         {
                          "name":"Level",
