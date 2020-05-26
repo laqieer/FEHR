@@ -47,6 +47,7 @@ EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_EVENT_1
 	TEX1 MID_SCENARIO_ENDING_S1601
+    UnlockBook1ClearAchievement
 	MNCH 70
 	ENDA
 AllyUnitsENM:
