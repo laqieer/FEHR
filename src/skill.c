@@ -5197,16 +5197,16 @@ void BattleUnwind() {
 
         gBattleHitIterator->info |= BATTLE_HIT_INFO_BEGIN;
 
-        //if (!BattleGenerateRoundHits(attacker, defender)) {
-        if (!BattleGenerateRoundHitsOriginal(attacker, defender)) {
+        if (!BattleGenerateRoundHits(attacker, defender)) {
+        //if (!BattleGenerateRoundHitsOriginal(attacker, defender)) {
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
 
-            //if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender)) {
-            if (!BattleGenerateRoundHitsOriginal(defender, attacker) && BattleGetFollowUpOrderOriginal(&attacker, &defender)) {
+            if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender)) {
+            //if (!BattleGenerateRoundHitsOriginal(defender, attacker) && BattleGetFollowUpOrderOriginal(&attacker, &defender)) {
                 gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
 
-                //BattleGenerateRoundHits(attacker, defender);
-                BattleGenerateRoundHitsOriginal(attacker, defender);
+                BattleGenerateRoundHits(attacker, defender);
+                //BattleGenerateRoundHitsOriginal(attacker, defender);
             }
         }
     //} while (0);
