@@ -254,6 +254,15 @@ enum {
 };
 
 enum {
+    WPN_EFFECT_NONE    = 0,
+    WPN_EFFECT_POISON  = 1,
+    WPN_EFFECT_HPDRAIN = 2,
+    WPN_EFFECT_HPHALVE = 3,
+    WPN_EFFECT_DEVIL   = 4,
+    WPN_EFFECT_PETRIFY = 5,
+};
+
+enum {
     // Weapon exp needed to have a given weapon level
 
     WPN_EXP_0 = 0,
@@ -268,5 +277,7 @@ enum {
 #define ITEM_INDEX(aItem) ((aItem) & 0xFF)
 
 #define ITEM_EMBLEM_SEAL_ICON 157
+
+int GetItemWeaponEffect(int item);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_ITEM_H

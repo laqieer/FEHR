@@ -30,3 +30,11 @@
 .text.BattleGetBattleUnitOrderInjector : {*(.text.BattleGetBattleUnitOrderInjector)}
 . = 0x80C12F4 + 0x80 * 0xAD;
 .rodata.new_item_icons : {*/new_item_icons.*(.rodata)}
+/*. = 0x8028868;
+.text.BattleGenerateRealInjector : {*(.text.BattleGenerateRealInjector)}
+. = 0x802889c;
+.text.BattleGenerateBallistaRealInjector : {*(.text.BattleGenerateBallistaRealInjector)}*/
+. = 0x8029460;
+.text.BattleUnwindInjector : {*(.text.BattleUnwindInjector)}
+. = 0x80288b0;
+.text.BattleGenerateInjector : {*(.text.BattleGenerateInjector)}

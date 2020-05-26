@@ -23,6 +23,7 @@
 #include "music_id.h"
 #include "popup.h"
 #include "gba_debug_print.h"
+#include "injector.h"
 
 /*
  * Specials. ‰œ‹`ƒXƒLƒ‹.
@@ -2635,73 +2636,89 @@ void BattleUpdateBattleStatsWithPassiveSkills(struct BattleUnit* attacker, struc
 
 void PassiveSkillAEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    switch(getUnitPassiveSkillA(&attacker->unit))
+    struct Unit *unit;
+
+    //unit = GetUnit(attacker->unit.number + 0x40 * attacker->unit.side);
+    unit = &attacker->unit;
+
+    Debugf("actor hp: %d", unit->hp);
+
+    switch(getUnitPassiveSkillA(unit))
     {
         case PASSIVE_SKILL_A_FURY_1:
-            if(attacker->unit.hp < 2)
+            if(unit->hp < 2)
                 break;
-            attacker->unit.hp -= 2;
-            if(attacker->unit.hp < 1)
-                attacker->unit.hp = 1;
+            unit->hp -= 2;
+            if(unit->hp < 1)
+                unit->hp = 1;
             break;
         case PASSIVE_SKILL_A_FURY_2:
-            if(attacker->unit.hp < 2)
+            if(unit->hp < 2)
                 break;
-            attacker->unit.hp -= 4;
-            if(attacker->unit.hp < 1)
-                attacker->unit.hp = 1;
+            unit->hp -= 4;
+            if(unit->hp < 1)
+                unit->hp = 1;
             break;
         case PASSIVE_SKILL_A_FURY_3:
-            if(attacker->unit.hp < 2)
+            if(unit->hp < 2)
                 break;
-            attacker->unit.hp -= 6;
-            if(attacker->unit.hp < 1)
-                attacker->unit.hp = 1;
+            unit->hp -= 6;
+            if(unit->hp < 1)
+                unit->hp = 1;
             break;
         case PASSIVE_SKILL_A_FURY_4:
-            if(attacker->unit.hp < 2)
+            if(unit->hp < 2)
                 break;
-            attacker->unit.hp -= 8;
-            if(attacker->unit.hp < 1)
-                attacker->unit.hp = 1;
+            unit->hp -= 8;
+            if(unit->hp < 1)
+                unit->hp = 1;
             break;
         default:
             break;
     }
 
-    switch(getUnitPassiveSkillA(&defender->unit))
+    Debugf("actor hp: %d", unit->hp);
+
+    //unit = GetUnit(defender->unit.number + 0x40 * defender->unit.side);
+    unit = &defender->unit;
+
+    Debugf("target hp: %d", unit->hp);
+
+    switch(getUnitPassiveSkillA(unit))
     {
         case PASSIVE_SKILL_A_FURY_1:
-            if(defender->unit.hp < 2)
+            if(unit->hp < 2)
                 break;
-            defender->unit.hp -= 2;
-            if(defender->unit.hp < 1)
-                defender->unit.hp = 1;
+            unit->hp -= 2;
+            if(unit->hp < 1)
+                unit->hp = 1;
             break;
         case PASSIVE_SKILL_A_FURY_2:
-            if(defender->unit.hp < 2)
+            if(unit->hp < 2)
                 break;
-            defender->unit.hp -= 4;
-            if(defender->unit.hp < 1)
-                defender->unit.hp = 1;
+            unit->hp -= 4;
+            if(unit->hp < 1)
+                unit->hp = 1;
             break;
         case PASSIVE_SKILL_A_FURY_3:
-            if(defender->unit.hp < 2)
+            if(unit->hp < 2)
                 break;
-            defender->unit.hp -= 6;
-            if(defender->unit.hp < 1)
-                defender->unit.hp = 1;
+            unit->hp -= 6;
+            if(unit->hp < 1)
+                unit->hp = 1;
             break;
         case PASSIVE_SKILL_A_FURY_4:
-            if(defender->unit.hp < 2)
+            if(unit->hp < 2)
                 break;
-            defender->unit.hp -= 8;
-            if(defender->unit.hp < 1)
-                defender->unit.hp = 1;
+            unit->hp -= 8;
+            if(unit->hp < 1)
+                unit->hp = 1;
             break;
         default:
             break;
     }
+
+    Debugf("target hp: %d", unit->hp);
 }
 
 void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -2996,12 +3013,14 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
     if (defender->unit.hp == 0)
         initUnitSkillCD(&defender->unit);
 
-    // special skill effect after battle
+    // special skill effect after battle if one dies after the battle
     if(gBattleHitIterator->info & BATTLE_HIT_INFO_FINISHES)
     {
-        SpecialSkillEffectAfterBattle(attacker, defender);
-        PassiveSkillEffectAfterBattle(attacker, defender);
+        //SpecialSkillEffectAfterBattle(attacker, defender);
+        //PassiveSkillEffectAfterBattle(attacker, defender);
     }
+
+    //Debugf("Battle Hit: attributes: "BYTE_TO_BINARY_PATTERN"b, info: "BYTE_TO_BINARY_PATTERN"b, hpChange: %d", BYTE_TO_BINARY(gBattleHitIterator->attributes), BYTE_TO_BINARY(gBattleHitIterator->info), gBattleHitIterator->hpChange);
 
     gBattleHitIterator++;
     return hit;
@@ -3011,7 +3030,53 @@ char BattleGenerateHitInjector(struct BattleUnit* attacker, struct BattleUnit* d
 {
     return BattleGenerateHit(attacker, defender);
 }
+/*
+void SpecialSkillEffectPostRealBattle(struct Unit* actor, struct Unit* target)
+{
+    SpecialSkillEffectAfterBattle(actor, target);
+}
 
+void PassiveSkillEffectPostRealBattle(struct Unit* actor, struct Unit* target)
+{
+    PassiveSkillEffectAfterBattle(actor, target);
+}
+
+void PostRealBattleInjector(struct Unit* actor, struct Unit* target)
+{
+    SpecialSkillEffectPostRealBattle(actor, target);
+    PassiveSkillEffectPostRealBattle(actor, target);
+}
+
+void BattleGenerateReal(struct Unit* actor, struct Unit* target)
+{
+    gBattleStats.config = BATTLE_CONFIG_REAL;
+    BattleGenerateRealInternal(actor, target);
+    PostRealBattleInjector(actor, target);
+}
+
+void BattleGenerateBallistaReal(struct Unit* actor, struct Unit* target) {
+    gBattleStats.config = BATTLE_CONFIG_REAL | BATTLE_CONFIG_BALLISTA;
+    BattleGenerateRealInternal(actor, target);
+    PostRealBattleInjector(actor, target);
+}
+
+#pragma GCC push_options
+#pragma GCC optimize ("-O2")
+
+void BattleGenerateRealInjector(struct Unit* actor, struct Unit* target)
+{
+    //BattleGenerateReal(actor, target);
+    InjectorR2(BattleGenerateReal);
+}
+
+void BattleGenerateBallistaRealInjector(struct Unit* actor, struct Unit* target)
+{
+    //BattleGenerateBallistaReal(actor, target);
+    InjectorR2(BattleGenerateBallistaReal);
+}
+
+#pragma GCC pop_options
+*/
 int GetUnitItemHealAmount(struct Unit* unit, int item)
 {
     int result = 0;
@@ -5048,6 +5113,143 @@ void BattleGetBattleUnitOrderInjector(struct BattleUnit** outAttacker, struct Ba
 {
     //BattleGetBattleUnitOrder(outAttacker, outDefender);
     asm("ldr r2,=BattleGetBattleUnitOrder\nbx r2");
+}
+
+int BattleCheckBraveEffect(struct BattleUnit* attacker) {
+    if (!(attacker->weaponAttributes & IA_BRAVE))
+        return 0;
+
+    gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_BRAVE;
+    return 1;
+}
+
+int GetBattleUnitHitCount(struct BattleUnit* attacker) {
+    int result = 1;
+
+    result <<= BattleCheckBraveEffect(attacker);
+
+    return result;
+}
+
+s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** outDefender) {
+    if (gBattleTarget.battleSpeed > 250)
+        return 0;
+
+    if (ABS(gBattleActor.battleSpeed - gBattleTarget.battleSpeed) < BATTLE_FOLLOWUP_SPEED_THRESHOLD)
+        return 0;
+
+    if (gBattleActor.battleSpeed > gBattleTarget.battleSpeed) {
+        *outAttacker = &gBattleActor;
+        *outDefender = &gBattleTarget;
+    } else {
+        *outAttacker = &gBattleTarget;
+        *outDefender = &gBattleActor;
+    }
+
+    if (GetItemWeaponEffect((*outAttacker)->weaponBefore) == WPN_EFFECT_HPHALVE)
+        return 0;
+
+    //if (GetItemIndex((*outAttacker)->weapon) == ITEM_MONSTER_STONE)
+    //    return 0;
+
+    return 1;
+}
+
+s8 BattleGenerateRoundHits(struct BattleUnit* attacker, struct BattleUnit* defender) {
+    int i, count;
+    u16 attrs; 
+
+    if (!attacker->weapon)
+        return 0;
+
+    attrs = gBattleHitIterator->attributes;
+    count = GetBattleUnitHitCount(attacker);
+
+    for (i = 0; i < count; ++i) {
+        gBattleHitIterator->attributes |= attrs;
+
+        if (BattleGenerateHit(attacker, defender))
+            return 1;
+    }
+
+    return 0;
+}
+
+void DebugPrintBattleHitArray()
+{
+    for(int i = 0; &gBattleHitArray[i] <= gBattleHitIterator; i++)
+    {
+        Debugf("gBattleHitArray[%d]: attr: 0x%x, info: 0x%x, hpChange: %d", i, gBattleHitArray[i].attributes, gBattleHitArray[i].info, gBattleHitArray[i].hpChange);
+    }
+}
+
+void BattleUnwind() {
+    ClearBattleHits();
+
+    // this do { ... } while (0); is required for match
+    // which is kind of neat because it implies scrapped plans for supporting some accost kind of thing
+
+    //do {
+        struct BattleUnit* attacker;
+        struct BattleUnit* defender;
+
+        BattleGetBattleUnitOrder(&attacker, &defender);
+
+        gBattleHitIterator->info |= BATTLE_HIT_INFO_BEGIN;
+
+        //if (!BattleGenerateRoundHits(attacker, defender)) {
+        if (!BattleGenerateRoundHitsOriginal(attacker, defender)) {
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+
+            //if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender)) {
+            if (!BattleGenerateRoundHitsOriginal(defender, attacker) && BattleGetFollowUpOrderOriginal(&attacker, &defender)) {
+                gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
+
+                //BattleGenerateRoundHits(attacker, defender);
+                BattleGenerateRoundHitsOriginal(attacker, defender);
+            }
+        }
+    //} while (0);
+
+    gBattleHitIterator->info |= BATTLE_HIT_INFO_END;
+        
+    SpecialSkillEffectAfterBattle(attacker, defender);
+    PassiveSkillEffectAfterBattle(attacker, defender);
+
+    //DebugPrintBattleHitArray();
+}
+
+void BattleUnwindInjector()
+{
+    BattleUnwind();
+}
+
+void BattleGenerate(struct Unit* actor, struct Unit* target) {
+    ComputeBattleUnitStats(&gBattleActor, &gBattleTarget);
+    ComputeBattleUnitStats(&gBattleTarget, &gBattleActor);
+
+    //ComputeBattleUnitEffectiveStats(&gBattleActor, &gBattleTarget);
+    //ComputeBattleUnitEffectiveStats(&gBattleTarget, &gBattleActor);
+    ComputeBattleUnitEffectiveStatsOriginal(&gBattleActor, &gBattleTarget);
+    ComputeBattleUnitEffectiveStatsOriginal(&gBattleTarget, &gBattleActor);
+
+    if (target == 0)
+        //ComputeBattleObstacleStats();
+        ComputeBattleObstacleStatsOriginal();
+
+    if ((gBattleStats.config & BATTLE_CONFIG_REAL) && (gActionData.scriptedBattleHits))
+        //BattleUnwindScripted();
+        BattleUnwindScriptedOriginal();
+    else
+        BattleUnwind();
+        //BattleUnwindOriginal();
+
+    DebugPrintBattleHitArray();
+}
+
+void BattleGenerateInjector(struct Unit* actor, struct Unit* target)
+{
+    BattleGenerate(actor, target);
 }
 
 /*

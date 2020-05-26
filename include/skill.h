@@ -156,7 +156,7 @@ enum {
     BATTLE_HIT_INFO_FINISHES     = (1 << 1),
     BATTLE_HIT_INFO_KILLS_TARGET = (1 << 2),
     BATTLE_HIT_INFO_RETALIATION  = (1 << 3),
-    BATTLE_HIT_INFO_END          = (1 << 4),
+    BATTLE_HIT_INFO_END          = (1 << 7), // 1 << 4 in FE8, 1 << 7 in FE7
 };
 
 enum { UNIT_ITEM_COUNT = 5 };
@@ -845,5 +845,14 @@ void ForEachUnitIn2SpacesExceptActorUnit(int x, int y, void(*func)(struct Unit *
 void ForEachUnitInCardinalDirection(int x, int y, void(*func)(struct Unit *unit));
 void ForEachUnitInCardinalDirectionExceptCenter(int x, int y, void(*func)(struct Unit *unit));
 
+void BattleGenerateRealInternal(struct Unit* actor, struct Unit* target);
+void ClearBattleHits();
+
+s8 BattleGenerateRoundHitsOriginal(struct BattleUnit* attacker, struct BattleUnit* defender);
+s8 BattleGetFollowUpOrderOriginal(struct BattleUnit** outAttacker, struct BattleUnit** outDefender);
+void ComputeBattleUnitEffectiveStatsOriginal(struct BattleUnit* attacker, struct BattleUnit* defender);
+void ComputeBattleObstacleStatsOriginal();
+void BattleUnwindOriginal();
+void BattleUnwindScriptedOriginal();
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
