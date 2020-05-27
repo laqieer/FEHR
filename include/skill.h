@@ -854,5 +854,6 @@ void ComputeBattleUnitEffectiveStatsOriginal(struct BattleUnit* attacker, struct
 void ComputeBattleObstacleStatsOriginal();
 void BattleUnwindOriginal();
 void BattleUnwindScriptedOriginal();
+void BattleAnimHitEffect(void *AIS,int ifMiss,int param_3,int param_4);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

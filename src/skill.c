@@ -5414,4 +5414,16 @@ const struct ProcCmd gProcNewPopupPassiveSkillUnlockedWhenLevelUp1 = PROC_LOOP_R
 const struct ProcCmd gProcNewPopupPassiveSkillUnlockedWhenLevelUp2 = PROC_LOOP_ROUTINE(newPopupPassiveSkillUnlockedWhenLevelUp);
 
 const u16 notQuitIfNoWeaponRankUp[6] = {0xd112, 0, 0, 0, 0, 0};
+/*
+void StartBattleAnimHitEffectsDefault(void *AIS, int ifMiss)
+{
+    //BattleAnimHitEffect(AIS, ifMiss, 3, 4);
+    BattleAnimHitEffect(gAISTable[0], ifMiss, 3, 4);
+    BattleAnimHitEffect(gAISTable[2], ifMiss, 3, 4);
+}
 
+void StartBattleAnimHitEffectsDefaultInjector(void *AIS, int ifMiss)
+{
+    InjectorR2(StartBattleAnimHitEffectsDefault);
+}
+*/

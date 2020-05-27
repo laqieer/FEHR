@@ -38,3 +38,5 @@
 .text.BattleUnwindInjector : {*(.text.BattleUnwindInjector)}
 . = 0x80288b0;
 .text.BattleGenerateInjector : {*(.text.BattleGenerateInjector)}
+/*. = 0x805091c;
+.text.StartBattleAnimHitEffectsDefaultInjector : {*(.text.StartBattleAnimHitEffectsDefaultInjector)}*/

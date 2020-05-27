@@ -192,6 +192,7 @@ AddTarget = 0x804b4d9;
 NewTargetSelection = 0x804b665;
 GetTargetListSize = 0x804b951;
 ekrBattle_MakePopups = 0x804c74d;
+BattleAnimHitEffect = 0x805093d;
 AnimEvtCode7Handler = 0x80544ef;
 isAnimationAtRight = 0x8054E61;
 endProcLevelUp = 0x806a299;
