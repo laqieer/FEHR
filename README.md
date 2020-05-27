@@ -44,17 +44,20 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 - [Web 2](https://hack64.net/tools/patcher.php)
 
 ## Credit
-```
-$ ls res/animation
-[T1][ARM][Knight](Vanilla +Weapons)[U]{IS, TBA, Orihara_Saki}.zip
-[T1][CAV][Cavalier](Vanilla +Weapons)[M]{IS, Skitty, Primefusion, Orihara_Saki}.zip
-[T1][FLY][Pegasus Knight](Vanilla +Sword)[F]{IS, MK404}.zip
-[T1][FLY][Wyvern Rider](Vanilla +Weapons)[U]{IS, Mikey Seregon, Alfred Kamon, PrincessKilvas, Spud, Blue Druid}.zip
-[T1][MON][Manakete](FE6 Fae +FE7)[F]{IS, Circleseverywhere}.zip
-[T1][MON][Manakete](FE8 Myrrh +FE7, Magic)[F]{IS, Circleseverywhere, Seal}.zip
-[T2][ARM][General](Vanilla +Weapons)[U]{IS, TBA, DerTheVaporeon, GabrielKnight, JPN}.zip
-[T2][FLY][Falcoknight](Improved +Weapons)[F]{flasuban}.zip
-[T2][FLY][Falcoknight](Vanilla +Weapons)[F]{IS, shadowofchaos, Jeorge_Reds}.zip
-[T2][FLY][Wyvern Lord](Vanilla +Axe, Bow)[U]{IS, TBA, PrincessKilvas, Spud, Blue Druid}.zip
-[T3][MON][Dragon](FE6 Idunn +FE7-8)[U]{IS, Marlon0024}.zip
-```
+
+### Animation
+
+|Class|Equipment|Credit|
+|---|---|---|
+|Armour Knight|Sword, Axe, HandAxe, Bow|TBA|
+|Armour Knight|Magic|Orihara_Saki, TBA|
+|General|Bow|TBA|
+|Cavalier|Axe, HandAxe|Skitty|
+|Pegasus Knight|Sword|MK404|
+|Falco Knight|HandAxe|flasuban|
+|Falco Knight|Staff|ShadowOfChaos|
+|Wyvern Rider|Axe, HandAxe|Mikey Seregon, Alfred Kamon|
+|Wyvern Rider|Bow|PrincessKilvas, Spud, Blue Druid|
+|Wyvern Lord|HandAxe|TBA|
+|Wyvern Lord|Bow|PrincessKilvas, Spud, Blue Druid|
+

@@ -24,14 +24,14 @@
     .rodata.WyvernRiderHandAxe : {*(.rodata.WyvernRiderHandAxe)}
     . = 0x8E00008 + 0x20 * 0xac;
     .rodata.WyvernRiderBow : {*(.rodata.WyvernRiderBow)}
-    . = 0x8E00008 + 0x20 * 0xad;
+    /*. = 0x8E00008 + 0x20 * 0xad;
     .rodata.FaeDragonStone : {*(.rodata.FaeDragonStone)}
     . = 0x8E00008 + 0x20 * 0xae;
     .rodata.FaeUnarmed : {*(.rodata.FaeUnarmed)}
     . = 0x8E00008 + 0x20 * 0xaf;
     .rodata.MyrrhDragonStone : {*(.rodata.MyrrhDragonStone)}
     . = 0x8E00008 + 0x20 * 0xb0;
-    .rodata.MyrrhUnarmed : {*(.rodata.MyrrhUnarmed)}
+    .rodata.MyrrhUnarmed : {*(.rodata.MyrrhUnarmed)}*/
     . = 0x8E00008 + 0x20 * 0xb1;
     .rodata.GeneralBow : {*(.rodata.GeneralBow)}
     . = 0x8E00008 + 0x20 * 0xb2;
@@ -42,8 +42,8 @@
     .rodata.FalconStaff : {*(.rodata.FalconStaff)}
     . = 0x8E00008 + 0x20 * 0xb5;
     .rodata.WyvernLordBow : {*(.rodata.WyvernLordBow)}
-    . = 0x8E00008 + 0x20 * 0xb6;
-    .rodata.IdunnDragonStone : {*(.rodata.IdunnDragonStone)}
+    /*. = 0x8E00008 + 0x20 * 0xb6;
+    .rodata.IdunnDragonStone : {*(.rodata.IdunnDragonStone)}*/
     . = 0x8E00008 + 0x20 * 0xb7; /* FE8 */
     .rodata.GeneralSword : {*(.rodata.GeneralSword)}
     . = 0x8E00008 + 0x20 * 0xb8; /* FE8 */
