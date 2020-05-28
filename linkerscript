@@ -221,6 +221,8 @@ JobListArmour = 0x8d5fb4e;
 JobListKnight = 0x8d5fb6f;
 JobListFlier = 0x8d5fb8a;
 
+gProcScriptBeginChapter = 0x8c02bf0;
+
 sSSMasterTextBatch = 0x8d8a238;
 gProcScr_StatScreen = 0x8d8a530;
 

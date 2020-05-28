@@ -10,3 +10,5 @@
 .rodata.chapterNameStringAmount : {*(.rodata.chapterNameStringAmount)}
 . = 0x8082f30;
 .text.GetChapterIDInjector : {*(.text.GetChapterIDInjector)}
+. = 0x8c01dec;
+.rodata.gProcCmdBeginChapter : {*(.rodata.gProcCmdBeginChapter)}

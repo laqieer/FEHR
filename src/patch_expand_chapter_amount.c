@@ -3,6 +3,9 @@
 //
 
 #include "skill.h"
+#include "proc.h"
+
+extern const struct ProcCmd gProcScriptBeginChapter[];
 
 #define CHAPTER_AMOUNT 0xff
 
@@ -23,3 +26,11 @@ u32 GetChapterIDInjector(struct RAMChapterData *chapterData)
 {
     return GetChapterID(chapterData);
 }
+
+void BeginChapter(struct Proc *proc)
+{
+    Proc_StartBlocking(gProcScriptBeginChapter,proc);
+}
+
+const struct ProcCmd gProcCmdBeginChapter = PROC_CALL_ROUTINE(BeginChapter); // in gProcScriptMapMain
+
