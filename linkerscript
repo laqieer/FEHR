@@ -279,6 +279,7 @@ SECTIONS
     INCLUDE ../lds/character_palette.ld
     INCLUDE ../lds/music.ld
     INCLUDE ../lds/support.ld
+    INCLUDE ../lds/chapter_op_bg.ld
     . = 0x8029b42;
     .rodata.levelLimit : {*(.rodata.levelLimit)}
 	. = 0x802e3c6;
