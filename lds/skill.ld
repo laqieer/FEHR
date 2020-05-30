@@ -40,3 +40,10 @@
 .text.BattleGenerateInjector : {*(.text.BattleGenerateInjector)}
 /*. = 0x805091c;
 .text.StartBattleAnimHitEffectsDefaultInjector : {*(.text.StartBattleAnimHitEffectsDefaultInjector)}*/
+. = 0x8c09f18;
+.rodata.gProcCmdChangeUnitHPBarLengthInBattleInjector : {*(.rodata.gProcCmdChangeUnitHPBarLengthInBattleInjector)}
+. = 0x8053860;
+.text.calculateStealHPIfLeftInjector : {*(.text.calculateStealHPIfLeftInjector)}
+. = 0x80538c0;
+.text.calculateStealHPIfRightInjector : {*(.text.calculateStealHPIfRightInjector)}
+

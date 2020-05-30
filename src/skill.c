@@ -30,10 +30,11 @@
  * Specials are skills that activate based on a cooldown. They are reminiscent of critical hits from the main series Fire Emblem titles.
  */
 
-char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT];
-char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT];
-char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT];
-char gP4SkillCoolDown[P4_TOTAL_AMOUNT];
+char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT] = {-1};
+char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT] = {-1};
+char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {-1};
+char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {-1};
+char gFlagHpStealBySkill[20] = {-1};
 
 // Effect of Sacred Seals which reduce damaged received to 0.
 void PassiveSkillSNoDamageEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -5224,6 +5225,12 @@ void BattleUnwindInjector()
     BattleUnwind();
 }
 
+void ClearSkillHpStealFlags()
+{
+    for(int i = 0; i < sizeof(gFlagHpStealBySkill); i++)
+        gFlagHpStealBySkill[i] = 0;
+}
+
 void BattleGenerate(struct Unit* actor, struct Unit* target) {
     ComputeBattleUnitStats(&gBattleActor, &gBattleTarget);
     ComputeBattleUnitStats(&gBattleTarget, &gBattleActor);
@@ -5244,6 +5251,7 @@ void BattleGenerate(struct Unit* actor, struct Unit* target) {
         BattleUnwind();
         //BattleUnwindOriginal();
 
+    ClearSkillHpStealFlags();
     DebugPrintBattleHitArray();
 }
 
@@ -5427,3 +5435,75 @@ void StartBattleAnimHitEffectsDefaultInjector(void *AIS, int ifMiss)
     InjectorR2(StartBattleAnimHitEffectsDefault);
 }
 */
+
+int isProcLoopEnd(struct Proc *proc)
+{
+    return proc->nativeFunc == 0;
+}
+
+void ChangeUnitHPBarLengthForHpStealBySkill(struct Proc *proc)
+{
+    int atRight;
+    int count;
+
+    if(isProcLoopEnd(proc))
+    {
+        atRight = isAnimationAtRight(*(void **)(&proc->data[0x37]));
+        count = 2 * (gHPBarLenChangeCounts[1 - atRight] + 1) + 1 - atRight;
+        Debugf("side:%s, count: %d, hp bar length: %d, skill hp steal flag: %d", atRight?"right":"left", count, gHPBarLens[atRight], gFlagHpStealBySkill[count]);
+        if(gFlagHpStealBySkill[count] == 1)
+        {
+            //if(getHPBarLen(count) < 0xff)
+                gHPBarLens[1 - atRight] = getHPBarLen(count);
+            gHPBarLenChangeCounts[1 - atRight] += 1;
+        }
+    }
+}
+
+void ChangeUnitHPBarLengthInBattleInjector(struct Proc *proc)
+{
+    ChangeUnitHPBarLengthInBattle(proc);
+    ChangeUnitHPBarLengthForHpStealBySkill(proc);
+}
+
+const struct ProcCmd gProcCmdChangeUnitHPBarLengthInBattleInjector = PROC_LOOP_ROUTINE(ChangeUnitHPBarLengthInBattleInjector);
+
+u16 calculateHPAfterHPStealSpecialSkill(u16 hp, u8 atRight, struct BattleHit* pBattleHit, int count)
+{
+    int result;
+    struct Unit *unit;
+
+    gFlagHpStealBySkill[2 *(count + 1) + atRight] = 1;
+
+    if(atRight)
+        unit = unitAtRight;
+    else
+        unit = unitAtLeft;
+
+    switch(getUnitSpecialSkill(unit))
+    {
+        case SPECIAL_SKILL_DAYLIGHT:
+        case SPECIAL_SKILL_NOONTIME:
+        case SPECIAL_SKILL_SIRIUS:
+            result = hp + pBattleHit->hpChange * 0.3;
+            break;
+        case SPECIAL_SKILL_OPEN_FUTURE:
+            result = hp + pBattleHit->hpChange * 0.25;
+            break;
+        case SPECIAL_SKILL_SOL:
+        case SPECIAL_SKILL_AETHER:
+        case SPECIAL_SKILL_RADIANT_AETHER:
+            result = hp + pBattleHit->hpChange * 0.5;
+            break;
+        case 0:
+            Debugf("Error: unit at %s side doesn't have special skill to steal HP.", atRight?"right":"left");
+            result = hp;
+            break;
+        default:
+            Debugf("Error: special skill %s(%d) doesn't have HP steal effect.", specialSkills[getUnitSpecialSkill(unit)].name_en, getUnitSpecialSkill(unit));
+            result = hp;
+            break;
+    }
+
+    return result;
+}

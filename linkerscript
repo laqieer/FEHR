@@ -16,6 +16,11 @@ currentChapter = 0x202BC02;
 currentPhase = 0x202BC03;
 currentTurn = 0x202BC04;
 
+gHPBarLenChangeCounts = 0x203e036;
+gHPBarLenArray = 0x203e03a;
+gHPBarLens = 0x203e090;
+gHPBarMaxLens = 0x203e094;
+
 textGrid = 0x203FC00;
 
 BG0MapBuffer = 0x2022C60;
@@ -192,7 +197,9 @@ AddTarget = 0x804b4d9;
 NewTargetSelection = 0x804b665;
 GetTargetListSize = 0x804b951;
 ekrBattle_MakePopups = 0x804c74d;
+ChangeUnitHPBarLengthInBattle = 0x804de4d;
 BattleAnimHitEffect = 0x805093d;
+getHPBarLen = 0x8053b29;
 AnimEvtCode7Handler = 0x80544ef;
 isAnimationAtRight = 0x8054E61;
 endProcLevelUp = 0x806a299;

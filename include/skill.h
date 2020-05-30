@@ -855,5 +855,12 @@ void ComputeBattleObstacleStatsOriginal();
 void BattleUnwindOriginal();
 void BattleUnwindScriptedOriginal();
 void BattleAnimHitEffect(void *AIS,int ifMiss,int param_3,int param_4);
+void ChangeUnitHPBarLengthInBattle(struct Proc *proc);
+
+// Left, Right
+extern u16 gHPBarLenChangeCounts[2];
+extern u16 gHPBarLenArray[];
+extern u16 gHPBarLens[2];
+u32 getHPBarLen(int count);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
