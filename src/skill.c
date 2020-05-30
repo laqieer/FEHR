@@ -5472,8 +5472,11 @@ u16 calculateHPAfterHPStealSpecialSkill(u16 hp, u8 atRight, struct BattleHit* pB
 {
     int result;
     struct Unit *unit;
+    struct BattleUnit *battleUnit;
 
     gFlagHpStealBySkill[2 *(count + 1) + atRight] = 1;
+
+    // hp stolen by special skill
 
     if(atRight)
         unit = unitAtRight;
@@ -5504,6 +5507,16 @@ u16 calculateHPAfterHPStealSpecialSkill(u16 hp, u8 atRight, struct BattleHit* pB
             result = hp;
             break;
     }
+
+    // hp stolen by weapon
+
+    if(pBattleHit->info & BATTLE_HIT_INFO_RETALIATION)
+        battleUnit = &gBattleTarget;
+    else
+        battleUnit = &gBattleActor;
+
+    if(GetItemWeaponEffect(battleUnit->weapon) == WPN_EFFECT_HPDRAIN)
+        result += pBattleHit->hpChange;
 
     return result;
 }
