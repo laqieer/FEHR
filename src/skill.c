@@ -5520,3 +5520,32 @@ u16 calculateHPAfterHPStealSpecialSkill(u16 hp, u8 atRight, struct BattleHit* pB
 
     return result;
 }
+
+// It will return to unexpected place if register lr is not saved properly before
+void showSpecialSkillsInBattle()
+{
+    Debug("a");
+}
+
+#pragma GCC push_options
+#pragma GCC optimize ("-O2")
+
+void showSpecialSkillsInBattleInjector() __attribute__ ((noreturn));
+
+void showSpecialSkillsInBattleInjector()
+{
+    //showSpecialSkillsInBattle();
+    BL(showSpecialSkillsInBattle);
+    INCBIN("\"../rom/fe7-jp.gba\"", 0x53e68, 8);
+    InjectorR3(0x8053e68 + 8 + 1);
+}
+
+void showSpecialSkillsInBattleInjectorInjector() __attribute__ ((noreturn));
+
+void showSpecialSkillsInBattleInjectorInjector()
+{
+    InjectorR0(showSpecialSkillsInBattleInjector);
+}
+
+#pragma GCC pop_options
+

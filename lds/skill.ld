@@ -46,4 +46,5 @@
 .text.calculateStealHPIfLeftInjector : {*(.text.calculateStealHPIfLeftInjector)}
 . = 0x80538c0;
 .text.calculateStealHPIfRightInjector : {*(.text.calculateStealHPIfRightInjector)}
-
+. = 0x8053e68;
+.text.showSpecialSkillsInBattleInjectorInjector : {*(.text.showSpecialSkillsInBattleInjectorInjector)}

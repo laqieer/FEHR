@@ -8,4 +8,8 @@
 
 #define Injector(func, reg) asm volatile("ldr "#reg",="#func"\nbx "#reg)
 
+#define INCBIN(file, offset, length) asm volatile(".incbin " file ", "#offset", "#length)
+
+#define BL(func) asm volatile("bl "#func)
+
 #endif //INJECTOR_H
