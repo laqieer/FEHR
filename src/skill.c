@@ -3747,6 +3747,7 @@ void ComputePassiveSkillCSpur(struct Unit *unit)
 {
     // How to decide if the unit is in the same side is a problem. To make it easy, let's assume that only units in player side have passive skill C spur series.
     // TODO: a real side detection with attacker.
+    Debugf("adjacent unit position: (%d, %d)", unit->positionX, unit->positionY);
     if(unit->side == PlayerSide)
     {
         struct BattleUnit* attacker = NULL;
@@ -3770,31 +3771,40 @@ void ComputePassiveSkillCSpur(struct Unit *unit)
         switch (getUnitPassiveSkillC(unit))
         {
             case PASSIVE_SKILL_C_SPUR_ATK_1:
-                attacker->battleAttack += 2;
+                // It may be better to write my own function to traverse adjacent units
+                if(areTwoUnitsAdjacent(unit, &attacker->unit))
+                    attacker->battleAttack += 2;
                 break;
             case PASSIVE_SKILL_C_SPUR_ATK_2:
-                attacker->battleAttack += 3;
+                if(areTwoUnitsAdjacent(unit, &attacker->unit))
+                    attacker->battleAttack += 3;
                 break;
             case PASSIVE_SKILL_C_SPUR_ATK_3:
-                attacker->battleAttack += 4;
+                if(areTwoUnitsAdjacent(unit, &attacker->unit))
+                    attacker->battleAttack += 4;
                 break;
             case PASSIVE_SKILL_C_SPUR_ATK_4:
-                attacker->battleAttack += 5;
+                if(areTwoUnitsAdjacent(unit, &attacker->unit))
+                    attacker->battleAttack += 5;
                 break;
             case PASSIVE_SKILL_C_SPUR_RES_1:
-                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
-                    attacker->battleDefense += 2;
+                if(areTwoUnitsAdjacent(unit, &attacker->unit))
+                    if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                        attacker->battleDefense += 2;
                 break;
             case PASSIVE_SKILL_C_SPUR_RES_2:
-                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
-                    attacker->battleDefense += 3;
+                if(areTwoUnitsAdjacent(unit, &attacker->unit))
+                    if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                        attacker->battleDefense += 3;
                 break;
             case PASSIVE_SKILL_C_SPUR_RES_3:
-                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
-                    attacker->battleDefense += 4;
+                if(areTwoUnitsAdjacent(unit, &attacker->unit))
+                    if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                        attacker->battleDefense += 4;
             case PASSIVE_SKILL_C_SPUR_RES_4:
-                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
-                    attacker->battleDefense += 5;
+                if(areTwoUnitsAdjacent(unit, &attacker->unit))
+                    if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                        attacker->battleDefense += 5;
                 break;
             default:
                 break;
@@ -3827,6 +3837,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             break;
     }
 
+    Debugf("unit in battle position (%d, %d)", attacker->unit.positionX, attacker->unit.positionY);
     ForEachAdjacentUnit(attacker->unit.positionX, attacker->unit.positionY, ComputePassiveSkillCSpur);
 }
 

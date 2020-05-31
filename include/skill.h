@@ -767,6 +767,7 @@ void MapAddInRange(int x, int y, int range, int value);
 void ForEachUnitInRange(void(*func)(struct Unit *unit));
 void ForEachPositionInRange(void(*func)(int x, int y));
 
+// Adjacent means in attack range (related to equipped weapon)
 void ForEachAdjacentUnit(int x, int y, void(*func)(struct Unit *unit));
 void ForEachAdjacentPosition(int x, int y, void(*func)(int x, int y));
 
