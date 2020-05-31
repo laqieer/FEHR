@@ -72,3 +72,5 @@ const struct SupportConversation * const pSupportConversations7 = supportConvers
 const struct SupportConversation * const pSupportConversations8 = supportConversations;
 const struct SupportConversation * const pSupportConversations9 = supportConversations;
 
+const u16 enableSupportExpGainInLynMode = 0;
+

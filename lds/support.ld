@@ -18,3 +18,5 @@
 .rodata.pSupportConversations8 : {*(.rodata.pSupportConversations8)}
 . = 0x809F8AC;
 .rodata.pSupportConversations9 : {*(.rodata.pSupportConversations9)}
+. = 0x8026b7e;
+.rodata.enableSupportExpGainInLynMode : {*(.rodata.enableSupportExpGainInLynMode)}
