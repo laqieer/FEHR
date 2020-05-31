@@ -25,6 +25,12 @@ const struct SupportData supportDataTable[] = {
         {2, 3},
         2
     },
+    { // End of list
+        {0},
+        {0},
+        {0},
+        0
+    }
 };
 
 const struct SupportConversation supportConversations[] = {
