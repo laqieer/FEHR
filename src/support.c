@@ -8,22 +8,28 @@
 
 const struct SupportData supportDataTable[] = {
     { // Alfonse
-        {CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID},
-        {36, 72},
-        {2, 3},
-        2
+        {CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID, CHARACTER_BRUNO_ID},
+        {36, 72, 72},
+        {2, 3, 2},
+        3
     },
     { // Anna
-        {CHARACTER_ALFONSE_ID, CHARACTER_SHARENA_ID},
-        {36, 36},
-        {2, 2},
-        2
+        {CHARACTER_ALFONSE_ID, CHARACTER_SHARENA_ID, CHARACTER_BRUNO_ID},
+        {36, 36, 36},
+        {2, 2, 2},
+        3
     },
     { // Sharena
-        {CHARACTER_ANNA_ID, CHARACTER_ALFONSE_ID},
-        {36, 72},
-        {2, 3},
-        2
+        {CHARACTER_ANNA_ID, CHARACTER_ALFONSE_ID, CHARACTER_BRUNO_ID},
+        {36, 72, 36},
+        {2, 3, 2},
+        3
+    },
+    { // Bruno
+        {CHARACTER_ALFONSE_ID, CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID},
+        {72, 36, 36},
+        {2, 2, 2},
+        3,
     },
     { // End of list
         {0},
@@ -56,6 +62,30 @@ const struct SupportConversation supportConversations[] = {
         TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_TEMP, 
         TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_TEMP, 
         TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_TEMP, 
+        0
+    },
+    { // Bruno & Alfonse
+        CHARACTER_BRUNO_ID,
+        CHARACTER_ALFONSE_ID,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_ALFONSE_TEMP,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_ALFONSE_TEMP,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_ALFONSE_TEMP,
+        0
+    },
+    { // Bruno & Anna
+        CHARACTER_BRUNO_ID,
+        CHARACTER_ANNA_ID,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_ANNA_TEMP,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_ANNA_TEMP,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_ANNA_TEMP,
+        0
+    },
+    { // Bruno & Sharena
+        CHARACTER_BRUNO_ID,
+        CHARACTER_SHARENA_ID,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_SHARENA_TEMP,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_SHARENA_TEMP,
+        TEXT_SUPPORT_CONVERSATION_BRUNO_SHARENA_TEMP,
         0
     },
     { // End of list

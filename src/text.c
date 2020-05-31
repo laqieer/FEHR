@@ -1725,6 +1725,33 @@ const char* const texts[] = {
             "とりあえず敵を一掃しましょう！" TCC_NEWLINE TCC_PUSH_A
             TCC_CLEAR_FACE,
 
+       [TEXT_SUPPORT_CONVERSATION_BRUNO_ALFONSE_TEMP] = TCC_OPEN_LEFT
+           TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+            TCC_OPEN_RIGHT
+            TCC_LOAD_FACE PORTRAIT_ALFONSE
+            "ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+            "アルフォンス王子。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
+
+       [TEXT_SUPPORT_CONVERSATION_BRUNO_ANNA_TEMP] = TCC_OPEN_LEFT
+           TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+            TCC_OPEN_RIGHT
+            TCC_LOAD_FACE PORTRAIT_ANNA
+            "ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+            "アンナ隊長。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
+
+       [TEXT_SUPPORT_CONVERSATION_BRUNO_SHARENA_TEMP] = TCC_OPEN_LEFT
+           TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+            TCC_OPEN_RIGHT
+            TCC_LOAD_FACE PORTRAIT_SHARENA
+            "ザカリア。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+            "シャロン王女。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
+
 #include "texts.txt"
 };
 
