@@ -5549,7 +5549,7 @@ void displaySpecialSkillName(int isRight)
     struct Unit *unit;
     struct TextHandle *th;
 
-    dest = &BG0MapBuffer[32 * 32 / 8 + (240 / 8 - 12) * isRight];
+    dest = &BG0MapBuffer[32 * 32 / 8 + 2 + (240 / 8 - 14) * isRight];
 
     if(isRight)
     {
@@ -5648,19 +5648,49 @@ void displaySpecialSkillNameInBattleNew(void *AIS)
     gBattleHitCount++;
 }
 
-void hideSpecialSkillNameInBattleNew()
+void displaySpecialSkillIcon(int isRight)
+{
+    u16 *dest;
+
+    dest = &BG0MapBuffer[32 * 32 / 8  + (240 / 8 - 14) * isRight];
+
+    dest[0] = 636 + (15 << 12);
+    dest[1] = 637 + (15 << 12);
+    dest[32] = 638 + (15 << 12);
+    dest[33] = 639 + (15 << 12);
+}
+
+void displaySpecialSkillIconInBattle(void *AIS)
+{
+    writeBGPalette(skill_page_icons_1Pal, 32 * 15, 32);
+    RegisterTileGraphics(skill_page_icons_1Tiles, 0x6004f80, 32 * 4); // Tile #636 = 0x6004f80
+
+    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    {
+        displaySpecialSkillIcon(isAnimationAtRight(AIS));
+    }
+
+    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    {
+        displaySpecialSkillIcon(!isAnimationAtRight(AIS));
+    }
+
+    setBGMapBufferSyncFlag(1);
+}
+
+void hideSpecialSkillsInBattle()
 {
     u16 *dest;
 
     dest = &BG0MapBuffer[32 * 32 / 8];
 
-    memset(dest, 0, 2 * 16);
-    memset(dest + 32, 0, 2 * 16);
+    memset(dest, 0, 2 * 18);
+    memset(dest + 32, 0, 2 * 18);
 
-    dest += 240 / 8 - 12;
+    dest += 240 / 8 - 14;
 
-    memset(dest, 0, 2 * 16);
-    memset(dest + 32, 0, 2 * 16);
+    memset(dest, 0, 2 * 18);
+    memset(dest + 32, 0, 2 * 18);
 
     setBGMapBufferSyncFlag(1);
 }
@@ -5704,7 +5734,8 @@ void showSpecialSkillsInBattle(void *AIS)
 
     //gBattleHitCount++;
     
-    //hideSpecialSkillNameInBattleNew();
+    //hideSpecialSkillsInBattle();
+    displaySpecialSkillIconInBattle(AIS);
     displaySpecialSkillNameInBattleNew(AIS);
 }
 
@@ -5744,7 +5775,7 @@ void showSpecialSkillsInBattleInjectorNew()
 
 void hideSpecialSkillsInBattleNewC04Injector()
 {
-    BL(hideSpecialSkillNameInBattleNew);
+    BL(hideSpecialSkillsInBattle);
     //InjectorR0(0x80544ef);
     InjectorR0(AnimEvtCode4Handler);
 }
@@ -5752,7 +5783,7 @@ void hideSpecialSkillsInBattleNewC04Injector()
 
 void hideSpecialSkillsInBattleNewC05Injector()
 {
-    BL(hideSpecialSkillNameInBattleNew);
+    BL(hideSpecialSkillsInBattle);
     InjectorR0(AnimEvtCode5Handler);
 }
 
