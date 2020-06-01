@@ -3,6 +3,7 @@
 //
 
 #include <gba_base.h>
+#include <string.h>
 
 #include "se.h"
 #include "skill.h"
@@ -24,6 +25,7 @@
 #include "popup.h"
 #include "gba_debug_print.h"
 #include "injector.h"
+#include "fontgrp.h"
 
 /*
  * Specials. ‰œ‹`ƒXƒLƒ‹.
@@ -35,6 +37,9 @@ char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT] = {-1};
 char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {-1};
 char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {-1};
 char gFlagHpStealBySkill[20] = {-1};
+char gBattleHitCount = -1;
+struct TextHandle gTextHandleSpecialSkillLeft;
+struct TextHandle gTextHandleSpecialSkillRight;
 
 // Effect of Sacred Seals which reduce damaged received to 0.
 void PassiveSkillSNoDamageEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -5242,6 +5247,11 @@ void ClearSkillHpStealFlags()
         gFlagHpStealBySkill[i] = 0;
 }
 
+void ClearBattleHitCount()
+{
+    gBattleHitCount = 0;
+}
+
 void BattleGenerate(struct Unit* actor, struct Unit* target) {
     ComputeBattleUnitStats(&gBattleActor, &gBattleTarget);
     ComputeBattleUnitStats(&gBattleTarget, &gBattleActor);
@@ -5263,6 +5273,7 @@ void BattleGenerate(struct Unit* actor, struct Unit* target) {
         //BattleUnwindOriginal();
 
     ClearSkillHpStealFlags();
+    ClearBattleHitCount();
     DebugPrintBattleHitArray();
 }
 
@@ -5532,22 +5543,182 @@ u16 calculateHPAfterHPStealSpecialSkill(u16 hp, u8 atRight, struct BattleHit* pB
     return result;
 }
 
-// It will return to unexpected place if register lr is not saved properly before
-void showSpecialSkillsInBattle()
+void displaySpecialSkillName(int isRight)
 {
-    Debug("a");
+    u16 *dest;
+    struct Unit *unit;
+    struct TextHandle *th;
+
+    dest = &BG0MapBuffer[32 * 32 / 8 + (240 / 8 - 12) * isRight];
+
+    if(isRight)
+    {
+        unit = unitAtRight;
+        th = &gTextHandleSpecialSkillRight;
+    }
+    else
+    {
+        unit = unitAtLeft;
+        th = &gTextHandleSpecialSkillLeft;
+    }
+
+    DrawTextInLine(th, dest, TEXT_COLOR_NORMAL, 0, 8, specialSkills[getUnitSpecialSkill(unit)].name);
+}
+
+void displaySpecialSkillNameInBattle(struct Proc *proc)
+{
+    void *AIS;
+
+    AIS = *(void **)(&proc->data[1]);
+
+    Text_Init(&gTextHandleSpecialSkillLeft, 8);
+    Text_Init(&gTextHandleSpecialSkillRight, 8);
+    Text_Clear(&gTextHandleSpecialSkillLeft);
+    Text_Clear(&gTextHandleSpecialSkillRight);
+
+    Debug(isAnimationAtRight(AIS)?"AIS is at right":"AIS is at left");
+
+    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    {
+        //displaySpecialSkillName(isAnimationAtRight(AIS));
+        displaySpecialSkillName(1);
+    }
+
+    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    {
+        //displaySpecialSkillName(!isAnimationAtRight(AIS));
+        displaySpecialSkillName(1);
+    }
+
+    setBGMapBufferSyncFlag(1);
+
+    gBattleHitCount++;
+}
+
+void hideSpecialSkillNameInBattle(struct Proc *proc)
+{
+    u16 *dest;
+
+    dest = &BG0MapBuffer[32 * 32 / 8];
+
+    memset(dest, 0, 2 * 16);
+    memset(dest + 32, 0, 2 * 16);
+
+    dest += 240 / 8 - 12;
+
+    Debugf("dest: 0x%x", dest);
+
+    memset(dest, 0, 2 * 16);
+    memset(dest + 32, 0, 2 * 16);
+
+    setBGMapBufferSyncFlag(1);
+}
+
+#define SPECIAL_SKILL_DISPLAY_DURATION_IN_BATTLE 7
+
+const struct ProcCmd gProcScriptSpecialSkillDisplayInBattle[] = {
+    PROC_CALL_ROUTINE(displaySpecialSkillNameInBattle),
+    PROC_SLEEP(SPECIAL_SKILL_DISPLAY_DURATION_IN_BATTLE),
+    // This proc doesn't continue execution here.
+    PROC_CALL_ROUTINE(hideSpecialSkillNameInBattle),
+    PROC_END
+};
+
+void displaySpecialSkillNameInBattleNew(void *AIS)
+{
+    Text_Init(&gTextHandleSpecialSkillLeft, 8);
+    Text_Init(&gTextHandleSpecialSkillRight, 8);
+    Text_Clear(&gTextHandleSpecialSkillLeft);
+    Text_Clear(&gTextHandleSpecialSkillRight);
+
+    Debug(isAnimationAtRight(AIS)?"AIS is at right":"AIS is at left");
+
+    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    {
+        displaySpecialSkillName(isAnimationAtRight(AIS));
+    }
+
+    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    {
+        displaySpecialSkillName(!isAnimationAtRight(AIS));
+    }
+
+    setBGMapBufferSyncFlag(1);
+
+    gBattleHitCount++;
+}
+
+void hideSpecialSkillNameInBattleNew()
+{
+    u16 *dest;
+
+    dest = &BG0MapBuffer[32 * 32 / 8];
+
+    memset(dest, 0, 2 * 16);
+    memset(dest + 32, 0, 2 * 16);
+
+    dest += 240 / 8 - 12;
+
+    memset(dest, 0, 2 * 16);
+    memset(dest + 32, 0, 2 * 16);
+
+    setBGMapBufferSyncFlag(1);
+}
+
+
+// It will return to unexpected place if register lr is not saved properly before
+void showSpecialSkillsInBattle(void *AIS)
+{
+    /*Text_Clear(&gTextHandleSpecialSkillLeft);
+    Text_Clear(&gTextHandleSpecialSkillRight);
+    Text_Init(&gTextHandleSpecialSkillLeft, 8);
+    Text_Init(&gTextHandleSpecialSkillRight, 8);
+    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    {
+        if(isAnimationAtRight(AIS))
+            DrawTextInLine(&gTextHandleSpecialSkillRight, &BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "UŒ‚‰œ‹`");
+        else
+            DrawTextInLine(&gTextHandleSpecialSkillLeft, &BG0MapBuffer[32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "UŒ‚‰œ‹`");
+    }
+    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    {
+        if(!isAnimationAtRight(AIS))
+            DrawTextInLine(&gTextHandleSpecialSkillLeft, &BG0MapBuffer[32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "–hŒä‰œ‹`");
+        else
+            DrawTextInLine(&gTextHandleSpecialSkillRight, &BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "–hŒä‰œ‹`");
+    }
+    setBGMapBufferSyncFlag(1);
+
+    memset(&BG0MapBuffer[32 * 32 / 8], 0, 16);
+    memset(&BG0MapBuffer[32 * 32 / 8 + 32], 0, 16);
+    memset(&BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8], 0, 16);
+    memset(&BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8 + 32], 0, 16);*/
+
+    /*struct Proc *proc;
+
+    proc = Proc_Start(gProcScriptSpecialSkillDisplayInBattle, 3);
+
+    Debugf("proc: 0x%x, AIS: 0x%x", proc, AIS);
+
+    *(void **)(&proc->data[1]) = AIS;*/
+
+    //gBattleHitCount++;
+    
+    //hideSpecialSkillNameInBattleNew();
+    displaySpecialSkillNameInBattleNew(AIS);
 }
 
 #pragma GCC push_options
 #pragma GCC optimize ("-O2")
-
+/*
 void showSpecialSkillsInBattleInjector() __attribute__ ((noreturn));
 
 void showSpecialSkillsInBattleInjector()
 {
     //showSpecialSkillsInBattle();
+    asm volatile ("mov r0, r7");
     BL(showSpecialSkillsInBattle);
-    INCBIN("\"../rom/fe7-jp.gba\"", 0x53e68, 8);
+    INCBIN("\"../rom/fe7-jp.gba\"", 0x53e68, 8); // C03 Handler
     InjectorR3(0x8053e68 + 8 + 1);
 }
 
@@ -5558,5 +5729,36 @@ void showSpecialSkillsInBattleInjectorInjector()
     InjectorR0(showSpecialSkillsInBattleInjector);
 }
 
+void showSpecialSkillsInBattleInjectorNew() __attribute__ ((noreturn));
+*/
+
+void AnimEvtCode3Handler() __attribute__((noreturn));
+
+void showSpecialSkillsInBattleInjectorNew()
+{
+    asm volatile ("mov r0, r7");
+    BL(showSpecialSkillsInBattle);
+    //InjectorR0(0x8053e69);
+    InjectorR0(AnimEvtCode3Handler);
+}
+
+void hideSpecialSkillsInBattleNewC04Injector()
+{
+    BL(hideSpecialSkillNameInBattleNew);
+    //InjectorR0(0x80544ef);
+    InjectorR0(AnimEvtCode4Handler);
+}
+
+
+void hideSpecialSkillsInBattleNewC05Injector()
+{
+    BL(hideSpecialSkillNameInBattleNew);
+    InjectorR0(AnimEvtCode5Handler);
+}
+
 #pragma GCC pop_options
+
+void (*const pShowSpecialSkillsInBattleInjectorNew)() = showSpecialSkillsInBattleInjectorNew;
+void (*const pHideSpecialSkillsInBattleNewC04Injector)() = hideSpecialSkillsInBattleNewC04Injector;
+void (*const pHideSpecialSkillsInBattleNewC05Injector)() = hideSpecialSkillsInBattleNewC05Injector;
 

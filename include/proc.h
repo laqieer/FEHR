@@ -96,6 +96,7 @@ enum {
 struct Proc* Proc_Find(const struct ProcCmd* script);
 void Proc_Break(struct Proc* proc);
 struct Proc *Proc_StartBlocking(const struct ProcCmd* script, u32 parent);
+struct Proc *Proc_Start(const struct ProcCmd* script, u32 parent);
 void EndProc(struct Proc *proc);
 void GotoProcLabel(struct Proc *proc, u16 label);
 void func8003fd4(int a, int b, int c, int d, int e);
