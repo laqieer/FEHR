@@ -10,7 +10,7 @@ struct OptionMenuInfo {
 const u8 optionMenuList1[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xf, 0xb, 3, 6, 7, 8};
 const u8 optionMenuList2[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xb, 3, 0xc, 6, 7, 8};
 const u8 optionMenuList3[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xb, 3, 0xc, 6, 7, 8};
-const u8 optionMenuListAll[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf};
+const u8 optionMenuListAll[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10};
 
 const struct OptionMenuInfo OptionMenuInfos[] = {
     //{0xd, optionMenuList1},
