@@ -77,6 +77,7 @@
 #define MagicKnight 0x62
 #define MagicFalcoKnight 0x63
 #define VeronicaPrincess UberSage
+#define MageKnight 0x64
 
 // Items
 #define QuickenedPulse 0x9b

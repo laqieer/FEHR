@@ -21,3 +21,5 @@
 ./dump_battle_animation.py -r ~/Downloads/Fire\ Emblem\ \(USA,\ Australia\)\ Animation.gba -i 12 -n FalconStaff
 ./dump_battle_animation.py -r ~/Downloads/Fire\ Emblem\ \(USA,\ Australia\)\ Animation.gba -i 13 -n WyvernLordBow
 #./dump_battle_animation.py -r ~/Downloads/Fire\ Emblem\ \(USA,\ Australia\)\ Animation.gba -i 14 -n IdunnDragonStone
+./dump_battle_animation.py -r ~/Downloads/Fire\ Emblem\ \-\ the\ Sacred\ Stones\ #\ GBA.GBA -i 70 -n MageKnightMagic
+./dump_battle_animation.py -r ~/Downloads/Fire\ Emblem\ \-\ the\ Sacred\ Stones\ #\ GBA.GBA -i 71 -n MageKnightStaff

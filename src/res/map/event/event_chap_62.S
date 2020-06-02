@@ -60,7 +60,7 @@ EnemyUnitsENM:
 	UNIT(GenericSummonedDrop,Mercenary,0,30,SIDE_ENEMY,1,6,3,6,3,Longsword,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // グレイ
 	UNIT(GenericSummoned,Cavalier,0,30,SIDE_ENEMY,1,14,3,14,3,Horseslayer,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // マチルダ
 	UNIT(GenericSummoned,Mercenary,0,30,SIDE_ENEMY,1,14,6,14,6,Armourslayer,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ロビン
-	UNIT(Bruno,Valkyrie,0,1,SIDE_ENEMY,1,9,3,9,3,Lightning,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ブルーノ
+	UNIT(Bruno,MageKnight,0,1,SIDE_ENEMY,1,9,3,9,3,Lightning,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ブルーノ
 	END_UNIT
 TrapsEliwoodMode:
 TrapsHectorMode:

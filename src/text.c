@@ -1752,6 +1752,10 @@ const char* const texts[] = {
             "シャロン王女。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_CLEAR_FACE,
 
+       [TEXT_JOB_NAME_MAGE_KNIGHT] = "マージナイト",
+
+       [TEXT_JOB_HELP_MAGE_KNIGHT] = "魔法と杖を使う　魔道騎士"TCC_NEWLINE"装備「理・光・闇・杖」",
+
 #include "texts.txt"
 };
 

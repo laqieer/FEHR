@@ -65,7 +65,7 @@ EnemyUnitsENM:
 	UNIT(GenericSummoned,Soldier,0,30,SIDE_ENEMY,1,14,9,14,9,SilverLance,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ネフェニー
 	UNIT(GenericSummoned,Monk,0,30,SIDE_ENEMY,1,4,4,4,4,Shine,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ユリア
 	UNIT(GenericSummoned,Archer,0,30,SIDE_ENEMY,1,9,0,9,0,SilverBow,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ゼロ
-	UNIT(Bruno,Valkyrie,0,1,SIDE_NPC,1,14,0,14,0,Lightning,None,0,0,AttackInRange,MoveToEliwood,NoRecovery,DefaultAI4) // ブルーノ
+	UNIT(Bruno,MageKnight,0,1,SIDE_NPC,1,14,0,14,0,Lightning,None,0,0,AttackInRange,MoveToEliwood,NoRecovery,DefaultAI4) // ブルーノ
 	END_UNIT
 TrapsEliwoodMode:
 TrapsHectorMode:

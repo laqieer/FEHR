@@ -55,7 +55,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Sharena,SharenaLord,Anna,14,19,14,19)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Bruno,Valkyrie,0,1,SIDE_ENEMY,1,3,3,3,3,Lightning,None,0,0,AttackInRange,DelayedPursue,NoRecovery,DefaultAI4) // ブルーノ
+	UNIT(Bruno,MageKnight,0,1,SIDE_ENEMY,1,3,3,3,3,Lightning,None,0,0,AttackInRange,DelayedPursue,NoRecovery,DefaultAI4) // ブルーノ
 	UNIT(GenericEmblian,Archer,0,30,SIDE_ENEMY,1,7,3,7,3,SteelBow,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ボウファイター
 	UNIT(GenericEmblian,Mercenary,0,30,SIDE_ENEMY,1,6,9,6,9,SteelSword,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ソードファイター
 	UNIT(GenericEmblian,Mage,0,30,SIDE_ENEMY,1,14,1,14,1,Elfire,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // レッドマージ

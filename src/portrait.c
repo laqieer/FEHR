@@ -3,6 +3,7 @@
 //
 
 #include "portrait.h"
+#include "portrait_id.h"
 #include "gba_debug_print.h"
 #include <gba_base.h>
 #include <gba_sprites.h>
@@ -22,6 +23,7 @@
 #include "portrait_Veronica_mini.h"
 #include "portrait_Veronica_tileset.h"
 #include "portrait_Lord_classcard.h"
+#include "classcard_MageKnight.h"
 
 const Portrait portraitAlfonse = {
         portrait_alfonse_tilesetTiles,
@@ -131,6 +133,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Xander)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica)
 
 DEFINE_CLASSCARD(Lord)
+DEFINE_CLASSCARD_NEW(MageKnight)
 
 const Portrait* const portraits[] = {
     [0x101] = &portraitAlfonse,
@@ -140,6 +143,7 @@ const Portrait* const portraits[] = {
     [0x105] = &portraitVeronica,
     [0x116] = &portraitXander,
     [0x130] = &classcardLord,
+    [CLASSCARD_MAGE_KNIGHT] = &classcardMageKnight, // 0x131
 };
 
 extern const Portrait portraitsOrig[];

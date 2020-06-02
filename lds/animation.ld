@@ -48,3 +48,7 @@
     .rodata.GeneralSword : {*(.rodata.GeneralSword)}
     . = 0x8E00008 + 0x20 * 0xb8; /* FE8 */
     .rodata.GeneralFemaleSword : {*(.rodata.GeneralFemaleSword)}
+    . = 0x8E00008 + 0x20 * 0xb9; /* FE8 */
+    .rodata.MageKnightStaff : {*(.rodata.MageKnightStaff)}
+    . = 0x8E00008 + 0x20 * 0xba; /* FE8 */
+    .rodata.MageKnightMagic : {*(.rodata.MageKnightMagic)}

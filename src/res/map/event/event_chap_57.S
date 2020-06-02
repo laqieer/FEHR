@@ -56,7 +56,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Sharena,SharenaLord,Anna,5,19,5,19)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Bruno,Valkyrie,0,1,SIDE_ENEMY,1,4,1,4,1,Lightning,None,0,0,AttackInRange,DontMove,Cautious,DefaultAI4) // ブルーノ
+	UNIT(Bruno,MageKnight,0,1,SIDE_ENEMY,1,4,1,4,1,Lightning,None,0,0,AttackInRange,DontMove,Cautious,DefaultAI4) // ブルーノ
 	UNIT(GenericSummoned,Mage_F,0,30,SIDE_ENEMY,1,6,5,6,5,Elfire,None,0,0,AttackIfClose,DontMove,Cautious,DefaultAI4) // セリカ
 	UNIT(GenericSummoned,Mage,0,30,SIDE_ENEMY,1,8,5,8,5,Fire,None,0,0,AttackIfClose,DontMove,Cautious,DefaultAI4) // ボーイ
 	UNIT(GenericSummoned,Mage_F,0,30,SIDE_ENEMY,1,6,3,6,3,Thunder,None,0,0,AttackInPlace,DontMove,Cautious,DefaultAI4) // メイ

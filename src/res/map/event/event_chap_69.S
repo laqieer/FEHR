@@ -54,7 +54,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Sharena,SharenaLord,Anna,8,14,8,14)
 	UNIT_ALLY_JOINED(Anna,AnnaLord,0,9,14,9,14)
 	UNIT_ALLY_JOINED(Alfonse,AlfonseLord,Anna,3,14,3,14)
-	UNIT_ALLY_JOINED(Bruno,Valkyrie,Anna,3,15,3,15)
+	UNIT_ALLY_JOINED(Bruno,MageKnight,Anna,3,15,3,15)
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSummonedStrongDrop,KnightLord,0,10,SIDE_ENEMY,1,5,0,5,0,SilverSword,AfasDrops,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // エリウッド

@@ -57,7 +57,7 @@ AllyUnitsENM:
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSummoned,Cavalier,0,30,SIDE_ENEMY,1,9,11,9,11,SteelAxe,EmblaWard,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ティアマト
-	UNIT(Bruno,Valkyrie,0,1,SIDE_ENEMY,1,9,12,9,12,Lightning,None,0,0,AttackInRange,DontMove,Cautious,DefaultAI4) // ブルーノ
+	UNIT(Bruno,MageKnight,0,1,SIDE_ENEMY,1,9,12,9,12,Lightning,None,0,0,AttackInRange,DontMove,Cautious,DefaultAI4) // ブルーノ
 	UNIT(GenericSummoned,Cleric,0,30,SIDE_ENEMY,1,10,12,10,12,Mend,None,0,0,HealAllies,Pursue,NoRecovery,DefaultAI4) // ミスト
 	UNIT(GenericSummoned,Mage,0,30,SIDE_ENEMY,1,13,11,13,11,Fire,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // セネリオ
 	UNIT(GenericEmblian,PegasusKnight,0,27,SIDE_ENEMY,1,14,0,14,0,SteelLance,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ランスペガサス

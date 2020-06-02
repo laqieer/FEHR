@@ -53,7 +53,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna,AnnaLord,0,0,7,0,7)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Bruno,Valkyrie,0,1,SIDE_ENEMY,1,10,5,10,5,Lightning,None,0,0,AttackInRange,DontMove,Cautious,DefaultAI4) // ブルーノ
+	UNIT(Bruno,MageKnight,0,1,SIDE_ENEMY,1,10,5,10,5,Lightning,None,0,0,AttackInRange,DontMove,Cautious,DefaultAI4) // ブルーノ
 	UNIT(GenericEmblian,Cleric,0,28,SIDE_ENEMY,1,14,5,14,5,Mend,None,0,0,HealAllies,DontMove,NoRecovery,DefaultAI4) // シスター
 	UNIT(GenericEmblian,Cleric,0,28,SIDE_ENEMY,1,14,12,14,12,Mend,None,0,0,HealAllies,DontMove,NoRecovery,DefaultAI4) // シスター
 	UNIT(GenericEmblian,Knight,0,28,SIDE_ENEMY,1,14,8,14,8,SteelAxe,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // アクスアーマー

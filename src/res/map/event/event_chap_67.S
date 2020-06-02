@@ -55,7 +55,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Anna,AnnaLord,0,8,11,8,11)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Bruno,Valkyrie,0,1,SIDE_ENEMY,1,1,1,1,1,Lightning,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // ブルーノ
+	UNIT(Bruno,MageKnight,0,1,SIDE_ENEMY,1,1,1,1,1,Lightning,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // ブルーノ
 	UNIT(GenericSummonedStrongDrop,General,0,10,SIDE_ENEMY,1,6,6,6,6,SilverBlade,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 漆黒の騎士
 	UNIT(GenericSummonedStrongDrop,Hero,0,10,SIDE_ENEMY,1,8,6,8,6,SilverAxe,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // アイク
 	UNIT(GenericSummonedStrongDrop,FalcoKnight,0,10,SIDE_ENEMY,1,10,4,10,4,SilverSword,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // エリンシア
