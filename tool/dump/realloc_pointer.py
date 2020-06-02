@@ -17,6 +17,7 @@ ptrs = {
     "SoundRoomEntry": b'\x14\xe5\xda\x08',
     "DeathQuote": b'\x2c\x72\xd6\x08',
     "SupportConversation": b'\x34\x79\xd6\x08',
+    "OptionMenuInfo": b'\x54\xf0\xda\x08',
 }
 
 structName = sys.argv[1]
