@@ -19,12 +19,12 @@ const struct OptionMenuInfo OptionMenuInfos[] = {
     //{0xd, optionMenuList2},
     //{0xd, optionMenuList3},
     //{0xd, optionMenuList3},
-    {0x10, optionMenuListAll},
-    {0x10, optionMenuListAll},
-    {0x10, optionMenuListAll},
-    {0x10, optionMenuListAll},
-    {0x10, optionMenuListAll},
-    {0x10, optionMenuListAll},
+    {sizeof(optionMenuListAll), optionMenuListAll},
+    {sizeof(optionMenuListAll), optionMenuListAll},
+    {sizeof(optionMenuListAll), optionMenuListAll},
+    {sizeof(optionMenuListAll), optionMenuListAll},
+    {sizeof(optionMenuListAll), optionMenuListAll},
+    {sizeof(optionMenuListAll), optionMenuListAll},
 };
 
 const struct OptionMenuInfo * const pOptionMenuInfos1 = OptionMenuInfos;
