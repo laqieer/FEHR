@@ -74,6 +74,12 @@ infos = {
         "list": "MapMenuItem.txt",
         "startIndex": 1
     },
+    "OptionMenuItem": {
+        "format": "u16u16u16u16u8u8u16u16u16u8u8u16u16u16u8u8u16u16u16u8u8u16u8u8u16u32<",
+        "start": 0xdaf0c4,
+        "list": "OptionMenuItem.txt",
+        "startIndex": 0
+    },
 }
 
 structName = sys.argv[1]

@@ -20,3 +20,17 @@
 .rodata.pOptionMenuInfos10 : {*(.rodata.pOptionMenuInfos10)}
 . = 0x80AF8B8;
 .rodata.pOptionMenuInfos11 : {*(.rodata.pOptionMenuInfos11)}
+. = 0x80AEBC4;
+.rodata.pOptionMenuItemInfos1 : {*(.rodata.pOptionMenuItemInfos1)}
+. = 0x80AEC40;
+.rodata.pOptionMenuItemInfos2 : {*(.rodata.pOptionMenuItemInfos2)}
+. = 0x80AECC0;
+.rodata.pOptionMenuItemInfos3 : {*(.rodata.pOptionMenuItemInfos3)}
+. = 0x80AED9C;
+.rodata.pOptionMenuItemInfos4 : {*(.rodata.pOptionMenuItemInfos4)}
+. = 0x80AEEAC;
+.rodata.pOptionMenuItemInfos5 : {*(.rodata.pOptionMenuItemInfos5)}
+. = 0x80AF268;
+.rodata.pOptionMenuItemInfos6 : {*(.rodata.pOptionMenuItemInfos6)}
+. = 0x80AF8B4;
+.rodata.pOptionMenuItemInfos7 : {*(.rodata.pOptionMenuItemInfos7)}
