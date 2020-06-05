@@ -2,6 +2,9 @@ ENTRY(_start)
 
 gAISTable = 0x2000000;
 gLevelUpProc = 0x20200ac;
+
+gCurrentSelectedItemInOptionMenu = 0x202016a;
+
 DAT_0203e0ac = 0x203e0ac;
 
 gStatScreen = 0x200310C;
@@ -218,6 +221,9 @@ startExtraMenuItemProc = 0x80a57bd;
 endExtraMenuItem = 0x80a5839;
 EnableItemInSavemenu = 0x80a6ca9;
 EnableItemInExtramenu = 0x80a6cbd;
+DisplayItemAlternativesInOptionMenu = 0x80aeccd;
+OptionMenuItemHandlerBasic = 0x80af195;
+getOptionMenuItemCurrentValueBasic = 0x80af285;
 showTitleScreenOBJ = 0x80baf35;
 m4aSongNumStart = 0x80bf0d9;
 m4aSongNumStop = 0x80bf1a5;
@@ -412,6 +418,7 @@ SECTIONS
 	.bss.buff : {*/buff.*(.bss.*)}
 	.bss.new_unit_state : {*/new_unit_state.*(.bss.*)}
 	.bss.achievement : {*/achievement.*(.bss.*)}
+    .data.game_option : {*/game_option.*(.data.*)}
     savLog = .;
     . = 0xE008000 - 2;
     .bss.locationLoByte : {*/gba_debug_print.*(.bss.locationLoByte.*)}

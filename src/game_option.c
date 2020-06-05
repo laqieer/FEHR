@@ -2,6 +2,12 @@
 
 #include <gba_types.h>
 
+#include "text_id.h"
+#include "achievement.h"
+#include "injector.h"
+#include "gba_debug_print.h"
+#include "option_menu_icons.h"
+
 struct OptionMenuInfo {
     u8 itemAmount;
     const u8 *itemList;
@@ -10,7 +16,7 @@ struct OptionMenuInfo {
 const u8 optionMenuList1[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xf, 0xb, 3, 6, 7, 8};
 const u8 optionMenuList2[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xb, 3, 0xc, 6, 7, 8};
 const u8 optionMenuList3[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xb, 3, 0xc, 6, 7, 8};
-const u8 optionMenuListAll[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10};
+const u8 optionMenuListAll[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10, 0x11};
 
 const struct OptionMenuInfo OptionMenuInfos[] = {
     //{0xd, optionMenuList1},
@@ -57,6 +63,93 @@ struct OptionMenuItemInfo {
     int (*func)(u32 procParent); // 40
 };
 
+extern u16 gCurrentSelectedItemInOptionMenu;
+
+int OptionMenuItemHandlerBasic(u32 procParent);
+int getOptionMenuItemCurrentValueBasic(u8 item, int pad, int defaultValue);
+
+char gCurrentGameLanguage = -1;
+
+enum {
+    LANGUAGE_JP,
+    LANGUAGE_EN
+};
+
+char getCurrentGameLanguage()
+{
+    if(gCurrentGameLanguage > LANGUAGE_EN || gCurrentGameLanguage < LANGUAGE_JP)
+        gCurrentGameLanguage = LANGUAGE_JP;
+    return gCurrentGameLanguage;
+}
+
+void setCurrentGameLanguage(char language)
+{
+    if(language <= LANGUAGE_EN && language >= LANGUAGE_JP)
+        gCurrentGameLanguage = language;
+    else
+        gCurrentGameLanguage = LANGUAGE_JP;
+}
+
+void DisplayItemAlternativesInOptionMenu(int param_1,int param_2,int param_3);
+
+int OptionMenuItemLanguageHandler(u32 procParent)
+{
+    // I sort all menu items by index (optionMenuListAll), so 
+    int item = gCurrentSelectedItemInOptionMenu;
+
+    if((sKeyStatusBuffer.repeatedKeys & 0x30) == 0)
+        return 0;
+
+    int result = OptionMenuItemHandlerBasic(procParent);
+
+    if((sKeyStatusBuffer.repeatedKeys & 0x20) == 0)
+    {
+        //setCurrentGameLanguage(getCurrentGameLanguage() + 1);
+        if(gCurrentGameLanguage == LANGUAGE_JP)
+        {
+            gCurrentGameLanguage = LANGUAGE_EN;
+            Debug("Game Language: JP -> EN");
+            result = 1;
+        }
+    }
+    else
+    {
+        //setCurrentGameLanguage(getCurrentGameLanguage() - 1);
+        if(gCurrentGameLanguage == LANGUAGE_EN)
+        {
+            gCurrentGameLanguage = LANGUAGE_JP;
+            Debug("Game Language: EN -> JP");
+            result = 1;
+        }
+    }
+
+    if(result)
+    {
+        DisplayItemAlternativesInOptionMenu(item, item % 7, item * 2 + 4);
+    }
+
+    return result;
+}
+
+#pragma GCC push_options
+#pragma GCC optimize ("-O2")
+
+int getOptionMenuItemCurrentValue(u32 item)
+{
+    if(item > 0x11)
+        return 0;
+    if(item == 0x11)
+        return getCurrentGameLanguage();
+    return getOptionMenuItemCurrentValueBasic(item, 0, 0);
+}
+
+int getOptionMenuItemCurrentValueInjector(u32 item)
+{
+    InjectorR1(getOptionMenuItemCurrentValue);
+}
+
+#pragma GCC pop_options
+
 const struct OptionMenuItemInfo OptionMenuItemInfos[] = {
     {1514, 0, {{1531, 1561, 120, 1, 0}, {1532, 1562, 135, 1, 0}, {1533, 1560, 150, 2, 0}, {1534, 1569, 173, 2, 0}}, 0, 0, 0, 134934933} ,  // 0 アニメ設定
     {1515, 0, {{1541, 1559, 120, 2, 0}, {1541, 1560, 143, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 2, 0, 0, 134934933} ,  // 1 地形ウィンドウ
@@ -75,6 +168,7 @@ const struct OptionMenuItemInfo OptionMenuItemInfos[] = {
     {1528, 0, {{1556, 1559, 120, 2, 0}, {1556, 1560, 143, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 28, 0, 0, 134934933} ,  // e クリア目的表示
     {1529, 0, {{1557, 1559, 120, 2, 0}, {1557, 1560, 143, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 30, 0, 0, 134934933} ,  // f 操作説明ヴィンドウ
     {1530, 0, {{1558, 1559, 120, 2, 0}, {1558, 1560, 143, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 32, 0, 0, 134934933} ,  // 10 ランク表示
+    {TEXT_OPTION_LANGUAGE, 0, {{TEXT_OPTION_JP_HELP, TEXT_OPTION_JP, 120, 2, 0}, {TEXT_OPTION_EN_HELP, TEXT_OPTION_EN, 143 + 8, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 34, 0, 0, OptionMenuItemLanguageHandler} ,  // 11 言語設定
 };
 
 const struct OptionMenuItemInfo * const pOptionMenuItemInfos1 = OptionMenuItemInfos;
@@ -84,4 +178,6 @@ const struct OptionMenuItemInfo * const pOptionMenuItemInfos4 = OptionMenuItemIn
 const struct OptionMenuItemInfo * const pOptionMenuItemInfos5 = OptionMenuItemInfos;
 const struct OptionMenuItemInfo * const pOptionMenuItemInfos6 = OptionMenuItemInfos;
 const struct OptionMenuItemInfo * const pOptionMenuItemInfos7 = OptionMenuItemInfos;
+
+const unsigned int * const pOption_menu_iconsTiles = option_menu_iconsTiles;
 

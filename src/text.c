@@ -1756,6 +1756,16 @@ const char* const texts[] = {
 
        [TEXT_JOB_HELP_MAGE_KNIGHT] = "魔法と杖を使う　魔道騎士"TCC_NEWLINE"装備「理・光・闇・杖」",
 
+       [TEXT_OPTION_LANGUAGE] = "言語",
+
+       [TEXT_OPTION_JP] = "日本語",
+
+       [TEXT_OPTION_EN] = "Ｅｎｇｌｉｓｈ",
+
+       [TEXT_OPTION_JP_HELP] = "ゲーム内の言語を日本語に変更する",
+
+       [TEXT_OPTION_EN_HELP] = "Ｃｈａｎｇｅ　ｌａｎｇｕａｇｅ　ｔｏ　Ｅｎｇｌｉｓｈ",
+
 #include "texts.txt"
 };
 

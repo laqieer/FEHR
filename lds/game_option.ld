@@ -34,3 +34,7 @@
 .rodata.pOptionMenuItemInfos6 : {*(.rodata.pOptionMenuItemInfos6)}
 . = 0x80AF8B4;
 .rodata.pOptionMenuItemInfos7 : {*(.rodata.pOptionMenuItemInfos7)}
+. = 0x80af278;
+.text.getOptionMenuItemCurrentValueInjector : {*(.text.getOptionMenuItemCurrentValueInjector)}
+. = 0x80af0f4;
+.rodata.pOption_menu_iconsTiles : {*(.rodata.pOption_menu_iconsTiles)}
