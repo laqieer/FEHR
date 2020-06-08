@@ -1775,6 +1775,44 @@ const char* const texts[] = {
                "Ｈｅｌｌｏ" TCC_NEWLINE TCC_PUSH_A
                TCC_CLEAR_FACE,
 
+       [TEXT_OPTION_RANDOM_MODE] = "ランダムモード",
+
+       [TEXT_OPTION_PSEUDO_RANDOM] = "ギジ",
+
+       [TEXT_OPTION_REAL_RANDOM] = "リアル",
+
+       [TEXT_OPTION_PSEUDO_RANDOM_HELP] = "ギジランダムを使う",
+
+       [TEXT_OPTION_REAL_RANDOM_HELP] = "リアルランダム（乱数を調整できない）",
+
+       [TEXT_OPTION_TRUE_HIT] = "命中判定",
+
+       [TEXT_OPTION_TRUE_HIT_ON] = "実効命中率",
+
+       [TEXT_OPTION_TRUE_HIT_OFF] = "表\示命中率",
+
+       [TEXT_OPTION_TRUE_HIT_ON_HELP] = "命中判定の際に乱数が２つ使用される",
+
+       [TEXT_OPTION_TRUE_HIT_OFF_HELP] = "命中判定の際に乱数が１つ使用される",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL] = "ザコ敵の奥義",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_NONE] = "無",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_WEAK] = "弱",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_STRONG] = "強",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED] = "優",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_NONE_HELP] = "ザコ敵は奥義を持ってない",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_WEAK_HELP] = "ザコ敵は弱い奥義を持っている",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_STRONG_HELP] = "ザコ敵は強い奥義を持っている",
+
+       [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED_HELP] = "ザコ敵は全ての奥義を持っている",
+
 #include "texts.txt"
 };
 

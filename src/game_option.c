@@ -16,7 +16,7 @@ struct OptionMenuInfo {
 const u8 optionMenuList1[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xf, 0xb, 3, 6, 7, 8};
 const u8 optionMenuList2[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xb, 3, 0xc, 6, 7, 8};
 const u8 optionMenuList3[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xb, 3, 0xc, 6, 7, 8};
-const u8 optionMenuListAll[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10, 0x11};
+const u8 optionMenuListAll[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10, 0x11, 0x12, 0x13, 0x14};
 
 const struct OptionMenuInfo OptionMenuInfos[] = {
     //{0xd, optionMenuList1},
@@ -69,10 +69,30 @@ int OptionMenuItemHandlerBasic(u32 procParent);
 int getOptionMenuItemCurrentValueBasic(u8 item, int pad, int defaultValue);
 
 char gCurrentGameLanguage = -1;
+char gRandomMode = -1;
+char gTrueHitConf = -1;
+char gEnemySpecialSkillLevel = -1;
 
 enum {
     LANGUAGE_JP,
     LANGUAGE_EN
+};
+
+enum {
+    RANDOM_MODE_PSEUDO,
+    RANDOM_MODE_REAL
+};
+
+enum {
+    TRUE_HIT_ON,
+    TRUE_HIT_OFF
+};
+
+enum {
+    ENEMY_SPECIAL_SKILL_LEVEL_NONE,
+    ENEMY_SPECIAL_SKILL_LEVEL_WEAK,
+    ENEMY_SPECIAL_SKILL_LEVEL_STRONG,
+    ENEMY_SPECIAL_SKILL_LEVEL_MIXED
 };
 
 char getCurrentGameLanguage()
@@ -88,6 +108,60 @@ void setCurrentGameLanguage(char language)
         gCurrentGameLanguage = language;
     else
         gCurrentGameLanguage = LANGUAGE_JP;
+}
+
+char getRandomMode()
+{
+    if(gRandomMode > RANDOM_MODE_REAL || gRandomMode < RANDOM_MODE_PSEUDO)
+        gRandomMode = RANDOM_MODE_PSEUDO;
+    return gRandomMode;
+}
+
+void setRandomMode(char mode)
+{
+    if(mode > RANDOM_MODE_REAL || mode < RANDOM_MODE_PSEUDO)
+    {
+        Debugf("Error: Invalid random mode: %d", mode);
+        return;
+    }
+
+    gRandomMode = mode;
+}
+
+char getTrueHitConf()
+{
+    if(gTrueHitConf > TRUE_HIT_OFF || gTrueHitConf < TRUE_HIT_ON)
+        gTrueHitConf = TRUE_HIT_ON;
+    return gTrueHitConf;
+}
+
+void setTrueHitConf(char state)
+{
+    if(state > TRUE_HIT_OFF || state < TRUE_HIT_ON)
+    {
+        Debugf("Error: Invalid true hit system state: %d", state);
+        return;
+    }
+
+    gTrueHitConf = state;
+}
+
+char getEnemySpecialSkillLevel()
+{
+    if(gEnemySpecialSkillLevel > ENEMY_SPECIAL_SKILL_LEVEL_MIXED || gEnemySpecialSkillLevel < ENEMY_SPECIAL_SKILL_LEVEL_NONE)
+        gEnemySpecialSkillLevel = ENEMY_SPECIAL_SKILL_LEVEL_NONE;
+    return gEnemySpecialSkillLevel;
+}
+
+void setEnemySpecialSkillLevel(char level)
+{
+    if(level > ENEMY_SPECIAL_SKILL_LEVEL_MIXED || level < ENEMY_SPECIAL_SKILL_LEVEL_NONE)
+    {
+        Debugf("Error: Invalid enemy special skill level: %d", level);
+        return;
+    }
+
+    gEnemySpecialSkillLevel = level;
 }
 
 void DisplayItemAlternativesInOptionMenu(int param_1,int param_2,int param_3);
@@ -131,13 +205,121 @@ int OptionMenuItemLanguageHandler(u32 procParent)
     return result;
 }
 
+int OptionMenuItemRandomModeHandler(u32 procParent)
+{
+    int item = gCurrentSelectedItemInOptionMenu;
+
+    if((sKeyStatusBuffer.repeatedKeys & 0x30) == 0)
+        return 0;
+
+    int result = OptionMenuItemHandlerBasic(procParent);
+
+    if((sKeyStatusBuffer.repeatedKeys & 0x20) == 0)
+    {
+        if(getRandomMode() == RANDOM_MODE_PSEUDO)
+        {
+            setRandomMode(RANDOM_MODE_REAL);
+            result = 1;
+        }
+    }
+    else
+    {
+        if(getRandomMode() == RANDOM_MODE_REAL)
+        {
+            setRandomMode(RANDOM_MODE_PSEUDO);
+            result = 1;
+        }
+    }
+
+    if(result)
+    {
+        DisplayItemAlternativesInOptionMenu(item, item % 7, item * 2 + 4);
+    }
+
+    return result;
+}
+
+int OptionMenuItemTrueHitHandler(u32 procParent)
+{
+    int item = gCurrentSelectedItemInOptionMenu;
+
+    if((sKeyStatusBuffer.repeatedKeys & 0x30) == 0)
+        return 0;
+
+    int result = OptionMenuItemHandlerBasic(procParent);
+
+    if((sKeyStatusBuffer.repeatedKeys & 0x20) == 0)
+    {
+        if(getTrueHitConf() == TRUE_HIT_ON)
+        {
+            setTrueHitConf(TRUE_HIT_OFF);
+            result = 1;
+        }
+    }
+    else
+    {
+        if(getTrueHitConf() == TRUE_HIT_OFF)
+        {
+            setTrueHitConf(TRUE_HIT_ON);
+            result = 1;
+        }
+    }
+
+    if(result)
+    {
+        DisplayItemAlternativesInOptionMenu(item, item % 7, item * 2 + 4);
+    }
+
+    return result;
+}
+
+int OptionMenuItemEnemySpecialSkillLevelHandler(u32 procParent)
+{
+    int item = gCurrentSelectedItemInOptionMenu;
+
+    if((sKeyStatusBuffer.repeatedKeys & 0x30) == 0)
+        return 0;
+
+    int result = OptionMenuItemHandlerBasic(procParent);
+
+    if((sKeyStatusBuffer.repeatedKeys & 0x20) == 0)
+    {
+        if(getEnemySpecialSkillLevel() >= ENEMY_SPECIAL_SKILL_LEVEL_NONE && getEnemySpecialSkillLevel() < ENEMY_SPECIAL_SKILL_LEVEL_MIXED)
+        {
+            setEnemySpecialSkillLevel(getEnemySpecialSkillLevel() + 1);
+            result = 1;
+        }
+    }
+    else
+    {
+        if(getEnemySpecialSkillLevel() > ENEMY_SPECIAL_SKILL_LEVEL_NONE && getEnemySpecialSkillLevel() <= ENEMY_SPECIAL_SKILL_LEVEL_MIXED)
+        {
+            setEnemySpecialSkillLevel(getEnemySpecialSkillLevel() - 1);
+            result = 1;
+        }
+    }
+
+    if(result)
+    {
+        DisplayItemAlternativesInOptionMenu(item, item % 7, item * 2 + 4);
+    }
+
+    return result;
+}
+
 #pragma GCC push_options
 #pragma GCC optimize ("-O2")
 
 int getOptionMenuItemCurrentValue(u32 item)
 {
-    if(item > 0x11)
+    if(item > 0x14)
         return 0;
+    if(item == 0x14)
+        return getEnemySpecialSkillLevel();
+    if(item == 0x13)
+        return getTrueHitConf();
+    if(item == 0x12)
+        return getRandomMode();
     if(item == 0x11)
         return getCurrentGameLanguage();
     return getOptionMenuItemCurrentValueBasic(item, 0, 0);
@@ -169,6 +351,9 @@ const struct OptionMenuItemInfo OptionMenuItemInfos[] = {
     {1529, 0, {{1557, 1559, 120, 2, 0}, {1557, 1560, 143, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 30, 0, 0, 134934933} ,  // f 操作説明ヴィンドウ
     {1530, 0, {{1558, 1559, 120, 2, 0}, {1558, 1560, 143, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 32, 0, 0, 134934933} ,  // 10 ランク表示
     {TEXT_OPTION_LANGUAGE, 0, {{TEXT_OPTION_JP_HELP, TEXT_OPTION_JP, 120, 2, 0}, {TEXT_OPTION_EN_HELP, TEXT_OPTION_EN, 143 + 8, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 34, 0, 0, OptionMenuItemLanguageHandler} ,  // 11 言語設定
+    {TEXT_OPTION_RANDOM_MODE, 0, {{TEXT_OPTION_PSEUDO_RANDOM_HELP, TEXT_OPTION_PSEUDO_RANDOM, 120, 2, 0}, {TEXT_OPTION_REAL_RANDOM_HELP, TEXT_OPTION_REAL_RANDOM, 143 + 8, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 36, 0, 0, OptionMenuItemRandomModeHandler} ,  // 12 ランダムモード
+    {TEXT_OPTION_TRUE_HIT, 0, {{TEXT_OPTION_TRUE_HIT_ON_HELP, TEXT_OPTION_TRUE_HIT_ON, 120, 2, 0}, {TEXT_OPTION_TRUE_HIT_OFF_HELP, TEXT_OPTION_TRUE_HIT_OFF, 143 + 8 * 3, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 38, 0, 0, OptionMenuItemTrueHitHandler} ,  // 13 命中判定
+    {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL, 0, {{TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_NONE_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_NONE, 120, 1, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_WEAK_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_WEAK, 135, 1, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_STRONG_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_STRONG, 150, 2, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED, 165, 2, 0}}, 40, 0, 0, OptionMenuItemEnemySpecialSkillLevelHandler} ,  // 14 雑魚敵の奥義スキル
 };
 
 const struct OptionMenuItemInfo * const pOptionMenuItemInfos1 = OptionMenuItemInfos;
