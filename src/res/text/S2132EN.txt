@@ -1,12 +1,8 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2132_EN] = TCC_OPEN_LEFT
-"Ｏｕｔ　ｏｆ　ｎｏｗｈｅｒｅ，　Ｉ　ｗａｓ　ｓｕｍｍｏｎｅｄ"TCC_NEWLINE"　ｂｙ"TCC_NEWLINE
-"ａ　ｍｙｓｔｅｒｉｏｕｓ　ｍａｎ．．．ａｎｄ　ｂｏｕｎｄ　ｔ"TCC_NEWLINE"ｏ　ａ"TCC_NEWLINE
-"ｃｏｎｔｒａｃｔ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｔｈａｔ’ｓ　ｊｕｓｔ　ｃｈａｐｔｅｒ　ｏｎｅ！　Ｉ"TCC_NEWLINE"　ｃａｎ’ｔ"TCC_NEWLINE
-"ｗａｉｔ　ｔｏ　ｓｅｅ　ｗｈａｔ’ｓ　ｃｏｍｉｎｇ　ｕｐ　ｎ"TCC_NEWLINE"ｅｘｔ．．．"TCC_NEWLINE
-"Ｔｅｅ－ｈｅｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｔ　ｏｆ　ｎｏｗｈｅｒｅ，　Ｉ　ｗａｓ　ｓｕｍｍｏｎｅー"TCC_NEWLINE"ｄ　ｂｙａ　ｍｙｓｔｅｒｉｏｕｓ　ｍａｎ．．．ａｎｄ　ｂｏー"TCC_NEWLINE"ｕｎｄ　ｔｏ　ａｃｏｎｔｒａｃｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈａｔ’ｓ　ｊｕｓｔ　ｃｈａｐｔｅｒ　ｏｎｅ！　"TCC_NEWLINE"Ｉ　ｃａｎ’ｔｗａｉｔ　ｔｏ　ｓｅｅ　ｗｈａｔ’ｓ　ｃｏｍー"TCC_NEWLINE"ｉｎｇ　ｕｐ　ｎｅｘｔ．．．Ｔｅｅ－ｈｅｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2132_EN] = TCC_OPEN_LEFT
 "＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
@@ -15,41 +11,29 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_YLGR
 TCC_OPEN_LEFT
 "Ｎｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ　ｂｅ？　Ｉｔ’ｓ　ｓｏ　ｈｏｔ　"TCC_NEWLINE"ｈｅｒｅ！　Ｉ"TCC_NEWLINE
-"ｆｅｅｌ　ｌｉｋｅ　ｔｈｅ　ｅｎｅｒｇｙ　ｉｓ　ｂｅｉｎｇ　"TCC_NEWLINE"ｄｒａｉｎｅｄ"TCC_NEWLINE
-"ｆｒｏｍ　ｍｙ　ｂｏｄｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏｏｎｅｒ　ｏｒ　ｌａｔｅｒ，　ｔｈｅｙ’ｒｅ　ｇｏｉｎｇ"TCC_NEWLINE"　ｔｏ　ｏｆｆｅｒ"TCC_NEWLINE
-"ｕｓ　ｕｐ　ｔｏ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅ，　ａｒ"TCC_NEWLINE"ｅｎ’ｔ"TCC_NEWLINE
-"ｔｈｅｙ？　Ｗｅ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ　ｂｅ？　Ｉｔ’ｓ　ｓｏ　ｈｏｔ"TCC_NEWLINE"　ｈｅｒｅ！　Ｉｆｅｅｌ　ｌｉｋｅ　ｔｈｅ　ｅｎｅｒｇｙ　"TCC_NEWLINE"ｉｓ　ｂｅｉｎｇ　ｄｒａｉｎｅｄｆｒｏｍ　ｍｙ　ｂｏｄｙ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｏｎｅｒ　ｏｒ　ｌａｔｅｒ，　ｔｈｅｙ’ｒｅ　ｇｏｉｎー"TCC_NEWLINE"ｇ　ｔｏ　ｏｆｆｅｒｕｓ　ｕｐ　ｔｏ　ｔｈｅ　Ｒｉｔｅ　ｏー"TCC_NEWLINE"ｆ　Ｆｌａｍｅ，　ａｒｅｎ’ｔｔｈｅｙ？　Ｗｅ’ｒｅ　ｇｏー"TCC_NEWLINE"ｉｎｇ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｏｓｔ　ｌｉｋｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ，　Ｉ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｄｉｅ！　Ｉ　ｗａｎ"TCC_NEWLINE"ｔｅｄ　ｔｏ"TCC_NEWLINE
-"ｓｅｅ　ｓｏ　ｍａｎｙ　ｍｏｒｅ　ｗｏｒｌｄｓ　ｔｈａｎ　ｔ"TCC_NEWLINE"ｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕ－ｂｕｔ　Ｉ　ｃａｎ’ｔ　ｇｉｖｅ　ｕｐ．．．　Ｍｙ　ｂ"TCC_NEWLINE"ｒｏｔｈｅｒ"TCC_NEWLINE
-"ａｎｄ　ｓｉｓｔｅｒ　ａｒｅ　ｏｎ　ｔｈｅｉｒ　ｗａｙ　ｔｏ"TCC_NEWLINE"　ｓａｖｅ　ｕｓ．"TCC_NEWLINE
-"Ｔｈｅｙ　ｈａｖｅ　ｔｏ　ｂｅ．　Ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ｉ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｄｉｅ！　Ｉ　ｗａー"TCC_NEWLINE"ｎｔｅｄ　ｔｏｓｅｅ　ｓｏ　ｍａｎｙ　ｍｏｒｅ　ｗｏｒｌｄー"TCC_NEWLINE"ｓ　ｔｈａｎ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕ－ｂｕｔ　Ｉ　ｃａｎ’ｔ　ｇｉｖｅ　ｕｐ．．．　Ｍｙ　"TCC_NEWLINE"ｂｒｏｔｈｅｒａｎｄ　ｓｉｓｔｅｒ　ａｒｅ　ｏｎ　ｔｈｅｉー"TCC_NEWLINE"ｒ　ｗａｙ　ｔｏ　ｓａｖｅ　ｕｓ．Ｔｈｅｙ　ｈａｖｅ　ｔｏ"TCC_NEWLINE"　ｂｅ．　Ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｄｏ　ｙｏｕ　ａｌｗａｙｓ　ｔａｌｋ　ｔｈｉｓ　ｍｕｃｈ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｕｈ？　Ｏｈ，　Ｉ’ｍ　ｓｏｒｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｆ　ｓｏｍｅｂｏｄｙ　ｄｏｅｓｎ’ｔ　ｇｅｔ　ｈｅ"TCC_NEWLINE"ｒｅ"TCC_NEWLINE
-"ｓｏｏｎ，　Ｉ．．．　Ｗｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｓｏｍｅｂｏｄｙ　ｄｏｅｓｎ’ｔ　ｇｅｔ　ｈー"TCC_NEWLINE"ｅｒｅｓｏｏｎ，　Ｉ．．．　Ｗｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
 "Ｑｕｉｔ　ｙｏｕｒ　ｓｎｉｆｆｌｉｎｇ，　ｂｒａｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？　Ｏｈ！　Ｉｔ’ｓ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｒｅ　ｓｔｉｌｌ　ａｌｉｖｅ！　Ｉ　ｔｈｏｕｇｈｔ　"TCC_NEWLINE"ｆｏｒ　ｓｕｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｓｔｉｌｌ　ａｌｉｖｅ！　Ｉ　ｔｈｏｕｇｈｔ"TCC_NEWLINE"　ｆｏｒ　ｓｕｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｑｕｉｅｔ！　Ｔｈｉｓ　ｐｌａｃｅ　ｉｓ　ｃｒａｗｌｉｎｇ　"TCC_NEWLINE"ｗｉｔｈ"TCC_NEWLINE
-"ｇｕａｒｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｑｕｉｃｋ　ｎｏｗ，　ｌｅｔ’ｓ　ｇｏ．　Ｗｅ　ｗａｎｔ　ｔ"TCC_NEWLINE"ｏ　ｂｅ"TCC_NEWLINE
-"ｏｕｔ　ｏｆ　ｈｅｒｅ　ｂｅｆｏｒｅ　Ｓｕｒｔｒ　ｎｏｔｉｃ"TCC_NEWLINE"ｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｑｕｉｅｔ！　Ｔｈｉｓ　ｐｌａｃｅ　ｉｓ　ｃｒａｗｌｉｎｇ"TCC_NEWLINE"　ｗｉｔｈｇｕａｒｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｑｕｉｃｋ　ｎｏｗ，　ｌｅｔ’ｓ　ｇｏ．　Ｗｅ　ｗａｎｔ　"TCC_NEWLINE"ｔｏ　ｂｅｏｕｔ　ｏｆ　ｈｅｒｅ　ｂｅｆｏｒｅ　Ｓｕｒｔｒ"TCC_NEWLINE"　ｎｏｔｉｃｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗａｉｔｙｏｕ’ｒｅ　ｓａｖｉｎｇ　ｕｓ？　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｑｕｅｓｔｉｏｎｓ，　ｑｕｅｓｔｉｏｎｓ！　Ｃａｎ’ｔ　ｙｏ"TCC_NEWLINE"ｕ　ｊｕｓｔ"TCC_NEWLINE
-"ｂｅ　ｈａｐｐｙ　ａｂｏｕｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈｙ　Ｉ’ｍ　ｈｅｌｐｉｎｇ　ｙ"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE
-"Ｎｏｔ　ａ　ｃｌｕｅ！　ＯＫ？"TCC_NEWLINE TCC_PUSH_A
+"Ｑｕｅｓｔｉｏｎｓ，　ｑｕｅｓｔｉｏｎｓ！　Ｃａｎ’ｔ　ｙー"TCC_NEWLINE"ｏｕ　ｊｕｓｔｂｅ　ｈａｐｐｙ　ａｂｏｕｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈｙ　Ｉ’ｍ　ｈｅｌｐｉｎｇ　"TCC_NEWLINE"ｙｏｕ．Ｎｏｔ　ａ　ｃｌｕｅ！　ＯＫ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

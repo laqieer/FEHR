@@ -1,9 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S1203_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｎ　ａｍｂｕｓｈ！　Ｊｕｓｔ　ｒｅｍｅｍｂｅｒｉｆ　ｗｅ"TCC_NEWLINE
-"ｋｅｅｐ　ｏｎ　ｄｅｆｅｎｄｉｎｇ，　ｔｈｅ　ｅｎｅｍｙ　ｗ"TCC_NEWLINE"ｉｌｌ"TCC_NEWLINE
-"ｅｖｅｎｔｕａｌｌｙ　ｒｅｔｒｅａｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｅ　ｃａｒｅｆｕｌ　ａｎｄ　ｄｏｎ’ｔ　ｄｏ　ａｎｙｔｈｉ"TCC_NEWLINE"ｎｇ"TCC_NEWLINE
-"ｒａｓｈ．　Ｗｅ　ｊｕｓｔ　ｎｅｅｄ　ｔｏ　ｂｅ　ｐａｔｉｅ"TCC_NEWLINE"ｎｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎ　ａｍｂｕｓｈ！　Ｊｕｓｔ　ｒｅｍｅｍｂｅｒｉｆ　ｗｅー"TCC_NEWLINE"ｋｅｅｐ　ｏｎ　ｄｅｆｅｎｄｉｎｇ，　ｔｈｅ　ｅｎｅｍｙ　"TCC_NEWLINE"ｗｉｌｌｅｖｅｎｔｕａｌｌｙ　ｒｅｔｒｅａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅ　ｃａｒｅｆｕｌ　ａｎｄ　ｄｏｎ’ｔ　ｄｏ　ａｎｙｔｈー"TCC_NEWLINE"ｉｎｇｒａｓｈ．　Ｗｅ　ｊｕｓｔ　ｎｅｅｄ　ｔｏ　ｂｅ　ｐー"TCC_NEWLINE"ａｔｉｅｎｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

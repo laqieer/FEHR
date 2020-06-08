@@ -1,57 +1,31 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0205_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ’ｖｅ　ｄｏｎｅ　ｗｅｌｌ　ｔｏ　ｍａｋｅ　ｉｔ　ｓｏ"TCC_NEWLINE"　ｆａｒ．"TCC_NEWLINE
-"Ｃｌｅａｒｌｙ，　ｙｏｕ　ｐｅｏｐｌｅ　ａｒｅ　ｄｅｖｏｔｅ"TCC_NEWLINE"ｄ"TCC_NEWLINE
-"ｔｏ　ｔｈｅ　ｃａｕｓｅ　ｏｆ　ｐｅａｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ｔｒｕｔｈ，　ｔｈａｔ　ｓｐｅａｋｓ　ｔｏ　ｍｙ　ｈｅ"TCC_NEWLINE"ａｒｔ．"TCC_NEWLINE
-"Ｗｅ　ａｒｅ　ｋｉｎｄｒｅｄ　ｓｐｉｒｉｔｓ．　Ｉ　ｗｉｓｈ"TCC_NEWLINE
-"ｔｈａｔ　ｗｅ　ｈａｄ　ｍｅｔ　ａｓ　ａｌｌｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ　ｍｕｓｔ　ａｂｉｄｅ　ｂｙ　ｔｈｅ　ｃｏｎｔｒａ"TCC_NEWLINE"ｃｔ"TCC_NEWLINE
-"ｔｈａｔ　ｂｉｎｄｓ　ｕｓ　ｕｎｔｉｌ　ｉｔ　ｉｓ　ｂｒｏｋ"TCC_NEWLINE"ｅｎ．"TCC_NEWLINE
-"Ｃａｎ　ｙｏｕ　ｂｒｅａｋ　ｉｔ，　Ｉ　ｗｏｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｆｉｎｄ　ｏｕｔ　ｗｉｔｈ　ａｎ　"TCC_NEWLINE"ｈｏｎｅｓｔ"TCC_NEWLINE
-"ｂａｔｔｌｅ．　Ｄｏ　ｙｏｕｒ　ｂｅｓｔ．　Ａｎｄ　Ｉ　ｗｉ"TCC_NEWLINE"ｌｌ"TCC_NEWLINE
-"ｄｏ　ｍｉｎｅ！"
+"Ｙｏｕ’ｖｅ　ｄｏｎｅ　ｗｅｌｌ　ｔｏ　ｍａｋｅ　ｉｔ　ｓー"TCC_NEWLINE"ｏ　ｆａｒ．Ｃｌｅａｒｌｙ，　ｙｏｕ　ｐｅｏｐｌｅ　ａｒｅ"TCC_NEWLINE"　ｄｅｖｏｔｅｄｔｏ　ｔｈｅ　ｃａｕｓｅ　ｏｆ　ｐｅａｃｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｒｕｔｈ，　ｔｈａｔ　ｓｐｅａｋｓ　ｔｏ　ｍｙ　ｈー"TCC_NEWLINE"ｅａｒｔ．Ｗｅ　ａｒｅ　ｋｉｎｄｒｅｄ　ｓｐｉｒｉｔｓ．　"TCC_NEWLINE"Ｉ　ｗｉｓｈｔｈａｔ　ｗｅ　ｈａｄ　ｍｅｔ　ａｓ　ａｌｌｉー"TCC_NEWLINE"ｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｍｕｓｔ　ａｂｉｄｅ　ｂｙ　ｔｈｅ　ｃｏｎｔｒー"TCC_NEWLINE"ａｃｔｔｈａｔ　ｂｉｎｄｓ　ｕｓ　ｕｎｔｉｌ　ｉｔ　ｉｓ　"TCC_NEWLINE"ｂｒｏｋｅｎ．Ｃａｎ　ｙｏｕ　ｂｒｅａｋ　ｉｔ，　Ｉ　ｗｏー"TCC_NEWLINE"ｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｆｉｎｄ　ｏｕｔ　ｗｉｔｈ　ａｎ"TCC_NEWLINE"　ｈｏｎｅｓｔｂａｔｔｌｅ．　Ｄｏ　ｙｏｕｒ　ｂｅｓｔ．　"TCC_NEWLINE"Ａｎｄ　Ｉ　ｗｉｌｌｄｏ　ｍｉｎｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0205_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ　ｈａｖｅ　ｐｒｏｖｅｄ　ｙｏｕｒ　ｐｏｗｅｒ，　ａｎ"TCC_NEWLINE"ｄ"TCC_NEWLINE
-"Ｉ　ａｍ　ｇｌａｄ　ｔｏ　ｓａｙ　ｔｈａｔ　ｙｏｕ　ｈａｖｅ"TCC_NEWLINE
-"ｂｒｏｋｅｎ　ｔｈｅ　ｃｏｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｈａｖｅ　ｍｙ　ｇｒａｔｉｔｕｄｅ　ｆｏｒ　ｆｒｅｅ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
-"ｕｓ　ｆｒｏｍ　Ｖｅｒｏｎｉｃａ．　Ｉ　ｈｏｐｅ　ｔｈａｔ　"TCC_NEWLINE"ｗｅ"TCC_NEWLINE
-"ｗｉｌｌ　ｍｅｅｔ　ａｇａｉｎ　ｓｏｍｅｄａｙ．"
+"Ｙｏｕ　ｈａｖｅ　ｐｒｏｖｅｄ　ｙｏｕｒ　ｐｏｗｅｒ，　ａー"TCC_NEWLINE"ｎｄＩ　ａｍ　ｇｌａｄ　ｔｏ　ｓａｙ　ｔｈａｔ　ｙｏｕ　ｈー"TCC_NEWLINE"ａｖｅｂｒｏｋｅｎ　ｔｈｅ　ｃｏｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｍｙ　ｇｒａｔｉｔｕｄｅ　ｆｏｒ　ｆｒｅー"TCC_NEWLINE"ｅｉｎｇｕｓ　ｆｒｏｍ　Ｖｅｒｏｎｉｃａ．　Ｉ　ｈｏｐｅ　"TCC_NEWLINE"ｔｈａｔ　ｗｅｗｉｌｌ　ｍｅｅｔ　ａｇａｉｎ　ｓｏｍｅｄａー"TCC_NEWLINE"ｙ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0205_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅｌｌ　ｄｏｎｅ，　ｅｖｅｒｙｏｎｅ．　Ｗｅ’ｖｅ　ｓａｖ"TCC_NEWLINE"ｅｄ"TCC_NEWLINE
-"ｔｈｅｉｒ　ｗｏｒｌｄ　ａｎｄ　ｏｕｒ　ｋｉｎｇｄｏｍ．"TCC_NEWLINE
-"Ａｔ　ｌｅａｓｔ　ｆｏｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ　ｄｏｎｅ，　ｅｖｅｒｙｏｎｅ．　Ｗｅ’ｖｅ　ｓａー"TCC_NEWLINE"ｖｅｄｔｈｅｉｒ　ｗｏｒｌｄ　ａｎｄ　ｏｕｒ　ｋｉｎｇｄｏー"TCC_NEWLINE"ｍ．Ａｔ　ｌｅａｓｔ　ｆｏｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｏｗ　ｆｒｉｇｈｔｆｕｌｌｙ　ｂｏｒｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｆｔｅｒ　ａｌｌ　ｔｈｅ　ｔｒｏｕｂｌｅ　Ｉ　ｗｅｎｔ　ｔ"TCC_NEWLINE"ｈｒｏｕｇｈ，"TCC_NEWLINE
-"ｍａｋｉｎｇ　Ｍａｒｔｈ　ａｎｄ　ｔｈｏｓｅ　ｏｔｈｅｒｓ"TCC_NEWLINE
-"ｐａｗｎｓ　ｏｆ　ｏｕｒ　ｅｍｐｉｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　ａｌｌ　ｔｈｅ　ｔｒｏｕｂｌｅ　Ｉ　ｗｅｎｔ　"TCC_NEWLINE"ｔｈｒｏｕｇｈ，ｍａｋｉｎｇ　Ｍａｒｔｈ　ａｎｄ　ｔｈｏｓー"TCC_NEWLINE"ｅ　ｏｔｈｅｒｓｐａｗｎｓ　ｏｆ　ｏｕｒ　ｅｍｐｉｒｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｙ　ｄｉｄ　ｙｏｕ　ｆｒｅｅ　ｔｈｅｍ？"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｍａｔｔｅｒ．　Ｉ　ｈａｖｅ　ｆａｒ　ｍｏｒｅ　ｐｏｗ"TCC_NEWLINE"ｅｒｆｕｌ"TCC_NEWLINE
-"ｆｏｒｃｅｓ　ａｔ　ｍｙ　ｂｅｃｋ　ａｎｄ　ｃａｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　Ｉ　ｗｉｓｈ　ｙｏｕ　ｄｅａｄ，　ｔｈｅｙ　ｗｉｌｌ　"TCC_NEWLINE"ｏｂｌｉｇｅ．"TCC_NEWLINE
-"Ａｎｄ．．．ｄｏ　Ｉ　ｗａｎｔ　ｔｈａｔ？　Ｏｈ，　ｙｅｓ．"TCC_NEWLINE
-"Ｉ　ｖｅｒｙ　ｍｕｃｈ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　ｊｕｓｔ　ｙｏｕ　ｗａｉｔ　ｔｈｅｒｅ　ｗｈｉｌｅ"TCC_NEWLINE"　Ｉ"TCC_NEWLINE
-"ｃａｌｌ　ｔｈｅｍ　ｏｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ．　Ｉ　ｈａｖｅ　ｆａｒ　ｍｏｒｅ　ｐｏー"TCC_NEWLINE"ｗｅｒｆｕｌｆｏｒｃｅｓ　ａｔ　ｍｙ　ｂｅｃｋ　ａｎｄ　ｃー"TCC_NEWLINE"ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｗｉｓｈ　ｙｏｕ　ｄｅａｄ，　ｔｈｅｙ　ｗｉｌｌ"TCC_NEWLINE"　ｏｂｌｉｇｅ．Ａｎｄ．．．ｄｏ　Ｉ　ｗａｎｔ　ｔｈａｔ？"TCC_NEWLINE"　Ｏｈ，　ｙｅｓ．Ｉ　ｖｅｒｙ　ｍｕｃｈ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｊｕｓｔ　ｙｏｕ　ｗａｉｔ　ｔｈｅｒｅ　ｗｈｉｌー"TCC_NEWLINE"ｅ　Ｉｃａｌｌ　ｔｈｅｍ　ｏｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ　ｍｕｓｔ　ｒｅｔｒｅａｔ．　Ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ"TCC_NEWLINE
-"ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｔｏ　ｆａｃｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｎｅｅｄ　ｔｏ　ｇｅｔ　ｂａｃｋ　ｔｏ　ｏｕｒ　ｃａｓ"TCC_NEWLINE"ｔｌｅ"TCC_NEWLINE
-"ｔｏ　ｒｅｇｒｏｕｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｒｅｔｒｅａｔ．　Ｗｅ　ｄｏｎ’ｔ　ｈａｖー"TCC_NEWLINE"ｅｔｈｅ　ｓｔｒｅｎｇｔｈ　ｔｏ　ｆａｃｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｇｅｔ　ｂａｃｋ　ｔｏ　ｏｕｒ　ｃａー"TCC_NEWLINE"ｓｔｌｅｔｏ　ｒｅｇｒｏｕｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｇｏｉｎｇ　ｓｏ　ｓｏｏｎ？　Ａｎｄ　ｊｕｓｔ　ｗｈｅｎ　Ｉ"TCC_NEWLINE"　ｗａｓ"TCC_NEWLINE
-"ｇｅｔｔｉｎｇ　ｒｅａｄｙ　ｔｏ　ｐｌａｙ！　Ｉ　ｓｕｐｐｏ"TCC_NEWLINE"ｓｅ　Ｉ’ｌｌ"TCC_NEWLINE
-"ｇｏ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｄ　ｂｅｔｔｅｒ　ｇｅｔ　ｒｅａｄｙ　ｆｏｒ　ｗｈａ"TCC_NEWLINE"ｔ’ｓ"TCC_NEWLINE
-"ｃｏｍｉｎｇ　ｎｅｘｔ．　Ｏｈ，　ｔｈｅ　Ｈｅｒｏｅｓ　ｙｏ"TCC_NEWLINE"ｕ’ｒｅ"TCC_NEWLINE
-"ｇｏｉｎｇ　ｔｏ　ｍｅｅｔ！"
+"Ｇｏｉｎｇ　ｓｏ　ｓｏｏｎ？　Ａｎｄ　ｊｕｓｔ　ｗｈｅｎ　"TCC_NEWLINE"Ｉ　ｗａｓｇｅｔｔｉｎｇ　ｒｅａｄｙ　ｔｏ　ｐｌａｙ！　Ｉ"TCC_NEWLINE"　ｓｕｐｐｏｓｅ　Ｉ’ｌｌｇｏ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｄ　ｂｅｔｔｅｒ　ｇｅｔ　ｒｅａｄｙ　ｆｏｒ　ｗｈー"TCC_NEWLINE"ａｔ’ｓｃｏｍｉｎｇ　ｎｅｘｔ．　Ｏｈ，　ｔｈｅ　Ｈｅｒｏー"TCC_NEWLINE"ｅｓ　ｙｏｕ’ｒｅｇｏｉｎｇ　ｔｏ　ｍｅｅｔ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

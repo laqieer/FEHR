@@ -1,59 +1,32 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0405_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｆｒｉｅｎｄｓ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ａｎｄ"TCC_NEWLINE
-"ｈｉｓ　ｇｒｏｕｐ　ｈａｖｅ　ａｒｒｉｖｅｄ．　Ｗｅ　ｍｕｓ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｄｏ　ｏｕｒ　ｂｅｓｔ　ｔｏ　ｄｅｆｅａｔ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗ　ｏｄｄ，　ｔｈａｔ　ｗｅ　ｃａｎ　ｏｎｌｙ　ｂｅ　ｆ"TCC_NEWLINE"ｒｅｅ"TCC_NEWLINE
-"ｏｆ　ｏｕｒ　ｃｏｎｔｒａｃｔ　ｉｆ　ｗｅ　ｆａｉｌ　ｔｏ　"TCC_NEWLINE"ｄｏ　ｓｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔｉｌｌ，　Ｉ　ｗｉｌｌ　ｂｒｉｎｇ　ｔｈｅ　ｆｕｌｌ　ｆ"TCC_NEWLINE"ｏｒｃｅ　ｏｆ"TCC_NEWLINE
-"ｍｙ　ｓｗｏｒｄ．　Ａｎｄ　ｙｏｕ，　Ｌｉｌｉｎａ，　ｍｕｓ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｕｎｌｅａｓｈ　ｙｏｕｒ　ｆｉｅｒｃｅｓｔ　ｆｌａｍｅｓ！"
+"Ｍｙ　ｆｒｉｅｎｄｓ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ａｎー"TCC_NEWLINE"ｄｈｉｓ　ｇｒｏｕｐ　ｈａｖｅ　ａｒｒｉｖｅｄ．　Ｗｅ　ｍー"TCC_NEWLINE"ｕｓｔｄｏ　ｏｕｒ　ｂｅｓｔ　ｔｏ　ｄｅｆｅａｔ　ｔｈｅｍ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｏｄｄ，　ｔｈａｔ　ｗｅ　ｃａｎ　ｏｎｌｙ　ｂｅ　"TCC_NEWLINE"ｆｒｅｅｏｆ　ｏｕｒ　ｃｏｎｔｒａｃｔ　ｉｆ　ｗｅ　ｆａｉー"TCC_NEWLINE"ｌ　ｔｏ　ｄｏ　ｓｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｉｌｌ，　Ｉ　ｗｉｌｌ　ｂｒｉｎｇ　ｔｈｅ　ｆｕｌｌ　"TCC_NEWLINE"ｆｏｒｃｅ　ｏｆｍｙ　ｓｗｏｒｄ．　Ａｎｄ　ｙｏｕ，　Ｌｉー"TCC_NEWLINE"ｌｉｎａ，　ｍｕｓｔｕｎｌｅａｓｈ　ｙｏｕｒ　ｆｉｅｒｃｅー"TCC_NEWLINE"ｓｔ　ｆｌａｍｅｓ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0405_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ’ｖｅ　ｍｏｒｅ　ｔｈａｎ　ｐｒｏｖｅｎ　ｔｈａｔ"TCC_NEWLINE
-"ｙｏｕｒ　ｐｏｗｅｒ　ｉｓ　ｓｕｐｅｒｉｏｒ　ｔｏ　ｏｕｒｓ"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｗｅｌｌ　ｄｏｎｅ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ　ｂｅｌｉｅｖｅ　ｔｈａｔ　Ｉ　ｓｈｏｕｌｄ　ｇｉ"TCC_NEWLINE"ｖｅ　ｍｏｓｔ"TCC_NEWLINE
-"ｏｆ　ｔｈｅ　ｃｒｅｄｉｔ　ｔｏ　ｙｏｕｒ　ｔａｌｅｎｔｅｄ"TCC_NEWLINE
-"ｔａｃｔｉｃｉａｎ，"TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　ｆａｒｅｗｅｌｌ．　Ｍａｙ　ｗｅ　ａｌｌ　ｂａｔｔ"TCC_NEWLINE"ｌｅ"TCC_NEWLINE
-"ｏｎ　ｔｈｅ　ｓａｍｅ　ｓｉｄｅ　ｏｎｅ　ｄａｙ．"
+"Ｙｏｕ’ｖｅ　ｍｏｒｅ　ｔｈａｎ　ｐｒｏｖｅｎ　ｔｈａｔｙー"TCC_NEWLINE"ｏｕｒ　ｐｏｗｅｒ　ｉｓ　ｓｕｐｅｒｉｏｒ　ｔｏ　ｏｕｒｓ"TCC_NEWLINE"．Ｗｅｌｌ　ｄｏｎｅ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｂｅｌｉｅｖｅ　ｔｈａｔ　Ｉ　ｓｈｏｕｌｄ　ｇー"TCC_NEWLINE"ｉｖｅ　ｍｏｓｔｏｆ　ｔｈｅ　ｃｒｅｄｉｔ　ｔｏ　ｙｏｕｒ"TCC_NEWLINE"　ｔａｌｅｎｔｅｄｔａｃｔｉｃｉａｎ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｆａｒｅｗｅｌｌ．　Ｍａｙ　ｗｅ　ａｌｌ　ｂａｔー"TCC_NEWLINE"ｔｌｅｏｎ　ｔｈｅ　ｓａｍｅ　ｓｉｄｅ　ｏｎｅ　ｄａｙ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0405_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｅｘｃｅｌｌｅｎｔ　ｊｏｂ，　ｅｖｅｒｙｏｎｅ．　Ｗｅ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
-"ｒｅｌｅａｓｅｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｂｉｎｄｉｎｇ"TCC_NEWLINE
-"ｆｒｏｍ　Ｖｅｒｏｎｉｃａ’ｓ　ｃｏｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｘｃｅｌｌｅｎｔ　ｊｏｂ，　ｅｖｅｒｙｏｎｅ．　Ｗｅ　ｈー"TCC_NEWLINE"ａｖｅｒｅｌｅａｓｅｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｂｉｎｄー"TCC_NEWLINE"ｉｎｇｆｒｏｍ　Ｖｅｒｏｎｉｃａ’ｓ　ｃｏｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈａｔ　ｗａｓ　ｏｕｒ　ｔｏｕｇｈｅｓｔ　ｂａｔｔｌｅ　ｙ"TCC_NEWLINE"ｅｔ．"TCC_NEWLINE
-"Ｈｏｗ　ａｒｅ　ｙｏｕ　ｈｏｌｄｉｎｇ　ｕｐ，"TCC_NEWLINE
+"Ｔｈａｔ　ｗａｓ　ｏｕｒ　ｔｏｕｇｈｅｓｔ　ｂａｔｔｌｅ　"TCC_NEWLINE"ｙｅｔ．Ｈｏｗ　ａｒｅ　ｙｏｕ　ｈｏｌｄｉｎｇ　ｕｐ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｙｏｕ　ｓｅｅｍ　ｐｒｅｔｔｙ　ｃａｌｍ　ｔｏ　ｍｅ．"TCC_NEWLINE
-"Ｗｈｙ，　Ｉ’ｍ　ｂｏｉｌｉｎｇ　ｏｖｅｒ！　Ｂｕｔ　ｔｈａ"TCC_NEWLINE"ｔ’ｓ"TCC_NEWLINE
-"ｐｒｏｂａｂｌｙ　ｊｕｓｔ　ａｌｌ　ｔｈｉｓ　ｈｅａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｅｅｍ　ｐｒｅｔｔｙ　ｃａｌｍ　ｔｏ　ｍｅ．Ｗｈー"TCC_NEWLINE"ｙ，　Ｉ’ｍ　ｂｏｉｌｉｎｇ　ｏｖｅｒ！　Ｂｕｔ　ｔｈａｔ"TCC_NEWLINE"’ｓｐｒｏｂａｂｌｙ　ｊｕｓｔ　ａｌｌ　ｔｈｉｓ　ｈｅａｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｅｖｅｒｙ　ｗｏｒｌｄ　ｈａｓ　ｓｕｃｈ　ｄｉｆｆｅｒｅｎｔ"TCC_NEWLINE
-"ｔｅｒｒａｉｎ　ｔｈａｎ　ｏｕｒ　ｏｗｎ．　Ｔｒｅｅｓ，"TCC_NEWLINE
-"ｒｕｉｎｓ，　ｌａｖａ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔａｃｔｉｃｉａｎ！　Ｈａｖｅ　ａｎｙ　ｏｆ　ｔｈｅｓｅ　ｗ"TCC_NEWLINE"ｏｒｌｄｓ"TCC_NEWLINE
-"ｂｅｅｎ　ｌｉｋｅ　ｙｏｕｒ　ｏｗｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙ　ｗｏｒｌｄ　ｈａｓ　ｓｕｃｈ　ｄｉｆｆｅｒｅｎー"TCC_NEWLINE"ｔｔｅｒｒａｉｎ　ｔｈａｎ　ｏｕｒ　ｏｗｎ．　Ｔｒｅｅｓ，"TCC_NEWLINE"ｒｕｉｎｓ，　ｌａｖａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔａｃｔｉｃｉａｎ！　Ｈａｖｅ　ａｎｙ　ｏｆ　ｔｈｅｓｅ　"TCC_NEWLINE"ｗｏｒｌｄｓｂｅｅｎ　ｌｉｋｅ　ｙｏｕｒ　ｏｗｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｓｕｐｐｏｓｅ　ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｍｕｃｈ"TCC_NEWLINE
-"ａｂｏｕｔ　ｙｏｕｒ　ｗｏｒｌｄ．　Ａｎｄ　ｈｏｗ　ｒｕｄｅ"TCC_NEWLINE
-"ｏｆ　ｕｓ　ｎｏｔ　ｔｏ　ａｓｋ　ｕｎｔｉｌ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ？　Ｙｏｕｒ　ｗｏｒｌｄ　ｈａｓ　ｂｕｉｌｄｉｎｇｓ"TCC_NEWLINE
-"ｔｈａｔ　ｓｃｒａｐｅ　ｔｈｅ　ｓｋｙ？　Ａｎｄ　ｗｈａｔ　"TCC_NEWLINE"ｄｏ"TCC_NEWLINE
-"ｙｏｕ　ｍｅａｎ　ｂｙ　ｃａｒｓ？"TCC_NEWLINE TCC_PUSH_A
-"Ｌｉｋｅ　ｗａｇｏｎｓ．．．ｔｈａｔ　ｒｕｎ　ｗｉｔｈｏｕｔ"TCC_NEWLINE
-"ｈｏｒｓｅｓ．．．ａｎｄ　ａｒｅ　ｍａｄｅ　ｏｆ　ｍｅｔａｌ"TCC_NEWLINE"？"TCC_NEWLINE
-"Ｆａｓｃｉｎａｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｕｐｐｏｓｅ　ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｍｕｃｈａー"TCC_NEWLINE"ｂｏｕｔ　ｙｏｕｒ　ｗｏｒｌｄ．　Ａｎｄ　ｈｏｗ　ｒｕｄｅー"TCC_NEWLINE"ｏｆ　ｕｓ　ｎｏｔ　ｔｏ　ａｓｋ　ｕｎｔｉｌ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ？　Ｙｏｕｒ　ｗｏｒｌｄ　ｈａｓ　ｂｕｉｌｄｉｎｇー"TCC_NEWLINE"ｓｔｈａｔ　ｓｃｒａｐｅ　ｔｈｅ　ｓｋｙ？　Ａｎｄ　ｗｈａー"TCC_NEWLINE"ｔ　ｄｏｙｏｕ　ｍｅａｎ　ｂｙ　ｃａｒｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｋｅ　ｗａｇｏｎｓ．．．ｔｈａｔ　ｒｕｎ　ｗｉｔｈｏｕー"TCC_NEWLINE"ｔｈｏｒｓｅｓ．．．ａｎｄ　ａｒｅ　ｍａｄｅ　ｏｆ　ｍｅｔー"TCC_NEWLINE"ａｌ？Ｆａｓｃｉｎａｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　ａ　ｇａｔｅｗａｙ　ｔｈａｔ"TCC_NEWLINE"　ｇｏｅｓ"TCC_NEWLINE
-"ｔｏ　ｓｕｃｈ　ａ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｕｈ，　ｗｈａｔ？　Ｙｏｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ　ｈｏｗ"TCC_NEWLINE
-"ｙｏｕ’ｌｌ　ｇｅｔ　ｈｏｍｅ，　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
-"Ｄｅｔａｉｌｓ，　ｄｅｔａｉｌｓ！　Ｂｅｓｉｄｅｓ，　ｙｏｕ"TCC_NEWLINE"’ｒｅ"TCC_NEWLINE
-"ｏｎｅ　ｏｆ　ｕｓ　ｎｏｗ．　Ｏｕｒ　ｈｏｍｅ　ｉｓ　ｙｏｕ"TCC_NEWLINE"ｒ"TCC_NEWLINE
-"ｈｏｍｅ．　Ｓｏ，　ｌｅｔ’ｓ　ｈｅａｄ　ｂａｃｋ！"
+"Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　ａ　ｇａｔｅｗａｙ　ｔｈａー"TCC_NEWLINE"ｔ　ｇｏｅｓｔｏ　ｓｕｃｈ　ａ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｈ，　ｗｈａｔ？　Ｙｏｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ　ｈｏー"TCC_NEWLINE"ｗｙｏｕ’ｌｌ　ｇｅｔ　ｈｏｍｅ，　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅｔａｉｌｓ，　ｄｅｔａｉｌｓ！　Ｂｅｓｉｄｅｓ，　ｙｏー"TCC_NEWLINE"ｕ’ｒｅｏｎｅ　ｏｆ　ｕｓ　ｎｏｗ．　Ｏｕｒ　ｈｏｍｅ　ｉー"TCC_NEWLINE"ｓ　ｙｏｕｒｈｏｍｅ．　Ｓｏ，　ｌｅｔ’ｓ　ｈｅａｄ　ｂａー"TCC_NEWLINE"ｃｋ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

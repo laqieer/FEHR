@@ -1,7 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2092_EN] = TCC_OPEN_LEFT
-"Ｍｙｓｔｌｅｔａｉｎｎ，　ｔｈｅ　Ｄｅｍｏｎ　Ｓｗｏｒｄ．．"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｉｔ　ｔｈｉｒｓｔｓ　ｆｏｒ　ｔｈｅ　ｂｌｏｏｄ　ｏｆ　ｍｅ"TCC_NEWLINE"ｎ．"TCC_NEWLINE
-"Ｗｏｕｌｄ　ｙｏｕ　ｂｅｃｏｍｅ　ｉｔｓ　ｐｒｅｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙｓｔｌｅｔａｉｎｎ，　ｔｈｅ　Ｄｅｍｏｎ　Ｓｗｏｒｄ．"TCC_NEWLINE"．．Ｉｔ　ｔｈｉｒｓｔｓ　ｆｏｒ　ｔｈｅ　ｂｌｏｏｄ　ｏｆ"TCC_NEWLINE"　ｍｅｎ．Ｗｏｕｌｄ　ｙｏｕ　ｂｅｃｏｍｅ　ｉｔｓ　ｐｒｅー"TCC_NEWLINE"ｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

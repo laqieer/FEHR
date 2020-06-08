@@ -1,79 +1,49 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4053_EN] = TCC_OPEN_LEFT
-"＊ｓｉｇｈ＊　Ｉｆ　ｏｎｌｙ　Ｉ　ｈａｄ　ｓｏｍｅｔｈｉｎｇ"TCC_NEWLINE
-"ｓｗｅｅｔ　ｔｏ　ｅａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｉｇｈ＊　Ｉｆ　ｏｎｌｙ　Ｉ　ｈａｄ　ｓｏｍｅｔｈｉｎー"TCC_NEWLINE"ｇｓｗｅｅｔ　ｔｏ　ｅａｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4053_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｆ　Ｉ　ａｍ　ｔｏ　ｂｅｌｉｅｖｅ　ｗｈａｔ　Ｄｒｅａｍ－"TCC_NEWLINE"Ｋｉｎｇ"TCC_NEWLINE
-"Ｆｒｅｙｒ　ｔｏｌｄ　ｕｓ．．．ｎｏｗ　ｔｈａｔ　ｗｅ’ｒｅ"TCC_NEWLINE"　ａｗａｋｅ，"TCC_NEWLINE
+"Ｉｆ　Ｉ　ａｍ　ｔｏ　ｂｅｌｉｅｖｅ　ｗｈａｔ　Ｄｒｅａｍ"TCC_NEWLINE"－ＫｉｎｇＦｒｅｙｒ　ｔｏｌｄ　ｕｓ．．．ｎｏｗ　ｔｈａｔ"TCC_NEWLINE"　ｗｅ’ｒｅ　ａｗａｋｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ｓｈｏｕｌｄ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｍ．　Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ．．．　Ｃｏｕｌ"TCC_NEWLINE"ｄ　ｔｈｅ"TCC_NEWLINE
-"ｎｉｇｈｔｍａｒｅ　ｈａｖｅ　ｐｒｅｖｅｎｔｅｄ　ｕｓ　ｆｒ"TCC_NEWLINE"ｏｍ"TCC_NEWLINE
-"ｓｕｍｍｏｎｉｎｇ　ｔｈｅ　Ｓｕｍｍｏｎｅｒ？"TCC_NEWLINE TCC_PUSH_A
-"Ｏｒ．．．ｉｓ　ｉｔ　ｔｈａｔ　ｒｅａｌｉｔｙ　ｈａｓ　ｂｅ"TCC_NEWLINE"ｅｎ"TCC_NEWLINE
-"ｒｅｓｈａｐｅｄ　ｂｙ　ｍｙ　ｆｅａｒ　ｏｆ　ｈａｖｉｎｇ"TCC_NEWLINE
-"ｌｏｓｔ"TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍ．　Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ．．．　Ｃｏｕー"TCC_NEWLINE"ｌｄ　ｔｈｅｎｉｇｈｔｍａｒｅ　ｈａｖｅ　ｐｒｅｖｅｎｔｅー"TCC_NEWLINE"ｄ　ｕｓ　ｆｒｏｍｓｕｍｍｏｎｉｎｇ　ｔｈｅ　Ｓｕｍｍｏｎー"TCC_NEWLINE"ｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ．．．ｉｓ　ｉｔ　ｔｈａｔ　ｒｅａｌｉｔｙ　ｈａｓ　ｂー"TCC_NEWLINE"ｅｅｎｒｅｓｈａｐｅｄ　ｂｙ　ｍｙ　ｆｅａｒ　ｏｆ　ｈａｖー"TCC_NEWLINE"ｉｎｇｌｏｓｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｕｍ．．．　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．．．　Ｉ　ｗａｓ　ｌｏ"TCC_NEWLINE"ｓｔ"TCC_NEWLINE
-"ｉｎ　ｍｙ　ｏｗｎ　ｔｈｏｕｇｈｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．．．　Ｉ　ｗａｓ　ｌー"TCC_NEWLINE"ｏｓｔｉｎ　ｍｙ　ｏｗｎ　ｔｈｏｕｇｈｔｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈａｔ　ｗｅｒｅ　ｙｏｕ　ｔｈｉｎｋｉｎｇ　ａｂｏｕｔ？"TCC_NEWLINE
-"Ｄｏ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｔａｌｋ　ｔｈｒｏｕｇｈ　ｉｔ"TCC_NEWLINE"？"TCC_NEWLINE
-"Ｉ’ｍ　ｈａｐｐｙ　ｔｏ　ｈｅｌｐ　ｈｏｗｅｖｅｒ　Ｉ　ｃａ"TCC_NEWLINE"ｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗｅｒｅ　ｙｏｕ　ｔｈｉｎｋｉｎｇ　ａｂｏｕｔ？"TCC_NEWLINE"Ｄｏ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｔａｌｋ　ｔｈｒｏｕｇｈ　ｉー"TCC_NEWLINE"ｔ？Ｉ’ｍ　ｈａｐｐｙ　ｔｏ　ｈｅｌｐ　ｈｏｗｅｖｅｒ　Ｉ"TCC_NEWLINE"　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｎｋ　ｙｏｕ，　Ｓｈａｒｅｎａ．．．　Ｉｔ’ｓ　ｊｕｓ"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅｌｌ，　Ｉ　ｋｎｏｗ　ｉｔ　ｍｉｇｈｔ　ｂｅ　ｈａｒｄ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
-"ｂｅｌｉｅｖｅ，　ｂｕｔ．．．ａｓ　ｗｅ　ｓｌｅｐｔ　ｅａｒ"TCC_NEWLINE"ｌｉｅｒ，　ａｌｌ"TCC_NEWLINE
-"ｏｆ　ｕｓ　ｗｅｒｅ　ｉｎ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａ"TCC_NEWLINE"ｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ，　Ｓｈａｒｅｎａ．．．　Ｉｔ’ｓ　ｊｕー"TCC_NEWLINE"ｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　Ｉ　ｋｎｏｗ　ｉｔ　ｍｉｇｈｔ　ｂｅ　ｈａｒｄ"TCC_NEWLINE"　ｔｏｂｅｌｉｅｖｅ，　ｂｕｔ．．．ａｓ　ｗｅ　ｓｌｅｐｔ"TCC_NEWLINE"　ｅａｒｌｉｅｒ，　ａｌｌｏｆ　ｕｓ　ｗｅｒｅ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｄｏ　ｙｏｕ　ｊｕｓｔ　ｍｅａｎ　ｗｅ　ｗｅｒｅ　ｄｒｅａｍ"TCC_NEWLINE"ｉｎｇ，"TCC_NEWLINE
-"ｏｒ．．．ｉｓ　ｉｔ　ｍｏｒｅ　ｔｈａｎ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｊｕｓｔ　ｍｅａｎ　ｗｅ　ｗｅｒｅ　ｄｒｅａー"TCC_NEWLINE"ｍｉｎｇ，ｏｒ．．．ｉｓ　ｉｔ　ｍｏｒｅ　ｔｈａｎ　ｔｈａー"TCC_NEWLINE"ｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｏｒｅ．　Ｉｔ　ｗａｓ．．．ｒｅａｌ，　ｓｏｍｅｈｏｗ．　"TCC_NEWLINE"Ａｎｄ　ｔｈｅ"TCC_NEWLINE
-"ｎｉｇｈｔｍａｒｅｓ　ｗｅ　ｆａｃｅｄ　ｉｎ　ｔｈａｔ　ｗｏ"TCC_NEWLINE"ｒｌｄ"TCC_NEWLINE
-"ｓｅｅｍ　ｔｏ　ｈａｖｅ　ｆｏｌｌｏｗｅｄ　ｕｓ　ｏｕｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｙｗａｙ，　ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｗａｓ　ｔｈｉｎ"TCC_NEWLINE"ｋｉｎｇ．"TCC_NEWLINE
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｉｆ　ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ"TCC_NEWLINE"　ｕｔｔｅｒ"TCC_NEWLINE
-"ｎｏｎｓｅｎｓｅ　ｔｏ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｒｅ．　Ｉｔ　ｗａｓ．．．ｒｅａｌ，　ｓｏｍｅｈｏｗ．"TCC_NEWLINE"　Ａｎｄ　ｔｈｅｎｉｇｈｔｍａｒｅｓ　ｗｅ　ｆａｃｅｄ　ｉー"TCC_NEWLINE"ｎ　ｔｈａｔ　ｗｏｒｌｄｓｅｅｍ　ｔｏ　ｈａｖｅ　ｆｏｌｌー"TCC_NEWLINE"ｏｗｅｄ　ｕｓ　ｏｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｙｗａｙ，　ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｗａｓ　ｔｈｉー"TCC_NEWLINE"ｎｋｉｎｇ．Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｉｆ　ｉｔ　ｓｏｕｎー"TCC_NEWLINE"ｄｓ　ｌｉｋｅ　ｕｔｔｅｒｎｏｎｓｅｎｓｅ　ｔｏ　ｙｏｕ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏｔ　ａｔ　ａｌｌ！　Ｉ’ｖｅ　ａｌｗａｙｓ　ｂｅｌｉｅｖ"TCC_NEWLINE"ｅｄ　ｔｈｅ"TCC_NEWLINE
-"ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ　ｗａｓ　ｒｅａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ａｔ　ａｌｌ！　Ｉ’ｖｅ　ａｌｗａｙｓ　ｂｅｌｉｅー"TCC_NEWLINE"ｖｅｄ　ｔｈｅｌａｎｄ　ｏｆ　ｄｒｅａｍｓ　ｗａｓ　ｒｅａー"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｒ－ｒｅａｌｌｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ！　Ｅｖｅｒ　ｓｉｎｃｅ　Ｉ　ｗａｓ　ａ　ｃｈｉｌｄ，"TCC_NEWLINE"　ｉｎ　ｆａｃｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｅｖｅｎ　ＹＯＵ　ａｒｅ　ｓａｙｉｎｇ　ｉｔ　ｅｘｉｓ"TCC_NEWLINE"ｔｓ，　ｔｈｅｎ"TCC_NEWLINE
-"ｉｔ　ＭＵＳＴ　ｅｘｉｓｔ，　Ａｌｆｏｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ！　Ｅｖｅｒ　ｓｉｎｃｅ　Ｉ　ｗａｓ　ａ　ｃｈｉｌｄ"TCC_NEWLINE"，　ｉｎ　ｆａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｅｖｅｎ　ＹＯＵ　ａｒｅ　ｓａｙｉｎｇ　ｉｔ　ｅｘｉー"TCC_NEWLINE"ｓｔｓ，　ｔｈｅｎｉｔ　ＭＵＳＴ　ｅｘｉｓｔ，　Ａｌｆｏｎー"TCC_NEWLINE"ｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｎｋ　ｙｏｕ，　Ｓｈａｒｅｎａ．．．　Ｙｏｕｒ　ｆａｉ"TCC_NEWLINE"ｔｈ"TCC_NEWLINE
-"ｍｅａｎｓ　ａ　ｌｏｔ　ｔｏ　ｍｅ　ｒｉｇｈｔ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ，　Ｓｈａｒｅｎａ．．．　Ｙｏｕｒ　ｆａー"TCC_NEWLINE"ｉｔｈｍｅａｎｓ　ａ　ｌｏｔ　ｔｏ　ｍｅ　ｒｉｇｈｔ　ｎｏー"TCC_NEWLINE"ｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ’ｓ　ｏｎｌｙ　ｎａｔｕｒａｌ　ｔｏ　ｔｒｕｓｔ　ｙｏｕ"TCC_NEWLINE"ｒ　ｂｒｏｔｈｅｒ！"TCC_NEWLINE
-"Ｂｕｔ　ｉｆ　ｗｈａｔ　ｙｏｕ’ｒｅ　ｓａｙｉｎｇ　ｉｓ　ｔ"TCC_NEWLINE"ｒｕｅ，　ｗｈａｔ"TCC_NEWLINE
-"ｃａｎ　ｗｅ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｄｒｅａｍｓ　ｒｅａｌｌｙ　ａｒｅ　ａｆｆｅｃｔｉｎｇ"TCC_NEWLINE"　ｒｅａｌｉｔｙ，"TCC_NEWLINE
-"ｔｈｅｎ　ａｎｙｔｈｉｎｇ　ｉｓ　ｐｏｓｓｉｂｌｅ，　ｒｉｇ"TCC_NEWLINE"ｈｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｉｎｋｉｎｇ　ａｂｏｕｔ　ｉｔ　ｌｉｋｅ　ｔｈａ"TCC_NEWLINE"ｔ　ｍａｋｅｓ"TCC_NEWLINE
-"ｍｅ　ｆｅｅｌ　ａｌｍｏｓｔ　ｐｏｗｅｒｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｏｎｌｙ　ｎａｔｕｒａｌ　ｔｏ　ｔｒｕｓｔ　ｙｏー"TCC_NEWLINE"ｕｒ　ｂｒｏｔｈｅｒ！Ｂｕｔ　ｉｆ　ｗｈａｔ　ｙｏｕ’ｒｅ"TCC_NEWLINE"　ｓａｙｉｎｇ　ｉｓ　ｔｒｕｅ，　ｗｈａｔｃａｎ　ｗｅ　ｄー"TCC_NEWLINE"ｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｄｒｅａｍｓ　ｒｅａｌｌｙ　ａｒｅ　ａｆｆｅｃｔｉｎー"TCC_NEWLINE"ｇ　ｒｅａｌｉｔｙ，ｔｈｅｎ　ａｎｙｔｈｉｎｇ　ｉｓ　ｐｏー"TCC_NEWLINE"ｓｓｉｂｌｅ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｉｎｋｉｎｇ　ａｂｏｕｔ　ｉｔ　ｌｉｋｅ　ｔｈー"TCC_NEWLINE"ａｔ　ｍａｋｅｓｍｅ　ｆｅｅｌ　ａｌｍｏｓｔ　ｐｏｗｅｒｌー"TCC_NEWLINE"ｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｍｕｓｔｎ’ｔ　ｂｅｌｉｅｖｅ　ｓｕｃｈ　ｔｈｉｎｇ"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｕｓｔｎ’ｔ　ｂｅｌｉｅｖｅ　ｓｕｃｈ　ｔｈｉｎー"TCC_NEWLINE"ｇｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？　Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ　ａｒｅ　ｂｏｒｎ　ｏｆ　ｏｕｒ"TCC_NEWLINE"　ｆｅａｒｓ．"TCC_NEWLINE
-"Ｓｏ，　ｔｈｅ　ｏｂｓｔａｃｌｅｓ　ｗｅ　ｅｎｃｏｕｎｔｅｒ"TCC_NEWLINE"　ａｒｅ"TCC_NEWLINE
-"ｐｕｌｌｅｄ　ｆｒｏｍ　ｏｕｒ　ｏｗｎ　ｉｍａｇｉｎａｔｉｏ"TCC_NEWLINE"ｎｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｓａｉｄ，　ｔｈｅ　ｒｕｌｅｓ　ｔｈａｔ　ｇｏｖｅ"TCC_NEWLINE"ｒｎ　ｔｈｅ"TCC_NEWLINE
-"ｄｒｅａｍ　ｒｅａｌｍ　ｍｉｇｈｔ　ａｌｓｏ　ａｐｐｌｙ　ｈ"TCC_NEWLINE"ｅｒｅ"TCC_NEWLINE
-"ｉｎ　ｒｅａｌｉｔｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ，　ｉｆ　ｗｅ　ｃａｎ　ｄｅｆｅａｔ　ｏｕｒ　ｎｉｇｈｔ"TCC_NEWLINE"ｍａｒｅｓ"TCC_NEWLINE
-"ｗｉｔｈｉｎ　ｔｈｅ　ｄｒｅａｍ　ｗｏｒｌｄ，　ｗｅ　ｓｈｏ"TCC_NEWLINE"ｕｌｄ"TCC_NEWLINE
-"ｂｅ　ａｂｌｅ　ｔｏ　ｉｎ　ｏｕｒ　ｒｅａｌｉｔｙ　ａｓ　ｗ"TCC_NEWLINE"ｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ　ａｒｅ　ｂｏｒｎ　ｏｆ　ｏｕー"TCC_NEWLINE"ｒ　ｆｅａｒｓ．Ｓｏ，　ｔｈｅ　ｏｂｓｔａｃｌｅｓ　ｗｅ　"TCC_NEWLINE"ｅｎｃｏｕｎｔｅｒ　ａｒｅｐｕｌｌｅｄ　ｆｒｏｍ　ｏｕｒ　"TCC_NEWLINE"ｏｗｎ　ｉｍａｇｉｎａｔｉｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓａｉｄ，　ｔｈｅ　ｒｕｌｅｓ　ｔｈａｔ　ｇｏｖー"TCC_NEWLINE"ｅｒｎ　ｔｈｅｄｒｅａｍ　ｒｅａｌｍ　ｍｉｇｈｔ　ａｌｓｏ"TCC_NEWLINE"　ａｐｐｌｙ　ｈｅｒｅｉｎ　ｒｅａｌｉｔｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｉｆ　ｗｅ　ｃａｎ　ｄｅｆｅａｔ　ｏｕｒ　ｎｉｇｈー"TCC_NEWLINE"ｔｍａｒｅｓｗｉｔｈｉｎ　ｔｈｅ　ｄｒｅａｍ　ｗｏｒｌｄ，"TCC_NEWLINE"　ｗｅ　ｓｈｏｕｌｄｂｅ　ａｂｌｅ　ｔｏ　ｉｎ　ｏｕｒ　ｒー"TCC_NEWLINE"ｅａｌｉｔｙ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｏｗ，　ｇｒｅａｔ　ｔｈｉｎｋｉｎｇ，　Ａｌｆｏｎｓｅ！　"TCC_NEWLINE"Ｉｆ　ｗｅ"TCC_NEWLINE
-"ｋｅｅｐ　ｔｈｉｓ　ｕｐ，　ＷＥ’ＬＬ　ｂｅ　ｔｈｅ　ｏｎｅ"TCC_NEWLINE"ｓ"TCC_NEWLINE
-"ｍａｋｉｎｇ　ｏｕｒ　ｄｒｅａｍｓ　ｉｎｔｏ　ｒｅａｌｉｔｙ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｏｗ，　ｇｒｅａｔ　ｔｈｉｎｋｉｎｇ，　Ａｌｆｏｎｓｅ！"TCC_NEWLINE"　Ｉｆ　ｗｅｋｅｅｐ　ｔｈｉｓ　ｕｐ，　ＷＥ’ＬＬ　ｂｅ　"TCC_NEWLINE"ｔｈｅ　ｏｎｅｓｍａｋｉｎｇ　ｏｕｒ　ｄｒｅａｍｓ　ｉｎｔー"TCC_NEWLINE"ｏ　ｒｅａｌｉｔｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

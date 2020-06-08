@@ -1,56 +1,32 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S0002_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｆｉｒｓｔ　ｔｈｉｎｇｓ　ｆｉｒｓｔ．　Ｉ　ｓｕｍｍｏｎｅｄ"TCC_NEWLINE"　ｙｏｕ　ｈｅｒｅ"TCC_NEWLINE
-"ｗｉｔｈ　ｔｈｅ　ｄｉｖｉｎｅ　Ｂｒｅｉｄａｂｌｉｋ．　Ｔｈ"TCC_NEWLINE"ａｔ’ｓ　ｔｈｅ"TCC_NEWLINE
-"ｎａｍｅ　ｏｆ　ｔｈｉｓ　ｒｅｌｉｃ　Ｉ’ｖｅ　ｂｒｏｕｇｈ"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｆｉｒｅｓ　ｓｏｍｅｔｈｉｎｇ　ｏｕｔ　ｏｆ　ｉｔ，　"TCC_NEWLINE"ａｃｃｏｒｄｉｎｇ"TCC_NEWLINE
-"ｔｏ　ｌｅｇｅｎｄ，　ｂｕｔ　Ｂｒｅｉｄａｂｌｉｋ　ｄｏｅｓ"TCC_NEWLINE"ｎ’ｔ"TCC_NEWLINE
-"ｌｏｏｋ　ｌｉｋｅ　ａｎｙ　ｂｏｗ　Ｉ’ｖｅ　ｅｖｅｒ　ｓｅ"TCC_NEWLINE"ｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｌｅｇｅｎｄ　ａｌｓｏ　ｃａｌｌｓ　ｉｔ　ｔｈｅ　ｔ"TCC_NEWLINE"ｒｕｅ　ｋｅｙ，"TCC_NEWLINE
-"ｗｈｉｃｈ，　ｉｆ　ｒａｉｓｅｄ　ｈｉｇｈ，　ｗｉｌｌ　ｓｕ"TCC_NEWLINE"ｍｍｏｎ"TCC_NEWLINE
-"ｔｈｅ　Ｇｒｅａｔ　Ｈｅｒｏ　ｗｈｏ　ｃａｎ　ｆｉｒｅ　ｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｄｉｄ．　Ａｎｄ　ｎｏｗ　ｙｏｕ"TCC_NEWLINE"’ｒｅ"TCC_NEWLINE
-"ｈｅｒｅ．　Ｓｏ　ｉｔ’ｓ　ａｌｌ　ｙｏｕｒｓ　ｎｏｗ．　Ｈ"TCC_NEWLINE"ｏｐｅｆｕｌｌｙ"TCC_NEWLINE
-"ｙｏｕ　ｃａｎ　ｆｉｇｕｒｅ　ｏｕｔ　ｈｏｗ　ｔｏ"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｒｓｔ　ｔｈｉｎｇｓ　ｆｉｒｓｔ．　Ｉ　ｓｕｍｍｏｎｅー"TCC_NEWLINE"ｄ　ｙｏｕ　ｈｅｒｅｗｉｔｈ　ｔｈｅ　ｄｉｖｉｎｅ　Ｂｒｅー"TCC_NEWLINE"ｉｄａｂｌｉｋ．　Ｔｈａｔ’ｓ　ｔｈｅｎａｍｅ　ｏｆ　ｔｈー"TCC_NEWLINE"ｉｓ　ｒｅｌｉｃ　Ｉ’ｖｅ　ｂｒｏｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｆｉｒｅｓ　ｓｏｍｅｔｈｉｎｇ　ｏｕｔ　ｏｆ　ｉｔ，"TCC_NEWLINE"　ａｃｃｏｒｄｉｎｇｔｏ　ｌｅｇｅｎｄ，　ｂｕｔ　Ｂｒｅｉー"TCC_NEWLINE"ｄａｂｌｉｋ　ｄｏｅｓｎ’ｔｌｏｏｋ　ｌｉｋｅ　ａｎｙ　ｂー"TCC_NEWLINE"ｏｗ　Ｉ’ｖｅ　ｅｖｅｒ　ｓｅｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌｅｇｅｎｄ　ａｌｓｏ　ｃａｌｌｓ　ｉｔ　ｔｈｅ　"TCC_NEWLINE"ｔｒｕｅ　ｋｅｙ，ｗｈｉｃｈ，　ｉｆ　ｒａｉｓｅｄ　ｈｉｇー"TCC_NEWLINE"ｈ，　ｗｉｌｌ　ｓｕｍｍｏｎｔｈｅ　Ｇｒｅａｔ　Ｈｅｒｏ　"TCC_NEWLINE"ｗｈｏ　ｃａｎ　ｆｉｒｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｄｉｄ．　Ａｎｄ　ｎｏｗ　ｙｏー"TCC_NEWLINE"ｕ’ｒｅｈｅｒｅ．　Ｓｏ　ｉｔ’ｓ　ａｌｌ　ｙｏｕｒｓ　ｎー"TCC_NEWLINE"ｏｗ．　Ｈｏｐｅｆｕｌｌｙｙｏｕ　ｃａｎ　ｆｉｇｕｒｅ　ｏー"TCC_NEWLINE"ｕｔ　ｈｏｗ　ｔｏ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "ＴＨＥＲＥ　ＳＨＥ　ＩＳ！　ＧＥＴ　ＨＥＲ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｒａｔ．　Ｍｏｒｅ　ｏｆ　ｔｈｏｓｅ　Ｅｍｂｌｉａｎ　ｓｏ"TCC_NEWLINE"ｌｄｉｅｒｓ．"TCC_NEWLINE
-"Ｉ　ｃａｎ’ｔ　ｄｅｆｅａｔ　ｔｈｅｍ　ａｌｌ　ｂｙ　ｍｙｓ"TCC_NEWLINE"ｅｌｆ，"TCC_NEWLINE
-"ａｎｄ　ｙｏｕ’ｒｅ　ｎｏｔ　ｅｑｕｉｐｐｅｄ　ｔｏ　ｈｅｌ"TCC_NEWLINE"ｐ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｒｕｎ　ｗｈｉｌｅ　Ｉ　ｈｏｌｄ　ｔｈｅｍ　ｏｆｆ．"TCC_NEWLINE"　Ｔａｋｅ"TCC_NEWLINE
-"Ｂｒｅｉｄａｂｌｉｋ　ａｎｄ　ｇｅｔ　ｏｕｔ　ｏｆ　ｈｅｒｅ"TCC_NEWLINE"，"TCC_NEWLINE
+"Ｄｒａｔ．　Ｍｏｒｅ　ｏｆ　ｔｈｏｓｅ　Ｅｍｂｌｉａｎ　ｓー"TCC_NEWLINE"ｏｌｄｉｅｒｓ．Ｉ　ｃａｎ’ｔ　ｄｅｆｅａｔ　ｔｈｅｍ　ａー"TCC_NEWLINE"ｌｌ　ｂｙ　ｍｙｓｅｌｆ，ａｎｄ　ｙｏｕ’ｒｅ　ｎｏｔ　ｅー"TCC_NEWLINE"ｑｕｉｐｐｅｄ　ｔｏ　ｈｅｌｐ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｒｕｎ　ｗｈｉｌｅ　Ｉ　ｈｏｌｄ　ｔｈｅｍ　ｏｆｆ"TCC_NEWLINE"．　ＴａｋｅＢｒｅｉｄａｂｌｉｋ　ａｎｄ　ｇｅｔ　ｏｕｔ　"TCC_NEWLINE"ｏｆ　ｈｅｒｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ’ｓ　ｔｈａｔ？！　Ｔｈａｔ　ｂｒｉｇｈｔ　ｌｉｇｈ"TCC_NEWLINE"ｔ，"TCC_NEWLINE
-"ｃｏｍｉｎｇ　ｆｒｏｍ．．．"
+"Ｗｈａｔ’ｓ　ｔｈａｔ？！　Ｔｈａｔ　ｂｒｉｇｈｔ　ｌｉｇー"TCC_NEWLINE"ｈｔ，ｃｏｍｉｎｇ　ｆｒｏｍ．．．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S0002_EN] = TCC_OPEN_LEFT
-"Ｉ’ｍ　Ｔａｋｕｍｉ，　ａ　ｐｒｉｎｃｅ　ｏｆ　Ｈｏｓｈｉｄ"TCC_NEWLINE"ｏ　ａｎｄ"TCC_NEWLINE
-"ｗｉｅｌｄｅｒ　ｏｆ　ｔｈｅ　ｄｉｖｉｎｅ　Ｆｕｊｉｎ　Ｙｕ"TCC_NEWLINE"ｍｉ．　Ｗｈｉｃｈ"TCC_NEWLINE
-"ｍａｋｅｓ　ｍｅ　ｐｒｅｔｔｙ　ｕｓｅｆｕｌ，　Ｉ’ｄ　ｓａ"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　Ｔａｋｕｍｉ，　ａ　ｐｒｉｎｃｅ　ｏｆ　Ｈｏｓｈｉー"TCC_NEWLINE"ｄｏ　ａｎｄｗｉｅｌｄｅｒ　ｏｆ　ｔｈｅ　ｄｉｖｉｎｅ　Ｆー"TCC_NEWLINE"ｕｊｉｎ　Ｙｕｍｉ．　Ｗｈｉｃｈｍａｋｅｓ　ｍｅ　ｐｒｅｔー"TCC_NEWLINE"ｔｙ　ｕｓｅｆｕｌ，　Ｉ’ｄ　ｓａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｈｏｗ’ｄ　ｙｏｕ　ｄｏ　ｔｈａｔ？　Ｙｏｕ　ｓｕｍｍｏｎｅ"TCC_NEWLINE"ｄ"TCC_NEWLINE
-"ａ　Ｈｅｒｏ，"TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｊｕｓｔ　ｐｉｃｋｅｄ　ｕｐ　Ｂｒｅｉｄａｂｌｉｋ，"TCC_NEWLINE"　ａｎｄ"TCC_NEWLINE
-"ｙｏｕ’ｒｅ　ａｌｒｅａｄｙ　ａｂｌｅ　ｔｏ　ｕｓｅ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ　ｔｏ　ｃｈａｔ　ｎｏ"TCC_NEWLINE"ｗ．"TCC_NEWLINE
-"Ｔｈｉｓ　Ｔａｋｕｍｉ　ａｎｄ　Ｉ　ｎｅｅｄ　ｔｏ　ｇｅｔ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
-"ｆｉｇｈｔｉｎｇ．"
+"Ｈｏｗ’ｄ　ｙｏｕ　ｄｏ　ｔｈａｔ？　Ｙｏｕ　ｓｕｍｍｏｎー"TCC_NEWLINE"ｅｄａ　Ｈｅｒｏ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｊｕｓｔ　ｐｉｃｋｅｄ　ｕｐ　Ｂｒｅｉｄａｂｌｉｋ"TCC_NEWLINE"，　ａｎｄｙｏｕ’ｒｅ　ａｌｒｅａｄｙ　ａｂｌｅ　ｔｏ　ｕー"TCC_NEWLINE"ｓｅ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ　ｔｏ　ｃｈａｔ　ｎー"TCC_NEWLINE"ｏｗ．Ｔｈｉｓ　Ｔａｋｕｍｉ　ａｎｄ　Ｉ　ｎｅｅｄ　ｔｏ　"TCC_NEWLINE"ｇｅｔ　ｔｏｆｉｇｈｔｉｎｇ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0002_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ　ｗｏｎ！　Ａｎｄ　ｉｔ’ｓ　ａｌｌ　ｔｈａｎｋｓ　ｔｏ"TCC_NEWLINE"　ｙｏｕ，"TCC_NEWLINE
+"Ｗｅ　ｗｏｎ！　Ａｎｄ　ｉｔ’ｓ　ａｌｌ　ｔｈａｎｋｓ　ｔー"TCC_NEWLINE"ｏ　ｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｙ，　ｎｏｎｅ　ｏｆ　ｕｓ　ｉｎ　ｔｈｅ　Ｏｒｄｅｒ　ｏ"TCC_NEWLINE"ｆ"TCC_NEWLINE
-"Ｈｅｒｏｅｓ　ｃａｎ　ａｃｔｕａｌｌｙ　ｓｕｍｍｏｎ"TCC_NEWLINE
-"ｔｈｅｓｅ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈａ！　Ｉ　ｎｅｖｅｒ　ｄｏｕｂｔｅｄ　ｆｏｒ　ａ　ｓｅｃｏ"TCC_NEWLINE"ｎｄ　ｔｈａｔ"TCC_NEWLINE
-"ｙｏｕ　ｗｅｒｅ　ｔｈｅ　Ｇｒｅａｔ　Ｈｅｒｏ．　Ｙｏｕ’ｒ"TCC_NEWLINE"ｅ　ｔｈｅ"TCC_NEWLINE
-"ｏｎｅ　ｗｈｏ　ｗｉｌｌ　ｓａｖｅ　ｏｕｒ　ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｕｒ　ｏｒｄｅｒ　ｉｓ　ｓｍａｌｌ，　Ｓｕｍｍｏｎｅｒ，　"TCC_NEWLINE"ｂｕｔ"TCC_NEWLINE
-"ｗｅｌｃｏｍｅ　ｔｏ　ｏｕｒ　ｒａｎｋｓ．　Ｐｌｅａｓｅ，　"TCC_NEWLINE"ｈｅｌｐ　ｕｓ"TCC_NEWLINE
-"ｆｉｎｄ　ｍｏｒｅ　Ｈｅｒｏｅｓ　ｔｏ　ａｓｓｉｓｔ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ　ｔｈａｔ　ｙｏｕ’ｒｅ　ｈｅｒｅ，　Ｉ　ｊｕｓｔ　ｋ"TCC_NEWLINE"ｎｏｗ　ｔｈａｔ"TCC_NEWLINE
-"ｗｅ’ｌｌ　ｗｉｎ　ｏｕｒ　ｆｉｇｈｔ　ａｇａｉｎｓｔ　ｔｈ"TCC_NEWLINE"ｅ　ｅｍｐｉｒｅ，"TCC_NEWLINE
+"Ｗｈｙ，　ｎｏｎｅ　ｏｆ　ｕｓ　ｉｎ　ｔｈｅ　Ｏｒｄｅｒ　"TCC_NEWLINE"ｏｆＨｅｒｏｅｓ　ｃａｎ　ａｃｔｕａｌｌｙ　ｓｕｍｍｏｎｔー"TCC_NEWLINE"ｈｅｓｅ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａ！　Ｉ　ｎｅｖｅｒ　ｄｏｕｂｔｅｄ　ｆｏｒ　ａ　ｓｅｃー"TCC_NEWLINE"ｏｎｄ　ｔｈａｔｙｏｕ　ｗｅｒｅ　ｔｈｅ　Ｇｒｅａｔ　Ｈｅー"TCC_NEWLINE"ｒｏ．　Ｙｏｕ’ｒｅ　ｔｈｅｏｎｅ　ｗｈｏ　ｗｉｌｌ　ｓａー"TCC_NEWLINE"ｖｅ　ｏｕｒ　ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｏｒｄｅｒ　ｉｓ　ｓｍａｌｌ，　Ｓｕｍｍｏｎｅｒ，"TCC_NEWLINE"　ｂｕｔｗｅｌｃｏｍｅ　ｔｏ　ｏｕｒ　ｒａｎｋｓ．　Ｐｌｅー"TCC_NEWLINE"ａｓｅ，　ｈｅｌｐ　ｕｓｆｉｎｄ　ｍｏｒｅ　Ｈｅｒｏｅｓ　"TCC_NEWLINE"ｔｏ　ａｓｓｉｓｔ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｔｈａｔ　ｙｏｕ’ｒｅ　ｈｅｒｅ，　Ｉ　ｊｕｓｔ　"TCC_NEWLINE"ｋｎｏｗ　ｔｈａｔｗｅ’ｌｌ　ｗｉｎ　ｏｕｒ　ｆｉｇｈｔ　"TCC_NEWLINE"ａｇａｉｎｓｔ　ｔｈｅ　ｅｍｐｉｒｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

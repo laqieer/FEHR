@@ -1,89 +1,57 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
-"Ｎｏ！　Ｓｔａｙ　ａｗａｙ　ｆｒｏｍ　ｈｅｒｅ，　ｙｏｕ"TCC_NEWLINE
-"ｎａｓｔｙ，　ｎｏ－ｇｏｏｄ　ｎｉｇｈｔｍａｒｅｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｕｒｎ　ｂａｃｋ！　Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ｙｏｕ　ｄｏ"TCC_NEWLINE
-"ａｎｙｔｈｉｎｇ　ｔｏ　ｈａｒｍ　ｔｈｅ　ｍｏｒｔａｌ　ｆｏ"TCC_NEWLINE"ｌｋ！"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ．．．ｗａｉｔ．　Ｗａｉｔ！　Ｙｏｕ　ｍｕｓｔｎ’ｔ　"TCC_NEWLINE"ｈａｒｍ"TCC_NEWLINE
-"ｕｓ　ｌｊｓｌｆａｒ　ｅｉｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｓｔａｙ　ａｗａｙ　ｆｒｏｍ　ｈｅｒｅ，　ｙｏｕｎー"TCC_NEWLINE"ａｓｔｙ，　ｎｏ－ｇｏｏｄ　ｎｉｇｈｔｍａｒｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｕｒｎ　ｂａｃｋ！　Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ｙｏｕ　ｄｏー"TCC_NEWLINE"ａｎｙｔｈｉｎｇ　ｔｏ　ｈａｒｍ　ｔｈｅ　ｍｏｒｔａｌ　ｆー"TCC_NEWLINE"ｏｌｋ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｗａｉｔ．　Ｗａｉｔ！　Ｙｏｕ　ｍｕｓｔｎ’ｔ"TCC_NEWLINE"　ｈａｒｍｕｓ　ｌｊｓｌｆａｒ　ｅｉｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈａｔ’ｓ　Ｉｔ　ｃａｎ’ｔ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｓｏｕｎｄｓ　ｌｉｋｅ　ｓｏｍｅｏｎｅ　ｉｓ　ｕｎｄｅｒ　ａ"TCC_NEWLINE"ｔｔａｃｋ！"TCC_NEWLINE
-"Ｑｕｉｃｋｌｅｔ’ｓ　ｄｉｓｐａｔｃｈ　ｔｈｅ　ｅｎｅｍｙ　"TCC_NEWLINE"ａｎｄ"TCC_NEWLINE
-"ｓａｖｅ　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｕｎｄｓ　ｌｉｋｅ　ｓｏｍｅｏｎｅ　ｉｓ　ｕｎｄｅｒ　"TCC_NEWLINE"ａｔｔａｃｋ！Ｑｕｉｃｋｌｅｔ’ｓ　ｄｉｓｐａｔｃｈ　ｔｈー"TCC_NEWLINE"ｅ　ｅｎｅｍｙ　ａｎｄｓａｖｅ　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
-"Ｏｈ，　ｔｈａｎｋ　ｙｏｕ　ｓｏ　ｍｕｃｈ　ｆｏｒ　ｓａｖｉ"TCC_NEWLINE"ｎｇ　ｍｅ！"TCC_NEWLINE
-"Ｍｙ　ｎａｍｅ　ｉｓ"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｔｈａｎｋ　ｙｏｕ　ｓｏ　ｍｕｃｈ　ｆｏｒ　ｓａｖー"TCC_NEWLINE"ｉｎｇ　ｍｅ！Ｍｙ　ｎａｍｅ　ｉｓ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｅｏｎｙ．．．ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈ－ｗｈａｔ？　Ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｍｅ？"TCC_NEWLINE
-"Ｈｏｗ　ｕｎｕｓｕａｌ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｙｏｕｒ　ｋｉｎｄ　ｗａｋｅ　ｆｒｏｍ　ｄｒｅａｍ"TCC_NEWLINE"ｓ，"TCC_NEWLINE
-"ｙｏｕ　ｓｈｏｕｌｄ　ｕｓｕａｌｌｙ　ｆｏｒｇｅｔ　ａｌｌ　"TCC_NEWLINE"ａｂｏｕｔ"TCC_NEWLINE
-"ｕｓ　ｌｊｓｌｆａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈ－ｗｈａｔ？　Ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｍｅ？Ｈｏｗ　"TCC_NEWLINE"ｕｎｕｓｕａｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｙｏｕｒ　ｋｉｎｄ　ｗａｋｅ　ｆｒｏｍ　ｄｒｅａー"TCC_NEWLINE"ｍｓ，ｙｏｕ　ｓｈｏｕｌｄ　ｕｓｕａｌｌｙ　ｆｏｒｇｅｔ　"TCC_NEWLINE"ａｌｌ　ａｂｏｕｔｕｓ　ｌｊｓｌｆａｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ，　ｄｏ　ｙｏｕ．．．ｋｎｏｗ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｅｓ．　Ｓｈｅ’ｓ　ｆｒｏｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ，　ｒｉｇｈｔ．　Ｉ　ｈａｖｅ　ａ　ｆａｖｏｒ　ｔｏ　ａ"TCC_NEWLINE"ｓｋ"TCC_NEWLINE
-"ｏｆ　ｙｏｕ，　Ｐｅｏｎｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｒｉｇｈｔ．　Ｉ　ｈａｖｅ　ａ　ｆａｖｏｒ　ｔｏ　"TCC_NEWLINE"ａｓｋｏｆ　ｙｏｕ，　Ｐｅｏｎｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａ　ｆａｖｏｒ？　Ｏｏｈ！　Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈｅｎ　ｗｅ　ｆｉｒｓｔ　ｍｅｔ，　ｙｏｕ　ｗｅｒｅ　ａｂ"TCC_NEWLINE"ｌｅ"TCC_NEWLINE
-"ｔｏ　ｄｉｓｐｅｌ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｉｎｃａｒｎ"TCC_NEWLINE"ａｔｉｏｎｓ"TCC_NEWLINE
-"ｏｆ　Ｚａｃｈａｒｉａｓ　ａｎｄ　ｔｈｅ　ｒｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｃｏｕｌｄ　ｙｏｕ　ｄｏ　ｔｈｅ　ｓａｍｅ　ｔｏ　ｔｈｅ"TCC_NEWLINE
-"ｎｉｇｈｔｍａｒｅｓ　ｐｌａｇｕｉｎｇ　ｕｓ　ｉｎ　ｔｈｉｓ"TCC_NEWLINE
-"ｗｏｒｌｄ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｗｅ　ｆｉｒｓｔ　ｍｅｔ，　ｙｏｕ　ｗｅｒｅ　ａー"TCC_NEWLINE"ｂｌｅｔｏ　ｄｉｓｐｅｌ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｉｎー"TCC_NEWLINE"ｃａｒｎａｔｉｏｎｓｏｆ　Ｚａｃｈａｒｉａｓ　ａｎｄ　ｔｈー"TCC_NEWLINE"ｅ　ｒｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｕｌｄ　ｙｏｕ　ｄｏ　ｔｈｅ　ｓａｍｅ　ｔｏ　ｔｈｅｎー"TCC_NEWLINE"ｉｇｈｔｍａｒｅｓ　ｐｌａｇｕｉｎｇ　ｕｓ　ｉｎ　ｔｈｉｓー"TCC_NEWLINE"ｗｏｒｌｄ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｌ，　Ｉ　ｃａｎ　ｃｅｒｔａｉｎｌｙ　ｔｒｙ！　Ｉ　ｍ"TCC_NEWLINE"ａｙ　ｈａｖｅ"TCC_NEWLINE
-"ｔｒｏｕｂｌｅ　ｈａｎｄｌｉｎｇ　ｓｏｍｅ　ｏｆ　ｔｈｅ　ｓ"TCC_NEWLINE"ｔｒｏｎｇｅｒ"TCC_NEWLINE
-"ｎｉｇｈｔｍａｒｅｓ　ｏｎ　ｍｙ　ｏｗｎ　ｔｈｏｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　ｔｈｅｎ．．．　Ｎｉｇｈｔｍａｒｅｓ，　ｓｈｏｏ！"TCC_NEWLINE
-"Ａｗａｙ　ｗｉｔｈ　ｙｏｕ！　Ａｌｌ　ｂａｄ　ｄｒｅａｍｓ，"TCC_NEWLINE
-"ｂｅｇｏｎｅ　ｆｒｏｍ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｉｓ　ａ　ｐｌａｃｅ　ｆｏｒ　ｈａｐｐｙ　ｔｈｉｎ"TCC_NEWLINE"ｇｓ，"TCC_NEWLINE
-"ａｎｄ　ｈａｐｐｙ　ｔｈｉｎｇｓ　ｏｎｌｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　Ｉ　ｃａｎ　ｃｅｒｔａｉｎｌｙ　ｔｒｙ！　Ｉ　"TCC_NEWLINE"ｍａｙ　ｈａｖｅｔｒｏｕｂｌｅ　ｈａｎｄｌｉｎｇ　ｓｏｍｅ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｓｔｒｏｎｇｅｒｎｉｇｈｔｍａｒｅｓ　ｏｎ"TCC_NEWLINE"　ｍｙ　ｏｗｎ　ｔｈｏｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｔｈｅｎ．．．　Ｎｉｇｈｔｍａｒｅｓ，　ｓｈｏｏ"TCC_NEWLINE"！Ａｗａｙ　ｗｉｔｈ　ｙｏｕ！　Ａｌｌ　ｂａｄ　ｄｒｅａｍー"TCC_NEWLINE"ｓ，ｂｅｇｏｎｅ　ｆｒｏｍ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ａ　ｐｌａｃｅ　ｆｏｒ　ｈａｐｐｙ　ｔｈｉー"TCC_NEWLINE"ｎｇｓ，ａｎｄ　ｈａｐｐｙ　ｔｈｉｎｇｓ　ｏｎｌｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "＊ｇａｓｐ＊"TCC_NEWLINE TCC_PUSH_A
-"Ｉ．．．　Ｉ　ｒｅｍｅｍｂｅｒ　ｎｏｗ．．．　Ｉ　ｃａｎ’ｔ"TCC_NEWLINE
-"ｂｅｌｉｅｖｅ　Ｉ　ｃｏｕｌｄ　ｅｖｅｒ　ｆｏｒｇｅｔ　ｙｏ"TCC_NEWLINE"ｕ．．．"TCC_NEWLINE
-"Ｐｅｏｎｙ　ａｎｄ"TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．　Ｉ　ｒｅｍｅｍｂｅｒ　ｎｏｗ．．．　Ｉ　ｃａｎ’"TCC_NEWLINE"ｔｂｅｌｉｅｖｅ　Ｉ　ｃｏｕｌｄ　ｅｖｅｒ　ｆｏｒｇｅｔ　"TCC_NEWLINE"ｙｏｕ．．．"
+"Ｐｅｏｎｙ　ａｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｍｅ，　Ｓｈａｒｅｎａ？"TCC_NEWLINE
-"Ｏｈ，　Ｉ’ｍ　ｓｏ　ｖｅｒｙ，　ｖｅｒｙ　ｈａｐｐｙ！"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｉ　ｈａｖｅ　ｎｅｗｓ．　Ｓｏｍｅｔｈｉｎｇ　ｔｅｒｒ"TCC_NEWLINE"ｉｂｌｅ"TCC_NEWLINE
-"ｈａｓ　ｈａｐｐｅｎｅｄ　ｉｎ　Ｌｊｓｌｆｈｅｉｍｒ，　ａｎ"TCC_NEWLINE"ｄ"TCC_NEWLINE
-"ｗｅ　ｄｅｓｐｅｒａｔｅｌｙ　ｎｅｅｄ　ｙｏｕｒ　ｈｅｌｐ！"TCC_NEWLINE TCC_PUSH_A
-"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ｈａｓ　ｂｅｅｎ　ｔａｋｅ"TCC_NEWLINE"ｎ　ｔｏ"TCC_NEWLINE
-"Ｄｋｋｌｆｈｅｉｍｒ，　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｒｅａｌ"TCC_NEWLINE"ｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｍｅ，　Ｓｈａｒｅｎａ？Ｏｈ，　"TCC_NEWLINE"Ｉ’ｍ　ｓｏ　ｖｅｒｙ，　ｖｅｒｙ　ｈａｐｐｙ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ　ｈａｖｅ　ｎｅｗｓ．　Ｓｏｍｅｔｈｉｎｇ　ｔｅｒー"TCC_NEWLINE"ｒｉｂｌｅｈａｓ　ｈａｐｐｅｎｅｄ　ｉｎ　Ｌｊｓｌｆｈｅｉー"TCC_NEWLINE"ｍｒ，　ａｎｄｗｅ　ｄｅｓｐｅｒａｔｅｌｙ　ｎｅｅｄ　ｙｏー"TCC_NEWLINE"ｕｒ　ｈｅｌｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ｈａｓ　ｂｅｅｎ　ｔａｋー"TCC_NEWLINE"ｅｎ　ｔｏＤｋｋｌｆｈｅｉｍｒ，　ｔｈｅ　ｎｉｇｈｔｍａｒー"TCC_NEWLINE"ｅ　ｒｅａｌｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ’ｓ　ｗｈｙ　ｔｈｅｓｅ　ｔｅｒｒｉｂｌｅ　ｎｉｇｈ"TCC_NEWLINE"ｔｍａｒｅｓ"TCC_NEWLINE
-"ｈａｖｅ　ｂｅｅｎ　ａｐｐｅａｒｉｎｇ　ｉｎ　ｔｈｉｓ　ｗｏ"TCC_NEWLINE"ｒｌｄ　ｉｎ"TCC_NEWLINE
-"ｓｕｃｈ　ｎｕｍｂｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈｈ．．．　Ｗｅ　ｓｉｍｐｌｙ　ＨＡＶＥ　ｔｏ　ｓａｖｅ"TCC_NEWLINE
-"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｗｈｙ　ｔｈｅｓｅ　ｔｅｒｒｉｂｌｅ　ｎｉｇー"TCC_NEWLINE"ｈｔｍａｒｅｓｈａｖｅ　ｂｅｅｎ　ａｐｐｅａｒｉｎｇ　ｉｎ"TCC_NEWLINE"　ｔｈｉｓ　ｗｏｒｌｄ　ｉｎｓｕｃｈ　ｎｕｍｂｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈｈ．．．　Ｗｅ　ｓｉｍｐｌｙ　ＨＡＶＥ　ｔｏ　ｓａｖｅー"TCC_NEWLINE"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａ－ａｌｌ　ｒｉｇｈｔ，　ｓｌｏｗ　ｄｏｗｎ．．．　Ｔｅｌｌ"TCC_NEWLINE"　ｕｓ"TCC_NEWLINE
-"ｅｖｅｒｙｔｈｉｎｇ，　ａｓ　ｉｔ　ｈａｐｐｅｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｉｒｓｔ，　ｔｈｏｕｇｈ．．．Ｉ’ｍ　ｇｌａｄ　ｙｏｕ’ｒ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｈｅｒｅ，　Ｐｅｏｎｙ．　Ｙｏｕｒ　ｐｒｅｓｅｎｃｅ"TCC_NEWLINE
-"ｇｉｖｅｓ　ｍｅ　ｈｏｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ－ａｌｌ　ｒｉｇｈｔ，　ｓｌｏｗ　ｄｏｗｎ．．．　Ｔｅｌー"TCC_NEWLINE"ｌ　ｕｓｅｖｅｒｙｔｈｉｎｇ，　ａｓ　ｉｔ　ｈａｐｐｅｎｅー"TCC_NEWLINE"ｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｒｓｔ，　ｔｈｏｕｇｈ．．．Ｉ’ｍ　ｇｌａｄ　ｙｏｕ’"TCC_NEWLINE"ｒｅｈｅｒｅ，　Ｐｅｏｎｙ．　Ｙｏｕｒ　ｐｒｅｓｅｎｃｅｇー"TCC_NEWLINE"ｉｖｅｓ　ｍｅ　ｈｏｐｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｗ！　Ｉ’ｍ　ｈａｐｐｙ　ｔｏ　ｓｅｅ　ｙｏｕ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ｓｏｍｅ　ｓｏｌｕｔｉｏｎ　ｔｏ"TCC_NEWLINE
-"ｒｅｓｏｌｖｉｎｇ　ｔｈｉｓ　ｃｈａｏｓ　ｈｉｄｄｅｎ　ｗｉ"TCC_NEWLINE"ｔｈｉｎ"TCC_NEWLINE
-"ｔｈｅ　ｄｒｅａｍ　ｒｅａｌｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｗｉｔｈ　ｙｏｕ　ｈｅｒｅ，　Ｐｅｏｎｙ，　ｗｅ　ｍ"TCC_NEWLINE"ｉｇｈｔ"TCC_NEWLINE
-"ａｃｔｕａｌｌｙ　ｓｔａｎｄ　ａ　ｃｈａｎｃｅ　ａｔ　ｆｉｎ"TCC_NEWLINE"ｄｉｎｇ"TCC_NEWLINE
-"ｔｈｏｓｅ　ｓｏｌｕｔｉｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ"TCC_TACTICIAN_NAME"ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ｓｏｍｅ　ｓｏｌｕｔｉｏｎ　ｔー"TCC_NEWLINE"ｏｒｅｓｏｌｖｉｎｇ　ｔｈｉｓ　ｃｈａｏｓ　ｈｉｄｄｅｎ　"TCC_NEWLINE"ｗｉｔｈｉｎｔｈｅ　ｄｒｅａｍ　ｒｅａｌｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｉｔｈ　ｙｏｕ　ｈｅｒｅ，　Ｐｅｏｎｙ，　ｗｅ　"TCC_NEWLINE"ｍｉｇｈｔａｃｔｕａｌｌｙ　ｓｔａｎｄ　ａ　ｃｈａｎｃｅ　"TCC_NEWLINE"ａｔ　ｆｉｎｄｉｎｇｔｈｏｓｅ　ｓｏｌｕｔｉｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

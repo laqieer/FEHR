@@ -1,8 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2053_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｔｈｅ　ｗｉｎｇｓ　ｏｆ　ｄｅｓｐａｉｒ．　Ｉ　ａ"TCC_NEWLINE"ｍ　ｔｈｅ"TCC_NEWLINE
-"ｂｒｅａｔｈ　ｏｆ　ｒｕｉｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　ｔｈｅ　ｆｅｌｌ　ｄｒａｇｏｎ，　Ｇｒｉｍａ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｏ’ｓ　ｒｅａｄｙ　ｔｏ　ｂｅ　ｄｅｖｏｕｒｅｄ？　Ｙｏ"TCC_NEWLINE"ｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｔｈｅ　ｗｉｎｇｓ　ｏｆ　ｄｅｓｐａｉｒ．　Ｉ　"TCC_NEWLINE"ａｍ　ｔｈｅｂｒｅａｔｈ　ｏｆ　ｒｕｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｔｈｅ　ｆｅｌｌ　ｄｒａｇｏｎ，　Ｇｒｉｍａ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ’ｓ　ｒｅａｄｙ　ｔｏ　ｂｅ　ｄｅｖｏｕｒｅｄ？　Ｙー"TCC_NEWLINE"ｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

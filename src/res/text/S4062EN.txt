@@ -1,6 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4062_EN] = TCC_OPEN_LEFT
-"Ｉ’ｖｅ　ｇｏｔ　ｆｉｒｅ　ｉｎ　ｍｙ　ｖｅｉｎｓ．　Ｃｕｔ"TCC_NEWLINE"　ｍｅ，"TCC_NEWLINE
-"ａｎｄ　ｙｏｕ’ｌｌ　ｇｅｔ　ｂｕｒｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｇｏｔ　ｆｉｒｅ　ｉｎ　ｍｙ　ｖｅｉｎｓ．　Ｃｕー"TCC_NEWLINE"ｔ　ｍｅ，ａｎｄ　ｙｏｕ’ｌｌ　ｇｅｔ　ｂｕｒｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,68 +1,46 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_GUSTAV
-"Ａｌｆｏｎｓｅ，　ｌｉｓｔｅｎ　ｗｅｌｌ．　Ｔｏｍｏｒｒｏｗ"TCC_NEWLINE"，　ｍｙ"TCC_NEWLINE
-"ｋｎｉｇｈｔｓ　ｗｉｌｌ　ａｔｔａｃｋ　ｔｈｅ　ｆｏｒｃｅｓ"TCC_NEWLINE"　ｏｆ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｍｕｓｔ　ｆｏｒｃｅ　ｔｈｅｉｒ　ｒｅｔｒｅａｔ　ｉｎ"TCC_NEWLINE"ｔｏ　ｔｈｅ"TCC_NEWLINE
-"ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ　ａｎｄ　ｇｅｔ　ｔｈａｔ"TCC_NEWLINE
-"ｂａｒｒｉｅｒ　ｂａｃｋ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　ｌｉｓｔｅｎ　ｗｅｌｌ．　Ｔｏｍｏｒｒｏー"TCC_NEWLINE"ｗ，　ｍｙｋｎｉｇｈｔｓ　ｗｉｌｌ　ａｔｔａｃｋ　ｔｈｅ　"TCC_NEWLINE"ｆｏｒｃｅｓ　ｏｆ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｆｏｒｃｅ　ｔｈｅｉｒ　ｒｅｔｒｅａｔ　ｉー"TCC_NEWLINE"ｎｔｏ　ｔｈｅｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ　ａｎｄ　"TCC_NEWLINE"ｇｅｔ　ｔｈａｔｂａｒｒｉｅｒ　ｂａｃｋ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｙｅｓ，　Ｆａｔｈｅｒ．　Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏ"TCC_NEWLINE"ｅｓ，　ｌｅｄ"TCC_NEWLINE
-"ｂｙ　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ｗｉｌｌ　ｔａｋｅ　ｐ"TCC_NEWLINE"ａｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　Ｆａｔｈｅｒ．　Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒー"TCC_NEWLINE"ｏｅｓ，　ｌｅｄｂｙ　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ｗｉー"TCC_NEWLINE"ｌｌ　ｔａｋｅ　ｐａｒｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｏ　ａｓ　ｙｏｕ　ｗｉｓｈ．　Ｊｕｓｔ　ｐｒｏｍｉｓｅ　ｍ"TCC_NEWLINE"ｅ　ｏｎｅ"TCC_NEWLINE
-"ｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｙｏｕ　ｍｅｅｔ　Ｈｅｌ，　ｄｏ　ｎｏｔ　ｅｎｇａｇｅ"TCC_NEWLINE"　ｈｅｒ．"TCC_NEWLINE
-"Ｉｆ　ｙｏｕ　ｓｅｅ　ｈｅｒ，　ｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｅｔｔｅｒ　ｙｏｕ　ｄｏｎ’ｔ　ｇｅｔ　ｎｅａｒ　ｅｎｏｕ"TCC_NEWLINE"ｇｈ　ｔｏ"TCC_NEWLINE
-"ｓｅｅ　ｈｅｒ　ａｔ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ａｓ　ｙｏｕ　ｗｉｓｈ．　Ｊｕｓｔ　ｐｒｏｍｉｓｅ　"TCC_NEWLINE"ｍｅ　ｏｎｅｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｍｅｅｔ　Ｈｅｌ，　ｄｏ　ｎｏｔ　ｅｎｇａｇー"TCC_NEWLINE"ｅ　ｈｅｒ．Ｉｆ　ｙｏｕ　ｓｅｅ　ｈｅｒ，　ｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｔｔｅｒ　ｙｏｕ　ｄｏｎ’ｔ　ｇｅｔ　ｎｅａｒ　ｅｎｏー"TCC_NEWLINE"ｕｇｈ　ｔｏｓｅｅ　ｈｅｒ　ａｔ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｆａｔｈｅｒｄｏ　ｙｏｕ　ｋｎｏｗ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｗｅｎｔｙ　ｙｅａｒｓ　ａｇｏ．．．Ｉ　ｆｏｕｇｈｔ　ｈｅ"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｗｅｎｔｙ　ｙｅａｒｓ　ａｇｏ．．．Ｉ　ｆｏｕｇｈｔ　ｈー"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｓｃａｒ　Ｉ　ｂｅａｒ　ｉｓ　ｈｅｒ　ｄｏｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａ　ｆｏｅ　ｗｈｏ　ｃｏｕｌｄ　ｗｏｕｎｄ　ｙｏｕ　ｓｏ"TCC_NEWLINE
-"ｈａｒｓｈｌｙ？　Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｔｈｅ　ｄａｎｇ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
-"ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｆｏｅ　ｗｈｏ　ｃｏｕｌｄ　ｗｏｕｎｄ　ｙｏｕ　ｓｏｈー"TCC_NEWLINE"ａｒｓｈｌｙ？　Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｔｈｅ　ｄａｎｇー"TCC_NEWLINE"ｅｒｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｄｏ，　ｄｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｔ　ｉｓ　ｎｏｔ　ｔｈａｔ　ｓｈｅ　ｗａｓ　ｓｔｒｏｎｇ　"TCC_NEWLINE"ａｎｄ　Ｉ　ｗａｓ"TCC_NEWLINE
-"ｗｅａｋ．　Ｄｅａｔｈ　ｉｓ　ｎｏｔ　ｍｅａｓｕｒｅｄ　ｏｎ"TCC_NEWLINE"　ｓｕｃｈ"TCC_NEWLINE
-"ａ　ｓｃａｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｅａｔｈ　ｃｏｍｅｓ　ｆｏｒ　ａｌｌ　ｔｈｅ　ｌｉｖｉｎｇ"TCC_NEWLINE"．　Ｔｈａｔ"TCC_NEWLINE
-"ｃａｎｎｏｔ　ｂｅ　ｄｅｎｉｅｄ．　Ａｎｄ　Ｈｅｌ　ｉｓ　ｄ"TCC_NEWLINE"ｅａｔｈ"TCC_NEWLINE
-"ｉｔｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｏｎｌｙ　ｒｅａｓｏｎ　Ｉ　ｓｕｒｖｉｖｅｄ　ｍｙ"TCC_NEWLINE
-"ｅｎｃｏｕｎｔｅｒ　ｗｉｔｈ　ｈｅｒ　ｗａｓ　ｂｌｉｎｄ　ｌ"TCC_NEWLINE"ｕｃｋ"TCC_NEWLINE
-"ｎｏｔｈｉｎｇ　ｍｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｎｏｔ　ｔｈａｔ　ｓｈｅ　ｗａｓ　ｓｔｒｏｎｇ"TCC_NEWLINE"　ａｎｄ　Ｉ　ｗａｓｗｅａｋ．　Ｄｅａｔｈ　ｉｓ　ｎｏｔ　"TCC_NEWLINE"ｍｅａｓｕｒｅｄ　ｏｎ　ｓｕｃｈａ　ｓｃａｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅａｔｈ　ｃｏｍｅｓ　ｆｏｒ　ａｌｌ　ｔｈｅ　ｌｉｖｉｎー"TCC_NEWLINE"ｇ．　Ｔｈａｔｃａｎｎｏｔ　ｂｅ　ｄｅｎｉｅｄ．　Ａｎｄ　"TCC_NEWLINE"Ｈｅｌ　ｉｓ　ｄｅａｔｈｉｔｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｏｎｌｙ　ｒｅａｓｏｎ　Ｉ　ｓｕｒｖｉｖｅｄ　ｍｙー"TCC_NEWLINE"ｅｎｃｏｕｎｔｅｒ　ｗｉｔｈ　ｈｅｒ　ｗａｓ　ｂｌｉｎｄ　"TCC_NEWLINE"ｌｕｃｋｎｏｔｈｉｎｇ　ｍｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｍｕｓｔ　ｌｉｓｔｅｎ　ｔｏ　ｍｅ，　Ａｌｆｏｎｓｅ"TCC_NEWLINE"．　Ｄｏ"TCC_NEWLINE
-"ｎｏｔ　ａｐｐｒｏａｃｈ　Ｈｅｌｎｏ　ｍａｔｔｅｒ　ｗｈａｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｕｓｔ　ｌｉｓｔｅｎ　ｔｏ　ｍｅ，　Ａｌｆｏｎｓー"TCC_NEWLINE"ｅ．　Ｄｏｎｏｔ　ａｐｐｒｏａｃｈ　Ｈｅｌｎｏ　ｍａｔｔｅー"TCC_NEWLINE"ｒ　ｗｈａｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｈｅｌ，　ｔｈｅ　ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．　"TCC_NEWLINE"Ｔｏ　ｔｈｉｎｋ"TCC_NEWLINE
-"ｗｅ’ｄ　ｆａｃｅ　ｓｏｍｅｏｎｅ　ｌｉｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｃｏｕｌｄ　ｓｔｒｉｋｅ　ｓｗｉｆｔｌｙ　ａｎｄ"TCC_NEWLINE"　ｔａｋｅ　ｔｈｅ"TCC_NEWLINE
-"ｈｅａｄ　ｏｆ　ｏｕｒ　ｅｎｅｍｙ，　ｔｈｉｓ　ｗａｒ　ｗｏ"TCC_NEWLINE"ｕｌｄ"TCC_NEWLINE
-"ｅｎｄ　ｉｎ　ａｎ　ｉｎｓｔａｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ，　ｔｈｅ　ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE"　Ｔｏ　ｔｈｉｎｋｗｅ’ｄ　ｆａｃｅ　ｓｏｍｅｏｎｅ　ｌｉー"TCC_NEWLINE"ｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｃｏｕｌｄ　ｓｔｒｉｋｅ　ｓｗｉｆｔｌｙ　ａｎー"TCC_NEWLINE"ｄ　ｔａｋｅ　ｔｈｅｈｅａｄ　ｏｆ　ｏｕｒ　ｅｎｅｍｙ，　"TCC_NEWLINE"ｔｈｉｓ　ｗａｒ　ｗｏｕｌｄｅｎｄ　ｉｎ　ａｎ　ｉｎｓｔａー"TCC_NEWLINE"ｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　ｔｈａｔ　ｓｅｅｍｓ．．．　Ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_EIR
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌｅｔ　ｕｓ　ｃｏｎｃｅｎｔｒａｔｅ　ｏｎ　ｔｈｅ　ｆｏｅｓ"TCC_NEWLINE"　ｗｅ"TCC_NEWLINE
-"ｆｉｎｄ　ｉｎ　ｆｒｏｎｔ　ｏｆ　ｕｓ　ｆｏｒ　ｎｏｗ．　Ｉ"TCC_NEWLINE"ｔ’ｓ　ｔｉｍｅ"TCC_NEWLINE
-"ｗｅ　ｈｅａｄ　ｉｎｔｏ　ｂａｔｔｌｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｕｓ　ｃｏｎｃｅｎｔｒａｔｅ　ｏｎ　ｔｈｅ　ｆｏｅー"TCC_NEWLINE"ｓ　ｗｅｆｉｎｄ　ｉｎ　ｆｒｏｎｔ　ｏｆ　ｕｓ　ｆｏｒ　ｎー"TCC_NEWLINE"ｏｗ．　Ｉｔ’ｓ　ｔｉｍｅｗｅ　ｈｅａｄ　ｉｎｔｏ　ｂａｔー"TCC_NEWLINE"ｔｌｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
 "Ｓｏ　ｙｏｕ　ｗｉｌｌ　ｊｏｉｎ　ｔｈｅ　ｆｉｇｈｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ａｈｅａｄ，　ｙｏｕ　ｗｉｌｌ　ｆｉｎｄ　ｔｈｅ　ａｒｍｙ　"TCC_NEWLINE"ｏｆ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｔｈａｔ　ｉｓ　ａｌｓｏ　ｗｈｅｒｅ　ｙｏｕ　ｗｉｌ"TCC_NEWLINE"ｌ　ｍｏｓｔ"TCC_NEWLINE
-"ｌｉｋｅｌｙ　ｆｉｎｄ　ｍｙ　ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｈｅａｄ，　ｙｏｕ　ｗｉｌｌ　ｆｉｎｄ　ｔｈｅ　ａｒｍｙ"TCC_NEWLINE"　ｏｆ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈａｔ　ｉｓ　ａｌｓｏ　ｗｈｅｒｅ　ｙｏｕ　ｗｉー"TCC_NEWLINE"ｌｌ　ｍｏｓｔｌｉｋｅｌｙ　ｆｉｎｄ　ｍｙ　ｍｏｔｈｅｒ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

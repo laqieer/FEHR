@@ -1,19 +1,14 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4042_EN] = TCC_OPEN_LEFT
-"Ｉ　ｈｅａｒ　ａ　ｆａｍｉｌｉａｒ　ｖｏｉｃｅ　ｃａｌｌｉｎ"TCC_NEWLINE"ｇ　ｏｕｔ　ｆｒｏｍ"TCC_NEWLINE
-"ｔｈｅ　Ｄｒａｇｏｎ’ｓ　Ｇａｔｅ．　Ｃｏｕｌｄ　ｉｔ　ｂｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｅａｒ　ａ　ｆａｍｉｌｉａｒ　ｖｏｉｃｅ　ｃａｌｌｉー"TCC_NEWLINE"ｎｇ　ｏｕｔ　ｆｒｏｍｔｈｅ　Ｄｒａｇｏｎ’ｓ　Ｇａｔｅ．"TCC_NEWLINE"　Ｃｏｕｌｄ　ｉｔ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4042_EN] = TCC_OPEN_LEFT
-"Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　ｐ"TCC_NEWLINE"ｌａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　"TCC_NEWLINE"ｐｌａｙ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｐｌａｙ．．．ｒｉｄｄｌｅｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｓｔａｒｔ！　Ｗｈｅｎ　ｙｏｕ　ｃｌｏｓｅ　ｙｏｕ"TCC_NEWLINE"ｒ　ｅｙｅｓ，"TCC_NEWLINE
-"ｙｏｕ’ｌｌ　ｓｏｍｅｔｉｍｅｓ　ｓｅｅ　ｍｅ，　ｂｕｔ　ｏ"TCC_NEWLINE"ｐｅｎ"TCC_NEWLINE
-"ｔｈｅｍ，　ａｎｄ　Ｉ’ｌｌ　ｄｉｓａｐｐｅａｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｓｔａｒｔ！　Ｗｈｅｎ　ｙｏｕ　ｃｌｏｓｅ　ｙｏー"TCC_NEWLINE"ｕｒ　ｅｙｅｓ，ｙｏｕ’ｌｌ　ｓｏｍｅｔｉｍｅｓ　ｓｅｅ　"TCC_NEWLINE"ｍｅ，　ｂｕｔ　ｏｐｅｎｔｈｅｍ，　ａｎｄ　Ｉ’ｌｌ　ｄｉー"TCC_NEWLINE"ｓａｐｐｅａｒ！"TCC_NEWLINE TCC_PUSH_A
 "Ｔｅｌｌ　ｍｅ，　ｗｈａｔ　ａｍ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
-"Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　ｐ"TCC_NEWLINE"ｌａｙ！"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｅ　ａｎｓｗｅｒ　ｉｓ　ａ　ｄｒｅａｍ，　ｂｕｔ　ｔｈａ"TCC_NEWLINE"ｔ’ｓ"TCC_NEWLINE
-"ｎｏｔ　ｖｅｒｙ　ｈａｒｄ　ｔｏ　ｇｕｅｓｓ！　Ｓｏ　ｗｈａ"TCC_NEWLINE"ｔ’ｓ"TCC_NEWLINE
-"ｔｈｅ　ｔｒｉｃｋｙ　ａｎｓｗｅｒ，　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　"TCC_NEWLINE"ｐｌａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ａｎｓｗｅｒ　ｉｓ　ａ　ｄｒｅａｍ，　ｂｕｔ　ｔｈー"TCC_NEWLINE"ａｔ’ｓｎｏｔ　ｖｅｒｙ　ｈａｒｄ　ｔｏ　ｇｕｅｓｓ！　Ｓー"TCC_NEWLINE"ｏ　ｗｈａｔ’ｓｔｈｅ　ｔｒｉｃｋｙ　ａｎｓｗｅｒ，　ｔｈー"TCC_NEWLINE"ｅｎ？"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｐｌａｙ！　Ｌｅｔ’ｓ．．．ｐｌａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,117 +1,68 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｄａｍｎ　ｉｔ！　Ｔｈｅｙ’ｒｅ　ｈｏｔ　ｏｎ　ｏｕｒ　ｈｅ"TCC_NEWLINE"ｅｌｓ．"TCC_NEWLINE
-"Ｃａｎ　ｗｅ　ｂｒｅａｋ　ｔｈｒｏｕｇｈ？　Ｍａｙｂｅ"TCC_NEWLINE
-"ｔｈｅｒｅ’ｓ　ａ　ｗａｙ"TCC_NEWLINE TCC_PUSH_A
+"Ｄａｍｎ　ｉｔ！　Ｔｈｅｙ’ｒｅ　ｈｏｔ　ｏｎ　ｏｕｒ　ｈー"TCC_NEWLINE"ｅｅｌｓ．Ｃａｎ　ｗｅ　ｂｒｅａｋ　ｔｈｒｏｕｇｈ？　Ｍａー"TCC_NEWLINE"ｙｂｅｔｈｅｒｅ’ｓ　ａ　ｗａｙ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEGJARN
 "Ｓｕｒｒｅｎｄｅｒ，　Ａｓｋｒａｎｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｂｙ　ｗｈｏｓｅ　ｏｒｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ａｍ　Ｌａｅｇｊａｒｎ，　ａ　ｇｅｎｅｒａｌ　ｏｆ　Ｍｓ"TCC_NEWLINE"ｐｅｌｌ．"TCC_NEWLINE
-"Ｂｙ　ａｕｔｈｏｒｉｔｙ　ｏｆ　ｍｙ　ｆａｔｈｅｒ，　Ｋｉｎ"TCC_NEWLINE"ｇ　Ｓｕｒｔｒ，"TCC_NEWLINE
-"Ｉ　ｈａｖｅ　ｃｈａｒｇｅ　ｏｆ　ｔｈｉｓ　ｒｅｇｉｏｎ　ｏ"TCC_NEWLINE"ｆ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｕｇｈ　ｗｅ　ｍａｙ　ｂｅ　ｅｎｅｍｉｅｓ，　Ｉ"TCC_NEWLINE
-"ｃｏｍｍｅｎｄ　ｙｏｕｒ　ｂｒａｖｅｒｙ，　ｗａｒｒｉｏｒｓ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
-"Ａｓｋｒ．　Ｙｏｕ　ｈａｖｅ　ｌｅｄ　ｑｕｉｔｅ　ｔｈｅ　ｃ"TCC_NEWLINE"ｈａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｆｏｒ　ｎｏｗ，　ｙｏｕ　ｍａｙ　ｒｅｓｔ．　Ｕｌｔ"TCC_NEWLINE"ｉｍａｔｅｌｙ，"TCC_NEWLINE
-"ｙｏｕ　ｃａｎｎｏｔ　ｔｒｉｕｍｐｈ．　Ｙｏｕ　ｍａｙ　ｃｌ"TCC_NEWLINE"ａｗ"TCC_NEWLINE
-"ｏｕｔ　ｓｍａｌｌ　ｖｉｃｔｏｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｏｕｒ　ｆｏｒｃｅｓ　ａｒｅ　ｔｏｏ　ｌａｒｇｅ．　"TCC_NEWLINE"Ｙｏｕ"TCC_NEWLINE
-"ｍｕｓｔ　ｓｕｒｒｅｎｄｅｒ．　Ｓｕｂｍｉｔ　ｑｕｉｅｔｌｙ"TCC_NEWLINE"　ａｎｄ"TCC_NEWLINE
-"ｙｏｕ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｈａｒｍｅｄ．　Ｉ　ｓｗｅａ"TCC_NEWLINE"ｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｌａｅｇｊａｒｎ，　ａ　ｇｅｎｅｒａｌ　ｏｆ　Ｍー"TCC_NEWLINE"ｓｐｅｌｌ．Ｂｙ　ａｕｔｈｏｒｉｔｙ　ｏｆ　ｍｙ　ｆａｔｈー"TCC_NEWLINE"ｅｒ，　Ｋｉｎｇ　Ｓｕｒｔｒ，Ｉ　ｈａｖｅ　ｃｈａｒｇｅ　"TCC_NEWLINE"ｏｆ　ｔｈｉｓ　ｒｅｇｉｏｎ　ｏｆ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ　ｗｅ　ｍａｙ　ｂｅ　ｅｎｅｍｉｅｓ，　Ｉｃｏー"TCC_NEWLINE"ｍｍｅｎｄ　ｙｏｕｒ　ｂｒａｖｅｒｙ，　ｗａｒｒｉｏｒｓ　"TCC_NEWLINE"ｏｆＡｓｋｒ．　Ｙｏｕ　ｈａｖｅ　ｌｅｄ　ｑｕｉｔｅ　ｔｈー"TCC_NEWLINE"ｅ　ｃｈａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｆｏｒ　ｎｏｗ，　ｙｏｕ　ｍａｙ　ｒｅｓｔ．　Ｕｌー"TCC_NEWLINE"ｔｉｍａｔｅｌｙ，ｙｏｕ　ｃａｎｎｏｔ　ｔｒｉｕｍｐｈ．　"TCC_NEWLINE"Ｙｏｕ　ｍａｙ　ｃｌａｗｏｕｔ　ｓｍａｌｌ　ｖｉｃｔｏｒｉー"TCC_NEWLINE"ｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｏｕｒ　ｆｏｒｃｅｓ　ａｒｅ　ｔｏｏ　ｌａｒｇｅ．"TCC_NEWLINE"　Ｙｏｕｍｕｓｔ　ｓｕｒｒｅｎｄｅｒ．　Ｓｕｂｍｉｔ　ｑｕー"TCC_NEWLINE"ｉｅｔｌｙ　ａｎｄｙｏｕ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｈａｒｍー"TCC_NEWLINE"ｅｄ．　Ｉ　ｓｗｅａｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｅ　ｃｏｎｔｒａｓｔ　ｗｉｔｈ　Ｓｕｒｔｒ　ｃｏｕｌｄ　"TCC_NEWLINE"ｎｏｔ　ｂｅ"TCC_NEWLINE
-"ｍｏｒｅ　ｐｒｏｆｏｕｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｏｎｔｒａｓｔ　ｗｉｔｈ　Ｓｕｒｔｒ　ｃｏｕｌｄ"TCC_NEWLINE"　ｎｏｔ　ｂｅｍｏｒｅ　ｐｒｏｆｏｕｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
-"Ｙｅｓ．　Ｓｈｅ　ｈａｓ　ｉｎｔｅｇｒｉｔｙ．　Ｅｖｅｒ　ｓ"TCC_NEWLINE"ｉｎｃｅ　ｏｕｒ"TCC_NEWLINE
-"ｄｅｆｅａｔ，　ｓｈｅ　ｈａｓ　ｔｒｅａｔｅｄ　ｔｈｅ　ｃｉ"TCC_NEWLINE"ｔｉｚｅｎｓ　ｏｆ"TCC_NEWLINE
-"Ｎｉｆｌ　ｗｉｔｈ　ｒｅｓｐｅｃｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｂｅｌｉｅｖｅ　ｓｈｅ’"TCC_NEWLINE"ｓ　Ｓｕｒｔｒ’ｓ"TCC_NEWLINE
-"ｄａｕｇｈｔｅｒ，　ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｓｈｅ　ｈａｓ　ｉｎｔｅｇｒｉｔｙ．　Ｅｖｅｒ　"TCC_NEWLINE"ｓｉｎｃｅ　ｏｕｒｄｅｆｅａｔ，　ｓｈｅ　ｈａｓ　ｔｒｅａー"TCC_NEWLINE"ｔｅｄ　ｔｈｅ　ｃｉｔｉｚｅｎｓ　ｏｆＮｉｆｌ　ｗｉｔｈ　"TCC_NEWLINE"ｒｅｓｐｅｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｂｅｌｉｅｖｅ　ｓｈｅ"TCC_NEWLINE"’ｓ　Ｓｕｒｔｒ’ｓｄａｕｇｈｔｅｒ，　ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉ，　ｆｏｒ　ｏｎｅ，　ａｍ　ｇｌａｄ　ｔｈｉｓ　ａｐｐｌｅ"TCC_NEWLINE"　ｆｅｌｌ　ｆａｒ"TCC_NEWLINE
-"ｆｒｏｍ　ｔｈｅ　ｔｒｅｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ，　ｆｏｒ　ｏｎｅ，　ａｍ　ｇｌａｄ　ｔｈｉｓ　ａｐｐｌー"TCC_NEWLINE"ｅ　ｆｅｌｌ　ｆａｒｆｒｏｍ　ｔｈｅ　ｔｒｅｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｇｅｎｅｒａｌ　ｏｆ　Ｍｓｐｅｌｌ！　Ｉ　ｔｈａｎｋ　ｙｏｕ"TCC_NEWLINE"　ｆｏｒ"TCC_NEWLINE
-"ｙｏｕｒ　ｏｆｆｅｒ，　ｆａｉｒｌｙ　ｍａｄｅ．　Ｗｅ　ｈａ"TCC_NEWLINE"ｖｅ，"TCC_NEWLINE
-"ｈｏｗｅｖｅｒ，　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｄｅｃｌ"TCC_NEWLINE"ｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｃａｍｅ　ｈｅｒｅ　ｗｉｔｈ　ｏｎｅ　ｇｏａｌｔｏ"TCC_NEWLINE
-"ｓａｖｅ　Ａｓｋｒ．　Ｗｈａｔｅｖｅｒ　ｔｈｅ　ｏｄｄｓ，"TCC_NEWLINE
-"ｗｅ　ｗｉｌｌ　ｐｕｒｓｕｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｅｎｅｒａｌ　ｏｆ　Ｍｓｐｅｌｌ！　Ｉ　ｔｈａｎｋ　ｙｏー"TCC_NEWLINE"ｕ　ｆｏｒｙｏｕｒ　ｏｆｆｅｒ，　ｆａｉｒｌｙ　ｍａｄｅ．"TCC_NEWLINE"　Ｗｅ　ｈａｖｅ，ｈｏｗｅｖｅｒ，　ｎｏ　ｃｈｏｉｃｅ　ｂー"TCC_NEWLINE"ｕｔ　ｔｏ　ｄｅｃｌｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｍｅ　ｈｅｒｅ　ｗｉｔｈ　ｏｎｅ　ｇｏａｌｔｏｓー"TCC_NEWLINE"ａｖｅ　Ａｓｋｒ．　Ｗｈａｔｅｖｅｒ　ｔｈｅ　ｏｄｄｓ，ｗー"TCC_NEWLINE"ｅ　ｗｉｌｌ　ｐｕｒｓｕｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｓｅｅ．　Ｙｏｕ　ｌｅａｖｅ　ｕｓ　ｗｉｔｈ　ｎｏ　ｃｈ"TCC_NEWLINE"ｏｉｃｅ"TCC_NEWLINE
-"ｂｕｔ　ｔｏ　ｃａｒｒｙ　ｏｕｔ　ｏｕｒ　ｆａｔｈｅｒ’ｓ　"TCC_NEWLINE"ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｆａｃｅ　ｔｗｏ　ｏｆ　Ｍｓｐｅｌｌ’ｓ　ｇｅｎｅｒ"TCC_NEWLINE"ａｌｓ"TCC_NEWLINE
-"ｉｎ　ｂａｔｔｌｅ．　Ｐｒｅｐａｒｅ　ｆｏｒ　ｄｅｆｅａｔ　"TCC_NEWLINE"ａｔ　ｔｈｅ"TCC_NEWLINE
-"ｈａｎｄｓ　ｏｆ　Ｌａｅｇｊａｒｎ　ａｎｄ　Ｌａｅｖａｔｅｉ"TCC_NEWLINE"ｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ．　Ｙｏｕ　ｌｅａｖｅ　ｕｓ　ｗｉｔｈ　ｎｏ　ｃー"TCC_NEWLINE"ｈｏｉｃｅｂｕｔ　ｔｏ　ｃａｒｒｙ　ｏｕｔ　ｏｕｒ　ｆａｔー"TCC_NEWLINE"ｈｅｒ’ｓ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｆａｃｅ　ｔｗｏ　ｏｆ　Ｍｓｐｅｌｌ’ｓ　ｇｅｎｅー"TCC_NEWLINE"ｒａｌｓｉｎ　ｂａｔｔｌｅ．　Ｐｒｅｐａｒｅ　ｆｏｒ　ｄｅー"TCC_NEWLINE"ｆｅａｔ　ａｔ　ｔｈｅｈａｎｄｓ　ｏｆ　Ｌａｅｇｊａｒｎ　"TCC_NEWLINE"ａｎｄ　Ｌａｅｖａｔｅｉｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
-"Ｙｏｕｒ　ｓｔｒｅｎｇｔｈ．．．　Ｉ　ｗａｓ　ｎｏｔ　ｐｒｅ"TCC_NEWLINE"ｐａｒｅｄ　ｆｏｒ"TCC_NEWLINE
-"ｔｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｕｎｄｅｒｅｓｔｉｍａｔｅｄ　ｙｏｕ，　Ａｓｋｒａｎｓ．"TCC_NEWLINE"　Ｙｏｕｒ"TCC_NEWLINE
-"ｔａｃｔｉｃｓ　ｏｕｔｃｌａｓｓ　ｍｉｎｅ．　Ｙｏｕ　ａｒｅ"TCC_NEWLINE"　ｂｏｔｈ"TCC_NEWLINE
-"ｐｏｗｅｒｆｕｌ　ａｎｄ　ｓｋｉｌｌｅｄ　ｉｎ　ｂａｔｔｌｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓｎ’ｔ　ａ　ｗａｓｔｅ，　ｔｈｏｕｇｈ．　Ｉ　ｌ"TCC_NEWLINE"ｅａｒｎｅｄ"TCC_NEWLINE
-"ｓｏｍｅ　ｖｅｒｙ　ｉｎｔｅｒｅｓｔｉｎｇ　ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　ｎｏｗ．．．　Ｉ’ｌｌ　ｔａｋｅ　ｍｙ　ｌｅａｖｅ　"TCC_NEWLINE"ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｓｔｒｅｎｇｔｈ．．．　Ｉ　ｗａｓ　ｎｏｔ　ｐｒー"TCC_NEWLINE"ｅｐａｒｅｄ　ｆｏｒｔｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｅｓｔｉｍａｔｅｄ　ｙｏｕ，　Ａｓｋｒａｎｓ"TCC_NEWLINE"．　Ｙｏｕｒｔａｃｔｉｃｓ　ｏｕｔｃｌａｓｓ　ｍｉｎｅ．　"TCC_NEWLINE"Ｙｏｕ　ａｒｅ　ｂｏｔｈｐｏｗｅｒｆｕｌ　ａｎｄ　ｓｋｉｌー"TCC_NEWLINE"ｌｅｄ　ｉｎ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓｎ’ｔ　ａ　ｗａｓｔｅ，　ｔｈｏｕｇｈ．　Ｉ　"TCC_NEWLINE"ｌｅａｒｎｅｄｓｏｍｅ　ｖｅｒｙ　ｉｎｔｅｒｅｓｔｉｎｇ　"TCC_NEWLINE"ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｎｏｗ．．．　Ｉ’ｌｌ　ｔａｋｅ　ｍｙ　ｌｅａｖｅ"TCC_NEWLINE"　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
 "Ｌａｅｇｊａｒｎ．．．　Ａｒｅ　ｙｏｕ　ｈｕｒｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEGJARN
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ，　Ｌａｅｖａｔｅｉｎ．　Ｉ’ｍ　ｆｉ"TCC_NEWLINE"ｎｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ’ｒｅ　ｖｅｒｙ　ｓｔｒｏｎｇ．　Ｉｆ　ｗｅ　ｄｏｎ"TCC_NEWLINE"’ｔ"TCC_NEWLINE
-"ｔｈｉｎｋ　ｏｆ　ｓｏｍｅ　ｂｅｔｔｅｒ　ｔａｃｔｉｃｓ，　"TCC_NEWLINE"ｗｅ’ｌｌ"TCC_NEWLINE
-"ｎｅｖｅｒ　ｄｅｆｅａｔ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ，　Ｌａｅｖａｔｅｉｎ．　Ｉ’ｍ　ｆー"TCC_NEWLINE"ｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｖｅｒｙ　ｓｔｒｏｎｇ．　Ｉｆ　ｗｅ　ｄｏー"TCC_NEWLINE"ｎ’ｔｔｈｉｎｋ　ｏｆ　ｓｏｍｅ　ｂｅｔｔｅｒ　ｔａｃｔｉー"TCC_NEWLINE"ｃｓ，　ｗｅ’ｌｌｎｅｖｅｒ　ｄｅｆｅａｔ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｗｉｌｌ　ｓｅｔ　ｍｙｓｅｌｆ　ａｂｌａｚｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ　ｗｉｌｌ　ｎｏｔ！　Ｔｈｅ　ｈｅｌｌｆｉｒｅ　ｏｆ　"TCC_NEWLINE"Ｍｓｐｅｌｌ　ｉｓ"TCC_NEWLINE
-"ｄａｎｇｅｒｏｕｓ．　Ｙｏｕｒ　ｓｏｕｌ　ｉｔｓｅｌｆ　ｗｏ"TCC_NEWLINE"ｕｌｄ　ｂｅ"TCC_NEWLINE
-"ｉｎ　ｐｅｒｉｌ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｆｌａｍｅ　ｗｏｕｌｄ　ｂｕｒｎ　ｙｏｕｒ　ｌｉｆｅ"TCC_NEWLINE
-"ａｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｉｓｔｅｎ　ｔｏ　ｍｅ，　Ｌａｅｖａｔｅｉｎ．　Ｙｏｕ　ｍ"TCC_NEWLINE"ｕｓｔ"TCC_NEWLINE
-"ｎｏｔ　ｄｏ　ｔｈｉｓ．　Ｐｒｏｍｉｓｅ　ｍｅ　ｔｈａｔ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
-"ｗｏｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｌｌ　ｎｏｔ！　Ｔｈｅ　ｈｅｌｌｆｉｒｅ　ｏｆ"TCC_NEWLINE"　Ｍｓｐｅｌｌ　ｉｓｄａｎｇｅｒｏｕｓ．　Ｙｏｕｒ　ｓｏｕー"TCC_NEWLINE"ｌ　ｉｔｓｅｌｆ　ｗｏｕｌｄ　ｂｅｉｎ　ｐｅｒｉｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌａｍｅ　ｗｏｕｌｄ　ｂｕｒｎ　ｙｏｕｒ　ｌｉｆー"TCC_NEWLINE"ｅａｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｓｔｅｎ　ｔｏ　ｍｅ，　Ｌａｅｖａｔｅｉｎ．　Ｙｏｕ　"TCC_NEWLINE"ｍｕｓｔｎｏｔ　ｄｏ　ｔｈｉｓ．　Ｐｒｏｍｉｓｅ　ｍｅ　ｔー"TCC_NEWLINE"ｈａｔ　ｙｏｕｗｏｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｆ　ｔｈａｔ’ｓ　ｗｈａｔ　ｙｏｕ　ｗａｎｔ．．．　Ｉ　ｐ"TCC_NEWLINE"ｒｏｍｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ，　Ｌａｅｇｊａｒｎ．．．　Ｗｅ　ｌｏｓｔ．　Ｗｈａｔ"TCC_NEWLINE"　ｄｏ　ｗｅ"TCC_NEWLINE
-"ｄｏ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ’ｓ　ｗｈａｔ　ｙｏｕ　ｗａｎｔ．．．　Ｉ　"TCC_NEWLINE"ｐｒｏｍｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ，　Ｌａｅｇｊａｒｎ．．．　Ｗｅ　ｌｏｓｔ．　Ｗｈａー"TCC_NEWLINE"ｔ　ｄｏ　ｗｅｄｏ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｄｏｎ’ｔ　ｗｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｃａｎ　ｆｉｇｕｒｅ　ｉｔ　ｏｕｔ　ｔｏｇｅｔｈｅｒ，"TCC_NEWLINE"　ｊｕｓｔ　ｌｉｋｅ"TCC_NEWLINE
-"ｗｅ　ａｌｗａｙｓ　ｈａｖｅ．　Ｌｅｔ’ｓ　ｓｔａｒｔ　ｗｉ"TCC_NEWLINE"ｔｈ　ｔｈｉｓ："TCC_NEWLINE
-"ｗｈｙ　ｉｓ　ｔｈｅ　ｅｎｅｍｙ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｆｉｇｕｒｅ　ｉｔ　ｏｕｔ　ｔｏｇｅｔｈｅｒ"TCC_NEWLINE"，　ｊｕｓｔ　ｌｉｋｅｗｅ　ａｌｗａｙｓ　ｈａｖｅ．　Ｌｅー"TCC_NEWLINE"ｔ’ｓ　ｓｔａｒｔ　ｗｉｔｈ　ｔｈｉｓ：ｗｈｙ　ｉｓ　ｔｈー"TCC_NEWLINE"ｅ　ｅｎｅｍｙ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｉｒ　ｋｉｎｇｄｏｍ　ｉｓ　ｏｎ　ｔｈｅ　ｂｒｉｎｋ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
-"ｄｅｓｔｒｕｃｔｉｏｎ．　Ｔｈｅｉｒ　ｐｅｏｐｌｅ　ａｒｅ"TCC_NEWLINE
-"ｓｕｆｆｅｒｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｔ　ｈｅｒｅ　ｔｈｅｙ　ａｒｅ．　Ｔｈｅｙ　ｍｕｓｔ　ｈ"TCC_NEWLINE"ａｖｅ"TCC_NEWLINE
-"ａ　ｖｅｒｙ　ｇｏｏｄ　ｒｅａｓｏｎ　ｔｏ　ｂｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｒｅ　ｔｈｅｙ　ｆｌｅｅｉｎｇ　Ｆａｔｈｅｒ？　Ｉ　ｄｏｎ"TCC_NEWLINE"’ｔ　ｔｈｉｎｋ"TCC_NEWLINE
-"ｓｏ．　Ｌｏｏｋ　ａｔ　ｔｈｅｉｒ　ｅｙｅｓ．　Ｔｈｅｉｒ　"TCC_NEWLINE"ｈｏｐｅ　ｈａｓ"TCC_NEWLINE
-"ｎｏｔ　ｂｅｅｎ　ｅｘｔｉｎｇｕｉｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ｍｕｓｔ　ｈａｖｅ　ｔｒａｖｅｌｅｄ　ｈｅｒｅ"TCC_NEWLINE
-"ｓｅｅｋｉｎｇ　ａ　ｍｅａｎｓ　ｔｏ　ｄｅｆｅａｔ　Ｍｓｐｅ"TCC_NEWLINE"ｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｉｒ　ｋｉｎｇｄｏｍ　ｉｓ　ｏｎ　ｔｈｅ　ｂｒｉｎｋ"TCC_NEWLINE"　ｏｆｄｅｓｔｒｕｃｔｉｏｎ．　Ｔｈｅｉｒ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ａｒｅｓｕｆｆｅｒｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｈｅｒｅ　ｔｈｅｙ　ａｒｅ．　Ｔｈｅｙ　ｍｕｓｔ　"TCC_NEWLINE"ｈａｖｅａ　ｖｅｒｙ　ｇｏｏｄ　ｒｅａｓｏｎ　ｔｏ　ｂｅ　"TCC_NEWLINE"ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｔｈｅｙ　ｆｌｅｅｉｎｇ　Ｆａｔｈｅｒ？　Ｉ　ｄｏー"TCC_NEWLINE"ｎ’ｔ　ｔｈｉｎｋｓｏ．　Ｌｏｏｋ　ａｔ　ｔｈｅｉｒ　ｅｙー"TCC_NEWLINE"ｅｓ．　Ｔｈｅｉｒ　ｈｏｐｅ　ｈａｓｎｏｔ　ｂｅｅｎ　ｅｘー"TCC_NEWLINE"ｔｉｎｇｕｉｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｍｕｓｔ　ｈａｖｅ　ｔｒａｖｅｌｅｄ　ｈｅｒｅｓー"TCC_NEWLINE"ｅｅｋｉｎｇ　ａ　ｍｅａｎｓ　ｔｏ　ｄｅｆｅａｔ　Ｍｓｐｅー"TCC_NEWLINE"ｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｆ　ｔｈａｔ’ｓ　ｗｈａｔ　ｙｏｕ　ｔｈｉｎｋ．．．　Ｔｈ"TCC_NEWLINE"ａｔ　ｍｕｓｔ"TCC_NEWLINE
-"ｂｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ’ｓ　ｗｈａｔ　ｙｏｕ　ｔｈｉｎｋ．．．　Ｔー"TCC_NEWLINE"ｈａｔ　ｍｕｓｔｂｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｒｅ　ｙｏｕ　ｇｏ　ａｇａｉｎ．　Ｔｈａｎｋ　ｙｏｕ，"TCC_NEWLINE"　ｌｉｔｔｌｅ"TCC_NEWLINE
-"ｓｉｓｔｅｒ．　Ｂｕｔ　ｎｏｗ，　ｌｅｔ’ｓ　ｔｈｉｎｋ．　"TCC_NEWLINE"Ｗｈａｔ　ｃｏｕｌｄ"TCC_NEWLINE
-"ｔｕｒｎ　ｔｈｅ　ｔｉｄｅ　ｏｆ　ｂａｔｔｌｅ　ｉｎ　ｔｈｅ"TCC_NEWLINE"ｉｒ　ｆａｖｏｒ？"TCC_NEWLINE TCC_PUSH_A
-"Ａｎ　ａｌｌｙ？　Ａ　ｗｅａｐｏｎ？　Ｄｏ　ｔｈｅｙ　ｍｅａ"TCC_NEWLINE"ｎ　ｔｏ"TCC_NEWLINE
-"ｌｕｒｅ　ｕｓ　ｔｏ　ａｄｖａｎｔａｇｅｏｕｓ　ｇｒｏｕｎｄ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｙｏｕ　ｇｏ　ａｇａｉｎ．　Ｔｈａｎｋ　ｙｏｕ"TCC_NEWLINE"，　ｌｉｔｔｌｅｓｉｓｔｅｒ．　Ｂｕｔ　ｎｏｗ，　ｌｅｔ’"TCC_NEWLINE"ｓ　ｔｈｉｎｋ．　Ｗｈａｔ　ｃｏｕｌｄｔｕｒｎ　ｔｈｅ　ｔー"TCC_NEWLINE"ｉｄｅ　ｏｆ　ｂａｔｔｌｅ　ｉｎ　ｔｈｅｉｒ　ｆａｖｏｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎ　ａｌｌｙ？　Ａ　ｗｅａｐｏｎ？　Ｄｏ　ｔｈｅｙ　ｍｅー"TCC_NEWLINE"ａｎ　ｔｏｌｕｒｅ　ｕｓ　ｔｏ　ａｄｖａｎｔａｇｅｏｕｓ　"TCC_NEWLINE"ｇｒｏｕｎｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｎｏ　ｉｄｅａ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ，　ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ａｎｙ　ｉｄｅａ．　Ｙｅ"TCC_NEWLINE"ｔ．"TCC_NEWLINE
-"Ｗｈａｔｅｖｅｒ　ｉｔ　ｍｉｇｈｔ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｃａｎ　ｆｉｎｄ　ｉｔ　ｆｉｒｓｔ，　ｗｅ　ｃａ"TCC_NEWLINE"ｎ　ｃｕｔ　ｏｆｆ"TCC_NEWLINE
-"ｔｈｅｉｒ　ｐａｔｈ　ｔｏ　ｖｉｃｔｏｒｙ．　Ａｎｄ　ｉｆ　"TCC_NEWLINE"ｗｅ　ｃａｎ　ｄｏ"TCC_NEWLINE
-"ｔｈａｔ，　ｗｅ　ｗｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ａｎｙ　ｉｄｅａ．　Ｙー"TCC_NEWLINE"ｅｔ．Ｗｈａｔｅｖｅｒ　ｉｔ　ｍｉｇｈｔ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｃａｎ　ｆｉｎｄ　ｉｔ　ｆｉｒｓｔ，　ｗｅ　ｃー"TCC_NEWLINE"ａｎ　ｃｕｔ　ｏｆｆｔｈｅｉｒ　ｐａｔｈ　ｔｏ　ｖｉｃｔｏー"TCC_NEWLINE"ｒｙ．　Ａｎｄ　ｉｆ　ｗｅ　ｃａｎ　ｄｏｔｈａｔ，　ｗｅ　"TCC_NEWLINE"ｗｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

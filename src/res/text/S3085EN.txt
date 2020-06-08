@@ -1,71 +1,42 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｌｕｃｋｉｌｙ，　ｍｕｃｈ　ｏｆ　ｔｈｅ　ｌｉｂｒａｒｙ　ｓ"TCC_NEWLINE"ｕｒｖｉｖｅｄ"TCC_NEWLINE
-"ｗｈａｔｅｖｅｒ　ｔｒａｇｅｄｙ　ｂｅｆｅｌｌ　ｔｈｉｓ　ｌ"TCC_NEWLINE"ａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｊｕｄｇｉｎｇ　ｆｒｏｍ　ｗｈａｔ　Ｉ　ｌｅａｒｎｅｄ，　ｔ"TCC_NEWLINE"ｈｉｓ　Ａｓｋｒ"TCC_NEWLINE
-"ｉｓ　ｓｅｖｅｒａｌ　ｙｅａｒｓ　ａｈｅａｄ　ｏｆ　ｏｕｒ　"TCC_NEWLINE"ｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｕｃｋｉｌｙ，　ｍｕｃｈ　ｏｆ　ｔｈｅ　ｌｉｂｒａｒｙ　"TCC_NEWLINE"ｓｕｒｖｉｖｅｄｗｈａｔｅｖｅｒ　ｔｒａｇｅｄｙ　ｂｅｆｅー"TCC_NEWLINE"ｌｌ　ｔｈｉｓ　ｌａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｄｇｉｎｇ　ｆｒｏｍ　ｗｈａｔ　Ｉ　ｌｅａｒｎｅｄ，　"TCC_NEWLINE"ｔｈｉｓ　Ａｓｋｒｉｓ　ｓｅｖｅｒａｌ　ｙｅａｒｓ　ａｈｅー"TCC_NEWLINE"ａｄ　ｏｆ　ｏｕｒ　ｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｒｅａｌｌｙ？　Ｔｈｅｎ　ｉｓ　ｔｈｅｒｅ　ａｎ　ｏｌｄｅｒ"TCC_NEWLINE
-"Ｓｈａｒｅｎａ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅａｌｌｙ？　Ｔｈｅｎ　ｉｓ　ｔｈｅｒｅ　ａｎ　ｏｌｄｅー"TCC_NEWLINE"ｒＳｈａｒｅｎａ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ’ｍ　ａｆｒａｉｄ　ｎｏｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｃｃｏｒｄｉｎｇ　ｔｏ　ｗｈａｔ　Ｉ’ｖｅ　ｒｅａｄ，　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
-"Ｓｈａｒｅｎａ　ｔｈａｔ　ｌｉｖｅｄ　ｈｅｒｅ　ｈａｓ　ａｌ"TCC_NEWLINE"ｒｅａｄｙ"TCC_NEWLINE
-"ｐａｓｓｅｄ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｃｃｏｒｄｉｎｇ　ｔｏ　ｗｈａｔ　Ｉ’ｖｅ　ｒｅａｄ，　"TCC_NEWLINE"ｔｈｅＳｈａｒｅｎａ　ｔｈａｔ　ｌｉｖｅｄ　ｈｅｒｅ　ｈａー"TCC_NEWLINE"ｓ　ａｌｒｅａｄｙｐａｓｓｅｄ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "ＷＨＡＴ？　Ｉ　ｄｉｅｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ．．．ｌｏｏｋｉｎｇ　ａｔ　ｔｈｅ　ｓｔａｔｅ　ｏｆ　"TCC_NEWLINE"ｔｈｉｓ"TCC_NEWLINE
-"ｐｌａｃｅ．．．ｉｔ’ｓ　ｈａｒｄｌｙ　ｓｕｒｐｒｉｓｉｎｇ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｌｏｏｋｉｎｇ　ａｔ　ｔｈｅ　ｓｔａｔｅ　ｏｆ"TCC_NEWLINE"　ｔｈｉｓｐｌａｃｅ．．．ｉｔ’ｓ　ｈａｒｄｌｙ　ｓｕｒｐー"TCC_NEWLINE"ｒｉｓｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｄｉｄ　ｙｏｕｒ　ｒｅａｄｉｎｇ　ｓｈｅｄ　ａｎｙ　ｌｉｇｈ"TCC_NEWLINE"ｔ　ｏｎ"TCC_NEWLINE
-"ｔｈｅ　ｃａｕｓｅ　ｏｆ　ａｌｌ　ｔｈｉｓ　ｄｅｓｔｒｕｃｔ"TCC_NEWLINE"ｉｏｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｉｄ　ｙｏｕｒ　ｒｅａｄｉｎｇ　ｓｈｅｄ　ａｎｙ　ｌｉｇー"TCC_NEWLINE"ｈｔ　ｏｎｔｈｅ　ｃａｕｓｅ　ｏｆ　ａｌｌ　ｔｈｉｓ　ｄｅー"TCC_NEWLINE"ｓｔｒｕｃｔｉｏｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｌｏｃａｔｅｄ　ｓｏｍｅ　ｒａｔｈｅｒ　ｉｎｔｒｉｇｕｉ"TCC_NEWLINE"ｎｇ"TCC_NEWLINE
-"ｐａｓｓａｇｅｓ．　Ｌｅｔ　ｍｅ　ｒｅａｄ　ｙｏｕ　ｓｏｍｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｍｉｇｈｔｙ　ｋｉｎｇ　ｗａｓ　ｃｕｔ　ｄｏｗｎ"TCC_NEWLINE
-"ｖｉｃｔｉｍ　ｔｏ　ｔｈｅ　ｃｕｒｓｅ　ｏｆ　ｔｈｅ　ｒｕｌ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
-"ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｄｅｓｔｒｕｃｔｉｏｎ　ｔｏｏｋ　ｈｏｌｄ，　ｗｅ　ｊ"TCC_NEWLINE"ｏｉｎｅｄ"TCC_NEWLINE
-"ｗｉｔｈ　Ｅｍｂｌａ　ｔｏ　ｓｅｅｋ　ｔｈｅ　ｆｏｒｂｉｄｄ"TCC_NEWLINE"ｅｎ"TCC_NEWLINE
-"ｈｅａｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｌｏｃａｔｅｄ　ｓｏｍｅ　ｒａｔｈｅｒ　ｉｎｔｒｉｇｕー"TCC_NEWLINE"ｉｎｇｐａｓｓａｇｅｓ．　Ｌｅｔ　ｍｅ　ｒｅａｄ　ｙｏｕ　"TCC_NEWLINE"ｓｏｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｍｉｇｈｔｙ　ｋｉｎｇ　ｗａｓ　ｃｕｔ　ｄｏｗｎｖー"TCC_NEWLINE"ｉｃｔｉｍ　ｔｏ　ｔｈｅ　ｃｕｒｓｅ　ｏｆ　ｔｈｅ　ｒｕｌー"TCC_NEWLINE"ｅｒｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｄｅｓｔｒｕｃｔｉｏｎ　ｔｏｏｋ　ｈｏｌｄ，　ｗｅ　"TCC_NEWLINE"ｊｏｉｎｅｄｗｉｔｈ　Ｅｍｂｌａ　ｔｏ　ｓｅｅｋ　ｔｈｅ　"TCC_NEWLINE"ｆｏｒｂｉｄｄｅｎｈｅａｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａ　ｆｏｒｂｉｄｄｅｎ　ｈｅａｒｔ？　Ｗｈａｔ　ｃｏｕｌｄ"TCC_NEWLINE
-"ｔｈａｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｆｏｒｂｉｄｄｅｎ　ｈｅａｒｔ？　Ｗｈａｔ　ｃｏｕｌｄー"TCC_NEWLINE"ｔｈａｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｔ’ｓ　ｎｏｔ　ｃｌｅａｒ．　Ｂｕｔ　ｉｔ　ｓｅｅｍｓ　ｔ"TCC_NEWLINE"ｏ　ｂｅ"TCC_NEWLINE
-"ｔｈｅ　ｋｅｙ　ｔｏ　ａ　ｒｉｔｕａｌ　Ａｓｋｒ　ａｎｄ　Ｅ"TCC_NEWLINE"ｍｂｌａ"TCC_NEWLINE
-"ｐｅｒｆｏｒｍｅｄ　ｔｏ　ｃｏｍｂａｔ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　Ｈｅａｒｔ’ｓ　Ｒｉｔｅ　ｉｓ　ｔｈｅ　ｏｎｌｙ"TCC_NEWLINE
-"ｍｅｔｈｏｄ　ｔｈａｔ　ｍａｙ　ｂｒｉｎｇ　ｔｈｅ"TCC_NEWLINE
-"ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｌｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｎｏｔ　ｃｌｅａｒ．　Ｂｕｔ　ｉｔ　ｓｅｅｍｓ　"TCC_NEWLINE"ｔｏ　ｂｅｔｈｅ　ｋｅｙ　ｔｏ　ａ　ｒｉｔｕａｌ　Ａｓｋｒ"TCC_NEWLINE"　ａｎｄ　Ｅｍｂｌａｐｅｒｆｏｒｍｅｄ　ｔｏ　ｃｏｍｂａｔ"TCC_NEWLINE"　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｈｅａｒｔ’ｓ　Ｒｉｔｅ　ｉｓ　ｔｈｅ　ｏｎｌｙｍー"TCC_NEWLINE"ｅｔｈｏｄ　ｔｈａｔ　ｍａｙ　ｂｒｉｎｇ　ｔｈｅｒｕｌｅｒ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｄｅａｄ　ｌｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｎｏｗ，　ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｃａｌｌ　ａ　ｃｌｕｅ"TCC_NEWLINE"！"TCC_NEWLINE
-"Ｗｈａｔｅｖｅｒ　ｔｈｉｓ　ｈｅａｒｔ　ｍａｙ　ｂｅ，　ｉｔ"TCC_NEWLINE
-"ｓｐｅｌｌｓ　Ｈｅｌ’ｓ　ｄｅｆｅａｔ，　ｉｔ　ｓｅｅｍｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｈａｖｅ　ｏｕｒ　ｏｂｊｅｃｔｉｖｅ，　Ｉ’ｄ　ｓａｙ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｃａｌｌ　ａ　ｃｌｕー"TCC_NEWLINE"ｅ！Ｗｈａｔｅｖｅｒ　ｔｈｉｓ　ｈｅａｒｔ　ｍａｙ　ｂｅ，"TCC_NEWLINE"　ｉｔｓｐｅｌｌｓ　Ｈｅｌ’ｓ　ｄｅｆｅａｔ，　ｉｔ　ｓｅー"TCC_NEWLINE"ｅｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｏｕｒ　ｏｂｊｅｃｔｉｖｅ，　Ｉ’ｄ　ｓａー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｎｏｔ　ｓｏ　ｆａｓｔ，　Ｃｏｍｍａｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｕｇｈ　ｉｔ　ｍａｙ　ｓｌａｙ　ｔｈｅ　ｒｕｌｅｒ　ｏ"TCC_NEWLINE"ｆ"TCC_NEWLINE
-"ｔｈｅ　ｄｅａｄ，　ｉｔ　ｔｏｏ　ｓｐｅｌｌｓ　ｏｕｒ　ｅｎ"TCC_NEWLINE"ｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｉｔｈ　ｅｖｅｒｙ　ｐｕｌｓｅ，　ｉｔ　ｓｔｅａｌｓ　ｏｎ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｓｏ，　ｄｅａｔｈ　ｒａｖａｇｅｄ　ｕｓ　ｉｎ　ａｎ"TCC_NEWLINE
-"ｅｙｅｂｌｉｎｋ．．．　Ｆｉｒｓｔ　ｔｏｗｎｓ　ｆｅｌｌ，　"TCC_NEWLINE"ａｎｄ"TCC_NEWLINE
-"ｕｌｔｉｍａｔｅｌｙ　ａｌｌ　ｔｈｅ　ｌａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｅｏｐｌｅ，　ｂｅａｓｔｓ，　ａｎｙ　ｔｈａｔ　ｄｒｅｗ"TCC_NEWLINE
-"ｂｒｅａｔｈｄｅａｔｈ　ｃａｍｅ　ｆｏｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｉｇｈｔｙ　ｄｒａｇｏｎ　Ａｓｋｒ，　ｆｏｒｇｉｖｅ　ｕｓ"TCC_NEWLINE"　ｔｈｉｓ"TCC_NEWLINE
-"ｓｉｎ，　ｕｎｆｏｒｇｉｖａｂｌｅ　ｔｈｏｕｇｈ　ｉｔ　ｍａ"TCC_NEWLINE"ｙ　ｂｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｂｅｇ　ｏｆ　ｙｏｕ　ｏｎｅ　ｔｈｉｎｇ　ｏｎｌｙ："TCC_NEWLINE
-"ｓａｌｖａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ　ｉｔ　ｍａｙ　ｓｌａｙ　ｔｈｅ　ｒｕｌｅｒ　"TCC_NEWLINE"ｏｆｔｈｅ　ｄｅａｄ，　ｉｔ　ｔｏｏ　ｓｐｅｌｌｓ　ｏｕｒ"TCC_NEWLINE"　ｅｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｅｖｅｒｙ　ｐｕｌｓｅ，　ｉｔ　ｓｔｅａｌｓ　ｏー"TCC_NEWLINE"ｎｅｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｏ，　ｄｅａｔｈ　ｒａｖａｇｅｄ　ｕｓ　ｉｎ　ａー"TCC_NEWLINE"ｎｅｙｅｂｌｉｎｋ．．．　Ｆｉｒｓｔ　ｔｏｗｎｓ　ｆｅｌｌ"TCC_NEWLINE"，　ａｎｄｕｌｔｉｍａｔｅｌｙ　ａｌｌ　ｔｈｅ　ｌａｎｄ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｏｐｌｅ，　ｂｅａｓｔｓ，　ａｎｙ　ｔｈａｔ　ｄｒｅｗー"TCC_NEWLINE"ｂｒｅａｔｈｄｅａｔｈ　ｃａｍｅ　ｆｏｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｉｇｈｔｙ　ｄｒａｇｏｎ　Ａｓｋｒ，　ｆｏｒｇｉｖｅ　ｕー"TCC_NEWLINE"ｓ　ｔｈｉｓｓｉｎ，　ｕｎｆｏｒｇｉｖａｂｌｅ　ｔｈｏｕｇー"TCC_NEWLINE"ｈ　ｉｔ　ｍａｙ　ｂｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｂｅｇ　ｏｆ　ｙｏｕ　ｏｎｅ　ｔｈｉｎｇ　ｏｎｌｙ："TCC_NEWLINE"ｓａｌｖａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａｒｅ　ｙｏｕ　ｓａｙｉｎｇ　ｔｈａｔ　ＴＨＩＳ　ｉｓ　ｗｈ"TCC_NEWLINE"ａｔ"TCC_NEWLINE
-"ｈａｐｐｅｎｅｄ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｄｅｆｅａｔ　Ｈｅｌ，　ｏｕｒ　Ａｓｋｒ　ｗｏｕｌｄ　"TCC_NEWLINE"ｎｅｅｄ"TCC_NEWLINE
-"ｔｏ　ｂｅｃｏｍｅ　ｌｉｋｅ　ｔｈｉｓ　ｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈａｔ　ｉｓ　ｔｒｕｅ．．．　Ｉｔ’ｓ　ａ　ｃｏｓｔ"TCC_NEWLINE"　ｔｈａｔ　ｉｓ　ｆａｒ"TCC_NEWLINE
-"ｔｏｏ　ｇｒｅａｔ　ｔｏ　ｃｏｎｔｅｍｐｌａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｓａｙｉｎｇ　ｔｈａｔ　ＴＨＩＳ　ｉｓ　ｗー"TCC_NEWLINE"ｈａｔｈａｐｐｅｎｅｄ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｄｅｆｅａｔ　Ｈｅｌ，　ｏｕｒ　Ａｓｋｒ　ｗｏｕｌｄ"TCC_NEWLINE"　ｎｅｅｄｔｏ　ｂｅｃｏｍｅ　ｌｉｋｅ　ｔｈｉｓ　ｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ　ｉｓ　ｔｒｕｅ．．．　Ｉｔ’ｓ　ａ　ｃｏｓー"TCC_NEWLINE"ｔ　ｔｈａｔ　ｉｓ　ｆａｒｔｏｏ　ｇｒｅａｔ　ｔｏ　ｃｏｎー"TCC_NEWLINE"ｔｅｍｐｌａｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｅｒｒｉｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
@@ -74,8 +45,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LIF
 "Ｈｍｐｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｌｆ．．．ｗｈｙ　ｉｓ　ｙｏｕｒ　ｐｕｒｓｕｉｔ　ｏｆ　ｕｓ"TCC_NEWLINE
-"ｓｏ　ｄｏｇｇｅｄ？　Ｍｕｓｔ　ｗｅ　ｄｉｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｆ．．．ｗｈｙ　ｉｓ　ｙｏｕｒ　ｐｕｒｓｕｉｔ　ｏｆ　ｕー"TCC_NEWLINE"ｓｓｏ　ｄｏｇｇｅｄ？　Ｍｕｓｔ　ｗｅ　ｄｉｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｔｏ　ｂａｔｔｌｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
@@ -83,31 +53,21 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 "Ｕｒｋ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｌｆ，　ｗａｉｔ！　Ａ　ｑｕｅｓｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ’ｓ　ｎｏｔ　ｙｏｕｒ　ｎａｍｅ，　ｉｓ　ｉｔ？　Ｌ"TCC_NEWLINE"ｆ？"TCC_NEWLINE
-"Ｉ’ｍ　ｒｉｇｈｔ，　ａｒｅｎ’ｔ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｎｏｔ　ｙｏｕｒ　ｎａｍｅ，　ｉｓ　ｉｔ？　"TCC_NEWLINE"Ｌｆ？Ｉ’ｍ　ｒｉｇｈｔ，　ａｒｅｎ’ｔ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｍｐｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｏｎｃｅ　ｔｈｏｕｇｈｔ　ｙｏｕ　ｗｅｒｅ　ｍｙ"TCC_NEWLINE
-"ａｎｃｅｓｔｏｒｔｈｅ　ｆｉｒｓｔ　Ａｓｋｒａｎ　ｋｉｎｇ"TCC_NEWLINE
-"ａｓ　ｙｏｕ　ｃｌａｉｍｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈａｔ　ｉｓｎ’ｔ　ｔｒｕｅ，　ｉｓ　ｉｔ？　Ｙｏ"TCC_NEWLINE"ｕ　ｋｎｏｗ"TCC_NEWLINE
-"Ｓｈａｒｅｎａ．　Ａｎｄ　ｉｔ’ｓ　ｎｏｔ　ｊｕｓｔ　ｔｈａ"TCC_NEWLINE"ｔ　ｙｏｕ"TCC_NEWLINE
-"ｋｎｏｗ　ｈｅｒ．　Ｙｏｕ　ｃａｒｅ　ｆｏｒ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｃｏｕｌｄｎ’ｔ　ｂｒｉｎｇ　ｙｏｕｒｓｅｌｆ　ｔｏ"TCC_NEWLINE
-"ｓｔｒｉｋｅ　ｈｅｒ，　ａｎｄ　ｙｏｕ　ｍａｄｅ　ａｎ　ｏｆ"TCC_NEWLINE"ｆｅｒｉｎｇ"TCC_NEWLINE
-"ｏｆ　ｈｅｒ　ｆａｖｏｒｉｔｅ　ｆｌｏｗｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｍｅａｎｓ　ｙｏｕ　ａｒｅ　ｏｆ　ｏｕｒ　ｅｒａ，"TCC_NEWLINE"　ｎｏｔ"TCC_NEWLINE
-"ｔｈｅ　ｄｉｓｔａｎｔ　ｐａｓｔ．　Ａｎｄ　ｙｏｕ　ｃａｎ　"TCC_NEWLINE"ｏｐｅｎ"TCC_NEWLINE
-"ｇａｔｅｓ，　ｌｉｋｅ　ａｌｌ　Ａｓｋｒａｎ　ｒｏｙａｌｔｙ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｏｎｃｅ　ｔｈｏｕｇｈｔ　ｙｏｕ　ｗｅｒｅ　ｍｙａｎｃー"TCC_NEWLINE"ｅｓｔｏｒｔｈｅ　ｆｉｒｓｔ　Ａｓｋｒａｎ　ｋｉｎｇａｓ　"TCC_NEWLINE"ｙｏｕ　ｃｌａｉｍｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈａｔ　ｉｓｎ’ｔ　ｔｒｕｅ，　ｉｓ　ｉｔ？　Ｙー"TCC_NEWLINE"ｏｕ　ｋｎｏｗＳｈａｒｅｎａ．　Ａｎｄ　ｉｔ’ｓ　ｎｏｔ　"TCC_NEWLINE"ｊｕｓｔ　ｔｈａｔ　ｙｏｕｋｎｏｗ　ｈｅｒ．　Ｙｏｕ　ｃａー"TCC_NEWLINE"ｒｅ　ｆｏｒ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃｏｕｌｄｎ’ｔ　ｂｒｉｎｇ　ｙｏｕｒｓｅｌｆ　ｔー"TCC_NEWLINE"ｏｓｔｒｉｋｅ　ｈｅｒ，　ａｎｄ　ｙｏｕ　ｍａｄｅ　ａｎ　"TCC_NEWLINE"ｏｆｆｅｒｉｎｇｏｆ　ｈｅｒ　ｆａｖｏｒｉｔｅ　ｆｌｏｗｅー"TCC_NEWLINE"ｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｍｅａｎｓ　ｙｏｕ　ａｒｅ　ｏｆ　ｏｕｒ　ｅｒａ"TCC_NEWLINE"，　ｎｏｔｔｈｅ　ｄｉｓｔａｎｔ　ｐａｓｔ．　Ａｎｄ　ｙｏー"TCC_NEWLINE"ｕ　ｃａｎ　ｏｐｅｎｇａｔｅｓ，　ｌｉｋｅ　ａｌｌ　Ａｓｋー"TCC_NEWLINE"ｒａｎ　ｒｏｙａｌｔｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏ，　ａｌｌ　ｔｈａｔ　ｂｅｉｎｇ　ｔｒｕｅ，　ｔｈｅｒｅ"TCC_NEWLINE"　ｉｓ"TCC_NEWLINE
-"ｏｎｌｙ　ｏｎｅ　ｐｅｒｓｏｎ　ｙｏｕ　ｍｉｇｈｔ　ｂｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｋｎｏｗ　ｙｏｕｒ　ｎａｍｅ．　Ｙｏｕｒ　ｒｅａｌ　ｎａ"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ａｌｌ　ｔｈａｔ　ｂｅｉｎｇ　ｔｒｕｅ，　ｔｈｅｒー"TCC_NEWLINE"ｅ　ｉｓｏｎｌｙ　ｏｎｅ　ｐｅｒｓｏｎ　ｙｏｕ　ｍｉｇｈｔ"TCC_NEWLINE"　ｂｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｙｏｕｒ　ｎａｍｅ．　Ｙｏｕｒ　ｒｅａｌ　ｎー"TCC_NEWLINE"ａｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｉｌｅｎｃｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT

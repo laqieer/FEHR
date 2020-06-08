@@ -1,138 +1,85 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
-"Ｔｈｅ　ｉｎｎｅｒ　ｓａｎｃｔｕｍ．．．　Ｗｅ’ｖｅ　ａｒｒ"TCC_NEWLINE"ｉｖｅｄ．"TCC_NEWLINE
-"Ｓｅｅ　ｔｈｅ　ｒｕｎｅｓ　ｉｎｓｃｒｉｂｅｄ　ｏｎ　ｔｈｅ"TCC_NEWLINE"　ｗａｌｌ？"TCC_NEWLINE
-"Ｔｈａｔ’ｓ　ｔｈｅ　ａｎｃｉｅｎｔ　ｌａｎｇｕａｇｅ　ｏｆ"TCC_NEWLINE"　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｒｅ　ｄｏｅｓ　ｏｕｒ　ｇｏｄ　ｓｌｕｍｂｅｒ．　Ｎｉｆ"TCC_NEWLINE"ｌ，　ｔｈｅ"TCC_NEWLINE
-"ｄｒａｇｏｎ　ｏｆ　ｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｉｎｎｅｒ　ｓａｎｃｔｕｍ．．．　Ｗｅ’ｖｅ　ａｒー"TCC_NEWLINE"ｒｉｖｅｄ．Ｓｅｅ　ｔｈｅ　ｒｕｎｅｓ　ｉｎｓｃｒｉｂｅｄ"TCC_NEWLINE"　ｏｎ　ｔｈｅ　ｗａｌｌ？Ｔｈａｔ’ｓ　ｔｈｅ　ａｎｃｉｅー"TCC_NEWLINE"ｎｔ　ｌａｎｇｕａｇｅ　ｏｆ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ　ｄｏｅｓ　ｏｕｒ　ｇｏｄ　ｓｌｕｍｂｅｒ．　Ｎｉー"TCC_NEWLINE"ｆｌ，　ｔｈｅｄｒａｇｏｎ　ｏｆ　ｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉ　ｈａｔｅ　ｔｏ　ｉｎｔｅｒｒｕｐｔ　ｔｈｅ　ｈｉｓｔｏｒ"TCC_NEWLINE"ｙ　ｌｅｓｓｏｎ，"TCC_NEWLINE
-"ｂｕｔ　ｗｅ’ｖｅ　ｇｏｔ　ｓｏｍｅ　ｐｒｏｂｌｅｍｓ　ｔｈ"TCC_NEWLINE"ａｔ　ａｒｅ"TCC_NEWLINE
-"ａ　ｂｉｔ　ｍｏｒｅ．．．ｃｏｎｔｅｍｐｏｒａｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｒｅ　ｃｏｍｅｓ　ｔｈｅ　ｅｎｅｍｙ．　Ｇｅｔ　ｒｅａｄ"TCC_NEWLINE"ｙ　ｔｏ"TCC_NEWLINE
-"ｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｔｅ　ｔｏ　ｉｎｔｅｒｒｕｐｔ　ｔｈｅ　ｈｉｓｔｏー"TCC_NEWLINE"ｒｙ　ｌｅｓｓｏｎ，ｂｕｔ　ｗｅ’ｖｅ　ｇｏｔ　ｓｏｍｅ　"TCC_NEWLINE"ｐｒｏｂｌｅｍｓ　ｔｈａｔ　ａｒｅａ　ｂｉｔ　ｍｏｒｅ．．"TCC_NEWLINE"．ｃｏｎｔｅｍｐｏｒａｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ　ｃｏｍｅｓ　ｔｈｅ　ｅｎｅｍｙ．　Ｇｅｔ　ｒｅａー"TCC_NEWLINE"ｄｙ　ｔｏｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
-"Ｎｉｆｌ，　ｇｏｄ　ｏｆ　ｉｃｅ，　ｈｅａｒ　ｍｅ．．．　Ｉ"TCC_NEWLINE"ｔ　ｉｓ　ｙｏｕｒ"TCC_NEWLINE
-"ｃｈｉｌｄ，　Ｆｊｏｒｍ，　ｗｈｏ　ｂｏｗｓ　ｉｎ　ｐｒａｙ"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ａｎ　ｏｆｆｅｒｉｎｇ，　Ｉ　ｂｒｉｎｇ　ｙｏｕ　ｍｙ"TCC_NEWLINE"　ｆｌｅｓｈ．"TCC_NEWLINE
-"Ａｓ　ｔｈｅ　ｖｅｓｓｅｌ，　Ｉ　ｂｒｉｎｇ　ｙｏｕ　ａ　ｄ"TCC_NEWLINE"ｉｖｉｎｅ"TCC_NEWLINE
-"ｗｅａｐｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｅ　ｔｈａｔ　ｈａｓ　ｃｏｍｅ　ａ　ｇｒｅａｔ　ｄｉｓｔ"TCC_NEWLINE"ａｎｃｅ"TCC_NEWLINE
-"ａｎｄ　ｈａｓ　ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｒｕｌｅ　ａｌｌ　"TCC_NEWLINE"ｗｏｒｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｂｅｇ　ｙｏｕ，　ｈｅａｒ　ｍｙ　ｐｒａｙｅｒ．　Ｗｅ　"TCC_NEWLINE"ｓｅｅｋ"TCC_NEWLINE
-"ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｔｏ　ｔａｍｅ　ｔｈｅ　ｓａｖａｇ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｆｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｓｅｅｋ　ｔｏ　ｑｕｅｎｃｈ　ｔｈｅ"TCC_NEWLINE
-"ｕｎｑｕｅｎｃｈａｂｌｅ，　ｔｏ　ｋｉｌｌ　ｔｈｅ　ｕｎｄｙ"TCC_NEWLINE"ｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｉｌｌ　ｔｈｉｓ　ｖｅｓｓｅｌ　ｗｉｔｈ　ｙｏｕｒ　ｐｏｗ"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｉｆｌ，　ｇｏｄ　ｏｆ　ｉｃｅ，　ｈｅａｒ　ｍｅ．．．　"TCC_NEWLINE"Ｉｔ　ｉｓ　ｙｏｕｒｃｈｉｌｄ，　Ｆｊｏｒｍ，　ｗｈｏ　ｂー"TCC_NEWLINE"ｏｗｓ　ｉｎ　ｐｒａｙｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ａｎ　ｏｆｆｅｒｉｎｇ，　Ｉ　ｂｒｉｎｇ　ｙｏｕ　ｍー"TCC_NEWLINE"ｙ　ｆｌｅｓｈ．Ａｓ　ｔｈｅ　ｖｅｓｓｅｌ，　Ｉ　ｂｒｉｎー"TCC_NEWLINE"ｇ　ｙｏｕ　ａ　ｄｉｖｉｎｅｗｅａｐｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｔｈａｔ　ｈａｓ　ｃｏｍｅ　ａ　ｇｒｅａｔ　ｄｉｓー"TCC_NEWLINE"ｔａｎｃｅａｎｄ　ｈａｓ　ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｒｕｌー"TCC_NEWLINE"ｅ　ａｌｌ　ｗｏｒｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｇ　ｙｏｕ，　ｈｅａｒ　ｍｙ　ｐｒａｙｅｒ．　Ｗｅ"TCC_NEWLINE"　ｓｅｅｋｔｈｅ　ｓｔｒｅｎｇｔｈ　ｔｏ　ｔａｍｅ　ｔｈｅ"TCC_NEWLINE"　ｓａｖａｇｅｆｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｓｅｅｋ　ｔｏ　ｑｕｅｎｃｈ　ｔｈｅｕｎｑｕｅｎｃｈー"TCC_NEWLINE"ａｂｌｅ，　ｔｏ　ｋｉｌｌ　ｔｈｅ　ｕｎｄｙｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｌｌ　ｔｈｉｓ　ｖｅｓｓｅｌ　ｗｉｔｈ　ｙｏｕｒ　ｐｏー"TCC_NEWLINE"ｗｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｗｈｏａ！　Ｗｈａｔ’ｓ　ｔｈｉｓ？　Ｂｒｅｉｄａｂｌｉｋ．"TCC_NEWLINE"．．　Ｉｔ"TCC_NEWLINE
-"ｌｏｏｋｓ　ａｓ　ｔｈｏｕｇｈ　ｉｔ’ｓ　ｆｒｏｚｅｎ　ｏｖ"TCC_NEWLINE"ｅｒ．　Ｗｉｌｌ"TCC_NEWLINE
-"ｉｔ　ｗｏｒｋ　ｌｉｋｅ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏａ！　Ｗｈａｔ’ｓ　ｔｈｉｓ？　Ｂｒｅｉｄａｂｌｉｋ"TCC_NEWLINE"．．．　Ｉｔｌｏｏｋｓ　ａｓ　ｔｈｏｕｇｈ　ｉｔ’ｓ　ｆｒー"TCC_NEWLINE"ｏｚｅｎ　ｏｖｅｒ．　Ｗｉｌｌｉｔ　ｗｏｒｋ　ｌｉｋｅ　ｔー"TCC_NEWLINE"ｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｔｈｅ　ｒｉｔｕａｌ　ｉｍｂｕｅｓ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
-"ｗｅａｐｏｎ　ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｍｅａｎｓ　ｔｈａｔ　ｗｅ　ｈａｖｅ　ｓｕｃｃｅｓ"TCC_NEWLINE"ｓｆｕｌｌｙ"TCC_NEWLINE
-"ｃｏｍｐｌｅｔｅｄ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｔｈｅ　ｒｉｔｕａｌ　ｉｍｂｕｅー"TCC_NEWLINE"ｓ　ｔｈｅｗｅａｐｏｎ　ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ"TCC_NEWLINE"　ｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｍｅａｎｓ　ｔｈａｔ　ｗｅ　ｈａｖｅ　ｓｕｃｃｅー"TCC_NEWLINE"ｓｓｆｕｌｌｙｃｏｍｐｌｅｔｅｄ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　"TCC_NEWLINE"Ｆｒｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｄｏｅｓ　ｔｈｉｓ　ｍｅａｎ　ｔｈａｔ　ｗｅ　ａｒｅ　ｆｉｎ"TCC_NEWLINE"ａｌｌｙ"TCC_NEWLINE
-"ｐｒｅｐａｒｅｄ　ｔｏ　ｄｅｆｅａｔ　Ｓｕｒｔｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｅｓ　ｔｈｉｓ　ｍｅａｎ　ｔｈａｔ　ｗｅ　ａｒｅ　ｆｉー"TCC_NEWLINE"ｎａｌｌｙｐｒｅｐａｒｅｄ　ｔｏ　ｄｅｆｅａｔ　Ｓｕｒｔｒ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｅｓ．　Ｔｈｅ　ｎｅｘｔ　ｔｉｍｅ　ｗｅ　ｆａｃｅ　ｈｉｍ"TCC_NEWLINE"，　ｔｈｅ"TCC_NEWLINE
-"ｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｗｉｌｌ　ｃｏｕｎｔｅｒａｃｔ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"ｐｏｗｅｒ　ｗｈｉｃｈ　ｐｒｏｔｅｃｔｓ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｔｈｅ　ｎｅｘｔ　ｔｉｍｅ　ｗｅ　ｆａｃｅ　ｈｉー"TCC_NEWLINE"ｍ，　ｔｈｅｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｗｉｌｌ　ｃｏｕｎー"TCC_NEWLINE"ｔｅｒａｃｔ　ｔｈｅｐｏｗｅｒ　ｗｈｉｃｈ　ｐｒｏｔｅｃｔー"TCC_NEWLINE"ｓ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ　ｍｅａｎｓ．．．　＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ？　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉ"TCC_NEWLINE"ｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ？　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒー"TCC_NEWLINE"ｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｙ　ａｐｏｌｏｇｉｅｓ．．．　Ｔｈｅ　ａｌｔａｒ　ｗａｓ　"TCC_NEWLINE"ｓｏ　ｃｏｌｄ，"TCC_NEWLINE
-"ａｎｄ　Ｉ　ｈａｄ　ｔｏ　ｈｏｌｄ　ｆａｓｔ　ｔｏ　ｉｔ　ｄ"TCC_NEWLINE"ｕｒｉｎｇ　ｔｈｅ"TCC_NEWLINE
-"ｒｉｔｕａｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ａｐｏｌｏｇｉｅｓ．．．　Ｔｈｅ　ａｌｔａｒ　ｗａｓ"TCC_NEWLINE"　ｓｏ　ｃｏｌｄ，ａｎｄ　Ｉ　ｈａｄ　ｔｏ　ｈｏｌｄ　ｆａー"TCC_NEWLINE"ｓｔ　ｔｏ　ｉｔ　ｄｕｒｉｎｇ　ｔｈｅｒｉｔｕａｌ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｅｒｈａｐｓ　Ｉ’ｖｅ　ｃａｕｇｈｔ　ａ　ｃｏｌｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｎｅｖｅｒ　ｔｈｏｕｇｈｔ　Ｉ’ｄ　ｈｅａｒ　ｙｏｕ　ｓ"TCC_NEWLINE"ａｙ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｖｅｒ　ｔｈｏｕｇｈｔ　Ｉ’ｄ　ｈｅａｒ　ｙｏｕ　"TCC_NEWLINE"ｓａｙ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｙ　ａｐｏｌｏｇｉｅｓ．．．　＊ｃｏｕｇｈ＊　Ｉ　ｋｎｏｗ"TCC_NEWLINE"　ｉｔ’ｓ"TCC_NEWLINE
-"ｊｕｓｔ　ｏｎｅ　ｍｏｒｅ　ｔｈｉｎｇ　ｔｏ　ｗｏｒｒｙ　ａ"TCC_NEWLINE"ｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｔ’ｓ　ｒｅｔｕｒｎ　ｔｏ　ａ　ｍｏｒｅ　ｉｍｐｏｒｔａ"TCC_NEWLINE"ｎｔ"TCC_NEWLINE
-"ｍａｔｔｅｒ．．．　Ｔｈｅ　ｐｏｗｅｒ　ｇｒａｎｔｅｄ　ｂｙ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
-"Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ　ｃａｎｃｅｌｓ　Ｓｕｒｔｒ’ｓ　"TCC_NEWLINE"ｄｅｆｅｎｓｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｉｎａｌｌｙ，　ｗｅ　ｃａｎ　ｆｉｇｈｔ　ｈｉｍ　ｈｏｗ　"TCC_NEWLINE"ｗｅ’ｄ"TCC_NEWLINE
-"ｆｉｇｈｔ　ａｎｙ　ｏｐｐｏｎｅｎｔ．．．ａｎｄ　ｈｅ　ｗｉ"TCC_NEWLINE"ｌｌ　ｍｅｅｔ"TCC_NEWLINE
-"ｈｉｓ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ａｐｏｌｏｇｉｅｓ．．．　＊ｃｏｕｇｈ＊　Ｉ　ｋｎｏー"TCC_NEWLINE"ｗ　ｉｔ’ｓｊｕｓｔ　ｏｎｅ　ｍｏｒｅ　ｔｈｉｎｇ　ｔｏ　"TCC_NEWLINE"ｗｏｒｒｙ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｒｅｔｕｒｎ　ｔｏ　ａ　ｍｏｒｅ　ｉｍｐｏｒｔー"TCC_NEWLINE"ａｎｔｍａｔｔｅｒ．．．　Ｔｈｅ　ｐｏｗｅｒ　ｇｒａｎｔｅー"TCC_NEWLINE"ｄ　ｂｙ　ｔｈｅＲｉｔｅ　ｏｆ　Ｆｒｏｓｔ　ｃａｎｃｅｌｓ"TCC_NEWLINE"　Ｓｕｒｔｒ’ｓ　ｄｅｆｅｎｓｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎａｌｌｙ，　ｗｅ　ｃａｎ　ｆｉｇｈｔ　ｈｉｍ　ｈｏｗ"TCC_NEWLINE"　ｗｅ’ｄｆｉｇｈｔ　ａｎｙ　ｏｐｐｏｎｅｎｔ．．．ａｎｄ"TCC_NEWLINE"　ｈｅ　ｗｉｌｌ　ｍｅｅｔｈｉｓ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅｒｅ　ｗｅ　ｇｏ！　Ｓｕｒｔｒ，　ｙｏｕｒ　ｄａｙｓ　"TCC_NEWLINE"ａｒｅ"TCC_NEWLINE
-"ｎｕｍｂｅｒｅｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｗｅ　ｇｏ！　Ｓｕｒｔｒ，　ｙｏｕｒ　ｄａｙｓ"TCC_NEWLINE"　ａｒｅｎｕｍｂｅｒｅｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｗｉｌｌ　ｄｅｆｅａｔ　ｈｉｍ　ｍｙｓｅｌｆ．　Ａｎｄ　"TCC_NEWLINE"ｈｉｓ　ｄｅａｔｈ"TCC_NEWLINE
-"ｗｉｌｌ　ｎｏｔ　ｂｅ　ａｎ　ｅａｓｙ　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｅｆｅａｔ　ｈｉｍ　ｍｙｓｅｌｆ．　Ａｎｄ"TCC_NEWLINE"　ｈｉｓ　ｄｅａｔｈｗｉｌｌ　ｎｏｔ　ｂｅ　ａｎ　ｅａｓｙ"TCC_NEWLINE"　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｗｈｅｎ　ｉｔ　ｃｏｍｅｓ　ｔｏ　Ｓｕｒｔｒ，　ｙｏｕｒ　ｗ"TCC_NEWLINE"ｈｏｌｅ"TCC_NEWLINE
-"ｄｅｍｅａｎｏｒ　ｃｈａｎｇｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｌ　ｒｉｇｈｔ，　ｅｖｅｒｙｏｎｅ！　Ｇａｔｈｅｒ　ｙｏ"TCC_NEWLINE"ｕｒ"TCC_NEWLINE
-"ｂｅｌｏｎｇｉｎｇｓ，　ａｎｄ　ｄｏｎ’ｔ　ｆｏｒｇｅｔ　ｙ"TCC_NEWLINE"ｏｕｒ"TCC_NEWLINE
-"ｃｏｕｒａｇｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｆｉｎａｌ　ｂａｔｔｌｅ　ａｇａｉｎｓｔ　Ｓｕｒｔｒ"TCC_NEWLINE
-"ａｐｐｒｏａｃｈｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｉｔ　ｃｏｍｅｓ　ｔｏ　Ｓｕｒｔｒ，　ｙｏｕｒ　"TCC_NEWLINE"ｗｈｏｌｅｄｅｍｅａｎｏｒ　ｃｈａｎｇｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ，　ｅｖｅｒｙｏｎｅ！　Ｇａｔｈｅｒ　ｙー"TCC_NEWLINE"ｏｕｒｂｅｌｏｎｇｉｎｇｓ，　ａｎｄ　ｄｏｎ’ｔ　ｆｏｒｇー"TCC_NEWLINE"ｅｔ　ｙｏｕｒｃｏｕｒａｇｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｉｎａｌ　ｂａｔｔｌｅ　ａｇａｉｎｓｔ　Ｓｕｒｔー"TCC_NEWLINE"ｒａｐｐｒｏａｃｈｅｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2085_EN] = TCC_OPEN_LEFT
 "Ｘａｎｄｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｏｒｄｅｒ　ｙｏｕ．　Ｅｓｃａｐｅ．．．ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈａｔ．．．ｉｓ　ｔｈｅ　ｏｎｅ　ｏｒｄｅｒ．．．ｔｈａｔ"TCC_NEWLINE"　Ｉ　ｍｕｓｔ"TCC_NEWLINE
-"ｒｅｆｕｓｅ．．．Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ．．．ｉｓ　ｔｈｅ　ｏｎｅ　ｏｒｄｅｒ．．．ｔｈａー"TCC_NEWLINE"ｔ　Ｉ　ｍｕｓｔｒｅｆｕｓｅ．．．Ｐｒｉｎｃｅｓｓ　Ｖｅｒー"TCC_NEWLINE"ｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｘａｎｄｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_SURTR
-"Ｈａ－ｈａｈ－ｈａｈ！　Ｗｏｕｌｄ　ｙｏｕ　ｔａｓｔｅ　ｍｏ"TCC_NEWLINE"ｒｅ　ｏｆ"TCC_NEWLINE
-"ｍｙ　ｆｌａｍｅｓ，　ｙｏｕｎｇ　ｗａｒｒｉｏｒ？"TCC_NEWLINE TCC_PUSH_A
-"Ｐｅｒｈａｐｓ，　ｔｈｅｎ，　ｒａｔｈｅｒ　ｔｈａｎ　ｙｏｕ"TCC_NEWLINE"ｒ　ａｒｍ．．．"TCC_NEWLINE
-"Ｉ　ｏｕｇｈｔ　ｔｏ　ｔａｒｇｅｔ　ｙｏｕｒ　ｈｅａｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈａ－ｈａｈ－ｈａｈ！　Ｗｏｕｌｄ　ｙｏｕ　ｔａｓｔｅ　ｍー"TCC_NEWLINE"ｏｒｅ　ｏｆｍｙ　ｆｌａｍｅｓ，　ｙｏｕｎｇ　ｗａｒｒｉｏー"TCC_NEWLINE"ｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ，　ｔｈｅｎ，　ｒａｔｈｅｒ　ｔｈａｎ　ｙｏー"TCC_NEWLINE"ｕｒ　ａｒｍ．．．Ｉ　ｏｕｇｈｔ　ｔｏ　ｔａｒｇｅｔ　ｙｏー"TCC_NEWLINE"ｕｒ　ｈｅａｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ．．．ｇｏ　ｔｏ　Ｍｓｐｅｌｌ．．．　Ｓｏ，　ｐｌｅ"TCC_NEWLINE"ａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ．．．ｇｏ　ｔｏ　Ｍｓｐｅｌｌ．．．　Ｓｏ，　ｐｌー"TCC_NEWLINE"ｅａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_LOKI
-"Ｉ　ｂｅｌｉｅｖｅ　ｕｎｄｅｒｓｔａｎｄｉｎｇ　ｍａｙ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
-"ｄａｗｎｅｄ　ｏｎ　ｙｏｕ，　ｍｙ　ｄｅａｒ．　Ｙｏｕ　ｓｅ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｈｏｗ　ｔｈｉｎｇｓ　ａｒｅ　ｎｏｗ，　ｄｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｍｕｓｔ　ｓｅｅ　ｎｏｗ　ｈｏｗ　ｅａｒｎｅｓｔ　ｗ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ａｒｅ．　Ａｓ　Ｉ　ａｌｗａｙｓ　ｓａｙ．．．ａ　ｌｉｔｔｌ"TCC_NEWLINE"ｅ　ｂｉｔ　ｏｆ"TCC_NEWLINE
-"ｓｉｎｃｅｒｉｔｙ　ｇｏｅｓ　ａ　ｌｏｎｇ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｆｏｒ　ｙｏｕ，　Ｐｒｉｎｃｅ　Ｘａｎｄｅｒ．．．　Ｙ"TCC_NEWLINE"ｏｕ　ｌｏｏｋ"TCC_NEWLINE
-"ｌｉｋｅ　ｙｏｕ’ｒｅ　ａｌｌ　ｗｏｒｎ　ｏｕｔ．　Ｗｈｙ　"TCC_NEWLINE"ｄｏｎ’ｔ"TCC_NEWLINE
-"ｙｏｕ　ｊｕｓｔ　ｒｅｓｔ　ｈｅｒｅ　ｆｏｒ　ａ　ｗｈｉｌｅ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｎｏｔ　ｊｕｓｔ　ｙｏｕｒ　ｈｅａｌｔｈ　Ｉ’ｍ　"TCC_NEWLINE"ｗｏｒｒｉｅｄ"TCC_NEWLINE
-"ａｂｏｕｔ．　Ｔｈｅ　ｐｒｉｎｃｅｓｓ　ｗｉｌｌ　ｆａｒｅ　"TCC_NEWLINE"ｍｕｃｈ"TCC_NEWLINE
-"ｂｅｔｔｅｒ，　ｔｏｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｌｉｅｖｅ　ｕｎｄｅｒｓｔａｎｄｉｎｇ　ｍａｙ　ｈー"TCC_NEWLINE"ａｖｅｄａｗｎｅｄ　ｏｎ　ｙｏｕ，　ｍｙ　ｄｅａｒ．　Ｙｏー"TCC_NEWLINE"ｕ　ｓｅｅｈｏｗ　ｔｈｉｎｇｓ　ａｒｅ　ｎｏｗ，　ｄｏｎ’"TCC_NEWLINE"ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｕｓｔ　ｓｅｅ　ｎｏｗ　ｈｏｗ　ｅａｒｎｅｓｔ　"TCC_NEWLINE"ｗｅａｒｅ．　Ａｓ　Ｉ　ａｌｗａｙｓ　ｓａｙ．．．ａ　ｌｉー"TCC_NEWLINE"ｔｔｌｅ　ｂｉｔ　ｏｆｓｉｎｃｅｒｉｔｙ　ｇｏｅｓ　ａ　ｌー"TCC_NEWLINE"ｏｎｇ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｆｏｒ　ｙｏｕ，　Ｐｒｉｎｃｅ　Ｘａｎｄｅｒ．．．　"TCC_NEWLINE"Ｙｏｕ　ｌｏｏｋｌｉｋｅ　ｙｏｕ’ｒｅ　ａｌｌ　ｗｏｒｎ　"TCC_NEWLINE"ｏｕｔ．　Ｗｈｙ　ｄｏｎ’ｔｙｏｕ　ｊｕｓｔ　ｒｅｓｔ　ｈー"TCC_NEWLINE"ｅｒｅ　ｆｏｒ　ａ　ｗｈｉｌｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｎｏｔ　ｊｕｓｔ　ｙｏｕｒ　ｈｅａｌｔｈ　Ｉ’ｍ"TCC_NEWLINE"　ｗｏｒｒｉｅｄａｂｏｕｔ．　Ｔｈｅ　ｐｒｉｎｃｅｓｓ　ｗー"TCC_NEWLINE"ｉｌｌ　ｆａｒｅ　ｍｕｃｈｂｅｔｔｅｒ，　ｔｏｏ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｃｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｎｏｗ，　ｍｙ　ｄｅａｒ，　ｆｏｌｌｏｗ　ｍｅ．．．　Ｑｕｉ"TCC_NEWLINE"ｅｔｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｍｙ　ｄｅａｒ，　ｆｏｌｌｏｗ　ｍｅ．．．　Ｑｕー"TCC_NEWLINE"ｉｅｔｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｈａｔ　ａ　ｗａｓｔｅ　ｏｆ　ｔｉｍｅ．　Ｓｐｏｉｌｅｄ　"TCC_NEWLINE"ｃｈｉｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ａ　ｗａｓｔｅ　ｏｆ　ｔｉｍｅ．　Ｓｐｏｉｌｅｄ"TCC_NEWLINE"　ｃｈｉｌｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｈａａａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｄｉｄ　ｙｏｕ　ｔｈｉｎｋ　ｙｏｕ　ｃｏｕｌｄ　ｓｔａｎｄ　"TCC_NEWLINE"ｕｐ　ｔｏ"TCC_NEWLINE
-"ｍｅ？　Ａ　ｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｉｄ　ｙｏｕ　ｔｈｉｎｋ　ｙｏｕ　ｃｏｕｌｄ　ｓｔａｎｄ"TCC_NEWLINE"　ｕｐ　ｔｏｍｅ？　Ａ　ｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｕｒ．．．ｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｍｙ，　ｍｙ．　Ｙｏｕｒ　ｈｉｇｈｎｅｓｓ，　Ｉ　ｔｈｉｎｋ"TCC_NEWLINE"　ｙｏｕ"TCC_NEWLINE
-"ｏｕｇｈｔ　ｔｏ　ｓｔｏｐ．　Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｓｈ"TCC_NEWLINE"ｅ　ｃａｎ"TCC_NEWLINE
-"ｗｉｔｈｓｔａｎｄ　ｍｕｃｈ　ｍｏｒｅ　ｏｆ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｊｕｓｔ　ｃ"TCC_NEWLINE"ｏｍｅ"TCC_NEWLINE
-"ａｌｏｎｇ　ｑｕｉｅｔｌｙ　ｌｉｋｅ　ｔｈｅ　ｓｗｅｅｔ　ｌ"TCC_NEWLINE"ｉｔｔｌｅ　ｌａｍｂ"TCC_NEWLINE
-"Ｉ　ｋｎｏｗ　ｙｏｕ　ａｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｆｔｅｒ　ａｌｌ，　ｔｈｅ　ｋｉｎｇ　ｈｉｍｓｅｌｆ　ｈａ"TCC_NEWLINE"ｓ　ｅｘｔｅｎｄｅｄ"TCC_NEWLINE
-"ｈｉｓ　ｗａｒｍｅｓｔ　ｉｎｖｉｔａｔｉｏｎ　ｔｏ　ｙｏｕ．"TCC_NEWLINE"　Ａｒｅｎ’ｔ"TCC_NEWLINE
-"ｙｏｕ　ｅｘｃｉｔｅｄ　ｔｏ　ｓｅｅ　Ｍｓｐｅｌｌ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ｆｌａｍｅ　ｒｅｑｕｉｒｅｓ　"TCC_NEWLINE"ａｎ"TCC_NEWLINE
-"ｏｆｆｅｒｉｎｇ．　Ｔｈｅ　ｋｉｎｇ　ｈｉｍｓｅｌｆ　ｗｉｌ"TCC_NEWLINE"ｌ　ｃａｓｔ　ｙｏｕ"TCC_NEWLINE
-"ｉｎｔｏ　ｔｈｅ　ｆｉｒｅ．　Ｓｏｒｒｙ，　ｍｙ　ｄｅａｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ，　ｍｙ．　Ｙｏｕｒ　ｈｉｇｈｎｅｓｓ，　Ｉ　ｔｈｉｎー"TCC_NEWLINE"ｋ　ｙｏｕｏｕｇｈｔ　ｔｏ　ｓｔｏｐ．　Ｉ’ｍ　ｎｏｔ　ｓー"TCC_NEWLINE"ｕｒｅ　ｓｈｅ　ｃａｎｗｉｔｈｓｔａｎｄ　ｍｕｃｈ　ｍｏｒー"TCC_NEWLINE"ｅ　ｏｆ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｊｕｓｔ　"TCC_NEWLINE"ｃｏｍｅａｌｏｎｇ　ｑｕｉｅｔｌｙ　ｌｉｋｅ　ｔｈｅ　ｓｗー"TCC_NEWLINE"ｅｅｔ　ｌｉｔｔｌｅ　ｌａｍｂＩ　ｋｎｏｗ　ｙｏｕ　ａｒｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　ａｌｌ，　ｔｈｅ　ｋｉｎｇ　ｈｉｍｓｅｌｆ　ｈー"TCC_NEWLINE"ａｓ　ｅｘｔｅｎｄｅｄｈｉｓ　ｗａｒｍｅｓｔ　ｉｎｖｉｔａー"TCC_NEWLINE"ｔｉｏｎ　ｔｏ　ｙｏｕ．　Ａｒｅｎ’ｔｙｏｕ　ｅｘｃｉｔｅー"TCC_NEWLINE"ｄ　ｔｏ　ｓｅｅ　Ｍｓｐｅｌｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ｆｌａｍｅ　ｒｅｑｕｉｒｅｓ"TCC_NEWLINE"　ａｎｏｆｆｅｒｉｎｇ．　Ｔｈｅ　ｋｉｎｇ　ｈｉｍｓｅｌｆ"TCC_NEWLINE"　ｗｉｌｌ　ｃａｓｔ　ｙｏｕｉｎｔｏ　ｔｈｅ　ｆｉｒｅ．　"TCC_NEWLINE"Ｓｏｒｒｙ，　ｍｙ　ｄｅａｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

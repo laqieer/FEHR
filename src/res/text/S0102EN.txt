@@ -1,102 +1,58 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S0102_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｂｒｏｔｈｅｒ！　Ｗｈａｔ"TCC_NEWLINE
-"ｈａｓ　ｔａｋｅｎ　ｙｏｕ　ｓｏ　ｌｏｎｇ　ｔｏ　ｇｅｔ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
-"ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｂｒｏｔｈｅｒ！　Ｗｈａｔー"TCC_NEWLINE"ｈａｓ　ｔａｋｅｎ　ｙｏｕ　ｓｏ　ｌｏｎｇ　ｔｏ　ｇｅｔ　"TCC_NEWLINE"ｔｏｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．　Ｗｅ　ｈａｄ　ｔｏ　ｂａｔｔ"TCC_NEWLINE"ｌｅ"TCC_NEWLINE
-"ｏｕｒ　ｗａｙ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．　Ｗｅ　ｈａｄ　ｔｏ　ｂａｔー"TCC_NEWLINE"ｔｌｅｏｕｒ　ｗａｙ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈｏ’ｓ　ｔｈｉｓ　ｗｉｔｈ　ｙｏｕ？　Ｏｈ　ｍｙ！"TCC_NEWLINE
-"Ｙｏｕ’ｒｅ　ｈｏｌｄｉｎｇ　ｔｈｅ　ｄｉｖｉｎｅ　ｒｅｌｉ"TCC_NEWLINE"ｃ．．．"TCC_NEWLINE
-"ａｎｄ　ｉｔ’ｓ　ａｌｌ　ａｇｌｏｗ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｒｅ　ｙｏｕ．．．ｔｈｅ　Ｇｒｅａｔ　Ｈｅｒｏ？　Ｏｕｒ　"TCC_NEWLINE"ｇｒｏｕｐ"TCC_NEWLINE
-"ｈａｓ　ｈｏｐｅｄ　ｂｅｙｏｎｄ　ｈｏｐｅ　ｔｈａｔ　ｙｏｕ"TCC_NEWLINE
-"ｍｉｇｈｔ　ｃｏｍｅ　ｔｏ　ｓａｖｅ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ’ｓ　ｔｈｉｓ　ｗｉｔｈ　ｙｏｕ？　Ｏｈ　ｍｙ！Ｙｏー"TCC_NEWLINE"ｕ’ｒｅ　ｈｏｌｄｉｎｇ　ｔｈｅ　ｄｉｖｉｎｅ　ｒｅｌｉｃ"TCC_NEWLINE"．．．ａｎｄ　ｉｔ’ｓ　ａｌｌ　ａｇｌｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ．．．ｔｈｅ　Ｇｒｅａｔ　Ｈｅｒｏ？　Ｏｕｒ"TCC_NEWLINE"　ｇｒｏｕｐｈａｓ　ｈｏｐｅｄ　ｂｅｙｏｎｄ　ｈｏｐｅ　ｔー"TCC_NEWLINE"ｈａｔ　ｙｏｕｍｉｇｈｔ　ｃｏｍｅ　ｔｏ　ｓａｖｅ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｐｌｅａｓｅ，　ｃａｌｍ　ｙｏｕｒｓｅｌｆ，　Ｓｈａｒｅｎａ"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｔｈｉｓ　ｉｓ"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｉｔ　ｔｕｒｎｓ　ｏｕｔ，　ｔｈｅ　Ｇｒｅａｔ　Ｈｅｒ"TCC_NEWLINE"ｏ　ｉｓ　ａ"TCC_NEWLINE
-"ｔａｌｅｎｔｅｄ　ｔａｃｔｉｃｉａｎ　ａｓ　ｗｅｌｌ．　Ｗｅ"TCC_NEWLINE"’ｒｅ"TCC_NEWLINE
-"ａｌｒｅａｄｙ　ｉｎ　ｇｏｏｄ　ｈａｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　ｃａｌｍ　ｙｏｕｒｓｅｌｆ，　Ｓｈａｒｅｎー"TCC_NEWLINE"ａ．Ｔｈｉｓ　ｉｓ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｉｔ　ｔｕｒｎｓ　ｏｕｔ，　ｔｈｅ　Ｇｒｅａｔ　Ｈｅー"TCC_NEWLINE"ｒｏ　ｉｓ　ａｔａｌｅｎｔｅｄ　ｔａｃｔｉｃｉａｎ　ａｓ　"TCC_NEWLINE"ｗｅｌｌ．　Ｗｅ’ｒｅａｌｒｅａｄｙ　ｉｎ　ｇｏｏｄ　ｈａー"TCC_NEWLINE"ｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｂｕｔ．．．ｔｈａｔ’ｓ　ａｍａｚｉｎｇ．　Ａｎｄ，　Ｇｒｅ"TCC_NEWLINE"ａｔ　Ｈｅｒｏ，"TCC_NEWLINE
-"ｙｏｕ’ｒｅ　ａｓ　ｇｒｅａｔ　ａｓ　Ｉ　ｉｍａｇｉｎｅｄ．"TCC_NEWLINE"　Ｉ’ｍ"TCC_NEWLINE
-"ｇｏｉｎｇ　ｔｏ　ｂｅ　ｙｏｕｒ　ｎｕｍｂｅｒ－ｏｎｅ　ｆａ"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ！　Ｍｙ　ｍａｎｎｅｒｓ　ｈａｖｅ　ｇｏｎｅ　ｒｉｇｈｔ"TCC_NEWLINE"　ｏｕｔ"TCC_NEWLINE
-"ｔｈｅ　ｗｉｎｄｏｗ．　Ｉ’ｍ　Ｓｈａｒｅｎａ，　Ａｌｆｏｎ"TCC_NEWLINE"ｓｅ’ｓ"TCC_NEWLINE
-"ｄａｒｌｉｎｇ　ｌｉｔｔｌｅ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｔｈａｔ’ｓ　ａｍａｚｉｎｇ．　Ａｎｄ，　Ｇｒー"TCC_NEWLINE"ｅａｔ　Ｈｅｒｏ，ｙｏｕ’ｒｅ　ａｓ　ｇｒｅａｔ　ａｓ　Ｉ"TCC_NEWLINE"　ｉｍａｇｉｎｅｄ．　Ｉ’ｍｇｏｉｎｇ　ｔｏ　ｂｅ　ｙｏｕー"TCC_NEWLINE"ｒ　ｎｕｍｂｅｒ－ｏｎｅ　ｆａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ！　Ｍｙ　ｍａｎｎｅｒｓ　ｈａｖｅ　ｇｏｎｅ　ｒｉｇｈー"TCC_NEWLINE"ｔ　ｏｕｔｔｈｅ　ｗｉｎｄｏｗ．　Ｉ’ｍ　Ｓｈａｒｅｎａ，"TCC_NEWLINE"　Ａｌｆｏｎｓｅ’ｓｄａｒｌｉｎｇ　ｌｉｔｔｌｅ　ｓｉｓｔー"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｌｌ　ｒｉｇｈｔ，　ａｌｌ　ｒｉｇｈｔ．．．　Ｊｕｓｔ　ｔ"TCC_NEWLINE"ｅｌｌ　ｕｓ，　ｗｈａｔ’ｓ"TCC_NEWLINE
-"ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ，　ａｌｌ　ｒｉｇｈｔ．．．　Ｊｕｓｔ　"TCC_NEWLINE"ｔｅｌｌ　ｕｓ，　ｗｈａｔ’ｓｔｈｅ　ｓｉｔｕａｔｉｏｎ　"TCC_NEWLINE"ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｉｍｐｌｙ　ｐｕｔ？　Ａｂｓｏｌｕｔｅｌｙ　ｄｒｅａｄｆｕ"TCC_NEWLINE"ｌ．　Ｔｈｅ"TCC_NEWLINE
-"ｅｍｐｉｒｅ　ｈａｓ　ｔａｋｅｎ　ｃｏｎｔｒｏｌ　ｏｆ　ａ　"TCC_NEWLINE"Ｈｅｒｏ"TCC_NEWLINE
-"ｆｒｏｍ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｅ　ｓｗｏｏｐｓ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｓｋｉｅｓ，　"TCC_NEWLINE"ａ"TCC_NEWLINE
-"ｆｅａｒｓｏｍｅ　ｆｉｇｕｒｅ，　ａｌｌ　ｉｎ　ｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｍｐｌｙ　ｐｕｔ？　Ａｂｓｏｌｕｔｅｌｙ　ｄｒｅａｄｆー"TCC_NEWLINE"ｕｌ．　Ｔｈｅｅｍｐｉｒｅ　ｈａｓ　ｔａｋｅｎ　ｃｏｎｔｒー"TCC_NEWLINE"ｏｌ　ｏｆ　ａ　Ｈｅｒｏｆｒｏｍ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ"TCC_NEWLINE"　Ｍｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｓｗｏｏｐｓ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｓｋｉｅｓ，"TCC_NEWLINE"　ａｆｅａｒｓｏｍｅ　ｆｉｇｕｒｅ，　ａｌｌ　ｉｎ　ｒｅｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａ　ｒｅｄ　ｆｌｉｅｒ　ｆｒｏｍ　Ｍｙｓｔｅｒｙ？　Ｉｔ　ｓ"TCC_NEWLINE"ｏｕｎｄｓ"TCC_NEWLINE
-"ｌｉｋｅ　Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｂａｔｔｌｅ　ｗｉｌｌ　ｂｅ　ｔｏｕｇｈ．　Ｗｅ　"TCC_NEWLINE"ｓｈｏｕｌｄ"TCC_NEWLINE
-"ｂｒｉｎｇ　ａ　Ｈｅｒｏ　ｗｈｏ’ｓ　ａｎ　ａｒｃｈｅｒ，　"TCC_NEWLINE"ｏｒ"TCC_NEWLINE
-"ｐｅｒｈａｐｓ．．．"
+"Ａ　ｒｅｄ　ｆｌｉｅｒ　ｆｒｏｍ　Ｍｙｓｔｅｒｙ？　Ｉｔ　"TCC_NEWLINE"ｓｏｕｎｄｓｌｉｋｅ　Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｂａｔｔｌｅ　ｗｉｌｌ　ｂｅ　ｔｏｕｇｈ．　Ｗｅ"TCC_NEWLINE"　ｓｈｏｕｌｄｂｒｉｎｇ　ａ　Ｈｅｒｏ　ｗｈｏ’ｓ　ａｎ　"TCC_NEWLINE"ａｒｃｈｅｒ，　ｏｒｐｅｒｈａｐｓ．．．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S0102_EN] = TCC_OPEN_LEFT
-"Ｂｅｇｏｎｅ，　ｏｕｔｓｉｄｅｒｓ！　Ｉ　ａｍ　Ｍｉｎｅｒｖ"TCC_NEWLINE"ａ，"TCC_NEWLINE
-"Ｐｒｉｎｃｅｓｓ　ｏｆ　Ｍａｃｅｄｏｎ．　Ｎｏｗ，　Ｉ’ｌｌ"TCC_NEWLINE"　ｗａｒｎ"TCC_NEWLINE
-"ｙｏｕ　ｏｎｃｅｒｅｔｕｒｎ　ｔｏ　ｙｏｕｒ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　ｂｏｕｎｄ　ｔｏ　ｓｅｒｖｅ　ｔｈｅ　Ｅｍｂｌｉａ"TCC_NEWLINE"ｎ"TCC_NEWLINE
-"Ｅｍｐｉｒｅ，　ａｎｄ　ｔｈｅ　ｉｍｐｅｒｉａｌ　ｐｒｉｎｃ"TCC_NEWLINE"ｅｓｓ，"TCC_NEWLINE
-"Ｖｅｒｏｎｉｃａ，　ｈａｓ　ｇｉｖｅｎ　ｍｅ　ａｎ　ｏｒｄｅ"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｅ　ｈａｓ　ｃｏｍｍａｎｄｅｄ　ｔｈａｔ　Ｉ　ａｔｔａｃ"TCC_NEWLINE"ｋ"TCC_NEWLINE
-"ａ　ｋｉｎｇｄｏｍ　ｎｅａｒ　ｈｅｒ　ｅｍｐｉｒｅ．　Ｉ　ｈ"TCC_NEWLINE"ａｖｅ"TCC_NEWLINE
-"ｎｏ　ｔｉｍｅ　ｆｏｒ　ｔｈｅ　ｌｉｋｅｓ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｇｏｎｅ，　ｏｕｔｓｉｄｅｒｓ！　Ｉ　ａｍ　Ｍｉｎｅｒー"TCC_NEWLINE"ｖａ，Ｐｒｉｎｃｅｓｓ　ｏｆ　Ｍａｃｅｄｏｎ．　Ｎｏｗ，　"TCC_NEWLINE"Ｉ’ｌｌ　ｗａｒｎｙｏｕ　ｏｎｃｅｒｅｔｕｒｎ　ｔｏ　ｙｏー"TCC_NEWLINE"ｕｒ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｂｏｕｎｄ　ｔｏ　ｓｅｒｖｅ　ｔｈｅ　Ｅｍｂｌｉー"TCC_NEWLINE"ａｎＥｍｐｉｒｅ，　ａｎｄ　ｔｈｅ　ｉｍｐｅｒｉａｌ　ｐｒー"TCC_NEWLINE"ｉｎｃｅｓｓ，Ｖｅｒｏｎｉｃａ，　ｈａｓ　ｇｉｖｅｎ　ｍｅ"TCC_NEWLINE"　ａｎ　ｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｈａｓ　ｃｏｍｍａｎｄｅｄ　ｔｈａｔ　Ｉ　ａｔｔａー"TCC_NEWLINE"ｃｋａ　ｋｉｎｇｄｏｍ　ｎｅａｒ　ｈｅｒ　ｅｍｐｉｒｅ．　"TCC_NEWLINE"Ｉ　ｈａｖｅｎｏ　ｔｉｍｅ　ｆｏｒ　ｔｈｅ　ｌｉｋｅｓ　ｏー"TCC_NEWLINE"ｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ，　ｐｌｅａｓｅ　ｈｅａｒ　"TCC_NEWLINE"ｍｅ　ｏｕｔ．"TCC_NEWLINE
-"Ｍｙ　ｎａｍｅ　ｉｓ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　ｏｆ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"ｖｅｒｙ　ｋｉｎｇｄｏｍ　ｙｏｕ　ｐｌａｎ　ｔｏ　ａｔｔａｃ"TCC_NEWLINE"ｋ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｂｅｇ　ｙｏｕ，　ｐｕｔ　ｄｏｗｎ　ｙｏｕｒ　ｗｅａｐｏ"TCC_NEWLINE"ｎｓ．"TCC_NEWLINE
-"Ｗｅ　ｏｆ　Ａｓｋｒ　ｈａｖｅ　ｎｏ　ｄｅｓｉｒｅ　ｔｏ"TCC_NEWLINE
-"ｂａｔｔｌｅ　ｙｏｕ　ｎｏｂｌｅ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ，　ｐｌｅａｓｅ　ｈｅａｒ"TCC_NEWLINE"　ｍｅ　ｏｕｔ．Ｍｙ　ｎａｍｅ　ｉｓ　Ｐｒｉｎｃｅ　Ａｌｆー"TCC_NEWLINE"ｏｎｓｅ，　ｏｆ　ｔｈｅｖｅｒｙ　ｋｉｎｇｄｏｍ　ｙｏｕ　"TCC_NEWLINE"ｐｌａｎ　ｔｏ　ａｔｔａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｇ　ｙｏｕ，　ｐｕｔ　ｄｏｗｎ　ｙｏｕｒ　ｗｅａｐー"TCC_NEWLINE"ｏｎｓ．Ｗｅ　ｏｆ　Ａｓｋｒ　ｈａｖｅ　ｎｏ　ｄｅｓｉｒｅ"TCC_NEWLINE"　ｔｏｂａｔｔｌｅ　ｙｏｕ　ｎｏｂｌｅ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｕｎｄｅｒ　ｃｏｎｔｒａｃｔ　ｔｏ　ｏｂｅｙ　Ｐｒ"TCC_NEWLINE"ｉｎｃｅｓｓ"TCC_NEWLINE
-"Ｖｅｒｏｎｉｃａ．　Ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ＯＮＥ　ｗａ"TCC_NEWLINE"ｙ　ｔｏ"TCC_NEWLINE
-"ｒｅｌｅａｓｅ　ｍｅ．　Ｐｒｏｖｅ　ｙｏｕ　ａｒｅ　ｓｔｒｏ"TCC_NEWLINE"ｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｕｎｄｅｒ　ｃｏｎｔｒａｃｔ　ｔｏ　ｏｂｅｙ　Ｐー"TCC_NEWLINE"ｒｉｎｃｅｓｓＶｅｒｏｎｉｃａ．　Ｔｈｅｒｅ　ｉｓ　ｏｎｌー"TCC_NEWLINE"ｙ　ＯＮＥ　ｗａｙ　ｔｏｒｅｌｅａｓｅ　ｍｅ．　Ｐｒｏｖｅ"TCC_NEWLINE"　ｙｏｕ　ａｒｅ　ｓｔｒｏｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｍｕｓｔ　ｗｅ　ｒｅｓｏｌｖｅ　ｔｈｉｓ　ｗｉｔｈ　ａ　ｂａ"TCC_NEWLINE"ｔｔｌｅ，"TCC_NEWLINE
-"Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍｕｓｔ　ｗｅ　ｒｅｓｏｌｖｅ　ｔｈｉｓ　ｗｉｔｈ　ａ　ｂー"TCC_NEWLINE"ａｔｔｌｅ，Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ！　Ｓｈｅ　ｈａｓ　ｎａｍｅｄ　"TCC_NEWLINE"ｈｅｒ"TCC_NEWLINE
-"ｔｅｒｍｓ．　Ｗｅ　ｍｕｓｔ　ｆｉｇｈｔａｎｄ　ｗｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ！　Ｓｈｅ　ｈａｓ　ｎａｍｅｄ"TCC_NEWLINE"　ｈｅｒｔｅｒｍｓ．　Ｗｅ　ｍｕｓｔ　ｆｉｇｈｔａｎｄ　ｗー"TCC_NEWLINE"ｉｎ！"TCC_NEWLINE TCC_PUSH_A
 "Ｅｖｅｒｙｏｎｅ，　ｐｒｅｐａｒｅ　ｆｏｒ　ｂａｔｔｌｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0102_EN] = TCC_OPEN_LEFT
-"Ｗｅｌｌ　ｄｏｎｅ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．　Ｙｏｕ"TCC_NEWLINE"　ｈａｖｅ"TCC_NEWLINE
-"ｐｒｏｖｅｄ　ｓｔｒｏｎｇ　ｅｎｏｕｇｈ　ｔｏ　ｂｒｅａｋ"TCC_NEWLINE
-"ｏｕｒ　ｃｏｎｔｒａｃｔ　ｗｉｔｈ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｓｏ，　ｗｅ　ａｒｅ　ｆｒｅｅ　ｏｎｃｅ　ｍｏｒｅ．"TCC_NEWLINE
-"Ｉ　ｇｉｖｅ　ｙｏｕ　ｍｙ　ｏａｔｈ　ｔｈａｔ　ｗｅ　ｗｉｌ"TCC_NEWLINE"ｌ　ｎｏｔ"TCC_NEWLINE
-"ａｔｔａｃｋ　ｙｏｕｒ　ｋｉｎｇｄｏｍ．　Ｆａｒｅｗｅｌｌ．"
+"Ｗｅｌｌ　ｄｏｎｅ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．　Ｙｏー"TCC_NEWLINE"ｕ　ｈａｖｅｐｒｏｖｅｄ　ｓｔｒｏｎｇ　ｅｎｏｕｇｈ　ｔｏ"TCC_NEWLINE"　ｂｒｅａｋｏｕｒ　ｃｏｎｔｒａｃｔ　ｗｉｔｈ　Ｖｅｒｏｎー"TCC_NEWLINE"ｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｏ，　ｗｅ　ａｒｅ　ｆｒｅｅ　ｏｎｃｅ　ｍｏｒｅ"TCC_NEWLINE"．Ｉ　ｇｉｖｅ　ｙｏｕ　ｍｙ　ｏａｔｈ　ｔｈａｔ　ｗｅ　ｗー"TCC_NEWLINE"ｉｌｌ　ｎｏｔａｔｔａｃｋ　ｙｏｕｒ　ｋｉｎｇｄｏｍ．　Ｆー"TCC_NEWLINE"ａｒｅｗｅｌｌ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0102_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈａｔ　ｃｏｍｐｌｅｔｅｓ　ｔｈｉｓ　ｍｉｓｓｉｏｎ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｙｏｕ’ｒｅ　ｓｕｃｈ　ａｎ　ｅｘｃｅｌｌｅｎｔ　ｔａｃｔｉ"TCC_NEWLINE"ｃｉａｎ．"TCC_NEWLINE
-"Ｗｈｙ，　Ｉ　ｔｈｉｎｋ　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ｖ"TCC_NEWLINE"ｅｒｙ"TCC_NEWLINE
-"ｆｏｎｄ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｓｕｃｈ　ａｎ　ｅｘｃｅｌｌｅｎｔ　ｔａｃｔー"TCC_NEWLINE"ｉｃｉａｎ．Ｗｈｙ，　Ｉ　ｔｈｉｎｋ　Ｉ’ｍ　ｇｏｉｎｇ　"TCC_NEWLINE"ｔｏ　ｂｅ　ｖｅｒｙｆｏｎｄ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｅｖｅｒｙｏｎｅ，　ｌｉｓｔｅｎ　ｕｐ．　Ｉ’ｖｅ　ｊｕｓｔ"TCC_NEWLINE"　ｇｏｔｔｅｎ"TCC_NEWLINE
-"ａ　ｒｅｐｏｒｔ　ｔｈａｔ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ"TCC_NEWLINE"　ａｒｅ"TCC_NEWLINE
-"ａｄｖａｎｃｉｎｇ　ｏｎ　ｏｕｒ　ｋｉｎｇｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ，　ｌｉｓｔｅｎ　ｕｐ．　Ｉ’ｖｅ　ｊｕｓー"TCC_NEWLINE"ｔ　ｇｏｔｔｅｎａ　ｒｅｐｏｒｔ　ｔｈａｔ　Ｅｍｂｌｉａｎ"TCC_NEWLINE"　ｓｏｌｄｉｅｒｓ　ａｒｅａｄｖａｎｃｉｎｇ　ｏｎ　ｏｕｒ"TCC_NEWLINE"　ｋｉｎｇｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？　Ｔｈｅｎ　ａｌｌ　ｏｆ　ｔｈｉｓ，　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ　ｗａｓ　ｊｕｓｔ　ａ　ｄｉｓｔｒａｃｔｉｏｎ．　Ｗｅ’"TCC_NEWLINE"ｖｅ　ｌｅｆｔ"TCC_NEWLINE
-"ｏｕｒ　ｋｉｎｇｄｏｍ　ｏｐｅｎ　ｔｏ　ａｔｔａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ｊｕｓｔ　ａ　ｄｉｓｔｒａｃｔｉｏｎ．　Ｗｅ"TCC_NEWLINE"’ｖｅ　ｌｅｆｔｏｕｒ　ｋｉｎｇｄｏｍ　ｏｐｅｎ　ｔｏ　ａー"TCC_NEWLINE"ｔｔａｃｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｈａｔ’ｓ　ｄｏｎｅ　ｉｓ　ｄｏｎｅ．　Ｎｏｗ，　ｌｅｔ’"TCC_NEWLINE"ｓ"TCC_NEWLINE
-"ｍａｋｅ　ｈａｓｔｅ．　Ｂａｃｋ　ｔｏ　Ａｓｋｒ！"
+"Ｗｈａｔ’ｓ　ｄｏｎｅ　ｉｓ　ｄｏｎｅ．　Ｎｏｗ，　ｌｅｔ"TCC_NEWLINE"’ｓｍａｋｅ　ｈａｓｔｅ．　Ｂａｃｋ　ｔｏ　Ａｓｋｒ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

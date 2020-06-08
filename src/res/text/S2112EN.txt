@@ -2,51 +2,36 @@
 
 [MID_SCENARIO_MAP_BEGIN_S2112_EN] = TCC_OPEN_LEFT
 "Ｉ　ｗｉｌｌ．．．　Ｉ　ｗｏｎ’ｔ．．．　Ｉ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ，　ｓｏｒｒｙ．　Ｉ　ｗａｓ　ｊｕｓｔ　ｄｏｉｎｇ　ａ　"TCC_NEWLINE"ｆｌｏｗｅｒ"TCC_NEWLINE
-"ｆｏｒｔｕｎｅ　ｏｎ　ｗｈｅｔｈｅｒ　ｏｒ　ｎｏｔ　Ｉ’ｄ　"TCC_NEWLINE"ｂｅ"TCC_NEWLINE
-"ｒｅｌｅａｓｅｄ　ｆｒｏｍ　ｔｈｉｓ　ｃｏｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｓｏｒｒｙ．　Ｉ　ｗａｓ　ｊｕｓｔ　ｄｏｉｎｇ　ａ"TCC_NEWLINE"　ｆｌｏｗｅｒｆｏｒｔｕｎｅ　ｏｎ　ｗｈｅｔｈｅｒ　ｏｒ　"TCC_NEWLINE"ｎｏｔ　Ｉ’ｄ　ｂｅｒｅｌｅａｓｅｄ　ｆｒｏｍ　ｔｈｉｓ　"TCC_NEWLINE"ｃｏｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2112_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
-"Ｌａｅｖａｔｅｉｎ！　Ｎｅｗ　ｏｒｄｅｒｓ　ｆｒｏｍ　Ｆａｔ"TCC_NEWLINE"ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　Ａｓｋｒａｎｓ　ａｒｅ　ｃｕｒｒｅｎｔｌｙ　ｏｎ　ｔ"TCC_NEWLINE"ｈｅ　ｒｕｎ"TCC_NEWLINE
-"ｉｎ　Ｍｓｐｅｌｌ．　Ｗｅ’ｒｅ　ｔｏ　ｈｕｎｔ　ｔｈｅｍ　"TCC_NEWLINE"ｄｏｗｎ"TCC_NEWLINE
-"ａｎｄ　ｅｌｉｍｉｎａｔｅ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｅｖａｔｅｉｎ！　Ｎｅｗ　ｏｒｄｅｒｓ　ｆｒｏｍ　Ｆａー"TCC_NEWLINE"ｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ａｓｋｒａｎｓ　ａｒｅ　ｃｕｒｒｅｎｔｌｙ　ｏｎ　"TCC_NEWLINE"ｔｈｅ　ｒｕｎｉｎ　Ｍｓｐｅｌｌ．　Ｗｅ’ｒｅ　ｔｏ　ｈｕー"TCC_NEWLINE"ｎｔ　ｔｈｅｍ　ｄｏｗｎａｎｄ　ｅｌｉｍｉｎａｔｅ　ｔｈｅー"TCC_NEWLINE"ｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEVATEIN
 "ＯＫ．　Ｉ’ｌｌ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈａｎｋ　ｙｏｕ，　Ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｌｂｉｎｄｉ，　ｙｏｕ’ｒｅ　ｃｏｍｉｎｇ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
-"Ｈｍｐｈ．　Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｙｏｕ　ｇｅｔ　ｉｔ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｐｈ．　Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｙｏｕ　ｇｅｔ　ｉー"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｄｏｎ’ｔ　ｏｗｅ　ｙｏｕ　ａ　ｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈｙ．．．ｄｉｄ　ｗｅ　ｓａｖｅ　ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｈｅ　ｌｉｖｅｓ　ｏｒ　ｉｆ　ｈｅ　ｄｉｅｓ．．．ｄｏ"TCC_NEWLINE"ｅｓ　ｉｔ"TCC_NEWLINE
-"ｍａｔｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｈｅ　ｌｉｖｅｓ　ｏｒ　ｉｆ　ｈｅ　ｄｉｅｓ．．．ｄー"TCC_NEWLINE"ｏｅｓ　ｉｔｍａｔｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｏｎ’ｔ　ｓｐｅａｋ　ｌｉｋｅ　ｔｈａｔ，　Ｌａｅｖａｔｅ"TCC_NEWLINE"ｉｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｕｒｅ，　ｈｅ’ｓ　ａ　ｌｏｕｔ　ａｎｄ　ａｓ　ｇｒａｃｅ"TCC_NEWLINE"ｌｅｓｓ　ａｓ"TCC_NEWLINE
-"ｔｈｅｙ　ｃｏｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｓｐｅａｋ　ｌｉｋｅ　ｔｈａｔ，　Ｌａｅｖａｔー"TCC_NEWLINE"ｅｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｅ，　ｈｅ’ｓ　ａ　ｌｏｕｔ　ａｎｄ　ａｓ　ｇｒａｃー"TCC_NEWLINE"ｅｌｅｓｓ　ａｓｔｈｅｙ　ｃｏｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｈｅｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｏｗｅｖｅｒ，　ｔｈｉｓ　ｉｓ　ａ　ｍａｎ　ｗｈｏ　ｆｉｇ"TCC_NEWLINE"ｈｔｓ　ｆｏｒ"TCC_NEWLINE
-"ｔｈｅ　ｓａｋｅ　ｏｆ　ｈｉｓ　ｓｉｓｔｅｒ．　Ａｎｄ　ｔｈ"TCC_NEWLINE"ａｔ　ｍｅａｎｓ"TCC_NEWLINE
-"ｈｅ’ｓ　ｓｏｍｅｏｎｅ　ｗｅ　ｃａｎ　ｔｒｕｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ，　ｔｈｉｓ　ｉｓ　ａ　ｍａｎ　ｗｈｏ　ｆｉー"TCC_NEWLINE"ｇｈｔｓ　ｆｏｒｔｈｅ　ｓａｋｅ　ｏｆ　ｈｉｓ　ｓｉｓｔｅー"TCC_NEWLINE"ｒ．　Ａｎｄ　ｔｈａｔ　ｍｅａｎｓｈｅ’ｓ　ｓｏｍｅｏｎｅ"TCC_NEWLINE"　ｗｅ　ｃａｎ　ｔｒｕｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｄｕｇ　ｔｈａｔ　ｕｐ，　ｄｉｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｗｅｒｅ　ｄｅｆｅａｔｅｄ　ａｔ　ｔｈｅ　Ｆｏｒｔｒ"TCC_NEWLINE"ｅｓｓ　ｏｆ"TCC_NEWLINE
-"Ｃｉｎｄｅｒｓ．　Ｉｆ　Ｆａｔｈｅｒ　ｆｉｎｄｓ　ｙｏｕ，　"TCC_NEWLINE"ｙｏｕ’ｒｅ"TCC_NEWLINE
-"ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　Ｌｏｋｉ　ｆｉｎｄｓ　ｙｏｕ，　ｉｔ’ｌｌ　ｂｅ　ｅｖ"TCC_NEWLINE"ｅｎ　ｗｏｒｓｅ．"TCC_NEWLINE
-"Ｓｈｅ’ｌｌ　ｔｈｒｅａｔｅｎ　ｔｏ　ｔｅｌｌ　Ｆａｔｈｅｒ"TCC_NEWLINE"，　ｔｈｅｎ"TCC_NEWLINE
-"ｗｏｒｋ　ｙｏｕ　ｔｉｌｌ　ｙｏｕ’ｒｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｆ　ｙｏｕ　ｐｒｏｖｅ　ｙｏｕｒ　ｗｏｒｔｈ　ｉｎ"TCC_NEWLINE"　ｂａｔｔｌｅ"TCC_NEWLINE
-"ｈｅｒｅ　ａｎｄ　ｎｏｗ，　ｙｏｕ’ｌｌ　ｌｉｖｅ．　Ａｎｄ"TCC_NEWLINE"　ｓｏ　ｗｉｌｌ"TCC_NEWLINE
-"ｙｏｕｒ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ｄｅｆｅａｔｅｄ　ａｔ　ｔｈｅ　Ｆｏｒｔー"TCC_NEWLINE"ｒｅｓｓ　ｏｆＣｉｎｄｅｒｓ．　Ｉｆ　Ｆａｔｈｅｒ　ｆｉｎー"TCC_NEWLINE"ｄｓ　ｙｏｕ，　ｙｏｕ’ｒｅｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｌｏｋｉ　ｆｉｎｄｓ　ｙｏｕ，　ｉｔ’ｌｌ　ｂｅ　ｅー"TCC_NEWLINE"ｖｅｎ　ｗｏｒｓｅ．Ｓｈｅ’ｌｌ　ｔｈｒｅａｔｅｎ　ｔｏ　"TCC_NEWLINE"ｔｅｌｌ　Ｆａｔｈｅｒ，　ｔｈｅｎｗｏｒｋ　ｙｏｕ　ｔｉｌー"TCC_NEWLINE"ｌ　ｙｏｕ’ｒｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｙｏｕ　ｐｒｏｖｅ　ｙｏｕｒ　ｗｏｒｔｈ　ｉー"TCC_NEWLINE"ｎ　ｂａｔｔｌｅｈｅｒｅ　ａｎｄ　ｎｏｗ，　ｙｏｕ’ｌｌ　"TCC_NEWLINE"ｌｉｖｅ．　Ａｎｄ　ｓｏ　ｗｉｌｌｙｏｕｒ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｇｒｒ．．．　Ｉ　ａｌｒｅａｄｙ　ｋｎｏｗ　ａｌｌ　ｔｈａｔ"TCC_NEWLINE"．　Ｎｏ　ｎｅｅｄ"TCC_NEWLINE
-"ｔｏ　ｓｐｅｌｌ　ｉｔ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ　Ｉ’ｌｌ　ｋｉｌｌ　ｔｈｅｍ　ａｌｌ．　Ｉｔ’ｓ　ｕｓ"TCC_NEWLINE"　ｏｒ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｒｒ．．．　Ｉ　ａｌｒｅａｄｙ　ｋｎｏｗ　ａｌｌ　ｔｈａー"TCC_NEWLINE"ｔ．　Ｎｏ　ｎｅｅｄｔｏ　ｓｐｅｌｌ　ｉｔ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　Ｉ’ｌｌ　ｋｉｌｌ　ｔｈｅｍ　ａｌｌ．　Ｉｔ’ｓ　ｕー"TCC_NEWLINE"ｓ　ｏｒ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

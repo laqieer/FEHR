@@ -1,59 +1,45 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2123_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
-"Ｓｔｏｐ　ｗｒｉｇｇｌｉｎｇ，　ｙｏｕ　ｗｏｒｍｓ！　Ｉｔ’"TCC_NEWLINE"ｓ　ｔｉｍｅ"TCC_NEWLINE
-"ｔｏ　ｌｅｔ　Ｈｅｌｂｉｎｄｉ　ｐｕｔ　ｙｏｕ　ｔｏ　ｓｌｅ"TCC_NEWLINE"ｅｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｏｐ　ｗｒｉｇｇｌｉｎｇ，　ｙｏｕ　ｗｏｒｍｓ！　Ｉｔ"TCC_NEWLINE"’ｓ　ｔｉｍｅｔｏ　ｌｅｔ　Ｈｅｌｂｉｎｄｉ　ｐｕｔ　ｙｏー"TCC_NEWLINE"ｕ　ｔｏ　ｓｌｅｅｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2123_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
-"Ｗｈａｔ　ｉｓ　ｉｔ　ｗｉｔｈ　ｙｏｕ　ｆｉｌｔｈ？　Ｒｒｇ"TCC_NEWLINE"ｈ．．．　Ｙｏｕ"TCC_NEWLINE
-"ｗｏｎ’ｔ　ｇｉｖｅ　ｉｎ？　Ｗｅｌｌ，　ｍｅ　ｅｉｔｈｅｒ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｉｓ　ｉｔ　ｗｉｔｈ　ｙｏｕ　ｆｉｌｔｈ？　Ｒｒー"TCC_NEWLINE"ｇｈ．．．　Ｙｏｕｗｏｎ’ｔ　ｇｉｖｅ　ｉｎ？　Ｗｅｌｌ，"TCC_NEWLINE"　ｍｅ　ｅｉｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2123_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
-"Ｉ．．．ｃａｎ’ｔ　ｐｕｌｌ　ｉｔ　ｏｆｆ．　Ｂｕｔ　Ｉ　ｈ"TCC_NEWLINE"ａｖｅ　ｔｏ．　Ｉ"TCC_NEWLINE
-"ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．ｃａｎ’ｔ　ｐｕｌｌ　ｉｔ　ｏｆｆ．　Ｂｕｔ　Ｉ　"TCC_NEWLINE"ｈａｖｅ　ｔｏ．　Ｉｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｆ　Ｉ　ｄｏｎ’ｔ．．．　Ｈｅ’ｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEGJARN
 "Ｈｅｌｂｉｎｄｉ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ　ｄｏ　ｙｏｕ　ｗａｎｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ　ｍａｙ　ｐｕｔ　ｄｏｗｎ　ｙｏｕｒ　ａｘｅ．　Ｙｏｕ"TCC_NEWLINE"ｒ"TCC_NEWLINE
-"ｄｕｔｙ　ｉｓ　ａｔ　ａｎ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍａｙ　ｐｕｔ　ｄｏｗｎ　ｙｏｕｒ　ａｘｅ．　Ｙｏー"TCC_NEWLINE"ｕｒｄｕｔｙ　ｉｓ　ａｔ　ａｎ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈａｔ？　Ｉ’ｖｅ　ｓｔｉｌｌ　ｇｏｔ　ｒａｔｓ　ｔｏ　ｋ"TCC_NEWLINE"ｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ？　Ｉ’ｖｅ　ｓｔｉｌｌ　ｇｏｔ　ｒａｔｓ　ｔｏ　"TCC_NEWLINE"ｋｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈａｔ　ｆａｌｌｓ　ｔｏ　ｕｓ　ｎｏｗ．　Ａｓ　ｒｏｙａｌ"TCC_NEWLINE"ｔｙ　ｏｆ"TCC_NEWLINE
-"Ｍｓｐｅｌｌ，　ｔｈｉｓ　ｉｓ　ｏｕｒ　ｒｅｓｐｏｎｓｉｂｉ"TCC_NEWLINE"ｌｉｔｙ．　Ｙｏｕ"TCC_NEWLINE
-"ｍａｙ　ｌｅａｖｅ　ｔｈｅ　ｂａｔｔｌｅｆｉｅｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｎｏｔ　ｗｏｒｒｙ．　Ｉ　ｗｏｎ’ｔ　ｌｅｔ　Ｆａｔｈ"TCC_NEWLINE"ｅｒ　ｋｎｏｗ"TCC_NEWLINE
-"ｔｈａｔ　ｙｏｕ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｆａｌｌｓ　ｔｏ　ｕｓ　ｎｏｗ．　Ａｓ　ｒｏｙａー"TCC_NEWLINE"ｌｔｙ　ｏｆＭｓｐｅｌｌ，　ｔｈｉｓ　ｉｓ　ｏｕｒ　ｒｅｓー"TCC_NEWLINE"ｐｏｎｓｉｂｉｌｉｔｙ．　Ｙｏｕｍａｙ　ｌｅａｖｅ　ｔｈｅ"TCC_NEWLINE"　ｂａｔｔｌｅｆｉｅｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ｗｏｒｒｙ．　Ｉ　ｗｏｎ’ｔ　ｌｅｔ　Ｆａｔー"TCC_NEWLINE"ｈｅｒ　ｋｎｏｗｔｈａｔ　ｙｏｕ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｏｐｐｏｓｉｔｅ　ｏｆ　ｗｈａｔ　ｙ"TCC_NEWLINE"ｏｕ　ｔｏｌｄ"TCC_NEWLINE
-"ｍｅ　ｂｅｆｏｒｅ！　Ｅｘｐｌａｉｎ　ｙｏｕｒｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｏｐｐｏｓｉｔｅ　ｏｆ　ｗｈａｔ　"TCC_NEWLINE"ｙｏｕ　ｔｏｌｄｍｅ　ｂｅｆｏｒｅ！　Ｅｘｐｌａｉｎ　ｙｏー"TCC_NEWLINE"ｕｒｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｈａｖｅ　ｓｐｏｋｅｎ　ｗｉｔｈ　Ｆａｔｈｅｒ．　Ａｆ"TCC_NEWLINE"ｔｅｒ"TCC_NEWLINE
-"ｙｏｕｒ　ｌｏｓｓ　ａｔ　ｔｈｅ　Ｆｏｒｔｒｅｓｓ　ｏｆ　Ｃ"TCC_NEWLINE"ｉｎｄｅｒｓ．．．"TCC_NEWLINE
-"Ｈｅｌｂｉｎｄｉ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｍａｋｅ　ａｎ　ｅｘａｍｐｌｅ　ｏｆ　ｙｏｕ．．．Ｆａ"TCC_NEWLINE"ｔｈｅｒ"TCC_NEWLINE
-"ｂｕｒｎｅｄ　ｔｈｅ　ｓｌｕｍｓ．　Ｈｅ　ｋｉｌｌｅｄ　ｅｖ"TCC_NEWLINE"ｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｙｏｕｒ　ｓｉｓｔｅｒ．．．Ｉ　ａｍ　ｔｏｌｄ　ｓｈ"TCC_NEWLINE"ｅ　ｄｉｅｄ"TCC_NEWLINE
-"ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｓｐｏｋｅｎ　ｗｉｔｈ　Ｆａｔｈｅｒ．　Ａー"TCC_NEWLINE"ｆｔｅｒｙｏｕｒ　ｌｏｓｓ　ａｔ　ｔｈｅ　Ｆｏｒｔｒｅｓｓ"TCC_NEWLINE"　ｏｆ　Ｃｉｎｄｅｒｓ．．．Ｈｅｌｂｉｎｄｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｍａｋｅ　ａｎ　ｅｘａｍｐｌｅ　ｏｆ　ｙｏｕ．．．Ｆー"TCC_NEWLINE"ａｔｈｅｒｂｕｒｎｅｄ　ｔｈｅ　ｓｌｕｍｓ．　Ｈｅ　ｋｉｌー"TCC_NEWLINE"ｌｅｄ　ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｏｕｒ　ｓｉｓｔｅｒ．．．Ｉ　ａｍ　ｔｏｌｄ　ｓー"TCC_NEWLINE"ｈｅ　ｄｉｅｄｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｉｓ　ｉｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｓａｙ．．．ｂｕｔ"TCC_NEWLINE"　ｏｕｒ　ｏｒｄｅｒｓ"TCC_NEWLINE
-"ｃａｎ　ｎｏ　ｌｏｎｇｅｒ　ｃｏｍｐｅｌ　ｙｏｕ．　Ｙｏｕ　"TCC_NEWLINE"ｈａｖｅ"TCC_NEWLINE
-"ｎｏ　ｒｅａｓｏｎ　ｔｏ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｓａｙ．．．ｂｕー"TCC_NEWLINE"ｔ　ｏｕｒ　ｏｒｄｅｒｓｃａｎ　ｎｏ　ｌｏｎｇｅｒ　ｃｏｍー"TCC_NEWLINE"ｐｅｌ　ｙｏｕ．　Ｙｏｕ　ｈａｖｅｎｏ　ｒｅａｓｏｎ　ｔｏ"TCC_NEWLINE"　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｌｅａｓｅ，　ｊｕｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｅｌｂｉｎｄｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ’ｓ　ｈｏｗ　ｉｔ　ｉｓ，　ｉｓ　ｉｔ？　Ｉ　ｓｅｅ"TCC_NEWLINE"．　Ｉ　ｇｅｔ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｈｏｗ　ｉｔ　ｉｓ，　ｉｓ　ｉｔ？　Ｉ　ｓｅー"TCC_NEWLINE"ｅ．　Ｉ　ｇｅｔ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ’ｓ　ｈｏｗ　ｉｔ　ｉｓ．　Ｓｏ　Ｉ．．．　Ｎｏｗ　"TCC_NEWLINE"Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｈｏｗ　ｉｔ　ｉｓ．　Ｓｏ　Ｉ．．．　Ｎｏｗ"TCC_NEWLINE"　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

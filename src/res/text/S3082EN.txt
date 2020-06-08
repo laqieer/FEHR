@@ -1,7 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3082_EN] = TCC_OPEN_LEFT
-"Ｉ’ｍ　ｔｈｅ　ｌａｓｔ　ｏｆ　ｍｙ　ｐｅｏｐｌｅ．　Ｍｏｔ"TCC_NEWLINE"ｈｅｒ"TCC_NEWLINE
-"ａｎｄ　Ｆａｔｈｅｒ　ｃａｎ’ｔ　ｆｉｇｈｔ　ａｎｙｍｏｒｅ"TCC_NEWLINE"，"TCC_NEWLINE
-"ｓｏ　Ｉ　ｈａｖｅ　ｔｏ．　Ｉ　ｈａｖｅ　ｔｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｔｈｅ　ｌａｓｔ　ｏｆ　ｍｙ　ｐｅｏｐｌｅ．　Ｍｏー"TCC_NEWLINE"ｔｈｅｒａｎｄ　Ｆａｔｈｅｒ　ｃａｎ’ｔ　ｆｉｇｈｔ　ａｎー"TCC_NEWLINE"ｙｍｏｒｅ，ｓｏ　Ｉ　ｈａｖｅ　ｔｏ．　Ｉ　ｈａｖｅ　ｔｏ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

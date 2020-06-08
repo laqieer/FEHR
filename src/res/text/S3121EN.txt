@@ -1,60 +1,40 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
-"Ｉｔ　ａｌｌ　ｃｏｍｅｓ　ｄｏｗｎ　ｔｏ　ｔｈｉｓ．　Ｗｈｏ"TCC_NEWLINE
-"ｗｉｌｌ　ｃｌｉｎｇ　ｔｏ　ｌｉｆｅ，　Ａｌｆｏｎｓｅ？　Ｍ"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE
-"ｏｒ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｒｉｇｇｅｄ　ｔｈａｔ　ｆｌｏｏｒ　ｗｅｌｌ．　Ｔｒａｐ"TCC_NEWLINE"ｐｅｄ"TCC_NEWLINE
-"ｕｎｄｅｒ　ａｌｌ　ｔｈｉｓ　ｒｕｂｂｌｅ，　ｈｏｗ　ｌｏｎ"TCC_NEWLINE"ｇ　ｃａｎ"TCC_NEWLINE
-"ｙｏｕ　ｓｕｒｖｉｖｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ａｌｌ　ｃｏｍｅｓ　ｄｏｗｎ　ｔｏ　ｔｈｉｓ．　Ｗｈー"TCC_NEWLINE"ｏｗｉｌｌ　ｃｌｉｎｇ　ｔｏ　ｌｉｆｅ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE"　Ｍｅ．．．ｏｒ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｉｇｇｅｄ　ｔｈａｔ　ｆｌｏｏｒ　ｗｅｌｌ．　Ｔｒａー"TCC_NEWLINE"ｐｐｅｄｕｎｄｅｒ　ａｌｌ　ｔｈｉｓ　ｒｕｂｂｌｅ，　ｈｏー"TCC_NEWLINE"ｗ　ｌｏｎｇ　ｃａｎｙｏｕ　ｓｕｒｖｉｖｅ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｕｇｈ．．．　Ｔｈａｔ　ｈｕｒｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｈａｒｅｎａ．．．？"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ．．．　Ｓｈａｒｅｎａ　ｗａｓ　ｋｉｌｌｅｄ．．．　Ｈｅ"TCC_NEWLINE"ｌ"TCC_NEWLINE
-"ｋｉｌｌｅｄ　ｈｅｒ．　Ｙｏｕ．．．ａｒｅｎ’ｔ　ｒｅａｌ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．．．　Ｓｈａｒｅｎａ　ｗａｓ　ｋｉｌｌｅｄ．．．　Ｈー"TCC_NEWLINE"ｅｌｋｉｌｌｅｄ　ｈｅｒ．　Ｙｏｕ．．．ａｒｅｎ’ｔ　ｒｅー"TCC_NEWLINE"ａｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ．．．　Ｙｏｕ　ｒｅａｌｌｙ　ａｒｅ　ｍｙ　ｂｒｏｔｈ"TCC_NEWLINE"ｅｒ，"TCC_NEWLINE
-"ａｒｅｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ．．．　Ｙｏｕ　ｒｅａｌｌｙ　ａｒｅ　ｍｙ　ｂｒｏｔー"TCC_NEWLINE"ｈｅｒ，ａｒｅｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ．．．　Ｙｏｕ’ｒｅ　ｔｈｅ　Ｓｈａｒｅｎａ　ｆｒｏｍ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"ｏｔｈｅｒ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ．．．　Ｙｏｕ’ｒｅ　ｔｈｅ　Ｓｈａｒｅｎａ　ｆｒｏｍ"TCC_NEWLINE"　ｔｈｅｏｔｈｅｒ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ’ｒｅ　ｎｏｔｈｉｎｇ　ｍｏｒｅ　ｔｈａｎ　ａ　ｓｔｒ"TCC_NEWLINE"ａｎｇｅｒ"TCC_NEWLINE
-"ｔｏ　ｍｅ．　Ｉ　ｃａｎ　ｋｉｌｌ　ｙｏｕ　ｗｈｅｎｅｖｅｒ"TCC_NEWLINE"　Ｉ"TCC_NEWLINE
-"ｐｌｅａｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｆ　ｍｙ　ｓｉｓｔｅｒ　ｗｅｒｅ　ｈｅｒｅ，　ｗｈ"TCC_NEWLINE"ａｔ"TCC_NEWLINE
-"ｗｏｕｌｄ　ｓｈｅ　ｓａｙ　ｔｏ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔｏｐ　ｔｈｉｓ，　Ａｌｆｏｎｓｅ！　Ｙｅｓ，　ｆｏｒ　ａ"TCC_NEWLINE"　ｓｔａｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｙｏｕ　ｈａｖｅ　ｔｏ　ｈｕｒｔ　ｔｈｅｓｅ　ｐｅｏｐ"TCC_NEWLINE"ｌｅ　ｔｏ"TCC_NEWLINE
-"ｂｒｉｎｇ　ｍｅ　ｂａｃｋ　Ｎｏ，　ｉｎｄｅｅｄ．　Ｓｈｅ"TCC_NEWLINE
-"ｗｏｕｌｄ　ｎｏｔ　ｂｅ　ｐｌｅａｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｎｏｔｈｉｎｇ　ｍｏｒｅ　ｔｈａｎ　ａ　ｓｔー"TCC_NEWLINE"ｒａｎｇｅｒｔｏ　ｍｅ．　Ｉ　ｃａｎ　ｋｉｌｌ　ｙｏｕ　ｗー"TCC_NEWLINE"ｈｅｎｅｖｅｒ　Ｉｐｌｅａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｍｙ　ｓｉｓｔｅｒ　ｗｅｒｅ　ｈｅｒｅ，　ｗー"TCC_NEWLINE"ｈａｔｗｏｕｌｄ　ｓｈｅ　ｓａｙ　ｔｏ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｏｐ　ｔｈｉｓ，　Ａｌｆｏｎｓｅ！　Ｙｅｓ，　ｆｏｒ　"TCC_NEWLINE"ａ　ｓｔａｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｈａｖｅ　ｔｏ　ｈｕｒｔ　ｔｈｅｓｅ　ｐｅｏー"TCC_NEWLINE"ｐｌｅ　ｔｏｂｒｉｎｇ　ｍｅ　ｂａｃｋ　Ｎｏ，　ｉｎｄｅｅー"TCC_NEWLINE"ｄ．　Ｓｈｅｗｏｕｌｄ　ｎｏｔ　ｂｅ　ｐｌｅａｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｈａｒｅｎａ．．．　Ｈａｖｅ　Ｉ　ｄｏｎｅ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ａｍ　ｓｏｒｒｙ．　Ｉ　ｃａｎ’ｔ　ｐｒｅｄｉｃｔ　ｗｈ"TCC_NEWLINE"ａｔ　ｙｏｕｒ"TCC_NEWLINE
-"Ｓｈａｒｅｎａ　ｍｉｇｈｔ　ｓａｙ．　Ｉ　ｄｏｎ’ｔ　ｋｎｏ"TCC_NEWLINE"ｗ　ｔｈｅ"TCC_NEWLINE
-"Ｓｈａｒｅｎａ　ｙｏｕ　ｋｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　ｑｕｉｔｅ　ｓｕｒｅ　ｔｈａｔ　ｎｏ　ｏｎｅ　ｋｎ"TCC_NEWLINE"ｏｗｓ　ｈｅｒ"TCC_NEWLINE
-"ｂｅｔｔｅｒ　ｔｈａｎ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｏｒｒｙ．　Ｉ　ｃａｎ’ｔ　ｐｒｅｄｉｃｔ　ｗー"TCC_NEWLINE"ｈａｔ　ｙｏｕｒＳｈａｒｅｎａ　ｍｉｇｈｔ　ｓａｙ．　Ｉ　"TCC_NEWLINE"ｄｏｎ’ｔ　ｋｎｏｗ　ｔｈｅＳｈａｒｅｎａ　ｙｏｕ　ｋｎｏー"TCC_NEWLINE"ｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｑｕｉｔｅ　ｓｕｒｅ　ｔｈａｔ　ｎｏ　ｏｎｅ　ｋー"TCC_NEWLINE"ｎｏｗｓ　ｈｅｒｂｅｔｔｅｒ　ｔｈａｎ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｎｌｙ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓａｓ　ｗｅｌｌ　ａｓ　Ｉ　ｋｎｏｗ　ｍｙ　ｂｒｏｔｈｅ"TCC_NEWLINE"ｒ．"TCC_NEWLINE
-"Ｉ　ｋｎｏｗ　ｈｅ　ｉｓ　ｋｉｎｄ，　ａｎｄ　ｈｅ　ｕｎｄｅ"TCC_NEWLINE"ｒｓｔａｎｄｓ"TCC_NEWLINE
-"ｍｙ　ｆｅｅｌｉｎｇｓ　ｂｅｔｔｅｒ　ｔｈａｎ　Ｉ　ｄｏ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｍｕｓｔ　ａｌｒｅａｄｙ　ｋｎｏｗ　ｔｈｅ　ａｎｓｗ"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE
-"Ｙｏｕ　ｋｎｏｗ　ｗｈａｔ　ｙｏｕｒ　Ｓｈａｒｅｎａ"TCC_NEWLINE
-"ｗｏｕｌｄ　ｓａｙ　ａｂｏｕｔ　ａｌｌ　ｏｆ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓａｓ　ｗｅｌｌ　ａｓ　Ｉ　ｋｎｏｗ　ｍｙ　ｂｒｏｔｈー"TCC_NEWLINE"ｅｒ．Ｉ　ｋｎｏｗ　ｈｅ　ｉｓ　ｋｉｎｄ，　ａｎｄ　ｈｅ　"TCC_NEWLINE"ｕｎｄｅｒｓｔａｎｄｓｍｙ　ｆｅｅｌｉｎｇｓ　ｂｅｔｔｅｒ"TCC_NEWLINE"　ｔｈａｎ　Ｉ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｕｓｔ　ａｌｒｅａｄｙ　ｋｎｏｗ　ｔｈｅ　ａｎｓー"TCC_NEWLINE"ｗｅｒ．Ｙｏｕ　ｋｎｏｗ　ｗｈａｔ　ｙｏｕｒ　Ｓｈａｒｅｎー"TCC_NEWLINE"ａｗｏｕｌｄ　ｓａｙ　ａｂｏｕｔ　ａｌｌ　ｏｆ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ．．．　Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈａｖｅ　ｋｎｏｗｎ　ｓｉｎｃｅ　ｔｈｅ　ｖｅｒｙ"TCC_NEWLINE
-"ｂｅｇｉｎｎｉｎｇ，　ｈａｖｅｎ’ｔ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｋｎｏｗｎ　ｓｉｎｃｅ　ｔｈｅ　ｖｅｒｙｂｅー"TCC_NEWLINE"ｇｉｎｎｉｎｇ，　ｈａｖｅｎ’ｔ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｊｕｓｔ　ｃｏｕｌｄｎ’ｔ　ａｃｃｅｐｔ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -66,18 +46,12 @@ TCC_OPEN_LEFT
 "Ｏｈ．　Ａｌｆｏｎｓｅ．．．ｙｏｕ　ｓｕｒｖｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
-"Ｙｏｕ．．．　Ｙｏｕ　ｐｒｅｄｉｃｔｅｄ　ｍｙ　ｔｒａｐ　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
-"ｗｒｉｇｇｌｅｄ　ｙｏｕｒ　ｗａｙ　ｏｕｔ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ．．．　Ｙｏｕ　ｐｒｅｄｉｃｔｅｄ　ｍｙ　ｔｒａｐ　"TCC_NEWLINE"ａｎｄｗｒｉｇｇｌｅｄ　ｙｏｕｒ　ｗａｙ　ｏｕｔ　ｏｆ　ｉー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ　ｗａｓｎ’ｔ　ｓｕｒｅ，　ｂｕｔ　Ｉ　ｈａｄ　ａ　ｓｅｎ"TCC_NEWLINE"ｓｅ"TCC_NEWLINE
-"ｏｆ　ｗｈａｔ　ｙｏｕ　ｍｉｇｈｔ　ｄｏ．　Ａｆｔｅｒ　ａｌ"TCC_NEWLINE"ｌ，"TCC_NEWLINE
-"ｗｅ’ｒｅ　ｔｈｅ　ｓａｍｅ　ｐｅｒｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓｎ’ｔ　ｓｕｒｅ，　ｂｕｔ　Ｉ　ｈａｄ　ａ　ｓｅー"TCC_NEWLINE"ｎｓｅｏｆ　ｗｈａｔ　ｙｏｕ　ｍｉｇｈｔ　ｄｏ．　Ａｆｔｅー"TCC_NEWLINE"ｒ　ａｌｌ，ｗｅ’ｒｅ　ｔｈｅ　ｓａｍｅ　ｐｅｒｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｌｏｎｇ　ｙｏｕ　ｐｕｔ　ｉｔ　"TCC_NEWLINE"ｏｆｆ，"TCC_NEWLINE
-"ｙｏｕ　ｗｉｌｌ　ｄｉｅ．　Ａｌｌ　ｔｈｅ　ｌｉｖｉｎｇ　ｗ"TCC_NEWLINE"ｉｌｌ　ｄｉｅ．"TCC_NEWLINE
-"Ｉｔ　ｉｓ　ｉｎｅｓｃａｐａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｂｅｆｏｒｅ　ｔｈａｔ　ｈａｐｐｅｎｓ．．．ｙｏｕ　"TCC_NEWLINE"ｍｕｓｔ"TCC_NEWLINE
-"ｔａｓｔｅ　ｄｅｆｅａｔ　ａｔ　ｍｙ　ｈａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｌｏｎｇ　ｙｏｕ　ｐｕｔ　ｉｔ"TCC_NEWLINE"　ｏｆｆ，ｙｏｕ　ｗｉｌｌ　ｄｉｅ．　Ａｌｌ　ｔｈｅ　ｌｉー"TCC_NEWLINE"ｖｉｎｇ　ｗｉｌｌ　ｄｉｅ．Ｉｔ　ｉｓ　ｉｎｅｓｃａｐａｂー"TCC_NEWLINE"ｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｂｅｆｏｒｅ　ｔｈａｔ　ｈａｐｐｅｎｓ．．．ｙｏｕ"TCC_NEWLINE"　ｍｕｓｔｔａｓｔｅ　ｄｅｆｅａｔ　ａｔ　ｍｙ　ｈａｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
 "Ｎｏｔ　ａｇａｉｎ．．．　Ｎｏｔ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
@@ -85,19 +59,14 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｈｅ　ｆｌｅｄ．　Ｑｕｉｃｋｌｙｐｕｒｓｕｅ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ　ｍｕｓｔ，　ｙｅｓ．　Ｂｕｔ．．．ｂｅ　ｗａｒｙ．　Ｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｐｒｏｂａｂｌｙ　ｌａｉｄ　ｐｌａｎｓ　ｆｏｒ　ｈｉｓ　ｅｓ"TCC_NEWLINE"ｃａｐｅ"TCC_NEWLINE
-"ｌｏｎｇ　ａｇｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｏ　ｋｎｏｗｓ　ｗｈａｔ　ａｗａｉｔｓ　ｕｓ？　Ｗｅ　ｍ"TCC_NEWLINE"ａｙ"TCC_NEWLINE
-"ｂｅ　ａｍｂｕｓｈｅｄ　ｏｒ　ｆａｌｌ　ｖｉｃｔｉｍ　ｔｏ　"TCC_NEWLINE"ｔｒａｐｓ．"TCC_NEWLINE
-"Ｙｅｔ　ｗｅ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｆ"TCC_NEWLINE"ｏｌｌｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ，　ｙｅｓ．　Ｂｕｔ．．．ｂｅ　ｗａｒｙ．　"TCC_NEWLINE"Ｈｅｐｒｏｂａｂｌｙ　ｌａｉｄ　ｐｌａｎｓ　ｆｏｒ　ｈｉｓ"TCC_NEWLINE"　ｅｓｃａｐｅｌｏｎｇ　ａｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ｋｎｏｗｓ　ｗｈａｔ　ａｗａｉｔｓ　ｕｓ？　Ｗｅ　"TCC_NEWLINE"ｍａｙｂｅ　ａｍｂｕｓｈｅｄ　ｏｒ　ｆａｌｌ　ｖｉｃｔｉｍ"TCC_NEWLINE"　ｔｏ　ｔｒａｐｓ．Ｙｅｔ　ｗｅ　ｈａｖｅ　ｎｏ　ｃｈｏｉー"TCC_NEWLINE"ｃｅ　ｂｕｔ　ｔｏ　ｆｏｌｌｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｅｓ，　Ｓｈａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉ　ｓｐｏｋｅ　ｗｉｔｈ　ｈｉｍ．　Ｈｅ．．．　Ｈｅ　ｒｅａ"TCC_NEWLINE"ｌｌｙ　ｉｓ"TCC_NEWLINE
-"ｙｏｕ．　Ｉ　ｃｏｕｌｄ　ｔｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｐｏｋｅ　ｗｉｔｈ　ｈｉｍ．　Ｈｅ．．．　Ｈｅ　ｒｅー"TCC_NEWLINE"ａｌｌｙ　ｉｓｙｏｕ．　Ｉ　ｃｏｕｌｄ　ｔｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

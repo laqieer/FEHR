@@ -1,51 +1,34 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3093_EN] = TCC_OPEN_LEFT
-"Ｉ’ｍ　Ｃｌａｕｄｅ．　Ｃｏｍｉｎｇ　ｕｐ　ｗｉｔｈ　ｂｒｉ"TCC_NEWLINE"ｌｌｉａｎｔ"TCC_NEWLINE
-"ｓｃｈｅｍｅｓ，　Ｉ　ｃａｎ　ｈａｎｄｌｅ．　Ｎｏ　ｐｒｏｂ"TCC_NEWLINE"ｌｅｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ’ｍ　ｎｏｔ　ｍｕｃｈ　ｆｏｒ　ｆｉｇｈｔｉｎｇ．"TCC_NEWLINE"　Ｇｏ"TCC_NEWLINE
-"ｅａｓｙ　ｏｎ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　Ｃｌａｕｄｅ．　Ｃｏｍｉｎｇ　ｕｐ　ｗｉｔｈ　ｂｒー"TCC_NEWLINE"ｉｌｌｉａｎｔｓｃｈｅｍｅｓ，　Ｉ　ｃａｎ　ｈａｎｄｌｅ．"TCC_NEWLINE"　Ｎｏ　ｐｒｏｂｌｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｍ　ｎｏｔ　ｍｕｃｈ　ｆｏｒ　ｆｉｇｈｔｉｎｇ"TCC_NEWLINE"．　Ｇｏｅａｓｙ　ｏｎ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3093_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
-"Ｉ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｍｕｓｔ　ｔｅｌｌ　ｙ"TCC_NEWLINE"ｏｕ，"TCC_NEWLINE
+"Ｉ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｍｕｓｔ　ｔｅｌｌ　"TCC_NEWLINE"ｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ．．．ｒｅｍｅｍｂｅｒｅｄ　ｓｏｍｅｔｈｉｎｇ．　Ｓｏｍｅ"TCC_NEWLINE"ｔｈｉｎｇ"TCC_NEWLINE
-"ｔｅｒｒｉｂｌｙ　ｉｍｐｏｒｔａｎｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ａｎｄ　Ｐｒｉｎｃｅｓｓ"TCC_NEWLINE
-"Ｓｈａｒｅｎａ．．．　Ｗｅ　ｍｅｔ．　Ｂｅｆｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｔ　ｉｎ　ｔｈｅ　Ａｓｋｒ　ｗｈｅｒｅ　ｙｏｕ　ｌｉｖｅ"TCC_NEWLINE"，　ｂｕｔ"TCC_NEWLINE
-"ｈｅｒｅ．．．ｉｎ　ｔｈｉｓ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．ｒｅｍｅｍｂｅｒｅｄ　ｓｏｍｅｔｈｉｎｇ．　Ｓｏｍー"TCC_NEWLINE"ｅｔｈｉｎｇｔｅｒｒｉｂｌｙ　ｉｍｐｏｒｔａｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ａｎｄ　ＰｒｉｎｃｅｓｓＳｈー"TCC_NEWLINE"ａｒｅｎａ．．．　Ｗｅ　ｍｅｔ．　Ｂｅｆｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ｉｎ　ｔｈｅ　Ａｓｋｒ　ｗｈｅｒｅ　ｙｏｕ　ｌｉｖー"TCC_NEWLINE"ｅ，　ｂｕｔｈｅｒｅ．．．ｉｎ　ｔｈｉｓ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉ　ａｍ　ｖｅｒｙ　ｇｌａｄ　ｔｏ　ｍｅｅｔ　ｙｏｕ！　Ｍｙ"TCC_NEWLINE
-"ｎａｍｅ　ｉｓ　Ｓｈａｒｅｎａ，　ａｎｄ　ｔｈｉｓ　ｉｓ　ｍ"TCC_NEWLINE"ｙ"TCC_NEWLINE
-"ｏｌｄｅｒ　ｂｒｏｔｈｅｒ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｖｅｒｙ　ｇｌａｄ　ｔｏ　ｍｅｅｔ　ｙｏｕ！　Ｍー"TCC_NEWLINE"ｙｎａｍｅ　ｉｓ　Ｓｈａｒｅｎａ，　ａｎｄ　ｔｈｉｓ　ｉｓ"TCC_NEWLINE"　ｍｙｏｌｄｅｒ　ｂｒｏｔｈｅｒ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｔ’ｓ　ｇｏｏｄ　ｔｏ　ｍｅｅｔ　ｙｏｕ．　Ｉ　ａｍ　Ａｌ"TCC_NEWLINE"ｆｏｎｓｅ，"TCC_NEWLINE
-"ｔｈｅ　ｐｒｉｎｃｅ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｇｏｏｄ　ｔｏ　ｍｅｅｔ　ｙｏｕ．　Ｉ　ａｍ　Ａー"TCC_NEWLINE"ｌｆｏｎｓｅ，ｔｈｅ　ｐｒｉｎｃｅ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ　ａｎｄ　Ｐｒｉｎｃｅ"TCC_NEWLINE
-"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ　ａｎｄ　ＰｒｉｎｃｅＡｌー"TCC_NEWLINE"ｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｎｄ　ｙｏｕ　ａｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｏｈ，　ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉｆ　ｙｏｕ　ｐｒｅｆｅｒ"TCC_NEWLINE"　ｎｏｔ"TCC_NEWLINE
-"ｔｏ　ｓａｙ．．．ｄｏｎ’ｔ　ｆｅｅｌ　ｐｒｅｓｓｕｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｎ　ｔｈａｔ　ｃａｓｅ，　Ｉ　ｗｏｎｄｅｒ　ｗｈａ"TCC_NEWLINE"ｔ　ｔｏ"TCC_NEWLINE
-"ｃａｌｌ　ｙｏｕ？　Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｃｏｍｅ　ｕｐ　ｗｉｔｈ"TCC_NEWLINE"　ａ"TCC_NEWLINE
-"ｎｉｃｋｎａｍｅ！　Ｄｏｅｓｎ’ｔ　ｔｈａｔ　ｓｏｕｎｄ"TCC_NEWLINE
-"ｌｏｖｅｌｙ？　Ｏｈ，　Ｉ　ｈｏｐｅ　ｙｏｕ　ｄｏｎ’ｔ　ｍ"TCC_NEWLINE"ｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉｆ　ｙｏｕ　ｐｒｅｆｅー"TCC_NEWLINE"ｒ　ｎｏｔｔｏ　ｓａｙ．．．ｄｏｎ’ｔ　ｆｅｅｌ　ｐｒｅｓー"TCC_NEWLINE"ｓｕｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｎ　ｔｈａｔ　ｃａｓｅ，　Ｉ　ｗｏｎｄｅｒ　ｗｈー"TCC_NEWLINE"ａｔ　ｔｏｃａｌｌ　ｙｏｕ？　Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｃｏｍｅ　ｕｐ　ｗｉｔー"TCC_NEWLINE"ｈ　ａｎｉｃｋｎａｍｅ！　Ｄｏｅｓｎ’ｔ　ｔｈａｔ　ｓｏｕー"TCC_NEWLINE"ｎｄｌｏｖｅｌｙ？　Ｏｈ，　Ｉ　ｈｏｐｅ　ｙｏｕ　ｄｏｎ’"TCC_NEWLINE"ｔ　ｍｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｅｅ－ｈｅｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ，　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．．．ｙｏｕ　ａｒｅ"TCC_NEWLINE"　ｑｕｉｔｅ"TCC_NEWLINE
-"ｓｏｍｅｔｈｉｎｇ．　Ｙｏｕ’ｒｅ　ｂｕｒｓｔｉｎｇ　ｗｉｔ"TCC_NEWLINE"ｈ　ｔｈｅ"TCC_NEWLINE
-"ｌｉｇｈｔ　ｏｆ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．．．ｙｏｕ　ａｒー"TCC_NEWLINE"ｅ　ｑｕｉｔｅｓｏｍｅｔｈｉｎｇ．　Ｙｏｕ’ｒｅ　ｂｕｒｓー"TCC_NEWLINE"ｔｉｎｇ　ｗｉｔｈ　ｔｈｅｌｉｇｈｔ　ｏｆ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｒｅｒｅａｌｌｙ？　Ｗｈｅｎ　ｙｏｕ　ｐｕｔ　ｉｔ　ｓｏ"TCC_NEWLINE
-"ｓｅｒｉｏｕｓｌｙ，　Ｉ　ｆｅｅｌ　ａ　ｂｉｔ．．．ｅｍｂａ"TCC_NEWLINE"ｒｒａｓｓｅｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｒｅａｌｌｙ？　Ｗｈｅｎ　ｙｏｕ　ｐｕｔ　ｉｔ　ｓｏｓー"TCC_NEWLINE"ｅｒｉｏｕｓｌｙ，　Ｉ　ｆｅｅｌ　ａ　ｂｉｔ．．．ｅｍｂａー"TCC_NEWLINE"ｒｒａｓｓｅｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｅｉｒ．　Ｉｔ　ｉｓ　ｇｏｏｄ　ｔｏ　ｍｅｅｔ　ｙ"TCC_NEWLINE"ｏｕ，"TCC_NEWLINE
-"ｐｒｉｎｃｅ　ａｎｄ　ｐｒｉｎｃｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｅｉｒ．　Ｉｔ　ｉｓ　ｇｏｏｄ　ｔｏ　ｍｅｅｔ　"TCC_NEWLINE"ｙｏｕ，ｐｒｉｎｃｅ　ａｎｄ　ｐｒｉｎｃｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -1,54 +1,35 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_END_S2014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｈｕｒｒｙ！　Ｗｅ’ｒｅ　ａｌｍｏｓｔ　ｔｈｅｒｅ．　Ｔｈｉ"TCC_NEWLINE"ｓ　ｉｓ"TCC_NEWLINE
-"ｗｈｅｒｅ　ｔｈａｔ　ｒｅｐｏｒｔ　ｃａｍｅ　ｆｒｏｍ．．．"TCC_NEWLINE"　Ｇｅｔ"TCC_NEWLINE
-"ｒｅａｄｙ，"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｒｒｙ！　Ｗｅ’ｒｅ　ａｌｍｏｓｔ　ｔｈｅｒｅ．　Ｔｈー"TCC_NEWLINE"ｉｓ　ｉｓｗｈｅｒｅ　ｔｈａｔ　ｒｅｐｏｒｔ　ｃａｍｅ　ｆー"TCC_NEWLINE"ｒｏｍ．．．　Ｇｅｔｒｅａｄｙ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
-"Ｈａｈｈ．．．　Ｉ　ｗｉｌｌ．．．　Ｉ　ｗｉｌｌ．．．ａｖｅ"TCC_NEWLINE"ｎｇｅ　ｙｏｕ．．．"TCC_NEWLINE
-"Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｈｈ．．．　Ｉ　ｗｉｌｌ．．．　Ｉ　ｗｉｌｌ．．．ａｖー"TCC_NEWLINE"ｅｎｇｅ　ｙｏｕ．．．Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_SURTR
-"Ｈｏｗ　ｗｅａｋ　ｙｏｕ　ａｒｅ．　Ｙｏｕｒ　ｓｔｒｅｎｇｔ"TCC_NEWLINE"ｈ　ｉｓ"TCC_NEWLINE
-"ａｌｒｅａｄｙ　ｆａｄｉｎｇ．．．　Ｙｏｕ　ｃａｎ’ｔ　ｅｖ"TCC_NEWLINE"ｅｎ　ｆｉｇｈｔ"TCC_NEWLINE
-"ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｔｈｉｎｋ　ｙｏｕ　ｐｏｉｎｔｅｄ　ｙｏｕｒ　ｗｅａｐ"TCC_NEWLINE"ｏｎ　ａｔ"TCC_NEWLINE
-"ｍｅａ　ｋｉｎｇ！　Ｄｉｄ　ｙｏｕ　ｔｈｉｎｋ　ｙｏｕ　ｗｏ"TCC_NEWLINE"ｕｌｄ"TCC_NEWLINE
-"ｓｕｒｖｉｖｅ？　Ｄｉｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｌｌ　ｓｕｆｆｅｒ　ｆｏｒ　ｔｈａｔ　ｉｍｐｅｒｔｉ"TCC_NEWLINE"ｎｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｗｅａｋ　ｙｏｕ　ａｒｅ．　Ｙｏｕｒ　ｓｔｒｅｎｇー"TCC_NEWLINE"ｔｈ　ｉｓａｌｒｅａｄｙ　ｆａｄｉｎｇ．．．　Ｙｏｕ　ｃａー"TCC_NEWLINE"ｎ’ｔ　ｅｖｅｎ　ｆｉｇｈｔｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｔｈｉｎｋ　ｙｏｕ　ｐｏｉｎｔｅｄ　ｙｏｕｒ　ｗｅａー"TCC_NEWLINE"ｐｏｎ　ａｔｍｅａ　ｋｉｎｇ！　Ｄｉｄ　ｙｏｕ　ｔｈｉｎｋ"TCC_NEWLINE"　ｙｏｕ　ｗｏｕｌｄｓｕｒｖｉｖｅ？　Ｄｉｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｌｌ　ｓｕｆｆｅｒ　ｆｏｒ　ｔｈａｔ　ｉｍｐｅｒｔー"TCC_NEWLINE"ｉｎｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｆｅｅｌ　ｔｈａｔ　ｐａｉｎ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．　"TCC_NEWLINE"Ｆｅｅｌ　ｉｔ．．．"TCC_NEWLINE
-"ａｎｄ　ｔｅｌｌ　ｍｅ　ｗｈａｔ　ｙｏｕ　ｄｅｓｉｒｅ　ｍｏ"TCC_NEWLINE"ｓｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｏｕｌｄ　Ｉ　ｓｃａｒ　ｙｏｕｒ　ｆａｃｅ　ｗｉｔｈ　ｆ"TCC_NEWLINE"ｌａｍｅ？　Ｏｒ"TCC_NEWLINE
-"ｓｈｏｕｌｄ　Ｉ　ｂｕｒｎ　ｙｏｕｒ　ｆｉｎｇｅｒｓ　ｔｏ　"TCC_NEWLINE"ａｓｈ，　ｏｎｅ"TCC_NEWLINE
-"ｂｙ　ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　Ｉ　ｄｉｄ　ｔｏ　ｙｏｕｒ　ｍｏｔｈｅｒ？"TCC_NEWLINE
-"Ｗｈａｔ　ｗｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｍｅ　ｄｏ，　ｈｍｍ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｆｅｅｌ　ｔｈａｔ　ｐａｉｎ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．"TCC_NEWLINE"　Ｆｅｅｌ　ｉｔ．．．ａｎｄ　ｔｅｌｌ　ｍｅ　ｗｈａｔ　ｙー"TCC_NEWLINE"ｏｕ　ｄｅｓｉｒｅ　ｍｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｏｕｌｄ　Ｉ　ｓｃａｒ　ｙｏｕｒ　ｆａｃｅ　ｗｉｔｈ　"TCC_NEWLINE"ｆｌａｍｅ？　Ｏｒｓｈｏｕｌｄ　Ｉ　ｂｕｒｎ　ｙｏｕｒ　ｆー"TCC_NEWLINE"ｉｎｇｅｒｓ　ｔｏ　ａｓｈ，　ｏｎｅｂｙ　ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　Ｉ　ｄｉｄ　ｔｏ　ｙｏｕｒ　ｍｏｔｈｅｒ？Ｗｈａｔ　"TCC_NEWLINE"ｗｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｍｅ　ｄｏ，　ｈｍｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈａ－ｈａ－ｈａｈ！　Ｔｈａｔ　ｉｓ　ｔｈｅ　ｆａｔｅ　ｏｆ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
-"ｗｅａｋｔｏ　ｂｅ　ｔｒａｍｐｌｅｄ．　Ｓｏ　ｉｔ　ｇｏｅｓ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔｒｉｋｅ　ａｔ　ｍｅ！　Ｓｈｏｗ　ｍｅ　ｙｏｕｒ　ｌａｓ"TCC_NEWLINE"ｔ，"TCC_NEWLINE
-"ｌｉｎｇｅｒｉｎｇ　ｆｌａｍｅｂｅｆｏｒｅ　ｉｔ　ｆｌｉｃｋ"TCC_NEWLINE"ｅｒｓ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈａ－ｈａ－ｈａｈ！　Ｔｈａｔ　ｉｓ　ｔｈｅ　ｆａｔｅ　ｏー"TCC_NEWLINE"ｆ　ｔｈｅｗｅａｋｔｏ　ｂｅ　ｔｒａｍｐｌｅｄ．　Ｓｏ　ｉー"TCC_NEWLINE"ｔ　ｇｏｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｒｉｋｅ　ａｔ　ｍｅ！　Ｓｈｏｗ　ｍｅ　ｙｏｕｒ　ｌａー"TCC_NEWLINE"ｓｔ，ｌｉｎｇｅｒｉｎｇ　ｆｌａｍｅｂｅｆｏｒｅ　ｉｔ　ｆー"TCC_NEWLINE"ｌｉｃｋｅｒｓ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｕｒｔｒ！　Ｉ　ｓｗｅａｒ．．．ｔｈａｔ　Ｉ．．．　Ｙｏｕ"TCC_NEWLINE"　ｗｉｌｌ"TCC_NEWLINE
-"ｎｅｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｔｒ！　Ｉ　ｓｗｅａｒ．．．ｔｈａｔ　Ｉ．．．　Ｙｏー"TCC_NEWLINE"ｕ　ｗｉｌｌｎｅｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｓ　ｔｈａｔ　ａｌｌ？　Ｓｈｅ’ｓ　ａｌｒｅａｄｙ　ｌｏｓ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｃｏｎｓｃｉｏｕｓｎｅｓｓ．　Ｗｈａｔ　ａ　ｊｏｋｅ！　Ｎｏ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｅｖｅｎ　ｆｉｔ　ｆｏｒ　ａ　ｔｏｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈａｔ　ａｌｌ？　Ｓｈｅ’ｓ　ａｌｒｅａｄｙ　ｌｏー"TCC_NEWLINE"ｓｔｃｏｎｓｃｉｏｕｓｎｅｓｓ．　Ｗｈａｔ　ａ　ｊｏｋｅ！"TCC_NEWLINE"　Ｎｏｔｅｖｅｎ　ｆｉｔ　ｆｏｒ　ａ　ｔｏｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｈａｔ　ｎｅｘｔ，　ｍｙ　ｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ　ｍａｒｃｈ．　Ｍｙ　ｆｌａｍｅｓ　ｗｉｌｌ　ｓｏｏｎ　"TCC_NEWLINE"ｒｅａｃｈ"TCC_NEWLINE
-"ｅｖｅｒｙ　ｃｏｒｎｅｒ　ｏｆ　ｔｈｉｓ　ｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍａｒｃｈ．　Ｍｙ　ｆｌａｍｅｓ　ｗｉｌｌ　ｓｏｏｎ"TCC_NEWLINE"　ｒｅａｃｈｅｖｅｒｙ　ｃｏｒｎｅｒ　ｏｆ　ｔｈｉｓ　ｌａー"TCC_NEWLINE"ｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｏｕ　ｄｏｎ’ｔ　ｗａｓｔｅ　ａｎｙ　ｔｉｍｅ，　ｄｏ　ｙ"TCC_NEWLINE"ｏｕ？　Ａｓ"TCC_NEWLINE
-"ｆｏｒ　ｔｈｉｓ　ｏｎｅ．．．　Ｙｏｕ’ｒｅ　ｊｕｓｔ　ｇｏ"TCC_NEWLINE"ｉｎｇ　ｔｏ　ｃａｓｔ"TCC_NEWLINE
-"ｈｅｒ　ａｓｉｄｅ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅｌｌ，　ｗｅｌｌ，　ｗｅｌｌ．．．　Ｉ’ｌｌ　ｇｉｖｅ　"TCC_NEWLINE"ｙｏｕ　ｐｌｅｎｔｙ　ｏｆ"TCC_NEWLINE
-"ａｔｔｅｎｔｉｏｎ，　ｓｗｅｅｔｉｅ．．．　Ｈｅｅ－ｈｅｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｏｎ’ｔ　ｗａｓｔｅ　ａｎｙ　ｔｉｍｅ，　ｄｏ　"TCC_NEWLINE"ｙｏｕ？　Ａｓｆｏｒ　ｔｈｉｓ　ｏｎｅ．．．　Ｙｏｕ’ｒｅ"TCC_NEWLINE"　ｊｕｓｔ　ｇｏｉｎｇ　ｔｏ　ｃａｓｔｈｅｒ　ａｓｉｄｅ　"TCC_NEWLINE"ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｗｅｌｌ，　ｗｅｌｌ．．．　Ｉ’ｌｌ　ｇｉｖｅ"TCC_NEWLINE"　ｙｏｕ　ｐｌｅｎｔｙ　ｏｆａｔｔｅｎｔｉｏｎ，　ｓｗｅｅー"TCC_NEWLINE"ｔｉｅ．．．　Ｈｅｅ－ｈｅｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

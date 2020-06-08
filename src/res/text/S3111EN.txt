@@ -1,49 +1,32 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ’ｒｅ　ｒｉｇｈｔ　ｂａｃｋ　ｗｈｅｒｅ　ｗｅ　ｓｔａｒ"TCC_NEWLINE"ｔｅｄ．．．"TCC_NEWLINE
-"Ａｎｄ　ｎｏｔ　ａ　ｓｔｅｐ　ｃｌｏｓｅｒ　ｔｏ　ｄｅｆｅａ"TCC_NEWLINE"ｔｉｎｇ"TCC_NEWLINE
-"Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ａｔ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ’ｓ　ｉｎｖ"TCC_NEWLINE"ｉｔａｔｉｏｎ，"TCC_NEWLINE
-"ｗｅ　ｓｔｕｍｂｌｅｄ　ｒｉｇｈｔ　ｉｎｔｏ　Ｔｈｒａｓｉｒ"TCC_NEWLINE"’ｓ"TCC_NEWLINE
-"ｔｒａｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ｒｉｇｈｔ　ｂａｃｋ　ｗｈｅｒｅ　ｗｅ　ｓｔａー"TCC_NEWLINE"ｒｔｅｄ．．．Ａｎｄ　ｎｏｔ　ａ　ｓｔｅｐ　ｃｌｏｓｅｒ　"TCC_NEWLINE"ｔｏ　ｄｅｆｅａｔｉｎｇＨｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｔ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ’ｓ　ｉｎー"TCC_NEWLINE"ｖｉｔａｔｉｏｎ，ｗｅ　ｓｔｕｍｂｌｅｄ　ｒｉｇｈｔ　ｉｎー"TCC_NEWLINE"ｔｏ　Ｔｈｒａｓｉｒ’ｓｔｒａｐ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｈ？　Ｓｏ　ｉｔ’ｓ　ｍｙ　ｆａｕｌｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｅｒ．．．ｎｏ．　Ｎｏ，　ｔｈａｔ’ｓ　ｎｏｔ　ｗｈａｔ　Ｉ"TCC_NEWLINE"　ｍｅａｎｔ．"TCC_NEWLINE
-"Ｓｔｏｐ　ｇｉｖｉｎｇ　ｍｅ　ｔｈｅ　ｅｖｉｌ　ｅｙｅ！"TCC_NEWLINE TCC_PUSH_A
-"＊ｓｉｇｈ＊　Ｗｅ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ａｒｇｕｅ．"TCC_NEWLINE"　Ｗｅ"TCC_NEWLINE
-"ｎｅｅｄ　ａ　ｐｌａｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｒｅ　ｓｈｏｕｌｄ　ｗｅ　ｆｏｃｕｓ　ｏｕｒ　ｓｅａｒ"TCC_NEWLINE"ｃｈ？"TCC_NEWLINE
-"Ｗｅ　ｃａｎ’ｔ　ｃｏｍｂ　ａｎ　ｅｎｔｉｒｅ　ｃｏｎｔｉｎ"TCC_NEWLINE"ｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｒ．．．ｎｏ．　Ｎｏ，　ｔｈａｔ’ｓ　ｎｏｔ　ｗｈａｔ　"TCC_NEWLINE"Ｉ　ｍｅａｎｔ．Ｓｔｏｐ　ｇｉｖｉｎｇ　ｍｅ　ｔｈｅ　ｅｖー"TCC_NEWLINE"ｉｌ　ｅｙｅ！"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｉｇｈ＊　Ｗｅ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ａｒｇｕｅ"TCC_NEWLINE"．　Ｗｅｎｅｅｄ　ａ　ｐｌａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ　ｓｈｏｕｌｄ　ｗｅ　ｆｏｃｕｓ　ｏｕｒ　ｓｅａー"TCC_NEWLINE"ｒｃｈ？Ｗｅ　ｃａｎ’ｔ　ｃｏｍｂ　ａｎ　ｅｎｔｉｒｅ　ｃー"TCC_NEWLINE"ｏｎｔｉｎｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｋｎｏｗ　ｗｈｏ　ｈａｓ　ｔｈｅ　ｗｅａｐｏｎ．　Ｉ　ｃ"TCC_NEWLINE"ａｎ’ｔ"TCC_NEWLINE
-"ｓｅｅ　ｉｔ　ｂｅｉｎｇ　ｉｎ　ｔｈｅ　ｈａｎｄｓ　ｏｆ　ａ"TCC_NEWLINE"ｎｙｏｎｅ"TCC_NEWLINE
-"ｏｔｈｅｒ　ｔｈａｎ　Ｌｆ　ｈｉｍｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　Ｉ　ｋｎｏｗ　ｊｕｓｔ　ｗｈｅｒｅ　ｈｅ　ｉｓｔｈｅ"TCC_NEWLINE
-"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ’　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｗｈｏ　ｈａｓ　ｔｈｅ　ｗｅａｐｏｎ．　Ｉ　"TCC_NEWLINE"ｃａｎ’ｔｓｅｅ　ｉｔ　ｂｅｉｎｇ　ｉｎ　ｔｈｅ　ｈａｎｄー"TCC_NEWLINE"ｓ　ｏｆ　ａｎｙｏｎｅｏｔｈｅｒ　ｔｈａｎ　Ｌｆ　ｈｉｍｓー"TCC_NEWLINE"ｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ　ｋｎｏｗ　ｊｕｓｔ　ｗｈｅｒｅ　ｈｅ　ｉｓｔｈー"TCC_NEWLINE"ｅＯｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ’　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ａｌｆｏｎｓｅ，　ｙｏｕ　ｓｌｙ　ｄｏｇ！　Ｗｈｅｒｅ　ｄｉ"TCC_NEWLINE"ｄ　ａｌｌ"TCC_NEWLINE
-"ｏｆ　ｔｈｉｓ　ｃｏｍｅ　ｆｒｏｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　ｙｏｕ　ｓｌｙ　ｄｏｇ！　Ｗｈｅｒｅ　ｄー"TCC_NEWLINE"ｉｄ　ａｌｌｏｆ　ｔｈｉｓ　ｃｏｍｅ　ｆｒｏｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｔ’ｓ　ｓｉｍｐｌｅ．　Ｉ　ｊｕｓｔ　ｔｈｏｕｇｈｔ　ｔｏ"TCC_NEWLINE"　ｍｙｓｅｌｆ．．．"TCC_NEWLINE
-"Ｗｈａｔ　ｗｏｕｌｄ　Ｉ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｍｅａｎ，　ｉｆ　ａｎｙｏｎｅ　ｕｎｄｅｒｓｔａｎｄｓ　"TCC_NEWLINE"ｈｏｗ"TCC_NEWLINE
-"ｈｅ　ｔｈｉｎｋｓ，　ｉｔ’ｓ　ｍｅ．　Ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｓｉｍｐｌｅ．　Ｉ　ｊｕｓｔ　ｔｈｏｕｇｈｔ　ｔー"TCC_NEWLINE"ｏ　ｍｙｓｅｌｆ．．．Ｗｈａｔ　ｗｏｕｌｄ　Ｉ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｅａｎ，　ｉｆ　ａｎｙｏｎｅ　ｕｎｄｅｒｓｔａｎｄｓ"TCC_NEWLINE"　ｈｏｗｈｅ　ｔｈｉｎｋｓ，　ｉｔ’ｓ　ｍｅ．　Ｒｉｇｈｔ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｏｈ，　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉ’ｖｅ　ｌｅａｒｎｅｄ　ｔｏ　ｐｕｔ　ｍｙ　ｔｒｕｓｔ　ｉ"TCC_NEWLINE"ｎ"TCC_NEWLINE
-"Ａｌｆｏｎｓｅ’ｓ　ｉｄｅａｓ．　Ａｓ　ｉｔ　ｈａｐｐｅｎｓ"TCC_NEWLINE"，"TCC_NEWLINE
-"ｗｅ’ｒｅ　ａｌｓｏ　ｏｕｔ　ｏｆ　ｏｐｔｉｏｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｌ　ｒｉｇｈｔ！　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．ｂ"TCC_NEWLINE"ａｃｋ"TCC_NEWLINE
-"ｔｏ　ｂａｓｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｌｅａｒｎｅｄ　ｔｏ　ｐｕｔ　ｍｙ　ｔｒｕｓｔ　"TCC_NEWLINE"ｉｎＡｌｆｏｎｓｅ’ｓ　ｉｄｅａｓ．　Ａｓ　ｉｔ　ｈａｐｐー"TCC_NEWLINE"ｅｎｓ，ｗｅ’ｒｅ　ａｌｓｏ　ｏｕｔ　ｏｆ　ｏｐｔｉｏｎｓ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ！　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．"TCC_NEWLINE"ｂａｃｋｔｏ　ｂａｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ　ｍｕｓｔｎ’ｔ　ｄｅｌａｙ　ｆｕｒｔｈｅｒ．．．"TCC_NEWLINE
-"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｃｏｎｆｒｏｎｔ　Ｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔｎ’ｔ　ｄｅｌａｙ　ｆｕｒｔｈｅｒ．．．Ｉｔ"TCC_NEWLINE"’ｓ　ｔｉｍｅ　ｔｏ　ｃｏｎｆｒｏｎｔ　Ｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
 "．．．"TCC_NEWLINE TCC_PUSH_A
@@ -51,38 +34,25 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_THRASIR
 "Ａｌｆｏｎｓｅ．．．　Ｉ’ｍ　ｌｅａｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈｅ　ｅｎｅｍｙ　ｓｐｒｉｎｇｓ　ａ　ｔｒａｐ，　ｙ"TCC_NEWLINE"ｏｕ’ｌｌ"TCC_NEWLINE
-"ｓｔａｎｄ　ｎｏ　ｃｈａｎｃｅ　ｂｙ　ｙｏｕｒｓｅｌｆ．　Ｗ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｗｉｌｌ　ｇｏ　ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅ　ｅｎｅｍｙ　ｓｐｒｉｎｇｓ　ａ　ｔｒａｐ，　"TCC_NEWLINE"ｙｏｕ’ｌｌｓｔａｎｄ　ｎｏ　ｃｈａｎｃｅ　ｂｙ　ｙｏｕｒー"TCC_NEWLINE"ｓｅｌｆ．　Ｗｅｗｉｌｌ　ｇｏ　ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ．　Ｙｏｕ　ｍｕｓｔ　ｒｅｍａｉｎ．　Ｙｏｕｒ　ｐｌａｎ"TCC_NEWLINE
-"ｈａｓ　ｎｏ　ｃｈａｎｃｅ　ｏｔｈｅｒｗｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．　Ｙｏｕ　ｍｕｓｔ　ｒｅｍａｉｎ．　Ｙｏｕｒ　ｐｌａー"TCC_NEWLINE"ｎｈａｓ　ｎｏ　ｃｈａｎｃｅ　ｏｔｈｅｒｗｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｙｏｕ　ｒｅａｌｌｙ　ｂｅｌｉｅｖｅ　ｔｈａｔ　Ｈｅｌ"TCC_NEWLINE"　ｗｉｌｌ"TCC_NEWLINE
-"ｒｅｖｉｖｅ　ｏｕｒ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｒｅａｌｌｙ　ｂｅｌｉｅｖｅ　ｔｈａｔ　Ｈｅー"TCC_NEWLINE"ｌ　ｗｉｌｌｒｅｖｉｖｅ　ｏｕｒ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．Ｙｅｓ．　Ｓｈｅ　ｈａｓ　ｔｈｅ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｗｉｌｌ　ｂａｌａｎｃｅ　ｔｈｅ　ｃｏｈｏｒｔ　ｏｆ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"ｄｅａｄ．　Ｔｈｅｎ　ｗｅ　ｗｉｌｌ　ｒｅｃｌａｉｍ　ｏｕｒ"TCC_NEWLINE
-"ｒｅａｌｍ．　Ｔｏｇｅｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｉｌｌ　ｂａｌａｎｃｅ　ｔｈｅ　ｃｏｈｏｒｔ　ｏｆ"TCC_NEWLINE"　ｔｈｅｄｅａｄ．　Ｔｈｅｎ　ｗｅ　ｗｉｌｌ　ｒｅｃｌａｉー"TCC_NEWLINE"ｍ　ｏｕｒｒｅａｌｍ．　Ｔｏｇｅｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈｅｎ　Ｉ　ｈｅａｒ　ｙｏｕ　ｓｐｅａｋ，　Ｉ　ｃａｎ’ｔ"TCC_NEWLINE"　ｈｅｌｐ"TCC_NEWLINE
-"ｂｕｔ　ｈａｖｅ　ｆａｉｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔｒａｎｇｅ，　ｉｓｎ’ｔ　ｉｔ？　Ｂｅｆｏｒｅ　ａｌｌ　"TCC_NEWLINE"ｔｈｉｓ，　ｗｅ"TCC_NEWLINE
-"ｗｅｒｅ　ｅｎｅｍｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｓｉｎｃｅ　ｔｈｅ　ｗｏｒｌｄ　ｆｅｌｌ　ｔｏ　ｒｕ"TCC_NEWLINE"ｉｎ，　ｙｏｕ"TCC_NEWLINE
-"ａｒｅ　ｔｈｅ　ｏｎｌｙ　ｏｎｅ　ｗｈｏｓｅ　ｗｏｒｄｓ　ｍ"TCC_NEWLINE"ｅａｎ"TCC_NEWLINE
-"ａｎｙｔｈｉｎｇ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｌｏｓｔ　ｅｖｅｒｙｔｈｉｎｇ．　Ｔｈｅｒｅ　ｉｓ　ｏｎ"TCC_NEWLINE"ｌｙ"TCC_NEWLINE
-"ｏｎｅ　ｔｈｉｎｇ　Ｉ　ｈａｖｅ　ｓｉｎｃｅ　ｇａｉｎｅｄ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ．　Ｏｕｒ　ｓｔｒａｎｇｅ　ｒｅｌａｔｉｏｎｓｈｉｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　Ｉ　ｈｅａｒ　ｙｏｕ　ｓｐｅａｋ，　Ｉ　ｃａｎ’"TCC_NEWLINE"ｔ　ｈｅｌｐｂｕｔ　ｈａｖｅ　ｆａｉｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｒａｎｇｅ，　ｉｓｎ’ｔ　ｉｔ？　Ｂｅｆｏｒｅ　ａｌｌ"TCC_NEWLINE"　ｔｈｉｓ，　ｗｅｗｅｒｅ　ｅｎｅｍｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｓｉｎｃｅ　ｔｈｅ　ｗｏｒｌｄ　ｆｅｌｌ　ｔｏ　ｒー"TCC_NEWLINE"ｕｉｎ，　ｙｏｕａｒｅ　ｔｈｅ　ｏｎｌｙ　ｏｎｅ　ｗｈｏｓー"TCC_NEWLINE"ｅ　ｗｏｒｄｓ　ｍｅａｎａｎｙｔｈｉｎｇ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｌｏｓｔ　ｅｖｅｒｙｔｈｉｎｇ．　Ｔｈｅｒｅ　ｉｓ　ｏー"TCC_NEWLINE"ｎｌｙｏｎｅ　ｔｈｉｎｇ　Ｉ　ｈａｖｅ　ｓｉｎｃｅ　ｇａｉー"TCC_NEWLINE"ｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ．　Ｏｕｒ　ｓｔｒａｎｇｅ　ｒｅｌａｔｉｏｎｓｈｉｐ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｍｐｈ．　Ｉ　ｓｕｐｐｏｓｅ　ｓｏ．　Ｂｏｔｈ　ｏｆ　ｕｓ"TCC_NEWLINE
-"ａｒｅ　ｍｕｃｈ　ｃｈａｎｇｅｄ，　ｉｔ　ｉｓ　ｔｒｕｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｐｈ．　Ｉ　ｓｕｐｐｏｓｅ　ｓｏ．　Ｂｏｔｈ　ｏｆ　ｕー"TCC_NEWLINE"ｓａｒｅ　ｍｕｃｈ　ｃｈａｎｇｅｄ，　ｉｔ　ｉｓ　ｔｒｕｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｆ　ｗｅ　ｗｉｎｉｆ　ｗｅ　ｇｅｔ　ｅｖｅｒｙｔｈｉｎｇ　"TCC_NEWLINE"ｂａｃｋ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｉｌｌ　ｙｏｕ　ｓｔｉｌｌ　ｓｐｅａｋ　ｗｉｔｈ　ｍｅ？"TCC_NEWLINE
-"Ｌｉｋｅ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｗｉｎｉｆ　ｗｅ　ｇｅｔ　ｅｖｅｒｙｔｈｉｎｇ"TCC_NEWLINE"　ｂａｃｋ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｌｌ　ｙｏｕ　ｓｔｉｌｌ　ｓｐｅａｋ　ｗｉｔｈ　ｍｅ？"TCC_NEWLINE"Ｌｉｋｅ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｌｌ．　Ｉ　ｐｒｏｍｉｓｅ．"TCC_NEWLINE TCC_PUSH_A

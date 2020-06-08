@@ -1,16 +1,14 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4033_EN] = TCC_OPEN_LEFT
-"Ｉ　ｋｎｏｗ　ｍｙ　ｍｏｔｈｅｒ　ｉｓ　ａｌｉｖｅ．．．"TCC_NEWLINE
-"Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ａｎｙｏｎｅ　ｓａｙ　ｏｔｈｅｒｗｉ"TCC_NEWLINE"ｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｍｙ　ｍｏｔｈｅｒ　ｉｓ　ａｌｉｖｅ．．．Ｉ"TCC_NEWLINE"　ｗｏｎ’ｔ　ｌｅｔ　ａｎｙｏｎｅ　ｓａｙ　ｏｔｈｅｒｗｉー"TCC_NEWLINE"ｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4033_EN] = TCC_OPEN_LEFT
-"Ｐｌａｙ，　ｐｌａｙ　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　ｐｌ"TCC_NEWLINE"ａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌａｙ，　ｐｌａｙ　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　ｐー"TCC_NEWLINE"ｌａｙ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｐｌａｙ．．．ｈｉｄｅ－ａｎｄ－ｓｅｅｋ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｃａｎ　ｐｌａｙ　ｈｅｒｅ，　ａｎｄ　ｎｏ　ｏｎｅ　ｗ"TCC_NEWLINE"ｉｌｌ"TCC_NEWLINE
-"ｅｖｅｎ　ｋｎｏｗ．　Ｉｔ’ｓ　ｌｉｋｅ　ａ　ｓｅｃｒｅｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｐｌａｙ　ｈｅｒｅ，　ａｎｄ　ｎｏ　ｏｎｅ　"TCC_NEWLINE"ｗｉｌｌｅｖｅｎ　ｋｎｏｗ．　Ｉｔ’ｓ　ｌｉｋｅ　ａ　ｓｅー"TCC_NEWLINE"ｃｒｅｔ！"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏ　ｔｅｌｌｉｎｇ　ａｎｙ　ｇｒｏｗｎ－ｕｐｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｐｌａｙ，　ｐｌａｙ　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　ｐｌ"TCC_NEWLINE"ａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌａｙ，　ｐｌａｙ　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　ｐー"TCC_NEWLINE"ｌａｙ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｐｌａｙ．．．ｆｏｒｅｖｅｒ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｐｌａｙ！　Ｌｅｔ’ｓ　ｐｌａｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

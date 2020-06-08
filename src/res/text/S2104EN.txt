@@ -1,8 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2104_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｎａｍｅ　ｉｓ　Ｋａｒｌａ．　Ｉ　ｄｉｄ　ｎｏｔ　ｃｏ"TCC_NEWLINE"ｍｅ　ｈｅｒｅ"TCC_NEWLINE
-"ｌｏｏｋｉｎｇ　ｆｏｒ　ａ　ｆｉｇｈｔ，　ｂｕｔ　Ｉ　ａｍ　"TCC_NEWLINE"ｂｏｕｎｄ　ｂｙ"TCC_NEWLINE
-"ａ　ｃｏｎｔｒａｃｔ　ａｎｄ　ｃａｎｎｏｔ　ｒｅｆｕｓｅ　ｙ"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｋａｒｌａ．　Ｉ　ｄｉｄ　ｎｏｔ　ｃー"TCC_NEWLINE"ｏｍｅ　ｈｅｒｅｌｏｏｋｉｎｇ　ｆｏｒ　ａ　ｆｉｇｈｔ，　"TCC_NEWLINE"ｂｕｔ　Ｉ　ａｍ　ｂｏｕｎｄ　ｂｙａ　ｃｏｎｔｒａｃｔ　ａー"TCC_NEWLINE"ｎｄ　ｃａｎｎｏｔ　ｒｅｆｕｓｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ　ｕｓ　ｂｅｇｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

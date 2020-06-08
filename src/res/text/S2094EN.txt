@@ -1,8 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2094_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ’ｒｅ　ｈｅｒｅ　ｔｏ　ａｔｔａｃｋ　ｍｅ？　Ｉ　ｎｅ"TCC_NEWLINE"ｅｄ　ｔｏ"TCC_NEWLINE
-"ｍａｋｅ　ｓｏｍｅｔｈｉｎｇ　ｖｅｒｙ　ｃｌｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｒｅｓ　ｗｉｌｌ　ｎｅｖｅｒ　ｆｏｒｇｉｖｅ　ｙｏｕ　ｉｆ"TCC_NEWLINE"　ｙｏｕ　ｌａｙ　ａ"TCC_NEWLINE
-"ｆｉｎｇｅｒ　ｏｎ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｈｅｒｅ　ｔｏ　ａｔｔａｃｋ　ｍｅ？　Ｉ　ｎー"TCC_NEWLINE"ｅｅｄ　ｔｏｍａｋｅ　ｓｏｍｅｔｈｉｎｇ　ｖｅｒｙ　ｃｌｅー"TCC_NEWLINE"ａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅｓ　ｗｉｌｌ　ｎｅｖｅｒ　ｆｏｒｇｉｖｅ　ｙｏｕ　ｉー"TCC_NEWLINE"ｆ　ｙｏｕ　ｌａｙ　ａｆｉｎｇｅｒ　ｏｎ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,65 +1,46 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ａｌｆｏｎｓｅ，　ｗｈａｔ　ａｒｅ　ｙｏｕ　ｓａｙｉｎｇ？"TCC_NEWLINE
-"Ｌｆ．．．ｉｓ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　ｗｈａｔ　ａｒｅ　ｙｏｕ　ｓａｙｉｎｇ？"TCC_NEWLINE"Ｌｆ．．．ｉｓ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｈｅ　ｄｉｄ　ｎｏｔ　ｃｏｎｆｉｒｍ　ｉｔ，　ｂｕｔ　ｎｏｒ"TCC_NEWLINE"　ｄｉｄ　ｈｅ"TCC_NEWLINE
-"ｄｅｎｙ　ｉｔ．　Ｉ　ｆｅａｒ　Ｉ　ａｍ　ｃｏｒｒｅｃｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｉｓ　ｎｏｔ　ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ　ｏｆ　Ａｓ"TCC_NEWLINE"ｋｒ．　Ｈｅ"TCC_NEWLINE
-"ｉｓ　ｍｅｆｒｏｍ　ａｎｏｔｈｅｒ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｍｕｓｔ　ｋｎｏｗ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
-"Ｈｅａｒｔ’ｓ　Ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｄｉｄ　ｎｏｔ　ｃｏｎｆｉｒｍ　ｉｔ，　ｂｕｔ　ｎｏー"TCC_NEWLINE"ｒ　ｄｉｄ　ｈｅｄｅｎｙ　ｉｔ．　Ｉ　ｆｅａｒ　Ｉ　ａｍ　"TCC_NEWLINE"ｃｏｒｒｅｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｉｓ　ｎｏｔ　ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ　ｏｆ　Ａー"TCC_NEWLINE"ｓｋｒ．　Ｈｅｉｓ　ｍｅｆｒｏｍ　ａｎｏｔｈｅｒ　Ａｓｋｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｍｕｓｔ　ｋｎｏｗ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　"TCC_NEWLINE"ｔｈｅＨｅａｒｔ’ｓ　Ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｅ　Ｈｅａｒｔ’ｓ　Ｒｉｔｅ？　Ｎｏｗ　ｗｈａｔ’ｓ　ｔ"TCC_NEWLINE"ｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｈｅａｒｔ’ｓ　Ｒｉｔｅ？　Ｎｏｗ　ｗｈａｔ’ｓ　"TCC_NEWLINE"ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ　ａｎ　Ｅｍｂｌｉａｎ　ｃｅｒｅ"TCC_NEWLINE"ｍｏｎｙ，"TCC_NEWLINE
-"ｐｅｒｈａｐｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"ＷａｉｔＰｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？　Ｗｈａｔ"TCC_NEWLINE
-"ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？　ＨＯＷ　ｄｉｄ"TCC_NEWLINE
-"ｙｏｕ　ｇｅｔ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ　ａｎ　Ｅｍｂｌｉａｎ　ｃｅｒー"TCC_NEWLINE"ｅｍｏｎｙ，ｐｅｒｈａｐｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"ＷａｉｔＰｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？　Ｗｈａｔａｒー"TCC_NEWLINE"ｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？　ＨＯＷ　ｄｉｄｙｏｕ　"TCC_NEWLINE"ｇｅｔ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｈｅｌ’ｓ　ａｒｍｙ　ｈａｓ　ｃｏｎｔｉｎｕｅｄ　ｔｏ　ａｄ"TCC_NEWLINE"ｖａｎｃｅ．"TCC_NEWLINE
-"Ｅｍｂｌａ　ｉｓ　ｔｈｒｅａｔｅｎｅｄ．　Ｔｈａｔ　ｉｓ　ｗ"TCC_NEWLINE"ｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ’ｓ　ａｒｍｙ　ｈａｓ　ｃｏｎｔｉｎｕｅｄ　ｔｏ　ａー"TCC_NEWLINE"ｄｖａｎｃｅ．Ｅｍｂｌａ　ｉｓ　ｔｈｒｅａｔｅｎｅｄ．　Ｔー"TCC_NEWLINE"ｈａｔ　ｉｓ　ｗｈｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｓ　ｆｏｒ　ｈｏｗ，　Ｉ　ａｓｋｅｄ　Ｌｏｋｉ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｓｅｅ．　Ｈａｖｅ　ｙｏｕ　ｃｏｍｅ　ｔｏ　ｈｅｌｐ　ｕ"TCC_NEWLINE"ｓ"TCC_NEWLINE
-"ｄｅｆｅａｔ　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ．　Ｈａｖｅ　ｙｏｕ　ｃｏｍｅ　ｔｏ　ｈｅｌｐ　"TCC_NEWLINE"ｕｓｄｅｆｅａｔ　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｏｈ，　ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｌ　ｍｕｓｔ　ｂｅ　ｋｉｌｌｅｄ．　Ｕｎｔｉｌ　ｔｈｅｎ"TCC_NEWLINE"，　Ｉ"TCC_NEWLINE
-"ｗｉｌｌ　ａｌｌｙ　ｗｉｔｈ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｍｕｓｔ　ｂｅ　ｋｉｌｌｅｄ．　Ｕｎｔｉｌ　ｔｈｅー"TCC_NEWLINE"ｎ，　Ｉｗｉｌｌ　ａｌｌｙ　ｗｉｔｈ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏｗ　ｔｈａｔ’ｓ　ａ　ｓｕｒｐｒｉｓｅ！　Ｉ　ｊｕｓｔ　"TCC_NEWLINE"ｈｏｐｅ"TCC_NEWLINE
-"ｙｏｕ　ｗｏｎ’ｔ　ｅｎｄ　ｕｐ　ｓｔａｂｂｉｎｇ　ｕｓ　ｉ"TCC_NEWLINE"ｎ"TCC_NEWLINE
-"ｔｈｅ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｔｈａｔ’ｓ　ａ　ｓｕｒｐｒｉｓｅ！　Ｉ　ｊｕｓｔ"TCC_NEWLINE"　ｈｏｐｅｙｏｕ　ｗｏｎ’ｔ　ｅｎｄ　ｕｐ　ｓｔａｂｂｉｎー"TCC_NEWLINE"ｇ　ｕｓ　ｉｎｔｈｅ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｓｈｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｎｅｍｉｅｓ　ａｒｅ　ａｐｐｒｏａｃｈｉｎｇｏｖｅｒ　ｔｈ"TCC_NEWLINE"ｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｎｅｍｉｅｓ　ａｒｅ　ａｐｐｒｏａｃｈｉｎｇｏｖｅｒ　ｔー"TCC_NEWLINE"ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3091_EN] = TCC_OPEN_LEFT
 "Ｔｈｅ　ａｒｍｙ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｔａｋｅ　ｃａｒｅ　ｏｆ　ｔｈｅｍ．　Ｗｈｅｎ　ｙｏ"TCC_NEWLINE"ｕ’ｖｅ"TCC_NEWLINE
-"ｆｉｎｉｓｈｅｄ，　ｗｅ　ｃａｎ　ｔａｌｋ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｒｅｓｔ　ｆｏｒ　ｎｏｗ．　Ａｆｔｅｒ　ｃｏｍｉｎ"TCC_NEWLINE"ｇ　ａｌｌ　ｔｈｉｓ"TCC_NEWLINE
-"ｗａｙ．．．Ｉ’ｍ　ｔｉｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｔａｋｅ　ｃａｒｅ　ｏｆ　ｔｈｅｍ．　Ｗｈｅｎ　ｙー"TCC_NEWLINE"ｏｕ’ｖｅｆｉｎｉｓｈｅｄ，　ｗｅ　ｃａｎ　ｔａｌｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｒｅｓｔ　ｆｏｒ　ｎｏｗ．　Ａｆｔｅｒ　ｃｏｍｉー"TCC_NEWLINE"ｎｇ　ａｌｌ　ｔｈｉｓｗａｙ．．．Ｉ’ｍ　ｔｉｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｓｏ　ｓｅｌｆｉｓｈ！　Ｊｕｓｔ　ａｓ　Ｉ　ｓｕｓｐｅｃｔｅ"TCC_NEWLINE"ｄｙｏｕ"TCC_NEWLINE
-"ｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｈｅｌｐｉｎｇ　ｕ"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｓｅｌｆｉｓｈ！　Ｊｕｓｔ　ａｓ　Ｉ　ｓｕｓｐｅｃｔー"TCC_NEWLINE"ｅｄｙｏｕｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｈｅｌー"TCC_NEWLINE"ｐｉｎｇ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3091_EN] = TCC_OPEN_LEFT
-"Ｔｈｅ　Ｈｅａｒｔ’ｓ　Ｒｉｔｅ　ｉｓ　ａ　ｃｅｒｅｍｏｎｙ"TCC_NEWLINE
-"ｔｈａｔ　ｃａｎ　ｋｉｌｌ　Ｈｅｌ．　Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｈｅａｒｔ’ｓ　Ｒｉｔｅ　ｉｓ　ａ　ｃｅｒｅｍｏｎー"TCC_NEWLINE"ｙｔｈａｔ　ｃａｎ　ｋｉｌｌ　Ｈｅｌ．　Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｎｄｅｅｄ．　Ｂｕｔ　ｔｈａｔ’ｓ　ａｌｌ　ｗｅ　ｋｎｏｗ"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｄｅｔａｉｌｓ　ｗｅｒｅ　ｓｃａｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｄｅｅｄ．　Ｂｕｔ　ｔｈａｔ’ｓ　ａｌｌ　ｗｅ　ｋｎｏー"TCC_NEWLINE"ｗ．Ｄｅｔａｉｌｓ　ｗｅｒｅ　ｓｃａｎｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｌｅｔ’ｓ　ｂｅ　ｏｎ　ｏｕｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｈｅｒｅ　ｄｏ　ｙｏｕ　ｓｕｇｇｅｓｔ　ｗｅ　ｇｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｅｍｂｌａ，　ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈｉｓ　Ａｓｋｒ　ｈａｓ　ｒｅｃｏｒｄｓ　ｏｆ　ｔｈ"TCC_NEWLINE"ｅ　ｒｉｔｅ，"TCC_NEWLINE
-"ｔｈｅｎ　ｔｈｅ　Ｅｍｂｌａ　ｈｅｒｅ　ｍｕｓｔ　ｈａｖｅ"TCC_NEWLINE
-"ｓｏｍｅ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｉｓ　Ａｓｋｒ　ｈａｓ　ｒｅｃｏｒｄｓ　ｏｆ　ｔー"TCC_NEWLINE"ｈｅ　ｒｉｔｅ，ｔｈｅｎ　ｔｈｅ　Ｅｍｂｌａ　ｈｅｒｅ　ｍー"TCC_NEWLINE"ｕｓｔ　ｈａｖｅｓｏｍｅ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

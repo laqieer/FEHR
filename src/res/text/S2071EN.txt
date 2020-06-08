@@ -1,53 +1,27 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2071_EN] = TCC_OPEN_LEFT
-"Ｏｈ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE
-"Ｓｏｏｎ，　ｗｅ　ｗｉｌｌ　ｍｅｅｔ．　Ｉ　ａｍ　ｏｖｅｒｊ"TCC_NEWLINE"ｏｙｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　ｉｍｐｏｒｔａｎｔ　ｔｏ　"TCC_NEWLINE"ｔｅｌｌ　ｙｏｕ"TCC_NEWLINE
-"ｆｉｒｓｔ，　ｔｈｏｕｇｈ．　Ｔｈｅｒｅ　ｉｓ　ａ　ｃｅｒｅ"TCC_NEWLINE"ｍｏｎｙ　ｉｎ"TCC_NEWLINE
-"Ｎｉｆｌ　ｃａｌｌｅｄ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｓｏ　ｐｏｗｅｒｆｕｌ　ｔｈａｔ　ｉｔ　ｃａｎ　"TCC_NEWLINE"ｅｘｔｉｎｇｕｉｓｈ"TCC_NEWLINE
-"ｅｖｅｎ　ｔｈｅ　ｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｌａｓｔ　ｔｏ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｕａｌ"TCC_NEWLINE"　ｗａｓ　ｍｙ"TCC_NEWLINE
-"ｍｏｔｈｅｒ，　ｉｎ　ｈｅｒ　ｆｉｇｈｔ　ａｇａｉｎｓｔ　Ｓ"TCC_NEWLINE"ｕｒｔｒ．　Ｓｈｅ"TCC_NEWLINE
-"ｌｏｓｔ　ｈｅｒ　ｌｉｆｅ　ｔｈａｔ　ｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｎｋｓ　ｔｏ　ｔｈａｔ，　Ｉ　ａｍ　ｓｕｒｅ　ｔｈａｔ"TCC_NEWLINE"　Ｓｕｒｔｒ"TCC_NEWLINE
-"ｔｈｉｎｋｓ　ｈｅ　ｉｓ　ｕｎｔｏｕｃｈａｂｌｅ．　Ｔｈａｔ"TCC_NEWLINE"　ｉｓ"TCC_NEWLINE
-"ｓｉｍｐｌｙ　ｎｏｔ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎｓｔｅａｄ，　Ｉ　ｂｅｌｉｅｖｅ　ｉｔ　ｗａｓ　ａ　ｐｌ"TCC_NEWLINE"ｏｙ　ｏｆ　ｍｙ"TCC_NEWLINE
-"ｍｏｔｈｅｒ’ｓ，　ｄｅｓｉｇｎｅｄ　ｔｏ　ｔｈｒｏｗ　Ｓｕ"TCC_NEWLINE"ｒｔｒ　ｏｆｆ"TCC_NEWLINE
-"ｈｉｓ　ｇｕａｒｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｅ　ｃｏｎｄｕｃｔｅｄ　ｔｈｅ　ｒｉｔｅ　ｗｉｔｈｏｕｔ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
-"ｎｅｃｅｓｓａｒｙ　ａｒｔｉｆａｃｔｓ，　ｙｏｕ　ｓｅｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ　ｈａｖｅ　ｏｎｅ　ｏｆ　ｔｈｅｍ　ｗｉｔｈ　ｍｅ"TCC_NEWLINE"．　Ｉｔ　ｉｓ"TCC_NEWLINE
-"ｃａｌｌｅｄ　ｔｈｅ　Ｓｎｊｒｓｔｅｉｎｎ．　Ａｎｄ　ｔｈｅ"TCC_NEWLINE"　ｏｔｈｅｒ，"TCC_NEWLINE
-"ｗｅｌｌ．．．　Ｉｔ　ｉｓ　ｉｎ　ｙｏｕｒ　ｈａｎｄｓ　ａｌ"TCC_NEWLINE"ｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ，　Ｂｒｅｉｄ"TCC_NEWLINE"ａｂｌｉｋ．"TCC_NEWLINE
-"Ｙｏｕｒ　ｗｅａｐｏｎ　ｈｏｌｄｓ　ａ　ｖｅｒｙ　ｓｐｅｃｉ"TCC_NEWLINE"ａｌ"TCC_NEWLINE
-"ｐｏｗｅｒｉｔ　ｃａｎ　ｃｏｎｔｒｏｌ　ｔｈｅ　ｗｏｒｌｄｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｗｅ　ｍｅｅｔ，　Ｉ　ｗｉｌｌ　ｅｎｔｒｕｓｔ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
-"ｓｔｏｎｅ　ｔｏ　ｙｏｕ．　Ａｎｄ　ｗｉｔｈ　ｉｔ，　ｙｏｕ"TCC_NEWLINE"　ｗｉｌｌ　ｂｅ"TCC_NEWLINE
-"ａｂｌｅ　ｔｏ　ｇｕｉｄｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗｉｌｌ　ｅｘｐｏｓｅ　ｔｏ　ｕｓ　ｔｈｅ　ｐａｔｈ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　ｔｒｕｅ"TCC_NEWLINE
-"Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ　ａｎｄ　ｇｒａｎｔ　ｕｓ　ｔｈｅ"TCC_NEWLINE"　ｐｏｗｅｒ"TCC_NEWLINE
-"ｗｅ　ｎｅｅｄ　ｔｏ　ｄｅｆｅａｔ　Ｓｕｒｔｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．Ｓｏｏｎ，　ｗｅ　ｗｉｌｌ　ｍｅｅｔ．　Ｉ　ａｍ　ｏー"TCC_NEWLINE"ｖｅｒｊｏｙｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　ｉｍｐｏｒｔａｎｔ　ｔｏ"TCC_NEWLINE"　ｔｅｌｌ　ｙｏｕｆｉｒｓｔ，　ｔｈｏｕｇｈ．　Ｔｈｅｒｅ"TCC_NEWLINE"　ｉｓ　ａ　ｃｅｒｅｍｏｎｙ　ｉｎＮｉｆｌ　ｃａｌｌｅｄ　"TCC_NEWLINE"ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｓｏ　ｐｏｗｅｒｆｕｌ　ｔｈａｔ　ｉｔ　ｃａｎ"TCC_NEWLINE"　ｅｘｔｉｎｇｕｉｓｈｅｖｅｎ　ｔｈｅ　ｆｌａｍｅｓ　ｏｆ"TCC_NEWLINE"　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌａｓｔ　ｔｏ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｕａー"TCC_NEWLINE"ｌ　ｗａｓ　ｍｙｍｏｔｈｅｒ，　ｉｎ　ｈｅｒ　ｆｉｇｈｔ　"TCC_NEWLINE"ａｇａｉｎｓｔ　Ｓｕｒｔｒ．　Ｓｈｅｌｏｓｔ　ｈｅｒ　ｌｉー"TCC_NEWLINE"ｆｅ　ｔｈａｔ　ｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋｓ　ｔｏ　ｔｈａｔ，　Ｉ　ａｍ　ｓｕｒｅ　ｔｈａー"TCC_NEWLINE"ｔ　Ｓｕｒｔｒｔｈｉｎｋｓ　ｈｅ　ｉｓ　ｕｎｔｏｕｃｈａｂー"TCC_NEWLINE"ｌｅ．　Ｔｈａｔ　ｉｓｓｉｍｐｌｙ　ｎｏｔ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｓｔｅａｄ，　Ｉ　ｂｅｌｉｅｖｅ　ｉｔ　ｗａｓ　ａ　ｐー"TCC_NEWLINE"ｌｏｙ　ｏｆ　ｍｙｍｏｔｈｅｒ’ｓ，　ｄｅｓｉｇｎｅｄ　ｔー"TCC_NEWLINE"ｏ　ｔｈｒｏｗ　Ｓｕｒｔｒ　ｏｆｆｈｉｓ　ｇｕａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｃｏｎｄｕｃｔｅｄ　ｔｈｅ　ｒｉｔｅ　ｗｉｔｈｏｕー"TCC_NEWLINE"ｔ　ｔｈｅｎｅｃｅｓｓａｒｙ　ａｒｔｉｆａｃｔｓ，　ｙｏｕ"TCC_NEWLINE"　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｈａｖｅ　ｏｎｅ　ｏｆ　ｔｈｅｍ　ｗｉｔｈ　ｍー"TCC_NEWLINE"ｅ．　Ｉｔ　ｉｓｃａｌｌｅｄ　ｔｈｅ　Ｓｎｊｒｓｔｅｉｎｎ"TCC_NEWLINE"．　Ａｎｄ　ｔｈｅ　ｏｔｈｅｒ，ｗｅｌｌ．．．　Ｉｔ　ｉｓ"TCC_NEWLINE"　ｉｎ　ｙｏｕｒ　ｈａｎｄｓ　ａｌｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ，　Ｂｒｅｉー"TCC_NEWLINE"ｄａｂｌｉｋ．Ｙｏｕｒ　ｗｅａｐｏｎ　ｈｏｌｄｓ　ａ　ｖｅー"TCC_NEWLINE"ｒｙ　ｓｐｅｃｉａｌｐｏｗｅｒｉｔ　ｃａｎ　ｃｏｎｔｒｏｌ"TCC_NEWLINE"　ｔｈｅ　ｗｏｒｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｗｅ　ｍｅｅｔ，　Ｉ　ｗｉｌｌ　ｅｎｔｒｕｓｔ　"TCC_NEWLINE"ｔｈｅｓｔｏｎｅ　ｔｏ　ｙｏｕ．　Ａｎｄ　ｗｉｔｈ　ｉｔ，"TCC_NEWLINE"　ｙｏｕ　ｗｉｌｌ　ｂｅａｂｌｅ　ｔｏ　ｇｕｉｄｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｉｌｌ　ｅｘｐｏｓｅ　ｔｏ　ｕｓ　ｔｈｅ　ｐａｔｈ"TCC_NEWLINE"　ｔｏ　ｔｈｅ　ｔｒｕｅＲｉｔｅ　ｏｆ　Ｆｒｏｓｔ　ａｎｄ"TCC_NEWLINE"　ｇｒａｎｔ　ｕｓ　ｔｈｅ　ｐｏｗｅｒｗｅ　ｎｅｅｄ　ｔｏ"TCC_NEWLINE"　ｄｅｆｅａｔ　Ｓｕｒｔｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｌｏｓｉｎｇ　Ｌａｅｇｊａｒｎ　ｉｎ　ｂａｔｔｌｅ　ｈａｓ　"TCC_NEWLINE"ｔｈｒｏｗｎ"TCC_NEWLINE
-"ｔｈｅ　ｅｎｅｍｙ　ｉｎｔｏ　ｔｏｔａｌ　ｄｉｓａｒｒａｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｋｉｎｄ　ｏｆ　ｃｈａｎｃｅ　ｄｏｅｓ　ｎｏｔ　ｃ"TCC_NEWLINE"ｏｍｅ"TCC_NEWLINE
-"ｏｆｔｅｎ．　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｍｏｖｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｏｓｉｎｇ　Ｌａｅｇｊａｒｎ　ｉｎ　ｂａｔｔｌｅ　ｈａｓ"TCC_NEWLINE"　ｔｈｒｏｗｎｔｈｅ　ｅｎｅｍｙ　ｉｎｔｏ　ｔｏｔａｌ　ｄー"TCC_NEWLINE"ｉｓａｒｒａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｋｉｎｄ　ｏｆ　ｃｈａｎｃｅ　ｄｏｅｓ　ｎｏｔ　"TCC_NEWLINE"ｃｏｍｅｏｆｔｅｎ．　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｍｏｖｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ，　ｈｏｗ　ｍｕｃｈ　ｌｏｎｇｅ"TCC_NEWLINE"ｒ　ｔｉｌｌ"TCC_NEWLINE
-"ｗｅ　ｒｅａｃｈ　ｔｈｅ　ｓａｎｃｔｕａｒｙ　ａｎｄ　ｍｅｅ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｙｏｕｒ　ｓｉｓｔｅｒ，　Ｐｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ，　ｈｏｗ　ｍｕｃｈ　ｌｏｎｇー"TCC_NEWLINE"ｅｒ　ｔｉｌｌｗｅ　ｒｅａｃｈ　ｔｈｅ　ｓａｎｃｔｕａｒｙ"TCC_NEWLINE"　ａｎｄ　ｍｅｅｔｙｏｕｒ　ｓｉｓｔｅｒ，　Ｐｒｉｎｃｅｓー"TCC_NEWLINE"ｓ　Ｇｕｎｎｔｈｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
-"Ｉ　ｗｏｕｌｄ　ｓａｙ　ｔｈａｔ　ｉｔ　ｗｉｌｌ　ｔａｋｅ　"TCC_NEWLINE"ｕｓ　ａｂｏｕｔ"TCC_NEWLINE
-"ｔｈｒｅｅ　ｍｏｒｅ　ｄａｙｓ　ｔｏ　ｒｅａｃｈ　ｔｈｅ"TCC_NEWLINE
-"ｓａｎｃｔｕａｒｙ　ａｔ　Ｓｎｊｒｈｏｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ｓａｙ　ｔｈａｔ　ｉｔ　ｗｉｌｌ　ｔａｋｅ"TCC_NEWLINE"　ｕｓ　ａｂｏｕｔｔｈｒｅｅ　ｍｏｒｅ　ｄａｙｓ　ｔｏ　ｒー"TCC_NEWLINE"ｅａｃｈ　ｔｈｅｓａｎｃｔｕａｒｙ　ａｔ　Ｓｎｊｒｈｏｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｌｌ　ｒｉｇｈｔ．　Ｗｅ　ｎｅｅｄ　ｔｏ　ｈｕｒｒｙ　ａｎ"TCC_NEWLINE"ｄ　ｂｒｅａｋ"TCC_NEWLINE
-"ｔｈｒｏｕｇｈ　ｔｈｅ　ｅｎｅｍｙ’ｓ　ｌｉｎｅｓ，　ａｎｄ"TCC_NEWLINE"　ｔｈｅｎ"TCC_NEWLINE
-"ｈｅａｄ　ｗｅｓｔ．　Ｔｈｅ　ｐｒｉｎｃｅｓｓ　ｉｓ　ｗａｉ"TCC_NEWLINE"ｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ．　Ｗｅ　ｎｅｅｄ　ｔｏ　ｈｕｒｒｙ　ａー"TCC_NEWLINE"ｎｄ　ｂｒｅａｋｔｈｒｏｕｇｈ　ｔｈｅ　ｅｎｅｍｙ’ｓ　ｌー"TCC_NEWLINE"ｉｎｅｓ，　ａｎｄ　ｔｈｅｎｈｅａｄ　ｗｅｓｔ．　Ｔｈｅ　"TCC_NEWLINE"ｐｒｉｎｃｅｓｓ　ｉｓ　ｗａｉｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

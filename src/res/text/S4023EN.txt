@@ -1,48 +1,31 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4023_EN] = TCC_OPEN_LEFT
-"Ｄｅｆｅａｔｅｄ　ｂｙ　ａ　ｃｕｒｓｅｄ　ｓｗｏｒｄ．．．"TCC_NEWLINE
-"Ｗｈａｔ　ａ　ｃｈｉｌｄ　Ｉ　ｗａｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅｆｅａｔｅｄ　ｂｙ　ａ　ｃｕｒｓｅｄ　ｓｗｏｒｄ．．．"TCC_NEWLINE"Ｗｈａｔ　ａ　ｃｈｉｌｄ　Ｉ　ｗａｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4023_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｈｍｍ．．．　Ｄｏ　Ｉ　Ｈｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
-"．．．Ｓｏｍｅｔｈｉｎｇ　ｏｎ　ｙｏｕｒ　ｍｉｎｄ，　Ｓｈａ"TCC_NEWLINE"ｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｓｏｍｅｔｈｉｎｇ　ｏｎ　ｙｏｕｒ　ｍｉｎｄ，　Ｓｈー"TCC_NEWLINE"ａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈａｖｅ　ｗｅ．．．ｍｅｔ　ｓｏｍｅｗｈｅｒｅ　ｂｅｆｏｒｅ"TCC_NEWLINE"，"TCC_NEWLINE
-"Ｐｅｏｎｙ？　Ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｙｏｕ　ｉｓ　"TCC_NEWLINE"ｊｕｓｔ"TCC_NEWLINE
-"ｓｏ　ｆａｍｉｌｉａｒ　ｓｏｍｅｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｖｅ　ｗｅ．．．ｍｅｔ　ｓｏｍｅｗｈｅｒｅ　ｂｅｆｏｒー"TCC_NEWLINE"ｅ，Ｐｅｏｎｙ？　Ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｙｏｕ　"TCC_NEWLINE"ｉｓ　ｊｕｓｔｓｏ　ｆａｍｉｌｉａｒ　ｓｏｍｅｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｏ－ｏｈ！　Ｒｅａｌｌｙ？　Ｗｈ－ｗｈｅｒｅ　ｗｏｕｌｄ"TCC_NEWLINE
-"ｗｅ　ｈａｖｅ　ｍｅｔ　ｂｅｆｏｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏ－ｏｈ！　Ｒｅａｌｌｙ？　Ｗｈ－ｗｈｅｒｅ　ｗｏｕｌｄｗー"TCC_NEWLINE"ｅ　ｈａｖｅ　ｍｅｔ　ｂｅｆｏｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｍｍ．．．　Ｉ　ｇｕｅｓｓ　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｄｅｅｐ　ｄｏｗｎ，　Ｉ　ｆｅｅｌ　ａｓ　ｔｈｏｕｇ"TCC_NEWLINE"ｈ"TCC_NEWLINE
-"Ｉ　ｋｎｏｗ　ｙｏｕ．　Ｗｈｙ　ｗｏｕｌｄ　ｔｈａｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｄｅｅｐ　ｄｏｗｎ，　Ｉ　ｆｅｅｌ　ａｓ　ｔｈｏｕー"TCC_NEWLINE"ｇｈＩ　ｋｎｏｗ　ｙｏｕ．　Ｗｈｙ　ｗｏｕｌｄ　ｔｈａｔ　"TCC_NEWLINE"ｂｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｈ．．．　Ｍａｙｂｅ　ｆｒｏｍ　ｙｏｕｒ　ｄｒｅａｍｓ？"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｎｇ，　ｉｎｎｏｃｅｎｔ　ｃｈｉｌｄｒｅｎ　ｌａｕｇｈ"TCC_NEWLINE"　ａｎｄ"TCC_NEWLINE
-"ｐｌａｙ　ｗｉｔｈ　ｕｓ　ｌｊｓｌｆａｒ　ａｓ　ｔｈｅｙ　ｄ"TCC_NEWLINE"ｒｅａｍ．"TCC_NEWLINE
-"Ｐｅｒｈａｐｓ　ｔｈａｔ’ｓ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｎｇ，　ｉｎｎｏｃｅｎｔ　ｃｈｉｌｄｒｅｎ　ｌａｕｇー"TCC_NEWLINE"ｈ　ａｎｄｐｌａｙ　ｗｉｔｈ　ｕｓ　ｌｊｓｌｆａｒ　ａｓ　"TCC_NEWLINE"ｔｈｅｙ　ｄｒｅａｍ．Ｐｅｒｈａｐｓ　ｔｈａｔ’ｓ　ｉｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏｗ　ｔｈａｔ　Ｉ　ｈｅａｒ　ｙｏｕ　ｓａｙ　ｉｔ．．．"TCC_NEWLINE
-"ｔｈａｔ　ｍｕｓｔ　ｂｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｔｈｉｎｋ　Ｉ　ｗｏｕｌｄ　ｒｅｍｅｍｂｅｒ　ｄｒｅａ"TCC_NEWLINE"ｍｓ"TCC_NEWLINE
-"ｆｒｏｍ　ｓｏ　ｌｏｎｇ　ａｇｏ．．．　Ｂｕｔ　Ｉ　ｓｔｉｌ"TCC_NEWLINE"ｌ　ｗｉｓｈ"TCC_NEWLINE
-"Ｉ　ｃｏｕｌｄ　ｒｅｍｅｍｂｅｒ　ｍｏｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｔｈａｔ　Ｉ　ｈｅａｒ　ｙｏｕ　ｓａｙ　ｉｔ．．．"TCC_NEWLINE"ｔｈａｔ　ｍｕｓｔ　ｂｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｔｈｉｎｋ　Ｉ　ｗｏｕｌｄ　ｒｅｍｅｍｂｅｒ　ｄｒｅー"TCC_NEWLINE"ａｍｓｆｒｏｍ　ｓｏ　ｌｏｎｇ　ａｇｏ．．．　Ｂｕｔ　Ｉ　"TCC_NEWLINE"ｓｔｉｌｌ　ｗｉｓｈＩ　ｃｏｕｌｄ　ｒｅｍｅｍｂｅｒ　ｍｏー"TCC_NEWLINE"ｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈｅｔｈｅｒ　ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｏｒ　ｎｏｔ，　ｗ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ａｒｅ　ＢＯＵＮＤ　ｔｏ　ｇｅｔ　ａｌｏｎｇ　ｓｐｌｅｎｄｉ"TCC_NEWLINE"ｄｌｙ！"TCC_NEWLINE
-"Ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｔｈｉｎｋ，　ａｔ　ｌｅａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｔｈｅｒ　ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｏｒ　ｎｏｔ，　"TCC_NEWLINE"ｗｅａｒｅ　ＢＯＵＮＤ　ｔｏ　ｇｅｔ　ａｌｏｎｇ　ｓｐｌｅー"TCC_NEWLINE"ｎｄｉｄｌｙ！Ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｔｈｉｎｋ，　ａー"TCC_NEWLINE"ｔ　ｌｅａｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｌ，　Ｉ　ａｇｒｅｅ！　Ｗｉｔｈ　ｕｓ　ｔｏｇｅｔｈｅ"TCC_NEWLINE"ｒ，　ｏｕｒ"TCC_NEWLINE
-"ｆｒｉｅｎｄｓ　ｗｉｌｌ　ｈａｖｅ　ａ　ｔｏｕｇｈ　ｔｉｍｅ"TCC_NEWLINE"　ＮＯＴ"TCC_NEWLINE
-"ｓｅｅｉｎｇ　ｔｈｅ　ｂｒｉｇｈｔ　ｓｉｄｅ　ｏｆ　ｔｈｉｎ"TCC_NEWLINE"ｇｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ’ｓ　ｒｉｇｈｔ！　．．．Ｗｅｌｌ，　ｓｉｎｃｅ　Ｉ"TCC_NEWLINE"　ｃａｎ’ｔ"TCC_NEWLINE
-"ｒｅｍｅｍｂｅｒ　ｍｅｅｔｉｎｇ　ｙｏｕ　ｂｅｆｏｒｅ．．．"TCC_NEWLINE
-"Ｉ’ｍ　ｇｌａｄ　ｔｏ　ｍｅｅｔ　ｙｏｕ　ｎｏｗ，　Ｐｅｏｎ"TCC_NEWLINE"ｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　Ｉ　ａｇｒｅｅ！　Ｗｉｔｈ　ｕｓ　ｔｏｇｅｔｈー"TCC_NEWLINE"ｅｒ，　ｏｕｒｆｒｉｅｎｄｓ　ｗｉｌｌ　ｈａｖｅ　ａ　ｔｏー"TCC_NEWLINE"ｕｇｈ　ｔｉｍｅ　ＮＯＴｓｅｅｉｎｇ　ｔｈｅ　ｂｒｉｇｈｔ"TCC_NEWLINE"　ｓｉｄｅ　ｏｆ　ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ！　．．．Ｗｅｌｌ，　ｓｉｎｃｅ　"TCC_NEWLINE"Ｉ　ｃａｎ’ｔｒｅｍｅｍｂｅｒ　ｍｅｅｔｉｎｇ　ｙｏｕ　ｂー"TCC_NEWLINE"ｅｆｏｒｅ．．．Ｉ’ｍ　ｇｌａｄ　ｔｏ　ｍｅｅｔ　ｙｏｕ　"TCC_NEWLINE"ｎｏｗ，　Ｐｅｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｂｅ　ｆｒｉｅｎｄｓ！　Ａｌｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ－Ｉ’ｄ．．．ｌｏｖｅ　ｔｏ　ｂｅ　ｙｏｕｒ　ｆｒｉｅｎｄ"TCC_NEWLINE"，"TCC_NEWLINE
-"Ｓｈａｒｅｎａ！　Ｔｈａｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ－Ｉ’ｄ．．．ｌｏｖｅ　ｔｏ　ｂｅ　ｙｏｕｒ　ｆｒｉｅｎー"TCC_NEWLINE"ｄ，Ｓｈａｒｅｎａ！　Ｔｈａｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

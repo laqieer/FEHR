@@ -1,80 +1,50 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2031_EN] = TCC_OPEN_LEFT
+TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｌｌｏ，　ｔｈｅｒｅ！　Ｉ　ｓｐｏｋｅ　ｔｏ　ｙｏｕ　ｏ"TCC_NEWLINE"ｎｃｅ"TCC_NEWLINE
-"ｂｅｆｏｒｅ，　ｉｎ　ａ　ｄｒｅａｍ　ｌｉｋｅ　ｔｈｉｓ．．"TCC_NEWLINE"．　Ｄｏ　ｙｏｕ"TCC_NEWLINE
-"ｒｅｍｅｍｂｅｒ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　Ｇｕｎｎｔｈｒ，　ｅｌｄｅｓｔ　ｐｒｉｎｃｅｓｓ　"TCC_NEWLINE"ｏｆ　Ｎｉｆｌ，"TCC_NEWLINE
-"ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗ　ｒｅｌｉｅｖｅｄ　Ｉ　ａｍ　ｔｏ　ｌｅａｒｎ　ｔｈａ"TCC_NEWLINE"ｔ　ｙｏｕ"TCC_NEWLINE
-"ａｒｅ　ｕｎｈａｒｍｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｒｅ　ｔｈｅ　ｂａｔｔｌｅｓ　ａｇａｉｎｓｔ　Ｍｓｐｅｌｌ"TCC_NEWLINE"　ｔａｋｉｎｇ"TCC_NEWLINE
-"ａ　ｔｏｌｌ　ｏｎ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｏｎｌｙ　ｗｅ　ｃｏｕｌｄ　ｍｅｅｔ　ｆａｃｅ－ｔｏ－"TCC_NEWLINE"ｆａｃｅ，　Ｉ"TCC_NEWLINE
-"ｗｏｕｌｄ　ｄｏ　ｗｈａｔ　Ｉ　ｃｏｕｌｄ　ｔｏ　ｅａｓｅ　"TCC_NEWLINE"ｙｏｕｒ"TCC_NEWLINE
-"ｂｕｒｄｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ，　ｂｕｔ．．．　Ａｓ　ｂｅｆｏｒｅ，　ｔｉｍｅ　ｉｓ　"TCC_NEWLINE"ｓｈｏｒｔ"TCC_NEWLINE
-"ａｎｄ　ｗｅ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　ｍｏｒｅ"TCC_NEWLINE
-"ｐｒｅｓｓｉｎｇ　ｔｏ　ｄｉｓｃｕｓｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｔｉｍｅ　ｙｏｕ　ｃｏｍｅ　ｔｏ　Ｎｉｆｌ．　Ｙ"TCC_NEWLINE"ｏｕ　ｍｕｓｔ，"TCC_NEWLINE
+"Ｈｅｌｌｏ，　ｔｈｅｒｅ！　Ｉ　ｓｐｏｋｅ　ｔｏ　ｙｏｕ　"TCC_NEWLINE"ｏｎｃｅｂｅｆｏｒｅ，　ｉｎ　ａ　ｄｒｅａｍ　ｌｉｋｅ　ｔー"TCC_NEWLINE"ｈｉｓ．．．　Ｄｏ　ｙｏｕｒｅｍｅｍｂｅｒ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｇｕｎｎｔｈｒ，　ｅｌｄｅｓｔ　ｐｒｉｎｃｅｓｓ"TCC_NEWLINE"　ｏｆ　Ｎｉｆｌ，ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｒｅｌｉｅｖｅｄ　Ｉ　ａｍ　ｔｏ　ｌｅａｒｎ　ｔｈー"TCC_NEWLINE"ａｔ　ｙｏｕａｒｅ　ｕｎｈａｒｍｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｔｈｅ　ｂａｔｔｌｅｓ　ａｇａｉｎｓｔ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌ　ｔａｋｉｎｇａ　ｔｏｌｌ　ｏｎ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｏｎｌｙ　ｗｅ　ｃｏｕｌｄ　ｍｅｅｔ　ｆａｃｅ－ｔｏ"TCC_NEWLINE"－ｆａｃｅ，　Ｉｗｏｕｌｄ　ｄｏ　ｗｈａｔ　Ｉ　ｃｏｕｌｄ"TCC_NEWLINE"　ｔｏ　ｅａｓｅ　ｙｏｕｒｂｕｒｄｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｂｕｔ．．．　Ａｓ　ｂｅｆｏｒｅ，　ｔｉｍｅ　ｉｓ"TCC_NEWLINE"　ｓｈｏｒｔａｎｄ　ｗｅ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　ｍー"TCC_NEWLINE"ｏｒｅｐｒｅｓｓｉｎｇ　ｔｏ　ｄｉｓｃｕｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｉｍｅ　ｙｏｕ　ｃｏｍｅ　ｔｏ　Ｎｉｆｌ．　"TCC_NEWLINE"Ｙｏｕ　ｍｕｓｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｕｒｔｒ　ｉｓ　ｕｎｑｕｅｎｃｈａｂｌｅ，　ｕｎｄｙｉｎｇ"TCC_NEWLINE"．．．"TCC_NEWLINE
-"Ａｎｄ　ｓｅｐａｒａｔｅｄ，　ｗｅ　ｉｎ　Ｎｉｆｌ　ａｎｄ　"TCC_NEWLINE"ａｌｌ　ｏｆ"TCC_NEWLINE
-"ｙｏｕ　ｉｎ　Ａｓｋｒ　ｃａｎｎｏｔ　ｄｅｆｅａｔ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗｅｖｅｒ，　ｉｆ　ｗｅ　ｃｏｍｅ　ｔｏｇｅｔｈｅｒ，　"TCC_NEWLINE"ｈｏｐｅ"TCC_NEWLINE
-"ｓｔｉｌｌ　ｌｉｖｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｔｒ　ｉｓ　ｕｎｑｕｅｎｃｈａｂｌｅ，　ｕｎｄｙｉｎー"TCC_NEWLINE"ｇ．．．Ａｎｄ　ｓｅｐａｒａｔｅｄ，　ｗｅ　ｉｎ　Ｎｉｆｌ"TCC_NEWLINE"　ａｎｄ　ａｌｌ　ｏｆｙｏｕ　ｉｎ　Ａｓｋｒ　ｃａｎｎｏｔ"TCC_NEWLINE"　ｄｅｆｅａｔ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ，　ｉｆ　ｗｅ　ｃｏｍｅ　ｔｏｇｅｔｈｅｒ，"TCC_NEWLINE"　ｈｏｐｅｓｔｉｌｌ　ｌｉｖｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｍｓｐｅｌｌ，　ｌｅｄ　ｂｙ　Ｓ"TCC_NEWLINE"ｕｒｔｒ，"TCC_NEWLINE
-"ａｒｅ　ｃｏｎｔｉｎｕｉｎｇ　ｔｈｅｉｒ　ｉｎｖａｓｉｏｎ　"TCC_NEWLINE"ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｉｓ　Ｈｉｇｈｎｅｓｓ，　Ｋｉｎｇ　Ｇｕｓｔａｖ，　ｉｓ　"TCC_NEWLINE"ｌｅａｄｉｎｇ"TCC_NEWLINE
-"ｔｈｅ　Ｒｏｙａｌ　Ｋｎｉｇｈｔｓ　ｉｎ　ｄｅｆｅｎｓｅ　ｏ"TCC_NEWLINE"ｆ　ｔｈｅ"TCC_NEWLINE
-"ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｍｓｐｅｌｌ，　ｌｅｄ　ｂｙ　"TCC_NEWLINE"Ｓｕｒｔｒ，ａｒｅ　ｃｏｎｔｉｎｕｉｎｇ　ｔｈｅｉｒ　ｉｎー"TCC_NEWLINE"ｖａｓｉｏｎ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｉｓ　Ｈｉｇｈｎｅｓｓ，　Ｋｉｎｇ　Ｇｕｓｔａｖ，　ｉｓ"TCC_NEWLINE"　ｌｅａｄｉｎｇｔｈｅ　Ｒｏｙａｌ　Ｋｎｉｇｈｔｓ　ｉｎ　"TCC_NEWLINE"ｄｅｆｅｎｓｅ　ｏｆ　ｔｈｅｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　Ｒｏｙａｌ　Ｋｎｉｇｈｔｓ　ａｒｅ　ｕｓｉｎｇ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ’　ｉｎｔｅｌｌｉｇｅｎｃｅ　"TCC_NEWLINE"ｔｏ　ｐｌａｎ"TCC_NEWLINE
-"ｔｈｅｉｒ　ｍｏｖｅｍｅｎｔｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ’ｒｅ　ｄｏｉｎｇ　ｔｈｅｉｒ　ｂｅｓｔ　ｔｏ　ａｖ"TCC_NEWLINE"ｏｉｄ　ａ"TCC_NEWLINE
-"ｃｏｎｆｒｏｎｔａｔｉｏｎ　ｗｉｔｈ　Ｓｕｒｔｒ　ｈｉｍｓｅ"TCC_NEWLINE"ｌｆ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｍｅａｎｓ　ｔｈａｔ，　ｉｎｅｖｉｔａｂｌｙ，　ｔ"TCC_NEWLINE"ｈｅｙ’ｒｅ"TCC_NEWLINE
-"ｂｅｉｎｇ　ｓｉｄｅｌｉｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｒｉｇｈｔ　ｎｏｗ，　ａｌｌ　ｔｈｅｙ　ｃａｎ　ｄｏ　ｉｓ　"TCC_NEWLINE"ｂｕｙ　ｔｉｍｅ．"TCC_NEWLINE
-"Ｉ　ｄｏ　ｎｏｔ　ｂｅｌｉｅｖｅ　ｔｈｉｓ　ｔａｃｔｉｃ　ｗ"TCC_NEWLINE"ｉｌｌ"TCC_NEWLINE
-"ｃｏｎｔｉｎｕｅ　ｔｏ　ｂｅ　ｅｆｆｅｃｔｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｔｈｅ　ｍａｉｎ　ｆｏｒｃｅ　ｒｅｔｒｅａｔｓ，　ａｎ"TCC_NEWLINE"ｙ"TCC_NEWLINE
-"ｓｏｌｄｉｅｒｓ　ｗｈｏ　ｌａｇ　ｂｅｈｉｎｄ　ａｒｅ　ｂｅ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
-"ｂｕｒｎｅｄ　ａｌｉｖｅ　ｂｙ　Ｓｕｒｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｒｏｙａｌ　Ｋｎｉｇｈｔｓ　ａｒｅ　ｕｓｉｎｇ　ｔー"TCC_NEWLINE"ｈｅＯｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ’　ｉｎｔｅｌｌｉｇｅｎー"TCC_NEWLINE"ｃｅ　ｔｏ　ｐｌａｎｔｈｅｉｒ　ｍｏｖｅｍｅｎｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｄｏｉｎｇ　ｔｈｅｉｒ　ｂｅｓｔ　ｔｏ　ａー"TCC_NEWLINE"ｖｏｉｄ　ａｃｏｎｆｒｏｎｔａｔｉｏｎ　ｗｉｔｈ　Ｓｕｒｔー"TCC_NEWLINE"ｒ　ｈｉｍｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｍｅａｎｓ　ｔｈａｔ，　ｉｎｅｖｉｔａｂｌｙ，　"TCC_NEWLINE"ｔｈｅｙ’ｒｅｂｅｉｎｇ　ｓｉｄｅｌｉｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ　ｎｏｗ，　ａｌｌ　ｔｈｅｙ　ｃａｎ　ｄｏ　ｉｓ"TCC_NEWLINE"　ｂｕｙ　ｔｉｍｅ．Ｉ　ｄｏ　ｎｏｔ　ｂｅｌｉｅｖｅ　ｔｈー"TCC_NEWLINE"ｉｓ　ｔａｃｔｉｃ　ｗｉｌｌｃｏｎｔｉｎｕｅ　ｔｏ　ｂｅ　"TCC_NEWLINE"ｅｆｆｅｃｔｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｔｈｅ　ｍａｉｎ　ｆｏｒｃｅ　ｒｅｔｒｅａｔｓ，　ａー"TCC_NEWLINE"ｎｙｓｏｌｄｉｅｒｓ　ｗｈｏ　ｌａｇ　ｂｅｈｉｎｄ　ａｒｅ"TCC_NEWLINE"　ｂｅｉｎｇｂｕｒｎｅｄ　ａｌｉｖｅ　ｂｙ　Ｓｕｒｔｒ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｄｅｓｐｉｃａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｓｉｓｔｅｒ．．．　Ｇｕｎｎｔｈｒ．．．　Ｓｈｅ　ｔｏ"TCC_NEWLINE"ｌｄ　ｙｏｕ"TCC_NEWLINE
-"ｔｈａｔ　ｙｏｕ　ｍｕｓｔ　ｈｅａｄ　ｔｏ　Ｎｉｆｌ，　ｃｏ"TCC_NEWLINE"ｒｒｅｃｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｔ　ｕｓ　ｇｏ　ｔｏｇｅｔｈｅｒ．　Ｍｙ　ｓｉｓｔｅｒ　"TCC_NEWLINE"ｉｓ　ｗｅｌｌ"TCC_NEWLINE
-"ｖｅｒｓｅｄ　ｉｎ　ｔｈｅ　ｒｉｔｅｓ　ａｎｄ　ｔｈｅ　ｍａ"TCC_NEWLINE"ｇｉｃ　ｏｆ"TCC_NEWLINE
-"ｏｕｒ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｅ　ｍｕｓｔ　ｋｎｏｗ　ｏｆ　ｓｏｍｅｔｈｉｎｇ　ｔｈａ"TCC_NEWLINE"ｔ　ｗｉｌｌ"TCC_NEWLINE
-"ｌｅｔ　ｕｓ　ｆｉｇｈｔ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｓｉｓｔｅｒ．．．　Ｇｕｎｎｔｈｒ．．．　Ｓｈｅ　ｔー"TCC_NEWLINE"ｏｌｄ　ｙｏｕｔｈａｔ　ｙｏｕ　ｍｕｓｔ　ｈｅａｄ　ｔｏ　"TCC_NEWLINE"Ｎｉｆｌ，　ｃｏｒｒｅｃｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｕｓ　ｇｏ　ｔｏｇｅｔｈｅｒ．　Ｍｙ　ｓｉｓｔｅｒ"TCC_NEWLINE"　ｉｓ　ｗｅｌｌｖｅｒｓｅｄ　ｉｎ　ｔｈｅ　ｒｉｔｅｓ　ａー"TCC_NEWLINE"ｎｄ　ｔｈｅ　ｍａｇｉｃ　ｏｆｏｕｒ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｍｕｓｔ　ｋｎｏｗ　ｏｆ　ｓｏｍｅｔｈｉｎｇ　ｔｈー"TCC_NEWLINE"ａｔ　ｗｉｌｌｌｅｔ　ｕｓ　ｆｉｇｈｔ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎ　ｕｓｅ　ｔｏ　ｏｐｐｏｓｅ"TCC_NEWLINE
-"Ｓｕｒｔｒ　ｌｉｅｓ　ｉｎ　Ｎｉｆｌ？　Ｔｒｕｌｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎ　ｕｓｅ　ｔｏ　ｏｐｐｏｓー"TCC_NEWLINE"ｅＳｕｒｔｒ　ｌｉｅｓ　ｉｎ　Ｎｉｆｌ？　Ｔｒｕｌｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉ　ｂｅｌｉｅｖｅ　ｓｏ．　Ｉ　ｔｈｉｎｋ　ｔｈａｔ　ｗｈａ"TCC_NEWLINE"ｔ　ｗｅ　ｉｎ"TCC_NEWLINE
-"Ｎｉｆｌ　ｃｏｕｌｄ　ｎｏｔ　ａｃｃｏｍｐｌｉｓｈ　ａｌｏｎ"TCC_NEWLINE"ｅ　ｉｓ"TCC_NEWLINE
-"ｐｏｓｓｉｂｌｅ　ｉｆ　ｗｅ　ｊｏｉｎ　ｗｉｔｈ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｌｉｅｖｅ　ｓｏ．　Ｉ　ｔｈｉｎｋ　ｔｈａｔ　ｗｈー"TCC_NEWLINE"ａｔ　ｗｅ　ｉｎＮｉｆｌ　ｃｏｕｌｄ　ｎｏｔ　ａｃｃｏｍｐー"TCC_NEWLINE"ｌｉｓｈ　ａｌｏｎｅ　ｉｓｐｏｓｓｉｂｌｅ　ｉｆ　ｗｅ　ｊー"TCC_NEWLINE"ｏｉｎ　ｗｉｔｈ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｆ　ｔｈａｔ　ｉｓ　ｓｏ，　ｌｅｔ　ｕｓ　ｊｏｕｒｎｅｙ　"TCC_NEWLINE"ｔｏ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｍｕｓｔ　ｆｉｎｄ　ａ　ｍｅａｎｓ　ｔｏ　ｆｉｇｈｔ　"TCC_NEWLINE"ｂａｃｋ"TCC_NEWLINE
-"ａｓ　ｓｏｏｎ　ａｓ　ｐｏｓｓｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｄｏｎ’ｔ．．．　Ｉｔ　ｗｉｌｌ　ｍｅａｎ　ｔｈ"TCC_NEWLINE"ｅ　ｅｎｄ　ｏｆ"TCC_NEWLINE
-"Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ　ｉｓ　ｓｏ，　ｌｅｔ　ｕｓ　ｊｏｕｒｎｅｙ"TCC_NEWLINE"　ｔｏ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｆｉｎｄ　ａ　ｍｅａｎｓ　ｔｏ　ｆｉｇｈｔ"TCC_NEWLINE"　ｂａｃｋａｓ　ｓｏｏｎ　ａｓ　ｐｏｓｓｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｄｏｎ’ｔ．．．　Ｉｔ　ｗｉｌｌ　ｍｅａｎ　ｔー"TCC_NEWLINE"ｈｅ　ｅｎｄ　ｏｆＡｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
-"Ｉ　ｓｈａｌｌ　ｌｅａｄ　ｔｈｅ　ｗａｙ．　Ｗｅ　ｌｅａｖｅ"TCC_NEWLINE"　ｆｏｒ　Ｎｉｆｌ"TCC_NEWLINE
-"ａｔ　ｏｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｈａｌｌ　ｌｅａｄ　ｔｈｅ　ｗａｙ．　Ｗｅ　ｌｅａｖー"TCC_NEWLINE"ｅ　ｆｏｒ　Ｎｉｆｌａｔ　ｏｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

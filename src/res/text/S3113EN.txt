@@ -1,46 +1,33 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3113_EN] = TCC_OPEN_LEFT
-"Ｙｅａｈ，　ｙｏｕ　ａｎｄ　Ｌｆ　ｂｏｔｈ　ｌｏｏｋ　ｐｒｅ"TCC_NEWLINE"ｔｔｙ"TCC_NEWLINE
-"ｇｏｏｄ　ｉｎ　ｔｈｅ　ｆａｃｅ，　ｂｕｔ．．．ｙｏｕｒ　ｆ"TCC_NEWLINE"ａｓｈｉｏｎ"TCC_NEWLINE
-"ｓｅｎｓｅ　ｃｏｕｌｄ　ｕｓｅ　ｓｏｍｅ　ｗｏｒｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅａｈ，　ｙｏｕ　ａｎｄ　Ｌｆ　ｂｏｔｈ　ｌｏｏｋ　ｐｒー"TCC_NEWLINE"ｅｔｔｙｇｏｏｄ　ｉｎ　ｔｈｅ　ｆａｃｅ，　ｂｕｔ．．．ｙー"TCC_NEWLINE"ｏｕｒ　ｆａｓｈｉｏｎｓｅｎｓｅ　ｃｏｕｌｄ　ｕｓｅ　ｓｏー"TCC_NEWLINE"ｍｅ　ｗｏｒｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3113_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
-"Ｌｆ．．．　Ｂｅｆｏｒｅ　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ　"TCC_NEWLINE"ｗａｓ"TCC_NEWLINE
-"ｋｉｌｌｅｄ，　Ｉ　ｓｐｅｎｔ　ｔｉｍｅ　ｗｉｔｈ　ｈｅｒ．"TCC_NEWLINE"．．ａｎｄ　ｈｅｒ"TCC_NEWLINE
-"ｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ｗｅｒｅ　ｓｈｉｎｉｎｇ　ｗｉｔｈ　ｌｉｆｅ，　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
-"ｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ａｆｔｅｒ　ｔｈｅｙ　ｆｏｕｎｄ　ｏｕｔ　ｗｈｏ　"TCC_NEWLINE"Ｉ"TCC_NEWLINE
-"ｗａｓ　ａｎｄ　ｗｈａｔ　ｔｈａｔ　ｍｅａｎｔ．．．　Ｔｈｅ"TCC_NEWLINE"ｙ"TCC_NEWLINE
-"ｓｔａｙｅｄ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｆ．．．　Ｂｅｆｏｒｅ　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ"TCC_NEWLINE"　ｗａｓｋｉｌｌｅｄ，　Ｉ　ｓｐｅｎｔ　ｔｉｍｅ　ｗｉｔｈ"TCC_NEWLINE"　ｈｅｒ．．．ａｎｄ　ｈｅｒｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｗｅｒｅ　ｓｈｉｎｉｎｇ　ｗｉｔｈ　ｌｉｆｅ，　"TCC_NEWLINE"ａｎｄｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ａｆｔｅｒ　ｔｈｅｙ　ｆｏｕｎｄ　ｏｕｔ　ｗｈｏ"TCC_NEWLINE"　Ｉｗａｓ　ａｎｄ　ｗｈａｔ　ｔｈａｔ　ｍｅａｎｔ．．．　"TCC_NEWLINE"Ｔｈｅｙｓｔａｙｅｄ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈｙ　ｗｏｎ’ｔ　ｙｏｕ　ｋｉｌｌ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｒｉｎｃｅｓｓ　Ｅｉｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　Ｈｅｌ，　ｒｕｌｅ"TCC_NEWLINE"ｒ　ｏｆ　ｔｈｅ"TCC_NEWLINE
-"ｄｅａｄ．　Ｉ　ａｍ　ｙｏｕｒ　ｅｎｅｍｙ．　Ｙｅｔ　ｅｖｅ"TCC_NEWLINE"ｎ"TCC_NEWLINE
-"ｋｎｏｗｉｎｇ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　Ｈｅｌ，　ｒｕｌー"TCC_NEWLINE"ｅｒ　ｏｆ　ｔｈｅｄｅａｄ．　Ｉ　ａｍ　ｙｏｕｒ　ｅｎｅｍー"TCC_NEWLINE"ｙ．　Ｙｅｔ　ｅｖｅｎｋｎｏｗｉｎｇ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｐｒｉｎｃｅｓｓ　Ｅｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｄｏｎ’ｔ　ｙｏｕ　ｌｉｋｅ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ　ｔｈａｔ　ｗｅ’ｖｅ　ｓｐｅｎｔ　ｔｉｍｅ　ｔｏｇｅ"TCC_NEWLINE"ｔｈｅｒ，"TCC_NEWLINE
-"ａｎｄ　Ｉ　ｈａｖｅ　ｓｅｅｎ　ｙｏｕｒ　ｗａｒｍｔｈ．．．"TCC_NEWLINE"　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｔｈａｔ　ｗｅ’ｖｅ　ｓｐｅｎｔ　ｔｉｍｅ　ｔｏｇー"TCC_NEWLINE"ｅｔｈｅｒ，ａｎｄ　Ｉ　ｈａｖｅ　ｓｅｅｎ　ｙｏｕｒ　ｗａー"TCC_NEWLINE"ｒｍｔｈ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｓｏ　ｗｈａｔ　ｙｏｕ’ｒｅ　ｓａｙｉｎｇ　ｉｓ．．．ｙｏｕ"TCC_NEWLINE"　ｄｏ"TCC_NEWLINE
-"ｌｉｋｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｗｈａｔ　ｙｏｕ’ｒｅ　ｓａｙｉｎｇ　ｉｓ．．．ｙｏー"TCC_NEWLINE"ｕ　ｄｏｌｉｋｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｅｓ．　Ｖｅｒｙ　ｍｕｃｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｅ　ｆｅｅｌ　ｔｈｅ　ｓａｍｅ！　Ｗｅ　ｌｉｋｅ　ｙｏｕ　"TCC_NEWLINE"ｖｅｒｙ"TCC_NEWLINE
-"ｍｕｃｈ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｍａｙ　ｂｅ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　Ｈｅｌ"TCC_NEWLINE"，　ｂｕｔ"TCC_NEWLINE
-"ｙｏｕ　ａｒｅ　ｋｉｎｄ．　Ｙｏｕ　ｈａｖｅ　ａ　ｇｏｏｄ　"TCC_NEWLINE"ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｆｅｅｌ　ｔｈｅ　ｓａｍｅ！　Ｗｅ　ｌｉｋｅ　ｙｏｕ"TCC_NEWLINE"　ｖｅｒｙｍｕｃｈ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍａｙ　ｂｅ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　Ｈｅー"TCC_NEWLINE"ｌ，　ｂｕｔｙｏｕ　ａｒｅ　ｋｉｎｄ．　Ｙｏｕ　ｈａｖｅ　"TCC_NEWLINE"ａ　ｇｏｏｄ　ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉｎｄｅｅｄ．　Ｔｈｅｒｅ　ｉｓ　ｙｏｕｒ　ａｎｓｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．　Ｐｒｉｎｃｅｓｓ　Ｓｈａ"TCC_NEWLINE"ｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．　Ｐｒｉｎｃｅｓｓ　Ｓｈー"TCC_NEWLINE"ａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

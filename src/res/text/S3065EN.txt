@@ -5,34 +5,24 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_THRASIR
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ　ｓｅｅ　ｙｏｕ　ｈａｖｅ　ｊｏｉｎｅｄ　ｔｈｅ　ｆｉｒｓ"TCC_NEWLINE"ｔ　ｋｉｎｇ，"TCC_NEWLINE
-"Ｔｈｒａｓｉｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ　ｙｏｕ　ｈａｖｅ　ｊｏｉｎｅｄ　ｔｈｅ　ｆｉｒー"TCC_NEWLINE"ｓｔ　ｋｉｎｇ，Ｔｈｒａｓｉｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｌｌ　ｏｆ　ｙｏｕ　ｗｈｏ　ｌｉｖｅ．．．ｗｉｌｌ　ｄｉｅ"TCC_NEWLINE"　ｂｙ　ｏｕｒ"TCC_NEWLINE
-"ｈａｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｏｆ　ｙｏｕ　ｗｈｏ　ｌｉｖｅ．．．ｗｉｌｌ　ｄｉー"TCC_NEWLINE"ｅ　ｂｙ　ｏｕｒｈａｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｔｈｅｙ’ｒｅ　ｒｅｔｒｅａｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｆｏｌｌｏｗ　ｔｈｅｍ．　Ｔｈｅｙ　ａｒｅ　Ｈｅｌ’ｓ　ｇｅ"TCC_NEWLINE"ｎｅｒａｌｓ，"TCC_NEWLINE
-"ａｎｄ　ｔｈｅｙ　ｓｕｒｅｌｙ　ｈａｖｅ　ｉｎｆｏｒｍａｔｉ"TCC_NEWLINE"ｏｎ"TCC_NEWLINE
-"ｗｅ　ｎｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｌｌｏｗ　ｔｈｅｍ．　Ｔｈｅｙ　ａｒｅ　Ｈｅｌ’ｓ　ｇー"TCC_NEWLINE"ｅｎｅｒａｌｓ，ａｎｄ　ｔｈｅｙ　ｓｕｒｅｌｙ　ｈａｖｅ　"TCC_NEWLINE"ｉｎｆｏｒｍａｔｉｏｎｗｅ　ｎｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｌｏｏｋ！　Ｔｈｅｙ’ｒｅ　ｈｅａｄｅｄ　ｆｏｒ"TCC_NEWLINE TCC_PUSH_A
 "Ｉｓ　ｔｈａｔ　ａ　ｇａｔｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｙｅｓ，　ｉｔ　ｉｓ！　Ａ　ｇａｔｅ　ｔｏ　ａｎｏｔｈｅｒ　"TCC_NEWLINE"ｒｅａｌｍ．．．"TCC_NEWLINE
-"Ｊｕｓｔ　ｌｉｋｅ　ｔｈｅ　ｏｎｅ　ｉｎ　Ａｓｋｒ　ｔｈａｔ"TCC_NEWLINE"　ｌｅａｄｓ"TCC_NEWLINE
-"ｔｏ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　ｉｔ　ｉｓ！　Ａ　ｇａｔｅ　ｔｏ　ａｎｏｔｈｅｒ"TCC_NEWLINE"　ｒｅａｌｍ．．．Ｊｕｓｔ　ｌｉｋｅ　ｔｈｅ　ｏｎｅ　ｉｎ"TCC_NEWLINE"　Ａｓｋｒ　ｔｈａｔ　ｌｅａｄｓｔｏ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ　ｓｅｅ．．．　Ｌｆ　ｗａｓ　ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ"TCC_NEWLINE"　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE
-"Ｉｔ　ｓｔａｎｄｓ　ｔｏ　ｒｅａｓｏｎ　ｔｈａｔ　ｈｅ　ｈａ"TCC_NEWLINE"ｓ　ｔｈｅ"TCC_NEWLINE
-"ｐｏｗｅｒ　ｔｏ　ｏｐｅｎ　ｇａｔｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ．．．　Ｌｆ　ｗａｓ　ｔｈｅ　ｆｉｒｓｔ　ｋｉｎー"TCC_NEWLINE"ｇ　ｏｆ　Ａｓｋｒ．Ｉｔ　ｓｔａｎｄｓ　ｔｏ　ｒｅａｓｏｎ"TCC_NEWLINE"　ｔｈａｔ　ｈｅ　ｈａｓ　ｔｈｅｐｏｗｅｒ　ｔｏ　ｏｐｅｎ"TCC_NEWLINE"　ｇａｔｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｎ　ｈｅ　ｍｕｓｔ　ｈａｖｅ　ｇｏｎｅ　ｔｈｒｏｕｇｈ"TCC_NEWLINE"　ｔｈｉｓ"TCC_NEWLINE
-"ｏｎｅ．　Ｓｈｏｕｌｄ　ｗｅ　ｆｏｌｌｏｗ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｈｅ　ｍｕｓｔ　ｈａｖｅ　ｇｏｎｅ　ｔｈｒｏｕｇー"TCC_NEWLINE"ｈ　ｔｈｉｓｏｎｅ．　Ｓｈｏｕｌｄ　ｗｅ　ｆｏｌｌｏｗ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｅｓ．　Ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ａ　ｍｏｍｅｎｔ　ｔｏ"TCC_NEWLINE
-"ｗａｓｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ａ　ｍｏｍｅｎｔ　ｔー"TCC_NEWLINE"ｏｗａｓｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

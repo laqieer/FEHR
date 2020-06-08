@@ -1,115 +1,78 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
-"Ｓｏ　ｔｈｉｓ　ｉｓ　ｔｈｅｉｒ　ｏｂｊｅｃｔｉｖｅｔｈｅ"TCC_NEWLINE
-"ｓａｎｃｔｕａｒｙ　ａｔ　Ｈｊａｒｎｈｏｆ，　ｈｉｄｄｅｎ　"TCC_NEWLINE"ｉｎ　ｔｈｅ"TCC_NEWLINE
-"ｎｏｒｔｈｅｒｎ　ｒｅａｃｈｅｓ　ｏｆ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｍｏｕｎｔａｉｎｓ　ｈｅｒｅ　ａｒｅ　ｓｏ　ｈｉｇｈ"TCC_NEWLINE"　ｔｈａｔ"TCC_NEWLINE
-"ｅｖｅｎ　ｗｙｖｅｒｎｓ　ｗｏｎ’ｔ　ｄａｒｅ　ｔｏ　ｆｌｙ"TCC_NEWLINE"　ｏｖｅｒ"TCC_NEWLINE
-"ｔｈｅｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ’ｖｅ　ｏｎｌｙ　ｅｖｅｒ　ｔｒａｖｅｌｅｄ　ｔｏ　ｔｈ"TCC_NEWLINE"ｉｓ"TCC_NEWLINE
-"ｔｒｅａｃｈｅｒｏｕｓ　ａｎｄ　ｆｒｉｇｉｄ　ｒｅｇｉｏｎ　"TCC_NEWLINE"ｏｎｃｅ"TCC_NEWLINE
-"ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｄｏｎ’ｔ　ｌｉｋｅ　ｔｈｉｓ．　Ｓｏｍｅｔｈｉｎｇ’ｓ"TCC_NEWLINE"　ｎｏｔ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｔｈｉｓ　ｉｓ　ｔｈｅｉｒ　ｏｂｊｅｃｔｉｖｅｔｈｅー"TCC_NEWLINE"ｓａｎｃｔｕａｒｙ　ａｔ　Ｈｊａｒｎｈｏｆ，　ｈｉｄｄｅｎ"TCC_NEWLINE"　ｉｎ　ｔｈｅｎｏｒｔｈｅｒｎ　ｒｅａｃｈｅｓ　ｏｆ　Ｎｉー"TCC_NEWLINE"ｆｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｍｏｕｎｔａｉｎｓ　ｈｅｒｅ　ａｒｅ　ｓｏ　ｈｉｇー"TCC_NEWLINE"ｈ　ｔｈａｔｅｖｅｎ　ｗｙｖｅｒｎｓ　ｗｏｎ’ｔ　ｄａｒｅ"TCC_NEWLINE"　ｔｏ　ｆｌｙ　ｏｖｅｒｔｈｅｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｏｎｌｙ　ｅｖｅｒ　ｔｒａｖｅｌｅｄ　ｔｏ　ｔー"TCC_NEWLINE"ｈｉｓｔｒｅａｃｈｅｒｏｕｓ　ａｎｄ　ｆｒｉｇｉｄ　ｒｅｇー"TCC_NEWLINE"ｉｏｎ　ｏｎｃｅｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｌｉｋｅ　ｔｈｉｓ．　Ｓｏｍｅｔｈｉｎｇ’"TCC_NEWLINE"ｓ　ｎｏｔ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEVATEIN
 "Ｐｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ　ｉｓｎ’ｔ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｏｎｅ　ｉｓ．　Ｉ’ｖｅ　ｓｅａｒｃｈｅｄ．．．　Ｉｎ"TCC_NEWLINE"ｓｉｄｅ　ａｎｄ"TCC_NEWLINE
-"ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｏｎｅ　ｉｓ．　Ｉ’ｖｅ　ｓｅａｒｃｈｅｄ．．．　Ｉー"TCC_NEWLINE"ｎｓｉｄｅ　ａｎｄｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｓｅｅ．．．　Ｔｈａｎｋ　ｙｏｕ，　Ｌａｅｖａｔｅｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ．．．　Ｔｈａｎｋ　ｙｏｕ，　Ｌａｅｖａｔｅｉｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｄｏｅｓ　ｔｈｉｓ　ｔｅｌｌ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｍｕｓｔ　ｂｅ　ｔｈｅｉｒ　ｄｅｓｔｉｎａｔｉｏｎ"TCC_NEWLINE"．　Ｔｈａｔ"TCC_NEWLINE
-"ｍｅａｎｓ　ｔｈｅｙ’ｒｅ　ａｆｔｅｒ　ｓｏｍｅｔｈｉｎｇ　"TCC_NEWLINE"ｔｈａｔ"TCC_NEWLINE
-"ｃａｎ　ｏｎｌｙ　ｂｅ　ｆｏｕｎｄ　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏｔｈｉｎｇ　ｈｅｒｅ．　Ｎｏｔｈ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
-"ｗｈａｔｓｏｅｖｅｒ！　Ｗｈａｔ　ｃｏｕｌｄ　ｔｈｅｙ　ｗａ"TCC_NEWLINE"ｎｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｍｕｓｔ　ｂｅ　ｔｈｅｉｒ　ｄｅｓｔｉｎａｔｉｏー"TCC_NEWLINE"ｎ．　Ｔｈａｔｍｅａｎｓ　ｔｈｅｙ’ｒｅ　ａｆｔｅｒ　ｓｏー"TCC_NEWLINE"ｍｅｔｈｉｎｇ　ｔｈａｔｃａｎ　ｏｎｌｙ　ｂｅ　ｆｏｕｎｄ"TCC_NEWLINE"　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏｔｈｉｎｇ　ｈｅｒｅ．　Ｎｏｔー"TCC_NEWLINE"ｈｉｎｇｗｈａｔｓｏｅｖｅｒ！　Ｗｈａｔ　ｃｏｕｌｄ　ｔｈー"TCC_NEWLINE"ｅｙ　ｗａｎｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌａｅｖａｔｅｉｎ．　Ｗｈａｔ　ｃａｎ　ｙｏｕ　ｔｅｌｌ　ｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ａｂｏｕｔ　ｔｈｅ　ｃａｖｅ　ｗｅ　ｄｉｓｃｏｖｅｒｅｄ"TCC_NEWLINE
-"ｔｈｅ　ｌａｓｔ　ｔｉｍｅ　ｗｅ　ｃａｍｅ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｏｎｅ　ｕｎｄｅｒ　ｔｈｅ　ｍｏｕｎｔａｉｎｓ，"TCC_NEWLINE
-"ｈｅａｄｉｎｇ　ｗｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｅｖａｔｅｉｎ．　Ｗｈａｔ　ｃａｎ　ｙｏｕ　ｔｅｌｌ　"TCC_NEWLINE"ｍｅａｂｏｕｔ　ｔｈｅ　ｃａｖｅ　ｗｅ　ｄｉｓｃｏｖｅｒｅー"TCC_NEWLINE"ｄｔｈｅ　ｌａｓｔ　ｔｉｍｅ　ｗｅ　ｃａｍｅ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｏｎｅ　ｕｎｄｅｒ　ｔｈｅ　ｍｏｕｎｔａｉｎｓ，ｈー"TCC_NEWLINE"ｅａｄｉｎｇ　ｗｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ’ｓ　ｂｌｏｃｋｅｄ　ｂｙ　ｉｃｅ．　Ｔｈｅｒｅ’ｓ　ｎ"TCC_NEWLINE"ｏ　ｗａｙ　ｔｏ"TCC_NEWLINE
-"ｇｅｔ　ｔｈｒｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｂｌｏｃｋｅｄ　ｂｙ　ｉｃｅ．　Ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｎｏ　ｗａｙ　ｔｏｇｅｔ　ｔｈｒｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｗａｓｎ’ｔ　ｌｉｋｅ　ｔｈａｔ　ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏ．　Ｉｔ　ｗａｓｎ’ｔ．　Ｉ　ｓｕｐｐｏｓｅ　ｗｅ　ｈａ"TCC_NEWLINE"ｖｅ　ａ"TCC_NEWLINE
-"ｌｏｔ　ｔｏ　ｌｅａｒｎ　ａｂｏｕｔ　ｔｈｉｓ　ｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ａ　ｐａｔｈ　ｌｉｋｅ　ｔｈａｔ　ｃａｎ　ｓｕｄｄｅｎ"TCC_NEWLINE"ｌｙ"TCC_NEWLINE
-"ｂｅｃｏｍｅ　ｃｌｏｓｅｄ　ｏｆｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．　Ｉｔ　ｗａｓｎ’ｔ．　Ｉ　ｓｕｐｐｏｓｅ　ｗｅ　ｈー"TCC_NEWLINE"ａｖｅ　ａｌｏｔ　ｔｏ　ｌｅａｒｎ　ａｂｏｕｔ　ｔｈｉｓ　"TCC_NEWLINE"ｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ａ　ｐａｔｈ　ｌｉｋｅ　ｔｈａｔ　ｃａｎ　ｓｕｄｄｅー"TCC_NEWLINE"ｎｌｙｂｅｃｏｍｅ　ｃｌｏｓｅｄ　ｏｆｆ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ’ｓ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｉｓｔｅｒ？　Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｈａｖｅ　ｔｏ　ｌｅａｒｎ　ｔｏ　ｔｈｉｎｋ　ｌｉｋｅ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"Ａｓｋｒａｎｓ．．．　Ａｎｄ　ｔｏ　ｆｅｅｌ　ｗｈａｔ　ｔｈ"TCC_NEWLINE"ｅｙ’ｒｅ"TCC_NEWLINE
-"ｆｅｅｌｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ’ｒｅ　ｄｅｓｐｅｒａｔｅ　ｔｏ　ｍｅｅｔ　ｕｐ　ｗ"TCC_NEWLINE"ｉｔｈ"TCC_NEWLINE
-"ｓｏｍｅｏｎｅ．．．　Ｂｕｔ　ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｓ"TCC_NEWLINE"ｔａｎｄ"TCC_NEWLINE
-"ｉｎ　ｔｈｅｉｒ　ｗａｙ，　ｔｈｅｙ　ｃａｎｎｏｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｗｏｕｌｄ　ｍａｋｅ　ｔｈｅｉｒ　ｎｅｘｔ　ｔａｒ"TCC_NEWLINE"ｇｅｔ．．．"TCC_NEWLINE
-"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｔｏ　ｌｅａｒｎ　ｔｏ　ｔｈｉｎｋ　ｌｉｋｅ"TCC_NEWLINE"　ｔｈｅＡｓｋｒａｎｓ．．．　Ａｎｄ　ｔｏ　ｆｅｅｌ　ｗｈー"TCC_NEWLINE"ａｔ　ｔｈｅｙ’ｒｅｆｅｅｌｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｄｅｓｐｅｒａｔｅ　ｔｏ　ｍｅｅｔ　ｕｐ　"TCC_NEWLINE"ｗｉｔｈｓｏｍｅｏｎｅ．．．　Ｂｕｔ　ａｓ　ｌｏｎｇ　ａｓ"TCC_NEWLINE"　ｗｅ　ｓｔａｎｄｉｎ　ｔｈｅｉｒ　ｗａｙ，　ｔｈｅｙ　ｃー"TCC_NEWLINE"ａｎｎｏｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｗｏｕｌｄ　ｍａｋｅ　ｔｈｅｉｒ　ｎｅｘｔ　ｔａー"TCC_NEWLINE"ｒｇｅｔ．．．ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｉｎｋ　ａｂｏｕｔ　ｉｔ．　Ｔｈｅｙ　ｌｅｄ　ｍｅ　ｈｅ"TCC_NEWLINE"ｒｅ，　ｔｏ"TCC_NEWLINE
-"ｔｈｉｓ　ｎａｒｒｏｗ　ｐａｓｓ，　ｐｕｒｐｏｓｅｆｕｌｌｙ"TCC_NEWLINE"．　Ｗｈｙ？"TCC_NEWLINE
-"Ｔｏ　ｄｅｆｅａｔ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｎｋ　ａｂｏｕｔ　ｉｔ．　Ｔｈｅｙ　ｌｅｄ　ｍｅ　ｈー"TCC_NEWLINE"ｅｒｅ，　ｔｏｔｈｉｓ　ｎａｒｒｏｗ　ｐａｓｓ，　ｐｕｒｐー"TCC_NEWLINE"ｏｓｅｆｕｌｌｙ．　Ｗｈｙ？Ｔｏ　ｄｅｆｅａｔ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｂｕｔ　ｔｈｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｉｓｔｅｒ！　Ａ　ｒｅｐｏｒｔ！"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ｏｎ　ｉｔｓ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅｙ　ｍａｙ　ｈａｖｅ　ｍａｎａｇｅｄ　ｔｏ　ｏｕｔｗｉ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｍｅ，　ｔｈｉｓ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｔｈｅ　ｏｎｅ　ｔｈａｔ’ｓ　ｂｅｉｎｇ　ｈｕｎｔｅ"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｍａｙ　ｈａｖｅ　ｍａｎａｇｅｄ　ｔｏ　ｏｕｔｗー"TCC_NEWLINE"ｉｔｍｅ，　ｔｈｉｓ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｔｈｅ　ｏｎｅ　ｔｈａｔ’ｓ　ｂｅｉｎｇ　ｈｕｎｔー"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
 "Ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ａｌｍｏｓｔ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEGJARN
-"Ｉ　ｓｅｅ．　Ｌａｅｖａｔｅｉｎ，　ｙｏｕ　ｍｕｓｔ　ｅｓｃ"TCC_NEWLINE"ａｐｅ"TCC_NEWLINE
-"ｗｈｉｌｅ　ｙｏｕ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｙ　ｙｏｕｒｓｅｌｆ．．．ｙｏｕ　ｃａｎ　ｓｎｅａｋ　ｒｉ"TCC_NEWLINE"ｇｈｔ"TCC_NEWLINE
-"ｐａｓｔ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｋｅｅｐ　ｔｈｅｍ　ｂｕｓｙ　ｕｎｔｉｌ　ｙｏｕ’"TCC_NEWLINE"ｒｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ．　Ｌａｅｖａｔｅｉｎ，　ｙｏｕ　ｍｕｓｔ　ｅｓー"TCC_NEWLINE"ｃａｐｅｗｈｉｌｅ　ｙｏｕ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｙ　ｙｏｕｒｓｅｌｆ．．．ｙｏｕ　ｃａｎ　ｓｎｅａｋ　ｒー"TCC_NEWLINE"ｉｇｈｔｐａｓｔ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｋｅｅｐ　ｔｈｅｍ　ｂｕｓｙ　ｕｎｔｉｌ　ｙｏｕ"TCC_NEWLINE"’ｒｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ａｍ　ａ　ｇｅｎｅｒａｌ　ｏｆ"TCC_NEWLINE
-"Ｍｓｐｅｌｌ．　Ｉ　ｈａｖｅ　ｄｏｍｉｎｉｏｎ　ｏｖｅｒ　ｔ"TCC_NEWLINE"ｈｉｓ"TCC_NEWLINE
-"ｌａｎｄ．　Ｉ　ｗｉｌｌ　ｎｏｔ　ｌｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ａｍ　ａ　ｇｅｎｅｒａｌ　ｏー"TCC_NEWLINE"ｆＭｓｐｅｌｌ．　Ｉ　ｈａｖｅ　ｄｏｍｉｎｉｏｎ　ｏｖｅｒ"TCC_NEWLINE"　ｔｈｉｓｌａｎｄ．　Ｉ　ｗｉｌｌ　ｎｏｔ　ｌｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｅｎ　ｌｅｔ　ｍｅ　ｓｔａｙ　ｗｉｔｈ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ．　Ｔｈｉｓ　ｉｓ　ａｎ　ｏｒｄｅｒ，　Ｌａｅｖａｔｅｉ"TCC_NEWLINE"ｎ．　Ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．　Ｔｈｉｓ　ｉｓ　ａｎ　ｏｒｄｅｒ，　Ｌａｅｖａｔｅー"TCC_NEWLINE"ｉｎ．　Ｇｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｌａｅｇｊａｒｎ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｌｌ　ｄｏ　ａｓ　ｙｏｕ　ｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｓ　ａｌｗａｙｓ，　ｙｏｕ’ｒｅ　ａ　ｇｏｏｄ　ｇｉｒｌ，"TCC_NEWLINE
-"Ｌａｅｖａｔｅｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｗｅ’ｌｌ　ｍｅｅｔ　ａｇａｉｎ　"TCC_NEWLINE"ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｒａｖｅ　ｗａｒｒｉｏｒｓ　ｏｆ　Ａｓｋｒ．．．　Ｉ　ｃａ"TCC_NEWLINE"ｎ　ｆｅｅｌ"TCC_NEWLINE
-"ｙｏｕｒ　ｍａｌｉｃｅ．　Ｙｏｕ　ａｉｍ　ｔｏ　ｄｅｆｅａｔ"TCC_NEWLINE"　ｍｅ"TCC_NEWLINE
-"ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｆｉｒｓｔ，　Ｉ　ｗｉｌｌ　ｓｈｏｗ　ｙｏｕ　ｔｈｅ"TCC_NEWLINE"　ｐｏｗｅｒ"TCC_NEWLINE
-"ｏｆ　Ｌａｅｇｊａｒｎ，　ｏｎｅ　ｏｆ　ｔｈｅ　Ｓｃｏｒｃｈ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
-"Ｔｒｉａｄ　ｏｆ　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ａｌｗａｙｓ，　ｙｏｕ’ｒｅ　ａ　ｇｏｏｄ　ｇｉｒｌ"TCC_NEWLINE"，Ｌａｅｖａｔｅｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｗｅ’ｌｌ　ｍｅｅｔ　ａｇａｉｎ"TCC_NEWLINE"　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｒａｖｅ　ｗａｒｒｉｏｒｓ　ｏｆ　Ａｓｋｒ．．．　Ｉ　ｃー"TCC_NEWLINE"ａｎ　ｆｅｅｌｙｏｕｒ　ｍａｌｉｃｅ．　Ｙｏｕ　ａｉｍ　ｔー"TCC_NEWLINE"ｏ　ｄｅｆｅａｔ　ｍｅｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｆｉｒｓｔ，　Ｉ　ｗｉｌｌ　ｓｈｏｗ　ｙｏｕ　ｔｈー"TCC_NEWLINE"ｅ　ｐｏｗｅｒｏｆ　Ｌａｅｇｊａｒｎ，　ｏｎｅ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅ　ＳｃｏｒｃｈｉｎｇＴｒｉａｄ　ｏｆ　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
-"Ｔｈａｔ’ｓ．．．ｔｈａｔ’ｓ　ｉｔ．　Ｔｈａｔ’ｓ　ａｌｌ"TCC_NEWLINE"　Ｉ　ｈａｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ．．．ｔｈａｔ’ｓ　ｉｔ．　Ｔｈａｔ’ｓ　ａｌー"TCC_NEWLINE"ｌ　Ｉ　ｈａｖｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ，　Ｌａｅｖａｔｅｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
-"Ｆｏｒｃｅｓ　ｏｆ　Ｍｓｐｅｌｌ，　ｈｅａｒ　ｍｅ！　Ｙｏｕ"TCC_NEWLINE"ｒ"TCC_NEWLINE
-"ｇｅｎｅｒａｌ，　Ｌａｅｇｊａｒｎ，　ｈａｓ　ｂｅｅｎ"TCC_NEWLINE
-"ｄｅｆｅａｔｅｄ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｈａｖｅ　ｎｏ　ｃｈａｎｃｅ　ａｔ　ｖｉｃｔｏｒｙ！"TCC_NEWLINE"　Ｆｌｅｅ，"TCC_NEWLINE
-"ａｎｄ　ｗｅ　ｗｉｌｌ　ｎｏｔ　ｐｕｒｓｕｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔａｙ　ａｎｄ　ｆｉｇｈｔ，　ａｎｄ　ｗｅ　ｗｉｌｌ　ｎｏ"TCC_NEWLINE"ｔ　ｇｏ"TCC_NEWLINE
-"ｅａｓｙ　ｏｎ　ｙｏｕ．　Ｔｈｅ　ｃｈｏｉｃｅ　ｉｓ　ｙｏｕ"TCC_NEWLINE"ｒｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒｃｅｓ　ｏｆ　Ｍｓｐｅｌｌ，　ｈｅａｒ　ｍｅ！　Ｙｏー"TCC_NEWLINE"ｕｒｇｅｎｅｒａｌ，　Ｌａｅｇｊａｒｎ，　ｈａｓ　ｂｅｅｎー"TCC_NEWLINE"ｄｅｆｅａｔｅｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｎｏ　ｃｈａｎｃｅ　ａｔ　ｖｉｃｔｏｒｙ"TCC_NEWLINE"！　Ｆｌｅｅ，ａｎｄ　ｗｅ　ｗｉｌｌ　ｎｏｔ　ｐｕｒｓｕｅ"TCC_NEWLINE"　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔａｙ　ａｎｄ　ｆｉｇｈｔ，　ａｎｄ　ｗｅ　ｗｉｌｌ　ｎー"TCC_NEWLINE"ｏｔ　ｇｏｅａｓｙ　ｏｎ　ｙｏｕ．　Ｔｈｅ　ｃｈｏｉｃｅ　"TCC_NEWLINE"ｉｓ　ｙｏｕｒｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
 "Ｇｕｈ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -117,45 +80,24 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
 "Ｓｏ，　ｙｏｕ’ｖｅ　ａｗａｋｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｅｌｌｏ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｃｏｍｅ　ｔｏ　ｔｈｉｓ，　Ｉ　ｓｅｅ．　Ｇｏ　ａ"TCC_NEWLINE"ｈｅａｄ．　Ｋｉｌｌ"TCC_NEWLINE
-"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｌｌ　ｇａｉｎ　ｎｏｔｈｉｎｇ　ｂｙ　ｔａｋｉｎｇ　"TCC_NEWLINE"ｍｅ"TCC_NEWLINE
-"ｈｏｓｔａｇｅ．　Ｍｙ　ｆａｔｈｅｒ　ｗｏｕｌｄ　ｎｅｖｅｒ"TCC_NEWLINE
-"ｂａｒｇａｉｎ　ｆｏｒ　ｍｙ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｃｏｍｅ　ｔｏ　ｔｈｉｓ，　Ｉ　ｓｅｅ．　Ｇｏ　"TCC_NEWLINE"ａｈｅａｄ．　Ｋｉｌｌｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｌｌ　ｇａｉｎ　ｎｏｔｈｉｎｇ　ｂｙ　ｔａｋｉｎｇ"TCC_NEWLINE"　ｍｅｈｏｓｔａｇｅ．　Ｍｙ　ｆａｔｈｅｒ　ｗｏｕｌｄ　ｎー"TCC_NEWLINE"ｅｖｅｒｂａｒｇａｉｎ　ｆｏｒ　ｍｙ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｒ　ｉｓ　ｉｔ　ｔｏ　ｂｅ　ｔｏｒｔｕｒｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　ｓｈａｍｅｄ　ｉｎ　ｄｅｆｅａｔ．　Ｍｙ　ｆａｔｅ"TCC_NEWLINE"　ｉｓ　ｉｎ"TCC_NEWLINE
-"ｙｏｕｒ　ｈａｎｄｓ．　Ｄｏ　ｗｈａｔｅｖｅｒ　ｙｏｕ　ｍｕ"TCC_NEWLINE"ｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｈａｍｅｄ　ｉｎ　ｄｅｆｅａｔ．　Ｍｙ　ｆａｔー"TCC_NEWLINE"ｅ　ｉｓ　ｉｎｙｏｕｒ　ｈａｎｄｓ．　Ｄｏ　ｗｈａｔｅｖｅー"TCC_NEWLINE"ｒ　ｙｏｕ　ｍｕｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏｗ　ｔｈａｔ　ｗｅ　ｈａｖｅ　ｄｅｆｅａｔｅｄ　ｙｏｕ，"TCC_NEWLINE
-"Ｍｓｐｅｌｌ’ｓ　ｆｏｒｃｅｓ　ｈａｖｅ　ｂｅｅｎ　ｔｈｒｏ"TCC_NEWLINE"ｗｎ"TCC_NEWLINE
-"ｉｎｔｏ　ｃｈａｏｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｒｏｅｓ　ｗｅｒｅ　ｆｉｇｈｔｉｎｇ　ｕｎｄｅｒ　ｃｏｎ"TCC_NEWLINE"ｔｒａｃｔ．．．"TCC_NEWLINE
-"Ｂｕｔ　ｔｈｏｓｅ　ｃｏｎｔｒａｃｔｓ　ａｒｅ　ｎｏｗ　ｂｒ"TCC_NEWLINE"ｏｋｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｓｏｌｄｉｅｒｓ，　ｍｅａｎｗｈｉｌｅ，　ｈａｖｅ　"TCC_NEWLINE"ｎｏ"TCC_NEWLINE
-"ｉｄｅａ　ｗｈａｔ　ｔｏ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｆｏｒ　ｕｓ，　ｗｅ　ｈａｖｅ　ａｃｈｉｅｖｅｄ　ｏｕ"TCC_NEWLINE"ｒ"TCC_NEWLINE
-"ａｉｍｓ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ　ｔｏ　ｓｐｉｌ"TCC_NEWLINE"ｌ　ａｎｙ"TCC_NEWLINE
-"ｍｏｒｅ　ｂｌｏｏｄ　ｔｏｄａｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｎｏｔ　ｊｕｓｔ　ｔｈａｔ．　Ｗｈｅｎ　ｙｏｕ　ｃ"TCC_NEWLINE"ｏｎｑｕｅｒｅｄ"TCC_NEWLINE
-"Ｎｉｆｌ，　ｙｏｕ　ｔｒｅａｔｅｄ　ｔｈｅ　ｃｉｔｉｚｅｎｓ"TCC_NEWLINE"　ｗｉｔｈ"TCC_NEWLINE
-"ｄｉｇｎｉｔｙ．　Ｉ　ｏｗｅ　ｙｏｕ　ｔｈｅ　ｓａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｏｕｌｄ　ａｓｋ　ｙｏｕ　ｏｎｅ　ｔｈｉｎｇ，　ｈｏｗ"TCC_NEWLINE"ｅｖｅｒ．"TCC_NEWLINE
-"Ｄｉｄ　ｙｏｕ　ｗｉｓｈ　ｔｏ　ｉｎｖａｄｅ　Ｎｉｆｌ？　Ｉ"TCC_NEWLINE"　ｓｕｓｐｅｃｔ"TCC_NEWLINE
-"ｙｏｕ　ｄｉｄ　ｎｏｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｔｈａｔ　ｗｅ　ｈａｖｅ　ｄｅｆｅａｔｅｄ　ｙｏｕ"TCC_NEWLINE"，Ｍｓｐｅｌｌ’ｓ　ｆｏｒｃｅｓ　ｈａｖｅ　ｂｅｅｎ　ｔｈー"TCC_NEWLINE"ｒｏｗｎｉｎｔｏ　ｃｈａｏｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｏｅｓ　ｗｅｒｅ　ｆｉｇｈｔｉｎｇ　ｕｎｄｅｒ　ｃｏー"TCC_NEWLINE"ｎｔｒａｃｔ．．．Ｂｕｔ　ｔｈｏｓｅ　ｃｏｎｔｒａｃｔｓ　"TCC_NEWLINE"ａｒｅ　ｎｏｗ　ｂｒｏｋｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｏｌｄｉｅｒｓ，　ｍｅａｎｗｈｉｌｅ，　ｈａｖｅ"TCC_NEWLINE"　ｎｏｉｄｅａ　ｗｈａｔ　ｔｏ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｆｏｒ　ｕｓ，　ｗｅ　ｈａｖｅ　ａｃｈｉｅｖｅｄ　ｏー"TCC_NEWLINE"ｕｒａｉｍｓ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ　ｔｏ　ｓー"TCC_NEWLINE"ｐｉｌｌ　ａｎｙｍｏｒｅ　ｂｌｏｏｄ　ｔｏｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｎｏｔ　ｊｕｓｔ　ｔｈａｔ．　Ｗｈｅｎ　ｙｏｕ　"TCC_NEWLINE"ｃｏｎｑｕｅｒｅｄＮｉｆｌ，　ｙｏｕ　ｔｒｅａｔｅｄ　ｔｈー"TCC_NEWLINE"ｅ　ｃｉｔｉｚｅｎｓ　ｗｉｔｈｄｉｇｎｉｔｙ．　Ｉ　ｏｗｅ"TCC_NEWLINE"　ｙｏｕ　ｔｈｅ　ｓａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ａｓｋ　ｙｏｕ　ｏｎｅ　ｔｈｉｎｇ，　ｈｏー"TCC_NEWLINE"ｗｅｖｅｒ．Ｄｉｄ　ｙｏｕ　ｗｉｓｈ　ｔｏ　ｉｎｖａｄｅ　"TCC_NEWLINE"Ｎｉｆｌ？　Ｉ　ｓｕｓｐｅｃｔｙｏｕ　ｄｉｄ　ｎｏｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｗｏｕｌｄ　ｎｅｖｅｒ　ａｎｓｗｅｒ　ｔｈｅ　ｑｕｅｓｔ"TCC_NEWLINE"ｉｏｎｓ　ｏｆ"TCC_NEWLINE
-"ａｎ　ｅｎｅｍｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｊｕｓｔ　ｒｅｍｅｍｂｅｒ　ｔｈｉｓ．．．　Ｍｙ　ｆａｔｈｅ"TCC_NEWLINE"ｒ　ｉｓ"TCC_NEWLINE
-"ｆｌａｍｅ　ｉｔｓｅｌｆ．　Ｅｖｅｒｙｔｈｉｎｇ　ｗｉｌｌ　"TCC_NEWLINE"ｂｕｒｎ．"TCC_NEWLINE
-"Ｕｎｔｉｌ　ｎｏｔｈｉｎｇ　ｒｅｍａｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｉｓ　ｔｈｅ　ｌｅａｄｅｒ　ｏｆ　Ｍｓｐｅｌｌ，　ａｎ"TCC_NEWLINE"ｄ　Ｉ"TCC_NEWLINE
-"ｆｏｌｌｏｗ　ｈｉｓ　ｏｒｄｅｒｓ．　Ｔｈａｔ　ｉｓ　ａｌｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ｎｅｖｅｒ　ａｎｓｗｅｒ　ｔｈｅ　ｑｕｅｓー"TCC_NEWLINE"ｔｉｏｎｓ　ｏｆａｎ　ｅｎｅｍｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｒｅｍｅｍｂｅｒ　ｔｈｉｓ．．．　Ｍｙ　ｆａｔｈー"TCC_NEWLINE"ｅｒ　ｉｓｆｌａｍｅ　ｉｔｓｅｌｆ．　Ｅｖｅｒｙｔｈｉｎｇ"TCC_NEWLINE"　ｗｉｌｌ　ｂｕｒｎ．Ｕｎｔｉｌ　ｎｏｔｈｉｎｇ　ｒｅｍａー"TCC_NEWLINE"ｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｉｓ　ｔｈｅ　ｌｅａｄｅｒ　ｏｆ　Ｍｓｐｅｌｌ，　ａー"TCC_NEWLINE"ｎｄ　Ｉｆｏｌｌｏｗ　ｈｉｓ　ｏｒｄｅｒｓ．　Ｔｈａｔ　ｉー"TCC_NEWLINE"ｓ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｓｅｅ．　Ａｎｄ　ｙｅｔ　Ｉ　ｃａｎｎｏｔ　ｂｒｉｎｇ　"TCC_NEWLINE"ｍｙｓｅｌｆ"TCC_NEWLINE
-"ｔｏ　ｂｅａｒ　ａ　ｇｒｕｄｇｅ　ａｇａｉｎｓｔ　ｙｏｕ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｈａｄ　ｎｏｔ　ｍｅｔ　ｏｎ　ｔｈｅ　ｂａｔｔｌ"TCC_NEWLINE"ｅｆｉｅｌｄ，"TCC_NEWLINE
-"ｂｕｔ　ｓｏｍｅｗｈｅｒｅ　ｍｏｒｅ　ｇｅｎｉａｌ．．．　Ｉ"TCC_NEWLINE
-"ｔｈｉｎｋ　ｗｅ　ｃｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ　ｆｒｉｅｎ"TCC_NEWLINE"ｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ．　Ａｎｄ　ｙｅｔ　Ｉ　ｃａｎｎｏｔ　ｂｒｉｎｇ"TCC_NEWLINE"　ｍｙｓｅｌｆｔｏ　ｂｅａｒ　ａ　ｇｒｕｄｇｅ　ａｇａｉｎー"TCC_NEWLINE"ｓｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｈａｄ　ｎｏｔ　ｍｅｔ　ｏｎ　ｔｈｅ　ｂａｔｔー"TCC_NEWLINE"ｌｅｆｉｅｌｄ，ｂｕｔ　ｓｏｍｅｗｈｅｒｅ　ｍｏｒｅ　ｇｅー"TCC_NEWLINE"ｎｉａｌ．．．　Ｉｔｈｉｎｋ　ｗｅ　ｃｏｕｌｄ　ｈａｖｅ　"TCC_NEWLINE"ｂｅｅｎ　ｆｒｉｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

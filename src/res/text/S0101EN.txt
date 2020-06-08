@@ -1,102 +1,55 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S0101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｙｏｕ’ｒｅ　ａｌｌ　ｒｉｇ"TCC_NEWLINE"ｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｙｏｕ’ｒｅ　ａｌｌ　ｒｉー"TCC_NEWLINE"ｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
 "Ｗａｉｔ，　ｗｈｏ　ｉｓ　ｔｈｉｓ　ｗｉｔｈ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 "Ｃｏｕｌｄ　ｉｔ　ｂｅ．．．？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｔ　ｉｓ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ！　Ｔｈｅ　ｌｅｇ"TCC_NEWLINE"ｅｎｄ　ｉｓ"TCC_NEWLINE
-"ｔｒｕｅ．　Ｉ　ｒａｉｓｅｄ　Ｂｒｅｉｄａｂｌｉｋ，　ａｎｄ"TCC_NEWLINE"　ｔｈｅｎ"TCC_NEWLINE
+"Ｉｔ　ｉｓ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ！　Ｔｈｅ　ｌｅー"TCC_NEWLINE"ｇｅｎｄ　ｉｓｔｒｕｅ．　Ｉ　ｒａｉｓｅｄ　Ｂｒｅｉｄａｂー"TCC_NEWLINE"ｌｉｋ，　ａｎｄ　ｔｈｅｎ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ａｐｐｅａｒｅｄ！"TCC_NEWLINE TCC_PUSH_A
-"Ｏｕｒ　Ｇｒｅａｔ　Ｈｅｒｏ　ｉｓ　ｈｅｒｅ．．．ａｎｄ　ｃ"TCC_NEWLINE"ａｎ　ｕｓｅ"TCC_NEWLINE
-"ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｆｏｒ　ｗｈａｔ　Ｂｒｅｉｄａｂｌｉｋ　ｓｈｏｏｔｓ？"TCC_NEWLINE
-"Ｉｔ’ｓ　ｔｒｕｌｙ　ｗｏｎｄｅｒｆｕｌ．　Ｉｔ　ｆｉｒｅｓ"TCC_NEWLINE
-"Ｈｅｒｏｅｓ　ｒｉｇｈｔ　ｏｕｔ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　Ｇｒｅａｔ　Ｈｅｒｏ　ｉｓ　ｈｅｒｅ．．．ａｎｄ　"TCC_NEWLINE"ｃａｎ　ｕｓｅｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｆｏｒ　ｗｈａｔ　Ｂｒｅｉｄａｂｌｉｋ　ｓｈｏｏｔｓ"TCC_NEWLINE"？Ｉｔ’ｓ　ｔｒｕｌｙ　ｗｏｎｄｅｒｆｕｌ．　Ｉｔ　ｆｉｒー"TCC_NEWLINE"ｅｓＨｅｒｏｅｓ　ｒｉｇｈｔ　ｏｕｔ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｕｎｂｅｌｉｅｖａｂｌｅ．　Ｓｏ　ｙｏｕ’ｒｅ　ｏｕｒ　Ｇｒ"TCC_NEWLINE"ｅａｔ"TCC_NEWLINE
-"Ｈｅｒｏ，　ｃｏｍｅ　ｔｏ　ｕｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ"TCC_NEWLINE
-"ｗｏｒｌｄ，"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅ　ｏｆ　Ａｓｋｒ　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
-"ｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．"TCC_NEWLINE
-"Ａ　ｐｌｅａｓｕｒｅ　ｔｏ　ｍｅｅｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ａｓｋ　ｔｈｉｓ　ｏｆ　ｙｏｕ　ｓ"TCC_NEWLINE"ｏ"TCC_NEWLINE
-"ｓｏｏｎ　ａｆｔｅｒ　ｗｅ’ｖｅ　ｍｅｔ，　ｂｕｔ　Ｉ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
-"ｎｅｅｄ　ｏｆ　ｙｏｕｒ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｕｒ　ｏｒｄｅｒ　ｉｓ　ｄｅｖｏｔｅｄ　ｔｏ　ｆｉｇｈｔｉ"TCC_NEWLINE"ｎｇ"TCC_NEWLINE
-"ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ，　ｗｈｉｃｈ　ｉｎｖａ"TCC_NEWLINE"ｄｅｓ"TCC_NEWLINE
-"ｗｏｒｌｄｓ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ａｒｅ　ｆｒｏｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｅ　ｏｆ　ｔｈｅｓｅ　ｉｓ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍ"TCC_NEWLINE"ｙｓｔｅｒｙ．"TCC_NEWLINE
-"Ｉ　ｈａｖｅ　ｄｉｒｅ　ｎｅｗｓ．　Ｔｈｅ　ｅｍｐｉｒｅ　ｈ"TCC_NEWLINE"ａｓ"TCC_NEWLINE
-"ｎｅｗｌｙ　ｔａｋｅｎ　ｏｖｅｒ　ｔｈａｔ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｎｅｅｄ　ｔｏ　ｍａｋｅ　ｏｕｒ　ｗａｙ　ｔｏ　ｔｈｅ"TCC_NEWLINE
-"Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ　ｔｏ　ｆｒｅｅ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ｔｈｅｒｅ’ｓ　ｏ"TCC_NEWLINE"ｎｅ"TCC_NEWLINE
-"ｍｏｒｅ　ｔｈｉｎｇ．　Ｉ　ｓｐｏｔｔｅｄ　ｓｏｍｅｏｎｅ　"TCC_NEWLINE"ｏｄｄ"TCC_NEWLINE
-"ｗｉｔｈ　ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｎｅａｒ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａ　ｓｔｒａｎｇｅ　ｍａｎ．　Ｎｏｔ　ａｎ　ｉｍｐｅｒｉａｌ"TCC_NEWLINE
-"ｓｏｌｄｉｅｒ．　Ｎｏｒ　ａ　Ｈｅｒｏ　ｆｒｏｍ　ｔｈｅ　Ｗ"TCC_NEWLINE"ｏｒｌｄ　ｏｆ"TCC_NEWLINE
-"Ｍｙｓｔｅｒｙ　ｎｏｗ　ｕｎｄｅｒ　ｔｈｅｉｒ　ｃｏｎｔｒｏ"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｂｅｌｉｅｖａｂｌｅ．　Ｓｏ　ｙｏｕ’ｒｅ　ｏｕｒ　Ｇー"TCC_NEWLINE"ｒｅａｔＨｅｒｏ，　ｃｏｍｅ　ｔｏ　ｕｓ　ｆｒｏｍ　ａｎｏー"TCC_NEWLINE"ｔｈｅｒｗｏｒｌｄ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅ　ｏｆ　Ａｓｋｒ　"TCC_NEWLINE"ａｎｄｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒー"TCC_NEWLINE"ｏｅｓ．Ａ　ｐｌｅａｓｕｒｅ　ｔｏ　ｍｅｅｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ａｓｋ　ｔｈｉｓ　ｏｆ　ｙｏｕ　"TCC_NEWLINE"ｓｏｓｏｏｎ　ａｆｔｅｒ　ｗｅ’ｖｅ　ｍｅｔ，　ｂｕｔ　Ｉ"TCC_NEWLINE"　ｈａｖｅｎｅｅｄ　ｏｆ　ｙｏｕｒ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｏｒｄｅｒ　ｉｓ　ｄｅｖｏｔｅｄ　ｔｏ　ｆｉｇｈｔー"TCC_NEWLINE"ｉｎｇｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ，　ｗｈｉｃｈ　"TCC_NEWLINE"ｉｎｖａｄｅｓｗｏｒｌｄｓ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ａｒー"TCC_NEWLINE"ｅ　ｆｒｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｏｆ　ｔｈｅｓｅ　ｉｓ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　"TCC_NEWLINE"Ｍｙｓｔｅｒｙ．Ｉ　ｈａｖｅ　ｄｉｒｅ　ｎｅｗｓ．　Ｔｈｅ"TCC_NEWLINE"　ｅｍｐｉｒｅ　ｈａｓｎｅｗｌｙ　ｔａｋｅｎ　ｏｖｅｒ　ｔー"TCC_NEWLINE"ｈａｔ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｍａｋｅ　ｏｕｒ　ｗａｙ　ｔｏ　ｔｈー"TCC_NEWLINE"ｅＷｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ　ｔｏ　ｆｒｅｅ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｏｎｅｍｏｒｅ　ｔｈｉｎｇ．　Ｉ　ｓｐｏｔｔｅｄ　ｓｏｍｅー"TCC_NEWLINE"ｏｎｅ　ｏｄｄｗｉｔｈ　ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｎｅａｒ"TCC_NEWLINE"　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｓｔｒａｎｇｅ　ｍａｎ．　Ｎｏｔ　ａｎ　ｉｍｐｅｒｉａー"TCC_NEWLINE"ｌｓｏｌｄｉｅｒ．　Ｎｏｒ　ａ　Ｈｅｒｏ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　Ｗｏｒｌｄ　ｏｆＭｙｓｔｅｒｙ　ｎｏｗ　ｕｎｄｅｒ　ｔｈー"TCC_NEWLINE"ｅｉｒ　ｃｏｎｔｒｏｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａ　ｓｔｒａｎｇｅ　ｍａｎ，　ｙｏｕ　ｓａｙ？　Ｄｉｄ　ｈｅ"TCC_NEWLINE
-"ｓｅｅｍ　ａｌｌｉｅｄ　ｗｉｔｈ　ｔｈｅ　Ｅｍｂｌｉａｎ"TCC_NEWLINE
-"Ｅｍｐｉｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｓｔｒａｎｇｅ　ｍａｎ，　ｙｏｕ　ｓａｙ？　Ｄｉｄ　ｈー"TCC_NEWLINE"ｅｓｅｅｍ　ａｌｌｉｅｄ　ｗｉｔｈ　ｔｈｅ　Ｅｍｂｌｉａｎー"TCC_NEWLINE"Ｅｍｐｉｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　"TCC_NEWLINE"ｈｉｍ"TCC_NEWLINE
-"ｂｅｆｏｒｅ．　Ｈｅ　ｗｅａｒｓ　ａ　ｍａｓｋ　ａｎｄ　ｋｅ"TCC_NEWLINE"ｅｐｓ"TCC_NEWLINE
-"ｈｉｓ　ｆａｃｅ　ａ　ｓｅｃｒｅｔ　ｅｖｅｎ　ｆｒｏｍ　ｔｈ"TCC_NEWLINE"ｅｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｎｏｗ，　ｗｅ　ｍｕｓｔ　ｒｕｓｈ　ｉｎｔｏ　ｂａｔ"TCC_NEWLINE"ｔｌｅ．"TCC_NEWLINE
-"Ｓｏｌｄｉｅｒｓ　ａｐｐｒｏａｃｈ！"
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ"TCC_NEWLINE"　ｈｉｍｂｅｆｏｒｅ．　Ｈｅ　ｗｅａｒｓ　ａ　ｍａｓｋ　ａー"TCC_NEWLINE"ｎｄ　ｋｅｅｐｓｈｉｓ　ｆａｃｅ　ａ　ｓｅｃｒｅｔ　ｅｖｅー"TCC_NEWLINE"ｎ　ｆｒｏｍ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏｗ，　ｗｅ　ｍｕｓｔ　ｒｕｓｈ　ｉｎｔｏ　ｂａー"TCC_NEWLINE"ｔｔｌｅ．Ｓｏｌｄｉｅｒｓ　ａｐｐｒｏａｃｈ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｈｏ　ａｒｅ　ｙｏｕ，　ｓｔｒａｎｇｅｒ？　Ａｌｆｏｎｓｅ"TCC_NEWLINE"，　ｔｈｉｓ"TCC_NEWLINE
-"ｍｕｓｔ　ｂｅ　ｔｈｅ　ｍａｓｋｅｄ　ｍａｎ　ｙｏｕ　ｓａｗ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ａｒｅ　ｙｏｕ，　ｓｔｒａｎｇｅｒ？　Ａｌｆｏｎｓー"TCC_NEWLINE"ｅ，　ｔｈｉｓｍｕｓｔ　ｂｅ　ｔｈｅ　ｍａｓｋｅｄ　ｍａｎ"TCC_NEWLINE"　ｙｏｕ　ｓａｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｙｏｕ！　Ｔｅｌｌ　ｕｓａｒｅ　ｙｏｕ　ａ　ｓｏｌｄｉｅｒ　"TCC_NEWLINE"ｉｎ　ｔｈｅ"TCC_NEWLINE
-"Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ？　Ｉｆ　ｓｏ，　ｔｈｅｎ　ｙｏ"TCC_NEWLINE"ｕ"TCC_NEWLINE
-"ｓｔａｎｄ　ｏｎ　ｔｈｅ　ｓｉｄｅ　ｏｆ　ｅｖｉｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｅｍｐｉｒｅ　ｓｈｏｕｌｄｎ’ｔ　ｂｅ　ｅｎｔｅｒｉ"TCC_NEWLINE"ｎｇ"TCC_NEWLINE
-"ｔｈｅ　ｗｏｒｌｄｓ　ｏｆ　Ｈｅｒｏｅｓｌｅｔ　ａｌｏｎｅ"TCC_NEWLINE
-"ｃｏｎｑｕｅｒｉｎｇ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ！　Ｔｅｌｌ　ｕｓａｒｅ　ｙｏｕ　ａ　ｓｏｌｄｉｅｒ"TCC_NEWLINE"　ｉｎ　ｔｈｅＥｍｂｌｉａｎ　Ｅｍｐｉｒｅ？　Ｉｆ　ｓｏ，"TCC_NEWLINE"　ｔｈｅｎ　ｙｏｕｓｔａｎｄ　ｏｎ　ｔｈｅ　ｓｉｄｅ　ｏｆ"TCC_NEWLINE"　ｅｖｉｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｅｍｐｉｒｅ　ｓｈｏｕｌｄｎ’ｔ　ｂｅ　ｅｎｔｅｒー"TCC_NEWLINE"ｉｎｇｔｈｅ　ｗｏｒｌｄｓ　ｏｆ　Ｈｅｒｏｅｓｌｅｔ　ａｌー"TCC_NEWLINE"ｏｎｅｃｏｎｑｕｅｒｉｎｇ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｒｅａｌｌｙ？　Ａｎｄ　Ｉ　ｓｕｐｐｏｓｅ　ｙｏｕ　"TCC_NEWLINE"ｗａｎｔ"TCC_NEWLINE
-"ｕｓ　ｔｏ　ｃｌｏｓｅ　ｔｈｅ　ｇａｔｅｗａｙｓ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｒｅａｌｌｙ？　Ａｎｄ　Ｉ　ｓｕｐｐｏｓｅ　ｙｏｕ"TCC_NEWLINE"　ｗａｎｔｕｓ　ｔｏ　ｃｌｏｓｅ　ｔｈｅ　ｇａｔｅｗａｙｓ"TCC_NEWLINE"　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
 "Ｈｍｐｆ．　Ｉｎ　ｙｏｕｒ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｈｏｗ　ｄａｒｅ　ｙｏｕ！　Ｗｈｅｒｅ　ａｒｅ　ｙｏｕ"TCC_NEWLINE
-"ｇｏｉｎｇ？　Ｇｅｔ　ｂａｃｋ　ｈｅｒｅ　ａｎｄ　ａｎｓｗｅ"TCC_NEWLINE"ｒ"TCC_NEWLINE
-"ｆｏｒ　ｙｏｕｒｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｄａｒｅ　ｙｏｕ！　Ｗｈｅｒｅ　ａｒｅ　ｙｏｕｇｏー"TCC_NEWLINE"ｉｎｇ？　Ｇｅｔ　ｂａｃｋ　ｈｅｒｅ　ａｎｄ　ａｎｓｗｅｒー"TCC_NEWLINE"ｆｏｒ　ｙｏｕｒｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
 "Ｄａｍｎ　ｆｅｌｌｏｗ．　Ｈｅ’ｓ　ｇｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｈｏｓｅ　ｇａｔｅｗａｙｓ　ｈｅ　ｍｅｎｔｉｏｎｅｄ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ｃｏｎｎｅｃｔ　ｏｕｒ　ｗｏｒｌｄ　ｔｏ　ａｌｌ"TCC_NEWLINE
-"ｔｈｏｓｅ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇ"TCC_NEWLINE"ｄｏｍ，"TCC_NEWLINE
-"ｌｉｋｅ　Ａｌｆｏｎｓｅ，　ｈａｖｅ　ｔｈｅ　ａｂｉｌｉｔｙ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
-"ｏｐｅｎ　ｔｈｅｓｅ　ｇａｔｅｗａｙｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｃｏｎｎｅｃｔ　ｏｕｒ　ｗｏｒｌｄ　ｔｏ　ａｌｌー"TCC_NEWLINE"ｔｈｏｓｅ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎー"TCC_NEWLINE"ｇｄｏｍ，ｌｉｋｅ　Ａｌｆｏｎｓｅ，　ｈａｖｅ　ｔｈｅ　ａー"TCC_NEWLINE"ｂｉｌｉｔｙ　ｔｏｏｐｅｎ　ｔｈｅｓｅ　ｇａｔｅｗａｙｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａｎｄ　ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　ｔｈｅ　Ｅｍｂｌｉａｎ"TCC_NEWLINE
-"Ｅｍｐｉｒｅ　ａｒｅ　ａｂｌｅ　ｔｏ　ｃｌｏｓｅ　ｔｈｅ"TCC_NEWLINE
-"ｇａｔｅｗａｙｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｏｎｇ　ａｇｏ，　ｏｕｒ　ｔｗｏ　ｆａｍｉｌｉｅｓ　ｗｏｒ"TCC_NEWLINE"ｋｅｄ"TCC_NEWLINE
-"ｉｎ　ｈａｒｍｏｎｙ　ｔｏ　ｏｐｅｎ　ａｎｄ　ｃｌｏｓｅ"TCC_NEWLINE
-"ｔｈｅｓｅ　ｗａｙｓ　ｔｏ　ｏｔｈｅｒ　ｗｏｒｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｅｎ　Ｅｍｂｌａ　ｂｅｇａｎ　ｕｓｉｎｇ　ｉｔｓ"TCC_NEWLINE
-"ｐｏｗｅｒ　ｆｏｒ　ｅｖｉｌ，　ｌｅａｖｉｎｇ　ａｌｌ　ｏｆ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
-"ｇａｔｅｓ　ｏｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｅｍｐｉｒｅ　ｂｅｇａｎ　ｉｎｖａｄｉｎｇ　ｔｈｏｓ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｗｏｒｌｄｓ．　Ｗｅ　ｃａｎｎｏｔ　ｓｌａｍ　ｔｈｅ　ｇａｔ"TCC_NEWLINE"ｅｓ"TCC_NEWLINE
-"ｓｈｕｔ．　Ｏｎｌｙ　ｔｈｅｙ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　ｔｈｅ　Ｅｍｂｌｉａー"TCC_NEWLINE"ｎＥｍｐｉｒｅ　ａｒｅ　ａｂｌｅ　ｔｏ　ｃｌｏｓｅ　ｔｈｅー"TCC_NEWLINE"ｇａｔｅｗａｙｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｏｎｇ　ａｇｏ，　ｏｕｒ　ｔｗｏ　ｆａｍｉｌｉｅｓ　ｗｏー"TCC_NEWLINE"ｒｋｅｄｉｎ　ｈａｒｍｏｎｙ　ｔｏ　ｏｐｅｎ　ａｎｄ　ｃｌー"TCC_NEWLINE"ｏｓｅｔｈｅｓｅ　ｗａｙｓ　ｔｏ　ｏｔｈｅｒ　ｗｏｒｌｄｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｎ　Ｅｍｂｌａ　ｂｅｇａｎ　ｕｓｉｎｇ　ｉｔー"TCC_NEWLINE"ｓｐｏｗｅｒ　ｆｏｒ　ｅｖｉｌ，　ｌｅａｖｉｎｇ　ａｌｌ　"TCC_NEWLINE"ｏｆ　ｔｈｅｇａｔｅｓ　ｏｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｅｍｐｉｒｅ　ｂｅｇａｎ　ｉｎｖａｄｉｎｇ　ｔｈｏー"TCC_NEWLINE"ｓｅｗｏｒｌｄｓ．　Ｗｅ　ｃａｎｎｏｔ　ｓｌａｍ　ｔｈｅ　"TCC_NEWLINE"ｇａｔｅｓｓｈｕｔ．　Ｏｎｌｙ　ｔｈｅｙ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ　ｃａｎ　ｆｉｇｈｔ　ｔｈｅｍ，　ｈｏｗｅｖｅｒ．　Ｔｈ"TCC_NEWLINE"ａｔ’ｓ"TCC_NEWLINE
-"ｗｈｙ　ｗｅ　Ａｓｋｒａｎｓ　ｆｏｒｍｅｄ　ｔｈｅ　Ｏｒｄｅ"TCC_NEWLINE"ｒ　ｏｆ"TCC_NEWLINE
-"Ｈｅｒｏｅｓｔｏ　ｓｔｏｐ　ｔｈｅ　Ｅｍｂｌｉａｎｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　ｌｅｔ’ｓ　ｈｕｒｒｙ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
-"Ｍｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｆｏｎｓｅ．．．ｙｏｕｒ　ｓｉｓｔｅｒ　ｈａｓ　ｂｅｅｎ"TCC_NEWLINE"　ｏｎ"TCC_NEWLINE
-"ａ　ｓｃｏｕｔｉｎｇ　ｍｉｓｓｉｏｎ．　Ｉ　ｆｅａｒ　ｔｈａ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｓｈｅ　ｍａｙ　ｂｅ　ｉｎ　ｄａｎｇｅｒ．"
+"Ｗｅ　ｃａｎ　ｆｉｇｈｔ　ｔｈｅｍ，　ｈｏｗｅｖｅｒ．　Ｔー"TCC_NEWLINE"ｈａｔ’ｓｗｈｙ　ｗｅ　Ａｓｋｒａｎｓ　ｆｏｒｍｅｄ　ｔｈー"TCC_NEWLINE"ｅ　Ｏｒｄｅｒ　ｏｆＨｅｒｏｅｓｔｏ　ｓｔｏｐ　ｔｈｅ　Ｅー"TCC_NEWLINE"ｍｂｌｉａｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｌｅｔ’ｓ　ｈｕｒｒｙ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ"TCC_NEWLINE"　ｏｆＭｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ．．．ｙｏｕｒ　ｓｉｓｔｅｒ　ｈａｓ　ｂｅｅー"TCC_NEWLINE"ｎ　ｏｎａ　ｓｃｏｕｔｉｎｇ　ｍｉｓｓｉｏｎ．　Ｉ　ｆｅａー"TCC_NEWLINE"ｒ　ｔｈａｔｓｈｅ　ｍａｙ　ｂｅ　ｉｎ　ｄａｎｇｅｒ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

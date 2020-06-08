@@ -1,73 +1,41 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S0103_EN] = TCC_OPEN_LEFT
-"Ｓｃｕｒｒｙ，　ｓｃｕｒｒｙ，　ｌｉｔｔｌｅ　Ｈｅｒｏｅｓ．"TCC_NEWLINE"．．　Ｓｔｅａｌ"TCC_NEWLINE
-"ｆｏｒ　ｍｅ．　Ｓｐｒｅａｄ　ｄｅｓｔｒｕｃｔｉｏｎ．　Ｋｉ"TCC_NEWLINE"ｌｌ　ａｌｌ"TCC_NEWLINE
-"ｔｈｏｓｅ　ｗｈｏ　ｓｔａｎｄ　ｉｎ　ｙｏｕｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｋｉｎｇｄｏｍ　ｍｕｓｔ　ｆａｌｌ．　Ｏｎｃｅ　ｉ"TCC_NEWLINE"ｔ’ｓ"TCC_NEWLINE
-"ｇｏｎｅ，　ｎｏ　ｏｎｅ　ｗｉｌｌ　ｏｐｐｏｓｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙ　Ｈｅｒｏ，　ｉｎ　ｅｖｅｒｙ　ｗｏｒｌｄｔｈｅｙ"TCC_NEWLINE"’ｌｌ"TCC_NEWLINE
-"ａｌｌ　ｂｅ　ｍｉｎｅ．　Ｅｖｅｒｙ　ｌａｓｔ　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｃｕｒｒｙ，　ｓｃｕｒｒｙ，　ｌｉｔｔｌｅ　Ｈｅｒｏｅｓ"TCC_NEWLINE"．．．　Ｓｔｅａｌｆｏｒ　ｍｅ．　Ｓｐｒｅａｄ　ｄｅｓｔｒー"TCC_NEWLINE"ｕｃｔｉｏｎ．　Ｋｉｌｌ　ａｌｌｔｈｏｓｅ　ｗｈｏ　ｓｔａー"TCC_NEWLINE"ｎｄ　ｉｎ　ｙｏｕｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｋｉｎｇｄｏｍ　ｍｕｓｔ　ｆａｌｌ．　Ｏｎｃｅ　"TCC_NEWLINE"ｉｔ’ｓｇｏｎｅ，　ｎｏ　ｏｎｅ　ｗｉｌｌ　ｏｐｐｏｓｅ　"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙ　Ｈｅｒｏ，　ｉｎ　ｅｖｅｒｙ　ｗｏｒｌｄｔｈｅー"TCC_NEWLINE"ｙ’ｌｌａｌｌ　ｂｅ　ｍｉｎｅ．　Ｅｖｅｒｙ　ｌａｓｔ　ｏー"TCC_NEWLINE"ｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ　ｗｏｎ’ｔ　ａｌｌｏｗ　ｉｔ，　Ｐｒｉｎｃｅｓｓ　Ｖｅ"TCC_NEWLINE"ｒｏｎｉｃａ．"TCC_NEWLINE
-"Ａｎｄ　Ｉ　ｗｉｌｌ　ｐｅｒｓｏｎａｌｌｙ　ｎｅｖｅｒ　ｆｏ"TCC_NEWLINE"ｒｇｅｔ"TCC_NEWLINE
-"ｔｈｉｓ　ｖｉｏｌａｔｉｏｎ　ｏｆ　ｍｙ　ｋｉｎｇｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｏｎ’ｔ　ａｌｌｏｗ　ｉｔ，　Ｐｒｉｎｃｅｓｓ　Ｖー"TCC_NEWLINE"ｅｒｏｎｉｃａ．Ａｎｄ　Ｉ　ｗｉｌｌ　ｐｅｒｓｏｎａｌｌｙ"TCC_NEWLINE"　ｎｅｖｅｒ　ｆｏｒｇｅｔｔｈｉｓ　ｖｉｏｌａｔｉｏｎ　ｏー"TCC_NEWLINE"ｆ　ｍｙ　ｋｉｎｇｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｉｔ’ｓ　ｙｏｕ．　Ａｎｄ　ａｆｔｅｒ　Ｉ　ｗｅｎｔ"TCC_NEWLINE
-"ｔｈｒｏｕｇｈ　ａｌｌ　ｔｈａｔ　ｔｒｏｕｂｌｅ　ｔｏ　ａｒ"TCC_NEWLINE"ｒａｎｇｅ"TCC_NEWLINE
-"ｙｏｕｒ　ｐｌａｙｄａｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　ｗｈｏ　ａｒｅ　ＹＯＵ，　ｓｔｒａｎｇｅｒ？　Ｙｏ"TCC_NEWLINE"ｕ"TCC_NEWLINE
-"ｈａｖｅ　ｔｈａｔ　ｓｉｌｌｙ　ｒｅｌｉｃ．　Ｔｈｅｎ　ｙｏ"TCC_NEWLINE"ｕ　ｍｕｓｔ"TCC_NEWLINE
-"ｂｅ　ｔｈｅ　ｌｅｇｅｎｄａｒｙ　ｓｕｍｍｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｍａｔｔｅｒ．　Ｉｔ　ｓｉｍｐｌｙ　ｍｅａｎｓ　ｔｈａ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｆｉｒｓｔ　ｔｏ　ｄｉｅ．"TCC_NEWLINE
-"Ｏｈ．．．Ｘａｎｄｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｉｔ’ｓ　ｙｏｕ．　Ａｎｄ　ａｆｔｅｒ　Ｉ　ｗｅｎー"TCC_NEWLINE"ｔｔｈｒｏｕｇｈ　ａｌｌ　ｔｈａｔ　ｔｒｏｕｂｌｅ　ｔｏ　"TCC_NEWLINE"ａｒｒａｎｇｅｙｏｕｒ　ｐｌａｙｄａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｗｈｏ　ａｒｅ　ＹＯＵ，　ｓｔｒａｎｇｅｒ？　Ｙー"TCC_NEWLINE"ｏｕｈａｖｅ　ｔｈａｔ　ｓｉｌｌｙ　ｒｅｌｉｃ．　Ｔｈｅｎ"TCC_NEWLINE"　ｙｏｕ　ｍｕｓｔｂｅ　ｔｈｅ　ｌｅｇｅｎｄａｒｙ　ｓｕｍー"TCC_NEWLINE"ｍｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ．　Ｉｔ　ｓｉｍｐｌｙ　ｍｅａｎｓ　ｔｈー"TCC_NEWLINE"ａｔｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｆｉｒｓｔ　ｔｏ　ｄｉー"TCC_NEWLINE"ｅ．Ｏｈ．．．Ｘａｎｄｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｏｕ　ｗｉｓｈ　ｔｈｉｓ　ｏｎｅ　ｓｌａｉｎ，　Ｐｒｉｎｃ"TCC_NEWLINE"ｅｓｓ"TCC_NEWLINE
-"Ｖｅｒｏｎｉｃａ？　Ａｓ　ｙｏｕ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｓｈ　ｔｈｉｓ　ｏｎｅ　ｓｌａｉｎ，　Ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓＶｅｒｏｎｉｃａ？　Ａｓ　ｙｏｕ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ！　Ｓｈｅ　ｈａｓ　Ｘａｎｄｅｒ，　ｏｎｅ　ｏｆ　ｔｈｅ"TCC_NEWLINE
-"ｍｏｓｔ　ｐｏｗｅｒｆｕｌ　Ｈｅｒｏｅｓ　ｆｒｏｍ"TCC_NEWLINE
-"ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｃｏｎｑｕｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｓｈｅ　ｈａｓ　Ｘａｎｄｅｒ，　ｏｎｅ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅｍｏｓｔ　ｐｏｗｅｒｆｕｌ　Ｈｅｒｏｅｓ　ｆｒｏｍｔｈｅ"TCC_NEWLINE"　Ｗｏｒｌｄ　ｏｆ　Ｃｏｎｑｕｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｗｅ’ｌｌ　ｐｒｏｔｅｃｔ　ｙｏｕ"TCC_NEWLINE"，"TCC_NEWLINE
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｗｅ’ｌｌ　ｐｒｏｔｅｃｔ　ｙｏー"TCC_NEWLINE"ｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｇｅｔ　ｒｅａｄｙ，　ｅｖｅｒｙｏｎｅ．　Ｌｅｔ’ｓ　ｓｈｏ"TCC_NEWLINE"ｗ　ｔｈｉｓ"TCC_NEWLINE
-"ｒｏｔｔｅｎ　ｐｒｉｎｃｅｓｓ　ｗｈａｔ　ｔｈｅ　Ｏｒｄｅｒ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
-"Ｈｅｒｏｅｓ　ｃａｎ　ｒｅａｌｌｙ　ｄｏ！"
+"Ｇｅｔ　ｒｅａｄｙ，　ｅｖｅｒｙｏｎｅ．　Ｌｅｔ’ｓ　ｓｈー"TCC_NEWLINE"ｏｗ　ｔｈｉｓｒｏｔｔｅｎ　ｐｒｉｎｃｅｓｓ　ｗｈａｔ　ｔー"TCC_NEWLINE"ｈｅ　Ｏｒｄｅｒ　ｏｆＨｅｒｏｅｓ　ｃａｎ　ｒｅａｌｌｙ　"TCC_NEWLINE"ｄｏ！"
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0103_EN] = TCC_OPEN_LEFT
-"Ｌｅｆｔ　ａｌｌ　ａｌｏｎｅ．　Ａｇａｉｎ？　Ｈｏｗ　ｄｕｌ"TCC_NEWLINE"ｌ．"TCC_NEWLINE
-"Ｉ’ｌｌ　ｇｏ　ｃｏｎｓｏｌｅ　ｍｙｓｅｌｆ　ｂａｃｋ　ｈｏ"TCC_NEWLINE"ｍｅ"TCC_NEWLINE
-"ｗｉｔｈ　ａ　ｃｕｐ　ｏｆ　ｔｅａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｆｔ　ａｌｌ　ａｌｏｎｅ．　Ａｇａｉｎ？　Ｈｏｗ　ｄｕー"TCC_NEWLINE"ｌｌ．Ｉ’ｌｌ　ｇｏ　ｃｏｎｓｏｌｅ　ｍｙｓｅｌｆ　ｂａｃー"TCC_NEWLINE"ｋ　ｈｏｍｅｗｉｔｈ　ａ　ｃｕｐ　ｏｆ　ｔｅａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈａｔ　ｆｏｏｌｉｓｈ　ｐｒｉｎｃｅｓｓ　ｉｓ　ｒｅｔｒｅ"TCC_NEWLINE"ａｔｉｎｇ"TCC_NEWLINE
-"ｗｉｔｈ　ｈｅｒ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｆｏｏｌｉｓｈ　ｐｒｉｎｃｅｓｓ　ｉｓ　ｒｅｔｒー"TCC_NEWLINE"ｅａｔｉｎｇｗｉｔｈ　ｈｅｒ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅ　ｂａｔｔｌｅ’ｓ　ｗｏｎ，　ｂｕｔ　ｔｈｉｓ　ｄｉｄ"TCC_NEWLINE"ｎ’ｔ"TCC_NEWLINE
-"ｒｅｓｏｌｖｅ　ａ　ｔｈｉｎｇ．　Ｔｈｅ　ｅｍｐｉｒｅ　ｗｉ"TCC_NEWLINE"ｌｌ"TCC_NEWLINE
-"ｉｎｖａｄｅ　ａｇａｉｎ　ｓｏｏｎ　ｅｎｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｂａｔｔｌｅ’ｓ　ｗｏｎ，　ｂｕｔ　ｔｈｉｓ　ｄｉー"TCC_NEWLINE"ｄｎ’ｔｒｅｓｏｌｖｅ　ａ　ｔｈｉｎｇ．　Ｔｈｅ　ｅｍｐｉー"TCC_NEWLINE"ｒｅ　ｗｉｌｌｉｎｖａｄｅ　ａｇａｉｎ　ｓｏｏｎ　ｅｎｏｕー"TCC_NEWLINE"ｇｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｓｔｕｂｂｏｒｎ　ｇｉｒｌ．　Ｗｈｙ　ｃａｎ’ｔ　ｗｅ　ｊｕ"TCC_NEWLINE"ｓｔ"TCC_NEWLINE
-"ｔａｌｋ　ｔｈｒｏｕｇｈ　ｔｈｉｓ？　Ｔｈｅｓｅ　ｉｎｖａｓ"TCC_NEWLINE"ｉｏｎｓ"TCC_NEWLINE
-"ａｒｅ　ｃｒａｚｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｎｅｓｔｌｙ，　ｔｈａｔ　Ｖｅｒｏｎｉｃａ　ｎｅｅｄｓ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
-"ｇｒｏｗ　ｕｐ　ａｌｒｅａｄｙ．　Ｗｈｅｒｅ’ｓ　ｈｅｒ　ｓ"TCC_NEWLINE"ｅｎｓｅ"TCC_NEWLINE
-"ｏｆ　ｄｉｐｌｏｍａｃｙ？　Ｓｕｃｈ　ａ　ＢＲＡＴ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｕｂｂｏｒｎ　ｇｉｒｌ．　Ｗｈｙ　ｃａｎ’ｔ　ｗｅ　ｊー"TCC_NEWLINE"ｕｓｔｔａｌｋ　ｔｈｒｏｕｇｈ　ｔｈｉｓ？　Ｔｈｅｓｅ　ｉー"TCC_NEWLINE"ｎｖａｓｉｏｎｓａｒｅ　ｃｒａｚｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｎｅｓｔｌｙ，　ｔｈａｔ　Ｖｅｒｏｎｉｃａ　ｎｅｅｄｓ"TCC_NEWLINE"　ｔｏｇｒｏｗ　ｕｐ　ａｌｒｅａｄｙ．　Ｗｈｅｒｅ’ｓ　ｈー"TCC_NEWLINE"ｅｒ　ｓｅｎｓｅｏｆ　ｄｉｐｌｏｍａｃｙ？　Ｓｕｃｈ　ａ　"TCC_NEWLINE"ＢＲＡＴ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｈａｒｅｎａ，　ｄｏｎ’ｔ　ｌｅｔ　ｙｏｕｒ　ｅｍｏｔｉｏ"TCC_NEWLINE"ｎｓ　ｇｅｔ"TCC_NEWLINE
-"ｔｈｅ　ｂｅｓｔ　ｏｆ　ｙｏｕｎｏｔ　ｏｎ　ｄｕｔｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｅｘｐｅｃｔ　ｙｏｕ　ｔｏ　ｋｅｅｐ　ａ　ｌｅｖｅｌ　ｈ"TCC_NEWLINE"ｅａｄ　ｉｆ"TCC_NEWLINE
-"ｙｏｕ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｓｅｒｖｅ　ｉｎ　ｔｈｉｓ　"TCC_NEWLINE"ｏｒｄｅｒ．"TCC_NEWLINE
-"Ｈｏｓｔｉｌｉｔｙ　ｉｓ　ｔｈｅｉｒ　ｗａｙ，　ｎｏｔ　ｏｕ"TCC_NEWLINE"ｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈａｒｅｎａ，　ｄｏｎ’ｔ　ｌｅｔ　ｙｏｕｒ　ｅｍｏｔｉー"TCC_NEWLINE"ｏｎｓ　ｇｅｔｔｈｅ　ｂｅｓｔ　ｏｆ　ｙｏｕｎｏｔ　ｏｎ　"TCC_NEWLINE"ｄｕｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｅｘｐｅｃｔ　ｙｏｕ　ｔｏ　ｋｅｅｐ　ａ　ｌｅｖｅｌ　"TCC_NEWLINE"ｈｅａｄ　ｉｆｙｏｕ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｓｅｒｖｅ　"TCC_NEWLINE"ｉｎ　ｔｈｉｓ　ｏｒｄｅｒ．Ｈｏｓｔｉｌｉｔｙ　ｉｓ　ｔｈー"TCC_NEWLINE"ｅｉｒ　ｗａｙ，　ｎｏｔ　ｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｓｕｒｅ，　ｓｕｒｅ．．．　Ｉ　ｍｅａｎ，　ｏｆ　ｃｏｕｒｓ"TCC_NEWLINE"ｅ，"TCC_NEWLINE
-"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｅ，　ｓｕｒｅ．．．　Ｉ　ｍｅａｎ，　ｏｆ　ｃｏｕｒー"TCC_NEWLINE"ｓｅ，Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉ’ｍ　ｓｏｒｒｙ　ｔｈａｔ　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｔｈｒ"TCC_NEWLINE"ｏｗｎ"TCC_NEWLINE
-"ｉｎｔｏ　ｔｈｉｓ　ｂｒｕｔａｌ　ｗａｒ　ｗｉｔｈ　ｕｓ，"TCC_NEWLINE
+"Ｉ’ｍ　ｓｏｒｒｙ　ｔｈａｔ　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｔｈー"TCC_NEWLINE"ｒｏｗｎｉｎｔｏ　ｔｈｉｓ　ｂｒｕｔａｌ　ｗａｒ　ｗｉｔｈ"TCC_NEWLINE"　ｕｓ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ’ｍ　ｇｌａｄ　ｙｏｕ’ｒｅ　ｈｅｒｅａｎ　ｏｆｆ"TCC_NEWLINE"ｉｃｉａｌ"TCC_NEWLINE
-"ｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ！"
+"Ｂｕｔ　Ｉ’ｍ　ｇｌａｄ　ｙｏｕ’ｒｅ　ｈｅｒｅａｎ　ｏｆー"TCC_NEWLINE"ｆｉｃｉａｌｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　"TCC_NEWLINE"Ｈｅｒｏｅｓ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

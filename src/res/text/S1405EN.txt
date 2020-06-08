@@ -5,24 +5,16 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｎｅｖｅｒ　ｋｎｏｗ　ｗｈｅｎ　ｔｈｅ　ｂｌｏｏｄ　ｗｉ"TCC_NEWLINE"ｌｌ　ｔａｋｅ"TCC_NEWLINE
-"ｍｅ．．．　Ａｎｄ　ｗｈｅｎ　ｉｔ　ｄｏｅｓ．．．　Ｉ　ｃａ"TCC_NEWLINE"ｎｎｏｔ"TCC_NEWLINE
-"ｒｅｓｉｓｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｔ　Ｉ．　Ｎｏｔ　Ｖｅｒｏｎｉｃａ．　Ｎｏｔ　ｏｕｒ　ｆ"TCC_NEWLINE"ａｔｈｅｒ，"TCC_NEWLINE
-"ｔｈｅ　ｅｍｐｅｒｏｒ．　Ｎｏｔ　ａｎｙｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｄａｒｋ　ｇｏｄ．．．ｓｅｅｋｓ　ｄｅａｔｈ．　Ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
-"ｃｒｉｅｓ　ｏｕｔ　ｆｏｒ　ｔｈｅ　ｄｅｓｔｒｕｃｔｉｏｎ　"TCC_NEWLINE"ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｃａｎ’ｔ　ｈａｖｅ　ｒｅａｌｉｚｅｄ　ｔｈｉｓ，　"TCC_NEWLINE"ｂｕｔ"TCC_NEWLINE
-"ｏｎｃｅ．．．ａｓ　ｗｅ　ｔｒａｖｅｌｅｄ　ｔｏｇｅｔｈｅｒ"TCC_NEWLINE"．．．Ｉ　ｔｒｉｅｄ"TCC_NEWLINE
-"ｔｏ　ｋｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｖｅｒ　ｋｎｏｗ　ｗｈｅｎ　ｔｈｅ　ｂｌｏｏｄ　ｗー"TCC_NEWLINE"ｉｌｌ　ｔａｋｅｍｅ．．．　Ａｎｄ　ｗｈｅｎ　ｉｔ　ｄｏｅー"TCC_NEWLINE"ｓ．．．　Ｉ　ｃａｎｎｏｔｒｅｓｉｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　Ｉ．　Ｎｏｔ　Ｖｅｒｏｎｉｃａ．　Ｎｏｔ　ｏｕｒ　"TCC_NEWLINE"ｆａｔｈｅｒ，ｔｈｅ　ｅｍｐｅｒｏｒ．　Ｎｏｔ　ａｎｙｏｎー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｄａｒｋ　ｇｏｄ．．．ｓｅｅｋｓ　ｄｅａｔｈ．　"TCC_NEWLINE"Ａｎｄｃｒｉｅｓ　ｏｕｔ　ｆｏｒ　ｔｈｅ　ｄｅｓｔｒｕｃｔー"TCC_NEWLINE"ｉｏｎ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ’ｔ　ｈａｖｅ　ｒｅａｌｉｚｅｄ　ｔｈｉｓ，"TCC_NEWLINE"　ｂｕｔｏｎｃｅ．．．ａｓ　ｗｅ　ｔｒａｖｅｌｅｄ　ｔｏｇー"TCC_NEWLINE"ｅｔｈｅｒ．．．Ｉ　ｔｒｉｅｄｔｏ　ｋｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？　Ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｈａｖｅ　ｔｒｉｅｄ　ｔｏ　ｋｉｌｌ　ｍｙｓｅｌｆ．　Ｂ"TCC_NEWLINE"ｕｔ　ｅｖｅｎ"TCC_NEWLINE
-"ｔｈａｔ　ｅｓｃａｐｅ　ｅｖａｄｅｓ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｇｒｒｒｒ．．．　Ｐｌｅａｓｅ．　Ｋｉｌｌ　ｍｅ，　ｂｅｆｏ"TCC_NEWLINE"ｒｅ　Ｉ　ｋｉｌｌ"TCC_NEWLINE
-"ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
-"Ｋｉｌｌ　ｙｏｕ．．．　Ｋｉｌｌ　ｙｏｕ　ａｌｌ！　Ｈｅｈ．"TCC_NEWLINE"．．Ｈｅｅ－ｈｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｔｒｉｅｄ　ｔｏ　ｋｉｌｌ　ｍｙｓｅｌｆ．　"TCC_NEWLINE"Ｂｕｔ　ｅｖｅｎｔｈａｔ　ｅｓｃａｐｅ　ｅｖａｄｅｓ　ｍｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｒｒｒｒ．．．　Ｐｌｅａｓｅ．　Ｋｉｌｌ　ｍｅ，　ｂｅｆー"TCC_NEWLINE"ｏｒｅ　Ｉ　ｋｉｌｌｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｋｉｌｌ　ｙｏｕ．．．　Ｋｉｌｌ　ｙｏｕ　ａｌｌ！　Ｈｅｈ"TCC_NEWLINE"．．．Ｈｅｅ－ｈｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｚａｃｈａｒｉａｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
@@ -34,61 +26,35 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｗｈａｔ’ｓ　ｓｔｏｐｐｉｎｇ　ｙｏｕ？　Ｋｉｌｌ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ’ｒｅ　ｏｕｒ　ｆｒｉｅｎｄ，　Ｚａｃｈａｒｉａｓ．　"TCC_NEWLINE"Ｉ"TCC_NEWLINE
-"ｃａｎｎｏｔ　ｋｉｌｌ　ａ　ｆｒｉｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｓｈ　ｙｏｕ　ｈａｄ　ｔｏｌｄ　ｕｓ　ａｂｏｕｔ　ｔ"TCC_NEWLINE"ｈｉｓ"TCC_NEWLINE
-"ｓｏｏｎｅｒ．．．　Ｗｈｙ　ｄｉｄ　ｙｏｕ　ｗａｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｏｕｒ　ｆｒｉｅｎｄ，　Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE"　Ｉｃａｎｎｏｔ　ｋｉｌｌ　ａ　ｆｒｉｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈ　ｙｏｕ　ｈａｄ　ｔｏｌｄ　ｕｓ　ａｂｏｕｔ　"TCC_NEWLINE"ｔｈｉｓｓｏｏｎｅｒ．．．　Ｗｈｙ　ｄｉｄ　ｙｏｕ　ｗａｉー"TCC_NEWLINE"ｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｋｎｅｗ　ｙｏｕ　ｗｏｕｌｄ　ｂｅ　ｔｏｏ　ｋｉｎｄ．．"TCC_NEWLINE"．　Ｎｏ"TCC_NEWLINE
-"ｍａｔｔｅｒ　ｔｈｅ　ｄａｎｇｅｒ，　ｎｏ　ｍａｔｔｅｒ　ｗ"TCC_NEWLINE"ｈａｔ"TCC_NEWLINE
-"Ｉ　ｓａｉｄ．．．ｙｏｕ’ｄ　ｔｒｙ　ｔｏ　ｓａｖｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｒｅｇａｒｄｌｅｓｓ　ｏｆ　ｔｈｅ　ｃｏｓｔ．　Ｉ　ｋｎｏｗ"TCC_NEWLINE"　ｙｏｕ"TCC_NEWLINE
-"ｗｅｌｌ　ｅｎｏｕｇｈ　ｔｏ　ｋｎｏｗ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｅｗ　ｙｏｕ　ｗｏｕｌｄ　ｂｅ　ｔｏｏ　ｋｉｎｄ．"TCC_NEWLINE"．．　Ｎｏｍａｔｔｅｒ　ｔｈｅ　ｄａｎｇｅｒ，　ｎｏ　ｍａー"TCC_NEWLINE"ｔｔｅｒ　ｗｈａｔＩ　ｓａｉｄ．．．ｙｏｕ’ｄ　ｔｒｙ　ｔー"TCC_NEWLINE"ｏ　ｓａｖｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｇａｒｄｌｅｓｓ　ｏｆ　ｔｈｅ　ｃｏｓｔ．　Ｉ　ｋｎｏー"TCC_NEWLINE"ｗ　ｙｏｕｗｅｌｌ　ｅｎｏｕｇｈ　ｔｏ　ｋｎｏｗ　ｔｈａｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｏｗ　ｃｏｕｌｄ　Ｉ　ｔｅｌｌ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｚａｃｈａｒｉａｓ，　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｓａｙ　ｔｈ"TCC_NEWLINE"ｉｓ　ｏｎｌｙ"TCC_NEWLINE
-"ｏｎｃｅ．　Ｙｏｕ’ｒｅ　ａ　ｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏ"TCC_NEWLINE"ｒｄｅｒ"TCC_NEWLINE
-"ｏｆ　Ｈｅｒｏｅｓ．　Ｙｏｕ　ｃａｎ’ｔ　ｊｕｓｔ　ｑｕｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｙｏｕ　ｃａｎ’ｔ　ｆｉｇｈｔ　ｙｏｕｒ　ｂｌｏｏｄ　"TCC_NEWLINE"ａｌｏｎｅ．．．"TCC_NEWLINE
-"Ｗｅ’ｌｌ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｆｉｇｈｔ　ｉｔｔｏ"TCC_NEWLINE"ｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｔｒａｖｅｌ　ｃｏｕｎｔｌｅｓｓ　ｗｏｒｌｄｓ．．．　"TCC_NEWLINE"Ｓｕｒｅｌｙ，"TCC_NEWLINE
-"ｏｎｅ　ｏｆ　ｔｈｅｍ　ｍｕｓｔ　ｈｏｌｄ　ｔｈｅ　ｋｅｙ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
-"ｆｒｅｅｉｎｇ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｚａｃｈａｒｉａｓ，　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｓａｙ　ｔー"TCC_NEWLINE"ｈｉｓ　ｏｎｌｙｏｎｃｅ．　Ｙｏｕ’ｒｅ　ａ　ｍｅｍｂｅｒ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　Ｏｒｄｅｒｏｆ　Ｈｅｒｏｅｓ．　Ｙｏｕ　ｃー"TCC_NEWLINE"ａｎ’ｔ　ｊｕｓｔ　ｑｕｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｃａｎ’ｔ　ｆｉｇｈｔ　ｙｏｕｒ　ｂｌｏｏｄ"TCC_NEWLINE"　ａｌｏｎｅ．．．Ｗｅ’ｌｌ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　"TCC_NEWLINE"ｆｉｇｈｔ　ｉｔｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｔｒａｖｅｌ　ｃｏｕｎｔｌｅｓｓ　ｗｏｒｌｄｓ．．．"TCC_NEWLINE"　Ｓｕｒｅｌｙ，ｏｎｅ　ｏｆ　ｔｈｅｍ　ｍｕｓｔ　ｈｏｌｄ"TCC_NEWLINE"　ｔｈｅ　ｋｅｙ　ｔｏｆｒｅｅｉｎｇ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏ　ｙｏｕ　ｓａｙ，　Ｃｏｍｍａｎｄｅｒ．　Ｂｕｔ　Ｉ　ｈ"TCC_NEWLINE"ａｖｅ"TCC_NEWLINE
-"ｓｅａｒｃｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｖｅ　ｔｒａｖｅｌｅｄ　ｆｒｏｍ　ｒｅａｌｍ　ｔｏ　ｒｅ"TCC_NEWLINE"ａｌｍ．．．　Ｂｕｔ"TCC_NEWLINE
-"ｉｔ’ｓ　ｌｉｋｅ　ｓｅｅｋｉｎｇ　ｏｎｅ　ｇｒａｉｎ　ｏｆ"TCC_NEWLINE"　ｓａｎｄ　ｉｎ　ａ"TCC_NEWLINE
-"ｖａｓｔ　ｄｅｓｅｒｔ．　Ｍｙ　ｈｏｐｅ　ｉｓ　ｇｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｙｏｕ　ｓａｙ，　Ｃｏｍｍａｎｄｅｒ．　Ｂｕｔ　Ｉ　"TCC_NEWLINE"ｈａｖｅｓｅａｒｃｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｔｒａｖｅｌｅｄ　ｆｒｏｍ　ｒｅａｌｍ　ｔｏ　ｒー"TCC_NEWLINE"ｅａｌｍ．．．　Ｂｕｔｉｔ’ｓ　ｌｉｋｅ　ｓｅｅｋｉｎｇ　"TCC_NEWLINE"ｏｎｅ　ｇｒａｉｎ　ｏｆ　ｓａｎｄ　ｉｎ　ａｖａｓｔ　ｄｅー"TCC_NEWLINE"ｓｅｒｔ．　Ｍｙ　ｈｏｐｅ　ｉｓ　ｇｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｆ　ｙｏｕ　ｋｎｏｗ　Ａｌｆｏｎｓｅ，　ａｎｄ　ｙｏｕ　ｋ"TCC_NEWLINE"ｎｏｗ"TCC_NEWLINE
-"ｕｓ．．．　Ｔｈｅｎ　ｙｏｕ　ｋｎｏｗ　ｔｈａｔ　ｗｅ　ｃｏ"TCC_NEWLINE"ｕｌｄ"TCC_NEWLINE
-"ｎｅｖｅｒ　ｋｉｌｌ　ｙｏｕ　ｏｎｃｅ　ｗｅ　ｋｎｅｗ　ｔｈ"TCC_NEWLINE"ｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｐｌａｎｔｏ　ｈｉｄｅ　ｙｏｕｒ　ｉｄｅｎｔｉｔｙ"TCC_NEWLINE"，"TCC_NEWLINE
-"ｂｅｃｏｍｅ　ｏｕｒ　ｅｎｅｍｙ，　ａｎｄ　ｂｅ　ｋｉｌｌｅ"TCC_NEWLINE"ｄ　ｂｙ"TCC_NEWLINE
-"ｕｓｈａｓ　ｆａｉｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｙｏｕ　ｃａｒｅ　ｆｏｒ　Ａｌｆｏｎｓｅ　ａｎｄ　Ｓｈ"TCC_NEWLINE"ａｒｅｎａ．．．"TCC_NEWLINE
-"Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｓｅｅ　ｔｈｅｍ　ｌｉｖｅ．．"TCC_NEWLINE"．ｔｈｅｎ"TCC_NEWLINE
-"ｙｏｕ　ｗｉｌｌ　ｎｅｖｅｒ　ｇｉｖｅ　ｕｐ．　Ｗｅ　ｗｏｎ"TCC_NEWLINE"’ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｋｎｏｗ　Ａｌｆｏｎｓｅ，　ａｎｄ　ｙｏｕ　"TCC_NEWLINE"ｋｎｏｗｕｓ．．．　Ｔｈｅｎ　ｙｏｕ　ｋｎｏｗ　ｔｈａｔ　"TCC_NEWLINE"ｗｅ　ｃｏｕｌｄｎｅｖｅｒ　ｋｉｌｌ　ｙｏｕ　ｏｎｃｅ　ｗー"TCC_NEWLINE"ｅ　ｋｎｅｗ　ｔｈｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｐｌａｎｔｏ　ｈｉｄｅ　ｙｏｕｒ　ｉｄｅｎｔｉｔー"TCC_NEWLINE"ｙ，ｂｅｃｏｍｅ　ｏｕｒ　ｅｎｅｍｙ，　ａｎｄ　ｂｅ　ｋｉー"TCC_NEWLINE"ｌｌｅｄ　ｂｙｕｓｈａｓ　ｆａｉｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｃａｒｅ　ｆｏｒ　Ａｌｆｏｎｓｅ　ａｎｄ　Ｓー"TCC_NEWLINE"ｈａｒｅｎａ．．．Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｓｅｅ　ｔー"TCC_NEWLINE"ｈｅｍ　ｌｉｖｅ．．．ｔｈｅｎｙｏｕ　ｗｉｌｌ　ｎｅｖｅｒ"TCC_NEWLINE"　ｇｉｖｅ　ｕｐ．　Ｗｅ　ｗｏｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｒｅｔｕｒｎ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
-"Ｅｍｂｌａ．　Ｙｏｕ　ｓｈｏｕｌｄ　ｈｅａｄ　ｂａｃｋ　ｔｏ"TCC_NEWLINE
-"Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｒｅｔｕｒー"TCC_NEWLINE"ｎ　ｔｏＥｍｂｌａ．　Ｙｏｕ　ｓｈｏｕｌｄ　ｈｅａｄ　ｂａー"TCC_NEWLINE"ｃｋ　ｔｏＡｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｃａｎ’ｔ　ｙｏｕ　ｃｏｍｅ　ｗｉｔｈ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ａｍ　ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．　Ｉ　ｃａｎｎｏｔ．"TCC_NEWLINE"　Ｂｅｆｏｒｅ"TCC_NEWLINE
-"ｌｏｎｇ，　Ｉ　ｗｉｌｌ　ｔｒｙ　ｔｏ　ｋｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｓｔｏｐ　ｓｅｅｋｉｎｇ　ｍｙ　ｏｗｎ　ｄｅａ"TCC_NEWLINE"ｔｈ．　Ｉ"TCC_NEWLINE
-"ｗｉｌｌ　ｒｅｓｕｍｅ　ｍｙ　ｓｅａｒｃｈ　ａｃｒｏｓｓ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
-"ｒｅａｌｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ａ　ｐａｔｈ　ｔｈａｔ　ｌｅａｄ"TCC_NEWLINE"ｓ　ｔｏ"TCC_NEWLINE
-"ｆｒｅｅｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｃｏｕｎｔｉｎｇ　ｏｎ　ｙｏｕ　ｔｏ　ｌｏｏｋ　ａｆ"TCC_NEWLINE"ｔｅｒ　ｍｙ"TCC_NEWLINE
-"ｆｒｉｅｎｄｓ，"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｉｆ　Ｉ　ｅｖｅｒ　ｍａｋｅ　ａｎｏｔｈｅｒ　ａｔｔ"TCC_NEWLINE"ｅｍｐｔ"TCC_NEWLINE
-"ｏｎ　Ａｌｆｏｎｓｅ　ｏｒ　Ｓｈａｒｅｎａ’ｓ　ｌｉｆｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｋｉｌｌ　ｍｅ．　Ｃｏｎｓｉｄｅｒ　ｉｔ　ｍｙ　ｌａｓｔ　ｒ"TCC_NEWLINE"ｅｑｕｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．　Ｉ　ｃａｎｎｏｔ"TCC_NEWLINE"．　Ｂｅｆｏｒｅｌｏｎｇ，　Ｉ　ｗｉｌｌ　ｔｒｙ　ｔｏ　ｋー"TCC_NEWLINE"ｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｓｔｏｐ　ｓｅｅｋｉｎｇ　ｍｙ　ｏｗｎ　ｄｅー"TCC_NEWLINE"ａｔｈ．　Ｉｗｉｌｌ　ｒｅｓｕｍｅ　ｍｙ　ｓｅａｒｃｈ　ａー"TCC_NEWLINE"ｃｒｏｓｓ　ｔｈｅｒｅａｌｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ａ　ｐａｔｈ　ｔｈａｔ　ｌｅａー"TCC_NEWLINE"ｄｓ　ｔｏｆｒｅｅｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｃｏｕｎｔｉｎｇ　ｏｎ　ｙｏｕ　ｔｏ　ｌｏｏｋ　ａー"TCC_NEWLINE"ｆｔｅｒ　ｍｙｆｒｉｅｎｄｓ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　Ｉ　ｅｖｅｒ　ｍａｋｅ　ａｎｏｔｈｅｒ　ａｔー"TCC_NEWLINE"ｔｅｍｐｔｏｎ　Ａｌｆｏｎｓｅ　ｏｒ　Ｓｈａｒｅｎａ’ｓ　"TCC_NEWLINE"ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｋｉｌｌ　ｍｅ．　Ｃｏｎｓｉｄｅｒ　ｉｔ　ｍｙ　ｌａｓｔ　"TCC_NEWLINE"ｒｅｑｕｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

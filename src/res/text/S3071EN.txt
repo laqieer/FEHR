@@ -4,59 +4,40 @@
 "Ｗｈａｔ．．．ｉｓ　ｔｈｉｓ　ｐｌａｃｅ？"TCC_NEWLINE TCC_PUSH_A
 "Ｃｏｕｌｄ　ｉｔ　ｂｅ？　Ｎｏ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅ　ｓｃｅｎｅｒｙ　ｉｓ　ｖｅｒｙ　ｆａｍｉｌｉａｒ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｃｅｎｅｒｙ　ｉｓ　ｖｅｒｙ　ｆａｍｉｌｉａｒ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｌｆｏｎｓｅ！　Ｓｈａｒｅｎａ！　Ｔｈｅ　ｅｎｅｍｙ　ｉｓ"TCC_NEWLINE
-"ｃｌｏｓｅ．　Ｐｒｅｐａｒｅ　ｆｏｒ　ｂａｔｔｌｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ！　Ｓｈａｒｅｎａ！　Ｔｈｅ　ｅｎｅｍｙ　ｉー"TCC_NEWLINE"ｓｃｌｏｓｅ．　Ｐｒｅｐａｒｅ　ｆｏｒ　ｂａｔｔｌｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ　ｈａｖｅ　ｔｒｉｕｍｐｈｅｄ．．．　Ｂｕｔ　ｉｔ　ｉｓ"TCC_NEWLINE"　ｏｕｒ"TCC_NEWLINE
-"ｓｕｒｒｏｕｎｄｉｎｇｓ　ｔｈａｔ　ｔｒｏｕｂｌｅ　ｍｅｎｏ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｔｈｅ　ｅｎｅｍｙ　ｗｅ　ｆａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｒｉｕｍｐｈｅｄ．．．　Ｂｕｔ　ｉｔ　ｉー"TCC_NEWLINE"ｓ　ｏｕｒｓｕｒｒｏｕｎｄｉｎｇｓ　ｔｈａｔ　ｔｒｏｕｂｌー"TCC_NEWLINE"ｅ　ｍｅｎｏｔｔｈｅ　ｅｎｅｍｙ　ｗｅ　ｆａｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｉｔ’ｓ　Ａｓｋｒ．　Ｉｓｎ’ｔ　ｉｔ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｓｏ　ｉｔ　ｓｅｅｍｓ．　Ｉ　ｓｕｓｐｅｃｔ　ｔｈａｔ　ｉｔ"TCC_NEWLINE"　ｉｓ　ｎｏｔ"TCC_NEWLINE
-"ｏｕｒ　Ａｓｋｒ，　ｈｏｗｅｖｅｒ，　ｂｕｔ　ａｎｏｔｈｅｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ｃｏｕｎｔｌｅｓｓ　ｏｔｈｅｒ　"TCC_NEWLINE"Ａｓｋｒｓ"TCC_NEWLINE
-"ａｍｏｎｇ　ｔｈｅ　ｒｅａｌｍｓ．　Ｉｔ’ｓ　ｎｏ　ｓｕｒｐ"TCC_NEWLINE"ｒｉｓｅ"TCC_NEWLINE
-"ｗｅ’ｄ　ｓｅｔ　ｆｏｏｔ　ｉｎ　ｏｎｅ　ｅｖｅｎｔｕａｌｌ"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｉｔ　ｓｅｅｍｓ．　Ｉ　ｓｕｓｐｅｃｔ　ｔｈａｔ　ｉー"TCC_NEWLINE"ｔ　ｉｓ　ｎｏｔｏｕｒ　Ａｓｋｒ，　ｈｏｗｅｖｅｒ，　ｂｕー"TCC_NEWLINE"ｔ　ａｎｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ｃｏｕｎｔｌｅｓｓ　ｏｔｈｅｒ"TCC_NEWLINE"　Ａｓｋｒｓａｍｏｎｇ　ｔｈｅ　ｒｅａｌｍｓ．　Ｉｔ’ｓ　"TCC_NEWLINE"ｎｏ　ｓｕｒｐｒｉｓｅｗｅ’ｄ　ｓｅｔ　ｆｏｏｔ　ｉｎ　ｏー"TCC_NEWLINE"ｎｅ　ｅｖｅｎｔｕａｌｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｏｎｅ　ｈｅｒｅ！　Ａｂｓｏｌ"TCC_NEWLINE"ｕｔｅｌｙ"TCC_NEWLINE
-"ｎｏ　ｏｎｅ　ａｔ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｏｎｅ　ｈｅｒｅ！　Ａｂｓｏー"TCC_NEWLINE"ｌｕｔｅｌｙｎｏ　ｏｎｅ　ａｔ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｕｒ　ｓｃｏｕｔｓ　ｈａｖｅ　ｒｅｔｕｒｎｅｄ　ｆｒｏｍ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"ｗｅｓｔ，　ａｎｄ　ｔｈｅｙ　ｒｅｐｏｒｔ　ｔｈｅ　ｓａｍｅ"TCC_NEWLINE"．　Ｔｈｅｙ"TCC_NEWLINE
-"ｈａｖｅｎ’ｔ　ｅｎｃｏｕｎｔｅｒｅｄ　ａｎｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓｉｄｅ　ｆｒｏｍ　ｕｓ，　ａｌｌ　ａｎｙｏｎｅ　ｈａｓ　"TCC_NEWLINE"ｓｅｅｎ"TCC_NEWLINE
-"ｈｅｒｅ　ａｒｅ　ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　ｔｈｅ　ｄｅａ"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｓｃｏｕｔｓ　ｈａｖｅ　ｒｅｔｕｒｎｅｄ　ｆｒｏｍ"TCC_NEWLINE"　ｔｈｅｗｅｓｔ，　ａｎｄ　ｔｈｅｙ　ｒｅｐｏｒｔ　ｔｈｅ"TCC_NEWLINE"　ｓａｍｅ．　Ｔｈｅｙｈａｖｅｎ’ｔ　ｅｎｃｏｕｎｔｅｒｅー"TCC_NEWLINE"ｄ　ａｎｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｉｄｅ　ｆｒｏｍ　ｕｓ，　ａｌｌ　ａｎｙｏｎｅ　ｈａｓ"TCC_NEWLINE"　ｓｅｅｎｈｅｒｅ　ａｒｅ　ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　ｔー"TCC_NEWLINE"ｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈｅｒｅ　ｄｉｄ　ｅｖｅｒｙｏｎｅ　ｇｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｅ　ｎｅｅｄ　ｔｏ　ｇｅｔ　ｔｏ　ｔｈｅ　ｂｏｔｔｏｍ　ｏ"TCC_NEWLINE"ｆ　ｔｈｉｓ．"TCC_NEWLINE
-"Ｌｅｔ’ｓ　ｋｅｅｐ　ｍｏｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｇｅｔ　ｔｏ　ｔｈｅ　ｂｏｔｔｏｍ　"TCC_NEWLINE"ｏｆ　ｔｈｉｓ．Ｌｅｔ’ｓ　ｋｅｅｐ　ｍｏｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
-"Ｗｅｌｌ　ｈｅｌｌｏ　ｔｈｅｒｅ．　Ｈｏｗ　ｄｉｄ　ｙｏｕｒ"TCC_NEWLINE"　ｌｉｔｔｌｅ"TCC_NEWLINE
-"ｓｃｏｕｔｉｎｇ　ｍｉｓｓｉｏｎ　ｇｏ，　ｄｅａｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ　ｈｅｌｌｏ　ｔｈｅｒｅ．　Ｈｏｗ　ｄｉｄ　ｙｏｕー"TCC_NEWLINE"ｒ　ｌｉｔｔｌｅｓｃｏｕｔｉｎｇ　ｍｉｓｓｉｏｎ　ｇｏ，　"TCC_NEWLINE"ｄｅａｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｈｅｌ　ａｒｅ　ｗｅａｋ．　Ｂｕ"TCC_NEWLINE"ｔ　ｎｏ"TCC_NEWLINE
-"ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔｉｍｅｓ　ｔｈｅｙ　ａｒｅ"TCC_NEWLINE
-"ｋｉｌｌｅｄ．．．ｔｈｅｙ　ｃｏｍｅ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｈｅｌ　ａｒｅ　ｗｅａｋ．　Ｂー"TCC_NEWLINE"ｕｔ　ｎｏｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔｉｍｅｓ　ｔｈー"TCC_NEWLINE"ｅｙ　ａｒｅｋｉｌｌｅｄ．．．ｔｈｅｙ　ｃｏｍｅ　ｂａｃｋ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅｒｅ　ｙｏｕ　ｈａｖｅ　ｉｔ！　Ｔｈａｔ’ｓ　ｗｈａｔ"TCC_NEWLINE"　ｍａｋｅｓ"TCC_NEWLINE
-"ｆｉｇｈｔｉｎｇ　Ｈｅｌ　ｓｏ　ｓｃａｒｙｔｈｅ　ｄｅａｄ　"TCC_NEWLINE"ｃａｎ’ｔ"TCC_NEWLINE
-"ｄｉｅ　ａ　ｓｅｃｏｎｄ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｌｏｎｇ　ａｓ　ｔｈｅ　Ｄｅａｔｈ　Ｓｏｖｅｒｅｉｇｎ"TCC_NEWLINE
-"ｈｏｌｄｓ　ｆａｓｔ，　ｔｈｅｒｅ’ｓ　ｎｏｔ　ｍｕｃｈ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
-"ｃａｎ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｙｏｕ　ｈａｖｅ　ｉｔ！　Ｔｈａｔ’ｓ　ｗｈａー"TCC_NEWLINE"ｔ　ｍａｋｅｓｆｉｇｈｔｉｎｇ　Ｈｅｌ　ｓｏ　ｓｃａｒｙｔー"TCC_NEWLINE"ｈｅ　ｄｅａｄ　ｃａｎ’ｔｄｉｅ　ａ　ｓｅｃｏｎｄ　ｔｉｍー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｔｈｅ　Ｄｅａｔｈ　Ｓｏｖｅｒｅｉｇー"TCC_NEWLINE"ｎｈｏｌｄｓ　ｆａｓｔ，　ｔｈｅｒｅ’ｓ　ｎｏｔ　ｍｕｃｈ"TCC_NEWLINE"　ｙｏｕｃａｎ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｅｌｌ　ｍｅ，　Ｌｏｋｉ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ，　ｄａｒｌｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｏｗ　ｄｏ　Ｉ　ｅｎｔｅｒ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｇｏ　ｔｈｅｒｅ　ａｎｄ　ｋｉｌｌ　Ｈｅｌ　ｍ"TCC_NEWLINE"ｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｄｏ　Ｉ　ｅｎｔｅｒ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔー"TCC_NEWLINE"ｈｅｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｇｏ　ｔｈｅｒｅ　ａｎｄ　ｋｉｌｌ　Ｈｅｌ　"TCC_NEWLINE"ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

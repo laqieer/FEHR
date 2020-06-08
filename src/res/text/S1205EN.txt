@@ -1,79 +1,58 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S1205_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈａｔ’ｓ　ｉｔ！　Ｗｅ’ｖｅ　ｆｏｕｎｄ　ｔｈｅ　ａｒｃ"TCC_NEWLINE"ａｎｉｓｔ’ｓ"TCC_NEWLINE
-"ｍａｎｏｒ．　Ｗｅ　ｃａｎ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｉｔ！　Ｗｅ’ｖｅ　ｆｏｕｎｄ　ｔｈｅ　ａｒー"TCC_NEWLINE"ｃａｎｉｓｔ’ｓｍａｎｏｒ．　Ｗｅ　ｃａｎ　ｐｅｒｆｏｒｍ"TCC_NEWLINE"　ｔｈｅ　ｒｉｔｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｗａｉｔ！　Ｌｏｏｋ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｔｈｅｒｅ．．．ｙｏｕ　ａｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ．．．ｄｉｅ．．．　Ｉ．．．ｗｉｌｌ　ｋｉｌｌ．．．ｙ"TCC_NEWLINE"ｏｕ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ．．．ｄｉｅ．．．　Ｉ．．．ｗｉｌｌ　ｋｉｌｌ．．．"TCC_NEWLINE"ｙｏｕ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏｍｅｔｈｉｎｇ’ｓ　ｗｒｏｎｇ　ｗｉｔｈ　ｈｉｍ．　Ｉｔ"TCC_NEWLINE"’ｓ　ｌｉｋｅ"TCC_NEWLINE
-"ｈｅ’ｓ　ｎｏｔ　ｅｖｅｎ　ｔｈｅ　ｓａｍｅ　ｐｅｒｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ’ｓ　ｗｒｏｎｇ　ｗｉｔｈ　ｈｉｍ．　Ｉー"TCC_NEWLINE"ｔ’ｓ　ｌｉｋｅｈｅ’ｓ　ｎｏｔ　ｅｖｅｎ　ｔｈｅ　ｓａｍー"TCC_NEWLINE"ｅ　ｐｅｒｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉ　ｗｉｌｌ　ｋｉｌｌ　ｙｏｕ！　Ｙｏｕ，　ｐｒｉｎｃｅ　ｏ"TCC_NEWLINE"ｆ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｋｉｌｌ　ｙｏｕ！　Ｙｏｕ，　ｐｒｉｎｃｅ　"TCC_NEWLINE"ｏｆ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S1205_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｇｒｒ．．．ｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｌｏｓｔ．．．　Ｎｏｗ　ｋｉｌｌ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｙｏｕ　ｈｅｌｐｅｄ　ｕｓ，　ｏｎｃｅ．　Ｉ　ｈａｖｅ　ｎｏ"TCC_NEWLINE
-"ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｔａｋｉｎｇ　ｙｏｕｒ　ｌｉｆｅ　"TCC_NEWLINE"ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈｅｌｐｅｄ　ｕｓ，　ｏｎｃｅ．　Ｉ　ｈａｖｅ　ｎー"TCC_NEWLINE"ｏｉｎｔｅｎｔｉｏｎ　ｏｆ　ｔａｋｉｎｇ　ｙｏｕｒ　ｌｉｆー"TCC_NEWLINE"ｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ’ｌｌ　ｌｉｖｅ　ｔｏ　ｒｅｇｒｅｔ　ｌｅｔｔｉｎｇ　"TCC_NEWLINE"ｍｅ　ｏｆｆ　ｓｏ"TCC_NEWLINE
-"ｅａｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｌｌ　ｌｉｖｅ　ｔｏ　ｒｅｇｒｅｔ　ｌｅｔｔｉｎｇ"TCC_NEWLINE"　ｍｅ　ｏｆｆ　ｓｏｅａｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S1205_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｌｆｏｎｓｅ，　Ｓｈａｒｅｎａ．．．ｃｏｍｅ　ｈｅｒｅ．"TCC_NEWLINE
-"Ｅｖｅｒｙｔｈｉｎｇ　ｉｓ　ｒｅａｄｙ．　Ｗｅ　ｃａｎ　ｂｅ"TCC_NEWLINE"ｇｉｎ"TCC_NEWLINE
-"ｔｈｅ　ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｉｔｈ　ａｌｌ　ｔｈｙ　ｈｅａｒｔ，　ｙｅａｒｎ　ｆｏｒ　"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE
-"Ｗｉｔｈ　ａｌｌ　ｔｈｙ　ｖｏｉｃｅ，　ｃａｌｌ　ｔｏ　ｍｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｃｏｎｃｅｎｔｒａｔｅ．　Ｚａｃｈａｒｉａｓ　ｉｓ"TCC_NEWLINE
-"ｏｕｔ　ｔｈｅｒｅ　ｓｏｍｅｗｈｅｒｅ！　Ｃａｌｌ　ｔｏ　ｈ"TCC_NEWLINE"ｉｍ．．．"TCC_NEWLINE
-"Ｗｉｔｈ　ａｌｌ　ｙｏｕｒ　ｈｅａｒｔ　ａｎｄ　ｓｏｕｌ！　"TCC_NEWLINE"Ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　Ｓｈａｒｅｎａ．．．ｃｏｍｅ　ｈｅｒｅ．"TCC_NEWLINE"Ｅｖｅｒｙｔｈｉｎｇ　ｉｓ　ｒｅａｄｙ．　Ｗｅ　ｃａｎ　ｂー"TCC_NEWLINE"ｅｇｉｎｔｈｅ　ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ａｌｌ　ｔｈｙ　ｈｅａｒｔ，　ｙｅａｒｎ　ｆｏｒ"TCC_NEWLINE"　ｍｅ．Ｗｉｔｈ　ａｌｌ　ｔｈｙ　ｖｏｉｃｅ，　ｃａｌｌ　"TCC_NEWLINE"ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｎｃｅｎｔｒａｔｅ．　Ｚａｃｈａｒｉａｓ　ｉｓｏｕｔ　"TCC_NEWLINE"ｔｈｅｒｅ　ｓｏｍｅｗｈｅｒｅ！　Ｃａｌｌ　ｔｏ　ｈｉｍ．"TCC_NEWLINE"．．Ｗｉｔｈ　ａｌｌ　ｙｏｕｒ　ｈｅａｒｔ　ａｎｄ　ｓｏｕー"TCC_NEWLINE"ｌ！　Ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｚａｃｈａｒｉａｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｚａｃｈａｒｉａｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｚａｃｈａｒｉａｓ！　Ｚａｃｈａｒｉａｓ！　Ａｎｓｗｅｒ　ｕ"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE
-"ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｚａｃｈａｒｉａｓ！　Ｚａｃｈａｒｉａｓ！　Ａｎｓｗｅｒ　"TCC_NEWLINE"ｕｓ．．．ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｙｏｕ’ｒｅ　ｗａｓｔｉｎｇ　ｙｏｕｒ　ｂｒｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈｙ　ｉｓｎ’ｔ　ａｎｙｔｈｉｎｇ　ｈａｐｐｅｎｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｓｈｏｕｔ　ａｓ　ｍｕｃｈ　ａｓ　ｙｏｕ　ｌｉｋｅ．　Ｙｏｕ"TCC_NEWLINE"　ｗｏｎ’ｔ"TCC_NEWLINE
-"ｇｅｔ　ａ　ｒｅｐｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｏｕｔ　ａｓ　ｍｕｃｈ　ａｓ　ｙｏｕ　ｌｉｋｅ．　Ｙｏー"TCC_NEWLINE"ｕ　ｗｏｎ’ｔｇｅｔ　ａ　ｒｅｐｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｌｉｅ！　Ｔｈｅ　ｒｉｔｅ　ｗｏｎ’ｔ　ｆａｉｌ　ｕ"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　Ｚａｃｈａｒｉａｓ　ｉｓ　ａｌｉｖｅ，　ｈｅ　ｓｈｏｕ"TCC_NEWLINE"ｌｄ　ｂｅ"TCC_NEWLINE
-"ａｂｌｅ　ｔｏ　ｔａｌｋ　ｗｉｔｈ　ｕｓ，　ｎｏ　ｍａｔｔｅ"TCC_NEWLINE"ｒ　ｗｈｅｒｅ"TCC_NEWLINE
-"ｈｅ　ｉｓｅｖｅｎ　ａｓｌｅｅｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｌｉｅ！　Ｔｈｅ　ｒｉｔｅ　ｗｏｎ’ｔ　ｆａｉｌ　"TCC_NEWLINE"ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｚａｃｈａｒｉａｓ　ｉｓ　ａｌｉｖｅ，　ｈｅ　ｓｈｏー"TCC_NEWLINE"ｕｌｄ　ｂｅａｂｌｅ　ｔｏ　ｔａｌｋ　ｗｉｔｈ　ｕｓ，　ｎー"TCC_NEWLINE"ｏ　ｍａｔｔｅｒ　ｗｈｅｒｅｈｅ　ｉｓｅｖｅｎ　ａｓｌｅｅー"TCC_NEWLINE"ｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｔｈｅｒｅ’ｓ　ｙｏｕｒ　ｐｒｏｂｌｅｍ：　ｉｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？　Ｗａｉｔ．　Ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｐｒｉｎｃｅ　Ｂｒｕｎｏ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｓ　ｈｅ　ｄｅａｄ？　Ａｎｓｗｅｒ　ｍｅ！　Ｔｅｌｌ　ｍｅ"TCC_NEWLINE"　ｗｈａｔ"TCC_NEWLINE
-"ｙｏｕ　ｋｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｈｅ　ｄｅａｄ？　Ａｎｓｗｅｒ　ｍｅ！　Ｔｅｌｌ　ｍー"TCC_NEWLINE"ｅ　ｗｈａｔｙｏｕ　ｋｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｈｅ　ｓｔｕｃｋ　ｈｉｓ　ｎｏｓｅ　ｉｎｔｏ　ｔｈｉｎｇｓ　"TCC_NEWLINE"ｔｈａｔ　ｈｅ"TCC_NEWLINE
-"ｒｅａｌｌｙ　ｓｈｏｕｌｄ　ｎｏｔ　ｈａｖｅ．　Ｒｉｇｈｔ　"TCC_NEWLINE"ｂｅｆｏｒｅ　Ｉ"TCC_NEWLINE
-"ｃａｍｅ　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｓｔｕｃｋ　ｈｉｓ　ｎｏｓｅ　ｉｎｔｏ　ｔｈｉｎｇｓ"TCC_NEWLINE"　ｔｈａｔ　ｈｅｒｅａｌｌｙ　ｓｈｏｕｌｄ　ｎｏｔ　ｈａｖー"TCC_NEWLINE"ｅ．　Ｒｉｇｈｔ　ｂｅｆｏｒｅ　Ｉｃａｍｅ　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｋｉｌｌｅｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｏｕ　ｗｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｗｈａｔ　ｗａｓ　ｉｔ　Ｉ　ｊｕｓｔ　ｔｏｌｄ　ｙｏｕ？　Ｏ"TCC_NEWLINE"ｈ，　ｙｅｓ．　Ｉ"TCC_NEWLINE
-"ｓａｉｄ　ｙｏｕ’ｄ　ｒｅｇｒｅｔ　ｙｏｕｒ　ｄｅｃｉｓｉｏ"TCC_NEWLINE"ｎ　ｔｏ　ｌｅｔ"TCC_NEWLINE
-"ｍｅ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｔｉｍｅ　ｆｏｒ　ｍｅ　ｔｏ　ｇｏ，　ｈｏｗｅｖｅ"TCC_NEWLINE"ｒ．"TCC_NEWLINE
-"Ａｌｆｏｎｓｅ．　Ｓｈａｒｅｎａ．　Ｔｈｅｒｅ’ｓ　ｓｏｍｅ"TCC_NEWLINE"ｔｈｉｎｇ"TCC_NEWLINE
-"ｙｏｕ　ｎｅｅｄ　ｔｏ　ｕｎｄｅｒｓｔａｎｄ．　Ｙｏｕ’ｒｅ"TCC_NEWLINE"　ｎｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｓｅｎｄ　ｙｏｕ　ｔｏ　ｍｅｅｔ　ｙｏｕｒ　Ｚａｃ"TCC_NEWLINE"ｈａｒｉａｓ．"TCC_NEWLINE
-"Ｏｎｅ　ｂｙ　ｏｎｅ．　Ｌｏｏｋ　ｆｏｒｗａｒｄ　ｔｏ　ｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗａｓ　ｉｔ　Ｉ　ｊｕｓｔ　ｔｏｌｄ　ｙｏｕ？　"TCC_NEWLINE"Ｏｈ，　ｙｅｓ．　Ｉｓａｉｄ　ｙｏｕ’ｄ　ｒｅｇｒｅｔ　ｙー"TCC_NEWLINE"ｏｕｒ　ｄｅｃｉｓｉｏｎ　ｔｏ　ｌｅｔｍｅ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｉｍｅ　ｆｏｒ　ｍｅ　ｔｏ　ｇｏ，　ｈｏｗｅｖー"TCC_NEWLINE"ｅｒ．Ａｌｆｏｎｓｅ．　Ｓｈａｒｅｎａ．　Ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｓｏｍｅｔｈｉｎｇｙｏｕ　ｎｅｅｄ　ｔｏ　ｕｎｄｅｒｓｔａー"TCC_NEWLINE"ｎｄ．　Ｙｏｕ’ｒｅ　ｎｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｓｅｎｄ　ｙｏｕ　ｔｏ　ｍｅｅｔ　ｙｏｕｒ　Ｚａー"TCC_NEWLINE"ｃｈａｒｉａｓ．Ｏｎｅ　ｂｙ　ｏｎｅ．　Ｌｏｏｋ　ｆｏｒｗー"TCC_NEWLINE"ａｒｄ　ｔｏ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

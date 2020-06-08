@@ -1,60 +1,35 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0305_EN] = TCC_OPEN_LEFT
-"Ｈｏｗ　ｉｎｔｒｉｇｕｉｎｇ．　Ｙｏｕ　ｍａｎａｇｅｄ　ｔｏ"TCC_NEWLINE
-"ｂａｔｔｌｅ　ｙｏｕｒ　ｗａｙ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｓａｉｄ　ｔｈａｔ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｈａｄ　ｔｈｅ　ａｄｖａｎｔ"TCC_NEWLINE"ａｇｅ"TCC_NEWLINE
-"ｏｆ　ａ　ｌｅｇｅｎｄａｒｙ　ｓｕｍｍｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｉｎｔｒｉｇｕｉｎｇ．　Ｙｏｕ　ｍａｎａｇｅｄ　ｔー"TCC_NEWLINE"ｏｂａｔｔｌｅ　ｙｏｕｒ　ｗａｙ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｓａｉｄ　ｔｈａｔ　ｔー"TCC_NEWLINE"ｈｅＯｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｈａｄ　ｔｈｅ　ａｄｖー"TCC_NEWLINE"ａｎｔａｇｅｏｆ　ａ　ｌｅｇｅｎｄａｒｙ　ｓｕｍｍｏｎｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｃｌｅａｒｌｙ，　ｔｈａｔ　ｉｓ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔｉｌｌ，　ｗｅ’ｌｌ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　ｙｏｕ"TCC_NEWLINE"　ｎｏｗ．"TCC_NEWLINE
-"Ｌａｓｌｏｗ？　Ｐｅｒｉ？　Ｌｅｔ’ｓ　ｓｈｏｗ　ｔｈｅｍ　"TCC_NEWLINE"ｔｈａｔ"TCC_NEWLINE
-"ｗｅ　ｗｉｌｌ　ｎｏｔ　ｆａｌｌ　ｔｏ　ｔｈｅｉｒ　ｆｏｒｃ"TCC_NEWLINE"ｅ．"
+"Ｓｔｉｌｌ，　ｗｅ’ｌｌ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　ｙｏー"TCC_NEWLINE"ｕ　ｎｏｗ．Ｌａｓｌｏｗ？　Ｐｅｒｉ？　Ｌｅｔ’ｓ　ｓｈｏー"TCC_NEWLINE"ｗ　ｔｈｅｍ　ｔｈａｔｗｅ　ｗｉｌｌ　ｎｏｔ　ｆａｌｌ　ｔー"TCC_NEWLINE"ｏ　ｔｈｅｉｒ　ｆｏｒｃｅ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0305_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ　ｆｏｕｇｈｔ　ｗｅｌｌ．　Ｉ　ａｄｍｉｔ　ｄｅｆｅａ"TCC_NEWLINE"ｔ．"TCC_NEWLINE
-"Ｔｈｉｓ　ｍｅａｎｓ　ｔｈａｔ　ｔｈｅ　ｃｏｎｔｒａｃｔ　ｔ"TCC_NEWLINE"ｈａｔ"TCC_NEWLINE
-"ｂｉｎｄｓ　ｕｓ　ｉｓ　ｎｏｗ　ｂｒｏｋｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｓｅ　ｏｆ　ｍｙ　ｗｏｒｌｄ　ａｒｅ　ｎｏ　ｌｏｎｇｅ"TCC_NEWLINE"ｒ"TCC_NEWLINE
-"ｃｏｍｐｅｌｌｅｄ　ｔｏ　ｆｉｇｈｔ　ｙｏｕｏｒ　ｔｏ"TCC_NEWLINE
-"ｉｎｖａｄｅ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ　ｃｈｏｏｓｅ　ｔｏ　ｓｔａｙ　ａｔ　ｔｈｅ　ｓｉ"TCC_NEWLINE"ｄｅ"TCC_NEWLINE
-"ｏｆ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｎｅｘｔ　ｔｉｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｗｅ　ｍｅｅｔ，　Ｉ　ｗｉｌｌ　ｄｅｆｅａｔ　ｙｏｕ．"
+"Ｙｏｕ　ｆｏｕｇｈｔ　ｗｅｌｌ．　Ｉ　ａｄｍｉｔ　ｄｅｆｅー"TCC_NEWLINE"ａｔ．Ｔｈｉｓ　ｍｅａｎｓ　ｔｈａｔ　ｔｈｅ　ｃｏｎｔｒａー"TCC_NEWLINE"ｃｔ　ｔｈａｔｂｉｎｄｓ　ｕｓ　ｉｓ　ｎｏｗ　ｂｒｏｋｅｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｏｆ　ｍｙ　ｗｏｒｌｄ　ａｒｅ　ｎｏ　ｌｏｎｇー"TCC_NEWLINE"ｅｒｃｏｍｐｅｌｌｅｄ　ｔｏ　ｆｉｇｈｔ　ｙｏｕｏｒ　ｔｏー"TCC_NEWLINE"ｉｎｖａｄｅ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｃｈｏｏｓｅ　ｔｏ　ｓｔａｙ　ａｔ　ｔｈｅ　ｓー"TCC_NEWLINE"ｉｄｅｏｆ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｎｅｘｔ"TCC_NEWLINE"　ｔｉｍｅｗｅ　ｍｅｅｔ，　Ｉ　ｗｉｌｌ　ｄｅｆｅａｔ　ｙー"TCC_NEWLINE"ｏｕ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0305_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｈｏｗ　ｃａｎ　ａ　Ｈｅｒｏ　ｌｉｋｅ　Ｘａｎｄｅｒ　ｃｈｏ"TCC_NEWLINE"ｏｓｅ"TCC_NEWLINE
-"ｔｏ　ｓｔａｙ　ｌｏｙａｌ　ｔｏ　Ｖｅｒｏｎｉｃａ　ａｎｄ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃａｎ　ａ　Ｈｅｒｏ　ｌｉｋｅ　Ｘａｎｄｅｒ　ｃｈー"TCC_NEWLINE"ｏｏｓｅｔｏ　ｓｔａｙ　ｌｏｙａｌ　ｔｏ　Ｖｅｒｏｎｉｃａ"TCC_NEWLINE"　ａｎｄ　ｔｈｅＥｍｂｌｉａｎ　Ｅｍｐｉｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅｒｅ　ａｒｅ　Ｈｅｒｏｅｓ　ｗｈｏ　ｈｅｌｐ　ｔｈｅ"TCC_NEWLINE
-"ｐｅｏｐｌｅ　ｏｆ　ｏｕｒ　ｗｏｒｌｄ　ｂｙ　ｔｈｅｉｒ　ｏ"TCC_NEWLINE"ｗｎ"TCC_NEWLINE
-"ｆｒｅｅ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｙｏｕ　ｔ"TCC_NEWLINE"ｈａｔ"TCC_NEWLINE
-"ｗｉｎｓ　ｏｖｅｒ　Ｈｅｒｏｅｓ　ｖｅｒｙ　ｑｕｉｃｋｌｙ，"TCC_NEWLINE
+"Ｔｈｅｒｅ　ａｒｅ　Ｈｅｒｏｅｓ　ｗｈｏ　ｈｅｌｐ　ｔｈｅー"TCC_NEWLINE"ｐｅｏｐｌｅ　ｏｆ　ｏｕｒ　ｗｏｒｌｄ　ｂｙ　ｔｈｅｉｒ　"TCC_NEWLINE"ｏｗｎｆｒｅｅ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｙｏｕ　"TCC_NEWLINE"ｔｈａｔｗｉｎｓ　ｏｖｅｒ　Ｈｅｒｏｅｓ　ｖｅｒｙ　ｑｕｉー"TCC_NEWLINE"ｃｋｌｙ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｔ’ｓ　ｈｉｇｈｌｙ　ｕｎｕｓｕａｌ　ａｎｄ　ｈａ"TCC_NEWLINE"ｐｐｅｎｓ"TCC_NEWLINE
-"ｏｎｌｙ　ｒａｒｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｔ’ｓ　ｈｉｇｈｌｙ　ｕｎｕｓｕａｌ　ａｎｄ　ｈー"TCC_NEWLINE"ａｐｐｅｎｓｏｎｌｙ　ｒａｒｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｔｗｏ　ｏｆ　ｍｙ　ｂｅｓｔ　ｆｒｉｅｎｄｓ　ａｒｅ　Ｈｅｒ"TCC_NEWLINE"ｏｅｓ！"TCC_NEWLINE
-"Ｔｈａｔ’ｓ　ｗｈｙ　ｔｈｅｙ　ｓｔａｙ　ｗｉｔｈ　ｕｓ．　"TCC_NEWLINE"Ｉ　ｏｎｌｙ"TCC_NEWLINE
-"ｗｉｓｈ　Ｉ　ｈａｄ　ｍｏｒｅ　ｆｒｉｅｎｄｓ　ｌｉｋｅ　ｔ"TCC_NEWLINE"ｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｗｏ　ｏｆ　ｍｙ　ｂｅｓｔ　ｆｒｉｅｎｄｓ　ａｒｅ　Ｈｅー"TCC_NEWLINE"ｒｏｅｓ！Ｔｈａｔ’ｓ　ｗｈｙ　ｔｈｅｙ　ｓｔａｙ　ｗｉｔー"TCC_NEWLINE"ｈ　ｕｓ．　Ｉ　ｏｎｌｙｗｉｓｈ　Ｉ　ｈａｄ　ｍｏｒｅ　ｆー"TCC_NEWLINE"ｒｉｅｎｄｓ　ｌｉｋｅ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ’ｖｅ　ｔｏｌｄ　ｙｏｕ　ｂｅｆｏｒｅ，　Ｓｈａｒｅｎａ．"TCC_NEWLINE
-"Ｈｅｒｏｅｓ　ａｒｅ　ｎｏｔ　ｆｒｉｅｎｄｓ．　Ｏｎｌｙ　ｏ"TCC_NEWLINE"ｕｒ"TCC_NEWLINE
-"ａｌｌｉｅｓ．　Ｄｏｎ’ｔ　ｇｅｔ　ｃｌｏｓｅ　ｔｏ　ｔｈｅ"TCC_NEWLINE"ｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｔｏｌｄ　ｙｏｕ　ｂｅｆｏｒｅ，　Ｓｈａｒｅｎａ"TCC_NEWLINE"．Ｈｅｒｏｅｓ　ａｒｅ　ｎｏｔ　ｆｒｉｅｎｄｓ．　Ｏｎｌｙ"TCC_NEWLINE"　ｏｕｒａｌｌｉｅｓ．　Ｄｏｎ’ｔ　ｇｅｔ　ｃｌｏｓｅ　ｔー"TCC_NEWLINE"ｏ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｏｈ，　ｙｏｕ．　Ｄｏｎ’ｔ　ｂｅ　ｐｒｉｃｋｌｙ．　Ｙｏｕ"TCC_NEWLINE"　ｔｈｉｎｋ"TCC_NEWLINE
-"ｔｈａｔ　ｏｎｌｙ　ｂｅｃａｕｓｅ　ｙｏｕ　ｗｅｒｅ　ｏｎｃ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｖｅｒｙ　ｃｌｏｓｅ　ｔｏ　ａ　Ｈｅｒｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｙｏｕ．　Ｄｏｎ’ｔ　ｂｅ　ｐｒｉｃｋｌｙ．　Ｙｏー"TCC_NEWLINE"ｕ　ｔｈｉｎｋｔｈａｔ　ｏｎｌｙ　ｂｅｃａｕｓｅ　ｙｏｕ　"TCC_NEWLINE"ｗｅｒｅ　ｏｎｃｅｖｅｒｙ　ｃｌｏｓｅ　ｔｏ　ａ　Ｈｅｒｏ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ＴＨＡＴ　ｏｎｅ　ｌｅｆｔ　ｔｏ　ｇｏ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｅｎｏｕｇｈ，　Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｅｌｌ，　ａｍ　Ｉ　ｒｉｇｈｔ　ｏｒ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌｅｔ’ｓ　ｓｐｅａｋ　ｏｆ　ｉｔ　ｎｏ　ｍｏｒｅ．　Ｗｅ　"TCC_NEWLINE"ｓｈｏｕｌｄ"TCC_NEWLINE
-"ｍａｋｅ　ｏｕｒ　ｗａｙ　ｂａｃｋ　ｔｏ　ｔｈｅ　ｃａｓｔｌ"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｕｒｅｌｙ　ｔｈｅｒｅ’ｓ　ａｎｏｔｈｅｒ　ｍｉｓｓｉｏｎ"TCC_NEWLINE"　ｔｈａｔ"TCC_NEWLINE
-"ｗｅ　ｎｅｅｄ　ｔｏ　ｐｒｅｐａｒｅ　ｆｏｒ．"
+"Ｌｅｔ’ｓ　ｓｐｅａｋ　ｏｆ　ｉｔ　ｎｏ　ｍｏｒｅ．　Ｗｅ"TCC_NEWLINE"　ｓｈｏｕｌｄｍａｋｅ　ｏｕｒ　ｗａｙ　ｂａｃｋ　ｔｏ　ｔー"TCC_NEWLINE"ｈｅ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｅｌｙ　ｔｈｅｒｅ’ｓ　ａｎｏｔｈｅｒ　ｍｉｓｓｉｏー"TCC_NEWLINE"ｎ　ｔｈａｔｗｅ　ｎｅｅｄ　ｔｏ　ｐｒｅｐａｒｅ　ｆｏｒ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

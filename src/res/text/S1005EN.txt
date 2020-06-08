@@ -1,124 +1,71 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S1005_EN] = TCC_OPEN_LEFT
-"Ｎｏｗ，　ｊｕｓｔ　ＨＯＷ　ｄｉｄ　ｙｏｕ　ｋｎｏｗ"TCC_NEWLINE
-"ｔｈａｔ　ｗｅ’ｄ　ｂｅ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗ　ｖｅｘｉｎｇ．　Ｂｕｔ　ｉｆ　ｙｏｕ’ｖｅ　ｃｏｍｅ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
-"ｐｌａｙ，　ｔｈｅｎ　Ｉ’ｌｌ　ｐｒｏｖｉｄｅ　ｔｈｅ　ｇａ"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE
-"Ｓｏ，　ｃｈａｎｇｅ　ｏｆ　ｐｌａｎｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｙ　ｒａｚｅ　ｔｈｅｓｅ　ｓｕｍｍｏｎｉｎｇ　ｒｕｉｎｓ"TCC_NEWLINE
-"ｗｈｅｎ　Ｉ　ｃａｎ　ｓｉｍｐｌｙ　ｄｅｓｔｒｏｙ　ｙｏｕ，"TCC_NEWLINE
+"Ｎｏｗ，　ｊｕｓｔ　ＨＯＷ　ｄｉｄ　ｙｏｕ　ｋｎｏｗｔｈａー"TCC_NEWLINE"ｔ　ｗｅ’ｄ　ｂｅ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｖｅｘｉｎｇ．　Ｂｕｔ　ｉｆ　ｙｏｕ’ｖｅ　ｃｏｍー"TCC_NEWLINE"ｅ　ｔｏｐｌａｙ，　ｔｈｅｎ　Ｉ’ｌｌ　ｐｒｏｖｉｄｅ　ｔー"TCC_NEWLINE"ｈｅ　ｇａｍｅ．Ｓｏ，　ｃｈａｎｇｅ　ｏｆ　ｐｌａｎｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｒａｚｅ　ｔｈｅｓｅ　ｓｕｍｍｏｎｉｎｇ　ｒｕｉｎー"TCC_NEWLINE"ｓｗｈｅｎ　Ｉ　ｃａｎ　ｓｉｍｐｌｙ　ｄｅｓｔｒｏｙ　ｙｏー"TCC_NEWLINE"ｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏｗ，　ｌｅｔ　ｕｓ　ｂｅｇｉｎ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S1005_EN] = TCC_OPEN_LEFT
-"Ｗｈｙ　ｄｏ　Ｉ　ｋｅｅｐ　ｌｏｓｉｎｇ？　Ｉｔ’ｓ　ｒｅａ"TCC_NEWLINE"ｌｌｙ"TCC_NEWLINE
-"ｎｏｔ　ｆａｉｒ！　Ｙｏｕｒ　ｋｉｎｇｄｏｍ　ｈａｓ"TCC_NEWLINE
-"ｅｖｅｒｙｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ　ｍａｎｙ　Ｈｅｒｏｅｓ．．．ａ　ｓｕｍｍｏｎｅｒ．．．"TCC_NEWLINE
-"ａ　ｐｒｅｔｔｙ　ｒｅａｌｍ　ｔｈａｔ’ｓ　ｈａｐｐｙ，"TCC_NEWLINE
-"ｈｅａｌｔｈｙ，　ａｎｄ　ｗｅａｌｔｈｙ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｙ　ｄｏ　ｙｏｕ　ｋｅｅｐ　ｔｏｒｍｅｎｔｉｎｇ　ｍｅ？"TCC_NEWLINE
-"Ｉ　ｈａｖｅ　ｎｏｔｈｉｎｇｎｏｔｈｉｎｇ　ｔｈａｔ"TCC_NEWLINE
-"ｍａｔｔｅｒｓ！"
+"Ｗｈｙ　ｄｏ　Ｉ　ｋｅｅｐ　ｌｏｓｉｎｇ？　Ｉｔ’ｓ　ｒｅー"TCC_NEWLINE"ａｌｌｙｎｏｔ　ｆａｉｒ！　Ｙｏｕｒ　ｋｉｎｇｄｏｍ　ｈａー"TCC_NEWLINE"ｓｅｖｅｒｙｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｍａｎｙ　Ｈｅｒｏｅｓ．．．ａ　ｓｕｍｍｏｎｅｒ．．"TCC_NEWLINE"．ａ　ｐｒｅｔｔｙ　ｒｅａｌｍ　ｔｈａｔ’ｓ　ｈａｐｐｙ，"TCC_NEWLINE"ｈｅａｌｔｈｙ，　ａｎｄ　ｗｅａｌｔｈｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ｋｅｅｐ　ｔｏｒｍｅｎｔｉｎｇ　ｍｅ"TCC_NEWLINE"？Ｉ　ｈａｖｅ　ｎｏｔｈｉｎｇｎｏｔｈｉｎｇ　ｔｈａｔｍａー"TCC_NEWLINE"ｔｔｅｒｓ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S1005_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅｙ’ｒｅ　ｒｅｔｒｅａｔｉｎｇ．　Ｂｕｔ　Ｉ　ｄｏｕｂ"TCC_NEWLINE"ｔ　ｔｈｉｓ"TCC_NEWLINE
-"ｗｉｌｌ　ｂｅ　ｔｈｅ　ｌａｓｔ　ｗｅ　ｓｅｅ　ｏｆ　Ｅｍｂ"TCC_NEWLINE"ｌａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｒｅｔｒｅａｔｉｎｇ．　Ｂｕｔ　Ｉ　ｄｏｕー"TCC_NEWLINE"ｂｔ　ｔｈｉｓｗｉｌｌ　ｂｅ　ｔｈｅ　ｌａｓｔ　ｗｅ　ｓｅー"TCC_NEWLINE"ｅ　ｏｆ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ｔｈａｔ　Ｖｅｒｏｎｉ"TCC_NEWLINE"ｃａ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｒ　ｆａｔｈｅｒ，　ｔｈｅ　Ｅｍｐｅｒｏｒ　ｏｆ　Ｅｍｂ"TCC_NEWLINE"ｌａ，"TCC_NEWLINE
-"ｗａｓ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｈｏａｒｄｅｄ　Ｈｅｒｏｅｓ"TCC_NEWLINE
-"ａｎｄ　ｗａｒｒｅｄ　ｗｉｔｈ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｈｅ　ｄｉｅｄ，　Ｅｍｂｌａ　ｄｅｃｌａｒｅｄ　ｔ"TCC_NEWLINE"ｈａｔ"TCC_NEWLINE
-"ｈｉｓ　ｗａｒ　ｗａｓ　ｏｖｅｒ．　Ｗｅ　ｈａｄ　ｐｅａｃｅ"TCC_NEWLINE"，"TCC_NEWLINE
-"ｕｎｔｉｌ　ｓｈｅ　ｓｔａｒｔｅｄ　ｉｔ　ａｌｌ　ｕｐ　ａｇ"TCC_NEWLINE"ａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ｔｈａｔ　Ｖｅｒｏｎー"TCC_NEWLINE"ｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒ　ｆａｔｈｅｒ，　ｔｈｅ　Ｅｍｐｅｒｏｒ　ｏｆ　Ｅｍー"TCC_NEWLINE"ｂｌａ，ｗａｓ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｈｏａｒｄｅｄ　Ｈー"TCC_NEWLINE"ｅｒｏｅｓａｎｄ　ｗａｒｒｅｄ　ｗｉｔｈ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｈｅ　ｄｉｅｄ，　Ｅｍｂｌａ　ｄｅｃｌａｒｅｄ　"TCC_NEWLINE"ｔｈａｔｈｉｓ　ｗａｒ　ｗａｓ　ｏｖｅｒ．　Ｗｅ　ｈａｄ　"TCC_NEWLINE"ｐｅａｃｅ，ｕｎｔｉｌ　ｓｈｅ　ｓｔａｒｔｅｄ　ｉｔ　ａｌー"TCC_NEWLINE"ｌ　ｕｐ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｈｅｒ　ｆａｔｈｅｒ　ｗａｓ　ｖｅｒｙ　ｐｏｐｕｌａｒ　ａｍ"TCC_NEWLINE"ｏｎｇ"TCC_NEWLINE
-"ｔｈｅｉｒ　ｐｅｏｐｌｅ．　Ｈｅ　ｈａｄ　ａｍｂｉｔｉｏｎｓ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
-"ｍａｋｅ　Ｅｍｂｌａ　ｐｏｗｅｒｆｕｌ　ａｎｄ　ｐｒｏｓｐｅ"TCC_NEWLINE"ｒｏｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｉｓ　ｄｒｅａｍ　ｗａｓ　ｔｈｅｉｒ　ｄｒｅａｍｓｏ　ｍｕ"TCC_NEWLINE"ｃｈ"TCC_NEWLINE
-"ｓｏ　ｔｈａｔ　ｗｈｅｎ　ｈｅ　ｄｉｅｄ．．．ｓｏｍｅ　ｏｆ"TCC_NEWLINE"　ｈｉｓ"TCC_NEWLINE
-"ｃｉｔｉｚｅｎｓ　ｔｏｏｋ　ｔｈｅｉｒ　ｌｉｖｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｕｃｈ　ｗａｓ　ｔｈｅ　ｄａｒｋｎｅｓｓ　ｂｅｈｉｎｄ"TCC_NEWLINE
-"Ｅｍｂｌａ’ｓ　ｉｍｐｅｒｉａｌ　ｇｌｏｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒ　ｆａｔｈｅｒ　ｗａｓ　ｖｅｒｙ　ｐｏｐｕｌａｒ　ａー"TCC_NEWLINE"ｍｏｎｇｔｈｅｉｒ　ｐｅｏｐｌｅ．　Ｈｅ　ｈａｄ　ａｍｂｉー"TCC_NEWLINE"ｔｉｏｎｓ　ｔｏｍａｋｅ　Ｅｍｂｌａ　ｐｏｗｅｒｆｕｌ　ａー"TCC_NEWLINE"ｎｄ　ｐｒｏｓｐｅｒｏｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｉｓ　ｄｒｅａｍ　ｗａｓ　ｔｈｅｉｒ　ｄｒｅａｍｓｏ　ｍー"TCC_NEWLINE"ｕｃｈｓｏ　ｔｈａｔ　ｗｈｅｎ　ｈｅ　ｄｉｅｄ．．．ｓｏｍー"TCC_NEWLINE"ｅ　ｏｆ　ｈｉｓｃｉｔｉｚｅｎｓ　ｔｏｏｋ　ｔｈｅｉｒ　ｌー"TCC_NEWLINE"ｉｖｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｃｈ　ｗａｓ　ｔｈｅ　ｄａｒｋｎｅｓｓ　ｂｅｈｉｎｄＥー"TCC_NEWLINE"ｍｂｌａ’ｓ　ｉｍｐｅｒｉａｌ　ｇｌｏｒｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｂｕｔ　ｈｏｐｅ　ｒｅｉｇｎｅｄ　ａｇａｉｎ　ｗｈｅｎ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｃｒｏｗｎ　ｗｅｎｔ　ｔｏ　ｈｉｓ　ｗｉｆｅ，　ｔｈｅ　Ｅｍ"TCC_NEWLINE"ｐｒｅｓｓ，"TCC_NEWLINE
-"ｗｈｏ　ｈａｄ　ｎｏ　ｄｒｅａｍｓ　ｏｆ　ｃｏｎｑｕｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｖｅｒｏｎｉｃａ　ｉｓ　ｎｏｔ　ｈｅｒ　ｄａｕｇｈｔｅｒ，"TCC_NEWLINE
-"ｈｏｗｅｖｅｒ，　ｂｕｔ　ｒａｔｈｅｒ　ｔｈａｔ　ｏｆ　ｈｉ"TCC_NEWLINE"ｓ　ｆｉｒｓｔ"TCC_NEWLINE
-"ｗｉｆｅｔｈｅ　ｐｒｅｖｉｏｕｓ　Ｅｍｐｒｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　Ｖｅｒｏｎｉｃａ，　ｏｎｅ　ｄａｙ，　ｂｅｇａｎ　ｇ"TCC_NEWLINE"ｏｉｎｇ"TCC_NEWLINE
-"ｉｎｔｏ　ｏｔｈｅｒ　ｗｏｒｌｄｓ　ｏｆ　ｈｅｒ　ｏｗｎ　ａ"TCC_NEWLINE"ｃｃｏｒｄ，"TCC_NEWLINE
-"ｊｕｓｔ　ｌｉｋｅ　ｈｅｒ　ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｅ　ｗａｎｔｅｄ　ｔｏ　ｉｎｖａｄｅ　Ａｓｋｒ"TCC_NEWLINE
-"ａｇａｉｎ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｈｏｐｅ　ｒｅｉｇｎｅｄ　ａｇａｉｎ　ｗｈｅｎ　ｔー"TCC_NEWLINE"ｈｅｃｒｏｗｎ　ｗｅｎｔ　ｔｏ　ｈｉｓ　ｗｉｆｅ，　ｔｈｅ"TCC_NEWLINE"　Ｅｍｐｒｅｓｓ，ｗｈｏ　ｈａｄ　ｎｏ　ｄｒｅａｍｓ　ｏｆ"TCC_NEWLINE"　ｃｏｎｑｕｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｏｎｉｃａ　ｉｓ　ｎｏｔ　ｈｅｒ　ｄａｕｇｈｔｅｒ，"TCC_NEWLINE"ｈｏｗｅｖｅｒ，　ｂｕｔ　ｒａｔｈｅｒ　ｔｈａｔ　ｏｆ　ｈー"TCC_NEWLINE"ｉｓ　ｆｉｒｓｔｗｉｆｅｔｈｅ　ｐｒｅｖｉｏｕｓ　Ｅｍｐｒー"TCC_NEWLINE"ｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｖｅｒｏｎｉｃａ，　ｏｎｅ　ｄａｙ，　ｂｅｇａｎ　"TCC_NEWLINE"ｇｏｉｎｇｉｎｔｏ　ｏｔｈｅｒ　ｗｏｒｌｄｓ　ｏｆ　ｈｅｒ"TCC_NEWLINE"　ｏｗｎ　ａｃｃｏｒｄ，ｊｕｓｔ　ｌｉｋｅ　ｈｅｒ　ｆａｔー"TCC_NEWLINE"ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｗａｎｔｅｄ　ｔｏ　ｉｎｖａｄｅ　Ａｓｋｒａｇａｉー"TCC_NEWLINE"ｎ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　Ｅｍｂｌａ，　ｅｖｅｎ　ｉｔｓ　"TCC_NEWLINE"ｔｏｐ"TCC_NEWLINE
-"ａｄｖｉｓｏｒｓ，　ｌｏｖｅ　ｈｅｒ　ｆｏｒ　ｉｔ．　Ｔｈｅ"TCC_NEWLINE"ｙ　ｈａｖｅ"TCC_NEWLINE
-"ｇｉｖｅｎ　ｈｅｒ　ｔｈｅｉｒ　ｆｕｌｌ　ｓｕｐｐｏｒｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ｓｅｅ　Ｖｅｒｏｎｉｃａ　ａｓ　ｔｈｅ　ｔｒｕｅ"TCC_NEWLINE
-"ｈｅｉｒ　ｏｆ　Ｅｍｂｌａ，　ｃａｒｒｙｉｎｇ　ｈｅｒ　ｆａ"TCC_NEWLINE"ｔｈｅｒ’ｓ"TCC_NEWLINE
-"ｂｌｏｏｄ　ａｎｄ　ｄｒｅａｍｉｎｇ　ｈｉｓ　ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　Ｅｍｂｌａ，　ｅｖｅｎ　ｉｔｓ"TCC_NEWLINE"　ｔｏｐａｄｖｉｓｏｒｓ，　ｌｏｖｅ　ｈｅｒ　ｆｏｒ　ｉｔ"TCC_NEWLINE"．　Ｔｈｅｙ　ｈａｖｅｇｉｖｅｎ　ｈｅｒ　ｔｈｅｉｒ　ｆｕー"TCC_NEWLINE"ｌｌ　ｓｕｐｐｏｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｓｅｅ　Ｖｅｒｏｎｉｃａ　ａｓ　ｔｈｅ　ｔｒｕｅー"TCC_NEWLINE"ｈｅｉｒ　ｏｆ　Ｅｍｂｌａ，　ｃａｒｒｙｉｎｇ　ｈｅｒ　ｆー"TCC_NEWLINE"ａｔｈｅｒ’ｓｂｌｏｏｄ　ａｎｄ　ｄｒｅａｍｉｎｇ　ｈｉｓ"TCC_NEWLINE"　ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｂｕｔ　ｔｈｏｕｇｈ　Ｖｅｒｏｎｉｃａ　ｈａｓ　ｔｈｅｉｒ"TCC_NEWLINE
-"ｓｕｐｐｏｒｔ，　ｓｈｅ　ｓｅｅｍｓ　ｓｏ．．．ｌｏｎｅｌｙ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｏｕｇｈ　Ｖｅｒｏｎｉｃａ　ｈａｓ　ｔｈｅｉｒー"TCC_NEWLINE"ｓｕｐｐｏｒｔ，　ｓｈｅ　ｓｅｅｍｓ　ｓｏ．．．ｌｏｎｅｌー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｏｕ　ｔｈｉｎｋ　ｓｈｅ’ｓ　ｈｏａｒｄｉｎｇ　Ｈｅｒｏｅ"TCC_NEWLINE"ｓ"TCC_NEWLINE
-"ａｎｄ　ｉｎｖａｄｉｎｇ　Ａｓｋｒ　ｂｅｃａｕｓｅ　ｓｈｅ’"TCC_NEWLINE"ｓ"TCC_NEWLINE
-"ｌｏｎｅｌｙ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ　ｄａｒｋ　ｄａｙｓ　ｌｉｅ　ａｈｅａｄ　ｏｆ　ｕｓ"TCC_NEWLINE
-"ｉｆ　ｔｈａｔ’ｓ　ｔｈｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｔｈｉｎｋ　ｓｈｅ’ｓ　ｈｏａｒｄｉｎｇ　Ｈｅｒｏー"TCC_NEWLINE"ｅｓａｎｄ　ｉｎｖａｄｉｎｇ　Ａｓｋｒ　ｂｅｃａｕｓｅ　ｓー"TCC_NEWLINE"ｈｅ’ｓｌｏｎｅｌｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｄａｒｋ　ｄａｙｓ　ｌｉｅ　ａｈｅａｄ　ｏｆ　ｕー"TCC_NEWLINE"ｓｉｆ　ｔｈａｔ’ｓ　ｔｈｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｌｅａｓｅ，　ｒｅｍａｉｎ　ｗｉｔｈ　ｕｓ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｆｅａｒ　ｔｈａｔ　ｏｕｒ　ｗａｒ　ｗｉｔｈ　Ｅｍｂｌａ"TCC_NEWLINE"　ｗｉｌｌ"TCC_NEWLINE
-"ｓｏｏｎ　ｃｈａｌｌｅｎｇｅ　ｕｓ　ｌｉｋｅ　ｎｅｖｅｒ　ｂ"TCC_NEWLINE"ｅｆｏｒｅ．"TCC_NEWLINE
-"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｎｅｅｄｓ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｅａｒ　ｔｈａｔ　ｏｕｒ　ｗａｒ　ｗｉｔｈ　Ｅｍｂｌー"TCC_NEWLINE"ａ　ｗｉｌｌｓｏｏｎ　ｃｈａｌｌｅｎｇｅ　ｕｓ　ｌｉｋｅ　"TCC_NEWLINE"ｎｅｖｅｒ　ｂｅｆｏｒｅ．Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒー"TCC_NEWLINE"ｏｅｓ　ｎｅｅｄｓ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌｅｔ’ｓ　ｈｅａｄ　ｂａｃｋ　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ，"TCC_NEWLINE
-"ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｈｅａｄ　ｂａｃｋ　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ"TCC_NEWLINE"，ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｏｌｄ　ｏｎ．　Ｓｏｍｅｏｎｅ　ａｐｐｒｏａｃｈｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｇｒｅｅｔｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｏｕ　ａｇａｉｎ！　Ｉ　ｓｕｐｐｏｓｅ　ｔｈａｔ　ｗｅ　ｏ"TCC_NEWLINE"ｗｅ"TCC_NEWLINE
-"ｙｏｕ　ｔｈａｎｋｓ．　Ｗｉｔｈｏｕｔ　ｙｏｕｒ　ｗａｒｎｉ"TCC_NEWLINE"ｎｇ，"TCC_NEWLINE
-"ｔｈｅ　ｒｕｉｎｓ　ｗｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｇａｉｎ！　Ｉ　ｓｕｐｐｏｓｅ　ｔｈａｔ　ｗｅ　"TCC_NEWLINE"ｏｗｅｙｏｕ　ｔｈａｎｋｓ．　Ｗｉｔｈｏｕｔ　ｙｏｕｒ　ｗー"TCC_NEWLINE"ａｒｎｉｎｇ，ｔｈｅ　ｒｕｉｎｓ　ｗｏｕｌｄ　ｈａｖｅ　ｂー"TCC_NEWLINE"ｅｅｎ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｓａｙ　ｎｏ　ｍｏｒｅ．　Ｔｈａｔ　ｉｓ　ｎｏｔ　ｗｈｙ　Ｉ"TCC_NEWLINE"　ｈａｖｅ"TCC_NEWLINE
-"ｃｏｍｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈｅａｒｄ　ｆｒｏｍ　ｔｈｅ　Ｈｅｒｏｅｓ　ｉｎ　ｔｈｅ"TCC_NEWLINE
-"Ｗｏｒｌｄ　ｏｆ　Ａｗａｋｅｎｉｎｇ　ｔｈａｔ　ｙｏｕ’ｒｅ"TCC_NEWLINE
-"ｓｅａｒｃｈｉｎｇ　ｆｏｒ　ｓｏｍｅｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓａｙ　ｎｏ　ｍｏｒｅ．　Ｔｈａｔ　ｉｓ　ｎｏｔ　ｗｈｙ　"TCC_NEWLINE"Ｉ　ｈａｖｅｃｏｍｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｅａｒｄ　ｆｒｏｍ　ｔｈｅ　Ｈｅｒｏｅｓ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅＷｏｒｌｄ　ｏｆ　Ａｗａｋｅｎｉｎｇ　ｔｈａｔ　ｙｏｕ’"TCC_NEWLINE"ｒｅｓｅａｒｃｈｉｎｇ　ｆｏｒ　ｓｏｍｅｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｅｓ，　ｍｙ　ｇｏｏｄ　ｆｒｉｅｎｄ　Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　ｍｙ　ｇｏｏｄ　ｆｒｉｅｎｄ　Ｚａｃｈａｒｉａｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｙｏｕ　ｃａｎ　ｓｔｏｐ　ｓｅａｒｃｈｉｎｇ．　Ｙｏｕ’ｌｌ"TCC_NEWLINE
-"ｎｅｖｅｒ　ｓｅｅ　ｈｉｍ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｓｔｏｐ　ｓｅａｒｃｈｉｎｇ．　Ｙｏｕ’ｌー"TCC_NEWLINE"ｌｎｅｖｅｒ　ｓｅｅ　ｈｉｍ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｈａｔ？　Ｙｏｕ　ｋｎｏｗ　ｏｆ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE
-"Ｗｈｅｒｅ　ｄｉｄ　ｙｏｕ　ｓｅｅ　ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ？　Ｙｏｕ　ｋｎｏｗ　ｏｆ　Ｚａｃｈａｒｉａｓ？Ｗー"TCC_NEWLINE"ｈｅｒｅ　ｄｉｄ　ｙｏｕ　ｓｅｅ　ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｔｈａｔ’ｓ　ａｌｌ　Ｉ　ｈａｖｅ　ｔｏ　ｓａｙ　ｏｎ　ｔｈ"TCC_NEWLINE"ｉｓ"TCC_NEWLINE
-"ｍａｔｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ａｌｌ　Ｉ　ｈａｖｅ　ｔｏ　ｓａｙ　ｏｎ　ｔー"TCC_NEWLINE"ｈｉｓｍａｔｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗａｉｔ！　Ｄｏｎ’ｔ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏ，　Ａｌｆｏｎｓｅ！　Ｙｏｕ　ｍｕｓｔｎ’ｔ　ｆｏｌｌｏ"TCC_NEWLINE"ｗ　ｈｉｍ．"TCC_NEWLINE
-"Ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｈｉｓ　ｉｎｔｅｎｔｉｏｎｓ．"TCC_NEWLINE
-"Ｉｔ　ｃｏｕｌｄ　ｂｅ　ａ　ｔｒａｐｔｈｉｓ　ｔｉｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ａｌｆｏｎｓｅ！　Ｙｏｕ　ｍｕｓｔｎ’ｔ　ｆｏｌｌー"TCC_NEWLINE"ｏｗ　ｈｉｍ．Ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｈｉｓ　ｉｎｔｅー"TCC_NEWLINE"ｎｔｉｏｎｓ．Ｉｔ　ｃｏｕｌｄ　ｂｅ　ａ　ｔｒａｐｔｈｉｓ"TCC_NEWLINE"　ｔｉｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｂｕｔ，　Ｃｏｍｍａｎｄｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｈａｖｅ　ｙｏｕｒ　ｏｒｄｅｒｓ．　Ｗｅ　ｄｏｎ’ｔ"TCC_NEWLINE
-"ｋｎｏｗ　ｉｆ　ｈｅ’ｓ　ｆｒｉｅｎｄ　ｏｒ　ｆｏｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｃｅｒｔａｉｎ　ｗｅ　ｗｉｌｌ　ｓｅｅ　ｈｉｍ　ａｇ"TCC_NEWLINE"ａｉｎ"TCC_NEWLINE
-"ｉｎ　ｄｕｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｙｏｕｒ　ｏｒｄｅｒｓ．　Ｗｅ　ｄｏｎ’"TCC_NEWLINE"ｔｋｎｏｗ　ｉｆ　ｈｅ’ｓ　ｆｒｉｅｎｄ　ｏｒ　ｆｏｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｃｅｒｔａｉｎ　ｗｅ　ｗｉｌｌ　ｓｅｅ　ｈｉｍ　ａー"TCC_NEWLINE"ｇａｉｎｉｎ　ｄｕｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｆ　ｈｅ　ｋｎｏｗｓ　ａｎｙｔｈｉｎｇ　ａｂｏｕｔ"TCC_NEWLINE
-"Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ，　ｆｉｎｅ．　Ｉ’ｌｌ　ｆｏｌｌｏｗ　ｙｏｕｒ　ｃｏ"TCC_NEWLINE"ｍｍａｎｄ．"TCC_NEWLINE
-"Ｉ　ｏｎｌｙ　ｈｏｐｅ　ｔｈａｔ　ｍｙ　ｆｒｉｅｎｄ　ｉｓ　"TCC_NEWLINE"ｓａｆｅ．．．"TCC_NEWLINE
-"ｗｈｅｒｅｖｅｒ　ｈｅ　ｉｓ．"
+"Ｉｆ　ｈｅ　ｋｎｏｗｓ　ａｎｙｔｈｉｎｇ　ａｂｏｕｔＺａｃー"TCC_NEWLINE"ｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ，　ｆｉｎｅ．　Ｉ’ｌｌ　ｆｏｌｌｏｗ　ｙｏｕｒ　ｃー"TCC_NEWLINE"ｏｍｍａｎｄ．Ｉ　ｏｎｌｙ　ｈｏｐｅ　ｔｈａｔ　ｍｙ　ｆｒー"TCC_NEWLINE"ｉｅｎｄ　ｉｓ　ｓａｆｅ．．．ｗｈｅｒｅｖｅｒ　ｈｅ　ｉｓ"TCC_NEWLINE"．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

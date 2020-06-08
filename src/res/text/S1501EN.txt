@@ -1,61 +1,36 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S1501_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉ　ｈｏｐｅ　ｙｏｕ’ｒｅ　ａｌｌ　ｒｅａｄｙ　ｔｏ　ｇｏ．"TCC_NEWLINE"　Ｗｅ’ｖｅ"TCC_NEWLINE
-"ｇｏｔ　ａ　ｍｉｓｓｉｏｎ　ｉｎ　ｔｈｅ　ｗｅｓｔｅｒｎ　ｐ"TCC_NEWLINE"ａｒｔ"TCC_NEWLINE
-"ｏｆ　ｔｈｅ　ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ’ｒｅ　ｈｅａｄｅｄ　ｔｏ　ａｎ　ａｎｃｉｅｎｔ　ｒｕｉ"TCC_NEWLINE"ｎ"TCC_NEWLINE
-"ｋｎｏｗｎ　ａｓ　ｔｈｅ　Ｅｔｅｒｎａｌ　Ｓａｎｃｔｕｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｐｏｗｅｒ　ｔｈａｔ　ｓｌｅｅｐｓ　ｔｈｅｒｅ　ｗｉ"TCC_NEWLINE"ｌｌ　ｓｅｒｖｅ"TCC_NEWLINE
-"ａｓ　ａｎ　ａｉｄ　ｔｏ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏ"TCC_NEWLINE"ｅｓＩ’ｍ"TCC_NEWLINE
-"ｓｕｒｅ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｏｐｅ　ｙｏｕ’ｒｅ　ａｌｌ　ｒｅａｄｙ　ｔｏ　ｇｏ"TCC_NEWLINE"．　Ｗｅ’ｖｅｇｏｔ　ａ　ｍｉｓｓｉｏｎ　ｉｎ　ｔｈｅ　ｗー"TCC_NEWLINE"ｅｓｔｅｒｎ　ｐａｒｔｏｆ　ｔｈｅ　ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ｈｅａｄｅｄ　ｔｏ　ａｎ　ａｎｃｉｅｎｔ　ｒｕー"TCC_NEWLINE"ｉｎｋｎｏｗｎ　ａｓ　ｔｈｅ　Ｅｔｅｒｎａｌ　Ｓａｎｃｔｕー"TCC_NEWLINE"ｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｏｗｅｒ　ｔｈａｔ　ｓｌｅｅｐｓ　ｔｈｅｒｅ　ｗー"TCC_NEWLINE"ｉｌｌ　ｓｅｒｖｅａｓ　ａｎ　ａｉｄ　ｔｏ　ｔｈｅ　Ｏｒｄー"TCC_NEWLINE"ｅｒ　ｏｆ　ＨｅｒｏｅｓＩ’ｍｓｕｒｅ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａｂｏｕｔ，"TCC_NEWLINE
-"Ｃｏｍｍａｎｄｅｒ？　Ｗｈａｔ　ｓｏｒｔ　ｏｆ　ｐｏｗｅｒ　"TCC_NEWLINE"ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａｂｏｕｔ，Ｃｏー"TCC_NEWLINE"ｍｍａｎｄｅｒ？　Ｗｈａｔ　ｓｏｒｔ　ｏｆ　ｐｏｗｅｒ　ｉー"TCC_NEWLINE"ｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｔｈｅ　ｄｅｔａｉｌｓ，　Ｉ’ｌｌ"TCC_NEWLINE"　ａｄｍｉｔ．　Ｂｕｔ"TCC_NEWLINE
-"Ｚａｃｈａｒｉａｓ　ｕｒｇｅｄ　ｍｅ　ｔｏ　ｉｎｖｅｓｔｉｇ"TCC_NEWLINE"ａｔｅ"TCC_NEWLINE
-"ｔｈｅ　ｒｕｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｔｈｅ　ｄｅｔａｉｌｓ，　Ｉ’ｌー"TCC_NEWLINE"ｌ　ａｄｍｉｔ．　ＢｕｔＺａｃｈａｒｉａｓ　ｕｒｇｅｄ　ｍー"TCC_NEWLINE"ｅ　ｔｏ　ｉｎｖｅｓｔｉｇａｔｅｔｈｅ　ｒｕｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｚａｃｈａｒｉａｓ　ｄｉｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ　ｓｅｅ．　Ｅｖｅｎ　ｔｈｏｕｇｈ　ｈｅ　ｃａｎ’ｔ　ｒｅ"TCC_NEWLINE"ｊｏｉｎ　ｕｓ，"TCC_NEWLINE
-"ｈｅ’ｓ　ｄｏｉｎｇ　ｗｈａｔ　ｈｅ　ｃａｎ　ｔｏ　ｈｅｌｐ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｔ’ｓ　ｇｏ！　Ｉ　ｗａｎｔ　ｔｏ　ｓｅｅ　ｗｈａｔ　ｌ"TCC_NEWLINE"ｉｅｓ　ｉｎ　ｗａｉｔ"TCC_NEWLINE
-"ｆｏｒ　ｕｓ　ｔｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ．　Ｅｖｅｎ　ｔｈｏｕｇｈ　ｈｅ　ｃａｎ’ｔ　ｒー"TCC_NEWLINE"ｅｊｏｉｎ　ｕｓ，ｈｅ’ｓ　ｄｏｉｎｇ　ｗｈａｔ　ｈｅ　ｃー"TCC_NEWLINE"ａｎ　ｔｏ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｇｏ！　Ｉ　ｗａｎｔ　ｔｏ　ｓｅｅ　ｗｈａｔ　"TCC_NEWLINE"ｌｉｅｓ　ｉｎ　ｗａｉｔｆｏｒ　ｕｓ　ｔｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S1501_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｓｏ，　ｔｈｉｓ　ｉｓ　ｔｈｅ　Ｅｔｅｒｎａｌ　Ｓａｎｃｔｕ"TCC_NEWLINE"ｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｔｈｉｓ　ｉｓ　ｔｈｅ　Ｅｔｅｒｎａｌ　Ｓａｎｃｔー"TCC_NEWLINE"ｕｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉ　ｓｐｙ　Ｈｅｒｏｅｓ　ｇｕａｒｄｉｎｇ　ｉｔ！　Ｗｅ　ｈ"TCC_NEWLINE"ａｖｅ　ｎｏ"TCC_NEWLINE
-"ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｓｈｏｗ　ｔｈｅｍ　ｗｈａｔ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
-"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｉｓ　ｍａｄｅ　ｏｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｐｙ　Ｈｅｒｏｅｓ　ｇｕａｒｄｉｎｇ　ｉｔ！　Ｗｅ　"TCC_NEWLINE"ｈａｖｅ　ｎｏｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｓｈｏｗ　ｔｈｅー"TCC_NEWLINE"ｍ　ｗｈａｔ　ｔｈｅＯｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｉｓ　"TCC_NEWLINE"ｍａｄｅ　ｏｆ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S1501_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｅ’ｖｅ　ｒｅａｃｈｅｄ　ｔｈｅ　ｂｏｔｔｏｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｓｔｏｎｅ　ｓｌａｂ　ｌｏｏｋｓ　ｓｉｇｎｉｆｉｃ"TCC_NEWLINE"ａｎｔ．　Ｌｅｔ’ｓ"TCC_NEWLINE
-"ｅｘａｍｉｎｅ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｓｔｏｎｅ　ｓｌａｂ　ｌｏｏｋｓ　ｓｉｇｎｉｆｉー"TCC_NEWLINE"ｃａｎｔ．　Ｌｅｔ’ｓｅｘａｍｉｎｅ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｇｏｏｄ　ｅｙｅ，　ｂｒｏｔｈｅｒ！　Ｔｈｅｒｅ’ｓ　ｄｅｆ"TCC_NEWLINE"ｉｎｉｔｅｌｙ"TCC_NEWLINE
-"ｓｏｍｅ　ｓｏｒｔ　ｏｆ　ｗｒｉｔｉｎｇ　ｅｎｇｒａｖｅｄ　"TCC_NEWLINE"ｈｅｒｅ．．．"TCC_NEWLINE
-"Ｃａｎ　ｙｏｕ　ｒｅａｄ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ　ｅｙｅ，　ｂｒｏｔｈｅｒ！　Ｔｈｅｒｅ’ｓ　ｄｅー"TCC_NEWLINE"ｆｉｎｉｔｅｌｙｓｏｍｅ　ｓｏｒｔ　ｏｆ　ｗｒｉｔｉｎｇ　"TCC_NEWLINE"ｅｎｇｒａｖｅｄ　ｈｅｒｅ．．．Ｃａｎ　ｙｏｕ　ｒｅａｄ　"TCC_NEWLINE"ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｔ’ｓ　ａｎｃｉｅｎｔ　Ａｓｋｒａｎａｎｄ，　ａｓ　ｙｏｕ"TCC_NEWLINE"　ｃａｎ"TCC_NEWLINE
-"ｓｅｅ　ｆｒｏｍ　ｔｈｅ　ｗａｙ　ｔｈｅ　ｌｅｔｔｅｒｓ　ａ"TCC_NEWLINE"ｒｅ"TCC_NEWLINE
-"ｗｏｒｎ．．．ｉｔ’ｓ　ｖｅｒｙ　ｏｌｄ．　Ｌｅｔ’ｓ　ｓｅ"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ｒｅｍｅｍｂｅｒａｎｃｅ　ｏｆ　Ａｓｋｒ，　ｔｈｅ　Ｇ"TCC_NEWLINE"ｒｅａｔ"TCC_NEWLINE
-"Ｐａｔｈｆｉｎｄｅｒ，　ｗｅ　ｈｅｒｅ　ｉｎｓｃｒｉｂｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｎ，　Ｆｉｎｄ　ｙｏｕ　ｈｅｒｅ　ａ　ｆｒａｇｍｅｎｔ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
-"ｔｈｅ　ｇｏｄ－ｄｒａｇｏｎ　Ａｓｋｒ’ｓ　Ｒｉｔｅ　ｏｆ"TCC_NEWLINE
-"Ａｗａｋｅｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｃａｌｌ　ｆｏｒｔｈ　ｔｈｅ　ｐｏｗｅｒ．．．ｉｎ　ｔｈｅ　"TCC_NEWLINE"ｇｏｄ－"TCC_NEWLINE
-"ｄｒａｇｏｎ’ｓ　Ｓｅａｌｓ　Ｓａｃｒｏｓａｎｃｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｋｅｅｐｓ　ｇｏｉｎｇ　ｌｉｋｅ　ｔｈａｔ，　ｗｉｔｈ"TCC_NEWLINE"　ｄｅｔａｉｌｓ　ｏｎ"TCC_NEWLINE
-"ｈｏｗ　ｔｏ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａｎｃｉｅｎｔ　Ａｓｋｒａｎａｎｄ，　ａｓ　ｙｏー"TCC_NEWLINE"ｕ　ｃａｎｓｅｅ　ｆｒｏｍ　ｔｈｅ　ｗａｙ　ｔｈｅ　ｌｅｔー"TCC_NEWLINE"ｔｅｒｓ　ａｒｅｗｏｒｎ．．．ｉｔ’ｓ　ｖｅｒｙ　ｏｌｄ．"TCC_NEWLINE"　Ｌｅｔ’ｓ　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｒｅｍｅｍｂｅｒａｎｃｅ　ｏｆ　Ａｓｋｒ，　ｔｈｅ　"TCC_NEWLINE"ＧｒｅａｔＰａｔｈｆｉｎｄｅｒ，　ｗｅ　ｈｅｒｅ　ｉｎｓｃー"TCC_NEWLINE"ｒｉｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ，　Ｆｉｎｄ　ｙｏｕ　ｈｅｒｅ　ａ　ｆｒａｇｍｅｎー"TCC_NEWLINE"ｔ　ｏｆｔｈｅ　ｇｏｄ－ｄｒａｇｏｎ　Ａｓｋｒ’ｓ　Ｒｉｔー"TCC_NEWLINE"ｅ　ｏｆＡｗａｋｅｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃａｌｌ　ｆｏｒｔｈ　ｔｈｅ　ｐｏｗｅｒ．．．ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｇｏｄ－ｄｒａｇｏｎ’ｓ　Ｓｅａｌｓ　Ｓａｃｒｏｓａｎｃー"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｋｅｅｐｓ　ｇｏｉｎｇ　ｌｉｋｅ　ｔｈａｔ，　ｗｉｔー"TCC_NEWLINE"ｈ　ｄｅｔａｉｌｓ　ｏｎｈｏｗ　ｔｏ　ｐｅｒｆｏｒｍ　ｔｈー"TCC_NEWLINE"ｅ　ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｒｅ　ｙｏｕ　ｓａｙｉｎｇ　ｔｈａｔ　ｔｈｅ　ｒｉｔｅ　ｃ"TCC_NEWLINE"ａｌｌｓ　ｆｏｒｔｈ"TCC_NEWLINE
-"ｔｈｅ　ｐｏｗｅｒ　ｉｎ　Ｓａｃｒｅｄ　Ｓｅａｌｓ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｄｏｅｓ　ｓｏｕｎｄ　ｗｏｒｔｈ　ｐｕｒｓｕｉｎｇ"TCC_NEWLINE"．　ＯＫ，"TCC_NEWLINE
-"ｔｅａｍ！　Ｂａｃｋ　ｔｏ　ｂａｓｅ，　ａｒｍｅｄ　ｗｉｔｈ"TCC_NEWLINE"　ｔｈｉｓ"TCC_NEWLINE
-"ｋｎｏｗｌｅｄｇｅ．　Ｗｅ　ｈａｖｅ　ｗｏｒｋ　ｔｏ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｓａｙｉｎｇ　ｔｈａｔ　ｔｈｅ　ｒｉｔｅ　"TCC_NEWLINE"ｃａｌｌｓ　ｆｏｒｔｈｔｈｅ　ｐｏｗｅｒ　ｉｎ　Ｓａｃｒｅー"TCC_NEWLINE"ｄ　Ｓｅａｌｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｄｏｅｓ　ｓｏｕｎｄ　ｗｏｒｔｈ　ｐｕｒｓｕｉｎー"TCC_NEWLINE"ｇ．　ＯＫ，ｔｅａｍ！　Ｂａｃｋ　ｔｏ　ｂａｓｅ，　ａｒｍー"TCC_NEWLINE"ｅｄ　ｗｉｔｈ　ｔｈｉｓｋｎｏｗｌｅｄｇｅ．　Ｗｅ　ｈａｖー"TCC_NEWLINE"ｅ　ｗｏｒｋ　ｔｏ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

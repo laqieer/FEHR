@@ -1,127 +1,77 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
-"Ａｈａ！　Ｔｈｉｓ　ｉｓ　ｔｈｅ　Ｄｒｅａｍ　Ｇａｔｅ．．．"TCC_NEWLINE"　Ｔｈｉｓ"TCC_NEWLINE
-"ｉｓ　ｔｈｅ　ｏｎｅ　ｐｌａｃｅ　ｉｎ　Ｌｊｓｌｆｈｅｉｍｒ"TCC_NEWLINE"　ｔｈａｔ"TCC_NEWLINE
-"Ｇｕｌｌｉｎｋａｍｂｉ　ｗｉｌｌ　ｓｏｕ"TCC_NEWLINE TCC_PUSH_A
+"Ａｈａ！　Ｔｈｉｓ　ｉｓ　ｔｈｅ　Ｄｒｅａｍ　Ｇａｔｅ．．"TCC_NEWLINE"．　Ｔｈｉｓｉｓ　ｔｈｅ　ｏｎｅ　ｐｌａｃｅ　ｉｎ　Ｌｊｓー"TCC_NEWLINE"ｌｆｈｅｉｍｒ　ｔｈａｔＧｕｌｌｉｎｋａｍｂｉ　ｗｉｌｌ　"TCC_NEWLINE"ｓｏｕ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏ．．．ｙｏｕ’ｒｅ　ｆｉｎａｌｌｙ　ｈｅｒｅ，　Ｓｗｅｅ"TCC_NEWLINE"ｔ　Ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ．．．ｙｏｕ’ｒｅ　ｆｉｎａｌｌｙ　ｈｅｒｅ，　Ｓｗｅー"TCC_NEWLINE"ｅｔ　Ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｍ．．．　Ｙｏｕ　ｍｕｓｔ　ｂｅ　Ｔｒｉａｎｄｒａ！　Ｗｅ"TCC_NEWLINE"　ｋｎｅｗ"TCC_NEWLINE
-"ｗｅ’ｄ　ｃａｔｃｈ　ｕｐ　ｔｏ　ｙｏｕ　ｅｖｅｎｔｕａｌｌ"TCC_NEWLINE"ｙ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｄｋｋｌｆａｒ　ａｒｅ　ｔｈｅ　ｓｏｕｒｃｅ　ｏｆ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"ｂａｄ　ｄｒｅａｍｓ　ｐｌａｇｕｉｎｇ　ｔｈｅ　ｐｅｏｐｌｅ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
-"Ａｓｋｒ，　ａｒｅｎ’ｔ　ｙｏｕ？　Ｙｏｕ　ｈａｖｅ　ｔｏ　"TCC_NEWLINE"ｓｔｏｐ！"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅａｖｅ　ｔｈｉｓ　ｐｌａｃｅ，　ａｎｄ　ｆｒｅｅ　ｔｈｏ"TCC_NEWLINE"ｓｅ"TCC_NEWLINE
-"ｙｏｕ’ｖｅ　ｅｎｓｎａｒｅｄ　ｆｒｏｍ　ｙｏｕｒ　ｔｅｒｒ"TCC_NEWLINE"ｉｂｌｅ，"TCC_NEWLINE
-"ｗｉｃｋｅｄ　ｄｒｅａｍｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍ．．．　Ｙｏｕ　ｍｕｓｔ　ｂｅ　Ｔｒｉａｎｄｒａ！　Ｗー"TCC_NEWLINE"ｅ　ｋｎｅｗｗｅ’ｄ　ｃａｔｃｈ　ｕｐ　ｔｏ　ｙｏｕ　ｅｖー"TCC_NEWLINE"ｅｎｔｕａｌｌｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｋｋｌｆａｒ　ａｒｅ　ｔｈｅ　ｓｏｕｒｃｅ　ｏｆ"TCC_NEWLINE"　ｔｈｅｂａｄ　ｄｒｅａｍｓ　ｐｌａｇｕｉｎｇ　ｔｈｅ　ｐー"TCC_NEWLINE"ｅｏｐｌｅ　ｏｆＡｓｋｒ，　ａｒｅｎ’ｔ　ｙｏｕ？　Ｙｏｕ"TCC_NEWLINE"　ｈａｖｅ　ｔｏ　ｓｔｏｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅａｖｅ　ｔｈｉｓ　ｐｌａｃｅ，　ａｎｄ　ｆｒｅｅ　ｔｈー"TCC_NEWLINE"ｏｓｅｙｏｕ’ｖｅ　ｅｎｓｎａｒｅｄ　ｆｒｏｍ　ｙｏｕｒ　"TCC_NEWLINE"ｔｅｒｒｉｂｌｅ，ｗｉｃｋｅｄ　ｄｒｅａｍｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈａｔ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎｎｏｔ　ｄｏ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ　ｗｏｎｄｅｒ．．．　Ｉｆ　ｓｏｍｅｔｈｉｎｇ　ｗ"TCC_NEWLINE"ｅｒｅ"TCC_NEWLINE
-"ｔｏ　ｈａｐｐｅｎ　ｔｏ　ｙｏｕ．．．ｗｏｕｌｄ　ｔｈｅ　ｍ"TCC_NEWLINE"ｏｒｔａｌｓ"TCC_NEWLINE
-"ａｃｃｅｐｔ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ａｓ　ｔｈｅｉｒ　"TCC_NEWLINE"ｒｅａｌｉｔｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎｎｏｔ　ｄー"TCC_NEWLINE"ｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｗｏｎｄｅｒ．．．　Ｉｆ　ｓｏｍｅｔｈｉｎｇ　"TCC_NEWLINE"ｗｅｒｅｔｏ　ｈａｐｐｅｎ　ｔｏ　ｙｏｕ．．．ｗｏｕｌｄ　"TCC_NEWLINE"ｔｈｅ　ｍｏｒｔａｌｓａｃｃｅｐｔ　ｔｈｅ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅ　ａｓ　ｔｈｅｉｒ　ｒｅａｌｉｔｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4045_EN] = TCC_OPEN_LEFT
 "Ｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｅｅｍｓ　ｗｅ’ｖｅ　ｌｏｓｔ　ｔｈｉｓ　ｔｉｍｅ．　Ｌｅ"TCC_NEWLINE"ｔ’ｓ"TCC_NEWLINE
-"ｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ，　Ｐｌｕｍｅｒｉａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｅｍｓ　ｗｅ’ｖｅ　ｌｏｓｔ　ｔｈｉｓ　ｔｉｍｅ．　Ｌー"TCC_NEWLINE"ｅｔ’ｓｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ，　Ｐｌｕｍｅｒｉａ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
-"Ｕｇｈ．　Ｔｈｏｓｅ　ｄｋｋｌｆａｒ．．．　Ｄｏｎ’ｔ　ｔｈ"TCC_NEWLINE"ｅｙ"TCC_NEWLINE
-"ｋｎｏｗ　ｔｈｅｙ　ｓｈｏｕｌｄｎ’ｔ　ｄｏ　ｂａｄ　ｔｈｉ"TCC_NEWLINE"ｎｇｓ，"TCC_NEWLINE
-"ｂｅｃａｕｓｅ　ｉｔ　ｍａｋｅｓ　ｏｔｈｅｒ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ｓａｄ？"TCC_NEWLINE TCC_PUSH_A
-"＊ｓｉｇｈ＊　Ｏｈ　ｗｅｌｌ．　Ｔｈａｔ　ｓｈｏｕｌｄ　ｄｏ"TCC_NEWLINE"　ｉｔ，"TCC_NEWLINE
-"ａｎｙｗａｙ．　Ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｒｅａｄｙ　ｔｏ　"TCC_NEWLINE"ｕｓｅ"TCC_NEWLINE
-"ｔｈｅ　ｈｏｒｎ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ｇａｖｅ"TCC_NEWLINE"　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｓｏｕｎｄ　ｉｔ　ｈｅｒｅ　ａｎｄ　ｎｏｗ，　ｉ"TCC_NEWLINE"ｔ　ｓｈｏｕｌｄ"TCC_NEWLINE
-"ｂｒｉｎｇ"TCC_TACTICIAN_NAME"ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ．．．ｕｓｅ　ｉｔ！　Ｃ’ｍｏｎ，　ｃ’ｍｏｎ！　Ｉ’ｍ"TCC_NEWLINE"　ｓｏ"TCC_NEWLINE
-"ｅｘｃｉｔｅｄ，　Ｉ　ｃａｎ　ｈａｒｄｌｙ　ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｕｇｈ．　Ｔｈｏｓｅ　ｄｋｋｌｆａｒ．．．　Ｄｏｎ’ｔ　ｔー"TCC_NEWLINE"ｈｅｙｋｎｏｗ　ｔｈｅｙ　ｓｈｏｕｌｄｎ’ｔ　ｄｏ　ｂａｄ"TCC_NEWLINE"　ｔｈｉｎｇｓ，ｂｅｃａｕｓｅ　ｉｔ　ｍａｋｅｓ　ｏｔｈｅー"TCC_NEWLINE"ｒ　ｐｅｏｐｌｅ　ｓａｄ？"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｉｇｈ＊　Ｏｈ　ｗｅｌｌ．　Ｔｈａｔ　ｓｈｏｕｌｄ　ｄー"TCC_NEWLINE"ｏ　ｉｔ，ａｎｙｗａｙ．　Ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｒｅａー"TCC_NEWLINE"ｄｙ　ｔｏ　ｕｓｅｔｈｅ　ｈｏｒｎ　Ｄｒｅａｍ－Ｋｉｎｇ　"TCC_NEWLINE"Ｆｒｅｙｒ　ｇａｖｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｓｏｕｎｄ　ｉｔ　ｈｅｒｅ　ａｎｄ　ｎｏｗ，　"TCC_NEWLINE"ｉｔ　ｓｈｏｕｌｄｂｒｉｎｇ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ．．．ｕｓｅ　ｉｔ！　Ｃ’ｍｏｎ，　ｃ’ｍｏｎ！　Ｉ’"TCC_NEWLINE"ｍ　ｓｏｅｘｃｉｔｅｄ，　Ｉ　ｃａｎ　ｈａｒｄｌｙ　ｗａｉー"TCC_NEWLINE"ｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ａｌｌ　ｒｉｇｈｔ．　Ｉ’ｌｌ　ｔｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ｔｈｅ　ｎａｍｅ　ｏｆ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙ"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE
-"Ｇｒａｎｔ　ｕｓ　ｏｕｒ　ａｗａｋｅｎｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｈｅ　ｎａｍｅ　ｏｆ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅー"TCC_NEWLINE"ｙｒ．．．Ｇｒａｎｔ　ｕｓ　ｏｕｒ　ａｗａｋｅｎｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅ　ｓｏｕｎｄ　ｏｆ　ｔｈｅ　ｈｏｒｎ．．．　Ｉｔ　ｓｅ"TCC_NEWLINE"ｅｍｓ"TCC_NEWLINE
-"ｔｏ　ｈａｖｅ　ｗｏｒｋｅｄ．　Ｈｏｗ　ｌｏｖｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｂａｄ　ｄｒｅａｍｓ　ａｒｅ　ｇｏｎｅ，　ａｎｄ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
-"ａｌｌ　ｗｉｌｌ　ｓｏｏｎ　ｗａｋｅ　ｆｒｏｍ　ｙｏｕｒ　ｄ"TCC_NEWLINE"ｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ａ　ｌｉｔｔｌｅ　ｓａｄ．．．　Ｗｅ’ｒｅ　ｎｅａ"TCC_NEWLINE"ｒｉｎｇ"TCC_NEWLINE
-"ｏｕｒ　ｇｏｏｄｂｙｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｏｕｎｄ　ｏｆ　ｔｈｅ　ｈｏｒｎ．．．　Ｉｔ　ｓー"TCC_NEWLINE"ｅｅｍｓｔｏ　ｈａｖｅ　ｗｏｒｋｅｄ．　Ｈｏｗ　ｌｏｖｅｌー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｂａｄ　ｄｒｅａｍｓ　ａｒｅ　ｇｏｎｅ，　ａｎｄ　"TCC_NEWLINE"ｙｏｕａｌｌ　ｗｉｌｌ　ｓｏｏｎ　ｗａｋｅ　ｆｒｏｍ　ｙｏー"TCC_NEWLINE"ｕｒ　ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａ　ｌｉｔｔｌｅ　ｓａｄ．．．　Ｗｅ’ｒｅ　ｎｅー"TCC_NEWLINE"ａｒｉｎｇｏｕｒ　ｇｏｏｄｂｙｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ，　Ｐｅｏｎｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ’ｓ　ｊｕｓｔ．．．ｔｈｅ　ｄｒｅａｍ　ｉｓ　ｅｎｄｉｎ"TCC_NEWLINE"ｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｙｏｕ　ｗａｋｅ　ｕｐ，　ａｌｌ　ｏｆ　ｙｏｕ　ｗ"TCC_NEWLINE"ｉｌｌ"TCC_NEWLINE
-"ｆｏｒｇｅｔ　ａｂｏｕｔ　Ｌｊｓｌｆｈｅｉｍｒ，　ｔｈｅ"TCC_NEWLINE
-"ｌｊｓｌｆａｒ．．．ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｊｕｓｔ．．．ｔｈｅ　ｄｒｅａｍ　ｉｓ　ｅｎｄｉー"TCC_NEWLINE"ｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｙｏｕ　ｗａｋｅ　ｕｐ，　ａｌｌ　ｏｆ　ｙｏｕ　"TCC_NEWLINE"ｗｉｌｌｆｏｒｇｅｔ　ａｂｏｕｔ　Ｌｊｓｌｆｈｅｉｍｒ，　"TCC_NEWLINE"ｔｈｅｌｊｓｌｆａｒ．．．ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｏｈ　ｎｏ！　Ａｆｔｅｒ　ｗｅ’ｖｅ　ｊｕｓｔ　ｂｅｃｏｍｅ"TCC_NEWLINE
-"ｆｒｉｅｎｄｓ．．．　Ｉｔ’ｓ　ｔｏｏ　ｓａｄ　ｔｏ　ｂｅａ"TCC_NEWLINE"ｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｎｏ！　Ａｆｔｅｒ　ｗｅ’ｖｅ　ｊｕｓｔ　ｂｅｃｏｍー"TCC_NEWLINE"ｅｆｒｉｅｎｄｓ．．．　Ｉｔ’ｓ　ｔｏｏ　ｓａｄ　ｔｏ　ｂー"TCC_NEWLINE"ｅａｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ’ｍ　ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．　Ｂｕｔ　ｔｈａｎｋ　"TCC_NEWLINE"ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ａｌｗａｙｓ　ｗａｔｃｈ　ｏｖｅｒ　ｙｏｕ．"TCC_NEWLINE
-"Ｅａｃｈ　ｏｆ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．　Ｂｕｔ　ｔｈａｎｋ"TCC_NEWLINE"　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ａｌｗａｙｓ　ｗａｔｃｈ　ｏｖｅｒ　ｙｏｕ．"TCC_NEWLINE"Ｅａｃｈ　ｏｆ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ｍａｙｂｅ．．．ｓｏｍｅｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "．．．Ｐｅｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｗｅ’ｌｌ　ｍｅｅｔ　ａｇａｉｎ，　ｓｏｍｅｄａｙ．"TCC_NEWLINE
-"Ｓｏｍｅｄａｙ　ｉｎ　ａ　ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｅ’ｌｌ　ｍｅｅｔ　ａｇａｉｎ，　ｓｏｍｅｄａｙ．"TCC_NEWLINE"Ｓｏｍｅｄａｙ　ｉｎ　ａ　ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FREYR
-"Ｔｈｅ　ｈｏｒｎ　ｓｏｕｎｄｓ．．．　Ｔｈｅｎ　ｔｈｅｙ　ｈ"TCC_NEWLINE"ａｖｅ"TCC_NEWLINE
-"ｒｅｔｕｒｎｅｄ　ｔｏ　ｔｈｅ　ｗｏｒ"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｈｏｒｎ　ｓｏｕｎｄｓ．．．　Ｔｈｅｎ　ｔｈｅｙ　"TCC_NEWLINE"ｈａｖｅｒｅｔｕｒｎｅｄ　ｔｏ　ｔｈｅ　ｗｏｒ"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ　ｈａｓ　ｂｅｅｎ　ｓｏ　ｌｏｎｇ，　Ｂｒｏｔｈｅｒ．．"TCC_NEWLINE"．ａｎｄ"TCC_NEWLINE
-"ｔｈｉｓ　ｉｓ　ｈｏｗ　ｙｏｕ　ｇｒｅｅｔ　ｍｅ，　ｙｏｕｒ"TCC_NEWLINE
-"ｂｅｌｏｖｅｄ　ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｈａｓ　ｂｅｅｎ　ｓｏ　ｌｏｎｇ，　Ｂｒｏｔｈｅｒ．"TCC_NEWLINE"．．ａｎｄｔｈｉｓ　ｉｓ　ｈｏｗ　ｙｏｕ　ｇｒｅｅｔ　ｍｅ"TCC_NEWLINE"，　ｙｏｕｒｂｅｌｏｖｅｄ　ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｗｉｌｌ　ａｓｋ　ｏｎｃｅ　ｍｏｒｅ，　Ｆｒｅｙｊａ．．"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ａｓｋ　ｏｎｃｅ　ｍｏｒｅ，　Ｆｒｅｙｊａ．"TCC_NEWLINE"．．Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅ　ｗｏｒｌｄ　ｉｓ　ｊｕｓｔ　ｓｏ　ｄｕｌｌ　ｗｉｔｈ"TCC_NEWLINE"ｏｕｔ"TCC_NEWLINE
-"ｙｏｕ，　Ｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｓｈｏｕｌｄ　ｃｏｍｅ　ｔｏ　ｍｙ　ｗｏｒｌｄ．．．"TCC_NEWLINE
-"Ｃｏｍｅ　ｗｉｔｈ　ｍｅ，　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｏｒｌｄ　ｉｓ　ｊｕｓｔ　ｓｏ　ｄｕｌｌ　ｗｉｔー"TCC_NEWLINE"ｈｏｕｔｙｏｕ，　Ｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｃｏｍｅ　ｔｏ　ｍｙ　ｗｏｒｌｄ．．"TCC_NEWLINE"．Ｃｏｍｅ　ｗｉｔｈ　ｍｅ，　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｍｕｓｔ　ｎｏｔ．　Ｉｆ　Ｉ　ｗｅｒｅ　ｔｏ　ｆｏｌｌｏ"TCC_NEWLINE"ｗ　ｙｏｕ"TCC_NEWLINE
-"ｔｈｅｒｅ，　ｔｈｅ　ｍｏｒｔａｌ　ｗｏｒｌｄ　ｗｏｕｌｄ　"TCC_NEWLINE"ｂｅ"TCC_NEWLINE
-"ｏｖｅｒｒｕｎ　ｗｉｔｈ　ｎｉｇｈｔｍａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｎｏｔ．　Ｉｆ　Ｉ　ｗｅｒｅ　ｔｏ　ｆｏｌｌー"TCC_NEWLINE"ｏｗ　ｙｏｕｔｈｅｒｅ，　ｔｈｅ　ｍｏｒｔａｌ　ｗｏｒｌｄ"TCC_NEWLINE"　ｗｏｕｌｄ　ｂｅｏｖｅｒｒｕｎ　ｗｉｔｈ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅｌｌ．．．ｐｅｒｈａｐｓ．　Ｔｈｅ　ｄｒｅａｍｓ　ｏｆ　"TCC_NEWLINE"ｍｏｒｔａｌｓ"TCC_NEWLINE
-"ｗｏｕｌｄ　ｂｅｃｏｍｅ　ｒｅａｌｉｔｙ，　ｔｒｕｅ．．．　"TCC_NEWLINE"Ｂｕｔ　ａｎｙ"TCC_NEWLINE
-"ｎｉｇｈｔｍａｒｅ　ｗｏｕｌｄ　ｂｅ　ｔｈｅｉｒ　ｏｗｎ　ｄ"TCC_NEWLINE"ｏｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ．．．ｐｅｒｈａｐｓ．　Ｔｈｅ　ｄｒｅａｍｓ　ｏｆ"TCC_NEWLINE"　ｍｏｒｔａｌｓｗｏｕｌｄ　ｂｅｃｏｍｅ　ｒｅａｌｉｔｙ，"TCC_NEWLINE"　ｔｒｕｅ．．．　Ｂｕｔ　ａｎｙｎｉｇｈｔｍａｒｅ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｂｅ　ｔｈｅｉｒ　ｏｗｎ　ｄｏｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｔｏｐ　ｔｈｉｓ，　Ｆｒｅｙｊａ．　Ｍｏｒｔａｌｓ　ｓｈｏ"TCC_NEWLINE"ｕｌｄ"TCC_NEWLINE
-"ｂｅ　ｇｉｖｅｎ　ｐｌｅａｓａｎｔ　ｔｈｉｎｇｓ．．．　Ａｌ"TCC_NEWLINE"ｌ　ｌｉｖｉｎｇ"TCC_NEWLINE
-"ｔｈｉｎｇｓ　ｄｅｓｅｒｖｅ　ｓｏ　ｍｕｃｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｏｐ　ｔｈｉｓ，　Ｆｒｅｙｊａ．　Ｍｏｒｔａｌｓ　ｓｈー"TCC_NEWLINE"ｏｕｌｄｂｅ　ｇｉｖｅｎ　ｐｌｅａｓａｎｔ　ｔｈｉｎｇｓ．"TCC_NEWLINE"．．　Ａｌｌ　ｌｉｖｉｎｇｔｈｉｎｇｓ　ｄｅｓｅｒｖｅ　ｓー"TCC_NEWLINE"ｏ　ｍｕｃｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ’ｓ　ｓｉｃｋｅｎｉｎｇ　ｈｏｗ　ｈｉｇｈｌｙ　ｙｏｕ　"TCC_NEWLINE"ｔｈｉｎｋ"TCC_NEWLINE
-"ｏｆ　ｔｈｅｍ．　Ｕｎｆｏｒｔｕｎａｔｅ　ｓｕｃｈ　ａｄｏｒ"TCC_NEWLINE"ａｔｉｏｎ"TCC_NEWLINE
-"ｏｎｌｙ　ｓｔｒｅｎｇｔｈｅｎｓ　ｍｙ　ｒｅｓｏｌｖｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｎｏｗ．．．ｈｅｒｅ　ｙｏｕ　ａｒｅ，　ｈａｖｉｎｇ"TCC_NEWLINE"　ｇｉｖｅｎ"TCC_NEWLINE
-"ｔｈｅｍ　ｔｈｅ　ｈｏｒｎ．．．ｌｅａｖｉｎｇ　ｙｏｕｒｓｅ"TCC_NEWLINE"ｌｆ　ｗｉｔｈ"TCC_NEWLINE
-"ｎｏ　ｄｅｆｅｎｓｅ　ａｇａｉｎｓｔ　ｍｅ．．．　Ｈｍｍ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｏｕｇｈｔ　ｎｏｔ　ｈａｖｅ　ｄｏｎｅ　ｔｈａｔ．．"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｉ　ａｌｏｎｅ　ａｍ　ｗｏｒｔｈｙ　ｏｆ　ｙｏｕｒ　ｌｏｖｅ"TCC_NEWLINE"，　ｙｏｕｒ"TCC_NEWLINE
-"ａｄｍｉｒａｔｉｏｎ．．．ｙｏｕｒ　ｇｉｆｔｓ．．．ＡＮＹ　"TCC_NEWLINE"ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｍａｄｅ　ａ　ＦＯＯＬ　ｂｙ　ｓ"TCC_NEWLINE"ｏｍｅ"TCC_NEWLINE
-"ｐｉｔｉｆｕｌ　ｂｅａｓｔ　ｔｈａｔ　ｃａｎ　ｂａｒｅｌｙ　"TCC_NEWLINE"ｍａｎａｇｅ"TCC_NEWLINE
-"ｔｏ　ｃｏｎｔｒｏｌ　ｉｔｓ　ｍｏｓｔ　ｂａｓｅ　ｉｍｐｕｌ"TCC_NEWLINE"ｓｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｓｉｃｋｅｎｉｎｇ　ｈｏｗ　ｈｉｇｈｌｙ　ｙｏｕ"TCC_NEWLINE"　ｔｈｉｎｋｏｆ　ｔｈｅｍ．　Ｕｎｆｏｒｔｕｎａｔｅ　ｓｕー"TCC_NEWLINE"ｃｈ　ａｄｏｒａｔｉｏｎｏｎｌｙ　ｓｔｒｅｎｇｔｈｅｎｓ　"TCC_NEWLINE"ｍｙ　ｒｅｓｏｌｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ．．．ｈｅｒｅ　ｙｏｕ　ａｒｅ，　ｈａｖｉｎー"TCC_NEWLINE"ｇ　ｇｉｖｅｎｔｈｅｍ　ｔｈｅ　ｈｏｒｎ．．．ｌｅａｖｉｎー"TCC_NEWLINE"ｇ　ｙｏｕｒｓｅｌｆ　ｗｉｔｈｎｏ　ｄｅｆｅｎｓｅ　ａｇａー"TCC_NEWLINE"ｉｎｓｔ　ｍｅ．．．　Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｏｕｇｈｔ　ｎｏｔ　ｈａｖｅ　ｄｏｎｅ　ｔｈａｔ．"TCC_NEWLINE"．．Ｉ　ａｌｏｎｅ　ａｍ　ｗｏｒｔｈｙ　ｏｆ　ｙｏｕｒ　ｌー"TCC_NEWLINE"ｏｖｅ，　ｙｏｕｒａｄｍｉｒａｔｉｏｎ．．．ｙｏｕｒ　ｇｉー"TCC_NEWLINE"ｆｔｓ．．．ＡＮＹ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｍａｄｅ　ａ　ＦＯＯＬ　ｂｙ　"TCC_NEWLINE"ｓｏｍｅｐｉｔｉｆｕｌ　ｂｅａｓｔ　ｔｈａｔ　ｃａｎ　ｂａー"TCC_NEWLINE"ｒｅｌｙ　ｍａｎａｇｅｔｏ　ｃｏｎｔｒｏｌ　ｉｔｓ　ｍｏｓー"TCC_NEWLINE"ｔ　ｂａｓｅ　ｉｍｐｕｌｓｅｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｆｒｅｙｊａ，　ｌｉｓｔｅｎ　ｔｏ　ｍ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｒｉａｎｄｒａ，　Ｐｌｕｍｅｒｉａ．．．　Ｓｅｉｚｅ　ｈｉ"TCC_NEWLINE"ｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｉａｎｄｒａ，　Ｐｌｕｍｅｒｉａ．．．　Ｓｅｉｚｅ　ｈー"TCC_NEWLINE"ｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｙｅｓ，　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｃｈ．　Ｍｅｄｄｌｅｓｏｍｅ　ｍｏｒｔａｌｓ．．．　Ｗｉｔ"TCC_NEWLINE"ｈ"TCC_NEWLINE
-"ｔｈｅ　ｓｏｕｎｄｉｎｇ　ｏｆ　ｔｈｅ　ｈｏｒｎ，　ｔｈｅｙ"TCC_NEWLINE"’ｌｌ　ｂｅ"TCC_NEWLINE
-"ｗａｋｉｎｇ　ａｎｙ　ｍｏｍｅｎｔ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ，　ｈｏｗ　Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｓｅｅ　ｔｈｅ"TCC_NEWLINE"　ｌｏｏｋｓ"TCC_NEWLINE
-"ｏｎ　ｔｈｅｉｒ　ｆａｃｅｓ　ｗｈｅｎ　ｔｈｅ　ｎｉｇｈｔｍ"TCC_NEWLINE"ａｒｅ"TCC_NEWLINE
-"ｃｈａｓｅｓ　ｔｈｅｍ　ｉｎｔｏ　ｔｈｅｉｒ　ｗａｋｉｎｇ　"TCC_NEWLINE"ｌｉｖｅｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃａｎ　ｔｈｉｎｋ　ｏｆ　ｎｏ　ｇｉｆｔ　ｍｏｒｅ　ｓｕ"TCC_NEWLINE"ｉｔａｂｌｅ"TCC_NEWLINE
-"ｆｏｒ　ｔｈｏｓｅ　ｗｈｏ　ｗｏｕｌｄ　ｓｔｅａｌ　ｆｒｏｍ"TCC_NEWLINE"　ｍｅ"TCC_NEWLINE
-"ｍｙ　ｂｒｏｔｈｅｒ’ｓ　ａｔｔｅｎｔｉｏｎｓ．．．　Ｓｕｆ"TCC_NEWLINE"ｆｅｒｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｃｈ．　Ｍｅｄｄｌｅｓｏｍｅ　ｍｏｒｔａｌｓ．．．　Ｗｉー"TCC_NEWLINE"ｔｈｔｈｅ　ｓｏｕｎｄｉｎｇ　ｏｆ　ｔｈｅ　ｈｏｒｎ，　ｔー"TCC_NEWLINE"ｈｅｙ’ｌｌ　ｂｅｗａｋｉｎｇ　ａｎｙ　ｍｏｍｅｎｔ　ｎｏー"TCC_NEWLINE"ｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｈｏｗ　Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｓｅｅ　ｔｈー"TCC_NEWLINE"ｅ　ｌｏｏｋｓｏｎ　ｔｈｅｉｒ　ｆａｃｅｓ　ｗｈｅｎ　ｔｈー"TCC_NEWLINE"ｅ　ｎｉｇｈｔｍａｒｅｃｈａｓｅｓ　ｔｈｅｍ　ｉｎｔｏ　ｔー"TCC_NEWLINE"ｈｅｉｒ　ｗａｋｉｎｇ　ｌｉｖｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ　ｔｈｉｎｋ　ｏｆ　ｎｏ　ｇｉｆｔ　ｍｏｒｅ　ｓー"TCC_NEWLINE"ｕｉｔａｂｌｅｆｏｒ　ｔｈｏｓｅ　ｗｈｏ　ｗｏｕｌｄ　ｓｔー"TCC_NEWLINE"ｅａｌ　ｆｒｏｍ　ｍｅｍｙ　ｂｒｏｔｈｅｒ’ｓ　ａｔｔｅｎー"TCC_NEWLINE"ｔｉｏｎｓ．．．　Ｓｕｆｆｅｒｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

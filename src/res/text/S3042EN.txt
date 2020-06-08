@@ -1,7 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3042_EN] = TCC_OPEN_LEFT
-"Ｉ’ｍ　Ｋａｄｅｎ！　Ａｓ　ｙｏｕ　ｃａｎ　ｓｅｅ，　Ｉ’ｍ"TCC_NEWLINE"　ｆｒｏｍ"TCC_NEWLINE
-"ｔｈｅ　ｍｏｓｔ　ｂｅａｕｔｉｆｕｌ　ｒａｃｅ　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｗｏｒｌｄ，"TCC_NEWLINE
-"ｔｈｅ　ｋｉｔｓｕｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　Ｋａｄｅｎ！　Ａｓ　ｙｏｕ　ｃａｎ　ｓｅｅ，　Ｉ’"TCC_NEWLINE"ｍ　ｆｒｏｍｔｈｅ　ｍｏｓｔ　ｂｅａｕｔｉｆｕｌ　ｒａｃｅ"TCC_NEWLINE"　ｉｎ　ｔｈｅ　ｗｏｒｌｄ，ｔｈｅ　ｋｉｔｓｕｎｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

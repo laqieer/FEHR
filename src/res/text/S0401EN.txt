@@ -1,21 +1,11 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0401_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ　ｍｕｓｔ　ｂｅ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｏｆ"TCC_NEWLINE
-"ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄｏｍ．　Ｐｌｅａｓｅｄ　ｔｏ"TCC_NEWLINE
-"ｍａｋｅ　ｙｏｕｒ　ａｃｑｕａｉｎｔａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　Ｒｏｙ．　Ｉ　ｋｎｏｗ　Ｉ　ｌｏｏｋ　ｙｏｕｎｇ，　"TCC_NEWLINE"ｂｕｔ"TCC_NEWLINE
-"Ｉ’ｍ　ｌｅａｄｉｎｇ　ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｐｈｅｒ"TCC_NEWLINE"ａｅ"TCC_NEWLINE
-"ｏｎ　ｍｙ　ｆａｔｈｅｒ’ｓ　ｂｅｈａｌｆ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｋｎｏｗ　ｔｈａｔ　ｉｔ’ｓ　ｎｏｔ　ｖｅｒｙ　ｎｏｂｌ"TCC_NEWLINE"ｅ　ｔｏ"TCC_NEWLINE
-"ｐｏｉｎｔ　ｍｙ　ｂｌａｄｅ　ａｔ　ｏｔｈｅｒ　ｆｉｎｅ"TCC_NEWLINE
-"ｍｅｍｂｅｒｓ　ｏｆ　ｒｏｙａｌｔｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ’ｍ　ａｆｒａｉｄ　ｔｈａｔ　ｗｅ’ｒｅ　ａｌｌ　"TCC_NEWLINE"ｂｏｕｎｄ"TCC_NEWLINE
-"ｂｙ　ｃｏｎｔｒａｃｔ．　Ｉ　ｈｏｐｅ　ｙｏｕ’ｌｌ　ｆｏｒ"TCC_NEWLINE"ｇｉｖｅ"TCC_NEWLINE
-"ｍｅ　ｆｏｒ　ｗｈａｔ　ｗｅ　ｍｕｓｔ　ｎｏｗ　ｄｏ．"
+"Ｙｏｕ　ｍｕｓｔ　ｂｅ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｏｆー"TCC_NEWLINE"ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄｏｍ．　Ｐｌｅａｓｅｄ　ｔー"TCC_NEWLINE"ｏｍａｋｅ　ｙｏｕｒ　ａｃｑｕａｉｎｔａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　Ｒｏｙ．　Ｉ　ｋｎｏｗ　Ｉ　ｌｏｏｋ　ｙｏｕｎｇ，"TCC_NEWLINE"　ｂｕｔＩ’ｍ　ｌｅａｄｉｎｇ　ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ"TCC_NEWLINE"　Ｐｈｅｒａｅｏｎ　ｍｙ　ｆａｔｈｅｒ’ｓ　ｂｅｈａｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｔｈａｔ　ｉｔ’ｓ　ｎｏｔ　ｖｅｒｙ　ｎｏｂー"TCC_NEWLINE"ｌｅ　ｔｏｐｏｉｎｔ　ｍｙ　ｂｌａｄｅ　ａｔ　ｏｔｈｅｒ　"TCC_NEWLINE"ｆｉｎｅｍｅｍｂｅｒｓ　ｏｆ　ｒｏｙａｌｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｍ　ａｆｒａｉｄ　ｔｈａｔ　ｗｅ’ｒｅ　ａｌｌ"TCC_NEWLINE"　ｂｏｕｎｄｂｙ　ｃｏｎｔｒａｃｔ．　Ｉ　ｈｏｐｅ　ｙｏｕ"TCC_NEWLINE"’ｌｌ　ｆｏｒｇｉｖｅｍｅ　ｆｏｒ　ｗｈａｔ　ｗｅ　ｍｕｓー"TCC_NEWLINE"ｔ　ｎｏｗ　ｄｏ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0401_EN] = TCC_OPEN_LEFT
-"Ｙｏｕｒ　ｇｒｏｕｐ　ｉｓ　ａｓ　ｓｔｒｏｎｇ　ａｓ　ｔｈｅ"TCC_NEWLINE"ｙ　ｓａｙ！"TCC_NEWLINE
-"Ｂｕｔ　ｏｕｒ　ｃｏｎｔｒａｃｔ　ｉｓ　ｎｏｔ　ｙｅｔ　ｂｒ"TCC_NEWLINE"ｏｋｅｎ．"TCC_NEWLINE
-"Ａｎｄ　ｓｏ，　Ｉ　ｗｉｌｌ　ｓｅｅ　ｙｏｕ　ａｇａｉｎ．"
+"Ｙｏｕｒ　ｇｒｏｕｐ　ｉｓ　ａｓ　ｓｔｒｏｎｇ　ａｓ　ｔｈー"TCC_NEWLINE"ｅｙ　ｓａｙ！Ｂｕｔ　ｏｕｒ　ｃｏｎｔｒａｃｔ　ｉｓ　ｎｏー"TCC_NEWLINE"ｔ　ｙｅｔ　ｂｒｏｋｅｎ．Ａｎｄ　ｓｏ，　Ｉ　ｗｉｌｌ　ｓー"TCC_NEWLINE"ｅｅ　ｙｏｕ　ａｇａｉｎ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

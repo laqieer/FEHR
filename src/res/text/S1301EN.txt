@@ -1,29 +1,18 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S1301_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｆ　ｏｎｌｙ　ｗｅ　ｋｎｅｗ　ｗｈｅｒｅ　ｔｏ　ｆｉｎｄ"TCC_NEWLINE
-"Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｏｎｌｙ　ｗｅ　ｋｎｅｗ　ｗｈｅｒｅ　ｔｏ　ｆｉｎｄー"TCC_NEWLINE"Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｄｏ　ｙｏｕ　ｒｅａｌｌｙ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｈｅ’"TCC_NEWLINE"ｓ　ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｒｅａｌｌｙ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｈｅ"TCC_NEWLINE"’ｓ　ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ．．．　Ｉ　ｔｈｉｎｋ　ｗｅ　ｓｈｏｕｌｄ　ｆｏｌｌｏｗ　"TCC_NEWLINE"Ｐｒｉｎｃｅ"TCC_NEWLINE
-"Ｂｒｕｎｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｌａｓｔ　ｓａｗ　ｈｉｍ　ｉｎ　ｔｈｅ　Ｗｏｒｌｄ　ｏ"TCC_NEWLINE"ｆ"TCC_NEWLINE
-"Ｓｈａｄｏｗｓ．　Ｈｅ　ｍａｙ　ｓｔｉｌｌ　ｂｅ　ｔｈｅｒｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｌｙ　ｈｅ　ｋｎｏｗｓ　ｔｈｅ　ｔｒｕｔｈ．　Ａｎｄ　ｉ"TCC_NEWLINE"ｆ　ｈｅ　ｄｉｄ"TCC_NEWLINE
-"ｋｉｌｌ　Ｚａｃｈａｒｉａｓ．．．ｔｈａｔ　ｉｓ　ａｎ　ａｃ"TCC_NEWLINE"ｔ　Ｉ　ｃａｎｎｏｔ"TCC_NEWLINE
-"ｆｏｒｇｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．　Ｉ　ｔｈｉｎｋ　ｗｅ　ｓｈｏｕｌｄ　ｆｏｌｌｏｗ"TCC_NEWLINE"　ＰｒｉｎｃｅＢｒｕｎｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｌａｓｔ　ｓａｗ　ｈｉｍ　ｉｎ　ｔｈｅ　Ｗｏｒｌｄ　"TCC_NEWLINE"ｏｆＳｈａｄｏｗｓ．　Ｈｅ　ｍａｙ　ｓｔｉｌｌ　ｂｅ　ｔｈー"TCC_NEWLINE"ｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｌｙ　ｈｅ　ｋｎｏｗｓ　ｔｈｅ　ｔｒｕｔｈ．　Ａｎｄ　"TCC_NEWLINE"ｉｆ　ｈｅ　ｄｉｄｋｉｌｌ　Ｚａｃｈａｒｉａｓ．．．ｔｈａー"TCC_NEWLINE"ｔ　ｉｓ　ａｎ　ａｃｔ　Ｉ　ｃａｎｎｏｔｆｏｒｇｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S1301_EN] = TCC_OPEN_LEFT
-"Ｆｉｎａｌｌｙ！　Ｉ　ｗａｓ　ｇｅｔｔｉｎｇ　ｂｏｒｅｄ　ｗ"TCC_NEWLINE"ａｉｔｉｎｇ"TCC_NEWLINE
-"ａｒｏｕｎｄ　ｆｏｒ　ｙｏｕ．　Ｉ　ｈｏｐｅ　ｙｏｕ’ｒｅ　"TCC_NEWLINE"ｂｅｔｔｅｒ　ａｔ"TCC_NEWLINE
-"ｆｉｇｈｔｉｎｇ　ｔｈａｎ　ｆｉｇｕｒｉｎｇ　ｏｕｔ　ｗｈｅ"TCC_NEWLINE"ｒｅ　ｔｏ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｎａｍｅ’ｓ　Ｄｅｌｔｈｅａ．　Ｉ　ｈｏｐｅ　ｙｏｕ　"TCC_NEWLINE"ａｒｅｎ’ｔ"TCC_NEWLINE
-"ｔｈｉｎｋｉｎｇ　ｏｆ　ｕｎｄｅｒｅｓｔｉｍａｔｉｎｇ　ｍｅ"TCC_NEWLINE"　ｊｕｓｔ"TCC_NEWLINE
-"ｂｅｃａｕｓｅ　Ｉ’ｍ　ｓｏ　ｄａｒｎ　ｃｕｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｗｏｕｌｄ　ｂｅ　ａ　ｂｉｇ　ｍｉｓｔａｋｅ．　Ｍ"TCC_NEWLINE"ｙ"TCC_NEWLINE
-"ｍａｇｉｃ　ｗｉｌｌ　ｂｌｏｗ　ｙｏｕ　ｏｆｆ　ｔｈｅ　ｂａ"TCC_NEWLINE"ｔｔｌｅｆｉｅｌｄ．"TCC_NEWLINE
-"Ｓｏ，　ｗｈｏ’ｓ　ｆｉｒｓｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎａｌｌｙ！　Ｉ　ｗａｓ　ｇｅｔｔｉｎｇ　ｂｏｒｅｄ　"TCC_NEWLINE"ｗａｉｔｉｎｇａｒｏｕｎｄ　ｆｏｒ　ｙｏｕ．　Ｉ　ｈｏｐｅ"TCC_NEWLINE"　ｙｏｕ’ｒｅ　ｂｅｔｔｅｒ　ａｔｆｉｇｈｔｉｎｇ　ｔｈａー"TCC_NEWLINE"ｎ　ｆｉｇｕｒｉｎｇ　ｏｕｔ　ｗｈｅｒｅ　ｔｏ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎａｍｅ’ｓ　Ｄｅｌｔｈｅａ．　Ｉ　ｈｏｐｅ　ｙｏｕ"TCC_NEWLINE"　ａｒｅｎ’ｔｔｈｉｎｋｉｎｇ　ｏｆ　ｕｎｄｅｒｅｓｔｉｍー"TCC_NEWLINE"ａｔｉｎｇ　ｍｅ　ｊｕｓｔｂｅｃａｕｓｅ　Ｉ’ｍ　ｓｏ　ｄー"TCC_NEWLINE"ａｒｎ　ｃｕｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｗｏｕｌｄ　ｂｅ　ａ　ｂｉｇ　ｍｉｓｔａｋｅ．　"TCC_NEWLINE"Ｍｙｍａｇｉｃ　ｗｉｌｌ　ｂｌｏｗ　ｙｏｕ　ｏｆｆ　ｔｈｅ"TCC_NEWLINE"　ｂａｔｔｌｅｆｉｅｌｄ．Ｓｏ，　ｗｈｏ’ｓ　ｆｉｒｓｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S1301_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｕｇｈ．．．ａｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -31,11 +20,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｒｉｎｃｅ　Ｂｒｕｎｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈａｈａ．．．　Ｙｏｕ　ｆｉｎａｌｌｙ　ｍａｄｅ　ｉｔ．　Ｇ"TCC_NEWLINE"ｏｏｄ．　Ｉ’ｍ"TCC_NEWLINE
-"ｔｉｒｅｄ　ｏｆ　ｗａｉｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｆｏｎｓｅ！　Ｓｈａｒｅｎａ！　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ"TCC_NEWLINE"　ｇｕｔ"TCC_NEWLINE
-"ｙｏｕ．．．ｆｏｒ　ｓｔａｒｔｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｃａｎ　ｙｏｕ　ｇｅｔ　ｍｅ　ｂｅｆｏｒｅ　Ｉ　ｇｅｔ　ｙｏ"TCC_NEWLINE"ｕ？"TCC_NEWLINE
-"Ｚａｃｈａｒｉａｓ　ｉｓ　ｃｒｙｉｎｇ　ｏｕｔ　ｆｏｒ"TCC_NEWLINE
-"ｖｅｎｇｅａｎｃｅ！　Ｂｗａ－ｈａ－ｈａ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｈａ．．．　Ｙｏｕ　ｆｉｎａｌｌｙ　ｍａｄｅ　ｉｔ．　"TCC_NEWLINE"Ｇｏｏｄ．　Ｉ’ｍｔｉｒｅｄ　ｏｆ　ｗａｉｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ！　Ｓｈａｒｅｎａ！　Ｉ’ｍ　ｇｏｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｇｕｔｙｏｕ．．．ｆｏｒ　ｓｔａｒｔｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃａｎ　ｙｏｕ　ｇｅｔ　ｍｅ　ｂｅｆｏｒｅ　Ｉ　ｇｅｔ　ｙー"TCC_NEWLINE"ｏｕ？Ｚａｃｈａｒｉａｓ　ｉｓ　ｃｒｙｉｎｇ　ｏｕｔ　ｆｏー"TCC_NEWLINE"ｒｖｅｎｇｅａｎｃｅ！　Ｂｗａ－ｈａ－ｈａ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

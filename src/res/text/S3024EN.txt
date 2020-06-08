@@ -1,8 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_END_S3024_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ’ｒｅ　ｄｒａｗｉｎｇ　ｎｅａｒ　ｔｏ　ｔｈａｔ　ｄｅｓ"TCC_NEWLINE"ｏｌａｔｅ"TCC_NEWLINE
-"ｔｏｍｂ．　Ｗｅ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｓｉｇｈｔ　ｉ"TCC_NEWLINE"ｔ　ｓｈｏｒｔｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｕｓｅ　ｃａｕｔｉｏｎ　ａｓ　ｙｏｕ　ｍｏｖｅ　ｆｏｒｗａｒ"TCC_NEWLINE"ｄ．"TCC_NEWLINE
-"Ｔｈｅ　ｅｎｅｍｙ　ｍａｙ　ｂｅ　ｌｙｉｎｇ　ｉｎ　ｗａｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ｄｒａｗｉｎｇ　ｎｅａｒ　ｔｏ　ｔｈａｔ　ｄｅー"TCC_NEWLINE"ｓｏｌａｔｅｔｏｍｂ．　Ｗｅ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　"TCC_NEWLINE"ｓｉｇｈｔ　ｉｔ　ｓｈｏｒｔｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｓｅ　ｃａｕｔｉｏｎ　ａｓ　ｙｏｕ　ｍｏｖｅ　ｆｏｒｗａー"TCC_NEWLINE"ｒｄ．Ｔｈｅ　ｅｎｅｍｙ　ｍａｙ　ｂｅ　ｌｙｉｎｇ　ｉｎ　"TCC_NEWLINE"ｗａｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

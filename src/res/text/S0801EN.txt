@@ -1,21 +1,11 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0801_EN] = TCC_OPEN_LEFT
-"Ａｈ，　ｗｅ’ｖｅ　ｂｅｅｎ　ｅｘｐｅｃｔｉｎｇ　ｙｏｕ．"TCC_NEWLINE
-"Ｙｏｕ’ｒｅ　ｔｈｅ　ｏｎｅｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｒ"TCC_NEWLINE"ｅａｌｍ"TCC_NEWLINE
-"Ｌｏｒｄ　Ｅｌｉｗｏｏｄ　ｗａｒｎｅｄ　ｕｓ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈａｔ　ａｌｌ　ｔｈｅ　ｆｕｓｓ"TCC_NEWLINE"　ｉｓ"TCC_NEWLINE
-"ａｂｏｕｔ．　Ｙｏｕ　ｄｏｎ’ｔ　ｌｏｏｋ　ｖｅｒｙ"TCC_NEWLINE
-"ｉｍｐｒｅｓｓｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｔ　ｃｏｍｐａｒｅｄ　ｔｏ　ａ　ｒｅｎｏｗｎｅｄ　ｌａｄ"TCC_NEWLINE"ｙ"TCC_NEWLINE
-"ｌｉｋｅ　ｍｅｏｒ　ｍｙ　ｖａｓｓａｌｓ．　Ｎｏｗ，"TCC_NEWLINE
-"ｗｅ　ｗｉｌｌ　ｓｈｏｗ　ｙｏｕ　ｙｏｕｒ　ｐｌａｃｅ！"
+"Ａｈ，　ｗｅ’ｖｅ　ｂｅｅｎ　ｅｘｐｅｃｔｉｎｇ　ｙｏｕ．"TCC_NEWLINE"Ｙｏｕ’ｒｅ　ｔｈｅ　ｏｎｅｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ　"TCC_NEWLINE"ｒｅａｌｍＬｏｒｄ　Ｅｌｉｗｏｏｄ　ｗａｒｎｅｄ　ｕｓ　ａー"TCC_NEWLINE"ｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈａｔ　ａｌｌ　ｔｈｅ　ｆｕｓー"TCC_NEWLINE"ｓ　ｉｓａｂｏｕｔ．　Ｙｏｕ　ｄｏｎ’ｔ　ｌｏｏｋ　ｖｅｒー"TCC_NEWLINE"ｙｉｍｐｒｅｓｓｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ｃｏｍｐａｒｅｄ　ｔｏ　ａ　ｒｅｎｏｗｎｅｄ　ｌａー"TCC_NEWLINE"ｄｙｌｉｋｅ　ｍｅｏｒ　ｍｙ　ｖａｓｓａｌｓ．　Ｎｏｗ，ｗー"TCC_NEWLINE"ｅ　ｗｉｌｌ　ｓｈｏｗ　ｙｏｕ　ｙｏｕｒ　ｐｌａｃｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0801_EN] = TCC_OPEN_LEFT
-"Ｙｏｗｃｈ！　Ｗｈａｔ’ｓ　ｔｈｅ　ｂｉｇ　ｉｄｅａ，"TCC_NEWLINE
-"ａｔｔａｃｋｉｎｇ　ｌｉｔｔｌｅ　ｏｌｄ　ｍｅ？"TCC_NEWLINE
-"Ｙｏｕ　ｎａｓｔｙ　ｂｒｕｔｅｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ｇｒａｃｉｏｕｓ　ａｎｄ"TCC_NEWLINE
-"ｂｏｗ　ｏｕｔ．　Ｂｕｔ　Ｉ’ｍ　ｔｅｌｌｉｎｇ　ｙｏｕ，"TCC_NEWLINE
-"Ｌｏｒｄ　Ｅｌｉｗｏｏｄ　ｗｏｎ’ｔ　ｂｅ　ａｓ　ｎｉｃｅ！"
+"Ｙｏｗｃｈ！　Ｗｈａｔ’ｓ　ｔｈｅ　ｂｉｇ　ｉｄｅａ，ａｔー"TCC_NEWLINE"ｔａｃｋｉｎｇ　ｌｉｔｔｌｅ　ｏｌｄ　ｍｅ？Ｙｏｕ　ｎａｓー"TCC_NEWLINE"ｔｙ　ｂｒｕｔｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ｇｒａｃｉｏｕｓ　ａｎｄｂー"TCC_NEWLINE"ｏｗ　ｏｕｔ．　Ｂｕｔ　Ｉ’ｍ　ｔｅｌｌｉｎｇ　ｙｏｕ，Ｌー"TCC_NEWLINE"ｏｒｄ　Ｅｌｉｗｏｏｄ　ｗｏｎ’ｔ　ｂｅ　ａｓ　ｎｉｃｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

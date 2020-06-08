@@ -1,133 +1,91 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S4071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａ　ｒｅｐｏｒｔ　ｊｕｓｔ　ｃａｍｅ　ｉｎ．　Ｉｔ　ｄｏｅｓ"TCC_NEWLINE"ｎ’ｔ"TCC_NEWLINE
-"ｌｏｏｋ　ｇｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｕｎｉｄｅｎｔｉｆｉｅｄ　ｅｎｅｍｉｅｓ　ｈａｖｅ　ｂｅｅｎ"TCC_NEWLINE
-"ｐｏｕｒｉｎｇ　ｉｎｔｏ　ｅｖｅｒｙ　ｗｏｒｌｄ　ｗｅ　ｄｅ"TCC_NEWLINE"ｆｅｎｄ．"TCC_NEWLINE
-"Ｏｕｒ　ｆｏｒｃｅｓ　ａｒｅ　ｂｅｉｎｇ　ｏｖｅｒｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ａｓ　ｏｕｒ　ｆｏｅｓ　ｆａｌｌ，　ｍｏｒｅ　ａｒ"TCC_NEWLINE"ｒｉｖｅ"TCC_NEWLINE
-"ｔｏ　ｔａｋｅ　ｔｈｅｉｒ　ｐｌａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｒｅｐｏｒｔ　ｊｕｓｔ　ｃａｍｅ　ｉｎ．　Ｉｔ　ｄｏｅー"TCC_NEWLINE"ｓｎ’ｔｌｏｏｋ　ｇｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｉｄｅｎｔｉｆｉｅｄ　ｅｎｅｍｉｅｓ　ｈａｖｅ　ｂｅｅー"TCC_NEWLINE"ｎｐｏｕｒｉｎｇ　ｉｎｔｏ　ｅｖｅｒｙ　ｗｏｒｌｄ　ｗｅ　"TCC_NEWLINE"ｄｅｆｅｎｄ．Ｏｕｒ　ｆｏｒｃｅｓ　ａｒｅ　ｂｅｉｎｇ　ｏー"TCC_NEWLINE"ｖｅｒｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ａｓ　ｏｕｒ　ｆｏｅｓ　ｆａｌｌ，　ｍｏｒｅ　ａー"TCC_NEWLINE"ｒｒｉｖｅｔｏ　ｔａｋｅ　ｔｈｅｉｒ　ｐｌａｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅｎ　ｉｔ　ｉｓ　ａｓ　ｗｅ　ｓｕｓｐｅｃｔｅｄ．　Ｗｅ"TCC_NEWLINE"　ｍｕｓｔ"TCC_NEWLINE
-"ｆｉｎｄ　ａｎｄ　ｅｒａｄｉｃａｔｅ　ｔｈｅ　ｎｉｇｈｔｍａ"TCC_NEWLINE"ｒｅｓ　ａｔ"TCC_NEWLINE
-"ｔｈｅｉｒ　ｓｏｕｒｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｉｔ　ｉｓ　ａｓ　ｗｅ　ｓｕｓｐｅｃｔｅｄ．　Ｗー"TCC_NEWLINE"ｅ　ｍｕｓｔｆｉｎｄ　ａｎｄ　ｅｒａｄｉｃａｔｅ　ｔｈｅ　"TCC_NEWLINE"ｎｉｇｈｔｍａｒｅｓ　ａｔｔｈｅｉｒ　ｓｏｕｒｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_PEONY
-"Ｙｅｓ．　Ｉｆ　ｗｅ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ　ａｎ"TCC_NEWLINE"ｄ"TCC_NEWLINE
-"ｒｅｓｃｕｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ，　ｔｈｉｎｇ"TCC_NEWLINE"ｓ"TCC_NEWLINE
-"ｓｈｏｕｌｄ　ａｌｌ　ｃｈａｎｇｅ　ｂａｃｋ　ｔｏ　ｎｏｒｍ"TCC_NEWLINE"ａｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｉｆ　ｗｅ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ　ａー"TCC_NEWLINE"ｎｄｒｅｓｃｕｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ，　ｔｈー"TCC_NEWLINE"ｉｎｇｓｓｈｏｕｌｄ　ａｌｌ　ｃｈａｎｇｅ　ｂａｃｋ　ｔｏ"TCC_NEWLINE"　ｎｏｒｍａｌ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ａｌｌ　ｒｉｇｈｔ．　Ｔｈｅｎ　ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｔｏ　ｗａｓｔｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ．　Ｔｈｅｎ　ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉー"TCC_NEWLINE"ｍｅｔｏ　ｗａｓｔｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"＊ｓｎｉｆｆ＊　．．．Ｔｈｅ　ｓｃｅｎｔ　ｏｆ　ｄａｙｄｒｅ"TCC_NEWLINE"ａｍｓ"TCC_NEWLINE
-"ｆｌｏａｔｓ　ｏｎ　ｔｈｅ　ａｉｒ．　Ｍｉｒａｂｉｌｉｓ　ｍ"TCC_NEWLINE"ｕｓｔ　ｂｅ"TCC_NEWLINE
-"ｃｌｏｓｅ　ｂｙ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｎｉｆｆ＊　．．．Ｔｈｅ　ｓｃｅｎｔ　ｏｆ　ｄａｙｄｒー"TCC_NEWLINE"ｅａｍｓｆｌｏａｔｓ　ｏｎ　ｔｈｅ　ａｉｒ．　Ｍｉｒａｂｉー"TCC_NEWLINE"ｌｉｓ　ｍｕｓｔ　ｂｅｃｌｏｓｅ　ｂｙ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｅｒｅ　ｃｏｕｌｄ　ｓｈｅ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "．．．Ｈ－ｈｕｈ？　Ｗｈ－ｗｈａｔ　ｗａｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｍ．　Ｄｉｄ　ｅｖｅｒｙｔｈｉｎｇ　ａｒｏｕｎｄ　ｕｓ　ｓ"TCC_NEWLINE"ｅｅｍ"TCC_NEWLINE
-"ｔｏ　ｇｒｏｗ　ｂｌｕｒｒｙ　ｆｏｒ　ｙｏｕ　ａｓ　ｗｅｌｌ"TCC_NEWLINE"？　Ｗａｓ"TCC_NEWLINE
-"ｉｔ　ｓｏｍｅ　ｓｏｒｔ　ｏｆ　ｉｌｌｕｓｉｏｎ，　ｐｅｒｈ"TCC_NEWLINE"ａｐｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍ．　Ｄｉｄ　ｅｖｅｒｙｔｈｉｎｇ　ａｒｏｕｎｄ　ｕｓ　"TCC_NEWLINE"ｓｅｅｍｔｏ　ｇｒｏｗ　ｂｌｕｒｒｙ　ｆｏｒ　ｙｏｕ　ａｓ"TCC_NEWLINE"　ｗｅｌｌ？　Ｗａｓｉｔ　ｓｏｍｅ　ｓｏｒｔ　ｏｆ　ｉｌｌー"TCC_NEWLINE"ｕｓｉｏｎ，　ｐｅｒｈａｐｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｏｈ！　Ｔｈａｔ　ｉｓ　ｐｒｏｂａｂｌｙ　Ｍｉｒａｂｉｌｉｓ"TCC_NEWLINE"　ｔａｋｉｎｇ"TCC_NEWLINE
-"ａ　ｎａｐ　ｓｏｍｅｗｈｅｒｅ　ｎｅａｒｂｙ！"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ．．．ｗｈｅｒｅ？　Ｈｍｍｍ．．．　Ｌｅｔ’ｓ　ｔｒｙ"TCC_NEWLINE
-"ｏｖｅｒｒｒｒｒｒ．．．ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ！　Ｔｈａｔ　ｉｓ　ｐｒｏｂａｂｌｙ　Ｍｉｒａｂｉｌｉー"TCC_NEWLINE"ｓ　ｔａｋｉｎｇａ　ｎａｐ　ｓｏｍｅｗｈｅｒｅ　ｎｅａｒｂー"TCC_NEWLINE"ｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｗｈｅｒｅ？　Ｈｍｍｍ．．．　Ｌｅｔ’ｓ　ｔｒー"TCC_NEWLINE"ｙｏｖｅｒｒｒｒｒｒ．．．ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_LUPINUS
-"Ｚｚｚ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ＊　Ｍｍ－ｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｚｚｚ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ＊　Ｍｍ－ｍｍｍ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｂ－ｂｗａｈｈ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａｈ，　Ｍｉｒａｂｉｌｉｓ！　Ｉ　ｆｏｕｎｄ　ｈｅｒ！　．．"TCC_NEWLINE"．Ｏｈ，"TCC_NEWLINE
-"Ｉ’ｍ　ｓｏ　ｓｏｒｒｙｄｉｄ　Ｉ　ｓｔｅｐ　ｏｎ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｈｅｙ！　Ｗａｋｅ　ｕｐ，　ｓｌｅｅｐｙｈｅａｄ！"TCC_NEWLINE
-"Ｈｅｌｌｏｏｏｏ．．．　Ｉｔ’ｓ　ｍｅ，　Ｐｅｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ，　Ｍｉｒａｂｉｌｉｓ！　Ｉ　ｆｏｕｎｄ　ｈｅｒ！　．"TCC_NEWLINE"．．Ｏｈ，Ｉ’ｍ　ｓｏ　ｓｏｒｒｙｄｉｄ　Ｉ　ｓｔｅｐ　ｏー"TCC_NEWLINE"ｎ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｈｅｙ！　Ｗａｋｅ　ｕｐ，　ｓｌｅｅｐｙｈｅａｄ！Ｈー"TCC_NEWLINE"ｅｌｌｏｏｏｏ．．．　Ｉｔ’ｓ　ｍｅ，　Ｐｅｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｍｍ．．．　Ｐｅｏｎｙ．．．？"TCC_NEWLINE TCC_PUSH_A
 "＊ｙｙｙａａａｗｗｗｎｎｎ＊"TCC_NEWLINE TCC_PUSH_A
 "Ｇｏｏｄ　ｍｏｒｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｇｏｏｄ　ｍｏｒｎｉｎｇ！　Ｍｉｒａｂｉｌｉｓ，　ｗｅ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
-"ａ　ｆａｖｏｒ　ｔｏ　ａｓｋ　ｏｆ　ｙｏｕ．．．　Ｗｅ　ｃａ"TCC_NEWLINE"ｍｅ"TCC_NEWLINE
-"ｂｅｃａｕｓｅ　ｗｅ　ｎｅｅｄ　ｙｏｕｒ　ｈｅｌｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ　ｍｏｒｎｉｎｇ！　Ｍｉｒａｂｉｌｉｓ，　ｗｅ　ｈー"TCC_NEWLINE"ａｖｅａ　ｆａｖｏｒ　ｔｏ　ａｓｋ　ｏｆ　ｙｏｕ．．．　Ｗー"TCC_NEWLINE"ｅ　ｃａｍｅｂｅｃａｕｓｅ　ｗｅ　ｎｅｅｄ　ｙｏｕｒ　ｈｅー"TCC_NEWLINE"ｌｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｚｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｏｈ　ｎｏ．．．　Ｍｉｒａｂｉｌｉｓ！　Ｄｏｎ’ｔ　ｇｏ　ｂ"TCC_NEWLINE"ａｃｋ"TCC_NEWLINE
-"ｔｏ　ｓｌｅｅｐ！　Ｗａｋｅ　ｕｐ，　ｗａｋｅ　ｕｐ，"TCC_NEWLINE
-"ｗａｋｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｎｏ．．．　Ｍｉｒａｂｉｌｉｓ！　Ｄｏｎ’ｔ　ｇｏ　"TCC_NEWLINE"ｂａｃｋｔｏ　ｓｌｅｅｐ！　Ｗａｋｅ　ｕｐ，　ｗａｋｅ　ｕー"TCC_NEWLINE"ｐ，ｗａｋｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "＊ｙｙｙａａａｗｗｗｎｎｎ＊"TCC_NEWLINE TCC_PUSH_A
 "Ｇｏｏｄ　ｍｏｒｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｌｉｓｔｅｎ！　Ｎｉｇｈｔｍａｒｅｓ　ａｒｅ　ｆｌｏｏｄｉｎ"TCC_NEWLINE"ｇ"TCC_NEWLINE
-"ｉｎｔｏ　ｔｈｉｓ　ｗｏｒｌｄ．　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒ"TCC_NEWLINE"ｅｙｒ"TCC_NEWLINE
-"ｈａｓ　ｂｅｅｎ　ｔａｋｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｍｕｓｔ　ａｌｌ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ"TCC_NEWLINE
-"ｔｏ　ｒｅｓｃｕｅ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｓｔｅｎ！　Ｎｉｇｈｔｍａｒｅｓ　ａｒｅ　ｆｌｏｏｄｉー"TCC_NEWLINE"ｎｇｉｎｔｏ　ｔｈｉｓ　ｗｏｒｌｄ．　Ｄｒｅａｍ－Ｋｉｎｇ"TCC_NEWLINE"　Ｆｒｅｙｒｈａｓ　ｂｅｅｎ　ｔａｋｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ａｌｌ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒｔー"TCC_NEWLINE"ｏ　ｒｅｓｃｕｅ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ？　Ｔａｋｅｎ？　Ｍｍｍ．．"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｔｈａｔ’ｓ　ｔｏｏ　ｂａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ？　Ｔａｋｅｎ？　Ｍｍｍ．"TCC_NEWLINE"．．Ｔｈａｔ’ｓ　ｔｏｏ　ｂａｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "＊ｙｙｙａａａｗｗｗｎｎｎ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｈｅｙ！　Ｗａｋｅ　ｕｐ！　Ｗｅ　ｎｅｅｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｃａｎ　ｏｎｌｙ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ"TCC_NEWLINE
-"ｗｉｔｈ　ｙｏｕｒ　ｈｅｌｐ．．．　Ｗｅ　ｎｅｅｄ　ｙｏｕｒ"TCC_NEWLINE
-"ｄａｙｄｒｅａｍ，　Ｍｉｒａｂｉｌｉｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｏｎｌｙ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒー"TCC_NEWLINE"ｗｉｔｈ　ｙｏｕｒ　ｈｅｌｐ．．．　Ｗｅ　ｎｅｅｄ　ｙｏｕー"TCC_NEWLINE"ｒｄａｙｄｒｅａｍ，　Ｍｉｒａｂｉｌｉｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE
-"Ｓｏ，　ｔｈａｔ’ｓ　ｙｏｕｒ　ｐｌａｎ，　ｔｈｅｎ．　Ｉｎ"TCC_NEWLINE"　ｔｈａｔ"TCC_NEWLINE
-"ｃａｓｅ，　Ｉ　ｗｉｌｌ　ｈａｖｅ　ｔｏ　ｓｔｏｐ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｔｈａｔ’ｓ　ｙｏｕｒ　ｐｌａｎ，　ｔｈｅｎ．　Ｉー"TCC_NEWLINE"ｎ　ｔｈａｔｃａｓｅ，　Ｉ　ｗｉｌｌ　ｈａｖｅ　ｔｏ　ｓｔー"TCC_NEWLINE"ｏｐ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｙ－ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4071_EN] = TCC_OPEN_LEFT
-"Ｆｅｅｄ，　ｍｙ　ｎｉｇｈｔｍａｒｅｓ．"TCC_NEWLINE
-"Ｆｅａｓｔ　ｏｎ　ｔｈｅｉｒ　ｆｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｅｅｄ，　ｍｙ　ｎｉｇｈｔｍａｒｅｓ．Ｆｅａｓｔ　ｏｎ　"TCC_NEWLINE"ｔｈｅｉｒ　ｆｅａｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｏｈ　ｎｏ．．．　Ｉ－ｉｔ　ｃａｎ’ｔ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_HEL
 "Ｆｏｏｌｉｓｈ　ｍｏｒｔａｌｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｔｈｏｕｇｈｔ　ｙｏｕ　ｃｏｕｌｄ　ｅｓｃａｐｅ"TCC_NEWLINE
-"ｄｅａｔｈ’ｓ　ｂａｌａｎｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｔｈｏｕｇｈｔ　ｙｏｕ　ｃｏｕｌｄ　ｅｓｃａｐｅｄー"TCC_NEWLINE"ｅａｔｈ’ｓ　ｂａｌａｎｃｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4071_EN] = TCC_OPEN_LEFT
-"Ａｓ　ｌｏｎｇ　ａｓ　ｐｅｏｐｌｅ　ｄｒｅａｍ，　ｔｈｅｙ"TCC_NEWLINE
-"ｃｏｎｔｉｎｕｅ　ｔｏ　ａｐｐｅａｒ　ｂｅｆｏｒｅ　ｍｅ．．"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｔｈａｔ　ｉｓ　ｍｙ　ｎｉｇｈｔｍａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｐｅｏｐｌｅ　ｄｒｅａｍ，　ｔｈｅｙー"TCC_NEWLINE"ｃｏｎｔｉｎｕｅ　ｔｏ　ａｐｐｅａｒ　ｂｅｆｏｒｅ　ｍｅ．"TCC_NEWLINE"．．Ｔｈａｔ　ｉｓ　ｍｙ　ｎｉｇｈｔｍａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｍｙ　ｎｉｇｈｔｍａｒｅ　ｎｅｖｅｒ　ｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
-"Ｓｏ，　Ｍｉｒａｂｉｌｉｓ，　ｃａｎ　ｙｏｕ　ｐｌｅａｓｅ　"TCC_NEWLINE"ｔａｋｅ"TCC_NEWLINE
-"ｕｓ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　Ｍｉｒａｂｉｌｉｓ，　ｃａｎ　ｙｏｕ　ｐｌｅａｓｅ"TCC_NEWLINE"　ｔａｋｅｕｓ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LUPINUS
 "Ｕｍｍ．．．　Ｉｔ’ｓ　ｏｖｅｒ　ｔｈａｔ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｔｈｅ　ｓｅｔｔｉｎｇ　ｓｕｎ　ｓｉｎｋｓ．．．ａｔ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"ｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ．．．　Ｙｏｕ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅ　ｖｅｒｙ"TCC_NEWLINE
-"ｃｌｏｓｅ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｔｈｅ　ｓｅｔｔｉｎｇ　ｓｕｎ　ｓｉｎｋｓ．．．ａｔ"TCC_NEWLINE"　ｔｈｅｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ．．．　Ｙｏｕ　"TCC_NEWLINE"ｗｉｌｌ　ｂｅ　ｖｅｒｙｃｌｏｓｅ　ｔｏ　Ｄｋｋｌｆｈｅｉー"TCC_NEWLINE"ｍｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｆｒｏｍ　ｔｈｅｒｅ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｉｒａｂｉｌｉｓ！　Ｎｏ　ｓｌｅｅｐｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｍｒｒｇｈｈ．．．　Ｂｕｔ　ｔｈｅ　ｍｉｓｔ　ｉｎ　ｔｈｉｓ"TCC_NEWLINE"　ｆｏｒｅｓｔ"TCC_NEWLINE
-"ｉｓ　ｓｏ　ｎｉｃｅ　ａｎｄ　ｃｏｚｙ．．．　Ｓｏ　ｐｅｒｆ"TCC_NEWLINE"ｅｃｔ"TCC_NEWLINE
-"ｆｏｒ　ｓｌｅｅｐｉｎｇ　ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｒｒｇｈｈ．．．　Ｂｕｔ　ｔｈｅ　ｍｉｓｔ　ｉｎ　ｔｈｉー"TCC_NEWLINE"ｓ　ｆｏｒｅｓｔｉｓ　ｓｏ　ｎｉｃｅ　ａｎｄ　ｃｏｚｙ．．"TCC_NEWLINE"．　Ｓｏ　ｐｅｒｆｅｃｔｆｏｒ　ｓｌｅｅｐｉｎｇ　ｉｎ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ！　Ｉｆ　ｗｅ　ｋｅｅｐ　ｆｏ"TCC_NEWLINE"ｏｌｉｎｇ"TCC_NEWLINE
-"ａｒｏｕｎｄ　ｈｅｒｅ，　ｔｈｉｓ　ｗｏｎ’ｔ　ｓｔａｙ　ａ"TCC_NEWLINE"　ｐｌａｃｅ"TCC_NEWLINE
-"ｏｆ　ｃｏｍｆｏｒｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ！　Ｉｆ　ｗｅ　ｋｅｅｐ　ｆー"TCC_NEWLINE"ｏｏｌｉｎｇａｒｏｕｎｄ　ｈｅｒｅ，　ｔｈｉｓ　ｗｏｎ’ｔ"TCC_NEWLINE"　ｓｔａｙ　ａ　ｐｌａｃｅｏｆ　ｃｏｍｆｏｒｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｍｍ？　Ｂ－ｂｅｃａｕｓｅ　ｔｈｅ　ｄｋｋｌｆａｒ"TCC_NEWLINE
-"ｗｉｌｌ　ａｔｔａｃｋ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ？　Ｂ－ｂｅｃａｕｓｅ　ｔｈｅ　ｄｋｋｌｆａｒｗｉｌー"TCC_NEWLINE"ｌ　ａｔｔａｃｋ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｎｏ．　Ｂｅｃａｕｓｅ　Ｉ　ｗｉｌｌ　ｂｅ　ｆｏｒｃｅｄ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
-"ｄｏ　ｓｏｍｅｔｈｉｎｇ．．．ｄｒａｓｔｉｃ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．　Ｂｅｃａｕｓｅ　Ｉ　ｗｉｌｌ　ｂｅ　ｆｏｒｃｅｄ　"TCC_NEWLINE"ｔｏｄｏ　ｓｏｍｅｔｈｉｎｇ．．．ｄｒａｓｔｉｃ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｅｙｙｙ．．．　Ｔｈａｔ’ｓ　ｓｃａｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｇｅｔ　ｉｔ　ｔｏｇｅｔｈｅｒ．　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　"TCC_NEWLINE"ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｅｔ　ｉｔ　ｔｏｇｅｔｈｅｒ．　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ"TCC_NEWLINE"　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"．．．Ｙｏｕ，　Ｉ　ａｍ　ｓｃａｒｅｄ　ｏｆ．．．　Ｌｅｔ’"TCC_NEWLINE"ｓ　ｂｅ"TCC_NEWLINE
-"ｏｎ　ｏｕｒ　ｗａｙ　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｙｏｕ，　Ｉ　ａｍ　ｓｃａｒｅｄ　ｏｆ．．．　Ｌｅｔ"TCC_NEWLINE"’ｓ　ｂｅｏｎ　ｏｕｒ　ｗａｙ　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

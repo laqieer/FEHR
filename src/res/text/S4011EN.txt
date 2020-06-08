@@ -3,73 +3,43 @@
 [MID_SCENARIO_OPENING_S4011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｈａｔ？！　Ａ．．．ｓｌｅｅｐｉｎｇ　ｓｉｃｋｎｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_HENRIETTE
-"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｗｅ’ｖｅ　ｒｅｃｅｉｖｅｄ　ｒ"TCC_NEWLINE"ｅｐｏｒｔｓ"TCC_NEWLINE
-"ｆｒｏｍ　Ａｓｋｒ’ｓ　ｂｏｒｄｅｒ　ｖｉｌｌａｇｅｓ，　ｉ"TCC_NEWLINE"ｎ　ｔｈｅ"TCC_NEWLINE
-"ｗｈｅａｔ　ｃｏｕｎｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｖｉｌｌａｇｅｓ　ｉｎ　ｔｈａｔ　ｒｅｇｉｏｎ　ａｒ"TCC_NEWLINE"ｅ　ｋｎｏｗｎ"TCC_NEWLINE
-"ｆｏｒ　ｔｈｅｉｒ　ｌｉｖｅｌｉｎｅｓｓ，　ｂｕｔ　ａ　ｐａ"TCC_NEWLINE"ｔｒｏｌ　ｉｎ　ｔｈｅ"TCC_NEWLINE
-"ａｒｅａ　ｎｏｔｉｃｅｄ　ａｎ　ｅｅｒｉｅ　ｑｕｉｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｖｉｌｌａｇｅｒｓ　ｈａｄ　ｎｏｔ　ｇｏｎｅ．．．"TCC_NEWLINE
-"Ｅｖｅｒｙｏｎｅ　ｗａｓ　ａｓｌｅｅｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｔｈｉｎｇ　ｃｏｕｌｄ　ｓｔｉｒ　ｔｈｅｍ　ｆｒｏｍ　ｔ"TCC_NEWLINE"ｈｅｉｒ"TCC_NEWLINE
-"ｓｌｕｍｂｅｒ．　Ｎｅｉｔｈｅｒ　ｃａｌｌｉｎｇ　ｏｕｔ　ｔ"TCC_NEWLINE"ｏ　ｔｈｅｍ"TCC_NEWLINE
-"ｎｏｒ　ｓｈａｋｉｎｇ　ｔｈｅｍ　ｂｙ　ｔｈｅ　ｓｈｏｕｌｄ"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｗｅ’ｖｅ　ｒｅｃｅｉｖｅｄ　"TCC_NEWLINE"ｒｅｐｏｒｔｓｆｒｏｍ　Ａｓｋｒ’ｓ　ｂｏｒｄｅｒ　ｖｉｌー"TCC_NEWLINE"ｌａｇｅｓ，　ｉｎ　ｔｈｅｗｈｅａｔ　ｃｏｕｎｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｖｉｌｌａｇｅｓ　ｉｎ　ｔｈａｔ　ｒｅｇｉｏｎ　ａー"TCC_NEWLINE"ｒｅ　ｋｎｏｗｎｆｏｒ　ｔｈｅｉｒ　ｌｉｖｅｌｉｎｅｓｓ，"TCC_NEWLINE"　ｂｕｔ　ａ　ｐａｔｒｏｌ　ｉｎ　ｔｈｅａｒｅａ　ｎｏｔｉー"TCC_NEWLINE"ｃｅｄ　ａｎ　ｅｅｒｉｅ　ｑｕｉｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｖｉｌｌａｇｅｒｓ　ｈａｄ　ｎｏｔ　ｇｏｎｅ．．．"TCC_NEWLINE"Ｅｖｅｒｙｏｎｅ　ｗａｓ　ａｓｌｅｅｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔｈｉｎｇ　ｃｏｕｌｄ　ｓｔｉｒ　ｔｈｅｍ　ｆｒｏｍ　"TCC_NEWLINE"ｔｈｅｉｒｓｌｕｍｂｅｒ．　Ｎｅｉｔｈｅｒ　ｃａｌｌｉｎｇ"TCC_NEWLINE"　ｏｕｔ　ｔｏ　ｔｈｅｍｎｏｒ　ｓｈａｋｉｎｇ　ｔｈｅｍ　"TCC_NEWLINE"ｂｙ　ｔｈｅ　ｓｈｏｕｌｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｄａｙ　ａｎｄ　ｎｉｇｈｔ，　ｔｈｅｙ　ｓｌｅｅｐ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｂｕｔ　ｔｈｅｙ　ａｒｅ．．．ｓｔｉｌｌ　ａｌｉｖｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ．　Ｂｕｔ　ｔｈｅｙ　ｓｅｅｍ　ｔｏ　ｂｅ　ｓｕｆｆｅ"TCC_NEWLINE"ｒｉｎｇ．"TCC_NEWLINE
-"Ａｌｌ　ｓｔｒｕｇｇｌｅ　ａｇａｉｎｓｔ　ｕｎｓｅｅｎ　ｐｈ"TCC_NEWLINE"ａｎｔｏｍｓ，"TCC_NEWLINE
-"ａｓ　ｉｆ　ｔｒａｐｐｅｄ　ｉｎ　ｅｎｄｌｅｓｓ　ｎｉｇｈｔ"TCC_NEWLINE"ｍａｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｕｒ　ｓｏｌｄｉｅｒｓ　ａｎｄ　ｈｅａｌｅｒｓ　ａｒｅ　ｄ"TCC_NEWLINE"ｏｉｎｇ"TCC_NEWLINE
-"ａｌｌ　ｔｈｅｙ　ｃａｎ，　ｂｕｔ．．．ｔｈｅｉｒ　ｅｆｆｏ"TCC_NEWLINE"ｒｔｓ　ｈａｖｅ"TCC_NEWLINE
-"ｓｏ　ｆａｒ　ａｗｏｋｅｎ　ｎｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｂｕｔ　ｔｈｅｙ　ｓｅｅｍ　ｔｏ　ｂｅ　ｓｕｆｆー"TCC_NEWLINE"ｅｒｉｎｇ．Ａｌｌ　ｓｔｒｕｇｇｌｅ　ａｇａｉｎｓｔ　ｕｎー"TCC_NEWLINE"ｓｅｅｎ　ｐｈａｎｔｏｍｓ，ａｓ　ｉｆ　ｔｒａｐｐｅｄ　ｉー"TCC_NEWLINE"ｎ　ｅｎｄｌｅｓｓ　ｎｉｇｈｔｍａｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｓｏｌｄｉｅｒｓ　ａｎｄ　ｈｅａｌｅｒｓ　ａｒｅ　"TCC_NEWLINE"ｄｏｉｎｇａｌｌ　ｔｈｅｙ　ｃａｎ，　ｂｕｔ．．．ｔｈｅｉー"TCC_NEWLINE"ｒ　ｅｆｆｏｒｔｓ　ｈａｖｅｓｏ　ｆａｒ　ａｗｏｋｅｎ　ｎー"TCC_NEWLINE"ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉ　ｓｅｅ．．．　Ｐｌｅａｓｅ，　Ｙｏｕｒ　Ｍａｊｅｓｔｙ，"TCC_NEWLINE"　ａｌｌｏｗ"TCC_NEWLINE
-"ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｔｏ　ｔａｋｅ　ｔｈ"TCC_NEWLINE"ｉｓ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｃａｎ　ｒｅｓｏｌｖｅ　ｔｈｅ　ｉｓｓｕｅ　ｉｎ　ｎｏ"TCC_NEWLINE"　ｔｉｍｅ！"TCC_NEWLINE
-"Ｌｅｔ’ｓ　ｇｅｔ　ｒｅａｄｙ　ｔｏ　ｇｏ，　ｅｖｅｒｙｏｎ"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ．．．　Ｐｌｅａｓｅ，　Ｙｏｕｒ　Ｍａｊｅｓｔｙ"TCC_NEWLINE"，　ａｌｌｏｗｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｔｏ"TCC_NEWLINE"　ｔａｋｅ　ｔｈｉｓ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｒｅｓｏｌｖｅ　ｔｈｅ　ｉｓｓｕｅ　ｉｎ　ｎー"TCC_NEWLINE"ｏ　ｔｉｍｅ！Ｌｅｔ’ｓ　ｇｅｔ　ｒｅａｄｙ　ｔｏ　ｇｏ，"TCC_NEWLINE"　ｅｖｅｒｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｒｉｇｈｔ！　Ｔｈｅｒｅ　ｗｉｌｌ　ｂｅ　ｓｏｍｅ　ｇｏｏｄ"TCC_NEWLINE"　ｎｅｗｓ"TCC_NEWLINE
-"ｓｏｏｎ，　Ｍｏｔｈｅｒ．　Ｗｅ　ｗｉｌｌ　ｍａｋｅ　ｓｕｒ"TCC_NEWLINE"ｅ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ！　Ｔｈｅｒｅ　ｗｉｌｌ　ｂｅ　ｓｏｍｅ　ｇｏｏー"TCC_NEWLINE"ｄ　ｎｅｗｓｓｏｏｎ，　Ｍｏｔｈｅｒ．　Ｗｅ　ｗｉｌｌ　ｍー"TCC_NEWLINE"ａｋｅ　ｓｕｒｅ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｌｆｏｎｓｅ，　ｗａｉｔ．　Ｔａｋｅ　ｔｈｉｓ．"TCC_NEWLINE
-"Ｙｏｕ　ｍａｙ　ｎｅｅｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　ｗａｉｔ．　Ｔａｋｅ　ｔｈｉｓ．Ｙｏｕ　"TCC_NEWLINE"ｍａｙ　ｎｅｅｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｈａｔ　ｉｓ　ｉｔ？　．．．Ａｎ　ｉｎｃｅｎｓｅ　ｂｕｒｎ"TCC_NEWLINE"ｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｉｓ　ｉｔ？　．．．Ａｎ　ｉｎｃｅｎｓｅ　ｂｕｒー"TCC_NEWLINE"ｎｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈａｔ’ｓ　ｒｉｇｈｔｔｈｅ　Ｒｅｄｏｌｅｎｔ　Ｃｅｎｓｅ"TCC_NEWLINE"ｒ．"TCC_NEWLINE
-"Ｉｔ　ｉｓ　ａ　ｌｅｇｅｎｄａｒｙ　ｔｒｅａｓｕｒｅ　ｌｏｎ"TCC_NEWLINE"ｇ　ｈｅｌｄ"TCC_NEWLINE
-"ｂｙ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈｅ　ｓｌｅｅｐ　ｓｉｃｋｎｅｓｓ　ｉｓ　ｃａｕｓｅ"TCC_NEWLINE"ｄ　ｂｙ"TCC_NEWLINE
-"ｓｏｍｅ　ｐｏｉｓｏｎ　ｉｎ　ｔｈｅ　ａｉｒ，　ｔｈｅ　ｃｅ"TCC_NEWLINE"ｎｓｅｒ’ｓ"TCC_NEWLINE
-"ｓｗｅｅｔ　ｐｅｒｆｕｍｅ　ｗｉｌｌ　ｋｅｅｐ　ｙｏｕ　ｓａ"TCC_NEWLINE"ｆｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｕｓｅ　ｉｔ　ｔｏ　ｐｒｏｔｅｃｔ　ｙｏｕｒｓｅｌｖｅｓ．"TCC_NEWLINE
-"Ａｎｄ　ｂｅ　ｍｉｎｄｆｕｌ　ｎｏｔ　ｔｏ　ｌｏｓｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔｔｈｅ　Ｒｅｄｏｌｅｎｔ　Ｃｅｎｓー"TCC_NEWLINE"ｅｒ．Ｉｔ　ｉｓ　ａ　ｌｅｇｅｎｄａｒｙ　ｔｒｅａｓｕｒｅ"TCC_NEWLINE"　ｌｏｎｇ　ｈｅｌｄｂｙ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅ　ｓｌｅｅｐ　ｓｉｃｋｎｅｓｓ　ｉｓ　ｃａｕｓー"TCC_NEWLINE"ｅｄ　ｂｙｓｏｍｅ　ｐｏｉｓｏｎ　ｉｎ　ｔｈｅ　ａｉｒ，　"TCC_NEWLINE"ｔｈｅ　ｃｅｎｓｅｒ’ｓｓｗｅｅｔ　ｐｅｒｆｕｍｅ　ｗｉｌー"TCC_NEWLINE"ｌ　ｋｅｅｐ　ｙｏｕ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｓｅ　ｉｔ　ｔｏ　ｐｒｏｔｅｃｔ　ｙｏｕｒｓｅｌｖｅｓ．"TCC_NEWLINE"Ａｎｄ　ｂｅ　ｍｉｎｄｆｕｌ　ｎｏｔ　ｔｏ　ｌｏｓｅ　ｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈａｎｋ　ｙｏｕ，　Ｍｏｔｈｅｒ．　Ｗｅ　ｗｉｌｌ　ｂｅ"TCC_NEWLINE
-"ｃａｒｅｆｕｌａｎｄ　ｗｉｌｌ　ｒｅｔｕｒｎ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ，　Ｍｏｔｈｅｒ．　Ｗｅ　ｗｉｌｌ　ｂｅー"TCC_NEWLINE"ｃａｒｅｆｕｌａｎｄ　ｗｉｌｌ　ｒｅｔｕｒｎ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
-"Ｏｈ，　ｈｅｌｌｏ．　Ｌｏｖｅｌｙ　ｗｅａｔｈｅｒ，　ｉｓｎ"TCC_NEWLINE"’ｔ　ｉｔ？"TCC_NEWLINE
-"Ｈｏｗ　ｈａｖｅ　ｙｏｕ　ｂｅｅｎ？　Ｗｅｌｌ，　Ｉ　ｈｏｐ"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｈｅｌｌｏ．　Ｌｏｖｅｌｙ　ｗｅａｔｈｅｒ，　ｉｓー"TCC_NEWLINE"ｎ’ｔ　ｉｔ？Ｈｏｗ　ｈａｖｅ　ｙｏｕ　ｂｅｅｎ？　Ｗｅｌー"TCC_NEWLINE"ｌ，　Ｉ　ｈｏｐｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｌｏｋｉ．．．　Ｉ　ｓｈｏｕｌｄ　ｈａｖｅ　ｇｕｅｓｓｅｄ．"TCC_NEWLINE
-"Ｗｈａｔ　ｈａｖｅ　ｙｏｕ　ｄｏｎｅ　ｔｈｉｓ　ｔｉｍｅ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｏｋｉ．．．　Ｉ　ｓｈｏｕｌｄ　ｈａｖｅ　ｇｕｅｓｓｅｄ"TCC_NEWLINE"．Ｗｈａｔ　ｈａｖｅ　ｙｏｕ　ｄｏｎｅ　ｔｈｉｓ　ｔｉｍｅ"TCC_NEWLINE"？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｅ？　Ｉ　ｈａｖｅｎ’ｔ　ｄｏｎｅ　ａ　ｔｈｉｎｇ．　Ｉｆ"TCC_NEWLINE"　ｙｏｕ"TCC_NEWLINE
-"ｗａｎｔ　ｓｏｍｅｏｎｅ　ｔｏ　ｂｌａｍｅ．．．ｗｅｌｌ．．"TCC_NEWLINE"．"TCC_NEWLINE
-"Ｉ　ｗｏｕｌｄｎ’ｔ　ｗａｎｔ　ｔｏ　ｓｐｏｉｌ　ｔｈｅ　ｓ"TCC_NEWLINE"ｕｒｐｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｅ？　Ｉ　ｈａｖｅｎ’ｔ　ｄｏｎｅ　ａ　ｔｈｉｎｇ．　Ｉー"TCC_NEWLINE"ｆ　ｙｏｕｗａｎｔ　ｓｏｍｅｏｎｅ　ｔｏ　ｂｌａｍｅ．．．"TCC_NEWLINE"ｗｅｌｌ．．．Ｉ　ｗｏｕｌｄｎ’ｔ　ｗａｎｔ　ｔｏ　ｓｐｏー"TCC_NEWLINE"ｉｌ　ｔｈｅ　ｓｕｒｐｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｓｈｅ’ｓ　ｇｏｎｅ．．．ａｇａｉｎ！　Ｗｅ’ｌｌ　ｎｅｖｅ"TCC_NEWLINE"ｒ　ｇｅｔ"TCC_NEWLINE
-"ｃｌｏｓｅ　ｅｎｏｕｇｈ　ｔｏ　ｃａｐｔｕｒｅ　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ’ｓ　ｇｏｎｅ．．．ａｇａｉｎ！　Ｗｅ’ｌｌ　ｎｅｖー"TCC_NEWLINE"ｅｒ　ｇｅｔｃｌｏｓｅ　ｅｎｏｕｇｈ　ｔｏ　ｃａｐｔｕｒｅ"TCC_NEWLINE"　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｈａｔ　ｗａｓ　ｉｔ　Ｌｏｋｉ　ｓａｉｄ？　Ｉｔ　ｓｅｅｍ"TCC_NEWLINE"ｓ"TCC_NEWLINE
-"ｓｈｅ　ｍａｙ　ｈａｖｅ　ｓｏｍｅ　ｉｎｓｉｇｈｔ　ｉｎｔｏ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
-"ｃａｕｓｅ　ｏｆ　ｔｈｅ　ｓｌｅｅｐｉｎｇ　ｓｉｃｋｎｅｓｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗａｓ　ｉｔ　Ｌｏｋｉ　ｓａｉｄ？　Ｉｔ　ｓｅｅー"TCC_NEWLINE"ｍｓｓｈｅ　ｍａｙ　ｈａｖｅ　ｓｏｍｅ　ｉｎｓｉｇｈｔ　ｉー"TCC_NEWLINE"ｎｔｏ　ｔｈｅｃａｕｓｅ　ｏｆ　ｔｈｅ　ｓｌｅｅｐｉｎｇ　"TCC_NEWLINE"ｓｉｃｋｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｔ　ｉｓ　ｐｏｓｓｉｂｌｅ　ｔｈａｔ　Ｌｏｋｉ　ｉｓ，　ｉ"TCC_NEWLINE"ｎ　ｆａｃｔ，"TCC_NEWLINE
-"ｂｅｈｉｎｄ　ｔｈｉｓ．　Ｌｙｉｎｇ　ｉｓ　ｗｅｌｌ　ｗｉｔ"TCC_NEWLINE"ｈｉｎ　ｈｅｒ"TCC_NEWLINE
-"ｐｏｗｅｒｓ．　Ｗｅ　ｍｕｓｔ　ｒｅｍａｉｎ　ｖｉｇｉｌａｎ"TCC_NEWLINE"ｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｐｏｓｓｉｂｌｅ　ｔｈａｔ　Ｌｏｋｉ　ｉｓ，　"TCC_NEWLINE"ｉｎ　ｆａｃｔ，ｂｅｈｉｎｄ　ｔｈｉｓ．　Ｌｙｉｎｇ　ｉｓ"TCC_NEWLINE"　ｗｅｌｌ　ｗｉｔｈｉｎ　ｈｅｒｐｏｗｅｒｓ．　Ｗｅ　ｍｕー"TCC_NEWLINE"ｓｔ　ｒｅｍａｉｎ　ｖｉｇｉｌａｎｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

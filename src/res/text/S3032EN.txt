@@ -1,9 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3032_EN] = TCC_OPEN_LEFT
-"Ｒａｖｅｎｓ，　ｍｅｓｓｅｎｇｅｒｓ　ｏｆ　ｔｈｅ　ｄｅａｄ"TCC_NEWLINE"？"TCC_NEWLINE
-"Ｈｕｍａｎｓ　ｄｏ　ｃｌｉｎｇ　ｔｏ　ｓｕｐｅｒｓｔｉｔｉｏ"TCC_NEWLINE"ｎｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｗｏｒｋｓ　ｗｅｌｌ　ｅｎｏｕｇｈ　ｆｏｒ　ｍｅ，"TCC_NEWLINE
-"ｔｈｏｕｇｈ，　ａｓ　ｔｈｅｉｒ　ｌｕｃｋ　ｈａｓ，　ｉｎｄ"TCC_NEWLINE"ｅｅｄ，"TCC_NEWLINE
-"ｒｕｎ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒａｖｅｎｓ，　ｍｅｓｓｅｎｇｅｒｓ　ｏｆ　ｔｈｅ　ｄｅａー"TCC_NEWLINE"ｄ？Ｈｕｍａｎｓ　ｄｏ　ｃｌｉｎｇ　ｔｏ　ｓｕｐｅｒｓｔｉー"TCC_NEWLINE"ｔｉｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｗｏｒｋｓ　ｗｅｌｌ　ｅｎｏｕｇｈ　ｆｏｒ　ｍｅ"TCC_NEWLINE"，ｔｈｏｕｇｈ，　ａｓ　ｔｈｅｉｒ　ｌｕｃｋ　ｈａｓ，　ｉー"TCC_NEWLINE"ｎｄｅｅｄ，ｒｕｎ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

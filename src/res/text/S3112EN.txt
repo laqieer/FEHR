@@ -1,6 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3112_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ．．．ｍｅｒｅｌｙ　ａ　ｔｒａｖｅｌｅｒ．"TCC_NEWLINE
-"Ｙｏｕ　ｍａｙ　ｃａｌｌ　ｍｅ　Ｓｉｒｉｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ．．．ｍｅｒｅｌｙ　ａ　ｔｒａｖｅｌｅｒ．Ｙｏｕ　"TCC_NEWLINE"ｍａｙ　ｃａｌｌ　ｍｅ　Ｓｉｒｉｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

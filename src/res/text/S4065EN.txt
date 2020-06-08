@@ -5,123 +5,79 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｖｅｒｏｎｉｃａ？　Ｙｏｕ’ｒｅ．．．ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｔ　ｈａｓ　ｂｅｅｎ　ｑｕｉｔｅ　ｓｏｍｅ　ｔｉｍｅ，"TCC_NEWLINE
-"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｈａｓ　ｂｅｅｎ　ｑｕｉｔｅ　ｓｏｍｅ　ｔｉｍｅ，Ｐー"TCC_NEWLINE"ｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｇｌａｄ　ｔｏ　ｆｉｎｄ　ｂｏｔｈ　ｏｆ　ｙｏｕ　"TCC_NEWLINE"ｓａｆｅ．．．"TCC_NEWLINE
-"Ｉ　ｗａｓ　ｗｏｒｒｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｇｌａｄ　ｔｏ　ｆｉｎｄ　ｂｏｔｈ　ｏｆ　ｙｏｕ"TCC_NEWLINE"　ｓａｆｅ．．．Ｉ　ｗａｓ　ｗｏｒｒｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ’ｍ　ｓｏｒｒｙ　ｉｆ　ｗｅ　ｃａｕｓｅｄ　ｙｏｕ　ｃｏｎ"TCC_NEWLINE"ｃｅｒｎ．．．"TCC_NEWLINE
-"Ｗｅ　ｈａｖｅ　ｎｏｔ　ｙｅｔ　ｒｅａｃｈｅｄ　ｏｕｒ　ｇｏ"TCC_NEWLINE"ａｌ，"TCC_NEWLINE
-"ｈｏｗｅｖｅｒ，　ａｎｄ　ｍｕｓｔ　ｌｅａｖｅ　ａｇａｉｎ　"TCC_NEWLINE"ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ　ｉｆ　ｗｅ　ｃａｕｓｅｄ　ｙｏｕ　ｃｏー"TCC_NEWLINE"ｎｃｅｒｎ．．．Ｗｅ　ｈａｖｅ　ｎｏｔ　ｙｅｔ　ｒｅａｃｈー"TCC_NEWLINE"ｅｄ　ｏｕｒ　ｇｏａｌ，ｈｏｗｅｖｅｒ，　ａｎｄ　ｍｕｓｔ"TCC_NEWLINE"　ｌｅａｖｅ　ａｇａｉｎ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｂｕｔ．．．ｙｏｕ　ｃａｎ’ｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｓｈｏｕｌｄ　ｃｏｍｅ　ａｌｏｎｇ　ｗｉｔｈ　ｕｓ，"TCC_NEWLINE
-"Ｖｅｒｏｎｉｃａ．　Ｉｔ　ｗｉｌｌ　ｂｅ　ｄａｎｇｅｒｏｕｓ"TCC_NEWLINE"，　ｂｕｔ．．．"TCC_NEWLINE
-"ａｔ　ｌｅａｓｔ　ｙｏｕ　ｗｏｕｌｄｎ’ｔ　ｂｅ　ｌｏｎｅｌ"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｃｏｍｅ　ａｌｏｎｇ　ｗｉｔｈ　ｕｓ"TCC_NEWLINE"，Ｖｅｒｏｎｉｃａ．　Ｉｔ　ｗｉｌｌ　ｂｅ　ｄａｎｇｅｒｏー"TCC_NEWLINE"ｕｓ，　ｂｕｔ．．．ａｔ　ｌｅａｓｔ　ｙｏｕ　ｗｏｕｌｄｎ"TCC_NEWLINE"’ｔ　ｂｅ　ｌｏｎｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｂｒｏｔｈｅｒ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ　Ｉ’ｌｌ　ｃｏｍｅ　ｗｉｔｈ　"TCC_NEWLINE"ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ　Ｉ’ｌｌ　ｃｏｍｅ　ｗｉｔｈ"TCC_NEWLINE"　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"．．．Ｉ’ｍ　ｓｏｒｒｙ，　Ｚａｃｈａｒｉａｓ，　ｂｕｔ　ｔ"TCC_NEWLINE"ｈｅｒｅ　ｉｓ"TCC_NEWLINE
-"ｓｏｍｅｔｈｉｎｇ　Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｙｏｕｒ　ｈｅ"TCC_NEWLINE"ｌｐ"TCC_NEWLINE
-"ｗｉｔｈ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ａ　ｆｒｉｅｎｄ　ｏｆ　ｍｉｎｅ　ｈａｓ　ｉｎｆｏｒｍｅｄ　"TCC_NEWLINE"ｍｅ"TCC_NEWLINE
-"ｔｈａｔ　ｔｈｉｓ　ｗｏｒｌｄ　ｉｓ　ｃｕｒｒｅｎｔｌｙ　ｕ"TCC_NEWLINE"ｎｄｅｒ"TCC_NEWLINE
-"ａｔｔａｃｋ　ｂｙ　ｎｉｇｈｔｍａｒｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ’ｍ　ｓｏｒｒｙ，　Ｚａｃｈａｒｉａｓ，　ｂｕｔ　"TCC_NEWLINE"ｔｈｅｒｅ　ｉｓｓｏｍｅｔｈｉｎｇ　Ｉ　ｗｏｕｌｄ　ｌｉｋー"TCC_NEWLINE"ｅ　ｙｏｕｒ　ｈｅｌｐｗｉｔｈ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｆｒｉｅｎｄ　ｏｆ　ｍｉｎｅ　ｈａｓ　ｉｎｆｏｒｍｅｄ"TCC_NEWLINE"　ｍｅｔｈａｔ　ｔｈｉｓ　ｗｏｒｌｄ　ｉｓ　ｃｕｒｒｅｎｔー"TCC_NEWLINE"ｌｙ　ｕｎｄｅｒａｔｔａｃｋ　ｂｙ　ｎｉｇｈｔｍａｒｅｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．Ｈｍ．　Ｎｉｇｈｔｍａｒｅｓ，　ｙｏｕ　ｓａｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｉｆ　ｔｈａｔ　ｓｅｅｍｓ　ｉｍｐ"TCC_NEWLINE"ｏｓｓｉｂｌｅ"TCC_NEWLINE
-"ｔｏ　ｙｏｕ，　ｂｕｔ　ｉｆ　ｙｏｕ　ｍｅｅｔ　ｍｙ　ｆｒｉ"TCC_NEWLINE"ｅｎｄ"TCC_NEWLINE
-"ａｎｄ　ｌｉｓｔｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｉｆ　ｔｈａｔ　ｓｅｅｍｓ　ｉｍー"TCC_NEWLINE"ｐｏｓｓｉｂｌｅｔｏ　ｙｏｕ，　ｂｕｔ　ｉｆ　ｙｏｕ　ｍｅー"TCC_NEWLINE"ｅｔ　ｍｙ　ｆｒｉｅｎｄａｎｄ　ｌｉｓｔｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｓｈｏｕｌｄ，　Ｂｒｏｔｈｅｒ．　Ｔｈｅｉｒ　ｆｒｉ"TCC_NEWLINE"ｅｎｄ"TCC_NEWLINE
-"ｉｓ　ｊｕｓｔ　ｏｖｅｒ　ｔｈｅｒｅ，　ｎｅａｒ　ｔｈｅ　ｆ"TCC_NEWLINE"ｏｒｅｓｔ，"TCC_NEWLINE
-"ｐｌａｙｉｎｇ　ｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｕｇｈ，　Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｗｈｅｔｈｅｒ　ｉ"TCC_NEWLINE"ｔ　ｗｉｌｌ"TCC_NEWLINE
-"ｄｏ　ａｎｙ　ｇｏｏｄ，　ｇｉｖｅｎ　ｔｈｅ　ｎａｔｕｒｅ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
-"ｔｈｉｓ．．．ｆｒｉｅｎｄ　ｏｆ　ｔｈｅｉｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄ，　Ｂｒｏｔｈｅｒ．　Ｔｈｅｉｒ　ｆｒー"TCC_NEWLINE"ｉｅｎｄｉｓ　ｊｕｓｔ　ｏｖｅｒ　ｔｈｅｒｅ，　ｎｅａｒ　"TCC_NEWLINE"ｔｈｅ　ｆｏｒｅｓｔ，ｐｌａｙｉｎｇ　ｗｉｔｈ　Ｐｒｉｎｃー"TCC_NEWLINE"ｅｓｓ　Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ，　Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｗｈｅｔｈｅｒ　"TCC_NEWLINE"ｉｔ　ｗｉｌｌｄｏ　ａｎｙ　ｇｏｏｄ，　ｇｉｖｅｎ　ｔｈｅ"TCC_NEWLINE"　ｎａｔｕｒｅ　ｏｆｔｈｉｓ．．．ｆｒｉｅｎｄ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅｉｒｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏ，　ｔｈｅｒｅ’ｓ　ａ　ｃｈａｎｃｅ　ｙｏｕ　ａｒｅ　ｂ"TCC_NEWLINE"ｅｉｎｇ"TCC_NEWLINE
-"ｄｅｃｅｉｖｅｄ，　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｔｈｅｒｅ’ｓ　ａ　ｃｈａｎｃｅ　ｙｏｕ　ａｒｅ　"TCC_NEWLINE"ｂｅｉｎｇｄｅｃｅｉｖｅｄ，　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｎｏ，　ｔｈｅ　ｉｎｆｏｒｍａｔｉｏｎ　ｆｅｅｌｓ　ｔｒｕｓ"TCC_NEWLINE"ｔｗｏｒｔｈｙ．"TCC_NEWLINE
-"Ｓｏ，　ｐｌｅａｓｅ，　Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｔｈｅ　ｉｎｆｏｒｍａｔｉｏｎ　ｆｅｅｌｓ　ｔｒｕー"TCC_NEWLINE"ｓｔｗｏｒｔｈｙ．Ｓｏ，　ｐｌｅａｓｅ，　Ｚａｃｈａｒｉａー"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"．．．Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ．　Ａｌｆｏｎｓｅ，　ｉ"TCC_NEWLINE"ｆ　ｙｏｕ"TCC_NEWLINE
-"ｂｅｌｉｅｖｅ　ｓｏ　ｓｔｒｏｎｇｌｙ，　Ｉ　ｗｉｌｌ　ｔａ"TCC_NEWLINE"ｌｋ　ｔｏ"TCC_NEWLINE
-"ｔｈｉｓ　ｆｒｉｅｎｄ　ｏｆ　ｙｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｒｅｇａｒｄｌｅｓｓ　ｏｆ　ｔｈｅ　ａｕｔｈｅｎｔｉｃｉｔｙ"TCC_NEWLINE"　ｏｆ　ｈｅｒ"TCC_NEWLINE
-"ｃｌａｉｍｓ　ａｂｏｕｔ　ｔｈｅ　ａｌｌｅｇｅｄ　ｎｉｇｈｔ"TCC_NEWLINE"ｍａｒｅｓ，"TCC_NEWLINE
-"Ｉ　ｗｉｌｌ　ｈｅａｒ　ｈｅｒ　ｏｕｔ．　Ｗｉｌｌ　ｔｈａｔ"TCC_NEWLINE"　ｓｕｆｆｉｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ．　Ａｌｆｏｎｓｅ，　"TCC_NEWLINE"ｉｆ　ｙｏｕｂｅｌｉｅｖｅ　ｓｏ　ｓｔｒｏｎｇｌｙ，　Ｉ　"TCC_NEWLINE"ｗｉｌｌ　ｔａｌｋ　ｔｏｔｈｉｓ　ｆｒｉｅｎｄ　ｏｆ　ｙｏー"TCC_NEWLINE"ｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｇａｒｄｌｅｓｓ　ｏｆ　ｔｈｅ　ａｕｔｈｅｎｔｉｃｉｔー"TCC_NEWLINE"ｙ　ｏｆ　ｈｅｒｃｌａｉｍｓ　ａｂｏｕｔ　ｔｈｅ　ａｌｌｅー"TCC_NEWLINE"ｇｅｄ　ｎｉｇｈｔｍａｒｅｓ，Ｉ　ｗｉｌｌ　ｈｅａｒ　ｈｅー"TCC_NEWLINE"ｒ　ｏｕｔ．　Ｗｉｌｌ　ｔｈａｔ　ｓｕｆｆｉｃｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｔｈａｎｋ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 "．．．ｉｍｐｏｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．Ｗｈａｔ　ｄｉｄ　ｙｏｕ　ｓａｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｎｏ　ｏｎｅ　ｅｖｅｒ　ｍｅｎｔｉｏｎｅｄ　ｏｕｒ　ｆｒｉｅ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
-"ｉｓ　ａ　ｓｈｅ，　ｓｏ　ｔｈｅｒｅ’ｓ　ｎｏ　ｗａｙ　ｙｏ"TCC_NEWLINE"ｕ　ｃｏｕｌｄ"TCC_NEWLINE
-"ｈａｖｅ　ｋｎｏｗｎ　ｔｈａｔ　ｕｎｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｕｎｌｅｓｓ　ｙｏｕ，　ｔｏｏ，　ａｒｅ　ｐａｒｔ　ｏ"TCC_NEWLINE"ｆ　ｔｈｅ"TCC_NEWLINE
-"ｎｉｇｈｔｍａｒｅ！　Ｎｏｗ，　ｓｔｅｐ　ａｗａｙ　ｆｒｏｍ"TCC_NEWLINE
-"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｏｎｅ　ｅｖｅｒ　ｍｅｎｔｉｏｎｅｄ　ｏｕｒ　ｆｒｉー"TCC_NEWLINE"ｅｎｄｉｓ　ａ　ｓｈｅ，　ｓｏ　ｔｈｅｒｅ’ｓ　ｎｏ　ｗａー"TCC_NEWLINE"ｙ　ｙｏｕ　ｃｏｕｌｄｈａｖｅ　ｋｎｏｗｎ　ｔｈａｔ　ｕｎー"TCC_NEWLINE"ｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｕｎｌｅｓｓ　ｙｏｕ，　ｔｏｏ，　ａｒｅ　ｐａｒｔ　"TCC_NEWLINE"ｏｆ　ｔｈｅｎｉｇｈｔｍａｒｅ！　Ｎｏｗ，　ｓｔｅｐ　ａｗー"TCC_NEWLINE"ａｙ　ｆｒｏｍＰｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
-"Ｈｅｈ．．．　Ｈｅｈ　ｈｅｈ　ｈｅｈ．．．"TCC_NEWLINE
-"Ｈｅｈ　ｈｅｈ　ｈｅｈ　ｈｅｈ　ｈｅｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ．．．　Ｈｅｈ　ｈｅｈ　ｈｅｈ．．．Ｈｅｈ　ｈｅｈ　"TCC_NEWLINE"ｈｅｈ　ｈｅｈ　ｈｅｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｅｈ　ｈｅｈ　ｈｅｈ．．．"TCC_NEWLINE
-"Ｈｅｈ　ｈｅｈ　ｈｅｈ　ｈｅｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ　ｈｅｈ　ｈｅｈ．．．Ｈｅｈ　ｈｅｈ　ｈｅｈ　ｈｅｈ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｂｒｏｔｈｅｒ？　．．．Ｘａｎｄｅｒ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗａｉｔ！　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE
-"Ｔｈｅｙ’ｒｅ　ｎｏｔ"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔ！　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！Ｔｈｅｙ’"TCC_NEWLINE"ｒｅ　ｎｏｔ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈａｔ　ｉｓ　ｉｔ，　Ａｌｆｏｎｓｅ？　Ｙｏｕ　ｗａｎｔ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"ｄｒｅａｍ　ｔｏ　ｅｎｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｗｅｒｅ　ｓｏ　ｌｏｏｋｉｎｇ　ｆｏｒｗａｒｄ　ｔｏ"TCC_NEWLINE
-"ｋｉｌｌｉｎｇ　ｙｏｕｒ　ｍｏｔｈｅｒ　ａｇａｉｎ．　Ｉｎ　"TCC_NEWLINE"ｙｏｕｒ"TCC_NEWLINE
-"ｒｅａｌｉｔｙ　ｔｈｉｓ　ｔｉｍｅ，　ａｎｄ　ｅｖｅｒｙｔｈ"TCC_NEWLINE"ｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｉｓ　ｉｔ，　Ａｌｆｏｎｓｅ？　Ｙｏｕ　ｗａｎｔ"TCC_NEWLINE"　ｔｈｅｄｒｅａｍ　ｔｏ　ｅｎｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｅｒｅ　ｓｏ　ｌｏｏｋｉｎｇ　ｆｏｒｗａｒｄ　ｔｏー"TCC_NEWLINE"ｋｉｌｌｉｎｇ　ｙｏｕｒ　ｍｏｔｈｅｒ　ａｇａｉｎ．　Ｉｎ"TCC_NEWLINE"　ｙｏｕｒｒｅａｌｉｔｙ　ｔｈｉｓ　ｔｉｍｅ，　ａｎｄ　ｅー"TCC_NEWLINE"ｖｅｒｙｔｈｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ａｈａ！　Ｙｏｕ　ＡＲＥ　ｎｉｇｈｔｍａｒｅ　Ｚａｃｈａｒｉ"TCC_NEWLINE"ａｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｈａ！　Ｙｏｕ　ＡＲＥ　ｎｉｇｈｔｍａｒｅ　Ｚａｃｈａｒー"TCC_NEWLINE"ｉａｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4065_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｂｒｏｔｈｅｒ．．．ａｎｄ　Ｘａｎｄｅｒ．．．"TCC_NEWLINE
-"Ｂｏｔｈ　ｖａｎｉｓｈｉｎｇ．．．ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｒｏｔｈｅｒ．．．ａｎｄ　Ｘａｎｄｅｒ．．．Ｂｏｔー"TCC_NEWLINE"ｈ　ｖａｎｉｓｈｉｎｇ．．．ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈａｔ　ｗａｓ　ｏｎｌｙ　ａ　ｔｗｉｓｔｅｄ　ｃｏｐｙ　ｏ"TCC_NEWLINE"ｆ　ｈｉｍ，"TCC_NEWLINE
-"ｍａｄｅ　ｆｒｏｍ　ｍｙ　ｎｉｇｈｔｍａｒｅｓ．．．　Ｉｔ　"TCC_NEWLINE"ｗａｓｎ’ｔ"TCC_NEWLINE
-"ｔｈｅ　Ｚａｃｈａｒｉａｓ　ｗｅ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｗａｓ　ｏｎｌｙ　ａ　ｔｗｉｓｔｅｄ　ｃｏｐｙ　"TCC_NEWLINE"ｏｆ　ｈｉｍ，ｍａｄｅ　ｆｒｏｍ　ｍｙ　ｎｉｇｈｔｍａｒｅー"TCC_NEWLINE"ｓ．．．　Ｉｔ　ｗａｓｎ’ｔｔｈｅ　Ｚａｃｈａｒｉａｓ　ｗー"TCC_NEWLINE"ｅ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｂ－ｂｕｔ　ｉｔ．．．ｔｈｅｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4065_EN] = TCC_OPEN_LEFT
-"Ｓｏ．　Ｙｏｕ　ａｒｅ　ａｌｌ　ｇｏｉｎｇ　ｔｏ　ｍｅｅｔ　"TCC_NEWLINE"ｔｈｉｓ"TCC_NEWLINE
-"ｌｊｓｌｆｒ，　ａｒｅ　ｙｏｕ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓ"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｉ　ｗｉｌｌ　ａｃｃｏｍｐａｎｙ　ｙｏｕ．　Ｉｔ　ｓｅ"TCC_NEWLINE"ｅｍｓ　ｙｏｕ"TCC_NEWLINE
-"ｍａｙ　ｂｅ　ａｂｌｅ　ｔｏ　ｆｉｇｕｒｅ　ｔｈｉｓ　ｓｉｔ"TCC_NEWLINE"ｕａｔｉｏｎ"TCC_NEWLINE
-"ｏｆ　ｏｕｒｓ　ｏｕｔ　ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ．　Ｙｏｕ　ａｒｅ　ａｌｌ　ｇｏｉｎｇ　ｔｏ　ｍｅｅｔ"TCC_NEWLINE"　ｔｈｉｓｌｊｓｌｆｒ，　ａｒｅ　ｙｏｕ，　Ｐｒｉｎｃｅ　"TCC_NEWLINE"Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ　ｗｉｌｌ　ａｃｃｏｍｐａｎｙ　ｙｏｕ．　Ｉｔ　ｓー"TCC_NEWLINE"ｅｅｍｓ　ｙｏｕｍａｙ　ｂｅ　ａｂｌｅ　ｔｏ　ｆｉｇｕｒｅ"TCC_NEWLINE"　ｔｈｉｓ　ｓｉｔｕａｔｉｏｎｏｆ　ｏｕｒｓ　ｏｕｔ　ａｆー"TCC_NEWLINE"ｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅｓ　Ｖｅｒｏｎｉｃａ．　Ｙ"TCC_NEWLINE"ｏｕｒ"TCC_NEWLINE
-"ｈｅｌｐ　ｉｓ　ａｐｐｒｅｃｉａｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅｓ　Ｖｅｒｏｎｉｃａ．　"TCC_NEWLINE"Ｙｏｕｒｈｅｌｐ　ｉｓ　ａｐｐｒｅｃｉａｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｏｎ’ｔ　ｔｈａｎｋ　ｍｅ．　Ｉ　ａｍ　ｎｏｔ　ｄｏｉｎｇ"TCC_NEWLINE
-"ｔｈｉｓ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｊｕｓｔ．．．ｗａｎｔ　ｔｏ　ｓｅｅ　ｍｙ　ｂｒｏｔｈｅ"TCC_NEWLINE"ｒ．"TCC_NEWLINE
-"Ｉ’ｖｅ　ｂｅｅｎ　ｗａｉｔｉｎｇ　ｆｏｒ　ａ　ｖｅｒｙ　ｌ"TCC_NEWLINE"ｏｎｇ"TCC_NEWLINE
-"ｔｉｍｅ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｔｈａｎｋ　ｍｅ．　Ｉ　ａｍ　ｎｏｔ　ｄｏｉｎー"TCC_NEWLINE"ｇｔｈｉｓ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ．．．ｗａｎｔ　ｔｏ　ｓｅｅ　ｍｙ　ｂｒｏｔｈー"TCC_NEWLINE"ｅｒ．Ｉ’ｖｅ　ｂｅｅｎ　ｗａｉｔｉｎｇ　ｆｏｒ　ａ　ｖｅー"TCC_NEWLINE"ｒｙ　ｌｏｎｇｔｉｍｅ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ａｎｄ　ｈｅ　ｗｅｒｅ　ｃｌｏｓｅ　ｂｅｆｏｒｅ，"TCC_NEWLINE
-"ｗｅｒｅ　ｙｏｕ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｅｌｌ　ｍｅ　ａｂｏｕｔ　ｈｉｍ．　Ｈｏｗ　ｄｉｄ　ｙｏｕ"TCC_NEWLINE
-"ｍｅｅｔ？　Ａｎｄ　ｗｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｎｄ　ｈｅ　ｗｅｒｅ　ｃｌｏｓｅ　ｂｅｆｏｒｅ，"TCC_NEWLINE"ｗｅｒｅ　ｙｏｕ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｅｌｌ　ｍｅ　ａｂｏｕｔ　ｈｉｍ．　Ｈｏｗ　ｄｉｄ　ｙｏー"TCC_NEWLINE"ｕｍｅｅｔ？　Ａｎｄ　ｗｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｈ，　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -130,35 +86,24 @@ TCC_OPEN_LEFT
 "Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ．．．ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｔｈｅ　ｐａｓｔ　ａｒｅ．．．"TCC_NEWLINE
-"ｏｂｓｃｕｒｅｄ，　ｓｏｍｅｈｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｔｈｅ　ｐａｓｔ　ａｒｅ．．"TCC_NEWLINE"．ｏｂｓｃｕｒｅｄ，　ｓｏｍｅｈｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｆｏｒｇｏｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｂｕｔ　ｈｏｗ　ｄｉｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃａｎ　ｓｔｉｌｌ　ｃｌｅａｒｌｙ　ｒｅｃａｌｌ　ｍｅｍ"TCC_NEWLINE"ｏｒｉｅｓ"TCC_NEWLINE
-"ｏｆ"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｍｙ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｔｉｍｅｓ　ｆｕｒｔｈ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
-"ｂａｃｋ　ｆｅｅｌ．．．ｓｈｒｏｕｄｅｄ．　Ｌｉｋｅ　ｔｈｅ"TCC_NEWLINE"ｙ’ｒｅ"TCC_NEWLINE
-"ｗｒａｐｐｅｄ　ｉｎ　ａ　ｔｈｉｃｋ　ｆｏｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ　ｓｔｉｌｌ　ｃｌｅａｒｌｙ　ｒｅｃａｌｌ　ｍｅー"TCC_NEWLINE"ｍｏｒｉｅｓｏｆ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｍｙ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｔｉｍｅｓ　ｆｕｒｔー"TCC_NEWLINE"ｈｅｒｂａｃｋ　ｆｅｅｌ．．．ｓｈｒｏｕｄｅｄ．　Ｌｉｋｅ"TCC_NEWLINE"　ｔｈｅｙ’ｒｅｗｒａｐｐｅｄ　ｉｎ　ａ　ｔｈｉｃｋ　ｆｏー"TCC_NEWLINE"ｇ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_PEONY
-"Ｃｏｕｌｄ　ｂｅ　ａｎ　ｅｆｆｅｃｔ　ｏｆ　ｔｈｅ　Ｗａｋｉ"TCC_NEWLINE"ｎｇ"TCC_NEWLINE
-"Ｄｒｅａｍ，　ｍａｙｂｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｕｌｄ　ｂｅ　ａｎ　ｅｆｆｅｃｔ　ｏｆ　ｔｈｅ　Ｗａｋー"TCC_NEWLINE"ｉｎｇＤｒｅａｍ，　ｍａｙｂｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ’ｍ　ｎｏｔ　ｅｎｔｉｒｅｌｙ　ｓｕｒｅ．．．　Ｂｕｔ　ｉ"TCC_NEWLINE"ｔ　ｄｏｅｓｎ’ｔ"TCC_NEWLINE
-"ｆｅｅｌ　ｌｉｋｅ　ｉｔ　ｉｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ｓｏｍｅ　ｅｘｐｌａｎａｔｉｏｎ"TCC_NEWLINE"．．．"TCC_NEWLINE
-"Ｂｕｔ　ｗｈａｔ　ｉｔ　ｍｉｇｈｔ　ｂｅ　ｅｌｕｄｅｓ　ｍｅ"TCC_NEWLINE"　ａｔ"TCC_NEWLINE
-"ｔｈｅ　ｍｏｍｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔ　ｅｎｔｉｒｅｌｙ　ｓｕｒｅ．．．　Ｂｕｔ　"TCC_NEWLINE"ｉｔ　ｄｏｅｓｎ’ｔｆｅｅｌ　ｌｉｋｅ　ｉｔ　ｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ｓｏｍｅ　ｅｘｐｌａｎａｔｉｏー"TCC_NEWLINE"ｎ．．．Ｂｕｔ　ｗｈａｔ　ｉｔ　ｍｉｇｈｔ　ｂｅ　ｅｌｕｄー"TCC_NEWLINE"ｅｓ　ｍｅ　ａｔｔｈｅ　ｍｏｍｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｅｖｅｎ　ｉｆ　Ｉ　ｃｏｕｌｄ　ｍｅｅｔ　ｗｉｔｈ　Ｚａｃｈ"TCC_NEWLINE"ａｒｉａｓ"TCC_NEWLINE
-"ｎｏｗ，　Ｉ　ｃｏｕｌｄｎ’ｔ　ｒｅｍｉｎｉｓｃｅ　ｅｖｅｎ"TCC_NEWLINE"　ｉｆ　ｈｅ"TCC_NEWLINE
-"ｂｒｏｕｇｈｔ　ｕｐ　ｏｕｒ　ｄａｙｓ　ｔｏｇｅｔｈｅｒ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ　ａｎｙ　ｏｆ　ｉｔ　ａｎｙ"TCC_NEWLINE"ｍｏｒｅ．．．"TCC_NEWLINE
-"Ｉｔ’ｓ　ａｓ　ｉｆ　ｍｙ　ｂｏｎｄ　ｗｉｔｈ　ｈｉｍ　ｉｓ"TCC_NEWLINE"　ｂｅｉｎｇ"TCC_NEWLINE
-"ｓｌｏｗｌｙ　ｓｅｖｅｒｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｉｆ　Ｉ　ｃｏｕｌｄ　ｍｅｅｔ　ｗｉｔｈ　Ｚａｃー"TCC_NEWLINE"ｈａｒｉａｓｎｏｗ，　Ｉ　ｃｏｕｌｄｎ’ｔ　ｒｅｍｉｎｉｓー"TCC_NEWLINE"ｃｅ　ｅｖｅｎ　ｉｆ　ｈｅｂｒｏｕｇｈｔ　ｕｐ　ｏｕｒ　ｄー"TCC_NEWLINE"ａｙｓ　ｔｏｇｅｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ　ａｎｙ　ｏｆ　ｉｔ　ａｎー"TCC_NEWLINE"ｙｍｏｒｅ．．．Ｉｔ’ｓ　ａｓ　ｉｆ　ｍｙ　ｂｏｎｄ　ｗｉー"TCC_NEWLINE"ｔｈ　ｈｉｍ　ｉｓ　ｂｅｉｎｇｓｌｏｗｌｙ　ｓｅｖｅｒｅｄ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｆｏｒｇｅｔｔｉｎｇ．．．ｉｓ　ａｇｏｎｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｉｓ　ｉｓ　ｂａｄ．．．"TCC_NEWLINE TCC_PUSH_A

@@ -4,119 +4,81 @@
 "Ｓｏ．．．　Ｎｏｗ　ｗｈａｔ　ｄｏ　ｗｅ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗｅ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　Ｓｕｒｔｒ　ｃａｔｃｈｅｓ　ｕｓ，　ｗｅ’ｒｅ　ａｓ　"TCC_NEWLINE"ｇｏｏｄ　ａｓ"TCC_NEWLINE
-"ｄｅａｄ．　Ｗｅ　ｈａｖｅ　ｎｏ　ｗａｙ　ｔｏ　ｃｏｕｎｔｅ"TCC_NEWLINE"ｒ"TCC_NEWLINE
-"ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｓｕｒｔｒ　ｃａｔｃｈｅｓ　ｕｓ，　ｗｅ’ｒｅ　ａｓ"TCC_NEWLINE"　ｇｏｏｄ　ａｓｄｅａｄ．　Ｗｅ　ｈａｖｅ　ｎｏ　ｗａｙ　"TCC_NEWLINE"ｔｏ　ｃｏｕｎｔｅｒｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "ＯＫ．　Ｓｏ　ｗｅ　ｅｓｃａｐｅ．　Ｔｈｅｎ　ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
 "＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！　Ｔｈａｔ　ｃｏｕｇｈ　ｊｕｓ"TCC_NEWLINE"ｔ"TCC_NEWLINE
-"ｋｅｅｐｓ　ｇｅｔｔｉｎｇ　ｗｏｒｓｅ．　Ｈｅｒｅ，　ｌｅａ"TCC_NEWLINE"ｎ　ｏｎ"TCC_NEWLINE
-"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！　Ｔｈａｔ　ｃｏｕｇｈ　ｊｕー"TCC_NEWLINE"ｓｔｋｅｅｐｓ　ｇｅｔｔｉｎｇ　ｗｏｒｓｅ．　Ｈｅｒｅ，　"TCC_NEWLINE"ｌｅａｎ　ｏｎｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｅ　ｃａｎ’ｔ　ｇｉｖｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｖｏｗｅｄ　ｔｏ　ｄｅｆｅａｔ　Ｓｕｒｔｒ　ａｎｄ　ｓａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
-"Ａｓｋｒ．　Ｔｈａｔ’ｓ　ｗｈｙ　ｗｅ　ｃａｍｅ　ｔｏ　Ｎｉ"TCC_NEWLINE"ｆｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｕｎｔｉｌ　ｗｅ　ａｃｃｏｍｐｌｉｓｈ　ｔｈａｔ　ｇｏａｌ，"TCC_NEWLINE"　Ｉ　ｗｉｌｌ"TCC_NEWLINE
-"ｋｅｅｐ　ｆｉｇｈｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｖｏｗｅｄ　ｔｏ　ｄｅｆｅａｔ　Ｓｕｒｔｒ　ａｎｄ　ｓー"TCC_NEWLINE"ａｖｅＡｓｋｒ．　Ｔｈａｔ’ｓ　ｗｈｙ　ｗｅ　ｃａｍｅ　ｔー"TCC_NEWLINE"ｏ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｔｉｌ　ｗｅ　ａｃｃｏｍｐｌｉｓｈ　ｔｈａｔ　ｇｏａｌ"TCC_NEWLINE"，　Ｉ　ｗｉｌｌｋｅｅｐ　ｆｉｇｈｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｓｈｏ"TCC_NEWLINE"ｗ　ｈｉｍ"TCC_NEWLINE
-"ｗｈａｔ　ｔｈｅ　Ｏｒｄｅｒ　ｃａｎ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｓｈー"TCC_NEWLINE"ｏｗ　ｈｉｍｗｈａｔ　ｔｈｅ　Ｏｒｄｅｒ　ｃａｎ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｔｈａｔ’ｓ　ｔｈｅ　ｓｐｉｒｉｔ！　Ｂｕｔ．．．ｔｈｅ　ｑ"TCC_NEWLINE"ｕｅｓｔｉｏｎ"TCC_NEWLINE
-"ｒｅｍａｉｎｓ．　Ｗｈｅｒｅ　ｓｈｏｕｌｄ　ｗｅ　ｇｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｔｈｅ　ｓｐｉｒｉｔ！　Ｂｕｔ．．．ｔｈｅ　"TCC_NEWLINE"ｑｕｅｓｔｉｏｎｒｅｍａｉｎｓ．　Ｗｈｅｒｅ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｗｅ　ｇｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｌ．．．　Ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｔｈａｔ"TCC_NEWLINE"’ｓ　ｂｅｅｎ"TCC_NEWLINE
-"ｔｒｏｕｂｌｉｎｇ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ　ｆａｒ，　ｔｈｅ　ｅｎｅｍｙ　ｓｏｌｄｉｅｒｓ　ｈａｖ"TCC_NEWLINE"ｅ　ｂｅｅｎ"TCC_NEWLINE
-"ｔｒｙｉｎｇ　ｔｏ　ｋｅｅｐ　ｕｓ　ｂｏｘｅｄ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ．．．　Ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｔｈａー"TCC_NEWLINE"ｔ’ｓ　ｂｅｅｎｔｒｏｕｂｌｉｎｇ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｆａｒ，　ｔｈｅ　ｅｎｅｍｙ　ｓｏｌｄｉｅｒｓ　ｈａー"TCC_NEWLINE"ｖｅ　ｂｅｅｎｔｒｙｉｎｇ　ｔｏ　ｋｅｅｐ　ｕｓ　ｂｏｘｅー"TCC_NEWLINE"ｄ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｈａｔ’ｓ　ｗｈａｔ　ｏｕｒ　ｓｃｏｕｔｓ　ｓａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅｒｅ　ｉｓ，　ｈｏｗｅｖｅｒ，　ｏｎｅ　ｇｒｏｕｐ　ｏ"TCC_NEWLINE"ｆ"TCC_NEWLINE
-"ｓｏｌｄｉｅｒｓ　ｔｏ　ｔｈｅ　ｅａｓｔ　ｔｈａｔ　ｉｓｎ’"TCC_NEWLINE"ｔ　ｔａｒｇｅｔｉｎｇ"TCC_NEWLINE
-"ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｔｈｉｎｋ　ｔｈｅｙ’ｒｅ　ｐｕｒｓｕｉｎｇ　ｓｏｍｅｏ"TCC_NEWLINE"ｎｅ"TCC_NEWLINE
-"ｅｌｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ，　ｈｏｗｅｖｅｒ，　ｏｎｅ　ｇｒｏｕｐ　"TCC_NEWLINE"ｏｆｓｏｌｄｉｅｒｓ　ｔｏ　ｔｈｅ　ｅａｓｔ　ｔｈａｔ　ｉー"TCC_NEWLINE"ｓｎ’ｔ　ｔａｒｇｅｔｉｎｇｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈｉｎｋ　ｔｈｅｙ’ｒｅ　ｐｕｒｓｕｉｎｇ　ｓｏｍｅー"TCC_NEWLINE"ｏｎｅｅｌｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_YLGR
 "Ｏｈ，　ｒｅａｌｌｙ？　Ｗｈｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｂｕｔ　ｗｅ　ｃａｎ　ａｓｓｕｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｔｈｅｙ’ｒｅ　ｎｏ　ｆｒｉｅｎｄ　ｏｆ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｂｕｔ　ｗｅ　ｃａｎ　ａｓｓｕー"TCC_NEWLINE"ｍｅｔｈｅｙ’ｒｅ　ｎｏ　ｆｒｉｅｎｄ　ｏｆ　Ｍｓｐｅｌｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｎｄ　ｙｏｕ　ｋｎｏｗ　ｗｈａｔ　ｔｈｅｙ　ｓａｙ．．．　"TCC_NEWLINE"Ｔｈｅ"TCC_NEWLINE
-"ｅｎｅｍｙ　ｏｆ　ｍｙ　ｅｎｅｍｙ　ｉｓ　ｍｙ　ｆｒｉｅｎｄ"TCC_NEWLINE"．"TCC_NEWLINE
-"Ａｌｌ　ｒｉｇｈｔ，　ｔｒｏｏｐｓ！　Ｗｅ’ｌｌ　ｃｈｅｃｋ"TCC_NEWLINE"　ｔｈｉｓ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｏｕ　ｋｎｏｗ　ｗｈａｔ　ｔｈｅｙ　ｓａｙ．．．"TCC_NEWLINE"　Ｔｈｅｅｎｅｍｙ　ｏｆ　ｍｙ　ｅｎｅｍｙ　ｉｓ　ｍｙ　ｆー"TCC_NEWLINE"ｒｉｅｎｄ．Ａｌｌ　ｒｉｇｈｔ，　ｔｒｏｏｐｓ！　Ｗｅ’ｌー"TCC_NEWLINE"ｌ　ｃｈｅｃｋ　ｔｈｉｓ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HRID
-"Ｎｏｔ　ｙｅｔ．．．　Ｎｏｔ　ｙｅｔ！　Ｉ　ｃａｎ’ｔ　ｆａ"TCC_NEWLINE"ｌｌ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ｙｅｔ．．．　Ｎｏｔ　ｙｅｔ！　Ｉ　ｃａｎ’ｔ　ｆー"TCC_NEWLINE"ａｌｌ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
 "Ｔｈａｔ’ｓ．．．　Ｂｕｔ　ｈｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ　ｎｅｅｄ　ｔｏ　ｓａｖｅ　ｈｉｍ　ｂｅｆｏｒｅ　Ｍｓｐ"TCC_NEWLINE"ｅｌｌ"TCC_NEWLINE
-"ｆｉｎｉｓｈｅｓ　ｈｉｍ　ｏｆｆ！　Ｔｈｅｒｅ’ｓ　ｎｏ　ｔ"TCC_NEWLINE"ｉｍｅ　ｔｏ"TCC_NEWLINE
-"ｗａｓｔｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｓａｖｅ　ｈｉｍ　ｂｅｆｏｒｅ　Ｍｓー"TCC_NEWLINE"ｐｅｌｌｆｉｎｉｓｈｅｓ　ｈｉｍ　ｏｆｆ！　Ｔｈｅｒｅ’ｓ"TCC_NEWLINE"　ｎｏ　ｔｉｍｅ　ｔｏｗａｓｔｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HRID
-"Ｆｏｒ　ｃｏｍｉｎｇ　ｔｏ　ｍｙ　ｒｅｓｃｕｅ，　Ｉ　ｔｈａ"TCC_NEWLINE"ｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｃｏｍｉｎｇ　ｔｏ　ｍｙ　ｒｅｓｃｕｅ，　Ｉ　ｔｈー"TCC_NEWLINE"ａｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｔｈｏｓｅ　ｂｕｒｎｓ．．．　Ｂｅ　ｓｔｉｌｌ．　Ｙｏｕ’ｒ"TCC_NEWLINE"ｅ　ｔｏｏ"TCC_NEWLINE
-"ｗｏｕｎｄｅｄ　ｔｏ　ｍｏｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｂｕｒｎｓ．．．　Ｂｅ　ｓｔｉｌｌ．　Ｙｏｕ’"TCC_NEWLINE"ｒｅ　ｔｏｏｗｏｕｎｄｅｄ　ｔｏ　ｍｏｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
 "Ｏｈ，　ｍｙ　ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_YLGR
 "Ｈｒｄ！　Ｉｔ　ｉｓ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｆｊｏｒｍ，　Ｙｌｇｒ．．．　Ｉｔ　ｉｓ　ｇｏｏｄ　ｔｏ　ｓ"TCC_NEWLINE"ｅｅ　ｙｏｕ"TCC_NEWLINE
-"ｂｏｔｈ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｊｏｒｍ，　Ｙｌｇｒ．．．　Ｉｔ　ｉｓ　ｇｏｏｄ　ｔｏ　"TCC_NEWLINE"ｓｅｅ　ｙｏｕｂｏｔｈ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｏｈ．．．　Ｉｔ’ｓ　ｓｏ　ｇｏｏｄ　ｔｏ　ｓｅｅ　ｙｏｕ，"TCC_NEWLINE"　ｔｏｏ！　Ｉ"TCC_NEWLINE
-"ｄｉｄｎ’ｔ　ｋｎｏｗ　ｗｈｅｔｈｅｒ　ｙｏｕ　ｌｉｖｅｄ．"TCC_NEWLINE"．．　Ｂｕｔ"TCC_NEWLINE
-"ｗｈｙ　ａｒｅ　ｙｏｕ　ｈｅｒｅ　ｉｎ　Ｍｓｐｅｌｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ．．．　Ｉｔ’ｓ　ｓｏ　ｇｏｏｄ　ｔｏ　ｓｅｅ　ｙｏｕ"TCC_NEWLINE"，　ｔｏｏ！　Ｉｄｉｄｎ’ｔ　ｋｎｏｗ　ｗｈｅｔｈｅｒ　ｙー"TCC_NEWLINE"ｏｕ　ｌｉｖｅｄ．．．　Ｂｕｔｗｈｙ　ａｒｅ　ｙｏｕ　ｈｅー"TCC_NEWLINE"ｒｅ　ｉｎ　Ｍｓｐｅｌｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｆｔｅｒ　Ｎｉｆｌ　ｆｅｌｌ，　Ｉ　ｍａｄｅ　ｍｙ　ｗａｙ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
-"Ｍｓｐｅｌｌ　ｉｎ　ｓｅｃｒｅｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｔｔｉｎｇ　ｅｖｅｒｙｏｎｅ　ｔｈｉｎｋ　Ｉ　ｈａｄ　ｐ"TCC_NEWLINE"ｅｒｉｓｈｅｄ，"TCC_NEWLINE
-"Ｉ　ａｉｍｅｄ　ｔｏ　ａｓｓａｓｓｉｎａｔｅ　Ｓｕｒｔｒ．．"TCC_NEWLINE"．　Ｅｖｅｎ　ａｔ"TCC_NEWLINE
-"ｔｈｅ　ｃｏｓｔ　ｏｆ　ｍｙ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｔ　Ｉ　ｃｏｕｌｄｎ’ｔ　ｆｉｎｉｓｈ　ｈｉｍ　ｏｆｆ．"TCC_NEWLINE"　Ａｌｌ　Ｉ　ｇｏｔ"TCC_NEWLINE
-"ｆｏｒ　ｍｙ　ｔｒｏｕｂｌｅ　ｗａｓ　ｔｈｅｓｅ　ｂｕｒｎｓ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　Ｎｉｆｌ　ｆｅｌｌ，　Ｉ　ｍａｄｅ　ｍｙ　ｗａー"TCC_NEWLINE"ｙ　ｔｏＭｓｐｅｌｌ　ｉｎ　ｓｅｃｒｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔｔｉｎｇ　ｅｖｅｒｙｏｎｅ　ｔｈｉｎｋ　Ｉ　ｈａｄ　"TCC_NEWLINE"ｐｅｒｉｓｈｅｄ，Ｉ　ａｉｍｅｄ　ｔｏ　ａｓｓａｓｓｉｎａー"TCC_NEWLINE"ｔｅ　Ｓｕｒｔｒ．．．　Ｅｖｅｎ　ａｔｔｈｅ　ｃｏｓｔ　ｏー"TCC_NEWLINE"ｆ　ｍｙ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　Ｉ　ｃｏｕｌｄｎ’ｔ　ｆｉｎｉｓｈ　ｈｉｍ　ｏｆｆ"TCC_NEWLINE"．　Ａｌｌ　Ｉ　ｇｏｔｆｏｒ　ｍｙ　ｔｒｏｕｂｌｅ　ｗａｓ"TCC_NEWLINE"　ｔｈｅｓｅ　ｂｕｒｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｏｈ，　Ｈｒｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｂｕｔ　ｗｅ　ｃａｎ’ｔ　ｇｉｖｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｕｒｔｒ　ｃａｎ　ｂｅ　ｋｉｌｌｅｄ．　Ｔｈｅ　Ｒｉｔｅ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
-"Ｆｌａｍｅｓ，　ｔｈｅ　ｓｏｕｒｃｅ　ｏｆ　ｈｉｓ　ｐｏｗｅ"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔｓ　ｆｌａｍｅｓ　ｏｆ　ｒｅｂｉｒｔｈ　ａｌｌｏｗ　Ｓｕ"TCC_NEWLINE"ｒｔｒ　ｔｏ"TCC_NEWLINE
-"ｂｅ　ｒｅｓｕｒｒｅｃｔｅｄ．　Ｗｅ　ｍｕｓｔ　ｅｘｔｉｎｇ"TCC_NEWLINE"ｕｉｓｈ"TCC_NEWLINE
-"ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｔｒ　ｃａｎ　ｂｅ　ｋｉｌｌｅｄ．　Ｔｈｅ　Ｒｉｔｅ"TCC_NEWLINE"　ｏｆＦｌａｍｅｓ，　ｔｈｅ　ｓｏｕｒｃｅ　ｏｆ　ｈｉｓ　"TCC_NEWLINE"ｐｏｗｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔｓ　ｆｌａｍｅｓ　ｏｆ　ｒｅｂｉｒｔｈ　ａｌｌｏｗ　Ｓー"TCC_NEWLINE"ｕｒｔｒ　ｔｏｂｅ　ｒｅｓｕｒｒｅｃｔｅｄ．　Ｗｅ　ｍｕｓー"TCC_NEWLINE"ｔ　ｅｘｔｉｎｇｕｉｓｈｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｒｅｓｕｒｒｅｃｔｅｄ？　Ｔｈａｔ’ｓ　ｅｘａｃｔｌｙ　ｗｈ"TCC_NEWLINE"ａｔ"TCC_NEWLINE
-"ｈａｐｐｅｎｅｄ　ｗｈｅｎ　ｗｅ　ｆｏｕｇｈｔ　ｈｉｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｓｕｒｒｅｃｔｅｄ？　Ｔｈａｔ’ｓ　ｅｘａｃｔｌｙ　ｗー"TCC_NEWLINE"ｈａｔｈａｐｐｅｎｅｄ　ｗｈｅｎ　ｗｅ　ｆｏｕｇｈｔ　ｈｉー"TCC_NEWLINE"ｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_HRID
-"Ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅｓ　ｔａｋｅｓ　ｔｈｅ　ｆ"TCC_NEWLINE"ｏｒｍ　ｏｆ"TCC_NEWLINE
-"ａ　ｂｌａｚｅ．．．　Ｗｉｔｈｏｕｔ　ｆｕｅｌ，　ｔｈｅ　ｆ"TCC_NEWLINE"ｉｒｅ　ｗｉｌｌ"TCC_NEWLINE
-"ｂｕｒｎ　ｏｕｔ．　Ａｎｄ　ｈｅ　ｗｏｎ’ｔ　ｂｅ　ｒｅｖｉ"TCC_NEWLINE"ｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅｓ　ｔａｋｅｓ　ｔｈｅ　"TCC_NEWLINE"ｆｏｒｍ　ｏｆａ　ｂｌａｚｅ．．．　Ｗｉｔｈｏｕｔ　ｆｕｅー"TCC_NEWLINE"ｌ，　ｔｈｅ　ｆｉｒｅ　ｗｉｌｌｂｕｒｎ　ｏｕｔ．　Ａｎｄ"TCC_NEWLINE"　ｈｅ　ｗｏｎ’ｔ　ｂｅ　ｒｅｖｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｆ　ｗｅ　ｃａｎ　ｃｕｔ　ｏｆｆ　ｔｈａｔ　ｐｏｗｅｒ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｃａｎ　ｃｕｔ　ｏｆｆ　ｔｈａｔ　ｐｏｗｅｒ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｅ　ｃａｎ　ｋｉｌｌ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ａ　ｍａｓｋｅｄ　Ｅｍｂｌｉａｎ　ｋｎｉｇｈｔ　ｇａｖｅ　ｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ａｌｌ　ｏｆ　ｔｈｉｓ　ｉｎｆｏｒｍａｔｉｏｎ．　Ｉｆ　Ｉ　"TCC_NEWLINE"ｒｅｍｅｍｂｅｒ"TCC_NEWLINE
-"ｒｉｇｈｔ，　ｈｉｓ　ｎａｍｅ　ｗａｓ．．．Ｚａｃｈａｒｉａ"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｍａｓｋｅｄ　Ｅｍｂｌｉａｎ　ｋｎｉｇｈｔ　ｇａｖｅ　"TCC_NEWLINE"ｍｅａｌｌ　ｏｆ　ｔｈｉｓ　ｉｎｆｏｒｍａｔｉｏｎ．　Ｉｆ"TCC_NEWLINE"　Ｉ　ｒｅｍｅｍｂｅｒｒｉｇｈｔ，　ｈｉｓ　ｎａｍｅ　ｗａー"TCC_NEWLINE"ｓ．．．Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｚａｃｈａｒｉａｓ　ｉｓ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_HRID
-"Ｈｅ　ｇａｖｅ　ｍｅ　ｔｈｉｓ　ｏｌｄ　ｍａｐ　ｏｆ　Ｍｓｐ"TCC_NEWLINE"ｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｔｈｅ　ｓｏｕｔｈ，　ｎｅａｒ　ｔｈｅ　ｂｏｒｄｅｒ．"TCC_NEWLINE"．．　Ｔｈｅｙ"TCC_NEWLINE
-"ｓｕｓｔａｉｎ　ｔｈｅ　ｒｉｔｅ　ｗｉｔｈ　ｏｆｆｅｒｉｎｇ"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｇａｖｅ　ｍｅ　ｔｈｉｓ　ｏｌｄ　ｍａｐ　ｏｆ　Ｍｓー"TCC_NEWLINE"ｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｔｈｅ　ｓｏｕｔｈ，　ｎｅａｒ　ｔｈｅ　ｂｏｒｄｅｒ"TCC_NEWLINE"．．．　Ｔｈｅｙｓｕｓｔａｉｎ　ｔｈｅ　ｒｉｔｅ　ｗｉｔｈ"TCC_NEWLINE"　ｏｆｆｅｒｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｎｄ　ｓｏ　ｗｅ　ｈａｖｅ　ｏｕｒ　ｄｅｓｔｉｎａｔｉｏｎ"TCC_NEWLINE"．　Ａｎｙ"TCC_NEWLINE
-"ｉｎｆｏｒｍａｔｉｏｎ　ｆｒｏｍ　Ｚａｃｈａｒｉａｓ　ｉｓ"TCC_NEWLINE
-"ｔｒｕｓｔｗｏｒｔｈｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｉｎａｌｌｙ．．．　Ｔｈｅ　ｋｅｙ　ｔｏ　ｄｅｆｅａｔｉｎ"TCC_NEWLINE"ｇ　Ｓｕｒｔｒ　ｉｓ"TCC_NEWLINE
-"ｉｎ　ｏｕｒ　ｇｒａｓｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｏ　ｗｅ　ｈａｖｅ　ｏｕｒ　ｄｅｓｔｉｎａｔｉｏー"TCC_NEWLINE"ｎ．　Ａｎｙｉｎｆｏｒｍａｔｉｏｎ　ｆｒｏｍ　Ｚａｃｈａｒー"TCC_NEWLINE"ｉａｓ　ｉｓｔｒｕｓｔｗｏｒｔｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎａｌｌｙ．．．　Ｔｈｅ　ｋｅｙ　ｔｏ　ｄｅｆｅａｔｉー"TCC_NEWLINE"ｎｇ　Ｓｕｒｔｒ　ｉｓｉｎ　ｏｕｒ　ｇｒａｓｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

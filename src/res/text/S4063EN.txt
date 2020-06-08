@@ -1,46 +1,31 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4063_EN] = TCC_OPEN_LEFT
-"Ｃｏｒｒｉｎ．．．　Ｅｖｅｎ　ｔｈｏｕｇｈ　Ｉ　ｃａｎ’ｔ　"TCC_NEWLINE"ｔｅｌｌ　ｙｏｕ"TCC_NEWLINE
-"ｔｈｅ　ｔｒｕｔｈ，　Ｉ　ｗｉｌｌ　ａｌｗａｙｓ　ｐｒｏｔｅ"TCC_NEWLINE"ｃｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｒｒｉｎ．．．　Ｅｖｅｎ　ｔｈｏｕｇｈ　Ｉ　ｃａｎ’ｔ"TCC_NEWLINE"　ｔｅｌｌ　ｙｏｕｔｈｅ　ｔｒｕｔｈ，　Ｉ　ｗｉｌｌ　ａｌー"TCC_NEWLINE"ｗａｙｓ　ｐｒｏｔｅｃｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4063_EN] = TCC_OPEN_LEFT
 "Ｗｅ’ｖｅ　ａｒｒｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ，　ｔｈｉｓ　ｉｓ　Ｍｉｄｇａｒｄ，　ｔｈｅｎ．．．ｔｈ"TCC_NEWLINE"ｅ　ｈｕｍａｎ"TCC_NEWLINE
-"ｒｅａｌｍ．　Ａｎｄ　Ｉ　ｓｕｐｐｏｓｅ　ｗｅ’ｒｅ　ｉｎ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
-"Ｋｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｔｈｉｓ　ｉｓ　Ｍｉｄｇａｒｄ，　ｔｈｅｎ．．．ｔー"TCC_NEWLINE"ｈｅ　ｈｕｍａｎｒｅａｌｍ．　Ａｎｄ　Ｉ　ｓｕｐｐｏｓｅ　"TCC_NEWLINE"ｗｅ’ｒｅ　ｉｎ　ｔｈｅＫｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ　ｎー"TCC_NEWLINE"ｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｉｓ　ｉｓ　ｗｈｅｒｅ　ｔｈｅｙ　ｃｏｍｍｉｔ　ａｌｌ　"TCC_NEWLINE"ｔｈｅｉｒ"TCC_NEWLINE
-"ｏｂｓｃｅｎｅ　ｈｕｍａｎ　ａｃｔｓ．．．　Ｈｏｗ　ｖｉｌｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｎｏｔｈｉｎｇ　ｔｏ　ｂｅ　ｄｏｎｅ　ｂｕｔ　ｃａｒｒ"TCC_NEWLINE"ｙ　ｏｕｔ"TCC_NEWLINE
-"Ｌａｄｙ　Ｆｒｅｙｊａ’ｓ　ｏｒｄｅｒｓ　ａｎｄ　ｒｅｔｕｒ"TCC_NEWLINE"ｎ　ｔｏ"TCC_NEWLINE
-"Ｄｋｋｌｆｈｅｉｍｒ　ａｓ　ｑｕｉｃｋｌｙ　ａｓ　ｐｏｓｓｉ"TCC_NEWLINE"ｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｗｈｅｒｅ　ｔｈｅｙ　ｃｏｍｍｉｔ　ａｌｌ"TCC_NEWLINE"　ｔｈｅｉｒｏｂｓｃｅｎｅ　ｈｕｍａｎ　ａｃｔｓ．．．　Ｈー"TCC_NEWLINE"ｏｗ　ｖｉｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｎｏｔｈｉｎｇ　ｔｏ　ｂｅ　ｄｏｎｅ　ｂｕｔ　ｃａｒー"TCC_NEWLINE"ｒｙ　ｏｕｔＬａｄｙ　Ｆｒｅｙｊａ’ｓ　ｏｒｄｅｒｓ　ａｎー"TCC_NEWLINE"ｄ　ｒｅｔｕｒｎ　ｔｏＤｋｋｌｆｈｅｉｍｒ　ａｓ　ｑｕｉｃー"TCC_NEWLINE"ｋｌｙ　ａｓ　ｐｏｓｓｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｎｄｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｆ　ｔｈｅｓｅ　ｗｒｅｔｃｈｅｄ　ｃｒｅａｔｕｒｅｓ　ｓｏ"TCC_NEWLINE"ｍｅｈｏｗ"TCC_NEWLINE
-"ｍａｎａｇｅ　ｔｏ　ｓｔｏｐ　ｕｓ．．．　Ｗｅ　ｃａｎ’ｔ　"TCC_NEWLINE"ａｌｌｏｗ　ｉｔ．"TCC_NEWLINE
-"Ｔｈｅ　ｔｈｉｎｇｓ　ｔｈｅｙ’ｒｅ　ｃａｐａｂｌｅ　ｏｆ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｓｈｕｄｄｅｒ　ａｔ　ｔｈｅ　ｔｈｏｕｇｈｔ　ｏｆ　ｔｈ"TCC_NEWLINE"ｅｍ"TCC_NEWLINE
-"ｅｖｅｎ　ｇｅｔｔｉｎｇ　ｎｅａ"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅｓｅ　ｗｒｅｔｃｈｅｄ　ｃｒｅａｔｕｒｅｓ　ｓー"TCC_NEWLINE"ｏｍｅｈｏｗｍａｎａｇｅ　ｔｏ　ｓｔｏｐ　ｕｓ．．．　Ｗｅ"TCC_NEWLINE"　ｃａｎ’ｔ　ａｌｌｏｗ　ｉｔ．Ｔｈｅ　ｔｈｉｎｇｓ　ｔｈー"TCC_NEWLINE"ｅｙ’ｒｅ　ｃａｐａｂｌｅ　ｏｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｈｕｄｄｅｒ　ａｔ　ｔｈｅ　ｔｈｏｕｇｈｔ　ｏｆ　ｔー"TCC_NEWLINE"ｈｅｍｅｖｅｎ　ｇｅｔｔｉｎｇ　ｎｅａ"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｈｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"．．．Ｎｏ，　ｉｔ’ｓ　ｎｏｔｈｉｎｇ．　Ｉ　ｊｕｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｌａｎｄｓｃａｐｅ．．．ｆｅｅｌｓ　ｓｏｍｅｈｏｗ"TCC_NEWLINE
-"ｆａｍｉｌｉａｒ．　Ｉｔ　ｍｕｓｔ　ｂｅ　ｄｊ　ｖｕ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｊｕｓｔ　ｈａｖｅ　ｔｈｅ　ｆｅｅｌｉｎｇ　Ｉ’ｖｅ　ｂ"TCC_NEWLINE"ｅｅｎ"TCC_NEWLINE
-"ｈｅｒｅ　ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｎｏ，　ｉｔ’ｓ　ｎｏｔｈｉｎｇ．　Ｉ　ｊｕｓｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌａｎｄｓｃａｐｅ．．．ｆｅｅｌｓ　ｓｏｍｅｈｏｗー"TCC_NEWLINE"ｆａｍｉｌｉａｒ．　Ｉｔ　ｍｕｓｔ　ｂｅ　ｄｊ　ｖｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ　ｈａｖｅ　ｔｈｅ　ｆｅｅｌｉｎｇ　Ｉ’ｖｅ　"TCC_NEWLINE"ｂｅｅｎｈｅｒｅ　ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．Ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｉｓ　ｓｔｒａｎｇｅ．　Ｉ　ｆｅｅｌ　ｔｈｅ　ｓａ"TCC_NEWLINE"ｍｅ．．．"TCC_NEWLINE
-"Ｂｕｔ　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｓｔｒａｎｇｅ．　Ｉ　ｆｅｅｌ　ｔｈｅ　ｓー"TCC_NEWLINE"ａｍｅ．．．Ｂｕｔ　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ　ｕｓｅ　ｗａｓｔｉｎｇ　ｔｉｍｅ　ｔｈｉｎｋｉｎｇ　ａ"TCC_NEWLINE"ｂｏｕｔ　ｉｔ．"TCC_NEWLINE
-"Ｗｅ　ａｒｅ　ｄｋｋｌｆａｒ　ｏｆ　Ｄｋｋｌｆｈｅｉｍｒ．"TCC_NEWLINE
-"Ｍｉｄｇａｒｄ　ｈａｓ　ｐｏｌｌｕｔｅｄ　ｏｕｒ　ｓｅｎｓｅ"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｕｓｅ　ｗａｓｔｉｎｇ　ｔｉｍｅ　ｔｈｉｎｋｉｎｇ　"TCC_NEWLINE"ａｂｏｕｔ　ｉｔ．Ｗｅ　ａｒｅ　ｄｋｋｌｆａｒ　ｏｆ　Ｄｋー"TCC_NEWLINE"ｋｌｆｈｅｉｍｒ．Ｍｉｄｇａｒｄ　ｈａｓ　ｐｏｌｌｕｔｅｄ"TCC_NEWLINE"　ｏｕｒ　ｓｅｎｓｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．　Ｌｅｔ’ｓ　ｇｏ，　ｔｈｅｎ．　"TCC_NEWLINE"Ｗｅ　ｍｕｓｔ"TCC_NEWLINE
-"ｓｅｅ　Ｌａｄｙ　Ｆｒｅｙｊａ’ｓ　ｏｒｄｅｒｓ　ｔｈｒｏｕ"TCC_NEWLINE"ｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．　Ｌｅｔ’ｓ　ｇｏ，　ｔｈｅｎ．"TCC_NEWLINE"　Ｗｅ　ｍｕｓｔｓｅｅ　Ｌａｄｙ　Ｆｒｅｙｊａ’ｓ　ｏｒｄー"TCC_NEWLINE"ｅｒｓ　ｔｈｒｏｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

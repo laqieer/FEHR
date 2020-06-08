@@ -1,8 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2033_EN] = TCC_OPEN_LEFT
-"Ｗｅｌｌ，　ｗｅｌｌ．　Ｔｈｅ　ｅｔｈｅｒｅａｌ　ｐｒｉｎｃ"TCC_NEWLINE"ｅｓｓ"TCC_NEWLINE
-"ｒｅｑｕｉｒｅｓ　ａ　ｓｔｏｕｔ　ａｎｄ　ｓｔｕｎｎｉｎｇ"TCC_NEWLINE
-"ｇｕａｒｄｉａｎ！"TCC_NEWLINE TCC_PUSH_A
-"Ｃｏｕｌｄ　ｉｔ　ｂｅ　ａｎｙ　ｃｌｅａｒｅｒ？　Ｉ　ａｍ　"TCC_NEWLINE"ｎｅｅｄｅｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｗｅｌｌ．　Ｔｈｅ　ｅｔｈｅｒｅａｌ　ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓｒｅｑｕｉｒｅｓ　ａ　ｓｔｏｕｔ　ａｎｄ　ｓｔｕｎー"TCC_NEWLINE"ｎｉｎｇｇｕａｒｄｉａｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｕｌｄ　ｉｔ　ｂｅ　ａｎｙ　ｃｌｅａｒｅｒ？　Ｉ　ａｍ"TCC_NEWLINE"　ｎｅｅｄｅｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,7 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4024_EN] = TCC_OPEN_LEFT
-"Ｔｈｅ　ｅｍｐｔｉｎｅｓｓ　ｏｆ　ｍｙ　ｐａｓｔ　ｓｔｉｌｌ"TCC_NEWLINE
-"ｔｒｏｕｂｌｅｓ　ｍｅ．　Ｐｅｒｈａｐｓ　ｓｏｍｅｄａｙ"TCC_NEWLINE
-"Ｉ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｊｕｓｔ　ｌｅｔ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｅｍｐｔｉｎｅｓｓ　ｏｆ　ｍｙ　ｐａｓｔ　ｓｔｉｌー"TCC_NEWLINE"ｌｔｒｏｕｂｌｅｓ　ｍｅ．　Ｐｅｒｈａｐｓ　ｓｏｍｅｄａｙー"TCC_NEWLINE"Ｉ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｊｕｓｔ　ｌｅｔ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

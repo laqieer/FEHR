@@ -1,22 +1,19 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3101_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ　ｍａｙ　ｒｅｊｏｉｃｅ．　Ａｆｔｅｒ　ｍｕｃｈ　ｒｅ"TCC_NEWLINE"ｓｅａｒｃｈ"TCC_NEWLINE
-"ｉｎ　ｔｈｅ　Ｌｉｂｒａｒｙ　ｏｆ　Ｅｍｂｌａ，　Ｉ　ｆｏｕ"TCC_NEWLINE"ｎｄ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍａｙ　ｒｅｊｏｉｃｅ．　Ａｆｔｅｒ　ｍｕｃｈ　ｒー"TCC_NEWLINE"ｅｓｅａｒｃｈｉｎ　ｔｈｅ　Ｌｉｂｒａｒｙ　ｏｆ　Ｅｍｂｌー"TCC_NEWLINE"ａ，　Ｉ　ｆｏｕｎｄ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｗｅａｐｏｎ　ｔｈａｔ　ｃａｎ　ｋｉｌｌ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｈｉｄｄｅｎ　ａｗａｙ　ｉｎ　ｔｈｅ　Ｔｅｍｐｌ"TCC_NEWLINE"ｅ"TCC_NEWLINE
-"ｏｆ　Ｂｌｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｈｉｄｄｅｎ　ａｗａｙ　ｉｎ　ｔｈｅ　Ｔｅｍｐー"TCC_NEWLINE"ｌｅｏｆ　Ｂｌｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．．．　Ｉ　ｔｈａｎｋ　ｙ"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．．．　Ｉ　ｔｈａｎｋ　"TCC_NEWLINE"ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｉｍｅ’ｓ　ｗａｓｔｉｎｇ．　Ｌｅｔ’ｓ　ｈｅａｄ　ｏｕｔ"TCC_NEWLINE"ｂｕｔ"TCC_NEWLINE
-"ｂｅ　ｓｕｒｅ　ｔｏ　ｒｅｍａｉｎ　ｏｎ　ｇｕａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｉｍｅ’ｓ　ｗａｓｔｉｎｇ．　Ｌｅｔ’ｓ　ｈｅａｄ　ｏｕー"TCC_NEWLINE"ｔｂｕｔｂｅ　ｓｕｒｅ　ｔｏ　ｒｅｍａｉｎ　ｏｎ　ｇｕａｒー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3101_EN] = TCC_OPEN_LEFT
 "Ｗｅ’ｒｅ　ｃｌｏｓｅ．　Ｈｕｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗａｉｔ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_THRASIR
-"Ｙｅｓ，　ｈｕｒｒｙ．　Ｈｕｒｒｙ　ｔｏ　ｙｏｕｒ　ｄｅａｔ"TCC_NEWLINE"ｈｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　ｈｕｒｒｙ．　Ｈｕｒｒｙ　ｔｏ　ｙｏｕｒ　ｄｅａー"TCC_NEWLINE"ｔｈｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
@@ -24,35 +21,27 @@ TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 TCC_OPEN_LEFT
 "Ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏ　Ｉ　ｓｅｅ　ｔｈａｔ　ｙｏｕ’ｖｅ　ａｉｍｌｅｓｓｌｙ"TCC_NEWLINE
-"ｗａｎｄｅｒｅｄ　ｉｎｔｏ　ｔｈｉｓ　ｗｏｒｌｄ，　Ｖｅｒｏ"TCC_NEWLINE"ｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｅｒａｓｅ　ｙｏｕｒ　ｆｏｏｌｉｓｈ　ｅｘｉｓ"TCC_NEWLINE"ｔｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　Ｉ　ｓｅｅ　ｔｈａｔ　ｙｏｕ’ｖｅ　ａｉｍｌｅｓｓｌー"TCC_NEWLINE"ｙｗａｎｄｅｒｅｄ　ｉｎｔｏ　ｔｈｉｓ　ｗｏｒｌｄ，　Ｖｅー"TCC_NEWLINE"ｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｅｒａｓｅ　ｙｏｕｒ　ｆｏｏｌｉｓｈ　ｅｘｉー"TCC_NEWLINE"ｓｔｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｇｅｔ　ｂａｃｋ，　Ｐｒｉｎｃｅｓｓ！　Ｗｅ’ｌｌ　ｈｅａｄ"TCC_NEWLINE"　ｏｆｆ"TCC_NEWLINE
-"ｔｈｉｓ　ｆｏｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｇｅｔ　ｂａｃｋ，　Ｐｒｉｎｃｅｓｓ！　Ｗｅ’ｌｌ　ｈｅａー"TCC_NEWLINE"ｄ　ｏｆｆｔｈｉｓ　ｆｏｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_THRASIR
 "Ｇｒｒｒｇｈ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｎｏｔ　ｌｏｓｅ．　Ｎｏｔ　ｕｎｔｉｌ　Ｉ　ｃ"TCC_NEWLINE"ａｎ　ｓａｖｅ"TCC_NEWLINE
-"ｈｉｍ．．．　Ｍｙ　ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｎｏｔ　ｌｏｓｅ．　Ｎｏｔ　ｕｎｔｉｌ　Ｉ　"TCC_NEWLINE"ｃａｎ　ｓａｖｅｈｉｍ．．．　Ｍｙ　ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｄｏｎ’ｔ　ｔｅｌｌ　ｍｅ．．．　Ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｎｄｅｅｄ．　Ｉ　ａｍ　Ｖｅｒｏｎｉｃａａｌｌ　ｇｒｏｗｎ"TCC_NEWLINE"　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｎ　ｔｈｅ　ｅｎｄ，　ｙｏｕ　ａｎｄ　Ｉ　ａｒｅ　"TCC_NEWLINE"ｎｏｔ"TCC_NEWLINE
-"ｔｈｅ　ｓａｍｅ　ｐｅｒｓｏｎ．　Ｔｗｏ　ｗｏｒｌｄｓ，　ｔ"TCC_NEWLINE"ｗｏ"TCC_NEWLINE
-"ｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｄｅｅｄ．　Ｉ　ａｍ　Ｖｅｒｏｎｉｃａａｌｌ　ｇｒｏｗー"TCC_NEWLINE"ｎ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｎ　ｔｈｅ　ｅｎｄ，　ｙｏｕ　ａｎｄ　Ｉ　ａｒｅ"TCC_NEWLINE"　ｎｏｔｔｈｅ　ｓａｍｅ　ｐｅｒｓｏｎ．　Ｔｗｏ　ｗｏｒｌー"TCC_NEWLINE"ｄｓ，　ｔｗｏｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍｅ，　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｒｅａｌｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅｌ　ｃａｎｎｏｔ　ｂｅ　ｋｉｌｌｅｄ．　Ｂｕｔ　ｙｏｕ，"TCC_NEWLINE
-"Ｖｅｒｏｎｉｃａ．．．　Ｙｏｕ，　Ｉ　ｃａｎ　ｋｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｃａｎｎｏｔ　ｂｅ　ｋｉｌｌｅｄ．　Ｂｕｔ　ｙｏｕ"TCC_NEWLINE"，Ｖｅｒｏｎｉｃａ．．．　Ｙｏｕ，　Ｉ　ｃａｎ　ｋｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ，　ａｒｅ　ｙｏｕ　ａｌｌ"TCC_NEWLINE"　ｒｉｇｈｔ？"TCC_NEWLINE
-"Ｙｏｕ’ｒｅ　ｗｏｕｎｄｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ，　ａｒｅ　ｙｏｕ　ａｌー"TCC_NEWLINE"ｌ　ｒｉｇｈｔ？Ｙｏｕ’ｒｅ　ｗｏｕｎｄｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ａｍ　ｆｉｎｅ．　Ｆｉｎｅ　ｅｎｏｕｇｈ　ｔｏ　ｓｅｒｖ"TCC_NEWLINE"ｅ　ａｓ"TCC_NEWLINE
-"ｙｏｕｒ　ｇｕｉｄｅ．　Ｌｅｔ　ｕｓ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｆｉｎｅ．　Ｆｉｎｅ　ｅｎｏｕｇｈ　ｔｏ　ｓｅｒー"TCC_NEWLINE"ｖｅ　ａｓｙｏｕｒ　ｇｕｉｄｅ．　Ｌｅｔ　ｕｓ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

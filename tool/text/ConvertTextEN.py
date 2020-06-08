@@ -38,6 +38,8 @@ FaceDefines = {
 
 TextIDStart = 6020
 
+alphabets = "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ"
+
 for filename in sys.argv[1:]:
     filenameIn = "../../res/feh/files/assets/USEN/Message/Scenario/" + filename + ".json"
     filenameOut = "../../src/res/text/" + filename + "EN.txt"
@@ -52,7 +54,7 @@ for filename in sys.argv[1:]:
                 mid = text["key"] + "_" + filename
                 fHeader.write("#define {} {}\n".format(mid + '_EN', TextIDStart))
                 TextIDStart += 1
-                text = text["value"].replace("\"", "").replace("\n", "\"TCC_NEWLINE\n\"").replace("$k$p", "\"TCC_NEWLINE TCC_PUSH_A\n\"").replace("$Nu", "\"TCC_TACTICIAN_NAME\"").replace("$", "|$")
+                text = text["value"].replace("\"", "").replace("\n", "").replace("$k$p", "\"TCC_NEWLINE TCC_PUSH_A\n\"").replace("$Nu", "\"TCC_TACTICIAN_NAME\"").replace("$", "|$")
                 texts = text.split('|')
                 text = ""
                 faces = {}
@@ -83,13 +85,13 @@ for filename in sys.argv[1:]:
                 if len(faces) > 0:
                     for facePos in faces.values():
                         text += "TCC_OPEN_" + FacePositions[facePos] + " TCC_CLEAR_FACE "
-                        text = text.replace("ＴＣＣ＿ＴＡＣＴＩＣＩＡＮ＿ＮＡＭＥ", "TCC_TACTICIAN_NAME").replace("ＴＣＣ＿ＮＥＷＬＩＮＥ", "TCC_NEWLINE").replace("ＴＣＣ＿ＰＵＳＨ＿Ａ", "TCC_PUSH_A").replace("＂", "\"").replace("＇", "’").replace(" ", "　").replace("　　", "　").replace("　TCC_", " TCC_").replace("\"　", "\"").replace("　\"", "\"").replace("　\n", "\n").replace("　,", " ,").replace("　 ", " ").replace("\"\"\n", "").replace("\"\"",
+                        text = text.replace("ＴＣＣ＿ＴＡＣＴＩＣＩＡＮ＿ＮＡＭＥ", "TCC_NEWLINE\nTCC_TACTICIAN_NAME").replace("ＴＣＣ＿ＮＥＷＬＩＮＥ", "TCC_NEWLINE").replace("ＴＣＣ＿ＰＵＳＨ＿Ａ", "TCC_PUSH_A").replace("＂", "\"").replace("＇", "’").replace(" ", "　").replace("　　", "　").replace("　TCC_", " TCC_").replace("\"　", "\"").replace("　\"", "\"").replace("　\n", "\n").replace("　,", " ,").replace("　 ", " ").replace("\"\"\n", "").replace("\"\"",
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "\"").replace("TCC_TACTICIAN_NAME\"TCC_NEWLINE",
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 "TCC_TACTICIAN_NAME TCC_NEWLINE").replace("\n\"TCC_", "\nTCC_").replace("\n\" TCC_", "\nTCC_").replace("　PORTRAIT_", " PORTRAIT_").replace("_FACE　", "_FACE ")
                 fOut.write("[{}] = {},\n".format(mid + '_EN', text))
     with open(filenameOut, "r+", encoding='cp932') as f:
         lines = f.readlines()
-        lineWidthMax = 30
+        lineWidthMax = 30 - 1
         linesNew = []
         for l in lines:
             quotationMarks = [m.start() for m in re.finditer('\"', l)]
@@ -101,14 +103,19 @@ for filename in sys.argv[1:]:
                 begin = quotationMarks[2 * i]
                 end = quotationMarks[2 * i + 1]
                 lineWidthNew += end - begin - 1
-                if lineWidthNew > lineWidthMax:
-                    splitPositions.append(begin + lineWidthMax - lineWidth + 1)
+                j = 1
+                while lineWidthNew > lineWidthMax:
+                    splitPositions.append(begin + lineWidthMax * j - lineWidth + 1)
                     lineWidthNew -= lineWidthMax
+                    j += 1
                 lineWidth = lineWidthNew
             splitPositions.sort(reverse=True)
             for p in splitPositions:
-                #TODO: to insert hyphen at last if newline in a word or to newline between words
-                l = l[:p] + '\"TCC_NEWLINE\"' + l[p:]
+                #TODO: Don't insert hyphen at the last alphabet of a word. Just newline after the word is better.
+                if l[p - 1] in alphabets and l[p] in alphabets:
+                    l = l[:p] + 'ー\"TCC_NEWLINE\"' + l[p:]
+                else:
+                    l = l[:p] + '\"TCC_NEWLINE\"' + l[p:]
             linesNew.append(l)
         f.seek(0)
         f.writelines(linesNew)

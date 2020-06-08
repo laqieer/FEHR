@@ -5,24 +5,17 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ！　Ｔｈｅ　ｅｎｅｍｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｔｈｒａｓｉｒ，　ｇｅｎｅｒａｌ　ｏｆ　ｔｈｅ　ｒ"TCC_NEWLINE"ｅａｌｍ　ｏｆ"TCC_NEWLINE
-"ｔｈｅ　ｄｅａｄ．　Ｉ　ａｍ　ｆｅａｒｅｄ　ａｓ　ｔｈｅ"TCC_NEWLINE
-"Ｏｍｎｉｃｉｄａｌ　Ｗｉｔｃｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙｏｎｅ　ｗｉｌｌ　ｐｅｒｉｓｈ．　Ｔｈａｔ　ｉｓ　"TCC_NEWLINE"ｗｈｙ　Ｉ"TCC_NEWLINE
-"ｈａｖｅ　ｃｏｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｔｈｒａｓｉｒ，　ｇｅｎｅｒａｌ　ｏｆ　ｔｈｅ　"TCC_NEWLINE"ｒｅａｌｍ　ｏｆｔｈｅ　ｄｅａｄ．　Ｉ　ａｍ　ｆｅａｒｅｄ"TCC_NEWLINE"　ａｓ　ｔｈｅＯｍｎｉｃｉｄａｌ　Ｗｉｔｃｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ　ｗｉｌｌ　ｐｅｒｉｓｈ．　Ｔｈａｔ　ｉｓ"TCC_NEWLINE"　ｗｈｙ　Ｉｈａｖｅ　ｃｏｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ａｇａｉｎ，　ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｖａｎｉｓｈｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｎａｍｅ，　Ｔｈｒａｓｉｒｉｔ　ｒｉｎｇｓ　ａ　ｂ"TCC_NEWLINE"ｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｇａｉｎ，　ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｖａｎｉｓｈｅｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｎａｍｅ，　Ｔｈｒａｓｉｒｉｔ　ｒｉｎｇｓ　ａ　"TCC_NEWLINE"ｂｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈｅ　ｆｉｒｓｔ　ｅｍｐｅｒｏｒ　ｏｆ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｈｅ’ｓ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ’ｓ　ａｎｃｅ"TCC_NEWLINE"ｓｔｏｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ’ｓ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ’ｓ　ａｎｃー"TCC_NEWLINE"ｅｓｔｏｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏ　ｓｈｅ　ｍｕｓｔ　ｂｅ．　Ｓｈｅ　ｗａｓ　ａ　ｗｉｔｃ"TCC_NEWLINE"ｈ　ｓｏ"TCC_NEWLINE
-"ｐｏｗｅｒｆｕｌ　ｓｈｅ　ｃｏｕｌｄ　ｌａｙ　ｗａｓｔｅ　ｔ"TCC_NEWLINE"ｏ　ａｎ"TCC_NEWLINE
-"ｅｎｔｉｒｅ　ｒｅａｌｍ　ｉｆ　ｓｈｅ　ｓｏ　ｃｈｏｓｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｆ　ａｎｄ　Ｔｈｒａｓｉｒ．．．　Ｉｔ　ｗｏｕｌｄ　ｓｅｅ"TCC_NEWLINE"ｍ　ｔｈａｔ"TCC_NEWLINE
-"ｔｈｅ　ｌｅｇｅｎｄａｒｙ　ｒｕｌｅｒｓ　ｆｒｏｍ　ｏｕｒ　"TCC_NEWLINE"ｈｉｓｔｏｒｙ"TCC_NEWLINE
-"ｂｏｏｋｓ　ａｒｅ　ｎｏｗ　ｏｕｒ　ｅｎｅｍｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｓｈｅ　ｍｕｓｔ　ｂｅ．　Ｓｈｅ　ｗａｓ　ａ　ｗｉｔー"TCC_NEWLINE"ｃｈ　ｓｏｐｏｗｅｒｆｕｌ　ｓｈｅ　ｃｏｕｌｄ　ｌａｙ　ｗー"TCC_NEWLINE"ａｓｔｅ　ｔｏ　ａｎｅｎｔｉｒｅ　ｒｅａｌｍ　ｉｆ　ｓｈｅ"TCC_NEWLINE"　ｓｏ　ｃｈｏｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｆ　ａｎｄ　Ｔｈｒａｓｉｒ．．．　Ｉｔ　ｗｏｕｌｄ　ｓｅー"TCC_NEWLINE"ｅｍ　ｔｈａｔｔｈｅ　ｌｅｇｅｎｄａｒｙ　ｒｕｌｅｒｓ　ｆー"TCC_NEWLINE"ｒｏｍ　ｏｕｒ　ｈｉｓｔｏｒｙｂｏｏｋｓ　ａｒｅ　ｎｏｗ　"TCC_NEWLINE"ｏｕｒ　ｅｎｅｍｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
