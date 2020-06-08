@@ -1,0 +1,114 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｆａｔｈｅｒ．．．　Ｉｔ　ｈａｓ　ｂｅｅｎ　ｓｏｍｅ　ｔｉｍ"TCC_NEWLINE"ｅ　ｓｉｎｃｅ"TCC_NEWLINE
+"ｗｅ　ｈａｖｅ　ｓｐｏｋｅｎ．　Ｉ　ａｍ　ｈｏｎｏｒｅｄ　ｔ"TCC_NEWLINE"ｏ　ｂｅ"TCC_NEWLINE
+"ｉｎｖｉｔｅｄ　ｔｏ　ｔｈｉｓ　ａｕｄｉｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_HENRIETTE
+"Ｏｈ，　Ａｌｆｏｎｓｅ！　Ｄｏｎ’ｔ　ｂｅ　ｎｅｒｖｏｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ’ｓ　ｍｉｓｓｅｄ　ｙｏｕ　ｓｏ　ｍｕｃｈ！　Ｉｔ’ｓ　"TCC_NEWLINE"ｂｅｅｎ"TCC_NEWLINE
+"ｆａｒ　ｔｏｏ　ｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅｎｒｉｅｔｔｅ．．．　Ｐｌｅａｓｅ，　ｂｅ　ｄｉｓｃｒｅ"TCC_NEWLINE"ｅｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｙ　ｍｉｓｔａｋｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ，　ｍｙ　ｓｏｎ．　Ｉ’ｍ　ｓｕｒｅ　ｙｏｕｒ"TCC_NEWLINE
+"ｍｏｔｈｅｒ　ｈａｓ　ｆｉｌｌｅｄ　ｙｏｕ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｋｒ　ｈａｓ　ｂｅｅｎ　ｉｎｖａｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｓｈｅ　ｓａｉｄ　ｔｈａｔ　ｔｈｅ　ｓｏｌｄｉｅｒ"TCC_NEWLINE"ｓ　ａｒｅ"TCC_NEWLINE
+"ｆｒｏｍ　Ｈｅｌ，　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａ"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｌｉｔｔｌｅ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｏ　ｔｈｅ　ｗｅｓｔ　ｌｉｅｓ　ａ　ｄｅｓｏｌａｔｅ　ｔｏ"TCC_NEWLINE"ｍｂ．．．　Ｉｔ"TCC_NEWLINE
+"ｉｓ　ａ　ｇａｔｅ　ｔｏ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　"TCC_NEWLINE"ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｗｅｎｔｙ　ｙｅａｒｓ　ａｇｏ　ｎｏｗ，　Ｉ　ｃｏｍｍａｎ"TCC_NEWLINE"ｄｅｄ"TCC_NEWLINE
+"ａ　ｂａｒｒｉｅｒ　ｂｅ　ｅｒｅｃｔｅｄ　ｔｏ　ｓｅａｌ　ｉ"TCC_NEWLINE"ｔ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｎｄ　ｓｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｓ　ｙｏｕ　ｗｅｌｌ　ｋｎｏｗ，　ｗｅ　Ａｓｋｒａｎｓ　ｃ"TCC_NEWLINE"ａｎｎｏｔ"TCC_NEWLINE
+"ｃｌｏｓｅ　ｇａｔｅｓｏｎｌｙ　ｏｐｅｎ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　Ｉ　ｃｏｕｌｄ　ｄｏ　ｔｏ　ｃｌｏｓｅ　ｏｆｆ　Ｈｅ"TCC_NEWLINE"ｌ　ｗａｓ"TCC_NEWLINE
+"ｅｎｃｉｒｃｌｅ　ｔｈｅ　ｔｏｍｂ　ｗｉｔｈ　ｏｕｒ　ｓｔｒ"TCC_NEWLINE"ｏｎｇｅｓｔ"TCC_NEWLINE
+"ｂａｒｒｉｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　２０　ｙｅａｒｓ，　ｉｔ　ｈａｓ　ｈｅｌｄ　ｔｈｅｍ"TCC_NEWLINE"　ｏｆｆ．"TCC_NEWLINE
+"Ｎｏｎｅ　ｈａｖｅ　ｍａｄｅ　ｉｔ　ｐａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏｗ．．．ｔｈａｔ　ｄｅｆｅｎｓｅ　ｈａｓ　ｆａｌ"TCC_NEWLINE"ｌｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ａｒｍｙ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｈａｓ　ｓｕｒｇｅ"TCC_NEWLINE"ｄ　ｉｎｔｏ"TCC_NEWLINE
+"Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｏｗ　ｔｅｒｒｉｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｍｕｓｔ　ｓｔｏｐ　ｔｈｅｍ．　Ｎｏ　ｉｎｊｕｒｙ　ｃ"TCC_NEWLINE"ａｎ"TCC_NEWLINE
+"ｂｅｆａｌｌ　ｏｕｒ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ，　ｍｙ　ｓｏｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　Ｆａｔｈｅｒ．　Ｉ　ｗｉｌｌ　ｎｏｔ　ｆａｉｌ　ｙ"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ　ｍｕｓｔ　ｌｅａｄ　ｔｈｅ　ｃｈａｒｇｅ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｔｏｍｂ．"TCC_NEWLINE
+"Ｌｅｔ’ｓ　ｇｏ，"TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｕｒ　ｓｃｏｕｔｓ　ｈａｖｅ　ａｌｒｅａｄｙ　ｒｅａｃｈｅ"TCC_NEWLINE"ｄ　ｔｈｅ"TCC_NEWLINE
+"ｇａｔｅ．　Ｏｕｒ　ｒｏｌｅ　ｉｓ　ｔｏ　ｇａｔｈｅｒ　ｉｎ"TCC_NEWLINE"ｆｏｒｍａｔｉｏｎ"TCC_NEWLINE
+"ｆｏｒ　ｔｈｅ　ｋｉｎｇ’ｓ　ｋｎｉｇｈｔｓ　ｗｈｏ　ｗｉｌ"TCC_NEWLINE"ｌ　ｆｏｌｌｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｏｆ　ｔｈｅ　ｕｔｍｏｓｔ　ｉｍｐｏｒｔａｎ"TCC_NEWLINE"ｃｅ．"TCC_NEWLINE
+"Ｃｏｍｅ　ｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｋｎｏｗ　ｔｈｉｓ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｅｖｏｔｅ　ｍｙｓｅｌｆ　ｔｏ　ｙｏｕ．　Ｎ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｍａｔｔｅｒ　ｗｈａｔ　ｏｒｄｅｒ　ｙｏｕ　ｇｉｖｅ　ｍｅ，"TCC_NEWLINE"　Ｉ"TCC_NEWLINE
+"ｗｉｌｌ　ｏｂｅｙ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+"Ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｗｈａｔ　ａ"TCC_NEWLINE
+"ｐｅｒｆｅｃｔ　ｌｉｔｔｌｅ　ｍｅｓｓ！　Ｗｏｕｌｄｎ’ｔ　"TCC_NEWLINE"ｙｏｕ　ｓａｙ"TCC_NEWLINE
+"ｓｏ，　ｄｅａｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｂｅｔｒａｙｅｄ　ｍｅ，　ａｎｄ　ｙｅｔ　ｈｅｒｅ　"TCC_NEWLINE"ｙｏｕ"TCC_NEWLINE
+"ｓｔａｎｄ，　ｗｉｔｈｏｕｔ　ａ　ｔｒａｃｅ　ｏｆ　ｆｅａｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ　ｍｙ，　ｍｙ，　ｍｙ．　Ｉ　ｈｅｌｐｅｄ　ｙｏｕ　ｉｎ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
+"ｅｎｄ，　ｄｅａｒ，　ｄｉｄｎ’ｔ　Ｉ？　Ｗｈａｔ　ａ　ｖｉ"TCC_NEWLINE"ｃｉｏｕｓ"TCC_NEWLINE
+"ｌｏｏｋ　ｙｏｕ　ｈａｖｅ　ｏｎ　ｙｏｕｒ　ｆａｃｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ　ｆｏｒｇｉｖｅ　ｍｅ！　Ｏｒ　ｋｉｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｗｏｕｌｄ　ｉｆ　Ｉ　ｃｏｕｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｌｏｐｐｉｎｇ　ｙｏｕｒ　ｈｅａｄ　ｏｆｆ　ｗｏｕｌ"TCC_NEWLINE"ｄｎ’ｔ"TCC_NEWLINE
+"ａｃｃｏｍｐｌｉｓｈ　ａｎｙｔｈｉｎｇ　ａｔ　ａｌｌ，　ｗｏ"TCC_NEWLINE"ｕｌｄ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｄｏ　ｆｕｓｓ　ｓｏ，　Ｖｅｒｏｎｉｃａ．　Ｂｕｔ　"TCC_NEWLINE"ｒａｔｈｅｒ"TCC_NEWLINE
+"ｔｈａｎ　ｗｏｒｒｙ　ａｂｏｕｔ　ｍｙ　ｈｅａｄ，　ｗｈａｔ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｌｏｃａｔｉｏｎｓ　ｏｆ．．．ｏｔｈｅｒ　ｔｈｉｎｇ"TCC_NEWLINE"ｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｂｒｏｔｈｅｒ，　ｔｈｅ　ｐｒｉｎｃｅ，　ｓｔｉｌ"TCC_NEWLINE"ｌ　ｈａｓｎ’ｔ"TCC_NEWLINE
+"ｒｅｔｕｒｎｅｄ　ｆｒｏｍ　ｈｉｓ　ｌｉｔｔｌｅ　ｑｕｅｓｔ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｈａｔ　ｄｏ　ｙｏｕ　ｐｌａｎ　ｔｏ　ｄｏ　ｗｈｅ"TCC_NEWLINE"ｎ"TCC_NEWLINE
+"Ｈｅｌ　ｔｕｒｎｓ　ｔｏｗａｒｄ　ｙｏｕ，　ａｎｄ　Ｅｍｂｌ"TCC_NEWLINE"ａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　Ｈｅｌ　ｄｅｓｔｒｏｙｓ　Ａｓｋｒ，　ｔｈａｔ　ｉｓ　"TCC_NEWLINE"ａｌｌ　ｔｏ　ｔｈｅ"TCC_NEWLINE
+"ｇｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｅｍｂｌａ　ｍｕｓｔ　ｎｏｔ　ｂｅ　ｔｏｕｃｈｅｄ　"TCC_NEWLINE"ｂｙ"TCC_NEWLINE
+"ｔｈｉｓ　ｃｏｎｆｌｉｃｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｄｅａｄ　ａｒｅ　ｅｎｅｍｉｅｓ　ｔｏ　ａｌｌ　ｔｈ"TCC_NEWLINE"ｅ　ｌｉｖｉｎｇ．"TCC_NEWLINE
+"Ｉｔ’ｓ　ｏｎｌｙ　ａ　ｍａｔｔｅｒ　ｏｆ　ｔｉｍｅ，　ｓｗ"TCC_NEWLINE"ｅｅｔ　ｇｉｒｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｍａｋｅｓ　ａｎ　ｕｎｒｅｌｅｎｔｉｎｇ　ｆｏｅ．　"TCC_NEWLINE"Ａｌｏｎｅ，"TCC_NEWLINE
+"Ａｓｋｒ　ｓｔａｎｄｓ　ｎｏ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｏｋｉ．．．　Ｔｈｉｓ　ｉｓ　ｙｏｕｒ　ｄｏｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｙ　ｄｅａｒ！　Ｙｏｕ　ｗｏｕｎｄ　ｍｅ！　Ｔｏ　ｓｕｇｇ"TCC_NEWLINE"ｅｓｔ"TCC_NEWLINE
+"ｔｈａｔ　Ｉ’ｄ　ｂｅ　ｒｅｓｐｏｎｓｉｂｌｅ　ｆｏｒ　ｔｈ"TCC_NEWLINE"ｉｓ．．．　Ａｆｔｅｒ"TCC_NEWLINE
+"ａｌｌ　ｗｅ’ｖｅ　ｂｅｅｎ　ｔｈｒｏｕｇｈ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

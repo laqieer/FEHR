@@ -1,0 +1,124 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3095_EN] = TCC_OPEN_LEFT
+"Ｔｈｅ　ｃａｓｔｌｅ．　Ｉｔ’ｓ　ｔｈｅ　ｓａｍｅ　ａｓ　ｏ"TCC_NEWLINE"ｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｇｏ　ｉｎｓｉｄｅ．　Ｙｏｕ　ｗａｉｔ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｅｒ，　ｗｅｌｌ．．．　Ｗｅ’ｒｅ　ｈａｐｐｙ　ｔｏ　ｈｅｌ"TCC_NEWLINE"ｐ"TCC_NEWLINE
+"ｗｉｔｈ　ｙｏｕｒ　ｒｅｓｅａｒｃｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｍｉｓｕｎｄｅｒｓｔａｎｄ　ｍｅ．　Ｉ　ａｍ"TCC_NEWLINE
+"ｃｏｏｐｅｒａｔｉｎｇ　ｗｉｔｈ　ｙｏｕ　ｏｎｌｙ　ａｓ　ｍ"TCC_NEWLINE"ｕｃｈ"TCC_NEWLINE
+"ａｓ　ｉｓ　ｎｅｃｅｓｓａｒｙ　ｔｏ　ｄｅｓｔｒｏｙ　Ｈｅｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｌｅｔｔｉｎｇ"TCC_NEWLINE"　ｍｙ　ｆｏｅｓ"TCC_NEWLINE
+"ｗａｎｄｅｒ　ａｒｏｕｎｄ　ｍｙ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｒ．．．　Ｙｏｕ’ｖｅ　ｍａｄｅ　ｙｏｕｒｓｅｌｆ　ｃｌｅ"TCC_NEWLINE"ａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏｗ　ｈｕｒｒｙ．　Ｙｏｕｒ　ｅｎｅｍｙ　ｈａｓ　ａｒｒｉ"TCC_NEWLINE"ｖｅｄ，"TCC_NEWLINE
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｌｆ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｗｏｒｌｄ．　Ｍｙ　ｗｏｒｌｄ．　Ｔｈｉｓ　ｉｓ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
+"ｃｈｏｉｃｅ　Ｉ　ｆａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｅｎｄ　ｌｉｖｅｓ　ｏｎｌｙ　ｔｏ　ｓａｖｅ　ｌｉｖｅｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｄｏｅｓ　ｔｈａｔ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｂｒｏｋｅ　ｏｐｅｎ　ａ　ｔｅｒｒｉｂｌｅ　ｃｕｒｓｅ．"TCC_NEWLINE"．．"TCC_NEWLINE
+"ａｎｄ　ｐｅｒｆｏｒｍｅｄ　ａ　ｆｏｒｂｉｄｄｅｎ　ｒｉｔｅ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｉｔ　ｗａｓ　ａｌｌ　ｔｏ　ｄｅｆｅａｔ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ａ　ｔｅｒｒｉｂｌｅ　ｍｉｓｔａｋｅ．　Ｅｖｅ"TCC_NEWLINE"ｒｙｏｎｅ"TCC_NEWLINE
+"ｉｎ　Ａｓｋｒ　ｄｉｅｄ，　ｏｎｅ　ｂｙ　ｏｎｅ．．．ａｎｄ"TCC_NEWLINE"　Ｉ　ａｍ"TCC_NEWLINE
+"ｔｏ　ｂｌａｍｅ　ｆｏｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｗａｓ　ｄｅｓｐｅｒａｔｅ　ｔｏ　ｄｅｆｅａｔ　Ｈｅｌ．"TCC_NEWLINE"　Ｉ"TCC_NEWLINE
+"ｍａｄｅ　ａ　ｄａｎｇｅｒｏｕｓ　ｗａｇｅｒ，　ａｎｄ　Ｉ"TCC_NEWLINE
+"ｌｏｓｔ．　Ｗｅ　ａｌｌ　ｄｉｄ．　Ｈｅｌ　ｗｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｋｉｌｌｅｄ　ｍｙ　ｓｉｓｔｅｒ．．．　Ｓｈａｒｅｎ"TCC_NEWLINE"ａ　ｇａｖｅ"TCC_NEWLINE
+"ｅｖｅｒｙｔｈｉｎｇ　ｔｏ　ｔｒｙ　ａｎｄ　ｐｒｏｔｅｃｔ　"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE
+"Ｈｅｒ　ｌａｓｔ　ｗｏｒｄｓ　ｗｅｒｅ，　Ｓａｖｅ　ｙｏｕｒ"TCC_NEWLINE"ｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　ｉｎ　ｔｈｅ　ｅｎｄ．．．ａｆｔｅｒ　ｅｖｅｒｙｔｈ"TCC_NEWLINE"ｉｎｇ．．．"TCC_NEWLINE
+"Ｈｅｌ　ｂａｄｅ　ｍｅ　ｂａｌａｎｃｅ　ｔｈｅ　ｃｏｈｏｒｔ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｓｏｍｅｏｎｅ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｒｅａｌ"TCC_NEWLINE"ｍ"TCC_NEWLINE
+"ｄｉｅｓ．．．ｓｏｍｅｏｎｅ　ｈｅｒｅ　ｉｓ　ｓａｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｏｕｌｄ　ｂｅ　ｌｉｋｅ　ｎｏ　ｏｎｅ　ｅｖｅｒ　ｄ"TCC_NEWLINE"ｉｅｄ．．．"TCC_NEWLINE
+"Ｅｖｅｎ　Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎ　ｔｈｏｓｅ　ｔｅｒｍｓ，　Ｉ　ｆｏｒｇｅｄ　ａ　ｃｏｎ"TCC_NEWLINE"ｔｒａｃｔ"TCC_NEWLINE
+"ｗｉｔｈ　Ｈｅｌ．　Ｔｏ　ｓａｖｅ　ｏｕｒ　ｗｏｒｌｄ．．．"TCC_NEWLINE"Ｉ　ｗｉｌｌ"TCC_NEWLINE
+"ｄｅｃｉｍａｔｅ　ｙｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ！　Ｔｏ　ｔｈｉｎｋ　Ｉ’ｄ　ｓｅｒｖｅ　Ｈｅｌ．．．　"TCC_NEWLINE"Ｈａｖｅ"TCC_NEWLINE
+"ｙｏｕ　ｌｏｓｔ　ｙｏｕｒ　ｍｉｎｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｏｓｅ　ｍｙ　ｍｉｎｄ？　Ｈｏｗ　ｃｏｕｌｄ　Ｉ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ａｌｌ　ｍｙ　ｆａｕｌｔ．．．　Ｔｈｅ　ｐｅｏ"TCC_NEWLINE"ｐｌｅ"TCC_NEWLINE
+"ｏｆ　Ａｓｋｒ　ａｎｄ　Ｓｈａｒｅｎａ．．．　Ｅｖｅｎ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｓａｎｉｔｙ．．．ｉｔ　ｄｉｅｄ　ｗｉｔｈ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ｉ　ｃａｎｎｏｔ　ｆａｌｌ　ｈｅｒｅ．．．　Ｉ　ｍｕｓｔ　ｓ"TCC_NEWLINE"ｔｏｐ　ｔｈｅｍ．"TCC_NEWLINE
+"Ｉ　ｍｕｓｔ　ｓａｖｅ　ｍｙ　ｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｂａｌａｎｃｅ　ｔｈｅ　ｃｏｈｏｒｔ　ｏｆ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
+"ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3095_EN] = TCC_OPEN_LEFT
+"Ｉｔ　ｓｅｅｍｓ　ｙｏｕｒ　ｆｏｅ　ｈａｓ　ｆｌｅｄ．　Ｗｈ"TCC_NEWLINE"ａｔ　ａ"TCC_NEWLINE
+"ｖｅｎｇｅｆｕｌ　ｃｒｅａｔｕｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．ｏｆ　ｔｈｉｓ　Ａ"TCC_NEWLINE"ｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅｒｅ　ｙｏｕ　ａｂｌｅ　ｔｏ　ｆｉｎｄ　ａｎｙ　ｉｎｆｏ"TCC_NEWLINE"ｒｍａｔｉｏｎ"TCC_NEWLINE
+"ａｂｏｕｔ　ｔｈｅ　ｒｉｔｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｇｒｂｏａ’ｓ　Ｈｅａｒｔ．　Ｔｈａｔ　ｉｓ　ｗｈａｔ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
+"ｃｅｒｅｍｏｎｙ　ｒｅｑｕｉｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｇｒｂｏａ　ｉｓ　ａ　ｂｅｉｎｇ　ｏｆ　ｇｒｅａｔ　ｐｏ"TCC_NEWLINE"ｗｅｒ．．．"TCC_NEWLINE
+"Ｉｔ　ｗａｓ　Ａｎｇｒｂｏａ　ｗｈｏ　ｇａｖｅ　ｂｉｒｔｈ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
+"Ｈｅｌ　ｈｅｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｙ　ｈａｒｎｅｓｓｉｎｇ　Ａｎｇｒｂｏａ’ｓ　ｐｏｗｅｒ，"TCC_NEWLINE
+"ｗｅ　ｃａｎ　ｋｉｌｌ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｕｔ　ｔｈｅ　ｃｕｒｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ｔｈｅ　ｈｅａｒｔ　ｉｓ　ｓｅａｌｅｄ　ｗｉｔｈｉ"TCC_NEWLINE"ｎ　ａｎ"TCC_NEWLINE
+"Ｅｍｂｌｉａｎ　ｂｌｏｏｄ　ｔｅｍｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ　ｓｅａｌ　ｉｓ　ｂｒｏｋｅｎ，　ｓｏｍｅｏｎ"TCC_NEWLINE"ｅ　ｗｉｌｌ"TCC_NEWLINE
+"ｄｉｅ　ｅａｃｈ　ｔｉｍｅ　ｔｈｅ　ｈｅａｒｔ　ｂｅａｔｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｗｈｏ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ　ａｒｅ"TCC_NEWLINE
+"ｔｈｅ　ｆｉｒｓｔ　ｔｏ　ｄｉｅ．　Ａｌｌ　ｄｉｅ，　ｅｖｅ"TCC_NEWLINE"ｎｔｕａｌｌｙ．．．"TCC_NEWLINE
+"Ｏｎｅ　ｂｙ　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ａｌｌ　ａｒｅ　ｄｅａｄ，　ｔｈｅ　ｈｅａｒｔ　ｇ"TCC_NEWLINE"ｒｏｗｓ"TCC_NEWLINE
+"ｑｕｉｅｔ　ｏｎｃｅ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ　ｃａｎ’ｔ　ｄｏ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｗｏｎｄｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ　ｗｏｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｃａｎｎｏｔ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ　ｉｎ　"TCC_NEWLINE"ｏｕｒ"TCC_NEWLINE
+"ｗｏｒｌｄ，　ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅ　ｃｅｒｅｍｏｎｙ　ｈａｓ　ａｌｒｅａｄｙ　ｂ"TCC_NEWLINE"ｅｅｎ"TCC_NEWLINE
+"ｐｅｒｆｏｒｍｅｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍｕｓｔ　ｂｅ　ｈｅｒｅ．　Ｓｏｍｅｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｅａｐｏｎ　ｂｏｒｎ　ｏｆ　ｔｈｅ　Ｈｅａｒｔ’ｓ"TCC_NEWLINE
+"Ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｅａｐｏｎ　ｔｈａｔ　ｃａｎ　ｋｉｌｌ　Ｈｅｌ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -3,8 +3,8 @@
 echo "" > texts.txt
 echo "" > texts.h
 
-for f in S????.txt
+for f in S*.txt
 do
 	echo "#include \"$f\"" >> texts.txt
-    echo "#include \"${f:0:5}.h\"" >> texts.h
+    echo "#include \"${f%txt}h\"" >> texts.h
 done

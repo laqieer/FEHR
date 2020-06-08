@@ -1,0 +1,29 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S0301_EN] = TCC_OPEN_LEFT
+"Ｓｏ，　ｙｏｕ　ｈａｖｅ　ｃｏｍｅ　ｔｏ　ｂａｔｔｌｅ　ｕｓ"TCC_NEWLINE"？"TCC_NEWLINE
+"Ｔｈｉｓ　ｗｉｌｌ　ｂｅ　ｔｈｅ　ｓｅｃｏｎｄ　ｔｉｍｅ"TCC_NEWLINE
+"ｙｏｕ　ｆａｃｅ　ｍｙ　ｂｌａｄｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ａｒｅ　ａｌｌ　ｂｏｕｎｄ　ｂｙ　ａ　ｃｏｎｔｒａｃｔ"TCC_NEWLINE
+"ｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｅｔ　Ｉ　ａｍ　ａｌｓｏ　ｂｏｕｎｄ　ｉｎ　ａｎｏ"TCC_NEWLINE"ｔｈｅｒ"TCC_NEWLINE
+"ｗａｙｂｙ　ｔｈｅ　ｄｅｅｐ　ｌｏｎｅｌｉｎｅｓｓ　Ｉ"TCC_NEWLINE
+"ｓｅｅ　ｉｎ　ｈｅｒ　ｅｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｒｅｍｉｎｄｓ　ｍｅ　ｏｆ　ｏｎｅ　ｏｆ　ｍｙ"TCC_NEWLINE
+"ｓｉｂｌｉｎｇｓ　ｗｈｏ　ｗａｓ　ｏｎｃｅ　ｈｅｌｄ　ｃａｐ"TCC_NEWLINE"ｔｉｖｅ"TCC_NEWLINE
+"ｉｎ　ａ　ｊｏｙｌｅｓｓ　ｆｏｒｔｒｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　ｙｏｕ　ｃａｎ　ｕｎｄｅｒｓｔａｎｄ"TCC_NEWLINE
+"ｗｈｙ　Ｉ　ｃｏｕｌｄ　ｎｅｖｅｒ　ｏｐｐｏｓｅ　ｈｅｒ．"TCC_NEWLINE
+"Ｏｒ　ｐｅｒｈａｐｓ　ｙｏｕ　ｃａｎｎｏｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｉｔｈｅｒ　ｗａｙ，　ｉｔ’ｓ　ｔｉｍｅ　ｔｈａｔ　ｍｙ　"TCC_NEWLINE"ｆａｍｉｌｙ"TCC_NEWLINE
+"ａｎｄ　Ｉ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｙｏｕ．　Ｃａｍｉｌ"TCC_NEWLINE"ｌａ，"TCC_NEWLINE
+"Ｌｅｏ，　ａｎｄ　Ｅｌｉｓｅｗｅ　ｂａｔｔｌｅ　ｎｏｗ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0301_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ｈａｖｅ　ｍｏｒｅ　ｔａｌｅｎｔ　ｔｈａｎ　Ｉ　ｔｈ"TCC_NEWLINE"ｏｕｇｈｔ．"TCC_NEWLINE
+"Ｂｕｔ　ｎｏｗ　ｍｙ　ｆａｍｉｌｙ　ａｎｄ　Ｉ　ｋｎｏｗ"TCC_NEWLINE
+"ｗｈａｔ　ｙｏｕ　ｃａｎ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｌｌ　ｎｅｖｅｒ　ｓｕｒｖｉｖｅ　ｔｈｅ　ｂａｔ"TCC_NEWLINE"ｔｌｅｓ"TCC_NEWLINE
+"ｎｅｘｔ　ｔｏ　ｃｏｍｅｅａｃｈ　ｏｆ　ｕｓ，　ｗｉｔｈ　ｏ"TCC_NEWLINE"ｕｒ"TCC_NEWLINE
+"ｌｏｙａｌ　ｒｅｔａｉｎｅｒｓ　ａｔ　ｏｕｒ　ｓｉｄｅ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

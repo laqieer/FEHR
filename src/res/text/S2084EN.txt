@@ -1,0 +1,9 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2084_EN] = TCC_OPEN_LEFT
+"Ｍｙ　ｐａｐａ？　Ａｍａｚｉｎｇ　ｉｎ　ｅｖｅｒｙ　ｗａｙ．"TCC_NEWLINE"　Ａｎｄ"TCC_NEWLINE
+"Ｉ’ｍ　ｇｏｎｎａ　ｂｅ　ｊｕｓｔ　ｌｉｋｅ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ｍａｍａ　ｉｓ　ｒｅａｌｌｙ　ｓｔｒｏｎｇ．　Ｉ　ｗａ"TCC_NEWLINE"ｎｎａ　ｂｅ"TCC_NEWLINE
+"ｊｕｓｔ　ｌｉｋｅ　ｈｅｒ．　Ｓｏ　Ｉ　ｗｉｌｌ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

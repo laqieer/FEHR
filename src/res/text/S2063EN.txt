@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2063_EN] = TCC_OPEN_LEFT
+"Ｉ’ｍ　Ｍｏｒｇａｎ，　ｄａｕｇｈｔｅｒ　ｏｆ　ｔｈｅ　ｇｅ"TCC_NEWLINE"ｎｉｕｓ"TCC_NEWLINE
+"ｔａｃｔｉｃｉａｎ　Ｒｏｂｉｎ．　Ｌｅｔ’ｓ　ｓｅｅ　ｗｈｏ"TCC_NEWLINE"　ｈａｓ　ｔｈｅ"TCC_NEWLINE
+"ｂｅｔｔｅｒ　ｍｉｎｄ　ｆｏｒ　ｓｔｒａｔｅｇｙｙｏｕ　ｏｒ"TCC_NEWLINE"　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

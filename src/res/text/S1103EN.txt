@@ -1,0 +1,44 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S1103_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗａｉｔ！　Ｗｅ　ｈａｖｅ　ｎｏ　ｗｉｓｈ　ｔｏ　ｆｉｇｈｔ"TCC_NEWLINE"　ｙｏｕ．"TCC_NEWLINE
+TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｆａｃｔ，　Ｉ　ｗａｎｔ　ｔｏ　ｔｈａｎｋ　ｙｏｕ　ｆ"TCC_NEWLINE"ｏｒ　ｔｅｌｌｉｎｇ"TCC_NEWLINE
+"ｕｓ　ａｂｏｕｔ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ’ｓ　ｐ"TCC_NEWLINE"ｌａｎ"TCC_NEWLINE
+"ｔｏ　ｄｅｓｔｒｏｙ　ｔｈｅ　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｗａｎｔ　ｔｏ　ｔｈａｎｋ　ｍｅ？　Ｈａｈ．　Ｙｏｕ"TCC_NEWLINE
+"ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ａ　ｔｈｉｎｇ，　ｄｏ　ｙ"TCC_NEWLINE"ｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ　ｊｕｓｔ　ｔｒｙｉｎｇ　ｔｏ　ｋｅｅｐ　ｔｈｉｎｇｓ"TCC_NEWLINE
+"ｉｎｔｅｒｅｓｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｍｙ　ｓｉｓｔｅｒ　ｃｏｎｑｕｅｒｅｄ　Ａｓｋｒ，　ｓ"TCC_NEWLINE"ｈｅ’ｄ"TCC_NEWLINE
+"ｓｔｅａｌ　ａｌｌ　ｔｈｅ　ｇｌｏｒｙ．　Ｗｈｏ　ｗａｎｔｓ"TCC_NEWLINE"　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_NEWLINE
+TCC_OPEN_RIGHT
+"Ｙｏｕｒ．．．ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｖｅｒｏｎｉｃａ　ｉｓ　ｍｙ　ｌ"TCC_NEWLINE"ｉｔｔｌｅ"TCC_NEWLINE
+"ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｂｒｕｎｏ．　Ｓｐｅａｋｉｎｇ"TCC_NEWLINE
+"ｆｏｒｍａｌｌｙ，　ｙｏｕ’ｄ　ｃａｌｌ　ｍｅ　Ｐｒｉｎｃｅ"TCC_NEWLINE"　Ｂｒｕｎｏ"TCC_NEWLINE
+"ｏｆ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｒｉｎｃｅ．．．Ｂｒｕｎｏ？　Ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｙｏｕｒ　ｒｉｖａｌ．　Ｔｈａｔ"TCC_NEWLINE"　ｇｉｖｅｓ　ｕｓ"TCC_NEWLINE
+"ｒｅａｓｏｎ　ｔｏ　ｆｉｇｈｔ　ｔｏ　ｔｈｅ　ｄｅａｔｈ．　"TCC_NEWLINE"Ａｎｄ　ｓｏ"TCC_NEWLINE
+"ｗｅ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S1103_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｇｏ　ｏｎ．　Ｋｅｅｐ　ｆｉｇｈｔｉｎｇ．　Ｎｏ　ｍａｔｔｅ"TCC_NEWLINE"ｒ　ｈｏｗ"TCC_NEWLINE
+"ｈａｒｄ　ｙｏｕ　ｔｒｙ，　ｙｏｕｒ　ｒｅｓｉｓｔａｎｃｅ　"TCC_NEWLINE"ｉｓ"TCC_NEWLINE
+"ｍｅａｎｉｎｇｌｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｏｕｒ　Ｈｅｒｏｅｓ　ｈｏｌｄ　ｔｈａ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｗａｒｄ，　ｙｏｕ　ｓｔａｎｄ　ｎｏ　ｃｈａｎｃｅ　ｏｆ"TCC_NEWLINE
+"ｗｉｎｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,39 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3073_EN] = TCC_OPEN_LEFT
+"Ｉｎｖａｄｅｒｓ　ｔｏ　ｔｈｉｓ　ｌａｎｄ．．．　Ｉ　ｗｉｌ"TCC_NEWLINE"ｌ　ｂｕｒｎ"TCC_NEWLINE
+"ｙｏｕ．．．　Ｂｕｒｎ　ｙｏｕ　ａｌｌ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3073_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LIF
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｆ．．．　Ｗｈｙ　ａｒｅ　ｙｏｕ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｉｄ　ｍｙ　ｍｏｔｈｅｒ　ｏｒｄｅｒ　ｙｏｕ　ｔｏ　ｋｅｅ"TCC_NEWLINE"ｐ"TCC_NEWLINE
+"ａｎ　ｅｙｅ　ｏｎ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｗｏｎ’ｔ　ａｎｓｗｅｒ　ｍｙ　ｑｕｅｓｔｉｏｎｓ，"TCC_NEWLINE"　ｗｉｌｌ"TCC_NEWLINE
+"ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｎｏ　ｄｉｆｆｅｒｅｎｔ　ｆｒｏｍ　ｂｅｆｏｒｅ．"TCC_NEWLINE"　Ｎｏ"TCC_NEWLINE
+"ｍａｔｔｅｒ　ｈｏｗ　ｍｕｃｈ　Ｉ　ｔｒｉｅｄ．．．ｙｏｕ’"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ｎｅｖｅｒ　ｒｅｓｐｏｎｄ　ｔｏ　ａ　ｔｈｉｎｇ　Ｉ　ｓａｉ"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．Ｉ　ｒｅｍｅｍｂｅｒ　ａ　ｃｏｎｖｅｒｓａｔｉｏ"TCC_NEWLINE"ｎ．．．"TCC_NEWLINE
+"ｒｉｇｈｔ　ａｓ　Ｉ　ａｒｒｉｖｅｄ　ｉｎ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｐｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｊｕｓｔ．．．ｒｅｍｅｍｂｅｒｅｄ．．．ｓｏｍｅｔｈｉｎ"TCC_NEWLINE"ｇ．"TCC_NEWLINE
+"Ｄｉｄ　ｗｅ　ｓｐｅａｋ　ｂｅｆｏｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｔｏｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｔｏｐ　ｔｒｙｉｎｇ　ｔｏ　ｒｅｍｅｍｂｅｒ．　Ｆｏｒｇｅ"TCC_NEWLINE"ｔ　ｉｔ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｄ　ｂｅ　ｂｅｔｔｅｒ　ｏｆｆ　ｌｅｔｔｉｎｇ　ｙｏ"TCC_NEWLINE"ｕｒ"TCC_NEWLINE
+"ｍｅｍｏｒｉｅｓ　ｆａｄｅ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

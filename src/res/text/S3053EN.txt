@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3053_EN] = TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ　Ｅａｒｔｈ　ａｎｄ　Ｆａｔｈｅｒ　Ｓｋｙ　ｗｉ"TCC_NEWLINE"ｌｌ"TCC_NEWLINE
+"ａｌｗａｙｓ　ｐｒｏｔｅｃｔ　ｍｅ．　Ｔｈｅｙ　ａｒｅ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｏｎｌｙ　ｏｎｅｓ　Ｉ　ｓｔｉｌｌ　ｔｒｕｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,9 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2032_EN] = TCC_OPEN_LEFT
+"Ｏｕｒ　ｃｏｎｔｒａｃｔ　ｗｉｔｈ　ｔｈｅ　ｐｒｉｎｃｅｓｓ"TCC_NEWLINE"　ｌｅａｖｅｓ"TCC_NEWLINE
+"ｕｓ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｆｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｉｃａｉａｈ．．．　Ｉ’ｍ　ｎｏｔ　ｌｅａｖｉｎｇ　ｙｏｕ"TCC_NEWLINE"ｒ　ｓｉｄｅ．　Ｉ"TCC_NEWLINE
+"ｗｉｌｌ　ｐｒｏｔｅｃｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,0 +1,83 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｉｓ　ｉｓ　ａｓ　ｆａｒ　ａｓ　ｉｔ　ｇｏｅｓ．　Ｐｌｅ"TCC_NEWLINE"ａｓｅ．．．"TCC_NEWLINE
+"Ｉ’ｄ　ｌｉｋｅ　ｙｏｕ　ｔｏ　ｓｕｒｒｅｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓｎ’ｔ　ｐｏｓｓｉｂｌｅ．　Ｅｉｔｈｅｒ　ｙｏ"TCC_NEWLINE"ｕ　ｄｉｅ，"TCC_NEWLINE
+"ｏｒ　Ｉ　ｄｏ．．．　Ｕｎｔｉｌ　ｔｈａｔ　ｈａｐｐｅｎｓ，"TCC_NEWLINE"　ｔｈｉｓ"TCC_NEWLINE
+"ｂａｔｔｌｅ　ｃａｎｎｏｔ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｔｏｐ　ｉｔ！　Ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｌｋ　ｔｈｅ　ｐａｔｈ　ｔｈａｔ　ｙｏｕｒ　ｓｉｓｔｅｒ"TCC_NEWLINE"ｙｏｕｒ"TCC_NEWLINE
+"Ｓｈａｒｅｎａｗｏｕｌｄ　ｗａｎｔ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｓｔｒａｙｅｄ　ｆｒｏｍ　ｔｈａｔ　ｐａｔｈ　ｌｏｎｇ　"TCC_NEWLINE"ａｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｕｓ　ｂｅｇｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｌｆ，　ｇｅｎｅｒａｌ　ｏｆ　ｔｈｅ　ｒｅａｌｍ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｄｅａｄ．　Ａｎｄ　ｔｏｄａｙ，　Ｉ　ｓｈａｌｌ　ａ"TCC_NEWLINE"ｄｄ　ａ"TCC_NEWLINE
+"ｎｏｔｃｈ　ｔｏ　Ｓｋｋｖａｂｅｋｋｒ．．．ｗｈｅｎ　ｙｏｕ"TCC_NEWLINE"　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ｔｈｉｓ　ｉｓ　ｉｔ，　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｏｕｌｄｎ’ｔ　ｓａｖｅ　ｙｏｕ．．．　Ｉ　ａｍ　ｓｏ"TCC_NEWLINE"ｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｙ　ａｒｅ　ｙｏｕ　ａｐｏｌｏｇｉｚｉｎｇ，　Ａｌｆｏｎ"TCC_NEWLINE"ｓｅ？"TCC_NEWLINE
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ．　Ｙｏｕ　ｗｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｄｒｉｖｅｎ　ｔｏ　ｍａｄｎｅｓｓ，　ｔｏ　ｒｕ"TCC_NEWLINE"ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕｙｏｕ　ａｒｅ　ｓｔｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈａｒｅｎａ，　ｔｈｅ　ｃｉｔｉｚｅｎｓ　ｏｆ　Ａｓｋｒ，"TCC_NEWLINE"　ｅｖｅｎ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｏｕｌｄｎ’ｔ　ｓａｖｅ　ａ　ｓｉｎｇｌｅ　ｏｎｅ　ｏ"TCC_NEWLINE"ｆ　ｔｈｅｍ．"TCC_NEWLINE
+"Ｔｈｅ　ｇｒｉｅｆ　ｔｗｉｓｔｅｄ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｙ　ａｌｌ　ｙｅｔ　ｌｉｖｅ　ｉｎ　ｙｏｕｒ　"TCC_NEWLINE"ｗｏｒｌｄ．"TCC_NEWLINE
+"Ｐｅｒｈａｐｓ　Ｉ　ｃａｎ　ｄｒａｗ　ｓｏｍｅ　ｓｍａｌｌ"TCC_NEWLINE
+"ｃｏｍｆｏｒｔ　ｆｒｏｍ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　Ａｌｆｏｎｓｅ．．．　Ｅｎｓｕｒｅ　ａ　ｈａ"TCC_NEWLINE"ｐｐｉｅｒ"TCC_NEWLINE
+"ｆｕｔｕｒｅ　ｆｏｒ　ｙｏｕｒ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｍｅ．　Ｈａｄ　ｔｈｉｎｇｓ　ｔｕｒｎｅｄ　"TCC_NEWLINE"ｏｕｔ"TCC_NEWLINE
+"ｊｕｓｔ　ａ　ｌｉｔｔｌｅ　ｂｉｔ　ｄｉｆｆｅｒｅｎｔｌｙ，"TCC_NEWLINE"　ｏｕｒ　ｆｏｒｔｕｎｅｓ"TCC_NEWLINE
+"ｃｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ　ｒｅｖｅｒｓｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌｅａｓｔ　Ｉ　ｃａｎ　ｄｏ　ｉｓ　ｔｏ　ｗｏｒｋ　"TCC_NEWLINE"ｔｏ　ｍａｋｅ"TCC_NEWLINE
+"Ａｓｋｒ　ｓｕｃｈ　ａ　ｐｌａｃｅ．　Ｙｏｕ　ｈａｖｅ　ｍｙ"TCC_NEWLINE"　ｗｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｆｉｒｓｔ．．．Ｉ　ｍｕｓｔ　ｅｒａｄｉｃａｔｅ　ｔ"TCC_NEWLINE"ｈｅ　ｓｏｕｒｃｅ"TCC_NEWLINE
+"ｏｆ　ａｌｌ　ｔｈｉｓ　ｓｕｆｆｅｒｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｉｓ．．．ｉｓ　ｔｈｅ　ｗｅａｐｏｎ　ｔｈａｔ　Ｌｆ　ｈ"TCC_NEWLINE"ｅｌｄ．"TCC_NEWLINE
+"Ｔｈｅ　ｗｅａｐｏｎ　ｗｅ’ｒｅ　ｌｏｏｋｉｎｇ　ｆｏｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗａｉｔ　ａ　ｓｅｃｏｎｄｔｈａｔ’ｓ　Ｂｒｅｉｄａｂｌｉｋ"TCC_NEWLINE"，"TCC_NEWLINE
+"ｉｓｎ’ｔ　ｉｔ？　Ｉｔ’ｓ　ｌｉｋｅ　ｔｈｅ　ｏｎｅ　ｈｅ"TCC_NEWLINE"ｌｄ　ｂｙ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｍｕｓｔ　ｍｅａｎ　ｔｈａｔ　ｔｈｅ　Ａｌｆｏｎｓ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｏｆ　ｔｈｉｓ　ｗｏｒｌｄ　ｅｎｔｒｕｓｔｅｄ　ｔｈａｔ　ｗ"TCC_NEWLINE"ｅｉｇｈｔｙ"TCC_NEWLINE
+"ｐｏｗｅｒ　ｔｏ"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ａｎｄ　ａｓ　ｗｅ　ｓｕｓｐｅｃｔｅｄ，　ｔｈｅ"TCC_NEWLINE
+"ｓｕｍｍｏｎｅｒ　ｆｒｏｍ　ｔｈｉｓ　ｒｅａｌｍ　ｐｅｒｉｓ"TCC_NEWLINE"ｈｅｄ"TCC_NEWLINE
+"ａｌｏｎｇ　ｗｉｔｈ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｗｈｙ　Ａｌｆｏｎｓｅ　ｗａｓ　ｃａｒｒｙｉｎ"TCC_NEWLINE"ｇ"TCC_NEWLINE
+"ｉｔ．　Ａｓ　ａ　ｋｅｅｐｓａｋｅ．　Ｈｅ　ｃｏｕｌｄｎ’ｔ"TCC_NEWLINE
+"ｌｅｔ　ｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｂｅ　ａｂｌｅ　ｔｏ　ｗｉｅｌｄ　ｔｈ"TCC_NEWLINE"ｉｓ"TCC_NEWLINE
+"ｏｎｅ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　ｒｅａ"TCC_NEWLINE"ｌｍ　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｄｅａｄ．　Ｗｅ　ｍｕｓｔ　ｅｎｄ　ｔｈｉｓ　ｗａｋ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
+"ｎｉｇｈｔｍａｒｅ　Ｈｅｌ　ｈａｓ　ｆａｓｈｉｏｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｙ　ｏｕｒ　ｈａｎｄｓ．　Ｔｈｅｒｅ　ｃａｎ　ｂｅ　ｎｏ"TCC_NEWLINE
+"ｍｉｓｔａｋｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

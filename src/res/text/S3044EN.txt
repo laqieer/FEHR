@@ -1,0 +1,15 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3044_EN] = TCC_OPEN_LEFT
+"Ｉｔ’ｓ　ｓｏ　ｂｏｒｉｎｇ　ｔｏ　ｂｅ　ｂｏｕｎｄ　ｕｐ　"TCC_NEWLINE"ｂｙ　ｔｈｉｓ"TCC_NEWLINE
+"ｃｏｎｔｒａｃｔ．．．　Ｂｕｔ　ｗｈａｔ　ｃａｎ　Ｉ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈｅｌ　ｉｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｂｅ　ｓｅｅｎ．．．　Ｗ"TCC_NEWLINE"ｈｅｒｅ"TCC_NEWLINE
+"ｉｓ　ｓｈｅ？　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈａｒｅｎａ，　ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ．　Ｔｈｅｒｅ"TCC_NEWLINE"’ｓ　ｎｏ"TCC_NEWLINE
+"ｎｅｅｄ　ｔｏ　ｐａｎｉｃ．　Ｌｅｔ’ｓ　ｐｒｅｓｓ　ｏｎ．"TCC_NEWLINE"　Ｉ’ｍ"TCC_NEWLINE
+"ｎｏｔ　ｇｉｖｉｎｇ　ｕｐ，　ａｎｄ　ｎｅｉｔｈｅｒ　ｓｈｏ"TCC_NEWLINE"ｕｌｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

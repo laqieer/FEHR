@@ -1,0 +1,187 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆａｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ　ｔｏｄａｙ，　ｉｓｎ’ｔ　ｉｔ．．．　Ｗｅｒｅ　ｙ"TCC_NEWLINE"ｏｕ　ａｂｌｅ　ｔｏ"TCC_NEWLINE
+"ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｄｉｓｐｅｌ　Ｈｅｌ’ｓ　ｃｕｒ"TCC_NEWLINE"ｓｅ　ｉｎ"TCC_NEWLINE
+"ｔｉｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ．　Ｉ　ｈａｖｅ　ｎｏ　ｅｘｃｕｓｅ　ｆｏｒ　ｗｈａｔ　"TCC_NEWLINE"ｈａｓ"TCC_NEWLINE
+"ｂｅｆａｌｌｅｎ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｏ　ｎｏｔ　ａｐｏｌｏｇｉｚｅ，　ｍｙ　ｓｏｎ．　Ｗｅ　ｋ"TCC_NEWLINE"ｎｅｗ"TCC_NEWLINE
+"ｔｈｉｓ　ｄａｙ　ｗｏｕｌｄ　ｃｏｍｅ．　Ｔｈｅｒｅ　ｉｓ　"TCC_NEWLINE"ｎｏ"TCC_NEWLINE
+"ｅｓｃａｐｉｎｇ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ．．．　Ｓｔａｙ　ｃｌｏｓｅ　ｔｏ　ｍｅ　ｔｏ"TCC_NEWLINE"ｄａｙ．"TCC_NEWLINE
+"Ｋｅｅｐ　ｙｏｕｒ　ａｌｌｉｅｓ　ｃｌｏｓｅ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｔｈｅ　ｃｕｒｓｅ　ｃｏｍｅｓ　ｄｕｅ，　Ｉ　ｅｘ"TCC_NEWLINE"ｐｅｃｔ"TCC_NEWLINE
+"Ｈｅｌ　ｔｏ　ａｐｐｅａｒ　ａｎｄ　ｐｌｕｃｋ　ｔｈｅ　ｌｉ"TCC_NEWLINE"ｆｅ"TCC_NEWLINE
+"ｆｒｏｍ　ｙｏｕｒ　ｐａｒａｌｙｚｅｄ　ｂｏｄｙ　ｈｅｒｓｅ"TCC_NEWLINE"ｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｉｖｉｎｇ　ｕｓ　ａ　ｃｈａｎｃｅ　ｔｏ　ｓｔｒｉｋｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ．　Ｙｏｕ　ｃａｎｎｏｔ　ｋｉｌｌ　Ｄｅａｔｈ．　Ｅｖｅ"TCC_NEWLINE"ｎ　ｉｆ　ｗｅ"TCC_NEWLINE
+"ａｔｔａｃｋ　ｈｅｒ　ｔｈｅｎ，　ｓｈｅ　ｗｉｌｌ　ｎｏｔ　"TCC_NEWLINE"ｆａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ，　ｗｅ　ｍａｙ　ｃａｔｃｈ　ａ　ｇｌｉｍｐｓ"TCC_NEWLINE"ｅ　ｏｆ"TCC_NEWLINE
+"ｓｏｍｅｔｈｉｎｇ．．．　Ａ　ｗｅａｋｎｅｓｓ，　ｐｅｒｈａ"TCC_NEWLINE"ｐｓ，"TCC_NEWLINE
+"ｔｈａｔ　ｗｉｌｌ　ｌｅａｄ　ｔｏ　ｈｅｒ　ｄｏｗｎｆａｌｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｉ　ｗｉｌｌ　ｄｏ　ａｓ　ｙｏｕ"TCC_NEWLINE
+"ｃｏｍｍａｎｄ，　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｔｈｏｕｇｈ　Ｉ　ｄｉｅ，　ｉｔ　ｍａｙ　ｎｏｔ　"TCC_NEWLINE"ｂｅ　ｆｏｒ"TCC_NEWLINE
+"ｎｏｔｈｉｎｇ．　Ｉ　ｈｏｐｅ　ｓｏ，　ａｎｙｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｕｒｅ　ｙｏｕ　ｗｉｌｌ　ｄｅｆｅａｔ　ｈｅｒ，"TCC_NEWLINE"　Ｆａｔｈｅｒ，"TCC_NEWLINE
+"ｏｒ　ｐｅｒｈａｐｓ"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｈｏｌｄ　ｆａｓｔ　ｔｏ　ｔｈａｔ　ｈｏｐｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕｒ　ａｌｌｙ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｒｅｌｙ　ｏｎ　ｏｕｒｓｅｌｖｅｓ，　ｎｏｔ"TCC_NEWLINE"　ｏｎ"TCC_NEWLINE
+"ｐｏｗｅｒ　ｆｒｏｍ　ｂｅｙｏｎｄ　Ａｓｋｒ．　Ｈｅｌ　ｃａ"TCC_NEWLINE"ｍｅ"TCC_NEWLINE
+"ｔｏ　ｕｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｒｅａｌｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｎｔａｃｔ　ｗｉｔｈ　ｏｔｈｅｒ　ｒｅａｌｍｓ　ｍｅｒｅ"TCC_NEWLINE"ｌｙ"TCC_NEWLINE
+"ｏｐｅｎｓ　ｕｐ　ｎｅｗ　ａｖｅｎｕｅｓ　ｔｏ　ｍｉｓｆｏｒ"TCC_NEWLINE"ｔｕｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｗｏｒｄｓ，　Ｆａｔｈｅ"TCC_NEWLINE"ｒ．　Ｙｅｔ"TCC_NEWLINE
+"Ｉ　ｈａｖｅ　ｆｏｒｍｅｄ　ａ　ｓｔｒｏｎｇ　ｂｏｎｄ　ｗｉ"TCC_NEWLINE"ｔｈ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｓａｙ　ａｇａｉｎｔｈｅｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　ｔｏ"TCC_NEWLINE"　ｂｅ"TCC_NEWLINE
+"ｇａｉｎｅｄ　ｂｙ　ｍｅｄｄｌｉｎｇ　ｉｎ　ｏｔｈｅｒ　ｒｅ"TCC_NEWLINE"ａｌｍｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｓ　ｓｏｍｅｔｈｉｎｇ　ａｍｕｓｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ！　Ｉ’ｍ　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｊｕｓｔ　ｒｅｆｌｅｃｔｉｎｇ　ｏｎ　ｓｏｍｅｔｈｉ"TCC_NEWLINE"ｎｇ"TCC_NEWLINE
+"Ｍｏｔｈｅｒ　ｔｏｌｄ　ｍｅ．　Ｓｈｅ　ｓａｉｄ　ｔｈａｔ，"TCC_NEWLINE"　ｉｎ"TCC_NEWLINE
+"ｙｏｕｒ　ｙｏｕｔｈ，　ｙｏｕ　ｗｅｒｅ　ｍｕｃｈ　ｌｉｋｅ"TCC_NEWLINE"　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｉｄ　ｓｈｅ，　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ａｄｍｉｔ　ｉｔ．　Ｗｅｔ　ｂｅｈｉｎｄ　ｔｈ"TCC_NEWLINE"ｅ　ｅａｒｓ，"TCC_NEWLINE
+"Ｉ　ｗａｓ．　Ｗｅａｐｏｎ　ｉｎ　ｈａｎｄ，　Ｉ　ｔｒａｖｅ"TCC_NEWLINE"ｌｅｄ　ｔｈｅ"TCC_NEWLINE
+"ｒｅａｌｍｓ，　ａｌｗａｙｓ　ｒｅａｄｙ　ｔｏ　ｂａｔｔｌｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｎｏ　ｄｉｆｆｅｒｅｎｔ　ｔｈａｎ　ｙｏｕ，　ｉ"TCC_NEWLINE"ｔ　ｉｓ　ｔｒｕｅ．"TCC_NEWLINE
+"Ｙｅｔ　ｌｏｏｋ　ａｔ　ｍｅ　ｎｏｗ，　ｌｅｃｔｕｒｉｎｇ　"TCC_NEWLINE"ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｍｉｓｕｎｄｅｒｓｔａｎｄ　ｍｅ，　Ｆａｔｈｅｒ．　"TCC_NEWLINE"Ｉ"TCC_NEWLINE
+"ｗａｓ　ｈａｐｐｙ　ｔｏ　ｈｅａｒ　ｔｈａｔ　Ｉ　ｐｕｔ　Ｍ"TCC_NEWLINE"ｏｔｈｅｒ"TCC_NEWLINE
+"ｉｎ　ｍｉｎｄ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｆｏｒ　ｙｏｕｒ　ｃｏｎｃｅｒｎ　ａｎｄ　ｙｏｕｒ"TCC_NEWLINE
+"ｇｕｉｄａｎｃｅ．．．ｔｈｅｙ　ｍｅａｎ　ｅｖｅｒｙｔｈｉｎ"TCC_NEWLINE"ｇ"TCC_NEWLINE
+"ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｏｄａｙ　ｉｓ　ｔｈｅ　ｄａｙ　Ｉ　ｗｉｌｌ　ｄｉｅ．　Ｉ"TCC_NEWLINE"　ｈａｖｅ"TCC_NEWLINE
+"ｆａｉｌｅｄ　ｉｎ　ｍｙ　ｄｕｔｙ　ａｓ　ｙｏｕｒ　ｓｕｃｃ"TCC_NEWLINE"ｅｓｓｏｒ．"TCC_NEWLINE
+"Ｔｈａｔ　ｉｓ　ｍｙ　ｄｅｅｐｅｓｔ　ｒｅｇｒｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｔｏ　ｂｅ　ａｂｌｅ　ｔｏ　ｓｐｅａｋ　ｓｏ　ｆｒａ"TCC_NEWLINE"ｎｋｌｙ"TCC_NEWLINE
+"ｗｉｔｈ　ｙｏｕ　ｈｅｒｅ　ａｎｄ　ｎｏｗ．．．Ｉ　ａｍ"TCC_NEWLINE
+"ｏｖｅｒｊｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｆｏｒ　ｔｈｉｓ　ｂａｔｔｌｅ，　ｗｅ’ｌｌ　ｓｔａｙ　ｃｌ"TCC_NEWLINE"ｏｓｅ　ｔｏ"TCC_NEWLINE
+"Ａｓｋｒ’ｓ　ｍａｉｎ　ｆｏｒｃｅｓ．　Ｔｈｉｓ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅ　ａ"TCC_NEWLINE
+"ｆｉｅｒｃｅ　ｆｉｇｈｔ．　Ｂｅ　ｃａｒｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｄｏ　ｅｖｅｒｙｔｈｉｎｇ　ｗｅ　ｃａｎ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｆｉｎｄ　Ｈｅｌ．　Ｗｅ　ｃａｎ’ｔ　ａｌｌｏｗ　Ａｌｆｏｎ"TCC_NEWLINE"ｓｅ　ｔｏ"TCC_NEWLINE
+"ｄｉｅ　ａｔ　ｈｅｒ　ｈａｎｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｂｅｅｎ　ｃｒｕｓｈｅｄ，　ｙｅ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"Ｈｅｌ　ｅｌｕｄｅｓ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｈｅ’ｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｂｅ　ｓｅｅｎ，　ａｎｄ　"TCC_NEWLINE"ｔｉｍｅ"TCC_NEWLINE
+"ｉｓ　ｓｏ　ｓｈｏｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_EIR
+"Ａｈ，　ｙｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ａｐｐｏｉｎｔｅｄ　ｔｉｍｅ　ｈａｓ　ａｒｒｉｖｅｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅａｔｈ　ｉｓ　ｎｅａｒｌｙ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HEL
+"Ｍｏｒｔａｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｉｓ　ｔｈｅ　ｔｉｍｅ　ｆｏｒ　ｙｏｕｒ　ｌｉｆｅ　"TCC_NEWLINE"ｔｏ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｅｌ！"TCC_NEWLINE TCC_PUSH_A
+"＊ｇａｓｐ＊　Ｉ．．．　Ｉ　ｃａｎ’ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｅ．　Ｓｏ　ｍａｎｙ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
+"ｔｒｉｅｄ　ｓｏ　ｄｅｓｐｅｒａｔｅｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ｙｏｕ　ｔａｋｅ　ｍｙ　ｂｒｏｔｈｅ"TCC_NEWLINE"ｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｉｓ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｕｒ　ａｔｔａｃｋｓ　ａｒｅｎ’ｔ　ｈａｖｉｎｇ　ａｎｙ　"TCC_NEWLINE"ｅｆｆｅｃｔ．"TCC_NEWLINE
+"Ｉｓ　ｓｈｅ　ａｎ　ｉｌｌｕｓｉｏｎ？　Ａ　ｓｐｅｃｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｆｉｎｄ　ａ　ｗａｙ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕｒ　ｅｆｆｏｒｔｓ　ａｎｄ　ｙｏｕｒ　ｂｒｅａｔｈｔｈ"TCC_NEWLINE"ｅｙ"TCC_NEWLINE
+"ａｒｅ　ｂｏｔｈ　ｗａｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅａｔｈ　ｉｓ　ｔｈｅ　ｏｎｅ　ｔｒｕｅ　ａｂｓｏｌｕｔｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｔｉｍｅ　ｈａｓ　ｃｏｍｅ．　Ｍｙ　ｓｃｙｔｈｅ　"TCC_NEWLINE"ｉｓ"TCC_NEWLINE
+"ｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｇａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆａｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_HEL
+"Ｙｏｕ．．．ｓｈｉｅｌｄｅｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｃｕｒｓｅ，　Ｈｅｌｉｔ"TCC_NEWLINE"　ｉｓ　ａ"TCC_NEWLINE
+"ｃｕｒｓｅ　ｏｎ　ｔｈｅ　ｂｌｏｏｄ　ｏｆ　Ａｓｋｒ．　Ｔｈ"TCC_NEWLINE"ａｔ"TCC_NEWLINE
+"ｌｅｓｓｏｎ，　Ｉ　ｌｅａｒｎｅｄ　ｆｒｏｍ　ｍｙ　ｆａｔｈ"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ａｓｋｒａｎ　ｒｏｙａｌｔｙ，　ａｎｄ　ｉｔ　ｉｓ"TCC_NEWLINE"　ｍｙ　ｌｉｆｅ"TCC_NEWLINE
+"ｔｈａｔ　ｗｉｌｌ　ｂｅ　ａｄｄｅｄ　ｔｏ　ｔｈｅ　ｎｕｍｂ"TCC_NEWLINE"ｅｒｓ"TCC_NEWLINE
+"ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｏｎｄｉｔｉｏｎｓ　ｏｆ　ｙｏｕｒ　ｃｕｒｓｅ　ａ"TCC_NEWLINE"ｒｅ"TCC_NEWLINE
+"ｆｕｌｆｉｌｌｅｄ．　Ｄｅｐａｒｔ　ｔｈｉｓ　ｐｌａｃｅ，　"TCC_NEWLINE"ｄｅａｔｈ　ｇｏｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆａｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_HEL
+"Ｆｏｏｌ．　Ｌｏｏｋ　ａｔ　ｙｏｕ，　ａｗａｓｈ　ｉｎ"TCC_NEWLINE
+"ｓｅｎｔｉｍｅｎｔａｌｉｔｙ．．．　Ｗｈａｔ　ｈａｓ　ｉｔ"TCC_NEWLINE
+"ｃｏｓｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ　ｔｏ　ｃａｌｌ　ｙｏｕｒ"TCC_NEWLINE"ｓｅｌｆ　ａ"TCC_NEWLINE
+"ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｙｏｕ　ｃｏｍｐｒｅｈｅｎｄ　ｎｏｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_HEL
+"Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｍｙ　ｌｉｆｅ　ｅｘｉｓｔｓ　ｏｎｌｙ　ｆｏｒ　ｔｈｅ　ｐｅ"TCC_NEWLINE"ｏｐｌｅ　ｏｆ"TCC_NEWLINE
+"ｔｈｉｓ　ｌａｎｄ．　Ｉ　ｈａｖｅ　ｎｅｖｅｒ　ｌｏｓｔ　ｓ"TCC_NEWLINE"ｉｇｈｔ　ｏｆ"TCC_NEWLINE
+"ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｎｃｅ　ｔｈｅ　ｄａｙ　Ｉ　ｌｏｓｔ　ｍｙ　ｆａｔｈｅｒ"TCC_NEWLINE"．．．Ｉ"TCC_NEWLINE
+"ｓｗｏｒｅ　ｎｅｖｅｒ　ｔｏ　ｆｏｒｇｅｔ　ｍｙ　ｄｕｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｍｕｃｈ　ｌｏｎｇｅｒ　ｗｏｕｌｄ　Ｉ　ｈａｖｅ　ｌ"TCC_NEWLINE"ｉｖｅｄ？"TCC_NEWLINE
+"Ｍｙ　ｓｏｎ　ｉｓ　ｙｏｕｎｇ，　ａｎｄ　ｈｅ　ｉｓ　ｃｅｒ"TCC_NEWLINE"ｔａｉｎｌｙ"TCC_NEWLINE
+"ｗｏｒｔｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｋｉｎｇ，　ｗｈａｔ　ｃｈｏｉｃｅ　ｄｉｄ　Ｉ　ｈａｖ"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_HEL
+"Ｓｏ　ｙｏｕ　ｔｈｉｎｋ　ｔｈｉｓ　ｐｒｉｎｃｅｌｉｎｇ　ｈ"TCC_NEWLINE"ａｓ　ｔｈｅ"TCC_NEWLINE
+"ｍａｋｉｎｇｓ　ｏｆ　ａ　ｋｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｄｉｅ　ｗｉｔｈｏｕｔ　ｒｅｇｒｅｔ．　Ａｓ　ｒｕ"TCC_NEWLINE"ｌｅｒ　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｄｅａｄ，　Ｉ　ｄｅｃｌａｒｅ　ｙｏｕｒ　ｌｉｆｅ　"TCC_NEWLINE"ａｔ　ａｎ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+TCC_OPEN_RIGHT
+"Ｎｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｃｏｍｅ　ａ　ｋｉｎｇ，　ｍｙ　ｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

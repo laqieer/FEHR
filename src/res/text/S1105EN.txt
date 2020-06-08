@@ -1,0 +1,75 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S1105_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ｍａｄｅ　ｙｏｕｒ　ｗａｙ　ｈｅｒｅ，　ｅｖｅｎ"TCC_NEWLINE
+"ｋｎｏｗｉｎｇ　ｔｈｅ　ｒｉｓｋｓ．　Ｉ　ａｐｐｌａｕｄ　ｙ"TCC_NEWLINE"ｏｕｒ"TCC_NEWLINE
+"ｂｒａｖｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｊｕｓｔ　ｏｎｅ　ｐｒｏｂｌｅｍ：　ｗｅ　ｃ"TCC_NEWLINE"ａｎ’ｔ"TCC_NEWLINE
+"ａｆｆｏｒｄ　ｔｏ　ｌｏｓｅ．　Ｙｏｕ’ｒｅ　ｇｏｉｎｇ　ｄ"TCC_NEWLINE"ｏｗｎ"TCC_NEWLINE
+"ｔｏｄａｙｎｏｔ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S1105_EN] = TCC_OPEN_LEFT
+"Ｗｅ　ｌｏｓｔ．　Ｂｕｔ　Ｉ　ｈａｖｅ　ｎｏ　ｒｅｇｒｅｔｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｗｅｄ　ｕｓ　ｙｏｕｒ　ｓｔｒｅｎｇｔｈ．"TCC_NEWLINE
+"Ｗｅ’ｒｅ　ｎｏｔ　ｅｎｅｍｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｄａｙ，　ｓｏｍｅｗｈｅｒｅ．．．ｗｅ　ｍｉｇｈｔ　"TCC_NEWLINE"ｊｕｓｔ"TCC_NEWLINE
+"ｍｅｅｔ　ａｇａｉｎ．　Ｉ　ｌｏｏｋ　ｆｏｒｗａｒｄ　ｔｏ　"TCC_NEWLINE"ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S1105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ　ｄｉｄ　ｉｔ！　Ｏｕｒ　ｈｏｍｅｌａｎｄ　ｉｓ　ｓａｖ"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE
+"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｈｅａｄ　ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｕｇｈ．　Ｉ’ｍ　ｓｏ　ｔｉｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｒｉｇｈｔ，"TCC_TACTICIAN_NAME"，"TCC_NEWLINE
+"ｌｅｔ’ｓ　ｇｅｔ"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗａｓ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｎｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｇａｔｅｗａｙ，　ｉｔ’ｓ　ｃｌｏｓｉｎｇ．．．"TCC_NEWLINE
+TCC_TACTICIAN_NAME"，　ｈｕｒｒｙ！"TCC_NEWLINE
+"Ｔｈｉｓ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｈｅｌｌｏ，　Ｓｕｍｍｏｎｅｒ．　Ｔｈｉｓ　ｔｉｍｅ，　ｉｔ"TCC_NEWLINE"’ｓ　ｊｕｓｔ"TCC_NEWLINE
+"ｙｏｕ　ａｎｄ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｂｒａｔｔｙ　ｌｉｔｔｌｅ　ｆｒｉｅｎｄｓ　ａｒｅ"TCC_NEWLINE"　ｏｎ　ｔｈｅ"TCC_NEWLINE
+"ｏｔｈｅｒ　ｓｉｄｅ　ｏｆ　ｔｈｅ　ｇａｔｅｗａｙ．　Ｔｈｅ"TCC_NEWLINE"ｒｅ’ｓ　ｎｏ"TCC_NEWLINE
+"ｏｎｅ　ｔｏ　ｓａｖｅ　ｙｏｕ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍａｄｅ　ａ　ｐｒｏｍｉｓｅ　ｔｏ　ｙｏｕ，　ａｎｄ　Ｉ"TCC_NEWLINE"　ｉｎｔｅｎｄ"TCC_NEWLINE
+"ｔｏ　ｋｅｅｐ　ｉｔ．　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｐｏｐ　ｙｏｕｒ　ｈｅａｄ　ｒｉｇｈｔ　ｏｆｆ．．"TCC_NEWLINE"．　Ｊｕｓｔ"TCC_NEWLINE
+"ｌｉｋｅ　Ｉ　ｕｓｅｄ　ｔｏ　ｄｏ　ｗｉｔｈ　ｍｙ　ｄｏｌｌ"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ｄａｒｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE
+"Ｒｕｎ，"TCC_TACTICIAN_NAME"！"TCC_NEWLINE
+"Ｔｏｗａｒｄ　ｔｈｅ　ｌｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｇｏ！　Ｔｒｕｓｔ　ｍｅ！"TCC_NEWLINE
+"Ｉ’ｍ　ＺａｃｈａｒｉａｓＡｌｆｏｎｓｅ　ａｎｄ"TCC_NEWLINE
+"Ｓｈａｒｅｎａ’ｓ　ｆｒｉｅｎｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｋｅｅｐ　ｇｏｉｎｇ！　Ｙｏｕ’ｒｅ　ａｌｍｏｓｔ　ｔｈｅｒ"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE
+"Ｙｏｕ’ｄ　ｂｅｔｔｅｒ　ｗａｔｃｈ　ｏｕｔ　ｆｏｒ"TCC_NEWLINE
+"Ａｌｆｏｎｓｅ　ａｎｄ　ｔｈｅ　ｏｔｈｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ．"TCC_NEWLINE
+"Ａｍ　Ｉ　ｇｌａｄ　ｔｏ　ｓｅｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，"TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈｅｎ　Ｉ　ｓａｗ　ｙｏｕ　ｄｉｓａｐｐｅａｒ　ｊｕｓｔ　"TCC_NEWLINE"ｌｉｋｅ"TCC_NEWLINE
+"Ｚａｃｈａｒｉａｓ　ｄｉｄ，　Ｉ　ｔｈｏｕｇｈｔ　ｍｙ　ｃｈ"TCC_NEWLINE"ｅｓｔ"TCC_NEWLINE
+"ｗｏｕｌｄ　ｂｕｒｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｅ　ｔｏｏ．　Ｉ’ｍ　ｓｏ　ｇｌａｄ　ｙｏｕ’ｒｅ　ｓａｆ"TCC_NEWLINE"ｅ．"TCC_NEWLINE
+"Ｓｅｒｉｏｕｓｌｙ，　ｄｏｎ’ｔ　ｄｏ　ｔｈａｔ．"TCC_NEWLINE
+TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ？　Ｙｏｕ　ｓａｙ　ｔｈａｔ　Ｚａｃｈａｒｉａｓ　ｓ"TCC_NEWLINE"ａｖｅｄ"TCC_NEWLINE
+"ｙｏｕ？　Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａｂｏｕ"TCC_NEWLINE"ｔ？"TCC_NEWLINE
+"Ｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｅｔ’ｓ　ｔａｌｋ　ｌａｔｅｒ！　Ｗｅ　ｈａｖｅ　ｔｏ　ｇ"TCC_NEWLINE"ｅｔ　ｏｕｔ"TCC_NEWLINE
+"ｏｆ　ｈｅｒｅ　ｂｅｆｏｒｅ　ｔｈｅｙ　ｃｌｏｓｅ　ｔｈｅ　"TCC_NEWLINE"ｇａｔｅｗａｙ"TCC_NEWLINE
+"ｏｎ　ｕｓ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,6 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2074_EN] = TCC_OPEN_LEFT
+"Ｎｏｗ，　ｙｏｕ　ｗｉｌｌ　ｆａｃｅ　ｍｙ　ｂｒｏｔｈｅｒ　"TCC_NEWLINE"ａｎｄ　ｍｅ．"TCC_NEWLINE
+"Ｉ　ｗｉｌｌ　ｔｅｓｔ　ｍｙ　ｍａｇｉｃ，　ａｎｄ　ｈｅ　ｈ"TCC_NEWLINE"ｉｓ　ｂｌａｄｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

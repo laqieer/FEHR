@@ -1,0 +1,121 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LUPINUS
+"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ．"TCC_NEWLINE"．．"TCC_NEWLINE
+"Ｔｈｅ　ｓｕｎ’ｓ　ｌａｓｔ　ｒａｙｓ　ａｒｅ　ｄｉｓａｐｐ"TCC_NEWLINE"ｅａｒｉｎｇ．．．"TCC_NEWLINE
+"Ｔｈｉｓ　ｉｓ　ｗｈｅｎ　ｄａｙ　ｔｕｒｎｓ　ｔｏ　ｎｉｇｈ"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｒｅ　ｙｏｕ　ｓｕｒｅ？　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ"TCC_NEWLINE
+"ａ　ｄｅａｄ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ．．．　Ｉ　ｃａｎ　ｓｈｏｗ　ｙｏｕ　ｗａｋｉｎｇ　"TCC_NEWLINE"ｏｎｅｓ"TCC_NEWLINE
+"ａ　ｄａｙｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｈｅ　ｄａｙ’ｓ　ｌａｓｔ　ｎｉｇｈｔ，　ｉｆ　Ｉ　"TCC_NEWLINE"ｂｒｉｎｇ　ｙｏｕ"TCC_NEWLINE
+"ｉｎｔｏ　ａ　ｐａｒｔｉｃｕｌａｒｌｙ　ｓｃａｒｙ　ｄａｙｄ"TCC_NEWLINE"ｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｃｈ　ａ　ｄａｙｄｒｅａｍ　ｗｏｕｌｄ　ｂｅ　ｖｅｒｙ"TCC_NEWLINE
+"ｃｌｏｓｅ　ｔｏ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｎｉｇｈｔｍａｒ"TCC_NEWLINE"ｅｓ，"TCC_NEWLINE
+"ｙｏｕ　ｓｅｅ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｓｏ　ｆｒｏｍ　ｗｉｔｈｉｎ　ｔｈｅ　ｄａｙｄｒｅａｍｓ，"TCC_NEWLINE
+"ｉｔ　ｓｈｏｕｌｄ　ｂｅ　ｐｏｓｓｉｂｌｅ　ｔｏ　ｃｒｏｓｓ"TCC_NEWLINE
+"ｏｖｅｒ　ｉｎｔｏ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｌａｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｒｅａｄｙ　ｗｈｅｎ　ｙｏｕ　ａｒｅ，　Ｍｉｒａｂｉｌ"TCC_NEWLINE"ｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｉｇｈｔ．　Ｆｉｒｓｔ，　ｊｕｓｔ　ａ　ｐｉｎｃｈ　ｏｆ　"TCC_NEWLINE"ｌｊｏｓｌｆｒ"TCC_NEWLINE
+"ｄｕｓｔ．．．　Ｊｕｓｔ　ａ　ｌｉｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｉｔｈ　ｔｈａｔ，　ｙｏｕ　ｗｉｌｌ　ｆａｌｌ　ｉ"TCC_NEWLINE"ｎｔｏ"TCC_NEWLINE
+"ａ　ｄａｙｄｒｅａｍ．．．　Ｗ－ｗａｉｔ．．．　Ｓｏｍｅｔｈ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
+"ｉｓ　ｃｏｍｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｉｇｈｔｍａｒｅｓ．．．　Ｗｅ　ｈａｖｅｎ’ｔ　ｅｖｅｎ"TCC_NEWLINE
+"ｅｎｔｅｒｅｄ　ｔｈｅｉｒ　ｒｅａｌｍ　ａｎｄ　ｔｈｅｙ’ｒ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ａｌｒｅａｄｙ　ｓｗａｒｍｉｎｇ　ｔｏｗａｒｄ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4075_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ａｒｅ　ｂａｃｋｅｄ　ａｇａｉｎｓｔ　ｔｈｅ　ｓｅａ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｔｈｅｒｅ　ｉｓ　ｎｏｗｈｅｒｅ　ｌｅｆｔ　ｔｏ　ｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｎｏｗ　ｆａｃｅ　ｙｏｕｒ　ｄｅｅｐｅｓｔ　ｆｅａｒ"TCC_NEWLINE"ｓ．"TCC_NEWLINE
+"Ｅｖｅｒｙ　ｌａｓｔ　ｏｎｅ　ｏｆ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｇａｈ！　Ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ　ｋｅｅｐ　ｃｏｍｉｎ"TCC_NEWLINE"ｇ！"TCC_NEWLINE
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｓｔｏｐｐｉｎｇ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｉｓ　ｉｓ　ｙｏｕｒ　ｆｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｒｕｎ．　Ｉｔ’ｓ　"TCC_NEWLINE"ｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_LUPINUS
+"Ｏｈ　ｎｏ．．．　Ｗｈ－ｗｈａｔ　ｓｈｏｕｌｄ　Ｉ　ｄｏ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ａ　ｔｉｍｅ　ｌｉｋｅ　ｔｈｉｓ．．．ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｏｎｌｙ"TCC_NEWLINE
+"ｏｎｅ　ｔｈｉｎｇ　ｔｏ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｚｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｍｉｒａｂｉｌｉｓ，　ｗａｋｅ　ｕｐ！　Ｕｓｅ　ｔｈｅ"TCC_NEWLINE
+"ｌｊｓｌｆｒ　ｄｕｓｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｂｕｔ　ｉｔ　ｗｏｎ’ｔ　ｄｏ　ｕｓ　ａｎｙ　ｇｏｏｄ　ｔｏ"TCC_NEWLINE"　ｆａｌｌ"TCC_NEWLINE
+"ａｓｌｅｅｐ　ｉｎ　ｔｈｅ　ｍｉｄｄｌｅ　ｏｆ　ａ　ｂａｔｔ"TCC_NEWLINE"ｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｆ　ｔｈｉｓ　ｋｅｅｐｓ　ｕｐ，　ｗｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE
+"Ｌｅａｖｅ　ｉｔ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｈｏｌｄ　ｔｈｅｍ　ｏｆｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE
+"Ｉ’ｍ　ｎｏｔ　ｄｏｉｎｇ　ｔｈｉｓ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｔｈｅｍ　ｔｏ　ｃｏ"TCC_NEWLINE"ｎｔｉｎｕｅ"TCC_NEWLINE
+"ｔｏｒｔｕｒｉｎｇ　ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　Ｅｍｂｌａ．"TCC_NEWLINE
+"Ｎｏｗ，　ｇｏ．　Ｈｕｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ｗｏｎ’ｔ　ｂｅ　ｄｅｆｅａｔ"TCC_NEWLINE"ｅｄ"TCC_NEWLINE
+"ｓｏ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｕｎｄｅｒｓｔｏｏｄ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE
+"Ｔｈａｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｉｒａｂｉｌｉｓ，　ｗｅ’ｒｅ　ｃｏｕｎｔｉｎｇ　ｏｎ　ｙ"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE
+"Ｐｌｅａｓｅ，　ｑｕｉｃｋｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｌｌ　ｒｉｇｈｔ，　ｅｖｅｒｙｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｌｏｓｅ　ｙｏｕｒ　ｅｙｅｓ．．．　Ｒｅｌａｘ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａ－ａｒｅ　ｗｅ　ｇｏｉｎｇ　ｔｏ　ｓｌｅｅｐ　ｉｎ　ｔｈｅ"TCC_NEWLINE
+"ｍｉｄｄｌｅ　ｏｆ　ａ　ｂａｔｔｌｅ．．．？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"．．．Ｗｉｌｌ　Ｐｒｉｎｃｅｓ　Ｖｅｒｏｎｉｃａ　ｒｅａｌｌ"TCC_NEWLINE"ｙ"TCC_NEWLINE
+"ｂｅ　ａｌｌ　ｒｉｇｈｔ　ａｌｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｕｒ　ｔｉｍｅ　ｉｎ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ"TCC_NEWLINE
+"ｓｈｏｕｌｄ　ｏｎｌｙ　ｔａｋｅ　ｍｅｒｅ　ｍｏｍｅｎｔｓ"TCC_NEWLINE
+"ｈｅｒｅ．　Ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｂａｃｋ　ｉｎ　ｔｉｍ"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ　ｔｏ　ｈｅｓｉｔａｔｅ．　Ｌ"TCC_NEWLINE"ｅｔ’ｓ　ｇｏ．"TCC_NEWLINE
+"Ｏｎｗａｒｄ，　ｔｏ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｒｅａｌｍ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4075_EN] = TCC_OPEN_LEFT
+"Ｕｓ？　Ｓａｖｅ　ｔｈｅ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｗｏｒｌｄ　ｉｓ　ｄｙｉｎｇ．　Ｏｎｌｙ　ｃｈｉｌ"TCC_NEWLINE"ｄｒｅｎ"TCC_NEWLINE
+"ｗｈｏ　ａｒｅ　ｐｕｒｅ　ｏｆ　ｈｅａｒｔ　ｃａｎ　ｓａｖｅ"TCC_NEWLINE"　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｄｕｌｔｓ　ｈａｖｅ　ｆｏｒｇｏｔｔｅｎ　ｈｏｗ　ｔｏ　ｄ"TCC_NEWLINE"ｒｅａｍ，"TCC_NEWLINE
+"ａｎｄ　ｓｏ　ａｒｅ　ｐｏｗｅｒｌｅｓｓ　ｈｅｒｅ．．．　Ｗ"TCC_NEWLINE"ｅ　ｂｅｇ"TCC_NEWLINE
+"ｏｆ　ｙｏｕ．．．　Ｗｉｌｌ　ｙｏｕ　ｈｅｌｐ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃｏｕｌｄ　ＷＥ　ｈｅｌｐ　ＹＯＵ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｏｒｒｙ　ｎｏｔ．　Ｄｒｉｎｋ　ｔｈｉｓ　ｆｌｏｗｅｒ　ｎ"TCC_NEWLINE"ｅｃｔａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｙｏｕ　ｄｏ，　ｙｏｕ　ｗｉｌｌ　ｂｅｃｏｍｅ　ａ"TCC_NEWLINE"ｎ"TCC_NEWLINE
+"ｅｘｔｒａｏｒｄｉｎａｒｙ　ｖｅｒｓｉｏｎ　ｏｆ　ｙｏｕｒｓ"TCC_NEWLINE"ｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｘｔｒａｏｒｄｉｎａｒｙ？　Ｗｈａｔ　ｄｏｅｓ"TCC_NEWLINE
+"ｔｈａｔ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍｅａｎｓ　ｙｏｕ　ｗｉｌｌ　ｂｅ　ｈｅｒｏｅｓ．　Ｈ"TCC_NEWLINE"ｅｒｏｅｓ"TCC_NEWLINE
+"ａｂｌｅ　ｔｏ　ｓａｖｅ　ｔｈｅ　ｗｏｒｌｄ．　Ｔｈｅ　ｋｉ"TCC_NEWLINE"ｎｄ　ｏｆ"TCC_NEWLINE
+"ｐｅｒｓｏｎ　ｙｏｕ’ｖｅ　ｏｎｌｙ　ｄｒｅａｍｔ　ｏｆ　ｂ"TCC_NEWLINE"ｅｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉｆ　ｔｈａｔ　ｉｓ　ｗｈａｔ　ｗｅ　ｍｕｓｔ　ｄｏ，"TCC_NEWLINE
+"Ｉ　ｗｉｌｌ　ｄｏ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓａｍｅ　ｈｅｒｅ．　Ｉ　ｗａｎｔ　ｔｏ　ｂｅ　ａ　ｈｅｒｏ"TCC_NEWLINE"　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ　ｂｏｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ．．．　Ｈｏｗ　ｌｏｖｅｌｙ！　Ｃａｎ　Ｉ　ｄｒｉｎｋ"TCC_NEWLINE
+"ｓｏｍｅ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｉ　ｗｏｕｌｄ　ｎｏｔ　ｄｅ"TCC_NEWLINE"ｎｙ"TCC_NEWLINE
+"ｙｏｕ　ｔｈｅ　ｏｐｐｏｒｔｕｎｉｔｙ　ｔｏ　ｈｅｌｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

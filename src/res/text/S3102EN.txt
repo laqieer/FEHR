@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3102_EN] = TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｉｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ｍｏｒｅ　ｔｒｏｕｂ"TCC_NEWLINE"ｌｅ　ｔｈａｎ"TCC_NEWLINE
+"ｉｔ’ｓ　ｗｏｒｔｈ，　ｂｕｔ　ｓｏｍｅｂｏｄｙ　ｈａｓ　ｔ"TCC_NEWLINE"ｏ　ｄｏ　ｉｔ．"TCC_NEWLINE
+"Ｇｕｅｓｓ　ｉｔ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

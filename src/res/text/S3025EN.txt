@@ -1,0 +1,212 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｈａｒｅｎａ，　ｒｅｐｏｒｔｉｎｇ　ｂａｃｋ！　Ｉ’ｖｅ　"TCC_NEWLINE"ｓｃｏｕｔｅｄ"TCC_NEWLINE
+"ｔｈｅ　ｔｏｍｂ．　Ｔｈｅ　ｅｎｅｍｙ　ｗａｓ　ｅａｓｙ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｌｏｃａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｎｏｔ　ｓｕｒｐｒｉｓｉｎｇ．　Ｈｏｗ　ｍａｎｙ　ｔｒｏｏｐ"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"ａｒｅ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｏｕｓａｎｄｓ．．．　Ｔｏｏ　ｍａｎｙ　ｔｏ　ｃｏｕｎｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅｙ’ｒｅ　ｏｎ　ｔｈｅ　ｍａｒｃｈｓｏｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ’ｓ　ｓｏｕｔｈ　ｏｆ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅｒｅ’ｓ　ａ　ｔｏｗｎ　ｌｅｓｓ　ｔｈａｎ　ａ　ｄａｙ"TCC_NEWLINE"’ｓ"TCC_NEWLINE
+"ｍａｒｃｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｉｓ　ｉｓ　ｎｏｔ　ｇｏｏｄ．　Ｔｈｅｒｅ’ｓ　ｎｏ　ｗ"TCC_NEWLINE"ａｙ"TCC_NEWLINE
+"ｔｈｅｙ’ｄ　ｂｅ　ａｂｌｅ　ｔｏ　ｄｅｆｅｎｄ　ｔｈｅｍｓ"TCC_NEWLINE"ｅｌｖｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｈｅｌｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｉｎｋ，　Ｓｈａｒｅｎａ！　Ｗｅ　ｃａｎ’ｔ　ｓｔｏｐ　"TCC_NEWLINE"ａｎ"TCC_NEWLINE
+"ａｒｍｙ　ｏｆ　ｔｈｏｕｓａｎｄｓ　ｂｙ　ｏｕｒｓｅｌｖｅｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｄｉｓｐａｔｃｈ　ａ　ｍｅｓｓａｇｅ　ｔｏ　"TCC_NEWLINE"Ｈｉｓ"TCC_NEWLINE
+"Ｍａｊｅｓｔｙ　ａｔ　ｏｎｃｅ　ａｎｄ　ｈｏｐｅ　ｔｈａｔ　"TCC_NEWLINE"ｈｉｓ"TCC_NEWLINE
+"ｋｎｉｇｈｔｓ　ｃａｎ　ｇｅｔ　ｈｅｒｅ　ｉｎ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓａｉｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈａｔ　ｓａｉｄ，　ｔｈｅｙ　ｗｏｎ’ｔ　ｍａｋｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｏｓｅ　ｐｏｏｒ　ｔｏｗｎｓｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ．．．ｗｅ　ｃａｎ’ｔ　ｌｅｔ　ｔｈｅｍ　ｄｉｅ　ｌｉｋ"TCC_NEWLINE"ｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｂｕｙ　ｓｏｍｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｃｏｍｍａｎｄｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｂａｉｔ　ｔｈｅ　ｅｎｅｍｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈａｔ　ｗｏｕｌｄ　ｇｅｔ　ｔｈｅｉｒ　ａｔｔｅｎｔｉｏｎ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｔｈｅｙ’ｄ　ｓｔｏｐ　ａｎｄ　ｆｏｃｕｓ　ｏｎ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｔ　ｔｈａｔ　ｐｏｉｎｔ，　ｔｈｏｕｇｈ，　ｗｅ’ｄ　ｈａ"TCC_NEWLINE"ｖｅ　ｔｏ"TCC_NEWLINE
+"ｏｕｔｒｕｎ　ｔｈｅｍ．．．ｏｒ　ｈｏｌｄ　ｏｕｔ　ｕｎｔｉ"TCC_NEWLINE"ｌ　ｔｈｅ"TCC_NEWLINE
+"ｋｉｎｇ’ｓ　ｋｎｉｇｈｔｓ　ａｒｒｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔａｌｋ　ａｂｏｕｔ　ｄａｎｇｅｒｏｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ’ｓ　ｅｘｃｅｅｄｉｎｇｌｙ　ｄａｎｇｅｒｏｕｓ，　ｂｕ"TCC_NEWLINE"ｔ　ｗｅ"TCC_NEWLINE
+"ｄｏｎ’ｔ　ｈａｖｅ　ａｎｙ　ｏｔｈｅｒ　ｏｐｔｉｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｅ　ｏｎ，　ｅｖｅｒｙｂｏｄｙ！　Ｗｅ’ｒｅ　ｇｏｉｎ"TCC_NEWLINE"ｇ　ｔｏ"TCC_NEWLINE
+"ｈａｖｅ　ｔｏ　ｒｅｌｙ　ｏｎ　ｔｈｅ　ｅｌｅｍｅｎｔ　ｏｆ"TCC_NEWLINE
+"ｓｕｒｐｒｉｓｅ．　Ｗｅ’ｌｌ　ｓｎｅａｋ　ｕｐ　ｏｎ　ｔｈ"TCC_NEWLINE"ｅｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｔａｙ　ｈｉｄｄｅｎ，　ａｎｄ　ｍｏｖｅ　ｉｎ　ｓｍａｌｌ"TCC_NEWLINE
+"ｇｒｏｕｐｓ．　Ｓｐｒｅａｄ　ｏｕｔ，　ａｎｄ　ｅｎｃｉｒｃ"TCC_NEWLINE"ｌｅ"TCC_NEWLINE
+"ｔｈｅ　ｅｎｅｍｙ　ｆｒｏｍ　ｂｅｈｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅａｃｈ　ｇｒｏｕｐ　ｍｕｓｔ　ｄｏ　ｗｈａｔ　ｉｔ　ｃａｎ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ａｖｏｉｄ　ｔｈｅ　ｅｎｅｍｙ　ｗｈｉｌｅ　ｍａｋｉｎｇ　ｉ"TCC_NEWLINE"ｔ　ｌｏｏｋ"TCC_NEWLINE
+"ｌｉｋｅ　ｔｈｅｙ’ｒｅ　ｐａｒｔ　ｏｆ　ａ　ｌａｒｇｅｒ　"TCC_NEWLINE"ｆｏｒｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｗｅ’ｖｅ　ｇｏｔ　ｔｈｅｉｒ　ａｔｔｅｎｔｉｏｎ"TCC_NEWLINE"，　ｔｈｅｙ’ｌｌ"TCC_NEWLINE
+"ｈａｌｔ．　Ｔｈｉｓ　ｓｈｏｕｌｄ　ｂｕｙ　ｕｓ　ｓｏｍｅ　"TCC_NEWLINE"ｔｉｍｅ，"TCC_NEWLINE
+"ｂｕｔ　ｎｏｔ　ａ　ｌｏｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｈｅｎ　ｔｈｅｙ　ｓｅｅ　ｔｈｒｏｕｇｈ　ｉｔ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｅｅ　ｔｈｒｏｕｇｈ　ｉｔ？　Ｔｈｅｙ’ｒｅ　ｈｅｒｅ！"TCC_NEWLINE
+"Ｅｖｅｒｙｏｎｅｄｉｓｅｎｇａｇｅ！　Ｒｅｔｒｅａｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈｈ．．．　Ｃａｎ　ｗｅ　ｍａｋｅ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉｔ’ｓ　ｔｏｏ　ｌａｔｅ　ｔｏ　ｒｕｎ，　Ｓｈａｒｅｎａ．"TCC_NEWLINE"　Ｗｅ’ｌｌ"TCC_NEWLINE
+"ｈａｖｅ　ｔｏ　ｍａｋｅ　ａ　ｓｔａｎｄ　ｈｅｒｅｕｎｔｉｌ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
+"ｋｎｉｇｈｔｓ　ａｒｒｉｖｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｋｉｎｇ’ｓ　ｋｎｉｇｈｔｓ　ｈａｖｅ　ａｒｒｉｖｅ"TCC_NEWLINE"ｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏｈ，　ｈｏｏｒａｙ！　Ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ｒｅｔｒｅ"TCC_NEWLINE"ａｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｎｄ　ｉｆ　ｔｈｅ　ｅｎｅｍｙ　ｈｅａｄｓ　ｔｏｗａｒｄ　"TCC_NEWLINE"ｔｏｗｎ，"TCC_NEWLINE
+"ｔｈｅｙ’ｌｌ　ｂｅ　ｔｕｒｎｉｎｇ　ｔｈｅｉｒ　ｂａｃｋｓ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"Ｆａｔｈｅｒ’ｓ　ｆｏｒｃｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｔｏｗｎｓｐｅｏｐｌｅ　ｓｈｏｕｌｄ　ｂｅ　ｓａｆｅ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｗｈａｔ　ａ　ｒｅｌｉｅｆ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ’ｖｅ　ｈｅａｒｄ　ａｂｏｕｔ　ｗｈａｔ　ｈａｐｐｅｎｅｄ"TCC_NEWLINE
+"ｈｅｒｅ．　Ｗｈｙ　ｗｏｕｌｄ　ｙｏｕ　ｔａｋｅ　ｓｕｃｈ　"TCC_NEWLINE"ａ"TCC_NEWLINE
+"ｆｏｏｌｉｓｈ　ｒｉｓｋ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅ　ｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆａｔｈｅｒ，　ｗｅｗｅ　ｈａｄ　ｔｏ　ｐｒｏｔｅｃｔ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｗａｓ　ｓｐｅａｋｉｎｇ　ｔｏ　ｙｏｕｒ　ｂｒｏｔｈｅｒ"TCC_NEWLINE"，"TCC_NEWLINE
+"Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　ｓｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅ　ｅｎｅｍｙ　ｗａｓ　ｏｎ　ｔｈｅ　ｍａｒｃｈ．　Ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｔｏｗｎ　ｈａｄ　ｎｏ　ｄｅｆｅｎｓｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｄ　ｔｏ　ｄｏ　ｗｈａｔ　ｗｅ　ｃｏｕｌｄ　ｔｏ　"TCC_NEWLINE"ｓｔｏｐ"TCC_NEWLINE
+"ｔｈｅｍ，　ｓｏ　Ｉ　ｃａｍｅ　ｕｐ　ｗｉｔｈ　ａ　ｐｌａｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｏｕ　ｔｈｏｕｇｈｔ　ｙｏｕ　ｃｏｕｌｄ　ｆａｃｅ　ａｎ　"TCC_NEWLINE"ａｒｍｙ？"TCC_NEWLINE
+"Ｈａｒｄｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｈａｄ　ｍｉｓｃａｌｃｕｌａｔｅｄ　ｅｖｅｎ　"TCC_NEWLINE"ｓｌｉｇｈｔｌｙ，"TCC_NEWLINE
+"ｙｏｕ’ｄ　ｂｅ　ｄｅａｄ　ｎｏｗ．　Ｄｅａｄ，　Ａｌｆｏｎ"TCC_NEWLINE"ｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ，　Ｆａｔｈｅｒ．　Ｔｈａｔ　ｉｓ　ｓｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｃｏｍｍｅｎｄ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　"TCC_NEWLINE"ｆｏｒ"TCC_NEWLINE
+"ｉｔｓ　ｖｉｃｔｏｒｙ　ｏｖｅｒ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｙｏｕ　ｎｅｅｄ　ｔｏ"TCC_NEWLINE
+"ｕｎｄｅｒｓｔａｎｄ，　ｈｏｗｅｖｅｒ．　Ｙｏｕ　ａｒｅ　ｎ"TCC_NEWLINE"ｏｔ　ａ"TCC_NEWLINE
+"Ｈｅｒｏ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｎｅｅｄ　ｎｏｔ　ｂｅ　ａｍｉｄｓｔ　ｔｈｅｍ，　ｗ"TCC_NEWLINE"ａｖｉｎｇ"TCC_NEWLINE
+"ｙｏｕｒ　ｓｗｏｒｄ　ａｂｏｕｔ．　Ｙｏｕｒ　ｐｌａｃｅ　ｉ"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"ｅｌｓｅｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｆａｔｈｅｒ，　Ｉ．．．　Ｉ　ｊｕｓｔ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｏｕ　ａｒｅ　ｍｏｖｅｄ　ｔｏ　ｓａｖｅ　ｐｅｏｐｌｅ．　"TCC_NEWLINE"Ｉｓ　ｔｈａｔ"TCC_NEWLINE
+"ｉｔ？　Ｂｕｔ　ａ　ｋｉｎｇ’ｓ　ｄｕｔｙ　ｉｓ　ｎｏｔ　ｔ"TCC_NEWLINE"ｏ　ｒｅｓｃｕｅ"TCC_NEWLINE
+"ｔｈｏｓｅ　ｈｅ　ｓｅｅｓ　ｉｎ　ｆｒｏｎｔ　ｏｆ　ｈｉｍ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｋｉｎｇ’ｓ　ｄｏｍａｉｎ　ｈｏｌｄｓ　ｔｈｏｕｓａｎｄ"TCC_NEWLINE"ｓ．"TCC_NEWLINE
+"Ｐｒｏｔｅｃｔｉｎｇ　ｅａｃｈ　ａｎｄ　ｅｖｅｒｙ　ｏｎｅ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
+"ｔｈｅｍｔｈａｔ　ｉｓ　ｔｈｅ　ｄｕｔｙ　ｏｆ　ａ　ｋｉｎｇ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｏｔ　ｓｕｒｅ　ｙｏｕ　ａｒｅ　ｃａｐａｂｌｅ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
+"ｔｈａｔｎｏｔ　ｙｅｔ，　ａｔ　ａｎｙ　ｒａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ．．．Ｉ　ｃａｎ’ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ｉ　ａｍ　ｎｏｔ　ｒｅａｄｙ，　ｓｏ　Ｉ．．．　Ｗｈ"TCC_NEWLINE"ｉｌｅ　ｙｏｕ"TCC_NEWLINE
+"ｒｅｉｇｎＩ　ｔｈｏｕｇｈｔ　Ｉ　ｃｏｕｌｄ　ｈｅｌｐ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｎｄ　ｉｆ　Ｉ　ｄｉｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｏｕｌｄ　ｂｅ　ｋｉｎｇ．　Ａｒｅ　ｙｏｕ　ｒｅａ"TCC_NEWLINE"ｄｙ　ｔｏ"TCC_NEWLINE
+"ｒｕｌｅ　Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ｉ　ａｍ　ｎｏｔ．　Ｎｏｔ　ｙｅｔ．　Ｉ　ａｍ　ｎｏ"TCC_NEWLINE"　ｍａｔｃｈ"TCC_NEWLINE
+"ｆｏｒ　ｙｏｕ，　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｎｄ　ｉｆ　ｙｏｕ　ｄｉｅｄ　ｉｎ　ｂａｔｔｌｅ，　ｗｈａ"TCC_NEWLINE"ｔ　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｔｉｍｅ　Ｉ　ｈａｖｅ　ｌｅｆｔ　ｉｓ　ｓｈｏｒｔｅ"TCC_NEWLINE"ｒ　ｔｈａｎ"TCC_NEWLINE
+"ｙｏｕ　ｒｅａｌｉｚｅ．　Ｉ　ｗｉｌｌ　ｄｉｅ　ｏｎｅ　ｄａ"TCC_NEWLINE"ｙ，　ａｎｄ"TCC_NEWLINE
+"ｉｔ　ｗｉｌｌ　ｂｅ　ｓｏｏｎｅｒ　ｔｈａｎ　ｙｏｕ　ｔｈｉ"TCC_NEWLINE"ｎｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗｉｌｌ　ｔｈａｔ　ｄａｙ　ｍｅａｎ　ｆｏｒ　Ａｓ"TCC_NEWLINE"ｋｒ　ａｎｄ"TCC_NEWLINE
+"ｉｔｓ　ｐｅｏｐｌｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ．．．　Ｔｈｅｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｏｕｒ　ｌｉｆｅ　ｉｓ　ｎｏｔ　ｔｈａｔ　ｏｆ　ａ　ｓｗｏ"TCC_NEWLINE"ｒｄｓｍａｎ"TCC_NEWLINE
+"ｒｕｓｈｉｎｇ　ｔｏ　ｔｈｅ　ｒｅｓｃｕｅ．　Ｙｏｕｒ　ｒｏ"TCC_NEWLINE"ｌｅ　ｉｓ　ｔｏ"TCC_NEWLINE
+"ｌｅａｄ　ｔｈｉｓ　ｌａｎｄ　ａｎｄ　ｉｔｓ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｃａｎ　ｏｎｌｙ　ｃｏｍｐｒｅｈｅｎｄ　ｔｈｅ"TCC_NEWLINE
+"ｓｕｆｆｅｒｉｎｇ　ｔｈａｔ　ｉｓ　ｒｉｇｈｔ　ｉｎ　ｆｒｏ"TCC_NEWLINE"ｎｔ　ｏｆ　ｙｏｕｒ"TCC_NEWLINE
+"ｆａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｙｏｕｒ　ｃｏｍｐａｓｓｉｏｎ　ｈａｓ　ｉｔｓ　ｌ"TCC_NEWLINE"ｉｍｉｔｓ．"TCC_NEWLINE
+"Ｙｏｕ　ａｒｅ　ｆａｒ　ｆｒｏｍ　ｒｅａｄｙ　ｔｏ　ｂｅ　ｋ"TCC_NEWLINE"ｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｆａｔｈｅｒ．．．　Ｉ　ａｍ　ｔｒｕｌｙ　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HENRIETTE
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｍｏｔｈｅｒ？　Ｗｈａｔ’ｓ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｃａｎ’ｔ　ａ　ｍｏｔｈｅｒ　ｈｅｌｐ　ｂａｎｄａｇｅ　ｈｅ"TCC_NEWLINE"ｒ　ｌｉｔｔｌｅ"TCC_NEWLINE
+"ｂｏｙ’ｓ　ｗｏｕｎｄｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｍ　ａｌｌ　ｒｉｇｈｔ，　Ｍｏｔｈｅｒ．　Ｉ　ａｍ　ｎｏ"TCC_NEWLINE"　ｌｏｎｇｅｒ　ａ"TCC_NEWLINE
+"ｃｈｉｌｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｓ　ｔｈａｔ　ｓｏ？　Ｗｅｌｌ．．．ｈｅａｒｉｎｇ　ｔｈａ"TCC_NEWLINE"ｔ　ｍａｋｅｓ"TCC_NEWLINE
+"ｍｅ　ａ　ｂｉｔ　ｓａｄ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆａｔｈｅｒ　ｗａｓ　ｎｏｔ　ｗｒｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｅｄ　ｔｏ　ｌｅａｒｎ　ｔｏ　ｔｈｉｎｋ　ｏｎ　ａ　"TCC_NEWLINE"ｇｒａｎｄ"TCC_NEWLINE
+"ｓｃａｌｅ，　ａｓ　ｈｅ　ｄｏｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅ’ｄ　ｂｅ　ｈａｐｐｙ　ｔｏ　ｈｅａｒ　ｙｏｕ　ｓａｙ　"TCC_NEWLINE"ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｂｒｉｎｇｓ　ｂａｃｋ　ｍｅｍｏｒｉｅｓ．　Ｙｏｕ"TCC_NEWLINE"’ｒｅ"TCC_NEWLINE
+"ｊｕｓｔ　ｌｉｋｅ　ｈｅ　ｗａｓ　ａｔ　ｙｏｕｒ　ａｇｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ａｍ？　Ｒｅａｌｌｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅ　ｗａｓ　ａｌｗａｙｓ　ｒｕｓｈｉｎｇ　ｏｕｔ　ｉｎｔｏ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
+"ｃｏｕｎｔｒｙｓｉｄｅ　ｔｏ　ｈｅｌｐ　ｔｈｅ　ｃｉｔｉｚｅ"TCC_NEWLINE"ｎｓ　ｏｒ"TCC_NEWLINE
+"ｏｆｆ　ｅｘｐｌｏｒｉｎｇ　ｏｔｈｅｒ　ｒｅａｌｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗａｓ　ｓｏ　ｒｅｃｋｌｅｓｓ　ｗｈｅｎ　Ｉ　ｆｉｒｓ"TCC_NEWLINE"ｔ　ｍｅｔ"TCC_NEWLINE
+"ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｒｕｌｙ？　Ｉｔ’ｓ　ｓｏ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｂｅ"TCC_NEWLINE"ｌｉｅｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅ　ｉｓ　ａ　ｐａｓｓｉｏｎａｔｅ　ｍａｎ，　ａｎｄ　ｉｆ"TCC_NEWLINE"　ｗｅ"TCC_NEWLINE
+"ｄｉｄｎ’ｔ　ｋｅｅｐ　ａｎ　ｅｙｅ　ｏｎ　ｈｉｍ，　ｗｅｌ"TCC_NEWLINE"ｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ａ　ｒｅａｓｏｎ　ｈｅ　ｃｈａｎｇｅｄ，"TCC_NEWLINE
+"ｔｈｏｕｇｈｔｈａｔ　ｈｅ　ｂｅｃａｍｅ　ｓｏ　ｃａｕｔｉｏ"TCC_NEWLINE"ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｅｖｅｒ　ｍｉｎｄ　ａｌｌ　ｔｈａｔ，　ｄｅａｒ．　Ｒｅｓ"TCC_NEWLINE"ｔ　ｗｅｌｌ，"TCC_NEWLINE
+"Ａｌｆｏｎｓｅ．　Ｙｏｕ’ｖｅ　ｅａｒｎｅｄ　ｉｔ．　Ｗｅ　"TCC_NEWLINE"ｗｉｌｌ"TCC_NEWLINE
+"ｓｐｅａｋ　ａｇａｉｎ　ｔｏｍｏｒｒｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

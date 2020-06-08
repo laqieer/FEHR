@@ -1,0 +1,102 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S0102_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｂｒｏｔｈｅｒ！　Ｗｈａｔ"TCC_NEWLINE
+"ｈａｓ　ｔａｋｅｎ　ｙｏｕ　ｓｏ　ｌｏｎｇ　ｔｏ　ｇｅｔ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．　Ｗｅ　ｈａｄ　ｔｏ　ｂａｔｔ"TCC_NEWLINE"ｌｅ"TCC_NEWLINE
+"ｏｕｒ　ｗａｙ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｏ’ｓ　ｔｈｉｓ　ｗｉｔｈ　ｙｏｕ？　Ｏｈ　ｍｙ！"TCC_NEWLINE
+"Ｙｏｕ’ｒｅ　ｈｏｌｄｉｎｇ　ｔｈｅ　ｄｉｖｉｎｅ　ｒｅｌｉ"TCC_NEWLINE"ｃ．．．"TCC_NEWLINE
+"ａｎｄ　ｉｔ’ｓ　ａｌｌ　ａｇｌｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ．．．ｔｈｅ　Ｇｒｅａｔ　Ｈｅｒｏ？　Ｏｕｒ　"TCC_NEWLINE"ｇｒｏｕｐ"TCC_NEWLINE
+"ｈａｓ　ｈｏｐｅｄ　ｂｅｙｏｎｄ　ｈｏｐｅ　ｔｈａｔ　ｙｏｕ"TCC_NEWLINE
+"ｍｉｇｈｔ　ｃｏｍｅ　ｔｏ　ｓａｖｅ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｌｅａｓｅ，　ｃａｌｍ　ｙｏｕｒｓｅｌｆ，　Ｓｈａｒｅｎａ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｔｈｉｓ　ｉｓ"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｉｔ　ｔｕｒｎｓ　ｏｕｔ，　ｔｈｅ　Ｇｒｅａｔ　Ｈｅｒ"TCC_NEWLINE"ｏ　ｉｓ　ａ"TCC_NEWLINE
+"ｔａｌｅｎｔｅｄ　ｔａｃｔｉｃｉａｎ　ａｓ　ｗｅｌｌ．　Ｗｅ"TCC_NEWLINE"’ｒｅ"TCC_NEWLINE
+"ａｌｒｅａｄｙ　ｉｎ　ｇｏｏｄ　ｈａｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ．．．ｔｈａｔ’ｓ　ａｍａｚｉｎｇ．　Ａｎｄ，　Ｇｒｅ"TCC_NEWLINE"ａｔ　Ｈｅｒｏ，"TCC_NEWLINE
+"ｙｏｕ’ｒｅ　ａｓ　ｇｒｅａｔ　ａｓ　Ｉ　ｉｍａｇｉｎｅｄ．"TCC_NEWLINE"　Ｉ’ｍ"TCC_NEWLINE
+"ｇｏｉｎｇ　ｔｏ　ｂｅ　ｙｏｕｒ　ｎｕｍｂｅｒ－ｏｎｅ　ｆａ"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ！　Ｍｙ　ｍａｎｎｅｒｓ　ｈａｖｅ　ｇｏｎｅ　ｒｉｇｈｔ"TCC_NEWLINE"　ｏｕｔ"TCC_NEWLINE
+"ｔｈｅ　ｗｉｎｄｏｗ．　Ｉ’ｍ　Ｓｈａｒｅｎａ，　Ａｌｆｏｎ"TCC_NEWLINE"ｓｅ’ｓ"TCC_NEWLINE
+"ｄａｒｌｉｎｇ　ｌｉｔｔｌｅ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｌ　ｒｉｇｈｔ，　ａｌｌ　ｒｉｇｈｔ．．．　Ｊｕｓｔ　ｔ"TCC_NEWLINE"ｅｌｌ　ｕｓ，　ｗｈａｔ’ｓ"TCC_NEWLINE
+"ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｉｍｐｌｙ　ｐｕｔ？　Ａｂｓｏｌｕｔｅｌｙ　ｄｒｅａｄｆｕ"TCC_NEWLINE"ｌ．　Ｔｈｅ"TCC_NEWLINE
+"ｅｍｐｉｒｅ　ｈａｓ　ｔａｋｅｎ　ｃｏｎｔｒｏｌ　ｏｆ　ａ　"TCC_NEWLINE"Ｈｅｒｏ"TCC_NEWLINE
+"ｆｒｏｍ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｓｗｏｏｐｓ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｓｋｉｅｓ，　"TCC_NEWLINE"ａ"TCC_NEWLINE
+"ｆｅａｒｓｏｍｅ　ｆｉｇｕｒｅ，　ａｌｌ　ｉｎ　ｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａ　ｒｅｄ　ｆｌｉｅｒ　ｆｒｏｍ　Ｍｙｓｔｅｒｙ？　Ｉｔ　ｓ"TCC_NEWLINE"ｏｕｎｄｓ"TCC_NEWLINE
+"ｌｉｋｅ　Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｂａｔｔｌｅ　ｗｉｌｌ　ｂｅ　ｔｏｕｇｈ．　Ｗｅ　"TCC_NEWLINE"ｓｈｏｕｌｄ"TCC_NEWLINE
+"ｂｒｉｎｇ　ａ　Ｈｅｒｏ　ｗｈｏ’ｓ　ａｎ　ａｒｃｈｅｒ，　"TCC_NEWLINE"ｏｒ"TCC_NEWLINE
+"ｐｅｒｈａｐｓ．．．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S0102_EN] = TCC_OPEN_LEFT
+"Ｂｅｇｏｎｅ，　ｏｕｔｓｉｄｅｒｓ！　Ｉ　ａｍ　Ｍｉｎｅｒｖ"TCC_NEWLINE"ａ，"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ　ｏｆ　Ｍａｃｅｄｏｎ．　Ｎｏｗ，　Ｉ’ｌｌ"TCC_NEWLINE"　ｗａｒｎ"TCC_NEWLINE
+"ｙｏｕ　ｏｎｃｅｒｅｔｕｒｎ　ｔｏ　ｙｏｕｒ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｂｏｕｎｄ　ｔｏ　ｓｅｒｖｅ　ｔｈｅ　Ｅｍｂｌｉａ"TCC_NEWLINE"ｎ"TCC_NEWLINE
+"Ｅｍｐｉｒｅ，　ａｎｄ　ｔｈｅ　ｉｍｐｅｒｉａｌ　ｐｒｉｎｃ"TCC_NEWLINE"ｅｓｓ，"TCC_NEWLINE
+"Ｖｅｒｏｎｉｃａ，　ｈａｓ　ｇｉｖｅｎ　ｍｅ　ａｎ　ｏｒｄｅ"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｈａｓ　ｃｏｍｍａｎｄｅｄ　ｔｈａｔ　Ｉ　ａｔｔａｃ"TCC_NEWLINE"ｋ"TCC_NEWLINE
+"ａ　ｋｉｎｇｄｏｍ　ｎｅａｒ　ｈｅｒ　ｅｍｐｉｒｅ．　Ｉ　ｈ"TCC_NEWLINE"ａｖｅ"TCC_NEWLINE
+"ｎｏ　ｔｉｍｅ　ｆｏｒ　ｔｈｅ　ｌｉｋｅｓ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ，　ｐｌｅａｓｅ　ｈｅａｒ　"TCC_NEWLINE"ｍｅ　ｏｕｔ．"TCC_NEWLINE
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　ｏｆ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
+"ｖｅｒｙ　ｋｉｎｇｄｏｍ　ｙｏｕ　ｐｌａｎ　ｔｏ　ａｔｔａｃ"TCC_NEWLINE"ｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｇ　ｙｏｕ，　ｐｕｔ　ｄｏｗｎ　ｙｏｕｒ　ｗｅａｐｏ"TCC_NEWLINE"ｎｓ．"TCC_NEWLINE
+"Ｗｅ　ｏｆ　Ａｓｋｒ　ｈａｖｅ　ｎｏ　ｄｅｓｉｒｅ　ｔｏ"TCC_NEWLINE
+"ｂａｔｔｌｅ　ｙｏｕ　ｎｏｂｌｅ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｕｎｄｅｒ　ｃｏｎｔｒａｃｔ　ｔｏ　ｏｂｅｙ　Ｐｒ"TCC_NEWLINE"ｉｎｃｅｓｓ"TCC_NEWLINE
+"Ｖｅｒｏｎｉｃａ．　Ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ＯＮＥ　ｗａ"TCC_NEWLINE"ｙ　ｔｏ"TCC_NEWLINE
+"ｒｅｌｅａｓｅ　ｍｅ．　Ｐｒｏｖｅ　ｙｏｕ　ａｒｅ　ｓｔｒｏ"TCC_NEWLINE"ｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｕｓｔ　ｗｅ　ｒｅｓｏｌｖｅ　ｔｈｉｓ　ｗｉｔｈ　ａ　ｂａ"TCC_NEWLINE"ｔｔｌｅ，"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ　Ｍｉｎｅｒｖａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ！　Ｓｈｅ　ｈａｓ　ｎａｍｅｄ　"TCC_NEWLINE"ｈｅｒ"TCC_NEWLINE
+"ｔｅｒｍｓ．　Ｗｅ　ｍｕｓｔ　ｆｉｇｈｔａｎｄ　ｗｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ，　ｐｒｅｐａｒｅ　ｆｏｒ　ｂａｔｔｌｅ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0102_EN] = TCC_OPEN_LEFT
+"Ｗｅｌｌ　ｄｏｎｅ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．　Ｙｏｕ"TCC_NEWLINE"　ｈａｖｅ"TCC_NEWLINE
+"ｐｒｏｖｅｄ　ｓｔｒｏｎｇ　ｅｎｏｕｇｈ　ｔｏ　ｂｒｅａｋ"TCC_NEWLINE
+"ｏｕｒ　ｃｏｎｔｒａｃｔ　ｗｉｔｈ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｏ，　ｗｅ　ａｒｅ　ｆｒｅｅ　ｏｎｃｅ　ｍｏｒｅ．"TCC_NEWLINE
+"Ｉ　ｇｉｖｅ　ｙｏｕ　ｍｙ　ｏａｔｈ　ｔｈａｔ　ｗｅ　ｗｉｌ"TCC_NEWLINE"ｌ　ｎｏｔ"TCC_NEWLINE
+"ａｔｔａｃｋ　ｙｏｕｒ　ｋｉｎｇｄｏｍ．　Ｆａｒｅｗｅｌｌ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S0102_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈａｔ　ｃｏｍｐｌｅｔｅｓ　ｔｈｉｓ　ｍｉｓｓｉｏｎ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｏｕ’ｒｅ　ｓｕｃｈ　ａｎ　ｅｘｃｅｌｌｅｎｔ　ｔａｃｔｉ"TCC_NEWLINE"ｃｉａｎ．"TCC_NEWLINE
+"Ｗｈｙ，　Ｉ　ｔｈｉｎｋ　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ｖ"TCC_NEWLINE"ｅｒｙ"TCC_NEWLINE
+"ｆｏｎｄ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｅｖｅｒｙｏｎｅ，　ｌｉｓｔｅｎ　ｕｐ．　Ｉ’ｖｅ　ｊｕｓｔ"TCC_NEWLINE"　ｇｏｔｔｅｎ"TCC_NEWLINE
+"ａ　ｒｅｐｏｒｔ　ｔｈａｔ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ"TCC_NEWLINE"　ａｒｅ"TCC_NEWLINE
+"ａｄｖａｎｃｉｎｇ　ｏｎ　ｏｕｒ　ｋｉｎｇｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？　Ｔｈｅｎ　ａｌｌ　ｏｆ　ｔｈｉｓ，　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ　ｗａｓ　ｊｕｓｔ　ａ　ｄｉｓｔｒａｃｔｉｏｎ．　Ｗｅ’"TCC_NEWLINE"ｖｅ　ｌｅｆｔ"TCC_NEWLINE
+"ｏｕｒ　ｋｉｎｇｄｏｍ　ｏｐｅｎ　ｔｏ　ａｔｔａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ’ｓ　ｄｏｎｅ　ｉｓ　ｄｏｎｅ．　Ｎｏｗ，　ｌｅｔ’"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"ｍａｋｅ　ｈａｓｔｅ．　Ｂａｃｋ　ｔｏ　Ａｓｋｒ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

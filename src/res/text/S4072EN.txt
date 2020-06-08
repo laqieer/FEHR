@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4072_EN] = TCC_OPEN_LEFT
+"Ｓｅｌｉｐｈ．．．　Ｔｈｉｓ　ｎａｍｅ　ｉｓ　ｆａｍｉｌｉａ"TCC_NEWLINE"ｒ，　ｂｕｔ"TCC_NEWLINE
+"ｗｈｏｓｅ　ｉｓ　ｉｔ？　Ｓａｙｉｎｇ　ｉｔ，　Ｉ　ｆｅｅｌ"TCC_NEWLINE
+"ａ　ｓｔｒａｎｇｅ　ｗａｒｍｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

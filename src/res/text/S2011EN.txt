@@ -1,0 +1,80 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S2011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｉｓｔｅｎ　ｕｐ，　ｔｒｏｏｐｓ！　Ｔｈｅ　ｅａｓｔｅｒｎ"TCC_NEWLINE
+"ｒｅａｃｈｅｓ　ｏｆ　Ａｓｋｒ　ａｒｅ　ｕｎｄｅｒ　ａｔｔａ"TCC_NEWLINE"ｃｋ！"TCC_NEWLINE
+"Ｔｈｅｙ’ｒｅ　ｔａｒｇｅｔｉｎｇ　Ｇｎｔｔｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｓ　ｉｔ　Ｅｍｂｌａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｔｈｅ　ｓｏｌｄｉｅｒ　ｗｈｏ"TCC_NEWLINE
+"ｃａｒｒｉｅｄ　ｔｈｅ　ｒｅｐｏｒｔ　ｉｓ　ｕｎｃｏｎｓｃｉ"TCC_NEWLINE"ｏｕｓ．．．"TCC_NEWLINE
+"ｗｉｔｈ　ｔｅｒｒｉｂｌｅ　ｂｕｒｎｓ　ａｌｌ　ｏｖｅｒ　ｈ"TCC_NEWLINE"ｉｓ　ｂｏｄｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｈｉｓ　ｓｕｆｆｅｒｉｎｇ，　ｈｅ　ｒｅｐｅａｔｓ　ｏ"TCC_NEWLINE"ｎｅ"TCC_NEWLINE
+"ｐｈｒａｓｅ，　ａｇａｉｎ　ａｎｄ　ａｇａｉｎ：　ｔｈｅ"TCC_NEWLINE
+"ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｍｕｓｔ　ｆｉｎｄ　ｏｕｔ　ｗｈａｔ’ｓ　ｇｏｉｎｇ　"TCC_NEWLINE"ｏｎ．　Ｉｔ’ｓ"TCC_NEWLINE
+"ｗｅｌｌ　ｐａｓｔ　ｔｉｍｅ　ｗｅ　ｌｅｆｔ．　Ｍａｋｅ　ｙ"TCC_NEWLINE"ｏｕｒ"TCC_NEWLINE
+"ｐｒｅｐａｒａｔｉｏｎｓ　ｑｕｉｃｋｌｙ　ａｎｄ　ｍｏｖｅ　"TCC_NEWLINE"ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S2011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ．．．ｈａｓ　ｈａｐｐｅｎｅｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｐｌａｃｅ　ｗａｓ　ｆａｍｏｕｓ　ｆｏｒ　ｉｔｓ　"TCC_NEWLINE"ｂｏｕｎｔｉｆｕｌ"TCC_NEWLINE
+"ｆａｒｍｌａｎｄ．．．　Ｂｕｔ　ｙｏｕ’ｄ　ｎｅｖｅｒ　ｋｎ"TCC_NEWLINE"ｏｗ　ｉｔ"TCC_NEWLINE
+"ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ．．．ｗｅ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ　ｗｉｔｈ"TCC_NEWLINE
+"Ｍｏｔｈｅｒ　ｗｈｅｎ　ｗｅ　ｗｅｒｅ　ｃｈｉｌｄｒｅｎ．．"TCC_NEWLINE"．　Ｔｈｉｓ"TCC_NEWLINE
+"ｉｓ　ａ　ｃｒｕｅｌ　ｒｅｂｕｋｅ　ｔｏ　ｍｙ　ｍｅｍｏｒｉ"TCC_NEWLINE"ｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｙｏｎｄ　ｃｒｕｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａｌｆｏｎｓｅ！　Ｓｈａｒｅｎａ！　Ｂｅ　ｏｎ　ｙｏｕｒ　ｇ"TCC_NEWLINE"ｕａｒｄ！"TCC_NEWLINE
+"Ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｙ’ｒｅ　ｍａｒｃｈｉｎｇ　ｕｎｄｅｒ　ｔｈｅ　Ｅｍｂ"TCC_NEWLINE"ｌｉａｎ"TCC_NEWLINE
+"ｂａｎｎｅｒｔｈａｔ’ｓ　ｃｅｒｔａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｏ　ｉｔ　ｉｓ　Ｅｍｂｌａ　ｔｈａｔ’ｓ　ｂｅｈｉｎｄ　ｔ"TCC_NEWLINE"ｈｉｓ．　Ｉ’ｌｌ"TCC_NEWLINE
+"ｎｅｖｅｒ　ｆｏｒｇｉｖｅ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｏｌｄ　ａ　ｍｏｍｅｎｔ，　Ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔａｋｅ　ａ　ｌｏｏｋ　ａｔ　ｔｈｅｓｅ　ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｎｏｔ　ｄｙｉｎｇ　ｄｏｗｎ．　Ｉｎ　ｆａｃ"TCC_NEWLINE"ｔ，　ｔｈｅｙ"TCC_NEWLINE
+"ｓｅｅｍ　ｔｏ　ｇｒｏｗ　ｅｖｅｎ　ｈｏｔｔｅｒ．．．　Ｉ’"TCC_NEWLINE"ｖｅ　ｎｅｖｅｒ"TCC_NEWLINE
+"ｓｅｅｎ　ａｎｙｔｈｉｎｇ　ｌｉｋｅ　ｉｔ　ｂｅｆｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｌａｍｅｓ　ｌｉｋｅ　ｔｈｉｓ　ｃｏｕｌｄ　ｔｕｒｎ　ａ　"TCC_NEWLINE"ｒｉｖｅｒ　ｉｎｔｏ"TCC_NEWLINE
+"ｎｏｔｈｉｎｇ　ｂｕｔ　ｓｔｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｌａｍｅｓ　ｕｎｄｙｉｎｇ．．．ｕｎｑｕｅｎｃｈａｂｌｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｒｏｐｈｅｃｙ．．．　Ｃａｎ　ｉｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？　Ｎｏ！　Ｔｈａｔ’ｓ　ｊｕｓｔ　ａ　ｓｉｌｌｙ　"TCC_NEWLINE"ｏｌｄ　ｂｏｏｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔｗｏ　ｂｉｃｋｅｒｉｎｇ　ａｂｏ"TCC_NEWLINE"ｕｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅｒｅ’ｓ　ａ　ｖｅｒｙ　ｏｌｄ　ｂｏｏｋ　ｏｆ　ｐｒｏ"TCC_NEWLINE"ｐｈｅｃｙ．．．"TCC_NEWLINE
+"Ｉｔ　ｔｅｌｌｓ　ｏｆ　ｔｈｅ　ｅｎｄ　ｏｆ　ｔｈｅ　ｗｏｒ"TCC_NEWLINE"ｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｌｏａｋｅｄ　ｉｎ　ｆｌａｍｅ，　ｈｅ　ｃｒｏｓｓｅｓ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
+"ｓｅａｕｎｑｕｅｎｃｈａｂｌｅ，　ｉｎｓａｔｉａｂｌｅ，"TCC_NEWLINE
+"ｕｎｄｙｉｎｇ　ｆｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｅｅｓ　ｆａｌｌ，　ｍｏｕｎｔａｉｎｓ　ｂｕｒｎ，　ｓｔ"TCC_NEWLINE"ｅａｍ"TCC_NEWLINE
+"ｂｉｌｌｏｗｓ．　Ｔｈｅ　ｓｅａｓ　ａｒｅ　ｓｗａｌｌｏｗｅ"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔａｒｓ　ｂｅｃｏｍｅ　ｃｉｎｄｅｒｓ，　ａｎｄ　ｔｈｅ　"TCC_NEWLINE"ｍｏｏｎ"TCC_NEWLINE
+"ｆａｌｌｓ　ｆｒｏｍ　ｔｈｅ　ｓｋｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｏｒｌｄ，　ｄｅｖｏｕｒｅｄ　ｂｙ　ｆｌａｍｅ，"TCC_NEWLINE
+"ｓｍｏｌｄｅｒｓ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｍｏｌｄｅｒｓ．．．ｏｕｔ？　Ｙｏｕ　ｃａｎ’ｔ　ｍｅａｎ"TCC_NEWLINE"　ｔｈａｔ"TCC_NEWLINE
+"ｉｔ’ｓ　ｄｅｓｔｒｏｙｅｄ，　ｃａｎ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｆｉｎｄ　ｏｕｔ　ｍｏｒｅ　ａｂｏｕｔ"TCC_NEWLINE"　ｗｈｏ"TCC_NEWLINE
+"ｗｅ’ｒｅ　ｒｅａｌｌｙ　ｕｐ　ａｇａｉｎｓｔ．　Ｗｅ　ｈａ"TCC_NEWLINE"ｖｅ　ｔｏ"TCC_NEWLINE
+"ｋｅｅｐ　ｐｕｓｈｉｎｇ　ｆｏｒｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈ　Ｉ　ｋｎｅｗ　ｊｕｓｔ　ｗｈａｔ　ｗｅ’ｒｅ　"TCC_NEWLINE"ｆａｃｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

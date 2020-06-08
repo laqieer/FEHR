@@ -1,0 +1,127 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ．．．ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ？　Ｉ’ｖｅ　ｎｅｖ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
+"Ａｎｄ．．．ｌｉｇｈｔ　ｅｌｖｅｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"Ａｈ，　Ｉ　ｓｅｅ　ｙｏｕ　ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｍｅ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｔｈｅｙ’ｖｅ　ｇｒｏｗｎ　ｉｎｔｏ　ａｄｕｌｔｓ"TCC_NEWLINE"，"TCC_NEWLINE
+"ｍｏｒｔａｌｓ　ｃｅｒｔａｉｎｌｙ　ｔｕｒｎ　ａｒｇｕｍｅｎ"TCC_NEWLINE"ｔａｔｉｖｅ．"TCC_NEWLINE
+"Ｙｏｕ　ｗｏｎ’ｔ　ｌｉｓｔｅｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａ　ｓｈａｍｅ．　Ｙｏｕ’ｒｅ　ｓｏ　ｐｕｒｅ　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
+"ｉｎｎｏｃｅｎｔ　ａｓ　ｃｈｉｌｄｒｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕ　ｆｏｒｇｅｔ　ｈｏｗ　ｔｏ　ｄｒｅａｍ　ｓｏ"TCC_NEWLINE
+"ｅａｓｉｌｙ．．．　Ｒｅａｌｉｔｙ　ＩＳ　ｈａｒｓｈ．　Ｉｔ"TCC_NEWLINE"　ｄｅｍａｎｄｓ"TCC_NEWLINE
+"ｆｏｃｕｓ，　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌａｓ，　ｉｔ　ｃａｎ’ｔ　ｂｅ　ｈｅｌｐｅｄ！　Ｉｆ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｄｒｅａｍｔ　ａｌｌ　ｔｈｅ　ｔｉｍｅ，　ｙｏｕ　ｗｏｕｌｄ"TCC_NEWLINE"ｎ’ｔ"TCC_NEWLINE
+"ｓｕｒｖｉｖｅ　ｆｏｒ　ｌｏｎｇ，　ｗｏｕｌｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓ－ｓｏ．．．ｙｏｕ　ｍｅａｎ　ｔｏ　ｔｅｌｌ　ｍｅ．．．　"TCC_NEWLINE"Ｈｍ．"TCC_NEWLINE
+"Ｉ’ｍ　ｂｅｇｉｎｎｉｎｇ　ｔｏ　ｒｅｍｅｍｂｅｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．．．　Ｅｖｅｒｙｏｎｅ　ｂｅｇａｎ　ｆａｌｌｉｎｇ　"TCC_NEWLINE"ａｓｌｅｅｐ．"TCC_NEWLINE
+"Ｔｈｅｎ，　Ｉ　ｗａｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｗｈｅｒｅ　ｉｓ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａｈ，　ｔｈｅｒｅ　ｔｈｅ　ｔｗｏ　ｏｆ　ｙｏｕ　ａｒｅ！　"TCC_NEWLINE"Ｗｈａｔ"TCC_NEWLINE
+"ｉｓ　ｔｈｉｓ　ｐｌａｃｅ？　Ａｎｙ　ｉｄｅａｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ　ｎｏｔ　ｑｕｉｔｅ　ｓｕｒｅ．　Ｂｕｔ　Ｉ’ｍ　ｇｌ"TCC_NEWLINE"ａｄ　ｔｏ"TCC_NEWLINE
+"ｓｅｅ　ｙｏｕ　ｂｏｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｈａｖｅ　ｅｉｔｈｅｒ　ｏｆ　ｙｏｕ　ｓｅｅｎ　ａｎｙ"TCC_NEWLINE"　ｔｒａｃｅ"TCC_NEWLINE
+"ｏｆ"TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈｅｒｅ　ｃｏｕｌｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂａｄ　ｎｅｗｓ！　Ｉ’ｍ　ａｆｒａｉｄ　ｔｈｅ　ｄｒｅａｍ"TCC_NEWLINE
+"ｍａｙ　ｈａｖｅ　ｔｒａｐｐｅｄ　ｙｏｕｒ　ｆｒｉｅｎｄ．．"TCC_NEWLINE"．"TCC_NEWLINE
+TCC_TACTICIAN_NAME"，　ｙｏｕ　ｓａｉｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｄｏ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　"TCC_NEWLINE"ｔｈａｔ．"TCC_NEWLINE
+"Ａｎｄ　ｑｕｉｃｋｌｙｂｅｆｏｒｅ　ｔｈｅ　ｎｉｇｈｔｍａｒ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｄｏｅｓ　ｉｔｓ　ｗｏｒｋ．．．　Ｔｈｉｓ　ｗａｙ！　Ｈｕｒ"TCC_NEWLINE"ｒｙ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｌｊｓｌｆｈｅｉｍｒ　ｉｓ　ａ　ｗｏｒｌｄ　ｃｒｅａｔｅｄ"TCC_NEWLINE
+"ｆｒｏｍ　ｔｈｅ　ｆａｂｒｉｃ　ｏｆ　ｍｏｒｔａｌｓ’　ｐｌ"TCC_NEWLINE"ｅａｓａｎｔ，"TCC_NEWLINE
+"ｄｅｌｉｇｈｔｆｕｌ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａ　ｗｏｒｌｄ　ｔｈａｔ　ｗｒａｐｓ　ｙｏｕ　ｕｐ"TCC_NEWLINE"　ａｌｌ"TCC_NEWLINE
+"ｗａｒｍ　ｉｎ　ａ　ｂｌａｎｋｅｔ，　ａ　ｆｌｕｆｆｙ－ｆｌ"TCC_NEWLINE"ｏａｔｙ"TCC_NEWLINE
+"ｗｏｒｌｄａ　ｃｈｉｌｄ’ｓ　ｄｒｅａｍｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ’ｍ　ｓｔｉｌｌ　ｎｏｔ　ｓｕｒｅ　ｗｈａｔ　ｅｘａｃｔｌ"TCC_NEWLINE"ｙ　ｔｈｉｓ"TCC_NEWLINE
+"ｐｌａｃｅ　ｉｓ．．．ｏｒ　ｈｏｗ　ｗｅ　ｇｏｔ　ｈｅｒｅ，"TCC_NEWLINE"　ｂｕｔ．．．"TCC_NEWLINE
+"Ｔｈｅ　ｓｃｅｎｅｒｙ　ｃｅｒｔａｉｎｌｙ　ｉｓ　ｉｎｃｒｅ"TCC_NEWLINE"ｄｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｗｈｅｒｅ　ａｒｅ　ａｌｌ　ｔｈｅｓｅ　ｓｏｌｄ"TCC_NEWLINE"ｉｅｒｓ"TCC_NEWLINE
+"ｃｏｍｉｎｇ　ｆｒｏｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｏｓｅ　ａｒｅ　ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｏｆ　ｎｉｇｈ"TCC_NEWLINE"ｔｍａｒｅｓ．"TCC_NEWLINE
+"Ｔｈｅｙ’ｒｅ　ｃｒｅａｔｅｄ　ｆｒｏｍ　ｔｈｅ　ａｎｘｉｏ"TCC_NEWLINE"ｕｓ"TCC_NEWLINE
+"ａｎｄ　ｔｅｒｒｉｆｉｅｄ　ｔｈｏｕｇｈｔｓ　ｏｆ　ｍｏｒｔ"TCC_NEWLINE"ａｌｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｋｅｅｐ　ｇｏｉｎｇ，　ｗｅ’ｌｌ　ｈａｖｅ　ｔｏ　ｄ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ"TCC_NEWLINE"，"TCC_NEWLINE
+"ｏｒ　ｔｈｅｙ’ｌｌ　ｂｅ　ｓｕｒｅ　ｔｏ　ｈａｕｎｔ　ｕｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈｅｗ．．．　Ａｎｏｔｈｅｒ　ｖｉｃｔｏｒｙ．　Ｂｕｔ　ｓ"TCC_NEWLINE"ｔｉｌｌ　ｎｏ"TCC_NEWLINE
+"ｓｉｇｎ　ｏｆ"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｉ　ｄｏ　ｈｏｐｅ　ｅｖｅｒｙｔｈｉｎｇ　ｉｓ　ａｌｌ　ｒｉ"TCC_NEWLINE"ｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ！　Ｉ　ｈａｖｅ　ａ　ｇｒｅａｔ　ｉｄｅａ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｖｅ　ｙｏｕ　ｔｒｉｅｄ　ｍａｋｉｎｇ　ａ　ｗｉｓｈ？"TCC_NEWLINE
+"Ｓｏｍｅｔｈｉｎｇ　ｌｉｋｅ，　Ｉ　ｗｉｓｈ　ｍｙ　ｆｒｉｅ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｗｅｒｅ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｗａｎｔ　ｍｅ　ｔｏ．．．ｗｉｓｈ？　Ｗｈａｔ　ｇｏ"TCC_NEWLINE"ｏｄ"TCC_NEWLINE
+"ｗｉｌｌ　ｔｈａｔ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ，　ｔｈｉｓ　ｉｓ　ａ　ｄｒｅａｍ，　ｓｏ．．．ｗｉ"TCC_NEWLINE"ｓｈｅｓ"TCC_NEWLINE
+"ｗｏｒｋ！　Ｙｏｕ　ｃａｎ　ｗｉｓｈ　ｆｏｒ　ｗｈａｔｅｖｅ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ｙｏｕ　ｗａｎｔ，　ａｎｄ　ｉｔ　ｗｉｌｌ　ｂｅｃｏｍｅ　ｒ"TCC_NEWLINE"ｅａｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｄｏ　ｗｈａｔｅｖｅｒ　ｙｏｕ　ｗａｎｔ　ｉ"TCC_NEWLINE"ｎ　ａ"TCC_NEWLINE
+"ｄｒｅａｍ！　Ａａａａｎｙｔｈｉｎｇ　ｉｓ　ｐｏｓｓｉｂｌｅ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ，　ｔｈｅ　ｗｏｒｌｄ　ｉｓ　ｗｈａｔｅｖｅｒ　ｙｏ"TCC_NEWLINE"ｕ"TCC_NEWLINE
+"ｗａｎｔ　ｉｔ　ｔｏ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｕｈ．　Ｓｏ．．．Ｉ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｗｉｓｈ？"TCC_NEWLINE"　Ｈｏｗ"TCC_NEWLINE
+"ｄｏｅｓ　ｔｈａｔ　ｗｏｒｋ？　Ｄｏ　Ｉ　ｈａｖｅ　ｔｏ　ｓ"TCC_NEWLINE"ａｙ"TCC_NEWLINE
+"ａｎｙｔｈｉｎｇ　ｓｐｅｃｉａｌ？　Ｏｒ　ｓｈｏｕｌｄ　Ｉ　"TCC_NEWLINE"ｃｌｏｓ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａｌｆｏｎｓｅ．　Ｙｏｕ　ｗｏｎ’ｔ　ｋｎｏｗ　ｕｎｔｉｌ　"TCC_NEWLINE"ｙｏｕ"TCC_NEWLINE
+"ｔｒｙ．　Ｊｕｓｔ　ｇｉｖｅ　ｉｔ　ａ　ｓｈｏｔ！　Ｎｏｔｈ"TCC_NEWLINE"ｉｎｇ　ｂａｄ"TCC_NEWLINE
+"ｃａｎ　ｈａｐｐｅｎ　ｆｒｏｍ　ａ　ｇｏｏｄ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｏｏｄ　ｐｏｉｎｔ．　Ｉ’ｌｌ　ｇｉｖｅ　ｉｔ　ａ　ｔｒｙ"TCC_NEWLINE"　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈ．．．　Ｉ　ｗｉｓｈ．．．　Ｉ　ｗｉｓｈ　ｍｙ　"TCC_NEWLINE"ｆｒｉｅｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｗａｓ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｏｗ！　Ｔｈａｔ　ｗａｓ　ｓｏｍｅ　ｇｏｏｄ　ｗｉｓｈｉｎ"TCC_NEWLINE"ｇ！"TCC_NEWLINE
+"Ｉ’ｍ　ｉｍｐｒｅｓｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏｏｈ．　Ｗｈｅｒｅ．．．　Ｗｈｉｃｈ　ｄｉｒｅｃｔｉｏｎ　"TCC_NEWLINE"ｓｈｏｕｌｄ"TCC_NEWLINE
+"Ｉ　ｂｅ　ｌｏｏｋｉｎｇ？　Ａｎｙ　ｉｄｅａｓ？　．．．Ｔｈ"TCC_NEWLINE"ｉｓ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｉｔ　ｗｏｒｋｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｔｈａｔ’ｓ　ｔｏｏ　ｂａｄ．　Ｉｔ　ｓｅｅｍｓ　ｙ"TCC_NEWLINE"ｏｕ’ｖｅ"TCC_NEWLINE
+"ｓｉｍｐｌｙ　ｌｏｓｔ　ｔｏｏ　ｍｕｃｈ　ｏｆ　ｙｏｕｒ　ｃ"TCC_NEWLINE"ｈｉｌｄｌｉｋｅ"TCC_NEWLINE
+"ｉｎｎｏｃｅｎｃｅ．．．　Ａｌｌ　ｇｒｏｗｎ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅｎ’ｔ　ａｂｌｅ，　ｄｅｅｐ　ｉｎ　ｙｏｕｒ　"TCC_NEWLINE"ｈｅａｒｔ，"TCC_NEWLINE
+"ｔｏ　ａｃｃｅｐｔ　ｔｈａｔ　ａ　ｗｉｓｈ　ｃａｎ　ｓｈａｐ"TCC_NEWLINE"ｅ　ｔｈｉｓ"TCC_NEWLINE
+"ｒｅａｌｉｔｙ．．．　Ｓｏ　ｙｏｕ　ｃａｎ’ｔ　ｄｒｅａｍ　"TCC_NEWLINE"ｆｒｅｅｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ．．．Ｉ’ｍ　ｓｏｒｒｙ，　ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ，　Ａｌｆｏｎｓｅ．　Ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｎｏｔｈｉｎｇ"TCC_NEWLINE
+"ｗｒｏｎｇ　ｗｉｔｈ　ｂｅｉｎｇ　ａｎ　ａｄｕｌｔ．．．　Ｗ"TCC_NEWLINE"ｅ’ｌｌ　ｊｕｓｔ"TCC_NEWLINE
+"ｆｉｎｄ　ａｎｏｔｈｅｒ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｅａｖｅ　ｔｈａｔ　ｔｏ　ｍｅ！　Ｔｈｉｓ　ｉｓ　ｍｙ　ｈ"TCC_NEWLINE"ｏｍｅ，"TCC_NEWLINE
+"ａｆｔｅｒ　ａｌｌ，　ｓｏ　Ｉ　ｋｎｏｗ　ｍｙ　ｗａｙ　ａｒ"TCC_NEWLINE"ｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｓｈｏｕｌｄ　ｖｉｓｉｔ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅ"TCC_NEWLINE"ｙｒ．"TCC_NEWLINE
+"Ｈｅ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｈｅｌｐ！　Ｃｏｍｅ　ｏｎ"TCC_NEWLINE"，　ｔｈｉｓ"TCC_NEWLINE
+"ｗａｙ．　Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

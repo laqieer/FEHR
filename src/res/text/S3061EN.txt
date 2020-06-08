@@ -1,0 +1,108 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｓ　ｔｈｅ　ｌｅｇｅｎｄｓ　ｓａｙ，　ｉｔ’ｓ　ｄａｒｋ　"TCC_NEWLINE"ａｓ"TCC_NEWLINE
+"ｔｈｅ　ｃｒｙｐｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｃａｎ　ｂｅ　ｎｏ　ｄｏｕｂｔ．　Ｔｈｉｓ　ｉｓ"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
+"ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_EIR
+"Ｔｈｅ　ｌａｎｄ　ｃａｌｌｅｄ　Ｈｅｌ，　ｗｈｅｒｅ　ｍｙ"TCC_NEWLINE
+"ｍｏｔｈｅｒ　ｒｕｌｅｓ　ｏｖｅｒ　ｔｈｏｓｅ　ｗｈｏ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
+"ｄｉｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　ｄｅａｔｈ，　ｔｈｏｓｅ　ｗｈｏ　ｄｅｓｅｒｖｅ"TCC_NEWLINE
+"ｎｏｔｈｉｎｇ　ｍｏｒｅ　ｃｏｍｅ　ｔｏ　ｒｅｓｉｄｅ　ｉｎ"TCC_NEWLINE
+"ｔｈｉｓ　ｄａｒｋ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅａｄ　ｇａｔｈｅｒ　ｆｒｏｍ　ａｌｌ　ｔｈｅ　ｒｅａｌｍ"TCC_NEWLINE"ｓ，"TCC_NEWLINE
+"ａｎｄ　ｅａｃｈ　ａｎｄ　ｅｖｅｒｙ　ｏｎｅ　ｇｒａｎｔｓ"TCC_NEWLINE
+"ｍｙ　ｍｏｔｈｅｒ　ｇｒｅａｔｅｒ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｒｅ　ｙｏｕ　ｏｎｅ　ｏｆ　ｔｈｅｍ？　Ｔｈｅ　ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｈｅ　ｃｅｒｔａｉｎｌｙ　ｄｏｅｓｎ’ｔ　ｓｅｅｍ　ｄｅａ"TCC_NEWLINE"ｄ．．．"TCC_NEWLINE
+"Ｓｈｅ’ｓ　ｎｏｔｈｉｎｇ　ｌｉｋｅ　ｔｈｅ　ｓｏｌｄｉｅｒ"TCC_NEWLINE"ｓ　ｗｅ’ｖｅ"TCC_NEWLINE
+"ｆｏｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｈｅｒ　ｓｋｉｎ　ｉｓ　ｐｏｓｉｔｉｖｅｌｙ　ｇｌｏ"TCC_NEWLINE"ｗｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ｓｋｉｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　Ｉ　ａｍ　ｍｏｒｔａｌ．．．　Ｉ　ｄｏ　ｎｏｔ　ｈ"TCC_NEWLINE"ａｖｅ　ｔｈｅ"TCC_NEWLINE
+"ｐｏｗｅｒ　ｔｏ　ｒｉｓｅ　ａｇａｉｎ，　ｌｉｋｅ　ｍｙ　ｍ"TCC_NEWLINE"ｏｔｈｅｒ’ｓ"TCC_NEWLINE
+"ｔｒｏｏｐｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｃｏｕｌｄ　ｆｉｇｈｔ，　ｄｉｅ，　ａｎｄ　ｒｉｓ"TCC_NEWLINE"ｅ　ｌｉｋｅ　ｔｈｅｙ，"TCC_NEWLINE
+"ｐｅｒｈａｐｓ　ｍｙ　ｍｏｔｈｅｒ　ｗｏｕｌｄ　ｔｈｉｎｋ"TCC_NEWLINE
+"ｂｅｔｔｅｒ　ｏｆ　ｍｅ．　Ｉ　ａｍ　ｗｏｒｔｈｌｅｓｓ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅｒ　ｋｅｅｐ　ｉｓ　ｎｏｔ　ｆａｒ．　Ｉ　ｗｉｌｌ　ｓｈ"TCC_NEWLINE"ｏｗ　ｙｏｕ"TCC_NEWLINE
+"ｔｈｅ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ｙｏｕ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｌｆ．．．ｔｈｅ　ｆｉｒｓｔ　Ｋｉｎｇ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｉｓ　ｎｏ　ｐｌ"TCC_NEWLINE"ａｃｅ"TCC_NEWLINE
+"ｆｏｒ　ｔｈｅ　ｌｉｋｅｓ　ｏｆ　ｙｏｕ，　ｌｉｖｉｎｇ　ｂ"TCC_NEWLINE"ｏｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ｄｅａｔｈ　ｃａｎｎｏｔ　ｂｅ　ｄｅｆｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ，　ｌｉｋｅ　ａｌｌ　ｔｈｅ　ｌｉｖｉｎｇ，　ｙｏｕ　"TCC_NEWLINE"ｗｉｌｌ　ｎｏｔ"TCC_NEWLINE
+"ｔｒｕｌｙ　ｃｏｍｐｒｅｈｅｎｄ　ｔｈｉｓ　ｕｎｔｉｌ　ｙｏ"TCC_NEWLINE"ｕｒ"TCC_NEWLINE
+"ｏｗｎ　ｄｅａｔｈ　ｃｏｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｃａｒｅｆｕｌ．　Ｔｈｉｓ　ｐｌａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｂｌｏｏｄ．．．　Ｃｒｕｓｔｅｄ　ｅｖｅｒｙｗｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎ　ｅｘｅｃｕｔｉｏｎ　ｓｉｔｅ？　Ｏｒ　ａｒｅ　ｐｅｏｐ"TCC_NEWLINE"ｌｅ"TCC_NEWLINE
+"ｔｏｒｔｕｒｅｄ　ｈｅｒｅ？　Ｉｔ’ｓ　ｕｎｆａｔｈｏｍａｂ"TCC_NEWLINE"ｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｔｈｉｓ．．．ｉｓ　ｗｈｅｒｅ　Ｉ　ｌｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈａｔ．．．　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ　ｂｙ　ｔｈ"TCC_NEWLINE"ａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｙ　ｄｕｔｙ．．．ｗａｓ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｏｔ　ｌｉｋｅ　ｏｔｈｅｒ　ｍｏｒｔａｌｓ，　ｏ"TCC_NEWLINE"ｒ　ｓｏ"TCC_NEWLINE
+"ｍｙ　ｍｏｔｈｅｒ　ｅｘｐｌａｉｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｏｄｙ　ｈａｄ　ａ　ｇｒｅａｔ　ｍａｎｙ　ｌｉｖｅｓ"TCC_NEWLINE
+"ｗｉｔｈｉｎ　ｉｔ，　ｂｅｓｔｏｗｅｄ　ｔｏ　ｍｅ　ｂｙ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
+"ｄｒａｇｏｎ　ｏｆ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍａｎｙ　ｌｉｖｅｓ？　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｏｒｔａｌｓ　ｏｎｌｙ　ｈａｖｅ　ｏｎｅ．．．ｂｕｔ　Ｉ　"TCC_NEWLINE"ｃａｒｒｉｅｄ"TCC_NEWLINE
+"ｔｈｏｕｓａｎｄｓ　ｕｐｏｎ　ｔｈｏｕｓａｎｄｓ　ｉｎｓｉｄ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｉｆ　Ｉ　ｄｉｅ，　ｔｈｅ　ｎｅｘｔ　ｄａｙ．．．"TCC_NEWLINE
+"Ｉ　ｌｉｖｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｏ　ｍｙ　ｍｏｔｈｅｒ　ｂｒｏｕｇｈｔ　ｍｅ"TCC_NEWLINE
+"ｈｅｒｅ，　ａｎｄ　ｓｈｅ　ｋｉｌｌｅｄ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｈｅｒ　ｏｗｎ　ｄａｕｇｈｔｅｒ！　Ｈｏｗ　ｃｏｕｌｄ　ｓｈ"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｅａｃｈ　ｔｉｍｅ　ａ　ｍｏｒｔａｌ　ｄｉｅｓ，　ｍｙ　ｍｏ"TCC_NEWLINE"ｔｈｅｒ"TCC_NEWLINE
+"ｇｒｏｗｓ　ｓｔｒｏｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｓｈｅ　ｋｉｌｌｅｄ　ｍｅ．　Ｄａｙ　ａｆｔｅｒ　ｄａ"TCC_NEWLINE"ｙ．．．　Ａｆｔｅｒ"TCC_NEWLINE
+"ｄａｙ，　ａｆｔｅｒ　ｄａｙ，　ａｆｔｅｒ　ｄａｙ，　ａｆｔ"TCC_NEWLINE"ｅｒ　ｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｒｔａｌｓ　ｅｘｐｅｒｉｅｎｃｅ　ｄｅａｔｈ　ｏｎｃｅ．"TCC_NEWLINE"．．"TCC_NEWLINE
+"Ｔｈｅｙ　ｔａｓｔｅ　ｔｈａｔ　ｐａｉｎ　ｊｕｓｔ　ｏｎｅ　"TCC_NEWLINE"ｔｉｍｅ．"TCC_NEWLINE
+"Ｆｏｒ　ｔｈｅｍ，　ｉｔ　ｉｓ　ｑｕｉｃｋ　ａｎｄ　ｍｅｒｃ"TCC_NEWLINE"ｉｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｍｅ，　ｈｏｗｅｖｅｒ．．．ｉｔ　ｗａｓ　ａｇｏｎｙ"TCC_NEWLINE"　ｗｉｔｈｏｕｔ"TCC_NEWLINE
+"ｅｎｄ．　Ｅｖｅｒｙ　ｄａｙ，　Ｉ　ｄｉｅｄ，　ａｎｄ　ｔｈ"TCC_NEWLINE"ａｔ　ｐａｉｎ．．．"TCC_NEWLINE
+"Ｉ　ｅｘｐｅｒｉｅｎｃｅｄ　ｉｔ　ｏｎｃｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｂｕｔ　ｔｈａｔ　ｉｓ　ａｔ　ｉｔｓ　ｅｎｄ，　ｎｏｗ，　ｔ"TCC_NEWLINE"ｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｌｉｖｅｓ　ｈａｖｅ　ｂｅｅｎ　ｅｘｈａｕｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｍｙ　ｔｈｏｕｓａｎｄｓ　ｏｆ　ｄｅａｔｈｓ　ｈａｖ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｂｅｃｏｍｅ　ｍｙ　ｍｏｔｈｅｒ’ｓ　ｓｔｒｅｎｇｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｍｙ　ｍｏｔｈｅｒ，　Ｉ　ａｍ　ｎｏｗ　ｗｏｒｔｈｌｅ"TCC_NEWLINE"ｓｓ．"TCC_NEWLINE
+"Ｔｈｉｓ　ｌｉｆｅ　ｉｓ　ａｌｌ　ｔｈａｔ　ｒｅｍａｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｉｒ．．．　Ｙｏｕｒ　ｍｏｔｈｅｒ，　ｔｏ　ｈａｖｅ　ｄｏ"TCC_NEWLINE"ｎｅ"TCC_NEWLINE
+"ｔｈａｔ．．．　Ｔｏ　ｈａｖｅ　ｔｈａｔ　ｄｏｎｅ　ｔｏ　ｙ"TCC_NEWLINE"ｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｔｈａｔ’ｓ　ｗｈｙ　ｙｏｕ　ｒａｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｅｒｈａｐｓ．．．　Ｐｅｒｈａｐｓ　ｔｈａｔ　ｉｓ　ｓｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

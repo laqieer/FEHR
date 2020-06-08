@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2082_EN] = TCC_OPEN_LEFT
+"．．．Ｉ　ａｍ　Ｋａｚｅ，　ａ　ｎｉｎｊａ　ｏｆ　Ｈｏｓｈｉ"TCC_NEWLINE"ｄｏ．　Ｉｎ"TCC_NEWLINE
+"ａｃｃｏｒｄａｎｃｅ　ｗｉｔｈ　ｔｈｅ　ｃｏｎｔｒａｃｔ，　"TCC_NEWLINE"Ｉ　ｗｉｌｌ　ｂｅ"TCC_NEWLINE
+"ｙｏｕｒ　ｏｐｐｏｎｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,162 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_SURTR
+"Ｈａ－ｈａｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ’ｖｅ　ｃｏｍｅ　ｆｏｒ　ｙｏｕ，　Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｃｏｍｅ　ｔｏ　ｍｙ　ｈａｌｌ，　ｗｈｅｌｐ！　Ｔｈａ"TCC_NEWLINE"ｔ　ｙｏｕ"TCC_NEWLINE
+"ｓｔｒｕｇｇｌｅｄ　ｓｏ　ｈａｒｄ　ｔｏ　ｇｅｔ　ｈｅｒｅ　"TCC_NEWLINE"ｐｒｏｖｅｓ"TCC_NEWLINE
+"ｔｈａｔ　ｙｏｕ　ｌｏｎｇ　ｔｏ　ｂｅ　ｂｕｒｎｅｄ　ｔｏ　"TCC_NEWLINE"ａｓｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ’ｌｌ　ｐａｙ　ｆｏｒ　ｗｈａｔ　ｙｏｕ’ｖｅ　ｄｏｎ"TCC_NEWLINE"ｅ，　Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｌａｕｇｈ　ｗｈｉｌｅ　ｙｏｕ　ｃａｎ！　Ｙｏｕ　ｗｉｌｌ　"TCC_NEWLINE"ｓｏｏｎ"TCC_NEWLINE
+"ｂｅ　ｐｕｎｉｓｈｅｄ　ｆｏｒ　ｙｏｕｒ　ｓｉｎｓ．　Ｙｏｕ"TCC_NEWLINE"　ｗｉｌｌ"TCC_NEWLINE
+"ｄｉｅ，　ｗｉｔｈ　ｎｏｔｈｉｎｇ　ｌｅｆｔ　ｂｕｔ　ｒｅｇ"TCC_NEWLINE"ｒｅｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．．．　Ｙｏｕｒ　ｗｏｒｄｓ"TCC_NEWLINE"　ｍａｙ　ｂｅ"TCC_NEWLINE
+"ｓｔｒｏｎｇ，　ｂｕｔ　ｙｏｕ　ａｒｅ　ｎｏｔ．　Ｉ　ａｍ　"TCC_NEWLINE"ｔｏｏ"TCC_NEWLINE
+"ｐｏｗｅｒｆｕｌ．．．　Ｗｈａｔ　ｈｏｐｅ　ｄｏ　ｙｏｕ　ｈ"TCC_NEWLINE"ａｖｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｉｓ　ｎｏｔ　ｍｙ　ｈｏｐｅ．　Ｉｔ　ｉｓ　ＯＵＲ　ｈ"TCC_NEWLINE"ｏｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｕｌｌ　ｍｉｇｈｔ　ｏｆ　Ｎｉｆｌ　ｉｓ　ｂｅｈｉ"TCC_NEWLINE"ｎｄ　ｍｅ．　Ｍｙ"TCC_NEWLINE
+"ｍｏｔｈｅｒ　ａｎｄ　ｍｙ　ｓｉｓｔｅｒ，　ｍｕｒｄｅｒｅｄ"TCC_NEWLINE"　ｂｙ"TCC_NEWLINE
+"ｙｏｕｒ　ｈａｎｄ，　ｌｅｎｔ　ｍｅ　ｔｈｅｉｒ　ｐｏｗｅｒ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｕｌｌ　ｍｉｇｈｔ　ｏｆ　Ａｓｋｒ　ｉｓ　ａｌｓｏ"TCC_NEWLINE"　ｗｉｔｈ"TCC_NEWLINE
+"ｍｅ．　Ｂｙ　ｍｙ　ｓｉｄｅ　ａｒｅ　ｔｈｏｓｅ　ｗｈｏ　ｈ"TCC_NEWLINE"ａｖｅ"TCC_NEWLINE
+"ｐｌｅｄｇｅｄ　ｔｏ　ａｉｄ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｉｍｅ！"TCC_TACTICIAN_NAME"！"TCC_NEWLINE
+"Ｕｓｅ　ｙｏｕｒ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ．．．　Ｗｈａｔ　ｉｓ　ｔｈｉｓ"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ｎｉｆｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｕｒｔｒ’ｓ　ｆｌａｍｅｓ，　ｔｈｅｙ’ｒｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅｙ’ｒｅ　ｄｉｓａｐｐｅａｒｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｉｓ　ｉｓ　ｗｈａｔ　ｗｅ’ｖｅ　ｗａｉｔｅｄ　ｆｏｒ！"TCC_NEWLINE
+"Ｍｓｐｅｌｌｆｌａｍｅｔｈａｔ　ｕｎｑｕｅｎｃｈａｂｌｅ，"TCC_NEWLINE
+"ｕｎｄｙｉｎｇ　ｆｉｒｅｎｏ　ｌｏｎｇｅｒ　ｐｒｏｔｅｃｔｓ"TCC_NEWLINE"　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｂａｔｔｌｅ　ｗｅ　ｈａｖｅ　ｗａｉｔｅｄ　ｆｏｒ．"TCC_NEWLINE"．．ｆｏｒ　ｓｏ"TCC_NEWLINE
+"ｖｅｒｙ　ｌｏｎｇ．．．　Ｉｔ　ｂｅｇｉｎｓ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｔｒ．．．　Ｙｏｕｒ　ｔｉｍｅ　ｈａｓ　ｃｏｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_SURTR
+"Ｇｒｒｒａａａａａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｒｒｇｈ．．．　Ａｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｆｌａｍｅｓ　ａｒｅ　ｃｏｎｓｕｍｉｎｇ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ’ｖｅ　ｄｏｎｅ　ｉｔ！　Ｓｕｒｔｒ　ｉｓ　ｄｅｓｔｒｏ"TCC_NEWLINE"ｙｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｖｉｃｔｏｒｙ　ｉｓ　ｏｕｒｓ！　Ｏｈ，　Ｉ’ｍ　ｏｖｅｒｊ"TCC_NEWLINE"ｏｙｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｍｏｔｈｅｒ．．．　Ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｗａｔｃｈｉｎｇ？　Ｆｉｎａｌｌｙ，　ｗｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE
+"Ｇｒｒ．．．　Ｒｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ－ｈｅｈ－ｈｅｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅｈ－ｈｅｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈａ－ｈａｈ－ｈａｈ－ｈａｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_SURTR
+"Ｌｉｋｅ　ｔｈｅ　ｐｈｏｅｎｉｘ．．．Ｉ　ａｍ　ｂｏｒｎ　ａ"TCC_NEWLINE"ｎｅｗ！"TCC_NEWLINE
+"Ｎｅｖｅｒ　ｈａｖｅ　Ｉ　ａｗａｋｅｎｅｄ　ｓｏ"TCC_NEWLINE
+"ｒｅｆｒｅｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｂｕｔ．．．　Ｈｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_SURTR
+"Ｍｙ　ｗｏｕｎｄｓ　ａｒｅ　ｇｏｎｅ．　Ｃａｒｅ　ｔｏ　ｂｅ"TCC_NEWLINE"ｇｉｎ"TCC_NEWLINE
+"ａｇａｉｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｙ　ａｓ　ｍａｎｙ　ｔｉｍｅｓ　ａｓ　ｙｏｕ　ｗｉｓｈ！"TCC_NEWLINE"　Ｉ　ｗｉｌｌ"TCC_NEWLINE
+"ａｌｗａｙｓ　ｃｏｍｅ　ｂａｃｋ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ．．．ｄｏｎ’ｔ．．．ｕｎｄｅｒｓｔａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｉｓ　Ｓｕｒｔｒ　ｓｔｉｌｌ　ａｌｉｖｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｉｔ　ｍａｋｅｓ　ｎｏ　ｓｅｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ　ｉｓ　ｔｈｅ　ｍｅａｎｓ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ｄｅｆｅａｔ　ｈｉｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｏｕｒ　ｏｎｌｙ　ｏｐｔｉｏｎ．．．　Ｗｅ　ｒｉｓ"TCC_NEWLINE"ｋｅｄ"TCC_NEWLINE
+"ｅｖｅｒｙｔｈｉｎｇ！　Ｗｅ　ｌｏｓｔ　ｓｏ　ｍｕｃｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_SURTR
+"Ｉ　ｐｉｔｙ　ｙｏｕ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．　Ｉ　ｐｉ"TCC_NEWLINE"ｔｙ　ｙｏｕ　ｆｏｒ"TCC_NEWLINE
+"ｙｏｕｒ　ｗｅａｋｎｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｔｒｕｇｇｌｅｄ　ｓｏ　ｈａｒｄ，　ｎｏｔ　ｋｎｏ"TCC_NEWLINE"ｗｉｎｇ"TCC_NEWLINE
+"ｈｏｗ　ｐｏｗｅｒｌｅｓｓ　ｙｏｕ　ｔｒｕｌｙ　ｗｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｃｈｉｌｄｉｓｈ　ｔｒｉｃｋ　ｏｆ　ｙｏｕｒｓ．．"TCC_NEWLINE"．　Ｉｔ　ｗａｓ"TCC_NEWLINE
+"ｉｎ　ｖａｉｎ，　ａｓ　ｗａｓ　ｙｏｕｒ　ｓｉｓｔｅｒ’ｓ　"TCC_NEWLINE"ｓａｃｒｉｆｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｙｏｕ　ｓｔｒｏｖｅ　ｆｏｒ．．．　Ａ　ｔｏｔａｌ　"TCC_NEWLINE"ｗａｓｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｈａｄｅ　ｏｆ　ｙｏｕｒ　ｓｉｓｔｅｒ，　ｓｏ　ｐ"TCC_NEWLINE"ｉｔｉｆｕｌ"TCC_NEWLINE
+"ａｎｄ　ｗｅａｋ．．．　Ｄｏｅｓ　ｓｈｅ　ｃｒｙ　ｏｕｔ　ｉ"TCC_NEWLINE"ｎ"TCC_NEWLINE
+"ｒｅｇｒｅｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃａｎ　ｙｏｕ　ｈｅａｒ　ｈｅｒ　ｗａｉｌｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｎｏ，　ｎｏ，　ｎｏ．．．　＊ｓｏｂ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ａｃｃｅｐｔ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_SURTR
+"Ａｈ，　ｔｈｅｒｅ　ｉｔ　ｉｓ！　Ａｓ　ｙｏｕｒ　ｆｉｎａｌ"TCC_NEWLINE"　ｍｏｍｅｎｔｓ"TCC_NEWLINE
+"ａｐｐｒｏａｃｈ，　ａｌｌ　ｔｈａｔ　ｒｅｍａｉｎｓ　ｉｓ　"TCC_NEWLINE"ｄｅｓｐａｉｒ．"TCC_NEWLINE
+"Ｔｈａｔ　ｉｓ　ｗｈａｔ　Ｉ　ｗａｎｔｅｄ　ｔｏ　ｓｅｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｗｉｔｈ　ｔｈａｔ　ｌｏｏｋ　ｏｎ"TCC_NEWLINE"　ｙｏｕｒ"TCC_NEWLINE
+"ｆａｃｅ．　Ｉ　ｗｉｌｌ　ｂｕｒｎ　ｅａｃｈ　ｏｆ　ｙｏｕ　"TCC_NEWLINE"ｔｏ　ｃｉｎｄｅｒｓ"TCC_NEWLINE
+"ｍｙｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ’ｓ　ｆｉｒｓｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｅｔｒｅａｔ！　Ｎｏｗ！　Ｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈａｈ－ｈａｈ－ｈａｈ！　Ｉ　ａｍ　ｆｌａｍｅ　ｉｔｓｅｌｆ"TCC_NEWLINE"！　Ｅｖｅｎ"TCC_NEWLINE
+"ｔｈｅ　ｇｏｄｓ　ｃａｎｎｏｔ　ｄｅｓｔｒｏｙ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｇｗａ－ｈａｈ－ｈａｈ－ｈａｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
+"Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｗｈａｔ’ｓ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｖｅ　ｊｕｓｔ　ｒｅｃｅｉｖｅｄ　ｗｏｒｄ　ｆｒｏｍ　Ｌ"TCC_NEWLINE"ｏｋｉ．　Ｔｈｅ"TCC_NEWLINE
+"Ａｓｋｒａｎ　ａｒｍｙ　ｆａｉｌｅｄ　ｔｏ　ｄｅｆｅａｔ　Ｆ"TCC_NEWLINE"ａｔｈｅｒ．"TCC_NEWLINE
+"Ｔｈｅｙ’ｖｅ　ｒｅｔｒｅａｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｓｋｒ．．．　Ｎｉｆｌ．．．　Ｗａｓｔｉｎｇ　ｔｈｅｉｒ　"TCC_NEWLINE"ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｏｎｅ　ｃａｎ　ｄｅｆｅａｔ　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｗｏｕｌｄｎ’ｔ　ｕｎｄｅｒｅｓｔｉｍａｔｅ　ｔｈｅ　Ａ"TCC_NEWLINE"ｓｋｒａｎｓ．"TCC_NEWLINE
+"Ｉｆ　ｉｔ　ｗａｓｎ’ｔ　ｆｏｒ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆ"TCC_NEWLINE"ｌａｍｅｓ，　ｔｈｅｙ"TCC_NEWLINE
+"ｗｏｕｌｄ　ｈａｖｅ　ｄｅｓｔｒｏｙｅｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｔｈｅ　ｍａｎｙ　ｗｈｏ　ｈａｖｅ　ｔｒｉｅｄ．．．ｎ"TCC_NEWLINE"ｏｎｅ"TCC_NEWLINE
+"ｈａｖｅ　ｃｏｍｅ　ｓｏ　ｃｌｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｒｕｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｗｏｎｄｅｒ　ｉｆ　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｓｕｒ"TCC_NEWLINE"ｖｉｖｅｄ"TCC_NEWLINE
+"ｔｈｅ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌａｅｇｊａｒｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ，　ｉｔ　ｍａｔｔｅｒｓ　ｎｏｔ．　Ｗｅ　ｎｅｅｄ　ｔｏ"TCC_NEWLINE"　ｆｏｃｕｓ"TCC_NEWLINE
+"ｏｎ　ｏｕｒ　ｍｉｓｓｉｏｎ．　Ｗｈａｔ’ｓ　ｔｈｅ　ｌａｔ"TCC_NEWLINE"ｅｓｔ"TCC_NEWLINE
+"ｒｅｐｏｒｔ　ｏｎ　Ｐｒｉｎｃｅ　Ｈｒｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｓｃａｐｅｄ．　Ａｇａｉｎ．　Ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｃ"TCC_NEWLINE"ｏｕｌｄｎ’ｔ"TCC_NEWLINE
+"ｃａｔｃｈ　ｈｉｍ．　Ｅｖｅｎ　ｔｈｏｕｇｈ　ｈｅ’ｓ　ｗｏ"TCC_NEWLINE"ｕｎｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｎｏｔ　ｓｕｒｐｒｉｓｅｄ　ｔｈａｔ　ｔｈｅ　ｅｌ"TCC_NEWLINE"ｄｅｓｔ　ｓｏｎ"TCC_NEWLINE
+"ｏｆ　Ｎｉｆｌ’ｓ　ｒｏｙａｌ　ｆａｍｉｌｙ　ｗｏｕｌｄ　ｍ"TCC_NEWLINE"ａｋｅ　ｆｏｒ　ａ"TCC_NEWLINE
+"ｆｏｒｍｉｄａｂｌｅ　ｏｐｐｏｎｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ａｆｔｅｒ　ｔｈｅ　ｆａｌｌ　ｏｆ　Ｎｉｆｌ．．．"TCC_NEWLINE"　Ｈｅ"TCC_NEWLINE
+"ｉｎｆｉｌｔｒａｔｅｄ　Ｍｓｐｅｌｌ　ａｎｄ　ａｔｔｅｍｐｔ"TCC_NEWLINE"ｅｄ　ｔｏ"TCC_NEWLINE
+"ａｓｓａｓｓｉｎａｔｅ　Ｆａｔｈｅｒ，　ａｌｌ　ａｌｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｉｓ　ａ　ｄａｎｇｅｒｏｕｓ　ｍａｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏｔ　ａｓ　ｄａｎｇｅｒｏｕｓ　ａｓ　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ．　Ｂｕｔ　ｉｆ　ｈｅ　ｗｅｒｅ　ｔｏ　ｊｏｉｎ　ｆｏｒ"TCC_NEWLINE"ｃｅｓ　ｗｉｔｈ"TCC_NEWLINE
+"Ａｓｋｒ，　ｗｈｏ　ｃｏｕｌｄ　ｓａｙ　ｗｈａｔ　ｔｈｅｙ　"TCC_NEWLINE"ｍｉｇｈｔ"TCC_NEWLINE
+"ａｃｃｏｍｐｌｉｓｈ　ｔｏｇｅｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｇｅｔ　ｒｅａｄｙ．　Ｗｅ　ｗｉｌｌ　ｌｅａｖｅ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

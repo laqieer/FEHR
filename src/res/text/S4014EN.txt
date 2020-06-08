@@ -1,0 +1,41 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_ENDING_S4014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ　ｗｉｌｌ　ｂｅ　ａｐｐｒｏａｃｈｉｎｇ　ｔｈｅ　ｖｉｌ"TCC_NEWLINE"ｌａｇｅ"TCC_NEWLINE
+"ｓｏｏｎ．　Ａｌｆｏｎｓｅ，　ｔｈｅ　ｃｅｎｓｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｅｓ．　Ｔｈｅ　ｉｎｃｅｎｓｅ　ｈａｓ　ｂｅｅｎ　ｇｒｏｗ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
+"ｔｈｉｃｋ　ｗｉｔｈｉｎ　ｔｈｅ　ｃｅｎｓｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"＊ｃｏｕｇｈ＊　Ｎｏｔ　ｊｕｓｔ　ｉｎｓｉｄｅ　ｅｉｔｈｅｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｍｕｓｔ　ｓａｙ，　Ｉ　ｉｍａｇｉｎｅｄ　ｔｈｅ　ｓｍｏ"TCC_NEWLINE"ｋｅ"TCC_NEWLINE
+"ｗｏｕｌｄ　ｂｅ　ｍｏｒｅ　ｆｒａｇｒａｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｏｎｌｙ　ｔｈｉｎｇ　ｔｏ　ｄｏ　ｉｓ　ｔｏ　ｃｏｎ"TCC_NEWLINE"ｔｉｎｕｅ"TCC_NEWLINE
+"ｏｎ．　Ｗｅ　ｍｕｓｔ　ｔｒｕｓｔ　ｔｈｅ　ｃｅｎｓｅｒ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｐｒｏｔｅｃｔ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｒｕｅ！　Ｉ’ｍ　ｊｕｓｔ　ｇｌａｄ　Ｍｏｔｈｅｒ　ｔｈｏ"TCC_NEWLINE"ｕｇｈｔ"TCC_NEWLINE
+"ｔｏ　ｐｒｅｐａｒｅ　ｕｓ　ｆｏｒ　ｔｈｉｓ．　Ａｓ　ｌｏｎ"TCC_NEWLINE"ｇ　ａｓ　ｗｅ"TCC_NEWLINE
+"ｈａｖｅ　ｔｈｅ　ｃｅｎｓｅｒ，　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　"TCC_NEWLINE"ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｅｅｌ　ｓｏ　ａｔ　ｅａｓｅ，　Ｉ’ｍ．．．　＊ｙａｗ"TCC_NEWLINE"ｎ＊"TCC_NEWLINE
+"Ｉ’ｍ　ｇｅｔｔｉｎｇ　ｓｌｅｅｐｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈａｒｅｎａ！　Ｗｅ’ｒｅ　ｏｎ　ａ　ｍｉｓｓｉｏｎ！"TCC_NEWLINE
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｔｒｙ　ｔｏ　ａｔ　ｌｅａｓｔ　ｓｔａ"TCC_NEWLINE"ｙ　ａｌｅｒｔ"TCC_NEWLINE
+"ｅｎｏｕｇｈ　ｔｏ　ｋｅｅｐ　ｆｒｏｍ　ｙａｗｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．＊ｙａｗｎ＊　．．．Ｗｈａ－ｗｈａｔ’ｓ　ｈａｐｐｅｎ"TCC_NEWLINE"ｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈａｔ　ｉｓ　Ｗｈｙ　ｃａｎ　Ｉ　ｎｏｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｍｍ．．．　Ｓ－ｓｏ　ｓｌｅｅｐｙ．．．　Ｉ　ｊｕｓｔ　ｎ"TCC_NEWLINE"ｅｅｄ"TCC_NEWLINE
+"ｔｏ　ｃｌｏｓｅ　ｍｙ　ｅｙｅｓ．　Ｊｕｓｔ　ｆｏｒ　ａ　ｍ"TCC_NEWLINE"ｏｍｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ，　Ｓｈａｒｅｎａ，　ｗｅ’ｒｅ．．．ｏｎ　ａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｓ　ｔｈｉｓ．．．ｔｈｅ　ｓｌｅｅｐ　ｓｉｃｋｎｅｓｓ？"TCC_NEWLINE
+"Ｔｈｅ　ｃｅｎｓｅｒ．．．　Ｗｅ　ｎｅｅｄ　ｉｔｓ　ｐｏｗｅ"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈｏｕｔ　ｉｔ．．．ｗｅ’ｌｌ　ｓｏｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

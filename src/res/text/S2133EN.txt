@@ -1,0 +1,67 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2133_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｆｌｏｒａ．　Ｆｏｒ　ｍｙ　ｍａｓｔｅｒ，　ａｎｄ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ｆｕｌｆｉｌｌ　ｔｈｅ　ｔｅｒｍｓ　ｏｆ　ｍｙ　ｃｏｎｔｒａ"TCC_NEWLINE"ｃｔ，　Ｉ　ｗｉｌｌ"TCC_NEWLINE
+"ｅｌｉｍｉｎａｔｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
+"Ｈｅｙ，　ｂｒａｔ！　Ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｆｒｉｅｎｄ"TCC_NEWLINE"　ｂｅｔｔｅｒ"TCC_NEWLINE
+"ｈｕｒｒｙ　ｕｐ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　"TCC_NEWLINE"ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｂｅｔ　ｔｈｅ　ｇｕａｒｄｓ’ｖｅ　ｎｏｔｉ"TCC_NEWLINE"ｃｅｄ"TCC_NEWLINE
+"ｂｙ　ｎｏｗ．　Ｄｏｎ’ｔ　ｂｅ　ｓｕｒｐｒｉｓｅｄ　ｉｆ　"TCC_NEWLINE"ｔｈｅｙ"TCC_NEWLINE
+"ｃａｔｃｈ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_YLGR
+"Ａｕｇｈ！　Ｔｈｅｓｅ　ｒｕｉｎｓ．．．ｔｈｅｙ’ｒｅ　ｓｏ"TCC_NEWLINE
+"ｃｏｎｆｕｓｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ’ｓ　ｌｉｋｅ　ａ　ｍａｚｅ　ｉｎ　ｈｅｒｅ．　Ｂｕｔ　"TCC_NEWLINE"ｐｅｒｈａｐｓ"TCC_NEWLINE
+"ｔｈａｔ’ｓ　ｗｈｙ　ｗｅ　ｈａｖｅ　ｙｅｔ　ｔｏ　ｂｅ　ｃ"TCC_NEWLINE"ａｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｕｐ．．．ａｎｄ　ｄｏｗｎ．．．　Ｕｐ．．．ａｎｄ　ｄｏｗｎ"TCC_NEWLINE"．．．　Ｉ’ｍ"TCC_NEWLINE
+"ｓｏ　ｔｉｒｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｆ　ｙｏｕ　ｇｏｔ　ｔｉｍｅ　ｔｏ　ｗｈｉｎｅ，　ｙｏｕ　"TCC_NEWLINE"ｇｏｔ　ｔｉｍｅ"TCC_NEWLINE
+"ｔｏ　ｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｙｏｕ　ｔｗｏ．．．ｙｏｕ　ｇｏ　ｏｎ　ａｈｅａｄ"TCC_NEWLINE"．　Ｉ’ｌｌ"TCC_NEWLINE
+"ｃａｔｃｈ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗａｉｔ，　ｗｈａｔ？　Ｂｕｔ　ｗｈａｔ　ａｂｏｕｔ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｅｔ　ｇｏｉｎｇ！　Ｏｒ　Ｉ’ｌｌ　ｓｍａｃｋ　ｙｏｕ　ｗ"TCC_NEWLINE"ｉｔｈ　ｍｙ"TCC_NEWLINE
+"ａｘｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏ－ＯＫ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｙ　ｃａｎ’ｔ　ｓｈｅ　ｊｕｓｔ　ｄｏ　ｗｈａｔ　ｓｈｅ"TCC_NEWLINE"’ｓ"TCC_NEWLINE
+"ｔｏｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ．　Ｈｅｒｅ　ｗｅ　ｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_SURTR
+"Ｉ　ｔｈｏｕｇｈｔ　Ｉ　ｈｅａｒｄ　ａ　ｍｏｕｓｅ．．．ｂｕ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｉｎｓｔｅａｄ　Ｉ　ｆｉｎｄ　ｔｈｅ　ａｎｉｍａｌ　Ｉ　ｈａ"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ｐｒｏｔｅｃｔｉｎｇ　ｔｈｅ　ｂｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｍｅｍｂｅｒ　ｙｏｕ，　ｔｒｅａｓｏｎｏｕｓ　ｃｕｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｋｉｎｇ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｓａｖｅ　ｙｏｕｒ　ｅｘｃｕｓｅｓ．　Ｉｔ’ｓ　ｆａｒ　ｔｏ"TCC_NEWLINE"ｏ　ｌａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｏｕｌｄ　ｒｅｂｅｌ　ａｇａｉｎｓｔ　ｍｅ？　Ｆｏ"TCC_NEWLINE"ｏｌｉｓｈ，"TCC_NEWLINE
+"ｈｅｌｐｌｅｓｓ，　ａｎｄ　ｗｅａｋ．．．　Ｉｔ　ｉｓ　ｔｉ"TCC_NEWLINE"ｍｅ　ｆｏｒ　ｙｏｕ"TCC_NEWLINE
+"ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｔｒａｓｈ，　ｐｌｕｃｋｅｄ　ｆｒｏｍ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｇｕｔｔｅｒ．　Ｉｎ　Ｍｓｐｅｌｌ，　ｗｅ　ｂｕｒｎ　ｔｒａ"TCC_NEWLINE"ｓｈ．　Ａｓ"TCC_NEWLINE
+"ｙｏｕｒ　ｓｉｓｔｅｒ　ｌｅａｒｎｅｄ　ｔｏ　ｈｅｒ　ｒｅｇ"TCC_NEWLINE"ｒｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｒｇｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｄｏ　ｙｏｕ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｓａｙ？　"TCC_NEWLINE"Ｌａｓｔ"TCC_NEWLINE
+"ｗｏｒｄｓ？　Ｓｐｅａｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｓａｙ？　Ｙｅａｈ，　Ｉ　ｔｈｉｎ"TCC_NEWLINE"ｋ　Ｉ　ｄｏ．"TCC_NEWLINE
+"Ｗｈａｔ　ｙｏｕ　ｇｏｔ　ｃｏｍｉｎｇ　ｔｏ　ｙｏｕ．．．ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｄｅｓｅｒｖｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｏｕ　ｄｏｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｋｅｅｐ　ｒｕｎｎｉｎｇ，　ｂｒａｔ．　Ｋｅｅｐ　ｒｕｎｎｉ"TCC_NEWLINE"ｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

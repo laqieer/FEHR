@@ -1,0 +1,94 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S1601_EN] = TCC_OPEN_LEFT
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ　ｅｖｅｎｉｎｇ．　Ｉ　ｍｕｓｔ　ａｐｏｌｏｇｉｚｅ"TCC_NEWLINE
+"ｆｏｒ　ｔｈｉｓ　ｉｎｔｒｕｓｉｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｕｓｉｎｇ　ａ　ｓｐｅｃｉａｌ　ｒｉｔｅ　ｔｏ　ｓｐ"TCC_NEWLINE"ｅａｋ　ｗｉｔｈ"TCC_NEWLINE
+"ｙｏｕ　ｗｈｉｌｅ　ｙｏｕ　ｓｌｕｍｂｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋｓ　ｔｏ　Ｅｍｂｌａ　ａｎｄ　Ｍｓｐｅｌｌ，　ｙｏ"TCC_NEWLINE"ｕ’ｖｅ"TCC_NEWLINE
+"ｂｅｅｎ　ｄｒａｗｎ　ｉｎｔｏ　ｔｈｅ　ｃｈａｏｓ　ｏｆ　ｗ"TCC_NEWLINE"ａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｔｏ　ｄｏ　ｗｈａｔｅｖｅｒ　Ｉ　ｃａｎ，　ｎ"TCC_NEWLINE"ｏ　ｍａｔｔｅｒ"TCC_NEWLINE
+"ｈｏｗ　ｓｍａｌｌ，　ｔｏ　ｈｅｌｐ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｈｏｗ　ｒｕｄｅ　ｏｆ　ｍｅ．．．　Ｉ　ｈａｖｅｎ’"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｉｎｔｒｏｄｕｃｅｄ　ｍｙｓｅｌｆ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ａｍ　Ｇｕｎｎｔｈｒ，　ｅｌｄｅｓｔ　ｐｒｉｎｃｅｓｓ"TCC_NEWLINE
+"ｏｆ　Ｎｉｆｌ，　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｋｎｏｗ　ｍｙ　ｙｏｕｎｇｅｒ　ｓｉｓｔｅｒ，"TCC_NEWLINE
+"Ｆｊｏｒｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｈａｓ　ａ　ｇｅｎｔｌｅ　ｓｏｕｌ，　ｂｕｔ　ｓｈｅ"TCC_NEWLINE"．．．"TCC_NEWLINE
+"Ｗｅｌｌ．．．　Ｓｈｅ　ｈａｓ　ａｎ　ｕｎｆｏｒｔｕｎａｔｅ"TCC_NEWLINE
+"ｔｅｎｄｅｎｃｙ　ｔｏ　ａｇｏｎｉｚｅ　ｏｖｅｒ　ｔｈｉｎｇ"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｍｕｓｔ　ａｐｏｌｏｇｉｚｅ　ｏｎｃｅ　ａｇａｉ"TCC_NEWLINE"ｎ．　Ｍｙ"TCC_NEWLINE
+"ｓｉｓｔｅｒ　ｉｓ　ｎｏｔ　ｔｈｅ　ｒｅａｓｏｎ　Ｉ　ｗｉｓ"TCC_NEWLINE"ｈｅｄ　ｔｏ"TCC_NEWLINE
+"ｓｐｅａｋ　ｗｉｔｈ　ｙｏｕ　ｔｈｉｓ　ｅｖｅｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ｉ　ｈａｖｅ　ｓｏｍｅ　ｕｓｅｆｕｌ　ｉｎｆｏｒｍａ"TCC_NEWLINE"ｔｉｏｎ"TCC_NEWLINE
+"ｆｏｒ　ｙｏｕ．　Ｉｎ　ｔｈｅ　ｗｅｓｔ　ｏｆ　Ａｓｋｒ，　"TCC_NEWLINE"ｔｈｅｒｅ　ｉｓ"TCC_NEWLINE
+"ａ　ｓｈｒｉｎｅ　ｆｏｒ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ａｗａｋｅ"TCC_NEWLINE"ｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｆｕｒｔｈｅｒ　ｗｅｓｔ　ｏｆ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S1601_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｎｄ　ｈｅｒｅ　ｉｔ　ｉｓ．　Ａｎｏｔｈｅｒ　ｓｈｒｉｎｅ"TCC_NEWLINE"，　ｆｕｒｔｈｅｒ"TCC_NEWLINE
+"ｗｅｓｔ．　Ｉｔ’ｓ　ｊｕｓｔ　ａｓ　ｙｏｕ　ｓａｉｄ　ｉｔ"TCC_NEWLINE"　ｗｏｕｌｄ　ｂｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｏ　ｔｈｉｎｋ　ｔｈａｔ　ｉｔ　ｗａｓ　ｈｅｒｅ　"TCC_NEWLINE"ａｌｌ　ａｌｏｎｇ，"TCC_NEWLINE
+"ｎｏｎｅ　ｏｆ　ｕｓ　ｔｈｅ　ｗｉｓｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｔ’ｓ　ｕｎｃａｎｎｙ！　Ｙｏｕ　ｋｎｏｗ　ｊｕｓｔ　ａｂ"TCC_NEWLINE"ｏｕｔ"TCC_NEWLINE
+"ｅｖｅｒｙｔｈｉｎｇ，　ｄｏｎ’ｔ　ｙｏｕ？　Ｔｅｌｌ　ｍｅ"TCC_NEWLINE"　ａ　ｊｕｉｃｙ"TCC_NEWLINE
+"ｓｅｃｒｅｔ，"TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｎ　ｙｏｕｒ　ｇｕａｒｄ，　ｅｖｅｒｙｏｎｅ．　Ｒｅｍｅｍ"TCC_NEWLINE"ｂｅｒ"TCC_NEWLINE
+"ｔｈａｔ　ｔｈｉｓ　ｉｎｆｏｒｍａｔｉｏｎ　ｃａｍｅ　ｆｒｏ"TCC_NEWLINE"ｍ　ａ"TCC_NEWLINE
+"ｖｏｉｃｅ　ｉｎ　ａ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｅｖｅｒｙ　ｃｈａｎｃｅ　ｔｈａｔ　ｔｈｉｓ"TCC_NEWLINE"　ｉｓ　ａ"TCC_NEWLINE
+"ｔｒａｐ　ｌａｉｄ　ｂｙ　ｏｕｒ　ｅｎｅｍｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｏｃｅｅｄ　ｗｉｔｈ　ｃａｕｔｉｏｎ．　Ｗｅ’ｒｅ　ｇｏ"TCC_NEWLINE"ｉｎｇ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S1601_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｉｓ　ｓｈｒｉｎｅ　ｒｅａｌｌｙ　ｉｓ　ｓｉｍｉｌａｒ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　ｏｎｅ"TCC_NEWLINE
+"ｗｅ　ｅｘｐｌｏｒｅｄ　ｂｅｆｏｒｅ．　Ｗｅ’ｖｅ　ａｌｒｅ"TCC_NEWLINE"ａｄｙ"TCC_NEWLINE
+"ｍａｄｅ　ｉｔ　ｔｏ　ｔｈｅ　ｄｅｐｔｈｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｅｓ，　ｉｔ　ｉｓ，　ｉｓｎ’ｔ　ｉｔ？　Ａｎｄ　ｌｏｏｋ"TCC_NEWLINE"ａ　ｓｔｏｎｅ"TCC_NEWLINE
+"ｓｌａｂ，　ｊｕｓｔ　ｌｉｋｅ　ｔｈｅ　ｏｎｅ　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｏｔｈｅｒ"TCC_NEWLINE
+"ｓｈｒｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｄｅａｒ　Ｂｒｏｔｈｅｒ．．．　Ｉｔ’ｓ　ｙｏｕｒ　"TCC_NEWLINE"ｔｉｍｅ　ｔｏ"TCC_NEWLINE
+"ｓｈｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ’ｍ　ｎｏ　ｔｒａｎｓｌａｔｏｒ，　Ｓｈａｒｅｎａ，　ｂｕ"TCC_NEWLINE"ｔ．．．　Ｖｅｒｙ"TCC_NEWLINE
+"ｗｅｌｌ．　Ｉ’ｌｌ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ　ｄｅ"TCC_NEWLINE"ｃｉｐｈｅｒ　ｔｈｅ"TCC_NEWLINE
+"ｔｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｐｅａｋ　ｎｏｔ　ｏｆ　ｔｈｉｓ　ｒｉｔｅ．　Ｒｅｖｅａｌ"TCC_NEWLINE"　ｉｔ　ｔｏ"TCC_NEWLINE
+"ｎｏｎｅ．　Ｎｅｖｅｒ　ｍａｙ　ｔｈｅｓｅ　ｒｕｎｅｓ　ｂｅ"TCC_NEWLINE
+"ｔｒａｎｓｃｒｉｂｅｄ．　Ｙｏｕ　ａｒｅ　ｓｏ　ｅｎｊｏｉｎ"TCC_NEWLINE"ｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎｄ　ｙｏｕ　ｈｅｒｅ　ａ　ｆｒａｇｍｅｎｔ　ｏｆ　ｔｈ"TCC_NEWLINE"ｅ　Ｒｉｔｅ"TCC_NEWLINE
+"ｏｆ　Ａｗａｋｅｎｉｎｇ　ｆｏｒ　Ｅｍｂｌａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｗｒｉｔｉｎｇ．．．　Ｉｔ’ｓ　ｆｒｏｍ　ｔｈｅ　"TCC_NEWLINE"Ｅｍｂｌｉａｎ"TCC_NEWLINE
+"Ｅｍｐｉｒｅ？　Ｈｏｗ　ｄｉｄ　ｔｈｉｓ　ｅｎｄ　ｕｐ　ｈｅ"TCC_NEWLINE"ｒｅ　ｉｎ"TCC_NEWLINE
+"Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｉｓ　ｉｓ　ａ　ｒｉｔｅ　ｏｆ　ｈｏｎｉｎｇ．　Ａｓ　ａ"TCC_NEWLINE"　ｓｔｏｎｅ"TCC_NEWLINE
+"ｓｈａｒｐｅｎｓ　ａ　ｂｌａｄｅ，　ｓｏ　ｄｏ　ｔｈｅｓｅ　"TCC_NEWLINE"ｗｏｒｄｓ．"TCC_NEWLINE
+"Ｔｏｍｅｓ，　ｔｏｏ，　ａｒｅ　ｍａｄｅ　ｋｅｅｎｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　１０，０００　ｗａｒｒｉｏｒｓ　ｍａｙ　ｎｏｔ　ｅ"TCC_NEWLINE"ｑｕａｌ"TCC_NEWLINE
+"ｔｈｉｓ　ｐｏｗｅｒ　ｉｎ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｉｔ　ｓｈａｌｌ　ｒｅｍａｉｎ　ｕｎｄｅｒ　ｓｅａｌ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｔｈｅ　ｆｌａｍｅｓ，　ａｓ　ｆｏｒｅｔｏｌｄ，　"TCC_NEWLINE"ｌｉｃｋ　ｔｈｅ"TCC_NEWLINE
+"ｌａｎｄ．．．Ａｓｋｒ　ｔｈｅ　ｓｅａｌ　ｓｈａｌｌ　ｂｒｅ"TCC_NEWLINE"ａｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｙｏｎｄ　ｔｈａｔ，　ｉｔ’ｓ　ｊｕｓｔ　ｄｅｔａｉｌｓ"TCC_NEWLINE"　ｏｎ　ｈｏｗ　ｔｏ"TCC_NEWLINE
+"ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ，　ｔｈｅｎ．　Ｗｈａｔ　ｓｈａｌｌ　ｗｅ　ｄｏ，"TCC_NEWLINE
+"Ｃｏｍｍａｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｐｏｗｅｒ　ｍａｙ　ｃｏｍｅ　ｆｒｏｍ　ｏｕｒ"TCC_NEWLINE
+"ｅｎｅｍｉｅｓ．．．ｂｕｔ　ｉｆ　ｗｅ　ｕｓｅ　ｉｔ　ｗｉｓ"TCC_NEWLINE"ｅｌｙ，　ｉｔ"TCC_NEWLINE
+"ｃｏｕｌｄ　ｈｅｌｐ　ｕｓ　ｇｒｅａｔｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｑｕｅｓｔｉｏｎ　ｉｎ　ｍｙ　ｍｉｎｄ"TCC_NEWLINE"．　Ｗｅ"TCC_NEWLINE
+"ｍｕｓｔ　ｃａｒｒｙ　ｔｈｉｓ　ｋｎｏｗｌｅｄｇｅ　ｂａｃｋ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ｂａｓｅ　ａｎｄ　ｇｅｔ　ｔｏ　ｗｏｒｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

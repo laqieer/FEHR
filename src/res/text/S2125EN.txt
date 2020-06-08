@@ -1,0 +1,149 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ　ｂｅｇａｎ　ｔｏ　ｈａｖｅ　ｍｙ　ｄｏｕｂｔｓ　ｗｈｅｎ"TCC_NEWLINE"　Ｙｌｇｒ"TCC_NEWLINE
+"ｍｅｔ"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｊｏｕｒｎｅｙｅｄ　ｔｏ　Ｍｓｐｅｌｌ　ａｎｄ"TCC_NEWLINE
+"ｅｎｃｏｕｎｔｅｒｅｄ　ｔｈｅ　ｐｒｉｎｃｅｓｓ　ｆｏｒ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
+"ｆｉｒｓｔ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｓｈｏｕｌｄ　ｎｏｔ　ｈａｖｅ　ｋｎｏｗｎ　ｏｆ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｒｅ　ｉｔ　ｗａｓ．　Ｓｈｅ　ｒｅｃｏｇｎｉｚ"TCC_NEWLINE"ｅｄ　ｔｈｅ"TCC_NEWLINE
+"ｆａｃｅ，　ａｎｄ　ｓｈｅ　ｓａｉｄ　ｔｈｅ　ｎａｍｅ．　Ｈ"TCC_NEWLINE"ａｄ"TCC_NEWLINE
+"ｔｈｅｙ　ｍｅｔ　ｂｅｆｏｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈｏｕｇｈｔ　ｉｔ　ｓｔｒａｎｇｅ．　Ｏｆ　ｃｏｕｒｓ"TCC_NEWLINE"ｅ，　ｓｈｅ"TCC_NEWLINE
+"ｍｉｇｈｔ　ｈａｖｅ　ｈｅａｒｄ　ｓｏｍｅ　ｄｅｔａｉｌｓ　"TCC_NEWLINE"ａｂｏｕｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｉｎ　ｐｒｉｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ　ｍａｙｂｅ　ｔｈｅｙ　ＨＡＤ　ｍｅｔ　ｂｅｆｏｒｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｙｏｕｒ　ｓｕｓｐｉｃｉｏｎｓ　ｗｅｒｅ　ｒｏｕｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｗａｓｎ’ｔ　ａ　ｍｉｓｔａｋｅ．　Ｉｔ　ｗａｓ　ａ　"TCC_NEWLINE"ｃｈｉｌｄｉｓｈ"TCC_NEWLINE
+"ｐｒａｎｋ．　Ｓｈｅ　ｓａｉｄ　ｉｔ　ｏｎ　ｐｕｒｐｏｓｅ，"TCC_NEWLINE"　ｔｏ　ｓｏｗ"TCC_NEWLINE
+"ｔｈｅ　ｓｅｅｄｓ　ｏｆ　ｄｏｕｂｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ．．．ｇａｖｅ　ｍｅ　ａｎ　ｉｄｅａ　ｏｆ　ｗｈｏ　"TCC_NEWLINE"ｉｔ　ｗａｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_HRID
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｈａｖｅ　ｂｒｏｕｇｈｔ　ｔｈｉｓ　ｔ"TCC_NEWLINE"ｏ　ｏｕｒ"TCC_NEWLINE
+"ａｔｔｅｎｔｉｏｎ　ｓｏｏｎｅｒ．　Ｉ　ｍｕｓｔ　ｆｉｎｄ　"TCC_NEWLINE"Ｙｌｇｒ　ａｔ"TCC_NEWLINE
+"ｏｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｒｉｎｃｅ　Ｈｒｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔ，　ｐｌｅａｓｅ．　Ｓｏｍｅｔｈｉｎｇ　ｉｓ　ｔｒｏ"TCC_NEWLINE"ｕｂｌｉｎｇ"TCC_NEWLINE
+"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｈ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｓｅｅｍ　ｔｏ　ａｇｒｅｅ　ｔｈａｔ　Ｐｒｉｎｃｅｓ"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"Ｙｌｇｒ’ｓ　ｂｅｈａｖｉｏｒ　ｗａｓ　ｓｕｓｐｉｃｉｏｕｓ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍｅａｎ　ｗｅ　ｍｕｓｔ"TCC_NEWLINE
+"ｃｏｎｆｉｎｅ　ｏｕｒ　ｓｕｓｐｉｃｉｏｎｓ　ｔｏ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ　ｎｏｗ，　ｙｏｕｒ　ｂｅｈａｖｉｏｒ　ｗｏｒｒｉ"TCC_NEWLINE"ｅｓ　ｍｅ"TCC_NEWLINE
+"ｍｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａｂｏｕｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ’ｖｅ　ｓｅｅｎ　ｙｏｕｒ　ｌｉｔｔｌｅ　ｔｒｉｃｋ　ｂ"TCC_NEWLINE"ｅｆｏｒｅ．"TCC_NEWLINE
+"Ｙｏｕ　ｃａｎ　ａｓｓｕｍｅ　ｗｈａｔｅｖｅｒ　ｆｏｒｍ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　Ｐｒｉｎｃｅｓｓ　Ｙｌｇｒ，"TCC_NEWLINE"　ａｎｄ"TCC_NEWLINE
+"ｎｏｗ，　Ｐｒｉｎｃｅ　Ｈｒｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｉｓ　ｔｒｕｅ　ｔｈａｔ　Ｐｒｉｎｃｅｓｓ　Ｙｌｇｒ　"TCC_NEWLINE"ｈａｓ　ｇｉｖｅｎ"TCC_NEWLINE
+"ｕｓ　ｃａｕｓｅ　ｆｏｒ　ｓｕｓｐｉｃｉｏｎ．　Ｔｈａｔ　ｓ"TCC_NEWLINE"ｈｉｅｌｄｓ"TCC_NEWLINE
+"ｙｏｕ　ｆｒｏｍ　ｏｕｒ　ｇａｚｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｄａｎｃｉｎｇ　ｉｎ　ｔｈｅ　ｂａｃｋｇｒｏｕ"TCC_NEWLINE"ｎｄ，"TCC_NEWLINE
+"ｄａｎｇｌｉｎｇ　ｔｈｅ　ａｎｓｗｅｒｓ　ｗｅ　ｓｅｅｋ．．"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｔａｕｎｔｉｎｇ　ｕｓ．　Ｔｈａｔ　ｉｓ　ｙｏｕｒ　ｏｂｊｅ"TCC_NEWLINE"ｃｔｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｏｔｈｅｒ？　Ｔｒｕｌｙ？　Ｎｏ，　ｉｔ　ｃａｎ’ｔ　ｂ"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE
+"Ｕｎｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｏｎ’ｔ　ｆａｌｌ　ｆｏｒ　Ａｌｆｏｎｓｅ’ｓ　ｔｒｉｃｋ"TCC_NEWLINE"ｅｒｙ，"TCC_NEWLINE
+"Ｆｊｏｒｍ．　Ｔｒｕｓｔ　ｉｎ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｓｔｅｐ　ａｗａｙ　ｆｒｏｍ　ｈｉｍ，"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｉｓ　ｉｓ　ａｌｌ　ｔｏｏ　ｍｕｃｈ！　Ｗｈａｔ　ｄｏ　"TCC_NEWLINE"ｙｏｕ"TCC_NEWLINE
+"ｔｈｉｎｋ，"TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｓｈｏｕｌｄ　Ｉ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｔｏｐ，　ｆｉｅｎｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｈａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？　Ｗｅ　ａｒｅ　ｂｅｓｅｔ　ｂｙ　ａｎ　ｅｘｔｒａ"TCC_NEWLINE
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｈａｖｅ　ｔｒｉｅｄ　ｍｙ　ｂｅｓｔ　ｔｏ　ｂｅ　ｏｂｓ"TCC_NEWLINE"ｅｒｖａｎｔ．"TCC_NEWLINE
+"Ｙｅｔ　Ｉ　ｎｅｖｅｒ　ａｎｔｉｃｉｐａｔｅｄ　ｔｈｉｓ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｖｅ　ｈａｄ　ｅｎｏｕｇｈ　ｆｕｎ，　ｓｏｗｎ　ｅｎ"TCC_NEWLINE"ｏｕｇｈ"TCC_NEWLINE
+"ｃｈａｏｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｉｍｅ　ｗｅ　ｅｎｄ　ｔｈｉｓ，　Ｌｏｋｉ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｏｈ，　ｄｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+"Ｙｏｕ’ｖｅ　ｆｉｎａｌｌｙ　ｆｉｇｕｒｅｄ　ｉｔ　ｏｕｔ．"TCC_NEWLINE"　Ｈｏｗ"TCC_NEWLINE
+"ｄｉｓａｐｐｏｉｎｔｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕ　ｐｏｓｅｄ　ａｓ　Ｐｒｉｎｃｅｓｓ　Ｙｌｇｒ　ｆｒｏ"TCC_NEWLINE"ｍ　ｔｈｅ"TCC_NEWLINE
+"ｓｔａｒｔｔｈａｔ’ｓ　ｈｏｗ　ｙｏｕ　ｉｎｆｉｌｔｒａｔｅ"TCC_NEWLINE"ｄ　ｏｕｒ"TCC_NEWLINE
+"ｇｒｏｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｅａｌ　Ｐｒｉｎｃｅｓｓ　Ｙｌｇｒ　ｉｓ　ｐｒｏｂ"TCC_NEWLINE"ａｂｌｙ　ｔｈｅ"TCC_NEWLINE
+"ｏｔｈｅｒ　ｒｏｙａｌ　ｏｆｆｅｒｉｎｇ　ｔｏ　ｔｈｅ　Ｒｉ"TCC_NEWLINE"ｔｅ　ｏｆ"TCC_NEWLINE
+"Ｆｌａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　ａｌｌ，　Ｚａｃｈａｒｉａｓ　ｔｏｌｄ　ｕｓ　ｔ"TCC_NEWLINE"ｈｅ　ｎａｍｅ"TCC_NEWLINE
+"ｏｆ　ｏｎｌｙ　ｏｎｅ　ｏｆ　ｔｈｅ　ｖｉｃｔｉｍｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｆ　ｃｏｕｒｓｅ　ｓｈｅ　ｉｓ，　ｄｅａｒ．　Ｔｈａｔ　ｇ"TCC_NEWLINE"ｉｒｌ　ｗｉｌｌ"TCC_NEWLINE
+"ｂｅ　ｃａｓｔ　ｓｑｕｅａｌｉｎｇ　ｉｎｔｏ　ｔｈｅ　ｆｌａ"TCC_NEWLINE"ｍｅｓ，"TCC_NEWLINE
+"ａｌｏｎｇｓｉｄｅ　ｄｅａｒ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｊｕｓｔ　ｏｎｅ　ｍｏｒｅ　ｒｉｄｄｌｅ　ｆ"TCC_NEWLINE"ｏｒ　ｙｏｕ"TCC_NEWLINE
+"ｔｏ　ｐｕｚｚｌｅ　ｏｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｘａｃｔｌｙ　ｈｏｗ　ｄｏ　ｙｏｕ　ｐｌａｎ　ｔｏ　ｄｅｆ"TCC_NEWLINE"ｅａｔ"TCC_NEWLINE
+"ｍｅ？　Ｉ’ｍ　ｓｏ　ｅａｇｅｒ　ｔｏ　ｓｅｅ　ｗｈａｔ　ａ"TCC_NEWLINE"ｎｓｗｅｒ"TCC_NEWLINE
+"ｙｏｕ　ｃｏｍｅ　ｕｐ　ｗｉｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+"Ｍｙ，　ｍｙ．　Ｙｏｕ’ｖｅ　ｄｅｆｅａｔｅｄ　ｍｅ．　Ｉ　"TCC_NEWLINE"ｓｈｏｕｌｄ"TCC_NEWLINE
+"ｈａｖｅ　ｅｘｐｅｃｔｅｄ　ｎｏｔｈｉｎｇ　ｌｅｓｓ　ｆｒｏ"TCC_NEWLINE"ｍ　ｙｏｕ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！　Ｈｅｅ－ｈｅｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+"Ｖｅｒｙ　ｇｏｏｄ，　ｍｙ　ｄｅａｒｓ．　Ｉ　ｋｎｅｗ　ｙｏ"TCC_NEWLINE"ｕ’ｄ"TCC_NEWLINE
+"ｇｅｔ　ｔｈｅ　ｒｉｇｈｔ　ａｎｓｗｅｒ　ｓｏｏｎｅｒ　ｏｒ"TCC_NEWLINE"　ｌａｔｅｒ．"TCC_NEWLINE
+"Ａｎｄ　ｎｏｗ，　ｆｏｒ　ｙｏｕｒ　ｒｅｗａｒｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｋｉｎｇａｎｄ　ｐｏｏｒ　Ｖｅｒｏｎｉｃａａｗａｉｔ"TCC_NEWLINE
+"ｙｏｕ　ｉｎ　ｔｈｅ　ｔｅｍｐｌｅ　ｗｈｅｒｅ　ｔｈｅ　Ｒｉ"TCC_NEWLINE"ｔｅ　ｏｆ"TCC_NEWLINE
+"Ｆｌａｍｅ　ｉｓ　ｃｏｎｄｕｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｏｎｌｙ　ｗａｙ　ｔｏ　ｒｅａｃｈ　ｔｈｅｍ　ｉｎ　"TCC_NEWLINE"ｔｉｍｅ"TCC_NEWLINE
+"ｉｓ　ｂｙ　ａ　ｓｅｃｒｅｔ　ｅｎｔｒａｎｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ　ｙｏｕ　ｇｏ，"TCC_TACTICIAN_NAME"．"TCC_NEWLINE
+"Ｔｈｉｓ　ｍａｐ　ｈａｓ　ｔｈｅ　ｄｅｔａｉｌｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｓａｙ　ｈｏｗ　ｌｏｎｇ　Ｖｅｒｏｎｉｃａ　"TCC_NEWLINE"ｈａｓ"TCC_NEWLINE
+"ｌｅｆｔ　ｔｏ　ｌｉｖｅ，　ｂｕｔ　ｙｏｕ　ｈａｄ　ｂｅｔｔ"TCC_NEWLINE"ｅｒ　ｈｕｒｒｙ，"TCC_NEWLINE
+"Ｉ　ｔｈｉｎｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈｙ　ｗｏｕｌｄ　ｙｏｕ　ｇｉｖｅ　ｔｈｉｓ　ｔｏ　ｕｓ？"TCC_NEWLINE"　Ｓｕｒｔｒ"TCC_NEWLINE
+"ｉｓ　ｙｏｕｒ　ｍａｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓ　ｔｒｕｅ，　ｂｕｔ　ｉｔ’ｓ　ｎｏｔ　ｔｈｅ"TCC_NEWLINE"　ｗｈｏｌｅ"TCC_NEWLINE
+"ｔｒｕｔｈ．．．　Ｉ　ｈａｖｅ　ｍｙ　ｏｗｎ　ｒｏｌｅ　ｔｏ"TCC_NEWLINE"　ｐｌａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｅ　ｍｕｓｔ　ｆａｃｅ　ｆａｃｔｓ．　Ｐｒｉｎｃｅ"TCC_NEWLINE"ｓｓ"TCC_NEWLINE
+"Ｖｅｒｏｎｉｃａ　ｉｓ　ｉｒｒｅｓｉｓｔｉｂｌｅ．　Ｉ’ｄ　"TCC_NEWLINE"ｈａｔｅ　ｆｏｒ"TCC_NEWLINE
+"ｈｅｒ　ｔｏ　ｄｉｅ　ｊｕｓｔ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｍ　ｓｕｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｂｒｉｎｇｓ　ｍｙ　ｐａｒｔ　"TCC_NEWLINE"ｉｎ　ｔｈｉｓ"TCC_NEWLINE
+"ｔｏ　ｉｔｓ　ｃｏｎｃｌｕｓｉｏｎ．　Ｉｔ　ｉｓ　ｔｉｍｅ　"TCC_NEWLINE"ｙｏｕ"TCC_NEWLINE
+"ｃｈａｌｌｅｎｇｅｄ　Ｓｕｒｔｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｌｌ　ｙｏｕ　ｐｒｅｖａｉｌ，　ｏｒ　ｗｉｌｌ　ｙｏｕ　"TCC_NEWLINE"ｄｉｅ？"TCC_NEWLINE
+"Ｗｈｉｃｈｅｖｅｒ　ｉｔ　ｉｓ，　Ｉ’ｌｌ　ｅｎｊｏｙ　ｗａ"TCC_NEWLINE"ｔｃｈｉｎｇ"TCC_NEWLINE
+"ｆｒｏｍ　ｏｎ　ｈｉｇｈ．　Ｇｏｏｄ　ｌｕｃｋ，　ｍｙ　ｄｅ"TCC_NEWLINE"ａｒｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

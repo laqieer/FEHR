@@ -1,0 +1,64 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S1201_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ　ｔｕｒｎｓ　ｏｕｔ　ｔｈａｔ　Ｚａｃｈａｒｉａｓ　ｉｓ"TCC_NEWLINE"　ｆｉｎｅ　ａｆｔｅｒ"TCC_NEWLINE
+"ａｌｌ．　Ｗｈａｔ　ａ　ｒｅｌｉｅｆ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｅｓ，　ｂｕｔ．．．　Ｗｈｙ　ｄｉｄ　ｈｅ　ｌｅａｖｅ　ａ"TCC_NEWLINE"ｇａｉｎ"TCC_NEWLINE
+"ｂｅｆｏｒｅ　ｗｅ　ｈａｄ　ａ　ｃｈａｎｃｅ　ｔｏ　ｍｅｅｔ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ，　ｂｕｔ　ｈｅ　ｍｕｓｔ　ｈａｖｅ"TCC_NEWLINE"　ｈａｄ"TCC_NEWLINE
+"ａ　ｒｅａｓｏｎ，　ｊｕｄｇｉｎｇ　ｂｙ　ｗｈａｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｔｏｌｄ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ！　Ｅｖｅｎ　ｉｆ　Ｚａｃｈａｒｉａｓ"TCC_NEWLINE"　ｉｓ　ｉｎ"TCC_NEWLINE
+"ｈｉｄｉｎｇ，　ｗｅ　ｄｏ　ｈａｖｅ　ａ　ｗａｙ　ｔｏ　ｓｐ"TCC_NEWLINE"ｅａｋ"TCC_NEWLINE
+"ｗｉｔｈ　ｈｉｍ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｄｏ？　Ｓｉｎｃｅ　ｗｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｍａｎａｇｅｄ　ｔｏ　ｇｅｔ　ｍｙ　ｈａｎｄｓ　ｏｎ"TCC_NEWLINE
+"ｓｏｍｅｔｈｉｎｇ　ｓｐｅｃｉａｌ　ｗｈｉｌｅ　ｗｅ　ｗｅｒ"TCC_NEWLINE"ｅ　ｉｎ"TCC_NEWLINE
+"ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｒａｄｉａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｃａｌｌｅｄ　ａ　ｓｅｎｄｉｎｇ　ｓｔｏｎｅｉｔ’"TCC_NEWLINE"ｓ　ａ"TCC_NEWLINE
+"ｍａｇｉｃａｌ　ｓｔｏｎｅ　ｔｈａｔ　ｌｅｔｓ　ｙｏｕ　ｔａ"TCC_NEWLINE"ｌｋ"TCC_NEWLINE
+"ｔｏ　ｓｏｍｅｏｎｅ　ｆａｒ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　ｙｏｕ　ｂｅｌｉｅｖｅ　ｗｅ　ｃａｎ　ｕｓｅ　ｔｈｉ"TCC_NEWLINE"ｓ　ｔｏ"TCC_NEWLINE
+"ｓｐｅａｋ　ｗｉｔｈ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｕｓｕａｌｌｙ，　ｔｈｅ　ｐｅｒｓｏｎ　ｙｏｕ　ｗａｎｔ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｔａｌｋ　ｔｏ　ａｌｓｏ　ｎｅｅｄｓ　ｔｏ　ｈａｖｅ　ａ　ｓ"TCC_NEWLINE"ｔｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｅ　ｃａｎ　ｕｓｅ　ｉｔ　ａｓ　ｔｈｅ　ｃａｔａｌ"TCC_NEWLINE"ｙｓｔ　ｆｏｒ　ａ"TCC_NEWLINE
+"ｍａｇｉｃａｌ　ｒｉｔｅ　ｉｎ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｓ"TCC_NEWLINE"ｈａｄｏｗｓ，"TCC_NEWLINE
+"ｗｈｉｃｈ　ｉｓ　ｗｈｅｒｅ　ｗｅ’ｒｅ　ｈｅａｄｅｄ　ｎｅ"TCC_NEWLINE"ｘｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｈｅ’ｓ　ａｌｉｖｅ，　Ｚａｃｈａｒｉ"TCC_NEWLINE"ａｓ　ｗｉｌｌ"TCC_NEWLINE
+"ｂｅ　ａｂｌｅ　ｔｏ　ｈｅａｒ　ｕｓ．．．ｅｖｅｎ　ｉｆ　ｈ"TCC_NEWLINE"ｅ’ｓ"TCC_NEWLINE
+"ａｓｌｅｅｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈａｔ’ｓ　ｆａｎｔａｓｔｉｃ，　Ｃｏｍｍａｎｄｅｒ　Ａｎ"TCC_NEWLINE"ｎａ！"TCC_NEWLINE
+"Ｗｈａｔ　ａｒｅ　ｗｅ　ｗａｉｔｉｎｇ　ｆｏｒ？　Ｌｅｔ’ｓ"TCC_NEWLINE"　ｔａｌｋ　ｔｏ"TCC_NEWLINE
+"Ｚａｃｈａｒｉａｓ　ｒｉｇｈｔ　ａｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S1201_EN] = TCC_OPEN_LEFT
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｃｅｌｉｃａ．　Ｉ’ｍ　ａ　ｃｈｉｌｄ"TCC_NEWLINE"ｈｏｏｄ"TCC_NEWLINE
+"ｆｒｉｅｎｄ　ｏｆ　Ａｌｍ’ｓ，　ａｎｄ．．．Ｉ　ｄｏｎ’ｔ"TCC_NEWLINE"　ｗａｎｔ　ｔｏ"TCC_NEWLINE
+"ｆｉｇｈｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓａｄｌｙ，　ｔｈｏｕｇｈ，　ｉｔ　ｓｅｅｍｓ　Ｉ　ｃａｎｎ"TCC_NEWLINE"ｏｔ"TCC_NEWLINE
+"ｒｅｓｉｓｔ　ｔｈｉｓ　ｃｏｎｔｒａｃｔ．　Ｉ’ｍ　ｓｏｒｒ"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　Ｉ　ｃａｎ　ｄｏ　ｉｓ　ｆｉｇｈｔ，　ａｎｄ　ｐｒａ"TCC_NEWLINE"ｙ　ｔｈａｔ　ｙｏｕｒ"TCC_NEWLINE
+"ｓｔｒｅｎｇｔｈ　ｗｉｌｌ　ｂｅ　ｅｎｏｕｇｈ　ｔｏ　ｆｒｅ"TCC_NEWLINE"ｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S1201_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　Ｈｅｒｏｅｓ　ｏｆ　ｔｈｉｓ　ｗｏ"TCC_NEWLINE"ｒｌｄ"TCC_NEWLINE
+"ａｒｅ　ａｌｒｅａｄｙ　ｕｎｄｅｒ　ｔｈｅ　ｃｏｎｔｒｏｌ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
+"Ｅｍｂｌａ，　ｗｈｉｃｈ　ｍｅａｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｙｏｕ　ａｇａｉｎ？　Ｉ　ｔｉｒｅ　ｏｆ　ｍｅｅｔｉｎｇ　ｌ"TCC_NEWLINE"ｉｋｅ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅ　Ｂｒｕｎｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｇｕｈ！　Ｌｅａｖｅ．．．ｎｏｗ．　Ｇｅｔ　ｉｎ　ｍｙ　ｗａ"TCC_NEWLINE"ｙ，"TCC_NEWLINE
+"ａｎｄ．．．Ｉ．．．ｗｉｌｌ　ｋｉｌｌ．．．ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

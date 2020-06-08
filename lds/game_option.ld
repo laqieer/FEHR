@@ -38,3 +38,5 @@
 .text.getOptionMenuItemCurrentValueInjector : {*(.text.getOptionMenuItemCurrentValueInjector)}
 . = 0x80af0f4;
 .rodata.pOption_menu_iconsTiles : {*(.rodata.pOption_menu_iconsTiles)}
+. = 0x8031aec;
+.text.GetChapterEventDataPointerForMultiLanguageInjector : {*(.text.GetChapterEventDataPointerForMultiLanguageInjector)}

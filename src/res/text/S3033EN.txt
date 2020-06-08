@@ -1,0 +1,9 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3033_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ’ｄ　ｄｉｓｃｕｓｓ　ｗｉｔｈ　ｍｅ　ａ　ｃｏｎｔｒａ"TCC_NEWLINE"ｃｔ　ｆｏｒ"TCC_NEWLINE
+"Ｈｅｒｏｅｓ？　Ｔｈａｔ’ｓ　ａ　ｃｕｒｉｏｕｓ　ｔｏｐｉｃ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｉｌｌ，　ｙｏｕ　ａｒｅ　ｈｅｒｅ　ｎｏｗ，　ｂｅｏｒｃ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
+"ａｎｏｔｈｅｒ　ｒｅａｌｍ．　Ｓｈａｌｌ　ｗｅ　ｓｅｅ　ｗｈ"TCC_NEWLINE"ｏ　ｉｓ"TCC_NEWLINE
+"ｓｔｒｏｎｇｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

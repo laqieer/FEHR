@@ -1,0 +1,52 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S0201_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｉｓｔｅｎ　ｕｐ，　ｅｖｅｒｙｏｎｅ．　Ｉ’ｖｅ　ｇｏｔｔ"TCC_NEWLINE"ｅｎ"TCC_NEWLINE
+"ｗｏｒｄ　ｔｈａｔ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ　ｈ"TCC_NEWLINE"ａｓ"TCC_NEWLINE
+"ｉｎｖａｄｅｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｓｅｉｚｉｎｇ　ｃｏｎｔｒｏｌ　ｏｆ　ｉｔｓ"TCC_NEWLINE"　Ｈｅｒｏｅｓ"TCC_NEWLINE
+"ｉｎ　ｈｏｐｅｓ　ｏｆ　ｕｓｉｎｇ　ｔｈｅｍ　ｔｏ　ｍｏｕｎ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ａｎ　ａｔｔａｃｋ　ｏｎ　ｏｕｒ　ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｆｏｒｔｕｎａｔｅｌｙ，　ｔｈｅｙ　ａｌｒｅａｄｙ　ｐｏ"TCC_NEWLINE"ｓｓｅｓｓ"TCC_NEWLINE
+"ｏｎｅ　ｏｆ　ｔｈａｔ　ｗｏｒｌｄ’ｓ　ｍｏｓｔ　ｉｍｐｏｒ"TCC_NEWLINE"ｔａｎｔ"TCC_NEWLINE
+"ＨｅｒｏｅｓＭａｒｔｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｌｅｇｅｎｄａｒｙ　Ｈｅｒｏ－Ｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｍａｒｔｈ　ｌｅａｄｓ　ａ　ｃｈａｒｇｅ　ｏｎ　ｔｈｅ"TCC_NEWLINE
+"Ａｓｋｒａｎ　Ｋｉｎｇｄｏｍ，　ｉｔ　ｗｏｕｌｄ　ｂｅ"TCC_NEWLINE
+"ｄｅｖａｓｔａｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅｌｌ，　ｓｏ　ｗｈａｔ　ｉｆ　ｔｈｅｙ　ｈａｖｅ　ａ　ｌ"TCC_NEWLINE"ｅｇｅｎｄ"TCC_NEWLINE
+"ｏｎ　ｔｈｅｉｒ　ｓｉｄｅ？　Ｗｅ　ｈａｖｅ　ｏｎｅ　ｔｏｏ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｏｕｒ　ｓｕｍｍｏｎｅｒ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｅｔ’ｓ　ｇｏ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅ"TCC_NEWLINE"ｒｙ　ａｎｄ"TCC_NEWLINE
+"ｆｒｅｅ　ｔｈｅｉｒ　Ｈｅｒｏｅｓ　ｆｒｏｍ　Ｅｍｂｌａ’ｓ"TCC_NEWLINE
+"ｃｏｎｔｒｏｌ　ｂｅｆｏｒｅ　ｔｈｉｎｇｓ　ｇｅｔ　ｏｕｔ　"TCC_NEWLINE"ｏｆ　ｈａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ａ　ｔｏｕｇｈ　ｂａｔｔｌ"TCC_NEWLINE"ｅ．"TCC_NEWLINE
+"Ｉ　ｈｏｐｅ　ｙｏｕ’ｒｅ　ｒｅａｄｙ　ｆｏｒ　ｔｈｉｓ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S0201_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｍａｒｔｈ，　Ｐｒｉｎｃｅ　ｏｆ　Ａｌｔｅａ．"TCC_NEWLINE
+"Ｙｏｕ　ｍｕｓｔ　ｂｅ　ｗｉｔｈ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ"TCC_NEWLINE
+"Ｈｅｒｏｅｓ　Ｉ’ｖｅ　ｈｅａｒｄ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｔｏｌｄ　ｕｓ　ａｂｏｕ"TCC_NEWLINE"ｔ　ｙｏｕ．"TCC_NEWLINE
+"Ａｎｄ　Ｉ　ａｓｓｕｍｅ　ｙｏｕ　ｋｎｏｗ　ａｌｌ　ａｂｏｕ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｔｈｅ　ｃｏｎｔｒａｃｔ　ｔｈａｔ　ｂｉｎｄｓ　ｕｓ　ｔｏ　"TCC_NEWLINE"ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｏｅｓ　ｏｆ　ａ　ｃｏｎｑｕｅｒｅｄ　ｗｏｒｌｄ　ｍｕ"TCC_NEWLINE"ｓｔ"TCC_NEWLINE
+"ｏｂｅｙ　ｔｈｅｉｒ　ｃｏｎｑｕｅｒｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｙｏｕ　ｓｈｏｗ　ｕｓ　ｔｈａｔ　ｙｏｕ’ｒｅ"TCC_NEWLINE
+"ｍｏｒｅ　ｐｏｗｅｒｆｕｌ　ｔｈａｎ　ｏｕｒ　ｃｏｎｑｕｅｒ"TCC_NEWLINE"ｏｒ，"TCC_NEWLINE
+"ｔｈａｔ　ｗｉｌｌ　ｂｒｅａｋ　ｔｈｅ　ｃｏｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｂｅｉｎｇ　ｓａｉｄ，　ｗｅ　ｗｉｌｌ　ｂａｔｔｌ"TCC_NEWLINE"ｅ　ｏｕｒ"TCC_NEWLINE
+"ｖｅｒｙ　ｂｅｓｔ．　Ｎｏｗ，　ｓｈｏｗ　ｕｓ　ｗｈａｔ"TCC_NEWLINE
+"ｙｏｕ　ｃａｎ　ｄｏ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0201_EN] = TCC_OPEN_LEFT
+"Ｗｅｌｌ　ｄｏｎｅ．　Ｉ　ｅｘｐｅｃｔｅｄ　ａｓ　ｍｕｃｈ"TCC_NEWLINE
+"ｆｒｏｍ　ｙｏｕ．　Ｂｕｔ　ｏｕｒ　ｂａｔｔｌｅｓ　ａｒｅ"TCC_NEWLINE
+"ｆａｒ　ｆｒｏｍ　ｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｎｅｘｔ　ｔｉｍｅ　ｙｏｕ　ｓｅｅ　ｍｅ，　ｗｅ　ｗ"TCC_NEWLINE"ｉｌｌ"TCC_NEWLINE
+"ｓｅｔｔｌｅ　ｔｈｉｓ　ｏｎｃｅ　ａｎｄ　ｆｏｒ　ａｌｌ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

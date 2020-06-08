@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2062_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｃｈｒｏｍ，　ｏｆ　Ｙｌｉｓｓｅ．　Ｔｈａｎｋｓ　"TCC_NEWLINE"ｔｏ　ｔｈｉｓ"TCC_NEWLINE
+"ｃｏｎｔｒａｃｔ，　ａｎｄ　ａｌｓｏ　ｆｏｒ　ｔｈｅ　ｓａｋ"TCC_NEWLINE"ｅ　ｏｆ　ｍｙ"TCC_NEWLINE
+"ｆｒｉｅｎｄｓ，　Ｉ　ｃａｎｎｏｔ　ｌｅｔ　ｙｏｕ　ｐａｓｓ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

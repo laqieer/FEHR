@@ -1,0 +1,113 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4025_EN] = TCC_OPEN_LEFT
+"Ｓｏ．　Ｉｔ　ｗａｓ　ｙｏｕ　ｗｈｏ　ｄｉｓｐｅｌｌｅｄ"TCC_NEWLINE
+"ｔｈｅ　ｎｉｇｈｔｍａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｙｏｕ　Ｙｏｕ’ｒｅ　ｎｏ　ｌｊｓｌｆａｒ．　Ｎｏｒ　ａｒｅ"TCC_NEWLINE
+"ｙｏｕ　ｏｆ　Ｌｊｓｌｆｈｅｉｍｒ　ａｔ　ａｌｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｉ　ａｍ　ａ　ｄｋｋｌｆａｒ　ｆ"TCC_NEWLINE"ｒｏｍ"TCC_NEWLINE
+"ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｄａｒｋ　ｄｒｅａｍｓ．．．ｔｈｅ"TCC_NEWLINE"　ｄｒｅａｍｓ"TCC_NEWLINE
+"ｙｏｕ　ｗｉｓｈ　ｔｏ　ｆｏｒｇｅｔ　ｏｎ　ｗａｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｔｒｉａｎｄｒａ．　Ｉ　ａｍ　Ｎｉｇｈｔｍａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｙｏｕ’ｒｅ　ｔｈｅ　ｏｎｅ　ｂｒｉｎｇｉｎｇ　ｔｅｒ"TCC_NEWLINE"ｒｉｂｌｅ"TCC_NEWLINE
+"ｄｒｅａｍｓ　ｉｎｔｏ　Ｌｊｓｌｆｈｅｉｍｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎｄｅｅｄ．　Ｉ　ａｍ　Ｎｉｇｈｔｍａｒｅ．　Ｉｔ　ｉｓ　"TCC_NEWLINE"ｗｈｏ"TCC_NEWLINE
+"Ｉ　ａｍ．　Ｉｔ　ｉｓ　ｗｈａｔ　Ｉ　ｍｕｓｔ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ．．．ｓｔｏｐ　ｉｔ！　Ｄｏｎ’ｔ　ｙｏｕ　ｆｅｅｌ"TCC_NEWLINE"　ｂａｄ　ｆｏｒ"TCC_NEWLINE
+"ａｌｌ　ｔｈｅ　ｐｅｏｐｌｅ　ｙｏｕ’ｒｅ　ｍａｋｉｎｇ　ｓ"TCC_NEWLINE"ｕｆｆｅｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ａｒｅ　Ｐｅｏｎｙ，　ｔｈｅ　Ｓｗｅｅｔ　Ｄｒｅａｍ"TCC_NEWLINE"，"TCC_NEWLINE
+"ａｒｅ　ｙｏｕ　ｎｏｔ？　Ｉ　ｈａｖｅ　ｈｅａｒｄ　ｏｆ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｆｒｏｍ　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｂｒｉｎｇ　ｐｌｅａｓａｎｔ　ｄｒｅａｍｓ　ｔｏ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
+"ｍｏｒｔａｌｓ．．．ｍｙ　ｏｐｐｏｓｉｔｅ．．．　Ｏｎｌｙ　"TCC_NEWLINE"ｏｎｅ"TCC_NEWLINE
+"ｔｈｉｎｇ　ｔｏ　ｄｏ，　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｇｈｔｓ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4025_EN] = TCC_OPEN_LEFT
+"Ｌａｄｙ　Ｆｒｅｙｊａ’ｓ　ｏｒｄｅｒｓ　ａｒｅ　ａｂｓｏｌ"TCC_NEWLINE"ｕｔｅ．"TCC_NEWLINE
+"Ｉ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｔｕｒｎｅｄ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｗｅ’ｒｅ　ｈｅｒｅ！　Ｌｏｏｋ！　Ｓｅｅ？　Ｉｔ’ｓ　ｇｒ"TCC_NEWLINE"ｅａｔ，"TCC_NEWLINE
+"ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅｒｅ　ａｒｅ．．．ｓｏ　ｍａｎｙ　ｂｅｄｓ！　Ａｒｅ　"TCC_NEWLINE"ｔｈｅｙ"TCC_NEWLINE
+"ａｌｌ　ｙｏｕｒｓ，　Ｐｅｏｎｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｕｍ．　Ｔｈｅｓｅ　ａｒｅ　ｂｅｄｓ　ｆｏｒ"TCC_NEWLINE
+"ｓｌｅｅｐｉｎｇ　ｗｉｔｈｉｎ　ｄｒｅａｍｓ．　Ｓｏ　ｙｏｕ"TCC_NEWLINE
+"ｃａｎ　ｄｒｅａｍ　ｗｉｔｈｉｎ　ｔｈｅ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ’ｍ　ｓｏｒｒｙ．　Ｉ’ｍ　ｃｏｎｆｕｓｅｄ．．．　Ｉｆ　"TCC_NEWLINE"Ｉ’ｍ　ｉｎ"TCC_NEWLINE
+"ａ　ｄｒｅａｍ　ａｌｒｅａｄｙ，　ａｒｅｎ’ｔ　Ｉ　ａｌｒｅ"TCC_NEWLINE"ａｄｙ"TCC_NEWLINE
+"ｓｌｅｅｐｉｎｇ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ　ｎｅｅｄ　ｔｏ　ｏｖｅｒｔｈｉｎｋ　ｉｔ．　Ｊｕｓｔ　"TCC_NEWLINE"ｌｉｅ　ｄｏｗｎ"TCC_NEWLINE
+"ａｎｄ　ｇｅｔ　ｎｉｃｅ　ａｎｄ　ｃｏｍｆｏｒｔａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｙｏｕ　ｄｏ，　ｗｅ　ｃａｎ　ｍｅｅｔ　Ｋｉｎｇ"TCC_NEWLINE
+"Ｆｒｅｙｒ．．．ｉｎ　ｔｈｅ　ｄｒｅａｍ　ｗｉｔｈｉｎ　ｔｈ"TCC_NEWLINE"ｅ　ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ．．．ｇｏｏｄ　ｎｉｇｈｔ！　Ｓｌｅｅｐ　ｔｉｇｈｔ！　"TCC_NEWLINE"Ｓｅｅ"TCC_NEWLINE
+"ｙｏｕ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｊｕｓｔ　ｓａｙｉｎｇ　ｉｔ’ｓ　ｔｉｍｅ　ｆｏｒ　ｓｌｅｅ"TCC_NEWLINE"ｐ"TCC_NEWLINE
+"ｄｏｅｓｎ’ｔ　ｍｅａｎ　ｗｅ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ"TCC_NEWLINE
+"ｊｕｓｔ　ｆａｌｌ　ａｓｌｅｅｐ　ｓｏ　ｅａｓｉ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．ｅｅ　ｙｏｕ　ｓｏｏｎ．．．　Ｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｈ－Ｓｈａｒｅｎａ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ’ｄ　ａｌｌ　ｄｏ　ｗｅｌｌ　ｔｏ　ｔａｋｅ　ａ　ｌｅｓ"TCC_NEWLINE"ｓｏｎ"TCC_NEWLINE
+"ｆｒｏｍ　Ｓｈａｒｅｎａ’ｓ　ｃａｒｅｆｒｅｅ　ａｔｔｉｔｕ"TCC_NEWLINE"ｄｅ．"TCC_NEWLINE
+"Ｊｕｓｔ　ｔｈｉｓ　ｏｎｃｅ，　ａｔ　ｌｅａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇａｈ．　Ｎｏｔｈｉｎｇ　ｔｏ　ｄｏ　ｂｕｔ　ｊｕｓｔ．．．"TCC_NEWLINE"ｓｌｅｅｐ！"TCC_NEWLINE
+"Ｉ’ｌｌ　ｊｕｓｔ　ｓｅｔｔｌｅ　ｉｎ，　ａａａａａｎｄ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｓｌｅｅｐ！　Ｉｔ’ｓ　ｎｏｔ　ｌｉｋｅ　Ｉ’ｖｅ．．"TCC_NEWLINE"．＊ｙａｗｎ＊"TCC_NEWLINE
+"．．．ｂｅｅｎ　ｇｅｔｔｉｎｇ　ｍｕｃｈ　ｓｌｅｅｐ　ｌａｔ"TCC_NEWLINE"ｅｌｙ，"TCC_NEWLINE
+"ｓｏ　ｉｔ　ｓｈｏｕｌｄ　ｂｅ．．．＊ｙａｗｎ＊．．．ｅａｓ"TCC_NEWLINE"ｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｎｏ　ｐｒｏｂｌｅｍ．．．ａｔ．．．　Ｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｏｔｈｅｒ　ｊｏｂ　ｗｅｌｌ　ｄｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏｍｅｔｈｉｎｇ　ｔｈｅ　ｍａｔｔｅｒ？　Ｄｏ　ｙｏｕ．．"TCC_NEWLINE"．"TCC_NEWLINE
+"ｎｏｔ　ｔｒｕｓｔ　ｍｅ？　Ｄｏ　Ｉ　ｓｅｅｍ　ｌｉｋｅ　ａ"TCC_NEWLINE"　ｂａｄ"TCC_NEWLINE
+"ｐｅｒｓｏｎ？　Ｏｒ　ｌｉｋｅ　Ｉ　ｍｅａｎ　ｙｏｕ　ｈａｒ"TCC_NEWLINE"ｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏ．　Ｉｔ’ｓ　ｊｕｓｔ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｒｕｓｔ　ｙｏｕ．　Ｉｆ　ｙｏｕ　ｗｅｒｅ　ｏｕｒ　ｅ"TCC_NEWLINE"ｎｅｍｙ，"TCC_NEWLINE
+"ｔｈｉｓ　ｗｏｕｌｄ　ｂｅ　ａ　ｆｉｎｅ　ｔｒａｐ，　ｔｈｏ"TCC_NEWLINE"ｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｓ　ｉｔ　ｔｈａｔ　ｙｏｕ’ｒｅ　ｗｏｒｒｉｅｄ　ａｂｏｕ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"，　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ’ｓ　ｉｔ，　Ｌｏｒｄ　Ｆｒｅｙｒ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅ　ａｂｌｅ"TCC_NEWLINE
+"ｔｏ　ｈｅｌｐ．　Ｉ　ｋｎｏｗ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｔｈａｔ　ｋｅｅｐｓ"TCC_NEWLINE
+"ｂｏｔｈｅｒｉｎｇ　ｍｅ，　ｔｈｏｕｇｈ．．．ａｎｄ　Ｉ　ｃ"TCC_NEWLINE"ａｎ’ｔ"TCC_NEWLINE
+"ｑｕｉｔｅ　ｐｕｔ　ｍｙ　ｆｉｎｇｅｒ　ｏｎ　ｗｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ．．．ｏｎ　ｔｈｅ　ｅｄｇｅ　ｏｆ　ｍｅｍ"TCC_NEWLINE"ｏｒｙ．．．"TCC_NEWLINE
+"Ｓｏｍｅｔｈｉｎｇ　ｆｒｏｍ　ｗｈｅｎ．．．＊ｙａｗｎ＊．．"TCC_NEWLINE"．Ｉ　ｗａｓ"TCC_NEWLINE
+"ａ　ｃｈｉｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ．．．ｉｍｐｏｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　ｆｏｒ　ｎｏｗ，　ｓｌｅｅｐ　ｔｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ　ｅｖｅｒｙｏｎｅ’ｓ　ａｓｌｅｅｐ．　Ｉｔ　"TCC_NEWLINE"ｓｅｅｍｓ"TCC_NEWLINE
+"ｔｈｅｙ　ａｌｌ　ｍｕｓｔ　ｔｒｕｓｔ　ｍｅ　ａｆｔｅｒ　ａ"TCC_NEWLINE"ｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈｈｈ，　ｙａｙ！　Ｔｈａｔ　ｍａｋｅｓ　ｍｅ　ｓｏ　ｈａ"TCC_NEWLINE"ｐｐｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｄｏ　ｍｙ　ｂｅｓｔ　ｔｏ　ｅａｒｎ　ｔｈａｔ"TCC_NEWLINE
+"ｔｒｕｓｔ，　ａｎｄ　ｔｏ　ｏｆｆｅｒ　ｔｈｅｍ　ｍｙ　ｔｒ"TCC_NEWLINE"ｕｓｔ"TCC_NEWLINE
+"ｉｎ　ｒｅｔｕｒｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ，　Ｐｅｏｎｙ，　ｔｈｅ　Ｓｗｅｅｔ　Ｄｒｅａｍ，　ａｍ"TCC_NEWLINE
+"ｈｅｒｅ　ｆｏｒ　ｙｏｕ　ｎｏｗ．．．ｔｏ　ｂｒｉｎｇ　ｊｏ"TCC_NEWLINE"ｙ"TCC_NEWLINE
+"ｂａｃｋ　ｔｏ　ａｌｌ　ｙｏｕｒ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

@@ -1,0 +1,90 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｈａｔ　ｓｈｏｕｌｄ　ｏｕｒ　ｎｅｘｔ　ｍｏｖｅ　ｂｅ？　"TCC_NEWLINE"Ｗｅ"TCC_NEWLINE
+"ｈａｖｅ　ｎｏ　ｔｉｍｅ　ｔｏ　ｗａｓｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｑｕｅｓｔｉｏｎ　ｉｓ：　ｗｈａｔ　ｍｉｇｈｔ　ｗｅ"TCC_NEWLINE"　ｇａｉｎ"TCC_NEWLINE
+"ｂｙ　ｅｘｐｌｏｒｉｎｇ　ｔｈｉｓ　ｗｏｒｌｄ　ｆｕｒｔｈｅ"TCC_NEWLINE"ｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍａｙ　ｂｅ　ｂｅｔｔｅｒ　ｏｆｆ　ｒｅｔｕｒｎｉｎｇ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｆ　ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ　ｗｉｔｈ　ｙｏｕ，　Ｃｏ"TCC_NEWLINE"ｍｍａｎｄｅｒ"TCC_NEWLINE
+"Ａｎｎａ，　Ｉ’ｄ　ｌｉｋｅ　ｔｏ　ｓｅａｒｃｈ　ｔｈｅ　ｃ"TCC_NEWLINE"ａｓｔｌｅ’ｓ"TCC_NEWLINE
+"ｌｉｂｒａｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ　ｓｅａｒｃｈｅｄ　ｏｕｒ　ｏｗｎ　ｌｉｂｒａｒｙ，　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
+"ｌｅａｒｎｅｄ　ｎｏｔｈｉｎｇ　ｔｈａｔ　ｍｉｇｈｔ　ｈｅｌ"TCC_NEWLINE"ｐ"TCC_NEWLINE
+"ｕｓ　ｄｅｆｅａｔ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｔｈｉｎｇｓ　ｍｉｇｈｔ　ｂｅ"TCC_NEWLINE
+"ｄｉｆｆｅｒｅｎｔ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｄｏ．　Ｅｖｅｎ　ｉｆ　ｗｅ　ｄｏｎ’ｔ　ｌｅａｒｎ　ａ"TCC_NEWLINE"ｎｙｔｈｉｎｇ"TCC_NEWLINE
+"ａｂｏｕｔ　ｈｏｗ　ｔｏ　ｄｅｆｅａｔ　Ｈｅｌ，　ｗｅ　ｍａ"TCC_NEWLINE"ｙ"TCC_NEWLINE
+"ｌｅａｒｎ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ＴＨＩＳ　Ａｓｋ"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｂａｓｉｃ　ｆａｃｔｓ，　ｌｉｋｅ　ｗｈａｔ　ｙｅ"TCC_NEWLINE"ａｒ"TCC_NEWLINE
+"ｉｔ　ｉｓｏｒ　ｗｈａｔ　ｅｘａｃｔｌｙ　ｈａｐｐｅｎｅｄ　"TCC_NEWLINE"ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｃａｎ　ｓｅｅ　ｔｈｅ　ｍｅｒｉｔ　ｉｎ　ｔｈａｔ．　Ａ"TCC_NEWLINE"ｎｄ　ｉｆ　ｉｔ"TCC_NEWLINE
+"ｗａｓ　Ｈｅｌ　ｗｈｏ　ｂｒｏｕｇｈｔ　ｔｈｉｓ　Ａｓｋｒ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
+"ｒｕｉｎ，　ｗｅ　ｃｏｕｌｄ　ｌｅａｒｎ　ｓｏｍｅｔｈｉｎｇ"TCC_NEWLINE"　ｖｉｔａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｃｅｒｔａｉｎ　ｔｈａｔ　ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ"TCC_NEWLINE"　ｓｏｍｅ"TCC_NEWLINE
+"ｉｎｆｏｒｍａｔｉｏｎ　ａｂｏｕｔ　Ｈｅｌ　ｔｈｅｒｅ．．．"TCC_NEWLINE"　Ｌｅｔ’ｓ"TCC_NEWLINE
+"ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_THRASIR
+"Ｙｏｕ’ｒｅ　ｐｅｒｓｉｓｔｅｎｔ．　Ｂｕｔ　ｓｏ　ｉｓ"TCC_NEWLINE
+"ｄｅａｔｈ．　Ｓｏｏｎｅｒ　ｏｒ　ｌａｔｅｒ，　ａｌｌ　ｏｆ"TCC_NEWLINE
+"ｙｏｕ　ｗｉｌｌ　ｐｅｒｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ　ｋｎｏｗ　ｔｈｉｓ　ｐｌａｃｅ　ｓｏ　ｗｅｌｌ．　Ｉ　ｃ"TCC_NEWLINE"ａｎ　ｂａｒｅｌｙ"TCC_NEWLINE
+"ｔｅｌｌ　ｔｈｅ　ｄｉｆｆｅｒｅｎｃｅ　ｂｅｔｗｅｅｎ　ｔｈ"TCC_NEWLINE"ｉｓ　ｗｏｒｌｄ"TCC_NEWLINE
+"ａｎｄ　ｏｕｒ　ｏｗｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｏｎｉｇｈｔ，　ｗｅ’ｌｌ　ｒｅｓｔ　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｆｏｒｔｒｅｓｓ"TCC_NEWLINE
+"ｏｎ　ｔｈｅ　ｈｉｌｌ　ａｈｅａｄ．　Ｉ　ｄｏ　ｌｏｖｅ　ｉ"TCC_NEWLINE"ｔ　ｓｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｓｋｒ，　ｌａｉｄ　ｗａｓｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ａｃｃｅｐｔ　ｔｈｅ　ｅ"TCC_NEWLINE"ｖｉｄｅｎｃｅ"TCC_NEWLINE
+"ｏｆ　ｍｙ　ｅｙｅｓ．　Ｏｎｅ　ｔｈｉｎｇ　ｉｎ　ｐａｒｔｉ"TCC_NEWLINE"ｃｕｌａｒ"TCC_NEWLINE
+"ｂｏｔｈｅｒｓ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｕｓｐｅｃｔ"TCC_NEWLINE TCC_PUSH_A
+"！？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LIF
+"Ｄｉｅ．　Ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｆ！　Ａｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｙｏｕ　ｄａｒｅ！　Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔｏ"TCC_NEWLINE"　ｋｉｌｌ　ｍｙ"TCC_NEWLINE
+"ｂｒｏｔｈｅｒ，　ｙｏｕ’ｌｌ　ｈａｖｅ　ｔｏ　ｋｉｌｌ　ｍ"TCC_NEWLINE"ｅ　ｆｉｒｓｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ．．．　Ｍｏｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｆｏｅ　ｓｉｇｈｔｅｄ！　Ｅｎｅｍｙ　ａｔｔａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　ｈｅ’ｓ　ｇｏｎｅ！　Ｃａｎ　ｉｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｐｏｌｏｇｉｚｅ．　Ｉ　ｗａｓ　ｃａｒｅｌｅｓｓ．．．"TCC_NEWLINE"　Ｉ　ｄｉｄｎ’ｔ"TCC_NEWLINE
+"ａｎｔｉｃｉｐａｔｅ　ｔｈａｔ　ｈｅ’ｄ　ｓｉｍｐｌｙ　ｔｒ"TCC_NEWLINE"ｙ　ｔｏ"TCC_NEWLINE
+"ａｓｓａｓｓｉｎａｔｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｅｖｅｒ　ｍｉｎｄ　ｔｈａｔ．　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒ"TCC_NEWLINE"ｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｎｋｓ　ｔｏ　ｙｏｕ，　Ｉ　ａｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ　ｌｅａｒｎｅｄ　ｓｏｍｅｔｈｉｎｇ，　ｔｏｏ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｆ　ｈｅｓｉｔａｔｅｄ　ｆｏｒ　ｊｕｓｔ　ａ　ｍｏｍｅｎｔ"TCC_NEWLINE
+"ｂｅｆｏｒｅ　ｐｏｉｎｔｉｎｇ　ｈｉｓ　ｗｅａｐｏｎ　ａｔ"TCC_NEWLINE
+"ｙｏｕ．　Ｉ　ｗｏｎｄｅｒ　ｗｈａｔ　ｔｈａｔ’ｓ　ａｂｏｕ"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　ｉｔ　ｗａｓ　ｃｈｉｖａｌｒｙ．　Ｍａｙｂｅ"TCC_NEWLINE"　ｈｅ"TCC_NEWLINE
+"ｗｏｎ’ｔ　ｆｉｇｈｔ　ａ　ｗｏｍａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｓｅｅｍｓ　ｕｎｌｉｋｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍｕｓｔ　ｂｅ　ｓｏｍｅｔｈｉｎｇ　ｅｌｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

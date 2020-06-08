@@ -1,0 +1,14 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2113_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
+"Ｈａｈ！　Ｓｏ　ＴＨＩＳ　ｉｓ　ｗｈｅｒｅ　ｙｏｕ’ｖｅ　ｂ"TCC_NEWLINE"ｅｅｎ"TCC_NEWLINE
+"ｈｉｄｉｎｇ，　ｙｏｕ　ｆｉｌｔｈｙ　ｒａｔｓ．　Ｍｕｓｔ　"TCC_NEWLINE"ｂｅ　ｍｙ"TCC_NEWLINE
+"ｌｕｃｋｙ　ｄａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｔｈａｔ　ｙｏｕ　ｗｅｒｅ　ｈｏｐｉｎｇ　ｔｏ"TCC_NEWLINE"　ｂｅ"TCC_NEWLINE
+"ｓｌａｕｇｈｔｅｒｅｄ　ｂｙ　ｔｈｅ　ｂｅｓｔ，　ｓｏ　Ｉ　"TCC_NEWLINE"ｃｒａｗｌｅｄ"TCC_NEWLINE
+"ｏｕｔ　ｏｆ　ｔｈｅ　ｄｅｐｔｈｓ　ｏｆ　ｈｅｌｌ，　ｊｕｓ"TCC_NEWLINE"ｔ　ｆｏｒ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2113_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
+"Ｔｏ　ｈｅｌｌ　ｗｉｔｈ　ｙｏｕ　ａｌｌ！　Ｉ’ｍ　ｎｏｔ．"TCC_NEWLINE"．．ｇｏｉｎｇ　ｔｏ"TCC_NEWLINE
+"ｄｉｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

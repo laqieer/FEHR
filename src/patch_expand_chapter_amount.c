@@ -12,7 +12,8 @@ extern const struct ProcCmd gProcScriptBeginChapter[];
 const unsigned char chapterStructAmount = CHAPTER_AMOUNT; // GetROMChapterStruct
 const unsigned char chapterMapAmount = CHAPTER_AMOUNT; // GetChapterMapPointer
 const unsigned char chapterMapChangeAmount = CHAPTER_AMOUNT; // GetChapterMapChangesPointer
-const unsigned char chapterEventAmount = CHAPTER_AMOUNT; // GetChapterEventDataPointer
+// Move to src/chapter_event.c
+//const unsigned char chapterEventAmount = CHAPTER_AMOUNT; // GetChapterEventDataPointer
 const unsigned char chapterNameStringAmount = CHAPTER_AMOUNT; // GetChapterNameString
 
 u32 GetChapterID(struct RAMChapterData *chapterData)

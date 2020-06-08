@@ -1,0 +1,6 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3123_EN] = TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ　Ｍｉｌａ．．．Ｉ　ｂｅｓｅｅｃｈ　ｙｏｕ．．．"TCC_NEWLINE"　Ｐｌｅａｓｅ，"TCC_NEWLINE
+"ｗａｔｃｈ　ｏｖｅｒ　ｔｈｉｓ　ｗｏｒｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,68 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S0505_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ｍａｄｅ　ｉｔ　ａｌｌ　ｔｈｉｓ　ｗａｙ？　Ｗｈａｔ"TCC_NEWLINE"　ａ"TCC_NEWLINE
+"ｓｈａｍｅ　ｔｈａｔ　ｐｅｏｐｌｅ　ｗｉｔｈ　ｙｏｕｒ　ｓｋ"TCC_NEWLINE"ｉｌｌｓ"TCC_NEWLINE
+"ａｒｅ　ｆｉｇｈｔｉｎｇ　ｏｎ　ｔｈｅ　ｗｒｏｎｇ　ｓｉｄｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕ’ｌｌ　ｇｅｔ　ｎｏ　ｆｕｒｔｈｅｒｎｏｔ　ｅ"TCC_NEWLINE"ｖｅｎ"TCC_NEWLINE
+"ｗｉｔｈ　ｔｈａｔ　ｔａｌｅｎｔｅｄ　ｔａｃｔｉｃｉａｎ　ｏ"TCC_NEWLINE"ｆ"TCC_NEWLINE
+"ｙｏｕｒｓ．　Ｂｅｃａｕｓｅ　ｗｅ　ｈａｖｅ　ｏｕｒ　ｏｗｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｏｂｉｎ！　Ｌｅａｄ　ｕｓ　ｔｏ　ｖｉｃｔｏｒｙ．　Ｔｈｅ"TCC_NEWLINE
+"Ｓｈｅｐｈｅｒｄｓ　ｍｕｓｔ　ｇｅｔ　ｔｈｅｓｅ　ｖｉｌｌａ"TCC_NEWLINE"ｉｎｓ"TCC_NEWLINE
+"ｔｏ　ｒｅｖｅｒｓｅ　ｃｏｕｒｓｅ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0505_EN] = TCC_OPEN_LEFT
+"Ｏｈ！　Ｉｔ　ｓｅｅｍｓ　ｔｈａｔ　ｍｙ　ｅｙｅｓ　ｈａｖｅ"TCC_NEWLINE
+"ｓｕｄｄｅｎｌｙ　ｏｐｅｎｅｄａｎｄ　ｔｈａｔ　ｗｅ"TCC_NEWLINE
+"ｍｉｓｊｕｄｇｅｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｍｙ　ｇｒａｖｅｓｔ　ａｐｏｌｏｇｉｅｓ，"TCC_NEWLINE
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．　Ａｌｌ　ｔｈｉｓ　ｔｉｍｅ，"TCC_NEWLINE"　ｗｅ"TCC_NEWLINE
+"ｗｅｒｅ　ｏｐｅｒａｔｉｎｇ　ｕｎｄｅｒ　ａ　ｄｅｃｅｐｔｉ"TCC_NEWLINE"ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｄ　ｉｔ　ｕｐｓｉｄｅ　ｄｏｗｎ．　Ｔｈｅ　Ｏｒｄ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
+"ｏｆ　Ｈｅｒｏｅｓ　ｃａｍｅ　ｈｅｒｅ　ｔｏ　ｓａｖｅ　ｕｓ"TCC_NEWLINE
+"ａｌｌ　ｆｒｏｍ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｏｎｌｙ　ｈｏｐｅ　ｙｏｕ　ｃａｎ　ｆｏｒｇｉｖｅ　ｕｓ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｙｏｕ　ｈａｖｅ　ｍｙ　ｄｅｅｐ　ｇｒａｔｉｔｕｄｅ　ｆｏｒ"TCC_NEWLINE
+"ｒｅｓｃｕｉｎｇ　ｏｕｒ　ｒｅａｌｍ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S0505_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｕｒ　ｍｉｓｓｉｏｎ　ｓｕｃｃｅｅｄｅｄ！　Ｗｅ　ｈａｖｅ"TCC_NEWLINE
+"ｓａｖｅｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ａｗａｋｅｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ，　ｉｔ’ｓ　ａｌｌ　ｔｈａｎｋｓ　ｔｏ　"TCC_NEWLINE"ｙｏｕ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ　ｓｅｅ　ｔｈａｔ　ｗｉｔｈ　ｅｖｅｒｙ　ｓｕｃｃ"TCC_NEWLINE"ｅｓｓ，"TCC_NEWLINE
+"ｙｏｕｒ　ｃｏｎｆｉｄｅｎｃｅ　ｇｒｏｗｓ．　Ｙｏｕ　ｇｉｖ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｏｒｄｅｒｓ　ｗｉｔｈｏｕｔ　ｈｅｓｉｔａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｉｓ　ｔｒｕｌｙ"TCC_NEWLINE
+"ｆｏｒｔｕｎａｔｅ　ｔｏ　ｈａｖｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｏｕ　ｋｎｏｗ，　ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　ａｂ"TCC_NEWLINE"ｏｕｔ"TCC_NEWLINE
+"ｔｈｅｉｒ　ｔａｃｔｉｃｉａｎ　ｔｈａｔ　ｒｅｍｉｎｄｓ　ｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｏｆ　ｙｏｕ，"TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｌｉｋｅ．．．ｙｏｕ　ｈａｖｅ　ｔｈｅ　ｓａｍｅ　"TCC_NEWLINE"ａｕｒａ　ｏｒ"TCC_NEWLINE
+"ｓｏｍｅｔｈｉｎｇ．　Ｏｈ，　ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ’"TCC_NEWLINE"ｍ　ｓｔｉｌｌ"TCC_NEWLINE
+"ｙｏｕｒ　ｎｕｍｂｅｒ－ｏｎｅ　ｆａｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉｔ　ｓｈｏｕｌｄｎ’ｔ　ｓｕｒｐｒｉｓｅ　ｕｓ　ｔｈａｔ　"TCC_NEWLINE"ｔｗｏ"TCC_NEWLINE
+"ｐｅｏｐｌｅ　ｍｉｇｈｔ　ｓｅｅｍ　ａｌｉｋｅ，　ｇｉｖｅｎ"TCC_NEWLINE
+"ｈｏｗ　ｍａｎｙ　ｗｏｒｌｄｓ　ｔｈｅｒｅ　ａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ，　ｔｈｅｒｅ　ａｒｅ　ｐｒｏｂａｂｌｙ　ｍａｎｙ　ｍ"TCC_NEWLINE"ｏｒｅ"TCC_NEWLINE
+"ｔｈａｎ　ｔｗｏｈｕｎｄｒｅｄｓ，　ｅｖｅｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ，　ｎｏｗ　ｙｏｕ’ｒｅ　ｇｅｔｔｉｎｇ　ｃａｒｒｉ"TCC_NEWLINE"ｅｄ"TCC_NEWLINE
+"ａｗａｙ，　Ｃｏｍｍａｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｉｎｋ　ｓｏ？　Ｈｍｍ．　Ｙｏｕ　ｎｅｖｅｒ　ｋｎｏｗ．"TCC_NEWLINE
+"Ａｎｙｗａｙ，　ｌｅｔ’ｓ　ｇｅｔ　ｂａｃｋ　ｔｏ　Ａｓｋｒ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｗｅ’ｖｅ　ｆｉｎｉｓｈｅｄ　ｏｕｒ　ｗｏｒｋ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｎｏ．　Ｉ’ｖｅ　ｊｕｓｔ　ｇｏｔｔｅｎ　ａｎ　ｕｒｇ"TCC_NEWLINE"ｅｎｔ"TCC_NEWLINE
+"ｒｅｐｏｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｍｂｌａ　ｉｓ　ａｔ　ｔｈｅ　ｇａｔｅｗａｙ　ｔｈａｔ　ｌ"TCC_NEWLINE"ｅａｄｓ"TCC_NEWLINE
+"ｉｎｔｏ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙａｇａｉｎ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｖｅｒｏｎｉｃａ　ｍｕｓｔ　ｂｅ　ｈｏｐｉｎｇ　ｔｏ　ｒｅｇ"TCC_NEWLINE"ａｉｎ"TCC_NEWLINE
+"Ｍａｒｔｈ．　Ｗｏｎ’ｔ　ｓｈｅ　ｅｖｅｒ　ｓｔｏｐ　ｔｒｙ"TCC_NEWLINE"ｉｎｇ　ｔｏ"TCC_NEWLINE
+"ｇｅｔ　ｔｈｅ　Ｈｅｒｏ－Ｋｉｎｇ　ｉｎ　ｈｅｒ　ｃｌｕｔｃ"TCC_NEWLINE"ｈｅｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　ｎｏｔ　ｈｉｍ，　ｗｈｏ　ｍｉｇｈｔ　ｓｈｅ　"TCC_NEWLINE"ｂｅ"TCC_NEWLINE
+"ｔｒｙｉｎｇ　ｔｏ　ｇｅｔ　ｔｈｉｓ　ｔｉｍｅ？"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

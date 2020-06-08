@@ -1,0 +1,9 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2122_EN] = TCC_OPEN_LEFT
+"Ｏｕｒ　Ｌｅｏｎｓｔｅｒ　ｍａｙ　ｂｅ　ａ　ｓｍａｌｌ　ｃｏ"TCC_NEWLINE"ｕｎｔｒｙ，"TCC_NEWLINE
+"ｂｕｔ　ｉｔ　ｉｓ　ｒｕｌｅｄ　ｂｙ　ｔｈｅ　ｄｅｓｃｅｎｄ"TCC_NEWLINE"ａｎｔｓ　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｃｒｕｓａｄｅｒ　Ｎｊｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　Ｉ　ｈａｖｅ　ｔｈｅ　Ｇｅ　Ｂｏｌｇ，"TCC_NEWLINE"　Ｉ　ｗｉｌｌ"TCC_NEWLINE
+"ｎｏｔ　ｌｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

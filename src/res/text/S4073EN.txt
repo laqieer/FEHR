@@ -1,0 +1,55 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4073_EN] = TCC_OPEN_LEFT
+"Ｈｍｐｈ！　Ｋｅｅｐ　ｙｏｕｒ　ｗｒｅｔｃｈｅｄ　ｈａｎｄｓ"TCC_NEWLINE
+"ｏｆｆ　ｍｅ，　ｈｕｍａｎ，　ｏｒ　ｙｏｕ　ｍａｙ　ｗｅｌｌ"TCC_NEWLINE
+"ｌｏｓｅ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4073_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈｍｍ．．．　Ｈｍｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LUPINUS
+"．．．Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ’ｓ　ｊｕｓｔ　ｔｈａｔ．．．Ｉ　ｆｅｅｌ　ａｓ　ｔｈｏ"TCC_NEWLINE"ｕｇｈ　ｗｅ’ｖｅ"TCC_NEWLINE
+"ｍｅｔ　ｂｅｆｏｒｅ．．．　Ｉ　ｆｅｌｔ　ｓｉｍｉｌａｒｌｙ"TCC_NEWLINE"　ｗｈｅｎ"TCC_NEWLINE
+"Ｉ　ｆｉｒｓｔ　ｍｅｔ　Ｐｅｏｎｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｏｎ’ｔ　ｈａｐｐｅｎ　ｔｏ　ｒｅｍｅｍｂｅｒ"TCC_NEWLINE
+"ｈａｖｉｎｇ　ｍｅｔ　ｍｅ　ｂｅｆｏｒｅ，　ｄｏ　ｙｏｕ，"TCC_NEWLINE
+"Ｍｉｒａｂｉｌｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｚｚｚｚ．．．　Ｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"＊ｙｙｙａａａｗｗｗｎｎｎ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ．．．　Ｙｏｕ　ｗｅｒｅ　ｓａｙｉｎｇ"TCC_NEWLINE
+"ｙｏｕ’ｖｅ　ｍｅｔ　ｍｅ　ｂｅｆｏｒｅ？　Ｉｎ　ａ"TCC_NEWLINE
+"ｄｒｅａｍ？　．．．Ｍａｙｂｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ｉ　ｈａｖｅ　ｔｈｉｓ　ｇｒｏｗｉｎｇ　ｆｅｅｌｉ"TCC_NEWLINE"ｎｇ　ｔｈａｔ"TCC_NEWLINE
+"Ｉ’ｖｅ　ｓｐｏｋｅｎ　ｗｉｔｈ　ａｌｌ　ｙｏｕ　ｌｊｓｌｆ"TCC_NEWLINE"ａｒ"TCC_NEWLINE
+"ｂｅｆｏｒｅ，　ｊｕｓｔ　ｌｉｋｅ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　Ｉ　ｗａｓ　ａ　ｃｈｉｌｄ．．．　Ｉ　ｒｅｍｅｍｂ"TCC_NEWLINE"ｅｒ　ｔｈｅ"TCC_NEWLINE
+"ｄｒｅａｍ．　Ｉｔ　ｗａｓ　ａｌｗａｙｓ　ｔｈｅ　ｓａｍｅ．"TCC_NEWLINE"　Ｗｅ"TCC_NEWLINE
+"ａｌｌ　ｐｌａｙｅｄ　ｉｎ　ａ　ｆｉｅｌｄ　ｏｆ　ｆｌｏｗｅ"TCC_NEWLINE"ｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｇｉｒｌ　ｗｈｏ　ｌｏｏｋｅｄ　ｌｉｋｅ　Ｐｅｏｎｙ"TCC_NEWLINE"，"TCC_NEWLINE
+"ｏｎｅ　ｌｉｋｅ　Ｍｉｒａｂｉｌｉｓ．．．　Ａｎｄ　Ｉ　ｓｅ"TCC_NEWLINE"ｅｍ　ｔｏ"TCC_NEWLINE
+"ｒｅｃａｌｌ　ｔｈｅｒｅ　ｂｅｉｎｇ　ｔｗｏ　ｏｔｈｅｒｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｍ．．．　Ｔｉｍｅ　ｐａｓｓｅｓ　ｄｉｆｆｅｒｅｎｔｌｙ"TCC_NEWLINE
+"ｆｏｒ　ｌｊｓｌｆａｒ　ａｎｄ　ｈｕｍａｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｈａｄ　ｍｅｔ，　ｔｈｏｕｇｈ，　ｔｈａｔ　ｉｓ"TCC_NEWLINE"　ｈｏｗ"TCC_NEWLINE
+"ｉｔ　ｗｏｕｌｄ　ｈａｖｅ　ｈａｐｐｅｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ　ｎｏｗ．　Ｗ"TCC_NEWLINE"ｈａｔ’ｓ"TCC_NEWLINE
+"ｉｍｐｏｒｔａｎｔ　ｉｓ　ｔｈａｔ　Ｉ　ｊｕｓｔ．．．ｃｌｏ"TCC_NEWLINE"ｓｅ　ｍｙ"TCC_NEWLINE
+"ｅｙｅｓ．．．ａｎｄ．．．　Ｚｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ－ｉｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｅｅｌ　ｌｉｋｅ　ｕｓ　ｇｉｒｌｓ，　ｗｅ　ｄｉｄ　ｓ"TCC_NEWLINE"ｏｍｅｔｈｉｎｇ"TCC_NEWLINE
+"ｔｏｇｅｔｈｅｒ．．．　Ｓｏｍｅｔｈｉｎｇ　ｔｈａｔ　ｆｅｌ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｉｍｐｏｒｔａｎｔ　ｓｏｍｅｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｒｅ　ｗｅ　ｐｌａｙｉｎｇ　ａｔ　ｂｅｉｎｇ　ｏｎ　ｓｏ"TCC_NEWLINE"ｍｅ"TCC_NEWLINE
+"ｋｉｎｄ　ｏｆ　ａｄｖｅｎｔｕｒｅ．．．ｔｏ　ｓａｖｅ　ｔｈ"TCC_NEWLINE"ｅ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ．．．　Ｕｇｈ．　Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ．．"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｃ’ｍｏｎ，　Ｓｈａｒｅｎａ，　ｔｈｉｎｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,0 +1,101 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｉ　ｒｅａｌｉｚｅ　ｔｈｉｓ　ｉｓ　ｓｕｄｄｅｎ，　ｂｕｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｍｕｓｔ　ｄｏ．．"TCC_NEWLINE"．　Ａｎｄ"TCC_NEWLINE
+"Ｉ　ｃａｎ　ｏｎｌｙ　ｄｏ　ｉｔ　ｗｈｅｎ　ｗｅ’ｒｅ　ａｌ"TCC_NEWLINE"ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｔｈａｔ　ｉｓ　ｎｏｔ　ｅａｓ"TCC_NEWLINE"ｙ　ｆｏｒ"TCC_NEWLINE
+"ｍｅ　ｔｏ　ｄｏ．　Ｉ　ａｍ．．．ｒｅｌｕｃｔａｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｅｅ．．．ｉｔ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｍｙ　ｍｏ"TCC_NEWLINE"ｔｈｅｒ"TCC_NEWLINE
+"ｃｏｍｍａｎｄｅｄ　ｍｅ　ｔｏ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｔｈｅｒ　ｎｅｅｄｓ　ｙｏｕ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｓｔｒｕｇｇｌｅ．　Ｗｅ　ｂｏｔｈ　ｋｎｏｗ　ｔ"TCC_NEWLINE"ｈｅｒｅ"TCC_NEWLINE
+"ｗｏｕｌｄ　ｂｅ　ｎｏ　ｐｏｉｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｕｌｙ，　Ｉ　ｒｅｇｒｅｔ　ｔｈｉｓ．　Ｙｏｕ　ｗｅｒｅ"TCC_NEWLINE"　ａｌｌ　ｓｏ"TCC_NEWLINE
+"ｋｉｎｄ　ｔｏ　ｍｅ．　Ｓｏ　ｖｅｒｙ　ｋｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆａｒｅｗｅｌｌ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_HEL
+"Ｉｓ　ｉｔ　ｄｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　Ｍｏｔｈｅｒ．　Ｊｕｓｔ　ａｓ　ｙｏｕ　ｏｒｄｅｒ"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｘｃｅｌｌｅｎｔ．　Ｎｏｗ　ｔｈｅｒｅ　ｉｓ　ｎｏｎｅ　ｌ"TCC_NEWLINE"ｅｆｔ"TCC_NEWLINE
+"ｃａｐａｂｌｅ　ｏｆ　ｒｅｓｉｓｔｉｎｇ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｓｅｒｖｉｃｅｓ　ａｒｅ　ｎｏ　ｌｏｎｇｅｒ　ｒｅ"TCC_NEWLINE"ｑｕｉｒｅｄ，"TCC_NEWLINE
+"Ｅｉｒ．　Ｉ　ｗｉｌｌ　ｎｏｗ　ｃｌａｉｍ　ｗｈａｔ　ｒｅｍ"TCC_NEWLINE"ａｉｎｓ"TCC_NEWLINE
+"ｏｆ　ｙｏｕｒ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ，　ｐｌｅａｓｅ．．．　Ｆｕｌｆｉｌｌ　ｙｏｕｒ"TCC_NEWLINE"　ｐｒｏｍｉｓｅ"TCC_NEWLINE
+"ｔｏ　ｍｅ，　ａｔ　ｌｅａｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｗｏｒｅ　ｔｏ　ｒｅｖｅａｌ　ｔｈｅ　ｓｅｃｒｅｔ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
+"ｍｙ　ｄｒｅａｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　Ｉ　ｄｉｍｌｙ　ｒｅｍｅｍｂｅｒ　ｕｓ，"TCC_NEWLINE
+"ｗｉｎｇｅｄ　ｉｎ　ｗｈｉｔｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈａｔ　ｉｓ　ｎｏｔ　ｍｅ　ｙｏｕ　ｈａｖｅ　ｓｅｅｎ．"TCC_NEWLINE
+"Ｔｈａｔ　ｉｓ　ｙｏｕｒ　ｂｉｒｔｈ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕｒ　ｔｒｕｅ　ｐａｒｅｎｔｓ　ｗｅｒｅ　ｒｏｙａｌｔｙ"TCC_NEWLINE"，"TCC_NEWLINE
+"ｂｌｅｓｓｅｄ　ｂｙ　ｔｈｅ　ｄｒａｇｏｎ　ｏｆ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｌａｕｇｈｔｅｒｅｄ　ｔｈｅｍ，　ｗｈｅｎ　ｙｏｕ　ｗ"TCC_NEWLINE"ｅｒｅ"TCC_NEWLINE
+"ｙｏｕｎｇ，　ａｎｄ　ｃｌａｉｍｅｄ　ｙｏｕ　ｆｏｒ　ｍｙｓ"TCC_NEWLINE"ｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｎ　Ｉ　ｅｒａｓｅｄ　ｙｏｕｒ　ｍｅｍｏｒｙ，　ａｎｄ"TCC_NEWLINE"　ｌｅｄ"TCC_NEWLINE
+"ｙｏｕ　ｔｏ　ｂｅｌｉｅｖｅ　ｙｏｕ　ｗｅｒｅ　ｍｙ　ｄａｕ"TCC_NEWLINE"ｇｈｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｙ．．．ｗｏｕｌｄ　ｙｏｕ　ｄｏ　ｓｕｃｈ　ａ　ｔｈｉｎ"TCC_NEWLINE"ｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｏ　ｍａｋｅ　ｙｏｕ　ｃｏｍｐｌｉａｎｔ．　Ｔｈｅｒｅ　ｉ"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"ｎｏｔｈｉｎｇ　ａ　ｃｈｉｌｄ　ｔｒｕｓｔｓ　ｍｏｒｅ　ｔｈ"TCC_NEWLINE"ａｎ"TCC_NEWLINE
+"ａ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ｈａｐｐｙ　ｔｏ　ｏｂｅｙ　ｍｅ，　ｅｖｅ"TCC_NEWLINE"ｎ　ａｓ"TCC_NEWLINE
+"Ｉ　ｆｅｄ　ｕｐｏｎ　ｙｏｕｒ　ｌｉｆｅ，　ａｇａｉｎ　ａｎ"TCC_NEWLINE"ｄ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ．．．ｄｅｃｅｉｖｅｄ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｔｈｅｒｅ　ｉｓ　ｌｉｔｔｌｅ　ｒｅａｓｏｎ　ｔｏ"TCC_NEWLINE"　ｄｗｅｌｌ　ｏｎ"TCC_NEWLINE
+"ｉｔ　ｎｏｗ，　ｈｏｗｅｖｅｒ，　ｃｏｎｓｉｄｅｒｉｎｇ　ｙ"TCC_NEWLINE"ｏｕｒ　ｌｉｆｅ"TCC_NEWLINE
+"ｉｓ　ａｔ　ｉｔｓ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｈｅ　ｈａｓ　ｍｏｒｅ　ｔｉｍｅ　ｔｈａｎ　ｙｏｕ　ｒｅａ"TCC_NEWLINE"ｌｉｚｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HEL
+"Ｈｏｗ　ｄｉｄ　ｙｏｕ　ｇｅｔ　ｈｅｒｅ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_EIR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｗａｓ　ｙｏｕ，　ｗａｓｎ’ｔ　ｉｔ，　Ｅｉｒ？　Ｂｕ"TCC_NEWLINE"ｔ　ｈｏｗ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｒｖｅｄ　ｍｙ　ｗｉｌｌ　ｉｎｔｏ　ｙｏｕｒ　ｖｅｒ"TCC_NEWLINE"ｙ　ｂｅｉｎｇ．"TCC_NEWLINE
+"Ｉｔ’ｓ　ｉｍｐｏｓｓｉｂｌｅ　ｆｏｒ　ｙｏｕ　ｔｏ　ｄｉｓ"TCC_NEWLINE"ｏｂｅｙ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ　ｍｕｓｔ　ｂｅ　ｄｉｆｆｉｃｕｌｔ　ｆｏｒ　ｔｈｅ　ｒ"TCC_NEWLINE"ｕｌｅｒ　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｄｅａｄ　ｔｏ　ｕｎｄｅｒｓｔａｎｄ　ｔｈｏｓｅ　ｗ"TCC_NEWLINE"ｈｏ"TCC_NEWLINE
+"ｓｔｉｌｌ　ｈａｖｅ　ｂｅａｔｉｎｇ　ｈｅａｒｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｉｒ　ｔｒｕｓｔｅｄ　ｕｓ　ｗｉｔｈ　ｅｖｅｒｙｔｈｉｎｇ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｓｕｍｍｏｎｅｒ　ｗａｓ　ｎｅｖｅｒ　ｉｎ　ｄａｎｇ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
+"ｏｆ　ｆａｌｌｉｎｇ　ｐｒｅｙ　ｔｏ　ｙｏｕｒ　ｐｌａｎｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｄｅｆｅａｔ　ｙｏｕ　ｒｅｍａｉｎ"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"ｖｅｒｙ　ｍｕｃｈ　ａｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓ　ｊｕｓｔ　ｔｈｅ　ｔｒｏｕｂｌｅ　ｗｉｔｈ　"TCC_NEWLINE"ｌｉｆｅ，"TCC_NEWLINE
+"Ａｌｆｏｎｓｅ．．．　Ｉｔ　ｃａｎ　ｓｏ　ｅａｓｉｌｙ　ｂｅ"TCC_NEWLINE"　ｌｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｅｌ’ｓ　ｖａｎｉｓｈｅｄ．　Ｈａｓ　ｓｈｅ　ｒｅｔｒｅａ"TCC_NEWLINE"ｔｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_EIR
+"Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈ"TCC_NEWLINE"ｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ａｍ．．．ｆｉｎｅ．　Ｙｅｓ．．．　Ｐｅｒｈａｐｓ　ｆｏ"TCC_NEWLINE"ｒ　ｔｈｅ　ｆｉｒｓｔ"TCC_NEWLINE
+"ｔｉｍｅ，　Ｉ　ａｍ　ａｌｌ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,62 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S0705_EN] = TCC_OPEN_LEFT
+"Ｉ’ｍ　ｓｕｒｐｒｉｓｅｄ　ｙｏｕ　ｍａｄｅ　ｉｔ　ｔｈｉｓ"TCC_NEWLINE"　ｆａｒ．"TCC_NEWLINE
+"Ｙｏｕ’ｖｅ　ｄｅｆｅａｔｅｄ　ｍｙ　ｓｉｂｌｉｎｇｓ　ａｎ"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ｓｏｍｅ　ｏｆ　ｔｈｅ　ｂｅｓｔ　ｉｎ　Ｈｏｓｈｉｄｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏｗ　Ｉ　ｗｉｌｌ　ｓｔｏｐ　ｙｏｕ　ｈｅｒｅ"TCC_NEWLINE
+"ａｔ　ｔｈｅ　ｃｏｓｔ　ｏｆ　ｍｙ　ｏｗｎ　ｌｉｆｅ，"TCC_NEWLINE
+"ｉｆ　ｎｅｃｅｓｓａｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｈａｌｌｅｎｇｅ　ｏｎｅ　ｏｆ　ｙｏｕ　ｔｏ　ｓｉｎｇ"TCC_NEWLINE"ｌｅ"TCC_NEWLINE
+"ｃｏｍｂａｔ．　Ｈｏｗ　ｗｉｌｌ　ｙｏｕ　ｆａｒｅ　ａｇａｉ"TCC_NEWLINE"ｎｓｔ"TCC_NEWLINE
+"ｔｈｅ　Ｈｉｇｈ　Ｐｒｉｎｃｅ　ｏｆ　Ｈｏｓｈｉｄｏ？"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0705_EN] = TCC_OPEN_LEFT
+"Ｗｈｙ　ｄｏ　Ｉ　ｆｅｅｌ　ｓｏ．．．ｒｅｉｎｖｉｇｏｒａｔ"TCC_NEWLINE"ｅｄ？"TCC_NEWLINE
+"Ｉｓ　ｉｔ　ｔｒｕｅ　ｗｈａｔ　ｙｏｕ　ｓａｉｄ？　Ｗｅ　ｈ"TCC_NEWLINE"ａｖｅ"TCC_NEWLINE
+"ｂｅｅｎ　ｕｎｄｅｒ　ｓｏｍｅｏｎｅ’ｓ　ｃｏｎｔｒｏｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａｌｌ　ｓｏ　ｃｌｅａｒ　ｎｏｗ．　Ｙｏｕ’ｖｅ　"TCC_NEWLINE"ｓａｖｅｄ　ｍｙ"TCC_NEWLINE
+"ｋｉｎｇｄｏｍａｎｄ　ｒｅｓｃｕｅｄ　ｍｅ　ａｎｄ"TCC_NEWLINE
+"ｍｙ　ｒｅｔａｉｎｅｒｓ．　Ｙｏｕ　ｈａｖｅ　ｍｙ　ｔｈａｎ"TCC_NEWLINE"ｋｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｌｓｏ　ｈａｖｅ　ｍｙ　ａｐｏｌｏｇｉｅｓ　ｆｏｒ"TCC_NEWLINE
+"ａｌｌ　ｗｅ　ｐｕｔ　ｙｏｕ　ｔｈｒｏｕｇｈ，　ｂａｔｔｌｉ"TCC_NEWLINE"ｎｇ"TCC_NEWLINE
+"ｏｎ　ｂｅｈａｌｆ　ｏｆ　ｔｈｅ　ｔｒｕｅ　ｅｎｅｍｙ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S0705_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｅｘｃｅｌｌｅｎｔ　ｗｏｒｋ，　ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE
+"Ｗｅ　ｍａｎａｇｅｄ　ｔｏ　ｌｉｂｅｒａｔｅ　ｔｈｅ"TCC_NEWLINE
+"Ｗｏｒｌｄ　ｏｆ　Ｂｉｒｔｈｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ　ｈａｖｅ　ｔｏ　ａｄｍｉｔ　ｔｈａｔ　Ｉ　ｗａｓ　ａｌａ"TCC_NEWLINE"ｒｍｅｄ"TCC_NEWLINE
+"ｗｈｅｎ　ｈｅ　ｓｈｏｕｔｅｄ　ａｂｏｕｔ　ｇｏｉｎｇ"TCC_NEWLINE
+"ｉｎｔｏ　ｓｉｎｇｌｅ　ｃｏｍｂａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｇｏｏｄｎｅｓｓ　ｗｅ　ｗｅｒｅ　ａｂｌｅ　ｔｏ"TCC_NEWLINE
+"ｗｏｒｋ　ａｒｏｕｎｄ　ｔｈａｔ　ｗａｌｌ．　Ｗｅ　ｓｈｏｕ"TCC_NEWLINE"ｌｄ"TCC_NEWLINE
+"ａｖｏｉｄ　ａｎｙ　ａｔｔｅｍｐｔｓ　ｔｏ　ｓｅｐａｒａｔｅ"TCC_NEWLINE"　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｔ　ｗａｓ　ｔｅｒｒｉｂｌｅ，　ｗａｓｎ’ｔ　ｉｔ？　Ｂｅ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
+"ｓｐｌｉｔ　ｕｐ　ｌｉｋｅ　ｔｈａｔ，　Ｉ　ｔｈｏｕｇｈｔ　"TCC_NEWLINE"ｗｅ　ｍｉｇｈｔ"TCC_NEWLINE
+"ｎｅｖｅｒ　ｓｅｅ　ｅａｃｈ　ｏｔｈｅｒ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ．．．ａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ　ｎｅｖｅｒ　ＥＶＥＲ　ｗａｎｔ　ｔｏ　ｇｏ"TCC_NEWLINE
+"ｔｈｒｏｕｇｈ　ｔｈａｔ　ａｇａｉｎ．　Ｎｏｔ　ｌｉｋｅ　ｗ"TCC_NEWLINE"ｅ　ｄｉｄ"TCC_NEWLINE
+"ｗｉｔｈ　ｏｕｒ　ｆｒｉｅｎｄ　Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｇｒｅｅｄ，　Ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｖｅ　ａｓｋｅｄ　ｙｏｕ　ｔｗｏ　ｎｏｔ　ｔｏ　ｄｗｅｌ"TCC_NEWLINE"ｌ　ｏｎ"TCC_NEWLINE
+"Ｚａｃｈａｒｉａｓ’ｓ　ｄｉｓａｐｐｅａｒａｎｃｅ．　Ｗｅ　"TCC_NEWLINE"ｄｉｄ"TCC_NEWLINE
+"ｔｈｅ　ｂｅｓｔ　ｗｅ　ｃｏｕｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｓｕｐｐｏｓｅ　ｔｈａｔ　ｗｅ　ｏｗｅ　ａｎ"TCC_NEWLINE
+"ｅｘｐｌａｎａｔｉｏｎ　ｔｏ　ｏｕｒ　ｆｒｉｅｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅ　ｔｉｍｅ　ａｇｏ，　ｗｅ　ｌｏｓｔ　ａ　ｍｅｍｂｅ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｗｈｏｓｅ"TCC_NEWLINE
+"ｎａｍｅ　ｗａｓ　Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｚａｃｈａｒｉａｓ　ｗａｓ　ａ　ｂｏｌｄ　ｆｉｇｈｔｅｒ　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
+"ｇｒｅａｔ　ｃｏｍｒａｄｅ．　Ｔｈｅｎ　ｏｎｅ　ｄａｙ，"TCC_NEWLINE
+"ｈｅ　ｖａｎｉｓｈｅｄ　ｄｕｒｉｎｇ　ａ　ｂａｔｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｓｅａｒｃｈｅｄ　ｆｏｒ　ｈｉｍ，　ｂｕｔ　ｔｏ"TCC_NEWLINE"　ｎｏ"TCC_NEWLINE
+"ａｖａｉｌ．　Ｎｏｗ，　ｂｅｆｏｒｅ　ｗｅ　ｓｉｎｋ　ｉｎｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｄｅｓｐａｉｒ，　ｌｅｔ’ｓ　ｌｅａｖｅ　ｔｈｉｓ　ｂｅ　ｆ"TCC_NEWLINE"ｏｒ　ｎｏｗ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

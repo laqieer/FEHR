@@ -1,0 +1,26 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S0901_EN] = TCC_OPEN_LEFT
+"Ｇｒｅｅｔｉｎｇｓ，　ｓｔｒａｎｇｅｒｓ．　Ｔｅｌｌ　ｍｅ，"TCC_NEWLINE
+"ｊｕｓｔ　ｗｈｏ　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ？　Ｆｒｏｍ　ａｎｏｔｈｅｒ"TCC_NEWLINE
+"ｗｏｒｌｄ，　ｙｏｕ　ｓａｙ？　Ｔｈａｔ　ｓｏｕｎｄｓ"TCC_NEWLINE
+"ｐｒｅｔｔｙ　ｓｕｓｐｉｃｉｏｕｓ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ａｆｒａｉｄ　Ｉ　ｃａｎ’ｔ　ｌｅｔ　ｙｏｕ　ｇｏ　"TCC_NEWLINE"ａｎｙ"TCC_NEWLINE
+"ｆｕｒｔｈｅｒ．　Ｉ　ｗｉｓｈ　Ｉ　ｈａｄ　Ｃｈｒｏｍ　ｈｅ"TCC_NEWLINE"ｒｅ　ｔｏ"TCC_NEWLINE
+"ｈｅｌｐ　ｆｉｇｈｔ　ｙｏｕ　ｏｆｆ，　ｂｕｔ"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｕｈ，　Ｔｈａｒｊａ？　Ｗｈｅｒｅ’ｄ　ｙｏｕ"TCC_NEWLINE
+"ｃｏｍｅ　ｆｒｏｍ？　Ａｒｅ　ｙｏｕ　ｆｏｌｌｏｗｉｎｇ　ｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ａｒｏｕｎｄ　ａｇａｉｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｅｖｅｒ　ｍｉｎｄ　ｔｈａｔ　ｎｏｗ．　Ｙｏｕ　ｃａｎ"TCC_NEWLINE
+"ｈｅｌｐ　ｍｅ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　ｔｈｅｓｅ"TCC_NEWLINE
+"ｓｔｒａｎｇｅｒｓ　ｈｅｒｅ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0901_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ｃｉｒｃｕｍｖｅｎｔｅｄ　ｍｙ　ｓｔｒａｔｅｇｙ？"TCC_NEWLINE
+"Ｉｎｃｒｅｄｉｂｌｅ．　Ｉ　ｇｕｅｓｓ　ｙｏｕｒ　ｔａｃｔｉ"TCC_NEWLINE"ｃｉａｎ"TCC_NEWLINE
+"ｃａｎ’ｔ　ｂｅ　ｈａｌｆ　ｂａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｖｅ　ｇｏｔ　ｍｏｒｅ　ｔａｃｔｉｃｓ　ｔｈａｔ"TCC_NEWLINE
+"ｗｉｌｌ　ｔｒｉｐ　ｙｏｕ　ｕｐｍａｎｙ　ｍｏｒｅ　ａｌｌｉ"TCC_NEWLINE"ｅｓ"TCC_NEWLINE
+"ｔｏ　ｋｅｅｐ　ｙｏｕ　ｆｒｏｍ　ｇｏｉｎｇ　ｆｕｒｔｈｅｒ"TCC_NEWLINE"！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

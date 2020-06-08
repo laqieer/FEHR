@@ -1,0 +1,61 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S2021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｕｈｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ．．．ａｍ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｏｕ’ｒｅ　ａｗａｋｅ！　Ｎｏｗ，　ｔｈａｔ’ｓ　ａ　ｒｅ"TCC_NEWLINE"ｌｉｅｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ，　ｈａｖｅ　ｓｏｍｅ　ｗａｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｎｋ　ｙｏｕ．　Ｗｅｒｅ　ｙｏｕ　ｔｈｅ　ｏｎｅ　ｗｈ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｓａｖｅｄ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ　ｗａｓｎ’ｔ　ｍｅ．　Ｎｏ，　ｏｎｌｙ　ｏｎｅ　ｐｅｒ"TCC_NEWLINE"ｓｏｎ　ｉｎ"TCC_NEWLINE
+"ｏｕｒ　ａｒｍｙ　ｃｏｕｌｄ　ｆｉｎｄ　ｙｏｕ　ｐａｓｓｅｄ"TCC_NEWLINE"　ｏｕｔ"TCC_NEWLINE
+"ｉｎ　ｔｈｅ　ｓｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ"TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｎ　ｙｏｕ　ｈａｖｅ　ｍｙ　ｓｉｎｃｅｒｅ　ｇｒａｔｉ"TCC_NEWLINE"ｔｕｄｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｆｊｏｒｍ．　Ｉ　ａｍ．．．　Ｉ　ｗａ"TCC_NEWLINE"ｓ．．．ａ"TCC_NEWLINE
+"ｐｒｉｎｃｅｓｓ　ｏｆ　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ｎｉｆ"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｏｍｅｌａｎｄ，　ｈｏｗｅｖｅｒ，　ｗａｓ"TCC_NEWLINE
+"ｄｅｓｔｒｏｙｅｄ　ｂｙ　ｔｈｅ　Ｆｉｅｒｙ　Ｈｏｒｄｅｓ　"TCC_NEWLINE"ｏｆ　ｏｕｒ"TCC_NEWLINE
+"ｅｎｅｍｙ，　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｆｉｅｒｙ　Ｈｏｒｄｅｓ？　Ｔｈｅｎ，　ｔｈｅｙ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ｔｈｅｙ’ｒｅ　ｔｈｅ　ｏｎｅｓ　ｌａｕｎｃｈｉｎ"TCC_NEWLINE"ｇ　ａｎ"TCC_NEWLINE
+"ｉｎｖａｓｉｏｎ　ｏｆ　ｙｏｕｒ　ｋｉｎｇｄｏｍ　ｒｉｇｈｔ"TCC_NEWLINE"　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｎ　ｉｔ’ｓ　ｏｕｒ　ｄｕｔｙ　ｔｏ　ｆａｃｅ　ｔｈｅ"TCC_NEWLINE"ｍ．"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ，　ｙｏｕ　ｓｈｏｕｌｄ　ｒｅｓｔ．　Ｙｏｕ"TCC_NEWLINE"　ｃａｎ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ｉｎｔｅｒｒｕｐｔ　ｙｏｕ，　ｂｕ"TCC_NEWLINE"ｔ　ｔｈｅｒｅ’ｓ"TCC_NEWLINE
+"ｎｏ　ｗａｙ　Ｉ　ｃａｎ　ｄｏ　ｔｈａｔ．　Ｙｏｕ　ｍｕｓｔ"TCC_NEWLINE"　ｌｅｔ　ｍｅ"TCC_NEWLINE
+"ｃｏｍｅ　ｗｉｔｈ　ｙｏｕ．　Ｐｌｅａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｏｍｅｌａｎｄ　ｗａｓ　ｄｅｓｔｒｏｙｅｄ　ｂｙ　Ｋ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
+"Ｓｕｒｔｒ　ｏｆ　Ｍｓｐｅｌｌ．　Ｂｕｔ　ｎｏｔ　ｏｎｌｙ　"TCC_NEWLINE"ｔｈａｔ．．．　Ｉ"TCC_NEWLINE
+"ｗａｔｃｈｅｄ　ａｓ　ｈｅ　ｋｉｌｌｅｄ　ｍｙ　ｍｏｔｈｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｌｅｔ　ｔｈｅ　ｓａｍｅ　ｔｈｉｎｇ　ｈａｐ"TCC_NEWLINE"ｐｅｎ　ｔｏ"TCC_NEWLINE
+"ｙｏｕｒ　ｋｉｎｇｄｏｍ．　Ｐｌｅａｓｅ，　ｗｈａｔｅｖｅｒ"TCC_NEWLINE
+"ｓｔｒｅｎｇｔｈ　Ｉ　ｈａｖｅ．．．ｌｅｔ　ｍｅ　ｌｅｎｄ　"TCC_NEWLINE"ｉｔ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S2021_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ’ｒｅ　ｓｔｉｌｌ　ａｌｉｖｅ．　Ｈｏｗ　ｄｉｓａｐｐ"TCC_NEWLINE"ｏｉｎｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！　Ｔｅｌｌ　ｍｅ　ｗｈａ"TCC_NEWLINE"ｔ　ｙｏｕ"TCC_NEWLINE
+"ｋｎｏｗ　ａｂｏｕｔ　ｔｈｅｓｅ　ｉｎｖａｄｅｒｓ　ｆｒｏｍ"TCC_NEWLINE
+"Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｙ’ｒｅ　ｍｙ　ａｌｌｉｅｓ，　ｏｆ　ｃｏｕｒｓｅ．　"TCC_NEWLINE"Ｉ’ｖｅ"TCC_NEWLINE
+"ｊｏｉｎｅｄ　ｆｏｒｃｅｓ　ｗｉｔｈ　Ｋｉｎｇ　Ｓｕｒｔｒ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　Ｈｅｒｏｅｓ　ａｎｄ　ｍｙ　ｓｏｌｄｉｅｒｓ　ｗｉｌｌ"TCC_NEWLINE"　ａｓｓｉｓｔ"TCC_NEWLINE
+"ｈｏｗｅｖｅｒ　ｔｈｅｙ　ｃａｎ．　Ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｋｒ　ｍｕｓｔ　ｂｅ　ｄｅｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2021_EN] = TCC_OPEN_LEFT
+"Ｉ　ｔｉｒｅ　ｏｆ　ｔｈｉｓ．　Ｉ’ｍ　ｈｅａｄｉｎｇ　ｂａ"TCC_NEWLINE"ｃｋ　ｔｏ　ｔｈｅ"TCC_NEWLINE
+"ｃａｓｔｌｅ．　Ｄｏｎ’ｔ　ｆｏｒｇｅｔ，　ｔｈｏｕｇｈ．．"TCC_NEWLINE"．　Ｉ　ｗｉｌｌ"TCC_NEWLINE
+"ｋｉｌｌ　ａｌｌ　ｏｆ　ｙｏｕ．　Ｓｕｒｔｒ　ｗｉｌｌ　ｓｅ"TCC_NEWLINE"ｅ　ｔｏ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

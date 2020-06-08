@@ -1,0 +1,71 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4041_EN] = TCC_OPEN_LEFT
+"Ｔｈｅ　ｌｊｓｌｆａｒ　ａｎｄ　ｔｈｅｉｒ　ｆｒｉｅｎｄｓ　"TCC_NEWLINE"ａｒｅ"TCC_NEWLINE
+"ｐｕｒｓｕｉｎｇ　ｕｓ，　ｊｕｓｔ　ａｓ　Ｌａｄｙ　Ｆｒｅｙ"TCC_NEWLINE"ｊａ"TCC_NEWLINE
+"ｈａｄ　ｐｒｅｄｉｃｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｉｆ　ｏｕｒ　ｍｉｓｓｉｏｎ　ｃｏｎｔｉｎｕｅｓ　"TCC_NEWLINE"ｔｏ　ｇｏ"TCC_NEWLINE
+"ｔｈｉｓ　ｓｍｏｏｔｈｌｙ，　Ｌａｄｙ　Ｆｒｅｙｊａ　ｉｓ　"TCC_NEWLINE"ｓｕｒｅ"TCC_NEWLINE
+"ｔｏ　ｂｅ　ｍｏｓｔ　ｐｌｅａｓｅｄ　ｗｉｔｈ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ　Ｉ　ｍｕｓｔ　ｓａｙ，　Ｌｊｓｌｆｈｅｉｍｒ"TCC_NEWLINE
+"ｉｓ　ｍｏｒｅ　ｐｌｅａｓａｎｔ　ｔｈａｎ　Ｉ’ｄ　ｅｘｐｅ"TCC_NEWLINE"ｃｔｅｄ"TCC_NEWLINE
+"ｉｔ　ｗｏｕｌｄ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｄｏｎ’ｔ　ｓｅｅｍ　ｔｏ　ｂｅ　ａｎｙ"TCC_NEWLINE
+"ｆｏｕｌ－ｍｉｎｄｅｄ　ｌｅｃｈｅｒｓ　ａｎｙｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｈｍ．　Ｉｎｄｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｍａｙ　ｂｅ　ｓａｄｄｌｅｄ　ｗｉｔｈ　ｄｒａｗｉｎｇ　"TCC_NEWLINE"ｏｕｔ"TCC_NEWLINE
+"ｔｈｅｉｒ　ｓｅｃｒｅｔ　ｆａｎｔａｓｉｅｓ，　ｎｏ　ｍａｔ"TCC_NEWLINE"ｔｅｒ　ｈｏｗ"TCC_NEWLINE
+"ｗｒｅｔｃｈｅｄ，　ｂｕｔ　ｅｖｅｎ　ａｓ　ａ　ｄｋｋｌｆｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ＮＥＶＥＲ　ｇｒｏｗ　ａｃｃｕｓｔｏｍｅｄ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｔｈｅ　ｖｅｉｎｓ　ｏｆ　ｆｉｌｔｈ　ｔｈａｔ　ｃｏｕｒｓｅ"TCC_NEWLINE"　ｔｈｒｏｕｇｈ"TCC_NEWLINE
+"ｔｈｅｉｒ　ｍｉｎｄｓ．　Ｔｒｕｌｙ．　Ｔｈｅｙ’ｒｅ　ｂｅ"TCC_NEWLINE"ａｓｔｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉ　ｃａｎ’ｔ　ｓａｙ　ａｎｙ　ｏｆ　ｔｈｅ　ｄｒｅａ"TCC_NEWLINE"ｍｓ　Ｉ’ｖｅ"TCC_NEWLINE
+"ｂｒｏｕｇｈｔ　ｍｏｒｔａｌｓ　ｈａｖｅ　ｅｖｅｒ　ｂｅｅｎ"TCC_NEWLINE"　ｑｕｉｔｅ"TCC_NEWLINE
+"ｌｉｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｋｎｏｗｎ　ｏｎｌｙ　ｎｉｇｈｔｍａｒｅ．．．"TCC_NEWLINE
+"Ｐａｉｎ．．．　Ａｎｄ　ｓｏｒｒｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｏｎｙ，　ｔｈｅ　Ｓｗｅｅｔ　Ｄｒｅａｍ．．．Ｉ　ａｍ　"TCC_NEWLINE"ｈｅｒ"TCC_NEWLINE
+"ｏｐｐｏｓｉｔｅａｎｄ　ｓｈｅ　ｉｓ　ｍｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ａｎｄ？　Ｉｓ　ａ　ｌｊｓｌｆｒ　ａｎｄ　ａ　ｄｋｋｌ"TCC_NEWLINE"ｆｒ"TCC_NEWLINE
+"ｂｅｉｎｇ　ｏｐｐｏｓｉｔｅ　ｓｕｒｐｒｉｓｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｅｖｅｒ　ｍｉｎｄ．　Ｌｅｔ’ｓ　ｇｏ．　Ｗｅ　ｈａｖｅ"TCC_NEWLINE
+"ｏｕｒ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｈｍｍ．．．　＊ｓｎｉｆｆ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｃｅｎｔ　ｏｆ　ｂａｄ　ｄｒｅａｍｓ　ｉｓ　ｇｒｏ"TCC_NEWLINE"ｗｉｎｇ"TCC_NEWLINE
+"ｓｔｒｏｎｇｅｒ，　ｓｏ　ｗｅ　ｍｕｓｔ　ｂｅ　ｇｅｔｔｉｎ"TCC_NEWLINE"ｇ"TCC_NEWLINE
+"ｃｌｏｓｅｒ．　Ｃ’ｍｏｎｔｈｉｓ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｐ－Ｐｅｏｎｙ　ｃａｎ　ＳＭＥＬＬ　ｂａｄ　ｄｒｅａｍｓ？"TCC_NEWLINE
+"．．．Ｓｅｒｉｏｕｓｌｙ？　Ｉｓ　ｔｈａｔ　ｅｖｅｎ　ｐｏｓ"TCC_NEWLINE"ｓｉｂｌｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅｌｌ，　ｔｈｉｓ　ｂｅｉｎｇ　ｔｈｅ　ｄｒｅａｍ　ｒｅａ"TCC_NEWLINE"ｌｍ，"TCC_NEWLINE
+"ｗｅ　ｈａｖｅ　ｎｏ　ｒｅａｌ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　"TCC_NEWLINE"ｆｏｌｌｏｗ"TCC_NEWLINE
+"Ｐｅｏｎｙ’ｓ　ｌｅａｄ．　Ｓｏ　ｌｅｔ’ｓ　ｇｅｔ　ｇｏｉ"TCC_NEWLINE"ｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｔｈｅ　ｄｋｋｌｆａｒ　ａｒｅ　ｔｈｉｓ　ｗａｙ，　ｅｖｅｒ"TCC_NEWLINE"ｙｏｎｅ！"TCC_NEWLINE
+"Ｃ’ｍｏｎ，　ｆｏｌｌｏｗ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈａｎｇ　ｏｎ　ａ　ｍｉｎｕｔｅ！　Ｉｓｎ’ｔ　ｔｈａｔ．．"TCC_NEWLINE"．ｔｈｅ"TCC_NEWLINE
+"ｗａｙ　ｗｅ　ｊｕｓｔ　ｃａｍｅ　ｆｒｏｍ？　Ｗｈｙ　ｗｏｕ"TCC_NEWLINE"ｌｄ"TCC_NEWLINE
+"ｗｅ　ｇｏ　ｂａｃｋ　ｔｈｅ　ｗａｙ　ｗｅ　ｃａｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ！　Ｉ’ｍ　ｓｕｒｅ　ｉｔ’ｄ　ｂｅ　ｓｔｒａｎｇｅ　ｉ"TCC_NEWLINE"ｎ　ｙｏｕｒ"TCC_NEWLINE
+"ｗｏｒｌｄ，　ｂｕｔ　ｉｔ’ｓ　ｐｅｒｆｅｃｔｌｙ　ｒｅａｓ"TCC_NEWLINE"ｏｎａｂｌｅ"TCC_NEWLINE
+"ｉｎ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ．　Ｆｏｌｌｏｗ　"TCC_NEWLINE"ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｒｉｇｈｔ　ｂｅｈｉｎｄ　ｙｏｕ，　Ｐｅｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ｗｅ’ｒｅ　ｈｅｒｅ　ｍｕｃｈ　ｌｏｎｇｅｒ，　Ｉ　ｗ"TCC_NEWLINE"ｏｒｒｙ　ｍｙ"TCC_NEWLINE
+"ｃｏｍｍｏｎ　ｓｅｎｓｅ　ｍａｙ　ｎｅｖｅｒ　ｒｅｃｏｖｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ　ｋｎｏｗ　ｅｘａｃｔｌｙ　ｗｈａｔ　ｙｏｕ　ｍｅａｎ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

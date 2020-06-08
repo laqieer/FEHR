@@ -1,0 +1,72 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3132_EN] = TCC_OPEN_LEFT
+"Ｔｈｅ　ｎａｍｅ’ｓ　Ｇｅｒｉｋ．　Ｉ’ｍ　ｔｈｅ　ｌｅａｄ"TCC_NEWLINE"ｅｒ　ｏｆ　ａ"TCC_NEWLINE
+"ｂａｎｄ　ｏｆ　ｍｅｒｃｅｎａｒｉｅｓ．　Ｓｅｅｍｓ　ｗｅ’"TCC_NEWLINE"ｒｅ　ｏｎ"TCC_NEWLINE
+"ｏｐｐｏｓｉｔｅ　ｓｉｄｅｓ　ｏｆ　ｔｈｉｓ　ｔｈｉｎｇ，　"TCC_NEWLINE"ｆｏｒ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｐｒｉｎｃｅｓｓ　Ｅｉｒ？　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈ"TCC_NEWLINE"ｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ．．．ｆｉｎｅ．　Ｗｈｙ　ｄｏ　ｙｏｕ　ａｓｋ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｌｏｏｋ　ｌｉｋｅ　ｙｏｕ’ｒｅ　ｉｎ　ｐａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｉｓｔｅｎ．．．　Ｉｔ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ａｌｌ"TCC_NEWLINE"　ｒｉｇｈｔ．"TCC_NEWLINE
+"Ｔｈｅ　ｆｉｇｈｔｉｎｇ　ｗｉｌｌ　ｂｅ　ｏｖｅｒ　ｓｏｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｆｔｅｒ　ｉｔ’ｓ　ｄｏｎｅ，　ｙｏｕ　ｃａｎ　ｃ"TCC_NEWLINE"ｏｍｅ"TCC_NEWLINE
+"ｂａｃｋ　ｗｉｔｈ　ｕｓ　ｔｏ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｄ　ｌｉｋｅ　ｔｈａｔ，　ｗｏｕｌｄｎ’ｔ　ｙｏｕ？"TCC_NEWLINE"　Ｉ　ｃａｎ"TCC_NEWLINE
+"ｓｈｏｗ　ｙｏｕ　ａｌｌ　ａｒｏｕｎｄ　ｔｈｅ　ｃａｓｔｌｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ！　Ａｎｄ　Ｉ’ｌｌ　ｔａｋｅ　ｙｏｕ　ｔｏ　ｍｙ　ｆａ"TCC_NEWLINE"ｖｏｒｉｔｅ"TCC_NEWLINE
+"ｓｐｏｔ　ｆｏｒ　ｓｔａｒｇａｚｉｎｇ！　Ｄｏｅｓｎ’ｔ　ｔ"TCC_NEWLINE"ｈａｔ"TCC_NEWLINE
+"ｓｏｕｎｄ　ｎｉｃｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｓａｙ．．．ｔｈｅ　ｓａｍｅ　ｔｈｉｎｇｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆｏｒｇｉｖｅ　ｍｅｉｔ’ｓ　ｎｏｔｈｉｎｇ．　Ｔｈａｎｋ　"TCC_NEWLINE"ｙｏｕ，"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ’ｒｅ　ｓｅｔｔｉｎｇ　ｏｕｔ　ｔｏ　ｄｅｆｅａｔ　Ｈｅ"TCC_NEWLINE"ｌ，"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ．　Ｔｈｉｓ　ｗｉｌｌ　ｂｅ　ｔｈｅ　ｆｉｎ"TCC_NEWLINE"ａｌ　ｂａｔｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏｐｌｅａｓｅ，　ｓｔｏｐ．　Ｙｏｕ　ｃａｎｎｏｔ"TCC_NEWLINE
+"ｐｏｓｓｉｂｌｙ　ｈｏｐｅ　ｔｏ　ｄｅｆｅａｔ　ｍｙ　ｍｏｔ"TCC_NEWLINE"ｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｃａｎ．　Ｂｕｔ　ｗｈａｔ　ｗｅ　ｃａｎｎｏｔ　ｄｏ　"TCC_NEWLINE"ｉｓ　ａｓｋ"TCC_NEWLINE
+"ｙｏｕ　ｔｏ　ｆｉｇｈｔ　ｈｅｒ　ｙｏｕｒｓｅｌｆ．　Ｉｎｓ"TCC_NEWLINE"ｔｅａｄ，　ｗｅ"TCC_NEWLINE
+"ａｓｋ　ｔｈａｔ　ｙｏｕ　ｔｒｕｓｔ　ｕｓ　ａｎｄ　ｓｔａｙ"TCC_NEWLINE"　ｂｅｈｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｊｕｓｔ　ｗａｉｔ　ｈｅｒｅ，　ＯＫ？　Ｗｅ’ｌｌ　ｂｅ　ｂ"TCC_NEWLINE"ａｃｋ"TCC_NEWLINE
+"ｂｅｆｏｒｅ　ｙｏｕ　ｋｎｏｗ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈｅｙ，　ｉｔ’ｓ　ＯＫ．　Ｒｅｍｅｍｂｅｒ　ｗｈａｔ　Ｉ　"TCC_NEWLINE"ｓａｉｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｔｈｉｓ　ｉｓ　ａｌｌ　ｏｖｅｒ，　ｗｅ’ｌｌ　ｇ"TCC_NEWLINE"ｏ　ｂａｃｋ　ｔｏ"TCC_NEWLINE
+"Ａｓｋｒ．　Ｗｅ’ｌｌ　ｇｏ　ｓｔａｒｇａｚｉｎｇ　ｏｎ　ｍ"TCC_NEWLINE"ｙ"TCC_NEWLINE
+"ｆａｖｏｒｉｔｅ　ｈｉｌｌ．　Ａｌｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｄｏ　ｙｏｕ　ｐｒｏｍｉｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｂｓｏｌｕｔｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｉｔｈｏｕｔ　ａ　ｄｏｕｂｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．．．"TCC_NEWLINE
+"Ｍｙ　ｍｏｔｈｅｒ　ｋｉｌｌｅｄ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｍａｄｅ　ａ　ｐａｃｔ　ｗｉｔ"TCC_NEWLINE"ｈ"TCC_NEWLINE
+"Ｍｏｔｈｅｒ．．．ｔｏ　ｂｒｉｎｇ　ｈｉｓ　ｓｉｓｔｅｒ　ｂ"TCC_NEWLINE"ａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｐｏｗｅｒｌｅｓｓ　ｔｏ　ｓｔｏｐ　ｉｔ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｗａｓ　ｎｏｔｈｉｎｇ　Ｉ　ｃｏｕｌｄ　ｄｏ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

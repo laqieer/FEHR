@@ -1,0 +1,165 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S2051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅ　ｔｏｗｎｓｐｅｏｐｌｅ．．．　Ａｒｅ　ｔｈｅｙ　ａｌ"TCC_NEWLINE"ｌ　ｒｉｇｈｔ？"TCC_NEWLINE
+"Ｏｈ，　Ｉ　ｈｏｐｅ　ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈａｎｋｓ　ｔｏ　ｙｏｕｒ　ｂｒｏｔｈｅｒ’ｓ　ｑｕｉｃｋ"TCC_NEWLINE
+"ｔｈｉｎｋｉｎｇ，　ｔｈｅｙ　ｗｉｌｌ　ｂｅ．　Ｔｈｅｙ’ｌ"TCC_NEWLINE"ｌ　ａｌｌ　ｈａｖｅ"TCC_NEWLINE
+"ｅｓｃａｐｅｄ　ｂｙ　ｎｏｗ．　Ｉ’ｍ　ｓｕｒｅ　ｏｆ　ｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ｔｈｅ　ｏｎｅｓ　ｗｈｏ　ｎｅｅｄ　ｔｏ　ｇｅｔ"TCC_NEWLINE
+"ｍｏｖｉｎｇｂｅｆｏｒｅ　ｔｈｅ　ｅｎｅｍｙ’ｓ　ｓｃｏｕｔ"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"ｃａｔｃｈ　ｕｐ　ｗｉｔｈ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｗｉｌｌ　ｂｅ　ａ　ｈａｒｄ　ｍａｒｃｈ　ｏｖｅｒ"TCC_NEWLINE
+"ｔｒｅａｃｈｅｒｏｕｓ　ｇｒｏｕｎｄ．．．　Ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｎｏｔｈｉｎｇ"TCC_NEWLINE
+"ｂｕｔ　ｓｎｏｗ，　ａｓ　ｆａｒ　ａｓ　ｔｈｅ　ｅｙｅ　ｃａ"TCC_NEWLINE"ｎ　ｓｅｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｎｏｗ，　ａｓ　ｆａｒ　ａｓ　ｔｈｅ　ｅｙｅ　ｃａｎ　ｓｅ"TCC_NEWLINE"ｅ．．．　Ｓｏ"TCC_NEWLINE
+"ｔｈｉｓ　ｉｓ　Ｎｉｆｌ．　Ｉ　ｈｏｐｅ　ｔｈｉｓ　ｌａｎｄ"TCC_NEWLINE"　ｒｅａｌｌｙ　ｄｏｅｓ"TCC_NEWLINE
+"ｈｏｌｄ　ｔｈｅ　ｋｅｙ　ｔｏ　ｄｅｆｅａｔｉｎｇ　Ｓｕｒｔ"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　Ｉ’ｍ　ｊｕｓｔ　ｈｏｐｉｎｇ　ｔｏ　ｇｅｔ　ｏ"TCC_NEWLINE"ｕｔ　ｏｆ"TCC_NEWLINE
+"ｔｈｅａｃｈｏｏ！ｔｈｅ　ｃｏｌｄ．．．　Ｂｒｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｉｓ　ｉｔ　ｒｅａｌｌｙ　ｔｈａｔ　ｃｏｌｄ？　Ｔｏｄａｙ　"TCC_NEWLINE"ｉｓ　ｒａｔｈｅｒ．．．"TCC_NEWLINE
+"ｔｅｍｐｅｒａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏｔ　ｆｏｒ　ｕｓ．　Ｗｅ’ｖｅ　ｇｏｔ　ｔｏ　ｓｔｉｃｋ"TCC_NEWLINE"　ｔｏｇｅｔｈｅｒ"TCC_NEWLINE
+"ａｎｄ　ｓｈｉｅｌｄ　ｅａｃｈ　ｏｔｈｅｒ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　ｗｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｅ　ｍｕｓｔ　ｂｅ　ｃａｒｅｆｕｌ．　Ｎｉｆｌ　ｗａｓ"TCC_NEWLINE
+"ｄｅｃｉｍａｔｅｄ　ｂｙ　ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｍｓｐ"TCC_NEWLINE"ｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｅｇｊａｒｎ，　ｏｎｅ　ｏｆ　Ｓｕｒｔｒ’ｓ　ｍｏｓｔ　"TCC_NEWLINE"ｔｒｕｓｔｅｄ"TCC_NEWLINE
+"ｇｅｎｅｒａｌｓ，　ｈａｓ　ｓｅｔ　ｕｐ　ｃａｍｐ　ｈｅｒｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅａｒ　ｔｈａｔ？　Ｔｈａｔ　ｍｅａｎｓ　ｔｈｉｓ　ｉｓ　"TCC_NEWLINE"ｅｎｅｍｙ"TCC_NEWLINE
+"ｔｅｒｒｉｔｏｒｙ．　Ｓｔａｙ　ａｌｅｒｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｅｖｅｎ　ｓｏ，　ｍｙ　ｓｉｓｔｅｒ，　Ｇｕｎｎｔｈｒ，　ｈ"TCC_NEWLINE"ａｓ"TCC_NEWLINE
+"ｍａｎａｇｅｄ　ｔｏ　ｅｌｕｄｅ　ｔｈｅｍ．　Ｓｈｅ　ｉｓ　"TCC_NEWLINE"ｉｎ"TCC_NEWLINE
+"ｈｉｄｉｎｇ　ｈｅｒｅ，　ａｎｄ　ｓｈｅ’ｓ　ｗａｉｔｉｎｇ"TCC_NEWLINE"　ｆｏｒ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｆｏｒｅ　ａｎｙｔｈｉｎｇ　ｅｌｓｅ，　ｗｅ　ｍｕｓｔ　"TCC_NEWLINE"ｍｅｅｔ"TCC_NEWLINE
+"ｕｐ　ｗｉｔｈ　ｈｅｒ，　ａｎｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ！　Ｔｈｅｙ’ｒｅ　ａｌｒｅａｄｙ　ｈｅｒｅ．　Ｇｅｔ　"TCC_NEWLINE"ｒｅａｄｙ"TCC_NEWLINE
+"ｔｏ　ｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S2051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｒｏｙａｌｓ　ｏｆ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉ’ｖｅ　ｓｅｅｎ　ｈｅｒ　ｂｅｆｏｒｅｓｈｅ’ｓ　ｏｎｅ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
+"Ｓｕｒｔｒ’ｓ　ｕｎｄｅｒｌｉｎｇｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｌａｅｖａｔｅｉｎ．．．　Ｙｏｕ’ｖｅ　ｂｅｅｎ　ｆｏｌｌｏ"TCC_NEWLINE"ｗｉｎｇ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｏｓｅ．．．ａｒｅ　ｍｙ　ｏｒｄｅｒｓ．　Ｔｏ　ｔｒａｃ"TCC_NEWLINE"ｋ　ｙｏｕ，"TCC_NEWLINE
+"ａｎｄ　ｔｏ　ｋｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｔｏｏ　ｓｔｒｏｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃａｎ’ｔ　ｄｉｅ　ｈｅｒｅ．．．　Ｉ’ｌｌ　ｒｅｔｒｅａｔ"TCC_NEWLINE"．．．　Ｔｈａｔ’ｓ"TCC_NEWLINE
+"ｗｈａｔ　ｓｈｅ　ｓａｉｄ　ｔｏ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｒｅ’ｓ　ｏｕｒ　ｏｐｐｏｒｔｕｎｉｔｙ！　Ｌｅｔ’ｓ"TCC_NEWLINE"　ｇｅｔ　ｏｕｔ"TCC_NEWLINE
+"ｏｆ　ｈｅｒｅ，　ｔｒｏｏｐｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈａｔ’ｓ　ｅａｓｙ　ｆｏｒ　ｙｏｕ　ｔｏ　ｓａｙ！　Ｉｔ"TCC_NEWLINE"’ｓ　ｓｏ　ｈａｒｄ"TCC_NEWLINE
+"ｔｏ　ｍｏｖｅ　ｔｈｒｏｕｇｈ　ａｌｌ　ｔｈｉｓ　ｓｎｏｗ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ’ｌｌ　ｆｏｒｇｅ　ｔｈｅ　ｐａｔｈ．　Ｆｏｌｌｏｗ　ｉｎ"TCC_NEWLINE"　ｍｙ"TCC_NEWLINE
+"ｆｏｏｔｓｔｅｐｓ．　Ｔｈｏｕｇｈ　ｔｈａｔ　ｄｏｅｓ　ｍｅ"TCC_NEWLINE"ａｎ"TCC_NEWLINE
+"ｗｅ’ｌｌ　ｂｅ　ｌｅａｖｉｎｇ　ａ　ｔｒａｉｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ａ　ｃｈｏｉｃｅｗｅ’ｌｌ　ｊｕ"TCC_NEWLINE"ｓｔ"TCC_NEWLINE
+"ｈａｖｅ　ｔｏ　ｅｒａｓｅ　ｉｔ　ａｓ　ｗｅ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔ　ａ　ｍｉｎｕｔｅ．．．　Ｎｏ，　ｗｅ　ｗｏｎ’ｔ．"TCC_NEWLINE
+"Ｌｅａｖｅ　ａ　ｔｒａｉｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ’ｓ　ｔｈａｔ？　Ｎｏｗ　ｙｏｕ　ＷＡＮＴ　ａ　ｔｒ"TCC_NEWLINE"ａｉｌ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ’ｖｅ　ｇｏｔ　ｈｕｎｔｅｒｓ　ｏｎ　ｏｕｒ　ｔａｉｌ．"TCC_NEWLINE"．．　Ｓｏ　ｗｅ"TCC_NEWLINE
+"ｍｕｓｔ　ｂｅ　ａｓ　ｃｕｎｎｉｎｇ　ａｓ　ｂｅａｓｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｌａｙ　ａ　ｆａｋｅ　ｔｒａｉｌ，　ｄｏｕｂｌｅ"TCC_NEWLINE"　ｂａｃｋ，　ａｎｄ"TCC_NEWLINE
+"ｔｈｅｎ　ｈｅａｄ　ｉｎ　ａｎｏｔｈｅｒ　ｄｉｒｅｃｔｉｏｎ"TCC_NEWLINE"ａｌｌ　ｔｈｅ"TCC_NEWLINE
+"ｗｈｉｌｅ　ｅｒａｓｉｎｇ　ｔｈｅ　ｎｅｗ　ｔｒａｉｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ’ｍ　ｉｍｐｒｅｓｓｅｄ！　Ｕｓｉｎｇ　ｏｕｒ　ｗｉｔｓ．"TCC_NEWLINE"．．ｗｅ"TCC_NEWLINE
+"ｃａｎ　ｗｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｒｅ’ｓ　ａ　ｒｅａｓｏｎ　Ｉ’ｍ　ｔｈｅ　ｃｏｍｍａ"TCC_NEWLINE"ｎｄｅｒ！"TCC_NEWLINE
+"Ｉｆ　Ｉ　ｋｎｏｗ　ｏｎｅ　ｔｈｉｎｇ，　ｉｔ’ｓ　ｈｏｗ　"TCC_NEWLINE"ｔｏ　ｓｎｅａｋ"TCC_NEWLINE
+"ａ　ｓｑｕａｄ　ｔｈｒｏｕｇｈ　ｅｎｅｍｙ　ｔｅｒｒｉｔｏｒ"TCC_NEWLINE"ｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｓｏ　ｍｕｃｈ　ｓｎｏｗ．．．　Ｓｏ　ｃｏｌｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEGJARN
+"Ｌａｅｖａｔｅｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌａｅｇｊａｒｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｈｅｒｅ．．．　Ｉ’ｍ　ｓｏ　ｇｌａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｅ　ｔｏｏ，　ｌｉｔｔｌｅ　ｓｉｓｔｅｒ．　Ｍｅ　ｔｏｏ．"TCC_NEWLINE"　Ｉｔ’ｓ　ｇｏｏｄ"TCC_NEWLINE
+"ｔｏ　ｂｅ　ｒｅｕｎｉｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆａｔｈｅｒ　ｇａｖｅ　ｍｅ　ｏｒｄｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　Ｉ’ｖｅ　ｈｅａｒｄ．　Ｍｏｒｅ　ｂｌｏｏｄｓｈｅｄ　"TCC_NEWLINE"ｉｓ　ｏｎ"TCC_NEWLINE
+"ｉｔｓ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌａｅｇｊａｒｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅｙ，　ｎｏｗ．　Ｎｏ　ｎｅｅｄ　ｔｏ　ｗｏｒｒｙ，　ＯＫ"TCC_NEWLINE"？"TCC_NEWLINE
+"Ｄｏ　ｙｏｕ　ｋｎｏｗ　ｗｈｅｒｅ　ｔｈｅｙ　ｗｅｎｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｌｏｓｔ　ｔｈｅｍ．．．　Ｂｕｔ　ｔｈｅｒｅ　ａｒｅ　ｆ"TCC_NEWLINE"ｏｏｔｐｒｉｎｔｓ．"TCC_NEWLINE
+"Ｔａｋｅ　ａ　ｌｏｏｋ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｅｅ？　Ｉｔ’ｓ　ｎｏｔ　ｓｏ　ｂａｄ　ａｆｔｅｒ　ａｌｌ"TCC_NEWLINE"．　Ｗｅ’ｌｌ"TCC_NEWLINE
+"ｆｉｎｄ　ｔｈｅｍ　ｉｎ　ｎｏ　ｔｉｍｅ．　Ｗｅ　ｊｕｓｔ　"TCC_NEWLINE"ｈａｖｅ　ｔｏ"TCC_NEWLINE
+"ｈｕｒｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ．．．　Ｏｒ　ｄｏ　ｗｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ’ｓ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｔｈｅｓｅ"TCC_NEWLINE
+"ｐｒｉｎｔｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｓｏ．．．ｃｌｅａｒ．　Ｅｖｅｎ　ｃｏｖｅｒ"TCC_NEWLINE"ｅｄ　ｂｙ"TCC_NEWLINE
+"ｆｒｅｓｈ　ｓｎｏｗｆａｌｌ，　ｔｈｅｙ　ｓｔａｎｄ　ｏｕｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅｉｒ　ｇｏａｌ　ｉｓ　ｔｏ　ｅｓｃａｐｅ　ｕｓ．"TCC_NEWLINE"．．ｔｈｅｙ"TCC_NEWLINE
+"ｓｈｏｕｌｄ　ｗａｎｔ　ｔｈｅｉｒ　ｔｒａｃｋｓ　ｃｏｖｅｒ"TCC_NEWLINE"ｅｄ　ｂｙ"TCC_NEWLINE
+"ｔｈｅ　ｆａｌｌｉｎｇ　ｓｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｓｅ　ｐｒｉｎｔｓ．．．　Ｉｔ’ｓ　ｌｉｋｅ　"TCC_NEWLINE"ｔｈｅｙ　ｗａｎｔ"TCC_NEWLINE
+"ｕｓ　ｔｏ　ｓｅｅ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｄｏ　ｙｏｕ　ｔｈｉｎｋ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｙ　ｄｉｄ　ｉｔ　ｏｎ　ｐｕｒｐｏｓｅ．　Ｔｏ　ｔｒｉ"TCC_NEWLINE"ｃｋ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｅｔ’ｓ　ｔｒｙ　ｔｏ　ｔｈｉｎｋ　ｌｉｋｅ　ｔｈｅ　Ａｓ"TCC_NEWLINE"ｋｒａｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｉｎ　ｕｎｆａｍｉｌｉａｒ　ｔｅｒｒｉｔｏｒ"TCC_NEWLINE"ｙｅｎｅｍｙ"TCC_NEWLINE
+"ｔｅｒｒｉｔｏｒｙ．　Ａｎｄ　ｔｈｅｙ　ｂａｒｅｌｙ　ｍａｄ"TCC_NEWLINE"ｅ　ｔｈｅｉｒ"TCC_NEWLINE
+"ｅｓｃａｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｔｈｅｙ　ｗａｎｔ　ｍｏｓｔ　ｉｓ　ｔｏ　ｅｖａｄ"TCC_NEWLINE"ｅ　ｕｓ．"TCC_NEWLINE
+"Ｉｆ　ｗｅ　ｆｉｎｄ　ｔｈｅｍ，　ｔｈｅｙ’ｒｅ　ｌｏｓｔ．"TCC_NEWLINE"　Ｓｏ　ｔｈｅｙ"TCC_NEWLINE
+"ｃａｎ’ｔ　ａｆｆｏｒｄ　ｔｏ　ｌｅａｖｅ　ａ　ｔｒａｉｌ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｔｏ　ｄｏ？　Ｔｈｅｙ　ｅｒａｓｅ　ｔｈｅｉｒ"TCC_NEWLINE
+"ｆｏｏｔｐｒｉｎｔｓ　ａｎｄ　ｈｉｄｅ，　ｈｏｐｉｎｇ　ｔｈ"TCC_NEWLINE"ａｔ　ｔｈｅ"TCC_NEWLINE
+"ｅｎｅｍｙ　ｗｉｌｌ　ｐａｓｓ　ｔｈｅｍ　ｂｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｉｇｎｏｒｅ　ｔｈｉｓ　ｆａｋｅ　ｔｒａｉｌ．　"TCC_NEWLINE"Ｉｎｓｔｅａｄ，　ｗｅ"TCC_NEWLINE
+"ｗｉｌｌ　ｓｅａｒｃｈ　ｔｈｅ　ａｒｅａ．　Ｔｈｏｒｏｕｇｈ"TCC_NEWLINE"ｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｃａｎ’ｔ　ｂｅ　ｍｏｖｉｎｇ　ｆａｓｔ　ｉｆ　ｔ"TCC_NEWLINE"ｈｅｙ’ｒｅ"TCC_NEWLINE
+"ｅｒａｓｉｎｇ　ｔｈｅｉｒ　ｒｅａｌ　ｔｒａｉｌ，　ｓｏ　ｗ"TCC_NEWLINE"ｅ’ｌｌ　ｂｅ"TCC_NEWLINE
+"ａｂｌｅ　ｔｏ　ｃａｔｃｈ　ｕｐ　ｔｏ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｍｕｓｔ　ｂｅ　ｒｉｇｈｔ，　Ｌａｅｇｊａｒｎ．　Ｙ"TCC_NEWLINE"ｏｕ’ｒｅ"TCC_NEWLINE
+"ｓｏ　ｃｌｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｎｄ　ｙｏｕ’ｒｅ　ｖｅｒｙ　ｓｗｅｅｔ，　Ｌａｅｖａｔｅ"TCC_NEWLINE"ｉｎ．"TCC_NEWLINE
+"Ｙｏｕ’ｖｅ　ａｌｗａｙｓ　ｂｅｅｎ　ｓｕｃｈ　ａ　ｇｏｏｄ"TCC_NEWLINE
+"ｇｉｒｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｌｅｔ’ｓ　ｇｏ．　Ｔｈｅｒｅ’ｓ　ｎｏ　ｗａｙ　"TCC_NEWLINE"ｔｈｅｙ"TCC_NEWLINE
+"ｃａｎ　ｈｉｄｅｎｏｔ　ｗｈｅｎ　ｆａｃｅｄ　ｗｉｔｈ　ａ　"TCC_NEWLINE"ｐａｉｒ"TCC_NEWLINE
+"ｏｆ　Ｍｓｐｅｌｌ’ｓ　ｇｅｎｅｒａｌｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｃｈ　ｅａｓｙ　ｐｒｅｙ．．．　Ｉ　ａｌｍｏｓｔ　ｆｅｅ"TCC_NEWLINE"ｌ　ｓｏｒｒｙ"TCC_NEWLINE
+"ｆｏｒ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

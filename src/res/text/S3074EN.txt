@@ -1,0 +1,6 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3074_EN] = TCC_OPEN_LEFT
+"Ｖａｌｅｎｔｉａ．．．　Ｔｈｉｓ　ｃｏｕｎｔｒｙ．．．　Ｅｖ"TCC_NEWLINE"ｅｒｙｔｈｉｎｇ！"TCC_NEWLINE
+"Ｉ’ｌｌ　ｓｅｅ　ｉｔ　ａｌｌ　ａｆｌａｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

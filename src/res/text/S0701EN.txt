@@ -1,0 +1,21 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S0701_EN] = TCC_OPEN_LEFT
+"Ｗｈａｔ’ｓ　ｔｈａｔ，　ｙｏｕ　ｓａｙ？　Ｍｙ　ｒｅａｌｍ"TCC_NEWLINE
+"ｉｓ　ｂｅｉｎｇ　ｃｏｎｔｒｏｌｌｅｄ　ｂｙ　ｆｏｒｃｅｓ"TCC_NEWLINE
+"ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｅｐｏｓｔｅｒｏｕｓ！　Ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ"TCC_NEWLINE
+"Ｈｏｓｈｉｄｏ　ｉｓ　ｐｒｏｔｅｃｔｅｄ　ｆｒｏｍ　ｉｎｖａ"TCC_NEWLINE"ｓｉｏｎ"TCC_NEWLINE
+"ｂｙ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｏｕｒ　ｑｕｅｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｈｏｗ　ｙｏｕ　ｇｏｔ　ｉｎｔｏ"TCC_NEWLINE
+"Ｈｏｓｈｉｄｏ，　ｂｕｔ　ｒｅｓｔ　ａｓｓｕｒｅｄ，　ｍｙ　"TCC_NEWLINE"ｆａｍｉｌｙ"TCC_NEWLINE
+"ａｎｄ　Ｉ　ｗｉｌｌ　ｍａｋｅ　ｓｕｒｅ　ｙｏｕ　ｌｅａｖｅ"TCC_NEWLINE"！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0701_EN] = TCC_OPEN_LEFT
+"Ｍｙ　ｆａｍｉｌｙ，　Ｉ　ｕｎｄｅｒｅｓｔｉｍａｔｅｄ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｐｏｗｅｒ　ｏｆ　ｔｈｅｓｅ　ｓｔｒａｎｇｅｒｓ．　Ｗｅ"TCC_NEWLINE
+"ｍｕｓｔ　ｒｅｔｒｅａｔ　ａｎｄ　ｒｅｇｒｏｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｈｅ　ｓａｋｅ　ｏｆ　ｏｕｒ　ｐｅｏｐｌｅ，"TCC_NEWLINE
+"ｗｅ　ｃａｎｎｏｔ　ｌｅｔ　Ｈｏｓｈｉｄｏ　ｆａｌｌ　ｉｎｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｔｈｅ　ｈａｎｄｓ　ｏｆ　ｔｈｅ　ｉｎｖａｄｅｒｓ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

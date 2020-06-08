@@ -1,0 +1,69 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S0805_EN] = TCC_OPEN_LEFT
+"Ｉｔ’ｓ　ｔｉｍｅ　ｔｈａｔ　Ｉ　ｉｎｔｒｏｄｕｃｅ　ｍｙｓ"TCC_NEWLINE"ｅｌｆ．"TCC_NEWLINE
+"Ｉ　ａｍ　Ｅｌｉｗｏｏｄ　ｏｆ　Ｐｈｅｒａｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ａｒｅ　ｏｂｌｉｇｅｄ　ｔｏ　ｂａｔｔｌｅ　ｙｏｕ，"TCC_NEWLINE
+"ｇｉｖｅｎ　ｔｈｅ　ｃｏｎｔｒａｃｔ　ｔｈａｔ　ｂｉｎｄｓ　"TCC_NEWLINE"ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｉｓ　ｔｈａｔ？　Ｙｏｕ　ｈａｖｅ　ｃｒｏｓｓｅｄ"TCC_NEWLINE
+"ｐａｔｈｓ　ｗｉｔｈ　ｍｙ　ｓｏｎ，　Ｒｏｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃｕｒｉｏｕｓ．　Ｗｅｌｌ，　Ｉ’ｍ　ｓｕｒｅ　ｔｈ"TCC_NEWLINE"ａｔ"TCC_NEWLINE
+"Ｒｏｙ　ｗｉｌｌ　ｂｅｃｏｍｅ　ａ　ｆａｒ　ｂｅｔｔｅｒ"TCC_NEWLINE
+"ｆｉｇｈｔｅｒ　ｔｈａｎ　ｍｅ　ｉｎ　ｄｕｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｐｒｏｍｉｓｅ　ｔｏ　ｇｉｖｅ　ｙｏｕ　ａ"TCC_NEWLINE
+"ｂａｔｔｌｅ　ｔｈａｔ　ｙｏｕ’ｌｌ　ｎｅｖｅｒ　ｆｏｒｇｅ"TCC_NEWLINE"ｔ．"TCC_NEWLINE
+"Ｃｏｍｅ　ｎｏｗｌｅｔ’ｓ　ｂｅｇｉｎ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0805_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ａｒｅ　ｔｒｕｌｙ　ｐｏｗｅｒｆｕｌａｎｄ　ｍｏｒｅ"TCC_NEWLINE
+"ｓｏ　ｔｈａｎ　ｗｅ　ａｒｅ．　Ｆｏｒｔｕｎａｔｅｌｙ，"TCC_NEWLINE
+"ｔｈａｔ　ｆｒｅｅｓ　ｕｓ　ｆｒｏｍ　ｔｈｅ　ｃｏｎｔｒａｃ"TCC_NEWLINE"ｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ．　Ｉ　ｈｏｐｅ　ｔｈａｔ　ｗｅ　ｗｉｌｌ"TCC_NEWLINE
+"ｍｅｅｔ　ａｇａｉｎ　ｕｎｄｅｒ　ｆｒｉｅｎｄｌｉｅｒ"TCC_NEWLINE
+"ｃｉｒｃｕｍｓｔａｎｃｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｐｅｒｈａｐｓ　ｔｈｅｎ　Ｒｏｙ　ｃａｎ　ｆｉｇｈｔ"TCC_NEWLINE
+"ａｌｏｎｇｓｉｄｅ　ｈｉｓ　ｏｌｄ　ｆａｔｈｅｒ．　Ｗｈａｔ"TCC_NEWLINE
+"ａ　ｓｉｇｈｔ　ｔｈａｔ　ｗｏｕｌｄ　ｂｅ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S0805_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｈａｔ　ａｎ　ａｃｃｏｍｐｌｉｓｈｍｅｎｔ，　ｆｒｅｅｉｎ"TCC_NEWLINE"ｇ"TCC_NEWLINE
+"ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｂｌａｚｉｎｇ！　Ｗｅｌｌ　ｄｏｎ"TCC_NEWLINE"ｅ，"TCC_NEWLINE
+"ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｓ　ｉｔ　ｊｕｓｔ　ｍｅ，　ｏｒ　ｄｏ　ｙｏｕ　ｓｅｅｍ　"TCC_NEWLINE"ａ　ｂｉｔ"TCC_NEWLINE
+"ｑｕｉｅｔ，"TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｅｒｈａｐｓ　ｙｏｕ’ｒｅ　ｔｈｉｎｋｉｎｇ　ａｂｏｕｔ　"TCC_NEWLINE"ｗｈａｔ"TCC_NEWLINE
+"ｔｒｏｕｂｌｅｓ　ｍｅ，　ｔｏｏ．　Ｏｕｒ　ｍｉｓｓｉｎｇ"TCC_NEWLINE
+"ｃｏｍｒａｄｅ，　Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｕｒｔｈｅｒ　ｗｅ　ｇｅｔ，　ｔｈｅ　ｍｏｒｅ　ｉ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｂｏｔｈｅｒｓ　ｍｅ　ｈｏｗ　Ｚａｃｈａｒｉａｓ　ｉｓ"TCC_NEWLINE
+"ｎｏｗｈｅｒｅ　ｔｏ　ｂｅ　ｆｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｔｅ　ｌｏｓｉｎｇ　ａｎｙｏｎｅ，　ｂｕｔ　ｉｔ　ｈ"TCC_NEWLINE"ｉｔｓ"TCC_NEWLINE
+"Ａｌｆｏｎｓｅ　ａｎｄ　Ｓｈａｒｅｎａ　ｈａｒｄｅｒ．　Ｔｈ"TCC_NEWLINE"ｅｙ"TCC_NEWLINE
+"ｗｅｒｅ　ａｌｌ　ｆｒｉｅｎｄｓ　ｓｉｎｃｅ　ｃｈｉｌｄｈｏ"TCC_NEWLINE"ｏｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｚａｃｈａｒｉａｓ　ｗａｓ　ｍｏｒｅ　ｔｈａｎ　ｊｕｓｔ　ａ"TCC_NEWLINE
+"ｓｋｉｌｌｅｄ　ｌａｎｃｅｒ．　Ｈｅ　ｗａｓ　ｋｉｎｄ　ａｎ"TCC_NEWLINE"ｄ　ａｓ"TCC_NEWLINE
+"ｌｏｙａｌ　ａ　ｆｒｉｅｎｄ　ａｓ　ｙｏｕ　ｃａｎ　ｉｍａｇ"TCC_NEWLINE"ｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｈｅ　ｖａｎｉｓｈｅｄ，　ｗｅ　ｓｐｌｉｔ　ｕｐ　"TCC_NEWLINE"ｉｎ"TCC_NEWLINE
+"ｓｅａｒｃｈ　ｏｆ　ｈｉｍ，　ｔａｋｉｎｇ　ｄｉｆｆｅｒｅｎ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｇａｔｅｗａｙｓ　ｔｏ　ｄｉｆｆｅｒｅｎｔ　ｗｏｒｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｌｏｏｋｅｄ　ｅｖｅｒｙｗｈｅｒｅ．　Ｂｕｔ　ｗｅ　ｎ"TCC_NEWLINE"ｅｖｅｒ"TCC_NEWLINE
+"ｆｏｕｎｄ　ｈｉｍ，　ａｎｄ　ｈｅ　ｎｅｖｅｒ　ｒｅｔｕｒｎ"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｅｖｅｎ　ｈａｄ　ｔｈｅ　ｗｉｌｄ　ｎｏｔｉｏｎ　ｔｈ"TCC_NEWLINE"ａｔ"TCC_NEWLINE
+"Ｖｅｒｏｎｉｃａ　ｈａｄ　ｃｌｏｓｅｄ　ｔｈｅ　ｇａｔｅ　ｔ"TCC_NEWLINE"ｏ　ｔｈｅ"TCC_NEWLINE
+"ｗｏｒｌｄ　ｗｈｅｒｅ　ｗｅ’ｄ　ｂｅｅｎ　ｂａｔｔｌｉｎｇ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｈｏｗ　ｔｈｅｎ　ｃｏｕｌｄ　ｈｅ　ｅｖｅｒ　ｃｏｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｂａｃｋ　ｂｙ　ｈｉｍｓｅｌｆ？　Ｏｎｌｙ　ｗｅ　ｒｏｙａｌ"TCC_NEWLINE"ｓ　ｏｆ"TCC_NEWLINE
+"Ａｓｋｒ　ｃｏｕｌｄ　ｏｐｅｎ　ｔｈｅ　ｗａｙ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｅｎｔ　ｔｏ　ｔｈａｔ　ｗｏｒｌｄ　ｍｏｓｔ　ｏｆ　"TCC_NEWLINE"ａｌｌ，"TCC_NEWLINE
+"ｓｅａｒｃｈｉｎｇ　ａｎｄ　ｓｃｏｕｒｉｎｇ，　ｂｕｔ．．．"TCC_NEWLINE
+"ｎｏｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｗａｓ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ａｗａｋｅｎｉｎ"TCC_NEWLINE"ｇ．"TCC_NEWLINE
+"Ｐｅｒｈａｐｓ　ｗｅ　ｓｈｏｕｌｄ　ｌｏｏｋ　ｔｈｅｒｅ"TCC_NEWLINE
+"ｏｎｃｅ　ｍｏｒｅｗｉｔｈ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｖｅ　ｈｅｌｐｅｄ　ｕｓ　ｍａｋｅ　ｓｏ　ｍａｎｙ"TCC_NEWLINE
+"ｇａｉｎｓ　ｓｉｎｃｅ　ｙｏｕ　ａｒｒｉｖｅｄ．　Ｉ　ｓｕｇ"TCC_NEWLINE"ｇｅｓｔ"TCC_NEWLINE
+"ｔｈａｔ　ｗｅ　ｇｉｖｅ　ｉｔ　ｏｎｅ　ｌａｓｔ　ｔｒｙ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

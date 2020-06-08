@@ -1,0 +1,50 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S0001_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｏｏｈ！　Ｙｏｕ’ｒｅ　ｈｅｒｅ？　Ｔｈｅｎ　ｔｈｅ　ｒｉ"TCC_NEWLINE"ｔｕａｌ"TCC_NEWLINE
+"ａｃｔｕａｌｌｙ　ｗｏｒｋｅｄ？　Ａｈｅｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　Ｇｒｅａｔ　Ｈｅｒｏ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏｒ"TCC_NEWLINE"ｌｄ！"TCC_NEWLINE
+"Ｔｈｏｕ　ｈａｓｔ　ｃｏｍｅ　ｓｏ　ｆａｒ　ｔｏ　ｆｕｌｆｉ"TCC_NEWLINE"ｌｌ"TCC_NEWLINE
+"ｙｏｕｒ　ｒｏｌｅ　ｉｎ　ｏｕｒ　ｌｅｇｅｎｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｏｕｒ　ｋｉｎｇｄｏｍ　ｎｏｗ　ｓｔａｎｄｓ　ｏｎ"TCC_NEWLINE
+"ｔｈｅ　ｖｅｒｙ　ｂｒｉｎｋ　ｏｆ　ｒｕｉｎ，　ａｎｄ　ｔｈ"TCC_NEWLINE"ｏｕ．．．"TCC_NEWLINE
+"Ａｎｄ　ｔｈｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｌｄ　ｏｎ．　Ａｒｅ　ｙｏｕ　ｒｅａｌｌｙ　ｏｕｒ"TCC_NEWLINE
+"Ｇｒｅａｔ　Ｈｅｒｏ？　Ｙｏｕ　ｄｏｎ’ｔ　ｌｏｏｋ　ｌｉｋ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｔｈｅ　ｔｈｅｅ－ａｎｄ－ｔｈｏｕ　ｔｙｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ’ｓ　ｔｈａｔ？　Ｙｏｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ　"TCC_NEWLINE"ｗｈｅｒｅ"TCC_NEWLINE
+"ｙｏｕ　ａｒｅ？　Ａｎｄ　ｈｏｗ　ｙｏｕ　ｇｏｔ　ｈｅｒｅ？"TCC_NEWLINE
+"Ｆａｉｒ　ｅｎｏｕｇｈ．　Ｙｏｕ’ｒｅ　ｉｎ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"ＦＯＵＮＤ　ＹＯＵ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｒａｔ！　Ｈｏｗ　ｄｉｄ　ｏｎｅ　ｏｆ　ｔｈｏｓｅ　Ｅｍｂ"TCC_NEWLINE"ｌｉａｎｓ"TCC_NEWLINE
+"ｇｅｔ　ｈｅｒｅ　ａｌｒｅａｄｙ？　Ｓｔａｎｄ　ｂａｃｋ！　"TCC_NEWLINE"Ｉ’ｌｌ　ｔａｋｅ"TCC_NEWLINE
+"ｃａｒｅ　ｏｆ　ｈｉｍ　ｓｏｍｅｈｏｗ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S0001_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｈｅｗ！　Ｗｅ　ｔｏｏｋ　ｃａｒｅ　ｏｆ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎａｍｅ’ｓ　Ａｎｎａ．　Ｉ’ｍ　ｔｈｅ　ｃｏｍｍａｎ"TCC_NEWLINE"ｄｅｒ"TCC_NEWLINE
+"ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｂｅｌｉｅｖｅ　ｔｈａｔ　Ｈｅｒｏｅｓ　ｓｈｏｕｌｄ　"TCC_NEWLINE"ｌｉｖｅ"TCC_NEWLINE
+"ｆｒｅｅ．　Ｏｕｒ　ｅｎｅｍｉｅｓ，　ｈｏｗｅｖｅｒ，　ｅｎ"TCC_NEWLINE"ｓｌａｖｅ"TCC_NEWLINE
+"ｔｈｅｍｔｈｅ　ｆｉｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｒｅａｌｍ　ｈａｓ　ｇａｔｅｗａｙｓ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｗｏｒｌｄｓ"TCC_NEWLINE
+"ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ｃｏｍｅ　ｆｒｏｍ．　Ｈａｖｅ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｈｅａｒｄ　ｏｆ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ａｗａｋｅｎｉｎ"TCC_NEWLINE"ｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ａｂｏｕｔ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｂｉｒｔｈｒｉ"TCC_NEWLINE"ｇｈｔ？"TCC_NEWLINE
+"Ｏｒ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｃｏｎｑｕｅｓｔ？　Ｔｈｅｒ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ａｒｅ　ｓｏ　ｍａｎｙ　ｍｏｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ　ｉｎｖａｄｅｓ　ｔｈｏ"TCC_NEWLINE"ｓｅ"TCC_NEWLINE
+"ｗｏｒｌｄｓ　ａｎｄ　ｂｉｎｄｓ　ｔｈｅｉｒ　Ｈｅｒｏｅｓ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
+"ｓｅｒｖｉｃｅ．　Ｗｅ　ｆｉｇｈｔ　ｆｏｒ　ｔｈｅｉｒ　ｆｒ"TCC_NEWLINE"ｅｅｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓｏｌｄｉｅｒ　ｗａｓ　ｆｒｏｍ　ｔｈｅ　Ｅｍｂｌ"TCC_NEWLINE"ｉａｎ"TCC_NEWLINE
+"Ｅｍｐｉｒｅ，　ｗｈｉｃｈ　ｗｉｌｌ　ｓｏｏｎ　ｉｎｖａｄｅ"TCC_NEWLINE"　ｏｕｒ"TCC_NEWLINE
+"ｎｅｉｇｈｂｏｒｉｎｇ　ｋｉｎｇｄｏｍ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｄｅｓｐｅｒａｔｅ　ｆｏｒ　ｈｅｌｐ．　Ｉ　ｐｅ"TCC_NEWLINE"ｒｆｏｒｍｅｄ"TCC_NEWLINE
+"ａ　ｓｕｍｍｏｎｉｎｇ　ｃｅｒｅｍｏｎｙ．　Ａｎｄ　ｙｏｕ"TCC_NEWLINE
+"ｊｕｓｔ　ａｐｐｅａｒｅｄ　ｏｕｔ　ｏｆ　ｎｏｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｕｃｋｙ　ｕｓ！　Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ　"TCC_NEWLINE"ｔｏ　ｒｅｓｔ．"TCC_NEWLINE
+"Ｗｅ　ｈａｖｅ　ｔｏ　ａｃｔ　ｆａｓｔ　ｉｆ　ｗｅ’ｒｅ　ｇ"TCC_NEWLINE"ｏｉｎｇ　ｔｏ"TCC_NEWLINE
+"ｓａｖｅ　ｏｕｒ　ｋｉｎｇｄｏｍ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

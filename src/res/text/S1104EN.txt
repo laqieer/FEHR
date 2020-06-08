@@ -1,0 +1,26 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_END_S1104_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ’ｖｅ　ｍａｎａｇｅｄ　ｔｏ　ｈｏｌｄ　ｔｈｅｍ　ｏｆｆ"TCC_NEWLINE"　ｓｏ"TCC_NEWLINE
+"ｆａｒ．　Ｂｕｔ　ａｔ　ｔｈｉｓ　ｒａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｔｕｒｎ　ｔｈｅ"TCC_NEWLINE"　ｔｉｄｅ．"TCC_NEWLINE
+"Ｂｕｔ　ｗｈａｔ　ｃａｎ　ｗｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE
+"Ｗｈｅｒｅ　ａｒｅ　ｙｏｕ　ｇｏｉｎｇ？　Ｄｏｎ’ｔ　ｔｅｌ"TCC_NEWLINE"ｌ　ｍｅ"TCC_NEWLINE
+"ｔｈａｔ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｒｅ　ｙｏｕ　ｋｉｄｄｉｎｇ？　Ｙｏｕ　ｗａｎｔ　ｔｏ　ｃ"TCC_NEWLINE"ｈａｓｅ"TCC_NEWLINE
+"ｔｈｅｍ？　Ｔｈａｔ’ｓ　ｎｕｔｓ！　Ｉｆ　ｗｅ’ｒｅ　ｃａ"TCC_NEWLINE"ｕｇｈｔ　ｉｎ"TCC_NEWLINE
+"ｅｎｅｍｙ　ｔｅｒｒｉｔｏｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｎｏ，　ｉｔ’ｓ　ａ　ｇｏｏｄ　ｉｄｅａ．　Ｉｎ　ｆａｃｔ，"TCC_NEWLINE"　ｉｔ　ｍｉｇｈｔ　ｂｅ"TCC_NEWLINE
+"ｏｕｒ　ｏｎｌｙ　ｏｐｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｋｎｏｗ　ｔｈａｔ　ｗｈａｔｅｖｅｒ’ｓ　ｐｒｏｔｅｃ"TCC_NEWLINE"ｔｉｎｇ"TCC_NEWLINE
+"ｔｈｅｍ　ｉｓｎ’ｔ　ｐｅｒｍａｎｅｎｔ．　Ｎｏｗ　ｔｈａｔ"TCC_NEWLINE
+"ｉｔ’ｓ　ｇｏｎｅ．．．　Ｔｈａｔ’ｓ　ｏｕｒ　ｃｈａｎｃｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｈａｖｅ　ｎｏ　ｉｄｅａ　ｗｈａｔ　ｗｉｌｌ　ｂｅ　ｗ"TCC_NEWLINE"ａｉｔｉｎｇ"TCC_NEWLINE
+"ｆｏｒ　ｕｓ　ｔｈｅｒｅ，　ｂｕｔ　ｗｅ　ｈａｖｅ　ｎｏ　ｃ"TCC_NEWLINE"ｈｏｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｈｅａｄ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
+"Ｒａｄｉａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

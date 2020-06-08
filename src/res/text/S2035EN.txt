@@ -1,0 +1,79 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｉ　ａｍ　ｔｈｅ　ｂｌａｄｅｔｈｅ　ｂｌａｄｅ　ｍｙ　ｆａｔ"TCC_NEWLINE"ｈｅｒ"TCC_NEWLINE
+"ｗｉｅｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｏ　ａｓ　Ｉ　ａｍ　ｏｒｄｅｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｉｆ　ｉｎｊｕｒｅｄ，　ｒｅｔｒｅａｔ．　Ｔｈａｔ　ｉｓ　ｗ"TCC_NEWLINE"ｈａｔ　ｍｙ"TCC_NEWLINE
+"ｓｉｓｔｅｒ　ｓａｉｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｏ　ａｓ　ｉｎｓｔｒｕｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｈｏｗ　ａｒｅ　ｔｈｅ"TCC_NEWLINE
+"ｔｏｗｎｓｐｅｏｐｌｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉｔ　ｓｅｅｍｓ　ｅｖｅｒｙｏｎｅ　ｉｓ　ｆｉｎｅｎｏ　ｍａ"TCC_NEWLINE"ｊｏｒ"TCC_NEWLINE
+"ｉｎｊｕｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙ　ｈｏｕｓｅ，　ｈｏｗｅｖｅｒ，　ｈａｓ　ｂｅｅｎ"TCC_NEWLINE
+"ｂｕｒｎｔ　ｔｏ　ｔｈｅ　ｇｒｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌａｍｅｓ　ｓｔｉｌｌ　ｓｍｏｌｄｅｒ　ｉｎ　ｔｈ"TCC_NEWLINE"ｅ　ｆｏｒｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ　ｉｓ　ｄｏｉｎｇ　ｔｈｅｉｒ　ｂｅｓｔ，　"TCC_NEWLINE"ｂｕｔ　ｔｈｉｓ"TCC_NEWLINE
+"ｔｏｗｎ　ｗｉｌｌ　ｎｏｔ　ｒｅｃｏｖｅｒ　ｆｏｒ　ｓｏｍｅ"TCC_NEWLINE"　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ　ｓｈｏｕｌｄ　ｈｅｌｐ，　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈｍｍ．　Ｏｕｒ　ｃｕｒｒｅｎｔ　ｍｉｓｓｉｏｎ　ｉｓ　ｖｅ"TCC_NEWLINE"ｒｙ"TCC_NEWLINE
+"ｈｉｇｈ　ｐｒｉｏｒｉｔｙ，　ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｄｏ　ｈａｖｅ　ａ　ｌｉｔｔｌｅ　ｔｉｍｅ．　Ｉ　ｔｈ"TCC_NEWLINE"ｉｎｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｎ　ｉｔ’ｓ　ｓｅｔｔｌｅｄ．　Ｐｒｉｎｃｅｓｓ　Ｆｊ"TCC_NEWLINE"ｏｒｍ，　Ｉ"TCC_NEWLINE
+"ａｐｏｌｏｇｉｚｅ，　ｂｕｔ．．．　Ｄｏ　ｙｏｕ　ｍｉｎｄ　"TCC_NEWLINE"ｖｅｒｙ"TCC_NEWLINE
+"ｍｕｃｈ　ｉｆ　ｗｅ　ｄｅｌａｙ　ｏｕｒ　ｄｅｐａｒｔｕｒｅ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｎｏｔ　ａｔ　ａｌｌ．　Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ｈｅ"TCC_NEWLINE"ｌｐ　ｔｈｅｓｅ"TCC_NEWLINE
+"ｐｅｏｐｌｅ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　ｍｙ　ｌａｎｃｅ　ｏｆ　ｉｃｅ，　Ｌｅｉｐｔ"TCC_NEWLINE"ｒ，　ｃｏｕｌｄ"TCC_NEWLINE
+"ｂｅ　ｕｓｅｄ　ｔｏ　ｅｘｔｉｎｇｕｉｓｈ　ｓｏｍｅ　ｏｆ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
+"ｆｌａｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+"Ｎｏｗ，　ｎｏｗ，　ｙｏｕｒ　ｈｉｇｈｎｅｓｓ．　Ａｎｄ　ｙ"TCC_NEWLINE"ｏｕ，"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｉ　ｗａｎｔ　ｔｏ　ｓ"TCC_NEWLINE"ｅｅ　ｙｏｕ"TCC_NEWLINE
+"ｔｗｏ　ｓｍｉｌｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｖｅ　ｆｏｒｍｅｄ　ａ　ｐａｃｔ　ｔｏ　ｄｅｓｔｒｏ"TCC_NEWLINE"ｙ　ｔｈｅ"TCC_NEWLINE
+"Ｋｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ，　ｎｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_SURTR
+"Ｇｒｒｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ　ａｒｅｎ’ｔ　ｙｏｕ　ｔｗｏ　ｊｕｓｔ　ｐｅａｓ　"TCC_NEWLINE"ｉｎ　ａ"TCC_NEWLINE
+"ｐｏｄ？　Ｉｔ　ｍａｋｅｓ　ｍｅ　ｓｏ　ｖｅｒｙ　ｇｌａｄ　"TCC_NEWLINE"ｔｏ　ｓｅｅ"TCC_NEWLINE
+"ｔｈｉｓ　ｎｅｗ　ｆｒｉｅｎｄｓｈｉｐ．　Ｙｏｕ’ｒｅ　ｓｏ"TCC_NEWLINE"　ａｌｉｋｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈａｖｅ　ｐｌｅｄｇｅｄ　ｔｏ　ｌｅｎｄ　ｙｏｕ　ｍｙ　"TCC_NEWLINE"Ｈｅｒｏｅｓ．"TCC_NEWLINE
+"Ｉ　ｂｅｌｉｅｖｅ　ｔｈａｔ’ｓ　ａｌｌ　ｙｏｕ　ｒｅｑｕｉ"TCC_NEWLINE"ｒｅ　ｆｒｏｍ"TCC_NEWLINE
+"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｂｅ　ｏｎ　ｍｙ　ｗａｙ，　ｔｈｅｎ．　Ｔｈｅｒｅ"TCC_NEWLINE"’ｓ"TCC_NEWLINE
+"ｎｏｔｈｉｎｇ　ｆｏｒ　ｍｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｃｈａｒｍｉｎｇ，　ｉｓｎ’ｔ　ｓｈｅ？　Ｓｏ　ｓｈｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｖｅｒｏｎｉｃａ．．．　Ｓｈｅ　ｉｓ　ｏｆ　ｔｈｅ　ｏｎｅｓ"TCC_NEWLINE"　ｗｈｏ"TCC_NEWLINE
+"ｓｅａｌ　ｔｈｅ　ｐａｔｈｔｈｅ　Ｅｍｂｌｉａｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　Ａｓｋｒ　ｈａｓ　ｂｕｒｎｅｄ，　ｓｏ　ｗｉｌｌ"TCC_NEWLINE"　Ｅｍｂｌａ．"TCC_NEWLINE
+"Ｓｏ　ｗｅａｋ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｍｙ，　Ｙｏｕｒ　Ｈｉｇｈｎｅｓｓ．　Ｙｏｕ’ｄ"TCC_NEWLINE
+"ｓｌａｕｇｈｔｅｒ　ｔｈａｔ　ｔｉｎｙ　ｌｉｔｔｌｅ　ｇｉｒ"TCC_NEWLINE"ｌ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｆ　ｃｏｕｒｓｅ．　Ｔｈｅ　ｗｏｒｌｄ　ｒｅｑｕｉｒｅｓ　"TCC_NEWLINE"ｏｎｌｙ"TCC_NEWLINE
+"ｏｎｅ　ｒｕｌｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｓ　Ｉ　ｉｍａｇｉｎｅ　ｔｈｅ　ｌｏｏｋ　ｏｎ　ｈ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
+"ｆａｃｅ．．．　Ｈｅｒ　ｓｏｂｓ，　ｈｅｒ　ｐｌｅａｓ，　ｈ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
+"ｓｃｒｅａｍｓ　ａｓ　ｓｈｅ　ｂｕｒｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｙｏｕ　ｈａｖｅ　ｔｏ　ｌａｕｇｈ！　Ｄｏｎ’ｔ"TCC_NEWLINE"　ｙｏｕ"TCC_NEWLINE
+"ａｇｒｅｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

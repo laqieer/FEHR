@@ -1,0 +1,9 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2073_EN] = TCC_OPEN_LEFT
+"Ｉ’ｌｌ　ｇｒｏｗ　ｓｔｒｏｎｇｅｒ．　Ｉ　ｓｗｅａｒ　ｉｔ"TCC_NEWLINE"！　Ｔｈｅｓｅ"TCC_NEWLINE
+"ｗｅｒｅ　ｍｙ　ｗｏｒｄｓ，　ａｎｄ　ｔｈｅｙ　ｆｏｒｍｅｄ"TCC_NEWLINE"　ａ"TCC_NEWLINE
+"ｐｒｏｍｉｓｅ．　Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｆ　ｃｏｕｒｓｅ，　Ｌｏｒｄ　Ｌｅｉｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

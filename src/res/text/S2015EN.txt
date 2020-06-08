@@ -1,0 +1,70 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｎｎｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｉｓｅ　ａｎｄ　ｓｈｉｎｅ，　Ｐｒｉｎｃｅｓｓ！　Ｉｔ’ｓ"TCC_NEWLINE"　ｔｉｍｅ　ｆｏｒ"TCC_NEWLINE
+"ｕｓ　ｔｏ　ｐｌａｙ　ａ　ｌｉｔｔｌｅ　ｇａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｂｕｔ　ｈｅｒｅ　ｃｏｍｅ　ｓｏｍｅ　ｐｅｓｋｙ　ｌ"TCC_NEWLINE"ｉｔｔｌｅ"TCC_NEWLINE
+"ｒｏｄｅｎｔｓ．　Ｉ　ｈａｖｅ　ａ　ｆｅｅｌｉｎｇ　ｔｈｅｙ"TCC_NEWLINE"’ｌｌ　ｗａｎｔ"TCC_NEWLINE
+"ｔｏ　ｓｐｏｉｌ　ｏｕｒ　ｆｕｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｙｏｕ！　Ｔｅｌｌ　ｍｅ　ｙｏｕｒ　ｎａｍｅ　ａｎｄ　ｙｏｕ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ａｆｆｉｌｉａｔｉｏｎ"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔ　ａ　ｍｉｎｕｔｅ！　Ｗｈｏ　ｄｏ　ｙｏｕ　ｔｈｉｎ"TCC_NEWLINE"ｋ　ｙｏｕ"TCC_NEWLINE
+"ａｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｗｏ．．．Ｃｏｍｍａｎｄｅｒ　Ａｎｎａｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｉｓ　ｍｕｓｔ　ｂｅ　ｓｏ　ｖｅｒｙ　ｓｈｏｃｋｉｎｇ　"TCC_NEWLINE"ｆｏｒ"TCC_NEWLINE
+"ｙｏｕ，　ｍｕｓｔｎ’ｔ　ｉｔ？　Ｙｏｕ　ｈａｖｅ　ｍｙ"TCC_NEWLINE
+"ａｐｏｌｏｇｉｅｓ，　ｍｙ　ｄｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｉ　ｓｕｐｐｏｓｅ　ｉｔ’ｓ　ｔｒｕｅ　ｔｈａｔ　ｗｅ’ｖｅ"TCC_NEWLINE"　ｎｅｖｅｒ"TCC_NEWLINE
+"ｍｅｔ　ｉｎ　ｐｅｒｓｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_LOKI
+"Ｉ　ａｍ　Ｌｏｋｉ，　ｌｏｙａｌ　ｓｅｒｖａｎｔ　ｏｆ　Ｈｉ"TCC_NEWLINE"ｓ　Ｒｏｙａｌ"TCC_NEWLINE
+"Ｈｉｇｈｎｅｓｓ，　Ｋｉｎｇ　Ｓｕｒｔｒ．　Ｐｌｅａｓｅｄ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
+"ｍａｋｅ　ｙｏｕｒ　ａｃｑｕａｉｎｔａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｅｖｅｎ　ｍｏｒｅ　ｐｌｅａｓｅｄ　ｔｏ　ｂｉｄ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｆａｒｅｗｅｌｌ．．．　Ｔｈｏｕｇｈ　Ｉ　ｍｕｓｔ　ａｐｏｌ"TCC_NEWLINE"ｏｇｉｚｅ，　Ｉ"TCC_NEWLINE
+"ｓｕｐｐｏｓｅ．　Ｙｏｕ’ｌｌ　ｂｅ　ｄｙｉｎｇ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ’ｖｅ　ｐｕｓｈｅｄ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｅｎｅｍｙ"TCC_NEWLINE"’ｓ"TCC_NEWLINE
+"ｌｉｎｅ，"TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｊｏｂ　ｎｏｗ　ｉｓ　ｔｏ　ｃａｐｔｕｒｅ　ｔｈｅｉ"TCC_NEWLINE"ｒ　ｌｅａｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LOKI
+"Ｏｈ，　ｗｏｕｌｄｎ’ｔ　ｙｏｕ　ｊｕｓｔ　ｋｎｏｗ　ｉｔ．"TCC_NEWLINE"　Ｉ　ｌｏｓｔ．"TCC_NEWLINE
+"Ｈｏｗ　ｓｔｒｏｎｇ　ｙｏｕ　ａｌｌ　ａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｓｐｅｃｉａｌｌｙ　ｙｏｕ，　Ｓｕｍｍｏｎｅｒ．　Ｉ’ｖｅ"TCC_NEWLINE"　ｔａｋｅｎ"TCC_NEWLINE
+"ａ　ｌｉｔｔｌｅ　ｂｉｔ　ｏｆ　ａ　ｆａｎｃｙ　ｔｏ　ｙｏｕ"TCC_NEWLINE"．　Ｙｅｓ，　ｙｏｕ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ’ｓ　ｈｏｐｉｎｇ　ｗｅ　ｍｅｅｔ　ａｇａｉｎ，　ｍ"TCC_NEWLINE"ｙ"TCC_NEWLINE
+"ｄｅａｒ！　Ｈｅｅ－ｈｅｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｏｌｄ　ｉｔ　ｒｉｇｈｔ　ｔｈｅｒｅ！　Ｉ’ｍ　ｎｏｔ　ｆ"TCC_NEWLINE"ｉｎｉｓｈｅｄ"TCC_NEWLINE
+"ｗｉｔｈ　ｙｏｕ　ｙｅｔ．　Ｉ　ｗａｎｔ　ｓｏｍｅ　ａｎｓｗ"TCC_NEWLINE"ｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ，"TCC_TACTICIAN_NAME"？"TCC_NEWLINE
+"Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｇｈｔ’ｓ　ｃｏｍｉｎｇ　ｆｒｏｍ　Ｂｒｅｉｄａｂｌｉｋ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｔ’ｓ　ｐｏｉｎｔｉｎｇ　ｔｈｅ　ｗａｙ　ｏｖｅｒ"TCC_NEWLINE"　ｔｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｕｈｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｌｏｏｋ！　Ｓｏｍｅｏｎｅ’ｓ　ｃｏｌｌａｐｓｅｄ！　Ｉｔ’"TCC_NEWLINE"ｓ　ａ"TCC_NEWLINE
+"ｗｏｍａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ　ｓｅｅｍｓ　ｈｅｒ　ｌａｎｃｅ　ｉｓ　ｒｅｓｏｎａｔｉ"TCC_NEWLINE"ｎｇ　ｗｉｔｈ"TCC_NEWLINE
+"ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｆｏｎｓｅ！　Ｓｈｅ’ｓ　ｓｔｉｌｌ　ｂｒｅａｔｈｉｎｇ"TCC_NEWLINE"！　Ｄｏ　ｙｏｕ"TCC_NEWLINE
+"ｔｈｉｎｋ　ｓｈｅ’ｓ　ａ　Ｈｅｒｏ　ｆｒｏｍ　ａｎｏｔｈｅ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．．．ｂｕｔ　Ｉ　ｄｏ　ｋｎｏｗ　ｗ"TCC_NEWLINE"ｅ　ｃａｎ’ｔ"TCC_NEWLINE
+"ｊｕｓｔ　ｌｅａｖｅ　ｈｅｒ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａｇｒｅｅｄ．　Ｌｅｔ’ｓ　ｔａｋｅ　ｈｅｒ　ｂａｃｋ　ｔｏ"TCC_NEWLINE"　ｂａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

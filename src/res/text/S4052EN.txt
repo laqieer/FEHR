@@ -1,0 +1,45 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4052_EN] = TCC_OPEN_LEFT
+"Ｍｙ　ｄｅａｒｅｓｔ　ｗｉｓｈ　ｉｓ　ｆｏｒ　ｍｙ　ｆａｍｉ"TCC_NEWLINE"ｌｙ"TCC_NEWLINE
+"ｔｏ　ｒｅｕｎｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4052_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｕｍｍ．．．　Ｃａｎ　Ｉ　ｓｐｅａｋ　ｗｉｔｈ"TCC_NEWLINE
+"ｙｏｕ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｆ　ｃｏｕｒｓｅ．　Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ｙｏｕ　ｓａｉｄ　ｂｅｆｏｒｅ．　Ｅｖｅｒｙｔｈｉ"TCC_NEWLINE"ｎｇ"TCC_NEWLINE
+"ａｂｏｕｔ"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ！　Ｓｏ　ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｎｏｗ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ．　Ｎｏ．．．　Ｉ’ｍ　ｓｏｒｒｙ，　Ａｌｆｏｎｓｅ．　"TCC_NEWLINE"Ｉ　ｃａｎ’ｔ"TCC_NEWLINE
+"ｓａｙ　Ｉ　ｂｅｌｉｅｖｅ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｏｆ　"TCC_NEWLINE"ｌｅｇｅｎｄ"TCC_NEWLINE
+"ｉｓ　ａｎｙｗｈｅｒｅ　ａｒｏｕｎｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔａｌｋｅｄ　ｔｏ　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ａｎ"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ｅｖｅｒｙｏｎｅ　ｅｌｓｅ　Ｉ　ｃｏｕｌｄ　ｆｉｎｄ，　ａｎ"TCC_NEWLINE"ｄ　ｎｏ"TCC_NEWLINE
+"ｏｎｅ　ｅｖｅｎ　ｒｅｃｏｇｎｉｚｅｄ　ｔｈｅ　ｎａｍｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｉ　ｓｅｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｅｖｅｎ　ｓａｙｉｎｇ　ｔｈａｔ，　ａｎｄ　ｂｅｌｉ"TCC_NEWLINE"ｅｖｉｎｇ"TCC_NEWLINE
+"ｗｈａｔ　Ｉ’ｍ　ｓａｙｉｎｇ　ｉｓ　ｔｒｕｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍａｋｅｓ　ｍｅ　ｓａｄ，　ｓｏｍｅｈｏｗ．　Ｌｉｋｅ"TCC_NEWLINE
+"Ｉ’ｍ．．．ｌｏｎｅｌｉｅｒ，　ｉｎ　ａ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｈｅａｒｉｎｇ　ｔｈｅ　ｎａｍｅ　ｎｏｗ，　Ｉ　ｃ"TCC_NEWLINE"ａｎ"TCC_NEWLINE
+"ｈａｒｄｌｙ　ｈｏｌｄ　ｂａｃｋ　ｔｈｅ　ｔｅａｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　Ｉ　ｄｏｎ’ｔ　ｒｅｍｅｍｂｅｒ　ｏｎｅ　ｔｈｉｎｇ"TCC_NEWLINE
+"ａｂｏｕｔ"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃａｎ　ｔｈａｔ　ｂｅ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE
+"Ｈａｖｅ　Ｉ．．．　Ｈａｖｅ　ｗｅ　ｆｏｒｇｏｔｔｅｎ"TCC_NEWLINE
+"ｓｏｍｅｔｈｉｎｇ　ｉｍｐｏｒｔａｎｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ，　Ｓｈａｒｅｎａ．　Ｎｏｔ　ｔ"TCC_NEWLINE"ｏ　ｗｏｒｒｙ．"TCC_NEWLINE
+"Ｉ　ａｍ　ｗｏｒｋｉｎｇ　ｏｕｔ　ａ　ｐｌａｎ．　Ｉ’ｌｌ　"TCC_NEWLINE"ｊｕｓｔ"TCC_NEWLINE
+"ｎｅｅｄ　ｙｏｕｒ　ｔｒｕｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

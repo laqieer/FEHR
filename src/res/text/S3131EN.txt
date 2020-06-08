@@ -1,0 +1,61 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_HEL
+"Ｔｈｅ　ｔｉｍｅ　ｈａｓ　ｃｏｍｅ，　Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ　ｓｕｍｍｏｎｅｒ．　Ｗｈａｔ　ｗａｓ　ｔｈｅ　ｎａｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？　Ｎｏ　ｍａｔｔｅｒ．"TCC_NEWLINE
+"Ａ　ｌｉｎｃｈｐｉｎ　ｔｏ　ｂｅ　ｐｕｌｌｅｄ，　ｎｏ　ｍｏ"TCC_NEWLINE"ｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｋｉｌｌ　ｔｈｅｍ．　Ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｌｅａｓｅ，　ｎｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈａｖｅ　ｇｉｖｅｎ　ｙｏｕ　ａｎ　ｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｔｈｅｒ．．．　Ｏｆ　ｌａｔｅ，　Ｉ　ｈａｖｅ　ｏｆｔｅ"TCC_NEWLINE"ｎ"TCC_NEWLINE
+"ｄｒｅａｍｅｄ　ｏｆ　ｙｏｕ．．．　Ｏｎｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｄｒｅａｍｓ　ａｒｅ　ｈａｚｙ．　Ｉ　ｃａｎｎｏｔ　"TCC_NEWLINE"ｓｅｅ"TCC_NEWLINE
+"ｔｈｅｍ　ｃｌｅａｒｌｙ　ｉｎ　ｍｙ　ｗａｋｉｎｇ　ｍｉｎｄ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｅｔｕｒｎ　ｔｏ　ｍｅ　ｗｈｅｎ　ｙｏｕ　ｈａｖｅ　ｃａｒ"TCC_NEWLINE"ｒｉｅｄ"TCC_NEWLINE
+"ｏｕｔ　ｍｙ　ｗｉｌｌ．　Ｄｏ　ｔｈａｔ，　ａｎｄ　Ｉ　ｗｉ"TCC_NEWLINE"ｌｌ　ｒｅｖｅａｌ"TCC_NEWLINE
+"ａｌｌ　ｔｈａｔ　ｉｓ　ｈｉｄｄｅｎ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ’ｖｅ　ｗｈａｔ？　Ｎｏ　ｗｉｓｈ　ｔｏ　ｄｏ　ａｓ　"TCC_NEWLINE"Ｉ　ｓａｙ？"TCC_NEWLINE
+"Ｔｈａｔ　ｈａｒｄｌｙ　ｍａｔｔｅｒｓ．　Ｉｔ　ｉｓ　ｉｍｐ"TCC_NEWLINE"ｏｓｓｉｂｌｅ"TCC_NEWLINE
+"ｆｏｒ　ｙｏｕ　ｔｏ　ｏｐｐｏｓｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｗｉｌｌ　ｉｓ　ｓｙｎｏｎｙｍｏｕｓ　ｗｉｔｈ　ｙｏｕ"TCC_NEWLINE"ｒ　ｖｅｒｙ"TCC_NEWLINE
+"ｅｘｉｓｔｅｎｃｅ．　Ｉｔ　ｈａｓ　ｂｅｅｎ　ｅｔｃｈｅｄ　"TCC_NEWLINE"ｉｎｔｏ"TCC_NEWLINE
+"ｙｏｕｒ　ｂｅｉｎｇ　ｂｙ　ｅｎｄｌｅｓｓ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"ＯＢＥＹ　ＭＥ，　ＥＩＲ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｃａｓｔｌｅ　ｌｉｅｓ　ｊｕｓｔ　ｂ"TCC_NEWLINE"ｅｙｏｎｄ．"TCC_NEWLINE
+"Ｅｖｅｎ　ａｓ　ｗｅ　ｓｐｅａｋ，　ｓｈｅ　ｉｓ　ｓｅａｔｅ"TCC_NEWLINE"ｄ　ｔｈｅｒｅ"TCC_NEWLINE
+"ｕｐｏｎ　ｔｈｅ　ｔｈｒｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ａｎｇｒｂｏａ’ｓ　Ｈｅ"TCC_NEWLINE"ａｒｔ"TCC_NEWLINE
+"ｗｉｔｈｉｎ　ｉｔ，"TCC_TACTICIAN_NAME"’ｓ"TCC_NEWLINE
+"ｗｅａｐｏｎ　ｉｓ　ａｌｌ　ｗｅ　ｎｅｅｄ　ｔｏ　ｄｅｆｅａ"TCC_NEWLINE"ｔ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｔｈａｔ　ｒｅｍａｉｎｓ　ｉｓ　ｏｕｒ　ｆｉｎａｌ"TCC_NEWLINE
+"ｃｏｎｆｒｏｎｔａｔｉｏｎ．　Ｌｅｔ’ｓ　ｎｏｔ　ｗａｓｔｅ"TCC_NEWLINE
+"ａｎｙ　ｍｏｒｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｗａｉｔ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｎｅｖｅｒ　ｍｉｎｄ．　Ｉ’ｍ　ｓｏｒｒｙ，　ｉｔ’ｓ．"TCC_NEWLINE"．．"TCC_NEWLINE
+"Ｉｔ’ｓ　ｎｏｔｈｉｎｇ．　Ｌｅｔ’ｓ　ｍｏｖｅ　ｆｏｒｗａ"TCC_NEWLINE"ｒｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

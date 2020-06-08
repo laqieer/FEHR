@@ -1,0 +1,40 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｄｏ　ｙｏｕ　ｓｅｅ　ｉｔ？　Ｔｈａｔ’ｓ　ｔｈｅ　ｇａｔｅ"TCC_NEWLINE"　ｔｈａｔ　ｗｉｌｌ"TCC_NEWLINE
+"ｔａｋｅ　ｕｓ　ｔｏ　Ｎｉｆｌ．．．　Ｌｅｔ’ｓ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ．．．　Ｓｏｍｅｂｏｄｙ　ｈａ"TCC_NEWLINE"ｓ　ｔｏ，"TCC_NEWLINE
+"ｓｏ．．．　Ｏｆｆ　Ｉ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｈ？　Ｎｏｔｈｉｎｇ　ｈａｐｐｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｔｈｅ　ｒｉｔｅ　Ｉ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　ｔｏｏ　ｍｕｃｈ　ｔｉｍｅ　ｈａｓ　ｐａｓｓ"TCC_NEWLINE"ｅｄ，"TCC_NEWLINE
+"ａｎｄ　ｉｔｓ　ｐｏｗｅｒ　ｈａｓ　ｄｉｓｓｉｐａｔｅｄ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ｃａｎ　ｏｐｅｎ　ｔｈｅ　ｇａ"TCC_NEWLINE"ｔｅ　ｏｎｃｅ"TCC_NEWLINE
+"ｍｏｒｅ．　Ｉ　ｊｕｓｔ　ｎｅｅｄ　ｓｏｍｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ　ｉｔ　ｍｉｇｈｔ　ｂｅ　ａ　ｗ"TCC_NEWLINE"ｈｉｌｅ"TCC_NEWLINE
+"ｂｅｆｏｒｅ　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｃａｎ　ｃｏｍｐ"TCC_NEWLINE"ｌｅｔｅ"TCC_NEWLINE
+"ｔｈｅ　ｒｉｔｅ　ｔｏ　ｏｐｅｎ　ｔｈｅ　ｗａｙ　ｔｏ　Ｎｉ"TCC_NEWLINE"ｆｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｅｓｔ　ｏｆ　ｕｓ　ｗｉｌｌ　ｎｅｅｄ　ｔｏ　ｈｏ"TCC_NEWLINE"ｌｄ　ｔｈｉｓ"TCC_NEWLINE
+"ｐｏｓｉｔｉｏｎ　ｕｎｔｉｌ　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ’ｌｌ　ｕｓｅ　ｔｈｅ　ｔｉｍｅ　ｔｏ　ｐｒｅｐａｒｅ　ａ"TCC_NEWLINE"　ｍｅａｌ"TCC_NEWLINE
+"ｆｏｒ　ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｄｏ　ｎｅｅｄ　ｔｏ　ｓｔａｙ　ａｌｅｒｔ，　ｔｈｏｕ"TCC_NEWLINE"ｇｈ．"TCC_NEWLINE
+"Ｉｔ　ｄｏｅｓｎ’ｔ　ｓｅｅｍ　ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ａ"TCC_NEWLINE"ｗａｒｅ"TCC_NEWLINE
+"ｏｆ　ｕｓ，　ｂｕｔ．．．　Ｔｈａｔ　ｃｏｕｌｄ　ｃｈａｎｇ"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｃａｎ　ｈｏｌｄ　ｆａｓｔ　ｕｎ"TCC_NEWLINE"ｔｉｌ"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｆｉｎｉｓｈｅｓ　ｔｈｅ　ｒｉ"TCC_NEWLINE"ｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｐｒｅｐａｒｅ　ｆｏｒ　ｂａｔｔｌｅ，　ｅｖｅｒｙｏｎｅ！　"TCC_NEWLINE"Ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｗｈａｔ’ｓ　ｇｏｔ　ｙｏｕ"TCC_NEWLINE"　ｓｏ"TCC_NEWLINE
+"ｗｏｒｋｅｄ　ｕｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｕｒｔｒ！　Ｈｅ’ｓ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

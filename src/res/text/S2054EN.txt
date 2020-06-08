@@ -1,0 +1,6 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2054_EN] = TCC_OPEN_LEFT
+"Ｃｏｍｅ　ｔｏ　ｍｅ，　ｆｕｇｉｔｉｖｅｓｆｅｅｌ　ｔｈｅ　"TCC_NEWLINE"ｆａｎｇｓ"TCC_NEWLINE
+"ｏｆ　Ｇｒａｄｉｖｕｓ　ｐｉｅｒｃｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

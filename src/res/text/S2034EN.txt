@@ -1,0 +1,19 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2034_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｔｈｅ　ｉｍｐｅｒｉａｌ　ｇｅｎｅｒａｌ，　Ｚｅｌ"TCC_NEWLINE"ｇｉｕｓ．"TCC_NEWLINE
+"Ｗａｒｒｉｏｒｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏｒｌｄ．．．"TCC_NEWLINE"ｙｏｕ"TCC_NEWLINE
+"ａｐｐｅａｒ　ｓｔｒｏｎｇ．　Ｔｈａｔ　ｉｓ　ｇｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ａｃｃｅｐｔ　ｙｏｕｒ　ｃｈａｌｌｅｎｇｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2034_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｗｅ’ｒｅ　ａｌｍｏｓｔ　ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐａｓｔ　ｔｈｉｓ　ｍｏｕｎｔａｉｎ　ｌｉｅｓ　ｔｈｅ　ｇａ"TCC_NEWLINE"ｔｅ　Ｉ"TCC_NEWLINE
+"ｕｓｅｄ　ｔｏ　ｔｒａｖｅｌ　ｈｅｒｅ　ｆｒｏｍ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈａｔ　ｆｌａｍｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｔｏｗｎ　ｉｓ　ａｂｌａｚｅ！　Ｉｓ　ｔｈａｔ．．．"TCC_NEWLINE"Ｍｓｐｅｌｌ’ｓ"TCC_NEWLINE
+"ａｒｍｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｌｅｔ’ｓ　ｍｏｖｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

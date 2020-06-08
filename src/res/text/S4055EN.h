@@ -1,0 +1,4 @@
+// Converted by ./ConvertTextEN.py
+
+#define MID_SCENARIO_MAP_BEGIN_S4055_EN 6449
+#define MID_SCENARIO_ENDING_S4055_EN 6450

@@ -4,8 +4,8 @@
 .rodata.chapterMapAmount : {*(.rodata.chapterMapAmount)}
 . = 0x8031ac2;
 .rodata.chapterMapChangeAmount : {*(.rodata.chapterMapChangeAmount)}
-. = 0x8031aee;
-.rodata.chapterEventAmount : {*(.rodata.chapterEventAmount)}
+/*. = 0x8031aee;
+.rodata.chapterEventAmount : {*(.rodata.chapterEventAmount)}*/
 . = 0x8031b1e;
 .rodata.chapterNameStringAmount : {*(.rodata.chapterNameStringAmount)}
 . = 0x8082f30;

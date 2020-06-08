@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2093_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｓｏｒｒｙ．　Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｈｅｒｅ．"TCC_NEWLINE"　Ｇｉｒｄ"TCC_NEWLINE
+"ｙｏｕｒｓｅｌｖｅｓ　ａｇａｉｎｓｔ　ｔｈｅ　ｍａｇｉｃ　ｏ"TCC_NEWLINE"ｆ　ｔｈｅ"TCC_NEWLINE
+"Ｇｏｄｄｅｓｓ　ｏｆ　Ｔｈｕｎｄｅｒ，　Ｉｓｈｔａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

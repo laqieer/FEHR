@@ -1,0 +1,90 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S1101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｏｏｋ　ａｌｉｖｅ，　ｅｖｅｒｙｏｎｅ！　Ｗｅ　ｈａｖｅ　"TCC_NEWLINE"ａｎ"TCC_NEWLINE
+"ｅｍｅｒｇｅｎｃｙ　ｏｎ　ｏｕｒ　ｈａｎｄｓ．　Ｐｒｉｎｃｅ"TCC_NEWLINE"ｓｓ"TCC_NEWLINE
+"Ｖｅｒｏｎｉｃａ’ｓ　ｆｏｒｃｅｓ　ａｒｅ　ｉｎｖａｄｉｎｇ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｇａｉｎ？　Ｓｕｃｈ　ｎｅｒｖｅ，　ｔｈａｔ　ｏｎｅ！　Ｗ"TCC_NEWLINE"ｈｉｃｈ"TCC_NEWLINE
+"ｗｏｒｌｄ　ｉｓ　ｉｔ　ｔｈｉｓ　ｔｉｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｕｒｓ！　Ｈｅｒ　ｆｏｒｃｅｓ　ａｒｅ　ｉｎｖａｄｉｎｇ"TCC_NEWLINE
+"Ａｓｋｒ！　Ｔｈｅｙ’ｖｅ　ｂｒｏｋｅｎ　ｔｈｒｏｕｇｈ　ｔ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
+"ｂｏｒｄｅｒ，　ａｎｄ　ｔｈｅｙ’ｒｅ　ｃｌｏｓｅ　ｂｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ’ｒｅ　ｊｏｋｉｎｇ，　ｒｉｇｈｔ？　Ｗｈｅｎ　ｄｉｄ"TCC_NEWLINE"　ｓｈｅ"TCC_NEWLINE
+"ｅｖｅｎ　ｆｉｎｄ　ｔｈｅ　ｔｉｍｅ　ｔｏ　ｅｎｓｎａｒｅ　"TCC_NEWLINE"ａｎｙ"TCC_NEWLINE
+"ｍｏｒｅ　Ｈｅｒｏｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｔｈｏｕｇｈ　ｔｈｅ　Ｏｒｄｅ"TCC_NEWLINE"ｒ　ｏｆ"TCC_NEWLINE
+"Ｈｅｒｏｅｓ　ｈａｓ　ｂｅｅｎ　ｄｏｉｎｇ　ｉｔｓ　ｂｅｓｔ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ｋｅｅｐ　ａｎ　ｅｙｅ　ｏｎ　ｈｅｒ．．．ｗｅ　ｆａｉｌｅｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｎｏｔ　ｔｈｅ　ｗｏｒｓｔ　ｏｆ　ｉｔ，　Ｉ’"TCC_NEWLINE"ｍ　ａｆｒａｉｄ．"TCC_NEWLINE
+"Ｔｈｅ　Ｈｅｒｏ　ｓｈｅ’ｓ　ｃｏｎｔｒａｃｔｅｄ　ｉｓ　ｓ"TCC_NEWLINE"ａｉｄ"TCC_NEWLINE
+"ｔｏ　ｂｅ　ｔｈｅ　ｓｔｒｏｎｇｅｓｔ　ｉｎ　ａｌｌ　ｔｈｅ"TCC_NEWLINE"　ｗｏｒｌｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｓｔｒｏｎｇｅｓｔ　ｏｆ　ｔｈｅ　Ｈｅｒｏｅｓ？　Ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｃａｎ’ｔ　ｍｅａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ　ａｆｒａｉｄ　Ｉ　ｄｏ．　Ｙｏｕ　ｍａｙ　ｋｎｏｗ　"TCC_NEWLINE"ｈｉｍ　ａｓ"TCC_NEWLINE
+"ｔｈｅ　Ｒａｄｉａｎｔ　Ｈｅｒｏ．．．　Ｉ’ｍ　ｔａｌｋｉｎ"TCC_NEWLINE"ｇ　ａｂｏｕｔ"TCC_NEWLINE
+"Ｉｋｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S1101_EN] = TCC_OPEN_LEFT
+"Ｓｏ　ｔｈｉｓ　ｉｓ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｙｏｕ　ｄｏｎ’ｔ　ｓｅｅｍ　ｍｕｃｈ　ｌｉｋｅ　ｔｈｅ"TCC_NEWLINE
+"ｒｏｙａｌ　ａｒｍｉｅｓ　Ｉ’ｖｅ　ｆｏｕｇｈｔ　ｂｅｆｏｒ"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｇｒｅｉｌ　Ｍｅｒｃｅｎａｒｉｅｓ　ａｒｅ　ｂｏｕｎ"TCC_NEWLINE"ｄ　ｂｙ"TCC_NEWLINE
+"ｏｕｒ　ｃｏｎｔｒａｃｔ　ｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒ"TCC_NEWLINE"ｏｎｉｃａ．"TCC_NEWLINE
+"Ｗｅ　ｆｉｎｉｓｈ　ｗｈａｔ　ｗｅ　ｓｔａｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｄｏｎ’ｔ　ｈａｖｅ　ｔｈｅ　ｃｏｕｒａｇｅ　"TCC_NEWLINE"ｆｏｒ　ａ"TCC_NEWLINE
+"ｆｉｇｈｔ，　ｙｏｕ’ｄ　ｂｅｔｔｅｒ　ｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｉｓｔｅｎ　ｕｐ，　ｅｖｅｒｙｏｎｅ．　Ｔｈｅｒｅ’ｓ　ｎ"TCC_NEWLINE"ｏ　ｎｅｅｄ"TCC_NEWLINE
+"ｔｏ　ｄｅｆｅａｔ　ｔｈｅｍ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｓｔａｙ　ｓａｆｅ　ａｎｄ　ｍａｋｅ　ｉｔ　ｔｈｒ"TCC_NEWLINE"ｏｕｇｈ"TCC_NEWLINE
+"ｔｈｅ　ｂａｔｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｗｈａｔ　ｙｏｕ　ｃａｎ　ｔｏ　ｕｓｅ　ｕｐ　ｔｉｍｅ"TCC_NEWLINE"，　ａｎｄ"TCC_NEWLINE
+"ｄｏｎ’ｔ　ｔｒｙ　ａｎｙｔｈｉｎｇ　ｒｅｃｋｌｅｓｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S1101_EN] = TCC_OPEN_LEFT
+"Ｗｅｌｌ，　Ｉ　ｇｕｅｓｓ　ｔｈａｔ’ｓ　ｉｔ．　Ｉｋｅ，　"TCC_NEWLINE"ｌｅｔ’ｓ"TCC_NEWLINE
+"ｒｅｇｒｏｕｐ　ｆｏｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｖｅ　ｓｈａｒｅｄ　ｏｕｒ　ｗａｒｄ　ｗｉｔｈ　ｙｏｕ．"TCC_NEWLINE"．．ｂｕｔ"TCC_NEWLINE
+"ｉｔｓ　ｐｒｏｔｅｃｔｉｏｎ　ｗｏｎ’ｔ　ｌａｓｔ　ｆｏｒｅ"TCC_NEWLINE"ｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ．　Ｓｏｏｎ　ｅｎｏｕｇｈ　ｉ"TCC_NEWLINE"ｔｓ"TCC_NEWLINE
+"ｐｏｗｅｒ　ｗｉｌｌ　ｒｅｔｕｒｎ，　ａｎｄ　ｔｈｅｎ　ｗｅ"TCC_NEWLINE"’ｌｌ　ｓｔｒｉｋｅ"TCC_NEWLINE
+"ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｇａｉｎ．　Ａｎｄ　ａｇａｉｎ．　Ｏｖｅｒ　ａｎｄ"TCC_NEWLINE
+"ｏｖｅｒ．　Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｌｏｎｇ　ｉｔ　ｔａ"TCC_NEWLINE"ｋｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S1101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ　ｍａｎａｇｅｄ　ｔｏ　ｆｅｎｄ　ｔｈｅｍ　ｏｆｆ．．．"TCC_NEWLINE
+"ｆｏｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｂａｒｅｌｙ！　Ｔｈａｔ　Ｉｋｅ．．．ｔｈｅ　Ｒａｄｉａｎｔ"TCC_NEWLINE"　Ｈｅｒｏ．．．"TCC_NEWLINE
+"Ｉｓ　ｉｔ　ｍｅ，　ｏｒ　ｉｓ　ｈｅ　ＷＡＹ　ｔｏｏ　ｓｔｒ"TCC_NEWLINE"ｏｎｇ？"TCC_NEWLINE
+"Ｓｏ　ｍｕｃｈ　ｓｏ　ｔｈａｔ　ｉｔ’ｓ　ｊｕｓｔ　ｎｏｔ　"TCC_NEWLINE"ｆａｉｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｃａｎ’ｔ　ａｒｇｕｅ．　Ｈｉｓ　ｓｋｉｌｌｓ　ｓｐｅａ"TCC_NEWLINE"ｋ　ｔｏ　ａ　ｌｉｆｅ"TCC_NEWLINE
+"ｓｐｅｎｔ　ｔｒａｉｎｉｎｇ　ｆｏｒ　ｂａｔｔｌｅ，　ａｎｄ"TCC_NEWLINE"　ｎｏ　ｏｎｅ"TCC_NEWLINE
+"ｃａｎ　ｍａｔｃｈ　ｈｉｓ　ｔｅｎａｃｉｔｙ．．．　Ｃａｎ　"TCC_NEWLINE"ｗｅ　ｗｉｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈｅｙ！　Ｄｏｎ’ｔ　ｇｉｖｅ　ｕｐ　ｊｕｓｔ　ｙｅｔ！"TCC_NEWLINE
+"Ｔｈｉｎｇｓ　ｍａｙ　ｌｏｏｋ　ｄａｒｋ　ｒｉｇｈｔ　ｎｏｗ"TCC_NEWLINE"，　ｂｕｔ"TCC_NEWLINE
+"ｔｈａｔ　ｂａｔｔｌｅ　ｄｉｄ　ｔｅａｃｈ　ｕｓ　ｓｏｍｅｔ"TCC_NEWLINE"ｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ，"TCC_TACTICIAN_NAME"？"TCC_NEWLINE
+"Ｅｖｅｎ　ｔｈｏｕｇｈ　ｔｈｅｙ　ｈａｄ　ａ　ｈｕｇｅ"TCC_NEWLINE
+"ａｄｖａｎｔａｇｅ，　ｏｕｒ　ｏｐｐｏｎｅｎｔｓ　ｆｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ！　Ｈａｄ　ｔｈｅ　ｂａｔｔｌｅ　ｃ"TCC_NEWLINE"ｏｎｔｉｎｕｅｄ，"TCC_NEWLINE
+"ｔｈｅｙ　ｗｏｕｌｄ　ｈａｖｅ　ｗｏｎ．　Ｔｈｅｒｅ　ｈａｓ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ｂｅ　ａ　ｒｅａｓｏｎ　ｆｏｒ　ｉｔ．．．　Ｄｏ　ｙｏｕ　ｔ"TCC_NEWLINE"ｈｉｎｋ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ．　Ｗｈａｔｅｖｅｒ　ｐｏｗｅｒ　ｉｔ　ｉｓ　ｔｈｅｙ"TCC_NEWLINE"　ｈａｖｅ"TCC_NEWLINE
+"ｐｒｏｔｅｃｔｉｎｇ　ｔｈｅｍ，　ｉｔ　ｄｏｅｓｎ’ｔ　ｌａ"TCC_NEWLINE"ｓｔ　ｖｅｒｙ"TCC_NEWLINE
+"ｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｕｒｅ　ｔｈｅｙ’ｌｌ　ａｔｔａｃｋ　ａｇａｉｎ．"TCC_NEWLINE"　Ｗｅ’ｄ"TCC_NEWLINE
+"ｂｅｔｔｅｒ　ｇｅｔ　ｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

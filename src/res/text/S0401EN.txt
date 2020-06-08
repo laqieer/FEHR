@@ -1,0 +1,21 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S0401_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ｍｕｓｔ　ｂｅ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄｏｍ．　Ｐｌｅａｓｅｄ　ｔｏ"TCC_NEWLINE
+"ｍａｋｅ　ｙｏｕｒ　ａｃｑｕａｉｎｔａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　Ｒｏｙ．　Ｉ　ｋｎｏｗ　Ｉ　ｌｏｏｋ　ｙｏｕｎｇ，　"TCC_NEWLINE"ｂｕｔ"TCC_NEWLINE
+"Ｉ’ｍ　ｌｅａｄｉｎｇ　ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｐｈｅｒ"TCC_NEWLINE"ａｅ"TCC_NEWLINE
+"ｏｎ　ｍｙ　ｆａｔｈｅｒ’ｓ　ｂｅｈａｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｔｈａｔ　ｉｔ’ｓ　ｎｏｔ　ｖｅｒｙ　ｎｏｂｌ"TCC_NEWLINE"ｅ　ｔｏ"TCC_NEWLINE
+"ｐｏｉｎｔ　ｍｙ　ｂｌａｄｅ　ａｔ　ｏｔｈｅｒ　ｆｉｎｅ"TCC_NEWLINE
+"ｍｅｍｂｅｒｓ　ｏｆ　ｒｏｙａｌｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｍ　ａｆｒａｉｄ　ｔｈａｔ　ｗｅ’ｒｅ　ａｌｌ　"TCC_NEWLINE"ｂｏｕｎｄ"TCC_NEWLINE
+"ｂｙ　ｃｏｎｔｒａｃｔ．　Ｉ　ｈｏｐｅ　ｙｏｕ’ｌｌ　ｆｏｒ"TCC_NEWLINE"ｇｉｖｅ"TCC_NEWLINE
+"ｍｅ　ｆｏｒ　ｗｈａｔ　ｗｅ　ｍｕｓｔ　ｎｏｗ　ｄｏ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S0401_EN] = TCC_OPEN_LEFT
+"Ｙｏｕｒ　ｇｒｏｕｐ　ｉｓ　ａｓ　ｓｔｒｏｎｇ　ａｓ　ｔｈｅ"TCC_NEWLINE"ｙ　ｓａｙ！"TCC_NEWLINE
+"Ｂｕｔ　ｏｕｒ　ｃｏｎｔｒａｃｔ　ｉｓ　ｎｏｔ　ｙｅｔ　ｂｒ"TCC_NEWLINE"ｏｋｅｎ．"TCC_NEWLINE
+"Ａｎｄ　ｓｏ，　Ｉ　ｗｉｌｌ　ｓｅｅ　ｙｏｕ　ａｇａｉｎ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

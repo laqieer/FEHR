@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4032_EN] = TCC_OPEN_LEFT
+"Ｗｅ　ｗｉｌｌ　ｓｏａｒ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｓｋｉｅｓ"TCC_NEWLINE
+"ｔｏｇｅｔｈｅｒ　ａｇａｉｎ　ｏｎｅ　ｄａｙｊｕｓｔ　ａｓ"TCC_NEWLINE
+"ｗｅ　ｕｓｅｄ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

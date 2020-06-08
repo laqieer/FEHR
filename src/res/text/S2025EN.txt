@@ -1,0 +1,79 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ　ｓｅｅ　ｓｏｍｅｔｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_SURTR
+"Ａｈ，　ｓｏｍｅ　ｆｒｅｓｈ　ｆａｃｅｓ．　Ｇｏｏｄ．　Ｉ　"TCC_NEWLINE"ｗａｓ"TCC_NEWLINE
+"ｇｒｏｗｉｎｇ　ｂｏｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｗｈｏ　ｓｈｒｉｎｋ　ｆｒｏｍ　ｔｈｅ　ｆｌａｍ"TCC_NEWLINE"ｅｓ．．．"TCC_NEWLINE
+"Ｔｈｏｓｅ　ｗｈｏ，　ｗｈｅｎ　ｃｏｎｆｒｏｎｔｅｄ　ｂｙ　"TCC_NEWLINE"ｔｒｕｅ"TCC_NEWLINE
+"ｐｏｗｅｒ，　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｂ"TCC_NEWLINE"ｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｓｔｅｎ　ｔｏ　ｍｅ　ｎｏｗ．　Ｉ　ａｍ　Ｓｕｒｔｒ．　"TCC_NEWLINE"Ｉ　ａｍ"TCC_NEWLINE
+"ｙｏｕｒ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｋｉｎｇ　Ｓｕｒｔｒ　ｏｆ　Ｍｓｐｅｌｌ，　Ｉ　ａｍ　Ｐｒｉ"TCC_NEWLINE"ｎｃｅ"TCC_NEWLINE
+"Ａｌｆｏｎｓｅ　ｏｆ　Ａｓｋｒ．　Ｅｘｐｌａｉｎ　ｔｏ　ｍｅ"TCC_NEWLINE"．．．ｗｈａｔ"TCC_NEWLINE
+"ｇｉｖｅｓ　ｙｏｕ　ｔｈｅ　ｒｉｇｈｔ　ｔｏ　ｄｏ　ｔｈｉｓ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ’ｓ　ｎｏ　ｊｏｋｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｅｐｉｄ．．．ａｎｄ　ｄｕｌｌ．　Ｓａｖｅ　ｙｏｕｒ　ｗｏ"TCC_NEWLINE"ｒｄｓ．　Ａ"TCC_NEWLINE
+"ｔｒｕｅ　ｒｕｌｅｒ　ｓｅｉｚｅｓ　ｏｔｈｅｒ　ｌａｎｄｓ．"TCC_NEWLINE"　Ｈｅ　ｐｕｔｓ"TCC_NEWLINE
+"ｔｈｅｉｒ　ｐｅｏｐｌｅ　ｔｏ　ｔｈｅ　ｆｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ｏｎｅ　ｋｉｎｇ．　Ｔｈｅｒｅ　"TCC_NEWLINE"ｉｓ　ｏｎｌｙ"TCC_NEWLINE
+"ｏｎｅ　ｋｉｎｇｄｏｍ．　Ａｌｌ　ｅｌｓｅ　ｗｉｌｌ　ｂｕｒ"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｓ　ｔｈａｔ　ｙｏｕｒ　ａｎｓｗｅｒ？　Ｗｅｌｌ，　ｔｈｅ"TCC_NEWLINE"ｎ．　Ｗｅ"TCC_NEWLINE
+"ｈａｖｅ　ｂｕｔ　ｏｎｅ　ｐｏｓｓｉｂｌｅ　ｒｅｐｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｓｅｅ．　Ｙｏｕ　ｉｎｔｅｎｄ　ｔｏ　ｆｉｇｈｔ．　Ｖｅ"TCC_NEWLINE"ｒｙ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｈｉｌｄｒｅｎ　ｏｆ　Ａｓｋｒ，　ｔｈｅ　ｏｎｅｓ　ｗｈｏ"TCC_NEWLINE"　ｏｐｅｎ"TCC_NEWLINE
+"ｔｈｅ　ｗａｙ．．．　Ｉ　ｈｅａｒ　ｙｏｕ　ｒｅｌｙ　ｏｎ　"TCC_NEWLINE"ｔｈｅ　ｐｏｗｅｒ"TCC_NEWLINE
+"ｙｏｕ　ｂｏｒｒｏｗ　ｆｒｏｍ　ｏｔｈｅｒ　ｒｅａｌｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆａｓｃｉｎａｔｉｎｇ！　Ｗｅ　ｗｉｌｌ　ｓｅｅ　ｗｈａｔ"TCC_NEWLINE
+"ｒｅｍａｉｎｓ：　ｙｏｕ，　ｏｒ　ｔｈｅ　ｆｉｒｅｓ　ｏｆ　"TCC_NEWLINE"Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｅｖａｔｅｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｓｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｏｋｉ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_LOKI
+"Ｂｙ　ｙｏｕｒ　ｓｉｄｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ　ｔｉｍｅ　ｆｏｒ　ｔｈｅ　ｓｌａｕｇｈｔｅｒ！　Ｈ"TCC_NEWLINE"ａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ’ｒｅ　ｎｏｔ　ｍａｋｉｎｇ　ａ　ｄｅｎｔ　ｉｎ　Ｓｕｒ"TCC_NEWLINE"ｔｒ’ｓ"TCC_NEWLINE
+"ｄｅｆｅｎｓｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉｓ　ｉｔ　Ｅｍｂｌａ’ｓ　Ｗａｒｄ　ａｇａｉｎ？　Ｉｆ　ｓ"TCC_NEWLINE"ｏ．．．ｗｅ’ｌｌ"TCC_NEWLINE
+"ｊｕｓｔ　ｗａｉｔ　ｆｏｒ　ｏｕｒ　ｃｈａｎｃｅ　ａｎｄ　ｓ"TCC_NEWLINE"ｔｒｉｋｅ"TCC_NEWLINE
+"ｗｈｅｎ　ｉｔｓ　ｐｏｗｅｒ　ｆａｄｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｔｈｉｓ　ｉｓ　Ｋｉｎｇ　Ｓｕｒｔｒ’ｓ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌａｍｅｓ　ａｒｅ　ｕｎｄｙｉｎｇ，"TCC_NEWLINE
+"ｕｎｑｕｅｎｃｈａｂｌｅ．．．　Ｎｏ　Ｈｅｒｏ，　ｎｏ　ｗｅ"TCC_NEWLINE"ａｐｏｎ"TCC_NEWLINE
+"ｃａｎ　ｄｅｆｅａｔ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｎｄｙｉｎｇ，　ｕｎｑｕｅｎｃｈａｂｌｅ　ｆｌａｍｅｓ．．"TCC_NEWLINE"．　Ｊｕｓｔ"TCC_NEWLINE
+"ｌｉｋｅ　ｔｈｅ　ｂｏｏｋ　ｏｆ　ｐｒｏｐｈｅｃｙ　ｓａｙｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｆ　ｔｈａｔ’ｓ　ｔｒｕｅ．．．ｗｈａｔ　ａｒｅ　ｗｅ　ｓ"TCC_NEWLINE"ｕｐｐｏｓｅｄ"TCC_NEWLINE
+"ｔｏ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｕｒ　ｏｎｌｙ　ｒｅｃｏｕｒｓｅ　ｉｓ　ｒｅｔｒｅａｔ．　"TCC_NEWLINE"Ｌｅｔ’ｓ　ｇｏ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_SURTR
+"Ｗａｔｃｈ　ｔｈｅｍ　ｆｌｅｅ！　Ａｓ　ｔｅｐｉｄ　ａｓ　ｂ"TCC_NEWLINE"ｅｆｏｒｅ，"TCC_NEWLINE
+"ｔｈｅｓｅ　ｗｅａｋｌｉｎｇｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｉｄｉｎｇ　ｉｓ　ｕｓｅｌｅｓｓ．　Ｔｈｉｓ　ｅｎｔｉｒｅ"TCC_NEWLINE"　ｒｅａｌｍ"TCC_NEWLINE
+"ｗｉｌｌ　ｃｒａｃｋｌｅ　ｗｉｔｈ　ｍｙ　ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｐｅｏｐｌｅ，　Ａｓｋｒ．．．　Ｆ"TCC_NEWLINE"ｌａｙｅｄ"TCC_NEWLINE
+"ｂｙ　ｍｙ　ｆｌａｍｅｓ，　ｌｉｖｉｎｇ　ｔｏｒｃｈｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｉｆｌ　ｔｏｏｋ　ｍｅ　ｓｉｘ　ｍｏｎｔｈｓ．　Ｔｈｅ　ｏ"TCC_NEWLINE"ｎｅ"TCC_NEWLINE
+"ｂｅｆｏｒｅ　ｔｈａｔ．．．ｔｈｒｅｅ．　Ｈｏｗ　ｌｏｎｇ　"TCC_NEWLINE"ｃａｎ"TCC_NEWLINE
+"Ａｓｋｒ　ｌａｓｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｉｍｅ　ｗｅ　ｆｉｎｄ　ｏｕｔ！　Ｈａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

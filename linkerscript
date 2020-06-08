@@ -78,6 +78,8 @@ unitAtRight = 0x203e070;
 characterIdAtLeft = 0x203e074;
 characterIdAtRight = 0x203e075;
 
+gpDefaultChapterEvent = 0x203f008;
+
 currentGameClock = 0x3000010;
 gpProc_0300003c = 0x300003c;
 currentActiveUnit = 0x30045b0;
@@ -423,7 +425,7 @@ SECTIONS
     . = 0xE008000 - 2;
     .bss.locationLoByte : {*/gba_debug_print.*(.bss.locationLoByte.*)}
     .bss.locationHiByte : {*/gba_debug_print.*(.bss.locationHiByte.*)}
-	. = 0x203F000;
+	. = 0x203F040;
 	.bss : {*(.bss*)}
 	__end__ = .;
 	. = 0x9000000;

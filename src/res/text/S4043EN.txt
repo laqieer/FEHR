@@ -1,0 +1,75 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4043_EN] = TCC_OPEN_LEFT
+"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔｅａｒｓ　ｗｅ　ｓｈ"TCC_NEWLINE"ｅｄ，"TCC_NEWLINE
+"ｔｈｅ　ｓｎｏｗ　ｗｉｌｌ　ｎｏｔ　ｍｅｌｔ．　Ｂｅｔｔｅｒ"TCC_NEWLINE"　ｔｈａｔ　ｗｅ"TCC_NEWLINE
+"ｆｉｇｈｔ　ｆｏｒ　ｏｕｒ　ｈｏｍｅｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4043_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈ－ｔｈｉｓ　ｓｃｅｎｅｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｗｒｏｎｇ，　Ｓｈａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ．．．ｒｅｍｅｍｂｅｒ　ｔｈｉｓ　ｐｌａｃｅ，　Ｉ　ｔｈｉ"TCC_NEWLINE"ｎｋ．"TCC_NEWLINE
+"Ｔｈａｔ　ｆｉｅｌｄ　ｏｆ　ｆｌｏｗｅｒｓ　ｉｓ　ｆａｍｉｌ"TCC_NEWLINE"ｉａｒ．"TCC_NEWLINE
+"Ｌｉｋｅ　Ｉ’ｖｅ　ｂｅｅｎ　ｈｅｒｅ　ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｅａｒｔ．．．　Ｓｏ　ｍａｎｙ　ｍｅｍｏｒｉｅｓ．．"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｉ　ｃａｎ　ｈａｒｄｌｙ　ｃｏｎｔａｉｎ　ｍｙｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈｏｗ　ｗｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｍｅｍｏｒｉｅｓ　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｗａｓ　ａ　ｖｅｒｙ　ｌｏｎｇ　ｔｉｍｅ　ａｇｏ．．．"TCC_NEWLINE"　Ｗｈｅｎ"TCC_NEWLINE
+"Ｉ　ｗａｓ　ａ　ｊｕｓｔ　ａ　ｇｉｒｌ．．．　Ｉ　ｄｏｎ’ｔ"TCC_NEWLINE"　ｋｎｏｗ　ｈｏｗ，"TCC_NEWLINE
+"ｂｕｔ　Ｉ　ｃａｍｅ　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｏｏｏｈ！　Ｌｅｔ　ｍｅ　ａｓｋ　ｙｏｕ　ｓｏｍｅｔｈｉｎｇ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ，　ｒｉｇｈｔ？　"TCC_NEWLINE"Ｄｉｄ"TCC_NEWLINE
+"ｙｏｕ．．．ｐｌａｙ　ｗｉｔｈ　ｌｊｓｌｆａｒ？　Ｄｏ　ｙｏ"TCC_NEWLINE"ｕ．．．"TCC_NEWLINE
+"ｒｅｍｅｍｂｅｒ　ａｎｙｔｈｉｎｇ　ａｔ　ａｌｌ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｙｅａｈ！　Ｉ　ｕｓｅｄ　ｔｏ　ｐｌａｙ　ｗｉｔｈ　"TCC_NEWLINE"ｏｔｈｅｒ"TCC_NEWLINE
+"ｇｉｒｌｓ　ｗｈｏ　ｍｕｓｔ’ｖｅ　ｂｅｅｎ　ｎｅａｒ　ｍｙ"TCC_NEWLINE"　ａｇｅ．．．"TCC_NEWLINE
+"Ｗｅ　ｐｌａｙｅｄ　ｈｉｄｅ－ａｎｄ－ｓｅｅｋ，　ｄｒｅｓｓ"TCC_NEWLINE"－ｕｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｃｔｕａｌｌｙ，　ｔｈｅｙ　ｍｉｇｈｔ’ｖｅ　ｌｏｏｋｅｄ"TCC_NEWLINE"　ａ"TCC_NEWLINE
+"ｂｉｔ　ｌｉｋｅ　Ｐｅｏｎｙ．．．　Ｗ－ｗｅｒｅ　ｙｏｕ　ｔ"TCC_NEWLINE"ｈｅｒｅ，"TCC_NEWLINE
+"Ｐｅｏｎｙ？　Ｄｏ　ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｈｍｍ．．．　Ｓｏｒｒｙ，　Ｉ　ｄｏｎ’ｔ．　Ｉ　ＨＡＶＥ　"TCC_NEWLINE"ｐｌａｙｅｄ"TCC_NEWLINE
+"ｗｉｔｈ　ｃｈｉｌｄｒｅｎ　ｉｎ　ｔｈｅｉｒ　ｄｒｅａｍｓ，"TCC_NEWLINE"　ｂｕｔ．．．"TCC_NEWLINE
+"Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｙｏｕ　ｗｅｒｅ　ｏｎｅ　ｏｆ　"TCC_NEWLINE"ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ．．．　Ｉ　ｓｅｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ，　ｓｉｎｃｅ　ｉｆ　ｉｔ’ｓ　ｃｈｉｌｄｒｅｎ　ｗ"TCC_NEWLINE"ｈｏ　ｕｓｕａｌｌｙ"TCC_NEWLINE
+"ｖｉｓｉｔ　ｔｈｅｓｅ　ｐａｒｔｓ，　ａｎｄ　ｉｔ’ｓ　ｂｅ"TCC_NEWLINE"ｅｎ　ａｔ　ｌｅａｓｔ"TCC_NEWLINE
+"１０　ｙｅａｒｓ　ｓｉｎｃｅ　Ｓｈａｒｅｎａ　ｗａｓ　ａ　ｃ"TCC_NEWLINE"ｈｉｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｃｔｕａｌｌｙ．．．ｈｏｗ　ｏｌｄ　ａｒｅ　ｙｏｕ，　Ｐｅ"TCC_NEWLINE"ｏｎｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ！　Ｈａｖｅ　ｙｏｕ　ｎｏ　ｓｅｎｓｅ　ａｔ　"TCC_NEWLINE"ａｌｌ？！"TCC_NEWLINE
+"Ｉｔ’ｓ　ＲＵＤＥ　ｔｏ　ａｓｋ　ａ　ｌａｄｙ　ｈｅｒ　ａｇ"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ！　Ｙｏｕ’ｄ　ｄ"TCC_NEWLINE"ｏ　ｗｅｌｌ"TCC_NEWLINE
+"ｔｏ　ｒｅｍｅｍｂｅｒ　ｔｈａｔ　ｉｎ　ｔｈｅ　ｆｕｔｕｒｅ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ－Ｉ’ｍ　ｓｏｒｒｙ！　Ｉ　ｊｕｓｔ．．．　Ｉ　ｍｅａｎｔ"TCC_NEWLINE"　ｎｏｔｈｉｎｇ"TCC_NEWLINE
+"ｂｙ　ｉｔ！　Ａｐｏｌｏｇｉｅｓ　ｆｏｒ　ａｎｙ　ｏｆｆｅｎ"TCC_NEWLINE"ｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｈｍｍ．．．　Ａｇｅ　ｉｓ　ｈｏｗ　ｍａｎｙ　ｙｅａｒｓ　ｈ"TCC_NEWLINE"ａｖｅ"TCC_NEWLINE
+"ｐａｓｓｅｄ　ｓｉｎｃｅ　ｙｏｕ　ｗｅｒｅ　ｂｏｒｎ，　ｒｉ"TCC_NEWLINE"ｇｈｔ？"TCC_NEWLINE
+"Ｉ．．．ｄｏｎ’ｔ　ｋｎｏｗ　ｉｆ　Ｉ　ｃａｎ　ｔｅｌｌ　ｙ"TCC_NEWLINE"ｏｕ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌｏｗ　ｏｆ　ｔｉｍｅ　ｉｎ　Ｌｊｓｌｆｈｅｉｍｒ"TCC_NEWLINE"　ｉｓ"TCC_NEWLINE
+"ｄｉｆｆｅｒｅｎｔ　ｔｈａｎ　ｉｎ　ｔｈｅ　ｗａｋｉｎｇ　ｗ"TCC_NEWLINE"ｏｒｌｄ．．．"TCC_NEWLINE
+"Ｐｌｕｓ，　ｏｎｅ　ｄａｙ，　Ｉ　ｗａｓ　ｊｕｓｔ　ｈｅｒｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗｅｒｅ　ｊｕｓｔ．．．ｉｎ　Ｌｊｓｌｆｈｅｉｍｒ"TCC_NEWLINE
+"ｏｎｅ　ｄａｙ？　Ｓｕｄｄｅｎｌｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ！　Ｉ　ｗａｓ　ｂｒｏｕｇｈｔ　ｔｏ"TCC_NEWLINE"　ｌｉｆｅ"TCC_NEWLINE
+"ｔｈｒｏｕｇｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ｄｒｅａｍ－Ｋｉｎ"TCC_NEWLINE"ｇ"TCC_NEWLINE
+"Ｆｒｅｙｒ　ａｎｄ　ｈｉｓ　ｓｉｓｔｅｒ，　Ｌａｄｙ　Ｆｒｅ"TCC_NEWLINE"ｙｊａ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｂｙ　ｔｈｅｍ　ｍｙ　ｌｉｆｅ　ｗａｓ　ｇｉｖｅｎ　"TCC_NEWLINE"ｉｔｓ"TCC_NEWLINE
+"ｐｕｒｐｏｓｅｔｏ　ｇｉｖｅ　ｇｏｏｄ　ｄｒｅａｍｓ　ｔｏ"TCC_NEWLINE
+"ｅｖｅｒｙｏｎｅ，　ｅｖｅｒｙｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

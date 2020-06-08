@@ -1,0 +1,87 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S1401_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｚａｃｈａｒｉａｓ．．．　Ｗｈｅｒｅ　ｄｏ　ｙｏｕ　ｔｈｉｎ"TCC_NEWLINE"ｋ　ｈｅ　ｉｓ"TCC_NEWLINE
+"ｒｉｇｈｔ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｄｅａ．　Ａｌｌ　Ｉ　ｋｎｏｗ　ｉｓ　"TCC_NEWLINE"ｔｈａｔ　ｈｅ"TCC_NEWLINE
+"ｖａｎｉｓｈｅｄ　ｗｉｔｈｏｕｔ　ａ　ｗｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗａｓ　ｏｕｒ　ｆｒｉｅｎｄ．　Ｗｈｙ　ｄｉｄ　ｈｅ　"TCC_NEWLINE"ｈｉｄｅ"TCC_NEWLINE
+"ｈｉｓ　ｉｄｅｎｔｉｔｙ　ｆｒｏｍ　ｕｓ？　Ａｎｄ　ｗｈｙ　"TCC_NEWLINE"ｈａｓ　ｈｅ"TCC_NEWLINE
+"ｃｈｏｓｅｎ　ｔｏ　ｓｉｄｅ　ｗｉｔｈ　Ｅｍｂｌａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｅｄ　ｔｏ　ｕｎｄｅｒｓｔａｎｄ　ｗｈａｔ’ｓ　ｇｏ"TCC_NEWLINE"ｉｎｇ　ｏｎ．"TCC_NEWLINE
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｆｉｎｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｇｅｔ　ｒｅａｄｙ，　ｔｈｅｎ！　Ｗｅ　ｈａｖｅ　ｆｒｅｓｈ"TCC_NEWLINE
+"ｉｎｆｏｒｍａｔｉｏｎ　ｏｎ　Ｐｒｉｎｃｅ　Ｂｒｕｎｏｎｏ，"TCC_NEWLINE
+"Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ’ｓ　ｙｏｕｒ　ｃｈａｎｃｅ　ｔｏ　ｆｉｎｄ　ｏｕｔ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
+"ａｎｓｗｅｒｓ　ｙｏｕ’ｒｅ　ｌｏｏｋｉｎｇ　ｆｏｒ．　Ｈｅ"TCC_NEWLINE"’ｓ　ｉｎ"TCC_NEWLINE
+"ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｒａｄｉａｎｃｅ．　Ｌｅｔ’ｓ　ｇ"TCC_NEWLINE"ｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S1401_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ａｎｏｔｈｅｒ．．．ｄｅａｄ　ｅｎｄ．　Ｉ　ｓｅａｒｃｈ，　"TCC_NEWLINE"ａｎｄ　Ｉ"TCC_NEWLINE
+"ｓｅａｒｃｈ．．．ｂｕｔ　ｎｏｔｈｉｎｇ．　Ｉ　ｌｅａｒｎ．"TCC_NEWLINE"．．ｎｏｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｔｉｍｅ．．．ｉｓ　ｒｕｎｎｉｎｇ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｚａｃｈａｒｉａｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｒｇｈ．．．　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｌｅａｓｅ．．．　Ｔｅｌｌ　ｍｅ．　Ｗｈａｔ’ｓ　ｈａｐｐ"TCC_NEWLINE"ｅｎｅｄ"TCC_NEWLINE
+"ｔｏ　ｙｏｕ？　Ｉ　ｃａｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ｗｈａ"TCC_NEWLINE"ｔ　ｙｏｕ’ｒｅ"TCC_NEWLINE
+"ｄｏｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎ　ｔｈｅ　ｅｎｄ，　ａｌｌ　ｏｆ　Ｅｍｂｌａ’ｓ　ｒｏｙ"TCC_NEWLINE"ａｌｔｙ．．．ａｒｅ"TCC_NEWLINE
+"ｄｅｖｏｕｒｅｄ　ｂｙ　ｔｈｅ　ｄａｒｋ　ｇｏｄ．　Ｗｅ　ｂ"TCC_NEWLINE"ｅｃｏｍｅ"TCC_NEWLINE
+"ｐｕｐｐｅｔｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｆｉｇｈｔ　ｔｈｅ　ｂｌｏｏｄ　ｆｌｏｗｉｎ"TCC_NEWLINE"ｇ　ｔｈｒｏｕｇｈ"TCC_NEWLINE
+"ｍｙ　ｖｅｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｇｏｄ？　Ｗｈａｔ　ｇｏｄ　ｉｓ　ｔｈｉｓ？　Ｔｅｌｌ　ｍｅ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｓ　ａ　ｐｒｉｎｃｅ，　Ｉ　ｃａｒｒｙ　ｔｈｅ　ｃｕｒｓｅ"TCC_NEWLINE"ｄ　ｂｌｏｏｄ"TCC_NEWLINE
+"ｏｆ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｉｎ　Ｅｍｂｌａ．．．Ｉ　ｗａｓ　ｄｅｓｐｉｓｅｄ　"TCC_NEWLINE"ｂｙ　ｔｈｅ"TCC_NEWLINE
+"ｒｏｙａｌ　ｆａｍｉｌｙ．　Ｂｏｔｈ　ｍｙ　ｍｏｔｈｅｒ　ａ"TCC_NEWLINE"ｎｄ　Ｉ"TCC_NEWLINE
+"ｗｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｃｌａｉｍｅｄ　ｓｈｅ　ｓｈａｒｅｄ　ｉｍｐｅｒｉ"TCC_NEWLINE"ａｌ"TCC_NEWLINE
+"ｓｅｃｒｅｔｓ　ｗｉｔｈ　Ａｓｋｒ．．．　ａｎｄ　ｔｈｅｙ"TCC_NEWLINE
+"ｉｍｐｒｉｓｏｎｅｄ　ｈｅｒ　ｆｏｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｄｉｅｄ　ｉｎ　ｉｓｏｌａｔｉｏｎ．．．　Ｔｈａｎｋ"TCC_NEWLINE"ｓ　ｔｏ　ｔｈｅｉｒ"TCC_NEWLINE
+"ｃｒｕｅｌｔｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　ｍｅ？　Ｉ　ｗａｓ　ｃａｓｔ　ｏｕｔｓｅｎｔ　ｔｏ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
+"ｂｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｓｕｍｉｎｇ　ａ　ｎｅｗ　ｉｄｅｎｔｉｔｙ，　Ｉ　ｅｎｔ"TCC_NEWLINE"ｅｒｅｄ"TCC_NEWLINE
+"Ａｓｋｒ．　Ｉ　ｂｅｃａｍｅ　ｙｏｕｒ　ｆｒｉｅｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｓｅ　ｗｅｒｅ　ｎｅｃｅｓｓａｒｙ　ｓｔｅｐｓ　ｔｏｗ"TCC_NEWLINE"ａｒｄ"TCC_NEWLINE
+"ｄｅｓｔｒｏｙｉｎｇ　Ｅｍｂｌａ，　ｍｙ　ｈｏｍｅｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｔｈａｔ　Ｅｍｂｌｉａｎ　ｂｌｏｏｄ　ｐｕｌｓｅｓ　"TCC_NEWLINE"ｗｉｔｈｉｎ"TCC_NEWLINE
+"ｍｅ．　Ｗｈａｔｅｖｅｒ　Ｉ　ｄｏ，　Ｉ　ｌｉｖｅ　ｋｎｏｗ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
+"ｏｎｅ　ｔｈｉｎｇ：　ｉｔｓ　ｃｕｒｓｅ　ｗｉｌｌ　ｃｏｎｓ"TCC_NEWLINE"ｕｍｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｄ　Ｉ　ｓｔａｙｅｄ　ａｔ　ｙｏｕｒ　ｓｉｄｅ，　Ｉ　ｗ"TCC_NEWLINE"ｏｕｌｄ"TCC_NEWLINE
+"ｈａｖｅ　ｋｉｌｌｅｄ　ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｓｉｓｔｅ"TCC_NEWLINE"ｒ．　Ｓｏ　Ｉ"TCC_NEWLINE
+"ｌｅｆｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ　ｓｏｕｇｈｔ　ａ　ｗａｙ．．．ｔｏ　ｆｉｇｈｔ　"TCC_NEWLINE"ｉｔ．"TCC_NEWLINE
+"Ｕｒｇｈ．．．　Ｇｈｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｚａｃｈａｒｉａｓ？　Ｗｈａｔ’ｓ　ｇｏｉｎｇ　ｏｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｉｍｅ’ｓ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｕｎ．　Ｒｕｎ　ｎｏｗ！　Ｂｅｆｏｒｅ　Ｉ　ｋｉｌｌ　ｙｏ"TCC_NEWLINE"ｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S1401_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｒｒｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｎｏｔ　ｙｅｔ．．．　Ｎｏｔ．．．ｙｅｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｕｒｇｈ．．．　Ｈａ－ｈａ．．．　Ｈｅｅ－ｈｅｅ－ｈｅｅ．．"TCC_NEWLINE"．　Ｏｈ，"TCC_NEWLINE
+"ｃｈｉｌｄｒｅｎ　ｏｆ　Ａｓｋｒ．．．ｉｔ’ｓ　ｔｉｍｅ　ｔ"TCC_NEWLINE"ｏ　ｄｉｅ．　Ｄｉｅ　ｉｎ"TCC_NEWLINE
+"ａｇｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｚａｃｈａｒｉａｓ！　Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

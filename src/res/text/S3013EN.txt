@@ -1,0 +1,53 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3013_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｒｅ　ｙｏｕ　ａ　ｓｏｌｄｉｅｒ　ｆｒｏｍ　ｔｈｅ　ｒｅａ"TCC_NEWLINE"ｌｍ　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｌｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｆ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ’ｔ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ？　Ｗｈａｔ’ｓ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｒｅｍｂｌｅ　ｂｅｆｏｒｅ　Ｓｋｋｖａｂｅｋｋｒ，　ｔｈｅ"TCC_NEWLINE
+"ｓｗｏｒｄ　ｏｆ　ｒｕｉｎ．．．ａｓ　Ｉ　ｄｅｓｔｒｏｙ　ｔ"TCC_NEWLINE"ｈｉｓ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3013_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｖａｎｉｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｄｏ　ｙｏｕ　ｋｎｏｗ　ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ’ｖｅ　ｎｅｖｅｒ　ｍｅｔ．　Ｂｕｔ　ｈｉｓ　ｎａｍｅ　"TCC_NEWLINE"ｉｓ"TCC_NEWLINE
+"ｖｅｒｙ　ｆａｍｉｌｉａｒ　ｔｏ　ｍｅ．　Ｉ’ｖｅ　ｒｅａｄ"TCC_NEWLINE"　ｉｔ　ｉｎ　ｓｏ"TCC_NEWLINE
+"ｍａｎｙ　ｂｏｏｋｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｒｅｃｏｇｎｉｚｅ　ｉｔ，　ｔｏｏ．　"TCC_NEWLINE"Ｌｆ　ｉｓ"TCC_NEWLINE
+"ｔｈｅ　ｐｒｏｇｅｎｉｔｏｒ　ｏｆ　ｔｈｅ　Ａｓｋｒａｎ　ｒ"TCC_NEWLINE"ｏｙａｌ"TCC_NEWLINE
+"ｆａｍｉｌｙａｎｄ　ａ　ｔｒｕｅ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｆｏｒｍｅｄ　ａ　ｐａｃｔ　ｗｉｔｈ　ｔｈｅ　Ｄｉｖｉ"TCC_NEWLINE"ｎｅ"TCC_NEWLINE
+"Ｄｒａｇｏｎ　Ａｓｋｒ　ａｎｄ　ｇａｉｎｅｄ　ｔｈｅ　ｐｏｗ"TCC_NEWLINE"ｅｒ"TCC_NEWLINE
+"ｔｏ　ｏｐｅｎ　ｇａｔｅｓ　ｔｏ　ｏｔｈｅｒ　ｒｅａｌｍｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｆ，　ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ　ｏｆ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ？　Ｈｅ　ｃａｎ’ｔ　ｓｔｉｌｌ"TCC_NEWLINE"　ｂｅ　ａｌｉｖｅ"TCC_NEWLINE
+"ｔｏｄａｙ，　ｃａｎ　ｈｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｆ　ｃｏｕｒｓｅ　ｎｏｔ．　Ｂｕｔ　ｉｆ　ｗｅ　ａｒｅ　ｆ"TCC_NEWLINE"ｉｇｈｔｉｎｇ"TCC_NEWLINE
+"ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｔｈｅｎ　ｗｅ　ｍａｙ　ｅｎｃｏｕｎｔｅｒ　ａｎ"TCC_NEWLINE
+"ａｎｃｅｓｔｏｒ　ｏｒ　ｔｗｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｎｄ　ｆｉｇｈｔ　ｔｈｅｍ，　ｉｔ　ｓｅｅｍｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｋｉｎｇ　Ｌｆ　ｕｎｉｔｅｄ　Ａｓｋｒ　ａｎｄ　ｂｅｃａｍｅ"TCC_NEWLINE"　ａ"TCC_NEWLINE
+"ｔｒｕｅ　Ｈｅｒｏ，　ｔｈａｎｋｓ　ｔｏ　ｔｈｅ　ｐｏｗｅｒ"TCC_NEWLINE"　ｏｆ　ｔｈｅ"TCC_NEWLINE
+"ｄｒａｇｏｎ’ｓ　ｂｌｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ’ｔ　ｍｅａｓｕｒｅ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ"TCC_NEWLINE"　ａ"TCC_NEWLINE
+"ｍａｎ　ｌｉｋｅ　ｔｈａｔ．　Ｉｎ　ｔｈｅ　ｂａｔｔｌｅｓ　"TCC_NEWLINE"ｗｅ　ｆａｃｅ"TCC_NEWLINE
+"ｎｏｗ．．．ｗｅ　ｍｕｓｔ　ｂｅ　ｃａｒｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

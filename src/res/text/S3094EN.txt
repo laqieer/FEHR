@@ -1,0 +1,7 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3094_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｈｅｉｒ　ａｐｐａｒｅｎｔ　ｏｆ　ｔｈｅ　Ａｄｒｅ"TCC_NEWLINE"ｓｔｉａｎ"TCC_NEWLINE
+"Ｅｍｐｉｒｅ，　Ｅｄｅｌｇａｒｄ　ｖｏｎ　Ｈｒｅｓｖｅｌｇ．"TCC_NEWLINE"　Ｉ"TCC_NEWLINE
+"ｗｉｌｌ　ｔｅｓｔ　ｙｏｕｒ　ｔｒｕｅ　ｓｔｒｅｎｇｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

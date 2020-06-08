@@ -1,0 +1,136 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈａｎｋ　ｙｏｕ，　Ｐｅｏｎｙ．　Ｗｉｔｈ　ｙｏｕｒ　ｈｅ"TCC_NEWLINE"ｌｐ，"TCC_NEWLINE
+"ｉｔ　ｓｅｅｍｓ　ｅｖｅｒｙｏｎｅ　ｈａｓ　ｒｅｃｏｖｅｒｅ"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ｔｈｅｉｒ　ｍｅｍｏｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｙｏｕ，　ａｎｄ　ｏｆ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｏｆ　ｃｏｕｒｓｅ！　Ｉ　ｗａｓ　ｈａｐｐｙ　ｔｏ　ｈｅｌｐ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏｗ，　ｗｈａｔ　ｗａｓ　ｉｔ　ｙｏｕ　ｓａｉｄ　ａｂｏｕ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｉｇｈｔ．．．　Ｈｅ　ｗａｓ　ｔａｋｅｎ！　Ｔｈｅｙ　ｔｏ"TCC_NEWLINE"ｏｋ　ｈｉｍ"TCC_NEWLINE
+"ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ，　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｒ"TCC_NEWLINE"ｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈａｔ’ｓ　ｗｈｅｒｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒ"TCC_NEWLINE"ｅｙｒ’ｓ"TCC_NEWLINE
+"ｓｉｓｔｅｒ，　Ｌａｄｙ　Ｆｒｅｙｊａ，　ｉｓ．．．　Ａｎｄ"TCC_NEWLINE"　ｉｆ　ＳＨＥ’Ｓ"TCC_NEWLINE
+"ｉｎｖｏｌｖｅｄ，　ｔｈｅｒｅ’ｓ　ｓｕｒｅ　ｔｏ　ｂｅ　ｔ"TCC_NEWLINE"ｒｏｕｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｗａｋｉｎｇ　Ｄｒｅａｍ．．．　Ｉｔ’ｓ　ｈａｐｐｅ"TCC_NEWLINE"ｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ’ｓ　ｔｈａｔ，　ｔｈｅ　Ｗａｋｉｎｇ　Ｄｒｅａｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ　ｄｒｅａｍ　ｒｅａｌｍ　ｉｎｆｌｕｅｎｃｉｎｇ　ｏｔ"TCC_NEWLINE"ｈｅｒ"TCC_NEWLINE
+"ｗｏｒｌｄｓ．　Ｗｅ　ｈａｄ　ａｌｒｅａｄｙ　ｓｅｅｎ　ｄｒ"TCC_NEWLINE"ｅａｍｓ"TCC_NEWLINE
+"ｃｒｏｓｓｉｎｇ　ｏｖｅｒ　ｉｎｔｏ　ｔｈｉｓ　ｗｏｒｌｄ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ　ｔｈｅ　ｄｋｋｌｆｒ　ｎｉｇｈｔｍａｒｅｓ"TCC_NEWLINE
+"ｈａｖｅ　ｃｏｍｅ　ｆｌｏｏｄｉｎｇ　ｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏ，　ｔｈａｔ’ｓ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ，　ｔｈｅｎ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｉｎ　ｔｈａｔ　ｃａｓｅ，　ｔｈｅｎ　Ａｓｋｒ　ｉｓ　ｓｔｉ"TCC_NEWLINE"ｌｌ"TCC_NEWLINE
+"ｕｎｄｅｒ　ｔｈｒｅａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃａｎ　ｗｅ　ｒｅｔｕｒｎ　ｅｖｅｒｙｔｈｉｎｇ"TCC_NEWLINE
+"ｔｏ　ｎｏｒｍａｌ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｍｕｓｔ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ　ａｎｄ"TCC_NEWLINE
+"ｓａｖｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ．　Ｉｔ’ｓ　ｏｕ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ｏｎｅ　ａｎｄ　ｏｎｌｙ　ｈｏｐｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｌ　ｒｉｇｈｔ！　Ｔｈｅｎ　ｌｅｔ’ｓ　Ａｃｔｕａｌｌｙ"TCC_NEWLINE"，　ｈｏｗ"TCC_NEWLINE
+"ｄｏ　ｗｅ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｍｍ．．．　ＨＭＭＭ．．．　Ｏｈ！"TCC_NEWLINE
+"Ｉ　ｈａｖｅ　ａｎ　ｉｄｅａ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｕｓｅ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｔｈｅ"TCC_NEWLINE
+"ｌｊｓｌｆａｒ　ｈｅｒｅ　ｉｎ　ｔｈｉｓ　ｗｏｒｌｄ　ｔｏ"TCC_NEWLINE
+"ｈｅｌｐ　ｕｓ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｒｅ　ａｒｅ．．．ｌｊｓｌｆａｒ　ｉｎ　Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ！　Ｅｖｅｎ　ａｗａｋｅ，　ｔｈｅｒｅ　ａｒｅ　ｓｏｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｗｈｏ　ｓｔｉｌｌ　ｄｒｅａｍ．．．　Ｙｏｕ’ｖｅ　ｈｅａｒ"TCC_NEWLINE"ｄ　ｏｆ"TCC_NEWLINE
+"ｔｈａｔ，　ｈａｖｅｎ’ｔ　ｙｏｕ？　．．．Ｄａｙｄｒｅａｍ"TCC_NEWLINE"ｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｇｏ　ｆｉｎｄ　Ｍｉｒａｂｉｌｉｓ．　Ｓｈｅ’ｓ"TCC_NEWLINE"　ａ　ｆｒｉｅｎｄ"TCC_NEWLINE
+"ｏｆ　ｍｉｎｅａｎｄ　ａ　ＴＲＵＥ　ｄａｙｄｒｅａｍｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4061_EN] = TCC_OPEN_LEFT
+"Ａｓｋｒ．．．ｗｉｌｌ　ｂｅ　ｅｎｄｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎｉｓｈｅｄ．．．ｆｉｎｉｓｈｅｄ．．．"TCC_NEWLINE
+"ＦＩＮＩＳＨＥＤ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ’ｖｅ．．．ｓｅｅｎ　ｔｈｉｓ　ｂｅｆｏｒｅ．．．　Ｉｎ　"TCC_NEWLINE"ａ　ｄｒｅａｍ．"TCC_NEWLINE
+"Ｔｈｉｓ　ｉｓ．．．ｔｈｅ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃ"TCC_NEWLINE"ａ　ｆｒｏｍ"TCC_NEWLINE
+"ｍｙ　ｎｉｇｈｔｍａｒｅｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｎ　ｙｏｕｒ　ｇｕａｒｄ，　ｅｖｅｒｙｏｎｅ！　Ｔｈｅ"TCC_NEWLINE
+"ｅｎｅｍｙ　ｉｓ　ｕｐｏｎ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｉｓ　ｆａｄｉｎｇ　ａｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｈｅｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈ－ｗｈａｔ？！　Ｔｈｅ　ｎｉｇｈｔｍａｒｅ’ｓ　ｂａｃｋ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｉｇｈｔｍａｒｅ？　Ｈｏｗ　ｒｕｄｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍａｙ　ｂｅ　ｅｎｅｍｉｅｓ，　ｂｕｔ．．．"TCC_NEWLINE
+"Ｎｉｇｈｔｍａｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｄｏｎ’ｔ　ｔｅｌｌ　ｍｅ．　Ｙｏｕ’ｒｅ　ｔｈｅ　Ｒ"TCC_NEWLINE"ＥＡＬ"TCC_NEWLINE
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｄｏ　Ｉ　ａｐｐｅａｒ　ｎｏ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｒｅａｌ　ｉｎ　ｓｏｍｅ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｏｒ　ｉｓ　ｉｔ　ｔｈａｔ　ｙｏｕ　ｋｎｏｗ　ｓｏｍｅ"TCC_NEWLINE"ｔｈｉｎｇ"TCC_NEWLINE
+"Ｉ　ｄｏ　ｎｏｔ？　．．．Ｗｈａｔ　ｉｓ　ｉｔ？　Ｔｅｌｌ　"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｌ　ｒｉｇｈｔ，　ｆｉｎｅ．　Ｐｅｏｎｙ，　ｉｆ　ｙｏｕ"TCC_NEWLINE"　ｗｏｕｌｄ，"TCC_NEWLINE
+"ｐｌｅａｓｅ　ｇｉｖｅ　ｈｅｒ　ｔｈｅ　ｄｅｔａｉｌｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ａｈ！　Ｉ　ｇｕｅｓｓ　ｉｔ’ｓ　ｍｙ　ｔｉｍｅ　ｔｏ　ｓｈ"TCC_NEWLINE"ｉｎｅ．"TCC_NEWLINE
+"Ｉ　ｌｏｖｅ　ｓｈｉｎｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｒ．．．　Ｈｉ！　Ｉ’ｍ　Ｐｅｏｎｙ．　Ｉ’ｍ　ａ　ｌｊｓ"TCC_NEWLINE"ｌｆｒ"TCC_NEWLINE
+"ｆｒｏｍ　Ｌｊｓｌｆｈｅｉｍｒ！　Ｎｉｃｅ　ｔｏ　ｍｅｅｔ"TCC_NEWLINE
+"ｙｏｕ．．．Ｖｅｒｏｎｉｃａ，　ｗａｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａ．．．ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎｎｏｔ　ｕｎｄｅｒｓｔａｎｄ　ａ　ｗｏｒｄ　ｓｈｅ"TCC_NEWLINE"　ｓａｙｓ．"TCC_NEWLINE
+"Ｓｕｃｈ　ｓｔｒａｎｇｅ　ｓｏｕｎｄｓ．．．ａｎｄ　ｂｅｈａ"TCC_NEWLINE"ｖｉｏｒ．"TCC_NEWLINE
+"．．．Ｈｅｒ　ｏｕｔｆｉｔ　ｉｓ　ｏｄｄ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈ－ｗｈａｔ　ａ　ｍｅａｎ　ｌｉｔｔｌｅ　ｇｉｒｌ！　Ｙｏ"TCC_NEWLINE"ｕ　ａｒｅ"TCC_NEWLINE
+"ｓｏ　ｙｏｕｎｇ，　ｙｅｔ．．．ｈａｖｅ　ｙｏｕ　ｌｏｓｔ　"TCC_NEWLINE"ｙｏｕｒ"TCC_NEWLINE
+"ｈｅａｒｔ　ｆｏｒ　ｄｒｅａｍｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ｈｅａｒｔ　ｆｏｒ　ｄｒｅａｍｉｎｇ．．．　Ｌｅｔ’ｓ"TCC_NEWLINE"　ｃｏｍｅ"TCC_NEWLINE
+"ｂａｃｋ　ｔｏ　ｔｈａｔ．　Ｆｏｒ　ｎｏｗ，　ｊｕｓｔ　ｆｉ"TCC_NEWLINE"ｌｌ　ｍｅ　ｉｎ"TCC_NEWLINE
+"ｏｎ　ｔｈｅ　ｃｕｒｒｅｎｔ　ｓｉｔｕａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4061_EN] = TCC_OPEN_LEFT
+"Ｈｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ａｂｌｅ　ｔｏ　ｆｉｎｄ　"TCC_NEWLINE"ａ"TCC_NEWLINE
+"ｌｊｓｌｆｒ　ｎａｍｅｄ　Ｍｉｒａｂｉｌｉｓ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｒｉｇｈｔ！　Ｗｅｌｌ．．．ｏｖｅｒ　ｔｈｅｒｅ．　Ｉｎ　ｔ"TCC_NEWLINE"ｈａｔ"TCC_NEWLINE
+"ｈｕｕｕｇｅ　ｆｏｒｅｓｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｍ．．．　Ｉｆ　ｔｈｅ　ｆｏｒｅｓｔ’ｓ　ｅｄｇｅ　ｉｓ　"TCC_NEWLINE"ａｎｙ"TCC_NEWLINE
+"ｉｎｄｉｃａｔｉｏｎ，　ｔｈｅ　ｗｈｏｌｅ　ａｒｅａ　ｉｓ"TCC_NEWLINE
+"ｃｏｖｅｒｅｄ　ｉｎ　ｔｈｉｃｋ　ｍｉｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｉｇｈｔ，　ｔｈｅｎ．　Ｉ　ｗｉｌｌ　ｊｏｉｎ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｒｏｔｈｅｒ　ｗｉｌｌ　ｌｉｋｅｌｙ　ｂｅ"TCC_NEWLINE
+"ｔｈｅｒｅ　ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｚａｃｈａｒｉａｓ　ｗｉｌｌ　ｂｅ　ｔｈｅｒｅ？　Ｈｏｗ　ｄ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｙｏｕ　ｋｎｏｗ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅ　ｗｅｎｔ　ｗｉｔｈ　Ｘａｎｄｅｒ　ｏｎ　ａ　ｌｏｎｇ"TCC_NEWLINE
+"ｊｏｕｒｎｅｙ．　Ｉ　ｈａｖｅｎ’ｔ　ｓｅｅｎ　ｅｉｔｈｅｒ"TCC_NEWLINE"　ｏｆ"TCC_NEWLINE
+"ｔｈｅｍ　ｆｏｒ　ｑｕｉｔｅ　ｓｏｍｅ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｈｅａｒｄ　ｓｏｍｅｏｎｅ　ｗｈｏ　ｌｏｏｋｓ　"TCC_NEWLINE"ｌｉｋｅ"TCC_NEWLINE
+"ｍｙ　ｂｒｏｔｈｅｒ　ｗａｓ　ｓｅｅｎ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｍｕｓｔ　ｈａｖｅ　ｆｉｎａｌｌｙ　ｃｏｍｅ　ｈｏｍｅ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｉ　ａｍ　ｇｏｉｎｇ　ｔｏ　ｗｅｌｃｏｍｅ　ｈｉｍ　ｂａｃｋ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

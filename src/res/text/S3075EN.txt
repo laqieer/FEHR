@@ -1,0 +1,75 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ’ｖｅ　ｂｅｅｎ　ｔｒａｖｅｌｉｎｇ　ｆｏｒ　ｓｏｍｅ　"TCC_NEWLINE"ｔｉｍｅ．．．"TCC_NEWLINE
+"ａｎｄ　ｙｅｔ．．．ｗｅ　ｈａｖｅｎ’ｔ　ｅｎｃｏｕｎｔｅｒ"TCC_NEWLINE"ｅｄ"TCC_NEWLINE
+"ａ　ｓｏｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｎｅ　ｏｆ　ｕｓ　ｗａｎｔｓ　ｔｏ　ｓａｙ　ｉｔ，　ｂｕ"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅｙ’ｒｅ　ａｌｌ　ｄｅａｄ．　Ｄｏｗｎ　ｔｏ　ｔｈｅ　"TCC_NEWLINE"ｌａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｎｏ！　Ｔｈａｔ　ｃａｎ’ｔ　ｂｅ！　Ｅｖｅｒｙｏｎｅ？　Ｂ"TCC_NEWLINE"ｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｄｏ　ｎｏｔ　ｌｉｋｅ　ｔｈｅ　ｉｄｅａ　ａｎｙ　ｍｏｒ"TCC_NEWLINE"ｅ　ｔｈａｎ"TCC_NEWLINE
+"ｙｏｕ　ｄｏ．　Ｂｕｔ　ｄｏ　ｙｏｕ　ｈａｖｅ　ａｎｏｔｈｅ"TCC_NEWLINE"ｒ？"TCC_NEWLINE
+"Ｏｎｅ　ｔｈａｔ　ｂｅｔｔｅｒ　ｆｉｔｓ　ｔｈｅ　ｅｖｉｄｅ"TCC_NEWLINE"ｎｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ．．．ｅｖｅｎ　ｉｆ　ｗｅ　ａｃｃｅｐｔ　ｔｈ"TCC_NEWLINE"ａｔ"TCC_NEWLINE
+"ｐｒｅｍｉｓｅ，　ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　Ａｓｋｒ　ｓｅｅｍｓ　ｔｏ　ｂｅ　ｎｏ　ｄｉｆｆｅ"TCC_NEWLINE"ｒｅｎｔ"TCC_NEWLINE
+"ｔｈａｎ　ｏｕｒ　ｏｗｎ．　Ｔｈｅ　ｓｔｒｅｅｔｓ，　ｔｈｅ"TCC_NEWLINE"　ｓｈｏｐｓ，"TCC_NEWLINE
+"ｔｈｅ　ｌａｎｄ，　ｅｖｅｎ　ｔｈｅ　ｗｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ’ｓ　ｌｉｋｅ　ｃｏｍｉｎｇ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｔ　ｉｔ　ｓｕｄｄｅｎｌｙ　ｆｅｌｌ　ｉｎｔｏ　ｒｕｉｎ"TCC_NEWLINE"．．．　Ｔｈｉｓ"TCC_NEWLINE
+"ｗｏｒｌｄ　ｉｓ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｃｏｕｌｄ　ｈａｖｅ　ｈａｐｐｅｎｅｄ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ｓｏ　ｙｏｕ’ｒｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｅｎｅｍｙ！　Ｐｒｅｐａｒｅ　ｔｏ　ｉｎｔｅｒｃｅｐ"TCC_NEWLINE"ｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｏｗ　ｆｉｔｔｉｎｇ　ｔｈａｔ　ｙｏｕ　ｗｉｌｌ　ｐｅｒｉ"TCC_NEWLINE"ｓｈ　ｈｅｒｅ，"TCC_NEWLINE
+"ｉｎ　ｔｈｉｓ　ｒｕｉｎｅｄ　ｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ａｎｄ　ｙｅｔ　ｙｏｕ　ｓｔｒｕｇｇｌｅ．　Ｉｔ　ｉｓ　ｆｕ"TCC_NEWLINE"ｔｉｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｆ　ａｎｄ　ｈｉｓ　ｆｏｒｃｅｓ　ｈａｖｅ　ｒｅｔｒｅａｔ"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｇｅｔｔｉｎｇ　ｄａｒｋ．　Ｗｅ　ｃａｎ　ｓｈｅｌ"TCC_NEWLINE"ｔｅｒ　ｉｎ"TCC_NEWLINE
+"ｔｈｉｓ　ｔｏｗｎ　ｏｖｅｒｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"ＯＫ！　Ｉ’ｌｌ　ｇｅｔ　ｄｉｎｎｅｒ　ｓｔａｒｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔ　ａ　ｓｅｃｏｎｄ．．．　Ａｌｆｏｎｓｅ！　Ｔａｋｅ"TCC_NEWLINE"　ａ"TCC_NEWLINE
+"ｌｏｏｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａ　ｂｏｕｑｕｅｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ　ｋｎｏｗ　ｔｈｅｓｅ　ｆｌｏｗｅｒｓ．．．ｔｈｅｙ’"TCC_NEWLINE"ｒｅ　ｍｙ"TCC_NEWLINE
+"ｆａｖｏｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ａｌｌ　ｏｖｅｒ　ｔｈｅ　ｐｌａｚａ，　ａｎ"TCC_NEWLINE"ｄ　ｎｏｔ"TCC_NEWLINE
+"ｊｕｓｔ　ｓｃａｔｔｅｒｅｄ　ｒａｎｄｏｍｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈｅｓｅ　ｆｌｏｗｅｒｓ　ｗｅｒｅ　ｐｌａｃｅｄ　ａｓ　ａ"TCC_NEWLINE
+"ｍｅｍｏｒｉａｌ．．．ａｓ　ａ　ｔｒｉｂｕｔｅ　ｔｏ　ｓｏｍ"TCC_NEWLINE"ｅｏｎｅ"TCC_NEWLINE
+"ｗｈｏ　ｄｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｉｄ　Ｌｆ　ｄｏ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｏｅｓ　ｈｅ　ｃａｒｅ　ｆｏｒ　ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ"TCC_NEWLINE"　Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｉｓ　ｏｕｒ　ａｎｃｅｓｔｏｒ，　Ｉ　ｓｕｐｐｏｓｅ．"TCC_NEWLINE"．．　Ｈｅ"TCC_NEWLINE
+"ｍａｙ　ｌｏｏｋ　ｆｅａｒｓｏｍｅ，　ｂｕｔ　ｔｈａｔ　ｄｏ"TCC_NEWLINE"ｅｓｎ’ｔ"TCC_NEWLINE
+"ｍｅａｎ　ｈｅ　ｄｏｅｓｎ’ｔ　ｈａｖｅ　ｆｅｅｌｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｎｋｉｎｇ　ｏｆ　ｔｈｅ　ｃｉｔｉｚｅｎｓ．．．　Ｈｅ"TCC_NEWLINE"’ｓ　ｊｕｓｔ"TCC_NEWLINE
+"ｌｉｋｅ　ｙｏｕ　ａｎｄ　ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｌｆｏｎｓｅ．．．？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｏｈ，　ｓｏｒｒｙ．．．　Ｉ　ｗａｓ　ｌｏｓｔ　ｉｎ　ｔｈｏ"TCC_NEWLINE"ｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ａｌｌ　ｔｈｉｓ　ｂｏｔｈｅ"TCC_NEWLINE"ｒｓ"TCC_NEWLINE
+"ｍｅ．　Ｉ　ｆｅｅｌ　Ｉ　ｈａｖｅ　ｏｖｅｒｌｏｏｋｅｄ"TCC_NEWLINE
+"ａｎ　ｉｍｐｏｒｔａｎｔ　ｄｅｔａｉｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

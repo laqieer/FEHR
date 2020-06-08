@@ -1,0 +1,46 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S1001_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｇａｔｈｅｒ　ａｒｏｕｎｄ，　ｅｖｅｒｙｏｎｅ．　Ｉ’ｍ　ａ"TCC_NEWLINE"ｆｒａｉｄ"TCC_NEWLINE
+"Ｉ　ｈａｖｅ　ｔｅｒｒｉｂｌｅ　ｎｅｗｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ　ｉｓ　ｍｏｕｎｔｉｎｇ"TCC_NEWLINE
+"ａｎｏｔｈｅｒ　ａｔｔａｃｋ　ｏｎ　ｏｕｒ　ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｈａｖｅ　ｍｏｒｅ　Ｈｅｒｏｅｓ　ｉｎ　ｔｈｅｉｒ"TCC_NEWLINE
+"ｒａｎｋｓ．　Ｓｏｍｅ　ａｒｅ　ｆｒｏｍ　ｔｈｅ　Ｗｏｒｌｄ"TCC_NEWLINE
+"ｏｆ　Ｍｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｔｈｅｒ　Ｈｅｒｏｅｓ　ａｒｅ　ｆｒｏｍ　ｔｈｅ　Ｗｏｒｌ"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ｏｆ　Ｂｉｎｄｉｎｇ　ａｎｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ"TCC_NEWLINE
+"Ｂｌａｚｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ？　Ｍｙｓｔｅｒｙ，　Ｂｉｎｄｉｎｇ，　ａｎｄ"TCC_NEWLINE
+"Ｂｌａｚｉｎｇ？　Ｂｕｔ　ｏｕｒ　ｏｒｄｅｒ　ｌｉｂｅｒａｔ"TCC_NEWLINE"ｅｄ"TCC_NEWLINE
+"ａｌｌ　ｏｆ　ｔｈｏｓｅ　ｗｏｒｌｄｓ　ｆｒｏｍ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｏｓｅ　ｂｌａｓｔｅｄ　Ｅｍｂｌｉａｎｓ　ｍｕｓｔ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
+"ｓｎｕｃｋ　ｂａｃｋ　ｉｎｔｏ　ｔｈｏｓｅ　ｗｏｒｌｄｓ　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
+"ｔａｋｅｎ　ｔｈｅｍ　ｏｖｅｒ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｉｒ　Ｈｅｒｏｅｓ　ａｒｅ　ｈｅａｄｅｄ　ｆｏｒ　ｏｕ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ｃａｐｉｔａｌ．　Ｗｅ　ｎｅｅｄ　ｔｏ　ｓｔｏｐ　ｔｈｅｍ"TCC_NEWLINE
+"ｂｅｆｏｒｅ　ｔｈｅｙ　ｃｏｎｑｕｅｒ　Ａｓｋｒ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S1001_EN] = TCC_OPEN_LEFT
+"Ａｈ，　ｈａｖｅ　ｔｈｅ　ｐｅｓｋｙ　ｆｌｉｅｓ　ｆｉｎａｌ"TCC_NEWLINE"ｌｙ"TCC_NEWLINE
+"ａｒｒｉｖｅｄ？　Ｖｅｒｏｎｉｃａ　ｓａｉｄ　ｔｈａｔ"TCC_NEWLINE
+"ｙｏｕ’ｄ　ｔｒｙ　ｔｏ　ｇｅｔ　ｉｎ　ｍｙ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｐｆ．　Ｉ　ｔｈｏｕｇｈｔ　Ｉ’ｄ　ｂｅ　ｆａｃｉｎｇ"TCC_NEWLINE
+"ｏｐｐｏｎｅｎｔｓ　ｗｈｏ　ｗｅｒｅ　ａｔ　ｌｅａｓｔ"TCC_NEWLINE
+"ｓｌｉｇｈｔｌｙ　ｗｏｒｔｈｙ　ｏｆ　ｍｙ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｋｎｏｗ　ｔｈａｔ　ｙｏｕ　ｓｔａｎｄ　ｂｅｆｏ"TCC_NEWLINE"ｒｅ"TCC_NEWLINE
+"Ｍｉｃｈａｌｉｓ，　Ｋｉｎｇ　ｏｆ　Ｍａｃｅｄｏｎ．"TCC_NEWLINE
+"Ｄｏ　ｔｒｙ　ｔｏ　ｅｎｔｅｒｔａｉｎ　ｍｅ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S1001_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ｄｅｆｅａｔｅｄ　ｍｅ？　Ｉｍｐｏｓｓｉｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　Ｉ　ｈａｖｅ　ｔｏ　ａｄｍｉｔ　ｔｈａｔ　ｔｈｅ"TCC_NEWLINE
+"Ｈｅｒｏｅｓ　ｉｎ　ｙｏｕｒ　ｇｒｏｕｐ　ｈａｖｅ　ｐｒｏｖ"TCC_NEWLINE"ｅｎ"TCC_NEWLINE
+"ｔｈｅｍｓｅｌｖｅｓ　ｗｏｒｔｈｙ　ｔｏｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｙｏｕ　ｍａｙ　ｐｒｏｃｅｅｄ．　Ｓｔｉｌｌ，　ｓｈ"TCC_NEWLINE"ｏｕｌｄ"TCC_NEWLINE
+"ｏｕｒ　ｐａｔｈｓ　ｃｒｏｓｓ　ａｇａｉｎ，　ｄｏｎ’ｔ　ｅ"TCC_NEWLINE"ｘｐｅｃｔ"TCC_NEWLINE
+"ｍｅ　ｔｏ　ｆｏｒｇｅｔ　ｔｈｉｓ　ｄｉｓｇｒａｃｅ．"
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

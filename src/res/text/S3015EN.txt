@@ -1,0 +1,130 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_HEL
+"Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｗｉｌｌ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ　ｈｅｌｐ　ｙ"TCC_NEWLINE"ｏｕ．．．　Ｉ’ｌｌ"TCC_NEWLINE
+"ｄｏ　ａｎｙｔｈｉｎｇ，　ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｓｍａ"TCC_NEWLINE"ｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｈａｖｅｎ’ｔ　ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｔｏ　ｈｅ"TCC_NEWLINE"ｌｐ"TCC_NEWLINE
+"ｍｅ，　Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｏｎ，　ｔｈｅｙ　ｗｉｌｌ　ｂｅ　ｈｅｒｅ．　Ａｎｄ　ａ"TCC_NEWLINE"ｇａｉｎｓｔ"TCC_NEWLINE
+"ｔｈｅｍ，　ｙｏｕ　ｓｔａｎｄ　ｎｏ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ｙｏｕ　ｗｏｕｌｄ　ｄｉｅ，　ｔｈｅｎ　ｄｉｅ．　Ａｎ"TCC_NEWLINE"ｏｔｈｅｒ"TCC_NEWLINE
+"ｒｏａｄ　ｉｓ　ｏｐｅｎ　ｂｅｆｏｒｅ　ｙｏｕ，　ｈｏｗｅｖ"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE
+"Ｙｏｕ　ｃｏｕｌｄ　ｊｏｉｎ　ｔｈｅ　ｌｉｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｊｏｉｎ　ｔｈｅｉｒ　ａｒｍｙ．　Ｏｂｅｙ　ｔｈｅｍ，　ｂｏ"TCC_NEWLINE"ｄｙ　ａｎｄ"TCC_NEWLINE
+"ｓｏｕｌ．　Ｇｉｖｅ　ｙｏｕｒｓｅｌｆ　ｔｏ　ｔｈｅｍ"TCC_NEWLINE
+"ｃｏｍｐｌｅｔｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｙｏｕ　ｅａｒｎ　ｔｈｅｉｒ　ｔｒｕｓｔ．．．ｙｏ"TCC_NEWLINE"ｕ　ｃａｎ"TCC_NEWLINE
+"ｓｌａｕｇｈｔｅｒ　ｔｈｅｍ　ａｔ　ｍｙ　ｃｏｍｍａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｄｏ　ｎｏｔ　ｃａｒｅ　ｉｆ　ｙｏｕ　ｄｏ　ｎｏｔ　ｌｉ"TCC_NEWLINE"ｋｅ　ｍｙ"TCC_NEWLINE
+"ｏｒｄｅｒ．　Ｙｏｕ　ｗｉｌｌ　ｏｂｅｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　Ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｙｏｕ’ｒｅ　ｆｒｏｍ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｎｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｅｉｒ．．．　Ｐｒｉｎｃｅｓｓ　ｏｆ　ｔｈｅ　ｒｅ"TCC_NEWLINE"ａｌｍ　ｏｆ　ｔｈｅ"TCC_NEWLINE
+"ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｙｏｕ’ｒｅ　ｐａｒｔ　ｏｆ　Ｈｅｌ’ｓ　ａｒｍｙ，　"TCC_NEWLINE"ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　ｂｕｔ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｏｕｔｃｏｍｅ　ｏｆ　ｔｈｉｓ　ｆｉｇｈｔ　ｄｏｅｓ"TCC_NEWLINE"ｎ’ｔ"TCC_NEWLINE
+"ｍａｔｔｅｒ　ｔｏ　ｍｅ．　Ｗｈｏ　ｗｉｎｓ，　ｗｈｏ　ｌｏ"TCC_NEWLINE"ｓｅｓ．．．"TCC_NEWLINE
+"Ｌｅｔ　ｕｓ　ｂｅｇｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｉ　ｈａｖｅ　ｌｏｓｔ．　Ｙｏｕ　ｍａｙ　ｋｉｌｌ　ｍｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｗｏｎ’ｔ　ｄｏ　ｉｔ．　Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｃａｎ’ｔ　ｔａｋｅ　ｔｈｅ　ｌｉｆｅ　ｏｆ　ａｎ　ｏｐ"TCC_NEWLINE"ｐｏｎｅｎｔ"TCC_NEWLINE
+"ｗｈｏ　ｓｕｒｒｅｎｄｅｒｓ　ｉｔ　ｆｒｅｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅｒｅ　ａｒｅ　ｔｈｉｎｇｓ　Ｉ　ｗｏｕｌｄ　ｌ"TCC_NEWLINE"ｉｋｅ　ｔｏ"TCC_NEWLINE
+"ａｓｋ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏ　Ｉ　ａｍ　ｔｏ　ｂｅ　ｙｏｕｒ　ｐｒｉｓｏｎｅｒ？"TCC_NEWLINE
+"Ｖｅｒｙ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HENRIETTE
+"Ｓｈａｌｌ　ｗｅ　ｇｅｔ　ｇｏｉｎｇ，　Ａｌｆｏｎｓｅ？　Ｈ"TCC_NEWLINE"ｉｓ"TCC_NEWLINE
+"Ｍａｊｅｓｔｙ　ｉｓ　ｗａｉｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｅｓ，　Ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈａｒｅｎａ，　ｙｏｕ　ｃｏｍｅ　ｔｏｏ，　ｂｕｔ　ｐｌｅ"TCC_NEWLINE"ａｓｅ．．．"TCC_NEWLINE
+"ｄｏｎ’ｔ　ｄｉｓｒｕｐｔ　ｔｈｅ　ｃｏｎｖｅｒｓａｔｉｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｏｕ　ｃａｎ　ｃｏｕｎｔ　ｏｎ　ｍｙ　ｓｉｌｅｎｃｅ！　Ｆ"TCC_NEWLINE"ａｔｈｅｒ"TCC_NEWLINE
+"ｉｓ　ｑｕｉｔｅ　ｓｏｍｅｔｈｉｎｇ　ｗｈｅｎ　ｈｅ’ｓ　ａ"TCC_NEWLINE"ｎｇｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｇｏｏｄ　ｌｕｃｋ，　ｙｏｕ　ｔｗｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｆｉｎｄ　ｓｏｍｅｗｈｅｒｅ　ｔｏ　ｗａｉｔ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｆｉｇｕｒｅ　ｏｕｔ　ｓｏｍｅｔｈｉｎ"TCC_NEWLINE"ｇ　ｔｏ"TCC_NEWLINE
+"ｄｏ　ｗｉｔｈ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_EIR
+"Ｉ　ｗｏｕｌｄ　ｊｏｉｎ　ｙｏｕｒ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｊｏｉｎ　ｕｓ？　Ｔｈｏｕｇｈ　ｙｏｕ　ｆｏｕｇｈｔ　ｏｎ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
+"ｓｉｄｅ　ｏｆ　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｄｉｄ，　ｙｅｓ．　Ｂｕｔ　ｎｏｗ　ｔｈａｔ　Ｉ　ｈａｖ"TCC_NEWLINE"ｅ　ｍａｄｅ"TCC_NEWLINE
+"ｍｙ　ｅｓｃａｐｅ，　Ｉ　ａｍ　ｎｏ　ｌｏｎｇｅｒ　ｐｒｉｎ"TCC_NEWLINE"ｃｅｓｓ．"TCC_NEWLINE
+"Ｉ　ｃａｎｎｏｔ　ｒｅｔｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｅｌｌ　ｍｅ　ｗｈｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ａｍ　ａｆｒａｉｄ　Ｉ　ｍｕｓｔ　ｋｅｅｐ　ｔｈａｔ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｍｙｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｆｏｒ　ａ　ｓｅｃ"TCC_NEWLINE"ｏｎｄ！　Ｉｆ"TCC_NEWLINE
+"ｙｏｕ　ｃａｎ’ｔ　ｔｒｕｓｔ　ｕｓ，　ｈｏｗ　ｃａｎ　ｗｅ"TCC_NEWLINE
+"ｔｒｕｓｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｋｎｏｗ　ｈｏｗ　ｔｈｉｓ　ｓｏｕｎｄｓ．　Ｉｔ　ｍｕｓ"TCC_NEWLINE"ｔ　ｓｅｅｍ"TCC_NEWLINE
+"ｓｏ　ｓｅｌｆｉｓｈ　ｏｆ　ｍｅ　ｔｏ　ａｓｋ　ｓｏ　ｍｕｃ"TCC_NEWLINE"ｈ　ｏｆ"TCC_NEWLINE
+"ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｉｌｌ，　ｔｈｏｕｇｈ，　Ｉ　ｗｉｓｈ　ｔｏ　ｊｏｉｎ　"TCC_NEWLINE"ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｅｖｅｒ　ｆｉｎｄ　ｃａｕｓｅ　ｔｏ　ｄｉｓｔ"TCC_NEWLINE"ｒｕｓｔ　ｍｅ．．．"TCC_NEWLINE
+"ｋｉｌｌ　ｍｅ　ｔｈｅｎ　ａｎｄ　ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｃｅｒｔａｉｎｌｙ　ｃａｎ’ｔ　ｔｒｕｓｔ　ｙｏｕ！　Ｂ"TCC_NEWLINE"ｕｔ　ｙｏｕ"TCC_NEWLINE
+"ｍｕｓｔ　ｋｎｏｗ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　Ｈｅｌ’"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"ｆｏｒｃｅｓ．　Ｔｈａｔ’ｓ　ｖａｌｕａｂｌｅ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｓｏ　ｗｅ’ｒｅ　ｃｌｅａｒＩ’ｌｌ　ｔａｋｅ　ｙ"TCC_NEWLINE"ｏｕ　ｕｐ"TCC_NEWLINE
+"ｏｎ　ｙｏｕｒ　ｏｆｆｅｒ．　Ｔｈｅ　ｓｅｃｏｎｄ　Ｉ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
+"ｃａｕｓｅ　ｔｏ　ｓｕｓｐｅｃｔ　ｙｏｕ．．．ｔｈａｔ’ｓ　"TCC_NEWLINE"ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ’ｓ　ａｌｌ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｓｈｅ’ｓ　ａ　ｓｔｒａｎｇｅ　ｏｎｅ，　ｉｓｎ’ｔ　ｓｈｅ"TCC_NEWLINE"？"TCC_NEWLINE
+"Ｉ　ｄｏｎ’ｔ　ｓｅｎｓｅ　ｓｈｅ　ｈｏｌｄｓ　ａｎｙ　ａｎ"TCC_NEWLINE"ｉｍｏｓｉｔｙ"TCC_NEWLINE
+"ｔｏｗａｒｄ　ｕｓ．　Ｓｈｅ’ｓ．．．ａｐａｔｈｅｔｉｃ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｙ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE
+"Ｋｅｅｐ　ａｎ　ｅｙｅ　ｏｎ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏ　ｗｈａｔ　ｙｏｕ　ｍｕｓｔ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

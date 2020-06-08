@@ -1,0 +1,139 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S2134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_YLGR
+"Ｗｈｉｃｈ　ｗａｙ　ｄｏ　ｗｅ　ｇｏ？　Ｗｈｅｒｅ’ｓ　ｔｈ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｅｘｉｔ？　Ｔｈｉｓ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｄｏ　ｗｅ　ｄｏ？　Ｉｆ　ｗｅ　ｄｏｎ’ｔ　ｈｕｒ"TCC_NEWLINE"ｒｙ．．．"TCC_NEWLINE
+"Ｓｕｒｔｒ　ｗｉｌｌ　ｃａｔｃｈ　ｕｐ　ｗｉｔｈ　ｕｓ！　Ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
+"ｔｈｅｎ"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｗｅ　ｃａｎ’ｔ　ｌｅｔ　ｔｈａｔ　ｈａｐｐｅｎ！　"TCC_NEWLINE"Ｉ’ｍ　ｔｏｏ"TCC_NEWLINE
+"ｙｏｕｎｇ　ｔｏ　ｄｉｅ！　Ｉ’ｖｅ　ｎｅｖｅｒ　ｅｖｅｎ　"TCC_NEWLINE"ｈａｄ　ａ"TCC_NEWLINE
+"ｃｈａｎｃｅ　ｔｏ　ｆａｌｌ　ｉｎ　ｌｏｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｒｅａｌｌｙ　ｄｏ　ｎｏｔ　ｅｖｅｒ　ｓｈｕｔ　ｕｐ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"ＯＫ！　Ｉ’ｍ　ｓｏｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｉｓ　ｗａｙ．　Ｑｕｉｃｋｌｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ’ｒｅ　Ｓｕｒｔｒ’ｓ　ｄａｕｇｈｔｅｒ，　Ｌａｅｖａ"TCC_NEWLINE"ｔｅｉｎ．．．"TCC_NEWLINE
+"Ａｒｅｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄａｕｇｈｔｅｒ？　Ｎｏ．　Ｔｏ　ｈｉｍ，　Ｉ　ａｍ　ｊｕｓ"TCC_NEWLINE"ｔ　ａ"TCC_NEWLINE
+"ｔｏｏｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｙｏｕ’ｖｅ　ｃｏｍｅ　ｔｏ　ｃａｐｔｕｒｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ．　Ａｎｄ　ｔｏ　ｆｉｎｄ　ｏｕｒ　ｆｏｅｓ．　Ｔｈｅ"TCC_NEWLINE"ｙ　ｗｉｌｌ"TCC_NEWLINE
+"ｃｏｍｅ　ｈｅｒｅ．　Ｉｔ　ｉｓ　ｔｈｅ　ｏｎｌｙ　ｗａｙ　"TCC_NEWLINE"ｔｏ"TCC_NEWLINE
+"ｄｅｆｅａｔ　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｔａｋｅ　ｉｔ　ｔｈａｔ　Ｌａｅｇｊａｒｎ　ｈａｓ　ａｌ"TCC_NEWLINE"ｒｅａｄｙ"TCC_NEWLINE
+"ｆａｌｌｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｎｓｕｌｔ　ｍｙ　ｓｉｓｔｅｒ　ａｎｄ　Ｉ　ｗｉｌｌ　ｃｕ"TCC_NEWLINE"ｔ　ｙｏｕ"TCC_NEWLINE
+"ｄｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｉｎｖｉｔｅ　ｙｏｕ　ｔｏ．　Ｄｅｓｔｒｏｙ　ｔｈｅ　ｓ"TCC_NEWLINE"ａｃｒｉｆｉｃｅ"TCC_NEWLINE
+"ｔｈａｔ　ｙｏｕｒ　ｆａｔｈｅｒ　ｎｅｅｄｓ　ｔｏ　ｓｕｒｖ"TCC_NEWLINE"ｉｖｅ！　Ｉ’ｄ"TCC_NEWLINE
+"ｒａｔｈｅｒ　ｄｉｅ　ｔｈａｎ　ｂｅ　ｕｓｅｄ　ｂｙ　Ｓｕｒ"TCC_NEWLINE"ｔｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｍｙ　ｂｒｏｔｈｅｒ　ｎｅｅｄ　ｎｏｔ　ｒｉｓｋ　ｈ"TCC_NEWLINE"ｉｓ　ｌｉｆｅ"TCC_NEWLINE
+"ｒｅｓｃｕｉｎｇ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｔｈｉｎｋ　ｙｏｕ　ｃａｎ　ｋｉｌｌ　ｍｅ，　"TCC_NEWLINE"ｙｏｕ"TCC_NEWLINE
+"ｓｈｏｕｌｄ　ｐｒｏｂａｂｌｙ　ｇｉｖｅ　ｉｔ　ａ　ｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｅｎｏｕｇｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｕｎｏ？　Ｙｏｕ’ｒｅ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｔａｙ　ｏｕｔ　ｏｆ　ｍｙ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｙｌｇｒ！　Ａｒｅ　ｙｏｕ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_YLGR
+"Ｆｊｏｒｍ！　Ｈｅｒｅ　Ｉ　ａｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｇｉｖｅｎ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ．．．Ｉ　ｔｈｉｎｋ　"TCC_NEWLINE"ｗｅ　ｃａｎ"TCC_NEWLINE
+"ｈｅｌｐ　ｙｏｕ　ｏｕｔ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃ"TCC_NEWLINE"ａ．　Ｊｕｓｔ"TCC_NEWLINE
+"ｔｈｉｓ　ｏｎｃｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S2134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ａｓｋｒａｎｓ！　Ｗｈｅｒｅ　ｉｓ　ｍｙ　ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｉｄ　ｙｏｕ　ｋｉｌｌ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｗｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｃａｎｎｏｔ　ｆｏｒｇｉｖｅ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｍｙ　ｆａｔｈｅｒ　ｏｒｄｅｒｅｄ，　Ｉ"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｋｉｌｌ　ｙｏｕ．　Ｎｏｔ　ｆｏｒ　Ｆａｔｈｅ"TCC_NEWLINE"ｒ．　Ｂｕｔ"TCC_NEWLINE
+"ｂｅｃａｕｓｅ　ｏｆ　ｗｈａｔ　ｙｏｕ　ｈａｖｅ　ｄｏｎｅ．"TCC_NEWLINE
+"Ｅｖｅｒｙ　ｌａｓｔ　ｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｈａｈｈ．．．ｈａｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ．．．ｓｔｉｌｌ　ｆｉｇｈｔ．　Ｆｌａｍｅｓ．．．"TCC_NEWLINE"ｏｆ　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+"Ｍｓｐｅｌｌ，　ｄｒａｇｏｎ　ｏｆ　ｆｌａｍｅ．．．Ｉ　ｏｆ"TCC_NEWLINE"ｆｅｒ　ｙｏｕ"TCC_NEWLINE
+"ｍｙ　ｆｌｅｓｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｓｔｏｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｒｍ　ａｎｄ　ａｒｍ，　ｌｅｇ　ａｎｄ　ｌｅｇ．　Ｍｙ　ｈ"TCC_NEWLINE"ｅａｄ，"TCC_NEWLINE
+"ｍｙ　ｈｅａｒｔ．．．　Ａｌｌ　ｏｆ　ｉｔ　ｉｓ　ｏｆｆｅｒ"TCC_NEWLINE"ｅｄ，　ｔｈａｔ　ｙｏｕ"TCC_NEWLINE
+"ｍａｙ　ｆｅｅｄ．　Ｄｅｖｏｕｒ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｌｅａｓｅ，　ｓｔｏｐ！　Ｔｈｉｓ　ｉｓｎ’ｔ　ｗｈａｔ　"TCC_NEWLINE"Ｌａｅｇｊａｒｎ"TCC_NEWLINE
+"ｗａｎｔｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？　Ｈｏｗ　ｄｏ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｎ　ｈｅｒ　ｌａｓｔ　ｍｏｍｅｎｔｓ，　Ｐｒｉｎｃｅｓｓ"TCC_NEWLINE
+"Ｌａｅｇｊａｒｎ’ｓ　ｏｎｌｙ　ｗｉｓｈ　ｗａｓ　ｔｈａｔ　"TCC_NEWLINE"ｙｏｕ"TCC_NEWLINE
+"ｓｈｏｕｌｄ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｔｈｒｏｗ　ａｗａｙ　ｙｏｕｒ　ｌｉｆｅ　ｈｅｒ"TCC_NEWLINE"ｅ！　Ｙｏｕ"TCC_NEWLINE
+"ｍｕｓｔ　ｈｏｎｏｒ　ｙｏｕｒ　ｓｉｓｔｅｒ’ｓ　ｗｉｓｈ　"TCC_NEWLINE"ａｎｄ"TCC_NEWLINE
+"ｌｉｖｅ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｄａｙ，　Ｎｉｆｌ　ａｎｄ　Ｍｓｐｅｌｌ　ｗｉｌｌ　"TCC_NEWLINE"ｃｅａｓｅ"TCC_NEWLINE
+"ｈｏｓｔｉｌｉｔｉｅｓ．　Ｔｈｅｒｅ　ｗｉｌｌ　ｂｅ　ｐｅａ"TCC_NEWLINE"ｃｅ"TCC_NEWLINE
+"ｂｅｔｗｅｅｎ　ｏｕｒ　ｒｅａｌｍｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈｅ　ｏｒｄｅｒｅｄ　ｍｅ．．．ｔｏ　ｌｉｖｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｒｄｅｒ？　Ｎｏ，　Ｌａｅｖａｔｅｉｎ．　Ｓｈｅ　ｃａｒｅ"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ａｂｏｕｔ　ｙｏｕ．　Ｉｔ　ｗａｓ　ｈｅｒ　ｄｙｉｎｇ　ｗｉ"TCC_NEWLINE"ｓｈ　ｔｈａｔ"TCC_NEWLINE
+"ｙｏｕ　ｂｅ　ｓａｖｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌａｅｇｊａｒｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｖｅｒｏｎｉｃａ．　Ｔｏ　ｈａｖｅ　ｋｅｐｔ　ｙｏｕ　ｗａｉ"TCC_NEWLINE"ｔｉｎｇ"TCC_NEWLINE
+"ｓｏ　ｌｏｎｇ．．．Ｉ　ａｐｏｌｏｇｉｚｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ，　Ｂｒｕｎｏ．　Ｄｏ"TCC_NEWLINE"　ｙｏｕ"TCC_NEWLINE
+"ｈａｖｅ　ｗｏｒｄ　ｆｒｏｍ　Ｘａｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈｅ　ｉｓ　ｓａｆｅ　ａｓ　ｗｅｌｌ．　Ｙｏｕ　ｃａｎ　ｓｔ"TCC_NEWLINE"ｏｐ　ｙｏｕｒ"TCC_NEWLINE
+"ｗｏｒｒｙｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｚａｃｈａｒｉａｓ．．．　Ｔｈａｎｋ　ｙｏｕ．　Ｙｏｕ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
+"ｓａｖｅｄ　ｕｓ　ｙｅｔ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｉｓ　Ｉ　ｗｈｏ　ｍｕｓｔ　ｔｈａｎｋ　ｙｏｕ，　Ａｌ"TCC_NEWLINE"ｆｏｎｓｅ．"TCC_NEWLINE
+"Ｙｏｕ　ｓａｖｅｄ　ｍｅ　ｌｏｎｇ　ａｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｍｏｍｅｎｔ．．．ｉｔ　ｈａｓ　ｂｅｅｎ　ｉｎ　ｍ"TCC_NEWLINE"ｙ　ｍｉｎｄ"TCC_NEWLINE
+"ｏｆ　ｌａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｚａｃｈａｒｉａｓ．．．　Ｗｅ　ｃａｎ　ｔａｌｋ　ｌａｔｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｋｅｅｐ　ｙｏｕｒ　ｓｉｓｔｅｒ　ａｎｄ　Ｙｌｇｒ　ｓａｆｅ"TCC_NEWLINE"．　Ｗｅ"TCC_NEWLINE
+"ｗｉｌｌ　ｆａｃｅ　Ｓｕｒｔｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈｏｕｔ　ｈｉｓ　ｓａｃｒｉｆｉｃｅｓ，　ｔｈｅ　Ｒｉ"TCC_NEWLINE"ｔｅ　ｏｆ"TCC_NEWLINE
+"Ｆｌａｍｅ　ｃａｎｎｏｔ　ｐｒｏｔｅｃｔ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｉｍｅ　ｔｏ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｔｈ"TCC_NEWLINE"ｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

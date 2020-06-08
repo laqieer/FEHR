@@ -1,0 +1,163 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S2075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｗｅ’ｖｅ　ｍａｄｅ　ｉｔ　ｔｏ　Ｓｎｊｒｈｏｆ．　Ｗｅ’ｌ"TCC_NEWLINE"ｌ　ｆｉｎｄ"TCC_NEWLINE
+"ｍｙ　ｓｉｓｔｅｒ　ｉｎ"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｔｈｏｓｅ　Ｍｓｐｅｌｌ　ｓｏｌｄｉｅｒｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｙｅｓ！　Ｂｕｔ　ｈｏｗ？　Ｏｕｒ　ｓｃｏｕｔｓ　ｓｈｏｕｌ"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ｈａｖｅ　ｂｅｅｎ　ｔｒａｃｋｉｎｇ　ｅｖｅｒｙ　ｍｏｖｅ　"TCC_NEWLINE"ｔｈｅｙ"TCC_NEWLINE
+"ｍａｄｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｃｏｕｌｄｎ’ｔ　ｈａｖｅ　ｇｏｔｔｅｎ　ａｈｅａ"TCC_NEWLINE"ｄ　ｏｆ"TCC_NEWLINE
+"ｕｓ．．．　Ｓｏ　ｈｏｗ　ｄｉｄ　ｔｈｅｙ　ｂｅａｔ　ｕｓ　"TCC_NEWLINE"ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｍａｋｅ　ｓｕｒｅ　ｍｙ　ｓｉｓｔｅｒ"TCC_NEWLINE"　ｉｓ"TCC_NEWLINE
+"ｓａｆｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗａｉｔ，　Ｐｒｉｎｃｅｓｓ！　Ｗｉｔｈ　ｔｈｅ　ｓｏｌｄｉ"TCC_NEWLINE"ｅｒｓ，"TCC_NEWLINE
+"ｔｈａｔ’ｓ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ！　Ｈｏｗ　ｄｉｄ　ｈｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_SURTR
+"Ｗｅｌｌ，　ｗｅｌｌ，　ｗｅｌｌ．．．　Ｔｈｅ　ｐａｃｋ　ｏ"TCC_NEWLINE"ｆ　ｓｔｒａｙ"TCC_NEWLINE
+"ｐｕｐｓ　ｈａｓ　ａｒｒｉｖｅｄ！　Ｉｔ　ｈａｓ　ｂｅｅｎ　"TCC_NEWLINE"ｓｏｍｅ"TCC_NEWLINE
+"ｔｉｍｅ　ｓｉｎｃｅ　ｏｕｒ　ｌａｓｔ　ｍｅｅｔｉｎｇ，　ｗ"TCC_NEWLINE"ｈｅｌｐｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ，　Ｓｕｒｔｒ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｏ　ｔｈｉｎｋ　ｔｈａｔ　ｙｏｕ’ｄ　ｄｅｆｅａｔ　Ｌａｅ"TCC_NEWLINE"ｇｊａｒｎ"TCC_NEWLINE
+"ａｎｄ　Ｌａｅｖａｔｅｉｎ　ｂｏｔｈ．．．　Ｔｈａｔ　ｔｒｉ"TCC_NEWLINE"ｃｋｓｔｅｒ"TCC_NEWLINE
+"Ｌｏｋｉ　ｈａｓ　ｔｏｌｄ　ｍｅ　ｅｖｅｒｙｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓｎ’ｔ　ｉｎｃｌｉｎｅｄ　ｔｏ　ｔｒｕｓｔ　ｈｅｒ"TCC_NEWLINE"，　ｂｕｔ．．．　Ｉｔ"TCC_NEWLINE
+"ｄｏｅｓ　ｓｅｅｍ　ｔｏ　ｂｅ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅａｔｈ　ｉｓ　ｔｏｏ　ｇｏｏｄ　ｆｏｒ　ｔｈｏｓｅ　ｕｓ"TCC_NEWLINE"ｅｌｅｓｓ"TCC_NEWLINE
+"ｆｏｏｌｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｅｒｅ　ｉｓ　ｍｙ　ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｏｕｒ　ｓｉｓｔｅｒ？　Ｙｏｕ　ｍｅａｎ　ｔｈｉｓ　ｈｕｎ"TCC_NEWLINE"ｋ　ｏｆ"TCC_NEWLINE
+"ｒｏａｓｔｅｄ　ｍｅａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE
+"Ｆｊｏ．．．ｒｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｇｕｎｎｔｈｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｓｏ　ｍｕｃｈ　ｐａｉｎ　Ｉ’ｖｅ　ｉｎｆｌｉｃｔｅｄ　ｏｎ"TCC_NEWLINE"　ｈｅｒ！"TCC_NEWLINE
+"Ｓｔｉｌｌ，　ｓｈｅ　ｒｅｆｕｓｅｓ　ｔｏ　ｄｉｖｕｌｇｅ　"TCC_NEWLINE"ａｎｙｔｈｉｎｇ．"TCC_NEWLINE
+"Ｔｅｌｌ　ｍｅ！　Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｐｌａｎｎｉｎｇ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　ｓｈｅ　ｈｏｐｅｓ　ｔｏ　ｓｈｉｅｌｄ　ｈｅ"TCC_NEWLINE"ｒ　ｌｉｔｔｌｅ"TCC_NEWLINE
+"ｓｉｓｔｅｒ　ｆｒｏｍ　ｍｙ　ｗｒａｔｈ．　Ｗｒｉｔｈｉｎｇ"TCC_NEWLINE"　ｉｎ　ｔｈｅ"TCC_NEWLINE
+"ｄｉｒｔ，　ｙｅｔ　ｓｔｉｌｌ　ａ　ｐｒｉｎｃｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈａｎｇ　ｏｎ，　Ｇｕｎｎｔｈｒ！　Ｗｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｏｕ　ｆｏｏｌ！　Ｗｈｙ　ｄｏ　ｙｏｕ　ｓｕｐｐｏｓｅ　ｓ"TCC_NEWLINE"ｈｅ"TCC_NEWLINE
+"ｙｅｔ　ｌｉｖｅｓ？　Ｉｔ　ｗａｓ　ｆｏｒ　ｔｈｉｓ　ｍｏｍ"TCC_NEWLINE"ｅｎｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE
+"Ａａａａａａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｎｄ　ｔｈｅｒｅ　ｉｔ　ｉｓ．　Ｂｅｆｏｒｅ　ｙｏｕｒ　ｖ"TCC_NEWLINE"ｅｒｙ　ｅｙｅｓ，"TCC_NEWLINE
+"ｓｈｅ　ｓｕｃｃｕｍｂｓ　ｔｏ　ｔｈｅ　ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｇｕｎｎｔｈｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE
+"Ｆｊｏｒｍ．．．　Ｄｏ　ｎｏｔ．．．ｗａｓｔｅ　ｔｉｍｅ．．"TCC_NEWLINE"．ｗｏｒｒｙｉｎｇ"TCC_NEWLINE
+"ａｂｏｕｔ　ｍｅ．　Ｙｏｕ　ｍｕｓｔ．．．ｌｉｖｅ．　Ｌｉｖ"TCC_NEWLINE"ｅ！　Ａｎｄ"TCC_NEWLINE
+"ｓｅｅｋ　ｈａｐｐｉｎｅｓｓ！"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_FJORM
+"Ｏｈ，　Ｇｕｎｎｔｈｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｄｅａｄ　ａｌｒｅａｄｙ？　Ｈｏｗ　ｄｕｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈｏｕｇｈｔ　ｓｈｅ’ｄ　ｐｕｔ　ｕｐ　ｍｏｒｅ　ｏｆ"TCC_NEWLINE"　ａ　ｆｉｇｈｔ．"TCC_NEWLINE
+"Ｉ’ｍ　ｎｏｔ　ｅｖｅｎ　ｃｌｏｓｅ　ｔｏ　ｓａｔｉｓｆｉｅ"TCC_NEWLINE"ｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｍｏｔｈｅｒ　ｈａｄ　ａ　ｌｏｔ　ｍｏｒｅ　ｓｐａ"TCC_NEWLINE"ｒｋ，"TCC_NEWLINE
+"ｗｏｕｌｄｎ’ｔ　ｙｏｕ　ｓａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｕｒｔｒ！　Ｇｒｒａｇｈ！　Ａｈ．．．　Ａａｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｈａ－ｈａｈ！　Ｌｉｓｔｅｎ　ｔｏ　ｔｈａｔ！　Ｉ　ｃａｎ　"TCC_NEWLINE"ｈｅａｒ　ｙｏｕ"TCC_NEWLINE
+"ｆｒａｙｉｎｇ．．．　Ｗｈａｔ　ｖｅｘｅｓ　ｙｏｕ　ｍｏｒｅ"TCC_NEWLINE"？　Ｉｓ　ｉｔ"TCC_NEWLINE
+"ｍｙ　ｓｔｒｅｎｇｔｈ，　ｏｒ　ｙｏｕｒ　ｗｅａｋｎｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｙｏｕｒ　ｒａｇｅ　ｃｏｎｓｕｍｅ　ｙｏｕ．　Ｂｕｒ"TCC_NEWLINE"ｎ　ｗｉｔｈ"TCC_NEWLINE
+"ｔｈｅ　ｆｉｒｅｓ　ｏｆ　ｈａｔｅ．　Ｉｔ　ｗｉｌｌ　ｂｅｃ"TCC_NEWLINE"ｏｍｅ　ｆｕｅｌ"TCC_NEWLINE
+"ｆｏｒ　ｍｙ　ｆｌａｍｅｓａｌｌ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ？　Ａｎｓｗｅｒ　ｍｅ，　Ｓｕｒｔ"TCC_NEWLINE"ｒ！"TCC_NEWLINE
+"Ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ　ｄｏ　ｓｕｃｈ　ａ　ｔｈｉｎｇ　"TCC_NEWLINE"ｔｏ　ｍｙ"TCC_NEWLINE
+"ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_SURTR
+"Ｈａ－ｈａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍｔｈｅｒｅ　ｉｓ　ｎｏ　ｔｉｍｅ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ａｒｇｕｅ　ｗｉｔｈ　ｈｉｍ．　Ｗｅ　ｃａｎ’ｔ　ｄｅｆｅａ"TCC_NEWLINE"ｔ　Ｓｕｒｔｒ"TCC_NEWLINE
+"ｙｅｔ！　Ｙｏｕ　ｓａｉｄ　ｔｈｉｓ　ｙｏｕｒｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｅｓｃａｐｅ　ｂｅｆｏｒｅ　ｗｅ　ｆａｌｌ　"TCC_NEWLINE"ｉｎｔｏ"TCC_NEWLINE
+"ｈｉｓ　ｔｒａｐ！　Ｈｕｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｍｙ　ｄｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｄｅａｒ"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｒｉｎｃｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｏｎ　ｍｙ　ｎａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｕｎｎｔｈｒ，　Ｎｉｆｌ’ｓ　ｃｈｉｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｏｎｅ，　ｔｏ　ｉｔｓ　ｖｅｓｓｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｌｉｖｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｉｔｈ　ｍｙ　ｂｏｄｙ．．．　Ｗｉｔｈ　ｍｙ　ｓｏｕｌ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｍｙ　ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒ　ｆｉｎａｌ　ａｃｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｔ　ｉｓ　ｄｏｎｅ．　Ｍｙ　ｒｏｌｅ　ｉｓ　ａｔ　ａｎ　ｅ"TCC_NEWLINE"ｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ．．．　Ｉ　ｈａｖｅ"TCC_NEWLINE
+"ｅｎｔｒｕｓｔｅｄ　ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｙｏｕ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏ　ｎｏｗ．　Ｆｏｌｌｏｗ　ｔｈｅ　ｌｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｏ　ｇｌａｄ　ｔｈａｔ　ｗｅ　ｗｅｒｅ　ａｂｌｅ"TCC_NEWLINE"　ｔｏ"TCC_NEWLINE
+"ｍｅｅｔ　ａｔ　ｌａｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｕｎｎｔｈｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｓｈｅ　ｈｅｌｄ　ｏｆｆ　ｄｅａｔｈ．．．ｆｏｒ　ａ　"TCC_NEWLINE"ｗｈｉｌｅ．　Ｔｏ"TCC_NEWLINE
+"ｗｈａｔ　ｐｕｒｐｏｓｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｕｌｄ　ｉｔ　ｂｅ　ｔｈａｔ　ｙｏｕ　ａｒｅ　ｔｈｅ　ｏ"TCC_NEWLINE"ｎｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ｆａｓｃｉｎａｔｉｎｇ．　Ｔｈｅｉｒ　ｈｏｐｅｓ　ｒｅｓｔ　"TCC_NEWLINE"ｗｉｔｈ"TCC_NEWLINE
+"ｙｏｕ．　Ｉ　ｗｉｌｌ　ｈａｖｅ　ｔｏ　ｍａｋｅ　ｓｕｒｅ　"TCC_NEWLINE"ｙｏｕ　ｂｕｒｎ"TCC_NEWLINE
+"ｎｅｘｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｌｅｔ’ｓ　ｇｅｔ　ｏｕｔ　ｏｆ　ｈｅｒｅ．　ＮＯＷ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S2075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈａｖｅ　ｗｅ　ｇｏｔ　ｅｖｅｒｙｏｎｅ？　Ｎｏ　ｏｎｅ’ｓ"TCC_NEWLINE
+"ｈｕｒｔ，　ａｒｅ　ｔｈｅｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ’ｒｅ　ａｌｌ　ｒｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｗｉｔｈ　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏ"TCC_NEWLINE"ｒｍ，　ａｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃ－ｃｏｍｍａｎｄｅｒ！　Ｇｅｎｅｒａｌ　Ｌａｅｇｊａｒｎ　"TCC_NEWLINE"ｈａｓ"TCC_NEWLINE
+"ｅｓｃａｐｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+"Ｉｔ’ｓ　ｍｙ　ｆａｕｌｔ．．．　Ｉ　ｗａｓ　ｓｕｐｐｏｓｅ"TCC_NEWLINE"ｄ　ｔｏ　ｂｅ"TCC_NEWLINE
+"ｗａｔｃｈｉｎｇ　ｈｅｒ，　ｂｕｔ．．．Ｉ　ｌｏｓｔ　ｍｙ"TCC_NEWLINE
+"ｃｏｍｐｏｓｕｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｒｉｎｇ　ｙｏｕ　ｎｏｔｈｉｎｇ　ｂｕｔ　ｍｉｓｆｏｒ"TCC_NEWLINE"ｔｕｎｅ．"TCC_NEWLINE
+"Ｈｏｗ　ｃａｎ　Ｉ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｒｅ’ｓ　ｎｏｔｈｉｎｇ　ｆｏｒ　ｉｔ　ｎｏｗ．　Ｉｔ"TCC_NEWLINE"　ｉｓ　ｄｏｎｅ．"TCC_NEWLINE
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｔｕｒｎ　ｏｕｒ　ａｔｔｅｎｔｉｏｎ　"TCC_NEWLINE"ｔｏ　ｏｕｒ"TCC_NEWLINE
+"ｎｅｘｔ　ｍｏｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ．．．　Ｉｔ’ｓ　ｓｈｉｎ"TCC_NEWLINE"ｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｙ　ｓｉｓｔｅｒ　ｕｓｅｄ　ｔｈｅ　ｌａｓｔ　ｏｆ　ｈｅｒ"TCC_NEWLINE"　ｓｔｒｅｎｇｔｈ"TCC_NEWLINE
+"ｔｏ　ｅｎｔｒｕｓｔ　ｕｓ　ｗｉｔｈ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｆｏｌｌｏｗ　ｔｈｅ　ｌｉｇｈｔ，　ｉｔ　ｗｉｌ"TCC_NEWLINE"ｌ　ｌｅａｄ　ｕｓ　ｔｏ"TCC_NEWLINE
+"ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ．　Ｔｈａｔ　ｉｓ　ｔｈｅ"TCC_NEWLINE"　ｐｏｗｅｒ"TCC_NEWLINE
+"ｔｈａｔ　ｗｉｌｌ　ｄｅｆｅａｔ　Ｓｕｒｔｒ．．．ｏｎｃｅ　"TCC_NEWLINE"ａｎｄ　ｆｏｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

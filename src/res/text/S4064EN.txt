@@ -1,0 +1,31 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4064_EN] = TCC_OPEN_LEFT
+"Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｓｐｅｎｄ　ｍｏｒｅ　ｔｉｍｅ"TCC_NEWLINE
+"ｗｉｔｈ　Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4064_EN] = TCC_OPEN_LEFT
+"Ｍｙ　ｂｒｏｔｈｅｒ　ｓｈｏｕｌｄ　ｂｅ　ｈｅｒｅ．．．"TCC_NEWLINE
+"Ｓｏｍｅｗｈｅｒｅ　ｉｎ　ｔｈｉｓ　ｆｏｒｅｓｔ．．．"TCC_NEWLINE
+"Ｍａｙｂｅ　ａ　ｌｉｔｔｌｅ　ｆａｒｔｈｅｒ　ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｖｉｓｉｂｉｌｉｔｙ　ｓｅｅｍｓ　ｌｏｗ　ｔｈｒｏｕｇｈｏｕ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｔｈｅ　ｗｏｏｄ．　Ｗｅ　ｃｏｕｌｄ　ｃｏｖｅｒ　ｍｏｒｅ"TCC_NEWLINE
+"ｇｒｏｕｎｄ　ｉｆ　ｗｅ　ｗｅｒｅ　ｔｏ　ｓｐｌｉｔ　ｕｐ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｎ　ｔｈａｔ　ｃａｓｅＰｅｏｎｙ，　ｃｏｍｅ　ｗｉｔｈ"TCC_NEWLINE
+"ｍｅ　ｉｎ　ｔｈｉｓ　ｄｉｒｅｃｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"ＯＫ！　Ｉｔ’ｓ　ａｌｍｏｓｔ　ｌｉｋｅ　ｗｅ’ｒｅ　ｐｌａ"TCC_NEWLINE"ｙｉｎｇ"TCC_NEWLINE
+"ａ　ｂｉｇ　ｇａｍｅ　ｏｆ　ｈｉｄｅ－ａｎｄ－ｓｅｅｋ．．．"TCC_NEWLINE
+"Ｈｏｗ　ｆｕｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｋｎｏｗ！　Ｉ’ｍ　ｈａｖｉｎｇ　ｆｕｎ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｓｕｃｈ　ｏｄｄ　ｐｅｏｐｌｅ．　Ｌｉｋｅ　ｃｈｉｌｄ"TCC_NEWLINE"ｒｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｅｔ’ｓ　ｈｅａｄ　ｄｅｅｐｅｒ　ｉｎｔｏ　ｔｈｅ　ｆｏｒ"TCC_NEWLINE"ｅｓｔ，"TCC_NEWLINE
+"ｓｈａｌｌ　ｗｅ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｅａｄ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

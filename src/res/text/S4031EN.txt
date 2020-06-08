@@ -1,0 +1,159 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈ．．．ｗｈｅｒｅ　ａｒｅ　ｗｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｆａｎｔａｓｙ．．"TCC_NEWLINE"．ｔｈｅ"TCC_NEWLINE
+"ｄｒｅａｍ　ｂｅｎｅａｔｈ　ｄｒｅａｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ｌｉｖｅｓ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FREYR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏｈ，　ｗｏｗ！　Ｔｈｉｓ　ｉｓ．．．ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｋｉｎｇ　Ｆｒｅｙｒ．．．　Ｋｉｎｇ　Ｆｒｅｙｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｈｅ’ｓ　ｓｌｅｅｐｉｎｇ．　Ｂｕｔ　ｔｈａｔ’ｓ　ｎ"TCC_NEWLINE"ｏｒｍａｌ！"TCC_NEWLINE
+"Ａｓ　ｔｈｅ　Ｄｒｅａｍ－Ｋｉｎｇ，　ｈｅ’ｓ　ａｌｗａｙｓ"TCC_NEWLINE
+"ｓｌｅｅｐｉｎｇａｎｄ　ｄｒｅａｍｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏ，　ｔｈｅｎ．．．ａｒｅ　ｗｅ　ｔｏ　ｗａｉｔ　ｆｏｒ　"TCC_NEWLINE"ｈｉｍ"TCC_NEWLINE
+"ｔｏ　ｗａｋｅ？　Ｉｆ　ｗｅ　ｗａｎｔ　ｔｏ　ｓｐｅａｋ　ｗ"TCC_NEWLINE"ｉｔｈ"TCC_NEWLINE
+"ｈｉｍ，　Ｉ　ｍｅａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏ　ｎｅｅｄ．．．ｙｏｕｎｇ　ｍｏｒｔａｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｓ．．．ｉｓ　ｈｅ　ｔａｌｋｉｎｇ　ｉｎ　ｈｉｓ　ｓｌｅｅ"TCC_NEWLINE"ｐ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｉｔｈｉｎ　ｄｒｅａｍｓ．．．ａｌｌ　ｔｈｉｎｇｓ　ａｒｅ"TCC_NEWLINE
+"ｐｏｓｓｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕ　ａｒｅ　ｈｅｒｅ　ｗｉｔｈ　ａ　ｐｕｒｐｏｓ"TCC_NEWLINE"ｅ．"TCC_NEWLINE
+"Ａｌｌｏｗ　ｍｅ　ｔｏ　ａｎｓｗｅｒ　ｙｏｕｒ　ｑｕｅｓｔｉ"TCC_NEWLINE"ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｗａｋｅ　ｆｒｏｍ　ｔｈｉｓ　ｄｒｅａｍ．．．ｙｏｕ　"TCC_NEWLINE"ｗｉｌｌ"TCC_NEWLINE
+"ｎｅｅｄ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｎｅｅｄ．．．ａ　ｈｏｒｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｉｓ　ｔｈｅ　ｈｏｒｎ　Ｇｕｌｌｉｎｋａｍｂｉ．　Ｉｔ"TCC_NEWLINE"ｓ　ｔｏｎｅｓ，"TCC_NEWLINE
+"ｗｈｅｎ　ｓｏｕｎｄｅｄ，　ｗｉｌｌ　ｒｏｕｓｅ　ｙｏｕ　ｆ"TCC_NEWLINE"ｒｏｍ"TCC_NEWLINE
+"ｙｏｕｒ　ｓｌｕｍｂｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｉｃｔｕｒｅ　ｔｈｅ　ｗｏｒｌｄ　ｏｕｔｓｉｄｅ　ｔｈｅ　"TCC_NEWLINE"ｄｒｅａｍ，"TCC_NEWLINE
+"ａｎｄ　ｗｉｓｈ　ｔｏ　ｒｅｔｕｒｎ．　Ｔｈｅｎ，　ｓｏｕｎ"TCC_NEWLINE"ｄ　ａ"TCC_NEWLINE
+"ｂｌａｓｔ　ｏｎ　ｔｈｅ　ｈｏｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｔｈａｔ，　ａｎｄ　ｙｏｕｒ　ｔｉｍｅ　ｏｆ　ａｗａｋ"TCC_NEWLINE"ｅｎｉｎｇ"TCC_NEWLINE
+"ｗｉｌｌ　ｂｅ　ａｔ　ｈａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈｅｎ　ｗｅ’ｌｌ　ａｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｗａｋｅ"TCC_NEWLINE"　ｕｐ！"TCC_NEWLINE
+"Ｌｅｔ’ｓ　ｇｏ　ａｌｒｅａｄｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗａｉｔ．　Ｔｈｅ　ｔｉｍｅ　ａｎｄ　ｐｌａｃｅ　ｔｏ　ｓｏ"TCC_NEWLINE"ｕｎｄ"TCC_NEWLINE
+"ｔｈｅ　ｈｏｒｎ．．．ｉｓ　ｎｅｉｔｈｅｒ　ｈｅｒｅ　ｎｏｒ"TCC_NEWLINE"　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｒｓｔ．．．ｄｋｋｌｆａｒ　ｈａｖｅ　ｓｎｅａｋｅｄ　ｉ"TCC_NEWLINE"ｎｔｏ"TCC_NEWLINE
+"Ｌｊｓｌｆｈｅｉｍｒ，　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｄｒｅａｍ"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｉｒ　ｐｒｅｓｅｎｃｅ　ｉｓ　ｃｏｒｒｕｐｔｉｎｇ．　"TCC_NEWLINE"Ｙｏｕ"TCC_NEWLINE
+"ｍｕｓｔ　ｒｅｍｏｖｅ　ｔｈｅｍ　ｂｅｆｏｒｅ　ｔｈｅ　ｈｏ"TCC_NEWLINE"ｒｎ"TCC_NEWLINE
+"ｗｉｌｌ　ｓｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｈｏｒｎ　ｗｉｌｌ　ｎｏｔ　ｓｏｕｎｄ　ｏｕｔｓｉｄ"TCC_NEWLINE"ｅ　ｔｈｅ"TCC_NEWLINE
+"ｂｏｕｎｄｓ　ｏｆ　Ｌｊｓｌｆｈｅｉｍｒ　ｅｉｔｈｅｒ．　Ｔ"TCC_NEWLINE"ｈｉｓ"TCC_NEWLINE
+"ｉｓ　ｔｈｅ　ｏｎｌｙ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｃａｎ　ｈａｎｄｌｅ　ｔｈａｔ，　Ｋｉｎｇ　Ｆｒｅｙｒ"TCC_NEWLINE"！"TCC_NEWLINE
+"Ａｆｔｅｒ　ａｌｌ，　Ｉ’ｍ　ａ　ｌｊｓｌｆａｒ，　ｓｏ　Ｉ"TCC_NEWLINE"　ｋｎｏｗ"TCC_NEWLINE
+"ｍｙ　ｗａｙ　ａｒｏｕｎｄ　Ｌｊｓｌｆｈｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｔｅａｃｈ　ｔｈｏｓｅ　ｄｋｋｌｆａｒ　ａ　ｌｅ"TCC_NEWLINE"ｓｓｏｎ"TCC_NEWLINE
+"ｆｏｒ　ｓｐｒｅａｄｉｎｇ　ａｌｌ　ｔｈｏｓｅ　ｔｅｒｒｉｂ"TCC_NEWLINE"ｌｅ"TCC_NEWLINE
+"ｎｉｇｈｔｍａｒｅｓ　ｉｎ　ｏｕｒ　ｈｏｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅｒｅ　ａｒｅ　ｔｗｏ　ｄｋｋｌｆａｒ　ｍａｋｉｎｇ　ｔ"TCC_NEWLINE"ｈｅｉｒ"TCC_NEWLINE
+"ｗａｙ　ｔｈｒｏｕｇｈ　Ｌｊｓｌｆｈｅｉｍｒ．．．　Ｐｅｏｎ"TCC_NEWLINE"ｙ"TCC_NEWLINE
+"ｃａｎ　ｌｅａｄ　ｙｏｕ　ｔｏ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｎｋ　ｙｏｕ，　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　Ｉ　ｈａｖｅ　ｏｎｅ　ｆｉｎａｌ　ｔｈｉｎｇ　ｔｏ"TCC_NEWLINE"　ａｓｋ．．．"TCC_NEWLINE
+"Ｉｔ’ｓ　ａｂｏｕｔ　ａ　ｆｒｉｅｎｄ　ｏｆ　ｏｕｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｈ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｙｏｕ　ｓｅｅｋ　ｋｎｏｗｌｅ"TCC_NEWLINE"ｄｇｅ"TCC_NEWLINE
+"ｏｆ"TCC_TACTICIAN_NAME"’ｓ　ｌｏｃａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｕｎｆｏｒｔｕｎａｔｅｌｙ，　ｔｈａｔ　ｉｓ　ｏｎｅ　"TCC_NEWLINE"ｔｈｉｎｇ"TCC_NEWLINE
+"Ｉ　ｄｏ　ｎｏｔ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒ－ｒｅａｌｌｙ？　Ｈｏｗ　ｃａｎ　ｉｔ　ｂｅ　ｔｈａｔ　ｎ"TCC_NEWLINE"ｏｔ　ｅｖｅｎ"TCC_NEWLINE
+"ｙｏｕ　ｋｎｏｗ，　Ｋｉｎｇ　Ｆｒｅｙｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｏｍｅ　ｔｈｉｎｇｓ　ａｒｅ　ｂｅｙｏｎｄ　ｅｖｅｎ　ｍｅ"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｙｏｕｒ　ｆｒｉｅｎｄ　ｉｓ　ｏｎｅ　ｓｕｃｈ　ｍｙｓｔｅｒ"TCC_NEWLINE"ｙ．．．"TCC_NEWLINE
+"Ｔｈｉｓ"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ，　ｙｏｕ　ｎｅｅｄｎ’ｔ　ｗｏｒｒｙ　ｏｖｅ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ｔｈｅｍ．　Ｉｆ　ｙｏｕ　ｃａｎ　ｄｒｉｖｅ　ｏｕｔ　ｔｈｅ"TCC_NEWLINE
+"ｄｋｋｌｆａｒ　ａｎｄ　ｂｌｏｗ　ｔｈｅ　ｈｏｒｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｌｉｅｖｅ　ａｌｌ　ｏｆ　ｙｏｕ，　ｉｎｃｌｕｄｉｎ"TCC_NEWLINE"ｇ　ｙｏｕｒ"TCC_NEWLINE
+"ｆｒｉｅｎｄ，　ｗｉｌｌ　ｒｅｔｕｒｎ　ｈｏｍｅ　ｔｏ　ｔｈ"TCC_NEWLINE"ｅ　ｒｅａｌｍ"TCC_NEWLINE
+"ｏｆ　ｙｏｕｒ　ｗａｋｉｎｇ　ｌｉｖｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｎ　ｔｈｅｒｅ’ｓ　ｏｎｌｙ　ｏｎｅ　ｔｈｉｎｇ　ｔｏ"TCC_NEWLINE"　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ！　Ｌｅｔ’ｓ　ｓｅｔｔｌｅ　ｔｈｉ"TCC_NEWLINE"ｎｇｓ　ｗｉｔｈ"TCC_NEWLINE
+"ｔｈｏｓｅ　ｄｋｋｌｆａｒａｎｄ　ｇｅｔ　ｔｈｅｍ　ｏｕｔ"TCC_NEWLINE
+"ｏｆ　Ｌｊｓｌｆｈｅｉｍｒ　ｆｏｒ　ｇｏｏｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｇｏｏｄ　ｍｏｒｎｉｎｇ！　Ｔｉｍｅ　ｔｏ　ｇｅｔ　ｕｐ！"TCC_NEWLINE
+"Ｌｅｔ’ｓ　ｇｅｔ　ｒｅａｄｙ　ｔｏ　ｓｅｔ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｍｍｒｒｇｈ．．．　Ｉｓ　ｅｖｅｒｙｏｎｅ　ｕｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ’ｍ　ａｗａｋｅ，　Ｉ’ｍ　ａｗａｋｅ．．．　Ｅｒ，　Ｉ　"TCC_NEWLINE"ｓｕｐｐｏｓｅ"TCC_NEWLINE
+"ｔｈｉｓ　ｉｓ　ｓｔｉｌｌ　ａ　ｄｒｅａｍ，　ｓｏ　Ｉ’ｍ　"TCC_NEWLINE"ｎｏｔ　ｔｒｕｌｙ"TCC_NEWLINE
+"ａｗａｋｅ，　ｂｕｔ，　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｙｅｓ．　Ｉｔ’ｓ　ｃｏｍｐｌｉｃａｔｅｄ．　Ｂｕｔ　ｉｆ　"TCC_NEWLINE"ｗｅ　ｃａｎ"TCC_NEWLINE
+"ｗａｋｅ　ｕｐ　ｆｒｏｍ　ｔｈｉｓ　ｄｒｅａｍ，　ｗｅ’ｌｌ"TCC_NEWLINE"　ｂｅ"TCC_NEWLINE
+"ｂａｃｋ　ｉｎ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍｍ．．．　Ｉ　ｗｏｎｄｅｒ　ｗｈｅｒｅ　ｗｅ　ｍｉｇｈｔ"TCC_NEWLINE
+"ｆｉｎｄ　ｔｈｏｓｅ　ｄｋｋｌｆａｒ．．．　Ｔｈｉｓ　ｗａｙ"TCC_NEWLINE"？"TCC_NEWLINE
+"．．．Ｔｈａｔ　ｗａｙ，　ｍａｙｂｅ？　Ｏｈ，　Ｉ　ｋｎｏｗ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｌｌｏｗ　ｍｅ，　ｅｖｅｒｙｏｎｅ！　Ｉ　ｈａｖｅ　ａ　"TCC_NEWLINE"ｆｅｅｌｉｎｇ"TCC_NEWLINE
+"ｔｈｅ　ｄｋｋｌｆａｒ　ａｒｅ　ｔｈｉｓ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａ－ａｒｅ　ｙｏｕ　ｓｕｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ，　Ａｎｎａ．"TCC_NEWLINE
+"Ｗｅ　ｃａｎ　ｔｒｕｓｔ　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｙｅｓ！　Ｗｅ’ｒｅ　ｏｎ　ｔｈｅ　ｒｉｇｈｔ　ｔｒａｃｋ．"TCC_NEWLINE"　Ｌｅｔ’ｓ"TCC_NEWLINE
+"ｋｅｅｐ　ｈｅａｄｉｎｇ　ｔｈｉｓ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｒｉｇｈｔ　ｂｅｈｉｎｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ　ｓｅｅｍｓ　ｔｈｉｓ　ｉｓ　ｏｕｒ　ｏｎｌｙ　ｗａｙ　"TCC_NEWLINE"ｆｏｒｗａｒｄ，"TCC_NEWLINE
+"ｓｏ　ｗｅ　ｈａｖｅｎ’ｔ　ｍｕｃｈ　ｃｈｏｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗ－ｗａｓ　ｔｈａｔ"TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗ－ｗａｉｔ！　Ｗｈｅｒｅ　ａｒｅ　ｙｏｕ？　Ｈｏｗ　ｃａｎ"TCC_NEWLINE"　ｗｅ"TCC_NEWLINE
+"ｒｅａｃｈ　ｙｏｕ，"TCC_TACTICIAN_NAME"？"TCC_NEWLINE
+"．．．"TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ’ｓ　ｗｒｏｎｇ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｊｕｓｔ　ｎｏｗ，　ａｓ　ｗｅ　ｐａｓｓｅｄ　ｔｈｒｏｕｇｈ"TCC_NEWLINE"　ｔｈａｔ"TCC_NEWLINE
+"ｔｈｉｃｋｅｔ．．．　Ｉ　ｔｈｏｕｇｈｔ．．．　Ｉ　ｔｈｏｕ"TCC_NEWLINE"ｇｈｔ　Ｉ　ｓａｗ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ｉ’ｍ　ｓｕｒｅ　ｏｆ　ｉｔ．．．　Ｏｕｒ　ｅｙｅｓ"TCC_NEWLINE"　ｍｅｔ，　ｂｕｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｄｉｓａｐｐｅａｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｏｗ　ｓｔｒａｎｇｅ．．．　Ｃｏｍｉｎｇ　ｔｏ　ｕｓ　ｗｏ"TCC_NEWLINE"ｕｌｄ"TCC_NEWLINE
+"ｎｏｒｍａｌｌｙ　ｂｅ　ｔｈｅ　ｆｉｒｓｔ　ｔｈｉｎｇ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｗｏｕｌｄ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．．．　Ｎｏｔｈｉｎｇ　ｍａｋｅｓ　"TCC_NEWLINE"ｓｅｎｓｅ"TCC_NEWLINE
+"ｈｅｒｅ　ｉｎ　ｔｈｉｓ　ｄｒｅａｍ　ｒｅａｌｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

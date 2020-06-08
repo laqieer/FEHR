@@ -5,6 +5,8 @@
 #include <gba_types.h>
 #include <gba_base.h>
 
+#include "chapter.h"
+
 extern const u8 * const event_chap_pre[];
 extern const u8 * const event_chap_1[];
 extern const u8 * const event_chap_2[];
@@ -150,4 +152,150 @@ const u8 ** const events[0xff] = {
         event_chap_69,
 };
 
+extern const u8 * const event_chap_69_EN[];
+extern const u8 * const event_chap_pre_EN[];
+extern const u8 * const event_chap_1_EN[];
+extern const u8 * const event_chap_2_EN[];
+extern const u8 * const event_chap_3_EN[];
+extern const u8 * const event_chap_5_EN[];
+extern const u8 * const event_chap_12_EN[];
+extern const u8 * const event_chap_13_EN[];
+extern const u8 * const event_chap_15_EN[];
+extern const u8 * const event_chap_17_EN[];
+extern const u8 * const event_chap_18_EN[];
+extern const u8 * const event_chap_22_EN[];
+extern const u8 * const event_chap_23_EN[];
+extern const u8 * const event_chap_27_EN[];
+extern const u8 * const event_chap_28_EN[];
+extern const u8 * const event_chap_32_EN[];
+extern const u8 * const event_chap_33_EN[];
+extern const u8 * const event_chap_37_EN[];
+extern const u8 * const event_chap_38_EN[];
+extern const u8 * const event_chap_42_EN[];
+extern const u8 * const event_chap_43_EN[];
+extern const u8 * const event_chap_46_EN[];
+extern const u8 * const event_chap_47_EN[];
+extern const u8 * const event_chap_48_EN[];
+extern const u8 * const event_chap_50_EN[];
+extern const u8 * const event_chap_51_EN[];
+extern const u8 * const event_chap_52_EN[];
+extern const u8 * const event_chap_53_EN[];
+extern const u8 * const event_chap_55_EN[];
+extern const u8 * const event_chap_57_EN[];
+extern const u8 * const event_chap_58_EN[];
+extern const u8 * const event_chap_62_EN[];
+extern const u8 * const event_chap_63_EN[];
+extern const u8 * const event_chap_65_EN[];
+extern const u8 * const event_chap_67_EN[];
+extern const u8 * const event_chap_68_EN[];
+extern const u8 * const event_chap_69_EN[];
+extern const u8 * const event_chap_7_EN[];
+extern const u8 * const event_chap_8_EN[];
+
+const u8 ** const events_EN[0xff] = {
+        NULL,
+        event_chap_pre_EN,
+        event_chap_1_EN,
+        event_chap_2_EN,
+        event_chap_3_EN,
+        event_chap_4,
+        event_chap_5_EN,
+        event_chap_6,
+        event_chap_7_EN,
+        event_chap_8_EN,
+        event_chap_9,
+        event_chap_10,
+        event_chap_11,
+        event_chap_12_EN,
+        event_chap_13_EN,
+        event_chap_14,
+        event_chap_15_EN,
+        event_chap_16,
+        event_chap_17_EN,
+        event_chap_18_EN,
+        event_chap_19,
+        event_chap_20,
+        event_chap_21,
+        event_chap_22_EN,
+        event_chap_23_EN,
+        event_chap_24,
+        event_chap_25,
+        event_chap_26,
+        event_chap_27_EN,
+        event_chap_28_EN,
+        event_chap_29,
+        event_chap_30,
+        event_chap_31,
+        event_chap_32_EN,
+        event_chap_33_EN,
+        event_chap_34,
+        event_chap_35,
+        event_chap_36,
+        event_chap_37_EN,
+        event_chap_38_EN,
+        event_chap_39,
+        event_chap_40,
+        event_chap_41,
+        event_chap_42_EN,
+        event_chap_43_EN,
+        event_chap_44,
+        event_chap_45,
+        event_chap_46_EN,
+        event_chap_47_EN,
+        event_chap_48_EN,
+        event_chap_49,
+        event_chap_50_EN,
+        event_chap_51_EN,
+        event_chap_52_EN,
+        event_chap_53_EN,
+        event_chap_54,
+        event_chap_55_EN,
+        event_chap_56,
+        event_chap_57_EN,
+        event_chap_58_EN,
+        event_chap_59,
+        event_chap_60,
+        event_chap_61,
+        event_chap_62_EN,
+        event_chap_63_EN,
+        event_chap_64,
+        event_chap_65_EN,
+        event_chap_66,
+        event_chap_67_EN,
+        event_chap_68_EN,
+        event_chap_69_EN,
+};
+
 const u8 *** const pEvents = events;
+
+extern const u8 *** gpDefaultChapterEvent;
+
+char getCurrentGameLanguage();
+
+enum {
+    LANGUAGE_JP,
+    LANGUAGE_EN
+};
+
+u8 ** GetChapterEventDataPointerForMultiLanguage(u32 chapterId)
+{
+  if (chapterId < 0xff && GetChapterSetting(chapterId)) {
+    switch(getCurrentGameLanguage())
+    {
+        case LANGUAGE_EN:
+            if(events_EN[GetChapterSetting(chapterId)->eventId])
+                return events_EN[GetChapterSetting(chapterId)->eventId];
+        case LANGUAGE_JP:
+        default:
+            return events[GetChapterSetting(chapterId)->eventId];
+    }
+  }
+
+  return *gpDefaultChapterEvent;
+}
+
+u8 ** GetChapterEventDataPointerForMultiLanguageInjector(u32 chapterId)
+{
+    return GetChapterEventDataPointerForMultiLanguage(chapterId);
+}
+

@@ -1,0 +1,133 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａ　ｒｅｐｏｒｔ　ｊｕｓｔ　ｃａｍｅ　ｉｎ．　Ｉｔ　ｄｏｅｓ"TCC_NEWLINE"ｎ’ｔ"TCC_NEWLINE
+"ｌｏｏｋ　ｇｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｉｄｅｎｔｉｆｉｅｄ　ｅｎｅｍｉｅｓ　ｈａｖｅ　ｂｅｅｎ"TCC_NEWLINE
+"ｐｏｕｒｉｎｇ　ｉｎｔｏ　ｅｖｅｒｙ　ｗｏｒｌｄ　ｗｅ　ｄｅ"TCC_NEWLINE"ｆｅｎｄ．"TCC_NEWLINE
+"Ｏｕｒ　ｆｏｒｃｅｓ　ａｒｅ　ｂｅｉｎｇ　ｏｖｅｒｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ａｓ　ｏｕｒ　ｆｏｅｓ　ｆａｌｌ，　ｍｏｒｅ　ａｒ"TCC_NEWLINE"ｒｉｖｅ"TCC_NEWLINE
+"ｔｏ　ｔａｋｅ　ｔｈｅｉｒ　ｐｌａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅｎ　ｉｔ　ｉｓ　ａｓ　ｗｅ　ｓｕｓｐｅｃｔｅｄ．　Ｗｅ"TCC_NEWLINE"　ｍｕｓｔ"TCC_NEWLINE
+"ｆｉｎｄ　ａｎｄ　ｅｒａｄｉｃａｔｅ　ｔｈｅ　ｎｉｇｈｔｍａ"TCC_NEWLINE"ｒｅｓ　ａｔ"TCC_NEWLINE
+"ｔｈｅｉｒ　ｓｏｕｒｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｙｅｓ．　Ｉｆ　ｗｅ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ　ａｎ"TCC_NEWLINE"ｄ"TCC_NEWLINE
+"ｒｅｓｃｕｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ，　ｔｈｉｎｇ"TCC_NEWLINE"ｓ"TCC_NEWLINE
+"ｓｈｏｕｌｄ　ａｌｌ　ｃｈａｎｇｅ　ｂａｃｋ　ｔｏ　ｎｏｒｍ"TCC_NEWLINE"ａｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｌ　ｒｉｇｈｔ．　Ｔｈｅｎ　ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"ｔｏ　ｗａｓｔｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"＊ｓｎｉｆｆ＊　．．．Ｔｈｅ　ｓｃｅｎｔ　ｏｆ　ｄａｙｄｒｅ"TCC_NEWLINE"ａｍｓ"TCC_NEWLINE
+"ｆｌｏａｔｓ　ｏｎ　ｔｈｅ　ａｉｒ．　Ｍｉｒａｂｉｌｉｓ　ｍ"TCC_NEWLINE"ｕｓｔ　ｂｅ"TCC_NEWLINE
+"ｃｌｏｓｅ　ｂｙ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ　ｃｏｕｌｄ　ｓｈｅ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｈ－ｈｕｈ？　Ｗｈ－ｗｈａｔ　ｗａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍ．　Ｄｉｄ　ｅｖｅｒｙｔｈｉｎｇ　ａｒｏｕｎｄ　ｕｓ　ｓ"TCC_NEWLINE"ｅｅｍ"TCC_NEWLINE
+"ｔｏ　ｇｒｏｗ　ｂｌｕｒｒｙ　ｆｏｒ　ｙｏｕ　ａｓ　ｗｅｌｌ"TCC_NEWLINE"？　Ｗａｓ"TCC_NEWLINE
+"ｉｔ　ｓｏｍｅ　ｓｏｒｔ　ｏｆ　ｉｌｌｕｓｉｏｎ，　ｐｅｒｈ"TCC_NEWLINE"ａｐｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｈ！　Ｔｈａｔ　ｉｓ　ｐｒｏｂａｂｌｙ　Ｍｉｒａｂｉｌｉｓ"TCC_NEWLINE"　ｔａｋｉｎｇ"TCC_NEWLINE
+"ａ　ｎａｐ　ｓｏｍｅｗｈｅｒｅ　ｎｅａｒｂｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｗｈｅｒｅ？　Ｈｍｍｍ．．．　Ｌｅｔ’ｓ　ｔｒｙ"TCC_NEWLINE
+"ｏｖｅｒｒｒｒｒｒ．．．ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_LUPINUS
+"Ｚｚｚ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ＊　Ｍｍ－ｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂ－ｂｗａｈｈ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｈ，　Ｍｉｒａｂｉｌｉｓ！　Ｉ　ｆｏｕｎｄ　ｈｅｒ！　．．"TCC_NEWLINE"．Ｏｈ，"TCC_NEWLINE
+"Ｉ’ｍ　ｓｏ　ｓｏｒｒｙｄｉｄ　Ｉ　ｓｔｅｐ　ｏｎ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｈｅｙ！　Ｗａｋｅ　ｕｐ，　ｓｌｅｅｐｙｈｅａｄ！"TCC_NEWLINE
+"Ｈｅｌｌｏｏｏｏ．．．　Ｉｔ’ｓ　ｍｅ，　Ｐｅｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｍｍ．．．　Ｐｅｏｎｙ．．．？"TCC_NEWLINE TCC_PUSH_A
+"＊ｙｙｙａａａｗｗｗｎｎｎ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ　ｍｏｒｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｇｏｏｄ　ｍｏｒｎｉｎｇ！　Ｍｉｒａｂｉｌｉｓ，　ｗｅ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
+"ａ　ｆａｖｏｒ　ｔｏ　ａｓｋ　ｏｆ　ｙｏｕ．．．　Ｗｅ　ｃａ"TCC_NEWLINE"ｍｅ"TCC_NEWLINE
+"ｂｅｃａｕｓｅ　ｗｅ　ｎｅｅｄ　ｙｏｕｒ　ｈｅｌｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｚｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｈ　ｎｏ．．．　Ｍｉｒａｂｉｌｉｓ！　Ｄｏｎ’ｔ　ｇｏ　ｂ"TCC_NEWLINE"ａｃｋ"TCC_NEWLINE
+"ｔｏ　ｓｌｅｅｐ！　Ｗａｋｅ　ｕｐ，　ｗａｋｅ　ｕｐ，"TCC_NEWLINE
+"ｗａｋｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"＊ｙｙｙａａａｗｗｗｎｎｎ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ　ｍｏｒｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｌｉｓｔｅｎ！　Ｎｉｇｈｔｍａｒｅｓ　ａｒｅ　ｆｌｏｏｄｉｎ"TCC_NEWLINE"ｇ"TCC_NEWLINE
+"ｉｎｔｏ　ｔｈｉｓ　ｗｏｒｌｄ．　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒ"TCC_NEWLINE"ｅｙｒ"TCC_NEWLINE
+"ｈａｓ　ｂｅｅｎ　ｔａｋｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ａｌｌ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ"TCC_NEWLINE
+"ｔｏ　ｒｅｓｃｕｅ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ？　Ｔａｋｅｎ？　Ｍｍｍ．．"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｔｈａｔ’ｓ　ｔｏｏ　ｂａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"＊ｙｙｙａａａｗｗｗｎｎｎ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈｅｙ！　Ｗａｋｅ　ｕｐ！　Ｗｅ　ｎｅｅｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｏｎｌｙ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ"TCC_NEWLINE
+"ｗｉｔｈ　ｙｏｕｒ　ｈｅｌｐ．．．　Ｗｅ　ｎｅｅｄ　ｙｏｕｒ"TCC_NEWLINE
+"ｄａｙｄｒｅａｍ，　Ｍｉｒａｂｉｌｉｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE
+"Ｓｏ，　ｔｈａｔ’ｓ　ｙｏｕｒ　ｐｌａｎ，　ｔｈｅｎ．　Ｉｎ"TCC_NEWLINE"　ｔｈａｔ"TCC_NEWLINE
+"ｃａｓｅ，　Ｉ　ｗｉｌｌ　ｈａｖｅ　ｔｏ　ｓｔｏｐ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙ－ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4071_EN] = TCC_OPEN_LEFT
+"Ｆｅｅｄ，　ｍｙ　ｎｉｇｈｔｍａｒｅｓ．"TCC_NEWLINE
+"Ｆｅａｓｔ　ｏｎ　ｔｈｅｉｒ　ｆｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｈ　ｎｏ．．．　Ｉ－ｉｔ　ｃａｎ’ｔ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_HEL
+"Ｆｏｏｌｉｓｈ　ｍｏｒｔａｌｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｔｈｏｕｇｈｔ　ｙｏｕ　ｃｏｕｌｄ　ｅｓｃａｐｅ"TCC_NEWLINE
+"ｄｅａｔｈ’ｓ　ｂａｌａｎｃｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4071_EN] = TCC_OPEN_LEFT
+"Ａｓ　ｌｏｎｇ　ａｓ　ｐｅｏｐｌｅ　ｄｒｅａｍ，　ｔｈｅｙ"TCC_NEWLINE
+"ｃｏｎｔｉｎｕｅ　ｔｏ　ａｐｐｅａｒ　ｂｅｆｏｒｅ　ｍｅ．．"TCC_NEWLINE"．"TCC_NEWLINE
+"Ｔｈａｔ　ｉｓ　ｍｙ　ｎｉｇｈｔｍａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎｉｇｈｔｍａｒｅ　ｎｅｖｅｒ　ｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+"Ｓｏ，　Ｍｉｒａｂｉｌｉｓ，　ｃａｎ　ｙｏｕ　ｐｌｅａｓｅ　"TCC_NEWLINE"ｔａｋｅ"TCC_NEWLINE
+"ｕｓ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LUPINUS
+"Ｕｍｍ．．．　Ｉｔ’ｓ　ｏｖｅｒ　ｔｈａｔ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｔｈｅ　ｓｅｔｔｉｎｇ　ｓｕｎ　ｓｉｎｋｓ．．．ａｔ　"TCC_NEWLINE"ｔｈｅ"TCC_NEWLINE
+"ｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ．．．　Ｙｏｕ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅ　ｖｅｒｙ"TCC_NEWLINE
+"ｃｌｏｓｅ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｒｏｍ　ｔｈｅｒｅ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｉｒａｂｉｌｉｓ！　Ｎｏ　ｓｌｅｅｐｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｒｒｇｈｈ．．．　Ｂｕｔ　ｔｈｅ　ｍｉｓｔ　ｉｎ　ｔｈｉｓ"TCC_NEWLINE"　ｆｏｒｅｓｔ"TCC_NEWLINE
+"ｉｓ　ｓｏ　ｎｉｃｅ　ａｎｄ　ｃｏｚｙ．．．　Ｓｏ　ｐｅｒｆ"TCC_NEWLINE"ｅｃｔ"TCC_NEWLINE
+"ｆｏｒ　ｓｌｅｅｐｉｎｇ　ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ！　Ｉｆ　ｗｅ　ｋｅｅｐ　ｆｏ"TCC_NEWLINE"ｏｌｉｎｇ"TCC_NEWLINE
+"ａｒｏｕｎｄ　ｈｅｒｅ，　ｔｈｉｓ　ｗｏｎ’ｔ　ｓｔａｙ　ａ"TCC_NEWLINE"　ｐｌａｃｅ"TCC_NEWLINE
+"ｏｆ　ｃｏｍｆｏｒｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｍ？　Ｂ－ｂｅｃａｕｓｅ　ｔｈｅ　ｄｋｋｌｆａｒ"TCC_NEWLINE
+"ｗｉｌｌ　ａｔｔａｃｋ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏ．　Ｂｅｃａｕｓｅ　Ｉ　ｗｉｌｌ　ｂｅ　ｆｏｒｃｅｄ　ｔ"TCC_NEWLINE"ｏ"TCC_NEWLINE
+"ｄｏ　ｓｏｍｅｔｈｉｎｇ．．．ｄｒａｓｔｉｃ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅｙｙｙ．．．　Ｔｈａｔ’ｓ　ｓｃａｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｇｅｔ　ｉｔ　ｔｏｇｅｔｈｅｒ．　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　"TCC_NEWLINE"ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｏｕ，　Ｉ　ａｍ　ｓｃａｒｅｄ　ｏｆ．．．　Ｌｅｔ’"TCC_NEWLINE"ｓ　ｂｅ"TCC_NEWLINE
+"ｏｎ　ｏｕｒ　ｗａｙ　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

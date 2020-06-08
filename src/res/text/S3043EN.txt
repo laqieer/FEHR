@@ -1,0 +1,42 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3043_EN] = TCC_OPEN_LEFT
+"Ｉ’ｍ　Ｋｅａｔｏｎ．　Ｉ’ｍ　ｆｒｏｍ　ａ　ｒａｃｅ　ｃａ"TCC_NEWLINE"ｌｌｅｄ　ｔｈｅ"TCC_NEWLINE
+"ｗｏｌｆｓｋｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3043_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｅｌｌｏ，　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｉｓｎ’ｔ　ａ　ｓｏｃｉａｌ　ｃａｌｌ，　Ａｌｆｏ"TCC_NEWLINE"ｎｓｅ．　Ｉ　ａｍ"TCC_NEWLINE
+"ｏｎ　ｍｙ　ｗａｙ　ｔｏ　ａ　ｃｏｎｆｅｒｅｎｃｅ　ｗｉｔｈ"TCC_NEWLINE"　ｍｙ"TCC_NEWLINE
+"ｋｎｉｇｈｔｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｉｆ　ｙｏｕ　ｈａｖｅ　ｎｏ"TCC_NEWLINE
+"ｏｂｊｅｃｔｉｏｎ，　ｈｏｗｅｖｅｒ，　Ｉ’ｄ　ｇｌａｄｌｙ"TCC_NEWLINE"　ｇｕａｒｄ"TCC_NEWLINE
+"ｙｏｕ　ｔｉｌｌ　ｙｏｕ　ｊｏｉｎ　ｕｐ　ｗｉｔｈ　ｔｈｅ　"TCC_NEWLINE"ａｒｍｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ．　Ａｍ　Ｉ　ｓｏ　ｉｎｆｉ"TCC_NEWLINE"ｒｍ　ｔｈａｔ"TCC_NEWLINE
+"Ｉ　ｍｕｓｔ　ｌｅａｎ　ｏｎ　ｍｙ　ｓｏｎ’ｓ　ａｒｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍ－ｍｙ　ａｐｏｌｏｇｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｔｈｉｓ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａ　ｄｅａｄ　ｂｒａｎｃｈ？　Ｉｔ　ｌｏｏｋｓ　ｑｕｉｔｅ　"TCC_NEWLINE"ｏｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ｉ　ｄｏｎ’ｔ　ｒｅｍｅｍｂｅｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｓｅｅ．　Ｗｅｌｌ，　ｎｅｖｅｒ　ｍｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ｃｏｎｃｅｒｎ　ｙｏｕｒｓｅｌｆ　ｏｖｅｒ　ｍ"TCC_NEWLINE"ｅ．"TCC_NEWLINE
+"Ｉ　ｗｉｌｌ　ｒｅｎｄｅｚｖｏｕｓ　ｗｉｔｈ　ｍｙ　ｆｏｒｃ"TCC_NEWLINE"ｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆａｔｈｅｒ，　ｗａｉｔ．　Ｐｌｅａｓｅ．　Ｌｅｔ　ｍｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｔｏｌｄ　ｙｏｕ，　ｂｏｙ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎ"TCC_NEWLINE"ｅｅｄ．"TCC_NEWLINE
+"Ｗｏｒｒｙ　ａｂｏｕｔ　ｙｏｕｒ　ｏｗｎ　ｓｋｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ａｐｏｌｏｇｉｅｓ．　Ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗａｓ　ｔｈａｔ　ｂｒａｎｃｈ，　Ｉ　ｗｏｎｄｅｒ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

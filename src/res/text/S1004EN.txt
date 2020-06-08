@@ -1,0 +1,53 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S1004_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｙｏｕ　ａｇａｉｎ．　Ｔｕｒｎ　ｂａｃｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｏ，　ｙｏｕ　ａｒｅ　ｗｉｔｈ　ｔｈｅ　ｅｍｐｉｒｅ！"TCC_NEWLINE
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ｈｉｄｅ　ｂｅｈｉｎｄ"TCC_NEWLINE
+"ｔｈａｔ　ｄａｍｎａｂｌｅ　ｍａｓｋ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｎｏｔ　ｗｉｔｈ　Ｅｍｂｌａ．　Ｎｏｒ　ａｍ　Ｉ　"TCC_NEWLINE"ｗｉｔｈ"TCC_NEWLINE
+"ｙｏｕ．　Ｓｔｉｌｌ，　Ｉ’ｌｌ　ｓａｙ　ｉｔ　ｏｎｅ　ｌａ"TCC_NEWLINE"ｓｔ　ｔｉｍｅ．"TCC_NEWLINE
+"Ｔｕｒｎ　ｂａｃｋＮＯＷ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｅｖｅｒ．　Ｓｔａｎｄ　ａｓｉｄｅ，　ｏｒ　ｗｅ　ｗｉｌｌ"TCC_NEWLINE"　ｂｒｅａｋ"TCC_NEWLINE
+"ｔｈｒｏｕｇｈ，　ｏｎｅ　ｗａｙ　ｏｒ　ａｎｏｔｈｅｒ！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S1004_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｉ．．．Ｉ　ｃａｎ’ｔ　ｋｅｅｐ　ｆｉｇｈｔｉｎｇ．　Ｙｏｕ"TCC_NEWLINE"　Ｏｒｄｅｒ"TCC_NEWLINE
+"ｏｆ　Ｈｅｒｏｅｓ　ｐｅｏｐｌｅ．．．　Ｄｏｎ’ｔ　ｙｏｕ"TCC_NEWLINE
+"ｒｅａｌｉｚｅ　ｙｏｕ’ｒｅ　ｏｎ　ｔｈｅ　ｗｒｏｎｇ　ｔｒ"TCC_NEWLINE"ａｃｋ？"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｏｎｉｃａ’ｓ　ｉｍｐｅｒｉａｌ　ｆｏｒｃｅｓ　ａｒｅ"TCC_NEWLINE"ｎ’ｔ"TCC_NEWLINE
+"ｉｎｖａｄｉｎｇ　ｙｏｕｒ　ｃａｐｉｔａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｙｏｕｒ　ｓｕｍｍｏｎｉｎ"TCC_NEWLINE"ｇ"TCC_NEWLINE
+"ｒｕｉｎｓｔｏ　ｄｅｓｔｒｏｙ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ？　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈｅ　ｗｉｓｈｅｓ　ｔｏ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ"TCC_NEWLINE
+"ｙｏｕｒ　ｓｕｍｍｏｎｅｒ’ｓ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ　ｗｈａｔ　ｔｈａｔ　ｗｏ"TCC_NEWLINE"ｕｌｄ"TCC_NEWLINE
+"ｍｅａｎｆｏｒ　ｅｖｅｒｙｔｈｉｎｇ？　Ｉｆ　ｓｏ，　ｙｏｕ"TCC_NEWLINE
+"ｓｈｏｕｌｄ　ｇｅｔ　ｔｏ　ｔｈｅ　ｒｕｉｎｓ　ｆａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈｙ　ａｒｅ　ｙｏｕ　ｒｅｖｅａｌｉｎｇ　ｈｅｒ"TCC_NEWLINE
+"ｐｌａｎｓ　ｔｏ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓ　ｍｙ　ｓｅｃｒｅｔ　ｔｏ　ｋｅｅｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗａｉｔ！　Ｇｅｔ　ｂａｃｋ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ’ｓ　ｇｏｎｅ．　Ｗｅｌｌ，　Ａｌｆｏｎｓｅ？　Ｗｈａｔ"TCC_NEWLINE
+"ｄｉｄ　ｙｏｕ　ｍａｋｅ　ｏｆ　ａｌｌ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｆｏｒ　ｓｕｒｅ．　Ｂｕｔ　ｗｅ"TCC_NEWLINE
+"ｓｈｏｕｌｄ　ｈｅａｄ　ｆｏｒ　ｔｈｅ　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈａｔ　ｉｆ　ｉｔ’ｓ　ａ　ｔｒａｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈａｖｅ　ａ　ｓｔｒａｎｇｅ　ｆｅｅｌｉｎｇ　ｈｅ　ｗａ"TCC_NEWLINE"ｓｎ’ｔ"TCC_NEWLINE
+"ｌｙｉｎｇ，　ａｔ　ｌｅａｓｔ　ａｂｏｕｔ　Ｖｅｒｏｎｉｃａ"TCC_NEWLINE
+"ｗａｎｔｉｎｇ　ｔｏ　ｄｅｓｔｒｏｙ　ｔｈｏｓｅ　ｒｕｉｎｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　ｔｈａｔ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

@@ -1,0 +1,12 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S2052_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈｏｗ　ｄｉｄ　ｔｈｅｙ　ｆｉｎｄ　ｕｓ　ｓｏ　ｑｕｉｃｋｌ"TCC_NEWLINE"ｙ！？"TCC_NEWLINE
+"Ｅｖｅｒｙｏｎｅ，　ｐｒｅｐａｒｅ　ｆｏｒ　ｂａｔｔｌｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S2052_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｙ’ｒｅ　ｃｉｒｃｌｉｎｇ　ａｒｏｕｎｄ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｇｏｔ　ｔｏ　ｇｅｔ　ｏｕｔ　ｏｆ　ｈｅｒｅ　ｂ"TCC_NEWLINE"ｅｆｏｒｅ"TCC_NEWLINE
+"ｒｅｉｎｆｏｒｃｅｍｅｎｔｓ　ａｒｒｉｖｅ．　Ｏｒｄｅｒ　ｏ"TCC_NEWLINE"ｆ"TCC_NEWLINE
+"Ｈｅｒｏｅｓ，　ｍｏｖｅ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

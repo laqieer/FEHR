@@ -1,0 +1,87 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3105_EN] = TCC_OPEN_LEFT
+"Ｈｅｒｅ．．．ｉｎ　ｔｈｅ　ｉｎｎｅｒｍｏｓｔ　ｓａｎｃｔｕ"TCC_NEWLINE"ｍ．．．"TCC_NEWLINE
+"Ｗｅ’ｌｌ　ｆｉｎｄ　ｔｈｅ　ｗｅａｐｏｎ　ｗｅ　ｓｅｅｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａ　ｂｌｏｏｄ　ｔｅｍｐｌｅ．．．　Ｈｏｗ　ｇｈａｓｔｌｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｕｒｒｙ　ｎｏｗ．　Ｂｅｆｏｒｅ　ｗｅ’ｒｅ　ｂｅｓｅｔ　"TCC_NEWLINE"ｂｙ"TCC_NEWLINE
+"ａｎｏｔｈｅｒ　ｄｉｓｔｒａｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｏｌｄ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｄｏ　ｎｏ"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"ｅｎｔｅｒ　ｔｈｅ　ｔｅｍｐｌｅ　ｊｕｓｔ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｒａｓｉｒｔｈｅ　ｏｔｈｅｒ　Ｐｒｉｎｃｅｓｓ"TCC_NEWLINE
+"Ｖｅｒｏｎｉｃａｈａｓ　ｔｏｌｄ　ｕｓ　Ｈｅｌ"TCC_NEWLINE
+"ｃａｎｎｏｔ　ｂｅ　ｋｉｌｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｄｏｕｂｔ　ｓｈｅ　ｈａｓ　ｄｅｄｕ"TCC_NEWLINE"ｃｅｄ"TCC_NEWLINE
+"ｔｈａｔ　ｗｅ　ｓｅｅｋ　ｔｈｉｓ　ｗｅａｐｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｔｈｅ　ｉｎｆｏｒｍａｔｉｏｎ　ａｂｏｕｔ　ｉｔ　ｒ"TCC_NEWLINE"ｅｍａｉｎｅｄ"TCC_NEWLINE
+"ｉｎ　ｔｈｅ　Ｌｉｂｒａｒｙ　ｏｆ　Ｅｍｂｌａ．　Ｓｈｅ　ｎ"TCC_NEWLINE"ｅｉｔｈｅｒ"TCC_NEWLINE
+"ｈｉｄ　ｎｏｒ　ｄｅｓｔｒｏｙｅｄ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｃａｎ　ｍｅａｎ　ｏｎｌｙ　ｏｎｅ　ｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｉｓ　ａ　ｔｒａｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_THRASIR
+"Ａｎｄ　ｙｅｔ　ｙｏｕ　ｓｔｉｌｌ　ｃａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．　Ｔｈｅ　ｗｅａｐｏｎ　ｉｓ　ｎｏ"TCC_NEWLINE"ｔ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｔｒｉｃｋｅｄ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｋｎｏｗ　ｙｏｕｒ　ｔｈｏｕｇｈｔｓ　ａｓ　ｔｈｏｕｇｈ"TCC_NEWLINE
+"ｔｈｅｙ　ａｒｅ　ｍｙ　ｏｗｎ，　ｙｏｕ　ｌｉｔｔｌｅ　ｆｏ"TCC_NEWLINE"ｏｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｃａｕｓｅ　ｔｈｅｙ　ａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．　Ｉｆ　"TCC_NEWLINE"ｙｏｕ"TCC_NEWLINE
+"ｓｕｓｐｅｃｔｅｄ　ｔｈｅ　ｔｒｕｔｈ，　ｗｈｙ　ｄｉｄ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｃｏｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｏ　ｓｐｒｉｎｇ　ｙｏｕｒ　ｔｒａｐ．　Ｉ　ｋｎｅｗ　ｙｏ"TCC_NEWLINE"ｕ"TCC_NEWLINE
+"ｗｏｕｌｄ　ｂｅ　ｃｅｒｔａｉｎ　ｔｏ　ｃｏｍｅ　ａｎｄ"TCC_NEWLINE
+"ｖｅｒｉｆｙ　ｏｕｒ　ｄｅｍｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｓｔｅａｄ，　Ｉ　ｈａｖｅ　ｔｈｅ　ｃｈａｎｃｅ　Ｉ’ｖ"TCC_NEWLINE"ｅ　ｂｅｅｎ"TCC_NEWLINE
+"ｗａｉｔｉｎｇ　ｆｏｒｔｏ　ｄｅｆｅａｔ　ｏｎｅ　ｏｆ　Ｈｅ"TCC_NEWLINE"ｌ’ｓ"TCC_NEWLINE
+"ｇｅｎｅｒａｌｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｒａｓｉｒ，　ｇｅｎｅｒａｌ　ｏｆ　ｔｈｅ　ｒｅａｌｍ　"TCC_NEWLINE"ｏｆ　ｔｈｅ"TCC_NEWLINE
+"ｄｅａｄ．．．　Ｙｏｕ　ｗｉｌｌ　ｆａｌｌ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_THRASIR
+"Ｙｏｕ　ｍａｙ　ｂａｒｅ　ｙｏｕｒ　ｆａｎｇｓ．．．ｂｕｔ"TCC_NEWLINE
+"ｙｏｕ’ｌｌ　ｂｅ　ｔｈｅ　ｏｎｅｓ　ｄｙｉｎｇ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｃａｎｎｏｔ　ｂｅ　ｋｉｌｌｅｄ，　ａｆｔｅｒ　ａｌ"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ａｉｄ　Ｈｅｌ？　Ｓｈｅ　ｓｈｏｕｌｄ"TCC_NEWLINE
+"ｂｅ　ｙｏｕｒ　ｅｎｅｍｙ　ａｓ　ｍｕｃｈ　ａｓ　ｏｕｒｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｙ　ｇｏａｌ　ｉｓ　ｔｈｅ　ｓａｍｅ　ａｓ　ｙｏｕｒ　ｏｗ"TCC_NEWLINE"ｎ．"TCC_NEWLINE
+"Ｂｙ　ｄｅｆｅａｔｉｎｇ　Ｈｅｌ，　ｙｏｕ　ｓａｖｅ　ｙｏｕ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ｗｏｒｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｍｙ　ｗｏｒｌｄ　ｈａｓ　ａｌｒｅａｄｙ　ｂｅｅｎ"TCC_NEWLINE
+"ｄｅｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ，　ｔｈｅｎ，　ｃａｎ　ｓａｖｅ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ａｎｓｗｅｒ　ｉｓ　ｎｏ　ｏｎｅ．　Ａｍ　Ｉ　ｗｒｏ"TCC_NEWLINE"ｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｗｈｙ　Ａｌｆｏｎｓｅ　ａｎｄ　Ｉ　ｈａｖｅ"TCC_NEWLINE
+"ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｋｉｌｌ　ｙｏｕ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｄｅｓｔｒｏｙ　ｙｏｕｒ　ｗｏｒｌｄ，　Ｈｅｌ　"TCC_NEWLINE"ｗｉｌｌ"TCC_NEWLINE
+"ｒｅｔｕｒｎ　ｏｕｒｓ　ｔｏ　ｔｈｅ　ｗａｙ　ｉｔ　ｗａｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ａ　ｆｉｇｈｔ　ｔｏ　ｔｈｅ　ｄｅａｔｈｆｏ"TCC_NEWLINE"ｒ　ａｌｌ"TCC_NEWLINE
+"ｏｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_THRASIR
+"Ｂｒｏｔｈｅｒ．．．　Ｉ　ｈａｖｅ　ｆａｉｌｅｄ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｐｒｏｍｉｓｅｄ　ｙｏｕ．．．ａｎｄ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｅｅｌ　ｎｏ　ｃｏｍｐａｓｓｉｏｎ　ｆｏｒ　ｙｏｕ　ａ"TCC_NEWLINE"ｔ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｌｙ　ｏｎｅ　ｏｆ　ｕｓ　ｃｏｕｌｄ　ｌｉｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｐｒｏｍｉｓｅ　ｙｏｕ　ｔｈｉｓ，　ｔｈｏｕｇ"TCC_NEWLINE"ｈ：　Ｉ　ｗｉｌｌ"TCC_NEWLINE
+"ｋｉｌｌ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

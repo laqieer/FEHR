@@ -1,0 +1,30 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3083_EN] = TCC_OPEN_LEFT
+"Ｉ　ｍｕｓｔ　ｂｅｃｏｍｅ　ｓｔｒｏｎｇｅｒ．　Ｓｏｍｅ　ｄ"TCC_NEWLINE"ａｙ，"TCC_NEWLINE
+"Ｉ　ｗｉｌｌ　ｔａｋｅ　ｂａｃｋ　ｅｖｅｒｙｔｈｉｎｇ　Ｉ　"TCC_NEWLINE"ｌｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3083_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｗａｉｔ，　Ｌｆ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LIF
+"Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ．．．　Ｙｏｕ　ｋｎｏｗ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕ"TCC_NEWLINE"ｔ　ｍｅ，"TCC_NEWLINE
+"ｄｏｎ’ｔ　ｙｏｕ？　Ｔｅｌｌ　ｍｅ．　Ｐｌｅａｓｅ，　ｔｅ"TCC_NEWLINE"ｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｃｌｏｓｅ．．．ｓｏ　ｃｌｏｓｅ．．．ｔｏ　ｒｅｍｅ"TCC_NEWLINE"ｍｂｅｒｉｎｇ"TCC_NEWLINE
+"ｓｏｍｅｔｈｉｎｇ．　Ｓｏｍｅｔｈｉｎｇ　ｉｍｐｏｒｔａｎｔ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｆｌｏｗｅｒｓ　ｙｏｕ　ｐｌａｃｅｄ　ｉｎ　ｔｈａｔ"TCC_NEWLINE"　ｔｏｗｎ．．．"TCC_NEWLINE
+"Ｔｈｅｙ　ｗｅｒｅ　ａｎ　ｏｆｆｅｒｉｎｇ，　ｗｅｒｅｎ’ｔ"TCC_NEWLINE"　ｔｈｅｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ａｌｌ　ｆｅｅｌｓ　ｓｏ　ｆａｍｉｌｉａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．　Ｙｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｅｌｌ　Ｈｅｌ．　Ｓｈｅ’ｌｌ　ｅｒａｓｅ　ｔｈｏｓｅ　ｍ"TCC_NEWLINE"ｅｍｏｒｉｅｓ．"TCC_NEWLINE
+"Ｓｈｅ’ｌｌ　ｅｒａｓｅ　ｔｈｅｍ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　ｙｅｔ，　ａｓ　ｙｏｕ　ｓａｙ　ｔｈａｔ，　ｙｏｕｒ"TCC_NEWLINE"　ｆａｃｅ　ｉｓ"TCC_NEWLINE
+"ｓｏ　ｓａｄ．　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ．．．　Ｃｏｕｌｄ　ｉｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

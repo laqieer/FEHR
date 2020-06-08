@@ -1,0 +1,111 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ．．．　Ｈｏｗ　ａｒｅ　ｙｏｕ　ｈｏｌｄｉｎｇ"TCC_NEWLINE"　ｕｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｈ，　Ｓｈａｒｅｎａ．．．　Ｉ’ｍ　ａｌｌ　ｒｉｇｈｔ．　"TCC_NEWLINE"Ｉ　ｃａｎ"TCC_NEWLINE
+"ｍｏｖｅ，　ａｔ　ｌｅａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ａ　ｓｔｒａｎｇｅ　ｓｅｎｓａｔｉｏｎ　ｒｅｍａｉｎ"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE
+"Ｌｉｋｅ　ａｎ　ｉｃｙ　ｂｌａｄｅ　ｐｌｕｎｇｅｄ　ｉｎｔｏ"TCC_NEWLINE"　ｍｙ"TCC_NEWLINE
+"ｃｈｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｔｈｅ　ｄｅａｔｈ　ｃｕｒｓｅ　ｏｆ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｉｒ，　ｐｌｅａｓｅ，　ｔｅｌｌ　ｍｅ　ｗｈａｔ　ｙｏｕ　"TCC_NEWLINE"ｋｎｏｗ．"TCC_NEWLINE
+"Ａｎｙｔｈｉｎｇ　ｍｉｇｈｔ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｌａｗｓ　ｇｏｖｅｒｎ　ｄｅａｔｈ．"TCC_NEWLINE"．．　Ａｔ"TCC_NEWLINE
+"ｔｈｅ　ｍｏｍｅｎｔ　ｓｈｅ　ｌａｙｓ　ｈｅｒ　ｃｕｒｓｅ，"TCC_NEWLINE"　ｔｈｅ"TCC_NEWLINE
+"ｎｕｍｂｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｉｓ　ｓｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｓｈｅ　ｈａｓ　ｃｕｒｓｅｄ　ｗｉｌｌ　ｄｉｅ　"TCC_NEWLINE"ｏｎ"TCC_NEWLINE
+"ｔｈｅｉｒ　ａｐｐｏｉｎｔｅｄ　ｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｉｎｇ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ！　Ｔｈｅｒｅ　ｍｕｓｔ　Ｔｈｅｒｅ　ｈａｓ　ｔｏ　ｂｅ"TCC_NEWLINE
+"Ｓｕｒｅｌｙ　ｔｈｅｒｅ’ｓ　ａ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａｌｆｏｎｓｅ，　ｔｈｅ　ｋｉｎｇ　ａｎｄ　ｑｕｅｅｎ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
+"ａｒｒｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_HENRIETTE
+"Ｏｈ，　ｍｙ　ｓｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｓｏ　ｙｏｕ　ｈａｖｅ　ｂｅｅｎ　ｃｕｒｓｅｄ　ｂｙ　Ｈｅｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｄｉｓｏｂｅｙｅｄ　ｙｏｕ，　Ｆａｔｈｅｒ．　Ｉ　ａｍ　"TCC_NEWLINE"ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｆ　Ｉ　ｍａｙ，　ｙｏｕｒ　ｍａｊｅｓｔｙ．．．　Ｔｈｅ　"TCC_NEWLINE"ａｔｔａｃｋ"TCC_NEWLINE
+"ｗａｓ　ｓｕｄｄｅｎ．　Ｏｕｒ　ｓｃｏｕｔｓ　ｎｅｖｅｒ　ｅ"TCC_NEWLINE"ｖｅｎ"TCC_NEWLINE
+"ｓａｗ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ａｐｐｅａｒｅｄ　ｓｕｄｄｅｎｌｙ，　ｌｉｋｅ"TCC_NEWLINE
+"ｇｈｏｓｔｓ．．．　Ｗｅ　ｈａｄ　ｎｏ　ｃｈａｎｃｅ　ｔｏ"TCC_NEWLINE
+"ｄｉｓｅｎｇａｇｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕｒ　ｍｉｓｔａｋｅ　ｗａｓ　ｓｅｔｔｉｎｇ　ｆｏｏｔ　"TCC_NEWLINE"ｏｎ"TCC_NEWLINE
+"ｔｈｅ　ｂａｔｔｌｅｆｉｅｌｄ　ａｔ　ａｌｌ．　Ｔｈｉｓ　ｉ"TCC_NEWLINE"ｓ　ｔｈｅ"TCC_NEWLINE
+"ｃｏｎｓｅｑｕｅｎｃｅ　ｏｆ　Ａｌｆｏｎｓｅ’ｓ　ｒａｓｈｎ"TCC_NEWLINE"ｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆａｔｈｅｒ．．．　Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅｌ．．．　Ｓｈｅ　ｃｌａｉｍｅｄ　ｍｙ　ｆａｔｈｅｒ’ｓ"TCC_NEWLINE"　ｌｉｆｅ，"TCC_NEWLINE
+"ｔｏｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ａｒｅ　ｎｏ　ｏｐｔｉｏｎｓ　ｌｅｆｔ，　Ａｌｆ"TCC_NEWLINE"ｏｎｓｅ．"TCC_NEWLINE
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｉｎｇ　ｈｅｒ　ｃｕｒｓｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_HENRIETTE
+"Ｇｕｓｔａｖ！　Ｔｈｉｓ　ｉｓ　ｏｕｒ　ｓｏｎ’ｓ　ｌｉｆｅ"TCC_NEWLINE"　ｙｏｕ’ｒｅ"TCC_NEWLINE
+"ｔａｌｋｉｎｇ　ａｂｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｈｅｎｒｉｅｔｔｅ，　ｐｌｅａｓｅ，　ｌｉｓｔｅｎ．　Ａｌｌ"TCC_NEWLINE"　ｏｆ　ｙｏｕ"TCC_NEWLINE
+"ｍｕｓｔ　ｌｉｓｔｅｎ　ｔｏ　ｗｈａｔ　Ｉ　ｓａｙ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｏｙａｌ　ｆａｍｉｌｙ　ｏｆ　Ａｓｋｒ，　ｏｕｒ　"TCC_NEWLINE"ｆａｍｉｌｙ，"TCC_NEWLINE
+"ｈａｓ　ｓｕｆｆｅｒｅｄ　ａ　ｌｏｓｓ．　Ｗｅ　ｍｕｓｔ　ａ"TCC_NEWLINE"ｃｃｅｐｔ"TCC_NEWLINE
+"ｔｈａｔ　ａｎｄ　ｍｏｖｅ　ｆｏｒｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｆａｔｈｅｒ！　Ｙｏｕ　ｃａｎ’ｔ　ｍｅａｎ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ　ｉｓ　ａｌｉｖｅ！　Ｈｅ’ｓ　ｒｉｇｈｔ　ｈ"TCC_NEWLINE"ｅｒｅ"TCC_NEWLINE
+"ｂｅｓｉｄｅ　ｙｏｕ！　Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ"TCC_NEWLINE
+"ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｄｅａｔｈ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｔｕｒｎｅｄ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ　ｃａｎ’ｔ　ｋｎｏｗ　ｔｈａｔ　ｕｎｌｅｓｓ　ｗｅ　ｔ"TCC_NEWLINE"ｒｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｅｎｏｕｇｈ．　Ｉ　ｗｉｌｌ　ｒｅｊｏｉｎ　ｍｙ　ｆｏｒｃｅ"TCC_NEWLINE"ｓ．"TCC_NEWLINE
+"Ｉ　ｍｕｓｔ　ｃｏｎｓｉｄｅｒ　ｏｕｒ　ｎｅｘｔ　ｍｏｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈａｖｅ　ｆａｉｌｅｄ　ｙｏｕ，　Ｆａｔｈｅｒ．　Ｉ　ａ"TCC_NEWLINE"ｍ　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｕｎｔｉｌ　ｔｈｅ　ｍｏｍｅｎｔ　Ｉ　ｄｉｅ，　Ｉ　"TCC_NEWLINE"ｗｉｌｌ"TCC_NEWLINE
+"ｃｏｎｔｉｎｕｅ　ｔｏ　ｓｅｅｋ　ａ　ｍｅａｎｓ　ｏｆ"TCC_NEWLINE
+"ｄｅｆｅａｔｉｎｇ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｏｎｌｙ　ｈｏｐｅ　ｉｓ　ｔｈａｔ，　ｉｎ　ｔｈｅ　ｔ"TCC_NEWLINE"ｉｍｅ　Ｉ"TCC_NEWLINE
+"ｈａｖｅ　ｌｅｆｔ，　Ｉ　ｃａｎ　ｆｉｎｄ　ｓｏｍｅ　ｗａｙ"TCC_NEWLINE"　ｔｏ　ｂｅ"TCC_NEWLINE
+"ｏｆ　ｕｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_GUSTAV
+"Ｖｅｒｙ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ　ｍｕｓｔ　ｋｉｌｌ　Ｈｅｌ．　Ｔｈａｔ　ｉｓ　ｈｏｗ　"TCC_NEWLINE"ｗｅ"TCC_NEWLINE
+"ｗｉｌｌ　ｓａｖｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ｏｕｔ　ｏｆ　ｏｐｔｉｏｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｍｏｓｔ　ｌｅｇｅｎｄｓ　ｈｏｌｄ　ｔｈａｔ　ａ　ｃｕｒｓｅ"TCC_NEWLINE"　ｉｓ"TCC_NEWLINE
+"ｂｒｏｋｅｎ　ｗｈｅｎ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｌａｉｄ　ｉ"TCC_NEWLINE"ｔ　ｉｓ"TCC_NEWLINE
+"ｋｉｌｌｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ｉｆ　Ｈｅｌ　ｗｅｒｅ　ｔｏ　ｄ"TCC_NEWLINE"ｉｅ，"TCC_NEWLINE
+"ｗｈａｔ　ｗｏｕｌｄ　ｈａｐｐｅｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｉ　ｄｏ　ｎｏｔ　ｋｎｏｗ．　Ｍｙ　ｍｏｔｈｅｒ．．．ｈａｓ"TCC_NEWLINE"　ｎｅｖｅｒ"TCC_NEWLINE
+"ｂｅｅｎ　ｋｉｌｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈａｔ　ｓｈｏｕｌｄｎ’ｔ　ｓｔｏｐ　ｕｓ　ｆｒｏｍ　ｔｒ"TCC_NEWLINE"ｙｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏｔ　ｏｎｌｙ　ｗｏｕｌｄ　ｋｉｌｌｉｎｇ　Ｈｅｌ　ａｂａ"TCC_NEWLINE"ｔｅ　ｔｈｅ"TCC_NEWLINE
+"ｔｈｒｅａｔ　ｔｏ　Ａｓｋｒ，　ｉｔ　ｃｏｕｌｄ　ｓａｖｅ　"TCC_NEWLINE"Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｋｅｅｐ　ｙｏｕｒ　ｅｙｅｓ　ｐｅｅｌｅｄ，　ｅｖｅｒｙｏｎ"TCC_NEWLINE"ｅ．"TCC_NEWLINE
+"Ｏｕｒ　ｏｂｊｅｃｔｉｖｅ　ｉｓ　ｔｏ　ｆｉｎｄ　Ｈｅｌ　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
+"ｅｌｉｍｉｎａｔｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｈｅ’ｓ　ｎｏｔ　ｈｅｒｅ．　Ｌｅｔ’ｓ　ｍｏｖｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

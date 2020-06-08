@@ -1,0 +1,9 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3092_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｄｉｍｉｔｒｉ　Ａｌｅｘａｎｄｒｅ　Ｂｌａｉｄｄｙ"TCC_NEWLINE"ｄ，"TCC_NEWLINE
+"ｃｒｏｗｎ　ｐｒｉｎｃｅ　ｏｆ　ｔｈｅ　Ｈｏｌｙ　Ｋｉｎｇｄ"TCC_NEWLINE"ｏｍ"TCC_NEWLINE
+"ｏｆ　Ｆａｅｒｇｈｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ｆｏｏｌ　ｙｏｕｒｓｅｌｆ　ｉｎｔｏ　ｂｅｌｉ"TCC_NEWLINE"ｅｖｉｎｇ"TCC_NEWLINE
+"Ｉ　ｗｉｌｌ　ｈｏｌｄ　ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

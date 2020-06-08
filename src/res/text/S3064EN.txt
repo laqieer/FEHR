@@ -1,0 +1,42 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S3064_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｃａｉｎｅｇｈｉｓ，　Ｋｉｎｇ　ｏｆ　Ｇａｌｌｉａ"TCC_NEWLINE
+"ａｎｄ　ｔｈｅ　ｂｅａｓｔ　ｔｒｉｂｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3064_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｏｈ，　Ｍｏｔｈｅｒ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_HEL
+"Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ！　Ｍｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｙｏｕ　ｈａｖｅ　ｎｏｔ　ｙｅｔ　ｐｅｒｉｓｈｅｄ，　"TCC_NEWLINE"ａｎｄ"TCC_NEWLINE
+"ｙｏｕ　ｒｅｍａｉｎ　ｗｉｔｈ　ｔｈｅ　Ａｓｋｒａｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ．　Ｃｏｎｔｉｎｕｅ　ｔｏ　ｉｎｇｒａｔｉａｔｅ　ｙ"TCC_NEWLINE"ｏｕｒｓｅｌｆ．"TCC_NEWLINE
+"Ｒｅｌｙ　ｏｎ　ｔｈｅｍ．　Ｓｕｂｍｉｔ　ｔｏ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ，　ｗｈｅｎ　Ｉ　ｏｒｄｅｒ　ｉｔ，　ｋｉｌｌ　ｔｈ"TCC_NEWLINE"ｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ．．．　Ｔｈｅｙ．．．　Ｔｈｅｙ　ｔｒｅａｔ　ｍ"TCC_NEWLINE"ｅ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．．．　Ｐｒｉｎｃ"TCC_NEWLINE"ｅ"TCC_NEWLINE
+"Ａｌｆｏｎｓｅ，"TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ．．．　Ｆｏｒｇｅｔ　ａｌｌ　ｔｈｉｓ．．．　Ｌ"TCC_NEWLINE"ｅｔ　ｔｈｅｍ"TCC_NEWLINE
+"ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｒｅｓｔ　ｉｎ　ｙｏｕｒ　ｗｉｓ"TCC_NEWLINE"ｈｅｓ，　Ｅｉｒ．"TCC_NEWLINE
+"Ｙｏｕ　ｈａｖｅ　ｈｅａｒｄ　ｍｙ　ｏｒｄｅｒ，　ａｎｄ　ｙ"TCC_NEWLINE"ｏｕ"TCC_NEWLINE
+"ｗｉｌｌ　ｏｂｅｙ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ．．．　Ｅｖｅｒ　ｓｉｎｃｅ　Ｉ　ｈａｖｅ　ｊｏ"TCC_NEWLINE"ｉｎｅｄ"TCC_NEWLINE
+"ｔｈｅｍ，　Ｉ　ｋｅｅｐ　ｈａｖｉｎｇ　ｔｈｅ　ｓａｍｅ　ｄ"TCC_NEWLINE"ｒｅａｍ．．．"TCC_NEWLINE
+"Ａ　ｄｒｅａｍ　ｏｆ　ｔｈｅ　ｐａｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｉｔｅ　ｗｉｎｇｓ．．．　Ｗａｒｍｔｈ　ａｎｄ　ｌｉｆｅ"TCC_NEWLINE"．．．　Ｙｏｕ"TCC_NEWLINE
+"ｓｍｉｌｅｄ　ａｔ　ｍｅ　ｓｏ　ｇｅｎｔｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ．．．　Ｗｈｅｎ　ｗａｓ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗｉｌｌ　ｏｂｅｙ　ｍｅ，　Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

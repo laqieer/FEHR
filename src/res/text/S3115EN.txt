@@ -1,0 +1,119 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S3115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ｍｕｓｔ　ｙｏｕ　ｒｅｔｕｒｎ　"TCC_NEWLINE"ｔｏ　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_EIR
+"Ｙｅｓ．　Ｉ　ａｍ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　ｔｈｅ　"TCC_NEWLINE"ｒｕｌｅｒ　ｏｆ"TCC_NEWLINE
+"ｔｈｅ　ｄｅａｄ．　Ｉ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ"TCC_NEWLINE"　ｒｅｔｕｒｎ"TCC_NEWLINE
+"ｔｏ　ｈｅｒ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｈａｔｅｖｅｒ　ｉｎｆｏｒｍａｔｉｏｎ　Ｉ　ｃａｎ"TCC_NEWLINE"　ｐａｓｓ"TCC_NEWLINE
+"ｙｏｕ，　Ｉ　ｗｉｌｌａｂｏｕｔ　ｍｙ　ｍｏｔｈｅｒ’ｓ　ｐ"TCC_NEWLINE"ｌａｎｓ"TCC_NEWLINE
+"ｆｏｒ　ｂａｔｔｌｅ，　ａｎｄ　ｈｏｗ　ｔｏ　ｔｒａｃｋ　ｈ"TCC_NEWLINE"ｅｒ　ｄｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗｏｕｌｄ　ｒｉｓｋ　ｔｈａｔ　ｍｕｃｈ　ｆｏｒ　ｕ"TCC_NEWLINE"ｓ？"TCC_NEWLINE
+"Ｓｈｅ　ｋｎｏｗｓ　ｙｏｕ　ａｒｅ　ｈｅｒｅ．　Ｓｕｒｅｌｙ"TCC_NEWLINE"　ｈｅｒ"TCC_NEWLINE
+"ｓｕｓｐｉｃｉｏｎｓ　ａｒｅ　ａｌｒｅａｄｙ　ａｒｏｕｓｅｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｏｓｅ　ｓｕｓｐｉｃｉｏｎｓ　ａｒｅ　ｃｏｎｆｉｒ"TCC_NEWLINE"ｍｅｄ．．．"TCC_NEWLINE
+"Ｓｈｅ　ｗｉｌｌ　ｔｏｒｔｕｒｅ　ｙｏｕ．．．ｅｖｅｎ　ｋｉ"TCC_NEWLINE"ｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ　ｈａｐｐｅｎｓ　ｔｏ　ｍｅ．．．"TCC_NEWLINE
+"Ｉｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｈａｐｐｅｎｓ　ｔｏ　ｙｏｕ．．．"TCC_NEWLINE
+"Ｔｈａｔ　ｍａｔｔｅｒｓｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｍｙ　ｆｒｉｅｎｄｓ．　Ｉ　ｗｏｎ’ｔ　ｓｅ"TCC_NEWLINE"ｅ　ｙｏｕ"TCC_NEWLINE
+"ｈｕｒｔ．　Ａｎｄ　ｓｏ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ｂｕｔ"TCC_NEWLINE"　Ｉ　ｃａｎｎｏｔ"TCC_NEWLINE
+"ｌｅｔ　ｙｏｕ　ｒｉｓｋ　ｙｏｕｒｓｅｌｆ　ｌｉｋｅ　ｔｈａ"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ　ｉｓ　ｔｒｕｅ　ｔｈａｔ　ｙｏｕｒ　ａｉｄ　ｃｏｕｌｄ"TCC_NEWLINE"　ｈｅｌｐ"TCC_NEWLINE
+"ｕｓ　ｗｉｎ　ｔｈｉｓ　ｗａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｗｏｕｌｄ　ｎｏｔ　ｓｅｅ　ｙｏｕ　ｓａｃｒｉｆ"TCC_NEWLINE"ｉｃｅ"TCC_NEWLINE
+"ｙｏｕｒｓｅｌｆ　ｔｏ　ｔｈａｔ　ｖｉｃｔｏｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ｗｏｕｌｄ　Ｉ　ｂｅ　ｉｆ　Ｉ　ｃａｓｔ　ａｓｉｄｅ"TCC_NEWLINE
+"ｔｈｏｓｅ　ｗｈｏ　ａｒｅ　ｓｔｒｕｇｇｌｉｎｇ？　Ｔｈａｔ"TCC_NEWLINE
+"ｉｎｃｌｕｄｅｓ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ　ｆａｃｔ　ｏｆ　ｔｈｅ　ｍａｔｔｅｒ　ｉｓ，　ｔｈｉ"TCC_NEWLINE"ｎｇｓ"TCC_NEWLINE
+"ｗｉｌｌ　ｂｅ　ｆｉｎｅ．　Ｗｅ　ｋｎｏｗ　ｔｈｅ　ｗａｙ　"TCC_NEWLINE"ｏｆ"TCC_NEWLINE
+"ｔｈｉｓ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｅ　ｋｎｏｗ　ｈｏｗ　ｔｏ　ｗｉｎ　ｉｔ"TCC_NEWLINE
+"ｗｅ　ＡＬＬ　ｓｈａｒｅ　ｔｈｅ　ｂｕｒｄｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　ｔｒｕｓｔ　ｍｅ．　Ｗｈｅｎ　ｔｈｉｓ　ｗａ"TCC_NEWLINE"ｒ"TCC_NEWLINE
+"ｅｎｄｓ，　ｗｅ　ｗｉｌｌ　ａｌｌ　ｂｅ　ｃｅｌｅｂｒａｔｉ"TCC_NEWLINE"ｎｇ．．．"TCC_NEWLINE
+"Ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏｇｅｔｈｅｒ？　Ｃｅｌｅｂｒａｔｉｎｇ？　Ｈｅｈ．　Ｉｆ"TCC_NEWLINE"　ｏｎｌｙ"TCC_NEWLINE
+"ｉｔ　ｈａｄ　ｇｏｎｅ　ｓｏ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ａｌｆｏｎｓｅ，　ｙｏｕ　ｃａｎｎｏｔ　ｂｅ　ｓａｖ"TCC_NEWLINE"ｅｄ．．．"TCC_NEWLINE
+"Ｎｏｔ　ｂｙ　ａｎｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S3115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ｉ　ｋｎｅｗ　ｙｏｕ’ｄ　ｃｏｍｅ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ　ｗａｓ　ｉｎｅｖｉｔａｂｌｅ，　ｗａｓｎ’ｔ　ｉｔ．．"TCC_NEWLINE"．Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈａｌｌ　ｗｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｎｄｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S3115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LIF
+"Ａｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S3115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｕｒ　ｆｉｇｈｔ　ｉｓ　ｏｖｅｒ．　Ｉｔ　ｉｓ　ｕｐ　ｔｏ"TCC_NEWLINE"　ｕｓ　ｔｏ"TCC_NEWLINE
+"ａｃｋｎｏｗｌｅｄｇｅ　ｔｈａｔ　ａｎｄ　ｅｎｄ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LIF
+"Ｎｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｓｔｒｕｇｇｌｅ　ｗｉｌｌ　ｎｅｖｅｒ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ．．．　Ｔｈｅｒｅ　ｉｓ　ｏｎｅ　ｔｈｉｎｇ　"TCC_NEWLINE"ａｂｏｖｅ"TCC_NEWLINE
+"ａｌｌ　ｔｈａｔ　ｙｏｕ　ｄｏ　ｎｏｔ　ｕｎｄｅｒｓｔａｎｄ"TCC_NEWLINE"　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈａｌｌ　Ｉ　ｅｘｐｌａｉｎ　ｉｔ　ｔｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｅｆｅａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｙｅｔ　ｔｏ　ｄｒｉｎｋ　ｄｅｅｐｌｙ"TCC_NEWLINE
+"ｏｆ　ｄｅｆｅａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｔａｓｔｅｄ　ｉｔ．　Ｉ　ｈａｖｅ　ｈａｄ　ｆ"TCC_NEWLINE"ａｒ　ｍｏｒｅ"TCC_NEWLINE
+"ｔｈａｎ　ｍｙ　ｓｈａｒｅ．　Ｉｔ　ｄｉｓｇｕｓｔｓ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｄｅｆｅａｔｅｄ　ａｇａｉｎ．　"TCC_NEWLINE"Ｉ　ｃａｎｎｏｔ"TCC_NEWLINE
+"ｔｏｌｅｒａｔｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｔｒｕｇｇｌｉｎｇ　ｗｉｌｌ　ｇｅｔ　ｙｏｕ　ｎｏｗｈｅｒ"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｙｏｕ　ｓａｙ．　Ｂｕｔ　ｙｏｕ　ｍａｙ　ｎｏｔ　ｈａ"TCC_NEWLINE"ｖｅ"TCC_NEWLINE
+"ｃｏｎｓｉｄｅｒｅｄ　ｔｈｉｓ．．．　Ｗｅ　ａｒｅ　ｐｌａｙ"TCC_NEWLINE"ｉｎｇ"TCC_NEWLINE
+"ｄｉｆｆｅｒｅｎｔ　ｇａｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｗｉｎ，　ｙｏｕ　ｍｕｓｔ　ｄｅｆｅａｔ　Ｈｅｌ，　ａ"TCC_NEWLINE"ｎｄ"TCC_NEWLINE
+"ｙｏｕ　ｍｕｓｔ　ｓｕｒｖｉｖｅ　ｙｏｕｒ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ？　Ａｌｌ　Ｉ　ｎｅｅｄ　ｉｓ　ｆｏｒ　ｙｏｕ　ｔ"TCC_NEWLINE"ｏ　ｄｉｅ．"TCC_NEWLINE
+"Ｉ　ｎｅｅｄ　ｎｏｔ　ｓｕｒｖｉｖｅ．　Ｗｈａｔ　ｈａｐｐｅ"TCC_NEWLINE"ｎｓ"TCC_NEWLINE
+"ｔｏ　ｍｙ　ｂｏｄｙ　ｉｓ　ｏｆ　ｎｏ　ｃｏｎｓｅｑｕｅｎｃ"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｐａｔｈ　ｔｏ　ｖｉｃｔｏｒｙ　ｉｓ　ｍｕｃｈ　ｌｅｓ"TCC_NEWLINE"ｓ　ｓｔｅｅｐ"TCC_NEWLINE
+"ｔｈａｎ　ｙｏｕｒｓ．　Ａｎｄ　Ｉ　ｈａｖｅ　ｃｏｎｔｅｍｐ"TCC_NEWLINE"ｌａｔｅｄ"TCC_NEWLINE
+"ｔｈｉｓ　ｆｏｒ　ｓｏｍｅ　ｔｉｍｅ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｎｃｅ　ｍｙ　ｗｏｒｌｄ　ｗａｓ　ｄｅｓｔｒｏｙｅｄ，　"TCC_NEWLINE"ａｎｄ"TCC_NEWLINE
+"Ｉ　ｅｎｔｅｒｅｄ　ｉｎｔｏ　ｍｙ　ｃｏｎｔｒａｃｔ　ｗｉｔ"TCC_NEWLINE"ｈ　Ｈｅｌ，"TCC_NEWLINE
+"Ｉ　ｋｎｅｗ　Ｉ　ｍｉｇｈｔ　ｏｎｅ　ｄａｙ　ｆｉｇｈｔ　ｙ"TCC_NEWLINE"ｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ，　ｉｎ　ｔｈｉｓ　ｖｅｒｙ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｙｅｓ．　Ｉ’ｖｅ　ｔｈｏｕｇｈｔ　ｌｏｎｇ　ａｎｄ　"TCC_NEWLINE"ｈａｒｄ"TCC_NEWLINE
+"ａｂｏｕｔ　ｉｔ．　Ａｎｄ　Ｉ’ｖｅ　ｈａｄ　ｐｌｅｎｔｙ　"TCC_NEWLINE"ｏｆ　ｔｉｍｅ"TCC_NEWLINE
+"ｔｏ　ｒｉｇ　ｕｐ　ｓｏｍｅ　ｄｅｆｅｎｓｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｔｒｅａｔ！　Ｉｍｍｅｄｉａｔｅｌｙ！　Ｇｅｔ　ｏｕｔ　"TCC_NEWLINE"ｏｆ　ｈｅｒｅ"TCC_NEWLINE
+"ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｉｔ’ｓ　ｔｏｏ　ｌａｔｅ　ｆｏｒ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．　Ｗｈｅｎ　ｔｈｉｓ　ｃ"TCC_NEWLINE"ａｓｔｌｅ"TCC_NEWLINE
+"ｃｏｌｌａｐｓｅｓ　ｉｎｔｏ　ｒｕｂｂｌｅ，　ｉｔ　ｗｉｌｌ"TCC_NEWLINE"　ｆｏｒｍ"TCC_NEWLINE
+"ｙｏｕｒ　ｃａｉｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
