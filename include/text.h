@@ -65,7 +65,7 @@
 
 // max line width
 #define TEXT_LINE_WIDTH_MAX 185
-#define SKILL_HELP_WIDTH_MAX 75 + 60 
+#define SKILL_HELP_WIDTH_MAX 75 + 72 
 
 char *decodeText(int textID);
 void StartDialogue(int param_1, int param_2, char *text, u32 parent);

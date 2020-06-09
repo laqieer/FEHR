@@ -2215,6 +2215,11 @@ u8 isGenericUnit(struct Unit *unit)
     // Another way is to check whether character id is in a generic unit id list.
 }
 
+u8 isHealUnit(struct Unit *unit)
+{
+    return unit->AI_action == 0xe; // AI1 == HealAllies
+}
+
 const u16 weakSpecialSkills[] = {
     SPECIAL_SKILL_NEW_MOON,
     SPECIAL_SKILL_DAYLIGHT,
@@ -2253,6 +2258,26 @@ const u16 strongSpecialSkills[] = {
     SPECIAL_SKILL_BLUE_FLAME,
 };
 
+const u16 weakHealSpecialSkills[] = {
+    SPECIAL_SKILL_IMBUE,
+    SPECIAL_SKILL_KINDLED_FIRE_BALM,
+    SPECIAL_SKILL_SWIFT_WINDS_BALM,
+    SPECIAL_SKILL_SOLID_EARTH_BALM,
+    SPECIAL_SKILL_STILL_WATER_BALM,
+};
+
+const u16 strongHealSpecialSkills[] = {
+    SPECIAL_SKILL_HEAVENLY_LIGHT,
+    SPECIAL_SKILL_WIND_FIRE_BALM,
+    SPECIAL_SKILL_EARTH_FIRE_BALM,
+    SPECIAL_SKILL_FIRE_FLOOD_BALM,
+    SPECIAL_SKILL_EARTH_WATER_BALM,
+    SPECIAL_SKILL_WIND_FIRE_BALM_PLUS,
+    SPECIAL_SKILL_EARTH_FIRE_BALM_PLUS,
+    SPECIAL_SKILL_FIRE_FLOOD_BALM_PLUS,
+    SPECIAL_SKILL_EARTH_WATER_BALM_PLUS,
+};
+
 u16 getUnitRandomSpecialSkill(struct Unit *unit)
 {
     int factor;
@@ -2264,10 +2289,20 @@ u16 getUnitRandomSpecialSkill(struct Unit *unit)
         switch(getEnemySpecialSkillLevel())
         {
             case ENEMY_SPECIAL_SKILL_LEVEL_WEAK:
+                if(isHealUnit(unit))
+                    return weakHealSpecialSkills[factor % (sizeof(weakHealSpecialSkills) / sizeof(weakHealSpecialSkills[0]))];
                 return weakSpecialSkills[factor % (sizeof(weakSpecialSkills) / sizeof(weakSpecialSkills[0]))];
             case ENEMY_SPECIAL_SKILL_LEVEL_STRONG:
+                if(isHealUnit(unit))
+                    return strongHealSpecialSkills[factor % (sizeof(strongHealSpecialSkills) / sizeof(strongHealSpecialSkills[0]))];
                 return strongSpecialSkills[factor % (sizeof(strongSpecialSkills) / sizeof(strongSpecialSkills[0]))];
             case ENEMY_SPECIAL_SKILL_LEVEL_MIXED:
+                if(isHealUnit(unit))
+                {
+                    if(factor % 10 < 3)
+                        return strongHealSpecialSkills[factor % (sizeof(strongHealSpecialSkills) / sizeof(strongHealSpecialSkills[0]))];
+                    return weakHealSpecialSkills[factor % (sizeof(weakHealSpecialSkills) / sizeof(weakHealSpecialSkills[0]))];
+                }
                 if(factor % 10 < 3)
                     return strongSpecialSkills[factor % (sizeof(strongSpecialSkills) / sizeof(strongSpecialSkills[0]))];
                 return weakSpecialSkills[factor % (sizeof(weakSpecialSkills) / sizeof(weakSpecialSkills[0]))];
@@ -3675,7 +3710,7 @@ void DisplayPage3()
     displaySkillLabelIconsInSkillPage();
 
       // display special skill CD
-    DrawStatWithVariableLengthBar(8, 11, 1, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
+    DrawStatWithVariableLengthBar(8, 11 + 2, 1, getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCD(pCurrentUnitInStatusScreen), getUnitSkillCDMax(pCurrentUnitInStatusScreen), 7);
 
     // Help Box Info
     gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
