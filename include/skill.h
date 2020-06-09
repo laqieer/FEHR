@@ -868,5 +868,13 @@ u8 BattleRoll1RN(u16 rate, u8 defaultResult);
 u8 BattleRoll2RN(u16 rate, u8 defaultResult);
 
 char getTrueHitConf();
+char getEnemySpecialSkillLevel();
+
+enum {
+    ENEMY_SPECIAL_SKILL_LEVEL_NONE,
+    ENEMY_SPECIAL_SKILL_LEVEL_WEAK,
+    ENEMY_SPECIAL_SKILL_LEVEL_STRONG,
+    ENEMY_SPECIAL_SKILL_LEVEL_MIXED
+};
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

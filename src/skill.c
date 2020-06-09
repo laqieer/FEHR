@@ -2208,7 +2208,79 @@ u16 getUnitJobSpecialSkill(struct Unit *unit)
     return jobSpecialSkills[unit->job->id];
 }
 
-// priority: itemSpecialSkills > characterSpecialSkills > jobSpecialSkills
+u8 isGenericUnit(struct Unit *unit)
+{
+    // Generic Unit has no face.
+    return !unit->character->portrait;
+    // Another way is to check whether character id is in a generic unit id list.
+}
+
+const u16 weakSpecialSkills[] = {
+    SPECIAL_SKILL_NEW_MOON,
+    SPECIAL_SKILL_DAYLIGHT,
+    SPECIAL_SKILL_NIGHT_SKY,
+    SPECIAL_SKILL_RETRIBUTION,
+    SPECIAL_SKILL_DRAGON_GAZE,
+    SPECIAL_SKILL_GLOWING_EMBER,
+    SPECIAL_SKILL_CHILLING_WIND,
+    SPECIAL_SKILL_BUCKLER,
+    SPECIAL_SKILL_HOLY_VESTMENTS,
+};
+
+const u16 strongSpecialSkills[] = {
+    SPECIAL_SKILL_NOONTIME,
+    SPECIAL_SKILL_SOL,
+    SPECIAL_SKILL_MOONBOW,
+    SPECIAL_SKILL_LUNA,
+    SPECIAL_SKILL_GLIMMER,
+    SPECIAL_SKILL_ASTRA,
+    SPECIAL_SKILL_REPRISAL,
+    SPECIAL_SKILL_VENGEANCE,
+    SPECIAL_SKILL_DRACONIC_AURA,
+    SPECIAL_SKILL_DRAGON_FANG,
+    SPECIAL_SKILL_BONFIRE,
+    SPECIAL_SKILL_IGNIS,
+    SPECIAL_SKILL_ICEBERG,
+    SPECIAL_SKILL_GLACIES,
+    SPECIAL_SKILL_ESCUTCHEON,
+    SPECIAL_SKILL_PAVISE,
+    SPECIAL_SKILL_SACRED_COWL,
+    SPECIAL_SKILL_AEGIS,
+    SPECIAL_SKILL_MIRACLE,
+    SPECIAL_SKILL_AETHER,
+    SPECIAL_SKILL_GALEFORCE,
+    SPECIAL_SKILL_RUPTURED_SKY,
+    SPECIAL_SKILL_BLUE_FLAME,
+};
+
+u16 getUnitRandomSpecialSkill(struct Unit *unit)
+{
+    int factor;
+
+    if(isGenericUnit(unit))
+    {
+        // factor shouldn't change in a chapter
+        factor = unit->character->id + unit->job->id + /*unit->items[0].itemId + unit->items[1].itemId + unit->items[2].itemId + unit->items[3].itemId +*/ unit->lv + unit->number + unit->side + unit->maxHp + unit->hp + unit->pow + unit->skl + unit->spd + unit->def + unit->res + unit->luk + unit->conBonus + unit->movBonus + unit->levelSword + unit->levelLance + unit->levelAxe + unit->levelBow + unit->levelStaff + unit->levelAnima + unit->levelLight + unit->levelDark + gRAMChapterData.chapterIndex + gRAMChapterData.playerName[0] + gRAMChapterData.playerName[1] + gRAMChapterData.playerName[2] + gRAMChapterData.playerName[3] + gRAMChapterData.playerName[4] + gRAMChapterData.playerName[5] + gRAMChapterData.playerName[6] + gRAMChapterData.playerName[7] + gRAMChapterData.playerName[8] + gRAMChapterData.playerName[9] + gRAMChapterData.playerName[10] + gRAMChapterData.playerName[11] + gRAMChapterData.playerName[12] + gRAMChapterData.playerName[13] + gRAMChapterData.playerName[14] + gRAMChapterData.playerName[15] + gRAMChapterData.playerName[16] + gRAMChapterData.playerName[17] + gRAMChapterData.playerName[18] + gRAMChapterData.playerName[19] + gRAMChapterData.playerName[20] + gRAMChapterData.playerName[21] + gRAMChapterData.playerName[22] + gRAMChapterData.playerName[23] + gRAMChapterData.playerName[24] + gRAMChapterData.playerName[25] + gRAMChapterData.playerName[26] + gRAMChapterData.playerName[27] + gRAMChapterData.playerName[28] + gRAMChapterData.playerName[29] + gRAMChapterData.playerName[30] + gRAMChapterData.playerName[31];
+        switch(getEnemySpecialSkillLevel())
+        {
+            case ENEMY_SPECIAL_SKILL_LEVEL_WEAK:
+                return weakSpecialSkills[factor % (sizeof(weakSpecialSkills) / sizeof(weakSpecialSkills[0]))];
+            case ENEMY_SPECIAL_SKILL_LEVEL_STRONG:
+                return strongSpecialSkills[factor % (sizeof(strongSpecialSkills) / sizeof(strongSpecialSkills[0]))];
+            case ENEMY_SPECIAL_SKILL_LEVEL_MIXED:
+                if(factor % 10 < 3)
+                    return strongSpecialSkills[factor % (sizeof(strongSpecialSkills) / sizeof(strongSpecialSkills[0]))];
+                return weakSpecialSkills[factor % (sizeof(weakSpecialSkills) / sizeof(weakSpecialSkills[0]))];
+            case ENEMY_SPECIAL_SKILL_LEVEL_NONE:
+            default:
+                return 0;
+        }
+    }
+
+    return 0;
+}
+
+// priority: itemSpecialSkills > characterSpecialSkills > jobSpecialSkills > randomSpecialSkills
 u16 getUnitSpecialSkill(struct Unit *unit)
 {
     u16 specialSkill = 0;
@@ -2222,6 +2294,10 @@ u16 getUnitSpecialSkill(struct Unit *unit)
         return specialSkill;
 
     specialSkill = getUnitJobSpecialSkill(unit);
+    if(specialSkill)
+        return specialSkill;
+
+    specialSkill = getUnitRandomSpecialSkill(unit);
 
     return specialSkill;
 }
