@@ -1253,6 +1253,7 @@ void specialSkillHeavenlyLightEffect(struct Unit* unit, int *healAmount)
         unit->hp -= 10;
 }
 
+// ƒXƒLƒ‹–¼‚Ì“Ç‚Ý•û: https://i.imgur.com/9vbivwC.jpg
 const struct SpecialSkill specialSkills[] = {
         {"[[", "‰œ‹`ƒXƒLƒ‹‚ðŽ‚Á‚Ä‚¢‚È‚¢", "Special Skill", "No special skill", 0, 0, 0, 0, 0, 0, 0},
         {
@@ -1308,7 +1309,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "áJ",
+            "‚¹‚Â‚¶‚å‚­",
             "Ž©•ª‚ÌÅ‘å‚g‚o[Œ»‚g‚o‚Ì‚RŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Retribution",
             "Boosts damage by 30% of damage dealt to unit.",
@@ -1334,7 +1335,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "Œu‰Î",
+            "‚¯‚¢‚©",
             "Žç”õ‚Ì”¼•ª‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Glowing Ember",
             "Boosts damage by 50% of unit's Def.",
@@ -1373,7 +1374,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "¹ˆß",
+            "‚¹‚¢‚¢",
             "“G‚Ì‰“‹——£UŒ‚‚Ìƒ_ƒ[ƒW‚ð‚RŠ„ŒyŒ¸",
             "Holy Vestments",
             "If foe's Range = 2, reduces damage from that foe's attack by 30%.",
@@ -1438,7 +1439,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "“VÆ",
+            "‚Ä‚ñ‚µ‚å‚¤",
             "‰ñ•œ‚ÌñŽg—pŽžAŽ©•ª‚Æ‘ÎÛ‚ðœ‚­‘S–¡•û‚ð‚P‚O‰ñ•œ‚·‚é",
             "Heavenly Light",
             "When healing an ally with a staff, restores 10 HP to all allies.",
@@ -1503,7 +1504,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "—[—z",
+            "‚ä‚¤‚æ‚¤",
             "—^‚¦‚½ƒ_ƒ[ƒW‚Ì‚RŠ„Ž©•ª‚ð‰ñ•œ",
             "Noontime",
             "Restores HP = 30% of damage dealt.",
@@ -1529,7 +1530,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "ŒŽ“ø",
+            "‚°‚Á‚±‚¤",
             "“G‚ÌŽç”õA–‚–h‚VŠ„ˆµ‚¢‚ÅUŒ‚",
             "Moonbow",
             "Treats foe's Def/Res as if reduced by 30% during combat.",
@@ -1555,7 +1556,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "‹¥¯",
+            "‚«‚å‚¤‚¹‚¢",
             "—^‚¦‚éƒ_ƒ[ƒW‚PB‚T”{",
             "Glimmer",
             "Boosts damage dealt by 50%.",
@@ -1581,7 +1582,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "ŒŒQ",
+            "‚¯‚Á‚µ‚ã‚¤",
             "Ž©•ª‚ÌÅ‘å‚g‚o[Œ»‚g‚o‚Ì‚RŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Reprisal",
             "Boosts damage by 30% of damage dealt to unit.",
@@ -1620,7 +1621,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "—³ú",
+            "‚è‚ã‚¤‚¹‚ñ",
             "UŒ‚‚Ì”¼•ª‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Dragon Fang",
             "Boosts damage by 50% of unit's Atk.",
@@ -1633,7 +1634,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "”ê‰Š",
+            "‚Ð‚¦‚ñ",
             "Žç”õ‚Ì”¼•ª‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Bonfire",
             "Boosts damage by 50% of unit's Def.",
@@ -1646,7 +1647,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "‰Ø‰Š",
+            "‚©‚¦‚ñ",
             "Žç”õ‚Ì‚WŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Ignis",
             "Boosts damage by 80% of unit's Def.",
@@ -1659,7 +1660,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "•X‘“",
+            "‚Ð‚å‚¤‚»‚¤",
             "–‚–h‚Ì”¼•ª‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Iceberg",
             "Boosts damage by 50% of unit's Res.",
@@ -1672,7 +1673,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "•X‰Ø",
+            "‚Ð‚å‚¤‚©",
             "–‚–h‚Ì‚WŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Glacies",
             "Boosts damage by 80% of unit's Res.",
@@ -1711,7 +1712,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "¹Š•",
+            "‚¹‚¢‚Æ‚¤",
             "“G‚Ì‰“‹——£UŒ‚‚Ìƒ_ƒ[ƒW‚ð‚RŠ„ŒyŒ¸",
             "Sacred Cowl",
             "If foe's Range = 2, reduces damage from that foe's attack by 30%.",
@@ -1906,7 +1907,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "‹Æ‰ÎŽ¾•—‚Ìj•Ÿ+",
+            "‹Æ‰ÎŽ¾•—‚Ìj•Ÿ{",
             "‰ñ•œ‚ÌñŽg—pŽžAŽ©•ª‚ðœ‚­‘S–¡•û‚ÌUŒ‚A‘¬‚³{‚U",
             "Windfire Balm+",
             "When healing an ally with a staff, grants Atk/Spd+6 to all allies for 1 turn.",
@@ -1919,7 +1920,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "‹Æ‰Î‘å’n‚Ìj•Ÿ+",
+            "‹Æ‰Î‘å’n‚Ìj•Ÿ{",
             "‰ñ•œ‚ÌñŽg—pŽžAŽ©•ª‚ðœ‚­‘S–¡•û‚ÌUŒ‚AŽç”õ{‚U",
             "Earthfire Balm+",
             "When healing an ally with a staff, grants Atk/Def+6 to all allies for 1 turn.",
@@ -1932,7 +1933,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "‹Æ‰ÎÃ…‚Ìj•Ÿ+",
+            "‹Æ‰ÎÃ…‚Ìj•Ÿ{",
             "‰ñ•œ‚ÌñŽg—pŽžAŽ©•ª‚ðœ‚­‘S–¡•û‚ÌUŒ‚A–‚–h{‚U",
             "Fireflood Balm+",
             "When healing an ally with a staff, grants Atk/Res+6 to all allies for 1 turn.",
@@ -1945,7 +1946,7 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "‘å’nÃ…‚Ìj•Ÿ+",
+            "‘å’nÃ…‚Ìj•Ÿ{",
             "‰ñ•œ‚ÌñŽg—pŽžAŽ©•ª‚ðœ‚­‘S–¡•û‚ÌŽç”õA–‚–h{‚U",
             "Earthwater Balm+",
             "When healing an ally with a staff, grants Def/Res+6 to all allies for 1 turn.",
@@ -1972,8 +1973,8 @@ const struct SpecialSkill specialSkills[] = {
                 0
         },
         {
-            "Ž¾•—v—‹",
-            "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚ðs“®‰Â”\\‚É‚·‚éi‚Pƒ^[ƒ“‚É‚P‰ñ‚Ì‚Ý)",
+            "‚µ‚Á‚Õ‚¤‚¶‚ñ‚ç‚¢",
+            "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚ðs“®‰Â”\\‚É‚·‚é",
             "Galeforce",
             "If unit initiates combat, grants unit another action after combat."
             "(Once per turn.)",
@@ -2286,6 +2287,7 @@ u16 getUnitRandomSpecialSkill(struct Unit *unit)
     {
         // factor shouldn't change in a chapter
         factor = unit->character->id + unit->job->id + /*unit->items[0].itemId + unit->items[1].itemId + unit->items[2].itemId + unit->items[3].itemId +*/ unit->lv + unit->number + unit->side + unit->maxHp + unit->hp + unit->pow + unit->skl + unit->spd + unit->def + unit->res + unit->luk + unit->conBonus + unit->movBonus + unit->levelSword + unit->levelLance + unit->levelAxe + unit->levelBow + unit->levelStaff + unit->levelAnima + unit->levelLight + unit->levelDark + gRAMChapterData.chapterIndex + gRAMChapterData.playerName[0] + gRAMChapterData.playerName[1] + gRAMChapterData.playerName[2] + gRAMChapterData.playerName[3] + gRAMChapterData.playerName[4] + gRAMChapterData.playerName[5] + gRAMChapterData.playerName[6] + gRAMChapterData.playerName[7] + gRAMChapterData.playerName[8] + gRAMChapterData.playerName[9] + gRAMChapterData.playerName[10] + gRAMChapterData.playerName[11] + gRAMChapterData.playerName[12] + gRAMChapterData.playerName[13] + gRAMChapterData.playerName[14] + gRAMChapterData.playerName[15] + gRAMChapterData.playerName[16] + gRAMChapterData.playerName[17] + gRAMChapterData.playerName[18] + gRAMChapterData.playerName[19] + gRAMChapterData.playerName[20] + gRAMChapterData.playerName[21] + gRAMChapterData.playerName[22] + gRAMChapterData.playerName[23] + gRAMChapterData.playerName[24] + gRAMChapterData.playerName[25] + gRAMChapterData.playerName[26] + gRAMChapterData.playerName[27] + gRAMChapterData.playerName[28] + gRAMChapterData.playerName[29] + gRAMChapterData.playerName[30] + gRAMChapterData.playerName[31];
+        factor += NextRN_100();
         switch(getEnemySpecialSkillLevel())
         {
             case ENEMY_SPECIAL_SKILL_LEVEL_WEAK:
