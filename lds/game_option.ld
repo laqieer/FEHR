@@ -40,3 +40,5 @@
 .rodata.pOption_menu_iconsTiles : {*(.rodata.pOption_menu_iconsTiles)}
 . = 0x8031aec;
 .text.GetChapterEventDataPointerForMultiLanguageInjector : {*(.text.GetChapterEventDataPointerForMultiLanguageInjector)}
+. = 0x8000ddc;
+.text.NextRN_100Injector : {*(.text.NextRN_100Injector)}

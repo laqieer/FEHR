@@ -366,3 +366,14 @@ const struct OptionMenuItemInfo * const pOptionMenuItemInfos7 = OptionMenuItemIn
 
 const unsigned int * const pOption_menu_iconsTiles = option_menu_iconsTiles;
 
+int NextRN();
+
+int NextRN_100()
+{
+    return getRandomMode()? GetGameClock() % 100: NextRN() * 100 / 0x10000;
+}
+
+int NextRN_100Injector()
+{
+    return NextRN_100();
+}

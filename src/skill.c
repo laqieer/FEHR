@@ -2982,6 +2982,88 @@ void PassiveSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUni
     PassiveSkillSEffectAfterBattle(attacker, defender);
 }
 
+void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender) {
+/*    short attack, defense;
+
+    gBattleStats.damage = 0;
+
+    BattleCheckSureShot(attacker);
+
+    if (!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SURESHOT)) {
+        if (!BattleRoll2RN(gBattleStats.hitRate, TRUE)) {
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_MISS;
+            return;
+        }
+    }
+
+    attack = gBattleStats.attack;
+    defense = gBattleStats.defense;
+
+    BattleCheckGreatShield(attacker, defender);
+
+    if (!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_GREATSHLD))
+        BattleCheckPierce(attacker, defender);
+
+    if (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_PIERCE)
+        defense = 0;
+
+    gBattleStats.damage = attack - defense;
+
+    if (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_GREATSHLD)
+        gBattleStats.damage = 0;
+
+    if (BattleRoll1RN(gBattleStats.critRate, FALSE) == TRUE) {
+        if (BattleCheckSilencer(attacker, defender)) {
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SILENCER;
+
+            gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+            gBattleHitIterator->attributes = gBattleHitIterator->attributes &~ BATTLE_HIT_ATTR_GREATSHLD;
+        } else {
+            gBattleHitIterator->attributes = gBattleHitIterator->attributes | BATTLE_HIT_ATTR_CRIT;
+            gBattleStats.damage = gBattleStats.damage * 3;
+        }
+    }
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    BattleCheckPetrify(attacker, defender);
+
+    if (gBattleStats.damage != 0)
+        attacker->nonZeroDamage = TRUE;*/
+
+	gBattleStats.damage = 0;
+	if (!(getTrueHitConf()?BattleRoll1RN(gBattleStats.hitRate,1):BattleRoll2RN(gBattleStats.hitRate,1))) {
+		gBattleHitIterator->attributes = gBattleHitIterator->attributes | 2;
+	}
+	else {
+		gBattleStats.damage = gBattleStats.attack - gBattleStats.defense;
+		if (BattleRoll1RN(gBattleStats.critRate,0)) {
+			if (BattleRoll1RN(gBattleStats.silencerRate,0)) {
+				gBattleHitIterator->attributes = gBattleHitIterator->attributes | 0x800;
+				gBattleStats.damage = 0x7f;
+			}
+			else {
+				gBattleHitIterator->attributes = gBattleHitIterator->attributes | 1;
+				gBattleStats.damage = gBattleStats.damage * 3;
+			}
+		}
+		if (0x7f < gBattleStats.damage) {
+			gBattleStats.damage = 0x7f;
+		}
+		if (gBattleStats.damage < 0) {
+			gBattleStats.damage = 0;
+		}
+		if (gBattleStats.damage != 0) {
+			attacker->nonZeroDamage = 1;
+		}
+	}
+}
+
 char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     char hit = 0;
@@ -2996,6 +3078,7 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
     BattleUpdateBattleStats(attacker, defender);
     BattleUpdateBattleStatsWithPassiveSkills(attacker, defender);
     BattleGenerateHitTriangleAttack(attacker, defender);
+    //BattleGenerateHitAttributesOriginal(attacker, defender);
     BattleGenerateHitAttributes(attacker, defender);
     BattleGenerateHitSpecialSkill(attacker, defender);
     PassiveSkillSNoDamageEffect(attacker, defender);

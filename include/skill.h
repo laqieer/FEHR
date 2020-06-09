@@ -276,7 +276,7 @@ extern struct ActionData gActionData;
 
 void BattleUpdateBattleStats(struct BattleUnit* attacker, struct BattleUnit* defender);
 void BattleGenerateHitTriangleAttack(struct BattleUnit* attacker, struct BattleUnit* defender);
-void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender);
+void BattleGenerateHitAttributesOriginal(struct BattleUnit* attacker, struct BattleUnit* defender);
 void BattleGenerateHitEffects(struct BattleUnit* attacker, struct BattleUnit* defender);
 
 int GetUnitPower(struct Unit* unit);
@@ -863,5 +863,10 @@ extern u16 gHPBarLenChangeCounts[2];
 extern u16 gHPBarLenArray[];
 extern u16 gHPBarLens[2];
 u32 getHPBarLen(int count);
+
+u8 BattleRoll1RN(u16 rate, u8 defaultResult);
+u8 BattleRoll2RN(u16 rate, u8 defaultResult);
+
+char getTrueHitConf();
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
