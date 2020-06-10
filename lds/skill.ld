@@ -48,8 +48,8 @@
 .text.calculateStealHPIfRightInjector : {*(.text.calculateStealHPIfRightInjector)}
 /*. = 0x8053e68;
 .text.showSpecialSkillsInBattleInjectorInjector : {*(.text.showSpecialSkillsInBattleInjectorInjector)}*/
-. = 0x8053cc0;
-.rodata.pShowSpecialSkillsInBattleInjectorNew : {*(.rodata.pShowSpecialSkillsInBattleInjectorNew)}
+/*. = 0x8053cc0;
+.rodata.pShowSpecialSkillsInBattleInjectorNew : {*(.rodata.pShowSpecialSkillsInBattleInjectorNew)}*/
 . = 0x8053cc4;
 .rodata.pHideSpecialSkillsInBattleNewC04Injector : {*(.rodata.pHideSpecialSkillsInBattleNewC04Injector)}
 . = 0x8053cc8;

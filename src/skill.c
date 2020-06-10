@@ -5831,16 +5831,24 @@ void displaySpecialSkillNameInBattleNew(void *AIS)
 
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
-        displaySpecialSkillName(isAnimationAtRight(AIS));
+        if(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)
+            displaySpecialSkillName(!isAnimationAtRight(AIS));
+        else
+            displaySpecialSkillName(isAnimationAtRight(AIS));
     }
 
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
-        displaySpecialSkillName(!isAnimationAtRight(AIS));
+        if(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)
+            displaySpecialSkillName(isAnimationAtRight(AIS));
+        else
+            displaySpecialSkillName(!isAnimationAtRight(AIS));
     }
 
     setBGMapBufferSyncFlag(1);
 
+    Debugf("gBattleHitCount: %d, gBattleHitArray[gBattleHitCount]: %x, %x, %x, %d", gBattleHitCount, &gBattleHitArray[gBattleHitCount], gBattleHitArray[gBattleHitCount].attributes, gBattleHitArray[gBattleHitCount].info, gBattleHitArray[gBattleHitCount].hpChange);
+    
     gBattleHitCount++;
 }
 
@@ -5863,12 +5871,18 @@ void displaySpecialSkillIconInBattle(void *AIS)
 
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
-        displaySpecialSkillIcon(isAnimationAtRight(AIS));
+        if(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)
+            displaySpecialSkillIcon(!isAnimationAtRight(AIS));
+        else
+            displaySpecialSkillIcon(isAnimationAtRight(AIS));
     }
 
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
-        displaySpecialSkillIcon(!isAnimationAtRight(AIS));
+        if(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)
+            displaySpecialSkillIcon(isAnimationAtRight(AIS));
+        else
+            displaySpecialSkillIcon(!isAnimationAtRight(AIS));
     }
 
     setBGMapBufferSyncFlag(1);
@@ -5891,6 +5905,36 @@ void hideSpecialSkillsInBattle()
     setBGMapBufferSyncFlag(1);
 }
 
+void hideSpecialSkillsInBattleBySide(int isRight)
+{
+    u16 *dest;
+
+    dest = &BG0MapBuffer[32 * 32 / 8] + (240 / 8 - 14) * isRight;
+
+    memset(dest, 0, 2 * 18);
+    memset(dest + 32, 0, 2 * 18);
+}
+
+void hideSpecialSkillsInBattleNew(void *AIS)
+{
+    if(gBattleHitArray[gBattleHitCount - 2].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    {
+        if(gBattleHitArray[gBattleHitCount - 2].info & BATTLE_HIT_INFO_RETALIATION)
+            hideSpecialSkillsInBattleBySide(!isAnimationAtRight(AIS));
+        else
+            hideSpecialSkillsInBattleBySide(isAnimationAtRight(AIS));
+    }
+
+    if(gBattleHitArray[gBattleHitCount - 2].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    {
+        if(gBattleHitArray[gBattleHitCount - 2].info & BATTLE_HIT_INFO_RETALIATION)
+            hideSpecialSkillsInBattleBySide(isAnimationAtRight(AIS));
+        else
+            hideSpecialSkillsInBattleBySide(!isAnimationAtRight(AIS));
+    }
+
+    setBGMapBufferSyncFlag(1);
+}
 
 // It will return to unexpected place if register lr is not saved properly before
 void showSpecialSkillsInBattle(void *AIS)
@@ -5972,6 +6016,7 @@ void showSpecialSkillsInBattleInjectorNew()
 void hideSpecialSkillsInBattleNewC04Injector()
 {
     BL(hideSpecialSkillsInBattle);
+    //BL(hideSpecialSkillsInBattleNew);
     //InjectorR0(0x80544ef);
     InjectorR0(AnimEvtCode4Handler);
 }
@@ -5980,6 +6025,7 @@ void hideSpecialSkillsInBattleNewC04Injector()
 void hideSpecialSkillsInBattleNewC05Injector()
 {
     BL(hideSpecialSkillsInBattle);
+    //BL(hideSpecialSkillsInBattleNew);
     InjectorR0(AnimEvtCode5Handler);
 }
 
