@@ -97,4 +97,9 @@ extern struct KeyStatusBuffer sKeyStatusBuffer;
 void m4aSongNumStart(u16 songId);
 void m4aSongNumStop(u16 songId);
 
+int isBook1Clear();
+int isBook2Clear();
+int isBook3Clear();
+int isBook4Clear();
+
 #endif //FE7_JP_STUNNING_TRIBBLE_ACHIEVEMENT_H
