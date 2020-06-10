@@ -314,7 +314,14 @@ struct RAMChapterData
     // has to do with allowing unusable weapons to be used
     /* 1C */ unsigned char unk1C[4];
 
-    /* 20 */ char playerName[32]; // unused outside of link arena (was tactician name in FE7); Size unknown
+    /* 20 */ char playerName[11]; // unused outside of link arena (was tactician name in FE7); 5 characters + '\0'
+
+    /* 2B */ u8 playerBloodType:4;
+    u8 playerBirthMonth:4; 
+    /* 2C */ char playerGender;
+    /* 2D */ char playerStars;
+
+    /* 2E */ char unk2E[32 - 14];
 
 // option bits
     unsigned int unk40_1:1; // 1
