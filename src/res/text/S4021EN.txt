@@ -3,7 +3,7 @@
 [MID_SCENARIO_OPENING_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈｅ．．．ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ？　Ｉ’ｖｅ　ｎｅー"TCC_NEWLINE"ｖｅｒＡｎｄ．．．ｌｉｇｈｔ　ｅｌｖｅｓ？"TCC_NEWLINE TCC_PUSH_A
 "Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ａｈ，　Ｉ　ｓｅｅ　ｙｏｕ　ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｍー"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｏｎｃｅ　ｔｈｅｙ’ｖｅ　ｇｒｏｗｎ　ｉｎｔｏ　ａｄｕｌｔー"TCC_NEWLINE"ｓ，ｍｏｒｔａｌｓ　ｃｅｒｔａｉｎｌｙ　ｔｕｒｎ　ａｒｇｕー"TCC_NEWLINE"ｍｅｎｔａｔｉｖｅ．Ｙｏｕ　ｗｏｎ’ｔ　ｌｉｓｔｅｎ！"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ’ｓ　ａ　ｓｈａｍｅ．　Ｙｏｕ’ｒｅ　ｓｏ　ｐｕｒｅ　"TCC_NEWLINE"ａｎｄｉｎｎｏｃｅｎｔ　ａｓ　ｃｈｉｌｄｒｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -28,7 +28,7 @@ TCC_OPEN_RIGHT
 TCC_TACTICIAN_NAME"，　ｙｏｕ　ｓａｉｄ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｈａｖｅ　ｔｏ　ｄｏ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ"TCC_NEWLINE"　ｔｈａｔ．Ａｎｄ　ｑｕｉｃｋｌｙｂｅｆｏｒｅ　ｔｈｅ　ｎー"TCC_NEWLINE"ｉｇｈｔｍａｒｅｄｏｅｓ　ｉｔｓ　ｗｏｒｋ．．．　Ｔｈｉｓ"TCC_NEWLINE"　ｗａｙ！　Ｈｕｒｒｙ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+[MID_SCENARIO_MAP_BEGIN_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｌｊｓｌｆｈｅｉｍｒ　ｉｓ　ａ　ｗｏｒｌｄ　ｃｒｅａｔｅｄー"TCC_NEWLINE"ｆｒｏｍ　ｔｈｅ　ｆａｂｒｉｃ　ｏｆ　ｍｏｒｔａｌｓ’　ｐー"TCC_NEWLINE"ｌｅａｓａｎｔ，ｄｅｌｉｇｈｔｆｕｌ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ’ｓ　ａ　ｗｏｒｌｄ　ｔｈａｔ　ｗｒａｐｓ　ｙｏｕ　ｕー"TCC_NEWLINE"ｐ　ａｌｌｗａｒｍ　ｉｎ　ａ　ｂｌａｎｋｅｔ，　ａ　ｆｌｕー"TCC_NEWLINE"ｆｆｙ－ｆｌｏａｔｙｗｏｒｌｄａ　ｃｈｉｌｄ’ｓ　ｄｒｅａー"TCC_NEWLINE"ｍｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
@@ -41,7 +41,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｈｅｗ．．．　Ａｎｏｔｈｅｒ　ｖｉｃｔｏｒｙ．　Ｂｕｔ　"TCC_NEWLINE"ｓｔｉｌｌ　ｎｏｓｉｇｎ　ｏｆ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｉ　ｄｏ　ｈｏｐｅ　ｅｖｅｒｙｔｈｉｎｇ　ｉｓ　ａｌｌ　ｒー"TCC_NEWLINE"ｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｈ！　Ｉ　ｈａｖｅ　ａ　ｇｒｅａｔ　ｉｄｅａ！"TCC_NEWLINE TCC_PUSH_A
 "Ｈａｖｅ　ｙｏｕ　ｔｒｉｅｄ　ｍａｋｉｎｇ　ａ　ｗｉｓｈ？"TCC_NEWLINE"Ｓｏｍｅｔｈｉｎｇ　ｌｉｋｅ，　Ｉ　ｗｉｓｈ　ｍｙ　ｆｒｉー"TCC_NEWLINE"ｅｎｄ"TCC_NEWLINE

@@ -21,7 +21,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "Ａｍｏｎｇ　ｏｕｒ　ａｌｌｉｅｓ　ｆｒｏｍ　Ｎｉｆｌ．．．"TCC_NEWLINE"　Ｉ　ｃａｎ’ｔｉｍａｇｉｎｅ　ｔｈａｔ　Ｆｊｏｒｍ　ｉｓ"TCC_NEWLINE"　ｔｈｅ　ｔｒａｉｔｏｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ　ｌｅａｖｅｓ　ｕｓ　ｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　"TCC_NEWLINE"Ｙｌｇｒ　ａｎｄＰｒｉｎｃｅ　Ｈｒｄ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｙｏｕ　ｎｅｅｄｎ’ｔ　ｗｏｒｒｙ．　Ｎｅｉｔｈｅｒ　ｏｆ"TCC_NEWLINE"　ｔｈｅｍｗｏｕｌｄ　ｂｅｔｒａｙ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！　Ｍｙ　ａｐｏｌｏｇｉｅｓ．"TCC_NEWLINE"　Ｉｔ’ｓｎｏｔ　ｔｈａｔ　ｗｅ　ｄｉｓｔｒｕｓｔ　Ｎｉｆー"TCC_NEWLINE"ｌ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -49,7 +49,7 @@ TCC_OPEN_MID_RIGHT
 TCC_OPEN_LEFT
 "Ｉｎｄｅｅｄ．　Ｔｈａｔ　ｉｓ　ｗｈａｔ　Ｉ　ｃａｎｎｏｔー"TCC_NEWLINE"ｕｎｄｅｒｓｔａｎｄ．．．　Ｈｏｗ　ｉｓ　ｉｔ　ｅｖｅｎ　"TCC_NEWLINE"ｐｏｓｓｉｂｌｅｔｈａｔ　ｗｅ　ｗｅｒｅ　ｂｅｔｒａｙｅｄ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S2121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HRID
+[MID_SCENARIO_MAP_BEGIN_S2121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HRID
 "Ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅｓ　ｒｅｑｕｉｒｅｓ　ａ"TCC_NEWLINE"　ｃｅｒｔａｉｎｋｉｎｄ　ｏｆ．．．ｋｉｎｄｌｉｎｇ．．．"TCC_NEWLINE"ｔｏ　ｆｕｅｌ　Ｓｕｒｔｒ’ｓｐｏｗｅｒｓ　ｏｆ　ｒｅｓｕー"TCC_NEWLINE"ｒｒｅｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｕｒｔｒ　ｐｌａｎｓ　ｔｏ　ｆｅｅｄ　ｔｗｏ　ｇｉｒｌｓ"TCC_NEWLINE"　ｔｏ　ｔｈｅｆｌａｍｅｓ　ｔｈａｔ　ｓｕｓｔａｉｎ　ｈｉー"TCC_NEWLINE"ｓ　ｐｏｗｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　Ｚａｃｈａｒｉａｓ　ｔｏｌｄ　ｍｅ　ｔｈａｔ　ｏｎー"TCC_NEWLINE"ｅ　ｏｆｔｈｅ　ｇｉｒｌｓ　ｉｓ　ｈｉｓ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
@@ -58,7 +58,7 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈａｔ　Ｓｕｒｔｒ　ｗｏｕｌｄ　ｇｏ　ｔｈａｔ　ｆａｒ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｓｈｅ　ｍａｙ　ｈａｖｅ　ｖｅｘｅｄ　ｕｓ　ａｔ　ｅｖｅｒー"TCC_NEWLINE"ｙ　ｔｕｒｎ，ｂｕｔ　Ｉ　ｃａｎ’ｔ　ｈｅｌｐ　ｂｕｔ　ｐー"TCC_NEWLINE"ｉｔｙ　ｈｅｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_YLGR
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｔｗｏ　ｇｉｒｌｓ？　Ｗｈｏ　ｉｓ　ｔｈｅ　ｓｅｃｏｎｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈａｔ，　Ｚａｃｈａｒｉａｓ　ｄｉｄ　ｎｏｔ　ｋｎｏｗ．"TCC_NEWLINE"Ｐｅｒｈａｐｓ　ｏｎｅ　ｏｆ　Ｍｓｐｅｌｌ’ｓ　ｏｗｎ　ｒー"TCC_NEWLINE"ｏｙａｌｆａｍｉｌｙ　ｏｒ　ａｎｏｔｈｅｒ　ｋｉｎｇｄｏｍ"TCC_NEWLINE"’ｓ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -66,6 +66,6 @@ TCC_OPEN_LEFT
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗｅ　ｍｕｓｔ　ｈｕｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S2121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HRID
+[MID_SCENARIO_MAP_END_S2121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HRID
 "Ｔｈｅ　ｐａｔｈ　ｌｅａｄｓ　ｕｓ　ｔｈｉｓ　ｗａｙ．．．"TCC_NEWLINE"　Ｆｒｏｍｎｏｗ　ｏｎ，　ｗｅ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ"TCC_NEWLINE"　ｔｏ　ａｖｏｉｄｏｕｒ　ｆｏｅｓ．　Ｐｒｅｐａｒｅ　ｆｏー"TCC_NEWLINE"ｒ　ａ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

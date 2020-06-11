@@ -1,11 +1,11 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
+[MID_SCENARIO_OPENING_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｓｏ　ｔｈｉｓ　ｉｓ　ｔｈｅｉｒ　ｏｂｊｅｃｔｉｖｅｔｈｅー"TCC_NEWLINE"ｓａｎｃｔｕａｒｙ　ａｔ　Ｈｊａｒｎｈｏｆ，　ｈｉｄｄｅｎ"TCC_NEWLINE"　ｉｎ　ｔｈｅｎｏｒｔｈｅｒｎ　ｒｅａｃｈｅｓ　ｏｆ　Ｎｉー"TCC_NEWLINE"ｆｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｍｏｕｎｔａｉｎｓ　ｈｅｒｅ　ａｒｅ　ｓｏ　ｈｉｇー"TCC_NEWLINE"ｈ　ｔｈａｔｅｖｅｎ　ｗｙｖｅｒｎｓ　ｗｏｎ’ｔ　ｄａｒｅ"TCC_NEWLINE"　ｔｏ　ｆｌｙ　ｏｖｅｒｔｈｅｍ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ’ｖｅ　ｏｎｌｙ　ｅｖｅｒ　ｔｒａｖｅｌｅｄ　ｔｏ　ｔー"TCC_NEWLINE"ｈｉｓｔｒｅａｃｈｅｒｏｕｓ　ａｎｄ　ｆｒｉｇｉｄ　ｒｅｇー"TCC_NEWLINE"ｉｏｎ　ｏｎｃｅｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｄｏｎ’ｔ　ｌｉｋｅ　ｔｈｉｓ．　Ｓｏｍｅｔｈｉｎｇ’"TCC_NEWLINE"ｓ　ｎｏｔ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｐｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ　ｉｓｎ’ｔ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏ　ｏｎｅ　ｉｓ．　Ｉ’ｖｅ　ｓｅａｒｃｈｅｄ．．．　Ｉー"TCC_NEWLINE"ｎｓｉｄｅ　ａｎｄｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -43,9 +43,9 @@ TCC_OPEN_LEFT
 "Ｔｈｅｙ　ｍａｙ　ｈａｖｅ　ｍａｎａｇｅｄ　ｔｏ　ｏｕｔｗー"TCC_NEWLINE"ｉｔｍｅ，　ｔｈｉｓ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｍ　ｔｈｅ　ｏｎｅ　ｔｈａｔ’ｓ　ｂｅｉｎｇ　ｈｕｎｔー"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+[MID_SCENARIO_MAP_BEGIN_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ａｌｍｏｓｔ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEGJARN
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｉ　ｓｅｅ．　Ｌａｅｖａｔｅｉｎ，　ｙｏｕ　ｍｕｓｔ　ｅｓー"TCC_NEWLINE"ｃａｐｅｗｈｉｌｅ　ｙｏｕ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｙ　ｙｏｕｒｓｅｌｆ．．．ｙｏｕ　ｃａｎ　ｓｎｅａｋ　ｒー"TCC_NEWLINE"ｉｇｈｔｐａｓｔ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｌｌ　ｋｅｅｐ　ｔｈｅｍ　ｂｕｓｙ　ｕｎｔｉｌ　ｙｏｕ"TCC_NEWLINE"’ｒｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
@@ -66,17 +66,17 @@ TCC_OPEN_RIGHT
 "Ｂｒａｖｅ　ｗａｒｒｉｏｒｓ　ｏｆ　Ａｓｋｒ．．．　Ｉ　ｃー"TCC_NEWLINE"ａｎ　ｆｅｅｌｙｏｕｒ　ｍａｌｉｃｅ．　Ｙｏｕ　ａｉｍ　ｔー"TCC_NEWLINE"ｏ　ｄｅｆｅａｔ　ｍｅｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　ｆｉｒｓｔ，　Ｉ　ｗｉｌｌ　ｓｈｏｗ　ｙｏｕ　ｔｈー"TCC_NEWLINE"ｅ　ｐｏｗｅｒｏｆ　Ｌａｅｇｊａｒｎ，　ｏｎｅ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅ　ＳｃｏｒｃｈｉｎｇＴｒｉａｄ　ｏｆ　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
+[MID_SCENARIO_MAP_END_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｔｈａｔ’ｓ．．．ｔｈａｔ’ｓ　ｉｔ．　Ｔｈａｔ’ｓ　ａｌー"TCC_NEWLINE"ｌ　Ｉ　ｈａｖｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ，　Ｌａｅｖａｔｅｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｆｏｒｃｅｓ　ｏｆ　Ｍｓｐｅｌｌ，　ｈｅａｒ　ｍｅ！　Ｙｏー"TCC_NEWLINE"ｕｒｇｅｎｅｒａｌ，　Ｌａｅｇｊａｒｎ，　ｈａｓ　ｂｅｅｎー"TCC_NEWLINE"ｄｅｆｅａｔｅｄ！"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｈａｖｅ　ｎｏ　ｃｈａｎｃｅ　ａｔ　ｖｉｃｔｏｒｙ"TCC_NEWLINE"！　Ｆｌｅｅ，ａｎｄ　ｗｅ　ｗｉｌｌ　ｎｏｔ　ｐｕｒｓｕｅ"TCC_NEWLINE"　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｔａｙ　ａｎｄ　ｆｉｇｈｔ，　ａｎｄ　ｗｅ　ｗｉｌｌ　ｎー"TCC_NEWLINE"ｏｔ　ｇｏｅａｓｙ　ｏｎ　ｙｏｕ．　Ｔｈｅ　ｃｈｏｉｃｅ　"TCC_NEWLINE"ｉｓ　ｙｏｕｒｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
+[MID_SCENARIO_ENDING_S2065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｇｕｈ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｓｏ，　ｙｏｕ’ｖｅ　ａｗａｋｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｅｌｌｏ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ．"TCC_NEWLINE TCC_PUSH_A

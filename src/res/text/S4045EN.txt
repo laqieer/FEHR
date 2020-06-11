@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_MAP_BEGIN_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+[MID_SCENARIO_MAP_BEGIN_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ａｈａ！　Ｔｈｉｓ　ｉｓ　ｔｈｅ　Ｄｒｅａｍ　Ｇａｔｅ．．"TCC_NEWLINE"．　Ｔｈｉｓｉｓ　ｔｈｅ　ｏｎｅ　ｐｌａｃｅ　ｉｎ　Ｌｊｓー"TCC_NEWLINE"ｌｆｈｅｉｍｒ　ｔｈａｔＧｕｌｌｉｎｋａｍｂｉ　ｗｉｌｌ　"TCC_NEWLINE"ｓｏｕ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｏ．．．ｙｏｕ’ｒｅ　ｆｉｎａｌｌｙ　ｈｅｒｅ，　Ｓｗｅー"TCC_NEWLINE"ｅｔ　Ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
@@ -15,7 +15,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4045_EN] = TCC_OPEN_LEFT
 "Ｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｅｅｍｓ　ｗｅ’ｖｅ　ｌｏｓｔ　ｔｈｉｓ　ｔｉｍｅ．　Ｌー"TCC_NEWLINE"ｅｔ’ｓｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ，　Ｐｌｕｍｅｒｉａ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｕｇｈ．　Ｔｈｏｓｅ　ｄｋｋｌｆａｒ．．．　Ｄｏｎ’ｔ　ｔー"TCC_NEWLINE"ｈｅｙｋｎｏｗ　ｔｈｅｙ　ｓｈｏｕｌｄｎ’ｔ　ｄｏ　ｂａｄ"TCC_NEWLINE"　ｔｈｉｎｇｓ，ｂｅｃａｕｓｅ　ｉｔ　ｍａｋｅｓ　ｏｔｈｅー"TCC_NEWLINE"ｒ　ｐｅｏｐｌｅ　ｓａｄ？"TCC_NEWLINE TCC_PUSH_A
 "＊ｓｉｇｈ＊　Ｏｈ　ｗｅｌｌ．　Ｔｈａｔ　ｓｈｏｕｌｄ　ｄー"TCC_NEWLINE"ｏ　ｉｔ，ａｎｙｗａｙ．　Ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｒｅａー"TCC_NEWLINE"ｄｙ　ｔｏ　ｕｓｅｔｈｅ　ｈｏｒｎ　Ｄｒｅａｍ－Ｋｉｎｇ　"TCC_NEWLINE"Ｆｒｅｙｒ　ｇａｖｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｆ　ｗｅ　ｓｏｕｎｄ　ｉｔ　ｈｅｒｅ　ａｎｄ　ｎｏｗ，　"TCC_NEWLINE"ｉｔ　ｓｈｏｕｌｄｂｒｉｎｇ"TCC_NEWLINE
@@ -43,7 +43,7 @@ TCC_OPEN_MID_LEFT
 "．．．Ｐｅｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｗｅ’ｌｌ　ｍｅｅｔ　ａｇａｉｎ，　ｓｏｍｅｄａｙ．"TCC_NEWLINE"Ｓｏｍｅｄａｙ　ｉｎ　ａ　ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FREYR
+[MID_SCENARIO_ENDING_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYR
 "Ｔｈｅ　ｈｏｒｎ　ｓｏｕｎｄｓ．．．　Ｔｈｅｎ　ｔｈｅｙ　"TCC_NEWLINE"ｈａｖｅｒｅｔｕｒｎｅｄ　ｔｏ　ｔｈｅ　ｗｏｒ"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT

@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LUPINUS
+[MID_SCENARIO_OPENING_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LUPINUS
 "Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ"TCC_NEWLINE"．．．Ｔｈｅ　ｓｕｎ’ｓ　ｌａｓｔ　ｒａｙｓ　ａｒｅ　ｄｉー"TCC_NEWLINE"ｓａｐｐｅａｒｉｎｇ．．．Ｔｈｉｓ　ｉｓ　ｗｈｅｎ　ｄａｙ"TCC_NEWLINE"　ｔｕｒｎｓ　ｔｏ　ｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｒｅ　ｙｏｕ　ｓｕｒｅ？　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅａ　"TCC_NEWLINE"ｄｅａｄ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
@@ -8,7 +8,7 @@ TCC_OPEN_LEFT
 "Ｗｅｌｌ．．．　Ｉ　ｃａｎ　ｓｈｏｗ　ｙｏｕ　ｗａｋｉｎｇ"TCC_NEWLINE"　ｏｎｅｓａ　ｄａｙｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｎ　ｔｈｅ　ｄａｙ’ｓ　ｌａｓｔ　ｎｉｇｈｔ，　ｉｆ　Ｉ"TCC_NEWLINE"　ｂｒｉｎｇ　ｙｏｕｉｎｔｏ　ａ　ｐａｒｔｉｃｕｌａｒｌｙ"TCC_NEWLINE"　ｓｃａｒｙ　ｄａｙｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｕｃｈ　ａ　ｄａｙｄｒｅａｍ　ｗｏｕｌｄ　ｂｅ　ｖｅｒｙー"TCC_NEWLINE"ｃｌｏｓｅ　ｔｏ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅｓ，ｙｏｕ　ｓｅｅ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ＊"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｓｏ　ｆｒｏｍ　ｗｉｔｈｉｎ　ｔｈｅ　ｄａｙｄｒｅａｍｓ，"TCC_NEWLINE"ｉｔ　ｓｈｏｕｌｄ　ｂｅ　ｐｏｓｓｉｂｌｅ　ｔｏ　ｃｒｏｓー"TCC_NEWLINE"ｓｏｖｅｒ　ｉｎｔｏ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｌａｎｄー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｒｅａｄｙ　ｗｈｅｎ　ｙｏｕ　ａｒｅ，　Ｍｉｒａｂｉー"TCC_NEWLINE"ｌｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -28,11 +28,11 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 TCC_OPEN_RIGHT
 "Ｔｈｉｓ　ｉｓ　ｙｏｕｒ　ｆｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｒｅ　ｉｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｒｕｎ．　Ｉｔ’ｓ"TCC_NEWLINE"　ｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_LUPINUS
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_LUPINUS
 "Ｏｈ　ｎｏ．．．　Ｗｈ－ｗｈａｔ　ｓｈｏｕｌｄ　Ｉ　ｄｏ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｎ　ａ　ｔｉｍｅ　ｌｉｋｅ　ｔｈｉｓ．．．ｔｈｅｒｅ’ｓ"TCC_NEWLINE"　ｏｎｌｙｏｎｅ　ｔｈｉｎｇ　ｔｏ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｚｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｍｉｒａｂｉｌｉｓ，　ｗａｋｅ　ｕｐ！　Ｕｓｅ　ｔｈｅｌｊー"TCC_NEWLINE"ｓｌｆｒ　ｄｕｓｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｂｕｔ　ｉｔ　ｗｏｎ’ｔ　ｄｏ　ｕｓ　ａｎｙ　ｇｏｏｄ　ｔー"TCC_NEWLINE"ｏ　ｆａｌｌａｓｌｅｅｐ　ｉｎ　ｔｈｅ　ｍｉｄｄｌｅ　ｏｆ"TCC_NEWLINE"　ａ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A

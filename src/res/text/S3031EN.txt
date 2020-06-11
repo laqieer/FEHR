@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S3031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_GUSTAV
+[MID_SCENARIO_OPENING_S3031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_GUSTAV
 "Ａｌｆｏｎｓｅ，　ｌｉｓｔｅｎ　ｗｅｌｌ．　Ｔｏｍｏｒｒｏー"TCC_NEWLINE"ｗ，　ｍｙｋｎｉｇｈｔｓ　ｗｉｌｌ　ａｔｔａｃｋ　ｔｈｅ　"TCC_NEWLINE"ｆｏｒｃｅｓ　ｏｆ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｍｕｓｔ　ｆｏｒｃｅ　ｔｈｅｉｒ　ｒｅｔｒｅａｔ　ｉー"TCC_NEWLINE"ｎｔｏ　ｔｈｅｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ　ａｎｄ　"TCC_NEWLINE"ｇｅｔ　ｔｈａｔｂａｒｒｉｅｒ　ｂａｃｋ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
@@ -33,12 +33,12 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 "Ｈｅｌ，　ｔｈｅ　ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE"　Ｔｏ　ｔｈｉｎｋｗｅ’ｄ　ｆａｃｅ　ｓｏｍｅｏｎｅ　ｌｉー"TCC_NEWLINE"ｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｆ　ｗｅ　ｃｏｕｌｄ　ｓｔｒｉｋｅ　ｓｗｉｆｔｌｙ　ａｎー"TCC_NEWLINE"ｄ　ｔａｋｅ　ｔｈｅｈｅａｄ　ｏｆ　ｏｕｒ　ｅｎｅｍｙ，　"TCC_NEWLINE"ｔｈｉｓ　ｗａｒ　ｗｏｕｌｄｅｎｄ　ｉｎ　ａｎ　ｉｎｓｔａー"TCC_NEWLINE"ｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　ｔｈａｔ　ｓｅｅｍｓ．．．　Ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_EIR
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EIR
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｌｅｔ　ｕｓ　ｃｏｎｃｅｎｔｒａｔｅ　ｏｎ　ｔｈｅ　ｆｏｅー"TCC_NEWLINE"ｓ　ｗｅｆｉｎｄ　ｉｎ　ｆｒｏｎｔ　ｏｆ　ｕｓ　ｆｏｒ　ｎー"TCC_NEWLINE"ｏｗ．　Ｉｔ’ｓ　ｔｉｍｅｗｅ　ｈｅａｄ　ｉｎｔｏ　ｂａｔー"TCC_NEWLINE"ｔｌｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S3031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+[MID_SCENARIO_MAP_END_S3031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｓｏ　ｙｏｕ　ｗｉｌｌ　ｊｏｉｎ　ｔｈｅ　ｆｉｇｈｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 "Ａｈｅａｄ，　ｙｏｕ　ｗｉｌｌ　ｆｉｎｄ　ｔｈｅ　ａｒｍｙ"TCC_NEWLINE"　ｏｆ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A

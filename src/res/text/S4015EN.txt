@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S4015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HENRIETTE
+[MID_SCENARIO_OPENING_S4015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HENRIETTE
 "Ａｈ，　Ａｌｆｏｎｓｅ！　Ｗｅｌｃｏｍｅ　ｈｏｍｅ．Ｉ　ａー"TCC_NEWLINE"ｍ　ｓｏ　ｈａｐｐｙ　ｔｏ　ｓｅｅ　ｙｏｕ．　Ｉ　ｆｅｅｌー"TCC_NEWLINE"ｂｅｔｔｅｒ　ｔｈａｎ　Ｉ　ｈａｖｅ　ｉｎ　ａ　ｌｏｎｇ　"TCC_NEWLINE"ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　ｉｔ　ｓｅｅｍｓ　Ｇｕｓｔａｖ　ｈａｓ　ｃｏｍｅ　"TCC_NEWLINE"ｄｏｗｎｗｉｔｈ　ｔｈｅ　ｓｌｅｅｐ　ｓｉｃｋｎｅｓｓ．．"TCC_NEWLINE"．　Ｗｅ　ｓｈｏｕｌｄｈｅｌｐ　ｈｉｍ，　ｄｏｎ’ｔ　ｙｏー"TCC_NEWLINE"ｕ　ａｇｒｅｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
@@ -38,7 +38,7 @@ TCC_OPEN_MID_LEFT
 "Ｗｅ　ｍｕｓｔ　ｂｒｉｎｇ　Ａｓｋｒ　ｔｏ　ａｎ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｕｇｈ．．．　Ｉｆ　Ｉ　ｃａｎ’ｔ　ｓｔｏｐ　ｔｈｅｍ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｄｒｅａｍｓ　ａｒｅ　ｔｈｅ　ｐｅｏｐｌｅ’ｓ　ｒｅｓｔ．"TCC_NEWLINE"．．Ｄｒｅａｍｓ　ａｒｅ　ｔｈｅ　ｐｅｏｐｌｅ’ｓ　ｈｏｐー"TCC_NEWLINE"ｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈ－ｗｈｏ’ｓ　ｔｈｅｒｅ？！"TCC_NEWLINE TCC_PUSH_A

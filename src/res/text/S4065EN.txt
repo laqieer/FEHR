@@ -94,7 +94,7 @@ TCC_OPEN_RIGHT
 "Ｉ　ｃａｎ　ｓｔｉｌｌ　ｃｌｅａｒｌｙ　ｒｅｃａｌｌ　ｍｅー"TCC_NEWLINE"ｍｏｒｉｅｓｏｆ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　ｍｙ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｔｉｍｅｓ　ｆｕｒｔー"TCC_NEWLINE"ｈｅｒｂａｃｋ　ｆｅｅｌ．．．ｓｈｒｏｕｄｅｄ．　Ｌｉｋｅ"TCC_NEWLINE"　ｔｈｅｙ’ｒｅｗｒａｐｐｅｄ　ｉｎ　ａ　ｔｈｉｃｋ　ｆｏー"TCC_NEWLINE"ｇ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｃｏｕｌｄ　ｂｅ　ａｎ　ｅｆｆｅｃｔ　ｏｆ　ｔｈｅ　Ｗａｋー"TCC_NEWLINE"ｉｎｇＤｒｅａｍ，　ｍａｙｂｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ’ｍ　ｎｏｔ　ｅｎｔｉｒｅｌｙ　ｓｕｒｅ．．．　Ｂｕｔ　"TCC_NEWLINE"ｉｔ　ｄｏｅｓｎ’ｔｆｅｅｌ　ｌｉｋｅ　ｉｔ　ｉｓ．"TCC_NEWLINE TCC_PUSH_A

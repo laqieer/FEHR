@@ -8,7 +8,7 @@ TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕｒ　ｓｔｒｅｎｇｔｈ　ｇｒｏｗｓ．．．ａｎｄ　Ｉ　ｌー"TCC_NEWLINE"ｏｏｋｆｏｒｗａｒｄ　ｔｏ　ｔｈｅ　ｄａｙ　ｗｈｅｎ　ｗｅ"TCC_NEWLINE"　ｃａｎｆｉｎａｌｌｙ　ｍｅｅｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｗｉｌｌ　ｆｉｎｄ　ｍｅ　ｔｏ　ｔｈｅ　ｗｅｓｔ．"TCC_NEWLINE"．．　Ｉｗｉｌｌ　ａｗａｉｔ　ｙｏｕ　ｉｎ　ｔｈｅ　ｓａｎー"TCC_NEWLINE"ｃｔｕａｒｙ　ａｔＳｎｊｒｈｏｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S2061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+[MID_SCENARIO_MAP_BEGIN_S2061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｉｔ　ｗｉｌｌ　ｔａｋｅ　ｕｓ　ｏｖｅｒ　ｔｗｏ　ｗｅｅｋー"TCC_NEWLINE"ｓ　ｔｏ　ｔｒａｖｅｌｔｏ　Ｓｎｊｒｈｏｆ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ　ｒｅｇｉｏｎ　ｏｆ　Ｎｉｆｌ　ｈａｓ　ｂｅｅｎｃー"TCC_NEWLINE"ｏｍｐｌｅｔｅｌｙ　ａｂａｎｄｏｎｅｄ．．．　Ａｌｌ　ｔｈー"TCC_NEWLINE"ａｔｒｅｍａｉｎｓ　ｉｓ　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE

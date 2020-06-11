@@ -2,7 +2,7 @@
 
 [MID_SCENARIO_MAP_BEGIN_S2025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｉ　ｓｅｅ　ｓｏｍｅｔｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_SURTR
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ａｈ，　ｓｏｍｅ　ｆｒｅｓｈ　ｆａｃｅｓ．　Ｇｏｏｄ．　Ｉ"TCC_NEWLINE"　ｗａｓｇｒｏｗｉｎｇ　ｂｏｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｏｓｅ　ｗｈｏ　ｓｈｒｉｎｋ　ｆｒｏｍ　ｔｈｅ　ｆｌａー"TCC_NEWLINE"ｍｅｓ．．．Ｔｈｏｓｅ　ｗｈｏ，　ｗｈｅｎ　ｃｏｎｆｒｏｎー"TCC_NEWLINE"ｔｅｄ　ｂｙ　ｔｒｕｅｐｏｗｅｒ，　ｈａｖｅ　ｎｏ　ｃｈｏー"TCC_NEWLINE"ｉｃｅ　ｂｕｔ　ｔｏ　ｂｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｉｓｔｅｎ　ｔｏ　ｍｅ　ｎｏｗ．　Ｉ　ａｍ　Ｓｕｒｔｒ．"TCC_NEWLINE"　Ｉ　ａｍｙｏｕｒ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
@@ -22,11 +22,11 @@ TCC_OPEN_RIGHT
 "Ｃｈｉｌｄｒｅｎ　ｏｆ　Ａｓｋｒ，　ｔｈｅ　ｏｎｅｓ　ｗｈー"TCC_NEWLINE"ｏ　ｏｐｅｎｔｈｅ　ｗａｙ．．．　Ｉ　ｈｅａｒ　ｙｏｕ　ｒー"TCC_NEWLINE"ｅｌｙ　ｏｎ　ｔｈｅ　ｐｏｗｅｒｙｏｕ　ｂｏｒｒｏｗ　ｆｒー"TCC_NEWLINE"ｏｍ　ｏｔｈｅｒ　ｒｅａｌｍｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｆａｓｃｉｎａｔｉｎｇ！　Ｗｅ　ｗｉｌｌ　ｓｅｅ　ｗｈａｔー"TCC_NEWLINE"ｒｅｍａｉｎｓ：　ｙｏｕ，　ｏｒ　ｔｈｅ　ｆｉｒｅｓ　ｏｆ"TCC_NEWLINE"　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌａｅｖａｔｅｉｎ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｓｉｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｌｏｋｉ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_LOKI
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_LOKI
 "Ｂｙ　ｙｏｕｒ　ｓｉｄｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉｔ’ｓ　ｔｉｍｅ　ｆｏｒ　ｔｈｅ　ｓｌａｕｇｈｔｅｒ！　"TCC_NEWLINE"Ｈａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
@@ -35,7 +35,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 "Ｗｅ’ｒｅ　ｎｏｔ　ｍａｋｉｎｇ　ａ　ｄｅｎｔ　ｉｎ　Ｓｕー"TCC_NEWLINE"ｒｔｒ’ｓｄｅｆｅｎｓｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｉｓ　ｉｔ　Ｅｍｂｌａ’ｓ　Ｗａｒｄ　ａｇａｉｎ？　Ｉｆ　"TCC_NEWLINE"ｓｏ．．．ｗｅ’ｌｌｊｕｓｔ　ｗａｉｔ　ｆｏｒ　ｏｕｒ　ｃー"TCC_NEWLINE"ｈａｎｃｅ　ａｎｄ　ｓｔｒｉｋｅｗｈｅｎ　ｉｔｓ　ｐｏｗｅー"TCC_NEWLINE"ｒ　ｆａｄｅｓ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｔｈｉｓ　ｉｓ　Ｋｉｎｇ　Ｓｕｒｔｒ’ｓ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｆｌａｍｅｓ　ａｒｅ　ｕｎｄｙｉｎｇ，ｕｎｑｕｅｎー"TCC_NEWLINE"ｃｈａｂｌｅ．．．　Ｎｏ　Ｈｅｒｏ，　ｎｏ　ｗｅａｐｏｎｃー"TCC_NEWLINE"ａｎ　ｄｅｆｅａｔ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -45,7 +45,7 @@ TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 TCC_OPEN_RIGHT
 "Ｏｕｒ　ｏｎｌｙ　ｒｅｃｏｕｒｓｅ　ｉｓ　ｒｅｔｒｅａｔ．"TCC_NEWLINE"　Ｌｅｔ’ｓ　ｇｏ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTARIT_SURTR
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｗａｔｃｈ　ｔｈｅｍ　ｆｌｅｅ！　Ａｓ　ｔｅｐｉｄ　ａｓ　"TCC_NEWLINE"ｂｅｆｏｒｅ，ｔｈｅｓｅ　ｗｅａｋｌｉｎｇｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｉｄｉｎｇ　ｉｓ　ｕｓｅｌｅｓｓ．　Ｔｈｉｓ　ｅｎｔｉｒー"TCC_NEWLINE"ｅ　ｒｅａｌｍｗｉｌｌ　ｃｒａｃｋｌｅ　ｗｉｔｈ　ｍｙ　ｆー"TCC_NEWLINE"ｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｐｅｏｐｌｅ，　Ａｓｋｒ．．．　"TCC_NEWLINE"Ｆｌａｙｅｄｂｙ　ｍｙ　ｆｌａｍｅｓ，　ｌｉｖｉｎｇ　ｔｏー"TCC_NEWLINE"ｒｃｈｅｓ．"TCC_NEWLINE TCC_PUSH_A

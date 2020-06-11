@@ -4,7 +4,7 @@
 "Ｔｈａｎｋ　ｙｏｕ，　Ｐｅｏｎｙ．　Ｗｉｔｈ　ｙｏｕｒ　ｈー"TCC_NEWLINE"ｅｌｐ，ｉｔ　ｓｅｅｍｓ　ｅｖｅｒｙｏｎｅ　ｈａｓ　ｒｅｃー"TCC_NEWLINE"ｏｖｅｒｅｄｔｈｅｉｒ　ｍｅｍｏｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｕｒ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｙｏｕ，　ａｎｄ　ｏｆ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｏｆ　ｃｏｕｒｓｅ！　Ｉ　ｗａｓ　ｈａｐｐｙ　ｔｏ　ｈｅｌー"TCC_NEWLINE"ｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｎｏｗ，　ｗｈａｔ　ｗａｓ　ｉｔ　ｙｏｕ　ｓａｉｄ　ａｂｏー"TCC_NEWLINE"ｕｔＤｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ？"TCC_NEWLINE TCC_PUSH_A
@@ -57,7 +57,7 @@ TCC_OPEN_RIGHT
 "．．．Ｏｒ　ｉｓ　ｉｔ　ｔｈａｔ　ｙｏｕ　ｋｎｏｗ　ｓｏｍー"TCC_NEWLINE"ｅｔｈｉｎｇＩ　ｄｏ　ｎｏｔ？　．．．Ｗｈａｔ　ｉｓ　ｉｔ"TCC_NEWLINE"？　Ｔｅｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｌｌ　ｒｉｇｈｔ，　ｆｉｎｅ．　Ｐｅｏｎｙ，　ｉｆ　ｙｏー"TCC_NEWLINE"ｕ　ｗｏｕｌｄ，ｐｌｅａｓｅ　ｇｉｖｅ　ｈｅｒ　ｔｈｅ　ｄー"TCC_NEWLINE"ｅｔａｉｌｓ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ａｈ！　Ｉ　ｇｕｅｓｓ　ｉｔ’ｓ　ｍｙ　ｔｉｍｅ　ｔｏ　ｓー"TCC_NEWLINE"ｈｉｎｅ．Ｉ　ｌｏｖｅ　ｓｈｉｎｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 "Ｅｒ．．．　Ｈｉ！　Ｉ’ｍ　Ｐｅｏｎｙ．　Ｉ’ｍ　ａ　ｌｊー"TCC_NEWLINE"ｓｌｆｒｆｒｏｍ　Ｌｊｓｌｆｈｅｉｍｒ！　Ｎｉｃｅ　ｔｏ　"TCC_NEWLINE"ｍｅｅｔｙｏｕ．．．Ｖｅｒｏｎｉｃａ，　ｗａｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -71,7 +71,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 [MID_SCENARIO_ENDING_S4061_EN] = TCC_OPEN_LEFT
 "Ｈｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏ，　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ａｂｌｅ　ｔｏ　ｆｉｎｄ"TCC_NEWLINE"　ａｌｊｓｌｆｒ　ｎａｍｅｄ　Ｍｉｒａｂｉｌｉｓ　ｈｅｒｅ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｒｉｇｈｔ！　Ｗｅｌｌ．．．ｏｖｅｒ　ｔｈｅｒｅ．　Ｉｎ　"TCC_NEWLINE"ｔｈａｔｈｕｕｕｇｅ　ｆｏｒｅｓｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｍ．．．　Ｉｆ　ｔｈｅ　ｆｏｒｅｓｔ’ｓ　ｅｄｇｅ　ｉｓ"TCC_NEWLINE"　ａｎｙｉｎｄｉｃａｔｉｏｎ，　ｔｈｅ　ｗｈｏｌｅ　ａｒｅー"TCC_NEWLINE"ａ　ｉｓｃｏｖｅｒｅｄ　ｉｎ　ｔｈｉｃｋ　ｍｉｓｔ．"TCC_NEWLINE TCC_PUSH_A

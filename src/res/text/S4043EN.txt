@@ -15,7 +15,7 @@ TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｈｏｗ　ｗｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｍｅｍｏｒｉｅｓ　ｏー"TCC_NEWLINE"ｆｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｔ　ｗａｓ　ａ　ｖｅｒｙ　ｌｏｎｇ　ｔｉｍｅ　ａｇｏ．．"TCC_NEWLINE"．　ＷｈｅｎＩ　ｗａｓ　ａ　ｊｕｓｔ　ａ　ｇｉｒｌ．．．　"TCC_NEWLINE"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｈｏｗ，ｂｕｔ　Ｉ　ｃａｍｅ　ｈー"TCC_NEWLINE"ｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｏｏｏｈ！　Ｌｅｔ　ｍｅ　ａｓｋ　ｙｏｕ　ｓｏｍｅｔｈｉｎー"TCC_NEWLINE"ｇ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ，　ｒｉｇｈｔ？"TCC_NEWLINE"　Ｄｉｄｙｏｕ．．．ｐｌａｙ　ｗｉｔｈ　ｌｊｓｌｆａｒ？　"TCC_NEWLINE"Ｄｏ　ｙｏｕ．．．ｒｅｍｅｍｂｅｒ　ａｎｙｔｈｉｎｇ　ａｔ"TCC_NEWLINE"　ａｌｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT

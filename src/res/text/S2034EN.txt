@@ -4,7 +4,7 @@
 "Ｉ　ａｍ　ｔｈｅ　ｉｍｐｅｒｉａｌ　ｇｅｎｅｒａｌ，　Ｚｅー"TCC_NEWLINE"ｌｇｉｕｓ．Ｗａｒｒｉｏｒｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗー"TCC_NEWLINE"ｏｒｌｄ．．．ｙｏｕａｐｐｅａｒ　ｓｔｒｏｎｇ．　Ｔｈａｔ"TCC_NEWLINE"　ｉｓ　ｇｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｌｌ　ａｃｃｅｐｔ　ｙｏｕｒ　ｃｈａｌｌｅｎｇｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S2034_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+[MID_SCENARIO_MAP_END_S2034_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｗｅ’ｒｅ　ａｌｍｏｓｔ　ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｐａｓｔ　ｔｈｉｓ　ｍｏｕｎｔａｉｎ　ｌｉｅｓ　ｔｈｅ　ｇー"TCC_NEWLINE"ａｔｅ　Ｉｕｓｅｄ　ｔｏ　ｔｒａｖｅｌ　ｈｅｒｅ　ｆｒｏｍ"TCC_NEWLINE"　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｓ　ｔｈａｔ　ｆｌａｍｅ？！"TCC_NEWLINE TCC_PUSH_A

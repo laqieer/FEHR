@@ -4,7 +4,7 @@
 "Ｉ’ｍ　Ｃｌａｕｄｅ．　Ｃｏｍｉｎｇ　ｕｐ　ｗｉｔｈ　ｂｒー"TCC_NEWLINE"ｉｌｌｉａｎｔｓｃｈｅｍｅｓ，　Ｉ　ｃａｎ　ｈａｎｄｌｅ．"TCC_NEWLINE"　Ｎｏ　ｐｒｏｂｌｅｍ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　Ｉ’ｍ　ｎｏｔ　ｍｕｃｈ　ｆｏｒ　ｆｉｇｈｔｉｎｇ"TCC_NEWLINE"．　Ｇｏｅａｓｙ　ｏｎ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S3093_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+[MID_SCENARIO_ENDING_S3093_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｉ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｍｕｓｔ　ｔｅｌｌ　"TCC_NEWLINE"ｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ．．．ｒｅｍｅｍｂｅｒｅｄ　ｓｏｍｅｔｈｉｎｇ．　Ｓｏｍー"TCC_NEWLINE"ｅｔｈｉｎｇｔｅｒｒｉｂｌｙ　ｉｍｐｏｒｔａｎｔ．"TCC_NEWLINE TCC_PUSH_A

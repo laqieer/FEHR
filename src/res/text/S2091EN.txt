@@ -5,7 +5,7 @@
 "Ｔｈｉｓ　ｍｅａｎｓ　ｗｅ’ｌｌ　ｎｅｅｄ　ｔｏ　ｉｎｖａー"TCC_NEWLINE"ｄｅＳｕｒｔｒ’ｓ　ｔｅｒｒｉｔｏｒｙ　ｔｏ　ｐｕｔ　ａｎ"TCC_NEWLINE"　ｅｎｄ　ｔｏ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｂｕｔ，　Ｃｏｍｍａｎｄｅｒ．．．　Ｈｏｗ　ｗｉｌｌ　ｗｅ"TCC_NEWLINE"　ｍａｋｅｏｕｒ　ｗａｙ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｔｈａｔ　ｐａｒｔ　ｉｓ　ｅａｓｙ．　Ｗｈｅｎ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌｉｎｖａｄｅｄ　Ｎｉｆｌ，　ｔｈｅｙ　ｏｐｅｎｅｄ　ａ　"TCC_NEWLINE"ｇａｔｅ．Ｔｈｅｙ’ｖｅ　ｌｅｆｔ　ｉｔ　ｏｐｅｎ　ｅｖｅー"TCC_NEWLINE"ｒ　ｓｉｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｎｃｅ　ｗｅ　ｐａｓｓ　ｔｈｒｏｕｇｈ　ｔｈａｔ　ｇａｔー"TCC_NEWLINE"ｅ，　ｗｅ’ｌｌｂｅ　ｉｎ　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　"TCC_NEWLINE"Ｆｌａｍｅ．　Ｗｅ　ｃａｎｓｔｒｉｋｅ　ａｔ　ｔｈｅｉｒ　"TCC_NEWLINE"ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
 "＊ｃｏｕｇｈ，　ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
@@ -24,15 +24,15 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｉｔ’ｓ　ｂｕｒｎｉｎｇ　ｈｏｔ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｔｈｅ　ｗｅｌｃｏｍｅ　ｉｓ　ａ　ｌｉｔｔｌｅ　ｂｉｔ　ｗー"TCC_NEWLINE"ａｒｍｅｒ　ｔｈａｎｗｅ　ａｎｔｉｃｉｐａｔｅｄ，　ｔｏｏ"TCC_NEWLINE"．．．　Ｈｅｒｅ　ｃｏｍｅＭｓｐｅｌｌ’ｓ　ｔｒｏｏｐｓ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_HELBINDI
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_HELBINDI
 "Ｏｆ　ａｌｌ　ｔｈｅ　ｒｏｔｔｅｎ　ｌｕｃｋ．．．　Ｄｉｄ"TCC_NEWLINE"　ｙｏｕ　ｆｉｌｔｈｒｅａｌｌｙ　ｃｏｍｅ　ａｌｌ　ｔｈｅ"TCC_NEWLINE"　ｗａｙ　ｈｅｒｅ　ｊｕｓｔ　ｆｏｒｍｅ　ｔｏ　ｋｉｌｌ　"TCC_NEWLINE"ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 "Ｇｕｅｓｓ　ｙｏｕ　ｗｅｒｅ　ｈｏｐｉｎｇ　ｔｏ　ｂｅｓｌー"TCC_NEWLINE"ａｕｇｈｔｅｒｅｄ　ｂｙ　Ｈｅｌｂｉｎｄｉ，　ａｎｄ　ｎｏー"TCC_NEWLINE"ｂｏｄｙｅｌｓｅ　ｗｏｕｌｄ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S2091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
+[MID_SCENARIO_MAP_END_S2091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HELBINDI
 "Ｄａｍｎ　ｉｔ　ａｌｌ！　Ｌｉｓｔｅｎ　ｕｐ，　ｆｏｏｌｓ"TCC_NEWLINE"！　Ｗｅ’ｒｅｒｅｔｒｅａｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ａｒｅ　ｙｏｕ　ｓｕｒｅ　ｈｅ’ｓ　ａ　ｇｅｎｅｒａｌ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｉ　ｂｅｌｉｅｖｅ　ｈｉｓ　ｎａｍｅ　ｉｓ　Ｈｅｌｂｉｎｄー"TCC_NEWLINE"ｉ．　Ｄｕｒｉｎｇｔｈｅ　ｉｎｖａｓｉｏｎ　ｏｆ　Ｎｉｆｌ"TCC_NEWLINE"，　ｈｉｓ　ｂｒｕｔａｌｉｔｙ　ｍｕｓｔｈａｖｅ　ｉｍｐｒー"TCC_NEWLINE"ｅｓｓｅｄ　Ｓｕｒｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　ｃｏｍｅ　ｕｐ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅｒａｎｋｓ　ｓｉｎｃｅ　ｔｈｅｎ．　Ｈｉｓ　ｔｅｍｐｅー"TCC_NEWLINE"ｒ　ｉｓｓｔｉｌｌ　ｆｏｕｌ，　ｔｈｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -41,9 +41,9 @@ TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｙ　ｗｉｌｌ　ｓｅｅ　ｕｓ　ｔｈｒｏｕｇｈ　ｔｈｉｓ"TCC_NEWLINE"　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｗｏｎ’ｔ　ｔｕｒｎ　ｂａｃｋ，　ｎｏ　ｍａｔｔｅｒ"TCC_NEWLINE"　ｗｈｏｗｅ　ｆａｃｅ　ｉｎ　ｂａｔｔｌｅ．　Ｗｅ　ｍｕｓー"TCC_NEWLINE"ｔ　ｄｅｆｅａｔＳｕｒｔｒ．　Ｍｏｖｅ　ｏｕｔ，　Ｏｒｄｅー"TCC_NEWLINE"ｒ　ｏｆ　Ｈｅｒｏｅｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_YLGR
+[MID_SCENARIO_ENDING_S2091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｉ　ｗａｎｔ　ｍｙ　ｂｒｏｔｈｅｒ．．．　Ｉ　ｗａｎｔ　ｍー"TCC_NEWLINE"ｙｓｉｓｔｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_HELBINDI
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HELBINDI
 "Ｈｅｙ，　ｂｒａｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ！"TCC_NEWLINE TCC_PUSH_A

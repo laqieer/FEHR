@@ -1,12 +1,12 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_MAP_BEGIN_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+[MID_SCENARIO_MAP_BEGIN_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｄｏ　ｙｏｕ　ｓｅｅ　ｉｔ？　Ｔｈａｔ’ｓ　ｔｈｅ　ｇａｔー"TCC_NEWLINE"ｅ　ｔｈａｔ　ｗｉｌｌｔａｋｅ　ｕｓ　ｔｏ　Ｎｉｆｌ．．．"TCC_NEWLINE"　Ｌｅｔ’ｓ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ．．．　Ｓｏｍｅｂｏｄｙ　ｈー"TCC_NEWLINE"ａｓ　ｔｏ，ｓｏ．．．　Ｏｆｆ　Ｉ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
 "Ｈｕｈ？　Ｎｏｔｈｉｎｇ　ｈａｐｐｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｔｈｅ　ｒｉｔｅ　Ｉ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｅｒｈａｐｓ　ｔｏｏ　ｍｕｃｈ　ｔｉｍｅ　ｈａｓ　ｐａｓー"TCC_NEWLINE"ｓｅｄ，ａｎｄ　ｉｔｓ　ｐｏｗｅｒ　ｈａｓ　ｄｉｓｓｉｐａー"TCC_NEWLINE"ｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ｃａｎ　ｏｐｅｎ　ｔｈｅ　ｇー"TCC_NEWLINE"ａｔｅ　ｏｎｃｅｍｏｒｅ．　Ｉ　ｊｕｓｔ　ｎｅｅｄ　ｓｏｍー"TCC_NEWLINE"ｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A

@@ -1,13 +1,13 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_MAP_BEGIN_S2085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+[MID_SCENARIO_MAP_BEGIN_S2085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｔｈｅ　ｉｎｎｅｒ　ｓａｎｃｔｕｍ．．．　Ｗｅ’ｖｅ　ａｒー"TCC_NEWLINE"ｒｉｖｅｄ．Ｓｅｅ　ｔｈｅ　ｒｕｎｅｓ　ｉｎｓｃｒｉｂｅｄ"TCC_NEWLINE"　ｏｎ　ｔｈｅ　ｗａｌｌ？Ｔｈａｔ’ｓ　ｔｈｅ　ａｎｃｉｅー"TCC_NEWLINE"ｎｔ　ｌａｎｇｕａｇｅ　ｏｆ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｒｅ　ｄｏｅｓ　ｏｕｒ　ｇｏｄ　ｓｌｕｍｂｅｒ．　Ｎｉー"TCC_NEWLINE"ｆｌ，　ｔｈｅｄｒａｇｏｎ　ｏｆ　ｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｉ　ｈａｔｅ　ｔｏ　ｉｎｔｅｒｒｕｐｔ　ｔｈｅ　ｈｉｓｔｏー"TCC_NEWLINE"ｒｙ　ｌｅｓｓｏｎ，ｂｕｔ　ｗｅ’ｖｅ　ｇｏｔ　ｓｏｍｅ　"TCC_NEWLINE"ｐｒｏｂｌｅｍｓ　ｔｈａｔ　ａｒｅａ　ｂｉｔ　ｍｏｒｅ．．"TCC_NEWLINE"．ｃｏｎｔｅｍｐｏｒａｒｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｒｅ　ｃｏｍｅｓ　ｔｈｅ　ｅｎｅｍｙ．　Ｇｅｔ　ｒｅａー"TCC_NEWLINE"ｄｙ　ｔｏｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S2085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+[MID_SCENARIO_MAP_END_S2085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｎｉｆｌ，　ｇｏｄ　ｏｆ　ｉｃｅ，　ｈｅａｒ　ｍｅ．．．　"TCC_NEWLINE"Ｉｔ　ｉｓ　ｙｏｕｒｃｈｉｌｄ，　Ｆｊｏｒｍ，　ｗｈｏ　ｂー"TCC_NEWLINE"ｏｗｓ　ｉｎ　ｐｒａｙｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｓ　ａｎ　ｏｆｆｅｒｉｎｇ，　Ｉ　ｂｒｉｎｇ　ｙｏｕ　ｍー"TCC_NEWLINE"ｙ　ｆｌｅｓｈ．Ａｓ　ｔｈｅ　ｖｅｓｓｅｌ，　Ｉ　ｂｒｉｎー"TCC_NEWLINE"ｇ　ｙｏｕ　ａ　ｄｉｖｉｎｅｗｅａｐｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｎｅ　ｔｈａｔ　ｈａｓ　ｃｏｍｅ　ａ　ｇｒｅａｔ　ｄｉｓー"TCC_NEWLINE"ｔａｎｃｅａｎｄ　ｈａｓ　ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｒｕｌー"TCC_NEWLINE"ｅ　ａｌｌ　ｗｏｒｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
@@ -52,13 +52,13 @@ TCC_OPEN_RIGHT
 "Ｔｈａｔ．．．ｉｓ　ｔｈｅ　ｏｎｅ　ｏｒｄｅｒ．．．ｔｈａー"TCC_NEWLINE"ｔ　Ｉ　ｍｕｓｔｒｅｆｕｓｅ．．．Ｐｒｉｎｃｅｓｓ　Ｖｅｒー"TCC_NEWLINE"ｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｘａｎｄｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_SURTR
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｈａ－ｈａｈ－ｈａｈ！　Ｗｏｕｌｄ　ｙｏｕ　ｔａｓｔｅ　ｍー"TCC_NEWLINE"ｏｒｅ　ｏｆｍｙ　ｆｌａｍｅｓ，　ｙｏｕｎｇ　ｗａｒｒｉｏー"TCC_NEWLINE"ｒ？"TCC_NEWLINE TCC_PUSH_A
 "Ｐｅｒｈａｐｓ，　ｔｈｅｎ，　ｒａｔｈｅｒ　ｔｈａｎ　ｙｏー"TCC_NEWLINE"ｕｒ　ａｒｍ．．．Ｉ　ｏｕｇｈｔ　ｔｏ　ｔａｒｇｅｔ　ｙｏー"TCC_NEWLINE"ｕｒ　ｈｅａｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｌｌ．．．ｇｏ　ｔｏ　Ｍｓｐｅｌｌ．．．　Ｓｏ，　ｐｌー"TCC_NEWLINE"ｅａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_LOKI
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_LOKI
 "Ｉ　ｂｅｌｉｅｖｅ　ｕｎｄｅｒｓｔａｎｄｉｎｇ　ｍａｙ　ｈー"TCC_NEWLINE"ａｖｅｄａｗｎｅｄ　ｏｎ　ｙｏｕ，　ｍｙ　ｄｅａｒ．　Ｙｏー"TCC_NEWLINE"ｕ　ｓｅｅｈｏｗ　ｔｈｉｎｇｓ　ａｒｅ　ｎｏｗ，　ｄｏｎ’"TCC_NEWLINE"ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｍｕｓｔ　ｓｅｅ　ｎｏｗ　ｈｏｗ　ｅａｒｎｅｓｔ　"TCC_NEWLINE"ｗｅａｒｅ．　Ａｓ　Ｉ　ａｌｗａｙｓ　ｓａｙ．．．ａ　ｌｉー"TCC_NEWLINE"ｔｔｌｅ　ｂｉｔ　ｏｆｓｉｎｃｅｒｉｔｙ　ｇｏｅｓ　ａ　ｌー"TCC_NEWLINE"ｏｎｇ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｓ　ｆｏｒ　ｙｏｕ，　Ｐｒｉｎｃｅ　Ｘａｎｄｅｒ．．．　"TCC_NEWLINE"Ｙｏｕ　ｌｏｏｋｌｉｋｅ　ｙｏｕ’ｒｅ　ａｌｌ　ｗｏｒｎ　"TCC_NEWLINE"ｏｕｔ．　Ｗｈｙ　ｄｏｎ’ｔｙｏｕ　ｊｕｓｔ　ｒｅｓｔ　ｈー"TCC_NEWLINE"ｅｒｅ　ｆｏｒ　ａ　ｗｈｉｌｅ？"TCC_NEWLINE TCC_PUSH_A

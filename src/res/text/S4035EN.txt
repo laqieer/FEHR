@@ -10,7 +10,7 @@ TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｏｈ？　Ｌｏｏｋｉｎｇ　ｆｏｒ　ｍｅ，　ｗｅｒｅ　ｙｏｕ？"TCC_NEWLINE"Ｈｍ．　Ｏｆ　ｃｏｕｒｓｅ　ｙｏｕ　ｗｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ａｍ　Ｐｌｕｍｅｒｉａ，　ｔｈｅ　ｄｋｋｌｆａｒ　ｏｆー"TCC_NEWLINE"ｌｅｗｄ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｃａｒｅｆｕｌ，　ｅｖｅｒｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ！　Ｄｋｋｌｆａｒ！　Ｓｔｏｐ　ｆｏｒｃｉｎｇ　ｔｅー"TCC_NEWLINE"ｒｒｉｂｌｅｄｒｅａｍｓ　ｏｎ　ｔｈｅｓｅ　ｐｅｏｐｌｅ！"TCC_NEWLINE"　Ｆｒｅｅ　ｔｈｅｍｔｏ　ｒｅｔｕｒｎ　ｔｏ　ｔｈｅｉｒ　"TCC_NEWLINE"ｗａｋｉｎｇ　ｌｉｖｅｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
@@ -32,7 +32,7 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｉｆ　ｏｎｌｙ　ｗｅ　ｋｎｅｗ　ｗｈｅｒｅ　ｗｅ　ｃｏｕｌー"TCC_NEWLINE"ｄ　ｆｉｎｄｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｉｔ　ｓｅｅｍｓ　ｌｉｋｅｌｙ　ｔｈｅ　ｄｋｋｌｆａｒ　ａー"TCC_NEWLINE"ｒｅｂｅｈｉｎｄ　ｔｈｉｓ，　ｗｈａｔｅｖｅｒ　ｔｈｅ　ｃー"TCC_NEWLINE"ａｓｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏ　ｍａｎｙ　ｐｅｏｐｌｅ　ｈａｖｅ　ｂｅｅｎ　ｔｒａｐー"TCC_NEWLINE"ｐｅｄｉｎ　ｔｈｏｓｅ　ｗｉｃｋｅｄ　ｎｉｇｈｔｍａｒｅｓ"TCC_NEWLINE"．．．　Ｉ　ｈｏｐｅ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"’ｓ　ａｌｌ　ｒｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A

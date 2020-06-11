@@ -3,10 +3,10 @@
 [MID_SCENARIO_MAP_BEGIN_S2133_EN] = TCC_OPEN_LEFT
 "Ｉ　ａｍ　Ｆｌｏｒａ．　Ｆｏｒ　ｍｙ　ｍａｓｔｅｒ，　ａｎー"TCC_NEWLINE"ｄ　ｔｏｆｕｌｆｉｌｌ　ｔｈｅ　ｔｅｒｍｓ　ｏｆ　ｍｙ　ｃー"TCC_NEWLINE"ｏｎｔｒａｃｔ，　Ｉ　ｗｉｌｌｅｌｉｍｉｎａｔｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_HELBINDI
+[MID_SCENARIO_ENDING_S2133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HELBINDI
 "Ｈｅｙ，　ｂｒａｔ！　Ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｆｒｉｅｎー"TCC_NEWLINE"ｄ　ｂｅｔｔｅｒｈｕｒｒｙ　ｕｐ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ"TCC_NEWLINE"　ｗａｎｔ　ｔｏ　ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｃａｎ　ｂｅｔ　ｔｈｅ　ｇｕａｒｄｓ’ｖｅ　ｎｏｔー"TCC_NEWLINE"ｉｃｅｄｂｙ　ｎｏｗ．　Ｄｏｎ’ｔ　ｂｅ　ｓｕｒｐｒｉｓｅー"TCC_NEWLINE"ｄ　ｉｆ　ｔｈｅｙｃａｔｃｈ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_YLGR
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ａｕｇｈ！　Ｔｈｅｓｅ　ｒｕｉｎｓ．．．ｔｈｅｙ’ｒｅ　ｓー"TCC_NEWLINE"ｏｃｏｎｆｕｓｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｉｔ’ｓ　ｌｉｋｅ　ａ　ｍａｚｅ　ｉｎ　ｈｅｒｅ．　Ｂｕｔ"TCC_NEWLINE"　ｐｅｒｈａｐｓｔｈａｔ’ｓ　ｗｈｙ　ｗｅ　ｈａｖｅ　ｙｅー"TCC_NEWLINE"ｔ　ｔｏ　ｂｅ　ｃａｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
@@ -24,7 +24,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "Ｗｈｙ　ｃａｎ’ｔ　ｓｈｅ　ｊｕｓｔ　ｄｏ　ｗｈａｔ　ｓｈー"TCC_NEWLINE"ｅ’ｓｔｏｌｄ？"TCC_NEWLINE TCC_PUSH_A
 "Ａｌｌ　ｒｉｇｈｔ．　Ｈｅｒｅ　ｗｅ　ｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_SURTR
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｉ　ｔｈｏｕｇｈｔ　Ｉ　ｈｅａｒｄ　ａ　ｍｏｕｓｅ．．．ｂー"TCC_NEWLINE"ｕｔｉｎｓｔｅａｄ　Ｉ　ｆｉｎｄ　ｔｈｅ　ａｎｉｍａｌ　Ｉ"TCC_NEWLINE"　ｈａｄｐｒｏｔｅｃｔｉｎｇ　ｔｈｅ　ｂｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｒｅｍｅｍｂｅｒ　ｙｏｕ，　ｔｒｅａｓｏｎｏｕｓ　ｃｕー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT

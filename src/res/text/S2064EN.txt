@@ -13,7 +13,7 @@ TCC_OPEN_LEFT
 "Ｔｈｅ　ｓｃｏｕｔｓ　ｈａｖｅ　ｒｅｐｏｒｔｅｄ　ｂａｃｋ"TCC_NEWLINE"．　ＴｈｅＭｓｐｅｌｌ　ａｒｍｙ　ｉｓ　ｓｅａｒｃｈｉｎｇ"TCC_NEWLINE"　ｈｉｇｈ　ａｎｄｌｏｗａｎｄ　ｔｈｅｙ’ｒｅ　ｒｉｇｈｔ"TCC_NEWLINE"　ｉｎ　ｏｕｒ　ｐａｔｈ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏｍｅｈｏｗ，　ｔｈｅｙ’ｖｅ　ｐｒｅｄｉｃｔｅｄ　ｏｕー"TCC_NEWLINE"ｒｍｏｖｅｍｅｎｔｓ　ａｎｄ　ｇｏｔｔｅｎ　ａｈｅａｄ　ｏー"TCC_NEWLINE"ｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｆ　ｗｅ　ｋｅｅｐ　ｈｅａｄｉｎｇ　ｔｏｗａｒｄ　Ｐｒｉー"TCC_NEWLINE"ｎｃｅｓｓＧｕｎｎｔｈｒ’ｓ　ｌｏｃａｔｉｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｔｈｅｙ’ｌｌ　ｆｉｎｄ　ｈｅｒ，　ａｎｄ　ｔｈｅｙ’ｌｌ"TCC_NEWLINE"　ｋｉｌｌ　ｈｅｒ．　Ｏｈ，Ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｃａｎ　ｗｅ　ｇｅｔ　ｉｎ　ｃｏｎｔａｃｔ　ｗｉｔｈ　ｈｅー"TCC_NEWLINE"ｒ　ａｎｄｃｈａｎｇｅ　ｔｈｅ　ｍｅｅｔｉｎｇ　ｓｐｏｔ？"TCC_NEWLINE"　Ｗｈａｔ　ｄｏｙｏｕ　ｓａｙ，"TCC_NEWLINE
@@ -35,9 +35,9 @@ TCC_OPEN_MID_RIGHT
 "Ｌｅｔ’ｓ　ｐｕｔ　ｏｕｒ　ｈｅａｄｓ　ｔｏｇｅｔｈｅｒ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2064_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
+[MID_SCENARIO_ENDING_S2064_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｔｈｅｙ’ｖｅ　ｃｈａｎｇｅｄ　ｄｉｒｅｃｔｉｏｎ．．．　"TCC_NEWLINE"Ｎｏｗｔｈｅｙ’ｒｅ　ｈｅａｄｅｄ　ｎｏｒｔｈ．　Ｗｈａｔ"TCC_NEWLINE"’ｓ　ｔｈｅｉｒｇａｍｅ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｆ　ｔｈｅｙ’ｒｅ　ａｆｔｅｒ　ａ　ｗｅａｐｏｎ，　ｏｒ"TCC_NEWLINE"　ｔｈｅｙ　ｈｏｐｅｔｏ　ｌｕｒｅ　ｕｓ　ｉｎｔｏ　ａ　ｔー"TCC_NEWLINE"ｒａｐ，　ｔｈｅｎ　ｔｈｅｙ’ｄ　ｋｅｅｐｈｅａｄｉｎｇ　"TCC_NEWLINE"ｗｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A

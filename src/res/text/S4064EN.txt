@@ -9,7 +9,7 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｖｉｓｉｂｉｌｉｔｙ　ｓｅｅｍｓ　ｌｏｗ　ｔｈｒｏｕｇｈｏー"TCC_NEWLINE"ｕｔｔｈｅ　ｗｏｏｄ．　Ｗｅ　ｃｏｕｌｄ　ｃｏｖｅｒ　ｍｏー"TCC_NEWLINE"ｒｅｇｒｏｕｎｄ　ｉｆ　ｗｅ　ｗｅｒｅ　ｔｏ　ｓｐｌｉｔ　"TCC_NEWLINE"ｕｐ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｉｎ　ｔｈａｔ　ｃａｓｅＰｅｏｎｙ，　ｃｏｍｅ　ｗｉｔｈｍー"TCC_NEWLINE"ｅ　ｉｎ　ｔｈｉｓ　ｄｉｒｅｃｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_PEONY
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "ＯＫ！　Ｉｔ’ｓ　ａｌｍｏｓｔ　ｌｉｋｅ　ｗｅ’ｒｅ　ｐｌー"TCC_NEWLINE"ａｙｉｎｇａ　ｂｉｇ　ｇａｍｅ　ｏｆ　ｈｉｄｅ－ａｎｄ－ｓー"TCC_NEWLINE"ｅｅｋ．．．Ｈｏｗ　ｆｕｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｉ　ｋｎｏｗ！　Ｉ’ｍ　ｈａｖｉｎｇ　ｆｕｎ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A

@@ -2,7 +2,7 @@
 
 [MID_SCENARIO_MAP_BEGIN_S2055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｄａｍｎ　ｉｔ！　Ｔｈｅｙ’ｒｅ　ｈｏｔ　ｏｎ　ｏｕｒ　ｈー"TCC_NEWLINE"ｅｅｌｓ．Ｃａｎ　ｗｅ　ｂｒｅａｋ　ｔｈｒｏｕｇｈ？　Ｍａー"TCC_NEWLINE"ｙｂｅｔｈｅｒｅ’ｓ　ａ　ｗａｙ"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEGJARN
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｓｕｒｒｅｎｄｅｒ，　Ａｓｋｒａｎｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｂｙ　ｗｈｏｓｅ　ｏｒｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
@@ -13,7 +13,7 @@ TCC_OPEN_RIGHT
 "Ｂｕｔ　ｏｕｒ　ｆｏｒｃｅｓ　ａｒｅ　ｔｏｏ　ｌａｒｇｅ．"TCC_NEWLINE"　Ｙｏｕｍｕｓｔ　ｓｕｒｒｅｎｄｅｒ．　Ｓｕｂｍｉｔ　ｑｕー"TCC_NEWLINE"ｉｅｔｌｙ　ａｎｄｙｏｕ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｈａｒｍー"TCC_NEWLINE"ｅｄ．　Ｉ　ｓｗｅａｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｔｈｅ　ｃｏｎｔｒａｓｔ　ｗｉｔｈ　Ｓｕｒｔｒ　ｃｏｕｌｄ"TCC_NEWLINE"　ｎｏｔ　ｂｅｍｏｒｅ　ｐｒｏｆｏｕｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｙｅｓ．　Ｓｈｅ　ｈａｓ　ｉｎｔｅｇｒｉｔｙ．　Ｅｖｅｒ　"TCC_NEWLINE"ｓｉｎｃｅ　ｏｕｒｄｅｆｅａｔ，　ｓｈｅ　ｈａｓ　ｔｒｅａー"TCC_NEWLINE"ｔｅｄ　ｔｈｅ　ｃｉｔｉｚｅｎｓ　ｏｆＮｉｆｌ　ｗｉｔｈ　"TCC_NEWLINE"ｒｅｓｐｅｃｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ’ｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｂｅｌｉｅｖｅ　ｓｈｅ"TCC_NEWLINE"’ｓ　Ｓｕｒｔｒ’ｓｄａｕｇｈｔｅｒ，　ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
@@ -25,15 +25,15 @@ TCC_OPEN_RIGHT
 "Ｉ　ｓｅｅ．　Ｙｏｕ　ｌｅａｖｅ　ｕｓ　ｗｉｔｈ　ｎｏ　ｃー"TCC_NEWLINE"ｈｏｉｃｅｂｕｔ　ｔｏ　ｃａｒｒｙ　ｏｕｔ　ｏｕｒ　ｆａｔー"TCC_NEWLINE"ｈｅｒ’ｓ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｆａｃｅ　ｔｗｏ　ｏｆ　Ｍｓｐｅｌｌ’ｓ　ｇｅｎｅー"TCC_NEWLINE"ｒａｌｓｉｎ　ｂａｔｔｌｅ．　Ｐｒｅｐａｒｅ　ｆｏｒ　ｄｅー"TCC_NEWLINE"ｆｅａｔ　ａｔ　ｔｈｅｈａｎｄｓ　ｏｆ　Ｌａｅｇｊａｒｎ　"TCC_NEWLINE"ａｎｄ　Ｌａｅｖａｔｅｉｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S2055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEGJARN
+[MID_SCENARIO_MAP_END_S2055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｙｏｕｒ　ｓｔｒｅｎｇｔｈ．．．　Ｉ　ｗａｓ　ｎｏｔ　ｐｒー"TCC_NEWLINE"ｅｐａｒｅｄ　ｆｏｒｔｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｕｎｄｅｒｅｓｔｉｍａｔｅｄ　ｙｏｕ，　Ａｓｋｒａｎｓ"TCC_NEWLINE"．　Ｙｏｕｒｔａｃｔｉｃｓ　ｏｕｔｃｌａｓｓ　ｍｉｎｅ．　"TCC_NEWLINE"Ｙｏｕ　ａｒｅ　ｂｏｔｈｐｏｗｅｒｆｕｌ　ａｎｄ　ｓｋｉｌー"TCC_NEWLINE"ｌｅｄ　ｉｎ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｗａｓｎ’ｔ　ａ　ｗａｓｔｅ，　ｔｈｏｕｇｈ．　Ｉ　"TCC_NEWLINE"ｌｅａｒｎｅｄｓｏｍｅ　ｖｅｒｙ　ｉｎｔｅｒｅｓｔｉｎｇ　"TCC_NEWLINE"ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｆｏｒ　ｎｏｗ．．．　Ｉ’ｌｌ　ｔａｋｅ　ｍｙ　ｌｅａｖｅ"TCC_NEWLINE"　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LAEVATEIN
+[MID_SCENARIO_ENDING_S2055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｌａｅｇｊａｒｎ．．．　Ａｒｅ　ｙｏｕ　ｈｕｒｔ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_LAEGJARN
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｄｏｎ’ｔ　ｗｏｒｒｙ，　Ｌａｅｖａｔｅｉｎ．　Ｉ’ｍ　ｆー"TCC_NEWLINE"ｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｙ’ｒｅ　ｖｅｒｙ　ｓｔｒｏｎｇ．　Ｉｆ　ｗｅ　ｄｏー"TCC_NEWLINE"ｎ’ｔｔｈｉｎｋ　ｏｆ　ｓｏｍｅ　ｂｅｔｔｅｒ　ｔａｃｔｉー"TCC_NEWLINE"ｃｓ，　ｗｅ’ｌｌｎｅｖｅｒ　ｄｅｆｅａｔ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT

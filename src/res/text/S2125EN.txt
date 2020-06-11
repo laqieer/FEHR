@@ -10,12 +10,12 @@ TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｔｈｏｕｇｈｔ　ｉｔ　ｓｔｒａｎｇｅ．　Ｏｆ　ｃｏｕｒー"TCC_NEWLINE"ｓｅ，　ｓｈｅｍｉｇｈｔ　ｈａｖｅ　ｈｅａｒｄ　ｓｏｍｅ　"TCC_NEWLINE"ｄｅｔａｉｌｓ　ａｂｏｕｔ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ｉｎ　ｐｒｉｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｒ　ｍａｙｂｅ　ｔｈｅｙ　ＨＡＤ　ｍｅｔ　ｂｅｆｏｒｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｙｏｕｒ　ｓｕｓｐｉｃｉｏｎｓ　ｗｅｒｅ　ｒｏｕｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｔ　ｗａｓｎ’ｔ　ａ　ｍｉｓｔａｋｅ．　Ｉｔ　ｗａｓ　ａ"TCC_NEWLINE"　ｃｈｉｌｄｉｓｈｐｒａｎｋ．　Ｓｈｅ　ｓａｉｄ　ｉｔ　ｏー"TCC_NEWLINE"ｎ　ｐｕｒｐｏｓｅ，　ｔｏ　ｓｏｗｔｈｅ　ｓｅｅｄｓ　ｏｆ"TCC_NEWLINE"　ｄｏｕｂｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ．．．ｇａｖｅ　ｍｅ　ａｎ　ｉｄｅａ　ｏｆ　ｗｈｏ"TCC_NEWLINE"　ｉｔ　ｗａｓ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_HRID
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_HRID
 "Ｙｏｕ　ｓｈｏｕｌｄ　ｈａｖｅ　ｂｒｏｕｇｈｔ　ｔｈｉｓ　"TCC_NEWLINE"ｔｏ　ｏｕｒａｔｔｅｎｔｉｏｎ　ｓｏｏｎｅｒ．　Ｉ　ｍｕｓー"TCC_NEWLINE"ｔ　ｆｉｎｄ　Ｙｌｇｒ　ａｔｏｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｐｒｉｎｃｅ　Ｈｒｄ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -61,7 +61,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_RIGHT
 "Ｏｈ，　ｄｅａｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+[MID_SCENARIO_MAP_BEGIN_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
 "Ｙｏｕ’ｖｅ　ｆｉｎａｌｌｙ　ｆｉｇｕｒｅｄ　ｉｔ　ｏｕｔ"TCC_NEWLINE"．　Ｈｏｗｄｉｓａｐｐｏｉｎｔｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｙｏｕ　ｐｏｓｅｄ　ａｓ　Ｐｒｉｎｃｅｓｓ　Ｙｌｇｒ　ｆｒー"TCC_NEWLINE"ｏｍ　ｔｈｅｓｔａｒｔｔｈａｔ’ｓ　ｈｏｗ　ｙｏｕ　ｉｎｆー"TCC_NEWLINE"ｉｌｔｒａｔｅｄ　ｏｕｒｇｒｏｕｐ．"TCC_NEWLINE TCC_PUSH_A
@@ -72,11 +72,11 @@ TCC_OPEN_LEFT
 "Ｔｈｅｒｅ’ｓ　ｊｕｓｔ　ｏｎｅ　ｍｏｒｅ　ｒｉｄｄｌｅ　"TCC_NEWLINE"ｆｏｒ　ｙｏｕｔｏ　ｐｕｚｚｌｅ　ｏｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｅｘａｃｔｌｙ　ｈｏｗ　ｄｏ　ｙｏｕ　ｐｌａｎ　ｔｏ　ｄｅー"TCC_NEWLINE"ｆｅａｔｍｅ？　Ｉ’ｍ　ｓｏ　ｅａｇｅｒ　ｔｏ　ｓｅｅ　ｗー"TCC_NEWLINE"ｈａｔ　ａｎｓｗｅｒｙｏｕ　ｃｏｍｅ　ｕｐ　ｗｉｔｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+[MID_SCENARIO_MAP_END_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
 "Ｍｙ，　ｍｙ．　Ｙｏｕ’ｖｅ　ｄｅｆｅａｔｅｄ　ｍｅ．　Ｉ"TCC_NEWLINE"　ｓｈｏｕｌｄｈａｖｅ　ｅｘｐｅｃｔｅｄ　ｎｏｔｈｉｎｇ　"TCC_NEWLINE"ｌｅｓｓ　ｆｒｏｍ　ｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！　Ｈｅｅ－ｈｅｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+[MID_SCENARIO_ENDING_S2125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
 "Ｖｅｒｙ　ｇｏｏｄ，　ｍｙ　ｄｅａｒｓ．　Ｉ　ｋｎｅｗ　ｙー"TCC_NEWLINE"ｏｕ’ｄｇｅｔ　ｔｈｅ　ｒｉｇｈｔ　ａｎｓｗｅｒ　ｓｏｏｎー"TCC_NEWLINE"ｅｒ　ｏｒ　ｌａｔｅｒ．Ａｎｄ　ｎｏｗ，　ｆｏｒ　ｙｏｕｒ"TCC_NEWLINE"　ｒｅｗａｒｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｋｉｎｇａｎｄ　ｐｏｏｒ　Ｖｅｒｏｎｉｃａａｗａｉー"TCC_NEWLINE"ｔｙｏｕ　ｉｎ　ｔｈｅ　ｔｅｍｐｌｅ　ｗｈｅｒｅ　ｔｈｅ　"TCC_NEWLINE"Ｒｉｔｅ　ｏｆＦｌａｍｅ　ｉｓ　ｃｏｎｄｕｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｏｎｌｙ　ｗａｙ　ｔｏ　ｒｅａｃｈ　ｔｈｅｍ　ｉｎ"TCC_NEWLINE"　ｔｉｍｅｉｓ　ｂｙ　ａ　ｓｅｃｒｅｔ　ｅｎｔｒａｎｃｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A

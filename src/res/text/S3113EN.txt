@@ -3,7 +3,7 @@
 [MID_SCENARIO_MAP_BEGIN_S3113_EN] = TCC_OPEN_LEFT
 "Ｙｅａｈ，　ｙｏｕ　ａｎｄ　Ｌｆ　ｂｏｔｈ　ｌｏｏｋ　ｐｒー"TCC_NEWLINE"ｅｔｔｙｇｏｏｄ　ｉｎ　ｔｈｅ　ｆａｃｅ，　ｂｕｔ．．．ｙー"TCC_NEWLINE"ｏｕｒ　ｆａｓｈｉｏｎｓｅｎｓｅ　ｃｏｕｌｄ　ｕｓｅ　ｓｏー"TCC_NEWLINE"ｍｅ　ｗｏｒｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S3113_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_EIR
+[MID_SCENARIO_ENDING_S3113_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｌｆ．．．　Ｂｅｆｏｒｅ　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ"TCC_NEWLINE"　ｗａｓｋｉｌｌｅｄ，　Ｉ　ｓｐｅｎｔ　ｔｉｍｅ　ｗｉｔｈ"TCC_NEWLINE"　ｈｅｒ．．．ａｎｄ　ｈｅｒｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｙ　ｗｅｒｅ　ｓｈｉｎｉｎｇ　ｗｉｔｈ　ｌｉｆｅ，　"TCC_NEWLINE"ａｎｄｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｅｖｅｎ　ａｆｔｅｒ　ｔｈｅｙ　ｆｏｕｎｄ　ｏｕｔ　ｗｈｏ"TCC_NEWLINE"　Ｉｗａｓ　ａｎｄ　ｗｈａｔ　ｔｈａｔ　ｍｅａｎｔ．．．　"TCC_NEWLINE"Ｔｈｅｙｓｔａｙｅｄ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A

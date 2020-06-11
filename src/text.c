@@ -99,7 +99,7 @@ const char* const texts[] = {
 
         // character Veronica death quote
         [TEXT_DEATH_QUOTE_VERONICA] = TCC_OPEN_FAR_RIGHT
-                TCC_LOAD_FACE PORTARIT_VERONICA
+                TCC_LOAD_FACE PORTRAIT_VERONICA
                 "つま。。。ないの。。。" TCC_PUSH_A,
 
         // character Xander name
@@ -326,7 +326,7 @@ const char* const texts[] = {
 
     // Chapter 2 opening
     [TEXT_CHAP_2_OP] = TCC_OPEN_LEFT
-            TCC_LOAD_FACE PORTARIT_VERONICA
+            TCC_LOAD_FACE PORTRAIT_VERONICA
             "いい子ね、あたしの英雄たち。。。" TCC_NEWLINE
             "もっと奪って、もっと壊して。。。" TCC_NEWLINE
             "邪魔する人は殺していいの。" TCC_NEWLINE TCC_PUSH_A
@@ -348,7 +348,7 @@ const char* const texts[] = {
             "そう。。。それなら、" TCC_NEWLINE
             "あなたを最初に殺すわ。。。" TCC_PUSH_A
             TCC_OPEN_MID_LEFT
-            TCC_LOAD_FACE PORTARIT_XANDER
+            TCC_LOAD_FACE PORTRAIT_XANDER
             "。。。承知した、ヴェロニカ皇女。" TCC_NEWLINE
             "私が行こう。" TCC_PUSH_A
             TCC_OPEN_LEFT
@@ -371,7 +371,7 @@ const char* const texts[] = {
 
         // Chapter 2 ending
         [TEXT_CHAP_2_ED] = TCC_OPEN_LEFT
-                TCC_LOAD_FACE PORTARIT_VERONICA
+                TCC_LOAD_FACE PORTRAIT_VERONICA
                 "つまんないの。。。" TCC_NEWLINE
                 "私はまた、ひとりぼっち。。。" TCC_NEWLINE TCC_PUSH_A
                 "むしろに帰って、" TCC_NEWLINE
@@ -808,7 +808,7 @@ const char* const texts[] = {
                            "これで、なんとか" TCC_NEWLINE
                            "危機は去ったようだね。" TCC_PUSH_A
                            TCC_OPEN_RIGHT
-                           TCC_LOAD_FACE PORTARIT_VERONICA
+                           TCC_LOAD_FACE PORTRAIT_VERONICA
                            "つまらないの。。。" TCC_PUSH_A
                            TCC_OPEN_LEFT
                            "！？ヴェロニカ皇女。。。！" TCC_PUSH_A
@@ -835,7 +835,7 @@ const char* const texts[] = {
                            "あたしのものにしようっと。。。" TCC_PUSH_A,
 
         [TEXT_CHAP_8_OP] = TCC_OPEN_FAR_LEFT
-                TCC_LOAD_FACE PORTARIT_XANDER
+                TCC_LOAD_FACE PORTRAIT_XANDER
                 "。。。来たか。" TCC_NEWLINE
                 "剣を交えるのは、これで二度目だな。" TCC_NEWLINE
                 "私たちはヴェロニカ皇女と契約した。" TCC_NEWLINE TCC_PUSH_A
@@ -847,7 +847,7 @@ const char* const texts[] = {
                 "行くぞ！" TCC_PUSH_A,
 
         [TEXT_CHAP_8_ED] = TCC_OPEN_FAR_LEFT
-                           TCC_LOAD_FACE PORTARIT_XANDER
+                           TCC_LOAD_FACE PORTRAIT_XANDER
                            "ほう。。。" TCC_NEWLINE
                            "なかなかやるよだな。" TCC_NEWLINE
                            "だが、これで終わりではない。" TCC_NEWLINE TCC_PUSH_A
@@ -856,7 +856,7 @@ const char* const texts[] = {
                            "その臣下たちは手強いぞ。" TCC_PUSH_A,
 
         [TEXT_CHAP_12_OP] = TCC_OPEN_FAR_LEFT
-                            TCC_LOAD_FACE PORTARIT_XANDER
+                            TCC_LOAD_FACE PORTRAIT_XANDER
                             "面白い。。。" TCC_NEWLINE
                             "ここまで辿り着くとはな。" TCC_NEWLINE TCC_PUSH_A
                             "これも特務機関の。。。" TCC_NEWLINE
@@ -867,7 +867,7 @@ const char* const texts[] = {
                             "ラズワルド、ピエり。" TCC_PUSH_A,
 
         [TEXT_CHAP_12_ED] = TCC_OPEN_FAR_LEFT
-                            TCC_LOAD_FACE PORTARIT_XANDER
+                            TCC_LOAD_FACE PORTRAIT_XANDER
                             "。。。私たちの負けか。" TCC_NEWLINE
                             "この地は解放された。" TCC_NEWLINE TCC_PUSH_A
                             "これで貴殿らと闘う理由も、" TCC_NEWLINE
@@ -1579,7 +1579,7 @@ const char* const texts[] = {
            TCC_CLOSE_FAST,
 
        [TEXT_CHAP_47_OP] = TCC_OPEN_MID_RIGHT
-           TCC_LOAD_FACE PORTARIT_VERONICA
+           TCC_LOAD_FACE PORTRAIT_VERONICA
            "あなたたち。。。" TCC_NEWLINE
            "どうしてここがわかったの。。。" TCC_NEWLINE TCC_PUSH_A
            "。。。まあいいわ。" TCC_NEWLINE
@@ -1591,7 +1591,7 @@ const char* const texts[] = {
            TCC_CLOSE_FAST,
 
        [TEXT_CHAP_47_ED] = TCC_OPEN_MID_RIGHT
-           TCC_LOAD_FACE PORTARIT_VERONICA
+           TCC_LOAD_FACE PORTRAIT_VERONICA
            "どうして。。。" TCC_NEWLINE
            "いつも負けちゃうの。。。" TCC_NEWLINE
            "ずるい。。。" TCC_NEWLINE TCC_PUSH_A
@@ -1767,12 +1767,14 @@ const char* const texts[] = {
        [TEXT_OPTION_EN_HELP] = "Ｃｈａｎｇｅ　ｌａｎｇｕａｇｅ　ｔｏ　Ｅｎｇｌｉｓｈ",
 
        [MID_SCENARIO_OPENING_S1601_EN_TEST] = TCC_OPEN_LEFT
-              TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+              TCC_LOAD_FACE PORTRAIT_FJORM
                TCC_OPEN_RIGHT
-               TCC_LOAD_FACE PORTRAIT_SHARENA
+               TCC_LOAD_FACE PORTRAIT_FJORM
                "Ｈｉ’ｓ" TCC_NEWLINE TCC_PUSH_A
                TCC_OPEN_LEFT
                "Ｈｅｌｌｏ" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE
+               TCC_OPEN_RIGHT
                TCC_CLEAR_FACE,
 
        [TEXT_OPTION_RANDOM_MODE] = "ランダムモード",

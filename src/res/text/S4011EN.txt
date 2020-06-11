@@ -2,7 +2,7 @@
 
 [MID_SCENARIO_OPENING_S4011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｈａｔ？！　Ａ．．．ｓｌｅｅｐｉｎｇ　ｓｉｃｋｎｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_HENRIETTE
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HENRIETTE
 "Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｗｅ’ｖｅ　ｒｅｃｅｉｖｅｄ　"TCC_NEWLINE"ｒｅｐｏｒｔｓｆｒｏｍ　Ａｓｋｒ’ｓ　ｂｏｒｄｅｒ　ｖｉｌー"TCC_NEWLINE"ｌａｇｅｓ，　ｉｎ　ｔｈｅｗｈｅａｔ　ｃｏｕｎｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｖｉｌｌａｇｅｓ　ｉｎ　ｔｈａｔ　ｒｅｇｉｏｎ　ａー"TCC_NEWLINE"ｒｅ　ｋｎｏｗｎｆｏｒ　ｔｈｅｉｒ　ｌｉｖｅｌｉｎｅｓｓ，"TCC_NEWLINE"　ｂｕｔ　ａ　ｐａｔｒｏｌ　ｉｎ　ｔｈｅａｒｅａ　ｎｏｔｉー"TCC_NEWLINE"ｃｅｄ　ａｎ　ｅｅｒｉｅ　ｑｕｉｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｖｉｌｌａｇｅｒｓ　ｈａｄ　ｎｏｔ　ｇｏｎｅ．．．"TCC_NEWLINE"Ｅｖｅｒｙｏｎｅ　ｗａｓ　ａｓｌｅｅｐ．"TCC_NEWLINE TCC_PUSH_A
@@ -29,7 +29,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_LEFT
 "Ｔｈａｎｋ　ｙｏｕ，　Ｍｏｔｈｅｒ．　Ｗｅ　ｗｉｌｌ　ｂｅー"TCC_NEWLINE"ｃａｒｅｆｕｌａｎｄ　ｗｉｌｌ　ｒｅｔｕｒｎ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S4011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_LOKI
+[MID_SCENARIO_MAP_BEGIN_S4011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
 "Ｏｈ，　ｈｅｌｌｏ．　Ｌｏｖｅｌｙ　ｗｅａｔｈｅｒ，　ｉｓー"TCC_NEWLINE"ｎ’ｔ　ｉｔ？Ｈｏｗ　ｈａｖｅ　ｙｏｕ　ｂｅｅｎ？　Ｗｅｌー"TCC_NEWLINE"ｌ，　Ｉ　ｈｏｐｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｌｏｋｉ．．．　Ｉ　ｓｈｏｕｌｄ　ｈａｖｅ　ｇｕｅｓｓｅｄ"TCC_NEWLINE"．Ｗｈａｔ　ｈａｖｅ　ｙｏｕ　ｄｏｎｅ　ｔｈｉｓ　ｔｉｍｅ"TCC_NEWLINE"？！"TCC_NEWLINE TCC_PUSH_A

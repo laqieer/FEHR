@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_YLGR
+[MID_SCENARIO_OPENING_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｏｎｅ　ｏｆ　ｔｈｅ　ｓｏｌｄｉｅｒｓ．．．　Ｈｅ　ｓａｉー"TCC_NEWLINE"ｄ　ｔｈａｔ　ｔｈｅｃａｓｔｌｅ　ｉｓ　ｉｎ　ｔｈｅ　ｂｅー"TCC_NEWLINE"ｌｌｙ　ｏｆ　ｔｈａｔ　ｈｕｕｕｕｇｅｖｏｌｃａｎｏ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ’ｓ　ｗｈｅｒｅ　ｔｈｅｙ　ｗｅｒｅ　ｐｌａｎｎｉー"TCC_NEWLINE"ｎｇ　ｔｏｔａｋｅ　ｍｅ　ｂｅｆｏｒｅ　Ｉ　ｅｓｃａｐｅｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
@@ -10,7 +10,7 @@ TCC_OPEN_LEFT
 "Ｉ　ｈａｖｅ　ａｎ　ｉｄｅａ！"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｙ　ｌｏｃｋｅｄ　ｍｅ　ｉｎ　ａ　ｔｏｗｅｒ，　ｗａー"TCC_NEWLINE"ｙ　ｕｐ　ａｔｔｈｅ　ｔｏｐ，　ａｎｄ　Ｉ　ｃｏｕｌｄ　ｓー"TCC_NEWLINE"ｅｅ　ａ　ｆｏｒｅｓｔ．　Ｉｔｒｕｎｓ　ａｌｏｎｇｓｉｄｅ"TCC_NEWLINE"　ｔｈｅ　ｍｏｕｎｔａｉｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｆ　ｗｅ　ｓｎｅａｋ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｆｏｒｅｓー"TCC_NEWLINE"ｔ，　ｔｈｅｓｏｌｄｉｅｒｓ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ　"TCC_NEWLINE"ｔｏ　ｓｅｅ　ｕｓｃｏｍｉｎｇ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｙｏｕ’ｒｅ　ｓｏ　ｃｌｅｖｅｒ，　Ｙｌｇｒ．　Ｉｔ　ｉｓ"TCC_NEWLINE"　ｓｕｃｈ　ａｈｅｌｐ　ｔｏ　ｈａｖｅ　ｙｏｕ　ｗｉｔｈ　"TCC_NEWLINE"ｕｓｍｏｒｅ　ｔｈａｎｙｏｕ　ｃｏｕｌｄ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ！　Ｔｉｍｅ’ｓ　ｗａｓｔｉー"TCC_NEWLINE"ｎｇ．　Ｓｕｒｔｒ　ｉｓｗａｉｔｉｎｇ　ｆｏｒ　ｕｓ．　Ｌー"TCC_NEWLINE"ｅｔ’ｓ　ｓｈｏｗ　ｈｉｍ　ｏｕｒｒｅｓｏｌｖｅ！"TCC_NEWLINE TCC_PUSH_A
@@ -21,7 +21,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｅ’ｖｅ　ｄｉｓｐａｔｃｈｅｄ　ｔｈｉｓ　ｂａｎｄ　ｏｆ"TCC_NEWLINE"　ｆｏｅｓ．Ｗｅ　ｍｕｓｔ　ｐｒｅｓｓ　ｏｎａｎｄ　ｆｉｎー"TCC_NEWLINE"ｄ　Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_SURTR
+[MID_SCENARIO_ENDING_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｅｘｃｅｌｌｅｎｔ．　Ｔｈｅ　ｔｉｍｅ　ａｐｐｒｏａｃｈｅー"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｕｒｒｙ　ｔｏ　ｍｅ，　ｆｏｏｌｉｓｈ　ｃｈｉｌｄｒｅｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏｏｎ，　Ｉ　ｗｉｌｌ　ｓｅｅ　ｄｅｓｐａｉｒ　ｂｕｒｎ"TCC_NEWLINE"　ｉｔｓｅｌｆ　ｉｎｔｏｙｏｕｒ　ｆａｃｅｓｏｎｃｅ　ｙｏー"TCC_NEWLINE"ｕ　ｕｎｄｅｒｓｔａｎｄｈｏｗ　ｗｅａｋ　ｙｏｕ　ｔｒｕｌー"TCC_NEWLINE"ｙ　ａｒｅ！"TCC_NEWLINE TCC_PUSH_A

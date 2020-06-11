@@ -20,7 +20,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ，　ｈｏｗ　ｍｕｃｈ　ｌｏｎｇー"TCC_NEWLINE"ｅｒ　ｔｉｌｌｗｅ　ｒｅａｃｈ　ｔｈｅ　ｓａｎｃｔｕａｒｙ"TCC_NEWLINE"　ａｎｄ　ｍｅｅｔｙｏｕｒ　ｓｉｓｔｅｒ，　Ｐｒｉｎｃｅｓー"TCC_NEWLINE"ｓ　Ｇｕｎｎｔｈｒ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｉ　ｗｏｕｌｄ　ｓａｙ　ｔｈａｔ　ｉｔ　ｗｉｌｌ　ｔａｋｅ"TCC_NEWLINE"　ｕｓ　ａｂｏｕｔｔｈｒｅｅ　ｍｏｒｅ　ｄａｙｓ　ｔｏ　ｒー"TCC_NEWLINE"ｅａｃｈ　ｔｈｅｓａｎｃｔｕａｒｙ　ａｔ　Ｓｎｊｒｈｏｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ａｌｌ　ｒｉｇｈｔ．　Ｗｅ　ｎｅｅｄ　ｔｏ　ｈｕｒｒｙ　ａー"TCC_NEWLINE"ｎｄ　ｂｒｅａｋｔｈｒｏｕｇｈ　ｔｈｅ　ｅｎｅｍｙ’ｓ　ｌー"TCC_NEWLINE"ｉｎｅｓ，　ａｎｄ　ｔｈｅｎｈｅａｄ　ｗｅｓｔ．　Ｔｈｅ　"TCC_NEWLINE"ｐｒｉｎｃｅｓｓ　ｉｓ　ｗａｉｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A

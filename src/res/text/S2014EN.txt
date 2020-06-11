@@ -4,9 +4,9 @@
 "Ｈｕｒｒｙ！　Ｗｅ’ｒｅ　ａｌｍｏｓｔ　ｔｈｅｒｅ．　Ｔｈー"TCC_NEWLINE"ｉｓ　ｉｓｗｈｅｒｅ　ｔｈａｔ　ｒｅｐｏｒｔ　ｃａｍｅ　ｆー"TCC_NEWLINE"ｒｏｍ．．．　Ｇｅｔｒｅａｄｙ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTARIT_FJORM
+[MID_SCENARIO_ENDING_S2014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｈａｈｈ．．．　Ｉ　ｗｉｌｌ．．．　Ｉ　ｗｉｌｌ．．．ａｖー"TCC_NEWLINE"ｅｎｇｅ　ｙｏｕ．．．Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_SURTR
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｈｏｗ　ｗｅａｋ　ｙｏｕ　ａｒｅ．　Ｙｏｕｒ　ｓｔｒｅｎｇー"TCC_NEWLINE"ｔｈ　ｉｓａｌｒｅａｄｙ　ｆａｄｉｎｇ．．．　Ｙｏｕ　ｃａー"TCC_NEWLINE"ｎ’ｔ　ｅｖｅｎ　ｆｉｇｈｔｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｏ　ｔｈｉｎｋ　ｙｏｕ　ｐｏｉｎｔｅｄ　ｙｏｕｒ　ｗｅａー"TCC_NEWLINE"ｐｏｎ　ａｔｍｅａ　ｋｉｎｇ！　Ｄｉｄ　ｙｏｕ　ｔｈｉｎｋ"TCC_NEWLINE"　ｙｏｕ　ｗｏｕｌｄｓｕｒｖｉｖｅ？　Ｄｉｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ’ｌｌ　ｓｕｆｆｅｒ　ｆｏｒ　ｔｈａｔ　ｉｍｐｅｒｔー"TCC_NEWLINE"ｉｎｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A

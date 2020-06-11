@@ -2,7 +2,7 @@
 
 [MID_SCENARIO_OPENING_S2041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈａｔ　ｔｏｏｋ　ｅｖｅｎ　ｌｏｎｇｅｒ　ｔｈａｎ　ｗｅー"TCC_NEWLINE"ｅｘｐｅｃｔｅｄ，　ｂｕｔ　Ｉ’ｍ　ｇｌａｄ　ｔｏ　ｓｅｅ"TCC_NEWLINE"　ｔｈａｔｔｈｅ　ｔｏｗｎ　ｉｓ　ｉｎ　ｇｏｏｄ　ｓｈａｐー"TCC_NEWLINE"ｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｉ　ａｍ，　ｔｏｏ．　Ｓｅｅｉｎｇ　ｔｈｅ　ｔｏｗｎｓｐｅー"TCC_NEWLINE"ｏｐｌｅ　ｉｎｈｉｇｈ　ｓｐｉｒｉｔｓ　ｈａｓ　ｌｉｆｔｅー"TCC_NEWLINE"ｄ　ｍｙ　ｏｗｎ．　Ｔｈｅｙ’ｒｅｓｏ　ｇｒａｔｅｆｕｌ　"TCC_NEWLINE"ｆｏｒ　ｏｕｒ　ｈｅｌｐ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　ｄｏ　ｙｏｕ　ｏｆｔｅｎ　"TCC_NEWLINE"ｈｅａｄｏｕｔ　ａｎｄ　ａｉｄ　ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ"TCC_NEWLINE"　Ａｓｋｒ　ｌｉｋｅｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -34,7 +34,7 @@ TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｅｎｅｍｉｅｓ　ａｒｅ　ｅｖｅｒｙｗｈｅｒｅ．．．　Ｉｔ’"TCC_NEWLINE"ｓ　ｃｌｅａｒｔｈａｔ　ｔｈｅｙ’ｒｅ　ｆｏｃｕｓｉｎｇ　"TCC_NEWLINE"ｏｎ　ｔｈｉｓ　ａｒｅａ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_LOAD_FACE PORTARIT_FJORM
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｗｅ’ｖｅ　ａｌｍｏｓｔ　ｍａｄｅ　ｉｔ　ｔｏ　ｔｈｅ　ｇー"TCC_NEWLINE"ａｔｅ，ｂｕｔ　ｔｈｅｓｅ　ｌａｓｔ　ｆｅｗ　ｓｔｅｐｓ　"TCC_NEWLINE"ｗｉｌｌ　ｂｅ　ｔｈｅｍｏｓｔ　ｄａｎｇｅｒｏｕｓ，　Ｉ　"TCC_NEWLINE"ｆｅａｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｔｈｉｓ　ｐｒｏｖｅｓ　ｔｈａｔ　ｗｅ’ｒｅ　ｏｎ　ｔｈｅ"TCC_NEWLINE"　ｒｉｇｈｔｔｒａｃｋ．　Ｔｈｅｙ　ｗａｎｔ　ｔｏ　ｋｅｅー"TCC_NEWLINE"ｐ　ｕｓ　ｆｒｏｍｇｅｔｔｉｎｇ　ｔｏ　Ｎｉｆｌ　ａｔ　ａー"TCC_NEWLINE"ｎｙ　ｃｏｓｔ！"TCC_NEWLINE TCC_PUSH_A
