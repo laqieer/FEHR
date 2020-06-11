@@ -30,6 +30,8 @@
 #include "portrait_Surtr_tileset.h"
 #include "portrait_Loki_mini.h"
 #include "portrait_Loki_tileset.h"
+#include "portrait_Laevatain_mini.h"
+#include "portrait_Laevatain_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -191,6 +193,19 @@ const u16 portrait_Loki_bg[] = {
     0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
 };
 
+const u16 portrait_Laevatain_bg[] = {
+    0x809,
+    22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
+    10 + 32 * 3, 11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3, 15 + 32 * 3, 16 + 32 * 3, 17 + 32 * 3, 18 + 32 * 3, 19 + 32 * 3,
+    10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2,
+    10 + 32, 11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32, 19 + 32,
+    10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+    8 + 32 * 3, 0 + 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3,
+    8 + 32 * 2, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2,
+    8 + 32, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 5 + 32, 6 + 32, 7 + 32,
+    8, 0, 1, 2, 3, 4, 5, 6, 7,
+};
+
 const u16 portrait_Bruno_bg[] = {
         0x809,
         20 + 32, 21 + 32, 22 + 32, 23 + 32, 24 + 32, 25 + 32, 26 + 32, 27 + 32, 28 + 32, 29 + 32,
@@ -258,6 +273,16 @@ const Portrait portraitFjormBG = {
     0
 };
 
+const Portrait portraitLaevatain = {
+    portrait_Laevatain_tilesetTiles,
+    portrait_Laevatain_miniTiles,
+    portrait_Laevatain_tilesetPal,
+    portrait_Loki_obj,
+    0,
+    portrait_Laevatain_bg,
+    0
+};
+
 DEFINE_CLASSCARD(Lord)
 DEFINE_CLASSCARD_NEW(MageKnight)
 
@@ -268,6 +293,7 @@ const Portrait* const portraits[] = {
     [0x104] = &portraitBruno,
     [0x105] = &portraitVeronica,
     [0x109] = &portraitFjorm,
+    [0x10F] = &portraitLaevatain,
     [0x111] = &portraitLoki,
     [0x113] = &portraitSurtr,
     [0x116] = &portraitXander,
