@@ -26,6 +26,8 @@
 #include "portrait_Fjorm_tileset.h"
 #include "portrait_Fjorm_bg_mini.h"
 #include "portrait_Fjorm_bg_tileset.h"
+#include "portrait_Surtr_mini.h"
+#include "portrait_Surtr_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -57,6 +59,25 @@ const u16 portrait_Fjorm_obj[] = {
     OBJ_Y(-16 + 64) | ATTR0_WIDE, OBJ_X(0 - 56) | OBJ_SIZE(3), OBJ_CHAR(18),
     OBJ_Y(-16 + 64) | ATTR0_SQUARE, OBJ_X(64 - 56) | OBJ_SIZE(2), OBJ_CHAR(26),
     OBJ_Y(-16 + 64) | ATTR0_TALL, OBJ_X(96 - 56) | OBJ_SIZE(2), OBJ_CHAR(30),
+};
+
+const u16 portrait_Surtr_obj[] = {
+    7,
+    OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(-(32 - 48) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(0 - 48) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(64 - 48) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(4 + 32 * 2),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(-(0 - 48) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(8),
+    OBJ_Y(32 - 16) | ATTR0_SQUARE, OBJ_X(-(64 - 48) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(16),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(-(0 - 48) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(20),
+    OBJ_Y(64 - 16) | ATTR0_SQUARE, OBJ_X(-(64 - 48) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
+    7,
+    OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(32 - 48) | OBJ_SIZE(2), OBJ_CHAR(0),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(0 - 48) | OBJ_SIZE(2), OBJ_CHAR(4),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(64 - 48) | OBJ_SIZE(2), OBJ_CHAR(4 + 32 * 2),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(0 - 48) | OBJ_SIZE(3), OBJ_CHAR(8),
+    OBJ_Y(32 - 16) | ATTR0_SQUARE, OBJ_X(64 - 48) | OBJ_SIZE(2), OBJ_CHAR(16),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(0 - 48) | OBJ_SIZE(3), OBJ_CHAR(20),
+    OBJ_Y(64 - 16) | ATTR0_SQUARE, OBJ_X(64 - 48) | OBJ_SIZE(2), OBJ_CHAR(28),
 };
 
 const u16 portrait_Bruno_obj[] = {
@@ -127,6 +148,19 @@ const u16 portrait_standard_bg[] = {
     0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
 };
 
+const u16 portrait_Surtr_bg[] = {
+    0x809,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    9 + 32 * 3, 10 + 32 * 3, 11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3, 15 + 32 * 3, 16 + 32 * 3, 17 + 32 * 3, 18 + 32 * 3,
+    9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2,
+    9 + 32, 10 + 32, 11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32,
+    9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+    5 + 32, 6 + 32, 7 + 32, 0 + 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3,
+    5, 6, 7, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2,
+    6, 6, 6, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 6, 6, 6,
+    6, 6, 6, 0, 1, 2, 3, 6, 6, 6,
+};
+
 const u16 portrait_Bruno_bg[] = {
         0x809,
         20 + 32, 21 + 32, 22 + 32, 23 + 32, 24 + 32, 25 + 32, 26 + 32, 27 + 32, 28 + 32, 29 + 32,
@@ -171,6 +205,7 @@ DEFINE_PORTRAIT(Sharena_princess)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Xander)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Surtr)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -202,6 +237,7 @@ const Portrait* const portraits[] = {
     [0x104] = &portraitBruno,
     [0x105] = &portraitVeronica,
     [0x109] = &portraitFjorm,
+    [0x113] = &portraitSurtr,
     [0x116] = &portraitXander,
     [0x130] = &classcardLord,
     [0x140] = &portraitFjormBG,
