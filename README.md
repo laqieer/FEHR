@@ -3,7 +3,7 @@
 
 Fire Emblem Heroes Remake on Game Boy Advance.
 
-![title screen](res/gfx/raw/title_screen.png)
+![title screen_book_1](res/gfx/raw/title_screen_book_1.png) ![title screen_book_2](res/gfx/raw/title_screen_book_2.png) ![title screen_book_3](res/gfx/raw/title_screen_book_3.png) ![title screen_book_4](res/gfx/raw/title_screen_book_4.png)
 
 A hack based on Fire Emblem 7 Japanese version.
 
