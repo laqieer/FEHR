@@ -38,6 +38,8 @@
 #include "portrait_Laegjarn_tileset.h"
 #include "portrait_Helbindi_mini.h"
 #include "portrait_Helbindi_tileset.h"
+#include "portrait_Gustaf_mini.h"
+#include "portrait_Gustaf_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -164,6 +166,29 @@ const u16 portrait_Helbindi_obj[] = {
     OBJ_Y(32 - 16) | ATTR0_SQUARE, OBJ_X(64 - 48) | OBJ_SIZE(2), OBJ_CHAR(16),
     OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(0 - 48) | OBJ_SIZE(3), OBJ_CHAR(20),
     OBJ_Y(64 - 16) | ATTR0_SQUARE, OBJ_X(64 - 48) | OBJ_SIZE(2), OBJ_CHAR(28),
+};
+
+const u16 portrait_Gustaf_obj[] = {
+    9,
+    OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(40 - 64) | OBJ_SIZE(2), OBJ_CHAR(0),
+    OBJ_Y(-16) | ATTR0_TALL, OBJ_X(72 - 64) | OBJ_SIZE(0), OBJ_CHAR(4),
+    OBJ_Y(0) | ATTR0_SQUARE, OBJ_X(72 - 64) | OBJ_SIZE(1), OBJ_CHAR(4 + 32 * 2),
+    OBJ_Y(0) | ATTR0_TALL, OBJ_X(88 - 64) | OBJ_SIZE(0), OBJ_CHAR(5),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(32 - 64) | OBJ_SIZE(3), OBJ_CHAR(6),
+    OBJ_Y(32) | ATTR0_SQUARE, OBJ_X(32 + 64 - 64) | OBJ_SIZE(1), OBJ_CHAR(14 + 32 * 2),
+    OBJ_Y(32) | ATTR0_SQUARE, OBJ_X(16 - 64) | OBJ_SIZE(1), OBJ_CHAR(14),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(0 - 64) | OBJ_SIZE(3), OBJ_CHAR(16),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(64 - 64) | OBJ_SIZE(3), OBJ_CHAR(24),
+    9,
+    OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(-(40 - 64) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(-16) | ATTR0_TALL, OBJ_X(-(72 - 64) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(0) | ATTR0_SQUARE, OBJ_X(-(72 - 64) - 16) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(4 + 32 * 2),
+    OBJ_Y(0) | ATTR0_TALL, OBJ_X(-(88 - 64) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(5),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(-(32 - 64) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(6),
+    OBJ_Y(32) | ATTR0_SQUARE, OBJ_X(-(32 + 64 - 64) - 16) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(14 + 32 * 2),
+    OBJ_Y(32) | ATTR0_SQUARE, OBJ_X(-(16 - 64) - 16) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(14),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(0) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(16),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(-64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(24),
 };
 
 const u16 portrait_Bruno_obj[] = {
@@ -312,6 +337,19 @@ const u16 portrait_Helbindi_bg[] = {
     2, 3, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 
 };
 
+const u16 portrait_Gustaf_bg[] = {
+    0x809,
+    19, 20, 21, 22, 23, 24, 25, 26, 27, 28,
+    15 + 32, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 10 + 32 * 3, 11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3,
+    15, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2,
+    14, 6 + 32, 7 + 32, 8 + 32, 9 + 32, 10 + 32, 11 + 32, 12 + 32, 13 + 32, 14,
+    14, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    14, 14, 0 + 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 5 + 32, 14,
+    14, 14, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 5, 14,
+    14, 14, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 14, 14, 14,
+    14, 14, 0, 1, 2, 3, 4, 14, 14, 14,
+};
+
 const u16 portrait_Bruno_bg[] = {
         0x809,
         20 + 32, 21 + 32, 22 + 32, 23 + 32, 24 + 32, 25 + 32, 26 + 32, 27 + 32, 28 + 32, 29 + 32,
@@ -361,6 +399,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Loki)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Cerise)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Laegjarn)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Helbindi)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Gustaf)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -409,6 +448,7 @@ const Portrait* const portraits[] = {
     [0x111] = &portraitLoki,
     [0x113] = &portraitSurtr,
     [0x116] = &portraitXander,
+    [0x119] = &portraitGustaf,
     [0x130] = &classcardLord,
     [0x140] = &portraitFjormBG,
     [CLASSCARD_MAGE_KNIGHT] = &classcardMageKnight, // 0x131
