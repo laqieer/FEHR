@@ -44,6 +44,8 @@
 #include "portrait_Henriette_tileset.h"
 #include "portrait_Yurg_mini.h"
 #include "portrait_Yurg_tileset.h"
+#include "portrait_Freeze_mini.h"
+#include "portrait_Freeze_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -52,6 +54,33 @@ const Portrait portraitAlfonse = {
         portrait_alfonse_miniTiles,
         portrait_alfonse_tilesetPal,
         0, 0, 0, 0
+};
+
+const u16 portrait_Freeze_obj[] = {
+    11,
+    OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(-(40 - 60) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(16 - 16) | ATTR0_SQUARE, OBJ_X(-(24 - 60) - 16) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(16 - 16) | ATTR0_SQUARE, OBJ_X(-(72 - 60) - 16) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(4 + 32 * 2),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(-(16 - 60) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(6),
+    OBJ_Y(32 - 16) | ATTR0_TALL, OBJ_X(-(16 + 64 - 60) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(14),
+    OBJ_Y(32 + 16 - 16) | ATTR0_TALL, OBJ_X(-(8 - 60) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(16),
+    OBJ_Y(32 + 16 - 16) | ATTR0_TALL, OBJ_X(-(96 - 60) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(16 + 32 * 2),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(-(0 - 60) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(17),
+    OBJ_Y(64 - 16) | ATTR0_SQUARE, OBJ_X(-(64 - 60) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(25),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(-(64 + 32 - 60) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(29),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(-(64 + 32 + 16 - 60) - 8) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(31),
+    11,
+    OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(40 - 60) | OBJ_SIZE(2), OBJ_CHAR(0),
+    OBJ_Y(16 - 16) | ATTR0_SQUARE, OBJ_X(24 - 60) | OBJ_SIZE(1), OBJ_CHAR(4),
+    OBJ_Y(16 - 16) | ATTR0_SQUARE, OBJ_X(72 - 60) | OBJ_SIZE(1), OBJ_CHAR(4 + 32 * 2),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(16 - 60) | OBJ_SIZE(3), OBJ_CHAR(6),
+    OBJ_Y(32 - 16) | ATTR0_TALL, OBJ_X(16 + 64 - 60) | OBJ_SIZE(2), OBJ_CHAR(14),
+    OBJ_Y(32 + 16 - 16) | ATTR0_TALL, OBJ_X(8 - 60) | OBJ_SIZE(0), OBJ_CHAR(16),
+    OBJ_Y(32 + 16 - 16) | ATTR0_TALL, OBJ_X(96 - 60) | OBJ_SIZE(0), OBJ_CHAR(16 + 32 * 2),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(0 - 60) | OBJ_SIZE(3), OBJ_CHAR(17),
+    OBJ_Y(64 - 16) | ATTR0_SQUARE, OBJ_X(64 - 60) | OBJ_SIZE(2), OBJ_CHAR(25),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(64 + 32 - 60) | OBJ_SIZE(2), OBJ_CHAR(29),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(64 + 32 + 16 - 60) | OBJ_SIZE(1), OBJ_CHAR(31),
 };
 
 const u16 portrait_Yurg_obj[] = {
@@ -302,6 +331,19 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+const u16 portrait_Freeze_bg[] = {
+    0x809,
+    19, 20, 21, 22, 23, 24, 25, 26, 27, 28,
+    6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 10 + 32 * 3, 11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3, 15 + 32 * 3,
+    6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2,
+    6 + 32, 7 + 32, 8 + 32, 9 + 32, 10 + 32, 11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32,
+    6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+    31, 4 + 32, 5 + 32, 0 + 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 31,
+    31, 4, 5, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 31,
+    31, 31, 31, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 31, 31, 31,
+    31, 31, 31, 0, 1, 2, 3, 31, 31, 31,
+};
+
 const u16 portrait_Yurg_bg[] = {
     0x809,
     19, 20, 21, 22, 23, 24, 25, 26, 27, 28,
@@ -484,6 +526,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Helbindi)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Gustaf)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Henriette)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Yurg)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Freeze)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -527,6 +570,7 @@ const Portrait* const portraits[] = {
     [0x109] = &portraitFjorm,
     [0x10A] = &portraitCerise,
     [0x10B] = &portraitHelbindi,
+    [0x10C] = &portraitFreeze,
     [0x10E] = &portraitLaegjarn,
     [0x10F] = &portraitLaevatain,
     [0x111] = &portraitLoki,
