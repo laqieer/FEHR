@@ -46,6 +46,8 @@
 #include "portrait_Yurg_tileset.h"
 #include "portrait_Freeze_mini.h"
 #include "portrait_Freeze_tileset.h"
+#include "portrait_Lif_mini.h"
+#include "portrait_Lif_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -54,6 +56,27 @@ const Portrait portraitAlfonse = {
         portrait_alfonse_miniTiles,
         portrait_alfonse_tilesetPal,
         0, 0, 0, 0
+};
+
+const u16 portrait_Lif_obj[] = {
+    8,
+    OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(0 - 48) | OBJ_SIZE(3), OBJ_CHAR(0),
+    OBJ_Y(-16) | ATTR0_TALL, OBJ_X(64 - 48) | OBJ_SIZE(2), OBJ_CHAR(8),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(0 - 48) | OBJ_SIZE(3), OBJ_CHAR(10),
+    OBJ_Y(32 - 16) | ATTR0_TALL, OBJ_X(64 - 48) | OBJ_SIZE(2), OBJ_CHAR(18),
+    OBJ_Y(32 - 16) | ATTR0_TALL, OBJ_X(64 + 16 - 48) | OBJ_SIZE(1), OBJ_CHAR(20),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(8 - 48) | OBJ_SIZE(3), OBJ_CHAR(21),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(8 + 64 - 48) | OBJ_SIZE(2), OBJ_CHAR(29),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(8 + 64 + 16 - 48) | OBJ_SIZE(1), OBJ_CHAR(31),
+    8,
+    OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(-(0 - 48) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(-16) | ATTR0_TALL, OBJ_X(-(64 - 48) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(8),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(-(0 - 48) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(10),
+    OBJ_Y(32 - 16) | ATTR0_TALL, OBJ_X(-(64 - 48) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(18),
+    OBJ_Y(32 - 16) | ATTR0_TALL, OBJ_X(-(64 + 16 - 48) - 8) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(20),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(-(8 - 48) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(21),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(-(8 + 64 - 48) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(29),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(-(8 + 64 + 16 - 48) - 8) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(31),
 };
 
 const u16 portrait_Freeze_obj[] = {
@@ -331,6 +354,19 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+const u16 portrait_Lif_bg[] = {
+    0x809,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3, 15 + 32 * 3, 16 + 32 * 3, 17 + 32 * 3, 18 + 32 * 3, 19 + 32 * 3, 20 + 32 * 3,
+    11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2, 20 + 32 * 2,
+    11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32, 19 + 32, 20 + 32,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 0,
+    1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 0,
+    1 + 32, 2 + 32, 3 + 32, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32, 0,
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 0,
+};
+
 const u16 portrait_Freeze_bg[] = {
     0x809,
     19, 20, 21, 22, 23, 24, 25, 26, 27, 28,
@@ -527,6 +563,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Gustaf)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Henriette)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Yurg)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Freeze)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Lif)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -573,6 +610,7 @@ const Portrait* const portraits[] = {
     [0x10C] = &portraitFreeze,
     [0x10E] = &portraitLaegjarn,
     [0x10F] = &portraitLaevatain,
+    [0x110] = &portraitLif,
     [0x111] = &portraitLoki,
     [0x113] = &portraitSurtr,
     [0x115] = &portraitYurg,
