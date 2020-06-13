@@ -54,6 +54,8 @@
 #include "portrait_Hell_tileset.h"
 #include "portrait_Eir_mini.h"
 #include "portrait_Eir_tileset.h"
+#include "portrait_Tor_mini.h"
+#include "portrait_Tor_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -62,6 +64,27 @@ const Portrait portraitAlfonse = {
         portrait_alfonse_miniTiles,
         portrait_alfonse_tilesetPal,
         0, 0, 0, 0
+};
+
+const u16 portrait_Tor_obj[] = {
+    8,
+    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(24 - 40) | OBJ_SIZE(2), OBJ_CHAR(0),
+    OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(24 + 32 - 40) | OBJ_SIZE(2), OBJ_CHAR(4 + 32 * 2),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(16 - 40) | OBJ_SIZE(2), OBJ_CHAR(4),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(16 + 32 - 40) | OBJ_SIZE(2), OBJ_CHAR(8),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(16 + 32 + 32 - 40) | OBJ_SIZE(2), OBJ_CHAR(8 + 32 * 2),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(8 - 40) | OBJ_SIZE(3), OBJ_CHAR(12),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(8 + 64 - 40) | OBJ_SIZE(2), OBJ_CHAR(20),
+    OBJ_Y(16 + 32) | ATTR0_WIDE, OBJ_X(0 - 40) | OBJ_SIZE(3), OBJ_CHAR(24),
+    8,
+    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(-(24 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(-(24 + 32 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(4 + 32 * 2),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(16 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(16 + 32 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(8),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(16 + 32 + 32 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(8 + 32 * 2),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(-(8 - 40) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(12),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(-(8 + 64 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(20),
+    OBJ_Y(16 + 32) | ATTR0_WIDE, OBJ_X(-(0 - 40) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(24),
 };
 
 const u16 portrait_Eir_obj[] = {
@@ -106,26 +129,26 @@ const u16 portrait_Hell_obj[] = {
     OBJ_Y(16 + 64 - 32) | ATTR0_SQUARE, OBJ_X(-64 - 32 - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(27),
     OBJ_Y(16 + 64 - 32) | ATTR0_TALL, OBJ_X(-64 - 32 - 8 - 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(31),
     20,
-    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(0 - 32) | OBJ_SIZE(1), OBJ_CHAR(0),
-    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(16 - 32) | OBJ_SIZE(1), OBJ_CHAR(32 * 2),
-    OBJ_Y(16 - 32) | ATTR0_SQUARE, OBJ_X(0 - 32) | OBJ_SIZE(2), OBJ_CHAR(2),
-    OBJ_Y(16 - 32) | ATTR0_TALL, OBJ_X(32 - 32) | OBJ_SIZE(2), OBJ_CHAR(6),
-    OBJ_Y(16 + 32 - 32) | ATTR0_WIDE, OBJ_X(0 - 32) | OBJ_SIZE(3), OBJ_CHAR(8),
-    OBJ_Y(16 + 32 - 32) | ATTR0_TALL, OBJ_X(64 - 32) | OBJ_SIZE(2), OBJ_CHAR(16),
-    OBJ_Y(16 + 32 - 32) | ATTR0_TALL, OBJ_X(64 + 16 - 32) | OBJ_SIZE(1), OBJ_CHAR(18),
-    OBJ_Y(16 + 64 - 32) | ATTR0_WIDE, OBJ_X(0 - 32) | OBJ_SIZE(3), OBJ_CHAR(19),
-    OBJ_Y(16 + 64 - 32) | ATTR0_SQUARE, OBJ_X(64 - 32) | OBJ_SIZE(2), OBJ_CHAR(27),
-    OBJ_Y(16 + 64 - 32) | ATTR0_TALL, OBJ_X(64 + 32 - 32) | OBJ_SIZE(1), OBJ_CHAR(31),
-    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(-16 - 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(0),
-    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(-16 - 16 - 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(32 * 2),
-    OBJ_Y(16 - 32) | ATTR0_SQUARE, OBJ_X(-32 - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(2),
-    OBJ_Y(16 - 32) | ATTR0_TALL, OBJ_X(-32 - 16 - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(6),
-    OBJ_Y(16 + 32 - 32) | ATTR0_WIDE, OBJ_X(-64 - 32) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(8),
-    OBJ_Y(16 + 32 - 32) | ATTR0_TALL, OBJ_X(-64 - 16 - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(16),
-    OBJ_Y(16 + 32 - 32) | ATTR0_TALL, OBJ_X(-64 - 16 - 8 - 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(18),
-    OBJ_Y(16 + 64 - 32) | ATTR0_WIDE, OBJ_X(-64 - 32) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(19),
-    OBJ_Y(16 + 64 - 32) | ATTR0_SQUARE, OBJ_X(-64 - 32 - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(27),
-    OBJ_Y(16 + 64 - 32) | ATTR0_TALL, OBJ_X(-64 - 32 - 8 - 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(31),
+    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(0 + 32) | OBJ_SIZE(1), OBJ_CHAR(0),
+    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(16 + 32) | OBJ_SIZE(1), OBJ_CHAR(32 * 2),
+    OBJ_Y(16 - 32) | ATTR0_SQUARE, OBJ_X(0 + 32) | OBJ_SIZE(2), OBJ_CHAR(2),
+    OBJ_Y(16 - 32) | ATTR0_TALL, OBJ_X(32 + 32) | OBJ_SIZE(2), OBJ_CHAR(6),
+    OBJ_Y(16 + 32 - 32) | ATTR0_WIDE, OBJ_X(0 + 32) | OBJ_SIZE(3), OBJ_CHAR(8),
+    OBJ_Y(16 + 32 - 32) | ATTR0_TALL, OBJ_X(64 + 32) | OBJ_SIZE(2), OBJ_CHAR(16),
+    OBJ_Y(16 + 32 - 32) | ATTR0_TALL, OBJ_X(64 + 16 + 32) | OBJ_SIZE(1), OBJ_CHAR(18),
+    OBJ_Y(16 + 64 - 32) | ATTR0_WIDE, OBJ_X(0 + 32) | OBJ_SIZE(3), OBJ_CHAR(19),
+    OBJ_Y(16 + 64 - 32) | ATTR0_SQUARE, OBJ_X(64 + 32) | OBJ_SIZE(2), OBJ_CHAR(27),
+    OBJ_Y(16 + 64 - 32) | ATTR0_TALL, OBJ_X(64 + 32 + 32) | OBJ_SIZE(1), OBJ_CHAR(31),
+    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(-16 + 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(-32) | ATTR0_SQUARE, OBJ_X(-16 - 16 + 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(32 * 2),
+    OBJ_Y(16 - 32) | ATTR0_SQUARE, OBJ_X(-32 + 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(2),
+    OBJ_Y(16 - 32) | ATTR0_TALL, OBJ_X(-32 - 16 + 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(6),
+    OBJ_Y(16 + 32 - 32) | ATTR0_WIDE, OBJ_X(-64 + 32) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(8),
+    OBJ_Y(16 + 32 - 32) | ATTR0_TALL, OBJ_X(-64 - 16 + 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(16),
+    OBJ_Y(16 + 32 - 32) | ATTR0_TALL, OBJ_X(-64 - 16 - 8 + 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(18),
+    OBJ_Y(16 + 64 - 32) | ATTR0_WIDE, OBJ_X(-64 + 32) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(19),
+    OBJ_Y(16 + 64 - 32) | ATTR0_SQUARE, OBJ_X(-64 - 32 + 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(27),
+    OBJ_Y(16 + 64 - 32) | ATTR0_TALL, OBJ_X(-64 - 32 - 8 + 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(31),
 };
 
 const u16 portrait_Srasir_obj[] = {
@@ -443,6 +466,19 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+const u16 portrait_Tor_bg[] = {
+    0x809,
+    13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2, 20 + 32 * 2, 21 + 32 * 2, 22 + 32 * 2,
+    13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32, 19 + 32, 20 + 32, 21 + 32, 22 + 32,
+    13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+    4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32, 10 + 32, 11 + 32, 8 + 32 * 3, 9 + 32 * 3,
+    4, 5, 6, 7, 8, 9, 10, 11, 8 + 32 * 2, 9 + 32 * 2,
+    4, 0 + 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 4, 4,
+    4, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 4, 4,
+    4, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 4, 4, 4, 4, 4,
+    4, 0, 1, 2, 3, 4, 4, 4, 4, 4,
+};
+
 const u16 portrait_Eir_bg[] = {
     0x809,
     0, 0, 12, 13, 14, 15, 16, 17, 18, 19,
@@ -704,6 +740,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Lif)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Srasir)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Hell)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eir)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Tor)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -760,6 +797,7 @@ const Portrait* const portraits[] = {
     [0x117] = &portraitHell,
     [0x119] = &portraitGustaf,
     [0x11A] = &portraitHenriette,
+    [0x11C] = &portraitTor,
     [0x130] = &classcardLord,
     [0x140] = &portraitFjormBG,
     [CLASSCARD_MAGE_KNIGHT] = &classcardMageKnight, // 0x131

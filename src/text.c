@@ -1767,9 +1767,9 @@ const char* const texts[] = {
        [TEXT_OPTION_EN_HELP] = "‚b‚ˆ‚‚Ž‚‡‚…@‚Œ‚‚Ž‚‡‚•‚‚‡‚…@‚”‚@‚d‚Ž‚‡‚Œ‚‰‚“‚ˆ",
 
        [MID_SCENARIO_OPENING_S1601_EN_TEST] = TCC_OPEN_LEFT
-              TCC_LOAD_FACE PORTRAIT_EIR
+              TCC_LOAD_FACE PORTRAIT_THORR
                TCC_OPEN_RIGHT
-               TCC_LOAD_FACE PORTRAIT_EIR
+               TCC_LOAD_FACE PORTRAIT_THORR
                "‚g‚‰f‚“" TCC_NEWLINE TCC_PUSH_A
                TCC_OPEN_LEFT
                "‚g‚…‚Œ‚Œ‚" TCC_NEWLINE TCC_PUSH_A
