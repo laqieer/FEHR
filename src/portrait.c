@@ -52,6 +52,8 @@
 #include "portrait_Srasir_tileset.h"
 #include "portrait_Hell_mini.h"
 #include "portrait_Hell_tileset.h"
+#include "portrait_Eir_mini.h"
+#include "portrait_Eir_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -60,6 +62,25 @@ const Portrait portraitAlfonse = {
         portrait_alfonse_miniTiles,
         portrait_alfonse_tilesetPal,
         0, 0, 0, 0
+};
+
+const u16 portrait_Eir_obj[] = {
+    7,
+    OBJ_Y(-48) | ATTR0_SQUARE, OBJ_X(40 - 48) | OBJ_SIZE(2), OBJ_CHAR(0),
+    OBJ_Y(-48) | ATTR0_TALL, OBJ_X(40 + 32 - 48) | OBJ_SIZE(2), OBJ_CHAR(4),
+    OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(40 - 48) | OBJ_SIZE(2), OBJ_CHAR(6),
+    OBJ_Y(-16) | ATTR0_TALL, OBJ_X(40 + 32 - 48) | OBJ_SIZE(2), OBJ_CHAR(10),
+    OBJ_Y(-16 + 32) | ATTR0_WIDE, OBJ_X(24 - 48) | OBJ_SIZE(3), OBJ_CHAR(12),
+    OBJ_Y(-16 + 64) | ATTR0_WIDE, OBJ_X(0 - 48) | OBJ_SIZE(3), OBJ_CHAR(20),
+    OBJ_Y(-16 + 64) | ATTR0_SQUARE, OBJ_X(64 - 48) | OBJ_SIZE(2), OBJ_CHAR(28),
+    7,
+    OBJ_Y(-48) | ATTR0_SQUARE, OBJ_X(-(40 - 48) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(-48) | ATTR0_TALL, OBJ_X(-(40 + 32 - 48) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(-(40 - 48) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(6),
+    OBJ_Y(-16) | ATTR0_TALL, OBJ_X(-(40 + 32 - 48) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(10),
+    OBJ_Y(-16 + 32) | ATTR0_WIDE, OBJ_X(-(24 - 48) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(12),
+    OBJ_Y(-16 + 64) | ATTR0_WIDE, OBJ_X(-(0 - 48) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(20),
+    OBJ_Y(-16 + 64) | ATTR0_SQUARE, OBJ_X(-(64 - 48) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
 const u16 portrait_Hell_obj[] = {
@@ -422,6 +443,19 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+const u16 portrait_Eir_bg[] = {
+    0x809,
+    0, 0, 12, 13, 14, 15, 16, 17, 18, 19,
+    0, 0, 0, 0, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 10 + 32 * 3, 11 + 32 * 3,
+    0, 0, 0, 0, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2,
+    0, 0, 0, 0, 6 + 32, 7 + 32, 8 + 32, 9 + 32, 10 + 32, 11 + 32,
+    0, 0, 0, 0, 6, 7, 8, 9, 10, 11,
+    0, 0, 0, 0, 0 + 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3,
+    0, 0, 0, 0, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2,
+    0, 0, 0, 0, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 5 + 32,
+    0, 0, 0, 0, 0, 1, 2, 3, 4, 5,
+};
+
 const u16 portrait_Hell_bg[] = {
     0x809,
     12 + 32 * 2 + (1<<10), 11 + 32 * 2 + (1<<10), 10 + 32 * 2 + (1<<10), 9 + 32 * 2 + (1<<10), 8 + 32 * 2 + (1<<10),
@@ -669,6 +703,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Freeze)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Lif)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Srasir)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Hell)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eir)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -709,6 +744,7 @@ const Portrait* const portraits[] = {
     [0x103] = &portraitAnna_commander,
     [0x104] = &portraitBruno,
     [0x105] = &portraitVeronica,
+    [0x107] = &portraitEir,
     [0x109] = &portraitFjorm,
     [0x10A] = &portraitCerise,
     [0x10B] = &portraitHelbindi,
