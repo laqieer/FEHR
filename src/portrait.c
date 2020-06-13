@@ -56,6 +56,8 @@
 #include "portrait_Eir_tileset.h"
 #include "portrait_Tor_mini.h"
 #include "portrait_Tor_tileset.h"
+#include "portrait_Peony_mini.h"
+#include "portrait_Peony_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -64,6 +66,25 @@ const Portrait portraitAlfonse = {
         portrait_alfonse_miniTiles,
         portrait_alfonse_tilesetPal,
         0, 0, 0, 0
+};
+
+const u16 portrait_Peony_obj[] = {
+    7,
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(0 - 64) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(80 - 64) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(32 * 2),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(-(0 - 64) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(-(64 - 64) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(12),
+    OBJ_Y(16 + 32) | ATTR0_WIDE, OBJ_X(-(16 - 64) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(20),
+    OBJ_Y(16 + 32) | ATTR0_TALL, OBJ_X(-(16 + 64 - 64) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
+    OBJ_Y(8) | ATTR0_WIDE, OBJ_X(-(56 - 64) - 16) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(30),
+    7,
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(0 - 64) | OBJ_SIZE(2), OBJ_CHAR(0),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(80 - 64) | OBJ_SIZE(2), OBJ_CHAR(32 * 2),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(0 - 64) | OBJ_SIZE(3), OBJ_CHAR(4),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(64 - 64) | OBJ_SIZE(3), OBJ_CHAR(12),
+    OBJ_Y(16 + 32) | ATTR0_WIDE, OBJ_X(16 - 64) | OBJ_SIZE(3), OBJ_CHAR(20),
+    OBJ_Y(16 + 32) | ATTR0_TALL, OBJ_X(16 + 64 - 64) | OBJ_SIZE(2), OBJ_CHAR(28),
+    OBJ_Y(8) | ATTR0_WIDE, OBJ_X(56 - 64) | OBJ_SIZE(0), OBJ_CHAR(30),
 };
 
 const u16 portrait_Tor_obj[] = {
@@ -466,6 +487,19 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+const u16 portrait_Peony_bg[] = {
+    0x809,
+    21 + 32 * 3, 22 + 32 * 3, 23 + 32 * 3, 24 + 32 * 3, 25 + 32 * 3, 26 + 32 * 3, 27 + 32 * 3, 28 + 32 * 3, 29 + 32 * 3, 2,
+    21 + 32 * 2, 22 + 32 * 2, 23 + 32 * 2, 24 + 32 * 2, 25 + 32 * 2, 26 + 32 * 2, 27 + 32 * 2, 28 + 32 * 2, 29 + 32 * 2, 2,
+    21 + 32, 22 + 32, 23 + 32, 24 + 32, 25 + 32, 26 + 32, 27 + 32, 28 + 32, 29 + 32, 2,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 2,
+    7 + 32  * 3, 8 + 32  * 3, 9 + 32  * 3, 10 + 32  * 3, 11 + 32  * 3, 12 + 32  * 3, 13 + 32  * 3, 14 + 32  * 3, 15 + 32  * 3, 16 + 32  * 3,
+    7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2,
+    7 + 32, 8 + 32, 9 + 32, 10 + 32, 11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32,
+    7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
+    3 + 32, 2, 2, 2, 30, 31, 2, 32 * 3, 1 + 32 * 3, 2 + 32 * 3,
+};
+
 const u16 portrait_Tor_bg[] = {
     0x809,
     13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2, 20 + 32 * 2, 21 + 32 * 2, 22 + 32 * 2,
@@ -741,6 +775,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Srasir)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Hell)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eir)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Tor)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Peony)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -790,6 +825,7 @@ const Portrait* const portraits[] = {
     [0x10F] = &portraitLaevatain,
     [0x110] = &portraitLif,
     [0x111] = &portraitLoki,
+    [0x112] = &portraitPeony,
     [0x113] = &portraitSurtr,
     [0x114] = &portraitSrasir,
     [0x115] = &portraitYurg,
