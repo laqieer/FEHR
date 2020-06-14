@@ -30,8 +30,11 @@ FaceDefines = {
     "PID_スラシル":"PORTRAIT_THRASIR",
     "PID_ルピナス":"PORTRAIT_LUPINUS",
     "PID_フロージ":"PORTRAIT_FREYR",
-    "PID_トール":"iPORTRAIT_THORR",
+    "PID_トール":"PORTRAIT_THORR",
     "PID_死神騎士":"PORTRAIT_DEATH_KNIGHT",
+    "EID_スカビオサ":"PORTRAIT_TRIANDRA",
+    "EID_プルメリア":"PORTRAIT_PLUMERIA",
+    "PID_フード":"PORTRAIT_HOOD",
 }
 
 TextIDStart = 5036

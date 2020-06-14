@@ -3,10 +3,10 @@
 [MID_SCENARIO_MAP_BEGIN_S4063_EN] = TCC_OPEN_LEFT
 "Ｃｏｒｒｉｎ．．．　Ｅｖｅｎ　ｔｈｏｕｇｈ　Ｉ　ｃａｎ’ｔ"TCC_NEWLINE"　ｔｅｌｌ　ｙｏｕｔｈｅ　ｔｒｕｔｈ，　Ｉ　ｗｉｌｌ　ａｌー"TCC_NEWLINE"ｗａｙｓ　ｐｒｏｔｅｃｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S4063_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_ENDING_S4063_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
 "Ｗｅ’ｖｅ　ａｒｒｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏ，　ｔｈｉｓ　ｉｓ　Ｍｉｄｇａｒｄ，　ｔｈｅｎ．．．ｔー"TCC_NEWLINE"ｈｅ　ｈｕｍａｎｒｅａｌｍ．　Ａｎｄ　Ｉ　ｓｕｐｐｏｓｅ　"TCC_NEWLINE"ｗｅ’ｒｅ　ｉｎ　ｔｈｅＫｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ　ｎー"TCC_NEWLINE"ｏｗ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PLUMERIA
 "Ｔｈｉｓ　ｉｓ　ｗｈｅｒｅ　ｔｈｅｙ　ｃｏｍｍｉｔ　ａｌｌ"TCC_NEWLINE"　ｔｈｅｉｒｏｂｓｃｅｎｅ　ｈｕｍａｎ　ａｃｔｓ．．．　Ｈー"TCC_NEWLINE"ｏｗ　ｖｉｌｅ．"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｎｏｔｈｉｎｇ　ｔｏ　ｂｅ　ｄｏｎｅ　ｂｕｔ　ｃａｒー"TCC_NEWLINE"ｒｙ　ｏｕｔＬａｄｙ　Ｆｒｅｙｊａ’ｓ　ｏｒｄｅｒｓ　ａｎー"TCC_NEWLINE"ｄ　ｒｅｔｕｒｎ　ｔｏＤｋｋｌｆｈｅｉｍｒ　ａｓ　ｑｕｉｃー"TCC_NEWLINE"ｋｌｙ　ａｓ　ｐｏｓｓｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT

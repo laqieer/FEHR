@@ -1,8 +1,8 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S4041_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_OPENING_S4041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
 "Ｔｈｅ　ｌｊｓｌｆａｒ　ａｎｄ　ｔｈｅｉｒ　ｆｒｉｅｎｄｓ"TCC_NEWLINE"　ａｒｅｐｕｒｓｕｉｎｇ　ｕｓ，　ｊｕｓｔ　ａｓ　Ｌａｄｙ"TCC_NEWLINE"　Ｆｒｅｙｊａｈａｄ　ｐｒｅｄｉｃｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PLUMERIA
 "Ｙｅｓ．　Ｉｆ　ｏｕｒ　ｍｉｓｓｉｏｎ　ｃｏｎｔｉｎｕｅｓ"TCC_NEWLINE"　ｔｏ　ｇｏｔｈｉｓ　ｓｍｏｏｔｈｌｙ，　Ｌａｄｙ　Ｆｒｅー"TCC_NEWLINE"ｙｊａ　ｉｓ　ｓｕｒｅｔｏ　ｂｅ　ｍｏｓｔ　ｐｌｅａｓｅｄ"TCC_NEWLINE"　ｗｉｔｈ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｏｕｇｈ　Ｉ　ｍｕｓｔ　ｓａｙ，　Ｌｊｓｌｆｈｅｉｍｒー"TCC_NEWLINE"ｉｓ　ｍｏｒｅ　ｐｌｅａｓａｎｔ　ｔｈａｎ　Ｉ’ｄ　ｅｘｐー"TCC_NEWLINE"ｅｃｔｅｄｉｔ　ｗｏｕｌｄ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｒｅ　ｄｏｎ’ｔ　ｓｅｅｍ　ｔｏ　ｂｅ　ａｎｙｆｏｕー"TCC_NEWLINE"ｌ－ｍｉｎｄｅｄ　ｌｅｃｈｅｒｓ　ａｎｙｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A

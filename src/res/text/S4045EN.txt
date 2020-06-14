@@ -2,7 +2,7 @@
 
 [MID_SCENARIO_MAP_BEGIN_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ａｈａ！　Ｔｈｉｓ　ｉｓ　ｔｈｅ　Ｄｒｅａｍ　Ｇａｔｅ．．"TCC_NEWLINE"．　Ｔｈｉｓｉｓ　ｔｈｅ　ｏｎｅ　ｐｌａｃｅ　ｉｎ　Ｌｊｓー"TCC_NEWLINE"ｌｆｈｅｉｍｒ　ｔｈａｔＧｕｌｌｉｎｋａｍｂｉ　ｗｉｌｌ　"TCC_NEWLINE"ｓｏｕ"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_TRIANDRA
 "Ｓｏ．．．ｙｏｕ’ｒｅ　ｆｉｎａｌｌｙ　ｈｅｒｅ，　Ｓｗｅー"TCC_NEWLINE"ｅｔ　Ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｍ．．．　Ｙｏｕ　ｍｕｓｔ　ｂｅ　Ｔｒｉａｎｄｒａ！　Ｗー"TCC_NEWLINE"ｅ　ｋｎｅｗｗｅ’ｄ　ｃａｔｃｈ　ｕｐ　ｔｏ　ｙｏｕ　ｅｖー"TCC_NEWLINE"ｅｎｔｕａｌｌｙ！"TCC_NEWLINE TCC_PUSH_A
@@ -12,7 +12,7 @@ TCC_OPEN_RIGHT
 "Ｔｈａｔ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎｎｏｔ　ｄー"TCC_NEWLINE"ｏ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　Ｉ　ｗｏｎｄｅｒ．．．　Ｉｆ　ｓｏｍｅｔｈｉｎｇ　"TCC_NEWLINE"ｗｅｒｅｔｏ　ｈａｐｐｅｎ　ｔｏ　ｙｏｕ．．．ｗｏｕｌｄ　"TCC_NEWLINE"ｔｈｅ　ｍｏｒｔａｌｓａｃｃｅｐｔ　ｔｈｅ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅ　ａｓ　ｔｈｅｉｒ　ｒｅａｌｉｔｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S4045_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_END_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
 "Ｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｅｅｍｓ　ｗｅ’ｖｅ　ｌｏｓｔ　ｔｈｉｓ　ｔｉｍｅ．　Ｌー"TCC_NEWLINE"ｅｔ’ｓｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ，　Ｐｌｕｍｅｒｉａ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
@@ -68,7 +68,7 @@ TCC_OPEN_LEFT
 "Ｆｒｅｙｊａ，　ｌｉｓｔｅｎ　ｔｏ　ｍ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｒｉａｎｄｒａ，　Ｐｌｕｍｅｒｉａ．．．　Ｓｅｉｚｅ　ｈー"TCC_NEWLINE"ｉｍ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
 "Ｙｅｓ，　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｃｈ．　Ｍｅｄｄｌｅｓｏｍｅ　ｍｏｒｔａｌｓ．．．　Ｗｉー"TCC_NEWLINE"ｔｈｔｈｅ　ｓｏｕｎｄｉｎｇ　ｏｆ　ｔｈｅ　ｈｏｒｎ，　ｔー"TCC_NEWLINE"ｈｅｙ’ｌｌ　ｂｅｗａｋｉｎｇ　ａｎｙ　ｍｏｍｅｎｔ　ｎｏー"TCC_NEWLINE"ｗ．．．"TCC_NEWLINE TCC_PUSH_A
