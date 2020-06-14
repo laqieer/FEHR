@@ -62,6 +62,8 @@
 #include "portrait_Scabiosa_tileset.h"
 #include "portrait_Plumeria_mini.h"
 #include "portrait_Plumeria_tileset.h"
+#include "portrait_Froda_mini.h"
+#include "portrait_Froda_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -70,6 +72,27 @@ const Portrait portraitAlfonse = {
         portrait_alfonse_miniTiles,
         portrait_alfonse_tilesetPal,
         0, 0, 0, 0
+};
+
+const u16 portrait_Froda_obj[] = {
+    8,
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(24 - 40) | OBJ_SIZE(2), OBJ_CHAR(0),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(72 - 40) | OBJ_SIZE(2), OBJ_CHAR(32 * 2),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(0 - 40) | OBJ_SIZE(3), OBJ_CHAR(4),
+    OBJ_Y(16) | ATTR0_SQUARE, OBJ_X(64 - 40) | OBJ_SIZE(2), OBJ_CHAR(12),
+    OBJ_Y(16) | ATTR0_TALL, OBJ_X(64 + 32 - 40) | OBJ_SIZE(2), OBJ_CHAR(16),
+    OBJ_Y(48) | ATTR0_WIDE, OBJ_X(0 - 40) | OBJ_SIZE(3), OBJ_CHAR(18),
+    OBJ_Y(48) | ATTR0_SQUARE, OBJ_X(64 - 40) | OBJ_SIZE(2), OBJ_CHAR(26),
+    OBJ_Y(48) | ATTR0_TALL, OBJ_X(64 + 32 - 40) | OBJ_SIZE(2), OBJ_CHAR(30),
+    8,
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(24 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(0) | ATTR0_WIDE, OBJ_X(-(72 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(32 * 2),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(-(0 - 40) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(16) | ATTR0_SQUARE, OBJ_X(-(64 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(12),
+    OBJ_Y(16) | ATTR0_TALL, OBJ_X(-(64 + 32 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(16),
+    OBJ_Y(48) | ATTR0_WIDE, OBJ_X(-(0 - 40) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(18),
+    OBJ_Y(48) | ATTR0_SQUARE, OBJ_X(-(64 - 40) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(26),
+    OBJ_Y(48) | ATTR0_TALL, OBJ_X(-(64 + 32 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(30),
 };
 
 const u16 portrait_Plumeria_obj[] = {
@@ -539,6 +562,19 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+const u16 portrait_Froda_bg[] = {
+    0x809,
+    18 + 32 * 2, 19 + 32 * 2, 20 + 32 * 2, 21 + 32 * 2, 22 + 32 * 2, 23 + 32 * 2, 24 + 32 * 2, 25 + 32 * 2, 26 + 32 * 2, 27 + 32 * 2,
+    18 + 32, 19 + 32, 20 + 32, 21 + 32, 22 + 32, 23 + 32, 24 + 32, 25 + 32, 26 + 32, 27 + 32,
+    18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
+    4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 10 + 32 * 3, 11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3,
+    4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2,
+    4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32, 10 + 32, 11 + 32, 12 + 32, 13 + 32,
+    4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
+    31, 31, 31, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 31, 31, 0 + 32 * 3,
+    31, 31, 31, 0, 1, 2, 3, 31, 31, 0 + 32 * 2,
+};
+
 const u16 portrait_Plumeria_bg[] = {
     0x809,
     21 + 32 * 3, 22 + 32 * 3, 23 + 32 * 3, 24 + 32 * 3, 25 + 32 * 3, 26 + 32 * 3, 27 + 32 * 3, 28 + 32 * 3, 29 + 32 * 3, 30 + 32 * 3,
@@ -856,6 +892,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Tor)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Peony)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Scabiosa)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Plumeria)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Froda)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -911,6 +948,7 @@ const Portrait* const portraits[] = {
     [0x115] = &portraitYurg,
     [0x116] = &portraitXander,
     [0x117] = &portraitHell,
+    [0x118] = &portraitFroda,
     [0x119] = &portraitGustaf,
     [0x11A] = &portraitHenriette,
     [0x11C] = &portraitTor,
