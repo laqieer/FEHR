@@ -60,6 +60,8 @@
 #include "portrait_Peony_tileset.h"
 #include "portrait_Scabiosa_mini.h"
 #include "portrait_Scabiosa_tileset.h"
+#include "portrait_Plumeria_mini.h"
+#include "portrait_Plumeria_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -68,6 +70,31 @@ const Portrait portraitAlfonse = {
         portrait_alfonse_miniTiles,
         portrait_alfonse_tilesetPal,
         0, 0, 0, 0
+};
+
+const u16 portrait_Plumeria_obj[] = {
+    10,
+    OBJ_Y(8) | ATTR0_WIDE, OBJ_X(-(0 - 56) - 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(8) | ATTR0_WIDE, OBJ_X(-(32 - 56) - 32) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(8) | ATTR0_WIDE, OBJ_X(-(64 - 56) - 16) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(8),
+    OBJ_Y(0) | ATTR0_SQUARE, OBJ_X(-(80 - 56) - 16) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(0 + 32),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(-(0 - 56) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(10),
+    OBJ_Y(16) | ATTR0_TALL, OBJ_X(-(64 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(18),
+    OBJ_Y(16) | ATTR0_TALL, OBJ_X(-(64 + 16 - 56) - 8) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(20),
+    OBJ_Y(48) | ATTR0_WIDE, OBJ_X(-(8 - 56) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(21),
+    OBJ_Y(48) | ATTR0_TALL, OBJ_X(-(8 + 64 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(29),
+    OBJ_Y(48) | ATTR0_TALL, OBJ_X(-(8 + 64 + 16 - 56) - 8) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(31),
+    10,
+    OBJ_Y(8) | ATTR0_WIDE, OBJ_X(0 - 56) | OBJ_SIZE(1), OBJ_CHAR(0),
+    OBJ_Y(8) | ATTR0_WIDE, OBJ_X(32 - 56) | OBJ_SIZE(1), OBJ_CHAR(4),
+    OBJ_Y(8) | ATTR0_WIDE, OBJ_X(64 - 56) | OBJ_SIZE(0), OBJ_CHAR(8),
+    OBJ_Y(0) | ATTR0_SQUARE, OBJ_X(80 - 56) | OBJ_SIZE(1), OBJ_CHAR(0 + 32),
+    OBJ_Y(16) | ATTR0_WIDE, OBJ_X(0 - 56) | OBJ_SIZE(3), OBJ_CHAR(10),
+    OBJ_Y(16) | ATTR0_TALL, OBJ_X(64 - 56) | OBJ_SIZE(2), OBJ_CHAR(18),
+    OBJ_Y(16) | ATTR0_TALL, OBJ_X(64 + 16 - 56) | OBJ_SIZE(1), OBJ_CHAR(20),
+    OBJ_Y(48) | ATTR0_WIDE, OBJ_X(8 - 56) | OBJ_SIZE(3), OBJ_CHAR(21),
+    OBJ_Y(48) | ATTR0_TALL, OBJ_X(8 + 64 - 56) | OBJ_SIZE(2), OBJ_CHAR(29),
+    OBJ_Y(48) | ATTR0_TALL, OBJ_X(8 + 64 + 16 - 56) | OBJ_SIZE(1), OBJ_CHAR(31),
 };
 
 const u16 portrait_Scabiosa_obj[] = {
@@ -512,6 +539,19 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+const u16 portrait_Plumeria_bg[] = {
+    0x809,
+    21 + 32 * 3, 22 + 32 * 3, 23 + 32 * 3, 24 + 32 * 3, 25 + 32 * 3, 26 + 32 * 3, 27 + 32 * 3, 28 + 32 * 3, 29 + 32 * 3, 30 + 32 * 3,
+    21 + 32 * 2, 22 + 32 * 2, 23 + 32 * 2, 24 + 32 * 2, 25 + 32 * 2, 26 + 32 * 2, 27 + 32 * 2, 28 + 32 * 2, 29 + 32 * 2, 30 + 32 * 2,
+    21 + 32, 22 + 32, 23 + 32, 24 + 32, 25 + 32, 26 + 32, 27 + 32, 28 + 32, 29 + 32, 30 + 32,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    11 + 32 * 3, 12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3, 15 + 32 * 3, 16 + 32 * 3, 17 + 32 * 3, 18 + 32 * 3, 19 + 32 * 3, 20 + 32 * 3,
+    11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2, 20 + 32 * 2,
+    11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32, 19 + 32, 20 + 32,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 0 + 32 * 2,
+};
+
 const u16 portrait_Scabiosa_bg[] = {
     0x809,
     20 + 32 * 3, 21 + 32 * 3, 22 + 32 * 3, 23 + 32 * 3, 24 + 32 * 3, 25 + 32 * 3, 26 + 32 * 3, 27 + 32 * 3, 28 + 32 * 3, 29 + 32 * 3,
@@ -815,6 +855,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eir)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Tor)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Peony)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Scabiosa)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Plumeria)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -874,6 +915,7 @@ const Portrait* const portraits[] = {
     [0x11A] = &portraitHenriette,
     [0x11C] = &portraitTor,
     [0x11D] = &portraitScabiosa,
+    [0x11E] = &portraitPlumeria,
     [0x130] = &classcardLord,
     [0x140] = &portraitFjormBG,
     [CLASSCARD_MAGE_KNIGHT] = &classcardMageKnight, // 0x131
