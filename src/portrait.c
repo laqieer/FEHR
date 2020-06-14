@@ -64,6 +64,8 @@
 #include "portrait_Plumeria_tileset.h"
 #include "portrait_Froda_mini.h"
 #include "portrait_Froda_tileset.h"
+#include "portrait_Hood_mini.h"
+#include "portrait_Hood_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 
@@ -72,6 +74,31 @@ const Portrait portraitAlfonse = {
         portrait_alfonse_miniTiles,
         portrait_alfonse_tilesetPal,
         0, 0, 0, 0
+};
+
+const u16 portrait_Hood_obj[] = {
+    10,
+    OBJ_Y(-32) | ATTR0_WIDE, OBJ_X(-(32 - 56) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(-32) | ATTR0_TALL, OBJ_X(-(32 + 32 - 56) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(32 * 2),
+    OBJ_Y(16 - 32) | ATTR0_SQUARE, OBJ_X(-(24 - 56) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(4),
+    OBJ_Y(16 - 32) | ATTR0_TALL, OBJ_X(-(24 + 32 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(8),
+    OBJ_Y(32 - 32) | ATTR0_TALL, OBJ_X(-(72 - 56) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(1 + 32 * 2),
+    OBJ_Y(48 - 32) | ATTR0_WIDE, OBJ_X(-(8 - 56) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(10),
+    OBJ_Y(48 - 32) | ATTR0_TALL, OBJ_X(-(8 + 64 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(18),
+    OBJ_Y(48 + 16 - 32) | ATTR0_TALL, OBJ_X(-(8 + 64 + 16 - 56) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(2 + 32 * 2),
+    OBJ_Y(80 - 32) | ATTR0_WIDE, OBJ_X(-(0 - 56) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(20),
+    OBJ_Y(80 - 32) | ATTR0_SQUARE, OBJ_X(-(64 - 56) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
+    10,
+    OBJ_Y(-32) | ATTR0_WIDE, OBJ_X(32 - 56) | OBJ_SIZE(2), OBJ_CHAR(0),
+    OBJ_Y(-32) | ATTR0_TALL, OBJ_X(32 + 32 - 56) | OBJ_SIZE(0), OBJ_CHAR(32 * 2),
+    OBJ_Y(16 - 32) | ATTR0_SQUARE, OBJ_X(24 - 56) | OBJ_SIZE(2), OBJ_CHAR(4),
+    OBJ_Y(16 - 32) | ATTR0_TALL, OBJ_X(24 + 32 - 56) | OBJ_SIZE(2), OBJ_CHAR(8),
+    OBJ_Y(32 - 32) | ATTR0_TALL, OBJ_X(72 - 56) | OBJ_SIZE(0), OBJ_CHAR(1 + 32 * 2),
+    OBJ_Y(48 - 32) | ATTR0_WIDE, OBJ_X(8 - 56) | OBJ_SIZE(3), OBJ_CHAR(10),
+    OBJ_Y(48 - 32) | ATTR0_TALL, OBJ_X(8 + 64 - 56) | OBJ_SIZE(2), OBJ_CHAR(18),
+    OBJ_Y(48 + 16 - 32) | ATTR0_TALL, OBJ_X(8 + 64 + 16 - 56) | OBJ_SIZE(0), OBJ_CHAR(2 + 32 * 2),
+    OBJ_Y(80 - 32) | ATTR0_WIDE, OBJ_X(0 - 56) | OBJ_SIZE(3), OBJ_CHAR(20),
+    OBJ_Y(80 - 32) | ATTR0_SQUARE, OBJ_X(64 - 56) | OBJ_SIZE(2), OBJ_CHAR(28),
 };
 
 const u16 portrait_Froda_obj[] = {
@@ -562,6 +589,19 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+const u16 portrait_Hood_bg[] = {
+    0x809,
+    10 + 32 * 2, 11 + 32 * 2, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2,
+    10 + 32, 11 + 32, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32, 19 + 32,
+    10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+    10, 10, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 1 + 32 * 3, 10,
+    10, 10, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 1 + 32 * 2, 10,
+    10, 10, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32, 10, 10,
+    10, 10, 4, 5, 6, 7, 8, 9, 10, 10,
+    10, 10, 10, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 0 + 32 * 3, 10, 10,
+    10, 10, 10, 0, 1, 2, 3, 0 + 32 * 2, 10, 10,
+};
+
 const u16 portrait_Froda_bg[] = {
     0x809,
     18 + 32 * 2, 19 + 32 * 2, 20 + 32 * 2, 21 + 32 * 2, 22 + 32 * 2, 23 + 32 * 2, 24 + 32 * 2, 25 + 32 * 2, 26 + 32 * 2, 27 + 32 * 2,
@@ -893,6 +933,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Peony)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Scabiosa)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Plumeria)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Froda)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Hood)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -954,6 +995,7 @@ const Portrait* const portraits[] = {
     [0x11C] = &portraitTor,
     [0x11D] = &portraitScabiosa,
     [0x11E] = &portraitPlumeria,
+    [0x11F] = &portraitHood,
     [0x130] = &classcardLord,
     [0x140] = &portraitFjormBG,
     [CLASSCARD_MAGE_KNIGHT] = &classcardMageKnight, // 0x131
