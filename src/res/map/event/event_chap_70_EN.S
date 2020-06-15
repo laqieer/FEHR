@@ -53,7 +53,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Alfonse,AlfonseLord,Anna,9,19,9,19)
 	UNIT_ALLY_JOINED(Anna,AnnaLord,0,7,19,7,19)
 	UNIT_ALLY_JOINED(Sharena,SharenaLord,Anna,5,19,5,19)
-	UNIT_ALLY_JOINED(Bruno,Bruno,Anna,7,15,7,15)
+	UNIT_ALLY_JOINED(Bruno,MageKnight,Anna,7,15,7,15)
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericEmblianWeak,Warrior,0,1,SIDE_ENEMY,0,4,6,4,6,IronAxe,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // アクスファイター
