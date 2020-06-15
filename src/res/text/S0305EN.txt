@@ -1,12 +1,12 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_MAP_BEGIN_S0305_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_BEGIN_S0305_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_XANDER
 "Ｈｏｗ　ｉｎｔｒｉｇｕｉｎｇ．　Ｙｏｕ　ｍａｎａｇｅｄ　ｔー"TCC_NEWLINE"ｏｂａｔｔｌｅ　ｙｏｕｒ　ｗａｙ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｓａｉｄ　ｔｈａｔ　ｔー"TCC_NEWLINE"ｈｅＯｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｈａｄ　ｔｈｅ　ａｄｖー"TCC_NEWLINE"ａｎｔａｇｅｏｆ　ａ　ｌｅｇｅｎｄａｒｙ　ｓｕｍｍｏｎｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｃｌｅａｒｌｙ，　ｔｈａｔ　ｉｓ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｔｉｌｌ，　ｗｅ’ｌｌ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　ｙｏー"TCC_NEWLINE"ｕ　ｎｏｗ．Ｌａｓｌｏｗ？　Ｐｅｒｉ？　Ｌｅｔ’ｓ　ｓｈｏー"TCC_NEWLINE"ｗ　ｔｈｅｍ　ｔｈａｔｗｅ　ｗｉｌｌ　ｎｏｔ　ｆａｌｌ　ｔー"TCC_NEWLINE"ｏ　ｔｈｅｉｒ　ｆｏｒｃｅ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S0305_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_END_S0305_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_XANDER
 "Ｙｏｕ　ｆｏｕｇｈｔ　ｗｅｌｌ．　Ｉ　ａｄｍｉｔ　ｄｅｆｅー"TCC_NEWLINE"ａｔ．Ｔｈｉｓ　ｍｅａｎｓ　ｔｈａｔ　ｔｈｅ　ｃｏｎｔｒａー"TCC_NEWLINE"ｃｔ　ｔｈａｔｂｉｎｄｓ　ｕｓ　ｉｓ　ｎｏｗ　ｂｒｏｋｅｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｏｓｅ　ｏｆ　ｍｙ　ｗｏｒｌｄ　ａｒｅ　ｎｏ　ｌｏｎｇー"TCC_NEWLINE"ｅｒｃｏｍｐｅｌｌｅｄ　ｔｏ　ｆｉｇｈｔ　ｙｏｕｏｒ　ｔｏー"TCC_NEWLINE"ｉｎｖａｄｅ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　Ｉ　ｃｈｏｏｓｅ　ｔｏ　ｓｔａｙ　ａｔ　ｔｈｅ　ｓー"TCC_NEWLINE"ｉｄｅｏｆ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｎｅｘｔ"TCC_NEWLINE"　ｔｉｍｅｗｅ　ｍｅｅｔ，　Ｉ　ｗｉｌｌ　ｄｅｆｅａｔ　ｙー"TCC_NEWLINE"ｏｕ．"

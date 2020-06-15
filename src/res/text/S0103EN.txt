@@ -10,7 +10,7 @@ TCC_OPEN_LEFT
 "Ｏｈ，　ｉｔ’ｓ　ｙｏｕ．　Ａｎｄ　ａｆｔｅｒ　Ｉ　ｗｅｎー"TCC_NEWLINE"ｔｔｈｒｏｕｇｈ　ａｌｌ　ｔｈａｔ　ｔｒｏｕｂｌｅ　ｔｏ　"TCC_NEWLINE"ａｒｒａｎｇｅｙｏｕｒ　ｐｌａｙｄａｔｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏｗ，　ｗｈｏ　ａｒｅ　ＹＯＵ，　ｓｔｒａｎｇｅｒ？　Ｙー"TCC_NEWLINE"ｏｕｈａｖｅ　ｔｈａｔ　ｓｉｌｌｙ　ｒｅｌｉｃ．　Ｔｈｅｎ"TCC_NEWLINE"　ｙｏｕ　ｍｕｓｔｂｅ　ｔｈｅ　ｌｅｇｅｎｄａｒｙ　ｓｕｍー"TCC_NEWLINE"ｍｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏ　ｍａｔｔｅｒ．　Ｉｔ　ｓｉｍｐｌｙ　ｍｅａｎｓ　ｔｈー"TCC_NEWLINE"ａｔｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｆｉｒｓｔ　ｔｏ　ｄｉー"TCC_NEWLINE"ｅ．Ｏｈ．．．Ｘａｎｄｅｒ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_XANDER
 "Ｙｏｕ　ｗｉｓｈ　ｔｈｉｓ　ｏｎｅ　ｓｌａｉｎ，　Ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓＶｅｒｏｎｉｃａ？　Ａｓ　ｙｏｕ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｎｏ！　Ｓｈｅ　ｈａｓ　Ｘａｎｄｅｒ，　ｏｎｅ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅｍｏｓｔ　ｐｏｗｅｒｆｕｌ　Ｈｅｒｏｅｓ　ｆｒｏｍｔｈｅ"TCC_NEWLINE"　Ｗｏｒｌｄ　ｏｆ　Ｃｏｎｑｕｅｓｔ．"TCC_NEWLINE TCC_PUSH_A

@@ -29,14 +29,16 @@ FaceDefines = {
     "PID_ヘルビンディ":"PORTRAIT_HELBINDI",
     "PID_ヘンリエッテ":"PORTRAIT_HENRIETTE",
     "PID_フリーズ":"PORTRAIT_HRID",
+    "PID_スリーズ":"PORTRAIT_GUNNTHRA",
     "PID_スラシル":"PORTRAIT_THRASIR",
-    "PID_ルピナス":"PORTRAIT_LUPINUS",
+    "PID_ルピナス":"PORTRAIT_MIRABILIS",
     "PID_フロージ":"PORTRAIT_FREYR",
-    "PID_トール":"iPORTRAIT_THORR",
+    "PID_トール":"PORTRAIT_THORR",
     "PID_死神騎士":"PORTRAIT_DEATH_KNIGHT",
     "EID_スカビオサ":"PORTRAIT_TRIANDRA",
     "EID_プルメリア":"PORTRAIT_PLUMERIA",
     "PID_フード":"PORTRAIT_HOOD",
+    "PID_マークス":"PORTRAIT_XANDER",
 }
 
 TextIDStart = 6020

@@ -67,7 +67,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｃｏｕｌｄ　ｓａｙ　ｓｏ．　Ｉｔ　ｈａｓ，　ｈｏｗー"TCC_NEWLINE"ｅｖｅｒ，ｇｉｖｅｎ　ｍｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｌｏー"TCC_NEWLINE"ｏｋ　ｆｏｒｗａｒｄｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｎｔｏ　ｔｏｗｎ！　Ｗｅ　ｗｉｌｌ　ｂｕｒｎ　ｔｈｅｍ　"TCC_NEWLINE"ａｌｌ　ｔｏａｓｈ，　ｊｕｓｔ　ａｓ　Ｉ　ｐｒｏｍｉｓｅｄ"TCC_NEWLINE"　ｔｈｅ　ｙｏｕｎｇｐｒｉｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_XANDER
 "Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｅｓｃａｐｅｄ！　Ｗｅ　ｇａｉー"TCC_NEWLINE"ｎｎｏｔｈｉｎｇ　ｂｙ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ’ｍ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｄｅｃｉｄｅｓ　ｗｈａｔ　"TCC_NEWLINE"ｗｅ　ｄｏ，ａｎｄ　ｗｈａｔ　ｗｅ　ｄｏｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A

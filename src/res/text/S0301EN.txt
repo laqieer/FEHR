@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_MAP_BEGIN_S0301_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_BEGIN_S0301_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_XANDER
 "Ｓｏ，　ｙｏｕ　ｈａｖｅ　ｃｏｍｅ　ｔｏ　ｂａｔｔｌｅ　ｕー"TCC_NEWLINE"ｓ？Ｔｈｉｓ　ｗｉｌｌ　ｂｅ　ｔｈｅ　ｓｅｃｏｎｄ　ｔｉｍー"TCC_NEWLINE"ｅｙｏｕ　ｆａｃｅ　ｍｙ　ｂｌａｄｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ａｒｅ　ａｌｌ　ｂｏｕｎｄ　ｂｙ　ａ　ｃｏｎｔｒａｃー"TCC_NEWLINE"ｔｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ｙｅｔ　Ｉ　ａｍ　ａｌｓｏ　ｂｏｕｎｄ　ｉｎ　ａｎー"TCC_NEWLINE"ｏｔｈｅｒｗａｙｂｙ　ｔｈｅ　ｄｅｅｐ　ｌｏｎｅｌｉｎｅｓー"TCC_NEWLINE"ｓ　Ｉｓｅｅ　ｉｎ　ｈｅｒ　ｅｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
@@ -8,7 +8,7 @@
 "Ｐｅｒｈａｐｓ　ｙｏｕ　ｃａｎ　ｕｎｄｅｒｓｔａｎｄｗｈｙ"TCC_NEWLINE"　Ｉ　ｃｏｕｌｄ　ｎｅｖｅｒ　ｏｐｐｏｓｅ　ｈｅｒ．Ｏｒ　"TCC_NEWLINE"ｐｅｒｈａｐｓ　ｙｏｕ　ｃａｎｎｏｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｅｉｔｈｅｒ　ｗａｙ，　ｉｔ’ｓ　ｔｉｍｅ　ｔｈａｔ　ｍｙ"TCC_NEWLINE"　ｆａｍｉｌｙａｎｄ　Ｉ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｙｏー"TCC_NEWLINE"ｕ．　Ｃａｍｉｌｌａ，Ｌｅｏ，　ａｎｄ　Ｅｌｉｓｅｗｅ　ｂー"TCC_NEWLINE"ａｔｔｌｅ　ｎｏｗ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S0301_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_END_S0301_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_XANDER
 "Ｙｏｕ　ｈａｖｅ　ｍｏｒｅ　ｔａｌｅｎｔ　ｔｈａｎ　Ｉ　ｔー"TCC_NEWLINE"ｈｏｕｇｈｔ．Ｂｕｔ　ｎｏｗ　ｍｙ　ｆａｍｉｌｙ　ａｎｄ　"TCC_NEWLINE"Ｉ　ｋｎｏｗｗｈａｔ　ｙｏｕ　ｃａｎ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｗｉｌｌ　ｎｅｖｅｒ　ｓｕｒｖｉｖｅ　ｔｈｅ　ｂａー"TCC_NEWLINE"ｔｔｌｅｓｎｅｘｔ　ｔｏ　ｃｏｍｅｅａｃｈ　ｏｆ　ｕｓ，　"TCC_NEWLINE"ｗｉｔｈ　ｏｕｒｌｏｙａｌ　ｒｅｔａｉｎｅｒｓ　ａｔ　ｏｕー"TCC_NEWLINE"ｒ　ｓｉｄｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -28,7 +28,7 @@ TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ａｎｄ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ　ｃｏｏｐｅｒａｔｅ，　Ｉ"TCC_NEWLINE"’ｌｌ　ｂｒｅａｋｙｏｕｒ　ｌｅｇｓ　ａｎｄ　ｄｒａｇ　ｙー"TCC_NEWLINE"ｏｕ　ｔｈｅｒｅ　ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_XANDER
 "Ｈｏｗ　ｄａｒｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ａｈ，　ｔｈｅ　ｄｏｇ　ｗｈｏ　ｒｕｎｓ　ｗｉｔｈ　Ｅｍｂー"TCC_NEWLINE"ｌａ！　Ｗｅｗｅｒｅ　ｉｎｔｅｒｒｕｐｔｅｄ　ｂｅｆｏｒｅ"TCC_NEWLINE"．　Ｓｈａｌｌ　ｗｅｓｅｔｔｌｅ　ｔｈｉｎｇｓ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A

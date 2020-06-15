@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LUPINUS
+[MID_SCENARIO_OPENING_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
 "Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ"TCC_NEWLINE"．．．Ｔｈｅ　ｓｕｎ’ｓ　ｌａｓｔ　ｒａｙｓ　ａｒｅ　ｄｉー"TCC_NEWLINE"ｓａｐｐｅａｒｉｎｇ．．．Ｔｈｉｓ　ｉｓ　ｗｈｅｎ　ｄａｙ"TCC_NEWLINE"　ｔｕｒｎｓ　ｔｏ　ｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｒｅ　ｙｏｕ　ｓｕｒｅ？　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅａ　"TCC_NEWLINE"ｄｅａｄ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
@@ -28,7 +28,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_TRIANDRA
 "Ｔｈｉｓ　ｉｓ　ｙｏｕｒ　ｆｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｒｅ　ｉｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｒｕｎ．　Ｉｔ’ｓ"TCC_NEWLINE"　ｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_LUPINUS
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
 "Ｏｈ　ｎｏ．．．　Ｗｈ－ｗｈａｔ　ｓｈｏｕｌｄ　Ｉ　ｄｏ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｎ　ａ　ｔｉｍｅ　ｌｉｋｅ　ｔｈｉｓ．．．ｔｈｅｒｅ’ｓ"TCC_NEWLINE"　ｏｎｌｙｏｎｅ　ｔｈｉｎｇ　ｔｏ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｚｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
