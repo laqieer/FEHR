@@ -61,7 +61,7 @@ EnemyUnitsENM:
 	UNIT(GenericSummonedStrongDrop,Bishop_F,0,10,SIDE_ENEMY,1,5,2,5,2,Shine,Heal,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // リンダ
 	UNIT(GenericSummonedStrongDrop,Bishop_F,0,10,SIDE_ENEMY,1,11,2,11,2,Divine,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ユリア
 	UNIT(GenericSummonedStrong,4,0,10,SIDE_ENEMY,1,8,2,8,2,LightBrand,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // セリス
-	UNIT(GenericSummonedStrongDrop,Sage,0,10,SIDE_ENEMY,1,0,2,0,2,Thunder,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // マリク
+	UNIT(GenericSummonedStrongDrop,Sage,0,10,SIDE_ENEMY,1,0,2,0,2,Fire,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // マリク
 	END_UNIT
 TrapsEliwoodMode:
 TrapsHectorMode:
