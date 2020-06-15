@@ -32,6 +32,10 @@ const char* const texts[] = {
         // character GenericSoldierEmblianSuperWeak description
         [0x221] = "エンブラ帝国の兵士",
 
+        [TEXT_CHARACTER_NAME_GENERIC_FLAME] = "ムスペル兵",
+
+        [TEXT_CHARACTER_HELP_GENERIC_FLAME] = "ムスペル帝国の兵士",
+
         // GenericSoldierSummoned name
         [1377] = "異界の英雄",
 
