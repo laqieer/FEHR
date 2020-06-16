@@ -224,6 +224,10 @@ const char* const texts[] = {
                "するつもりです。。。" TCC_NEWLINE TCC_PUSH_A
                TCC_CLEAR_FACE,
 
+        [TEXT_CHARACTER_NAME_LOKI] = "ロキ",
+
+        [TEXT_CHARACTER_HELP_LOKI] = "炎の王国ムスペルの軍師。"TCC_NEWLINE"悪戯好きで、人を誘惑することを好む。",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
