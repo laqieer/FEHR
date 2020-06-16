@@ -31,6 +31,7 @@ FaceDefines = {
     "PID_スラシル":"PORTRAIT_THRASIR",
     "PID_ルピナス":"PORTRAIT_MIRABILIS",
     "PID_フロージ":"PORTRAIT_FREYR",
+    "EID_フレイヤ":"PORTRAIT_FREYJA",
     "PID_トール":"PORTRAIT_THORR",
     "PID_死神騎士":"PORTRAIT_DEATH_KNIGHT",
     "EID_スカビオサ":"PORTRAIT_TRIANDRA",

@@ -22,7 +22,7 @@
 #define PORTRAIT_GUNNTHRA "\xA\x2"
 #define PORTRAIT_HELBINDI "\xB\x2"
 #define PORTRAIT_HRID "\xC\x2"
-//#define PORTRAIT_KRONYA "\xD\x2"
+#define PORTRAIT_FREYJA "\xD\x2"
 #define PORTRAIT_LAEGJARN "\xE\x2"
 #define PORTRAIT_LAEVATEIN "\xF\x2"
 #define PORTRAIT_LIF "\x10\x2"

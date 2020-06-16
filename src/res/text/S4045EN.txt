@@ -46,7 +46,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 [MID_SCENARIO_ENDING_S4045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYR
 "Ｔｈｅ　ｈｏｒｎ　ｓｏｕｎｄｓ．．．　Ｔｈｅｎ　ｔｈｅｙ　"TCC_NEWLINE"ｈａｖｅｒｅｔｕｒｎｅｄ　ｔｏ　ｔｈｅ　ｗｏｒ"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FREYJA
 "Ｉｔ　ｈａｓ　ｂｅｅｎ　ｓｏ　ｌｏｎｇ，　Ｂｒｏｔｈｅｒ．"TCC_NEWLINE"．．ａｎｄｔｈｉｓ　ｉｓ　ｈｏｗ　ｙｏｕ　ｇｒｅｅｔ　ｍｅ"TCC_NEWLINE"，　ｙｏｕｒｂｅｌｏｖｅｄ　ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｗｉｌｌ　ａｓｋ　ｏｎｃｅ　ｍｏｒｅ，　Ｆｒｅｙｊａ．"TCC_NEWLINE"．．Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
