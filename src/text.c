@@ -51,8 +51,8 @@ const char* const texts[] = {
         // character Alfonse death quote
         [TEXT_DEATH_QUOTE_ALFONSE] = TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_ALFONSE
-                "僕も。。。" TCC_NEWLINE
-                "負け。。。か。。。" TCC_PUSH_A,
+                "僕の、負け。。。" TCC_NEWLINE
+                "か。。。" TCC_PUSH_A,
 
         // character Anna name
         [0x4E5] = "アンナ",
@@ -111,6 +111,118 @@ const char* const texts[] = {
 
         // character Xander description
         [528] = "暗夜王国の王子。神器「ジークフリート」の使い手。騎士道を重んじており、兵からの人望も厚い。",
+
+        [TEXT_DEATH_QUOTE_XANDER] = TCC_OPEN_FAR_RIGHT
+            TCC_LOAD_FACE PORTRAIT_XANDER
+            "私は。。。" TCC_NEWLINE
+            "ここまでだ。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_FJORM] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_FJORM
+               "すみませ。。。ん。。。" TCC_NEWLINE
+               "ご迷惑を。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_EIR] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_EIR
+               "死ぬのね。。。" TCC_NEWLINE
+               "私。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_PEONY] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_PEONY
+               "すごく。。。" TCC_NEWLINE
+               "ねむいの。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_YURG] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_YLGR
+               "あーあ。。。" TCC_NEWLINE
+               "ざんねん。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_HELL] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_HEL
+               "私は。。。" TCC_NEWLINE
+               "死なぬのか。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_GUNNTHRA] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_GUNNTHRA
+               "ごめんなさい。。。" TCC_NEWLINE
+               "フィヨルム。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_HELBINDI] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_HELBINDI
+               "。。。ゴミみてえな。。。" TCC_NEWLINE
+               "最期だ。。。な。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_HRID] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_HRID
+               "すまない。。。" TCC_NEWLINE
+               "フィヨルム。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_LAEGJARN] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_LAEGJARN
+               "レーヴァテイン。。。" TCC_NEWLINE
+               "あなたは。。。どうか。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_LAEVATEIN] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_LAEVATEIN
+               "もう。。。" TCC_NEWLINE
+               "戦えない。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_LIF] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_LIF
+               "死ぬことは。。。" TCC_NEWLINE
+               "許されない。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_LOKI] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_LOKI
+               "もう。。。" TCC_NEWLINE
+               "だめ。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_GUSTAF] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_GUSTAV
+               "アルフォンス。。。" TCC_NEWLINE
+               "許せ。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_SURTR] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_SURTR
+               "馬。。。鹿なぁっ。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_SRASIR] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_THRASIR
+               "私は。。。" TCC_NEWLINE
+               "死ねないの。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_MIRABILIS] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_MIRABILIS
+               "ふかふかのベッドで。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_SCABIOSA] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_TRIANDRA
+               "眠りに。。。" TCC_NEWLINE
+               "つくのね。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_PLUMERIA] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_PLUMERIA
+               "私になにを。。。" TCC_NEWLINE
+               "するつもりです。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
 
         // Chapter event dialogue
 
