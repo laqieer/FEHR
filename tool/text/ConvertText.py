@@ -8,38 +8,37 @@ FacePositions = ("LEFT", "RIGHT", "MID_LEFT", "MID_RIGHT")
 
 # grep -r -h -o "PID_[^,^|]*" S*.json | sort | uniq -c | sort -k 1 -r
 FaceDefines = {
-    "PID_アルフォンス":"PORTRAIT_ALFONSE",
-    "PID_シャロン":"PORTRAIT_SHARENA",
-    "PID_アンナ":"PORTRAIT_ANNA",
-    "PID_フィヨルム":"PORTRAIT_FJORM",
-    "PID_神階エイル":"PORTRAIT_EIR",
-    "PID_神階ピアニー":"PORTRAIT_PEONY",
-    "PID_スルト":"PORTRAIT_SURTR",
-    "PID_レーギャルン":"PORTRAIT_LAEGJARN",
-    "PID_リーヴ":"PORTRAIT_LIF",
-    "PID_ロキ":"PORTRAIT_LOKI",
-    "EID_ロキ":"PORTRAIT_LOKI",
-    "PID_ロキ味方":"PORTRAIT_LOKI",
-    "PID_レーヴァテイン":"PORTRAIT_LAEVATEIN",
-    "PID_ヘル":"PORTRAIT_HEL",
-    "PID_ブルーノ皇子":"PORTRAIT_BRUNO_MASKED",
-    "EID_ブルーノ":"PORTRAIT_BRUNO_MASKED",
-    "PID_グスタフ":"PORTRAIT_GUSTAV",
-    "PID_ユルグ":"PORTRAIT_YLGR",
-    "PID_ヘルビンディ":"PORTRAIT_HELBINDI",
-    "PID_ヘンリエッテ":"PORTRAIT_HENRIETTE",
-    "PID_フリーズ":"PORTRAIT_HRID",
-    "PID_スリーズ":"PORTRAIT_GUNNTHRA",
-    "PID_スラシル":"PORTRAIT_THRASIR",
-    "PID_ルピナス":"PORTRAIT_MIRABILIS",
-    "PID_フロージ":"PORTRAIT_FREYR",
-    "EID_フレイヤ":"PORTRAIT_FREYJA",
-    "PID_トール":"PORTRAIT_THORR",
-    "PID_死神騎士":"PORTRAIT_DEATH_KNIGHT",
-    "EID_スカビオサ":"PORTRAIT_TRIANDRA",
-    "EID_プルメリア":"PORTRAIT_PLUMERIA",
-    "PID_フード":"PORTRAIT_HOOD",
-    "PID_マークス":"PORTRAIT_XANDER",
+    "ID_アルフォンス":"PORTRAIT_ALFONSE",
+    "ID_シャロン":"PORTRAIT_SHARENA",
+    "ID_アンナ":"PORTRAIT_ANNA",
+    "ID_フィヨルム":"PORTRAIT_FJORM",
+    "ID_神階エイル":"PORTRAIT_EIR",
+    "ID_神階ピアニー":"PORTRAIT_PEONY",
+    "ID_スルト":"PORTRAIT_SURTR",
+    "ID_レーギャルン":"PORTRAIT_LAEGJARN",
+    "ID_リーヴ":"PORTRAIT_LIF",
+    "ID_ロキ":"PORTRAIT_LOKI",
+    "ID_ロキ味方":"PORTRAIT_LOKI",
+    "ID_レーヴァテイン":"PORTRAIT_LAEVATEIN",
+    "ID_ヘル":"PORTRAIT_HEL",
+    "ID_ブルーノ皇子":"PORTRAIT_BRUNO_MASKED",
+    "ID_ブルーノ":"PORTRAIT_BRUNO_MASKED",
+    "ID_グスタフ":"PORTRAIT_GUSTAV",
+    "ID_ユルグ":"PORTRAIT_YLGR",
+    "ID_ヘルビンディ":"PORTRAIT_HELBINDI",
+    "ID_ヘンリエッテ":"PORTRAIT_HENRIETTE",
+    "ID_フリーズ":"PORTRAIT_HRID",
+    "ID_スリーズ":"PORTRAIT_GUNNTHRA",
+    "ID_スラシル":"PORTRAIT_THRASIR",
+    "ID_ルピナス":"PORTRAIT_MIRABILIS",
+    "ID_フロージ":"PORTRAIT_FREYR",
+    "ID_フレイヤ":"PORTRAIT_FREYJA",
+    "ID_トール":"PORTRAIT_THORR",
+    "ID_死神騎士":"PORTRAIT_DEATH_KNIGHT",
+    "ID_スカビオサ":"PORTRAIT_TRIANDRA",
+    "ID_プルメリア":"PORTRAIT_PLUMERIA",
+    "ID_フード":"PORTRAIT_HOOD",
+    "ID_マークス":"PORTRAIT_XANDER",
 }
 
 TextIDStart = 5036
@@ -68,11 +67,11 @@ for filename in sys.argv[1:]:
                 for t in texts:
                     if len(t) > 0:
                         if t[:7] in ("$WmMPID", "$WmMEID"):
-                            faceName = t[4:].split(',')[0]
-                            if faceName == "EID_ブルーノ":
-                                faceName = "PID_ブルーノ皇子"
-                            if faceName in ("PID_ロキ味方", "EID_ロキ"):
-                                faceName = "PID_ロキ"
+                            faceName = t[5:].split(',')[0]
+                            if faceName == "ID_ブルーノ":
+                                faceName = "ID_ブルーノ皇子"
+                            if faceName == "ID_ロキ味方":
+                                faceName = "ID_ロキ"
                             if faceName in faces:
                                 facePos = faces[faceName]
                                 text += "TCC_OPEN_" + FacePositions[facePos] + "\n"
