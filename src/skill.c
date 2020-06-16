@@ -2179,6 +2179,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_SHARENA_ID] = SPECIAL_SKILL_LUNA,
         [CHARACTER_BRUNO_ID] = SPECIAL_SKILL_VENGEANCE,
         [CHARACTER_VERONICA_ID] = SPECIAL_SKILL_REPRISAL,
+        [CHARACTER_LOKI_ID] = SPECIAL_SKILL_EARTH_WATER_BALM_PLUS,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -4091,6 +4092,7 @@ const u16 characterAssistSkills[0x100] = {
         [CHARACTER_SHARENA_ID] = ASSIST_SKILL_RALLY_ATK,
         [CHARACTER_BRUNO_ID] = ASSIST_SKILL_RECIPROCAL_AID,
         [CHARACTER_VERONICA_ID] = ASSIST_SKILL_HARSH_COMMAND,
+        [CHARACTER_LOKI_ID] = ASSIST_SKILL_SACRIFICE,
 };
 
 const u16 jobAssistSkills[0x100] = {
@@ -5118,6 +5120,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"獅子ふんじん２", "攻撃、速さ、守備、魔防＋２。戦闘後、自分に４ダメージ。", "Fury 2", "Grants Atk/Spd/Def/Res+2. After combat, deals 4 damage to unit."},
     {"獅子ふんじん３", "攻撃、速さ、守備、魔防＋３。戦闘後、自分に６ダメージ。", "Fury 3", "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."},
     {"獅子ふんじん４", "攻撃、速さ、守備、魔防＋４。戦闘後、自分に８ダメージ。", "Fury 4", "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit."},
+    {"妖婦の誘惑１", "ＨＰ＋３　ターン開始時、十\字方向の自身よりＨＰが５以上低い敵の移動を最大１マスに制限", "Loki's Temptation 1", "HP+3. At start of turn, if foe's HP <= unit's HP-5 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
+    {"妖婦の誘惑２", "ＨＰ＋４　ターン開始時、十\字方向の自身よりＨＰが３以上低い敵の移動を最大１マスに制限", "Loki's Temptation 2", "HP+4. At start of turn, if foe's HP <= unit's HP-3 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
+    {"妖婦の誘惑３", "ＨＰ＋５　ターン開始時、十\字方向の自身よりＨＰが１以上低い敵の移動を最大１マスに制限", "Loki's Temptation 3", "HP+5. At start of turn, if foe's HP <= unit's HP-1 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
+    {"妖婦の誘惑４", "ＨＰ＋７　ターン開始時、十\字方向の敵の移動を最大１マスに制限", "Loki's Temptation 4", "HP+7. At start of turn, if foe is in cardinal direction, foe cannot move more than 1 space through its action."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5125,6 +5131,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_ALFONSE_ID] = {PASSIVE_SKILL_A_DEATH_BLOW_1, PASSIVE_SKILL_A_DEATH_BLOW_2, PASSIVE_SKILL_A_DEATH_BLOW_3, PASSIVE_SKILL_A_DEATH_BLOW_4},
     [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_A_SPEED_1, PASSIVE_SKILL_A_SPEED_2, PASSIVE_SKILL_A_SPEED_3, PASSIVE_SKILL_A_SPEED_4},
     [CHARACTER_BRUNO_ID] = {PASSIVE_SKILL_A_FURY_1, PASSIVE_SKILL_A_FURY_2, PASSIVE_SKILL_A_FURY_3, PASSIVE_SKILL_A_FURY_4},
+    [CHARACTER_LOKI_ID] = {PASSIVE_SKILL_A_TEMPTATION_1, PASSIVE_SKILL_A_TEMPTATION_2, PASSIVE_SKILL_A_TEMPTATION_3, PASSIVE_SKILL_A_TEMPTATION_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -5206,6 +5213,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"死の吐息２", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に５ダメージ", "Savage Blow 2", "If unit initiates combat, deals 5 damage to foes within 2 spaces of target after combat."},
     {"死の吐息３", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に７ダメージ", "Savage Blow 3", "If unit initiates combat, deals 7 damage to foes within 2 spaces of target after combat."},
     {"死の吐息４", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に１０ダメージ", "Savage Blow 4", "If unit initiates combat, deals 10 damage to foes within 2 spaces of target after combat."},
+    {"攻撃の波・奇数１", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋２（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 1", "At start of odd-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"攻撃の波・奇数２", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋４（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 2", "At start of odd-numbered turns, grants Atk+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"攻撃の波・奇数３", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋６（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 3", "At start of odd-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"攻撃の波・奇数４", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋８（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 4", "At start of odd-numbered turns, grants Atk+8 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -5214,6 +5225,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_ANNA_ID] = {PASSIVE_SKILL_C_SPUR_RES_1, PASSIVE_SKILL_C_SPUR_RES_2, PASSIVE_SKILL_C_SPUR_RES_3, PASSIVE_SKILL_C_SPUR_RES_4},
     [CHARACTER_SHARENA_ID] = {PASSIVE_SKILL_C_FORTIFY_DEF_1, PASSIVE_SKILL_C_FORTIFY_DEF_2, PASSIVE_SKILL_C_FORTIFY_DEF_3, PASSIVE_SKILL_C_FORTIFY_DEF_4},
     [CHARACTER_VERONICA_ID] = {PASSIVE_SKILL_C_SAVAGE_BLOW_1, PASSIVE_SKILL_C_SAVAGE_BLOW_2, PASSIVE_SKILL_C_SAVAGE_BLOW_3, PASSIVE_SKILL_C_SAVAGE_BLOW_4},
+    [CHARACTER_LOKI_ID] = {PASSIVE_SKILL_C_ODD_ATK_WAVE_1, PASSIVE_SKILL_C_ODD_ATK_WAVE_2, PASSIVE_SKILL_C_ODD_ATK_WAVE_3, PASSIVE_SKILL_C_ODD_ATK_WAVE_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

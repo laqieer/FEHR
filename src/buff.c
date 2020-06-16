@@ -616,7 +616,27 @@ void addUnitDebuffLuck(struct Unit *unit, s8 debuffValue)
 
 int GetUnitMaxHp(struct Unit* unit) 
 {
-    return unit->maxHp + GetItemHpBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffHP(unit);
+    int maxHp = unit->maxHp + GetItemHpBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffHP(unit);
+
+    switch(getUnitPassiveSkillA(unit))
+    {
+        case PASSIVE_SKILL_A_TEMPTATION_1:
+            maxHp += 3;
+            break;
+        case PASSIVE_SKILL_A_TEMPTATION_2:
+            maxHp += 4;
+            break;
+        case PASSIVE_SKILL_A_TEMPTATION_3:
+            maxHp += 5;
+            break;
+        case PASSIVE_SKILL_A_TEMPTATION_4:
+            maxHp += 7;
+            break;
+        default:
+            break;
+    }
+
+    return maxHp;
 }
 
 int GetUnitHp(struct Unit* unit)
@@ -864,6 +884,67 @@ void clearBuffDebuffAndNewStateForP4Units()
     clearNewStateForP4Units();
 }
 
+void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumber, struct Unit *targetUnits, int targetUnitNumber)
+{
+    for(int i = 0; i < skillUnitNumber; i++)
+    {
+        if((skillUnits[i].state & UNIT_STATE_DEAD) == 0 && getUnitPassiveSkillA(&skillUnits[i]))
+        {
+            for(int j = 0; j < targetUnitNumber; j++)
+            {
+                if((targetUnits[j].state & UNIT_STATE_DEAD) == 0)
+                {
+                    switch(getUnitPassiveSkillA(&skillUnits[i]))
+                    {
+                        case PASSIVE_SKILL_A_TEMPTATION_1:
+                            if((skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY) && GetUnitHp(&targetUnits[j]) <= GetUnitHp(&skillUnits[i]) - 5)
+                                 setUnitStateGravity(&targetUnits[j]);
+                            break;
+                        case PASSIVE_SKILL_A_TEMPTATION_2:
+                            if((skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY) && GetUnitHp(&targetUnits[j]) <= GetUnitHp(&skillUnits[i]) - 3)
+                                 setUnitStateGravity(&targetUnits[j]);
+                            break;
+                        case PASSIVE_SKILL_A_TEMPTATION_3:
+                            if((skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY) && GetUnitHp(&targetUnits[j]) <= GetUnitHp(&skillUnits[i]) - 1)
+                                 setUnitStateGravity(&targetUnits[j]);
+                            break;
+                        case PASSIVE_SKILL_A_TEMPTATION_4:
+                            if(skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY)
+                                 setUnitStateGravity(&targetUnits[j]);
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+        }
+    }
+}
+
+void updateNewStateWithPassiveSkillAForPlayerUnits()
+{
+    updateNewStateWithPassiveSkillA(enemyUnits, ENEMY_TOTAL_AMOUNT, playerUnits, PLAYER_TOTAL_AMOUNT);
+    updateNewStateWithPassiveSkillA(P4Units, P4_TOTAL_AMOUNT, playerUnits, PLAYER_TOTAL_AMOUNT);
+}
+
+void updateNewStateWithPassiveSkillAForEnemyUnits()
+{
+    updateNewStateWithPassiveSkillA(playerUnits, PLAYER_TOTAL_AMOUNT, enemyUnits, ENEMY_TOTAL_AMOUNT);
+    updateNewStateWithPassiveSkillA(NPCUnits, NPC_TOTAL_AMOUNT, enemyUnits, ENEMY_TOTAL_AMOUNT);
+}
+
+void updateNewStateWithPassiveSkillAForNPCUnits()
+{
+    updateNewStateWithPassiveSkillA(enemyUnits, ENEMY_TOTAL_AMOUNT, NPCUnits, NPC_TOTAL_AMOUNT);
+    updateNewStateWithPassiveSkillA(P4Units, P4_TOTAL_AMOUNT, NPCUnits, NPC_TOTAL_AMOUNT);
+}
+
+void updateNewStateWithPassiveSkillAForP4Units()
+{
+    updateNewStateWithPassiveSkillA(playerUnits, PLAYER_TOTAL_AMOUNT, P4Units, P4_TOTAL_AMOUNT);
+    updateNewStateWithPassiveSkillA(NPCUnits, NPC_TOTAL_AMOUNT, P4Units, P4_TOTAL_AMOUNT);
+}
+
 void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
 {
     for(int i = 0; i < number; i++)
@@ -893,6 +974,22 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
                         case PASSIVE_SKILL_C_FORTIFY_DEF_4:
                             if(distance == 1)
                                 updateUnitBuffDefense(&units[i], 5);
+                            break;
+                        case PASSIVE_SKILL_C_ODD_ATK_WAVE_1:
+                            if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffPower(&units[i], 2);
+                            break;
+                        case PASSIVE_SKILL_C_ODD_ATK_WAVE_2:
+                            if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffPower(&units[i], 4);
+                            break;
+                        case PASSIVE_SKILL_C_ODD_ATK_WAVE_3:
+                            if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffPower(&units[i], 6);
+                            break;
+                        case PASSIVE_SKILL_C_ODD_ATK_WAVE_4:
+                            if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffPower(&units[i], 8);
                             break;
                         default:
                             break;
@@ -965,18 +1062,22 @@ void clearUnitsBuffAndDebuffEachTurn()
             else
                 clearBuffDebuffAndNewStateForPlayerUnits();
             updateBuffAndDebuffWithPassiveSkillCForPlayerUnits();
+            updateNewStateWithPassiveSkillAForPlayerUnits();
             break;
         case EnemySide: //EnemySide
             clearBuffDebuffAndNewStateForEnemyUnits();
             updateBuffAndDebuffWithPassiveSkillCForEnemyUnits();
+            updateNewStateWithPassiveSkillAForEnemyUnits();
             break;
         case NPCSide: //NPCSide
             clearBuffDebuffAndNewStateForNPCUnits();
             updateBuffAndDebuffWithPassiveSkillCForNPCUnits();
+            updateNewStateWithPassiveSkillAForNPCUnits();
             break;
         default: //TODO: for link arena
             clearBuffDebuffAndNewStateForP4Units();
             updateBuffAndDebuffWithPassiveSkillCForP4Units();
+            updateNewStateWithPassiveSkillAForP4Units();
             break;
     }
 }
