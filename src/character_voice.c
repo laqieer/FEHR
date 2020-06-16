@@ -10,6 +10,25 @@ const struct CharacterVoice characterVoices[0xff] = {
         DEFINE_CHARACTER_VOICE(SHARON)
         DEFINE_CHARACTER_VOICE(BRUNO)
         DEFINE_CHARACTER_VOICE(VERONICA)
+        DEFINE_CHARACTER_VOICE(MARKS)
+        DEFINE_CHARACTER_VOICE(EIR)
+        DEFINE_CHARACTER_VOICE(FJORM)
+        DEFINE_CHARACTER_VOICE(CERISE)
+        DEFINE_CHARACTER_VOICE(HELBINDI)
+        DEFINE_CHARACTER_VOICE(FREEZE)
+        DEFINE_CHARACTER_VOICE(LAEGJARN)
+        DEFINE_CHARACTER_VOICE(LAEVATEIN)
+        DEFINE_CHARACTER_VOICE(LIF)
+        DEFINE_CHARACTER_VOICE(LOKI)
+        DEFINE_CHARACTER_VOICE(PEONY)
+        DEFINE_CHARACTER_VOICE(SURTR)
+        DEFINE_CHARACTER_VOICE(SRASIR)
+        DEFINE_CHARACTER_VOICE(YURG)
+        DEFINE_CHARACTER_VOICE(HELL)
+        DEFINE_CHARACTER_VOICE(GUSTAF)
+        DEFINE_CHARACTER_VOICE(LUPINE)
+        DEFINE_CHARACTER_VOICE(SCABIOSA)
+        DEFINE_CHARACTER_VOICE(PLUMERIA)
 };
 /*
 const struct Song *textVoices[0xffff] = {
@@ -124,6 +143,7 @@ u8 getStatusScreenUnitCharacterId()
 
 void playCharacterStatusVoice()
 {
-    playVoice(characterVoices[getStatusScreenUnitCharacterId()].status[GetTrueRN(8)]);
+    //playVoice(characterVoices[getStatusScreenUnitCharacterId()].status[GetTrueRN(8)]);
+    playVoice(characterVoices[getStatusScreenUnitCharacterId()].status);
 }
 

@@ -19,6 +19,27 @@
 #define Veronica Sonia
 #define Xander Maxime
 
+#define Eir Florina_t
+#define Fjorm Louise
+#define Cerise Serra
+#define Gunnthra Cerise
+#define Helbindi Dorcas
+#define Freeze Kent_t
+#define Hrid Freeze
+#define Laegjarn Guy
+#define Laevatain Raven
+#define Lif Karel
+#define Loki Priscilla
+#define Peony Ninian
+#define Surtr Wallace
+#define Srasir Erk
+#define Yurg Nino
+#define Hell Nergal
+#define Gustaf Elbert
+#define Mirabilis Florina
+#define Scabiosa Fiora
+#define Plumeria Farina
+
 #define GenericSoldierAskr 0x75
 #define GenericSoldierAskrWeak 0x76
 #define GenericSoldierAskrStrong 0x77
