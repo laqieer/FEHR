@@ -1,53 +1,53 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｈｅａｄｉｎｇ　ｔｏ　Ｎｉｆｌ，　ａｒｅ　ｙｏｕ？　Ｙｏｕ"TCC_NEWLINE"’ｌｌ　ｅｖｅｎｔｈｒｏｗ　ａｗａｙ　ｔｈｅ　ｌｉｖｅｓ　"TCC_NEWLINE"ｏｆ　ｙｏｕｒ　ｐｅｏｐｌｅｔｏ　ｍａｋｅ　ａｎ　ｅｓｃａー"TCC_NEWLINE"ｐｅ．．．　Ｐｉｔｉｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅａｄｉｎｇ　ｔｏ　Ｎｉｆｌ，　ａｒｅ　ｙｏｕ？　Ｙｏｕ"TCC_NEWLINE"’ｌｌ　ｅｖｅｎ　ｔｈｒｏｗ　ａｗａｙ　ｔｈｅ　ｌｉｖｅｓ"TCC_NEWLINE"　ｏｆ　ｙｏｕｒ　ｐｅｏｐｌｅ　ｔｏ　ｍａｋｅ　ａｎ　ｅｓー"TCC_NEWLINE"ｃａｐｅ．．．　Ｐｉｔｉｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｓｕｒｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｔｈｒｏｗ　ｔｈｅｍ　ａｗａｙ？　Ｎｅｖｅｒ！　Ａｆｔｅｒ"TCC_NEWLINE"　ｗｅｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｄｅｆｅａｔ　ｙｏｕ，　"TCC_NEWLINE"ｗｅ’ｌｌ　ｂｅ　ｂａｃｋｓｏｏｎ　ｅｎｏｕｇｈ．　Ａｎｄ"TCC_NEWLINE"　ｗｅ’ｌｌ　ｂｅ　ｒｅａｄｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｒｏｗ　ｔｈｅｍ　ａｗａｙ？　Ｎｅｖｅｒ！　Ａｆｔｅｒ"TCC_NEWLINE"　ｗｅ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｄｅｆｅａｔ　ｙｏｕ，"TCC_NEWLINE"　ｗｅ’ｌｌ　ｂｅ　ｂａｃｋ　ｓｏｏｎ　ｅｎｏｕｇｈ．　Ａー"TCC_NEWLINE"ｎｄ　ｗｅ’ｌｌ　ｂｅ　ｒｅａｄｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ．．．ｄｅｆｅａｔ　ｍｅ？　Ｆａｓｃｉｎａｔｉｎｇ．"TCC_NEWLINE"　Ｂｕｔ　ｄｏｙｏｕ　ｒｅａｌｌｙ　ｔｈｉｎｋ　ｙｏｕ’ｌー"TCC_NEWLINE"ｌ　ｍａｋｅ　ｉｔ　ｔｏ　Ｎｉｆｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ．．．ｄｅｆｅａｔ　ｍｅ？　Ｆａｓｃｉｎａｔｉｎｇ．"TCC_NEWLINE"　Ｂｕｔ　ｄｏ　ｙｏｕ　ｒｅａｌｌｙ　ｔｈｉｎｋ　ｙｏｕ’"TCC_NEWLINE"ｌｌ　ｍａｋｅ　ｉｔ　ｔｏ　Ｎｉｆｌ？"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ｅｖｅｎ　ｉｆ　ｙｏｕ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｅｌｌ　ｍｅ，　Ａｓｋｒａｎ　ｐｒｉｎｃｅ．　Ｄｏ　ｙｏー"TCC_NEWLINE"ｕ　ｓｅｅｔｈａｔ　ｔｏｗｎ　ｏｖｅｒ　ｔｈｅｒｅ？　Ｉｓー"TCC_NEWLINE"ｎ’ｔ　ｉｔ　ｆｉｌｌｅｄ　ｗｉｔｈＡｓｋｒａｎ　ｃｉｔｉー"TCC_NEWLINE"ｚｅｎｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｅｌｌ　ｍｅ，　Ａｓｋｒａｎ　ｐｒｉｎｃｅ．　Ｄｏ　ｙｏー"TCC_NEWLINE"ｕ　ｓｅｅ　ｔｈａｔ　ｔｏｗｎ　ｏｖｅｒ　ｔｈｅｒｅ？　Ｉー"TCC_NEWLINE"ｓｎ’ｔ　ｉｔ　ｆｉｌｌｅｄ　ｗｉｔｈ　Ａｓｋｒａｎ　ｃｉー"TCC_NEWLINE"ｔｉｚｅｎｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｇｒｒｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｂａｎｄｏｎ　ｔｈｅｍ．　Ｉ　ｄｏｎ’ｔ　ｃａｒｅ．　Ｂー"TCC_NEWLINE"ｕｔ　ｉｆ　ｙｏｕｄｏ．．．　Ｉ　ｗｉｌｌ　ｂｕｒｎ　ｔｈー"TCC_NEWLINE"ａｔ　ｔｏｗｎ　ｔｏ　ｔｈｅｇｒｏｕｎｄ．　Ｅｖｅｒｙｏｎー"TCC_NEWLINE"ｅ　ｔｈｅｒｅ　ｗｉｌｌ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｍａｋｅ　ｓｕｒｅ　ｏｆ　ｉｔ．　Ｗｏｍｅｎ，　"TCC_NEWLINE"ｃｈｉｌｄｒｅｎ．．．Ｏｎｅ　ｂｙ　ｏｎｅ，　ｔｈｅｙ　ｗー"TCC_NEWLINE"ｉｌｌ　ｂｕｒｎ　ａｌｉｖｅ．　Ｉｐｒｏｍｉｓｅ　ｙｏｕ　"TCC_NEWLINE"Ｉ　ｗｉｌｌ　ｄｏ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｂａｎｄｏｎ　ｔｈｅｍ．　Ｉ　ｄｏｎ’ｔ　ｃａｒｅ．　Ｂー"TCC_NEWLINE"ｕｔ　ｉｆ　ｙｏｕ　ｄｏ．．．　Ｉ　ｗｉｌｌ　ｂｕｒｎ　ｔー"TCC_NEWLINE"ｈａｔ　ｔｏｗｎ　ｔｏ　ｔｈｅ　ｇｒｏｕｎｄ．　Ｅｖｅｒｙー"TCC_NEWLINE"ｏｎｅ　ｔｈｅｒｅ　ｗｉｌｌ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｍａｋｅ　ｓｕｒｅ　ｏｆ　ｉｔ．　Ｗｏｍｅｎ，　"TCC_NEWLINE"ｃｈｉｌｄｒｅｎ．．．　Ｏｎｅ　ｂｙ　ｏｎｅ，　ｔｈｅｙ　"TCC_NEWLINE"ｗｉｌｌ　ｂｕｒｎ　ａｌｉｖｅ．　Ｉ　ｐｒｏｍｉｓｅ　ｙｏー"TCC_NEWLINE"ｕ　Ｉ　ｗｉｌｌ　ｄｏ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌｅｔ　ｍｅ　ｔｅｌｌ　ｙｏｕ　ｓｏｍｅｔｈｉｎｇ　ｙｏｕ"TCC_NEWLINE"　ｍｉｇｈｔｎｏｔ　ｋｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｅｉｎｇ　ｂｕｒｎｅｄ　ａｌｉｖｅ　ｉｓ　ｏｎｅ　ｏｆ　"TCC_NEWLINE"ｔｈｅ　ｍｏｓｔｐａｉｎｆｕｌ　ｗａｙｓ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｉｒｓｔ，　ｔｈｅ　ｓｋｉｎ　ｂｕｒｎｓ　ｏｆｆ．．．　"TCC_NEWLINE"Ｔｈｅｎ　ｔｈｅｍｕｓｃｌｅｓ　ｔｈｅｍｓｅｌｖｅｓ　ｂｅー"TCC_NEWLINE"ｇｉｎ　ｔｏ　ｆａｌｌａｐａｒｔ．　Ｉｎ　ｔｈｅ　ｅｎｄ，"TCC_NEWLINE"　ｔｈｅｙ　ａｌｌ　ｗａｉｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｍｅ　ｔｅｌｌ　ｙｏｕ　ｓｏｍｅｔｈｉｎｇ　ｙｏｕ"TCC_NEWLINE"　ｍｉｇｈｔ　ｎｏｔ　ｋｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｉｎｇ　ｂｕｒｎｅｄ　ａｌｉｖｅ　ｉｓ　ｏｎｅ　ｏｆ　"TCC_NEWLINE"ｔｈｅ　ｍｏｓｔ　ｐａｉｎｆｕｌ　ｗａｙｓ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｒｓｔ，　ｔｈｅ　ｓｋｉｎ　ｂｕｒｎｓ　ｏｆｆ．．．　"TCC_NEWLINE"Ｔｈｅｎ　ｔｈｅ　ｍｕｓｃｌｅｓ　ｔｈｅｍｓｅｌｖｅｓ　ｂー"TCC_NEWLINE"ｅｇｉｎ　ｔｏ　ｆａｌｌ　ａｐａｒｔ．　Ｉｎ　ｔｈｅ　ｅｎー"TCC_NEWLINE"ｄ，　ｔｈｅｙ　ａｌｌ　ｗａｉｌ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｌｅａｓｅ．．．　Ｋｉｌｌ　ｍｅ！　Ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ　ｄｒｉｖｅｓ　ｙｏｕｒ　ｍａｄｎｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｏ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｈｅｌｐ　ｔｈｅｍ，　ｗｈｅー"TCC_NEWLINE"ｌｐ？Ｋｎｅｅｌ　ｂｅｆｏｒｅ　ｍｅ　ａｎｄ　ｏｆｆｅｒ　"TCC_NEWLINE"ｙｏｕｒ　ｏｗｎｎｅｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｈｅｌｐ　ｔｈｅｍ，　ｗｈｅー"TCC_NEWLINE"ｌｐ？　Ｋｎｅｅｌ　ｂｅｆｏｒｅ　ｍｅ　ａｎｄ　ｏｆｆｅｒ"TCC_NEWLINE"　ｙｏｕｒ　ｏｗｎ　ｎｅｃｋ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｅｇ　ｆｏｒ　ｍｅｒｃｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｔｈａｔ，　ａｎｄ　Ｉ　ｍｉｇｈｔ　ｌｅｔ　ｙｏｕｒ"TCC_NEWLINE"　ｐｅｏｐｌｅｂｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｔｈａｔ，　ａｎｄ　Ｉ　ｍｉｇｈｔ　ｌｅｔ　ｙｏｕｒ"TCC_NEWLINE"　ｐｅｏｐｌｅ　ｂｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｃａｎ’ｔ　ｋｎｏｗ　ｕｎｔｉｌ　ｙｏｕ　ｔｒｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｇｒｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈａｔ　ｗｉｌｌ　ｙｏｕ　ｄｏｐｒｏｔｅｃｔ　ｙｏｕｒｐー"TCC_NEWLINE"ｅｏｐｌｅ，　ｏｒ　ｌｅｔ　ｔｈｅｍ　ｄｉｅ？"
+"Ｗｈａｔ　ｗｉｌｌ　ｙｏｕ　ｄｏｐｒｏｔｅｃｔ　ｙｏｕｒ　"TCC_NEWLINE"ｐｅｏｐｌｅ，　ｏｒ　ｌｅｔ　ｔｈｅｍ　ｄｉｅ？"
 "Ｔｈｅ　ｃｈｏｉｃｅ　ｉｓ　ｙｏｕｒｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｔｈｅ　ｇａｔｅ　ｉｓ　ｏｐｅｎ！　Ｈｕｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉｆ　ｗｅ　ｌｅａｖｅ　ｎｏｗ．．．　Ｔｈｅ　ｐｅｏｐｌｅ"TCC_NEWLINE"．．．Ｓｕｒｔｒ．．．ｈｅ’ｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｌｅａｖｅ　ｎｏｗ．．．　Ｔｈｅ　ｐｅｏｐｌｅ"TCC_NEWLINE"．．．　Ｓｕｒｔｒ．．．ｈｅ’ｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｇｒｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｆｅｅｌｉｎｇｓ，　Ｓー"TCC_NEWLINE"ｈａｒｅｎａ．Ｂｕｔ　ｗｅ　ｈａｖｅ　ｔｏ　ｓｔａｙ　ｒａー"TCC_NEWLINE"ｔｉｏｎａｌ，　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｎｋ　ｔｈｉｎｇｓ　ｔｈｒｏｕｇｈ．　Ｉｆ　ｗｅ　ｆー"TCC_NEWLINE"ｉｇｈｔ　Ｓｕｒｔｒｎｏｗ，　ｗｅ’ｌｌ　ｂｅ　ｋｉｌｌｅー"TCC_NEWLINE"ｄ．　Ｔｈｅ　ｔｏｗｎｓｐｅｏｐｌｅｗｉｌｌ　ｓｔｉｌｌ　"TCC_NEWLINE"ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｆｅｅｌｉｎｇｓ，　Ｓー"TCC_NEWLINE"ｈａｒｅｎａ．　Ｂｕｔ　ｗｅ　ｈａｖｅ　ｔｏ　ｓｔａｙ　ｒー"TCC_NEWLINE"ａｔｉｏｎａｌ，　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｎｋ　ｔｈｉｎｇｓ　ｔｈｒｏｕｇｈ．　Ｉｆ　ｗｅ　ｆー"TCC_NEWLINE"ｉｇｈｔ　Ｓｕｒｔｒ　ｎｏｗ，　ｗｅ’ｌｌ　ｂｅ　ｋｉｌｌー"TCC_NEWLINE"ｅｄ．　Ｔｈｅ　ｔｏｗｎｓｐｅｏｐｌｅ　ｗｉｌｌ　ｓｔｉｌー"TCC_NEWLINE"ｌ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｂｕｔ　ｉｆ　ｗｅ　ｌｅａｖｅ，　ｗｅ’ｒｅ　ｊｕｓｔ　ｏー"TCC_NEWLINE"ｆｆｅｒｉｎｇｔｈｅｍ　ｕｐ　ｆｏｒ　ｔｈｅ　ｓｌａｕｇｈー"TCC_NEWLINE"ｔｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｗｅ　ｌｅａｖｅ，　ｗｅ’ｒｅ　ｊｕｓｔ　ｏー"TCC_NEWLINE"ｆｆｅｒｉｎｇ　ｔｈｅｍ　ｕｐ　ｆｏｒ　ｔｈｅ　ｓｌａｕｇー"TCC_NEWLINE"ｈｔｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｅ　ｗｅｒｅ　ｏｆｆｅｒｅｄ　ａ　ｃｈｏｉｃｅ：　ｄｅｆー"TCC_NEWLINE"ｅｎｄ　ｔｈｅｐｅｏｐｌｅ，　ｏｒ　ａｂａｎｄｏｎ　ｔｈｅー"TCC_NEWLINE"ｍ．　Ｆｉｇｈｔ　ａｎｄｄｉｅ．．．　Ｏｒ　ｆｌｅｅ，　ａー"TCC_NEWLINE"ｎｄ　ｌｉｖｅ　ｔｏ　ｆｉｇｈｔ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｅｒｅ　ｏｆｆｅｒｅｄ　ａ　ｃｈｏｉｃｅ：　ｄｅｆー"TCC_NEWLINE"ｅｎｄ　ｔｈｅ　ｐｅｏｐｌｅ，　ｏｒ　ａｂａｎｄｏｎ　ｔｈー"TCC_NEWLINE"ｅｍ．　Ｆｉｇｈｔ　ａｎｄ　ｄｉｅ．．．　Ｏｒ　ｆｌｅｅ，"TCC_NEWLINE"　ａｎｄ　ｌｉｖｅ　ｔｏ　ｆｉｇｈｔ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
@@ -55,60 +55,60 @@ TCC_OPEN_MID_LEFT
 TCC_OPEN_RIGHT
 "Ａｌｆｏｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｉｓ　ｉｓ　ｍｙ　ｄｅｃｉｓｉｏｎ．　Ｉｔ　ｈａｓ　ｎー"TCC_NEWLINE"ｏｔｈｉｎｇ　ｔｏｄｏ　ｗｉｔｈ　ｙｏｕ，　Ｓｈａｒｅｎａ"TCC_NEWLINE"．　Ｎｏｒ　ａｍ　Ｉ　ｂｌｉｎｄｌｙｆｏｌｌｏｗｉｎｇ　Ｃー"TCC_NEWLINE"ｏｍｍａｎｄｅｒ　Ａｎｎａ’ｓ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｌｅａｖｅ　ｍｙ　ｐｅｏｐｌｅ　ｂｅｈｉｎｄ"TCC_NEWLINE"．．．ａｎｄ　ｇｏｔｏ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｍｙ　ｄｅｃｉｓｉｏｎ．　Ｉｔ　ｈａｓ　ｎー"TCC_NEWLINE"ｏｔｈｉｎｇ　ｔｏ　ｄｏ　ｗｉｔｈ　ｙｏｕ，　Ｓｈａｒｅｎー"TCC_NEWLINE"ａ．　Ｎｏｒ　ａｍ　Ｉ　ｂｌｉｎｄｌｙ　ｆｏｌｌｏｗｉｎｇ"TCC_NEWLINE"　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ’ｓ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｌｅａｖｅ　ｍｙ　ｐｅｏｐｌｅ　ｂｅｈｉｎｄ"TCC_NEWLINE"．．．ａｎｄ　ｇｏ　ｔｏ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　Ｉ　ｓｗｅａｒ　ｔｈａｔ　ｗｅ　ｗｉｌｌ　ｄｅｆｅー"TCC_NEWLINE"ａｔ　Ｓｕｒｔｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｈａ－ｈａｈ！　Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　ｃｈｉｌｄｒｅｎ"TCC_NEWLINE"　ｏｆ　Ａｓｋｒｈａｖｅ　ｓｏｍｅ　ｓｐｉｒｉｔ　ａｆｔｅー"TCC_NEWLINE"ｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ　ｓｏ　ｄｉｓａｐｐｏー"TCC_NEWLINE"ｉｎｔｉｎｇｈａｄ　ｔｈｅｙ　ｍａｄｅ　ｔｈｅ　ｆｏｏｌｉー"TCC_NEWLINE"ｓｈ　ｃｈｏｉｃｅ　ｔｏｐｅｒｉｓｈ　ｎｏｂｌｙ　ａｌｏｎー"TCC_NEWLINE"ｇｓｉｄｅ　ｔｈｅｉｒ　ｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａ－ｈａｈ！　Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　ｃｈｉｌｄｒｅｎ"TCC_NEWLINE"　ｏｆ　Ａｓｋｒ　ｈａｖｅ　ｓｏｍｅ　ｓｐｉｒｉｔ　ａｆｔー"TCC_NEWLINE"ｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ　ｓｏ　ｄｉｓａｐｐｏー"TCC_NEWLINE"ｉｎｔｉｎｇ　ｈａｄ　ｔｈｅｙ　ｍａｄｅ　ｔｈｅ　ｆｏｏｌー"TCC_NEWLINE"ｉｓｈ　ｃｈｏｉｃｅ　ｔｏ　ｐｅｒｉｓｈ　ｎｏｂｌｙ　ａｌー"TCC_NEWLINE"ｏｎｇｓｉｄｅ　ｔｈｅｉｒ　ｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｏ　ｙｏｕｒ　ｔｈｒｅａｔ　ｗａｓ　ａ　ｆａｉｌｕｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｃｏｕｌｄ　ｓａｙ　ｓｏ．　Ｉｔ　ｈａｓ，　ｈｏｗー"TCC_NEWLINE"ｅｖｅｒ，ｇｉｖｅｎ　ｍｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｌｏー"TCC_NEWLINE"ｏｋ　ｆｏｒｗａｒｄｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎｔｏ　ｔｏｗｎ！　Ｗｅ　ｗｉｌｌ　ｂｕｒｎ　ｔｈｅｍ　"TCC_NEWLINE"ａｌｌ　ｔｏａｓｈ，　ｊｕｓｔ　ａｓ　Ｉ　ｐｒｏｍｉｓｅｄ"TCC_NEWLINE"　ｔｈｅ　ｙｏｕｎｇｐｒｉｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃｏｕｌｄ　ｓａｙ　ｓｏ．　Ｉｔ　ｈａｓ，　ｈｏｗー"TCC_NEWLINE"ｅｖｅｒ，　ｇｉｖｅｎ　ｍｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｌー"TCC_NEWLINE"ｏｏｋ　ｆｏｒｗａｒｄ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｔｏ　ｔｏｗｎ！　Ｗｅ　ｗｉｌｌ　ｂｕｒｎ　ｔｈｅｍ　"TCC_NEWLINE"ａｌｌ　ｔｏ　ａｓｈ，　ｊｕｓｔ　ａｓ　Ｉ　ｐｒｏｍｉｓｅー"TCC_NEWLINE"ｄ　ｔｈｅ　ｙｏｕｎｇ　ｐｒｉｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_XANDER
-"Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｅｓｃａｐｅｄ！　Ｗｅ　ｇａｉー"TCC_NEWLINE"ｎｎｏｔｈｉｎｇ　ｂｙ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｅｓｃａｐｅｄ！　Ｗｅ　ｇａｉー"TCC_NEWLINE"ｎ　ｎｏｔｈｉｎｇ　ｂｙ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ’ｍ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｄｅｃｉｄｅｓ　ｗｈａｔ　"TCC_NEWLINE"ｗｅ　ｄｏ，ａｎｄ　ｗｈａｔ　ｗｅ　ｄｏｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｆｌａｍｅｓ　ｍｕｓｔ　ｔａｓｔｅ　ｔｈｅ　ｆｌｅー"TCC_NEWLINE"ｓｈ　ｏｆｍａｎｙ，　ｍａｎｙ　ｍｏｒｅ　ｐｅｏｐｌｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｍａｙ　ｗａｉｔ　ｈｅｒｅ　ｗｈｉｌｅ　Ｉ　ｂｕｒー"TCC_NEWLINE"ｎ　ｔｈｅｍａｌｌ　ｍｙｓｅｌｆ．　Ｉ’ｌｌ　ｓｈｏｗ　ｔー"TCC_NEWLINE"ｈｅｍ　ｗｈｏ　ｉｓ　ｋｉｎｇ！Ｈａ－ｈａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｄｅｃｉｄｅｓ　ｗｈａｔ　"TCC_NEWLINE"ｗｅ　ｄｏ，　ａｎｄ　ｗｈａｔ　ｗｅ　ｄｏｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌａｍｅｓ　ｍｕｓｔ　ｔａｓｔｅ　ｔｈｅ　ｆｌｅー"TCC_NEWLINE"ｓｈ　ｏｆ　ｍａｎｙ，　ｍａｎｙ　ｍｏｒｅ　ｐｅｏｐｌｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍａｙ　ｗａｉｔ　ｈｅｒｅ　ｗｈｉｌｅ　Ｉ　ｂｕｒー"TCC_NEWLINE"ｎ　ｔｈｅｍ　ａｌｌ　ｍｙｓｅｌｆ．　Ｉ’ｌｌ　ｓｈｏｗ　"TCC_NEWLINE"ｔｈｅｍ　ｗｈｏ　ｉｓ　ｋｉｎｇ！　Ｈａ－ｈａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｎｏ．　Ｉ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｓｋｒ　ｍｕｓｔ　ｄｉｅ．　Ｔｈｅ　ｐｅｏｐｌｅ，　ｈｏー"TCC_NEWLINE"ｗｅｖｅｒ．．．Ｏｎｃｅ　ｔｈｉｓ　ｌａｎｄ　ｉｓ　ｃｏｎー"TCC_NEWLINE"ｑｕｅｒｅｄ，　ｔｈｅｙｗｉｌｌ　ｂｅｃｏｍｅ　Ｅｍｂｌａ"TCC_NEWLINE"’ｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ａ　ｒｕｌｅｒ’ｓ　ｄｕｔｙ　ｉｓ　ｔｏ　ｔｈｅ　ｐｅｏｐー"TCC_NEWLINE"ｌｅ，　ｉｓ　ｉｔｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｋｒ　ｍｕｓｔ　ｄｉｅ．　Ｔｈｅ　ｐｅｏｐｌｅ，　ｈｏー"TCC_NEWLINE"ｗｅｖｅｒ．．．　Ｏｎｃｅ　ｔｈｉｓ　ｌａｎｄ　ｉｓ　ｃｏー"TCC_NEWLINE"ｎｑｕｅｒｅｄ，　ｔｈｅｙ　ｗｉｌｌ　ｂｅｃｏｍｅ　Ｅｍｂー"TCC_NEWLINE"ｌａ’ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｒｕｌｅｒ’ｓ　ｄｕｔｙ　ｉｓ　ｔｏ　ｔｈｅ　ｐｅｏｐー"TCC_NEWLINE"ｌｅ，　ｉｓ　ｉｔ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈａ－ｈａｈ！　Ｏｈ，　ｈｏｗ　ａｍｕｓｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｄ　ｇｉｖｅ　ｍｅ　ｏｒｄｅｒｓ，　Ｐｒｉｎｃｅｓー"TCC_NEWLINE"ｓ？　Ｄｏｙｏｕ　ｉｍａｇｉｎｅ　ｙｏｕ　ｃａｎ　ｅｎｆｏー"TCC_NEWLINE"ｒｃｅ　ｔｈｅｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｄ　ｇｉｖｅ　ｍｅ　ｏｒｄｅｒｓ，　Ｐｒｉｎｃｅｓー"TCC_NEWLINE"ｓ？　Ｄｏ　ｙｏｕ　ｉｍａｇｉｎｅ　ｙｏｕ　ｃａｎ　ｅｎｆー"TCC_NEWLINE"ｏｒｃｅ　ｔｈｅｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｇｒｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｙ　ｅｎｔｈｕｓｉａｓｍ　ｆｏｒ　ｔｈｉｓ　ａｌｌｉａｎー"TCC_NEWLINE"ｃｅ　ｈａｓｃｏｏｌｅｄ．　Ｔｈｅ　ｔｉｍｅ　ｈａｓ　ｃｏー"TCC_NEWLINE"ｍｅ　ｔｏ　ｓｅｔｔｌｅｔｈｉｎｇｓ　ｂｅｔｗｅｅｎ　ｕｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｅｎｔｈｕｓｉａｓｍ　ｆｏｒ　ｔｈｉｓ　ａｌｌｉａｎー"TCC_NEWLINE"ｃｅ　ｈａｓ　ｃｏｏｌｅｄ．　Ｔｈｅ　ｔｉｍｅ　ｈａｓ　ｃー"TCC_NEWLINE"ｏｍｅ　ｔｏ　ｓｅｔｔｌｅ　ｔｈｉｎｇｓ　ｂｅｔｗｅｅｎ　"TCC_NEWLINE"ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｌｌ　ｓｈｏｗ　ｙｏｕ　ｔｈａｔ　Ｉ　ａｍ　ｔｈｅ　ｔー"TCC_NEWLINE"ｒｕｅ　ｒｕｌｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｖｅｒｙ　ｗｅｌｌ．　Ｐｒｅｐａｒｅ　ｔｏ　ｆａｃｅ　ｍｅ"TCC_NEWLINE"，　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈａ－ｈａ！　Ｉｆ　ｙｏｕ　ａｒｅ　ｌｏｏｋｉｎｇ　ｔｏ　"TCC_NEWLINE"ｂｅｓｌａｕｇｈｔｅｒｅｄ，　Ｉ　ｃａｎ　ｏｂｌｉｇｅ　ｙー"TCC_NEWLINE"ｏｕ．．．Ａｌｌ　ｏｆ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈａ－ｈａ！　Ｉｆ　ｙｏｕ　ａｒｅ　ｌｏｏｋｉｎｇ　ｔｏ　"TCC_NEWLINE"ｂｅ　ｓｌａｕｇｈｔｅｒｅｄ，　Ｉ　ｃａｎ　ｏｂｌｉｇｅ　"TCC_NEWLINE"ｙｏｕ．．．　Ａｌｌ　ｏｆ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_LOKI
-"Ｎｏｗ，　ｎｏｗ，　ｍｙ　ｋｉｎｇ．　Ｉｓ　ｔｈｉｓ　ａｎー"TCC_NEWLINE"ｙ　ｃａｕｓｅｆｏｒ　ａ　ｆｉｇｈｔ？　Ｔｒｕｌｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｎｏｗ，　ｍｙ　ｋｉｎｇ．　Ｉｓ　ｔｈｉｓ　ａｎー"TCC_NEWLINE"ｙ　ｃａｕｓｅ　ｆｏｒ　ａ　ｆｉｇｈｔ？　Ｔｒｕｌｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｔａｙ　ｏｕｔ　ｏｆ　ｔｈｉｓ，　Ｌｏｋｉ．　Ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｈｅａｔ　ｏｆｂａｔｔｌｅ，　ｍｙ　ｆｌａｍｅｓ　ｍｉー"TCC_NEWLINE"ｇｈｔ　ｆｉｎｄ　ｙｏｕ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔａｙ　ｏｕｔ　ｏｆ　ｔｈｉｓ，　Ｌｏｋｉ．　Ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｈｅａｔ　ｏｆ　ｂａｔｔｌｅ，　ｍｙ　ｆｌａｍｅｓ　ｍー"TCC_NEWLINE"ｉｇｈｔ　ｆｉｎｄ　ｙｏｕ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｒｏａｓｔ　ｍｅ，　ｂｏｉｌ　ｍｅ，　ｏｒ　ｆｒｙ　ｍｅ．"TCC_NEWLINE"．．Ｉ　ｄｏｎ’ｔｃａｒｅ．　Ｂｕｔ　ｙｏｕ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｋｎｏｗ　ｔｈａｔ　ｔｈｅｔｏｗｎ　ｙｏｕ’ｒｅ　ｂｉｃー"TCC_NEWLINE"ｋｅｒｉｎｇ　ｏｖｅｒ　ｉｓ　ｅｍｐｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｏａｓｔ　ｍｅ，　ｂｏｉｌ　ｍｅ，　ｏｒ　ｆｒｙ　ｍｅ．"TCC_NEWLINE"．．Ｉ　ｄｏｎ’ｔ　ｃａｒｅ．　Ｂｕｔ　ｙｏｕ　ｓｈｏｕｌー"TCC_NEWLINE"ｄ　ｋｎｏｗ　ｔｈａｔ　ｔｈｅ　ｔｏｗｎ　ｙｏｕ’ｒｅ　ｂー"TCC_NEWLINE"ｉｃｋｅｒｉｎｇ　ｏｖｅｒ　ｉｓ　ｅｍｐｔｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉｔ　ｓｅｅｍｓ　ｔｈａｔ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　"TCC_NEWLINE"ｓｉｇｎａｌｅｄｔｈｅｍ．　Ｗａｓ　ｔｈａｔ　ｌｉｔｔｌｅ"TCC_NEWLINE"　ｂｏｙ　ｔｈｉｎｋｉｎｇ　ｏｆ　ｈｉｓｐｅｏｐｌｅ？　Ｈー"TCC_NEWLINE"ｏｗ　ａｄｏｒａｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ｔｈａｔ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　"TCC_NEWLINE"ｓｉｇｎａｌｅｄ　ｔｈｅｍ．　Ｗａｓ　ｔｈａｔ　ｌｉｔｔｌー"TCC_NEWLINE"ｅ　ｂｏｙ　ｔｈｉｎｋｉｎｇ　ｏｆ　ｈｉｓ　ｐｅｏｐｌｅ？"TCC_NEWLINE"　Ｈｏｗ　ａｄｏｒａｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｍｐｈ．　Ｔｈｅ　ｒａｔｓ　ｈａｖｅ　ｆｌｅｄ．　Ｈｏｗ"TCC_NEWLINE"　ｄｕｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｓｏ，　ｌｅｔ’ｓ　ｍｏｖｅ　ｏｎ，　ｓｈａｌｌ　ｗｅ？　"TCC_NEWLINE"ＴｈｅＡｓｋｒａｎ　ｐｅｏｐｌｅ　ｈａｖｅ　ｐｌｅｎｔｙ　"TCC_NEWLINE"ｏｆ　ｔｉｍｅ　ｔｏｌｅａｒｎ　ａｌｌ　ａｂｏｕｔ　ｙｏｕー"TCC_NEWLINE"ｒ　ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｈａｖｅ　ｔｈｅ　ｒｉｔｅ　ｔｏ　ｔｈｉｎｋ　ａｂｏー"TCC_NEWLINE"ｕｔ，　ｔｏｏ．Ｔｈｅ　Ｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｌｅｔ’ｓ　ｍｏｖｅ　ｏｎ，　ｓｈａｌｌ　ｗｅ？　"TCC_NEWLINE"Ｔｈｅ　Ａｓｋｒａｎ　ｐｅｏｐｌｅ　ｈａｖｅ　ｐｌｅｎｔｙ"TCC_NEWLINE"　ｏｆ　ｔｉｍｅ　ｔｏ　ｌｅａｒｎ　ａｌｌ　ａｂｏｕｔ　ｙー"TCC_NEWLINE"ｏｕｒ　ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｈｅ　ｒｉｔｅ　ｔｏ　ｔｈｉｎｋ　ａｂｏー"TCC_NEWLINE"ｕｔ，　ｔｏｏ．　Ｔｈｅ　Ｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅｈ．　Ｔｈａｔ　ｉｓ　ｔｒｕｅ．　Ｉ　ｓｈｏｕｌｄ　ｋー"TCC_NEWLINE"ｅｅｐ　ｔｈａｔｇｉｒｌ　ａｌｉｖｅ．．．ｆｏｒ　ｎｏｗ，"TCC_NEWLINE"　ａｎｙｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ．　Ｔｈａｔ　ｉｓ　ｔｒｕｅ．　Ｉ　ｓｈｏｕｌｄ　ｋー"TCC_NEWLINE"ｅｅｐ　ｔｈａｔ　ｇｉｒｌ　ａｌｉｖｅ．．．ｆｏｒ　ｎｏｗ"TCC_NEWLINE"，　ａｎｙｗａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -116,7 +116,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｔｒａｃｋ　ｔｈｅ　Ａｓｋｒａｎ　ｒｏｙａｌｓ．　Ｄｏ　ｎー"TCC_NEWLINE"ｏｔｒｅｓｔ　ｕｎｔｉｌ　ｙｏｕ　ｈａｖｅ　ｋｉｌｌｅｄ　"TCC_NEWLINE"ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒａｃｋ　ｔｈｅ　Ａｓｋｒａｎ　ｒｏｙａｌｓ．　Ｄｏ　ｎー"TCC_NEWLINE"ｏｔ　ｒｅｓｔ　ｕｎｔｉｌ　ｙｏｕ　ｈａｖｅ　ｋｉｌｌｅｄ"TCC_NEWLINE"　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｙｅｓ，　ｌｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

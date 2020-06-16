@@ -5,51 +5,51 @@
 "Ｗａｉｔ，　ｗｈｏ　ｉｓ　ｔｈｉｓ　ｗｉｔｈ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 "Ｃｏｕｌｄ　ｉｔ　ｂｅ．．．？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｔ　ｉｓ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ！　Ｔｈｅ　ｌｅー"TCC_NEWLINE"ｇｅｎｄ　ｉｓｔｒｕｅ．　Ｉ　ｒａｉｓｅｄ　Ｂｒｅｉｄａｂー"TCC_NEWLINE"ｌｉｋ，　ａｎｄ　ｔｈｅｎ"TCC_NEWLINE
+"Ｉｔ　ｉｓ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ！　Ｔｈｅ　ｌｅー"TCC_NEWLINE"ｇｅｎｄ　ｉｓ　ｔｒｕｅ．　Ｉ　ｒａｉｓｅｄ　Ｂｒｅｉｄａー"TCC_NEWLINE"ｂｌｉｋ，　ａｎｄ　ｔｈｅｎ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ａｐｐｅａｒｅｄ！"TCC_NEWLINE TCC_PUSH_A
-"Ｏｕｒ　Ｇｒｅａｔ　Ｈｅｒｏ　ｉｓ　ｈｅｒｅ．．．ａｎｄ　"TCC_NEWLINE"ｃａｎ　ｕｓｅｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｆｏｒ　ｗｈａｔ　Ｂｒｅｉｄａｂｌｉｋ　ｓｈｏｏｔｓ"TCC_NEWLINE"？Ｉｔ’ｓ　ｔｒｕｌｙ　ｗｏｎｄｅｒｆｕｌ．　Ｉｔ　ｆｉｒー"TCC_NEWLINE"ｅｓＨｅｒｏｅｓ　ｒｉｇｈｔ　ｏｕｔ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　Ｇｒｅａｔ　Ｈｅｒｏ　ｉｓ　ｈｅｒｅ．．．ａｎｄ　"TCC_NEWLINE"ｃａｎ　ｕｓｅ　ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｔｏｏ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｆｏｒ　ｗｈａｔ　Ｂｒｅｉｄａｂｌｉｋ　ｓｈｏｏｔｓ"TCC_NEWLINE"？　Ｉｔ’ｓ　ｔｒｕｌｙ　ｗｏｎｄｅｒｆｕｌ．　Ｉｔ　ｆｉー"TCC_NEWLINE"ｒｅｓ　Ｈｅｒｏｅｓ　ｒｉｇｈｔ　ｏｕｔ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｕｎｂｅｌｉｅｖａｂｌｅ．　Ｓｏ　ｙｏｕ’ｒｅ　ｏｕｒ　Ｇー"TCC_NEWLINE"ｒｅａｔＨｅｒｏ，　ｃｏｍｅ　ｔｏ　ｕｓ　ｆｒｏｍ　ａｎｏー"TCC_NEWLINE"ｔｈｅｒｗｏｒｌｄ，"TCC_NEWLINE
+"Ｕｎｂｅｌｉｅｖａｂｌｅ．　Ｓｏ　ｙｏｕ’ｒｅ　ｏｕｒ　Ｇー"TCC_NEWLINE"ｒｅａｔ　Ｈｅｒｏ，　ｃｏｍｅ　ｔｏ　ｕｓ　ｆｒｏｍ　ａｎー"TCC_NEWLINE"ｏｔｈｅｒ　ｗｏｒｌｄ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅ　ｏｆ　Ａｓｋｒ　"TCC_NEWLINE"ａｎｄｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒー"TCC_NEWLINE"ｏｅｓ．Ａ　ｐｌｅａｓｕｒｅ　ｔｏ　ｍｅｅｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ａｓｋ　ｔｈｉｓ　ｏｆ　ｙｏｕ　"TCC_NEWLINE"ｓｏｓｏｏｎ　ａｆｔｅｒ　ｗｅ’ｖｅ　ｍｅｔ，　ｂｕｔ　Ｉ"TCC_NEWLINE"　ｈａｖｅｎｅｅｄ　ｏｆ　ｙｏｕｒ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｕｒ　ｏｒｄｅｒ　ｉｓ　ｄｅｖｏｔｅｄ　ｔｏ　ｆｉｇｈｔー"TCC_NEWLINE"ｉｎｇｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ，　ｗｈｉｃｈ　"TCC_NEWLINE"ｉｎｖａｄｅｓｗｏｒｌｄｓ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ａｒー"TCC_NEWLINE"ｅ　ｆｒｏｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｅ　ｏｆ　ｔｈｅｓｅ　ｉｓ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　"TCC_NEWLINE"Ｍｙｓｔｅｒｙ．Ｉ　ｈａｖｅ　ｄｉｒｅ　ｎｅｗｓ．　Ｔｈｅ"TCC_NEWLINE"　ｅｍｐｉｒｅ　ｈａｓｎｅｗｌｙ　ｔａｋｅｎ　ｏｖｅｒ　ｔー"TCC_NEWLINE"ｈａｔ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｎｅｅｄ　ｔｏ　ｍａｋｅ　ｏｕｒ　ｗａｙ　ｔｏ　ｔｈー"TCC_NEWLINE"ｅＷｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ　ｔｏ　ｆｒｅｅ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｏｎｅｍｏｒｅ　ｔｈｉｎｇ．　Ｉ　ｓｐｏｔｔｅｄ　ｓｏｍｅー"TCC_NEWLINE"ｏｎｅ　ｏｄｄｗｉｔｈ　ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｎｅａｒ"TCC_NEWLINE"　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａ　ｓｔｒａｎｇｅ　ｍａｎ．　Ｎｏｔ　ａｎ　ｉｍｐｅｒｉａー"TCC_NEWLINE"ｌｓｏｌｄｉｅｒ．　Ｎｏｒ　ａ　Ｈｅｒｏ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　Ｗｏｒｌｄ　ｏｆＭｙｓｔｅｒｙ　ｎｏｗ　ｕｎｄｅｒ　ｔｈー"TCC_NEWLINE"ｅｉｒ　ｃｏｎｔｒｏｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅ　ｏｆ　Ａｓｋｒ　"TCC_NEWLINE"ａｎｄ　ｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅー"TCC_NEWLINE"ｒｏｅｓ．　Ａ　ｐｌｅａｓｕｒｅ　ｔｏ　ｍｅｅｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ａｓｋ　ｔｈｉｓ　ｏｆ　ｙｏｕ　"TCC_NEWLINE"ｓｏ　ｓｏｏｎ　ａｆｔｅｒ　ｗｅ’ｖｅ　ｍｅｔ，　ｂｕｔ　"TCC_NEWLINE"Ｉ　ｈａｖｅ　ｎｅｅｄ　ｏｆ　ｙｏｕｒ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｏｒｄｅｒ　ｉｓ　ｄｅｖｏｔｅｄ　ｔｏ　ｆｉｇｈｔー"TCC_NEWLINE"ｉｎｇ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ，　ｗｈｉｃｈ"TCC_NEWLINE"　ｉｎｖａｄｅｓ　ｗｏｒｌｄｓ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　"TCC_NEWLINE"ａｒｅ　ｆｒｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｏｆ　ｔｈｅｓｅ　ｉｓ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　"TCC_NEWLINE"Ｍｙｓｔｅｒｙ．　Ｉ　ｈａｖｅ　ｄｉｒｅ　ｎｅｗｓ．　Ｔｈー"TCC_NEWLINE"ｅ　ｅｍｐｉｒｅ　ｈａｓ　ｎｅｗｌｙ　ｔａｋｅｎ　ｏｖｅｒ"TCC_NEWLINE"　ｔｈａｔ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｍａｋｅ　ｏｕｒ　ｗａｙ　ｔｏ　ｔｈー"TCC_NEWLINE"ｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ　ｔｏ　ｆｒｅｅ　ｉｔ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｏｎｅ　ｍｏｒｅ　ｔｈｉｎｇ．　Ｉ　ｓｐｏｔｔｅｄ　ｓｏｍー"TCC_NEWLINE"ｅｏｎｅ　ｏｄｄ　ｗｉｔｈ　ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｎｅー"TCC_NEWLINE"ａｒ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｓｔｒａｎｇｅ　ｍａｎ．　Ｎｏｔ　ａｎ　ｉｍｐｅｒｉａー"TCC_NEWLINE"ｌ　ｓｏｌｄｉｅｒ．　Ｎｏｒ　ａ　Ｈｅｒｏ　ｆｒｏｍ　ｔｈー"TCC_NEWLINE"ｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ　ｎｏｗ　ｕｎｄｅｒ　"TCC_NEWLINE"ｔｈｅｉｒ　ｃｏｎｔｒｏｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａ　ｓｔｒａｎｇｅ　ｍａｎ，　ｙｏｕ　ｓａｙ？　Ｄｉｄ　ｈー"TCC_NEWLINE"ｅｓｅｅｍ　ａｌｌｉｅｄ　ｗｉｔｈ　ｔｈｅ　Ｅｍｂｌｉａｎー"TCC_NEWLINE"Ｅｍｐｉｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｓｔｒａｎｇｅ　ｍａｎ，　ｙｏｕ　ｓａｙ？　Ｄｉｄ　ｈー"TCC_NEWLINE"ｅ　ｓｅｅｍ　ａｌｌｉｅｄ　ｗｉｔｈ　ｔｈｅ　Ｅｍｂｌｉａー"TCC_NEWLINE"ｎ　Ｅｍｐｉｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ"TCC_NEWLINE"　ｈｉｍｂｅｆｏｒｅ．　Ｈｅ　ｗｅａｒｓ　ａ　ｍａｓｋ　ａー"TCC_NEWLINE"ｎｄ　ｋｅｅｐｓｈｉｓ　ｆａｃｅ　ａ　ｓｅｃｒｅｔ　ｅｖｅー"TCC_NEWLINE"ｎ　ｆｒｏｍ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｎｏｗ，　ｗｅ　ｍｕｓｔ　ｒｕｓｈ　ｉｎｔｏ　ｂａー"TCC_NEWLINE"ｔｔｌｅ．Ｓｏｌｄｉｅｒｓ　ａｐｐｒｏａｃｈ！"
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ"TCC_NEWLINE"　ｈｉｍ　ｂｅｆｏｒｅ．　Ｈｅ　ｗｅａｒｓ　ａ　ｍａｓｋ　"TCC_NEWLINE"ａｎｄ　ｋｅｅｐｓ　ｈｉｓ　ｆａｃｅ　ａ　ｓｅｃｒｅｔ　ｅー"TCC_NEWLINE"ｖｅｎ　ｆｒｏｍ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏｗ，　ｗｅ　ｍｕｓｔ　ｒｕｓｈ　ｉｎｔｏ　ｂａー"TCC_NEWLINE"ｔｔｌｅ．　Ｓｏｌｄｉｅｒｓ　ａｐｐｒｏａｃｈ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｈｏ　ａｒｅ　ｙｏｕ，　ｓｔｒａｎｇｅｒ？　Ａｌｆｏｎｓー"TCC_NEWLINE"ｅ，　ｔｈｉｓｍｕｓｔ　ｂｅ　ｔｈｅ　ｍａｓｋｅｄ　ｍａｎ"TCC_NEWLINE"　ｙｏｕ　ｓａｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ａｒｅ　ｙｏｕ，　ｓｔｒａｎｇｅｒ？　Ａｌｆｏｎｓー"TCC_NEWLINE"ｅ，　ｔｈｉｓ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｍａｓｋｅｄ　ｍａー"TCC_NEWLINE"ｎ　ｙｏｕ　ｓａｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｙｏｕ！　Ｔｅｌｌ　ｕｓａｒｅ　ｙｏｕ　ａ　ｓｏｌｄｉｅｒ"TCC_NEWLINE"　ｉｎ　ｔｈｅＥｍｂｌｉａｎ　Ｅｍｐｉｒｅ？　Ｉｆ　ｓｏ，"TCC_NEWLINE"　ｔｈｅｎ　ｙｏｕｓｔａｎｄ　ｏｎ　ｔｈｅ　ｓｉｄｅ　ｏｆ"TCC_NEWLINE"　ｅｖｉｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｅｍｐｉｒｅ　ｓｈｏｕｌｄｎ’ｔ　ｂｅ　ｅｎｔｅｒー"TCC_NEWLINE"ｉｎｇｔｈｅ　ｗｏｒｌｄｓ　ｏｆ　Ｈｅｒｏｅｓｌｅｔ　ａｌー"TCC_NEWLINE"ｏｎｅｃｏｎｑｕｅｒｉｎｇ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ！　Ｔｅｌｌ　ｕｓａｒｅ　ｙｏｕ　ａ　ｓｏｌｄｉｅｒ"TCC_NEWLINE"　ｉｎ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ？　Ｉｆ　ｓｏ"TCC_NEWLINE"，　ｔｈｅｎ　ｙｏｕ　ｓｔａｎｄ　ｏｎ　ｔｈｅ　ｓｉｄｅ　"TCC_NEWLINE"ｏｆ　ｅｖｉｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｅｍｐｉｒｅ　ｓｈｏｕｌｄｎ’ｔ　ｂｅ　ｅｎｔｅｒー"TCC_NEWLINE"ｉｎｇ　ｔｈｅ　ｗｏｒｌｄｓ　ｏｆ　Ｈｅｒｏｅｓｌｅｔ　ａー"TCC_NEWLINE"ｌｏｎｅ　ｃｏｎｑｕｅｒｉｎｇ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｒｅａｌｌｙ？　Ａｎｄ　Ｉ　ｓｕｐｐｏｓｅ　ｙｏｕ"TCC_NEWLINE"　ｗａｎｔｕｓ　ｔｏ　ｃｌｏｓｅ　ｔｈｅ　ｇａｔｅｗａｙｓ"TCC_NEWLINE"　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｒｅａｌｌｙ？　Ａｎｄ　Ｉ　ｓｕｐｐｏｓｅ　ｙｏｕ"TCC_NEWLINE"　ｗａｎｔ　ｕｓ　ｔｏ　ｃｌｏｓｅ　ｔｈｅ　ｇａｔｅｗａｙー"TCC_NEWLINE"ｓ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
 "Ｈｍｐｆ．　Ｉｎ　ｙｏｕｒ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｈｏｗ　ｄａｒｅ　ｙｏｕ！　Ｗｈｅｒｅ　ａｒｅ　ｙｏｕｇｏー"TCC_NEWLINE"ｉｎｇ？　Ｇｅｔ　ｂａｃｋ　ｈｅｒｅ　ａｎｄ　ａｎｓｗｅｒー"TCC_NEWLINE"ｆｏｒ　ｙｏｕｒｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｄａｒｅ　ｙｏｕ！　Ｗｈｅｒｅ　ａｒｅ　ｙｏｕ　ｇー"TCC_NEWLINE"ｏｉｎｇ？　Ｇｅｔ　ｂａｃｋ　ｈｅｒｅ　ａｎｄ　ａｎｓｗｅー"TCC_NEWLINE"ｒ　ｆｏｒ　ｙｏｕｒｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
 "Ｄａｍｎ　ｆｅｌｌｏｗ．　Ｈｅ’ｓ　ｇｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｈｏｓｅ　ｇａｔｅｗａｙｓ　ｈｅ　ｍｅｎｔｉｏｎｅｄ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ｃｏｎｎｅｃｔ　ｏｕｒ　ｗｏｒｌｄ　ｔｏ　ａｌｌー"TCC_NEWLINE"ｔｈｏｓｅ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎー"TCC_NEWLINE"ｇｄｏｍ，ｌｉｋｅ　Ａｌｆｏｎｓｅ，　ｈａｖｅ　ｔｈｅ　ａー"TCC_NEWLINE"ｂｉｌｉｔｙ　ｔｏｏｐｅｎ　ｔｈｅｓｅ　ｇａｔｅｗａｙｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｃｏｎｎｅｃｔ　ｏｕｒ　ｗｏｒｌｄ　ｔｏ　ａｌｌ"TCC_NEWLINE"　ｔｈｏｓｅ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎー"TCC_NEWLINE"ｇｄｏｍ，　ｌｉｋｅ　Ａｌｆｏｎｓｅ，　ｈａｖｅ　ｔｈｅ　"TCC_NEWLINE"ａｂｉｌｉｔｙ　ｔｏ　ｏｐｅｎ　ｔｈｅｓｅ　ｇａｔｅｗａｙー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａｎｄ　ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　ｔｈｅ　Ｅｍｂｌｉａー"TCC_NEWLINE"ｎＥｍｐｉｒｅ　ａｒｅ　ａｂｌｅ　ｔｏ　ｃｌｏｓｅ　ｔｈｅー"TCC_NEWLINE"ｇａｔｅｗａｙｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｏｎｇ　ａｇｏ，　ｏｕｒ　ｔｗｏ　ｆａｍｉｌｉｅｓ　ｗｏー"TCC_NEWLINE"ｒｋｅｄｉｎ　ｈａｒｍｏｎｙ　ｔｏ　ｏｐｅｎ　ａｎｄ　ｃｌー"TCC_NEWLINE"ｏｓｅｔｈｅｓｅ　ｗａｙｓ　ｔｏ　ｏｔｈｅｒ　ｗｏｒｌｄｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｅｎ　Ｅｍｂｌａ　ｂｅｇａｎ　ｕｓｉｎｇ　ｉｔー"TCC_NEWLINE"ｓｐｏｗｅｒ　ｆｏｒ　ｅｖｉｌ，　ｌｅａｖｉｎｇ　ａｌｌ　"TCC_NEWLINE"ｏｆ　ｔｈｅｇａｔｅｓ　ｏｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｅｍｐｉｒｅ　ｂｅｇａｎ　ｉｎｖａｄｉｎｇ　ｔｈｏー"TCC_NEWLINE"ｓｅｗｏｒｌｄｓ．　Ｗｅ　ｃａｎｎｏｔ　ｓｌａｍ　ｔｈｅ　"TCC_NEWLINE"ｇａｔｅｓｓｈｕｔ．　Ｏｎｌｙ　ｔｈｅｙ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　ｔｈｅ　Ｅｍｂｌｉａー"TCC_NEWLINE"ｎ　Ｅｍｐｉｒｅ　ａｒｅ　ａｂｌｅ　ｔｏ　ｃｌｏｓｅ　ｔｈー"TCC_NEWLINE"ｅ　ｇａｔｅｗａｙｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｏｎｇ　ａｇｏ，　ｏｕｒ　ｔｗｏ　ｆａｍｉｌｉｅｓ　ｗｏー"TCC_NEWLINE"ｒｋｅｄ　ｉｎ　ｈａｒｍｏｎｙ　ｔｏ　ｏｐｅｎ　ａｎｄ　ｃー"TCC_NEWLINE"ｌｏｓｅ　ｔｈｅｓｅ　ｗａｙｓ　ｔｏ　ｏｔｈｅｒ　ｗｏｒｌー"TCC_NEWLINE"ｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｎ　Ｅｍｂｌａ　ｂｅｇａｎ　ｕｓｉｎｇ　ｉｔー"TCC_NEWLINE"ｓ　ｐｏｗｅｒ　ｆｏｒ　ｅｖｉｌ，　ｌｅａｖｉｎｇ　ａｌｌ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｇａｔｅｓ　ｏｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｅｍｐｉｒｅ　ｂｅｇａｎ　ｉｎｖａｄｉｎｇ　ｔｈｏー"TCC_NEWLINE"ｓｅ　ｗｏｒｌｄｓ．　Ｗｅ　ｃａｎｎｏｔ　ｓｌａｍ　ｔｈｅ"TCC_NEWLINE"　ｇａｔｅｓ　ｓｈｕｔ．　Ｏｎｌｙ　ｔｈｅｙ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ　ｃａｎ　ｆｉｇｈｔ　ｔｈｅｍ，　ｈｏｗｅｖｅｒ．　Ｔー"TCC_NEWLINE"ｈａｔ’ｓｗｈｙ　ｗｅ　Ａｓｋｒａｎｓ　ｆｏｒｍｅｄ　ｔｈー"TCC_NEWLINE"ｅ　Ｏｒｄｅｒ　ｏｆＨｅｒｏｅｓｔｏ　ｓｔｏｐ　ｔｈｅ　Ｅー"TCC_NEWLINE"ｍｂｌｉａｎｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　ｌｅｔ’ｓ　ｈｕｒｒｙ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ"TCC_NEWLINE"　ｏｆＭｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｆｏｎｓｅ．．．ｙｏｕｒ　ｓｉｓｔｅｒ　ｈａｓ　ｂｅｅー"TCC_NEWLINE"ｎ　ｏｎａ　ｓｃｏｕｔｉｎｇ　ｍｉｓｓｉｏｎ．　Ｉ　ｆｅａー"TCC_NEWLINE"ｒ　ｔｈａｔｓｈｅ　ｍａｙ　ｂｅ　ｉｎ　ｄａｎｇｅｒ．"
+"Ｗｅ　ｃａｎ　ｆｉｇｈｔ　ｔｈｅｍ，　ｈｏｗｅｖｅｒ．　Ｔー"TCC_NEWLINE"ｈａｔ’ｓ　ｗｈｙ　ｗｅ　Ａｓｋｒａｎｓ　ｆｏｒｍｅｄ　ｔー"TCC_NEWLINE"ｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓｔｏ　ｓｔｏｐ　ｔｈｅ"TCC_NEWLINE"　Ｅｍｂｌｉａｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｌｅｔ’ｓ　ｈｕｒｒｙ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ"TCC_NEWLINE"　ｏｆ　Ｍｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ．．．ｙｏｕｒ　ｓｉｓｔｅｒ　ｈａｓ　ｂｅｅー"TCC_NEWLINE"ｎ　ｏｎ　ａ　ｓｃｏｕｔｉｎｇ　ｍｉｓｓｉｏｎ．　Ｉ　ｆｅー"TCC_NEWLINE"ａｒ　ｔｈａｔ　ｓｈｅ　ｍａｙ　ｂｅ　ｉｎ　ｄａｎｇｅｒ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

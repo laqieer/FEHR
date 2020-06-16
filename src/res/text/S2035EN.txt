@@ -1,52 +1,52 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
-"Ｉ　ａｍ　ｔｈｅ　ｂｌａｄｅｔｈｅ　ｂｌａｄｅ　ｍｙ　ｆａー"TCC_NEWLINE"ｔｈｅｒｗｉｅｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｔｈｅ　ｂｌａｄｅｔｈｅ　ｂｌａｄｅ　ｍｙ　ｆａー"TCC_NEWLINE"ｔｈｅｒ　ｗｉｅｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｌｌ　ｄｏ　ａｓ　Ｉ　ａｍ　ｏｒｄｅｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
-"Ｉｆ　ｉｎｊｕｒｅｄ，　ｒｅｔｒｅａｔ．　Ｔｈａｔ　ｉｓ　"TCC_NEWLINE"ｗｈａｔ　ｍｙｓｉｓｔｅｒ　ｓａｉｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｉｎｊｕｒｅｄ，　ｒｅｔｒｅａｔ．　Ｔｈａｔ　ｉｓ　"TCC_NEWLINE"ｗｈａｔ　ｍｙ　ｓｉｓｔｅｒ　ｓａｉｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｌｌ　ｄｏ　ａｓ　ｉｎｓｔｒｕｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｈｏｗ　ａｒｅ　ｔｈｅｔｏー"TCC_NEWLINE"ｗｎｓｐｅｏｐｌｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｈｏｗ　ａｒｅ　ｔｈｅ　ｔー"TCC_NEWLINE"ｏｗｎｓｐｅｏｐｌｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｔ　ｓｅｅｍｓ　ｅｖｅｒｙｏｎｅ　ｉｓ　ｆｉｎｅｎｏ　ｍー"TCC_NEWLINE"ａｊｏｒｉｎｊｕｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙ　ｈｏｕｓｅ，　ｈｏｗｅｖｅｒ，　ｈａｓ　ｂｅｅー"TCC_NEWLINE"ｎｂｕｒｎｔ　ｔｏ　ｔｈｅ　ｇｒｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ｅｖｅｒｙｏｎｅ　ｉｓ　ｆｉｎｅｎｏ　ｍー"TCC_NEWLINE"ａｊｏｒ　ｉｎｊｕｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙ　ｈｏｕｓｅ，　ｈｏｗｅｖｅｒ，　ｈａｓ　ｂｅｅー"TCC_NEWLINE"ｎ　ｂｕｒｎｔ　ｔｏ　ｔｈｅ　ｇｒｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｆｌａｍｅｓ　ｓｔｉｌｌ　ｓｍｏｌｄｅｒ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅ　ｆｏｒｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙｏｎｅ　ｉｓ　ｄｏｉｎｇ　ｔｈｅｉｒ　ｂｅｓｔ，"TCC_NEWLINE"　ｂｕｔ　ｔｈｉｓｔｏｗｎ　ｗｉｌｌ　ｎｏｔ　ｒｅｃｏｖｅー"TCC_NEWLINE"ｒ　ｆｏｒ　ｓｏｍｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ　ｉｓ　ｄｏｉｎｇ　ｔｈｅｉｒ　ｂｅｓｔ，"TCC_NEWLINE"　ｂｕｔ　ｔｈｉｓ　ｔｏｗｎ　ｗｉｌｌ　ｎｏｔ　ｒｅｃｏｖー"TCC_NEWLINE"ｅｒ　ｆｏｒ　ｓｏｍｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｅ　ｓｈｏｕｌｄ　ｈｅｌｐ，　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｈｍｍ．　Ｏｕｒ　ｃｕｒｒｅｎｔ　ｍｉｓｓｉｏｎ　ｉｓ　ｖー"TCC_NEWLINE"ｅｒｙｈｉｇｈ　ｐｒｉｏｒｉｔｙ，　ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ．　Ｏｕｒ　ｃｕｒｒｅｎｔ　ｍｉｓｓｉｏｎ　ｉｓ　ｖー"TCC_NEWLINE"ｅｒｙ　ｈｉｇｈ　ｐｒｉｏｒｉｔｙ，　ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｄｏ　ｈａｖｅ　ａ　ｌｉｔｔｌｅ　ｔｉｍｅ．　Ｉ　ｔー"TCC_NEWLINE"ｈｉｎｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｎ　ｉｔ’ｓ　ｓｅｔｔｌｅｄ．　Ｐｒｉｎｃｅｓｓ　Ｆー"TCC_NEWLINE"ｊｏｒｍ，　Ｉａｐｏｌｏｇｉｚｅ，　ｂｕｔ．．．　Ｄｏ　ｙー"TCC_NEWLINE"ｏｕ　ｍｉｎｄ　ｖｅｒｙｍｕｃｈ　ｉｆ　ｗｅ　ｄｅｌａｙ　"TCC_NEWLINE"ｏｕｒ　ｄｅｐａｒｔｕｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｉｔ’ｓ　ｓｅｔｔｌｅｄ．　Ｐｒｉｎｃｅｓｓ　Ｆー"TCC_NEWLINE"ｊｏｒｍ，　Ｉ　ａｐｏｌｏｇｉｚｅ，　ｂｕｔ．．．　Ｄｏ　"TCC_NEWLINE"ｙｏｕ　ｍｉｎｄ　ｖｅｒｙ　ｍｕｃｈ　ｉｆ　ｗｅ　ｄｅｌａー"TCC_NEWLINE"ｙ　ｏｕｒ　ｄｅｐａｒｔｕｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｎｏｔ　ａｔ　ａｌｌ．　Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ｈー"TCC_NEWLINE"ｅｌｐ　ｔｈｅｓｅｐｅｏｐｌｅ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｅｒｈａｐｓ　ｍｙ　ｌａｎｃｅ　ｏｆ　ｉｃｅ，　Ｌｅｉｐー"TCC_NEWLINE"ｔｒ，　ｃｏｕｌｄｂｅ　ｕｓｅｄ　ｔｏ　ｅｘｔｉｎｇｕｉｓー"TCC_NEWLINE"ｈ　ｓｏｍｅ　ｏｆ　ｔｈｅｆｌａｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ａｔ　ａｌｌ．　Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ｈー"TCC_NEWLINE"ｅｌｐ　ｔｈｅｓｅ　ｐｅｏｐｌｅ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　ｍｙ　ｌａｎｃｅ　ｏｆ　ｉｃｅ，　Ｌｅｉｐー"TCC_NEWLINE"ｔｒ，　ｃｏｕｌｄ　ｂｅ　ｕｓｅｄ　ｔｏ　ｅｘｔｉｎｇｕｉー"TCC_NEWLINE"ｓｈ　ｓｏｍｅ　ｏｆ　ｔｈｅ　ｆｌａｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｌｌ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
-"Ｎｏｗ，　ｎｏｗ，　ｙｏｕｒ　ｈｉｇｈｎｅｓｓ．　Ａｎｄ　"TCC_NEWLINE"ｙｏｕ，Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｉ　ｗａｎｔ"TCC_NEWLINE"　ｔｏ　ｓｅｅ　ｙｏｕｔｗｏ　ｓｍｉｌｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｖｅ　ｆｏｒｍｅｄ　ａ　ｐａｃｔ　ｔｏ　ｄｅｓｔｒー"TCC_NEWLINE"ｏｙ　ｔｈｅＫｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ，　ｎｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｎｏｗ，　ｙｏｕｒ　ｈｉｇｈｎｅｓｓ．　Ａｎｄ　"TCC_NEWLINE"ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｉ　ｗａｎー"TCC_NEWLINE"ｔ　ｔｏ　ｓｅｅ　ｙｏｕ　ｔｗｏ　ｓｍｉｌｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｖｅ　ｆｏｒｍｅｄ　ａ　ｐａｃｔ　ｔｏ　ｄｅｓｔｒー"TCC_NEWLINE"ｏｙ　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ，　ｎｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｇｒｒｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｌ　ａｒｅｎ’ｔ　ｙｏｕ　ｔｗｏ　ｊｕｓｔ　ｐｅａｓ"TCC_NEWLINE"　ｉｎ　ａｐｏｄ？　Ｉｔ　ｍａｋｅｓ　ｍｅ　ｓｏ　ｖｅｒｙ"TCC_NEWLINE"　ｇｌａｄ　ｔｏ　ｓｅｅｔｈｉｓ　ｎｅｗ　ｆｒｉｅｎｄｓｈー"TCC_NEWLINE"ｉｐ．　Ｙｏｕ’ｒｅ　ｓｏ　ａｌｉｋｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ　ａｒｅｎ’ｔ　ｙｏｕ　ｔｗｏ　ｊｕｓｔ　ｐｅａｓ"TCC_NEWLINE"　ｉｎ　ａ　ｐｏｄ？　Ｉｔ　ｍａｋｅｓ　ｍｅ　ｓｏ　ｖｅｒー"TCC_NEWLINE"ｙ　ｇｌａｄ　ｔｏ　ｓｅｅ　ｔｈｉｓ　ｎｅｗ　ｆｒｉｅｎｄー"TCC_NEWLINE"ｓｈｉｐ．　Ｙｏｕ’ｒｅ　ｓｏ　ａｌｉｋｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｈａｖｅ　ｐｌｅｄｇｅｄ　ｔｏ　ｌｅｎｄ　ｙｏｕ　ｍｙ"TCC_NEWLINE"　Ｈｅｒｏｅｓ．Ｉ　ｂｅｌｉｅｖｅ　ｔｈａｔ’ｓ　ａｌｌ　"TCC_NEWLINE"ｙｏｕ　ｒｅｑｕｉｒｅ　ｆｒｏｍｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｂｅ　ｏｎ　ｍｙ　ｗａｙ，　ｔｈｅｎ．　Ｔｈｅｒー"TCC_NEWLINE"ｅ’ｓｎｏｔｈｉｎｇ　ｆｏｒ　ｍｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｐｌｅｄｇｅｄ　ｔｏ　ｌｅｎｄ　ｙｏｕ　ｍｙ"TCC_NEWLINE"　Ｈｅｒｏｅｓ．　Ｉ　ｂｅｌｉｅｖｅ　ｔｈａｔ’ｓ　ａｌｌ"TCC_NEWLINE"　ｙｏｕ　ｒｅｑｕｉｒｅ　ｆｒｏｍ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｂｅ　ｏｎ　ｍｙ　ｗａｙ，　ｔｈｅｎ．　Ｔｈｅｒー"TCC_NEWLINE"ｅ’ｓ　ｎｏｔｈｉｎｇ　ｆｏｒ　ｍｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｃｈａｒｍｉｎｇ，　ｉｓｎ’ｔ　ｓｈｅ？　Ｓｏ　ｓｈｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｖｅｒｏｎｉｃａ．．．　Ｓｈｅ　ｉｓ　ｏｆ　ｔｈｅ　ｏｎｅー"TCC_NEWLINE"ｓ　ｗｈｏｓｅａｌ　ｔｈｅ　ｐａｔｈｔｈｅ　Ｅｍｂｌｉａｎー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｆｔｅｒ　Ａｓｋｒ　ｈａｓ　ｂｕｒｎｅｄ，　ｓｏ　ｗｉｌー"TCC_NEWLINE"ｌ　Ｅｍｂｌａ．Ｓｏ　ｗｅａｋ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｏｎｉｃａ．．．　Ｓｈｅ　ｉｓ　ｏｆ　ｔｈｅ　ｏｎｅー"TCC_NEWLINE"ｓ　ｗｈｏ　ｓｅａｌ　ｔｈｅ　ｐａｔｈｔｈｅ　Ｅｍｂｌｉａー"TCC_NEWLINE"ｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　Ａｓｋｒ　ｈａｓ　ｂｕｒｎｅｄ，　ｓｏ　ｗｉｌー"TCC_NEWLINE"ｌ　Ｅｍｂｌａ．　Ｓｏ　ｗｅａｋ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｍｙ，　Ｙｏｕｒ　Ｈｉｇｈｎｅｓｓ．　Ｙｏｕ’ｄｓー"TCC_NEWLINE"ｌａｕｇｈｔｅｒ　ｔｈａｔ　ｔｉｎｙ　ｌｉｔｔｌｅ　ｇｉｒー"TCC_NEWLINE"ｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｍｙ，　Ｙｏｕｒ　Ｈｉｇｈｎｅｓｓ．　Ｙｏｕ’ｄ　"TCC_NEWLINE"ｓｌａｕｇｈｔｅｒ　ｔｈａｔ　ｔｉｎｙ　ｌｉｔｔｌｅ　ｇｉー"TCC_NEWLINE"ｒｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｏｆ　ｃｏｕｒｓｅ．　Ｔｈｅ　ｗｏｒｌｄ　ｒｅｑｕｉｒｅｓ"TCC_NEWLINE"　ｏｎｌｙｏｎｅ　ｒｕｌｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ａｓ　Ｉ　ｉｍａｇｉｎｅ　ｔｈｅ　ｌｏｏｋ　ｏｎ　"TCC_NEWLINE"ｈｅｒｆａｃｅ．．．　Ｈｅｒ　ｓｏｂｓ，　ｈｅｒ　ｐｌｅａー"TCC_NEWLINE"ｓ，　ｈｅｒｓｃｒｅａｍｓ　ａｓ　ｓｈｅ　ｂｕｒｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅｌｌ，　ｙｏｕ　ｈａｖｅ　ｔｏ　ｌａｕｇｈ！　Ｄｏｎ’"TCC_NEWLINE"ｔ　ｙｏｕａｇｒｅｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ．　Ｔｈｅ　ｗｏｒｌｄ　ｒｅｑｕｉｒｅｓ"TCC_NEWLINE"　ｏｎｌｙ　ｏｎｅ　ｒｕｌｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｓ　Ｉ　ｉｍａｇｉｎｅ　ｔｈｅ　ｌｏｏｋ　ｏｎ　"TCC_NEWLINE"ｈｅｒ　ｆａｃｅ．．．　Ｈｅｒ　ｓｏｂｓ，　ｈｅｒ　ｐｌｅー"TCC_NEWLINE"ａｓ，　ｈｅｒ　ｓｃｒｅａｍｓ　ａｓ　ｓｈｅ　ｂｕｒｎｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｙｏｕ　ｈａｖｅ　ｔｏ　ｌａｕｇｈ！　Ｄｏｎ’"TCC_NEWLINE"ｔ　ｙｏｕ　ａｇｒｅｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

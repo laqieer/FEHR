@@ -1,76 +1,76 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HRID
-"Ａｃｃｏｒｄｉｎｇ　ｔｏ　ｔｈｅ　ｍａｐ，　ｗｅ　ｃａｎ　"TCC_NEWLINE"ｇｅｔ　ｔｏＢｕｒｎｔ－Ｂｏｎｅ　Ｇｏｒｇｅ　ｂｙ　ｆｏｌー"TCC_NEWLINE"ｌｏｗｉｎｇ　ｔｈｉｓｔｒａｉｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｚａｃｈａｒｉａｓ　ｓａｉｄ　ｔｈａｔ　ｔｈｅ　ｅｎｅｍｙー"TCC_NEWLINE"ｄｏｅｓｎ’ｔ　ｅｖｅｎ　ｋｎｏｗ　ｔｈｉｓ　ｒｏｕｔｅ　"TCC_NEWLINE"ｅｘｉｓｔｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｃａｎ　ｆｏｌｌｏｗ　ｉｔ　ｓｔｒａｉｇｈｔ　ｔｏ　"TCC_NEWLINE"ｔｈｅ　ｐｌａｃｅｗｈｅｒｅ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌー"TCC_NEWLINE"ａｍｅｓ　ｉｓｐｅｒｆｏｒｍｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｃｃｏｒｄｉｎｇ　ｔｏ　ｔｈｅ　ｍａｐ，　ｗｅ　ｃａｎ　"TCC_NEWLINE"ｇｅｔ　ｔｏ　Ｂｕｒｎｔ－Ｂｏｎｅ　Ｇｏｒｇｅ　ｂｙ　ｆｏー"TCC_NEWLINE"ｌｌｏｗｉｎｇ　ｔｈｉｓ　ｔｒａｉｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｚａｃｈａｒｉａｓ　ｓａｉｄ　ｔｈａｔ　ｔｈｅ　ｅｎｅｍｙ"TCC_NEWLINE"　ｄｏｅｓｎ’ｔ　ｅｖｅｎ　ｋｎｏｗ　ｔｈｉｓ　ｒｏｕｔｅ"TCC_NEWLINE"　ｅｘｉｓｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｆｏｌｌｏｗ　ｉｔ　ｓｔｒａｉｇｈｔ　ｔｏ　"TCC_NEWLINE"ｔｈｅ　ｐｌａｃｅ　ｗｈｅｒｅ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆー"TCC_NEWLINE"ｌａｍｅｓ　ｉｓ　ｐｅｒｆｏｒｍｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｚａｃｈａｒｉａｓ　ｗｏｕｌｄｎ’ｔ　ｌｅａｄ　ｕｓ　ａｓー"TCC_NEWLINE"ｔｒａｙ．Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｚａｃｈａｒｉａｓ　ｗｏｕｌｄｎ’ｔ　ｌｅａｄ　ｕｓ　ａｓー"TCC_NEWLINE"ｔｒａｙ．　Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
-"Ｗｅ　ｗｉｌｌ　ｓｔｏｐ　ｙｏｕ　ｈｅｒｅ．　Ｆａｔｈｅｒ"TCC_NEWLINE"’ｓｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｉｌｌ　ｓｔｏｐ　ｙｏｕ　ｈｅｒｅ．　Ｆａｔｈｅｒ"TCC_NEWLINE"’ｓ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEGJARN
-"Ｉ　ｄｉｄｎ’ｔ　ｗａｎｔ　ｔｏ　ａｍｂｕｓｈ　ｙｏｕ．　"TCC_NEWLINE"Ｉ’ｄｒａｔｈｅｒ　ｆａｃｅ　ｙｏｕ　ｈｅａｄ－ｏｎ　ｉｎ"TCC_NEWLINE"　ａ　ｆａｉｒ　ｆｉｇｈｔ．Ｂｕｔ　ｅｉｔｈｅｒ　ｗａｙ，"TCC_NEWLINE"　ｔｈｉｓ　ｉｓ　ｔｈｅ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｉｄｎ’ｔ　ｗａｎｔ　ｔｏ　ａｍｂｕｓｈ　ｙｏｕ．　"TCC_NEWLINE"Ｉ’ｄ　ｒａｔｈｅｒ　ｆａｃｅ　ｙｏｕ　ｈｅａｄ－ｏｎ　ｉー"TCC_NEWLINE"ｎ　ａ　ｆａｉｒ　ｆｉｇｈｔ．　Ｂｕｔ　ｅｉｔｈｅｒ　ｗａー"TCC_NEWLINE"ｙ，　ｔｈｉｓ　ｉｓ　ｔｈｅ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｈｏｗ　ｄｉｄ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｂｕｔ．．．　Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｉｓ　ｉｓ　ｎｏｔ　ｇｏｏｄ．　Ｗｅ’ｒｅ　ｃｏｍｐｌー"TCC_NEWLINE"ｅｔｅｌｙｓｕｒｒｏｕｎｄｅｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｎｏｔ　ｇｏｏｄ．　Ｗｅ’ｒｅ　ｃｏｍｐｌー"TCC_NEWLINE"ｅｔｅｌｙ　ｓｕｒｒｏｕｎｄｅｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｅ　ｃａｎ’ｔ　ｌｅｔ　Ｓｕｒｔｒ　ｃａｔｃｈ　ｕｐ　ｗー"TCC_NEWLINE"ｉｔｈ　ｕｓ．Ｉｆ　ｈｅ　ｄｏｅｓ，　ｗｅ’ｌｌ　ｂｅ　ａー"TCC_NEWLINE"ｎｎｉｈｉｌａｔｅｄ．　Ｗｅｍｕｓｔ　ｂｒｅａｋ　ｔｈｒｏー"TCC_NEWLINE"ｕｇｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ’ｔ　ｌｅｔ　Ｓｕｒｔｒ　ｃａｔｃｈ　ｕｐ　ｗー"TCC_NEWLINE"ｉｔｈ　ｕｓ．　Ｉｆ　ｈｅ　ｄｏｅｓ，　ｗｅ’ｌｌ　ｂｅ　"TCC_NEWLINE"ａｎｎｉｈｉｌａｔｅｄ．　Ｗｅ　ｍｕｓｔ　ｂｒｅａｋ　ｔｈー"TCC_NEWLINE"ｒｏｕｇｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｌｏｏｋ！　Ｔｈｅｒｅ’ｓ　ａ　ｂｒｅａｋ　ｉｎ　ｔｈｅｉー"TCC_NEWLINE"ｒ　ｒａｎｋｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｑｕｉｃｋ！　Ｂｅｆｏｒｅ　ｔｈｅｙ　ｆｏｒｍ　ｕｐ　ａｇー"TCC_NEWLINE"ａｉｎｍａｋｅ　ａ　ｒｕｎ　ｆｏｒ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｑｕｉｃｋ！　Ｂｅｆｏｒｅ　ｔｈｅｙ　ｆｏｒｍ　ｕｐ　ａｇー"TCC_NEWLINE"ａｉｎ　ｍａｋｅ　ａ　ｒｕｎ　ｆｏｒ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｔｈａｔ．．．ｗａｓ　ａ　ｃｌｏｓｅ　ｓｃｒａｐｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ　ｗｅ’ｒｅ　ｉｎ　ｔｈｅ　ｃｌー"TCC_NEWLINE"ｅａｒ　ｆｏｒｎｏｗ，　ｔｈｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ　ｗｅ’ｒｅ　ｉｎ　ｔｈｅ　ｃｌー"TCC_NEWLINE"ｅａｒ　ｆｏｒ　ｎｏｗ，　ｔｈｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｉ　ｄｉｄｎ’ｔ　ｔｈｉｎｋ　ｗｅ　ｗｏｕｌｄ　ｍａｋｅ　"TCC_NEWLINE"ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｓｈｏｃｋｅｄ　ｔｈａｔ　Ｚａｃｈａｒｉａｓ　ｇａー"TCC_NEWLINE"ｖｅ　ｕｓｆａｕｌｔｙ　ｉｎｆｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｈｏｃｋｅｄ　ｔｈａｔ　Ｚａｃｈａｒｉａｓ　ｇａー"TCC_NEWLINE"ｖｅ　ｕｓ　ｆａｕｌｔｙ　ｉｎｆｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｏｍｅｔｈｉｎｇ’ｓ　ｎｏｔ　ｑｕｉｔｅ　ｒｉｇｈｔ．　"TCC_NEWLINE"Ｔｈｅｅｎｅｍｙ　ｈａｄ　ｔｉｍｅ　ｔｏ　ｐｌａｎ　ａｎｄ"TCC_NEWLINE"　ｅｘｅｃｕｔｅａｎ　ａｍｂｕｓｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓｎ’ｔ　ｂｙ　ｃｈａｎｃｅ　ｔｈａｔ　ｔｈｅｙ"TCC_NEWLINE"　ｆｏｕｎｄｕｓ．　Ｔｈｅｙ　ｋｎｅｗ　ｔｈｅ　ｒｏｕｔｅ"TCC_NEWLINE"　ｗｅ’ｄ　ｂｅｔｒａｖｅｌｉｎｇ　ｏｎｉｎ　ａｄｖａｎｃー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ’ｓ　ｎｏｔ　ｑｕｉｔｅ　ｒｉｇｈｔ．　"TCC_NEWLINE"Ｔｈｅ　ｅｎｅｍｙ　ｈａｄ　ｔｉｍｅ　ｔｏ　ｐｌａｎ　ａｎー"TCC_NEWLINE"ｄ　ｅｘｅｃｕｔｅ　ａｎ　ａｍｂｕｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓｎ’ｔ　ｂｙ　ｃｈａｎｃｅ　ｔｈａｔ　ｔｈｅｙ"TCC_NEWLINE"　ｆｏｕｎｄ　ｕｓ．　Ｔｈｅｙ　ｋｎｅｗ　ｔｈｅ　ｒｏｕｔー"TCC_NEWLINE"ｅ　ｗｅ’ｄ　ｂｅ　ｔｒａｖｅｌｉｎｇ　ｏｎｉｎ　ａｄｖａー"TCC_NEWLINE"ｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_HRID
-"Ｔｈａｔ　ｗａｓ　ｎｏ　ｃｏｉｎｃｉｄｅｎｃｅ．　Ｗｅ　ｍー"TCC_NEWLINE"ｕｓｔｃｏｎｓｉｄｅｒ　ｗｈａｔ　ｌｅｄ　ｔｏ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｗａｓ　ｎｏ　ｃｏｉｎｃｉｄｅｎｃｅ．　Ｗｅ　ｍー"TCC_NEWLINE"ｕｓｔ　ｃｏｎｓｉｄｅｒ　ｗｈａｔ　ｌｅｄ　ｔｏ　ｔｈｉｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｓｏｕｎｄ　ｌｉｋｅ　ｙｏｕ　ｈａｖｅ　ａｎ　ｉｄー"TCC_NEWLINE"ｅａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｚａｃｈａｒｉａｓ　ｃｏｕｌｄ　ｈａｖｅ　ｉｎｔｅｎｔｉｏー"TCC_NEWLINE"ｎａｌｌｙｍｉｓｌｅｄ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｚａｃｈａｒｉａｓ　ｃｏｕｌｄ　ｈａｖｅ　ｉｎｔｅｎｔｉｏー"TCC_NEWLINE"ｎａｌｌｙ　ｍｉｓｌｅｄ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｃｅｒｔａｉｎｌｙ　ｎｏｔ！　Ｈｅ　ｉｓ　ｏｕｒ　ａｌｌｙ"TCC_NEWLINE"，　ａｎｄ　ｈｅｗｏｕｌｄ　ｎｅｖｅｒ　ｄｅｃｅｉｖｅ　ｕー"TCC_NEWLINE"ｓ．　Ｗｅ　ｃａｎｄｉｓｃａｒｄ　ｔｈａｔ　ｅｘｐｌａｎａー"TCC_NEWLINE"ｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｅｒｔａｉｎｌｙ　ｎｏｔ！　Ｈｅ　ｉｓ　ｏｕｒ　ａｌｌｙ"TCC_NEWLINE"，　ａｎｄ　ｈｅ　ｗｏｕｌｄ　ｎｅｖｅｒ　ｄｅｃｅｉｖｅ　"TCC_NEWLINE"ｕｓ．　Ｗｅ　ｃａｎ　ｄｉｓｃａｒｄ　ｔｈａｔ　ｅｘｐｌａー"TCC_NEWLINE"ｎａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｈｅ　ｓａｖｅｄ　ｍｙ　ｌｉｆｅ，　ｔｏｏ，　ｙｏｕ　ｋｎー"TCC_NEWLINE"ｏｗ．　Ｉａｌｓｏ　ｆｉｎｄ　ｉｔ　ｄｉｆｆｉｃｕｌｔ　ｔー"TCC_NEWLINE"ｏ　ｂｅｌｉｅｖｅ　ｈｅ’ｓ　ｉｎｌｅａｇｕｅ　ｗｉｔｈ　"TCC_NEWLINE"Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｃｌｅａｒ，　ｈｏｗｅｖｅｒ，　ｔｈａｔ　ｔｈー"TCC_NEWLINE"ｅ　ｅｎｅｍｙｋｎｏｗｓ　ｏｕｒ　ｌｏｃａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｓａｖｅｄ　ｍｙ　ｌｉｆｅ，　ｔｏｏ，　ｙｏｕ　ｋｎー"TCC_NEWLINE"ｏｗ．　Ｉ　ａｌｓｏ　ｆｉｎｄ　ｉｔ　ｄｉｆｆｉｃｕｌｔ　"TCC_NEWLINE"ｔｏ　ｂｅｌｉｅｖｅ　ｈｅ’ｓ　ｉｎ　ｌｅａｇｕｅ　ｗｉｔー"TCC_NEWLINE"ｈ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｃｌｅａｒ，　ｈｏｗｅｖｅｒ，　ｔｈａｔ　ｔｈー"TCC_NEWLINE"ｅ　ｅｎｅｍｙ　ｋｎｏｗｓ　ｏｕｒ　ｌｏｃａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｂｕｔ　ｉｆ　ｔｈｅｙ’ｒｅ　ｎｏｔ　ｇｅｔｔｉｎｇ　ｉｔ"TCC_NEWLINE"　ｆｒｏｍＺａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｔｈｅｙ’ｒｅ　ｎｏｔ　ｇｅｔｔｉｎｇ　ｉｔ"TCC_NEWLINE"　ｆｒｏｍ　Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｔｈｅｎ　ｓｏｍｅｏｎｅ　ｅｌｓｅ　ｈａｓ　ｓｈａｒｅｄ　"TCC_NEWLINE"ｔｈａｔｉｎｆｏｒｍａｔｉｏｎ　ｗｉｔｈ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｓｏｍｅｏｎｅ　ｅｌｓｅ　ｈａｓ　ｓｈａｒｅｄ　"TCC_NEWLINE"ｔｈａｔ　ｉｎｆｏｒｍａｔｉｏｎ　ｗｉｔｈ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｓｏｍｅｂｏｄｙ　ｅｌｓｅ？　Ｗｈｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｗｅ　ｍｕｓｔ　ｃｏｎｓｉｄｅｒ　ｔｈｅ　ｐｏｓｓｉｂｉｌー"TCC_NEWLINE"ｉｔｙ　ｔｈａｔｔｈｅｒｅ　ｉｓ　ａ　ｔｒａｉｔｏｒ　ｉｎ"TCC_NEWLINE"　ｏｕｒ　ｍｉｄｓｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｓｏｍｅｏｎｅ　ｈｅｒｅ　ｍー"TCC_NEWLINE"ｕｓｔ　ｂｅｗｏｒｋｉｎｇ　ｗｉｔｈ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｃｏｎｓｉｄｅｒ　ｔｈｅ　ｐｏｓｓｉｂｉｌー"TCC_NEWLINE"ｉｔｙ　ｔｈａｔ　ｔｈｅｒｅ　ｉｓ　ａ　ｔｒａｉｔｏｒ　ｉー"TCC_NEWLINE"ｎ　ｏｕｒ　ｍｉｄｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｓｏｍｅｏｎｅ　ｈｅｒｅ　ｍー"TCC_NEWLINE"ｕｓｔ　ｂｅ　ｗｏｒｋｉｎｇ　ｗｉｔｈ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｈａｔ？　Ｂｕｔ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｎｏ！　Ｗｈｏ　ｈｅｒｅ　ｗｏｕｌｄ　ｂｅｔｒａｙ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ｂｅｌｉｅｖｅ　ｔｈａｔ　"TCC_NEWLINE"ｎｏ　ｏｎｅｗｏｕｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｓｏｍｅｏｎｅ　ｍａｙ　ｂｅ　ｐｒｅｙｉｎｇ　ｏｎ"TCC_NEWLINE"　ｏｕｒｔｒｕｓｔ．　Ｗｅ　ｈａｖｅｎ’ｔ　ｂｅｅｎ　ｋｅー"TCC_NEWLINE"ｅｐｉｎｇｗａｔｃｈ，　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｗａｓ　ａｍｐｌｅ　ｏｐｐｏｒｔｕｎｉｔｙ　ｆー"TCC_NEWLINE"ｏｒ　ａｎｙｏｆ　ｕｓ　ｔｏ　ｓｌｉｐ　ａｗａｙ　ａｎｄ　"TCC_NEWLINE"ｓｅｎｄ　ａｍｅｓｓａｇｅ．　Ｉ　ｋｎｏｗ　Ｉ　ｈａｄ　ｔー"TCC_NEWLINE"ｈｅ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ｂｅｌｉｅｖｅ　ｔｈａｔ　"TCC_NEWLINE"ｎｏ　ｏｎｅ　ｗｏｕｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｓｏｍｅｏｎｅ　ｍａｙ　ｂｅ　ｐｒｅｙｉｎｇ　ｏｎ"TCC_NEWLINE"　ｏｕｒ　ｔｒｕｓｔ．　Ｗｅ　ｈａｖｅｎ’ｔ　ｂｅｅｎ　ｋー"TCC_NEWLINE"ｅｅｐｉｎｇ　ｗａｔｃｈ，　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｗａｓ　ａｍｐｌｅ　ｏｐｐｏｒｔｕｎｉｔｙ　ｆー"TCC_NEWLINE"ｏｒ　ａｎｙ　ｏｆ　ｕｓ　ｔｏ　ｓｌｉｐ　ａｗａｙ　ａｎｄ"TCC_NEWLINE"　ｓｅｎｄ　ａ　ｍｅｓｓａｇｅ．　Ｉ　ｋｎｏｗ　Ｉ　ｈａｄ"TCC_NEWLINE"　ｔｈｅ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｍｅ　ｔｏｏ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｓｕｇｇｅｓｔｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙｏｎｅ　ｈｅｒｅｗｅ，　ｆｒｏｍ　Ｎｉｆｌ，　ａー"TCC_NEWLINE"ｎｄｔｈｅｙ，　ｆｒｏｍ　Ａｓｋｒｉｓ　ｓｔｅａｄｆａｓｔ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ　ｈｅｒｅｗｅ，　ｆｒｏｍ　Ｎｉｆｌ，　ａー"TCC_NEWLINE"ｎｄ　ｔｈｅｙ，　ｆｒｏｍ　Ａｓｋｒｉｓ　ｓｔｅａｄｆａｓー"TCC_NEWLINE"ｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｙｅｓ，　ｍｙ　ｓｉｓｔｅｒ．　Ｉ　ｄｏ　ｗａｎｔ　ｔｏ　"TCC_NEWLINE"ｂｅｌｉｅｖｅｔｈａｔ．　Ｂｕｔ　ｃａｎ　ｗｅ　ａｆｆｏｒー"TCC_NEWLINE"ｄ　ｔｏ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈｅｒｅ　ｉｓ　ａ　ｔｒａｉｔｏｒ　ａｍｏｎｇ　ｕー"TCC_NEWLINE"ｓ，　ｉｔ　ｗｉｌｌｎｏｔ　ｂｅ　ｌｏｎｇ　ｂｅｆｏｒｅ　"TCC_NEWLINE"ｗｅ　ｍｅｅｔ　ｏｕｒ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　ｍｙ　ｓｉｓｔｅｒ．　Ｉ　ｄｏ　ｗａｎｔ　ｔｏ　"TCC_NEWLINE"ｂｅｌｉｅｖｅ　ｔｈａｔ．　Ｂｕｔ　ｃａｎ　ｗｅ　ａｆｆｏー"TCC_NEWLINE"ｒｄ　ｔｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅｒｅ　ｉｓ　ａ　ｔｒａｉｔｏｒ　ａｍｏｎｇ　ｕー"TCC_NEWLINE"ｓ，　ｉｔ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｌｏｎｇ　ｂｅｆｏｒｅ"TCC_NEWLINE"　ｗｅ　ｍｅｅｔ　ｏｕｒ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｍｍ．　Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

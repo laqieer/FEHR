@@ -7,36 +7,36 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｙｏｕ’ｒｅ　ａｗａｋｅ！　Ｎｏｗ，　ｔｈａｔ’ｓ　ａ　ｒー"TCC_NEWLINE"ｅｌｉｅｆ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｒｅ，　ｈａｖｅ　ｓｏｍｅ　ｗａｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｎｋ　ｙｏｕ．　Ｗｅｒｅ　ｙｏｕ　ｔｈｅ　ｏｎｅ　ｗー"TCC_NEWLINE"ｈｏｓａｖｅｄ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ．　Ｗｅｒｅ　ｙｏｕ　ｔｈｅ　ｏｎｅ　ｗー"TCC_NEWLINE"ｈｏ　ｓａｖｅｄ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ　ｗａｓｎ’ｔ　ｍｅ．　Ｎｏ，　ｏｎｌｙ　ｏｎｅ　ｐｅー"TCC_NEWLINE"ｒｓｏｎ　ｉｎｏｕｒ　ａｒｍｙ　ｃｏｕｌｄ　ｆｉｎｄ　ｙｏー"TCC_NEWLINE"ｕ　ｐａｓｓｅｄ　ｏｕｔｉｎ　ｔｈｅ　ｓｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓｎ’ｔ　ｍｅ．　Ｎｏ，　ｏｎｌｙ　ｏｎｅ　ｐｅー"TCC_NEWLINE"ｒｓｏｎ　ｉｎ　ｏｕｒ　ａｒｍｙ　ｃｏｕｌｄ　ｆｉｎｄ　ｙー"TCC_NEWLINE"ｏｕ　ｐａｓｓｅｄ　ｏｕｔ　ｉｎ　ｔｈｅ　ｓｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｗａｓ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｅｎ　ｙｏｕ　ｈａｖｅ　ｍｙ　ｓｉｎｃｅｒｅ　ｇｒａｔー"TCC_NEWLINE"ｉｔｕｄｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｎａｍｅ　ｉｓ　Ｆｊｏｒｍ．　Ｉ　ａｍ．．．　Ｉ　ｗー"TCC_NEWLINE"ａｓ．．．ａｐｒｉｎｃｅｓｓ　ｏｆ　ｔｈｅ　Ｋｉｎｇｄｏｍ"TCC_NEWLINE"　ｏｆ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｈｏｍｅｌａｎｄ，　ｈｏｗｅｖｅｒ，　ｗａｓｄｅｓｔー"TCC_NEWLINE"ｒｏｙｅｄ　ｂｙ　ｔｈｅ　Ｆｉｅｒｙ　Ｈｏｒｄｅｓ　ｏｆ　"TCC_NEWLINE"ｏｕｒｅｎｅｍｙ，　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｆｊｏｒｍ．　Ｉ　ａｍ．．．　Ｉ　ｗー"TCC_NEWLINE"ａｓ．．．ａ　ｐｒｉｎｃｅｓｓ　ｏｆ　ｔｈｅ　Ｋｉｎｇｄｏー"TCC_NEWLINE"ｍ　ｏｆ　Ｎｉｆｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｏｍｅｌａｎｄ，　ｈｏｗｅｖｅｒ，　ｗａｓ　ｄｅｓー"TCC_NEWLINE"ｔｒｏｙｅｄ　ｂｙ　ｔｈｅ　Ｆｉｅｒｙ　Ｈｏｒｄｅｓ　ｏｆ"TCC_NEWLINE"　ｏｕｒ　ｅｎｅｍｙ，　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｆｉｅｒｙ　Ｈｏｒｄｅｓ？　Ｔｈｅｎ，　ｔｈｅｙ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｅｓ．　Ｔｈｅｙ’ｒｅ　ｔｈｅ　ｏｎｅｓ　ｌａｕｎｃｈｉー"TCC_NEWLINE"ｎｇ　ａｎｉｎｖａｓｉｏｎ　ｏｆ　ｙｏｕｒ　ｋｉｎｇｄｏｍ"TCC_NEWLINE"　ｒｉｇｈｔ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｔｈｅｙ’ｒｅ　ｔｈｅ　ｏｎｅｓ　ｌａｕｎｃｈｉー"TCC_NEWLINE"ｎｇ　ａｎ　ｉｎｖａｓｉｏｎ　ｏｆ　ｙｏｕｒ　ｋｉｎｇｄｏー"TCC_NEWLINE"ｍ　ｒｉｇｈｔ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅｎ　ｉｔ’ｓ　ｏｕｒ　ｄｕｔｙ　ｔｏ　ｆａｃｅ　ｔｈー"TCC_NEWLINE"ｅｍ．Ｐｒｉｎｃｅｓｓ，　ｙｏｕ　ｓｈｏｕｌｄ　ｒｅｓｔ．"TCC_NEWLINE"　Ｙｏｕ　ｃａｎ"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｉｔ’ｓ　ｏｕｒ　ｄｕｔｙ　ｔｏ　ｆａｃｅ　ｔｈー"TCC_NEWLINE"ｅｍ．　Ｐｒｉｎｃｅｓｓ，　ｙｏｕ　ｓｈｏｕｌｄ　ｒｅｓｔ"TCC_NEWLINE"．　Ｙｏｕ　ｃａｎ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ｉｎｔｅｒｒｕｐｔ　ｙｏｕ，　ｂー"TCC_NEWLINE"ｕｔ　ｔｈｅｒｅ’ｓｎｏ　ｗａｙ　Ｉ　ｃａｎ　ｄｏ　ｔｈａー"TCC_NEWLINE"ｔ．　Ｙｏｕ　ｍｕｓｔ　ｌｅｔ　ｍｅｃｏｍｅ　ｗｉｔｈ　ｙー"TCC_NEWLINE"ｏｕ．　Ｐｌｅａｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｈｏｍｅｌａｎｄ　ｗａｓ　ｄｅｓｔｒｏｙｅｄ　ｂｙ　"TCC_NEWLINE"ＫｉｎｇＳｕｒｔｒ　ｏｆ　Ｍｓｐｅｌｌ．　Ｂｕｔ　ｎｏｔ　"TCC_NEWLINE"ｏｎｌｙ　ｔｈａｔ．．．　Ｉｗａｔｃｈｅｄ　ａｓ　ｈｅ　ｋー"TCC_NEWLINE"ｉｌｌｅｄ　ｍｙ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃａｎ’ｔ　ｌｅｔ　ｔｈｅ　ｓａｍｅ　ｔｈｉｎｇ　ｈａー"TCC_NEWLINE"ｐｐｅｎ　ｔｏｙｏｕｒ　ｋｉｎｇｄｏｍ．　Ｐｌｅａｓｅ，　"TCC_NEWLINE"ｗｈａｔｅｖｅｒｓｔｒｅｎｇｔｈ　Ｉ　ｈａｖｅ．．．ｌｅｔ"TCC_NEWLINE"　ｍｅ　ｌｅｎｄ　ｉｔ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ｉｎｔｅｒｒｕｐｔ　ｙｏｕ，　ｂー"TCC_NEWLINE"ｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｗａｙ　Ｉ　ｃａｎ　ｄｏ　ｔｈー"TCC_NEWLINE"ａｔ．　Ｙｏｕ　ｍｕｓｔ　ｌｅｔ　ｍｅ　ｃｏｍｅ　ｗｉｔｈ"TCC_NEWLINE"　ｙｏｕ．　Ｐｌｅａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｏｍｅｌａｎｄ　ｗａｓ　ｄｅｓｔｒｏｙｅｄ　ｂｙ　"TCC_NEWLINE"Ｋｉｎｇ　Ｓｕｒｔｒ　ｏｆ　Ｍｓｐｅｌｌ．　Ｂｕｔ　ｎｏｔ"TCC_NEWLINE"　ｏｎｌｙ　ｔｈａｔ．．．　Ｉ　ｗａｔｃｈｅｄ　ａｓ　ｈｅ"TCC_NEWLINE"　ｋｉｌｌｅｄ　ｍｙ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｌｅｔ　ｔｈｅ　ｓａｍｅ　ｔｈｉｎｇ　ｈａー"TCC_NEWLINE"ｐｐｅｎ　ｔｏ　ｙｏｕｒ　ｋｉｎｇｄｏｍ．　Ｐｌｅａｓｅ，"TCC_NEWLINE"　ｗｈａｔｅｖｅｒ　ｓｔｒｅｎｇｔｈ　Ｉ　ｈａｖｅ．．．ｌー"TCC_NEWLINE"ｅｔ　ｍｅ　ｌｅｎｄ　ｉｔ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2021_EN] = TCC_OPEN_LEFT
 "Ｙｏｕ’ｒｅ　ｓｔｉｌｌ　ａｌｉｖｅ．　Ｈｏｗ　ｄｉｓａｐー"TCC_NEWLINE"ｐｏｉｎｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！　Ｔｅｌｌ　ｍｅ　ｗｈー"TCC_NEWLINE"ａｔ　ｙｏｕｋｎｏｗ　ａｂｏｕｔ　ｔｈｅｓｅ　ｉｎｖａｄｅー"TCC_NEWLINE"ｒｓ　ｆｒｏｍＭｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！　Ｔｅｌｌ　ｍｅ　ｗｈー"TCC_NEWLINE"ａｔ　ｙｏｕ　ｋｎｏｗ　ａｂｏｕｔ　ｔｈｅｓｅ　ｉｎｖａｄー"TCC_NEWLINE"ｅｒｓ　ｆｒｏｍ　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅｙ’ｒｅ　ｍｙ　ａｌｌｉｅｓ，　ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE"　Ｉ’ｖｅｊｏｉｎｅｄ　ｆｏｒｃｅｓ　ｗｉｔｈ　Ｋｉｎｇ　"TCC_NEWLINE"Ｓｕｒｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　Ｈｅｒｏｅｓ　ａｎｄ　ｍｙ　ｓｏｌｄｉｅｒｓ　ｗｉｌー"TCC_NEWLINE"ｌ　ａｓｓｉｓｔｈｏｗｅｖｅｒ　ｔｈｅｙ　ｃａｎ．　Ａｆｔー"TCC_NEWLINE"ｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｍｙ　ａｌｌｉｅｓ，　ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE"　Ｉ’ｖｅ　ｊｏｉｎｅｄ　ｆｏｒｃｅｓ　ｗｉｔｈ　Ｋｉｎｇ"TCC_NEWLINE"　Ｓｕｒｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　Ｈｅｒｏｅｓ　ａｎｄ　ｍｙ　ｓｏｌｄｉｅｒｓ　ｗｉｌー"TCC_NEWLINE"ｌ　ａｓｓｉｓｔ　ｈｏｗｅｖｅｒ　ｔｈｅｙ　ｃａｎ．　Ａｆー"TCC_NEWLINE"ｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｓｋｒ　ｍｕｓｔ　ｂｅ　ｄｅｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2021_EN] = TCC_OPEN_LEFT
-"Ｉ　ｔｉｒｅ　ｏｆ　ｔｈｉｓ．　Ｉ’ｍ　ｈｅａｄｉｎｇ　ｂー"TCC_NEWLINE"ａｃｋ　ｔｏ　ｔｈｅｃａｓｔｌｅ．　Ｄｏｎ’ｔ　ｆｏｒｇｅー"TCC_NEWLINE"ｔ，　ｔｈｏｕｇｈ．．．　Ｉ　ｗｉｌｌｋｉｌｌ　ａｌｌ　ｏー"TCC_NEWLINE"ｆ　ｙｏｕ．　Ｓｕｒｔｒ　ｗｉｌｌ　ｓｅｅ　ｔｏ　ｔｈａｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｉｒｅ　ｏｆ　ｔｈｉｓ．　Ｉ’ｍ　ｈｅａｄｉｎｇ　ｂー"TCC_NEWLINE"ａｃｋ　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ．　Ｄｏｎ’ｔ　ｆｏｒｇー"TCC_NEWLINE"ｅｔ，　ｔｈｏｕｇｈ．．．　Ｉ　ｗｉｌｌ　ｋｉｌｌ　ａｌｌ"TCC_NEWLINE"　ｏｆ　ｙｏｕ．　Ｓｕｒｔｒ　ｗｉｌｌ　ｓｅｅ　ｔｏ　ｔｈー"TCC_NEWLINE"ａｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

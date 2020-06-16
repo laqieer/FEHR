@@ -1,40 +1,40 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S1201_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｔ　ｔｕｒｎｓ　ｏｕｔ　ｔｈａｔ　Ｚａｃｈａｒｉａｓ　ｉー"TCC_NEWLINE"ｓ　ｆｉｎｅ　ａｆｔｅｒａｌｌ．　Ｗｈａｔ　ａ　ｒｅｌｉｅー"TCC_NEWLINE"ｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｔｕｒｎｓ　ｏｕｔ　ｔｈａｔ　Ｚａｃｈａｒｉａｓ　ｉー"TCC_NEWLINE"ｓ　ｆｉｎｅ　ａｆｔｅｒ　ａｌｌ．　Ｗｈａｔ　ａ　ｒｅｌｉー"TCC_NEWLINE"ｅｆ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｙｅｓ，　ｂｕｔ．．．　Ｗｈｙ　ｄｉｄ　ｈｅ　ｌｅａｖｅ　"TCC_NEWLINE"ａｇａｉｎｂｅｆｏｒｅ　ｗｅ　ｈａｄ　ａ　ｃｈａｎｃｅ　ｔー"TCC_NEWLINE"ｏ　ｍｅｅｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　ｂｕｔ．．．　Ｗｈｙ　ｄｉｄ　ｈｅ　ｌｅａｖｅ　"TCC_NEWLINE"ａｇａｉｎ　ｂｅｆｏｒｅ　ｗｅ　ｈａｄ　ａ　ｃｈａｎｃｅ　"TCC_NEWLINE"ｔｏ　ｍｅｅｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ，　ｂｕｔ　ｈｅ　ｍｕｓｔ　ｈａｖー"TCC_NEWLINE"ｅ　ｈａｄａ　ｒｅａｓｏｎ，　ｊｕｄｇｉｎｇ　ｂｙ　ｗｈａー"TCC_NEWLINE"ｔ"TCC_NEWLINE
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ，　ｂｕｔ　ｈｅ　ｍｕｓｔ　ｈａｖー"TCC_NEWLINE"ｅ　ｈａｄ　ａ　ｒｅａｓｏｎ，　ｊｕｄｇｉｎｇ　ｂｙ　ｗｈー"TCC_NEWLINE"ａｔ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ｔｏｌｄ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ！　Ｅｖｅｎ　ｉｆ　Ｚａｃｈａｒｉａー"TCC_NEWLINE"ｓ　ｉｓ　ｉｎｈｉｄｉｎｇ，　ｗｅ　ｄｏ　ｈａｖｅ　ａ　ｗー"TCC_NEWLINE"ａｙ　ｔｏ　ｓｐｅａｋｗｉｔｈ　ｈｉｍ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ！　Ｅｖｅｎ　ｉｆ　Ｚａｃｈａｒｉａー"TCC_NEWLINE"ｓ　ｉｓ　ｉｎ　ｈｉｄｉｎｇ，　ｗｅ　ｄｏ　ｈａｖｅ　ａ　"TCC_NEWLINE"ｗａｙ　ｔｏ　ｓｐｅａｋ　ｗｉｔｈ　ｈｉｍ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｅ　ｄｏ？　Ｓｉｎｃｅ　ｗｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉ　ｍａｎａｇｅｄ　ｔｏ　ｇｅｔ　ｍｙ　ｈａｎｄｓ　ｏｎｓー"TCC_NEWLINE"ｏｍｅｔｈｉｎｇ　ｓｐｅｃｉａｌ　ｗｈｉｌｅ　ｗｅ　ｗｅｒー"TCC_NEWLINE"ｅ　ｉｎｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｒａｄｉａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｃａｌｌｅｄ　ａ　ｓｅｎｄｉｎｇ　ｓｔｏｎｅｉｔ"TCC_NEWLINE"’ｓ　ａｍａｇｉｃａｌ　ｓｔｏｎｅ　ｔｈａｔ　ｌｅｔｓ　ｙー"TCC_NEWLINE"ｏｕ　ｔａｌｋｔｏ　ｓｏｍｅｏｎｅ　ｆａｒ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍａｎａｇｅｄ　ｔｏ　ｇｅｔ　ｍｙ　ｈａｎｄｓ　ｏｎ　"TCC_NEWLINE"ｓｏｍｅｔｈｉｎｇ　ｓｐｅｃｉａｌ　ｗｈｉｌｅ　ｗｅ　ｗｅー"TCC_NEWLINE"ｒｅ　ｉｎ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｒａｄｉａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｃａｌｌｅｄ　ａ　ｓｅｎｄｉｎｇ　ｓｔｏｎｅｉｔ"TCC_NEWLINE"’ｓ　ａ　ｍａｇｉｃａｌ　ｓｔｏｎｅ　ｔｈａｔ　ｌｅｔｓ　"TCC_NEWLINE"ｙｏｕ　ｔａｌｋ　ｔｏ　ｓｏｍｅｏｎｅ　ｆａｒ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｎｄ　ｙｏｕ　ｂｅｌｉｅｖｅ　ｗｅ　ｃａｎ　ｕｓｅ　ｔｈー"TCC_NEWLINE"ｉｓ　ｔｏｓｐｅａｋ　ｗｉｔｈ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｏｕ　ｂｅｌｉｅｖｅ　ｗｅ　ｃａｎ　ｕｓｅ　ｔｈー"TCC_NEWLINE"ｉｓ　ｔｏ　ｓｐｅａｋ　ｗｉｔｈ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｕｓｕａｌｌｙ，　ｔｈｅ　ｐｅｒｓｏｎ　ｙｏｕ　ｗａｎｔ　"TCC_NEWLINE"ｔｏｔａｌｋ　ｔｏ　ａｌｓｏ　ｎｅｅｄｓ　ｔｏ　ｈａｖｅ　"TCC_NEWLINE"ａ　ｓｔｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｗｅ　ｃａｎ　ｕｓｅ　ｉｔ　ａｓ　ｔｈｅ　ｃａｔａー"TCC_NEWLINE"ｌｙｓｔ　ｆｏｒ　ａｍａｇｉｃａｌ　ｒｉｔｅ　ｉｎ　ｔｈｅ"TCC_NEWLINE"　Ｗｏｒｌｄ　ｏｆ　Ｓｈａｄｏｗｓ，ｗｈｉｃｈ　ｉｓ　ｗｈー"TCC_NEWLINE"ｅｒｅ　ｗｅ’ｒｅ　ｈｅａｄｅｄ　ｎｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｌｏｎｇ　ａｓ　ｈｅ’ｓ　ａｌｉｖｅ，　Ｚａｃｈａｒー"TCC_NEWLINE"ｉａｓ　ｗｉｌｌｂｅ　ａｂｌｅ　ｔｏ　ｈｅａｒ　ｕｓ．．．"TCC_NEWLINE"ｅｖｅｎ　ｉｆ　ｈｅ’ｓａｓｌｅｅｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｕｓｕａｌｌｙ，　ｔｈｅ　ｐｅｒｓｏｎ　ｙｏｕ　ｗａｎｔ　"TCC_NEWLINE"ｔｏ　ｔａｌｋ　ｔｏ　ａｌｓｏ　ｎｅｅｄｓ　ｔｏ　ｈａｖｅ"TCC_NEWLINE"　ａ　ｓｔｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｅ　ｃａｎ　ｕｓｅ　ｉｔ　ａｓ　ｔｈｅ　ｃａｔａー"TCC_NEWLINE"ｌｙｓｔ　ｆｏｒ　ａ　ｍａｇｉｃａｌ　ｒｉｔｅ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　Ｗｏｒｌｄ　ｏｆ　Ｓｈａｄｏｗｓ，　ｗｈｉｃｈ　ｉｓ　"TCC_NEWLINE"ｗｈｅｒｅ　ｗｅ’ｒｅ　ｈｅａｄｅｄ　ｎｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｈｅ’ｓ　ａｌｉｖｅ，　Ｚａｃｈａｒー"TCC_NEWLINE"ｉａｓ　ｗｉｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｈｅａｒ　ｕｓ．．"TCC_NEWLINE"．ｅｖｅｎ　ｉｆ　ｈｅ’ｓ　ａｓｌｅｅｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈａｔ’ｓ　ｆａｎｔａｓｔｉｃ，　Ｃｏｍｍａｎｄｅｒ　Ａー"TCC_NEWLINE"ｎｎａ！Ｗｈａｔ　ａｒｅ　ｗｅ　ｗａｉｔｉｎｇ　ｆｏｒ？　"TCC_NEWLINE"Ｌｅｔ’ｓ　ｔａｌｋ　ｔｏＺａｃｈａｒｉａｓ　ｒｉｇｈｔ　"TCC_NEWLINE"ａｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｆａｎｔａｓｔｉｃ，　Ｃｏｍｍａｎｄｅｒ　Ａー"TCC_NEWLINE"ｎｎａ！　Ｗｈａｔ　ａｒｅ　ｗｅ　ｗａｉｔｉｎｇ　ｆｏｒ？"TCC_NEWLINE"　Ｌｅｔ’ｓ　ｔａｌｋ　ｔｏ　Ｚａｃｈａｒｉａｓ　ｒｉｇｈー"TCC_NEWLINE"ｔ　ａｗａｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S1201_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｎａｍｅ　ｉｓ　Ｃｅｌｉｃａ．　Ｉ’ｍ　ａ　ｃｈｉｌー"TCC_NEWLINE"ｄｈｏｏｄｆｒｉｅｎｄ　ｏｆ　Ａｌｍ’ｓ，　ａｎｄ．．．Ｉ"TCC_NEWLINE"　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏｆｉｇｈｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓａｄｌｙ，　ｔｈｏｕｇｈ，　ｉｔ　ｓｅｅｍｓ　Ｉ　ｃａｎー"TCC_NEWLINE"ｎｏｔｒｅｓｉｓｔ　ｔｈｉｓ　ｃｏｎｔｒａｃｔ．　Ｉ’ｍ　"TCC_NEWLINE"ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｌ　Ｉ　ｃａｎ　ｄｏ　ｉｓ　ｆｉｇｈｔ，　ａｎｄ　ｐｒー"TCC_NEWLINE"ａｙ　ｔｈａｔ　ｙｏｕｒｓｔｒｅｎｇｔｈ　ｗｉｌｌ　ｂｅ　"TCC_NEWLINE"ｅｎｏｕｇｈ　ｔｏ　ｆｒｅｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｃｅｌｉｃａ．　Ｉ’ｍ　ａ　ｃｈｉｌー"TCC_NEWLINE"ｄｈｏｏｄ　ｆｒｉｅｎｄ　ｏｆ　Ａｌｍ’ｓ，　ａｎｄ．．．"TCC_NEWLINE"Ｉ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｆｉｇｈｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓａｄｌｙ，　ｔｈｏｕｇｈ，　ｉｔ　ｓｅｅｍｓ　Ｉ　ｃａｎー"TCC_NEWLINE"ｎｏｔ　ｒｅｓｉｓｔ　ｔｈｉｓ　ｃｏｎｔｒａｃｔ．　Ｉ’ｍ"TCC_NEWLINE"　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　Ｉ　ｃａｎ　ｄｏ　ｉｓ　ｆｉｇｈｔ，　ａｎｄ　ｐｒー"TCC_NEWLINE"ａｙ　ｔｈａｔ　ｙｏｕｒ　ｓｔｒｅｎｇｔｈ　ｗｉｌｌ　ｂｅ"TCC_NEWLINE"　ｅｎｏｕｇｈ　ｔｏ　ｆｒｅｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S1201_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　Ｈｅｒｏｅｓ　ｏｆ　ｔｈｉｓ　ｗー"TCC_NEWLINE"ｏｒｌｄａｒｅ　ａｌｒｅａｄｙ　ｕｎｄｅｒ　ｔｈｅ　ｃｏｎー"TCC_NEWLINE"ｔｒｏｌ　ｏｆＥｍｂｌａ，　ｗｈｉｃｈ　ｍｅａｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　Ｈｅｒｏｅｓ　ｏｆ　ｔｈｉｓ　ｗー"TCC_NEWLINE"ｏｒｌｄ　ａｒｅ　ａｌｒｅａｄｙ　ｕｎｄｅｒ　ｔｈｅ　ｃｏー"TCC_NEWLINE"ｎｔｒｏｌ　ｏｆ　Ｅｍｂｌａ，　ｗｈｉｃｈ　ｍｅａｎｓ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｙｏｕ　ａｇａｉｎ？　Ｉ　ｔｉｒｅ　ｏｆ　ｍｅｅｔｉｎｇ　"TCC_NEWLINE"ｌｉｋｅ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｒｉｎｃｅ　Ｂｒｕｎｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｇｕｈ！　Ｌｅａｖｅ．．．ｎｏｗ．　Ｇｅｔ　ｉｎ　ｍｙ　ｗー"TCC_NEWLINE"ａｙ，ａｎｄ．．．Ｉ．．．ｗｉｌｌ　ｋｉｌｌ．．．ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｕｈ！　Ｌｅａｖｅ．．．ｎｏｗ．　Ｇｅｔ　ｉｎ　ｍｙ　ｗー"TCC_NEWLINE"ａｙ，　ａｎｄ．．．Ｉ．．．ｗｉｌｌ　ｋｉｌｌ．．．ｙｏｕ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

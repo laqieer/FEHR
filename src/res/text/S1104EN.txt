@@ -1,16 +1,16 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_END_S1104_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ’ｖｅ　ｍａｎａｇｅｄ　ｔｏ　ｈｏｌｄ　ｔｈｅｍ　ｏｆー"TCC_NEWLINE"ｆ　ｓｏｆａｒ．　Ｂｕｔ　ａｔ　ｔｈｉｓ　ｒａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｍｕｓｔ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｔｕｒｎ　ｔｈー"TCC_NEWLINE"ｅ　ｔｉｄｅ．Ｂｕｔ　ｗｈａｔ　ｃａｎ　ｗｅ"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｍａｎａｇｅｄ　ｔｏ　ｈｏｌｄ　ｔｈｅｍ　ｏｆー"TCC_NEWLINE"ｆ　ｓｏ　ｆａｒ．　Ｂｕｔ　ａｔ　ｔｈｉｓ　ｒａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｔｕｒｎ　ｔｈー"TCC_NEWLINE"ｅ　ｔｉｄｅ．　Ｂｕｔ　ｗｈａｔ　ｃａｎ　ｗｅ"TCC_NEWLINE TCC_PUSH_A
 TCC_NEWLINE
-TCC_TACTICIAN_NAME"？Ｗｈｅｒｅ　ａｒｅ　ｙｏｕ　ｇｏｉｎｇ？　Ｄｏｎ’ｔ　ｔー"TCC_NEWLINE"ｅｌｌ　ｍｅｔｈａｔ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"？　Ｗｈｅｒｅ　ａｒｅ　ｙｏｕ　ｇｏｉｎｇ？　Ｄｏｎ’ｔ　"TCC_NEWLINE"ｔｅｌｌ　ｍｅ　ｔｈａｔ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ａｒｅ　ｙｏｕ　ｋｉｄｄｉｎｇ？　Ｙｏｕ　ｗａｎｔ　ｔｏ　"TCC_NEWLINE"ｃｈａｓｅｔｈｅｍ？　Ｔｈａｔ’ｓ　ｎｕｔｓ！　Ｉｆ　ｗｅ"TCC_NEWLINE"’ｒｅ　ｃａｕｇｈｔ　ｉｎｅｎｅｍｙ　ｔｅｒｒｉｔｏｒｙ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｋｉｄｄｉｎｇ？　Ｙｏｕ　ｗａｎｔ　ｔｏ　"TCC_NEWLINE"ｃｈａｓｅ　ｔｈｅｍ？　Ｔｈａｔ’ｓ　ｎｕｔｓ！　Ｉｆ　ｗー"TCC_NEWLINE"ｅ’ｒｅ　ｃａｕｇｈｔ　ｉｎ　ｅｎｅｍｙ　ｔｅｒｒｉｔｏｒー"TCC_NEWLINE"ｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｎｏ，　ｉｔ’ｓ　ａ　ｇｏｏｄ　ｉｄｅａ．　Ｉｎ　ｆａｃｔ"TCC_NEWLINE"，　ｉｔ　ｍｉｇｈｔ　ｂｅｏｕｒ　ｏｎｌｙ　ｏｐｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｋｎｏｗ　ｔｈａｔ　ｗｈａｔｅｖｅｒ’ｓ　ｐｒｏｔｅー"TCC_NEWLINE"ｃｔｉｎｇｔｈｅｍ　ｉｓｎ’ｔ　ｐｅｒｍａｎｅｎｔ．　Ｎｏー"TCC_NEWLINE"ｗ　ｔｈａｔｉｔ’ｓ　ｇｏｎｅ．．．　Ｔｈａｔ’ｓ　ｏｕｒ"TCC_NEWLINE"　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｉｔ’ｓ　ａ　ｇｏｏｄ　ｉｄｅａ．　Ｉｎ　ｆａｃｔ"TCC_NEWLINE"，　ｉｔ　ｍｉｇｈｔ　ｂｅ　ｏｕｒ　ｏｎｌｙ　ｏｐｔｉｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｋｎｏｗ　ｔｈａｔ　ｗｈａｔｅｖｅｒ’ｓ　ｐｒｏｔｅー"TCC_NEWLINE"ｃｔｉｎｇ　ｔｈｅｍ　ｉｓｎ’ｔ　ｐｅｒｍａｎｅｎｔ．　Ｎー"TCC_NEWLINE"ｏｗ　ｔｈａｔ　ｉｔ’ｓ　ｇｏｎｅ．．．　Ｔｈａｔ’ｓ　ｏー"TCC_NEWLINE"ｕｒ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅ　ｈａｖｅ　ｎｏ　ｉｄｅａ　ｗｈａｔ　ｗｉｌｌ　ｂｅ　"TCC_NEWLINE"ｗａｉｔｉｎｇｆｏｒ　ｕｓ　ｔｈｅｒｅ，　ｂｕｔ　ｗｅ　ｈー"TCC_NEWLINE"ａｖｅ　ｎｏ　ｃｈｏｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｈｅａｄ　ｔｏ　ｔｈｅ　Ｗｏｒｌー"TCC_NEWLINE"ｄ　ｏｆＲａｄｉａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｎｏ　ｉｄｅａ　ｗｈａｔ　ｗｉｌｌ　ｂｅ　"TCC_NEWLINE"ｗａｉｔｉｎｇ　ｆｏｒ　ｕｓ　ｔｈｅｒｅ，　ｂｕｔ　ｗｅ　"TCC_NEWLINE"ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｈｅａｄ　ｔｏ　ｔｈｅ　Ｗｏｒｌー"TCC_NEWLINE"ｄ　ｏｆ　Ｒａｄｉａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

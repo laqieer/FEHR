@@ -1,80 +1,80 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅ．．．ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ？　Ｉ’ｖｅ　ｎｅー"TCC_NEWLINE"ｖｅｒＡｎｄ．．．ｌｉｇｈｔ　ｅｌｖｅｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ．．．ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ？　Ｉ’ｖｅ　ｎｅー"TCC_NEWLINE"ｖｅｒ　Ａｎｄ．．．ｌｉｇｈｔ　ｅｌｖｅｓ？"TCC_NEWLINE TCC_PUSH_A
 "Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ａｈ，　Ｉ　ｓｅｅ　ｙｏｕ　ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｍー"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｃｅ　ｔｈｅｙ’ｖｅ　ｇｒｏｗｎ　ｉｎｔｏ　ａｄｕｌｔー"TCC_NEWLINE"ｓ，ｍｏｒｔａｌｓ　ｃｅｒｔａｉｎｌｙ　ｔｕｒｎ　ａｒｇｕー"TCC_NEWLINE"ｍｅｎｔａｔｉｖｅ．Ｙｏｕ　ｗｏｎ’ｔ　ｌｉｓｔｅｎ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ａ　ｓｈａｍｅ．　Ｙｏｕ’ｒｅ　ｓｏ　ｐｕｒｅ　"TCC_NEWLINE"ａｎｄｉｎｎｏｃｅｎｔ　ａｓ　ｃｈｉｌｄｒｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｙｏｕ　ｆｏｒｇｅｔ　ｈｏｗ　ｔｏ　ｄｒｅａｍ　ｓー"TCC_NEWLINE"ｏｅａｓｉｌｙ．．．　Ｒｅａｌｉｔｙ　ＩＳ　ｈａｒｓｈ．　"TCC_NEWLINE"Ｉｔ　ｄｅｍａｎｄｓｆｏｃｕｓ，　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌａｓ，　ｉｔ　ｃａｎ’ｔ　ｂｅ　ｈｅｌｐｅｄ！　Ｉｆ　"TCC_NEWLINE"ｙｏｕｄｒｅａｍｔ　ａｌｌ　ｔｈｅ　ｔｉｍｅ，　ｙｏｕ　ｗー"TCC_NEWLINE"ｏｕｌｄｎ’ｔｓｕｒｖｉｖｅ　ｆｏｒ　ｌｏｎｇ，　ｗｏｕｌー"TCC_NEWLINE"ｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｔｈｅｙ’ｖｅ　ｇｒｏｗｎ　ｉｎｔｏ　ａｄｕｌｔー"TCC_NEWLINE"ｓ，　ｍｏｒｔａｌｓ　ｃｅｒｔａｉｎｌｙ　ｔｕｒｎ　ａｒｇー"TCC_NEWLINE"ｕｍｅｎｔａｔｉｖｅ．　Ｙｏｕ　ｗｏｎ’ｔ　ｌｉｓｔｅｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａ　ｓｈａｍｅ．　Ｙｏｕ’ｒｅ　ｓｏ　ｐｕｒｅ　"TCC_NEWLINE"ａｎｄ　ｉｎｎｏｃｅｎｔ　ａｓ　ｃｈｉｌｄｒｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕ　ｆｏｒｇｅｔ　ｈｏｗ　ｔｏ　ｄｒｅａｍ　ｓー"TCC_NEWLINE"ｏ　ｅａｓｉｌｙ．．．　Ｒｅａｌｉｔｙ　ＩＳ　ｈａｒｓｈ．"TCC_NEWLINE"　Ｉｔ　ｄｅｍａｎｄｓ　ｆｏｃｕｓ，　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌａｓ，　ｉｔ　ｃａｎ’ｔ　ｂｅ　ｈｅｌｐｅｄ！　Ｉｆ　"TCC_NEWLINE"ｙｏｕ　ｄｒｅａｍｔ　ａｌｌ　ｔｈｅ　ｔｉｍｅ，　ｙｏｕ　"TCC_NEWLINE"ｗｏｕｌｄｎ’ｔ　ｓｕｒｖｉｖｅ　ｆｏｒ　ｌｏｎｇ，　ｗｏー"TCC_NEWLINE"ｕｌｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓ－ｓｏ．．．ｙｏｕ　ｍｅａｎ　ｔｏ　ｔｅｌｌ　ｍｅ．．．"TCC_NEWLINE"　Ｈｍ．Ｉ’ｍ　ｂｅｇｉｎｎｉｎｇ　ｔｏ　ｒｅｍｅｍｂｅｒ"TCC_NEWLINE"　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｓ．．．　Ｅｖｅｒｙｏｎｅ　ｂｅｇａｎ　ｆａｌｌｉｎｇ"TCC_NEWLINE"　ａｓｌｅｅｐ．Ｔｈｅｎ，　Ｉ　ｗａｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓ－ｓｏ．．．ｙｏｕ　ｍｅａｎ　ｔｏ　ｔｅｌｌ　ｍｅ．．．"TCC_NEWLINE"　Ｈｍ．　Ｉ’ｍ　ｂｅｇｉｎｎｉｎｇ　ｔｏ　ｒｅｍｅｍｂｅー"TCC_NEWLINE"ｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．．．　Ｅｖｅｒｙｏｎｅ　ｂｅｇａｎ　ｆａｌｌｉｎｇ"TCC_NEWLINE"　ａｓｌｅｅｐ．　Ｔｈｅｎ，　Ｉ　ｗａｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ．．．ｗｈｅｒｅ　ｉｓ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｈ，　ｔｈｅｒｅ　ｔｈｅ　ｔｗｏ　ｏｆ　ｙｏｕ　ａｒｅ！"TCC_NEWLINE"　Ｗｈａｔｉｓ　ｔｈｉｓ　ｐｌａｃｅ？　Ａｎｙ　ｉｄｅａｓ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ，　ｔｈｅｒｅ　ｔｈｅ　ｔｗｏ　ｏｆ　ｙｏｕ　ａｒｅ！"TCC_NEWLINE"　Ｗｈａｔ　ｉｓ　ｔｈｉｓ　ｐｌａｃｅ？　Ａｎｙ　ｉｄｅａー"TCC_NEWLINE"ｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ’ｍ　ｎｏｔ　ｑｕｉｔｅ　ｓｕｒｅ．　Ｂｕｔ　Ｉ’ｍ　ｇー"TCC_NEWLINE"ｌａｄ　ｔｏｓｅｅ　ｙｏｕ　ｂｏｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｈａｖｅ　ｅｉｔｈｅｒ　ｏｆ　ｙｏｕ　ｓｅｅｎ　ａｎー"TCC_NEWLINE"ｙ　ｔｒａｃｅｏｆ"TCC_NEWLINE
+"Ｉ’ｍ　ｎｏｔ　ｑｕｉｔｅ　ｓｕｒｅ．　Ｂｕｔ　Ｉ’ｍ　ｇー"TCC_NEWLINE"ｌａｄ　ｔｏ　ｓｅｅ　ｙｏｕ　ｂｏｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｈａｖｅ　ｅｉｔｈｅｒ　ｏｆ　ｙｏｕ　ｓｅｅｎ　ａｎー"TCC_NEWLINE"ｙ　ｔｒａｃｅ　ｏｆ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｈｅｒｅ　ｃｏｕｌｄ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｂａｄ　ｎｅｗｓ！　Ｉ’ｍ　ａｆｒａｉｄ　ｔｈｅ　ｄｒｅａー"TCC_NEWLINE"ｍｍａｙ　ｈａｖｅ　ｔｒａｐｐｅｄ　ｙｏｕｒ　ｆｒｉｅｎｄ"TCC_NEWLINE"．．．"TCC_NEWLINE
+"Ｂａｄ　ｎｅｗｓ！　Ｉ’ｍ　ａｆｒａｉｄ　ｔｈｅ　ｄｒｅａー"TCC_NEWLINE"ｍ　ｍａｙ　ｈａｖｅ　ｔｒａｐｐｅｄ　ｙｏｕｒ　ｆｒｉｅｎー"TCC_NEWLINE"ｄ．．．"TCC_NEWLINE
 TCC_TACTICIAN_NAME"，　ｙｏｕ　ｓａｉｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｈａｖｅ　ｔｏ　ｄｏ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ"TCC_NEWLINE"　ｔｈａｔ．Ａｎｄ　ｑｕｉｃｋｌｙｂｅｆｏｒｅ　ｔｈｅ　ｎー"TCC_NEWLINE"ｉｇｈｔｍａｒｅｄｏｅｓ　ｉｔｓ　ｗｏｒｋ．．．　Ｔｈｉｓ"TCC_NEWLINE"　ｗａｙ！　Ｈｕｒｒｙ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｄｏ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ"TCC_NEWLINE"　ｔｈａｔ．　Ａｎｄ　ｑｕｉｃｋｌｙｂｅｆｏｒｅ　ｔｈｅ　"TCC_NEWLINE"ｎｉｇｈｔｍａｒｅ　ｄｏｅｓ　ｉｔｓ　ｗｏｒｋ．．．　Ｔｈー"TCC_NEWLINE"ｉｓ　ｗａｙ！　Ｈｕｒｒｙ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
-"Ｌｊｓｌｆｈｅｉｍｒ　ｉｓ　ａ　ｗｏｒｌｄ　ｃｒｅａｔｅｄー"TCC_NEWLINE"ｆｒｏｍ　ｔｈｅ　ｆａｂｒｉｃ　ｏｆ　ｍｏｒｔａｌｓ’　ｐー"TCC_NEWLINE"ｌｅａｓａｎｔ，ｄｅｌｉｇｈｔｆｕｌ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ａ　ｗｏｒｌｄ　ｔｈａｔ　ｗｒａｐｓ　ｙｏｕ　ｕー"TCC_NEWLINE"ｐ　ａｌｌｗａｒｍ　ｉｎ　ａ　ｂｌａｎｋｅｔ，　ａ　ｆｌｕー"TCC_NEWLINE"ｆｆｙ－ｆｌｏａｔｙｗｏｒｌｄａ　ｃｈｉｌｄ’ｓ　ｄｒｅａー"TCC_NEWLINE"ｍｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｊｓｌｆｈｅｉｍｒ　ｉｓ　ａ　ｗｏｒｌｄ　ｃｒｅａｔｅｄ"TCC_NEWLINE"　ｆｒｏｍ　ｔｈｅ　ｆａｂｒｉｃ　ｏｆ　ｍｏｒｔａｌｓ’　"TCC_NEWLINE"ｐｌｅａｓａｎｔ，　ｄｅｌｉｇｈｔｆｕｌ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａ　ｗｏｒｌｄ　ｔｈａｔ　ｗｒａｐｓ　ｙｏｕ　ｕー"TCC_NEWLINE"ｐ　ａｌｌ　ｗａｒｍ　ｉｎ　ａ　ｂｌａｎｋｅｔ，　ａ　ｆｌー"TCC_NEWLINE"ｕｆｆｙ－ｆｌｏａｔｙ　ｗｏｒｌｄａ　ｃｈｉｌｄ’ｓ　ｄｒー"TCC_NEWLINE"ｅａｍｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ’ｍ　ｓｔｉｌｌ　ｎｏｔ　ｓｕｒｅ　ｗｈａｔ　ｅｘａｃｔー"TCC_NEWLINE"ｌｙ　ｔｈｉｓｐｌａｃｅ　ｉｓ．．．ｏｒ　ｈｏｗ　ｗｅ　ｇー"TCC_NEWLINE"ｏｔ　ｈｅｒｅ，　ｂｕｔ．．．Ｔｈｅ　ｓｃｅｎｅｒｙ　ｃｅー"TCC_NEWLINE"ｒｔａｉｎｌｙ　ｉｓ　ｉｎｃｒｅｄｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ．．．ｗｈｅｒｅ　ａｒｅ　ａｌｌ　ｔｈｅｓｅ　ｓｏｌー"TCC_NEWLINE"ｄｉｅｒｓｃｏｍｉｎｇ　ｆｒｏｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｔｉｌｌ　ｎｏｔ　ｓｕｒｅ　ｗｈａｔ　ｅｘａｃｔー"TCC_NEWLINE"ｌｙ　ｔｈｉｓ　ｐｌａｃｅ　ｉｓ．．．ｏｒ　ｈｏｗ　ｗｅ　"TCC_NEWLINE"ｇｏｔ　ｈｅｒｅ，　ｂｕｔ．．．　Ｔｈｅ　ｓｃｅｎｅｒｙ　"TCC_NEWLINE"ｃｅｒｔａｉｎｌｙ　ｉｓ　ｉｎｃｒｅｄｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｗｈｅｒｅ　ａｒｅ　ａｌｌ　ｔｈｅｓｅ　ｓｏｌー"TCC_NEWLINE"ｄｉｅｒｓ　ｃｏｍｉｎｇ　ｆｒｏｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｏｓｅ　ａｒｅ　ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｏｆ　ｎｉｇー"TCC_NEWLINE"ｈｔｍａｒｅｓ．Ｔｈｅｙ’ｒｅ　ｃｒｅａｔｅｄ　ｆｒｏｍ　"TCC_NEWLINE"ｔｈｅ　ａｎｘｉｏｕｓａｎｄ　ｔｅｒｒｉｆｉｅｄ　ｔｈｏｕー"TCC_NEWLINE"ｇｈｔｓ　ｏｆ　ｍｏｒｔａｌｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｋｅｅｐ　ｇｏｉｎｇ，　ｗｅ’ｌｌ　ｈａｖｅ　ｔｏ　"TCC_NEWLINE"ｄｏｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｔｈｅ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅｓ，ｏｒ　ｔｈｅｙ’ｌｌ　ｂｅ　ｓｕｒｅ　ｔｏ　ｈａｕー"TCC_NEWLINE"ｎｔ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ａｒｅ　ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｏｆ　ｎｉｇー"TCC_NEWLINE"ｈｔｍａｒｅｓ．　Ｔｈｅｙ’ｒｅ　ｃｒｅａｔｅｄ　ｆｒｏｍ"TCC_NEWLINE"　ｔｈｅ　ａｎｘｉｏｕｓ　ａｎｄ　ｔｅｒｒｉｆｉｅｄ　ｔｈー"TCC_NEWLINE"ｏｕｇｈｔｓ　ｏｆ　ｍｏｒｔａｌｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｋｅｅｐ　ｇｏｉｎｇ，　ｗｅ’ｌｌ　ｈａｖｅ　ｔｏ　"TCC_NEWLINE"ｄｏ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ｔｈｅ　ｎｉｇｈｔｍー"TCC_NEWLINE"ａｒｅｓ，　ｏｒ　ｔｈｅｙ’ｌｌ　ｂｅ　ｓｕｒｅ　ｔｏ　ｈー"TCC_NEWLINE"ａｕｎｔ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｈｅｗ．．．　Ａｎｏｔｈｅｒ　ｖｉｃｔｏｒｙ．　Ｂｕｔ　"TCC_NEWLINE"ｓｔｉｌｌ　ｎｏｓｉｇｎ　ｏｆ"TCC_NEWLINE
+"Ｗｈｅｗ．．．　Ａｎｏｔｈｅｒ　ｖｉｃｔｏｒｙ．　Ｂｕｔ　"TCC_NEWLINE"ｓｔｉｌｌ　ｎｏ　ｓｉｇｎ　ｏｆ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｉ　ｄｏ　ｈｏｐｅ　ｅｖｅｒｙｔｈｉｎｇ　ｉｓ　ａｌｌ　ｒー"TCC_NEWLINE"ｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｈ！　Ｉ　ｈａｖｅ　ａ　ｇｒｅａｔ　ｉｄｅａ！"TCC_NEWLINE TCC_PUSH_A
-"Ｈａｖｅ　ｙｏｕ　ｔｒｉｅｄ　ｍａｋｉｎｇ　ａ　ｗｉｓｈ？"TCC_NEWLINE"Ｓｏｍｅｔｈｉｎｇ　ｌｉｋｅ，　Ｉ　ｗｉｓｈ　ｍｙ　ｆｒｉー"TCC_NEWLINE"ｅｎｄ"TCC_NEWLINE
+"Ｈａｖｅ　ｙｏｕ　ｔｒｉｅｄ　ｍａｋｉｎｇ　ａ　ｗｉｓｈ？"TCC_NEWLINE"　Ｓｏｍｅｔｈｉｎｇ　ｌｉｋｅ，　Ｉ　ｗｉｓｈ　ｍｙ　ｆｒー"TCC_NEWLINE"ｉｅｎｄ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ｗｅｒｅ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｗａｎｔ　ｍｅ　ｔｏ．．．ｗｉｓｈ？　Ｗｈａｔ　ｇー"TCC_NEWLINE"ｏｏｄｗｉｌｌ　ｔｈａｔ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗａｎｔ　ｍｅ　ｔｏ．．．ｗｉｓｈ？　Ｗｈａｔ　ｇー"TCC_NEWLINE"ｏｏｄ　ｗｉｌｌ　ｔｈａｔ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅｌｌ，　ｔｈｉｓ　ｉｓ　ａ　ｄｒｅａｍ，　ｓｏ．．．ｗー"TCC_NEWLINE"ｉｓｈｅｓｗｏｒｋ！　Ｙｏｕ　ｃａｎ　ｗｉｓｈ　ｆｏｒ　ｗー"TCC_NEWLINE"ｈａｔｅｖｅｒｙｏｕ　ｗａｎｔ，　ａｎｄ　ｉｔ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅｃｏｍｅ　ｒｅａｌ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｃａｎ　ｄｏ　ｗｈａｔｅｖｅｒ　ｙｏｕ　ｗａｎｔ　"TCC_NEWLINE"ｉｎ　ａｄｒｅａｍ！　Ａａａａｎｙｔｈｉｎｇ　ｉｓ　ｐｏｓー"TCC_NEWLINE"ｓｉｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｒｅ，　ｔｈｅ　ｗｏｒｌｄ　ｉｓ　ｗｈａｔｅｖｅｒ　ｙー"TCC_NEWLINE"ｏｕｗａｎｔ　ｉｔ　ｔｏ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｔｈｉｓ　ｉｓ　ａ　ｄｒｅａｍ，　ｓｏ．．．ｗー"TCC_NEWLINE"ｉｓｈｅｓ　ｗｏｒｋ！　Ｙｏｕ　ｃａｎ　ｗｉｓｈ　ｆｏｒ　"TCC_NEWLINE"ｗｈａｔｅｖｅｒ　ｙｏｕ　ｗａｎｔ，　ａｎｄ　ｉｔ　ｗｉｌー"TCC_NEWLINE"ｌ　ｂｅｃｏｍｅ　ｒｅａｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｄｏ　ｗｈａｔｅｖｅｒ　ｙｏｕ　ｗａｎｔ　"TCC_NEWLINE"ｉｎ　ａ　ｄｒｅａｍ！　Ａａａａｎｙｔｈｉｎｇ　ｉｓ　ｐｏー"TCC_NEWLINE"ｓｓｉｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ，　ｔｈｅ　ｗｏｒｌｄ　ｉｓ　ｗｈａｔｅｖｅｒ　ｙー"TCC_NEWLINE"ｏｕ　ｗａｎｔ　ｉｔ　ｔｏ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｕｈ．　Ｓｏ．．．Ｉ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｗｉｓｈ"TCC_NEWLINE"？　Ｈｏｗｄｏｅｓ　ｔｈａｔ　ｗｏｒｋ？　Ｄｏ　Ｉ　ｈａｖー"TCC_NEWLINE"ｅ　ｔｏ　ｓａｙａｎｙｔｈｉｎｇ　ｓｐｅｃｉａｌ？　Ｏｒ　"TCC_NEWLINE"ｓｈｏｕｌｄ　Ｉ　ｃｌｏｓ"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｈ．　Ｓｏ．．．Ｉ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｗｉｓｈ"TCC_NEWLINE"？　Ｈｏｗ　ｄｏｅｓ　ｔｈａｔ　ｗｏｒｋ？　Ｄｏ　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ　ｔｏ　ｓａｙ　ａｎｙｔｈｉｎｇ　ｓｐｅｃｉａｌ？　Ｏー"TCC_NEWLINE"ｒ　ｓｈｏｕｌｄ　Ｉ　ｃｌｏｓ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｌｆｏｎｓｅ．　Ｙｏｕ　ｗｏｎ’ｔ　ｋｎｏｗ　ｕｎｔｉｌ"TCC_NEWLINE"　ｙｏｕｔｒｙ．　Ｊｕｓｔ　ｇｉｖｅ　ｉｔ　ａ　ｓｈｏｔ！"TCC_NEWLINE"　Ｎｏｔｈｉｎｇ　ｂａｄｃａｎ　ｈａｐｐｅｎ　ｆｒｏｍ　ａ"TCC_NEWLINE"　ｇｏｏｄ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ．　Ｙｏｕ　ｗｏｎ’ｔ　ｋｎｏｗ　ｕｎｔｉｌ"TCC_NEWLINE"　ｙｏｕ　ｔｒｙ．　Ｊｕｓｔ　ｇｉｖｅ　ｉｔ　ａ　ｓｈｏｔ"TCC_NEWLINE"！　Ｎｏｔｈｉｎｇ　ｂａｄ　ｃａｎ　ｈａｐｐｅｎ　ｆｒｏｍ"TCC_NEWLINE"　ａ　ｇｏｏｄ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｇｏｏｄ　ｐｏｉｎｔ．　Ｉ’ｌｌ　ｇｉｖｅ　ｉｔ　ａ　ｔｒー"TCC_NEWLINE"ｙ　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｓｈ．．．　Ｉ　ｗｉｓｈ．．．　Ｉ　ｗｉｓｈ　ｍｙ"TCC_NEWLINE"　ｆｒｉｅｎｄ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ｗａｓ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｏｗ！　Ｔｈａｔ　ｗａｓ　ｓｏｍｅ　ｇｏｏｄ　ｗｉｓｈｉー"TCC_NEWLINE"ｎｇ！Ｉ’ｍ　ｉｍｐｒｅｓｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｏｗ！　Ｔｈａｔ　ｗａｓ　ｓｏｍｅ　ｇｏｏｄ　ｗｉｓｈｉー"TCC_NEWLINE"ｎｇ！　Ｉ’ｍ　ｉｍｐｒｅｓｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｏｏｈ．　Ｗｈｅｒｅ．．．　Ｗｈｉｃｈ　ｄｉｒｅｃｔｉｏｎ"TCC_NEWLINE"　ｓｈｏｕｌｄＩ　ｂｅ　ｌｏｏｋｉｎｇ？　Ａｎｙ　ｉｄｅａー"TCC_NEWLINE"ｓ？　．．．Ｔｈｉｓ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｏｈ．　Ｗｈｅｒｅ．．．　Ｗｈｉｃｈ　ｄｉｒｅｃｔｉｏｎ"TCC_NEWLINE"　ｓｈｏｕｌｄ　Ｉ　ｂｅ　ｌｏｏｋｉｎｇ？　Ａｎｙ　ｉｄｅー"TCC_NEWLINE"ａｓ？　．．．Ｔｈｉｓ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｉｔ　ｗｏｒｋｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｏｈ，　ｔｈａｔ’ｓ　ｔｏｏ　ｂａｄ．　Ｉｔ　ｓｅｅｍｓ　"TCC_NEWLINE"ｙｏｕ’ｖｅｓｉｍｐｌｙ　ｌｏｓｔ　ｔｏｏ　ｍｕｃｈ　ｏｆ"TCC_NEWLINE"　ｙｏｕｒ　ｃｈｉｌｄｌｉｋｅｉｎｎｏｃｅｎｃｅ．．．　Ａー"TCC_NEWLINE"ｌｌ　ｇｒｏｗｎ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ａｒｅｎ’ｔ　ａｂｌｅ，　ｄｅｅｐ　ｉｎ　ｙｏｕｒ"TCC_NEWLINE"　ｈｅａｒｔ，ｔｏ　ａｃｃｅｐｔ　ｔｈａｔ　ａ　ｗｉｓｈ　"TCC_NEWLINE"ｃａｎ　ｓｈａｐｅ　ｔｈｉｓｒｅａｌｉｔｙ．．．　Ｓｏ　ｙー"TCC_NEWLINE"ｏｕ　ｃａｎ’ｔ　ｄｒｅａｍ　ｆｒｅｅｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｔｈａｔ’ｓ　ｔｏｏ　ｂａｄ．　Ｉｔ　ｓｅｅｍｓ　"TCC_NEWLINE"ｙｏｕ’ｖｅ　ｓｉｍｐｌｙ　ｌｏｓｔ　ｔｏｏ　ｍｕｃｈ　ｏー"TCC_NEWLINE"ｆ　ｙｏｕｒ　ｃｈｉｌｄｌｉｋｅ　ｉｎｎｏｃｅｎｃｅ．．．"TCC_NEWLINE"　Ａｌｌ　ｇｒｏｗｎ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅｎ’ｔ　ａｂｌｅ，　ｄｅｅｐ　ｉｎ　ｙｏｕｒ"TCC_NEWLINE"　ｈｅａｒｔ，　ｔｏ　ａｃｃｅｐｔ　ｔｈａｔ　ａ　ｗｉｓｈ"TCC_NEWLINE"　ｃａｎ　ｓｈａｐｅ　ｔｈｉｓ　ｒｅａｌｉｔｙ．．．　Ｓｏ"TCC_NEWLINE"　ｙｏｕ　ｃａｎ’ｔ　ｄｒｅａｍ　ｆｒｅｅｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ．．．Ｉ’ｍ　ｓｏｒｒｙ，　ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ，　Ａｌｆｏｎｓｅ．　Ｔｈｅｒｅ’ｓ"TCC_NEWLINE"　ｎｏｔｈｉｎｇｗｒｏｎｇ　ｗｉｔｈ　ｂｅｉｎｇ　ａｎ　ａー"TCC_NEWLINE"ｄｕｌｔ．．．　Ｗｅ’ｌｌ　ｊｕｓｔｆｉｎｄ　ａｎｏｔｈｅー"TCC_NEWLINE"ｒ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ，　Ａｌｆｏｎｓｅ．　Ｔｈｅｒｅ’ｓ"TCC_NEWLINE"　ｎｏｔｈｉｎｇ　ｗｒｏｎｇ　ｗｉｔｈ　ｂｅｉｎｇ　ａｎ　"TCC_NEWLINE"ａｄｕｌｔ．．．　Ｗｅ’ｌｌ　ｊｕｓｔ　ｆｉｎｄ　ａｎｏｔー"TCC_NEWLINE"ｈｅｒ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｌｅａｖｅ　ｔｈａｔ　ｔｏ　ｍｅ！　Ｔｈｉｓ　ｉｓ　ｍｙ　"TCC_NEWLINE"ｈｏｍｅ，ａｆｔｅｒ　ａｌｌ，　ｓｏ　Ｉ　ｋｎｏｗ　ｍｙ　"TCC_NEWLINE"ｗａｙ　ａｒｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｓｈｏｕｌｄ　ｖｉｓｉｔ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒー"TCC_NEWLINE"ｅｙｒ．Ｈｅ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｈｅｌｐ！　Ｃｏー"TCC_NEWLINE"ｍｅ　ｏｎ，　ｔｈｉｓｗａｙ．　Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅａｖｅ　ｔｈａｔ　ｔｏ　ｍｅ！　Ｔｈｉｓ　ｉｓ　ｍｙ　"TCC_NEWLINE"ｈｏｍｅ，　ａｆｔｅｒ　ａｌｌ，　ｓｏ　Ｉ　ｋｎｏｗ　ｍｙ"TCC_NEWLINE"　ｗａｙ　ａｒｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｓｈｏｕｌｄ　ｖｉｓｉｔ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒー"TCC_NEWLINE"ｅｙｒ．　Ｈｅ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｈｅｌｐ！　Ｃー"TCC_NEWLINE"ｏｍｅ　ｏｎ，　ｔｈｉｓ　ｗａｙ．　Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

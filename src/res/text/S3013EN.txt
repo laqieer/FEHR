@@ -3,7 +3,7 @@
 [MID_SCENARIO_MAP_BEGIN_S3013_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
 "Ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ａｒｅ　ｙｏｕ　ａ　ｓｏｌｄｉｅｒ　ｆｒｏｍ　ｔｈｅ　ｒｅー"TCC_NEWLINE"ａｌｍ　ｏｆｔｈｅ　ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ａ　ｓｏｌｄｉｅｒ　ｆｒｏｍ　ｔｈｅ　ｒｅー"TCC_NEWLINE"ａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｙ　ｎａｍｅ　ｉｓ　Ｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -12,7 +12,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ？　Ｗｈａｔ’ｓ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｒｅｍｂｌｅ　ｂｅｆｏｒｅ　Ｓｋｋｖａｂｅｋｋｒ，　ｔｈー"TCC_NEWLINE"ｅｓｗｏｒｄ　ｏｆ　ｒｕｉｎ．．．ａｓ　Ｉ　ｄｅｓｔｒｏｙ"TCC_NEWLINE"　ｔｈｉｓ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｅｍｂｌｅ　ｂｅｆｏｒｅ　Ｓｋｋｖａｂｅｋｋｒ，　ｔｈー"TCC_NEWLINE"ｅ　ｓｗｏｒｄ　ｏｆ　ｒｕｉｎ．．．ａｓ　Ｉ　ｄｅｓｔｒｏー"TCC_NEWLINE"ｙ　ｔｈｉｓ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3013_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｖａｎｉｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -21,18 +21,18 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｄｏ　ｙｏｕ　ｋｎｏｗ　ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ’ｖｅ　ｎｅｖｅｒ　ｍｅｔ．　Ｂｕｔ　ｈｉｓ　ｎａｍｅ"TCC_NEWLINE"　ｉｓｖｅｒｙ　ｆａｍｉｌｉａｒ　ｔｏ　ｍｅ．　Ｉ’ｖｅ　"TCC_NEWLINE"ｒｅａｄ　ｉｔ　ｉｎ　ｓｏｍａｎｙ　ｂｏｏｋｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｓｈｏｕｌｄ　ｒｅｃｏｇｎｉｚｅ　ｉｔ，　ｔｏｏ．"TCC_NEWLINE"　Ｌｆ　ｉｓｔｈｅ　ｐｒｏｇｅｎｉｔｏｒ　ｏｆ　ｔｈｅ　Ａー"TCC_NEWLINE"ｓｋｒａｎ　ｒｏｙａｌｆａｍｉｌｙａｎｄ　ａ　ｔｒｕｅ　ｋー"TCC_NEWLINE"ｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｆｏｒｍｅｄ　ａ　ｐａｃｔ　ｗｉｔｈ　ｔｈｅ　Ｄｉｖー"TCC_NEWLINE"ｉｎｅＤｒａｇｏｎ　Ａｓｋｒ　ａｎｄ　ｇａｉｎｅｄ　ｔｈｅ"TCC_NEWLINE"　ｐｏｗｅｒｔｏ　ｏｐｅｎ　ｇａｔｅｓ　ｔｏ　ｏｔｈｅｒ　"TCC_NEWLINE"ｒｅａｌｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｎｅｖｅｒ　ｍｅｔ．　Ｂｕｔ　ｈｉｓ　ｎａｍｅ"TCC_NEWLINE"　ｉｓ　ｖｅｒｙ　ｆａｍｉｌｉａｒ　ｔｏ　ｍｅ．　Ｉ’ｖｅ"TCC_NEWLINE"　ｒｅａｄ　ｉｔ　ｉｎ　ｓｏ　ｍａｎｙ　ｂｏｏｋｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｒｅｃｏｇｎｉｚｅ　ｉｔ，　ｔｏｏ．"TCC_NEWLINE"　Ｌｆ　ｉｓ　ｔｈｅ　ｐｒｏｇｅｎｉｔｏｒ　ｏｆ　ｔｈｅ　"TCC_NEWLINE"Ａｓｋｒａｎ　ｒｏｙａｌ　ｆａｍｉｌｙａｎｄ　ａ　ｔｒｕｅ"TCC_NEWLINE"　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｆｏｒｍｅｄ　ａ　ｐａｃｔ　ｗｉｔｈ　ｔｈｅ　Ｄｉｖー"TCC_NEWLINE"ｉｎｅ　Ｄｒａｇｏｎ　Ａｓｋｒ　ａｎｄ　ｇａｉｎｅｄ　ｔｈー"TCC_NEWLINE"ｅ　ｐｏｗｅｒ　ｔｏ　ｏｐｅｎ　ｇａｔｅｓ　ｔｏ　ｏｔｈｅー"TCC_NEWLINE"ｒ　ｒｅａｌｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｆ，　ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ　ｏｆ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ？　Ｈｅ　ｃａｎ’ｔ　ｓｔｉｌー"TCC_NEWLINE"ｌ　ｂｅ　ａｌｉｖｅｔｏｄａｙ，　ｃａｎ　ｈｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ？　Ｈｅ　ｃａｎ’ｔ　ｓｔｉｌー"TCC_NEWLINE"ｌ　ｂｅ　ａｌｉｖｅ　ｔｏｄａｙ，　ｃａｎ　ｈｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｏｆ　ｃｏｕｒｓｅ　ｎｏｔ．　Ｂｕｔ　ｉｆ　ｗｅ　ａｒｅ　"TCC_NEWLINE"ｆｉｇｈｔｉｎｇｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅｌｌ，　ｔｈｅｎ　ｗｅ　ｍａｙ　ｅｎｃｏｕｎｔｅｒ　ａー"TCC_NEWLINE"ｎａｎｃｅｓｔｏｒ　ｏｒ　ｔｗｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ　ｎｏｔ．　Ｂｕｔ　ｉｆ　ｗｅ　ａｒｅ　"TCC_NEWLINE"ｆｉｇｈｔｉｎｇ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｔｈｅｎ　ｗｅ　ｍａｙ　ｅｎｃｏｕｎｔｅｒ　ａー"TCC_NEWLINE"ｎ　ａｎｃｅｓｔｏｒ　ｏｒ　ｔｗｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ａｎｄ　ｆｉｇｈｔ　ｔｈｅｍ，　ｉｔ　ｓｅｅｍｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｋｉｎｇ　Ｌｆ　ｕｎｉｔｅｄ　Ａｓｋｒ　ａｎｄ　ｂｅｃａｍー"TCC_NEWLINE"ｅ　ａｔｒｕｅ　Ｈｅｒｏ，　ｔｈａｎｋｓ　ｔｏ　ｔｈｅ　ｐー"TCC_NEWLINE"ｏｗｅｒ　ｏｆ　ｔｈｅｄｒａｇｏｎ’ｓ　ｂｌｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｃａｎ’ｔ　ｍｅａｓｕｒｅ　ｔｈｅ　ｐｏｗｅｒ　ｏー"TCC_NEWLINE"ｆ　ａｍａｎ　ｌｉｋｅ　ｔｈａｔ．　Ｉｎ　ｔｈｅ　ｂａｔｔー"TCC_NEWLINE"ｌｅｓ　ｗｅ　ｆａｃｅｎｏｗ．．．ｗｅ　ｍｕｓｔ　ｂｅ　ｃー"TCC_NEWLINE"ａｒｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｋｉｎｇ　Ｌｆ　ｕｎｉｔｅｄ　Ａｓｋｒ　ａｎｄ　ｂｅｃａｍー"TCC_NEWLINE"ｅ　ａ　ｔｒｕｅ　Ｈｅｒｏ，　ｔｈａｎｋｓ　ｔｏ　ｔｈｅ　"TCC_NEWLINE"ｐｏｗｅｒ　ｏｆ　ｔｈｅ　ｄｒａｇｏｎ’ｓ　ｂｌｏｏｄ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ’ｔ　ｍｅａｓｕｒｅ　ｔｈｅ　ｐｏｗｅｒ　ｏー"TCC_NEWLINE"ｆ　ａ　ｍａｎ　ｌｉｋｅ　ｔｈａｔ．　Ｉｎ　ｔｈｅ　ｂａｔー"TCC_NEWLINE"ｔｌｅｓ　ｗｅ　ｆａｃｅ　ｎｏｗ．．．ｗｅ　ｍｕｓｔ　ｂｅ"TCC_NEWLINE"　ｃａｒｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

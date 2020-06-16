@@ -3,59 +3,59 @@
 [MID_SCENARIO_MAP_BEGIN_S2064_EN] = TCC_OPEN_LEFT
 "Ｍｙ　ｎａｍｅ’ｓ　Ｍｏｒｇａｎ．　Ａｎｄ　ｙｏｕ’ｒｅ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｌｏｏｋｉｎｇ　ｆｏｒｗａｒｄ　ｔｏ　ｌｅａｒｎｉー"TCC_NEWLINE"ｎｇ　ａｌｌ　ｏｆｔｈｅ　ｓｔｒａｔｅｇｉｅｓ　ｔｈｅ　Ｏー"TCC_NEWLINE"ｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓｕｓｅｓ．　Ｔｈａｎｋｓ　ｆｏー"TCC_NEWLINE"ｒ　ｔｈｅ　ｌｅｓｓｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｌｏｏｋｉｎｇ　ｆｏｒｗａｒｄ　ｔｏ　ｌｅａｒｎｉー"TCC_NEWLINE"ｎｇ　ａｌｌ　ｏｆ　ｔｈｅ　ｓｔｒａｔｅｇｉｅｓ　ｔｈｅ　"TCC_NEWLINE"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｕｓｅｓ．　Ｔｈａｎｋｓ　"TCC_NEWLINE"ｆｏｒ　ｔｈｅ　ｌｅｓｓｏｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2064_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｇａｔｈｅｒ　’ｒｏｕｎｄ，　ｅｖｅｒｙｏｎｅ．　Ｉｔ’ｓ"TCC_NEWLINE"　ｔｉｍｅ　ｔｏｐｕｔ　ｏｕｒ　ｈｅａｄｓ　ｔｏｇｅｔｈｅー"TCC_NEWLINE"ｒ　ａｎｄ　ｄｅａｌ　ｗｉｔｈａ　ｓｉｔｕａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇａｔｈｅｒ　’ｒｏｕｎｄ，　ｅｖｅｒｙｏｎｅ．　Ｉｔ’ｓ"TCC_NEWLINE"　ｔｉｍｅ　ｔｏ　ｐｕｔ　ｏｕｒ　ｈｅａｄｓ　ｔｏｇｅｔｈー"TCC_NEWLINE"ｅｒ　ａｎｄ　ｄｅａｌ　ｗｉｔｈ　ａ　ｓｉｔｕａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｈａｔ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　ｓｃｏｕｔｓ　ｈａｖｅ　ｒｅｐｏｒｔｅｄ　ｂａｃｋ"TCC_NEWLINE"．　ＴｈｅＭｓｐｅｌｌ　ａｒｍｙ　ｉｓ　ｓｅａｒｃｈｉｎｇ"TCC_NEWLINE"　ｈｉｇｈ　ａｎｄｌｏｗａｎｄ　ｔｈｅｙ’ｒｅ　ｒｉｇｈｔ"TCC_NEWLINE"　ｉｎ　ｏｕｒ　ｐａｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏｍｅｈｏｗ，　ｔｈｅｙ’ｖｅ　ｐｒｅｄｉｃｔｅｄ　ｏｕー"TCC_NEWLINE"ｒｍｏｖｅｍｅｎｔｓ　ａｎｄ　ｇｏｔｔｅｎ　ａｈｅａｄ　ｏー"TCC_NEWLINE"ｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｋｅｅｐ　ｈｅａｄｉｎｇ　ｔｏｗａｒｄ　Ｐｒｉー"TCC_NEWLINE"ｎｃｅｓｓＧｕｎｎｔｈｒ’ｓ　ｌｏｃａｔｉｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｃｏｕｔｓ　ｈａｖｅ　ｒｅｐｏｒｔｅｄ　ｂａｃｋ"TCC_NEWLINE"．　Ｔｈｅ　Ｍｓｐｅｌｌ　ａｒｍｙ　ｉｓ　ｓｅａｒｃｈｉｎー"TCC_NEWLINE"ｇ　ｈｉｇｈ　ａｎｄ　ｌｏｗａｎｄ　ｔｈｅｙ’ｒｅ　ｒｉｇー"TCC_NEWLINE"ｈｔ　ｉｎ　ｏｕｒ　ｐａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｈｏｗ，　ｔｈｅｙ’ｖｅ　ｐｒｅｄｉｃｔｅｄ　ｏｕー"TCC_NEWLINE"ｒ　ｍｏｖｅｍｅｎｔｓ　ａｎｄ　ｇｏｔｔｅｎ　ａｈｅａｄ　"TCC_NEWLINE"ｏｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｋｅｅｐ　ｈｅａｄｉｎｇ　ｔｏｗａｒｄ　Ｐｒｉー"TCC_NEWLINE"ｎｃｅｓｓ　Ｇｕｎｎｔｈｒ’ｓ　ｌｏｃａｔｉｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｔｈｅｙ’ｌｌ　ｆｉｎｄ　ｈｅｒ，　ａｎｄ　ｔｈｅｙ’ｌｌ"TCC_NEWLINE"　ｋｉｌｌ　ｈｅｒ．　Ｏｈ，Ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｌｌ　ｆｉｎｄ　ｈｅｒ，　ａｎｄ　ｔｈｅｙ’ｌｌ"TCC_NEWLINE"　ｋｉｌｌ　ｈｅｒ．　Ｏｈ，　Ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｃａｎ　ｗｅ　ｇｅｔ　ｉｎ　ｃｏｎｔａｃｔ　ｗｉｔｈ　ｈｅー"TCC_NEWLINE"ｒ　ａｎｄｃｈａｎｇｅ　ｔｈｅ　ｍｅｅｔｉｎｇ　ｓｐｏｔ？"TCC_NEWLINE"　Ｗｈａｔ　ｄｏｙｏｕ　ｓａｙ，"TCC_NEWLINE
+"Ｃａｎ　ｗｅ　ｇｅｔ　ｉｎ　ｃｏｎｔａｃｔ　ｗｉｔｈ　ｈｅー"TCC_NEWLINE"ｒ　ａｎｄ　ｃｈａｎｇｅ　ｔｈｅ　ｍｅｅｔｉｎｇ　ｓｐｏｔ"TCC_NEWLINE"？　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｓａｙ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｔｈａｔ　ｗｉｌｌ　ｗｏｒｋ．"TCC_NEWLINE"　Ｔｈｅｙ’ｖｅａｌｒｅａｄｙ　ａｎｔｉｃｉｐａｔｅｄ　ｏー"TCC_NEWLINE"ｕｒ　ｍｏｖｅｍｅｎｔｓｏｎｃｅ．　Ｔｈｅｙ　ｃａｎ　ｄｏ"TCC_NEWLINE"　ｉｔ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｔｈａｔ　ｗｉｌｌ　ｗｏｒｋ．"TCC_NEWLINE"　Ｔｈｅｙ’ｖｅ　ａｌｒｅａｄｙ　ａｎｔｉｃｉｐａｔｅｄ　"TCC_NEWLINE"ｏｕｒ　ｍｏｖｅｍｅｎｔｓ　ｏｎｃｅ．　Ｔｈｅｙ　ｃａｎ　"TCC_NEWLINE"ｄｏ　ｉｔ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅ　ｗａｙ　ｔｈｉｎｇｓ　ａｒｅ　ｇｏｉｎｇ　ｎｏｗ，"TCC_NEWLINE"　ｗｅｈａｖｅ　ｎｏ　ｍｅａｎｓ　ｏｆ　ｍｅｅｔｉｎｇ　ｕー"TCC_NEWLINE"ｐ　ｗｉｔｈＰｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗａｙ　ｔｈｉｎｇｓ　ａｒｅ　ｇｏｉｎｇ　ｎｏｗ，"TCC_NEWLINE"　ｗｅ　ｈａｖｅ　ｎｏ　ｍｅａｎｓ　ｏｆ　ｍｅｅｔｉｎｇ　"TCC_NEWLINE"ｕｐ　ｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ’ｓ　ｗｈａｔ　ｙｏｕ’ｒｅ　ｔｅｌｌｉｎｇ　ｕｓ"TCC_NEWLINE"，　ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｂｕｔ．．．　Ｗｈａｔ　ｃａｎ　ｗｅ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ，　ｔｅｌｌ　ｍｅ　ｅｖｅｒｙー"TCC_NEWLINE"ｔｈｉｎｇｙｏｕ　ｋｎｏｗ　ａｂｏｕｔ　ｔｈｉｓ　ｒｅｇｉー"TCC_NEWLINE"ｏｎ．　Ｓｔａｒｔ　ｗｉｔｈｉｔｓ　ｇｅｏｇｒａｐｈｉｃａー"TCC_NEWLINE"ｌ　ｆｅａｔｕｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ，　ｔｅｌｌ　ｍｅ　ｅｖｅｒｙー"TCC_NEWLINE"ｔｈｉｎｇ　ｙｏｕ　ｋｎｏｗ　ａｂｏｕｔ　ｔｈｉｓ　ｒｅｇー"TCC_NEWLINE"ｉｏｎ．　Ｓｔａｒｔ　ｗｉｔｈ　ｉｔｓ　ｇｅｏｇｒａｐｈｉー"TCC_NEWLINE"ｃａｌ　ｆｅａｔｕｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ　ｙｏｕ　ｍｉｇｈｔ　ａｌｒｅー"TCC_NEWLINE"ａｄｙ　ｈａｖｅａｎ　ｉｄｅａ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎー"TCC_NEWLINE"ｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ　ｙｏｕ　ｍｉｇｈｔ　ａｌｒｅー"TCC_NEWLINE"ａｄｙ　ｈａｖｅ　ａｎ　ｉｄｅａ，　Ｐｒｉｎｃｅ　Ａｌｆｏー"TCC_NEWLINE"ｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｐｕｔ　ｏｕｒ　ｈｅａｄｓ　ｔｏｇｅｔｈｅｒ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2064_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
-"Ｔｈｅｙ’ｖｅ　ｃｈａｎｇｅｄ　ｄｉｒｅｃｔｉｏｎ．．．　"TCC_NEWLINE"Ｎｏｗｔｈｅｙ’ｒｅ　ｈｅａｄｅｄ　ｎｏｒｔｈ．　Ｗｈａｔ"TCC_NEWLINE"’ｓ　ｔｈｅｉｒｇａｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｖｅ　ｃｈａｎｇｅｄ　ｄｉｒｅｃｔｉｏｎ．．．　"TCC_NEWLINE"Ｎｏｗ　ｔｈｅｙ’ｒｅ　ｈｅａｄｅｄ　ｎｏｒｔｈ．　Ｗｈａー"TCC_NEWLINE"ｔ’ｓ　ｔｈｅｉｒ　ｇａｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｆ　ｔｈｅｙ’ｒｅ　ａｆｔｅｒ　ａ　ｗｅａｐｏｎ，　ｏｒ"TCC_NEWLINE"　ｔｈｅｙ　ｈｏｐｅｔｏ　ｌｕｒｅ　ｕｓ　ｉｎｔｏ　ａ　ｔー"TCC_NEWLINE"ｒａｐ，　ｔｈｅｎ　ｔｈｅｙ’ｄ　ｋｅｅｐｈｅａｄｉｎｇ　"TCC_NEWLINE"ｗｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｅｉｒ　ｄｅｓｔｉｎａｔｉｏｎ　ｈａｓ　ｃｈａー"TCC_NEWLINE"ｎｇｅｄ．Ｗｈａｔ　ｉｓ　ｉｔ，　ｔｈｅｎ？　Ａｎ　ａｌｌー"TCC_NEWLINE"ｙ？　Ｉｓ　ｉｔ　ａｒｅｎｄｅｚｖｏｕｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅｙ’ｒｅ　ａｆｔｅｒ　ａ　ｗｅａｐｏｎ，　ｏｒ"TCC_NEWLINE"　ｔｈｅｙ　ｈｏｐｅ　ｔｏ　ｌｕｒｅ　ｕｓ　ｉｎｔｏ　ａ　"TCC_NEWLINE"ｔｒａｐ，　ｔｈｅｎ　ｔｈｅｙ’ｄ　ｋｅｅｐ　ｈｅａｄｉｎー"TCC_NEWLINE"ｇ　ｗｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｉｒ　ｄｅｓｔｉｎａｔｉｏｎ　ｈａｓ　ｃｈａー"TCC_NEWLINE"ｎｇｅｄ．　Ｗｈａｔ　ｉｓ　ｉｔ，　ｔｈｅｎ？　Ａｎ　ａｌー"TCC_NEWLINE"ｌｙ？　Ｉｓ　ｉｔ　ａ　ｒｅｎｄｅｚｖｏｕｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｂｕｔ　ｗｈｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｋｎｏｗ　ａｓ　ｗｅｌｌ　ａｓ　Ｉ　ｄｏ　ｔｈａｔ"TCC_NEWLINE"　ｉｔ　ｗｉｌｌｔａｋｅ　ｍｏｒｅ　ｔｈａｎ　ｍｉｌｉｔａー"TCC_NEWLINE"ｒｙ　ｍｉｇｈｔ　ｔｏｄｅｆｅａｔ　Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈｅｙ　ａｒｅ　ｓｅｅｋｉｎｇ　ａｉｄ，　ｔｈｅｎ"TCC_NEWLINE"　ｐｅｒｈａｐｓｔｈｅｒｅ　ｉｓ　ａ　ｒｉｔｅ　ｔｈａｔ　"TCC_NEWLINE"ｃａｎ　ｂｅ　ｐｅｒｆｏｒｍｅｄｈｅｒｅ　ｉｎ　Ｎｉｆｌ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｏｕｌｄ　ｇｕｅｓｓ　ｔｈｅｙ’ｒｅ　ｓｅｅｋｉｎｇ"TCC_NEWLINE"　ｏｎｅ　ｏｆｔｈｅ　ｓｕｒｖｉｖｉｎｇ　ｍｅｍｂｅｒｓ　"TCC_NEWLINE"ｏｆ　ｔｈｅ　ｒｏｙａｌｆａｍｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ　ｉｓ　ｓａｉｄ　ｔｏ　ｗー"TCC_NEWLINE"ｉｅｌｄｇｒｅａｔ　ｍａｇｉｃａｌ　ｐｏｗｅｒ．　Ｍａｙｂー"TCC_NEWLINE"ｅ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｋｎｏｗ　ａｓ　ｗｅｌｌ　ａｓ　Ｉ　ｄｏ　ｔｈａｔ"TCC_NEWLINE"　ｉｔ　ｗｉｌｌ　ｔａｋｅ　ｍｏｒｅ　ｔｈａｎ　ｍｉｌｉｔー"TCC_NEWLINE"ａｒｙ　ｍｉｇｈｔ　ｔｏ　ｄｅｆｅａｔ　Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅｙ　ａｒｅ　ｓｅｅｋｉｎｇ　ａｉｄ，　ｔｈｅｎ"TCC_NEWLINE"　ｐｅｒｈａｐｓ　ｔｈｅｒｅ　ｉｓ　ａ　ｒｉｔｅ　ｔｈａｔ"TCC_NEWLINE"　ｃａｎ　ｂｅ　ｐｅｒｆｏｒｍｅｄ　ｈｅｒｅ　ｉｎ　Ｎｉｆー"TCC_NEWLINE"ｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ｇｕｅｓｓ　ｔｈｅｙ’ｒｅ　ｓｅｅｋｉｎｇ"TCC_NEWLINE"　ｏｎｅ　ｏｆ　ｔｈｅ　ｓｕｒｖｉｖｉｎｇ　ｍｅｍｂｅｒｓ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｒｏｙａｌ　ｆａｍｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ　ｉｓ　ｓａｉｄ　ｔｏ　ｗー"TCC_NEWLINE"ｉｅｌｄ　ｇｒｅａｔ　ｍａｇｉｃａｌ　ｐｏｗｅｒ．　Ｍａｙー"TCC_NEWLINE"ｂｅ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍａｙｂｅ．．．ｓｈｅ’ｓ　ｈｉｄｉｎｇ　ｉｎ　ｔｈｅ　ｎー"TCC_NEWLINE"ｏｒｔｈ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｔ　ｍａｙ　ｂｅ　ｓｏ．　Ｓａｄｌｙ，　ｉｔ　ｍａｋｅｓ"TCC_NEWLINE"　ｎｏｄｉｆｆｅｒｅｎｃｅ．　Ｉｆ　ｔｈｅｙ’ｒｅ　ｈｅａー"TCC_NEWLINE"ｄｉｎｇ　ｎｏｒｔｈ，ｔｈａｔ　ｔｅｌｌｓ　ｕｓ　ｔｈａｔ"TCC_NEWLINE"　ｓｈｅ’ｓ　ｉｎ　ｔｈｅ　ｎｏｒｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｔ’ｓ　ａｓｓｕｍｅ，　ｆｏｒ　ａ　ｍｏｍｅｎｔ，　ｔー"TCC_NEWLINE"ｈａｔｓｈｅ’ｓ　ａｃｔｕａｌｌｙ　ｉｎ　ｔｈｅ　ｓｏｕｔー"TCC_NEWLINE"ｈ，　ａｎｄｔｈｅｙ’ｒｅ　ｔｒｙｉｎｇ　ｔｏ　ｔｈｒｏｗ"TCC_NEWLINE"　ｕｓ　ｏｆｆ　ｔｈｅｉｒ　ｔｒａｉｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏｏｎｅｒ　ｏｒ　ｌａｔｅｒ，　ｔｈｅｙ’ｄ　ｈａｖｅ　"TCC_NEWLINE"ｔｏｃｈａｎｇｅ　ｄｉｒｅｃｔｉｏｎ　ａｎｄ　ｈｅａｄ　ｓー"TCC_NEWLINE"ｏｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ’ｖｅ　ｄｅｐｌｏｙｅｄ　ｔｒｏｏｐｓ　ａｌｌ　"TCC_NEWLINE"ｏｖｅｒ　ｔｈｅｒｅｇｉｏｎ．　Ｔｈｅ　ｎｅｔ　ｉｓ　ａｌー"TCC_NEWLINE"ｒｅａｄｙ　ｔｉｇｈｔｅｎｉｎｇａｒｏｕｎｄ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｉｆ　Ｐｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ　ｗｅｒｅ　"TCC_NEWLINE"ｔｏａｐｐｅａｒ，　Ｉ　ｗｏｕｌｄ　ｒｅｃｏｇｎｉｚｅ　ｈー"TCC_NEWLINE"ｅｒ　ａｔ　ａｇｌａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｔｈｅｙ　ｔｒｙ．．．　Ｔｈー"TCC_NEWLINE"ｅＡｓｋｒａｎｓ　ｗｉｌｌ　ｎｅｖｅｒ　ｍｅｅｔ　ｕｐ　ｗー"TCC_NEWLINE"ｉｔｈ　ｈｅｒ．Ｎｏｔ　ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｌｅａー"TCC_NEWLINE"ｄ　ｔｈｉｓ　ａｒｍｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍａｙ　ｂｅ　ｓｏ．　Ｓａｄｌｙ，　ｉｔ　ｍａｋｅｓ"TCC_NEWLINE"　ｎｏ　ｄｉｆｆｅｒｅｎｃｅ．　Ｉｆ　ｔｈｅｙ’ｒｅ　ｈｅー"TCC_NEWLINE"ａｄｉｎｇ　ｎｏｒｔｈ，　ｔｈａｔ　ｔｅｌｌｓ　ｕｓ　ｔｈー"TCC_NEWLINE"ａｔ　ｓｈｅ’ｓ　ｉｎ　ｔｈｅ　ｎｏｒｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ａｓｓｕｍｅ，　ｆｏｒ　ａ　ｍｏｍｅｎｔ，　ｔー"TCC_NEWLINE"ｈａｔ　ｓｈｅ’ｓ　ａｃｔｕａｌｌｙ　ｉｎ　ｔｈｅ　ｓｏｕー"TCC_NEWLINE"ｔｈ，　ａｎｄ　ｔｈｅｙ’ｒｅ　ｔｒｙｉｎｇ　ｔｏ　ｔｈｒー"TCC_NEWLINE"ｏｗ　ｕｓ　ｏｆｆ　ｔｈｅｉｒ　ｔｒａｉｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｏｎｅｒ　ｏｒ　ｌａｔｅｒ，　ｔｈｅｙ’ｄ　ｈａｖｅ　"TCC_NEWLINE"ｔｏ　ｃｈａｎｇｅ　ｄｉｒｅｃｔｉｏｎ　ａｎｄ　ｈｅａｄ　"TCC_NEWLINE"ｓｏｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｖｅ　ｄｅｐｌｏｙｅｄ　ｔｒｏｏｐｓ　ａｌｌ　"TCC_NEWLINE"ｏｖｅｒ　ｔｈｅ　ｒｅｇｉｏｎ．　Ｔｈｅ　ｎｅｔ　ｉｓ　ａー"TCC_NEWLINE"ｌｒｅａｄｙ　ｔｉｇｈｔｅｎｉｎｇ　ａｒｏｕｎｄ　ｔｈｅｍ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　Ｐｒｉｎｃｅｓｓ　Ｇｕｎｎｔｈｒ　ｗｅｒｅ　"TCC_NEWLINE"ｔｏ　ａｐｐｅａｒ，　Ｉ　ｗｏｕｌｄ　ｒｅｃｏｇｎｉｚｅ　"TCC_NEWLINE"ｈｅｒ　ａｔ　ａ　ｇｌａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｔｈｅｙ　ｔｒｙ．．．　Ｔｈー"TCC_NEWLINE"ｅ　Ａｓｋｒａｎｓ　ｗｉｌｌ　ｎｅｖｅｒ　ｍｅｅｔ　ｕｐ　"TCC_NEWLINE"ｗｉｔｈ　ｈｅｒ．　Ｎｏｔ　ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｌー"TCC_NEWLINE"ｅａｄ　ｔｈｉｓ　ａｒｍｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -2,47 +2,47 @@
 
 [MID_SCENARIO_OPENING_S4051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｕｎｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｓｍｅｌｌ．．．　Ｔｈｅ　ｃｅｎｓｅｒ．．．Ｄｉー"TCC_NEWLINE"ｄ　ｉｔ　ａｃｔｕａｌｌｙ　ｗｏｒｋ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓｍｅｌｌ．．．　Ｔｈｅ　ｃｅｎｓｅｒ．．．　Ｄー"TCC_NEWLINE"ｉｄ　ｉｔ　ａｃｔｕａｌｌｙ　ｗｏｒｋ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈ－ｗｈａｔ　ｈａｐｐｅｎｅｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｍｍｍ．．．　Ｇｏｏｄ　ｍｏｒｎｉｎｇ，　ｅｖｅｒｙｏｎｅ"TCC_NEWLINE"！Ｉ　ｆｅｅｌ　ｉｎｃｒｅｄｉｂｌｙ　ｗｅｌｌ　ｒｅｓｔｅー"TCC_NEWLINE"ｄ．．．　Ｗｈａｔａ　ｇｒｅａｔ　ｎａｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｍｍ．．．　Ｇｏｏｄ　ｍｏｒｎｉｎｇ，　ｅｖｅｒｙｏｎｅ"TCC_NEWLINE"！　Ｉ　ｆｅｅｌ　ｉｎｃｒｅｄｉｂｌｙ　ｗｅｌｌ　ｒｅｓｔー"TCC_NEWLINE"ｅｄ．．．　Ｗｈａｔ　ａ　ｇｒｅａｔ　ｎａｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｍｙ　ｍｏｓｔ　ｓｉｎｃｅｒｅ　ａｐｏｌｏｇｉｅｓ　ｆｏｒ"TCC_NEWLINE"　ｆａｌｌｉｎｇａｓｌｅｅｐ　ｗｈｉｌｅ　ｏｎ　ｄｕｔｙ．"TCC_NEWLINE"　Ａｓ　ｃｏｍｍａｎｄｅｒ，Ｉ　ｓｈｏｕｌｄ　ｄｏ　ｂｅｔー"TCC_NEWLINE"ｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｓ　ｅｖｅｒｙｏｎｅ　ａｌｌ　ｒｉｇｈｔ？Ａｒｅ　ｗｅ　"TCC_NEWLINE"ａｌｌ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｍｏｓｔ　ｓｉｎｃｅｒｅ　ａｐｏｌｏｇｉｅｓ　ｆｏｒ"TCC_NEWLINE"　ｆａｌｌｉｎｇ　ａｓｌｅｅｐ　ｗｈｉｌｅ　ｏｎ　ｄｕｔｙ"TCC_NEWLINE"．　Ａｓ　ｃｏｍｍａｎｄｅｒ，　Ｉ　ｓｈｏｕｌｄ　ｄｏ　ｂー"TCC_NEWLINE"ｅｔｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｅｖｅｒｙｏｎｅ　ａｌｌ　ｒｉｇｈｔ？　Ａｒｅ　ｗｅ"TCC_NEWLINE"　ａｌｌ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｂｙ　ｔｈｅ　ｓｔａｔｅ　ｏｆ　ｔｈｅ　Ｒｅｄｏｌｅｎｔ　"TCC_NEWLINE"Ｃｅｎｓｅｒ，Ｉ　ｗｏｕｌｄ　ｓａｙ　ｗｅ　ｗｅｒｅ　ａｓー"TCC_NEWLINE"ｌｅｅｐ　ｏｎｌｙ　ｆｏｒａ　ｂｒｉｅｆ　ｍｏｍｅｎｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｙ　ｔｈｅ　ｓｔａｔｅ　ｏｆ　ｔｈｅ　Ｒｅｄｏｌｅｎｔ　"TCC_NEWLINE"Ｃｅｎｓｅｒ，　Ｉ　ｗｏｕｌｄ　ｓａｙ　ｗｅ　ｗｅｒｅ　ａー"TCC_NEWLINE"ｓｌｅｅｐ　ｏｎｌｙ　ｆｏｒ　ａ　ｂｒｉｅｆ　ｍｏｍｅｎｔ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｅｌｌ，　ｔｈａｔ’ｓ　ｓｏｍｅ　ｒｅｌｉｅｆ．　Ｉｔ　"TCC_NEWLINE"ｆｅｌｔ　ｌｉｋｅＩ　ｗａｓ　ｄｒｅａｍｉｎｇ　ｆｏｒ　ａ"TCC_NEWLINE"　ｌｏｎｇ　ｔｉｍｅ，　ｂｕｔ．．．Ｉ　ｃａｎ’ｔ　ｒｅａー"TCC_NEWLINE"ｌｌｙ　ｒｅｍｅｍｂｅｒ　ｗｈａｔ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｔｈａｔ’ｓ　ｓｏｍｅ　ｒｅｌｉｅｆ．　Ｉｔ　"TCC_NEWLINE"ｆｅｌｔ　ｌｉｋｅ　Ｉ　ｗａｓ　ｄｒｅａｍｉｎｇ　ｆｏｒ　"TCC_NEWLINE"ａ　ｌｏｎｇ　ｔｉｍｅ，　ｂｕｔ．．．　Ｉ　ｃａｎ’ｔ　ｒー"TCC_NEWLINE"ｅａｌｌｙ　ｒｅｍｅｍｂｅｒ　ｗｈａｔ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｍｅ　ｔｏｏ！　Ｉ　ｆｅｅｌ　ｌｉｋｅ　Ｉ　ｄｒｅａｍｔ　"TCC_NEWLINE"ａ　ｇｒａｎｄａｄｖｅｎｔｕｒｅ．．．　Ｂｕｔ　Ｉ　ｃａｎ"TCC_NEWLINE"’ｔ　ｒｅｍｅｍｂｅｒａｎｙ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｅ　ｔｏｏ！　Ｉ　ｆｅｅｌ　ｌｉｋｅ　Ｉ　ｄｒｅａｍｔ　"TCC_NEWLINE"ａ　ｇｒａｎｄ　ａｄｖｅｎｔｕｒｅ．．．　Ｂｕｔ　Ｉ　ｃａー"TCC_NEWLINE"ｎ’ｔ　ｒｅｍｅｍｂｅｒ　ａｎｙ　ｏｆ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ　ｓｏｍｅｈｏｗ　ｒｅｍｉｎｄｓ　ｍｅ．．．　Ｗｈー"TCC_NEWLINE"ｅｒｅｉｓ"TCC_NEWLINE
+"Ｔｈａｔ　ｓｏｍｅｈｏｗ　ｒｅｍｉｎｄｓ　ｍｅ．．．　Ｗｈー"TCC_NEWLINE"ｅｒｅ　ｉｓ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"．．．Ｗｈａｔ？　Ａｒｅ　ｙｏｕ　ｓｔｉｌｌ　ｗａｋｉｎｇ"TCC_NEWLINE"　ｕｐ，Ａｌｆｏｎｓｅ？　Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｗｅ"TCC_NEWLINE"　ｋｎｏｗ　ａｎｙ"TCC_NEWLINE
+"．．．Ｗｈａｔ？　Ａｒｅ　ｙｏｕ　ｓｔｉｌｌ　ｗａｋｉｎｇ"TCC_NEWLINE"　ｕｐ，　Ａｌｆｏｎｓｅ？　Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｗー"TCC_NEWLINE"ｅ　ｋｎｏｗ　ａｎｙ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．　Ｄｏ　ｗｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｉｓ　ｉｓ　ｎｏ　ｔｉｍｅ　ｆｏｒ　ｊｏｋｅｓ，　Ｓｈー"TCC_NEWLINE"ａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙｏｎｅ　ｈｅｒｅ　ｈａｓ　ｓｐｅｎｔ　ｍａｎｙａ"TCC_NEWLINE"　ｌｏｎｇ　ｈｏｕｒ　ｏｎ　ｔｈｅ　ｂａｔｔｌｅｆｉｅｌｄー"TCC_NEWLINE"ｗｉｔｈ"TCC_NEWLINE
+"Ｅｖｅｒｙｏｎｅ　ｈｅｒｅ　ｈａｓ　ｓｐｅｎｔ　ｍａｎｙ　"TCC_NEWLINE"ａ　ｌｏｎｇ　ｈｏｕｒ　ｏｎ　ｔｈｅ　ｂａｔｔｌｅｆｉｅｌー"TCC_NEWLINE"ｄ　ｗｉｔｈ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａｒｅ　ｙｏｕ　ｃｏｎｆｕｓｉｎｇ　ｄｒｅａｍ　ｗｉｔｈｒー"TCC_NEWLINE"ｅａｌｉｔｙ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｃｏｎｆｕｓｉｎｇ　ｄｒｅａｍ　ｗｉｔｈ　"TCC_NEWLINE"ｒｅａｌｉｔｙ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｏｆ　ｌｅｇｅｎｄ　ｗａｓ　ｃａー"TCC_NEWLINE"ｌｌｅｄ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｓｅ　ｓｔｏｒｉｅｓ　ａｒｅ　ｓｏ　ｏｌｄ，　ｔｈｅー"TCC_NEWLINE"ｒｅ’ｓ　ｎｏｗａｙ　ｔｈｏｓｅ　ｐｅｏｐｌｅ　ａｒｅ　ｓー"TCC_NEWLINE"ｔｉｌｌ　ａｒｏｕｎｄ．Ｉｔ　ＭＵＳＴ　ｈａｖｅ　ｂｅｅｎ"TCC_NEWLINE"　ａ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｓｔｏｒｉｅｓ　ａｒｅ　ｓｏ　ｏｌｄ，　ｔｈｅー"TCC_NEWLINE"ｒｅ’ｓ　ｎｏ　ｗａｙ　ｔｈｏｓｅ　ｐｅｏｐｌｅ　ａｒｅ　"TCC_NEWLINE"ｓｔｉｌｌ　ａｒｏｕｎｄ．　Ｉｔ　ＭＵＳＴ　ｈａｖｅ　ｂｅー"TCC_NEWLINE"ｅｎ　ａ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｎｙｔｈｉｎｇ　ｉｓ　ｐｏｓｓｉｂｌｅ，　ｔｈｏｕｇｈ！"TCC_NEWLINE"　Ｉｆ　ｏｎｃｅａ　ｓｕｍｍｏｎｅｒ　ｃａｍｅ　ｆｒｏｍ　"TCC_NEWLINE"ａｎｏｔｈｅｒｗｏｒｌｄ，　Ｉ’ｍ　ｓｕｒｅ　ｉｔ　ｃｏｕー"TCC_NEWLINE"ｌｄ　ｈａｐｐｅｎ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｙｔｈｉｎｇ　ｉｓ　ｐｏｓｓｉｂｌｅ，　ｔｈｏｕｇｈ！"TCC_NEWLINE"　Ｉｆ　ｏｎｃｅ　ａ　ｓｕｍｍｏｎｅｒ　ｃａｍｅ　ｆｒｏｍ"TCC_NEWLINE"　ａｎｏｔｈｅｒ　ｗｏｒｌｄ，　Ｉ’ｍ　ｓｕｒｅ　ｉｔ　ｃー"TCC_NEWLINE"ｏｕｌｄ　ｈａｐｐｅｎ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｔｗｏ　ａｒｅｎ’ｔ　ｂｅｉｎｇ　ｓｅｒｉｏｕｓ，"TCC_NEWLINE"ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｔｗｏ　ａｒｅｎ’ｔ　ｂｅｉｎｇ　ｓｅｒｉｏｕｓ，"TCC_NEWLINE"　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈｙ　ｗｏｕｌｄ　ｗｅ　ｊｏｋｅ　ａｂｏｕｔ　ｔｈｉｓ？"TCC_NEWLINE"．．．Ａｒｅ　ｙｏｕ　ｓｕｒｅ　ｙｏｕ’ｒｅ　ａｌｌ　ｒｉー"TCC_NEWLINE"ｇｈｔ，Ａｌｆｏｎｓｅ？　Ｈｏｎｅｓｔｌｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｗｏｕｌｄ　ｗｅ　ｊｏｋｅ　ａｂｏｕｔ　ｔｈｉｓ？"TCC_NEWLINE"　．．．Ａｒｅ　ｙｏｕ　ｓｕｒｅ　ｙｏｕ’ｒｅ　ａｌｌ　ｒー"TCC_NEWLINE"ｉｇｈｔ，　Ａｌｆｏｎｓｅ？　Ｈｏｎｅｓｔｌｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｔ　ｃｏｕｌｄ　ｂｅ　ｔｈａｔ　ｔｈｅ　ｃｅｎｓｅｒ　ｇー"TCC_NEWLINE"ａｖｅ　ｙｏｕｓｏｍｅ　ｓｏｒｔ　ｏｆ　ｓｔｒａｎｇｅ　ｄー"TCC_NEWLINE"ｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｃｏｕｌｄ　ｂｅ　ｔｈａｔ　ｔｈｅ　ｃｅｎｓｅｒ　ｇー"TCC_NEWLINE"ａｖｅ　ｙｏｕ　ｓｏｍｅ　ｓｏｒｔ　ｏｆ　ｓｔｒａｎｇｅ　"TCC_NEWLINE"ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｎｏ．　Ｉ　ｒｅｆｕｓｅ　ｔｏ　ｂｅｌｉｅｖｅ　ｔｈａｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ．．．ｉｆ　ｎｏ　ｏｎｅ　ｅｌｓｅ　ｒｅｍｅｍｂｅｒー"TCC_NEWLINE"ｓ．．．Ｃｏｕｌｄ　ｉｔ　ｂｅ　ｔｈａｔ　ｍｙ　ｄｒｅａｍ"TCC_NEWLINE"　ｗａｓ　ｓｏｖｉｖｉｄ，　Ｉ　ｃｏｎｆｕｓｅｄ　ｉｔ　ｆー"TCC_NEWLINE"ｏｒ　ｍｙ　ｗａｋｉｎｇ　ｌｉｆｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ，　ｔｈａｔ　ｃａｎ’ｔ　ｂｅ　ｉｔ．．．　Ａｆｔｅｒ"TCC_NEWLINE"　ａｌｌ　ｔｈｅｔｉｍｅ　ｗｅ’ｖｅ　ｓｐｅｎｔ　ｆｉｇｈー"TCC_NEWLINE"ｔｉｎｇ　ｓｉｄｅ　ｂｙｓｉｄｅ　ｗｉｔｈ"TCC_NEWLINE
+"Ｂｕｔ．．．ｉｆ　ｎｏ　ｏｎｅ　ｅｌｓｅ　ｒｅｍｅｍｂｅｒー"TCC_NEWLINE"ｓ．．．　Ｃｏｕｌｄ　ｉｔ　ｂｅ　ｔｈａｔ　ｍｙ　ｄｒｅａー"TCC_NEWLINE"ｍ　ｗａｓ　ｓｏ　ｖｉｖｉｄ，　Ｉ　ｃｏｎｆｕｓｅｄ　ｉｔ"TCC_NEWLINE"　ｆｏｒ　ｍｙ　ｗａｋｉｎｇ　ｌｉｆｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｔｈａｔ　ｃａｎ’ｔ　ｂｅ　ｉｔ．．．　Ａｆｔｅｒ"TCC_NEWLINE"　ａｌｌ　ｔｈｅ　ｔｉｍｅ　ｗｅ’ｖｅ　ｓｐｅｎｔ　ｆｉｇー"TCC_NEWLINE"ｈｔｉｎｇ　ｓｉｄｅ　ｂｙ　ｓｉｄｅ　ｗｉｔｈ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｉｎ　Ａｓｋｒ’ｓ　ｎａｍｅ　ｉｓ　ｇｏｉｎｇ　"TCC_NEWLINE"ｏｎ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
@@ -55,36 +55,36 @@ TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｉ－ｉｔ　ｃａｎ’ｔ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｈａｓ　ｉｔ　ｂｅｅｎ　ｓｏ　ｌｏｎｇ　ｔｈａｔ　ｙｏｕ’"TCC_NEWLINE"ｖｅｆｏｒｇｏｔｔｅｎ　ｙｏｕｒ　ｐｌａｃｅ　ｂｅｆｏｒｅ"TCC_NEWLINE"　ｍｅ，ｗｅａｋｌｉｎｇｓ？　Ｙｏｕｒ　ｐｌａｃｅ　ｉｓ　"TCC_NEWLINE"ｔｏ　ｂｏｗ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　Ｉ　ａｍ　Ｓｕｒｔｒ，　ｙｏｕｒ　ｋｉｎｇ．　Ａｎー"TCC_NEWLINE"ｄ　ｙｏｕｗｉｌｌ　ｐｒａｉｓｅ　ｍｙ　ｎａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｓ　ｉｔ　ｂｅｅｎ　ｓｏ　ｌｏｎｇ　ｔｈａｔ　ｙｏｕ’"TCC_NEWLINE"ｖｅ　ｆｏｒｇｏｔｔｅｎ　ｙｏｕｒ　ｐｌａｃｅ　ｂｅｆｏｒー"TCC_NEWLINE"ｅ　ｍｅ，　ｗｅａｋｌｉｎｇｓ？　Ｙｏｕｒ　ｐｌａｃｅ　ｉー"TCC_NEWLINE"ｓ　ｔｏ　ｂｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　Ｉ　ａｍ　Ｓｕｒｔｒ，　ｙｏｕｒ　ｋｉｎｇ．　Ａｎー"TCC_NEWLINE"ｄ　ｙｏｕ　ｗｉｌｌ　ｐｒａｉｓｅ　ｍｙ　ｎａｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎ－ｎｏ！　Ｎｏｔ　ａｆｔｅｒ　ｅｖｅｒｙｔｈｉｎｇ　ｗｅ"TCC_NEWLINE"　ｗｅｎｔｔｈｒｏｕｇｈ　ｔｏ　ｄｅｆｅａｔ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎ－ｎｏ！　Ｎｏｔ　ａｆｔｅｒ　ｅｖｅｒｙｔｈｉｎｇ　ｗｅ"TCC_NEWLINE"　ｗｅｎｔ　ｔｈｒｏｕｇｈ　ｔｏ　ｄｅｆｅａｔ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｆ　Ｓｕｒｔｒ’ｓ　ｔｒｕｌｙ　ｂａｃｋ，　ｔｈｅｎ．．"TCC_NEWLINE"．ｃｏｕｌｄｅｖｅｒｙｏｎｅ　ｅｌｓｅ　ａｌｓｏ　ｂｅ"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｓｕｒｔｒ’ｓ　ｔｒｕｌｙ　ｂａｃｋ，　ｔｈｅｎ．．"TCC_NEWLINE"．ｃｏｕｌｄ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ　ａｌｓｏ　ｂｅ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ａｒｇｈ！　Ｔｈｉｎｋ，　Ａｌｆｏｎｓｅ．．．　Ｈｏｗ　ｃー"TCC_NEWLINE"ｏｕｌｄｔｈｉｓ　ｂｅ　ｐｏｓｓｉｂｌｅ？　Ａｎｄ　ｈｏｗ"TCC_NEWLINE"　ｃａｎ　Ｉ　ｍａｋｅｅｖｅｒｙｔｈｉｎｇ　ｎｏｒｍａｌ　"TCC_NEWLINE"ａｇａｉｎ？！"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｇｈ！　Ｔｈｉｎｋ，　Ａｌｆｏｎｓｅ．．．　Ｈｏｗ　ｃー"TCC_NEWLINE"ｏｕｌｄ　ｔｈｉｓ　ｂｅ　ｐｏｓｓｉｂｌｅ？　Ａｎｄ　ｈｏー"TCC_NEWLINE"ｗ　ｃａｎ　Ｉ　ｍａｋｅ　ｅｖｅｒｙｔｈｉｎｇ　ｎｏｒｍａー"TCC_NEWLINE"ｌ　ａｇａｉｎ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｈｅ’ｓ．．．　Ｓｕｒｔｒ’ｓ　ｇｏｎｅ．．．Ｔｈｉｓ　ｉー"TCC_NEWLINE"ｓ　ｊｕｓｔ　ｌｉｋｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｒｅｍｅｍｂｅｒ　ｎｏｗ．．．　Ｔｈｅ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅｓｔｈａｔ　ｌｉｖｅｄ　ｉｎ　ｏｕｒ　ｄｒｅａｍｓ．．"TCC_NEWLINE"．　Ｚａｃｈａｒｉａｓａｎｄ　ｔｈｅ　ｏｔｈｅｒｓ　ａｌｌ"TCC_NEWLINE"　ｖａｎｉｓｈｅｄ　ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ’ｓ．．．　Ｓｕｒｔｒ’ｓ　ｇｏｎｅ．．．　Ｔｈｉｓ　"TCC_NEWLINE"ｉｓ　ｊｕｓｔ　ｌｉｋｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｍｅｍｂｅｒ　ｎｏｗ．．．　Ｔｈｅ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅｓ　ｔｈａｔ　ｌｉｖｅｄ　ｉｎ　ｏｕｒ　ｄｒｅａｍｓ．"TCC_NEWLINE"．．　Ｚａｃｈａｒｉａｓ　ａｎｄ　ｔｈｅ　ｏｔｈｅｒｓ　ａー"TCC_NEWLINE"ｌｌ　ｖａｎｉｓｈｅｄ　ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｒｅ　ｙｏｕ　ｓｔｉｌｌ　ｗｉｔｈ　ｕｓ，　Ａｌｆｏｎｓー"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｅｓ．　Ｉ’ｍ　ｆｉｎｅ．　Ｉｔ’ｓ　ｊｕｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｒｅ，　ｎｏｗ，　ｉｎ　ｔｈｉｓ　Ａｓｋｒ，　ｓｏｍｅー"TCC_NEWLINE"ｔｈｉｎｇ．．．ｂｅｙｏｎｄ　ｒａｔｉｏｎａｌ　ｕｎｄｅｒー"TCC_NEWLINE"ｓｔａｎｄｉｎｇ　ｉｓｔａｋｉｎｇ　ｐｌａｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ａｓ　ｉｆ　ｒｅａｌｉｔｙ　ｉｔｓｅｌｆ　ｈａー"TCC_NEWLINE"ｓ　ｂｅｅｎｔｗｉｓｔｅｄ　ｂｙ　ｎｉｇｈｔｍａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ，　ｎｏｗ，　ｉｎ　ｔｈｉｓ　Ａｓｋｒ，　ｓｏｍｅー"TCC_NEWLINE"ｔｈｉｎｇ．．．　ｂｅｙｏｎｄ　ｒａｔｉｏｎａｌ　ｕｎｄｅー"TCC_NEWLINE"ｒｓｔａｎｄｉｎｇ　ｉｓ　ｔａｋｉｎｇ　ｐｌａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ａｓ　ｉｆ　ｒｅａｌｉｔｙ　ｉｔｓｅｌｆ　ｈａー"TCC_NEWLINE"ｓ　ｂｅｅｎ　ｔｗｉｓｔｅｄ　ｂｙ　ｎｉｇｈｔｍａｒｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａ　ｒｅｐｏｒｔ　ｈａｓ　ｊｕｓｔ　ｃｏｍｅ　ｉｎ！　Ｉｔ"TCC_NEWLINE"　ｓｅｅｍｓｐｅｏｐｌｅ　ｔｈｒｏｕｇｈｏｕｔ　ｔｈｅ　ｗー"TCC_NEWLINE"ｈｅａｔ　ｃｏｕｎｔｒｙｖｉｌｌａｇｅ　ｈａｖｅ　ｓｔａｒー"TCC_NEWLINE"ｔｅｄ　ｗａｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｒｅｐｏｒｔ　ｈａｓ　ｊｕｓｔ　ｃｏｍｅ　ｉｎ！　Ｉｔ"TCC_NEWLINE"　ｓｅｅｍｓ　ｐｅｏｐｌｅ　ｔｈｒｏｕｇｈｏｕｔ　ｔｈｅ　"TCC_NEWLINE"ｗｈｅａｔ　ｃｏｕｎｔｒｙ　ｖｉｌｌａｇｅ　ｈａｖｅ　ｓｔー"TCC_NEWLINE"ａｒｔｅｄ　ｗａｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｗａｓ　ｉｔ　ｂｅｃａｕｓｅ　ｏｆ　ｕｓ？　．．．Ｉ　ｇｕー"TCC_NEWLINE"ｅｓｓ　ｗｅｃａｎ　ｎｅｖｅｒ　ｂｅ　ｓｕｒｅ，　ｂｕｔ　"TCC_NEWLINE"ａｔ　ｌｅａｓｔ　ｔｈａｔ’ｓｍｉｓｓｉｏｎ　ａｃｃｏｍｐー"TCC_NEWLINE"ｌｉｓｈｅｄ！　Ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｓ　ｉｔ　ｂｅｃａｕｓｅ　ｏｆ　ｕｓ？　．．．Ｉ　ｇｕー"TCC_NEWLINE"ｅｓｓ　ｗｅ　ｃａｎ　ｎｅｖｅｒ　ｂｅ　ｓｕｒｅ，　ｂｕｔ"TCC_NEWLINE"　ａｔ　ｌｅａｓｔ　ｔｈａｔ’ｓ　ｍｉｓｓｉｏｎ　ａｃｃｏー"TCC_NEWLINE"ｍｐｌｉｓｈｅｄ！　Ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｒｉｇｈｔ．　Ｂｕｔ　ｓｔｉｌｌ．　Ｌｉｋｅ　ｗｅ　ｓａｗ"TCC_NEWLINE"　ｗｉｔｈ　Ｓｕｒｔｒｊｕｓｔ　ｎｏｗ．．．ｅｎｅｍｉｅｓ"TCC_NEWLINE"　ａｒｅ　ａｐｐｅａｒｉｎｇｕｎｐｒｅｄｉｃｔａｂｌｙ，　"TCC_NEWLINE"ｌｅｆｔ　ａｎｄ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｔｈｅｒｅ　ａｒｅ　ｍｏｒｅ　ｎｏｗ．．．　Ｗｅ　"TCC_NEWLINE"ｓｈｏｕｌｄｔａｋｅ　ｃａｒｅ　ｏｆ　ｔｈｅｍ　ｂｅｆｏｒー"TCC_NEWLINE"ｅ　ｔｈｅｙ　ｃａｎｈａｒｍ　ａｎｙ　ｏｆ　ｔｈｅ　ｖｉｌー"TCC_NEWLINE"ｌａｇｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ．　Ｂｕｔ　ｓｔｉｌｌ．　Ｌｉｋｅ　ｗｅ　ｓａｗ"TCC_NEWLINE"　ｗｉｔｈ　Ｓｕｒｔｒ　ｊｕｓｔ　ｎｏｗ．．．ｅｎｅｍｉｅー"TCC_NEWLINE"ｓ　ａｒｅ　ａｐｐｅａｒｉｎｇ　ｕｎｐｒｅｄｉｃｔａｂｌｙ"TCC_NEWLINE"，　ｌｅｆｔ　ａｎｄ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅｒｅ　ａｒｅ　ｍｏｒｅ　ｎｏｗ．．．　Ｗｅ　"TCC_NEWLINE"ｓｈｏｕｌｄ　ｔａｋｅ　ｃａｒｅ　ｏｆ　ｔｈｅｍ　ｂｅｆｏー"TCC_NEWLINE"ｒｅ　ｔｈｅｙ　ｃａｎ　ｈａｒｍ　ａｎｙ　ｏｆ　ｔｈｅ　ｖー"TCC_NEWLINE"ｉｌｌａｇｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｌｌ　ｒｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｒｅａｌｉｔｙ　ｔｒｕｌｙ　ｉｓ　ｂｅｉｎｇ　ｉｎｖー"TCC_NEWLINE"ａｄｅｄ　ｂｙｎｉｇｈｔｍａｒｅｓ．．．ｗｈａｔ　ｗｉｌｌ"TCC_NEWLINE"　ｗｅ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｒｅａｌｉｔｙ　ｔｒｕｌｙ　ｉｓ　ｂｅｉｎｇ　ｉｎｖー"TCC_NEWLINE"ａｄｅｄ　ｂｙ　ｎｉｇｈｔｍａｒｅｓ．．．ｗｈａｔ　ｗｉｌー"TCC_NEWLINE"ｌ　ｗｅ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ＣＡＮ　ｗｅ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

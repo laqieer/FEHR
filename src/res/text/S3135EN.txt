@@ -3,33 +3,33 @@
 [MID_SCENARIO_MAP_BEGIN_S3135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｅｌ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HEL
-"Ｓｏ．．．　Ａｔ　ｌａｓｔ，　ｔｈｅ　ｌｉｖｉｎｇ　ｓｅｔ"TCC_NEWLINE"　ｆｏｏｔ　ｉｎ　ｔｈｅｈｅａｒｔ　ｏｆ　ｄｅａｔｈ’ｓ　"TCC_NEWLINE"ｄｏｍａｉｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌａｓ，　ｔｏ　ｊｏｉｎ　ｕｓ　ｍｅａｎｓ　ｔｈａｔ　ｙー"TCC_NEWLINE"ｏｕ　ｗｉｌｌｓｏｏｎ　ｂｅ　ａｌｉｖｅ　ｎｏ　ｌｏｎｇｅー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ．．．　Ａｔ　ｌａｓｔ，　ｔｈｅ　ｌｉｖｉｎｇ　ｓｅｔ"TCC_NEWLINE"　ｆｏｏｔ　ｉｎ　ｔｈｅ　ｈｅａｒｔ　ｏｆ　ｄｅａｔｈ’ｓ"TCC_NEWLINE"　ｄｏｍａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌａｓ，　ｔｏ　ｊｏｉｎ　ｕｓ　ｍｅａｎｓ　ｔｈａｔ　ｙー"TCC_NEWLINE"ｏｕ　ｗｉｌｌ　ｓｏｏｎ　ｂｅ　ａｌｉｖｅ　ｎｏ　ｌｏｎｇー"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｈａｖｅ　ｓｌａｉｎ　ｃｏｕｎｔｌｅｓｓ　ｐｅｏｐー"TCC_NEWLINE"ｌｅ，　ｂｏｔｈｉｎ　ｏｕｒ　Ａｓｋｒ　ａｎｄ　ａｎｏｔｈー"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｓｔｏｌｅ　Ｅｉｒ’ｓ　ｆａｍｉｌｙ　ｆｒｏｍ　ｈー"TCC_NEWLINE"ｅｒ．Ｙｏｕ　ｓｔｏｌｅ　ｈｅｒ　ｍｅｍｏｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ａｓ　ｉｆ　ｔｈａｔ　ｗａｓｎ’ｔ　ｅｎｏｕｇｈ，"TCC_NEWLINE"　ｙｏｕｓｔｏｌｅ　ｈｅｒ　ｖｅｒｙ　ｌｉｆｅ，　ａｇａｉー"TCC_NEWLINE"ｎ　ａｎｄ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙｏｎｅ　ｈａｓ　ｓｕｆｆｅｒｅｄ　ｂｉｔｔｅｒ　"TCC_NEWLINE"ｌｏｓｓ　ｄｕｅｔｏ　ｙｏｕｒ　ｓｃｈｅｍｅｓ．　Ｉ　ｓｈー"TCC_NEWLINE"ｏｕｌｄ　ｋｎｏｗＩ’ｖｅｌｏｓｔ　ａ　ｆａｔｈｅｒ　ｔｏ"TCC_NEWLINE"　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｅｘｉｓｔｅｎｃｅ　ｉｓ　ａ　ｂｌｉｇｈｔ　ｏｎ"TCC_NEWLINE"　ｔｈｉｓｖｅｒｙ　ｗｏｒｌｄ，　Ｈｅｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｓｌａｉｎ　ｃｏｕｎｔｌｅｓｓ　ｐｅｏｐー"TCC_NEWLINE"ｌｅ，　ｂｏｔｈ　ｉｎ　ｏｕｒ　Ａｓｋｒ　ａｎｄ　ａｎｏｔー"TCC_NEWLINE"ｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｔｏｌｅ　Ｅｉｒ’ｓ　ｆａｍｉｌｙ　ｆｒｏｍ　ｈー"TCC_NEWLINE"ｅｒ．　Ｙｏｕ　ｓｔｏｌｅ　ｈｅｒ　ｍｅｍｏｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｓ　ｉｆ　ｔｈａｔ　ｗａｓｎ’ｔ　ｅｎｏｕｇｈ，"TCC_NEWLINE"　ｙｏｕ　ｓｔｏｌｅ　ｈｅｒ　ｖｅｒｙ　ｌｉｆｅ，　ａｇａー"TCC_NEWLINE"ｉｎ　ａｎｄ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ　ｈａｓ　ｓｕｆｆｅｒｅｄ　ｂｉｔｔｅｒ　"TCC_NEWLINE"ｌｏｓｓ　ｄｕｅ　ｔｏ　ｙｏｕｒ　ｓｃｈｅｍｅｓ．　Ｉ　ｓー"TCC_NEWLINE"ｈｏｕｌｄ　ｋｎｏｗＩ’ｖｅ　ｌｏｓｔ　ａ　ｆａｔｈｅｒ　"TCC_NEWLINE"ｔｏ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｅｘｉｓｔｅｎｃｅ　ｉｓ　ａ　ｂｌｉｇｈｔ　ｏｎ"TCC_NEWLINE"　ｔｈｉｓ　ｖｅｒｙ　ｗｏｒｌｄ，　Ｈｅｌ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ　ｉｓ　ｉｎｄｅｅｄ，　ｂｙ　ｄｅｆｉｎｉｔｉｏｎ．　"TCC_NEWLINE"Ｙｏｕ　ｓｐｅａｋｏｆ　ｄｅａｔｈ　ａｓ　ｉｆ　ｉｔ　ｉｓ"TCC_NEWLINE"　ｅｖｉｌ，　ｂｕｔ　ｔｈｅ　ｔｒｕｔｈ　ｉｓｔｈａｔ　ｉー"TCC_NEWLINE"ｔ　ｓｉｍｐｌｙ　ｉｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　ａｓ　ｌｏｎｇ　ａｓ　ｔｈｅ　ｌｉｖｉｎｇ　ｒｅｍー"TCC_NEWLINE"ａｉｎ　ａｌｉｖｅ，ｔｈｅｙ　ｗｉｓｈ　ｔｏ　ｃｏｎｔｉｎー"TCC_NEWLINE"ｕｅ　ｔｏ　ｂｅ　ｓｏ．　Ｙｅｔｔｈｅ　ｅｎｄ　ｔｏ　ｌｉー"TCC_NEWLINE"ｆｅ　ｉｓ　ａｎ　ｉｎｅｖｉｔａｂｌｅ　ｆａｃｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｉｔｈ　ｅｖｅｒｙ　ｄｅａｔｈ，　ｏｎ　ｅｖｅｒｙ　ｗｏー"TCC_NEWLINE"ｒｌｄ，Ｉ　ｇｒｏｗ　ｓｔｒｏｎｇｅｒａｎｄ　ｔｈｅ　ｎｕー"TCC_NEWLINE"ｍｂｅｒ　ｏｆｗｏｒｌｄｓ，　ａｓ　ｙｏｕ　ｋｎｏｗ，　ｉー"TCC_NEWLINE"ｓ　ｌｉｍｉｔｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｄｅｍｉｓｅ　ｗｉｌｌ　ｓｏｏｎ　ｎｏｕｒｉｓｈ"TCC_NEWLINE"　ｍｅ，ｊｕｓｔ　ａｓ　ｙｏｕｒ　ｃｏｕｎｔｅｒｐａｒｔ’"TCC_NEWLINE"ｓ　ｄｉｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｉｎｄｅｅｄ，　ｂｙ　ｄｅｆｉｎｉｔｉｏｎ．　"TCC_NEWLINE"Ｙｏｕ　ｓｐｅａｋ　ｏｆ　ｄｅａｔｈ　ａｓ　ｉｆ　ｉｔ　ｉー"TCC_NEWLINE"ｓ　ｅｖｉｌ，　ｂｕｔ　ｔｈｅ　ｔｒｕｔｈ　ｉｓ　ｔｈａｔ"TCC_NEWLINE"　ｉｔ　ｓｉｍｐｌｙ　ｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ａｓ　ｌｏｎｇ　ａｓ　ｔｈｅ　ｌｉｖｉｎｇ　ｒｅｍー"TCC_NEWLINE"ａｉｎ　ａｌｉｖｅ，　ｔｈｅｙ　ｗｉｓｈ　ｔｏ　ｃｏｎｔｉー"TCC_NEWLINE"ｎｕｅ　ｔｏ　ｂｅ　ｓｏ．　Ｙｅｔ　ｔｈｅ　ｅｎｄ　ｔｏ　"TCC_NEWLINE"ｌｉｆｅ　ｉｓ　ａｎ　ｉｎｅｖｉｔａｂｌｅ　ｆａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｅｖｅｒｙ　ｄｅａｔｈ，　ｏｎ　ｅｖｅｒｙ　ｗｏー"TCC_NEWLINE"ｒｌｄ，　Ｉ　ｇｒｏｗ　ｓｔｒｏｎｇｅｒａｎｄ　ｔｈｅ　ｎー"TCC_NEWLINE"ｕｍｂｅｒ　ｏｆ　ｗｏｒｌｄｓ，　ａｓ　ｙｏｕ　ｋｎｏｗ，"TCC_NEWLINE"　ｉｓ　ｌｉｍｉｔｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｄｅｍｉｓｅ　ｗｉｌｌ　ｓｏｏｎ　ｎｏｕｒｉｓｈ"TCC_NEWLINE"　ｍｅ，　ｊｕｓｔ　ａｓ　ｙｏｕｒ　ｃｏｕｎｔｅｒｐａｒｔ"TCC_NEWLINE"’ｓ　ｄｉｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｇａｖｅ　ｈｉｍ　ｍｙ　ｗｏｒｄ，　ｔｈａｔ　ｏｔｈｅー"TCC_NEWLINE"ｒＡｌｆｏｎｓｅ，　ａｎｄ　Ｉ　ｉｎｔｅｎｄ　ｔｏ　ｆｕｌー"TCC_NEWLINE"ｆｉｌｌ　ｔｈａｔｐｒｏｍｉｓｅ　ｔｏｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｅｎｄ．　Ｉ　ｄｅｃｌａｒｅｈｅｒー"TCC_NEWLINE"ｅ　ａｎｄｎｏｗｙｏｕ　ｗｉｌｌ　ｃｌａｉｍ　ｎｏ　ｍｏｒー"TCC_NEWLINE"ｅ　ｌｉｖｅｓ！Ｎｏｔ　ｅｖｅｒ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｇａｖｅ　ｈｉｍ　ｍｙ　ｗｏｒｄ，　ｔｈａｔ　ｏｔｈｅー"TCC_NEWLINE"ｒ　Ａｌｆｏｎｓｅ，　ａｎｄ　Ｉ　ｉｎｔｅｎｄ　ｔｏ　ｆｕー"TCC_NEWLINE"ｌｆｉｌｌ　ｔｈａｔ　ｐｒｏｍｉｓｅ　ｔｏｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｅｎｄ．　Ｉ　ｄｅｃｌａｒｅｈｅｒー"TCC_NEWLINE"ｅ　ａｎｄ　ｎｏｗｙｏｕ　ｗｉｌｌ　ｃｌａｉｍ　ｎｏ　ｍｏー"TCC_NEWLINE"ｒｅ　ｌｉｖｅｓ！　Ｎｏｔ　ｅｖｅｒ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HEL
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｈｅｌ　ｉｓ　ｖａｎｉｓｈｉｎｇ！　Ｑｕｉｃｋｌｙ，Ｐｒｉー"TCC_NEWLINE"ｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｉｓ　ｖａｎｉｓｈｉｎｇ！　Ｑｕｉｃｋｌｙ，　Ｐｒー"TCC_NEWLINE"ｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａｎｇｒｂｏａ．．．　Ｍａｉｄｅｎ　ｏｆ　ｌｉｆｅ　ａｎｄ"TCC_NEWLINE"　ｄｅａｔｈ．．．Ｍｏｔｈｅｒ　ｏｆ　ｔｈｅ　ｔｒｉａｄ　"TCC_NEWLINE"ｃａｔａｃｌｙｓｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｇｒｂｏａ．．．　Ｍａｉｄｅｎ　ｏｆ　ｌｉｆｅ　ａｎｄ"TCC_NEWLINE"　ｄｅａｔｈ．．．　Ｍｏｔｈｅｒ　ｏｆ　ｔｈｅ　ｔｒｉａｄ"TCC_NEWLINE"　ｃａｔａｃｌｙｓｍ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｌａｙ　ｔｈｅ　ｌｉｖｉｎｇ！　Ｓｌａｙ　ｔｈｅ　ｄｅａー"TCC_NEWLINE"ｄ！"TCC_NEWLINE TCC_PUSH_A
 "Ｂｒｉｎｇ　ｄｅａｔｈ　ｔｏ　ｔｈａｔ　ｗｈｉｃｈ　ｃａｎー"TCC_NEWLINE"ｎｏｔ　ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏｗ，"TCC_NEWLINE
-TCC_TACTICIAN_NAME"！Ｌｏｏｓｅ　ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｕｐｏｎ"TCC_NEWLINE"　Ｈｅｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"！　Ｌｏｏｓｅ　ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｕｐｏー"TCC_NEWLINE"ｎ　Ｈｅｌ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｎｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -38,26 +38,26 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｍｏｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｆｏｏｌｉｓｈ　ｃｈｉｌｄ．．．　Ｉ’ｖｅ　ａｌｒｅａｄｙ"TCC_NEWLINE"　ｔｏｌｄ　ｙｏｕ．．．Ｉ　ｈａｖｅ　ｎｅｖｅｒ　ｂｅｅｎ"TCC_NEWLINE"　ｙｏｕｒ　ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｏｌｉｓｈ　ｃｈｉｌｄ．．．　Ｉ’ｖｅ　ａｌｒｅａｄｙ"TCC_NEWLINE"　ｔｏｌｄ　ｙｏｕ．．．　Ｉ　ｈａｖｅ　ｎｅｖｅｒ　ｂｅｅー"TCC_NEWLINE"ｎ　ｙｏｕｒ　ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｂｕｔ　ｙｏｕ　ｈａｖｅ　ｂｅｅｎ．　Ｉ　ｒｅｍｅｍｂｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　Ｉ　ｗａｓ　ｓｍａｌｌ，　ｙｏｕ　ｈｅｌｄ　ｍｅ"TCC_NEWLINE"　ｉｎｙｏｕｒ　ａｒｍｓ．　Ｙｏｕ　ｅｍｂｒａｃｅｄ　ｍｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｓｅ　ｓｏｆｔ　ａｒｍｓ　ｗｅｒｅ　ｎｏｔ　ｍｙ　ｂー"TCC_NEWLINE"ｉｒｔｈｍｏｔｈｅｒ’ｓ，　Ｈｅｌ．　Ｔｈｅｙ　ｗｅｒｅ　"TCC_NEWLINE"ｙｏｕｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　Ｉ　ｗａｓ　ｓｍａｌｌ，　ｙｏｕ　ｈｅｌｄ　ｍｅ"TCC_NEWLINE"　ｉｎ　ｙｏｕｒ　ａｒｍｓ．　Ｙｏｕ　ｅｍｂｒａｃｅｄ　ｍー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｓｏｆｔ　ａｒｍｓ　ｗｅｒｅ　ｎｏｔ　ｍｙ　ｂー"TCC_NEWLINE"ｉｒｔｈ　ｍｏｔｈｅｒ’ｓ，　Ｈｅｌ．　Ｔｈｅｙ　ｗｅｒｅ"TCC_NEWLINE"　ｙｏｕｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ．．．ｗａｓ　ｏｎｌｙ　ｐａｎｔｏｍｉｍｅ．．．ａー"TCC_NEWLINE"ｎ　ｉｍｉｔａｔｉｏｎ　ｏｆ　ｙｏｕｒ　ｒｅａｌ　ｍｏｔｈー"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ．．．ｗａｓ　ｏｎｌｙ　ｐａｎｔｏｍｉｍｅ．．．　"TCC_NEWLINE"ａｎ　ｉｍｉｔａｔｉｏｎ　ｏｆ　ｙｏｕｒ　ｒｅａｌ　ｍｏｔー"TCC_NEWLINE"ｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｗａｓ　ｏｎｌｙ　ｔｏ　ｃｏｎｔｒｏｌ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ａｌｌ　ｔｈｅ　ｓａｍｅ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈｙ　ｄｏ　ｙｏｕ　ｗｅａｒ．．．ｔｈａｔ　ｌｏｏｋ　ｕー"TCC_NEWLINE"ｐｏｎｙｏｕｒ　ｆａｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ｗｅａｒ．．．ｔｈａｔ　ｌｏｏｋ　ｕー"TCC_NEWLINE"ｐｏｎ　ｙｏｕｒ　ｆａｃｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｂｅｃａｕｓｅ　Ｉ　ａｍ　ｓａｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｏ　ｓｅｅ　ｍｅ　ｐｅｒｉｓｈ．．．ｍａｋｅｓ　ｙｏｕ　"TCC_NEWLINE"ｓａｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｍａｙ　ｎｏｔ　ｈａｖｅ　ｂｅｅｎ　ａ　ｄａｕｇｈｔｅー"TCC_NEWLINE"ｒ　ｔｏｙｏｕ，　ｉｎ　ｙｏｕｒ　ｍｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｙｏｕ　ｗｅｒｅ　ｍｙ　ｏｎｌｙ　ｆａｍｉｌｙ．　"TCC_NEWLINE"Ｔｏ　ｍｅ．．．Ｙｏｕ　ｗｉｌｌ　ａｌｗａｙｓ　ｂｅ　ｍｙ"TCC_NEWLINE"　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍａｙ　ｎｏｔ　ｈａｖｅ　ｂｅｅｎ　ａ　ｄａｕｇｈｔｅー"TCC_NEWLINE"ｒ　ｔｏ　ｙｏｕ，　ｉｎ　ｙｏｕｒ　ｍｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕ　ｗｅｒｅ　ｍｙ　ｏｎｌｙ　ｆａｍｉｌｙ．　"TCC_NEWLINE"Ｔｏ　ｍｅ．．．　Ｙｏｕ　ｗｉｌｌ　ａｌｗａｙｓ　ｂｅ　ｍー"TCC_NEWLINE"ｙ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
@@ -68,7 +68,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_LEFT
 "Ｙｅｓ．　Ａｔ　ｌａｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｐｒｏｍｉｓｅｄ　ｔｏ　ｍａｋｅ　Ａｓｋｒ　ｙｏｕｒ　"TCC_NEWLINE"ｎｅｗｈｏｍｅ．　Ｔｏ　ｇｉｖｅ　ｙｏｕ　ａ　ｈａｐｐｙ　"TCC_NEWLINE"ｌｉｆｅ　ｔｈｅｒｅ．Ｉｔ　ｉｓ　ｔｉｍｅ　ｔｏ　ｍａｋｅ"TCC_NEWLINE"　ｇｏｏｄ　ｏｎ　ｍｙ　ｗｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｐｒｏｍｉｓｅｄ　ｔｏ　ｍａｋｅ　Ａｓｋｒ　ｙｏｕｒ　"TCC_NEWLINE"ｎｅｗ　ｈｏｍｅ．　Ｔｏ　ｇｉｖｅ　ｙｏｕ　ａ　ｈａｐｐｙ"TCC_NEWLINE"　ｌｉｆｅ　ｔｈｅｒｅ．　Ｉｔ　ｉｓ　ｔｉｍｅ　ｔｏ　ｍａー"TCC_NEWLINE"ｋｅ　ｇｏｏｄ　ｏｎ　ｍｙ　ｗｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｇｏ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
@@ -81,24 +81,24 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "Ｔｅｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅ’ｄ　ｊｕｓｔ　ｄｅｆｅａｔｅｄ　Ｈｅｌ．　Ａｌｌ　ｏー"TCC_NEWLINE"ｆ　Ａｓｋｒｒｅｊｏｉｃｅｄ　ａｎｄ　ｂｅｇａｎ　ａ　ｌｉー"TCC_NEWLINE"ｆｅ　ｏｆ　ｐｅａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓ　ａ　ｈａｐｐｉｎｅｓｓ　ｕｎｌｉｋｅ　ａｎｙ"TCC_NEWLINE"　Ｉ　ｈａｖｅｅｘｐｅｒｉｅｎｃｅｄ　ｉｎ　ｍｙ　ｗａｋｉー"TCC_NEWLINE"ｎｇ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｄ　ｊｕｓｔ　ｄｅｆｅａｔｅｄ　Ｈｅｌ．　Ａｌｌ　ｏー"TCC_NEWLINE"ｆ　Ａｓｋｒ　ｒｅｊｏｉｃｅｄ　ａｎｄ　ｂｅｇａｎ　ａ　ｌー"TCC_NEWLINE"ｉｆｅ　ｏｆ　ｐｅａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ａ　ｈａｐｐｉｎｅｓｓ　ｕｎｌｉｋｅ　ａｎｙ"TCC_NEWLINE"　Ｉ　ｈａｖｅ　ｅｘｐｅｒｉｅｎｃｅｄ　ｉｎ　ｍｙ　ｗａｋー"TCC_NEWLINE"ｉｎｇ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｐｅｒｈａｐｓ　ｉｔ　ｗａｓ　ｍｏｒｅ　ｔｈａｎ　ａ　ｄｒー"TCC_NEWLINE"ｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｅｒｈａｐｓ　ｉｔ　ｗａｓ　ａ　ｖｉｓｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａ　ｖｉｓｉｏｎ　ｏｆ　ｗｈａｔ，　ｅｘａｃｔｌｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｒｅ　ａｒｅ　ｍａｎｙ　ｗｏｒｌｄｓ．　Ｐｅｒｈａｐー"TCC_NEWLINE"ｓ　ｙｏｕｗｅｒｅ　ｇｉｖｅｎ　ａ　ｇｌｉｍｐｓｅ　ｏｆ　"TCC_NEWLINE"ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈａｔ’ｓ　ｔｈｅ　ｃａｓｅ．．．ｔｈｅｎ　ｗｈｏ"TCC_NEWLINE"’ｓ　ｔｏ　ｓａｙｗｈｉｃｈ　ｏｆ　ｔｈｅ　ｔｗｏ　ｗｏｒー"TCC_NEWLINE"ｌｄｓ　ｉｓ　ｍｏｒｅ　ｒｅａｌ？"TCC_NEWLINE TCC_PUSH_A
-"Ｍａｙｂｅ　ｔｈｉｓ　ｌｉｆｅ　ｉｓ　ｔｈｅ　ｄｒｅａｍ，"TCC_NEWLINE"　ａｎｄ　ｗｈａｔｙｏｕ　ｗｉｔｎｅｓｓｅｄ　ｗａｓ　ｔｈー"TCC_NEWLINE"ｅ　ｔｒｕｅ　ｒｅａｌｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ａｒｅ　ｍａｎｙ　ｗｏｒｌｄｓ．　Ｐｅｒｈａｐー"TCC_NEWLINE"ｓ　ｙｏｕ　ｗｅｒｅ　ｇｉｖｅｎ　ａ　ｇｌｉｍｐｓｅ　ｏｆ"TCC_NEWLINE"　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ’ｓ　ｔｈｅ　ｃａｓｅ．．．ｔｈｅｎ　ｗｈｏ"TCC_NEWLINE"’ｓ　ｔｏ　ｓａｙ　ｗｈｉｃｈ　ｏｆ　ｔｈｅ　ｔｗｏ　ｗｏー"TCC_NEWLINE"ｒｌｄｓ　ｉｓ　ｍｏｒｅ　ｒｅａｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍａｙｂｅ　ｔｈｉｓ　ｌｉｆｅ　ｉｓ　ｔｈｅ　ｄｒｅａｍ，"TCC_NEWLINE"　ａｎｄ　ｗｈａｔ　ｙｏｕ　ｗｉｔｎｅｓｓｅｄ　ｗａｓ　ｔー"TCC_NEWLINE"ｈｅ　ｔｒｕｅ　ｒｅａｌｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｏ　ｔｈｅｒｅ　ｃｏｕｌｄ　ｂｅ　ａ　ｒｅａｌｉｔｙ　ｏー"TCC_NEWLINE"ｕｔ　ｔｈｅｒｅ，ｉｎ　ｗｈｉｃｈ　ｅｖｅｒｙｏｎｅ　ｉｓ"TCC_NEWLINE"　ｓａｆｅ　ａｎｄ　ｈａｐｐｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｔｈｅｒｅ　ｃｏｕｌｄ　ｂｅ　ａ　ｒｅａｌｉｔｙ　ｏー"TCC_NEWLINE"ｕｔ　ｔｈｅｒｅ，　ｉｎ　ｗｈｉｃｈ　ｅｖｅｒｙｏｎｅ　ｉー"TCC_NEWLINE"ｓ　ｓａｆｅ　ａｎｄ　ｈａｐｐｙ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｅｓ．　Ｉ’ｄ　ｌｉｋｅ　ｔｏ　ｂｅｌｉｅｖｅ　ｔｈａｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ｉｆ　ｉｔ　ｉｓ　ｎｏｔ　ａ　ｗｏｒｌｄ　ｆｏｒ"TCC_NEWLINE"　ｙｏｕ　ａｎｄｍｅ．．．　Ｉ　ｆｉｎｄ　ｓｏｌａｃｅ　ｉー"TCC_NEWLINE"ｎ　ｔｈｅ　ｉｄｅａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｉｆ　ｉｔ　ｉｓ　ｎｏｔ　ａ　ｗｏｒｌｄ　ｆｏｒ"TCC_NEWLINE"　ｙｏｕ　ａｎｄ　ｍｅ．．．　Ｉ　ｆｉｎｄ　ｓｏｌａｃｅ　"TCC_NEWLINE"ｉｎ　ｔｈｅ　ｉｄｅａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍｅ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈａｔ　ｄｒｅａｍｓ　ｏｃｃｕｐｙ　ｙｏｕｒ　ｍｉｎｄ　"TCC_NEWLINE"ｎｏｗ，Ａｌｆｏｎｓｅ？　Ａｒｅ　ｔｈｅｙ　ｐｌｅａｓａｎー"TCC_NEWLINE"ｔ　ｖｉｓｉｏｎｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｄｒｅａｍｓ　ｏｃｃｕｐｙ　ｙｏｕｒ　ｍｉｎｄ　"TCC_NEWLINE"ｎｏｗ，　Ａｌｆｏｎｓｅ？　Ａｒｅ　ｔｈｅｙ　ｐｌｅａｓａー"TCC_NEWLINE"ｎｔ　ｖｉｓｉｏｎｓ？"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｈｏｐｅ　ｔｈｅｙ　ａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

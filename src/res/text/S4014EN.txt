@@ -1,29 +1,29 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_ENDING_S4014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ　ｗｉｌｌ　ｂｅ　ａｐｐｒｏａｃｈｉｎｇ　ｔｈｅ　ｖｉー"TCC_NEWLINE"ｌｌａｇｅｓｏｏｎ．　Ａｌｆｏｎｓｅ，　ｔｈｅ　ｃｅｎｓｅー"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｉｌｌ　ｂｅ　ａｐｐｒｏａｃｈｉｎｇ　ｔｈｅ　ｖｉー"TCC_NEWLINE"ｌｌａｇｅ　ｓｏｏｎ．　Ａｌｆｏｎｓｅ，　ｔｈｅ　ｃｅｎｓー"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｙｅｓ．　Ｔｈｅ　ｉｎｃｅｎｓｅ　ｈａｓ　ｂｅｅｎ　ｇｒｏー"TCC_NEWLINE"ｗｉｎｇｔｈｉｃｋ　ｗｉｔｈｉｎ　ｔｈｅ　ｃｅｎｓｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｔｈｅ　ｉｎｃｅｎｓｅ　ｈａｓ　ｂｅｅｎ　ｇｒｏー"TCC_NEWLINE"ｗｉｎｇ　ｔｈｉｃｋ　ｗｉｔｈｉｎ　ｔｈｅ　ｃｅｎｓｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "＊ｃｏｕｇｈ＊　Ｎｏｔ　ｊｕｓｔ　ｉｎｓｉｄｅ　ｅｉｔｈｅー"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｍｕｓｔ　ｓａｙ，　Ｉ　ｉｍａｇｉｎｅｄ　ｔｈｅ　ｓｍー"TCC_NEWLINE"ｏｋｅｗｏｕｌｄ　ｂｅ　ｍｏｒｅ　ｆｒａｇｒａｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｏｎｌｙ　ｔｈｉｎｇ　ｔｏ　ｄｏ　ｉｓ　ｔｏ　ｃｏー"TCC_NEWLINE"ｎｔｉｎｕｅｏｎ．　Ｗｅ　ｍｕｓｔ　ｔｒｕｓｔ　ｔｈｅ　ｃー"TCC_NEWLINE"ｅｎｓｅｒ　ｔｏｐｒｏｔｅｃｔ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｓａｙ，　Ｉ　ｉｍａｇｉｎｅｄ　ｔｈｅ　ｓｍー"TCC_NEWLINE"ｏｋｅ　ｗｏｕｌｄ　ｂｅ　ｍｏｒｅ　ｆｒａｇｒａｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｏｎｌｙ　ｔｈｉｎｇ　ｔｏ　ｄｏ　ｉｓ　ｔｏ　ｃｏー"TCC_NEWLINE"ｎｔｉｎｕｅ　ｏｎ．　Ｗｅ　ｍｕｓｔ　ｔｒｕｓｔ　ｔｈｅ　"TCC_NEWLINE"ｃｅｎｓｅｒ　ｔｏ　ｐｒｏｔｅｃｔ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｒｕｅ！　Ｉ’ｍ　ｊｕｓｔ　ｇｌａｄ　Ｍｏｔｈｅｒ　ｔｈー"TCC_NEWLINE"ｏｕｇｈｔｔｏ　ｐｒｅｐａｒｅ　ｕｓ　ｆｏｒ　ｔｈｉｓ．　"TCC_NEWLINE"Ａｓ　ｌｏｎｇ　ａｓ　ｗｅｈａｖｅ　ｔｈｅ　ｃｅｎｓｅｒ，"TCC_NEWLINE"　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｆｅｅｌ　ｓｏ　ａｔ　ｅａｓｅ，　Ｉ’ｍ．．．　＊ｙａー"TCC_NEWLINE"ｗｎ＊Ｉ’ｍ　ｇｅｔｔｉｎｇ　ｓｌｅｅｐｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｕｅ！　Ｉ’ｍ　ｊｕｓｔ　ｇｌａｄ　Ｍｏｔｈｅｒ　ｔｈー"TCC_NEWLINE"ｏｕｇｈｔ　ｔｏ　ｐｒｅｐａｒｅ　ｕｓ　ｆｏｒ　ｔｈｉｓ．"TCC_NEWLINE"　Ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｈａｖｅ　ｔｈｅ　ｃｅｎｓｅー"TCC_NEWLINE"ｒ，　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｅｅｌ　ｓｏ　ａｔ　ｅａｓｅ，　Ｉ’ｍ．．．　＊ｙａー"TCC_NEWLINE"ｗｎ＊　Ｉ’ｍ　ｇｅｔｔｉｎｇ　ｓｌｅｅｐｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｈａｒｅｎａ！　Ｗｅ’ｒｅ　ｏｎ　ａ　ｍｉｓｓｉｏｎ！Ｙー"TCC_NEWLINE"ｏｕ　ｓｈｏｕｌｄ　ｔｒｙ　ｔｏ　ａｔ　ｌｅａｓｔ　ｓｔａー"TCC_NEWLINE"ｙ　ａｌｅｒｔｅｎｏｕｇｈ　ｔｏ　ｋｅｅｐ　ｆｒｏｍ　ｙａー"TCC_NEWLINE"ｗｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈａｒｅｎａ！　Ｗｅ’ｒｅ　ｏｎ　ａ　ｍｉｓｓｉｏｎ！　"TCC_NEWLINE"Ｙｏｕ　ｓｈｏｕｌｄ　ｔｒｙ　ｔｏ　ａｔ　ｌｅａｓｔ　ｓｔー"TCC_NEWLINE"ａｙ　ａｌｅｒｔ　ｅｎｏｕｇｈ　ｔｏ　ｋｅｅｐ　ｆｒｏｍ　"TCC_NEWLINE"ｙａｗｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
 "．．．＊ｙａｗｎ＊　．．．Ｗｈａ－ｗｈａｔ’ｓ　ｈａｐｐｅー"TCC_NEWLINE"ｎｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ？"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｗｈａｔ　ｉｓ　Ｗｈｙ　ｃａｎ　Ｉ　ｎｏｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｍｍｍ．．．　Ｓ－ｓｏ　ｓｌｅｅｐｙ．．．　Ｉ　ｊｕｓｔ　"TCC_NEWLINE"ｎｅｅｄｔｏ　ｃｌｏｓｅ　ｍｙ　ｅｙｅｓ．　Ｊｕｓｔ　ｆｏー"TCC_NEWLINE"ｒ　ａ　ｍｏｍｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｍｍ．．．　Ｓ－ｓｏ　ｓｌｅｅｐｙ．．．　Ｉ　ｊｕｓｔ　"TCC_NEWLINE"ｎｅｅｄ　ｔｏ　ｃｌｏｓｅ　ｍｙ　ｅｙｅｓ．　Ｊｕｓｔ　ｆー"TCC_NEWLINE"ｏｒ　ａ　ｍｏｍｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｎｏ，　Ｓｈａｒｅｎａ，　ｗｅ’ｒｅ．．．ｏｎ　ａ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｓ　ｔｈｉｓ．．．ｔｈｅ　ｓｌｅｅｐ　ｓｉｃｋｎｅｓｓ？"TCC_NEWLINE"Ｔｈｅ　ｃｅｎｓｅｒ．．．　Ｗｅ　ｎｅｅｄ　ｉｔｓ　ｐｏｗー"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈｉｓ．．．ｔｈｅ　ｓｌｅｅｐ　ｓｉｃｋｎｅｓｓ？"TCC_NEWLINE"　Ｔｈｅ　ｃｅｎｓｅｒ．．．　Ｗｅ　ｎｅｅｄ　ｉｔｓ　ｐｏー"TCC_NEWLINE"ｗｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｉｔｈｏｕｔ　ｉｔ．．．ｗｅ’ｌｌ　ｓｏｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

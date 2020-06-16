@@ -1,19 +1,19 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3105_EN] = TCC_OPEN_LEFT
-"Ｈｅｒｅ．．．ｉｎ　ｔｈｅ　ｉｎｎｅｒｍｏｓｔ　ｓａｎｃｔー"TCC_NEWLINE"ｕｍ．．．Ｗｅ’ｌｌ　ｆｉｎｄ　ｔｈｅ　ｗｅａｐｏｎ　ｗｅ"TCC_NEWLINE"　ｓｅｅｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ．．．ｉｎ　ｔｈｅ　ｉｎｎｅｒｍｏｓｔ　ｓａｎｃｔー"TCC_NEWLINE"ｕｍ．．．　Ｗｅ’ｌｌ　ｆｉｎｄ　ｔｈｅ　ｗｅａｐｏｎ　ｗー"TCC_NEWLINE"ｅ　ｓｅｅｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａ　ｂｌｏｏｄ　ｔｅｍｐｌｅ．．．　Ｈｏｗ　ｇｈａｓｔｌｙ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｕｒｒｙ　ｎｏｗ．　Ｂｅｆｏｒｅ　ｗｅ’ｒｅ　ｂｅｓｅｔ"TCC_NEWLINE"　ｂｙａｎｏｔｈｅｒ　ｄｉｓｔｒａｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｒｒｙ　ｎｏｗ．　Ｂｅｆｏｒｅ　ｗｅ’ｒｅ　ｂｅｓｅｔ"TCC_NEWLINE"　ｂｙ　ａｎｏｔｈｅｒ　ｄｉｓｔｒａｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｈｏｌｄ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｄｏ　ｎー"TCC_NEWLINE"ｏｔｅｎｔｅｒ　ｔｈｅ　ｔｅｍｐｌｅ　ｊｕｓｔ　ｙｅｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｌｄ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．　Ｄｏ　ｎー"TCC_NEWLINE"ｏｔ　ｅｎｔｅｒ　ｔｈｅ　ｔｅｍｐｌｅ　ｊｕｓｔ　ｙｅｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｒａｓｉｒｔｈｅ　ｏｔｈｅｒ　ＰｒｉｎｃｅｓｓＶｅｒｏー"TCC_NEWLINE"ｎｉｃａｈａｓ　ｔｏｌｄ　ｕｓ　Ｈｅｌｃａｎｎｏｔ　ｂｅ　"TCC_NEWLINE"ｋｉｌｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｄｏｕｂｔ　ｓｈｅ　ｈａｓ　ｄｅｄー"TCC_NEWLINE"ｕｃｅｄｔｈａｔ　ｗｅ　ｓｅｅｋ　ｔｈｉｓ　ｗｅａｐｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｔ　ｔｈｅ　ｉｎｆｏｒｍａｔｉｏｎ　ａｂｏｕｔ　ｉｔ　"TCC_NEWLINE"ｒｅｍａｉｎｅｄｉｎ　ｔｈｅ　Ｌｉｂｒａｒｙ　ｏｆ　Ｅｍｂー"TCC_NEWLINE"ｌａ．　Ｓｈｅ　ｎｅｉｔｈｅｒｈｉｄ　ｎｏｒ　ｄｅｓｔｒｏー"TCC_NEWLINE"ｙｅｄ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｒａｓｉｒｔｈｅ　ｏｔｈｅｒ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒー"TCC_NEWLINE"ｏｎｉｃａｈａｓ　ｔｏｌｄ　ｕｓ　Ｈｅｌ　ｃａｎｎｏｔ　ｂー"TCC_NEWLINE"ｅ　ｋｉｌｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｄｏｕｂｔ　ｓｈｅ　ｈａｓ　ｄｅｄー"TCC_NEWLINE"ｕｃｅｄ　ｔｈａｔ　ｗｅ　ｓｅｅｋ　ｔｈｉｓ　ｗｅａｐｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｔｈｅ　ｉｎｆｏｒｍａｔｉｏｎ　ａｂｏｕｔ　ｉｔ　"TCC_NEWLINE"ｒｅｍａｉｎｅｄ　ｉｎ　ｔｈｅ　Ｌｉｂｒａｒｙ　ｏｆ　Ｅｍー"TCC_NEWLINE"ｂｌａ．　Ｓｈｅ　ｎｅｉｔｈｅｒ　ｈｉｄ　ｎｏｒ　ｄｅｓｔー"TCC_NEWLINE"ｒｏｙｅｄ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ　ｃａｎ　ｍｅａｎ　ｏｎｌｙ　ｏｎｅ　ｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｉｓ　ｉｓ　ａ　ｔｒａｐ？"TCC_NEWLINE TCC_PUSH_A
@@ -26,30 +26,30 @@ TCC_OPEN_MID_RIGHT
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｔｒｉｃｋｅｄ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉ　ｋｎｏｗ　ｙｏｕｒ　ｔｈｏｕｇｈｔｓ　ａｓ　ｔｈｏｕｇー"TCC_NEWLINE"ｈｔｈｅｙ　ａｒｅ　ｍｙ　ｏｗｎ，　ｙｏｕ　ｌｉｔｔｌｅ　"TCC_NEWLINE"ｆｏｏｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｙｏｕｒ　ｔｈｏｕｇｈｔｓ　ａｓ　ｔｈｏｕｇー"TCC_NEWLINE"ｈ　ｔｈｅｙ　ａｒｅ　ｍｙ　ｏｗｎ，　ｙｏｕ　ｌｉｔｔｌｅ"TCC_NEWLINE"　ｆｏｏｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｅｃａｕｓｅ　ｔｈｅｙ　ａｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｙｏｕ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．　Ｉｆ"TCC_NEWLINE"　ｙｏｕｓｕｓｐｅｃｔｅｄ　ｔｈｅ　ｔｒｕｔｈ，　ｗｈｙ　"TCC_NEWLINE"ｄｉｄ　ｙｏｕｃｏｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．　Ｉｆ"TCC_NEWLINE"　ｙｏｕ　ｓｕｓｐｅｃｔｅｄ　ｔｈｅ　ｔｒｕｔｈ，　ｗｈｙ"TCC_NEWLINE"　ｄｉｄ　ｙｏｕ　ｃｏｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｏ　ｓｐｒｉｎｇ　ｙｏｕｒ　ｔｒａｐ．　Ｉ　ｋｎｅｗ　ｙー"TCC_NEWLINE"ｏｕｗｏｕｌｄ　ｂｅ　ｃｅｒｔａｉｎ　ｔｏ　ｃｏｍｅ　ａｎー"TCC_NEWLINE"ｄｖｅｒｉｆｙ　ｏｕｒ　ｄｅｍｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎｓｔｅａｄ，　Ｉ　ｈａｖｅ　ｔｈｅ　ｃｈａｎｃｅ　Ｉ’"TCC_NEWLINE"ｖｅ　ｂｅｅｎｗａｉｔｉｎｇ　ｆｏｒｔｏ　ｄｅｆｅａｔ　ｏー"TCC_NEWLINE"ｎｅ　ｏｆ　Ｈｅｌ’ｓｇｅｎｅｒａｌｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｒａｓｉｒ，　ｇｅｎｅｒａｌ　ｏｆ　ｔｈｅ　ｒｅａｌｍ"TCC_NEWLINE"　ｏｆ　ｔｈｅｄｅａｄ．．．　Ｙｏｕ　ｗｉｌｌ　ｆａｌｌ　"TCC_NEWLINE"ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｓｐｒｉｎｇ　ｙｏｕｒ　ｔｒａｐ．　Ｉ　ｋｎｅｗ　ｙー"TCC_NEWLINE"ｏｕ　ｗｏｕｌｄ　ｂｅ　ｃｅｒｔａｉｎ　ｔｏ　ｃｏｍｅ　ａー"TCC_NEWLINE"ｎｄ　ｖｅｒｉｆｙ　ｏｕｒ　ｄｅｍｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｓｔｅａｄ，　Ｉ　ｈａｖｅ　ｔｈｅ　ｃｈａｎｃｅ　Ｉ’"TCC_NEWLINE"ｖｅ　ｂｅｅｎ　ｗａｉｔｉｎｇ　ｆｏｒｔｏ　ｄｅｆｅａｔ　"TCC_NEWLINE"ｏｎｅ　ｏｆ　Ｈｅｌ’ｓ　ｇｅｎｅｒａｌｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｒａｓｉｒ，　ｇｅｎｅｒａｌ　ｏｆ　ｔｈｅ　ｒｅａｌｍ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｄｅａｄ．．．　Ｙｏｕ　ｗｉｌｌ　ｆａｌｌ"TCC_NEWLINE"　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_THRASIR
-"Ｙｏｕ　ｍａｙ　ｂａｒｅ　ｙｏｕｒ　ｆａｎｇｓ．．．ｂｕｔー"TCC_NEWLINE"ｙｏｕ’ｌｌ　ｂｅ　ｔｈｅ　ｏｎｅｓ　ｄｙｉｎｇ　ｈｅｒｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍａｙ　ｂａｒｅ　ｙｏｕｒ　ｆａｎｇｓ．．．ｂｕｔ"TCC_NEWLINE"　ｙｏｕ’ｌｌ　ｂｅ　ｔｈｅ　ｏｎｅｓ　ｄｙｉｎｇ　ｈｅｒー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｌ　ｃａｎｎｏｔ　ｂｅ　ｋｉｌｌｅｄ，　ａｆｔｅｒ　ａー"TCC_NEWLINE"ｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｈｙ　ｄｏ　ｙｏｕ　ａｉｄ　Ｈｅｌ？　Ｓｈｅ　ｓｈｏｕｌー"TCC_NEWLINE"ｄｂｅ　ｙｏｕｒ　ｅｎｅｍｙ　ａｓ　ｍｕｃｈ　ａｓ　ｏｕｒー"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ａｉｄ　Ｈｅｌ？　Ｓｈｅ　ｓｈｏｕｌー"TCC_NEWLINE"ｄ　ｂｅ　ｙｏｕｒ　ｅｎｅｍｙ　ａｓ　ｍｕｃｈ　ａｓ　ｏｕー"TCC_NEWLINE"ｒｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｙ　ｇｏａｌ　ｉｓ　ｔｈｅ　ｓａｍｅ　ａｓ　ｙｏｕｒ　ｏー"TCC_NEWLINE"ｗｎ．Ｂｙ　ｄｅｆｅａｔｉｎｇ　Ｈｅｌ，　ｙｏｕ　ｓａｖｅ"TCC_NEWLINE"　ｙｏｕｒｗｏｒｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｍｙ　ｗｏｒｌｄ　ｈａｓ　ａｌｒｅａｄｙ　ｂｅｅｎー"TCC_NEWLINE"ｄｅｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｇｏａｌ　ｉｓ　ｔｈｅ　ｓａｍｅ　ａｓ　ｙｏｕｒ　ｏー"TCC_NEWLINE"ｗｎ．　Ｂｙ　ｄｅｆｅａｔｉｎｇ　Ｈｅｌ，　ｙｏｕ　ｓａｖー"TCC_NEWLINE"ｅ　ｙｏｕｒ　ｗｏｒｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｍｙ　ｗｏｒｌｄ　ｈａｓ　ａｌｒｅａｄｙ　ｂｅｅｎ"TCC_NEWLINE"　ｄｅｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｏ，　ｔｈｅｎ，　ｃａｎ　ｓａｖｅ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｅ　ａｎｓｗｅｒ　ｉｓ　ｎｏ　ｏｎｅ．　Ａｍ　Ｉ　ｗｒー"TCC_NEWLINE"ｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｉｓ　ｗｈｙ　Ａｌｆｏｎｓｅ　ａｎｄ　Ｉ　ｈａｖー"TCC_NEWLINE"ｅｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｋｉｌｌ　ｙｏｕ　ａｌー"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｄｅｓｔｒｏｙ　ｙｏｕｒ　ｗｏｒｌｄ，　Ｈｅｌ"TCC_NEWLINE"　ｗｉｌｌｒｅｔｕｒｎ　ｏｕｒｓ　ｔｏ　ｔｈｅ　ｗａｙ　ｉー"TCC_NEWLINE"ｔ　ｗａｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｉｓ　ａ　ｆｉｇｈｔ　ｔｏ　ｔｈｅ　ｄｅａｔｈｆー"TCC_NEWLINE"ｏｒ　ａｌｌｏｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｗｈｙ　Ａｌｆｏｎｓｅ　ａｎｄ　Ｉ　ｈａｖー"TCC_NEWLINE"ｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｋｉｌｌ　ｙｏｕ　ａー"TCC_NEWLINE"ｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｄｅｓｔｒｏｙ　ｙｏｕｒ　ｗｏｒｌｄ，　Ｈｅｌ"TCC_NEWLINE"　ｗｉｌｌ　ｒｅｔｕｒｎ　ｏｕｒｓ　ｔｏ　ｔｈｅ　ｗａｙ　"TCC_NEWLINE"ｉｔ　ｗａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ａ　ｆｉｇｈｔ　ｔｏ　ｔｈｅ　ｄｅａｔｈｆー"TCC_NEWLINE"ｏｒ　ａｌｌ　ｏｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_THRASIR
 "Ｂｒｏｔｈｅｒ．．．　Ｉ　ｈａｖｅ　ｆａｉｌｅｄ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
@@ -58,5 +58,5 @@ TCC_OPEN_RIGHT
 "Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｆｅｅｌ　ｎｏ　ｃｏｍｐａｓｓｉｏｎ　ｆｏｒ　ｙｏｕ　"TCC_NEWLINE"ａｔ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｎｌｙ　ｏｎｅ　ｏｆ　ｕｓ　ｃｏｕｌｄ　ｌｉｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｐｒｏｍｉｓｅ　ｙｏｕ　ｔｈｉｓ，　ｔｈｏｕー"TCC_NEWLINE"ｇｈ：　Ｉ　ｗｉｌｌｋｉｌｌ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｐｒｏｍｉｓｅ　ｙｏｕ　ｔｈｉｓ，　ｔｈｏｕー"TCC_NEWLINE"ｇｈ：　Ｉ　ｗｉｌｌ　ｋｉｌｌ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

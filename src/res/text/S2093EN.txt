@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2093_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｓｏｒｒｙ．　Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｈｅｒｅ"TCC_NEWLINE"．　Ｇｉｒｄｙｏｕｒｓｅｌｖｅｓ　ａｇａｉｎｓｔ　ｔｈｅ　"TCC_NEWLINE"ｍａｇｉｃ　ｏｆ　ｔｈｅＧｏｄｄｅｓｓ　ｏｆ　Ｔｈｕｎｄｅー"TCC_NEWLINE"ｒ，　Ｉｓｈｔａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｏｒｒｙ．　Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｈｅｒｅ"TCC_NEWLINE"．　Ｇｉｒｄ　ｙｏｕｒｓｅｌｖｅｓ　ａｇａｉｎｓｔ　ｔｈｅ"TCC_NEWLINE"　ｍａｇｉｃ　ｏｆ　ｔｈｅ　Ｇｏｄｄｅｓｓ　ｏｆ　Ｔｈｕｎー"TCC_NEWLINE"ｄｅｒ，　Ｉｓｈｔａｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

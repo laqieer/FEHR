@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3124_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｃａｔｒｉａ．　Ｉ’ｍ　ｌｏｏｋｉｎｇ　ｆｏｒ　"TCC_NEWLINE"ｍｙｓｉｓｔｅｒ．　Ｈａｖｅ　ｙｏｕ　ｓｅｅｎ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｃａｔｒｉａ．　Ｉ’ｍ　ｌｏｏｋｉｎｇ　ｆｏｒ　"TCC_NEWLINE"ｍｙ　ｓｉｓｔｅｒ．　Ｈａｖｅ　ｙｏｕ　ｓｅｅｎ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -3,105 +3,105 @@
 [MID_SCENARIO_MAP_BEGIN_S2135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｗｅ　ｈａｖｅ　ｃｏｍｅ　ｆｏｒ　ｙｏｕ，　Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｈａｈ－ｈａｈ－ｈａｈ！　Ｔｈｅ　ｓｔｒａｙ　ｐｕｐｓ　ｈー"TCC_NEWLINE"ａｖｅｗａｎｄｅｒｅｄ　ｍｙ　ｗａｙ　ａｔ　ｌａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｈ－ｈａｈ－ｈａｈ！　Ｔｈｅ　ｓｔｒａｙ　ｐｕｐｓ　ｈー"TCC_NEWLINE"ａｖｅ　ｗａｎｄｅｒｅｄ　ｍｙ　ｗａｙ　ａｔ　ｌａｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｓｕｒｔｒ，　ｋｉｎｇ　ｏｆ　Ｍｓｐｅｌｌ．．．　Ｙｏｕ　"TCC_NEWLINE"ｉｎｖａｄｅｄＮｉｆｌ　ａｎｄ　Ａｓｋｒ　ａｎｄ　ｓｔｏｌー"TCC_NEWLINE"ｅ　ｔｈｅ　ｌｉｖｅｓ　ｏｆｉｎｎｏｃｅｎｔｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｐｒｉｎｃｅ　ｏｆ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄー"TCC_NEWLINE"ｏｍ　ａｎｄａｓ　ａ　ｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅー"TCC_NEWLINE"ｒ　ｏｆＨｅｒｏｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｔｒ，　ｋｉｎｇ　ｏｆ　Ｍｓｐｅｌｌ．．．　Ｙｏｕ　"TCC_NEWLINE"ｉｎｖａｄｅｄ　Ｎｉｆｌ　ａｎｄ　Ａｓｋｒ　ａｎｄ　ｓｔｏー"TCC_NEWLINE"ｌｅ　ｔｈｅ　ｌｉｖｅｓ　ｏｆ　ｉｎｎｏｃｅｎｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｐｒｉｎｃｅ　ｏｆ　ｔｈｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄー"TCC_NEWLINE"ｏｍ　ａｎｄ　ａｓ　ａ　ｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄー"TCC_NEWLINE"ｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｒｅ　ａｎｄ　ｎｏｗ，　Ｉ　ｗｉｌｌ　ｓｔｒｉｋｅ　ｙー"TCC_NEWLINE"ｏｕ　ｄｏｗｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅｌｌ，　ｗｅｌｌ！　Ｃｏｍｅ　ａｎｄ　ｃｈａｌｌｅｎｇー"TCC_NEWLINE"ｅ　ｍｅ，ｆｏｒ　ｔｈｅｒｅ　ｃａｎ　ｂｅ　ｏｎｌｙ　ｏｎー"TCC_NEWLINE"ｅ　ｋｉｎｇ．　Ｉ　ｗｉｌｌｓｅａｒ　ｔｈａｔ　ｌｅｓｓｏー"TCC_NEWLINE"ｎ　ｉｎｔｏ　ｙｏｕｒ　ｔｅｎｄｅｒ　ｓｋｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｗｅｌｌ！　Ｃｏｍｅ　ａｎｄ　ｃｈａｌｌｅｎｇー"TCC_NEWLINE"ｅ　ｍｅ，　ｆｏｒ　ｔｈｅｒｅ　ｃａｎ　ｂｅ　ｏｎｌｙ　ｏー"TCC_NEWLINE"ｎｅ　ｋｉｎｇ．　Ｉ　ｗｉｌｌ　ｓｅａｒ　ｔｈａｔ　ｌｅｓー"TCC_NEWLINE"ｓｏｎ　ｉｎｔｏ　ｙｏｕｒ　ｔｅｎｄｅｒ　ｓｋｉｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｏｕ　ａｒｅ　ｎｏ　ｋｉｎｇ！　Ａ　ｒｕｌｅｒ　ｗｉｔｈ"TCC_NEWLINE"　ｎｏｃｏｎｃｅｒｎ　ｆｏｒ　ｈｉｓ　ｐｅｏｐｌｅ　ｉｓ　"TCC_NEWLINE"ｎｏ　ｒｕｌｅｒａｔ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ａｒｅ　ｂｕｔ　ａ　ｔｙｒａｎｔ．　Ａｎｄ　ｔｈｅー"TCC_NEWLINE"ｒｅ　ｉｓｎｏｔｈｉｎｇ　ｌｅｆｔ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｎｏ　ｋｉｎｇ！　Ａ　ｒｕｌｅｒ　ｗｉｔｈ"TCC_NEWLINE"　ｎｏ　ｃｏｎｃｅｒｎ　ｆｏｒ　ｈｉｓ　ｐｅｏｐｌｅ　ｉｓ"TCC_NEWLINE"　ｎｏ　ｒｕｌｅｒ　ａｔ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｂｕｔ　ａ　ｔｙｒａｎｔ．　Ａｎｄ　ｔｈｅー"TCC_NEWLINE"ｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　ｌｅｆｔ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈａｈ－ｈａｈ－ｈａｈ！　Ｙｏｕ’ｒｅ　ａｎ　ａｍｕｓｉｎー"TCC_NEWLINE"ｇｃｈｉｌｄ，　Ｉ　ｗｉｌｌ　ｇｒａｎｔ　ｙｏｕ　ｔｈａｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ａ　ｋｉｎｇ　ｉｓ　ａ　ｔｙｒａｎｔ．　Ｍｙ　ｗｈｉｍ　ｉー"TCC_NEWLINE"ｓ　ｌａｗ！Ａｌｌ　ｌｉｖｅ　ａｔ　ｍｙ　ｐｌｅａｓｕｒｅ"TCC_NEWLINE"，　ａｎｄ　ｅｘｅｒｃｉｓｉｎｇｍｙ　ｐｌｅａｓｕｒｅ　ｉー"TCC_NEWLINE"ｓ　ｗｈａｔ　ｍａｋｅｓ　ｍｅ　ａ　ｋｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｈ－ｈａｈ－ｈａｈ！　Ｙｏｕ’ｒｅ　ａｎ　ａｍｕｓｉｎー"TCC_NEWLINE"ｇ　ｃｈｉｌｄ，　Ｉ　ｗｉｌｌ　ｇｒａｎｔ　ｙｏｕ　ｔｈａー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｋｉｎｇ　ｉｓ　ａ　ｔｙｒａｎｔ．　Ｍｙ　ｗｈｉｍ　ｉー"TCC_NEWLINE"ｓ　ｌａｗ！　Ａｌｌ　ｌｉｖｅ　ａｔ　ｍｙ　ｐｌｅａｓｕｒー"TCC_NEWLINE"ｅ，　ａｎｄ　ｅｘｅｒｃｉｓｉｎｇ　ｍｙ　ｐｌｅａｓｕｒｅ"TCC_NEWLINE"　ｉｓ　ｗｈａｔ　ｍａｋｅｓ　ｍｅ　ａ　ｋｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｂｕｔ　ｂｙ　ｔｈａｔ　ｓｔａｎｄａｒｄ，　ｙｏｕ　ａｒｅ"TCC_NEWLINE"　ｎｏ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｗｉｌｌ　ｎｏ　ｌｏｎｇｅｒ　ｂｅ　ａｂｌｅ　ｔｏ"TCC_NEWLINE"　ｒｕｌｅ　ｂｙｗｈｉｍ，　ａｓ　ｙｏｕ　ｃｌａｉｍ　ｉｓ"TCC_NEWLINE"　ｙｏｕｒ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｗｉｌｌ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｙｏｕｒ　ｒｕー"TCC_NEWLINE"ｌｅ．　Ｗｅｗｉｌｌ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｙｏｕｒ"TCC_NEWLINE"　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｌｌ　ｎｏ　ｌｏｎｇｅｒ　ｂｅ　ａｂｌｅ　ｔｏ"TCC_NEWLINE"　ｒｕｌｅ　ｂｙ　ｗｈｉｍ，　ａｓ　ｙｏｕ　ｃｌａｉｍ　ｉー"TCC_NEWLINE"ｓ　ｙｏｕｒ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｉｌｌ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｙｏｕｒ　ｒｕー"TCC_NEWLINE"ｌｅ．　Ｗｅ　ｗｉｌｌ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｙｏｕー"TCC_NEWLINE"ｒ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"ＨＡＨ－ＨＡＨ－ＨＡＨ！　Ｗｅｌｌ　ｓｐｏｋｅｎ，　ｃｈｉー"TCC_NEWLINE"ｌｄｏｆ　ｉｃｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｄａｒｋ　ｆｌａｍｅ　ｏｆ　ｖｅｎｇｅａｎｃｅ　ｈー"TCC_NEWLINE"ａｓｂｕｒｎｅｄ　ａｗａｙ　ｙｏｕｒ　ｗｅａｋｎｅｓｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ．．．ｉｓ　ｗｈａｔ　Ｉ　ｌｉｋｅ　ｔｏ　ｓｅｅ！"TCC_NEWLINE"　Ｔｈｒｏｕｇｈｔｏｒｍｅｎｔ，　Ｉ　ｈａｖｅ　ｔｒａｎｓー"TCC_NEWLINE"ｆｏｒｍｅｄ　ｙｏｕｒ　ｉｃｅｔｏ　ｆｌａｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"ＨＡＨ－ＨＡＨ－ＨＡＨ！　Ｗｅｌｌ　ｓｐｏｋｅｎ，　ｃｈｉー"TCC_NEWLINE"ｌｄ　ｏｆ　ｉｃｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｄａｒｋ　ｆｌａｍｅ　ｏｆ　ｖｅｎｇｅａｎｃｅ　ｈー"TCC_NEWLINE"ａｓ　ｂｕｒｎｅｄ　ａｗａｙ　ｙｏｕｒ　ｗｅａｋｎｅｓｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ．．．ｉｓ　ｗｈａｔ　Ｉ　ｌｉｋｅ　ｔｏ　ｓｅｅ！"TCC_NEWLINE"　Ｔｈｒｏｕｇｈ　ｔｏｒｍｅｎｔ，　Ｉ　ｈａｖｅ　ｔｒａｎー"TCC_NEWLINE"ｓｆｏｒｍｅｄ　ｙｏｕｒ　ｉｃｅ　ｔｏ　ｆｌａｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ　ｎｏｎｓｅｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　ｌｅｆｔ　ｔｏ　ｓａｙ．"TCC_NEWLINE"　Ｔｈｅｆｌａｍｅｓ　ｉｎｓｉｄｅ　ｍｅ　ｒａｇｅ，　ｒｅー"TCC_NEWLINE"ａｄｙ　ｔｏｅｒｕｐｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｔ　ｕｓ　ｆｉｇｈｔｔｏ　ｔｈｅ　ｄｅａｔｈ！Ｈａｈ－"TCC_NEWLINE"ｈａｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　ｌｅｆｔ　ｔｏ　ｓａｙ．"TCC_NEWLINE"　Ｔｈｅ　ｆｌａｍｅｓ　ｉｎｓｉｄｅ　ｍｅ　ｒａｇｅ，　ｒー"TCC_NEWLINE"ｅａｄｙ　ｔｏ　ｅｒｕｐｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｕｓ　ｆｉｇｈｔｔｏ　ｔｈｅ　ｄｅａｔｈ！　Ｈａｈ"TCC_NEWLINE"－ｈａｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｇｅｈ．．．ｅｈｈ．．．ｅｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｍｐｏｓｓｉｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓ　ｍｙ　ｗｉｌｌ．．．ｔｈａｔ　ｙｏｕ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｄｉｅ．Ａｎｄ　ｙｅｔ．．．　Ｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ｍｙ　ｗｉｌｌ．．．ｔｈａｔ　ｙｏｕ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｄｉｅ．　Ａｎｄ　ｙｅｔ．．．　Ｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｈｏｗ？　Ｉ　ｗｉｌｌ　ｔｅｌｌ　ｙｏｕ，　Ｓｕｒｔｒ．　"TCC_NEWLINE"Ｙｏｕ　ａｒｅｗｅａｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ？　Ｉ　ｗｉｌｌ　ｔｅｌｌ　ｙｏｕ，　Ｓｕｒｔｒ．　"TCC_NEWLINE"Ｙｏｕ　ａｒｅ　ｗｅａｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｄａｒｅ？　Ｙｏｕ　ａｒｅ　ｎｏｔ　ｍｙ　ｅｑｕａー"TCC_NEWLINE"ｌｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ　ｈａｖｅ　ｔａｋｅｎ　ｗｈａｔ　ｉｓ　ｉｍｐｏｒｔー"TCC_NEWLINE"ａｎｔ　ｔｏｕｓ．　Ｙｏｕ　ｈａｖｅ　ｔａｋｅｎ　ｓｏ　ｍー"TCC_NEWLINE"ｕｃｈ　ｍｏｒｅｔｈａｎ　ｙｏｕ　ｃｏｕｌｄ　ｅｖｅｒ　ａー"TCC_NEWLINE"ｎｓｗｅｒ　ｆｏｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｎｏｗ，　ｗｅ　ｗｉｌｌ　ｔａｋｅ　ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇｆｒｏｍ　ｙｏｕ．　Ｅｖｅｒｙ　ｌａｓｔ　ｂｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｔａｋｅｎ　ｗｈａｔ　ｉｓ　ｉｍｐｏｒｔー"TCC_NEWLINE"ａｎｔ　ｔｏ　ｕｓ．　Ｙｏｕ　ｈａｖｅ　ｔａｋｅｎ　ｓｏ　"TCC_NEWLINE"ｍｕｃｈ　ｍｏｒｅ　ｔｈａｎ　ｙｏｕ　ｃｏｕｌｄ　ｅｖｅｒ"TCC_NEWLINE"　ａｎｓｗｅｒ　ｆｏｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ，　ｗｅ　ｗｉｌｌ　ｔａｋｅ　ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇ　ｆｒｏｍ　ｙｏｕ．　Ｅｖｅｒｙ　ｌａｓｔ　ｂｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｇｒａａａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
 "Ｅｈｈ．．．ｇｒｒｒｈ．．．"TCC_NEWLINE TCC_PUSH_A
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｍｏｔｈｅｒ．．．　Ｓｉｓｔｅｒ．．．　Ｆｉｎａｌｌｙ．　"TCC_NEWLINE"Ｆｉｎａｌｌｙ，　ｉｔｉｓ　ｄｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｔｈｅｒ．．．　Ｓｉｓｔｅｒ．．．　Ｆｉｎａｌｌｙ．　"TCC_NEWLINE"Ｆｉｎａｌｌｙ，　ｉｔ　ｉｓ　ｄｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｙｅｓ．　Ｉｔ　ｉｓ　ｔｒｕｌｙ　ｆｉｎｉｓｈｅｄ　ｔｈｉー"TCC_NEWLINE"ｓ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ　ｈａｖｅ　ｃａｒｒｉｅｄ　ｏｕｔ　ｏｕｒ　ｄｕｔｙ　"TCC_NEWLINE"ａｔｌｏｎｇ　ｌａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｃａｒｒｉｅｄ　ｏｕｔ　ｏｕｒ　ｄｕｔｙ　"TCC_NEWLINE"ａｔ　ｌｏｎｇ　ｌａｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｅ　ｍｕｓｔ　ｌｅｔ　ｅｖｅｒｙｏｎｅ　ｋｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｅｓ．　Ｌｅｔ　ｕｓ　ｈｅａｄ　ｈｏｍｅ．　Ｂａｃｋ　ｔー"TCC_NEWLINE"ｏＡｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｌｅｔ　ｕｓ　ｈｅａｄ　ｈｏｍｅ．　Ｂａｃｋ　ｔー"TCC_NEWLINE"ｏ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｂｒｏｔｈｅｒ．．．　Ｉ　ａｍ　ｇｒａｔｅｆｕｌ　ｆｏｒ　"TCC_NEWLINE"ｙｏｕｒ　ａｉｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HRID
 "Ｗｈａｔ　ｎｅｘｔ　ｆｏｒ　ｙｏｕ，　ｍｙ　ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_YLGR
-"Ｆｊｏｒｍ．．．ｐｌｅａｓｅ　ｄｏｎ’ｔ　ｓａｙ　ｔｈａｔ"TCC_NEWLINE"　ｙｏｕ’ｒｅｌｅａｖｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗａｎｔ　ｔｏ　ｃｒｙ．．．　Ｗｅ　ｆｉｎａｌｌｙ　ｆー"TCC_NEWLINE"ｏｕｎｄ　ｅａｃｈｏｔｈｅｒ！　Ｗｅ　ｃａｎ　ｌｉｖｅ　ｔー"TCC_NEWLINE"ｏｇｅｔｈｅｒ　ｉｎ　Ｎｉｆｌａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｊｏｒｍ．．．ｐｌｅａｓｅ　ｄｏｎ’ｔ　ｓａｙ　ｔｈａｔ"TCC_NEWLINE"　ｙｏｕ’ｒｅ　ｌｅａｖｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｔｏ　ｃｒｙ．．．　Ｗｅ　ｆｉｎａｌｌｙ　ｆー"TCC_NEWLINE"ｏｕｎｄ　ｅａｃｈ　ｏｔｈｅｒ！　Ｗｅ　ｃａｎ　ｌｉｖｅ　"TCC_NEWLINE"ｔｏｇｅｔｈｅｒ　ｉｎ　Ｎｉｆｌ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ，　Ｙｌｇｒ．　Ｉ’ｍ　ｓｏｒｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ’ｓ　ａ　ｄｅｂｔ　ｔｈａｔ　Ｉ　ｏｗｅ　ｂｕｔ"TCC_NEWLINE"　ｃａｎ’ｔｐｏｓｓｉｂｌｙ　ｒｅｐａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ａ　ｄｅｂｔ　ｔｈａｔ　Ｉ　ｏｗｅ　ｂｕｔ"TCC_NEWLINE"　ｃａｎ’ｔ　ｐｏｓｓｉｂｌｙ　ｒｅｐａｙ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａ　ｄｅｂｔ　ｔｏ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ａｎｄ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｋｎｏｗ　ｉｔ’ｓ　ｓｅｌｆｉｓｈ　ｏｆ　ｍｅ　ｔｏ　"TCC_NEWLINE"ｌｅａｖｅ．．．　ＢｕｔＩ　ｗａｎｔ　ｔｏ　ｒｅｐａｙ　ｔー"TCC_NEWLINE"ｈｅ　Ｏｒｄｅｒ　ｆｏｒ　ａｌｌｔｈｅｙ’ｖｅ　ｄｏｎｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｉｔ’ｓ　ｓｅｌｆｉｓｈ　ｏｆ　ｍｅ　ｔｏ　"TCC_NEWLINE"ｌｅａｖｅ．．．　Ｂｕｔ　Ｉ　ｗａｎｔ　ｔｏ　ｒｅｐａｙ　"TCC_NEWLINE"ｔｈｅ　Ｏｒｄｅｒ　ｆｏｒ　ａｌｌ　ｔｈｅｙ’ｖｅ　ｄｏｎー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｒｄ，　Ｉ　ｌｅａｖｅ　Ｎｉｆｌ　ｉｎ　ｙｏｕｒ　ｈａｎー"TCC_NEWLINE"ｄｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｋｎｏｗ　ｙｏｕ　ｗｉｌｌ　ｍａｋｅ　ａ　ｇｒｅａｔ　"TCC_NEWLINE"ｋｉｎｇ．Ａｎｄ　ｓｏｍｅｄａｙ，　ｙｏｕ　ｗｉｌｌ　ｆｏー"TCC_NEWLINE"ｒｇｅ　ａ　ｐｅａｃｅｗｉｔｈ　Ｌａｅｖａｔｅｉｎ’ｓ　Ｍー"TCC_NEWLINE"ｓｐｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｙｏｕ　ｗｉｌｌ　ｍａｋｅ　ａ　ｇｒｅａｔ　"TCC_NEWLINE"ｋｉｎｇ．　Ａｎｄ　ｓｏｍｅｄａｙ，　ｙｏｕ　ｗｉｌｌ　ｆー"TCC_NEWLINE"ｏｒｇｅ　ａ　ｐｅａｃｅ　ｗｉｔｈ　Ｌａｅｖａｔｅｉｎ’ｓ"TCC_NEWLINE"　Ｍｓｐｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 "＊ＣＯＵＧＨ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈａｖｅ　ｙｏｕ　ｔｏｌｄ　ｔｈｅｍ，　Ｆｊｏｒｍ？　Ｔｈー"TCC_NEWLINE"ａｔ　ｙｏｕａｒｅ　ａ　ｓａｃｒｉｆｉｃｅ　ｔｏ　ｔｈｅ　"TCC_NEWLINE"Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｖｅ　ｙｏｕ　ｔｏｌｄ　ｔｈｅｍ，　Ｆｊｏｒｍ？　Ｔｈー"TCC_NEWLINE"ａｔ　ｙｏｕ　ａｒｅ　ａ　ｓａｃｒｉｆｉｃｅ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｌｉｋｅ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅ，　ｔｈｅ　Ｒー"TCC_NEWLINE"ｉｔｅ　ｏｆＦｒｏｓｔ　ｃｏｍｅｓ　ａｔ　ｔｈｅ　ｃｏｓｔ"TCC_NEWLINE"　ｏｆ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｋｅ　ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅ，　ｔｈｅ　Ｒー"TCC_NEWLINE"ｉｔｅ　ｏｆ　Ｆｒｏｓｔ　ｃｏｍｅｓ　ａｔ　ｔｈｅ　ｃｏｓー"TCC_NEWLINE"ｔ　ｏｆ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｏｔｈｅｒ　ａｎｄ　Ｇｕｎｎｔｈｒ　ｂｏｔｈ．．．　Ｔｈー"TCC_NEWLINE"ｅｙｓａｃｒｉｆｉｃｅｄ　ｔｈｅｍｓｅｌｖｅｓ　ｔｏ　ｓａー"TCC_NEWLINE"ｖｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｔｈａｎｋｓ　ｔｏ　Ｇｕｎｎｔｈｒ　ｔｈａｔ　"TCC_NEWLINE"Ｉ　ｓｔｉｌｌｌｉｖｅ，　ｍｏｓｔ　ｌｉｋｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｎｏｗ　ｔｈａｔ　ｉｔ　ｉｓ　ｍｙ　ｔｕｒｎ．．．"TCC_NEWLINE"　Ｎｏｔｈｉｎｇｗｏｕｌｄ　ｍａｋｅ　ｍｅ　ｈａｐｐｉｅｒ"TCC_NEWLINE"　ｔｈａｎ　ｔｏ　ａｉｄ"TCC_NEWLINE
+"Ｍｏｔｈｅｒ　ａｎｄ　Ｇｕｎｎｔｈｒ　ｂｏｔｈ．．．　Ｔｈー"TCC_NEWLINE"ｅｙ　ｓａｃｒｉｆｉｃｅｄ　ｔｈｅｍｓｅｌｖｅｓ　ｔｏ　ｓー"TCC_NEWLINE"ａｖｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｈａｎｋｓ　ｔｏ　Ｇｕｎｎｔｈｒ　ｔｈａｔ　"TCC_NEWLINE"Ｉ　ｓｔｉｌｌ　ｌｉｖｅ，　ｍｏｓｔ　ｌｉｋｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ　ｔｈａｔ　ｉｔ　ｉｓ　ｍｙ　ｔｕｒｎ．．．"TCC_NEWLINE"　Ｎｏｔｈｉｎｇ　ｗｏｕｌｄ　ｍａｋｅ　ｍｅ　ｈａｐｐｉｅー"TCC_NEWLINE"ｒ　ｔｈａｎ　ｔｏ　ａｉｄ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｈｏｗ　ｍｕｃｈ　ｌｏｎｇｅｒ　"TCC_NEWLINE"Ｉ　ｗｉｌｌｌｉｖｅ．　Ａｎｄ　ｓｏ　Ｉ　ｗｉｌｌ　ｔｒｅー"TCC_NEWLINE"ａｓｕｒｅ　ｅａｃｈｍｏｍｅｎｔ　Ｉ　ｈａｖｅ　ｌｅｆｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｈｏｗ　ｍｕｃｈ　ｌｏｎｇｅｒ　"TCC_NEWLINE"Ｉ　ｗｉｌｌ　ｌｉｖｅ．　Ａｎｄ　ｓｏ　Ｉ　ｗｉｌｌ　ｔｒー"TCC_NEWLINE"ｅａｓｕｒｅ　ｅａｃｈ　ｍｏｍｅｎｔ　Ｉ　ｈａｖｅ　ｌｅｆー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ　ｉｓ　ｎｏｔ　ｌｏｎｇ，　Ｉ　ｆｅａｒ．　Ｉｔ　ｐａー"TCC_NEWLINE"ｉｎｓ　ｍｅ　ｔｏ　ｓａｙｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｎｏｔ　ｌｏｎｇ，　Ｉ　ｆｅａｒ．　Ｉｔ　ｐａー"TCC_NEWLINE"ｉｎｓ　ｍｅ　ｔｏ　ｓａｙ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ，　Ｈｒｄ．　Ｉ　ｋｎｏｗ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｓｔｒａｎｇｅ．　Ｉ　ｈａｄ　ａｌｗａｙｓ　ｂー"TCC_NEWLINE"ｅｅｎ　ｓｏｒｅｓｏｌｕｔｅ．　Ｋｎｏｗｉｎｇ　Ｓｕｒｔｒ"TCC_NEWLINE"　ｈａｄ　ｂｅｅｎｄｅｓｔｒｏｙｅｄ，　Ｉ　ｃｏｕｌｄ　ｄー"TCC_NEWLINE"ｉｅ　ｉｎ　ｐｅａｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｍｙ　ｅｘｐｅｒｉｅｎｃｅｓ　ｗｉｔｈ　ｔｈｅ　Ｏー"TCC_NEWLINE"ｒｄｅｒｓｈｏｏｋ　ｍｅ　ｔｏ　ｍｙ　ｖｅｒｙ　ｃｏｒｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ｉｆ　ｉｔ’ｓ　ｆｏｒ　ｊｕｓｔ　ａ　ｌｉｔｔｌー"TCC_NEWLINE"ｅ　ｂｉｔ　ｌｏｎｇｅｒ．．．Ｉ　ｗａｎｔ　ｔｏ　ｓｔａｙ"TCC_NEWLINE"　ｗｉｔｈ　ｔｈｅｍ．　Ｏｈ，"TCC_NEWLINE
+"Ｉｔ　ｉｓ　ｓｔｒａｎｇｅ．　Ｉ　ｈａｄ　ａｌｗａｙｓ　ｂー"TCC_NEWLINE"ｅｅｎ　ｓｏ　ｒｅｓｏｌｕｔｅ．　Ｋｎｏｗｉｎｇ　Ｓｕｒｔー"TCC_NEWLINE"ｒ　ｈａｄ　ｂｅｅｎ　ｄｅｓｔｒｏｙｅｄ，　Ｉ　ｃｏｕｌｄ"TCC_NEWLINE"　ｄｉｅ　ｉｎ　ｐｅａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｍｙ　ｅｘｐｅｒｉｅｎｃｅｓ　ｗｉｔｈ　ｔｈｅ　Ｏー"TCC_NEWLINE"ｒｄｅｒ　ｓｈｏｏｋ　ｍｅ　ｔｏ　ｍｙ　ｖｅｒｙ　ｃｏｒｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｉｆ　ｉｔ’ｓ　ｆｏｒ　ｊｕｓｔ　ａ　ｌｉｔｔｌー"TCC_NEWLINE"ｅ　ｂｉｔ　ｌｏｎｇｅｒ．．．　Ｉ　ｗａｎｔ　ｔｏ　ｓｔａー"TCC_NEWLINE"ｙ　ｗｉｔｈ　ｔｈｅｍ．　Ｏｈ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｆｅｅｌｉｎｇｓ，　Ｓー"TCC_NEWLINE"ｉｓｔｅｒ．　Ｂｙａｌｌ　ｍｅａｎｓ，　ｇｏ．　Ｉ　ｗｉｌー"TCC_NEWLINE"ｌ　ｐｒａｙ　ｆｏｒ　ｙｏｕｒｓａｆｅｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｆｅｅｌｉｎｇｓ，　Ｓー"TCC_NEWLINE"ｉｓｔｅｒ．　Ｂｙ　ａｌｌ　ｍｅａｎｓ，　ｇｏ．　Ｉ　ｗｉー"TCC_NEWLINE"ｌｌ　ｐｒａｙ　ｆｏｒ　ｙｏｕｒ　ｓａｆｅｔｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈａｎｋ　ｙｏｕ，　Ｈｒｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｔｉｍｅ　ｔｏ　ｇｏ．　Ｉ　ｍｕｓｔ　ｈｅａｄ"TCC_NEWLINE"　ｔｏ　Ａｓｋｒａｔ"TCC_NEWLINE
+"Ｉｔ　ｉｓ　ｔｉｍｅ　ｔｏ　ｇｏ．　Ｉ　ｍｕｓｔ　ｈｅａｄ"TCC_NEWLINE"　ｔｏ　Ａｓｋｒ　ａｔ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"’ｓ　ｓｉｄｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -3,24 +3,24 @@
 [MID_SCENARIO_MAP_BEGIN_S2025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｉ　ｓｅｅ　ｓｏｍｅｔｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SURTR
-"Ａｈ，　ｓｏｍｅ　ｆｒｅｓｈ　ｆａｃｅｓ．　Ｇｏｏｄ．　Ｉ"TCC_NEWLINE"　ｗａｓｇｒｏｗｉｎｇ　ｂｏｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｓｅ　ｗｈｏ　ｓｈｒｉｎｋ　ｆｒｏｍ　ｔｈｅ　ｆｌａー"TCC_NEWLINE"ｍｅｓ．．．Ｔｈｏｓｅ　ｗｈｏ，　ｗｈｅｎ　ｃｏｎｆｒｏｎー"TCC_NEWLINE"ｔｅｄ　ｂｙ　ｔｒｕｅｐｏｗｅｒ，　ｈａｖｅ　ｎｏ　ｃｈｏー"TCC_NEWLINE"ｉｃｅ　ｂｕｔ　ｔｏ　ｂｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｉｓｔｅｎ　ｔｏ　ｍｅ　ｎｏｗ．　Ｉ　ａｍ　Ｓｕｒｔｒ．"TCC_NEWLINE"　Ｉ　ａｍｙｏｕｒ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ，　ｓｏｍｅ　ｆｒｅｓｈ　ｆａｃｅｓ．　Ｇｏｏｄ．　Ｉ"TCC_NEWLINE"　ｗａｓ　ｇｒｏｗｉｎｇ　ｂｏｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｗｈｏ　ｓｈｒｉｎｋ　ｆｒｏｍ　ｔｈｅ　ｆｌａー"TCC_NEWLINE"ｍｅｓ．．．　Ｔｈｏｓｅ　ｗｈｏ，　ｗｈｅｎ　ｃｏｎｆｒｏー"TCC_NEWLINE"ｎｔｅｄ　ｂｙ　ｔｒｕｅ　ｐｏｗｅｒ，　ｈａｖｅ　ｎｏ　ｃー"TCC_NEWLINE"ｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｂｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｓｔｅｎ　ｔｏ　ｍｅ　ｎｏｗ．　Ｉ　ａｍ　Ｓｕｒｔｒ．"TCC_NEWLINE"　Ｉ　ａｍ　ｙｏｕｒ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｋｉｎｇ　Ｓｕｒｔｒ　ｏｆ　Ｍｓｐｅｌｌ，　Ｉ　ａｍ　Ｐｒー"TCC_NEWLINE"ｉｎｃｅＡｌｆｏｎｓｅ　ｏｆ　Ａｓｋｒ．　Ｅｘｐｌａｉｎ　"TCC_NEWLINE"ｔｏ　ｍｅ．．．ｗｈａｔｇｉｖｅｓ　ｙｏｕ　ｔｈｅ　ｒｉｇー"TCC_NEWLINE"ｈｔ　ｔｏ　ｄｏ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｋｉｎｇ　Ｓｕｒｔｒ　ｏｆ　Ｍｓｐｅｌｌ，　Ｉ　ａｍ　Ｐｒー"TCC_NEWLINE"ｉｎｃｅ　Ａｌｆｏｎｓｅ　ｏｆ　Ａｓｋｒ．　Ｅｘｐｌａｉｎ"TCC_NEWLINE"　ｔｏ　ｍｅ．．．ｗｈａｔ　ｇｉｖｅｓ　ｙｏｕ　ｔｈｅ　ｒー"TCC_NEWLINE"ｉｇｈｔ　ｔｏ　ｄｏ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｅｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｔ’ｓ　ｎｏ　ｊｏｋｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｅｐｉｄ．．．ａｎｄ　ｄｕｌｌ．　Ｓａｖｅ　ｙｏｕｒ　ｗー"TCC_NEWLINE"ｏｒｄｓ．　Ａｔｒｕｅ　ｒｕｌｅｒ　ｓｅｉｚｅｓ　ｏｔｈｅー"TCC_NEWLINE"ｒ　ｌａｎｄｓ．　Ｈｅ　ｐｕｔｓｔｈｅｉｒ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　ｆｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ｏｎｅ　ｋｉｎｇ．　Ｔｈｅｒｅ"TCC_NEWLINE"　ｉｓ　ｏｎｌｙｏｎｅ　ｋｉｎｇｄｏｍ．　Ａｌｌ　ｅｌｓｅ"TCC_NEWLINE"　ｗｉｌｌ　ｂｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｅｐｉｄ．．．ａｎｄ　ｄｕｌｌ．　Ｓａｖｅ　ｙｏｕｒ　ｗー"TCC_NEWLINE"ｏｒｄｓ．　Ａ　ｔｒｕｅ　ｒｕｌｅｒ　ｓｅｉｚｅｓ　ｏｔｈー"TCC_NEWLINE"ｅｒ　ｌａｎｄｓ．　Ｈｅ　ｐｕｔｓ　ｔｈｅｉｒ　ｐｅｏｐｌー"TCC_NEWLINE"ｅ　ｔｏ　ｔｈｅ　ｆｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ｏｎｅ　ｋｉｎｇ．　Ｔｈｅｒｅ"TCC_NEWLINE"　ｉｓ　ｏｎｌｙ　ｏｎｅ　ｋｉｎｇｄｏｍ．　Ａｌｌ　ｅｌｓー"TCC_NEWLINE"ｅ　ｗｉｌｌ　ｂｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｓ　ｔｈａｔ　ｙｏｕｒ　ａｎｓｗｅｒ？　Ｗｅｌｌ，　ｔｈー"TCC_NEWLINE"ｅｎ．　Ｗｅｈａｖｅ　ｂｕｔ　ｏｎｅ　ｐｏｓｓｉｂｌｅ　ｒー"TCC_NEWLINE"ｅｐｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈａｔ　ｙｏｕｒ　ａｎｓｗｅｒ？　Ｗｅｌｌ，　ｔｈー"TCC_NEWLINE"ｅｎ．　Ｗｅ　ｈａｖｅ　ｂｕｔ　ｏｎｅ　ｐｏｓｓｉｂｌｅ　"TCC_NEWLINE"ｒｅｐｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ　ｓｅｅ．　Ｙｏｕ　ｉｎｔｅｎｄ　ｔｏ　ｆｉｇｈｔ．　Ｖー"TCC_NEWLINE"ｅｒｙ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｃｈｉｌｄｒｅｎ　ｏｆ　Ａｓｋｒ，　ｔｈｅ　ｏｎｅｓ　ｗｈー"TCC_NEWLINE"ｏ　ｏｐｅｎｔｈｅ　ｗａｙ．．．　Ｉ　ｈｅａｒ　ｙｏｕ　ｒー"TCC_NEWLINE"ｅｌｙ　ｏｎ　ｔｈｅ　ｐｏｗｅｒｙｏｕ　ｂｏｒｒｏｗ　ｆｒー"TCC_NEWLINE"ｏｍ　ｏｔｈｅｒ　ｒｅａｌｍｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆａｓｃｉｎａｔｉｎｇ！　Ｗｅ　ｗｉｌｌ　ｓｅｅ　ｗｈａｔー"TCC_NEWLINE"ｒｅｍａｉｎｓ：　ｙｏｕ，　ｏｒ　ｔｈｅ　ｆｉｒｅｓ　ｏｆ"TCC_NEWLINE"　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｃｈｉｌｄｒｅｎ　ｏｆ　Ａｓｋｒ，　ｔｈｅ　ｏｎｅｓ　ｗｈー"TCC_NEWLINE"ｏ　ｏｐｅｎ　ｔｈｅ　ｗａｙ．．．　Ｉ　ｈｅａｒ　ｙｏｕ　"TCC_NEWLINE"ｒｅｌｙ　ｏｎ　ｔｈｅ　ｐｏｗｅｒ　ｙｏｕ　ｂｏｒｒｏｗ　"TCC_NEWLINE"ｆｒｏｍ　ｏｔｈｅｒ　ｒｅａｌｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆａｓｃｉｎａｔｉｎｇ！　Ｗｅ　ｗｉｌｌ　ｓｅｅ　ｗｈａｔ"TCC_NEWLINE"　ｒｅｍａｉｎｓ：　ｙｏｕ，　ｏｒ　ｔｈｅ　ｆｉｒｅｓ　ｏー"TCC_NEWLINE"ｆ　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌａｅｖａｔｅｉｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｓｉｒ．"TCC_NEWLINE TCC_PUSH_A
@@ -32,23 +32,23 @@ TCC_OPEN_RIGHT
 "Ｉｔ’ｓ　ｔｉｍｅ　ｆｏｒ　ｔｈｅ　ｓｌａｕｇｈｔｅｒ！　"TCC_NEWLINE"Ｈａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ’ｒｅ　ｎｏｔ　ｍａｋｉｎｇ　ａ　ｄｅｎｔ　ｉｎ　Ｓｕー"TCC_NEWLINE"ｒｔｒ’ｓｄｅｆｅｎｓｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ｎｏｔ　ｍａｋｉｎｇ　ａ　ｄｅｎｔ　ｉｎ　Ｓｕー"TCC_NEWLINE"ｒｔｒ’ｓ　ｄｅｆｅｎｓｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｓ　ｉｔ　Ｅｍｂｌａ’ｓ　Ｗａｒｄ　ａｇａｉｎ？　Ｉｆ　"TCC_NEWLINE"ｓｏ．．．ｗｅ’ｌｌｊｕｓｔ　ｗａｉｔ　ｆｏｒ　ｏｕｒ　ｃー"TCC_NEWLINE"ｈａｎｃｅ　ａｎｄ　ｓｔｒｉｋｅｗｈｅｎ　ｉｔｓ　ｐｏｗｅー"TCC_NEWLINE"ｒ　ｆａｄｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｉｔ　Ｅｍｂｌａ’ｓ　Ｗａｒｄ　ａｇａｉｎ？　Ｉｆ　"TCC_NEWLINE"ｓｏ．．．ｗｅ’ｌｌ　ｊｕｓｔ　ｗａｉｔ　ｆｏｒ　ｏｕｒ　"TCC_NEWLINE"ｃｈａｎｃｅ　ａｎｄ　ｓｔｒｉｋｅ　ｗｈｅｎ　ｉｔｓ　ｐｏー"TCC_NEWLINE"ｗｅｒ　ｆａｄｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｔｈｉｓ　ｉｓ　Ｋｉｎｇ　Ｓｕｒｔｒ’ｓ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｆｌａｍｅｓ　ａｒｅ　ｕｎｄｙｉｎｇ，ｕｎｑｕｅｎー"TCC_NEWLINE"ｃｈａｂｌｅ．．．　Ｎｏ　Ｈｅｒｏ，　ｎｏ　ｗｅａｐｏｎｃー"TCC_NEWLINE"ａｎ　ｄｅｆｅａｔ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌａｍｅｓ　ａｒｅ　ｕｎｄｙｉｎｇ，　ｕｎｑｕｅー"TCC_NEWLINE"ｎｃｈａｂｌｅ．．．　Ｎｏ　Ｈｅｒｏ，　ｎｏ　ｗｅａｐｏｎ"TCC_NEWLINE"　ｃａｎ　ｄｅｆｅａｔ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｕｎｄｙｉｎｇ，　ｕｎｑｕｅｎｃｈａｂｌｅ　ｆｌａｍｅｓ．"TCC_NEWLINE"．．　Ｊｕｓｔｌｉｋｅ　ｔｈｅ　ｂｏｏｋ　ｏｆ　ｐｒｏｐｈー"TCC_NEWLINE"ｅｃｙ　ｓａｙｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｄｙｉｎｇ，　ｕｎｑｕｅｎｃｈａｂｌｅ　ｆｌａｍｅｓ．"TCC_NEWLINE"．．　Ｊｕｓｔ　ｌｉｋｅ　ｔｈｅ　ｂｏｏｋ　ｏｆ　ｐｒｏｐー"TCC_NEWLINE"ｈｅｃｙ　ｓａｙｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉｆ　ｔｈａｔ’ｓ　ｔｒｕｅ．．．ｗｈａｔ　ａｒｅ　ｗｅ　"TCC_NEWLINE"ｓｕｐｐｏｓｅｄｔｏ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ’ｓ　ｔｒｕｅ．．．ｗｈａｔ　ａｒｅ　ｗｅ　"TCC_NEWLINE"ｓｕｐｐｏｓｅｄ　ｔｏ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｕｒ　ｏｎｌｙ　ｒｅｃｏｕｒｓｅ　ｉｓ　ｒｅｔｒｅａｔ．"TCC_NEWLINE"　Ｌｅｔ’ｓ　ｇｏ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｗａｔｃｈ　ｔｈｅｍ　ｆｌｅｅ！　Ａｓ　ｔｅｐｉｄ　ａｓ　"TCC_NEWLINE"ｂｅｆｏｒｅ，ｔｈｅｓｅ　ｗｅａｋｌｉｎｇｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｉｄｉｎｇ　ｉｓ　ｕｓｅｌｅｓｓ．　Ｔｈｉｓ　ｅｎｔｉｒー"TCC_NEWLINE"ｅ　ｒｅａｌｍｗｉｌｌ　ｃｒａｃｋｌｅ　ｗｉｔｈ　ｍｙ　ｆー"TCC_NEWLINE"ｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｐｅｏｐｌｅ，　Ａｓｋｒ．．．　"TCC_NEWLINE"Ｆｌａｙｅｄｂｙ　ｍｙ　ｆｌａｍｅｓ，　ｌｉｖｉｎｇ　ｔｏー"TCC_NEWLINE"ｒｃｈｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｉｆｌ　ｔｏｏｋ　ｍｅ　ｓｉｘ　ｍｏｎｔｈｓ．　Ｔｈｅ　"TCC_NEWLINE"ｏｎｅｂｅｆｏｒｅ　ｔｈａｔ．．．ｔｈｒｅｅ．　Ｈｏｗ　ｌー"TCC_NEWLINE"ｏｎｇ　ｃａｎＡｓｋｒ　ｌａｓｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｔｃｈ　ｔｈｅｍ　ｆｌｅｅ！　Ａｓ　ｔｅｐｉｄ　ａｓ　"TCC_NEWLINE"ｂｅｆｏｒｅ，　ｔｈｅｓｅ　ｗｅａｋｌｉｎｇｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｉｄｉｎｇ　ｉｓ　ｕｓｅｌｅｓｓ．　Ｔｈｉｓ　ｅｎｔｉｒー"TCC_NEWLINE"ｅ　ｒｅａｌｍ　ｗｉｌｌ　ｃｒａｃｋｌｅ　ｗｉｔｈ　ｍｙ　"TCC_NEWLINE"ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｐｅｏｐｌｅ，　Ａｓｋｒ．．．　"TCC_NEWLINE"Ｆｌａｙｅｄ　ｂｙ　ｍｙ　ｆｌａｍｅｓ，　ｌｉｖｉｎｇ　ｔー"TCC_NEWLINE"ｏｒｃｈｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｉｆｌ　ｔｏｏｋ　ｍｅ　ｓｉｘ　ｍｏｎｔｈｓ．　Ｔｈｅ　"TCC_NEWLINE"ｏｎｅ　ｂｅｆｏｒｅ　ｔｈａｔ．．．ｔｈｒｅｅ．　Ｈｏｗ　"TCC_NEWLINE"ｌｏｎｇ　ｃａｎ　Ａｓｋｒ　ｌａｓｔ？"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ’ｓ　ｔｉｍｅ　ｗｅ　ｆｉｎｄ　ｏｕｔ！　Ｈａ－ｈａｈ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

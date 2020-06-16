@@ -7,33 +7,33 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_GUSTAV
 TCC_OPEN_LEFT
 "Ｆａｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ’ｓ　ｔｏｄａｙ，　ｉｓｎ’ｔ　ｉｔ．．．　Ｗｅｒｅ　"TCC_NEWLINE"ｙｏｕ　ａｂｌｅ　ｔｏｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｄｉｓｐー"TCC_NEWLINE"ｅｌ　Ｈｅｌ’ｓ　ｃｕｒｓｅ　ｉｎｔｉｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｏｄａｙ，　ｉｓｎ’ｔ　ｉｔ．．．　Ｗｅｒｅ　"TCC_NEWLINE"ｙｏｕ　ａｂｌｅ　ｔｏ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｄｉｓー"TCC_NEWLINE"ｐｅｌ　Ｈｅｌ’ｓ　ｃｕｒｓｅ　ｉｎ　ｔｉｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏ．　Ｉ　ｈａｖｅ　ｎｏ　ｅｘｃｕｓｅ　ｆｏｒ　ｗｈａｔ"TCC_NEWLINE"　ｈａｓｂｅｆａｌｌｅｎ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．　Ｉ　ｈａｖｅ　ｎｏ　ｅｘｃｕｓｅ　ｆｏｒ　ｗｈａｔ"TCC_NEWLINE"　ｈａｓ　ｂｅｆａｌｌｅｎ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｄｏ　ｎｏｔ　ａｐｏｌｏｇｉｚｅ，　ｍｙ　ｓｏｎ．　Ｗｅ　"TCC_NEWLINE"ｋｎｅｗｔｈｉｓ　ｄａｙ　ｗｏｕｌｄ　ｃｏｍｅ．　Ｔｈｅｒー"TCC_NEWLINE"ｅ　ｉｓ　ｎｏｅｓｃａｐｉｎｇ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｆｏｎｓｅ．．．　Ｓｔａｙ　ｃｌｏｓｅ　ｔｏ　ｍｅ　ｔー"TCC_NEWLINE"ｏｄａｙ．Ｋｅｅｐ　ｙｏｕｒ　ａｌｌｉｅｓ　ｃｌｏｓｅ，　"TCC_NEWLINE"ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｔｈｅ　ｃｕｒｓｅ　ｃｏｍｅｓ　ｄｕｅ，　Ｉ　ｅー"TCC_NEWLINE"ｘｐｅｃｔＨｅｌ　ｔｏ　ａｐｐｅａｒ　ａｎｄ　ｐｌｕｃｋ　"TCC_NEWLINE"ｔｈｅ　ｌｉｆｅｆｒｏｍ　ｙｏｕｒ　ｐａｒａｌｙｚｅｄ　ｂー"TCC_NEWLINE"ｏｄｙ　ｈｅｒｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ａｐｏｌｏｇｉｚｅ，　ｍｙ　ｓｏｎ．　Ｗｅ　"TCC_NEWLINE"ｋｎｅｗ　ｔｈｉｓ　ｄａｙ　ｗｏｕｌｄ　ｃｏｍｅ．　Ｔｈｅー"TCC_NEWLINE"ｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｉｎｇ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ．．．　Ｓｔａｙ　ｃｌｏｓｅ　ｔｏ　ｍｅ　ｔー"TCC_NEWLINE"ｏｄａｙ．　Ｋｅｅｐ　ｙｏｕｒ　ａｌｌｉｅｓ　ｃｌｏｓｅ，"TCC_NEWLINE"　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｔｈｅ　ｃｕｒｓｅ　ｃｏｍｅｓ　ｄｕｅ，　Ｉ　ｅー"TCC_NEWLINE"ｘｐｅｃｔ　Ｈｅｌ　ｔｏ　ａｐｐｅａｒ　ａｎｄ　ｐｌｕｃｋ"TCC_NEWLINE"　ｔｈｅ　ｌｉｆｅ　ｆｒｏｍ　ｙｏｕｒ　ｐａｒａｌｙｚｅｄ"TCC_NEWLINE"　ｂｏｄｙ　ｈｅｒｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｇｉｖｉｎｇ　ｕｓ　ａ　ｃｈａｎｃｅ　ｔｏ　ｓｔｒｉｋｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ．　Ｙｏｕ　ｃａｎｎｏｔ　ｋｉｌｌ　Ｄｅａｔｈ．　Ｅｖー"TCC_NEWLINE"ｅｎ　ｉｆ　ｗｅａｔｔａｃｋ　ｈｅｒ　ｔｈｅｎ，　ｓｈｅ　"TCC_NEWLINE"ｗｉｌｌ　ｎｏｔ　ｆａｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗｅｖｅｒ，　ｗｅ　ｍａｙ　ｃａｔｃｈ　ａ　ｇｌｉｍｐー"TCC_NEWLINE"ｓｅ　ｏｆｓｏｍｅｔｈｉｎｇ．．．　Ａ　ｗｅａｋｎｅｓｓ，"TCC_NEWLINE"　ｐｅｒｈａｐｓ，ｔｈａｔ　ｗｉｌｌ　ｌｅａｄ　ｔｏ　ｈｅー"TCC_NEWLINE"ｒ　ｄｏｗｎｆａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．　Ｙｏｕ　ｃａｎｎｏｔ　ｋｉｌｌ　Ｄｅａｔｈ．　Ｅｖー"TCC_NEWLINE"ｅｎ　ｉｆ　ｗｅ　ａｔｔａｃｋ　ｈｅｒ　ｔｈｅｎ，　ｓｈｅ"TCC_NEWLINE"　ｗｉｌｌ　ｎｏｔ　ｆａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ，　ｗｅ　ｍａｙ　ｃａｔｃｈ　ａ　ｇｌｉｍｐー"TCC_NEWLINE"ｓｅ　ｏｆ　ｓｏｍｅｔｈｉｎｇ．．．　Ａ　ｗｅａｋｎｅｓｓ"TCC_NEWLINE"，　ｐｅｒｈａｐｓ，　ｔｈａｔ　ｗｉｌｌ　ｌｅａｄ　ｔｏ　"TCC_NEWLINE"ｈｅｒ　ｄｏｗｎｆａｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｉ　ｗｉｌｌ　ｄｏ　ａｓ　ｙｏー"TCC_NEWLINE"ｕｃｏｍｍａｎｄ，　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ｔｈｏｕｇｈ　Ｉ　ｄｉｅ，　ｉｔ　ｍａｙ　ｎｏｔ"TCC_NEWLINE"　ｂｅ　ｆｏｒｎｏｔｈｉｎｇ．　Ｉ　ｈｏｐｅ　ｓｏ，　ａｎー"TCC_NEWLINE"ｙｗａｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　ｓｕｒｅ　ｙｏｕ　ｗｉｌｌ　ｄｅｆｅａｔ　ｈｅｒ"TCC_NEWLINE"，　Ｆａｔｈｅｒ，ｏｒ　ｐｅｒｈａｐｓ"TCC_NEWLINE
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｉ　ｗｉｌｌ　ｄｏ　ａｓ　ｙｏー"TCC_NEWLINE"ｕ　ｃｏｍｍａｎｄ，　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｔｈｏｕｇｈ　Ｉ　ｄｉｅ，　ｉｔ　ｍａｙ　ｎｏｔ"TCC_NEWLINE"　ｂｅ　ｆｏｒ　ｎｏｔｈｉｎｇ．　Ｉ　ｈｏｐｅ　ｓｏ，　ａー"TCC_NEWLINE"ｎｙｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｕｒｅ　ｙｏｕ　ｗｉｌｌ　ｄｅｆｅａｔ　ｈｅｒ"TCC_NEWLINE"，　Ｆａｔｈｅｒ，　ｏｒ　ｐｅｒｈａｐｓ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｌｌ　ｈｏｌｄ　ｆａｓｔ　ｔｏ　ｔｈａｔ　ｈｏｐｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｏｕｒ　ａｌｌｙ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｍｕｓｔ　ｒｅｌｙ　ｏｎ　ｏｕｒｓｅｌｖｅｓ，　ｎｏー"TCC_NEWLINE"ｔ　ｏｎｐｏｗｅｒ　ｆｒｏｍ　ｂｅｙｏｎｄ　Ａｓｋｒ．　Ｈー"TCC_NEWLINE"ｅｌ　ｃａｍｅｔｏ　ｕｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｒｅａー"TCC_NEWLINE"ｌｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｃｏｎｔａｃｔ　ｗｉｔｈ　ｏｔｈｅｒ　ｒｅａｌｍｓ　ｍｅｒー"TCC_NEWLINE"ｅｌｙｏｐｅｎｓ　ｕｐ　ｎｅｗ　ａｖｅｎｕｅｓ　ｔｏ　ｍｉー"TCC_NEWLINE"ｓｆｏｒｔｕｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｒｅｌｙ　ｏｎ　ｏｕｒｓｅｌｖｅｓ，　ｎｏー"TCC_NEWLINE"ｔ　ｏｎ　ｐｏｗｅｒ　ｆｒｏｍ　ｂｅｙｏｎｄ　Ａｓｋｒ．　"TCC_NEWLINE"Ｈｅｌ　ｃａｍｅ　ｔｏ　ｕｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｒー"TCC_NEWLINE"ｅａｌｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｎｔａｃｔ　ｗｉｔｈ　ｏｔｈｅｒ　ｒｅａｌｍｓ　ｍｅｒー"TCC_NEWLINE"ｅｌｙ　ｏｐｅｎｓ　ｕｐ　ｎｅｗ　ａｖｅｎｕｅｓ　ｔｏ　ｍー"TCC_NEWLINE"ｉｓｆｏｒｔｕｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｗｏｒｄｓ，　Ｆａｔｈー"TCC_NEWLINE"ｅｒ．　ＹｅｔＩ　ｈａｖｅ　ｆｏｒｍｅｄ　ａ　ｓｔｒｏｎｇ"TCC_NEWLINE"　ｂｏｎｄ　ｗｉｔｈ"TCC_NEWLINE
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｗｏｒｄｓ，　Ｆａｔｈー"TCC_NEWLINE"ｅｒ．　Ｙｅｔ　Ｉ　ｈａｖｅ　ｆｏｒｍｅｄ　ａ　ｓｔｒｏｎー"TCC_NEWLINE"ｇ　ｂｏｎｄ　ｗｉｔｈ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｓａｙ　ａｇａｉｎｔｈｅｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｂｅｇａｉｎｅｄ　ｂｙ　ｍｅｄｄｌｉｎｇ　ｉｎ　ｏｔｈー"TCC_NEWLINE"ｅｒ　ｒｅａｌｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓａｙ　ａｇａｉｎｔｈｅｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｂｅ　ｇａｉｎｅｄ　ｂｙ　ｍｅｄｄｌｉｎｇ　ｉｎ　ｏｔー"TCC_NEWLINE"ｈｅｒ　ｒｅａｌｍｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｈ．"TCC_NEWLINE TCC_PUSH_A
@@ -41,30 +41,30 @@ TCC_OPEN_RIGHT
 "Ｉｓ　ｓｏｍｅｔｈｉｎｇ　ａｍｕｓｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｈ！　Ｉ’ｍ　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｊｕｓｔ　ｒｅｆｌｅｃｔｉｎｇ　ｏｎ　ｓｏｍｅｔｈー"TCC_NEWLINE"ｉｎｇＭｏｔｈｅｒ　ｔｏｌｄ　ｍｅ．　Ｓｈｅ　ｓａｉｄ　ｔー"TCC_NEWLINE"ｈａｔ，　ｉｎｙｏｕｒ　ｙｏｕｔｈ，　ｙｏｕ　ｗｅｒｅ　ｍー"TCC_NEWLINE"ｕｃｈ　ｌｉｋｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｊｕｓｔ　ｒｅｆｌｅｃｔｉｎｇ　ｏｎ　ｓｏｍｅｔｈー"TCC_NEWLINE"ｉｎｇ　Ｍｏｔｈｅｒ　ｔｏｌｄ　ｍｅ．　Ｓｈｅ　ｓａｉｄ　"TCC_NEWLINE"ｔｈａｔ，　ｉｎ　ｙｏｕｒ　ｙｏｕｔｈ，　ｙｏｕ　ｗｅｒｅ"TCC_NEWLINE"　ｍｕｃｈ　ｌｉｋｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｄｉｄ　ｓｈｅ，　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｍｕｓｔ　ａｄｍｉｔ　ｉｔ．　Ｗｅｔ　ｂｅｈｉｎｄ　ｔー"TCC_NEWLINE"ｈｅ　ｅａｒｓ，Ｉ　ｗａｓ．　Ｗｅａｐｏｎ　ｉｎ　ｈａｎｄ"TCC_NEWLINE"，　Ｉ　ｔｒａｖｅｌｅｄ　ｔｈｅｒｅａｌｍｓ，　ａｌｗａｙー"TCC_NEWLINE"ｓ　ｒｅａｄｙ　ｔｏ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗａｓ　ｎｏ　ｄｉｆｆｅｒｅｎｔ　ｔｈａｎ　ｙｏｕ，　"TCC_NEWLINE"ｉｔ　ｉｓ　ｔｒｕｅ．Ｙｅｔ　ｌｏｏｋ　ａｔ　ｍｅ　ｎｏｗ"TCC_NEWLINE"，　ｌｅｃｔｕｒｉｎｇ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ａｄｍｉｔ　ｉｔ．　Ｗｅｔ　ｂｅｈｉｎｄ　ｔー"TCC_NEWLINE"ｈｅ　ｅａｒｓ，　Ｉ　ｗａｓ．　Ｗｅａｐｏｎ　ｉｎ　ｈａｎー"TCC_NEWLINE"ｄ，　Ｉ　ｔｒａｖｅｌｅｄ　ｔｈｅ　ｒｅａｌｍｓ，　ａｌｗー"TCC_NEWLINE"ａｙｓ　ｒｅａｄｙ　ｔｏ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｎｏ　ｄｉｆｆｅｒｅｎｔ　ｔｈａｎ　ｙｏｕ，　"TCC_NEWLINE"ｉｔ　ｉｓ　ｔｒｕｅ．　Ｙｅｔ　ｌｏｏｋ　ａｔ　ｍｅ　ｎｏー"TCC_NEWLINE"ｗ，　ｌｅｃｔｕｒｉｎｇ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｍｉｓｕｎｄｅｒｓｔａｎｄ　ｍｅ，　Ｆａｔｈｅｒ．"TCC_NEWLINE"　Ｉｗａｓ　ｈａｐｐｙ　ｔｏ　ｈｅａｒ　ｔｈａｔ　Ｉ　ｐｕー"TCC_NEWLINE"ｔ　Ｍｏｔｈｅｒｉｎ　ｍｉｎｄ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｆｏｒ　ｙｏｕｒ　ｃｏｎｃｅｒｎ　ａｎｄ　ｙｏｕｒｇー"TCC_NEWLINE"ｕｉｄａｎｃｅ．．．ｔｈｅｙ　ｍｅａｎ　ｅｖｅｒｙｔｈｉｎー"TCC_NEWLINE"ｇｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｉｓｕｎｄｅｒｓｔａｎｄ　ｍｅ，　Ｆａｔｈｅｒ．"TCC_NEWLINE"　Ｉ　ｗａｓ　ｈａｐｐｙ　ｔｏ　ｈｅａｒ　ｔｈａｔ　Ｉ　ｐー"TCC_NEWLINE"ｕｔ　Ｍｏｔｈｅｒ　ｉｎ　ｍｉｎｄ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｆｏｒ　ｙｏｕｒ　ｃｏｎｃｅｒｎ　ａｎｄ　ｙｏｕｒ　"TCC_NEWLINE"ｇｕｉｄａｎｃｅ．．．ｔｈｅｙ　ｍｅａｎ　ｅｖｅｒｙｔｈｉー"TCC_NEWLINE"ｎｇ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｏｄａｙ　ｉｓ　ｔｈｅ　ｄａｙ　Ｉ　ｗｉｌｌ　ｄｉｅ．　"TCC_NEWLINE"Ｉ　ｈａｖｅｆａｉｌｅｄ　ｉｎ　ｍｙ　ｄｕｔｙ　ａｓ　ｙｏー"TCC_NEWLINE"ｕｒ　ｓｕｃｃｅｓｓｏｒ．Ｔｈａｔ　ｉｓ　ｍｙ　ｄｅｅｐｅー"TCC_NEWLINE"ｓｔ　ｒｅｇｒｅｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｔ　ｔｏ　ｂｅ　ａｂｌｅ　ｔｏ　ｓｐｅａｋ　ｓｏ　ｆｒー"TCC_NEWLINE"ａｎｋｌｙｗｉｔｈ　ｙｏｕ　ｈｅｒｅ　ａｎｄ　ｎｏｗ．．．"TCC_NEWLINE"Ｉ　ａｍｏｖｅｒｊｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏｄａｙ　ｉｓ　ｔｈｅ　ｄａｙ　Ｉ　ｗｉｌｌ　ｄｉｅ．　"TCC_NEWLINE"Ｉ　ｈａｖｅ　ｆａｉｌｅｄ　ｉｎ　ｍｙ　ｄｕｔｙ　ａｓ　ｙー"TCC_NEWLINE"ｏｕｒ　ｓｕｃｃｅｓｓｏｒ．　Ｔｈａｔ　ｉｓ　ｍｙ　ｄｅｅー"TCC_NEWLINE"ｐｅｓｔ　ｒｅｇｒｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｔｏ　ｂｅ　ａｂｌｅ　ｔｏ　ｓｐｅａｋ　ｓｏ　ｆｒー"TCC_NEWLINE"ａｎｋｌｙ　ｗｉｔｈ　ｙｏｕ　ｈｅｒｅ　ａｎｄ　ｎｏｗ．．"TCC_NEWLINE"．Ｉ　ａｍ　ｏｖｅｒｊｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｆｏｒ　ｔｈｉｓ　ｂａｔｔｌｅ，　ｗｅ’ｌｌ　ｓｔａｙ　ｃー"TCC_NEWLINE"ｌｏｓｅ　ｔｏＡｓｋｒ’ｓ　ｍａｉｎ　ｆｏｒｃｅｓ．　Ｔｈー"TCC_NEWLINE"ｉｓ　ｗｉｌｌ　ｂｅ　ａｆｉｅｒｃｅ　ｆｉｇｈｔ．　Ｂｅ　"TCC_NEWLINE"ｃａｒｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｍｕｓｔ　ｄｏ　ｅｖｅｒｙｔｈｉｎｇ　ｗｅ　ｃａｎ　"TCC_NEWLINE"ｔｏｆｉｎｄ　Ｈｅｌ．　Ｗｅ　ｃａｎ’ｔ　ａｌｌｏｗ　Ａｌー"TCC_NEWLINE"ｆｏｎｓｅ　ｔｏｄｉｅ　ａｔ　ｈｅｒ　ｈａｎｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｈｉｓ　ｂａｔｔｌｅ，　ｗｅ’ｌｌ　ｓｔａｙ　ｃー"TCC_NEWLINE"ｌｏｓｅ　ｔｏ　Ａｓｋｒ’ｓ　ｍａｉｎ　ｆｏｒｃｅｓ．　Ｔー"TCC_NEWLINE"ｈｉｓ　ｗｉｌｌ　ｂｅ　ａ　ｆｉｅｒｃｅ　ｆｉｇｈｔ．　Ｂー"TCC_NEWLINE"ｅ　ｃａｒｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｄｏ　ｅｖｅｒｙｔｈｉｎｇ　ｗｅ　ｃａｎ　"TCC_NEWLINE"ｔｏ　ｆｉｎｄ　Ｈｅｌ．　Ｗｅ　ｃａｎ’ｔ　ａｌｌｏｗ　Ａー"TCC_NEWLINE"ｌｆｏｎｓｅ　ｔｏ　ｄｉｅ　ａｔ　ｈｅｒ　ｈａｎｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｂｅｅｎ　ｃｒｕｓｈｅｄ，　ｙー"TCC_NEWLINE"ｅｔＨｅｌ　ｅｌｕｄｅｓ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｂｅｅｎ　ｃｒｕｓｈｅｄ，　ｙー"TCC_NEWLINE"ｅｔ　Ｈｅｌ　ｅｌｕｄｅｓ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｓｈｅ’ｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｂｅ　ｓｅｅｎ，　ａｎｄ"TCC_NEWLINE"　ｔｉｍｅｉｓ　ｓｏ　ｓｈｏｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ’ｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｂｅ　ｓｅｅｎ，　ａｎｄ"TCC_NEWLINE"　ｔｉｍｅ　ｉｓ　ｓｏ　ｓｈｏｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_EIR
@@ -79,17 +79,17 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｅｌ！"TCC_NEWLINE TCC_PUSH_A
 "＊ｇａｓｐ＊　Ｉ．．．　Ｉ　ｃａｎ’ｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｅ．　Ｓｏ　ｍａｎｙ　ｈー"TCC_NEWLINE"ａｖｅｔｒｉｅｄ　ｓｏ　ｄｅｓｐｅｒａｔｅｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｅ．　Ｓｏ　ｍａｎｙ　ｈー"TCC_NEWLINE"ａｖｅ　ｔｒｉｅｄ　ｓｏ　ｄｅｓｐｅｒａｔｅｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ｙｏｕ　ｔａｋｅ　ｍｙ　ｂｒｏｔｈー"TCC_NEWLINE"ｅｒ！"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｉｓ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｏｕｒ　ａｔｔａｃｋｓ　ａｒｅｎ’ｔ　ｈａｖｉｎｇ　ａｎｙ"TCC_NEWLINE"　ｅｆｆｅｃｔ．Ｉｓ　ｓｈｅ　ａｎ　ｉｌｌｕｓｉｏｎ？　Ａ"TCC_NEWLINE"　ｓｐｅｃｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ａｔｔａｃｋｓ　ａｒｅｎ’ｔ　ｈａｖｉｎｇ　ａｎｙ"TCC_NEWLINE"　ｅｆｆｅｃｔ．　Ｉｓ　ｓｈｅ　ａｎ　ｉｌｌｕｓｉｏｎ？　"TCC_NEWLINE"Ａ　ｓｐｅｃｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｎｅｅｄ　ｔｏ　ｆｉｎｄ　ａ　ｗａｙ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕｒ　ｅｆｆｏｒｔｓ　ａｎｄ　ｙｏｕｒ　ｂｒｅａｔｈｔー"TCC_NEWLINE"ｈｅｙａｒｅ　ｂｏｔｈ　ｗａｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｅｆｆｏｒｔｓ　ａｎｄ　ｙｏｕｒ　ｂｒｅａｔｈｔー"TCC_NEWLINE"ｈｅｙ　ａｒｅ　ｂｏｔｈ　ｗａｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｄｅａｔｈ　ｉｓ　ｔｈｅ　ｏｎｅ　ｔｒｕｅ　ａｂｓｏｌｕｔー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｔｉｍｅ　ｈａｓ　ｃｏｍｅ．　Ｍｙ　ｓｃｙｔｈｅ"TCC_NEWLINE"　ｉｓｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｔｉｍｅ　ｈａｓ　ｃｏｍｅ．　Ｍｙ　ｓｃｙｔｈｅ"TCC_NEWLINE"　ｉｓ　ｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｍ　ｓｏｒｒｙ，"TCC_NEWLINE
@@ -103,26 +103,26 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_HEL
 "Ｙｏｕ．．．ｓｈｉｅｌｄｅｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｃｕｒｓｅ，　Ｈｅｌｉー"TCC_NEWLINE"ｔ　ｉｓ　ａｃｕｒｓｅ　ｏｎ　ｔｈｅ　ｂｌｏｏｄ　ｏｆ　Ａー"TCC_NEWLINE"ｓｋｒ．　Ｔｈａｔｌｅｓｓｏｎ，　Ｉ　ｌｅａｒｎｅｄ　ｆｒー"TCC_NEWLINE"ｏｍ　ｍｙ　ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　Ａｓｋｒａｎ　ｒｏｙａｌｔｙ，　ａｎｄ　ｉｔ　ｉー"TCC_NEWLINE"ｓ　ｍｙ　ｌｉｆｅｔｈａｔ　ｗｉｌｌ　ｂｅ　ａｄｄｅｄ　ｔー"TCC_NEWLINE"ｏ　ｔｈｅ　ｎｕｍｂｅｒｓｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｃｏｎｄｉｔｉｏｎｓ　ｏｆ　ｙｏｕｒ　ｃｕｒｓｅ　"TCC_NEWLINE"ａｒｅｆｕｌｆｉｌｌｅｄ．　Ｄｅｐａｒｔ　ｔｈｉｓ　ｐｌａー"TCC_NEWLINE"ｃｅ，　ｄｅａｔｈ　ｇｏｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｃｕｒｓｅ，　Ｈｅｌｉー"TCC_NEWLINE"ｔ　ｉｓ　ａ　ｃｕｒｓｅ　ｏｎ　ｔｈｅ　ｂｌｏｏｄ　ｏｆ　"TCC_NEWLINE"Ａｓｋｒ．　Ｔｈａｔ　ｌｅｓｓｏｎ，　Ｉ　ｌｅａｒｎｅｄ　"TCC_NEWLINE"ｆｒｏｍ　ｍｙ　ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ａｓｋｒａｎ　ｒｏｙａｌｔｙ，　ａｎｄ　ｉｔ　ｉー"TCC_NEWLINE"ｓ　ｍｙ　ｌｉｆｅ　ｔｈａｔ　ｗｉｌｌ　ｂｅ　ａｄｄｅｄ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　ｎｕｍｂｅｒｓ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｏｎｄｉｔｉｏｎｓ　ｏｆ　ｙｏｕｒ　ｃｕｒｓｅ　"TCC_NEWLINE"ａｒｅ　ｆｕｌｆｉｌｌｅｄ．　Ｄｅｐａｒｔ　ｔｈｉｓ　ｐｌー"TCC_NEWLINE"ａｃｅ，　ｄｅａｔｈ　ｇｏｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｆａｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_HEL
-"Ｆｏｏｌ．　Ｌｏｏｋ　ａｔ　ｙｏｕ，　ａｗａｓｈ　ｉｎｓｅー"TCC_NEWLINE"ｎｔｉｍｅｎｔａｌｉｔｙ．．．　Ｗｈａｔ　ｈａｓ　ｉｔｃｏー"TCC_NEWLINE"ｓｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ　ｔｏ　ｃａｌｌ　ｙｏｕー"TCC_NEWLINE"ｒｓｅｌｆ　ａｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｏｌ．　Ｌｏｏｋ　ａｔ　ｙｏｕ，　ａｗａｓｈ　ｉｎ　ｓー"TCC_NEWLINE"ｅｎｔｉｍｅｎｔａｌｉｔｙ．．．　Ｗｈａｔ　ｈａｓ　ｉｔ　"TCC_NEWLINE"ｃｏｓｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ　ｔｏ　ｃａｌｌ　ｙｏｕー"TCC_NEWLINE"ｒｓｅｌｆ　ａ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
 "Ｙｏｕ　ｃｏｍｐｒｅｈｅｎｄ　ｎｏｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_HEL
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
-"Ｍｙ　ｌｉｆｅ　ｅｘｉｓｔｓ　ｏｎｌｙ　ｆｏｒ　ｔｈｅ　ｐー"TCC_NEWLINE"ｅｏｐｌｅ　ｏｆｔｈｉｓ　ｌａｎｄ．　Ｉ　ｈａｖｅ　ｎｅｖー"TCC_NEWLINE"ｅｒ　ｌｏｓｔ　ｓｉｇｈｔ　ｏｆｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｉｎｃｅ　ｔｈｅ　ｄａｙ　Ｉ　ｌｏｓｔ　ｍｙ　ｆａｔｈｅー"TCC_NEWLINE"ｒ．．．Ｉｓｗｏｒｅ　ｎｅｖｅｒ　ｔｏ　ｆｏｒｇｅｔ　ｍｙ"TCC_NEWLINE"　ｄｕｔｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗ　ｍｕｃｈ　ｌｏｎｇｅｒ　ｗｏｕｌｄ　Ｉ　ｈａｖｅ　"TCC_NEWLINE"ｌｉｖｅｄ？Ｍｙ　ｓｏｎ　ｉｓ　ｙｏｕｎｇ，　ａｎｄ　ｈｅ"TCC_NEWLINE"　ｉｓ　ｃｅｒｔａｉｎｌｙｗｏｒｔｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｌｉｆｅ　ｅｘｉｓｔｓ　ｏｎｌｙ　ｆｏｒ　ｔｈｅ　ｐー"TCC_NEWLINE"ｅｏｐｌｅ　ｏｆ　ｔｈｉｓ　ｌａｎｄ．　Ｉ　ｈａｖｅ　ｎｅー"TCC_NEWLINE"ｖｅｒ　ｌｏｓｔ　ｓｉｇｈｔ　ｏｆ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｎｃｅ　ｔｈｅ　ｄａｙ　Ｉ　ｌｏｓｔ　ｍｙ　ｆａｔｈｅー"TCC_NEWLINE"ｒ．．．Ｉ　ｓｗｏｒｅ　ｎｅｖｅｒ　ｔｏ　ｆｏｒｇｅｔ　ｍー"TCC_NEWLINE"ｙ　ｄｕｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｍｕｃｈ　ｌｏｎｇｅｒ　ｗｏｕｌｄ　Ｉ　ｈａｖｅ　"TCC_NEWLINE"ｌｉｖｅｄ？　Ｍｙ　ｓｏｎ　ｉｓ　ｙｏｕｎｇ，　ａｎｄ　ｈー"TCC_NEWLINE"ｅ　ｉｓ　ｃｅｒｔａｉｎｌｙ　ｗｏｒｔｈｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｓ　ｋｉｎｇ，　ｗｈａｔ　ｃｈｏｉｃｅ　ｄｉｄ　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_HEL
-"Ｓｏ　ｙｏｕ　ｔｈｉｎｋ　ｔｈｉｓ　ｐｒｉｎｃｅｌｉｎｇ　"TCC_NEWLINE"ｈａｓ　ｔｈｅｍａｋｉｎｇｓ　ｏｆ　ａ　ｋｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｎ　ｄｉｅ　ｗｉｔｈｏｕｔ　ｒｅｇｒｅｔ．　Ａｓ　ｒー"TCC_NEWLINE"ｕｌｅｒ　ｏｆｔｈｅ　ｄｅａｄ，　Ｉ　ｄｅｃｌａｒｅ　ｙｏー"TCC_NEWLINE"ｕｒ　ｌｉｆｅ　ａｔ　ａｎ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｙｏｕ　ｔｈｉｎｋ　ｔｈｉｓ　ｐｒｉｎｃｅｌｉｎｇ　"TCC_NEWLINE"ｈａｓ　ｔｈｅ　ｍａｋｉｎｇｓ　ｏｆ　ａ　ｋｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｄｉｅ　ｗｉｔｈｏｕｔ　ｒｅｇｒｅｔ．　Ａｓ　ｒー"TCC_NEWLINE"ｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ，　Ｉ　ｄｅｃｌａｒｅ　ｙー"TCC_NEWLINE"ｏｕｒ　ｌｉｆｅ　ａｔ　ａｎ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
 TCC_OPEN_RIGHT
 "Ｎｏ！"TCC_NEWLINE TCC_PUSH_A

@@ -1,11 +1,11 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3044_EN] = TCC_OPEN_LEFT
-"Ｉｔ’ｓ　ｓｏ　ｂｏｒｉｎｇ　ｔｏ　ｂｅ　ｂｏｕｎｄ　ｕｐ"TCC_NEWLINE"　ｂｙ　ｔｈｉｓｃｏｎｔｒａｃｔ．．．　Ｂｕｔ　ｗｈａｔ　"TCC_NEWLINE"ｃａｎ　Ｉ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｓｏ　ｂｏｒｉｎｇ　ｔｏ　ｂｅ　ｂｏｕｎｄ　ｕｐ"TCC_NEWLINE"　ｂｙ　ｔｈｉｓ　ｃｏｎｔｒａｃｔ．．．　Ｂｕｔ　ｗｈａｔ"TCC_NEWLINE"　ｃａｎ　Ｉ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｈｅｌ　ｉｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｂｅ　ｓｅｅｎ．．．　"TCC_NEWLINE"Ｗｈｅｒｅｉｓ　ｓｈｅ？　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｉｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｂｅ　ｓｅｅｎ．．．　"TCC_NEWLINE"Ｗｈｅｒｅ　ｉｓ　ｓｈｅ？　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈａｒｅｎａ，　ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ．　Ｔｈｅｒー"TCC_NEWLINE"ｅ’ｓ　ｎｏｎｅｅｄ　ｔｏ　ｐａｎｉｃ．　Ｌｅｔ’ｓ　ｐｒー"TCC_NEWLINE"ｅｓｓ　ｏｎ．　Ｉ’ｍｎｏｔ　ｇｉｖｉｎｇ　ｕｐ，　ａｎｄ"TCC_NEWLINE"　ｎｅｉｔｈｅｒ　ｓｈｏｕｌｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈａｒｅｎａ，　ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ．　Ｔｈｅｒー"TCC_NEWLINE"ｅ’ｓ　ｎｏ　ｎｅｅｄ　ｔｏ　ｐａｎｉｃ．　Ｌｅｔ’ｓ　ｐー"TCC_NEWLINE"ｒｅｓｓ　ｏｎ．　Ｉ’ｍ　ｎｏｔ　ｇｉｖｉｎｇ　ｕｐ，　ａー"TCC_NEWLINE"ｎｄ　ｎｅｉｔｈｅｒ　ｓｈｏｕｌｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

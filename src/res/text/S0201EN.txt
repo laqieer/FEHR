@@ -1,27 +1,27 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S0201_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｌｉｓｔｅｎ　ｕｐ，　ｅｖｅｒｙｏｎｅ．　Ｉ’ｖｅ　ｇｏｔー"TCC_NEWLINE"ｔｅｎｗｏｒｄ　ｔｈａｔ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉー"TCC_NEWLINE"ｒｅ　ｈａｓｉｎｖａｄｅｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙー"TCC_NEWLINE"ｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ’ｒｅ　ｓｅｉｚｉｎｇ　ｃｏｎｔｒｏｌ　ｏｆ　ｉｔー"TCC_NEWLINE"ｓ　Ｈｅｒｏｅｓｉｎ　ｈｏｐｅｓ　ｏｆ　ｕｓｉｎｇ　ｔｈｅー"TCC_NEWLINE"ｍ　ｔｏ　ｍｏｕｎｔａｎ　ａｔｔａｃｋ　ｏｎ　ｏｕｒ　ｋｉー"TCC_NEWLINE"ｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｕｎｆｏｒｔｕｎａｔｅｌｙ，　ｔｈｅｙ　ａｌｒｅａｄｙ　ｐー"TCC_NEWLINE"ｏｓｓｅｓｓｏｎｅ　ｏｆ　ｔｈａｔ　ｗｏｒｌｄ’ｓ　ｍｏｓー"TCC_NEWLINE"ｔ　ｉｍｐｏｒｔａｎｔＨｅｒｏｅｓＭａｒｔｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｓｔｅｎ　ｕｐ，　ｅｖｅｒｙｏｎｅ．　Ｉ’ｖｅ　ｇｏｔー"TCC_NEWLINE"ｔｅｎ　ｗｏｒｄ　ｔｈａｔ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐー"TCC_NEWLINE"ｉｒｅ　ｈａｓ　ｉｎｖａｄｅｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　"TCC_NEWLINE"Ｍｙｓｔｅｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｓｅｉｚｉｎｇ　ｃｏｎｔｒｏｌ　ｏｆ　ｉｔー"TCC_NEWLINE"ｓ　Ｈｅｒｏｅｓ　ｉｎ　ｈｏｐｅｓ　ｏｆ　ｕｓｉｎｇ　ｔｈー"TCC_NEWLINE"ｅｍ　ｔｏ　ｍｏｕｎｔ　ａｎ　ａｔｔａｃｋ　ｏｎ　ｏｕｒ　"TCC_NEWLINE"ｋｉｎｇｄｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｆｏｒｔｕｎａｔｅｌｙ，　ｔｈｅｙ　ａｌｒｅａｄｙ　ｐー"TCC_NEWLINE"ｏｓｓｅｓｓ　ｏｎｅ　ｏｆ　ｔｈａｔ　ｗｏｒｌｄ’ｓ　ｍｏー"TCC_NEWLINE"ｓｔ　ｉｍｐｏｒｔａｎｔ　ＨｅｒｏｅｓＭａｒｔｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈｅ　ｌｅｇｅｎｄａｒｙ　Ｈｅｒｏ－Ｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　Ｍａｒｔｈ　ｌｅａｄｓ　ａ　ｃｈａｒｇｅ　ｏｎ　ｔｈー"TCC_NEWLINE"ｅＡｓｋｒａｎ　Ｋｉｎｇｄｏｍ，　ｉｔ　ｗｏｕｌｄ　ｂｅｄー"TCC_NEWLINE"ｅｖａｓｔａｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｍａｒｔｈ　ｌｅａｄｓ　ａ　ｃｈａｒｇｅ　ｏｎ　ｔｈー"TCC_NEWLINE"ｅ　Ａｓｋｒａｎ　Ｋｉｎｇｄｏｍ，　ｉｔ　ｗｏｕｌｄ　ｂｅ"TCC_NEWLINE"　ｄｅｖａｓｔａｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｗｅｌｌ，　ｓｏ　ｗｈａｔ　ｉｆ　ｔｈｅｙ　ｈａｖｅ　ａ　"TCC_NEWLINE"ｌｅｇｅｎｄｏｎ　ｔｈｅｉｒ　ｓｉｄｅ？　Ｗｅ　ｈａｖｅ　"TCC_NEWLINE"ｏｎｅ　ｔｏｏ．Ｏｕｒ　ｓｕｍｍｏｎｅｒ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｓｏ　ｗｈａｔ　ｉｆ　ｔｈｅｙ　ｈａｖｅ　ａ　"TCC_NEWLINE"ｌｅｇｅｎｄ　ｏｎ　ｔｈｅｉｒ　ｓｉｄｅ？　Ｗｅ　ｈａｖｅ"TCC_NEWLINE"　ｏｎｅ　ｔｏｏ．　Ｏｕｒ　ｓｕｍｍｏｎｅｒ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌｅｔ’ｓ　ｇｏ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔー"TCC_NEWLINE"ｅｒｙ　ａｎｄｆｒｅｅ　ｔｈｅｉｒ　Ｈｅｒｏｅｓ　ｆｒｏｍ"TCC_NEWLINE"　Ｅｍｂｌａ’ｓｃｏｎｔｒｏｌ　ｂｅｆｏｒｅ　ｔｈｉｎｇｓ"TCC_NEWLINE"　ｇｅｔ　ｏｕｔ　ｏｆ　ｈａｎｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ａ　ｔｏｕｇｈ　ｂａｔｔー"TCC_NEWLINE"ｌｅ．Ｉ　ｈｏｐｅ　ｙｏｕ’ｒｅ　ｒｅａｄｙ　ｆｏｒ　ｔｈー"TCC_NEWLINE"ｉｓ，"TCC_NEWLINE
+"Ｌｅｔ’ｓ　ｇｏ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔー"TCC_NEWLINE"ｅｒｙ　ａｎｄ　ｆｒｅｅ　ｔｈｅｉｒ　Ｈｅｒｏｅｓ　ｆｒｏー"TCC_NEWLINE"ｍ　Ｅｍｂｌａ’ｓ　ｃｏｎｔｒｏｌ　ｂｅｆｏｒｅ　ｔｈｉｎー"TCC_NEWLINE"ｇｓ　ｇｅｔ　ｏｕｔ　ｏｆ　ｈａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ａ　ｔｏｕｇｈ　ｂａｔｔー"TCC_NEWLINE"ｌｅ．　Ｉ　ｈｏｐｅ　ｙｏｕ’ｒｅ　ｒｅａｄｙ　ｆｏｒ　ｔー"TCC_NEWLINE"ｈｉｓ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S0201_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｍａｒｔｈ，　Ｐｒｉｎｃｅ　ｏｆ　Ａｌｔｅａ．Ｙー"TCC_NEWLINE"ｏｕ　ｍｕｓｔ　ｂｅ　ｗｉｔｈ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆＨー"TCC_NEWLINE"ｅｒｏｅｓ　Ｉ’ｖｅ　ｈｅａｒｄ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｔｏｌｄ　ｕｓ　ａｂｏー"TCC_NEWLINE"ｕｔ　ｙｏｕ．Ａｎｄ　Ｉ　ａｓｓｕｍｅ　ｙｏｕ　ｋｎｏｗ　"TCC_NEWLINE"ａｌｌ　ａｂｏｕｔｔｈｅ　ｃｏｎｔｒａｃｔ　ｔｈａｔ　ｂｉー"TCC_NEWLINE"ｎｄｓ　ｕｓ　ｔｏ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｒｏｅｓ　ｏｆ　ａ　ｃｏｎｑｕｅｒｅｄ　ｗｏｒｌｄ　ｍー"TCC_NEWLINE"ｕｓｔｏｂｅｙ　ｔｈｅｉｒ　ｃｏｎｑｕｅｒｏｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｆ　ｙｏｕ　ｓｈｏｗ　ｕｓ　ｔｈａｔ　ｙｏｕ’ｒー"TCC_NEWLINE"ｅｍｏｒｅ　ｐｏｗｅｒｆｕｌ　ｔｈａｎ　ｏｕｒ　ｃｏｎｑｕー"TCC_NEWLINE"ｅｒｏｒ，ｔｈａｔ　ｗｉｌｌ　ｂｒｅａｋ　ｔｈｅ　ｃｏｎｔー"TCC_NEWLINE"ｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｂｅｉｎｇ　ｓａｉｄ，　ｗｅ　ｗｉｌｌ　ｂａｔｔー"TCC_NEWLINE"ｌｅ　ｏｕｒｖｅｒｙ　ｂｅｓｔ．　Ｎｏｗ，　ｓｈｏｗ　ｕｓ"TCC_NEWLINE"　ｗｈａｔｙｏｕ　ｃａｎ　ｄｏ！"
+"Ｉ　ａｍ　Ｍａｒｔｈ，　Ｐｒｉｎｃｅ　ｏｆ　Ａｌｔｅａ．　"TCC_NEWLINE"Ｙｏｕ　ｍｕｓｔ　ｂｅ　ｗｉｔｈ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ"TCC_NEWLINE"　Ｈｅｒｏｅｓ　Ｉ’ｖｅ　ｈｅａｒｄ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｔｏｌｄ　ｕｓ　ａｂｏー"TCC_NEWLINE"ｕｔ　ｙｏｕ．　Ａｎｄ　Ｉ　ａｓｓｕｍｅ　ｙｏｕ　ｋｎｏｗ"TCC_NEWLINE"　ａｌｌ　ａｂｏｕｔ　ｔｈｅ　ｃｏｎｔｒａｃｔ　ｔｈａｔ　"TCC_NEWLINE"ｂｉｎｄｓ　ｕｓ　ｔｏ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｏｅｓ　ｏｆ　ａ　ｃｏｎｑｕｅｒｅｄ　ｗｏｒｌｄ　ｍー"TCC_NEWLINE"ｕｓｔ　ｏｂｅｙ　ｔｈｅｉｒ　ｃｏｎｑｕｅｒｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｙｏｕ　ｓｈｏｗ　ｕｓ　ｔｈａｔ　ｙｏｕ’ｒー"TCC_NEWLINE"ｅ　ｍｏｒｅ　ｐｏｗｅｒｆｕｌ　ｔｈａｎ　ｏｕｒ　ｃｏｎｑー"TCC_NEWLINE"ｕｅｒｏｒ，　ｔｈａｔ　ｗｉｌｌ　ｂｒｅａｋ　ｔｈｅ　ｃｏー"TCC_NEWLINE"ｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｂｅｉｎｇ　ｓａｉｄ，　ｗｅ　ｗｉｌｌ　ｂａｔｔー"TCC_NEWLINE"ｌｅ　ｏｕｒ　ｖｅｒｙ　ｂｅｓｔ．　Ｎｏｗ，　ｓｈｏｗ　ｕー"TCC_NEWLINE"ｓ　ｗｈａｔ　ｙｏｕ　ｃａｎ　ｄｏ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0201_EN] = TCC_OPEN_LEFT
-"Ｗｅｌｌ　ｄｏｎｅ．　Ｉ　ｅｘｐｅｃｔｅｄ　ａｓ　ｍｕｃｈー"TCC_NEWLINE"ｆｒｏｍ　ｙｏｕ．　Ｂｕｔ　ｏｕｒ　ｂａｔｔｌｅｓ　ａｒｅー"TCC_NEWLINE"ｆａｒ　ｆｒｏｍ　ｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｎｅｘｔ　ｔｉｍｅ　ｙｏｕ　ｓｅｅ　ｍｅ，　ｗｅ　"TCC_NEWLINE"ｗｉｌｌｓｅｔｔｌｅ　ｔｈｉｓ　ｏｎｃｅ　ａｎｄ　ｆｏｒ　"TCC_NEWLINE"ａｌｌ．"
+"Ｗｅｌｌ　ｄｏｎｅ．　Ｉ　ｅｘｐｅｃｔｅｄ　ａｓ　ｍｕｃｈ"TCC_NEWLINE"　ｆｒｏｍ　ｙｏｕ．　Ｂｕｔ　ｏｕｒ　ｂａｔｔｌｅｓ　ａｒー"TCC_NEWLINE"ｅ　ｆａｒ　ｆｒｏｍ　ｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｎｅｘｔ　ｔｉｍｅ　ｙｏｕ　ｓｅｅ　ｍｅ，　ｗｅ　"TCC_NEWLINE"ｗｉｌｌ　ｓｅｔｔｌｅ　ｔｈｉｓ　ｏｎｃｅ　ａｎｄ　ｆｏｒ"TCC_NEWLINE"　ａｌｌ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

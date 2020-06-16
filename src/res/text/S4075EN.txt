@@ -1,41 +1,41 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
-"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ"TCC_NEWLINE"．．．Ｔｈｅ　ｓｕｎ’ｓ　ｌａｓｔ　ｒａｙｓ　ａｒｅ　ｄｉー"TCC_NEWLINE"ｓａｐｐｅａｒｉｎｇ．．．Ｔｈｉｓ　ｉｓ　ｗｈｅｎ　ｄａｙ"TCC_NEWLINE"　ｔｕｒｎｓ　ｔｏ　ｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ"TCC_NEWLINE"．．．　Ｔｈｅ　ｓｕｎ’ｓ　ｌａｓｔ　ｒａｙｓ　ａｒｅ　ｄー"TCC_NEWLINE"ｉｓａｐｐｅａｒｉｎｇ．．．　Ｔｈｉｓ　ｉｓ　ｗｈｅｎ　ｄー"TCC_NEWLINE"ａｙ　ｔｕｒｎｓ　ｔｏ　ｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｒｅ　ｙｏｕ　ｓｕｒｅ？　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅａ　"TCC_NEWLINE"ｄｅａｄ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｓｕｒｅ？　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ　ａ"TCC_NEWLINE"　ｄｅａｄ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｌ．．．　Ｉ　ｃａｎ　ｓｈｏｗ　ｙｏｕ　ｗａｋｉｎｇ"TCC_NEWLINE"　ｏｎｅｓａ　ｄａｙｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ｔｈｅ　ｄａｙ’ｓ　ｌａｓｔ　ｎｉｇｈｔ，　ｉｆ　Ｉ"TCC_NEWLINE"　ｂｒｉｎｇ　ｙｏｕｉｎｔｏ　ａ　ｐａｒｔｉｃｕｌａｒｌｙ"TCC_NEWLINE"　ｓｃａｒｙ　ｄａｙｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｕｃｈ　ａ　ｄａｙｄｒｅａｍ　ｗｏｕｌｄ　ｂｅ　ｖｅｒｙー"TCC_NEWLINE"ｃｌｏｓｅ　ｔｏ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅｓ，ｙｏｕ　ｓｅｅ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ．．．　Ｉ　ｃａｎ　ｓｈｏｗ　ｙｏｕ　ｗａｋｉｎｇ"TCC_NEWLINE"　ｏｎｅｓ　ａ　ｄａｙｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｈｅ　ｄａｙ’ｓ　ｌａｓｔ　ｎｉｇｈｔ，　ｉｆ　Ｉ"TCC_NEWLINE"　ｂｒｉｎｇ　ｙｏｕ　ｉｎｔｏ　ａ　ｐａｒｔｉｃｕｌａｒｌー"TCC_NEWLINE"ｙ　ｓｃａｒｙ　ｄａｙｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｃｈ　ａ　ｄａｙｄｒｅａｍ　ｗｏｕｌｄ　ｂｅ　ｖｅｒｙ"TCC_NEWLINE"　ｃｌｏｓｅ　ｔｏ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｎｉｇｈｔｍー"TCC_NEWLINE"ａｒｅｓ，　ｙｏｕ　ｓｅｅ．．．　＊ｓｍａｃｋ　ｓｍａｃｋ"TCC_NEWLINE"＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
-"Ｓｏ　ｆｒｏｍ　ｗｉｔｈｉｎ　ｔｈｅ　ｄａｙｄｒｅａｍｓ，"TCC_NEWLINE"ｉｔ　ｓｈｏｕｌｄ　ｂｅ　ｐｏｓｓｉｂｌｅ　ｔｏ　ｃｒｏｓー"TCC_NEWLINE"ｓｏｖｅｒ　ｉｎｔｏ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｌａｎｄー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｆｒｏｍ　ｗｉｔｈｉｎ　ｔｈｅ　ｄａｙｄｒｅａｍｓ，"TCC_NEWLINE"　ｉｔ　ｓｈｏｕｌｄ　ｂｅ　ｐｏｓｓｉｂｌｅ　ｔｏ　ｃｒｏー"TCC_NEWLINE"ｓｓ　ｏｖｅｒ　ｉｎｔｏ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｌａー"TCC_NEWLINE"ｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｒｅａｄｙ　ｗｈｅｎ　ｙｏｕ　ａｒｅ，　Ｍｉｒａｂｉー"TCC_NEWLINE"ｌｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｒｉｇｈｔ．　Ｆｉｒｓｔ，　ｊｕｓｔ　ａ　ｐｉｎｃｈ　ｏｆ"TCC_NEWLINE"　ｌｊｏｓｌｆｒｄｕｓｔ．．．　Ｊｕｓｔ　ａ　ｌｉｔｔｌｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｗｉｔｈ　ｔｈａｔ，　ｙｏｕ　ｗｉｌｌ　ｆａｌｌ　"TCC_NEWLINE"ｉｎｔｏａ　ｄａｙｄｒｅａｍ．．．　Ｗ－ｗａｉｔ．．．　Ｓー"TCC_NEWLINE"ｏｍｅｔｈｉｎｇｉｓ　ｃｏｍｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ．　Ｆｉｒｓｔ，　ｊｕｓｔ　ａ　ｐｉｎｃｈ　ｏｆ"TCC_NEWLINE"　ｌｊｏｓｌｆｒ　ｄｕｓｔ．．．　Ｊｕｓｔ　ａ　ｌｉｔｔｌー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｉｔｈ　ｔｈａｔ，　ｙｏｕ　ｗｉｌｌ　ｆａｌｌ　"TCC_NEWLINE"ｉｎｔｏ　ａ　ｄａｙｄｒｅａｍ．．．　Ｗ－ｗａｉｔ．．．　"TCC_NEWLINE"Ｓｏｍｅｔｈｉｎｇ　ｉｓ　ｃｏｍｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｉｇｈｔｍａｒｅｓ．．．　Ｗｅ　ｈａｖｅｎ’ｔ　ｅｖｅｎー"TCC_NEWLINE"ｅｎｔｅｒｅｄ　ｔｈｅｉｒ　ｒｅａｌｍ　ａｎｄ　ｔｈｅｙ’"TCC_NEWLINE"ｒｅａｌｒｅａｄｙ　ｓｗａｒｍｉｎｇ　ｔｏｗａｒｄ　ｕｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｉｇｈｔｍａｒｅｓ．．．　Ｗｅ　ｈａｖｅｎ’ｔ　ｅｖｅｎ"TCC_NEWLINE"　ｅｎｔｅｒｅｄ　ｔｈｅｉｒ　ｒｅａｌｍ　ａｎｄ　ｔｈｅｙ"TCC_NEWLINE"’ｒｅ　ａｌｒｅａｄｙ　ｓｗａｒｍｉｎｇ　ｔｏｗａｒｄ　ｕー"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
-"Ｙｏｕ　ａｒｅ　ｂａｃｋｅｄ　ａｇａｉｎｓｔ　ｔｈｅ　ｓｅー"TCC_NEWLINE"ａ．Ｔｈｅｒｅ　ｉｓ　ｎｏｗｈｅｒｅ　ｌｅｆｔ　ｔｏ　ｒｕー"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｎｏｗ　ｆａｃｅ　ｙｏｕｒ　ｄｅｅｐｅｓｔ　ｆｅａー"TCC_NEWLINE"ｒｓ．Ｅｖｅｒｙ　ｌａｓｔ　ｏｎｅ　ｏｆ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｂａｃｋｅｄ　ａｇａｉｎｓｔ　ｔｈｅ　ｓｅー"TCC_NEWLINE"ａ．　Ｔｈｅｒｅ　ｉｓ　ｎｏｗｈｅｒｅ　ｌｅｆｔ　ｔｏ　ｒー"TCC_NEWLINE"ｕｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｎｏｗ　ｆａｃｅ　ｙｏｕｒ　ｄｅｅｐｅｓｔ　ｆｅａー"TCC_NEWLINE"ｒｓ．　Ｅｖｅｒｙ　ｌａｓｔ　ｏｎｅ　ｏｆ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｇａｈ！　Ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ　ｋｅｅｐ　ｃｏｍｉー"TCC_NEWLINE"ｎｇ！Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｓｔｏｐｐｉｎｇ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇａｈ！　Ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ　ｋｅｅｐ　ｃｏｍｉー"TCC_NEWLINE"ｎｇ！　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｓｔｏｐｐｉｎｇ　ｔｈｅｍ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_TRIANDRA
 "Ｔｈｉｓ　ｉｓ　ｙｏｕｒ　ｆｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｒｅ　ｉｓ　ｎｏｗｈｅｒｅ　ｔｏ　ｒｕｎ．　Ｉｔ’ｓ"TCC_NEWLINE"　ｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
 "Ｏｈ　ｎｏ．．．　Ｗｈ－ｗｈａｔ　ｓｈｏｕｌｄ　Ｉ　ｄｏ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ａ　ｔｉｍｅ　ｌｉｋｅ　ｔｈｉｓ．．．ｔｈｅｒｅ’ｓ"TCC_NEWLINE"　ｏｎｌｙｏｎｅ　ｔｈｉｎｇ　ｔｏ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ａ　ｔｉｍｅ　ｌｉｋｅ　ｔｈｉｓ．．．ｔｈｅｒｅ’ｓ"TCC_NEWLINE"　ｏｎｌｙ　ｏｎｅ　ｔｈｉｎｇ　ｔｏ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｚｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
-"Ｍｉｒａｂｉｌｉｓ，　ｗａｋｅ　ｕｐ！　Ｕｓｅ　ｔｈｅｌｊー"TCC_NEWLINE"ｓｌｆｒ　ｄｕｓｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｉｒａｂｉｌｉｓ，　ｗａｋｅ　ｕｐ！　Ｕｓｅ　ｔｈｅ　ｌー"TCC_NEWLINE"ｊｓｌｆｒ　ｄｕｓｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｂｕｔ　ｉｔ　ｗｏｎ’ｔ　ｄｏ　ｕｓ　ａｎｙ　ｇｏｏｄ　ｔー"TCC_NEWLINE"ｏ　ｆａｌｌａｓｌｅｅｐ　ｉｎ　ｔｈｅ　ｍｉｄｄｌｅ　ｏｆ"TCC_NEWLINE"　ａ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｔ　ｗｏｎ’ｔ　ｄｏ　ｕｓ　ａｎｙ　ｇｏｏｄ　ｔー"TCC_NEWLINE"ｏ　ｆａｌｌ　ａｓｌｅｅｐ　ｉｎ　ｔｈｅ　ｍｉｄｄｌｅ　ｏー"TCC_NEWLINE"ｆ　ａ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｆ　ｔｈｉｓ　ｋｅｅｐｓ　ｕｐ，　ｗｅ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE
@@ -45,37 +45,37 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE
 "Ｉ’ｍ　ｎｏｔ　ｄｏｉｎｇ　ｔｈｉｓ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｊｕｓｔ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｔｈｅｍ　ｔｏ　ｃー"TCC_NEWLINE"ｏｎｔｉｎｕｅｔｏｒｔｕｒｉｎｇ　ｔｈｅ　ｐｅｏｐｌｅ　ｏー"TCC_NEWLINE"ｆ　Ｅｍｂｌａ．Ｎｏｗ，　ｇｏ．　Ｈｕｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ｗｏｎ’ｔ　ｂｅ　ｄｅｆｅａー"TCC_NEWLINE"ｔｅｄｓｏ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｔｈｅｍ　ｔｏ　ｃー"TCC_NEWLINE"ｏｎｔｉｎｕｅ　ｔｏｒｔｕｒｉｎｇ　ｔｈｅ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ｏｆ　Ｅｍｂｌａ．　Ｎｏｗ，　ｇｏ．　Ｈｕｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ｗｏｎ’ｔ　ｂｅ　ｄｅｆｅａー"TCC_NEWLINE"ｔｅｄ　ｓｏ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｕｎｄｅｒｓｔｏｏｄ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ"TCC_NEWLINE"．Ｔｈａｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｉｒａｂｉｌｉｓ，　ｗｅ’ｒｅ　ｃｏｕｎｔｉｎｇ　ｏｎ　"TCC_NEWLINE"ｙｏｕ．Ｐｌｅａｓｅ，　ｑｕｉｃｋｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｄｅｒｓｔｏｏｄ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ"TCC_NEWLINE"．　Ｔｈａｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｉｒａｂｉｌｉｓ，　ｗｅ’ｒｅ　ｃｏｕｎｔｉｎｇ　ｏｎ　"TCC_NEWLINE"ｙｏｕ．　Ｐｌｅａｓｅ，　ｑｕｉｃｋｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ａｌｌ　ｒｉｇｈｔ，　ｅｖｅｒｙｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｃｌｏｓｅ　ｙｏｕｒ　ｅｙｅｓ．．．　Ｒｅｌａｘ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａ－ａｒｅ　ｗｅ　ｇｏｉｎｇ　ｔｏ　ｓｌｅｅｐ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅｍｉｄｄｌｅ　ｏｆ　ａ　ｂａｔｔｌｅ．．．？"TCC_NEWLINE TCC_PUSH_A
+"Ａ－ａｒｅ　ｗｅ　ｇｏｉｎｇ　ｔｏ　ｓｌｅｅｐ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｍｉｄｄｌｅ　ｏｆ　ａ　ｂａｔｔｌｅ．．．？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
-"．．．Ｗｉｌｌ　Ｐｒｉｎｃｅｓ　Ｖｅｒｏｎｉｃａ　ｒｅａｌー"TCC_NEWLINE"ｌｙｂｅ　ａｌｌ　ｒｉｇｈｔ　ａｌｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｉｌｌ　Ｐｒｉｎｃｅｓ　Ｖｅｒｏｎｉｃａ　ｒｅａｌー"TCC_NEWLINE"ｌｙ　ｂｅ　ａｌｌ　ｒｉｇｈｔ　ａｌｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｏｕｒ　ｔｉｍｅ　ｉｎ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍー"TCC_NEWLINE"ｓｓｈｏｕｌｄ　ｏｎｌｙ　ｔａｋｅ　ｍｅｒｅ　ｍｏｍｅｎｔー"TCC_NEWLINE"ｓｈｅｒｅ．　Ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｂａｃｋ　ｉｎ　ｔー"TCC_NEWLINE"ｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ　ｔｏ　ｈｅｓｉｔａｔｅ．　"TCC_NEWLINE"Ｌｅｔ’ｓ　ｇｏ．Ｏｎｗａｒｄ，　ｔｏ　ｔｈｅ　ｎｉｇｈｔー"TCC_NEWLINE"ｍａｒｅ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｔｉｍｅ　ｉｎ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍー"TCC_NEWLINE"ｓ　ｓｈｏｕｌｄ　ｏｎｌｙ　ｔａｋｅ　ｍｅｒｅ　ｍｏｍｅｎー"TCC_NEWLINE"ｔｓ　ｈｅｒｅ．　Ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｂａｃｋ　ｉｎ"TCC_NEWLINE"　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ　ｔｏ　ｈｅｓｉｔａｔｅ．　"TCC_NEWLINE"Ｌｅｔ’ｓ　ｇｏ．　Ｏｎｗａｒｄ，　ｔｏ　ｔｈｅ　ｎｉｇｈー"TCC_NEWLINE"ｔｍａｒｅ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4075_EN] = TCC_OPEN_LEFT
 "Ｕｓ？　Ｓａｖｅ　ｔｈｅ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｗｏｒｌｄ　ｉｓ　ｄｙｉｎｇ．　Ｏｎｌｙ　ｃｈｉー"TCC_NEWLINE"ｌｄｒｅｎｗｈｏ　ａｒｅ　ｐｕｒｅ　ｏｆ　ｈｅａｒｔ　ｃａー"TCC_NEWLINE"ｎ　ｓａｖｅ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｄｕｌｔｓ　ｈａｖｅ　ｆｏｒｇｏｔｔｅｎ　ｈｏｗ　ｔｏ　"TCC_NEWLINE"ｄｒｅａｍ，ａｎｄ　ｓｏ　ａｒｅ　ｐｏｗｅｒｌｅｓｓ　ｈｅー"TCC_NEWLINE"ｒｅ．．．　Ｗｅ　ｂｅｇｏｆ　ｙｏｕ．．．　Ｗｉｌｌ　ｙｏー"TCC_NEWLINE"ｕ　ｈｅｌｐ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｗｏｒｌｄ　ｉｓ　ｄｙｉｎｇ．　Ｏｎｌｙ　ｃｈｉー"TCC_NEWLINE"ｌｄｒｅｎ　ｗｈｏ　ａｒｅ　ｐｕｒｅ　ｏｆ　ｈｅａｒｔ　ｃー"TCC_NEWLINE"ａｎ　ｓａｖｅ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｄｕｌｔｓ　ｈａｖｅ　ｆｏｒｇｏｔｔｅｎ　ｈｏｗ　ｔｏ　"TCC_NEWLINE"ｄｒｅａｍ，　ａｎｄ　ｓｏ　ａｒｅ　ｐｏｗｅｒｌｅｓｓ　ｈー"TCC_NEWLINE"ｅｒｅ．．．　Ｗｅ　ｂｅｇ　ｏｆ　ｙｏｕ．．．　Ｗｉｌｌ　"TCC_NEWLINE"ｙｏｕ　ｈｅｌｐ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
 "Ｈｏｗ　ｃｏｕｌｄ　ＷＥ　ｈｅｌｐ　ＹＯＵ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｏｒｒｙ　ｎｏｔ．　Ｄｒｉｎｋ　ｔｈｉｓ　ｆｌｏｗｅｒ　"TCC_NEWLINE"ｎｅｃｔａｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｙｏｕ　ｄｏ，　ｙｏｕ　ｗｉｌｌ　ｂｅｃｏｍｅ　"TCC_NEWLINE"ａｎｅｘｔｒａｏｒｄｉｎａｒｙ　ｖｅｒｓｉｏｎ　ｏｆ　ｙｏー"TCC_NEWLINE"ｕｒｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｘｔｒａｏｒｄｉｎａｒｙ？　Ｗｈａｔ　ｄｏｅｓｔｈａｔ　"TCC_NEWLINE"ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｍｅａｎｓ　ｙｏｕ　ｗｉｌｌ　ｂｅ　ｈｅｒｏｅｓ．　"TCC_NEWLINE"Ｈｅｒｏｅｓａｂｌｅ　ｔｏ　ｓａｖｅ　ｔｈｅ　ｗｏｒｌｄ．"TCC_NEWLINE"　Ｔｈｅ　ｋｉｎｄ　ｏｆｐｅｒｓｏｎ　ｙｏｕ’ｖｅ　ｏｎｌー"TCC_NEWLINE"ｙ　ｄｒｅａｍｔ　ｏｆ　ｂｅｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｙｏｕ　ｄｏ，　ｙｏｕ　ｗｉｌｌ　ｂｅｃｏｍｅ　"TCC_NEWLINE"ａｎ　ｅｘｔｒａｏｒｄｉｎａｒｙ　ｖｅｒｓｉｏｎ　ｏｆ　ｙー"TCC_NEWLINE"ｏｕｒｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｘｔｒａｏｒｄｉｎａｒｙ？　Ｗｈａｔ　ｄｏｅｓ　ｔｈａｔ"TCC_NEWLINE"　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍｅａｎｓ　ｙｏｕ　ｗｉｌｌ　ｂｅ　ｈｅｒｏｅｓ．　"TCC_NEWLINE"Ｈｅｒｏｅｓ　ａｂｌｅ　ｔｏ　ｓａｖｅ　ｔｈｅ　ｗｏｒｌｄ"TCC_NEWLINE"．　Ｔｈｅ　ｋｉｎｄ　ｏｆ　ｐｅｒｓｏｎ　ｙｏｕ’ｖｅ　ｏー"TCC_NEWLINE"ｎｌｙ　ｄｒｅａｍｔ　ｏｆ　ｂｅｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｉｆ　ｔｈａｔ　ｉｓ　ｗｈａｔ　ｗｅ　ｍｕｓｔ　ｄｏ"TCC_NEWLINE"，Ｉ　ｗｉｌｌ　ｄｏ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉｆ　ｔｈａｔ　ｉｓ　ｗｈａｔ　ｗｅ　ｍｕｓｔ　ｄｏ"TCC_NEWLINE"，　Ｉ　ｗｉｌｌ　ｄｏ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓａｍｅ　ｈｅｒｅ．　Ｉ　ｗａｎｔ　ｔｏ　ｂｅ　ａ　ｈｅｒー"TCC_NEWLINE"ｏ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｎｋ　ｙｏｕ　ｂｏｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ．．．　Ｈｏｗ　ｌｏｖｅｌｙ！　Ｃａｎ　Ｉ　ｄｒｉｎｋー"TCC_NEWLINE"ｓｏｍｅ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ．．．　Ｈｏｗ　ｌｏｖｅｌｙ！　Ｃａｎ　Ｉ　ｄｒｉｎｋ"TCC_NEWLINE"　ｓｏｍｅ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FREYJA
-"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｉ　ｗｏｕｌｄ　ｎｏｔ　ｄー"TCC_NEWLINE"ｅｎｙｙｏｕ　ｔｈｅ　ｏｐｐｏｒｔｕｎｉｔｙ　ｔｏ　ｈｅｌー"TCC_NEWLINE"ｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｉ　ｗｏｕｌｄ　ｎｏｔ　ｄー"TCC_NEWLINE"ｅｎｙ　ｙｏｕ　ｔｈｅ　ｏｐｐｏｒｔｕｎｉｔｙ　ｔｏ　ｈｅー"TCC_NEWLINE"ｌｐ．．．"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

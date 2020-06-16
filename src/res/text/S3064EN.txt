@@ -1,7 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3064_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｃａｉｎｅｇｈｉｓ，　Ｋｉｎｇ　ｏｆ　Ｇａｌｌｉー"TCC_NEWLINE"ａａｎｄ　ｔｈｅ　ｂｅａｓｔ　ｔｒｉｂｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｃａｉｎｅｇｈｉｓ，　Ｋｉｎｇ　ｏｆ　Ｇａｌｌｉー"TCC_NEWLINE"ａ　ａｎｄ　ｔｈｅ　ｂｅａｓｔ　ｔｒｉｂｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3064_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｏｈ，　Ｍｏｔｈｅｒ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -11,19 +11,19 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HEL
 TCC_OPEN_LEFT
 "Ａｈ！　Ｍｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏ　ｙｏｕ　ｈａｖｅ　ｎｏｔ　ｙｅｔ　ｐｅｒｉｓｈｅｄ，"TCC_NEWLINE"　ａｎｄｙｏｕ　ｒｅｍａｉｎ　ｗｉｔｈ　ｔｈｅ　Ａｓｋｒａー"TCC_NEWLINE"ｎｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｇｏｏｄ．　Ｃｏｎｔｉｎｕｅ　ｔｏ　ｉｎｇｒａｔｉａｔｅ　"TCC_NEWLINE"ｙｏｕｒｓｅｌｆ．Ｒｅｌｙ　ｏｎ　ｔｈｅｍ．　Ｓｕｂｍｉｔ"TCC_NEWLINE"　ｔｏ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｙｏｕ　ｈａｖｅ　ｎｏｔ　ｙｅｔ　ｐｅｒｉｓｈｅｄ，"TCC_NEWLINE"　ａｎｄ　ｙｏｕ　ｒｅｍａｉｎ　ｗｉｔｈ　ｔｈｅ　Ａｓｋｒー"TCC_NEWLINE"ａｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ．　Ｃｏｎｔｉｎｕｅ　ｔｏ　ｉｎｇｒａｔｉａｔｅ　"TCC_NEWLINE"ｙｏｕｒｓｅｌｆ．　Ｒｅｌｙ　ｏｎ　ｔｈｅｍ．　Ｓｕｂｍｉー"TCC_NEWLINE"ｔ　ｔｏ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｎ，　ｗｈｅｎ　Ｉ　ｏｒｄｅｒ　ｉｔ，　ｋｉｌｌ　ｔー"TCC_NEWLINE"ｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｏｔｈｅｒ．．．　Ｔｈｅｙ．．．　Ｔｈｅｙ　ｔｒｅａｔ　"TCC_NEWLINE"ｍｅ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ’ｒｅ　ｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．．．　Ｐｒｉｎー"TCC_NEWLINE"ｃｅＡｌｆｏｎｓｅ，"TCC_NEWLINE
+"Ｔｈｅｙ’ｒｅ　ｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．．．　Ｐｒｉｎー"TCC_NEWLINE"ｃｅ　Ａｌｆｏｎｓｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｌｅａｓｅ．．．　Ｆｏｒｇｅｔ　ａｌｌ　ｔｈｉｓ．．．　"TCC_NEWLINE"Ｌｅｔ　ｔｈｅｍｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ．．．　Ｆｏｒｇｅｔ　ａｌｌ　ｔｈｉｓ．．．　"TCC_NEWLINE"Ｌｅｔ　ｔｈｅｍ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｒｅｓｔ　ｉｎ　ｙｏｕｒ　ｗｉー"TCC_NEWLINE"ｓｈｅｓ，　Ｅｉｒ．Ｙｏｕ　ｈａｖｅ　ｈｅａｒｄ　ｍｙ　ｏー"TCC_NEWLINE"ｒｄｅｒ，　ａｎｄ　ｙｏｕｗｉｌｌ　ｏｂｅｙ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｒｅｓｔ　ｉｎ　ｙｏｕｒ　ｗｉー"TCC_NEWLINE"ｓｈｅｓ，　Ｅｉｒ．　Ｙｏｕ　ｈａｖｅ　ｈｅａｒｄ　ｍｙ　"TCC_NEWLINE"ｏｒｄｅｒ，　ａｎｄ　ｙｏｕ　ｗｉｌｌ　ｏｂｅｙ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｏｔｈｅｒ．．．　Ｅｖｅｒ　ｓｉｎｃｅ　Ｉ　ｈａｖｅ　ｊー"TCC_NEWLINE"ｏｉｎｅｄｔｈｅｍ，　Ｉ　ｋｅｅｐ　ｈａｖｉｎｇ　ｔｈｅ　"TCC_NEWLINE"ｓａｍｅ　ｄｒｅａｍ．．．Ａ　ｄｒｅａｍ　ｏｆ　ｔｈｅ　ｐー"TCC_NEWLINE"ａｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｉｔｅ　ｗｉｎｇｓ．．．　Ｗａｒｍｔｈ　ａｎｄ　ｌｉｆー"TCC_NEWLINE"ｅ．．．　Ｙｏｕｓｍｉｌｅｄ　ａｔ　ｍｅ　ｓｏ　ｇｅｎｔｌー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｔｈｅｒ．．．　Ｅｖｅｒ　ｓｉｎｃｅ　Ｉ　ｈａｖｅ　ｊー"TCC_NEWLINE"ｏｉｎｅｄ　ｔｈｅｍ，　Ｉ　ｋｅｅｐ　ｈａｖｉｎｇ　ｔｈｅ"TCC_NEWLINE"　ｓａｍｅ　ｄｒｅａｍ．．．　Ａ　ｄｒｅａｍ　ｏｆ　ｔｈｅ"TCC_NEWLINE"　ｐａｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｉｔｅ　ｗｉｎｇｓ．．．　Ｗａｒｍｔｈ　ａｎｄ　ｌｉｆー"TCC_NEWLINE"ｅ．．．　Ｙｏｕ　ｓｍｉｌｅｄ　ａｔ　ｍｅ　ｓｏ　ｇｅｎｔー"TCC_NEWLINE"ｌｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｅｎ．．．　Ｗｈｅｎ　ｗａｓ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｏｕ　ｗｉｌｌ　ｏｂｅｙ　ｍｅ，　Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A

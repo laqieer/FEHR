@@ -1,41 +1,41 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S0103_EN] = TCC_OPEN_LEFT
-"Ｓｃｕｒｒｙ，　ｓｃｕｒｒｙ，　ｌｉｔｔｌｅ　Ｈｅｒｏｅｓ"TCC_NEWLINE"．．．　Ｓｔｅａｌｆｏｒ　ｍｅ．　Ｓｐｒｅａｄ　ｄｅｓｔｒー"TCC_NEWLINE"ｕｃｔｉｏｎ．　Ｋｉｌｌ　ａｌｌｔｈｏｓｅ　ｗｈｏ　ｓｔａー"TCC_NEWLINE"ｎｄ　ｉｎ　ｙｏｕｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｋｉｎｇｄｏｍ　ｍｕｓｔ　ｆａｌｌ．　Ｏｎｃｅ　"TCC_NEWLINE"ｉｔ’ｓｇｏｎｅ，　ｎｏ　ｏｎｅ　ｗｉｌｌ　ｏｐｐｏｓｅ　"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙ　Ｈｅｒｏ，　ｉｎ　ｅｖｅｒｙ　ｗｏｒｌｄｔｈｅー"TCC_NEWLINE"ｙ’ｌｌａｌｌ　ｂｅ　ｍｉｎｅ．　Ｅｖｅｒｙ　ｌａｓｔ　ｏー"TCC_NEWLINE"ｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｃｕｒｒｙ，　ｓｃｕｒｒｙ，　ｌｉｔｔｌｅ　Ｈｅｒｏｅｓ"TCC_NEWLINE"．．．　Ｓｔｅａｌ　ｆｏｒ　ｍｅ．　Ｓｐｒｅａｄ　ｄｅｓｔー"TCC_NEWLINE"ｒｕｃｔｉｏｎ．　Ｋｉｌｌ　ａｌｌ　ｔｈｏｓｅ　ｗｈｏ　ｓー"TCC_NEWLINE"ｔａｎｄ　ｉｎ　ｙｏｕｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｋｉｎｇｄｏｍ　ｍｕｓｔ　ｆａｌｌ．　Ｏｎｃｅ　"TCC_NEWLINE"ｉｔ’ｓ　ｇｏｎｅ，　ｎｏ　ｏｎｅ　ｗｉｌｌ　ｏｐｐｏｓｅ"TCC_NEWLINE"　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙ　Ｈｅｒｏ，　ｉｎ　ｅｖｅｒｙ　ｗｏｒｌｄｔｈｅー"TCC_NEWLINE"ｙ’ｌｌ　ａｌｌ　ｂｅ　ｍｉｎｅ．　Ｅｖｅｒｙ　ｌａｓｔ　"TCC_NEWLINE"ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ　ｗｏｎ’ｔ　ａｌｌｏｗ　ｉｔ，　Ｐｒｉｎｃｅｓｓ　Ｖー"TCC_NEWLINE"ｅｒｏｎｉｃａ．Ａｎｄ　Ｉ　ｗｉｌｌ　ｐｅｒｓｏｎａｌｌｙ"TCC_NEWLINE"　ｎｅｖｅｒ　ｆｏｒｇｅｔｔｈｉｓ　ｖｉｏｌａｔｉｏｎ　ｏー"TCC_NEWLINE"ｆ　ｍｙ　ｋｉｎｇｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｏｎ’ｔ　ａｌｌｏｗ　ｉｔ，　Ｐｒｉｎｃｅｓｓ　Ｖー"TCC_NEWLINE"ｅｒｏｎｉｃａ．　Ａｎｄ　Ｉ　ｗｉｌｌ　ｐｅｒｓｏｎａｌｌー"TCC_NEWLINE"ｙ　ｎｅｖｅｒ　ｆｏｒｇｅｔ　ｔｈｉｓ　ｖｉｏｌａｔｉｏｎ"TCC_NEWLINE"　ｏｆ　ｍｙ　ｋｉｎｇｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｉｔ’ｓ　ｙｏｕ．　Ａｎｄ　ａｆｔｅｒ　Ｉ　ｗｅｎー"TCC_NEWLINE"ｔｔｈｒｏｕｇｈ　ａｌｌ　ｔｈａｔ　ｔｒｏｕｂｌｅ　ｔｏ　"TCC_NEWLINE"ａｒｒａｎｇｅｙｏｕｒ　ｐｌａｙｄａｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　ｗｈｏ　ａｒｅ　ＹＯＵ，　ｓｔｒａｎｇｅｒ？　Ｙー"TCC_NEWLINE"ｏｕｈａｖｅ　ｔｈａｔ　ｓｉｌｌｙ　ｒｅｌｉｃ．　Ｔｈｅｎ"TCC_NEWLINE"　ｙｏｕ　ｍｕｓｔｂｅ　ｔｈｅ　ｌｅｇｅｎｄａｒｙ　ｓｕｍー"TCC_NEWLINE"ｍｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｍａｔｔｅｒ．　Ｉｔ　ｓｉｍｐｌｙ　ｍｅａｎｓ　ｔｈー"TCC_NEWLINE"ａｔｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｆｉｒｓｔ　ｔｏ　ｄｉー"TCC_NEWLINE"ｅ．Ｏｈ．．．Ｘａｎｄｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｉｔ’ｓ　ｙｏｕ．　Ａｎｄ　ａｆｔｅｒ　Ｉ　ｗｅｎー"TCC_NEWLINE"ｔ　ｔｈｒｏｕｇｈ　ａｌｌ　ｔｈａｔ　ｔｒｏｕｂｌｅ　ｔｏ"TCC_NEWLINE"　ａｒｒａｎｇｅ　ｙｏｕｒ　ｐｌａｙｄａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｗｈｏ　ａｒｅ　ＹＯＵ，　ｓｔｒａｎｇｅｒ？　Ｙー"TCC_NEWLINE"ｏｕ　ｈａｖｅ　ｔｈａｔ　ｓｉｌｌｙ　ｒｅｌｉｃ．　Ｔｈｅー"TCC_NEWLINE"ｎ　ｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｌｅｇｅｎｄａｒｙ　ｓー"TCC_NEWLINE"ｕｍｍｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ．　Ｉｔ　ｓｉｍｐｌｙ　ｍｅａｎｓ　ｔｈー"TCC_NEWLINE"ａｔ　ｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｆｉｒｓｔ　ｔｏ　ｄー"TCC_NEWLINE"ｉｅ．　Ｏｈ．．．Ｘａｎｄｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_XANDER
-"Ｙｏｕ　ｗｉｓｈ　ｔｈｉｓ　ｏｎｅ　ｓｌａｉｎ，　Ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓＶｅｒｏｎｉｃａ？　Ａｓ　ｙｏｕ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｓｈ　ｔｈｉｓ　ｏｎｅ　ｓｌａｉｎ，　Ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓ　Ｖｅｒｏｎｉｃａ？　Ａｓ　ｙｏｕ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ！　Ｓｈｅ　ｈａｓ　Ｘａｎｄｅｒ，　ｏｎｅ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅｍｏｓｔ　ｐｏｗｅｒｆｕｌ　Ｈｅｒｏｅｓ　ｆｒｏｍｔｈｅ"TCC_NEWLINE"　Ｗｏｒｌｄ　ｏｆ　Ｃｏｎｑｕｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｓｈｅ　ｈａｓ　Ｘａｎｄｅｒ，　ｏｎｅ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅ　ｍｏｓｔ　ｐｏｗｅｒｆｕｌ　Ｈｅｒｏｅｓ　ｆｒｏｍ　ｔー"TCC_NEWLINE"ｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｃｏｎｑｕｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｗｅ’ｌｌ　ｐｒｏｔｅｃｔ　ｙｏー"TCC_NEWLINE"ｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｇｅｔ　ｒｅａｄｙ，　ｅｖｅｒｙｏｎｅ．　Ｌｅｔ’ｓ　ｓｈー"TCC_NEWLINE"ｏｗ　ｔｈｉｓｒｏｔｔｅｎ　ｐｒｉｎｃｅｓｓ　ｗｈａｔ　ｔー"TCC_NEWLINE"ｈｅ　Ｏｒｄｅｒ　ｏｆＨｅｒｏｅｓ　ｃａｎ　ｒｅａｌｌｙ　"TCC_NEWLINE"ｄｏ！"
+"Ｇｅｔ　ｒｅａｄｙ，　ｅｖｅｒｙｏｎｅ．　Ｌｅｔ’ｓ　ｓｈー"TCC_NEWLINE"ｏｗ　ｔｈｉｓ　ｒｏｔｔｅｎ　ｐｒｉｎｃｅｓｓ　ｗｈａｔ　"TCC_NEWLINE"ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｃａｎ　ｒｅａｌｌー"TCC_NEWLINE"ｙ　ｄｏ！"
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0103_EN] = TCC_OPEN_LEFT
-"Ｌｅｆｔ　ａｌｌ　ａｌｏｎｅ．　Ａｇａｉｎ？　Ｈｏｗ　ｄｕー"TCC_NEWLINE"ｌｌ．Ｉ’ｌｌ　ｇｏ　ｃｏｎｓｏｌｅ　ｍｙｓｅｌｆ　ｂａｃー"TCC_NEWLINE"ｋ　ｈｏｍｅｗｉｔｈ　ａ　ｃｕｐ　ｏｆ　ｔｅａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｆｔ　ａｌｌ　ａｌｏｎｅ．　Ａｇａｉｎ？　Ｈｏｗ　ｄｕー"TCC_NEWLINE"ｌｌ．　Ｉ’ｌｌ　ｇｏ　ｃｏｎｓｏｌｅ　ｍｙｓｅｌｆ　ｂａー"TCC_NEWLINE"ｃｋ　ｈｏｍｅ　ｗｉｔｈ　ａ　ｃｕｐ　ｏｆ　ｔｅａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈａｔ　ｆｏｏｌｉｓｈ　ｐｒｉｎｃｅｓｓ　ｉｓ　ｒｅｔｒー"TCC_NEWLINE"ｅａｔｉｎｇｗｉｔｈ　ｈｅｒ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｆｏｏｌｉｓｈ　ｐｒｉｎｃｅｓｓ　ｉｓ　ｒｅｔｒー"TCC_NEWLINE"ｅａｔｉｎｇ　ｗｉｔｈ　ｈｅｒ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅ　ｂａｔｔｌｅ’ｓ　ｗｏｎ，　ｂｕｔ　ｔｈｉｓ　ｄｉー"TCC_NEWLINE"ｄｎ’ｔｒｅｓｏｌｖｅ　ａ　ｔｈｉｎｇ．　Ｔｈｅ　ｅｍｐｉー"TCC_NEWLINE"ｒｅ　ｗｉｌｌｉｎｖａｄｅ　ａｇａｉｎ　ｓｏｏｎ　ｅｎｏｕー"TCC_NEWLINE"ｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｂａｔｔｌｅ’ｓ　ｗｏｎ，　ｂｕｔ　ｔｈｉｓ　ｄｉー"TCC_NEWLINE"ｄｎ’ｔ　ｒｅｓｏｌｖｅ　ａ　ｔｈｉｎｇ．　Ｔｈｅ　ｅｍｐー"TCC_NEWLINE"ｉｒｅ　ｗｉｌｌ　ｉｎｖａｄｅ　ａｇａｉｎ　ｓｏｏｎ　ｅｎー"TCC_NEWLINE"ｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｓｔｕｂｂｏｒｎ　ｇｉｒｌ．　Ｗｈｙ　ｃａｎ’ｔ　ｗｅ　ｊー"TCC_NEWLINE"ｕｓｔｔａｌｋ　ｔｈｒｏｕｇｈ　ｔｈｉｓ？　Ｔｈｅｓｅ　ｉー"TCC_NEWLINE"ｎｖａｓｉｏｎｓａｒｅ　ｃｒａｚｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｎｅｓｔｌｙ，　ｔｈａｔ　Ｖｅｒｏｎｉｃａ　ｎｅｅｄｓ"TCC_NEWLINE"　ｔｏｇｒｏｗ　ｕｐ　ａｌｒｅａｄｙ．　Ｗｈｅｒｅ’ｓ　ｈー"TCC_NEWLINE"ｅｒ　ｓｅｎｓｅｏｆ　ｄｉｐｌｏｍａｃｙ？　Ｓｕｃｈ　ａ　"TCC_NEWLINE"ＢＲＡＴ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｕｂｂｏｒｎ　ｇｉｒｌ．　Ｗｈｙ　ｃａｎ’ｔ　ｗｅ　ｊー"TCC_NEWLINE"ｕｓｔ　ｔａｌｋ　ｔｈｒｏｕｇｈ　ｔｈｉｓ？　Ｔｈｅｓｅ　"TCC_NEWLINE"ｉｎｖａｓｉｏｎｓ　ａｒｅ　ｃｒａｚｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｎｅｓｔｌｙ，　ｔｈａｔ　Ｖｅｒｏｎｉｃａ　ｎｅｅｄｓ"TCC_NEWLINE"　ｔｏ　ｇｒｏｗ　ｕｐ　ａｌｒｅａｄｙ．　Ｗｈｅｒｅ’ｓ　"TCC_NEWLINE"ｈｅｒ　ｓｅｎｓｅ　ｏｆ　ｄｉｐｌｏｍａｃｙ？　Ｓｕｃｈ　"TCC_NEWLINE"ａ　ＢＲＡＴ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｈａｒｅｎａ，　ｄｏｎ’ｔ　ｌｅｔ　ｙｏｕｒ　ｅｍｏｔｉー"TCC_NEWLINE"ｏｎｓ　ｇｅｔｔｈｅ　ｂｅｓｔ　ｏｆ　ｙｏｕｎｏｔ　ｏｎ　"TCC_NEWLINE"ｄｕｔｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｅｘｐｅｃｔ　ｙｏｕ　ｔｏ　ｋｅｅｐ　ａ　ｌｅｖｅｌ　"TCC_NEWLINE"ｈｅａｄ　ｉｆｙｏｕ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｓｅｒｖｅ　"TCC_NEWLINE"ｉｎ　ｔｈｉｓ　ｏｒｄｅｒ．Ｈｏｓｔｉｌｉｔｙ　ｉｓ　ｔｈー"TCC_NEWLINE"ｅｉｒ　ｗａｙ，　ｎｏｔ　ｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈａｒｅｎａ，　ｄｏｎ’ｔ　ｌｅｔ　ｙｏｕｒ　ｅｍｏｔｉー"TCC_NEWLINE"ｏｎｓ　ｇｅｔ　ｔｈｅ　ｂｅｓｔ　ｏｆ　ｙｏｕｎｏｔ　ｏｎ"TCC_NEWLINE"　ｄｕｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｅｘｐｅｃｔ　ｙｏｕ　ｔｏ　ｋｅｅｐ　ａ　ｌｅｖｅｌ　"TCC_NEWLINE"ｈｅａｄ　ｉｆ　ｙｏｕ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｓｅｒｖｅ"TCC_NEWLINE"　ｉｎ　ｔｈｉｓ　ｏｒｄｅｒ．　Ｈｏｓｔｉｌｉｔｙ　ｉｓ　"TCC_NEWLINE"ｔｈｅｉｒ　ｗａｙ，　ｎｏｔ　ｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｓｕｒｅ，　ｓｕｒｅ．．．　Ｉ　ｍｅａｎ，　ｏｆ　ｃｏｕｒー"TCC_NEWLINE"ｓｅ，Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｅ，　ｓｕｒｅ．．．　Ｉ　ｍｅａｎ，　ｏｆ　ｃｏｕｒー"TCC_NEWLINE"ｓｅ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉ’ｍ　ｓｏｒｒｙ　ｔｈａｔ　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｔｈー"TCC_NEWLINE"ｒｏｗｎｉｎｔｏ　ｔｈｉｓ　ｂｒｕｔａｌ　ｗａｒ　ｗｉｔｈ"TCC_NEWLINE"　ｕｓ，"TCC_NEWLINE
+"Ｉ’ｍ　ｓｏｒｒｙ　ｔｈａｔ　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｔｈー"TCC_NEWLINE"ｒｏｗｎ　ｉｎｔｏ　ｔｈｉｓ　ｂｒｕｔａｌ　ｗａｒ　ｗｉｔー"TCC_NEWLINE"ｈ　ｕｓ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ’ｍ　ｇｌａｄ　ｙｏｕ’ｒｅ　ｈｅｒｅａｎ　ｏｆー"TCC_NEWLINE"ｆｉｃｉａｌｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　"TCC_NEWLINE"Ｈｅｒｏｅｓ！"
+"Ｂｕｔ　Ｉ’ｍ　ｇｌａｄ　ｙｏｕ’ｒｅ　ｈｅｒｅａｎ　ｏｆー"TCC_NEWLINE"ｆｉｃｉａｌ　ｍｅｍｂｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ"TCC_NEWLINE"　Ｈｅｒｏｅｓ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

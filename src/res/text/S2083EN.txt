@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2083_EN] = TCC_OPEN_LEFT
-"Ｐｒｉｎｃｅｓｓ　Ｈｉｎｏｋａ　ｏｆ　Ｈｏｓｈｉｄｏ，　ｒー"TCC_NEWLINE"ｅａｄｙ　ｆｏｒｂａｔｔｌｅ！　Ｌｅｔ’ｓ　ｄｏ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｈｉｎｏｋａ　ｏｆ　Ｈｏｓｈｉｄｏ，　ｒー"TCC_NEWLINE"ｅａｄｙ　ｆｏｒ　ｂａｔｔｌｅ！　Ｌｅｔ’ｓ　ｄｏ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

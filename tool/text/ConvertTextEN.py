@@ -60,7 +60,7 @@ for filename in sys.argv[1:]:
                 mid = text["key"] + "_" + filename
                 fHeader.write("#define {} {}\n".format(mid + '_EN', TextIDStart))
                 TextIDStart += 1
-                text = text["value"].replace("\"", "").replace("\n", "").replace("$k$p", "\"TCC_NEWLINE TCC_PUSH_A\n\"").replace("$Nu", "\"TCC_TACTICIAN_NAME\"").replace("$", "|$")
+                text = text["value"].replace("\"", "").replace("\n", "　").replace("$k$p", "\"TCC_NEWLINE TCC_PUSH_A\n\"").replace("$Nu", "\"TCC_TACTICIAN_NAME\"").replace("$", "|$")
                 texts = text.split('|')
                 text = ""
                 faces = {}

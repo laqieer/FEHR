@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3033_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ’ｄ　ｄｉｓｃｕｓｓ　ｗｉｔｈ　ｍｅ　ａ　ｃｏｎｔｒー"TCC_NEWLINE"ａｃｔ　ｆｏｒＨｅｒｏｅｓ？　Ｔｈａｔ’ｓ　ａ　ｃｕｒｉｏー"TCC_NEWLINE"ｕｓ　ｔｏｐｉｃ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔｉｌｌ，　ｙｏｕ　ａｒｅ　ｈｅｒｅ　ｎｏｗ，　ｂｅｏｒー"TCC_NEWLINE"ｃ　ｏｆａｎｏｔｈｅｒ　ｒｅａｌｍ．　Ｓｈａｌｌ　ｗｅ　ｓー"TCC_NEWLINE"ｅｅ　ｗｈｏ　ｉｓｓｔｒｏｎｇｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｄ　ｄｉｓｃｕｓｓ　ｗｉｔｈ　ｍｅ　ａ　ｃｏｎｔｒー"TCC_NEWLINE"ａｃｔ　ｆｏｒ　Ｈｅｒｏｅｓ？　Ｔｈａｔ’ｓ　ａ　ｃｕｒｉー"TCC_NEWLINE"ｏｕｓ　ｔｏｐｉｃ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｉｌｌ，　ｙｏｕ　ａｒｅ　ｈｅｒｅ　ｎｏｗ，　ｂｅｏｒー"TCC_NEWLINE"ｃ　ｏｆ　ａｎｏｔｈｅｒ　ｒｅａｌｍ．　Ｓｈａｌｌ　ｗｅ　"TCC_NEWLINE"ｓｅｅ　ｗｈｏ　ｉｓ　ｓｔｒｏｎｇｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

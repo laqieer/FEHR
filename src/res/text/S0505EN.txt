@@ -1,36 +1,36 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0505_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ　ｍａｄｅ　ｉｔ　ａｌｌ　ｔｈｉｓ　ｗａｙ？　Ｗｈａー"TCC_NEWLINE"ｔ　ａｓｈａｍｅ　ｔｈａｔ　ｐｅｏｐｌｅ　ｗｉｔｈ　ｙｏｕー"TCC_NEWLINE"ｒ　ｓｋｉｌｌｓａｒｅ　ｆｉｇｈｔｉｎｇ　ｏｎ　ｔｈｅ　ｗー"TCC_NEWLINE"ｒｏｎｇ　ｓｉｄｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｙｏｕ’ｌｌ　ｇｅｔ　ｎｏ　ｆｕｒｔｈｅｒｎｏｔ　"TCC_NEWLINE"ｅｖｅｎｗｉｔｈ　ｔｈａｔ　ｔａｌｅｎｔｅｄ　ｔａｃｔｉｃー"TCC_NEWLINE"ｉａｎ　ｏｆｙｏｕｒｓ．　Ｂｅｃａｕｓｅ　ｗｅ　ｈａｖｅ　"TCC_NEWLINE"ｏｕｒ　ｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｒｏｂｉｎ！　Ｌｅａｄ　ｕｓ　ｔｏ　ｖｉｃｔｏｒｙ．　Ｔｈー"TCC_NEWLINE"ｅＳｈｅｐｈｅｒｄｓ　ｍｕｓｔ　ｇｅｔ　ｔｈｅｓｅ　ｖｉｌー"TCC_NEWLINE"ｌａｉｎｓｔｏ　ｒｅｖｅｒｓｅ　ｃｏｕｒｓｅ！"
+"Ｙｏｕ　ｍａｄｅ　ｉｔ　ａｌｌ　ｔｈｉｓ　ｗａｙ？　Ｗｈａー"TCC_NEWLINE"ｔ　ａ　ｓｈａｍｅ　ｔｈａｔ　ｐｅｏｐｌｅ　ｗｉｔｈ　ｙｏー"TCC_NEWLINE"ｕｒ　ｓｋｉｌｌｓ　ａｒｅ　ｆｉｇｈｔｉｎｇ　ｏｎ　ｔｈｅ"TCC_NEWLINE"　ｗｒｏｎｇ　ｓｉｄｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｙｏｕ’ｌｌ　ｇｅｔ　ｎｏ　ｆｕｒｔｈｅｒｎｏｔ　"TCC_NEWLINE"ｅｖｅｎ　ｗｉｔｈ　ｔｈａｔ　ｔａｌｅｎｔｅｄ　ｔａｃｔｉー"TCC_NEWLINE"ｃｉａｎ　ｏｆ　ｙｏｕｒｓ．　Ｂｅｃａｕｓｅ　ｗｅ　ｈａｖー"TCC_NEWLINE"ｅ　ｏｕｒ　ｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｏｂｉｎ！　Ｌｅａｄ　ｕｓ　ｔｏ　ｖｉｃｔｏｒｙ．　Ｔｈー"TCC_NEWLINE"ｅ　Ｓｈｅｐｈｅｒｄｓ　ｍｕｓｔ　ｇｅｔ　ｔｈｅｓｅ　ｖｉー"TCC_NEWLINE"ｌｌａｉｎｓ　ｔｏ　ｒｅｖｅｒｓｅ　ｃｏｕｒｓｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0505_EN] = TCC_OPEN_LEFT
-"Ｏｈ！　Ｉｔ　ｓｅｅｍｓ　ｔｈａｔ　ｍｙ　ｅｙｅｓ　ｈａｖー"TCC_NEWLINE"ｅｓｕｄｄｅｎｌｙ　ｏｐｅｎｅｄａｎｄ　ｔｈａｔ　ｗｅｍｉー"TCC_NEWLINE"ｓｊｕｄｇｅｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｈａｖｅ　ｍｙ　ｇｒａｖｅｓｔ　ａｐｏｌｏｇｉｅｓ"TCC_NEWLINE"，Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．　Ａｌｌ　ｔｈｉｓ　ｔｉｍー"TCC_NEWLINE"ｅ，　ｗｅｗｅｒｅ　ｏｐｅｒａｔｉｎｇ　ｕｎｄｅｒ　ａ　ｄー"TCC_NEWLINE"ｅｃｅｐｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｈａｄ　ｉｔ　ｕｐｓｉｄｅ　ｄｏｗｎ．　Ｔｈｅ　Ｏｒー"TCC_NEWLINE"ｄｅｒｏｆ　Ｈｅｒｏｅｓ　ｃａｍｅ　ｈｅｒｅ　ｔｏ　ｓａｖー"TCC_NEWLINE"ｅ　ｕｓａｌｌ　ｆｒｏｍ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉー"TCC_NEWLINE"ｒｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｏｎｌｙ　ｈｏｐｅ　ｙｏｕ　ｃａｎ　ｆｏｒｇｉｖｅ　ｕー"TCC_NEWLINE"ｓ．Ｙｏｕ　ｈａｖｅ　ｍｙ　ｄｅｅｐ　ｇｒａｔｉｔｕｄｅ　"TCC_NEWLINE"ｆｏｒｒｅｓｃｕｉｎｇ　ｏｕｒ　ｒｅａｌｍ．"
+"Ｏｈ！　Ｉｔ　ｓｅｅｍｓ　ｔｈａｔ　ｍｙ　ｅｙｅｓ　ｈａｖー"TCC_NEWLINE"ｅ　ｓｕｄｄｅｎｌｙ　ｏｐｅｎｅｄａｎｄ　ｔｈａｔ　ｗｅ　"TCC_NEWLINE"ｍｉｓｊｕｄｇｅｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｍｙ　ｇｒａｖｅｓｔ　ａｐｏｌｏｇｉｅｓ"TCC_NEWLINE"，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．　Ａｌｌ　ｔｈｉｓ　ｔｉー"TCC_NEWLINE"ｍｅ，　ｗｅ　ｗｅｒｅ　ｏｐｅｒａｔｉｎｇ　ｕｎｄｅｒ　ａ"TCC_NEWLINE"　ｄｅｃｅｐｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｄ　ｉｔ　ｕｐｓｉｄｅ　ｄｏｗｎ．　Ｔｈｅ　Ｏｒー"TCC_NEWLINE"ｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｃａｍｅ　ｈｅｒｅ　ｔｏ　ｓａー"TCC_NEWLINE"ｖｅ　ｕｓ　ａｌｌ　ｆｒｏｍ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍー"TCC_NEWLINE"ｐｉｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｏｎｌｙ　ｈｏｐｅ　ｙｏｕ　ｃａｎ　ｆｏｒｇｉｖｅ　ｕー"TCC_NEWLINE"ｓ．　Ｙｏｕ　ｈａｖｅ　ｍｙ　ｄｅｅｐ　ｇｒａｔｉｔｕｄｅ"TCC_NEWLINE"　ｆｏｒ　ｒｅｓｃｕｉｎｇ　ｏｕｒ　ｒｅａｌｍ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0505_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｏｕｒ　ｍｉｓｓｉｏｎ　ｓｕｃｃｅｅｄｅｄ！　Ｗｅ　ｈａｖー"TCC_NEWLINE"ｅｓａｖｅｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ａｗａｋｅｎｉｎｇ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｍｉｓｓｉｏｎ　ｓｕｃｃｅｅｄｅｄ！　Ｗｅ　ｈａｖー"TCC_NEWLINE"ｅ　ｓａｖｅｄ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ａｗａｋｅｎｉｎー"TCC_NEWLINE"ｇ．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｆ　ｃｏｕｒｓｅ，　ｉｔ’ｓ　ａｌｌ　ｔｈａｎｋｓ　ｔｏ"TCC_NEWLINE"　ｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃａｎ　ｓｅｅ　ｔｈａｔ　ｗｉｔｈ　ｅｖｅｒｙ　ｓｕｃー"TCC_NEWLINE"ｃｅｓｓ，ｙｏｕｒ　ｃｏｎｆｉｄｅｎｃｅ　ｇｒｏｗｓ．　Ｙー"TCC_NEWLINE"ｏｕ　ｇｉｖｅｏｒｄｅｒｓ　ｗｉｔｈｏｕｔ　ｈｅｓｉｔａｔー"TCC_NEWLINE"ｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｉｓ　ｔｒｕｌｙｆー"TCC_NEWLINE"ｏｒｔｕｎａｔｅ　ｔｏ　ｈａｖｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ　ｓｅｅ　ｔｈａｔ　ｗｉｔｈ　ｅｖｅｒｙ　ｓｕｃー"TCC_NEWLINE"ｃｅｓｓ，　ｙｏｕｒ　ｃｏｎｆｉｄｅｎｃｅ　ｇｒｏｗｓ．　"TCC_NEWLINE"Ｙｏｕ　ｇｉｖｅ　ｏｒｄｅｒｓ　ｗｉｔｈｏｕｔ　ｈｅｓｉｔー"TCC_NEWLINE"ａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｉｓ　ｔｒｕｌｙ　"TCC_NEWLINE"ｆｏｒｔｕｎａｔｅ　ｔｏ　ｈａｖｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｙｏｕ　ｋｎｏｗ，　ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　ａー"TCC_NEWLINE"ｂｏｕｔｔｈｅｉｒ　ｔａｃｔｉｃｉａｎ　ｔｈａｔ　ｒｅｍｉー"TCC_NEWLINE"ｎｄｓ　ｍｅｏｆ　ｙｏｕ，"TCC_NEWLINE
+"Ｙｏｕ　ｋｎｏｗ，　ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　ａー"TCC_NEWLINE"ｂｏｕｔ　ｔｈｅｉｒ　ｔａｃｔｉｃｉａｎ　ｔｈａｔ　ｒｅｍー"TCC_NEWLINE"ｉｎｄｓ　ｍｅ　ｏｆ　ｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｌｉｋｅ．．．ｙｏｕ　ｈａｖｅ　ｔｈｅ　ｓａｍｅ"TCC_NEWLINE"　ａｕｒａ　ｏｒｓｏｍｅｔｈｉｎｇ．　Ｏｈ，　ｄｏｎ’ｔ　"TCC_NEWLINE"ｗｏｒｒｙ．　Ｉ’ｍ　ｓｔｉｌｌｙｏｕｒ　ｎｕｍｂｅｒ－ｏー"TCC_NEWLINE"ｎｅ　ｆａｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｌｉｋｅ．．．ｙｏｕ　ｈａｖｅ　ｔｈｅ　ｓａｍｅ"TCC_NEWLINE"　ａｕｒａ　ｏｒ　ｓｏｍｅｔｈｉｎｇ．　Ｏｈ，　ｄｏｎ’ｔ"TCC_NEWLINE"　ｗｏｒｒｙ．　Ｉ’ｍ　ｓｔｉｌｌ　ｙｏｕｒ　ｎｕｍｂｅｒ"TCC_NEWLINE"－ｏｎｅ　ｆａｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｔ　ｓｈｏｕｌｄｎ’ｔ　ｓｕｒｐｒｉｓｅ　ｕｓ　ｔｈａｔ"TCC_NEWLINE"　ｔｗｏｐｅｏｐｌｅ　ｍｉｇｈｔ　ｓｅｅｍ　ａｌｉｋｅ，　"TCC_NEWLINE"ｇｉｖｅｎｈｏｗ　ｍａｎｙ　ｗｏｒｌｄｓ　ｔｈｅｒｅ　ａｒー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｙ，　ｔｈｅｒｅ　ａｒｅ　ｐｒｏｂａｂｌｙ　ｍａｎｙ　"TCC_NEWLINE"ｍｏｒｅｔｈａｎ　ｔｗｏｈｕｎｄｒｅｄｓ，　ｅｖｅｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｈｏｕｌｄｎ’ｔ　ｓｕｒｐｒｉｓｅ　ｕｓ　ｔｈａｔ"TCC_NEWLINE"　ｔｗｏ　ｐｅｏｐｌｅ　ｍｉｇｈｔ　ｓｅｅｍ　ａｌｉｋｅ，"TCC_NEWLINE"　ｇｉｖｅｎ　ｈｏｗ　ｍａｎｙ　ｗｏｒｌｄｓ　ｔｈｅｒｅ　"TCC_NEWLINE"ａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ，　ｔｈｅｒｅ　ａｒｅ　ｐｒｏｂａｂｌｙ　ｍａｎｙ　"TCC_NEWLINE"ｍｏｒｅ　ｔｈａｎ　ｔｗｏｈｕｎｄｒｅｄｓ，　ｅｖｅｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅｌｌ，　ｎｏｗ　ｙｏｕ’ｒｅ　ｇｅｔｔｉｎｇ　ｃａｒｒー"TCC_NEWLINE"ｉｅｄａｗａｙ，　Ｃｏｍｍａｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｎｏｗ　ｙｏｕ’ｒｅ　ｇｅｔｔｉｎｇ　ｃａｒｒー"TCC_NEWLINE"ｉｅｄ　ａｗａｙ，　Ｃｏｍｍａｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｉｎｋ　ｓｏ？　Ｈｍｍ．　Ｙｏｕ　ｎｅｖｅｒ　ｋｎｏｗ"TCC_NEWLINE"．Ａｎｙｗａｙ，　ｌｅｔ’ｓ　ｇｅｔ　ｂａｃｋ　ｔｏ　Ａｓー"TCC_NEWLINE"ｋｒ．Ｗｅ’ｖｅ　ｆｉｎｉｓｈｅｄ　ｏｕｒ　ｗｏｒｋ　ｈｅー"TCC_NEWLINE"ｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ　ｎｏ．　Ｉ’ｖｅ　ｊｕｓｔ　ｇｏｔｔｅｎ　ａｎ　ｕｒー"TCC_NEWLINE"ｇｅｎｔｒｅｐｏｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｍｂｌａ　ｉｓ　ａｔ　ｔｈｅ　ｇａｔｅｗａｙ　ｔｈａｔ　"TCC_NEWLINE"ｌｅａｄｓｉｎｔｏ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒー"TCC_NEWLINE"ｙａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｎｋ　ｓｏ？　Ｈｍｍ．　Ｙｏｕ　ｎｅｖｅｒ　ｋｎｏｗ"TCC_NEWLINE"．　Ａｎｙｗａｙ，　ｌｅｔ’ｓ　ｇｅｔ　ｂａｃｋ　ｔｏ　Ａー"TCC_NEWLINE"ｓｋｒ．　Ｗｅ’ｖｅ　ｆｉｎｉｓｈｅｄ　ｏｕｒ　ｗｏｒｋ　"TCC_NEWLINE"ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｎｏ．　Ｉ’ｖｅ　ｊｕｓｔ　ｇｏｔｔｅｎ　ａｎ　ｕｒー"TCC_NEWLINE"ｇｅｎｔ　ｒｅｐｏｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｍｂｌａ　ｉｓ　ａｔ　ｔｈｅ　ｇａｔｅｗａｙ　ｔｈａｔ　"TCC_NEWLINE"ｌｅａｄｓ　ｉｎｔｏ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅー"TCC_NEWLINE"ｒｙａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｖｅｒｏｎｉｃａ　ｍｕｓｔ　ｂｅ　ｈｏｐｉｎｇ　ｔｏ　ｒｅー"TCC_NEWLINE"ｇａｉｎＭａｒｔｈ．　Ｗｏｎ’ｔ　ｓｈｅ　ｅｖｅｒ　ｓｔｏー"TCC_NEWLINE"ｐ　ｔｒｙｉｎｇ　ｔｏｇｅｔ　ｔｈｅ　Ｈｅｒｏ－Ｋｉｎｇ　"TCC_NEWLINE"ｉｎ　ｈｅｒ　ｃｌｕｔｃｈｅｓ？"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｉｆ　ｎｏｔ　ｈｉｍ，　ｗｈｏ　ｍｉｇｈｔ　ｓｈｅ"TCC_NEWLINE"　ｂｅｔｒｙｉｎｇ　ｔｏ　ｇｅｔ　ｔｈｉｓ　ｔｉｍｅ？"
+"Ｖｅｒｏｎｉｃａ　ｍｕｓｔ　ｂｅ　ｈｏｐｉｎｇ　ｔｏ　ｒｅー"TCC_NEWLINE"ｇａｉｎ　Ｍａｒｔｈ．　Ｗｏｎ’ｔ　ｓｈｅ　ｅｖｅｒ　ｓｔー"TCC_NEWLINE"ｏｐ　ｔｒｙｉｎｇ　ｔｏ　ｇｅｔ　ｔｈｅ　Ｈｅｒｏ－Ｋｉｎー"TCC_NEWLINE"ｇ　ｉｎ　ｈｅｒ　ｃｌｕｔｃｈｅｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　ｎｏｔ　ｈｉｍ，　ｗｈｏ　ｍｉｇｈｔ　ｓｈｅ"TCC_NEWLINE"　ｂｅ　ｔｒｙｉｎｇ　ｔｏ　ｇｅｔ　ｔｈｉｓ　ｔｉｍｅ？"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

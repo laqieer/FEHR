@@ -1,7 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2084_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｐａｐａ？　Ａｍａｚｉｎｇ　ｉｎ　ｅｖｅｒｙ　ｗａｙ"TCC_NEWLINE"．　ＡｎｄＩ’ｍ　ｇｏｎｎａ　ｂｅ　ｊｕｓｔ　ｌｉｋｅ　ｈー"TCC_NEWLINE"ｉｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｐａｐａ？　Ａｍａｚｉｎｇ　ｉｎ　ｅｖｅｒｙ　ｗａｙ"TCC_NEWLINE"．　Ａｎｄ　Ｉ’ｍ　ｇｏｎｎａ　ｂｅ　ｊｕｓｔ　ｌｉｋｅ　"TCC_NEWLINE"ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｍｙ　ｍａｍａ　ｉｓ　ｒｅａｌｌｙ　ｓｔｒｏｎｇ．　Ｉ　ｗー"TCC_NEWLINE"ａｎｎａ　ｂｅｊｕｓｔ　ｌｉｋｅ　ｈｅｒ．　Ｓｏ　Ｉ　ｗｉー"TCC_NEWLINE"ｌｌ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｍａｍａ　ｉｓ　ｒｅａｌｌｙ　ｓｔｒｏｎｇ．　Ｉ　ｗー"TCC_NEWLINE"ａｎｎａ　ｂｅ　ｊｕｓｔ　ｌｉｋｅ　ｈｅｒ．　Ｓｏ　Ｉ　ｗー"TCC_NEWLINE"ｉｌｌ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -2,7 +2,7 @@
 
 [MID_SCENARIO_OPENING_S2131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｌａｅｖａｔｅｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｎｏｔ　ｒｅｓｔ　ｕｎｔｉｌ　ｙｏｕ　ｈａｖｅ　ｋｉー"TCC_NEWLINE"ｌｌｅｄｔｈｅｍ．　Ｉ　ｍａｄｅ　ｍｙｓｅｌｆ　ｃｌｅａｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ｒｅｓｔ　ｕｎｔｉｌ　ｙｏｕ　ｈａｖｅ　ｋｉー"TCC_NEWLINE"ｌｌｅｄ　ｔｈｅｍ．　Ｉ　ｍａｄｅ　ｍｙｓｅｌｆ　ｃｌｅａー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｙｅｓ．　Ａｎｄ　ｗｅ"TCC_NEWLINE TCC_PUSH_A
 "Ａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
@@ -11,72 +11,72 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "Ｇｕｈｇａａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅｒｅ　ｙｏｕ　ｓｉｔ，　ｓｏａｋｅｄ　ｉｎ　ｓｈａｍｅ"TCC_NEWLINE"．　Ｙｏｕａｒｅ　ａ　ｄｉｓｇｒａｃｅ　ｔｏ　Ｍｓｐｅｌｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ　ｙｏｕ　ｓｉｔ，　ｓｏａｋｅｄ　ｉｎ　ｓｈａｍｅ"TCC_NEWLINE"．　Ｙｏｕ　ａｒｅ　ａ　ｄｉｓｇｒａｃｅ　ｔｏ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｆｏｒ　ｔｈｅ　ｗｅａｋ，　ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ｄー"TCC_NEWLINE"ｅａｔｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｆａｔｈｅｒ．．．Ｉ　ａｍ．．．ｓｏｒａａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
-"Ｆａｔｈｅｒｐｌｅａｓｅ！　Ｓｔｏｐ！　Ｉｆ　ｙｏｕ　ｋｅー"TCC_NEWLINE"ｅｐｇｏｉｎｇ，　ｓｈｅ’ｌｌ．．．　Ｓｈｅ’ｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆａｔｈｅｒｐｌｅａｓｅ！　Ｓｔｏｐ！　Ｉｆ　ｙｏｕ　ｋｅー"TCC_NEWLINE"ｅｐ　ｇｏｉｎｇ，　ｓｈｅ’ｌｌ．．．　Ｓｈｅ’ｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｈｅ’ｌｌ　ｗｈａｔ？　Ｓｈｅ’ｌｌ　ｄｉｅ？　Ｗｈａｔ"TCC_NEWLINE"　ｃｏｎｃｅｒｎｏｆ　ｉｔ　ｉｓ　ｙｏｕｒｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ’ｌｌ　ｗｈａｔ？　Ｓｈｅ’ｌｌ　ｄｉｅ？　Ｗｈａｔ"TCC_NEWLINE"　ｃｏｎｃｅｒｎ　ｏｆ　ｉｔ　ｉｓ　ｙｏｕｒｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌａｅｖａｔｅｉｎ．　Ｉ　ｗｉｌｌ　ｇｒａｎｔ　ｙｏｕ　ｏー"TCC_NEWLINE"ｎｅ　ｌａｓｔｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｆｆｅｒ　ｙｏｕｒｓｅｌｆ　ｔｏ　ｔｈｅ　ｆｌａｍｅｓ　"TCC_NEWLINE"ｏｆＭｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｐｏｏｒ　ｔｈｅ　ｆｕｅｌ．．"TCC_NEWLINE"．ｔｈｅｆｌａｍｅ　ｗｉｌｌ　ｎｏｔ　ｓｕｆｆｅｒ　ｆｏｒ"TCC_NEWLINE"　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｅｖａｔｅｉｎ．　Ｉ　ｗｉｌｌ　ｇｒａｎｔ　ｙｏｕ　ｏー"TCC_NEWLINE"ｎｅ　ｌａｓｔ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆｆｅｒ　ｙｏｕｒｓｅｌｆ　ｔｏ　ｔｈｅ　ｆｌａｍｅｓ　"TCC_NEWLINE"ｏｆ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｐｏｏｒ　ｔｈｅ　ｆｕｅｌ．．"TCC_NEWLINE"．ｔｈｅ　ｆｌａｍｅ　ｗｉｌｌ　ｎｏｔ　ｓｕｆｆｅｒ　ｆｏー"TCC_NEWLINE"ｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｅ　ｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌｌ？　Ｙｏｕ　ｋｎｏー"TCC_NEWLINE"ｗｗｈａｔ　ｔｈａｔ　ｍｅａｎｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌｌ？　Ｙｏｕ　ｋｎｏー"TCC_NEWLINE"ｗ　ｗｈａｔ　ｔｈａｔ　ｍｅａｎｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａ　ｆｉｔｔｉｎｇ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｐｌｅａｓｅ．．．　Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｅｎｄ　ｍｅ　ｉｎｓｔｅａｄ．　Ｉｆ　ｙｏｕ’ｌｌ　ａｌー"TCC_NEWLINE"ｌｏｗ　ｉｔ，　Ｉｗｉｌｌ　ｔａｋｅ　ｈｅｒ　ｐｌａｃｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｂｅ　ｔｈｅ　ｏｎｅ　ｔｏ　ｂｕｒｎ　ｗｉｔー"TCC_NEWLINE"ｈ　ｔｈｅｆｌａｍｅｓ　ｏｆ　ＭｓｐｅｌｌＩ　ｗｉｌｌ　ｂー"TCC_NEWLINE"ｅ　ｔｈｅ　ｏｎｅｔｏ　ｄｅｓｔｒｏｙ　ｏｕｒ　ｅｎｅｍｉー"TCC_NEWLINE"ｅｓ！　Ｉ　ｂｅｇ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｎｄ　ｍｅ　ｉｎｓｔｅａｄ．　Ｉｆ　ｙｏｕ’ｌｌ　ａｌー"TCC_NEWLINE"ｌｏｗ　ｉｔ，　Ｉ　ｗｉｌｌ　ｔａｋｅ　ｈｅｒ　ｐｌａｃｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｂｅ　ｔｈｅ　ｏｎｅ　ｔｏ　ｂｕｒｎ　ｗｉｔー"TCC_NEWLINE"ｈ　ｔｈｅ　ｆｌａｍｅｓ　ｏｆ　ＭｓｐｅｌｌＩ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅ　ｔｈｅ　ｏｎｅ　ｔｏ　ｄｅｓｔｒｏｙ　ｏｕｒ　ｅｎｅー"TCC_NEWLINE"ｍｉｅｓ！　Ｉ　ｂｅｇ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｏ　ｂｅ　ｉｔ．　Ｙｏｕ　ｓｈａｌｌ　ｂｅ　ｔｈｅ　ｏｎー"TCC_NEWLINE"ｅ　ｔｏ　ｄｉｅ．Ａｎｄ　ｉｆ　ｙｏｕ　ｆａｉｌ，　ｙｏｕー"TCC_NEWLINE"ｒ　ｓｉｓｔｅｒ　ｗｉｌｌ　ｂｅｎｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｂｅ　ｉｔ．　Ｙｏｕ　ｓｈａｌｌ　ｂｅ　ｔｈｅ　ｏｎー"TCC_NEWLINE"ｅ　ｔｏ　ｄｉｅ．　Ａｎｄ　ｉｆ　ｙｏｕ　ｆａｉｌ，　ｙｏー"TCC_NEWLINE"ｕｒ　ｓｉｓｔｅｒ　ｗｉｌｌ　ｂｅ　ｎｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｇｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｖｅｒｙ　ｗｅｌｌ，　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｉｓ　ｓｅｃｒｅｔ　ｅｎｔｒａｎｃｅ　ｉｓ　ｖｅｒｙ　"TCC_NEWLINE"ｃｌｅｖｅｒｌｙｈｉｄｄｅｎ．　Ｉｆ　Ｌｏｋｉ　ｈａｄｎ’"TCC_NEWLINE"ｔ　ｇｉｖｅｎ　ｕｓ　ｔｈｉｓｍａｐ，　ｗｅ　ｎｅｖｅｒ　"TCC_NEWLINE"ｗｏｕｌｄ　ｈａｖｅ　ｆｏｕｎｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｓｅｃｒｅｔ　ｅｎｔｒａｎｃｅ　ｉｓ　ｖｅｒｙ　"TCC_NEWLINE"ｃｌｅｖｅｒｌｙ　ｈｉｄｄｅｎ．　Ｉｆ　Ｌｏｋｉ　ｈａｄｎ"TCC_NEWLINE"’ｔ　ｇｉｖｅｎ　ｕｓ　ｔｈｉｓ　ｍａｐ，　ｗｅ　ｎｅｖｅー"TCC_NEWLINE"ｒ　ｗｏｕｌｄ　ｈａｖｅ　ｆｏｕｎｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ａｎｄ　ｉｍｐｒｉｓｏｎｅｄ　ｉｎ　ｔｈｉｓ　ｔｅｍｐｌｅ"TCC_NEWLINE"　ｉｓＰｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｍｐｒｉｓｏｎｅｄ　ｉｎ　ｔｈｉｓ　ｔｅｍｐｌｅ"TCC_NEWLINE"　ｉｓ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
 "Ｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｐｒｉｎｃｅｓｓ　Ｌａｅｇｊａｒｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗａｉｔ　ａ　ｍｏｍｅｎｔ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ"TCC_NEWLINE"．．．Ｓｏｍｅｔｈｉｎｇ　ｉｓ　ｎｏｔ　ｒｉｇｈｔ　ｈｅｒー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔ　ａ　ｍｏｍｅｎｔ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ"TCC_NEWLINE"．．．　Ｓｏｍｅｔｈｉｎｇ　ｉｓ　ｎｏｔ　ｒｉｇｈｔ　ｈｅー"TCC_NEWLINE"ｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｍｓｐｅｌｌ，　ｄｒａｇｏｎ　ｏｆ　ｆｌａｍｅ．．．Ｉ　ｏー"TCC_NEWLINE"ｆｆｅｒ　ｙｏｕｍｙ　ｆｌｅｓｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｒｍ　ａｎｄ　ａｒｍ，　ｌｅｇ　ａｎｄ　ｌｅｇ．　Ｍｙ　"TCC_NEWLINE"ｈｅａｄ，ｍｙ　ｈｅａｒｔ．．．　Ａｌｌ　ｏｆ　ｉｔ　ｏｆー"TCC_NEWLINE"ｆｅｒｅｄ，　ｔｈａｔ　ｙｏｕｍａｙ　ｆｅｅｄ．　Ｄｅｖｏー"TCC_NEWLINE"ｕｒ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｓｐｅｌｌ，　ｄｒａｇｏｎ　ｏｆ　ｆｌａｍｅ．．．Ｉ　ｏー"TCC_NEWLINE"ｆｆｅｒ　ｙｏｕ　ｍｙ　ｆｌｅｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｍ　ａｎｄ　ａｒｍ，　ｌｅｇ　ａｎｄ　ｌｅｇ．　Ｍｙ　"TCC_NEWLINE"ｈｅａｄ，　ｍｙ　ｈｅａｒｔ．．．　Ａｌｌ　ｏｆ　ｉｔ　ｏー"TCC_NEWLINE"ｆｆｅｒｅｄ，　ｔｈａｔ　ｙｏｕ　ｍａｙ　ｆｅｅｄ．　Ｄｅー"TCC_NEWLINE"ｖｏｕｒ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ａａｈ！　Ａａｇｈ．．．　Ａａｈ．．．　Ｈａｈ．．．"TCC_NEWLINE TCC_PUSH_A
 "ＡＡＡＡＡＡＧＨ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
-"Ｌａｅ．．．ｖａｔｅｉｎ．．．　Ｓｏｍｅｈｏｗ．．．　Ｙｏー"TCC_NEWLINE"ｕ　ｈａｖｅｔｏ．．．　Ｐｌｅａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｅ．．．ｖａｔｅｉｎ．．．　Ｓｏｍｅｈｏｗ．．．　Ｙｏー"TCC_NEWLINE"ｕ　ｈａｖｅ　ｔｏ．．．　Ｐｌｅａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｌａｅｇｊａｒｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEGJARN
-"Ｓｐａｒｅ　ｍｅ．．．ｙｏｕｒ　ｐｉｔｙ．　Ｉ　ｃａｎ．．"TCC_NEWLINE"．ｎｏｌｏｎｇｅｒ．．．ｂｅ　ｓａｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｓｅ　ｗｈｏ　ｏｆｆｅｒ　ｔｈｅｍｓｅｌｖｅｓ　ｔｏ"TCC_NEWLINE"　ｔｈｅｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌｌ　ｇａｉｎ　ｔｒｅー"TCC_NEWLINE"ｍｅｎｄｏｕｓｐｏｗｅｒ．．．ｂｒｉｅｆｌｙ．　Ｄｅａｔｈ"TCC_NEWLINE"　ｆｏｌｌｏｗｓ　ｑｕｉｃｋｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｐａｒｅ　ｍｅ．．．ｙｏｕｒ　ｐｉｔｙ．　Ｉ　ｃａｎ．．"TCC_NEWLINE"．ｎｏ　ｌｏｎｇｅｒ．．．ｂｅ　ｓａｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｗｈｏ　ｏｆｆｅｒ　ｔｈｅｍｓｅｌｖｅｓ　ｔｏ"TCC_NEWLINE"　ｔｈｅ　ｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌｌ　ｇａｉｎ　ｔｒー"TCC_NEWLINE"ｅｍｅｎｄｏｕｓ　ｐｏｗｅｒ．．．ｂｒｉｅｆｌｙ．　Ｄｅａー"TCC_NEWLINE"ｔｈ　ｆｏｌｌｏｗｓ　ｑｕｉｃｋｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｕｒｅｌｙ．．．ｓｕｒｅｌｙ　ｗｅ　ｃａｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｄｏ　ｓｏｍｅｔｈｉｎｇ　ｆー"TCC_NEWLINE"ｏｒ　ｍｅ．．．Ｐｌｅａｓｅ，　ｆｉｎｄ　Ｌａｅｖａｔｅｉー"TCC_NEWLINE"ｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｄｏ　ｓｏｍｅｔｈｉｎｇ　ｆー"TCC_NEWLINE"ｏｒ　ｍｅ．．．　Ｐｌｅａｓｅ，　ｆｉｎｄ　Ｌａｅｖａｔｅー"TCC_NEWLINE"ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｒｏｔｅｃｔ　ｈｅｒ．　Ｐｌｅａｓｅ！　Ｓｈｅ　ｉｓ　ａー"TCC_NEWLINE"ｌｌ　Ｉ　ｈａｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｗｅ　ｗｉｌｌ　ｍａｋｅ　ｅｖー"TCC_NEWLINE"ｅｒｙｅｆｆｏｒｔ　ｔｏ　ｒｅｓｃｕｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｗｅ　ｗｉｌｌ　ｍａｋｅ　ｅｖー"TCC_NEWLINE"ｅｒｙ　ｅｆｆｏｒｔ　ｔｏ　ｒｅｓｃｕｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｅｙｅｓ．．．ｔｈｅ　ｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌ　ｈａｖｅｂｕｒｎｔ　ｔｈｅｍ　ａｗａｙ．　Ｉ　ｃａｎｎー"TCC_NEWLINE"ｏｔ　ｓｅｅ　ａｔｈｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｔ　ｉｓ　ｏｎｌｙ　ｎｏｗ，　Ｉ　ｔｈｉｎｋ．．"TCC_NEWLINE"．ｔｈａｔ　Ｉ　ｃａｎｔｒｕｌｙ　ｓｅｅ　ｙｏｕ．　Ｓｔｒー"TCC_NEWLINE"ａｎｇｅ，　ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ．．．　Ｓｕｐｐｏｓｅ　ｗｅ　"TCC_NEWLINE"ｈａｄｃｈｏｓｅｎ　ａ　ｄｉｆｆｅｒｅｎｔ　ｐａｔｈ　ｂａー"TCC_NEWLINE"ｃｋ　ｉｎ　Ｎｉｆｌ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｃｏｕｌｄ　ｗｅ　ｈａｖｅ　ｂｅｅｎ．．．　Ｗｉｔｈ　ｙｏー"TCC_NEWLINE"ｕ，ｃｏｕｌｄ　ｗｅ　ｈａｖｅ　ｂｅｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｅｙｅｓ．．．ｔｈｅ　ｆｌａｍｅｓ　ｏｆ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌ　ｈａｖｅ　ｂｕｒｎｔ　ｔｈｅｍ　ａｗａｙ．　Ｉ　ｃａｎー"TCC_NEWLINE"ｎｏｔ　ｓｅｅ　ａ　ｔｈｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｔ　ｉｓ　ｏｎｌｙ　ｎｏｗ，　Ｉ　ｔｈｉｎｋ．．"TCC_NEWLINE"．ｔｈａｔ　Ｉ　ｃａｎ　ｔｒｕｌｙ　ｓｅｅ　ｙｏｕ．　Ｓｔー"TCC_NEWLINE"ｒａｎｇｅ，　ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ．．．　Ｓｕｐｐｏｓｅ　ｗｅ　"TCC_NEWLINE"ｈａｄ　ｃｈｏｓｅｎ　ａ　ｄｉｆｆｅｒｅｎｔ　ｐａｔｈ　ｂー"TCC_NEWLINE"ａｃｋ　ｉｎ　Ｎｉｆｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｕｌｄ　ｗｅ　ｈａｖｅ　ｂｅｅｎ．．．　Ｗｉｔｈ　ｙｏー"TCC_NEWLINE"ｕ，　ｃｏｕｌｄ　ｗｅ　ｈａｖｅ　ｂｅｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｌａｅｇｊａｒｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

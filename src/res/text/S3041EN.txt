@@ -3,20 +3,20 @@
 [MID_SCENARIO_OPENING_S3041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ．．．　Ｈｏｗ　ａｒｅ　ｙｏｕ　ｈｏｌｄｉｎー"TCC_NEWLINE"ｇ　ｕｐ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｏｈ，　Ｓｈａｒｅｎａ．．．　Ｉ’ｍ　ａｌｌ　ｒｉｇｈｔ．"TCC_NEWLINE"　Ｉ　ｃａｎｍｏｖｅ，　ａｔ　ｌｅａｓｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｔ　ａ　ｓｔｒａｎｇｅ　ｓｅｎｓａｔｉｏｎ　ｒｅｍａｉー"TCC_NEWLINE"ｎｓ．．．Ｌｉｋｅ　ａｎ　ｉｃｙ　ｂｌａｄｅ　ｐｌｕｎｇｅー"TCC_NEWLINE"ｄ　ｉｎｔｏ　ｍｙｃｈｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　Ｓｈａｒｅｎａ．．．　Ｉ’ｍ　ａｌｌ　ｒｉｇｈｔ．"TCC_NEWLINE"　Ｉ　ｃａｎ　ｍｏｖｅ，　ａｔ　ｌｅａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ａ　ｓｔｒａｎｇｅ　ｓｅｎｓａｔｉｏｎ　ｒｅｍａｉー"TCC_NEWLINE"ｎｓ．．．　Ｌｉｋｅ　ａｎ　ｉｃｙ　ｂｌａｄｅ　ｐｌｕｎｇー"TCC_NEWLINE"ｅｄ　ｉｎｔｏ　ｍｙ　ｃｈｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｔｈｅ　ｄｅａｔｈ　ｃｕｒｓｅ　ｏｆ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｅｉｒ，　ｐｌｅａｓｅ，　ｔｅｌｌ　ｍｅ　ｗｈａｔ　ｙｏｕ"TCC_NEWLINE"　ｋｎｏｗ．Ａｎｙｔｈｉｎｇ　ｍｉｇｈｔ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｉｒ，　ｐｌｅａｓｅ，　ｔｅｌｌ　ｍｅ　ｗｈａｔ　ｙｏｕ"TCC_NEWLINE"　ｋｎｏｗ．　Ａｎｙｔｈｉｎｇ　ｍｉｇｈｔ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｌａｗｓ　ｇｏｖｅｒｎ　ｄｅａｔｈ"TCC_NEWLINE"．．．　Ａｔｔｈｅ　ｍｏｍｅｎｔ　ｓｈｅ　ｌａｙｓ　ｈｅｒ"TCC_NEWLINE"　ｃｕｒｓｅ，　ｔｈｅｎｕｍｂｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ"TCC_NEWLINE"　ｉｓ　ｓｅｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｓｅ　ｓｈｅ　ｈａｓ　ｃｕｒｓｅｄ　ｗｉｌｌ　ｄｉｅ"TCC_NEWLINE"　ｏｎｔｈｅｉｒ　ａｐｐｏｉｎｔｅｄ　ｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｌａｗｓ　ｇｏｖｅｒｎ　ｄｅａｔｈ"TCC_NEWLINE"．．．　Ａｔ　ｔｈｅ　ｍｏｍｅｎｔ　ｓｈｅ　ｌａｙｓ　ｈｅー"TCC_NEWLINE"ｒ　ｃｕｒｓｅ，　ｔｈｅ　ｎｕｍｂｅｒ　ｏｆ　ｔｈｅ　ｄｅー"TCC_NEWLINE"ａｄ　ｉｓ　ｓｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｓｈｅ　ｈａｓ　ｃｕｒｓｅｄ　ｗｉｌｌ　ｄｉｅ"TCC_NEWLINE"　ｏｎ　ｔｈｅｉｒ　ａｐｐｏｉｎｔｅｄ　ｄａｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｉｎｇ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏ！　Ｔｈｅｒｅ　ｍｕｓｔ　Ｔｈｅｒｅ　ｈａｓ　ｔｏ　ｂー"TCC_NEWLINE"ｅＳｕｒｅｌｙ　ｔｈｅｒｅ’ｓ　ａ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｔｈｅｒｅ　ｍｕｓｔ　Ｔｈｅｒｅ　ｈａｓ　ｔｏ　ｂー"TCC_NEWLINE"ｅ　Ｓｕｒｅｌｙ　ｔｈｅｒｅ’ｓ　ａ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｌｆｏｎｓｅ，　ｔｈｅ　ｋｉｎｇ　ａｎｄ　ｑｕｅｅｎ　ｈー"TCC_NEWLINE"ａｖｅａｒｒｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　ｔｈｅ　ｋｉｎｇ　ａｎｄ　ｑｕｅｅｎ　ｈー"TCC_NEWLINE"ａｖｅ　ａｒｒｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_HENRIETTE
 "Ｏｈ，　ｍｙ　ｓｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
@@ -24,51 +24,51 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
 TCC_OPEN_RIGHT
 "Ｉ　ｄｉｓｏｂｅｙｅｄ　ｙｏｕ，　Ｆａｔｈｅｒ．　Ｉ　ａｍ"TCC_NEWLINE"　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉｆ　Ｉ　ｍａｙ，　ｙｏｕｒ　ｍａｊｅｓｔｙ．．．　Ｔｈｅ"TCC_NEWLINE"　ａｔｔａｃｋｗａｓ　ｓｕｄｄｅｎ．　Ｏｕｒ　ｓｃｏｕｔｓ"TCC_NEWLINE"　ｎｅｖｅｒ　ｅｖｅｎｓａｗ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ａｐｐｅａｒｅｄ　ｓｕｄｄｅｎｌｙ，　ｌｉｋｅｇー"TCC_NEWLINE"ｈｏｓｔｓ．．．　Ｗｅ　ｈａｄ　ｎｏ　ｃｈａｎｃｅ　ｔｏｄー"TCC_NEWLINE"ｉｓｅｎｇａｇｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｍａｙ，　ｙｏｕｒ　ｍａｊｅｓｔｙ．．．　Ｔｈｅ"TCC_NEWLINE"　ａｔｔａｃｋ　ｗａｓ　ｓｕｄｄｅｎ．　Ｏｕｒ　ｓｃｏｕｔー"TCC_NEWLINE"ｓ　ｎｅｖｅｒ　ｅｖｅｎ　ｓａｗ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ａｐｐｅａｒｅｄ　ｓｕｄｄｅｎｌｙ，　ｌｉｋｅ　"TCC_NEWLINE"ｇｈｏｓｔｓ．．．　Ｗｅ　ｈａｄ　ｎｏ　ｃｈａｎｃｅ　ｔｏ"TCC_NEWLINE"　ｄｉｓｅｎｇａｇｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕｒ　ｍｉｓｔａｋｅ　ｗａｓ　ｓｅｔｔｉｎｇ　ｆｏｏｔ"TCC_NEWLINE"　ｏｎｔｈｅ　ｂａｔｔｌｅｆｉｅｌｄ　ａｔ　ａｌｌ．　Ｔｈー"TCC_NEWLINE"ｉｓ　ｉｓ　ｔｈｅｃｏｎｓｅｑｕｅｎｃｅ　ｏｆ　Ａｌｆｏｎー"TCC_NEWLINE"ｓｅ’ｓ　ｒａｓｈｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｍｉｓｔａｋｅ　ｗａｓ　ｓｅｔｔｉｎｇ　ｆｏｏｔ"TCC_NEWLINE"　ｏｎ　ｔｈｅ　ｂａｔｔｌｅｆｉｅｌｄ　ａｔ　ａｌｌ．　Ｔー"TCC_NEWLINE"ｈｉｓ　ｉｓ　ｔｈｅ　ｃｏｎｓｅｑｕｅｎｃｅ　ｏｆ　Ａｌｆー"TCC_NEWLINE"ｏｎｓｅ’ｓ　ｒａｓｈｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｆａｔｈｅｒ．．．　Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅｌ．．．　Ｓｈｅ　ｃｌａｉｍｅｄ　ｍｙ　ｆａｔｈｅｒ’"TCC_NEWLINE"ｓ　ｌｉｆｅ，ｔｏｏ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ａｒｅ　ｎｏ　ｏｐｔｉｏｎｓ　ｌｅｆｔ，　Ａｌー"TCC_NEWLINE"ｆｏｎｓｅ．Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｉｎｇ　ｈｅー"TCC_NEWLINE"ｒ　ｃｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ．．．　Ｓｈｅ　ｃｌａｉｍｅｄ　ｍｙ　ｆａｔｈｅｒ’"TCC_NEWLINE"ｓ　ｌｉｆｅ，　ｔｏｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ａｒｅ　ｎｏ　ｏｐｔｉｏｎｓ　ｌｅｆｔ，　Ａｌー"TCC_NEWLINE"ｆｏｎｓｅ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｉｎｇ　ｈー"TCC_NEWLINE"ｅｒ　ｃｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_HENRIETTE
-"Ｇｕｓｔａｖ！　Ｔｈｉｓ　ｉｓ　ｏｕｒ　ｓｏｎ’ｓ　ｌｉｆー"TCC_NEWLINE"ｅ　ｙｏｕ’ｒｅｔａｌｋｉｎｇ　ａｂｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｇｕｓｔａｖ！　Ｔｈｉｓ　ｉｓ　ｏｕｒ　ｓｏｎ’ｓ　ｌｉｆー"TCC_NEWLINE"ｅ　ｙｏｕ’ｒｅ　ｔａｌｋｉｎｇ　ａｂｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
-"Ｈｅｎｒｉｅｔｔｅ，　ｐｌｅａｓｅ，　ｌｉｓｔｅｎ．　Ａｌー"TCC_NEWLINE"ｌ　ｏｆ　ｙｏｕｍｕｓｔ　ｌｉｓｔｅｎ　ｔｏ　ｗｈａｔ　Ｉ"TCC_NEWLINE"　ｓａｙ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｒｏｙａｌ　ｆａｍｉｌｙ　ｏｆ　Ａｓｋｒ，　ｏｕｒ"TCC_NEWLINE"　ｆａｍｉｌｙ，ｈａｓ　ｓｕｆｆｅｒｅｄ　ａ　ｌｏｓｓ．　"TCC_NEWLINE"Ｗｅ　ｍｕｓｔ　ａｃｃｅｐｔｔｈａｔ　ａｎｄ　ｍｏｖｅ　ｆー"TCC_NEWLINE"ｏｒｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｎｒｉｅｔｔｅ，　ｐｌｅａｓｅ，　ｌｉｓｔｅｎ．　Ａｌー"TCC_NEWLINE"ｌ　ｏｆ　ｙｏｕ　ｍｕｓｔ　ｌｉｓｔｅｎ　ｔｏ　ｗｈａｔ　"TCC_NEWLINE"Ｉ　ｓａｙ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｏｙａｌ　ｆａｍｉｌｙ　ｏｆ　Ａｓｋｒ，　ｏｕｒ"TCC_NEWLINE"　ｆａｍｉｌｙ，　ｈａｓ　ｓｕｆｆｅｒｅｄ　ａ　ｌｏｓｓ．"TCC_NEWLINE"　Ｗｅ　ｍｕｓｔ　ａｃｃｅｐｔ　ｔｈａｔ　ａｎｄ　ｍｏｖｅ"TCC_NEWLINE"　ｆｏｒｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｆａｔｈｅｒ！　Ｙｏｕ　ｃａｎ’ｔ　ｍｅａｎ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｆｏｎｓｅ　ｉｓ　ａｌｉｖｅ！　Ｈｅ’ｓ　ｒｉｇｈｔ　"TCC_NEWLINE"ｈｅｒｅｂｅｓｉｄｅ　ｙｏｕ！　Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅー"TCC_NEWLINE"ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ　ｉｓ　ａｌｉｖｅ！　Ｈｅ’ｓ　ｒｉｇｈｔ　"TCC_NEWLINE"ｈｅｒｅ　ｂｅｓｉｄｅ　ｙｏｕ！　Ｔｈｅｒｅ　ｍｕｓｔ　ｂー"TCC_NEWLINE"ｅ　ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
 "Ｄｅａｔｈ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｔｕｒｎｅｄ　ａｗａｙ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｅ　ｃａｎ’ｔ　ｋｎｏｗ　ｔｈａｔ　ｕｎｌｅｓｓ　ｗｅ　"TCC_NEWLINE"ｔｒｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
-"Ｅｎｏｕｇｈ．　Ｉ　ｗｉｌｌ　ｒｅｊｏｉｎ　ｍｙ　ｆｏｒｃー"TCC_NEWLINE"ｅｓ．Ｉ　ｍｕｓｔ　ｃｏｎｓｉｄｅｒ　ｏｕｒ　ｎｅｘｔ　ｍー"TCC_NEWLINE"ｏｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｎｏｕｇｈ．　Ｉ　ｗｉｌｌ　ｒｅｊｏｉｎ　ｍｙ　ｆｏｒｃー"TCC_NEWLINE"ｅｓ．　Ｉ　ｍｕｓｔ　ｃｏｎｓｉｄｅｒ　ｏｕｒ　ｎｅｘｔ　"TCC_NEWLINE"ｍｏｖｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ　ｈａｖｅ　ｆａｉｌｅｄ　ｙｏｕ，　Ｆａｔｈｅｒ．　Ｉ　"TCC_NEWLINE"ａｍ　ｓｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｕｎｔｉｌ　ｔｈｅ　ｍｏｍｅｎｔ　Ｉ　ｄｉｅ，　Ｉ"TCC_NEWLINE"　ｗｉｌｌｃｏｎｔｉｎｕｅ　ｔｏ　ｓｅｅｋ　ａ　ｍｅａｎｓ"TCC_NEWLINE"　ｏｆｄｅｆｅａｔｉｎｇ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｏｎｌｙ　ｈｏｐｅ　ｉｓ　ｔｈａｔ，　ｉｎ　ｔｈｅ　"TCC_NEWLINE"ｔｉｍｅ　Ｉｈａｖｅ　ｌｅｆｔ，　Ｉ　ｃａｎ　ｆｉｎｄ　ｓー"TCC_NEWLINE"ｏｍｅ　ｗａｙ　ｔｏ　ｂｅｏｆ　ｕｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｕｎｔｉｌ　ｔｈｅ　ｍｏｍｅｎｔ　Ｉ　ｄｉｅ，　Ｉ"TCC_NEWLINE"　ｗｉｌｌ　ｃｏｎｔｉｎｕｅ　ｔｏ　ｓｅｅｋ　ａ　ｍｅａｎー"TCC_NEWLINE"ｓ　ｏｆ　ｄｅｆｅａｔｉｎｇ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｏｎｌｙ　ｈｏｐｅ　ｉｓ　ｔｈａｔ，　ｉｎ　ｔｈｅ　"TCC_NEWLINE"ｔｉｍｅ　Ｉ　ｈａｖｅ　ｌｅｆｔ，　Ｉ　ｃａｎ　ｆｉｎｄ　"TCC_NEWLINE"ｓｏｍｅ　ｗａｙ　ｔｏ　ｂｅ　ｏｆ　ｕｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_GUSTAV
 "Ｖｅｒｙ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ　ｍｕｓｔ　ｋｉｌｌ　Ｈｅｌ．　Ｔｈａｔ　ｉｓ　ｈｏｗ"TCC_NEWLINE"　ｗｅｗｉｌｌ　ｓａｖｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｋｉｌｌ　Ｈｅｌ．　Ｔｈａｔ　ｉｓ　ｈｏｗ"TCC_NEWLINE"　ｗｅ　ｗｉｌｌ　ｓａｖｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ’ｒｅ　ｏｕｔ　ｏｆ　ｏｐｔｉｏｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｍｏｓｔ　ｌｅｇｅｎｄｓ　ｈｏｌｄ　ｔｈａｔ　ａ　ｃｕｒｓー"TCC_NEWLINE"ｅ　ｉｓｂｒｏｋｅｎ　ｗｈｅｎ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｌー"TCC_NEWLINE"ａｉｄ　ｉｔ　ｉｓｋｉｌｌｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ｉｆ　Ｈｅｌ　ｗｅｒｅ　ｔｏ　"TCC_NEWLINE"ｄｉｅ，ｗｈａｔ　ｗｏｕｌｄ　ｈａｐｐｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｓｔ　ｌｅｇｅｎｄｓ　ｈｏｌｄ　ｔｈａｔ　ａ　ｃｕｒｓー"TCC_NEWLINE"ｅ　ｉｓ　ｂｒｏｋｅｎ　ｗｈｅｎ　ｔｈｅ　ｏｎｅ　ｗｈｏ　"TCC_NEWLINE"ｌａｉｄ　ｉｔ　ｉｓ　ｋｉｌｌｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ｉｆ　Ｈｅｌ　ｗｅｒｅ　ｔｏ　"TCC_NEWLINE"ｄｉｅ，　ｗｈａｔ　ｗｏｕｌｄ　ｈａｐｐｅｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_EIR
-"Ｉ　ｄｏ　ｎｏｔ　ｋｎｏｗ．　Ｍｙ　ｍｏｔｈｅｒ．．．ｈａー"TCC_NEWLINE"ｓ　ｎｅｖｅｒｂｅｅｎ　ｋｉｌｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏ　ｎｏｔ　ｋｎｏｗ．　Ｍｙ　ｍｏｔｈｅｒ．．．ｈａー"TCC_NEWLINE"ｓ　ｎｅｖｅｒ　ｂｅｅｎ　ｋｉｌｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｔｈａｔ　ｓｈｏｕｌｄｎ’ｔ　ｓｔｏｐ　ｕｓ　ｆｒｏｍ　ｔー"TCC_NEWLINE"ｒｙｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏｔ　ｏｎｌｙ　ｗｏｕｌｄ　ｋｉｌｌｉｎｇ　Ｈｅｌ　ａｂー"TCC_NEWLINE"ａｔｅ　ｔｈｅｔｈｒｅａｔ　ｔｏ　Ａｓｋｒ，　ｉｔ　ｃｏｕー"TCC_NEWLINE"ｌｄ　ｓａｖｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｋｅｅｐ　ｙｏｕｒ　ｅｙｅｓ　ｐｅｅｌｅｄ，　ｅｖｅｒｙｏー"TCC_NEWLINE"ｎｅ．Ｏｕｒ　ｏｂｊｅｃｔｉｖｅ　ｉｓ　ｔｏ　ｆｉｎｄ　Ｈー"TCC_NEWLINE"ｅｌ　ａｎｄｅｌｉｍｉｎａｔｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ｏｎｌｙ　ｗｏｕｌｄ　ｋｉｌｌｉｎｇ　Ｈｅｌ　ａｂー"TCC_NEWLINE"ａｔｅ　ｔｈｅ　ｔｈｒｅａｔ　ｔｏ　Ａｓｋｒ，　ｉｔ　ｃｏー"TCC_NEWLINE"ｕｌｄ　ｓａｖｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｋｅｅｐ　ｙｏｕｒ　ｅｙｅｓ　ｐｅｅｌｅｄ，　ｅｖｅｒｙｏー"TCC_NEWLINE"ｎｅ．　Ｏｕｒ　ｏｂｊｅｃｔｉｖｅ　ｉｓ　ｔｏ　ｆｉｎｄ　"TCC_NEWLINE"Ｈｅｌ　ａｎｄ　ｅｌｉｍｉｎａｔｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｓｈｅ’ｓ　ｎｏｔ　ｈｅｒｅ．　Ｌｅｔ’ｓ　ｍｏｖｅ！"TCC_NEWLINE TCC_PUSH_A

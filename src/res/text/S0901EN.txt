@@ -1,13 +1,13 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0901_EN] = TCC_OPEN_LEFT
-"Ｇｒｅｅｔｉｎｇｓ，　ｓｔｒａｎｇｅｒｓ．　Ｔｅｌｌ　ｍｅ"TCC_NEWLINE"，ｊｕｓｔ　ｗｈｏ　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ？　Ｆｒｏｍ　ａｎｏｔｈｅｒー"TCC_NEWLINE"ｗｏｒｌｄ，　ｙｏｕ　ｓａｙ？　Ｔｈａｔ　ｓｏｕｎｄｓｐｒー"TCC_NEWLINE"ｅｔｔｙ　ｓｕｓｐｉｃｉｏｕｓ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ａｆｒａｉｄ　Ｉ　ｃａｎ’ｔ　ｌｅｔ　ｙｏｕ　ｇｏ"TCC_NEWLINE"　ａｎｙｆｕｒｔｈｅｒ．　Ｉ　ｗｉｓｈ　Ｉ　ｈａｄ　Ｃｈｒー"TCC_NEWLINE"ｏｍ　ｈｅｒｅ　ｔｏｈｅｌｐ　ｆｉｇｈｔ　ｙｏｕ　ｏｆｆ，"TCC_NEWLINE"　ｂｕｔ"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ，　ｕｈ，　Ｔｈａｒｊａ？　Ｗｈｅｒｅ’ｄ　ｙｏｕｃｏー"TCC_NEWLINE"ｍｅ　ｆｒｏｍ？　Ａｒｅ　ｙｏｕ　ｆｏｌｌｏｗｉｎｇ　ｍｅー"TCC_NEWLINE"ａｒｏｕｎｄ　ａｇａｉｎ？"TCC_NEWLINE TCC_PUSH_A
-"Ｎｅｖｅｒ　ｍｉｎｄ　ｔｈａｔ　ｎｏｗ．　Ｙｏｕ　ｃａｎｈー"TCC_NEWLINE"ｅｌｐ　ｍｅ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　ｔｈｅｓｅｓｔｒー"TCC_NEWLINE"ａｎｇｅｒｓ　ｈｅｒｅ！"
+"Ｇｒｅｅｔｉｎｇｓ，　ｓｔｒａｎｇｅｒｓ．　Ｔｅｌｌ　ｍｅ"TCC_NEWLINE"，　ｊｕｓｔ　ｗｈｏ　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ？　Ｆｒｏｍ　ａｎｏｔｈｅｒ"TCC_NEWLINE"　ｗｏｒｌｄ，　ｙｏｕ　ｓａｙ？　Ｔｈａｔ　ｓｏｕｎｄｓ　"TCC_NEWLINE"ｐｒｅｔｔｙ　ｓｕｓｐｉｃｉｏｕｓ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ａｆｒａｉｄ　Ｉ　ｃａｎ’ｔ　ｌｅｔ　ｙｏｕ　ｇｏ"TCC_NEWLINE"　ａｎｙ　ｆｕｒｔｈｅｒ．　Ｉ　ｗｉｓｈ　Ｉ　ｈａｄ　Ｃｈー"TCC_NEWLINE"ｒｏｍ　ｈｅｒｅ　ｔｏ　ｈｅｌｐ　ｆｉｇｈｔ　ｙｏｕ　ｏｆー"TCC_NEWLINE"ｆ，　ｂｕｔ"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｕｈ，　Ｔｈａｒｊａ？　Ｗｈｅｒｅ’ｄ　ｙｏｕ　ｃー"TCC_NEWLINE"ｏｍｅ　ｆｒｏｍ？　Ａｒｅ　ｙｏｕ　ｆｏｌｌｏｗｉｎｇ　ｍー"TCC_NEWLINE"ｅ　ａｒｏｕｎｄ　ａｇａｉｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｅｖｅｒ　ｍｉｎｄ　ｔｈａｔ　ｎｏｗ．　Ｙｏｕ　ｃａｎ　"TCC_NEWLINE"ｈｅｌｐ　ｍｅ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　ｔｈｅｓｅ　ｓー"TCC_NEWLINE"ｔｒａｎｇｅｒｓ　ｈｅｒｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0901_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ　ｃｉｒｃｕｍｖｅｎｔｅｄ　ｍｙ　ｓｔｒａｔｅｇｙ？"TCC_NEWLINE"Ｉｎｃｒｅｄｉｂｌｅ．　Ｉ　ｇｕｅｓｓ　ｙｏｕｒ　ｔａｃｔー"TCC_NEWLINE"ｉｃｉａｎｃａｎ’ｔ　ｂｅ　ｈａｌｆ　ｂａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ’ｖｅ　ｇｏｔ　ｍｏｒｅ　ｔａｃｔｉｃｓ　ｔｈａー"TCC_NEWLINE"ｔｗｉｌｌ　ｔｒｉｐ　ｙｏｕ　ｕｐｍａｎｙ　ｍｏｒｅ　ａｌー"TCC_NEWLINE"ｌｉｅｓｔｏ　ｋｅｅｐ　ｙｏｕ　ｆｒｏｍ　ｇｏｉｎｇ　ｆｕー"TCC_NEWLINE"ｒｔｈｅｒ！"
+"Ｙｏｕ　ｃｉｒｃｕｍｖｅｎｔｅｄ　ｍｙ　ｓｔｒａｔｅｇｙ？"TCC_NEWLINE"　Ｉｎｃｒｅｄｉｂｌｅ．　Ｉ　ｇｕｅｓｓ　ｙｏｕｒ　ｔａｃー"TCC_NEWLINE"ｔｉｃｉａｎ　ｃａｎ’ｔ　ｂｅ　ｈａｌｆ　ｂａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｖｅ　ｇｏｔ　ｍｏｒｅ　ｔａｃｔｉｃｓ　ｔｈａー"TCC_NEWLINE"ｔ　ｗｉｌｌ　ｔｒｉｐ　ｙｏｕ　ｕｐｍａｎｙ　ｍｏｒｅ　ａー"TCC_NEWLINE"ｌｌｉｅｓ　ｔｏ　ｋｅｅｐ　ｙｏｕ　ｆｒｏｍ　ｇｏｉｎｇ　"TCC_NEWLINE"ｆｕｒｔｈｅｒ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,31 +1,31 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｈａｔ　ｓｈｏｕｌｄ　ｏｕｒ　ｎｅｘｔ　ｍｏｖｅ　ｂｅ？"TCC_NEWLINE"　Ｗｅｈａｖｅ　ｎｏ　ｔｉｍｅ　ｔｏ　ｗａｓｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｑｕｅｓｔｉｏｎ　ｉｓ：　ｗｈａｔ　ｍｉｇｈｔ　ｗー"TCC_NEWLINE"ｅ　ｇａｉｎｂｙ　ｅｘｐｌｏｒｉｎｇ　ｔｈｉｓ　ｗｏｒｌｄ"TCC_NEWLINE"　ｆｕｒｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｍａｙ　ｂｅ　ｂｅｔｔｅｒ　ｏｆｆ　ｒｅｔｕｒｎｉｎー"TCC_NEWLINE"ｇ　ｔｏｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｓｈｏｕｌｄ　ｏｕｒ　ｎｅｘｔ　ｍｏｖｅ　ｂｅ？"TCC_NEWLINE"　Ｗｅ　ｈａｖｅ　ｎｏ　ｔｉｍｅ　ｔｏ　ｗａｓｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｑｕｅｓｔｉｏｎ　ｉｓ：　ｗｈａｔ　ｍｉｇｈｔ　ｗー"TCC_NEWLINE"ｅ　ｇａｉｎ　ｂｙ　ｅｘｐｌｏｒｉｎｇ　ｔｈｉｓ　ｗｏｒｌー"TCC_NEWLINE"ｄ　ｆｕｒｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍａｙ　ｂｅ　ｂｅｔｔｅｒ　ｏｆｆ　ｒｅｔｕｒｎｉｎー"TCC_NEWLINE"ｇ　ｔｏ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｆ　ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ　ｗｉｔｈ　ｙｏｕ，　Ｃー"TCC_NEWLINE"ｏｍｍａｎｄｅｒＡｎｎａ，　Ｉ’ｄ　ｌｉｋｅ　ｔｏ　ｓｅａー"TCC_NEWLINE"ｒｃｈ　ｔｈｅ　ｃａｓｔｌｅ’ｓｌｉｂｒａｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ　ｗｉｔｈ　ｙｏｕ，　Ｃー"TCC_NEWLINE"ｏｍｍａｎｄｅｒ　Ａｎｎａ，　Ｉ’ｄ　ｌｉｋｅ　ｔｏ　ｓｅー"TCC_NEWLINE"ａｒｃｈ　ｔｈｅ　ｃａｓｔｌｅ’ｓ　ｌｉｂｒａｒｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｗｅ　ｓｅａｒｃｈｅｄ　ｏｕｒ　ｏｗｎ　ｌｉｂｒａｒｙ，　"TCC_NEWLINE"ａｎｄｌｅａｒｎｅｄ　ｎｏｔｈｉｎｇ　ｔｈａｔ　ｍｉｇｈｔ"TCC_NEWLINE"　ｈｅｌｐｕｓ　ｄｅｆｅａｔ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｔｈｉｎｇｓ　ｍｉｇｈｔ　ｂｅｄー"TCC_NEWLINE"ｉｆｆｅｒｅｎｔ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｓｅａｒｃｈｅｄ　ｏｕｒ　ｏｗｎ　ｌｉｂｒａｒｙ，　"TCC_NEWLINE"ａｎｄ　ｌｅａｒｎｅｄ　ｎｏｔｈｉｎｇ　ｔｈａｔ　ｍｉｇｈー"TCC_NEWLINE"ｔ　ｈｅｌｐ　ｕｓ　ｄｅｆｅａｔ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｔｈｉｎｇｓ　ｍｉｇｈｔ　ｂｅ　"TCC_NEWLINE"ｄｉｆｆｅｒｅｎｔ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｄｏ．　Ｅｖｅｎ　ｉｆ　ｗｅ　ｄｏｎ’ｔ　ｌｅａｒｎ　"TCC_NEWLINE"ａｎｙｔｈｉｎｇａｂｏｕｔ　ｈｏｗ　ｔｏ　ｄｅｆｅａｔ　Ｈー"TCC_NEWLINE"ｅｌ，　ｗｅ　ｍａｙｌｅａｒｎ　ｓｏｍｅｔｈｉｎｇ　ａｂｏー"TCC_NEWLINE"ｕｔ　ＴＨＩＳ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ｂａｓｉｃ　ｆａｃｔｓ，　ｌｉｋｅ　ｗｈａｔ　ｙー"TCC_NEWLINE"ｅａｒｉｔ　ｉｓｏｒ　ｗｈａｔ　ｅｘａｃｔｌｙ　ｈａｐｐｅー"TCC_NEWLINE"ｎｅｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏ．　Ｅｖｅｎ　ｉｆ　ｗｅ　ｄｏｎ’ｔ　ｌｅａｒｎ　"TCC_NEWLINE"ａｎｙｔｈｉｎｇ　ａｂｏｕｔ　ｈｏｗ　ｔｏ　ｄｅｆｅａｔ　"TCC_NEWLINE"Ｈｅｌ，　ｗｅ　ｍａｙ　ｌｅａｒｎ　ｓｏｍｅｔｈｉｎｇ　ａー"TCC_NEWLINE"ｂｏｕｔ　ＴＨＩＳ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｂａｓｉｃ　ｆａｃｔｓ，　ｌｉｋｅ　ｗｈａｔ　ｙー"TCC_NEWLINE"ｅａｒ　ｉｔ　ｉｓｏｒ　ｗｈａｔ　ｅｘａｃｔｌｙ　ｈａｐｐー"TCC_NEWLINE"ｅｎｅｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｃａｎ　ｓｅｅ　ｔｈｅ　ｍｅｒｉｔ　ｉｎ　ｔｈａｔ．　"TCC_NEWLINE"Ａｎｄ　ｉｆ　ｉｔｗａｓ　Ｈｅｌ　ｗｈｏ　ｂｒｏｕｇｈｔ　"TCC_NEWLINE"ｔｈｉｓ　Ａｓｋｒ　ｔｏｒｕｉｎ，　ｗｅ　ｃｏｕｌｄ　ｌｅー"TCC_NEWLINE"ａｒｎ　ｓｏｍｅｔｈｉｎｇ　ｖｉｔａｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｃｅｒｔａｉｎ　ｔｈａｔ　ｔｈｅｒｅ　ｍｕｓｔ　ｂー"TCC_NEWLINE"ｅ　ｓｏｍｅｉｎｆｏｒｍａｔｉｏｎ　ａｂｏｕｔ　Ｈｅｌ　ｔー"TCC_NEWLINE"ｈｅｒｅ．．．　Ｌｅｔ’ｓｇｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ　ｓｅｅ　ｔｈｅ　ｍｅｒｉｔ　ｉｎ　ｔｈａｔ．　"TCC_NEWLINE"Ａｎｄ　ｉｆ　ｉｔ　ｗａｓ　Ｈｅｌ　ｗｈｏ　ｂｒｏｕｇｈｔ"TCC_NEWLINE"　ｔｈｉｓ　Ａｓｋｒ　ｔｏ　ｒｕｉｎ，　ｗｅ　ｃｏｕｌｄ　"TCC_NEWLINE"ｌｅａｒｎ　ｓｏｍｅｔｈｉｎｇ　ｖｉｔａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｃｅｒｔａｉｎ　ｔｈａｔ　ｔｈｅｒｅ　ｍｕｓｔ　ｂー"TCC_NEWLINE"ｅ　ｓｏｍｅ　ｉｎｆｏｒｍａｔｉｏｎ　ａｂｏｕｔ　Ｈｅｌ　"TCC_NEWLINE"ｔｈｅｒｅ．．．　Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_THRASIR
-"Ｙｏｕ’ｒｅ　ｐｅｒｓｉｓｔｅｎｔ．　Ｂｕｔ　ｓｏ　ｉｓｄー"TCC_NEWLINE"ｅａｔｈ．　Ｓｏｏｎｅｒ　ｏｒ　ｌａｔｅｒ，　ａｌｌ　ｏｆー"TCC_NEWLINE"ｙｏｕ　ｗｉｌｌ　ｐｅｒｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｐｅｒｓｉｓｔｅｎｔ．　Ｂｕｔ　ｓｏ　ｉｓ　"TCC_NEWLINE"ｄｅａｔｈ．　Ｓｏｏｎｅｒ　ｏｒ　ｌａｔｅｒ，　ａｌｌ　ｏー"TCC_NEWLINE"ｆ　ｙｏｕ　ｗｉｌｌ　ｐｅｒｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉ　ｋｎｏｗ　ｔｈｉｓ　ｐｌａｃｅ　ｓｏ　ｗｅｌｌ．　Ｉ　"TCC_NEWLINE"ｃａｎ　ｂａｒｅｌｙｔｅｌｌ　ｔｈｅ　ｄｉｆｆｅｒｅｎｃｅ"TCC_NEWLINE"　ｂｅｔｗｅｅｎ　ｔｈｉｓ　ｗｏｒｌｄａｎｄ　ｏｕｒ　ｏｗー"TCC_NEWLINE"ｎ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　ｔｏｎｉｇｈｔ，　ｗｅ’ｌｌ　ｒｅｓｔ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｆｏｒｔｒｅｓｓｏｎ　ｔｈｅ　ｈｉｌｌ　ａｈｅａｄ．　"TCC_NEWLINE"Ｉ　ｄｏ　ｌｏｖｅ　ｉｔ　ｓｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｔｈｉｓ　ｐｌａｃｅ　ｓｏ　ｗｅｌｌ．　Ｉ　"TCC_NEWLINE"ｃａｎ　ｂａｒｅｌｙ　ｔｅｌｌ　ｔｈｅ　ｄｉｆｆｅｒｅｎｃー"TCC_NEWLINE"ｅ　ｂｅｔｗｅｅｎ　ｔｈｉｓ　ｗｏｒｌｄ　ａｎｄ　ｏｕｒ　"TCC_NEWLINE"ｏｗｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｏｎｉｇｈｔ，　ｗｅ’ｌｌ　ｒｅｓｔ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｆｏｒｔｒｅｓｓ　ｏｎ　ｔｈｅ　ｈｉｌｌ　ａｈｅａｄ．"TCC_NEWLINE"　Ｉ　ｄｏ　ｌｏｖｅ　ｉｔ　ｓｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ａｓｋｒ，　ｌａｉｄ　ｗａｓｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ａｃｃｅｐｔ　ｔｈｅ　"TCC_NEWLINE"ｅｖｉｄｅｎｃｅｏｆ　ｍｙ　ｅｙｅｓ．　Ｏｎｅ　ｔｈｉｎｇ"TCC_NEWLINE"　ｉｎ　ｐａｒｔｉｃｕｌａｒｂｏｔｈｅｒｓ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ａｃｃｅｐｔ　ｔｈｅ　"TCC_NEWLINE"ｅｖｉｄｅｎｃｅ　ｏｆ　ｍｙ　ｅｙｅｓ．　Ｏｎｅ　ｔｈｉｎー"TCC_NEWLINE"ｇ　ｉｎ　ｐａｒｔｉｃｕｌａｒ　ｂｏｔｈｅｒｓ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｓｕｓｐｅｃｔ"TCC_NEWLINE TCC_PUSH_A
 "！？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LIF
@@ -34,7 +34,7 @@ TCC_OPEN_LEFT
 "Ｌｆ！　Ａｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏｎ’ｔ　ｙｏｕ　ｄａｒｅ！　Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔー"TCC_NEWLINE"ｏ　ｋｉｌｌ　ｍｙｂｒｏｔｈｅｒ，　ｙｏｕ’ｌｌ　ｈａｖｅ"TCC_NEWLINE"　ｔｏ　ｋｉｌｌ　ｍｅ　ｆｉｒｓｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｙｏｕ　ｄａｒｅ！　Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔー"TCC_NEWLINE"ｏ　ｋｉｌｌ　ｍｙ　ｂｒｏｔｈｅｒ，　ｙｏｕ’ｌｌ　ｈａｖー"TCC_NEWLINE"ｅ　ｔｏ　ｋｉｌｌ　ｍｅ　ｆｉｒｓｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｏｕ．．．　Ｍｏｖｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
@@ -43,7 +43,7 @@ TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｎｄ　ｈｅ’ｓ　ｇｏｎｅ！　Ｃａｎ　ｉｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｐｏｌｏｇｉｚｅ．　Ｉ　ｗａｓ　ｃａｒｅｌｅｓｓ．．"TCC_NEWLINE"．　Ｉ　ｄｉｄｎ’ｔａｎｔｉｃｉｐａｔｅ　ｔｈａｔ　ｈｅ’"TCC_NEWLINE"ｄ　ｓｉｍｐｌｙ　ｔｒｙ　ｔｏａｓｓａｓｓｉｎａｔｅ　ｍｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｐｏｌｏｇｉｚｅ．　Ｉ　ｗａｓ　ｃａｒｅｌｅｓｓ．．"TCC_NEWLINE"．　Ｉ　ｄｉｄｎ’ｔ　ａｎｔｉｃｉｐａｔｅ　ｔｈａｔ　ｈｅ"TCC_NEWLINE"’ｄ　ｓｉｍｐｌｙ　ｔｒｙ　ｔｏ　ａｓｓａｓｓｉｎａｔｅ　"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｎｅｖｅｒ　ｍｉｎｄ　ｔｈａｔ．　Ａｒｅ　ｙｏｕ　ａｌｌ　"TCC_NEWLINE"ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -52,10 +52,10 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_LEFT
 "Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌｆ　ｈｅｓｉｔａｔｅｄ　ｆｏｒ　ｊｕｓｔ　ａ　ｍｏｍｅｎー"TCC_NEWLINE"ｔｂｅｆｏｒｅ　ｐｏｉｎｔｉｎｇ　ｈｉｓ　ｗｅａｐｏｎ　ａー"TCC_NEWLINE"ｔｙｏｕ．　Ｉ　ｗｏｎｄｅｒ　ｗｈａｔ　ｔｈａｔ’ｓ　ａｂー"TCC_NEWLINE"ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｆ　ｈｅｓｉｔａｔｅｄ　ｆｏｒ　ｊｕｓｔ　ａ　ｍｏｍｅｎー"TCC_NEWLINE"ｔ　ｂｅｆｏｒｅ　ｐｏｉｎｔｉｎｇ　ｈｉｓ　ｗｅａｐｏｎ　"TCC_NEWLINE"ａｔ　ｙｏｕ．　Ｉ　ｗｏｎｄｅｒ　ｗｈａｔ　ｔｈａｔ’ｓ　"TCC_NEWLINE"ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｅｒｈａｐｓ　ｉｔ　ｗａｓ　ｃｈｉｖａｌｒｙ．　Ｍａｙｂー"TCC_NEWLINE"ｅ　ｈｅｗｏｎ’ｔ　ｆｉｇｈｔ　ａ　ｗｏｍａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　ｉｔ　ｗａｓ　ｃｈｉｖａｌｒｙ．　Ｍａｙｂー"TCC_NEWLINE"ｅ　ｈｅ　ｗｏｎ’ｔ　ｆｉｇｈｔ　ａ　ｗｏｍａｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈａｔ　ｓｅｅｍｓ　ｕｎｌｉｋｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｍｕｓｔ　ｂｅ　ｓｏｍｅｔｈｉｎｇ　ｅｌｓｅ．．．"TCC_NEWLINE TCC_PUSH_A

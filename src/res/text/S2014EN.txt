@@ -1,35 +1,35 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_END_S2014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｈｕｒｒｙ！　Ｗｅ’ｒｅ　ａｌｍｏｓｔ　ｔｈｅｒｅ．　Ｔｈー"TCC_NEWLINE"ｉｓ　ｉｓｗｈｅｒｅ　ｔｈａｔ　ｒｅｐｏｒｔ　ｃａｍｅ　ｆー"TCC_NEWLINE"ｒｏｍ．．．　Ｇｅｔｒｅａｄｙ，"TCC_NEWLINE
+"Ｈｕｒｒｙ！　Ｗｅ’ｒｅ　ａｌｍｏｓｔ　ｔｈｅｒｅ．　Ｔｈー"TCC_NEWLINE"ｉｓ　ｉｓ　ｗｈｅｒｅ　ｔｈａｔ　ｒｅｐｏｒｔ　ｃａｍｅ　"TCC_NEWLINE"ｆｒｏｍ．．．　Ｇｅｔ　ｒｅａｄｙ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｈａｈｈ．．．　Ｉ　ｗｉｌｌ．．．　Ｉ　ｗｉｌｌ．．．ａｖー"TCC_NEWLINE"ｅｎｇｅ　ｙｏｕ．．．Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｈｈ．．．　Ｉ　ｗｉｌｌ．．．　Ｉ　ｗｉｌｌ．．．ａｖー"TCC_NEWLINE"ｅｎｇｅ　ｙｏｕ．．．　Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｈｏｗ　ｗｅａｋ　ｙｏｕ　ａｒｅ．　Ｙｏｕｒ　ｓｔｒｅｎｇー"TCC_NEWLINE"ｔｈ　ｉｓａｌｒｅａｄｙ　ｆａｄｉｎｇ．．．　Ｙｏｕ　ｃａー"TCC_NEWLINE"ｎ’ｔ　ｅｖｅｎ　ｆｉｇｈｔｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｔｈｉｎｋ　ｙｏｕ　ｐｏｉｎｔｅｄ　ｙｏｕｒ　ｗｅａー"TCC_NEWLINE"ｐｏｎ　ａｔｍｅａ　ｋｉｎｇ！　Ｄｉｄ　ｙｏｕ　ｔｈｉｎｋ"TCC_NEWLINE"　ｙｏｕ　ｗｏｕｌｄｓｕｒｖｉｖｅ？　Ｄｉｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｗｅａｋ　ｙｏｕ　ａｒｅ．　Ｙｏｕｒ　ｓｔｒｅｎｇー"TCC_NEWLINE"ｔｈ　ｉｓ　ａｌｒｅａｄｙ　ｆａｄｉｎｇ．．．　Ｙｏｕ　ｃー"TCC_NEWLINE"ａｎ’ｔ　ｅｖｅｎ　ｆｉｇｈｔ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｔｈｉｎｋ　ｙｏｕ　ｐｏｉｎｔｅｄ　ｙｏｕｒ　ｗｅａー"TCC_NEWLINE"ｐｏｎ　ａｔ　ｍｅａ　ｋｉｎｇ！　Ｄｉｄ　ｙｏｕ　ｔｈｉｎー"TCC_NEWLINE"ｋ　ｙｏｕ　ｗｏｕｌｄ　ｓｕｒｖｉｖｅ？　Ｄｉｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ’ｌｌ　ｓｕｆｆｅｒ　ｆｏｒ　ｔｈａｔ　ｉｍｐｅｒｔー"TCC_NEWLINE"ｉｎｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｆｅｅｌ　ｔｈａｔ　ｐａｉｎ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．"TCC_NEWLINE"　Ｆｅｅｌ　ｉｔ．．．ａｎｄ　ｔｅｌｌ　ｍｅ　ｗｈａｔ　ｙー"TCC_NEWLINE"ｏｕ　ｄｅｓｉｒｅ　ｍｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｏｕｌｄ　Ｉ　ｓｃａｒ　ｙｏｕｒ　ｆａｃｅ　ｗｉｔｈ　"TCC_NEWLINE"ｆｌａｍｅ？　Ｏｒｓｈｏｕｌｄ　Ｉ　ｂｕｒｎ　ｙｏｕｒ　ｆー"TCC_NEWLINE"ｉｎｇｅｒｓ　ｔｏ　ａｓｈ，　ｏｎｅｂｙ　ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　Ｉ　ｄｉｄ　ｔｏ　ｙｏｕｒ　ｍｏｔｈｅｒ？Ｗｈａｔ　"TCC_NEWLINE"ｗｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｍｅ　ｄｏ，　ｈｍｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｆｅｅｌ　ｔｈａｔ　ｐａｉｎ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．"TCC_NEWLINE"　Ｆｅｅｌ　ｉｔ．．．　ａｎｄ　ｔｅｌｌ　ｍｅ　ｗｈａｔ　"TCC_NEWLINE"ｙｏｕ　ｄｅｓｉｒｅ　ｍｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｏｕｌｄ　Ｉ　ｓｃａｒ　ｙｏｕｒ　ｆａｃｅ　ｗｉｔｈ　"TCC_NEWLINE"ｆｌａｍｅ？　Ｏｒ　ｓｈｏｕｌｄ　Ｉ　ｂｕｒｎ　ｙｏｕｒ　"TCC_NEWLINE"ｆｉｎｇｅｒｓ　ｔｏ　ａｓｈ，　ｏｎｅ　ｂｙ　ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　Ｉ　ｄｉｄ　ｔｏ　ｙｏｕｒ　ｍｏｔｈｅｒ？　Ｗｈａｔ"TCC_NEWLINE"　ｗｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｍｅ　ｄｏ，　ｈｍｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈａ－ｈａ－ｈａｈ！　Ｔｈａｔ　ｉｓ　ｔｈｅ　ｆａｔｅ　ｏー"TCC_NEWLINE"ｆ　ｔｈｅｗｅａｋｔｏ　ｂｅ　ｔｒａｍｐｌｅｄ．　Ｓｏ　ｉー"TCC_NEWLINE"ｔ　ｇｏｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔｒｉｋｅ　ａｔ　ｍｅ！　Ｓｈｏｗ　ｍｅ　ｙｏｕｒ　ｌａー"TCC_NEWLINE"ｓｔ，ｌｉｎｇｅｒｉｎｇ　ｆｌａｍｅｂｅｆｏｒｅ　ｉｔ　ｆー"TCC_NEWLINE"ｌｉｃｋｅｒｓ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈａ－ｈａ－ｈａｈ！　Ｔｈａｔ　ｉｓ　ｔｈｅ　ｆａｔｅ　ｏー"TCC_NEWLINE"ｆ　ｔｈｅ　ｗｅａｋｔｏ　ｂｅ　ｔｒａｍｐｌｅｄ．　Ｓｏ　"TCC_NEWLINE"ｉｔ　ｇｏｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｒｉｋｅ　ａｔ　ｍｅ！　Ｓｈｏｗ　ｍｅ　ｙｏｕｒ　ｌａー"TCC_NEWLINE"ｓｔ，　ｌｉｎｇｅｒｉｎｇ　ｆｌａｍｅｂｅｆｏｒｅ　ｉｔ　"TCC_NEWLINE"ｆｌｉｃｋｅｒｓ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｕｒｔｒ！　Ｉ　ｓｗｅａｒ．．．ｔｈａｔ　Ｉ．．．　Ｙｏー"TCC_NEWLINE"ｕ　ｗｉｌｌｎｅｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｔｒ！　Ｉ　ｓｗｅａｒ．．．ｔｈａｔ　Ｉ．．．　Ｙｏー"TCC_NEWLINE"ｕ　ｗｉｌｌ　ｎｅｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｓ　ｔｈａｔ　ａｌｌ？　Ｓｈｅ’ｓ　ａｌｒｅａｄｙ　ｌｏー"TCC_NEWLINE"ｓｔｃｏｎｓｃｉｏｕｓｎｅｓｓ．　Ｗｈａｔ　ａ　ｊｏｋｅ！"TCC_NEWLINE"　Ｎｏｔｅｖｅｎ　ｆｉｔ　ｆｏｒ　ａ　ｔｏｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈａｔ　ａｌｌ？　Ｓｈｅ’ｓ　ａｌｒｅａｄｙ　ｌｏー"TCC_NEWLINE"ｓｔ　ｃｏｎｓｃｉｏｕｓｎｅｓｓ．　Ｗｈａｔ　ａ　ｊｏｋｅ"TCC_NEWLINE"！　Ｎｏｔ　ｅｖｅｎ　ｆｉｔ　ｆｏｒ　ａ　ｔｏｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｈａｔ　ｎｅｘｔ，　ｍｙ　ｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ　ｍａｒｃｈ．　Ｍｙ　ｆｌａｍｅｓ　ｗｉｌｌ　ｓｏｏｎ"TCC_NEWLINE"　ｒｅａｃｈｅｖｅｒｙ　ｃｏｒｎｅｒ　ｏｆ　ｔｈｉｓ　ｌａー"TCC_NEWLINE"ｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍａｒｃｈ．　Ｍｙ　ｆｌａｍｅｓ　ｗｉｌｌ　ｓｏｏｎ"TCC_NEWLINE"　ｒｅａｃｈ　ｅｖｅｒｙ　ｃｏｒｎｅｒ　ｏｆ　ｔｈｉｓ　ｌー"TCC_NEWLINE"ａｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｏｕ　ｄｏｎ’ｔ　ｗａｓｔｅ　ａｎｙ　ｔｉｍｅ，　ｄｏ　"TCC_NEWLINE"ｙｏｕ？　Ａｓｆｏｒ　ｔｈｉｓ　ｏｎｅ．．．　Ｙｏｕ’ｒｅ"TCC_NEWLINE"　ｊｕｓｔ　ｇｏｉｎｇ　ｔｏ　ｃａｓｔｈｅｒ　ａｓｉｄｅ　"TCC_NEWLINE"ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅｌｌ，　ｗｅｌｌ，　ｗｅｌｌ．．．　Ｉ’ｌｌ　ｇｉｖｅ"TCC_NEWLINE"　ｙｏｕ　ｐｌｅｎｔｙ　ｏｆａｔｔｅｎｔｉｏｎ，　ｓｗｅｅー"TCC_NEWLINE"ｔｉｅ．．．　Ｈｅｅ－ｈｅｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｏｎ’ｔ　ｗａｓｔｅ　ａｎｙ　ｔｉｍｅ，　ｄｏ　"TCC_NEWLINE"ｙｏｕ？　Ａｓ　ｆｏｒ　ｔｈｉｓ　ｏｎｅ．．．　Ｙｏｕ’ｒー"TCC_NEWLINE"ｅ　ｊｕｓｔ　ｇｏｉｎｇ　ｔｏ　ｃａｓｔ　ｈｅｒ　ａｓｉｄー"TCC_NEWLINE"ｅ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｗｅｌｌ，　ｗｅｌｌ．．．　Ｉ’ｌｌ　ｇｉｖｅ"TCC_NEWLINE"　ｙｏｕ　ｐｌｅｎｔｙ　ｏｆ　ａｔｔｅｎｔｉｏｎ，　ｓｗｅー"TCC_NEWLINE"ｅｔｉｅ．．．　Ｈｅｅ－ｈｅｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

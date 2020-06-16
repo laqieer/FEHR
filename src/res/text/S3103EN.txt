@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3103_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｈｕｂｅｒｔ　ｖｏｎ　Ｖｅｓｔｒａ．　Ｉ　ｗｉｌー"TCC_NEWLINE"ｌ　ｎｏｗｓｈｏｗ　ｙｏｕ　ｈｏｗ　ｗｅａｋ　ｙｏｕ　ａｒー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｈｕｂｅｒｔ　ｖｏｎ　Ｖｅｓｔｒａ．　Ｉ　ｗｉｌー"TCC_NEWLINE"ｌ　ｎｏｗ　ｓｈｏｗ　ｙｏｕ　ｈｏｗ　ｗｅａｋ　ｙｏｕ　ａー"TCC_NEWLINE"ｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

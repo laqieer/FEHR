@@ -1,24 +1,24 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S4015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HENRIETTE
-"Ａｈ，　Ａｌｆｏｎｓｅ！　Ｗｅｌｃｏｍｅ　ｈｏｍｅ．Ｉ　ａー"TCC_NEWLINE"ｍ　ｓｏ　ｈａｐｐｙ　ｔｏ　ｓｅｅ　ｙｏｕ．　Ｉ　ｆｅｅｌー"TCC_NEWLINE"ｂｅｔｔｅｒ　ｔｈａｎ　Ｉ　ｈａｖｅ　ｉｎ　ａ　ｌｏｎｇ　"TCC_NEWLINE"ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｔ　ｓｅｅｍｓ　Ｇｕｓｔａｖ　ｈａｓ　ｃｏｍｅ　"TCC_NEWLINE"ｄｏｗｎｗｉｔｈ　ｔｈｅ　ｓｌｅｅｐ　ｓｉｃｋｎｅｓｓ．．"TCC_NEWLINE"．　Ｗｅ　ｓｈｏｕｌｄｈｅｌｐ　ｈｉｍ，　ｄｏｎ’ｔ　ｙｏー"TCC_NEWLINE"ｕ　ａｇｒｅｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ，　Ａｌｆｏｎｓｅ！　Ｗｅｌｃｏｍｅ　ｈｏｍｅ．　Ｉ　"TCC_NEWLINE"ａｍ　ｓｏ　ｈａｐｐｙ　ｔｏ　ｓｅｅ　ｙｏｕ．　Ｉ　ｆｅｅー"TCC_NEWLINE"ｌ　ｂｅｔｔｅｒ　ｔｈａｎ　Ｉ　ｈａｖｅ　ｉｎ　ａ　ｌｏｎー"TCC_NEWLINE"ｇ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｔ　ｓｅｅｍｓ　Ｇｕｓｔａｖ　ｈａｓ　ｃｏｍｅ　"TCC_NEWLINE"ｄｏｗｎ　ｗｉｔｈ　ｔｈｅ　ｓｌｅｅｐ　ｓｉｃｋｎｅｓｓ．"TCC_NEWLINE"．．　Ｗｅ　ｓｈｏｕｌｄ　ｈｅｌｐ　ｈｉｍ，　ｄｏｎ’ｔ　"TCC_NEWLINE"ｙｏｕ　ａｇｒｅｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｙ－ｙｅｓ，　Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ．．．Ｆａｔｈｅｒ？　Ｈｅ　ｈａｓ　ｓｌｅｅｐ　ｓｉー"TCC_NEWLINE"ｃｋｎｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
-"Ｈｕｒｒｙ　ａｌｏｎｇ，　Ａｌｆｏｎｓｅ．　Ｄｏ　ｎｏｔ　"TCC_NEWLINE"ｆｒｅｔ．Ｖｅｒｏｎｉｃａ　ａｎｄ　Ｉ　ａｒｅ　ｃｏｍｉｎー"TCC_NEWLINE"ｇ　ｗｉｔｈ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｒｒｙ　ａｌｏｎｇ，　Ａｌｆｏｎｓｅ．　Ｄｏ　ｎｏｔ　"TCC_NEWLINE"ｆｒｅｔ．　Ｖｅｒｏｎｉｃａ　ａｎｄ　Ｉ　ａｒｅ　ｃｏｍｉー"TCC_NEWLINE"ｎｇ　ｗｉｔｈ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｏｈ，　Ｚａｃｈａｒｉａｓ．　Ｔｈａｎｋ　ｙｏｕ．　Ｉ’ｍ"TCC_NEWLINE"　ｓｏｇｌａｄ　ｔｏ　ｈａｖｅ　ｔｈｅ　ｔｗｏ　ｏｆ　ｙｏー"TCC_NEWLINE"ｕ　ｗｏｒｋｉｎｇｗｉｔｈ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｂｕｔ，　ｈｍ．　Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ．"TCC_NEWLINE"．．　Ｗｈｅｎｗａｓ　ｉｔ　ｔｈａｔ　ｙｏｕ　ｓｔａｒｔｅー"TCC_NEWLINE"ｄ　ｈｅｌｐｉｎｇ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　Ｚａｃｈａｒｉａｓ．　Ｔｈａｎｋ　ｙｏｕ．　Ｉ’ｍ"TCC_NEWLINE"　ｓｏ　ｇｌａｄ　ｔｏ　ｈａｖｅ　ｔｈｅ　ｔｗｏ　ｏｆ　ｙー"TCC_NEWLINE"ｏｕ　ｗｏｒｋｉｎｇ　ｗｉｔｈ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｂｕｔ，　ｈｍ．　Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ．"TCC_NEWLINE"．．　Ｗｈｅｎ　ｗａｓ　ｉｔ　ｔｈａｔ　ｙｏｕ　ｓｔａｒｔー"TCC_NEWLINE"ｅｄ　ｈｅｌｐｉｎｇ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "．．．Ｈｅｌｐｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 "．．．Ｙｏｕ　ｍｉｓｕｎｄｅｒｓｔａｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ　Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｅ　ａｒｅ　ｎｏｔ　ｈｅｒｅ　ｔｏ　ｈｅｌｐ．　Ｎｏ．Ｗー"TCC_NEWLINE"ｅ　ｃａｍｅ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｗｈａｔ　ｗａｓ　ｉｔ　ａｇａｉｎ？Ｏｈ，　ｔｈａｔ"TCC_NEWLINE"’ｓ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ａｒｅ　ｎｏｔ　ｈｅｒｅ　ｔｏ　ｈｅｌｐ．　Ｎｏ．　"TCC_NEWLINE"Ｗｅ　ｃａｍｅ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈａｔ　ｗａｓ　ｉｔ　ａｇａｉｎ？　Ｏｈ，　ｔｈａー"TCC_NEWLINE"ｔ’ｓ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｃａｍｅ　ｔｏ　ｋｉｌｌ　ｔｈｅ　Ａｓｋｒａｎ　ｒｏー"TCC_NEWLINE"ｙａｌｔｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．Ａａａａａｇｈ！"TCC_NEWLINE TCC_PUSH_A
@@ -26,33 +26,33 @@ TCC_OPEN_RIGHT
 "Ｍ－Ｍｏｔｈｅｒ？！　Ｚａｃｈａｒｉａｓ！　Ｗｈａｔ　ａｒー"TCC_NEWLINE"ｅ　ｙ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
-"Ａｓｋｒ．．．ｗｉｌｌ　ｂｅ　ｅｎｄｅｄ　ｂｙ　ｔｈｅｓｅ"TCC_NEWLINE"　ｈａｎｄｓ．Ｓｕｃｈ　ｉｓ　ｔｈｅ　ｆａｔｅ　ｏｆ　Ｅｍー"TCC_NEWLINE"ｂｌｉａｎ　ｂｌｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｋｒ．．．ｗｉｌｌ　ｂｅ　ｅｎｄｅｄ　ｂｙ　ｔｈｅｓｅ"TCC_NEWLINE"　ｈａｎｄｓ．　Ｓｕｃｈ　ｉｓ　ｔｈｅ　ｆａｔｅ　ｏｆ　Ｅー"TCC_NEWLINE"ｍｂｌｉａｎ　ｂｌｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ．　Ａｓｋｒ　ｍｕｓｔ　ｂｅ　ｄｅｓｔｒｏｙｅｄ．Ｄー"TCC_NEWLINE"ｅｓｔｒｏｙｅｄ．．．ｄｅｓｔｒｏｙｅｄ．．．ＤＥＳＴＲＯー"TCC_NEWLINE"ＹＥＤ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ａｓｋｒ　ｍｕｓｔ　ｂｅ　ｄｅｓｔｒｏｙｅｄ．　"TCC_NEWLINE"Ｄｅｓｔｒｏｙｅｄ．．．ｄｅｓｔｒｏｙｅｄ．．．ＤＥＳＴＲー"TCC_NEWLINE"ＯＹＥＤ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "．．．Ｓ－ｓｔｏｐ，　ｙｏｕ　ｔｗｏ！　Ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
-"Ｎｏ　ｕｓｅ　ｆｉｇｈｔｉｎｇ　ｉｔ．．．　Ａｓｋｒ　ｍｕー"TCC_NEWLINE"ｓｔｂｅ　ｄｅｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｕｓｅ　ｆｉｇｈｔｉｎｇ　ｉｔ．．．　Ａｓｋｒ　ｍｕー"TCC_NEWLINE"ｓｔ　ｂｅ　ｄｅｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｅ　ｍｕｓｔ　ｂｒｉｎｇ　Ａｓｋｒ　ｔｏ　ａｎ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｕｇｈ．．．　Ｉｆ　Ｉ　ｃａｎ’ｔ　ｓｔｏｐ　ｔｈｅｍ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
-"Ｄｒｅａｍｓ　ａｒｅ　ｔｈｅ　ｐｅｏｐｌｅ’ｓ　ｒｅｓｔ．"TCC_NEWLINE"．．Ｄｒｅａｍｓ　ａｒｅ　ｔｈｅ　ｐｅｏｐｌｅ’ｓ　ｈｏｐー"TCC_NEWLINE"ｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｒｅａｍｓ　ａｒｅ　ｔｈｅ　ｐｅｏｐｌｅ’ｓ　ｒｅｓｔ．"TCC_NEWLINE"．．　Ｄｒｅａｍｓ　ａｒｅ　ｔｈｅ　ｐｅｏｐｌｅ’ｓ　ｈｏー"TCC_NEWLINE"ｐｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈ－ｗｈｏ’ｓ　ｔｈｅｒｅ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｎｉｇｈｔｍａｒｅｓ．．．ｓｈｏｏ！　Ａｗａｙ　ｗｉｔｈ　"TCC_NEWLINE"ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
-"Ｌｊｓｌｆｈｅｉｍｒ　ｉｓ　ｔｈｅ　ｌａｎｄ　ｆｏｒ　ｈａー"TCC_NEWLINE"ｐｐｙｄｒｅａｍｓａｎｄ　ｈａｐｐｙ　ｄｒｅａｍｓ　ｏｎｌー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｊｓｌｆｈｅｉｍｒ　ｉｓ　ｔｈｅ　ｌａｎｄ　ｆｏｒ　ｈａー"TCC_NEWLINE"ｐｐｙ　ｄｒｅａｍｓａｎｄ　ｈａｐｐｙ　ｄｒｅａｍｓ　ｏｎー"TCC_NEWLINE"ｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｉｓ　ｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｚａｃｈａｒｉａｓ．．．　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃー"TCC_NEWLINE"ａ．．．Ｔｈｅｙ’ｒｅ．．．ｄｉｓａｐｐｅａｒｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｚａｃｈａｒｉａｓ．．．　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃー"TCC_NEWLINE"ａ．．．　Ｔｈｅｙ’ｒｅ．．．ｄｉｓａｐｐｅａｒｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈ－ｗｈｏ　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｏｈ，　ｈｅｌｌｏ！　Ｒｉｓｅ　ａｎｄ　ｓｈｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｒ－ｒｉｓｅ　ａｎｄ．．．ｓｈｉｎｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉ’ｍ　Ｐｅｏｎｙ！　Ｉ’ｍ　ａ　ｌｊｓｌｆａｒｏｒ　ｌｉー"TCC_NEWLINE"ｇｈｔ　ｅｌｆ，ｙｏｕ　ｍｉｇｈｔ　ｓａｙ．　Ｉ’ｍ　ｆｒー"TCC_NEWLINE"ｏｍ　ｔｈｅ　ｌａｎｄ　ｏｆｄｒｅａｍｓ，　Ｌｊｓｌｆｈｅー"TCC_NEWLINE"ｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　Ｐｅｏｎｙ！　Ｉ’ｍ　ａ　ｌｊｓｌｆａｒｏｒ　ｌｉー"TCC_NEWLINE"ｇｈｔ　ｅｌｆ，　ｙｏｕ　ｍｉｇｈｔ　ｓａｙ．　Ｉ’ｍ　ｆー"TCC_NEWLINE"ｒｏｍ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ，　Ｌｊｓｌｆー"TCC_NEWLINE"ｈｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

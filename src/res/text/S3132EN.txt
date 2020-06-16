@@ -1,7 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3132_EN] = TCC_OPEN_LEFT
-"Ｔｈｅ　ｎａｍｅ’ｓ　Ｇｅｒｉｋ．　Ｉ’ｍ　ｔｈｅ　ｌｅａー"TCC_NEWLINE"ｄｅｒ　ｏｆ　ａｂａｎｄ　ｏｆ　ｍｅｒｃｅｎａｒｉｅｓ．　"TCC_NEWLINE"Ｓｅｅｍｓ　ｗｅ’ｒｅ　ｏｎｏｐｐｏｓｉｔｅ　ｓｉｄｅｓ　"TCC_NEWLINE"ｏｆ　ｔｈｉｓ　ｔｈｉｎｇ，　ｆｏｒ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｎａｍｅ’ｓ　Ｇｅｒｉｋ．　Ｉ’ｍ　ｔｈｅ　ｌｅａー"TCC_NEWLINE"ｄｅｒ　ｏｆ　ａ　ｂａｎｄ　ｏｆ　ｍｅｒｃｅｎａｒｉｅｓ．"TCC_NEWLINE"　Ｓｅｅｍｓ　ｗｅ’ｒｅ　ｏｎ　ｏｐｐｏｓｉｔｅ　ｓｉｄｅー"TCC_NEWLINE"ｓ　ｏｆ　ｔｈｉｓ　ｔｈｉｎｇ，　ｆｏｒ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "．．．"TCC_NEWLINE TCC_PUSH_A
@@ -14,32 +14,32 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｌｉｓｔｅｎ．．．　Ｉｔ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ａｌー"TCC_NEWLINE"ｌ　ｒｉｇｈｔ．Ｔｈｅ　ｆｉｇｈｔｉｎｇ　ｗｉｌｌ　ｂｅ　"TCC_NEWLINE"ｏｖｅｒ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ａｆｔｅｒ　ｉｔ’ｓ　ｄｏｎｅ，　ｙｏｕ　ｃａｎ　"TCC_NEWLINE"ｃｏｍｅｂａｃｋ　ｗｉｔｈ　ｕｓ　ｔｏ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｄ　ｌｉｋｅ　ｔｈａｔ，　ｗｏｕｌｄｎ’ｔ　ｙｏｕ"TCC_NEWLINE"？　Ｉ　ｃａｎｓｈｏｗ　ｙｏｕ　ａｌｌ　ａｒｏｕｎｄ　ｔｈー"TCC_NEWLINE"ｅ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ！　Ａｎｄ　Ｉ’ｌｌ　ｔａｋｅ　ｙｏｕ　ｔｏ　ｍｙ　ｆー"TCC_NEWLINE"ａｖｏｒｉｔｅｓｐｏｔ　ｆｏｒ　ｓｔａｒｇａｚｉｎｇ！　Ｄー"TCC_NEWLINE"ｏｅｓｎ’ｔ　ｔｈａｔｓｏｕｎｄ　ｎｉｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｓｔｅｎ．．．　Ｉｔ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ａｌー"TCC_NEWLINE"ｌ　ｒｉｇｈｔ．　Ｔｈｅ　ｆｉｇｈｔｉｎｇ　ｗｉｌｌ　ｂｅ"TCC_NEWLINE"　ｏｖｅｒ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｆｔｅｒ　ｉｔ’ｓ　ｄｏｎｅ，　ｙｏｕ　ｃａｎ　"TCC_NEWLINE"ｃｏｍｅ　ｂａｃｋ　ｗｉｔｈ　ｕｓ　ｔｏ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｄ　ｌｉｋｅ　ｔｈａｔ，　ｗｏｕｌｄｎ’ｔ　ｙｏｕ"TCC_NEWLINE"？　Ｉ　ｃａｎ　ｓｈｏｗ　ｙｏｕ　ａｌｌ　ａｒｏｕｎｄ　ｔー"TCC_NEWLINE"ｈｅ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ！　Ａｎｄ　Ｉ’ｌｌ　ｔａｋｅ　ｙｏｕ　ｔｏ　ｍｙ　ｆー"TCC_NEWLINE"ａｖｏｒｉｔｅ　ｓｐｏｔ　ｆｏｒ　ｓｔａｒｇａｚｉｎｇ！　"TCC_NEWLINE"Ｄｏｅｓｎ’ｔ　ｔｈａｔ　ｓｏｕｎｄ　ｎｉｃｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｓａｙ．．．ｔｈｅ　ｓａｍｅ　ｔｈｉｎｇｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｆｏｒｇｉｖｅ　ｍｅｉｔ’ｓ　ｎｏｔｈｉｎｇ．　Ｔｈａｎｋ"TCC_NEWLINE"　ｙｏｕ，Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒｇｉｖｅ　ｍｅｉｔ’ｓ　ｎｏｔｈｉｎｇ．　Ｔｈａｎｋ"TCC_NEWLINE"　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ’ｒｅ　ｓｅｔｔｉｎｇ　ｏｕｔ　ｔｏ　ｄｅｆｅａｔ　Ｈー"TCC_NEWLINE"ｅｌ，Ｐｒｉｎｃｅｓｓ．　Ｔｈｉｓ　ｗｉｌｌ　ｂｅ　ｔｈｅ"TCC_NEWLINE"　ｆｉｎａｌ　ｂａｔｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ｓｅｔｔｉｎｇ　ｏｕｔ　ｔｏ　ｄｅｆｅａｔ　Ｈー"TCC_NEWLINE"ｅｌ，　Ｐｒｉｎｃｅｓｓ．　Ｔｈｉｓ　ｗｉｌｌ　ｂｅ　ｔｈー"TCC_NEWLINE"ｅ　ｆｉｎａｌ　ｂａｔｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏｐｌｅａｓｅ，　ｓｔｏｐ．　Ｙｏｕ　ｃａｎｎｏｔｐｏｓー"TCC_NEWLINE"ｓｉｂｌｙ　ｈｏｐｅ　ｔｏ　ｄｅｆｅａｔ　ｍｙ　ｍｏｔｈｅー"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｐｌｅａｓｅ，　ｓｔｏｐ．　Ｙｏｕ　ｃａｎｎｏｔ　ｐｏー"TCC_NEWLINE"ｓｓｉｂｌｙ　ｈｏｐｅ　ｔｏ　ｄｅｆｅａｔ　ｍｙ　ｍｏｔｈー"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ　ｃａｎ．　Ｂｕｔ　ｗｈａｔ　ｗｅ　ｃａｎｎｏｔ　ｄｏ"TCC_NEWLINE"　ｉｓ　ａｓｋｙｏｕ　ｔｏ　ｆｉｇｈｔ　ｈｅｒ　ｙｏｕｒｓー"TCC_NEWLINE"ｅｌｆ．　Ｉｎｓｔｅａｄ，　ｗｅａｓｋ　ｔｈａｔ　ｙｏｕ　"TCC_NEWLINE"ｔｒｕｓｔ　ｕｓ　ａｎｄ　ｓｔａｙ　ｂｅｈｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ．　Ｂｕｔ　ｗｈａｔ　ｗｅ　ｃａｎｎｏｔ　ｄｏ"TCC_NEWLINE"　ｉｓ　ａｓｋ　ｙｏｕ　ｔｏ　ｆｉｇｈｔ　ｈｅｒ　ｙｏｕｒー"TCC_NEWLINE"ｓｅｌｆ．　Ｉｎｓｔｅａｄ，　ｗｅ　ａｓｋ　ｔｈａｔ　ｙｏー"TCC_NEWLINE"ｕ　ｔｒｕｓｔ　ｕｓ　ａｎｄ　ｓｔａｙ　ｂｅｈｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｊｕｓｔ　ｗａｉｔ　ｈｅｒｅ，　ＯＫ？　Ｗｅ’ｌｌ　ｂｅ　"TCC_NEWLINE"ｂａｃｋｂｅｆｏｒｅ　ｙｏｕ　ｋｎｏｗ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｗａｉｔ　ｈｅｒｅ，　ＯＫ？　Ｗｅ’ｌｌ　ｂｅ　"TCC_NEWLINE"ｂａｃｋ　ｂｅｆｏｒｅ　ｙｏｕ　ｋｎｏｗ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｈｅｙ，　ｉｔ’ｓ　ＯＫ．　Ｒｅｍｅｍｂｅｒ　ｗｈａｔ　Ｉ"TCC_NEWLINE"　ｓａｉｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｔｈｉｓ　ｉｓ　ａｌｌ　ｏｖｅｒ，　ｗｅ’ｌｌ　"TCC_NEWLINE"ｇｏ　ｂａｃｋ　ｔｏＡｓｋｒ．　Ｗｅ’ｌｌ　ｇｏ　ｓｔａｒー"TCC_NEWLINE"ｇａｚｉｎｇ　ｏｎ　ｍｙｆａｖｏｒｉｔｅ　ｈｉｌｌ．　Ａｌー"TCC_NEWLINE"ｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｔｈｉｓ　ｉｓ　ａｌｌ　ｏｖｅｒ，　ｗｅ’ｌｌ　"TCC_NEWLINE"ｇｏ　ｂａｃｋ　ｔｏ　Ａｓｋｒ．　Ｗｅ’ｌｌ　ｇｏ　ｓｔａー"TCC_NEWLINE"ｒｇａｚｉｎｇ　ｏｎ　ｍｙ　ｆａｖｏｒｉｔｅ　ｈｉｌｌ．　"TCC_NEWLINE"Ａｌｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．Ｄｏ　ｙｏｕ　ｐｒｏｍｉｓｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -47,8 +47,8 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_LEFT
 "Ｗｉｔｈｏｕｔ　ａ　ｄｏｕｂｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．．．Ｍｙ　ｍｏｔｈｅｒ　"TCC_NEWLINE"ｋｉｌｌｅｄ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｍａｄｅ　ａ　ｐａｃｔ　ｗｉー"TCC_NEWLINE"ｔｈＭｏｔｈｅｒ．．．ｔｏ　ｂｒｉｎｇ　ｈｉｓ　ｓｉｓｔｅー"TCC_NEWLINE"ｒ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．．．　Ｍｙ　ｍｏｔｈｅｒ"TCC_NEWLINE"　ｋｉｌｌｅｄ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｍａｄｅ　ａ　ｐａｃｔ　ｗｉー"TCC_NEWLINE"ｔｈ　Ｍｏｔｈｅｒ．．．ｔｏ　ｂｒｉｎｇ　ｈｉｓ　ｓｉｓｔー"TCC_NEWLINE"ｅｒ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗａｓ　ｐｏｗｅｒｌｅｓｓ　ｔｏ　ｓｔｏｐ　ｉｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｒｅ　ｗａｓ　ｎｏｔｈｉｎｇ　Ｉ　ｃｏｕｌｄ　ｄｏ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A

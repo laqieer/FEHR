@@ -1,72 +1,72 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ａｓ　ｔｈｅ　ｌｅｇｅｎｄｓ　ｓａｙ，　ｉｔ’ｓ　ｄａｒｋ"TCC_NEWLINE"　ａｓｔｈｅ　ｃｒｙｐｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｃａｎ　ｂｅ　ｎｏ　ｄｏｕｂｔ．　Ｔｈｉｓ　ｉー"TCC_NEWLINE"ｓ　ｔｈｅｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｔｈｅ　ｌｅｇｅｎｄｓ　ｓａｙ，　ｉｔ’ｓ　ｄａｒｋ"TCC_NEWLINE"　ａｓ　ｔｈｅ　ｃｒｙｐｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｃａｎ　ｂｅ　ｎｏ　ｄｏｕｂｔ．　Ｔｈｉｓ　ｉー"TCC_NEWLINE"ｓ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EIR
-"Ｔｈｅ　ｌａｎｄ　ｃａｌｌｅｄ　Ｈｅｌ，　ｗｈｅｒｅ　ｍｙー"TCC_NEWLINE"ｍｏｔｈｅｒ　ｒｕｌｅｓ　ｏｖｅｒ　ｔｈｏｓｅ　ｗｈｏ　ｈー"TCC_NEWLINE"ａｖｅｄｉｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｆｔｅｒ　ｄｅａｔｈ，　ｔｈｏｓｅ　ｗｈｏ　ｄｅｓｅｒｖー"TCC_NEWLINE"ｅｎｏｔｈｉｎｇ　ｍｏｒｅ　ｃｏｍｅ　ｔｏ　ｒｅｓｉｄｅ　"TCC_NEWLINE"ｉｎｔｈｉｓ　ｄａｒｋ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｅａｄ　ｇａｔｈｅｒ　ｆｒｏｍ　ａｌｌ　ｔｈｅ　ｒｅａｌー"TCC_NEWLINE"ｍｓ，ａｎｄ　ｅａｃｈ　ａｎｄ　ｅｖｅｒｙ　ｏｎｅ　ｇｒａー"TCC_NEWLINE"ｎｔｓｍｙ　ｍｏｔｈｅｒ　ｇｒｅａｔｅｒ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌａｎｄ　ｃａｌｌｅｄ　Ｈｅｌ，　ｗｈｅｒｅ　ｍｙ"TCC_NEWLINE"　ｍｏｔｈｅｒ　ｒｕｌｅｓ　ｏｖｅｒ　ｔｈｏｓｅ　ｗｈｏ　"TCC_NEWLINE"ｈａｖｅ　ｄｉｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　ｄｅａｔｈ，　ｔｈｏｓｅ　ｗｈｏ　ｄｅｓｅｒｖー"TCC_NEWLINE"ｅ　ｎｏｔｈｉｎｇ　ｍｏｒｅ　ｃｏｍｅ　ｔｏ　ｒｅｓｉｄｅ"TCC_NEWLINE"　ｉｎ　ｔｈｉｓ　ｄａｒｋ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅａｄ　ｇａｔｈｅｒ　ｆｒｏｍ　ａｌｌ　ｔｈｅ　ｒｅａｌー"TCC_NEWLINE"ｍｓ，　ａｎｄ　ｅａｃｈ　ａｎｄ　ｅｖｅｒｙ　ｏｎｅ　ｇｒー"TCC_NEWLINE"ａｎｔｓ　ｍｙ　ｍｏｔｈｅｒ　ｇｒｅａｔｅｒ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｒｅ　ｙｏｕ　ｏｎｅ　ｏｆ　ｔｈｅｍ？　Ｔｈｅ　ｄｅａｄ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｓｈｅ　ｃｅｒｔａｉｎｌｙ　ｄｏｅｓｎ’ｔ　ｓｅｅｍ　ｄｅー"TCC_NEWLINE"ａｄ．．．Ｓｈｅ’ｓ　ｎｏｔｈｉｎｇ　ｌｉｋｅ　ｔｈｅ　ｓー"TCC_NEWLINE"ｏｌｄｉｅｒｓ　ｗｅ’ｖｅｆｏｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｃｅｒｔａｉｎｌｙ　ｄｏｅｓｎ’ｔ　ｓｅｅｍ　ｄｅー"TCC_NEWLINE"ａｄ．．．　Ｓｈｅ’ｓ　ｎｏｔｈｉｎｇ　ｌｉｋｅ　ｔｈｅ　"TCC_NEWLINE"ｓｏｌｄｉｅｒｓ　ｗｅ’ｖｅ　ｆｏｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ｈｅｒ　ｓｋｉｎ　ｉｓ　ｐｏｓｉｔｉｖｅｌｙ　ｇｌー"TCC_NEWLINE"ｏｗｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍｙ　ｓｋｉｎ？"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｓ，　Ｉ　ａｍ　ｍｏｒｔａｌ．．．　Ｉ　ｄｏ　ｎｏｔ　"TCC_NEWLINE"ｈａｖｅ　ｔｈｅｐｏｗｅｒ　ｔｏ　ｒｉｓｅ　ａｇａｉｎ，　"TCC_NEWLINE"ｌｉｋｅ　ｍｙ　ｍｏｔｈｅｒ’ｓｔｒｏｏｐｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　Ｉ　ｃｏｕｌｄ　ｆｉｇｈｔ，　ｄｉｅ，　ａｎｄ　ｒｉー"TCC_NEWLINE"ｓｅ　ｌｉｋｅ　ｔｈｅｙ，ｐｅｒｈａｐｓ　ｍｙ　ｍｏｔｈｅー"TCC_NEWLINE"ｒ　ｗｏｕｌｄ　ｔｈｉｎｋｂｅｔｔｅｒ　ｏｆ　ｍｅ．　Ｉ　"TCC_NEWLINE"ａｍ　ｗｏｒｔｈｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　Ｉ　ａｍ　ｍｏｒｔａｌ．．．　Ｉ　ｄｏ　ｎｏｔ　"TCC_NEWLINE"ｈａｖｅ　ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｒｉｓｅ　ａｇａｉｎ，"TCC_NEWLINE"　ｌｉｋｅ　ｍｙ　ｍｏｔｈｅｒ’ｓ　ｔｒｏｏｐｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｃｏｕｌｄ　ｆｉｇｈｔ，　ｄｉｅ，　ａｎｄ　ｒｉー"TCC_NEWLINE"ｓｅ　ｌｉｋｅ　ｔｈｅｙ，　ｐｅｒｈａｐｓ　ｍｙ　ｍｏｔｈー"TCC_NEWLINE"ｅｒ　ｗｏｕｌｄ　ｔｈｉｎｋ　ｂｅｔｔｅｒ　ｏｆ　ｍｅ．　"TCC_NEWLINE"Ｉ　ａｍ　ｗｏｒｔｈｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｅｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｅｒ　ｋｅｅｐ　ｉｓ　ｎｏｔ　ｆａｒ．　Ｉ　ｗｉｌｌ　ｓー"TCC_NEWLINE"ｈｏｗ　ｙｏｕｔｈｅ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒ　ｋｅｅｐ　ｉｓ　ｎｏｔ　ｆａｒ．　Ｉ　ｗｉｌｌ　ｓー"TCC_NEWLINE"ｈｏｗ　ｙｏｕ　ｔｈｅ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
 "Ｙｏｕ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｌｆ．．．ｔｈｅ　ｆｉｒｓｔ　Ｋｉｎｇ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｉｓ　ｎｏ　ｐー"TCC_NEWLINE"ｌａｃｅｆｏｒ　ｔｈｅ　ｌｉｋｅｓ　ｏｆ　ｙｏｕ，　ｌｉｖー"TCC_NEWLINE"ｉｎｇ　ｂｏｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｉｓ　ｎｏ　ｐー"TCC_NEWLINE"ｌａｃｅ　ｆｏｒ　ｔｈｅ　ｌｉｋｅｓ　ｏｆ　ｙｏｕ，　ｌｉー"TCC_NEWLINE"ｖｉｎｇ　ｂｏｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
 "Ｄｅａｔｈ　ｃａｎｎｏｔ　ｂｅ　ｄｅｆｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ，　ｌｉｋｅ　ａｌｌ　ｔｈｅ　ｌｉｖｉｎｇ，　ｙｏｕ"TCC_NEWLINE"　ｗｉｌｌ　ｎｏｔｔｒｕｌｙ　ｃｏｍｐｒｅｈｅｎｄ　ｔｈｉー"TCC_NEWLINE"ｓ　ｕｎｔｉｌ　ｙｏｕｒｏｗｎ　ｄｅａｔｈ　ｃｏｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ，　ｌｉｋｅ　ａｌｌ　ｔｈｅ　ｌｉｖｉｎｇ，　ｙｏｕ"TCC_NEWLINE"　ｗｉｌｌ　ｎｏｔ　ｔｒｕｌｙ　ｃｏｍｐｒｅｈｅｎｄ　ｔｈー"TCC_NEWLINE"ｉｓ　ｕｎｔｉｌ　ｙｏｕｒ　ｏｗｎ　ｄｅａｔｈ　ｃｏｍｅｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｃａｒｅｆｕｌ．　Ｔｈｉｓ　ｐｌａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｂｌｏｏｄ．．．　Ｃｒｕｓｔｅｄ　ｅｖｅｒｙｗｈｅｒｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎ　ｅｘｅｃｕｔｉｏｎ　ｓｉｔｅ？　Ｏｒ　ａｒｅ　ｐｅｏー"TCC_NEWLINE"ｐｌｅｔｏｒｔｕｒｅｄ　ｈｅｒｅ？　Ｉｔ’ｓ　ｕｎｆａｔｈー"TCC_NEWLINE"ｏｍａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎ　ｅｘｅｃｕｔｉｏｎ　ｓｉｔｅ？　Ｏｒ　ａｒｅ　ｐｅｏー"TCC_NEWLINE"ｐｌｅ　ｔｏｒｔｕｒｅｄ　ｈｅｒｅ？　Ｉｔ’ｓ　ｕｎｆａｔー"TCC_NEWLINE"ｈｏｍａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｔｈｉｓ．．．ｉｓ　ｗｈｅｒｅ　Ｉ　ｌｉｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｈａｔ．．．　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ　ｂｙ　ｔー"TCC_NEWLINE"ｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｍｙ　ｄｕｔｙ．．．ｗａｓ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　ｎｏｔ　ｌｉｋｅ　ｏｔｈｅｒ　ｍｏｒｔａｌｓ，　"TCC_NEWLINE"ｏｒ　ｓｏｍｙ　ｍｏｔｈｅｒ　ｅｘｐｌａｉｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｂｏｄｙ　ｈａｄ　ａ　ｇｒｅａｔ　ｍａｎｙ　ｌｉｖｅー"TCC_NEWLINE"ｓｗｉｔｈｉｎ　ｉｔ，　ｂｅｓｔｏｗｅｄ　ｔｏ　ｍｅ　ｂｙ"TCC_NEWLINE"　ｔｈｅｄｒａｇｏｎ　ｏｆ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｏｔ　ｌｉｋｅ　ｏｔｈｅｒ　ｍｏｒｔａｌｓ，　"TCC_NEWLINE"ｏｒ　ｓｏ　ｍｙ　ｍｏｔｈｅｒ　ｅｘｐｌａｉｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｏｄｙ　ｈａｄ　ａ　ｇｒｅａｔ　ｍａｎｙ　ｌｉｖｅー"TCC_NEWLINE"ｓ　ｗｉｔｈｉｎ　ｉｔ，　ｂｅｓｔｏｗｅｄ　ｔｏ　ｍｅ　ｂー"TCC_NEWLINE"ｙ　ｔｈｅ　ｄｒａｇｏｎ　ｏｆ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍａｎｙ　ｌｉｖｅｓ？　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｍｏｒｔａｌｓ　ｏｎｌｙ　ｈａｖｅ　ｏｎｅ．．．ｂｕｔ　Ｉ"TCC_NEWLINE"　ｃａｒｒｉｅｄｔｈｏｕｓａｎｄｓ　ｕｐｏｎ　ｔｈｏｕｓａー"TCC_NEWLINE"ｎｄｓ　ｉｎｓｉｄｅｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ｉｆ　Ｉ　ｄｉｅ，　ｔｈｅ　ｎｅｘｔ　ｄａｙ．．"TCC_NEWLINE"．Ｉ　ｌｉｖｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｓｏ　ｍｙ　ｍｏｔｈｅｒ　ｂｒｏｕｇｈｔ　ｍｅｈｅー"TCC_NEWLINE"ｒｅ，　ａｎｄ　ｓｈｅ　ｋｉｌｌｅｄ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｒｔａｌｓ　ｏｎｌｙ　ｈａｖｅ　ｏｎｅ．．．ｂｕｔ　Ｉ"TCC_NEWLINE"　ｃａｒｒｉｅｄ　ｔｈｏｕｓａｎｄｓ　ｕｐｏｎ　ｔｈｏｕｓー"TCC_NEWLINE"ａｎｄｓ　ｉｎｓｉｄｅ　ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｉｆ　Ｉ　ｄｉｅ，　ｔｈｅ　ｎｅｘｔ　ｄａｙ．．"TCC_NEWLINE"．　Ｉ　ｌｉｖｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｏ　ｍｙ　ｍｏｔｈｅｒ　ｂｒｏｕｇｈｔ　ｍｅ　ｈー"TCC_NEWLINE"ｅｒｅ，　ａｎｄ　ｓｈｅ　ｋｉｌｌｅｄ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｈｅｒ　ｏｗｎ　ｄａｕｇｈｔｅｒ！　Ｈｏｗ　ｃｏｕｌｄ　ｓー"TCC_NEWLINE"ｈｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｅａｃｈ　ｔｉｍｅ　ａ　ｍｏｒｔａｌ　ｄｉｅｓ，　ｍｙ　ｍー"TCC_NEWLINE"ｏｔｈｅｒｇｒｏｗｓ　ｓｔｒｏｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ　ｓｈｅ　ｋｉｌｌｅｄ　ｍｅ．　Ｄａｙ　ａｆｔｅｒ　ｄー"TCC_NEWLINE"ａｙ．．．　Ａｆｔｅｒｄａｙ，　ａｆｔｅｒ　ｄａｙ，　ａｆー"TCC_NEWLINE"ｔｅｒ　ｄａｙ，　ａｆｔｅｒ　ｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｏｒｔａｌｓ　ｅｘｐｅｒｉｅｎｃｅ　ｄｅａｔｈ　ｏｎｃｅ"TCC_NEWLINE"．．．Ｔｈｅｙ　ｔａｓｔｅ　ｔｈａｔ　ｐａｉｎ　ｊｕｓｔ　"TCC_NEWLINE"ｏｎｅ　ｔｉｍｅ．Ｆｏｒ　ｔｈｅｍ，　ｉｔ　ｉｓ　ｑｕｉｃー"TCC_NEWLINE"ｋ　ａｎｄ　ｍｅｒｃｉｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　ｍｅ，　ｈｏｗｅｖｅｒ．．．ｉｔ　ｗａｓ　ａｇｏｎー"TCC_NEWLINE"ｙ　ｗｉｔｈｏｕｔｅｎｄ．　Ｅｖｅｒｙ　ｄａｙ，　Ｉ　ｄｉー"TCC_NEWLINE"ｅｄ，　ａｎｄ　ｔｈａｔ　ｐａｉｎ．．．Ｉ　ｅｘｐｅｒｉｅー"TCC_NEWLINE"ｎｃｅｄ　ｉｔ　ｏｎｃｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅａｃｈ　ｔｉｍｅ　ａ　ｍｏｒｔａｌ　ｄｉｅｓ，　ｍｙ　ｍー"TCC_NEWLINE"ｏｔｈｅｒ　ｇｒｏｗｓ　ｓｔｒｏｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｓｈｅ　ｋｉｌｌｅｄ　ｍｅ．　Ｄａｙ　ａｆｔｅｒ　ｄー"TCC_NEWLINE"ａｙ．．．　Ａｆｔｅｒ　ｄａｙ，　ａｆｔｅｒ　ｄａｙ，　ａー"TCC_NEWLINE"ｆｔｅｒ　ｄａｙ，　ａｆｔｅｒ　ｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｒｔａｌｓ　ｅｘｐｅｒｉｅｎｃｅ　ｄｅａｔｈ　ｏｎｃｅ"TCC_NEWLINE"．．．　Ｔｈｅｙ　ｔａｓｔｅ　ｔｈａｔ　ｐａｉｎ　ｊｕｓｔ"TCC_NEWLINE"　ｏｎｅ　ｔｉｍｅ．　Ｆｏｒ　ｔｈｅｍ，　ｉｔ　ｉｓ　ｑｕー"TCC_NEWLINE"ｉｃｋ　ａｎｄ　ｍｅｒｃｉｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｍｅ，　ｈｏｗｅｖｅｒ．．．ｉｔ　ｗａｓ　ａｇｏｎー"TCC_NEWLINE"ｙ　ｗｉｔｈｏｕｔ　ｅｎｄ．　Ｅｖｅｒｙ　ｄａｙ，　Ｉ　ｄー"TCC_NEWLINE"ｉｅｄ，　ａｎｄ　ｔｈａｔ　ｐａｉｎ．．．　Ｉ　ｅｘｐｅｒー"TCC_NEWLINE"ｉｅｎｃｅｄ　ｉｔ　ｏｎｃｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｅｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｂｕｔ　ｔｈａｔ　ｉｓ　ａｔ　ｉｔｓ　ｅｎｄ，　ｎｏｗ，　"TCC_NEWLINE"ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
 "Ｍｙ　ｌｉｖｅｓ　ｈａｖｅ　ｂｅｅｎ　ｅｘｈａｕｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｌ　ｍｙ　ｔｈｏｕｓａｎｄｓ　ｏｆ　ｄｅａｔｈｓ　ｈａー"TCC_NEWLINE"ｖｅｂｅｃｏｍｅ　ｍｙ　ｍｏｔｈｅｒ’ｓ　ｓｔｒｅｎｇｔｈ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｍｙ　ｍｏｔｈｅｒ，　Ｉ　ａｍ　ｎｏｗ　ｗｏｒｔｈｌー"TCC_NEWLINE"ｅｓｓ．Ｔｈｉｓ　ｌｉｆｅ　ｉｓ　ａｌｌ　ｔｈａｔ　ｒｅｍー"TCC_NEWLINE"ａｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｍｙ　ｔｈｏｕｓａｎｄｓ　ｏｆ　ｄｅａｔｈｓ　ｈａー"TCC_NEWLINE"ｖｅ　ｂｅｃｏｍｅ　ｍｙ　ｍｏｔｈｅｒ’ｓ　ｓｔｒｅｎｇｔー"TCC_NEWLINE"ｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｍｙ　ｍｏｔｈｅｒ，　Ｉ　ａｍ　ｎｏｗ　ｗｏｒｔｈｌー"TCC_NEWLINE"ｅｓｓ．　Ｔｈｉｓ　ｌｉｆｅ　ｉｓ　ａｌｌ　ｔｈａｔ　ｒｅー"TCC_NEWLINE"ｍａｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｅｉｒ．．．　Ｙｏｕｒ　ｍｏｔｈｅｒ，　ｔｏ　ｈａｖｅ　ｄー"TCC_NEWLINE"ｏｎｅｔｈａｔ．．．　Ｔｏ　ｈａｖｅ　ｔｈａｔ　ｄｏｎｅ　"TCC_NEWLINE"ｔｏ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｉｒ．．．　Ｙｏｕｒ　ｍｏｔｈｅｒ，　ｔｏ　ｈａｖｅ　ｄー"TCC_NEWLINE"ｏｎｅ　ｔｈａｔ．．．　Ｔｏ　ｈａｖｅ　ｔｈａｔ　ｄｏｎｅ"TCC_NEWLINE"　ｔｏ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏ　ｔｈａｔ’ｓ　ｗｈｙ　ｙｏｕ　ｒａｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｐｅｒｈａｐｓ．．．　Ｐｅｒｈａｐｓ　ｔｈａｔ　ｉｓ　ｓｏ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A

@@ -8,7 +8,7 @@ TCC_OPEN_LEFT
 "Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｈｅ　ｓｕｍｍｏｎｅｒ．　Ｗｈａｔ　ｗａｓ　ｔｈｅ　ｎａー"TCC_NEWLINE"ｍｅ"TCC_NEWLINE
-TCC_TACTICIAN_NAME"？　Ｎｏ　ｍａｔｔｅｒ．Ａ　ｌｉｎｃｈｐｉｎ　ｔｏ　ｂｅ　"TCC_NEWLINE"ｐｕｌｌｅｄ，　ｎｏ　ｍｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"？　Ｎｏ　ｍａｔｔｅｒ．　Ａ　ｌｉｎｃｈｐｉｎ　ｔｏ　ｂｅ"TCC_NEWLINE"　ｐｕｌｌｅｄ，　ｎｏ　ｍｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｋｉｌｌ　ｔｈｅｍ．　Ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｔｈｉｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｐｌｅａｓｅ，　ｎｏ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -16,15 +16,15 @@ TCC_OPEN_RIGHT
 "Ｉ　ｈａｖｅ　ｇｉｖｅｎ　ｙｏｕ　ａｎ　ｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｏｔｈｅｒ．．．　Ｏｆ　ｌａｔｅ，　Ｉ　ｈａｖｅ　ｏｆｔー"TCC_NEWLINE"ｅｎｄｒｅａｍｅｄ　ｏｆ　ｙｏｕ．．．　Ｏｎｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｄｒｅａｍｓ　ａｒｅ　ｈａｚｙ．　Ｉ　ｃａｎｎｏｔ"TCC_NEWLINE"　ｓｅｅｔｈｅｍ　ｃｌｅａｒｌｙ　ｉｎ　ｍｙ　ｗａｋｉｎｇ"TCC_NEWLINE"　ｍｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｔｈｅｒ．．．　Ｏｆ　ｌａｔｅ，　Ｉ　ｈａｖｅ　ｏｆｔー"TCC_NEWLINE"ｅｎ　ｄｒｅａｍｅｄ　ｏｆ　ｙｏｕ．．．　Ｏｎｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｄｒｅａｍｓ　ａｒｅ　ｈａｚｙ．　Ｉ　ｃａｎｎｏｔ"TCC_NEWLINE"　ｓｅｅ　ｔｈｅｍ　ｃｌｅａｒｌｙ　ｉｎ　ｍｙ　ｗａｋｉｎー"TCC_NEWLINE"ｇ　ｍｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｒｅｔｕｒｎ　ｔｏ　ｍｅ　ｗｈｅｎ　ｙｏｕ　ｈａｖｅ　ｃａー"TCC_NEWLINE"ｒｒｉｅｄｏｕｔ　ｍｙ　ｗｉｌｌ．　Ｄｏ　ｔｈａｔ，　ａｎー"TCC_NEWLINE"ｄ　Ｉ　ｗｉｌｌ　ｒｅｖｅａｌａｌｌ　ｔｈａｔ　ｉｓ　ｈｉー"TCC_NEWLINE"ｄｄｅｎ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｔｕｒｎ　ｔｏ　ｍｅ　ｗｈｅｎ　ｙｏｕ　ｈａｖｅ　ｃａー"TCC_NEWLINE"ｒｒｉｅｄ　ｏｕｔ　ｍｙ　ｗｉｌｌ．　Ｄｏ　ｔｈａｔ，　ａー"TCC_NEWLINE"ｎｄ　Ｉ　ｗｉｌｌ　ｒｅｖｅａｌ　ａｌｌ　ｔｈａｔ　ｉｓ　"TCC_NEWLINE"ｈｉｄｄｅｎ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ’ｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ’ｖｅ　ｗｈａｔ？　Ｎｏ　ｗｉｓｈ　ｔｏ　ｄｏ　ａｓ"TCC_NEWLINE"　Ｉ　ｓａｙ？Ｔｈａｔ　ｈａｒｄｌｙ　ｍａｔｔｅｒｓ．　Ｉー"TCC_NEWLINE"ｔ　ｉｓ　ｉｍｐｏｓｓｉｂｌｅｆｏｒ　ｙｏｕ　ｔｏ　ｏｐｐー"TCC_NEWLINE"ｏｓｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｗｉｌｌ　ｉｓ　ｓｙｎｏｎｙｍｏｕｓ　ｗｉｔｈ　ｙｏー"TCC_NEWLINE"ｕｒ　ｖｅｒｙｅｘｉｓｔｅｎｃｅ．　Ｉｔ　ｈａｓ　ｂｅｅｎ"TCC_NEWLINE"　ｅｔｃｈｅｄ　ｉｎｔｏｙｏｕｒ　ｂｅｉｎｇ　ｂｙ　ｅｎｄー"TCC_NEWLINE"ｌｅｓｓ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｖｅ　ｗｈａｔ？　Ｎｏ　ｗｉｓｈ　ｔｏ　ｄｏ　ａｓ"TCC_NEWLINE"　Ｉ　ｓａｙ？　Ｔｈａｔ　ｈａｒｄｌｙ　ｍａｔｔｅｒｓ．　"TCC_NEWLINE"Ｉｔ　ｉｓ　ｉｍｐｏｓｓｉｂｌｅ　ｆｏｒ　ｙｏｕ　ｔｏ　ｏー"TCC_NEWLINE"ｐｐｏｓｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｗｉｌｌ　ｉｓ　ｓｙｎｏｎｙｍｏｕｓ　ｗｉｔｈ　ｙｏー"TCC_NEWLINE"ｕｒ　ｖｅｒｙ　ｅｘｉｓｔｅｎｃｅ．　Ｉｔ　ｈａｓ　ｂｅｅー"TCC_NEWLINE"ｎ　ｅｔｃｈｅｄ　ｉｎｔｏ　ｙｏｕｒ　ｂｅｉｎｇ　ｂｙ　ｅー"TCC_NEWLINE"ｎｄｌｅｓｓ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -34,14 +34,14 @@ TCC_OPEN_LEFT
 "Ｙｅｓ，　Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
-"Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｃａｓｔｌｅ　ｌｉｅｓ　ｊｕｓｔ　"TCC_NEWLINE"ｂｅｙｏｎｄ．Ｅｖｅｎ　ａｓ　ｗｅ　ｓｐｅａｋ，　ｓｈｅ　"TCC_NEWLINE"ｉｓ　ｓｅａｔｅｄ　ｔｈｅｒｅｕｐｏｎ　ｔｈｅ　ｔｈｒｏｎー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｃａｓｔｌｅ　ｌｉｅｓ　ｊｕｓｔ　"TCC_NEWLINE"ｂｅｙｏｎｄ．　Ｅｖｅｎ　ａｓ　ｗｅ　ｓｐｅａｋ，　ｓｈｅ"TCC_NEWLINE"　ｉｓ　ｓｅａｔｅｄ　ｔｈｅｒｅ　ｕｐｏｎ　ｔｈｅ　ｔｈｒー"TCC_NEWLINE"ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ａｎｇｒｂｏａ’ｓ　Ｈー"TCC_NEWLINE"ｅａｒｔｗｉｔｈｉｎ　ｉｔ，"TCC_NEWLINE
-TCC_TACTICIAN_NAME"’ｓｗｅａｐｏｎ　ｉｓ　ａｌｌ　ｗｅ　ｎｅｅｄ　ｔｏ　ｄｅー"TCC_NEWLINE"ｆｅａｔ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｌ　ｔｈａｔ　ｒｅｍａｉｎｓ　ｉｓ　ｏｕｒ　ｆｉｎａｌー"TCC_NEWLINE"ｃｏｎｆｒｏｎｔａｔｉｏｎ．　Ｌｅｔ’ｓ　ｎｏｔ　ｗａｓｔー"TCC_NEWLINE"ｅａｎｙ　ｍｏｒｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ａｎｇｒｂｏａ’ｓ　Ｈー"TCC_NEWLINE"ｅａｒｔ　ｗｉｔｈｉｎ　ｉｔ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"’ｓ　ｗｅａｐｏｎ　ｉｓ　ａｌｌ　ｗｅ　ｎｅｅｄ　ｔｏ　ｄー"TCC_NEWLINE"ｅｆｅａｔ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｔｈａｔ　ｒｅｍａｉｎｓ　ｉｓ　ｏｕｒ　ｆｉｎａｌ"TCC_NEWLINE"　ｃｏｎｆｒｏｎｔａｔｉｏｎ．　Ｌｅｔ’ｓ　ｎｏｔ　ｗａｓー"TCC_NEWLINE"ｔｅ　ａｎｙ　ｍｏｒｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｗａｉｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｎｅｖｅｒ　ｍｉｎｄ．　Ｉ’ｍ　ｓｏｒｒｙ，　ｉｔ’ｓ"TCC_NEWLINE"．．．Ｉｔ’ｓ　ｎｏｔｈｉｎｇ．　Ｌｅｔ’ｓ　ｍｏｖｅ　ｆー"TCC_NEWLINE"ｏｒｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｎｅｖｅｒ　ｍｉｎｄ．　Ｉ’ｍ　ｓｏｒｒｙ，　ｉｔ’ｓ"TCC_NEWLINE"．．．　Ｉｔ’ｓ　ｎｏｔｈｉｎｇ．　Ｌｅｔ’ｓ　ｍｏｖｅ　"TCC_NEWLINE"ｆｏｒｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -5,23 +5,23 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HEL
 "Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｗｉｌｌ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ　ｈｅｌｐ　"TCC_NEWLINE"ｙｏｕ．．．　Ｉ’ｌｌｄｏ　ａｎｙｔｈｉｎｇ，　ｎｏ　ｍａー"TCC_NEWLINE"ｔｔｅｒ　ｈｏｗ　ｓｍａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ　ｈｅｌｐ　"TCC_NEWLINE"ｙｏｕ．．．　Ｉ’ｌｌ　ｄｏ　ａｎｙｔｈｉｎｇ，　ｎｏ　ｍー"TCC_NEWLINE"ａｔｔｅｒ　ｈｏｗ　ｓｍａｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ　ｈａｖｅｎ’ｔ　ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｔｏ　ｈー"TCC_NEWLINE"ｅｌｐｍｅ，　Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏｏｎ，　ｔｈｅｙ　ｗｉｌｌ　ｂｅ　ｈｅｒｅ．　Ａｎｄ　"TCC_NEWLINE"ａｇａｉｎｓｔｔｈｅｍ，　ｙｏｕ　ｓｔａｎｄ　ｎｏ　ｃｈａー"TCC_NEWLINE"ｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅｎ’ｔ　ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｔｏ　ｈー"TCC_NEWLINE"ｅｌｐ　ｍｅ，　Ｅｉｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｏｎ，　ｔｈｅｙ　ｗｉｌｌ　ｂｅ　ｈｅｒｅ．　Ａｎｄ　"TCC_NEWLINE"ａｇａｉｎｓｔ　ｔｈｅｍ，　ｙｏｕ　ｓｔａｎｄ　ｎｏ　ｃｈー"TCC_NEWLINE"ａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｏｔｈｅｒ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｆ　ｙｏｕ　ｗｏｕｌｄ　ｄｉｅ，　ｔｈｅｎ　ｄｉｅ．　Ａー"TCC_NEWLINE"ｎｏｔｈｅｒｒｏａｄ　ｉｓ　ｏｐｅｎ　ｂｅｆｏｒｅ　ｙｏｕ"TCC_NEWLINE"，　ｈｏｗｅｖｅｒ．．．Ｙｏｕ　ｃｏｕｌｄ　ｊｏｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｌｉｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｗｏｕｌｄ　ｄｉｅ，　ｔｈｅｎ　ｄｉｅ．　Ａー"TCC_NEWLINE"ｎｏｔｈｅｒ　ｒｏａｄ　ｉｓ　ｏｐｅｎ　ｂｅｆｏｒｅ　ｙｏー"TCC_NEWLINE"ｕ，　ｈｏｗｅｖｅｒ．．．　Ｙｏｕ　ｃｏｕｌｄ　ｊｏｉｎ　"TCC_NEWLINE"ｔｈｅ　ｌｉｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｊｏｉｎ　ｔｈｅｉｒ　ａｒｍｙ．　Ｏｂｅｙ　ｔｈｅｍ，　ｂー"TCC_NEWLINE"ｏｄｙ　ａｎｄｓｏｕｌ．　Ｇｉｖｅ　ｙｏｕｒｓｅｌｆ　ｔｏ"TCC_NEWLINE"　ｔｈｅｍｃｏｍｐｌｅｔｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｃｅ　ｙｏｕ　ｅａｒｎ　ｔｈｅｉｒ　ｔｒｕｓｔ．．．ｙー"TCC_NEWLINE"ｏｕ　ｃａｎｓｌａｕｇｈｔｅｒ　ｔｈｅｍ　ａｔ　ｍｙ　ｃｏー"TCC_NEWLINE"ｍｍａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｏｉｎ　ｔｈｅｉｒ　ａｒｍｙ．　Ｏｂｅｙ　ｔｈｅｍ，　ｂー"TCC_NEWLINE"ｏｄｙ　ａｎｄ　ｓｏｕｌ．　Ｇｉｖｅ　ｙｏｕｒｓｅｌｆ　ｔー"TCC_NEWLINE"ｏ　ｔｈｅｍ　ｃｏｍｐｌｅｔｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｙｏｕ　ｅａｒｎ　ｔｈｅｉｒ　ｔｒｕｓｔ．．．ｙー"TCC_NEWLINE"ｏｕ　ｃａｎ　ｓｌａｕｇｈｔｅｒ　ｔｈｅｍ　ａｔ　ｍｙ　ｃー"TCC_NEWLINE"ｏｍｍａｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ，　Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｄｏ　ｎｏｔ　ｃａｒｅ　ｉｆ　ｙｏｕ　ｄｏ　ｎｏｔ　ｌー"TCC_NEWLINE"ｉｋｅ　ｍｙｏｒｄｅｒ．　Ｙｏｕ　ｗｉｌｌ　ｏｂｅｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏ　ｎｏｔ　ｃａｒｅ　ｉｆ　ｙｏｕ　ｄｏ　ｎｏｔ　ｌー"TCC_NEWLINE"ｉｋｅ　ｍｙ　ｏｒｄｅｒ．　Ｙｏｕ　ｗｉｌｌ　ｏｂｅｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｅｓ，　Ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
@@ -30,7 +30,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ａｎｄ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｅｉｒ．．．　Ｐｒｉｎｃｅｓｓ　ｏｆ　ｔｈｅ　ｒー"TCC_NEWLINE"ｅａｌｍ　ｏｆ　ｔｈｅｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｅｉｒ．．．　Ｐｒｉｎｃｅｓｓ　ｏｆ　ｔｈｅ　ｒー"TCC_NEWLINE"ｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｏ　ｙｏｕ’ｒｅ　ｐａｒｔ　ｏｆ　Ｈｅｌ’ｓ　ａｒｍｙ，"TCC_NEWLINE"　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -38,7 +38,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "Ｙｏｕ　ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　ｏｕｔｃｏｍｅ　ｏｆ　ｔｈｉｓ　ｆｉｇｈｔ　ｄｏｅー"TCC_NEWLINE"ｓｎ’ｔｍａｔｔｅｒ　ｔｏ　ｍｅ．　Ｗｈｏ　ｗｉｎｓ，　ｗー"TCC_NEWLINE"ｈｏ　ｌｏｓｅｓ．．．Ｌｅｔ　ｕｓ　ｂｅｇｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｏｕｔｃｏｍｅ　ｏｆ　ｔｈｉｓ　ｆｉｇｈｔ　ｄｏｅー"TCC_NEWLINE"ｓｎ’ｔ　ｍａｔｔｅｒ　ｔｏ　ｍｅ．　Ｗｈｏ　ｗｉｎｓ，　"TCC_NEWLINE"ｗｈｏ　ｌｏｓｅｓ．．．　Ｌｅｔ　ｕｓ　ｂｅｇｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｉ　ｈａｖｅ　ｌｏｓｔ．　Ｙｏｕ　ｍａｙ　ｋｉｌｌ　ｍｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
@@ -47,49 +47,49 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｗｏｎ’ｔ　ｄｏ　ｉｔ．　Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｃａｎ’ｔ　ｔａｋｅ　ｔｈｅ　ｌｉｆｅ　ｏｆ　ａｎ　ｏー"TCC_NEWLINE"ｐｐｏｎｅｎｔｗｈｏ　ｓｕｒｒｅｎｄｅｒｓ　ｉｔ　ｆｒｅｅー"TCC_NEWLINE"ｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｔｈｅｒｅ　ａｒｅ　ｔｈｉｎｇｓ　Ｉ　ｗｏｕｌｄ　"TCC_NEWLINE"ｌｉｋｅ　ｔｏａｓｋ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｔａｋｅ　ｔｈｅ　ｌｉｆｅ　ｏｆ　ａｎ　ｏー"TCC_NEWLINE"ｐｐｏｎｅｎｔ　ｗｈｏ　ｓｕｒｒｅｎｄｅｒｓ　ｉｔ　ｆｒｅー"TCC_NEWLINE"ｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅｒｅ　ａｒｅ　ｔｈｉｎｇｓ　Ｉ　ｗｏｕｌｄ　"TCC_NEWLINE"ｌｉｋｅ　ｔｏ　ａｓｋ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｏ　Ｉ　ａｍ　ｔｏ　ｂｅ　ｙｏｕｒ　ｐｒｉｓｏｎｅｒ？Ｖー"TCC_NEWLINE"ｅｒｙ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　Ｉ　ａｍ　ｔｏ　ｂｅ　ｙｏｕｒ　ｐｒｉｓｏｎｅｒ？　"TCC_NEWLINE"Ｖｅｒｙ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HENRIETTE
-"Ｓｈａｌｌ　ｗｅ　ｇｅｔ　ｇｏｉｎｇ，　Ａｌｆｏｎｓｅ？　"TCC_NEWLINE"ＨｉｓＭａｊｅｓｔｙ　ｉｓ　ｗａｉｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈａｌｌ　ｗｅ　ｇｅｔ　ｇｏｉｎｇ，　Ａｌｆｏｎｓｅ？　"TCC_NEWLINE"Ｈｉｓ　Ｍａｊｅｓｔｙ　ｉｓ　ｗａｉｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｙｅｓ，　Ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｈａｒｅｎａ，　ｙｏｕ　ｃｏｍｅ　ｔｏｏ，　ｂｕｔ　ｐｌー"TCC_NEWLINE"ｅａｓｅ．．．ｄｏｎ’ｔ　ｄｉｓｒｕｐｔ　ｔｈｅ　ｃｏｎｖー"TCC_NEWLINE"ｅｒｓａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈａｒｅｎａ，　ｙｏｕ　ｃｏｍｅ　ｔｏｏ，　ｂｕｔ　ｐｌー"TCC_NEWLINE"ｅａｓｅ．．．　ｄｏｎ’ｔ　ｄｉｓｒｕｐｔ　ｔｈｅ　ｃｏｎー"TCC_NEWLINE"ｖｅｒｓａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｙｏｕ　ｃａｎ　ｃｏｕｎｔ　ｏｎ　ｍｙ　ｓｉｌｅｎｃｅ！　"TCC_NEWLINE"Ｆａｔｈｅｒｉｓ　ｑｕｉｔｅ　ｓｏｍｅｔｈｉｎｇ　ｗｈｅｎ"TCC_NEWLINE"　ｈｅ’ｓ　ａｎｇｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｃｏｕｎｔ　ｏｎ　ｍｙ　ｓｉｌｅｎｃｅ！　"TCC_NEWLINE"Ｆａｔｈｅｒ　ｉｓ　ｑｕｉｔｅ　ｓｏｍｅｔｈｉｎｇ　ｗｈｅー"TCC_NEWLINE"ｎ　ｈｅ’ｓ　ａｎｇｒｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｇｏｏｄ　ｌｕｃｋ，　ｙｏｕ　ｔｗｏ．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｆｉｎｄ　ｓｏｍｅｗｈｅｒｅ　ｔｏ　ｗａｉｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｈａｖｅ　ｔｏ　ｆｉｇｕｒｅ　ｏｕｔ　ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ　ｔｏｄｏ　ｗｉｔｈ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｆｉｇｕｒｅ　ｏｕｔ　ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ　ｔｏ　ｄｏ　ｗｉｔｈ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EIR
 "Ｉ　ｗｏｕｌｄ　ｊｏｉｎ　ｙｏｕｒ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｊｏｉｎ　ｕｓ？　Ｔｈｏｕｇｈ　ｙｏｕ　ｆｏｕｇｈｔ　ｏｎ"TCC_NEWLINE"　ｔｈｅｓｉｄｅ　ｏｆ　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｊｏｉｎ　ｕｓ？　Ｔｈｏｕｇｈ　ｙｏｕ　ｆｏｕｇｈｔ　ｏｎ"TCC_NEWLINE"　ｔｈｅ　ｓｉｄｅ　ｏｆ　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｄｉｄ，　ｙｅｓ．　Ｂｕｔ　ｎｏｗ　ｔｈａｔ　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ　ｍａｄｅｍｙ　ｅｓｃａｐｅ，　Ｉ　ａｍ　ｎｏ　ｌｏｎー"TCC_NEWLINE"ｇｅｒ　ｐｒｉｎｃｅｓｓ．Ｉ　ｃａｎｎｏｔ　ｒｅｔｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｉｄ，　ｙｅｓ．　Ｂｕｔ　ｎｏｗ　ｔｈａｔ　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ　ｍａｄｅ　ｍｙ　ｅｓｃａｐｅ，　Ｉ　ａｍ　ｎｏ　ｌｏー"TCC_NEWLINE"ｎｇｅｒ　ｐｒｉｎｃｅｓｓ．　Ｉ　ｃａｎｎｏｔ　ｒｅｔｕｒー"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｔｅｌｌ　ｍｅ　ｗｈｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　ａｆｒａｉｄ　Ｉ　ｍｕｓｔ　ｋｅｅｐ　ｔｈａｔ　"TCC_NEWLINE"ｔｏｍｙｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ａｆｒａｉｄ　Ｉ　ｍｕｓｔ　ｋｅｅｐ　ｔｈａｔ　"TCC_NEWLINE"ｔｏ　ｍｙｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉ　ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｆｏｒ　ａ　ｓｅー"TCC_NEWLINE"ｃｏｎｄ！　Ｉｆｙｏｕ　ｃａｎ’ｔ　ｔｒｕｓｔ　ｕｓ，　ｈー"TCC_NEWLINE"ｏｗ　ｃａｎ　ｗｅｔｒｕｓｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｆｏｒ　ａ　ｓｅー"TCC_NEWLINE"ｃｏｎｄ！　Ｉｆ　ｙｏｕ　ｃａｎ’ｔ　ｔｒｕｓｔ　ｕｓ，　"TCC_NEWLINE"ｈｏｗ　ｃａｎ　ｗｅ　ｔｒｕｓｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｋｎｏｗ　ｈｏｗ　ｔｈｉｓ　ｓｏｕｎｄｓ．　Ｉｔ　ｍｕー"TCC_NEWLINE"ｓｔ　ｓｅｅｍｓｏ　ｓｅｌｆｉｓｈ　ｏｆ　ｍｅ　ｔｏ　ａｓー"TCC_NEWLINE"ｋ　ｓｏ　ｍｕｃｈ　ｏｆｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｈｏｗ　ｔｈｉｓ　ｓｏｕｎｄｓ．　Ｉｔ　ｍｕー"TCC_NEWLINE"ｓｔ　ｓｅｅｍ　ｓｏ　ｓｅｌｆｉｓｈ　ｏｆ　ｍｅ　ｔｏ　ａー"TCC_NEWLINE"ｓｋ　ｓｏ　ｍｕｃｈ　ｏｆ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｔｉｌｌ，　ｔｈｏｕｇｈ，　Ｉ　ｗｉｓｈ　ｔｏ　ｊｏｉｎ"TCC_NEWLINE"　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｙｏｕ　ｅｖｅｒ　ｆｉｎｄ　ｃａｕｓｅ　ｔｏ　ｄｉｓー"TCC_NEWLINE"ｔｒｕｓｔ　ｍｅ．．．ｋｉｌｌ　ｍｅ　ｔｈｅｎ　ａｎｄ　ｔー"TCC_NEWLINE"ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｅｖｅｒ　ｆｉｎｄ　ｃａｕｓｅ　ｔｏ　ｄｉｓー"TCC_NEWLINE"ｔｒｕｓｔ　ｍｅ．．．　ｋｉｌｌ　ｍｅ　ｔｈｅｎ　ａｎｄ　"TCC_NEWLINE"ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉ　ｃｅｒｔａｉｎｌｙ　ｃａｎ’ｔ　ｔｒｕｓｔ　ｙｏｕ！　"TCC_NEWLINE"Ｂｕｔ　ｙｏｕｍｕｓｔ　ｋｎｏｗ　ｓｏｍｅｔｈｉｎｇ　ａｂー"TCC_NEWLINE"ｏｕｔ　Ｈｅｌ’ｓｆｏｒｃｅｓ．　Ｔｈａｔ’ｓ　ｖａｌｕａー"TCC_NEWLINE"ｂｌｅ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｊｕｓｔ　ｓｏ　ｗｅ’ｒｅ　ｃｌｅａｒＩ’ｌｌ　ｔａｋｅ　"TCC_NEWLINE"ｙｏｕ　ｕｐｏｎ　ｙｏｕｒ　ｏｆｆｅｒ．　Ｔｈｅ　ｓｅｃｏー"TCC_NEWLINE"ｎｄ　Ｉ　ｈａｖｅｃａｕｓｅ　ｔｏ　ｓｕｓｐｅｃｔ　ｙｏｕ"TCC_NEWLINE"．．．ｔｈａｔ’ｓ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｅｒｔａｉｎｌｙ　ｃａｎ’ｔ　ｔｒｕｓｔ　ｙｏｕ！　"TCC_NEWLINE"Ｂｕｔ　ｙｏｕ　ｍｕｓｔ　ｋｎｏｗ　ｓｏｍｅｔｈｉｎｇ　ａー"TCC_NEWLINE"ｂｏｕｔ　Ｈｅｌ’ｓ　ｆｏｒｃｅｓ．　Ｔｈａｔ’ｓ　ｖａｌー"TCC_NEWLINE"ｕａｂｌｅ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｓｏ　ｗｅ’ｒｅ　ｃｌｅａｒＩ’ｌｌ　ｔａｋｅ　"TCC_NEWLINE"ｙｏｕ　ｕｐ　ｏｎ　ｙｏｕｒ　ｏｆｆｅｒ．　Ｔｈｅ　ｓｅｃー"TCC_NEWLINE"ｏｎｄ　Ｉ　ｈａｖｅ　ｃａｕｓｅ　ｔｏ　ｓｕｓｐｅｃｔ　ｙー"TCC_NEWLINE"ｏｕ．．．ｔｈａｔ’ｓ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈａｔ’ｓ　ａｌｌ　ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｓｈｅ’ｓ　ａ　ｓｔｒａｎｇｅ　ｏｎｅ，　ｉｓｎ’ｔ　ｓｈー"TCC_NEWLINE"ｅ？Ｉ　ｄｏｎ’ｔ　ｓｅｎｓｅ　ｓｈｅ　ｈｏｌｄｓ　ａｎｙ"TCC_NEWLINE"　ａｎｉｍｏｓｉｔｙｔｏｗａｒｄ　ｕｓ．　Ｓｈｅ’ｓ．．．"TCC_NEWLINE"ａｐａｔｈｅｔｉｃ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ’ｓ　ａ　ｓｔｒａｎｇｅ　ｏｎｅ，　ｉｓｎ’ｔ　ｓｈー"TCC_NEWLINE"ｅ？　Ｉ　ｄｏｎ’ｔ　ｓｅｎｓｅ　ｓｈｅ　ｈｏｌｄｓ　ａｎー"TCC_NEWLINE"ｙ　ａｎｉｍｏｓｉｔｙ　ｔｏｗａｒｄ　ｕｓ．　Ｓｈｅ’ｓ．"TCC_NEWLINE"．．ａｐａｔｈｅｔｉｃ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｙ，"TCC_NEWLINE
-TCC_TACTICIAN_NAME"．．．Ｋｅｅｐ　ａｎ　ｅｙｅ　ｏｎ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"．．．　Ｋｅｅｐ　ａｎ　ｅｙｅ　ｏｎ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｄｏ　ｗｈａｔ　ｙｏｕ　ｍｕｓｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A

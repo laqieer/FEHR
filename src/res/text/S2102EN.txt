@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2102_EN] = TCC_OPEN_LEFT
-"Ｏｈ，　ｈｅｌｌｏ　ｔｈｅｒｅ．　Ｉ　ａｍ　ｃａｌｌｅｄ　"TCC_NEWLINE"Ｃａｎａｓ．Ｉ　ｈｏｐｅ　ｙｏｕ　ｃａｎ　ｆｏｒｇｉｖｅ　"TCC_NEWLINE"ｍｅ　ｆｏｒ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｈｅｌｌｏ　ｔｈｅｒｅ．　Ｉ　ａｍ　ｃａｌｌｅｄ　"TCC_NEWLINE"Ｃａｎａｓ．　Ｉ　ｈｏｐｅ　ｙｏｕ　ｃａｎ　ｆｏｒｇｉｖｅ"TCC_NEWLINE"　ｍｅ　ｆｏｒ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

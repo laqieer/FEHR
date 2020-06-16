@@ -1,7 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2073_EN] = TCC_OPEN_LEFT
-"Ｉ’ｌｌ　ｇｒｏｗ　ｓｔｒｏｎｇｅｒ．　Ｉ　ｓｗｅａｒ　ｉー"TCC_NEWLINE"ｔ！　Ｔｈｅｓｅｗｅｒｅ　ｍｙ　ｗｏｒｄｓ，　ａｎｄ　ｔｈー"TCC_NEWLINE"ｅｙ　ｆｏｒｍｅｄ　ａｐｒｏｍｉｓｅ．　Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｇｒｏｗ　ｓｔｒｏｎｇｅｒ．　Ｉ　ｓｗｅａｒ　ｉー"TCC_NEWLINE"ｔ！　Ｔｈｅｓｅ　ｗｅｒｅ　ｍｙ　ｗｏｒｄｓ，　ａｎｄ　ｔー"TCC_NEWLINE"ｈｅｙ　ｆｏｒｍｅｄ　ａ　ｐｒｏｍｉｓｅ．　Ｌｅｔ’ｓ　ｇー"TCC_NEWLINE"ｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｆ　ｃｏｕｒｓｅ，　Ｌｏｒｄ　Ｌｅｉｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

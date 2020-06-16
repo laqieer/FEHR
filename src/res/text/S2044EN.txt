@@ -1,28 +1,28 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｄｏ　ｙｏｕ　ｓｅｅ　ｉｔ？　Ｔｈａｔ’ｓ　ｔｈｅ　ｇａｔー"TCC_NEWLINE"ｅ　ｔｈａｔ　ｗｉｌｌｔａｋｅ　ｕｓ　ｔｏ　Ｎｉｆｌ．．．"TCC_NEWLINE"　Ｌｅｔ’ｓ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｓｅｅ　ｉｔ？　Ｔｈａｔ’ｓ　ｔｈｅ　ｇａｔー"TCC_NEWLINE"ｅ　ｔｈａｔ　ｗｉｌｌ　ｔａｋｅ　ｕｓ　ｔｏ　Ｎｉｆｌ．．"TCC_NEWLINE"．　Ｌｅｔ’ｓ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ．．．　Ｓｏｍｅｂｏｄｙ　ｈー"TCC_NEWLINE"ａｓ　ｔｏ，ｓｏ．．．　Ｏｆｆ　Ｉ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ．．．　Ｓｏｍｅｂｏｄｙ　ｈー"TCC_NEWLINE"ａｓ　ｔｏ，　ｓｏ．．．　Ｏｆｆ　Ｉ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
 "Ｈｕｈ？　Ｎｏｔｈｉｎｇ　ｈａｐｐｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｔｈｅ　ｒｉｔｅ　Ｉ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｅｒｈａｐｓ　ｔｏｏ　ｍｕｃｈ　ｔｉｍｅ　ｈａｓ　ｐａｓー"TCC_NEWLINE"ｓｅｄ，ａｎｄ　ｉｔｓ　ｐｏｗｅｒ　ｈａｓ　ｄｉｓｓｉｐａー"TCC_NEWLINE"ｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ｃａｎ　ｏｐｅｎ　ｔｈｅ　ｇー"TCC_NEWLINE"ａｔｅ　ｏｎｃｅｍｏｒｅ．　Ｉ　ｊｕｓｔ　ｎｅｅｄ　ｓｏｍー"TCC_NEWLINE"ｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　ｔｏｏ　ｍｕｃｈ　ｔｉｍｅ　ｈａｓ　ｐａｓー"TCC_NEWLINE"ｓｅｄ，　ａｎｄ　ｉｔｓ　ｐｏｗｅｒ　ｈａｓ　ｄｉｓｓｉｐー"TCC_NEWLINE"ａｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ｃａｎ　ｏｐｅｎ　ｔｈｅ　ｇー"TCC_NEWLINE"ａｔｅ　ｏｎｃｅ　ｍｏｒｅ．　Ｉ　ｊｕｓｔ　ｎｅｅｄ　ｓｏー"TCC_NEWLINE"ｍｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ　ｉｔ　ｍｉｇｈｔ　ｂｅ　ａ　"TCC_NEWLINE"ｗｈｉｌｅｂｅｆｏｒｅ　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｃａー"TCC_NEWLINE"ｎ　ｃｏｍｐｌｅｔｅｔｈｅ　ｒｉｔｅ　ｔｏ　ｏｐｅｎ　ｔｈー"TCC_NEWLINE"ｅ　ｗａｙ　ｔｏ　Ｎｉｆｌ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｒｅｓｔ　ｏｆ　ｕｓ　ｗｉｌｌ　ｎｅｅｄ　ｔｏ　ｈー"TCC_NEWLINE"ｏｌｄ　ｔｈｉｓｐｏｓｉｔｉｏｎ　ｕｎｔｉｌ　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ　ｉｔ　ｍｉｇｈｔ　ｂｅ　ａ　"TCC_NEWLINE"ｗｈｉｌｅ　ｂｅｆｏｒｅ　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｃー"TCC_NEWLINE"ａｎ　ｃｏｍｐｌｅｔｅ　ｔｈｅ　ｒｉｔｅ　ｔｏ　ｏｐｅｎ　"TCC_NEWLINE"ｔｈｅ　ｗａｙ　ｔｏ　Ｎｉｆｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｅｓｔ　ｏｆ　ｕｓ　ｗｉｌｌ　ｎｅｅｄ　ｔｏ　ｈー"TCC_NEWLINE"ｏｌｄ　ｔｈｉｓ　ｐｏｓｉｔｉｏｎ　ｕｎｔｉｌ　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉ’ｌｌ　ｕｓｅ　ｔｈｅ　ｔｉｍｅ　ｔｏ　ｐｒｅｐａｒｅ　"TCC_NEWLINE"ａ　ｍｅａｌｆｏｒ　ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｕｓｅ　ｔｈｅ　ｔｉｍｅ　ｔｏ　ｐｒｅｐａｒｅ　"TCC_NEWLINE"ａ　ｍｅａｌ　ｆｏｒ　ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅ　ｄｏ　ｎｅｅｄ　ｔｏ　ｓｔａｙ　ａｌｅｒｔ，　ｔｈｏー"TCC_NEWLINE"ｕｇｈ．Ｉｔ　ｄｏｅｓｎ’ｔ　ｓｅｅｍ　ｔｈｅ　ｅｎｅｍｙ"TCC_NEWLINE"　ｉｓ　ａｗａｒｅｏｆ　ｕｓ，　ｂｕｔ．．．　Ｔｈａｔ　ｃー"TCC_NEWLINE"ｏｕｌｄ　ｃｈａｎｇｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｃａｎ　ｈｏｌｄ　ｆａｓｔ　ｕー"TCC_NEWLINE"ｎｔｉｌＰｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｆｉｎｉｓｈｅｓ　ｔー"TCC_NEWLINE"ｈｅ　ｒｉｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｄｏ　ｎｅｅｄ　ｔｏ　ｓｔａｙ　ａｌｅｒｔ，　ｔｈｏー"TCC_NEWLINE"ｕｇｈ．　Ｉｔ　ｄｏｅｓｎ’ｔ　ｓｅｅｍ　ｔｈｅ　ｅｎｅｍー"TCC_NEWLINE"ｙ　ｉｓ　ａｗａｒｅ　ｏｆ　ｕｓ，　ｂｕｔ．．．　Ｔｈａｔ"TCC_NEWLINE"　ｃｏｕｌｄ　ｃｈａｎｇｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｃａｎ　ｈｏｌｄ　ｆａｓｔ　ｕー"TCC_NEWLINE"ｎｔｉｌ　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｆｉｎｉｓｈｅｓ　"TCC_NEWLINE"ｔｈｅ　ｒｉｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｐｒｅｐａｒｅ　ｆｏｒ　ｂａｔｔｌｅ，　ｅｖｅｒｙｏｎｅ！"TCC_NEWLINE"　Ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｗｈａｔ’ｓ　ｇｏｔ　ｙｏー"TCC_NEWLINE"ｕ　ｓｏｗｏｒｋｅｄ　ｕｐ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｗｈａｔ’ｓ　ｇｏｔ　ｙｏー"TCC_NEWLINE"ｕ　ｓｏ　ｗｏｒｋｅｄ　ｕｐ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｓｕｒｔｒ！　Ｈｅ’ｓ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

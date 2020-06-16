@@ -1,29 +1,29 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_YLGR
-"Ｏｎｅ　ｏｆ　ｔｈｅ　ｓｏｌｄｉｅｒｓ．．．　Ｈｅ　ｓａｉー"TCC_NEWLINE"ｄ　ｔｈａｔ　ｔｈｅｃａｓｔｌｅ　ｉｓ　ｉｎ　ｔｈｅ　ｂｅー"TCC_NEWLINE"ｌｌｙ　ｏｆ　ｔｈａｔ　ｈｕｕｕｕｇｅｖｏｌｃａｎｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ’ｓ　ｗｈｅｒｅ　ｔｈｅｙ　ｗｅｒｅ　ｐｌａｎｎｉー"TCC_NEWLINE"ｎｇ　ｔｏｔａｋｅ　ｍｅ　ｂｅｆｏｒｅ　Ｉ　ｅｓｃａｐｅｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｏｆ　ｔｈｅ　ｓｏｌｄｉｅｒｓ．．．　Ｈｅ　ｓａｉー"TCC_NEWLINE"ｄ　ｔｈａｔ　ｔｈｅ　ｃａｓｔｌｅ　ｉｓ　ｉｎ　ｔｈｅ　ｂー"TCC_NEWLINE"ｅｌｌｙ　ｏｆ　ｔｈａｔ　ｈｕｕｕｕｇｅ　ｖｏｌｃａｎｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｗｈｅｒｅ　ｔｈｅｙ　ｗｅｒｅ　ｐｌａｎｎｉー"TCC_NEWLINE"ｎｇ　ｔｏ　ｔａｋｅ　ｍｅ　ｂｅｆｏｒｅ　Ｉ　ｅｓｃａｐｅー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｇｏｏｄ．　Ｔｈａｔ　ｍｅａｎｓ　ｔｈａｔ　ｔｈｉｓ　ｍｏー"TCC_NEWLINE"ｕｎｔａｉｎｐａｔｈ　ｍｕｓｔ　ｌｅａｄ　ｓｔｒａｉｇｈｔ"TCC_NEWLINE"　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ’ｓｆｒｏｎｔ　ｇａｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｒｅ　ｔｈｅ　ｅｎｅｍｙ　ｆｏｒｃｅｓ　ａｒｅ　ｎｏー"TCC_NEWLINE"ｄｏｕｂｔ　ｗａｉｔｉｎｇ　ｆｏｒ　ｕｓ，　ｂｌａｄｅｓ　"TCC_NEWLINE"ａｔ　ｔｈｅｒｅａｄｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ．　Ｔｈａｔ　ｍｅａｎｓ　ｔｈａｔ　ｔｈｉｓ　ｍｏー"TCC_NEWLINE"ｕｎｔａｉｎ　ｐａｔｈ　ｍｕｓｔ　ｌｅａｄ　ｓｔｒａｉｇｈー"TCC_NEWLINE"ｔ　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ’ｓ　ｆｒｏｎｔ　ｇａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ　ｔｈｅ　ｅｎｅｍｙ　ｆｏｒｃｅｓ　ａｒｅ　ｎｏ"TCC_NEWLINE"　ｄｏｕｂｔ　ｗａｉｔｉｎｇ　ｆｏｒ　ｕｓ，　ｂｌａｄｅｓ"TCC_NEWLINE"　ａｔ　ｔｈｅ　ｒｅａｄｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｈａｖｅ　ａｎ　ｉｄｅａ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ｌｏｃｋｅｄ　ｍｅ　ｉｎ　ａ　ｔｏｗｅｒ，　ｗａー"TCC_NEWLINE"ｙ　ｕｐ　ａｔｔｈｅ　ｔｏｐ，　ａｎｄ　Ｉ　ｃｏｕｌｄ　ｓー"TCC_NEWLINE"ｅｅ　ａ　ｆｏｒｅｓｔ．　Ｉｔｒｕｎｓ　ａｌｏｎｇｓｉｄｅ"TCC_NEWLINE"　ｔｈｅ　ｍｏｕｎｔａｉｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｓｎｅａｋ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｆｏｒｅｓー"TCC_NEWLINE"ｔ，　ｔｈｅｓｏｌｄｉｅｒｓ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ　"TCC_NEWLINE"ｔｏ　ｓｅｅ　ｕｓｃｏｍｉｎｇ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｌｏｃｋｅｄ　ｍｅ　ｉｎ　ａ　ｔｏｗｅｒ，　ｗａー"TCC_NEWLINE"ｙ　ｕｐ　ａｔ　ｔｈｅ　ｔｏｐ，　ａｎｄ　Ｉ　ｃｏｕｌｄ　"TCC_NEWLINE"ｓｅｅ　ａ　ｆｏｒｅｓｔ．　Ｉｔ　ｒｕｎｓ　ａｌｏｎｇｓｉー"TCC_NEWLINE"ｄｅ　ｔｈｅ　ｍｏｕｎｔａｉｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｓｎｅａｋ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｆｏｒｅｓー"TCC_NEWLINE"ｔ，　ｔｈｅ　ｓｏｌｄｉｅｒｓ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ"TCC_NEWLINE"　ｔｏ　ｓｅｅ　ｕｓ　ｃｏｍｉｎｇ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｙｏｕ’ｒｅ　ｓｏ　ｃｌｅｖｅｒ，　Ｙｌｇｒ．　Ｉｔ　ｉｓ"TCC_NEWLINE"　ｓｕｃｈ　ａｈｅｌｐ　ｔｏ　ｈａｖｅ　ｙｏｕ　ｗｉｔｈ　"TCC_NEWLINE"ｕｓｍｏｒｅ　ｔｈａｎｙｏｕ　ｃｏｕｌｄ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｓｏ　ｃｌｅｖｅｒ，　Ｙｌｇｒ．　Ｉｔ　ｉｓ"TCC_NEWLINE"　ｓｕｃｈ　ａ　ｈｅｌｐ　ｔｏ　ｈａｖｅ　ｙｏｕ　ｗｉｔｈ"TCC_NEWLINE"　ｕｓｍｏｒｅ　ｔｈａｎ　ｙｏｕ　ｃｏｕｌｄ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ！　Ｔｉｍｅ’ｓ　ｗａｓｔｉー"TCC_NEWLINE"ｎｇ．　Ｓｕｒｔｒ　ｉｓｗａｉｔｉｎｇ　ｆｏｒ　ｕｓ．　Ｌー"TCC_NEWLINE"ｅｔ’ｓ　ｓｈｏｗ　ｈｉｍ　ｏｕｒｒｅｓｏｌｖｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ！　Ｔｉｍｅ’ｓ　ｗａｓｔｉー"TCC_NEWLINE"ｎｇ．　Ｓｕｒｔｒ　ｉｓ　ｗａｉｔｉｎｇ　ｆｏｒ　ｕｓ．　"TCC_NEWLINE"Ｌｅｔ’ｓ　ｓｈｏｗ　ｈｉｍ　ｏｕｒ　ｒｅｓｏｌｖｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｒａｉｓｅ　ｙｏｕｒ　ｗｅａｐｏｎｓ！　Ｗｅ　ｍｕｓｔ　ｐー"TCC_NEWLINE"ｕｓｈｔｈｒｏｕｇｈ　ａｎｄ　ｈｅａｄ　ｔｏ　ｔｈｅ　ｃａー"TCC_NEWLINE"ｓｔｌｅ　ａｓｆａｓｔ　ａｓ　ｗｅ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｒａｉｓｅ　ｙｏｕｒ　ｗｅａｐｏｎｓ！　Ｗｅ　ｍｕｓｔ　ｐー"TCC_NEWLINE"ｕｓｈ　ｔｈｒｏｕｇｈ　ａｎｄ　ｈｅａｄ　ｔｏ　ｔｈｅ　ｃー"TCC_NEWLINE"ａｓｔｌｅ　ａｓ　ｆａｓｔ　ａｓ　ｗｅ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ’ｖｅ　ｄｉｓｐａｔｃｈｅｄ　ｔｈｉｓ　ｂａｎｄ　ｏｆ"TCC_NEWLINE"　ｆｏｅｓ．Ｗｅ　ｍｕｓｔ　ｐｒｅｓｓ　ｏｎａｎｄ　ｆｉｎー"TCC_NEWLINE"ｄ　Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｄｉｓｐａｔｃｈｅｄ　ｔｈｉｓ　ｂａｎｄ　ｏｆ"TCC_NEWLINE"　ｆｏｅｓ．　Ｗｅ　ｍｕｓｔ　ｐｒｅｓｓ　ｏｎａｎｄ　ｆｉー"TCC_NEWLINE"ｎｄ　Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｅｘｃｅｌｌｅｎｔ．　Ｔｈｅ　ｔｉｍｅ　ａｐｐｒｏａｃｈｅー"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｕｒｒｙ　ｔｏ　ｍｅ，　ｆｏｏｌｉｓｈ　ｃｈｉｌｄｒｅｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏｏｎ，　Ｉ　ｗｉｌｌ　ｓｅｅ　ｄｅｓｐａｉｒ　ｂｕｒｎ"TCC_NEWLINE"　ｉｔｓｅｌｆ　ｉｎｔｏｙｏｕｒ　ｆａｃｅｓｏｎｃｅ　ｙｏー"TCC_NEWLINE"ｕ　ｕｎｄｅｒｓｔａｎｄｈｏｗ　ｗｅａｋ　ｙｏｕ　ｔｒｕｌー"TCC_NEWLINE"ｙ　ａｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｏｎ，　Ｉ　ｗｉｌｌ　ｓｅｅ　ｄｅｓｐａｉｒ　ｂｕｒｎ"TCC_NEWLINE"　ｉｔｓｅｌｆ　ｉｎｔｏ　ｙｏｕｒ　ｆａｃｅｓｏｎｃｅ　ｙー"TCC_NEWLINE"ｏｕ　ｕｎｄｅｒｓｔａｎｄ　ｈｏｗ　ｗｅａｋ　ｙｏｕ　ｔｒー"TCC_NEWLINE"ｕｌｙ　ａｒｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｈａ－ｈａｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

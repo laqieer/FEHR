@@ -3,33 +3,33 @@
 [MID_SCENARIO_OPENING_S3035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ａｈ！"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏｗ，　Ｉ　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈａｖｅ　ｄｅｖｏｔｅｄ　ｍｙｓｅｌｆ　ｔｏ　ｙｏｕ，"TCC_NEWLINE"ｓｏ　Ｉ　ｃａｎ　ｔｅｌｌ　ｙｏｕ　ｔｈｉｓ　ｎｏｗ，"TCC_NEWLINE
+"Ｉ　ｈａｖｅ　ｄｅｖｏｔｅｄ　ｍｙｓｅｌｆ　ｔｏ　ｙｏｕ，"TCC_NEWLINE"　ｓｏ　Ｉ　ｃａｎ　ｔｅｌｌ　ｙｏｕ　ｔｈｉｓ　ｎｏｗ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｌｆｏｎｓｅ’ｓ　ｆａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｒｉｎｃｅｓｓ　Ｅｉｒ．．．？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｇｏａｌ　ｉｓ　ｔｏ　ｄｅｓｔｒｏー"TCC_NEWLINE"ｙ　ｔｈｅｋｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ　Ｉ　ｄｉｄ　ｎｏｔ　ｋｎｏｗ　ｉｓ　ｗｈｏ　ｓｈー"TCC_NEWLINE"ｅｗｏｕｌｄ　ｔａｒｇｅｔ　ｆｉｒｓｔ．　Ｂｕｔ　ｎｏｗ　"TCC_NEWLINE"Ｉｕｎｄｅｒｓｔａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｐａｉｎｓ　ｍｅ　ｔｏ　ｓａｙ　ｉｔ，　ｂｕｔ　Ｐｒー"TCC_NEWLINE"ｉｎｃｅＡｌｆｏｎｓｅ，　ｙｏｕ　ｗｉｌｌ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｇｏａｌ　ｉｓ　ｔｏ　ｄｅｓｔｒｏー"TCC_NEWLINE"ｙ　ｔｈｅ　ｋｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　Ｉ　ｄｉｄ　ｎｏｔ　ｋｎｏｗ　ｉｓ　ｗｈｏ　ｓｈー"TCC_NEWLINE"ｅ　ｗｏｕｌｄ　ｔａｒｇｅｔ　ｆｉｒｓｔ．　Ｂｕｔ　ｎｏｗ"TCC_NEWLINE"　Ｉ　ｕｎｄｅｒｓｔａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｐａｉｎｓ　ｍｅ　ｔｏ　ｓａｙ　ｉｔ，　ｂｕｔ　Ｐｒー"TCC_NEWLINE"ｉｎｃｅ　Ａｌｆｏｎｓｅ，　ｙｏｕ　ｗｉｌｌ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｅｅ？　Ｄｅａｔｈ　ｈａｓ　ｃｏｍｅ　ｆｏｒ　ｙｏｕ．Ｌー"TCC_NEWLINE"ｏｏｋ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｅ？　Ｄｅａｔｈ　ｈａｓ　ｃｏｍｅ　ｆｏｒ　ｙｏｕ．　"TCC_NEWLINE"Ｌｏｏｋ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HEL
 "Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｈｏ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｄｅａｔｈ．．．ａｎｄ　Ｉ　ｃｏｍｅ　ｔｏ　ａｌー"TCC_NEWLINE"ｌｗｈｏ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｄｅａｔｈ．．．ａｎｄ　Ｉ　ｃｏｍｅ　ｔｏ　ａｌー"TCC_NEWLINE"ｌ　ｗｈｏ　ｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔａｋｅ　ｍｙ　ｈａｎｄ　ａｎｄ　ｓｌｕｍｂｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｏｕ　ａｒｅ　Ｈｅｌｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｄｉｄ．．．ｄｉｄ　ｗｅ　ｗｉｎ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓ　ｔｏｏ　ｅａｓｙ．．．　Ｈａｓ　ｓｈｅ　ｅｓー"TCC_NEWLINE"ｃａｐｅｄ？Ｓｔａｙ　ａｌｅｒｔ！　Ｓｅａｒｃｈ　ｔｈｅ　"TCC_NEWLINE"ａｒｅａ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ｔｏｏ　ｅａｓｙ．．．　Ｈａｓ　ｓｈｅ　ｅｓー"TCC_NEWLINE"ｃａｐｅｄ？　Ｓｔａｙ　ａｌｅｒｔ！　Ｓｅａｒｃｈ　ｔｈｅ"TCC_NEWLINE"　ａｒｅａ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HEL
 "Ｄｏｏｍｅｄ　ｂｏｙ．"TCC_NEWLINE TCC_PUSH_A
@@ -37,7 +37,7 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｙｏｕ"
 TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａ　ｃｕｒｓｅ　ｉｎ　ｔｈｅ　ｎａｍｅ　ｏｆ　Ｈｅｌ，　ｒー"TCC_NEWLINE"ｕｌｅｒ　ｏｆｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｃｕｒｓｅ　ｉｎ　ｔｈｅ　ｎａｍｅ　ｏｆ　Ｈｅｌ，　ｒー"TCC_NEWLINE"ｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｎ　ｎｉｎｅ　ｄａｙｓ，　ｙｏｕｒ　ｌｉｆｅ　ｗｉｌｌ　"TCC_NEWLINE"ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ．．．？"
@@ -48,14 +48,14 @@ TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 TCC_OPEN_RIGHT
 "Ｈａｈｈ．．．　Ｈａｈｈ．．．　Ｔｈｉｓ　ｆｅｅｌｉｎｇ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕｒ　ｆａｔｅ　ｃａｎｎｏｔ　ｂｅ　ｃｈａｎｇｅｄ．　"TCC_NEWLINE"Ｔｈｅｃｏｈｏｒｔ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｈａｓ　ｅｘｐー"TCC_NEWLINE"ａｎｄｅｄ．．．Ｙｏｕ　ａｒｅ　ｄｏｏｍｅｄ，　ｂｏｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｆａｔｅ　ｃａｎｎｏｔ　ｂｅ　ｃｈａｎｇｅｄ．　"TCC_NEWLINE"Ｔｈｅ　ｃｏｈｏｒｔ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｈａｓ　ｅｘー"TCC_NEWLINE"ｐａｎｄｅｄ．．．　Ｙｏｕ　ａｒｅ　ｄｏｏｍｅｄ，　ｂｏｙ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｂｙ　ｔｈｅ　ｐｒｉｎｃｅ’ｓ　ｓｉｄｅｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｕｓｅｌｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｄｅｆｅａｔｉｎｇ　ｄｅａｔｈ．　"TCC_NEWLINE"Ｔｈｅｒｅ　ｉｓｎｏ　ｅｓｃａｐｉｎｇ　ｄｅａｔｈ．　Ｉ　"TCC_NEWLINE"ａｍ　ｓｈｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｃｏｕｎｔ　ｙｏｕｒ　ｄａｙｓ，　ｍｏｒｔａｌｓ，　ａｎｄ"TCC_NEWLINE"　ｑｕａｋｅｉｎ　ｔｅｒｒｏｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｅａｔｈ　ｉｓ　ｏｎｅ　ｓｔｅｐ　ｂｅｈｉｎｄ　ｙｏｕ．"TCC_NEWLINE"　Ａｌｌ　ｏｆｙｏｕ．　Ａｌｗａｙｓ．　Ｉ　ｗｉｌｌ　ｓｅー"TCC_NEWLINE"ｅ　ｙｏｕ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｄｅｆｅａｔｉｎｇ　ｄｅａｔｈ．　"TCC_NEWLINE"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｉｎｇ　ｄｅａｔｈ．　Ｉ"TCC_NEWLINE"　ａｍ　ｓｈｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｕｎｔ　ｙｏｕｒ　ｄａｙｓ，　ｍｏｒｔａｌｓ，　ａｎｄ"TCC_NEWLINE"　ｑｕａｋｅ　ｉｎ　ｔｅｒｒｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅａｔｈ　ｉｓ　ｏｎｅ　ｓｔｅｐ　ｂｅｈｉｎｄ　ｙｏｕ．"TCC_NEWLINE"　Ａｌｌ　ｏｆ　ｙｏｕ．　Ａｌｗａｙｓ．　Ｉ　ｗｉｌｌ　ｓー"TCC_NEWLINE"ｅｅ　ｙｏｕ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｇａｈ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT

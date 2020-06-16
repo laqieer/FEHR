@@ -1,12 +1,12 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4034_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｎｏ　Ｈｅｒｏ．　Ｉ’ｍ　ｊｕｓｔ　ａｓ　ｈｅｌー"TCC_NEWLINE"ｐｌｅｓｓａｓ　ａｎｙｏｎｅ　ｅｌｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｏ　Ｈｅｒｏ．　Ｉ’ｍ　ｊｕｓｔ　ａｓ　ｈｅｌー"TCC_NEWLINE"ｐｌｅｓｓ　ａｓ　ａｎｙｏｎｅ　ｅｌｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4034_EN] = TCC_OPEN_LEFT
 "Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　"TCC_NEWLINE"ｐｌａｙ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｐｌａｙ．．．ｄｒｅｓｓ－ｕｐ！"TCC_NEWLINE TCC_PUSH_A
-"Ｃｕｔｅ　ｃｌｏｔｈｅｓ　ｆｏｒ　ｍｅ，　ａｎｄ　ｃｕｔｅー"TCC_NEWLINE"ｃｌｏｔｈｅｓ　ｆｏｒ　ｙｏｕ！　Ｔｈａｔ’ｓ　ｈｏｗ　ｗー"TCC_NEWLINE"ｅｋｎｏｗ　ｉｔ’ｓ　ｆａｉｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｃｕｔｅ　ｃｌｏｔｈｅｓ　ｆｏｒ　ｍｅ，　ａｎｄ　ｃｕｔｅ"TCC_NEWLINE"　ｃｌｏｔｈｅｓ　ｆｏｒ　ｙｏｕ！　Ｔｈａｔ’ｓ　ｈｏｗ　"TCC_NEWLINE"ｗｅ　ｋｎｏｗ　ｉｔ’ｓ　ｆａｉｒ！"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ａｒｅ　ｍｅ，　ａｎｄ　Ｉ　ａｍ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 "Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　"TCC_NEWLINE"ｐｌａｙ！"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｏ　ａｒｅ　ｙｏｕ？　Ａｎｄ　ｗｈｏ　ａｍ　Ｉ？"TCC_NEWLINE TCC_PUSH_A

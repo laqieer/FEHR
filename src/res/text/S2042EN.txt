@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2042_EN] = TCC_OPEN_LEFT
-"Ｉ　ｇｕｅｓｓ　ｉｔ’ｓ　ｍｙ　ｔｕｒｎ．　Ｗｈｏ　ｄｏ　"TCC_NEWLINE"Ｉ　ｎｅｅｄｔｏ　ｓｌｉｃｅ？　Ｏｖｅｒ　ｈｅｒｅ，　ｏｒ"TCC_NEWLINE"　ｏｖｅｒ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｇｕｅｓｓ　ｉｔ’ｓ　ｍｙ　ｔｕｒｎ．　Ｗｈｏ　ｄｏ　"TCC_NEWLINE"Ｉ　ｎｅｅｄ　ｔｏ　ｓｌｉｃｅ？　Ｏｖｅｒ　ｈｅｒｅ，　ｏー"TCC_NEWLINE"ｒ　ｏｖｅｒ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｍａｋｅ　ｍｙ　ｍｏｖｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,22 +1,22 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4064_EN] = TCC_OPEN_LEFT
-"Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｓｐｅｎｄ　ｍｏｒｅ　ｔｉｍー"TCC_NEWLINE"ｅｗｉｔｈ　Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｓｐｅｎｄ　ｍｏｒｅ　ｔｉｍー"TCC_NEWLINE"ｅ　ｗｉｔｈ　Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4064_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｂｒｏｔｈｅｒ　ｓｈｏｕｌｄ　ｂｅ　ｈｅｒｅ．．．Ｓー"TCC_NEWLINE"ｏｍｅｗｈｅｒｅ　ｉｎ　ｔｈｉｓ　ｆｏｒｅｓｔ．．．Ｍａｙー"TCC_NEWLINE"ｂｅ　ａ　ｌｉｔｔｌｅ　ｆａｒｔｈｅｒ　ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｒｏｔｈｅｒ　ｓｈｏｕｌｄ　ｂｅ　ｈｅｒｅ．．．　"TCC_NEWLINE"Ｓｏｍｅｗｈｅｒｅ　ｉｎ　ｔｈｉｓ　ｆｏｒｅｓｔ．．．　Ｍー"TCC_NEWLINE"ａｙｂｅ　ａ　ｌｉｔｔｌｅ　ｆａｒｔｈｅｒ　ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｖｉｓｉｂｉｌｉｔｙ　ｓｅｅｍｓ　ｌｏｗ　ｔｈｒｏｕｇｈｏー"TCC_NEWLINE"ｕｔｔｈｅ　ｗｏｏｄ．　Ｗｅ　ｃｏｕｌｄ　ｃｏｖｅｒ　ｍｏー"TCC_NEWLINE"ｒｅｇｒｏｕｎｄ　ｉｆ　ｗｅ　ｗｅｒｅ　ｔｏ　ｓｐｌｉｔ　"TCC_NEWLINE"ｕｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｖｉｓｉｂｉｌｉｔｙ　ｓｅｅｍｓ　ｌｏｗ　ｔｈｒｏｕｇｈｏー"TCC_NEWLINE"ｕｔ　ｔｈｅ　ｗｏｏｄ．　Ｗｅ　ｃｏｕｌｄ　ｃｏｖｅｒ　ｍー"TCC_NEWLINE"ｏｒｅ　ｇｒｏｕｎｄ　ｉｆ　ｗｅ　ｗｅｒｅ　ｔｏ　ｓｐｌｉー"TCC_NEWLINE"ｔ　ｕｐ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉｎ　ｔｈａｔ　ｃａｓｅＰｅｏｎｙ，　ｃｏｍｅ　ｗｉｔｈｍー"TCC_NEWLINE"ｅ　ｉｎ　ｔｈｉｓ　ｄｉｒｅｃｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｈａｔ　ｃａｓｅＰｅｏｎｙ，　ｃｏｍｅ　ｗｉｔｈ　"TCC_NEWLINE"ｍｅ　ｉｎ　ｔｈｉｓ　ｄｉｒｅｃｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
-"ＯＫ！　Ｉｔ’ｓ　ａｌｍｏｓｔ　ｌｉｋｅ　ｗｅ’ｒｅ　ｐｌー"TCC_NEWLINE"ａｙｉｎｇａ　ｂｉｇ　ｇａｍｅ　ｏｆ　ｈｉｄｅ－ａｎｄ－ｓー"TCC_NEWLINE"ｅｅｋ．．．Ｈｏｗ　ｆｕｎ！"TCC_NEWLINE TCC_PUSH_A
+"ＯＫ！　Ｉｔ’ｓ　ａｌｍｏｓｔ　ｌｉｋｅ　ｗｅ’ｒｅ　ｐｌー"TCC_NEWLINE"ａｙｉｎｇ　ａ　ｂｉｇ　ｇａｍｅ　ｏｆ　ｈｉｄｅ－ａｎｄ－"TCC_NEWLINE"ｓｅｅｋ．．．　Ｈｏｗ　ｆｕｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｉ　ｋｎｏｗ！　Ｉ’ｍ　ｈａｖｉｎｇ　ｆｕｎ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．Ｓｕｃｈ　ｏｄｄ　ｐｅｏｐｌｅ．　Ｌｉｋｅ　ｃｈｉｌー"TCC_NEWLINE"ｄｒｅｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｌｅｔ’ｓ　ｈｅａｄ　ｄｅｅｐｅｒ　ｉｎｔｏ　ｔｈｅ　ｆｏー"TCC_NEWLINE"ｒｅｓｔ，ｓｈａｌｌ　ｗｅ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎー"TCC_NEWLINE"ｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｈｅａｄ　ｄｅｅｐｅｒ　ｉｎｔｏ　ｔｈｅ　ｆｏー"TCC_NEWLINE"ｒｅｓｔ，　ｓｈａｌｌ　ｗｅ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏー"TCC_NEWLINE"ｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｌｅａｄ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

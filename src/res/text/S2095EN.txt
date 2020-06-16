@@ -5,47 +5,47 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｈｕｈ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｅｎｄｉｎｇ　ｙｏｕ　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ．　Ｋｉー"TCC_NEWLINE"ｎｇ’ｓｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｅ　ｏｆ　ｍｙ　ｍｅｎ　ｗｉｌｌ　ｔａｋｅ　ｙｏｕ．　"TCC_NEWLINE"Ｄｏｎ’ｔｅｖｅｎ　ｔｈｉｎｋ　ａｂｏｕｔ　ｔｒｙｉｎｇ　"TCC_NEWLINE"ｔｏ　ｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｎｄｉｎｇ　ｙｏｕ　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ．　Ｋｉー"TCC_NEWLINE"ｎｇ’ｓ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｏｆ　ｍｙ　ｍｅｎ　ｗｉｌｌ　ｔａｋｅ　ｙｏｕ．　"TCC_NEWLINE"Ｄｏｎ’ｔ　ｅｖｅｎ　ｔｈｉｎｋ　ａｂｏｕｔ　ｔｒｙｉｎｇ"TCC_NEWLINE"　ｔｏ　ｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｎｅ　ｏｆ　ｙｏｕｒ　ｍｅｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｔｈｉｎｋ　Ｉ’ｍ　ｃｏｍｉｎｇ？　Ｉ’ｖｅ　ｇｏー"TCC_NEWLINE"ｔ　ａａ　ｂｉｇｇｅｒ　ｐｒｏｂｌｅｍ　ｔｈａｎ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｋｉｎｇ　ｓａｉｄ　ｗｅ　ｈａｖｅ　ｔｏ　ｋｉｌｌ"TCC_NEWLINE"　ｔｈｏｓｅｄａｍｎ　Ａｓｋｒａｎｓ　ｉｆ　ｔｈｅｙ　ｇｅー"TCC_NEWLINE"ｔ　ｔｏ　ｔｈｅＦｏｒｔｒｅｓｓ　ｏｆ　Ｃｉｎｄｅｒｓ．　"TCC_NEWLINE"Ｔｈａｔ’ｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　Ｉ　ｄｏｎ’ｔ，　ｈｅ’ｌｌ　ｋｉｌｌ　ｍｅ．　Ｉｆ"TCC_NEWLINE"　Ｉ　ｒｕｎ，　ｈｅ’ｌｌ　ｋｉｌｌｍｅ．　Ａｎｄ　ｉｆ　"TCC_NEWLINE"Ｉ　ｌｏｓｅ，　ＴＨＥＹ’ＬＬ　ｋｉｌｌ　ｍｅ．Ｇｕｅｓｓ"TCC_NEWLINE"　ｍｙ　ｔｉｍｅ　ｉｓ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｔｈｉｎｋ　Ｉ’ｍ　ｃｏｍｉｎｇ？　Ｉ’ｖｅ　ｇｏー"TCC_NEWLINE"ｔ　ａ　ａ　ｂｉｇｇｅｒ　ｐｒｏｂｌｅｍ　ｔｈａｎ　ｙｏｕ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｋｉｎｇ　ｓａｉｄ　ｗｅ　ｈａｖｅ　ｔｏ　ｋｉｌｌ"TCC_NEWLINE"　ｔｈｏｓｅ　ｄａｍｎ　Ａｓｋｒａｎｓ　ｉｆ　ｔｈｅｙ　ｇー"TCC_NEWLINE"ｅｔ　ｔｏ　ｔｈｅ　Ｆｏｒｔｒｅｓｓ　ｏｆ　Ｃｉｎｄｅｒｓ"TCC_NEWLINE"．　Ｔｈａｔ’ｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｄｏｎ’ｔ，　ｈｅ’ｌｌ　ｋｉｌｌ　ｍｅ．　Ｉｆ"TCC_NEWLINE"　Ｉ　ｒｕｎ，　ｈｅ’ｌｌ　ｋｉｌｌ　ｍｅ．　Ａｎｄ　ｉｆ"TCC_NEWLINE"　Ｉ　ｌｏｓｅ，　ＴＨＥＹ’ＬＬ　ｋｉｌｌ　ｍｅ．　Ｇｕｅー"TCC_NEWLINE"ｓｓ　ｍｙ　ｔｉｍｅ　ｉｓ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈａｔ．．．？　Ｗｈｏ　ｗｏｕｌｄ　ｏｂｅｙ　ｔｈｅ　ｏー"TCC_NEWLINE"ｒｄｅｒｓｏｆ　ａ　ｋｉｎｇ　ｌｉｋｅ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ．．．？　Ｗｈｏ　ｗｏｕｌｄ　ｏｂｅｙ　ｔｈｅ　ｏー"TCC_NEWLINE"ｒｄｅｒｓ　ｏｆ　ａ　ｋｉｎｇ　ｌｉｋｅ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ　ａ　ｄｕｍｂ　ｑｕｅｓｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｗｈｏｌｅ　ｋｉｎｇｄｏｍ　ｉｓ　ｏｎｅ　ｂｉｇ"TCC_NEWLINE"　ｐｉｌｅ　ｏｆｆｉｌｔｈ．　Ｔｈｉｓ　ｉｓ　ａｌｌ　Ｉ　"TCC_NEWLINE"ｇｏｔ．　Ｄｏ　ｍｙ　ｊｏｂ，　ａｎｄ　Ｉｓｕｒｖｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｇｏｔ　ｆａｍｉｌｙ　ｗｅｉｇｈｉｎｇ　ｍｅ　ｄｏｗｎ"TCC_NEWLINE"．　Ｓｏ　Ｉｇｏｔｔａ　ｋｅｅｐ　ｃｌｉｍｂｉｎｇ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｗｅａｋ　ｄｉｅ．　Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔｏ　"TCC_NEWLINE"ｐｕｓｈｂａｃｋ　ａｇａｉｎｓｔ　ｔｈａｔ，　ｙｏｕ　ｇｏー"TCC_NEWLINE"ｔｔａ　ｐｕｓｈｈａｒｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　Ｉ　ｗａｎｔ　ｔｏ　ｍａｋｅ　ｉｔ，　Ｉ　ｇｏｔｔａ"TCC_NEWLINE"　ｋｉｌｌ　ｗｈｏｔｈｅ　ｂｉｇ　ｍａｎ　ｓａｙｓ　Ｉ　ｇー"TCC_NEWLINE"ｏｔｔａ　ｋｉｌｌ．　Ｔｈａｔｓｉｍｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｗｈｏｌｅ　ｋｉｎｇｄｏｍ　ｉｓ　ｏｎｅ　ｂｉｇ"TCC_NEWLINE"　ｐｉｌｅ　ｏｆ　ｆｉｌｔｈ．　Ｔｈｉｓ　ｉｓ　ａｌｌ　Ｉ"TCC_NEWLINE"　ｇｏｔ．　Ｄｏ　ｍｙ　ｊｏｂ，　ａｎｄ　Ｉ　ｓｕｒｖｉｖー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｇｏｔ　ｆａｍｉｌｙ　ｗｅｉｇｈｉｎｇ　ｍｅ　ｄｏｗｎ"TCC_NEWLINE"．　Ｓｏ　Ｉ　ｇｏｔｔａ　ｋｅｅｐ　ｃｌｉｍｂｉｎｇ　ｕｐ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｅａｋ　ｄｉｅ．　Ｉｆ　ｙｏｕ　ｗａｎｔ　ｔｏ　"TCC_NEWLINE"ｐｕｓｈ　ｂａｃｋ　ａｇａｉｎｓｔ　ｔｈａｔ，　ｙｏｕ　ｇー"TCC_NEWLINE"ｏｔｔａ　ｐｕｓｈ　ｈａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｗａｎｔ　ｔｏ　ｍａｋｅ　ｉｔ，　Ｉ　ｇｏｔｔａ"TCC_NEWLINE"　ｋｉｌｌ　ｗｈｏ　ｔｈｅ　ｂｉｇ　ｍａｎ　ｓａｙｓ　Ｉ　"TCC_NEWLINE"ｇｏｔｔａ　ｋｉｌｌ．　Ｔｈａｔ　ｓｉｍｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｆａｍｉｌｙ？　Ｙｏｕ　ｈａｖｅ　ａ　ｌｉｔｔｌｅ　ｓｉｓー"TCC_NEWLINE"ｔｅｒ，　ｄｏｎ’ｔｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｆａｍｉｌｙ？　Ｙｏｕ　ｈａｖｅ　ａ　ｌｉｔｔｌｅ　ｓｉｓー"TCC_NEWLINE"ｔｅｒ，　ｄｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ　ｄｏ，　ｄｏｎ’ｔ　ｙｏｕ？　Ｔｈａｔ’ｓ　ｗｈｙ"TCC_NEWLINE"　ｙｏｕｄｉｄｎ’ｔ　ｋｉｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｋｎｅｗ　ｙｏｕ　ｗｅｒｅ　ａ　ｇｏｏｄ　ｇｕｙ．．．"TCC_NEWLINE"ｅｖｅｎ　ｉｆｙｏｕ　ｌｏｏｋ　ｌｉｋｅ　ａ　ｂａｄ　ｇｕー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｏ，　ｄｏｎ’ｔ　ｙｏｕ？　Ｔｈａｔ’ｓ　ｗｈｙ"TCC_NEWLINE"　ｙｏｕ　ｄｉｄｎ’ｔ　ｋｉｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｅｗ　ｙｏｕ　ｗｅｒｅ　ａ　ｇｏｏｄ　ｇｕｙ．．．"TCC_NEWLINE"ｅｖｅｎ　ｉｆ　ｙｏｕ　ｌｏｏｋ　ｌｉｋｅ　ａ　ｂａｄ　ｇー"TCC_NEWLINE"ｕｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏｔ　ｓｏ　ｆａｓｔ，　ｂｒａｔ．　Ｉ　ｊｕｓｔ　ｍｉｇー"TCC_NEWLINE"ｈｔ　ｋｉｌｌ　ｙｏｕｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ｓｏ　ｆａｓｔ，　ｂｒａｔ．　Ｉ　ｊｕｓｔ　ｍｉｇー"TCC_NEWLINE"ｈｔ　ｋｉｌｌ　ｙｏｕ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HELBINDI
-"Ｈａｈａｈａ！　Ｓｏ　ｙｏｕ　ｆｉｎａｌｌｙ　ｍａｄｅ　ｉー"TCC_NEWLINE"ｔ，　ｙｏｕｐｉｅｃｅｓ　ｏｆ　ｆｉｌｔｈ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ａｉｎ’ｔ　ａｌｌ　ｏｆ　ｙｏｕ，　ｉｓ　ｉｔ？"TCC_NEWLINE"　ＯＫ，　ｔｈｉｓｗｏｎ’ｔ　ｔａｋｅ　ｌｏｎｇ．　Ｌｉｎー"TCC_NEWLINE"ｅ　ｕｐ　ａｎｄ　Ｉ’ｌｌ　ｄｒｏｐｍｙ　ａｘｅ　ｏｎ　ｙー"TCC_NEWLINE"ｏｕｒ　ｎｅｃｋｓ，　ｏｎｅ　ｂｙ　ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｈａｈａ！　Ｓｏ　ｙｏｕ　ｆｉｎａｌｌｙ　ｍａｄｅ　ｉー"TCC_NEWLINE"ｔ，　ｙｏｕ　ｐｉｅｃｅｓ　ｏｆ　ｆｉｌｔｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ａｉｎ’ｔ　ａｌｌ　ｏｆ　ｙｏｕ，　ｉｓ　ｉｔ？"TCC_NEWLINE"　ＯＫ，　ｔｈｉｓ　ｗｏｎ’ｔ　ｔａｋｅ　ｌｏｎｇ．　Ｌｉー"TCC_NEWLINE"ｎｅ　ｕｐ　ａｎｄ　Ｉ’ｌｌ　ｄｒｏｐ　ｍｙ　ａｘｅ　ｏｎ"TCC_NEWLINE"　ｙｏｕｒ　ｎｅｃｋｓ，　ｏｎｅ　ｂｙ　ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｙｏｕ　ａｒｅｎ’ｔ　ｓｏ　ｌｕｃｋｙ，　Ｉ’ｍ　ａｆｒａー"TCC_NEWLINE"ｉｄ．　Ｈｅｒｏｅｓｆｉｇｈｔ　ａｔ　ｏｕｒ　ｓｉｄｅ，　"TCC_NEWLINE"ｅａｃｈ　ｗｏｒｔｈ　ａ　ｓｑｕａｄｏｆ　ｙｏｕｒ　ｍｅｎ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
-"Ｇａｔｈｅｒ　ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｍｓｐｅｌｌ　ｔー"TCC_NEWLINE"ｏ　ｙｏｕｒｓｉｄｅ　ｉｆ　ｙｏｕ　ｌｉｋｅ！　Ｎｏ　ｍａー"TCC_NEWLINE"ｔｔｅｒ　ｗｈａｔ，　ｗｅｗｉｌｌ　ｃｌａｉｍ　ｖｉｃｔｏー"TCC_NEWLINE"ｒｙ　ｔｏｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅｎ’ｔ　ｓｏ　ｌｕｃｋｙ，　Ｉ’ｍ　ａｆｒａー"TCC_NEWLINE"ｉｄ．　Ｈｅｒｏｅｓ　ｆｉｇｈｔ　ａｔ　ｏｕｒ　ｓｉｄｅ，"TCC_NEWLINE"　ｅａｃｈ　ｗｏｒｔｈ　ａ　ｓｑｕａｄ　ｏｆ　ｙｏｕｒ　ｍー"TCC_NEWLINE"ｅｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｇａｔｈｅｒ　ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｍｓｐｅｌｌ　ｔー"TCC_NEWLINE"ｏ　ｙｏｕｒ　ｓｉｄｅ　ｉｆ　ｙｏｕ　ｌｉｋｅ！　Ｎｏ　ｍー"TCC_NEWLINE"ａｔｔｅｒ　ｗｈａｔ，　ｗｅ　ｗｉｌｌ　ｃｌａｉｍ　ｖｉｃー"TCC_NEWLINE"ｔｏｒｙ　ｔｏｄａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　ｈｅｌｌ　ｙｏｕ　ｗｉｌｌ！　Ｂｒｉｎｇ　ｉｔ　ｏー"TCC_NEWLINE"ｎ．　Ｉ’ｌｌ　ｃｈｏｐｕｐ　ａｎｙｂｏｄｙ　ｙｏｕ　ｔｈー"TCC_NEWLINE"ｒｏｗ　ａｔ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｈｅｌｌ　ｙｏｕ　ｗｉｌｌ！　Ｂｒｉｎｇ　ｉｔ　ｏー"TCC_NEWLINE"ｎ．　Ｉ’ｌｌ　ｃｈｏｐ　ｕｐ　ａｎｙｂｏｄｙ　ｙｏｕ　ｔー"TCC_NEWLINE"ｈｒｏｗ　ａｔ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HELBINDI
 "Ｉ　ｃａｎ’ｔ　ｄｉｅ　ｙｅｔ．．．　Ｎｏｔ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｍｅｎｊａ．．．ｎｅｅｄｓ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｏｎｅ　ｓｑｕａｄ　ｄｏｗｎ．　Ｋｅｅｐ　ｉｔ　ｕｐａｌｌ"TCC_NEWLINE"　ｔｈｅｗａｙ　ｔｏ　Ｓｕｒｔｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｓｑｕａｄ　ｄｏｗｎ．　Ｋｅｅｐ　ｉｔ　ｕｐａｌｌ"TCC_NEWLINE"　ｔｈｅ　ｗａｙ　ｔｏ　Ｓｕｒｔｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｆｊｏｒｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -55,41 +55,41 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｙｌｇｒ？"TCC_NEWLINE TCC_PUSH_A
 "Ｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ，　ｉｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ．　Ｏｈ，　Ｉ’"TCC_NEWLINE"ｍ　ｓｏ　ｇｌａｄｙｏｕ’ｒｅ　ｓａｆｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｉｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ．　Ｏｈ，　Ｉ’"TCC_NEWLINE"ｍ　ｓｏ　ｇｌａｄ　ｙｏｕ’ｒｅ　ｓａｆｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｙ　ｔｒｉｅｄ　ｔｏ　ｔａｋｅ　ｍｅ　ｔｏ　Ｓｕｒｔー"TCC_NEWLINE"ｒ’ｓ　ｃａｓｔｌｅ，ｂｕｔ　Ｉ　ｍａｎａｇｅｄ　ｔｏ　ｇー"TCC_NEWLINE"ｅｔ　ａｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｔｒｉｅｄ　ｔｏ　ｔａｋｅ　ｍｅ　ｔｏ　Ｓｕｒｔー"TCC_NEWLINE"ｒ’ｓ　ｃａｓｔｌｅ，　ｂｕｔ　Ｉ　ｍａｎａｇｅｄ　ｔｏ　"TCC_NEWLINE"ｇｅｔ　ａｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｃａｎ’ｔ　ｂｅｌｉｅｖｅ　Ｉ　ｆｏｕｎｄ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｉｓ　ｉｓ　ｍｙ　ｓｉｓｔｅｒ，　Ｙｌｇｒ．　Ｓｈｅ’"TCC_NEWLINE"ｓ　ｔｈｅｙｏｕｎｇｅｓｔ　ｏｆ　ｔｈｅ　ｆｏｕｒ　ｏｆ　"TCC_NEWLINE"ｕｓ．　Ｇｕｎｎｔｈｒ，ｏｕｒ　ｂｒｏｔｈｅｒ　Ｈｒｄ，　"TCC_NEWLINE"ｍｅ，　ａｎｄ　ｔｈｅｎ　Ｙｌｇｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　Ｓｕｒｔｒ’ｓ　ｆｏｒｃｅｓ　ｉｎｖａｄｅｄ　Ｎー"TCC_NEWLINE"ｉｆｌ，　ｗｅｗｅｒｅ　ｓｃａｔｔｅｒｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈａｄ　ｎｏ　ｉｄｅａ　ｉｆ　ａｎｙ　ｏｆ　ｔｈｅｍ　"TCC_NEWLINE"ｗｅｒｅａｌｉｖｅ　ｏｒ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｍｙ　ｓｉｓｔｅｒ，　Ｙｌｇｒ．　Ｓｈｅ’"TCC_NEWLINE"ｓ　ｔｈｅ　ｙｏｕｎｇｅｓｔ　ｏｆ　ｔｈｅ　ｆｏｕｒ　ｏｆ"TCC_NEWLINE"　ｕｓ．　Ｇｕｎｎｔｈｒ，　ｏｕｒ　ｂｒｏｔｈｅｒ　Ｈｒｄ"TCC_NEWLINE"，　ｍｅ，　ａｎｄ　ｔｈｅｎ　Ｙｌｇｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　Ｓｕｒｔｒ’ｓ　ｆｏｒｃｅｓ　ｉｎｖａｄｅｄ　Ｎー"TCC_NEWLINE"ｉｆｌ，　ｗｅ　ｗｅｒｅ　ｓｃａｔｔｅｒｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｄ　ｎｏ　ｉｄｅａ　ｉｆ　ａｎｙ　ｏｆ　ｔｈｅｍ　"TCC_NEWLINE"ｗｅｒｅ　ａｌｉｖｅ　ｏｒ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　ｙｏｕ’ｒｅ　ｈｅｒｅ，　Ｙｌｇｒ．．．　Ｓａｆｅ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈｏ，　ｕｍ．．．　Ｗｈｏ　ａｒｅ　ａｌｌ　ｔｈｅｓｅ　"TCC_NEWLINE"ｐｅｏｐｌｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｅｙ　ｃｏｍｅ　ｆｒｏｍ　Ａｓｋｒ．　Ｔｈｉｓ　ｉｓ　"TCC_NEWLINE"ＰｒｉｎｃｅＡｌｆｏｎｓｅ，　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅー"TCC_NEWLINE"ｎａ，　ａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｃｏｍｅ　ｆｒｏｍ　Ａｓｋｒ．　Ｔｈｉｓ　ｉｓ　"TCC_NEWLINE"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒー"TCC_NEWLINE"ｅｎａ，　ａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈａｔ　ｃｏｕｇｈ　ｓｏｕｎｄｓ　ｂａｄ！　Ｄｉｄ　ｙｏー"TCC_NEWLINE"ｕｃａｔｃｈ　ａ　ｃｏｌｄ？　Ｉ　ｃａｎ　ｈｅｌｐ　ｗｉｔー"TCC_NEWLINE"ｈ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｃｏｕｇｈ　ｓｏｕｎｄｓ　ｂａｄ！　Ｄｉｄ　ｙｏー"TCC_NEWLINE"ｕ　ｃａｔｃｈ　ａ　ｃｏｌｄ？　Ｉ　ｃａｎ　ｈｅｌｐ　ｗｉー"TCC_NEWLINE"ｔｈ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈａｎｋ　ｙｏｕ，　Ｙｌｇｒ．　Ｙｏｕ　ｍｕｓｔ　ｈａｖー"TCC_NEWLINE"ｅ　ｂｅｅｎｔｈｒｏｕｇｈ　ｓｏ　ｍｕｃｈ，　ｂｕｔ　ｅｖー"TCC_NEWLINE"ｅｎ　ｓｏ．．．ｙｏｕ’ｒｅｓｔｉｌｌ　ｓｏ　ｓｗｅｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ，　Ｙｌｇｒ．　Ｙｏｕ　ｍｕｓｔ　ｈａｖー"TCC_NEWLINE"ｅ　ｂｅｅｎ　ｔｈｒｏｕｇｈ　ｓｏ　ｍｕｃｈ，　ｂｕｔ　ｅー"TCC_NEWLINE"ｖｅｎ　ｓｏ．．．ｙｏｕ’ｒｅ　ｓｔｉｌｌ　ｓｏ　ｓｗｅｅー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｔｈｅｙ’ｒｅ　ｓｏ　ｃｕｔｅ　ｔｏｇｅｔｈｅｒ！　Ｈｅｙ"TCC_NEWLINE"，Ａｌｆｏｎｓｅ，　ａｒｅｎ’ｔ　ｔｈｅｙ　ｊｕｓｔ　ｌｉー"TCC_NEWLINE"ｋｅ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｓｏ　ｃｕｔｅ　ｔｏｇｅｔｈｅｒ！　Ｈｅｙ"TCC_NEWLINE"，　Ａｌｆｏｎｓｅ，　ａｒｅｎ’ｔ　ｔｈｅｙ　ｊｕｓｔ　ｌー"TCC_NEWLINE"ｉｋｅ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｐｒｉｎｃｅｓｓ　Ｙｌｇｒ，　ｓｐｅａｋｉｎｇ　ａｓ　ｔｈー"TCC_NEWLINE"ｅｃｏｍｍａｎｄｅｒ　ｈｅｒｅ．．．　Ｉｔ　ｄｏｅｓｎ’ｔ"TCC_NEWLINE"　ｓｅｅｍｙｏｕ’ｒｅ　ｒｅａｄｙ　ｆｏｒ　ｂａｔｔｌｅ．"TCC_NEWLINE"　Ｐｅｒｈａｐｓ"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｙｌｇｒ，　ｓｐｅａｋｉｎｇ　ａｓ　ｔｈー"TCC_NEWLINE"ｅ　ｃｏｍｍａｎｄｅｒ　ｈｅｒｅ．．．　Ｉｔ　ｄｏｅｓｎ’"TCC_NEWLINE"ｔ　ｓｅｅｍ　ｙｏｕ’ｒｅ　ｒｅａｄｙ　ｆｏｒ　ｂａｔｔｌー"TCC_NEWLINE"ｅ．　Ｐｅｒｈａｐｓ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ　ｗａｙ！　Ｎｏｗ　ｔｈａｔ　Ｉ’ｖｅ　ｆｏｕｎｄ　ｙー"TCC_NEWLINE"ｏｕ，ｔｈｅｒｅ’ｓ　ｎｏ　ｗａｙ　ｙｏｕ’ｒｅ　ｇｅｔｔー"TCC_NEWLINE"ｉｎｇ　ｒｉｄｏｆ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｗａｙ！　Ｎｏｗ　ｔｈａｔ　Ｉ’ｖｅ　ｆｏｕｎｄ　ｙー"TCC_NEWLINE"ｏｕ，　ｔｈｅｒｅ’ｓ　ｎｏ　ｗａｙ　ｙｏｕ’ｒｅ　ｇｅｔー"TCC_NEWLINE"ｔｉｎｇ　ｒｉｄ　ｏｆ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｐｌｅａｓｅ，　Ｆｊｏｒｍ！　Ｓａｙ　Ｉ　ｃａｎ　ｃｏｍｅ"TCC_NEWLINE"　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ．．．　Ｗｈａｔ　ｄｏ　ｙｏｕ　ａー"TCC_NEWLINE"ｌｌ　ｔｈｉｎｋ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅ　ｒｏａｄ　ａｈｅａｄ　ｈａｓ　ｍａｎｙ　ｄａｎｇｅー"TCC_NEWLINE"ｒｓ．　Ｉｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｓｅｅ　ｙｏｕｒ　ｓー"TCC_NEWLINE"ｉｓｔｅｒ　ｈｕｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｏａｄ　ａｈｅａｄ　ｈａｓ　ｍａｎｙ　ｄａｎｇｅー"TCC_NEWLINE"ｒｓ．　Ｉ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｓｅｅ　ｙｏｕｒ　"TCC_NEWLINE"ｓｉｓｔｅｒ　ｈｕｒｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ’ｌｌ　ｂｅ　ｃａｒｅｆｕｌ，　Ｉ　ｐｒｏｍｉｓｅ！　Ｐー"TCC_NEWLINE"ｌｅａｓｅ，Ａｌｆｏｎｓｅ！　Ｉ’ｌｌ　ｂｅ　ｆｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｂｅ　ｃａｒｅｆｕｌ，　Ｉ　ｐｒｏｍｉｓｅ！　Ｐー"TCC_NEWLINE"ｌｅａｓｅ，　Ａｌｆｏｎｓｅ！　Ｉ’ｌｌ　ｂｅ　ｆｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｒｉｇｈｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｃｏｍｅ　ｏｎ，　ｙｏｕ　ｔｗｏ！　Ｌｅｔ’ｓ　ｂｒｉｎｇ"TCC_NEWLINE"　ｈｅｒａｌｏｎｇ！　Ｔｈｅ　ｓｉｓｔｅｒｓ　ｗｅｒｅ　ｊー"TCC_NEWLINE"ｕｓｔ　ｒｅｕｎｉｔｅｄ，ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｅ　ｏｎ，　ｙｏｕ　ｔｗｏ！　Ｌｅｔ’ｓ　ｂｒｉｎｇ"TCC_NEWLINE"　ｈｅｒ　ａｌｏｎｇ！　Ｔｈｅ　ｓｉｓｔｅｒｓ　ｗｅｒｅ　"TCC_NEWLINE"ｊｕｓｔ　ｒｅｕｎｉｔｅｄ，　ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｌ，　ｉｆ　ｙｏｕ　ｉｎｓｉｓｔ．　Ｂｕｔ　ｗｅ　ｍー"TCC_NEWLINE"ｕｓｔ　ｄｏｅｖｅｒｙｔｈｉｎｇ　ｗｅ　ｃａｎ　ｔｏ　ｋｅー"TCC_NEWLINE"ｅｐ　ｈｅｒ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｉｆ　ｙｏｕ　ｉｎｓｉｓｔ．　Ｂｕｔ　ｗｅ　ｍー"TCC_NEWLINE"ｕｓｔ　ｄｏ　ｅｖｅｒｙｔｈｉｎｇ　ｗｅ　ｃａｎ　ｔｏ　ｋー"TCC_NEWLINE"ｅｅｐ　ｈｅｒ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

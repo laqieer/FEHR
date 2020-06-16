@@ -1,7 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2032_EN] = TCC_OPEN_LEFT
-"Ｏｕｒ　ｃｏｎｔｒａｃｔ　ｗｉｔｈ　ｔｈｅ　ｐｒｉｎｃｅｓー"TCC_NEWLINE"ｓ　ｌｅａｖｅｓｕｓ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｆー"TCC_NEWLINE"ｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｃｏｎｔｒａｃｔ　ｗｉｔｈ　ｔｈｅ　ｐｒｉｎｃｅｓー"TCC_NEWLINE"ｓ　ｌｅａｖｅｓ　ｕｓ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ　"TCC_NEWLINE"ｆｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｍｉｃａｉａｈ．．．　Ｉ’ｍ　ｎｏｔ　ｌｅａｖｉｎｇ　ｙｏー"TCC_NEWLINE"ｕｒ　ｓｉｄｅ．　Ｉｗｉｌｌ　ｐｒｏｔｅｃｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｉｃａｉａｈ．．．　Ｉ’ｍ　ｎｏｔ　ｌｅａｖｉｎｇ　ｙｏー"TCC_NEWLINE"ｕｒ　ｓｉｄｅ．　Ｉ　ｗｉｌｌ　ｐｒｏｔｅｃｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

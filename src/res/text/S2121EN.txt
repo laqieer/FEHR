@@ -1,71 +1,71 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｄｏ　ｙｏｕ　ａｇｒｅｅ　ｗｉｔｈ　Ｐｒｉｎｃｅ　Ｈｒｄ？"TCC_NEWLINE"　Ｄｏｙｏｕ　ｔｈｉｎｋ　ｔｈｅｒｅ’ｓ　ａ　ｔｒａｉｔｏー"TCC_NEWLINE"ｒ　ｈｅｒｅ，"TCC_NEWLINE
+"Ｄｏ　ｙｏｕ　ａｇｒｅｅ　ｗｉｔｈ　Ｐｒｉｎｃｅ　Ｈｒｄ？"TCC_NEWLINE"　Ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｔｈｅｒｅ’ｓ　ａ　ｔｒａｉｔー"TCC_NEWLINE"ｏｒ　ｈｅｒｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ’ｓ　ａ　ｃｈｉｌｌｉｎｇ　ｔｈｏｕｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｉ　ａｂｓｏｌｕｔｅｌｙ　ｃａｎｎｏｔ　ｂｅｌｉｅｖｅ　ｉー"TCC_NEWLINE"ｔ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ’ｒｅ　ａｌｌ　ａｌｌｉｅｓ　ｈｅｒｅ．　Ａｌｌ　ｏｆ"TCC_NEWLINE"　ｕｓ，　ｅｖｅｎＦｊｏｒｍ　ａｎｄ　ｔｈｅ　ｏｔｈｅｒｓ"TCC_NEWLINE"．　Ｎｏｔ　ｊｕｓｔ　ａｌｌｉｅｓｂｕｔ　ｆｒｉｅｎｄｓ！"TCC_NEWLINE"　Ｉ　ｔｒｕｓｔ　ｍｙ　ｆｒｉｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ａｌｌ　ａｌｌｉｅｓ　ｈｅｒｅ．　Ａｌｌ　ｏｆ"TCC_NEWLINE"　ｕｓ，　ｅｖｅｎ　Ｆｊｏｒｍ　ａｎｄ　ｔｈｅ　ｏｔｈｅｒー"TCC_NEWLINE"ｓ．　Ｎｏｔ　ｊｕｓｔ　ａｌｌｉｅｓ　ｂｕｔ　ｆｒｉｅｎｄー"TCC_NEWLINE"ｓ！　Ｉ　ｔｒｕｓｔ　ｍｙ　ｆｒｉｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｕｎｌｉｋｅｌｙ　ａｓ　ｉｔ　ｍａｙ　ｂｅ，　ｗｅ　ｈａｖー"TCC_NEWLINE"ｅ　ｔｏｃｏｎｓｉｄｅｒ　ｔｈｅ　ｐｏｓｓｉｂｉｌｉｔｙ．"TCC_NEWLINE"　Ｂｅｃａｕｓｅ　ｉｆｔｈｅｒｅ　ｉｓ　ａ　ｔｒａｉｔｏｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅ　Ｈｒｄ　ｉｓ　ｒｉｇｈｔ．　Ｗｅ　ｗｉｌｌ　"TCC_NEWLINE"ｍｅｅｔ　ｏｕｒｅｎｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｌｉｋｅｌｙ　ａｓ　ｉｔ　ｍａｙ　ｂｅ，　ｗｅ　ｈａｖー"TCC_NEWLINE"ｅ　ｔｏ　ｃｏｎｓｉｄｅｒ　ｔｈｅ　ｐｏｓｓｉｂｉｌｉｔｙ"TCC_NEWLINE"．　Ｂｅｃａｕｓｅ　ｉｆ　ｔｈｅｒｅ　ｉｓ　ａ　ｔｒａｉｔー"TCC_NEWLINE"ｏｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ｈｒｄ　ｉｓ　ｒｉｇｈｔ．　Ｗｅ　ｗｉｌｌ　"TCC_NEWLINE"ｍｅｅｔ　ｏｕｒ　ｅｎｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｏ　ｃｏｕｌｄ　ｉｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｎｅｉｔｈｅｒ　ｏｆ　ｔｈｅ　ｔｈｒｅｅ　ｏｆ　ｕｓ．．．"TCC_NEWLINE"ａｎｄｃｅｒｔａｉｎｌｙ　ｎｏｔ"TCC_NEWLINE
-TCC_TACTICIAN_NAME"，ｅｉｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｒｕｎｓ　ａ　ｔｉー"TCC_NEWLINE"ｇｈｔｓｈｉｐ．　Ｉ　ｃａｎ　ｓａｙ　ｗｉｔｈ　ｃｏｎｆｉー"TCC_NEWLINE"ｄｅｎｃｅ　ｔｈａｔｗｅ　ｈａｖｅｎ’ｔ　ｂｅｅｎ　ｉｎｆー"TCC_NEWLINE"ｉｌｔｒａｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｅｉｔｈｅｒ　ｏｆ　ｔｈｅ　ｔｈｒｅｅ　ｏｆ　ｕｓ．．．"TCC_NEWLINE"ａｎｄ　ｃｅｒｔａｉｎｌｙ　ｎｏｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"，　ｅｉｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｒｕｎｓ　ａ　ｔｉー"TCC_NEWLINE"ｇｈｔ　ｓｈｉｐ．　Ｉ　ｃａｎ　ｓａｙ　ｗｉｔｈ　ｃｏｎｆー"TCC_NEWLINE"ｉｄｅｎｃｅ　ｔｈａｔ　ｗｅ　ｈａｖｅｎ’ｔ　ｂｅｅｎ　ｉー"TCC_NEWLINE"ｎｆｉｌｔｒａｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ　ｈａｖｅ　ｎｏ　ｄｏｕｂｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｍｏｎｇ　ｏｕｒ　ａｌｌｉｅｓ　ｆｒｏｍ　Ｎｉｆｌ．．．"TCC_NEWLINE"　Ｉ　ｃａｎ’ｔｉｍａｇｉｎｅ　ｔｈａｔ　Ｆｊｏｒｍ　ｉｓ"TCC_NEWLINE"　ｔｈｅ　ｔｒａｉｔｏｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｌｅａｖｅｓ　ｕｓ　ｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　"TCC_NEWLINE"Ｙｌｇｒ　ａｎｄＰｒｉｎｃｅ　Ｈｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｍｏｎｇ　ｏｕｒ　ａｌｌｉｅｓ　ｆｒｏｍ　Ｎｉｆｌ．．．"TCC_NEWLINE"　Ｉ　ｃａｎ’ｔ　ｉｍａｇｉｎｅ　ｔｈａｔ　Ｆｊｏｒｍ　ｉー"TCC_NEWLINE"ｓ　ｔｈｅ　ｔｒａｉｔｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｌｅａｖｅｓ　ｕｓ　ｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　"TCC_NEWLINE"Ｙｌｇｒ　ａｎｄ　Ｐｒｉｎｃｅ　Ｈｒｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｙｏｕ　ｎｅｅｄｎ’ｔ　ｗｏｒｒｙ．　Ｎｅｉｔｈｅｒ　ｏｆ"TCC_NEWLINE"　ｔｈｅｍｗｏｕｌｄ　ｂｅｔｒａｙ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｎｅｅｄｎ’ｔ　ｗｏｒｒｙ．　Ｎｅｉｔｈｅｒ　ｏｆ"TCC_NEWLINE"　ｔｈｅｍ　ｗｏｕｌｄ　ｂｅｔｒａｙ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！　Ｍｙ　ａｐｏｌｏｇｉｅｓ．"TCC_NEWLINE"　Ｉｔ’ｓｎｏｔ　ｔｈａｔ　ｗｅ　ｄｉｓｔｒｕｓｔ　Ｎｉｆー"TCC_NEWLINE"ｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！　Ｍｙ　ａｐｏｌｏｇｉｅｓ．"TCC_NEWLINE"　Ｉｔ’ｓ　ｎｏｔ　ｔｈａｔ　ｗｅ　ｄｉｓｔｒｕｓｔ　Ｎｉー"TCC_NEWLINE"ｆｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ　ｔｏ　ａｐｏｌｏｇｉｚｅ"TCC_NEWLINE"．　Ｉ　ａｇｒｅｅｗｉｔｈ　ｍｙ　ｂｒｏｔｈｅｒｅｖｅｎ　"TCC_NEWLINE"ｉｆ　ｉｔ　ｉｓ　ｕｎｌｉｋｅｌｙ，ｗｅ　ｍｕｓｔ　ｃｏｎー"TCC_NEWLINE"ｓｉｄｅｒ　ｔｈｅ　ｐｏｓｓｉｂｉｌｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗｅｖｅｒ，　ｗｈａｔ　Ｉ　ｃａｍｅ　ｔｏ　ｔｅｌｌ　"TCC_NEWLINE"ｙｏｕ　ｉｓｔｈａｔ　ｍｙ　ｓｉｂｌｉｎｇｓ　ａｎｄ　Ｉ　"TCC_NEWLINE"ｃａｎ　ｂｅ　ｔｒｕｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ　ｔｏ　ａｐｏｌｏｇｉｚｅ"TCC_NEWLINE"．　Ｉ　ａｇｒｅｅ　ｗｉｔｈ　ｍｙ　ｂｒｏｔｈｅｒｅｖｅｎ"TCC_NEWLINE"　ｉｆ　ｉｔ　ｉｓ　ｕｎｌｉｋｅｌｙ，　ｗｅ　ｍｕｓｔ　ｃー"TCC_NEWLINE"ｏｎｓｉｄｅｒ　ｔｈｅ　ｐｏｓｓｉｂｉｌｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ，　ｗｈａｔ　Ｉ　ｃａｍｅ　ｔｏ　ｔｅｌｌ　"TCC_NEWLINE"ｙｏｕ　ｉｓ　ｔｈａｔ　ｍｙ　ｓｉｂｌｉｎｇｓ　ａｎｄ　Ｉ"TCC_NEWLINE"　ｃａｎ　ｂｅ　ｔｒｕｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｓｗｏｒｅ　ａｎ　ｏａｔｈ　ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｎ　ｏａｔｈ？　Ｗｈａｔ　ｓｏｒｔ　ｏｆ　ｏａｔｈ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｗｅ　ｓｗｏｒｅ　ｔｏ　Ｎｉｆｌ，　ｔｈｅ　ｄｒａｇｏｎ　"TCC_NEWLINE"ｏｆ　ｉｃｅ．．．Ｉｔ　ｗａｓ　ａ　ｓａｃｒｅｄ　ｏａｔｈ"TCC_NEWLINE"　ｍａｄｅ　ｂｙ　ａｌｌ　ｆｏｕｒｏｆ　ｕｓ　ａｓ　Ｍｓｐー"TCC_NEWLINE"ｅｌｌ　ｉｎｖａｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ｄｏｉｎｇ　ｓｏ，　ｗｅ　ｄｅｄｉｃａｔｅｄ　ｏｕｒー"TCC_NEWLINE"ｓｅｌｖｅｓｔｏ　ｔｈｅ　ｆｉｇｈｔ　ａｇａｉｎｓｔ　Ｍｓー"TCC_NEWLINE"ｐｅｌｌ．　＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｓｗｏｒｅ　ｔｏ　Ｎｉｆｌ，　ｔｈｅ　ｄｒａｇｏｎ　"TCC_NEWLINE"ｏｆ　ｉｃｅ．．．　Ｉｔ　ｗａｓ　ａ　ｓａｃｒｅｄ　ｏａｔー"TCC_NEWLINE"ｈ　ｍａｄｅ　ｂｙ　ａｌｌ　ｆｏｕｒ　ｏｆ　ｕｓ　ａｓ　Ｍー"TCC_NEWLINE"ｓｐｅｌｌ　ｉｎｖａｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｄｏｉｎｇ　ｓｏ，　ｗｅ　ｄｅｄｉｃａｔｅｄ　ｏｕｒー"TCC_NEWLINE"ｓｅｌｖｅｓ　ｔｏ　ｔｈｅ　ｆｉｇｈｔ　ａｇａｉｎｓｔ　Ｍー"TCC_NEWLINE"ｓｐｅｌｌ．　＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！　Ｐｌｅａｓｅ，　ｄｏｎ’ｔ"TCC_NEWLINE"　ｏｖｅｒｔａｘｙｏｕｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！　Ｐｌｅａｓｅ，　ｄｏｎ’ｔ"TCC_NEWLINE"　ｏｖｅｒｔａｘ　ｙｏｕｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｙｏｕ　ｍａｙ　ｔｈｉｎｋ　ｔｈａｔ　ｏａｔｈ　ｗａｓ　ｊー"TCC_NEWLINE"ｕｓｔｐｒｅｔｔｙ　ｗｏｒｄｓ．．．　Ｉｔ　ｗａｓ　ｎｏｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　Ｎｉｆｌ，　ｂｒｅａー"TCC_NEWLINE"ｋｉｎｇ　ｔｈａｔｏａｔｈ　ｉｓ　ｕｎｔｈｉｎｋａｂｌｅｔー"TCC_NEWLINE"ｈｅ　ｗｏｒｓｔ　ｓｏｒｔ　ｏｆｄｉｓｇｒａｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｅｌｉｅｖｅ　ｍｅ　ｗｈｅｎ　Ｉ　ｓａｙ　ｔｈａｔ　ｗｅ"TCC_NEWLINE"，　ｔｈｅｃｈｉｌｄｒｅｎ　ｏｆ　Ｎｉｆｌ，　ａｒｅ　ｔｒー"TCC_NEWLINE"ｕｌｙ　ｙｏｕｒ　ａｌｌｉｅｓ．＊ＣＯＵＧＨ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍａｙ　ｔｈｉｎｋ　ｔｈａｔ　ｏａｔｈ　ｗａｓ　ｊー"TCC_NEWLINE"ｕｓｔ　ｐｒｅｔｔｙ　ｗｏｒｄｓ．．．　Ｉｔ　ｗａｓ　ｎｏー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｈｅ　ｒｏｙａｌｔｙ　ｏｆ　Ｎｉｆｌ，　ｂｒｅａー"TCC_NEWLINE"ｋｉｎｇ　ｔｈａｔ　ｏａｔｈ　ｉｓ　ｕｎｔｈｉｎｋａｂｌｅー"TCC_NEWLINE"ｔｈｅ　ｗｏｒｓｔ　ｓｏｒｔ　ｏｆ　ｄｉｓｇｒａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｌｉｅｖｅ　ｍｅ　ｗｈｅｎ　Ｉ　ｓａｙ　ｔｈａｔ　ｗｅ"TCC_NEWLINE"，　ｔｈｅ　ｃｈｉｌｄｒｅｎ　ｏｆ　Ｎｉｆｌ，　ａｒｅ　ｔー"TCC_NEWLINE"ｒｕｌｙ　ｙｏｕｒ　ａｌｌｉｅｓ．　＊ＣＯＵＧＨ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｂｅｌｉｅｖｅ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ"TCC_NEWLINE"．　Ｗｅ　ａｌｌｄｏ！　Ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｌｉｅｖｅ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ"TCC_NEWLINE"．　Ｗｅ　ａｌｌ　ｄｏ！　Ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "．．．Ｉ　ｈａｖｅ　ｎｏ　ｄｏｕｂｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ａｎｄ　Ｉ　ｃａｎｎｏｔ　ｃｏｎｃｅｉｖｅ　ｏｆ　ａ　ｔｒー"TCC_NEWLINE"ａｉｔｏｒｃｏｍｉｎｇ　ｆｒｏｍ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ　ｃａｎｎｏｔ　ｃｏｎｃｅｉｖｅ　ｏｆ　ａ　ｔｒー"TCC_NEWLINE"ａｉｔｏｒ　ｃｏｍｉｎｇ　ｆｒｏｍ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｎｄｅｅｄ．　Ｔｈａｔ　ｉｓ　ｗｈａｔ　Ｉ　ｃａｎｎｏｔー"TCC_NEWLINE"ｕｎｄｅｒｓｔａｎｄ．．．　Ｈｏｗ　ｉｓ　ｉｔ　ｅｖｅｎ　"TCC_NEWLINE"ｐｏｓｓｉｂｌｅｔｈａｔ　ｗｅ　ｗｅｒｅ　ｂｅｔｒａｙｅｄ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｄｅｅｄ．　Ｔｈａｔ　ｉｓ　ｗｈａｔ　Ｉ　ｃａｎｎｏｔ"TCC_NEWLINE"　ｕｎｄｅｒｓｔａｎｄ．．．　Ｈｏｗ　ｉｓ　ｉｔ　ｅｖｅｎ"TCC_NEWLINE"　ｐｏｓｓｉｂｌｅ　ｔｈａｔ　ｗｅ　ｗｅｒｅ　ｂｅｔｒａｙー"TCC_NEWLINE"ｅｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HRID
-"Ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅｓ　ｒｅｑｕｉｒｅｓ　ａ"TCC_NEWLINE"　ｃｅｒｔａｉｎｋｉｎｄ　ｏｆ．．．ｋｉｎｄｌｉｎｇ．．．"TCC_NEWLINE"ｔｏ　ｆｕｅｌ　Ｓｕｒｔｒ’ｓｐｏｗｅｒｓ　ｏｆ　ｒｅｓｕー"TCC_NEWLINE"ｒｒｅｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｕｒｔｒ　ｐｌａｎｓ　ｔｏ　ｆｅｅｄ　ｔｗｏ　ｇｉｒｌｓ"TCC_NEWLINE"　ｔｏ　ｔｈｅｆｌａｍｅｓ　ｔｈａｔ　ｓｕｓｔａｉｎ　ｈｉー"TCC_NEWLINE"ｓ　ｐｏｗｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　Ｚａｃｈａｒｉａｓ　ｔｏｌｄ　ｍｅ　ｔｈａｔ　ｏｎー"TCC_NEWLINE"ｅ　ｏｆｔｈｅ　ｇｉｒｌｓ　ｉｓ　ｈｉｓ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅｓ　ｒｅｑｕｉｒｅｓ　ａ"TCC_NEWLINE"　ｃｅｒｔａｉｎ　ｋｉｎｄ　ｏｆ．．．ｋｉｎｄｌｉｎｇ．．"TCC_NEWLINE"．ｔｏ　ｆｕｅｌ　Ｓｕｒｔｒ’ｓ　ｐｏｗｅｒｓ　ｏｆ　ｒｅー"TCC_NEWLINE"ｓｕｒｒｅｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｔｒ　ｐｌａｎｓ　ｔｏ　ｆｅｅｄ　ｔｗｏ　ｇｉｒｌｓ"TCC_NEWLINE"　ｔｏ　ｔｈｅ　ｆｌａｍｅｓ　ｔｈａｔ　ｓｕｓｔａｉｎ　ｈー"TCC_NEWLINE"ｉｓ　ｐｏｗｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｚａｃｈａｒｉａｓ　ｔｏｌｄ　ｍｅ　ｔｈａｔ　ｏｎー"TCC_NEWLINE"ｅ　ｏｆ　ｔｈｅ　ｇｉｒｌｓ　ｉｓ　ｈｉｓ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｉｓ　ｓｉｓｔｅｒ？　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ　Ｓｕｒｔｒ　ｗｏｕｌｄ　ｇｏ　ｔｈａｔ　ｆａｒ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｓｈｅ　ｍａｙ　ｈａｖｅ　ｖｅｘｅｄ　ｕｓ　ａｔ　ｅｖｅｒー"TCC_NEWLINE"ｙ　ｔｕｒｎ，ｂｕｔ　Ｉ　ｃａｎ’ｔ　ｈｅｌｐ　ｂｕｔ　ｐー"TCC_NEWLINE"ｉｔｙ　ｈｅｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｍａｙ　ｈａｖｅ　ｖｅｘｅｄ　ｕｓ　ａｔ　ｅｖｅｒー"TCC_NEWLINE"ｙ　ｔｕｒｎ，　ｂｕｔ　Ｉ　ｃａｎ’ｔ　ｈｅｌｐ　ｂｕｔ　"TCC_NEWLINE"ｐｉｔｙ　ｈｅｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｔｗｏ　ｇｉｒｌｓ？　Ｗｈｏ　ｉｓ　ｔｈｅ　ｓｅｃｏｎｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ，　Ｚａｃｈａｒｉａｓ　ｄｉｄ　ｎｏｔ　ｋｎｏｗ．"TCC_NEWLINE"Ｐｅｒｈａｐｓ　ｏｎｅ　ｏｆ　Ｍｓｐｅｌｌ’ｓ　ｏｗｎ　ｒー"TCC_NEWLINE"ｏｙａｌｆａｍｉｌｙ　ｏｒ　ａｎｏｔｈｅｒ　ｋｉｎｇｄｏｍ"TCC_NEWLINE"’ｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｍａｔｔｅｒ　ｗｈｏ　ｉｔ　ｍａｙ　ｂｅ，　ｗｅ　ｍー"TCC_NEWLINE"ｕｓｔｍａｋｅ　ｈａｓｔｅ．　Ｉｆ　ｗｅ　ｄｏ　ｎｏｔ　ｒー"TCC_NEWLINE"ｅｓｃｕｅｔｈｅｍ，　ｔｈｅｉｒ　ｌｉｖｅｓ　ａｒｅ　ｆｏー"TCC_NEWLINE"ｒｆｅｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ，　Ｚａｃｈａｒｉａｓ　ｄｉｄ　ｎｏｔ　ｋｎｏｗ．"TCC_NEWLINE"　Ｐｅｒｈａｐｓ　ｏｎｅ　ｏｆ　Ｍｓｐｅｌｌ’ｓ　ｏｗｎ　"TCC_NEWLINE"ｒｏｙａｌ　ｆａｍｉｌｙ　ｏｒ　ａｎｏｔｈｅｒ　ｋｉｎｇｄー"TCC_NEWLINE"ｏｍ’ｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｗｈｏ　ｉｔ　ｍａｙ　ｂｅ，　ｗｅ　ｍー"TCC_NEWLINE"ｕｓｔ　ｍａｋｅ　ｈａｓｔｅ．　Ｉｆ　ｗｅ　ｄｏ　ｎｏｔ　"TCC_NEWLINE"ｒｅｓｃｕｅ　ｔｈｅｍ，　ｔｈｅｉｒ　ｌｉｖｅｓ　ａｒｅ　"TCC_NEWLINE"ｆｏｒｆｅｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗｅ　ｍｕｓｔ　ｈｕｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HRID
-"Ｔｈｅ　ｐａｔｈ　ｌｅａｄｓ　ｕｓ　ｔｈｉｓ　ｗａｙ．．．"TCC_NEWLINE"　Ｆｒｏｍｎｏｗ　ｏｎ，　ｗｅ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ"TCC_NEWLINE"　ｔｏ　ａｖｏｉｄｏｕｒ　ｆｏｅｓ．　Ｐｒｅｐａｒｅ　ｆｏー"TCC_NEWLINE"ｒ　ａ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐａｔｈ　ｌｅａｄｓ　ｕｓ　ｔｈｉｓ　ｗａｙ．．．"TCC_NEWLINE"　Ｆｒｏｍ　ｎｏｗ　ｏｎ，　ｗｅ　ｗｏｎ’ｔ　ｂｅ　ａｂｌー"TCC_NEWLINE"ｅ　ｔｏ　ａｖｏｉｄ　ｏｕｒ　ｆｏｅｓ．　Ｐｒｅｐａｒｅ　"TCC_NEWLINE"ｆｏｒ　ａ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

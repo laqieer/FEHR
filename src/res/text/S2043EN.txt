@@ -1,8 +1,8 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2043_EN] = TCC_OPEN_LEFT
-"Ｆｏｕｌ　Ｈｅｒｏｅｓ，　ｂｅｗａｒｅ！　Ｉ，　Ｌ’Ａｒａー"TCC_NEWLINE"ｃｈｅｌ，ｂｅｓｔｏｗ　ｕｐｏｎ　ｙｏｕ　ｔｈｅ　ｈｏｎｏー"TCC_NEWLINE"ｒ　ｏｆ　ｄｅｆｅａｔａｔ　ｍｙ　ｂｌｅｓｓｅｄ　ｈａｎｄー"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｕｌ　Ｈｅｒｏｅｓ，　ｂｅｗａｒｅ！　Ｉ，　Ｌ’Ａｒａー"TCC_NEWLINE"ｃｈｅｌ，　ｂｅｓｔｏｗ　ｕｐｏｎ　ｙｏｕ　ｔｈｅ　ｈｏｎー"TCC_NEWLINE"ｏｒ　ｏｆ　ｄｅｆｅａｔ　ａｔ　ｍｙ　ｂｌｅｓｓｅｄ　ｈａー"TCC_NEWLINE"ｎｄｓ！"TCC_NEWLINE TCC_PUSH_A
 "Ｔｏ　ｂａｔｔｌｅ，　Ｅｉｒｉｋａ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｆｏｒ　ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ａｒｅ　ｂｏｕｎｄ　ｂー"TCC_NEWLINE"ｙ　ｔｈｉｓｃｏｎｔｒａｃｔ，　ｗｅ　ｈａｖｅ　ｎｏ　ｃｈー"TCC_NEWLINE"ｏｉｃｅ　ｂｕｔ　ｔｏｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ａｒｅ　ｂｏｕｎｄ　ｂー"TCC_NEWLINE"ｙ　ｔｈｉｓ　ｃｏｎｔｒａｃｔ，　ｗｅ　ｈａｖｅ　ｎｏ　ｃー"TCC_NEWLINE"ｈｏｉｃｅ　ｂｕｔ　ｔｏ　ｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

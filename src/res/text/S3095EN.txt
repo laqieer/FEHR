@@ -4,14 +4,14 @@
 "Ｔｈｅ　ｃａｓｔｌｅ．　Ｉｔ’ｓ　ｔｈｅ　ｓａｍｅ　ａｓ　"TCC_NEWLINE"ｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｌｌ　ｇｏ　ｉｎｓｉｄｅ．　Ｙｏｕ　ｗａｉｔ　ｈｅｒｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｅｒ，　ｗｅｌｌ．．．　Ｗｅ’ｒｅ　ｈａｐｐｙ　ｔｏ　ｈｅー"TCC_NEWLINE"ｌｐｗｉｔｈ　ｙｏｕｒ　ｒｅｓｅａｒｃｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｒ，　ｗｅｌｌ．．．　Ｗｅ’ｒｅ　ｈａｐｐｙ　ｔｏ　ｈｅー"TCC_NEWLINE"ｌｐ　ｗｉｔｈ　ｙｏｕｒ　ｒｅｓｅａｒｃｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｍｉｓｕｎｄｅｒｓｔａｎｄ　ｍｅ．　Ｉ　ａｍｃｏｏー"TCC_NEWLINE"ｐｅｒａｔｉｎｇ　ｗｉｔｈ　ｙｏｕ　ｏｎｌｙ　ａｓ　ｍｕｃー"TCC_NEWLINE"ｈａｓ　ｉｓ　ｎｅｃｅｓｓａｒｙ　ｔｏ　ｄｅｓｔｒｏｙ　Ｈー"TCC_NEWLINE"ｅｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｌｅｔｔｉｎー"TCC_NEWLINE"ｇ　ｍｙ　ｆｏｅｓｗａｎｄｅｒ　ａｒｏｕｎｄ　ｍｙ　ｃａｓー"TCC_NEWLINE"ｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｉｓｕｎｄｅｒｓｔａｎｄ　ｍｅ．　Ｉ　ａｍ　ｃｏー"TCC_NEWLINE"ｏｐｅｒａｔｉｎｇ　ｗｉｔｈ　ｙｏｕ　ｏｎｌｙ　ａｓ　ｍｕー"TCC_NEWLINE"ｃｈ　ａｓ　ｉｓ　ｎｅｃｅｓｓａｒｙ　ｔｏ　ｄｅｓｔｒｏｙ"TCC_NEWLINE"　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｌｅｔｔｉｎー"TCC_NEWLINE"ｇ　ｍｙ　ｆｏｅｓ　ｗａｎｄｅｒ　ａｒｏｕｎｄ　ｍｙ　ｃａー"TCC_NEWLINE"ｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｅｒ．．．　Ｙｏｕ’ｖｅ　ｍａｄｅ　ｙｏｕｒｓｅｌｆ　ｃｌー"TCC_NEWLINE"ｅａｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏｗ　ｈｕｒｒｙ．　Ｙｏｕｒ　ｅｎｅｍｙ　ｈａｓ　ａｒｒー"TCC_NEWLINE"ｉｖｅｄ，Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｈｕｒｒｙ．　Ｙｏｕｒ　ｅｎｅｍｙ　ｈａｓ　ａｒｒー"TCC_NEWLINE"ｉｖｅｄ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
@@ -21,56 +21,56 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｌｆ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｗｏｒｌｄ．　Ｍｙ　ｗｏｒｌｄ．　Ｔｈｉｓ　ｉｓ"TCC_NEWLINE"　ｔｈｅｃｈｏｉｃｅ　Ｉ　ｆａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｗｏｒｌｄ．　Ｍｙ　ｗｏｒｌｄ．　Ｔｈｉｓ　ｉｓ"TCC_NEWLINE"　ｔｈｅ　ｃｈｏｉｃｅ　Ｉ　ｆａｃｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｅｎｄ　ｌｉｖｅｓ　ｏｎｌｙ　ｔｏ　ｓａｖｅ　ｌｉｖｅー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ　ｄｏｅｓ　ｔｈａｔ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｂｒｏｋｅ　ｏｐｅｎ　ａ　ｔｅｒｒｉｂｌｅ　ｃｕｒｓｅ"TCC_NEWLINE"．．．ａｎｄ　ｐｅｒｆｏｒｍｅｄ　ａ　ｆｏｒｂｉｄｄｅｎ　"TCC_NEWLINE"ｒｉｔｅ．Ｉｔ　ｗａｓ　ａｌｌ　ｔｏ　ｄｅｆｅａｔ　Ｈｅｌ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓ　ａ　ｔｅｒｒｉｂｌｅ　ｍｉｓｔａｋｅ．　Ｅｖー"TCC_NEWLINE"ｅｒｙｏｎｅｉｎ　Ａｓｋｒ　ｄｉｅｄ，　ｏｎｅ　ｂｙ　ｏｎー"TCC_NEWLINE"ｅ．．．ａｎｄ　Ｉ　ａｍｔｏ　ｂｌａｍｅ　ｆｏｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｒｏｋｅ　ｏｐｅｎ　ａ　ｔｅｒｒｉｂｌｅ　ｃｕｒｓｅ"TCC_NEWLINE"．．．　ａｎｄ　ｐｅｒｆｏｒｍｅｄ　ａ　ｆｏｒｂｉｄｄｅｎ"TCC_NEWLINE"　ｒｉｔｅ．　Ｉｔ　ｗａｓ　ａｌｌ　ｔｏ　ｄｅｆｅａｔ　Ｈー"TCC_NEWLINE"ｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ａ　ｔｅｒｒｉｂｌｅ　ｍｉｓｔａｋｅ．　Ｅｖー"TCC_NEWLINE"ｅｒｙｏｎｅ　ｉｎ　Ａｓｋｒ　ｄｉｅｄ，　ｏｎｅ　ｂｙ　ｏー"TCC_NEWLINE"ｎｅ．．．ａｎｄ　Ｉ　ａｍ　ｔｏ　ｂｌａｍｅ　ｆｏｒ　ｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｗａｓ　ｄｅｓｐｅｒａｔｅ　ｔｏ　ｄｅｆｅａｔ　Ｈｅｌ"TCC_NEWLINE"．　Ｉｍａｄｅ　ａ　ｄａｎｇｅｒｏｕｓ　ｗａｇｅｒ，　ａｎー"TCC_NEWLINE"ｄ　Ｉｌｏｓｔ．　Ｗｅ　ａｌｌ　ｄｉｄ．　Ｈｅｌ　ｗｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｌ　ｋｉｌｌｅｄ　ｍｙ　ｓｉｓｔｅｒ．．．　Ｓｈａｒｅー"TCC_NEWLINE"ｎａ　ｇａｖｅｅｖｅｒｙｔｈｉｎｇ　ｔｏ　ｔｒｙ　ａｎｄ　"TCC_NEWLINE"ｐｒｏｔｅｃｔ　ｍｅ．Ｈｅｒ　ｌａｓｔ　ｗｏｒｄｓ　ｗｅｒー"TCC_NEWLINE"ｅ，　Ｓａｖｅ　ｙｏｕｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｄｅｓｐｅｒａｔｅ　ｔｏ　ｄｅｆｅａｔ　Ｈｅｌ"TCC_NEWLINE"．　Ｉ　ｍａｄｅ　ａ　ｄａｎｇｅｒｏｕｓ　ｗａｇｅｒ，　ａー"TCC_NEWLINE"ｎｄ　Ｉ　ｌｏｓｔ．　Ｗｅ　ａｌｌ　ｄｉｄ．　Ｈｅｌ　ｗｏー"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｋｉｌｌｅｄ　ｍｙ　ｓｉｓｔｅｒ．．．　Ｓｈａｒｅー"TCC_NEWLINE"ｎａ　ｇａｖｅ　ｅｖｅｒｙｔｈｉｎｇ　ｔｏ　ｔｒｙ　ａｎｄ"TCC_NEWLINE"　ｐｒｏｔｅｃｔ　ｍｅ．　Ｈｅｒ　ｌａｓｔ　ｗｏｒｄｓ　ｗー"TCC_NEWLINE"ｅｒｅ，　Ｓａｖｅ　ｙｏｕｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｎｄ　ｉｎ　ｔｈｅ　ｅｎｄ．．．ａｆｔｅｒ　ｅｖｅｒｙｔー"TCC_NEWLINE"ｈｉｎｇ．．．Ｈｅｌ　ｂａｄｅ　ｍｅ　ｂａｌａｎｃｅ　ｔｈー"TCC_NEWLINE"ｅ　ｃｏｈｏｒｔ　ｏｆｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｓｏｍｅｏｎｅ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｒｅａー"TCC_NEWLINE"ｌｍｄｉｅｓ．．．ｓｏｍｅｏｎｅ　ｈｅｒｅ　ｉｓ　ｓａｖｅー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗｏｕｌｄ　ｂｅ　ｌｉｋｅ　ｎｏ　ｏｎｅ　ｅｖｅｒ　"TCC_NEWLINE"ｄｉｅｄ．．．Ｅｖｅｎ　Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎ　ｔｈｏｓｅ　ｔｅｒｍｓ，　Ｉ　ｆｏｒｇｅｄ　ａ　ｃｏー"TCC_NEWLINE"ｎｔｒａｃｔｗｉｔｈ　Ｈｅｌ．　Ｔｏ　ｓａｖｅ　ｏｕｒ　ｗー"TCC_NEWLINE"ｏｒｌｄ．．．Ｉ　ｗｉｌｌｄｅｃｉｍａｔｅ　ｙｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｎ　ｔｈｅ　ｅｎｄ．．．ａｆｔｅｒ　ｅｖｅｒｙｔー"TCC_NEWLINE"ｈｉｎｇ．．．　Ｈｅｌ　ｂａｄｅ　ｍｅ　ｂａｌａｎｃｅ　ｔー"TCC_NEWLINE"ｈｅ　ｃｏｈｏｒｔ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｓｏｍｅｏｎｅ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｒｅａー"TCC_NEWLINE"ｌｍ　ｄｉｅｓ．．．ｓｏｍｅｏｎｅ　ｈｅｒｅ　ｉｓ　ｓａｖー"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｏｕｌｄ　ｂｅ　ｌｉｋｅ　ｎｏ　ｏｎｅ　ｅｖｅｒ　"TCC_NEWLINE"ｄｉｅｄ．．．　Ｅｖｅｎ　Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎ　ｔｈｏｓｅ　ｔｅｒｍｓ，　Ｉ　ｆｏｒｇｅｄ　ａ　ｃｏー"TCC_NEWLINE"ｎｔｒａｃｔ　ｗｉｔｈ　Ｈｅｌ．　Ｔｏ　ｓａｖｅ　ｏｕｒ　"TCC_NEWLINE"ｗｏｒｌｄ．．．Ｉ　ｗｉｌｌ　ｄｅｃｉｍａｔｅ　ｙｏｕｒｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ！　Ｔｏ　ｔｈｉｎｋ　Ｉ’ｄ　ｓｅｒｖｅ　Ｈｅｌ．．．"TCC_NEWLINE"　Ｈａｖｅｙｏｕ　ｌｏｓｔ　ｙｏｕｒ　ｍｉｎｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｔｏ　ｔｈｉｎｋ　Ｉ’ｄ　ｓｅｒｖｅ　Ｈｅｌ．．．"TCC_NEWLINE"　Ｈａｖｅ　ｙｏｕ　ｌｏｓｔ　ｙｏｕｒ　ｍｉｎｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｌｏｓｅ　ｍｙ　ｍｉｎｄ？　Ｈｏｗ　ｃｏｕｌｄ　Ｉ　ｎｏｔ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓ　ａｌｌ　ｍｙ　ｆａｕｌｔ．．．　Ｔｈｅ　ｐｅー"TCC_NEWLINE"ｏｐｌｅｏｆ　Ａｓｋｒ　ａｎｄ　Ｓｈａｒｅｎａ．．．　Ｅｖー"TCC_NEWLINE"ｅｎ"TCC_NEWLINE
+"Ｉｔ　ｗａｓ　ａｌｌ　ｍｙ　ｆａｕｌｔ．．．　Ｔｈｅ　ｐｅー"TCC_NEWLINE"ｏｐｌｅ　ｏｆ　Ａｓｋｒ　ａｎｄ　Ｓｈａｒｅｎａ．．．　Ｅー"TCC_NEWLINE"ｖｅｎ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｍｙ　ｓａｎｉｔｙ．．．ｉｔ　ｄｉｅｄ　ｗｉｔｈ　ｔｈｅｍ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
-"Ｉ　ｃａｎｎｏｔ　ｆａｌｌ　ｈｅｒｅ．．．　Ｉ　ｍｕｓｔ　"TCC_NEWLINE"ｓｔｏｐ　ｔｈｅｍ．Ｉ　ｍｕｓｔ　ｓａｖｅ　ｍｙ　ｐｅｏｐー"TCC_NEWLINE"ｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｍｕｓｔ　ｂａｌａｎｃｅ　ｔｈｅ　ｃｏｈｏｒｔ　ｏｆ　"TCC_NEWLINE"ｔｈｅｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎｎｏｔ　ｆａｌｌ　ｈｅｒｅ．．．　Ｉ　ｍｕｓｔ　"TCC_NEWLINE"ｓｔｏｐ　ｔｈｅｍ．　Ｉ　ｍｕｓｔ　ｓａｖｅ　ｍｙ　ｐｅｏー"TCC_NEWLINE"ｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｂａｌａｎｃｅ　ｔｈｅ　ｃｏｈｏｒｔ　ｏｆ　"TCC_NEWLINE"ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3095_EN] = TCC_OPEN_LEFT
-"Ｉｔ　ｓｅｅｍｓ　ｙｏｕｒ　ｆｏｅ　ｈａｓ　ｆｌｅｄ．　Ｗー"TCC_NEWLINE"ｈａｔ　ａｖｅｎｇｅｆｕｌ　ｃｒｅａｔｕｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ｙｏｕｒ　ｆｏｅ　ｈａｓ　ｆｌｅｄ．　Ｗー"TCC_NEWLINE"ｈａｔ　ａ　ｖｅｎｇｅｆｕｌ　ｃｒｅａｔｕｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．ｏｆ　ｔｈｉｓ　"TCC_NEWLINE"Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅｒｅ　ｙｏｕ　ａｂｌｅ　ｔｏ　ｆｉｎｄ　ａｎｙ　ｉｎｆー"TCC_NEWLINE"ｏｒｍａｔｉｏｎａｂｏｕｔ　ｔｈｅ　ｒｉｔｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｒｅ　ｙｏｕ　ａｂｌｅ　ｔｏ　ｆｉｎｄ　ａｎｙ　ｉｎｆー"TCC_NEWLINE"ｏｒｍａｔｉｏｎ　ａｂｏｕｔ　ｔｈｅ　ｒｉｔｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｎｇｒｂｏａ’ｓ　Ｈｅａｒｔ．　Ｔｈａｔ　ｉｓ　ｗｈａｔ"TCC_NEWLINE"　ｔｈｅｃｅｒｅｍｏｎｙ　ｒｅｑｕｉｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｇｒｂｏａ　ｉｓ　ａ　ｂｅｉｎｇ　ｏｆ　ｇｒｅａｔ　ｐー"TCC_NEWLINE"ｏｗｅｒ．．．Ｉｔ　ｗａｓ　Ａｎｇｒｂｏａ　ｗｈｏ　ｇａｖー"TCC_NEWLINE"ｅ　ｂｉｒｔｈ　ｔｏＨｅｌ　ｈｅｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｙ　ｈａｒｎｅｓｓｉｎｇ　Ａｎｇｒｂｏａ’ｓ　ｐｏｗｅｒ"TCC_NEWLINE"，ｗｅ　ｃａｎ　ｋｉｌｌ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｇｒｂｏａ’ｓ　Ｈｅａｒｔ．　Ｔｈａｔ　ｉｓ　ｗｈａｔ"TCC_NEWLINE"　ｔｈｅ　ｃｅｒｅｍｏｎｙ　ｒｅｑｕｉｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｇｒｂｏａ　ｉｓ　ａ　ｂｅｉｎｇ　ｏｆ　ｇｒｅａｔ　ｐー"TCC_NEWLINE"ｏｗｅｒ．．．　Ｉｔ　ｗａｓ　Ａｎｇｒｂｏａ　ｗｈｏ　ｇａー"TCC_NEWLINE"ｖｅ　ｂｉｒｔｈ　ｔｏ　Ｈｅｌ　ｈｅｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｙ　ｈａｒｎｅｓｓｉｎｇ　Ａｎｇｒｂｏａ’ｓ　ｐｏｗｅｒ"TCC_NEWLINE"，　ｗｅ　ｃａｎ　ｋｉｌｌ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｂｕｔ　ｔｈｅ　ｃｕｒｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｅｓ．　Ｔｈｅ　ｈｅａｒｔ　ｉｓ　ｓｅａｌｅｄ　ｗｉｔｈー"TCC_NEWLINE"ｉｎ　ａｎＥｍｂｌｉａｎ　ｂｌｏｏｄ　ｔｅｍｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈａｔ　ｓｅａｌ　ｉｓ　ｂｒｏｋｅｎ，　ｓｏｍｅｏー"TCC_NEWLINE"ｎｅ　ｗｉｌｌｄｉｅ　ｅａｃｈ　ｔｉｍｅ　ｔｈｅ　ｈｅａｒー"TCC_NEWLINE"ｔ　ｂｅａｔｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｓｅ　ｗｈｏ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ　ａｒー"TCC_NEWLINE"ｅｔｈｅ　ｆｉｒｓｔ　ｔｏ　ｄｉｅ．　Ａｌｌ　ｄｉｅ，　ｅー"TCC_NEWLINE"ｖｅｎｔｕａｌｌｙ．．．Ｏｎｅ　ｂｙ　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ａｌｌ　ａｒｅ　ｄｅａｄ，　ｔｈｅ　ｈｅａｒｔ　"TCC_NEWLINE"ｇｒｏｗｓｑｕｉｅｔ　ｏｎｃｅ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｔｈｅ　ｈｅａｒｔ　ｉｓ　ｓｅａｌｅｄ　ｗｉｔｈー"TCC_NEWLINE"ｉｎ　ａｎ　Ｅｍｂｌｉａｎ　ｂｌｏｏｄ　ｔｅｍｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ　ｓｅａｌ　ｉｓ　ｂｒｏｋｅｎ，　ｓｏｍｅｏー"TCC_NEWLINE"ｎｅ　ｗｉｌｌ　ｄｉｅ　ｅａｃｈ　ｔｉｍｅ　ｔｈｅ　ｈｅａー"TCC_NEWLINE"ｒｔ　ｂｅａｔｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｗｈｏ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ　ａｒー"TCC_NEWLINE"ｅ　ｔｈｅ　ｆｉｒｓｔ　ｔｏ　ｄｉｅ．　Ａｌｌ　ｄｉｅ，　"TCC_NEWLINE"ｅｖｅｎｔｕａｌｌｙ．．．　Ｏｎｅ　ｂｙ　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ａｌｌ　ａｒｅ　ｄｅａｄ，　ｔｈｅ　ｈｅａｒｔ　"TCC_NEWLINE"ｇｒｏｗｓ　ｑｕｉｅｔ　ｏｎｃｅ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗｅ　ｃａｎ’ｔ　ｄｏ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -78,9 +78,9 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_LEFT
 "Ｙｏｕ　ｗｏｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅ　ｃａｎｎｏｔ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ　ｉｎ"TCC_NEWLINE"　ｏｕｒｗｏｒｌｄ，　ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｅ　ｃｅｒｅｍｏｎｙ　ｈａｓ　ａｌｒｅａｄｙ　"TCC_NEWLINE"ｂｅｅｎｐｅｒｆｏｒｍｅｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎｎｏｔ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ　ｉｎ"TCC_NEWLINE"　ｏｕｒ　ｗｏｒｌｄ，　ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅ　ｃｅｒｅｍｏｎｙ　ｈａｓ　ａｌｒｅａｄｙ　"TCC_NEWLINE"ｂｅｅｎ　ｐｅｒｆｏｒｍｅｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｍｕｓｔ　ｂｅ　ｈｅｒｅ．　Ｓｏｍｅｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｗｅａｐｏｎ　ｂｏｒｎ　ｏｆ　ｔｈｅ　Ｈｅａｒｔ’"TCC_NEWLINE"ｓＲｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｅａｐｏｎ　ｂｏｒｎ　ｏｆ　ｔｈｅ　Ｈｅａｒｔ’"TCC_NEWLINE"ｓ　Ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｗｅａｐｏｎ　ｔｈａｔ　ｃａｎ　ｋｉｌｌ　Ｈｅｌ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

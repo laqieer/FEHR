@@ -2,12 +2,12 @@
 
 [MID_SCENARIO_OPENING_S3134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｉ　ｒｅａｌｉｚｅ　ｔｈｉｓ　ｉｓ　ｓｕｄｄｅｎ，　ｂｕｔ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｍｕｓｔ　ｄｏ．"TCC_NEWLINE"．．　ＡｎｄＩ　ｃａｎ　ｏｎｌｙ　ｄｏ　ｉｔ　ｗｈｅｎ　ｗー"TCC_NEWLINE"ｅ’ｒｅ　ａｌｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｔｈａｔ　ｉｓ　ｎｏｔ　ｅａー"TCC_NEWLINE"ｓｙ　ｆｏｒｍｅ　ｔｏ　ｄｏ．　Ｉ　ａｍ．．．ｒｅｌｕｃｔー"TCC_NEWLINE"ａｎｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｓｅｅ．．．ｉｔ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｍｙ　ｍー"TCC_NEWLINE"ｏｔｈｅｒｃｏｍｍａｎｄｅｄ　ｍｅ　ｔｏ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｍｕｓｔ　ｄｏ．"TCC_NEWLINE"．．　Ａｎｄ　Ｉ　ｃａｎ　ｏｎｌｙ　ｄｏ　ｉｔ　ｗｈｅｎ　"TCC_NEWLINE"ｗｅ’ｒｅ　ａｌｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｔｈａｔ　ｉｓ　ｎｏｔ　ｅａー"TCC_NEWLINE"ｓｙ　ｆｏｒ　ｍｅ　ｔｏ　ｄｏ．　Ｉ　ａｍ．．．ｒｅｌｕｃー"TCC_NEWLINE"ｔａｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｅｅ．．．ｉｔ’ｓ　ｓｏｍｅｔｈｉｎｇ　ｍｙ　ｍー"TCC_NEWLINE"ｏｔｈｅｒ　ｃｏｍｍａｎｄｅｄ　ｍｅ　ｔｏ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
 "Ｍｏｔｈｅｒ　ｎｅｅｄｓ　ｙｏｕ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏｎ’ｔ　ｓｔｒｕｇｇｌｅ．　Ｗｅ　ｂｏｔｈ　ｋｎｏｗ　"TCC_NEWLINE"ｔｈｅｒｅｗｏｕｌｄ　ｂｅ　ｎｏ　ｐｏｉｎｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｒｕｌｙ，　Ｉ　ｒｅｇｒｅｔ　ｔｈｉｓ．　Ｙｏｕ　ｗｅｒー"TCC_NEWLINE"ｅ　ａｌｌ　ｓｏｋｉｎｄ　ｔｏ　ｍｅ．　Ｓｏ　ｖｅｒｙ　ｋー"TCC_NEWLINE"ｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｓｔｒｕｇｇｌｅ．　Ｗｅ　ｂｏｔｈ　ｋｎｏｗ　"TCC_NEWLINE"ｔｈｅｒｅ　ｗｏｕｌｄ　ｂｅ　ｎｏ　ｐｏｉｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｕｌｙ，　Ｉ　ｒｅｇｒｅｔ　ｔｈｉｓ．　Ｙｏｕ　ｗｅｒー"TCC_NEWLINE"ｅ　ａｌｌ　ｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．　Ｓｏ　ｖｅｒｙ　"TCC_NEWLINE"ｋｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｆａｒｅｗｅｌｌ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -17,33 +17,33 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HEL
 TCC_OPEN_LEFT
 "Ｙｅｓ，　Ｍｏｔｈｅｒ．　Ｊｕｓｔ　ａｓ　ｙｏｕ　ｏｒｄｅー"TCC_NEWLINE"ｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｅｘｃｅｌｌｅｎｔ．　Ｎｏｗ　ｔｈｅｒｅ　ｉｓ　ｎｏｎｅ　"TCC_NEWLINE"ｌｅｆｔｃａｐａｂｌｅ　ｏｆ　ｒｅｓｉｓｔｉｎｇ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｓｅｒｖｉｃｅｓ　ａｒｅ　ｎｏ　ｌｏｎｇｅｒ　ｒー"TCC_NEWLINE"ｅｑｕｉｒｅｄ，Ｅｉｒ．　Ｉ　ｗｉｌｌ　ｎｏｗ　ｃｌａｉｍ"TCC_NEWLINE"　ｗｈａｔ　ｒｅｍａｉｎｓｏｆ　ｙｏｕｒ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｘｃｅｌｌｅｎｔ．　Ｎｏｗ　ｔｈｅｒｅ　ｉｓ　ｎｏｎｅ　"TCC_NEWLINE"ｌｅｆｔ　ｃａｐａｂｌｅ　ｏｆ　ｒｅｓｉｓｔｉｎｇ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｓｅｒｖｉｃｅｓ　ａｒｅ　ｎｏ　ｌｏｎｇｅｒ　ｒー"TCC_NEWLINE"ｅｑｕｉｒｅｄ，　Ｅｉｒ．　Ｉ　ｗｉｌｌ　ｎｏｗ　ｃｌａｉー"TCC_NEWLINE"ｍ　ｗｈａｔ　ｒｅｍａｉｎｓ　ｏｆ　ｙｏｕｒ　ｌｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｏｔｈｅｒ，　ｐｌｅａｓｅ．．．　Ｆｕｌｆｉｌｌ　ｙｏｕー"TCC_NEWLINE"ｒ　ｐｒｏｍｉｓｅｔｏ　ｍｅ，　ａｔ　ｌｅａｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｓｗｏｒｅ　ｔｏ　ｒｅｖｅａｌ　ｔｈｅ　ｓｅｃｒｅー"TCC_NEWLINE"ｔ　ｏｆｍｙ　ｄｒｅａｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｙ　ｄｏ　Ｉ　ｄｉｍｌｙ　ｒｅｍｅｍｂｅｒ　ｕｓ，ｗｉー"TCC_NEWLINE"ｎｇｅｄ　ｉｎ　ｗｈｉｔｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｔｈｅｒ，　ｐｌｅａｓｅ．．．　Ｆｕｌｆｉｌｌ　ｙｏｕー"TCC_NEWLINE"ｒ　ｐｒｏｍｉｓｅ　ｔｏ　ｍｅ，　ａｔ　ｌｅａｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｗｏｒｅ　ｔｏ　ｒｅｖｅａｌ　ｔｈｅ　ｓｅｃｒｅー"TCC_NEWLINE"ｔ　ｏｆ　ｍｙ　ｄｒｅａｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　Ｉ　ｄｉｍｌｙ　ｒｅｍｅｍｂｅｒ　ｕｓ，　ｗー"TCC_NEWLINE"ｉｎｇｅｄ　ｉｎ　ｗｈｉｔｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈａｔ　ｉｓ　ｎｏｔ　ｍｅ　ｙｏｕ　ｈａｖｅ　ｓｅｅｎ．"TCC_NEWLINE"Ｔｈａｔ　ｉｓ　ｙｏｕｒ　ｂｉｒｔｈ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｎｏｔ　ｍｅ　ｙｏｕ　ｈａｖｅ　ｓｅｅｎ．"TCC_NEWLINE"　Ｔｈａｔ　ｉｓ　ｙｏｕｒ　ｂｉｒｔｈ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕｒ　ｔｒｕｅ　ｐａｒｅｎｔｓ　ｗｅｒｅ　ｒｏｙａｌｔー"TCC_NEWLINE"ｙ，ｂｌｅｓｓｅｄ　ｂｙ　ｔｈｅ　ｄｒａｇｏｎ　ｏｆ　ｌｉー"TCC_NEWLINE"ｆｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｓｌａｕｇｈｔｅｒｅｄ　ｔｈｅｍ，　ｗｈｅｎ　ｙｏｕ　"TCC_NEWLINE"ｗｅｒｅｙｏｕｎｇ，　ａｎｄ　ｃｌａｉｍｅｄ　ｙｏｕ　ｆｏー"TCC_NEWLINE"ｒ　ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｔｒｕｅ　ｐａｒｅｎｔｓ　ｗｅｒｅ　ｒｏｙａｌｔー"TCC_NEWLINE"ｙ，　ｂｌｅｓｓｅｄ　ｂｙ　ｔｈｅ　ｄｒａｇｏｎ　ｏｆ　ｌー"TCC_NEWLINE"ｉｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｌａｕｇｈｔｅｒｅｄ　ｔｈｅｍ，　ｗｈｅｎ　ｙｏｕ　"TCC_NEWLINE"ｗｅｒｅ　ｙｏｕｎｇ，　ａｎｄ　ｃｌａｉｍｅｄ　ｙｏｕ　ｆー"TCC_NEWLINE"ｏｒ　ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｎ　Ｉ　ｅｒａｓｅｄ　ｙｏｕｒ　ｍｅｍｏｒｙ，　ａｎー"TCC_NEWLINE"ｄ　ｌｅｄｙｏｕ　ｔｏ　ｂｅｌｉｅｖｅ　ｙｏｕ　ｗｅｒｅ　"TCC_NEWLINE"ｍｙ　ｄａｕｇｈｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　Ｉ　ｅｒａｓｅｄ　ｙｏｕｒ　ｍｅｍｏｒｙ，　ａｎー"TCC_NEWLINE"ｄ　ｌｅｄ　ｙｏｕ　ｔｏ　ｂｅｌｉｅｖｅ　ｙｏｕ　ｗｅｒｅ"TCC_NEWLINE"　ｍｙ　ｄａｕｇｈｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈｙ．．．ｗｏｕｌｄ　ｙｏｕ　ｄｏ　ｓｕｃｈ　ａ　ｔｈｉー"TCC_NEWLINE"ｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｏ　ｍａｋｅ　ｙｏｕ　ｃｏｍｐｌｉａｎｔ．　Ｔｈｅｒｅ　"TCC_NEWLINE"ｉｓｎｏｔｈｉｎｇ　ａ　ｃｈｉｌｄ　ｔｒｕｓｔｓ　ｍｏｒｅ"TCC_NEWLINE"　ｔｈａｎａ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｗｅｒｅ　ｈａｐｐｙ　ｔｏ　ｏｂｅｙ　ｍｅ，　ｅｖー"TCC_NEWLINE"ｅｎ　ａｓＩ　ｆｅｄ　ｕｐｏｎ　ｙｏｕｒ　ｌｉｆｅ，　ａｇー"TCC_NEWLINE"ａｉｎ　ａｎｄ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｍａｋｅ　ｙｏｕ　ｃｏｍｐｌｉａｎｔ．　Ｔｈｅｒｅ　"TCC_NEWLINE"ｉｓ　ｎｏｔｈｉｎｇ　ａ　ｃｈｉｌｄ　ｔｒｕｓｔｓ　ｍｏｒー"TCC_NEWLINE"ｅ　ｔｈａｎ　ａ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ｈａｐｐｙ　ｔｏ　ｏｂｅｙ　ｍｅ，　ｅｖー"TCC_NEWLINE"ｅｎ　ａｓ　Ｉ　ｆｅｄ　ｕｐｏｎ　ｙｏｕｒ　ｌｉｆｅ，　ａー"TCC_NEWLINE"ｇａｉｎ　ａｎｄ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ．．．ｄｅｃｅｉｖｅｄ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ．　Ｔｈｅｒｅ　ｉｓ　ｌｉｔｔｌｅ　ｒｅａｓｏｎ　ｔー"TCC_NEWLINE"ｏ　ｄｗｅｌｌ　ｏｎｉｔ　ｎｏｗ，　ｈｏｗｅｖｅｒ，　ｃｏー"TCC_NEWLINE"ｎｓｉｄｅｒｉｎｇ　ｙｏｕｒ　ｌｉｆｅｉｓ　ａｔ　ｉｔｓ　"TCC_NEWLINE"ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｔｈｅｒｅ　ｉｓ　ｌｉｔｔｌｅ　ｒｅａｓｏｎ　ｔー"TCC_NEWLINE"ｏ　ｄｗｅｌｌ　ｏｎ　ｉｔ　ｎｏｗ，　ｈｏｗｅｖｅｒ，　ｃー"TCC_NEWLINE"ｏｎｓｉｄｅｒｉｎｇ　ｙｏｕｒ　ｌｉｆｅ　ｉｓ　ａｔ　ｉｔー"TCC_NEWLINE"ｓ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｓｈｅ　ｈａｓ　ｍｏｒｅ　ｔｉｍｅ　ｔｈａｎ　ｙｏｕ　ｒｅー"TCC_NEWLINE"ａｌｉｚｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -55,14 +55,14 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EIR
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｔ　ｗａｓ　ｙｏｕ，　ｗａｓｎ’ｔ　ｉｔ，　Ｅｉｒ？　Ｂー"TCC_NEWLINE"ｕｔ　ｈｏｗ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃａｒｖｅｄ　ｍｙ　ｗｉｌｌ　ｉｎｔｏ　ｙｏｕｒ　ｖｅー"TCC_NEWLINE"ｒｙ　ｂｅｉｎｇ．Ｉｔ’ｓ　ｉｍｐｏｓｓｉｂｌｅ　ｆｏｒ　"TCC_NEWLINE"ｙｏｕ　ｔｏ　ｄｉｓｏｂｅｙ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｒｖｅｄ　ｍｙ　ｗｉｌｌ　ｉｎｔｏ　ｙｏｕｒ　ｖｅー"TCC_NEWLINE"ｒｙ　ｂｅｉｎｇ．　Ｉｔ’ｓ　ｉｍｐｏｓｓｉｂｌｅ　ｆｏｒ"TCC_NEWLINE"　ｙｏｕ　ｔｏ　ｄｉｓｏｂｅｙ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｔ　ｍｕｓｔ　ｂｅ　ｄｉｆｆｉｃｕｌｔ　ｆｏｒ　ｔｈｅ　"TCC_NEWLINE"ｒｕｌｅｒ　ｏｆｔｈｅ　ｄｅａｄ　ｔｏ　ｕｎｄｅｒｓｔａｎー"TCC_NEWLINE"ｄ　ｔｈｏｓｅ　ｗｈｏｓｔｉｌｌ　ｈａｖｅ　ｂｅａｔｉｎｇ"TCC_NEWLINE"　ｈｅａｒｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍｕｓｔ　ｂｅ　ｄｉｆｆｉｃｕｌｔ　ｆｏｒ　ｔｈｅ　"TCC_NEWLINE"ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｔｏ　ｕｎｄｅｒｓｔａー"TCC_NEWLINE"ｎｄ　ｔｈｏｓｅ　ｗｈｏ　ｓｔｉｌｌ　ｈａｖｅ　ｂｅａｔｉー"TCC_NEWLINE"ｎｇ　ｈｅａｒｔｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｅｉｒ　ｔｒｕｓｔｅｄ　ｕｓ　ｗｉｔｈ　ｅｖｅｒｙｔｈｉｎー"TCC_NEWLINE"ｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｕｒ　ｓｕｍｍｏｎｅｒ　ｗａｓ　ｎｅｖｅｒ　ｉｎ　ｄａｎー"TCC_NEWLINE"ｇｅｒｏｆ　ｆａｌｌｉｎｇ　ｐｒｅｙ　ｔｏ　ｙｏｕｒ　ｐｌー"TCC_NEWLINE"ａｎｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｄｅｆｅａｔ　ｙｏｕ　ｒｅｍａｉー"TCC_NEWLINE"ｎｓｖｅｒｙ　ｍｕｃｈ　ａｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｓｕｍｍｏｎｅｒ　ｗａｓ　ｎｅｖｅｒ　ｉｎ　ｄａｎー"TCC_NEWLINE"ｇｅｒ　ｏｆ　ｆａｌｌｉｎｇ　ｐｒｅｙ　ｔｏ　ｙｏｕｒ　ｐー"TCC_NEWLINE"ｌａｎｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｄｅｆｅａｔ　ｙｏｕ　ｒｅｍａｉー"TCC_NEWLINE"ｎｓ　ｖｅｒｙ　ｍｕｃｈ　ａｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ　ｉｓ　ｊｕｓｔ　ｔｈｅ　ｔｒｏｕｂｌｅ　ｗｉｔｈ"TCC_NEWLINE"　ｌｉｆｅ，Ａｌｆｏｎｓｅ．．．　Ｉｔ　ｃａｎ　ｓｏ　ｅａー"TCC_NEWLINE"ｓｉｌｙ　ｂｅ　ｌｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｊｕｓｔ　ｔｈｅ　ｔｒｏｕｂｌｅ　ｗｉｔｈ"TCC_NEWLINE"　ｌｉｆｅ，　Ａｌｆｏｎｓｅ．．．　Ｉｔ　ｃａｎ　ｓｏ　ｅー"TCC_NEWLINE"ａｓｉｌｙ　ｂｅ　ｌｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｅｌ’ｓ　ｖａｎｉｓｈｅｄ．　Ｈａｓ　ｓｈｅ　ｒｅｔｒｅー"TCC_NEWLINE"ａｔｅｄ？"TCC_NEWLINE TCC_PUSH_A
@@ -71,5 +71,5 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EIR
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇー"TCC_NEWLINE"ｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ａｍ．．．ｆｉｎｅ．　Ｙｅｓ．．．　Ｐｅｒｈａｐｓ　ｆー"TCC_NEWLINE"ｏｒ　ｔｈｅ　ｆｉｒｓｔｔｉｍｅ，　Ｉ　ａｍ　ａｌｌ　ｒｉー"TCC_NEWLINE"ｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ．．．ｆｉｎｅ．　Ｙｅｓ．．．　Ｐｅｒｈａｐｓ　ｆー"TCC_NEWLINE"ｏｒ　ｔｈｅ　ｆｉｒｓｔ　ｔｉｍｅ，　Ｉ　ａｍ　ａｌｌ　ｒー"TCC_NEWLINE"ｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

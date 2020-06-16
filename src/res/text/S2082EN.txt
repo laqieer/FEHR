@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2082_EN] = TCC_OPEN_LEFT
-"．．．Ｉ　ａｍ　Ｋａｚｅ，　ａ　ｎｉｎｊａ　ｏｆ　Ｈｏｓｈー"TCC_NEWLINE"ｉｄｏ．　Ｉｎａｃｃｏｒｄａｎｃｅ　ｗｉｔｈ　ｔｈｅ　ｃｏー"TCC_NEWLINE"ｎｔｒａｃｔ，　Ｉ　ｗｉｌｌ　ｂｅｙｏｕｒ　ｏｐｐｏｎｅｎー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ　ａｍ　Ｋａｚｅ，　ａ　ｎｉｎｊａ　ｏｆ　Ｈｏｓｈー"TCC_NEWLINE"ｉｄｏ．　Ｉｎ　ａｃｃｏｒｄａｎｃｅ　ｗｉｔｈ　ｔｈｅ　ｃー"TCC_NEWLINE"ｏｎｔｒａｃｔ，　Ｉ　ｗｉｌｌ　ｂｅ　ｙｏｕｒ　ｏｐｐｏｎー"TCC_NEWLINE"ｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

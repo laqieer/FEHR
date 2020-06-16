@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4054_EN] = TCC_OPEN_LEFT
-"Ｉ　ｊｕｓｔ　ｗａｎｔ　ｔｏ　ｈｉｄｅ　ｉｎ　ｍｙ　ｒｏｏー"TCC_NEWLINE"ｍ．．．Ｔｈ－ｔｈａｔ’ｓ　ＯＫ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ　ｗａｎｔ　ｔｏ　ｈｉｄｅ　ｉｎ　ｍｙ　ｒｏｏー"TCC_NEWLINE"ｍ．．．　Ｔｈ－ｔｈａｔ’ｓ　ＯＫ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

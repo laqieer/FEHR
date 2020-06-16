@@ -2,5 +2,5 @@
 
 [MID_SCENARIO_MAP_BEGIN_S3084_EN] = TCC_OPEN_LEFT
 "Ｉ　ａｍ　ｃａｌｌｅｄ　Ｎａｈ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｍｙ　ｎａｍｅ　ｉｓ　ｗｅｉｒｄ"TCC_NEWLINE"？Ｉｔ’ｓ　ｐｒｏｂａｂｌｙ　ａ　ｌｉｔｔｌｅ　ｗｅｉｒｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｍｙ　ｎａｍｅ　ｉｓ　ｗｅｉｒｄ"TCC_NEWLINE"？　Ｉｔ’ｓ　ｐｒｏｂａｂｌｙ　ａ　ｌｉｔｔｌｅ　ｗｅｉｒー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

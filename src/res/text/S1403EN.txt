@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S1403_EN] = TCC_OPEN_LEFT
-"Ｔｈａｔ　ｃｏｍｍｏｔｉｏｎ　ｃａｎ　ｏｎｌｙ　ｍｅａｎ　"TCC_NEWLINE"ｔｈａｔｔｈｉｎｇｓ　ｈａｖｅ　ｂｅｇｕｎ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｍｅａｎｓ　ｉｔ’ｓ　ｍｙ　ｔｕｒｎ　ｔｏ　ｔａー"TCC_NEWLINE"ｋｅ　ｔｈｅｆｉｅｌｄ．　Ｉ　ｐｒａｙ　ｔｈａｔ　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ　ｎｏｔ　ｍａｄｅ　ａｍｉｓｃａｌｃｕｌａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｃｏｍｍｏｔｉｏｎ　ｃａｎ　ｏｎｌｙ　ｍｅａｎ　"TCC_NEWLINE"ｔｈａｔ　ｔｈｉｎｇｓ　ｈａｖｅ　ｂｅｇｕｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｍｅａｎｓ　ｉｔ’ｓ　ｍｙ　ｔｕｒｎ　ｔｏ　ｔａー"TCC_NEWLINE"ｋｅ　ｔｈｅ　ｆｉｅｌｄ．　Ｉ　ｐｒａｙ　ｔｈａｔ　Ｉ　ｈー"TCC_NEWLINE"ａｖｅ　ｎｏｔ　ｍａｄｅ　ａ　ｍｉｓｃａｌｃｕｌａｔｉｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

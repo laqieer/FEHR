@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4022_EN] = TCC_OPEN_LEFT
-"Ａｌｌ　ｔｈｉｓ　ｐｒａｉｓｅ　ｆｏｒ　Ｒｅｉｎｈａｒｄｔ"TCC_NEWLINE"．．．Ｌｕｄｉｃｒｏｕｓ！　Ｎａｍｅ　ｏｎｅ　ｔｈｉｎｇＩ"TCC_NEWLINE"　ｃａｎｎｏｔ　ｄｏ　ｂｅｔｔｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｔｈｉｓ　ｐｒａｉｓｅ　ｆｏｒ　Ｒｅｉｎｈａｒｄｔ"TCC_NEWLINE"．．．　Ｌｕｄｉｃｒｏｕｓ！　Ｎａｍｅ　ｏｎｅ　ｔｈｉｎｇ"TCC_NEWLINE"　Ｉ　ｃａｎｎｏｔ　ｄｏ　ｂｅｔｔｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

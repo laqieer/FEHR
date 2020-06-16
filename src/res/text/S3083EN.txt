@@ -1,24 +1,24 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3083_EN] = TCC_OPEN_LEFT
-"Ｉ　ｍｕｓｔ　ｂｅｃｏｍｅ　ｓｔｒｏｎｇｅｒ．　Ｓｏｍｅ　"TCC_NEWLINE"ｄａｙ，Ｉ　ｗｉｌｌ　ｔａｋｅ　ｂａｃｋ　ｅｖｅｒｙｔｈｉー"TCC_NEWLINE"ｎｇ　Ｉ　ｌｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｂｅｃｏｍｅ　ｓｔｒｏｎｇｅｒ．　Ｓｏｍｅ　"TCC_NEWLINE"ｄａｙ，　Ｉ　ｗｉｌｌ　ｔａｋｅ　ｂａｃｋ　ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇ　Ｉ　ｌｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3083_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｗａｉｔ，　Ｌｆ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LIF
 "Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ．．．　Ｙｏｕ　ｋｎｏｗ　ｓｏｍｅｔｈｉｎｇ　ａｂｏー"TCC_NEWLINE"ｕｔ　ｍｅ，ｄｏｎ’ｔ　ｙｏｕ？　Ｔｅｌｌ　ｍｅ．　Ｐｌｅー"TCC_NEWLINE"ａｓｅ，　ｔｅｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｃｌｏｓｅ．．．ｓｏ　ｃｌｏｓｅ．．．ｔｏ　ｒｅｍー"TCC_NEWLINE"ｅｍｂｅｒｉｎｇｓｏｍｅｔｈｉｎｇ．　Ｓｏｍｅｔｈｉｎｇ　"TCC_NEWLINE"ｉｍｐｏｒｔａｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ．．．　Ｙｏｕ　ｋｎｏｗ　ｓｏｍｅｔｈｉｎｇ　ａｂｏー"TCC_NEWLINE"ｕｔ　ｍｅ，　ｄｏｎ’ｔ　ｙｏｕ？　Ｔｅｌｌ　ｍｅ．　Ｐｌー"TCC_NEWLINE"ｅａｓｅ，　ｔｅｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｃｌｏｓｅ．．．ｓｏ　ｃｌｏｓｅ．．．ｔｏ　ｒｅｍー"TCC_NEWLINE"ｅｍｂｅｒｉｎｇ　ｓｏｍｅｔｈｉｎｇ．　Ｓｏｍｅｔｈｉｎｇ"TCC_NEWLINE"　ｉｍｐｏｒｔａｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　ｆｌｏｗｅｒｓ　ｙｏｕ　ｐｌａｃｅｄ　ｉｎ　ｔｈａー"TCC_NEWLINE"ｔ　ｔｏｗｎ．．．Ｔｈｅｙ　ｗｅｒｅ　ａｎ　ｏｆｆｅｒｉｎー"TCC_NEWLINE"ｇ，　ｗｅｒｅｎ’ｔ　ｔｈｅｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌｏｗｅｒｓ　ｙｏｕ　ｐｌａｃｅｄ　ｉｎ　ｔｈａー"TCC_NEWLINE"ｔ　ｔｏｗｎ．．．　Ｔｈｅｙ　ｗｅｒｅ　ａｎ　ｏｆｆｅｒｉー"TCC_NEWLINE"ｎｇ，　ｗｅｒｅｎ’ｔ　ｔｈｅｙ？"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ａｌｌ　ｆｅｅｌｓ　ｓｏ　ｆａｍｉｌｉａｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ．．．　Ｙｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｅｌｌ　Ｈｅｌ．　Ｓｈｅ’ｌｌ　ｅｒａｓｅ　ｔｈｏｓｅ　"TCC_NEWLINE"ｍｅｍｏｒｉｅｓ．Ｓｈｅ’ｌｌ　ｅｒａｓｅ　ｔｈｅｍ　ａｌー"TCC_NEWLINE"ｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｅｌｌ　Ｈｅｌ．　Ｓｈｅ’ｌｌ　ｅｒａｓｅ　ｔｈｏｓｅ　"TCC_NEWLINE"ｍｅｍｏｒｉｅｓ．　Ｓｈｅ’ｌｌ　ｅｒａｓｅ　ｔｈｅｍ　ａー"TCC_NEWLINE"ｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｎｄ　ｙｅｔ，　ａｓ　ｙｏｕ　ｓａｙ　ｔｈａｔ，　ｙｏｕー"TCC_NEWLINE"ｒ　ｆａｃｅ　ｉｓｓｏ　ｓａｄ．　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｅｔ，　ａｓ　ｙｏｕ　ｓａｙ　ｔｈａｔ，　ｙｏｕー"TCC_NEWLINE"ｒ　ｆａｃｅ　ｉｓ　ｓｏ　ｓａｄ．　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ．．．　Ｃｏｕｌｄ　ｉｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -3,16 +3,16 @@
 [MID_SCENARIO_MAP_BEGIN_S3125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
 "Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｉｓ　ｉｓ　ａｓ　ｆａｒ　ａｓ　ｉｔ　ｇｏｅｓ．　Ｐｌー"TCC_NEWLINE"ｅａｓｅ．．．Ｉ’ｄ　ｌｉｋｅ　ｙｏｕ　ｔｏ　ｓｕｒｒｅｎー"TCC_NEWLINE"ｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ａｓ　ｆａｒ　ａｓ　ｉｔ　ｇｏｅｓ．　Ｐｌー"TCC_NEWLINE"ｅａｓｅ．．．　Ｉ’ｄ　ｌｉｋｅ　ｙｏｕ　ｔｏ　ｓｕｒｒｅー"TCC_NEWLINE"ｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ　ｉｓｎ’ｔ　ｐｏｓｓｉｂｌｅ．　Ｅｉｔｈｅｒ　ｙー"TCC_NEWLINE"ｏｕ　ｄｉｅ，ｏｒ　Ｉ　ｄｏ．．．　Ｕｎｔｉｌ　ｔｈａｔ　"TCC_NEWLINE"ｈａｐｐｅｎｓ，　ｔｈｉｓｂａｔｔｌｅ　ｃａｎｎｏｔ　ｅｎー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓｎ’ｔ　ｐｏｓｓｉｂｌｅ．　Ｅｉｔｈｅｒ　ｙー"TCC_NEWLINE"ｏｕ　ｄｉｅ，　ｏｒ　Ｉ　ｄｏ．．．　Ｕｎｔｉｌ　ｔｈａｔ"TCC_NEWLINE"　ｈａｐｐｅｎｓ，　ｔｈｉｓ　ｂａｔｔｌｅ　ｃａｎｎｏｔ　"TCC_NEWLINE"ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｓｔｏｐ　ｉｔ！　Ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗａｌｋ　ｔｈｅ　ｐａｔｈ　ｔｈａｔ　ｙｏｕｒ　ｓｉｓｔｅー"TCC_NEWLINE"ｒｙｏｕｒＳｈａｒｅｎａｗｏｕｌｄ　ｗａｎｔ　ｆｏｒ　ｙｏー"TCC_NEWLINE"ｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｌｋ　ｔｈｅ　ｐａｔｈ　ｔｈａｔ　ｙｏｕｒ　ｓｉｓｔｅー"TCC_NEWLINE"ｒｙｏｕｒ　Ｓｈａｒｅｎａｗｏｕｌｄ　ｗａｎｔ　ｆｏｒ　ｙー"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｓｔｒａｙｅｄ　ｆｒｏｍ　ｔｈａｔ　ｐａｔｈ　ｌｏｎｇ"TCC_NEWLINE"　ａｇｏ．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ　ｕｓ　ｂｅｇｉｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　Ｌｆ，　ｇｅｎｅｒａｌ　ｏｆ　ｔｈｅ　ｒｅａｌｍ"TCC_NEWLINE"　ｏｆｔｈｅ　ｄｅａｄ．　Ａｎｄ　ｔｏｄａｙ，　Ｉ　ｓｈａー"TCC_NEWLINE"ｌｌ　ａｄｄ　ａｎｏｔｃｈ　ｔｏ　Ｓｋｋｖａｂｅｋｋｒ．．"TCC_NEWLINE"．ｗｈｅｎ　ｙｏｕ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｌｆ，　ｇｅｎｅｒａｌ　ｏｆ　ｔｈｅ　ｒｅａｌｍ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ａｎｄ　ｔｏｄａｙ，　Ｉ　ｓｈー"TCC_NEWLINE"ａｌｌ　ａｄｄ　ａ　ｎｏｔｃｈ　ｔｏ　Ｓｋｋｖａｂｅｋｋｒ"TCC_NEWLINE"．．．ｗｈｅｎ　ｙｏｕ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
 "Ｔｈｉｓ　ｉｓ　ｉｔ，　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
@@ -20,7 +20,7 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｃｏｕｌｄｎ’ｔ　ｓａｖｅ　ｙｏｕ．．．　Ｉ　ａｍ　ｓー"TCC_NEWLINE"ｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈｙ　ａｒｅ　ｙｏｕ　ａｐｏｌｏｇｉｚｉｎｇ，　Ａｌｆｏー"TCC_NEWLINE"ｎｓｅ？Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ．　Ｙｏｕ　ｗｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ａｒｅ　ｙｏｕ　ａｐｏｌｏｇｉｚｉｎｇ，　Ａｌｆｏー"TCC_NEWLINE"ｎｓｅ？　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ．　Ｙｏｕ　ｗｏー"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗａｓ　ｄｒｉｖｅｎ　ｔｏ　ｍａｄｎｅｓｓ，　ｔｏ　ｒー"TCC_NEWLINE"ｕｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　ｙｏｕｙｏｕ　ａｒｅ　ｓｔｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -28,31 +28,31 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "Ｓｈａｒｅｎａ，　ｔｈｅ　ｃｉｔｉｚｅｎｓ　ｏｆ　Ａｓｋｒ"TCC_NEWLINE"，　ｅｖｅｎ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃｏｕｌｄｎ’ｔ　ｓａｖｅ　ａ　ｓｉｎｇｌｅ　ｏｎｅ　"TCC_NEWLINE"ｏｆ　ｔｈｅｍ．Ｔｈｅ　ｇｒｉｅｆ　ｔｗｉｓｔｅｄ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｅｙ　ａｌｌ　ｙｅｔ　ｌｉｖｅ　ｉｎ　ｙｏｕｒ"TCC_NEWLINE"　ｗｏｒｌｄ．Ｐｅｒｈａｐｓ　Ｉ　ｃａｎ　ｄｒａｗ　ｓｏｍー"TCC_NEWLINE"ｅ　ｓｍａｌｌｃｏｍｆｏｒｔ　ｆｒｏｍ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｌｅａｓｅ，　Ａｌｆｏｎｓｅ．．．　Ｅｎｓｕｒｅ　ａ　ｈー"TCC_NEWLINE"ａｐｐｉｅｒｆｕｔｕｒｅ　ｆｏｒ　ｙｏｕｒ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｏｕｌｄｎ’ｔ　ｓａｖｅ　ａ　ｓｉｎｇｌｅ　ｏｎｅ　"TCC_NEWLINE"ｏｆ　ｔｈｅｍ．　Ｔｈｅ　ｇｒｉｅｆ　ｔｗｉｓｔｅｄ　ｍｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｙ　ａｌｌ　ｙｅｔ　ｌｉｖｅ　ｉｎ　ｙｏｕｒ"TCC_NEWLINE"　ｗｏｒｌｄ．　Ｐｅｒｈａｐｓ　Ｉ　ｃａｎ　ｄｒａｗ　ｓｏー"TCC_NEWLINE"ｍｅ　ｓｍａｌｌ　ｃｏｍｆｏｒｔ　ｆｒｏｍ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　Ａｌｆｏｎｓｅ．．．　Ｅｎｓｕｒｅ　ａ　ｈー"TCC_NEWLINE"ａｐｐｉｅｒ　ｆｕｔｕｒｅ　ｆｏｒ　ｙｏｕｒ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ａｒｅ　ｍｅ．　Ｈａｄ　ｔｈｉｎｇｓ　ｔｕｒｎｅｄ"TCC_NEWLINE"　ｏｕｔｊｕｓｔ　ａ　ｌｉｔｔｌｅ　ｂｉｔ　ｄｉｆｆｅｒｅー"TCC_NEWLINE"ｎｔｌｙ，　ｏｕｒ　ｆｏｒｔｕｎｅｓｃｏｕｌｄ　ｈａｖｅ　"TCC_NEWLINE"ｂｅｅｎ　ｒｅｖｅｒｓｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｌｅａｓｔ　Ｉ　ｃａｎ　ｄｏ　ｉｓ　ｔｏ　ｗｏｒｋ"TCC_NEWLINE"　ｔｏ　ｍａｋｅＡｓｋｒ　ｓｕｃｈ　ａ　ｐｌａｃｅ．　Ｙｏー"TCC_NEWLINE"ｕ　ｈａｖｅ　ｍｙ　ｗｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｆｉｒｓｔ．．．Ｉ　ｍｕｓｔ　ｅｒａｄｉｃａｔｅ　"TCC_NEWLINE"ｔｈｅ　ｓｏｕｒｃｅｏｆ　ａｌｌ　ｔｈｉｓ　ｓｕｆｆｅｒｉー"TCC_NEWLINE"ｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｍｅ．　Ｈａｄ　ｔｈｉｎｇｓ　ｔｕｒｎｅｄ"TCC_NEWLINE"　ｏｕｔ　ｊｕｓｔ　ａ　ｌｉｔｔｌｅ　ｂｉｔ　ｄｉｆｆｅｒー"TCC_NEWLINE"ｅｎｔｌｙ，　ｏｕｒ　ｆｏｒｔｕｎｅｓ　ｃｏｕｌｄ　ｈａｖー"TCC_NEWLINE"ｅ　ｂｅｅｎ　ｒｅｖｅｒｓｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌｅａｓｔ　Ｉ　ｃａｎ　ｄｏ　ｉｓ　ｔｏ　ｗｏｒｋ"TCC_NEWLINE"　ｔｏ　ｍａｋｅ　Ａｓｋｒ　ｓｕｃｈ　ａ　ｐｌａｃｅ．　Ｙー"TCC_NEWLINE"ｏｕ　ｈａｖｅ　ｍｙ　ｗｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｆｉｒｓｔ．．．Ｉ　ｍｕｓｔ　ｅｒａｄｉｃａｔｅ　"TCC_NEWLINE"ｔｈｅ　ｓｏｕｒｃｅ　ｏｆ　ａｌｌ　ｔｈｉｓ　ｓｕｆｆｅｒー"TCC_NEWLINE"ｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｉｓ．．．ｉｓ　ｔｈｅ　ｗｅａｐｏｎ　ｔｈａｔ　Ｌｆ　"TCC_NEWLINE"ｈｅｌｄ．Ｔｈｅ　ｗｅａｐｏｎ　ｗｅ’ｒｅ　ｌｏｏｋｉｎｇ"TCC_NEWLINE"　ｆｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ．．．ｉｓ　ｔｈｅ　ｗｅａｐｏｎ　ｔｈａｔ　Ｌｆ　"TCC_NEWLINE"ｈｅｌｄ．　Ｔｈｅ　ｗｅａｐｏｎ　ｗｅ’ｒｅ　ｌｏｏｋｉｎー"TCC_NEWLINE"ｇ　ｆｏｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗａｉｔ　ａ　ｓｅｃｏｎｄｔｈａｔ’ｓ　Ｂｒｅｉｄａｂｌｉー"TCC_NEWLINE"ｋ，ｉｓｎ’ｔ　ｉｔ？　Ｉｔ’ｓ　ｌｉｋｅ　ｔｈｅ　ｏｎｅ"TCC_NEWLINE"　ｈｅｌｄ　ｂｙ"TCC_NEWLINE
+"Ｗａｉｔ　ａ　ｓｅｃｏｎｄｔｈａｔ’ｓ　Ｂｒｅｉｄａｂｌｉー"TCC_NEWLINE"ｋ，　ｉｓｎ’ｔ　ｉｔ？　Ｉｔ’ｓ　ｌｉｋｅ　ｔｈｅ　ｏｎー"TCC_NEWLINE"ｅ　ｈｅｌｄ　ｂｙ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｍｕｓｔ　ｍｅａｎ　ｔｈａｔ　ｔｈｅ　Ａｌｆｏｎー"TCC_NEWLINE"ｓｅｏｆ　ｔｈｉｓ　ｗｏｒｌｄ　ｅｎｔｒｕｓｔｅｄ　ｔｈａー"TCC_NEWLINE"ｔ　ｗｅｉｇｈｔｙｐｏｗｅｒ　ｔｏ"TCC_NEWLINE
+"Ｔｈａｔ　ｍｕｓｔ　ｍｅａｎ　ｔｈａｔ　ｔｈｅ　Ａｌｆｏｎー"TCC_NEWLINE"ｓｅ　ｏｆ　ｔｈｉｓ　ｗｏｒｌｄ　ｅｎｔｒｕｓｔｅｄ　ｔｈー"TCC_NEWLINE"ａｔ　ｗｅｉｇｈｔｙ　ｐｏｗｅｒ　ｔｏ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｅｓ．　Ａｎｄ　ａｓ　ｗｅ　ｓｕｓｐｅｃｔｅｄ，　ｔｈｅー"TCC_NEWLINE"ｓｕｍｍｏｎｅｒ　ｆｒｏｍ　ｔｈｉｓ　ｒｅａｌｍ　ｐｅｒｉー"TCC_NEWLINE"ｓｈｅｄａｌｏｎｇ　ｗｉｔｈ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ’ｓ　ｗｈｙ　Ａｌｆｏｎｓｅ　ｗａｓ　ｃａｒｒｙｉー"TCC_NEWLINE"ｎｇｉｔ．　Ａｓ　ａ　ｋｅｅｐｓａｋｅ．　Ｈｅ　ｃｏｕｌｄー"TCC_NEWLINE"ｎ’ｔｌｅｔ　ｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ａｎｄ　ａｓ　ｗｅ　ｓｕｓｐｅｃｔｅｄ，　ｔｈｅ"TCC_NEWLINE"　ｓｕｍｍｏｎｅｒ　ｆｒｏｍ　ｔｈｉｓ　ｒｅａｌｍ　ｐｅｒー"TCC_NEWLINE"ｉｓｈｅｄ　ａｌｏｎｇ　ｗｉｔｈ　ｅｖｅｒｙｏｎｅ　ｅｌｓー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｗｈｙ　Ａｌｆｏｎｓｅ　ｗａｓ　ｃａｒｒｙｉー"TCC_NEWLINE"ｎｇ　ｉｔ．　Ａｓ　ａ　ｋｅｅｐｓａｋｅ．　Ｈｅ　ｃｏｕｌー"TCC_NEWLINE"ｄｎ’ｔ　ｌｅｔ　ｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｅｌｌ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｓｈｏｕｌｄ　ｂｅ　ａｂｌｅ　ｔｏ　ｗｉｅｌｄ　ｔー"TCC_NEWLINE"ｈｉｓｏｎｅ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　ｒｅー"TCC_NEWLINE"ａｌｍ　ｏｆｔｈｅ　ｄｅａｄ．　Ｗｅ　ｍｕｓｔ　ｅｎｄ　ｔー"TCC_NEWLINE"ｈｉｓ　ｗａｋｉｎｇｎｉｇｈｔｍａｒｅ　Ｈｅｌ　ｈａｓ　ｆー"TCC_NEWLINE"ａｓｈｉｏｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｙ　ｏｕｒ　ｈａｎｄｓ．　Ｔｈｅｒｅ　ｃａｎ　ｂｅ　ｎｏー"TCC_NEWLINE"ｍｉｓｔａｋｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｂｅ　ａｂｌｅ　ｔｏ　ｗｉｅｌｄ　ｔー"TCC_NEWLINE"ｈｉｓ　ｏｎｅ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　ｒｅー"TCC_NEWLINE"ａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｗｅ　ｍｕｓｔ　ｅｎｄ　"TCC_NEWLINE"ｔｈｉｓ　ｗａｋｉｎｇ　ｎｉｇｈｔｍａｒｅ　Ｈｅｌ　ｈａｓ"TCC_NEWLINE"　ｆａｓｈｉｏｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｙ　ｏｕｒ　ｈａｎｄｓ．　Ｔｈｅｒｅ　ｃａｎ　ｂｅ　ｎｏ"TCC_NEWLINE"　ｍｉｓｔａｋｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

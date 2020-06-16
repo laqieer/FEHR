@@ -4,51 +4,51 @@
 TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｇｏｏｄ　ｅｖｅｎｉｎｇ．　Ｉ　ｍｕｓｔ　ａｐｏｌｏｇｉｚー"TCC_NEWLINE"ｅｆｏｒ　ｔｈｉｓ　ｉｎｔｒｕｓｉｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｕｓｉｎｇ　ａ　ｓｐｅｃｉａｌ　ｒｉｔｅ　ｔｏ　ｓー"TCC_NEWLINE"ｐｅａｋ　ｗｉｔｈｙｏｕ　ｗｈｉｌｅ　ｙｏｕ　ｓｌｕｍｂｅー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｎｋｓ　ｔｏ　Ｅｍｂｌａ　ａｎｄ　Ｍｓｐｅｌｌ，　ｙー"TCC_NEWLINE"ｏｕ’ｖｅｂｅｅｎ　ｄｒａｗｎ　ｉｎｔｏ　ｔｈｅ　ｃｈａｏー"TCC_NEWLINE"ｓ　ｏｆ　ｗａｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗａｎｔ　ｔｏ　ｄｏ　ｗｈａｔｅｖｅｒ　Ｉ　ｃａｎ，　"TCC_NEWLINE"ｎｏ　ｍａｔｔｅｒｈｏｗ　ｓｍａｌｌ，　ｔｏ　ｈｅｌｐ　ｙー"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｈｏｗ　ｒｕｄｅ　ｏｆ　ｍｅ．．．　Ｉ　ｈａｖｅｎ"TCC_NEWLINE"’ｔｉｎｔｒｏｄｕｃｅｄ　ｍｙｓｅｌｆ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ　ｅｖｅｎｉｎｇ．　Ｉ　ｍｕｓｔ　ａｐｏｌｏｇｉｚー"TCC_NEWLINE"ｅ　ｆｏｒ　ｔｈｉｓ　ｉｎｔｒｕｓｉｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｕｓｉｎｇ　ａ　ｓｐｅｃｉａｌ　ｒｉｔｅ　ｔｏ　ｓー"TCC_NEWLINE"ｐｅａｋ　ｗｉｔｈ　ｙｏｕ　ｗｈｉｌｅ　ｙｏｕ　ｓｌｕｍｂー"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋｓ　ｔｏ　Ｅｍｂｌａ　ａｎｄ　Ｍｓｐｅｌｌ，　ｙー"TCC_NEWLINE"ｏｕ’ｖｅ　ｂｅｅｎ　ｄｒａｗｎ　ｉｎｔｏ　ｔｈｅ　ｃｈａー"TCC_NEWLINE"ｏｓ　ｏｆ　ｗａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｔｏ　ｄｏ　ｗｈａｔｅｖｅｒ　Ｉ　ｃａｎ，　"TCC_NEWLINE"ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｓｍａｌｌ，　ｔｏ　ｈｅｌｐ　"TCC_NEWLINE"ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｈｏｗ　ｒｕｄｅ　ｏｆ　ｍｅ．．．　Ｉ　ｈａｖｅｎ"TCC_NEWLINE"’ｔ　ｉｎｔｒｏｄｕｃｅｄ　ｍｙｓｅｌｆ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ａｍ　Ｇｕｎｎｔｈｒ，　ｅｌｄｅｓｔ　ｐｒｉｎｃｅｓｓー"TCC_NEWLINE"ｏｆ　Ｎｉｆｌ，　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｙｏｕ　ｋｎｏｗ　ｍｙ　ｙｏｕｎｇｅｒ　ｓｉｓｔｅｒ"TCC_NEWLINE"，Ｆｊｏｒｍ？"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｅ　ｈａｓ　ａ　ｇｅｎｔｌｅ　ｓｏｕｌ，　ｂｕｔ　ｓｈー"TCC_NEWLINE"ｅ．．．Ｗｅｌｌ．．．　Ｓｈｅ　ｈａｓ　ａｎ　ｕｎｆｏｒｔー"TCC_NEWLINE"ｕｎａｔｅｔｅｎｄｅｎｃｙ　ｔｏ　ａｇｏｎｉｚｅ　ｏｖｅｒ"TCC_NEWLINE"　ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ　ｍｕｓｔ　ａｐｏｌｏｇｉｚｅ　ｏｎｃｅ　ａｇａー"TCC_NEWLINE"ｉｎ．　Ｍｙｓｉｓｔｅｒ　ｉｓ　ｎｏｔ　ｔｈｅ　ｒｅａｓｏー"TCC_NEWLINE"ｎ　Ｉ　ｗｉｓｈｅｄ　ｔｏｓｐｅａｋ　ｗｉｔｈ　ｙｏｕ　ｔー"TCC_NEWLINE"ｈｉｓ　ｅｖｅｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ，　Ｉ　ｈａｖｅ　ｓｏｍｅ　ｕｓｅｆｕｌ　ｉｎｆｏｒｍー"TCC_NEWLINE"ａｔｉｏｎｆｏｒ　ｙｏｕ．　Ｉｎ　ｔｈｅ　ｗｅｓｔ　ｏｆ　"TCC_NEWLINE"Ａｓｋｒ，　ｔｈｅｒｅ　ｉｓａ　ｓｈｒｉｎｅ　ｆｏｒ　ｔｈー"TCC_NEWLINE"ｅ　Ｒｉｔｅ　ｏｆ　Ａｗａｋｅｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｇｕｎｎｔｈｒ，　ｅｌｄｅｓｔ　ｐｒｉｎｃｅｓｓ"TCC_NEWLINE"　ｏｆ　Ｎｉｆｌ，　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｋｎｏｗ　ｍｙ　ｙｏｕｎｇｅｒ　ｓｉｓｔｅｒ"TCC_NEWLINE"，　Ｆｊｏｒｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｈａｓ　ａ　ｇｅｎｔｌｅ　ｓｏｕｌ，　ｂｕｔ　ｓｈー"TCC_NEWLINE"ｅ．．．　Ｗｅｌｌ．．．　Ｓｈｅ　ｈａｓ　ａｎ　ｕｎｆｏｒー"TCC_NEWLINE"ｔｕｎａｔｅ　ｔｅｎｄｅｎｃｙ　ｔｏ　ａｇｏｎｉｚｅ　ｏｖー"TCC_NEWLINE"ｅｒ　ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｍｕｓｔ　ａｐｏｌｏｇｉｚｅ　ｏｎｃｅ　ａｇａー"TCC_NEWLINE"ｉｎ．　Ｍｙ　ｓｉｓｔｅｒ　ｉｓ　ｎｏｔ　ｔｈｅ　ｒｅａｓー"TCC_NEWLINE"ｏｎ　Ｉ　ｗｉｓｈｅｄ　ｔｏ　ｓｐｅａｋ　ｗｉｔｈ　ｙｏｕ"TCC_NEWLINE"　ｔｈｉｓ　ｅｖｅｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ｉ　ｈａｖｅ　ｓｏｍｅ　ｕｓｅｆｕｌ　ｉｎｆｏｒｍー"TCC_NEWLINE"ａｔｉｏｎ　ｆｏｒ　ｙｏｕ．　Ｉｎ　ｔｈｅ　ｗｅｓｔ　ｏｆ"TCC_NEWLINE"　Ａｓｋｒ，　ｔｈｅｒｅ　ｉｓ　ａ　ｓｈｒｉｎｅ　ｆｏｒ　"TCC_NEWLINE"ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ａｗａｋｅｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ｆｕｒｔｈｅｒ　ｗｅｓｔ　ｏｆ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S1601_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ａｎｄ　ｈｅｒｅ　ｉｔ　ｉｓ．　Ａｎｏｔｈｅｒ　ｓｈｒｉｎー"TCC_NEWLINE"ｅ，　ｆｕｒｔｈｅｒｗｅｓｔ．　Ｉｔ’ｓ　ｊｕｓｔ　ａｓ　"TCC_NEWLINE"ｙｏｕ　ｓａｉｄ　ｉｔ　ｗｏｕｌｄ　ｂｅ，"TCC_NEWLINE
+"Ａｎｄ　ｈｅｒｅ　ｉｔ　ｉｓ．　Ａｎｏｔｈｅｒ　ｓｈｒｉｎー"TCC_NEWLINE"ｅ，　ｆｕｒｔｈｅｒ　ｗｅｓｔ．　Ｉｔ’ｓ　ｊｕｓｔ　ａｓ"TCC_NEWLINE"　ｙｏｕ　ｓａｉｄ　ｉｔ　ｗｏｕｌｄ　ｂｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｔｏ　ｔｈｉｎｋ　ｔｈａｔ　ｉｔ　ｗａｓ　ｈｅｒｅ"TCC_NEWLINE"　ａｌｌ　ａｌｏｎｇ，ｎｏｎｅ　ｏｆ　ｕｓ　ｔｈｅ　ｗｉｓー"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｏ　ｔｈｉｎｋ　ｔｈａｔ　ｉｔ　ｗａｓ　ｈｅｒｅ"TCC_NEWLINE"　ａｌｌ　ａｌｏｎｇ，　ｎｏｎｅ　ｏｆ　ｕｓ　ｔｈｅ　ｗｉー"TCC_NEWLINE"ｓｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉｔ’ｓ　ｕｎｃａｎｎｙ！　Ｙｏｕ　ｋｎｏｗ　ｊｕｓｔ　ａー"TCC_NEWLINE"ｂｏｕｔｅｖｅｒｙｔｈｉｎｇ，　ｄｏｎ’ｔ　ｙｏｕ？　Ｔｅー"TCC_NEWLINE"ｌｌ　ｍｅ　ａ　ｊｕｉｃｙｓｅｃｒｅｔ，"TCC_NEWLINE
+"Ｉｔ’ｓ　ｕｎｃａｎｎｙ！　Ｙｏｕ　ｋｎｏｗ　ｊｕｓｔ　ａー"TCC_NEWLINE"ｂｏｕｔ　ｅｖｅｒｙｔｈｉｎｇ，　ｄｏｎ’ｔ　ｙｏｕ？　Ｔー"TCC_NEWLINE"ｅｌｌ　ｍｅ　ａ　ｊｕｉｃｙ　ｓｅｃｒｅｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｏｎ　ｙｏｕｒ　ｇｕａｒｄ，　ｅｖｅｒｙｏｎｅ．　Ｒｅｍｅー"TCC_NEWLINE"ｍｂｅｒｔｈａｔ　ｔｈｉｓ　ｉｎｆｏｒｍａｔｉｏｎ　ｃａｍー"TCC_NEWLINE"ｅ　ｆｒｏｍ　ａｖｏｉｃｅ　ｉｎ　ａ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ’ｓ　ｅｖｅｒｙ　ｃｈａｎｃｅ　ｔｈａｔ　ｔｈｉー"TCC_NEWLINE"ｓ　ｉｓ　ａｔｒａｐ　ｌａｉｄ　ｂｙ　ｏｕｒ　ｅｎｅｍｉｅー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎ　ｙｏｕｒ　ｇｕａｒｄ，　ｅｖｅｒｙｏｎｅ．　Ｒｅｍｅー"TCC_NEWLINE"ｍｂｅｒ　ｔｈａｔ　ｔｈｉｓ　ｉｎｆｏｒｍａｔｉｏｎ　ｃａー"TCC_NEWLINE"ｍｅ　ｆｒｏｍ　ａ　ｖｏｉｃｅ　ｉｎ　ａ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｅｖｅｒｙ　ｃｈａｎｃｅ　ｔｈａｔ　ｔｈｉー"TCC_NEWLINE"ｓ　ｉｓ　ａ　ｔｒａｐ　ｌａｉｄ　ｂｙ　ｏｕｒ　ｅｎｅｍｉー"TCC_NEWLINE"ｅｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｐｒｏｃｅｅｄ　ｗｉｔｈ　ｃａｕｔｉｏｎ．　Ｗｅ’ｒｅ　ｇー"TCC_NEWLINE"ｏｉｎｇ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S1601_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｉｓ　ｓｈｒｉｎｅ　ｒｅａｌｌｙ　ｉｓ　ｓｉｍｉｌａｒ"TCC_NEWLINE"　ｔｏ　ｔｈｅ　ｏｎｅｗｅ　ｅｘｐｌｏｒｅｄ　ｂｅｆｏｒｅ"TCC_NEWLINE"．　Ｗｅ’ｖｅ　ａｌｒｅａｄｙｍａｄｅ　ｉｔ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｄｅｐｔｈｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｓｈｒｉｎｅ　ｒｅａｌｌｙ　ｉｓ　ｓｉｍｉｌａｒ"TCC_NEWLINE"　ｔｏ　ｔｈｅ　ｏｎｅ　ｗｅ　ｅｘｐｌｏｒｅｄ　ｂｅｆｏｒー"TCC_NEWLINE"ｅ．　Ｗｅ’ｖｅ　ａｌｒｅａｄｙ　ｍａｄｅ　ｉｔ　ｔｏ　ｔー"TCC_NEWLINE"ｈｅ　ｄｅｐｔｈｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｙｅｓ，　ｉｔ　ｉｓ，　ｉｓｎ’ｔ　ｉｔ？　Ａｎｄ　ｌｏｏー"TCC_NEWLINE"ｋａ　ｓｔｏｎｅｓｌａｂ，　ｊｕｓｔ　ｌｉｋｅ　ｔｈｅ　ｏー"TCC_NEWLINE"ｎｅ　ｉｎ　ｔｈｅ　ｏｔｈｅｒｓｈｒｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ，　ｄｅａｒ　Ｂｒｏｔｈｅｒ．．．　Ｉｔ’ｓ　ｙｏｕｒ"TCC_NEWLINE"　ｔｉｍｅ　ｔｏｓｈｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　ｉｔ　ｉｓ，　ｉｓｎ’ｔ　ｉｔ？　Ａｎｄ　ｌｏｏー"TCC_NEWLINE"ｋａ　ｓｔｏｎｅ　ｓｌａｂ，　ｊｕｓｔ　ｌｉｋｅ　ｔｈｅ　"TCC_NEWLINE"ｏｎｅ　ｉｎ　ｔｈｅ　ｏｔｈｅｒ　ｓｈｒｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｄｅａｒ　Ｂｒｏｔｈｅｒ．．．　Ｉｔ’ｓ　ｙｏｕｒ"TCC_NEWLINE"　ｔｉｍｅ　ｔｏ　ｓｈｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ’ｍ　ｎｏ　ｔｒａｎｓｌａｔｏｒ，　Ｓｈａｒｅｎａ，　ｂー"TCC_NEWLINE"ｕｔ．．．　Ｖｅｒｙｗｅｌｌ．　Ｉ’ｌｌ　ｄｏ　ｗｈａｔ　"TCC_NEWLINE"Ｉ　ｃａｎ　ｔｏ　ｄｅｃｉｐｈｅｒ　ｔｈｅｔｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｐｅａｋ　ｎｏｔ　ｏｆ　ｔｈｉｓ　ｒｉｔｅ．　Ｒｅｖｅａー"TCC_NEWLINE"ｌ　ｉｔ　ｔｏｎｏｎｅ．　Ｎｅｖｅｒ　ｍａｙ　ｔｈｅｓｅ　"TCC_NEWLINE"ｒｕｎｅｓ　ｂｅｔｒａｎｓｃｒｉｂｅｄ．　Ｙｏｕ　ａｒｅ　"TCC_NEWLINE"ｓｏ　ｅｎｊｏｉｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｉｎｄ　ｙｏｕ　ｈｅｒｅ　ａ　ｆｒａｇｍｅｎｔ　ｏｆ　ｔー"TCC_NEWLINE"ｈｅ　Ｒｉｔｅｏｆ　Ａｗａｋｅｎｉｎｇ　ｆｏｒ　Ｅｍｂｌａ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏ　ｔｒａｎｓｌａｔｏｒ，　Ｓｈａｒｅｎａ，　ｂー"TCC_NEWLINE"ｕｔ．．．　Ｖｅｒｙ　ｗｅｌｌ．　Ｉ’ｌｌ　ｄｏ　ｗｈａｔ"TCC_NEWLINE"　Ｉ　ｃａｎ　ｔｏ　ｄｅｃｉｐｈｅｒ　ｔｈｅ　ｔｅｘｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｐｅａｋ　ｎｏｔ　ｏｆ　ｔｈｉｓ　ｒｉｔｅ．　Ｒｅｖｅａー"TCC_NEWLINE"ｌ　ｉｔ　ｔｏ　ｎｏｎｅ．　Ｎｅｖｅｒ　ｍａｙ　ｔｈｅｓｅ"TCC_NEWLINE"　ｒｕｎｅｓ　ｂｅ　ｔｒａｎｓｃｒｉｂｅｄ．　Ｙｏｕ　ａｒー"TCC_NEWLINE"ｅ　ｓｏ　ｅｎｊｏｉｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎｄ　ｙｏｕ　ｈｅｒｅ　ａ　ｆｒａｇｍｅｎｔ　ｏｆ　ｔー"TCC_NEWLINE"ｈｅ　Ｒｉｔｅ　ｏｆ　Ａｗａｋｅｎｉｎｇ　ｆｏｒ　Ｅｍｂｌー"TCC_NEWLINE"ａ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｉｓ　ｗｒｉｔｉｎｇ．．．　Ｉｔ’ｓ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　ＥｍｂｌｉａｎＥｍｐｉｒｅ？　Ｈｏｗ　ｄｉｄ　ｔｈｉｓ　"TCC_NEWLINE"ｅｎｄ　ｕｐ　ｈｅｒｅ　ｉｎＡｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｗｒｉｔｉｎｇ．．．　Ｉｔ’ｓ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ？　Ｈｏｗ　ｄｉｄ　ｔｈｉｓ"TCC_NEWLINE"　ｅｎｄ　ｕｐ　ｈｅｒｅ　ｉｎ　Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｉｓ　ｉｓ　ａ　ｒｉｔｅ　ｏｆ　ｈｏｎｉｎｇ．　Ａｓ　"TCC_NEWLINE"ａ　ｓｔｏｎｅｓｈａｒｐｅｎｓ　ａ　ｂｌａｄｅ，　ｓｏ　ｄー"TCC_NEWLINE"ｏ　ｔｈｅｓｅ　ｗｏｒｄｓ．Ｔｏｍｅｓ，　ｔｏｏ，　ａｒｅ"TCC_NEWLINE"　ｍａｄｅ　ｋｅｅｎｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　１０，０００　ｗａｒｒｉｏｒｓ　ｍａｙ　ｎｏｔ　"TCC_NEWLINE"ｅｑｕａｌｔｈｉｓ　ｐｏｗｅｒ　ｉｎ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ａ　ｒｉｔｅ　ｏｆ　ｈｏｎｉｎｇ．　Ａｓ　"TCC_NEWLINE"ａ　ｓｔｏｎｅ　ｓｈａｒｐｅｎｓ　ａ　ｂｌａｄｅ，　ｓｏ　"TCC_NEWLINE"ｄｏ　ｔｈｅｓｅ　ｗｏｒｄｓ．　Ｔｏｍｅｓ，　ｔｏｏ，　ａー"TCC_NEWLINE"ｒｅ　ｍａｄｅ　ｋｅｅｎｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　１０，０００　ｗａｒｒｉｏｒｓ　ｍａｙ　ｎｏｔ　"TCC_NEWLINE"ｅｑｕａｌ　ｔｈｉｓ　ｐｏｗｅｒ　ｉｎ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｅｔ　ｉｔ　ｓｈａｌｌ　ｒｅｍａｉｎ　ｕｎｄｅｒ　ｓｅａー"TCC_NEWLINE"ｌ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｔｈｅ　ｆｌａｍｅｓ，　ａｓ　ｆｏｒｅｔｏｌｄ，"TCC_NEWLINE"　ｌｉｃｋ　ｔｈｅｌａｎｄ．．．Ａｓｋｒ　ｔｈｅ　ｓｅａｌ"TCC_NEWLINE"　ｓｈａｌｌ　ｂｒｅａｋ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｅｙｏｎｄ　ｔｈａｔ，　ｉｔ’ｓ　ｊｕｓｔ　ｄｅｔａｉｌー"TCC_NEWLINE"ｓ　ｏｎ　ｈｏｗ　ｔｏｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｔｈｅ　ｆｌａｍｅｓ，　ａｓ　ｆｏｒｅｔｏｌｄ，"TCC_NEWLINE"　ｌｉｃｋ　ｔｈｅ　ｌａｎｄ．．．Ａｓｋｒ　ｔｈｅ　ｓｅａー"TCC_NEWLINE"ｌ　ｓｈａｌｌ　ｂｒｅａｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｙｏｎｄ　ｔｈａｔ，　ｉｔ’ｓ　ｊｕｓｔ　ｄｅｔａｉｌー"TCC_NEWLINE"ｓ　ｏｎ　ｈｏｗ　ｔｏ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅｌｌ，　ｔｈｅｎ．　Ｗｈａｔ　ｓｈａｌｌ　ｗｅ　ｄｏ，"TCC_NEWLINE"Ｃｏｍｍａｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｔｈｅｎ．　Ｗｈａｔ　ｓｈａｌｌ　ｗｅ　ｄｏ，"TCC_NEWLINE"　Ｃｏｍｍａｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｉｓ　ｐｏｗｅｒ　ｍａｙ　ｃｏｍｅ　ｆｒｏｍ　ｏｕｒｅー"TCC_NEWLINE"ｎｅｍｉｅｓ．．．ｂｕｔ　ｉｆ　ｗｅ　ｕｓｅ　ｉｔ　ｗｉｓー"TCC_NEWLINE"ｅｌｙ，　ｉｔｃｏｕｌｄ　ｈｅｌｐ　ｕｓ　ｇｒｅａｔｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ’ｓ　ｎｏ　ｑｕｅｓｔｉｏｎ　ｉｎ　ｍｙ　ｍｉｎー"TCC_NEWLINE"ｄ．　Ｗｅｍｕｓｔ　ｃａｒｒｙ　ｔｈｉｓ　ｋｎｏｗｌｅｄｇー"TCC_NEWLINE"ｅ　ｂａｃｋ　ｔｏｂａｓｅ　ａｎｄ　ｇｅｔ　ｔｏ　ｗｏｒｋ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｐｏｗｅｒ　ｍａｙ　ｃｏｍｅ　ｆｒｏｍ　ｏｕｒ　"TCC_NEWLINE"ｅｎｅｍｉｅｓ．．．ｂｕｔ　ｉｆ　ｗｅ　ｕｓｅ　ｉｔ　ｗｉー"TCC_NEWLINE"ｓｅｌｙ，　ｉｔ　ｃｏｕｌｄ　ｈｅｌｐ　ｕｓ　ｇｒｅａｔｌー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｑｕｅｓｔｉｏｎ　ｉｎ　ｍｙ　ｍｉｎー"TCC_NEWLINE"ｄ．　Ｗｅ　ｍｕｓｔ　ｃａｒｒｙ　ｔｈｉｓ　ｋｎｏｗｌｅｄー"TCC_NEWLINE"ｇｅ　ｂａｃｋ　ｔｏ　ｂａｓｅ　ａｎｄ　ｇｅｔ　ｔｏ　ｗｏー"TCC_NEWLINE"ｒｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

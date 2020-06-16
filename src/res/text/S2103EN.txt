@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2103_EN] = TCC_OPEN_LEFT
-"Ｌｌｏｙｄ！　Ｌｉｎｕｓ！　Ｙｏｕ　ｔｗｏ　ｈａｄ　ｂｅｔー"TCC_NEWLINE"ｔｅｒ　ｂｅｗａｔｃｈｉｎｇ．．．　Ｉ’ｍ　ｄｏｉｎｇ　ｔー"TCC_NEWLINE"ｈｅ　ｂｅｓｔ　Ｉ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｌｏｙｄ！　Ｌｉｎｕｓ！　Ｙｏｕ　ｔｗｏ　ｈａｄ　ｂｅｔー"TCC_NEWLINE"ｔｅｒ　ｂｅ　ｗａｔｃｈｉｎｇ．．．　Ｉ’ｍ　ｄｏｉｎｇ　"TCC_NEWLINE"ｔｈｅ　ｂｅｓｔ　Ｉ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

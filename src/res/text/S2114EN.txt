@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2114_EN] = TCC_OPEN_LEFT
-"Ｅｘｃｕｓｅ　ｍｅ？　Ｉ’ｍ　ｕｐ　ｈｅｒｅ！　Ｏｈａａｈ"TCC_NEWLINE"！Ｉ’ｍ　ｎｏｔ．．．ｑｕｉｔｅ．．．ｕｓｅｄ　ｔｏ　ｆｌー"TCC_NEWLINE"ｙｉｎｇｏｈ！Ｓｔｏｐ．．．ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｘｃｕｓｅ　ｍｅ？　Ｉ’ｍ　ｕｐ　ｈｅｒｅ！　Ｏｈａａｈ"TCC_NEWLINE"！　Ｉ’ｍ　ｎｏｔ．．．ｑｕｉｔｅ．．．ｕｓｅｄ　ｔｏ　ｆー"TCC_NEWLINE"ｌｙｉｎｇｏｈ！　Ｓｔｏｐ．．．ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

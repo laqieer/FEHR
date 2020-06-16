@@ -1,32 +1,32 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4052_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｄｅａｒｅｓｔ　ｗｉｓｈ　ｉｓ　ｆｏｒ　ｍｙ　ｆａｍー"TCC_NEWLINE"ｉｌｙｔｏ　ｒｅｕｎｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｄｅａｒｅｓｔ　ｗｉｓｈ　ｉｓ　ｆｏｒ　ｍｙ　ｆａｍー"TCC_NEWLINE"ｉｌｙ　ｔｏ　ｒｅｕｎｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4052_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｕｍｍ．．．　Ｃａｎ　Ｉ　ｓｐｅａｋ　ｗｉｔｈｙｏｕ，　Ａー"TCC_NEWLINE"ｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｕｍｍ．．．　Ｃａｎ　Ｉ　ｓｐｅａｋ　ｗｉｔｈ　ｙｏｕ，　"TCC_NEWLINE"Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｏｆ　ｃｏｕｒｓｅ．　Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈａｔ　ｙｏｕ　ｓａｉｄ　ｂｅｆｏｒｅ．　Ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇａｂｏｕｔ"TCC_NEWLINE
+"Ｗｈａｔ　ｙｏｕ　ｓａｉｄ　ｂｅｆｏｒｅ．　Ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇ　ａｂｏｕｔ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｅｓ！　Ｓｏ　ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｎｏｗ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ．　Ｎｏ．．．　Ｉ’ｍ　ｓｏｒｒｙ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE"　Ｉ　ｃａｎ’ｔｓａｙ　Ｉ　ｂｅｌｉｅｖｅ　ｔｈｅ　ｓｕｍー"TCC_NEWLINE"ｍｏｎｅｒ　ｏｆ　ｌｅｇｅｎｄｉｓ　ａｎｙｗｈｅｒｅ　ａｒー"TCC_NEWLINE"ｏｕｎｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｔａｌｋｅｄ　ｔｏ　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ａー"TCC_NEWLINE"ｎｄｅｖｅｒｙｏｎｅ　ｅｌｓｅ　Ｉ　ｃｏｕｌｄ　ｆｉｎｄ，"TCC_NEWLINE"　ａｎｄ　ｎｏｏｎｅ　ｅｖｅｎ　ｒｅｃｏｇｎｉｚｅｄ　ｔｈー"TCC_NEWLINE"ｅ　ｎａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ．　Ｎｏ．．．　Ｉ’ｍ　ｓｏｒｒｙ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE"　Ｉ　ｃａｎ’ｔ　ｓａｙ　Ｉ　ｂｅｌｉｅｖｅ　ｔｈｅ　ｓｕー"TCC_NEWLINE"ｍｍｏｎｅｒ　ｏｆ　ｌｅｇｅｎｄ　ｉｓ　ａｎｙｗｈｅｒｅ　"TCC_NEWLINE"ａｒｏｕｎｄ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔａｌｋｅｄ　ｔｏ　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ａー"TCC_NEWLINE"ｎｄ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ　Ｉ　ｃｏｕｌｄ　ｆｉｎｄ"TCC_NEWLINE"，　ａｎｄ　ｎｏ　ｏｎｅ　ｅｖｅｎ　ｒｅｃｏｇｎｉｚｅｄ　"TCC_NEWLINE"ｔｈｅ　ｎａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．Ｉ　ｓｅｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｂｕｔ　ｅｖｅｎ　ｓａｙｉｎｇ　ｔｈａｔ，　ａｎｄ　ｂｅｌー"TCC_NEWLINE"ｉｅｖｉｎｇｗｈａｔ　Ｉ’ｍ　ｓａｙｉｎｇ　ｉｓ　ｔｒｕｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｍａｋｅｓ　ｍｅ　ｓａｄ，　ｓｏｍｅｈｏｗ．　Ｌｉｋー"TCC_NEWLINE"ｅＩ’ｍ．．．ｌｏｎｅｌｉｅｒ，　ｉｎ　ａ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｊｕｓｔ　ｈｅａｒｉｎｇ　ｔｈｅ　ｎａｍｅ　ｎｏｗ，　Ｉ　"TCC_NEWLINE"ｃａｎｈａｒｄｌｙ　ｈｏｌｄ　ｂａｃｋ　ｔｈｅ　ｔｅａｒｓ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｅｖｅｎ　ｓａｙｉｎｇ　ｔｈａｔ，　ａｎｄ　ｂｅｌー"TCC_NEWLINE"ｉｅｖｉｎｇ　ｗｈａｔ　Ｉ’ｍ　ｓａｙｉｎｇ　ｉｓ　ｔｒｕー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍａｋｅｓ　ｍｅ　ｓａｄ，　ｓｏｍｅｈｏｗ．　Ｌｉｋー"TCC_NEWLINE"ｅ　Ｉ’ｍ．．．ｌｏｎｅｌｉｅｒ，　ｉｎ　ａ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｈｅａｒｉｎｇ　ｔｈｅ　ｎａｍｅ　ｎｏｗ，　Ｉ　"TCC_NEWLINE"ｃａｎ　ｈａｒｄｌｙ　ｈｏｌｄ　ｂａｃｋ　ｔｈｅ　ｔｅａｒー"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｎｄ　Ｉ　ｄｏｎ’ｔ　ｒｅｍｅｍｂｅｒ　ｏｎｅ　ｔｈｉｎー"TCC_NEWLINE"ｇａｂｏｕｔ"TCC_NEWLINE
+"Ａｎｄ　Ｉ　ｄｏｎ’ｔ　ｒｅｍｅｍｂｅｒ　ｏｎｅ　ｔｈｉｎー"TCC_NEWLINE"ｇ　ａｂｏｕｔ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗ　ｃａｎ　ｔｈａｔ　ｂｅ，　Ａｌｆｏｎｓｅ？Ｈａｖｅ"TCC_NEWLINE"　Ｉ．．．　Ｈａｖｅ　ｗｅ　ｆｏｒｇｏｔｔｅｎｓｏｍｅｔｈー"TCC_NEWLINE"ｉｎｇ　ｉｍｐｏｒｔａｎｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃａｎ　ｔｈａｔ　ｂｅ，　Ａｌｆｏｎｓｅ？　Ｈａｖー"TCC_NEWLINE"ｅ　Ｉ．．．　Ｈａｖｅ　ｗｅ　ｆｏｒｇｏｔｔｅｎ　ｓｏｍｅー"TCC_NEWLINE"ｔｈｉｎｇ　ｉｍｐｏｒｔａｎｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ，　Ｓｈａｒｅｎａ．　Ｎｏｔ　"TCC_NEWLINE"ｔｏ　ｗｏｒｒｙ．Ｉ　ａｍ　ｗｏｒｋｉｎｇ　ｏｕｔ　ａ　ｐー"TCC_NEWLINE"ｌａｎ．　Ｉ’ｌｌ　ｊｕｓｔｎｅｅｄ　ｙｏｕｒ　ｔｒｕｓｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ，　Ｓｈａｒｅｎａ．　Ｎｏｔ　"TCC_NEWLINE"ｔｏ　ｗｏｒｒｙ．　Ｉ　ａｍ　ｗｏｒｋｉｎｇ　ｏｕｔ　ａ　"TCC_NEWLINE"ｐｌａｎ．　Ｉ’ｌｌ　ｊｕｓｔ　ｎｅｅｄ　ｙｏｕｒ　ｔｒｕー"TCC_NEWLINE"ｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

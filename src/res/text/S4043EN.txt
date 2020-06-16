@@ -1,7 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4043_EN] = TCC_OPEN_LEFT
-"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔｅａｒｓ　ｗｅ　ｓー"TCC_NEWLINE"ｈｅｄ，ｔｈｅ　ｓｎｏｗ　ｗｉｌｌ　ｎｏｔ　ｍｅｌｔ．　Ｂー"TCC_NEWLINE"ｅｔｔｅｒ　ｔｈａｔ　ｗｅｆｉｇｈｔ　ｆｏｒ　ｏｕｒ　ｈｏー"TCC_NEWLINE"ｍｅｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔｅａｒｓ　ｗｅ　ｓー"TCC_NEWLINE"ｈｅｄ，　ｔｈｅ　ｓｎｏｗ　ｗｉｌｌ　ｎｏｔ　ｍｅｌｔ．　"TCC_NEWLINE"Ｂｅｔｔｅｒ　ｔｈａｔ　ｗｅ　ｆｉｇｈｔ　ｆｏｒ　ｏｕｒ　"TCC_NEWLINE"ｈｏｍｅｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4043_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｈ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -9,37 +9,37 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｗｒｏｎｇ，　Ｓｈａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ．．．ｒｅｍｅｍｂｅｒ　ｔｈｉｓ　ｐｌａｃｅ，　Ｉ　ｔｈー"TCC_NEWLINE"ｉｎｋ．Ｔｈａｔ　ｆｉｅｌｄ　ｏｆ　ｆｌｏｗｅｒｓ　ｉｓ　"TCC_NEWLINE"ｆａｍｉｌｉａｒ．Ｌｉｋｅ　Ｉ’ｖｅ　ｂｅｅｎ　ｈｅｒｅ　"TCC_NEWLINE"ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｈｅａｒｔ．．．　Ｓｏ　ｍａｎｙ　ｍｅｍｏｒｉｅｓ．"TCC_NEWLINE"．．Ｉ　ｃａｎ　ｈａｒｄｌｙ　ｃｏｎｔａｉｎ　ｍｙｓｅｌｆ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．ｒｅｍｅｍｂｅｒ　ｔｈｉｓ　ｐｌａｃｅ，　Ｉ　ｔｈー"TCC_NEWLINE"ｉｎｋ．　Ｔｈａｔ　ｆｉｅｌｄ　ｏｆ　ｆｌｏｗｅｒｓ　ｉｓ"TCC_NEWLINE"　ｆａｍｉｌｉａｒ．　Ｌｉｋｅ　Ｉ’ｖｅ　ｂｅｅｎ　ｈｅｒー"TCC_NEWLINE"ｅ　ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｅａｒｔ．．．　Ｓｏ　ｍａｎｙ　ｍｅｍｏｒｉｅｓ．"TCC_NEWLINE"．．　Ｉ　ｃａｎ　ｈａｒｄｌｙ　ｃｏｎｔａｉｎ　ｍｙｓｅｌー"TCC_NEWLINE"ｆ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｈｏｗ　ｗｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｍｅｍｏｒｉｅｓ　ｏー"TCC_NEWLINE"ｆｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｗｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｍｅｍｏｒｉｅｓ　ｏー"TCC_NEWLINE"ｆ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｔ　ｗａｓ　ａ　ｖｅｒｙ　ｌｏｎｇ　ｔｉｍｅ　ａｇｏ．．"TCC_NEWLINE"．　ＷｈｅｎＩ　ｗａｓ　ａ　ｊｕｓｔ　ａ　ｇｉｒｌ．．．　"TCC_NEWLINE"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｈｏｗ，ｂｕｔ　Ｉ　ｃａｍｅ　ｈー"TCC_NEWLINE"ｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ａ　ｖｅｒｙ　ｌｏｎｇ　ｔｉｍｅ　ａｇｏ．．"TCC_NEWLINE"．　Ｗｈｅｎ　Ｉ　ｗａｓ　ａ　ｊｕｓｔ　ａ　ｇｉｒｌ．．．"TCC_NEWLINE"　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｈｏｗ，　ｂｕｔ　Ｉ　ｃａｍｅ"TCC_NEWLINE"　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｏｏｏｈ！　Ｌｅｔ　ｍｅ　ａｓｋ　ｙｏｕ　ｓｏｍｅｔｈｉｎー"TCC_NEWLINE"ｇ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ，　ｒｉｇｈｔ？"TCC_NEWLINE"　Ｄｉｄｙｏｕ．．．ｐｌａｙ　ｗｉｔｈ　ｌｊｓｌｆａｒ？　"TCC_NEWLINE"Ｄｏ　ｙｏｕ．．．ｒｅｍｅｍｂｅｒ　ａｎｙｔｈｉｎｇ　ａｔ"TCC_NEWLINE"　ａｌｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ，　ｒｉｇｈｔ？"TCC_NEWLINE"　Ｄｉｄ　ｙｏｕ．．．ｐｌａｙ　ｗｉｔｈ　ｌｊｓｌｆａｒ？"TCC_NEWLINE"　Ｄｏ　ｙｏｕ．．．　ｒｅｍｅｍｂｅｒ　ａｎｙｔｈｉｎｇ　"TCC_NEWLINE"ａｔ　ａｌｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｙｅａｈ！　Ｉ　ｕｓｅｄ　ｔｏ　ｐｌａｙ　ｗｉｔｈ"TCC_NEWLINE"　ｏｔｈｅｒｇｉｒｌｓ　ｗｈｏ　ｍｕｓｔ’ｖｅ　ｂｅｅｎ　"TCC_NEWLINE"ｎｅａｒ　ｍｙ　ａｇｅ．．．Ｗｅ　ｐｌａｙｅｄ　ｈｉｄｅ－"TCC_NEWLINE"ａｎｄ－ｓｅｅｋ，　ｄｒｅｓｓ－ｕｐ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｃｔｕａｌｌｙ，　ｔｈｅｙ　ｍｉｇｈｔ’ｖｅ　ｌｏｏｋｅー"TCC_NEWLINE"ｄ　ａｂｉｔ　ｌｉｋｅ　Ｐｅｏｎｙ．．．　Ｗ－ｗｅｒｅ　ｙー"TCC_NEWLINE"ｏｕ　ｔｈｅｒｅ，Ｐｅｏｎｙ？　Ｄｏ　ｙｏｕ　ｒｅｍｅｍｂー"TCC_NEWLINE"ｅｒ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｙｅａｈ！　Ｉ　ｕｓｅｄ　ｔｏ　ｐｌａｙ　ｗｉｔｈ"TCC_NEWLINE"　ｏｔｈｅｒ　ｇｉｒｌｓ　ｗｈｏ　ｍｕｓｔ’ｖｅ　ｂｅｅｎ"TCC_NEWLINE"　ｎｅａｒ　ｍｙ　ａｇｅ．．．　Ｗｅ　ｐｌａｙｅｄ　ｈｉｄー"TCC_NEWLINE"ｅ－ａｎｄ－ｓｅｅｋ，　ｄｒｅｓｓ－ｕｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｃｔｕａｌｌｙ，　ｔｈｅｙ　ｍｉｇｈｔ’ｖｅ　ｌｏｏｋｅー"TCC_NEWLINE"ｄ　ａ　ｂｉｔ　ｌｉｋｅ　Ｐｅｏｎｙ．．．　Ｗ－ｗｅｒｅ　"TCC_NEWLINE"ｙｏｕ　ｔｈｅｒｅ，　Ｐｅｏｎｙ？　Ｄｏ　ｙｏｕ　ｒｅｍｅー"TCC_NEWLINE"ｍｂｅｒ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｈｍｍ．．．　Ｓｏｒｒｙ，　Ｉ　ｄｏｎ’ｔ．　Ｉ　ＨＡＶＥ"TCC_NEWLINE"　ｐｌａｙｅｄｗｉｔｈ　ｃｈｉｌｄｒｅｎ　ｉｎ　ｔｈｅｉｒ"TCC_NEWLINE"　ｄｒｅａｍｓ，　ｂｕｔ．．．Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　"TCC_NEWLINE"ｙｏｕ　ｗｅｒｅ　ｏｎｅ　ｏｆ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ．．．　Ｓｏｒｒｙ，　Ｉ　ｄｏｎ’ｔ．　Ｉ　ＨＡＶＥ"TCC_NEWLINE"　ｐｌａｙｅｄ　ｗｉｔｈ　ｃｈｉｌｄｒｅｎ　ｉｎ　ｔｈｅｉー"TCC_NEWLINE"ｒ　ｄｒｅａｍｓ，　ｂｕｔ．．．　Ｉ　ｄｏｎ’ｔ　ｔｈｉｎー"TCC_NEWLINE"ｋ　ｙｏｕ　ｗｅｒｅ　ｏｎｅ　ｏｆ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ．．．　Ｉ　ｓｅｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅｌｌ，　ｓｉｎｃｅ　ｉｆ　ｉｔ’ｓ　ｃｈｉｌｄｒｅｎ　"TCC_NEWLINE"ｗｈｏ　ｕｓｕａｌｌｙｖｉｓｉｔ　ｔｈｅｓｅ　ｐａｒｔｓ，"TCC_NEWLINE"　ａｎｄ　ｉｔ’ｓ　ｂｅｅｎ　ａｔ　ｌｅａｓｔ１０　ｙｅａー"TCC_NEWLINE"ｒｓ　ｓｉｎｃｅ　Ｓｈａｒｅｎａ　ｗａｓ　ａ　ｃｈｉｌｄ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｓｉｎｃｅ　ｉｆ　ｉｔ’ｓ　ｃｈｉｌｄｒｅｎ　"TCC_NEWLINE"ｗｈｏ　ｕｓｕａｌｌｙ　ｖｉｓｉｔ　ｔｈｅｓｅ　ｐａｒｔｓ"TCC_NEWLINE"，　ａｎｄ　ｉｔ’ｓ　ｂｅｅｎ　ａｔ　ｌｅａｓｔ　１０　ｙー"TCC_NEWLINE"ｅａｒｓ　ｓｉｎｃｅ　Ｓｈａｒｅｎａ　ｗａｓ　ａ　ｃｈｉｌー"TCC_NEWLINE"ｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｃｔｕａｌｌｙ．．．ｈｏｗ　ｏｌｄ　ａｒｅ　ｙｏｕ，　Ｐー"TCC_NEWLINE"ｅｏｎｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｌｆｏｎｓｅ！　Ｈａｖｅ　ｙｏｕ　ｎｏ　ｓｅｎｓｅ　ａｔ"TCC_NEWLINE"　ａｌｌ？！Ｉｔ’ｓ　ＲＵＤＥ　ｔｏ　ａｓｋ　ａ　ｌａｄｙ"TCC_NEWLINE"　ｈｅｒ　ａｇｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ！　Ｈａｖｅ　ｙｏｕ　ｎｏ　ｓｅｎｓｅ　ａｔ"TCC_NEWLINE"　ａｌｌ？！　Ｉｔ’ｓ　ＲＵＤＥ　ｔｏ　ａｓｋ　ａ　ｌａｄー"TCC_NEWLINE"ｙ　ｈｅｒ　ａｇｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈａｔ’ｓ　ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ！　Ｙｏｕ’ｄ　"TCC_NEWLINE"ｄｏ　ｗｅｌｌｔｏ　ｒｅｍｅｍｂｅｒ　ｔｈａｔ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｆｕｔｕｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ！　Ｙｏｕ’ｄ　"TCC_NEWLINE"ｄｏ　ｗｅｌｌ　ｔｏ　ｒｅｍｅｍｂｅｒ　ｔｈａｔ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅ　ｆｕｔｕｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ－Ｉ’ｍ　ｓｏｒｒｙ！　Ｉ　ｊｕｓｔ．．．　Ｉ　ｍｅａｎー"TCC_NEWLINE"ｔ　ｎｏｔｈｉｎｇｂｙ　ｉｔ！　Ａｐｏｌｏｇｉｅｓ　ｆｏｒ"TCC_NEWLINE"　ａｎｙ　ｏｆｆｅｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ－Ｉ’ｍ　ｓｏｒｒｙ！　Ｉ　ｊｕｓｔ．．．　Ｉ　ｍｅａｎー"TCC_NEWLINE"ｔ　ｎｏｔｈｉｎｇ　ｂｙ　ｉｔ！　Ａｐｏｌｏｇｉｅｓ　ｆｏー"TCC_NEWLINE"ｒ　ａｎｙ　ｏｆｆｅｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｈｍｍ．．．　Ａｇｅ　ｉｓ　ｈｏｗ　ｍａｎｙ　ｙｅａｒｓ　"TCC_NEWLINE"ｈａｖｅｐａｓｓｅｄ　ｓｉｎｃｅ　ｙｏｕ　ｗｅｒｅ　ｂｏｒー"TCC_NEWLINE"ｎ，　ｒｉｇｈｔ？Ｉ．．．ｄｏｎ’ｔ　ｋｎｏｗ　ｉｆ　Ｉ　"TCC_NEWLINE"ｃａｎ　ｔｅｌｌ　ｙｏｕ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｆｌｏｗ　ｏｆ　ｔｉｍｅ　ｉｎ　Ｌｊｓｌｆｈｅｉｍー"TCC_NEWLINE"ｒ　ｉｓｄｉｆｆｅｒｅｎｔ　ｔｈａｎ　ｉｎ　ｔｈｅ　ｗａｋー"TCC_NEWLINE"ｉｎｇ　ｗｏｒｌｄ．．．Ｐｌｕｓ，　ｏｎｅ　ｄａｙ，　Ｉ　"TCC_NEWLINE"ｗａｓ　ｊｕｓｔ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ．．．　Ａｇｅ　ｉｓ　ｈｏｗ　ｍａｎｙ　ｙｅａｒｓ　"TCC_NEWLINE"ｈａｖｅ　ｐａｓｓｅｄ　ｓｉｎｃｅ　ｙｏｕ　ｗｅｒｅ　ｂｏー"TCC_NEWLINE"ｒｎ，　ｒｉｇｈｔ？　Ｉ．．．ｄｏｎ’ｔ　ｋｎｏｗ　ｉｆ　"TCC_NEWLINE"Ｉ　ｃａｎ　ｔｅｌｌ　ｙｏｕ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｌｏｗ　ｏｆ　ｔｉｍｅ　ｉｎ　Ｌｊｓｌｆｈｅｉｍー"TCC_NEWLINE"ｒ　ｉｓ　ｄｉｆｆｅｒｅｎｔ　ｔｈａｎ　ｉｎ　ｔｈｅ　ｗａー"TCC_NEWLINE"ｋｉｎｇ　ｗｏｒｌｄ．．．　Ｐｌｕｓ，　ｏｎｅ　ｄａｙ，　"TCC_NEWLINE"Ｉ　ｗａｓ　ｊｕｓｔ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ　ｗｅｒｅ　ｊｕｓｔ．．．ｉｎ　Ｌｊｓｌｆｈｅｉｍｒー"TCC_NEWLINE"ｏｎｅ　ｄａｙ？　Ｓｕｄｄｅｎｌｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ｊｕｓｔ．．．ｉｎ　Ｌｊｓｌｆｈｅｉｍｒ"TCC_NEWLINE"　ｏｎｅ　ｄａｙ？　Ｓｕｄｄｅｎｌｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｔｈａｔ’ｓ　ｒｉｇｈｔ！　Ｉ　ｗａｓ　ｂｒｏｕｇｈｔ　ｔー"TCC_NEWLINE"ｏ　ｌｉｆｅｔｈｒｏｕｇｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ｄｒー"TCC_NEWLINE"ｅａｍ－ＫｉｎｇＦｒｅｙｒ　ａｎｄ　ｈｉｓ　ｓｉｓｔｅｒ，"TCC_NEWLINE"　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｂｙ　ｔｈｅｍ　ｍｙ　ｌｉｆｅ　ｗａｓ　ｇｉｖｅｎ"TCC_NEWLINE"　ｉｔｓｐｕｒｐｏｓｅｔｏ　ｇｉｖｅ　ｇｏｏｄ　ｄｒｅａｍー"TCC_NEWLINE"ｓ　ｔｏｅｖｅｒｙｏｎｅ，　ｅｖｅｒｙｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ！　Ｉ　ｗａｓ　ｂｒｏｕｇｈｔ　ｔー"TCC_NEWLINE"ｏ　ｌｉｆｅ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ｄー"TCC_NEWLINE"ｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ａｎｄ　ｈｉｓ　ｓｉｓｔｅー"TCC_NEWLINE"ｒ，　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｂｙ　ｔｈｅｍ　ｍｙ　ｌｉｆｅ　ｗａｓ　ｇｉｖｅｎ"TCC_NEWLINE"　ｉｔｓ　ｐｕｒｐｏｓｅｔｏ　ｇｉｖｅ　ｇｏｏｄ　ｄｒｅａー"TCC_NEWLINE"ｍｓ　ｔｏ　ｅｖｅｒｙｏｎｅ，　ｅｖｅｒｙｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

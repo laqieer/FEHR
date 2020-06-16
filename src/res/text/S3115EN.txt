@@ -5,33 +5,33 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ｍｕｓｔ　ｙｏｕ　ｒｅｔｕｒｎ"TCC_NEWLINE"　ｔｏ　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_EIR
-"Ｙｅｓ．　Ｉ　ａｍ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　ｔｈｅ"TCC_NEWLINE"　ｒｕｌｅｒ　ｏｆｔｈｅ　ｄｅａｄ．　Ｉ　ｈａｖｅ　ｎｏ　"TCC_NEWLINE"ｃｈｏｉｃｅ　ｂｕｔ　ｒｅｔｕｒｎｔｏ　ｈｅｒ　ｒｅａｌｍ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｗｈａｔｅｖｅｒ　ｉｎｆｏｒｍａｔｉｏｎ　Ｉ　ｃａー"TCC_NEWLINE"ｎ　ｐａｓｓｙｏｕ，　Ｉ　ｗｉｌｌａｂｏｕｔ　ｍｙ　ｍｏｔー"TCC_NEWLINE"ｈｅｒ’ｓ　ｐｌａｎｓｆｏｒ　ｂａｔｔｌｅ，　ａｎｄ　ｈｏー"TCC_NEWLINE"ｗ　ｔｏ　ｔｒａｃｋ　ｈｅｒ　ｄｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｉ　ａｍ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　ｔｈｅ"TCC_NEWLINE"　ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｉ　ｈａｖｅ　ｎｏ"TCC_NEWLINE"　ｃｈｏｉｃｅ　ｂｕｔ　ｒｅｔｕｒｎ　ｔｏ　ｈｅｒ　ｒｅａー"TCC_NEWLINE"ｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｈａｔｅｖｅｒ　ｉｎｆｏｒｍａｔｉｏｎ　Ｉ　ｃａー"TCC_NEWLINE"ｎ　ｐａｓｓ　ｙｏｕ，　Ｉ　ｗｉｌｌａｂｏｕｔ　ｍｙ　ｍｏー"TCC_NEWLINE"ｔｈｅｒ’ｓ　ｐｌａｎｓ　ｆｏｒ　ｂａｔｔｌｅ，　ａｎｄ　"TCC_NEWLINE"ｈｏｗ　ｔｏ　ｔｒａｃｋ　ｈｅｒ　ｄｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ　ｗｏｕｌｄ　ｒｉｓｋ　ｔｈａｔ　ｍｕｃｈ　ｆｏｒ　"TCC_NEWLINE"ｕｓ？Ｓｈｅ　ｋｎｏｗｓ　ｙｏｕ　ａｒｅ　ｈｅｒｅ．　Ｓｕー"TCC_NEWLINE"ｒｅｌｙ　ｈｅｒｓｕｓｐｉｃｉｏｎｓ　ａｒｅ　ａｌｒｅａｄー"TCC_NEWLINE"ｙ　ａｒｏｕｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｔｈｏｓｅ　ｓｕｓｐｉｃｉｏｎｓ　ａｒｅ　ｃｏｎｆｉー"TCC_NEWLINE"ｒｍｅｄ．．．Ｓｈｅ　ｗｉｌｌ　ｔｏｒｔｕｒｅ　ｙｏｕ．．"TCC_NEWLINE"．ｅｖｅｎ　ｋｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｏｕｌｄ　ｒｉｓｋ　ｔｈａｔ　ｍｕｃｈ　ｆｏｒ　"TCC_NEWLINE"ｕｓ？　Ｓｈｅ　ｋｎｏｗｓ　ｙｏｕ　ａｒｅ　ｈｅｒｅ．　Ｓー"TCC_NEWLINE"ｕｒｅｌｙ　ｈｅｒ　ｓｕｓｐｉｃｉｏｎｓ　ａｒｅ　ａｌｒｅー"TCC_NEWLINE"ａｄｙ　ａｒｏｕｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｏｓｅ　ｓｕｓｐｉｃｉｏｎｓ　ａｒｅ　ｃｏｎｆｉー"TCC_NEWLINE"ｒｍｅｄ．．．　Ｓｈｅ　ｗｉｌｌ　ｔｏｒｔｕｒｅ　ｙｏｕ．"TCC_NEWLINE"．．ｅｖｅｎ　ｋｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｈａｔ　ｈａｐｐｅｎｓ　ｔｏ　ｍｅ．．．Ｉｔ　ｄｏｅｓｎ"TCC_NEWLINE"’ｔ　ｍａｔｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ　ｈａｐｐｅｎｓ　ｔｏ　ｙｏｕ．．．Ｔｈａｔ　ｍａー"TCC_NEWLINE"ｔｔｅｒｓｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ａｒｅ　ｍｙ　ｆｒｉｅｎｄｓ．　Ｉ　ｗｏｎ’ｔ　ｓー"TCC_NEWLINE"ｅｅ　ｙｏｕｈｕｒｔ．　Ａｎｄ　ｓｏ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｈａｐｐｅｎｓ　ｔｏ　ｍｅ．．．　Ｉｔ　ｄｏｅｓー"TCC_NEWLINE"ｎ’ｔ　ｍａｔｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｈａｐｐｅｎｓ　ｔｏ　ｙｏｕ．．．　Ｔｈａｔ　ｍー"TCC_NEWLINE"ａｔｔｅｒｓｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｍｙ　ｆｒｉｅｎｄｓ．　Ｉ　ｗｏｎ’ｔ　ｓー"TCC_NEWLINE"ｅｅ　ｙｏｕ　ｈｕｒｔ．　Ａｎｄ　ｓｏ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ｂｕー"TCC_NEWLINE"ｔ　Ｉ　ｃａｎｎｏｔｌｅｔ　ｙｏｕ　ｒｉｓｋ　ｙｏｕｒｓｅー"TCC_NEWLINE"ｌｆ　ｌｉｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｅｉｒ，　ｂｕー"TCC_NEWLINE"ｔ　Ｉ　ｃａｎｎｏｔ　ｌｅｔ　ｙｏｕ　ｒｉｓｋ　ｙｏｕｒｓー"TCC_NEWLINE"ｅｌｆ　ｌｉｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｔ　ｉｓ　ｔｒｕｅ　ｔｈａｔ　ｙｏｕｒ　ａｉｄ　ｃｏｕｌー"TCC_NEWLINE"ｄ　ｈｅｌｐｕｓ　ｗｉｎ　ｔｈｉｓ　ｗａｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ　ｗｏｕｌｄ　ｎｏｔ　ｓｅｅ　ｙｏｕ　ｓａｃｒｉー"TCC_NEWLINE"ｆｉｃｅｙｏｕｒｓｅｌｆ　ｔｏ　ｔｈａｔ　ｖｉｃｔｏｒｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｏ　ｗｏｕｌｄ　Ｉ　ｂｅ　ｉｆ　Ｉ　ｃａｓｔ　ａｓｉｄー"TCC_NEWLINE"ｅｔｈｏｓｅ　ｗｈｏ　ａｒｅ　ｓｔｒｕｇｇｌｉｎｇ？　Ｔｈー"TCC_NEWLINE"ａｔｉｎｃｌｕｄｅｓ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｒｕｅ　ｔｈａｔ　ｙｏｕｒ　ａｉｄ　ｃｏｕｌー"TCC_NEWLINE"ｄ　ｈｅｌｐ　ｕｓ　ｗｉｎ　ｔｈｉｓ　ｗａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｗｏｕｌｄ　ｎｏｔ　ｓｅｅ　ｙｏｕ　ｓａｃｒｉー"TCC_NEWLINE"ｆｉｃｅ　ｙｏｕｒｓｅｌｆ　ｔｏ　ｔｈａｔ　ｖｉｃｔｏｒｙ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ｗｏｕｌｄ　Ｉ　ｂｅ　ｉｆ　Ｉ　ｃａｓｔ　ａｓｉｄー"TCC_NEWLINE"ｅ　ｔｈｏｓｅ　ｗｈｏ　ａｒｅ　ｓｔｒｕｇｇｌｉｎｇ？　Ｔー"TCC_NEWLINE"ｈａｔ　ｉｎｃｌｕｄｅｓ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅ　ｆａｃｔ　ｏｆ　ｔｈｅ　ｍａｔｔｅｒ　ｉｓ，　ｔｈー"TCC_NEWLINE"ｉｎｇｓｗｉｌｌ　ｂｅ　ｆｉｎｅ．　Ｗｅ　ｋｎｏｗ　ｔｈｅ"TCC_NEWLINE"　ｗａｙ　ｏｆｔｈｉｓ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｗｅ　ｋｎｏｗ　ｈｏｗ　ｔｏ　ｗｉｎ　ｉｔｗｅ　Ａー"TCC_NEWLINE"ＬＬ　ｓｈａｒｅ　ｔｈｅ　ｂｕｒｄｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｌｅａｓｅ，　ｔｒｕｓｔ　ｍｅ．　Ｗｈｅｎ　ｔｈｉｓ　ｗー"TCC_NEWLINE"ａｒｅｎｄｓ，　ｗｅ　ｗｉｌｌ　ａｌｌ　ｂｅ　ｃｅｌｅｂｒー"TCC_NEWLINE"ａｔｉｎｇ．．．Ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆａｃｔ　ｏｆ　ｔｈｅ　ｍａｔｔｅｒ　ｉｓ，　ｔｈー"TCC_NEWLINE"ｉｎｇｓ　ｗｉｌｌ　ｂｅ　ｆｉｎｅ．　Ｗｅ　ｋｎｏｗ　ｔｈー"TCC_NEWLINE"ｅ　ｗａｙ　ｏｆ　ｔｈｉｓ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｅ　ｋｎｏｗ　ｈｏｗ　ｔｏ　ｗｉｎ　ｉｔ　ｗｅ　"TCC_NEWLINE"ＡＬＬ　ｓｈａｒｅ　ｔｈｅ　ｂｕｒｄｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　ｔｒｕｓｔ　ｍｅ．　Ｗｈｅｎ　ｔｈｉｓ　ｗー"TCC_NEWLINE"ａｒ　ｅｎｄｓ，　ｗｅ　ｗｉｌｌ　ａｌｌ　ｂｅ　ｃｅｌｅｂー"TCC_NEWLINE"ｒａｔｉｎｇ．．．　Ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏｇｅｔｈｅｒ？　Ｃｅｌｅｂｒａｔｉｎｇ？　Ｈｅｈ．　Ｉー"TCC_NEWLINE"ｆ　ｏｎｌｙｉｔ　ｈａｄ　ｇｏｎｅ　ｓｏ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ，　Ａｌｆｏｎｓｅ，　ｙｏｕ　ｃａｎｎｏｔ　ｂｅ　ｓａー"TCC_NEWLINE"ｖｅｄ．．．Ｎｏｔ　ｂｙ　ａｎｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏｇｅｔｈｅｒ？　Ｃｅｌｅｂｒａｔｉｎｇ？　Ｈｅｈ．　Ｉー"TCC_NEWLINE"ｆ　ｏｎｌｙ　ｉｔ　ｈａｄ　ｇｏｎｅ　ｓｏ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　Ａｌｆｏｎｓｅ，　ｙｏｕ　ｃａｎｎｏｔ　ｂｅ　ｓａー"TCC_NEWLINE"ｖｅｄ．．．　Ｎｏｔ　ｂｙ　ａｎｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
 "Ｉ　ｋｎｅｗ　ｙｏｕ’ｄ　ｃｏｍｅ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
@@ -46,33 +46,33 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 "Ａｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｏｕｒ　ｆｉｇｈｔ　ｉｓ　ｏｖｅｒ．　Ｉｔ　ｉｓ　ｕｐ　ｔー"TCC_NEWLINE"ｏ　ｕｓ　ｔｏａｃｋｎｏｗｌｅｄｇｅ　ｔｈａｔ　ａｎｄ　ｅー"TCC_NEWLINE"ｎｄ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｆｉｇｈｔ　ｉｓ　ｏｖｅｒ．　Ｉｔ　ｉｓ　ｕｐ　ｔー"TCC_NEWLINE"ｏ　ｕｓ　ｔｏ　ａｃｋｎｏｗｌｅｄｇｅ　ｔｈａｔ　ａｎｄ　"TCC_NEWLINE"ｅｎｄ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LIF
 "Ｎｏ．"TCC_NEWLINE TCC_PUSH_A
 "Ｍｙ　ｓｔｒｕｇｇｌｅ　ｗｉｌｌ　ｎｅｖｅｒ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｆｏｎｓｅ．．．　Ｔｈｅｒｅ　ｉｓ　ｏｎｅ　ｔｈｉｎｇ"TCC_NEWLINE"　ａｂｏｖｅａｌｌ　ｔｈａｔ　ｙｏｕ　ｄｏ　ｎｏｔ　ｕｎｄー"TCC_NEWLINE"ｅｒｓｔａｎｄ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ．．．　Ｔｈｅｒｅ　ｉｓ　ｏｎｅ　ｔｈｉｎｇ"TCC_NEWLINE"　ａｂｏｖｅ　ａｌｌ　ｔｈａｔ　ｙｏｕ　ｄｏ　ｎｏｔ　ｕｎー"TCC_NEWLINE"ｄｅｒｓｔａｎｄ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｈａｌｌ　Ｉ　ｅｘｐｌａｉｎ　ｉｔ　ｔｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈｙ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｄｅｆｅａｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｈａｖｅ　ｙｅｔ　ｔｏ　ｄｒｉｎｋ　ｄｅｅｐｌｙｏー"TCC_NEWLINE"ｆ　ｄｅｆｅａｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈａｖｅ　ｔａｓｔｅｄ　ｉｔ．　Ｉ　ｈａｖｅ　ｈａｄ　"TCC_NEWLINE"ｆａｒ　ｍｏｒｅｔｈａｎ　ｍｙ　ｓｈａｒｅ．　Ｉｔ　ｄｉｓー"TCC_NEWLINE"ｇｕｓｔｓ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｄｅｆｅａｔｅｄ　ａｇａｉｎ．"TCC_NEWLINE"　Ｉ　ｃａｎｎｏｔｔｏｌｅｒａｔｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｙｅｔ　ｔｏ　ｄｒｉｎｋ　ｄｅｅｐｌｙ　"TCC_NEWLINE"ｏｆ　ｄｅｆｅａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｔａｓｔｅｄ　ｉｔ．　Ｉ　ｈａｖｅ　ｈａｄ　"TCC_NEWLINE"ｆａｒ　ｍｏｒｅ　ｔｈａｎ　ｍｙ　ｓｈａｒｅ．　Ｉｔ　ｄｉー"TCC_NEWLINE"ｓｇｕｓｔｓ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｄｅｆｅａｔｅｄ　ａｇａｉｎ．"TCC_NEWLINE"　Ｉ　ｃａｎｎｏｔ　ｔｏｌｅｒａｔｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｔｒｕｇｇｌｉｎｇ　ｗｉｌｌ　ｇｅｔ　ｙｏｕ　ｎｏｗｈｅー"TCC_NEWLINE"ｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｏ　ｙｏｕ　ｓａｙ．　Ｂｕｔ　ｙｏｕ　ｍａｙ　ｎｏｔ　ｈー"TCC_NEWLINE"ａｖｅｃｏｎｓｉｄｅｒｅｄ　ｔｈｉｓ．．．　Ｗｅ　ａｒｅ　"TCC_NEWLINE"ｐｌａｙｉｎｇｄｉｆｆｅｒｅｎｔ　ｇａｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｏ　ｗｉｎ，　ｙｏｕ　ｍｕｓｔ　ｄｅｆｅａｔ　Ｈｅｌ，　"TCC_NEWLINE"ａｎｄｙｏｕ　ｍｕｓｔ　ｓｕｒｖｉｖｅ　ｙｏｕｒ　ｆｉｇｈー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ？　Ａｌｌ　Ｉ　ｎｅｅｄ　ｉｓ　ｆｏｒ　ｙｏｕ　"TCC_NEWLINE"ｔｏ　ｄｉｅ．Ｉ　ｎｅｅｄ　ｎｏｔ　ｓｕｒｖｉｖｅ．　Ｗｈー"TCC_NEWLINE"ａｔ　ｈａｐｐｅｎｓｔｏ　ｍｙ　ｂｏｄｙ　ｉｓ　ｏｆ　ｎｏ"TCC_NEWLINE"　ｃｏｎｓｅｑｕｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｐａｔｈ　ｔｏ　ｖｉｃｔｏｒｙ　ｉｓ　ｍｕｃｈ　ｌｅー"TCC_NEWLINE"ｓｓ　ｓｔｅｅｐｔｈａｎ　ｙｏｕｒｓ．　Ａｎｄ　Ｉ　ｈａｖー"TCC_NEWLINE"ｅ　ｃｏｎｔｅｍｐｌａｔｅｄｔｈｉｓ　ｆｏｒ　ｓｏｍｅ　ｔー"TCC_NEWLINE"ｉｍｅ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｉｎｃｅ　ｍｙ　ｗｏｒｌｄ　ｗａｓ　ｄｅｓｔｒｏｙｅｄ，"TCC_NEWLINE"　ａｎｄＩ　ｅｎｔｅｒｅｄ　ｉｎｔｏ　ｍｙ　ｃｏｎｔｒａｃー"TCC_NEWLINE"ｔ　ｗｉｔｈ　Ｈｅｌ，Ｉ　ｋｎｅｗ　Ｉ　ｍｉｇｈｔ　ｏｎｅ"TCC_NEWLINE"　ｄａｙ　ｆｉｇｈｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｙｏｕ　ｓａｙ．　Ｂｕｔ　ｙｏｕ　ｍａｙ　ｎｏｔ　ｈー"TCC_NEWLINE"ａｖｅ　ｃｏｎｓｉｄｅｒｅｄ　ｔｈｉｓ．．．　Ｗｅ　ａｒｅ"TCC_NEWLINE"　ｐｌａｙｉｎｇ　ｄｉｆｆｅｒｅｎｔ　ｇａｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｗｉｎ，　ｙｏｕ　ｍｕｓｔ　ｄｅｆｅａｔ　Ｈｅｌ，　"TCC_NEWLINE"ａｎｄ　ｙｏｕ　ｍｕｓｔ　ｓｕｒｖｉｖｅ　ｙｏｕｒ　ｆｉｇー"TCC_NEWLINE"ｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ？　Ａｌｌ　Ｉ　ｎｅｅｄ　ｉｓ　ｆｏｒ　ｙｏｕ　"TCC_NEWLINE"ｔｏ　ｄｉｅ．　Ｉ　ｎｅｅｄ　ｎｏｔ　ｓｕｒｖｉｖｅ．　Ｗー"TCC_NEWLINE"ｈａｔ　ｈａｐｐｅｎｓ　ｔｏ　ｍｙ　ｂｏｄｙ　ｉｓ　ｏｆ　"TCC_NEWLINE"ｎｏ　ｃｏｎｓｅｑｕｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｐａｔｈ　ｔｏ　ｖｉｃｔｏｒｙ　ｉｓ　ｍｕｃｈ　ｌｅー"TCC_NEWLINE"ｓｓ　ｓｔｅｅｐ　ｔｈａｎ　ｙｏｕｒｓ．　Ａｎｄ　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ　ｃｏｎｔｅｍｐｌａｔｅｄ　ｔｈｉｓ　ｆｏｒ　ｓｏｍｅ"TCC_NEWLINE"　ｔｉｍｅ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｎｃｅ　ｍｙ　ｗｏｒｌｄ　ｗａｓ　ｄｅｓｔｒｏｙｅｄ，"TCC_NEWLINE"　ａｎｄ　Ｉ　ｅｎｔｅｒｅｄ　ｉｎｔｏ　ｍｙ　ｃｏｎｔｒａー"TCC_NEWLINE"ｃｔ　ｗｉｔｈ　Ｈｅｌ，　Ｉ　ｋｎｅｗ　Ｉ　ｍｉｇｈｔ　ｏー"TCC_NEWLINE"ｎｅ　ｄａｙ　ｆｉｇｈｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅｒｅ，　ｉｎ　ｔｈｉｓ　ｖｅｒｙ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ　ｙｅｓ．　Ｉ’ｖｅ　ｔｈｏｕｇｈｔ　ｌｏｎｇ　ａｎｄ"TCC_NEWLINE"　ｈａｒｄａｂｏｕｔ　ｉｔ．　Ａｎｄ　Ｉ’ｖｅ　ｈａｄ　ｐー"TCC_NEWLINE"ｌｅｎｔｙ　ｏｆ　ｔｉｍｅｔｏ　ｒｉｇ　ｕｐ　ｓｏｍｅ　ｄー"TCC_NEWLINE"ｅｆｅｎｓｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｙｅｓ．　Ｉ’ｖｅ　ｔｈｏｕｇｈｔ　ｌｏｎｇ　ａｎｄ"TCC_NEWLINE"　ｈａｒｄ　ａｂｏｕｔ　ｉｔ．　Ａｎｄ　Ｉ’ｖｅ　ｈａｄ　"TCC_NEWLINE"ｐｌｅｎｔｙ　ｏｆ　ｔｉｍｅ　ｔｏ　ｒｉｇ　ｕｐ　ｓｏｍｅ"TCC_NEWLINE"　ｄｅｆｅｎｓｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｒｅｔｒｅａｔ！　Ｉｍｍｅｄｉａｔｅｌｙ！　Ｇｅｔ　ｏｕｔ"TCC_NEWLINE"　ｏｆ　ｈｅｒｅｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｔｒｅａｔ！　Ｉｍｍｅｄｉａｔｅｌｙ！　Ｇｅｔ　ｏｕｔ"TCC_NEWLINE"　ｏｆ　ｈｅｒｅ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｈ，　ｉｔ’ｓ　ｔｏｏ　ｌａｔｅ　ｆｏｒ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．　Ｗｈｅｎ　ｔｈｉｓ　"TCC_NEWLINE"ｃａｓｔｌｅｃｏｌｌａｐｓｅｓ　ｉｎｔｏ　ｒｕｂｂｌｅ，　"TCC_NEWLINE"ｉｔ　ｗｉｌｌ　ｆｏｒｍｙｏｕｒ　ｃａｉｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．　Ｗｈｅｎ　ｔｈｉｓ　"TCC_NEWLINE"ｃａｓｔｌｅ　ｃｏｌｌａｐｓｅｓ　ｉｎｔｏ　ｒｕｂｂｌｅ，"TCC_NEWLINE"　ｉｔ　ｗｉｌｌ　ｆｏｒｍ　ｙｏｕｒ　ｃａｉｒｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

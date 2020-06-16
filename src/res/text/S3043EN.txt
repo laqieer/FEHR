@@ -1,18 +1,18 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3043_EN] = TCC_OPEN_LEFT
-"Ｉ’ｍ　Ｋｅａｔｏｎ．　Ｉ’ｍ　ｆｒｏｍ　ａ　ｒａｃｅ　ｃー"TCC_NEWLINE"ａｌｌｅｄ　ｔｈｅｗｏｌｆｓｋｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　Ｋｅａｔｏｎ．　Ｉ’ｍ　ｆｒｏｍ　ａ　ｒａｃｅ　ｃー"TCC_NEWLINE"ａｌｌｅｄ　ｔｈｅ　ｗｏｌｆｓｋｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3043_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_GUSTAV
 "Ｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｅｌｌｏ，　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｉｓ　ｉｓｎ’ｔ　ａ　ｓｏｃｉａｌ　ｃａｌｌ，　Ａｌｆー"TCC_NEWLINE"ｏｎｓｅ．　Ｉ　ａｍｏｎ　ｍｙ　ｗａｙ　ｔｏ　ａ　ｃｏｎｆー"TCC_NEWLINE"ｅｒｅｎｃｅ　ｗｉｔｈ　ｍｙｋｎｉｇｈｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓｎ’ｔ　ａ　ｓｏｃｉａｌ　ｃａｌｌ，　Ａｌｆー"TCC_NEWLINE"ｏｎｓｅ．　Ｉ　ａｍ　ｏｎ　ｍｙ　ｗａｙ　ｔｏ　ａ　ｃｏｎー"TCC_NEWLINE"ｆｅｒｅｎｃｅ　ｗｉｔｈ　ｍｙ　ｋｎｉｇｈｔｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｉｆ　ｙｏｕ　ｈａｖｅ　ｎｏｏー"TCC_NEWLINE"ｂｊｅｃｔｉｏｎ，　ｈｏｗｅｖｅｒ，　Ｉ’ｄ　ｇｌａｄｌｙ"TCC_NEWLINE"　ｇｕａｒｄｙｏｕ　ｔｉｌｌ　ｙｏｕ　ｊｏｉｎ　ｕｐ　ｗｉー"TCC_NEWLINE"ｔｈ　ｔｈｅ　ａｒｍｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｉｆ　ｙｏｕ　ｈａｖｅ　ｎｏ　"TCC_NEWLINE"ｏｂｊｅｃｔｉｏｎ，　ｈｏｗｅｖｅｒ，　Ｉ’ｄ　ｇｌａｄｌー"TCC_NEWLINE"ｙ　ｇｕａｒｄ　ｙｏｕ　ｔｉｌｌ　ｙｏｕ　ｊｏｉｎ　ｕｐ　"TCC_NEWLINE"ｗｉｔｈ　ｔｈｅ　ａｒｍｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ．　Ａｍ　Ｉ　ｓｏ　ｉｎｆー"TCC_NEWLINE"ｉｒｍ　ｔｈａｔＩ　ｍｕｓｔ　ｌｅａｎ　ｏｎ　ｍｙ　ｓｏｎ"TCC_NEWLINE"’ｓ　ａｒｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ．　Ａｍ　Ｉ　ｓｏ　ｉｎｆー"TCC_NEWLINE"ｉｒｍ　ｔｈａｔ　Ｉ　ｍｕｓｔ　ｌｅａｎ　ｏｎ　ｍｙ　ｓｏー"TCC_NEWLINE"ｎ’ｓ　ａｒｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍ－ｍｙ　ａｐｏｌｏｇｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -23,11 +23,11 @@ TCC_OPEN_RIGHT
 "Ｎｏ，　Ｉ　ｄｏｎ’ｔ　ｒｅｍｅｍｂｅｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｓｅｅ．　Ｗｅｌｌ，　ｎｅｖｅｒ　ｍｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｎｏｔ　ｃｏｎｃｅｒｎ　ｙｏｕｒｓｅｌｆ　ｏｖｅｒ　"TCC_NEWLINE"ｍｅ．Ｉ　ｗｉｌｌ　ｒｅｎｄｅｚｖｏｕｓ　ｗｉｔｈ　ｍｙ　"TCC_NEWLINE"ｆｏｒｃｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ｃｏｎｃｅｒｎ　ｙｏｕｒｓｅｌｆ　ｏｖｅｒ　"TCC_NEWLINE"ｍｅ．　Ｉ　ｗｉｌｌ　ｒｅｎｄｅｚｖｏｕｓ　ｗｉｔｈ　ｍｙ"TCC_NEWLINE"　ｆｏｒｃｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｆａｔｈｅｒ，　ｗａｉｔ．　Ｐｌｅａｓｅ．　Ｌｅｔ　ｍｅ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｔｏｌｄ　ｙｏｕ，　ｂｏｙ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　"TCC_NEWLINE"ｎｅｅｄ．Ｗｏｒｒｙ　ａｂｏｕｔ　ｙｏｕｒ　ｏｗｎ　ｓｋｉー"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｏｌｄ　ｙｏｕ，　ｂｏｙ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　"TCC_NEWLINE"ｎｅｅｄ．　Ｗｏｒｒｙ　ａｂｏｕｔ　ｙｏｕｒ　ｏｗｎ　ｓｋー"TCC_NEWLINE"ｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍｙ　ａｐｏｌｏｇｉｅｓ．　Ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｗａｓ　ｔｈａｔ　ｂｒａｎｃｈ，　Ｉ　ｗｏｎｄｅー"TCC_NEWLINE"ｒ？"TCC_NEWLINE TCC_PUSH_A

@@ -1,69 +1,69 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｏｕｒ　ｓｃｏｕｔｓ　ｒｅｐｏｒｔ　ｔｈａｔ　Ｓｕｒｔｒ　"TCC_NEWLINE"ｈａｓｒｅｔｕｒｎｅｄ　ｔｏ　Ｍｓｐｅｌｌ．　Ｗｈａｔ　ｗー"TCC_NEWLINE"ｅ　ｄｏｎ’ｔｋｎｏｗ　ｉｓ　ｗｈｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｍｅａｎｓ　ｗｅ’ｌｌ　ｎｅｅｄ　ｔｏ　ｉｎｖａー"TCC_NEWLINE"ｄｅＳｕｒｔｒ’ｓ　ｔｅｒｒｉｔｏｒｙ　ｔｏ　ｐｕｔ　ａｎ"TCC_NEWLINE"　ｅｎｄ　ｔｏ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｓｃｏｕｔｓ　ｒｅｐｏｒｔ　ｔｈａｔ　Ｓｕｒｔｒ　"TCC_NEWLINE"ｈａｓ　ｒｅｔｕｒｎｅｄ　ｔｏ　Ｍｓｐｅｌｌ．　Ｗｈａｔ　"TCC_NEWLINE"ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｉｓ　ｗｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｍｅａｎｓ　ｗｅ’ｌｌ　ｎｅｅｄ　ｔｏ　ｉｎｖａー"TCC_NEWLINE"ｄｅ　Ｓｕｒｔｒ’ｓ　ｔｅｒｒｉｔｏｒｙ　ｔｏ　ｐｕｔ　ａー"TCC_NEWLINE"ｎ　ｅｎｄ　ｔｏ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｂｕｔ，　Ｃｏｍｍａｎｄｅｒ．．．　Ｈｏｗ　ｗｉｌｌ　ｗｅ"TCC_NEWLINE"　ｍａｋｅｏｕｒ　ｗａｙ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ，　Ｃｏｍｍａｎｄｅｒ．．．　Ｈｏｗ　ｗｉｌｌ　ｗｅ"TCC_NEWLINE"　ｍａｋｅ　ｏｕｒ　ｗａｙ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｔｈａｔ　ｐａｒｔ　ｉｓ　ｅａｓｙ．　Ｗｈｅｎ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌｉｎｖａｄｅｄ　Ｎｉｆｌ，　ｔｈｅｙ　ｏｐｅｎｅｄ　ａ　"TCC_NEWLINE"ｇａｔｅ．Ｔｈｅｙ’ｖｅ　ｌｅｆｔ　ｉｔ　ｏｐｅｎ　ｅｖｅー"TCC_NEWLINE"ｒ　ｓｉｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｃｅ　ｗｅ　ｐａｓｓ　ｔｈｒｏｕｇｈ　ｔｈａｔ　ｇａｔー"TCC_NEWLINE"ｅ，　ｗｅ’ｌｌｂｅ　ｉｎ　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　"TCC_NEWLINE"Ｆｌａｍｅ．　Ｗｅ　ｃａｎｓｔｒｉｋｅ　ａｔ　ｔｈｅｉｒ　"TCC_NEWLINE"ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｐａｒｔ　ｉｓ　ｅａｓｙ．　Ｗｈｅｎ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌ　ｉｎｖａｄｅｄ　Ｎｉｆｌ，　ｔｈｅｙ　ｏｐｅｎｅｄ　ａ"TCC_NEWLINE"　ｇａｔｅ．　Ｔｈｅｙ’ｖｅ　ｌｅｆｔ　ｉｔ　ｏｐｅｎ　ｅー"TCC_NEWLINE"ｖｅｒ　ｓｉｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｗｅ　ｐａｓｓ　ｔｈｒｏｕｇｈ　ｔｈａｔ　ｇａｔー"TCC_NEWLINE"ｅ，　ｗｅ’ｌｌ　ｂｅ　ｉｎ　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ"TCC_NEWLINE"　Ｆｌａｍｅ．　Ｗｅ　ｃａｎ　ｓｔｒｉｋｅ　ａｔ　ｔｈｅｉー"TCC_NEWLINE"ｒ　ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
 "＊ｃｏｕｇｈ，　ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｓｏｕｎｄ　ｇｏｏｄ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ａｒｅｎ’ｔ　ｙｅｔ　ｗｅｌｌ．　Ｉｆ　ｙｏｕ　ｗー"TCC_NEWLINE"ａｎｔ　ｔｏｒｅｃｏｖｅｒ，　ｙｏｕ　ｎｅｅｄ　ｓｏｍｅ　"TCC_NEWLINE"ｒｅｓｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅｎ’ｔ　ｙｅｔ　ｗｅｌｌ．　Ｉｆ　ｙｏｕ　ｗー"TCC_NEWLINE"ａｎｔ　ｔｏ　ｒｅｃｏｖｅｒ，　ｙｏｕ　ｎｅｅｄ　ｓｏｍｅ"TCC_NEWLINE"　ｒｅｓｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉ　ａｐｐｒｅｃｉａｔｅ　ｙｏｕｒ　ｃｏｎｃｅｒｎ，　ｂｕー"TCC_NEWLINE"ｔ　ｗｅ’ｒｅｏｎ　ｔｈｅ　ｖｅｒｇｅ　ｏｆ　ｔａｋｉｎｇ"TCC_NEWLINE"　Ｓｕｒｔｒ　ｄｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃａｎ　ｈｏｌｄ　ｏｕｔ．　Ｉ　ｍｕｓｔ　ｋｅｅｐ　ｆー"TCC_NEWLINE"ｉｇｈｔｉｎｇｕｎｔｉｌ　ｔｈｅ　ｖｅｒｙ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｐｐｒｅｃｉａｔｅ　ｙｏｕｒ　ｃｏｎｃｅｒｎ，　ｂｕー"TCC_NEWLINE"ｔ　ｗｅ’ｒｅ　ｏｎ　ｔｈｅ　ｖｅｒｇｅ　ｏｆ　ｔａｋｉｎー"TCC_NEWLINE"ｇ　Ｓｕｒｔｒ　ｄｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ　ｈｏｌｄ　ｏｕｔ．　Ｉ　ｍｕｓｔ　ｋｅｅｐ　ｆー"TCC_NEWLINE"ｉｇｈｔｉｎｇ　ｕｎｔｉｌ　ｔｈｅ　ｖｅｒｙ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｍｓｐｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｏｒｄｓ　ｆａｉｌ　ｍｅ．　Ｉｆ　Ｉ　ｗｅｒｅ　ｔｏ　ｉー"TCC_NEWLINE"ｍａｇｉｎｅ　ｈｅｌｌ，ａｓ　ｄｅｓｃｒｉｂｅｄ　ｉｎ　ｌー"TCC_NEWLINE"ｅｇｅｎｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｏｒｄｓ　ｆａｉｌ　ｍｅ．　Ｉｆ　Ｉ　ｗｅｒｅ　ｔｏ　ｉー"TCC_NEWLINE"ｍａｇｉｎｅ　ｈｅｌｌ，　ａｓ　ｄｅｓｃｒｉｂｅｄ　ｉｎ　"TCC_NEWLINE"ｌｅｇｅｎｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｙｏｕｃｈ！"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ’ｓ　ｂｕｒｎｉｎｇ　ｈｏｔ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅ　ｗｅｌｃｏｍｅ　ｉｓ　ａ　ｌｉｔｔｌｅ　ｂｉｔ　ｗー"TCC_NEWLINE"ａｒｍｅｒ　ｔｈａｎｗｅ　ａｎｔｉｃｉｐａｔｅｄ，　ｔｏｏ"TCC_NEWLINE"．．．　Ｈｅｒｅ　ｃｏｍｅＭｓｐｅｌｌ’ｓ　ｔｒｏｏｐｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｅｌｃｏｍｅ　ｉｓ　ａ　ｌｉｔｔｌｅ　ｂｉｔ　ｗー"TCC_NEWLINE"ａｒｍｅｒ　ｔｈａｎ　ｗｅ　ａｎｔｉｃｉｐａｔｅｄ，　ｔｏー"TCC_NEWLINE"ｏ．．．　Ｈｅｒｅ　ｃｏｍｅ　Ｍｓｐｅｌｌ’ｓ　ｔｒｏｏｐー"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_HELBINDI
-"Ｏｆ　ａｌｌ　ｔｈｅ　ｒｏｔｔｅｎ　ｌｕｃｋ．．．　Ｄｉｄ"TCC_NEWLINE"　ｙｏｕ　ｆｉｌｔｈｒｅａｌｌｙ　ｃｏｍｅ　ａｌｌ　ｔｈｅ"TCC_NEWLINE"　ｗａｙ　ｈｅｒｅ　ｊｕｓｔ　ｆｏｒｍｅ　ｔｏ　ｋｉｌｌ　"TCC_NEWLINE"ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"Ｇｕｅｓｓ　ｙｏｕ　ｗｅｒｅ　ｈｏｐｉｎｇ　ｔｏ　ｂｅｓｌー"TCC_NEWLINE"ａｕｇｈｔｅｒｅｄ　ｂｙ　Ｈｅｌｂｉｎｄｉ，　ａｎｄ　ｎｏー"TCC_NEWLINE"ｂｏｄｙｅｌｓｅ　ｗｏｕｌｄ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ａｌｌ　ｔｈｅ　ｒｏｔｔｅｎ　ｌｕｃｋ．．．　Ｄｉｄ"TCC_NEWLINE"　ｙｏｕ　ｆｉｌｔｈ　ｒｅａｌｌｙ　ｃｏｍｅ　ａｌｌ　ｔｈー"TCC_NEWLINE"ｅ　ｗａｙ　ｈｅｒｅ　ｊｕｓｔ　ｆｏｒ　ｍｅ　ｔｏ　ｋｉｌー"TCC_NEWLINE"ｌ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｇｕｅｓｓ　ｙｏｕ　ｗｅｒｅ　ｈｏｐｉｎｇ　ｔｏ　ｂｅ　ｓー"TCC_NEWLINE"ｌａｕｇｈｔｅｒｅｄ　ｂｙ　Ｈｅｌｂｉｎｄｉ，　ａｎｄ　ｎー"TCC_NEWLINE"ｏｂｏｄｙ　ｅｌｓｅ　ｗｏｕｌｄ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HELBINDI
-"Ｄａｍｎ　ｉｔ　ａｌｌ！　Ｌｉｓｔｅｎ　ｕｐ，　ｆｏｏｌｓ"TCC_NEWLINE"！　Ｗｅ’ｒｅｒｅｔｒｅａｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｄａｍｎ　ｉｔ　ａｌｌ！　Ｌｉｓｔｅｎ　ｕｐ，　ｆｏｏｌｓ"TCC_NEWLINE"！　Ｗｅ’ｒｅ　ｒｅｔｒｅａｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ａｒｅ　ｙｏｕ　ｓｕｒｅ　ｈｅ’ｓ　ａ　ｇｅｎｅｒａｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｉ　ｂｅｌｉｅｖｅ　ｈｉｓ　ｎａｍｅ　ｉｓ　Ｈｅｌｂｉｎｄー"TCC_NEWLINE"ｉ．　Ｄｕｒｉｎｇｔｈｅ　ｉｎｖａｓｉｏｎ　ｏｆ　Ｎｉｆｌ"TCC_NEWLINE"，　ｈｉｓ　ｂｒｕｔａｌｉｔｙ　ｍｕｓｔｈａｖｅ　ｉｍｐｒー"TCC_NEWLINE"ｅｓｓｅｄ　Ｓｕｒｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　ｃｏｍｅ　ｕｐ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅｒａｎｋｓ　ｓｉｎｃｅ　ｔｈｅｎ．　Ｈｉｓ　ｔｅｍｐｅー"TCC_NEWLINE"ｒ　ｉｓｓｔｉｌｌ　ｆｏｕｌ，　ｔｈｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｌｉｅｖｅ　ｈｉｓ　ｎａｍｅ　ｉｓ　Ｈｅｌｂｉｎｄー"TCC_NEWLINE"ｉ．　Ｄｕｒｉｎｇ　ｔｈｅ　ｉｎｖａｓｉｏｎ　ｏｆ　Ｎｉｆー"TCC_NEWLINE"ｌ，　ｈｉｓ　ｂｒｕｔａｌｉｔｙ　ｍｕｓｔ　ｈａｖｅ　ｉｍー"TCC_NEWLINE"ｐｒｅｓｓｅｄ　Ｓｕｒｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　ｃｏｍｅ　ｕｐ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅ　ｒａｎｋｓ　ｓｉｎｃｅ　ｔｈｅｎ．　Ｈｉｓ　ｔｅｍｐー"TCC_NEWLINE"ｅｒ　ｉｓ　ｓｔｉｌｌ　ｆｏｕｌ，　ｔｈｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｏ　ｍａｔｔｅｒ．　Ｏｕｒ　ｓｔｒｅｎｇｔｈ，　ａｎｄ　"TCC_NEWLINE"ｔｈｅｓｔｒｅｎｇｔｈ　ｏｆ　ｔｈｅ　Ｈｅｒｏｅｓ　ｓｕｍー"TCC_NEWLINE"ｍｏｎｅｄ　ｂｙ"TCC_NEWLINE
+"Ｎｏ　ｍａｔｔｅｒ．　Ｏｕｒ　ｓｔｒｅｎｇｔｈ，　ａｎｄ　"TCC_NEWLINE"ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｏｆ　ｔｈｅ　Ｈｅｒｏｅｓ　ｓｕー"TCC_NEWLINE"ｍｍｏｎｅｄ　ｂｙ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｙ　ｗｉｌｌ　ｓｅｅ　ｕｓ　ｔｈｒｏｕｇｈ　ｔｈｉｓ"TCC_NEWLINE"　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｗｏｎ’ｔ　ｔｕｒｎ　ｂａｃｋ，　ｎｏ　ｍａｔｔｅｒ"TCC_NEWLINE"　ｗｈｏｗｅ　ｆａｃｅ　ｉｎ　ｂａｔｔｌｅ．　Ｗｅ　ｍｕｓー"TCC_NEWLINE"ｔ　ｄｅｆｅａｔＳｕｒｔｒ．　Ｍｏｖｅ　ｏｕｔ，　Ｏｒｄｅー"TCC_NEWLINE"ｒ　ｏｆ　Ｈｅｒｏｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｏｎ’ｔ　ｔｕｒｎ　ｂａｃｋ，　ｎｏ　ｍａｔｔｅｒ"TCC_NEWLINE"　ｗｈｏ　ｗｅ　ｆａｃｅ　ｉｎ　ｂａｔｔｌｅ．　Ｗｅ　ｍｕー"TCC_NEWLINE"ｓｔ　ｄｅｆｅａｔ　Ｓｕｒｔｒ．　Ｍｏｖｅ　ｏｕｔ，　Ｏｒー"TCC_NEWLINE"ｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_YLGR
-"Ｉ　ｗａｎｔ　ｍｙ　ｂｒｏｔｈｅｒ．．．　Ｉ　ｗａｎｔ　ｍー"TCC_NEWLINE"ｙｓｉｓｔｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｍｙ　ｂｒｏｔｈｅｒ．．．　Ｉ　ｗａｎｔ　ｍー"TCC_NEWLINE"ｙ　ｓｉｓｔｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HELBINDI
 "Ｈｅｙ，　ｂｒａｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｔｉｌｌ　ｎｏｔ　ｅａｔｉｎｇ？　Ｇｏｔ　ｙｏｕｒｓｅｌー"TCC_NEWLINE"ｆ　ｃａｕｇｈｔｂｙ　ｔｈｅ　ｅｎｅｍｙ，　ｓｏ　ｙｏｕ’"TCC_NEWLINE"ｒｅ　ｊｕｓｔ　ｇｏｎｎａｓｔａｒｖｅ　ｙｏｕｒｓｅｌｆ．"TCC_NEWLINE"　Ｔｈａｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｉｌｌ　ｎｏｔ　ｅａｔｉｎｇ？　Ｇｏｔ　ｙｏｕｒｓｅｌー"TCC_NEWLINE"ｆ　ｃａｕｇｈｔ　ｂｙ　ｔｈｅ　ｅｎｅｍｙ，　ｓｏ　ｙｏｕ"TCC_NEWLINE"’ｒｅ　ｊｕｓｔ　ｇｏｎｎａ　ｓｔａｒｖｅ　ｙｏｕｒｓｅｌー"TCC_NEWLINE"ｆ．　Ｔｈａｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｕｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅ　ｈｅｌｌ　ｉｓ　ｔｈａｔ　ｌｏｏｋ　ｆｏｒ？　Ｙｏー"TCC_NEWLINE"ｕ　ｈａｔｅ　ｕｓｔｈａｔ　ｍｕｃｈ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｈｅｌｌ　ｉｓ　ｔｈａｔ　ｌｏｏｋ　ｆｏｒ？　Ｙｏー"TCC_NEWLINE"ｕ　ｈａｔｅ　ｕｓ　ｔｈａｔ　ｍｕｃｈ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅｌｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｆ　ｃｏｕｒｓｅ　Ｉ　ｄｏ！　Ｍｓｐｅｌｌ　ｈａｓ　ｋｉー"TCC_NEWLINE"ｌｌｅｄ　ｓｏｍａｎｙ　ｐｅｏｐｌｅ．．．ｓｉｎｃｅ　ｔｈー"TCC_NEWLINE"ｅ　ｄａｙ　ｙｏｕ　ｆｉｒｓｔｃａｍｅ　ｔｏ　Ｎｉｆｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ　Ｉ　ｄｏ！　Ｍｓｐｅｌｌ　ｈａｓ　ｋｉー"TCC_NEWLINE"ｌｌｅｄ　ｓｏ　ｍａｎｙ　ｐｅｏｐｌｅ．．．ｓｉｎｃｅ　ｔー"TCC_NEWLINE"ｈｅ　ｄａｙ　ｙｏｕ　ｆｉｒｓｔ　ｃａｍｅ　ｔｏ　Ｎｉｆｌ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｈｅｎ　ｙｏｕ’ｄ　ｂｅｔｔｅｒ　ｅａｔ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅａｔ，　ｇｒｏｗ　ｕｐ，　ａｎｄ　ｇｅｔ　ｙｏｕｒ　ｒｅー"TCC_NEWLINE"ｖｅｎｇｅｏｎ　ｕｓ　ｓｏｍｅｄａｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｃｈａｎｃｅ　ｆｏｒ　ｒｅｖｅｎｇｅ　ｉｆ　ｙｏｕ　"TCC_NEWLINE"ｓｔａｒｖｅｔｏ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅａｔ，　ｇｒｏｗ　ｕｐ，　ａｎｄ　ｇｅｔ　ｙｏｕｒ　ｒｅー"TCC_NEWLINE"ｖｅｎｇｅ　ｏｎ　ｕｓ　ｓｏｍｅｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｃｈａｎｃｅ　ｆｏｒ　ｒｅｖｅｎｇｅ　ｉｆ　ｙｏｕ　"TCC_NEWLINE"ｓｔａｒｖｅ　ｔｏ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｇｕｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｒｅ　ｙｏｕ　ｇｏ．　Ｅａｔ．　Ｗｈａｔ　ｅｌｓｅ　"TCC_NEWLINE"ａｒｅ　ｙｏｕｇｏｎｎａ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｙｏｕ　ｇｏ．　Ｅａｔ．　Ｗｈａｔ　ｅｌｓｅ　"TCC_NEWLINE"ａｒｅ　ｙｏｕ　ｇｏｎｎａ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｋｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -71,5 +71,5 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "．．．Ｙｏｕ’ｒｅ　ｎｏｔ　ｓｏ　ｂａｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅ　ｈｅｌｌ？　Ｓｈｕｔ　ｙｏｕｒ　ｔｒａｐ，　ｋｉｄ"TCC_NEWLINE"，　ｏｒ　Ｉ’ｌｌｓｈｕｔ　ｉｔ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｈｅｌｌ？　Ｓｈｕｔ　ｙｏｕｒ　ｔｒａｐ，　ｋｉｄ"TCC_NEWLINE"，　ｏｒ　Ｉ’ｌｌ　ｓｈｕｔ　ｉｔ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,24 +1,24 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S0001_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｏｏｏｈ！　Ｙｏｕ’ｒｅ　ｈｅｒｅ？　Ｔｈｅｎ　ｔｈｅ　ｒー"TCC_NEWLINE"ｉｔｕａｌａｃｔｕａｌｌｙ　ｗｏｒｋｅｄ？　Ａｈｅｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｈ　Ｇｒｅａｔ　Ｈｅｒｏ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏー"TCC_NEWLINE"ｒｌｄ！Ｔｈｏｕ　ｈａｓｔ　ｃｏｍｅ　ｓｏ　ｆａｒ　ｔｏ　"TCC_NEWLINE"ｆｕｌｆｉｌｌｙｏｕｒ　ｒｏｌｅ　ｉｎ　ｏｕｒ　ｌｅｇｅｎー"TCC_NEWLINE"ｄ！"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　ｏｕｒ　ｋｉｎｇｄｏｍ　ｎｏｗ　ｓｔａｎｄｓ　ｏｎー"TCC_NEWLINE"ｔｈｅ　ｖｅｒｙ　ｂｒｉｎｋ　ｏｆ　ｒｕｉｎ，　ａｎｄ　ｔー"TCC_NEWLINE"ｈｏｕ．．．Ａｎｄ　ｔｈｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｌｄ　ｏｎ．　Ａｒｅ　ｙｏｕ　ｒｅａｌｌｙ　ｏｕｒＧｒー"TCC_NEWLINE"ｅａｔ　Ｈｅｒｏ？　Ｙｏｕ　ｄｏｎ’ｔ　ｌｏｏｋ　ｌｉｋｅー"TCC_NEWLINE"ｔｈｅ　ｔｈｅｅ－ａｎｄ－ｔｈｏｕ　ｔｙｐｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ’ｓ　ｔｈａｔ？　Ｙｏｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ"TCC_NEWLINE"　ｗｈｅｒｅｙｏｕ　ａｒｅ？　Ａｎｄ　ｈｏｗ　ｙｏｕ　ｇｏー"TCC_NEWLINE"ｔ　ｈｅｒｅ？Ｆａｉｒ　ｅｎｏｕｇｈ．　Ｙｏｕ’ｒｅ　ｉｎ"TCC_NEWLINE TCC_PUSH_A
+"Ｏｏｏｈ！　Ｙｏｕ’ｒｅ　ｈｅｒｅ？　Ｔｈｅｎ　ｔｈｅ　ｒー"TCC_NEWLINE"ｉｔｕａｌ　ａｃｔｕａｌｌｙ　ｗｏｒｋｅｄ？　Ａｈｅｍ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　Ｇｒｅａｔ　Ｈｅｒｏ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏー"TCC_NEWLINE"ｒｌｄ！　Ｔｈｏｕ　ｈａｓｔ　ｃｏｍｅ　ｓｏ　ｆａｒ　ｔｏ"TCC_NEWLINE"　ｆｕｌｆｉｌｌ　ｙｏｕｒ　ｒｏｌｅ　ｉｎ　ｏｕｒ　ｌｅｇー"TCC_NEWLINE"ｅｎｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｏｕｒ　ｋｉｎｇｄｏｍ　ｎｏｗ　ｓｔａｎｄｓ　ｏｎ"TCC_NEWLINE"　ｔｈｅ　ｖｅｒｙ　ｂｒｉｎｋ　ｏｆ　ｒｕｉｎ，　ａｎｄ　"TCC_NEWLINE"ｔｈｏｕ．．．　Ａｎｄ　ｔｈｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｌｄ　ｏｎ．　Ａｒｅ　ｙｏｕ　ｒｅａｌｌｙ　ｏｕｒ　Ｇー"TCC_NEWLINE"ｒｅａｔ　Ｈｅｒｏ？　Ｙｏｕ　ｄｏｎ’ｔ　ｌｏｏｋ　ｌｉｋー"TCC_NEWLINE"ｅ　ｔｈｅ　ｔｈｅｅ－ａｎｄ－ｔｈｏｕ　ｔｙｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ’ｓ　ｔｈａｔ？　Ｙｏｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ"TCC_NEWLINE"　ｗｈｅｒｅ　ｙｏｕ　ａｒｅ？　Ａｎｄ　ｈｏｗ　ｙｏｕ　ｇー"TCC_NEWLINE"ｏｔ　ｈｅｒｅ？　Ｆａｉｒ　ｅｎｏｕｇｈ．　Ｙｏｕ’ｒｅ　"TCC_NEWLINE"ｉｎ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "ＦＯＵＮＤ　ＹＯＵ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｒａｔ！　Ｈｏｗ　ｄｉｄ　ｏｎｅ　ｏｆ　ｔｈｏｓｅ　Ｅｍー"TCC_NEWLINE"ｂｌｉａｎｓｇｅｔ　ｈｅｒｅ　ａｌｒｅａｄｙ？　Ｓｔａｎｄ"TCC_NEWLINE"　ｂａｃｋ！　Ｉ’ｌｌ　ｔａｋｅｃａｒｅ　ｏｆ　ｈｉｍ　ｓー"TCC_NEWLINE"ｏｍｅｈｏｗ！"
+"Ｄｒａｔ！　Ｈｏｗ　ｄｉｄ　ｏｎｅ　ｏｆ　ｔｈｏｓｅ　Ｅｍー"TCC_NEWLINE"ｂｌｉａｎｓ　ｇｅｔ　ｈｅｒｅ　ａｌｒｅａｄｙ？　Ｓｔａｎー"TCC_NEWLINE"ｄ　ｂａｃｋ！　Ｉ’ｌｌ　ｔａｋｅ　ｃａｒｅ　ｏｆ　ｈｉｍ"TCC_NEWLINE"　ｓｏｍｅｈｏｗ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0001_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗｈｅｗ！　Ｗｅ　ｔｏｏｋ　ｃａｒｅ　ｏｆ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｎａｍｅ’ｓ　Ａｎｎａ．　Ｉ’ｍ　ｔｈｅ　ｃｏｍｍａー"TCC_NEWLINE"ｎｄｅｒｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｂｅｌｉｅｖｅ　ｔｈａｔ　Ｈｅｒｏｅｓ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｌｉｖｅｆｒｅｅ．　Ｏｕｒ　ｅｎｅｍｉｅｓ，　ｈｏｗｅｖー"TCC_NEWLINE"ｅｒ，　ｅｎｓｌａｖｅｔｈｅｍｔｈｅ　ｆｉｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｒｅａｌｍ　ｈａｓ　ｇａｔｅｗａｙｓ　ｔｏ　ｔｈー"TCC_NEWLINE"ｅ　ｗｏｒｌｄｓｗｈｅｒｅ　Ｈｅｒｏｅｓ　ｃｏｍｅ　ｆｒｏー"TCC_NEWLINE"ｍ．　Ｈａｖｅ　ｙｏｕｈｅａｒｄ　ｏｆ　ｔｈｅ　Ｗｏｒｌｄ"TCC_NEWLINE"　ｏｆ　Ａｗａｋｅｎｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗ　ａｂｏｕｔ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｂｉｒｔｈｒー"TCC_NEWLINE"ｉｇｈｔ？Ｏｒ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｃｏｎｑｕｅｓｔ"TCC_NEWLINE"？　Ｔｈｅｒｅａｒｅ　ｓｏ　ｍａｎｙ　ｍｏｒｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ　ｉｎｖａｄｅｓ　ｔｈー"TCC_NEWLINE"ｏｓｅｗｏｒｌｄｓ　ａｎｄ　ｂｉｎｄｓ　ｔｈｅｉｒ　Ｈｅｒー"TCC_NEWLINE"ｏｅｓ　ｔｏｓｅｒｖｉｃｅ．　Ｗｅ　ｆｉｇｈｔ　ｆｏｒ　ｔー"TCC_NEWLINE"ｈｅｉｒ　ｆｒｅｅｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｓｏｌｄｉｅｒ　ｗａｓ　ｆｒｏｍ　ｔｈｅ　Ｅｍｂー"TCC_NEWLINE"ｌｉａｎＥｍｐｉｒｅ，　ｗｈｉｃｈ　ｗｉｌｌ　ｓｏｏｎ　ｉー"TCC_NEWLINE"ｎｖａｄｅ　ｏｕｒｎｅｉｇｈｂｏｒｉｎｇ　ｋｉｎｇｄｏｍ　"TCC_NEWLINE"Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗａｓ　ｄｅｓｐｅｒａｔｅ　ｆｏｒ　ｈｅｌｐ．　Ｉ　ｐー"TCC_NEWLINE"ｅｒｆｏｒｍｅｄａ　ｓｕｍｍｏｎｉｎｇ　ｃｅｒｅｍｏｎｙ．"TCC_NEWLINE"　Ａｎｄ　ｙｏｕｊｕｓｔ　ａｐｐｅａｒｅｄ　ｏｕｔ　ｏｆ　"TCC_NEWLINE"ｎｏｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｕｃｋｙ　ｕｓ！　Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ"TCC_NEWLINE"　ｔｏ　ｒｅｓｔ．Ｗｅ　ｈａｖｅ　ｔｏ　ａｃｔ　ｆａｓｔ　"TCC_NEWLINE"ｉｆ　ｗｅ’ｒｅ　ｇｏｉｎｇ　ｔｏｓａｖｅ　ｏｕｒ　ｋｉｎー"TCC_NEWLINE"ｇｄｏｍ！"
+"Ｍｙ　ｎａｍｅ’ｓ　Ａｎｎａ．　Ｉ’ｍ　ｔｈｅ　ｃｏｍｍａー"TCC_NEWLINE"ｎｄｅｒ　ｏｆ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｂｅｌｉｅｖｅ　ｔｈａｔ　Ｈｅｒｏｅｓ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｌｉｖｅ　ｆｒｅｅ．　Ｏｕｒ　ｅｎｅｍｉｅｓ，　ｈｏｗｅー"TCC_NEWLINE"ｖｅｒ，　ｅｎｓｌａｖｅ　ｔｈｅｍｔｈｅ　ｆｉｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｒｅａｌｍ　ｈａｓ　ｇａｔｅｗａｙｓ　ｔｏ　ｔｈー"TCC_NEWLINE"ｅ　ｗｏｒｌｄｓ　ｗｈｅｒｅ　Ｈｅｒｏｅｓ　ｃｏｍｅ　ｆｒー"TCC_NEWLINE"ｏｍ．　Ｈａｖｅ　ｙｏｕ　ｈｅａｒｄ　ｏｆ　ｔｈｅ　Ｗｏｒー"TCC_NEWLINE"ｌｄ　ｏｆ　Ａｗａｋｅｎｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ａｂｏｕｔ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｂｉｒｔｈｒー"TCC_NEWLINE"ｉｇｈｔ？　Ｏｒ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｃｏｎｑｕｅｓー"TCC_NEWLINE"ｔ？　Ｔｈｅｒｅ　ａｒｅ　ｓｏ　ｍａｎｙ　ｍｏｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ　ｉｎｖａｄｅｓ　ｔｈー"TCC_NEWLINE"ｏｓｅ　ｗｏｒｌｄｓ　ａｎｄ　ｂｉｎｄｓ　ｔｈｅｉｒ　Ｈｅー"TCC_NEWLINE"ｒｏｅｓ　ｔｏ　ｓｅｒｖｉｃｅ．　Ｗｅ　ｆｉｇｈｔ　ｆｏｒ"TCC_NEWLINE"　ｔｈｅｉｒ　ｆｒｅｅｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓｏｌｄｉｅｒ　ｗａｓ　ｆｒｏｍ　ｔｈｅ　Ｅｍｂー"TCC_NEWLINE"ｌｉａｎ　Ｅｍｐｉｒｅ，　ｗｈｉｃｈ　ｗｉｌｌ　ｓｏｏｎ　"TCC_NEWLINE"ｉｎｖａｄｅ　ｏｕｒ　ｎｅｉｇｈｂｏｒｉｎｇ　ｋｉｎｇｄｏー"TCC_NEWLINE"ｍ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｄｅｓｐｅｒａｔｅ　ｆｏｒ　ｈｅｌｐ．　Ｉ　ｐー"TCC_NEWLINE"ｅｒｆｏｒｍｅｄ　ａ　ｓｕｍｍｏｎｉｎｇ　ｃｅｒｅｍｏｎｙ"TCC_NEWLINE"．　Ａｎｄ　ｙｏｕ　ｊｕｓｔ　ａｐｐｅａｒｅｄ　ｏｕｔ　ｏー"TCC_NEWLINE"ｆ　ｎｏｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｕｃｋｙ　ｕｓ！　Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ"TCC_NEWLINE"　ｔｏ　ｒｅｓｔ．　Ｗｅ　ｈａｖｅ　ｔｏ　ａｃｔ　ｆａｓｔ"TCC_NEWLINE"　ｉｆ　ｗｅ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｓａｖｅ　ｏｕｒ　ｋー"TCC_NEWLINE"ｉｎｇｄｏｍ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

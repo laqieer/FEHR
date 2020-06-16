@@ -1,37 +1,37 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0905_EN] = TCC_OPEN_LEFT
-"Ｒｏｂｉｎ　ｈａｓ　ｉｎｆｏｒｍｅｄ　ｍｅ　ｔｈａｔ　ｙｏー"TCC_NEWLINE"ｕＯｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｐｅｏｐｌｅ　ａｒｅｔｒー"TCC_NEWLINE"ｉｃｋｙ　ｔｏ　ｔａｋｅ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｔａｃｔｉｃｉａｎ　ｉｓ　ｃｌｅｖｅｒ　ｔｏｏ，"TCC_NEWLINE"　ｗｈｉｃｈｉｓ　ｈｉｇｈ　ｐｒａｉｓｅ　ｆｒｏｍ　Ｒｏｂー"TCC_NEWLINE"ｉｎ．Ａｈ，"TCC_NEWLINE
+"Ｒｏｂｉｎ　ｈａｓ　ｉｎｆｏｒｍｅｄ　ｍｅ　ｔｈａｔ　ｙｏー"TCC_NEWLINE"ｕ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｐｅｏｐｌｅ　ａｒｅ　"TCC_NEWLINE"ｔｒｉｃｋｙ　ｔｏ　ｔａｋｅ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｔａｃｔｉｃｉａｎ　ｉｓ　ｃｌｅｖｅｒ　ｔｏｏ，"TCC_NEWLINE"　ｗｈｉｃｈ　ｉｓ　ｈｉｇｈ　ｐｒａｉｓｅ　ｆｒｏｍ　Ｒｏー"TCC_NEWLINE"ｂｉｎ．　Ａｈ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"，　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｄｏｎ’ｔ　ｓｔａｎｄ　ａ　ｃｈａｎｃｅ　ａｇａｉー"TCC_NEWLINE"ｎｓｔｍｅｗｉｔｈ　ｏｒ　ｗｉｔｈｏｕｔ　ｍｙ　ｆａｔｈｅー"TCC_NEWLINE"ｒ　ｔｏ　ｈｅｌｐ．Ｉ’ｌｌ　ｓｈｏｗ　ｙｏｕ　ｈｏｗ　ｗー"TCC_NEWLINE"ｅ　ｄｏ　ｔｈｉｎｇｓ！"
+"Ｙｏｕ　ｄｏｎ’ｔ　ｓｔａｎｄ　ａ　ｃｈａｎｃｅ　ａｇａｉー"TCC_NEWLINE"ｎｓｔ　ｍｅｗｉｔｈ　ｏｒ　ｗｉｔｈｏｕｔ　ｍｙ　ｆａｔｈー"TCC_NEWLINE"ｅｒ　ｔｏ　ｈｅｌｐ．　Ｉ’ｌｌ　ｓｈｏｗ　ｙｏｕ　ｈｏｗ"TCC_NEWLINE"　ｗｅ　ｄｏ　ｔｈｉｎｇｓ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0905_EN] = TCC_OPEN_LEFT
-"Ｗａｉｔ，　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｆｉｇｈｔｉｎｇ　ｔｏー"TCC_NEWLINE"ｆｒｅｅ　ｕｓ？　Ｉｔ’ｓ　ａｌｌ　ｓｏ　ｃｌｅａｒ　ｎｏー"TCC_NEWLINE"ｗ．　Ｈｏｗｃｏｕｌｄ　ｗｅ　ｈａｖｅ　ｂｅｅｎ　ｓｏ　ｗー"TCC_NEWLINE"ｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ’ｓ　ｔｈａｔ　ｎｏｗ？　Ｙｏｕ’ｒｅ　ｉｎ　ｓｅー"TCC_NEWLINE"ａｒｃｈｏｆ　ａ　ｍｉｓｓｉｎｇ　ｆｒｉｅｎｄａ　ｌａｎｃー"TCC_NEWLINE"ｅｒ　ｂｙｔｈｅ　ｎａｍｅ　ｏｆ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ｓａｙ　ｔｈａｔ　Ｉ’ｖｅ　ｎｅー"TCC_NEWLINE"ｖｅｒｈｅａｒｄ　ｏｆ　ｓｕｃｈ　ａ　ｐｅｒｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｋｎｏｗ，　ｍｏｒｅ　ｔｈａｎ　ｍｏｓｔ，　ｈｏｗｐａー"TCC_NEWLINE"ｉｎｆｕｌ　ｉｔ　ｉｓ　ｔｏ　ｌｏｓｅ　ｓｏｍｅｏｎｅｐｒー"TCC_NEWLINE"ｅｃｉｏｕｓ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈｏｐｅ　ｔｈａｔ　ｙｏｕ　ａｎｄ　Ｚａｃｈａｒｉａｓー"TCC_NEWLINE"ａｒｅ　ｒｅｕｎｉｔｅｄ　ｓｏｏｎ．"
+"Ｗａｉｔ，　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｆｉｇｈｔｉｎｇ　ｔｏ"TCC_NEWLINE"　ｆｒｅｅ　ｕｓ？　Ｉｔ’ｓ　ａｌｌ　ｓｏ　ｃｌｅａｒ　ｎー"TCC_NEWLINE"ｏｗ．　Ｈｏｗ　ｃｏｕｌｄ　ｗｅ　ｈａｖｅ　ｂｅｅｎ　ｓｏ"TCC_NEWLINE"　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ’ｓ　ｔｈａｔ　ｎｏｗ？　Ｙｏｕ’ｒｅ　ｉｎ　ｓｅー"TCC_NEWLINE"ａｒｃｈ　ｏｆ　ａ　ｍｉｓｓｉｎｇ　ｆｒｉｅｎｄａ　ｌａｎー"TCC_NEWLINE"ｃｅｒ　ｂｙ　ｔｈｅ　ｎａｍｅ　ｏｆ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ　ｔｏ　ｓａｙ　ｔｈａｔ　Ｉ’ｖｅ　ｎｅー"TCC_NEWLINE"ｖｅｒ　ｈｅａｒｄ　ｏｆ　ｓｕｃｈ　ａ　ｐｅｒｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ，　ｍｏｒｅ　ｔｈａｎ　ｍｏｓｔ，　ｈｏｗ　ｐー"TCC_NEWLINE"ａｉｎｆｕｌ　ｉｔ　ｉｓ　ｔｏ　ｌｏｓｅ　ｓｏｍｅｏｎｅ　"TCC_NEWLINE"ｐｒｅｃｉｏｕｓ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｏｐｅ　ｔｈａｔ　ｙｏｕ　ａｎｄ　Ｚａｃｈａｒｉａｓ"TCC_NEWLINE"　ａｒｅ　ｒｅｕｎｉｔｅｄ　ｓｏｏｎ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0905_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ａｆｔｅｒ　ａｌｌ　ｔｈａｔｓｔｉｌｌ，　ｎｏｔｈｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｗｈｅｒｅ　ＡＲＥ　ｙｏｕ，　Ｚａｃｈａｒｉａｓ？Ｗｈｅｒー"TCC_NEWLINE"ｅ？！"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｔａｕｇｈｔ　ｍｅ　ａｌｌ　Ｉ　ｋｎｏｗ　ａｂｏｕｔー"TCC_NEWLINE"ｌａｎｃｅｓ，　ａｎｄ　Ｉ’ｖｅ　ｈｏｐｅｄ　ｈｅ　ｃｏｕー"TCC_NEWLINE"ｌｄｓｅｅ　ｈｏｗ　ｍｕｃｈ　Ｉ’ｖｅ　ｉｍｐｒｏｖｅｄ！"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｂａｔｔｌｅー"TCC_NEWLINE"ｓＩ　ｆｉｇｈｔ．．．ａｎｄ　ｈｏｗ　ｌｏｎｇ　ｗｅ　ｌｏー"TCC_NEWLINE"ｏｋｆｏｒ　ｈｉｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｎｅｖｅｒ　ｇｏｉｎｇ　ｔｏ　ｓｅｅ　ｈｉｍａｇａー"TCC_NEWLINE"ｉｎ，　ａｍ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ　ＡＲＥ　ｙｏｕ，　Ｚａｃｈａｒｉａｓ？　Ｗｈｅー"TCC_NEWLINE"ｒｅ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｔａｕｇｈｔ　ｍｅ　ａｌｌ　Ｉ　ｋｎｏｗ　ａｂｏｕｔ"TCC_NEWLINE"　ｌａｎｃｅｓ，　ａｎｄ　Ｉ’ｖｅ　ｈｏｐｅｄ　ｈｅ　ｃｏー"TCC_NEWLINE"ｕｌｄ　ｓｅｅ　ｈｏｗ　ｍｕｃｈ　Ｉ’ｖｅ　ｉｍｐｒｏｖｅー"TCC_NEWLINE"ｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｂａｔｔｌｅー"TCC_NEWLINE"ｓ　Ｉ　ｆｉｇｈｔ．．．ａｎｄ　ｈｏｗ　ｌｏｎｇ　ｗｅ　ｌー"TCC_NEWLINE"ｏｏｋ　ｆｏｒ　ｈｉｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｅｖｅｒ　ｇｏｉｎｇ　ｔｏ　ｓｅｅ　ｈｉｍ　ａｇー"TCC_NEWLINE"ａｉｎ，　ａｍ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｓｔｏｐ　ｙｏｕｒ　ｗａｉｌｉｎｇ，　Ｓｈａｒｅｎａ！Ｗｅ"TCC_NEWLINE"’ｒｅ　ｏｎ　ａ　ｍｉｓｓｉｏｎ，　ａｎｄ　Ｉ　ｗｏｎ’ｔー"TCC_NEWLINE"ｈａｖｅ　ｙｏｕ　ａｃｔｉｎｇ　ｌｉｋｅ　ａ　ｃｈｉｌｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｏｐ　ｙｏｕｒ　ｗａｉｌｉｎｇ，　Ｓｈａｒｅｎａ！　Ｗー"TCC_NEWLINE"ｅ’ｒｅ　ｏｎ　ａ　ｍｉｓｓｉｏｎ，　ａｎｄ　Ｉ　ｗｏｎ’"TCC_NEWLINE"ｔ　ｈａｖｅ　ｙｏｕ　ａｃｔｉｎｇ　ｌｉｋｅ　ａ　ｃｈｉｌー"TCC_NEWLINE"ｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｏｒｒｙ，　Ｃｏｍｍａｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｏｕ　ｔｏｏ，　Ａｌｆｏｎｓｅ！　Ｗｉｐｅ　ｔｈａｔ　ｓー"TCC_NEWLINE"ｏｒｒｙｌｏｏｋ　ｏｆｆ　ｙｏｕｒ　ｆａｃｅ．　Ｗｈａｔ　"TCC_NEWLINE"ｗｏｕｌｄＺａｃｈａｒｉａｓ　ｓａｙ　ｉｆ　ｈｅ　ｓａｗ　"TCC_NEWLINE"ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｔｏｏ，　Ａｌｆｏｎｓｅ！　Ｗｉｐｅ　ｔｈａｔ　ｓー"TCC_NEWLINE"ｏｒｒｙ　ｌｏｏｋ　ｏｆｆ　ｙｏｕｒ　ｆａｃｅ．　Ｗｈａｔ"TCC_NEWLINE"　ｗｏｕｌｄ　Ｚａｃｈａｒｉａｓ　ｓａｙ　ｉｆ　ｈｅ　ｓａー"TCC_NEWLINE"ｗ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｙ　ａｐｏｌｏｇｉｅｓ，　Ｃｏｍｍａｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｂｅｓｉｄｅｓ，　ｉｆ　ａｎｙｏｎｅ　ｈｅｒｅ　ｓｈｏｕｌー"TCC_NEWLINE"ｄ　ｂｅｈｅａｒｔｂｒｏｋｅｎ．．．ｉｔ’ｓ　ｍｅ．　Ｉ’"TCC_NEWLINE"ｍ　ｔｈｅｃｏｍｍａｎｄｉｎｇ　ｏｆｆｉｃｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｓｉｄｅｓ，　ｉｆ　ａｎｙｏｎｅ　ｈｅｒｅ　ｓｈｏｕｌー"TCC_NEWLINE"ｄ　ｂｅ　ｈｅａｒｔｂｒｏｋｅｎ．．．ｉｔ’ｓ　ｍｅ．　Ｉ"TCC_NEWLINE"’ｍ　ｔｈｅ　ｃｏｍｍａｎｄｉｎｇ　ｏｆｆｉｃｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｚａｃｈａｒｉａｓ　ｗａｓ　ｍｙ　ｒｅｓｐｏｎｓｉｂｉｌｉー"TCC_NEWLINE"ｔｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｈｅ　ｉｓ　ｄｅａｄ，　Ｉ　ｗｉｌｌ　ｂｅ　ｔｈｅ　"TCC_NEWLINE"ｏｎｅ　ｔｏｂｅａｒ　ｔｈｅ　ｇｒｉｅｆ．　Ｉ　ｎｅｅｄ　"TCC_NEWLINE"ｙｏｕ　ａｌｌ　ｔｏｓｔａｙ　ｆｏｃｕｓｅｄ　ｏｎ　ｏｕｒ"TCC_NEWLINE"　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｗｏｎ’ｔ　ｐｕｔ　Ｚａｃｈａｒｉａｓ　ｂｅｈｉｎｄー"TCC_NEWLINE"ｕｓ，　ｂｕｔ　ｗｅ　ｍｕｓｔ　ｋｅｅｐ　ｏｕｒ　ｅｙｅ　"TCC_NEWLINE"ｏｎｔｈｅ　ｔｈｒｅａｔ　ｒｉｇｈｔ　ｉｎ　ｏｕｒ　ｐａｔー"TCC_NEWLINE"ｈ！"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！　Ｓｈｅ　ｉｓ　ｓｕｒー"TCC_NEWLINE"ｅｌｙｓｃｈｅｍｉｎｇ　ａｓ　ｗｅ　ｓｐｅａｋ．　Ｎｏｗ，"TCC_NEWLINE"ｌｅｔ’ｓ　ｒｅｔｕｒｎ　ｈｏｍｅ．"
+"Ｉｆ　ｈｅ　ｉｓ　ｄｅａｄ，　Ｉ　ｗｉｌｌ　ｂｅ　ｔｈｅ　"TCC_NEWLINE"ｏｎｅ　ｔｏ　ｂｅａｒ　ｔｈｅ　ｇｒｉｅｆ．　Ｉ　ｎｅｅｄ"TCC_NEWLINE"　ｙｏｕ　ａｌｌ　ｔｏ　ｓｔａｙ　ｆｏｃｕｓｅｄ　ｏｎ　ｏー"TCC_NEWLINE"ｕｒ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｏｎ’ｔ　ｐｕｔ　Ｚａｃｈａｒｉａｓ　ｂｅｈｉｎｄ"TCC_NEWLINE"　ｕｓ，　ｂｕｔ　ｗｅ　ｍｕｓｔ　ｋｅｅｐ　ｏｕｒ　ｅｙｅ"TCC_NEWLINE"　ｏｎ　ｔｈｅ　ｔｈｒｅａｔ　ｒｉｇｈｔ　ｉｎ　ｏｕｒ　ｐー"TCC_NEWLINE"ａｔｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！　Ｓｈｅ　ｉｓ　ｓｕｒー"TCC_NEWLINE"ｅｌｙ　ｓｃｈｅｍｉｎｇ　ａｓ　ｗｅ　ｓｐｅａｋ．　Ｎｏｗ"TCC_NEWLINE"，　ｌｅｔ’ｓ　ｒｅｔｕｒｎ　ｈｏｍｅ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3054_EN] = TCC_OPEN_LEFT
-"Ｉ．．．ｈａｖｅ　ｂｅｅｎ　ｏｒｄｅｒｅｄ　ｔｏ　ｌｅａｄ"TCC_NEWLINE"　ｔｈｉｓｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔｈｏｕｓａｎｄ　ｓー"TCC_NEWLINE"ｕｎｓｐａｓｓ，　ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔー"TCC_NEWLINE"ｈｏｕｓａｎｄｍｏｏｎｓ…Ｉ　ｍｕｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．ｈａｖｅ　ｂｅｅｎ　ｏｒｄｅｒｅｄ　ｔｏ　ｌｅａｄ"TCC_NEWLINE"　ｔｈｉｓ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔｈｏｕｓａｎｄ　ｓー"TCC_NEWLINE"ｕｎｓ　ｐａｓｓ，　ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　"TCC_NEWLINE"ｔｈｏｕｓａｎｄ　ｍｏｏｎｓ…Ｉ　ｍｕｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

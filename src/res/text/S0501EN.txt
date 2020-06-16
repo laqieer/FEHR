@@ -1,12 +1,12 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0501_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ’ｒｅ　ｔｈｅ　ｉｎｖａｄｅｒｓ　ｆｒｏｍ　ｔｈｉｓー"TCC_NEWLINE"ｓｏ－ｃａｌｌｅｄ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ’ｖｅ　ｊｕｓｔ　ｇｏｔｔｅｎ　ｗｏｒｄ　ｆｒｏｍ　ｔー"TCC_NEWLINE"ｈｅＥｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ　ｔｈａｔ　ｙｏｕ’ｖー"TCC_NEWLINE"ｅ　ｃｏｍｅｈｅｒｅ　ｔｏ　ｒａｚｅ　ｏｕｒ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｗａｒｎｉｎｇ　ｙｏｕ　ｎｏｗｎｏ　ｏｎｅｗｉｌｌ"TCC_NEWLINE"　ｂｒｉｎｇ　ｈａｒｍ　ｔｏ　ｔｈｅ　Ｈａｌｉｄｏｍ　ｏｆー"TCC_NEWLINE"Ｙｌｉｓｓｅ．　Ｎｏｔ　ｏｎ　ｍｙ　ｗａｔｃｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ　ｙｏｕ　ｆａｃｅ　ｍｅ　ａｎｄ　ｍｙ　Ｓｈｅｐｈｅー"TCC_NEWLINE"ｒｄｓ．Ｌｉｓｓａ！　Ｆｒｅｄｅｒｉｃｋ！　Ｐｒｅｐａｒｅ"TCC_NEWLINE"　ｆｏｒ　ｂａｔｔｌｅ．"
+"Ｙｏｕ’ｒｅ　ｔｈｅ　ｉｎｖａｄｅｒｓ　ｆｒｏｍ　ｔｈｉｓ"TCC_NEWLINE"　ｓｏ－ｃａｌｌｅｄ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｊｕｓｔ　ｇｏｔｔｅｎ　ｗｏｒｄ　ｆｒｏｍ　ｔー"TCC_NEWLINE"ｈｅ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ　ｔｈａｔ　ｙｏｕ’"TCC_NEWLINE"ｖｅ　ｃｏｍｅ　ｈｅｒｅ　ｔｏ　ｒａｚｅ　ｏｕｒ　ｒｅａｌー"TCC_NEWLINE"ｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｗａｒｎｉｎｇ　ｙｏｕ　ｎｏｗｎｏ　ｏｎｅ　ｗｉｌー"TCC_NEWLINE"ｌ　ｂｒｉｎｇ　ｈａｒｍ　ｔｏ　ｔｈｅ　Ｈａｌｉｄｏｍ　ｏー"TCC_NEWLINE"ｆ　Ｙｌｉｓｓｅ．　Ｎｏｔ　ｏｎ　ｍｙ　ｗａｔｃｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｙｏｕ　ｆａｃｅ　ｍｅ　ａｎｄ　ｍｙ　Ｓｈｅｐｈｅー"TCC_NEWLINE"ｒｄｓ．　Ｌｉｓｓａ！　Ｆｒｅｄｅｒｉｃｋ！　Ｐｒｅｐａｒー"TCC_NEWLINE"ｅ　ｆｏｒ　ｂａｔｔｌｅ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0501_EN] = TCC_OPEN_LEFT
-"Ｗｅ　ｗｉｌｌ　ｎｏｔ　ａｄｍｉｔ　ｄｅｆｅａｔ　ｓｏ　ｅー"TCC_NEWLINE"ａｓｉｌｙ．Ｔｈｅ　ｒｅｓｔ　ｏｆ　ｔｈｅ　Ｓｈｅｐｈｅｒー"TCC_NEWLINE"ｄｓ　ｗｉｌｌｓｔｏｐ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｕｒ　ｂｏｎｄｓ　ａｒｅ　ｓｔｒｏｎｇｗｅ　ｗｉｌｌ　ｎー"TCC_NEWLINE"ｅｖｅｒｓｕｂｍｉｔ　ｔｏ　ｙｏｕ，　ｖｉｌｌａｉｎｓ．"
+"Ｗｅ　ｗｉｌｌ　ｎｏｔ　ａｄｍｉｔ　ｄｅｆｅａｔ　ｓｏ　ｅー"TCC_NEWLINE"ａｓｉｌｙ．　Ｔｈｅ　ｒｅｓｔ　ｏｆ　ｔｈｅ　Ｓｈｅｐｈｅー"TCC_NEWLINE"ｒｄｓ　ｗｉｌｌ　ｓｔｏｐ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｂｏｎｄｓ　ａｒｅ　ｓｔｒｏｎｇｗｅ　ｗｉｌｌ　ｎー"TCC_NEWLINE"ｅｖｅｒ　ｓｕｂｍｉｔ　ｔｏ　ｙｏｕ，　ｖｉｌｌａｉｎｓ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

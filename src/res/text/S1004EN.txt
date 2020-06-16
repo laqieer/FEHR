@@ -3,34 +3,34 @@
 [MID_SCENARIO_MAP_BEGIN_S1004_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｙｏｕ　ａｇａｉｎ．　Ｔｕｒｎ　ｂａｃｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｓｏ，　ｙｏｕ　ａｒｅ　ｗｉｔｈ　ｔｈｅ　ｅｍｐｉｒｅ！Ｗー"TCC_NEWLINE"ｈｙ　ｄｏ　ｙｏｕ　ｈｉｄｅ　ｂｅｈｉｎｄｔｈａｔ　ｄａｍー"TCC_NEWLINE"ｎａｂｌｅ　ｍａｓｋ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｙｏｕ　ａｒｅ　ｗｉｔｈ　ｔｈｅ　ｅｍｐｉｒｅ！　"TCC_NEWLINE"Ｗｈｙ　ｄｏ　ｙｏｕ　ｈｉｄｅ　ｂｅｈｉｎｄ　ｔｈａｔ　ｄー"TCC_NEWLINE"ａｍｎａｂｌｅ　ｍａｓｋ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｎｏｔ　ｗｉｔｈ　Ｅｍｂｌａ．　Ｎｏｒ　ａｍ　Ｉ"TCC_NEWLINE"　ｗｉｔｈｙｏｕ．　Ｓｔｉｌｌ，　Ｉ’ｌｌ　ｓａｙ　ｉｔ　"TCC_NEWLINE"ｏｎｅ　ｌａｓｔ　ｔｉｍｅ．Ｔｕｒｎ　ｂａｃｋＮＯＷ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｏｔ　ｗｉｔｈ　Ｅｍｂｌａ．　Ｎｏｒ　ａｍ　Ｉ"TCC_NEWLINE"　ｗｉｔｈ　ｙｏｕ．　Ｓｔｉｌｌ，　Ｉ’ｌｌ　ｓａｙ　ｉｔ"TCC_NEWLINE"　ｏｎｅ　ｌａｓｔ　ｔｉｍｅ．　Ｔｕｒｎ　ｂａｃｋＮＯＷ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｎｅｖｅｒ．　Ｓｔａｎｄ　ａｓｉｄｅ，　ｏｒ　ｗｅ　ｗｉｌー"TCC_NEWLINE"ｌ　ｂｒｅａｋｔｈｒｏｕｇｈ，　ｏｎｅ　ｗａｙ　ｏｒ　ａｎー"TCC_NEWLINE"ｏｔｈｅｒ！"
+"Ｎｅｖｅｒ．　Ｓｔａｎｄ　ａｓｉｄｅ，　ｏｒ　ｗｅ　ｗｉｌー"TCC_NEWLINE"ｌ　ｂｒｅａｋ　ｔｈｒｏｕｇｈ，　ｏｎｅ　ｗａｙ　ｏｒ　ａー"TCC_NEWLINE"ｎｏｔｈｅｒ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S1004_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
-"Ｉ．．．Ｉ　ｃａｎ’ｔ　ｋｅｅｐ　ｆｉｇｈｔｉｎｇ．　Ｙｏー"TCC_NEWLINE"ｕ　Ｏｒｄｅｒｏｆ　Ｈｅｒｏｅｓ　ｐｅｏｐｌｅ．．．　Ｄｏー"TCC_NEWLINE"ｎ’ｔ　ｙｏｕｒｅａｌｉｚｅ　ｙｏｕ’ｒｅ　ｏｎ　ｔｈｅ　"TCC_NEWLINE"ｗｒｏｎｇ　ｔｒａｃｋ？"TCC_NEWLINE TCC_PUSH_A
-"Ｖｅｒｏｎｉｃａ’ｓ　ｉｍｐｅｒｉａｌ　ｆｏｒｃｅｓ　ａｒー"TCC_NEWLINE"ｅｎ’ｔｉｎｖａｄｉｎｇ　ｙｏｕｒ　ｃａｐｉｔａｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｙｏｕｒ　ｓｕｍｍｏｎｉー"TCC_NEWLINE"ｎｇｒｕｉｎｓｔｏ　ｄｅｓｔｒｏｙ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．Ｉ　ｃａｎ’ｔ　ｋｅｅｐ　ｆｉｇｈｔｉｎｇ．　Ｙｏー"TCC_NEWLINE"ｕ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｐｅｏｐｌｅ．．．　Ｄー"TCC_NEWLINE"ｏｎ’ｔ　ｙｏｕ　ｒｅａｌｉｚｅ　ｙｏｕ’ｒｅ　ｏｎ　ｔｈー"TCC_NEWLINE"ｅ　ｗｒｏｎｇ　ｔｒａｃｋ？"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｏｎｉｃａ’ｓ　ｉｍｐｅｒｉａｌ　ｆｏｒｃｅｓ　ａｒー"TCC_NEWLINE"ｅｎ’ｔ　ｉｎｖａｄｉｎｇ　ｙｏｕｒ　ｃａｐｉｔａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｙｏｕｒ　ｓｕｍｍｏｎｉー"TCC_NEWLINE"ｎｇ　ｒｕｉｎｓｔｏ　ｄｅｓｔｒｏｙ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｈａｔ？　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｈｅ　ｗｉｓｈｅｓ　ｔｏ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏｙｏー"TCC_NEWLINE"ｕｒ　ｓｕｍｍｏｎｅｒ’ｓ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ　ｗｈａｔ　ｔｈａｔ　ｗー"TCC_NEWLINE"ｏｕｌｄｍｅａｎｆｏｒ　ｅｖｅｒｙｔｈｉｎｇ？　Ｉｆ　ｓｏ"TCC_NEWLINE"，　ｙｏｕｓｈｏｕｌｄ　ｇｅｔ　ｔｏ　ｔｈｅ　ｒｕｉｎｓ　"TCC_NEWLINE"ｆａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｗｉｓｈｅｓ　ｔｏ　ｐｕｔ　ａｎ　ｅｎｄ　ｔｏ　ｙー"TCC_NEWLINE"ｏｕｒ　ｓｕｍｍｏｎｅｒ’ｓ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ　ｗｈａｔ　ｔｈａｔ　ｗー"TCC_NEWLINE"ｏｕｌｄ　ｍｅａｎｆｏｒ　ｅｖｅｒｙｔｈｉｎｇ？　Ｉｆ　ｓー"TCC_NEWLINE"ｏ，　ｙｏｕ　ｓｈｏｕｌｄ　ｇｅｔ　ｔｏ　ｔｈｅ　ｒｕｉｎー"TCC_NEWLINE"ｓ　ｆａｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈｙ　ａｒｅ　ｙｏｕ　ｒｅｖｅａｌｉｎｇ　ｈｅｒｐｌａｎー"TCC_NEWLINE"ｓ　ｔｏ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ａｒｅ　ｙｏｕ　ｒｅｖｅａｌｉｎｇ　ｈｅｒ　ｐｌａー"TCC_NEWLINE"ｎｓ　ｔｏ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈａｔ　ｉｓ　ｍｙ　ｓｅｃｒｅｔ　ｔｏ　ｋｅｅｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗａｉｔ！　Ｇｅｔ　ｂａｃｋ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ’ｓ　ｇｏｎｅ．　Ｗｅｌｌ，　Ａｌｆｏｎｓｅ？　Ｗｈａー"TCC_NEWLINE"ｔｄｉｄ　ｙｏｕ　ｍａｋｅ　ｏｆ　ａｌｌ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ’ｓ　ｇｏｎｅ．　Ｗｅｌｌ，　Ａｌｆｏｎｓｅ？　Ｗｈａー"TCC_NEWLINE"ｔ　ｄｉｄ　ｙｏｕ　ｍａｋｅ　ｏｆ　ａｌｌ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｆｏｒ　ｓｕｒｅ．　Ｂｕｔ　ｗｅー"TCC_NEWLINE"ｓｈｏｕｌｄ　ｈｅａｄ　ｆｏｒ　ｔｈｅ　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｆｏｒ　ｓｕｒｅ．　Ｂｕｔ　ｗｅ"TCC_NEWLINE"　ｓｈｏｕｌｄ　ｈｅａｄ　ｆｏｒ　ｔｈｅ　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｈａｔ　ｉｆ　ｉｔ’ｓ　ａ　ｔｒａｐ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｈａｖｅ　ａ　ｓｔｒａｎｇｅ　ｆｅｅｌｉｎｇ　ｈｅ　ｗー"TCC_NEWLINE"ａｓｎ’ｔｌｙｉｎｇ，　ａｔ　ｌｅａｓｔ　ａｂｏｕｔ　Ｖｅー"TCC_NEWLINE"ｒｏｎｉｃａｗａｎｔｉｎｇ　ｔｏ　ｄｅｓｔｒｏｙ　ｔｈｏｓー"TCC_NEWLINE"ｅ　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ａ　ｓｔｒａｎｇｅ　ｆｅｅｌｉｎｇ　ｈｅ　ｗー"TCC_NEWLINE"ａｓｎ’ｔ　ｌｙｉｎｇ，　ａｔ　ｌｅａｓｔ　ａｂｏｕｔ　Ｖー"TCC_NEWLINE"ｅｒｏｎｉｃａ　ｗａｎｔｉｎｇ　ｔｏ　ｄｅｓｔｒｏｙ　ｔｈー"TCC_NEWLINE"ｏｓｅ　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｎｅｅｄ　ｔｏ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　ｔｈａｔ"TCC_NEWLINE"，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

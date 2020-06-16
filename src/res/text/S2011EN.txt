@@ -1,38 +1,38 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｌｉｓｔｅｎ　ｕｐ，　ｔｒｏｏｐｓ！　Ｔｈｅ　ｅａｓｔｅｒー"TCC_NEWLINE"ｎｒｅａｃｈｅｓ　ｏｆ　Ａｓｋｒ　ａｒｅ　ｕｎｄｅｒ　ａｔー"TCC_NEWLINE"ｔａｃｋ！Ｔｈｅｙ’ｒｅ　ｔａｒｇｅｔｉｎｇ　Ｇｎｔｔｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｓｔｅｎ　ｕｐ，　ｔｒｏｏｐｓ！　Ｔｈｅ　ｅａｓｔｅｒー"TCC_NEWLINE"ｎ　ｒｅａｃｈｅｓ　ｏｆ　Ａｓｋｒ　ａｒｅ　ｕｎｄｅｒ　ａー"TCC_NEWLINE"ｔｔａｃｋ！　Ｔｈｅｙ’ｒｅ　ｔａｒｇｅｔｉｎｇ　Ｇｎｔｔー"TCC_NEWLINE"ｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｉｓ　ｉｔ　Ｅｍｂｌａ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｔｈｅ　ｓｏｌｄｉｅｒ　ｗｈー"TCC_NEWLINE"ｏｃａｒｒｉｅｄ　ｔｈｅ　ｒｅｐｏｒｔ　ｉｓ　ｕｎｃｏｎｓー"TCC_NEWLINE"ｃｉｏｕｓ．．．ｗｉｔｈ　ｔｅｒｒｉｂｌｅ　ｂｕｒｎｓ　ａー"TCC_NEWLINE"ｌｌ　ｏｖｅｒ　ｈｉｓ　ｂｏｄｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ｈｉｓ　ｓｕｆｆｅｒｉｎｇ，　ｈｅ　ｒｅｐｅａｔｓ　"TCC_NEWLINE"ｏｎｅｐｈｒａｓｅ，　ａｇａｉｎ　ａｎｄ　ａｇａｉｎ：　ｔー"TCC_NEWLINE"ｈｅｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ．　Ｔｈｅ　ｓｏｌｄｉｅｒ　ｗｈー"TCC_NEWLINE"ｏ　ｃａｒｒｉｅｄ　ｔｈｅ　ｒｅｐｏｒｔ　ｉｓ　ｕｎｃｏｎー"TCC_NEWLINE"ｓｃｉｏｕｓ．．．　ｗｉｔｈ　ｔｅｒｒｉｂｌｅ　ｂｕｒｎｓ"TCC_NEWLINE"　ａｌｌ　ｏｖｅｒ　ｈｉｓ　ｂｏｄｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｈｉｓ　ｓｕｆｆｅｒｉｎｇ，　ｈｅ　ｒｅｐｅａｔｓ　"TCC_NEWLINE"ｏｎｅ　ｐｈｒａｓｅ，　ａｇａｉｎ　ａｎｄ　ａｇａｉｎ：　"TCC_NEWLINE"ｔｈｅ　ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈｅ　ｆｌａｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅ　ｍｕｓｔ　ｆｉｎｄ　ｏｕｔ　ｗｈａｔ’ｓ　ｇｏｉｎｇ"TCC_NEWLINE"　ｏｎ．　Ｉｔ’ｓｗｅｌｌ　ｐａｓｔ　ｔｉｍｅ　ｗｅ　ｌｅー"TCC_NEWLINE"ｆｔ．　Ｍａｋｅ　ｙｏｕｒｐｒｅｐａｒａｔｉｏｎｓ　ｑｕｉー"TCC_NEWLINE"ｃｋｌｙ　ａｎｄ　ｍｏｖｅ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｆｉｎｄ　ｏｕｔ　ｗｈａｔ’ｓ　ｇｏｉｎｇ"TCC_NEWLINE"　ｏｎ．　Ｉｔ’ｓ　ｗｅｌｌ　ｐａｓｔ　ｔｉｍｅ　ｗｅ　ｌー"TCC_NEWLINE"ｅｆｔ．　Ｍａｋｅ　ｙｏｕｒ　ｐｒｅｐａｒａｔｉｏｎｓ　ｑー"TCC_NEWLINE"ｕｉｃｋｌｙ　ａｎｄ　ｍｏｖｅ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｈａｔ．．．ｈａｓ　ｈａｐｐｅｎｅｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｐｌａｃｅ　ｗａｓ　ｆａｍｏｕｓ　ｆｏｒ　ｉｔｓ"TCC_NEWLINE"　ｂｏｕｎｔｉｆｕｌｆａｒｍｌａｎｄ．．．　Ｂｕｔ　ｙｏｕ"TCC_NEWLINE"’ｄ　ｎｅｖｅｒ　ｋｎｏｗ　ｉｔｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｐｌａｃｅ　ｗａｓ　ｆａｍｏｕｓ　ｆｏｒ　ｉｔｓ"TCC_NEWLINE"　ｂｏｕｎｔｉｆｕｌ　ｆａｒｍｌａｎｄ．．．　Ｂｕｔ　ｙｏー"TCC_NEWLINE"ｕ’ｄ　ｎｅｖｅｒ　ｋｎｏｗ　ｉｔ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｗｅ．．．ｗｅ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ　ｗｉｔー"TCC_NEWLINE"ｈＭｏｔｈｅｒ　ｗｈｅｎ　ｗｅ　ｗｅｒｅ　ｃｈｉｌｄｒｅｎ"TCC_NEWLINE"．．．　Ｔｈｉｓｉｓ　ａ　ｃｒｕｅｌ　ｒｅｂｕｋｅ　ｔｏ　"TCC_NEWLINE"ｍｙ　ｍｅｍｏｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ．．．ｗｅ　ｕｓｅｄ　ｔｏ　ｃｏｍｅ　ｈｅｒｅ　ｗｉｔー"TCC_NEWLINE"ｈ　Ｍｏｔｈｅｒ　ｗｈｅｎ　ｗｅ　ｗｅｒｅ　ｃｈｉｌｄｒｅー"TCC_NEWLINE"ｎ．．．　Ｔｈｉｓ　ｉｓ　ａ　ｃｒｕｅｌ　ｒｅｂｕｋｅ　ｔー"TCC_NEWLINE"ｏ　ｍｙ　ｍｅｍｏｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｅｙｏｎｄ　ｃｒｕｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｌｆｏｎｓｅ！　Ｓｈａｒｅｎａ！　Ｂｅ　ｏｎ　ｙｏｕｒ　"TCC_NEWLINE"ｇｕａｒｄ！Ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ！　Ｓｈａｒｅｎａ！　Ｂｅ　ｏｎ　ｙｏｕｒ　"TCC_NEWLINE"ｇｕａｒｄ！　Ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅｙ’ｒｅ　ｍａｒｃｈｉｎｇ　ｕｎｄｅｒ　ｔｈｅ　Ｅｍー"TCC_NEWLINE"ｂｌｉａｎｂａｎｎｅｒｔｈａｔ’ｓ　ｃｅｒｔａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｍａｒｃｈｉｎｇ　ｕｎｄｅｒ　ｔｈｅ　Ｅｍー"TCC_NEWLINE"ｂｌｉａｎ　ｂａｎｎｅｒｔｈａｔ’ｓ　ｃｅｒｔａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｓｏ　ｉｔ　ｉｓ　Ｅｍｂｌａ　ｔｈａｔ’ｓ　ｂｅｈｉｎｄ　"TCC_NEWLINE"ｔｈｉｓ．　Ｉ’ｌｌｎｅｖｅｒ　ｆｏｒｇｉｖｅ　ｔｈｅｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｉｔ　ｉｓ　Ｅｍｂｌａ　ｔｈａｔ’ｓ　ｂｅｈｉｎｄ　"TCC_NEWLINE"ｔｈｉｓ．　Ｉ’ｌｌ　ｎｅｖｅｒ　ｆｏｒｇｉｖｅ　ｔｈｅｍ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｏｌｄ　ａ　ｍｏｍｅｎｔ，　Ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｔａｋｅ　ａ　ｌｏｏｋ　ａｔ　ｔｈｅｓｅ　ｆｌａｍｅｓ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ’ｒｅ　ｎｏｔ　ｄｙｉｎｇ　ｄｏｗｎ．　Ｉｎ　ｆａー"TCC_NEWLINE"ｃｔ，　ｔｈｅｙｓｅｅｍ　ｔｏ　ｇｒｏｗ　ｅｖｅｎ　ｈｏｔー"TCC_NEWLINE"ｔｅｒ．．．　Ｉ’ｖｅ　ｎｅｖｅｒｓｅｅｎ　ａｎｙｔｈｉｎー"TCC_NEWLINE"ｇ　ｌｉｋｅ　ｉｔ　ｂｅｆｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｌａｍｅｓ　ｌｉｋｅ　ｔｈｉｓ　ｃｏｕｌｄ　ｔｕｒｎ　ａ"TCC_NEWLINE"　ｒｉｖｅｒ　ｉｎｔｏｎｏｔｈｉｎｇ　ｂｕｔ　ｓｔｅａｍ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｎｏｔ　ｄｙｉｎｇ　ｄｏｗｎ．　Ｉｎ　ｆａー"TCC_NEWLINE"ｃｔ，　ｔｈｅｙ　ｓｅｅｍ　ｔｏ　ｇｒｏｗ　ｅｖｅｎ　ｈｏー"TCC_NEWLINE"ｔｔｅｒ．．．　Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　ａｎｙｔｈー"TCC_NEWLINE"ｉｎｇ　ｌｉｋｅ　ｉｔ　ｂｅｆｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｌａｍｅｓ　ｌｉｋｅ　ｔｈｉｓ　ｃｏｕｌｄ　ｔｕｒｎ　ａ"TCC_NEWLINE"　ｒｉｖｅｒ　ｉｎｔｏ　ｎｏｔｈｉｎｇ　ｂｕｔ　ｓｔｅａｍ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｆｌａｍｅｓ　ｕｎｄｙｉｎｇ．．．ｕｎｑｕｅｎｃｈａｂｌｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｐｒｏｐｈｅｃｙ．．．　Ｃａｎ　ｉｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
@@ -40,14 +40,14 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔｗｏ　ｂｉｃｋｅｒｉｎｇ　ａｂー"TCC_NEWLINE"ｏｕｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｅｒｅ’ｓ　ａ　ｖｅｒｙ　ｏｌｄ　ｂｏｏｋ　ｏｆ　ｐｒー"TCC_NEWLINE"ｏｐｈｅｃｙ．．．Ｉｔ　ｔｅｌｌｓ　ｏｆ　ｔｈｅ　ｅｎｄ　"TCC_NEWLINE"ｏｆ　ｔｈｅ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｃｌｏａｋｅｄ　ｉｎ　ｆｌａｍｅ，　ｈｅ　ｃｒｏｓｓｅｓ　"TCC_NEWLINE"ｔｈｅｓｅａｕｎｑｕｅｎｃｈａｂｌｅ，　ｉｎｓａｔｉａｂｌー"TCC_NEWLINE"ｅ，ｕｎｄｙｉｎｇ　ｆｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｒｅｅｓ　ｆａｌｌ，　ｍｏｕｎｔａｉｎｓ　ｂｕｒｎ，　ｓー"TCC_NEWLINE"ｔｅａｍｂｉｌｌｏｗｓ．　Ｔｈｅ　ｓｅａｓ　ａｒｅ　ｓｗａー"TCC_NEWLINE"ｌｌｏｗｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｔａｒｓ　ｂｅｃｏｍｅ　ｃｉｎｄｅｒｓ，　ａｎｄ　ｔｈｅ"TCC_NEWLINE"　ｍｏｏｎｆａｌｌｓ　ｆｒｏｍ　ｔｈｅ　ｓｋｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｗｏｒｌｄ，　ｄｅｖｏｕｒｅｄ　ｂｙ　ｆｌａｍｅ，"TCC_NEWLINE"ｓｍｏｌｄｅｒｓ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ａ　ｖｅｒｙ　ｏｌｄ　ｂｏｏｋ　ｏｆ　ｐｒー"TCC_NEWLINE"ｏｐｈｅｃｙ．．．　Ｉｔ　ｔｅｌｌｓ　ｏｆ　ｔｈｅ　ｅｎｄ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｌｏａｋｅｄ　ｉｎ　ｆｌａｍｅ，　ｈｅ　ｃｒｏｓｓｅｓ　"TCC_NEWLINE"ｔｈｅ　ｓｅａｕｎｑｕｅｎｃｈａｂｌｅ，　ｉｎｓａｔｉａｂー"TCC_NEWLINE"ｌｅ，　ｕｎｄｙｉｎｇ　ｆｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｅｅｓ　ｆａｌｌ，　ｍｏｕｎｔａｉｎｓ　ｂｕｒｎ，　ｓー"TCC_NEWLINE"ｔｅａｍ　ｂｉｌｌｏｗｓ．　Ｔｈｅ　ｓｅａｓ　ａｒｅ　ｓｗー"TCC_NEWLINE"ａｌｌｏｗｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔａｒｓ　ｂｅｃｏｍｅ　ｃｉｎｄｅｒｓ，　ａｎｄ　ｔｈｅ"TCC_NEWLINE"　ｍｏｏｎ　ｆａｌｌｓ　ｆｒｏｍ　ｔｈｅ　ｓｋｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｏｒｌｄ，　ｄｅｖｏｕｒｅｄ　ｂｙ　ｆｌａｍｅ，"TCC_NEWLINE"　ｓｍｏｌｄｅｒｓ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｍｏｌｄｅｒｓ．．．ｏｕｔ？　Ｙｏｕ　ｃａｎ’ｔ　ｍｅａー"TCC_NEWLINE"ｎ　ｔｈａｔｉｔ’ｓ　ｄｅｓｔｒｏｙｅｄ，　ｃａｎ　ｙｏｕ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｍｏｌｄｅｒｓ．．．ｏｕｔ？　Ｙｏｕ　ｃａｎ’ｔ　ｍｅａー"TCC_NEWLINE"ｎ　ｔｈａｔ　ｉｔ’ｓ　ｄｅｓｔｒｏｙｅｄ，　ｃａｎ　ｙｏー"TCC_NEWLINE"ｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅ　ｎｅｅｄ　ｔｏ　ｆｉｎｄ　ｏｕｔ　ｍｏｒｅ　ａｂｏｕー"TCC_NEWLINE"ｔ　ｗｈｏｗｅ’ｒｅ　ｒｅａｌｌｙ　ｕｐ　ａｇａｉｎｓｔ．"TCC_NEWLINE"　Ｗｅ　ｈａｖｅ　ｔｏｋｅｅｐ　ｐｕｓｈｉｎｇ　ｆｏｒｗａー"TCC_NEWLINE"ｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｆｉｎｄ　ｏｕｔ　ｍｏｒｅ　ａｂｏｕー"TCC_NEWLINE"ｔ　ｗｈｏ　ｗｅ’ｒｅ　ｒｅａｌｌｙ　ｕｐ　ａｇａｉｎｓｔ"TCC_NEWLINE"．　Ｗｅ　ｈａｖｅ　ｔｏ　ｋｅｅｐ　ｐｕｓｈｉｎｇ　ｆｏｒー"TCC_NEWLINE"ｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｓｈ　Ｉ　ｋｎｅｗ　ｊｕｓｔ　ｗｈａｔ　ｗｅ’ｒｅ"TCC_NEWLINE"　ｆａｃｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

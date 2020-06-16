@@ -5,19 +5,19 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｅ’ｖｅ　ｃｏｍｅ　ｆｏｒ　ｙｏｕ，　Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｃｏｍｅ　ｔｏ　ｍｙ　ｈａｌｌ，　ｗｈｅｌｐ！　Ｔｈー"TCC_NEWLINE"ａｔ　ｙｏｕｓｔｒｕｇｇｌｅｄ　ｓｏ　ｈａｒｄ　ｔｏ　ｇｅー"TCC_NEWLINE"ｔ　ｈｅｒｅ　ｐｒｏｖｅｓｔｈａｔ　ｙｏｕ　ｌｏｎｇ　ｔｏ"TCC_NEWLINE"　ｂｅ　ｂｕｒｎｅｄ　ｔｏ　ａｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｃｏｍｅ　ｔｏ　ｍｙ　ｈａｌｌ，　ｗｈｅｌｐ！　Ｔｈー"TCC_NEWLINE"ａｔ　ｙｏｕ　ｓｔｒｕｇｇｌｅｄ　ｓｏ　ｈａｒｄ　ｔｏ　ｇー"TCC_NEWLINE"ｅｔ　ｈｅｒｅ　ｐｒｏｖｅｓ　ｔｈａｔ　ｙｏｕ　ｌｏｎｇ　"TCC_NEWLINE"ｔｏ　ｂｅ　ｂｕｒｎｅｄ　ｔｏ　ａｓｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｏｕ’ｌｌ　ｐａｙ　ｆｏｒ　ｗｈａｔ　ｙｏｕ’ｖｅ　ｄｏー"TCC_NEWLINE"ｎｅ，　Ｓｕｒｔｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｌａｕｇｈ　ｗｈｉｌｅ　ｙｏｕ　ｃａｎ！　Ｙｏｕ　ｗｉｌｌ"TCC_NEWLINE"　ｓｏｏｎｂｅ　ｐｕｎｉｓｈｅｄ　ｆｏｒ　ｙｏｕｒ　ｓｉｎー"TCC_NEWLINE"ｓ．　Ｙｏｕ　ｗｉｌｌｄｉｅ，　ｗｉｔｈ　ｎｏｔｈｉｎｇ　"TCC_NEWLINE"ｌｅｆｔ　ｂｕｔ　ｒｅｇｒｅｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｕｇｈ　ｗｈｉｌｅ　ｙｏｕ　ｃａｎ！　Ｙｏｕ　ｗｉｌｌ"TCC_NEWLINE"　ｓｏｏｎ　ｂｅ　ｐｕｎｉｓｈｅｄ　ｆｏｒ　ｙｏｕｒ　ｓｉー"TCC_NEWLINE"ｎｓ．　Ｙｏｕ　ｗｉｌｌ　ｄｉｅ，　ｗｉｔｈ　ｎｏｔｈｉｎー"TCC_NEWLINE"ｇ　ｌｅｆｔ　ｂｕｔ　ｒｅｇｒｅｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．．．　Ｙｏｕｒ　ｗｏｒｄー"TCC_NEWLINE"ｓ　ｍａｙ　ｂｅｓｔｒｏｎｇ，　ｂｕｔ　ｙｏｕ　ａｒｅ　ｎー"TCC_NEWLINE"ｏｔ．　Ｉ　ａｍ　ｔｏｏｐｏｗｅｒｆｕｌ．．．　Ｗｈａｔ　"TCC_NEWLINE"ｈｏｐｅ　ｄｏ　ｙｏｕ　ｈａｖｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．．．　Ｙｏｕｒ　ｗｏｒｄー"TCC_NEWLINE"ｓ　ｍａｙ　ｂｅ　ｓｔｒｏｎｇ，　ｂｕｔ　ｙｏｕ　ａｒｅ　"TCC_NEWLINE"ｎｏｔ．　Ｉ　ａｍ　ｔｏｏ　ｐｏｗｅｒｆｕｌ．．．　Ｗｈａー"TCC_NEWLINE"ｔ　ｈｏｐｅ　ｄｏ　ｙｏｕ　ｈａｖｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｉｔ　ｉｓ　ｎｏｔ　ｍｙ　ｈｏｐｅ．　Ｉｔ　ｉｓ　ＯＵＲ　"TCC_NEWLINE"ｈｏｐｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｆｕｌｌ　ｍｉｇｈｔ　ｏｆ　Ｎｉｆｌ　ｉｓ　ｂｅｈー"TCC_NEWLINE"ｉｎｄ　ｍｅ．　Ｍｙｍｏｔｈｅｒ　ａｎｄ　ｍｙ　ｓｉｓｔｅー"TCC_NEWLINE"ｒ，　ｍｕｒｄｅｒｅｄ　ｂｙｙｏｕｒ　ｈａｎｄ，　ｌｅｎｔ"TCC_NEWLINE"　ｍｅ　ｔｈｅｉｒ　ｐｏｗｅｒ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｆｕｌｌ　ｍｉｇｈｔ　ｏｆ　Ａｓｋｒ　ｉｓ　ａｌｓー"TCC_NEWLINE"ｏ　ｗｉｔｈｍｅ．　Ｂｙ　ｍｙ　ｓｉｄｅ　ａｒｅ　ｔｈｏｓー"TCC_NEWLINE"ｅ　ｗｈｏ　ｈａｖｅｐｌｅｄｇｅｄ　ｔｏ　ａｉｄ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｕｌｌ　ｍｉｇｈｔ　ｏｆ　Ｎｉｆｌ　ｉｓ　ｂｅｈー"TCC_NEWLINE"ｉｎｄ　ｍｅ．　Ｍｙ　ｍｏｔｈｅｒ　ａｎｄ　ｍｙ　ｓｉｓｔー"TCC_NEWLINE"ｅｒ，　ｍｕｒｄｅｒｅｄ　ｂｙ　ｙｏｕｒ　ｈａｎｄ，　ｌｅー"TCC_NEWLINE"ｎｔ　ｍｅ　ｔｈｅｉｒ　ｐｏｗｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｕｌｌ　ｍｉｇｈｔ　ｏｆ　Ａｓｋｒ　ｉｓ　ａｌｓー"TCC_NEWLINE"ｏ　ｗｉｔｈ　ｍｅ．　Ｂｙ　ｍｙ　ｓｉｄｅ　ａｒｅ　ｔｈｏー"TCC_NEWLINE"ｓｅ　ｗｈｏ　ｈａｖｅ　ｐｌｅｄｇｅｄ　ｔｏ　ａｉｄ　ｍｅ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｉｓ　ｔｉｍｅ！"TCC_NEWLINE
-TCC_TACTICIAN_NAME"！Ｕｓｅ　ｙｏｕｒ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"！　Ｕｓｅ　ｙｏｕｒ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ．．．　Ｗｈａｔ　ｉｓ　ｔｈｉｓ"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ｎｉｆｌ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -26,8 +26,8 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｔｈｅｙ’ｒｅ　ｄｉｓａｐｐｅａｒｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈｉｓ　ｉｓ　ｗｈａｔ　ｗｅ’ｖｅ　ｗａｉｔｅｄ　ｆｏｒ"TCC_NEWLINE"！Ｍｓｐｅｌｌｆｌａｍｅｔｈａｔ　ｕｎｑｕｅｎｃｈａｂｌｅ"TCC_NEWLINE"，ｕｎｄｙｉｎｇ　ｆｉｒｅｎｏ　ｌｏｎｇｅｒ　ｐｒｏｔｅｃー"TCC_NEWLINE"ｔｓ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｂａｔｔｌｅ　ｗｅ　ｈａｖｅ　ｗａｉｔｅｄ　ｆｏｒ"TCC_NEWLINE"．．．ｆｏｒ　ｓｏｖｅｒｙ　ｌｏｎｇ．．．　Ｉｔ　ｂｅｇｉー"TCC_NEWLINE"ｎｓ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｗｈａｔ　ｗｅ’ｖｅ　ｗａｉｔｅｄ　ｆｏｒ"TCC_NEWLINE"！　Ｍｓｐｅｌｌｆｌａｍｅｔｈａｔ　ｕｎｑｕｅｎｃｈａｂｌー"TCC_NEWLINE"ｅ，　ｕｎｄｙｉｎｇ　ｆｉｒｅｎｏ　ｌｏｎｇｅｒ　ｐｒｏｔー"TCC_NEWLINE"ｅｃｔｓ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｂａｔｔｌｅ　ｗｅ　ｈａｖｅ　ｗａｉｔｅｄ　ｆｏｒ"TCC_NEWLINE"．．．ｆｏｒ　ｓｏ　ｖｅｒｙ　ｌｏｎｇ．．．　Ｉｔ　ｂｅｇー"TCC_NEWLINE"ｉｎｓ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 "Ｓｕｒｔｒ．．．　Ｙｏｕｒ　ｔｉｍｅ　ｈａｓ　ｃｏｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
@@ -51,37 +51,37 @@ TCC_OPEN_LEFT
 "Ｈｅｈ－ｈｅｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 "Ｈａ－ｈａｈ－ｈａｈ－ｈａｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｌｉｋｅ　ｔｈｅ　ｐｈｏｅｎｉｘ．．．Ｉ　ａｍ　ｂｏｒｎ　"TCC_NEWLINE"ａｎｅｗ！Ｎｅｖｅｒ　ｈａｖｅ　Ｉ　ａｗａｋｅｎｅｄ　ｓｏー"TCC_NEWLINE"ｒｅｆｒｅｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｋｅ　ｔｈｅ　ｐｈｏｅｎｉｘ．．．Ｉ　ａｍ　ｂｏｒｎ　"TCC_NEWLINE"ａｎｅｗ！　Ｎｅｖｅｒ　ｈａｖｅ　Ｉ　ａｗａｋｅｎｅｄ　ｓー"TCC_NEWLINE"ｏ　ｒｅｆｒｅｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｂｕｔ．．．　Ｈｏｗ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｍｙ　ｗｏｕｎｄｓ　ａｒｅ　ｇｏｎｅ．　Ｃａｒｅ　ｔｏ　ｂー"TCC_NEWLINE"ｅｇｉｎａｇａｉｎ？"TCC_NEWLINE TCC_PUSH_A
-"Ｔｒｙ　ａｓ　ｍａｎｙ　ｔｉｍｅｓ　ａｓ　ｙｏｕ　ｗｉｓｈ"TCC_NEWLINE"！　Ｉ　ｗｉｌｌａｌｗａｙｓ　ｃｏｍｅ　ｂａｃｋ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｗｏｕｎｄｓ　ａｒｅ　ｇｏｎｅ．　Ｃａｒｅ　ｔｏ　ｂー"TCC_NEWLINE"ｅｇｉｎ　ａｇａｉｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｙ　ａｓ　ｍａｎｙ　ｔｉｍｅｓ　ａｓ　ｙｏｕ　ｗｉｓｈ"TCC_NEWLINE"！　Ｉ　ｗｉｌｌ　ａｌｗａｙｓ　ｃｏｍｅ　ｂａｃｋ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｉ．．．ｄｏｎ’ｔ．．．ｕｎｄｅｒｓｔａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｏｗ　ｉｓ　Ｓｕｒｔｒ　ｓｔｉｌｌ　ａｌｉｖｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｉｔ　ｍａｋｅｓ　ｎｏ　ｓｅｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ　ｉｓ　ｔｈｅ　ｍｅａｎー"TCC_NEWLINE"ｓ　ｔｏｄｅｆｅａｔ　ｈｉｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｏｕｒ　ｏｎｌｙ　ｏｐｔｉｏｎ．．．　Ｗｅ　ｒｉー"TCC_NEWLINE"ｓｋｅｄｅｖｅｒｙｔｈｉｎｇ！　Ｗｅ　ｌｏｓｔ　ｓｏ　ｍｕー"TCC_NEWLINE"ｃｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｒｉｔｅ　ｏｆ　Ｆｒｏｓｔ　ｉｓ　ｔｈｅ　ｍｅａｎー"TCC_NEWLINE"ｓ　ｔｏ　ｄｅｆｅａｔ　ｈｉｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｏｕｒ　ｏｎｌｙ　ｏｐｔｉｏｎ．．．　Ｗｅ　ｒｉー"TCC_NEWLINE"ｓｋｅｄ　ｅｖｅｒｙｔｈｉｎｇ！　Ｗｅ　ｌｏｓｔ　ｓｏ　ｍー"TCC_NEWLINE"ｕｃｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｉ　ｐｉｔｙ　ｙｏｕ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．　Ｉ　ｐー"TCC_NEWLINE"ｉｔｙ　ｙｏｕ　ｆｏｒｙｏｕｒ　ｗｅａｋｎｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｓｔｒｕｇｇｌｅｄ　ｓｏ　ｈａｒｄ，　ｎｏｔ　ｋｎー"TCC_NEWLINE"ｏｗｉｎｇｈｏｗ　ｐｏｗｅｒｌｅｓｓ　ｙｏｕ　ｔｒｕｌｙ　"TCC_NEWLINE"ｗｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｃｈｉｌｄｉｓｈ　ｔｒｉｃｋ　ｏｆ　ｙｏｕｒｓ．"TCC_NEWLINE"．．　Ｉｔ　ｗａｓｉｎ　ｖａｉｎ，　ａｓ　ｗａｓ　ｙｏｕｒ"TCC_NEWLINE"　ｓｉｓｔｅｒ’ｓ　ｓａｃｒｉｆｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｐｉｔｙ　ｙｏｕ，　ｃｈｉｌｄ　ｏｆ　ｉｃｅ．　Ｉ　ｐー"TCC_NEWLINE"ｉｔｙ　ｙｏｕ　ｆｏｒ　ｙｏｕｒ　ｗｅａｋｎｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｔｒｕｇｇｌｅｄ　ｓｏ　ｈａｒｄ，　ｎｏｔ　ｋｎー"TCC_NEWLINE"ｏｗｉｎｇ　ｈｏｗ　ｐｏｗｅｒｌｅｓｓ　ｙｏｕ　ｔｒｕｌｙ"TCC_NEWLINE"　ｗｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｃｈｉｌｄｉｓｈ　ｔｒｉｃｋ　ｏｆ　ｙｏｕｒｓ．"TCC_NEWLINE"．．　Ｉｔ　ｗａｓ　ｉｎ　ｖａｉｎ，　ａｓ　ｗａｓ　ｙｏｕー"TCC_NEWLINE"ｒ　ｓｉｓｔｅｒ’ｓ　ｓａｃｒｉｆｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｌｌ　ｙｏｕ　ｓｔｒｏｖｅ　ｆｏｒ．．．　Ａ　ｔｏｔａｌ"TCC_NEWLINE"　ｗａｓｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｓｈａｄｅ　ｏｆ　ｙｏｕｒ　ｓｉｓｔｅｒ，　ｓｏ　"TCC_NEWLINE"ｐｉｔｉｆｕｌａｎｄ　ｗｅａｋ．．．　Ｄｏｅｓ　ｓｈｅ　ｃー"TCC_NEWLINE"ｒｙ　ｏｕｔ　ｉｎｒｅｇｒｅｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｈａｄｅ　ｏｆ　ｙｏｕｒ　ｓｉｓｔｅｒ，　ｓｏ　"TCC_NEWLINE"ｐｉｔｉｆｕｌ　ａｎｄ　ｗｅａｋ．．．　Ｄｏｅｓ　ｓｈｅ　"TCC_NEWLINE"ｃｒｙ　ｏｕｔ　ｉｎ　ｒｅｇｒｅｔ？"TCC_NEWLINE TCC_PUSH_A
 "Ｃａｎ　ｙｏｕ　ｈｅａｒ　ｈｅｒ　ｗａｉｌｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｎｏ，　ｎｏ，　ｎｏ．．．　＊ｓｏｂ＊"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｃａｎ’ｔ　ａｃｃｅｐｔ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SURTR
-"Ａｈ，　ｔｈｅｒｅ　ｉｔ　ｉｓ！　Ａｓ　ｙｏｕｒ　ｆｉｎａー"TCC_NEWLINE"ｌ　ｍｏｍｅｎｔｓａｐｐｒｏａｃｈ，　ａｌｌ　ｔｈａｔ　ｒー"TCC_NEWLINE"ｅｍａｉｎｓ　ｉｓ　ｄｅｓｐａｉｒ．Ｔｈａｔ　ｉｓ　ｗｈａー"TCC_NEWLINE"ｔ　Ｉ　ｗａｎｔｅｄ　ｔｏ　ｓｅｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｗｉｔｈ　ｔｈａｔ　ｌｏｏｋ　ｏー"TCC_NEWLINE"ｎ　ｙｏｕｒｆａｃｅ．　Ｉ　ｗｉｌｌ　ｂｕｒｎ　ｅａｃｈ　"TCC_NEWLINE"ｏｆ　ｙｏｕ　ｔｏ　ｃｉｎｄｅｒｓｍｙｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ，　ｔｈｅｒｅ　ｉｔ　ｉｓ！　Ａｓ　ｙｏｕｒ　ｆｉｎａー"TCC_NEWLINE"ｌ　ｍｏｍｅｎｔｓ　ａｐｐｒｏａｃｈ，　ａｌｌ　ｔｈａｔ　"TCC_NEWLINE"ｒｅｍａｉｎｓ　ｉｓ　ｄｅｓｐａｉｒ．　Ｔｈａｔ　ｉｓ　ｗー"TCC_NEWLINE"ｈａｔ　Ｉ　ｗａｎｔｅｄ　ｔｏ　ｓｅｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｗｉｔｈ　ｔｈａｔ　ｌｏｏｋ　ｏー"TCC_NEWLINE"ｎ　ｙｏｕｒ　ｆａｃｅ．　Ｉ　ｗｉｌｌ　ｂｕｒｎ　ｅａｃｈ"TCC_NEWLINE"　ｏｆ　ｙｏｕ　ｔｏ　ｃｉｎｄｅｒｓ　ｍｙｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｏ’ｓ　ｆｉｒｓｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｒｅｔｒｅａｔ！　Ｎｏｗ！　Ｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈａｈ－ｈａｈ－ｈａｈ！　Ｉ　ａｍ　ｆｌａｍｅ　ｉｔｓｅｌー"TCC_NEWLINE"ｆ！　Ｅｖｅｎｔｈｅ　ｇｏｄｓ　ｃａｎｎｏｔ　ｄｅｓｔｒｏー"TCC_NEWLINE"ｙ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｈ－ｈａｈ－ｈａｈ！　Ｉ　ａｍ　ｆｌａｍｅ　ｉｔｓｅｌー"TCC_NEWLINE"ｆ！　Ｅｖｅｎ　ｔｈｅ　ｇｏｄｓ　ｃａｎｎｏｔ　ｄｅｓｔｒー"TCC_NEWLINE"ｏｙ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｇｗａ－ｈａｈ－ｈａｈ－ｈａｈ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LAEGJARN
@@ -89,30 +89,30 @@ TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGH
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "Ｗｈａｔ’ｓ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ’ｖｅ　ｊｕｓｔ　ｒｅｃｅｉｖｅｄ　ｗｏｒｄ　ｆｒｏｍ　"TCC_NEWLINE"Ｌｏｋｉ．　ＴｈｅＡｓｋｒａｎ　ａｒｍｙ　ｆａｉｌｅｄ　ｔー"TCC_NEWLINE"ｏ　ｄｅｆｅａｔ　Ｆａｔｈｅｒ．Ｔｈｅｙ’ｖｅ　ｒｅｔｒｅー"TCC_NEWLINE"ａｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｊｕｓｔ　ｒｅｃｅｉｖｅｄ　ｗｏｒｄ　ｆｒｏｍ　"TCC_NEWLINE"Ｌｏｋｉ．　Ｔｈｅ　Ａｓｋｒａｎ　ａｒｍｙ　ｆａｉｌｅｄ　"TCC_NEWLINE"ｔｏ　ｄｅｆｅａｔ　Ｆａｔｈｅｒ．　Ｔｈｅｙ’ｖｅ　ｒｅｔー"TCC_NEWLINE"ｒｅａｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｓｋｒ．．．　Ｎｉｆｌ．．．　Ｗａｓｔｉｎｇ　ｔｈｅｉｒ"TCC_NEWLINE"　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏ　ｏｎｅ　ｃａｎ　ｄｅｆｅａｔ　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｗｏｕｌｄｎ’ｔ　ｕｎｄｅｒｅｓｔｉｍａｔｅ　ｔｈｅ　"TCC_NEWLINE"Ａｓｋｒａｎｓ．Ｉｆ　ｉｔ　ｗａｓｎ’ｔ　ｆｏｒ　ｔｈｅ　"TCC_NEWLINE"Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅｓ，　ｔｈｅｙｗｏｕｌｄ　ｈａｖー"TCC_NEWLINE"ｅ　ｄｅｓｔｒｏｙｅｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｆ　ｔｈｅ　ｍａｎｙ　ｗｈｏ　ｈａｖｅ　ｔｒｉｅｄ．．．"TCC_NEWLINE"ｎｏｎｅｈａｖｅ　ｃｏｍｅ　ｓｏ　ｃｌｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄｎ’ｔ　ｕｎｄｅｒｅｓｔｉｍａｔｅ　ｔｈｅ　"TCC_NEWLINE"Ａｓｋｒａｎｓ．　Ｉｆ　ｉｔ　ｗａｓｎ’ｔ　ｆｏｒ　ｔｈｅ"TCC_NEWLINE"　Ｒｉｔｅ　ｏｆ　Ｆｌａｍｅｓ，　ｔｈｅｙ　ｗｏｕｌｄ　ｈー"TCC_NEWLINE"ａｖｅ　ｄｅｓｔｒｏｙｅｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｔｈｅ　ｍａｎｙ　ｗｈｏ　ｈａｖｅ　ｔｒｉｅｄ．．．"TCC_NEWLINE"ｎｏｎｅ　ｈａｖｅ　ｃｏｍｅ　ｓｏ　ｃｌｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｔｒｕｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｗｏｎｄｅｒ　ｉｆ　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｓｕー"TCC_NEWLINE"ｒｖｉｖｅｄｔｈｅ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｎｄｅｒ　ｉｆ　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ　ｓｕー"TCC_NEWLINE"ｒｖｉｖｅｄ　ｔｈｅ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｌａｅｇｊａｒｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏ，　ｉｔ　ｍａｔｔｅｒｓ　ｎｏｔ．　Ｗｅ　ｎｅｅｄ　ｔー"TCC_NEWLINE"ｏ　ｆｏｃｕｓｏｎ　ｏｕｒ　ｍｉｓｓｉｏｎ．　Ｗｈａｔ’ｓ"TCC_NEWLINE"　ｔｈｅ　ｌａｔｅｓｔｒｅｐｏｒｔ　ｏｎ　Ｐｒｉｎｃｅ　Ｈー"TCC_NEWLINE"ｒｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｉｔ　ｍａｔｔｅｒｓ　ｎｏｔ．　Ｗｅ　ｎｅｅｄ　ｔー"TCC_NEWLINE"ｏ　ｆｏｃｕｓ　ｏｎ　ｏｕｒ　ｍｉｓｓｉｏｎ．　Ｗｈａｔ’"TCC_NEWLINE"ｓ　ｔｈｅ　ｌａｔｅｓｔ　ｒｅｐｏｒｔ　ｏｎ　Ｐｒｉｎｃｅ"TCC_NEWLINE"　Ｈｒｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｅｓｃａｐｅｄ．　Ａｇａｉｎ．　Ｔｈｅ　ｓｏｌｄｉｅｒｓ　"TCC_NEWLINE"ｃｏｕｌｄｎ’ｔｃａｔｃｈ　ｈｉｍ．　Ｅｖｅｎ　ｔｈｏｕｇー"TCC_NEWLINE"ｈ　ｈｅ’ｓ　ｗｏｕｎｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｓｃａｐｅｄ．　Ａｇａｉｎ．　Ｔｈｅ　ｓｏｌｄｉｅｒｓ　"TCC_NEWLINE"ｃｏｕｌｄｎ’ｔ　ｃａｔｃｈ　ｈｉｍ．　Ｅｖｅｎ　ｔｈｏｕー"TCC_NEWLINE"ｇｈ　ｈｅ’ｓ　ｗｏｕｎｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｎｏｔ　ｓｕｒｐｒｉｓｅｄ　ｔｈａｔ　ｔｈｅ　ｅー"TCC_NEWLINE"ｌｄｅｓｔ　ｓｏｎｏｆ　Ｎｉｆｌ’ｓ　ｒｏｙａｌ　ｆａｍｉー"TCC_NEWLINE"ｌｙ　ｗｏｕｌｄ　ｍａｋｅ　ｆｏｒ　ａｆｏｒｍｉｄａｂｌｅ"TCC_NEWLINE"　ｏｐｐｏｎｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ａｆｔｅｒ　ｔｈｅ　ｆａｌｌ　ｏｆ　Ｎｉｆｌ．．"TCC_NEWLINE"．　Ｈｅｉｎｆｉｌｔｒａｔｅｄ　Ｍｓｐｅｌｌ　ａｎｄ　ａｔー"TCC_NEWLINE"ｔｅｍｐｔｅｄ　ｔｏａｓｓａｓｓｉｎａｔｅ　Ｆａｔｈｅｒ，"TCC_NEWLINE"　ａｌｌ　ａｌｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｏｔ　ｓｕｒｐｒｉｓｅｄ　ｔｈａｔ　ｔｈｅ　ｅー"TCC_NEWLINE"ｌｄｅｓｔ　ｓｏｎ　ｏｆ　Ｎｉｆｌ’ｓ　ｒｏｙａｌ　ｆａｍー"TCC_NEWLINE"ｉｌｙ　ｗｏｕｌｄ　ｍａｋｅ　ｆｏｒ　ａ　ｆｏｒｍｉｄａｂー"TCC_NEWLINE"ｌｅ　ｏｐｐｏｎｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ａｆｔｅｒ　ｔｈｅ　ｆａｌｌ　ｏｆ　Ｎｉｆｌ．．"TCC_NEWLINE"．　Ｈｅ　ｉｎｆｉｌｔｒａｔｅｄ　Ｍｓｐｅｌｌ　ａｎｄ　ａー"TCC_NEWLINE"ｔｔｅｍｐｔｅｄ　ｔｏ　ａｓｓａｓｓｉｎａｔｅ　Ｆａｔｈｅー"TCC_NEWLINE"ｒ，　ａｌｌ　ａｌｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅ　ｉｓ　ａ　ｄａｎｇｅｒｏｕｓ　ｍａｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｎｏｔ　ａｓ　ｄａｎｇｅｒｏｕｓ　ａｓ　Ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏ．　Ｂｕｔ　ｉｆ　ｈｅ　ｗｅｒｅ　ｔｏ　ｊｏｉｎ　ｆｏー"TCC_NEWLINE"ｒｃｅｓ　ｗｉｔｈＡｓｋｒ，　ｗｈｏ　ｃｏｕｌｄ　ｓａｙ　"TCC_NEWLINE"ｗｈａｔ　ｔｈｅｙ　ｍｉｇｈｔａｃｃｏｍｐｌｉｓｈ　ｔｏｇー"TCC_NEWLINE"ｅｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．　Ｂｕｔ　ｉｆ　ｈｅ　ｗｅｒｅ　ｔｏ　ｊｏｉｎ　ｆｏー"TCC_NEWLINE"ｒｃｅｓ　ｗｉｔｈ　Ａｓｋｒ，　ｗｈｏ　ｃｏｕｌｄ　ｓａｙ"TCC_NEWLINE"　ｗｈａｔ　ｔｈｅｙ　ｍｉｇｈｔ　ａｃｃｏｍｐｌｉｓｈ　ｔー"TCC_NEWLINE"ｏｇｅｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
 "Ｇｅｔ　ｒｅａｄｙ．　Ｗｅ　ｗｉｌｌ　ｌｅａｖｅ　ｓｏｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3034_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｂｏｕｎｄ　ｂｙ　ｃｏｎｔｒａｃｔ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｂｅｏｒｃＬｆ．．．　Ｔｈａｔ　ｍａｎ’ｓ　ｈｅａｒｔ　"TCC_NEWLINE"ｉｓ　ｃｏｍｐｌｅｔｅｌｙｃｌｏｕｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｂｏｕｎｄ　ｂｙ　ｃｏｎｔｒａｃｔ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｂｅｏｒｃ　Ｌｆ．．．　Ｔｈａｔ　ｍａｎ’ｓ　ｈｅａｒｔ"TCC_NEWLINE"　ｉｓ　ｃｏｍｐｌｅｔｅｌｙ　ｃｌｏｕｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

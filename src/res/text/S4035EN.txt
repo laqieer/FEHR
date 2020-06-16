@@ -5,41 +5,41 @@
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ　ａ　ｒｅｌｉｅｆ．　Ｗｅ’ｖｅ　ａｌｌ　ｂｅｅｎ"TCC_NEWLINE"　ｌｏｏｋｉｎｇｅｖｅｒｙｗｈｅｒｅ　ｆｏｒ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ａ　ｒｅｌｉｅｆ．　Ｗｅ’ｖｅ　ａｌｌ　ｂｅｅｎ"TCC_NEWLINE"　ｌｏｏｋｉｎｇ　ｅｖｅｒｙｗｈｅｒｅ　ｆｏｒ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 "Ｗａｉｔ！　Ｙｏｕ’ｒｅ　ｎｏｔ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PLUMERIA
-"Ｏｈ？　Ｌｏｏｋｉｎｇ　ｆｏｒ　ｍｅ，　ｗｅｒｅ　ｙｏｕ？"TCC_NEWLINE"Ｈｍ．　Ｏｆ　ｃｏｕｒｓｅ　ｙｏｕ　ｗｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　Ｐｌｕｍｅｒｉａ，　ｔｈｅ　ｄｋｋｌｆａｒ　ｏｆー"TCC_NEWLINE"ｌｅｗｄ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ？　Ｌｏｏｋｉｎｇ　ｆｏｒ　ｍｅ，　ｗｅｒｅ　ｙｏｕ？"TCC_NEWLINE"　Ｈｍ．　Ｏｆ　ｃｏｕｒｓｅ　ｙｏｕ　ｗｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｐｌｕｍｅｒｉａ，　ｔｈｅ　ｄｋｋｌｆａｒ　ｏｆ"TCC_NEWLINE"　ｌｅｗｄ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｃａｒｅｆｕｌ，　ｅｖｅｒｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ！　Ｄｋｋｌｆａｒ！　Ｓｔｏｐ　ｆｏｒｃｉｎｇ　ｔｅー"TCC_NEWLINE"ｒｒｉｂｌｅｄｒｅａｍｓ　ｏｎ　ｔｈｅｓｅ　ｐｅｏｐｌｅ！"TCC_NEWLINE"　Ｆｒｅｅ　ｔｈｅｍｔｏ　ｒｅｔｕｒｎ　ｔｏ　ｔｈｅｉｒ　"TCC_NEWLINE"ｗａｋｉｎｇ　ｌｉｖｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ！　Ｄｋｋｌｆａｒ！　Ｓｔｏｐ　ｆｏｒｃｉｎｇ　ｔｅー"TCC_NEWLINE"ｒｒｉｂｌｅ　ｄｒｅａｍｓ　ｏｎ　ｔｈｅｓｅ　ｐｅｏｐｌｅ"TCC_NEWLINE"！　Ｆｒｅｅ　ｔｈｅｍ　ｔｏ　ｒｅｔｕｒｎ　ｔｏ　ｔｈｅｉー"TCC_NEWLINE"ｒ　ｗａｋｉｎｇ　ｌｉｖｅｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｓｏｒｒｙ，　ｂｕｔ　ｉｔ’ｓ　ｔｏｏ　ｌａｔｅ　ｆｏｒ　"TCC_NEWLINE"ｔｈａｔ．　Ｔｈｅｙａｒｅ　ａｌｒｅａｄｙ　ｔｏｏ　ｄｅｅー"TCC_NEWLINE"ｐ　ｉｎ　ｍｙ　ｄｒｅａｍ．．．Ｅｎｔｈｒａｌｌｅｄ　ｂｙ"TCC_NEWLINE"　ｉｔ．　Ｃｒｕｓｈｅｄ　ｕｎｄｅｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｒｒｙ，　ｂｕｔ　ｉｔ’ｓ　ｔｏｏ　ｌａｔｅ　ｆｏｒ　"TCC_NEWLINE"ｔｈａｔ．　Ｔｈｅｙ　ａｒｅ　ａｌｒｅａｄｙ　ｔｏｏ　ｄｅー"TCC_NEWLINE"ｅｐ　ｉｎ　ｍｙ　ｄｒｅａｍ．．．　Ｅｎｔｈｒａｌｌｅｄ　"TCC_NEWLINE"ｂｙ　ｉｔ．　Ｃｒｕｓｈｅｄ　ｕｎｄｅｒ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ｓｏｏｎ，　ｙｏｕ　ａｌｌ　ｗｉｌｌ　ｂｅ　ａｓ　"TCC_NEWLINE"ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PLUMERIA
-"Ｆｉｌｔｈｙ　ｍｏｒｔａｌｓ．．．　Ｉ　ｓｕｐｐｏｓｅ　Ｉ"TCC_NEWLINE"’ｌｌ　ｈａｖｅｔｏ　ｂｒｉｎｇ　Ｔｒｉａｎｄｒａ　ａｌｏー"TCC_NEWLINE"ｎｇ　ｗｉｔｈ　ｍｅｎｅｘｔ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｇｏｏｄ　ｌｕｃｋ　ｋｅｅｐｉｎｇ　ｕｐ　ｗｈｅｎ　ｔｈｅ"TCC_NEWLINE"　ｔｗｏｏｆ　ｕｓ　ｃｏｍｅ　ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｌｔｈｙ　ｍｏｒｔａｌｓ．．．　Ｉ　ｓｕｐｐｏｓｅ　Ｉ"TCC_NEWLINE"’ｌｌ　ｈａｖｅ　ｔｏ　ｂｒｉｎｇ　Ｔｒｉａｎｄｒａ　ａｌー"TCC_NEWLINE"ｏｎｇ　ｗｉｔｈ　ｍｅ　ｎｅｘｔ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ　ｌｕｃｋ　ｋｅｅｐｉｎｇ　ｕｐ　ｗｈｅｎ　ｔｈｅ"TCC_NEWLINE"　ｔｗｏ　ｏｆ　ｕｓ　ｃｏｍｅ　ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｅ　ｓｅｅｉｎｇ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HOOD
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｉｔ’ｓ　ｊｕｓｔ　ａｓ　Ａｌｆｏｎｓｅ　ｓａｉｄ．　Ｎｏ"TCC_NEWLINE"　ｍｉｓｔａｋｅ！Ｔｈａｔ　ｗａｓ"TCC_NEWLINE
+"Ｉｔ’ｓ　ｊｕｓｔ　ａｓ　Ａｌｆｏｎｓｅ　ｓａｉｄ．　Ｎｏ"TCC_NEWLINE"　ｍｉｓｔａｋｅ！　Ｔｈａｔ　ｗａｓ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉｔ　ｉｓ　ｓｔｉｌｌ　ｕｎｃｌｅａｒ　ｏｎ　ｗｈａｔ　ｅー"TCC_NEWLINE"ｘａｃｔｌｙｉｓ　ｈａｐｐｅｎｉｎｇ．．．　Ｂｕｔ　ｔｈｉー"TCC_NEWLINE"ｓ　ｋｅｅｐｓｇｅｔｔｉｎｇ　ｓｔｒａｎｇｅｒ　ａｎｄ　ｓー"TCC_NEWLINE"ｔｒａｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｓｔｉｌｌ　ｕｎｃｌｅａｒ　ｏｎ　ｗｈａｔ　ｅー"TCC_NEWLINE"ｘａｃｔｌｙ　ｉｓ　ｈａｐｐｅｎｉｎｇ．．．　Ｂｕｔ　ｔｈー"TCC_NEWLINE"ｉｓ　ｋｅｅｐｓ　ｇｅｔｔｉｎｇ　ｓｔｒａｎｇｅｒ　ａｎｄ"TCC_NEWLINE"　ｓｔｒａｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｆ　ｏｎｌｙ　ｗｅ　ｋｎｅｗ　ｗｈｅｒｅ　ｗｅ　ｃｏｕｌー"TCC_NEWLINE"ｄ　ｆｉｎｄｙｏｕ，"TCC_NEWLINE
+"Ｉｆ　ｏｎｌｙ　ｗｅ　ｋｎｅｗ　ｗｈｅｒｅ　ｗｅ　ｃｏｕｌー"TCC_NEWLINE"ｄ　ｆｉｎｄ　ｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
-"Ｉｔ　ｓｅｅｍｓ　ｌｉｋｅｌｙ　ｔｈｅ　ｄｋｋｌｆａｒ　ａー"TCC_NEWLINE"ｒｅｂｅｈｉｎｄ　ｔｈｉｓ，　ｗｈａｔｅｖｅｒ　ｔｈｅ　ｃー"TCC_NEWLINE"ａｓｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ　ｍａｎｙ　ｐｅｏｐｌｅ　ｈａｖｅ　ｂｅｅｎ　ｔｒａｐー"TCC_NEWLINE"ｐｅｄｉｎ　ｔｈｏｓｅ　ｗｉｃｋｅｄ　ｎｉｇｈｔｍａｒｅｓ"TCC_NEWLINE"．．．　Ｉ　ｈｏｐｅ"TCC_NEWLINE
+"Ｉｔ　ｓｅｅｍｓ　ｌｉｋｅｌｙ　ｔｈｅ　ｄｋｋｌｆａｒ　ａー"TCC_NEWLINE"ｒｅ　ｂｅｈｉｎｄ　ｔｈｉｓ，　ｗｈａｔｅｖｅｒ　ｔｈｅ　"TCC_NEWLINE"ｃａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｍａｎｙ　ｐｅｏｐｌｅ　ｈａｖｅ　ｂｅｅｎ　ｔｒａｐー"TCC_NEWLINE"ｐｅｄ　ｉｎ　ｔｈｏｓｅ　ｗｉｃｋｅｄ　ｎｉｇｈｔｍａｒｅー"TCC_NEWLINE"ｓ．．．　Ｉ　ｈｏｐｅ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"’ｓ　ａｌｌ　ｒｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｗｅ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ｗｏｒｒｙ！　Ａー"TCC_NEWLINE"ｓ　ｌｏｎｇａｓ　ｗｅ　ｄｏ　ａｓ　Ｋｉｎｇ　Ｆｒｅｙｒ　"TCC_NEWLINE"ｉｎｓｔｒｕｃｔｅｄ，ｅｖｅｒｙｔｈｉｎｇ　ｗｉｌｌ　ｂｅ"TCC_NEWLINE"　ｆｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｊｕｓｔ　ｎｅｅｄ　ｔｏ　ｓｈｏｏ　ｔｈｏｓｅ　ｄｋー"TCC_NEWLINE"ｋｌｆａｒｏｕｔ　ｏｆ　Ｌｊｓｌｆｈｅｉｍｒ，　ａｎｄ　ｔー"TCC_NEWLINE"ｈｅｎ　ｂｌｏｗｔｈｅ　ｈｏｒｎ！　Ａｎｄ　ＴＨＥＮ"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｅ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ｗｏｒｒｙ！　Ａー"TCC_NEWLINE"ｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｄｏ　ａｓ　Ｋｉｎｇ　Ｆｒｅｙｒ"TCC_NEWLINE"　ｉｎｓｔｒｕｃｔｅｄ，　ｅｖｅｒｙｔｈｉｎｇ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅ　ｆｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｊｕｓｔ　ｎｅｅｄ　ｔｏ　ｓｈｏｏ　ｔｈｏｓｅ　ｄｋー"TCC_NEWLINE"ｋｌｆａｒ　ｏｕｔ　ｏｆ　Ｌｊｓｌｆｈｅｉｍｒ，　ａｎｄ　"TCC_NEWLINE"ｔｈｅｎ　ｂｌｏｗ　ｔｈｅ　ｈｏｒｎ！　Ａｎｄ　ＴＨＥＮ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａｎｄ　ｔｈｅｎ　ｗｅ　ｗｉｌｌ　ａｌｌ　ａｗａｋｅｎ　ｉー"TCC_NEWLINE"ｎ　ｏｕｒｗｏｒｌｄ，　ｔｏｇｅｔｈｅｒ．　Ａｎｄ　ｗｉｔー"TCC_NEWLINE"ｈ　ｕｓ，　ｗｅ’ｌｌｈａｖｅ"TCC_NEWLINE
+"Ａｎｄ　ｔｈｅｎ　ｗｅ　ｗｉｌｌ　ａｌｌ　ａｗａｋｅｎ　ｉー"TCC_NEWLINE"ｎ　ｏｕｒ　ｗｏｒｌｄ，　ｔｏｇｅｔｈｅｒ．　Ａｎｄ　ｗｉー"TCC_NEWLINE"ｔｈ　ｕｓ，　ｗｅ’ｌｌ　ｈａｖｅ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
 "Ｈａｎｇ　ｏｎ　ｊｕｓｔ　ａ　ｌｉｔｔｌｅ　ｗｈｉｌｅ　ｌー"TCC_NEWLINE"ｏｎｇｅｒ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A

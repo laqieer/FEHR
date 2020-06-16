@@ -2,11 +2,11 @@
 
 [MID_SCENARIO_MAP_BEGIN_S0601_EN] = TCC_OPEN_LEFT
 "Ｙｏｕ’ｒｅ　ｈｅｒｅ，　ａｓ　ｅｘｐｅｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｔｈｉｎｇ　ａｇａｉｎｓｔ　ｙｏｕ，　ｂｕｔ　Ｉ’ｖｅー"TCC_NEWLINE"ｂｅｅｎ　ｈｉｒｅｄ　ｔｏ　ｄｏ　ａ　ｊｏｂ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔｈｉｎｇ　ａｇａｉｎｓｔ　ｙｏｕ，　ｂｕｔ　Ｉ’ｖｅ"TCC_NEWLINE"　ｂｅｅｎ　ｈｉｒｅｄ　ｔｏ　ｄｏ　ａ　ｊｏｂ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏ　ｎｏｗ，　ｙｏｕ’ｌｌ　ｄｉｅ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0601_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ’ｒｅ　ｓｔｒｏｎｇ，　ａｌｌ　ｒｉｇｈｔ．　Ｉｔ’"TCC_NEWLINE"ｓ　ａ　ｃｌｏｓｅｃａｌｌｗｈｉｃｈ　ｏｆ　ｙｏｕ　ｉｓ　"TCC_NEWLINE"ｓｔｒｏｎｇｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｓｔｒｏｎｇ，　ａｌｌ　ｒｉｇｈｔ．　Ｉｔ’"TCC_NEWLINE"ｓ　ａ　ｃｌｏｓｅ　ｃａｌｌｗｈｉｃｈ　ｏｆ　ｙｏｕ　ｉｓ"TCC_NEWLINE"　ｓｔｒｏｎｇｅｒ？"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ．．．ｏｒ　ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｈ．　Ｔｈｉｓ　ｉｓ　ｇｏｉｎｇ　ｔｏ　ｇｅｔ　ｉｎｔー"TCC_NEWLINE"ｅｒｅｓｔｉｎｇ．Ｉ’ｍ　ｓｕｒｅ　Ｉ’ｌｌ　ｓｅｅ　ｙｏー"TCC_NEWLINE"ｕ　ａｒｏｕｎｄ．"
+"Ｈｅｈ．　Ｔｈｉｓ　ｉｓ　ｇｏｉｎｇ　ｔｏ　ｇｅｔ　ｉｎｔー"TCC_NEWLINE"ｅｒｅｓｔｉｎｇ．　Ｉ’ｍ　ｓｕｒｅ　Ｉ’ｌｌ　ｓｅｅ　ｙー"TCC_NEWLINE"ｏｕ　ａｒｏｕｎｄ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3122_EN] = TCC_OPEN_LEFT
-"Ａｈ，　ｌｏｏｋ　ａｔ　ｙｏｕ　ａｌｌ！　Ｔｈｉｓ　ｉｓ　"TCC_NEWLINE"ｇｏｎｎａ　ｂｅｓｏｍｅ　ｆｉｇｈｔ．　Ｉ’ｍ　ｉｔｃｈｉー"TCC_NEWLINE"ｎ’　ｔｏ　ｇｅｔ　ｏｕｔ　ｔｈｅｒｅａｎｄ　ｈａｖｅ　ｓー"TCC_NEWLINE"ｏｍｅ　ｆｕｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ，　ｌｏｏｋ　ａｔ　ｙｏｕ　ａｌｌ！　Ｔｈｉｓ　ｉｓ　"TCC_NEWLINE"ｇｏｎｎａ　ｂｅ　ｓｏｍｅ　ｆｉｇｈｔ．　Ｉ’ｍ　ｉｔｃｈー"TCC_NEWLINE"ｉｎ’　ｔｏ　ｇｅｔ　ｏｕｔ　ｔｈｅｒｅ　ａｎｄ　ｈａｖｅ"TCC_NEWLINE"　ｓｏｍｅ　ｆｕｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

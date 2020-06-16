@@ -3,9 +3,9 @@
 [MID_SCENARIO_MAP_BEGIN_S3133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｉｓ　ｔｈａｔ．．．Ｌｆ？　Ａｎｄ　Ｔｈｒａｓｉｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EIR
-"Ａｂｓｅｎｔ　ｔｈｅｉｒ　ｍｉｎｄｓ．．．　Ｍｏｔｈｅｒ　"TCC_NEWLINE"ｔｕｇｓ　ａｔｔｈｅ　ｓｔｒｉｎｇｓ　ｏｆ　ｔｈｅｉｒ　ｂー"TCC_NEWLINE"ｏｄｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｂｓｅｎｔ　ｔｈｅｉｒ　ｍｉｎｄｓ．．．　Ｍｏｔｈｅｒ　"TCC_NEWLINE"ｔｕｇｓ　ａｔ　ｔｈｅ　ｓｔｒｉｎｇｓ　ｏｆ　ｔｈｅｉｒ　"TCC_NEWLINE"ｂｏｄｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｊｕｓｔ　ｈｏｗ　ｆａｒ　ｗｉｌｌ　ｙｏｕ　ｄｅｓｃｅｎｄ"TCC_NEWLINE"　ｉｎｔｏｔｈｅ　ｄｅｐｔｈｓ　ｏｆ　ｄｅｓｅｃｒａｔｉｏー"TCC_NEWLINE"ｎ，　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｈｏｗ　ｆａｒ　ｗｉｌｌ　ｙｏｕ　ｄｅｓｃｅｎｄ"TCC_NEWLINE"　ｉｎｔｏ　ｔｈｅ　ｄｅｐｔｈｓ　ｏｆ　ｄｅｓｅｃｒａｔｉー"TCC_NEWLINE"ｏｎ，　Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｒｅａｄｙ　ｕｐ！　Ｔｈｅ　ｅｎｅｍｙ’ｓ　ａｌｍｏｓｔ　"TCC_NEWLINE"ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
@@ -15,10 +15,10 @@ TCC_OPEN_RIGHT
 "Ｈｅｌ．．．　Ｉ　ｓｈａｌｌ　ｋｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
-"Ｉ’ｍ　ｓｏｒｒｙ，　ｂｕｔ．．．ｍｉｇｈｔ　Ｉ　ａｓｋ　"TCC_NEWLINE"ａ　ｆａｖｏｒ　ｏｆｙｏｕ，"TCC_NEWLINE
+"Ｉ’ｍ　ｓｏｒｒｙ，　ｂｕｔ．．．ｍｉｇｈｔ　Ｉ　ａｓｋ　"TCC_NEWLINE"ａ　ｆａｖｏｒ　ｏｆ　ｙｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｎｅｅｄ　ｔｏ　ｇｅー"TCC_NEWLINE"ｔ　ｏｆｆ　ｍｙｃｈｅｓｔ，　ａｎｄ．．．ｙｏｕ　ａｒｅ　"TCC_NEWLINE"ｔｈｅ　ｏｎｌｙ　ｏｎｅＩ　ｔｒｕｓｔ　ｃｏｍｐｌｅｔｅｌー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｎｅｅｄ　ｔｏ　ｇｅー"TCC_NEWLINE"ｔ　ｏｆｆ　ｍｙ　ｃｈｅｓｔ，　ａｎｄ．．．ｙｏｕ　ａｒｅ"TCC_NEWLINE"　ｔｈｅ　ｏｎｌｙ　ｏｎｅ　Ｉ　ｔｒｕｓｔ　ｃｏｍｐｌｅｔー"TCC_NEWLINE"ｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｃａｎ　ｙｏｕ　ｍｅｅｔ　ｍｅ　ｔｏｎｉｇｈｔ？　Ａｌｏｎー"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｐｌｅａｓｅ，　ｋｅｅｐ　ｔｈｉｓ　ｂｅｔｗｅｅｎ　ｕｓ，"TCC_NEWLINE"　ｉｆ　ｙｏｕｗｏｕｌｄ，"TCC_NEWLINE
+"Ｐｌｅａｓｅ，　ｋｅｅｐ　ｔｈｉｓ　ｂｅｔｗｅｅｎ　ｕｓ，"TCC_NEWLINE"　ｉｆ　ｙｏｕ　ｗｏｕｌｄ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

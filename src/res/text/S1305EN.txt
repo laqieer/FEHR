@@ -1,42 +1,42 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S1305_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
-"Ｈｅｈ．．．　Ｉｔ’ｓ　ｔｉｍｅ，　ｓｐａｗｎ　ｏｆ　Ａｓー"TCC_NEWLINE"ｋｒ．．．　Ｔｉｍｅｆｏｒ　ｍｅ　ｔｏ　ｒｉｐ　ｙｏｕ　ｏー"TCC_NEWLINE"ｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ．．．　Ｉｔ’ｓ　ｔｉｍｅ，　ｓｐａｗｎ　ｏｆ　Ａｓー"TCC_NEWLINE"ｋｒ．．．　Ｔｉｍｅ　ｆｏｒ　ｍｅ　ｔｏ　ｒｉｐ　ｙｏｕ　"TCC_NEWLINE"ｏｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｏｈ，"TCC_NEWLINE
-TCC_TACTICIAN_NAME"．．．Ｉ’ｍ　ｓｏ　ｓｃａｒｅｄ！　Ｈｅ　ｗａｓｎ’ｔ　ｌー"TCC_NEWLINE"ｉｋｅ　ｔｈｉｓｂｅｆｏｒｅ．．．　Ｗａｓ　ｈｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"．．．　Ｉ’ｍ　ｓｏ　ｓｃａｒｅｄ！　Ｈｅ　ｗａｓｎ’ｔ　"TCC_NEWLINE"ｌｉｋｅ　ｔｈｉｓ　ｂｅｆｏｒｅ．．．　Ｗａｓ　ｈｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ　ｓｕｓｐｅｃｔ　ｔｈｅｒｅ’ｓ　ａ　ｒｅａｓｏｎ　ｆｏー"TCC_NEWLINE"ｒ　ｔｈａｔ．．．Ｂｕｔ　ｗｈａｔ　Ｉ　ｃａｒｅ　ａｂｏｕー"TCC_NEWLINE"ｔ　ｒｉｇｈｔ　ｎｏｗ　ｉｓｆｉｎｄｉｎｇ　ｏｕｔ　ａｂｏー"TCC_NEWLINE"ｕｔ　Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅ　Ｂｒｕｎｏ！　Ｗｈａｔ　ｄｉｄ　ｙｏｕ　ｄｏ"TCC_NEWLINE"　ｔｏＺａｃｈａｒｉａｓ？　Ｔｅｌｌ　ｕｓ　ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇ　ｙｏｕｋｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｕｓｐｅｃｔ　ｔｈｅｒｅ’ｓ　ａ　ｒｅａｓｏｎ　ｆｏー"TCC_NEWLINE"ｒ　ｔｈａｔ．．．　Ｂｕｔ　ｗｈａｔ　Ｉ　ｃａｒｅ　ａｂｏー"TCC_NEWLINE"ｕｔ　ｒｉｇｈｔ　ｎｏｗ　ｉｓ　ｆｉｎｄｉｎｇ　ｏｕｔ　ａー"TCC_NEWLINE"ｂｏｕｔ　Ｚａｃｈａｒｉａｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ｂｒｕｎｏ！　Ｗｈａｔ　ｄｉｄ　ｙｏｕ　ｄｏ"TCC_NEWLINE"　ｔｏ　Ｚａｃｈａｒｉａｓ？　Ｔｅｌｌ　ｕｓ　ｅｖｅｒｙｔー"TCC_NEWLINE"ｈｉｎｇ　ｙｏｕ　ｋｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅｈ．．．　Ｙｏｕ．．．ｗａｎｔ　ｔｏ　ｋｎｏｗ　ｗｈａー"TCC_NEWLINE"ｔ．．．Ｉｄｉｄ？　Ｔａｋｅ．．．ａ　ｌｏｏｋ．．．ａｎｄ"TCC_NEWLINE"　ｔｈｅｎ．．．ａｓｋ　ｍｅａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ．．．　Ｙｏｕ．．．ｗａｎｔ　ｔｏ　ｋｎｏｗ　ｗｈａー"TCC_NEWLINE"ｔ．．．Ｉ　ｄｉｄ？　Ｔａｋｅ．．．ａ　ｌｏｏｋ．．．ａｎー"TCC_NEWLINE"ｄ　ｔｈｅｎ．．．ａｓｋ　ｍｅ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｚａｃｈａｒｉａｓ’ｓ　ｌａｎｃｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｅｓ，　Ｉ　ｔｏｏｋ　ｈｉｓ　ｌｉｆｅ．　Ｈｅ　ｐｅｅｒー"TCC_NEWLINE"ｅｄ　ｉｎｔｏｐｌａｃｅｓ　ｈｅ　ｓｈｏｕｌｄ　ｎｏｔ，　"TCC_NEWLINE"ａｎｄ　ｂｒｏｕｇｈｔｏｎｅ　ｏｆ　Ｅｍｂｌａ’ｓ　ｓｅｃー"TCC_NEWLINE"ｒｅｔｓ　ｉｎｔｏ　ｔｈｅ　ｌｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓ　ｓｏ　ｓａｄ．．．　Ｈｅ　ｗａｓ　ａｌｌ　ａー"TCC_NEWLINE"ｌｏｎｅ．．．Ｔｈｅｒｅ　ｗａｓ　ｎｏｔｈｉｎｇ　ｈｅ　ｃー"TCC_NEWLINE"ｏｕｌｄ　ｄｏ　ｔｏｓａｖｅ　ｈｉｍｓｅｌｆ．．．ｆｒｏｍ"TCC_NEWLINE"　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｗａｓ　ｐａｔｈｅｔｉｃ．　Ｗｉｔｈ　ｈｉｓ　ｄｙｉー"TCC_NEWLINE"ｎｇ　ｂｒｅａｔｈ．．．ｈｅ　ｂｅｇｇｅｄ　ｆｏｒ　ｈｉｓ"TCC_NEWLINE"　ｌｉｆｅ．　Ｈｅ　ｃａｌｌｅｄ　ｏｕｔｙｏｕｒ　ｎａｍｅー"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｄｏ　ａｎｙｔｈｉｎｇ　ｙｏｕ　ａｓｋ！　Ｊｕｓー"TCC_NEWLINE"ｔ　ｌｅｔ　ｍｅｌｉｖｅ！　Ｂｗａ－ｈａ－ｈａ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ，　Ｉ　ｔｏｏｋ　ｈｉｓ　ｌｉｆｅ．　Ｈｅ　ｐｅｅｒー"TCC_NEWLINE"ｅｄ　ｉｎｔｏ　ｐｌａｃｅｓ　ｈｅ　ｓｈｏｕｌｄ　ｎｏｔ，"TCC_NEWLINE"　ａｎｄ　ｂｒｏｕｇｈｔ　ｏｎｅ　ｏｆ　Ｅｍｂｌａ’ｓ　ｓー"TCC_NEWLINE"ｅｃｒｅｔｓ　ｉｎｔｏ　ｔｈｅ　ｌｉｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ｓｏ　ｓａｄ．．．　Ｈｅ　ｗａｓ　ａｌｌ　ａー"TCC_NEWLINE"ｌｏｎｅ．．．　Ｔｈｅｒｅ　ｗａｓ　ｎｏｔｈｉｎｇ　ｈｅ　"TCC_NEWLINE"ｃｏｕｌｄ　ｄｏ　ｔｏ　ｓａｖｅ　ｈｉｍｓｅｌｆ．．．ｆｒー"TCC_NEWLINE"ｏｍ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ｐａｔｈｅｔｉｃ．　Ｗｉｔｈ　ｈｉｓ　ｄｙｉー"TCC_NEWLINE"ｎｇ　ｂｒｅａｔｈ．．．　ｈｅ　ｂｅｇｇｅｄ　ｆｏｒ　ｈｉー"TCC_NEWLINE"ｓ　ｌｉｆｅ．　Ｈｅ　ｃａｌｌｅｄ　ｏｕｔ　ｙｏｕｒ　ｎａー"TCC_NEWLINE"ｍｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｄｏ　ａｎｙｔｈｉｎｇ　ｙｏｕ　ａｓｋ！　Ｊｕｓー"TCC_NEWLINE"ｔ　ｌｅｔ　ｍｅ　ｌｉｖｅ！　Ｂｗａ－ｈａ－ｈａ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｈ，　Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｙｏｕ．．．ｍｕｒｄｅｒｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｈｏｗ　ｍｅ　ｈｏｗ　ｙｏｕ　ｒｅａｌｌｙ　ｆｅｅｌ．．"TCC_NEWLINE"．ｗｉｔｈｙｏｕｒ　ｂｌａｄｅ！　Ｙｏｕ’ｌｌ　ｂｅ　ｓｅー"TCC_NEWLINE"ｅｉｎｇＺａｃｈａｒｉａｓ　ｓｏｏｎ　ｅｎｏｕｇｈ　ｉｆ　"TCC_NEWLINE"ｙｏｕ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｏｗ　ｍｅ　ｈｏｗ　ｙｏｕ　ｒｅａｌｌｙ　ｆｅｅｌ．．"TCC_NEWLINE"．ｗｉｔｈ　ｙｏｕｒ　ｂｌａｄｅ！　Ｙｏｕ’ｌｌ　ｂｅ　ｓー"TCC_NEWLINE"ｅｅｉｎｇ　Ｚａｃｈａｒｉａｓ　ｓｏｏｎ　ｅｎｏｕｇｈ　ｉー"TCC_NEWLINE"ｆ　ｙｏｕ　ｄｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S1305_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｇｈｋ．．．Ｕｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S1305_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
-"Ｄｏ　ｉｔ．　Ｋｉｌｌ　ｍｅ．　Ｄｏ　ｉｔ　ｎｏｗ！　Ｉ　"TCC_NEWLINE"ｔｏｌｄ　ｙｏｕｂｅｆｏｒｅ．．．　Ｙｏｕ’ｌｌ　ｒｅｇｒー"TCC_NEWLINE"ｅｔ　ｉｔ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｉｔ．　Ｋｉｌｌ　ｍｅ．　Ｄｏ　ｉｔ　ｎｏｗ！　Ｉ　"TCC_NEWLINE"ｔｏｌｄ　ｙｏｕ　ｂｅｆｏｒｅ．．．　Ｙｏｕ’ｌｌ　ｒｅｇー"TCC_NEWLINE"ｒｅｔ　ｉｔ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｏｎｅ　ｌａｓｔ　ｔｉｍｅ，　Ｂｒｕｎｏ．．．ｄｉｄ　ｙｏー"TCC_NEWLINE"ｕ　ｒｅａｌｌｙｋｉｌｌ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｌａｓｔ　ｔｉｍｅ，　Ｂｒｕｎｏ．．．ｄｉｄ　ｙｏー"TCC_NEWLINE"ｕ　ｒｅａｌｌｙ　ｋｉｌｌ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈａｈ！　Ｔｈｉｓ　ａｇａｉｎ？　Ｙｅｓ！　Ｉ　ｋｉｌｌｅー"TCC_NEWLINE"ｄ　ｈｉｍ！Ａｎｄ　Ｉ’ｌｌ　ｍａｋｅ　ｓｕｒｅ　ｙｏｕ　"TCC_NEWLINE"ａｎｄ　ｙｏｕｒｓｉｓｔｅｒ　ｓｕｆｆｅｒ　ｔｈｅ　ｓａｍー"TCC_NEWLINE"ｅ　ｆａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｈ！　Ｔｈｉｓ　ａｇａｉｎ？　Ｙｅｓ！　Ｉ　ｋｉｌｌｅー"TCC_NEWLINE"ｄ　ｈｉｍ！　Ａｎｄ　Ｉ’ｌｌ　ｍａｋｅ　ｓｕｒｅ　ｙｏｕ"TCC_NEWLINE"　ａｎｄ　ｙｏｕｒ　ｓｉｓｔｅｒ　ｓｕｆｆｅｒ　ｔｈｅ　ｓー"TCC_NEWLINE"ａｍｅ　ｆａｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｖｅｒｙ　ｗｅｌｌ．　Ｔｈｅ　ｔｉｍｅ　ｔｏ　ａｖｅｎｇｅ"TCC_NEWLINE"　ｍｙｆｒｉｅｎｄ．．．ｈａｓ　ｃｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｙ　ｗｅｌｌ．　Ｔｈｅ　ｔｉｍｅ　ｔｏ　ａｖｅｎｇｅ"TCC_NEWLINE"　ｍｙ　ｆｒｉｅｎｄ．．．ｈａｓ　ｃｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｅｓ，"TCC_NEWLINE
-TCC_TACTICIAN_NAME"？Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"？　Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -46,13 +46,13 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｗｈａｔ　ｉｓ　ｉｔ，　Ｂｒｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ　ｃｏｍｐｌｅｔｅｄ　ｔｈｅ　ｒｉｔｅ　ｗｉｔｈ　ｔｈー"TCC_NEWLINE"ｅｓｅｎｄｉｎｇ　ｓｔｏｎｅ，　ｙｅｔ　ｗｅ　ｄｉｄｎ’ｔ"TCC_NEWLINE"　ｈｅａｒＺａｃｈａｒｉａｓ’　ｖｏｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｈｅ　ｗａｓ　ａｌｉｖｅ，　ｗｅ　ｗｏｕｌｄ　ｈａｖー"TCC_NEWLINE"ｅ．　Ｗｅａｓｓｕｍｅｄ　ｔｈａｔ　ｈｅ　ｗａｓ　ｄｅａｄ"TCC_NEWLINE"．　Ｂｕｔｔｈｅｒｅ’ｓ　ａｎｏｔｈｅｒ　ｐｏｓｓｉｂｉｌー"TCC_NEWLINE"ｉｔｙ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｄｉｄ　ｓｐｅａｋ　ｔｏ　Ｚａｃｈａｒｉａｓ　ｄｕｒー"TCC_NEWLINE"ｉｎｇ　ｔｈｅｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃｏｍｐｌｅｔｅｄ　ｔｈｅ　ｒｉｔｅ　ｗｉｔｈ　ｔｈー"TCC_NEWLINE"ｅ　ｓｅｎｄｉｎｇ　ｓｔｏｎｅ，　ｙｅｔ　ｗｅ　ｄｉｄｎ’"TCC_NEWLINE"ｔ　ｈｅａｒ　Ｚａｃｈａｒｉａｓ’　ｖｏｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｈｅ　ｗａｓ　ａｌｉｖｅ，　ｗｅ　ｗｏｕｌｄ　ｈａｖー"TCC_NEWLINE"ｅ．　Ｗｅ　ａｓｓｕｍｅｄ　ｔｈａｔ　ｈｅ　ｗａｓ　ｄｅａー"TCC_NEWLINE"ｄ．　Ｂｕｔ　ｔｈｅｒｅ’ｓ　ａｎｏｔｈｅｒ　ｐｏｓｓｉｂー"TCC_NEWLINE"ｉｌｉｔｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｄｉｄ　ｓｐｅａｋ　ｔｏ　Ｚａｃｈａｒｉａｓ　ｄｕｒー"TCC_NEWLINE"ｉｎｇ　ｔｈｅ　ｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ　ｍｅａｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｐｒｉｎｃｅ　Ｂｒｕｎｏ，　ｏｆ　ｔｈｅ　Ｅｍｂｌｉａｎ　"TCC_NEWLINE"Ｅｍｐｉｒｅ，Ｉ　ａｓｋ　ｙｏｕ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ｂｒｕｎｏ，　ｏｆ　ｔｈｅ　Ｅｍｂｌｉａｎ　"TCC_NEWLINE"Ｅｍｐｉｒｅ，　Ｉ　ａｓｋ　ｙｏｕ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｒｅ　ｙｏｕ　Ｚａｃｈａｒｉａｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

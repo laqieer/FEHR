@@ -4,118 +4,118 @@
 "Ｏｈ，　Ｇｕｓｔａｖ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　ｈｅ　ｓａｉｄ　ｔｈａｔ　ｏｕｒ　ｆａｍｉｌｙ　"TCC_NEWLINE"ｈａｄｓｕｆｆｅｒｅｄ　ａ　ｌｏｓｓ　ａｎｄ　ｔｈａｔ　ｗー"TCC_NEWLINE"ｅ　ｍｕｓｔｍｏｖｅ　ｆｏｒｗａｒｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｗａｓｎ’ｔ　ｔａｌｋｉｎｇ　ａｂｏｕｔ　Ａｌｆｏｎー"TCC_NEWLINE"ｓｅ．　Ｈｅｗａｓ　ｔａｌｋｉｎｇ　ａｂｏｕｔ　ｈｉｍｓｅー"TCC_NEWLINE"ｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｈｅ　ｓａｉｄ　ｔｈａｔ　ｏｕｒ　ｆａｍｉｌｙ　"TCC_NEWLINE"ｈａｄ　ｓｕｆｆｅｒｅｄ　ａ　ｌｏｓｓ　ａｎｄ　ｔｈａｔ　"TCC_NEWLINE"ｗｅ　ｍｕｓｔ　ｍｏｖｅ　ｆｏｒｗａｒｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗａｓｎ’ｔ　ｔａｌｋｉｎｇ　ａｂｏｕｔ　Ａｌｆｏｎー"TCC_NEWLINE"ｓｅ．　Ｈｅ　ｗａｓ　ｔａｌｋｉｎｇ　ａｂｏｕｔ　ｈｉｍｓー"TCC_NEWLINE"ｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｌｆｏｎｓｅ，　ｄｏｎ’ｔ　ｂｌａｍｅ　ｙｏｕｒｓｅｌｆ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｗａｓ　ｇｌａｄ　ｔｏ　ｓａｃｒｉｆｉｃｅ　ｈｉｍｓー"TCC_NEWLINE"ｅｌｆ　ｔｏｓａｖｅ　ｙｏｕ．　Ｎｅｖｅｒ　ｄｏｕｂｔ　ｔー"TCC_NEWLINE"ｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗａｓ　ｇｌａｄ　ｔｏ　ｓａｃｒｉｆｉｃｅ　ｈｉｍｓー"TCC_NEWLINE"ｅｌｆ　ｔｏ　ｓａｖｅ　ｙｏｕ．　Ｎｅｖｅｒ　ｄｏｕｂｔ　"TCC_NEWLINE"ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｂｕｔ　Ｆａｔｈｅｒ．．．　Ｉ．．．　Ｈｏｗ　ｃａｎ　Ｉ　"TCC_NEWLINE"ｃｏｍｐａｒｅ　ｔｏｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｆａｔｈｅｒ．．．　Ｉ．．．　Ｈｏｗ　ｃａｎ　Ｉ　"TCC_NEWLINE"ｃｏｍｐａｒｅ　ｔｏ　ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｌｆｏｎｓｅ，　ｌｉｓｔｅｎ　ｔｏ　ｍｅ．　Ｙｏｕｒ　ｆー"TCC_NEWLINE"ａｔｈｅｒ　ｗａｓｉｌｌ．　Ｈｅ　ｈａｄｎ’ｔ　ｌｏｎｇ　"TCC_NEWLINE"ｌｅｆｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　ｌｉｓｔｅｎ　ｔｏ　ｍｅ．　Ｙｏｕｒ　ｆー"TCC_NEWLINE"ａｔｈｅｒ　ｗａｓ　ｉｌｌ．　Ｈｅ　ｈａｄｎ’ｔ　ｌｏｎｇ"TCC_NEWLINE"　ｌｅｆｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｌｌ？　Ｆａｔｈｅｒ？　Ｈｅ　ｌｏｏｋｅｄ　ａｓ　ｓｔｒー"TCC_NEWLINE"ｏｎｇ　ａｓｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｌｌ？　Ｆａｔｈｅｒ？　Ｈｅ　ｌｏｏｋｅｄ　ａｓ　ｓｔｒー"TCC_NEWLINE"ｏｎｇ　ａｓ　ｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ’ｓ　ｙｏｕｒ　ｆａｔｈｅｒ．　Ｈｅ　ｗａｓ　ｈｉー"TCC_NEWLINE"ｄｉｎｇ　ｉｔ．Ｈｅ　ｗａｎｔｅｄ　ｔｈｅ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ｔｏ　ｆｅｅｌ　ａｔ　ｅａｓｅ；ａｎｄ　Ａｓｋｒ’ｓ　ｆｏー"TCC_NEWLINE"ｅｓ，　ｏｎ　ｇｕａｒｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｉｓ　ｐｌａｎ　ｗａｓ　ｔｏ　ｈｉｄｅ　ａｌｌ　ｔｈｉｓ"TCC_NEWLINE"　ｕｎｔｉｌ　ｙｏｕｗｅｒｅ　ｒｅａｄｙ　ｔｏ　ｓｕｃｃｅー"TCC_NEWLINE"ｅｄ　ｔｈｅ　ｔｈｒｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｙｏｕｒ　ｆａｔｈｅｒ．　Ｈｅ　ｗａｓ　ｈｉー"TCC_NEWLINE"ｄｉｎｇ　ｉｔ．　Ｈｅ　ｗａｎｔｅｄ　ｔｈｅ　ｐｅｏｐｌｅ"TCC_NEWLINE"　ｔｏ　ｆｅｅｌ　ａｔ　ｅａｓｅ；　ａｎｄ　Ａｓｋｒ’ｓ　"TCC_NEWLINE"ｆｏｅｓ，　ｏｎ　ｇｕａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｉｓ　ｐｌａｎ　ｗａｓ　ｔｏ　ｈｉｄｅ　ａｌｌ　ｔｈｉｓ"TCC_NEWLINE"　ｕｎｔｉｌ　ｙｏｕ　ｗｅｒｅ　ｒｅａｄｙ　ｔｏ　ｓｕｃｃー"TCC_NEWLINE"ｅｅｄ　ｔｈｅ　ｔｈｒｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｈｏｗ　ｌｉｔｔｌｅ　Ｉ　ｕｎｄｅｒｓｔｏｏｄ．．．ｏｆ　"TCC_NEWLINE"ｈｉｓ　ｐｌａｎｓａｎｄ　ｏｆ　ｈｉｓ　ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｌｉｔｔｌｅ　Ｉ　ｕｎｄｅｒｓｔｏｏｄ．．．ｏｆ　"TCC_NEWLINE"ｈｉｓ　ｐｌａｎｓ　ａｎｄ　ｏｆ　ｈｉｓ　ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｈｅ　ｓｈｏｗｅｄ　ｍｅ　ａ　ｄｅａｄ　ｂｒａｎｃｈ．．．"TCC_NEWLINE"　Ｗａｓｔｈｅｒｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｔｈａｔ？　"TCC_NEWLINE"Ｔｅｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｓｈｏｗｅｄ　ｍｅ　ａ　ｄｅａｄ　ｂｒａｎｃｈ．．．"TCC_NEWLINE"　Ｗａｓ　ｔｈｅｒｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｔｈａｔ？"TCC_NEWLINE"　Ｔｅｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ，　ｙｅｓ．　Ｔｈｅ　ｓｗｏｒｄ　ｏｆ　ｂｒａｖｅｒｙ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｔｈｅ　ｓｗｏｒｄ　ｏｆ　ｂｒａｖｅｒｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ’ｓ　ｗｈａｔ　ｙｏｕ　ｃａｌｌｅｄ　ｉｔ．　Ｙｏー"TCC_NEWLINE"ｕ　ｃａｎ’ｔｈａｖｅ　ｂｅｅｎ　ｍｕｃｈ　ｏｌｄｅｒ　ｔー"TCC_NEWLINE"ｈａｎ　ｔｈｒｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｗｅｒｅ　ｊｕｓｔ　ｓｔａｒｔｉｎｇ　ｔｏ　ｌｅａー"TCC_NEWLINE"ｒｎ　ａｂｏｕｔｗｈａｔ　ｉｔ　ｍｅａｎｔ　ｔｏ　ｂｅ　ｔー"TCC_NEWLINE"ｈｅ　Ｐｒｉｎｃｅ　ｏｆＡｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｂｒｏｕｇｈｔ　ｙｏｕｒ　ｆａｔｈｅｒ　ａ　ｂｒａー"TCC_NEWLINE"ｎｃｈａｎｄ　ｐｒｅｓｅｎｔｅｄ　ｉｔ　ｔｏ　ｈｉｍ　ｑｕー"TCC_NEWLINE"ｉｔｅｓｏｌｅｍｎｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｈａｄ　ｙｏｕｒ　ｏｗｎ　ｂｒａｎｃｈ，　ｔｏｏ，"TCC_NEWLINE"　ａｎｄｐｏｓｅｄ　ｌｉｋｅ　ａ　ｗａｒｒｉｏｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｌｏｏｋｅｄ　ｕｐ　ａｔ　ｈｉｍ　ａｎｄ　ｓａｉｄ"TCC_NEWLINE"，Ｆａｔｈｅｒ，　ｔｏｇｅｔｈｅｒ　ｗｅ’ｌｌ　ｐｒｏｔｅー"TCC_NEWLINE"ｃｔ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｗｈａｔ　ｙｏｕ　ｃａｌｌｅｄ　ｉｔ．　Ｙｏー"TCC_NEWLINE"ｕ　ｃａｎ’ｔ　ｈａｖｅ　ｂｅｅｎ　ｍｕｃｈ　ｏｌｄｅｒ　"TCC_NEWLINE"ｔｈａｎ　ｔｈｒｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ｊｕｓｔ　ｓｔａｒｔｉｎｇ　ｔｏ　ｌｅａー"TCC_NEWLINE"ｒｎ　ａｂｏｕｔ　ｗｈａｔ　ｉｔ　ｍｅａｎｔ　ｔｏ　ｂｅ　"TCC_NEWLINE"ｔｈｅ　Ｐｒｉｎｃｅ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｂｒｏｕｇｈｔ　ｙｏｕｒ　ｆａｔｈｅｒ　ａ　ｂｒａー"TCC_NEWLINE"ｎｃｈ　ａｎｄ　ｐｒｅｓｅｎｔｅｄ　ｉｔ　ｔｏ　ｈｉｍ　ｑー"TCC_NEWLINE"ｕｉｔｅ　ｓｏｌｅｍｎｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｄ　ｙｏｕｒ　ｏｗｎ　ｂｒａｎｃｈ，　ｔｏｏ，"TCC_NEWLINE"　ａｎｄ　ｐｏｓｅｄ　ｌｉｋｅ　ａ　ｗａｒｒｉｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｌｏｏｋｅｄ　ｕｐ　ａｔ　ｈｉｍ　ａｎｄ　ｓａｉｄ"TCC_NEWLINE"，　Ｆａｔｈｅｒ，　ｔｏｇｅｔｈｅｒ　ｗｅ’ｌｌ　ｐｒｏｔー"TCC_NEWLINE"ｅｃｔ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗａｎｔ　ｔｏ　ｈｅｌｐ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｆａｔｈｅｒ．．．ｔｈｅ　ｋｉｎｇ．．．ｃｏｕｌー"TCC_NEWLINE"ｄ　ｂａｒｅｌｙｈｉｄｅ　ｈｉｓ　ｓｍｉｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｆａｔｈｅｒ．．．ｔｈｅ　ｋｉｎｇ．．．ｃｏｕｌー"TCC_NEWLINE"ｄ　ｂａｒｅｌｙ　ｈｉｄｅ　ｈｉｓ　ｓｍｉｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅ　ｃｏｎｆｌｉｃｔ　ｈａｓ　ｒｅａｃｈｅｄ　ａ　ｓｔー"TCC_NEWLINE"ａｌｅｍａｔｅ．Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｉｎｕｎｄａｔー"TCC_NEWLINE"ｅｄ　ｔｈｅ　ａｒｅａｂｙ　ｔｈｅ　ｇａｔｅ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｋｉｎｇ’ｓ　ｋｎｉｇｈｔｓ　ｈａｖｅ　ｃｏｎｔａー"TCC_NEWLINE"ｉｎｅｄｔｈｅｍ　ｔｈｅｒｅ，　ｓｏ　ｂａｔｔｌｅ　ｈａｓー"TCC_NEWLINE"ｎ’ｔ　ｓｐｒｅａｄ．．．ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｒｅｉｎｆｏｒｃｅｍｅｎｔｓ　ｃｏｎｔｉｎｕｅ　ｔｏ　ｓｐー"TCC_NEWLINE"ｉｌｌ　ｆｒｏｍｔｈｅ　ｇａｔｅ．　Ｈｅｌ’ｓ　ｆｏｒｃｅー"TCC_NEWLINE"ｓ　ｓｅｅｍ　ｔｏ　ｈａｖｅｎｏ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｏｎｆｌｉｃｔ　ｈａｓ　ｒｅａｃｈｅｄ　ａ　ｓｔー"TCC_NEWLINE"ａｌｅｍａｔｅ．　Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｉｎｕｎｄａー"TCC_NEWLINE"ｔｅｄ　ｔｈｅ　ａｒｅａ　ｂｙ　ｔｈｅ　ｇａｔｅ　ｔｏ　ｔー"TCC_NEWLINE"ｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｋｉｎｇ’ｓ　ｋｎｉｇｈｔｓ　ｈａｖｅ　ｃｏｎｔａー"TCC_NEWLINE"ｉｎｅｄ　ｔｈｅｍ　ｔｈｅｒｅ，　ｓｏ　ｂａｔｔｌｅ　ｈａー"TCC_NEWLINE"ｓｎ’ｔ　ｓｐｒｅａｄ．．．　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｉｎｆｏｒｃｅｍｅｎｔｓ　ｃｏｎｔｉｎｕｅ　ｔｏ　ｓｐー"TCC_NEWLINE"ｉｌｌ　ｆｒｏｍ　ｔｈｅ　ｇａｔｅ．　Ｈｅｌ’ｓ　ｆｏｒｃー"TCC_NEWLINE"ｅｓ　ｓｅｅｍ　ｔｏ　ｈａｖｅ　ｎｏ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅ　ｌｏｎｇｅｒ　ｔｈｉｓ　ｓｔａｌｅｍａｔｅ　ｌａｓー"TCC_NEWLINE"ｔｓ，　ｔｈｅｍｏｒｅ　ｏｆ　ａｎ　ａｄｖａｎｔａｇｅ　ｓー"TCC_NEWLINE"ｈｅ　ｇａｉｎｓ．　Ｓｈｅｃａｎ　ｐｉｃｋ　ｕｓ　ｏｆｆ　"TCC_NEWLINE"ｏｎｅ　ｂｙ　ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌｏｎｇｅｒ　ｔｈｉｓ　ｓｔａｌｅｍａｔｅ　ｌａｓー"TCC_NEWLINE"ｔｓ，　ｔｈｅ　ｍｏｒｅ　ｏｆ　ａｎ　ａｄｖａｎｔａｇｅ　"TCC_NEWLINE"ｓｈｅ　ｇａｉｎｓ．　Ｓｈｅ　ｃａｎ　ｐｉｃｋ　ｕｓ　ｏｆー"TCC_NEWLINE"ｆ　ｏｎｅ　ｂｙ　ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｎｄ　ｔｈｅ　ｃｏｍｍａｎｄｅｒ　ｏｆ　ｔｈｅ　ｋｉｎｇ"TCC_NEWLINE"’ｓｋｎｉｇｈｔｓ　ｈａｓ　ｆａｌｌｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｑｕｅｅｎ　ａｎｄ　ｔｈｅ　ｃａｐｔａｉｎ　ｏｆ　"TCC_NEWLINE"ｔｈｅｋｎｉｇｈｔｓ　ｈａｖｅ　ｔｈｉｎｇｓ　ｕｎｄｅｒ　"TCC_NEWLINE"ｃｏｎｔｒｏｌ，ｂｕｔ　ｗｅ’ｒｅ　ｏｎ　ｔｈｅ　ｄｅｆｅー"TCC_NEWLINE"ｎｓｉｖｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ　ｔｏ　ｗａｓｔｅ．　Ｉｔ’"TCC_NEWLINE"ｓ　ｕｐ　ｔｏｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｔｏ"TCC_NEWLINE"　ｓｔｏｐ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅ　ｃｏｍｍａｎｄｅｒ　ｏｆ　ｔｈｅ　ｋｉｎｇ"TCC_NEWLINE"’ｓ　ｋｎｉｇｈｔｓ　ｈａｓ　ｆａｌｌｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｑｕｅｅｎ　ａｎｄ　ｔｈｅ　ｃａｐｔａｉｎ　ｏｆ　"TCC_NEWLINE"ｔｈｅ　ｋｎｉｇｈｔｓ　ｈａｖｅ　ｔｈｉｎｇｓ　ｕｎｄｅｒ"TCC_NEWLINE"　ｃｏｎｔｒｏｌ，　ｂｕｔ　ｗｅ’ｒｅ　ｏｎ　ｔｈｅ　ｄｅー"TCC_NEWLINE"ｆｅｎｓｉｖｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ　ｔｏ　ｗａｓｔｅ．　Ｉｔ’"TCC_NEWLINE"ｓ　ｕｐ　ｔｏ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｔー"TCC_NEWLINE"ｏ　ｓｔｏｐ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ａｌｆｏｎｓｅ　ａｎｄ　Ｉ　ｓｐｅｎｔ　ｌａｓｔ　ｎｉｇｈー"TCC_NEWLINE"ｔｓｃｏｕｒｉｎｇ　ｔｈｅ　ｒｏｙａｌ　ｌｉｂｒａｒｙ　ｆー"TCC_NEWLINE"ｏｒ　ｃｌｕｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ　ａｎｄ　Ｉ　ｓｐｅｎｔ　ｌａｓｔ　ｎｉｇｈー"TCC_NEWLINE"ｔ　ｓｃｏｕｒｉｎｇ　ｔｈｅ　ｒｏｙａｌ　ｌｉｂｒａｒｙ　"TCC_NEWLINE"ｆｏｒ　ｃｌｕｅｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅｒｅ　ｗｅｒｅ　ｓｏｍｅ　ｐａｓｓａｇｅｓ　ｔｈａｔー"TCC_NEWLINE"ｓｅｅｍｅｄ　ｐｒｏｍｉｓｉｎｇ，　ｂｕｔ　ｉｎ　ｔｈｅ　"TCC_NEWLINE"ｅｎｄ，ｎｏｔｈｉｎｇ　ｗｅ　ｆｏｕｎｄ　ｗａｓ　ｕｓｅｆー"TCC_NEWLINE"ｕｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｗｅ’ｒｅ　ｎｏｔ　ｄｏｎｅ　ｓｅａｒｃｈｉｎｇ　"TCC_NEWLINE"ｆｏｒａｎｓｗｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｗｅｒｅ　ｓｏｍｅ　ｐａｓｓａｇｅｓ　ｔｈａｔ"TCC_NEWLINE"　ｓｅｅｍｅｄ　ｐｒｏｍｉｓｉｎｇ，　ｂｕｔ　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｅｎｄ，　ｎｏｔｈｉｎｇ　ｗｅ　ｆｏｕｎｄ　ｗａｓ　ｕｓー"TCC_NEWLINE"ｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｅ’ｒｅ　ｎｏｔ　ｄｏｎｅ　ｓｅａｒｃｈｉｎｇ　"TCC_NEWLINE"ｆｏｒ　ａｎｓｗｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｈｅｒｅ　ｎｅｘｔ？　Ｉ’ｍ　ｒｅａｄｙ　ｔｏ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ　ｍｕｓｔ　ｃｒｏｓｓ　ｔｈｒｏｕｇｈ　Ｄｅａｔｈ’ｓー"TCC_NEWLINE"ｇａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｃｒｏｓｓ　ｔｈｒｏｕｇｈ　Ｄｅａｔｈ’ｓ"TCC_NEWLINE"　ｇａｔｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｉｎｔｅｎｄ　ｔｏ　ｓｃｏｕｔ　ｔｈｅ　ｒｅａｌｍ"TCC_NEWLINE"　ｏｆ　ｔｈｅｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｉｎｔｅｎｄ　ｔｏ　ｓｃｏｕｔ　ｔｈｅ　ｒｅａｌｍ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｅｌ　ｉｓ　ｉｔｓ　ｓｏｖｅｒｅｉｇｎ．　Ｗｈｅｒｅ　ｂー"TCC_NEWLINE"ｅｔｔｅｒｔｏ　ｕｎｃｏｖｅｒ　ｉｎｆｏｒｍａｔｉｏｎ　ｏー"TCC_NEWLINE"ｎ　ｏｕｒｅｎｅｍｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｉｓ　ｉｔｓ　ｓｏｖｅｒｅｉｇｎ．　Ｗｈｅｒｅ　ｂー"TCC_NEWLINE"ｅｔｔｅｒ　ｔｏ　ｕｎｃｏｖｅｒ　ｉｎｆｏｒｍａｔｉｏｎ　"TCC_NEWLINE"ｏｎ　ｏｕｒ　ｅｎｅｍｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｅ　ｅｎｅｍｙ’ｓ　ｎｕｍｂｅｒｓ　ａｒｅｉｎｃｒｅａー"TCC_NEWLINE"ｓｉｎｇ．．．ｓｌｏｗｌｙ　ｂｕｔ　ｓｔｅａｄｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｈａｖｅ　ｔｏ　ｓｌｉｐ　ａ　ｈａｎｄｆｕｌ　ｏｆ　"TCC_NEWLINE"ｔｒｏｏｐｓｔｈｒｏｕｇｈ　ｔｈｅｉｒ　ｌｉｎｅｓ　ａｎｄ"TCC_NEWLINE"　ｉｎｔｏ　ｔｈｅ　ｒｅａｌｍｏｆ　ｔｈｅ　ｄｅａｄ，　ｏー"TCC_NEWLINE"ｒ　ｅｌｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｅｎｅｍｙ’ｓ　ｎｕｍｂｅｒｓ　ａｒｅ　ｉｎｃｒｅー"TCC_NEWLINE"ａｓｉｎｇ．．．ｓｌｏｗｌｙ　ｂｕｔ　ｓｔｅａｄｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｓｌｉｐ　ａ　ｈａｎｄｆｕｌ　ｏｆ　"TCC_NEWLINE"ｔｒｏｏｐｓ　ｔｈｒｏｕｇｈ　ｔｈｅｉｒ　ｌｉｎｅｓ　ａｎー"TCC_NEWLINE"ｄ　ｉｎｔｏ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ，"TCC_NEWLINE"　ｏｒ　ｅｌｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｉｓ　ｉｓ　ａ　ｄａｎｇｅｒｏｕｓ　ｍｉｓｓｉｏｎ．　"TCC_NEWLINE"Ｗｅｍｉｇｈｔ　ｎｏｔ　ｃｏｍｅ　ｂａｃｋ　ｆｒｏｍ　ｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｉｔ’ｓ　ａｌｓｏ　ｃｒｕｃｉａｌ　ｔｈａｔ　ｗｅ"TCC_NEWLINE"　ｆｉｎｄ　ａｗａｙ　ｔｏ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　Ｈー"TCC_NEWLINE"ｅｌ，　ａｎｄ　ｔｈｉｓｇａｍｂｉｔ　ｏｆｆｅｒｓ　ｕｓ　"TCC_NEWLINE"ｔｈａｔ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ａ　ｄａｎｇｅｒｏｕｓ　ｍｉｓｓｉｏｎ．　"TCC_NEWLINE"Ｗｅ　ｍｉｇｈｔ　ｎｏｔ　ｃｏｍｅ　ｂａｃｋ　ｆｒｏｍ　ｉー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｔ’ｓ　ａｌｓｏ　ｃｒｕｃｉａｌ　ｔｈａｔ　ｗｅ"TCC_NEWLINE"　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｐｕｔ　ａ　ｓｔｏｐ　ｔｏ　"TCC_NEWLINE"Ｈｅｌ，　ａｎｄ　ｔｈｉｓ　ｇａｍｂｉｔ　ｏｆｆｅｒｓ　ｕー"TCC_NEWLINE"ｓ　ｔｈａｔ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｉｓ　ｂｕｉｌｔ　"TCC_NEWLINE"ｆｏｒｓｍａｌｌ－ｓｃａｌｅ　ｏｐｅｒａｔｉｏｎｓ　ｌｉｋー"TCC_NEWLINE"ｅ　ｔｈｉｓ．Ｗｅ　ｃａｎ　ｄｏ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ！　Ｈｅｒｅ　ｗｅ　ｇｏ．　"TCC_NEWLINE"Ｗｅ’ｌｌｔａｋｅ　ｔｈｅ　ｆｉｇｈｔ　ｔｏ　Ｈｅｌ　ａｎー"TCC_NEWLINE"ｄ　ｓａｖｅ　Ａｓｋｒ．Ｗｈｏ’ｓ　ｗｉｔｈ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｉｓ　ｂｕｉｌｔ　"TCC_NEWLINE"ｆｏｒ　ｓｍａｌｌ－ｓｃａｌｅ　ｏｐｅｒａｔｉｏｎｓ　ｌｉー"TCC_NEWLINE"ｋｅ　ｔｈｉｓ．　Ｗｅ　ｃａｎ　ｄｏ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ！　Ｈｅｒｅ　ｗｅ　ｇｏ．　"TCC_NEWLINE"Ｗｅ’ｌｌ　ｔａｋｅ　ｔｈｅ　ｆｉｇｈｔ　ｔｏ　Ｈｅｌ　ａー"TCC_NEWLINE"ｎｄ　ｓａｖｅ　Ａｓｋｒ．　Ｗｈｏ’ｓ　ｗｉｔｈ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｔｅｌｌ　ｍｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｐｌａｎ．．．　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｔｈｉｎー"TCC_NEWLINE"ｋ　ｏｆ　ｉｔ？Ｗｉｌｌ　ｙｏｕ　ｅｎｔｅｒ　ｔｈｅ　ｒｅー"TCC_NEWLINE"ａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｐｌａｎ．．．　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｔｈｉｎー"TCC_NEWLINE"ｋ　ｏｆ　ｉｔ？　Ｗｉｌｌ　ｙｏｕ　ｅｎｔｅｒ　ｔｈｅ　ｒー"TCC_NEWLINE"ｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｅｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈｙ　ｄｏ　ｙｏｕ　ｒｅｓｉｓｔ？　Ｉ’ｖｅ　ｓｅｅｎ　"TCC_NEWLINE"ｙｏｕｓｔｒｕｇｇｌｅ．　Ｗｈｙ？　Ｙｏｕ　ｃａｎｎｏｔ　"TCC_NEWLINE"ｗｉｎ．　Ｎｏｔａｇａｉｎｓｔ　Ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｌ　ｗｉｌｌ　ｂｅ　ｋｉｌｌｅｄ，　ａｎｄ　ｔｈｅ　ｒー"TCC_NEWLINE"ａｎｋｓ　ｏｆ　ｔｈｅｄｅａｄ　ｗｉｌｌ　ｓｗｅｌｌ　ｗｉー"TCC_NEWLINE"ｔｈ　Ａｓｋｒ’ｓ　ｃｉｔｉｚｅｎｓ．．．Ｔｈａｔ　ｉｓ　"TCC_NEWLINE"ｗｈａｔ　Ｍｏｔｈｅｒ　ｗａｎｔｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｅ　ｉｓ　ｔｈｅ　ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ，"TCC_NEWLINE"　ａｎｄ　ｓｈｅｃａｎ　ｋｉｌｌ　ａｓ　ｓｈｅ　ｐｌｅａｓー"TCC_NEWLINE"ｅｓ．　Ｓｈｅ　ｗｉｌｌ　ｎｏｔｂｅ　ｄｅｆｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ｒｅｓｉｓｔ？　Ｉ’ｖｅ　ｓｅｅｎ　"TCC_NEWLINE"ｙｏｕ　ｓｔｒｕｇｇｌｅ．　Ｗｈｙ？　Ｙｏｕ　ｃａｎｎｏｔ"TCC_NEWLINE"　ｗｉｎ．　Ｎｏｔ　ａｇａｉｎｓｔ　Ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｗｉｌｌ　ｂｅ　ｋｉｌｌｅｄ，　ａｎｄ　ｔｈｅ　ｒー"TCC_NEWLINE"ａｎｋｓ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｗｉｌｌ　ｓｗｅｌｌ　ｗー"TCC_NEWLINE"ｉｔｈ　Ａｓｋｒ’ｓ　ｃｉｔｉｚｅｎｓ．．．　Ｔｈａｔ　ｉー"TCC_NEWLINE"ｓ　ｗｈａｔ　Ｍｏｔｈｅｒ　ｗａｎｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｉｓ　ｔｈｅ　ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ，"TCC_NEWLINE"　ａｎｄ　ｓｈｅ　ｃａｎ　ｋｉｌｌ　ａｓ　ｓｈｅ　ｐｌｅａー"TCC_NEWLINE"ｓｅｓ．　Ｓｈｅ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｄｅｆｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ　ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｉｔ．　Ｉｔ　ｉｓ　ｎｏｔ"TCC_NEWLINE"　ｔｈａｔ　ｓｉｍｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｓｈｅ’ｓ　ｊｕｓｔ　ｎｏｔ　ｔｈａｔ　ｐｏｗｅｒｆｕｌ．"TCC_NEWLINE"　Ｉｆ　ｓｈｅｗａｓ，　ｅｖｅｒｙｏｎｅ　ｉｎ　Ａｓｋｒ　"TCC_NEWLINE"ｗｏｕｌｄ　ｂｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓｋｒ　ｗｏｕｌｄ　ｈａｖｅ　ｆａｌｌｅｎ　ａｌｒｅａｄー"TCC_NEWLINE"ｙ．　Ｉｆｓｈｅ　ｃｏｕｌｄ　ｈａｖｅ，　ｓｈｅ　ｗｏｕｌー"TCC_NEWLINE"ｄ　ｈａｖｅｅｌｉｍｉｎａｔｅｄ　ｕｓ　ａｌｌ　ｉｎ　ｏｎー"TCC_NEWLINE"ｅ　ｓｔｒｉｋｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ’ｓ　ｊｕｓｔ　ｎｏｔ　ｔｈａｔ　ｐｏｗｅｒｆｕｌ．"TCC_NEWLINE"　Ｉｆ　ｓｈｅ　ｗａｓ，　ｅｖｅｒｙｏｎｅ　ｉｎ　Ａｓｋｒ"TCC_NEWLINE"　ｗｏｕｌｄ　ｂｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｋｒ　ｗｏｕｌｄ　ｈａｖｅ　ｆａｌｌｅｎ　ａｌｒｅａｄー"TCC_NEWLINE"ｙ．　Ｉｆ　ｓｈｅ　ｃｏｕｌｄ　ｈａｖｅ，　ｓｈｅ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｈａｖｅ　ｅｌｉｍｉｎａｔｅｄ　ｕｓ　ａｌｌ　ｉｎ　"TCC_NEWLINE"ｏｎｅ　ｓｔｒｉｋｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｅｒ　ｃｕｒｓｅ　ｍｕｓｔ　ｈａｖｅ　ｉｔｓ　ｌｉｍｉｔー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｔ　ｌｅａｓｔ　ｎｉｎｅ　ｄａｙｓ　ａｒｅ　ｒｅｑｕｉｒー"TCC_NEWLINE"ｅｄ　ｆｏｒ　ｉｔｔｏ　ｃｏｍｅ　ｄｕｅ，　ｆｏｒ　ｏｎｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｏｎｌｙ　ｏｎｅ　ｐｅｒｓｏｎ　ｃａｎ　ｂｅ　ｃｕー"TCC_NEWLINE"ｒｓｅｄａｔ　ａ　ｔｉｍｅ，　Ｉ’ｄ　ｗａｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ’ｓ　ｎｏｔ　ｔｏ　ｍｅｎｔｉｏｎ　ｔｈａｔ　Ｈｅー"TCC_NEWLINE"ｌ　ｈｅｒｓｅｌｆｈａｄ　ｔｏ　ｓｈｏｗ　ｈｅｒ　ｆａｃｅー"TCC_NEWLINE"ｂｏｔｈ　ｔｏ　ｌａｙ　ｔｈｅｃｕｒｓｅ　ａｎｄ　ｔｏ　ｃー"TCC_NEWLINE"ｌａｉｍ　ｈｅｒ　ｖｉｃｔｉｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ’ｓ　ｂｅｅｎ　ｎｏ　ｏｔｈｅｒ　ｓｉｇｎ　ｏｆ"TCC_NEWLINE"　ｈｅｒ．Ｗｈｙ？　Ｂｅｃａｕｓｅ　ｓｈｅ　ｈａｓ　ａ　ｗー"TCC_NEWLINE"ｅａｋｎｅｓｓ．Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ａ　ｗａｙ　ｔー"TCC_NEWLINE"ｏ　ｄｅｆｅａｔ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｔ　ｌｅａｓｔ　ｎｉｎｅ　ｄａｙｓ　ａｒｅ　ｒｅｑｕｉｒー"TCC_NEWLINE"ｅｄ　ｆｏｒ　ｉｔ　ｔｏ　ｃｏｍｅ　ｄｕｅ，　ｆｏｒ　ｏｎー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｏｎｌｙ　ｏｎｅ　ｐｅｒｓｏｎ　ｃａｎ　ｂｅ　ｃｕー"TCC_NEWLINE"ｒｓｅｄ　ａｔ　ａ　ｔｉｍｅ，　Ｉ’ｄ　ｗａｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｎｏｔ　ｔｏ　ｍｅｎｔｉｏｎ　ｔｈａｔ　Ｈｅー"TCC_NEWLINE"ｌ　ｈｅｒｓｅｌｆ　ｈａｄ　ｔｏ　ｓｈｏｗ　ｈｅｒ　ｆａｃー"TCC_NEWLINE"ｅｂｏｔｈ　ｔｏ　ｌａｙ　ｔｈｅ　ｃｕｒｓｅ　ａｎｄ　ｔｏ"TCC_NEWLINE"　ｃｌａｉｍ　ｈｅｒ　ｖｉｃｔｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｂｅｅｎ　ｎｏ　ｏｔｈｅｒ　ｓｉｇｎ　ｏｆ"TCC_NEWLINE"　ｈｅｒ．　Ｗｈｙ？　Ｂｅｃａｕｓｅ　ｓｈｅ　ｈａｓ　ａ　"TCC_NEWLINE"ｗｅａｋｎｅｓｓ．　Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ａ　ｗａｙ"TCC_NEWLINE"　ｔｏ　ｄｅｆｅａｔ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｈａｖｅ　ｙｏｕｒ　ｏｗｎ　ｍｉｎｄ．．．　Ａｎｄ"TCC_NEWLINE"　ｙｏｕｄｏｎ’ｔ　ｆｅａｒ　ｍｙ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｙｏｕｒ　ｏｗｎ　ｍｉｎｄ．．．　Ａｎｄ"TCC_NEWLINE"　ｙｏｕ　ｄｏｎ’ｔ　ｆｅａｒ　ｍｙ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｏｈ，　Ｉ　ｆｅａｒ　ｈｅｒ．　Ｂｕｔ　ｃｏｗｅｒｉｎｇ　"TCC_NEWLINE"ｈｅｒｅｗｏｎ’ｔ　ａｃｃｏｍｐｌｉｓｈ　ａ　ｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｃｏｍｅ　ｔｏ　ｔｈｉｎｋ　ｏｆ　ｉｔ，　ｗｈｅｎ　Ｉ　ｗー"TCC_NEWLINE"ａｓ　ａｃｈｉｌｄ，　Ｉ　ｗａｓ　ｔｅｒｒｉｆｉｅｄ　ｏｆ"TCC_NEWLINE"　ｍｏｎｓｔｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　Ｉ　ｆｅａｒ　ｈｅｒ．　Ｂｕｔ　ｃｏｗｅｒｉｎｇ　"TCC_NEWLINE"ｈｅｒｅ　ｗｏｎ’ｔ　ａｃｃｏｍｐｌｉｓｈ　ａ　ｔｈｉｎｇ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｅ　ｔｏ　ｔｈｉｎｋ　ｏｆ　ｉｔ，　ｗｈｅｎ　Ｉ　ｗー"TCC_NEWLINE"ａｓ　ａ　ｃｈｉｌｄ，　Ｉ　ｗａｓ　ｔｅｒｒｉｆｉｅｄ　ｏー"TCC_NEWLINE"ｆ　ｍｏｎｓｔｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｍｏｎｓｔｅｒｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｒｕｎ　ａｌｌ　ｙｏｕ　ｗａｎｔ，　ｂｕｔ　ｔｈｅｙ’ｌｌ"TCC_NEWLINE"　ｆｉｎｄｙｏｕ．　Ｙｏｕ　ｃａｎ’ｔ　ｈｕｒｔ　ｔｈｅｍ"TCC_NEWLINE"，　ｅｉｔｈｅｒ．Ｈｏｒｒｉｆｙｉｎｇ，　ｗｏｕｌｄｎ’ｔ"TCC_NEWLINE"　ｙｏｕ　ｓａｙ？"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｈｅｌ　ｉｓ　ｎｏｔ　ａ　ｇｈｏｕｌ　ｆｒｏｍ　ａ"TCC_NEWLINE"　ｃｈｉｌｄ’ｓｉｍａｇｉｎａｔｉｏｎ．　Ｓｈｅ’ｓ　ｒｅー"TCC_NEWLINE"ａｌ，　ａｎｄ　Ｉ　ｈａｖｅ　ｔｏｆａｃｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｍｕｓｔ　ｄｅｆｅａｔ　ｈｅｒ．　Ａｎｄ　Ｉ　ｃａｎ　"TCC_NEWLINE"ｄｅｆｅａｔｈｅｒ！　Ｉ’ｍ　ｓｕｒｅ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｕｎ　ａｌｌ　ｙｏｕ　ｗａｎｔ，　ｂｕｔ　ｔｈｅｙ’ｌｌ"TCC_NEWLINE"　ｆｉｎｄ　ｙｏｕ．　Ｙｏｕ　ｃａｎ’ｔ　ｈｕｒｔ　ｔｈｅー"TCC_NEWLINE"ｍ，　ｅｉｔｈｅｒ．　Ｈｏｒｒｉｆｙｉｎｇ，　ｗｏｕｌｄｎ"TCC_NEWLINE"’ｔ　ｙｏｕ　ｓａｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｈｅｌ　ｉｓ　ｎｏｔ　ａ　ｇｈｏｕｌ　ｆｒｏｍ　ａ"TCC_NEWLINE"　ｃｈｉｌｄ’ｓ　ｉｍａｇｉｎａｔｉｏｎ．　Ｓｈｅ’ｓ　ｒー"TCC_NEWLINE"ｅａｌ，　ａｎｄ　Ｉ　ｈａｖｅ　ｔｏ　ｆａｃｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｄｅｆｅａｔ　ｈｅｒ．　Ａｎｄ　Ｉ　ｃａｎ　"TCC_NEWLINE"ｄｅｆｅａｔ　ｈｅｒ！　Ｉ’ｍ　ｓｕｒｅ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｄｅｆｅａｔ　ｍｙ　ｍｏｔｈｅｒ？　Ｄｅｆｅａｔ　Ｄｅａｔー"TCC_NEWLINE"ｈ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｎｄｅｅｄ．　Ｔｈｅｒｅ’ｓ　ａｌｗａｙｓ　ａ　ｔｈｒｅー"TCC_NEWLINE"ａｄ．．．Ｐｕｌｌ　ｏｎ　ｉｔ，　ａｎｄ　ｔｈｉｎｇｓ　ｓー"TCC_NEWLINE"ｔａｒｔｕｎｒａｖｅｌｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｄｅｅｄ．　Ｔｈｅｒｅ’ｓ　ａｌｗａｙｓ　ａ　ｔｈｒｅー"TCC_NEWLINE"ａｄ．．．　Ｐｕｌｌ　ｏｎ　ｉｔ，　ａｎｄ　ｔｈｉｎｇｓ　"TCC_NEWLINE"ｓｔａｒｔ　ｕｎｒａｖｅｌｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｅ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｆｉｎｄ　ｔｈｅ　ｔｈｒｅー"TCC_NEWLINE"ａｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

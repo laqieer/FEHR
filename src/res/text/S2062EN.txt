@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2062_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｃｈｒｏｍ，　ｏｆ　Ｙｌｉｓｓｅ．　Ｔｈａｎｋｓ"TCC_NEWLINE"　ｔｏ　ｔｈｉｓｃｏｎｔｒａｃｔ，　ａｎｄ　ａｌｓｏ　ｆｏー"TCC_NEWLINE"ｒ　ｔｈｅ　ｓａｋｅ　ｏｆ　ｍｙｆｒｉｅｎｄｓ，　Ｉ　ｃａー"TCC_NEWLINE"ｎｎｏｔ　ｌｅｔ　ｙｏｕ　ｐａｓｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｃｈｒｏｍ，　ｏｆ　Ｙｌｉｓｓｅ．　Ｔｈａｎｋｓ"TCC_NEWLINE"　ｔｏ　ｔｈｉｓ　ｃｏｎｔｒａｃｔ，　ａｎｄ　ａｌｓｏ　ｆー"TCC_NEWLINE"ｏｒ　ｔｈｅ　ｓａｋｅ　ｏｆ　ｍｙ　ｆｒｉｅｎｄｓ，　Ｉ　"TCC_NEWLINE"ｃａｎｎｏｔ　ｌｅｔ　ｙｏｕ　ｐａｓｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

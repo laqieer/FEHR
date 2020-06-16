@@ -4,25 +4,25 @@
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗａｉｔ！　Ｗｅ　ｈａｖｅ　ｎｏ　ｗｉｓｈ　ｔｏ　ｆｉｇｈー"TCC_NEWLINE"ｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ｆａｃｔ，　Ｉ　ｗａｎｔ　ｔｏ　ｔｈａｎｋ　ｙｏｕ　"TCC_NEWLINE"ｆｏｒ　ｔｅｌｌｉｎｇｕｓ　ａｂｏｕｔ　Ｐｒｉｎｃｅｓｓ　"TCC_NEWLINE"Ｖｅｒｏｎｉｃａ’ｓ　ｐｌａｎｔｏ　ｄｅｓｔｒｏｙ　ｔｈｅ"TCC_NEWLINE"　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｆａｃｔ，　Ｉ　ｗａｎｔ　ｔｏ　ｔｈａｎｋ　ｙｏｕ　"TCC_NEWLINE"ｆｏｒ　ｔｅｌｌｉｎｇ　ｕｓ　ａｂｏｕｔ　Ｐｒｉｎｃｅｓｓ"TCC_NEWLINE"　Ｖｅｒｏｎｉｃａ’ｓ　ｐｌａｎ　ｔｏ　ｄｅｓｔｒｏｙ　ｔー"TCC_NEWLINE"ｈｅ　ｒｕｉｎｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｗａｎｔ　ｔｏ　ｔｈａｎｋ　ｍｅ？　Ｈａｈ．　Ｙｏー"TCC_NEWLINE"ｕｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ａ　ｔｈｉｎｇ，　ｄｏ"TCC_NEWLINE"　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗａｎｔ　ｔｏ　ｔｈａｎｋ　ｍｅ？　Ｈａｈ．　Ｙｏー"TCC_NEWLINE"ｕ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ａ　ｔｈｉｎｇ，　ｄー"TCC_NEWLINE"ｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ’ｍ　ｊｕｓｔ　ｔｒｙｉｎｇ　ｔｏ　ｋｅｅｐ　ｔｈｉｎｇー"TCC_NEWLINE"ｓｉｎｔｅｒｅｓｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｍｙ　ｓｉｓｔｅｒ　ｃｏｎｑｕｅｒｅｄ　Ａｓｋｒ，　"TCC_NEWLINE"ｓｈｅ’ｄｓｔｅａｌ　ａｌｌ　ｔｈｅ　ｇｌｏｒｙ．　Ｗｈｏ"TCC_NEWLINE"　ｗａｎｔｓ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｊｕｓｔ　ｔｒｙｉｎｇ　ｔｏ　ｋｅｅｐ　ｔｈｉｎｇー"TCC_NEWLINE"ｓ　ｉｎｔｅｒｅｓｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｍｙ　ｓｉｓｔｅｒ　ｃｏｎｑｕｅｒｅｄ　Ａｓｋｒ，　"TCC_NEWLINE"ｓｈｅ’ｄ　ｓｔｅａｌ　ａｌｌ　ｔｈｅ　ｇｌｏｒｙ．　Ｗｈー"TCC_NEWLINE"ｏ　ｗａｎｔｓ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｏｕｒ．．．ｓｉｓｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｖｅｒｏｎｉｃａ　ｉｓ　ｍｙ　"TCC_NEWLINE"ｌｉｔｔｌｅｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｎａｍｅ　ｉｓ　Ｂｒｕｎｏ．　Ｓｐｅａｋｉｎｇｆｏｒー"TCC_NEWLINE"ｍａｌｌｙ，　ｙｏｕ’ｄ　ｃａｌｌ　ｍｅ　Ｐｒｉｎｃｅ　Ｂー"TCC_NEWLINE"ｒｕｎｏｏｆ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｖｅｒｏｎｉｃａ　ｉｓ　ｍｙ　"TCC_NEWLINE"ｌｉｔｔｌｅ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｂｒｕｎｏ．　Ｓｐｅａｋｉｎｇ　ｆｏー"TCC_NEWLINE"ｒｍａｌｌｙ，　ｙｏｕ’ｄ　ｃａｌｌ　ｍｅ　Ｐｒｉｎｃｅ　"TCC_NEWLINE"Ｂｒｕｎｏ　ｏｆ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｐｒｉｎｃｅ．．．Ｂｒｕｎｏ？　Ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｙｏｕｒ　ｒｉｖａｌ．　Ｔｈａー"TCC_NEWLINE"ｔ　ｇｉｖｅｓ　ｕｓｒｅａｓｏｎ　ｔｏ　ｆｉｇｈｔ　ｔｏ　"TCC_NEWLINE"ｔｈｅ　ｄｅａｔｈ．　Ａｎｄ　ｓｏｗｅ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｙｏｕｒ　ｒｉｖａｌ．　Ｔｈａー"TCC_NEWLINE"ｔ　ｇｉｖｅｓ　ｕｓ　ｒｅａｓｏｎ　ｔｏ　ｆｉｇｈｔ　ｔｏ"TCC_NEWLINE"　ｔｈｅ　ｄｅａｔｈ．　Ａｎｄ　ｓｏ　ｗｅ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S1103_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
-"Ｇｏ　ｏｎ．　Ｋｅｅｐ　ｆｉｇｈｔｉｎｇ．　Ｎｏ　ｍａｔｔー"TCC_NEWLINE"ｅｒ　ｈｏｗｈａｒｄ　ｙｏｕ　ｔｒｙ，　ｙｏｕｒ　ｒｅｓｉー"TCC_NEWLINE"ｓｔａｎｃｅ　ｉｓｍｅａｎｉｎｇｌｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｓ　ｌｏｎｇ　ａｓ　ｏｕｒ　Ｈｅｒｏｅｓ　ｈｏｌｄ　ｔｈー"TCC_NEWLINE"ａｔｗａｒｄ，　ｙｏｕ　ｓｔａｎｄ　ｎｏ　ｃｈａｎｃｅ　ｏー"TCC_NEWLINE"ｆｗｉｎｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏ　ｏｎ．　Ｋｅｅｐ　ｆｉｇｈｔｉｎｇ．　Ｎｏ　ｍａｔｔー"TCC_NEWLINE"ｅｒ　ｈｏｗ　ｈａｒｄ　ｙｏｕ　ｔｒｙ，　ｙｏｕｒ　ｒｅｓー"TCC_NEWLINE"ｉｓｔａｎｃｅ　ｉｓ　ｍｅａｎｉｎｇｌｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｏｕｒ　Ｈｅｒｏｅｓ　ｈｏｌｄ　ｔｈー"TCC_NEWLINE"ａｔ　ｗａｒｄ，　ｙｏｕ　ｓｔａｎｄ　ｎｏ　ｃｈａｎｃｅ　"TCC_NEWLINE"ｏｆ　ｗｉｎｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

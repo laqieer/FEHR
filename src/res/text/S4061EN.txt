@@ -1,45 +1,45 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S4061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈａｎｋ　ｙｏｕ，　Ｐｅｏｎｙ．　Ｗｉｔｈ　ｙｏｕｒ　ｈー"TCC_NEWLINE"ｅｌｐ，ｉｔ　ｓｅｅｍｓ　ｅｖｅｒｙｏｎｅ　ｈａｓ　ｒｅｃー"TCC_NEWLINE"ｏｖｅｒｅｄｔｈｅｉｒ　ｍｅｍｏｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ，　Ｐｅｏｎｙ．　Ｗｉｔｈ　ｙｏｕｒ　ｈー"TCC_NEWLINE"ｅｌｐ，　ｉｔ　ｓｅｅｍｓ　ｅｖｅｒｙｏｎｅ　ｈａｓ　ｒｅー"TCC_NEWLINE"ｃｏｖｅｒｅｄ　ｔｈｅｉｒ　ｍｅｍｏｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｏｕｒ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｙｏｕ，　ａｎｄ　ｏｆ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｏｆ　ｃｏｕｒｓｅ！　Ｉ　ｗａｓ　ｈａｐｐｙ　ｔｏ　ｈｅｌー"TCC_NEWLINE"ｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｏｗ，　ｗｈａｔ　ｗａｓ　ｉｔ　ｙｏｕ　ｓａｉｄ　ａｂｏー"TCC_NEWLINE"ｕｔＤｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｗｈａｔ　ｗａｓ　ｉｔ　ｙｏｕ　ｓａｉｄ　ａｂｏー"TCC_NEWLINE"ｕｔ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｒｉｇｈｔ．．．　Ｈｅ　ｗａｓ　ｔａｋｅｎ！　Ｔｈｅｙ　ｔー"TCC_NEWLINE"ｏｏｋ　ｈｉｍｔｏ　Ｄｋｋｌｆｈｅｉｍｒ，　ｔｈｅ　ｎｉｇー"TCC_NEWLINE"ｈｔｍａｒｅ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｔｈａｔ’ｓ　ｗｈｅｒｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆー"TCC_NEWLINE"ｒｅｙｒ’ｓｓｉｓｔｅｒ，　Ｌａｄｙ　Ｆｒｅｙｊａ，　ｉｓ"TCC_NEWLINE"．．．　Ａｎｄ　ｉｆ　ＳＨＥ’Ｓｉｎｖｏｌｖｅｄ，　ｔｈｅー"TCC_NEWLINE"ｒｅ’ｓ　ｓｕｒｅ　ｔｏ　ｂｅ　ｔｒｏｕｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ．．．　Ｈｅ　ｗａｓ　ｔａｋｅｎ！　Ｔｈｅｙ　ｔー"TCC_NEWLINE"ｏｏｋ　ｈｉｍ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ，　ｔｈｅ　ｎｉー"TCC_NEWLINE"ｇｈｔｍａｒｅ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈａｔ’ｓ　ｗｈｅｒｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆー"TCC_NEWLINE"ｒｅｙｒ’ｓ　ｓｉｓｔｅｒ，　Ｌａｄｙ　Ｆｒｅｙｊａ，　ｉー"TCC_NEWLINE"ｓ．．．　Ａｎｄ　ｉｆ　ＳＨＥ’Ｓ　ｉｎｖｏｌｖｅｄ，　ｔー"TCC_NEWLINE"ｈｅｒｅ’ｓ　ｓｕｒｅ　ｔｏ　ｂｅ　ｔｒｏｕｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　Ｗａｋｉｎｇ　Ｄｒｅａｍ．．．　Ｉｔ’ｓ　ｈａｐｐー"TCC_NEWLINE"ｅｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ’ｓ　ｔｈａｔ，　ｔｈｅ　Ｗａｋｉｎｇ　Ｄｒｅａｍ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅ　ｄｒｅａｍ　ｒｅａｌｍ　ｉｎｆｌｕｅｎｃｉｎｇ　ｏー"TCC_NEWLINE"ｔｈｅｒｗｏｒｌｄｓ．　Ｗｅ　ｈａｄ　ａｌｒｅａｄｙ　ｓｅー"TCC_NEWLINE"ｅｎ　ｄｒｅａｍｓｃｒｏｓｓｉｎｇ　ｏｖｅｒ　ｉｎｔｏ　ｔー"TCC_NEWLINE"ｈｉｓ　ｗｏｒｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｎｏｗ　ｔｈｅ　ｄｋｋｌｆｒ　ｎｉｇｈｔｍａｒｅｓー"TCC_NEWLINE"ｈａｖｅ　ｃｏｍｅ　ｆｌｏｏｄｉｎｇ　ｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｄｒｅａｍ　ｒｅａｌｍ　ｉｎｆｌｕｅｎｃｉｎｇ　ｏー"TCC_NEWLINE"ｔｈｅｒ　ｗｏｒｌｄｓ．　Ｗｅ　ｈａｄ　ａｌｒｅａｄｙ　ｓー"TCC_NEWLINE"ｅｅｎ　ｄｒｅａｍｓ　ｃｒｏｓｓｉｎｇ　ｏｖｅｒ　ｉｎｔｏ"TCC_NEWLINE"　ｔｈｉｓ　ｗｏｒｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ　ｔｈｅ　ｄｋｋｌｆｒ　ｎｉｇｈｔｍａｒｅｓ"TCC_NEWLINE"　ｈａｖｅ　ｃｏｍｅ　ｆｌｏｏｄｉｎｇ　ｉｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｏ，　ｔｈａｔ’ｓ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ，　ｔｈｅー"TCC_NEWLINE"ｎ．Ｉｎ　ｔｈａｔ　ｃａｓｅ，　ｔｈｅｎ　Ａｓｋｒ　ｉｓ　"TCC_NEWLINE"ｓｔｉｌｌｕｎｄｅｒ　ｔｈｒｅａｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗ　ｃａｎ　ｗｅ　ｒｅｔｕｒｎ　ｅｖｅｒｙｔｈｉｎｇｔー"TCC_NEWLINE"ｏ　ｎｏｒｍａｌ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｔｈａｔ’ｓ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ，　ｔｈｅー"TCC_NEWLINE"ｎ．　Ｉｎ　ｔｈａｔ　ｃａｓｅ，　ｔｈｅｎ　Ａｓｋｒ　ｉｓ"TCC_NEWLINE"　ｓｔｉｌｌ　ｕｎｄｅｒ　ｔｈｒｅａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃａｎ　ｗｅ　ｒｅｔｕｒｎ　ｅｖｅｒｙｔｈｉｎｇ　"TCC_NEWLINE"ｔｏ　ｎｏｒｍａｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｅ　ｍｕｓｔ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ　ａｎｄｓー"TCC_NEWLINE"ａｖｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ．　Ｉｔ’ｓ　ｏｕー"TCC_NEWLINE"ｒｏｎｅ　ａｎｄ　ｏｎｌｙ　ｈｏｐｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｇｏ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ　ａｎｄ　"TCC_NEWLINE"ｓａｖｅ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ．　Ｉｔ’ｓ　ｏー"TCC_NEWLINE"ｕｒ　ｏｎｅ　ａｎｄ　ｏｎｌｙ　ｈｏｐｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｌｌ　ｒｉｇｈｔ！　Ｔｈｅｎ　ｌｅｔ’ｓ　Ａｃｔｕａｌｌー"TCC_NEWLINE"ｙ，　ｈｏｗｄｏ　ｗｅ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ！　Ｔｈｅｎ　ｌｅｔ’ｓ　Ａｃｔｕａｌｌー"TCC_NEWLINE"ｙ，　ｈｏｗ　ｄｏ　ｗｅ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍー"TCC_NEWLINE"ｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｍｍｍ．．．　ＨＭＭＭ．．．　Ｏｈ！Ｉ　ｈａｖｅ　ａｎ　"TCC_NEWLINE"ｉｄｅａ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｃａｎ　ｕｓｅ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｔｈｅｌｊー"TCC_NEWLINE"ｓｌｆａｒ　ｈｅｒｅ　ｉｎ　ｔｈｉｓ　ｗｏｒｌｄ　ｔｏｈｅー"TCC_NEWLINE"ｌｐ　ｕｓ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍｍ．．．　ＨＭＭＭ．．．　Ｏｈ！　Ｉ　ｈａｖｅ　ａｎ"TCC_NEWLINE"　ｉｄｅａ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｕｓｅ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｔｈｅ　ｌー"TCC_NEWLINE"ｊｓｌｆａｒ　ｈｅｒｅ　ｉｎ　ｔｈｉｓ　ｗｏｒｌｄ　ｔｏ　"TCC_NEWLINE"ｈｅｌｐ　ｕｓ　ｇｅｔ　ｔｏ　Ｄｋｋｌｆｈｅｉｍｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｅｒｅ　ａｒｅ．．．ｌｊｓｌｆａｒ　ｉｎ　Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ！　Ｅｖｅｎ　ａｗａｋｅ，　ｔｈｅｒｅ　ａｒｅ　ｓｏー"TCC_NEWLINE"ｍｅｗｈｏ　ｓｔｉｌｌ　ｄｒｅａｍ．．．　Ｙｏｕ’ｖｅ　ｈー"TCC_NEWLINE"ｅａｒｄ　ｏｆｔｈａｔ，　ｈａｖｅｎ’ｔ　ｙｏｕ？　．．．"TCC_NEWLINE"Ｄａｙｄｒｅａｍｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ’ｌｌ　ｇｏ　ｆｉｎｄ　Ｍｉｒａｂｉｌｉｓ．　Ｓｈｅ’"TCC_NEWLINE"ｓ　ａ　ｆｒｉｅｎｄｏｆ　ｍｉｎｅａｎｄ　ａ　ＴＲＵＥ　ｄー"TCC_NEWLINE"ａｙｄｒｅａｍｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ！　Ｅｖｅｎ　ａｗａｋｅ，　ｔｈｅｒｅ　ａｒｅ　ｓｏー"TCC_NEWLINE"ｍｅ　ｗｈｏ　ｓｔｉｌｌ　ｄｒｅａｍ．．．　Ｙｏｕ’ｖｅ　"TCC_NEWLINE"ｈｅａｒｄ　ｏｆ　ｔｈａｔ，　ｈａｖｅｎ’ｔ　ｙｏｕ？　．"TCC_NEWLINE"．．Ｄａｙｄｒｅａｍｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｇｏ　ｆｉｎｄ　Ｍｉｒａｂｉｌｉｓ．　Ｓｈｅ’"TCC_NEWLINE"ｓ　ａ　ｆｒｉｅｎｄ　ｏｆ　ｍｉｎｅａｎｄ　ａ　ＴＲＵＥ　"TCC_NEWLINE"ｄａｙｄｒｅａｍｅｒ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4061_EN] = TCC_OPEN_LEFT
 "Ａｓｋｒ．．．ｗｉｌｌ　ｂｅ　ｅｎｄｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｉｎｉｓｈｅｄ．．．ｆｉｎｉｓｈｅｄ．．．ＦＩＮＩＳＨＥー"TCC_NEWLINE"Ｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎｉｓｈｅｄ．．．ｆｉｎｉｓｈｅｄ．．．　ＦＩＮＩＳＨー"TCC_NEWLINE"ＥＤ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉ’ｖｅ．．．ｓｅｅｎ　ｔｈｉｓ　ｂｅｆｏｒｅ．．．　Ｉｎ"TCC_NEWLINE"　ａ　ｄｒｅａｍ．Ｔｈｉｓ　ｉｓ．．．ｔｈｅ　Ｐｒｉｎｃｅー"TCC_NEWLINE"ｓｓ　Ｖｅｒｏｎｉｃａ　ｆｒｏｍｍｙ　ｎｉｇｈｔｍａｒｅｓ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ．．．ｓｅｅｎ　ｔｈｉｓ　ｂｅｆｏｒｅ．．．　Ｉｎ"TCC_NEWLINE"　ａ　ｄｒｅａｍ．　Ｔｈｉｓ　ｉｓ．．．ｔｈｅ　Ｐｒｉｎｃー"TCC_NEWLINE"ｅｓｓ　Ｖｅｒｏｎｉｃａ　ｆｒｏｍ　ｍｙ　ｎｉｇｈｔｍａｒー"TCC_NEWLINE"ｅｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｏｎ　ｙｏｕｒ　ｇｕａｒｄ，　ｅｖｅｒｙｏｎｅ！　Ｔｈｅｅー"TCC_NEWLINE"ｎｅｍｙ　ｉｓ　ｕｐｏｎ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎ　ｙｏｕｒ　ｇｕａｒｄ，　ｅｖｅｒｙｏｎｅ！　Ｔｈｅ　"TCC_NEWLINE"ｅｎｅｍｙ　ｉｓ　ｕｐｏｎ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｉｓ　ｆａｄｉｎｇ　ａｗａｙ！"TCC_NEWLINE TCC_PUSH_A
@@ -49,39 +49,39 @@ TCC_OPEN_LEFT
 "Ｗｈ－ｗｈａｔ？！　Ｔｈｅ　ｎｉｇｈｔｍａｒｅ’ｓ　ｂａｃー"TCC_NEWLINE"ｋ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｎｉｇｈｔｍａｒｅ？　Ｈｏｗ　ｒｕｄｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ　ｍａｙ　ｂｅ　ｅｎｅｍｉｅｓ，　ｂｕｔ．．．Ｎｉｇｈー"TCC_NEWLINE"ｔｍａｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍａｙ　ｂｅ　ｅｎｅｍｉｅｓ，　ｂｕｔ．．．　Ｎｉｇー"TCC_NEWLINE"ｈｔｍａｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"．．．Ｄｏｎ’ｔ　ｔｅｌｌ　ｍｅ．　Ｙｏｕ’ｒｅ　ｔｈｅ　"TCC_NEWLINE"ＲＥＡＬＰｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｄｏｎ’ｔ　ｔｅｌｌ　ｍｅ．　Ｙｏｕ’ｒｅ　ｔｈｅ　"TCC_NEWLINE"ＲＥＡＬ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｄｏ　Ｉ　ａｐｐｅａｒ　ｎー"TCC_NEWLINE"ｏｔｒｅａｌ　ｉｎ　ｓｏｍｅ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
-"．．．Ｏｒ　ｉｓ　ｉｔ　ｔｈａｔ　ｙｏｕ　ｋｎｏｗ　ｓｏｍー"TCC_NEWLINE"ｅｔｈｉｎｇＩ　ｄｏ　ｎｏｔ？　．．．Ｗｈａｔ　ｉｓ　ｉｔ"TCC_NEWLINE"？　Ｔｅｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｄｏ　Ｉ　ａｐｐｅａｒ　ｎー"TCC_NEWLINE"ｏｔ　ｒｅａｌ　ｉｎ　ｓｏｍｅ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｏｒ　ｉｓ　ｉｔ　ｔｈａｔ　ｙｏｕ　ｋｎｏｗ　ｓｏｍー"TCC_NEWLINE"ｅｔｈｉｎｇ　Ｉ　ｄｏ　ｎｏｔ？　．．．Ｗｈａｔ　ｉｓ　ｉー"TCC_NEWLINE"ｔ？　Ｔｅｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｌｌ　ｒｉｇｈｔ，　ｆｉｎｅ．　Ｐｅｏｎｙ，　ｉｆ　ｙｏー"TCC_NEWLINE"ｕ　ｗｏｕｌｄ，ｐｌｅａｓｅ　ｇｉｖｅ　ｈｅｒ　ｔｈｅ　ｄー"TCC_NEWLINE"ｅｔａｉｌｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ，　ｆｉｎｅ．　Ｐｅｏｎｙ，　ｉｆ　ｙｏー"TCC_NEWLINE"ｕ　ｗｏｕｌｄ，　ｐｌｅａｓｅ　ｇｉｖｅ　ｈｅｒ　ｔｈｅ　"TCC_NEWLINE"ｄｅｔａｉｌｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
-"Ａｈ！　Ｉ　ｇｕｅｓｓ　ｉｔ’ｓ　ｍｙ　ｔｉｍｅ　ｔｏ　ｓー"TCC_NEWLINE"ｈｉｎｅ．Ｉ　ｌｏｖｅ　ｓｈｉｎｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
-"Ｅｒ．．．　Ｈｉ！　Ｉ’ｍ　Ｐｅｏｎｙ．　Ｉ’ｍ　ａ　ｌｊー"TCC_NEWLINE"ｓｌｆｒｆｒｏｍ　Ｌｊｓｌｆｈｅｉｍｒ！　Ｎｉｃｅ　ｔｏ　"TCC_NEWLINE"ｍｅｅｔｙｏｕ．．．Ｖｅｒｏｎｉｃａ，　ｗａｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ！　Ｉ　ｇｕｅｓｓ　ｉｔ’ｓ　ｍｙ　ｔｉｍｅ　ｔｏ　ｓー"TCC_NEWLINE"ｈｉｎｅ．　Ｉ　ｌｏｖｅ　ｓｈｉｎｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｒ．．．　Ｈｉ！　Ｉ’ｍ　Ｐｅｏｎｙ．　Ｉ’ｍ　ａ　ｌｊー"TCC_NEWLINE"ｓｌｆｒ　ｆｒｏｍ　Ｌｊｓｌｆｈｅｉｍｒ！　Ｎｉｃｅ　ｔｏ"TCC_NEWLINE"　ｍｅｅｔ　ｙｏｕ．．．Ｖｅｒｏｎｉｃａ，　ｗａｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａ．．．ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｃａｎｎｏｔ　ｕｎｄｅｒｓｔａｎｄ　ａ　ｗｏｒｄ　ｓｈー"TCC_NEWLINE"ｅ　ｓａｙｓ．Ｓｕｃｈ　ｓｔｒａｎｇｅ　ｓｏｕｎｄｓ．．．"TCC_NEWLINE"ａｎｄ　ｂｅｈａｖｉｏｒ．．．．Ｈｅｒ　ｏｕｔｆｉｔ　ｉｓ"TCC_NEWLINE"　ｏｄｄ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎｎｏｔ　ｕｎｄｅｒｓｔａｎｄ　ａ　ｗｏｒｄ　ｓｈー"TCC_NEWLINE"ｅ　ｓａｙｓ．　Ｓｕｃｈ　ｓｔｒａｎｇｅ　ｓｏｕｎｄｓ．．"TCC_NEWLINE"．ａｎｄ　ｂｅｈａｖｉｏｒ．　．．．Ｈｅｒ　ｏｕｔｆｉｔ　"TCC_NEWLINE"ｉｓ　ｏｄｄ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｈ－ｗｈａｔ　ａ　ｍｅａｎ　ｌｉｔｔｌｅ　ｇｉｒｌ！　Ｙー"TCC_NEWLINE"ｏｕ　ａｒｅｓｏ　ｙｏｕｎｇ，　ｙｅｔ．．．ｈａｖｅ　ｙｏー"TCC_NEWLINE"ｕ　ｌｏｓｔ　ｙｏｕｒｈｅａｒｔ　ｆｏｒ　ｄｒｅａｍｉｎｇ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈ－ｗｈａｔ　ａ　ｍｅａｎ　ｌｉｔｔｌｅ　ｇｉｒｌ！　Ｙー"TCC_NEWLINE"ｏｕ　ａｒｅ　ｓｏ　ｙｏｕｎｇ，　ｙｅｔ．．．ｈａｖｅ　ｙー"TCC_NEWLINE"ｏｕ　ｌｏｓｔ　ｙｏｕｒ　ｈｅａｒｔ　ｆｏｒ　ｄｒｅａｍｉー"TCC_NEWLINE"ｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｍｙ　ｈｅａｒｔ　ｆｏｒ　ｄｒｅａｍｉｎｇ．．．　Ｌｅｔ’"TCC_NEWLINE"ｓ　ｃｏｍｅｂａｃｋ　ｔｏ　ｔｈａｔ．　Ｆｏｒ　ｎｏｗ，　"TCC_NEWLINE"ｊｕｓｔ　ｆｉｌｌ　ｍｅ　ｉｎｏｎ　ｔｈｅ　ｃｕｒｒｅｎｔ"TCC_NEWLINE"　ｓｉｔｕａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｅａｒｔ　ｆｏｒ　ｄｒｅａｍｉｎｇ．．．　Ｌｅｔ’"TCC_NEWLINE"ｓ　ｃｏｍｅ　ｂａｃｋ　ｔｏ　ｔｈａｔ．　Ｆｏｒ　ｎｏｗ，"TCC_NEWLINE"　ｊｕｓｔ　ｆｉｌｌ　ｍｅ　ｉｎ　ｏｎ　ｔｈｅ　ｃｕｒｒｅー"TCC_NEWLINE"ｎｔ　ｓｉｔｕａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4061_EN] = TCC_OPEN_LEFT
 "Ｈｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ，　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ａｂｌｅ　ｔｏ　ｆｉｎｄ"TCC_NEWLINE"　ａｌｊｓｌｆｒ　ｎａｍｅｄ　Ｍｉｒａｂｉｌｉｓ　ｈｅｒｅ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ａｂｌｅ　ｔｏ　ｆｉｎｄ"TCC_NEWLINE"　ａ　ｌｊｓｌｆｒ　ｎａｍｅｄ　Ｍｉｒａｂｉｌｉｓ　ｈｅｒー"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
-"Ｒｉｇｈｔ！　Ｗｅｌｌ．．．ｏｖｅｒ　ｔｈｅｒｅ．　Ｉｎ　"TCC_NEWLINE"ｔｈａｔｈｕｕｕｇｅ　ｆｏｒｅｓｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ！　Ｗｅｌｌ．．．ｏｖｅｒ　ｔｈｅｒｅ．　Ｉｎ　"TCC_NEWLINE"ｔｈａｔ　ｈｕｕｕｇｅ　ｆｏｒｅｓｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｈｍ．．．　Ｉｆ　ｔｈｅ　ｆｏｒｅｓｔ’ｓ　ｅｄｇｅ　ｉｓ"TCC_NEWLINE"　ａｎｙｉｎｄｉｃａｔｉｏｎ，　ｔｈｅ　ｗｈｏｌｅ　ａｒｅー"TCC_NEWLINE"ａ　ｉｓｃｏｖｅｒｅｄ　ｉｎ　ｔｈｉｃｋ　ｍｉｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍ．．．　Ｉｆ　ｔｈｅ　ｆｏｒｅｓｔ’ｓ　ｅｄｇｅ　ｉｓ"TCC_NEWLINE"　ａｎｙ　ｉｎｄｉｃａｔｉｏｎ，　ｔｈｅ　ｗｈｏｌｅ　ａｒー"TCC_NEWLINE"ｅａ　ｉｓ　ｃｏｖｅｒｅｄ　ｉｎ　ｔｈｉｃｋ　ｍｉｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｒｉｇｈｔ，　ｔｈｅｎ．　Ｉ　ｗｉｌｌ　ｊｏｉｎ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｂｒｏｔｈｅｒ　ｗｉｌｌ　ｌｉｋｅｌｙ　ｂｅｔｈｅｒー"TCC_NEWLINE"ｅ　ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｒｏｔｈｅｒ　ｗｉｌｌ　ｌｉｋｅｌｙ　ｂｅ　ｔｈｅー"TCC_NEWLINE"ｒｅ　ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｚａｃｈａｒｉａｓ　ｗｉｌｌ　ｂｅ　ｔｈｅｒｅ？　Ｈｏｗ　"TCC_NEWLINE"ｄｏｙｏｕ　ｋｎｏｗ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｚａｃｈａｒｉａｓ　ｗｉｌｌ　ｂｅ　ｔｈｅｒｅ？　Ｈｏｗ　"TCC_NEWLINE"ｄｏ　ｙｏｕ　ｋｎｏｗ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅ　ｗｅｎｔ　ｗｉｔｈ　Ｘａｎｄｅｒ　ｏｎ　ａ　ｌｏｎｇー"TCC_NEWLINE"ｊｏｕｒｎｅｙ．　Ｉ　ｈａｖｅｎ’ｔ　ｓｅｅｎ　ｅｉｔｈｅー"TCC_NEWLINE"ｒ　ｏｆｔｈｅｍ　ｆｏｒ　ｑｕｉｔｅ　ｓｏｍｅ　ｔｉｍｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｉ　ｈｅａｒｄ　ｓｏｍｅｏｎｅ　ｗｈｏ　ｌｏｏｋｓ"TCC_NEWLINE"　ｌｉｋｅｍｙ　ｂｒｏｔｈｅｒ　ｗａｓ　ｓｅｅｎ　ｈｅｒｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｍｕｓｔ　ｈａｖｅ　ｆｉｎａｌｌｙ　ｃｏｍｅ　ｈｏｍー"TCC_NEWLINE"ｅ．Ｉ　ａｍ　ｇｏｉｎｇ　ｔｏ　ｗｅｌｃｏｍｅ　ｈｉｍ　ｂー"TCC_NEWLINE"ａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗｅｎｔ　ｗｉｔｈ　Ｘａｎｄｅｒ　ｏｎ　ａ　ｌｏｎｇ"TCC_NEWLINE"　ｊｏｕｒｎｅｙ．　Ｉ　ｈａｖｅｎ’ｔ　ｓｅｅｎ　ｅｉｔｈー"TCC_NEWLINE"ｅｒ　ｏｆ　ｔｈｅｍ　ｆｏｒ　ｑｕｉｔｅ　ｓｏｍｅ　ｔｉｍー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｈｅａｒｄ　ｓｏｍｅｏｎｅ　ｗｈｏ　ｌｏｏｋｓ"TCC_NEWLINE"　ｌｉｋｅ　ｍｙ　ｂｒｏｔｈｅｒ　ｗａｓ　ｓｅｅｎ　ｈｅｒー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｍｕｓｔ　ｈａｖｅ　ｆｉｎａｌｌｙ　ｃｏｍｅ　ｈｏｍー"TCC_NEWLINE"ｅ．　Ｉ　ａｍ　ｇｏｉｎｇ　ｔｏ　ｗｅｌｃｏｍｅ　ｈｉｍ　"TCC_NEWLINE"ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

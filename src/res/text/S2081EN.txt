@@ -1,36 +1,36 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｔｅｍｐｌｅ　ｏｆ　ｔｈｅ　Ｒｉｔー"TCC_NEWLINE"ｅ　ｏｆ　Ｆｒｏｓｔ，ａ　ｒｉｔｕａｌ　ｓｐｏｋｅｎ　ｏｆ"TCC_NEWLINE"　ｉｎ　ｔｈｅ　ｌｅｇｅｎｄｓ　ｏｆｍｙ　ｐｅｏｐｌｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　ｉｔ　ｂｅｆｏｒｅ．　Ｉｎ"TCC_NEWLINE"　ｆａｃｔ，ｗｉｔｈｏｕｔ　ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａｐー"TCC_NEWLINE"ｏｎ　ｔｈａｔ"TCC_NEWLINE
+"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｔｅｍｐｌｅ　ｏｆ　ｔｈｅ　Ｒｉｔー"TCC_NEWLINE"ｅ　ｏｆ　Ｆｒｏｓｔ，　ａ　ｒｉｔｕａｌ　ｓｐｏｋｅｎ　ｏー"TCC_NEWLINE"ｆ　ｉｎ　ｔｈｅ　ｌｅｇｅｎｄｓ　ｏｆ　ｍｙ　ｐｅｏｐｌｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　ｉｔ　ｂｅｆｏｒｅ．　Ｉｎ"TCC_NEWLINE"　ｆａｃｔ，　ｗｉｔｈｏｕｔ　ｔｈｅ　ｄｉｖｉｎｅ　ｗｅａー"TCC_NEWLINE"ｐｏｎ　ｔｈａｔ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"ｃａｒｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｗｅ’ｄ　ｅｖｅｒ　ｈａｖｅ　"TCC_NEWLINE"ｆｏｕｎｄ　ｉｔ　ａｔａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｗｅ’ｄ　ｅｖｅｒ　ｈａｖｅ　"TCC_NEWLINE"ｆｏｕｎｄ　ｉｔ　ａｔ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｓｔａｙ　ｓｈａｒｐ．　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ　Ｈｅｒー"TCC_NEWLINE"ｏｅｓ　ｇｕａｒｄｔｈｅ　ｔｅｍｐｌｅ．　Ｃｏｕｌｄ　ｉｔ"TCC_NEWLINE"　ｂｅ　ｔｈａｔ　Ａｓｋｒ’ｓｐｏｗｅｒ　ｃａｌｌｅｄ　ｔー"TCC_NEWLINE"ｈｅｍ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｍａｙ　ｂｅ　ｔｈａｔ　ｉｎ　ａｎ　ｅｒａ　ｎｏｗ　"TCC_NEWLINE"ｆｏｒｇｏｔｔｅｎ，Ｎｉｆｌ　ａｎｄ　Ａｓｋｒ　ｗｅｒｅ　"TCC_NEWLINE"ａｌｌｉｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔａｙ　ｓｈａｒｐ．　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ　Ｈｅｒー"TCC_NEWLINE"ｏｅｓ　ｇｕａｒｄ　ｔｈｅ　ｔｅｍｐｌｅ．　Ｃｏｕｌｄ　ｉー"TCC_NEWLINE"ｔ　ｂｅ　ｔｈａｔ　Ａｓｋｒ’ｓ　ｐｏｗｅｒ　ｃａｌｌｅｄ"TCC_NEWLINE"　ｔｈｅｍ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍａｙ　ｂｅ　ｔｈａｔ　ｉｎ　ａｎ　ｅｒａ　ｎｏｗ　"TCC_NEWLINE"ｆｏｒｇｏｔｔｅｎ，　Ｎｉｆｌ　ａｎｄ　Ａｓｋｒ　ｗｅｒｅ"TCC_NEWLINE"　ａｌｌｉｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｌｅｔ’ｓ　ｈｕｒｒｙ　ｔｏ　ｔｈｅ　ｉｎｎｅｒ　ｓａｎｃー"TCC_NEWLINE"ｔｕｍ．　Ｗｅｄｏｎ’ｔ　ｈａｖｅ　ｔｉｍｅ　ｔｏ　ｗａｓー"TCC_NEWLINE"ｔｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｈｕｒｒｙ　ｔｏ　ｔｈｅ　ｉｎｎｅｒ　ｓａｎｃー"TCC_NEWLINE"ｔｕｍ．　Ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ｔｉｍｅ　ｔｏ　ｗａー"TCC_NEWLINE"ｓｔｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｉｆ　ｗｅ　ｋｅｅｐ　ｈｅａｄｉｎｇ　ｔｈｉｓ　ｗａｙ，　"TCC_NEWLINE"ｗｅｓｈｏｕｌｄ　ｆｉｎｄ　ｔｈｅ　ｉｎｎｅｒ　ｓａｎｃｔー"TCC_NEWLINE"ｕｍ．　Ｆｏｌｌｏｗｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｋｅｅｐ　ｈｅａｄｉｎｇ　ｔｈｉｓ　ｗａｙ，　"TCC_NEWLINE"ｗｅ　ｓｈｏｕｌｄ　ｆｉｎｄ　ｔｈｅ　ｉｎｎｅｒ　ｓａｎｃー"TCC_NEWLINE"ｔｕｍ．　Ｆｏｌｌｏｗ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2081_EN] = TCC_OPEN_LEFT
 "Ｒｅｔｕｒｎ　ｔｏ　Ｍｓｐｅｌｌ？　Ｂｕｔ　ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LOKI
-"Ｔｈｅｒｅ’ｓ　ｊｕｓｔ　ｔｈｅ　ｍａｔｔｅｒ　ｏｆ　ａ　"TCC_NEWLINE"ｓｍａｌｌ　ｒｉｔｅｗｅ　ｎｅｅｄ　ｔｏ　ｔａｋｅ　ｃａｒー"TCC_NEWLINE"ｅ　ｏｆ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｋｉｎｇ　ｈｉｍｓｅｌｆ　ｈａｓ　ｉｎｖｉｔｅｄ　"TCC_NEWLINE"ｙｏｕ　ｔｏ　ｊｏｉｎｕｓ．　Ｙｏｕ　ｏｕｇｈｔ　ｔｏ　ｂー"TCC_NEWLINE"ｅ　ｇｒａｔｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｊｕｓｔ　ｔｈｅ　ｍａｔｔｅｒ　ｏｆ　ａ　"TCC_NEWLINE"ｓｍａｌｌ　ｒｉｔｅ　ｗｅ　ｎｅｅｄ　ｔｏ　ｔａｋｅ　ｃａー"TCC_NEWLINE"ｒｅ　ｏｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｋｉｎｇ　ｈｉｍｓｅｌｆ　ｈａｓ　ｉｎｖｉｔｅｄ　"TCC_NEWLINE"ｙｏｕ　ｔｏ　ｊｏｉｎ　ｕｓ．　Ｙｏｕ　ｏｕｇｈｔ　ｔｏ　"TCC_NEWLINE"ｂｅ　ｇｒａｔｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｌ，　Ｉ’ｍ　ｎｏｔ！　Ａｎｄ　ｄｏｎ’ｔ　ｔｈｉｎー"TCC_NEWLINE"ｋ　ｔｈａｔ　ｙｏｕｈａｖｅ　ｍｙ　ｐｅｒｍｉｓｓｉｏｎ　"TCC_NEWLINE"ｔｏ　ｌｅａｖｅ，　ｅｉｔｈｅｒ．Ｙｏｕ’ｒｅ　ｓｔａｙｉー"TCC_NEWLINE"ｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｄｏｎ’ｔ　ｌｏｓｅ　ｓｉｇｈｔ　ｏｆ　ｔｈｅ　ｆａｃｔ　"TCC_NEWLINE"ｔｈａｔ　Ａｓｋｒｈａｓ　ｎｏｔ　ｙｅｔ　ｂｅｅｎ　ｄｅｓー"TCC_NEWLINE"ｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　Ｉ’ｍ　ｎｏｔ！　Ａｎｄ　ｄｏｎ’ｔ　ｔｈｉｎー"TCC_NEWLINE"ｋ　ｔｈａｔ　ｙｏｕ　ｈａｖｅ　ｍｙ　ｐｅｒｍｉｓｓｉｏｎ"TCC_NEWLINE"　ｔｏ　ｌｅａｖｅ，　ｅｉｔｈｅｒ．　Ｙｏｕ’ｒｅ　ｓｔａー"TCC_NEWLINE"ｙｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｌｏｓｅ　ｓｉｇｈｔ　ｏｆ　ｔｈｅ　ｆａｃｔ　"TCC_NEWLINE"ｔｈａｔ　Ａｓｋｒ　ｈａｓ　ｎｏｔ　ｙｅｔ　ｂｅｅｎ　ｄｅー"TCC_NEWLINE"ｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｈａ－ｈａｈ！　Ｏｈ，　Ｐｒｉｎｃｅｓｓ．　Ｌｉｓｔｅｎ　"TCC_NEWLINE"ａｎｄｌｉｓｔｅｎ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｎｏｔ　ｉｎｖｉｔｉｎｇ　ｙｏｕ　ｔｏ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌ．　Ｉ’ｍｏｒｄｅｒｉｎｇ　ｙｏｕ　ｔｏ　Ｍｓｐｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ　ｃｏｏｐｅｒａｔｅ，　Ｉ"TCC_NEWLINE"’ｌｌ　ｂｒｅａｋｙｏｕｒ　ｌｅｇｓ　ａｎｄ　ｄｒａｇ　ｙー"TCC_NEWLINE"ｏｕ　ｔｈｅｒｅ　ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａ－ｈａｈ！　Ｏｈ，　Ｐｒｉｎｃｅｓｓ．　Ｌｉｓｔｅｎ　"TCC_NEWLINE"ａｎｄ　ｌｉｓｔｅｎ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔ　ｉｎｖｉｔｉｎｇ　ｙｏｕ　ｔｏ　Ｍｓｐｅｌー"TCC_NEWLINE"ｌ．　Ｉ’ｍ　ｏｒｄｅｒｉｎｇ　ｙｏｕ　ｔｏ　Ｍｓｐｅｌｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ　ｃｏｏｐｅｒａｔｅ，　Ｉ"TCC_NEWLINE"’ｌｌ　ｂｒｅａｋ　ｙｏｕｒ　ｌｅｇｓ　ａｎｄ　ｄｒａｇ　"TCC_NEWLINE"ｙｏｕ　ｔｈｅｒｅ　ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_XANDER
 "Ｈｏｗ　ｄａｒｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ａｈ，　ｔｈｅ　ｄｏｇ　ｗｈｏ　ｒｕｎｓ　ｗｉｔｈ　Ｅｍｂー"TCC_NEWLINE"ｌａ！　Ｗｅｗｅｒｅ　ｉｎｔｅｒｒｕｐｔｅｄ　ｂｅｆｏｒｅ"TCC_NEWLINE"．　Ｓｈａｌｌ　ｗｅｓｅｔｔｌｅ　ｔｈｉｎｇｓ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｌｌ　ｌｅａｖｅ　ｙｏｕｒ　ｃｈａｒｒｅｄ　ｃｏｒｐｓー"TCC_NEWLINE"ｅ　ｏｎ　ｔｈｅｇｒｏｕｎｄ！　Ｈａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ，　ｔｈｅ　ｄｏｇ　ｗｈｏ　ｒｕｎｓ　ｗｉｔｈ　Ｅｍｂー"TCC_NEWLINE"ｌａ！　Ｗｅ　ｗｅｒｅ　ｉｎｔｅｒｒｕｐｔｅｄ　ｂｅｆｏｒー"TCC_NEWLINE"ｅ．　Ｓｈａｌｌ　ｗｅ　ｓｅｔｔｌｅ　ｔｈｉｎｇｓ　ｎｏｗ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｌｅａｖｅ　ｙｏｕｒ　ｃｈａｒｒｅｄ　ｃｏｒｐｓー"TCC_NEWLINE"ｅ　ｏｎ　ｔｈｅ　ｇｒｏｕｎｄ！　Ｈａ－ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

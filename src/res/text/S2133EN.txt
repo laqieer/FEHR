@@ -1,44 +1,44 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2133_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｆｌｏｒａ．　Ｆｏｒ　ｍｙ　ｍａｓｔｅｒ，　ａｎー"TCC_NEWLINE"ｄ　ｔｏｆｕｌｆｉｌｌ　ｔｈｅ　ｔｅｒｍｓ　ｏｆ　ｍｙ　ｃー"TCC_NEWLINE"ｏｎｔｒａｃｔ，　Ｉ　ｗｉｌｌｅｌｉｍｉｎａｔｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｆｌｏｒａ．　Ｆｏｒ　ｍｙ　ｍａｓｔｅｒ，　ａｎー"TCC_NEWLINE"ｄ　ｔｏ　ｆｕｌｆｉｌｌ　ｔｈｅ　ｔｅｒｍｓ　ｏｆ　ｍｙ　"TCC_NEWLINE"ｃｏｎｔｒａｃｔ，　Ｉ　ｗｉｌｌ　ｅｌｉｍｉｎａｔｅ　ｙｏー"TCC_NEWLINE"ｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HELBINDI
-"Ｈｅｙ，　ｂｒａｔ！　Ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｆｒｉｅｎー"TCC_NEWLINE"ｄ　ｂｅｔｔｅｒｈｕｒｒｙ　ｕｐ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ"TCC_NEWLINE"　ｗａｎｔ　ｔｏ　ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｃａｎ　ｂｅｔ　ｔｈｅ　ｇｕａｒｄｓ’ｖｅ　ｎｏｔー"TCC_NEWLINE"ｉｃｅｄｂｙ　ｎｏｗ．　Ｄｏｎ’ｔ　ｂｅ　ｓｕｒｐｒｉｓｅー"TCC_NEWLINE"ｄ　ｉｆ　ｔｈｅｙｃａｔｃｈ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｙ，　ｂｒａｔ！　Ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｆｒｉｅｎー"TCC_NEWLINE"ｄ　ｂｅｔｔｅｒ　ｈｕｒｒｙ　ｕｐ　ｉｆ　ｙｏｕ　ｄｏｎ’"TCC_NEWLINE"ｔ　ｗａｎｔ　ｔｏ　ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｂｅｔ　ｔｈｅ　ｇｕａｒｄｓ’ｖｅ　ｎｏｔー"TCC_NEWLINE"ｉｃｅｄ　ｂｙ　ｎｏｗ．　Ｄｏｎ’ｔ　ｂｅ　ｓｕｒｐｒｉｓー"TCC_NEWLINE"ｅｄ　ｉｆ　ｔｈｅｙ　ｃａｔｃｈ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_YLGR
-"Ａｕｇｈ！　Ｔｈｅｓｅ　ｒｕｉｎｓ．．．ｔｈｅｙ’ｒｅ　ｓー"TCC_NEWLINE"ｏｃｏｎｆｕｓｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｕｇｈ！　Ｔｈｅｓｅ　ｒｕｉｎｓ．．．ｔｈｅｙ’ｒｅ　ｓー"TCC_NEWLINE"ｏ　ｃｏｎｆｕｓｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉｔ’ｓ　ｌｉｋｅ　ａ　ｍａｚｅ　ｉｎ　ｈｅｒｅ．　Ｂｕｔ"TCC_NEWLINE"　ｐｅｒｈａｐｓｔｈａｔ’ｓ　ｗｈｙ　ｗｅ　ｈａｖｅ　ｙｅー"TCC_NEWLINE"ｔ　ｔｏ　ｂｅ　ｃａｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｌｉｋｅ　ａ　ｍａｚｅ　ｉｎ　ｈｅｒｅ．　Ｂｕｔ"TCC_NEWLINE"　ｐｅｒｈａｐｓ　ｔｈａｔ’ｓ　ｗｈｙ　ｗｅ　ｈａｖｅ　ｙー"TCC_NEWLINE"ｅｔ　ｔｏ　ｂｅ　ｃａｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｕｐ．．．ａｎｄ　ｄｏｗｎ．．．　Ｕｐ．．．ａｎｄ　ｄｏｗー"TCC_NEWLINE"ｎ．．．　Ｉ’ｍｓｏ　ｔｉｒｅｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｕｐ．．．ａｎｄ　ｄｏｗｎ．．．　Ｕｐ．．．ａｎｄ　ｄｏｗー"TCC_NEWLINE"ｎ．．．　Ｉ’ｍ　ｓｏ　ｔｉｒｅｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｆ　ｙｏｕ　ｇｏｔ　ｔｉｍｅ　ｔｏ　ｗｈｉｎｅ，　ｙｏｕ"TCC_NEWLINE"　ｇｏｔ　ｔｉｍｅｔｏ　ｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ，　ｙｏｕ　ｔｗｏ．．．ｙｏｕ　ｇｏ　ｏｎ　ａｈｅａー"TCC_NEWLINE"ｄ．　Ｉ’ｌｌｃａｔｃｈ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｇｏｔ　ｔｉｍｅ　ｔｏ　ｗｈｉｎｅ，　ｙｏｕ"TCC_NEWLINE"　ｇｏｔ　ｔｉｍｅ　ｔｏ　ｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｙｏｕ　ｔｗｏ．．．ｙｏｕ　ｇｏ　ｏｎ　ａｈｅａー"TCC_NEWLINE"ｄ．　Ｉ’ｌｌ　ｃａｔｃｈ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗａｉｔ，　ｗｈａｔ？　Ｂｕｔ　ｗｈａｔ　ａｂｏｕｔ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｇｅｔ　ｇｏｉｎｇ！　Ｏｒ　Ｉ’ｌｌ　ｓｍａｃｋ　ｙｏｕ　"TCC_NEWLINE"ｗｉｔｈ　ｍｙａｘｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｇｅｔ　ｇｏｉｎｇ！　Ｏｒ　Ｉ’ｌｌ　ｓｍａｃｋ　ｙｏｕ　"TCC_NEWLINE"ｗｉｔｈ　ｍｙ　ａｘｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏ－ＯＫ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｈｙ　ｃａｎ’ｔ　ｓｈｅ　ｊｕｓｔ　ｄｏ　ｗｈａｔ　ｓｈー"TCC_NEWLINE"ｅ’ｓｔｏｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｃａｎ’ｔ　ｓｈｅ　ｊｕｓｔ　ｄｏ　ｗｈａｔ　ｓｈー"TCC_NEWLINE"ｅ’ｓ　ｔｏｌｄ？"TCC_NEWLINE TCC_PUSH_A
 "Ａｌｌ　ｒｉｇｈｔ．　Ｈｅｒｅ　ｗｅ　ｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SURTR
-"Ｉ　ｔｈｏｕｇｈｔ　Ｉ　ｈｅａｒｄ　ａ　ｍｏｕｓｅ．．．ｂー"TCC_NEWLINE"ｕｔｉｎｓｔｅａｄ　Ｉ　ｆｉｎｄ　ｔｈｅ　ａｎｉｍａｌ　Ｉ"TCC_NEWLINE"　ｈａｄｐｒｏｔｅｃｔｉｎｇ　ｔｈｅ　ｂｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈｏｕｇｈｔ　Ｉ　ｈｅａｒｄ　ａ　ｍｏｕｓｅ．．．ｂー"TCC_NEWLINE"ｕｔ　ｉｎｓｔｅａｄ　Ｉ　ｆｉｎｄ　ｔｈｅ　ａｎｉｍａｌ　"TCC_NEWLINE"Ｉ　ｈａｄ　ｐｒｏｔｅｃｔｉｎｇ　ｔｈｅ　ｂｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｒｅｍｅｍｂｅｒ　ｙｏｕ，　ｔｒｅａｓｏｎｏｕｓ　ｃｕー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｋｉｎｇ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｓａｖｅ　ｙｏｕｒ　ｅｘｃｕｓｅｓ．　Ｉｔ’ｓ　ｆａｒ　ｔー"TCC_NEWLINE"ｏｏ　ｌａｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｗｏｕｌｄ　ｒｅｂｅｌ　ａｇａｉｎｓｔ　ｍｅ？　Ｆー"TCC_NEWLINE"ｏｏｌｉｓｈ，ｈｅｌｐｌｅｓｓ，　ａｎｄ　ｗｅａｋ．．．　"TCC_NEWLINE"Ｉｔ　ｉｓ　ｔｉｍｅ　ｆｏｒ　ｙｏｕｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ａｒｅ　ｔｒａｓｈ，　ｐｌｕｃｋｅｄ　ｆｒｏｍ　ｔー"TCC_NEWLINE"ｈｅｇｕｔｔｅｒ．　Ｉｎ　Ｍｓｐｅｌｌ，　ｗｅ　ｂｕｒｎ　"TCC_NEWLINE"ｔｒａｓｈ．　Ａｓｙｏｕｒ　ｓｉｓｔｅｒ　ｌｅａｒｎｅｄ　"TCC_NEWLINE"ｔｏ　ｈｅｒ　ｒｅｇｒｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｏｕｌｄ　ｒｅｂｅｌ　ａｇａｉｎｓｔ　ｍｅ？　Ｆー"TCC_NEWLINE"ｏｏｌｉｓｈ，　ｈｅｌｐｌｅｓｓ，　ａｎｄ　ｗｅａｋ．．．"TCC_NEWLINE"　Ｉｔ　ｉｓ　ｔｉｍｅ　ｆｏｒ　ｙｏｕ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｔｒａｓｈ，　ｐｌｕｃｋｅｄ　ｆｒｏｍ　ｔー"TCC_NEWLINE"ｈｅ　ｇｕｔｔｅｒ．　Ｉｎ　Ｍｓｐｅｌｌ，　ｗｅ　ｂｕｒｎ"TCC_NEWLINE"　ｔｒａｓｈ．　Ａｓ　ｙｏｕｒ　ｓｉｓｔｅｒ　ｌｅａｒｎｅー"TCC_NEWLINE"ｄ　ｔｏ　ｈｅｒ　ｒｅｇｒｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｒｒｇｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｄｏ　ｙｏｕ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｓａｙ？"TCC_NEWLINE"　Ｌａｓｔｗｏｒｄｓ？　Ｓｐｅａｋ！"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｈａｖｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｓａｙ？"TCC_NEWLINE"　Ｌａｓｔ　ｗｏｒｄｓ？　Ｓｐｅａｋ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｓａｙ？　Ｙｅａｈ，　Ｉ　ｔｈｉー"TCC_NEWLINE"ｎｋ　Ｉ　ｄｏ．Ｗｈａｔ　ｙｏｕ　ｇｏｔ　ｃｏｍｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｙｏｕ．．．ｙｏｕｄｅｓｅｒｖｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｓａｙ？　Ｙｅａｈ，　Ｉ　ｔｈｉー"TCC_NEWLINE"ｎｋ　Ｉ　ｄｏ．　Ｗｈａｔ　ｙｏｕ　ｇｏｔ　ｃｏｍｉｎｇ　"TCC_NEWLINE"ｔｏ　ｙｏｕ．．．ｙｏｕ　ｄｅｓｅｒｖｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｙｏｕ　ｄｏｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT

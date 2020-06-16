@@ -1,43 +1,43 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S4041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
-"Ｔｈｅ　ｌｊｓｌｆａｒ　ａｎｄ　ｔｈｅｉｒ　ｆｒｉｅｎｄｓ"TCC_NEWLINE"　ａｒｅｐｕｒｓｕｉｎｇ　ｕｓ，　ｊｕｓｔ　ａｓ　Ｌａｄｙ"TCC_NEWLINE"　Ｆｒｅｙｊａｈａｄ　ｐｒｅｄｉｃｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌｊｓｌｆａｒ　ａｎｄ　ｔｈｅｉｒ　ｆｒｉｅｎｄｓ"TCC_NEWLINE"　ａｒｅ　ｐｕｒｓｕｉｎｇ　ｕｓ，　ｊｕｓｔ　ａｓ　Ｌａｄー"TCC_NEWLINE"ｙ　Ｆｒｅｙｊａ　ｈａｄ　ｐｒｅｄｉｃｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PLUMERIA
-"Ｙｅｓ．　Ｉｆ　ｏｕｒ　ｍｉｓｓｉｏｎ　ｃｏｎｔｉｎｕｅｓ"TCC_NEWLINE"　ｔｏ　ｇｏｔｈｉｓ　ｓｍｏｏｔｈｌｙ，　Ｌａｄｙ　Ｆｒｅー"TCC_NEWLINE"ｙｊａ　ｉｓ　ｓｕｒｅｔｏ　ｂｅ　ｍｏｓｔ　ｐｌｅａｓｅｄ"TCC_NEWLINE"　ｗｉｔｈ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｏｕｇｈ　Ｉ　ｍｕｓｔ　ｓａｙ，　Ｌｊｓｌｆｈｅｉｍｒー"TCC_NEWLINE"ｉｓ　ｍｏｒｅ　ｐｌｅａｓａｎｔ　ｔｈａｎ　Ｉ’ｄ　ｅｘｐー"TCC_NEWLINE"ｅｃｔｅｄｉｔ　ｗｏｕｌｄ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｒｅ　ｄｏｎ’ｔ　ｓｅｅｍ　ｔｏ　ｂｅ　ａｎｙｆｏｕー"TCC_NEWLINE"ｌ－ｍｉｎｄｅｄ　ｌｅｃｈｅｒｓ　ａｎｙｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｉｆ　ｏｕｒ　ｍｉｓｓｉｏｎ　ｃｏｎｔｉｎｕｅｓ"TCC_NEWLINE"　ｔｏ　ｇｏ　ｔｈｉｓ　ｓｍｏｏｔｈｌｙ，　Ｌａｄｙ　Ｆｒー"TCC_NEWLINE"ｅｙｊａ　ｉｓ　ｓｕｒｅ　ｔｏ　ｂｅ　ｍｏｓｔ　ｐｌｅａｓー"TCC_NEWLINE"ｅｄ　ｗｉｔｈ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ　Ｉ　ｍｕｓｔ　ｓａｙ，　Ｌｊｓｌｆｈｅｉｍｒ"TCC_NEWLINE"　ｉｓ　ｍｏｒｅ　ｐｌｅａｓａｎｔ　ｔｈａｎ　Ｉ’ｄ　ｅｘー"TCC_NEWLINE"ｐｅｃｔｅｄ　ｉｔ　ｗｏｕｌｄ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｄｏｎ’ｔ　ｓｅｅｍ　ｔｏ　ｂｅ　ａｎｙ　ｆｏー"TCC_NEWLINE"ｕｌ－ｍｉｎｄｅｄ　ｌｅｃｈｅｒｓ　ａｎｙｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．Ｈｍ．　Ｉｎｄｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｍａｙ　ｂｅ　ｓａｄｄｌｅｄ　ｗｉｔｈ　ｄｒａｗｉｎｇ"TCC_NEWLINE"　ｏｕｔｔｈｅｉｒ　ｓｅｃｒｅｔ　ｆａｎｔａｓｉｅｓ，　ｎー"TCC_NEWLINE"ｏ　ｍａｔｔｅｒ　ｈｏｗｗｒｅｔｃｈｅｄ，　ｂｕｔ　ｅｖｅー"TCC_NEWLINE"ｎ　ａｓ　ａ　ｄｋｋｌｆｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ＮＥＶＥＲ　ｇｒｏｗ　ａｃｃｕｓｔｏｍｅｄ　"TCC_NEWLINE"ｔｏｔｈｅ　ｖｅｉｎｓ　ｏｆ　ｆｉｌｔｈ　ｔｈａｔ　ｃｏｕー"TCC_NEWLINE"ｒｓｅ　ｔｈｒｏｕｇｈｔｈｅｉｒ　ｍｉｎｄｓ．　Ｔｒｕｌｙ"TCC_NEWLINE"．　Ｔｈｅｙ’ｒｅ　ｂｅａｓｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍａｙ　ｂｅ　ｓａｄｄｌｅｄ　ｗｉｔｈ　ｄｒａｗｉｎｇ"TCC_NEWLINE"　ｏｕｔ　ｔｈｅｉｒ　ｓｅｃｒｅｔ　ｆａｎｔａｓｉｅｓ，　"TCC_NEWLINE"ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｗｒｅｔｃｈｅｄ，　ｂｕｔ　ｅー"TCC_NEWLINE"ｖｅｎ　ａｓ　ａ　ｄｋｋｌｆｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ＮＥＶＥＲ　ｇｒｏｗ　ａｃｃｕｓｔｏｍｅｄ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　ｖｅｉｎｓ　ｏｆ　ｆｉｌｔｈ　ｔｈａｔ　ｃｏー"TCC_NEWLINE"ｕｒｓｅ　ｔｈｒｏｕｇｈ　ｔｈｅｉｒ　ｍｉｎｄｓ．　Ｔｒｕー"TCC_NEWLINE"ｌｙ．　Ｔｈｅｙ’ｒｅ　ｂｅａｓｔｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"．．．Ｉ　ｃａｎ’ｔ　ｓａｙ　ａｎｙ　ｏｆ　ｔｈｅ　ｄｒｅー"TCC_NEWLINE"ａｍｓ　Ｉ’ｖｅｂｒｏｕｇｈｔ　ｍｏｒｔａｌｓ　ｈａｖｅ　"TCC_NEWLINE"ｅｖｅｒ　ｂｅｅｎ　ｑｕｉｔｅｌｉｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｖｅ　ｋｎｏｗｎ　ｏｎｌｙ　ｎｉｇｈｔｍａｒｅ．．．Ｐー"TCC_NEWLINE"ａｉｎ．．．　Ａｎｄ　ｓｏｒｒｏｗ．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｅｏｎｙ，　ｔｈｅ　Ｓｗｅｅｔ　Ｄｒｅａｍ．．．Ｉ　ａｍ"TCC_NEWLINE"　ｈｅｒｏｐｐｏｓｉｔｅａｎｄ　ｓｈｅ　ｉｓ　ｍｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ　ｃａｎ’ｔ　ｓａｙ　ａｎｙ　ｏｆ　ｔｈｅ　ｄｒｅー"TCC_NEWLINE"ａｍｓ　Ｉ’ｖｅ　ｂｒｏｕｇｈｔ　ｍｏｒｔａｌｓ　ｈａｖｅ"TCC_NEWLINE"　ｅｖｅｒ　ｂｅｅｎ　ｑｕｉｔｅ　ｌｉｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｋｎｏｗｎ　ｏｎｌｙ　ｎｉｇｈｔｍａｒｅ．．．　"TCC_NEWLINE"Ｐａｉｎ．．．　Ａｎｄ　ｓｏｒｒｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｏｎｙ，　ｔｈｅ　Ｓｗｅｅｔ　Ｄｒｅａｍ．．．Ｉ　ａｍ"TCC_NEWLINE"　ｈｅｒ　ｏｐｐｏｓｉｔｅａｎｄ　ｓｈｅ　ｉｓ　ｍｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"．．．Ａｎｄ？　Ｉｓ　ａ　ｌｊｓｌｆｒ　ａｎｄ　ａ　ｄｋｋー"TCC_NEWLINE"ｌｆｒｂｅｉｎｇ　ｏｐｐｏｓｉｔｅ　ｓｕｒｐｒｉｓｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ａｎｄ？　Ｉｓ　ａ　ｌｊｓｌｆｒ　ａｎｄ　ａ　ｄｋｋー"TCC_NEWLINE"ｌｆｒ　ｂｅｉｎｇ　ｏｐｐｏｓｉｔｅ　ｓｕｒｐｒｉｓｉｎｇ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｎｅｖｅｒ　ｍｉｎｄ．　Ｌｅｔ’ｓ　ｇｏ．　Ｗｅ　ｈａｖｅー"TCC_NEWLINE"ｏｕｒ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｅｖｅｒ　ｍｉｎｄ．　Ｌｅｔ’ｓ　ｇｏ．　Ｗｅ　ｈａｖｅ"TCC_NEWLINE"　ｏｕｒ　ｏｒｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S4041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
 "Ｈｍｍ．．．　＊ｓｎｉｆｆ＊"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ｓｃｅｎｔ　ｏｆ　ｂａｄ　ｄｒｅａｍｓ　ｉｓ　ｇｒー"TCC_NEWLINE"ｏｗｉｎｇｓｔｒｏｎｇｅｒ，　ｓｏ　ｗｅ　ｍｕｓｔ　ｂｅ　"TCC_NEWLINE"ｇｅｔｔｉｎｇｃｌｏｓｅｒ．　Ｃ’ｍｏｎｔｈｉｓ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｃｅｎｔ　ｏｆ　ｂａｄ　ｄｒｅａｍｓ　ｉｓ　ｇｒー"TCC_NEWLINE"ｏｗｉｎｇ　ｓｔｒｏｎｇｅｒ，　ｓｏ　ｗｅ　ｍｕｓｔ　ｂｅ"TCC_NEWLINE"　ｇｅｔｔｉｎｇ　ｃｌｏｓｅｒ．　Ｃ’ｍｏｎｔｈｉｓ　ｗａー"TCC_NEWLINE"ｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｐ－Ｐｅｏｎｙ　ｃａｎ　ＳＭＥＬＬ　ｂａｄ　ｄｒｅａｍｓ？"TCC_NEWLINE"．．．Ｓｅｒｉｏｕｓｌｙ？　Ｉｓ　ｔｈａｔ　ｅｖｅｎ　ｐｏー"TCC_NEWLINE"ｓｓｉｂｌｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐ－Ｐｅｏｎｙ　ｃａｎ　ＳＭＥＬＬ　ｂａｄ　ｄｒｅａｍｓ？"TCC_NEWLINE"　．．．Ｓｅｒｉｏｕｓｌｙ？　Ｉｓ　ｔｈａｔ　ｅｖｅｎ　ｐー"TCC_NEWLINE"ｏｓｓｉｂｌｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅｌｌ，　ｔｈｉｓ　ｂｅｉｎｇ　ｔｈｅ　ｄｒｅａｍ　ｒｅー"TCC_NEWLINE"ａｌｍ，ｗｅ　ｈａｖｅ　ｎｏ　ｒｅａｌ　ｃｈｏｉｃｅ　ｂｕー"TCC_NEWLINE"ｔ　ｔｏ　ｆｏｌｌｏｗＰｅｏｎｙ’ｓ　ｌｅａｄ．　Ｓｏ　ｌー"TCC_NEWLINE"ｅｔ’ｓ　ｇｅｔ　ｇｏｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｔｈｉｓ　ｂｅｉｎｇ　ｔｈｅ　ｄｒｅａｍ　ｒｅー"TCC_NEWLINE"ａｌｍ，　ｗｅ　ｈａｖｅ　ｎｏ　ｒｅａｌ　ｃｈｏｉｃｅ　ｂー"TCC_NEWLINE"ｕｔ　ｔｏ　ｆｏｌｌｏｗ　Ｐｅｏｎｙ’ｓ　ｌｅａｄ．　Ｓｏ"TCC_NEWLINE"　ｌｅｔ’ｓ　ｇｅｔ　ｇｏｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S4041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
-"Ｔｈｅ　ｄｋｋｌｆａｒ　ａｒｅ　ｔｈｉｓ　ｗａｙ，　ｅｖｅー"TCC_NEWLINE"ｒｙｏｎｅ！Ｃ’ｍｏｎ，　ｆｏｌｌｏｗ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｄｋｋｌｆａｒ　ａｒｅ　ｔｈｉｓ　ｗａｙ，　ｅｖｅー"TCC_NEWLINE"ｒｙｏｎｅ！　Ｃ’ｍｏｎ，　ｆｏｌｌｏｗ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｈａｎｇ　ｏｎ　ａ　ｍｉｎｕｔｅ！　Ｉｓｎ’ｔ　ｔｈａｔ．"TCC_NEWLINE"．．ｔｈｅｗａｙ　ｗｅ　ｊｕｓｔ　ｃａｍｅ　ｆｒｏｍ？　Ｗー"TCC_NEWLINE"ｈｙ　ｗｏｕｌｄｗｅ　ｇｏ　ｂａｃｋ　ｔｈｅ　ｗａｙ　ｗｅ"TCC_NEWLINE"　ｃａｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｎｇ　ｏｎ　ａ　ｍｉｎｕｔｅ！　Ｉｓｎ’ｔ　ｔｈａｔ．"TCC_NEWLINE"．．ｔｈｅ　ｗａｙ　ｗｅ　ｊｕｓｔ　ｃａｍｅ　ｆｒｏｍ？　"TCC_NEWLINE"Ｗｈｙ　ｗｏｕｌｄ　ｗｅ　ｇｏ　ｂａｃｋ　ｔｈｅ　ｗａｙ　"TCC_NEWLINE"ｗｅ　ｃａｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ！　Ｉ’ｍ　ｓｕｒｅ　ｉｔ’ｄ　ｂｅ　ｓｔｒａｎｇｅ　"TCC_NEWLINE"ｉｎ　ｙｏｕｒｗｏｒｌｄ，　ｂｕｔ　ｉｔ’ｓ　ｐｅｒｆｅｃー"TCC_NEWLINE"ｔｌｙ　ｒｅａｓｏｎａｂｌｅｉｎ　ｔｈｅ　ｌａｎｄ　ｏｆ　"TCC_NEWLINE"ｄｒｅａｍｓ．　Ｆｏｌｌｏｗ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ！　Ｉ’ｍ　ｓｕｒｅ　ｉｔ’ｄ　ｂｅ　ｓｔｒａｎｇｅ　"TCC_NEWLINE"ｉｎ　ｙｏｕｒ　ｗｏｒｌｄ，　ｂｕｔ　ｉｔ’ｓ　ｐｅｒｆｅー"TCC_NEWLINE"ｃｔｌｙ　ｒｅａｓｏｎａｂｌｅ　ｉｎ　ｔｈｅ　ｌａｎｄ　ｏー"TCC_NEWLINE"ｆ　ｄｒｅａｍｓ．　Ｆｏｌｌｏｗ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｒｉｇｈｔ　ｂｅｈｉｎｄ　ｙｏｕ，　Ｐｅｏｎｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｆ　ｗｅ’ｒｅ　ｈｅｒｅ　ｍｕｃｈ　ｌｏｎｇｅｒ，　Ｉ　"TCC_NEWLINE"ｗｏｒｒｙ　ｍｙｃｏｍｍｏｎ　ｓｅｎｓｅ　ｍａｙ　ｎｅｖｅー"TCC_NEWLINE"ｒ　ｒｅｃｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ’ｒｅ　ｈｅｒｅ　ｍｕｃｈ　ｌｏｎｇｅｒ，　Ｉ　"TCC_NEWLINE"ｗｏｒｒｙ　ｍｙ　ｃｏｍｍｏｎ　ｓｅｎｓｅ　ｍａｙ　ｎｅｖー"TCC_NEWLINE"ｅｒ　ｒｅｃｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｉ　ｋｎｏｗ　ｅｘａｃｔｌｙ　ｗｈａｔ　ｙｏｕ　ｍｅａｎ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

@@ -1,7 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈｅ　ｇａｔｅ．．．　Ｉｆ　ｗｅ　ｃａｎ　ｊｕｓｔ　ｂｒー"TCC_NEWLINE"ｅａｋｔｈｒｏｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｇａｔｅ．．．　Ｉｆ　ｗｅ　ｃａｎ　ｊｕｓｔ　ｂｒー"TCC_NEWLINE"ｅａｋ　ｔｈｒｏｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｌｆｏｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
@@ -15,17 +15,17 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｆａｔｈｅｒ？　Ｗｈｙ　ａｒｅ　ｙｏｕ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_EIR
-"Ｔｈｏｓｅ　ｗｈｏ　ｄｉｅ　ｂｙ　ｍｙ　ｍｏｔｈｅｒ’ｓ　"TCC_NEWLINE"ｃｕｒｓｅｂｅｃｏｍｅ　ｆｏｄｄｅｒ　ｆｏｒ　ｈｅｒ　ａｒー"TCC_NEWLINE"ｍｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｗｈｏ　ｄｉｅ　ｂｙ　ｍｙ　ｍｏｔｈｅｒ’ｓ　"TCC_NEWLINE"ｃｕｒｓｅ　ｂｅｃｏｍｅ　ｆｏｄｄｅｒ　ｆｏｒ　ｈｅｒ　ａー"TCC_NEWLINE"ｒｍｙ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｍｏｔｈｅｒ．．．ｔｈｉｓ　ｉｓ　ｔｏｏ　ｃｒｕｅｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｌｆｏｎｓｅ！　Ｉ　ｈａｖｅ　ｂｅｃｏｍｅ　Ｈｅｌ’ｓ　"TCC_NEWLINE"ｐｕｐｐｅｔ．Ｅｖｅｎ　ｎｏｗ，　ｍｙ　ｂｏｄｙ　ｉｇｎｏー"TCC_NEWLINE"ｒｅｓ　ｍｙ　ｗｉｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ！　Ｉ　ｈａｖｅ　ｂｅｃｏｍｅ　Ｈｅｌ’ｓ　"TCC_NEWLINE"ｐｕｐｐｅｔ．　Ｅｖｅｎ　ｎｏｗ，　ｍｙ　ｂｏｄｙ　ｉｇｎー"TCC_NEWLINE"ｏｒｅｓ　ｍｙ　ｗｉｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｔｒｉｋｅ　ｍｅ　ｄｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｌｉｓｔｅｎ　ｗｅｌｌ，　Ａｌｆｏｎｓｅ．　Ｉｆ　ｙｏｕ　"TCC_NEWLINE"ｗａｖｅｒｎｏｗ，　ｙｏｕ　ｌａｃｋ　ｔｈｅ　ｆｏｒｔｉｔー"TCC_NEWLINE"ｕｄｅ　ｙｏｕｎｅｅｄ　ｔｏ　ｒｕｌｅ　ａｓ　Ｋｉｎｇ　ｏー"TCC_NEWLINE"ｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｈｏｗ　Ｈｅｌ　ｔｈａｔ　ｙｏｕ　ｗｉｌｌ　ｎｏｔ　ｆｌー"TCC_NEWLINE"ｉｎｃｈ！Ｅｖｅｎ　ｉｆ　ｓｈｅ　ｍａｋｅｓ　ａｎ　ｅｎｅー"TCC_NEWLINE"ｍｙ　ｏｆｙｏｕｒ　ｂｌｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｅｖｅｒ　ｆｏｒｇｅｔｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｓー"TCC_NEWLINE"ｈｉｅｌｄｔｈａｔ　ｐｒｏｔｅｃｔｓ　ｙｏｕｒ　ｆａｍｉｌー"TCC_NEWLINE"ｙ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｓｔｅｎ　ｗｅｌｌ，　Ａｌｆｏｎｓｅ．　Ｉｆ　ｙｏｕ　"TCC_NEWLINE"ｗａｖｅｒ　ｎｏｗ，　ｙｏｕ　ｌａｃｋ　ｔｈｅ　ｆｏｒｔｉー"TCC_NEWLINE"ｔｕｄｅ　ｙｏｕ　ｎｅｅｄ　ｔｏ　ｒｕｌｅ　ａｓ　Ｋｉｎｇ"TCC_NEWLINE"　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｏｗ　Ｈｅｌ　ｔｈａｔ　ｙｏｕ　ｗｉｌｌ　ｎｏｔ　ｆｌー"TCC_NEWLINE"ｉｎｃｈ！　Ｅｖｅｎ　ｉｆ　ｓｈｅ　ｍａｋｅｓ　ａｎ　ｅｎー"TCC_NEWLINE"ｅｍｙ　ｏｆ　ｙｏｕｒ　ｂｌｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｅｖｅｒ　ｆｏｒｇｅｔｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｓー"TCC_NEWLINE"ｈｉｅｌｄ　ｔｈａｔ　ｐｒｏｔｅｃｔｓ　ｙｏｕｒ　ｆａｍｉー"TCC_NEWLINE"ｌｙ，　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｌｌ　ｄｏ　ｗｈａｔ　ｍｕｓｔ　ｂｅ　ｄｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
@@ -41,11 +41,11 @@ TCC_OPEN_LEFT
 "Ｉ　ｌｏｖｅ　ｙｏｕ　ｂｏｔｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ’ｖｅ　ｒｅａｃｈｅｄ　ｔｈｅ　ｇａｔｅ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｒｅａｌｍｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｓ　ｅｖｅｒｙｏｎｅ　ｒｅａｄｙ？　Ｔｈｉｓ　ｉｓ　ａ　"TCC_NEWLINE"ｊｏｕｒｎｅｙｆｒｏｍ　ｗｈｉｃｈ　ｗｅ　ｍａｙ　ｎｏｔ　"TCC_NEWLINE"ｒｅｔｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｒｅａｃｈｅｄ　ｔｈｅ　ｇａｔｅ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｅｖｅｒｙｏｎｅ　ｒｅａｄｙ？　Ｔｈｉｓ　ｉｓ　ａ　"TCC_NEWLINE"ｊｏｕｒｎｅｙ　ｆｒｏｍ　ｗｈｉｃｈ　ｗｅ　ｍａｙ　ｎｏｔ"TCC_NEWLINE"　ｒｅｔｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｗａｙ　ｗｅ　ｗｉｌｌ　ｆａｉｌ．"TCC_NEWLINE"　Ｉ’ｍｒｅａｄｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｗａｙ　ｗｅ　ｗｉｌｌ　ｆａｉｌ．"TCC_NEWLINE"　Ｉ’ｍ　ｒｅａｄｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ａｓ　ａｍ　Ｉ．　Ｗｅ　ｓｔａｋｅ　ｅｖｅｒｙｔｈｉｎｇ　"TCC_NEWLINE"ｏｎ　ｔｈｉｓ．Ａｎｄ　ｗｅ　ｄｏ　ｉｔ　ｆｏｒ　Ｆａｔｈー"TCC_NEWLINE"ｅｒ，　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ａｍ　Ｉ．　Ｗｅ　ｓｔａｋｅ　ｅｖｅｒｙｔｈｉｎｇ　"TCC_NEWLINE"ｏｎ　ｔｈｉｓ．　Ａｎｄ　ｗｅ　ｄｏ　ｉｔ　ｆｏｒ　Ｆａｔー"TCC_NEWLINE"ｈｅｒ，　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ　ｕｓ　ｅｎｔｅｒ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ"TCC_NEWLINE"　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

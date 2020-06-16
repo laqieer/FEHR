@@ -3,79 +3,79 @@
 [MID_SCENARIO_OPENING_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_GUSTAV
 "Ｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｆａｔｈｅｒ．．．　Ｉｔ　ｈａｓ　ｂｅｅｎ　ｓｏｍｅ　ｔｉー"TCC_NEWLINE"ｍｅ　ｓｉｎｃｅｗｅ　ｈａｖｅ　ｓｐｏｋｅｎ．　Ｉ　ａｍ　"TCC_NEWLINE"ｈｏｎｏｒｅｄ　ｔｏ　ｂｅｉｎｖｉｔｅｄ　ｔｏ　ｔｈｉｓ　"TCC_NEWLINE"ａｕｄｉｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆａｔｈｅｒ．．．　Ｉｔ　ｈａｓ　ｂｅｅｎ　ｓｏｍｅ　ｔｉー"TCC_NEWLINE"ｍｅ　ｓｉｎｃｅ　ｗｅ　ｈａｖｅ　ｓｐｏｋｅｎ．　Ｉ　ａｍ"TCC_NEWLINE"　ｈｏｎｏｒｅｄ　ｔｏ　ｂｅ　ｉｎｖｉｔｅｄ　ｔｏ　ｔｈｉー"TCC_NEWLINE"ｓ　ａｕｄｉｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｎｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_HENRIETTE
 "Ｏｈ，　Ａｌｆｏｎｓｅ！　Ｄｏｎ’ｔ　ｂｅ　ｎｅｒｖｏｕｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ’ｓ　ｍｉｓｓｅｄ　ｙｏｕ　ｓｏ　ｍｕｃｈ！　Ｉｔ’ｓ"TCC_NEWLINE"　ｂｅｅｎｆａｒ　ｔｏｏ　ｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ’ｓ　ｍｉｓｓｅｄ　ｙｏｕ　ｓｏ　ｍｕｃｈ！　Ｉｔ’ｓ"TCC_NEWLINE"　ｂｅｅｎ　ｆａｒ　ｔｏｏ　ｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｅｎｒｉｅｔｔｅ．．．　Ｐｌｅａｓｅ，　ｂｅ　ｄｉｓｃｒー"TCC_NEWLINE"ｅｅｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｍｙ　ｍｉｓｔａｋｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｌｆｏｎｓｅ，　ｍｙ　ｓｏｎ．　Ｉ’ｍ　ｓｕｒｅ　ｙｏｕー"TCC_NEWLINE"ｒｍｏｔｈｅｒ　ｈａｓ　ｆｉｌｌｅｄ　ｙｏｕ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　ｍｙ　ｓｏｎ．　Ｉ’ｍ　ｓｕｒｅ　ｙｏｕー"TCC_NEWLINE"ｒ　ｍｏｔｈｅｒ　ｈａｓ　ｆｉｌｌｅｄ　ｙｏｕ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｓｋｒ　ｈａｓ　ｂｅｅｎ　ｉｎｖａｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ．　Ｓｈｅ　ｓａｉｄ　ｔｈａｔ　ｔｈｅ　ｓｏｌｄｉｅー"TCC_NEWLINE"ｒｓ　ａｒｅｆｒｏｍ　Ｈｅｌ，　ｔｈｅ　ｒｅａｌｍ　ｏｆ　"TCC_NEWLINE"ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｓｈｅ　ｓａｉｄ　ｔｈａｔ　ｔｈｅ　ｓｏｌｄｉｅー"TCC_NEWLINE"ｒｓ　ａｒｅ　ｆｒｏｍ　Ｈｅｌ，　ｔｈｅ　ｒｅａｌｍ　ｏｆ"TCC_NEWLINE"　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｋｎｏｗ　ｌｉｔｔｌｅ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｏ　ｔｈｅ　ｗｅｓｔ　ｌｉｅｓ　ａ　ｄｅｓｏｌａｔｅ　ｔー"TCC_NEWLINE"ｏｍｂ．．．　Ｉｔｉｓ　ａ　ｇａｔｅ　ｔｏ　ｔｈｅ　ｒｅａー"TCC_NEWLINE"ｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｗｅｎｔｙ　ｙｅａｒｓ　ａｇｏ　ｎｏｗ，　Ｉ　ｃｏｍｍａー"TCC_NEWLINE"ｎｄｅｄａ　ｂａｒｒｉｅｒ　ｂｅ　ｅｒｅｃｔｅｄ　ｔｏ　ｓー"TCC_NEWLINE"ｅａｌ　ｉｔ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｔｈｅ　ｗｅｓｔ　ｌｉｅｓ　ａ　ｄｅｓｏｌａｔｅ　ｔー"TCC_NEWLINE"ｏｍｂ．．．　Ｉｔ　ｉｓ　ａ　ｇａｔｅ　ｔｏ　ｔｈｅ　ｒｅー"TCC_NEWLINE"ａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｗｅｎｔｙ　ｙｅａｒｓ　ａｇｏ　ｎｏｗ，　Ｉ　ｃｏｍｍａー"TCC_NEWLINE"ｎｄｅｄ　ａ　ｂａｒｒｉｅｒ　ｂｅ　ｅｒｅｃｔｅｄ　ｔｏ　"TCC_NEWLINE"ｓｅａｌ　ｉｔ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｎｄ　ｓｏ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｓ　ｙｏｕ　ｗｅｌｌ　ｋｎｏｗ，　ｗｅ　Ａｓｋｒａｎｓ　"TCC_NEWLINE"ｃａｎｎｏｔｃｌｏｓｅ　ｇａｔｅｓｏｎｌｙ　ｏｐｅｎ　ｔｈー"TCC_NEWLINE"ｅｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ａｌｌ　Ｉ　ｃｏｕｌｄ　ｄｏ　ｔｏ　ｃｌｏｓｅ　ｏｆｆ　Ｈー"TCC_NEWLINE"ｅｌ　ｗａｓｅｎｃｉｒｃｌｅ　ｔｈｅ　ｔｏｍｂ　ｗｉｔｈ　"TCC_NEWLINE"ｏｕｒ　ｓｔｒｏｎｇｅｓｔｂａｒｒｉｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　２０　ｙｅａｒｓ，　ｉｔ　ｈａｓ　ｈｅｌｄ　ｔｈｅー"TCC_NEWLINE"ｍ　ｏｆｆ．Ｎｏｎｅ　ｈａｖｅ　ｍａｄｅ　ｉｔ　ｐａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｙｏｕ　ｗｅｌｌ　ｋｎｏｗ，　ｗｅ　Ａｓｋｒａｎｓ　"TCC_NEWLINE"ｃａｎｎｏｔ　ｃｌｏｓｅ　ｇａｔｅｓｏｎｌｙ　ｏｐｅｎ　ｔー"TCC_NEWLINE"ｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　Ｉ　ｃｏｕｌｄ　ｄｏ　ｔｏ　ｃｌｏｓｅ　ｏｆｆ　Ｈー"TCC_NEWLINE"ｅｌ　ｗａｓ　ｅｎｃｉｒｃｌｅ　ｔｈｅ　ｔｏｍｂ　ｗｉｔｈ"TCC_NEWLINE"　ｏｕｒ　ｓｔｒｏｎｇｅｓｔ　ｂａｒｒｉｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　２０　ｙｅａｒｓ，　ｉｔ　ｈａｓ　ｈｅｌｄ　ｔｈｅー"TCC_NEWLINE"ｍ　ｏｆｆ．　Ｎｏｎｅ　ｈａｖｅ　ｍａｄｅ　ｉｔ　ｐａｓｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｂｕｔ　ｎｏｗ．．．ｔｈａｔ　ｄｅｆｅｎｓｅ　ｈａｓ　ｆａー"TCC_NEWLINE"ｌｌｅｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅ　ａｒｍｙ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｈａｓ　ｓｕｒｇー"TCC_NEWLINE"ｅｄ　ｉｎｔｏＡｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ａｒｍｙ　ｏｆ　ｔｈｅ　ｄｅａｄ　ｈａｓ　ｓｕｒｇー"TCC_NEWLINE"ｅｄ　ｉｎｔｏ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｏｗ　ｔｅｒｒｉｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅ　ｍｕｓｔ　ｓｔｏｐ　ｔｈｅｍ．　Ｎｏ　ｉｎｊｕｒｙ　"TCC_NEWLINE"ｃａｎｂｅｆａｌｌ　ｏｕｒ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｍｕｓｔ　ｓｔｏｐ　ｔｈｅｍ．　Ｎｏ　ｉｎｊｕｒｙ　"TCC_NEWLINE"ｃａｎ　ｂｅｆａｌｌ　ｏｕｒ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｄｏ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ，　ｍｙ　ｓｏｎ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｅｓ，　Ｆａｔｈｅｒ．　Ｉ　ｗｉｌｌ　ｎｏｔ　ｆａｉｌ　"TCC_NEWLINE"ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｗｅ　ｍｕｓｔ　ｌｅａｄ　ｔｈｅ　ｃｈａｒｇｅ　ｔｏ　ｔｈー"TCC_NEWLINE"ｅ　ｔｏｍｂ．Ｌｅｔ’ｓ　ｇｏ，"TCC_NEWLINE
+"Ｗｅ　ｍｕｓｔ　ｌｅａｄ　ｔｈｅ　ｃｈａｒｇｅ　ｔｏ　ｔｈー"TCC_NEWLINE"ｅ　ｔｏｍｂ．　Ｌｅｔ’ｓ　ｇｏ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｏｕｒ　ｓｃｏｕｔｓ　ｈａｖｅ　ａｌｒｅａｄｙ　ｒｅａｃｈー"TCC_NEWLINE"ｅｄ　ｔｈｅｇａｔｅ．　Ｏｕｒ　ｒｏｌｅ　ｉｓ　ｔｏ　ｇａー"TCC_NEWLINE"ｔｈｅｒ　ｉｎｆｏｒｍａｔｉｏｎｆｏｒ　ｔｈｅ　ｋｉｎｇ’"TCC_NEWLINE"ｓ　ｋｎｉｇｈｔｓ　ｗｈｏ　ｗｉｌｌ　ｆｏｌｌｏｗ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　ｉｓ　ｏｆ　ｔｈｅ　ｕｔｍｏｓｔ　ｉｍｐｏｒｔａー"TCC_NEWLINE"ｎｃｅ．Ｃｏｍｅ　ｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｓｃｏｕｔｓ　ｈａｖｅ　ａｌｒｅａｄｙ　ｒｅａｃｈー"TCC_NEWLINE"ｅｄ　ｔｈｅ　ｇａｔｅ．　Ｏｕｒ　ｒｏｌｅ　ｉｓ　ｔｏ　ｇー"TCC_NEWLINE"ａｔｈｅｒ　ｉｎｆｏｒｍａｔｉｏｎ　ｆｏｒ　ｔｈｅ　ｋｉｎー"TCC_NEWLINE"ｇ’ｓ　ｋｎｉｇｈｔｓ　ｗｈｏ　ｗｉｌｌ　ｆｏｌｌｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｏｆ　ｔｈｅ　ｕｔｍｏｓｔ　ｉｍｐｏｒｔａー"TCC_NEWLINE"ｎｃｅ．　Ｃｏｍｅ　ｏｎ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｋｎｏｗ　ｔｈｉｓ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｄｅｖｏｔｅ　ｍｙｓｅｌｆ　ｔｏ　ｙｏｕ．　"TCC_NEWLINE"Ｎｏｍａｔｔｅｒ　ｗｈａｔ　ｏｒｄｅｒ　ｙｏｕ　ｇｉｖｅ　"TCC_NEWLINE"ｍｅ，　Ｉｗｉｌｌ　ｏｂｅｙ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｅｖｏｔｅ　ｍｙｓｅｌｆ　ｔｏ　ｙｏｕ．　"TCC_NEWLINE"Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｏｒｄｅｒ　ｙｏｕ　ｇｉｖｅ"TCC_NEWLINE"　ｍｅ，　Ｉ　ｗｉｌｌ　ｏｂｅｙ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
-"Ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｗｈａｔ　ａー"TCC_NEWLINE"ｐｅｒｆｅｃｔ　ｌｉｔｔｌｅ　ｍｅｓｓ！　Ｗｏｕｌｄｎ’ｔ"TCC_NEWLINE"　ｙｏｕ　ｓａｙｓｏ，　ｄｅａｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｗｈａｔ　ａ"TCC_NEWLINE"　ｐｅｒｆｅｃｔ　ｌｉｔｔｌｅ　ｍｅｓｓ！　Ｗｏｕｌｄｎ’"TCC_NEWLINE"ｔ　ｙｏｕ　ｓａｙ　ｓｏ，　ｄｅａｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕ　ｂｅｔｒａｙｅｄ　ｍｅ，　ａｎｄ　ｙｅｔ　ｈｅｒｅ"TCC_NEWLINE"　ｙｏｕｓｔａｎｄ，　ｗｉｔｈｏｕｔ　ａ　ｔｒａｃｅ　ｏｆ"TCC_NEWLINE"　ｆｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｂｅｔｒａｙｅｄ　ｍｅ，　ａｎｄ　ｙｅｔ　ｈｅｒｅ"TCC_NEWLINE"　ｙｏｕ　ｓｔａｎｄ，　ｗｉｔｈｏｕｔ　ａ　ｔｒａｃｅ　ｏー"TCC_NEWLINE"ｆ　ｆｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ　ｍｙ，　ｍｙ，　ｍｙ．　Ｉ　ｈｅｌｐｅｄ　ｙｏｕ　ｉー"TCC_NEWLINE"ｎ　ｔｈｅｅｎｄ，　ｄｅａｒ，　ｄｉｄｎ’ｔ　Ｉ？　Ｗｈａー"TCC_NEWLINE"ｔ　ａ　ｖｉｃｉｏｕｓｌｏｏｋ　ｙｏｕ　ｈａｖｅ　ｏｎ　ｙー"TCC_NEWLINE"ｏｕｒ　ｆａｃｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｍｙ，　ｍｙ，　ｍｙ．　Ｉ　ｈｅｌｐｅｄ　ｙｏｕ　ｉー"TCC_NEWLINE"ｎ　ｔｈｅ　ｅｎｄ，　ｄｅａｒ，　ｄｉｄｎ’ｔ　Ｉ？　Ｗｈー"TCC_NEWLINE"ａｔ　ａ　ｖｉｃｉｏｕｓ　ｌｏｏｋ　ｙｏｕ　ｈａｖｅ　ｏｎ"TCC_NEWLINE"　ｙｏｕｒ　ｆａｃｅ！"TCC_NEWLINE TCC_PUSH_A
 "Ｐｌｅａｓｅ　ｆｏｒｇｉｖｅ　ｍｅ！　Ｏｒ　ｋｉｌｌ　ｍｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉ　ｗｏｕｌｄ　ｉｆ　Ｉ　ｃｏｕｌｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｌｏｐｐｉｎｇ　ｙｏｕｒ　ｈｅａｄ　ｏｆｆ　ｗｏｕー"TCC_NEWLINE"ｌｄｎ’ｔａｃｃｏｍｐｌｉｓｈ　ａｎｙｔｈｉｎｇ　ａｔ　ａー"TCC_NEWLINE"ｌｌ，　ｗｏｕｌｄ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｌｏｐｐｉｎｇ　ｙｏｕｒ　ｈｅａｄ　ｏｆｆ　ｗｏｕー"TCC_NEWLINE"ｌｄｎ’ｔ　ａｃｃｏｍｐｌｉｓｈ　ａｎｙｔｈｉｎｇ　ａｔ　"TCC_NEWLINE"ａｌｌ，　ｗｏｕｌｄ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｄｏ　ｆｕｓｓ　ｓｏ，　Ｖｅｒｏｎｉｃａ．　Ｂｕｔ"TCC_NEWLINE"　ｒａｔｈｅｒｔｈａｎ　ｗｏｒｒｙ　ａｂｏｕｔ　ｍｙ　ｈｅー"TCC_NEWLINE"ａｄ，　ｗｈａｔ　ｏｆｔｈｅ　ｌｏｃａｔｉｏｎｓ　ｏｆ．．"TCC_NEWLINE"．ｏｔｈｅｒ　ｔｈｉｎｇｓ？"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕｒ　ｂｒｏｔｈｅｒ，　ｔｈｅ　ｐｒｉｎｃｅ，　ｓｔｉー"TCC_NEWLINE"ｌｌ　ｈａｓｎ’ｔｒｅｔｕｒｎｅｄ　ｆｒｏｍ　ｈｉｓ　ｌｉー"TCC_NEWLINE"ｔｔｌｅ　ｑｕｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｗｈａｔ　ｄｏ　ｙｏｕ　ｐｌａｎ　ｔｏ　ｄｏ　ｗｈー"TCC_NEWLINE"ｅｎＨｅｌ　ｔｕｒｎｓ　ｔｏｗａｒｄ　ｙｏｕ，　ａｎｄ　Ｅー"TCC_NEWLINE"ｍｂｌａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｏ　ｆｕｓｓ　ｓｏ，　Ｖｅｒｏｎｉｃａ．　Ｂｕｔ"TCC_NEWLINE"　ｒａｔｈｅｒ　ｔｈａｎ　ｗｏｒｒｙ　ａｂｏｕｔ　ｍｙ　ｈー"TCC_NEWLINE"ｅａｄ，　ｗｈａｔ　ｏｆ　ｔｈｅ　ｌｏｃａｔｉｏｎｓ　ｏｆ"TCC_NEWLINE"．．．ｏｔｈｅｒ　ｔｈｉｎｇｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｂｒｏｔｈｅｒ，　ｔｈｅ　ｐｒｉｎｃｅ，　ｓｔｉー"TCC_NEWLINE"ｌｌ　ｈａｓｎ’ｔ　ｒｅｔｕｒｎｅｄ　ｆｒｏｍ　ｈｉｓ　ｌー"TCC_NEWLINE"ｉｔｔｌｅ　ｑｕｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｈａｔ　ｄｏ　ｙｏｕ　ｐｌａｎ　ｔｏ　ｄｏ　ｗｈー"TCC_NEWLINE"ｅｎ　Ｈｅｌ　ｔｕｒｎｓ　ｔｏｗａｒｄ　ｙｏｕ，　ａｎｄ　"TCC_NEWLINE"Ｅｍｂｌａ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉｆ　Ｈｅｌ　ｄｅｓｔｒｏｙｓ　Ａｓｋｒ，　ｔｈａｔ　ｉｓ"TCC_NEWLINE"　ａｌｌ　ｔｏ　ｔｈｅｇｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　Ｅｍｂｌａ　ｍｕｓｔ　ｎｏｔ　ｂｅ　ｔｏｕｃｈｅｄ"TCC_NEWLINE"　ｂｙｔｈｉｓ　ｃｏｎｆｌｉｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｈｅｌ　ｄｅｓｔｒｏｙｓ　Ａｓｋｒ，　ｔｈａｔ　ｉｓ"TCC_NEWLINE"　ａｌｌ　ｔｏ　ｔｈｅ　ｇｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｅｍｂｌａ　ｍｕｓｔ　ｎｏｔ　ｂｅ　ｔｏｕｃｈｅｄ"TCC_NEWLINE"　ｂｙ　ｔｈｉｓ　ｃｏｎｆｌｉｃｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｈｅ　ｄｅａｄ　ａｒｅ　ｅｎｅｍｉｅｓ　ｔｏ　ａｌｌ　ｔー"TCC_NEWLINE"ｈｅ　ｌｉｖｉｎｇ．Ｉｔ’ｓ　ｏｎｌｙ　ａ　ｍａｔｔｅｒ　"TCC_NEWLINE"ｏｆ　ｔｉｍｅ，　ｓｗｅｅｔ　ｇｉｒｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅｌ　ｍａｋｅｓ　ａｎ　ｕｎｒｅｌｅｎｔｉｎｇ　ｆｏｅ．"TCC_NEWLINE"　Ａｌｏｎｅ，Ａｓｋｒ　ｓｔａｎｄｓ　ｎｏ　ｃｈａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｄｅａｄ　ａｒｅ　ｅｎｅｍｉｅｓ　ｔｏ　ａｌｌ　ｔー"TCC_NEWLINE"ｈｅ　ｌｉｖｉｎｇ．　Ｉｔ’ｓ　ｏｎｌｙ　ａ　ｍａｔｔｅｒ"TCC_NEWLINE"　ｏｆ　ｔｉｍｅ，　ｓｗｅｅｔ　ｇｉｒｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌ　ｍａｋｅｓ　ａｎ　ｕｎｒｅｌｅｎｔｉｎｇ　ｆｏｅ．"TCC_NEWLINE"　Ａｌｏｎｅ，　Ａｓｋｒ　ｓｔａｎｄｓ　ｎｏ　ｃｈａｎｃｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｌｏｋｉ．．．　Ｔｈｉｓ　ｉｓ　ｙｏｕｒ　ｄｏｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｍｙ　ｄｅａｒ！　Ｙｏｕ　ｗｏｕｎｄ　ｍｅ！　Ｔｏ　ｓｕｇー"TCC_NEWLINE"ｇｅｓｔｔｈａｔ　Ｉ’ｄ　ｂｅ　ｒｅｓｐｏｎｓｉｂｌｅ　ｆー"TCC_NEWLINE"ｏｒ　ｔｈｉｓ．．．　Ａｆｔｅｒａｌｌ　ｗｅ’ｖｅ　ｂｅｅー"TCC_NEWLINE"ｎ　ｔｈｒｏｕｇｈ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｄｅａｒ！　Ｙｏｕ　ｗｏｕｎｄ　ｍｅ！　Ｔｏ　ｓｕｇー"TCC_NEWLINE"ｇｅｓｔ　ｔｈａｔ　Ｉ’ｄ　ｂｅ　ｒｅｓｐｏｎｓｉｂｌｅ　"TCC_NEWLINE"ｆｏｒ　ｔｈｉｓ．．．　Ａｆｔｅｒ　ａｌｌ　ｗｅ’ｖｅ　ｂー"TCC_NEWLINE"ｅｅｎ　ｔｈｒｏｕｇｈ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

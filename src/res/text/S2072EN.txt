@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2072_EN] = TCC_OPEN_LEFT
-"Ｉ　ａｍ　Ｒｅｉｎｈａｒｄｔ　ｏｆ　Ｆｒｉｅｇｅ，　ｔｈｅ"TCC_NEWLINE"　ｍａｇｅｋｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｓｔ　ｙｏｕ　ｔｈｉｎｋ　ｍｙ　ｔａｌｅｎｔｓ　ａｒｅ"TCC_NEWLINE"　ｌｉｍｉｔｅｄｔｏ　ｍａｇｉｃ，　ｌｅｔ　ｍｅ　ｄｅｍｏー"TCC_NEWLINE"ｎｓｔｒａｔｅ　ｔｏ　ｙｏｕｍｙ　ｓｋｉｌｌ　ｗｉｔｈ　ａ"TCC_NEWLINE"　ｂｌａｄｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｒｅｉｎｈａｒｄｔ　ｏｆ　Ｆｒｉｅｇｅ，　ｔｈｅ"TCC_NEWLINE"　ｍａｇｅ　ｋｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｓｔ　ｙｏｕ　ｔｈｉｎｋ　ｍｙ　ｔａｌｅｎｔｓ　ａｒｅ"TCC_NEWLINE"　ｌｉｍｉｔｅｄ　ｔｏ　ｍａｇｉｃ，　ｌｅｔ　ｍｅ　ｄｅｍー"TCC_NEWLINE"ｏｎｓｔｒａｔｅ　ｔｏ　ｙｏｕ　ｍｙ　ｓｋｉｌｌ　ｗｉｔｈ"TCC_NEWLINE"　ａ　ｂｌａｄｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,20 +1,20 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ’ｖｅ　ｂｅｅｎ　ｔｒａｖｅｌｉｎｇ　ｆｏｒ　ｓｏｍｅ"TCC_NEWLINE"　ｔｉｍｅ．．．ａｎｄ　ｙｅｔ．．．ｗｅ　ｈａｖｅｎ’ｔ　"TCC_NEWLINE"ｅｎｃｏｕｎｔｅｒｅｄａ　ｓｏｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｂｅｅｎ　ｔｒａｖｅｌｉｎｇ　ｆｏｒ　ｓｏｍｅ"TCC_NEWLINE"　ｔｉｍｅ．．．　ａｎｄ　ｙｅｔ．．．ｗｅ　ｈａｖｅｎ’ｔ"TCC_NEWLINE"　ｅｎｃｏｕｎｔｅｒｅｄ　ａ　ｓｏｕｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏｎｅ　ｏｆ　ｕｓ　ｗａｎｔｓ　ｔｏ　ｓａｙ　ｉｔ，　ｂー"TCC_NEWLINE"ｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈｅｙ’ｒｅ　ａｌｌ　ｄｅａｄ．　Ｄｏｗｎ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｌａｓｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｎｏ！　Ｔｈａｔ　ｃａｎ’ｔ　ｂｅ！　Ｅｖｅｒｙｏｎｅ？　"TCC_NEWLINE"Ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ　ｄｏ　ｎｏｔ　ｌｉｋｅ　ｔｈｅ　ｉｄｅａ　ａｎｙ　ｍｏー"TCC_NEWLINE"ｒｅ　ｔｈａｎｙｏｕ　ｄｏ．　Ｂｕｔ　ｄｏ　ｙｏｕ　ｈａｖー"TCC_NEWLINE"ｅ　ａｎｏｔｈｅｒ？Ｏｎｅ　ｔｈａｔ　ｂｅｔｔｅｒ　ｆｉｔー"TCC_NEWLINE"ｓ　ｔｈｅ　ｅｖｉｄｅｎｃｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗｅｖｅｒ．．．ｅｖｅｎ　ｉｆ　ｗｅ　ａｃｃｅｐｔ　ｔー"TCC_NEWLINE"ｈａｔｐｒｅｍｉｓｅ，　ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈｙ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｓ　Ａｓｋｒ　ｓｅｅｍｓ　ｔｏ　ｂｅ　ｎｏ　ｄｉｆｆー"TCC_NEWLINE"ｅｒｅｎｔｔｈａｎ　ｏｕｒ　ｏｗｎ．　Ｔｈｅ　ｓｔｒｅｅｔー"TCC_NEWLINE"ｓ，　ｔｈｅ　ｓｈｏｐｓ，ｔｈｅ　ｌａｎｄ，　ｅｖｅｎ　ｔー"TCC_NEWLINE"ｈｅ　ｗｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏ　ｎｏｔ　ｌｉｋｅ　ｔｈｅ　ｉｄｅａ　ａｎｙ　ｍｏー"TCC_NEWLINE"ｒｅ　ｔｈａｎ　ｙｏｕ　ｄｏ．　Ｂｕｔ　ｄｏ　ｙｏｕ　ｈａー"TCC_NEWLINE"ｖｅ　ａｎｏｔｈｅｒ？　Ｏｎｅ　ｔｈａｔ　ｂｅｔｔｅｒ　ｆー"TCC_NEWLINE"ｉｔｓ　ｔｈｅ　ｅｖｉｄｅｎｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ．．．ｅｖｅｎ　ｉｆ　ｗｅ　ａｃｃｅｐｔ　ｔー"TCC_NEWLINE"ｈａｔ　ｐｒｅｍｉｓｅ，　ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　Ａｓｋｒ　ｓｅｅｍｓ　ｔｏ　ｂｅ　ｎｏ　ｄｉｆｆー"TCC_NEWLINE"ｅｒｅｎｔ　ｔｈａｎ　ｏｕｒ　ｏｗｎ．　Ｔｈｅ　ｓｔｒｅｅー"TCC_NEWLINE"ｔｓ，　ｔｈｅ　ｓｈｏｐｓ，　ｔｈｅ　ｌａｎｄ，　ｅｖｅｎ"TCC_NEWLINE"　ｔｈｅ　ｗｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｉｔ’ｓ　ｌｉｋｅ　ｃｏｍｉｎｇ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｔ　ｉｔ　ｓｕｄｄｅｎｌｙ　ｆｅｌｌ　ｉｎｔｏ　ｒｕｉー"TCC_NEWLINE"ｎ．．．　Ｔｈｉｓｗｏｒｌｄ　ｉｓ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｉｔ　ｓｕｄｄｅｎｌｙ　ｆｅｌｌ　ｉｎｔｏ　ｒｕｉー"TCC_NEWLINE"ｎ．．．　Ｔｈｉｓ　ｗｏｒｌｄ　ｉｓ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｃｏｕｌｄ　ｈａｖｅ　ｈａｐｐｅｎｅｄ　ｈｅｒｅ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
@@ -22,34 +22,34 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｔｈｅ　ｅｎｅｍｙ！　Ｐｒｅｐａｒｅ　ｔｏ　ｉｎｔｅｒｃｅー"TCC_NEWLINE"ｐｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｏｗ　ｆｉｔｔｉｎｇ　ｔｈａｔ　ｙｏｕ　ｗｉｌｌ　ｐｅｒー"TCC_NEWLINE"ｉｓｈ　ｈｅｒｅ，ｉｎ　ｔｈｉｓ　ｒｕｉｎｅｄ　ｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｆｉｔｔｉｎｇ　ｔｈａｔ　ｙｏｕ　ｗｉｌｌ　ｐｅｒー"TCC_NEWLINE"ｉｓｈ　ｈｅｒｅ，　ｉｎ　ｔｈｉｓ　ｒｕｉｎｅｄ　ｌａｎｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏｗ，　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LIF
 "Ａｎｄ　ｙｅｔ　ｙｏｕ　ｓｔｒｕｇｇｌｅ．　Ｉｔ　ｉｓ　ｆー"TCC_NEWLINE"ｕｔｉｌｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｌｆ　ａｎｄ　ｈｉｓ　ｆｏｒｃｅｓ　ｈａｖｅ　ｒｅｔｒｅａー"TCC_NEWLINE"ｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｇｅｔｔｉｎｇ　ｄａｒｋ．　Ｗｅ　ｃａｎ　ｓｈｅー"TCC_NEWLINE"ｌｔｅｒ　ｉｎｔｈｉｓ　ｔｏｗｎ　ｏｖｅｒｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｇｅｔｔｉｎｇ　ｄａｒｋ．　Ｗｅ　ｃａｎ　ｓｈｅー"TCC_NEWLINE"ｌｔｅｒ　ｉｎ　ｔｈｉｓ　ｔｏｗｎ　ｏｖｅｒｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "ＯＫ！　Ｉ’ｌｌ　ｇｅｔ　ｄｉｎｎｅｒ　ｓｔａｒｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗａｉｔ　ａ　ｓｅｃｏｎｄ．．．　Ａｌｆｏｎｓｅ！　Ｔａｋー"TCC_NEWLINE"ｅ　ａｌｏｏｋ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔ　ａ　ｓｅｃｏｎｄ．．．　Ａｌｆｏｎｓｅ！　Ｔａｋー"TCC_NEWLINE"ｅ　ａ　ｌｏｏｋ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ａ　ｂｏｕｑｕｅｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｙｏｕ　ｋｎｏｗ　ｔｈｅｓｅ　ｆｌｏｗｅｒｓ．．．ｔｈｅｙ"TCC_NEWLINE"’ｒｅ　ｍｙｆａｖｏｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ’ｒｅ　ａｌｌ　ｏｖｅｒ　ｔｈｅ　ｐｌａｚａ，　ａー"TCC_NEWLINE"ｎｄ　ｎｏｔｊｕｓｔ　ｓｃａｔｔｅｒｅｄ　ｒａｎｄｏｍｌｙ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｋｎｏｗ　ｔｈｅｓｅ　ｆｌｏｗｅｒｓ．．．ｔｈｅｙ"TCC_NEWLINE"’ｒｅ　ｍｙ　ｆａｖｏｒｉｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ａｌｌ　ｏｖｅｒ　ｔｈｅ　ｐｌａｚａ，　ａー"TCC_NEWLINE"ｎｄ　ｎｏｔ　ｊｕｓｔ　ｓｃａｔｔｅｒｅｄ　ｒａｎｄｏｍｌー"TCC_NEWLINE"ｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｔｈｅｓｅ　ｆｌｏｗｅｒｓ　ｗｅｒｅ　ｐｌａｃｅｄ　ａｓ　"TCC_NEWLINE"ａｍｅｍｏｒｉａｌ．．．ａｓ　ａ　ｔｒｉｂｕｔｅ　ｔｏ　ｓー"TCC_NEWLINE"ｏｍｅｏｎｅｗｈｏ　ｄｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｓｅ　ｆｌｏｗｅｒｓ　ｗｅｒｅ　ｐｌａｃｅｄ　ａｓ　"TCC_NEWLINE"ａ　ｍｅｍｏｒｉａｌ．．．ａｓ　ａ　ｔｒｉｂｕｔｅ　ｔｏ　"TCC_NEWLINE"ｓｏｍｅｏｎｅ　ｗｈｏ　ｄｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｄｉｄ　Ｌｆ　ｄｏ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｄｏｅｓ　ｈｅ　ｃａｒｅ　ｆｏｒ　ｔｈｅ　ｐｅｏｐｌｅ　ｏー"TCC_NEWLINE"ｆ　Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ　ｉｓ　ｏｕｒ　ａｎｃｅｓｔｏｒ，　Ｉ　ｓｕｐｐｏｓｅ"TCC_NEWLINE"．．．　Ｈｅｍａｙ　ｌｏｏｋ　ｆｅａｒｓｏｍｅ，　ｂｕｔ　"TCC_NEWLINE"ｔｈａｔ　ｄｏｅｓｎ’ｔｍｅａｎ　ｈｅ　ｄｏｅｓｎ’ｔ　ｈー"TCC_NEWLINE"ａｖｅ　ｆｅｅｌｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｉｎｋｉｎｇ　ｏｆ　ｔｈｅ　ｃｉｔｉｚｅｎｓ．．．　Ｈー"TCC_NEWLINE"ｅ’ｓ　ｊｕｓｔｌｉｋｅ　ｙｏｕ　ａｎｄ　ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｉｓ　ｏｕｒ　ａｎｃｅｓｔｏｒ，　Ｉ　ｓｕｐｐｏｓｅ"TCC_NEWLINE"．．．　Ｈｅ　ｍａｙ　ｌｏｏｋ　ｆｅａｒｓｏｍｅ，　ｂｕｔ"TCC_NEWLINE"　ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍｅａｎ　ｈｅ　ｄｏｅｓｎ’ｔ"TCC_NEWLINE"　ｈａｖｅ　ｆｅｅｌｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｎｋｉｎｇ　ｏｆ　ｔｈｅ　ｃｉｔｉｚｅｎｓ．．．　Ｈー"TCC_NEWLINE"ｅ’ｓ　ｊｕｓｔ　ｌｉｋｅ　ｙｏｕ　ａｎｄ　ｆａｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ａｌｆｏｎｓｅ．．．？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
 "Ｏｈ，　ｓｏｒｒｙ．．．　Ｉ　ｗａｓ　ｌｏｓｔ　ｉｎ　ｔｈー"TCC_NEWLINE"ｏｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ａｌｌ　ｔｈｉｓ　ｂｏｔｈー"TCC_NEWLINE"ｅｒｓｍｅ．　Ｉ　ｆｅｅｌ　Ｉ　ｈａｖｅ　ｏｖｅｒｌｏｏｋー"TCC_NEWLINE"ｅｄａｎ　ｉｍｐｏｒｔａｎｔ　ｄｅｔａｉｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ　ａｌｌ　ｔｈｉｓ　ｂｏｔｈー"TCC_NEWLINE"ｅｒｓ　ｍｅ．　Ｉ　ｆｅｅｌ　Ｉ　ｈａｖｅ　ｏｖｅｒｌｏｏー"TCC_NEWLINE"ｋｅｄ　ａｎ　ｉｍｐｏｒｔａｎｔ　ｄｅｔａｉｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

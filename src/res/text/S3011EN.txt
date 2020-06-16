@@ -7,66 +7,66 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｍｏｔｈｅｒ！　Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅー"TCC_NEWLINE"ｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｔｈｅｒｅ　ｙｏｕ　ａｒｅ．　Ｙｏｕ　ｌｏｏｋ　ｗー"TCC_NEWLINE"ｅｌｌ，ｂｏｔｈ　ｏｆ　ｙｏｕ！　Ｉ’ｍ　ｓｏ　ｇｌａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｔｈｅｒｅ　ｙｏｕ　ａｒｅ．　Ｙｏｕ　ｌｏｏｋ　ｗー"TCC_NEWLINE"ｅｌｌ，　ｂｏｔｈ　ｏｆ　ｙｏｕ！　Ｉ’ｍ　ｓｏ　ｇｌａｄ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｙｏｕｒ　Ｍａｊｅｓｔｙ！　Ｈａｖｅ　ｙｏｕ　ｂｅｅｎｗａー"TCC_NEWLINE"ｎｄｅｒｉｎｇ　ｔｈｅ　ｃａｓｔｌｅ　ｗｉｔｈｏｕｔ　ｙｏー"TCC_NEWLINE"ｕｒｇｕａｒｄｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　Ｍａｊｅｓｔｙ！　Ｈａｖｅ　ｙｏｕ　ｂｅｅｎ　ｗー"TCC_NEWLINE"ａｎｄｅｒｉｎｇ　ｔｈｅ　ｃａｓｔｌｅ　ｗｉｔｈｏｕｔ　ｙー"TCC_NEWLINE"ｏｕｒ　ｇｕａｒｄｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｉｔ’ｓ　ｂｅｅｎ　ｓｏｍー"TCC_NEWLINE"ｅｔｉｍｅ．　Ｔｈａｎｋ　ｙｏｕ　ｆｏｒ　ｔａｋｉｎｇ　Ａー"TCC_NEWLINE"ｌｆｏｎｓｅａｎｄ　Ｓｈａｒｅｎａ　ｕｎｄｅｒ　ｙｏｕｒ　"TCC_NEWLINE"ｗｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈａｔ　ａ　ｃａｓｔｌｅ　ｙｏｕ　ｈａｖｅ　ｈｅｒｅ！　"TCC_NEWLINE"Ａｌｌ　ｏｆｔｈｅｓｅ　Ｈｅｒｏｅｓ．．．　Ｉｔ’ｓ　ｌｏー"TCC_NEWLINE"ｖｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ！　Ｉｔ’ｓ　ｂｅｅｎ　ｓｏｍー"TCC_NEWLINE"ｅ　ｔｉｍｅ．　Ｔｈａｎｋ　ｙｏｕ　ｆｏｒ　ｔａｋｉｎｇ　"TCC_NEWLINE"Ａｌｆｏｎｓｅ　ａｎｄ　Ｓｈａｒｅｎａ　ｕｎｄｅｒ　ｙｏｕー"TCC_NEWLINE"ｒ　ｗｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ａ　ｃａｓｔｌｅ　ｙｏｕ　ｈａｖｅ　ｈｅｒｅ！　"TCC_NEWLINE"Ａｌｌ　ｏｆ　ｔｈｅｓｅ　Ｈｅｒｏｅｓ．．．　Ｉｔ’ｓ　ｌー"TCC_NEWLINE"ｏｖｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｉ’ｄ　ｌｉｋｅ　ｔｏ　ｉｎｔｒｏｄｕｃｅ　ｙｏｕ　ｔｏ　"TCC_NEWLINE"ｏｕｒｓｕｍｍｏｎｅｒ，"TCC_NEWLINE
+"Ｉ’ｄ　ｌｉｋｅ　ｔｏ　ｉｎｔｒｏｄｕｃｅ　ｙｏｕ　ｔｏ　"TCC_NEWLINE"ｏｕｒ　ｓｕｍｍｏｎｅｒ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｏ　ＹＯＵ’ＲＥ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｖｅ　ｈｅａｒｄ　ａｌｌ　ａｂｏｕｔ　ｙｏｕ　ｆｒｏｍー"TCC_NEWLINE"Ｓｈａｒｅｎａ．　Ｉｔ’ｓ　ｓｕｃｈ　ａ　ｔｒｅａｔ　ｔｏ"TCC_NEWLINE"　ｍｅｅｔｙｏｕ．　Ｙｏｕ’ｖｅ　ｄｏｎｅ　ｓｏ　ｍｕｃｈ"TCC_NEWLINE"　ｆｏｒ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ａｍ　Ｈｅｎｒｉｅｔｔｅ．　Ｔｈａｎｋ　ｙｏｕ　ｆｏｒ"TCC_NEWLINE"　ａｌｌｙｏｕ’ｖｅ　ｄｏｎｅ　ｆｏｒ　ｍｙ　ｃｈｉｌｄｒー"TCC_NEWLINE"ｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｈｅａｒｄ　ａｌｌ　ａｂｏｕｔ　ｙｏｕ　ｆｒｏｍ"TCC_NEWLINE"　Ｓｈａｒｅｎａ．　Ｉｔ’ｓ　ｓｕｃｈ　ａ　ｔｒｅａｔ　ｔー"TCC_NEWLINE"ｏ　ｍｅｅｔ　ｙｏｕ．　Ｙｏｕ’ｖｅ　ｄｏｎｅ　ｓｏ　ｍｕー"TCC_NEWLINE"ｃｈ　ｆｏｒ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｈｅｎｒｉｅｔｔｅ．　Ｔｈａｎｋ　ｙｏｕ　ｆｏｒ"TCC_NEWLINE"　ａｌｌ　ｙｏｕ’ｖｅ　ｄｏｎｅ　ｆｏｒ　ｍｙ　ｃｈｉｌｄー"TCC_NEWLINE"ｒｅｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍｏｔｈｅｒ．．．　Ｗｈｙ　ｈａｖｅ　ｙｏｕ　ｃｏｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔｏ　ｂｒｉｎｇ　ｙｏｕ　ｂａｃｋ　ｈｏｍｅ．　Ｙｏｕｒ　"TCC_NEWLINE"ｆａｔｈｅｒｎｅｅｄｓ　ｔｏ　ｓｐｅａｋ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｂｒｉｎｇ　ｙｏｕ　ｂａｃｋ　ｈｏｍｅ．　Ｙｏｕｒ　"TCC_NEWLINE"ｆａｔｈｅｒ　ｎｅｅｄｓ　ｔｏ　ｓｐｅａｋ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｅ　ｄｏｅｓ？　Ｌａｓｔ　ｗｅ　ｓｐｏｋｅ，　Ｉｕｎｄｅー"TCC_NEWLINE"ｒｓｔｏｏｄ　ｔｈａｔ　ｈｅ．．．　Ｈｅ　ｄｉｄｎｏｔ　ｗー"TCC_NEWLINE"ｉｓｈ　ｔｏ　ｓｅｅ　ｍｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｄｏｅｓ？　Ｌａｓｔ　ｗｅ　ｓｐｏｋｅ，　Ｉ　ｕｎｄー"TCC_NEWLINE"ｅｒｓｔｏｏｄ　ｔｈａｔ　ｈｅ．．．　Ｈｅ　ｄｉｄ　ｎｏｔ"TCC_NEWLINE"　ｗｉｓｈ　ｔｏ　ｓｅｅ　ｍｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｈｅ’ｓ　ｔｈｅ　ｏｎｅ　ｗｈｏ"TCC_NEWLINE"　ａｓｋｅｄｍｅ　ｔｏ　ｃｏｍｅ　ａｎｄ　ｇｅｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｈｅ’ｓ　ｔｈｅ　ｏｎｅ　ｗｈｏ"TCC_NEWLINE"　ａｓｋｅｄ　ｍｅ　ｔｏ　ｃｏｍｅ　ａｎｄ　ｇｅｔ　ｙｏｕ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｅ　ｗｉｓｈｅｓ　ｔｏ　ｓｐｅａｋ　ｔｏ　ｙｏｕ　ｐｒｉー"TCC_NEWLINE"ｖａｔｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ　ｃｏｕｌｄ　ｂｅ　ｓｏ　ｉｍｐｏｒｔａｎｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｏｈ，　ｙｏｕ　ｋｎｏｗ　ｈｏｗ　ｈｅ　ｉｓ．　Ｙｏｕ’ｌー"TCC_NEWLINE"ｌ　ｆｉｎｄｏｕｔ　ｓｏｏｎ　ｅｎｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｔ’ｓ　ｇｅｔ　ｙｏｕｒ　ｔｈｉｎｇｓ　ｔｏｇｅｔｈｅー"TCC_NEWLINE"ｒ，Ａｌｆｏｎｓｅ，　ａｎｄ　ｂｅ　ｏｎ　ｏｕｒ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｙｏｕ　ｋｎｏｗ　ｈｏｗ　ｈｅ　ｉｓ．　Ｙｏｕ’ｌー"TCC_NEWLINE"ｌ　ｆｉｎｄ　ｏｕｔ　ｓｏｏｎ　ｅｎｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｇｅｔ　ｙｏｕｒ　ｔｈｉｎｇｓ　ｔｏｇｅｔｈｅー"TCC_NEWLINE"ｒ，　Ａｌｆｏｎｓｅ，　ａｎｄ　ｂｅ　ｏｎ　ｏｕｒ　ｗａｙ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｈａｔ？　Ｔｈｅ　ｅｎｅｍｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｈｅｒｅ　ｉｎ　Ａｓｋｒ？　Ｂｕｔ　ｈｏｗ？　Ｗｅ’ｒｅｎー"TCC_NEWLINE"ｏｗｈｅｒｅ　ｎｅａｒ　ｔｈｅ　ｂｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ　ｉｎ　Ａｓｋｒ？　Ｂｕｔ　ｈｏｗ？　Ｗｅ’ｒｅ　"TCC_NEWLINE"ｎｏｗｈｅｒｅ　ｎｅａｒ　ｔｈｅ　ｂｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｉ’ｖｅ　ｈｅａｒｄ　ｎｏｔｈｉｎｇ　ｆｒｏｍ　ｏｕｒ　ｓー"TCC_NEWLINE"ｃｏｕｔｓｏｒ　ｔｈｅ　ｂｏｒｄｅｒ　ｐａｔｒｏｌｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｙｅｔ　ｌｏｏｋ　ａｔ　ｔｈｅ　ｓｉｚｅ　ｏｆ　ｔｈｉｓ　"TCC_NEWLINE"ａｒｍｙ．．．Ｗｈｅｒｅ　ｄｉｄ　ｔｈｅｙ　ｃｏｍｅ　ｆｒー"TCC_NEWLINE"ｏｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｈｅａｒｄ　ｎｏｔｈｉｎｇ　ｆｒｏｍ　ｏｕｒ　ｓー"TCC_NEWLINE"ｃｏｕｔｓ　ｏｒ　ｔｈｅ　ｂｏｒｄｅｒ　ｐａｔｒｏｌｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｌｏｏｋ　ａｔ　ｔｈｅ　ｓｉｚｅ　ｏｆ　ｔｈｉｓ　"TCC_NEWLINE"ａｒｍｙ．．．　Ｗｈｅｒｅ　ｄｉｄ　ｔｈｅｙ　ｃｏｍｅ　ｆー"TCC_NEWLINE"ｒｏｍ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｔａｋｅ　ａ　ｌｏｏｋ　ａｔ　ｔｈｅｉｒ　ｕｎｉｆｏｒｍｓー"TCC_NEWLINE"ｔｈｅｓｅｓｏｌｄｉｅｒｓ　ａｐｐｅａｒ　ｔｏ　ｂｅ　ｆｒー"TCC_NEWLINE"ｏｍ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔａｋｅ　ａ　ｌｏｏｋ　ａｔ　ｔｈｅｉｒ　ｕｎｉｆｏｒｍｓー"TCC_NEWLINE"ｔｈｅｓｅ　ｓｏｌｄｉｅｒｓ　ａｐｐｅａｒ　ｔｏ　ｂｅ　ｆー"TCC_NEWLINE"ｒｏｍ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_HENRIETTE
 "Ｎｏ．　Ｔｈｅｙ　ａｒｅ　ｆｒｏｍ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｅｌ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｎｏ　ｔｉｍｅ　ｆｏｒ　ｔｈａｔ　ｎｏｗ！　Ｙｏｕｒ　Ｍａー"TCC_NEWLINE"ｊｅｓｔｙ，ｓｔａｎｄ　ｂａｃｋ．　Ｗｅ’ｒｅ　ｇｏｉｎｇ"TCC_NEWLINE"　ｔｏ　ｅｎｇａｇｅｔｈｅ　ｅｎｅｍｙ．　Ｇｅｔ　ｒｅａｄー"TCC_NEWLINE"ｙ，　ｅｖｅｒｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｔｉｍｅ　ｆｏｒ　ｔｈａｔ　ｎｏｗ！　Ｙｏｕｒ　Ｍａー"TCC_NEWLINE"ｊｅｓｔｙ，　ｓｔａｎｄ　ｂａｃｋ．　Ｗｅ’ｒｅ　ｇｏｉｎー"TCC_NEWLINE"ｇ　ｔｏ　ｅｎｇａｇｅ　ｔｈｅ　ｅｎｅｍｙ．　Ｇｅｔ　ｒｅー"TCC_NEWLINE"ａｄｙ，　ｅｖｅｒｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｔｈｅｙ’ｒｅ　ｖａｎｉｓｈｉｎｇ．．．ｌｉｋｅ　ｓｐｅｃー"TCC_NEWLINE"ｔｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｉｓ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HENRIETTE
-"Ｔｈｅｓｅ　ｓｏｌｄｉｅｒｓ．．．ｈａｄ　ａｌｒｅａｄｙ　"TCC_NEWLINE"ｄｉｅｄ．Ｔｈｅｙ’ｒｅ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ"TCC_NEWLINE"　ｗｈｏ　ｆｅｌｌ　ｉｎｂａｔｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ａｒｅ　ｎｏｗ　ｔｈｅ　ｖａｎｇｕａｒｄ　ｏｆ　"TCC_NEWLINE"ｔｈｅｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｓｅ　ｓｏｌｄｉｅｒｓ．．．ｈａｄ　ａｌｒｅａｄｙ　"TCC_NEWLINE"ｄｉｅｄ．　Ｔｈｅｙ’ｒｅ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒー"TCC_NEWLINE"ｓ　ｗｈｏ　ｆｅｌｌ　ｉｎ　ｂａｔｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ａｒｅ　ｎｏｗ　ｔｈｅ　ｖａｎｇｕａｒｄ　ｏｆ　"TCC_NEWLINE"ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｏｗ　ｃｒｕｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｄｉｄ　ｙｏｕ　ｓａｙ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　"TCC_NEWLINE"ｄｅａｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ．　Ｓｏｍｅ　ｗｈｏ　ｐａｓｓ　ｏｎ　ｇｏ　ｔｏ　ａ"TCC_NEWLINE"　ｊｏｙｆｕｌｐｌａｃｅ．　Ｏｔｈｅｒｓ．．．ｄｅｓｃｅｎー"TCC_NEWLINE"ｄ　ｔｏ　ａ　ｒｅａｌｍ　ｏｆｕｎｅｎｄｉｎｇ　ｄａｒｋｎー"TCC_NEWLINE"ｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ　ｒｅａｌｍ　ｉｓ　ｃａｌｌｅｄ　Ｈｅｌ．　Ｙｏｕー"TCC_NEWLINE"ｒ　ｆａｔｈｅｒｗｉｌｌ　ｅｘｐｌａｉｎ　ｍｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｓｏｍｅ　ｗｈｏ　ｐａｓｓ　ｏｎ　ｇｏ　ｔｏ　ａ"TCC_NEWLINE"　ｊｏｙｆｕｌ　ｐｌａｃｅ．　Ｏｔｈｅｒｓ．．．ｄｅｓｃｅー"TCC_NEWLINE"ｎｄ　ｔｏ　ａ　ｒｅａｌｍ　ｏｆ　ｕｎｅｎｄｉｎｇ　ｄａｒー"TCC_NEWLINE"ｋｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｒｅａｌｍ　ｉｓ　ｃａｌｌｅｄ　Ｈｅｌ．　Ｙｏｕー"TCC_NEWLINE"ｒ　ｆａｔｈｅｒ　ｗｉｌｌ　ｅｘｐｌａｉｎ　ｍｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｓｏ　ｔｈｉｓ　ｉｓ　ｗｈａｔ　Ｆａｔｈｅｒ　ｗａｎｔｓ　"TCC_NEWLINE"ｔｏ　ｔａｌｋｔｏ　ｍｅ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｔｈｉｓ　ｉｓ　ｗｈａｔ　Ｆａｔｈｅｒ　ｗａｎｔｓ　"TCC_NEWLINE"ｔｏ　ｔａｌｋ　ｔｏ　ｍｅ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｅｓ．　Ａｎｄ　ｎｏｗ，　Ｉ　ｆｅａｒ　ｗｅ　ｈａｖｅ　"TCC_NEWLINE"ｌｅｓｓｔｉｍｅ　ｔｈａｎ　Ｉ　ｔｈｏｕｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ａｎｄ　ｎｏｗ，　Ｉ　ｆｅａｒ　ｗｅ　ｈａｖｅ　"TCC_NEWLINE"ｌｅｓｓ　ｔｉｍｅ　ｔｈａｎ　Ｉ　ｔｈｏｕｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ　ｕｓ　ｈｕｒｒｙ　ｔｏ　Ｈｉｓ　Ｍａｊｅｓｔｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,33 +1,33 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0605_EN] = TCC_OPEN_LEFT
-"Ａｈ！　Ａｒｅ　ｙｏｕ　ｔｈｅ　ｂａｄ　ｐｅｏｐｌｅ　ｔｈー"TCC_NEWLINE"ａｔＶｅｒｏｎｉｃａ　ｗａｒｎｅｄ　ｕｓ　ａｂｏｕｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｙ　ｃａｎ’ｔ　ｙｏｕ　ｊｕｓｔ　ｇｏ　ａｗａｙ？Ｂｅー"TCC_NEWLINE"ｓｉｄｅｓ，　ｉｆ　ｙｏｕ　ｇｅｔ　ａｎｙｃｌｏｓｅｒ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ　ｔｏ　ｈｏｌｄ　ｂａｃｋ，"TCC_NEWLINE"　ａｎｄｔｈｅｎ．．．Ｉ　ｃａｎ’ｔ　ｈｅｌｐ　ｉｔ　ｉｆ"TCC_NEWLINE"　Ｉ　ｄｏ　ａｗｆｕｌｔｈｉｎｇｓ　ｔｏ　ａｌｌ　ｏｆ　ｙー"TCC_NEWLINE"ｏｕ！"
+"Ａｈ！　Ａｒｅ　ｙｏｕ　ｔｈｅ　ｂａｄ　ｐｅｏｐｌｅ　ｔｈー"TCC_NEWLINE"ａｔ　Ｖｅｒｏｎｉｃａ　ｗａｒｎｅｄ　ｕｓ　ａｂｏｕｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｃａｎ’ｔ　ｙｏｕ　ｊｕｓｔ　ｇｏ　ａｗａｙ？　Ｂー"TCC_NEWLINE"ｅｓｉｄｅｓ，　ｉｆ　ｙｏｕ　ｇｅｔ　ａｎｙ　ｃｌｏｓｅｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ　ｔｏ　ｈｏｌｄ　ｂａｃｋ，"TCC_NEWLINE"　ａｎｄ　ｔｈｅｎ．．．Ｉ　ｃａｎ’ｔ　ｈｅｌｐ　ｉｔ　ｉー"TCC_NEWLINE"ｆ　Ｉ　ｄｏ　ａｗｆｕｌ　ｔｈｉｎｇｓ　ｔｏ　ａｌｌ　ｏｆ"TCC_NEWLINE"　ｙｏｕ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0605_EN] = TCC_OPEN_LEFT
-"Ｙｏｕ　ｂｅａｔ　ｍｅ？　Ｔｈａｎｋｓ　ｔｏ　ｙｏｕ，Ｉ’"TCC_NEWLINE"ｍ　ｂａｃｋ　ｔｏ　ｍｙ　ｎｏｒｍａｌ　ｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ｂｅｔｔｅｒｎｏｗ　Ｉ　ｄｏｎ’ｔ　ｎｅｅｄｔｏ"TCC_NEWLINE"　ｆｉｇｈｔ　ａｎｙｍｏｒｅ！"
+"Ｙｏｕ　ｂｅａｔ　ｍｅ？　Ｔｈａｎｋｓ　ｔｏ　ｙｏｕ，　Ｉ"TCC_NEWLINE"’ｍ　ｂａｃｋ　ｔｏ　ｍｙ　ｎｏｒｍａｌ　ｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｂｅｔｔｅｒｎｏｗ　Ｉ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔー"TCC_NEWLINE"ｏ　ｆｉｇｈｔ　ａｎｙｍｏｒｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S0605_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅｌｌ　ｄｏｎｅ，　ｅｖｅｒｙｏｎｅ．　Ｔｈａｔ’ｓ　ｏー"TCC_NEWLINE"ｎｅｍｏｒｅ　ｓｕｃｃｅｓｓｆｕｌ　ｍｉｓｓｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
-"Ｓｅｅｍｓ　ｌｉｋｅ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅー"TCC_NEWLINE"ｗａｓｎ’ｔ　ａｆｔｅｒ　Ｍａｒｔｈ　ａｔ　ａｌｌ　ｔｈｉー"TCC_NEWLINE"ｓ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ　ｄｏｎｅ，　ｅｖｅｒｙｏｎｅ．　Ｔｈａｔ’ｓ　ｏー"TCC_NEWLINE"ｎｅ　ｍｏｒｅ　ｓｕｃｃｅｓｓｆｕｌ　ｍｉｓｓｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｅｍｓ　ｌｉｋｅ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ"TCC_NEWLINE"　ｗａｓｎ’ｔ　ａｆｔｅｒ　Ｍａｒｔｈ　ａｔ　ａｌｌ　ｔｈー"TCC_NEWLINE"ｉｓ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｉｆ　ｏｎｌｙ　ｗｅ　ｃｏｕｌｄ　ｃｌｏｓｅ　ｔｈｅ　ｇａー"TCC_NEWLINE"ｔｅｗａｙ　ｔｏｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ，"TCC_NEWLINE"　ｔｈｅｎ　ｔｈｅＥｍｂｌｉａｎｓ　ｃｏｕｌｄｎ’ｔ　ｋｅー"TCC_NEWLINE"ｅｐ　ｇｏｉｎｇ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｏｎｌｙ　ｗｅ　ｃｏｕｌｄ　ｃｌｏｓｅ　ｔｈｅ　ｇａー"TCC_NEWLINE"ｔｅｗａｙ　ｔｏ　ｔｈｅ　Ｗｏｒｌｄ　ｏｆ　Ｍｙｓｔｅｒｙ"TCC_NEWLINE"，　ｔｈｅｎ　ｔｈｅ　Ｅｍｂｌｉａｎｓ　ｃｏｕｌｄｎ’ｔ　"TCC_NEWLINE"ｋｅｅｐ　ｇｏｉｎｇ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
-"Ｙｏｕ’ｒｅ　ｐｒｏｂａｂｌｙ　ａｓｋｉｎｇ　ｙｏｕｒｓｅー"TCC_NEWLINE"ｌｆ　ｗｈｙｗｅ　ｄｏｎ’ｔ　ｊｕｓｔ　ｇｕａｒｄ　ｔｈｅ"TCC_NEWLINE"　ｇａｔｅｗａｙｓ，"TCC_NEWLINE
+"Ｙｏｕ’ｒｅ　ｐｒｏｂａｂｌｙ　ａｓｋｉｎｇ　ｙｏｕｒｓｅー"TCC_NEWLINE"ｌｆ　ｗｈｙ　ｗｅ　ｄｏｎ’ｔ　ｊｕｓｔ　ｇｕａｒｄ　ｔｈー"TCC_NEWLINE"ｅ　ｇａｔｅｗａｙｓ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｔｈｉｎｇ　ｉｓ，　ｗｅ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｒ　ａｔ　ｌｅａｓｔ　ｗｅ　ｔｒｙｂｕｔ　ｔｈｅｒｅ　ａー"TCC_NEWLINE"ｒｅｊｕｓｔ　ｔｏｏ　ｍａｎｙ　ｇａｔｅｗａｙｓ　ａｎｄｔー"TCC_NEWLINE"ｏｏ　ｍａｎｙ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｓｈ　ｔｈａｔ　ｗｅ　ｒｏｙａｌｓ　ｏｆ　Ａｓｋｒ"TCC_NEWLINE"　ｈａｄｔｈｅ　ａｂｉｌｉｔｙ　ｔｏ　ｃｌｏｓｅ　ｔｈｅ　"TCC_NEWLINE"ｗａｙ　ｔｏｔｈｏｓｅ　ｗｏｒｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ　ａｔ　ｌｅａｓｔ　ｗｅ　ｔｒｙｂｕｔ　ｔｈｅｒｅ　ａー"TCC_NEWLINE"ｒｅ　ｊｕｓｔ　ｔｏｏ　ｍａｎｙ　ｇａｔｅｗａｙｓ　ａｎｄ"TCC_NEWLINE"　ｔｏｏ　ｍａｎｙ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈ　ｔｈａｔ　ｗｅ　ｒｏｙａｌｓ　ｏｆ　Ａｓｋｒ"TCC_NEWLINE"　ｈａｄ　ｔｈｅ　ａｂｉｌｉｔｙ　ｔｏ　ｃｌｏｓｅ　ｔｈｅ"TCC_NEWLINE"　ｗａｙ　ｔｏ　ｔｈｏｓｅ　ｗｏｒｌｄｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｔｈｅ　ｒｏｙａｌ　ｐｏｗｅｒｓ　ｔｏ　ｏｐｅｎ　ａｎｄ　"TCC_NEWLINE"ｃｌｏｓｅｔｈｅ　ｇａｔｅｗａｙｓ　ａｒｅ　ｍｅａｎｔ　ｔー"TCC_NEWLINE"ｏ　ｗｏｒｋｉｎ　ｔａｎｄｅｍ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｏｎｄｅｒ，　ｉｆ　Ａｓｋｒ　ｃｏｕｌｄ　ｃｌｏｓｅ"TCC_NEWLINE"　ｇａｔｅｓ，ｗｏｕｌｄ　ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｏｐｅー"TCC_NEWLINE"ｎ　ｔｈｅｍｓｉｍｐｌｙ　ｓｈｉｆｔ　ｔｏ　Ｅｍｂｌａ？"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｇｅｎｄｓ　ｓｕｇｇｅｓｔ　ｔｈａｔ　ｍｉｇｈｔ　ｂｅ"TCC_NEWLINE"　ｓｏ．Ａｎｄ　ｉｆ　ｉｔ　ｉｓ，　ｔｈｅｎ　ｗｅ’ｄ　ｂー"TCC_NEWLINE"ｅ　ｊｕｓｔ　ａｓｓｔｕｃｋ　ｉｎ　ｔｈｉｓ　ｐｒｅｄｉｃー"TCC_NEWLINE"ａｍｅｎｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｏｙａｌ　ｐｏｗｅｒｓ　ｔｏ　ｏｐｅｎ　ａｎｄ　"TCC_NEWLINE"ｃｌｏｓｅ　ｔｈｅ　ｇａｔｅｗａｙｓ　ａｒｅ　ｍｅａｎｔ　"TCC_NEWLINE"ｔｏ　ｗｏｒｋ　ｉｎ　ｔａｎｄｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｎｄｅｒ，　ｉｆ　Ａｓｋｒ　ｃｏｕｌｄ　ｃｌｏｓｅ"TCC_NEWLINE"　ｇａｔｅｓ，　ｗｏｕｌｄ　ｔｈｅ　ｐｏｗｅｒ　ｔｏ　ｏｐー"TCC_NEWLINE"ｅｎ　ｔｈｅｍ　ｓｉｍｐｌｙ　ｓｈｉｆｔ　ｔｏ　Ｅｍｂｌａ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｇｅｎｄｓ　ｓｕｇｇｅｓｔ　ｔｈａｔ　ｍｉｇｈｔ　ｂｅ"TCC_NEWLINE"　ｓｏ．　Ａｎｄ　ｉｆ　ｉｔ　ｉｓ，　ｔｈｅｎ　ｗｅ’ｄ　"TCC_NEWLINE"ｂｅ　ｊｕｓｔ　ａｓ　ｓｔｕｃｋ　ｉｎ　ｔｈｉｓ　ｐｒｅｄー"TCC_NEWLINE"ｉｃａｍｅｎｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｔｈａｔ’ｄ　ｂｅ　ｅｖｅｎ　ｗｏｒｓｅ．　Ｔｈｅｎ　ｗｅ"TCC_NEWLINE"’ｄｈａｖｅ　ｔｏ　ｃｈｅｃｋ　ＡＬＬ　ｔｈｅ　ｇａｔｅｓ"TCC_NEWLINE"，　ｎｏｔｊｕｓｔ　ｔｈｅ　ｏｎｅｓ　ｗｅ　ｏｎｃｅ　ｏｐー"TCC_NEWLINE"ｅｎｅｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｄ　ｂｅ　ｅｖｅｎ　ｗｏｒｓｅ．　Ｔｈｅｎ　ｗｅ"TCC_NEWLINE"’ｄ　ｈａｖｅ　ｔｏ　ｃｈｅｃｋ　ＡＬＬ　ｔｈｅ　ｇａｔｅー"TCC_NEWLINE"ｓ，　ｎｏｔ　ｊｕｓｔ　ｔｈｅ　ｏｎｅｓ　ｗｅ　ｏｎｃｅ　"TCC_NEWLINE"ｏｐｅｎｅｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｖｅｒｏｎｉｃａ’ｓ　ｗａｒ　ｗｉｌｌ　ｃｏｎｔｉｎｕｅ　"TCC_NEWLINE"ｕｎｔｉｌｏｎｅ　ｒｅａｌｍ　ｈａｓ　ｂｏｔｈ　ｐｏｗｅｒー"TCC_NEWLINE"ｓ　ｏｒｗｅ　ｌｅａｒｎ　ｔｏ　ｃｏｏｐｅｒａｔｅ　ａｇａー"TCC_NEWLINE"ｉｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｆｏｒ　ｎｏｗ，　ｗｅ　ａｒｅ　ｓｔｕｃｋ，　ａｎー"TCC_NEWLINE"ｄｃｈａｎｃｅｓ　ａｒｅ　ｔｈａｔ　ａｌｌ　ｔｈｉｓ　ｗａー"TCC_NEWLINE"ｓｊｕｓｔ　ａｎｏｔｈｅｒ　ｄｉｓｔｒａｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｏ　ｋｎｏｗｓ　ｗｈａｔ　ｇａｔｅｗａｙ　Ｅｍｂｌａｈー"TCC_NEWLINE"ａｓ　ｇｏｎｅ　ｔｈｒｏｕｇｈ　ｗｈｉｌｅ　ｗｅ’ｖｅｂｅー"TCC_NEWLINE"ｅｎ　ｈｅｒｅ？　Ｗｅ　ｎｅｅｄ　ｔｏ　ｆｉｎｄ　ｏｕｔ．"
+"Ｖｅｒｏｎｉｃａ’ｓ　ｗａｒ　ｗｉｌｌ　ｃｏｎｔｉｎｕｅ　"TCC_NEWLINE"ｕｎｔｉｌ　ｏｎｅ　ｒｅａｌｍ　ｈａｓ　ｂｏｔｈ　ｐｏｗｅー"TCC_NEWLINE"ｒｓ　ｏｒ　ｗｅ　ｌｅａｒｎ　ｔｏ　ｃｏｏｐｅｒａｔｅ　ａー"TCC_NEWLINE"ｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｆｏｒ　ｎｏｗ，　ｗｅ　ａｒｅ　ｓｔｕｃｋ，　ａｎー"TCC_NEWLINE"ｄ　ｃｈａｎｃｅｓ　ａｒｅ　ｔｈａｔ　ａｌｌ　ｔｈｉｓ　ｗー"TCC_NEWLINE"ａｓ　ｊｕｓｔ　ａｎｏｔｈｅｒ　ｄｉｓｔｒａｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ｋｎｏｗｓ　ｗｈａｔ　ｇａｔｅｗａｙ　Ｅｍｂｌａ　"TCC_NEWLINE"ｈａｓ　ｇｏｎｅ　ｔｈｒｏｕｇｈ　ｗｈｉｌｅ　ｗｅ’ｖｅ　"TCC_NEWLINE"ｂｅｅｎ　ｈｅｒｅ？　Ｗｅ　ｎｅｅｄ　ｔｏ　ｆｉｎｄ　ｏｕー"TCC_NEWLINE"ｔ．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

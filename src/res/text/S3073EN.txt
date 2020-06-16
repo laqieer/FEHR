@@ -1,7 +1,7 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3073_EN] = TCC_OPEN_LEFT
-"Ｉｎｖａｄｅｒｓ　ｔｏ　ｔｈｉｓ　ｌａｎｄ．．．　Ｉ　ｗｉー"TCC_NEWLINE"ｌｌ　ｂｕｒｎｙｏｕ．．．　Ｂｕｒｎ　ｙｏｕ　ａｌｌ　ｕｐ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｖａｄｅｒｓ　ｔｏ　ｔｈｉｓ　ｌａｎｄ．．．　Ｉ　ｗｉー"TCC_NEWLINE"ｌｌ　ｂｕｒｎ　ｙｏｕ．．．　Ｂｕｒｎ　ｙｏｕ　ａｌｌ　ｕー"TCC_NEWLINE"ｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3073_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
@@ -9,23 +9,23 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LIF
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｌｆ．．．　Ｗｈｙ　ａｒｅ　ｙｏｕ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｄｉｄ　ｍｙ　ｍｏｔｈｅｒ　ｏｒｄｅｒ　ｙｏｕ　ｔｏ　ｋｅー"TCC_NEWLINE"ｅｐａｎ　ｅｙｅ　ｏｎ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｉｄ　ｍｙ　ｍｏｔｈｅｒ　ｏｒｄｅｒ　ｙｏｕ　ｔｏ　ｋｅー"TCC_NEWLINE"ｅｐ　ａｎ　ｅｙｅ　ｏｎ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｏｕ　ｗｏｎ’ｔ　ａｎｓｗｅｒ　ｍｙ　ｑｕｅｓｔｉｏｎｓ"TCC_NEWLINE"，　ｗｉｌｌｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｎｏ　ｄｉｆｆｅｒｅｎｔ　ｆｒｏｍ　ｂｅｆｏｒｅ"TCC_NEWLINE"．　Ｎｏｍａｔｔｅｒ　ｈｏｗ　ｍｕｃｈ　Ｉ　ｔｒｉｅｄ．．"TCC_NEWLINE"．ｙｏｕ’ｄｎｅｖｅｒ　ｒｅｓｐｏｎｄ　ｔｏ　ａ　ｔｈｉｎー"TCC_NEWLINE"ｇ　Ｉ　ｓａｉｄ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ．．．Ｉ　ｒｅｍｅｍｂｅｒ　ａ　ｃｏｎｖｅｒｓａｔｉー"TCC_NEWLINE"ｏｎ．．．ｒｉｇｈｔ　ａｓ　Ｉ　ａｒｒｉｖｅｄ　ｉｎ　Ａｓー"TCC_NEWLINE"ｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｏｎ’ｔ　ａｎｓｗｅｒ　ｍｙ　ｑｕｅｓｔｉｏｎｓ"TCC_NEWLINE"，　ｗｉｌｌ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｎｏ　ｄｉｆｆｅｒｅｎｔ　ｆｒｏｍ　ｂｅｆｏｒｅ"TCC_NEWLINE"．　Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍｕｃｈ　Ｉ　ｔｒｉｅｄ．"TCC_NEWLINE"．．ｙｏｕ’ｄ　ｎｅｖｅｒ　ｒｅｓｐｏｎｄ　ｔｏ　ａ　ｔｈー"TCC_NEWLINE"ｉｎｇ　Ｉ　ｓａｉｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．Ｉ　ｒｅｍｅｍｂｅｒ　ａ　ｃｏｎｖｅｒｓａｔｉー"TCC_NEWLINE"ｏｎ．．．　ｒｉｇｈｔ　ａｓ　Ｉ　ａｒｒｉｖｅｄ　ｉｎ　Ａー"TCC_NEWLINE"ｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｗａｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｍｐｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｊｕｓｔ．．．ｒｅｍｅｍｂｅｒｅｄ．．．ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ．Ｄｉｄ　ｗｅ　ｓｐｅａｋ　ｂｅｆｏｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ．．．ｒｅｍｅｍｂｅｒｅｄ．．．ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ．　Ｄｉｄ　ｗｅ　ｓｐｅａｋ　ｂｅｆｏｒｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｔｏｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｓｔｏｐ　ｔｒｙｉｎｇ　ｔｏ　ｒｅｍｅｍｂｅｒ．　Ｆｏｒｇー"TCC_NEWLINE"ｅｔ　ｉｔ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ’ｄ　ｂｅ　ｂｅｔｔｅｒ　ｏｆｆ　ｌｅｔｔｉｎｇ　ｙー"TCC_NEWLINE"ｏｕｒｍｅｍｏｒｉｅｓ　ｆａｄｅ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｄ　ｂｅ　ｂｅｔｔｅｒ　ｏｆｆ　ｌｅｔｔｉｎｇ　ｙー"TCC_NEWLINE"ｏｕｒ　ｍｅｍｏｒｉｅｓ　ｆａｄｅ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

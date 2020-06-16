@@ -1,12 +1,12 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S3063_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｗｅ’ｖｅ　ｊｏｕｒｎｅｙｅｄ　ｆｏｒ　１０　ｄａｙｓ　ｓー"TCC_NEWLINE"ｉｎｃｅｗｅ　ｅｎｔｅｒｅｄ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔー"TCC_NEWLINE"ｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ’ｖｅ　ａｖｏｉｄｅｄ　ａｎｙ　ｍａｊｏｒ　ｃｏｎｆｌー"TCC_NEWLINE"ｉｃｔｓ，ａｎｄ　ｋｅｐｔ　ｔｈｅ　ｅｎｅｍｙ’ｓ　ｅｙｅー"TCC_NEWLINE"ｓ　ｏｆｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｊｏｕｒｎｅｙｅｄ　ｆｏｒ　１０　ｄａｙｓ　ｓー"TCC_NEWLINE"ｉｎｃｅ　ｗｅ　ｅｎｔｅｒｅｄ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　"TCC_NEWLINE"ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ａｖｏｉｄｅｄ　ａｎｙ　ｍａｊｏｒ　ｃｏｎｆｌー"TCC_NEWLINE"ｉｃｔｓ，　ａｎｄ　ｋｅｐｔ　ｔｈｅ　ｅｎｅｍｙ’ｓ　ｅｙー"TCC_NEWLINE"ｅｓ　ｏｆｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｆｉｎａｌｌｙ，　ｗｅ　ｄｒａｗ　ｎｅａｒ　ｔｈｅ　ｃａｓー"TCC_NEWLINE"ｔｌｅ．Ｈｅｌ’ｓ　ｃａｓｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎａｌｌｙ，　ｗｅ　ｄｒａｗ　ｎｅａｒ　ｔｈｅ　ｃａｓー"TCC_NEWLINE"ｔｌｅ．　Ｈｅｌ’ｓ　ｃａｓｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_EIR
-"Ｙｅｓ．　Ｏｎ　ｔｈｅ　ｖｅｒｙ　ｅｄｇｅ　ｏｆ　ｔｈｉｓ"TCC_NEWLINE"　ｄａｒｋｒｅａｌｍ．．．ｓｈｅ　ｄｗｅｌｌｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｏｎ　ｔｈｅ　ｖｅｒｙ　ｅｄｇｅ　ｏｆ　ｔｈｉｓ"TCC_NEWLINE"　ｄａｒｋ　ｒｅａｌｍ．．．ｓｈｅ　ｄｗｅｌｌｓ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗａｉｔ．　Ｂｅ　ｃａｒｅｆｕｌ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｄｅａｔｈ　ｉｓ　ｃｏｍｉｎｇ．　Ｍｙ　ｍｏｔｈｅｒ．．．"TCC_NEWLINE"ｉｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
@@ -15,11 +15,11 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 "Ｈｍｐｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｓｏ，　ｙｏｕ’ｖｅ　ｃｈｏｓｅｎ　ｔｏ　ｓｈｏｗ　ｙｏｕー"TCC_NEWLINE"ｒ　ｆａｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｄｅｆｅａｔ　ｙｏｕ　ｈｅｒｅ，　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｒｅａｌｍｏｆ　ｔｈｅ　ｄｅａｄ，　ｗｉｌｌ　ｙｏｕ　ｄー"TCC_NEWLINE"ｉｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｏｒ　ｉｓ　ｔｈｅｒｅ　ｍｏｒｅ　ｔｏ　ｔｈｉｓ　ｐｕｚｚー"TCC_NEWLINE"ｌｅ？　Ｉｗｉｌｌ　ｆｉｎｄ　ｏｕｔ　ｓｏｏｎ　ｅｎｏｕｇー"TCC_NEWLINE"ｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｄｅｆｅａｔ　ｙｏｕ　ｈｅｒｅ，　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ，　ｗｉｌｌ　ｙｏｕ　"TCC_NEWLINE"ｄｉｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ　ｉｓ　ｔｈｅｒｅ　ｍｏｒｅ　ｔｏ　ｔｈｉｓ　ｐｕｚｚー"TCC_NEWLINE"ｌｅ？　Ｉ　ｗｉｌｌ　ｆｉｎｄ　ｏｕｔ　ｓｏｏｎ　ｅｎｏｕー"TCC_NEWLINE"ｇｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3063_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HEL
-"Ｗｈａｔｅｖｅｒ　ｙｏｕ　ｔｒｙ，　ｉｔ　ｉｓ　ｏｆ　ｎｏ"TCC_NEWLINE"　ｕｓｅ．Ｉｎ　ｔｈｅ　ｆａｃｅ　ｏｆ　ｄｅａｔｈ，　ａｌー"TCC_NEWLINE"ｌ　ｅｆｆｏｒｔｓｃｒｕｍｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔｅｖｅｒ　ｙｏｕ　ｔｒｙ，　ｉｔ　ｉｓ　ｏｆ　ｎｏ"TCC_NEWLINE"　ｕｓｅ．　Ｉｎ　ｔｈｅ　ｆａｃｅ　ｏｆ　ｄｅａｔｈ，　ａー"TCC_NEWLINE"ｌｌ　ｅｆｆｏｒｔｓ　ｃｒｕｍｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3063_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｈａｔ　ｎｏｗ？　Ｉｓ　Ｈｅｌ．．．ｇｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
@@ -29,35 +29,35 @@ TCC_OPEN_LEFT
 "Ａｈ！"
 TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａ　ｃｕｒｓｅ　ｉｎ　ｔｈｅ　ｎａｍｅ　ｏｆ　Ｈｅｌ，　ｒー"TCC_NEWLINE"ｕｌｅｒ　ｏｆｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｃｕｒｓｅ　ｉｎ　ｔｈｅ　ｎａｍｅ　ｏｆ　Ｈｅｌ，　ｒー"TCC_NEWLINE"ｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｇｕｈ！　Ｓｏ　ｔｈｉｓ．．．　Ｔｈｉｓ　ｉｓ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｙｏｕｒ　ｆａｔｈｅｒ　ｔｒａｄｅｄ　ｈｉｓ　ｌｉｆｅ　ｔー"TCC_NEWLINE"ｏ　ｅｘｔｅｎｄｙｏｕｒｓ．　Ｗｈａｔ　ｉｄｉｏｃｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｃｈａｎｇｅｓ　ｎｏｔｈｉｎｇ，　ｐｒｉｎｃｅｌｉｎー"TCC_NEWLINE"ｇ．．．Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｆａｔｈｅｒ　ｔｒａｄｅｄ　ｈｉｓ　ｌｉｆｅ　ｔー"TCC_NEWLINE"ｏ　ｅｘｔｅｎｄ　ｙｏｕｒｓ．　Ｗｈａｔ　ｉｄｉｏｃｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｃｈａｎｇｅｓ　ｎｏｔｈｉｎｇ，　ｐｒｉｎｃｅｌｉｎー"TCC_NEWLINE"ｇ．．．　Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ　ｓｕｐｐｏｓｅ　ｉｔ　ｍｕｓｔ　ｂｅ　ａｓ　ｙｏｕ　ｓー"TCC_NEWLINE"ａｙ，　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｃｏｍｅ　ｏｎ，　ｔｈｅｎ！　Ｃｕｒｓｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ａｆｔｅｒ　ｎｉｎｅ　ｄａｙｓ　ｐａｓｓ，　ａｓ　ｙｏｕｒ"TCC_NEWLINE"　ｆａｔｈｅｒｄｉｄ，　ｙｏｕ　ｔｏｏ　ｗｉｌｌ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｙ　ｄｏ　ｙｏｕ　ｓｍｉｌｅ，　ｂｏｙ？　Ｈａｓ　ｆｅー"TCC_NEWLINE"ａｒｄｒｉｖｅｎ　ｙｏｕ　ｍａｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　ｎｉｎｅ　ｄａｙｓ　ｐａｓｓ，　ａｓ　ｙｏｕｒ"TCC_NEWLINE"　ｆａｔｈｅｒ　ｄｉｄ，　ｙｏｕ　ｔｏｏ　ｗｉｌｌ　ｄｉｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ｓｍｉｌｅ，　ｂｏｙ？　Ｈａｓ　ｆｅー"TCC_NEWLINE"ａｒ　ｄｒｉｖｅｎ　ｙｏｕ　ｍａｄ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｏｎ’ｔ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ？　Ｉｔ　ｉｓ　ｙー"TCC_NEWLINE"ｏｕｒｃｕｒｓｅ，　ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｉｓ　ｃｅｒｔａｉｎ　ｔｈａｔ　Ｉ　ｗｉｌｌ　ｄｉｅ"TCC_NEWLINE"．　Ｂｕｔ　ｉｆ　ｔｈｅｃｕｒｓｅ　ｔｒｕｌｙ　ｌａｓｔｓ"TCC_NEWLINE"　ｎｉｎｅ　ｄａｙｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈａｔ’ｓ　ａ　ｐｅｒｉｏｄ　ｏｆ　ｔｉｍｅ　ｉｎ　ｗｈー"TCC_NEWLINE"ｉｃｈｙｏｕ　ｃａｎｎｏｔ　ｋｉｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ？　Ｉｔ　ｉｓ　ｙー"TCC_NEWLINE"ｏｕｒ　ｃｕｒｓｅ，　ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｃｅｒｔａｉｎ　ｔｈａｔ　Ｉ　ｗｉｌｌ　ｄｉｅ"TCC_NEWLINE"．　Ｂｕｔ　ｉｆ　ｔｈｅ　ｃｕｒｓｅ　ｔｒｕｌｙ　ｌａｓｔー"TCC_NEWLINE"ｓ　ｎｉｎｅ　ｄａｙｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ａ　ｐｅｒｉｏｄ　ｏｆ　ｔｉｍｅ　ｉｎ　ｗｈー"TCC_NEWLINE"ｉｃｈ　ｙｏｕ　ｃａｎｎｏｔ　ｋｉｌｌ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｈａｖｅ　ａｌｒｅａｄｙ　ｉｎｆｉｌｔｒａｔｅｄ　ｙｏー"TCC_NEWLINE"ｕｒ　ｒｅａｌｍ．Ｉ　ｗｉｌｌ　ｌｅａｒｎ　ｈｏｗ　ｔｏ　"TCC_NEWLINE"ｄｅｆｅａｔ　ｙｏｕ．　Ｔｈａｔｋｎｏｗｌｅｄｇｅ　ｌｕｒー"TCC_NEWLINE"ｋｓ　ｈｅｒｅ，　ｓｏｍｅｗｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　Ｉ　ｎｅｅｄ　ｎｏｔ　ｓｅｅｋ　ｙｏｕ　ｏｕｔ　ｏー"TCC_NEWLINE"ｎｃｅ　Ｉｆｉｎｄ　ｉｔ．　Ａｆｔｅｒ　ｎｉｎｅ　ｄａｙｓ"TCC_NEWLINE"　ｐａｓｓ，　ｙｏｕ　ｗｉｌｌａｐｐｅａｒ　ｂｅｆｏｒｅ　"TCC_NEWLINE"ｍｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｓｏ　ｌａｙ　ｙｏｕｒ　ｃｕｒｓｅ　ｕｐｏｎ　ｍｅ，　Ｈｅー"TCC_NEWLINE"ｌ，ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｉ　ｗｉｌｌ　ａー"TCC_NEWLINE"ｃｃｅｐｔ　ｉｔｈａｐｐｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｅｃａｕｓｅ　ｉｔ　ｍｅａｎｓ　ｔｈａｔ　ｉｔ　ｉｓ　ｙー"TCC_NEWLINE"ｏｕｒ　ｌｉｆｅｔｈａｔ　ｗｉｌｌ　ｅｎｄ　ｉｎ　ｎｉｎｅ"TCC_NEWLINE"　ｄａｙｓ’　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ａｌｒｅａｄｙ　ｉｎｆｉｌｔｒａｔｅｄ　ｙｏー"TCC_NEWLINE"ｕｒ　ｒｅａｌｍ．　Ｉ　ｗｉｌｌ　ｌｅａｒｎ　ｈｏｗ　ｔｏ"TCC_NEWLINE"　ｄｅｆｅａｔ　ｙｏｕ．　Ｔｈａｔ　ｋｎｏｗｌｅｄｇｅ　ｌー"TCC_NEWLINE"ｕｒｋｓ　ｈｅｒｅ，　ｓｏｍｅｗｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ　ｎｅｅｄ　ｎｏｔ　ｓｅｅｋ　ｙｏｕ　ｏｕｔ　ｏー"TCC_NEWLINE"ｎｃｅ　Ｉ　ｆｉｎｄ　ｉｔ．　Ａｆｔｅｒ　ｎｉｎｅ　ｄａｙー"TCC_NEWLINE"ｓ　ｐａｓｓ，　ｙｏｕ　ｗｉｌｌ　ａｐｐｅａｒ　ｂｅｆｏｒー"TCC_NEWLINE"ｅ　ｍｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｌａｙ　ｙｏｕｒ　ｃｕｒｓｅ　ｕｐｏｎ　ｍｅ，　Ｈｅー"TCC_NEWLINE"ｌ，　ｒｕｌｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｉ　ｗｉｌｌ　"TCC_NEWLINE"ａｃｃｅｐｔ　ｉｔ　ｈａｐｐｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｃａｕｓｅ　ｉｔ　ｍｅａｎｓ　ｔｈａｔ　ｉｔ　ｉｓ　ｙー"TCC_NEWLINE"ｏｕｒ　ｌｉｆｅ　ｔｈａｔ　ｗｉｌｌ　ｅｎｄ　ｉｎ　ｎｉｎー"TCC_NEWLINE"ｅ　ｄａｙｓ’　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈａｔ　ｉｎｓｏｌｅｎｃｅ！　Ｙｏｕ　ｄｏ　ｎｏｔ　ｆｅー"TCC_NEWLINE"ａｒ　ｍｙｃｕｒｓｅ？　Ｙｏｕ　ｄｏ　ｎｏｔ　ｆｅａｒ　ｄー"TCC_NEWLINE"ｅａｔｈ？　Ｙｏｕｄｏ　ｎｏｔ　ｆｅａｒ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
-"Ｖｅｒｙ　ｗｅｌｌ．　Ｉ　ｃａｎ　ｃｏｒｒｅｃｔ　ｔｈａｔ"TCC_NEWLINE"．　Ｉ　ｗｉｌｌｗｉｔｈｈｏｌｄ　ｍｙ　ｄｅａｔｈ　ｃｕｒー"TCC_NEWLINE"ｓｅ．　Ｔｈａｔ　ｆａｔｅｉｓ　ｔｏｏ　ｅａｓｙ　ｆｏｒ　"TCC_NEWLINE"ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｗｉｌｌ　ｃａｒｖｅ　ｔｈｅ　ｔｅｒｒｏｒ　ｏｆ　ｄｅー"TCC_NEWLINE"ａｔｈ　ｉｎｔｏｙｏｕｒ　ｖｅｒｙ　ｂｏｎｅｓ．　Ｔｈｅｎ"TCC_NEWLINE"，　ａｎｄ　ｏｎｌｙｔｈｅｎ，　ｗｉｌｌ　Ｉ　ｂｒｉｎｇ　"TCC_NEWLINE"ｙｏｕ　ｄｅａｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｉｎｓｏｌｅｎｃｅ！　Ｙｏｕ　ｄｏ　ｎｏｔ　ｆｅー"TCC_NEWLINE"ａｒ　ｍｙ　ｃｕｒｓｅ？　Ｙｏｕ　ｄｏ　ｎｏｔ　ｆｅａｒ　"TCC_NEWLINE"ｄｅａｔｈ？　Ｙｏｕ　ｄｏ　ｎｏｔ　ｆｅａｒ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｙ　ｗｅｌｌ．　Ｉ　ｃａｎ　ｃｏｒｒｅｃｔ　ｔｈａｔ"TCC_NEWLINE"．　Ｉ　ｗｉｌｌ　ｗｉｔｈｈｏｌｄ　ｍｙ　ｄｅａｔｈ　ｃｕー"TCC_NEWLINE"ｒｓｅ．　Ｔｈａｔ　ｆａｔｅ　ｉｓ　ｔｏｏ　ｅａｓｙ　ｆｏー"TCC_NEWLINE"ｒ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｃａｒｖｅ　ｔｈｅ　ｔｅｒｒｏｒ　ｏｆ　ｄｅー"TCC_NEWLINE"ａｔｈ　ｉｎｔｏ　ｙｏｕｒ　ｖｅｒｙ　ｂｏｎｅｓ．　Ｔｈｅー"TCC_NEWLINE"ｎ，　ａｎｄ　ｏｎｌｙ　ｔｈｅｎ，　ｗｉｌｌ　Ｉ　ｂｒｉｎー"TCC_NEWLINE"ｇ　ｙｏｕ　ｄｅａｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｈｅ’ｓ　ｇｏｎｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｎ　Ｉ　ｗａｓ　ｒｉｇｈｔ．　Ｓｏｍｅｗｈｅｒｅ　ｉー"TCC_NEWLINE"ｎｔｈｉｓ　ｒｅａｌｍ．．．ｔｈｅｒｅ　ｉｓ　ａ　ｃｌｕｅ"TCC_NEWLINE"　ｔｏ　ｈｏｗＩ　ｍｉｇｈｔ　ｄｅｆｅａｔ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　Ｉ　ｗａｓ　ｒｉｇｈｔ．　Ｓｏｍｅｗｈｅｒｅ　ｉー"TCC_NEWLINE"ｎ　ｔｈｉｓ　ｒｅａｌｍ．．．ｔｈｅｒｅ　ｉｓ　ａ　ｃｌｕー"TCC_NEWLINE"ｅ　ｔｏ　ｈｏｗ　Ｉ　ｍｉｇｈｔ　ｄｅｆｅａｔ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

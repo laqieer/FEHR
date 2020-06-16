@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3072_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｂｏｄｙ．．．ｂｕｒｎｓ．　Ｔｈａｔ　ｓｅａｒｉｎｇ"TCC_NEWLINE"　ｂｌｏｏｄｃｏｕｒｓｉｎｇ　ｔｈｒｏｕｇｈ　ｍｙ　ｖｅｉー"TCC_NEWLINE"ｎｓ．．．　Ｉｔ　ｇｒｏｗｓｒｅｓｔｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｏｄｙ．．．ｂｕｒｎｓ．　Ｔｈａｔ　ｓｅａｒｉｎｇ"TCC_NEWLINE"　ｂｌｏｏｄ　ｃｏｕｒｓｉｎｇ　ｔｈｒｏｕｇｈ　ｍｙ　ｖｅー"TCC_NEWLINE"ｉｎｓ．．．　Ｉｔ　ｇｒｏｗｓ　ｒｅｓｔｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

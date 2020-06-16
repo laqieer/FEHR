@@ -1,14 +1,14 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4044_EN] = TCC_OPEN_LEFT
-"Ｍａｔｔｈｅｗ．．．　Ａｆｔｅｒ　ｔｈｉｓ　ｍｉｓｓｉｏｎ"TCC_NEWLINE"，　ｗｅ’ｒｅｇｏｉｎｇ　ｔｏ　ｐｕｔ　ｔｈｉｓ　ｌｉｆｅ"TCC_NEWLINE"　ｂｅｈｉｎｄ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍａｔｔｈｅｗ．．．　Ａｆｔｅｒ　ｔｈｉｓ　ｍｉｓｓｉｏｎ"TCC_NEWLINE"，　ｗｅ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｐｕｔ　ｔｈｉｓ　ｌｉｆー"TCC_NEWLINE"ｅ　ｂｅｈｉｎｄ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4044_EN] = TCC_OPEN_LEFT
 "Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　"TCC_NEWLINE"ｐｌａｙ！"TCC_NEWLINE TCC_PUSH_A
 "Ｌｅｔ’ｓ　ｐｌａｙ．．．ｅｘｐｌｏｒｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅ’ｌｌ　ｄｒｉｎｋ　ｔｈｅ　ｎｅｃｔａｒ　ｏｆ　ｔｈｅ"TCC_NEWLINE"　ｇｏｄｓ，ｓｏ　ｓｗｅｅｔ，　ｌｉｋｅ　ｓｉｐｐｉｎｇ　"TCC_NEWLINE"ａ　ｆｌｏｗｅｒ！"TCC_NEWLINE TCC_PUSH_A
-"Ａｎｄ　ｔｈｅｎ　ｗｅ’ｌｌ　ｂｅ　ｔｈｅ　ｈｅｒｏｅｓ　"TCC_NEWLINE"ｃａｌｌｅｄｔｏ　ｓａｖｅ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅー"TCC_NEWLINE"ａｍｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｄｒｉｎｋ　ｔｈｅ　ｎｅｃｔａｒ　ｏｆ　ｔｈｅ"TCC_NEWLINE"　ｇｏｄｓ，　ｓｏ　ｓｗｅｅｔ，　ｌｉｋｅ　ｓｉｐｐｉｎｇ"TCC_NEWLINE"　ａ　ｆｌｏｗｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅｎ　ｗｅ’ｌｌ　ｂｅ　ｔｈｅ　ｈｅｒｏｅｓ　"TCC_NEWLINE"ｃａｌｌｅｄ　ｔｏ　ｓａｖｅ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒー"TCC_NEWLINE"ｅａｍｓ！"TCC_NEWLINE TCC_PUSH_A
 "Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　"TCC_NEWLINE"ｐｌａｙ！"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈｏｓｅ　ｗｈｏ　ｄｒｉｎｋ　ｔｈｅ　ｎｅｃｔａー"TCC_NEWLINE"ｒ　ｗｉｌｌｎｅｖｅｒ．．．ｅｖｅｒ．．．ｒｅｔｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｏｓｅ　ｗｈｏ　ｄｒｉｎｋ　ｔｈｅ　ｎｅｃｔａー"TCC_NEWLINE"ｒ　ｗｉｌｌ　ｎｅｖｅｒ．．．ｅｖｅｒ．．．ｒｅｔｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｃ’ｍｏｎ．．．　Ｌｅｔ’ｓ　ｐｌａｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

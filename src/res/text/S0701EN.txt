@@ -1,11 +1,11 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S0701_EN] = TCC_OPEN_LEFT
-"Ｗｈａｔ’ｓ　ｔｈａｔ，　ｙｏｕ　ｓａｙ？　Ｍｙ　ｒｅａｌー"TCC_NEWLINE"ｍｉｓ　ｂｅｉｎｇ　ｃｏｎｔｒｏｌｌｅｄ　ｂｙ　ｆｏｒｃｅー"TCC_NEWLINE"ｓｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｅｐｏｓｔｅｒｏｕｓ！　Ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆＨー"TCC_NEWLINE"ｏｓｈｉｄｏ　ｉｓ　ｐｒｏｔｅｃｔｅｄ　ｆｒｏｍ　ｉｎｖａー"TCC_NEWLINE"ｓｉｏｎｂｙ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｏｕｒ　ｑｕｅｅｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｈｏｗ　ｙｏｕ　ｇｏｔ　ｉｎｔｏー"TCC_NEWLINE"Ｈｏｓｈｉｄｏ，　ｂｕｔ　ｒｅｓｔ　ａｓｓｕｒｅｄ，　ｍｙ"TCC_NEWLINE"　ｆａｍｉｌｙａｎｄ　Ｉ　ｗｉｌｌ　ｍａｋｅ　ｓｕｒｅ　ｙー"TCC_NEWLINE"ｏｕ　ｌｅａｖｅ！"
+"Ｗｈａｔ’ｓ　ｔｈａｔ，　ｙｏｕ　ｓａｙ？　Ｍｙ　ｒｅａｌー"TCC_NEWLINE"ｍ　ｉｓ　ｂｅｉｎｇ　ｃｏｎｔｒｏｌｌｅｄ　ｂｙ　ｆｏｒｃー"TCC_NEWLINE"ｅｓ　ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｅｐｏｓｔｅｒｏｕｓ！　Ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　"TCC_NEWLINE"Ｈｏｓｈｉｄｏ　ｉｓ　ｐｒｏｔｅｃｔｅｄ　ｆｒｏｍ　ｉｎｖー"TCC_NEWLINE"ａｓｉｏｎ　ｂｙ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｏｕｒ　ｑｕｅー"TCC_NEWLINE"ｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｈｏｗ　ｙｏｕ　ｇｏｔ　ｉｎｔｏ"TCC_NEWLINE"　Ｈｏｓｈｉｄｏ，　ｂｕｔ　ｒｅｓｔ　ａｓｓｕｒｅｄ，　ｍー"TCC_NEWLINE"ｙ　ｆａｍｉｌｙ　ａｎｄ　Ｉ　ｗｉｌｌ　ｍａｋｅ　ｓｕｒｅ"TCC_NEWLINE"　ｙｏｕ　ｌｅａｖｅ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0701_EN] = TCC_OPEN_LEFT
-"Ｍｙ　ｆａｍｉｌｙ，　Ｉ　ｕｎｄｅｒｅｓｔｉｍａｔｅｄ　ｔー"TCC_NEWLINE"ｈｅｐｏｗｅｒ　ｏｆ　ｔｈｅｓｅ　ｓｔｒａｎｇｅｒｓ．　Ｗー"TCC_NEWLINE"ｅｍｕｓｔ　ｒｅｔｒｅａｔ　ａｎｄ　ｒｅｇｒｏｕｐ．"TCC_NEWLINE TCC_PUSH_A
-"Ｆｏｒ　ｔｈｅ　ｓａｋｅ　ｏｆ　ｏｕｒ　ｐｅｏｐｌｅ，ｗｅ"TCC_NEWLINE"　ｃａｎｎｏｔ　ｌｅｔ　Ｈｏｓｈｉｄｏ　ｆａｌｌ　ｉｎｔｏー"TCC_NEWLINE"ｔｈｅ　ｈａｎｄｓ　ｏｆ　ｔｈｅ　ｉｎｖａｄｅｒｓ！"
+"Ｍｙ　ｆａｍｉｌｙ，　Ｉ　ｕｎｄｅｒｅｓｔｉｍａｔｅｄ　ｔー"TCC_NEWLINE"ｈｅ　ｐｏｗｅｒ　ｏｆ　ｔｈｅｓｅ　ｓｔｒａｎｇｅｒｓ．　"TCC_NEWLINE"Ｗｅ　ｍｕｓｔ　ｒｅｔｒｅａｔ　ａｎｄ　ｒｅｇｒｏｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｈｅ　ｓａｋｅ　ｏｆ　ｏｕｒ　ｐｅｏｐｌｅ，　ｗー"TCC_NEWLINE"ｅ　ｃａｎｎｏｔ　ｌｅｔ　Ｈｏｓｈｉｄｏ　ｆａｌｌ　ｉｎｔー"TCC_NEWLINE"ｏ　ｔｈｅ　ｈａｎｄｓ　ｏｆ　ｔｈｅ　ｉｎｖａｄｅｒｓ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

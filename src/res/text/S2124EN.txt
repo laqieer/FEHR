@@ -1,58 +1,58 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S2124_EN] = TCC_OPEN_LEFT
-"Ｉ’ｍ　ｎｏｔｈｉｎｇ　ｍｏｒｅ　ｔｈａｎ　ａ　ｗａｙｗａー"TCC_NEWLINE"ｒｄｂａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔｈｉｎｇ　ｍｏｒｅ　ｔｈａｎ　ａ　ｗａｙｗａー"TCC_NEWLINE"ｒｄ　ｂａｒｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2124_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HRID
-"Ｏｕｒ　ｄｅｓｔｉｎａｔｉｏｎ　ｉｓ　ｎｅａｒ．　Ｌｅｔ　"TCC_NEWLINE"ｕｓ　ｒｅｓｔｈｅｒｅ　ｔｈｉｓ　ｅｖｅｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｄｅｓｔｉｎａｔｉｏｎ　ｉｓ　ｎｅａｒ．　Ｌｅｔ　"TCC_NEWLINE"ｕｓ　ｒｅｓｔ　ｈｅｒｅ　ｔｈｉｓ　ｅｖｅｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S2124_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ｆｊｏｒｍ！　Ｗａｋｅ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
 "Ｙｌｇｒ．．．　Ｗｈａｔ　ｉｓ　ｉｔ？　Ｗｈａｔ’ｓ　ｗｒー"TCC_NEWLINE"ｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｊｕｓｔ　ｗａｎｔｅｄ　ｔｏ　ｓａｙ．．．ｔｈａｎｋ　"TCC_NEWLINE"ｙｏｕ．　Ｉｈｅａｒｄ　ｙｏｕ　ｄｅｆｅｎｄ　ｍｅ　ｔｏ　"TCC_NEWLINE"ｔｈｅ　ｐｅｏｐｌｅｆｒｏｍ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ　ｗａｎｔｅｄ　ｔｏ　ｓａｙ．．．ｔｈａｎｋ　"TCC_NEWLINE"ｙｏｕ．　Ｉ　ｈｅａｒｄ　ｙｏｕ　ｄｅｆｅｎｄ　ｍｅ　ｔｏ"TCC_NEWLINE"　ｔｈｅ　ｐｅｏｐｌｅ　ｆｒｏｍ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｏｆ　ｃｏｕｒｓｅ　Ｉ　ｄｉｄ．　Ｔｈｅｒｅ’ｓ　ｎｏ　ｎー"TCC_NEWLINE"ｅｅｄ　ｔｏｔｈａｎｋ　ｍｅ　ｆｏｒ　ｔｈａｔ．　Ｗｅ’ｒー"TCC_NEWLINE"ｅ　ｓｉｓｔｅｒｓ．　Ｉｔ’ｓｏｎｌｙ　ｎａｔｕｒａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ　Ｉ　ｄｉｄ．　Ｔｈｅｒｅ’ｓ　ｎｏ　ｎー"TCC_NEWLINE"ｅｅｄ　ｔｏ　ｔｈａｎｋ　ｍｅ　ｆｏｒ　ｔｈａｔ．　Ｗｅ’"TCC_NEWLINE"ｒｅ　ｓｉｓｔｅｒｓ．　Ｉｔ’ｓ　ｏｎｌｙ　ｎａｔｕｒａｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅｅ－ｈｅｅ．　Ｓｔｉｌｌ．．．　Ｙｏｕ　ａｌｗａｙｓ　"TCC_NEWLINE"ｌｏｏｋ　ｏｕｔｆｏｒ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｅ－ｈｅｅ．　Ｓｔｉｌｌ．．．　Ｙｏｕ　ａｌｗａｙｓ　"TCC_NEWLINE"ｌｏｏｋ　ｏｕｔ　ｆｏｒ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｆ　ｃｏｕｒｓｅ　Ｉ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ａｎｄ　ｔｏ　ｔｈｉｎｋ　Ｉ　ｒｅｐａｙ　ｙｏｕｒ　ｋｉｎー"TCC_NEWLINE"ｄｎｅｓｓｌｉｋｅ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｏ　ｔｈｉｎｋ　Ｉ　ｒｅｐａｙ　ｙｏｕｒ　ｋｉｎー"TCC_NEWLINE"ｄｎｅｓｓ　ｌｉｋｅ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈａｔ？　＊ｃｏｕｇｈ＊　＊ｃｏｕｇｈ＊　Ｙｌｇｒ．．．"TCC_NEWLINE"Ｗｈａｔ．．．　Ｗｈａｔ　ａｒｅ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ？　＊ｃｏｕｇｈ＊　＊ｃｏｕｇｈ＊　Ｙｌｇｒ．．．"TCC_NEWLINE"　Ｗｈａｔ．．．　Ｗｈａｔ　ａｒｅ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅｅ－ｈｅｅ．　Ｉｔ’ｓ　ｊｕｓｔ　ａ　ｌｉｔｔｌｅ　ｍー"TCC_NEWLINE"ｅｄｉｃｉｎｅ．Ｓｍｅｌｌｓ　ｔｅｒｒｉｂｌｅ，　ｄｏｅｓー"TCC_NEWLINE"ｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｃｅ　ｙｏｕ　ｉｎｈａｌｅ　ｉｔ，　ｔｈａｔ’ｓ　ｉｔ"TCC_NEWLINE"．．．　Ａｌｌ　ｔｈｅｓｔｒｅｎｇｔｈ　ｌｅａｖｅｓ　ｙｏー"TCC_NEWLINE"ｕｒ　ｂｏｄｙ．　Ｉ　ｂｅｔ　ｙｏｕｃａｎ’ｔ　ｅｖｅｎ　"TCC_NEWLINE"ｌｉｆｔ　ｔｈａｔ　ｌａｎｃｅ　ｏｆ　ｙｏｕｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｅ－ｈｅｅ．　Ｉｔ’ｓ　ｊｕｓｔ　ａ　ｌｉｔｔｌｅ　ｍー"TCC_NEWLINE"ｅｄｉｃｉｎｅ．　Ｓｍｅｌｌｓ　ｔｅｒｒｉｂｌｅ，　ｄｏｅー"TCC_NEWLINE"ｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｙｏｕ　ｉｎｈａｌｅ　ｉｔ，　ｔｈａｔ’ｓ　ｉｔ"TCC_NEWLINE"．．．　Ａｌｌ　ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｌｅａｖｅｓ　ｙー"TCC_NEWLINE"ｏｕｒ　ｂｏｄｙ．　Ｉ　ｂｅｔ　ｙｏｕ　ｃａｎ’ｔ　ｅｖｅー"TCC_NEWLINE"ｎ　ｌｉｆｔ　ｔｈａｔ　ｌａｎｃｅ　ｏｆ　ｙｏｕｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "＊ＣＯＵＧＨ＊"TCC_NEWLINE TCC_PUSH_A
 "Ｙｌｇｒ？　Ｗｈａｔ．．．ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉー"TCC_NEWLINE"ｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｈｅｅ－ｈｅｅ．　Ｏｈ，　ｍｙ　ｄｅａｒ，　ｄｅａｒ　ｓｉー"TCC_NEWLINE"ｓｔｅｒ．．．Ｉ’Ｍ　ｔｈｅ　ｔｒａｉｔｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｅ－ｈｅｅ．　Ｏｈ，　ｍｙ　ｄｅａｒ，　ｄｅａｒ　ｓｉー"TCC_NEWLINE"ｓｔｅｒ．．．　Ｉ’Ｍ　ｔｈｅ　ｔｒａｉｔｏｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？！　Ｎｏ．．．ｔｈａｔ’ｓ　ｉｍｐｏｓｓｉｂｌｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ｈａｖｅ　ｔｏ　ａｐｏｌｏｇｉｚｅ．　Ｂｅｃａｕｓｅ　"TCC_NEWLINE"ｙｏｕｓｔｕｃｋ　ｕｐ　ｆｏｒ　ｍｅ，　ａｆｔｅｒ　ａｌｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｅｓｐｅｃｉａｌｌｙ　ｂｅｃａｕｓｅ　ｙｏｕ’ｒｅ"TCC_NEWLINE"　ｇｏｉｎｇｔｏ　ｂｅ　ｔｏｒｔｕｒｅｄ　ｔｏ　ｄｅａｔｈ"TCC_NEWLINE"　ｂｙ　Ｋｉｎｇ　Ｓｕｒｔｒｌｉｋｅ　ｏｕｒ　ｐｏｏｒ　ｄー"TCC_NEWLINE"ｅａｄ　ｓｉｓｔｅｒ，　Ｇｕｎｎｔｈｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｔｏ　ａｐｏｌｏｇｉｚｅ．　Ｂｅｃａｕｓｅ　"TCC_NEWLINE"ｙｏｕ　ｓｔｕｃｋ　ｕｐ　ｆｏｒ　ｍｅ，　ａｆｔｅｒ　ａｌー"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｅｓｐｅｃｉａｌｌｙ　ｂｅｃａｕｓｅ　ｙｏｕ’ｒｅ"TCC_NEWLINE"　ｇｏｉｎｇ　ｔｏ　ｂｅ　ｔｏｒｔｕｒｅｄ　ｔｏ　ｄｅａｔー"TCC_NEWLINE"ｈ　ｂｙ　Ｋｉｎｇ　Ｓｕｒｔｒ　ｌｉｋｅ　ｏｕｒ　ｐｏｏｒ"TCC_NEWLINE"　ｄｅａｄ　ｓｉｓｔｅｒ，　Ｇｕｎｎｔｈｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｌｇｒ！"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ　ｃａｎ’ｔ　ｂｅ．．．Ｙｌｇｒ．．．　Ｄｏｎ’ｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｒｙｏｎｅ　ｈｅｒｅ　ｉｓ　ｙｏｕｒ　ａｌｌｙ！　Ｙー"TCC_NEWLINE"ｏｕｒｆｒｉｅｎｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｃａｎ’ｔ　ｂｅ．．．　Ｙｌｇｒ．．．　Ｄｏｎ’ｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ　ｈｅｒｅ　ｉｓ　ｙｏｕｒ　ａｌｌｙ！　Ｙー"TCC_NEWLINE"ｏｕｒ　ｆｒｉｅｎｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｗｅｌｌ　ｓａｉｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｙｏｕ’ｒｅ　ｒｉｇｈｔ，　ｏｆ　ｃｏｕｒｓｅａｎｄ"TCC_NEWLINE
-TCC_TACTICIAN_NAME"ｈａｓ　ｆｉｇｕｒｅｄｏｕｔ　ｔｈｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"ｈａｓ　ｆｉｇｕｒｅｄ　ｏｕｔ　ｔｈｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｗｈａｔ？　Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａｂー"TCC_NEWLINE"ｏｕｔ？Ｔｅｌｌ　ｍｅ，"TCC_NEWLINE
+"Ｗｈａｔ？　Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａｂー"TCC_NEWLINE"ｏｕｔ？　Ｔｅｌｌ　ｍｅ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ．．．ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 "Ａ　ｄｒｅａｍ？"TCC_NEWLINE TCC_PUSH_A
-"Ｈｏｗ　ｅｘｈａｕｓｔｅｄ　ａｍ　Ｉ　ｔｈａｔ　Ｉ　ｗｏｕー"TCC_NEWLINE"ｌｄｈａｖｅ　ｓｕｃｈ　ａｎ　ｕｎｓｅｔｔｌｉｎｇ　ｄｒｅー"TCC_NEWLINE"ａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｅｘｈａｕｓｔｅｄ　ａｍ　Ｉ　ｔｈａｔ　Ｉ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｈａｖｅ　ｓｕｃｈ　ａｎ　ｕｎｓｅｔｔｌｉｎｇ　ｄｒー"TCC_NEWLINE"ｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_HRID
 "Ｆｊｏｒｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
@@ -62,11 +62,11 @@ TCC_OPEN_MID_RIGHT
 TCC_OPEN_RIGHT
 "Ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｔｈｅ　ｔｒａｉｔｏｒ　ｉｓ　Ｙｌｇｒ．．．　Ｔｈｅｒｅ　"TCC_NEWLINE"ｃａｎ　ｂｅ　ｎｏｍｉｓｔａｋｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｔｒａｉｔｏｒ　ｉｓ　Ｙｌｇｒ．．．　Ｔｈｅｒｅ　"TCC_NEWLINE"ｃａｎ　ｂｅ　ｎｏ　ｍｉｓｔａｋｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｙｌｇｒ？　Ｎｏ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT
-"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｈｏｗ　ｙｏｕ　ｍｕｓｔ　ｆｅｅー"TCC_NEWLINE"ｌ．Ｃｏｍｅ．　Ｉ　ｗｉｌｌ　ｅｘｐｌａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｈｏｗ　ｙｏｕ　ｍｕｓｔ　ｆｅｅー"TCC_NEWLINE"ｌ．　Ｃｏｍｅ．　Ｉ　ｗｉｌｌ　ｅｘｐｌａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｉｓ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ａｌｌ　ｒｉｇｈｔ，　Ｈｒｄ．"TCC_NEWLINE TCC_PUSH_A
@@ -74,9 +74,9 @@ TCC_OPEN_MID_LEFT
 "Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｌｅａｓｅ，　ｌｉｓｔｅｎ．　Ｍｙ　ｂｒｏｔｈｅｒ　ｈａー"TCC_NEWLINE"ｓ　ｔｏｌｄｍｅｔｏｌｄ　ｍｅ　ｔｈａｔ　ｔｈｅ　ｔｒａｉー"TCC_NEWLINE"ｔｏｒ"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　ｌｉｓｔｅｎ．　Ｍｙ　ｂｒｏｔｈｅｒ　ｈａー"TCC_NEWLINE"ｓ　ｔｏｌｄ　ｍｅｔｏｌｄ　ｍｅ　ｔｈａｔ　ｔｈｅ　ｔｒａー"TCC_NEWLINE"ｉｔｏｒ"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｉ　ｋｎｏｗ．　Ｉ　ｈａｄ　ｍｙ　ｏｗｎ　ｓｕｓｐｉｃｉｏー"TCC_NEWLINE"ｎｓ．　Ｉｎｆａｃｔ，　Ｉ　ｗａｓ　ｓｕｒｅ　ｏｆ　ｉｔ．"TCC_NEWLINE"　Ｗｅ　ｗｅｒｅ　ｂｅｉｎｇｍｉｓｌｅｄ　ｂｙ　ｏｕｒ　ｆー"TCC_NEWLINE"ｏｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ．　Ｉ　ｈａｄ　ｍｙ　ｏｗｎ　ｓｕｓｐｉｃｉｏー"TCC_NEWLINE"ｎｓ．　Ｉｎ　ｆａｃｔ，　Ｉ　ｗａｓ　ｓｕｒｅ　ｏｆ　ｉｔ"TCC_NEWLINE"．　Ｗｅ　ｗｅｒｅ　ｂｅｉｎｇ　ｍｉｓｌｅｄ　ｂｙ　ｏｕｒ"TCC_NEWLINE"　ｆｏｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｕｒ　ｆｏｅｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

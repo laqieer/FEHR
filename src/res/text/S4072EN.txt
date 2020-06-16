@@ -1,5 +1,5 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4072_EN] = TCC_OPEN_LEFT
-"Ｓｅｌｉｐｈ．．．　Ｔｈｉｓ　ｎａｍｅ　ｉｓ　ｆａｍｉｌｉー"TCC_NEWLINE"ａｒ，　ｂｕｔｗｈｏｓｅ　ｉｓ　ｉｔ？　Ｓａｙｉｎｇ　ｉｔ"TCC_NEWLINE"，　Ｉ　ｆｅｅｌａ　ｓｔｒａｎｇｅ　ｗａｒｍｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｌｉｐｈ．．．　Ｔｈｉｓ　ｎａｍｅ　ｉｓ　ｆａｍｉｌｉー"TCC_NEWLINE"ａｒ，　ｂｕｔ　ｗｈｏｓｅ　ｉｓ　ｉｔ？　Ｓａｙｉｎｇ　ｉー"TCC_NEWLINE"ｔ，　Ｉ　ｆｅｅｌ　ａ　ｓｔｒａｎｇｅ　ｗａｒｍｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

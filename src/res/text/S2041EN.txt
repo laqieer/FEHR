@@ -1,46 +1,46 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_OPENING_S2041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｔｈａｔ　ｔｏｏｋ　ｅｖｅｎ　ｌｏｎｇｅｒ　ｔｈａｎ　ｗｅー"TCC_NEWLINE"ｅｘｐｅｃｔｅｄ，　ｂｕｔ　Ｉ’ｍ　ｇｌａｄ　ｔｏ　ｓｅｅ"TCC_NEWLINE"　ｔｈａｔｔｈｅ　ｔｏｗｎ　ｉｓ　ｉｎ　ｇｏｏｄ　ｓｈａｐー"TCC_NEWLINE"ｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｔｏｏｋ　ｅｖｅｎ　ｌｏｎｇｅｒ　ｔｈａｎ　ｗｅ"TCC_NEWLINE"　ｅｘｐｅｃｔｅｄ，　ｂｕｔ　Ｉ’ｍ　ｇｌａｄ　ｔｏ　ｓｅー"TCC_NEWLINE"ｅ　ｔｈａｔ　ｔｈｅ　ｔｏｗｎ　ｉｓ　ｉｎ　ｇｏｏｄ　ｓｈー"TCC_NEWLINE"ａｐｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｉ　ａｍ，　ｔｏｏ．　Ｓｅｅｉｎｇ　ｔｈｅ　ｔｏｗｎｓｐｅー"TCC_NEWLINE"ｏｐｌｅ　ｉｎｈｉｇｈ　ｓｐｉｒｉｔｓ　ｈａｓ　ｌｉｆｔｅー"TCC_NEWLINE"ｄ　ｍｙ　ｏｗｎ．　Ｔｈｅｙ’ｒｅｓｏ　ｇｒａｔｅｆｕｌ　"TCC_NEWLINE"ｆｏｒ　ｏｕｒ　ｈｅｌｐ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　ｄｏ　ｙｏｕ　ｏｆｔｅｎ　"TCC_NEWLINE"ｈｅａｄｏｕｔ　ａｎｄ　ａｉｄ　ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ"TCC_NEWLINE"　Ａｓｋｒ　ｌｉｋｅｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ，　ｔｏｏ．　Ｓｅｅｉｎｇ　ｔｈｅ　ｔｏｗｎｓｐｅー"TCC_NEWLINE"ｏｐｌｅ　ｉｎ　ｈｉｇｈ　ｓｐｉｒｉｔｓ　ｈａｓ　ｌｉｆｔー"TCC_NEWLINE"ｅｄ　ｍｙ　ｏｗｎ．　Ｔｈｅｙ’ｒｅ　ｓｏ　ｇｒａｔｅｆｕー"TCC_NEWLINE"ｌ　ｆｏｒ　ｏｕｒ　ｈｅｌｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　ｄｏ　ｙｏｕ　ｏｆｔｅｎ　"TCC_NEWLINE"ｈｅａｄ　ｏｕｔ　ａｎｄ　ａｉｄ　ｔｈｅ　ｐｅｏｐｌｅ　ｏー"TCC_NEWLINE"ｆ　Ａｓｋｒ　ｌｉｋｅ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｗｅｌｌ．．．　Ｎｏｒｍａｌｌｙ　ｔｈｅ　ｒｏｙａｌ　ｆａー"TCC_NEWLINE"ｍｉｌｙｗｏｕｌｄｎ’ｔ　ｂｅ　ｓｏ　ｈａｎｄｓ－ｏｎ．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｎ　ｆａｃｔ，　ｗｈｅｎ　Ｉ　ｄｅｃｉｄｅｄ　ｔｏ　ｊｏー"TCC_NEWLINE"ｉｎ　ｔｈｅＯｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．ｔｈｅｒｅ"TCC_NEWLINE"　ｗｅｒｅ　ｍａｎｙｗｈｏ　ｏｐｐｏｓｅｄ　ｔｈａｔ　ｃｈー"TCC_NEWLINE"ｏｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｍｙ　ｆａｔｈｅｒ　ｉｓ　ｏｎｅ　ｏｆ　ｔｈｅｍ．　Ｈｅ　"TCC_NEWLINE"ｗａｓ　ｖｅｒｙａｎｇｒｙ　ｗｉｔｈ　ｍｅ．　Ｈｅ　ｓｔｉー"TCC_NEWLINE"ｌｌ　ｗｏｎ’ｔ　ｓｅｅ　ｍｅｗｈｅｎ　Ｉ’ｍ　ａｔ　ｔｈー"TCC_NEWLINE"ｅ　ｒｏｙａｌ　ｒｅｓｉｄｅｎｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ．．．　Ｎｏｒｍａｌｌｙ　ｔｈｅ　ｒｏｙａｌ　ｆａー"TCC_NEWLINE"ｍｉｌｙ　ｗｏｕｌｄｎ’ｔ　ｂｅ　ｓｏ　ｈａｎｄｓ－ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｆａｃｔ，　ｗｈｅｎ　Ｉ　ｄｅｃｉｄｅｄ　ｔｏ　ｊｏー"TCC_NEWLINE"ｉｎ　ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．ｔｈｅｒー"TCC_NEWLINE"ｅ　ｗｅｒｅ　ｍａｎｙ　ｗｈｏ　ｏｐｐｏｓｅｄ　ｔｈａｔ　"TCC_NEWLINE"ｃｈｏｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｆａｔｈｅｒ　ｉｓ　ｏｎｅ　ｏｆ　ｔｈｅｍ．　Ｈｅ　"TCC_NEWLINE"ｗａｓ　ｖｅｒｙ　ａｎｇｒｙ　ｗｉｔｈ　ｍｅ．　Ｈｅ　ｓｔー"TCC_NEWLINE"ｉｌｌ　ｗｏｎ’ｔ　ｓｅｅ　ｍｅ　ｗｈｅｎ　Ｉ’ｍ　ａｔ　"TCC_NEWLINE"ｔｈｅ　ｒｏｙａｌ　ｒｅｓｉｄｅｎｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｏｈ，　ｄｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｄｅｅｐ　ｄｏｗｎ，　Ｉ　ｋｎｏｗ　ｍｙ　ｆａｔｈｅｒ　ａー"TCC_NEWLINE"ｎｄ　Ｉｆｅｅｌ　ｔｈｅ　ｓａｍｅ　ｗａｙ　ａｂｏｕｔ　ｔー"TCC_NEWLINE"ｈｉｓ　ｋｉｎｇｄｏｍａｎｄ　ｉｔｓ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｈｅ’ｓ　ｌｅａｄｉｎｇ　ｔｈｅ　ｋｎｉｇｈｔｓ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅ　ｆｉｇｈｔｔｏ　ｓａｖｅ　ｏｕｒ　ｋｉｎｇｄｏｍ　ｅー"TCC_NEWLINE"ｖｅｎ　ａｓ　ｗｅｓｐｅａｋ．　Ｉ　ｍｕｓｔ　ｄｏ　ｍｙ　"TCC_NEWLINE"ｐａｒｔ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅｅｐ　ｄｏｗｎ，　Ｉ　ｋｎｏｗ　ｍｙ　ｆａｔｈｅｒ　ａー"TCC_NEWLINE"ｎｄ　Ｉ　ｆｅｅｌ　ｔｈｅ　ｓａｍｅ　ｗａｙ　ａｂｏｕｔ　"TCC_NEWLINE"ｔｈｉｓ　ｋｉｎｇｄｏｍ　ａｎｄ　ｉｔｓ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ’ｓ　ｌｅａｄｉｎｇ　ｔｈｅ　ｋｎｉｇｈｔｓ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅ　ｆｉｇｈｔ　ｔｏ　ｓａｖｅ　ｏｕｒ　ｋｉｎｇｄｏｍ　"TCC_NEWLINE"ｅｖｅｎ　ａｓ　ｗｅ　ｓｐｅａｋ．　Ｉ　ｍｕｓｔ　ｄｏ　ｍー"TCC_NEWLINE"ｙ　ｐａｒｔ，　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ａｌｆｏｎｓｅ，"TCC_NEWLINE
-TCC_TACTICIAN_NAME"！Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！"TCC_NEWLINE TCC_PUSH_A
-"Ｌｏｏｋ　ａｔ　ｔｈｉｓ！　Ｔｈｅ　ｔｏｗｎｓｐｅｏｐｌｅ"TCC_NEWLINE"　ｇａｖｅｍｅ　ａｌｌ　ｏｆ　ｔｈｅｓｅ　ａｐｐｌｅｓ．　"TCC_NEWLINE"Ｉｔ’ｓ　ｔｈｅｉｒｗａｙ　ｏｆ　ｓａｙｉｎｇ　ｔｈａｎｋー"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_TACTICIAN_NAME"！　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｏｏｋ　ａｔ　ｔｈｉｓ！　Ｔｈｅ　ｔｏｗｎｓｐｅｏｐｌｅ"TCC_NEWLINE"　ｇａｖｅ　ｍｅ　ａｌｌ　ｏｆ　ｔｈｅｓｅ　ａｐｐｌｅｓ．"TCC_NEWLINE"　Ｉｔ’ｓ　ｔｈｅｉｒ　ｗａｙ　ｏｆ　ｓａｙｉｎｇ　ｔｈａー"TCC_NEWLINE"ｎｋｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈａｔ’ｓ　ｓｏ　ｋｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｂｙ　ｔｈｅ　ｗａｙ．．．ｔｈｅ　ｅｌｄｅｒ　ａｓｋｅｄ　"TCC_NEWLINE"ｍｅ　ｔｏｇｉｖｅ　ｙｏｕ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｔ’ｓ　ｊｕｓｔ　ａ　ｂｕｎｄｌｅ　ｏｆ　ｏｄｄｌｙ－ｃー"TCC_NEWLINE"ｏｌｏｒｅｄ　ｈａｙ．Ｗｈａｔ’ｓ　ｉｔ　ｆｏｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｙ　ｔｈｅ　ｗａｙ．．．ｔｈｅ　ｅｌｄｅｒ　ａｓｋｅｄ　"TCC_NEWLINE"ｍｅ　ｔｏ　ｇｉｖｅ　ｙｏｕ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｊｕｓｔ　ａ　ｂｕｎｄｌｅ　ｏｆ　ｏｄｄｌｙ－ｃー"TCC_NEWLINE"ｏｌｏｒｅｄ　ｈａｙ．　Ｗｈａｔ’ｓ　ｉｔ　ｆｏｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｊｕｓｔ　ａ　ｌｉｔｔｌｅ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ａｓｋー"TCC_NEWLINE"ｅｄ　ｈｉｍ　ｆｏｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｗｅ　ｃａｎ’ｔ　ｅａｔ　ｈａｙ，　ｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｔ’ｓ　ｎｏｔ　ｆｏｒ　ｅａｔｉｎｇ．　Ｗｈｅｎ　ｉｔ　"TCC_NEWLINE"ｂｕｒｎｓ，　ｉｔｇｉｖｅｓ　ｏｆｆ　ｃｏｌｏｒｅｄ　ｓｍー"TCC_NEWLINE"ｏｋｅ．．．　Ｉｔ’ｓ　ｈａｎｄｙｉｆ　ｗｅ　ｎｅｅｄ　ａ"TCC_NEWLINE"　ｓｉｇｎａｌ　ｏｎ　ｔｈｅ　ｑｕｉｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｎｏｔ　ｆｏｒ　ｅａｔｉｎｇ．　Ｗｈｅｎ　ｉｔ　"TCC_NEWLINE"ｂｕｒｎｓ，　ｉｔ　ｇｉｖｅｓ　ｏｆｆ　ｃｏｌｏｒｅｄ　ｓー"TCC_NEWLINE"ｍｏｋｅ．．．　Ｉｔ’ｓ　ｈａｎｄｙ　ｉｆ　ｗｅ　ｎｅｅｄ"TCC_NEWLINE"　ａ　ｓｉｇｎａｌ　ｏｎ　ｔｈｅ　ｑｕｉｃｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ａｌｌ　ｒｉｇｈｔ，　ｅｖｅｒｙｏｎｅ！　Ｒｅａｄｙ　ｔｏ"TCC_NEWLINE"　ｍｏｖｅ？Ｌｅｔ’ｓ　ｍａｒｃｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ，　ｅｖｅｒｙｏｎｅ！　Ｒｅａｄｙ　ｔｏ"TCC_NEWLINE"　ｍｏｖｅ？　Ｌｅｔ’ｓ　ｍａｒｃｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
-"Ｅｎｅｍｉｅｓ　ａｒｅ　ｅｖｅｒｙｗｈｅｒｅ．．．　Ｉｔ’"TCC_NEWLINE"ｓ　ｃｌｅａｒｔｈａｔ　ｔｈｅｙ’ｒｅ　ｆｏｃｕｓｉｎｇ　"TCC_NEWLINE"ｏｎ　ｔｈｉｓ　ａｒｅａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｎｅｍｉｅｓ　ａｒｅ　ｅｖｅｒｙｗｈｅｒｅ．．．　Ｉｔ’"TCC_NEWLINE"ｓ　ｃｌｅａｒ　ｔｈａｔ　ｔｈｅｙ’ｒｅ　ｆｏｃｕｓｉｎｇ"TCC_NEWLINE"　ｏｎ　ｔｈｉｓ　ａｒｅａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FJORM
-"Ｗｅ’ｖｅ　ａｌｍｏｓｔ　ｍａｄｅ　ｉｔ　ｔｏ　ｔｈｅ　ｇー"TCC_NEWLINE"ａｔｅ，ｂｕｔ　ｔｈｅｓｅ　ｌａｓｔ　ｆｅｗ　ｓｔｅｐｓ　"TCC_NEWLINE"ｗｉｌｌ　ｂｅ　ｔｈｅｍｏｓｔ　ｄａｎｇｅｒｏｕｓ，　Ｉ　"TCC_NEWLINE"ｆｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ａｌｍｏｓｔ　ｍａｄｅ　ｉｔ　ｔｏ　ｔｈｅ　ｇー"TCC_NEWLINE"ａｔｅ，　ｂｕｔ　ｔｈｅｓｅ　ｌａｓｔ　ｆｅｗ　ｓｔｅｐｓ"TCC_NEWLINE"　ｗｉｌｌ　ｂｅ　ｔｈｅ　ｍｏｓｔ　ｄａｎｇｅｒｏｕｓ，　"TCC_NEWLINE"Ｉ　ｆｅａｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
-"Ｔｈｉｓ　ｐｒｏｖｅｓ　ｔｈａｔ　ｗｅ’ｒｅ　ｏｎ　ｔｈｅ"TCC_NEWLINE"　ｒｉｇｈｔｔｒａｃｋ．　Ｔｈｅｙ　ｗａｎｔ　ｔｏ　ｋｅｅー"TCC_NEWLINE"ｐ　ｕｓ　ｆｒｏｍｇｅｔｔｉｎｇ　ｔｏ　Ｎｉｆｌ　ａｔ　ａー"TCC_NEWLINE"ｎｙ　ｃｏｓｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｐｒｏｖｅｓ　ｔｈａｔ　ｗｅ’ｒｅ　ｏｎ　ｔｈｅ"TCC_NEWLINE"　ｒｉｇｈｔ　ｔｒａｃｋ．　Ｔｈｅｙ　ｗａｎｔ　ｔｏ　ｋｅー"TCC_NEWLINE"ｅｐ　ｕｓ　ｆｒｏｍ　ｇｅｔｔｉｎｇ　ｔｏ　Ｎｉｆｌ　ａｔ"TCC_NEWLINE"　ａｎｙ　ｃｏｓｔ！"TCC_NEWLINE TCC_PUSH_A
 "Ｏｎｗａｒｄ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S2041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗｅｌｌ　ｄｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｌｅｔ’ｓ　ｕｓｅ　ｔｈｉｓ　ｔｏ　ｏｕｒ　ａｄｖａｎｔａー"TCC_NEWLINE"ｇｅ．Ｍｏｖｅ　ｃａｒｅｆｕｌｌｙ　ａｎｄ　ｑｕｉｅｔｌｙー"TCC_NEWLINE"ｗｅ’ｌｌ　ｂｅｔｈｅｒｅ　ｂｅｆｏｒｅ　ｔｈｅｙ　ｎｏｔー"TCC_NEWLINE"ｉｃｅ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｕｓｅ　ｔｈｉｓ　ｔｏ　ｏｕｒ　ａｄｖａｎｔａー"TCC_NEWLINE"ｇｅ．　Ｍｏｖｅ　ｃａｒｅｆｕｌｌｙ　ａｎｄ　ｑｕｉｅｔｌー"TCC_NEWLINE"ｙｗｅ’ｌｌ　ｂｅ　ｔｈｅｒｅ　ｂｅｆｏｒｅ　ｔｈｅｙ　ｎー"TCC_NEWLINE"ｏｔｉｃｅ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

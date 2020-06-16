@@ -1,33 +1,33 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S4073_EN] = TCC_OPEN_LEFT
-"Ｈｍｐｈ！　Ｋｅｅｐ　ｙｏｕｒ　ｗｒｅｔｃｈｅｄ　ｈａｎｄー"TCC_NEWLINE"ｓｏｆｆ　ｍｅ，　ｈｕｍａｎ，　ｏｒ　ｙｏｕ　ｍａｙ　ｗｅー"TCC_NEWLINE"ｌｌｌｏｓｅ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｐｈ！　Ｋｅｅｐ　ｙｏｕｒ　ｗｒｅｔｃｈｅｄ　ｈａｎｄー"TCC_NEWLINE"ｓ　ｏｆｆ　ｍｅ，　ｈｕｍａｎ，　ｏｒ　ｙｏｕ　ｍａｙ　ｗー"TCC_NEWLINE"ｅｌｌ　ｌｏｓｅ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S4073_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｈｍｍ．．．　Ｈｍｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_MIRABILIS
 "．．．Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉｔ’ｓ　ｊｕｓｔ　ｔｈａｔ．．．Ｉ　ｆｅｅｌ　ａｓ　ｔｈー"TCC_NEWLINE"ｏｕｇｈ　ｗｅ’ｖｅｍｅｔ　ｂｅｆｏｒｅ．．．　Ｉ　ｆｅｌー"TCC_NEWLINE"ｔ　ｓｉｍｉｌａｒｌｙ　ｗｈｅｎＩ　ｆｉｒｓｔ　ｍｅｔ　Ｐー"TCC_NEWLINE"ｅｏｎｙ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｄｏｎ’ｔ　ｈａｐｐｅｎ　ｔｏ　ｒｅｍｅｍｂｅｒｈー"TCC_NEWLINE"ａｖｉｎｇ　ｍｅｔ　ｍｅ　ｂｅｆｏｒｅ，　ｄｏ　ｙｏｕ，Ｍー"TCC_NEWLINE"ｉｒａｂｉｌｉｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｊｕｓｔ　ｔｈａｔ．．．Ｉ　ｆｅｅｌ　ａｓ　ｔｈー"TCC_NEWLINE"ｏｕｇｈ　ｗｅ’ｖｅ　ｍｅｔ　ｂｅｆｏｒｅ．．．　Ｉ　ｆｅー"TCC_NEWLINE"ｌｔ　ｓｉｍｉｌａｒｌｙ　ｗｈｅｎ　Ｉ　ｆｉｒｓｔ　ｍｅｔ"TCC_NEWLINE"　Ｐｅｏｎｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｏｎ’ｔ　ｈａｐｐｅｎ　ｔｏ　ｒｅｍｅｍｂｅｒ　"TCC_NEWLINE"ｈａｖｉｎｇ　ｍｅｔ　ｍｅ　ｂｅｆｏｒｅ，　ｄｏ　ｙｏｕ，"TCC_NEWLINE"　Ｍｉｒａｂｉｌｉｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｚｚｚｚ．．．　Ｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｅｙ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "＊ｙｙｙａａａｗｗｗｎｎｎ＊"TCC_NEWLINE TCC_PUSH_A
-"Ｉ’ｍ　ｓｏｒｒｙ．．．　Ｙｏｕ　ｗｅｒｅ　ｓａｙｉｎｇｙー"TCC_NEWLINE"ｏｕ’ｖｅ　ｍｅｔ　ｍｅ　ｂｅｆｏｒｅ？　Ｉｎ　ａｄｒｅａー"TCC_NEWLINE"ｍ？　．．．Ｍａｙｂｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ．．．　Ｙｏｕ　ｗｅｒｅ　ｓａｙｉｎｇ　"TCC_NEWLINE"ｙｏｕ’ｖｅ　ｍｅｔ　ｍｅ　ｂｅｆｏｒｅ？　Ｉｎ　ａ　ｄｒー"TCC_NEWLINE"ｅａｍ？　．．．Ｍａｙｂｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｙｅｓ．　Ｉ　ｈａｖｅ　ｔｈｉｓ　ｇｒｏｗｉｎｇ　ｆｅｅｌー"TCC_NEWLINE"ｉｎｇ　ｔｈａｔＩ’ｖｅ　ｓｐｏｋｅｎ　ｗｉｔｈ　ａｌｌ　"TCC_NEWLINE"ｙｏｕ　ｌｊｓｌｆａｒｂｅｆｏｒｅ，　ｊｕｓｔ　ｌｉｋｅ　"TCC_NEWLINE"ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｈｅｎ　Ｉ　ｗａｓ　ａ　ｃｈｉｌｄ．．．　Ｉ　ｒｅｍｅｍー"TCC_NEWLINE"ｂｅｒ　ｔｈｅｄｒｅａｍ．　Ｉｔ　ｗａｓ　ａｌｗａｙｓ　ｔー"TCC_NEWLINE"ｈｅ　ｓａｍｅ．　Ｗｅａｌｌ　ｐｌａｙｅｄ　ｉｎ　ａ　ｆｉー"TCC_NEWLINE"ｅｌｄ　ｏｆ　ｆｌｏｗｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
-"Ｏｎｅ　ｇｉｒｌ　ｗｈｏ　ｌｏｏｋｅｄ　ｌｉｋｅ　Ｐｅｏｎー"TCC_NEWLINE"ｙ，ｏｎｅ　ｌｉｋｅ　Ｍｉｒａｂｉｌｉｓ．．．　Ａｎｄ　Ｉ"TCC_NEWLINE"　ｓｅｅｍ　ｔｏｒｅｃａｌｌ　ｔｈｅｒｅ　ｂｅｉｎｇ　ｔｗー"TCC_NEWLINE"ｏ　ｏｔｈｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ｉ　ｈａｖｅ　ｔｈｉｓ　ｇｒｏｗｉｎｇ　ｆｅｅｌー"TCC_NEWLINE"ｉｎｇ　ｔｈａｔ　Ｉ’ｖｅ　ｓｐｏｋｅｎ　ｗｉｔｈ　ａｌｌ"TCC_NEWLINE"　ｙｏｕ　ｌｊｓｌｆａｒ　ｂｅｆｏｒｅ，　ｊｕｓｔ　ｌｉｋー"TCC_NEWLINE"ｅ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　Ｉ　ｗａｓ　ａ　ｃｈｉｌｄ．．．　Ｉ　ｒｅｍｅｍー"TCC_NEWLINE"ｂｅｒ　ｔｈｅ　ｄｒｅａｍ．　Ｉｔ　ｗａｓ　ａｌｗａｙｓ　"TCC_NEWLINE"ｔｈｅ　ｓａｍｅ．　Ｗｅ　ａｌｌ　ｐｌａｙｅｄ　ｉｎ　ａ　"TCC_NEWLINE"ｆｉｅｌｄ　ｏｆ　ｆｌｏｗｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｇｉｒｌ　ｗｈｏ　ｌｏｏｋｅｄ　ｌｉｋｅ　Ｐｅｏｎー"TCC_NEWLINE"ｙ，　ｏｎｅ　ｌｉｋｅ　Ｍｉｒａｂｉｌｉｓ．．．　Ａｎｄ　"TCC_NEWLINE"Ｉ　ｓｅｅｍ　ｔｏ　ｒｅｃａｌｌ　ｔｈｅｒｅ　ｂｅｉｎｇ　"TCC_NEWLINE"ｔｗｏ　ｏｔｈｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
-"Ｈｍｍ．．．　Ｔｉｍｅ　ｐａｓｓｅｓ　ｄｉｆｆｅｒｅｎｔｌー"TCC_NEWLINE"ｙｆｏｒ　ｌｊｓｌｆａｒ　ａｎｄ　ｈｕｍａｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｉｆ　ｗｅ　ｈａｄ　ｍｅｔ，　ｔｈｏｕｇｈ，　ｔｈａｔ　ｉー"TCC_NEWLINE"ｓ　ｈｏｗｉｔ　ｗｏｕｌｄ　ｈａｖｅ　ｈａｐｐｅｎｅｄ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
-"Ｂｕｔ　ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ　ｎｏｗ．　"TCC_NEWLINE"Ｗｈａｔ’ｓｉｍｐｏｒｔａｎｔ　ｉｓ　ｔｈａｔ　Ｉ　ｊｕｓー"TCC_NEWLINE"ｔ．．．ｃｌｏｓｅ　ｍｙｅｙｅｓ．．．ａｎｄ．．．　Ｚｚｚー"TCC_NEWLINE"ｚ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ．．．　Ｔｉｍｅ　ｐａｓｓｅｓ　ｄｉｆｆｅｒｅｎｔｌー"TCC_NEWLINE"ｙ　ｆｏｒ　ｌｊｓｌｆａｒ　ａｎｄ　ｈｕｍａｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｈａｄ　ｍｅｔ，　ｔｈｏｕｇｈ，　ｔｈａｔ　ｉー"TCC_NEWLINE"ｓ　ｈｏｗ　ｉｔ　ｗｏｕｌｄ　ｈａｖｅ　ｈａｐｐｅｎｅｄ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ　ｎｏｗ．　"TCC_NEWLINE"Ｗｈａｔ’ｓ　ｉｍｐｏｒｔａｎｔ　ｉｓ　ｔｈａｔ　Ｉ　ｊｕー"TCC_NEWLINE"ｓｔ．．．ｃｌｏｓｅ　ｍｙ　ｅｙｅｓ．．．ａｎｄ．．．　Ｚー"TCC_NEWLINE"ｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ－ｉｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
-"Ｉ　ｆｅｅｌ　ｌｉｋｅ　ｕｓ　ｇｉｒｌｓ，　ｗｅ　ｄｉｄ　"TCC_NEWLINE"ｓｏｍｅｔｈｉｎｇｔｏｇｅｔｈｅｒ．．．　Ｓｏｍｅｔｈｉｎー"TCC_NEWLINE"ｇ　ｔｈａｔ　ｆｅｌｔｉｍｐｏｒｔａｎｔ　ｓｏｍｅｈｏｗ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
-"Ｗｅｒｅ　ｗｅ　ｐｌａｙｉｎｇ　ａｔ　ｂｅｉｎｇ　ｏｎ　ｓー"TCC_NEWLINE"ｏｍｅｋｉｎｄ　ｏｆ　ａｄｖｅｎｔｕｒｅ．．．ｔｏ　ｓａｖー"TCC_NEWLINE"ｅ　ｔｈｅ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
-"Ｈｍｍ．．．　Ｕｇｈ．　Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ．"TCC_NEWLINE"．．Ｃ’ｍｏｎ，　Ｓｈａｒｅｎａ，　ｔｈｉｎｋ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｅｅｌ　ｌｉｋｅ　ｕｓ　ｇｉｒｌｓ，　ｗｅ　ｄｉｄ　"TCC_NEWLINE"ｓｏｍｅｔｈｉｎｇ　ｔｏｇｅｔｈｅｒ．．．　Ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ　ｔｈａｔ　ｆｅｌｔ　ｉｍｐｏｒｔａｎｔ　ｓｏｍｅｈｏー"TCC_NEWLINE"ｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｒｅ　ｗｅ　ｐｌａｙｉｎｇ　ａｔ　ｂｅｉｎｇ　ｏｎ　ｓー"TCC_NEWLINE"ｏｍｅ　ｋｉｎｄ　ｏｆ　ａｄｖｅｎｔｕｒｅ．．．ｔｏ　ｓａー"TCC_NEWLINE"ｖｅ　ｔｈｅ　ｗｏｒｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍ．．．　Ｕｇｈ．　Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ．"TCC_NEWLINE"．．　Ｃ’ｍｏｎ，　Ｓｈａｒｅｎａ，　ｔｈｉｎｋ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

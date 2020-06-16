@@ -1,31 +1,31 @@
 // Converted by ./ConvertTextEN.py
 
 [MID_SCENARIO_MAP_BEGIN_S3113_EN] = TCC_OPEN_LEFT
-"Ｙｅａｈ，　ｙｏｕ　ａｎｄ　Ｌｆ　ｂｏｔｈ　ｌｏｏｋ　ｐｒー"TCC_NEWLINE"ｅｔｔｙｇｏｏｄ　ｉｎ　ｔｈｅ　ｆａｃｅ，　ｂｕｔ．．．ｙー"TCC_NEWLINE"ｏｕｒ　ｆａｓｈｉｏｎｓｅｎｓｅ　ｃｏｕｌｄ　ｕｓｅ　ｓｏー"TCC_NEWLINE"ｍｅ　ｗｏｒｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅａｈ，　ｙｏｕ　ａｎｄ　Ｌｆ　ｂｏｔｈ　ｌｏｏｋ　ｐｒー"TCC_NEWLINE"ｅｔｔｙ　ｇｏｏｄ　ｉｎ　ｔｈｅ　ｆａｃｅ，　ｂｕｔ．．．"TCC_NEWLINE"ｙｏｕｒ　ｆａｓｈｉｏｎ　ｓｅｎｓｅ　ｃｏｕｌｄ　ｕｓｅ　"TCC_NEWLINE"ｓｏｍｅ　ｗｏｒｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3113_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
-"Ｌｆ．．．　Ｂｅｆｏｒｅ　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ"TCC_NEWLINE"　ｗａｓｋｉｌｌｅｄ，　Ｉ　ｓｐｅｎｔ　ｔｉｍｅ　ｗｉｔｈ"TCC_NEWLINE"　ｈｅｒ．．．ａｎｄ　ｈｅｒｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
-"Ｔｈｅｙ　ｗｅｒｅ　ｓｈｉｎｉｎｇ　ｗｉｔｈ　ｌｉｆｅ，　"TCC_NEWLINE"ａｎｄｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
-"Ｅｖｅｎ　ａｆｔｅｒ　ｔｈｅｙ　ｆｏｕｎｄ　ｏｕｔ　ｗｈｏ"TCC_NEWLINE"　Ｉｗａｓ　ａｎｄ　ｗｈａｔ　ｔｈａｔ　ｍｅａｎｔ．．．　"TCC_NEWLINE"Ｔｈｅｙｓｔａｙｅｄ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｆ．．．　Ｂｅｆｏｒｅ　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ"TCC_NEWLINE"　ｗａｓ　ｋｉｌｌｅｄ，　Ｉ　ｓｐｅｎｔ　ｔｉｍｅ　ｗｉｔー"TCC_NEWLINE"ｈ　ｈｅｒ．．．ａｎｄ　ｈｅｒ　ｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｗｅｒｅ　ｓｈｉｎｉｎｇ　ｗｉｔｈ　ｌｉｆｅ，　"TCC_NEWLINE"ａｎｄ　ｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ａｆｔｅｒ　ｔｈｅｙ　ｆｏｕｎｄ　ｏｕｔ　ｗｈｏ"TCC_NEWLINE"　Ｉ　ｗａｓ　ａｎｄ　ｗｈａｔ　ｔｈａｔ　ｍｅａｎｔ．．．"TCC_NEWLINE"　Ｔｈｅｙ　ｓｔａｙｅｄ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｈｙ　ｗｏｎ’ｔ　ｙｏｕ　ｋｉｌｌ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｒｉｎｃｅｓｓ　Ｅｉｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
-"Ｉ　ａｍ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　Ｈｅｌ，　ｒｕｌー"TCC_NEWLINE"ｅｒ　ｏｆ　ｔｈｅｄｅａｄ．　Ｉ　ａｍ　ｙｏｕｒ　ｅｎｅｍー"TCC_NEWLINE"ｙ．　Ｙｅｔ　ｅｖｅｎｋｎｏｗｉｎｇ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　Ｈｅｌ，　ｒｕｌー"TCC_NEWLINE"ｅｒ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｉ　ａｍ　ｙｏｕｒ　ｅｎｅー"TCC_NEWLINE"ｍｙ．　Ｙｅｔ　ｅｖｅｎ　ｋｎｏｗｉｎｇ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
 "Ｐｒｉｎｃｅｓｓ　Ｅｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｄｏｎ’ｔ　ｙｏｕ　ｌｉｋｅ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
-"Ｎｏｗ　ｔｈａｔ　ｗｅ’ｖｅ　ｓｐｅｎｔ　ｔｉｍｅ　ｔｏｇー"TCC_NEWLINE"ｅｔｈｅｒ，ａｎｄ　Ｉ　ｈａｖｅ　ｓｅｅｎ　ｙｏｕｒ　ｗａー"TCC_NEWLINE"ｒｍｔｈ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｔｈａｔ　ｗｅ’ｖｅ　ｓｐｅｎｔ　ｔｉｍｅ　ｔｏｇー"TCC_NEWLINE"ｅｔｈｅｒ，　ａｎｄ　Ｉ　ｈａｖｅ　ｓｅｅｎ　ｙｏｕｒ　ｗー"TCC_NEWLINE"ａｒｍｔｈ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｓｏ　ｗｈａｔ　ｙｏｕ’ｒｅ　ｓａｙｉｎｇ　ｉｓ．．．ｙｏー"TCC_NEWLINE"ｕ　ｄｏｌｉｋｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｗｈａｔ　ｙｏｕ’ｒｅ　ｓａｙｉｎｇ　ｉｓ．．．ｙｏー"TCC_NEWLINE"ｕ　ｄｏ　ｌｉｋｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｅｓ．　Ｖｅｒｙ　ｍｕｃｈ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
-"Ｗｅ　ｆｅｅｌ　ｔｈｅ　ｓａｍｅ！　Ｗｅ　ｌｉｋｅ　ｙｏｕ"TCC_NEWLINE"　ｖｅｒｙｍｕｃｈ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
-"Ｙｏｕ　ｍａｙ　ｂｅ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　Ｈｅー"TCC_NEWLINE"ｌ，　ｂｕｔｙｏｕ　ａｒｅ　ｋｉｎｄ．　Ｙｏｕ　ｈａｖｅ　"TCC_NEWLINE"ａ　ｇｏｏｄ　ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｆｅｅｌ　ｔｈｅ　ｓａｍｅ！　Ｗｅ　ｌｉｋｅ　ｙｏｕ"TCC_NEWLINE"　ｖｅｒｙ　ｍｕｃｈ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍａｙ　ｂｅ　ｔｈｅ　ｄａｕｇｈｔｅｒ　ｏｆ　Ｈｅー"TCC_NEWLINE"ｌ，　ｂｕｔ　ｙｏｕ　ａｒｅ　ｋｉｎｄ．　Ｙｏｕ　ｈａｖｅ"TCC_NEWLINE"　ａ　ｇｏｏｄ　ｈｅａｒｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉｎｄｅｅｄ．　Ｔｈｅｒｅ　ｉｓ　ｙｏｕｒ　ａｎｓｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
