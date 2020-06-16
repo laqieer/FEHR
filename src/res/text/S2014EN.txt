@@ -25,7 +25,7 @@ TCC_OPEN_LEFT
 "Ｓｕｒｔｒ！　Ｉ　ｓｗｅａｒ．．．ｔｈａｔ　Ｉ．．．　Ｙｏー"TCC_NEWLINE"ｕ　ｗｉｌｌ　ｎｅｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｉｓ　ｔｈａｔ　ａｌｌ？　Ｓｈｅ’ｓ　ａｌｒｅａｄｙ　ｌｏー"TCC_NEWLINE"ｓｔ　ｃｏｎｓｃｉｏｕｓｎｅｓｓ．　Ｗｈａｔ　ａ　ｊｏｋｅ"TCC_NEWLINE"！　Ｎｏｔ　ｅｖｅｎ　ｆｉｔ　ｆｏｒ　ａ　ｔｏｙ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗｈａｔ　ｎｅｘｔ，　ｍｙ　ｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｅ　ｍａｒｃｈ．　Ｍｙ　ｆｌａｍｅｓ　ｗｉｌｌ　ｓｏｏｎ"TCC_NEWLINE"　ｒｅａｃｈ　ｅｖｅｒｙ　ｃｏｒｎｅｒ　ｏｆ　ｔｈｉｓ　ｌー"TCC_NEWLINE"ａｎｄ．"TCC_NEWLINE TCC_PUSH_A

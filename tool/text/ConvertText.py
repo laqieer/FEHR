@@ -11,6 +11,7 @@ FaceDefines = {
     "ID_アルフォンス":"PORTRAIT_ALFONSE",
     "ID_シャロン":"PORTRAIT_SHARENA",
     "ID_アンナ":"PORTRAIT_ANNA",
+    "ID_ロキアンナ":"PORTRAIT_ANNA",
     "ID_フィヨルム":"PORTRAIT_FJORM",
     "ID_神階エイル":"PORTRAIT_EIR",
     "ID_神階ピアニー":"PORTRAIT_PEONY",
@@ -72,7 +73,10 @@ for filename in sys.argv[1:]:
                                 faceName = "ID_ブルーノ皇子"
                             if faceName == "ID_ロキ味方":
                                 faceName = "ID_ロキ"
-                            if faceName in faces:
+                            if faceName == "ID_ロキ" and faceName not in faces and "ID_ロキアンナ" in faces:
+                                text += "TCC_OPEN_" + FacePositions[faces["ID_ロキアンナ"]] + " TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_LOKI\n"
+                                faces["ID_ロキ"] = faces.pop("ID_ロキアンナ")
+                            elif faceName in faces:
                                 facePos = faces[faceName]
                                 text += "TCC_OPEN_" + FacePositions[facePos] + "\n"
                             else:

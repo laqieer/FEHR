@@ -1967,7 +1967,7 @@ void stripTextControlCode(char *textIn, char *textOut, int maxLength)
         }
 
         // double byte encoding
-        if((u8)*textIn < 0) // 0x81 ~
+        if(*textIn < 0) // 0x81 ~
             *textOut++ = *textIn++;
 
         *textOut++ = *textIn++;
