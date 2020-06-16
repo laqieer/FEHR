@@ -5009,7 +5009,7 @@ const struct AssistSkill assistSkills[] = {
     {"攻撃守備の応援", "対象の攻撃、守備＋３", "Rally Atk/Def", "Grants Atk/Def+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefenseEffect},
     {"攻撃の大応援", "対象とその周囲２マスの味方（自分は除く）の攻撃＋４", "Rally Up Atk", "Grants Atk+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackEffect},
     {"魔防の大応援", "対象とその周囲２マスの味方（自分は除く）の魔防＋４", "Rally Up Res", "Grants Res+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpResistanceEffect},
-    {"癒しの手", "対象が受けている弱化を無効化し、強化に変換する。対象のＨＰを回復し、その分自分のＨＰが減少する（回復量は、最大で自分の現ＨＰー１）", "Sacrifice", "Converts penalties on target into bonuses. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.", NULL, assistSkillSacrificeEffect},
+    {"癒しの手", "対象が受けている弱化を無効化し、強化に変換する。対象のＨＰを回復し、その分自分のＨＰが減少する", "Sacrifice", "Converts penalties on target into bonuses. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.", NULL, assistSkillSacrificeEffect},
     {"未来を映す瞳", "自分と対象の位置を入れ替え、その後、自分を行動可能\にする", "Future Vision", "Unit and target ally swap spaces. Grants another action to unit.", assistSkillFutureVisionCondition, assistSkillFutureVisionEffect},
     {"速さ守備の応援＋", "対象の速さ、守備＋６", "Rally Spd/Def+", "Grants Spd/Def+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedDefensePlusEffect},
     {"攻撃の大応援＋", "対象とその周囲２マスの味方（自分は除く）の攻撃＋６", "Rally Up Atk+", "Grants Atk+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackPlusEffect},
@@ -5120,10 +5120,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"獅子ふんじん２", "攻撃、速さ、守備、魔防＋２。戦闘後、自分に４ダメージ。", "Fury 2", "Grants Atk/Spd/Def/Res+2. After combat, deals 4 damage to unit."},
     {"獅子ふんじん３", "攻撃、速さ、守備、魔防＋３。戦闘後、自分に６ダメージ。", "Fury 3", "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."},
     {"獅子ふんじん４", "攻撃、速さ、守備、魔防＋４。戦闘後、自分に８ダメージ。", "Fury 4", "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit."},
-    {"妖婦の誘惑１", "ＨＰ＋３　ターン開始時、十\字方向の自身よりＨＰが５以上低い敵の移動を最大１マスに制限", "Loki's Temptation 1", "HP+3. At start of turn, if foe's HP <= unit's HP-5 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
-    {"妖婦の誘惑２", "ＨＰ＋４　ターン開始時、十\字方向の自身よりＨＰが３以上低い敵の移動を最大１マスに制限", "Loki's Temptation 2", "HP+4. At start of turn, if foe's HP <= unit's HP-3 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
-    {"妖婦の誘惑３", "ＨＰ＋５　ターン開始時、十\字方向の自身よりＨＰが１以上低い敵の移動を最大１マスに制限", "Loki's Temptation 3", "HP+5. At start of turn, if foe's HP <= unit's HP-1 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
-    {"妖婦の誘惑４", "ＨＰ＋７　ターン開始時、十\字方向の敵の移動を最大１マスに制限", "Loki's Temptation 4", "HP+7. At start of turn, if foe is in cardinal direction, foe cannot move more than 1 space through its action."},
+    {"ようふの誘惑１", "ＨＰ＋３　ターン開始時、十\字方向の自身よりＨＰが５以上低い敵の移動を最大１マスに制限", "Loki's Temptation 1", "HP+3. At start of turn, if foe's HP <= unit's HP-5 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
+    {"ようふの誘惑２", "ＨＰ＋４　ターン開始時、十\字方向の自身よりＨＰが３以上低い敵の移動を最大１マスに制限", "Loki's Temptation 2", "HP+4. At start of turn, if foe's HP <= unit's HP-3 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
+    {"ようふの誘惑３", "ＨＰ＋５　ターン開始時、十\字方向の自身よりＨＰが１以上低い敵の移動を最大１マスに制限", "Loki's Temptation 3", "HP+5. At start of turn, if foe's HP <= unit's HP-1 and foe is in cardinal direction, foe cannot move more than 1 space through its action."},
+    {"ようふの誘惑４", "ＨＰ＋７　ターン開始時、十\字方向の敵の移動を最大１マスに制限", "Loki's Temptation 4", "HP+7. At start of turn, if foe is in cardinal direction, foe cannot move more than 1 space through its action."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5213,10 +5213,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"死の吐息２", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に５ダメージ", "Savage Blow 2", "If unit initiates combat, deals 5 damage to foes within 2 spaces of target after combat."},
     {"死の吐息３", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に７ダメージ", "Savage Blow 3", "If unit initiates combat, deals 7 damage to foes within 2 spaces of target after combat."},
     {"死の吐息４", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に１０ダメージ", "Savage Blow 4", "If unit initiates combat, deals 10 damage to foes within 2 spaces of target after combat."},
-    {"攻撃の波・奇数１", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋２（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 1", "At start of odd-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
-    {"攻撃の波・奇数２", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋４（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 2", "At start of odd-numbered turns, grants Atk+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
-    {"攻撃の波・奇数３", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋６（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 3", "At start of odd-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
-    {"攻撃の波・奇数４", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋８（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 4", "At start of odd-numbered turns, grants Atk+8 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"攻撃のなみ奇数１", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋２（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 1", "At start of odd-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"攻撃のなみ奇数２", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋４（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 2", "At start of odd-numbered turns, grants Atk+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"攻撃のなみ奇数３", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋６（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 3", "At start of odd-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"攻撃のなみ奇数４", "奇数ターン開始時、自分と周囲１マスの味方の攻撃＋８（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Atk Wave 4", "At start of odd-numbered turns, grants Atk+8 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
