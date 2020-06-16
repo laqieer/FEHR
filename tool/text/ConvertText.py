@@ -18,6 +18,7 @@ FaceDefines = {
     "PID_レーギャルン":"PORTRAIT_LAEGJARN",
     "PID_リーヴ":"PORTRAIT_LIF",
     "PID_ロキ":"PORTRAIT_LOKI",
+    "EID_ロキ":"PORTRAIT_LOKI",
     "PID_ロキ味方":"PORTRAIT_LOKI",
     "PID_レーヴァテイン":"PORTRAIT_LAEVATEIN",
     "PID_ヘル":"PORTRAIT_HEL",
@@ -70,7 +71,7 @@ for filename in sys.argv[1:]:
                             faceName = t[4:].split(',')[0]
                             if faceName == "EID_ブルーノ":
                                 faceName = "PID_ブルーノ皇子"
-                            if faceName == "PID_ロキ味方":
+                            if faceName in ("PID_ロキ味方", "EID_ロキ"):
                                 faceName = "PID_ロキ"
                             if faceName in faces:
                                 facePos = faces[faceName]
