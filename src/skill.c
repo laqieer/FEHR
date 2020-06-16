@@ -32,14 +32,14 @@
  * Specials are skills that activate based on a cooldown. They are reminiscent of critical hits from the main series Fire Emblem titles.
  */
 
-char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT] = {-1};
-char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT] = {-1};
-char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT] = {-1};
-char gP4SkillCoolDown[P4_TOTAL_AMOUNT] = {-1};
-char gFlagHpStealBySkill[20] = {-1};
-char gBattleHitCount = -1;
-struct TextHandle gTextHandleSpecialSkillLeft;
-struct TextHandle gTextHandleSpecialSkillRight;
+char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT];
+char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT];
+char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT];
+char gP4SkillCoolDown[P4_TOTAL_AMOUNT];
+char gFlagHpStealBySkill[20];
+char gBattleHitCount;
+struct TextHandle TextHandleSpecialSkillLeft;
+struct TextHandle TextHandleSpecialSkillRight;
 
 // Effect of Sacred Seals which reduce damaged received to 0.
 void PassiveSkillSNoDamageEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -5750,12 +5750,12 @@ void displaySpecialSkillName(int isRight)
     if(isRight)
     {
         unit = unitAtRight;
-        th = &gTextHandleSpecialSkillRight;
+        th = &TextHandleSpecialSkillRight;
     }
     else
     {
         unit = unitAtLeft;
-        th = &gTextHandleSpecialSkillLeft;
+        th = &TextHandleSpecialSkillLeft;
     }
 
     DrawTextInLine(th, dest, TEXT_COLOR_NORMAL, 0, 8, specialSkills[getUnitSpecialSkill(unit)].name);
@@ -5767,10 +5767,10 @@ void displaySpecialSkillNameInBattle(struct Proc *proc)
 
     AIS = *(void **)(&proc->data[1]);
 
-    Text_Init(&gTextHandleSpecialSkillLeft, 8);
-    Text_Init(&gTextHandleSpecialSkillRight, 8);
-    Text_Clear(&gTextHandleSpecialSkillLeft);
-    Text_Clear(&gTextHandleSpecialSkillRight);
+    Text_Init(&TextHandleSpecialSkillLeft, 8);
+    Text_Init(&TextHandleSpecialSkillRight, 8);
+    Text_Clear(&TextHandleSpecialSkillLeft);
+    Text_Clear(&TextHandleSpecialSkillRight);
 
     Debug(isAnimationAtRight(AIS)?"AIS is at right":"AIS is at left");
 
@@ -5822,10 +5822,10 @@ const struct ProcCmd gProcScriptSpecialSkillDisplayInBattle[] = {
 
 void displaySpecialSkillNameInBattleNew(void *AIS)
 {
-    Text_Init(&gTextHandleSpecialSkillLeft, 8);
-    Text_Init(&gTextHandleSpecialSkillRight, 8);
-    Text_Clear(&gTextHandleSpecialSkillLeft);
-    Text_Clear(&gTextHandleSpecialSkillRight);
+    Text_Init(&TextHandleSpecialSkillLeft, 8);
+    Text_Init(&TextHandleSpecialSkillRight, 8);
+    Text_Clear(&TextHandleSpecialSkillLeft);
+    Text_Clear(&TextHandleSpecialSkillRight);
 
     Debug(isAnimationAtRight(AIS)?"AIS is at right":"AIS is at left");
 
@@ -5939,23 +5939,23 @@ void hideSpecialSkillsInBattleNew(void *AIS)
 // It will return to unexpected place if register lr is not saved properly before
 void showSpecialSkillsInBattle(void *AIS)
 {
-    /*Text_Clear(&gTextHandleSpecialSkillLeft);
-    Text_Clear(&gTextHandleSpecialSkillRight);
-    Text_Init(&gTextHandleSpecialSkillLeft, 8);
-    Text_Init(&gTextHandleSpecialSkillRight, 8);
+    /*Text_Clear(&TextHandleSpecialSkillLeft);
+    Text_Clear(&TextHandleSpecialSkillRight);
+    Text_Init(&TextHandleSpecialSkillLeft, 8);
+    Text_Init(&TextHandleSpecialSkillRight, 8);
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
         if(isAnimationAtRight(AIS))
-            DrawTextInLine(&gTextHandleSpecialSkillRight, &BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "çUåÇâúã`");
+            DrawTextInLine(&TextHandleSpecialSkillRight, &BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "çUåÇâúã`");
         else
-            DrawTextInLine(&gTextHandleSpecialSkillLeft, &BG0MapBuffer[32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "çUåÇâúã`");
+            DrawTextInLine(&TextHandleSpecialSkillLeft, &BG0MapBuffer[32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "çUåÇâúã`");
     }
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
         if(!isAnimationAtRight(AIS))
-            DrawTextInLine(&gTextHandleSpecialSkillLeft, &BG0MapBuffer[32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "ñhå‰âúã`");
+            DrawTextInLine(&TextHandleSpecialSkillLeft, &BG0MapBuffer[32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "ñhå‰âúã`");
         else
-            DrawTextInLine(&gTextHandleSpecialSkillRight, &BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "ñhå‰âúã`");
+            DrawTextInLine(&TextHandleSpecialSkillRight, &BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "ñhå‰âúã`");
     }
     setBGMapBufferSyncFlag(1);
 

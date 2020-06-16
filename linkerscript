@@ -419,11 +419,11 @@ SECTIONS
     INCLUDE ../lds/patch_disable_suspend.ld
     /*INCLUDE ../lds/patch_expand_icon_amount.ld*/
 	. = 0xE007400;
-	.bss.skill : {*/skill.*(.data.*)}
+	.bss.skill : {*/skill.*(.bss.g*)}
 	.bss.buff : {*/buff.*(.bss.*)}
 	.bss.new_unit_state : {*/new_unit_state.*(.bss.*)}
 	.bss.achievement : {*/achievement.*(.bss.*)}
-    .data.game_option : {*/game_option.*(.data.*)}
+    .bss.game_option : {*/game_option.*(.bss.*)}
     savLog = .;
     . = 0xE008000 - 2;
     .bss.locationLoByte : {*/gba_debug_print.*(.bss.locationLoByte.*)}

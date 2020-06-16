@@ -68,10 +68,10 @@ extern u16 gCurrentSelectedItemInOptionMenu;
 int OptionMenuItemHandlerBasic(u32 procParent);
 int getOptionMenuItemCurrentValueBasic(u8 item, int pad, int defaultValue);
 
-char gCurrentGameLanguage = -1;
-char gRandomMode = -1;
-char gTrueHitConf = -1;
-char gEnemySpecialSkillLevel = -1;
+char gCurrentGameLanguage;
+char gRandomMode;
+char gTrueHitConf;
+char gEnemySpecialSkillLevel;
 
 enum {
     LANGUAGE_JP,
