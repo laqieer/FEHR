@@ -296,6 +296,10 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_HELP_MIRABILIS] = "夢の国アルフの妖精。人に白昼夢を見せる。昼でも夜でも眠るのが好きで、いつも寝ぼけている。",
 
+        [TEXT_ITEM_NAME_LEIPTR] = "レイプト",
+
+        [TEXT_ITEM_HELP_LEIPTR] = "氷の王国ニフルの神器",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
