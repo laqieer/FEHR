@@ -270,7 +270,7 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_NAME_HELBINDI] = "ヘルビンディ",
 
-        [TEXT_CHARACTER_HELP_HELBINDI] = "炎の王国ムスペルの将。最下層の貧民街の生まれ。みずからの武勇で成り上がりを望む粗暴な将。",
+        [TEXT_CHARACTER_HELP_HELBINDI] = "炎の王国ムスペルの将。最下層の貧民街の生まれ。みずからの武勇で成り上がりを望む粗暴\な将。",
 
         [TEXT_CHARACTER_NAME_HRID] = "フリーズ",
 
