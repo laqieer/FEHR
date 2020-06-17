@@ -104,5 +104,6 @@
 #define QuickenedPulse 0x9b
 #define EmblaWard 0x9c
 #define Muspellflame 0x9d
+#define Leiptr 0x9e
 
 #endif

@@ -323,6 +323,8 @@ const struct Item items[] = {
 {TEXT_ITEM_SACRED_SEAL_EMBLA_WARD_NAME, TEXT_ITEM_SACRED_SEAL_EMBLA_WARD_HELP, TEXT_ITEM_CANNOT_USE, 156, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9C Sacred Seal: Embla's Ward
 
 {TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_NAME, TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_HELP, TEXT_ITEM_CANNOT_USE, 157, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9D Sacred Seal: Muspellflame
+
+{TEXT_ITEM_NAME_LEIPTR, TEXT_ITEM_HELP_LEIPTR, 0, 29, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 16, 80, 5, 0, 2, 1, 600, 1, 28, 0, 0, 1} ,  // 0x9E Leiptr
 };
 
 const struct Item * const pItems1 = items;
