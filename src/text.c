@@ -228,6 +228,74 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_HELP_LOKI] = "炎の王国ムスペルの軍師。"TCC_NEWLINE"悪戯好きで、人を誘惑することを好む。",
 
+        [TEXT_CHARACTER_NAME_FJORM] = "フィヨルム",
+
+        [TEXT_CHARACTER_HELP_FJORM] = "氷の王国ニフルの第二王女。心優しい少女。"TCC_NEWLINE"仇敵スルトに対しては強い復讐心を抱く。",
+
+        [TEXT_CHARACTER_NAME_SURTR] = "スルト",
+
+        [TEXT_CHARACTER_HELP_SURTR] = "炎の王国ムスペルの王。炎竜の血を引く。"TCC_NEWLINE"苛烈な性格で、征服欲が極めて強い。",
+
+        [TEXT_CHARACTER_NAME_LAEVATEIN] = "レーヴァテイン",
+
+        [TEXT_CHARACTER_HELP_LAEVATEIN] = "炎の王国ムスペルの第二王女。"TCC_NEWLINE"みずからを剣と称し、自身の感情に乏しい。",
+
+        [TEXT_CHARACTER_NAME_LAEGJARN] = "レーギャルン",
+
+        [TEXT_CHARACTER_HELP_LAEGJARN] = "炎の王国ムスペルの第一王女。レーヴァテインの姉。"TCC_NEWLINE"ムスペル軍を率いる品性高潔な将軍。",
+
+        [TEXT_CHARACTER_NAME_EIR] = "エイル",
+
+        [TEXT_CHARACTER_HELP_EIR] = "死の王国ヘルの王女。母であるヘルを愛する反面、人間に対する母の無慈悲な行為に、胸を痛めている。",
+
+        [TEXT_CHARACTER_NAME_GUNNTHRA] = "スリーズ",
+
+        [TEXT_CHARACTER_HELP_GUNNTHRA] = "氷の王国ニフルの第一王女。"TCC_NEWLINE"おっとりとして母性あふれる性格。",
+
+        [TEXT_CHARACTER_NAME_LIF] = "リーヴ",
+
+        [TEXT_CHARACTER_HELP_LIF] = "死の王国ヘルの将。女王ヘルの命令を受け、生者を死者とするために戦う魔剣士。",
+
+        [TEXT_CHARACTER_NAME_HELL] = "ヘル",
+
+        [TEXT_CHARACTER_HELP_HELL] = "死の王国ヘルの王。人の死によって己の力を増す。すべての生者を死者とすることが望み。",
+
+        [TEXT_CHARACTER_NAME_GUSTAF] = "グスタフ",
+
+        [TEXT_CHARACTER_HELP_GUSTAF] = "死の王国ヘルの将。女王ヘルに呪縛され、生者を死者とするために戦う騎士。",
+
+        [TEXT_CHARACTER_NAME_YURG] = "ユルグ",
+
+        [TEXT_CHARACTER_HELP_YURG] = "氷の王国ニフルの第三王女。天真爛漫。好奇心旺盛で、色々な場所を見るのが好き。",
+
+        [TEXT_CHARACTER_NAME_HELBINDI] = "ヘルビンディ",
+
+        [TEXT_CHARACTER_HELP_HELBINDI] = "炎の王国ムスペルの将。最下層の貧民街の生まれ。みずからの武勇で成り上がりを望む粗暴な将。",
+
+        [TEXT_CHARACTER_NAME_HRID] = "フリーズ",
+
+        [TEXT_CHARACTER_HELP_HRID] = "氷の王国ニフルの第一王子。冷静な性格で、常にあらゆる危険に思いを巡らせる。",
+
+        [TEXT_CHARACTER_NAME_SRASIR] = "スラシル",
+
+        [TEXT_CHARACTER_HELP_SRASIR] = "死の王国ヘルの将。女王ヘルの命令を受け、生者を死者とするために戦う魔女。",
+
+        [TEXT_CHARACTER_NAME_PEONY] = "ピアニー",
+
+        [TEXT_CHARACTER_HELP_PEONY] = "夢の国アルフの妖精。人に幸せな夢を見せる。純真で前向き、子供と遊ぶのが大好き。",
+
+        [TEXT_CHARACTER_NAME_SCABIOSA] = "スカビオサ",
+
+        [TEXT_CHARACTER_HELP_SCABIOSA] = "悪夢の国スヴァルトアルフの妖精。人に悪夢を見せる。無感動で後ろ向き、未来に希望を持たない。",
+
+        [TEXT_CHARACTER_NAME_PLUMERIA] = "プルメリア",
+
+        [TEXT_CHARACTER_HELP_PLUMERIA] = "悪夢の国スヴァルトアルフの妖精。淫らな夢を見せる。潔癖な性格で、人間が抱く欲望を嫌っている。",
+
+        [TEXT_CHARACTER_NAME_MIRABILIS] = "ルピナス",
+
+        [TEXT_CHARACTER_HELP_MIRABILIS] = "夢の国アルフの妖精。人に白昼夢を見せる。昼でも夜でも眠るのが好きで、いつも寝ぼけている。",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
