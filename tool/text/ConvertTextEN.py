@@ -37,7 +37,6 @@ FaceDefines = {
     "ID_フロージ":"PORTRAIT_FREYR",
     "ID_フレイヤ":"PORTRAIT_FREYJA",
     "ID_トール":"PORTRAIT_THORR",
-    "ID_死神騎士":"PORTRAIT_DEATH_KNIGHT",
     "ID_スカビオサ":"PORTRAIT_TRIANDRA",
     "ID_プルメリア":"PORTRAIT_PLUMERIA",
     "ID_フード":"PORTRAIT_HOOD",
