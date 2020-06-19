@@ -24,7 +24,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｅｌ　ｉｓ　ｖａｎｉｓｈｉｎｇ！　Ｑｕｉｃｋｌｙ，　Ｐｒー"TCC_NEWLINE"ｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ａｎｇｒｂｏａ．．．　Ｍａｉｄｅｎ　ｏｆ　ｌｉｆｅ　ａｎｄ"TCC_NEWLINE"　ｄｅａｔｈ．．．　Ｍｏｔｈｅｒ　ｏｆ　ｔｈｅ　ｔｒｉａｄ"TCC_NEWLINE"　ｃａｔａｃｌｙｓｍ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｌａｙ　ｔｈｅ　ｌｉｖｉｎｇ！　Ｓｌａｙ　ｔｈｅ　ｄｅａー"TCC_NEWLINE"ｄ！"TCC_NEWLINE TCC_PUSH_A
 "Ｂｒｉｎｇ　ｄｅａｔｈ　ｔｏ　ｔｈａｔ　ｗｈｉｃｈ　ｃａｎー"TCC_NEWLINE"ｎｏｔ　ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A

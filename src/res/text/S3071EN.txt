@@ -27,7 +27,7 @@ TCC_OPEN_MID_LEFT
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
 "Ｗｅｌｌ　ｈｅｌｌｏ　ｔｈｅｒｅ．　Ｈｏｗ　ｄｉｄ　ｙｏｕー"TCC_NEWLINE"ｒ　ｌｉｔｔｌｅ　ｓｃｏｕｔｉｎｇ　ｍｉｓｓｉｏｎ　ｇｏ，"TCC_NEWLINE"　ｄｅａｒ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｔｈｅ　ｆｏｒｃｅｓ　ｏｆ　Ｈｅｌ　ａｒｅ　ｗｅａｋ．　Ｂー"TCC_NEWLINE"ｕｔ　ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｔｉｍｅｓ　ｔー"TCC_NEWLINE"ｈｅｙ　ａｒｅ　ｋｉｌｌｅｄ．．．ｔｈｅｙ　ｃｏｍｅ　ｂａー"TCC_NEWLINE"ｃｋ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｔｈｅｒｅ　ｙｏｕ　ｈａｖｅ　ｉｔ！　Ｔｈａｔ’ｓ　ｗｈａー"TCC_NEWLINE"ｔ　ｍａｋｅｓ　ｆｉｇｈｔｉｎｇ　Ｈｅｌ　ｓｏ　ｓｃａｒｙー"TCC_NEWLINE"ｔｈｅ　ｄｅａｄ　ｃａｎ’ｔ　ｄｉｅ　ａ　ｓｅｃｏｎｄ　ｔー"TCC_NEWLINE"ｉｍｅ．"TCC_NEWLINE TCC_PUSH_A

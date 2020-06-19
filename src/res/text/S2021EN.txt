@@ -28,7 +28,7 @@ TCC_OPEN_LEFT
 "Ｍｙ　ｈｏｍｅｌａｎｄ　ｗａｓ　ｄｅｓｔｒｏｙｅｄ　ｂｙ　"TCC_NEWLINE"Ｋｉｎｇ　Ｓｕｒｔｒ　ｏｆ　Ｍｓｐｅｌｌ．　Ｂｕｔ　ｎｏｔ"TCC_NEWLINE"　ｏｎｌｙ　ｔｈａｔ．．．　Ｉ　ｗａｔｃｈｅｄ　ａｓ　ｈｅ"TCC_NEWLINE"　ｋｉｌｌｅｄ　ｍｙ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｃａｎ’ｔ　ｌｅｔ　ｔｈｅ　ｓａｍｅ　ｔｈｉｎｇ　ｈａー"TCC_NEWLINE"ｐｐｅｎ　ｔｏ　ｙｏｕｒ　ｋｉｎｇｄｏｍ．　Ｐｌｅａｓｅ，"TCC_NEWLINE"　ｗｈａｔｅｖｅｒ　ｓｔｒｅｎｇｔｈ　Ｉ　ｈａｖｅ．．．ｌー"TCC_NEWLINE"ｅｔ　ｍｅ　ｌｅｎｄ　ｉｔ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S2021_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_BEGIN_S2021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｙｏｕ’ｒｅ　ｓｔｉｌｌ　ａｌｉｖｅ．　Ｈｏｗ　ｄｉｓａｐー"TCC_NEWLINE"ｐｏｉｎｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！　Ｔｅｌｌ　ｍｅ　ｗｈー"TCC_NEWLINE"ａｔ　ｙｏｕ　ｋｎｏｗ　ａｂｏｕｔ　ｔｈｅｓｅ　ｉｎｖａｄー"TCC_NEWLINE"ｅｒｓ　ｆｒｏｍ　Ｍｓｐｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
@@ -37,6 +37,6 @@ TCC_OPEN_LEFT
 "Ｍｙ　Ｈｅｒｏｅｓ　ａｎｄ　ｍｙ　ｓｏｌｄｉｅｒｓ　ｗｉｌー"TCC_NEWLINE"ｌ　ａｓｓｉｓｔ　ｈｏｗｅｖｅｒ　ｔｈｅｙ　ｃａｎ．　Ａｆー"TCC_NEWLINE"ｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｓｋｒ　ｍｕｓｔ　ｂｅ　ｄｅｓｔｒｏｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S2021_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_END_S2021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｉ　ｔｉｒｅ　ｏｆ　ｔｈｉｓ．　Ｉ’ｍ　ｈｅａｄｉｎｇ　ｂー"TCC_NEWLINE"ａｃｋ　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ．　Ｄｏｎ’ｔ　ｆｏｒｇー"TCC_NEWLINE"ｅｔ，　ｔｈｏｕｇｈ．．．　Ｉ　ｗｉｌｌ　ｋｉｌｌ　ａｌｌ"TCC_NEWLINE"　ｏｆ　ｙｏｕ．　Ｓｕｒｔｒ　ｗｉｌｌ　ｓｅｅ　ｔｏ　ｔｈー"TCC_NEWLINE"ａｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -21,7 +21,7 @@ TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｎｏ！"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｇａｔｅｗａｙ，　ｉｔ’ｓ　ｃｌｏｓｉｎｇ．．．"TCC_NEWLINE
 TCC_TACTICIAN_NAME"，　ｈｕｒｒｙ！　Ｔｈｉｓ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｈｅｌｌｏ，　Ｓｕｍｍｏｎｅｒ．　Ｔｈｉｓ　ｔｉｍｅ，　ｉー"TCC_NEWLINE"ｔ’ｓ　ｊｕｓｔ　ｙｏｕ　ａｎｄ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕｒ　ｂｒａｔｔｙ　ｌｉｔｔｌｅ　ｆｒｉｅｎｄｓ　ａｒー"TCC_NEWLINE"ｅ　ｏｎ　ｔｈｅ　ｏｔｈｅｒ　ｓｉｄｅ　ｏｆ　ｔｈｅ　ｇａー"TCC_NEWLINE"ｔｅｗａｙ．　Ｔｈｅｒｅ’ｓ　ｎｏ　ｏｎｅ　ｔｏ　ｓａｖｅ"TCC_NEWLINE"　ｙｏｕ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｍａｄｅ　ａ　ｐｒｏｍｉｓｅ　ｔｏ　ｙｏｕ，　ａｎｄ　"TCC_NEWLINE"Ｉ　ｉｎｔｅｎｄ　ｔｏ　ｋｅｅｐ　ｉｔ．　Ｉｔ’ｓ　ｔｉｍー"TCC_NEWLINE"ｅ　ｔｏ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A

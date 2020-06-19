@@ -1,13 +1,13 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_MAP_BEGIN_S1005_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_BEGIN_S1005_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｎｏｗ，　ｊｕｓｔ　ＨＯＷ　ｄｉｄ　ｙｏｕ　ｋｎｏｗ　ｔｈー"TCC_NEWLINE"ａｔ　ｗｅ’ｄ　ｂｅ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
 "Ｈｏｗ　ｖｅｘｉｎｇ．　Ｂｕｔ　ｉｆ　ｙｏｕ’ｖｅ　ｃｏｍー"TCC_NEWLINE"ｅ　ｔｏ　ｐｌａｙ，　ｔｈｅｎ　Ｉ’ｌｌ　ｐｒｏｖｉｄｅ　"TCC_NEWLINE"ｔｈｅ　ｇａｍｅ．　Ｓｏ，　ｃｈａｎｇｅ　ｏｆ　ｐｌａｎｓ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｙ　ｒａｚｅ　ｔｈｅｓｅ　ｓｕｍｍｏｎｉｎｇ　ｒｕｉｎー"TCC_NEWLINE"ｓ　ｗｈｅｎ　Ｉ　ｃａｎ　ｓｉｍｐｌｙ　ｄｅｓｔｒｏｙ　ｙー"TCC_NEWLINE"ｏｕ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏｗ，　ｌｅｔ　ｕｓ　ｂｅｇｉｎ！"
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_END_S1005_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_END_S1005_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｗｈｙ　ｄｏ　Ｉ　ｋｅｅｐ　ｌｏｓｉｎｇ？　Ｉｔ’ｓ　ｒｅー"TCC_NEWLINE"ａｌｌｙ　ｎｏｔ　ｆａｉｒ！　Ｙｏｕｒ　ｋｉｎｇｄｏｍ　ｈー"TCC_NEWLINE"ａｓ　ｅｖｅｒｙｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏ　ｍａｎｙ　Ｈｅｒｏｅｓ．．．ａ　ｓｕｍｍｏｎｅｒ．．"TCC_NEWLINE"．　ａ　ｐｒｅｔｔｙ　ｒｅａｌｍ　ｔｈａｔ’ｓ　ｈａｐｐｙ"TCC_NEWLINE"，　ｈｅａｌｔｈｙ，　ａｎｄ　ｗｅａｌｔｈｙ！"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｙ　ｄｏ　ｙｏｕ　ｋｅｅｐ　ｔｏｒｍｅｎｔｉｎｇ　ｍｅ"TCC_NEWLINE"？　Ｉ　ｈａｖｅ　ｎｏｔｈｉｎｇｎｏｔｈｉｎｇ　ｔｈａｔ　"TCC_NEWLINE"ｍａｔｔｅｒｓ！"

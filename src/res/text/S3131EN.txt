@@ -35,7 +35,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EIR
 "Ｍｙ　ｍｏｔｈｅｒ’ｓ　ｃａｓｔｌｅ　ｌｉｅｓ　ｊｕｓｔ　"TCC_NEWLINE"ｂｅｙｏｎｄ．　Ｅｖｅｎ　ａｓ　ｗｅ　ｓｐｅａｋ，　ｓｈｅ"TCC_NEWLINE"　ｉｓ　ｓｅａｔｅｄ　ｔｈｅｒｅ　ｕｐｏｎ　ｔｈｅ　ｔｈｒー"TCC_NEWLINE"ｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ａｎｇｒｂｏａ’ｓ　Ｈー"TCC_NEWLINE"ｅａｒｔ　ｗｉｔｈｉｎ　ｉｔ，"TCC_NEWLINE
 TCC_TACTICIAN_NAME"’ｓ　ｗｅａｐｏｎ　ｉｓ　ａｌｌ　ｗｅ　ｎｅｅｄ　ｔｏ　ｄー"TCC_NEWLINE"ｅｆｅａｔ　Ｈｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｌｌ　ｔｈａｔ　ｒｅｍａｉｎｓ　ｉｓ　ｏｕｒ　ｆｉｎａｌ"TCC_NEWLINE"　ｃｏｎｆｒｏｎｔａｔｉｏｎ．　Ｌｅｔ’ｓ　ｎｏｔ　ｗａｓー"TCC_NEWLINE"ｔｅ　ａｎｙ　ｍｏｒｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A

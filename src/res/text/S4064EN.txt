@@ -3,7 +3,7 @@
 [MID_SCENARIO_MAP_BEGIN_S4064_EN] = TCC_OPEN_LEFT
 "Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｓｐｅｎｄ　ｍｏｒｅ　ｔｉｍー"TCC_NEWLINE"ｅ　ｗｉｔｈ　Ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S4064_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_ENDING_S4064_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｍｙ　ｂｒｏｔｈｅｒ　ｓｈｏｕｌｄ　ｂｅ　ｈｅｒｅ．．．　"TCC_NEWLINE"Ｓｏｍｅｗｈｅｒｅ　ｉｎ　ｔｈｉｓ　ｆｏｒｅｓｔ．．．　Ｍー"TCC_NEWLINE"ａｙｂｅ　ａ　ｌｉｔｔｌｅ　ｆａｒｔｈｅｒ　ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｖｉｓｉｂｉｌｉｔｙ　ｓｅｅｍｓ　ｌｏｗ　ｔｈｒｏｕｇｈｏー"TCC_NEWLINE"ｕｔ　ｔｈｅ　ｗｏｏｄ．　Ｗｅ　ｃｏｕｌｄ　ｃｏｖｅｒ　ｍー"TCC_NEWLINE"ｏｒｅ　ｇｒｏｕｎｄ　ｉｆ　ｗｅ　ｗｅｒｅ　ｔｏ　ｓｐｌｉー"TCC_NEWLINE"ｔ　ｕｐ．．．"TCC_NEWLINE TCC_PUSH_A

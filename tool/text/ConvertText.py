@@ -39,6 +39,7 @@ FaceDefines = {
     "ID_プルメリア":"PORTRAIT_PLUMERIA",
     "ID_フード":"PORTRAIT_HOOD",
     "ID_マークス":"PORTRAIT_XANDER",
+    "ID_ヴェロニカ":"PORTRAIT_VERONICA",
 }
 
 TextIDStart = 5036

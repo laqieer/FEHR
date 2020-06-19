@@ -2,7 +2,7 @@
 
 [MID_SCENARIO_OPENING_S4075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
 "Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｐｏｉｎｔ　ｏｆ　ｔｗｉｌｉｇｈｔ"TCC_NEWLINE"．．．　Ｔｈｅ　ｓｕｎ’ｓ　ｌａｓｔ　ｒａｙｓ　ａｒｅ　ｄー"TCC_NEWLINE"ｉｓａｐｐｅａｒｉｎｇ．．．　Ｔｈｉｓ　ｉｓ　ｗｈｅｎ　ｄー"TCC_NEWLINE"ａｙ　ｔｕｒｎｓ　ｔｏ　ｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ａｒｅ　ｙｏｕ　ｓｕｒｅ？　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ　ａ"TCC_NEWLINE"　ｄｅａｄ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｗｅｌｌ．．．　Ｉ　ｃａｎ　ｓｈｏｗ　ｙｏｕ　ｗａｋｉｎｇ"TCC_NEWLINE"　ｏｎｅｓ　ａ　ｄａｙｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
@@ -38,12 +38,12 @@ TCC_OPEN_MID_LEFT
 "Ｂｕｔ　ｉｔ　ｗｏｎ’ｔ　ｄｏ　ｕｓ　ａｎｙ　ｇｏｏｄ　ｔー"TCC_NEWLINE"ｏ　ｆａｌｌ　ａｓｌｅｅｐ　ｉｎ　ｔｈｅ　ｍｉｄｄｌｅ　ｏー"TCC_NEWLINE"ｆ　ａ　ｂａｔｔｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｉｆ　ｔｈｉｓ　ｋｅｅｐｓ　ｕｐ，　ｗｅ"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT TCC_CLEAR_FACE
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｌｅａｖｅ　ｉｔ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ’ｌｌ　ｈｏｌｄ　ｔｈｅｍ　ｏｆｆ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT TCC_CLEAR_FACE
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｉ’ｍ　ｎｏｔ　ｄｏｉｎｇ　ｔｈｉｓ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｊｕｓｔ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｔｈｅｍ　ｔｏ　ｃー"TCC_NEWLINE"ｏｎｔｉｎｕｅ　ｔｏｒｔｕｒｉｎｇ　ｔｈｅ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ｏｆ　Ｅｍｂｌａ．　Ｎｏｗ，　ｇｏ．　Ｈｕｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ　ｗｏｎ’ｔ　ｂｅ　ｄｅｆｅａー"TCC_NEWLINE"ｔｅｄ　ｓｏ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A

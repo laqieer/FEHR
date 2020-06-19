@@ -54,7 +54,7 @@ TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S3021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
 "Ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ．　Ｗｈａｔ　ａ"TCC_NEWLINE"　ｐｅｒｆｅｃｔ　ｌｉｔｔｌｅ　ｍｅｓｓ！　Ｗｏｕｌｄｎ’"TCC_NEWLINE"ｔ　ｙｏｕ　ｓａｙ　ｓｏ，　ｄｅａｒ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｙｏｕ　ｂｅｔｒａｙｅｄ　ｍｅ，　ａｎｄ　ｙｅｔ　ｈｅｒｅ"TCC_NEWLINE"　ｙｏｕ　ｓｔａｎｄ，　ｗｉｔｈｏｕｔ　ａ　ｔｒａｃｅ　ｏー"TCC_NEWLINE"ｆ　ｆｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ　ｍｙ，　ｍｙ，　ｍｙ．　Ｉ　ｈｅｌｐｅｄ　ｙｏｕ　ｉー"TCC_NEWLINE"ｎ　ｔｈｅ　ｅｎｄ，　ｄｅａｒ，　ｄｉｄｎ’ｔ　Ｉ？　Ｗｈー"TCC_NEWLINE"ａｔ　ａ　ｖｉｃｉｏｕｓ　ｌｏｏｋ　ｙｏｕ　ｈａｖｅ　ｏｎ"TCC_NEWLINE"　ｙｏｕｒ　ｆａｃｅ！"TCC_NEWLINE TCC_PUSH_A

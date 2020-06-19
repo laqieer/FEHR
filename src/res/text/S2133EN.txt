@@ -8,7 +8,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 "Ｙｏｕ　ｃａｎ　ｂｅｔ　ｔｈｅ　ｇｕａｒｄｓ’ｖｅ　ｎｏｔー"TCC_NEWLINE"ｉｃｅｄ　ｂｙ　ｎｏｗ．　Ｄｏｎ’ｔ　ｂｅ　ｓｕｒｐｒｉｓー"TCC_NEWLINE"ｅｄ　ｉｆ　ｔｈｅｙ　ｃａｔｃｈ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ａｕｇｈ！　Ｔｈｅｓｅ　ｒｕｉｎｓ．．．ｔｈｅｙ’ｒｅ　ｓー"TCC_NEWLINE"ｏ　ｃｏｎｆｕｓｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｉｔ’ｓ　ｌｉｋｅ　ａ　ｍａｚｅ　ｉｎ　ｈｅｒｅ．　Ｂｕｔ"TCC_NEWLINE"　ｐｅｒｈａｐｓ　ｔｈａｔ’ｓ　ｗｈｙ　ｗｅ　ｈａｖｅ　ｙー"TCC_NEWLINE"ｅｔ　ｔｏ　ｂｅ　ｃａｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｕｐ．．．ａｎｄ　ｄｏｗｎ．．．　Ｕｐ．．．ａｎｄ　ｄｏｗー"TCC_NEWLINE"ｎ．．．　Ｉ’ｍ　ｓｏ　ｔｉｒｅｄ！"TCC_NEWLINE TCC_PUSH_A

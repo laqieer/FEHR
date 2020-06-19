@@ -4,7 +4,7 @@
 "Ｏｕｔ　ｏｆ　ｎｏｗｈｅｒｅ，　Ｉ　ｗａｓ　ｓｕｍｍｏｎｅー"TCC_NEWLINE"ｄ　ｂｙ　ａ　ｍｙｓｔｅｒｉｏｕｓ　ｍａｎ．．．ａｎｄ　ｂー"TCC_NEWLINE"ｏｕｎｄ　ｔｏ　ａ　ｃｏｎｔｒａｃｔ！"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ｔｈａｔ’ｓ　ｊｕｓｔ　ｃｈａｐｔｅｒ　ｏｎｅ！　"TCC_NEWLINE"Ｉ　ｃａｎ’ｔ　ｗａｉｔ　ｔｏ　ｓｅｅ　ｗｈａｔ’ｓ　ｃｏー"TCC_NEWLINE"ｍｉｎｇ　ｕｐ　ｎｅｘｔ．．．　Ｔｅｅ－ｈｅｅ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S2132_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_ENDING_S2132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_YLGR
 "Ａｒｅ　ｙｏｕ　ＯＫ？"TCC_NEWLINE TCC_PUSH_A

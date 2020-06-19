@@ -3,7 +3,7 @@
 [MID_SCENARIO_OPENING_S3111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｗｅ’ｒｅ　ｒｉｇｈｔ　ｂａｃｋ　ｗｈｅｒｅ　ｗｅ　ｓｔａー"TCC_NEWLINE"ｒｔｅｄ．．．　Ａｎｄ　ｎｏｔ　ａ　ｓｔｅｐ　ｃｌｏｓｅｒ"TCC_NEWLINE"　ｔｏ　ｄｅｆｅａｔｉｎｇ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ａｔ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ’ｓ　ｉｎー"TCC_NEWLINE"ｖｉｔａｔｉｏｎ，　ｗｅ　ｓｔｕｍｂｌｅｄ　ｒｉｇｈｔ　ｉー"TCC_NEWLINE"ｎｔｏ　Ｔｈｒａｓｉｒ’ｓ　ｔｒａｐ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｏｈ？　Ｓｏ　ｉｔ’ｓ　ｍｙ　ｆａｕｌｔ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｅｒ．．．ｎｏ．　Ｎｏ，　ｔｈａｔ’ｓ　ｎｏｔ　ｗｈａｔ　"TCC_NEWLINE"Ｉ　ｍｅａｎｔ．　Ｓｔｏｐ　ｇｉｖｉｎｇ　ｍｅ　ｔｈｅ　ｅー"TCC_NEWLINE"ｖｉｌ　ｅｙｅ！"TCC_NEWLINE TCC_PUSH_A

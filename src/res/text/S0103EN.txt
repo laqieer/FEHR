@@ -1,6 +1,6 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S0103_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_OPENING_S0103_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｓｃｕｒｒｙ，　ｓｃｕｒｒｙ，　ｌｉｔｔｌｅ　Ｈｅｒｏｅｓ"TCC_NEWLINE"．．．　Ｓｔｅａｌ　ｆｏｒ　ｍｅ．　Ｓｐｒｅａｄ　ｄｅｓｔー"TCC_NEWLINE"ｒｕｃｔｉｏｎ．　Ｋｉｌｌ　ａｌｌ　ｔｈｏｓｅ　ｗｈｏ　ｓー"TCC_NEWLINE"ｔａｎｄ　ｉｎ　ｙｏｕｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｉｓ　ｋｉｎｇｄｏｍ　ｍｕｓｔ　ｆａｌｌ．　Ｏｎｃｅ　"TCC_NEWLINE"ｉｔ’ｓ　ｇｏｎｅ，　ｎｏ　ｏｎｅ　ｗｉｌｌ　ｏｐｐｏｓｅ"TCC_NEWLINE"　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｅｖｅｒｙ　Ｈｅｒｏ，　ｉｎ　ｅｖｅｒｙ　ｗｏｒｌｄｔｈｅー"TCC_NEWLINE"ｙ’ｌｌ　ａｌｌ　ｂｅ　ｍｉｎｅ．　Ｅｖｅｒｙ　ｌａｓｔ　"TCC_NEWLINE"ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
@@ -20,7 +20,7 @@ TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｇｅｔ　ｒｅａｄｙ，　ｅｖｅｒｙｏｎｅ．　Ｌｅｔ’ｓ　ｓｈー"TCC_NEWLINE"ｏｗ　ｔｈｉｓ　ｒｏｔｔｅｎ　ｐｒｉｎｃｅｓｓ　ｗｈａｔ　"TCC_NEWLINE"ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｃａｎ　ｒｅａｌｌー"TCC_NEWLINE"ｙ　ｄｏ！"
 TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_ENDING_S0103_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_ENDING_S0103_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｌｅｆｔ　ａｌｌ　ａｌｏｎｅ．　Ａｇａｉｎ？　Ｈｏｗ　ｄｕー"TCC_NEWLINE"ｌｌ．　Ｉ’ｌｌ　ｇｏ　ｃｏｎｓｏｌｅ　ｍｙｓｅｌｆ　ｂａー"TCC_NEWLINE"ｃｋ　ｈｏｍｅ　ｗｉｔｈ　ａ　ｃｕｐ　ｏｆ　ｔｅａ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｔｈａｔ　ｆｏｏｌｉｓｈ　ｐｒｉｎｃｅｓｓ　ｉｓ　ｒｅｔｒー"TCC_NEWLINE"ｅａｔｉｎｇ　ｗｉｔｈ　ｈｅｒ　Ｈｅｒｏｅｓ．"TCC_NEWLINE TCC_PUSH_A

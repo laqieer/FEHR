@@ -4,7 +4,7 @@
 "Ｗｈｉｃｈ　ｗａｙ　ｄｏ　ｗｅ　ｇｏ？　Ｗｈｅｒｅ’ｓ　ｔー"TCC_NEWLINE"ｈｅ　ｅｘｉｔ？　Ｔｈｉｓ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｄｏ　ｗｅ　ｄｏ？　Ｉｆ　ｗｅ　ｄｏｎ’ｔ　ｈｕー"TCC_NEWLINE"ｒｒｙ．．．　Ｓｕｒｔｒ　ｗｉｌｌ　ｃａｔｃｈ　ｕｐ　ｗｉー"TCC_NEWLINE"ｔｈ　ｕｓ！　Ａｎｄ　ｔｈｅｎ"TCC_NEWLINE TCC_PUSH_A
 "Ｎｏ！　Ｗｅ　ｃａｎ’ｔ　ｌｅｔ　ｔｈａｔ　ｈａｐｐｅｎ！"TCC_NEWLINE"　Ｉ’ｍ　ｔｏｏ　ｙｏｕｎｇ　ｔｏ　ｄｉｅ！　Ｉ’ｖｅ　ｎー"TCC_NEWLINE"ｅｖｅｒ　ｅｖｅｎ　ｈａｄ　ａ　ｃｈａｎｃｅ　ｔｏ　ｆａｌー"TCC_NEWLINE"ｌ　ｉｎ　ｌｏｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｙｏｕ　ｒｅａｌｌｙ　ｄｏ　ｎｏｔ　ｅｖｅｒ　ｓｈｕｔ　ｕー"TCC_NEWLINE"ｐ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "ＯＫ！　Ｉ’ｍ　ｓｏｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
@@ -83,7 +83,7 @@ TCC_OPEN_LEFT
 "Ｌａｅｇｊａｒｎ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
 "Ｖｅｒｏｎｉｃａ．　Ｔｏ　ｈａｖｅ　ｋｅｐｔ　ｙｏｕ　ｗａー"TCC_NEWLINE"ｉｔｉｎｇ　ｓｏ　ｌｏｎｇ．．．Ｉ　ａｐｏｌｏｇｉｚｅ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ，　Ｂｒｕｎｏ．　Ｄー"TCC_NEWLINE"ｏ　ｙｏｕ　ｈａｖｅ　ｗｏｒｄ　ｆｒｏｍ　Ｘａｎｄｅｒ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_MID_LEFT
 "Ｈｅ　ｉｓ　ｓａｆｅ　ａｓ　ｗｅｌｌ．　Ｙｏｕ　ｃａｎ　ｓー"TCC_NEWLINE"ｔｏｐ　ｙｏｕｒ　ｗｏｒｒｙｉｎｇ．"TCC_NEWLINE TCC_PUSH_A

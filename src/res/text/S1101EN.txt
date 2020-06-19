@@ -27,7 +27,7 @@ TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S1101_EN] = TCC_OPEN_LEFT
 "Ｗｅｌｌ，　Ｉ　ｇｕｅｓｓ　ｔｈａｔ’ｓ　ｉｔ．　Ｉｋｅ，"TCC_NEWLINE"　ｌｅｔ’ｓ　ｒｅｇｒｏｕｐ　ｆｏｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｉ’ｖｅ　ｓｈａｒｅｄ　ｏｕｒ　ｗａｒｄ　ｗｉｔｈ　ｙｏｕ"TCC_NEWLINE"．．．ｂｕｔ　ｉｔｓ　ｐｒｏｔｅｃｔｉｏｎ　ｗｏｎ’ｔ　ｌー"TCC_NEWLINE"ａｓｔ　ｆｏｒｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
 "Ｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ．　Ｓｏｏｎ　ｅｎｏｕｇｈ　"TCC_NEWLINE"ｉｔｓ　ｐｏｗｅｒ　ｗｉｌｌ　ｒｅｔｕｒｎ，　ａｎｄ　ｔｈー"TCC_NEWLINE"ｅｎ　ｗｅ’ｌｌ　ｓｔｒｉｋｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ａｇａｉｎ．　Ａｎｄ　ａｇａｉｎ．　Ｏｖｅｒ　ａｎー"TCC_NEWLINE"ｄ　ｏｖｅｒ．　Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｌｏｎｇ　ｉｔ"TCC_NEWLINE"　ｔａｋｅｓ．"TCC_NEWLINE TCC_PUSH_A

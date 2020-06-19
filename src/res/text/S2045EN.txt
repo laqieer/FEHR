@@ -62,7 +62,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 [MID_SCENARIO_ENDING_S2045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SURTR
 "Ｈａ－ｈａｈ！　Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　ｃｈｉｌｄｒｅｎ"TCC_NEWLINE"　ｏｆ　Ａｓｋｒ　ｈａｖｅ　ｓｏｍｅ　ｓｐｉｒｉｔ　ａｆｔー"TCC_NEWLINE"ｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｗｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ　ｓｏ　ｄｉｓａｐｐｏー"TCC_NEWLINE"ｉｎｔｉｎｇ　ｈａｄ　ｔｈｅｙ　ｍａｄｅ　ｔｈｅ　ｆｏｏｌー"TCC_NEWLINE"ｉｓｈ　ｃｈｏｉｃｅ　ｔｏ　ｐｅｒｉｓｈ　ｎｏｂｌｙ　ａｌー"TCC_NEWLINE"ｏｎｇｓｉｄｅ　ｔｈｅｉｒ　ｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｓｏ　ｙｏｕｒ　ｔｈｒｅａｔ　ｗａｓ　ａ　ｆａｉｌｕｒｅ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｙｏｕ　ｃｏｕｌｄ　ｓａｙ　ｓｏ．　Ｉｔ　ｈａｓ，　ｈｏｗー"TCC_NEWLINE"ｅｖｅｒ，　ｇｉｖｅｎ　ｍｅ　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｌー"TCC_NEWLINE"ｏｏｋ　ｆｏｒｗａｒｄ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A

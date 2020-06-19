@@ -76,7 +76,7 @@ TCC_OPEN_LEFT
 "Ｍｉｒａｂｉｌｉｓ！　Ｎｏ　ｓｌｅｅｐｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｍｒｒｇｈｈ．．．　Ｂｕｔ　ｔｈｅ　ｍｉｓｔ　ｉｎ　ｔｈｉー"TCC_NEWLINE"ｓ　ｆｏｒｅｓｔ　ｉｓ　ｓｏ　ｎｉｃｅ　ａｎｄ　ｃｏｚｙ．"TCC_NEWLINE"．．　Ｓｏ　ｐｅｒｆｅｃｔ　ｆｏｒ　ｓｌｅｅｐｉｎｇ　ｉｎ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_LEFT
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
 "Ｔｈｅｒｅ’ｓ　ｎｏ　ｔｉｍｅ！　Ｉｆ　ｗｅ　ｋｅｅｐ　ｆー"TCC_NEWLINE"ｏｏｌｉｎｇ　ａｒｏｕｎｄ　ｈｅｒｅ，　ｔｈｉｓ　ｗｏｎ’"TCC_NEWLINE"ｔ　ｓｔａｙ　ａ　ｐｌａｃｅ　ｏｆ　ｃｏｍｆｏｒｔ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｈｍｍ？　Ｂ－ｂｅｃａｕｓｅ　ｔｈｅ　ｄｋｋｌｆａｒ　ｗｉー"TCC_NEWLINE"ｌｌ　ａｔｔａｃｋ？"TCC_NEWLINE TCC_PUSH_A
