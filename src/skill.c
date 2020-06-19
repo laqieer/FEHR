@@ -58,7 +58,7 @@ void PassiveSkillSNoDamageEffect(struct BattleUnit* attacker, struct BattleUnit*
 // 蛍火: 守備の50%をダメージに加算
 void specialSkillGlowingEmberEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = GetUnitDefense(&attacker->unit) * 0.5;
+    int damagePlus = attacker->unit.def * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -76,7 +76,7 @@ void specialSkillGlowingEmberEffect(struct BattleUnit* attacker, struct BattleUn
 // 緋炎: 守備の50%をダメージに加算
 void specialSkillBonfireEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = GetUnitDefense(&attacker->unit) * 0.5;
+    int damagePlus = attacker->unit.def * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -94,7 +94,7 @@ void specialSkillBonfireEffect(struct BattleUnit* attacker, struct BattleUnit* d
 // 華炎: 守備の80%をダメージに加算
 void specialSkillIgnisEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = GetUnitDefense(&attacker->unit) * 0.8;
+    int damagePlus = attacker->unit.def * 0.8;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -112,7 +112,7 @@ void specialSkillIgnisEffect(struct BattleUnit* attacker, struct BattleUnit* def
 // 氷点: 魔防の50%をダメージに加算
 void specialSkillChillingWindEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = GetUnitResistance(&attacker->unit) * 0.5;
+    int damagePlus = attacker->unit.res * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -131,7 +131,7 @@ void specialSkillChillingWindEffect(struct BattleUnit* attacker, struct BattleUn
 //奥義以外のスキルによる「ダメージを○○％軽減」を無効
 void specialSkillTwinBladesEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = GetUnitResistance(&attacker->unit) * 0.4;
+    int damagePlus = attacker->unit.res * 0.4;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -151,7 +151,7 @@ void specialSkillTwinBladesEffect(struct BattleUnit* attacker, struct BattleUnit
 // 氷蒼: 魔防の50%をダメージに加算
 void specialSkillIcebergEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = GetUnitResistance(&attacker->unit) * 0.5;
+    int damagePlus = attacker->unit.res * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -169,7 +169,7 @@ void specialSkillIcebergEffect(struct BattleUnit* attacker, struct BattleUnit* d
 // 氷華: 魔防の80%をダメージに加算
 void specialSkillGlaciesEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = GetUnitResistance(&attacker->unit) * 0.8;
+    int damagePlus = attacker->unit.res * 0.8;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -756,7 +756,7 @@ void specialSkillFireEmblemEffect(struct BattleUnit* attacker, struct BattleUnit
 // 雪辱: 自分の（最大HP-現HP）の30%をダメージに加算
 void specialSkillRetributionEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = (GetUnitMaxHp(&attacker->unit) - attacker->unit.hp) * 0.3;
+    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.3;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -774,7 +774,7 @@ void specialSkillRetributionEffect(struct BattleUnit* attacker, struct BattleUni
 // 血讐: 自分の（最大HP-現HP）の30%をダメージに加算
 void specialSkillReprisalEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = (GetUnitMaxHp(&attacker->unit) - attacker->unit.hp) * 0.3;
+    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.3;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -792,7 +792,7 @@ void specialSkillReprisalEffect(struct BattleUnit* attacker, struct BattleUnit* 
 // 復讐: 自分の（最大HP-現HP）の50%をダメージに加算
 void specialSkillVengeanceEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = (GetUnitMaxHp(&attacker->unit) - attacker->unit.hp) * 0.5;
+    int damagePlus = (attacker->unit.maxHp - attacker->unit.hp) * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -816,8 +816,8 @@ void specialSkillDaylightEffect(struct BattleUnit* attacker, struct BattleUnit* 
 {
     if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
     {
-        if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.3)
-            attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
+        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
+            attacker->unit.hp = attacker->unit.maxHp;
         else
             attacker->unit.hp += gBattleStats.damage * 0.3;
 
@@ -830,8 +830,8 @@ void specialSkillNoontimeEffect(struct BattleUnit* attacker, struct BattleUnit* 
 {
     if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
     {
-        if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.3)
-            attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
+        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
+            attacker->unit.hp = attacker->unit.maxHp;
         else
             attacker->unit.hp += gBattleStats.damage * 0.3;
 
@@ -844,8 +844,8 @@ void specialSkillSolEffect(struct BattleUnit* attacker, struct BattleUnit* defen
 {
     if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
     {
-        if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.5)
-            attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
+        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
+            attacker->unit.hp = attacker->unit.maxHp;
         else
             attacker->unit.hp += gBattleStats.damage * 0.5;
 
@@ -873,8 +873,8 @@ void specialSkillAetherEffect(struct BattleUnit* attacker, struct BattleUnit* de
         {
             attacker->nonZeroDamage = 1;
 
-            if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.5)
-                attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
+            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
+                attacker->unit.hp = attacker->unit.maxHp;
             else
                 attacker->unit.hp += gBattleStats.damage * 0.5;
 
@@ -903,8 +903,8 @@ void specialSkillRadientAetherEffect(struct BattleUnit* attacker, struct BattleU
         {
             attacker->nonZeroDamage = 1;
 
-            if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.5)
-                attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
+            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
+                attacker->unit.hp = attacker->unit.maxHp;
             else
                 attacker->unit.hp += gBattleStats.damage * 0.5;
 
@@ -934,8 +934,8 @@ void specialSkillSiriusEffect(struct BattleUnit* attacker, struct BattleUnit* de
         {
             attacker->nonZeroDamage = 1;
 
-            if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.3)
-                attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
+            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
+                attacker->unit.hp = attacker->unit.maxHp;
             else
                 attacker->unit.hp += gBattleStats.damage * 0.3;
 
@@ -948,7 +948,7 @@ void specialSkillSiriusEffect(struct BattleUnit* attacker, struct BattleUnit* de
 //与えたダメージの25%自分を回復
 void specialSkillOpenFutureEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    int damagePlus = GetUnitDefense(&attacker->unit) * 0.5;
+    int damagePlus = attacker->unit.def * 0.5;
 
     if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
         gBattleStats.damage += damagePlus * 3;
@@ -963,8 +963,8 @@ void specialSkillOpenFutureEffect(struct BattleUnit* attacker, struct BattleUnit
     {
         attacker->nonZeroDamage = 1;
 
-        if (GetUnitMaxHp(&attacker->unit) < attacker->unit.hp + gBattleStats.damage * 0.25)
-            attacker->unit.hp = GetUnitMaxHp(&attacker->unit);
+        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.25)
+            attacker->unit.hp = attacker->unit.maxHp;
         else
             attacker->unit.hp += gBattleStats.damage * 0.25;
 
@@ -3836,11 +3836,11 @@ const int sizeofBattleUnit = sizeof(struct BattleUnit);
 void ComputeBattleUnitDefense(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     if (GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE)
-        attacker->battleDefense = attacker->terrainResistance + GetUnitResistance(&attacker->unit);
+        attacker->battleDefense = attacker->terrainResistance + attacker->unit.res;
     else if (GetItemAttributes(defender->weapon) & IA_MAGIC)
-        attacker->battleDefense = attacker->terrainResistance + GetUnitResistance(&attacker->unit);
+        attacker->battleDefense = attacker->terrainResistance + attacker->unit.res;
     else
-        attacker->battleDefense = attacker->terrainDefense + GetUnitDefense(&attacker->unit);
+        attacker->battleDefense = attacker->terrainDefense + attacker->unit.def;
 }
 
 void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -3899,7 +3899,7 @@ void ComputeBattleUnitSpeed(struct BattleUnit* bu)
     if (effWt < 0)
         effWt = 0;
 
-    bu->battleSpeed = GetUnitSpeed(&bu->unit) - effWt;
+    bu->battleSpeed = bu->unit.spd - effWt;
 
     if (bu->battleSpeed < 0)
         bu->battleSpeed = 0;
@@ -3908,13 +3908,13 @@ void ComputeBattleUnitSpeed(struct BattleUnit* bu)
 // Tactician bonus is removed
 void ComputeBattleUnitHitRate(struct BattleUnit* bu)
 {
-    bu->battleHitRate = (GetUnitSkill(&bu->unit) * 2) + GetItemHit(bu->weapon) + (GetUnitLuck(&bu->unit) / 2) + bu->wTriangleHitBonus;
+    bu->battleHitRate = (bu->unit.skl * 2) + GetItemHit(bu->weapon) + (bu->unit.luk / 2) + bu->wTriangleHitBonus;
 }
 
 // Tactician bonus is removed
 void ComputeBattleUnitAvoidRate(struct BattleUnit* bu)
 {
-    bu->battleAvoidRate = (bu->battleSpeed * 2) + bu->terrainAvoid + (GetUnitLuck(&bu->unit));
+    bu->battleAvoidRate = (bu->battleSpeed * 2) + bu->terrainAvoid + (bu->unit.luk);
 
     if (bu->battleAvoidRate < 0)
         bu->battleAvoidRate = 0;
@@ -3922,7 +3922,7 @@ void ComputeBattleUnitAvoidRate(struct BattleUnit* bu)
 
 void ComputeBattleUnitCritRate(struct BattleUnit* bu)
 {
-    bu->battleCritRate = GetItemCrit(bu->weapon) + (GetUnitSkill(&bu->unit) / 2);
+    bu->battleCritRate = GetItemCrit(bu->weapon) + (bu->unit.skl / 2);
 
     if (bu->unit.character->ability_criticalBonus || bu->unit.job->ability_criticalBonus)
         bu->battleCritRate += 15;
@@ -3930,7 +3930,7 @@ void ComputeBattleUnitCritRate(struct BattleUnit* bu)
 
 void ComputeBattleUnitDodgeRate(struct BattleUnit* bu)
 {
-    bu->battleDodgeRate = GetUnitLuck(&bu->unit);
+    bu->battleDodgeRate = bu->unit.luk;
 }
 
 void ComputeBattleUnitSupportBonuses(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -4058,6 +4058,7 @@ void ComputePassiveSkillCSpur(struct Unit *unit)
                 if(areTwoUnitsAdjacent(unit, &attacker->unit))
                     if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
                         attacker->battleDefense += 4;
+                break;
             case PASSIVE_SKILL_C_SPUR_RES_4:
                 if(areTwoUnitsAdjacent(unit, &attacker->unit))
                     if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
