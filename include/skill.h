@@ -803,6 +803,9 @@ u16 getUnitPassiveSkillB(struct Unit *unit);
 u16 getUnitPassiveSkillC(struct Unit *unit);
 u16 getUnitPassiveSkillS(struct Unit *unit);
 
+extern const struct SpecialSkill specialSkills[];
+u16 getUnitSpecialSkill(struct Unit *unit);
+
 void setBGMapBufferSyncFlag(u8 flag);
 
 void UnitSlide_SetNewUnit(struct Proc* proc);

@@ -1148,6 +1148,59 @@ void HealUnitsHPByTerrain(int unitIDSideBase)
     }
 }
 
+void UpdateUnitSkillCDEachTurn(struct Unit *unit)
+{
+    switch (getUnitPassiveSkillB(unit))
+    {
+        case PASSIVE_SKILL_B_SHIELD_PULSE_1:
+        case PASSIVE_SKILL_B_SHIELD_PULSE_2:
+            if(getUnitSpecialSkill(unit) && specialSkills[getUnitSpecialSkill(unit)].effectWhenDefend)
+                decreaseUnitSkillCD(unit, 1);
+            break;
+        case PASSIVE_SKILL_B_SHIELD_PULSE_3:
+        case PASSIVE_SKILL_B_SHIELD_PULSE_4:
+            if(getUnitSpecialSkill(unit) && specialSkills[getUnitSpecialSkill(unit)].effectWhenDefend)
+                decreaseUnitSkillCD(unit, 2);
+            break;
+        default:
+            break;
+    }
+}
+
+void UpdateUnitsSkillCDEachTurnForSide(struct Unit *units, int number)
+{
+    for(int i = 0; i < number; i++)
+        UpdateUnitSkillCDEachTurn(&units[i]);
+}
+
+void UpdateSkillCDEachTurnForPlayerUnits()
+{
+    UpdateUnitsSkillCDEachTurnForSide(playerUnits, PLAYER_TOTAL_AMOUNT);
+}
+
+void UpdateSkillCDEachTurnForEnemyUnits()
+{
+    UpdateUnitsSkillCDEachTurnForSide(enemyUnits, ENEMY_TOTAL_AMOUNT);
+}
+
+void UpdateSkillCDEachTurnForNPCUnits()
+{
+    UpdateUnitsSkillCDEachTurnForSide(NPCUnits, NPC_TOTAL_AMOUNT);
+}
+
+void UpdateSkillCDEachTurnForP4Units()
+{    
+    UpdateUnitsSkillCDEachTurnForSide(P4Units, P4_TOTAL_AMOUNT);
+}
+
+void UpdateUnitsSkillCDEachTurn()
+{
+    UpdateSkillCDEachTurnForPlayerUnits();
+    UpdateSkillCDEachTurnForEnemyUnits();
+    UpdateSkillCDEachTurnForNPCUnits();
+    UpdateSkillCDEachTurnForP4Units();
+}
+
 void HealUnitsHPEachTurn(struct Proc *proc)
 {
     HealUnitsHPByTerrain(gRAMChapterData.chapterPhaseIndex);
@@ -1167,6 +1220,7 @@ void HealUnitsHPEachTurnInjector(struct Proc *proc)
 {
     clearUnitsBuffAndDebuffEachTurn();
     HealUnitsHPEachTurn(proc);
+    UpdateUnitsSkillCDEachTurn();
 }
 
 const struct ProcCmd gProcHealUnitsHPEachTurnInjector = PROC_CALL_ROUTINE(HealUnitsHPEachTurnInjector);
