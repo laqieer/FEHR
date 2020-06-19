@@ -16,8 +16,8 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":4,
- "tiledversion":"1.3.4",
+ "tilecount":5,
+ "tiledversion":"1.3.5",
  "tileheight":19,
  "tiles":[
         {
@@ -42,6 +42,12 @@
          "id":3,
          "image":"player_units\/MageKnight.png",
          "imageheight":19,
+         "imagewidth":15
+        }, 
+        {
+         "id":4,
+         "image":"player_units\/LanceGreatLord.png",
+         "imageheight":16,
          "imagewidth":15
         }],
  "tilewidth":16,
