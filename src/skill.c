@@ -4033,15 +4033,15 @@ void ComputePassiveSkillCSpur(struct Unit *unit)
                     attacker->battleAttack += 5;
                 break;
             case PASSIVE_SKILL_C_DRIVE_ATK_1:
-                if(getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+                if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
                     attacker->battleAttack += 2;
                 break;
             case PASSIVE_SKILL_C_DRIVE_ATK_2:
-                if(getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+                if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
                     attacker->battleAttack += 3;
                 break;
             case PASSIVE_SKILL_C_DRIVE_ATK_3:
-                if(getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+                if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
                     attacker->battleAttack += 4;
                 break;
             case PASSIVE_SKILL_C_SPUR_RES_1:
