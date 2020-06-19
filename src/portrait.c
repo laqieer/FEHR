@@ -80,6 +80,24 @@ const Portrait portraitAlfonse = {
         0, 0, 0, 0
 };
 
+// For portrait display when using items
+const u16 portrait_standard_bg_obj[] = {
+    6,
+    OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(40 - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(0),
+    OBJ_Y(-16) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(8),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(40 - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(10),
+    OBJ_Y(32 - 16) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(18),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(40 - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(20),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
+    6,
+    OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(-40) | OBJ_SIZE(3), OBJ_CHAR(0),
+    OBJ_Y(-16) | ATTR0_TALL, OBJ_X(64 - 40) | OBJ_SIZE(2), OBJ_CHAR(8),
+    OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(-40) | OBJ_SIZE(3), OBJ_CHAR(10),
+    OBJ_Y(32 - 16) | ATTR0_TALL, OBJ_X(64 - 40) | OBJ_SIZE(2), OBJ_CHAR(18),
+    OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(-40) | OBJ_SIZE(3), OBJ_CHAR(20),
+    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(64 - 40) | OBJ_SIZE(2), OBJ_CHAR(28),
+};
+
 const u16 portrait_Freya_obj[] = {
     14,
     OBJ_Y(8 + 40) | ATTR0_SQUARE, OBJ_X(128 - 64 - 8) | OBJ_SIZE(1), OBJ_CHAR(0),
@@ -1043,7 +1061,7 @@ const Portrait portraitFjormBG = {
     portrait_Fjorm_bg_tilesetTiles,
     portrait_Fjorm_bg_miniTiles,
     portrait_Fjorm_bg_tilesetPal,
-    0,
+    portrait_standard_bg_obj,
     0,
     portrait_standard_bg,
     0
