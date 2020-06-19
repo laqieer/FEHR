@@ -118,3 +118,7 @@
 .rodata.pItems59 : {*(.rodata.pItems59)}
 . = 0x80178C4;
 .rodata.pItems60 : {*(.rodata.pItems60)}
+. = 0x805330C;
+.rodata.pItemSpellAssociations1 : {*(.rodata.pItemSpellAssociations1)}
+. = 0x806C1D0;
+.rodata.pItemSpellAssociations2 : {*(.rodata.pItemSpellAssociations2)}

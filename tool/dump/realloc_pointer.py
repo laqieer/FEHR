@@ -19,6 +19,7 @@ ptrs = {
     "SupportConversation": b'\x34\x79\xd6\x08',
     "OptionMenuInfo": b'\x54\xf0\xda\x08',
     "OptionMenuItemInfo": b'\xc4\xf0\xda\x08',
+    "ItemSpellAssociation": b'\x78\x16\xd6\x08',
 }
 
 structName = sys.argv[1]

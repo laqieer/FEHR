@@ -80,6 +80,12 @@ infos = {
         "list": "OptionMenuItem.txt",
         "startIndex": 0
     },
+    "ItemSpellAssociation": {
+        "format": "u16u16u32u32u8u8u8u8<",
+        "start": 0xd61678,
+        "list": "Item Spell Association.txt",
+        "startIndex": 0
+    },
 }
 
 structName = sys.argv[1]

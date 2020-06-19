@@ -274,6 +274,33 @@ enum {
     WPN_EXP_S = 251,
 };
 
+struct ItemSpellAssociation {
+    u16 item; // item ID (0xffff - end list)
+    u16 displayCharacterNumber;
+    u32 spellAnimation; // spell animation ID (0xffff - None, 0xfffe - Map only)
+    void *mapAnimation;
+    u8 returnToOriginalPosition;
+    u8 facePosition;
+    u8 flashColor; // enemy flash
+    u8 padding;
+};
+
+enum {
+    FACE_TOWARDS_TARGET,
+    FACE_ALWAYS_RIGHT,
+    FACE_ALWAYS_UP,
+    FACE_ALWAYS_SELECTED,
+};
+
+enum {
+    FLASH_COLOR_WHITE,
+    FLASH_COLOR_DRAK,
+    FLASH_COLOR_RED,
+    FLASH_COLOR_GREEN,
+    FLASH_COLOR_BLUE,
+    FLASH_COLOR_YELLOW,
+};
+
 #define ITEM_INDEX(aItem) ((aItem) & 0xFF)
 
 #define ITEM_EMBLEM_SEAL_ICON 157
