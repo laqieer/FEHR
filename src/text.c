@@ -298,7 +298,7 @@ const char* const texts[] = {
 
         [TEXT_ITEM_NAME_LEIPTR] = "レイプト",
 
-        [TEXT_ITEM_HELP_LEIPTR] = "氷の王国ニフルの神器",
+        [TEXT_ITEM_HELP_LEIPTR] = "「フィヨルム専用」ニフルの神器",
 
         // Chapter event dialogue
 

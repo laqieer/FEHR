@@ -100,7 +100,7 @@ struct Item
     u8 swordWPLock : 1;
 
     // 専用マークのみ
-    u8 unknownAbility2 : 1;
+    u8 WPLockMark: 1;
 
     // The flier talisman. Negate Flying Effectiveness. 飛行特効無効.
     u8 flierTalisman : 1;
@@ -192,7 +192,7 @@ struct Item
     // Cost Per Use (0 = Unsellable). 単価.
     u16 cost;
 
-    // The rank. レベル.
+    // The rank. レベル. (0 = 専用)
     u8 rank;
 
     // The icon #. アイコン. 图标.
