@@ -226,23 +226,23 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_NAME_LOKI] = "ロキ",
 
-        [TEXT_CHARACTER_HELP_LOKI] = "炎の王国ムスペルの軍師。"TCC_NEWLINE"悪戯好きで、人を誘惑することを好む。",
+        [TEXT_CHARACTER_HELP_LOKI] = "炎の王国ムスペルの軍師。悪戯好きで、人を誘惑することを好む。",
 
         [TEXT_CHARACTER_NAME_FJORM] = "フィヨルム",
 
-        [TEXT_CHARACTER_HELP_FJORM] = "氷の王国ニフルの第二王女。心優しい少女。"TCC_NEWLINE"仇敵スルトに対しては強い復讐心を抱く。",
+        [TEXT_CHARACTER_HELP_FJORM] = "氷の王国ニフルの第二王女。心優しい少女。仇敵スルトに対しては強い復讐心を抱く。",
 
         [TEXT_CHARACTER_NAME_SURTR] = "スルト",
 
-        [TEXT_CHARACTER_HELP_SURTR] = "炎の王国ムスペルの王。炎竜の血を引く。"TCC_NEWLINE"苛烈な性格で、征服欲が極めて強い。",
+        [TEXT_CHARACTER_HELP_SURTR] = "炎の王国ムスペルの王。炎竜の血を引く。苛烈な性格で、征服欲が極めて強い。",
 
         [TEXT_CHARACTER_NAME_LAEVATEIN] = "レーヴァテイン",
 
-        [TEXT_CHARACTER_HELP_LAEVATEIN] = "炎の王国ムスペルの第二王女。"TCC_NEWLINE"みずからを剣と称し、自身の感情に乏しい。",
+        [TEXT_CHARACTER_HELP_LAEVATEIN] = "炎の王国ムスペルの第二王女。みずからを剣と称し、自身の感情に乏しい。",
 
         [TEXT_CHARACTER_NAME_LAEGJARN] = "レーギャルン",
 
-        [TEXT_CHARACTER_HELP_LAEGJARN] = "炎の王国ムスペルの第一王女。レーヴァテインの姉。"TCC_NEWLINE"ムスペル軍を率いる品性高潔な将軍。",
+        [TEXT_CHARACTER_HELP_LAEGJARN] = "炎の王国ムスペルの第一王女。レーヴァテインの姉。ムスペル軍を率いる品性高潔な将軍。",
 
         [TEXT_CHARACTER_NAME_EIR] = "エイル",
 
@@ -250,7 +250,7 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_NAME_GUNNTHRA] = "スリーズ",
 
-        [TEXT_CHARACTER_HELP_GUNNTHRA] = "氷の王国ニフルの第一王女。"TCC_NEWLINE"おっとりとして母性あふれる性格。",
+        [TEXT_CHARACTER_HELP_GUNNTHRA] = "氷の王国ニフルの第一王女。おっとりとして母性あふれる性格。",
 
         [TEXT_CHARACTER_NAME_LIF] = "リーヴ",
 
