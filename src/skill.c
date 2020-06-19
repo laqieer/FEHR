@@ -4105,6 +4105,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
                     attacker->battleDefense += 4;
             }
+            break;
         case PASSIVE_SKILL_A_ATK_DEF_BOND_3:
             if(isAdjacentToAnyCompanion(&attacker->unit))
             {
@@ -4112,6 +4113,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
                     attacker->battleDefense += 5;
             }
+            break;
         case PASSIVE_SKILL_A_ATK_DEF_BOND_4:
             if(isAdjacentToAnyCompanion(&attacker->unit))
             {
@@ -4119,6 +4121,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
                     attacker->battleDefense += 7;
             }
+            break;
         default:
             break;
     }
