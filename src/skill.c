@@ -394,58 +394,74 @@ void forAllAliveUnitsInSide(void (*func)(struct Unit *unit, void *args), void *a
 
 struct Unit *findInPlayerUnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
 {
-    struct Unit *unit = 0;
+    struct Unit *unit;
+    struct Unit *resultUnit = 0;
 
     for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
     {
         unit = &playerUnits[i];
         if(isUnitAlive(unit) && (*condition)(unit, args))
+        {
+            resultUnit = unit;
             break;
+        }
     }
 
-    return unit;
+    return resultUnit;
 }
 
 struct Unit *findInEnemyUnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
 {
-    struct Unit *unit = 0;
+    struct Unit *unit;
+    struct Unit *resultUnit = 0;
 
     for(int i = 0; i < ENEMY_TOTAL_AMOUNT; i++)
     {
         unit = &enemyUnits[i];
         if(isUnitAlive(unit) && (*condition)(unit, args))
+        {
+            resultUnit = unit;
             break;
+        }
     }
 
-    return unit;
+    return resultUnit;
 }
 
 struct Unit *findInNPCUnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
 {
-    struct Unit *unit = 0;
+    struct Unit *unit;
+    struct Unit *resultUnit = 0;
 
     for(int i = 0; i < NPC_TOTAL_AMOUNT; i++)
     {
         unit = &NPCUnits[i];
         if(isUnitAlive(unit) && (*condition)(unit, args))
+        {
+            resultUnit = unit;
             break;
+        }
     }
 
-    return unit;
+    return resultUnit;
 }
 
 struct Unit *findInP4UnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
 {
-    struct Unit *unit = 0;
+    struct Unit *unit;
+    struct Unit *resultUnit = 0;
 
     for(int i = 0; i < P4_TOTAL_AMOUNT; i++)
     {
         unit = &P4Units[i];
         if(isUnitAlive(unit) && (*condition)(unit, args))
+        {
+            resultUnit = unit;
             break;
+        }
     }
 
-    return unit;
+    return resultUnit;
 }
 
 struct Unit *findAliveUnitInSide(int (*condition)(struct Unit *unit, void *args), void *args, int side)
@@ -475,7 +491,7 @@ int areTwoUnitsAdjacent(struct Unit *unit1, struct Unit *unit2)
 
 int isAdjacentToAnyCompanion(struct Unit *unit)
 {
-    return findAliveUnitInSide(areTwoUnitsAdjacent, &unit, unit->side);
+    return findAliveUnitInSide(areTwoUnitsAdjacent, unit, unit->side);
 }
 
 // ブルーフレイム: 10を奥義ダメージに加算　味方と隣接している時、さらに15を奥義ダメージに加算。合計25を加算する
