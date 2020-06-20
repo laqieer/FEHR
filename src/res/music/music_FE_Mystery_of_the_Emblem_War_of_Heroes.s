@@ -12,7 +12,7 @@
 	.section .rodata
 	.global	music_FE_Mystery_of_the_Emblem_War_of_Heroes
 	.align	2
-
+//TODO: loop
 @**************** Track 1 (Midi-Chn.1) ****************@
 
 music_FE_Mystery_of_the_Emblem_War_of_Heroes_1:
