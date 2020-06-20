@@ -5608,8 +5608,11 @@ void BattleUnwind() {
 
     gBattleHitIterator->info |= BATTLE_HIT_INFO_END;
         
-    SpecialSkillEffectAfterBattle(attacker, defender);
-    PassiveSkillEffectAfterBattle(attacker, defender);
+    if(isInBattle())
+    {
+        SpecialSkillEffectAfterBattle(attacker, defender);
+        PassiveSkillEffectAfterBattle(attacker, defender);
+    }
 
     //DebugPrintBattleHitArray();
 }
