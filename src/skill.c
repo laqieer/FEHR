@@ -2507,6 +2507,22 @@ void updateUnitSkillCD(struct Unit *unit)
         default:
             break;
     }
+
+    switch (getUnitPassiveSkillB(unit))
+    {
+        case PASSIVE_SKILL_B_SHIELD_PULSE_1:
+        case PASSIVE_SKILL_B_SHIELD_PULSE_2:
+            if(getUnitSpecialSkill(unit) && specialSkills[getUnitSpecialSkill(unit)].effectWhenDefend)
+                increaseUnitSkillCD(unit, 1);
+            break;
+        case PASSIVE_SKILL_B_SHIELD_PULSE_3:
+        case PASSIVE_SKILL_B_SHIELD_PULSE_4:
+            if(getUnitSpecialSkill(unit) && specialSkills[getUnitSpecialSkill(unit)].effectWhenDefend)
+                increaseUnitSkillCD(unit, 2);
+            break;
+        default:
+            break;
+    }
 }
 
 void updateSkillCDForAllUnits()

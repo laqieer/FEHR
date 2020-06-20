@@ -1150,21 +1150,7 @@ void HealUnitsHPByTerrain(int unitIDSideBase)
 
 void UpdateUnitSkillCDEachTurn(struct Unit *unit)
 {
-    switch (getUnitPassiveSkillB(unit))
-    {
-        case PASSIVE_SKILL_B_SHIELD_PULSE_1:
-        case PASSIVE_SKILL_B_SHIELD_PULSE_2:
-            if(getUnitSpecialSkill(unit) && specialSkills[getUnitSpecialSkill(unit)].effectWhenDefend)
-                decreaseUnitSkillCD(unit, 1);
-            break;
-        case PASSIVE_SKILL_B_SHIELD_PULSE_3:
-        case PASSIVE_SKILL_B_SHIELD_PULSE_4:
-            if(getUnitSpecialSkill(unit) && specialSkills[getUnitSpecialSkill(unit)].effectWhenDefend)
-                decreaseUnitSkillCD(unit, 2);
-            break;
-        default:
-            break;
-    }
+
 }
 
 void UpdateUnitsSkillCDEachTurnForSide(struct Unit *units, int number)
@@ -1220,7 +1206,8 @@ void HealUnitsHPEachTurnInjector(struct Proc *proc)
 {
     clearUnitsBuffAndDebuffEachTurn();
     HealUnitsHPEachTurn(proc);
-    UpdateUnitsSkillCDEachTurn();
+    //if(gRAMChapterData.chapterTurnNumber == 1) // 1st turn only
+        //UpdateUnitsSkillCDEachTurn();
 }
 
 const struct ProcCmd gProcHealUnitsHPEachTurnInjector = PROC_CALL_ROUTINE(HealUnitsHPEachTurnInjector);
