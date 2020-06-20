@@ -1216,8 +1216,8 @@ void specialSkillIceMirrorEffect(struct BattleUnit* attacker, struct BattleUnit*
     else
         attacker->unit.hp -= damageReduced;
 
-    if(damageReduced)
-        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_DEVIL;
+    //if(damageReduced)
+        //gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_DEVIL;
 
     if(gBattleStats.damage == 0)
         attacker->nonZeroDamage = 0;
