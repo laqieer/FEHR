@@ -2105,7 +2105,7 @@ char *decodeText(int textID)
                     lineWidth += charWidth;
                     if (lineWidth > maxLineWidth) {
                         *q++ = 1; // new line
-                        lineWidth = 0;
+                        lineWidth = charWidth;
                     }
                     while (*p && p < p_next)
                         *q++ = *p++;
