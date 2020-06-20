@@ -1,3 +1,3 @@
 // Converted by ./ConvertTextEN.py
 
-#define MID_SCENARIO_MAP_BEGIN_S4032_EN 6417
+#define MID_SCENARIO_MAP_BEGIN_S4032_EN 6420
