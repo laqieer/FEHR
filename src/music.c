@@ -32,6 +32,9 @@ extern const u8 musicFEGaidenSeparateWays[];
 extern const u8 musicFEGaidenEncounter[];
 extern const u8 musicFEPoRBeautifulPrincessElincia[];
 extern const u8 musicFEPoRLifeReturns[];
+extern const u8 musicFEFatesJustice[];
+extern const u8 musicFEFatesDuskFalls[];
+extern const u8 musicFEFatesDesireBelow[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1484,6 +1487,9 @@ const struct Song songs[] = {
         [MUSIC_FE_GAIDEN_ENCOUNTER] = {musicFEGaidenEncounter, 1, 1},
         [MUSIC_FE_PATH_OF_RADIANCE_BEAUTIFUL_PRINCESS_ELINCIA] = {musicFEPoRBeautifulPrincessElincia, 1, 1},
         [MUSIC_FE_PATH_OF_RADIANCE_LIFE_RETURNS] = {musicFEPoRLifeReturns, 1, 1},
+        [MUSIC_FE_FATES_DESIRE_BELOW] = {musicFEFatesDesireBelow, 1, 1},
+        [MUSIC_FE_FATES_DUSK_FALLS] = {musicFEFatesDuskFalls, 1, 1},
+        [MUSIC_FE_FATES_JUSTICE_RIP] = {musicFEFatesJustice, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1633,6 +1639,9 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_GAIDEN_ENCOUNTER, MUSIC_LENGTH(1, 28), 0, "外伝　出会い"},
     {MUSIC_FE_PATH_OF_RADIANCE_BEAUTIFUL_PRINCESS_ELINCIA, MUSIC_LENGTH(2, 26), 0, "Ｂｅａｕｔｉｆｕｌ　Ｐｒｉｎｃｅｓｓ　Ｅｌｉｎｃｉａ"},
     {MUSIC_FE_PATH_OF_RADIANCE_LIFE_RETURNS, MUSIC_LENGTH(4, 22), 0, "Ｌｉｆｅ　Ｒｅｔｕｒｎｓ"},
+    {MUSIC_FE_FATES_DESIRE_BELOW, MUSIC_LENGTH(5, 12), 0, "水底の希求"}, // https://fireemblemwiki.org/wiki/Soundtrack_of_Fire_Emblem_Fates
+    {MUSIC_FE_FATES_DUSK_FALLS, MUSIC_LENGTH(5, 5), 0 ,"たそがれをつれて"},
+    {MUSIC_FE_FATES_JUSTICE_RIP, MUSIC_LENGTH(5, 12), 0, "正義は此処に"},
 
     // End of table
     {-1, 0,                                              0, 0},
