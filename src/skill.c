@@ -4172,11 +4172,9 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             break;
         case PASSIVE_SKILL_A_STEADY_STANCE_4:
             if(attacker == &gBattleTarget && !(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
-            {
                 attacker->battleDefense += 8;
-                if(isInBattle())
-                    decreaseUnitSkillCD(&defender->unit, 1);
-            }
+            if(attacker == &gBattleTarget && isInBattle())
+                decreaseUnitSkillCD(&defender->unit, 1);
             break;
         case PASSIVE_SKILL_A_ATK_DEF_BOND_1:
             if(isAdjacentToAnyCompanion(&attacker->unit))
@@ -5383,7 +5381,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"‹à„‚Ì‚©‚Ü‚¦‚P", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†Aç”õ{‚Q", "Steady Stance 1", "If foe initiates combat, grants Def+2 during combat."},
     {"‹à„‚Ì‚©‚Ü‚¦‚Q", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†Aç”õ{‚S", "Steady Stance 2", "If foe initiates combat, grants Def+4 during combat."},
     {"‹à„‚Ì‚©‚Ü‚¦‚R", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†Aç”õ{‚U", "Steady Stance 3", "If foe initiates combat, grants Def+6 during combat."},
-    {"‹à„‚Ì‚©‚Ü‚¦‚S", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†Aç”õ{‚WA‚©‚ÂA“G‚Ì‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê[‚Pi“¯Œn“Œø‰Ê•¡”AÅ‘å’l“K—pj", "Steady Stance 4", "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"},
+    {"‹à„‚Ì‚©‚Ü‚¦‚S", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†Aç”õ{‚WA‚©‚ÂA“G‚Ì‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê[‚P", "Steady Stance 4", "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
