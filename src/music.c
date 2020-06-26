@@ -35,6 +35,7 @@ extern const u8 musicFEPoRLifeReturns[];
 extern const u8 musicFEFatesJustice[];
 extern const u8 musicFEFatesDuskFalls[];
 extern const u8 musicFEFatesDesireBelow[];
+extern const u8 musicFERadiantDawnEternalBond[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1490,6 +1491,7 @@ const struct Song songs[] = {
         [MUSIC_FE_FATES_DESIRE_BELOW] = {musicFEFatesDesireBelow, 1, 1},
         [MUSIC_FE_FATES_DUSK_FALLS] = {musicFEFatesDuskFalls, 1, 1},
         [MUSIC_FE_FATES_JUSTICE_RIP] = {musicFEFatesJustice, 1, 1},
+        [MUSIC_FE_RADIANT_DAWN_ETERNAL_BOND] = {musicFERadiantDawnEternalBond, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1642,6 +1644,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_FATES_DESIRE_BELOW, MUSIC_LENGTH(5, 12), 0, "êÖíÍÇÃäÛãÅ"}, // https://fireemblemwiki.org/wiki/Soundtrack_of_Fire_Emblem_Fates
     {MUSIC_FE_FATES_DUSK_FALLS, MUSIC_LENGTH(5, 5), 0 ,"ÇΩÇªÇ™ÇÍÇÇ¬ÇÍÇƒ"},
     {MUSIC_FE_FATES_JUSTICE_RIP, MUSIC_LENGTH(5, 12), 0, "ê≥ã`ÇÕçüèàÇ…"},
+    {MUSIC_FE_RADIANT_DAWN_ETERNAL_BOND, MUSIC_LENGTH(3, 51), 0, "„JâiãvÇ…"},
 
     // End of table
     {-1, 0,                                              0, 0},
