@@ -1977,7 +1977,7 @@ const char* const texts[] = {
 
        [TEXT_OPTION_PSEUDO_RANDOM_HELP] = "ギジランダムを使う",
 
-       [TEXT_OPTION_REAL_RANDOM_HELP] = "リアルランダム（乱数を調整できない）",
+       [TEXT_OPTION_REAL_RANDOM_HELP] = "リアルランダム（乱数を予測できない）",
 
        [TEXT_OPTION_TRUE_HIT] = "命中判定",
 
