@@ -236,7 +236,7 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_HELP_SURTR] = "炎の王国ムスペルの王。炎竜の血を引く。苛烈な性格で、征服欲が極めて強い。",
 
-        [TEXT_CHARACTER_NAME_LAEVATEIN] = "レヴァテイン",
+        [TEXT_CHARACTER_NAME_LAEVATEIN] = "レーヴァテイン",
 
         [TEXT_CHARACTER_HELP_LAEVATEIN] = "炎の王国ムスペルの第二王女。みずからを剣と称し、自身の感情に乏しい。",
 
