@@ -2219,6 +2219,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_VERONICA_ID] = SPECIAL_SKILL_REPRISAL,
         [CHARACTER_LOKI_ID] = SPECIAL_SKILL_EARTH_WATER_BALM_PLUS,
         [CHARACTER_FJORM_ID] = SPECIAL_SKILL_ICE_MIRROR,
+        [CHARACTER_SURTR_ID] = SPECIAL_SKILL_BONFIRE,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -4157,6 +4158,26 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             if(attacker == &gBattleActor)
                 attacker->battleAttack += 8;
             break;
+        case PASSIVE_SKILL_A_STEADY_STANCE_1:
+            if(attacker == &gBattleTarget && !(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                attacker->battleDefense += 2;
+            break;
+        case PASSIVE_SKILL_A_STEADY_STANCE_2:
+            if(attacker == &gBattleTarget && !(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                attacker->battleDefense += 4;
+            break;
+        case PASSIVE_SKILL_A_STEADY_STANCE_3:
+            if(attacker == &gBattleTarget && !(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                attacker->battleDefense += 6;
+            break;
+        case PASSIVE_SKILL_A_STEADY_STANCE_4:
+            if(attacker == &gBattleTarget && !(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+            {
+                attacker->battleDefense += 8;
+                if(isInBattle())
+                    decreaseUnitSkillCD(&defender->unit, 1);
+            }
+            break;
         case PASSIVE_SKILL_A_ATK_DEF_BOND_1:
             if(isAdjacentToAnyCompanion(&attacker->unit))
             {
@@ -4249,6 +4270,7 @@ const u16 characterAssistSkills[0x100] = {
         [CHARACTER_BRUNO_ID] = ASSIST_SKILL_RECIPROCAL_AID,
         [CHARACTER_VERONICA_ID] = ASSIST_SKILL_HARSH_COMMAND,
         [CHARACTER_LOKI_ID] = ASSIST_SKILL_SACRIFICE,
+        [CHARACTER_LAEVATEIN_ID] = ASSIST_SKILL_PIVOT,
 };
 
 const u16 jobAssistSkills[0x100] = {
@@ -4763,6 +4785,69 @@ void assistSkillRallyAttackResistancePlusEffect(struct Proc* proc, struct Select
  * 移動系の補助スキル.
  */
 
+void passiveSkillBLinkEffect(struct Unit *targetUnit)
+{
+    switch (getUnitPassiveSkillB(currentActiveUnit))
+    {
+        case PASSIVE_SKILL_B_ATK_DEF_LINK_1:
+            addUnitBuffPower(currentActiveUnit, 2);
+            addUnitBuffDefense(currentActiveUnit, 2);
+            addUnitBuffPower(targetUnit, 2);
+            addUnitBuffDefense(targetUnit, 2);
+            break;
+        case PASSIVE_SKILL_B_ATK_DEF_LINK_2:
+            addUnitBuffPower(currentActiveUnit, 4);
+            addUnitBuffDefense(currentActiveUnit, 4);
+            addUnitBuffPower(targetUnit, 4);
+            addUnitBuffDefense(targetUnit, 4);
+            break;
+        case PASSIVE_SKILL_B_ATK_DEF_LINK_3:
+            addUnitBuffPower(currentActiveUnit, 6);
+            addUnitBuffDefense(currentActiveUnit, 6);
+            addUnitBuffPower(targetUnit, 6);
+            addUnitBuffDefense(targetUnit, 6);
+            break;
+        case PASSIVE_SKILL_B_ATK_DEF_LINK_4:
+            addUnitBuffPower(currentActiveUnit, 8);
+            addUnitBuffDefense(currentActiveUnit, 8);
+            addUnitBuffPower(targetUnit, 8);
+            addUnitBuffDefense(targetUnit, 8);
+            break;
+        default:
+            break;
+    }
+
+    switch (getUnitPassiveSkillB(targetUnit))
+    {
+        case PASSIVE_SKILL_B_ATK_DEF_LINK_1:
+            addUnitBuffPower(currentActiveUnit, 2);
+            addUnitBuffDefense(currentActiveUnit, 2);
+            addUnitBuffPower(targetUnit, 2);
+            addUnitBuffDefense(targetUnit, 2);
+            break;
+        case PASSIVE_SKILL_B_ATK_DEF_LINK_2:
+            addUnitBuffPower(currentActiveUnit, 4);
+            addUnitBuffDefense(currentActiveUnit, 4);
+            addUnitBuffPower(targetUnit, 4);
+            addUnitBuffDefense(targetUnit, 4);
+            break;
+        case PASSIVE_SKILL_B_ATK_DEF_LINK_3:
+            addUnitBuffPower(currentActiveUnit, 6);
+            addUnitBuffDefense(currentActiveUnit, 6);
+            addUnitBuffPower(targetUnit, 6);
+            addUnitBuffDefense(targetUnit, 6);
+            break;
+        case PASSIVE_SKILL_B_ATK_DEF_LINK_4:
+            addUnitBuffPower(currentActiveUnit, 8);
+            addUnitBuffDefense(currentActiveUnit, 8);
+            addUnitBuffPower(targetUnit, 8);
+            addUnitBuffDefense(targetUnit, 8);
+            break;
+        default:
+            break;
+    }
+}
+
 int CanUnitEnterPosition(struct Unit *unit, int x, int y)
 {
     return CanUnitCrossTerrain(unit, gBmMapTerrain[y][x]);
@@ -4790,6 +4875,8 @@ void assistSkillDrawBackEffect(struct Proc* proc, struct SelectTarget* target)
 
     StartSoundEffect(&se_test_jump);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
+
+    passiveSkillBLinkEffect(targetUnit);
 }
 
 // 引き戻し: 対象を自分の反対側の位置に移動させる
@@ -4808,6 +4895,8 @@ void assistSkillRepositionEffect(struct Proc* proc, struct SelectTarget* target)
 
     StartSoundEffect(&se_test_jump);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
+
+    passiveSkillBLinkEffect(targetUnit);
 }
 
 // 入れ替え: 自分と対象の位置を入れ替える
@@ -4830,8 +4919,9 @@ void assistSkillSwapEffect(struct Proc* proc, struct SelectTarget* target)
     gActionData.yMove = target->y;
     
     StartSoundEffect(&se_test_jump);
-    //TODO: map sprite movement animation
     gActionData.unitActionType = UNIT_ACTION_WAIT;
+
+    passiveSkillBLinkEffect(targetUnit);
 }
 
 // 回り込み: 自分が対象の反対側の位置に移動する
@@ -4850,6 +4940,8 @@ void assistSkillPivotEffect(struct Proc* proc, struct SelectTarget* target)
 
     StartSoundEffect(&se_test_jump);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
+
+    passiveSkillBLinkEffect(targetUnit);
 }
 
 // 体当たり: 対象を自分と反対方向に1マス移動させる
@@ -4868,6 +4960,8 @@ void assistSkillShoveEffect(struct Proc* proc, struct SelectTarget* target)
 
     StartSoundEffect(&se_test_dash);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
+
+    passiveSkillBLinkEffect(targetUnit);
 }
 
 // ぶちかまし: 対象を自分と反対方向に2マス移動させる
@@ -4887,6 +4981,8 @@ void assistSkillSmiteEffect(struct Proc* proc, struct SelectTarget* target)
 
     StartSoundEffect(&se_test_dash);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
+
+    passiveSkillBLinkEffect(targetUnit);
 }
 
 
@@ -5284,6 +5380,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"攻撃守備の絆２", "味方と隣接している時、戦闘中、自身の攻撃、守備＋４", "Atk/Def Bond 2", "If unit is adjacent to an ally, grants Atk/Def+4 during combat."},
     {"攻撃守備の絆３", "味方と隣接している時、戦闘中、自身の攻撃、守備＋５", "Atk/Def Bond 3", "If unit is adjacent to an ally, grants Atk/Def+5 during combat."},
     {"攻撃守備の絆４", "味方と隣接している時、戦闘中、自身の攻撃、守備＋７", "Atk/Def Bond 4", "If unit is adjacent to an ally, grants Atk/Def+7 during combat."},
+    {"金剛のかまえ１", "敵から攻撃された時、戦闘中、守備＋２", "Steady Stance 1", "If foe initiates combat, grants Def+2 during combat."},
+    {"金剛のかまえ２", "敵から攻撃された時、戦闘中、守備＋４", "Steady Stance 2", "If foe initiates combat, grants Def+4 during combat."},
+    {"金剛のかまえ３", "敵から攻撃された時、戦闘中、守備＋６", "Steady Stance 3", "If foe initiates combat, grants Def+6 during combat."},
+    {"金剛のかまえ４", "敵から攻撃された時、戦闘中、守備＋８、かつ、敵の奥義発動カウント変動量ー１（同系統効果複数時、最大値適用）", "Steady Stance 4", "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5293,6 +5393,8 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_BRUNO_ID] = {PASSIVE_SKILL_A_FURY_1, PASSIVE_SKILL_A_FURY_2, PASSIVE_SKILL_A_FURY_3, PASSIVE_SKILL_A_FURY_4},
     [CHARACTER_LOKI_ID] = {PASSIVE_SKILL_A_TEMPTATION_1, PASSIVE_SKILL_A_TEMPTATION_2, PASSIVE_SKILL_A_TEMPTATION_3, PASSIVE_SKILL_A_TEMPTATION_4},
     [CHARACTER_FJORM_ID] = {PASSIVE_SKILL_A_ATK_DEF_BOND_1, PASSIVE_SKILL_A_ATK_DEF_BOND_2, PASSIVE_SKILL_A_ATK_DEF_BOND_3, PASSIVE_SKILL_A_ATK_DEF_BOND_4},
+    [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_A_STEADY_STANCE_1, PASSIVE_SKILL_A_STEADY_STANCE_2, PASSIVE_SKILL_A_STEADY_STANCE_3, PASSIVE_SKILL_A_STEADY_STANCE_4},
+    [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_A_FURY_1, PASSIVE_SKILL_A_FURY_2, PASSIVE_SKILL_A_FURY_3, PASSIVE_SKILL_A_FURY_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -5330,6 +5432,14 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"盾のこどう２", "敵から攻撃を受ける際に発動する奥義を装備していたら、１ターン目開始時、奥義発動カウントー１、かつ、奥義発動時に受けるダメージー５", "Shield Pulse 2", "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1. Reduces damage dealt to unit by 5 when Special triggers."},
     {"盾のこどう３", "敵から攻撃を受ける際に発動する奥義を装備していたら、１ターン目開始時、奥義発動カウントー２、かつ、奥義発動時に受けるダメージー５", "Shield Pulse 3", "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-2. Reduces damage dealt to unit by 5 when Special triggers."},
     {"盾のこどう４", "敵から攻撃を受ける際に発動する奥義を装備していたら、１ターン目開始時、奥義発動カウントー２、かつ、奥義発動時に受けるダメージー１０", "Shield Pulse 4", "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-2. Reduces damage dealt to unit by 10 when Special triggers."},
+    {"守備隊形１", "自分のＨＰが９０％以上の時、自分、敵、ともに追撃不可", "Wary Fighter 1", "If unit's HP >= 90%, unit and foe cannot make a follow-up attack."},
+    {"守備隊形２", "自分のＨＰが７０％以上の時、自分、敵、ともに追撃不可", "Wary Fighter 2", "If unit's HP >= 70%, unit and foe cannot make a follow-up attack."},
+    {"守備隊形３", "自分のＨＰが５０％以上の時、自分、敵、ともに追撃不可", "Wary Fighter 3", "If unit's HP >= 50%, unit and foe cannot make a follow-up attack."},
+    {"守備隊形４", "自分、敵、ともに追撃不可", "Wary Fighter 4", "Unit and foe cannot make a follow-up attack."},
+    {"攻撃守備連けい１", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋２（１ターン）", "Atk/Def Link 1", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+2 to unit and target ally or unit and targeting ally for 1 turn."},
+    {"攻撃守備連けい２", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋４（１ターン）", "Atk/Def Link 2", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+4 to unit and target ally or unit and targeting ally for 1 turn."},
+    {"攻撃守備連けい３", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋６（１ターン）", "Atk/Def Link 3", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+6 to unit and target ally or unit and targeting ally for 1 turn."},
+    {"攻撃守備連けい４", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋８（１ターン）", "Atk/Def Link 4", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+8 to unit and target ally or unit and targeting ally for 1 turn."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -5338,6 +5448,8 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_BRUNO_ID] = {PASSIVE_SKILL_B_VANTAGE_1, PASSIVE_SKILL_B_VANTAGE_2, PASSIVE_SKILL_B_VANTAGE_3, PASSIVE_SKILL_B_VANTAGE_4},
     [CHARACTER_VERONICA_ID] = {PASSIVE_SKILL_B_RENEWAL_1, PASSIVE_SKILL_B_RENEWAL_2, PASSIVE_SKILL_B_RENEWAL_3, PASSIVE_SKILL_B_RENEWAL_4},
     [CHARACTER_FJORM_ID] = {PASSIVE_SKILL_B_SHIELD_PULSE_1, PASSIVE_SKILL_B_SHIELD_PULSE_2, PASSIVE_SKILL_B_SHIELD_PULSE_3, PASSIVE_SKILL_B_SHIELD_PULSE_4},
+    [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_B_WARY_FIGHTER_1, PASSIVE_SKILL_B_WARY_FIGHTER_2, PASSIVE_SKILL_B_WARY_FIGHTER_3, PASSIVE_SKILL_B_WARY_FIGHTER_4},
+    [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_B_ATK_DEF_LINK_1, PASSIVE_SKILL_B_ATK_DEF_LINK_2, PASSIVE_SKILL_B_ATK_DEF_LINK_3, PASSIVE_SKILL_B_ATK_DEF_LINK_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -5386,6 +5498,11 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"攻撃の大紋章１", "周囲２マスの味方は、戦闘中、攻撃＋２", "Drive Atk 1", "Grants Atk+2 to allies within 2 spaces during combat."},
     {"攻撃の大紋章２", "周囲２マスの味方は、戦闘中、攻撃＋３", "Drive Atk 2", "Grants Atk+3 to allies within 2 spaces during combat."},
     {"攻撃の大紋章３", "周囲２マスの味方は、戦闘中、攻撃＋４", "Drive Atk 3", "Grants Atk+4 to allies within 2 spaces during combat."},
+    {"炎王のいかく", "ターン開始時、周囲２マス以内に敵がいる場合、自分の攻撃、速さ、守備、魔防＋４（１ターン）、かつ周囲２マス以内の敵の攻撃、速さ、守備、魔防ー４（敵の次回行動終了まで）、２０ダメージ", "Surtr's Menace", "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd/Def/Res+4 for 1 turn and inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces through their next actions, deals 20 damage."},
+    {"速さのなみ奇数１", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋２（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 1", "At start of odd-numbered turns, grants Spd+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"速さのなみ奇数２", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋４（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 2", "At start of odd-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"速さのなみ奇数３", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋６（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 3", "At start of odd-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"速さのなみ奇数４", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋８（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 4", "At start of odd-numbered turns, grants Spd+8 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -5396,6 +5513,8 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_VERONICA_ID] = {PASSIVE_SKILL_C_SAVAGE_BLOW_1, PASSIVE_SKILL_C_SAVAGE_BLOW_2, PASSIVE_SKILL_C_SAVAGE_BLOW_3, PASSIVE_SKILL_C_SAVAGE_BLOW_4},
     [CHARACTER_LOKI_ID] = {PASSIVE_SKILL_C_ODD_ATK_WAVE_1, PASSIVE_SKILL_C_ODD_ATK_WAVE_2, PASSIVE_SKILL_C_ODD_ATK_WAVE_3, PASSIVE_SKILL_C_ODD_ATK_WAVE_4},
     [CHARACTER_FJORM_ID] = {PASSIVE_SKILL_C_SPUR_ATK_1, PASSIVE_SKILL_C_DRIVE_ATK_1, PASSIVE_SKILL_C_DRIVE_ATK_2, PASSIVE_SKILL_C_DRIVE_ATK_3},
+    [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE},
+    [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_C_ODD_SPD_WAVE_1, PASSIVE_SKILL_C_ODD_SPD_WAVE_2, PASSIVE_SKILL_C_ODD_SPD_WAVE_3, PASSIVE_SKILL_C_ODD_SPD_WAVE_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
@@ -5532,6 +5651,40 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
 
     if (ABS(gBattleActor.battleSpeed - gBattleTarget.battleSpeed) < BATTLE_FOLLOWUP_SPEED_THRESHOLD)
         return 0;
+
+    switch (getUnitPassiveSkillB(&gBattleActor.unit))
+    {
+        case PASSIVE_SKILL_B_WARY_FIGHTER_1:
+            if((float)gBattleActor.unit.hp / gBattleActor.unit.maxHp >= 0.9)
+                return 0;
+        case PASSIVE_SKILL_B_WARY_FIGHTER_2:
+            if((float)gBattleActor.unit.hp / gBattleActor.unit.maxHp >= 0.7)
+                return 0;
+        case PASSIVE_SKILL_B_WARY_FIGHTER_3:
+            if((float)gBattleActor.unit.hp / gBattleActor.unit.maxHp >= 0.5)
+                return 0;
+        case PASSIVE_SKILL_B_WARY_FIGHTER_4:
+            return 0;
+        default:
+            break;
+    }
+
+    switch (getUnitPassiveSkillB(&gBattleTarget.unit))
+    {
+        case PASSIVE_SKILL_B_WARY_FIGHTER_1:
+            if((float)gBattleTarget.unit.hp / gBattleTarget.unit.maxHp >= 0.9)
+                return 0;
+        case PASSIVE_SKILL_B_WARY_FIGHTER_2:
+            if((float)gBattleTarget.unit.hp / gBattleTarget.unit.maxHp >= 0.7)
+                return 0;
+        case PASSIVE_SKILL_B_WARY_FIGHTER_3:
+            if((float)gBattleTarget.unit.hp / gBattleTarget.unit.maxHp >= 0.5)
+                return 0;
+        case PASSIVE_SKILL_B_WARY_FIGHTER_4:
+            return 0;
+        default:
+            break;
+    }
 
     if (gBattleActor.battleSpeed > gBattleTarget.battleSpeed) {
         *outAttacker = &gBattleActor;
@@ -5801,7 +5954,7 @@ extern struct Proc *gLevelUpProc;
 
 void newPopupPassiveSkillUnlocked(struct Proc *proc, struct Unit *unit)
 {
-    if(gLevelUpProc != NULL && getNewUnlockedPassiveSkillNameText(unit))
+    if(gLevelUpProc != NULL && getNewUnlockedPassiveSkillNameText(unit) && unit->side == PlayerSide && !(unit->state & UNIT_STATE_UNAVAILABLE))
     {
         newPopup(gPopupPassiveSkillUnlocked, 0x60, 0, proc);
         gLevelUpProc = NULL;

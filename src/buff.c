@@ -915,6 +915,28 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                         default:
                             break;
                     }
+
+                    switch(getUnitPassiveSkillC(&skillUnits[i]))
+                    {
+                        case PASSIVE_SKILL_C_SURTR_MENACE:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                            {
+                                targetUnits[j].hp -= 20;
+                                if(targetUnits[j].hp < 1)
+                                    targetUnits[j].hp = 1;
+                                addUnitBuffPower(&skillUnits[i], 4);
+                                addUnitBuffSpeed(&skillUnits[i], 4);
+                                addUnitBuffDefense(&skillUnits[i], 4);
+                                addUnitBuffResistance(&skillUnits[i], 4);
+                                addUnitDebuffPower(&targetUnits[j], -4);
+                                addUnitDebuffSpeed(&targetUnits[j], -4);
+                                addUnitDebuffDefense(&targetUnits[j], -4);
+                                addUnitDebuffResistance(&targetUnits[j], -4);
+                            }
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
         }
@@ -990,6 +1012,22 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
                         case PASSIVE_SKILL_C_ODD_ATK_WAVE_4:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
                                 updateUnitBuffPower(&units[i], 8);
+                            break;
+                        case PASSIVE_SKILL_C_ODD_SPD_WAVE_1:
+                            if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffSpeed(&units[i], 2);
+                            break;
+                        case PASSIVE_SKILL_C_ODD_SPD_WAVE_2:
+                            if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffSpeed(&units[i], 4);
+                            break;
+                        case PASSIVE_SKILL_C_ODD_SPD_WAVE_3:
+                            if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffSpeed(&units[i], 6);
+                            break;
+                        case PASSIVE_SKILL_C_ODD_SPD_WAVE_4:
+                            if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffSpeed(&units[i], 8);
                             break;
                         default:
                             break;

@@ -887,4 +887,6 @@ enum {
     ENEMY_SPECIAL_SKILL_LEVEL_MIXED
 };
 
+int getDistanceBetweenTwoUnits(struct Unit *unit1, struct Unit *unit2);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
