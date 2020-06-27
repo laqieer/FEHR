@@ -13,3 +13,6 @@
 [submodule "res/feh"]
 	path = res/feh
 	url = https://github.com/HertzDevil/feh-assets-json.git
+[submodule "tool/music/m4a2s"]
+	path = tool/music/m4a2s
+	url = https://github.com/laqieer/m4a2s
