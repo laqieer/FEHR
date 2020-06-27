@@ -1200,9 +1200,13 @@ void specialSkillIceMirrorEffect(struct BattleUnit* attacker, struct BattleUnit*
         case PASSIVE_SKILL_B_SHIELD_PULSE_2:
         case PASSIVE_SKILL_B_SHIELD_PULSE_3:
             damageReduced += 5;
+            if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+                damageReduced *= 3;
             break;
         case PASSIVE_SKILL_B_SHIELD_PULSE_4:
             damageReduced += 10;
+            if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+                damageReduced *= 3;
             break;
         default:
             break;
@@ -1211,10 +1215,8 @@ void specialSkillIceMirrorEffect(struct BattleUnit* attacker, struct BattleUnit*
     if(damageReduced > gBattleStats.damage)
         damageReduced = gBattleStats.damage;
 
-   if(attacker->unit.hp < damageReduced)
-        attacker->unit.hp = 0;
-    else
-        attacker->unit.hp -= damageReduced;
+    if(isInBattle())
+        defender->battleAttack += damageReduced;
 
     //if(damageReduced)
         //gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_DEVIL;
@@ -2699,9 +2701,13 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
             case PASSIVE_SKILL_B_SHIELD_PULSE_2:
             case PASSIVE_SKILL_B_SHIELD_PULSE_3:
                 gBattleStats.damage -= 5;
+                if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+                    gBattleStats.damage -= 5 * 2;
                 break;
             case PASSIVE_SKILL_B_SHIELD_PULSE_4:
                 gBattleStats.damage -= 10;
+                if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+                    gBattleStats.damage -= 10 * 2;
                 break;
             default:
                 break;
