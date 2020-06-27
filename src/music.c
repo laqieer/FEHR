@@ -36,6 +36,22 @@ extern const u8 musicFEFatesJustice[];
 extern const u8 musicFEFatesDuskFalls[];
 extern const u8 musicFEFatesDesireBelow[];
 extern const u8 musicFERadiantDawnEternalBond[];
+extern const u8 fe8_seq_009[];
+extern const u8 fe8_seq_010[];
+extern const u8 fe8_seq_011[];
+extern const u8 fe8_seq_012[];
+extern const u8 fe8_seq_013[];
+extern const u8 fe8_seq_014[];
+extern const u8 fe8_seq_017[];
+extern const u8 fe8_seq_069[];
+extern const u8 fe6_seq_010[];
+extern const u8 fe6_seq_011[];
+extern const u8 fe6_seq_012[];
+extern const u8 fe6_seq_013[];
+extern const u8 fe6_seq_014[];
+extern const u8 fe6_seq_015[];
+extern const u8 fe6_seq_016[];
+extern const u8 fe6_seq_018[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1492,6 +1508,22 @@ const struct Song songs[] = {
         [MUSIC_FE_FATES_DUSK_FALLS] = {musicFEFatesDuskFalls, 1, 1},
         [MUSIC_FE_FATES_JUSTICE_RIP] = {musicFEFatesJustice, 1, 1},
         [MUSIC_FE_RADIANT_DAWN_ETERNAL_BOND] = {musicFERadiantDawnEternalBond, 1, 1},
+        [MUSIC_FE8_MAP_PRE_8] = {fe8_seq_009, 1, 1},
+        [MUSIC_FE8_MAP_9_15_EIRIKA] = {fe8_seq_010, 1, 1},
+        [MUSIC_FE8_MAP_5_EX] = {fe8_seq_011, 1, 1},
+        [MUSIC_FE8_MAP_9_15_EPHRAIM] = {fe8_seq_012, 1, 1},
+        [MUSIC_FE8_MAP_16_20] = {fe8_seq_013, 1, 1},
+        [MUSIC_FE8_MAP_FINAL_1] = {fe8_seq_014, 1, 1},
+        [MUSIC_FE8_MAP_FINAL_2] = {fe8_seq_069, 1, 1},
+        [MUSIC_FE8_MAP_TOWER] = {fe8_seq_017, 1, 1},
+        [MUSIC_FE6_MAP_1_8] = {fe6_seq_010, 1, 1},
+        [MUSIC_FE6_MAP_10_14] = {fe6_seq_011, 1, 1},
+        [MUSIC_FE6_MAP_18_20] = {fe6_seq_012, 1, 1},
+        [MUSIC_FE6_MAP_21_23] = {fe6_seq_013, 1, 1},
+        [MUSIC_FE6_MAP_24_FINAL] = {fe6_seq_014, 1, 1},
+        [MUSIC_FE6_MAP_EX] = {fe6_seq_015, 1, 1},
+        [MUSIC_FE6_MAP_TRIAL] = {fe6_seq_016, 1, 1},
+        [MUSIC_FE6_MAP_ALLIED] = {fe6_seq_018, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1645,6 +1677,22 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_FATES_DUSK_FALLS, MUSIC_LENGTH(5, 5), 0 ,"たそがれをつれて"},
     {MUSIC_FE_FATES_JUSTICE_RIP, MUSIC_LENGTH(5, 12), 0, "正義は此処に"},
     {MUSIC_FE_RADIANT_DAWN_ETERNAL_BOND, MUSIC_LENGTH(3, 51), 0, "絆永久に"},
+    {MUSIC_FE8_MAP_PRE_8, MUSIC_LENGTH(3, 37), 0 , "遥かなる道"},
+    {MUSIC_FE8_MAP_9_15_EIRIKA, MUSIC_LENGTH(3, 6), 0, "苦境を乗り越えて"},
+    {MUSIC_FE8_MAP_5_EX, MUSIC_LENGTH(2, 57), 0, "Ｆｏｌｌｏｗ　ｍｅ！"},
+    {MUSIC_FE8_MAP_9_15_EPHRAIM, MUSIC_LENGTH(2, 38), 0, "不動なる志"},
+    {MUSIC_FE8_MAP_16_20, MUSIC_LENGTH(3, 19), 0, "	真実　絶望　そして希望"},
+    {MUSIC_FE8_MAP_FINAL_1, MUSIC_LENGTH(2, 31), 0, "約束の地"},
+    {MUSIC_FE8_MAP_FINAL_2, MUSIC_LENGTH(1, 38), 0, "最後の戦い"},
+    {MUSIC_FE8_MAP_TOWER, MUSIC_LENGTH(2, 49), 0, "古との対峙"},
+    {MUSIC_FE6_MAP_1_8, MUSIC_LENGTH(1, 14), 0, "あの空の向こうに（ロイの旅立ち）"},
+    {MUSIC_FE6_MAP_10_14, MUSIC_LENGTH(1, 49), 0, "志ひとしき者たち（ロイの戦い）"},
+    {MUSIC_FE6_MAP_18_20, MUSIC_LENGTH(2, 22), 0, "雄大なる自然の中へ（ロイの遠征）"},
+    {MUSIC_FE6_MAP_21_23, MUSIC_LENGTH(2, 32), 0, "新たなる光の下へ（ロイの勇気）"},
+    {MUSIC_FE6_MAP_24_FINAL, MUSIC_LENGTH(2, 5), 0, "「神将」をつぐ道（ロイの挑戦）"},
+    {MUSIC_FE6_MAP_EX, MUSIC_LENGTH(2, 28), 0, "人竜戦役のきずあと（ロイの畏れ）"},
+    {MUSIC_FE6_MAP_TRIAL, MUSIC_LENGTH(2, 2), 0, "「ＦＥ外伝プレイヤーマップより」"},
+    {MUSIC_FE6_MAP_ALLIED, MUSIC_LENGTH(1, 23), 0, "	むすばれた約束（ロイの友情）"},
 
     // End of table
     {-1, 0,                                              0, 0},
