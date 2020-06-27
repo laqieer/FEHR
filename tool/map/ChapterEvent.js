@@ -272,6 +272,17 @@ var ChapterEvent = {
                     }
                 }
             }
+            if(layer.name == "Fire") {
+                if(layer.isTileLayer) {
+                    for(y = 0; y < layer.height; y++) {
+                        for(x = 0; x < layer.width; x++) {
+                            if(layer.tileAt(x, y) != null) {
+                                file.writeLine("\tTrapFire(" + x + "," + y + ")");
+                            }
+                        }
+                    }
+                }
+            }
         }
         file.writeLine("END_TRAP");
 

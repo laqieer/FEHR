@@ -57,6 +57,7 @@
 #define TrapNormalBallista(x,y) BLST x, y, 0x34, 0, 0
 #define TrapIronBallista(x,y) BLST x, y, 0x35, 0, 0
 #define TrapKillerBallista(x,y) BLST x, y, 0x36, 0, 0
+#define TrapFire(x,y) FIRE x, y, 0, 1, 1
 
 // Loads units.
 #define LOU1 .word 0x30,
