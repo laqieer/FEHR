@@ -96,10 +96,10 @@ const char* const texts[] = {
         [529] = "エンブラ帝国の皇女。英雄たちを使い、アスク王国へと侵攻する。",
 
         // Veronica job name
-        [1205] = "死の皇女",
+        [TEXT_JOB_NAME_VERONICA_PRINCESS] = "死の皇女",
 
         // Veronica job description
-        [593] = "エンブラ帝国皇女。",
+        [TEXT_JOB_HELP_VERONICA_PRINCESS] = "エンブラ帝国皇女。",
 
         // character Veronica death quote
         [TEXT_DEATH_QUOTE_VERONICA] = TCC_OPEN_FAR_RIGHT

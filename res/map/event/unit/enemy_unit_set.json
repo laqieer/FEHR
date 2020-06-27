@@ -16,8 +16,8 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":74,
- "tiledversion":"1.3.4",
+ "tilecount":73,
+ "tiledversion":"1.4.1",
  "tileheight":32,
  "tiles":[
         {
@@ -228,12 +228,6 @@
          "id":34,
          "image":"enemy_units\/Hero.png",
          "imageheight":16,
-         "imagewidth":16
-        }, 
-        {
-         "id":35,
-         "image":"enemy_units\/HungLeila.png",
-         "imageheight":15,
          "imagewidth":16
         }, 
         {
@@ -466,5 +460,5 @@
         }],
  "tilewidth":30,
  "type":"tileset",
- "version":1.2
+ "version":1.4
 }
