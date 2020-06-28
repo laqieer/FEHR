@@ -34,6 +34,7 @@ MiscBasedEvents:
 	END_MAIN
 Event10:
 	ITGV Halberd
+    UnlockHiddenTreasure3Achievement
 	ENDA
 BeginningScene:
 	ClearSpecialSkillCD
