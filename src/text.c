@@ -2007,6 +2007,10 @@ const char* const texts[] = {
 
        [TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED_HELP] = "ザコ敵は全ての奥義を持っている",
 
+       [TEXT_JOB_NAME_HALBERDIER] = "ハルバーディア",
+
+       [TEXT_JOB_HELP_HALBERDIER] = "槍闘士　ソ\ルジャーが昇格する",
+
 #include "texts.txt"
 };
 

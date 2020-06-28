@@ -72,6 +72,7 @@
 #include "portrait_Freya_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
+#include "classcard_Halberdier.h"
 
 const Portrait portraitAlfonse = {
         portrait_alfonse_tilesetTiles,
@@ -1079,6 +1080,7 @@ const Portrait portraitLaevatain = {
 
 DEFINE_CLASSCARD(Lord)
 DEFINE_CLASSCARD_NEW(MageKnight)
+DEFINE_CLASSCARD_NEW(Halberdier)
 
 const Portrait* const portraits[] = {
     [0x101] = &portraitAlfonse,
@@ -1113,6 +1115,7 @@ const Portrait* const portraits[] = {
     [0x130] = &classcardLord,
     [0x140] = &portraitFjormBG,
     [CLASSCARD_MAGE_KNIGHT] = &classcardMageKnight, // 0x131
+    [CLASSCARD_HALBERDIER] = &classcardHalberdier, // 0x132
 };
 
 extern const Portrait portraitsOrig[];

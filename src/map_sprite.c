@@ -12,6 +12,8 @@
 #include "moving_sprite_Sharena.h"
 #include "standing_sprite_MageKnight.h"
 #include "moving_sprite_MageKnight.h"
+#include "standing_sprite_Halberdier.h"
+#include "moving_sprite_Halberdier.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 1, standing_sprite_AlfonseTiles} ,  
@@ -189,6 +191,8 @@ const struct StandingSprite standingSprites[] = {
     {2, 1, standing_sprite_MageKnightTiles} , // 86 Mage Knight 
 
     {0, 0, 137887124} ,  
+
+    {0, 0, standing_sprite_HalberdierTiles}, // 88 Halberdier
 
     {1, 2, 65535} ,  
 
@@ -431,6 +435,8 @@ const struct MovingSprite movingSprites[] = {
     {138260520, 138263996} ,  // 0x63 Magic Falcon Knight
 
     {moving_sprite_MageKnightTiles, 138263996} ,  // 0x64 Mage Knight
+
+    {moving_sprite_HalberdierTiles, 138263996} ,  // 0x65 Halberdier
 };
 
 const struct MovingSprite * const pMovingSprites1 = movingSprites;

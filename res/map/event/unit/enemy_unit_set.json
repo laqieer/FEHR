@@ -16,7 +16,7 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":73,
+ "tilecount":74,
  "tiledversion":"1.4.1",
  "tileheight":32,
  "tiles":[
@@ -455,6 +455,12 @@
         {
          "id":73,
          "image":"enemy_units\/VeronicaPrincess.png",
+         "imageheight":15,
+         "imagewidth":15
+        }, 
+        {
+         "id":74,
+         "image":"enemy_units\/Halberdier.png",
          "imageheight":15,
          "imagewidth":15
         }],

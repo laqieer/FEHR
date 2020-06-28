@@ -24,11 +24,11 @@
     .rodata.WyvernRiderHandAxe : {*(.rodata.WyvernRiderHandAxe)}
     . = 0x8E00008 + 0x20 * 0xac;
     .rodata.WyvernRiderBow : {*(.rodata.WyvernRiderBow)}
-    /*. = 0x8E00008 + 0x20 * 0xad;
-    .rodata.FaeDragonStone : {*(.rodata.FaeDragonStone)}
+    . = 0x8E00008 + 0x20 * 0xad;
+    .rodata.HalberdierLance : {*(.rodata.HalberdierLance)}
     . = 0x8E00008 + 0x20 * 0xae;
-    .rodata.FaeUnarmed : {*(.rodata.FaeUnarmed)}
-    . = 0x8E00008 + 0x20 * 0xaf;
+    .rodata.HalberdierUnarmed : {*(.rodata.HalberdierUnarmed)}
+    /*. = 0x8E00008 + 0x20 * 0xaf;
     .rodata.MyrrhDragonStone : {*(.rodata.MyrrhDragonStone)}
     . = 0x8E00008 + 0x20 * 0xb0;
     .rodata.MyrrhUnarmed : {*(.rodata.MyrrhUnarmed)}*/
