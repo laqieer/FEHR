@@ -4325,7 +4325,7 @@ u16 getUnitAssistSkill(struct Unit *unit)
 
 void TryAddUnitToAssistSkillTargetList(struct Unit *unit)
 {
-    if(((unit->state & UNIT_STATE_RESCUED) == 0) && ((unit->state & UNIT_STATE_DEAD) == 0) && (unitToMakeTargetList->side == unit->side))
+    if(((unit->state & UNIT_STATE_RESCUED) == 0) && isUnitAlive(unit) && (unitToMakeTargetList->side == unit->side))
         // Assist skill's condition
         if(assistSkills[getUnitAssistSkill(currentActiveUnit)].condition == NULL || assistSkills[getUnitAssistSkill(currentActiveUnit)].condition(unit))
             AddTarget(unit->positionX, unit->positionY, (unit->side << 6) + unit->number, 0);
@@ -4637,12 +4637,12 @@ void ForEachUnitInCardinalDirectionExceptCenter(int x, int y, void(*func)(struct
 
 int isAllyUnit(struct Unit *unit)
 {
-    return (unit->state & UNIT_STATE_DEAD) == 0 && unit->side == currentActiveUnit->side;
+    return isUnitAlive(unit) && unit->side == currentActiveUnit->side;
 }
 
 int isFoeUnit(struct Unit *unit)
 {
-    if (unit->state & UNIT_STATE_DEAD)
+    if (!isUnitAlive(unit))
         return 0;
 
     if(unit->side == EnemySide || unit->side == P4Side)

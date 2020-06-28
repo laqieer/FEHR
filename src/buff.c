@@ -888,11 +888,11 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
 {
     for(int i = 0; i < skillUnitNumber; i++)
     {
-        if((skillUnits[i].state & UNIT_STATE_DEAD) == 0 && getUnitPassiveSkillA(&skillUnits[i]))
+        if((skillUnits[i].state & UNIT_STATE_DEAD) == 0 && skillUnits[i].character && skillUnits[i].job && skillUnits[i].hp && getUnitPassiveSkillA(&skillUnits[i]))
         {
             for(int j = 0; j < targetUnitNumber; j++)
             {
-                if((targetUnits[j].state & UNIT_STATE_DEAD) == 0)
+                if((targetUnits[j].state & UNIT_STATE_DEAD) == 0 && targetUnits[j].character && targetUnits[j].hp && targetUnits[j].job)
                 {
                     switch(getUnitPassiveSkillA(&skillUnits[i]))
                     {
@@ -971,11 +971,11 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
 {
     for(int i = 0; i < number; i++)
     {
-        if((units[i].state & UNIT_STATE_DEAD) == 0)
+        if((units[i].state & UNIT_STATE_DEAD) == 0 && units[i].character && units[i].job && units[i].hp)
         {
             for(int j = 0; j < number; j++)
             {
-                if((units[j].state & UNIT_STATE_DEAD) == 0)
+                if((units[j].state & UNIT_STATE_DEAD) == 0 && units[j].character && units[j].job  && units[j].hp)
                 {
                     u32 distance = RECT_DISTANCE(units[i].positionX, units[i].positionY, units[j].positionX, units[j].positionY);
                         
