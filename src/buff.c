@@ -1095,7 +1095,7 @@ void clearUnitsBuffAndDebuffEachTurn()
     switch (gRAMChapterData.chapterPhaseIndex >> 6)
     {
         case PlayerSide: //PlayerSide
-            if(gRAMChapterData.chapterTurnNumber == 0)
+            if(gRAMChapterData.chapterTurnNumber == 1)
                 clearBuffDebuffAndNewStateForAllUnits();
             else
                 clearBuffDebuffAndNewStateForPlayerUnits();
