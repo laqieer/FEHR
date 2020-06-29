@@ -2222,6 +2222,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_LOKI_ID] = SPECIAL_SKILL_EARTH_WATER_BALM_PLUS,
         [CHARACTER_FJORM_ID] = SPECIAL_SKILL_ICE_MIRROR,
         [CHARACTER_SURTR_ID] = SPECIAL_SKILL_BONFIRE,
+        [CHARACTER_LAEGJARN_ID] = SPECIAL_SKILL_SIRIUS,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -2981,12 +2982,36 @@ void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
 {
     switch(getUnitPassiveSkillB(&attacker->unit))
     {
+        case PASSIVE_SKILL_B_CHILL_ATK_1:
+            addUnitDebuffPower(&defender->unit, -3);
+            break;
+        case PASSIVE_SKILL_B_CHILL_ATK_2:
+            addUnitDebuffPower(&defender->unit, -5);
+            break;
+        case PASSIVE_SKILL_B_CHILL_ATK_3:
+            addUnitDebuffPower(&defender->unit, -7);
+            break;
+        case PASSIVE_SKILL_B_CHILL_ATK_4:
+            addUnitDebuffPower(&defender->unit, -10);
+            break;
         default:
             break;
     }
 
     switch(getUnitPassiveSkillB(&defender->unit))
     {
+        case PASSIVE_SKILL_B_CHILL_ATK_1:
+            addUnitDebuffPower(&attacker->unit, -3);
+            break;
+        case PASSIVE_SKILL_B_CHILL_ATK_2:
+            addUnitDebuffPower(&attacker->unit, -5);
+            break;
+        case PASSIVE_SKILL_B_CHILL_ATK_3:
+            addUnitDebuffPower(&attacker->unit, -7);
+            break;
+        case PASSIVE_SKILL_B_CHILL_ATK_4:
+            addUnitDebuffPower(&attacker->unit, -10);
+            break;
         default:
             break;
     }
@@ -4136,6 +4161,22 @@ void ComputePassiveSkillCEffectFromOthers(struct Unit *unit, u32 *args)
                 if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
                     attacker->battleDefense += 5;
             break;
+        case PASSIVE_SKILL_C_DISTANT_GUARD_1:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2 && getDistanceBetweenTwoUnits(&defender->unit, &attacker->unit) > 1)
+                attacker->battleDefense += 2;
+            break;
+        case PASSIVE_SKILL_C_DISTANT_GUARD_2:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2 && getDistanceBetweenTwoUnits(&defender->unit, &attacker->unit) > 1)
+                attacker->battleDefense += 3;
+            break;
+        case PASSIVE_SKILL_C_DISTANT_GUARD_3:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2 && getDistanceBetweenTwoUnits(&defender->unit, &attacker->unit) > 1)
+                attacker->battleDefense += 4;
+            break;
+        case PASSIVE_SKILL_C_DISTANT_GUARD_4:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2 && getDistanceBetweenTwoUnits(&defender->unit, &attacker->unit) > 1)
+                attacker->battleDefense += 5;
+            break;
         default:
             break;
     }
@@ -4212,6 +4253,38 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleAttack += 7;
                 if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
                     attacker->battleDefense += 7;
+            }
+            break;
+        case PASSIVE_SKILL_A_BLAZING_PRINCESS_1:
+            if(getUnitTotalBuffAllStats(&defender->unit) > 0)
+            {
+                attacker->battleAttack += getUnitTotalBuffAllStats(&defender->unit) * 0.2;
+                attacker->battleDefense += getUnitTotalBuffAllStats(&defender->unit) * 0.2;
+                attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit) * 0.2;
+            }
+            break;
+        case PASSIVE_SKILL_A_BLAZING_PRINCESS_2:
+            if(getUnitTotalBuffAllStats(&defender->unit) > 0)
+            {
+                attacker->battleAttack += getUnitTotalBuffAllStats(&defender->unit) * 0.5;
+                attacker->battleDefense += getUnitTotalBuffAllStats(&defender->unit) * 0.5;
+                attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit) * 0.5;
+            }
+            break;
+        case PASSIVE_SKILL_A_BLAZING_PRINCESS_3:
+            if(getUnitTotalBuffAllStats(&defender->unit) > 0)
+            {
+                attacker->battleAttack += getUnitTotalBuffAllStats(&defender->unit) * 0.8;
+                attacker->battleDefense += getUnitTotalBuffAllStats(&defender->unit) * 0.8;
+                attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit) * 0.8;
+            }
+            break;
+        case PASSIVE_SKILL_A_BLAZING_PRINCESS_4:
+            if(getUnitTotalBuffAllStats(&defender->unit) > 0)
+            {
+                attacker->battleAttack += getUnitTotalBuffAllStats(&defender->unit);
+                attacker->battleDefense += getUnitTotalBuffAllStats(&defender->unit);
+                attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit);
             }
             break;
         default:
@@ -5388,6 +5461,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"金剛のかまえ２", "敵から攻撃された時、戦闘中、守備＋４", "Steady Stance 2", "If foe initiates combat, grants Def+4 during combat."},
     {"金剛のかまえ３", "敵から攻撃された時、戦闘中、守備＋６", "Steady Stance 3", "If foe initiates combat, grants Def+6 during combat."},
     {"金剛のかまえ４", "敵から攻撃された時、戦闘中、守備＋８、かつ、敵の奥義発動カウント変動量ー１", "Steady Stance 4", "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"},
+    {"烈火の皇女１", "戦闘中、敵が受けている強化の合計値の２０％を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 1", "Adds 20% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
+    {"烈火の皇女２", "戦闘中、敵が受けている強化の合計値の５０％を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 2", "Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
+    {"烈火の皇女３", "戦闘中、敵が受けている強化の合計値の８０％を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 3", "Adds 80% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
+    {"烈火の皇女４", "戦闘中、敵が受けている強化の合計値を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 4", "Adds total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5399,6 +5476,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_FJORM_ID] = {PASSIVE_SKILL_A_ATK_DEF_BOND_1, PASSIVE_SKILL_A_ATK_DEF_BOND_2, PASSIVE_SKILL_A_ATK_DEF_BOND_3, PASSIVE_SKILL_A_ATK_DEF_BOND_4},
     [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_A_STEADY_STANCE_1, PASSIVE_SKILL_A_STEADY_STANCE_2, PASSIVE_SKILL_A_STEADY_STANCE_3, PASSIVE_SKILL_A_STEADY_STANCE_4},
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_A_FURY_1, PASSIVE_SKILL_A_FURY_2, PASSIVE_SKILL_A_FURY_3, PASSIVE_SKILL_A_FURY_4},
+    [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_A_BLAZING_PRINCESS_1, PASSIVE_SKILL_A_BLAZING_PRINCESS_2, PASSIVE_SKILL_A_BLAZING_PRINCESS_3, PASSIVE_SKILL_A_BLAZING_PRINCESS_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -5444,6 +5522,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"攻撃守備連けい２", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋４（１ターン）", "Atk/Def Link 2", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+4 to unit and target ally or unit and targeting ally for 1 turn."},
     {"攻撃守備連けい３", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋６（１ターン）", "Atk/Def Link 3", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+6 to unit and target ally or unit and targeting ally for 1 turn."},
     {"攻撃守備連けい４", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋８（１ターン）", "Atk/Def Link 4", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+8 to unit and target ally or unit and targeting ally for 1 turn."},
+    {"攻撃の封印１", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー３（敵の次回行動終了まで）", "Chill Atk 1", "At start of turn, inflicts Atk-3 on foe on the enemy team with the highest Atk through its next action."},
+    {"攻撃の封印２", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー５（敵の次回行動終了まで）", "Chill Atk 2", "At start of turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action."},
+    {"攻撃の封印３", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー７（敵の次回行動終了まで）", "Chill Atk 3", "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."},
+    {"攻撃の封印４", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー１０（敵の次回行動終了まで）", "Chill Atk 4", "At start of turn, inflicts Atk-10 on foe on the enemy team with the highest Atk through its next action."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -5454,6 +5536,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_FJORM_ID] = {PASSIVE_SKILL_B_SHIELD_PULSE_1, PASSIVE_SKILL_B_SHIELD_PULSE_2, PASSIVE_SKILL_B_SHIELD_PULSE_3, PASSIVE_SKILL_B_SHIELD_PULSE_4},
     [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_B_WARY_FIGHTER_1, PASSIVE_SKILL_B_WARY_FIGHTER_2, PASSIVE_SKILL_B_WARY_FIGHTER_3, PASSIVE_SKILL_B_WARY_FIGHTER_4},
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_B_ATK_DEF_LINK_1, PASSIVE_SKILL_B_ATK_DEF_LINK_2, PASSIVE_SKILL_B_ATK_DEF_LINK_3, PASSIVE_SKILL_B_ATK_DEF_LINK_4},
+    [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_B_CHILL_ATK_1, PASSIVE_SKILL_B_CHILL_ATK_2, PASSIVE_SKILL_B_CHILL_ATK_3, PASSIVE_SKILL_B_CHILL_ATK_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -5507,6 +5590,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"速さのなみ奇数２", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋４（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 2", "At start of odd-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
     {"速さのなみ奇数３", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋６（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 3", "At start of odd-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
     {"速さのなみ奇数４", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋８（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 4", "At start of odd-numbered turns, grants Spd+8 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
+    {"遠距離警戒１", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋２", "Distant Guard 1", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+2 during combat."},
+    {"遠距離警戒２", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋３", "Distant Guard 2", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+3 during combat."},
+    {"遠距離警戒３", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋４", "Distant Guard 3", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+4 during combat."},
+    {"遠距離警戒４", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋５", "Distant Guard 4", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+5 during combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -5519,6 +5606,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_FJORM_ID] = {PASSIVE_SKILL_C_SPUR_ATK_1, PASSIVE_SKILL_C_DRIVE_ATK_1, PASSIVE_SKILL_C_DRIVE_ATK_2, PASSIVE_SKILL_C_DRIVE_ATK_3},
     [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE},
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_C_ODD_SPD_WAVE_1, PASSIVE_SKILL_C_ODD_SPD_WAVE_2, PASSIVE_SKILL_C_ODD_SPD_WAVE_3, PASSIVE_SKILL_C_ODD_SPD_WAVE_4},
+    [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_C_DISTANT_GUARD_1, PASSIVE_SKILL_C_DISTANT_GUARD_2, PASSIVE_SKILL_C_DISTANT_GUARD_3, PASSIVE_SKILL_C_DISTANT_GUARD_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
