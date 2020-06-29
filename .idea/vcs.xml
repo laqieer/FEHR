@@ -2,7 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/res/feh" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/res/voice/se2m4a" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tool/music/m4a2s" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tool/music/mid2agb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tool/music/midi2agb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tool/music/midi2agb/cppmidi" vcs="Git" />
