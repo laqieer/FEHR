@@ -155,7 +155,7 @@ var ChapterEvent = {
             file.writeLine("\tTEX1 MID_SCENARIO_MAP_END_" + mapName);
         }
         if(scenarioText.indexOf("\"MID_SCENARIO_ENDING\"") != -1) {
-            file.writeLine("\tMUSC MUSIC_FE_H_EVENT_1");
+            file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6");
             file.writeLine("\tTEX1 MID_SCENARIO_ENDING_" + mapName);
         }
         var nextChapterId = chapterId + 1;
