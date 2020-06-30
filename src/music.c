@@ -53,6 +53,10 @@ extern const u8 fe6_seq_015[];
 extern const u8 fe6_seq_016[];
 extern const u8 fe6_seq_018[];
 extern const u8 musicFENewEmblemMysteryHolyWar[];
+extern const u8 musicFEAwakeningAndWhatIf[];
+extern const u8 musicFEAwakeningChaos[];
+extern const u8 musicFEAwakeningIdDilemma[];
+extern const u8 musicFEAwakeningIdSorrow[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1526,6 +1530,10 @@ const struct Song songs[] = {
         [MUSIC_FE6_MAP_TRIAL] = {fe6_seq_016, 1, 1},
         [MUSIC_FE6_MAP_ALLIED] = {fe6_seq_018, 1, 1},
         [MUSIC_FE_3R_HOLY_WAR] = {musicFENewEmblemMysteryHolyWar, 1, 1},
+        [MUSIC_FE_AWAKENING_CHAOS] = {musicFEAwakeningChaos, 1, 1},
+        [MUSIC_FE_AWAKENING_AND_WHAT_IF] = {musicFEAwakeningAndWhatIf, 1, 1},
+        [MUSIC_FE_AWAKENING_ID_DILEMMA] = {musicFEAwakeningIdDilemma, 1, 1},
+        [MUSIC_FE_AWAKENING_ID_SORROW] = {musicFEAwakeningIdSorrow, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1696,6 +1704,10 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE6_MAP_TRIAL, MUSIC_LENGTH(2, 2), 0, "「ＦＥ外伝プレイヤーマップより」"},
     {MUSIC_FE6_MAP_ALLIED, MUSIC_LENGTH(1, 23), 0, "むすばれた約束（ロイの友情）"},
     {MUSIC_FE_3R_HOLY_WAR, MUSIC_LENGTH(2, 23), 0, "聖戦（紋章の謎より）"},
+    {MUSIC_FE_AWAKENING_CHAOS, MUSIC_LENGTH(5, 8), 0, "混沌"},
+    {MUSIC_FE_AWAKENING_AND_WHAT_IF, MUSIC_LENGTH(3, 48), 0, "俺にそんな力が資格があると思うのか"},
+    {MUSIC_FE_AWAKENING_ID_DILEMMA, MUSIC_LENGTH(2, 42), 0, "悩"},
+    {MUSIC_FE_AWAKENING_ID_SORROW, MUSIC_LENGTH(3, 4), 0, "哀"},
 
     // End of table
     {-1, 0,                                              0, 0},
