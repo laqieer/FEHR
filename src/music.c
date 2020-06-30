@@ -52,6 +52,7 @@ extern const u8 fe6_seq_014[];
 extern const u8 fe6_seq_015[];
 extern const u8 fe6_seq_016[];
 extern const u8 fe6_seq_018[];
+extern const u8 musicFENewEmblemMysteryHolyWar[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1524,6 +1525,7 @@ const struct Song songs[] = {
         [MUSIC_FE6_MAP_EX] = {fe6_seq_015, 1, 1},
         [MUSIC_FE6_MAP_TRIAL] = {fe6_seq_016, 1, 1},
         [MUSIC_FE6_MAP_ALLIED] = {fe6_seq_018, 1, 1},
+        [MUSIC_FE_3R_HOLY_WAR] = {musicFENewEmblemMysteryHolyWar, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1692,7 +1694,8 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE6_MAP_24_FINAL, MUSIC_LENGTH(2, 5), 0, "「神将」をつぐ道（ロイの挑戦）"},
     {MUSIC_FE6_MAP_EX, MUSIC_LENGTH(2, 28), 0, "人竜戦役のきずあと（ロイの畏れ）"},
     {MUSIC_FE6_MAP_TRIAL, MUSIC_LENGTH(2, 2), 0, "「ＦＥ外伝プレイヤーマップより」"},
-    {MUSIC_FE6_MAP_ALLIED, MUSIC_LENGTH(1, 23), 0, "	むすばれた約束（ロイの友情）"},
+    {MUSIC_FE6_MAP_ALLIED, MUSIC_LENGTH(1, 23), 0, "むすばれた約束（ロイの友情）"},
+    {MUSIC_FE_3R_HOLY_WAR, MUSIC_LENGTH(2, 23), 0, "聖戦（紋章の謎より）"},
 
     // End of table
     {-1, 0,                                              0, 0},
