@@ -5590,10 +5590,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"‘¬‚³‚Ì‚È‚İŠï”‚Q", "Šï”ƒ^[ƒ“ŠJnA©•ª‚ÆüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ì‘¬‚³{‚Si‚Pƒ^[ƒ“jiüˆÍ‚Pƒ}ƒX‚É–¡•û‚ª‚¢‚È‚­‚Ä‚à©•ª‚Í‹­‰»‚³‚ê‚éj", "Odd Spd Wave 2", "At start of odd-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
     {"‘¬‚³‚Ì‚È‚İŠï”‚R", "Šï”ƒ^[ƒ“ŠJnA©•ª‚ÆüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ì‘¬‚³{‚Ui‚Pƒ^[ƒ“jiüˆÍ‚Pƒ}ƒX‚É–¡•û‚ª‚¢‚È‚­‚Ä‚à©•ª‚Í‹­‰»‚³‚ê‚éj", "Odd Spd Wave 3", "At start of odd-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
     {"‘¬‚³‚Ì‚È‚İŠï”‚S", "Šï”ƒ^[ƒ“ŠJnA©•ª‚ÆüˆÍ‚Pƒ}ƒX‚Ì–¡•û‚Ì‘¬‚³{‚Wi‚Pƒ^[ƒ“jiüˆÍ‚Pƒ}ƒX‚É–¡•û‚ª‚¢‚È‚­‚Ä‚à©•ª‚Í‹­‰»‚³‚ê‚éj", "Odd Spd Wave 4", "At start of odd-numbered turns, grants Spd+8 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
-    {"‰“‹——£Œx‰ú‚P", "üˆÍ‚Qƒ}ƒXˆÈ“à‚Ì–¡•û‚ÍA‰“‹——£‚Ì“G‚Æí“¬Aç”õA–‚–h{‚Q", "Distant Guard 1", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+2 during combat."},
-    {"‰“‹——£Œx‰ú‚Q", "üˆÍ‚Qƒ}ƒXˆÈ“à‚Ì–¡•û‚ÍA‰“‹——£‚Ì“G‚Æí“¬Aç”õA–‚–h{‚R", "Distant Guard 2", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+3 during combat."},
-    {"‰“‹——£Œx‰ú‚R", "üˆÍ‚Qƒ}ƒXˆÈ“à‚Ì–¡•û‚ÍA‰“‹——£‚Ì“G‚Æí“¬Aç”õA–‚–h{‚S", "Distant Guard 3", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+4 during combat."},
-    {"‰“‹——£Œx‰ú‚S", "üˆÍ‚Qƒ}ƒXˆÈ“à‚Ì–¡•û‚ÍA‰“‹——£‚Ì“G‚Æí“¬Aç”õA–‚–h{‚T", "Distant Guard 4", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+5 during combat."},
+    {"‰“‚«‚å—£Œx‚©‚¢‚P", "üˆÍ‚Qƒ}ƒXˆÈ“à‚Ì–¡•û‚ÍA‰“‹——£‚Ì“G‚Æí“¬Aç”õA–‚–h{‚Q", "Distant Guard 1", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+2 during combat."},
+    {"‰“‚«‚å—£Œx‚©‚¢‚Q", "üˆÍ‚Qƒ}ƒXˆÈ“à‚Ì–¡•û‚ÍA‰“‹——£‚Ì“G‚Æí“¬Aç”õA–‚–h{‚R", "Distant Guard 2", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+3 during combat."},
+    {"‰“‚«‚å—£Œx‚©‚¢‚R", "üˆÍ‚Qƒ}ƒXˆÈ“à‚Ì–¡•û‚ÍA‰“‹——£‚Ì“G‚Æí“¬Aç”õA–‚–h{‚S", "Distant Guard 3", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+4 during combat."},
+    {"‰“‚«‚å—£Œx‚©‚¢‚S", "üˆÍ‚Qƒ}ƒXˆÈ“à‚Ì–¡•û‚ÍA‰“‹——£‚Ì“G‚Æí“¬Aç”õA–‚–h{‚T", "Distant Guard 4", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+5 during combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
