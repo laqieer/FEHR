@@ -609,6 +609,7 @@ const struct Chapter chapters[0xff] = {
             DEFINE_SIMPLE_CHAPTER_NEW(93, "2.5.4)93", MUSIC_FE_3R_HOLY_WAR)
             DEFINE_SIMPLE_CHAPTER_WITH_MAP(94, "2.5.5)94", MUSIC_FE_AWAKENING_ID_PURPOSE, 41, 27)
             DEFINE_SIMPLE_CHAPTER_NEW(95, "2.6.1)95", MUSIC_FE_AWAKENING_MAIN_THEME_TITLE)
+            DEFINE_SIMPLE_CHAPTER_NEW(96, "2.6.2)96", MUSIC_FE_AWAKENING_CHAOS)
 };
 
 const struct Chapter * const pChapters1 = chapters;
