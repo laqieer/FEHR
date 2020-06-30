@@ -367,10 +367,10 @@ SECTIONS
     .rodata.pCharacters20 : {*(.rodata.pCharacters20)}
     . = 0x80a4864;
     .rodata.patch_disable_game_mode_selection : {*(.rodata.patch_disable_game_mode_selection)}
-    . = 0x80a6d94;
-    .rodata.patch_unlock_sound_room : {*(.rodata.patch_unlock_sound_room)}
     . = 0x80abda0;
     .rodata.patch_unlock_sound_room_unlock_all : {*(.rodata.patch_unlock_sound_room_unlock_all)}
+    . = 0x80abcb0;
+    .text.checkIfSoundRoomEntryUnlocked : {*(.text.checkIfSoundRoomEntryUnlocked)}
 	. = 0x80b71f4;
 	.rodata.pChapters2 : {*(.rodata.pChapters2)}
 	. = 0x80b7324;
