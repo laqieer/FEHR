@@ -57,6 +57,9 @@ extern const u8 musicFEAwakeningAndWhatIf[];
 extern const u8 musicFEAwakeningChaos[];
 extern const u8 musicFEAwakeningIdDilemma[];
 extern const u8 musicFEAwakeningIdSorrow[];
+extern const u8 musicFE776SearchVictory[];
+extern const u8 musicFE776Map1[];
+extern const u8 musicFE776Isaac[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1534,6 +1537,9 @@ const struct Song songs[] = {
         [MUSIC_FE_AWAKENING_AND_WHAT_IF] = {musicFEAwakeningAndWhatIf, 1, 1},
         [MUSIC_FE_AWAKENING_ID_DILEMMA] = {musicFEAwakeningIdDilemma, 1, 1},
         [MUSIC_FE_AWAKENING_ID_SORROW] = {musicFEAwakeningIdSorrow, 1, 1},
+        [MUSIC_FE_776_MAP_1] = {musicFE776Map1, 1, 1},
+        [MUSIC_FE_776_ISAAC] = {musicFE776Isaac, 1, 1},
+        [MUSIC_FE_776_SEARCH_VICTORY] = {musicFE776SearchVictory, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1708,6 +1714,9 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_AWAKENING_AND_WHAT_IF, MUSIC_LENGTH(3, 48), 0, "俺にそんな力が資格があると思うのか"},
     {MUSIC_FE_AWAKENING_ID_DILEMMA, MUSIC_LENGTH(2, 42), 0, "悩"},
     {MUSIC_FE_AWAKENING_ID_SORROW, MUSIC_LENGTH(3, 4), 0, "哀"},
+    {MUSIC_FE_776_MAP_1, MUSIC_LENGTH(3, 39), 0, "勝利を求めてベース"},
+    {MUSIC_FE_776_ISAAC, MUSIC_LENGTH(2, 20), 0, "イザーク"},
+    {MUSIC_FE_776_SEARCH_VICTORY, MUSIC_LENGTH(1, 41), 0, "勝利を求めてリーフ"},
 
     // End of table
     {-1, 0,                                              0, 0},
