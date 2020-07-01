@@ -16,7 +16,7 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":74,
+ "tilecount":76,
  "tiledversion":"1.4.1",
  "tileheight":32,
  "tiles":[
@@ -461,8 +461,20 @@
         {
          "id":74,
          "image":"enemy_units\/Halberdier.png",
-         "imageheight":15,
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":75,
+         "image":"enemy_units\/AxeGreatLord.png",
+         "imageheight":16,
          "imagewidth":15
+        }, 
+        {
+         "id":76,
+         "image":"enemy_units\/SwordGreatLord.png",
+         "imageheight":16,
+         "imagewidth":16
         }],
  "tilewidth":30,
  "type":"tileset",

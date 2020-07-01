@@ -100,7 +100,9 @@
 #define VeronicaPrincess UberSage
 #define MageKnight 0x64
 #define Halberdier 0x65
+#define SwordGreatLord 4
 #define LanceGreatLord 5
+#define AxeGreatLord 6
 
 // Items
 #define QuickenedPulse 0x9b
