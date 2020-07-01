@@ -5585,7 +5585,7 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"攻撃の大紋章１", "周囲２マスの味方は、戦闘中、攻撃＋２", "Drive Atk 1", "Grants Atk+2 to allies within 2 spaces during combat."},
     {"攻撃の大紋章２", "周囲２マスの味方は、戦闘中、攻撃＋３", "Drive Atk 2", "Grants Atk+3 to allies within 2 spaces during combat."},
     {"攻撃の大紋章３", "周囲２マスの味方は、戦闘中、攻撃＋４", "Drive Atk 3", "Grants Atk+4 to allies within 2 spaces during combat."},
-    {"炎王のいかく", "ターン開始時、周囲２マス以内に敵がいる場合、自分の攻撃、速さ、守備、魔防＋４（１ターン）、かつ周囲２マス以内の敵の攻撃、速さ、守備、魔防ー４（敵の次回行動終了まで）、２０ダメージ", "Surtr's Menace", "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd/Def/Res+4 for 1 turn and inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces through their next actions, deals 20 damage."},
+    {"炎王のいかく", "ターン開始時、周囲２マス以内に敵がいる場合、自分の攻撃、技、速さ、守備、魔防＋４（１ターン）、かつ周囲２マス以内の敵の攻撃、技、速さ、守備、魔防ー４（敵の次回行動終了まで）、２０ダメージ", "Surtr's Menace", "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Skl/Spd/Def/Res+4 for 1 turn and inflicts Atk/Skl/Spd/Def/Res-4 on foes within 2 spaces through their next actions, deals 20 damage."},
     {"速さのなみ奇数１", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋２（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 1", "At start of odd-numbered turns, grants Spd+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
     {"速さのなみ奇数２", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋４（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 2", "At start of odd-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
     {"速さのなみ奇数３", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋６（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 3", "At start of odd-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},

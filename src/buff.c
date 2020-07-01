@@ -930,10 +930,12 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                                 if(targetUnits[j].hp < 1)
                                     targetUnits[j].hp = 1;
                                 addUnitBuffPower(&skillUnits[i], 4);
+                                addUnitBuffSkill(&skillUnits[i], 4);
                                 addUnitBuffSpeed(&skillUnits[i], 4);
                                 addUnitBuffDefense(&skillUnits[i], 4);
                                 addUnitBuffResistance(&skillUnits[i], 4);
                                 addUnitDebuffPower(&targetUnits[j], -4);
+                                addUnitDebuffSkill(&targetUnits[j], -4);
                                 addUnitDebuffSpeed(&targetUnits[j], -4);
                                 addUnitDebuffDefense(&targetUnits[j], -4);
                                 addUnitDebuffResistance(&targetUnits[j], -4);
