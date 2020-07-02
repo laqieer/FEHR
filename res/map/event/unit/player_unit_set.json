@@ -16,8 +16,8 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":5,
- "tiledversion":"1.3.5",
+ "tilecount":6,
+ "tiledversion":"1.4.1",
  "tileheight":19,
  "tiles":[
         {
@@ -49,8 +49,14 @@
          "image":"player_units\/LanceGreatLord.png",
          "imageheight":16,
          "imagewidth":15
+        }, 
+        {
+         "id":5,
+         "image":"player_units\/Valkyrie.PNG",
+         "imageheight":19,
+         "imagewidth":15
         }],
  "tilewidth":16,
  "type":"tileset",
- "version":1.2
+ "version":1.4
 }
