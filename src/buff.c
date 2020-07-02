@@ -641,7 +641,7 @@ int GetUnitMaxHp(struct Unit* unit)
             break;
     }
 
-    return maxHp;
+    return maxHp > 0? maxHp: 0;
 }
 
 int GetUnitHp(struct Unit* unit)
@@ -657,6 +657,12 @@ int GetUnitPower(struct Unit* unit)
 
     switch(getUnitPassiveSkillA(unit))
     {
+        case PASSIVE_SKILL_A_FORTRESS_RES_1:
+        case PASSIVE_SKILL_A_FORTRESS_RES_2:
+        case PASSIVE_SKILL_A_FORTRESS_RES_3:
+        case PASSIVE_SKILL_A_FORTRESS_RES_4:
+            power -= 3;
+            break;
         case PASSIVE_SKILL_A_FURY_1:
             power += 1;
             break;
@@ -673,17 +679,20 @@ int GetUnitPower(struct Unit* unit)
             break;
     }
 
-    return power;
+    return power > 0? power: 0;
 }
 
 int GetUnitSkill(struct Unit* unit) 
 {
+    int skill;
     int item = GetUnitEquippedItem(unit);
 
     if (unit->state & UNIT_STATE_RESCUING)
-        return unit->skl / 2 + GetItemSklBonus(item) + getUnitTotalBuffSkill(unit);
+        skill = unit->skl / 2 + GetItemSklBonus(item) + getUnitTotalBuffSkill(unit);
 
-    return unit->skl + GetItemSklBonus(item) + getUnitTotalBuffSkill(unit);
+    skill = unit->skl + GetItemSklBonus(item) + getUnitTotalBuffSkill(unit);
+
+    return skill > 0? skill: 0;
 }
 
 int GetUnitSpeed(struct Unit* unit) 
@@ -726,7 +735,7 @@ int GetUnitSpeed(struct Unit* unit)
             break;
     }
 
-    return speed;
+    return speed > 0? speed: 0;
 }
 
 int GetUnitDefense(struct Unit* unit) 
@@ -751,7 +760,7 @@ int GetUnitDefense(struct Unit* unit)
             break;
     }
 
-    return defense;
+    return defense > 0? defense: 0;
 }
 
 int GetUnitResistance(struct Unit* unit) 
@@ -772,16 +781,30 @@ int GetUnitResistance(struct Unit* unit)
         case PASSIVE_SKILL_A_FURY_4:
             resistance += 4;
             break;
+        case PASSIVE_SKILL_A_FORTRESS_RES_1:
+            resistance += 3;
+            break;
+        case PASSIVE_SKILL_A_FORTRESS_RES_2:
+            resistance += 4;
+            break;
+        case PASSIVE_SKILL_A_FORTRESS_RES_3:
+            resistance += 5;
+            break;
+        case PASSIVE_SKILL_A_FORTRESS_RES_4:
+            resistance += 7;
+            break;
         default:
             break;
     }
 
-    return resistance;
+    return resistance > 0? resistance: 0;
 }
 
 int GetUnitLuck(struct Unit* unit) 
 {
-    return unit->luk + GetItemLukBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffLuck(unit);
+    int luck = unit->luk + GetItemLukBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffLuck(unit);
+
+    return luck > 0? luck: 0;
 }
 
 #pragma GCC push_options
@@ -889,8 +912,46 @@ void clearBuffDebuffAndNewStateForP4Units()
     clearNewStateForP4Units();
 }
 
+int getMinValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(struct Unit *unit))
+{
+    int minValue = 10000;
+
+    for(int i = 1; i < unitNumber; i++)
+    {
+        if(isUnitAlive(&units[i]))
+        {
+            int value = (*valueGetter)(&units[i]);
+
+            if(value < minValue)
+                minValue = value;
+        }
+    }
+
+    return minValue == 10000? 0: minValue;
+}
+
+int getMaxValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(struct Unit *unit))
+{
+    int maxValue = -10000;
+
+    for(int i = 0; i < unitNumber; i++)
+    {
+        if(isUnitAlive(&units[i]))
+        {
+            int value = (*valueGetter)(&units[i]);
+
+            if(value > maxValue)
+                maxValue = value;
+        }
+    }
+
+    return maxValue == -10000? 0: maxValue;
+}
+
 void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumber, struct Unit *targetUnits, int targetUnitNumber)
 {
+    int minDef = getMinValueInUnits(targetUnits, targetUnitNumber, GetUnitDefense);
+
     for(int i = 0; i < skillUnitNumber; i++)
     {
         if((skillUnits[i].state & UNIT_STATE_DEAD) == 0 && skillUnits[i].character && skillUnits[i].job && skillUnits[i].hp && getUnitPassiveSkillA(&skillUnits[i]))
@@ -921,8 +982,37 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                             break;
                     }
 
+                    switch(getUnitPassiveSkillB(&skillUnits[i]))
+                    {
+                        case PASSIVE_SKILL_B_CHILLING_SEAL:
+                            if(GetUnitHp(&skillUnits[i]) * 2 >= GetUnitMaxHp(&skillUnits[i]) && GetUnitDefense(&targetUnits[j]) == minDef)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -6);
+                                addUnitDebuffSpeed(&targetUnits[j], -6);
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+
                     switch(getUnitPassiveSkillC(&skillUnits[i]))
                     {
+                        case PASSIVE_SKILL_C_RES_PLOY_1:
+                            if((skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY) && GetUnitResistance(&targetUnits[j]) < GetUnitResistance(&skillUnits[i]))
+                                addUnitDebuffResistance(&targetUnits[j], -3);
+                            break;
+                        case PASSIVE_SKILL_C_RES_PLOY_2:
+                            if((skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY) && GetUnitResistance(&targetUnits[j]) < GetUnitResistance(&skillUnits[i]))
+                                addUnitDebuffResistance(&targetUnits[j], -4);
+                            break;
+                        case PASSIVE_SKILL_C_RES_PLOY_3:
+                            if((skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY) && GetUnitResistance(&targetUnits[j]) < GetUnitResistance(&skillUnits[i]))
+                                addUnitDebuffResistance(&targetUnits[j], -5);
+                            break;
+                        case PASSIVE_SKILL_C_RES_PLOY_4:
+                            if((skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY) && GetUnitResistance(&targetUnits[j]) < GetUnitResistance(&skillUnits[i]))
+                                addUnitDebuffResistance(&targetUnits[j], -7);
+                            break;
                         case PASSIVE_SKILL_C_SURTR_MENACE:
                             if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
                             {
@@ -972,6 +1062,14 @@ void updateNewStateWithPassiveSkillAForP4Units()
 {
     updateNewStateWithPassiveSkillA(playerUnits, PLAYER_TOTAL_AMOUNT, P4Units, P4_TOTAL_AMOUNT);
     updateNewStateWithPassiveSkillA(NPCUnits, NPC_TOTAL_AMOUNT, P4Units, P4_TOTAL_AMOUNT);
+}
+
+void updateNewStateWithPassiveSkillAForAllUnits()
+{
+    updateNewStateWithPassiveSkillAForPlayerUnits();
+    updateNewStateWithPassiveSkillAForEnemyUnits();
+    updateNewStateWithPassiveSkillAForNPCUnits();
+    updateNewStateWithPassiveSkillAForP4Units();
 }
 
 void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
@@ -1065,6 +1163,14 @@ void updateBuffAndDebuffWithPassiveSkillCForP4Units()
     updateBuffAndDebuffWithPassiveSkillC(P4Units, P4_TOTAL_AMOUNT);
 }
 
+void updateBuffAndDebuffWithPassiveSkillCForAllUnits()
+{
+    updateBuffAndDebuffWithPassiveSkillCForPlayerUnits();
+    updateBuffAndDebuffWithPassiveSkillCForEnemyUnits();
+    updateBuffAndDebuffWithPassiveSkillCForNPCUnits();
+    updateBuffAndDebuffWithPassiveSkillCForP4Units();
+}
+
 /*
  * Duration: 1 turn. Clear units' buff & debuff when switching phase.
  */
@@ -1103,11 +1209,17 @@ void clearUnitsBuffAndDebuffEachTurn()
     {
         case PlayerSide: //PlayerSide
             if(gRAMChapterData.chapterTurnNumber == 1)
+            {
                 clearBuffDebuffAndNewStateForAllUnits();
+                updateBuffAndDebuffWithPassiveSkillCForAllUnits();
+                updateNewStateWithPassiveSkillAForAllUnits();
+            }
             else
+            {
                 clearBuffDebuffAndNewStateForPlayerUnits();
-            updateBuffAndDebuffWithPassiveSkillCForPlayerUnits();
-            updateNewStateWithPassiveSkillAForPlayerUnits();
+                updateBuffAndDebuffWithPassiveSkillCForPlayerUnits();
+                updateNewStateWithPassiveSkillAForPlayerUnits();
+            }
             break;
         case EnemySide: //EnemySide
             clearBuffDebuffAndNewStateForEnemyUnits();

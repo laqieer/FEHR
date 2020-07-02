@@ -2223,6 +2223,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_FJORM_ID] = SPECIAL_SKILL_ICE_MIRROR,
         [CHARACTER_SURTR_ID] = SPECIAL_SKILL_BONFIRE,
         [CHARACTER_LAEGJARN_ID] = SPECIAL_SKILL_SIRIUS,
+        [CHARACTER_GUNNTHRA_ID] = SPECIAL_SKILL_GLACIES,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -5465,6 +5466,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"烈火の皇女２", "戦闘中、敵が受けている強化の合計値の５０％を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 2", "Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
     {"烈火の皇女３", "戦闘中、敵が受けている強化の合計値の８０％を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 3", "Adds 80% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
     {"烈火の皇女４", "戦闘中、敵が受けている強化の合計値を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 4", "Adds total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
+    {"魔防の城塞１", "攻撃ー３、魔防＋３", "Fortress Res 1", "Grants Res+3.Inflicts Atk-3."},
+    {"魔防の城塞２", "攻撃ー３、魔防＋４", "Fortress Res 2", "Grants Res+4.Inflicts Atk-3."},
+    {"魔防の城塞３", "攻撃ー３、魔防＋５", "Fortress Res 3", "Grants Res+5.Inflicts Atk-3."},
+    {"魔防の城塞４", "攻撃ー３、魔防＋７", "Fortress Res 4", "Grants Res+7.Inflicts Atk-3."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5477,6 +5482,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_A_STEADY_STANCE_1, PASSIVE_SKILL_A_STEADY_STANCE_2, PASSIVE_SKILL_A_STEADY_STANCE_3, PASSIVE_SKILL_A_STEADY_STANCE_4},
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_A_FURY_1, PASSIVE_SKILL_A_FURY_2, PASSIVE_SKILL_A_FURY_3, PASSIVE_SKILL_A_FURY_4},
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_A_BLAZING_PRINCESS_1, PASSIVE_SKILL_A_BLAZING_PRINCESS_2, PASSIVE_SKILL_A_BLAZING_PRINCESS_3, PASSIVE_SKILL_A_BLAZING_PRINCESS_4},
+    [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_A_FORTRESS_RES_1, PASSIVE_SKILL_A_FORTRESS_RES_2, PASSIVE_SKILL_A_FORTRESS_RES_3, PASSIVE_SKILL_A_FORTRESS_RES_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -5526,6 +5532,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"攻撃の封印２", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー５（敵の次回行動終了まで）", "Chill Atk 2", "At start of turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action."},
     {"攻撃の封印３", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー７（敵の次回行動終了まで）", "Chill Atk 3", "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."},
     {"攻撃の封印４", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー１０（敵の次回行動終了まで）", "Chill Atk 4", "At start of turn, inflicts Atk-10 on foe on the enemy team with the highest Atk through its next action."},
+    {"氷の封印", "ターン開始時、自分のＨＰが半分以上なら、敵軍内で最も守備が低い敵の攻撃、速さー６（敵の次回行動終了まで）", "Chilling Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -5537,6 +5544,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_B_WARY_FIGHTER_1, PASSIVE_SKILL_B_WARY_FIGHTER_2, PASSIVE_SKILL_B_WARY_FIGHTER_3, PASSIVE_SKILL_B_WARY_FIGHTER_4},
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_B_ATK_DEF_LINK_1, PASSIVE_SKILL_B_ATK_DEF_LINK_2, PASSIVE_SKILL_B_ATK_DEF_LINK_3, PASSIVE_SKILL_B_ATK_DEF_LINK_4},
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_B_CHILL_ATK_1, PASSIVE_SKILL_B_CHILL_ATK_2, PASSIVE_SKILL_B_CHILL_ATK_3, PASSIVE_SKILL_B_CHILL_ATK_4},
+    [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -5594,6 +5602,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"遠きょ離警かい２", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋３", "Distant Guard 2", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+3 during combat."},
     {"遠きょ離警かい３", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋４", "Distant Guard 3", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+4 during combat."},
     {"遠きょ離警かい４", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋５", "Distant Guard 4", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+5 during combat."},
+    {"魔防の謀さく１", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー３（敵の次回行動終了まで）", "Res Ploy 1", "At start of turn, inflicts Res-3 on foes in cardinal directions with Res < unit’s Res through their next actions."},
+    {"魔防の謀さく２", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー４（敵の次回行動終了まで）", "Res Ploy 2", "At start of turn, inflicts Res-4 on foes in cardinal directions with Res < unit’s Res through their next actions."},
+    {"魔防の謀さく３", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー５（敵の次回行動終了まで）", "Res Ploy 3", "At start of turn, inflicts Res-5 on foes in cardinal directions with Res < unit’s Res through their next actions."},
+    {"魔防の謀さく４", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー７（敵の次回行動終了まで）", "Res Ploy 4", "At start of turn, inflicts Res-7 on foes in cardinal directions with Res < unit’s Res through their next actions."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -5607,6 +5619,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_SURTR_ID] = {PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE, PASSIVE_SKILL_C_SURTR_MENACE},
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_C_ODD_SPD_WAVE_1, PASSIVE_SKILL_C_ODD_SPD_WAVE_2, PASSIVE_SKILL_C_ODD_SPD_WAVE_3, PASSIVE_SKILL_C_ODD_SPD_WAVE_4},
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_C_DISTANT_GUARD_1, PASSIVE_SKILL_C_DISTANT_GUARD_2, PASSIVE_SKILL_C_DISTANT_GUARD_3, PASSIVE_SKILL_C_DISTANT_GUARD_4},
+    [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_C_RES_PLOY_1, PASSIVE_SKILL_C_RES_PLOY_2, PASSIVE_SKILL_C_RES_PLOY_3, PASSIVE_SKILL_C_RES_PLOY_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

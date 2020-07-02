@@ -889,4 +889,6 @@ enum {
 
 int getDistanceBetweenTwoUnits(struct Unit *unit1, struct Unit *unit2);
 
+int isUnitAlive(struct Unit *unit);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
