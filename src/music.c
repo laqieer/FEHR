@@ -60,6 +60,10 @@ extern const u8 musicFEAwakeningIdSorrow[];
 extern const u8 musicFE776SearchVictory[];
 extern const u8 musicFE776Map1[];
 extern const u8 musicFE776Isaac[];
+extern const u8 musicFEFatesFarAway[];
+extern const u8 musicFEFatesLament[];
+extern const u8 musicFEFatesPremonition[];
+extern const u8 musicFEFatesWaterMaiden[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1540,6 +1544,10 @@ const struct Song songs[] = {
         [MUSIC_FE_776_MAP_1] = {musicFE776Map1, 1, 1},
         [MUSIC_FE_776_ISAAC] = {musicFE776Isaac, 1, 1},
         [MUSIC_FE_776_SEARCH_VICTORY] = {musicFE776SearchVictory, 1, 1},
+        [MUSIC_FE_FATES_FAR_AWAY] = {musicFEFatesFarAway, 1, 1},
+        [MUSIC_FE_FATES_LAMENT] = {musicFEFatesLament, 1, 1},
+        [MUSIC_FE_FATES_PREMONITION] = {musicFEFatesPremonition, 1, 1},
+        [MUSIC_FE_FATES_WATER_MAIDEN] = {musicFEFatesWaterMaiden, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1717,6 +1725,10 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_776_MAP_1, MUSIC_LENGTH(3, 39), 0, "勝利を求めてベース"},
     {MUSIC_FE_776_ISAAC, MUSIC_LENGTH(2, 20), 0, "イザーク"},
     {MUSIC_FE_776_SEARCH_VICTORY, MUSIC_LENGTH(1, 41), 0, "勝利を求めてリーフ"},
+    {MUSIC_FE_FATES_FAR_AWAY, MUSIC_LENGTH(42, 37), 0, "彼の背中、今は遠く"},
+    {MUSIC_FE_FATES_LAMENT, MUSIC_LENGTH(4, 18), 0, "どうこく"},
+    {MUSIC_FE_FATES_PREMONITION, MUSIC_LENGTH(4, 21), 0, "予\感"},
+    {MUSIC_FE_FATES_WATER_MAIDEN, MUSIC_LENGTH(2, 36), 0, "きっすいの乙女"},
 
     // End of table
     {-1, 0,                                              0, 0},
