@@ -240,11 +240,6 @@ chapter_titles_no_data = 0x841a6c4;
 musicPlayers = 0x86ea858;
 sWeaponTriangleRules = 0x8c03528;
 
-JobListDragon = 0x8d5fb7d;
-JobListArmour = 0x8d5fb4e;
-JobListKnight = 0x8d5fb6f;
-JobListFlier = 0x8d5fb8a;
-
 gProcScriptBeginChapter = 0x8c02bf0;
 
 sSSMasterTextBatch = 0x8d8a238;

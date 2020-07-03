@@ -257,6 +257,7 @@ struct Job
 extern const u8 JobListDragon[];
 extern const u8 JobListArmour[];
 extern const u8 JobListKnight[];
+extern const u8 JobListArmourAndKnight[];
 extern const u8 JobListFlier[];
 
 #endif //FE7_JP_STUNNING_TRIBBLE_JOB_H

@@ -3,6 +3,7 @@
 //
 
 #include "job.h"
+#include "job_id.h"
 #include "item_id.h"
 #include "text_id.h"
 #include "portrait_id.h"
@@ -361,3 +362,10 @@ const struct Job jobs[] = {
 const struct Job * const pJobs1 = jobs;
 const struct Job * const pJobs2 = jobs;
 const struct Job * const pJobs3 = jobs;
+
+const u8 JobListDragon[] = {0x46, 0x34, 0x35, 0x36, 0x37, 0};
+const u8 JobListArmour[] = {0x14, 0x16, 0x15, 0x17, 9, JOB_ID_MAGIC_ARMOUR, 0};
+const u8 JobListKnight[] = {0x2E, 0x2F, 0x30, 0x31, 0x2C, 0x2D, 0x28, 0x29, 0x2A, 0x2B, 7, JOB_ID_MAGE_KNIGHT, 0};
+const u8 JobListArmourAndKnight[] = {0x14, 0x16, 0x15, 0x17, 9, JOB_ID_MAGIC_ARMOUR, 0x2E, 0x2F, 0x30, 0x31, 0x2C, 0x2D, 0x28, 0x29, 0x2A, 0x2B, 7, JOB_ID_MAGE_KNIGHT, 0};
+const u8 JobListFlier[] = {0x32, 0x33, 0x34, 0x35, 0x36, 0x37, JOB_ID_MAGIC_FALCON, 0};
+
