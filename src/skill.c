@@ -2224,6 +2224,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_SURTR_ID] = SPECIAL_SKILL_BONFIRE,
         [CHARACTER_LAEGJARN_ID] = SPECIAL_SKILL_SIRIUS,
         [CHARACTER_GUNNTHRA_ID] = SPECIAL_SKILL_GLACIES,
+        [CHARACTER_HELBINDI_ID] = SPECIAL_SKILL_GLIMMER,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -2502,6 +2503,31 @@ void ForAllUnitsInSide(u8 side, void(*func)(struct Unit *unit, u32 *args), u32 *
     }
 }
 
+void updateAllyUnitSkillCD(struct Unit *allyUnit, struct Unit *skillUnit)
+{
+    switch (getUnitPassiveSkillC(skillUnit))
+    {
+        case PASSIVE_SKILL_C_INFANTRY_PULSE_1:
+            if(!IsUnitDragon(allyUnit) && !IsUnitArmour(allyUnit) && !IsUnitKnight(allyUnit) && !IsUnitFlier(allyUnit) && GetUnitHp(allyUnit) + 5 <= GetUnitHp(skillUnit))
+                increaseUnitSkillCD(allyUnit, 1);
+            break;
+        case PASSIVE_SKILL_C_INFANTRY_PULSE_2:
+            if(!IsUnitDragon(allyUnit) && !IsUnitArmour(allyUnit) && !IsUnitKnight(allyUnit) && !IsUnitFlier(allyUnit) && GetUnitHp(allyUnit) + 3 <= GetUnitHp(skillUnit))
+                increaseUnitSkillCD(allyUnit, 1);
+            break;
+        case PASSIVE_SKILL_C_INFANTRY_PULSE_3:
+            if(!IsUnitDragon(allyUnit) && !IsUnitArmour(allyUnit) && !IsUnitKnight(allyUnit) && !IsUnitFlier(allyUnit) && GetUnitHp(allyUnit) < GetUnitHp(skillUnit))
+                increaseUnitSkillCD(allyUnit, 1);
+            break;
+        case PASSIVE_SKILL_C_INFANTRY_PULSE_4:
+            if(!IsUnitDragon(allyUnit) && !IsUnitArmour(allyUnit) && !IsUnitKnight(allyUnit) && !IsUnitFlier(allyUnit) && allyUnit != skillUnit)
+                increaseUnitSkillCD(allyUnit, 1);
+            break;
+        default:
+            break;
+    }
+}
+
 void updateUnitSkillCD(struct Unit *unit)
 {
     switch(getUnitPassiveSkillS(unit))
@@ -2524,6 +2550,18 @@ void updateUnitSkillCD(struct Unit *unit)
         case PASSIVE_SKILL_B_SHIELD_PULSE_4:
             if(getUnitSpecialSkill(unit) && specialSkills[getUnitSpecialSkill(unit)].effectWhenDefend)
                 increaseUnitSkillCD(unit, 2);
+            break;
+        default:
+            break;
+    }
+
+    switch (getUnitPassiveSkillC(unit))
+    {
+        case PASSIVE_SKILL_C_INFANTRY_PULSE_1:
+        case PASSIVE_SKILL_C_INFANTRY_PULSE_2:
+        case PASSIVE_SKILL_C_INFANTRY_PULSE_3:
+        case PASSIVE_SKILL_C_INFANTRY_PULSE_4:
+            forAllUnitsInSide(updateAllyUnitSkillCD, unit, unit->side);
             break;
         default:
             break;
@@ -2734,6 +2772,50 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
         increaseUnitSkillCD(&attacker->unit, 1);
     if(isInBattle() && (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_SKILL_DEFEND) == 0 && (!(checkUnitStateGuard(&defender->unit))))
         increaseUnitSkillCD(&defender->unit, 1);
+
+    if(isInBattle())
+    {
+        switch(getUnitPassiveSkillA(&attacker->unit))
+        {
+            case PASSIVE_SKILL_A_HEAVY_BLADE_1:
+                if(attacker->unit.pow >= defender->unit.pow + 5)
+                    increaseUnitSkillCD(&attacker->unit, 1);
+                break;
+            case PASSIVE_SKILL_A_HEAVY_BLADE_2:
+                if(attacker->unit.pow >= defender->unit.pow + 3)
+                    increaseUnitSkillCD(&attacker->unit, 1);
+                break;
+            case PASSIVE_SKILL_A_HEAVY_BLADE_3:
+            case PASSIVE_SKILL_A_HEAVY_BLADE_4:
+                if(attacker->unit.pow > defender->unit.pow)
+                    increaseUnitSkillCD(&attacker->unit, 1);
+                break;
+            default:
+                break;
+        }
+
+        switch(getUnitPassiveSkillB(&attacker->unit))
+        {
+            case PASSIVE_SKILL_B_GUARD_1:
+                if(attacker->hpInitial == attacker->unit.maxHp)
+                    decreaseUnitSkillCD(&defender->unit, 1);
+                break;
+            case PASSIVE_SKILL_B_GUARD_2:
+                if(attacker->hpInitial >= attacker->unit.maxHp * 0.9)
+                    decreaseUnitSkillCD(&defender->unit, 1);
+                break;
+            case PASSIVE_SKILL_B_GUARD_3:
+                if(attacker->hpInitial >= attacker->unit.maxHp * 0.8)
+                    decreaseUnitSkillCD(&defender->unit, 1);
+                break;
+            case PASSIVE_SKILL_B_GUARD_4:
+                if(attacker->hpInitial >= attacker->unit.maxHp * 0.5)
+                    decreaseUnitSkillCD(&defender->unit, 1);
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 void SpecialSkillEffectBeforeBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -4288,9 +4370,26 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit);
             }
             break;
+        case PASSIVE_SKILL_A_HEAVY_BLADE_4:
+            if(attacker->unit.pow > defender->unit.pow)
+                attacker->battleAttack += 5;
+            break;
         default:
             break;
     }
+
+    switch (getUnitPassiveSkillB(&defender->unit))
+    {
+        case PASSIVE_SKILL_B_GUARD_4:
+            if(defender->hpInitial >= defender->unit.maxHp * 0.5)
+                attacker->battleAttack -= 5;
+            break;
+        default:
+            break;
+    }
+
+    if(attacker->battleAttack < 0)
+        attacker->battleAttack = 0;
 
     args[0] = attacker;
     args[1] = defender;
@@ -5470,6 +5569,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"ñÇñhÇÃèÈç«ÇQ", "çUåÇÅ[ÇRÅAñÇñhÅ{ÇS", "Fortress Res 2", "Grants Res+4.Inflicts Atk-3."},
     {"ñÇñhÇÃèÈç«ÇR", "çUåÇÅ[ÇRÅAñÇñhÅ{ÇT", "Fortress Res 3", "Grants Res+5.Inflicts Atk-3."},
     {"ñÇñhÇÃèÈç«ÇS", "çUåÇÅ[ÇRÅAñÇñhÅ{ÇV", "Fortress Res 4", "Grants Res+7.Inflicts Atk-3."},
+    {"çÑåïÇP", "çUåÇÇ™ìGÇÊÇËÇTà»è„çÇÇ¢éûÅAé©êgÇÃçUåÇÇ…ÇÊÇÈâúã`î≠ìÆÉJÉEÉìÉgïœìÆó Å{ÇP", "Heavy Blade 1", "If unitÅfs Atk >= foeÅfs Atk+5, grants Special cooldown charge +1 per unit's attack."},
+    {"çÑåïÇQ", "çUåÇÇ™ìGÇÊÇËÇRà»è„çÇÇ¢éûÅAé©êgÇÃçUåÇÇ…ÇÊÇÈâúã`î≠ìÆÉJÉEÉìÉgïœìÆó Å{ÇP", "Heavy Blade 2", "If unitÅfs Atk >= foeÅfs Atk+3, grants Special cooldown charge +1 per unit's attack."},
+    {"çÑåïÇR", "çUåÇÇ™ìGÇÊÇËÇPà»è„çÇÇ¢éûÅAé©êgÇÃçUåÇÇ…ÇÊÇÈâúã`î≠ìÆÉJÉEÉìÉgïœìÆó Å{ÇP", "Heavy Blade 3", "If unitÅfs Atk > foeÅfs Atk, grants Special cooldown charge +1 per unit's attack."},
+    {"çÑåïÇS", "çUåÇÇ™ìGÇÊÇËÇPà»è„çÇÇ¢éûÅAé©êgÇÃçUåÇÇ…ÇÊÇÈâúã`î≠ìÆÉJÉEÉìÉgïœìÆó Å{ÇPÅAÇ©Ç¬ÅAÉ_ÉÅÅ[ÉWÅ{ÇT", "Heavy Blade 4", "If unitÅfs Atk > foeÅfs Atk, grants Special cooldown charge +1 and deals +5 damage to foe per unit's attack."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5483,6 +5586,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_A_FURY_1, PASSIVE_SKILL_A_FURY_2, PASSIVE_SKILL_A_FURY_3, PASSIVE_SKILL_A_FURY_4},
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_A_BLAZING_PRINCESS_1, PASSIVE_SKILL_A_BLAZING_PRINCESS_2, PASSIVE_SKILL_A_BLAZING_PRINCESS_3, PASSIVE_SKILL_A_BLAZING_PRINCESS_4},
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_A_FORTRESS_RES_1, PASSIVE_SKILL_A_FORTRESS_RES_2, PASSIVE_SKILL_A_FORTRESS_RES_3, PASSIVE_SKILL_A_FORTRESS_RES_4},
+    [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_A_HEAVY_BLADE_1, PASSIVE_SKILL_A_HEAVY_BLADE_2, PASSIVE_SKILL_A_HEAVY_BLADE_3, PASSIVE_SKILL_A_HEAVY_BLADE_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -5533,6 +5637,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"çUåÇÇÃïïàÛÇR", "É^Å[ÉìäJénéûÅAìGåRì‡Ç≈ç≈Ç‡çUåÇÇ™çÇÇ¢ìGÇÃçUåÇÅ[ÇVÅiìGÇÃéüâÒçsìÆèIóπÇ‹Ç≈Åj", "Chill Atk 3", "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."},
     {"çUåÇÇÃïïàÛÇS", "É^Å[ÉìäJénéûÅAìGåRì‡Ç≈ç≈Ç‡çUåÇÇ™çÇÇ¢ìGÇÃçUåÇÅ[ÇPÇOÅiìGÇÃéüâÒçsìÆèIóπÇ‹Ç≈Åj", "Chill Atk 4", "At start of turn, inflicts Atk-10 on foe on the enemy team with the highest Atk through its next action."},
     {"ïXÇÃïïàÛ", "É^Å[ÉìäJénéûÅAé©ï™ÇÃÇgÇoÇ™îºï™à»è„Ç»ÇÁÅAìGåRì‡Ç≈ç≈Ç‡éÁîıÇ™í·Ç¢ìGÇÃçUåÇÅAë¨Ç≥Å[ÇUÅiìGÇÃéüâÒçsìÆèIóπÇ‹Ç≈Åj", "Chilling Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action."},
+    {"ÉLÉÉÉìÉZÉãÇP", "êÌì¨äJénéûÅAé©êgÇÃÇgÇoÇ™ÇPÇOÇOÅìÇ»ÇÁìGÇÃâúã`î≠ìÆÉJÉEÉìÉgïœìÆó Å[ÇP", "Guard 1", "At start of combat, if unit's HP = 100%, inflicts Special cooldown charge -1 on foe per attack."},
+    {"ÉLÉÉÉìÉZÉãÇQ", "êÌì¨äJénéûÅAé©êgÇÃÇgÇoÇ™ÇXÇOÅìà»è„Ç»ÇÁìGÇÃâúã`î≠ìÆÉJÉEÉìÉgïœìÆó Å[ÇP", "Guard 2", "At start of combat, if unit's HP >= 90%, inflicts Special cooldown charge -1 on foe per attack."},
+    {"ÉLÉÉÉìÉZÉãÇR", "êÌì¨äJénéûÅAé©êgÇÃÇgÇoÇ™ÇWÇOÅìà»è„Ç»ÇÁìGÇÃâúã`î≠ìÆÉJÉEÉìÉgïœìÆó Å[ÇP", "Guard 3", "At start of combat, if unit's HP >= 80%, inflicts Special cooldown charge -1 on foe per attack."},
+    {"ÉLÉÉÉìÉZÉãÇS", "êÌì¨äJénéûÅAé©êgÇÃÇgÇoÇ™îºï™à»è„Ç»ÇÁìGÇÃçUåÇÅ[ÇSÅAÇ©Ç¬ìGÇÃâúã`î≠ìÆÉJÉEÉìÉgïœìÆó Å[ÇP", "Guard 4", "At start of combat, if unit's HP >= 50%, inflicts Atk-4 on foe during combat and Special cooldown charge -1 on foe per attack."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -5545,6 +5653,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_B_ATK_DEF_LINK_1, PASSIVE_SKILL_B_ATK_DEF_LINK_2, PASSIVE_SKILL_B_ATK_DEF_LINK_3, PASSIVE_SKILL_B_ATK_DEF_LINK_4},
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_B_CHILL_ATK_1, PASSIVE_SKILL_B_CHILL_ATK_2, PASSIVE_SKILL_B_CHILL_ATK_3, PASSIVE_SKILL_B_CHILL_ATK_4},
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL},
+    [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_B_GUARD_1, PASSIVE_SKILL_B_GUARD_2, PASSIVE_SKILL_B_GUARD_3, PASSIVE_SKILL_B_GUARD_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -5606,6 +5715,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"ñÇñhÇÃñdÇ≥Ç≠ÇQ", "É^Å[ÉìäJénéûÅAè\\éöï˚å¸Ç…Ç¢ÇÈÅAé©êgÇÊÇËñÇñhÇ™ÇPà»è„í·Ç¢ìGÇÕÅAñÇñhÅ[ÇSÅiìGÇÃéüâÒçsìÆèIóπÇ‹Ç≈Åj", "Res Ploy 2", "At start of turn, inflicts Res-4 on foes in cardinal directions with Res < unitÅfs Res through their next actions."},
     {"ñÇñhÇÃñdÇ≥Ç≠ÇR", "É^Å[ÉìäJénéûÅAè\\éöï˚å¸Ç…Ç¢ÇÈÅAé©êgÇÊÇËñÇñhÇ™ÇPà»è„í·Ç¢ìGÇÕÅAñÇñhÅ[ÇTÅiìGÇÃéüâÒçsìÆèIóπÇ‹Ç≈Åj", "Res Ploy 3", "At start of turn, inflicts Res-5 on foes in cardinal directions with Res < unitÅfs Res through their next actions."},
     {"ñÇñhÇÃñdÇ≥Ç≠ÇS", "É^Å[ÉìäJénéûÅAè\\éöï˚å¸Ç…Ç¢ÇÈÅAé©êgÇÊÇËñÇñhÇ™ÇPà»è„í·Ç¢ìGÇÕÅAñÇñhÅ[ÇVÅiìGÇÃéüâÒçsìÆèIóπÇ‹Ç≈Åj", "Res Ploy 4", "At start of turn, inflicts Res-7 on foes in cardinal directions with Res < unitÅfs Res through their next actions."},
+    {"ï‡çsÇÃÇ±Ç«Ç§ÇP", "ÇPÉ^Å[Éìñ⁄äJénéûÅAÇgÇoÇ™é©ï™ÇÊÇËÇTà»è„í·Ç¢ñ°ï˚ï‡çsÇÃâúã`î≠ìÆÉJÉEÉìÉgÅ[ÇP", "Infantry Pulse 1", "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP <= unitÅfs HP-5."},
+    {"ï‡çsÇÃÇ±Ç«Ç§ÇQ", "ÇPÉ^Å[Éìñ⁄äJénéûÅAÇgÇoÇ™é©ï™ÇÊÇËÇRà»è„í·Ç¢ñ°ï˚ï‡çsÇÃâúã`î≠ìÆÉJÉEÉìÉgÅ[ÇP", "Infantry Pulse 2", "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP <= unitÅfs HP-3."},
+    {"ï‡çsÇÃÇ±Ç«Ç§ÇR", "ÇPÉ^Å[Éìñ⁄äJénéûÅAÇgÇoÇ™é©ï™ÇÊÇËÇPà»è„í·Ç¢ñ°ï˚ï‡çsÇÃâúã`î≠ìÆÉJÉEÉìÉgÅ[ÇP", "Infantry Pulse 3", "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP < unitÅfs HP."},
+    {"ï‡çsÇÃÇ±Ç«Ç§ÇS", "ÇPÉ^Å[Éìñ⁄äJénéûÅAñ°ï˚ï‡çsÇÃâúã`î≠ìÆÉJÉEÉìÉgÅ[ÇP", "Infantry Pulse 4", "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -5620,6 +5733,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_LAEVATEIN_ID] = {PASSIVE_SKILL_C_ODD_SPD_WAVE_1, PASSIVE_SKILL_C_ODD_SPD_WAVE_2, PASSIVE_SKILL_C_ODD_SPD_WAVE_3, PASSIVE_SKILL_C_ODD_SPD_WAVE_4},
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_C_DISTANT_GUARD_1, PASSIVE_SKILL_C_DISTANT_GUARD_2, PASSIVE_SKILL_C_DISTANT_GUARD_3, PASSIVE_SKILL_C_DISTANT_GUARD_4},
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_C_RES_PLOY_1, PASSIVE_SKILL_C_RES_PLOY_2, PASSIVE_SKILL_C_RES_PLOY_3, PASSIVE_SKILL_C_RES_PLOY_4},
+    [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_C_INFANTRY_PULSE_1, PASSIVE_SKILL_C_INFANTRY_PULSE_2, PASSIVE_SKILL_C_INFANTRY_PULSE_3, PASSIVE_SKILL_C_INFANTRY_PULSE_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
