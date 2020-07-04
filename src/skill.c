@@ -6059,7 +6059,7 @@ extern struct Proc *gLevelUpProc;
 
 void newPopupPassiveSkillUnlocked(struct Proc *proc, struct Unit *unit)
 {
-    if(gLevelUpProc != NULL && getNewUnlockedPassiveSkillNameText(unit) && unit->side == PlayerSide && !(unit->state & UNIT_STATE_UNAVAILABLE))
+    if(gLevelUpProc != NULL && getNewUnlockedPassiveSkillNameText(unit) && unit->side == PlayerSide && !(unit->state & UNIT_STATE_UNAVAILABLE) && ((gBattleActor.unit.side == PlayerSide && gBattleActor.unit.lv > gBattleActor.levelPrevious) || (gBattleTarget.unit.side == PlayerSide && gBattleTarget.unit.lv > gBattleTarget.levelPrevious)))
     {
         newPopup(gPopupPassiveSkillUnlocked, 0x60, 0, proc);
         gLevelUpProc = NULL;
