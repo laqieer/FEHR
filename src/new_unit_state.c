@@ -593,22 +593,22 @@ s8 IsUnitInJobList(struct Unit* unit, const u8* jobList)
 
 s8 IsUnitDragon(struct Unit* unit)
 {
-    IsUnitInJobList(unit, JobListDragon);
+    return IsUnitInJobList(unit, JobListDragon);
 }
 
 s8 IsUnitArmour(struct Unit* unit)
 {
-    IsUnitInJobList(unit, JobListArmour);
+    return IsUnitInJobList(unit, JobListArmour);
 }
 
 s8 IsUnitKnight(struct Unit* unit)
 {
-    IsUnitInJobList(unit, JobListKnight);
+    return IsUnitInJobList(unit, JobListKnight);
 }
 
 s8 IsUnitFlier(struct Unit* unit)
 {
-    IsUnitInJobList(unit, JobListFlier);
+    return IsUnitInJobList(unit, JobListFlier);
 }
 
 s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target)
