@@ -64,6 +64,12 @@ extern const u8 musicFEFatesFarAway[];
 extern const u8 musicFEFatesLament[];
 extern const u8 musicFEFatesPremonition[];
 extern const u8 musicFEFatesWaterMaiden[];
+extern const u8 musicFE4Chap1[];
+extern const u8 musicFE4Chap2[];
+extern const u8 musicFE4Chap3[];
+extern const u8 musicFE4Chap4[];
+extern const u8 musicFE4Chap6[];
+extern const u8 musicFE4Chap8[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1548,6 +1554,12 @@ const struct Song songs[] = {
         [MUSIC_FE_FATES_LAMENT] = {musicFEFatesLament, 1, 1},
         [MUSIC_FE_FATES_PREMONITION] = {musicFEFatesPremonition, 1, 1},
         [MUSIC_FE_FATES_WATER_MAIDEN] = {musicFEFatesWaterMaiden, 1, 1},
+        [MUSIC_FE4_MAP_1] = {musicFE4Chap1, 1, 1},
+        [MUSIC_FE4_MAP_2] = {musicFE4Chap2, 1, 1},
+        [MUSIC_FE4_MAP_3] = {musicFE4Chap3, 1, 1},
+        [MUSIC_FE4_MAP_4] = {musicFE4Chap4, 1, 1},
+        [MUSIC_FE4_MAP_6] = {musicFE4Chap6, 1, 1},
+        [MUSIC_FE4_MAP_8] = {musicFE4Chap8, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1729,6 +1741,12 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_FATES_LAMENT, MUSIC_LENGTH(4, 18), 0, "どうこく"},
     {MUSIC_FE_FATES_PREMONITION, MUSIC_LENGTH(4, 21), 0, "予\感"},
     {MUSIC_FE_FATES_WATER_MAIDEN, MUSIC_LENGTH(2, 36), 0, "きっすいの乙女"},
+    {MUSIC_FE4_MAP_1, MUSIC_LENGTH(2, 5), 0, "精霊の森の少女"},
+    {MUSIC_FE4_MAP_2, MUSIC_LENGTH(3, 16), 0, "アグストリアの動乱"},
+    {MUSIC_FE4_MAP_3, MUSIC_LENGTH(1, 32), 0, "獅子王エルトシャン"},
+    {MUSIC_FE4_MAP_4, MUSIC_LENGTH(3, 13), 0, "空に舞う"},
+    {MUSIC_FE4_MAP_6, MUSIC_LENGTH(2, 2), 0, "光をつぐもの"},
+    {MUSIC_FE4_MAP_8, MUSIC_LENGTH(1, 35), 0, "トラキアの竜騎士"},
 
     // End of table
     {-1, 0,                                              0, 0},
