@@ -11,8 +11,8 @@
 const int sizeofJob = sizeof(struct Job);
 
 const struct JobBattleAnimationConf SharenaAnimationConf[] = {
-        {Lance, 1, 1 + 0xe},
-        {Disarmed, 1, 1 + 0xf},
+        {Lance, 1, 1 + 0xaf},
+        {Disarmed, 1, 1 + 0xb0},
         JobBattleAnimationConfEnd
 };
 

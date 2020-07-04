@@ -1,7 +1,3 @@
-	. = 0x8E00008 + 0x20 * 0xe; /* FE8 */
-    .rodata.animationSharena : {*(.rodata.animationSharena)}
-    . = 0x8E00008 + 0x20 * 0xf; /* FE8 */
-    .rodata.animationSharenaDisarmed : {*(.rodata.animationSharenaDisarmed)}
     . = 0x8E00008 + 0x20 * 0xa2;
     .rodata.ArmourSword : {*(.rodata.ArmourSword)}
     . = 0x8E00008 + 0x20 * 0xa3;
@@ -28,10 +24,10 @@
     .rodata.HalberdierLance : {*(.rodata.HalberdierLance)}
     . = 0x8E00008 + 0x20 * 0xae;
     .rodata.HalberdierUnarmed : {*(.rodata.HalberdierUnarmed)}
-    /*. = 0x8E00008 + 0x20 * 0xaf;
-    .rodata.MyrrhDragonStone : {*(.rodata.MyrrhDragonStone)}
+    . = 0x8E00008 + 0x20 * 0xaf;
+    .rodata.EphraimFemaleLance : {*(.rodata.EphraimFemaleLance)}
     . = 0x8E00008 + 0x20 * 0xb0;
-    .rodata.MyrrhUnarmed : {*(.rodata.MyrrhUnarmed)}*/
+    .rodata.EphraimFemaleUnarmed : {*(.rodata.EphraimFemaleUnarmed)}
     . = 0x8E00008 + 0x20 * 0xb1;
     .rodata.GeneralBow : {*(.rodata.GeneralBow)}
     . = 0x8E00008 + 0x20 * 0xb2;

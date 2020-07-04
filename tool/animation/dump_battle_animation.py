@@ -35,7 +35,7 @@ def write_head(f_asm, name):
 def find_sheet_pointers(script_data: bytes):
     sheets = {}
     index = 0
-    commands = list(struct.unpack("%dI" % (len(script_data) // 4), script_data))
+    commands = list(struct.unpack("%dI" % (len(script_data) // 4), script_data[:4 * (len(script_data) // 4)]))
     it = iter(commands)
     for command in it:
         if command >> 24 == 0x86:
@@ -58,7 +58,7 @@ def dump_sheets(f_rom, f_asm, sheets: dict, name):
 def output_script(f_asm, script_data: bytes, sheets: dict, name):
     f_asm.write('\n\t.align 2\n')
     f_asm.write(name + f'Script:\n\t.word {(4 + len(script_data)) * 256}\n\t.word ')
-    commands = list(struct.unpack("%dI" % (len(script_data) // 4), script_data))
+    commands = list(struct.unpack("%dI" % (len(script_data) // 4), script_data[:4 * (len(script_data) // 4)]))
     for command in commands:
         if command in sheets:
             f_asm.write('%sSheet%d,' % (name, sheets[command]))

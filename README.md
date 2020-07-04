@@ -63,3 +63,4 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 |Wyvern Lord|HandAxe|TBA|
 |Wyvern Lord|Bow|PrincessKilvas, Spud, Blue Druid|
 |Halberdier|Lance|TBA|
+|Ephraim Lord Female|Lance|Circleseverywhere|
