@@ -58,3 +58,7 @@ const struct DeathQuote deathQuotes[] = {
 
 const struct DeathQuote * const pDeathQuotes1 = deathQuotes;
 const struct DeathQuote * const pDeathQuotes2 = deathQuotes;
+const struct DeathQuote * const pDeathQuotes3 = deathQuotes;
+const struct DeathQuote * const pDeathQuotes4 = deathQuotes;
+const struct DeathQuote * const pDeathQuotes5 = deathQuotes;
+const struct DeathQuote * const pDeathQuotes6 = deathQuotes;
