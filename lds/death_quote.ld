@@ -1,4 +1,12 @@
 . = 0x8079D20;
 .rodata.pDeathQuotes1 : {*(.rodata.pDeathQuotes1)}
+. = 0x8079D28;
+.rodata.pDeathQuotes1 : {*(.rodata.pDeathQuotes1)}
+. = 0x8079D2C;
+.rodata.pDeathQuotes1 : {*(.rodata.pDeathQuotes1)}
 . = 0x8079E84;
+.rodata.pDeathQuotes2 : {*(.rodata.pDeathQuotes2)}
+. = 0x8079E48;
+.rodata.pDeathQuotes2 : {*(.rodata.pDeathQuotes2)}
+. = 0x8079E4C;
 .rodata.pDeathQuotes2 : {*(.rodata.pDeathQuotes2)}
