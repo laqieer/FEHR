@@ -5,6 +5,7 @@
 #include "item.h"
 #include "job.h"
 #include "text_id.h"
+#include "item_icon.h"
 
 const int sizeofItem = sizeof(struct Item);
 
@@ -325,7 +326,19 @@ const struct Item items[] = {
 
 {TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_NAME, TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_HELP, TEXT_ITEM_CANNOT_USE, 157, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9D Sacred Seal: Muspellflame
 
-{TEXT_ITEM_NAME_LEIPTR, TEXT_ITEM_HELP_LEIPTR, 0, 29, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 16, 80, 8, 0, 2, 1, 600, 0, 28, 0, 0, 1} ,  // 0x9E Leiptr
+{TEXT_ITEM_NAME_LEIPTR, TEXT_ITEM_HELP_LEIPTR, 0, 0x9e, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 16, 80, 8, 0, 2, 1, 600, 0, 28, 0, 0, 1} ,  // 0x9E Leiptr
+
+{ITEM_NAME_IRON_DAGGER, ITEM_HELP_IRON_DAGGER, 0, 0x9f, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 3, 110, 3, 0, 2, 1, 15, WPN_EXP_0, ITEM_ICON_IRON_DAGGER, 0, 0, 0} ,  // 0x9F Iron Daggeer
+
+{ITEM_NAME_STEEL_DAGGER, ITEM_HELP_STEEL_DAGGER, 0, 0xa0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 5, 95, 8, 0, 2, 1, 20, WPN_EXP_0, ITEM_ICON_STEEL_DAGGER, 0, 0, 0} ,  // 0xA0 Steel Dagger
+
+{ITEM_NAME_SILVER_DAGGER, ITEM_HELP_SILVER_DAGGER, 0, 0xa1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 10, 100, 6, 0, 2, 1, 75, WPN_EXP_0, ITEM_ICON_SILVER_DAGGER, 0, 0, 0} ,  // 0xA1 Silver Dagger
+
+{ITEM_NAME_POISON_DAGGER, ITEM_HELP_POISON_DAGGER, 0, 0xa2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, JobListInfantry, 45, 5, 90, 4, 0, 2, 1, 0, WPN_EXP_0, ITEM_ICON_POISON_DAGGER, 0, 1, 0} ,  // 0xA2 Poison Dagger
+
+{ITEM_NAME_SMOKE_DAGGER, ITEM_HELP_SMOKE_DAGGER, 0, 0xa3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 9, 105, 5, 0, 2, 1, 60, WPN_EXP_0, ITEM_ICON_SMOKE_DAGGER, 0, 0, 0} ,  // 0xA3 Smoke Dagger
+
+{ITEM_NAME_ROGUE_DAGGER, ITEM_HELP_ROGUE_DAGGER, 0, 0xa4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 7, 115, 2, 0, 2, 1, 600, WPN_EXP_0, ITEM_ICON_ROGUE_DAGGER, 0, 0, 0} ,  // 0xA4 Rogue Dagger
 };
 
 const struct Item * const pItems1 = items;
@@ -522,6 +535,12 @@ const struct ItemSpellAssociation itemSpellAssociations[] = {
     {153, 2, 53, 0, 1, 0, 4, 0} ,  // 
     {89, 2, 65535, 0, 1, 0, 0, 0} ,  // 
     {0x9e, 2, 0x1b, 0, 1, 0, FLASH_COLOR_BLUE, 0} ,  // Leiptr(0x9e) - Fimbulvetr(0x1b)
+    {0x9f, 2, 2, 0, 1, 0, 0, 0} ,  // Daggers
+    {0xa0, 2, 2, 0, 1, 0, 0, 0} ,
+    {0xa1, 2, 2, 0, 1, 0, 0, 0} ,
+    {0xa2, 2, 2, 0, 1, 0, 0, 0} ,
+    {0xa3, 2, 2, 0, 1, 0, 0, 0} ,
+    {0xa4, 2, 2, 0, 1, 0, 0, 0} ,
 
     {65535, 2, 65535, 0, 1, 0, 0, 0} ,  // End of list 
 };

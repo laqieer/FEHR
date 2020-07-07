@@ -951,6 +951,8 @@ int getMaxValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(str
 void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumber, struct Unit *targetUnits, int targetUnitNumber)
 {
     int minDef = getMinValueInUnits(targetUnits, targetUnitNumber, GetUnitDefense);
+    int maxAtk = getMaxValueInUnits(targetUnits, targetUnitNumber, GetUnitPower);
+    int maxSpd = getMaxValueInUnits(targetUnits, targetUnitNumber, GetUnitSpeed);
 
     for(int i = 0; i < skillUnitNumber; i++)
     {
@@ -990,6 +992,38 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                                 addUnitDebuffPower(&targetUnits[j], -6);
                                 addUnitDebuffSpeed(&targetUnits[j], -6);
                             }
+                            break;
+                        case PASSIVE_SKILL_B_CHILL_ATK_1:
+                            if(GetUnitPower(&targetUnits[j]) == maxAtk)
+                                addUnitDebuffPower(&targetUnits[j], -3);
+                            break;
+                        case PASSIVE_SKILL_B_CHILL_ATK_2:
+                            if(GetUnitPower(&targetUnits[j]) == maxAtk)
+                                addUnitDebuffPower(&targetUnits[j], -5);
+                            break;
+                        case PASSIVE_SKILL_B_CHILL_ATK_3:
+                            if(GetUnitPower(&targetUnits[j]) == maxAtk)
+                                addUnitDebuffPower(&targetUnits[j], -7);
+                            break;
+                        case PASSIVE_SKILL_B_CHILL_ATK_4:
+                            if(GetUnitPower(&targetUnits[j]) == maxAtk)
+                                addUnitDebuffPower(&targetUnits[j], -10);
+                            break;
+                        case PASSIVE_SKILL_B_CHILL_SPD_1:
+                            if(GetUnitSpeed(&targetUnits[j]) == maxSpd)
+                                addUnitDebuffSpeed(&targetUnits[j], -3);
+                            break;
+                        case PASSIVE_SKILL_B_CHILL_SPD_2:
+                            if(GetUnitSpeed(&targetUnits[j]) == maxSpd)
+                                addUnitDebuffSpeed(&targetUnits[j], -5);
+                            break;
+                        case PASSIVE_SKILL_B_CHILL_SPD_3:
+                            if(GetUnitSpeed(&targetUnits[j]) == maxSpd)
+                                addUnitDebuffSpeed(&targetUnits[j], -7);
+                            break;
+                        case PASSIVE_SKILL_B_CHILL_SPD_4:
+                            if(GetUnitSpeed(&targetUnits[j]) == maxSpd)
+                                addUnitDebuffSpeed(&targetUnits[j], -10);
                             break;
                         default:
                             break;
@@ -1072,8 +1106,59 @@ void updateNewStateWithPassiveSkillAForAllUnits()
     updateNewStateWithPassiveSkillAForP4Units();
 }
 
+void clearJobCategoryStats(struct JobCategoryStats *stats)
+{
+    stats->numTotal = 0;
+    stats->numDragon = 0;
+    stats->numArmour = 0;
+    stats->numKnight = 0;
+    stats->numFlier = 0;
+    stats->numInfantry = 0;
+    stats->numMagic = 0;
+}
+
+void calcJobCategoryStats(struct Unit *units, int number, struct JobCategoryStats *stats)
+{
+    for(int i = 0; i < number; i++)
+    {
+        if(isUnitAlive(&units[i]))
+        {
+            stats->numTotal++;
+            if(IsUnitDragon(&units[i]))
+                stats->numDragon++;
+            if(IsUnitArmour(&units[i]))
+                stats->numArmour++;
+            if(IsUnitKnight(&units[i]))
+                stats->numKnight++;
+            if(IsUnitFlier(&units[i]))
+                stats->numFlier++;
+            if(IsUnitInfantry(&units[i]))
+                stats->numInfantry++;
+            if(IsUnitMagic(&units[i]))
+                stats->numMagic++;
+        }
+    }
+}
+
+s8 isUnitMovementTypeNoMoreThanHalf(struct Unit *unit, struct JobCategoryStats *stats)
+{
+    if(IsUnitArmour(unit))
+        return 2 * stats->numArmour <= stats->numTotal;
+    if(IsUnitKnight(unit))
+        return 2 * stats->numKnight <= stats->numTotal;
+    if(IsUnitFlier(unit))
+        return 2 * stats->numFlier <= stats->numTotal;
+    if(IsUnitInfantry(unit))
+        return 2 * stats->numInfantry <= stats->numTotal;
+}
+
 void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
 {
+    struct JobCategoryStats *stats;
+
+    clearJobCategoryStats(stats);
+    calcJobCategoryStats(units, number, stats);
+
     for(int i = 0; i < number; i++)
     {
         if((units[i].state & UNIT_STATE_DEAD) == 0 && units[i].character && units[i].job && units[i].hp)
@@ -1132,6 +1217,22 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
                             break;
                         case PASSIVE_SKILL_C_ODD_SPD_WAVE_4:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
+                                updateUnitBuffSpeed(&units[i], 8);
+                            break;
+                        case PASSIVE_SKILL_C_SPD_TACTIC_1:
+                            if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
+                                updateUnitBuffSpeed(&units[i], 2);
+                            break;
+                        case PASSIVE_SKILL_C_SPD_TACTIC_2:
+                            if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
+                                updateUnitBuffSpeed(&units[i], 4);
+                            break;
+                        case PASSIVE_SKILL_C_SPD_TACTIC_3:
+                            if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
+                                updateUnitBuffSpeed(&units[i], 6);
+                            break;
+                        case PASSIVE_SKILL_C_SPD_TACTIC_4:
+                            if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
                                 updateUnitBuffSpeed(&units[i], 8);
                             break;
                         default:

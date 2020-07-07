@@ -13,6 +13,16 @@ struct Buff {
     s8 luk;
 };
 
+struct JobCategoryStats {
+    u8 numTotal;
+    u8 numDragon;
+    u8 numArmour;
+    u8 numKnight;
+    u8 numFlier;
+    u8 numInfantry;
+    u8 numMagic;
+};
+
 u16 GetUnitEquippedItem(struct Unit* unit);
 int GetItemHpBonus(u16 item);
 int GetItemPowBonus(u16 item);

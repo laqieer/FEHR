@@ -38,8 +38,8 @@
     .rodata.FalconStaff : {*(.rodata.FalconStaff)}
     . = 0x8E00008 + 0x20 * 0xb5;
     .rodata.WyvernLordBow : {*(.rodata.WyvernLordBow)}
-    /*. = 0x8E00008 + 0x20 * 0xb6;
-    .rodata.IdunnDragonStone : {*(.rodata.IdunnDragonStone)}*/
+    . = 0x8E00008 + 0x20 * 0xb6;
+    .rodata.ThiefFemaleKnife : {*(.rodata.ThiefFemaleKnife)}
     . = 0x8E00008 + 0x20 * 0xb7; /* FE8 */
     .rodata.GeneralSword : {*(.rodata.GeneralSword)}
     . = 0x8E00008 + 0x20 * 0xb8; /* FE8 */
@@ -48,3 +48,5 @@
     .rodata.MageKnightStaff : {*(.rodata.MageKnightStaff)}
     . = 0x8E00008 + 0x20 * 0xba; /* FE8 */
     .rodata.MageKnightMagic : {*(.rodata.MageKnightMagic)}
+    . = 0x8E00008 + 0x20 * 0xbb;
+    .rodata.ThiefKnife : {*(.rodata.ThiefKnife)}

@@ -266,7 +266,7 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_NAME_YURG] = "ユルグ",
 
-        [TEXT_CHARACTER_HELP_YURG] = "氷の王国ニフルの第三王女。天真爛漫。好奇心旺盛で、色々な場所を見るのが好き。",
+        [TEXT_CHARACTER_HELP_YURG] = "氷の王国ニフルの第三王女。天真らんまん。好奇心おうせいで、色々な場所を見るのが好き。",
 
         [TEXT_CHARACTER_NAME_HELBINDI] = "ヘルビンディ",
 
@@ -2010,6 +2010,30 @@ const char* const texts[] = {
        [TEXT_JOB_NAME_HALBERDIER] = "ハルバーディア",
 
        [TEXT_JOB_HELP_HALBERDIER] = "槍闘士　ソ\ルジャーが昇格する",
+
+       [ITEM_NAME_IRON_DAGGER] = "てつの暗器",
+
+       [ITEM_HELP_IRON_DAGGER] = "戦闘後に敵の守備、魔防ー３",
+
+       [ITEM_NAME_STEEL_DAGGER] = "はがねの暗器",
+
+       [ITEM_HELP_STEEL_DAGGER] = "戦闘後に敵の守備、魔防ー５",
+
+       [ITEM_NAME_SILVER_DAGGER] = "ぎんの暗器",
+
+       [ITEM_HELP_SILVER_DAGGER] = "戦闘後に敵の守備、魔防ー７",
+
+       [ITEM_NAME_POISON_DAGGER] = "秘毒の暗器",
+
+       [ITEM_HELP_POISON_DAGGER] = "歩行特効。歩行なら、敵の守備、魔防ー６",
+
+       [ITEM_NAME_SMOKE_DAGGER] = "紫えんの暗器",
+
+       [ITEM_HELP_SMOKE_DAGGER] = "敵の周囲２マスの敵の守備、魔防ー６",
+
+       [ITEM_NAME_ROGUE_DAGGER] = "盗賊の暗器",
+
+       [ITEM_HELP_ROGUE_DAGGER] = "敵の守備、魔防ー５、自分の守備、魔防＋５",
 
 #include "texts.txt"
 };

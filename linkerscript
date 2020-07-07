@@ -37,6 +37,8 @@ BG3MapAddr = 0x2024C6C;
 BGPaletteBuffer = 0x2022860;
 OBJPaletteBuffer = 0x2022A60;
 sKeyStatusBuffer = 0x2024c78;
+DrawnIconLookupTable = 0x2026a48;
+IconGFXIDLookupTable = 0x2026d08;
 DAT_02028d6c = 0x2028d6c;
 
 playerUnits = 0x202BD4C;
@@ -118,6 +120,7 @@ Proc_Break = 0x800457D;
 Proc_Find = 0x8004585;
 func80045FC = 0x80045FD;
 GotoProcLabel = 0x80045FD;
+GetIconGfxIndex = 0x8004C6D;
 DrawIcon = 0x8004d05;
 Font_InitForUIDefault = 0x8005281;
 Font_InitForUI = 0x80052a5;
@@ -161,6 +164,7 @@ GetItemType = 0x8017665;
 GetItemAttributes = 0x8017685;
 GetItemMight = 0x80176e9;
 GetItemWeaponEffect = 0x801782d;
+IsUnitMagic = 0x80188cd;
 ClearUnitSupports = 0x8026cd1;
 ComputeBattleUnitEffectiveStatsOriginal = 0x8028e79;
 BattleUnwindOriginal = 0x8029461;
@@ -412,7 +416,8 @@ SECTIONS
     INCLUDE ../lds/patch_remove_chapter_12_special_handle_routine.ld
     INCLUDE ../lds/patch_enable_BWL_display_at_first.ld
     INCLUDE ../lds/patch_disable_suspend.ld
-    /*INCLUDE ../lds/patch_expand_icon_amount.ld*/
+    INCLUDE ../lds/item_icon.ld
+    INCLUDE ../lds/patch_expand_icon_amount.ld
 	. = 0xE007400;
 	.bss.skill : {*/skill.*(.bss.g*)}
 	.bss.buff : {*/buff.*(.bss.*)}

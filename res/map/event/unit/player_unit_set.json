@@ -16,7 +16,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":6,
+ "tilecount":7,
  "tiledversion":"1.4.1",
  "tileheight":19,
  "tiles":[
@@ -54,6 +54,12 @@
          "id":5,
          "image":"player_units\/Valkyrie.PNG",
          "imageheight":19,
+         "imagewidth":15
+        }, 
+        {
+         "id":6,
+         "image":"player_units\/Thief_F.png",
+         "imageheight":15,
          "imagewidth":15
         }],
  "tilewidth":16,

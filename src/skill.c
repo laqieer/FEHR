@@ -26,6 +26,7 @@
 #include "gba_debug_print.h"
 #include "injector.h"
 #include "fontgrp.h"
+#include "util.h"
 
 /*
  * Specials. 奥義スキル.
@@ -2225,6 +2226,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_LAEGJARN_ID] = SPECIAL_SKILL_SIRIUS,
         [CHARACTER_GUNNTHRA_ID] = SPECIAL_SKILL_GLACIES,
         [CHARACTER_HELBINDI_ID] = SPECIAL_SKILL_GLIMMER,
+        [CHARACTER_YURG_ID] = SPECIAL_SKILL_GALEFORCE,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -3065,36 +3067,38 @@ void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
 {
     switch(getUnitPassiveSkillB(&attacker->unit))
     {
-        case PASSIVE_SKILL_B_CHILL_ATK_1:
+        // 攻撃封じ
+        /*case PASSIVE_SKILL_B_SEAL_ATK_1:
             addUnitDebuffPower(&defender->unit, -3);
             break;
-        case PASSIVE_SKILL_B_CHILL_ATK_2:
+        case PASSIVE_SKILL_B_SEAL_ATK_2:
             addUnitDebuffPower(&defender->unit, -5);
             break;
-        case PASSIVE_SKILL_B_CHILL_ATK_3:
+        case PASSIVE_SKILL_B_SEAL_ATK_3:
             addUnitDebuffPower(&defender->unit, -7);
             break;
-        case PASSIVE_SKILL_B_CHILL_ATK_4:
+        case PASSIVE_SKILL_B_SEAL_ATK_4:
             addUnitDebuffPower(&defender->unit, -10);
-            break;
+            break;*/
         default:
             break;
     }
 
     switch(getUnitPassiveSkillB(&defender->unit))
     {
-        case PASSIVE_SKILL_B_CHILL_ATK_1:
+        // 攻撃封じ
+        /*case PASSIVE_SKILL_B_SEAL_ATK_1:
             addUnitDebuffPower(&attacker->unit, -3);
             break;
-        case PASSIVE_SKILL_B_CHILL_ATK_2:
+        case PASSIVE_SKILL_B_SEAL_ATK_2:
             addUnitDebuffPower(&attacker->unit, -5);
             break;
-        case PASSIVE_SKILL_B_CHILL_ATK_3:
+        case PASSIVE_SKILL_B_SEAL_ATK_3:
             addUnitDebuffPower(&attacker->unit, -7);
             break;
-        case PASSIVE_SKILL_B_CHILL_ATK_4:
+        case PASSIVE_SKILL_B_SEAL_ATK_4:
             addUnitDebuffPower(&attacker->unit, -10);
-            break;
+            break;*/
         default:
             break;
     }
@@ -3422,6 +3426,73 @@ void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit*
 	}
 }
 
+void SmokeDaggerEffect(struct Unit *unit, struct Unit *targetUnit)
+{
+    if(getDistanceBetweenTwoUnits(unit, targetUnit) == 1 || getDistanceBetweenTwoUnits(unit, targetUnit) == 2)
+    {
+        addUnitDebuffDefense(targetUnit, -6);
+        addUnitDebuffResistance(targetUnit, -6);
+    }
+}
+
+void BattleWeaponSpecialEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    switch(GetItemIndex(attacker->weapon))
+    {
+        case ITEM_IRON_DAGGER:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) == 0)
+            {
+                addUnitDebuffDefense(&defender->unit, -3);
+                addUnitDebuffResistance(&defender->unit, -3);
+            }
+            break;
+        case ITEM_STEEL_DAGGER:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) == 0)
+            {
+                addUnitDebuffDefense(&defender->unit, -5);
+                addUnitDebuffResistance(&defender->unit, -5);
+            }
+            break;
+        case ITEM_SILVER_DAGGER:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) == 0)
+            {
+                addUnitDebuffDefense(&defender->unit, -7);
+                addUnitDebuffResistance(&defender->unit, -7);
+            }
+            break;
+        case ITEM_POISON_DAGGER:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) == 0 && IsUnitInfantry(&defender->unit))
+            {
+                addUnitDebuffDefense(&defender->unit, -6);
+                addUnitDebuffResistance(&defender->unit, -6);
+            }
+            break;
+        case ITEM_SMOKE_DAGGER:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) == 0)
+            {
+                ForAllUnitsInSide(defender->unit.side, SmokeDaggerEffect, &defender->unit);
+            }
+            break;
+        case ITEM_ROGUE_DAGGER:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) == 0)
+            {
+                addUnitDebuffDefense(&defender->unit, -5);
+                addUnitDebuffResistance(&defender->unit, -5);
+                addUnitBuffDefense(&defender->unit, 5);
+                addUnitBuffResistance(&defender->unit, 5);
+            }
+            break;
+        default:
+            break;
+    }
+
+    switch(GetItemIndex(defender->weapon))
+    {
+        default:
+            break;
+    }
+}
+
 char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     char hit = 0;
@@ -3440,6 +3511,8 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
     BattleGenerateHitAttributes(attacker, defender);
     BattleGenerateHitSpecialSkill(attacker, defender);
     PassiveSkillSNoDamageEffect(attacker, defender);
+    if(isInBattle())
+        BattleWeaponSpecialEffect(attacker, defender);
     BattleGenerateHitEffects(attacker, defender);
 
     if (attacker->unit.hp == 0 || defender->unit.hp == 0) {
@@ -4036,12 +4109,32 @@ const int sizeofBattleUnit = sizeof(struct BattleUnit);
 
 void ComputeBattleUnitDefense(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if (GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE)
-        attacker->battleDefense = attacker->terrainResistance + attacker->unit.res;
-    else if (GetItemAttributes(defender->weapon) & IA_MAGIC)
-        attacker->battleDefense = attacker->terrainResistance + attacker->unit.res;
+    short defense = attacker->terrainDefense + attacker->unit.def;
+    short resistance = attacker->terrainResistance + attacker->unit.res;
+
+    if ((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+        attacker->battleDefense = resistance;
     else
-        attacker->battleDefense = attacker->terrainDefense + attacker->unit.def;
+        attacker->battleDefense = defense;
+
+    switch (getUnitPassiveSkillA(&defender->unit))
+    {
+        case PASSIVE_SKILL_A_SORCERY_BLADE_1:
+            if(isAdjacentToAnyMagicCompanion(&defender->unit) && defender->hpInitial == defender->unit.maxHp)
+                attacker->battleDefense = min(defense, resistance);
+            break;
+        case PASSIVE_SKILL_A_SORCERY_BLADE_2:
+            if(isAdjacentToAnyMagicCompanion(&defender->unit) && defender->hpInitial * 2 >= defender->unit.maxHp)
+                attacker->battleDefense = min(defense, resistance);
+            break;
+        case PASSIVE_SKILL_A_SORCERY_BLADE_3:
+        case PASSIVE_SKILL_A_SORCERY_BLADE_4:
+            if(isAdjacentToAnyMagicCompanion(&defender->unit))
+                attacker->battleDefense = min(defense, resistance);
+            break;
+        default:
+            break;
+    }
 }
 
 void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -4265,6 +4358,16 @@ void ComputePassiveSkillCEffectFromOthers(struct Unit *unit, u32 *args)
     }
 }
 
+int isAdjacentToSpecificUnitAndHasMagicRank(struct Unit *unit, struct Unit *specificUnit)
+{
+    return areTwoUnitsAdjacent(unit, specificUnit) && IsUnitMagic(unit);
+}
+
+int isAdjacentToAnyMagicCompanion(struct Unit *unit)
+{
+    return findAliveUnitInSide(isAdjacentToSpecificUnitAndHasMagicRank, unit, unit->side) != 0;
+}
+
 void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     u32 args[2];
@@ -4372,6 +4475,10 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             break;
         case PASSIVE_SKILL_A_HEAVY_BLADE_4:
             if(attacker->unit.pow > defender->unit.pow)
+                attacker->battleAttack += 5;
+            break;
+        case PASSIVE_SKILL_A_SORCERY_BLADE_4:
+            if(isAdjacentToAnyMagicCompanion(&attacker->unit))
                 attacker->battleAttack += 5;
             break;
         default:
@@ -5447,7 +5554,7 @@ const struct AssistSkill assistSkills[] = {
     {"守備魔防の応援＋", "対象の守備、魔防＋６", "Rally Def/Res+", "Grants Def/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyDefenseResistancePlusEffect},
     {"魔防の大応援＋", "対象とその周囲２マスの味方（自分は除く）の魔防＋６", "Rally Up Res+", "Grants Res+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpResistancePlusEffect},
     {"攻撃守備の応援＋", "対象の攻撃、守備＋６", "Rally Atk/Def+", "Grants Atk/Def+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefensePlusEffect},
-    {"いっかつ＋", "対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動終了時までの効果全般）。もし弱化の状態異常を受けている場合、解除後、強化に変換する", "Harsh Command+", "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.", assistSkillHarshCommandPlusCondition, assistSkillHarshCommandPlusEffect},
+    {"いっかつ＋", "対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動開始時までの効果全般）。もし弱化の状態異常を受けている場合、解除後、強化に変換する", "Harsh Command+", "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.", assistSkillHarshCommandPlusCondition, assistSkillHarshCommandPlusEffect},
     {"速さ魔防の応援＋", "対象の速さ、魔防＋６", "Rally Spd/Res+", "Grants Spd/Res+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedResistancePlusEffect},
     {"やさしいゆめ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にし、対象と、自分と対象の十\字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防＋３、かつ「周囲２マス以内の味方の隣接マスに移動可能\」を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of unit and target (excluding unit): Unit can move to a space adjacent to any ally within 2 spaces.", assistSkillGentleDreamCondition, assistSkillGentleDreamEffect},
     {"攻撃魔防の応援＋", "対象の攻撃、魔防＋６", "Rally Atk/Res+", "Grants Atk/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistancePlusEffect},
@@ -5573,6 +5680,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"剛剣２", "攻撃が敵より３以上高い時、自身の攻撃による奥義発動カウント変動量＋１", "Heavy Blade 2", "If unit’s Atk >= foe’s Atk+3, grants Special cooldown charge +1 per unit's attack."},
     {"剛剣３", "攻撃が敵より１以上高い時、自身の攻撃による奥義発動カウント変動量＋１", "Heavy Blade 3", "If unit’s Atk > foe’s Atk, grants Special cooldown charge +1 per unit's attack."},
     {"剛剣４", "攻撃が敵より１以上高い時、自身の攻撃による奥義発動カウント変動量＋１、かつ、ダメージ＋５", "Heavy Blade 4", "If unit’s Atk > foe’s Atk, grants Special cooldown charge +1 and deals +5 damage to foe per unit's attack."},
+    {"魔道の刃１", "戦闘開始時、自身のＨＰが１００％で自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 1", "At start of combat, if unit's HP = 100% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
+    {"魔道の刃２", "戦闘開始時、自身のＨＰが半分以上で自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 2", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
+    {"魔道の刃３", "戦闘開始時、自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 3", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
+    {"魔道の刃４", "戦闘開始時、自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算、かつ、ダメージ＋５", "Sorcery Blade 4", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res and deals +5 damage to foe."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5587,6 +5698,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_A_BLAZING_PRINCESS_1, PASSIVE_SKILL_A_BLAZING_PRINCESS_2, PASSIVE_SKILL_A_BLAZING_PRINCESS_3, PASSIVE_SKILL_A_BLAZING_PRINCESS_4},
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_A_FORTRESS_RES_1, PASSIVE_SKILL_A_FORTRESS_RES_2, PASSIVE_SKILL_A_FORTRESS_RES_3, PASSIVE_SKILL_A_FORTRESS_RES_4},
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_A_HEAVY_BLADE_1, PASSIVE_SKILL_A_HEAVY_BLADE_2, PASSIVE_SKILL_A_HEAVY_BLADE_3, PASSIVE_SKILL_A_HEAVY_BLADE_4},
+    [CHARACTER_YURG_ID] = {PASSIVE_SKILL_A_SORCERY_BLADE_1, PASSIVE_SKILL_A_SORCERY_BLADE_2, PASSIVE_SKILL_A_SORCERY_BLADE_3, PASSIVE_SKILL_A_SORCERY_BLADE_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -5632,15 +5744,19 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"攻撃守備連けい２", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋４（１ターン）", "Atk/Def Link 2", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+4 to unit and target ally or unit and targeting ally for 1 turn."},
     {"攻撃守備連けい３", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋６（１ターン）", "Atk/Def Link 3", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+6 to unit and target ally or unit and targeting ally for 1 turn."},
     {"攻撃守備連けい４", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋８（１ターン）", "Atk/Def Link 4", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+8 to unit and target ally or unit and targeting ally for 1 turn."},
-    {"攻撃の封印１", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー３（敵の次回行動終了まで）", "Chill Atk 1", "At start of turn, inflicts Atk-3 on foe on the enemy team with the highest Atk through its next action."},
-    {"攻撃の封印２", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー５（敵の次回行動終了まで）", "Chill Atk 2", "At start of turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action."},
-    {"攻撃の封印３", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー７（敵の次回行動終了まで）", "Chill Atk 3", "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."},
-    {"攻撃の封印４", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー１０（敵の次回行動終了まで）", "Chill Atk 4", "At start of turn, inflicts Atk-10 on foe on the enemy team with the highest Atk through its next action."},
-    {"氷の封印", "ターン開始時、自分のＨＰが半分以上なら、敵軍内で最も守備が低い敵の攻撃、速さー６（敵の次回行動終了まで）", "Chilling Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action."},
+    {"攻撃の封印１", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー３", "Chill Atk 1", "At start of turn, inflicts Atk-3 on foe on the enemy team with the highest Atk through its next action."},
+    {"攻撃の封印２", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー５", "Chill Atk 2", "At start of turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action."},
+    {"攻撃の封印３", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー７", "Chill Atk 3", "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."},
+    {"攻撃の封印４", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー１０", "Chill Atk 4", "At start of turn, inflicts Atk-10 on foe on the enemy team with the highest Atk through its next action."},
+    {"氷の封印", "ターン開始時、自分のＨＰが半分以上なら、敵軍内で最も守備が低い敵の攻撃、速さー６", "Chilling Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action."},
     {"キャンセル１", "戦闘開始時、自身のＨＰが１００％なら敵の奥義発動カウント変動量ー１", "Guard 1", "At start of combat, if unit's HP = 100%, inflicts Special cooldown charge -1 on foe per attack."},
     {"キャンセル２", "戦闘開始時、自身のＨＰが９０％以上なら敵の奥義発動カウント変動量ー１", "Guard 2", "At start of combat, if unit's HP >= 90%, inflicts Special cooldown charge -1 on foe per attack."},
     {"キャンセル３", "戦闘開始時、自身のＨＰが８０％以上なら敵の奥義発動カウント変動量ー１", "Guard 3", "At start of combat, if unit's HP >= 80%, inflicts Special cooldown charge -1 on foe per attack."},
     {"キャンセル４", "戦闘開始時、自身のＨＰが半分以上なら敵の攻撃ー４、かつ敵の奥義発動カウント変動量ー１", "Guard 4", "At start of combat, if unit's HP >= 50%, inflicts Atk-4 on foe during combat and Special cooldown charge -1 on foe per attack."},
+    {"速さの封印１", "ターン開始時、敵軍内で最も速さが高い敵の速さー３", "Chill Spd 1", "At start of turn, inflicts Spd-3 on foe on the enemy team with the highest Spd until its next action."},
+    {"速さの封印２", "ターン開始時、敵軍内で最も速さが高い敵の速さー５", "Chill Spd 2", "At start of turn, inflicts Spd-5 on foe on the enemy team with the highest Spd until its next action."},
+    {"速さの封印３", "ターン開始時、敵軍内で最も速さが高い敵の速さー７", "Chill Spd 3", "At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd until its next action."},
+    {"速さの封印４", "ターン開始時、敵軍内で最も速さが高い敵の速さー１０", "Chill Spd 4", "At start of turn, inflicts Spd-10 on foe on the enemy team with the highest Spd until its next action."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -5654,6 +5770,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_B_CHILL_ATK_1, PASSIVE_SKILL_B_CHILL_ATK_2, PASSIVE_SKILL_B_CHILL_ATK_3, PASSIVE_SKILL_B_CHILL_ATK_4},
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL},
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_B_GUARD_1, PASSIVE_SKILL_B_GUARD_2, PASSIVE_SKILL_B_GUARD_3, PASSIVE_SKILL_B_GUARD_4},
+    [CHARACTER_YURG_ID] = {PASSIVE_SKILL_B_CHILL_SPD_1, PASSIVE_SKILL_B_CHILL_SPD_2, PASSIVE_SKILL_B_CHILL_SPD_3, PASSIVE_SKILL_B_CHILL_SPD_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -5702,7 +5819,7 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"攻撃の大紋章１", "周囲２マスの味方は、戦闘中、攻撃＋２", "Drive Atk 1", "Grants Atk+2 to allies within 2 spaces during combat."},
     {"攻撃の大紋章２", "周囲２マスの味方は、戦闘中、攻撃＋３", "Drive Atk 2", "Grants Atk+3 to allies within 2 spaces during combat."},
     {"攻撃の大紋章３", "周囲２マスの味方は、戦闘中、攻撃＋４", "Drive Atk 3", "Grants Atk+4 to allies within 2 spaces during combat."},
-    {"炎王のいかく", "ターン開始時、周囲２マス以内に敵がいる場合、自分の攻撃、技、速さ、守備、魔防＋４（１ターン）、かつ周囲２マス以内の敵の攻撃、技、速さ、守備、魔防ー４（敵の次回行動終了まで）、２０ダメージ", "Surtr's Menace", "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Skl/Spd/Def/Res+4 for 1 turn and inflicts Atk/Skl/Spd/Def/Res-4 on foes within 2 spaces through their next actions, deals 20 damage."},
+    {"炎王のいかく", "ターン開始時、周囲２マス以内に敵がいる場合、自分の攻撃、技、速さ、守備、魔防＋４（１ターン）、かつ周囲２マス以内の敵の攻撃、技、速さ、守備、魔防ー４、２０ダメージ", "Surtr's Menace", "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Skl/Spd/Def/Res+4 for 1 turn and inflicts Atk/Skl/Spd/Def/Res-4 on foes within 2 spaces through their next actions, deals 20 damage."},
     {"速さのなみ奇数１", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋２（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 1", "At start of odd-numbered turns, grants Spd+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
     {"速さのなみ奇数２", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋４（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 2", "At start of odd-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
     {"速さのなみ奇数３", "奇数ターン開始時、自分と周囲１マスの味方の速さ＋６（１ターン）（周囲１マスに味方がいなくても自分は強化される）", "Odd Spd Wave 3", "At start of odd-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"},
@@ -5711,14 +5828,18 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"遠きょ離警かい２", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋３", "Distant Guard 2", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+3 during combat."},
     {"遠きょ離警かい３", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋４", "Distant Guard 3", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+4 during combat."},
     {"遠きょ離警かい４", "周囲２マス以内の味方は、遠距離の敵と戦闘時、守備、魔防＋５", "Distant Guard 4", "Allies within 2 spaces gain: If foe uses bow,dagger, magic, or staff, grants Def/Res+5 during combat."},
-    {"魔防の謀さく１", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー３（敵の次回行動終了まで）", "Res Ploy 1", "At start of turn, inflicts Res-3 on foes in cardinal directions with Res < unit’s Res through their next actions."},
-    {"魔防の謀さく２", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー４（敵の次回行動終了まで）", "Res Ploy 2", "At start of turn, inflicts Res-4 on foes in cardinal directions with Res < unit’s Res through their next actions."},
-    {"魔防の謀さく３", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー５（敵の次回行動終了まで）", "Res Ploy 3", "At start of turn, inflicts Res-5 on foes in cardinal directions with Res < unit’s Res through their next actions."},
-    {"魔防の謀さく４", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー７（敵の次回行動終了まで）", "Res Ploy 4", "At start of turn, inflicts Res-7 on foes in cardinal directions with Res < unit’s Res through their next actions."},
+    {"魔防の謀さく１", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー３", "Res Ploy 1", "At start of turn, inflicts Res-3 on foes in cardinal directions with Res < unit’s Res through their next actions."},
+    {"魔防の謀さく２", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー４", "Res Ploy 2", "At start of turn, inflicts Res-4 on foes in cardinal directions with Res < unit’s Res through their next actions."},
+    {"魔防の謀さく３", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー５", "Res Ploy 3", "At start of turn, inflicts Res-5 on foes in cardinal directions with Res < unit’s Res through their next actions."},
+    {"魔防の謀さく４", "ターン開始時、十\字方向にいる、自身より魔防が１以上低い敵は、魔防ー７", "Res Ploy 4", "At start of turn, inflicts Res-7 on foes in cardinal directions with Res < unit’s Res through their next actions."},
     {"歩行のこどう１", "１ターン目開始時、ＨＰが自分より５以上低い味方歩行の奥義発動カウントー１", "Infantry Pulse 1", "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP <= unit’s HP-5."},
     {"歩行のこどう２", "１ターン目開始時、ＨＰが自分より３以上低い味方歩行の奥義発動カウントー１", "Infantry Pulse 2", "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP <= unit’s HP-3."},
     {"歩行のこどう３", "１ターン目開始時、ＨＰが自分より１以上低い味方歩行の奥義発動カウントー１", "Infantry Pulse 3", "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP < unit’s HP."},
     {"歩行のこどう４", "１ターン目開始時、味方歩行の奥義発動カウントー１", "Infantry Pulse 4", "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team."},
+    {"速さの指揮１", "ターン開始時、周囲２マスの味方の速さ＋２（１ターン）ただし、現在の部隊内で、同じ移動タイプが２体以下の味方のみが対象", "Spd Tactic 1", "At start of turn, grants Spd+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= half."},
+    {"速さの指揮２", "ターン開始時、周囲２マスの味方の速さ＋４（１ターン）ただし、現在の部隊内で、同じ移動タイプが２体以下の味方のみが対象", "Spd Tactic 2", "At start of turn, grants Spd+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= half."},
+    {"速さの指揮３", "ターン開始時、周囲２マスの味方の速さ＋６（１ターン）ただし、現在の部隊内で、同じ移動タイプが２体以下の味方のみが対象", "Spd Tactic 3", "At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= half."},
+    {"速さの指揮４", "ターン開始時、周囲２マスの味方の速さ＋８（１ターン）ただし、現在の部隊内で、同じ移動タイプが２体以下の味方のみが対象", "Spd Tactic 4", "At start of turn, grants Spd+8 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= half."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -5734,6 +5855,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_LAEGJARN_ID] = {PASSIVE_SKILL_C_DISTANT_GUARD_1, PASSIVE_SKILL_C_DISTANT_GUARD_2, PASSIVE_SKILL_C_DISTANT_GUARD_3, PASSIVE_SKILL_C_DISTANT_GUARD_4},
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_C_RES_PLOY_1, PASSIVE_SKILL_C_RES_PLOY_2, PASSIVE_SKILL_C_RES_PLOY_3, PASSIVE_SKILL_C_RES_PLOY_4},
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_C_INFANTRY_PULSE_1, PASSIVE_SKILL_C_INFANTRY_PULSE_2, PASSIVE_SKILL_C_INFANTRY_PULSE_3, PASSIVE_SKILL_C_INFANTRY_PULSE_4},
+    [CHARACTER_YURG_ID] = {PASSIVE_SKILL_C_SPD_TACTIC_1, PASSIVE_SKILL_C_SPD_TACTIC_2, PASSIVE_SKILL_C_SPD_TACTIC_3, PASSIVE_SKILL_C_SPD_TACTIC_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

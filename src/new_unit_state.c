@@ -611,6 +611,11 @@ s8 IsUnitFlier(struct Unit* unit)
     return IsUnitInJobList(unit, JobListFlier);
 }
 
+s8 IsUnitInfantry(struct Unit* unit)
+{
+    return IsUnitInJobList(unit, JobListInfantry);
+}
+
 s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target)
 {
     // effect of unit state Effective against dragons & Dragon Shield

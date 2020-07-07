@@ -28,8 +28,6 @@
 .text.InitTextsInjectorInjector : {*(.text.InitTextsInjectorInjector)}
 . = 0x80294d8;
 .text.BattleGetBattleUnitOrderInjector : {*(.text.BattleGetBattleUnitOrderInjector)}
-. = 0x80C12F4 + 0x80 * 0xAD;
-.rodata.new_item_icons : {*/new_item_icons.*(.rodata)}
 /*. = 0x8028868;
 .text.BattleGenerateRealInjector : {*(.text.BattleGenerateRealInjector)}
 . = 0x802889c;

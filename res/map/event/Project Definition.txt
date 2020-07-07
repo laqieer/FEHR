@@ -34,6 +34,7 @@
 #define Surtr Wallace
 #define Srasir Erk
 #define Yurg Nino
+#define Ylgr Nino
 #define Hell Nergal
 #define Gustaf Elbert
 #define Mirabilis Florina
@@ -109,5 +110,11 @@
 #define EmblaWard 0x9c
 #define Muspellflame 0x9d
 #define Leiptr 0x9e
+#define IronDagger 0x9f
+#define SteelDagger 0xa0
+#define SilverDagger 0xa1
+#define PoisonDagger 0xa2
+#define SmokeDagger 0xa3
+#define RogueDagger 0xa4
 
 #endif

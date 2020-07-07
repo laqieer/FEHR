@@ -47,7 +47,7 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 
 ## Credit
 
-### Animation
+### Battle Animation
 
 |Class|Equipment|Credit|
 |---|---|---|
@@ -64,3 +64,13 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 |Wyvern Lord|Bow|PrincessKilvas, Spud, Blue Druid|
 |Halberdier|Lance|TBA|
 |Ephraim Lord Female|Lance|Circleseverywhere|
+|Thief|Dagger|GabrielKnight, Skitty|
+|Thief Female|Dagger|Pikmin1211, Maiser6, Skitty, GabrielKnight|
+
+### Item Icon
+
+|Icon|Credit|
+|---|---|
+|Iron Dagger, Steel Dagger, Silver Dagger|FEier|
+|Poison Dagger, Smoke Dagger, Rogue Dagger|Ereshkigal|
+

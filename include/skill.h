@@ -10,6 +10,7 @@
 #include "item.h"
 #include "fontgrp.h"
 #include "proc.h"
+#include "item_icon.h"
 
 enum {
     // Battle-related magic constants
@@ -580,14 +581,6 @@ enum {
     ICON_DRAGON_SHIELD,
     ICON_SVALINN_SHIELD,
 };
-
-#define PASSIVE_SKILL_A_ICON 0xAD
-#define PASSIVE_SKILL_B_ICON 0xAE
-#define PASSIVE_SKILL_C_ICON 0xAF
-//#define PASSIVE_SKILL_S_ICON 0xB0
-//0xB0 exceeds item icon amount limit, use item Emblem Seal's icon instead.
-//TODO: fix item icon amount limit expansion patch
-#define PASSIVE_SKILL_S_ICON ITEM_EMBLEM_SEAL_ICON
 
 enum
 {
