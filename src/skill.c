@@ -3430,8 +3430,8 @@ void SmokeDaggerEffect(struct Unit *unit, struct Unit *targetUnit)
 {
     if(getDistanceBetweenTwoUnits(unit, targetUnit) == 1 || getDistanceBetweenTwoUnits(unit, targetUnit) == 2)
     {
-        addUnitDebuffDefense(targetUnit, -6);
-        addUnitDebuffResistance(targetUnit, -6);
+        addUnitDebuffDefense(unit, -6);
+        addUnitDebuffResistance(unit, -6);
     }
 }
 
