@@ -329,17 +329,17 @@ const struct Item items[] = {
 
 {TEXT_ITEM_NAME_LEIPTR, TEXT_ITEM_HELP_LEIPTR, 0, 0x9e, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 16, 80, 8, 0, 2, 1, 600, 0, 28, 0, 0, 1} ,  // 0x9E Leiptr
 
-{ITEM_NAME_IRON_DAGGER, ITEM_HELP_IRON_DAGGER, 0, 0x9f, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 3, 110, 3, 0, 2, 1, 15, WPN_EXP_0, ITEM_ICON_IRON_DAGGER, 0, 0, 0} ,  // 0x9F Iron Daggeer
+{ITEM_NAME_IRON_DAGGER, ITEM_HELP_IRON_DAGGER, 0, 0x9f, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 3, 110, 3, 0, 2, 1, 15, WPN_EXP_E, ITEM_ICON_IRON_DAGGER, 0, 0, 1} ,  // 0x9F Iron Daggeer
 
-{ITEM_NAME_STEEL_DAGGER, ITEM_HELP_STEEL_DAGGER, 0, 0xa0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 5, 95, 8, 0, 2, 1, 20, WPN_EXP_0, ITEM_ICON_STEEL_DAGGER, 0, 0, 0} ,  // 0xA0 Steel Dagger
+{ITEM_NAME_STEEL_DAGGER, ITEM_HELP_STEEL_DAGGER, 0, 0xa0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 5, 95, 8, 0, 2, 1, 20, WPN_EXP_D, ITEM_ICON_STEEL_DAGGER, 0, 0, 1} ,  // 0xA0 Steel Dagger
 
-{ITEM_NAME_SILVER_DAGGER, ITEM_HELP_SILVER_DAGGER, 0, 0xa1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 10, 100, 6, 0, 2, 1, 75, WPN_EXP_0, ITEM_ICON_SILVER_DAGGER, 0, 0, 0} ,  // 0xA1 Silver Dagger
+{ITEM_NAME_SILVER_DAGGER, ITEM_HELP_SILVER_DAGGER, 0, 0xa1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 10, 100, 6, 0, 2, 1, 75, WPN_EXP_A, ITEM_ICON_SILVER_DAGGER, 0, 0, 1} ,  // 0xA1 Silver Dagger
 
-{ITEM_NAME_POISON_DAGGER, ITEM_HELP_POISON_DAGGER, 0, 0xa2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, JobListInfantry, 45, 5, 90, 4, 0, 2, 1, 0, WPN_EXP_0, ITEM_ICON_POISON_DAGGER, 0, 1, 0} ,  // 0xA2 Poison Dagger
+{ITEM_NAME_POISON_DAGGER, ITEM_HELP_POISON_DAGGER, 0, 0xa2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, JobListInfantry, 45, 5, 90, 4, 0, 2, 1, 0, WPN_EXP_C, ITEM_ICON_POISON_DAGGER, 0, 1, 1} ,  // 0xA2 Poison Dagger
 
-{ITEM_NAME_SMOKE_DAGGER, ITEM_HELP_SMOKE_DAGGER, 0, 0xa3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 9, 105, 5, 0, 2, 1, 60, WPN_EXP_0, ITEM_ICON_SMOKE_DAGGER, 0, 0, 0} ,  // 0xA3 Smoke Dagger
+{ITEM_NAME_SMOKE_DAGGER, ITEM_HELP_SMOKE_DAGGER, 0, 0xa3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 9, 105, 5, 0, 2, 1, 60, WPN_EXP_B, ITEM_ICON_SMOKE_DAGGER, 0, 0, 1} ,  // 0xA3 Smoke Dagger
 
-{ITEM_NAME_ROGUE_DAGGER, ITEM_HELP_ROGUE_DAGGER, 0, 0xa4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 7, 115, 2, 0, 2, 1, 600, WPN_EXP_0, ITEM_ICON_ROGUE_DAGGER, 0, 0, 0} ,  // 0xA4 Rogue Dagger
+{ITEM_NAME_ROGUE_DAGGER, ITEM_HELP_ROGUE_DAGGER, 0, 0xa4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 7, 115, 2, 0, 2, 1, 600, WPN_EXP_S, ITEM_ICON_ROGUE_DAGGER, 0, 0, 1} ,  // 0xA4 Rogue Dagger
 
 {ITEM_NAME_SACRED_SEAL_DEFLECT_MELEE, ITEM_HELP_SACRED_SEAL_DEFLECT_MELEE, TEXT_ITEM_CANNOT_USE, 0xa5, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xA5 Sacred Seal: Deflect Melee
 
