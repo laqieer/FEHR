@@ -22,7 +22,7 @@ event_chap_119_EN:
 	.word EndingScene
 TurnBasedEvents:
 	LoadBeginningScene
-	TurnEvent(1, LoadEnemyUnitsTurn1, 0, 0)
+	TurnEvent(1, LoadEnemyUnitsTurn1, TURN_MOMENT_ENEMY_PHASE, 0)
 	END_MAIN
 CharacterBasedEvents:
 	END_MAIN
