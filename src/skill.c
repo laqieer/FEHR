@@ -27,6 +27,7 @@
 #include "injector.h"
 #include "fontgrp.h"
 #include "util.h"
+#include "job.h"
 
 /*
  * Specials. 奥義スキル.
@@ -42,13 +43,42 @@ char gBattleHitCount;
 struct TextHandle TextHandleSpecialSkillLeft;
 struct TextHandle TextHandleSpecialSkillRight;
 
-// Effect of Sacred Seals which reduce damaged received to 0.
-void PassiveSkillSNoDamageEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+// Effect of Sacred Seals during battle.
+void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if(getUnitPassiveSkillS(&defender->unit) == PASSIVE_SKILL_S_EMBLA_WARD || getUnitPassiveSkillS(&defender->unit) == PASSIVE_SKILL_S_MUSPELL_FLAME)
+    switch(getUnitPassiveSkillS(&defender->unit))
     {
-        gBattleStats.damage = 0;
-        attacker->nonZeroDamage = 0;
+        case PASSIVE_SKILL_S_EMBLA_WARD:
+        case PASSIVE_SKILL_S_MUSPELL_FLAME:
+            gBattleStats.damage = 0;
+            attacker->nonZeroDamage = 0;
+            break;
+        case PASSIVE_SKILL_S_DEFLECT_MELEE:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && ((defender->weaponType == Sword) || (defender->weaponType == Lance) || (defender->weaponType == Axe)) && !IsWeaponDagger(defender->weaponBefore))
+            {
+                gBattleStats.damage *= 0.2;
+                if(gBattleStats.damage == 0)
+                    attacker->nonZeroDamage = 0;
+            }
+            break;
+        case PASSIVE_SKILL_S_DEFLECT_MISSILE:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && ((defender->weaponType == Bow) || IsWeaponDagger(defender->weaponBefore)))
+            {
+                gBattleStats.damage *= 0.2;
+                if(gBattleStats.damage == 0)
+                    attacker->nonZeroDamage = 0;
+            }
+            break;
+        case PASSIVE_SKILL_S_DEFLECT_MAGIC:
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (defender->weaponAttributes & IA_MAGIC))
+            {
+                gBattleStats.damage *= 0.2;
+                if(gBattleStats.damage == 0)
+                    attacker->nonZeroDamage = 0;
+            }
+            break;
+        default:
+            break;
     }
 }
 
@@ -3510,7 +3540,7 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
     //BattleGenerateHitAttributesOriginal(attacker, defender);
     BattleGenerateHitAttributes(attacker, defender);
     BattleGenerateHitSpecialSkill(attacker, defender);
-    PassiveSkillSNoDamageEffect(attacker, defender);
+    BattlePassiveSkillSEffect(attacker, defender);
     if(isInBattle())
         BattleWeaponSpecialEffect(attacker, defender);
     BattleGenerateHitEffects(attacker, defender);
@@ -5668,9 +5698,9 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"金剛のかまえ２", "敵から攻撃された時、戦闘中、守備＋４", "Steady Stance 2", "If foe initiates combat, grants Def+4 during combat."},
     {"金剛のかまえ３", "敵から攻撃された時、戦闘中、守備＋６", "Steady Stance 3", "If foe initiates combat, grants Def+6 during combat."},
     {"金剛のかまえ４", "敵から攻撃された時、戦闘中、守備＋８、かつ、敵の奥義発動カウント変動量ー１", "Steady Stance 4", "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"},
-    {"烈火の皇女１", "戦闘中、敵が受けている強化の合計値の２０％を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 1", "Adds 20% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
-    {"烈火の皇女２", "戦闘中、敵が受けている強化の合計値の５０％を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 2", "Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
-    {"烈火の皇女３", "戦闘中、敵が受けている強化の合計値の８０％を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 3", "Adds 80% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
+    {"烈火の皇女１", "戦闘中、敵が受けている強化の合計値の２割を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 1", "Adds 20% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
+    {"烈火の皇女２", "戦闘中、敵が受けている強化の合計値の５割を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 2", "Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
+    {"烈火の皇女３", "戦闘中、敵が受けている強化の合計値の８割を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 3", "Adds 80% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
     {"烈火の皇女４", "戦闘中、敵が受けている強化の合計値を自分の攻撃、速さ、守備、魔防に加算", "Blazing Princess 4", "Adds total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
     {"魔防の城塞１", "攻撃ー３、魔防＋３", "Fortress Res 1", "Grants Res+3.Inflicts Atk-3."},
     {"魔防の城塞２", "攻撃ー３、魔防＋４", "Fortress Res 2", "Grants Res+4.Inflicts Atk-3."},
@@ -5680,7 +5710,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"剛剣２", "攻撃が敵より３以上高い時、自身の攻撃による奥義発動カウント変動量＋１", "Heavy Blade 2", "If unit’s Atk >= foe’s Atk+3, grants Special cooldown charge +1 per unit's attack."},
     {"剛剣３", "攻撃が敵より１以上高い時、自身の攻撃による奥義発動カウント変動量＋１", "Heavy Blade 3", "If unit’s Atk > foe’s Atk, grants Special cooldown charge +1 per unit's attack."},
     {"剛剣４", "攻撃が敵より１以上高い時、自身の攻撃による奥義発動カウント変動量＋１、かつ、ダメージ＋５", "Heavy Blade 4", "If unit’s Atk > foe’s Atk, grants Special cooldown charge +1 and deals +5 damage to foe per unit's attack."},
-    {"魔道の刃１", "戦闘開始時、自身のＨＰが１００％で自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 1", "At start of combat, if unit's HP = 100% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
+    {"魔道の刃１", "戦闘開始時、自身のＨＰが全部で自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 1", "At start of combat, if unit's HP = 100% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"魔道の刃２", "戦闘開始時、自身のＨＰが半分以上で自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 2", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"魔道の刃３", "戦闘開始時、自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 3", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"魔道の刃４", "戦闘開始時、自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算、かつ、ダメージ＋５", "Sorcery Blade 4", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res and deals +5 damage to foe."},
@@ -5736,9 +5766,9 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"盾のこどう２", "敵から攻撃を受ける際に発動する奥義を装備していたら、１ターン目開始時、奥義発動カウントー１、かつ、奥義発動時に受けるダメージー５", "Shield Pulse 2", "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1. Reduces damage dealt to unit by 5 when Special triggers."},
     {"盾のこどう３", "敵から攻撃を受ける際に発動する奥義を装備していたら、１ターン目開始時、奥義発動カウントー２、かつ、奥義発動時に受けるダメージー５", "Shield Pulse 3", "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-2. Reduces damage dealt to unit by 5 when Special triggers."},
     {"盾のこどう４", "敵から攻撃を受ける際に発動する奥義を装備していたら、１ターン目開始時、奥義発動カウントー２、かつ、奥義発動時に受けるダメージー１０", "Shield Pulse 4", "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-2. Reduces damage dealt to unit by 10 when Special triggers."},
-    {"守備隊形１", "自分のＨＰが９０％以上の時、自分、敵、ともに追撃不可", "Wary Fighter 1", "If unit's HP >= 90%, unit and foe cannot make a follow-up attack."},
-    {"守備隊形２", "自分のＨＰが７０％以上の時、自分、敵、ともに追撃不可", "Wary Fighter 2", "If unit's HP >= 70%, unit and foe cannot make a follow-up attack."},
-    {"守備隊形３", "自分のＨＰが５０％以上の時、自分、敵、ともに追撃不可", "Wary Fighter 3", "If unit's HP >= 50%, unit and foe cannot make a follow-up attack."},
+    {"守備隊形１", "自分のＨＰが９割以上の時、自分、敵、ともに追撃不可", "Wary Fighter 1", "If unit's HP >= 90%, unit and foe cannot make a follow-up attack."},
+    {"守備隊形２", "自分のＨＰが７割以上の時、自分、敵、ともに追撃不可", "Wary Fighter 2", "If unit's HP >= 70%, unit and foe cannot make a follow-up attack."},
+    {"守備隊形３", "自分のＨＰが５割以上の時、自分、敵、ともに追撃不可", "Wary Fighter 3", "If unit's HP >= 50%, unit and foe cannot make a follow-up attack."},
     {"守備隊形４", "自分、敵、ともに追撃不可", "Wary Fighter 4", "Unit and foe cannot make a follow-up attack."},
     {"攻撃守備連けい１", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋２（１ターン）", "Atk/Def Link 1", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+2 to unit and target ally or unit and targeting ally for 1 turn."},
     {"攻撃守備連けい２", "移動系補助（体当たり、引き戻し、回り込み等）を使用した時、または自分に使用された時、自分と相手の攻撃、守備＋４（１ターン）", "Atk/Def Link 2", "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+4 to unit and target ally or unit and targeting ally for 1 turn."},
@@ -5749,9 +5779,9 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"攻撃の封印３", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー７", "Chill Atk 3", "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action."},
     {"攻撃の封印４", "ターン開始時、敵軍内で最も攻撃が高い敵の攻撃ー１０", "Chill Atk 4", "At start of turn, inflicts Atk-10 on foe on the enemy team with the highest Atk through its next action."},
     {"氷の封印", "ターン開始時、自分のＨＰが半分以上なら、敵軍内で最も守備が低い敵の攻撃、速さー６", "Chilling Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action."},
-    {"キャンセル１", "戦闘開始時、自身のＨＰが１００％なら敵の奥義発動カウント変動量ー１", "Guard 1", "At start of combat, if unit's HP = 100%, inflicts Special cooldown charge -1 on foe per attack."},
-    {"キャンセル２", "戦闘開始時、自身のＨＰが９０％以上なら敵の奥義発動カウント変動量ー１", "Guard 2", "At start of combat, if unit's HP >= 90%, inflicts Special cooldown charge -1 on foe per attack."},
-    {"キャンセル３", "戦闘開始時、自身のＨＰが８０％以上なら敵の奥義発動カウント変動量ー１", "Guard 3", "At start of combat, if unit's HP >= 80%, inflicts Special cooldown charge -1 on foe per attack."},
+    {"キャンセル１", "戦闘開始時、自身のＨＰが全部なら敵の奥義発動カウント変動量ー１", "Guard 1", "At start of combat, if unit's HP = 100%, inflicts Special cooldown charge -1 on foe per attack."},
+    {"キャンセル２", "戦闘開始時、自身のＨＰが９割以上なら敵の奥義発動カウント変動量ー１", "Guard 2", "At start of combat, if unit's HP >= 90%, inflicts Special cooldown charge -1 on foe per attack."},
+    {"キャンセル３", "戦闘開始時、自身のＨＰが８割以上なら敵の奥義発動カウント変動量ー１", "Guard 3", "At start of combat, if unit's HP >= 80%, inflicts Special cooldown charge -1 on foe per attack."},
     {"キャンセル４", "戦闘開始時、自身のＨＰが半分以上なら敵の攻撃ー４、かつ敵の奥義発動カウント変動量ー１", "Guard 4", "At start of combat, if unit's HP >= 50%, inflicts Atk-4 on foe during combat and Special cooldown charge -1 on foe per attack."},
     {"速さの封印１", "ターン開始時、敵軍内で最も速さが高い敵の速さー３", "Chill Spd 1", "At start of turn, inflicts Spd-3 on foe on the enemy team with the highest Spd until its next action."},
     {"速さの封印２", "ターン開始時、敵軍内で最も速さが高い敵の速さー５", "Chill Spd 2", "At start of turn, inflicts Spd-5 on foe on the enemy team with the highest Spd until its next action."},
@@ -5884,12 +5914,18 @@ const struct PassiveSkill passiveSkillSs[] = {
     {"奥義のこどう", "１ターン目開始時、奥義発動カウントー１", "Quickened Pulse", "At the start of turn 1, grants Special cooldown count-1."},
     {"エンブラの加護", "自身が受けるダメージは０になる", "Embla's Ward", "Reduces damage dealt to unit to 0."},
     {"ムスペルの炎", "自身が受けるダメージは０になる", "Muspellflame", "Reduces damage dealt to unit to 0."},
+    {"連撃防御・剣槍斧", "剣、槍、斧の敵から連続して攻撃を受けた時、２回目以降のダメージを８割軽減", "Deflect Melee", "If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 80%."},
+    {"連撃防御・弓暗器", "弓、暗器の敵から連続して攻撃を受けた時、２回目以降のダメージを８割軽減", "Deflect Missile", "If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 80%."},
+    {"連撃防御・魔道", "魔法の敵から連続して攻撃を受けた時、２回目以降のダメージを８割軽減", "Deflect Magic", "If unit receives consecutive attacks and foe uses magic, reduces damage from foe's second attack onward by 80%."},
 };
 
 const u16 itemPassiveSkillSs[0x100] = {
     [ITEM_SACRED_SEAL_QUICKENED_PULSE] = PASSIVE_SKILL_S_QUICKENED_PULSE,
     [ITEM_SACRED_SEAL_EMBLA_WARD] = PASSIVE_SKILL_S_EMBLA_WARD,
     [ITEM_SACRED_SEAL_MUSPELL_FLAME] = PASSIVE_SKILL_S_MUSPELL_FLAME,
+    [ITEM_SACRED_SEAL_DEFLECT_MELEE] = PASSIVE_SKILL_S_DEFLECT_MELEE,
+    [ITEM_SACRED_SEAL_DEFLECT_MISSILE] = PASSIVE_SKILL_S_DEFLECT_MISSILE,
+    [ITEM_SACRED_SEAL_DEFLECT_MAGIC] = PASSIVE_SKILL_S_DEFLECT_MAGIC,
 };
 
 u16 getUnitPassiveSkillS(struct Unit *unit)

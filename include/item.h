@@ -305,4 +305,11 @@ enum {
 
 int GetItemWeaponEffect(int item);
 
+s8 IsWeaponDagger(u16 item);
+s8 IsWeaponSword(u16 item);
+s8 IsWeaponLance(u16 item);
+s8 IsWeaponAxe(u16 item);
+s8 IsWeaponBow(u16 item);
+s8 IsWeaponMagic(u16 item);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_ITEM_H

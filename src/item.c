@@ -5,6 +5,7 @@
 #include "item.h"
 #include "job.h"
 #include "text_id.h"
+#include "item_id.h"
 #include "item_icon.h"
 
 const int sizeofItem = sizeof(struct Item);
@@ -130,7 +131,7 @@ const struct Item items[] = {
 
 {1082, 704, 0, 59, 5, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 13, 80, 12, 0, 2, 1, 300, 181, 58, 0, 0, 1} ,  // 0x3B Fimbulvetr
 
-{1083, 705, 0, 60, 5, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148245584, JobListDragon, 20, 14, 85, 11, 5, 2, 1, 0, 0, 59, 0, 0, 1} ,  // 0x3C Forblaze
+{1083, 705, 0, 60, 5, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148245584, JobListDragon, 20, 14, 85, 11, 5, 2, 1, 600, WPN_EXP_S, 59, 0, 0, 1} ,  // 0x3C Forblaze
 
 {1084, 706, 0, 61, 5, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 18, 90, 13, 10, 2, 1, 1000, 251, 60, 0, 0, 3} ,  // 0x3D Excalibur
 
@@ -339,6 +340,12 @@ const struct Item items[] = {
 {ITEM_NAME_SMOKE_DAGGER, ITEM_HELP_SMOKE_DAGGER, 0, 0xa3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 9, 105, 5, 0, 2, 1, 60, WPN_EXP_0, ITEM_ICON_SMOKE_DAGGER, 0, 0, 0} ,  // 0xA3 Smoke Dagger
 
 {ITEM_NAME_ROGUE_DAGGER, ITEM_HELP_ROGUE_DAGGER, 0, 0xa4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 7, 115, 2, 0, 2, 1, 600, WPN_EXP_0, ITEM_ICON_ROGUE_DAGGER, 0, 0, 0} ,  // 0xA4 Rogue Dagger
+
+{ITEM_NAME_SACRED_SEAL_DEFLECT_MELEE, ITEM_HELP_SACRED_SEAL_DEFLECT_MELEE, TEXT_ITEM_CANNOT_USE, 0xa5, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xA5 Sacred Seal: Deflect Melee
+
+{ITEM_NAME_SACRED_SEAL_DEFLECT_MISSILE, ITEM_HELP_SACRED_SEAL_DEFLECT_MISSILE, TEXT_ITEM_CANNOT_USE, 0xa6, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xA6 Sacred Seal: Deflect Missile
+
+{ITEM_NAME_SACRED_SEAL_DEFLECT_MAGIC, ITEM_HELP_SACRED_SEAL_DEFLECT_MAGIC, TEXT_ITEM_CANNOT_USE, 0xa7, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xA7 Sacred Seal: Deflect Magic
 };
 
 const struct Item * const pItems1 = items;
@@ -548,3 +555,32 @@ const struct ItemSpellAssociation itemSpellAssociations[] = {
 const struct ItemSpellAssociation * const pItemSpellAssociations1 = itemSpellAssociations;
 const struct ItemSpellAssociation * const pItemSpellAssociations2 = itemSpellAssociations;
 
+s8 IsWeaponDagger(u16 item)
+{
+    return GetItemIndex(item) >= ITEM_IRON_DAGGER && GetItemIndex(item) <= ITEM_ROGUE_DAGGER;
+}
+
+s8 IsWeaponSword(u16 item)
+{
+    return GetItemType(item) == Sword && !IsWeaponDagger(item);
+}
+
+s8 IsWeaponLance(u16 item)
+{
+    return GetItemType(item) == Lance;
+}
+
+s8 IsWeaponAxe(u16 item)
+{
+    return GetItemType(item) == Axe;
+}
+
+s8 IsWeaponBow(u16 item)
+{
+    return GetItemType(item) == Bow;
+}
+
+s8 IsWeaponMagic(u16 item)
+{
+    return (GetItemAttributes(item) & IA_WEAPON) && (GetItemAttributes(item) & IA_MAGIC);
+}
