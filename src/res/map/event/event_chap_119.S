@@ -62,7 +62,7 @@ AllyUnitsENM:
 EnemyUnitsENM:
 	UNIT(Surtr,General,0,30,SIDE_ENEMY,1,8,1,8,1,Basilikos,DeflectMelee,0,0,AttackInRange,PursueOnceApproached,NoRecovery,DefaultAI4) // スルト
 	UNIT(GenericSummonedStrongDrop,Thief,0,30,SIDE_ENEMY,1,6,1,6,1,SmokeDagger,None,0,0,AttackIfClose,PursueOnceApproached,NoRecovery,DefaultAI4) // ラガルト
-	UNIT(GenericSummonedStrongDrop,Valkyrie,0,30,SIDE_ENEMY,1,0,1,0,1,Excalibur,None,0,0,AttackInRange,PursueOnceApproached,NoRecovery,DefaultAI4) // ウルスラ
+	UNIT(GenericSummonedStrongDrop,Valkyrie,0,30,SIDE_ENEMY,1,0,1,0,1,Excalibur,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ウルスラ
 	UNIT(GenericSummonedStrongDrop,Druid,0,30,SIDE_ENEMY,1,12,4,12,4,Gespenst,None,0,0,AttackIfClose,PursueOnceApproached,NoRecovery,DefaultAI4) // カナス
 	UNIT(GenericSummonedStrongDrop,MagicFalcoKnight,0,30,SIDE_ENEMY,1,13,4,13,4,Forblaze,None,0,0,AttackIfClose,PursueOnceApproached,NoRecovery,DefaultAI4) // ニノ2
 	END_UNIT
