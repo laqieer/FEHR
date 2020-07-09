@@ -6655,6 +6655,25 @@ u16 calculateHPAfterHPStealSpecialSkill(u16 hp, u8 atRight, struct BattleHit* pB
     return result;
 }
 
+int isBattleUnitAtRight(struct BattleUnit *bu)
+{
+    return bu == battleUnitAtRight;
+}
+
+struct BattleUnit *getAttackerBattleUnit(int isCounter)
+{
+    if(isCounter)
+        return &gBattleTarget;
+    return &gBattleActor;
+}
+
+struct BattleUnit *getDefenderBattleUnit(int isCounter)
+{
+    if(isCounter)
+        return &gBattleActor;
+    return &gBattleTarget;
+}
+
 void displaySpecialSkillName(int isRight)
 {
     u16 *dest;
@@ -6747,18 +6766,12 @@ void displaySpecialSkillNameInBattleNew(void *AIS)
 
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
-        if(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)
-            displaySpecialSkillName(!isAnimationAtRight(AIS));
-        else
-            displaySpecialSkillName(isAnimationAtRight(AIS));
+        displaySpecialSkillName(isBattleUnitAtRight(getAttackerBattleUnit(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
     }
 
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
-        if(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)
-            displaySpecialSkillName(isAnimationAtRight(AIS));
-        else
-            displaySpecialSkillName(!isAnimationAtRight(AIS));
+        displaySpecialSkillName(isBattleUnitAtRight(getDefenderBattleUnit(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
     }
 
     setBGMapBufferSyncFlag(1);
@@ -6787,18 +6800,12 @@ void displaySpecialSkillIconInBattle(void *AIS)
 
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
-        if(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)
-            displaySpecialSkillIcon(!isAnimationAtRight(AIS));
-        else
-            displaySpecialSkillIcon(isAnimationAtRight(AIS));
+        displaySpecialSkillIcon(isBattleUnitAtRight(getAttackerBattleUnit(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
     }
 
     if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
-        if(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)
-            displaySpecialSkillIcon(isAnimationAtRight(AIS));
-        else
-            displaySpecialSkillIcon(!isAnimationAtRight(AIS));
+        displaySpecialSkillIcon(isBattleUnitAtRight(getDefenderBattleUnit(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
     }
 
     setBGMapBufferSyncFlag(1);
