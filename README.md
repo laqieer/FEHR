@@ -25,7 +25,6 @@ cd build && make
 
 |Provider|Status|
 |---|---|
-|[Travis CI](https://travis-ci.org/)|[![Build Status](https://travis-ci.com/laqieer/fe7-jp-stunning-tribble.svg?branch=master)](https://travis-ci.com/laqieer/fe7-jp-stunning-tribble)|
 |[Azure DevOps](https://azure.microsoft.com/en-us/services/devops/?nav=min)|[![Build Status](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_apis/build/status/fe7-jp-stunning-tribble-CI?branchName=master)](https://dev.azure.com/laqieer/fe7-jp-stunning-tribble/_build/latest?definitionId=6&branchName=master)|
 |[Circle CI](https://circleci.com/)|[![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://app.circleci.com/gh/laqieer/fe7-jp-stunning-tribble/pipelines)|
 |[Cirrus CI](https://cirrus-ci.org/)|[![Build Status](https://api.cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble.svg)](https://cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble)|
