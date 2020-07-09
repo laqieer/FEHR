@@ -16,9 +16,9 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":7,
+ "tilecount":8,
  "tiledversion":"1.4.1",
- "tileheight":19,
+ "tileheight":24,
  "tiles":[
         {
          "id":0,
@@ -60,6 +60,12 @@
          "id":6,
          "image":"player_units\/Thief_F.png",
          "imageheight":15,
+         "imagewidth":15
+        }, 
+        {
+         "id":7,
+         "image":"player_units\/KnightLord.png",
+         "imageheight":24,
          "imagewidth":15
         }],
  "tilewidth":16,
