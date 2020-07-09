@@ -1,10 +1,11 @@
 language: c
 
-services:
-  - docker
-
-before_install:
-- docker pull devkitpro/devkitarm
+install:
+  - wget https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.deb &&
+    sudo dpkg -i devkitpro-pacman.deb
+  - sudo dkp-pacman --noconfirm -S gba-dev
+  - export DEVKITPRO=/opt/devkitpro
+  - export DEVKITARM=${DEVKITPRO}/devkitARM
 
 script:
   - sh configure
