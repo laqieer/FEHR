@@ -40,6 +40,7 @@ BeginningScene:
 	UpdateSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
 	TEX1 MID_SCENARIO_MAP_BEGIN_S2082
+REMA
 	ENDA
 EndingScene:
 	ClearSpecialSkillCD

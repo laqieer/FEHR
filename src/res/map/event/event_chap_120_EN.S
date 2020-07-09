@@ -37,6 +37,7 @@ MiscBasedEvents:
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
 	TEX1 MID_SCENARIO_OPENING_S2111_EN
+REMA
 	ClearSpecialSkillCD
 	LOU1 EnemyUnitsENM
 	ENUN
@@ -47,6 +48,7 @@ BeginningScene:
 	UpdateSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
 	TEX1 MID_SCENARIO_MAP_BEGIN_S2111_EN
+REMA
 	ENDA
 EndingScene:
 	ClearSpecialSkillCD
@@ -74,6 +76,7 @@ NPCUnits:
 HridJoin:
     MUSC MUSIC_TOGETHER_WE_RIDE
     TEX1 MID_SCENARIO_ENDING_S2111_EN
+REMA
     CharacterJoin(Hrid)
     ENDA
 TrapsEliwoodMode:

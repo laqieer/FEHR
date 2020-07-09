@@ -71,6 +71,9 @@
 #define TEXT .word 0xd,
 #define TEX2 .word 0xe,
 
+// End text.
+#define REMA .word 9
+
 // Change music
 #define MUS1 .hword 0x76,
 #define MUSC .hword 0x76,

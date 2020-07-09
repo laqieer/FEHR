@@ -29,6 +29,7 @@ CharacterBasedEvents:
 AlfonseTalkToBruno:
     MUSC MUSIC_TOGETHER_WE_RIDE
     //TEXT TEXT_BRUNO_JOIN_US
+REMA
     CharacterJoin(Bruno)
     ENDA
 LocationBasedEvents:
@@ -40,6 +41,7 @@ MiscBasedEvents:
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
 	TEX1 MID_SCENARIO_OPENING_S1501_EN
+REMA
 	ClearSpecialSkillCD
 	LOU1 EnemyUnitsENM
 	ENUN
@@ -48,11 +50,13 @@ BeginningScene:
 	UpdateSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
 	TEX1 MID_SCENARIO_MAP_BEGIN_S1501_EN
+REMA
 	ENDA
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_EVENT_1
 	TEX1 MID_SCENARIO_ENDING_S1501_EN
+REMA
 	MNCH 69
 	ENDA
 AllyUnitsENM:

@@ -40,10 +40,12 @@ BeginningScene:
     UpdateSpecialSkillCD
     MUSC MUSIC_FE_H_SERIOUS_6
     TEX1 TEXT_CHAP_22_OP
+REMA
 	ENDA
 EndingScene:
     MUSC MUSIC_FE_H_EVENT_1
     TEX1 TEXT_CHAP_22_ED
+REMA
 	MNCH 23
 	ENDA
 AllyUnitsENM:

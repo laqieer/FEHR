@@ -30,6 +30,7 @@ LocationBasedEvents:
 GetSlimLance:
     UnlockHiddenTreasure1Achievement
     //TEXT TEXT_CHAP_15_GET_SLIM_LANCE
+REMA
     ITGV SlimLance
     ENDA
 MiscBasedEvents:

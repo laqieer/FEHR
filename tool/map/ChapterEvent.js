@@ -126,6 +126,7 @@ var ChapterEvent = {
         if(scenarioText.indexOf("\"MID_SCENARIO_OPENING\"") != -1) {
             file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6");
             file.writeLine("\tTEX1 MID_SCENARIO_OPENING_" + mapName);
+            file.writeLine("\tREMA");
         }
         file.writeLine("\tClearSpecialSkillCD");
         file.writeLine("\tLOU1 EnemyUnitsENM");
@@ -136,10 +137,12 @@ var ChapterEvent = {
         if(map.property("hasScene") === true) {
             file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6"); // dialogue bgm
             file.writeLine("\tTEX1 TEXT_CHAP_" + chapterId + "_OP"); // dialogue text
+            file.writeLine("\tREMA");
         }
         if(scenarioText.indexOf("\"MID_SCENARIO_MAP_BEGIN\"") != -1) {
             file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6");
             file.writeLine("\tTEX1 MID_SCENARIO_MAP_BEGIN_" + mapName);
+            file.writeLine("\tREMA");
         }
         file.writeLine("\tENDA");
 
@@ -149,14 +152,17 @@ var ChapterEvent = {
         if(map.property("hasScene") === true) {
             file.writeLine("\tMUSC MUSIC_FE_H_EVENT_1"); // dialogue bgm
             file.writeLine("\tTEX1 TEXT_CHAP_" + chapterId + "_ED"); // dialogue text
+            file.writeLine("\tREMA");
         }
         if(scenarioText.indexOf("\"MID_SCENARIO_MAP_END\"") != -1) {
             file.writeLine("\tMUSC MUSIC_FE_H_EVENT_1");
             file.writeLine("\tTEX1 MID_SCENARIO_MAP_END_" + mapName);
+            file.writeLine("\tREMA");
         }
         if(scenarioText.indexOf("\"MID_SCENARIO_ENDING\"") != -1) {
             file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6");
             file.writeLine("\tTEX1 MID_SCENARIO_ENDING_" + mapName);
+            file.writeLine("\tREMA");
         }
         var nextChapterId = chapterId + 1;
         file.writeLine("\tMNCH " + nextChapterId);
