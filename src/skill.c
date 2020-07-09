@@ -6351,7 +6351,20 @@ void ClearBattleHitCount()
     gBattleHitCount = 0;
 }
 
+void ClearWeaponTriangleEffectForDaggers(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if(IsWeaponDagger(attacker->weaponBefore) || IsWeaponDagger(defender->weaponBefore))
+    {
+        attacker->wTriangleHitBonus = 0;
+        attacker->wTriangleDmgBonus = 0;
+        defender->wTriangleHitBonus = 0;
+        defender->wTriangleDmgBonus = 0;
+    }
+}
+
 void BattleGenerate(struct Unit* actor, struct Unit* target) {
+    ClearWeaponTriangleEffectForDaggers(&gBattleActor, &gBattleTarget);
+
     ComputeBattleUnitStats(&gBattleActor, &gBattleTarget);
     ComputeBattleUnitStats(&gBattleTarget, &gBattleActor);
 
