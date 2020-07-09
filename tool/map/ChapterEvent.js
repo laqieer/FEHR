@@ -220,6 +220,38 @@ var ChapterEvent = {
         }
         file.writeLine("\tEND_UNIT");
 
+        // NPC Units
+        file.writeLine("NPCUnits:");
+        for (var i = 0; i < map.layerCount; ++i) {
+            var layer = map.layerAt(i);
+            if(layer.name == "NPC") {
+                if (layer.isObjectLayer) {
+                    for (const object of layer.objects) {
+                        var x = parseInt(object.x / 16);
+                        var y = parseInt(object.y / 16) - 1;
+                        var comment = object.name;
+                        var character = object.property("Character");
+                        var leader = 0;
+                        var job = object.tile.imageFileName;
+                        job = job.substring(job.lastIndexOf("\\")+1).substring(job.lastIndexOf("/")+1).split(".")[0];
+                        var level = object.property("Level");
+                        var autoLevel = object.property("AutoLevel");
+                        var equip = object.property("Equip");
+                        var item = object.property("Item");
+                        var AI1 = object.property("AI1");
+                        var AI2 = object.property("AI2");
+                        var AI3 = object.property("AI3");
+                        var AI4 = object.property("AI4");
+                        var enemyUnit = new Array("\tUNIT(" + character, job, leader, level, "SIDE_NPC", autoLevel, x, y, x, y, equip, item, 0, 0, AI1, AI2, AI3, AI4 + ") // " + comment);
+                        file.writeLine(enemyUnit.join(","));
+                    }
+                } else {
+                    tiled.error("NPC is not object layer.");
+                }
+            }
+        }
+        file.writeLine("\tEND_UNIT");
+
         // Reinforcements
         for (var i = 0; i < map.layerCount; ++i) {
             var layer = map.layerAt(i);
