@@ -25,8 +25,8 @@ TurnBasedEvents:
 	END_MAIN
 CharacterBasedEvents:
     CharacterEvent(Fjorm, Hrid, 10, HridJoin, 0)
-    CharacterEvent(Gunnthra, Hrid, 11, HridJoin, 0)
-    CharacterEvent(Yurg, Hrid, 12, HridJoin, 0)
+    CharacterEvent(Gunnthra, Hrid, 10, HridJoin, 0)
+    CharacterEvent(Yurg, Hrid, 10, HridJoin, 0)
 	END_MAIN
 LocationBasedEvents:
 	END_MAIN
