@@ -951,6 +951,7 @@ int getMaxValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(str
 void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumber, struct Unit *targetUnits, int targetUnitNumber)
 {
     int minDef = getMinValueInUnits(targetUnits, targetUnitNumber, GetUnitDefense);
+    int minRes = getMinValueInUnits(targetUnits, targetUnitNumber, GetUnitResistance);
     int maxAtk = getMaxValueInUnits(targetUnits, targetUnitNumber, GetUnitPower);
     int maxSpd = getMaxValueInUnits(targetUnits, targetUnitNumber, GetUnitSpeed);
 
@@ -988,6 +989,13 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                     {
                         case PASSIVE_SKILL_B_CHILLING_SEAL:
                             if(GetUnitHp(&skillUnits[i]) * 2 >= GetUnitMaxHp(&skillUnits[i]) && GetUnitDefense(&targetUnits[j]) == minDef)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -6);
+                                addUnitDebuffSpeed(&targetUnits[j], -6);
+                            }
+                            break;
+                        case PASSIVE_SKILL_B_FREEZING_SEAL:
+                            if(GetUnitHp(&skillUnits[i]) * 2 >= GetUnitMaxHp(&skillUnits[i]) && GetUnitResistance(&targetUnits[j]) == minRes)
                             {
                                 addUnitDebuffPower(&targetUnits[j], -6);
                                 addUnitDebuffSpeed(&targetUnits[j], -6);

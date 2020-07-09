@@ -11,6 +11,7 @@
 #include "fontgrp.h"
 #include "proc.h"
 #include "item_icon.h"
+#include "util.h"
 
 enum {
     // Battle-related magic constants
@@ -883,5 +884,79 @@ enum {
 int getDistanceBetweenTwoUnits(struct Unit *unit1, struct Unit *unit2);
 
 int isUnitAlive(struct Unit *unit);
+
+struct ArenaData
+{
+    /* 00 */ struct Unit* playerUnit;
+    /* 04 */ struct Unit* opponentUnit;
+    /* 08 */ short unk08;
+    /* 0A */ u8 unk0A;
+    /* 0B */ u8 unk0B;
+    /* 0C */ u8 range;
+    /* 0D */ u8 playerWpnType;
+    /* 0E */ u8 opponentWpnType;
+    /* 0F */ u8 playerClassId;
+    /* 10 */ u8 opponentClassId;
+    /* 11 */ u8 playerLevel;
+    /* 12 */ u8 oppenentLevel;
+    /* 13 */ s8 playerIsMagic;
+    /* 14 */ s8 opponentIsMagic;
+    /* 16 */ short playerPowerWeight;
+    /* 18 */ short opponentPowerWeight;
+    /* 1A */ u16 playerWeapon;
+    /* 1C */ u16 opponentWeapon;
+};
+
+extern struct ArenaData gArenaData;
+
+struct GameState
+{
+    /* 00 */ u8  mainLoopEndedFlag;
+
+    /* 01 */ s8  gameLogicSemaphore;
+    /* 02 */ s8  gameGfxSemaphore;
+
+    /* 03 */ u8  _unk04;
+
+    /* 04 */ u8  gameStateBits;
+
+    /* 05 */ u8  _unk05;
+
+    /* 06 */ u16 prevVCount;
+
+    /* 08 */ u32 _unk08;
+
+    /* 0C */ struct Vec2 camera;
+    /* 10 */ struct Vec2 cameraPrevious;
+    /* 14 */ struct Vec2 playerCursor;
+    /* 18 */ struct Vec2 unk18;
+    /* 1C */ struct Vec2 unk1C;
+    /* 20 */ struct Vec2 playerCursorDisplay;
+    /* 24 */ struct Vec2u mapRenderOrigin;
+    /* 28 */ struct Vec2 unk28;
+
+    /* 2C */ u16 itemUnk2C;
+    /* 2E */ u16 itemUnk2E;
+
+    /* 30 */ u8 _pad30[0x3C - 0x30];
+
+    /* 3C */ u8 unk3C;
+    /* 3D */ u8 unk3D;
+    /* 3E */ u8 unk3E;
+    /* 3F */ s8 unk3F;
+};
+
+extern struct GameState gGameState;
+
+u16 GetUnitEquippedWeaponSlot(struct Unit* unit);
+s8 IsItemCoveringRange(int item, int range);
+int GetBallistaItemAt(int x, int y);
+
+s8 InitializeBattleDataBeforeAnimationInternal();
+
+extern struct BattleUnit *battleUnitAtLeft;
+extern struct BattleUnit *battleUnitAtRight;
+extern short SpellAnimationIDAtLeft;
+extern short SpellAnimationIDAtRight;
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

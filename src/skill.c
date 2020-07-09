@@ -2257,6 +2257,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_GUNNTHRA_ID] = SPECIAL_SKILL_GLACIES,
         [CHARACTER_HELBINDI_ID] = SPECIAL_SKILL_GLIMMER,
         [CHARACTER_YURG_ID] = SPECIAL_SKILL_GALEFORCE,
+        [CHARACTER_HRID_ID] = SPECIAL_SKILL_AEGIS,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -3264,6 +3265,112 @@ void reduceP4HPBy10(struct Unit *unit)
     reduceP4HPKeepAlive(unit, 10);
 }
 
+void debuffUnitAtk(struct Unit *unit, int value, int side)
+{
+    if(isUnitAlive(unit) && unit->side == side)
+        addUnitDebuffPower(unit, value);
+}
+
+void debuffPlayerAtk(struct Unit *unit, int value)
+{
+    debuffUnitAtk(unit, value, PlayerSide);
+}
+
+void debuffEnemyAtk(struct Unit *unit, int value)
+{
+    debuffUnitAtk(unit, value, EnemySide);
+}
+
+void debuffNPCAtk(struct Unit *unit, int value)
+{
+    debuffUnitAtk(unit, value, NPCSide);
+}
+
+void debuffP4Atk(struct Unit *unit, int value)
+{
+    debuffUnitAtk(unit, value, P4Side);
+}
+
+void debuffPlayerAtkBy3(struct Unit *unit)
+{
+    debuffPlayerAtk(unit, -3);
+}
+
+void debuffPlayerAtkBy5(struct Unit *unit)
+{
+    debuffPlayerAtk(unit, -5);
+}
+
+void debuffPlayerAtkBy7(struct Unit *unit)
+{
+    debuffPlayerAtk(unit, -7);
+}
+
+void debuffPlayerAtkBy10(struct Unit *unit)
+{
+    debuffPlayerAtk(unit, -10);
+}
+
+void debuffEnemyAtkBy3(struct Unit *unit)
+{
+    debuffEnemyAtk(unit, -3);
+}
+
+void debuffEnemyAtkBy5(struct Unit *unit)
+{
+    debuffEnemyAtk(unit, -5);
+}
+
+void debuffEnemyAtkBy7(struct Unit *unit)
+{
+    debuffEnemyAtk(unit, -7);
+}
+
+void debuffEnemyAtkBy10(struct Unit *unit)
+{
+    debuffEnemyAtk(unit, -10);
+}
+
+void debuffNPCAtkBy3(struct Unit *unit)
+{
+    debuffNPCAtk(unit, -3);
+}
+
+void debuffNPCAtkBy5(struct Unit *unit)
+{
+    debuffNPCAtk(unit, -5);
+}
+
+void debuffNPCAtkBy7(struct Unit *unit)
+{
+    debuffNPCAtk(unit, -7);
+}
+
+void debuffNPCAtkBy10(struct Unit *unit)
+{
+    debuffNPCAtk(unit, -10);
+}
+
+void debuffP4AtkBy3(struct Unit *unit)
+{
+    debuffP4Atk(unit, -3);
+}
+
+void debuffP4AtkBy5(struct Unit *unit)
+{
+    debuffP4Atk(unit, -5);
+}
+
+void debuffP4AtkBy7(struct Unit *unit)
+{
+    debuffP4Atk(unit, -7);
+}
+
+void debuffP4AtkBy10(struct Unit *unit)
+{
+    debuffP4Atk(unit, -10);
+}
+
 void PassiveSkillCEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     switch(getUnitPassiveSkillC(&gBattleActor.unit))
@@ -3336,6 +3443,78 @@ void PassiveSkillCEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
                     break;
                 default:
                     ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, reduceP4HPBy10);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_ATK_SMOKE_1:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffPlayerAtkBy3);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffEnemyAtkBy3);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffNPCAtkBy3);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffP4AtkBy3);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_ATK_SMOKE_2:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffPlayerAtkBy5);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffEnemyAtkBy5);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffNPCAtkBy5);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffP4AtkBy5);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_ATK_SMOKE_3:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffPlayerAtkBy7);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffEnemyAtkBy7);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffNPCAtkBy7);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffP4AtkBy7);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_ATK_SMOKE_4:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffPlayerAtkBy10);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffEnemyAtkBy10);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffNPCAtkBy10);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptTargetUnit(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, debuffP4AtkBy10);
                     break;
             }
             break;
@@ -5714,6 +5893,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"魔道の刃２", "戦闘開始時、自身のＨＰが半分以上で自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 2", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"魔道の刃３", "戦闘開始時、自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算", "Sorcery Blade 3", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"魔道の刃４", "戦闘開始時、自身が味方の魔法と隣接している場合、敵の守備か魔防の低い方でダメージ計算、かつ、ダメージ＋５", "Sorcery Blade 4", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res and deals +5 damage to foe."},
+    {"遠きょ離反撃", "敵から攻撃された時、距離に関係なく反撃する", "Distant Counter", "Unit can counterattack regardless of foe's range."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5729,6 +5909,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_A_FORTRESS_RES_1, PASSIVE_SKILL_A_FORTRESS_RES_2, PASSIVE_SKILL_A_FORTRESS_RES_3, PASSIVE_SKILL_A_FORTRESS_RES_4},
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_A_HEAVY_BLADE_1, PASSIVE_SKILL_A_HEAVY_BLADE_2, PASSIVE_SKILL_A_HEAVY_BLADE_3, PASSIVE_SKILL_A_HEAVY_BLADE_4},
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_A_SORCERY_BLADE_1, PASSIVE_SKILL_A_SORCERY_BLADE_2, PASSIVE_SKILL_A_SORCERY_BLADE_3, PASSIVE_SKILL_A_SORCERY_BLADE_4},
+    [CHARACTER_HRID_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -5787,6 +5968,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"速さの封印２", "ターン開始時、敵軍内で最も速さが高い敵の速さー５", "Chill Spd 2", "At start of turn, inflicts Spd-5 on foe on the enemy team with the highest Spd until its next action."},
     {"速さの封印３", "ターン開始時、敵軍内で最も速さが高い敵の速さー７", "Chill Spd 3", "At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd until its next action."},
     {"速さの封印４", "ターン開始時、敵軍内で最も速さが高い敵の速さー１０", "Chill Spd 4", "At start of turn, inflicts Spd-10 on foe on the enemy team with the highest Spd until its next action."},
+    {"凍結の封印", "ターン開始時、自分のＨＰが半分以上なら、敵軍内で最も魔防が低い敵の攻撃、速さー６", "Freezing Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res until its next action."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -5801,6 +5983,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL, PASSIVE_SKILL_B_CHILLING_SEAL},
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_B_GUARD_1, PASSIVE_SKILL_B_GUARD_2, PASSIVE_SKILL_B_GUARD_3, PASSIVE_SKILL_B_GUARD_4},
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_B_CHILL_SPD_1, PASSIVE_SKILL_B_CHILL_SPD_2, PASSIVE_SKILL_B_CHILL_SPD_3, PASSIVE_SKILL_B_CHILL_SPD_4},
+    [CHARACTER_HRID_ID] = {PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -5870,6 +6053,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"速さの指揮２", "ターン開始時、周囲２マスの味方の速さ＋４（１ターン）ただし、現在の部隊内で、同じ移動タイプが２体以下の味方のみが対象", "Spd Tactic 2", "At start of turn, grants Spd+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= half."},
     {"速さの指揮３", "ターン開始時、周囲２マスの味方の速さ＋６（１ターン）ただし、現在の部隊内で、同じ移動タイプが２体以下の味方のみが対象", "Spd Tactic 3", "At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= half."},
     {"速さの指揮４", "ターン開始時、周囲２マスの味方の速さ＋８（１ターン）ただし、現在の部隊内で、同じ移動タイプが２体以下の味方のみが対象", "Spd Tactic 4", "At start of turn, grants Spd+8 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= half."},
+    {"攻撃の紫えん１", "戦闘後、敵の周囲２マスの敵の攻撃ー３", "Atk Smoke 1", "Inflicts Atk-3 on foes within 2 spaces of target through their next actions after combat."},
+    {"攻撃の紫えん２", "戦闘後、敵の周囲２マスの敵の攻撃ー５", "Atk Smoke 2", "Inflicts Atk-5 on foes within 2 spaces of target through their next actions after combat."},
+    {"攻撃の紫えん３", "戦闘後、敵の周囲２マスの敵の攻撃ー７", "Atk Smoke 3", "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat."},
+    {"攻撃の紫えん４", "戦闘後、敵の周囲２マスの敵の攻撃ー１０", "Atk Smoke 4", "Inflicts Atk-10 on foes within 2 spaces of target through their next actions after combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -5886,6 +6073,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_GUNNTHRA_ID] = {PASSIVE_SKILL_C_RES_PLOY_1, PASSIVE_SKILL_C_RES_PLOY_2, PASSIVE_SKILL_C_RES_PLOY_3, PASSIVE_SKILL_C_RES_PLOY_4},
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_C_INFANTRY_PULSE_1, PASSIVE_SKILL_C_INFANTRY_PULSE_2, PASSIVE_SKILL_C_INFANTRY_PULSE_3, PASSIVE_SKILL_C_INFANTRY_PULSE_4},
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_C_SPD_TACTIC_1, PASSIVE_SKILL_C_SPD_TACTIC_2, PASSIVE_SKILL_C_SPD_TACTIC_3, PASSIVE_SKILL_C_SPD_TACTIC_4},
+    [CHARACTER_HRID_ID] = {PASSIVE_SKILL_C_ATK_SMOKE_1, PASSIVE_SKILL_C_ATK_SMOKE_2, PASSIVE_SKILL_C_ATK_SMOKE_3, PASSIVE_SKILL_C_ATK_SMOKE_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
@@ -6750,3 +6938,188 @@ void (*const pShowSpecialSkillsInBattleInjectorNew)() = showSpecialSkillsInBattl
 void (*const pHideSpecialSkillsInBattleNewC04Injector)() = hideSpecialSkillsInBattleNewC04Injector;
 void (*const pHideSpecialSkillsInBattleNewC05Injector)() = hideSpecialSkillsInBattleNewC05Injector;
 
+void SetBattleUnitWeapon(struct BattleUnit* bu, int itemSlot) {
+    if (itemSlot == BU_ISLOT_AUTO)
+        itemSlot = GetUnitEquippedWeaponSlot(&bu->unit);
+
+    if (bu->unit.state & UNIT_STATE_IN_BALLISTA)
+        itemSlot = BU_ISLOT_BALLISTA;
+
+    bu->canCounter = 1;
+
+    switch (itemSlot) {
+
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+        // regular item slots
+
+        bu->weaponSlotIndex = itemSlot;
+        bu->weapon = bu->unit.items[bu->weaponSlotIndex].itemId + (bu->unit.items[bu->weaponSlotIndex].residualDurability << 8);
+
+        break;
+
+    case BU_ISLOT_5:
+        // borrowed item?
+
+        bu->weaponSlotIndex = 0xFF;
+        bu->weapon = gGameState.itemUnk2C;
+
+        break;
+
+    case BU_ISLOT_ARENA_PLAYER:
+        // arena player weapon
+
+        bu->weaponSlotIndex = 0;
+
+        bu->weapon = gArenaData.playerWeapon;
+        bu->canCounter = 0;
+
+        break;
+
+    case BU_ISLOT_ARENA_OPPONENT:
+        // arena opponent weapon
+
+        bu->weaponSlotIndex = 0;
+
+        bu->weapon = gArenaData.opponentWeapon;
+        bu->canCounter = 0;
+
+        break;
+
+    case BU_ISLOT_BALLISTA:
+        // riding ballista
+
+        bu->weaponSlotIndex = 0xFF;
+
+        bu->weapon = GetBallistaItemAt(bu->unit.positionX, bu->unit.positionY);
+        bu->canCounter = 0;
+
+        break;
+
+    default:
+        bu->weaponSlotIndex = 0xFF;
+
+        bu->weapon = 0;
+        bu->canCounter = 0;
+
+        break;
+
+    } // switch (itemSlot)
+
+    bu->weaponBefore = bu->weapon;
+    bu->weaponAttributes = GetItemAttributes(bu->weapon);
+    bu->weaponType = GetItemType(bu->weapon);
+
+    if (!(gBattleStats.config & BATTLE_CONFIG_BIT2)) {
+        if (bu->weaponAttributes & IA_MAGICDAMAGE) {
+            switch (GetItemIndex(bu->weapon)) {
+
+            case ITEM_WINDSWORD:
+                if (gBattleStats.range == 2)
+                    bu->weaponType = AnimaMagic;
+                else
+                    bu->weaponAttributes = bu->weaponAttributes &~ IA_MAGICDAMAGE;
+
+                break;
+
+            case ITEM_LIGHTBRAND:
+                if (gBattleStats.range == 2)
+                    bu->weaponType = LightMagic;
+                else
+                    bu->weaponAttributes = bu->weaponAttributes &~ IA_MAGICDAMAGE;
+
+                break;
+
+            case ITEM_RUNESWORD:
+                bu->weaponType = DarkMagic;
+                break;
+
+            } // switch (GetItemIndex(bu->weapon))
+        } // if (bu->weaponAttributes & IA_MAGICDAMAGE)
+
+        if (checkUnitStateCounterattacksDisrupted(&bu->unit)) {
+            bu->weapon = 0;
+            bu->canCounter = 0;
+        }
+
+        if (!IsItemCoveringRange(bu->weapon, gBattleStats.range) || bu->weaponSlotIndex == 0xFF) {
+            if (gBattleStats.range == 1 || bu == &gBattleActor || getUnitPassiveSkillA(&bu->unit) != PASSIVE_SKILL_A_DISTANT_COUNTER) {
+                bu->weapon = 0;
+                bu->canCounter = 0;
+            }
+        }
+
+        switch (bu->unit.stateType) {
+
+        case UNIT_STATUS_SLEEP:
+        //case UNIT_STATUS_PETRIFY:
+        //case UNIT_STATUS_13:
+            bu->weapon = 0;
+            bu->canCounter = 0;
+
+            break;
+
+        } // switch (bu->unit.statusIndex)
+    }
+}
+
+void SetBattleUnitWeaponInjector(struct BattleUnit* bu, int itemSlot)
+{
+    SetBattleUnitWeapon(bu, itemSlot);
+}
+
+const short AffinitySpellAnimations[] = {
+    2, // None: Arrow
+    0x16, // Fire: Fire
+    0x19, // Thunder: Thunder
+    0x35, // Wind: Excalibur
+    0x1b, // Water: Fimbulvetr
+    0x1d, // Dark: Flux
+    0x1f, // Light: Lightning
+    0x17, // Anima: Elfire
+};
+
+short getDefaultSpellAnimationID(struct BattleUnit* bu)
+{
+    if(bu->weaponType == Axe)
+        return 1; // Throwing Axe
+    return AffinitySpellAnimations[bu->unit.character->affinity];
+}
+
+s8 InitializeBattleDataBeforeAnimation()
+{
+    s8 isRealAnimation = InitializeBattleDataBeforeAnimationInternal();
+
+    if(isRealAnimation)
+    {
+        if(gBattleStats.range > 1)
+        {
+            if(battleUnitAtLeft == &gBattleTarget)
+            {
+                if(battleUnitAtLeft->canCounter && SpellAnimationIDAtLeft < 1)
+                    SpellAnimationIDAtLeft = getDefaultSpellAnimationID(battleUnitAtLeft);
+            }
+            else
+            {
+                if(battleUnitAtRight->canCounter && SpellAnimationIDAtRight < 1)
+                    SpellAnimationIDAtRight = getDefaultSpellAnimationID(battleUnitAtRight);
+            }
+        }
+    }
+
+    return isRealAnimation;
+}
+
+#pragma GCC push_options
+#pragma GCC optimize ("-O2")
+
+s8 InitializeBattleDataBeforeAnimationInjector()
+{
+    //return InitializeBattleDataBeforeAnimation();
+    InjectorR0(InitializeBattleDataBeforeAnimation);
+}
+
+#pragma GCC pop_options

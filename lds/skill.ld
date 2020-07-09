@@ -52,3 +52,7 @@
 .rodata.pHideSpecialSkillsInBattleNewC04Injector : {*(.rodata.pHideSpecialSkillsInBattleNewC04Injector)}
 . = 0x8053cc8;
 .rodata.pHideSpecialSkillsInBattleNewC05Injector : {*(.rodata.pHideSpecialSkillsInBattleNewC05Injector)}
+. = 0x8028c08;
+.text.SetBattleUnitWeaponInjector : {*(.text.SetBattleUnitWeaponInjector)}
+. = 0x8051170;
+.text.InitializeBattleDataBeforeAnimationInjector : {*(.text.InitializeBattleDataBeforeAnimationInjector)}
