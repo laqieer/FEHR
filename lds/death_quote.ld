@@ -1,12 +1,12 @@
 . = 0x8079D20;
 .rodata.pDeathQuotes1 : {*(.rodata.pDeathQuotes1)}
 . = 0x8079D28;
-.rodata.pDeathQuotes2 : {*(.rodata.pDeathQuotes2)}
+.rodata.pDeathQuotesWithoutTextID1 : {*(.rodata.pDeathQuotesWithoutTextID1)}
 . = 0x8079D2C;
-.rodata.pDeathQuotes3 : {*(.rodata.pDeathQuotes3)}
+.rodata.pDeathQuotesWithoutTextID2 : {*(.rodata.pDeathQuotesWithoutTextID2)}
 . = 0x8079E84;
-.rodata.pDeathQuotes4 : {*(.rodata.pDeathQuotes4)}
+.rodata.pDeathQuotes2 : {*(.rodata.pDeathQuotes2)}
 . = 0x8079E48;
-.rodata.pDeathQuotes5 : {*(.rodata.pDeathQuotes5)}
+.rodata.pDeathQuotesWithoutTextID3 : {*(.rodata.pDeathQuotesWithoutTextID3)}
 . = 0x8079E4C;
-.rodata.pDeathQuotes6 : {*(.rodata.pDeathQuotes6)}
+.rodata.pDeathQuotesWithoutTextID4 : {*(.rodata.pDeathQuotesWithoutTextID4)}

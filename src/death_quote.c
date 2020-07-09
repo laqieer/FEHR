@@ -21,6 +21,14 @@ struct DeathQuote {
     u8 triggerEventID;
 };
 
+struct DeathQuoteWithoutTextID {
+    u8 characterID;
+    u8 chapterID;
+    u16 padding;
+    u8 *deathEvent;
+    u8 triggerEventID;
+};
+
 const int sizeofDeathQuote = sizeof(struct DeathQuote);
 
 #define AnyChapter 0x45
@@ -56,9 +64,13 @@ const struct DeathQuote deathQuotes[] = {
         {0, 0, 0, 0, 0, 0}
 };
 
+const struct DeathQuoteWithoutTextID deathQuotesWithoutTextID[] = {
+    {0, 0, 0, 0, 0}
+};
+
 const struct DeathQuote * const pDeathQuotes1 = deathQuotes;
 const struct DeathQuote * const pDeathQuotes2 = deathQuotes;
-const struct DeathQuote * const pDeathQuotes3 = deathQuotes;
-const struct DeathQuote * const pDeathQuotes4 = deathQuotes;
-const struct DeathQuote * const pDeathQuotes5 = deathQuotes;
-const struct DeathQuote * const pDeathQuotes6 = deathQuotes;
+const struct DeathQuoteWithoutTextID * const pDeathQuotesWithoutTextID1 = deathQuotesWithoutTextID;
+const struct DeathQuoteWithoutTextID * const pDeathQuotesWithoutTextID2 = deathQuotesWithoutTextID;
+const struct DeathQuoteWithoutTextID * const pDeathQuotesWithoutTextID3 = deathQuotesWithoutTextID;
+const struct DeathQuoteWithoutTextID * const pDeathQuotesWithoutTextID4 = deathQuotesWithoutTextID;
