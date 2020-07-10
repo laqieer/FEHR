@@ -1272,9 +1272,8 @@ void specialSkillGaleforceEffect(struct BattleUnit* attacker, struct BattleUnit*
 void specialSkillNjorunZealEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     attacker->unit.state &= ~UNIT_STATE_HAS_MOVED;
+    setUnitStateGravity(&attacker->unit);
     //TODO: ensure only once per turn
-
-    //TODO: movement limited state
 }
 
 // ‹F‚è: ©•ª‚ÌHP‚ª2ˆÈã‚Å“G‚Ì’v€UŒ‚‚ğó‚¯‚½Aƒ_ƒ[ƒW‚ğHP‚ª1c‚é‚æ‚¤‚ÉŒyŒ¸
