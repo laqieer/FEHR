@@ -106,6 +106,7 @@
 #define AxeGreatLord 6
 
 // Items
+#define Vulnerary2 0x9a
 #define QuickenedPulse 0x9b
 #define EmblaWard 0x9c
 #define Muspellflame 0x9d
