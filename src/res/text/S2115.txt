@@ -82,7 +82,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_RIGHT
 "一つは。。。" TCC_NEWLINE
 "あの男。。。ザカリアが" TCC_NEWLINE
-"我々を欺いた。。。" TCC_NEWLINE TCC_PUSH_A
+"我々を欺\いた。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "いや、それはないよ。" TCC_NEWLINE
