@@ -584,3 +584,8 @@ s8 IsWeaponMagic(u16 item)
 {
     return (GetItemAttributes(item) & IA_WEAPON) && (GetItemAttributes(item) & IA_MAGIC);
 }
+
+u16 hasWeaponLegendFlash(u16 weapon)
+{
+    return 0;
+}
