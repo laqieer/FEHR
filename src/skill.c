@@ -1260,11 +1260,23 @@ void specialSkillIceMirrorEffect(struct BattleUnit* attacker, struct BattleUnit*
  * 特殊系の奥義スキル
  */
 
+// Only happens in its own turn.
+int specialSkillGaleforceCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gRAMChapterData.chapterPhaseIndex == attacker->unit.side * 0x40;
+}
+
 // 疾風迅雷: 自分から攻撃した時、戦闘後、自分を行動可能にする
 void specialSkillGaleforceEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     attacker->unit.state &= ~UNIT_STATE_HAS_MOVED;
     //TODO: ensure only once per turn
+}
+
+// Only happens in its own turn.
+int specialSkillNjorunZealCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    return gRAMChapterData.chapterPhaseIndex == attacker->unit.side * 0x40;
 }
 
 // ノヴァの聖戦士: 自分から攻撃した時、戦闘後、自分を行動可能にする(1ターンに1回のみ)
@@ -2049,7 +2061,7 @@ const struct SpecialSkill specialSkills[] = {
             "If unit initiates combat, grants unit another action after combat."
             "(Once per turn.)",
             5,
-                0,
+                specialSkillGaleforceCondition,
                 0,
                 0,
                 0,
@@ -2202,7 +2214,7 @@ const struct SpecialSkill specialSkills[] = {
             "Njorun's Zeal",
             "If unit initiates combat, grants another action to unit after combat. (Once per turn.) When Special triggers, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort through their next action.",
             3,
-                0,
+                specialSkillNjorunZealCondition,
                 0,
                 0,
                 0,
