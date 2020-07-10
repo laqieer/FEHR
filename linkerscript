@@ -410,6 +410,8 @@ SECTIONS
 	.rodata.chapterTitlesNum : {*(.rodata.chapterTitlesNum)}
 	. = 0x8082e36;
 	.rodata.chapterTitleNoData : {*(.rodata.chapterTitleNoData)}
+	. = 0x8053b98;
+	.text.hasWeaponLegendFlash : {*(.text.hasWeaponLegendFlash)}
 	. = 0x8BFFA74;
     .rodata.pPlayMouthAnimation : {*(.rodata.pPlayMouthAnimation)}
 	. = 0x8db8050;
