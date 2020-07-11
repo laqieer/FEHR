@@ -1,5 +1,3 @@
-. = 0x8031a5e;
-.rodata.chapterStructAmount : {*(.rodata.chapterStructAmount)}
 . = 0x8031a7e;
 .rodata.chapterMapAmount : {*(.rodata.chapterMapAmount)}
 . = 0x8031ac2;
@@ -12,3 +10,5 @@
 .text.GetChapterIDInjector : {*(.text.GetChapterIDInjector)}
 . = 0x8c01dec;
 .rodata.gProcCmdBeginChapter : {*(.rodata.gProcCmdBeginChapter)}
+. = 0x8031a5c;
+.text.GetChapterSettingInjector : {*(.text.GetChapterSettingInjector)}

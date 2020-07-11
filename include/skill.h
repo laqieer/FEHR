@@ -294,7 +294,7 @@ struct RAMChapterData
     /* 0C */ unsigned char gameSaveSlot;
 
     /* 0D */ unsigned char chapterVisionRange; // 0 means no fog
-    /* 0E */ char chapterIndex;
+    /* 0E */ unsigned char chapterIndex;
 
     /* 0F */ unsigned char chapterPhaseIndex; // 0x00 = Player phase, 0x40 = NPC phase, 0x80 = Enemy phase (0xC0 = link arena 4th team?)
 

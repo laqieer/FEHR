@@ -209,7 +209,6 @@ BattleGenerateHitAttributesOriginal = 0x8029715;
 BattleGenerateHitEffects = 0x802984d;
 BattleApplyReaverEffect = 0x802a5d1;
 HandleActiveUnitDeath = 0x802ff61;
-GetChapterSetting = 0x8031a5d;
 NewBottomHelpText = 0x8032a91;
 GetBallistaItemAt = 0x8034ba1;
 DrawUiFrame = 0x804a4cd;
@@ -321,8 +320,6 @@ SECTIONS
     .rodata.levelLimit : {*(.rodata.levelLimit)}
 	. = 0x802e3c6;
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
-	. = 0x8031A6C;
-	.rodata.pChapters1 : {*(.rodata.pChapters1)}
 	. = 0x8067e78;
 	.text.playBGMInjector : {*(.text.playBGMInjector)}
 	. = 0x8079798;

@@ -110,6 +110,8 @@ enum {
     WEATHER_MOVING_CLOUDS_BACKGROUND,
 };
 
+extern const struct Chapter chapters[];
+
 struct Chapter *GetChapterSetting(u32 chapterId);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHAPTER_H

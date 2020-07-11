@@ -4,12 +4,12 @@
 
 #include "skill.h"
 #include "proc.h"
+#include "chapter.h"
 
 extern const struct ProcCmd gProcScriptBeginChapter[];
 
 #define CHAPTER_AMOUNT 0xff
 
-const unsigned char chapterStructAmount = CHAPTER_AMOUNT; // GetROMChapterStruct
 const unsigned char chapterMapAmount = CHAPTER_AMOUNT; // GetChapterMapPointer
 const unsigned char chapterMapChangeAmount = CHAPTER_AMOUNT; // GetChapterMapChangesPointer
 // Move to src/chapter_event.c
@@ -35,3 +35,17 @@ void BeginChapter(struct Proc *proc)
 
 const struct ProcCmd gProcCmdBeginChapter = PROC_CALL_ROUTINE(BeginChapter); // in gProcScriptMapMain
 
+struct Chapter *GetChapterSetting(u32 chapterId)
+{
+    return &chapters[chapterId & 0xff];
+}
+
+#pragma GCC push_options
+#pragma GCC optimize ("-O2")
+
+struct Chapter *GetChapterSettingInjector(u32 chapterId)
+{
+    return GetChapterSetting(chapterId);
+}
+
+#pragma GCC pop_options
