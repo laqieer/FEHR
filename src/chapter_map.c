@@ -457,6 +457,9 @@ extern const u8 S2115Pal[];
 extern const u8 S2121Tiles[];
 extern const u8 S2121_cfg[];
 extern const u8 S2121Pal[];
+extern const u8 S2122Tiles[];
+extern const u8 S2122_cfg[];
+extern const u8 S2122Pal[];
 
 const u8 * const maps[0xff] = {
         map_chap_pre,
@@ -670,6 +673,7 @@ const u8 * const tilesetImgs[] = {
     S2114Tiles,
     S2115Tiles,
     S2121Tiles,
+    S2122Tiles,
 };
 
 const u8 ** const pTilesetImgs = tilesetImgs;
@@ -802,6 +806,7 @@ const u8 * const tilesetCfgs[] = {
     S2114_cfg,
     S2115_cfg,
     S2121_cfg,
+    S2122_cfg,
 };
 
 const u8 ** const pTilesetCfgs = tilesetCfgs;
@@ -934,6 +939,7 @@ const u8 * const tilesetPals[] = {
     S2114Pal,
     S2115Pal,
     S2121Pal,
+    S2122Pal,
 };
 
 const u8 ** const pTilesetPals = tilesetPals;
