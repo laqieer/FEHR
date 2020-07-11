@@ -2047,6 +2047,27 @@ const char* const texts[] = {
 
        [ITEM_HELP_SACRED_SEAL_DEFLECT_MAGIC] = "魔法の敵から連続して攻撃を受けた時、２回目以降のダメージを８割軽減",
 
+       [CONVO_HELBINDI_JOIN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_YLGR
+           "ハイハイ" TCC_PUSH_A
+               TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HELBINDI
+               "クソガキ？" TCC_PUSH_A
+               TCC_OPEN_LEFT
+               "ガキではない" TCC_NEWLINE
+               "私はユルグ" TCC_NEWLINE
+               "なぜここに？" TCC_PUSH_A
+               TCC_OPEN_RIGHT
+               "俺は敗れた後で、貧民街の人々は皆殺された" TCC_NEWLINE
+               "アイツもなくなった" TCC_PUSH_A
+               "妹がいない俺は" TCC_NEWLINE
+               "戦う理由を持ってないから" TCC_PUSH_A
+               TCC_OPEN_LEFT
+               "ひとりじゃ寂しいから一緒に来てよ" TCC_NEWLINE
+               "これからあなたは私たちの大切な家族だ" TCC_PUSH_A
+               TCC_OPEN_RIGHT
+               "ガキを守るのは面倒だけど" TCC_NEWLINE
+               "あの王様を討つなら俺も同行する" TCC_NEWLINE
+               "まずは目の前の敵をぶっ殺す！" TCC_PUSH_A,
+
 #include "texts.txt"
 };
 

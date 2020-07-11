@@ -135,6 +135,7 @@ extern const u8 * const event_chap_124[];
 extern const u8 * const event_chap_125[];
 extern const u8 * const event_chap_126[];
 extern const u8 * const event_chap_127[];
+extern const u8 * const event_chap_128[];
 
 const u8 ** const events[0xff] = {
         NULL,
@@ -266,8 +267,10 @@ const u8 ** const events[0xff] = {
         event_chap_125,
         event_chap_126,
         event_chap_127,
+        event_chap_128,
 };
 
+extern const u8 * const event_chap_128_EN[];
 extern const u8 * const event_chap_127_EN[];
 extern const u8 * const event_chap_126_EN[];
 extern const u8 * const event_chap_125_EN[];
@@ -491,6 +494,7 @@ const u8 ** const events_EN[0xff] = {
         event_chap_125_EN,
         event_chap_126_EN,
         event_chap_127_EN,
+        event_chap_128_EN,
 };
 
 const u8 *** const pEvents = events;
@@ -506,7 +510,7 @@ enum {
 
 u8 ** GetChapterEventDataPointerForMultiLanguage(u32 chapterId)
 {
-  if (chapterId < 0xff && GetChapterSetting(chapterId)) {
+  if (GetChapterSetting(chapterId)) {
     switch(getCurrentGameLanguage())
     {
         case LANGUAGE_EN:
