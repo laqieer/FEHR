@@ -16,7 +16,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":8,
+ "tilecount":9,
  "tiledversion":"1.4.1",
  "tileheight":24,
  "tiles":[
@@ -67,6 +67,12 @@
          "image":"player_units\/KnightLord.png",
          "imageheight":24,
          "imagewidth":15
+        }, 
+        {
+         "id":8,
+         "image":"player_units\/Berserker.png",
+         "imageheight":22,
+         "imagewidth":16
         }],
  "tilewidth":16,
  "type":"tileset",
