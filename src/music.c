@@ -70,6 +70,8 @@ extern const u8 musicFE4Chap3[];
 extern const u8 musicFE4Chap4[];
 extern const u8 musicFE4Chap6[];
 extern const u8 musicFE4Chap8[];
+extern const u8 musicFE4Chap9[];
+extern const u8 musicFE4Chap10[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1560,6 +1562,8 @@ const struct Song songs[] = {
         [MUSIC_FE4_MAP_4] = {musicFE4Chap4, 1, 1},
         [MUSIC_FE4_MAP_6] = {musicFE4Chap6, 1, 1},
         [MUSIC_FE4_MAP_8] = {musicFE4Chap8, 1, 1},
+        [MUSIC_FE4_MAP_9] = {musicFE4Chap9, 1, 1},
+        [MUSIC_FE4_MAP_10] = {musicFE4Chap10, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1747,6 +1751,8 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE4_MAP_4, MUSIC_LENGTH(3, 13), 0, "‹ó‚É•‘‚¤"},
     {MUSIC_FE4_MAP_6, MUSIC_LENGTH(2, 2), 0, "Œõ‚ð‚Â‚®‚à‚Ì"},
     {MUSIC_FE4_MAP_8, MUSIC_LENGTH(1, 35), 0, "ƒgƒ‰ƒLƒA‚Ì—³‹RŽm"},
+    {MUSIC_FE4_MAP_9, MUSIC_LENGTH(1, 48), 0, "’N‚ª‚½‚ß‚É"},
+    {MUSIC_FE4_MAP_10, MUSIC_LENGTH(1, 53), 0, "Œõ‚ÆˆÅ‚Æ"},
 
     // End of table
     {-1, 0,                                              0, 0},
