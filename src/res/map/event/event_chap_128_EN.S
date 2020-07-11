@@ -38,6 +38,8 @@ BeginningScene:
 	ENUN
 	LOU1 AllyUnitsENM
 	ENUN
+    LOU1 NPCUnits
+    ENUN
 	UpdateSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
 	TEX1 MID_SCENARIO_MAP_BEGIN_S2124_EN
@@ -71,7 +73,7 @@ EnemyUnitsENM:
 	UNIT(GenericFlame,FalcoKnight,0,9,SIDE_ENEMY,1,2,5,2,5,SlimLance,None,0,0,AttackInRange,DelayedPursue,NoRecovery,DefaultAI4) // ランスペガサス
 	END_UNIT
 NPCUnits:
-	UNIT(Helbindi,Berserker,0,1,SIDE_NPC,1,14,2,14,2,DevilAxe,KillerAxe,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // Helbindi
+	UNIT(Helbindi,Berserker,0,1,SIDE_NPC,1,13,1,13,1,DevilAxe,KillerAxe,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // Helbindi
 	END_UNIT
 HelbindiJoin:
     MUSC MUSIC_TOGETHER_WE_RIDE
