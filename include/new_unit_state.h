@@ -9,6 +9,7 @@ struct PositiveState {
     u8 dragonShield:1;
     u8 svalinnShield:1;
     u8 harshed:1; // Converts penalties into bonuses.
+    u8 moveAgain:1; // Can move again.
 };
 
 struct NegativeState {
@@ -33,6 +34,7 @@ int checkUnitStateTriangleAdept(struct Unit *unit);
 int checkUnitStateGuard(struct Unit *unit);
 int checkUnitStateIsolation(struct Unit *unit);
 int checkUnitStateHarshed(struct Unit *unit);
+int checkUnitStateMoveAgain(struct Unit *unit);
 int checkUnitPositiveState(struct Unit *unit);
 int checkUnitNegativeState(struct Unit *unit);
 
@@ -49,6 +51,7 @@ void setUnitStateTriangleAdept(struct Unit *unit);
 void setUnitStateGuard(struct Unit *unit);
 void setUnitStateIsolation(struct Unit *unit);
 void setUnitStateHarshed(struct Unit *unit);
+void setUnitStateMoveAgain(struct Unit *unit);
 
 void clearUnitPositiveState(struct Unit *unit);
 void clearUnitNegativeState(struct Unit *unit);
@@ -66,6 +69,7 @@ void clearUnitStateTriangleAdept(struct Unit *unit);
 void clearUnitStateGuard(struct Unit *unit);
 void clearUnitStateIsolation(struct Unit *unit);
 void clearUnitStateHarshed(struct Unit *unit);
+void clearUnitStateMoveAgain(struct Unit *unit);
 
 void clearNewStateForPlayerUnits();
 void clearNewStateForEnemyUnits();

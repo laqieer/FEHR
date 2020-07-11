@@ -43,6 +43,11 @@ char gBattleHitCount;
 struct TextHandle TextHandleSpecialSkillLeft;
 struct TextHandle TextHandleSpecialSkillRight;
 
+struct Unit *GetUnitNew(int side, int number)
+{
+    return GetUnit(number + 0x40 * side);
+}
+
 // Effect of Sacred Seals during battle.
 void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
@@ -1269,7 +1274,10 @@ int specialSkillGaleforceCondition(struct BattleUnit* attacker, struct BattleUni
 // 疾風迅雷: 自分から攻撃した時、戦闘後、自分を行動可能にする
 void specialSkillGaleforceEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    attacker->unit.state &= ~UNIT_STATE_HAS_MOVED;
+    //attacker->unit.state &= ~UNIT_STATE_UNSELECTABLE;
+    //GetUnitNew(attacker->unit.side, attacker->unit.number)->state &= ~UNIT_STATE_UNSELECTABLE;
+    //currentActiveUnit->state &= ~UNIT_STATE_UNSELECTABLE;
+    setUnitStateMoveAgain(&attacker->unit);
     //TODO: ensure only once per turn
 }
 
@@ -1283,7 +1291,10 @@ int specialSkillNjorunZealCondition(struct BattleUnit* attacker, struct BattleUn
 //この奥義発動時、自分とダブル相手に移動を最大1マスに制限する状態異常を付与（次回行動終了まで）
 void specialSkillNjorunZealEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    attacker->unit.state &= ~UNIT_STATE_HAS_MOVED;
+    //attacker->unit.state &= ~UNIT_STATE_UNSELECTABLE;
+    //GetUnitNew(attacker->unit.side, attacker->unit.number)->state &= ~UNIT_STATE_UNSELECTABLE;
+    //currentActiveUnit->state &= ~UNIT_STATE_UNSELECTABLE;
+    setUnitStateMoveAgain(&attacker->unit);
     setUnitStateGravity(&attacker->unit);
     //TODO: ensure only once per turn
 }
@@ -7154,3 +7165,29 @@ s8 InitializeBattleDataBeforeAnimationInjector()
 }
 
 #pragma GCC pop_options
+
+void MoveActiveUnit(int x, int y)
+{
+    currentActiveUnit->positionX = x;
+    currentActiveUnit->positionY = y;
+
+    if(currentActiveUnit->character->id == CHARACTER_TACTICIAN_ID)
+        currentActiveUnit->state &= 0xfffffbbd;
+    else
+        if(checkUnitStateMoveAgain(currentActiveUnit))
+            clearUnitStateMoveAgain(currentActiveUnit);
+        else
+            currentActiveUnit->state |= UNIT_STATE_UNSELECTABLE;
+
+    BWL_AddTilesMoved(currentActiveUnit->character->id, gActionData.moveCount);
+
+    if (GetUnitHp(currentActiveUnit) != 0)
+        currentActiveUnit->state = currentActiveUnit->state &~ UNIT_STATE_HIDDEN;
+
+    UnitFinalizeMovement(currentActiveUnit);
+}
+
+void MoveActiveUnitInjector(int x, int y)
+{
+    MoveActiveUnit(x, y);
+}

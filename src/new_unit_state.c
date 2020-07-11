@@ -79,6 +79,7 @@ void clearUnitPositiveState(struct Unit *unit)
     pUnitPositiveState->dragonShield = 0;
     pUnitPositiveState->svalinnShield = 0;
     pUnitPositiveState->harshed = 0;
+    pUnitPositiveState->moveAgain = 0;
 }
 
 void clearUnitNegativeState(struct Unit *unit)
@@ -360,6 +361,21 @@ void clearUnitStateDragonShield(struct Unit *unit)
     getUnitPositiveState(unit)->dragonShield = 0;
 }
 
+int checkUnitStateMoveAgain(struct Unit *unit)
+{
+    return getUnitPositiveState(unit)->moveAgain;
+}
+
+void setUnitStateMoveAgain(struct Unit *unit)
+{
+    getUnitPositiveState(unit)->moveAgain = 1;
+}
+
+void clearUnitStateMoveAgain(struct Unit *unit)
+{
+    getUnitPositiveState(unit)->moveAgain = 0;
+}
+
 int checkUnitStateSvalinnShield(struct Unit *unit)
 {
     return getUnitPositiveState(unit)->svalinnShield;
@@ -367,7 +383,7 @@ int checkUnitStateSvalinnShield(struct Unit *unit)
 
 int checkUnitPositiveState(struct Unit *unit)
 {
-    // Harshed is not displayed in stat screen.
+    // Harshed & MoveAgain are not displayed in stat screen.
     return checkUnitStateMobilityIncreased(unit) || checkUnitStateAirOrders(unit) || checkUnitStateEffectiveAgainstDragons(unit) || checkUnitStateBonusDoubler(unit) || checkUnitStateDragonShield(unit) || checkUnitStateSvalinnShield(unit);
 }
 

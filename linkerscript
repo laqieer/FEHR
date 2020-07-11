@@ -270,6 +270,9 @@ ComputeBattleUnitSupportBonusesOriginal = 0x8028ea1;
 ComputeBattleUnitWeaponRankBonusesOriginal = 0x8029329;
 ComputeBattleUnitStatusBonusesOriginal = 0x8029365;
 
+BWL_AddTilesMoved = 0x80a0a09;
+UnitFinalizeMovement = 0x8018319;
+
 SECTIONS
 {
 	. = 0x8000000;

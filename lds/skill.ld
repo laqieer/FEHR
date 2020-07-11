@@ -56,3 +56,5 @@
 .text.SetBattleUnitWeaponInjector : {*(.text.SetBattleUnitWeaponInjector)}
 . = 0x8051170;
 .text.InitializeBattleDataBeforeAnimationInjector : {*(.text.InitializeBattleDataBeforeAnimationInjector)}
+. = 0x80185c0;
+.text.MoveActiveUnitInjector : {*(.text.MoveActiveUnitInjector)}

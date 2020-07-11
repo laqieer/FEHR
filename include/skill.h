@@ -747,6 +747,7 @@ struct Proc* NewTargetSelection(const struct SelectInfo* selectInfo);
 
 void ChangeActiveUnitFacing(int x,int y);
 struct Unit* GetUnit(int id);
+struct Unit *GetUnitNew(int side, int number);
 
 /*
  * Original battle stat calculation functions.
@@ -958,5 +959,9 @@ extern struct BattleUnit *battleUnitAtLeft;
 extern struct BattleUnit *battleUnitAtRight;
 extern short SpellAnimationIDAtLeft;
 extern short SpellAnimationIDAtRight;
+
+void MoveActiveUnit(int x, int y);
+void BWL_AddTilesMoved(int pid, int amount);
+void UnitFinalizeMovement(struct Unit* unit);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
