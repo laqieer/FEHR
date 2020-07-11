@@ -1268,7 +1268,7 @@ void specialSkillIceMirrorEffect(struct BattleUnit* attacker, struct BattleUnit*
 // Only happens in its own turn.
 int specialSkillGaleforceCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    return gRAMChapterData.chapterPhaseIndex == attacker->unit.side * 0x40;
+    return gRAMChapterData.chapterPhaseIndex == attacker->unit.side * 0x40 && !checkUnitStateNoMoveAgain(&attacker->unit);
 }
 
 // 疾風迅雷: 自分から攻撃した時、戦闘後、自分を行動可能にする
@@ -1278,13 +1278,13 @@ void specialSkillGaleforceEffect(struct BattleUnit* attacker, struct BattleUnit*
     //GetUnitNew(attacker->unit.side, attacker->unit.number)->state &= ~UNIT_STATE_UNSELECTABLE;
     //currentActiveUnit->state &= ~UNIT_STATE_UNSELECTABLE;
     setUnitStateMoveAgain(&attacker->unit);
-    //TODO: ensure only once per turn
+    setUnitStateNoMoveAgain(&attacker->unit);
 }
 
 // Only happens in its own turn.
 int specialSkillNjorunZealCondition(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    return gRAMChapterData.chapterPhaseIndex == attacker->unit.side * 0x40;
+    return gRAMChapterData.chapterPhaseIndex == attacker->unit.side * 0x40 && !checkUnitStateNoMoveAgain(&attacker->unit);
 }
 
 // ノヴァの聖戦士: 自分から攻撃した時、戦闘後、自分を行動可能にする(1ターンに1回のみ)
@@ -1295,8 +1295,8 @@ void specialSkillNjorunZealEffect(struct BattleUnit* attacker, struct BattleUnit
     //GetUnitNew(attacker->unit.side, attacker->unit.number)->state &= ~UNIT_STATE_UNSELECTABLE;
     //currentActiveUnit->state &= ~UNIT_STATE_UNSELECTABLE;
     setUnitStateMoveAgain(&attacker->unit);
+    setUnitStateNoMoveAgain(&attacker->unit);
     setUnitStateGravity(&attacker->unit);
-    //TODO: ensure only once per turn
 }
 
 // 祈り: 自分のHPが2以上で敵の致死攻撃を受けた時、ダメージをHPが1残るように軽減

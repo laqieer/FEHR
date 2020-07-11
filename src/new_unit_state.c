@@ -92,6 +92,7 @@ void clearUnitNegativeState(struct Unit *unit)
     pUnitNegativeState->triangleAdept = 0;
     pUnitNegativeState->guard = 0;
     pUnitNegativeState->isolation = 0;
+    pUnitNegativeState->noMoveAgain = 0;
 }
 
 void clearUnitNewState(struct Unit *unit)
@@ -376,6 +377,21 @@ void clearUnitStateMoveAgain(struct Unit *unit)
     getUnitPositiveState(unit)->moveAgain = 0;
 }
 
+int checkUnitStateNoMoveAgain(struct Unit *unit)
+{
+    return getUnitPositiveState(unit)->moveAgain;
+}
+
+void setUnitStateNoMoveAgain(struct Unit *unit)
+{
+    getUnitPositiveState(unit)->moveAgain = 1;
+}
+
+void clearUnitStateNoMoveAgain(struct Unit *unit)
+{
+    getUnitPositiveState(unit)->moveAgain = 0;
+}
+
 int checkUnitStateSvalinnShield(struct Unit *unit)
 {
     return getUnitPositiveState(unit)->svalinnShield;
@@ -389,6 +405,7 @@ int checkUnitPositiveState(struct Unit *unit)
 
 int checkUnitNegativeState(struct Unit *unit)
 {
+    // NoMoveAgain is not displayed in stat screen.
     return checkUnitStateGravity(unit) || checkUnitStatePanic(unit) || checkUnitStateCounterattacksDisrupted(unit) || checkUnitStateTriangleAdept(unit) || checkUnitStateGuard(unit) || checkUnitStateIsolation(unit);
 }
 
