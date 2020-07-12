@@ -246,7 +246,8 @@ void specialSkillRupturedSkyEffect(struct BattleUnit* attacker, struct BattleUni
 
 int isUnitAlive(struct Unit *unit)
 {
-    return unit->character && unit->job && unit->hp && (unit->state & UNIT_STATE_DEAD) == 0;
+    //return unit->character && unit->job && unit->hp && (unit->state & UNIT_STATE_DEAD) == 0;
+    return unit->character && unit->job && unit->hp && (unit->state & UNIT_STATE_UNAVAILABLE) == 0;
 }
 
 void forAllPlayerUnits(void (*func)(struct Unit *unit, void *args), void *args)
