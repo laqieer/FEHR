@@ -4273,6 +4273,19 @@ const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Displa
 
 void (* const pDisplayPage3)() = DisplayPage3; // function: DisplayPage
 
+void DisplayPage1New()
+{
+    DisplayPage1();
+
+    for (int i = 0; i < 9; ++i)
+    {
+        gBmFrameTmap0[TILEMAP_INDEX(1 + i, 11)] = 0;
+        gBmFrameTmap0[TILEMAP_INDEX(1 + i, 12)] = 0;
+    }
+}
+
+void (* const pDisplayPage1)() = DisplayPage1New;
+
 const u16 statScreenPageNameOAM[] =
 {
     3,

@@ -964,4 +964,7 @@ void MoveActiveUnit(int x, int y);
 void BWL_AddTilesMoved(int pid, int amount);
 void UnitFinalizeMovement(struct Unit* unit);
 
+void DisplayPage1();
+void DisplayPage1New();
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

@@ -6,6 +6,8 @@
 .text.RefreshEntityBmMapsInjector : {*(.text.RefreshEntityBmMapsInjector)}*/
 . = 0x8081f18;
 .rodata.statScreenPageMax : {*(.rodata.statScreenPageMax)}
+. = 0x841cd94;
+.rodata.pDisplayPage1 : {*(.rodata.pDisplayPage1)}
 . = 0x841cd9c;
 .rodata.pDisplayPage3 : {*(.rodata.pDisplayPage3)}
 . = 0x8081824;

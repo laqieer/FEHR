@@ -232,6 +232,7 @@ isAnimationAtRight = 0x8054E61;
 endProcLevelUp = 0x806a299;
 DrawStatBar = 0x8080601;
 DrawStatWithBar = 0x8080a95;
+DisplayPage1 = 0x8080e05;
 UnitSlide_SetNewUnit = 0x80816c9;
 StatScreen_Display = 0x8081ef9;
 ExtraMenuLoop = 0x080a5219;
