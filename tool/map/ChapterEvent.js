@@ -46,7 +46,24 @@ var ChapterEvent = {
             var layer = map.layerAt(i);
             if(layer.name.startsWith("Turn")) {
                 if (layer.isObjectLayer) {
-                    file.writeLine("\tTurnEvent(" + layer.name.substring(4) + ", LoadEnemyUnits" + layer.name + ", 0, 0)");
+                    switch(layer.property("phase")) {
+                        case 'player':
+                        case 'Player':
+                            phase = "TURN_MOMENT_PLAYER_PHASE";
+                            break;
+                        case 'enemy':
+                        case 'ENEMY':
+                            phase = "TURN_MOMENT_ENEMY_PHASE";
+                            break;
+                        case 'NPC':
+                        case 'npc':
+                            phase = "TURN_MOMENT_NPC_PHASE";
+                            break;
+                        default:
+                            phase = "TURN_MOMENT_PLAYER_PHASE";
+                            break;
+                    }
+                    file.writeLine("\tTurnEvent(" + layer.name.substring(4) + ", LoadEnemyUnits" + layer.name + ", " + phase + ", 0)");
                 }
             }
         }
