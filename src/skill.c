@@ -4273,6 +4273,24 @@ const u8 statScreenPageMax = STATSCREEN_PAGE_MAX; // function: StatScreen_Displa
 
 void (* const pDisplayPage3)() = DisplayPage3; // function: DisplayPage
 
+const u16 BattleStatsBGMap[] = {
+    ((16 * 6 + 1) * 2) << 8, 0, // compression header
+    0x50F, // size: 16 x 6 Tiles
+    7,   5,  12,  13,  13,  13,  13,  14,
+	5,  12,  13,  13,  13,  13,  14,   8,
+	4,   5,   5,   5,   5,   5,   5,   5,
+	5,   5,   5,   5,   5,   5,   5,   6,
+	4,   5,  12,  13,  13,  13,  13,  14,
+	5,  12,  13,  13,  13,  13,  14,   6,
+	4,   5,   5,   5,   5,   5,   5,   5,
+	5,   5,   5,   5,   5,   5,   5,   6,
+	//4,   5,   5,   5,   5,   5,   5,   5,
+	4,   5,  12,  13,  13,  13,  13,  14,
+	5,  12,  13,  13,  13,  13,  14,   6,
+	1,   2,   2,   2,   2,   2,   2,   2,
+	2,   2,   2,   2,   2,   2,   2,   3,
+};
+
 void DisplayPage1New()
 {
     DisplayPage1();
@@ -4282,6 +4300,16 @@ void DisplayPage1New()
         gBmFrameTmap0[TILEMAP_INDEX(1 + i, 11)] = 0;
         gBmFrameTmap0[TILEMAP_INDEX(1 + i, 12)] = 0;
     }
+
+    // display "U‘¬"
+    Text_Clear(&gStatScreen.text[STATSCREEN_TEXT_UNUSUED]);
+    Text_InsertString(&gStatScreen.text[STATSCREEN_TEXT_UNUSUED], 0, TEXT_COLOR_GOLD, "U‘¬");
+    Text_Draw(&gStatScreen.text[STATSCREEN_TEXT_UNUSUED], &gBmFrameTmap0[TILEMAP_INDEX(3, 11)]);
+    DrawDecNumber(
+            gBmFrameTmap0 + TILEMAP_INDEX(8,  11),
+            TEXT_COLOR_BLUE, gBattleActor.battleSpeed);
+    writeTiles(BattleStatsBGMap, 0x2020140);
+    writeTSA(0x2003efe,0x2020140,0x7060);
 }
 
 void (* const pDisplayPage1)() = DisplayPage1New;
