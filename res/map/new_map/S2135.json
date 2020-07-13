@@ -1,0 +1,25 @@
+{ "columns":15,
+ "image":"S2135.png",
+ "imageheight":320,
+ "imagewidth":240,
+ "margin":0,
+ "name":"S2135",
+ "spacing":0,
+ "terrains":[
+        {
+         "name":"\u5730\u677f",
+         "properties":[
+                {
+                 "name":"default",
+                 "type":"bool",
+                 "value":true
+                }],
+         "tile":-1
+        }],
+ "tilecount":300,
+ "tiledversion":"1.4.1",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.4
+}

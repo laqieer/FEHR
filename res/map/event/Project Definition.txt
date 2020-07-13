@@ -28,6 +28,7 @@
 #define Hrid Freeze
 #define Laegjarn Guy
 #define Laevatain Raven
+#define Laevatein Laevatain
 #define Lif Karel
 #define Loki Priscilla
 #define Peony Ninian
@@ -106,6 +107,7 @@
 #define AxeGreatLord 6
 
 // Items
+#define HeavyLance HeavySpear
 #define Vulnerary2 0x9a
 #define QuickenedPulse 0x9b
 #define EmblaWard 0x9c
