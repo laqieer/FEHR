@@ -16,7 +16,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":9,
+ "tilecount":12,
  "tiledversion":"1.4.1",
  "tileheight":24,
  "tiles":[
@@ -72,6 +72,24 @@
          "id":8,
          "image":"player_units\/Berserker.png",
          "imageheight":22,
+         "imagewidth":16
+        }, 
+        {
+         "id":9,
+         "image":"player_units\/Swordmaster_F.png",
+         "imageheight":14,
+         "imagewidth":16
+        }, 
+        {
+         "id":10,
+         "image":"player_units\/VeronicaPrincess.png",
+         "imageheight":14,
+         "imagewidth":14
+        }, 
+        {
+         "id":11,
+         "image":"player_units\/WyvernLord_F.png",
+         "imageheight":21,
          "imagewidth":16
         }],
  "tilewidth":16,
