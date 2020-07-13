@@ -279,7 +279,7 @@ void forAllUnitsInSide(void (*func)(struct Unit *unit, void *args), void *args, 
     switch (side)
     {
         case PlayerSide:
-            forAllNPCUnits(func, args);
+            forAllPlayerUnits(func, args);
             break;
         case NPCSide:
             forAllNPCUnits(func, args);
@@ -4720,6 +4720,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleAttack += getUnitTotalBuffAllStats(&defender->unit) * 0.2;
                 attacker->battleDefense += getUnitTotalBuffAllStats(&defender->unit) * 0.2;
                 attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit) * 0.2;
+                attacker->battleHitRate += getUnitTotalBuffAllStats(&defender->unit) * 0.2;
             }
             break;
         case PASSIVE_SKILL_A_BLAZING_PRINCESS_2:
@@ -4728,6 +4729,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleAttack += getUnitTotalBuffAllStats(&defender->unit) * 0.5;
                 attacker->battleDefense += getUnitTotalBuffAllStats(&defender->unit) * 0.5;
                 attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit) * 0.5;
+                attacker->battleHitRate += getUnitTotalBuffAllStats(&defender->unit) * 0.5;
             }
             break;
         case PASSIVE_SKILL_A_BLAZING_PRINCESS_3:
@@ -4736,6 +4738,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleAttack += getUnitTotalBuffAllStats(&defender->unit) * 0.8;
                 attacker->battleDefense += getUnitTotalBuffAllStats(&defender->unit) * 0.8;
                 attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit) * 0.8;
+                attacker->battleHitRate += getUnitTotalBuffAllStats(&defender->unit) * 0.8;
             }
             break;
         case PASSIVE_SKILL_A_BLAZING_PRINCESS_4:
@@ -4744,6 +4747,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleAttack += getUnitTotalBuffAllStats(&defender->unit);
                 attacker->battleDefense += getUnitTotalBuffAllStats(&defender->unit);
                 attacker->battleSpeed += getUnitTotalBuffAllStats(&defender->unit);
+                attacker->battleHitRate += getUnitTotalBuffAllStats(&defender->unit);
             }
             break;
         case PASSIVE_SKILL_A_HEAVY_BLADE_4:
@@ -5941,10 +5945,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"‹à„‚Ì‚©‚Ü‚¦‚Q", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†Aç”õ{‚S", "Steady Stance 2", "If foe initiates combat, grants Def+4 during combat."},
     {"‹à„‚Ì‚©‚Ü‚¦‚R", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†Aç”õ{‚U", "Steady Stance 3", "If foe initiates combat, grants Def+6 during combat."},
     {"‹à„‚Ì‚©‚Ü‚¦‚S", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†Aç”õ{‚WA‚©‚ÂA“G‚Ì‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê[‚P", "Steady Stance 4", "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)"},
-    {"—ó‰Î‚Ìc—‚P", "í“¬’†A“G‚ªó‚¯‚Ä‚¢‚é‹­‰»‚Ì‡Œv’l‚Ì‚QŠ„‚ğ©•ª‚ÌUŒ‚A‘¬‚³Aç”õA–‚–h‚É‰ÁZ", "Blazing Princess 1", "Adds 20% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
-    {"—ó‰Î‚Ìc—‚Q", "í“¬’†A“G‚ªó‚¯‚Ä‚¢‚é‹­‰»‚Ì‡Œv’l‚Ì‚TŠ„‚ğ©•ª‚ÌUŒ‚A‘¬‚³Aç”õA–‚–h‚É‰ÁZ", "Blazing Princess 2", "Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
-    {"—ó‰Î‚Ìc—‚R", "í“¬’†A“G‚ªó‚¯‚Ä‚¢‚é‹­‰»‚Ì‡Œv’l‚Ì‚WŠ„‚ğ©•ª‚ÌUŒ‚A‘¬‚³Aç”õA–‚–h‚É‰ÁZ", "Blazing Princess 3", "Adds 80% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
-    {"—ó‰Î‚Ìc—‚S", "í“¬’†A“G‚ªó‚¯‚Ä‚¢‚é‹­‰»‚Ì‡Œv’l‚ğ©•ª‚ÌUŒ‚A‘¬‚³Aç”õA–‚–h‚É‰ÁZ", "Blazing Princess 4", "Adds total bonuses on foe to unit's Atk/Spd/Def/Res during combat."},
+    {"—ó‰Î‚Ìc—‚P", "í“¬’†A“G‚ªó‚¯‚Ä‚¢‚é‹­‰»‚Ì‡Œv’l‚Ì‚QŠ„‚ğ©•ª‚ÌUŒ‚A–½’†A‘¬‚³Aç”õA–‚–h‚É‰ÁZ", "Blazing Princess 1", "Adds 20% of total bonuses on foe to unit's Atk/Hit/Spd/Def/Res during combat."},
+    {"—ó‰Î‚Ìc—‚Q", "í“¬’†A“G‚ªó‚¯‚Ä‚¢‚é‹­‰»‚Ì‡Œv’l‚Ì‚TŠ„‚ğ©•ª‚ÌUŒ‚A–½’†A‘¬‚³Aç”õA–‚–h‚É‰ÁZ", "Blazing Princess 2", "Adds 50% of total bonuses on foe to unit's Atk/Hit/Spd/Def/Res during combat."},
+    {"—ó‰Î‚Ìc—‚R", "í“¬’†A“G‚ªó‚¯‚Ä‚¢‚é‹­‰»‚Ì‡Œv’l‚Ì‚WŠ„‚ğ©•ª‚ÌUŒ‚A–½’†A‘¬‚³Aç”õA–‚–h‚É‰ÁZ", "Blazing Princess 3", "Adds 80% of total bonuses on foe to unit's Atk/Hit/Spd/Def/Res during combat."},
+    {"—ó‰Î‚Ìc—‚S", "í“¬’†A“G‚ªó‚¯‚Ä‚¢‚é‹­‰»‚Ì‡Œv’l‚ğ©•ª‚ÌUŒ‚A–½’†A‘¬‚³Aç”õA–‚–h‚É‰ÁZ", "Blazing Princess 4", "Adds total bonuses on foe to unit's Atk/Hit/Spd/Def/Res during combat."},
     {"–‚–h‚ÌéÇ‚P", "UŒ‚[‚RA–‚–h{‚R", "Fortress Res 1", "Grants Res+3.Inflicts Atk-3."},
     {"–‚–h‚ÌéÇ‚Q", "UŒ‚[‚RA–‚–h{‚S", "Fortress Res 2", "Grants Res+4.Inflicts Atk-3."},
     {"–‚–h‚ÌéÇ‚R", "UŒ‚[‚RA–‚–h{‚T", "Fortress Res 3", "Grants Res+5.Inflicts Atk-3."},

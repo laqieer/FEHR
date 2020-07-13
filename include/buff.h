@@ -66,6 +66,6 @@ int GetUnitDefense(struct Unit* unit);
 int GetUnitResistance(struct Unit* unit);
 int GetUnitLuck(struct Unit* unit);
 
-s8 getUnitTotalBuffAllStats(struct Unit *unit);
+s16 getUnitTotalBuffAllStats(struct Unit *unit);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

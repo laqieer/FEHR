@@ -451,7 +451,7 @@ s8 getUnitTotalBuffLuck(struct Unit *unit)
     return total;
 }
 
-s8 getUnitTotalBuffAllStats(struct Unit *unit)
+s16 getUnitTotalBuffAllStats(struct Unit *unit)
 {
     return getUnitTotalBuffHP(unit) + getUnitTotalBuffPower(unit) + getUnitTotalBuffSkill(unit) + getUnitTotalBuffSpeed(unit) + getUnitTotalBuffDefense(unit) + getUnitTotalBuffResistance(unit) + getUnitTotalBuffLuck(unit);
 }
