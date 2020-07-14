@@ -5996,6 +5996,20 @@ u16 getUnitPassiveSkillA(struct Unit *unit)
     return PassiveSkillA;
 }
 
+u16 getUnitPreviousPassiveSkillA(struct Unit *unit)
+{
+    u16 PassiveSkillA = 0;
+
+    if(characterPassiveSkillAs[unit->character->id][1] && (unit->lv >= 15 || unit->job->ability_promoted))
+        PassiveSkillA = characterPassiveSkillAs[unit->character->id][0];
+    if(characterPassiveSkillAs[unit->character->id][2] && unit->job->ability_promoted && unit->lv >= 2)
+        PassiveSkillA = characterPassiveSkillAs[unit->character->id][1];
+    if(characterPassiveSkillAs[unit->character->id][3] && unit->job->ability_promoted && unit->lv >= 15)
+        PassiveSkillA = characterPassiveSkillAs[unit->character->id][2];
+
+    return PassiveSkillA;
+}
+
 
 /*
  * Passive skill B.
@@ -6066,6 +6080,20 @@ u16 getUnitPassiveSkillB(struct Unit *unit)
         PassiveSkillB = characterPassiveSkillBs[unit->character->id][2];
     if(characterPassiveSkillBs[unit->character->id][3] && unit->job->ability_promoted && unit->lv >= 20)
         PassiveSkillB = characterPassiveSkillBs[unit->character->id][3];
+
+    return PassiveSkillB;
+}
+
+u16 getUnitPreviousPassiveSkillB(struct Unit *unit)
+{
+    u16 PassiveSkillB = 0;
+
+    if(characterPassiveSkillBs[unit->character->id][1] && (unit->lv >= 20 || unit->job->ability_promoted))
+        PassiveSkillB = characterPassiveSkillBs[unit->character->id][0];
+    if(characterPassiveSkillBs[unit->character->id][2] && unit->job->ability_promoted && unit->lv >= 5)
+        PassiveSkillB = characterPassiveSkillBs[unit->character->id][1];
+    if(characterPassiveSkillBs[unit->character->id][3] && unit->job->ability_promoted && unit->lv >= 20)
+        PassiveSkillB = characterPassiveSkillBs[unit->character->id][2];
 
     return PassiveSkillB;
 }
@@ -6160,6 +6188,19 @@ u16 getUnitPassiveSkillC(struct Unit *unit)
     return PassiveSkillC;
 }
 
+u16 getUnitPreviousPassiveSkillC(struct Unit *unit)
+{
+    u16 PassiveSkillC = 0;
+
+    if(characterPassiveSkillCs[unit->character->id][1] && (unit->lv >= 25 || unit->job->ability_promoted))
+        PassiveSkillC = characterPassiveSkillCs[unit->character->id][0];
+    if(characterPassiveSkillCs[unit->character->id][2] && unit->job->ability_promoted && unit->lv >= 10)
+        PassiveSkillC = characterPassiveSkillCs[unit->character->id][1];
+    if(characterPassiveSkillCs[unit->character->id][3] && unit->job->ability_promoted && unit->lv >= 25)
+        PassiveSkillC = characterPassiveSkillCs[unit->character->id][2];
+
+    return PassiveSkillC;
+}
 
 /*
  * Passive skill S.
@@ -6485,7 +6526,7 @@ char *tryToGetPassiveSkillANameText(struct Unit *unit, int skillLevel)
 {
     int passiveSkillId = characterPassiveSkillAs[unit->character->id][skillLevel - 1];
     
-    if(passiveSkillId)
+    if(passiveSkillId && (skillLevel == 1 || (skillLevel > 1 && passiveSkillId != characterPassiveSkillAs[unit->character->id][skillLevel - 2])))
         return passiveSkillAs[passiveSkillId].name;
 
     return NULL;
@@ -6495,7 +6536,7 @@ char *tryToGetPassiveSkillBNameText(struct Unit *unit, int skillLevel)
 {
     int passiveSkillId = characterPassiveSkillBs[unit->character->id][skillLevel - 1];
     
-    if(passiveSkillId)
+    if(passiveSkillId && (skillLevel == 1 || (skillLevel > 1 && passiveSkillId != characterPassiveSkillBs[unit->character->id][skillLevel - 2])))
         return passiveSkillBs[passiveSkillId].name;
 
     return NULL;
@@ -6505,7 +6546,7 @@ char *tryToGetPassiveSkillCNameText(struct Unit *unit, int skillLevel)
 {
     int passiveSkillId = characterPassiveSkillCs[unit->character->id][skillLevel - 1];
     
-    if(passiveSkillId)
+    if(passiveSkillId && (skillLevel == 1 || (skillLevel > 1 && passiveSkillId != characterPassiveSkillCs[unit->character->id][skillLevel - 2])))
         return passiveSkillCs[passiveSkillId].name;
 
     return NULL;
