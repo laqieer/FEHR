@@ -7053,7 +7053,6 @@ void hideSpecialSkillsInBattleNewC04Injector()
     InjectorR0(AnimEvtCode4Handler);
 }
 
-
 void hideSpecialSkillsInBattleNewC05Injector()
 {
     BL(hideSpecialSkillsInBattle);
@@ -7061,11 +7060,32 @@ void hideSpecialSkillsInBattleNewC05Injector()
     InjectorR0(AnimEvtCode5Handler);
 }
 
+void hideSpecialSkillsInBattleNewC2EInjector()
+{
+    BL(hideSpecialSkillsInBattle);
+    InjectorR0(AnimEvtCode2EHandler);
+}
+
+void hideSpecialSkillsInBattleNewC2FInjector()
+{
+    BL(hideSpecialSkillsInBattle);
+    InjectorR0(AnimEvtCode2FHandler);
+}
+
+void hideSpecialSkillsInBattleNewC3DInjector()
+{
+    BL(hideSpecialSkillsInBattle);
+    InjectorR0(AnimEvtCode3DHandler);
+}
+
 #pragma GCC pop_options
 
 void (*const pShowSpecialSkillsInBattleInjectorNew)() = showSpecialSkillsInBattleInjectorNew;
 void (*const pHideSpecialSkillsInBattleNewC04Injector)() = hideSpecialSkillsInBattleNewC04Injector;
 void (*const pHideSpecialSkillsInBattleNewC05Injector)() = hideSpecialSkillsInBattleNewC05Injector;
+void (*const pHideSpecialSkillsInBattleNewC2EInjector)() = hideSpecialSkillsInBattleNewC2EInjector;
+void (*const pHideSpecialSkillsInBattleNewC2FInjector)() = hideSpecialSkillsInBattleNewC2FInjector;
+void (*const pHideSpecialSkillsInBattleNewC3DInjector)() = hideSpecialSkillsInBattleNewC3DInjector;
 
 void SetBattleUnitWeapon(struct BattleUnit* bu, int itemSlot) {
     if (itemSlot == BU_ISLOT_AUTO)

@@ -54,6 +54,12 @@
 .rodata.pHideSpecialSkillsInBattleNewC04Injector : {*(.rodata.pHideSpecialSkillsInBattleNewC04Injector)}
 . = 0x8053cc8;
 .rodata.pHideSpecialSkillsInBattleNewC05Injector : {*(.rodata.pHideSpecialSkillsInBattleNewC05Injector)}
+. = 0x8053d6c;
+.rodata.pHideSpecialSkillsInBattleNewC2EInjector : {*(.rodata.pHideSpecialSkillsInBattleNewC2EInjector)}
+. = 0x8053d70;
+.rodata.pHideSpecialSkillsInBattleNewC2FInjector : {*(.rodata.pHideSpecialSkillsInBattleNewC2FInjector)}
+. = 0x8053da8;
+.rodata.pHideSpecialSkillsInBattleNewC3DInjector : {*(.rodata.pHideSpecialSkillsInBattleNewC3DInjector)}
 . = 0x8028c08;
 .text.SetBattleUnitWeaponInjector : {*(.text.SetBattleUnitWeaponInjector)}
 . = 0x8051170;
