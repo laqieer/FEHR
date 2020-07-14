@@ -42,9 +42,9 @@
 #define Scabiosa Fiora
 #define Plumeria Farina
 
-#define GenericSoldierAskr 0x75
-#define GenericSoldierAskrWeak 0x76
-#define GenericSoldierAskrStrong 0x77
+#define GenericSoldierHel 0x75
+#define GenericSoldierHelWeak 0x76
+#define GenericSoldierHelStrong 0x77
 
 #define GenericSoldierEmblian 0x67
 #define GenericSoldierEmblianWeak 0x68
@@ -65,9 +65,9 @@
 #define GenericSoldierFlameWeak 0x7d
 #define GenericSoldierFlameStrong 0x7e
 
-#define GenericAskr 0x75
-#define GenericAskrWeak 0x76
-#define GenericAskrStrong 0x77
+#define GenericHel 0x75
+#define GenericHelWeak 0x76
+#define GenericHelStrong 0x77
 
 #define GenericEmblian 0x67
 #define GenericEmblianWeak 0x68

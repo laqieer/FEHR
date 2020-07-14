@@ -2068,6 +2068,10 @@ const char* const texts[] = {
                "あの王様を討つなら俺も同行する" TCC_NEWLINE
                "まずは目の前の敵をぶっ殺す！" TCC_NEWLINE TCC_PUSH_A,
 
+       [TEXT_GENERIC_HEL_NAME] = "死の兵士",
+
+       [TEXT_GENERIC_HEL_HELP] = "死の王国ヘルの兵士",
+
 #include "texts.txt"
 };
 
