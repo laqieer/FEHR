@@ -967,4 +967,7 @@ void UnitFinalizeMovement(struct Unit* unit);
 void DisplayPage1();
 void DisplayPage1New();
 
+void increaseUnitSkillCD(struct Unit *unit, char count);
+int isSkillCDFull(struct Unit *unit);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

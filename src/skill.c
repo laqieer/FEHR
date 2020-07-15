@@ -2281,6 +2281,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_HELBINDI_ID] = SPECIAL_SKILL_GLIMMER,
         [CHARACTER_YURG_ID] = SPECIAL_SKILL_GALEFORCE,
         [CHARACTER_HRID_ID] = SPECIAL_SKILL_AEGIS,
+        [CHARACTER_LIF_ID] = SPECIAL_SKILL_OPEN_FUTURE,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -2867,6 +2868,16 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
             case PASSIVE_SKILL_B_GUARD_4:
                 if(attacker->hpInitial >= attacker->unit.maxHp * 0.5)
                     decreaseUnitSkillCD(&defender->unit, 1);
+                break;
+            default:
+                break;
+        }
+
+        switch(getUnitPassiveSkillB(&defender->unit))
+        {
+            case PASSIVE_SKILL_B_DEADLY_BALANCE:
+                if((defender->hpInitial >= defender->unit.maxHp * 0.5 || checkUnitNegativeState(&defender->unit)) && !(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS))
+                    increaseUnitSkillCD(&defender->unit, 1);
                 break;
             default:
                 break;
@@ -4768,6 +4779,14 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             if(defender->hpInitial >= defender->unit.maxHp * 0.5)
                 attacker->battleAttack -= 5;
             break;
+        case PASSIVE_SKILL_B_DEADLY_BALANCE:
+            if(defender->hpInitial >= defender->unit.maxHp * 0.5 || checkUnitNegativeState(&defender->unit))
+            {
+                attacker->battleAttack -= 5;
+                if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense -= 5;
+            }
+            break;
         default:
             break;
     }
@@ -5978,6 +5997,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_A_HEAVY_BLADE_1, PASSIVE_SKILL_A_HEAVY_BLADE_2, PASSIVE_SKILL_A_HEAVY_BLADE_3, PASSIVE_SKILL_A_HEAVY_BLADE_4},
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_A_SORCERY_BLADE_1, PASSIVE_SKILL_A_SORCERY_BLADE_2, PASSIVE_SKILL_A_SORCERY_BLADE_3, PASSIVE_SKILL_A_SORCERY_BLADE_4},
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
+    [CHARACTER_LIF_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -6051,6 +6071,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"速さの封印３", "ターン開始時、敵軍内で最も速さが高い敵の速さー７", "Chill Spd 3", "At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd until its next action."},
     {"速さの封印４", "ターン開始時、敵軍内で最も速さが高い敵の速さー１０", "Chill Spd 4", "At start of turn, inflicts Spd-10 on foe on the enemy team with the highest Spd until its next action."},
     {"凍結の封印", "ターン開始時、自分のＨＰが半分以上なら、敵軍内で最も魔防が低い敵の攻撃、速さー６", "Freezing Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res until its next action."},
+    {"死者の帳尻を", "戦闘開始時、自分のＨＰが半分以上、または自分が【不利な状態異常】を受けている時、戦闘中、敵の攻撃、守備ー５、かつ、敵の攻撃によりダメージを受けた時、奥義発動カウント変動量＋１（この効果は受けたダメージが０の場合も発動する）", "Deadly Balance", "At start of combat, if unit's HP >= 50% or if【Penalty】is active on unit, inflicts Atk/Def-5 on foe and grants Special cooldown charge +1 per foe's attack during combat.(Special cooldown charge granted even if foe's attack deals 0 damage.)"},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -6066,6 +6087,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_B_GUARD_1, PASSIVE_SKILL_B_GUARD_2, PASSIVE_SKILL_B_GUARD_3, PASSIVE_SKILL_B_GUARD_4},
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_B_CHILL_SPD_1, PASSIVE_SKILL_B_CHILL_SPD_2, PASSIVE_SKILL_B_CHILL_SPD_3, PASSIVE_SKILL_B_CHILL_SPD_4},
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL},
+    [CHARACTER_LIF_ID] = {PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -6153,6 +6175,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"攻撃の紫えん２", "戦闘後、敵の周囲２マスの敵の攻撃ー５", "Atk Smoke 2", "Inflicts Atk-5 on foes within 2 spaces of target through their next actions after combat."},
     {"攻撃の紫えん３", "戦闘後、敵の周囲２マスの敵の攻撃ー７", "Atk Smoke 3", "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat."},
     {"攻撃の紫えん４", "戦闘後、敵の周囲２マスの敵の攻撃ー１０", "Atk Smoke 4", "Inflicts Atk-10 on foes within 2 spaces of target through their next actions after combat."},
+    {"始まりのこどう１", "３ターンに１回、ターン開始時、奥義発動カウントが最大値なら、奥義発動カウントー１", "Time's Pulse 1", "At the start of every third turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1."},
+    {"始まりのこどう２", "奇数ターン開始時、奥義発動カウントが最大値なら、奥義発動カウントー１", "Time's Pulse 2", "At start of odd-numbered turns, if Special cooldown count is at its maximum value, grants Special cooldown count-1."},
+    {"始まりのこどう３", "ターン開始時、奥義発動カウントが最大値なら、奥義発動カウントー１", "Time's Pulse 3", "At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1."},
+    {"始まりのこどう４", "ターン開始時、奥義発動カウントが最大値なら、奥義発動カウントー２", "Time's Pulse 4", "At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-2."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -6170,6 +6196,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_HELBINDI_ID] = {PASSIVE_SKILL_C_INFANTRY_PULSE_1, PASSIVE_SKILL_C_INFANTRY_PULSE_2, PASSIVE_SKILL_C_INFANTRY_PULSE_3, PASSIVE_SKILL_C_INFANTRY_PULSE_4},
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_C_SPD_TACTIC_1, PASSIVE_SKILL_C_SPD_TACTIC_2, PASSIVE_SKILL_C_SPD_TACTIC_3, PASSIVE_SKILL_C_SPD_TACTIC_4},
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_C_ATK_SMOKE_1, PASSIVE_SKILL_C_ATK_SMOKE_2, PASSIVE_SKILL_C_ATK_SMOKE_3, PASSIVE_SKILL_C_ATK_SMOKE_4},
+    [CHARACTER_LIF_ID] = {PASSIVE_SKILL_C_TIME_PULSE_1, PASSIVE_SKILL_C_TIME_PULSE_2, PASSIVE_SKILL_C_TIME_PULSE_3, PASSIVE_SKILL_C_TIME_PULSE_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

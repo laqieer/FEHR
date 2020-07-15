@@ -1416,7 +1416,27 @@ void HealUnitsHPByTerrain(int unitIDSideBase)
 
 void UpdateUnitSkillCDEachTurn(struct Unit *unit)
 {
-
+    switch (getUnitPassiveSkillC(unit))
+    {
+        case PASSIVE_SKILL_C_TIME_PULSE_1:
+            if(gRAMChapterData.chapterTurnNumber % 3 == 1 && isSkillCDFull(unit))
+                increaseUnitSkillCD(unit, 1);
+            break;
+        case PASSIVE_SKILL_C_TIME_PULSE_2:
+            if(gRAMChapterData.chapterTurnNumber % 2 == 1 && isSkillCDFull(unit))
+                increaseUnitSkillCD(unit, 1);
+            break;
+        case PASSIVE_SKILL_C_TIME_PULSE_3:
+            if(isSkillCDFull(unit))
+                increaseUnitSkillCD(unit, 1);
+            break;
+        case PASSIVE_SKILL_C_TIME_PULSE_4:
+            if(isSkillCDFull(unit))
+                increaseUnitSkillCD(unit, 2);
+            break;
+        default:
+            break;
+    }
 }
 
 void UpdateUnitsSkillCDEachTurnForSide(struct Unit *units, int number)
@@ -1445,12 +1465,38 @@ void UpdateSkillCDEachTurnForP4Units()
     UpdateUnitsSkillCDEachTurnForSide(P4Units, P4_TOTAL_AMOUNT);
 }
 
-void UpdateUnitsSkillCDEachTurn()
+void UpdateUnitsSkillCDEachTurnForAllUnits()
 {
     UpdateSkillCDEachTurnForPlayerUnits();
     UpdateSkillCDEachTurnForEnemyUnits();
     UpdateSkillCDEachTurnForNPCUnits();
     UpdateSkillCDEachTurnForP4Units();
+}
+
+void UpdateUnitsSkillCDEachTurn()
+{
+    switch (gRAMChapterData.chapterPhaseIndex >> 6)
+    {
+        case PlayerSide: //PlayerSide
+            if(gRAMChapterData.chapterTurnNumber == 1)
+            {
+                UpdateUnitsSkillCDEachTurnForAllUnits();
+            }
+            else
+            {
+                UpdateSkillCDEachTurnForPlayerUnits();
+            }
+            break;
+        case EnemySide: //EnemySide
+                UpdateSkillCDEachTurnForEnemyUnits();
+            break;
+        case NPCSide: //NPCSide
+                UpdateSkillCDEachTurnForNPCUnits();
+            break;
+        default: //TODO: for link arena
+                UpdateSkillCDEachTurnForP4Units();
+            break;
+    }
 }
 
 void HealUnitsHPEachTurn(struct Proc *proc)
@@ -1473,7 +1519,7 @@ void HealUnitsHPEachTurnInjector(struct Proc *proc)
     clearUnitsBuffAndDebuffEachTurn();
     HealUnitsHPEachTurn(proc);
     //if(gRAMChapterData.chapterTurnNumber == 1) // 1st turn only
-        //UpdateUnitsSkillCDEachTurn();
+    UpdateUnitsSkillCDEachTurn();
 }
 
 const struct ProcCmd gProcHealUnitsHPEachTurnInjector = PROC_CALL_ROUTINE(HealUnitsHPEachTurnInjector);
