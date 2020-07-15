@@ -50,3 +50,15 @@
     .rodata.MageKnightMagic : {*(.rodata.MageKnightMagic)}
     . = 0x8E00008 + 0x20 * 0xbb;
     .rodata.ThiefKnife : {*(.rodata.ThiefKnife)}
+    . = 0x8E00008 + 0x20 * 0xbc;
+    .rodata.Revenant : {*(.rodata.Revenant)}
+    . = 0x8E00008 + 0x20 * 0xbd;
+    .rodata.BonewalkerSword : {*(.rodata.BonewalkerSword)}
+    . = 0x8E00008 + 0x20 * 0xbe;
+    .rodata.BonewalkerLance : {*(.rodata.BonewalkerLance)}
+    . = 0x8E00008 + 0x20 * 0xbf;
+    .rodata.BonewalkerDisarmed : {*(.rodata.BonewalkerDisarmed)}
+    . = 0x8E00008 + 0x20 * 0xc0;
+    .rodata.BonewalkerBow : {*(.rodata.BonewalkerBow)}
+    . = 0x8E00008 + 0x20 * 0xc1;
+    .rodata.BonewalkerBowDisarmed : {*(.rodata.BonewalkerBowDisarmed)}
