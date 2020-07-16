@@ -14,6 +14,20 @@
 #include "moving_sprite_MageKnight.h"
 #include "standing_sprite_Halberdier.h"
 #include "moving_sprite_Halberdier.h"
+#include "standing_sprite_Bonewalker.h"
+#include "moving_sprite_Bonewalker.h"
+#include "standing_sprite_BonewalkerBow.h"
+#include "moving_sprite_BonewalkerBow.h"
+#include "standing_sprite_GhostFire.h"
+#include "moving_sprite_GhostFire.h"
+#include "standing_sprite_Phantom.h"
+#include "moving_sprite_Phantom.h"
+#include "standing_sprite_Revenant.h"
+#include "moving_sprite_Revenant.h"
+#include "standing_sprite_Skelemonk.h"
+#include "moving_sprite_Skelemonk.h"
+#include "standing_sprite_UndeadManakete.h"
+#include "moving_sprite_UndeadManakete.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 1, standing_sprite_AlfonseTiles} ,  
@@ -194,19 +208,19 @@ const struct StandingSprite standingSprites[] = {
 
     {0, 0, standing_sprite_HalberdierTiles}, // 88 Halberdier
 
-    {1, 2, 65535} ,  
+    {2, MAP_SPRITE_SIZE_SMALL, standing_sprite_BonewalkerTiles} ,  // 89 Bonewalker
 
-    {0, 0, 1} ,  
+    {2, MAP_SPRITE_SIZE_TALL, standing_sprite_BonewalkerBowTiles} ,  // 90 Bonewalker(Bow)
 
-    {5, 2, 65535} ,  
+    {2, MAP_SPRITE_SIZE_TALL, standing_sprite_GhostFireTiles} ,  // 91 Ghost Fire
 
-    {0, 0, 1} ,  
+    {2, MAP_SPRITE_SIZE_BIG, standing_sprite_PhantomTiles} ,  // 92 Phantom
 
-    {3, 2, 65535} ,  
+    {2, MAP_SPRITE_SIZE_TALL, standing_sprite_RevenantTiles} ,  // 93 Revenant
 
-    {0, 0, 1} ,  
+    {2, MAP_SPRITE_SIZE_TALL, standing_sprite_SkelemonkTiles} ,  // 94 Skelemonk
 
-    {4, 2, 65535} ,  
+    {2, MAP_SPRITE_SIZE_BIG, standing_sprite_UndeadManaketeTiles} ,  // 95 Undead Manakete
 
     {0, 0, 1} ,  
 
@@ -437,6 +451,20 @@ const struct MovingSprite movingSprites[] = {
     {moving_sprite_MageKnightTiles, 138263996} ,  // 0x64 Mage Knight
 
     {moving_sprite_HalberdierTiles, 138263996} ,  // 0x65 Halberdier
+
+    {moving_sprite_BonewalkerTiles, 138263996} ,  // 0x66 Bonewalker
+
+    {moving_sprite_BonewalkerBowTiles, 138263996} ,  // 0x67 BonewalkerBow
+
+    {moving_sprite_GhostFireTiles, 138263996} ,  // 0x68 GhostFire
+
+    {moving_sprite_PhantomTiles, 138263996} ,  // 0x69 Phantom
+
+    {moving_sprite_RevenantTiles, 138263996} ,  // 0x6A Revenant
+
+    {moving_sprite_SkelemonkTiles, 138263996} ,  // 0x6B Skelemonk
+
+    {moving_sprite_UndeadManaketeTiles, 138263996} ,  // 0x6C UndeadManakete
 };
 
 const struct MovingSprite * const pMovingSprites1 = movingSprites;
