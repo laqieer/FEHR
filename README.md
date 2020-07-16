@@ -62,6 +62,9 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 |Ephraim Lord Female|Lance|Circleseverywhere|
 |Thief|Dagger|GabrielKnight, Skitty|
 |Thief Female|Dagger|Pikmin1211, Maiser6, Skitty, GabrielKnight|
+|Phantom|Axe, HandAxe|TBA, Arch, Skitty, Temp|
+|Ghost Fire|Magic|Eldritch Abomination|
+|Skelemonk|Magic|JonoTheRed|
 
 ### Item Icon
 

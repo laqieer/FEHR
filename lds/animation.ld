@@ -62,3 +62,13 @@
     .rodata.BonewalkerBow : {*(.rodata.BonewalkerBow)}
     . = 0x8E00008 + 0x20 * 0xc1;
     .rodata.BonewalkerBowDisarmed : {*(.rodata.BonewalkerBowDisarmed)}
+    . = 0x8E00008 + 0x20 * 0xc2;
+    .rodata.PhantomAxe : {*(.rodata.PhantomAxe)}
+    . = 0x8E00008 + 0x20 * 0xc3;
+    .rodata.PhantomHandAxe : {*(.rodata.PhantomHandAxe)}
+    . = 0x8E00008 + 0x20 * 0xc4;
+    .rodata.PhantomDisarmed : {*(.rodata.PhantomDisarmed)}
+    . = 0x8E00008 + 0x20 * 0xc5;
+    .rodata.GhostFire : {*(.rodata.GhostFire)}
+    . = 0x8E00008 + 0x20 * 0xc6;
+    .rodata.Skelemonk : {*(.rodata.Skelemonk)}
