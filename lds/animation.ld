@@ -72,3 +72,5 @@
     .rodata.GhostFire : {*(.rodata.GhostFire)}
     . = 0x8E00008 + 0x20 * 0xc6;
     .rodata.Skelemonk : {*(.rodata.Skelemonk)}
+    . = 0x8E00008 + 0x20 * 0xc7;
+    .rodata.UndeadManakete : {*(.rodata.UndeadManakete)}
