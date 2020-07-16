@@ -2096,6 +2096,30 @@ const char* const texts[] = {
 
        [TEXT_JOB_HELP_SKELEMONK] = "神官の骸骨　様々な魔法を使って、襲い掛かる",
 
+       [TEXT_ITEM_NAME_SHARP_CLAW] = "するどい爪",
+
+       [TEXT_ITEM_NAME_ROTTEN_CLAW] = "くさった爪",
+
+       [TEXT_ITEM_NAME_FETID_CLAW] = "くさった長爪",
+
+       [TEXT_ITEM_NAME_POISON_CLAW] = "どくの爪",
+
+       [TEXT_ITEM_NAME_LETHAL_CLAW] = "もうどくの爪",
+
+       [TEXT_ITEM_NAME_WRETCHED_AIR] = "腐敗のブレス",
+
+       [TEXT_ITEM_HELP_WRETCHED_AIR] = "あらゆるものを腐敗に導く屍竜の息吹",
+
+       [TEXT_ITEM_HELP_SHARP_CLAW] = "鋭利な爪",
+
+       [TEXT_ITEM_HELP_ROTTEN_CLAW] = "腐敗した爪",
+
+       [TEXT_ITEM_HELP_FETID_CLAW] = "腐敗した長い爪",
+
+       [TEXT_ITEM_HELP_POISON_CLAW] = "毒がぬられた爪",
+
+       [TEXT_ITEM_HELP_LETHAL_CLAW] = "毒がぬられた強力な爪",
+
 #include "texts.txt"
 };
 
