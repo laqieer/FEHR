@@ -346,6 +346,18 @@ const struct Item items[] = {
 {ITEM_NAME_SACRED_SEAL_DEFLECT_MISSILE, ITEM_HELP_SACRED_SEAL_DEFLECT_MISSILE, TEXT_ITEM_CANNOT_USE, 0xa6, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xA6 Sacred Seal: Deflect Missile
 
 {ITEM_NAME_SACRED_SEAL_DEFLECT_MAGIC, ITEM_HELP_SACRED_SEAL_DEFLECT_MAGIC, TEXT_ITEM_CANNOT_USE, 0xa7, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xA7 Sacred Seal: Deflect Magic
+
+{TEXT_ITEM_NAME_WRETCHED_AIR, TEXT_ITEM_HELP_WRETCHED_AIR, TEXT_ITEM_HELP_WRETCHED_AIR, 0xa8, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148245764, 0, 0, 10, 100, 0, 0, 3, 1, 0, 181, ITEM_ICON_WRETCHED_AIR, 0, WPN_EFFECT_POISON, 0} ,  // 0xA8 Wretched Air
+
+{TEXT_ITEM_NAME_SHARP_CLAW, TEXT_ITEM_HELP_SHARP_CLAW, 0, 0xa9, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 65, 14, 0, 1, 1, 0, 0, ITEM_ICON_SHARP_CLAW, 0, 0, 0} ,  // 0xA9 Sharp Claw
+
+{TEXT_ITEM_NAME_ROTTEN_CLAW, TEXT_ITEM_HELP_ROTTEN_CLAW, 0, 0xaa, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 80, 8, 0, 1, 1, 0, 0, ITEM_ICON_ROTTEN_CLAW, 0, 0, 0} ,  // 0xAA Rotten Claw
+
+{TEXT_ITEM_NAME_FETID_CLAW, TEXT_ITEM_HELP_FETID_CLAW, 0, 0xab, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 75, 10, 0, 1, 1, 0, 0, ITEM_ICON_FETID_CLAW, 0, 0, 0} ,  // 0xAB Fetid Claw
+
+{TEXT_ITEM_NAME_POISON_CLAW, TEXT_ITEM_HELP_POISON_CLAW, 0, 0xac, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 65, 10, 0, 1, 1, 0, 0, ITEM_ICON_POISON_CLAW, 1, 0, 0} ,  // 0xAC Poison Claw
+
+{TEXT_ITEM_NAME_LETHAL_CLAW, TEXT_ITEM_HELP_LETHAL_CLAW, 0, 0xad, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 60, 12, 0, 1, 1, 0, 0, ITEM_ICON_SHARP_CLAW, 1, 0, 0} ,  // 0xAD Lethal Claw
 };
 
 const struct Item * const pItems1 = items;
