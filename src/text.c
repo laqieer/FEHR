@@ -2072,6 +2072,30 @@ const char* const texts[] = {
 
        [TEXT_GENERIC_HEL_HELP] = "死の王国ヘルの兵士",
 
+       [TEXT_JOB_NAME_REVANANT] = "マミー",
+
+       [TEXT_JOB_HELP_REVANANT] = "よみがえった亡者　鋭い爪で相手を襲うが、動きは遅い",
+
+       [TEXT_JOB_NAME_BONEWALKER] = "ヘルボーン",
+
+       [TEXT_JOB_HELP_BONEWALKER] = "動き出した骸骨　様々な武器を使って、襲い掛かる",
+
+       [TEXT_JOB_NAME_PHANTOM] = "亡霊戦士",
+
+       [TEXT_JOB_HELP_PHANTOM] = "かつて亡くなった戦士",
+
+       [TEXT_JOB_NAME_UNDEAD_MANAKETE] = "マムクート",
+
+       [TEXT_JOB_HELP_UNDEAD_MANAKETE] = "死してよみがえったマムクート",
+
+       [TEXT_JOB_NAME_GHOST_FIRE] = "鬼火",
+
+       [TEXT_JOB_HELP_GHOST_FIRE] = "亡霊火　空中を浮遊する火の玉",
+
+       [TEXT_JOB_NAME_SKELEMONK] = "スケルトン神官",
+
+       [TEXT_JOB_HELP_SKELEMONK] = "神官の骸骨　様々な魔法を使って、襲い掛かる",
+
 #include "texts.txt"
 };
 
