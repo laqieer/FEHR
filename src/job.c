@@ -3,6 +3,7 @@
 //
 
 #include "job.h"
+#include "item.h"
 #include "job_id.h"
 #include "item_id.h"
 #include "text_id.h"
@@ -174,6 +175,58 @@ const struct JobBattleAnimationConf LordKnightAnimationConf[] = {
     {Sword, 1, 3},
     {Disarmed, 1, 6},
     {Lance, 1, 5},
+    JobBattleAnimationConfEnd
+};
+
+const struct JobBattleAnimationConf BonewalkerAnimationConf[] = {
+    {Sword, 1, 1 + 0xbd},
+    {Disarmed, 1, 1 + 0xbf},
+    {Lance, 1, 1 + 0xbe},
+    JobBattleAnimationConfEnd
+};
+
+const struct JobBattleAnimationConf BonewalkerBowAnimationConf[] = {
+    {Bow, 1, 1 + 0xc0},
+    {Disarmed, 1, 1 + 0xc1},
+    JobBattleAnimationConfEnd
+};
+
+const struct JobBattleAnimationConf RevenantAnimationConf[] = {
+    {Disarmed, 1, 1 + 0xbc},
+    {DragonStone, 1, 1 + 0xbc},
+    {FlameDragonStone, 1, 1 + 0xbc},
+    JobBattleAnimationConfEnd
+};
+
+const struct JobBattleAnimationConf PhantomAnimationConf[] = {
+    {Axe, 1, 1 + 0xc2},
+    {ITEM_HAND_AXE, 0, 1 + 0xc3},
+    {ITEM_TOMAHAWK, 0, 1 + 0xc3},
+    {Disarmed, 1, 1 + 0xc4},
+    JobBattleAnimationConfEnd
+};
+
+const struct JobBattleAnimationConf UndeadManaketeAnimationConf[] = {
+    {Disarmed, 1, 1 + 0xc7},
+    {DragonStone, 1, 1 + 0xc7},
+    {FlameDragonStone, 1, 1 + 0xc7},
+    JobBattleAnimationConfEnd
+};
+
+const struct JobBattleAnimationConf GhostFireAnimationConf[] = {
+    {Disarmed, 1, 1 + 0xc5},
+    {AnimaMagic, 1, 1 + 0xc5},
+    {LightMagic, 1, 1 + 0xc5},
+    {DarkMagic, 1, 1 + 0xc5},
+    JobBattleAnimationConfEnd
+};
+
+const struct JobBattleAnimationConf SkelemonkAnimationConf[] = {
+    {Staff, 1, 1 + 0xc6},
+    {Disarmed, 1, 1 + 0xc6},
+    {AnimaMagic, 1, 1 + 0xc6},
+    {LightMagic, 1, 1 + 0xc6},
+    {DarkMagic, 1, 1 + 0xc6},
     JobBattleAnimationConfEnd
 };
 
@@ -387,6 +440,20 @@ const struct Job jobs[] = {
 {TEXT_JOB_NAME_MAGE_KNIGHT, TEXT_JOB_HELP_MAGE_KNIGHT, 100, 32, 86, 0, CLASSCARD_MAGE_KNIGHT, 35, 19, 4, 3, 5, 4, 8, 6, 8, 60, 24, 26, 25, 24, 25, 25, 3, 45, 35, 25, 45, 10, 40, 40, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 71, 71, 1, MageKnightAnimationConf, 147140191, 147141296, 147142336, 147142661, 147142726, 147142791, 0} ,  // 0x64 Mage Knight
 
 {TEXT_JOB_NAME_HALBERDIER, TEXT_JOB_HELP_HALBERDIER, 101, 0x38, 88, 0, CLASSCARD_HALBERDIER, 46, 20 + 10, 3 + 5, 0, 1, 0 + 5, 0, 7, 6, 60, 25, 27, 26, 28, 20, 20, 3, 80, 50 + 10, 30, 20, 12 + 10, 15, 25, 2, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, HalberdierAnimationConf, 147139541, 147140646, 147141686, 147142661, 147142726, 147142791, 0} ,  // 0x65 Halberdier
+
+{TEXT_JOB_NAME_BONEWALKER, TEXT_JOB_HELP_BONEWALKER, 102, 0, 89, 0, CLASSCARD_BONEWALKER, 46, 21, 7, 5, 6, 5, 2, 9, 6, 60, 24, 28, 26, 22, 23, 25, 3, 65, 25, 25, 20, 15, 22, 10, 2, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, WPN_EXP_A, WPN_EXP_A, 0, 0, 0, 0, 0, 0, BonewalkerAnimationConf, 147139541, 147140646, 147141686, 147142661, 147142726, 147142791, 0} ,  // 0x66 Bonewalker
+
+{TEXT_JOB_NAME_BONEWALKER, TEXT_JOB_HELP_BONEWALKER, 103, 0, 90, 0, CLASSCARD_BONEWALKER, 46, 21, 6, 6, 5, 5, 2, 8, 6, 60, 25, 30, 28, 25, 23, 20, 3, 65, 30, 30, 20, 15, 20, 10, 2, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, WPN_EXP_A, 0, 0, 0, 0, BonewalkerBowAnimationConf, 147139541, 147140646, 147141686, 147142661, 147142726, 147142791, 0} ,  // 0x67 Bonewalker(Bow)
+
+{TEXT_JOB_NAME_GHOST_FIRE, TEXT_JOB_HELP_GHOST_FIRE, 104, 0, 91, 0, CLASSCARD_GHOST, 41, 20, 10, 7, 7, 7, 4, 6, 8, 60, 30, 30, 30, 20, 20, 30, 3, 60, 40, 40, 40, 10, 10, 40, 5, 2, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, WPN_EXP_D, WPN_EXP_D, WPN_EXP_C, GhostFireAnimationConf, 147140386, 147141491, 147142531, 147142856, 147142921, 147142986, 0} ,  // 0x68 Ghost Fire
+
+{TEXT_JOB_NAME_PHANTOM, TEXT_JOB_HELP_PHANTOM, 105, 0, 92, 0, CLASSCARD_PHANTOM, 49, 24, 7, 6, 7, 6, 0, 13, 6, 60, 30, 29, 28, 23, 21, 20, 3, 75, 50, 35, 25, 10, 13, 15, 4, 1, 1, 1, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, WPN_EXP_C, 0, 0, 0, 0, 0, PhantomAnimationConf, 147140386, 147141491, 147142531, 147142856, 147142921, 147142986, 0} ,  // 0x69 Phantom
+
+{TEXT_JOB_NAME_REVANANT, TEXT_JOB_HELP_REVANANT, 106, 0, 93, 0, CLASSCARD_REVENANT, 46, 35, 3, 0, 1, 0, 0, 6, 5, 80, 25, 22, 21, 24, 22, 25, 3, 85, 40, 25, 17, 10, 13, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, RevenantAnimationConf, 147139541, 147140646, 147141686, 147142661, 147142726, 147142791, 0} ,  // 0x6A Revenant
+
+{TEXT_JOB_NAME_SKELEMONK, TEXT_JOB_HELP_SKELEMONK, 107, 0, 94, 0, CLASSCARD_BONEWALKER, 46, 31, 8, 6, 5, 5, 5, 8, 6, 80, 30, 25, 25, 30, 30, 25, 3, 85, 50, 20, 20, 50, 50, 10, 2, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, SkelemonkAnimationConf, 147139541, 147140646, 147141686, 147142661, 147142726, 147142791, 0} ,  // 0x6B Skelemonk
+
+{TEXT_JOB_NAME_UNDEAD_MANAKETE, TEXT_JOB_HELP_UNDEAD_MANAKETE, 108, 0, 95, 0, CLASSCARD_DRACOZOMBIE, 0, 40, 0, 0, 0, 0, 0, 25, 8, -56, 50, 50, 50, 50, 50, 25, 3, 95, 40, 30, 20, 0, 20, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, UndeadManaketeAnimationConf, 147140386, 147141491, 147142531, 147142856, 147142921, 147142986, 0} ,  // 0x6C Undead Manakete
 
 };
 
