@@ -16,7 +16,7 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":76,
+ "tilecount":83,
  "tiledversion":"1.4.1",
  "tileheight":32,
  "tiles":[
@@ -475,6 +475,48 @@
          "image":"enemy_units\/SwordGreatLord.png",
          "imageheight":16,
          "imagewidth":16
+        }, 
+        {
+         "id":77,
+         "image":"enemy_units\/Bonewalker.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":78,
+         "image":"enemy_units\/BonewalkerBow.png",
+         "imageheight":17,
+         "imagewidth":16
+        }, 
+        {
+         "id":79,
+         "image":"enemy_units\/Phantom.png",
+         "imageheight":15,
+         "imagewidth":15
+        }, 
+        {
+         "id":80,
+         "image":"enemy_units\/Revenant.png",
+         "imageheight":16,
+         "imagewidth":15
+        }, 
+        {
+         "id":81,
+         "image":"enemy_units\/UndeadManakete.png",
+         "imageheight":26,
+         "imagewidth":20
+        }, 
+        {
+         "id":82,
+         "image":"enemy_units\/GhostFire.png",
+         "imageheight":18,
+         "imagewidth":8
+        }, 
+        {
+         "id":83,
+         "image":"enemy_units\/Skelemonk.png",
+         "imageheight":16,
+         "imagewidth":13
         }],
  "tilewidth":30,
  "type":"tileset",
