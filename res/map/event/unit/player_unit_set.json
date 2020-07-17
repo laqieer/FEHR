@@ -16,7 +16,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":13,
+ "tilecount":14,
  "tiledversion":"1.4.1",
  "tileheight":24,
  "tiles":[
@@ -97,6 +97,12 @@
          "image":"player_units\/General.png",
          "imageheight":22,
          "imagewidth":16
+        }, 
+        {
+         "id":13,
+         "image":"player_units\/Bishop_F.png",
+         "imageheight":15,
+         "imagewidth":15
         }],
  "tilewidth":16,
  "type":"tileset",
