@@ -68,9 +68,9 @@ AllyUnitsENM:
 	UNIT(Surtr,General,Anna,1,SIDE_ALLY,1,9,11,9,11,Basilikos,Tomahawk,Boots,0,0,0,0,0)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(GenericHelWeak,Halberdier,0,1,SIDE_ENEMY,1,0,3,0,3,IronLance,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // ランスファイター
-	UNIT(GenericHelWeak,WyvernLord,0,1,SIDE_ENEMY,1,14,16,14,16,HandAxe,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // アクスドラゴン
-	UNIT(GenericHelWeak,MagicFalcoKnight,0,1,SIDE_ENEMY,1,0,19,0,19,Fire,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // レッドペガサス
+	UNIT(GenericHelWeak,BoneWalker,0,1,SIDE_ENEMY,1,0,3,0,3,IronLance,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // ランスファイター
+	UNIT(GenericHelWeak,Phantom,0,1,SIDE_ENEMY,1,14,16,14,16,HandAxe,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // アクスドラゴン
+	UNIT(GenericHelWeak,GhostFire,0,1,SIDE_ENEMY,1,0,19,0,19,Fire,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // レッドペガサス
 	END_UNIT
 NPCUnits:
 	END_UNIT

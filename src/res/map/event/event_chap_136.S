@@ -48,8 +48,8 @@ AllyUnitsENM:
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericHelWeak,Thief,0,2,SIDE_ENEMY,1,3,4,3,4,IronDagger,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // グリーンシーフ
-	UNIT(GenericHelWeak,Sniper,0,2,SIDE_ENEMY,1,8,0,8,0,IronBow,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // レッドボウ
-	UNIT(GenericHelWeak,General,0,2,SIDE_ENEMY,1,10,8,10,8,IronLance,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ランスアーマー
+	UNIT(GenericHelWeak,BonewalkerBow,0,2,SIDE_ENEMY,1,8,0,8,0,IronBow,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // レッドボウ
+	UNIT(GenericHelWeak,Bonewalker,0,2,SIDE_ENEMY,1,10,8,10,8,IronLance,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ランスアーマー
 	END_UNIT
 NPCUnits:
 	END_UNIT
