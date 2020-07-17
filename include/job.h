@@ -260,5 +260,6 @@ extern const u8 JobListKnight[];
 extern const u8 JobListArmourAndKnight[];
 extern const u8 JobListFlier[];
 extern const u8 JobListInfantry[];
+extern const u8 JobListUndead[];
 
 #endif //FE7_JP_STUNNING_TRIBBLE_JOB_H

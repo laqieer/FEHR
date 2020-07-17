@@ -5,6 +5,7 @@
 #include <gba_base.h>
 
 #include "job.h"
+#include "job_id.h"
 #include "character.h"
 #include "skill.h"
 
@@ -649,10 +650,15 @@ s8 IsUnitInfantry(struct Unit* unit)
     return IsUnitInJobList(unit, JobListInfantry);
 }
 
+s8 IsUnitUndead(struct Unit* unit)
+{
+    return IsUnitInJobList(unit, JobListUndead);
+}
+
 s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target)
 {
     // effect of unit state Effective against dragons & Dragon Shield
-    return checkUnitStateEffectiveAgainstDragons(actor) && (!checkUnitStateDragonShield(target)) && IsUnitDragon(target);
+    return (checkUnitStateEffectiveAgainstDragons(actor) && (!checkUnitStateDragonShield(target)) && IsUnitDragon(target)) || (IsUnitUndead(target) && (actor->job->id == JOB_ID_BISHOP || actor->job->id == JOB_ID_BISHOP_F)) ;
 }
 
 void BattleApplyTriangleAdeptEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
