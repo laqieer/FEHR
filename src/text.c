@@ -2106,7 +2106,7 @@ const char* const texts[] = {
 
        [TEXT_ITEM_NAME_LETHAL_CLAW] = "もうどくの爪",
 
-       [TEXT_ITEM_NAME_WRETCHED_AIR] = "腐敗のブレス",
+       [TEXT_ITEM_NAME_WRETCHED_AIR] = "ふはいのブレス",
 
        [TEXT_ITEM_HELP_WRETCHED_AIR] = "あらゆるものを腐敗に導く屍竜の息吹",
 
@@ -2119,6 +2119,8 @@ const char* const texts[] = {
        [TEXT_ITEM_HELP_POISON_CLAW] = "毒がぬられた爪",
 
        [TEXT_ITEM_HELP_LETHAL_CLAW] = "毒がぬられた強力な爪",
+       
+       [TEXT_JOB_HELP_BISHOP] = "死者に対し絶大な力を発揮する聖職者",
 
 #include "texts.txt"
 };
