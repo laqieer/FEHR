@@ -105,6 +105,15 @@
 #define SwordGreatLord 4
 #define LanceGreatLord 5
 #define AxeGreatLord 6
+#define Bonewalker 102
+#define BoneWalker Bonewalker
+#define BonewalkerBow 103
+#define BoneWalkerBow BonewalkerBow
+#define GhostFire 104
+#define Phantom 105
+#define Revenant 106
+#define Skelemonk 107
+#define UndeadManakete 108
 
 // Items
 #define HeavyLance HeavySpear
@@ -122,5 +131,11 @@
 #define DeflectMelee 0xa5
 #define DeflectMissile 0xa6
 #define DeflectMagic 0xa7
+#define WretchedAir 0xa8
+#define SharpClaw 0xa9
+#define RottenClaw 0xaa
+#define FetidClaw 0xab
+#define PoisonClaw 0xac
+#define LethalClaw 0xad
 
 #endif
