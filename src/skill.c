@@ -6071,7 +6071,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"‘¬‚³‚Ì••ˆó‚R", "ƒ^[ƒ“ŠJnA“GŒR“à‚ÅÅ‚à‘¬‚³‚ª‚‚¢“G‚Ì‘¬‚³[‚V", "Chill Spd 3", "At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd until its next action."},
     {"‘¬‚³‚Ì••ˆó‚S", "ƒ^[ƒ“ŠJnA“GŒR“à‚ÅÅ‚à‘¬‚³‚ª‚‚¢“G‚Ì‘¬‚³[‚P‚O", "Chill Spd 4", "At start of turn, inflicts Spd-10 on foe on the enemy team with the highest Spd until its next action."},
     {"“€Œ‹‚Ì••ˆó", "ƒ^[ƒ“ŠJnA©•ª‚Ì‚g‚o‚ª”¼•ªˆÈã‚È‚çA“GŒR“à‚ÅÅ‚à–‚–h‚ª’á‚¢“G‚ÌUŒ‚A‘¬‚³[‚U", "Freezing Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res until its next action."},
-    {"€Ò‚Ì’ K‚ğ", "í“¬ŠJnA©•ª‚Ì‚g‚o‚ª”¼•ªˆÈãA‚Ü‚½‚Í©•ª‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éAí“¬’†A“G‚ÌUŒ‚Aç”õ[‚TA‚©‚ÂA“G‚ÌUŒ‚‚É‚æ‚èƒ_ƒ[ƒW‚ğó‚¯‚½A‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚Pi‚±‚ÌŒø‰Ê‚Íó‚¯‚½ƒ_ƒ[ƒW‚ª‚O‚Ìê‡‚à”­“®‚·‚éj", "Deadly Balance", "At start of combat, if unit's HP >= 50% or ifyPenaltyzis active on unit, inflicts Atk/Def-5 on foe and grants Special cooldown charge +1 per foe's attack during combat.(Special cooldown charge granted even if foe's attack deals 0 damage.)"},
+    {"€Ò‚Ì‚¿‚å‚¤‚¶‚è‚ğ", "í“¬ŠJnA©•ª‚Ì‚g‚o‚ª”¼•ªˆÈãA‚Ü‚½‚Í©•ª‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éAí“¬’†A“G‚ÌUŒ‚Aç”õ[‚TA‚©‚ÂA“G‚ÌUŒ‚‚ğó‚¯‚½A‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Deadly Balance", "At start of combat, if unit's HP >= 50% or ifyPenaltyzis active on unit, inflicts Atk/Def-5 on foe and grants Special cooldown charge +1 per foe's attack during combat.(Special cooldown charge granted even if foe's attack deals 0 damage.)"},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
