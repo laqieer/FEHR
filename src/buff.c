@@ -957,7 +957,7 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
 
     for(int i = 0; i < skillUnitNumber; i++)
     {
-        if((skillUnits[i].state & UNIT_STATE_UNAVAILABLE) == 0 && skillUnits[i].character && skillUnits[i].job && skillUnits[i].hp && getUnitPassiveSkillA(&skillUnits[i]))
+        if((skillUnits[i].state & UNIT_STATE_UNAVAILABLE) == 0 && skillUnits[i].character && skillUnits[i].job && skillUnits[i].hp && (getUnitPassiveSkillA(&skillUnits[i]) || getUnitPassiveSkillB(&skillUnits[i]) || getUnitPassiveSkillC(&skillUnits[i])))
         {
             for(int j = 0; j < targetUnitNumber; j++)
             {
