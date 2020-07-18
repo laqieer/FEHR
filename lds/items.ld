@@ -36,8 +36,6 @@
 .rodata.pItems18 : {*(.rodata.pItems18)}
 . = 0x8016C4C;
 .rodata.pItems19 : {*(.rodata.pItems19)}
-. = 0x8016CA4;
-.rodata.pItems20 : {*(.rodata.pItems20)}
 . = 0x8016D50;
 .rodata.pItems21 : {*(.rodata.pItems21)}
 . = 0x8016E18;
@@ -122,3 +120,5 @@
 .rodata.pItemSpellAssociations1 : {*(.rodata.pItemSpellAssociations1)}
 . = 0x806C1D0;
 .rodata.pItemSpellAssociations2 : {*(.rodata.pItemSpellAssociations2)}
+. = 0x8016C80;
+.text.IsItemEffectiveAgainstInjector : {*(.text.IsItemEffectiveAgainstInjector)}

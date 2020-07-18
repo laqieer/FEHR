@@ -165,7 +165,6 @@ GetItemLukBonus = 0x80165c5;
 GetUnitEquippedItem = 0x8016bc5;
 GetUnitEquippedWeaponSlot = 0x8016bf5;
 IsItemCoveringRange = 0x8016c29;
-IsItemEffectiveAgainst = 0x8016c81;
 GetUnitMovementCost = 0x8018bc5;
 GetItemIndex = 0x8017609;
 GetItemType = 0x8017665;

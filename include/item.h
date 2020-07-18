@@ -7,6 +7,8 @@
 
 #include <gba_types.h>
 
+#include "character.h"
+
 struct EquipBuff
 {
 

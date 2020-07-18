@@ -3,6 +3,7 @@
 //
 
 #include "item.h"
+#include "character.h"
 #include "job.h"
 #include "text_id.h"
 #include "item_id.h"
@@ -601,4 +602,46 @@ s8 IsWeaponMagic(u16 item)
 u16 hasWeaponLegendFlash(u16 weapon)
 {
     return 0;
+}
+
+s8 IsItemEffectiveAgainst(u16 item, struct Unit* unit) {
+    if (unit->job) {
+        int classId = unit->job->id;
+        const u8* effList = GetItemEffectiveness(item);
+
+        if (!effList)
+            return 0;
+
+        for (; *effList; ++effList)
+            if (*effList == classId)
+                // NOTE: maybe there's a better way to make this work (using an inline maybe?)
+                goto check_flying_effectiveness_negation;
+
+        return 0;
+
+        check_flying_effectiveness_negation: {
+            u32 attributes;
+            int i;
+
+            if (GetItemEffectiveness(item) != JobListFlier)
+                return 1;
+
+            attributes = 0;
+
+            for (i = 0; i < 5; ++i)
+                attributes = attributes | GetItemAttributes(unit->items[i].itemId);
+
+            if (!(attributes & IA_NEGATE_FLYING))
+                return 1;
+            else
+                return 0;
+        }
+    }
+
+    return 0;
+}
+
+s8 IsItemEffectiveAgainstInjector(u16 item, struct Unit* unit)
+{
+    return IsItemEffectiveAgainst(item, unit);
 }
