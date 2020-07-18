@@ -8,6 +8,7 @@
 #include "text_id.h"
 #include "item_id.h"
 #include "item_icon.h"
+#include "skill.h"
 
 const int sizeofItem = sizeof(struct Item);
 
@@ -644,4 +645,32 @@ s8 IsItemEffectiveAgainst(u16 item, struct Unit* unit) {
 s8 IsItemEffectiveAgainstInjector(u16 item, struct Unit* unit)
 {
     return IsItemEffectiveAgainst(item, unit);
+}
+
+void BKSEL_Draw(struct Proc *proc)
+{
+    *(u32 *)(&proc->data[3]) = 0;
+    proc->data[0xb] = 0;
+    if(proc->data[9] == 1)
+    {
+        func8033a38(proc);
+        func8033b40(proc);
+        if((gBattleActor.weapon || gBattleActor.weaponBroke) && IsUnitEffectiveAgainst(&gBattleActor.unit, &gBattleTarget.unit))
+            proc->data[0x29] = 1;
+    }
+    else
+    {
+        if(proc->data[9] == 2)
+        {
+            func8033a38(proc);
+            func8033d60(proc);
+            if((gBattleTarget.weapon || gBattleTarget.weaponBroke) && IsUnitEffectiveAgainst(&gBattleTarget.unit, &gBattleActor.unit))
+                proc->data[0x2a] = 1;
+        }
+    }
+}
+
+void BKSEL_DrawInjector(struct Proc *proc)
+{
+    BKSEL_Draw(proc);
 }

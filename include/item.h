@@ -8,6 +8,7 @@
 #include <gba_types.h>
 
 #include "character.h"
+#include "proc.h"
 
 struct EquipBuff
 {
@@ -313,5 +314,9 @@ s8 IsWeaponLance(u16 item);
 s8 IsWeaponAxe(u16 item);
 s8 IsWeaponBow(u16 item);
 s8 IsWeaponMagic(u16 item);
+
+void func8033a38(struct Proc *proc);
+void func8033b40(struct Proc *proc);
+void func8033d60(struct Proc *proc);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_ITEM_H

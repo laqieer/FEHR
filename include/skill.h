@@ -959,6 +959,8 @@ extern struct BattleUnit *battleUnitAtLeft;
 extern struct BattleUnit *battleUnitAtRight;
 extern short SpellAnimationIDAtLeft;
 extern short SpellAnimationIDAtRight;
+extern short IsEffectiveAtLeft;
+extern short IsEffectiveAtRight;
 
 void MoveActiveUnit(int x, int y);
 void BWL_AddTilesMoved(int pid, int amount);

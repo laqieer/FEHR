@@ -7541,6 +7541,8 @@ s8 InitializeBattleDataBeforeAnimation()
                     SpellAnimationIDAtRight = getDefaultSpellAnimationID(battleUnitAtRight);
             }
         }
+        IsEffectiveAtLeft |= IsUnitEffectiveAgainst(&battleUnitAtLeft->unit, &battleUnitAtRight->unit);
+        IsEffectiveAtRight |= IsUnitEffectiveAgainst(&battleUnitAtRight->unit, &battleUnitAtLeft->unit);
     }
 
     return isRealAnimation;

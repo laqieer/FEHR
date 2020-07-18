@@ -122,3 +122,5 @@
 .rodata.pItemSpellAssociations2 : {*(.rodata.pItemSpellAssociations2)}
 . = 0x8016C80;
 .text.IsItemEffectiveAgainstInjector : {*(.text.IsItemEffectiveAgainstInjector)}
+. = 0x8033FAC;
+.text.BKSEL_DrawInjector : {*(.text.BKSEL_DrawInjector)}

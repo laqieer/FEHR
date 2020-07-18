@@ -85,6 +85,8 @@ characterIdAtLeft = 0x203e074;
 characterIdAtRight = 0x203e075;
 SpellAnimationIDAtLeft = 0x203dffc;
 SpellAnimationIDAtRight = 0x203dffe;
+IsEffectiveAtLeft = 0x203e0bc;
+IsEffectiveAtRight = 0x203e0be;
 
 gpDefaultChapterEvent = 0x203f008;
 
@@ -209,6 +211,9 @@ BattleGenerateHitEffects = 0x802984d;
 BattleApplyReaverEffect = 0x802a5d1;
 HandleActiveUnitDeath = 0x802ff61;
 NewBottomHelpText = 0x8032a91;
+func8033a38 = 0x8033a39;
+func8033b40 = 0x8033b41;
+func8033d60 = 0x8033d61;
 GetBallistaItemAt = 0x8034ba1;
 DrawUiFrame = 0x804a4cd;
 DrawMenuItemHover = 0x804adbd;
