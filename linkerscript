@@ -5,6 +5,10 @@ gLevelUpProc = 0x20200ac;
 
 gCurrentSelectedItemInOptionMenu = 0x202016a;
 
+flag202013c = 0x202013c;
+DeleteAnimsOnPopup = 0x806b85d;
+endNotQuitIfNoWeaponRankUp = 0x806bd37;
+
 DAT_0203e0ac = 0x203e0ac;
 
 gStatScreen = 0x200310C;

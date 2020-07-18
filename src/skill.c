@@ -6923,6 +6923,15 @@ char *getNewUnlockedPassiveSkillNameTextByCurrentAIS()
 
 extern struct Proc *gLevelUpProc;
 
+s8 isNewPassiveSkillUnlocked()
+{
+    if(battleUnitAtRight->unit.side == PlayerSide)
+        return getNewUnlockedPassiveSkillNameText(&battleUnitAtRight->unit) && battleUnitAtRight->unit.lv > battleUnitAtRight->levelPrevious;
+    if(battleUnitAtLeft->unit.side == PlayerSide)
+        return getNewUnlockedPassiveSkillNameText(&battleUnitAtLeft->unit) && battleUnitAtLeft->unit.lv > battleUnitAtLeft->levelPrevious;
+    return 0;
+}
+
 void newPopupPassiveSkillUnlocked(struct Proc *proc, struct Unit *unit)
 {
     if(gLevelUpProc != NULL && getNewUnlockedPassiveSkillNameText(unit) && unit->side == PlayerSide && !(unit->state & UNIT_STATE_UNAVAILABLE) && ((gBattleActor.unit.side == PlayerSide && gBattleActor.unit.lv > gBattleActor.levelPrevious) || (gBattleTarget.unit.side == PlayerSide && gBattleTarget.unit.lv > gBattleTarget.levelPrevious)))
@@ -6948,7 +6957,35 @@ const struct ProcCmd gProcNewPopupPassiveSkillUnlockedWhenLevelUp1 = PROC_LOOP_R
 
 const struct ProcCmd gProcNewPopupPassiveSkillUnlockedWhenLevelUp2 = PROC_LOOP_ROUTINE(newPopupPassiveSkillUnlockedWhenLevelUp);
 
-const u16 notQuitIfNoWeaponRankUp[6] = {0xd112, 0, 0, 0, 0, 0};
+void notQuitIfNoWeaponRankUp()
+{
+    if(!isNewPassiveSkillUnlocked())
+    {
+        flag202013c = 1;
+        DeleteAnimsOnPopup();
+    }
+}
+
+#pragma GCC push_options
+#pragma GCC optimize ("-O2")
+
+void notQuitIfNoWeaponRankUpInjector() __attribute__ ((noreturn));
+
+void notQuitIfNoWeaponRankUpInjector()
+{
+    notQuitIfNoWeaponRankUp();
+    asm volatile ("pop {r4}");
+    asm volatile ("pop {r0}");
+    InjectorR0(endNotQuitIfNoWeaponRankUp); // end of function 0x806bbf8
+}
+
+void notQuitIfNoWeaponRankUpInjectorInjector()
+{
+    InjectorR0(notQuitIfNoWeaponRankUpInjector);
+}
+
+#pragma GCC pop_options
+
 /*
 void StartBattleAnimHitEffectsDefault(void *AIS, int ifMiss)
 {

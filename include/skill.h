@@ -972,4 +972,9 @@ void DisplayPage1New();
 void increaseUnitSkillCD(struct Unit *unit, char count);
 int isSkillCDFull(struct Unit *unit);
 
+s8 isNewPassiveSkillUnlocked();
+extern u32 flag202013c;
+void DeleteAnimsOnPopup();
+void endNotQuitIfNoWeaponRankUp();
+
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H

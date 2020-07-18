@@ -24,8 +24,8 @@
 .rodata.gProcNewPopupPassiveSkillUnlockedWhenLevelUp1 : {*(.rodata.gProcNewPopupPassiveSkillUnlockedWhenLevelUp1)}
 . = 0x8c4c0c8;
 .rodata.gProcNewPopupPassiveSkillUnlockedWhenLevelUp2 : {*(.rodata.gProcNewPopupPassiveSkillUnlockedWhenLevelUp2)}
-. = 0x806bd08;
-.rodata.notQuitIfNoWeaponRankUp : {*(.rodata.notQuitIfNoWeaponRankUp)}
+. = 0x806bd0c;
+.text.notQuitIfNoWeaponRankUpInjectorInjector : {*(.text.notQuitIfNoWeaponRankUpInjectorInjector)}
 . = 0x80807f0;
 .text.InitTextsInjectorInjector : {*(.text.InitTextsInjectorInjector)}
 . = 0x80294d8;
