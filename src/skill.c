@@ -2282,6 +2282,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_YURG_ID] = SPECIAL_SKILL_GALEFORCE,
         [CHARACTER_HRID_ID] = SPECIAL_SKILL_AEGIS,
         [CHARACTER_LIF_ID] = SPECIAL_SKILL_OPEN_FUTURE,
+        [CHARACTER_SRASIR_ID] = SPECIAL_SKILL_MOONBOW,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -2847,6 +2848,19 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
                 if(attacker->unit.pow > defender->unit.pow)
                     increaseUnitSkillCD(&attacker->unit, 1);
                 break;
+            case PASSIVE_SKILL_A_FLASHING_BLADE_1:
+                if(attacker->unit.spd >= defender->unit.spd + 5)
+                    increaseUnitSkillCD(&attacker->unit, 1);
+                break;
+            case PASSIVE_SKILL_A_FLASHING_BLADE_2:
+                if(attacker->unit.spd >= defender->unit.spd + 3)
+                    increaseUnitSkillCD(&attacker->unit, 1);
+                break;
+            case PASSIVE_SKILL_A_FLASHING_BLADE_3:
+            case PASSIVE_SKILL_A_FLASHING_BLADE_4:
+                if(attacker->unit.spd > defender->unit.spd)
+                    increaseUnitSkillCD(&attacker->unit, 1);
+                break;
             default:
                 break;
         }
@@ -3405,6 +3419,32 @@ void debuffP4AtkBy10(struct Unit *unit)
     debuffP4Atk(unit, -10);
 }
 
+void makeUnitPanicBySide(struct Unit *unit, int side)
+{
+    if(isUnitAlive(unit) && unit->side == side)
+        setUnitStatePanic(unit);
+}
+
+void makePlayerPanic(struct Unit *unit)
+{
+    makeUnitPanicBySide(unit, PlayerSide);
+}
+
+void makeEnemyPanic(struct Unit *unit)
+{
+    makeUnitPanicBySide(unit, EnemySide);
+}
+
+void makeNPCPanic(struct Unit *unit)
+{
+    makeUnitPanicBySide(unit, NPCSide);
+}
+
+void makeP4Panic(struct Unit *unit)
+{
+    makeUnitPanicBySide(unit, P4Side);
+}
+
 void PassiveSkillCEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     switch(getUnitPassiveSkillC(&gBattleActor.unit))
@@ -3553,12 +3593,175 @@ void PassiveSkillCEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
             }
             break;
 
+        case PASSIVE_SKILL_C_PANIC_SMOKE_1:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn1Space(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makePlayerPanic);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn1Space(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeEnemyPanic);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn1Space(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeNPCPanic);
+                    break;
+                default:
+                    ForEachUnitIn1Space(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeP4Panic);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_PANIC_SMOKE_2:
+        case PASSIVE_SKILL_C_PANIC_SMOKE_3:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makePlayerPanic);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeEnemyPanic);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeNPCPanic);
+                    break;
+                default:
+                    ForEachUnitIn2Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeP4Panic);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_PANIC_SMOKE_4:
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn3Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makePlayerPanic);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn3Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeEnemyPanic);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn3Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeNPCPanic);
+                    break;
+                default:
+                    ForEachUnitIn3Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, makeP4Panic);
+                    break;
+            }
+            break;
+
         default:
             break;
     }
 
     switch(getUnitPassiveSkillC(&gBattleTarget.unit))
     {
+        case PASSIVE_SKILL_C_ATK_SMOKE_1:
+            switch(gBattleActor.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffPlayerAtkBy3);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffEnemyAtkBy3);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffNPCAtkBy3);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffP4AtkBy3);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_ATK_SMOKE_2:
+            switch(gBattleActor.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffPlayerAtkBy5);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffEnemyAtkBy5);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffNPCAtkBy5);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffP4AtkBy5);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_ATK_SMOKE_3:
+            switch(gBattleActor.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffPlayerAtkBy7);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffEnemyAtkBy7);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffNPCAtkBy7);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffP4AtkBy7);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_ATK_SMOKE_4:
+            switch(gBattleActor.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffPlayerAtkBy10);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffEnemyAtkBy10);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffNPCAtkBy10);
+                    break;
+                default:
+                    ForEachUnitIn2SpacesExceptActorUnit(gBattleActor.unit.positionX, gBattleActor.unit.positionY, debuffP4AtkBy10);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_PANIC_SMOKE_3:
+            switch(gBattleActor.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makePlayerPanic);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makeEnemyPanic);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makeNPCPanic);
+                    break;
+                default:
+                    ForEachUnitIn2Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makeP4Panic);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_PANIC_SMOKE_4:
+            switch(gBattleActor.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makePlayerPanic);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makeEnemyPanic);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makeNPCPanic);
+                    break;
+                default:
+                    ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makeP4Panic);
+                    break;
+            }
+            break;
+
         default:
             break;
     }
@@ -4787,6 +4990,14 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                     attacker->battleDefense -= 5;
             }
             break;
+        case PASSIVE_SKILL_B_KILLING_INTENT:
+            if(attacker->hpInitial < attacker->unit.maxHp || checkUnitNegativeState(&attacker->unit))
+            {
+                attacker->battleSpeed -= 5;
+                if(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC))
+                    attacker->battleDefense -= 5;
+            }
+            break;
         default:
             break;
     }
@@ -5164,9 +5375,19 @@ void ForEachUnitInNSpaces(int x, int y, void(*func)(struct Unit *unit), int N)
     ForEachUnitInRange(func);
 }
 
+void ForEachUnitIn1Space(int x, int y, void(*func)(struct Unit *unit))
+{
+    ForEachUnitInNSpaces(x, y, func, 1);
+}
+
 void ForEachUnitIn2Spaces(int x, int y, void(*func)(struct Unit *unit))
 {
     ForEachUnitInNSpaces(x, y, func, 2);
+}
+
+void ForEachUnitIn3Spaces(int x, int y, void(*func)(struct Unit *unit))
+{
+    ForEachUnitInNSpaces(x, y, func, 3);
 }
 
 void ForEachUnitIn4Spaces(int x, int y, void(*func)(struct Unit *unit))
@@ -5981,6 +6202,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"–‚“¹‚Ìn‚R", "í“¬ŠJnA©g‚ª–¡•û‚Ì–‚–@‚Æ—×Ú‚µ‚Ä‚¢‚éê‡A“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZ", "Sorcery Blade 3", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"–‚“¹‚Ìn‚S", "í“¬ŠJnA©g‚ª–¡•û‚Ì–‚–@‚Æ—×Ú‚µ‚Ä‚¢‚éê‡A“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZA‚©‚ÂAƒ_ƒ[ƒW{‚T", "Sorcery Blade 4", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res and deals +5 damage to foe."},
     {"‰“‚«‚å—£”½Œ‚", "“G‚©‚çUŒ‚‚³‚ê‚½A‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Distant Counter", "Unit can counterattack regardless of foe's range."},
+    {"_Œ•‚P", "‘¬‚³‚ª“G‚æ‚è‚TˆÈã‚‚¢A©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 1", "If unitfs Spd >= foefs Spd+5, grants Special cooldown charge +1 per unit's attack."},
+    {"_Œ•‚Q", "‘¬‚³‚ª“G‚æ‚è‚RˆÈã‚‚¢A©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 2", "If unitfs Spd >= foefs Spd+3, grants Special cooldown charge +1 per unit's attack."},
+    {"_Œ•‚R", "‘¬‚³‚ª“G‚æ‚è‚PˆÈã‚‚¢A©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 3", "If unitfs Spd > foefs Spd, grants Special cooldown charge +1 per unit's attack."},
+    {"_Œ•‚S", "‘¬‚³‚ª“G‚æ‚è‚PˆÈã‚‚¢A©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚PA‚©‚ÂAƒ_ƒ[ƒW{‚T", "Flashing Blade 4", "If unit's Spd > foe's Spd, grants Special cooldown charge +1 and deals +5 damage per unit's attack."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -5998,6 +6223,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_A_SORCERY_BLADE_1, PASSIVE_SKILL_A_SORCERY_BLADE_2, PASSIVE_SKILL_A_SORCERY_BLADE_3, PASSIVE_SKILL_A_SORCERY_BLADE_4},
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
+    [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_A_FLASHING_BLADE_1, PASSIVE_SKILL_A_FLASHING_BLADE_2, PASSIVE_SKILL_A_FLASHING_BLADE_3, PASSIVE_SKILL_A_FLASHING_BLADE_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -6072,6 +6298,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"‘¬‚³‚Ì••ˆó‚S", "ƒ^[ƒ“ŠJnA“GŒR“à‚ÅÅ‚à‘¬‚³‚ª‚‚¢“G‚Ì‘¬‚³[‚P‚O", "Chill Spd 4", "At start of turn, inflicts Spd-10 on foe on the enemy team with the highest Spd until its next action."},
     {"“€Œ‹‚Ì••ˆó", "ƒ^[ƒ“ŠJnA©•ª‚Ì‚g‚o‚ª”¼•ªˆÈã‚È‚çA“GŒR“à‚ÅÅ‚à–‚–h‚ª’á‚¢“G‚ÌUŒ‚A‘¬‚³[‚U", "Freezing Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res until its next action."},
     {"€Ò‚Ì‚¿‚å‚¤‚¶‚è‚ğ", "í“¬ŠJnA©•ª‚Ì‚g‚o‚ª”¼•ªˆÈãA‚Ü‚½‚Í©•ª‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éAí“¬’†A“G‚ÌUŒ‚Aç”õ[‚TA‚©‚ÂA“G‚ÌUŒ‚‚ğó‚¯‚½A‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Deadly Balance", "At start of combat, if unit's HP >= 50% or ifyPenaltyzis active on unit, inflicts Atk/Def-5 on foe and grants Special cooldown charge +1 per foe's attack during combat.(Special cooldown charge granted even if foe's attack deals 0 damage.)"},
+    {"€‚ñ‚Å‚Ù‚µ‚¢‚Ì", "í“¬ŠJnA“G‚Ì‚g‚o‚ª‚X‚XŠ„ˆÈ‰ºA‚Ü‚½‚ÍA“G‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éA“G‚Ì‘¬‚³A–‚–h[‚TA‚©‚Â©•ª‚©‚çUŒ‚‚µ‚½A’ÇŒ‚‰Â”\\‚È‚ç©•ª‚ÌUŒ‚‚Ì’¼Œã‚É’ÇŒ‚‚ğs‚¤", "Killing Intent", "At start of combat, if foe's HP < 100% or ifyPenaltyzis active on foe, inflicts Spd/Res-5 on foe, and if unit initiates combat, unit can make a follow-up attack before foe can counterattack."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -6088,6 +6315,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_B_CHILL_SPD_1, PASSIVE_SKILL_B_CHILL_SPD_2, PASSIVE_SKILL_B_CHILL_SPD_3, PASSIVE_SKILL_B_CHILL_SPD_4},
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL},
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE},
+    [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -6179,6 +6407,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"n‚Ü‚è‚Ì‚±‚Ç‚¤‚Q", "Šï”ƒ^[ƒ“ŠJnA‰œ‹`”­“®ƒJƒEƒ“ƒg‚ªÅ‘å’l‚È‚çA‰œ‹`”­“®ƒJƒEƒ“ƒg[‚P", "Time's Pulse 2", "At start of odd-numbered turns, if Special cooldown count is at its maximum value, grants Special cooldown count-1."},
     {"n‚Ü‚è‚Ì‚±‚Ç‚¤‚R", "ƒ^[ƒ“ŠJnA‰œ‹`”­“®ƒJƒEƒ“ƒg‚ªÅ‘å’l‚È‚çA‰œ‹`”­“®ƒJƒEƒ“ƒg[‚P", "Time's Pulse 3", "At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1."},
     {"n‚Ü‚è‚Ì‚±‚Ç‚¤‚S", "ƒ^[ƒ“ŠJnA‰œ‹`”­“®ƒJƒEƒ“ƒg‚ªÅ‘å’l‚È‚çA‰œ‹`”­“®ƒJƒEƒ“ƒg[‚Q", "Time's Pulse 4", "At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-2."},
+    {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Pƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 1", "If unit initiates combat, inflictsyPaniczon target and foes within 1 space of target after combat."},
+    {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 2", "If unit initiates combat, inflictsyPaniczon target and foes within 2 space of target after combat."},
+    {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚R", "í“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 3", "InflictsyPaniczon target and foes within 2 space of target after combat."},
+    {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚S", "í“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Rƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 4", "InflictsyPaniczon target and foes within 3 space of target after combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -6197,6 +6429,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_YURG_ID] = {PASSIVE_SKILL_C_SPD_TACTIC_1, PASSIVE_SKILL_C_SPD_TACTIC_2, PASSIVE_SKILL_C_SPD_TACTIC_3, PASSIVE_SKILL_C_SPD_TACTIC_4},
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_C_ATK_SMOKE_1, PASSIVE_SKILL_C_ATK_SMOKE_2, PASSIVE_SKILL_C_ATK_SMOKE_3, PASSIVE_SKILL_C_ATK_SMOKE_4},
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_C_TIME_PULSE_1, PASSIVE_SKILL_C_TIME_PULSE_2, PASSIVE_SKILL_C_TIME_PULSE_3, PASSIVE_SKILL_C_TIME_PULSE_4},
+    [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_C_PANIC_SMOKE_1, PASSIVE_SKILL_C_PANIC_SMOKE_2, PASSIVE_SKILL_C_PANIC_SMOKE_3, PASSIVE_SKILL_C_PANIC_SMOKE_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
@@ -6448,14 +6681,38 @@ void BattleUnwind() {
 
         if (!BattleGenerateRoundHits(attacker, defender)) {
         //if (!BattleGenerateRoundHitsOriginal(attacker, defender)) {
-            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+            switch(getUnitPassiveSkillB(&attacker->unit))
+            {
+                case PASSIVE_SKILL_B_KILLING_INTENT:
+                    if((defender->hpInitial < defender->unit.maxHp || checkUnitNegativeState(&defender->unit)) && BattleGetFollowUpOrder(&attacker, &defender))
+                    {
+                        gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
+                        if(!BattleGenerateRoundHits(attacker, defender))
+                        {
+                            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+                            BattleGenerateRoundHits(defender, attacker);
+                        }
+                    }
+                    else
+                    {
+                        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+                        if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender))
+                        {
+                            gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
+                            BattleGenerateRoundHits(attacker, defender);
+                        }
+                    }
+                    break;
+                default:
+                    gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+                    if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender)) {
+                    //if (!BattleGenerateRoundHitsOriginal(defender, attacker) && BattleGetFollowUpOrderOriginal(&attacker, &defender)) {
+                        gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
 
-            if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender)) {
-            //if (!BattleGenerateRoundHitsOriginal(defender, attacker) && BattleGetFollowUpOrderOriginal(&attacker, &defender)) {
-                gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
-
-                BattleGenerateRoundHits(attacker, defender);
-                //BattleGenerateRoundHitsOriginal(attacker, defender);
+                        BattleGenerateRoundHits(attacker, defender);
+                        //BattleGenerateRoundHitsOriginal(attacker, defender);
+                    }
+                    break;
             }
         }
     //} while (0);
