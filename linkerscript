@@ -422,7 +422,7 @@ SECTIONS
 	.text.hasWeaponLegendFlash : {*(.text.hasWeaponLegendFlash)}
 	. = 0x8BFFA74;
     .rodata.pPlayMouthAnimation : {*(.rodata.pPlayMouthAnimation)}
-	. = 0x8db8050;
+	. = 0x8c019cc;
 	.rodata.patch_remove_one_year_later_image : {*(.rodata.patch_remove_one_year_later_image)}
 	. = 0x8db8ee8;
     .rodata.procTitleScreen : {*(.rodata.procTitleScreen)}
