@@ -374,10 +374,10 @@ enum
 #define NPC_TOTAL_AMOUNT 20
 #define P4_TOTAL_AMOUNT 5
 
-extern const struct Unit playerUnits[PLAYER_TOTAL_AMOUNT];
-extern const struct Unit enemyUnits[ENEMY_TOTAL_AMOUNT];
-extern const struct Unit NPCUnits[NPC_TOTAL_AMOUNT];
-extern const struct Unit P4Units[P4_TOTAL_AMOUNT];
+extern struct Unit playerUnits[PLAYER_TOTAL_AMOUNT];
+extern struct Unit enemyUnits[ENEMY_TOTAL_AMOUNT];
+extern struct Unit NPCUnits[NPC_TOTAL_AMOUNT];
+extern struct Unit P4Units[P4_TOTAL_AMOUNT];
 
 enum UnitSide {PlayerSide = 0, NPCSide, EnemySide, P4Side};
 
