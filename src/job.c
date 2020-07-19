@@ -470,3 +470,69 @@ const u8 JobListInfantry[] = {1, 2, 3, 4, 5, 6, 8, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf,
 const u8 JobListUndead[] = {JOB_ID_BONEWALKER, JOB_ID_BONEWALKER_BOW, JOB_ID_GHOST_FIRE, JOB_ID_PHANTOM, JOB_ID_REVENANT, JOB_ID_SKELEMONK, JOB_ID_UNDEAD_MANAKETE, 0};
 
 //const u8 * const pJobListFlier = JobListFlier; // For flying effectiveness negation checking in function IsItemEffectiveAgainst
+
+void decideWalkingSoundByJob(struct Proc *proc)
+{
+    s16 b[2];
+    u16 *walkingSound = WalkingSoundInfantry;
+    u8 jobId = proc->data[0x18];
+    u8 c = proc->data[0x1a];
+
+    if(GetJob(jobId)->ability_mountedAid)
+    {
+        switch(jobId)
+        {
+            case JOB_ID_PEGASUSKNIGHT:
+            case JOB_ID_FALCOKNIGHT:
+            case JOB_ID_MAGIC_FALCON:
+                walkingSound = WalkingSoundPegasus;
+                break;
+            case JOB_ID_WYVERNKNIGHT:
+            case JOB_ID_WYVERNKNIGHT_F:
+            case JOB_ID_WYVERNLORD:
+            case JOB_ID_WYVERNLORD_F:
+            case JOB_ID_GHOST_FIRE:
+            case JOB_ID_UNDEAD_MANAKETE:
+                walkingSound = WalkingSoundDragon;
+                break;
+            default:
+                walkingSound = WalkingSoundCavalry;
+                break;
+        }
+    }
+    else
+    {
+        switch(jobId)
+        {
+            case JOB_ID_FIREDRAGON:
+                walkingSound = WalkingSoundFireDragon;
+                break;
+            case JOB_ID_GHOST_FIRE:
+            case JOB_ID_UNDEAD_MANAKETE:
+                walkingSound = WalkingSoundDragon;
+                break;
+            case JOB_ID_KNIGHT:
+            case JOB_ID_KNIGHT_F:
+            case JOB_ID_GENERAL:
+            case JOB_ID_GENERAL_F:
+            case JOB_ID_MAGIC_ARMOUR:
+                walkingSound = WalkingSoundArmour;
+                break;
+            default:
+                walkingSound = WalkingSoundInfantry;
+                break;
+        }
+    }
+
+    proc->data[0x1a]++;
+    func806d7e8(proc, b);
+    if(walkingSound[c % walkingSound[0] + 2])
+    {
+        func806ca48(walkingSound[c % walkingSound[0] + 2], walkingSound[1], b[0]);
+    }
+}
+
+void decideWalkingSoundByJobInjector(struct Proc *proc)
+{
+    decideWalkingSoundByJob(proc);
+}

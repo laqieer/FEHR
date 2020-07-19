@@ -7,6 +7,8 @@
 
 #include <gba_types.h>
 
+#include "proc.h"
+
 struct JobBattleAnimationConf
 {
     // 装备类型/ID
@@ -261,5 +263,16 @@ extern const u8 JobListArmourAndKnight[];
 extern const u8 JobListFlier[];
 extern const u8 JobListInfantry[];
 extern const u8 JobListUndead[];
+
+struct Job *GetJob(int id);
+s8 func806d7e8(struct Proc *proc, s16 *result);
+void func806ca48(u16 a1, u16 a2, u16 a3);
+
+extern const u16 WalkingSoundPegasus[];
+extern const u16 WalkingSoundDragon[];
+extern const u16 WalkingSoundCavalry[];
+extern const u16 WalkingSoundFireDragon[];
+extern const u16 WalkingSoundInfantry[];
+extern const u16 WalkingSoundArmour[];
 
 #endif //FE7_JP_STUNNING_TRIBBLE_JOB_H

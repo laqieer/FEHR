@@ -284,6 +284,17 @@ ComputeBattleUnitStatusBonusesOriginal = 0x8029365;
 BWL_AddTilesMoved = 0x80a0a09;
 UnitFinalizeMovement = 0x8018319;
 
+GetJob = 0x8019109;
+func806d7e8 = 0x806d7e9;
+func806ca48 = 0x806ca49;
+
+WalkingSoundPegasus = 0x8d64ed2;
+WalkingSoundDragon = 0x8d64ea6;
+WalkingSoundCavalry = 0x8d64e78;
+WalkingSoundFireDragon = 0x8d64efe;
+WalkingSoundInfantry = 0x8d64e10;
+WalkingSoundArmour = 0x8d64e34;
+
 SECTIONS
 {
 	. = 0x8000000;
@@ -424,6 +435,8 @@ SECTIONS
 	.rodata.chapterTitleNoData : {*(.rodata.chapterTitleNoData)}
 	. = 0x8053b98;
 	.text.hasWeaponLegendFlash : {*(.text.hasWeaponLegendFlash)}
+	. = 0x806d2e4;
+	.text.decideWalkingSoundByJobInjector : {*(.text.decideWalkingSoundByJobInjector)}
 	. = 0x8BFFA74;
     .rodata.pPlayMouthAnimation : {*(.rodata.pPlayMouthAnimation)}
 	. = 0x8c019cc;
