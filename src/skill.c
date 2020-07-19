@@ -3161,21 +3161,29 @@ void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
             addUnitDebuffPower(&defender->unit, -10);
             break;*/
         case PASSIVE_SKILL_B_MYSTIC_BOOST_1:
+            if(attacker->unit.hp == 0)
+                break;
             attacker->unit.hp += 2;
             if(attacker->unit.hp > attacker->unit.maxHp)
                 attacker->unit.hp = attacker->unit.maxHp;
             break;
         case PASSIVE_SKILL_B_MYSTIC_BOOST_2:
+            if(attacker->unit.hp == 0)
+                break;
             attacker->unit.hp += 4;
             if(attacker->unit.hp > attacker->unit.maxHp)
                 attacker->unit.hp = attacker->unit.maxHp;
             break;
         case PASSIVE_SKILL_B_MYSTIC_BOOST_3:
+            if(attacker->unit.hp == 0)
+                break;
             attacker->unit.hp += 6;
             if(attacker->unit.hp > attacker->unit.maxHp)
                 attacker->unit.hp = attacker->unit.maxHp;
             break;
         case PASSIVE_SKILL_B_MYSTIC_BOOST_4:
+            if(attacker->unit.hp == 0)
+                break;
             attacker->unit.hp += 8;
             if(attacker->unit.hp > attacker->unit.maxHp)
                 attacker->unit.hp = attacker->unit.maxHp;
@@ -3200,21 +3208,29 @@ void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
             addUnitDebuffPower(&attacker->unit, -10);
             break;*/
         case PASSIVE_SKILL_B_MYSTIC_BOOST_1:
+            if(defender->unit.hp == 0)
+                break;
             defender->unit.hp += 2;
             if(defender->unit.hp > defender->unit.maxHp)
                 defender->unit.hp = defender->unit.maxHp;
             break;
         case PASSIVE_SKILL_B_MYSTIC_BOOST_2:
+            if(defender->unit.hp == 0)
+                break;
             defender->unit.hp += 4;
             if(defender->unit.hp > defender->unit.maxHp)
                 defender->unit.hp = defender->unit.maxHp;
             break;
         case PASSIVE_SKILL_B_MYSTIC_BOOST_3:
+            if(defender->unit.hp == 0)
+                break;
             defender->unit.hp += 6;
             if(defender->unit.hp > defender->unit.maxHp)
                 defender->unit.hp = defender->unit.maxHp;
             break;
         case PASSIVE_SKILL_B_MYSTIC_BOOST_4:
+            if(defender->unit.hp == 0)
+                break;
             defender->unit.hp += 8;
             if(defender->unit.hp > defender->unit.maxHp)
                 defender->unit.hp = defender->unit.maxHp;
