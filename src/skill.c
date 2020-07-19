@@ -2283,6 +2283,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_HRID_ID] = SPECIAL_SKILL_AEGIS,
         [CHARACTER_LIF_ID] = SPECIAL_SKILL_OPEN_FUTURE,
         [CHARACTER_SRASIR_ID] = SPECIAL_SKILL_MOONBOW,
+        [CHARACTER_EIR_ID] = SPECIAL_SKILL_ICEBERG,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -3159,6 +3160,26 @@ void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
         case PASSIVE_SKILL_B_SEAL_ATK_4:
             addUnitDebuffPower(&defender->unit, -10);
             break;*/
+        case PASSIVE_SKILL_B_MYSTIC_BOOST_1:
+            attacker->unit.hp += 2;
+            if(attacker->unit.hp > attacker->unit.maxHp)
+                attacker->unit.hp = attacker->unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_MYSTIC_BOOST_2:
+            attacker->unit.hp += 4;
+            if(attacker->unit.hp > attacker->unit.maxHp)
+                attacker->unit.hp = attacker->unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_MYSTIC_BOOST_3:
+            attacker->unit.hp += 6;
+            if(attacker->unit.hp > attacker->unit.maxHp)
+                attacker->unit.hp = attacker->unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_MYSTIC_BOOST_4:
+            attacker->unit.hp += 8;
+            if(attacker->unit.hp > attacker->unit.maxHp)
+                attacker->unit.hp = attacker->unit.maxHp;
+            break;
         default:
             break;
     }
@@ -3178,6 +3199,26 @@ void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
         case PASSIVE_SKILL_B_SEAL_ATK_4:
             addUnitDebuffPower(&attacker->unit, -10);
             break;*/
+        case PASSIVE_SKILL_B_MYSTIC_BOOST_1:
+            defender->unit.hp += 2;
+            if(defender->unit.hp > defender->unit.maxHp)
+                defender->unit.hp = defender->unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_MYSTIC_BOOST_2:
+            defender->unit.hp += 4;
+            if(defender->unit.hp > defender->unit.maxHp)
+                defender->unit.hp = defender->unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_MYSTIC_BOOST_3:
+            defender->unit.hp += 6;
+            if(defender->unit.hp > defender->unit.maxHp)
+                defender->unit.hp = defender->unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_MYSTIC_BOOST_4:
+            defender->unit.hp += 8;
+            if(defender->unit.hp > defender->unit.maxHp)
+                defender->unit.hp = defender->unit.maxHp;
+            break;
         default:
             break;
     }
@@ -4604,6 +4645,17 @@ void ComputeBattleUnitDefense(struct BattleUnit* attacker, struct BattleUnit* de
     else
         attacker->battleDefense = defense;
 
+     switch (getUnitPassiveSkillA(&attacker->unit))
+     {
+         case PASSIVE_SKILL_B_MYSTIC_BOOST_1:
+         case PASSIVE_SKILL_B_MYSTIC_BOOST_2:
+         case PASSIVE_SKILL_B_MYSTIC_BOOST_3:
+         case PASSIVE_SKILL_B_MYSTIC_BOOST_4:
+             return;
+         default:
+             break;
+     }
+
     switch (getUnitPassiveSkillA(&defender->unit))
     {
         case PASSIVE_SKILL_A_SORCERY_BLADE_1:
@@ -4971,6 +5023,43 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
         case PASSIVE_SKILL_A_SORCERY_BLADE_4:
             if(isAdjacentToAnyMagicCompanion(&attacker->unit))
                 attacker->battleAttack += 5;
+            break;
+        case PASSIVE_SKILL_A_DARTING_BLOW_1:
+            if(attacker == &gBattleActor)
+                attacker->battleSpeed += 2;
+            break;
+        case PASSIVE_SKILL_A_DARTING_BLOW_2:
+            if(attacker == &gBattleActor)
+                attacker->battleSpeed += 4;
+            break;
+        case PASSIVE_SKILL_A_DARTING_BLOW_3:
+            if(attacker == &gBattleActor)
+                attacker->battleSpeed += 6;
+            break;
+        case PASSIVE_SKILL_A_DARTING_BLOW_4:
+            if(attacker == &gBattleActor)
+                attacker->battleSpeed += 9;
+            break;
+        case PASSIVE_SKILL_A_SWIFT_SPARROW_1:
+            if(attacker == &gBattleActor)
+            {
+                attacker->battleAttack += 2;
+                attacker->battleSpeed += 2;
+            }
+            break;
+        case PASSIVE_SKILL_A_SWIFT_SPARROW_2:
+            if(attacker == &gBattleActor)
+            {
+                attacker->battleAttack += 4;
+                attacker->battleSpeed += 4;
+            }
+            break;
+        case PASSIVE_SKILL_A_SWIFT_SPARROW_3:
+            if(attacker == &gBattleActor)
+            {
+                attacker->battleAttack += 6;
+                attacker->battleSpeed += 7;
+            }
             break;
         default:
             break;
@@ -6206,6 +6295,13 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"_Œ•‚Q", "‘¬‚³‚ª“G‚æ‚è‚RˆÈã‚‚¢A©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 2", "If unitfs Spd >= foefs Spd+3, grants Special cooldown charge +1 per unit's attack."},
     {"_Œ•‚R", "‘¬‚³‚ª“G‚æ‚è‚PˆÈã‚‚¢A©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 3", "If unitfs Spd > foefs Spd, grants Special cooldown charge +1 per unit's attack."},
     {"_Œ•‚S", "‘¬‚³‚ª“G‚æ‚è‚PˆÈã‚‚¢A©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚PA‚©‚ÂAƒ_ƒ[ƒW{‚T", "Flashing Blade 4", "If unit's Spd > foe's Spd, grants Special cooldown charge +1 and deals +5 damage per unit's attack."},
+    {"‚Ğ‚¦‚ñ‚ÌˆêŒ‚‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚Ì‘¬‚³{‚Q", "Darting Blow 1", "If unit initiates combat, grants Spd+2 during combat."},
+    {"‚Ğ‚¦‚ñ‚ÌˆêŒ‚‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚Ì‘¬‚³{‚S", "Darting Blow 2", "If unit initiates combat, grants Spd+4 during combat."},
+    {"‚Ğ‚¦‚ñ‚ÌˆêŒ‚‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚Ì‘¬‚³{‚U", "Darting Blow 3", "If unit initiates combat, grants Spd+6 during combat."},
+    {"‚Ğ‚¦‚ñ‚ÌˆêŒ‚‚S", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚Ì‘¬‚³{‚X", "Darting Blow 4", "If unit initiates combat, grants Spd+9 during combat."},
+    {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚A‘¬‚³{‚Q", "Swift Sparrow 1", "If unit initiates combat, grants Atk/Spd+2 during combat."},
+    {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚A‘¬‚³{‚S", "Swift Sparrow 2", "If unit initiates combat, grants Atk/Spd+4 during combat."},
+    {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚UA‘¬‚³{‚V", "Swift Sparrow 3", "If unit initiates combat, grants Atk+6, Spd+7 during combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -6224,6 +6320,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_A_FLASHING_BLADE_1, PASSIVE_SKILL_A_FLASHING_BLADE_2, PASSIVE_SKILL_A_FLASHING_BLADE_3, PASSIVE_SKILL_A_FLASHING_BLADE_4},
+    [CHARACTER_EIR_ID] = {PASSIVE_SKILL_A_DARTING_BLOW_1, PASSIVE_SKILL_A_SWIFT_SPARROW_1, PASSIVE_SKILL_A_SWIFT_SPARROW_2, PASSIVE_SKILL_A_SWIFT_SPARROW_3},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -6299,6 +6396,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"“€Œ‹‚Ì••ˆó", "ƒ^[ƒ“ŠJnA©•ª‚Ì‚g‚o‚ª”¼•ªˆÈã‚È‚çA“GŒR“à‚ÅÅ‚à–‚–h‚ª’á‚¢“G‚ÌUŒ‚A‘¬‚³[‚U", "Freezing Seal", "At start of turn, if unit's HP >= 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res until its next action."},
     {"€Ò‚Ì‚¿‚å‚¤‚¶‚è‚ğ", "í“¬ŠJnA©•ª‚Ì‚g‚o‚ª”¼•ªˆÈãA‚Ü‚½‚Í©•ª‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éAí“¬’†A“G‚ÌUŒ‚Aç”õ[‚TA‚©‚ÂA“G‚ÌUŒ‚‚ğó‚¯‚½A‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Deadly Balance", "At start of combat, if unit's HP >= 50% or ifyPenaltyzis active on unit, inflicts Atk/Def-5 on foe and grants Special cooldown charge +1 per foe's attack during combat.(Special cooldown charge granted even if foe's attack deals 0 damage.)"},
     {"€‚ñ‚Å‚Ù‚µ‚¢‚Ì", "í“¬ŠJnA“G‚Ì‚g‚o‚ª‚X‚XŠ„ˆÈ‰ºA‚Ü‚½‚ÍA“G‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éA“G‚Ì‘¬‚³A–‚–h[‚TA‚©‚Â©•ª‚©‚çUŒ‚‚µ‚½A’ÇŒ‚‰Â”\\‚È‚ç©•ª‚ÌUŒ‚‚Ì’¼Œã‚É’ÇŒ‚‚ğs‚¤", "Killing Intent", "At start of combat, if foe's HP < 100% or ifyPenaltyzis active on foe, inflicts Spd/Res-5 on foe, and if unit initiates combat, unit can make a follow-up attack before foe can counterattack."},
+    {"¶–½‚Ì‚²‚Ó‚P", "í“¬’†A“G‚Ìu“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZv‚ğ–³Œø‰»Aí“¬ŒãA‚g‚o‚Q‰ñ•œ", "Mystic Boost 1", "Disables foe's skills that calculates damage using the lower of foe's Def or Res and Restores 2 HP after combat."},
+    {"¶–½‚Ì‚²‚Ó‚Q", "í“¬’†A“G‚Ìu“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZv‚ğ–³Œø‰»Aí“¬ŒãA‚g‚o‚S‰ñ•œ", "Mystic Boost 2", "Disables foe's skills that calculates damage using the lower of foe's Def or Res and Restores 4 HP after combat."},
+    {"¶–½‚Ì‚²‚Ó‚R", "í“¬’†A“G‚Ìu“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZv‚ğ–³Œø‰»Aí“¬ŒãA‚g‚o‚U‰ñ•œ", "Mystic Boost 3", "Disables foe's skills that calculates damage using the lower of foe's Def or Res and Restores 6 HP after combat."},
+    {"¶–½‚Ì‚²‚Ó‚S", "í“¬’†A“G‚Ìu“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZv‚ğ–³Œø‰»Aí“¬ŒãA‚g‚o‚W‰ñ•œ", "Mystic Boost 4", "Disables foe's skills that calculates damage using the lower of foe's Def or Res and Restores 8 HP after combat."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -6316,6 +6417,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL, PASSIVE_SKILL_B_FREEZING_SEAL},
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE},
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT},
+    [CHARACTER_EIR_ID] = {PASSIVE_SKILL_B_MYSTIC_BOOST_1, PASSIVE_SKILL_B_MYSTIC_BOOST_2, PASSIVE_SKILL_B_MYSTIC_BOOST_3, PASSIVE_SKILL_B_MYSTIC_BOOST_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -6411,6 +6513,7 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 2", "If unit initiates combat, inflictsyPaniczon target and foes within 2 space of target after combat."},
     {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚R", "í“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 3", "InflictsyPaniczon target and foes within 2 space of target after combat."},
     {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚S", "í“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Rƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 4", "InflictsyPaniczon target and foes within 3 space of target after combat."},
+    {"¶–½‚Ì‹P‚«", "ƒ^[ƒ“ŠJnA©•ª‚ğœ‚­Å‚à‚g‚o‚ªŒ¸‚Á‚Ä‚¢‚é–¡•ûiÅ‘å‚g‚o[Œ»‚g‚o‚Ì·‚ªÅ‚à‚‚¢–¡•ûj‚ğ‚P‚O‰ñ•œ", "Sparkling Boost", "At start of turn, restores 10 HP to ally that has been dealt the most damage. (Excludes unit.)"},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -6430,6 +6533,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_HRID_ID] = {PASSIVE_SKILL_C_ATK_SMOKE_1, PASSIVE_SKILL_C_ATK_SMOKE_2, PASSIVE_SKILL_C_ATK_SMOKE_3, PASSIVE_SKILL_C_ATK_SMOKE_4},
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_C_TIME_PULSE_1, PASSIVE_SKILL_C_TIME_PULSE_2, PASSIVE_SKILL_C_TIME_PULSE_3, PASSIVE_SKILL_C_TIME_PULSE_4},
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_C_PANIC_SMOKE_1, PASSIVE_SKILL_C_PANIC_SMOKE_2, PASSIVE_SKILL_C_PANIC_SMOKE_3, PASSIVE_SKILL_C_PANIC_SMOKE_4},
+    [CHARACTER_EIR_ID] = {PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

@@ -26,6 +26,10 @@ struct Buff gEnemyDebuff[ENEMY_TOTAL_AMOUNT];
 struct Buff gNPCDebuff[NPC_TOTAL_AMOUNT];
 struct Buff gP4Debuff[P4_TOTAL_AMOUNT];
 
+// units by side lookup table
+struct Unit * const unitsBySide[4] = {playerUnits, NPCUnits, enemyUnits, P4Units};
+const int unitAmountBySide[4] = {PLAYER_TOTAL_AMOUNT, NPC_TOTAL_AMOUNT, ENEMY_TOTAL_AMOUNT, P4_TOTAL_AMOUNT};
+
 struct Buff *getUnitBuff(struct Unit *unit)
 {
     struct Buff *pUnitBuff = 0;
@@ -930,6 +934,11 @@ int getMinValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(str
     return minValue == 10000? 0: minValue;
 }
 
+int getMinValueInUnitsBySide(int side, int(*valueGetter)(struct Unit *unit))
+{
+    return getMinValueInUnits(unitsBySide[side], unitAmountBySide[side], valueGetter);
+}
+
 int getMaxValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(struct Unit *unit))
 {
     int maxValue = -10000;
@@ -946,6 +955,11 @@ int getMaxValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(str
     }
 
     return maxValue == -10000? 0: maxValue;
+}
+
+int getMaxValueInUnitsBySide(int side, int(*valueGetter)(struct Unit *unit))
+{
+    return getMaxValueInUnits(unitsBySide[side], unitAmountBySide[side], valueGetter);
 }
 
 void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumber, struct Unit *targetUnits, int targetUnitNumber)
@@ -1384,13 +1398,21 @@ int GetSkillHealAmount(struct Unit *unit)
     return healAmount;
 }
 
+int GetUnitHpLoss(struct Unit *unit)
+{
+    return GetUnitMaxHp(unit) - GetUnitHp(unit);
+}
+
 void HealUnitsHPByTerrain(int unitIDSideBase)
 {
     struct Unit *unit;
+    struct Unit *skillUnit;
     int terrain;
     int healAmount;
 
     InitTargets(0,0);
+
+    int maxHpLoss = getMaxValueInUnitsBySide(unitIDSideBase / 0x40, GetUnitHpLoss);
 
     for(int i = unitIDSideBase + 1; i < 0x40; i++)
     {
@@ -1399,6 +1421,23 @@ void HealUnitsHPByTerrain(int unitIDSideBase)
         {
             terrain = gBmMapTerrain[unit->positionY][unit->positionX];
             healAmount = GetTerrainHealAmount(terrain) + GetSkillHealAmount(unit);
+            if(maxHpLoss > 0 && maxHpLoss == GetUnitHpLoss(unit))
+            {
+                for(int j = unitIDSideBase + 1; j < 0x40; j++)
+                {
+                    if(i == j)
+                        continue;
+                    skillUnit = GetUnit(j);
+                    switch(getUnitPassiveSkillC(skillUnit))
+                    {
+                        case PASSIVE_SKILL_C_SPARKLING_BOOST:
+                            healAmount += 10;
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
             if(healAmount)
             {
                 if(GetUnitHp(unit) < GetUnitMaxHp(unit))
