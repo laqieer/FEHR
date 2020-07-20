@@ -1429,6 +1429,8 @@ void HealUnitsHPByTerrain(int unitIDSideBase)
                     if(i == j)
                         continue;
                     skillUnit = GetUnit(j);
+                    if(!isUnitAlive(skillUnit))
+                        continue;
                     switch(getUnitPassiveSkillC(skillUnit))
                     {
                         case PASSIVE_SKILL_C_SPARKLING_BOOST:
