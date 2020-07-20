@@ -1420,7 +1420,8 @@ void HealUnitsHPByTerrain(int unitIDSideBase)
         if(unit && unit->character && !(unit->state & (UNIT_STATE_UNAVAILABLE | UNIT_STATE_RESCUED)))
         {
             terrain = gBmMapTerrain[unit->positionY][unit->positionX];
-            healAmount = GetTerrainHealAmount(terrain) + GetSkillHealAmount(unit);
+            // healAmount = 2 * healHp
+            healAmount = GetTerrainHealAmount(terrain) + 2 * GetSkillHealAmount(unit);
             if(maxHpLoss > 0 && maxHpLoss == GetUnitHpLoss(unit))
             {
                 for(int j = unitIDSideBase + 1; j < 0x40; j++)
@@ -1431,7 +1432,7 @@ void HealUnitsHPByTerrain(int unitIDSideBase)
                     switch(getUnitPassiveSkillC(skillUnit))
                     {
                         case PASSIVE_SKILL_C_SPARKLING_BOOST:
-                            healAmount += 10;
+                            healAmount += 10 * 2;
                             break;
                         default:
                             break;
