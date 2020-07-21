@@ -78,6 +78,7 @@
 #include "classcard_Ghost.h"
 #include "classcard_Phantom.h"
 #include "classcard_Revenant.h"
+#include "classcard_Wolf.h"
 
 const Portrait portraitAlfonse = {
         portrait_alfonse_tilesetTiles,
@@ -1091,6 +1092,7 @@ DEFINE_CLASSCARD_NEW(Dracozombie)
 DEFINE_CLASSCARD_NEW(Ghost)
 DEFINE_CLASSCARD_NEW(Phantom)
 DEFINE_CLASSCARD_NEW(Revenant)
+DEFINE_CLASSCARD_NEW(Wolf)
 
 const Portrait* const portraits[] = {
     [0x101] = &portraitAlfonse,
@@ -1131,6 +1133,7 @@ const Portrait* const portraits[] = {
     [CLASSCARD_GHOST] = &classcardGhost, // 0x135
     [CLASSCARD_PHANTOM] = &classcardPhantom, // 0x136
     [CLASSCARD_REVENANT] = &classcardRevenant, // 0x137
+    [CLASSCARD_WOLF] = &classcardWolf, // 0x138
 };
 
 extern const Portrait portraitsOrig[];

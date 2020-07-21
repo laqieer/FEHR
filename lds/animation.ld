@@ -74,3 +74,5 @@
     .rodata.Skelemonk : {*(.rodata.Skelemonk)}
     . = 0x8E00008 + 0x20 * 0xc7;
     .rodata.UndeadManakete : {*(.rodata.UndeadManakete)}
+    . = 0x8E00008 + 0x20 * 0xc8;
+    .rodata.Wolf : {*(.rodata.Wolf)}

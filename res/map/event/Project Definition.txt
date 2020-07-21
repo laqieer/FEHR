@@ -114,6 +114,7 @@
 #define Revenant 106
 #define Skelemonk 107
 #define UndeadManakete 108
+#define Wolf 109
 
 // Items
 #define HeavyLance HeavySpear
@@ -137,5 +138,7 @@
 #define FetidClaw 0xab
 #define PoisonClaw 0xac
 #define LethalClaw 0xad
+#define FieryFang 0xae
+#define HellFang 0xaf
 
 #endif

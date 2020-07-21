@@ -2122,6 +2122,18 @@ const char* const texts[] = {
        
        [TEXT_JOB_HELP_BISHOP] = "Ž€ŽÒ‚É‘Î‚µâ‘å‚È—Í‚ð”­Šö‚·‚é¹EŽÒ",
 
+       [TEXT_JOB_NAME_WOLF] = "˜T",
+
+       [TEXT_JOB_HELP_WOLF] = "ƒIƒIƒJƒ~@‘f‘‚¢“®‚«‚Æ‰s‚¢‰å‚ÅP‚¢Š|‚©‚é",
+
+       [TEXT_ITEM_NAME_FIERY_FANG] = "ŽÜ”M‚Ì‰å",
+
+       [TEXT_ITEM_HELP_FIERY_FANG] = "‰s‚¢‰å",
+
+       [TEXT_ITEM_NAME_HELL_FANG] = "Å”M‚Ì‰å",
+
+       [TEXT_ITEM_HELP_HELL_FANG] = "’·‚­‰s‚¢‰å",
+
 #include "texts.txt"
 };
 

@@ -360,6 +360,10 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_POISON_CLAW, TEXT_ITEM_HELP_POISON_CLAW, 0, 0xac, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 65, 10, 0, 1, 1, 0, 0, ITEM_ICON_POISON_CLAW, 1, 0, 0} ,  // 0xAC Poison Claw
 
 {TEXT_ITEM_NAME_LETHAL_CLAW, TEXT_ITEM_HELP_LETHAL_CLAW, 0, 0xad, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 60, 12, 0, 1, 1, 0, 0, ITEM_ICON_SHARP_CLAW, 1, 0, 0} ,  // 0xAD Lethal Claw
+
+{TEXT_ITEM_NAME_FIERY_FANG, TEXT_ITEM_HELP_FIERY_FANG, 0, 0xae, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 90, 5, 0, 1, 1, 0, 0, ITEM_ICON_FIERY_FANG, 0, 0, 0} ,  // 0xAE Fiery Fang
+
+{TEXT_ITEM_NAME_HELL_FANG, TEXT_ITEM_HELP_HELL_FANG, 0, 0xaf, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 80, 8, 0, 1, 1, 0, 0, ITEM_ICON_HELL_FANG, 0, 0, 0} ,  // 0xAF Hell Fang
 };
 
 const struct Item * const pItems1 = items;

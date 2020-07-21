@@ -47,6 +47,9 @@
 #define ITEM_POISON_CLAW 0xac
 #define ITEM_LETHAL_CLAW 0xad
 
+#define ITEM_FIERY_FANG 0xae
+#define ITEM_HELL_FANG 0xaf
+
 #define ITEM_ID_IRONSWORD 0x01
 #define ITEM_ID_SLIMSWORD 0x02
 #define ITEM_ID_STEELSWORD 0x03
