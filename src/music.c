@@ -72,6 +72,7 @@ extern const u8 musicFE4Chap6[];
 extern const u8 musicFE4Chap8[];
 extern const u8 musicFE4Chap9[];
 extern const u8 musicFE4Chap10[];
+extern const u8 musicFERadiantDawnAscent[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1564,6 +1565,7 @@ const struct Song songs[] = {
         [MUSIC_FE4_MAP_8] = {musicFE4Chap8, 1, 1},
         [MUSIC_FE4_MAP_9] = {musicFE4Chap9, 1, 1},
         [MUSIC_FE4_MAP_10] = {musicFE4Chap10, 1, 1},
+        [MUSIC_FE_RADIANT_DAWN_ASCENT] = {musicFERadiantDawnAscent, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1753,6 +1755,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE4_MAP_8, MUSIC_LENGTH(1, 35), 0, "トラキアの竜騎士"},
     {MUSIC_FE4_MAP_9, MUSIC_LENGTH(1, 48), 0, "誰がために"},
     {MUSIC_FE4_MAP_10, MUSIC_LENGTH(1, 53), 0, "光と闇と"},
+    {MUSIC_FE_RADIANT_DAWN_ASCENT, MUSIC_LENGTH(4, 9), 0, "かじんの神"},
 
     // End of table
     {-1, 0,                                              0, 0},
