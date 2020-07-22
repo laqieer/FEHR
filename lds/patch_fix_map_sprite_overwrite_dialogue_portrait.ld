@@ -1,2 +1,4 @@
 . = 0x806c652;
-.rodata.movingSpriteTileBase : {*(.rodata.movingSpriteTileBase)}
+.rodata.movingSpriteTileBaseFactor1 : {*(.rodata.movingSpriteTileBaseFactor1)}
+. = 0x806c65a;
+.rodata.movingSpriteTileBaseFactor2 : {*(.rodata.movingSpriteTileBaseFactor2)}
