@@ -2284,6 +2284,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_LIF_ID] = SPECIAL_SKILL_OPEN_FUTURE,
         [CHARACTER_SRASIR_ID] = SPECIAL_SKILL_MOONBOW,
         [CHARACTER_EIR_ID] = SPECIAL_SKILL_ICEBERG,
+        [CHARACTER_HELL_ID] = SPECIAL_SKILL_GLIMMER,
 };
 
 const u16 jobSpecialSkills[0x100] = {
