@@ -37,6 +37,7 @@
 #define Yurg Nino
 #define Ylgr Nino
 #define Hell Nergal
+#define Hel Hell
 #define Gustaf Elbert
 #define Mirabilis Florina
 #define Scabiosa Fiora
