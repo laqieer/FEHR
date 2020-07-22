@@ -142,4 +142,7 @@
 #define FieryFang 0xae
 #define HellFang 0xaf
 
+// AI
+#define DefaultAi4 DefaultAI4
+
 #endif
