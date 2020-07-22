@@ -57,7 +57,6 @@ EndingScene:
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Eir,MagicFalcoKnight,Anna,14,19,14,19)
-	UNIT_ALLY_JOINED(Veronica,VeronicaPrincess,Anna,0,12,0,12)
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSummoned,Wolf,0,15,SIDE_ENEMY,1,10,0,10,0,FieryFang,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // リアーネ
