@@ -18,7 +18,12 @@ void playBGM(int songID,u16 volume)
     }
 }
 
+#pragma GCC push_options
+#pragma GCC optimize ("-O2")
+
 void playBGMInjector(int songID,u16 volume)
 {
     playBGM(songID, volume);
 }
+
+#pragma GCC pop_options
