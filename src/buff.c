@@ -626,7 +626,7 @@ void addUnitDebuffLuck(struct Unit *unit, s8 debuffValue)
 int GetUnitMaxHp(struct Unit* unit) 
 {
     int maxHp = unit->maxHp + GetItemHpBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffHP(unit);
-
+/*
     switch(getUnitPassiveSkillA(unit))
     {
         case PASSIVE_SKILL_A_TEMPTATION_1:
@@ -644,7 +644,7 @@ int GetUnitMaxHp(struct Unit* unit)
         default:
             break;
     }
-
+*/
     return maxHp > 0? maxHp: 0;
 }
 
