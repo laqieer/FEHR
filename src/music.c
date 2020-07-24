@@ -73,6 +73,9 @@ extern const u8 musicFE4Chap8[];
 extern const u8 musicFE4Chap9[];
 extern const u8 musicFE4Chap10[];
 extern const u8 musicFERadiantDawnAscent[];
+extern const u8 musicFERadiantDawnCatsAtPlay[];
+extern const u8 musicFERadiantDawnMarch[];
+extern const u8 musicFERadiantDawnDevoted[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1566,6 +1569,9 @@ const struct Song songs[] = {
         [MUSIC_FE4_MAP_9] = {musicFE4Chap9, 1, 1},
         [MUSIC_FE4_MAP_10] = {musicFE4Chap10, 1, 1},
         [MUSIC_FE_RADIANT_DAWN_ASCENT] = {musicFERadiantDawnAscent, 1, 1},
+        [MUSIC_FE_RADIANT_DAWN_CATS_AT_PLAY] = {musicFERadiantDawnCatsAtPlay, 1, 1},
+        [MUSIC_FE_RADIANT_DAWN_MARCH] = {musicFERadiantDawnMarch, 1, 1},
+        [MUSIC_FE_RADIANT_DAWN_THE_DEVOTED] = {musicFERadiantDawnDevoted, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1756,6 +1762,9 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE4_MAP_9, MUSIC_LENGTH(1, 48), 0, "íNÇ™ÇΩÇﬂÇ…"},
     {MUSIC_FE4_MAP_10, MUSIC_LENGTH(1, 53), 0, "åıÇ∆à≈Ç∆"},
     {MUSIC_FE_RADIANT_DAWN_ASCENT, MUSIC_LENGTH(4, 9), 0, "Ç©Ç∂ÇÒÇÃê_"},
+    {MUSIC_FE_RADIANT_DAWN_CATS_AT_PLAY, MUSIC_LENGTH(1, 43), 0, "ñYâ‰Ç»ñ≤"},
+    {MUSIC_FE_RADIANT_DAWN_MARCH, MUSIC_LENGTH(1, 7), 0, "êiåR"},
+    {MUSIC_FE_RADIANT_DAWN_THE_DEVOTED, MUSIC_LENGTH(1, 33), 0, "íâã`êsÇ≠Ç≥ÇÒ"},
 
     // End of table
     {-1, 0,                                              0, 0},
