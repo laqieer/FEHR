@@ -60,9 +60,9 @@ AllyUnitsENM:
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(Lif,Bonewalker,0,26,SIDE_ENEMY,1,7,4,7,4,SteelSword,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // リーヴ
-	UNIT(GenericHel,GhostFire,0,26,SIDE_ENEMY,1,6,4,6,4,Nosferatu,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ランスペガサス
-	UNIT(GenericHel,Wolf,0,26,SIDE_ENEMY,1,10,4,10,4,FieryFang,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // レテ
-	UNIT(GenericHel,Skelemonk,0,26,SIDE_ENEMY,1,14,6,14,6,Thunder,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // グリーンマージ
+	UNIT(GenericHelWeak,GhostFire,0,26,SIDE_ENEMY,1,6,4,6,4,Nosferatu,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ランスペガサス
+	UNIT(GenericHelWeak,Wolf,0,26,SIDE_ENEMY,1,10,4,10,4,FieryFang,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // レテ
+	UNIT(GenericHelWeak,Skelemonk,0,26,SIDE_ENEMY,1,14,6,14,6,Thunder,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // グリーンマージ
 	END_UNIT
 NPCUnits:
 	END_UNIT
