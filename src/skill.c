@@ -2389,11 +2389,13 @@ const u16 strongHealSpecialSkills[] = {
 u16 getUnitRandomSpecialSkill(struct Unit *unit)
 {
     int factor;
+    struct Unit *realUnit;
 
     if(isGenericUnit(unit))
     {
         // factor shouldn't change in a chapter
-        factor = unit->character->id + unit->job->id + unit->lv + unit->number + unit->side + unit->maxHp + unit->pow + unit->skl + unit->spd + unit->def + unit->res + unit->luk + unit->levelSword + unit->levelLance + unit->levelAxe + unit->levelBow + unit->levelStaff + unit->levelAnima + unit->levelLight + unit->levelDark + gRAMChapterData.chapterIndex + gRAMChapterData.playerName[0] + gRAMChapterData.playerName[1] + gRAMChapterData.playerName[2] + gRAMChapterData.playerName[3] + gRAMChapterData.playerName[4] + gRAMChapterData.playerName[5] + gRAMChapterData.playerName[6] + gRAMChapterData.playerName[7] + gRAMChapterData.playerName[8] + gRAMChapterData.playerName[9] + gRAMChapterData.playerBloodType + gRAMChapterData.playerBirthMonth + gRAMChapterData.playerGender + gRAMChapterData.playerStars;
+        realUnit = GetUnitNew(unit->side, unit->number);
+        factor = realUnit->character->id + realUnit->job->id + realUnit->lv + realUnit->number + realUnit->side + realUnit->maxHp + realUnit->pow + realUnit->skl + realUnit->spd + realUnit->def + realUnit->res + realUnit->luk + realUnit->levelSword + realUnit->levelLance + realUnit->levelAxe + realUnit->levelBow + realUnit->levelStaff + realUnit->levelAnima + realUnit->levelLight + realUnit->levelDark + gRAMChapterData.chapterIndex + gRAMChapterData.playerName[0] + gRAMChapterData.playerName[1] + gRAMChapterData.playerName[2] + gRAMChapterData.playerName[3] + gRAMChapterData.playerName[4] + gRAMChapterData.playerName[5] + gRAMChapterData.playerName[6] + gRAMChapterData.playerName[7] + gRAMChapterData.playerName[8] + gRAMChapterData.playerName[9] + gRAMChapterData.playerBloodType + gRAMChapterData.playerBirthMonth + gRAMChapterData.playerGender + gRAMChapterData.playerStars;
         Debugf("Generic unit special skill factor: unit %x, number %d, factor %d", unit, unit->number, factor);
         switch(getEnemySpecialSkillLevel())
         {
