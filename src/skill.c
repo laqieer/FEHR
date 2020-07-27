@@ -38,8 +38,8 @@ char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT];
 char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT];
 char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT];
 char gP4SkillCoolDown[P4_TOTAL_AMOUNT];
-char gFlagHpStealBySkill[20];
-char gBattleHitCount;
+char FlagHpStealBySkill[20];
+char BattleHitCount;
 struct TextHandle TextHandleSpecialSkillLeft;
 struct TextHandle TextHandleSpecialSkillRight;
 
@@ -6859,13 +6859,13 @@ void BattleUnwindInjector()
 
 void ClearSkillHpStealFlags()
 {
-    for(int i = 0; i < sizeof(gFlagHpStealBySkill); i++)
-        gFlagHpStealBySkill[i] = 0;
+    for(int i = 0; i < sizeof(FlagHpStealBySkill); i++)
+        FlagHpStealBySkill[i] = 0;
 }
 
 void ClearBattleHitCount()
 {
-    gBattleHitCount = 0;
+    BattleHitCount = 0;
 }
 
 void ClearWeaponTriangleEffectForDaggers(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -7138,8 +7138,8 @@ void ChangeUnitHPBarLengthForHpStealBySkill(struct Proc *proc)
     {
         atRight = isAnimationAtRight(*(void **)(&proc->data[0x37]));
         count = 2 * (gHPBarLenChangeCounts[1 - atRight] + 1) + 1 - atRight;
-        Debugf("side:%s, count: %d, hp bar length: %d, skill hp steal flag: %d", atRight?"right":"left", count, gHPBarLens[atRight], gFlagHpStealBySkill[count]);
-        if(gFlagHpStealBySkill[count] == 1)
+        Debugf("side:%s, count: %d, hp bar length: %d, skill hp steal flag: %d", atRight?"right":"left", count, gHPBarLens[atRight], FlagHpStealBySkill[count]);
+        if(FlagHpStealBySkill[count] == 1)
         {
             //if(getHPBarLen(count) < 0xff)
                 gHPBarLens[1 - atRight] = getHPBarLen(count);
@@ -7162,7 +7162,7 @@ u16 calculateHPAfterHPStealSpecialSkill(u16 hp, u8 atRight, struct BattleHit* pB
     struct Unit *unit;
     struct BattleUnit *battleUnit;
 
-    gFlagHpStealBySkill[2 *(count + 1) + atRight] = 1;
+    FlagHpStealBySkill[2 *(count + 1) + atRight] = 1;
 
     // hp stolen by special skill
 
@@ -7263,13 +7263,13 @@ void displaySpecialSkillNameInBattle(struct Proc *proc)
 
     Debug(isAnimationAtRight(AIS)?"AIS is at right":"AIS is at left");
 
-    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    if(gBattleHitArray[BattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
         //displaySpecialSkillName(isAnimationAtRight(AIS));
         displaySpecialSkillName(1);
     }
 
-    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    if(gBattleHitArray[BattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
         //displaySpecialSkillName(!isAnimationAtRight(AIS));
         displaySpecialSkillName(1);
@@ -7277,7 +7277,7 @@ void displaySpecialSkillNameInBattle(struct Proc *proc)
 
     setBGMapBufferSyncFlag(1);
 
-    gBattleHitCount++;
+    BattleHitCount++;
 }
 
 void hideSpecialSkillNameInBattle(struct Proc *proc)
@@ -7318,21 +7318,21 @@ void displaySpecialSkillNameInBattleNew(void *AIS)
 
     Debug(isAnimationAtRight(AIS)?"AIS is at right":"AIS is at left");
 
-    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    if(gBattleHitArray[BattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
-        displaySpecialSkillName(isBattleUnitAtRight(getAttackerBattleUnit(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
+        displaySpecialSkillName(isBattleUnitAtRight(getAttackerBattleUnit(gBattleHitArray[BattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
     }
 
-    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    if(gBattleHitArray[BattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
-        displaySpecialSkillName(isBattleUnitAtRight(getDefenderBattleUnit(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
+        displaySpecialSkillName(isBattleUnitAtRight(getDefenderBattleUnit(gBattleHitArray[BattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
     }
 
     setBGMapBufferSyncFlag(1);
 
-    Debugf("gBattleHitCount: %d, gBattleHitArray[gBattleHitCount]: %x, %x, %x, %d", gBattleHitCount, &gBattleHitArray[gBattleHitCount], gBattleHitArray[gBattleHitCount].attributes, gBattleHitArray[gBattleHitCount].info, gBattleHitArray[gBattleHitCount].hpChange);
+    Debugf("BattleHitCount: %d, gBattleHitArray[BattleHitCount]: %x, %x, %x, %d", BattleHitCount, &gBattleHitArray[BattleHitCount], gBattleHitArray[BattleHitCount].attributes, gBattleHitArray[BattleHitCount].info, gBattleHitArray[BattleHitCount].hpChange);
     
-    gBattleHitCount++;
+    BattleHitCount++;
 }
 
 void displaySpecialSkillIcon(int isRight)
@@ -7352,14 +7352,14 @@ void displaySpecialSkillIconInBattle(void *AIS)
     writeBGPalette(skill_page_icons_1Pal, 32 * 15, 32);
     RegisterTileGraphics(skill_page_icons_1Tiles, 0x6004f80, 32 * 4); // Tile #636 = 0x6004f80
 
-    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    if(gBattleHitArray[BattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
-        displaySpecialSkillIcon(isBattleUnitAtRight(getAttackerBattleUnit(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
+        displaySpecialSkillIcon(isBattleUnitAtRight(getAttackerBattleUnit(gBattleHitArray[BattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
     }
 
-    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    if(gBattleHitArray[BattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
-        displaySpecialSkillIcon(isBattleUnitAtRight(getDefenderBattleUnit(gBattleHitArray[gBattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
+        displaySpecialSkillIcon(isBattleUnitAtRight(getDefenderBattleUnit(gBattleHitArray[BattleHitCount].info & BATTLE_HIT_INFO_RETALIATION)));
     }
 
     setBGMapBufferSyncFlag(1);
@@ -7394,17 +7394,17 @@ void hideSpecialSkillsInBattleBySide(int isRight)
 
 void hideSpecialSkillsInBattleNew(void *AIS)
 {
-    if(gBattleHitArray[gBattleHitCount - 2].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    if(gBattleHitArray[BattleHitCount - 2].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
-        if(gBattleHitArray[gBattleHitCount - 2].info & BATTLE_HIT_INFO_RETALIATION)
+        if(gBattleHitArray[BattleHitCount - 2].info & BATTLE_HIT_INFO_RETALIATION)
             hideSpecialSkillsInBattleBySide(!isAnimationAtRight(AIS));
         else
             hideSpecialSkillsInBattleBySide(isAnimationAtRight(AIS));
     }
 
-    if(gBattleHitArray[gBattleHitCount - 2].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    if(gBattleHitArray[BattleHitCount - 2].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
-        if(gBattleHitArray[gBattleHitCount - 2].info & BATTLE_HIT_INFO_RETALIATION)
+        if(gBattleHitArray[BattleHitCount - 2].info & BATTLE_HIT_INFO_RETALIATION)
             hideSpecialSkillsInBattleBySide(isAnimationAtRight(AIS));
         else
             hideSpecialSkillsInBattleBySide(!isAnimationAtRight(AIS));
@@ -7420,14 +7420,14 @@ void showSpecialSkillsInBattle(void *AIS)
     Text_Clear(&TextHandleSpecialSkillRight);
     Text_Init(&TextHandleSpecialSkillLeft, 8);
     Text_Init(&TextHandleSpecialSkillRight, 8);
-    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
+    if(gBattleHitArray[BattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_ATTACK)
     {
         if(isAnimationAtRight(AIS))
             DrawTextInLine(&TextHandleSpecialSkillRight, &BG0MapBuffer[240 / 8 - 8 + 32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "UŒ‚‰œ‹`");
         else
             DrawTextInLine(&TextHandleSpecialSkillLeft, &BG0MapBuffer[32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "UŒ‚‰œ‹`");
     }
-    if(gBattleHitArray[gBattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
+    if(gBattleHitArray[BattleHitCount].attributes & BATTLE_HIT_ATTR_SKILL_DEFEND)
     {
         if(!isAnimationAtRight(AIS))
             DrawTextInLine(&TextHandleSpecialSkillLeft, &BG0MapBuffer[32 * 32 / 8], TEXT_COLOR_NORMAL, 0, 8, "–hŒä‰œ‹`");
@@ -7449,7 +7449,7 @@ void showSpecialSkillsInBattle(void *AIS)
 
     *(void **)(&proc->data[1]) = AIS;*/
 
-    //gBattleHitCount++;
+    //BattleHitCount++;
     
     //hideSpecialSkillsInBattle();
     displaySpecialSkillIconInBattle(AIS);
