@@ -416,7 +416,7 @@ void forAllAliveUnitsInSide(void (*func)(struct Unit *unit, void *args), void *a
     switch (side)
     {
         case PlayerSide:
-            forAllNPCUnitsAlive(func, args);
+            forAllPlayerUnitsAlive(func, args);
             break;
         case NPCSide:
             forAllNPCUnitsAlive(func, args);
@@ -426,6 +426,72 @@ void forAllAliveUnitsInSide(void (*func)(struct Unit *unit, void *args), void *a
             break;
         default:
             forAllP4UnitsAlive(func, args);
+    }
+}
+
+void forAllPlayerUnitsAliveExcept(void (*func)(struct Unit *unit, int arg), int arg, u8 exceptNumber)
+{
+    struct Unit *unit;
+
+    for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
+    {
+        unit = &playerUnits[i];
+        if(isUnitAlive(unit) && unit->number != exceptNumber)
+            (*func)(unit, arg);
+    }
+}
+
+void forAllEnemyUnitsAliveExcept(void (*func)(struct Unit *unit, int arg), int arg, u8 exceptNumber)
+{
+    struct Unit *unit;
+
+    for(int i = 0; i < ENEMY_TOTAL_AMOUNT; i++)
+    {
+        unit = &enemyUnits[i];
+        if(isUnitAlive(unit) && unit->number != exceptNumber)
+            (*func)(unit, arg);
+    }
+}
+
+void forAllNPCUnitsAliveExcept(void (*func)(struct Unit *unit, int arg), int arg, u8 exceptNumber)
+{
+    struct Unit *unit;
+
+    for(int i = 0; i < NPC_TOTAL_AMOUNT; i++)
+    {
+        unit = &NPCUnits[i];
+        if(isUnitAlive(unit) && unit->number != exceptNumber)
+            (*func)(unit, arg);
+    }
+}
+
+void forAllP4UnitsAliveExcept(void (*func)(struct Unit *unit, int arg), int arg, u8 exceptNumber)
+{
+    struct Unit *unit;
+
+    for(int i = 0; i < P4_TOTAL_AMOUNT; i++)
+    {
+        unit = &P4Units[i];
+        if(isUnitAlive(unit) && unit->number != exceptNumber)
+            (*func)(unit, arg);
+    }
+}
+
+void forAllAliveUnitsInSideExcept(void (*func)(struct Unit *unit, int arg), int arg, int side, u8 exceptNumber)
+{
+    switch (side)
+    {
+        case PlayerSide:
+            forAllPlayerUnitsAliveExcept(func, arg, exceptNumber);
+            break;
+        case NPCSide:
+            forAllNPCUnitsAliveExcept(func, arg, exceptNumber);
+            break;
+        case EnemySide:
+            forAllEnemyUnitsAliveExcept(func, arg, exceptNumber);
+            break;
+        default:
+            forAllP4UnitsAliveExcept(func, arg, exceptNumber);
     }
 }
 
@@ -1328,6 +1394,23 @@ void fixedAmountHeal(struct Unit* unit, int *healAmount)
         unit->hp = unit->maxHp;
 }
 
+void healUnit10HpExcept(struct Unit* unit, u8 *exceptNumber)
+{
+    if(unit->number != *exceptNumber)
+    {
+        unit->hp += 10;
+        if(unit->hp > GetUnitMaxHp(unit))
+            unit->hp = GetUnitMaxHp(unit);
+    }
+}
+
+void healCompanions10HpExceptSelf(struct Unit* unit)
+{
+    u8 selfNumber = unit->number;
+
+    forAllAliveUnitsInSide(healUnit10HpExcept, &selfNumber, unit->side);
+}
+
 void healAllCompanions(struct Unit* unit, int *healAmount)
 {
     forAllAliveUnitsInSide(fixedAmountHeal, healAmount, unit->side);
@@ -1336,15 +1419,87 @@ void healAllCompanions(struct Unit* unit, int *healAmount)
 // 天照: 回復の杖使用時、自分を除く全味方を10回復する
 void specialSkillHeavenlyLightEffect(struct Unit* unit, int *healAmount)
 {
-    int healAmountForAllCompanions = 10;
+    healCompanions10HpExceptSelf(unit);
+}
 
-    healAllCompanions(unit, &healAmountForAllCompanions);
+// 業火の祝福: 回復の杖使用時、自分を除く全味方の攻撃+4（1ターン）
+void specialSkillKindledFireBalmEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffPower, 4, unit->side, unit->number);
+}
 
-    //TODO: better implementation to exclude self
-    if(unit->hp < 10)
-        unit->hp = 0;
-    else
-        unit->hp -= 10;
+// 疾風の祝福: 回復の杖使用時、自分を除く全味方の速さ+4（1ターン）
+void specialSkillSwiftWindsBalmEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffSpeed, 4, unit->side, unit->number);
+}
+
+// 大地の祝福: 回復の杖使用時、自分を除く全味方の守備+4（1ターン）
+void specialSkillSolidEarthBalmEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffDefense, 4, unit->side, unit->number);
+}
+
+// 静水の祝福: 回復の杖使用時、自分を除く全味方の魔防+4（1ターン）
+void specialSkillStillWaterBalmEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffResistance, 4, unit->side, unit->number);
+}
+
+// 業火疾風の祝福: 回復の杖使用時、自分を除く全味方の攻撃、速さ+4（1ターン）
+void specialSkillWindFireBalmEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffPower, 4, unit->side, unit->number);
+    forAllAliveUnitsInSideExcept(addUnitBuffSpeed, 4, unit->side, unit->number);
+}
+
+// 業火疾風の祝福+: 回復の杖使用時、自分を除く全味方の攻撃、速さ+6（1ターン）
+void specialSkillWindFireBalmPlusEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffPower, 6, unit->side, unit->number);
+    forAllAliveUnitsInSideExcept(addUnitBuffSpeed, 6, unit->side, unit->number);
+}
+
+// 大地静水の祝福: 回復の杖使用時、自分を除く全味方の守備、魔防+4（1ターン）
+void specialSkillEarthWaterBalmEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffDefense, 4, unit->side, unit->number);
+    forAllAliveUnitsInSideExcept(addUnitBuffResistance, 4, unit->side, unit->number);
+}
+
+// 大地静水の祝福+: 回復の杖使用時、自分を除く全味方の守備、魔防+6（1ターン）
+void specialSkillEarthWaterBalmPlusEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffDefense, 6, unit->side, unit->number);
+    forAllAliveUnitsInSideExcept(addUnitBuffResistance, 6, unit->side, unit->number);
+}
+
+// 業火大地の祝福: 回復の杖使用時、自分を除く全味方の攻撃、守備+4（1ターン）
+void specialSkillEarthFireBalmEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffDefense, 4, unit->side, unit->number);
+    forAllAliveUnitsInSideExcept(addUnitBuffPower, 4, unit->side, unit->number);
+}
+
+// 業火大地の祝福+: 回復の杖使用時、自分を除く全味方の攻撃、守備+6（1ターン）
+void specialSkillEarthFireBalmPlusEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffDefense, 6, unit->side, unit->number);
+    forAllAliveUnitsInSideExcept(addUnitBuffPower, 6, unit->side, unit->number);
+}
+
+// 業火静水の祝福: 回復の杖使用時、自分を除く全味方の攻撃、魔防+4（1ターン）
+void specialSkillFireFloodBalmEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffResistance, 4, unit->side, unit->number);
+    forAllAliveUnitsInSideExcept(addUnitBuffPower, 4, unit->side, unit->number);
+}
+
+// 業火静水の祝福+: 回復の杖使用時、自分を除く全味方の攻撃、魔防+6（1ターン）
+void specialSkillFireFloodBalmPlusEffect(struct Unit* unit, int *healAmount)
+{
+    forAllAliveUnitsInSideExcept(addUnitBuffResistance, 6, unit->side, unit->number);
+    forAllAliveUnitsInSideExcept(addUnitBuffPower, 6, unit->side, unit->number);
 }
 
 // スキル名の読み方: https://i.imgur.com/9vbivwC.jpg
@@ -1556,7 +1711,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillKindledFireBalmEffect
         },
         {
             "疾風の祝福",
@@ -1569,7 +1724,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillSwiftWindsBalmEffect
         },
         {
             "大地の祝福",
@@ -1582,7 +1737,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillSolidEarthBalmEffect
         },
         {
             "静水の祝福",
@@ -1595,7 +1750,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillStillWaterBalmEffect
         },
         {
             "ゆうよう",
@@ -1855,7 +2010,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillWindFireBalmEffect
         },
         {
             "業火大地の祝福",
@@ -1868,7 +2023,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillEarthFireBalmEffect
         },
         {
             "業火静水の祝福",
@@ -1881,7 +2036,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillFireFloodBalmEffect
         },
         {
             "大地静水の祝福",
@@ -1894,7 +2049,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillEarthWaterBalmEffect
         },
         {
             "爆火",
@@ -2011,7 +2166,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillWindFireBalmPlusEffect
         },
         {
             "業火大地の祝福＋",
@@ -2024,7 +2179,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillEarthFireBalmPlusEffect
         },
         {
             "業火静水の祝福＋",
@@ -2037,7 +2192,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillFireFloodBalmPlusEffect
         },
         {
             "大地静水の祝福＋",
@@ -2050,7 +2205,7 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0,
                 0,
-                0
+                specialSkillEarthWaterBalmPlusEffect
         },
         {
             "天空",
