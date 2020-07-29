@@ -1,0 +1,334 @@
+{ "columns":15,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"Fire Emblem (GBA) Tileset Terrain Binary",
+         "target":"..\/..\/..\/tool\/map\/tmp\/S3093.terrain.bin"
+        }
+    },
+ "image":"S3093.png",
+ "imageheight":320,
+ "imagewidth":240,
+ "margin":0,
+ "name":"S3093",
+ "spacing":0,
+ "terrains":[
+        {
+         "name":"\u5e73\u5730",
+         "properties":[
+                {
+                 "name":"default",
+                 "type":"bool",
+                 "value":true
+                }],
+         "tile":-1
+        }, 
+        {
+         "name":"\u5899\u58c1",
+         "tile":-1
+        }, 
+        {
+         "name":"\u60ac\u5d16",
+         "tile":-1
+        }, 
+        {
+         "name":"\u68ee\u6797",
+         "tile":-1
+        }],
+ "tilecount":300,
+ "tiledversion":"1.4.1",
+ "tileheight":16,
+ "tiles":[
+        {
+         "id":7,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":8,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":9,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":10,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":11,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":12,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":22,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":23,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":24,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":25,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":26,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":27,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":76,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":77,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":90,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":91,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":92,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":105,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":107,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":112,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":113,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":120,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":121,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":122,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":127,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":128,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":129,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":135,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":136,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":137,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":141,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":143,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":144,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":157,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":158,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":159,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":160,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":161,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":173,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":228,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":229,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":238,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":239,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":240,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":241,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":243,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":244,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":253,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":254,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":255,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":256,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":257,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":258,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":259,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":268,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":269,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":270,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":271,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":272,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":273,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":274,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":282,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":283,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":284,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":285,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":286,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":287,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":288,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":289,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":297,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":298,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":299,
+         "terrain":[2, 2, 2, 2]
+        }],
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.4
+}
