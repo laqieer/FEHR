@@ -79,6 +79,16 @@ extern const u8 musicFERadiantDawnDevoted[];
 extern const u8 musicFE776Crisis[];
 extern const u8 musicFE776Destiny[];
 extern const u8 musicFE776Sorrow[];
+extern const u8 musicFEThreeHouseFuneralFlowers[];
+extern const u8 musicFEThreeHouseEdgeDawn[];
+extern const u8 musicFEThreeHouseFodlanWinds[];
+extern const u8 musicFEThreeHouseGodShatteringStar[];
+extern const u8 musicFEThreeHouseGarregMachMonastery[];
+extern const u8 musicFEThreeHouseMainTheme[];
+extern const u8 musicFEThreeHouseRoarDominion[];
+extern const u8 musicFEThreeHouseSomewhere2Belong[];
+extern const u8 musicFEThreeHouseApexWorld[];
+extern const u8 musicFEThreeHouseUnfulfilled[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1578,6 +1588,16 @@ const struct Song songs[] = {
         [MUSIC_FE_776_CRISIS] = {musicFE776Crisis, 1, 1},
         [MUSIC_FE_776_DESTINY] = {musicFE776Destiny, 1, 1},
         [MUSIC_FE_776_SORROW] = {musicFE776Sorrow, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_FUNERAL_FLOWERS] = {musicFEThreeHouseFuneralFlowers, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_EDGE_DAWN] = {musicFEThreeHouseEdgeDawn, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_FODLAN_WINDS] = {musicFEThreeHouseFodlanWinds, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_GOD_SHATTERING_STAR] = {musicFEThreeHouseGodShatteringStar, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_GARREG_MACH_MONASTERY] = {musicFEThreeHouseGarregMachMonastery, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_MAIN_THEME] = {musicFEThreeHouseMainTheme, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_ROAR_DOMINION] = {musicFEThreeHouseRoarDominion, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_SOMEWHERE_BELONG] = {musicFEThreeHouseSomewhere2Belong, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_APEX_WORLD] = {musicFEThreeHouseApexWorld, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_UNFULFILLED] = {musicFEThreeHouseUnfulfilled, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1774,6 +1794,16 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_776_CRISIS, MUSIC_LENGTH(2, 10), 0, "危機"},
     {MUSIC_FE_776_DESTINY, MUSIC_LENGTH(1, 37), 0, "運命"},
     {MUSIC_FE_776_SORROW, MUSIC_LENGTH(2, 31), 0, "悲しみ"},
+    {MUSIC_FE_THREE_HOUSE_FUNERAL_FLOWERS, MUSIC_LENGTH(5, 0), 0, "花片の葬列"},
+    {MUSIC_FE_THREE_HOUSE_EDGE_DAWN, MUSIC_LENGTH(3, 28), 0, "フレスベルグの少女"},
+    {MUSIC_FE_THREE_HOUSE_FODLAN_WINDS, MUSIC_LENGTH(5, 0), 0, "フォドラのぎょうふう"},
+    {MUSIC_FE_THREE_HOUSE_GOD_SHATTERING_STAR, MUSIC_LENGTH(5, 0), 0, "神をほふる星"},
+    {MUSIC_FE_THREE_HOUSE_GARREG_MACH_MONASTERY, MUSIC_LENGTH(1, 44), 0, "ガルグマク大修道院の日常"},
+    {MUSIC_FE_THREE_HOUSE_MAIN_THEME, MUSIC_LENGTH(2, 19), 0, "風花雪月メインテーマ"},
+    {MUSIC_FE_THREE_HOUSE_ROAR_DOMINION, MUSIC_LENGTH(5, 0), 0, "覇のとどろき"},
+    {MUSIC_FE_THREE_HOUSE_SOMEWHERE_BELONG, MUSIC_LENGTH(1, 38), 0, "帰る場所"},
+    {MUSIC_FE_THREE_HOUSE_APEX_WORLD, MUSIC_LENGTH(5, 0), 0, "この世界の頂で"},
+    {MUSIC_FE_THREE_HOUSE_UNFULFILLED, MUSIC_LENGTH(5, 0), 0, "果たせぬ思い"},
 
     // End of table
     {-1, 0,                                              0, 0},
