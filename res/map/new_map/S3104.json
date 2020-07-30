@@ -1,0 +1,14 @@
+{ "columns":15,
+ "image":"S3104.png",
+ "imageheight":320,
+ "imagewidth":240,
+ "margin":0,
+ "name":"S3104",
+ "spacing":0,
+ "tilecount":300,
+ "tiledversion":"1.4.1",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.4
+}
