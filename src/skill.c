@@ -1390,8 +1390,8 @@ void specialSkillImbueEffect(struct Unit* unit, int *healAmount)
 void fixedAmountHeal(struct Unit* unit, int *healAmount)
 {
     unit->hp += *healAmount;
-    if(unit->hp > unit->maxHp)
-        unit->hp = unit->maxHp;
+    if(unit->hp > GetUnitMaxHp(unit))
+        unit->hp = GetUnitMaxHp(unit);
 }
 
 void healUnit10HpExcept(struct Unit* unit, u8 *exceptNumber)
@@ -6086,15 +6086,15 @@ void assistSkillHarshCommandPlusEffect(struct Proc* proc, struct SelectTarget* t
 // Œ£g: ‘ÎÛ‚ÌHP‚ğ10‰ñ•œ‚µA©•ª‚ÌHP‚ğ10Œ¸­
 int assistSkillArdentSacrificeCondition(struct Unit *targetUnit)
 {
-    return targetUnit->hp < targetUnit->maxHp && currentActiveUnit->hp > 10;
+    return targetUnit->hp < GetUnitMaxHp(targetUnit) && currentActiveUnit->hp > 10;
 }
 
 void assistSkillArdentSacrificeEffect(struct Proc* proc, struct SelectTarget* target)
 {
    struct Unit *targetUnit = GetUnit(target->uid);
    targetUnit->hp += 10;
-   if(targetUnit->hp > targetUnit->maxHp)
-       targetUnit->hp = targetUnit->maxHp;
+   if(targetUnit->hp > GetUnitMaxHp(targetUnit))
+       targetUnit->hp = GetUnitMaxHp(targetUnit);
    currentActiveUnit->hp -= 10;
    if(currentActiveUnit->hp < 1)
        currentActiveUnit->hp = 1;
@@ -6113,11 +6113,11 @@ void assistSkillReciprocalAidEffect(struct Proc* proc, struct SelectTarget* targ
     struct Unit *targetUnit = GetUnit(target->uid);
     int targetHp = targetUnit->hp;
     targetUnit->hp = currentActiveUnit->hp;
-    if(targetUnit->hp > targetUnit->maxHp)
-        targetUnit->hp = targetUnit->maxHp;
+    if(targetUnit->hp > GetUnitMaxHp(targetUnit))
+        targetUnit->hp =  GetUnitMaxHp(targetUnit);
     currentActiveUnit->hp = targetHp;
-    if(currentActiveUnit->hp > currentActiveUnit->maxHp)
-        currentActiveUnit->hp = currentActiveUnit->maxHp;
+    if(currentActiveUnit->hp > GetUnitMaxHp(currentActiveUnit))
+        currentActiveUnit->hp = GetUnitMaxHp(currentActiveUnit);
     StartSoundEffect(&se_effect_live);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
@@ -6129,19 +6129,19 @@ void assistSkillReciprocalAidEffect(struct Proc* proc, struct SelectTarget* targ
 // –ü‚µ‚Ìè: ‘ÎÛ‚ªó‚¯‚Ä‚¢‚éã‰»‚ğ–³Œø‰»‚µA‹­‰»‚É•ÏŠ·‚·‚é@‘ÎÛ‚ÌHP‚ğ‰ñ•œ‚µA‚»‚Ì•ª©•ª‚ÌHP‚ªŒ¸­‚·‚éi‰ñ•œ—Ê‚ÍAÅ‘å‚Å©•ª‚ÌŒ»HP-1j
 int assistSkillSacrificeCondition(struct Unit *targetUnit)
 {
-    return !checkUnitStateHarshed(targetUnit) || (targetUnit->hp < targetUnit->maxHp && currentActiveUnit->hp > 1);
+    return !checkUnitStateHarshed(targetUnit) || (targetUnit->hp < GetUnitMaxHp(targetUnit) && currentActiveUnit->hp > 1);
 }
 
 void assistSkillSacrificeEffect(struct Proc* proc, struct SelectTarget* target)
 {
     struct Unit *targetUnit = GetUnit(target->uid);
     setUnitStateHarshed(targetUnit);
-    if(targetUnit->hp < targetUnit->maxHp && currentActiveUnit->hp > 1)
+    if(targetUnit->hp < GetUnitMaxHp(targetUnit) && currentActiveUnit->hp > 1)
     {
-        targetUnit->hp = targetUnit->maxHp;
-        currentActiveUnit->hp -= targetUnit->maxHp - targetUnit->hp;
+        currentActiveUnit->hp -= GetUnitMaxHp(targetUnit) - targetUnit->hp;
         if(currentActiveUnit->hp < 1)
             currentActiveUnit->hp = 1;
+        targetUnit->hp = GetUnitMaxHp(targetUnit);
     }
     StartSoundEffect(&se_sys_powerup1);
     StartLowSoundEffect(&se_effect_live);
@@ -6326,7 +6326,7 @@ const struct AssistSkill assistSkills[] = {
     {"UŒ‚ç”õ‚Ì‰‰‡", "‘ÎÛ‚ÌUŒ‚Aç”õ{‚R", "Rally Atk/Def", "Grants Atk/Def+3 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefenseEffect},
     {"UŒ‚‚Ì‘å‰‰‡", "‘ÎÛ‚Æ‚»‚ÌüˆÍ‚Qƒ}ƒX‚Ì–¡•ûi©•ª‚Íœ‚­j‚ÌUŒ‚{‚S", "Rally Up Atk", "Grants Atk+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackEffect},
     {"–‚–h‚Ì‘å‰‰‡", "‘ÎÛ‚Æ‚»‚ÌüˆÍ‚Qƒ}ƒX‚Ì–¡•ûi©•ª‚Íœ‚­j‚Ì–‚–h{‚S", "Rally Up Res", "Grants Res+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpResistanceEffect},
-    {"–ü‚µ‚Ìè", "‘ÎÛ‚ªó‚¯‚Ä‚¢‚éã‰»‚ğ–³Œø‰»‚µA‹­‰»‚É•ÏŠ·‚·‚éB‘ÎÛ‚Ì‚g‚o‚ğ‰ñ•œ‚µA‚»‚Ì•ª©•ª‚Ì‚g‚o‚ªŒ¸­‚·‚é", "Sacrifice", "Converts penalties on target into bonuses. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.", NULL, assistSkillSacrificeEffect},
+    {"–ü‚µ‚Ìè", "‘ÎÛ‚ªó‚¯‚Ä‚¢‚éã‰»‚ğ–³Œø‰»‚µA‹­‰»‚É•ÏŠ·‚·‚éB‘ÎÛ‚Ì‚g‚o‚ğ‰ñ•œ‚µA‚»‚Ì•ª©•ª‚Ì‚g‚o‚ªŒ¸­‚·‚é", "Sacrifice", "Converts penalties on target into bonuses. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.", assistSkillSacrificeCondition, assistSkillSacrificeEffect},
     {"–¢—ˆ‚ğ‰f‚·“µ", "©•ª‚Æ‘ÎÛ‚ÌˆÊ’u‚ğ“ü‚ê‘Ö‚¦A‚»‚ÌŒãA©•ª‚ğs“®‰Â”\\‚É‚·‚é", "Future Vision", "Unit and target ally swap spaces. Grants another action to unit.", assistSkillFutureVisionCondition, assistSkillFutureVisionEffect},
     {"‘¬‚³ç”õ‚Ì‰‰‡{", "‘ÎÛ‚Ì‘¬‚³Aç”õ{‚U", "Rally Spd/Def+", "Grants Spd/Def+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedDefensePlusEffect},
     {"UŒ‚‚Ì‘å‰‰‡{", "‘ÎÛ‚Æ‚»‚ÌüˆÍ‚Qƒ}ƒX‚Ì–¡•ûi©•ª‚Íœ‚­j‚ÌUŒ‚{‚U", "Rally Up Atk+", "Grants Atk+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.", NULL, assistSkillRallyUpAttackPlusEffect},
