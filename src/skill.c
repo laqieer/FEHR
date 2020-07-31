@@ -2441,6 +2441,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_EIR_ID] = SPECIAL_SKILL_ICEBERG,
         [CHARACTER_HELL_ID] = SPECIAL_SKILL_GLIMMER,
         [CHARACTER_GUSTAF_ID] = SPECIAL_SKILL_SOL,
+        [CHARACTER_HELL_ID] = SPECIAL_SKILL_MIRACLE,
 };
 
 const u16 jobSpecialSkills[0x100] = {
