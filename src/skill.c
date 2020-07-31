@@ -82,6 +82,38 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
                     attacker->nonZeroDamage = 0;
             }
             break;
+        case PASSIVE_SKILL_B_GUARD_BEARING_1:
+            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker == &gBattleTarget))
+            {
+                gBattleStats.damage *= 1 - 0.3;
+                if(gBattleStats.damage == 0)
+                    attacker->nonZeroDamage = 0;
+            }
+            break;
+        case PASSIVE_SKILL_B_GUARD_BEARING_2:
+            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker == &gBattleTarget))
+            {
+                gBattleStats.damage *= 1 - 0.4;
+                if(gBattleStats.damage == 0)
+                    attacker->nonZeroDamage = 0;
+            }
+            break;
+        case PASSIVE_SKILL_B_GUARD_BEARING_3:
+            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker == &gBattleTarget))
+            {
+                gBattleStats.damage *= 1 - 0.5;
+                if(gBattleStats.damage == 0)
+                    attacker->nonZeroDamage = 0;
+            }
+            break;
+        case PASSIVE_SKILL_B_GUARD_BEARING_4:
+            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker == &gBattleTarget))
+            {
+                gBattleStats.damage *= 1 - 0.6;
+                if(gBattleStats.damage == 0)
+                    attacker->nonZeroDamage = 0;
+            }
+            break;
         default:
             break;
     }
@@ -2722,6 +2754,26 @@ void ForAllUnitsInSide(u8 side, void(*func)(struct Unit *unit, u32 *args), u32 *
     }
 }
 
+void ForAllOppositeUnitsToSide(u8 side, void(*func)(struct Unit *unit, u32 *args), u32 *args)
+{
+    switch(side)
+    {
+        case PlayerSide:
+        case NPCSide:
+            ForAllEnemyUnitsWithArgs(func, args);
+            ForAllP4UnitsWithArgs(func, args);
+            break;
+        case EnemySide:
+        case P4Side:
+            ForAllNPCUnitsWithArgs(func, args);
+            ForAllPlayerUnitsWithArgs(func, args);
+            break;
+        default:
+            Debugf("Error: invalid side: %d", side);
+            break;
+    }
+}
+
 void updateAllyUnitSkillCD(struct Unit *allyUnit, struct Unit *skillUnit)
 {
     switch (getUnitPassiveSkillC(skillUnit))
@@ -4847,6 +4899,10 @@ void ComputeBattleUnitDefense(struct BattleUnit* attacker, struct BattleUnit* de
             if(isAdjacentToAnyMagicCompanion(&defender->unit))
                 attacker->battleDefense = min(defense, resistance);
             break;
+        case PASSIVE_SKILL_A_HELL_SCYTHE:
+            if(!IsUnitMagic(&attacker->unit))
+                attacker->battleDefense = resistance;
+            break;
         default:
             break;
     }
@@ -5073,6 +5129,26 @@ void ComputePassiveSkillCEffectFromOthers(struct Unit *unit, u32 *args)
     }
 }
 
+void ComputePassiveSkillCEffectFromOppositeUnits(struct Unit *unit, u32 *args)
+{
+    struct BattleUnit *attacker = args[0];
+    struct BattleUnit *defender = args[1];
+
+    switch (getUnitPassiveSkillC(unit))
+    {
+        case PASSIVE_SKILL_C_INEVITABLE_DEATH:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 4);
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 4);
+                attacker->battleDefense = max(0, attacker->battleDefense - 4);
+            }
+            break;
+        default:
+            break;
+    }
+}
+
 int isAdjacentToSpecificUnitAndHasMagicRank(struct Unit *unit, struct Unit *specificUnit)
 {
     return areTwoUnitsAdjacent(unit, specificUnit) && IsUnitMagic(unit);
@@ -5274,6 +5350,7 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
     args[1] = defender;
 
     ForAllUnitsInSide(attacker->unit.side, ComputePassiveSkillCEffectFromOthers, args);
+    ForAllOppositeUnitsToSide(attacker->unit.side, ComputePassiveSkillCEffectFromOppositeUnits, args);
 }
 
 void ComputeBattleUnitStats(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -6478,6 +6555,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚A‘¬‚³{‚Q", "Swift Sparrow 1", "If unit initiates combat, grants Atk/Spd+2 during combat."},
     {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚A‘¬‚³{‚S", "Swift Sparrow 2", "If unit initiates combat, grants Atk/Spd+4 during combat."},
     {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚UA‘¬‚³{‚V", "Swift Sparrow 3", "If unit initiates combat, grants Atk+6, Spd+7 during combat."},
+    {"€Š™", "“G‚ª–‚–@AñˆÈŠO‚ÌA“G‚Ì–‚–h‚Åƒ_ƒ[ƒWŒvZ", "Hel's Reaper", "If foe does not use magic or staff, calculates damage using foe's Res"},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -6497,6 +6575,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_A_FLASHING_BLADE_1, PASSIVE_SKILL_A_FLASHING_BLADE_2, PASSIVE_SKILL_A_FLASHING_BLADE_3, PASSIVE_SKILL_A_FLASHING_BLADE_4},
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_A_DARTING_BLOW_1, PASSIVE_SKILL_A_SWIFT_SPARROW_1, PASSIVE_SKILL_A_SWIFT_SPARROW_2, PASSIVE_SKILL_A_SWIFT_SPARROW_3},
+    [CHARACTER_HELL_ID] = {PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -6576,6 +6655,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"¶–½‚Ì‚²‚Ó‚Q", "í“¬’†A“G‚Ìu“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZv‚ğ–³Œø‰»Aí“¬ŒãA‚g‚o‚S‰ñ•œ", "Mystic Boost 2", "Disables foe's skills that calculates damage using the lower of foe's Def or Res and Restores 4 HP after combat."},
     {"¶–½‚Ì‚²‚Ó‚R", "í“¬’†A“G‚Ìu“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZv‚ğ–³Œø‰»Aí“¬ŒãA‚g‚o‚U‰ñ•œ", "Mystic Boost 3", "Disables foe's skills that calculates damage using the lower of foe's Def or Res and Restores 6 HP after combat."},
     {"¶–½‚Ì‚²‚Ó‚S", "í“¬’†A“G‚Ìu“G‚Ìç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvZv‚ğ–³Œø‰»Aí“¬ŒãA‚g‚o‚W‰ñ•œ", "Mystic Boost 4", "Disables foe's skills that calculates damage using the lower of foe's Def or Res and Restores 8 HP after combat."},
+    {"Œx‚©‚¢p¨‚P", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†AÅ‰‚Éó‚¯‚½UŒ‚‚Ìƒ_ƒ[ƒW‚ğ‚RŠ„ŒyŒ¸", "Guard Bearing 1", "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 30%."},
+    {"Œx‚©‚¢p¨‚Q", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†AÅ‰‚Éó‚¯‚½UŒ‚‚Ìƒ_ƒ[ƒW‚ğ‚SŠ„ŒyŒ¸", "Guard Bearing 2", "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 40%."},
+    {"Œx‚©‚¢p¨‚R", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†AÅ‰‚Éó‚¯‚½UŒ‚‚Ìƒ_ƒ[ƒW‚ğ”¼•ªŒyŒ¸", "Guard Bearing 3", "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 50%."},
+    {"Œx‚©‚¢p¨‚S", "“G‚©‚çUŒ‚‚³‚ê‚½Aí“¬’†AÅ‰‚Éó‚¯‚½UŒ‚‚Ìƒ_ƒ[ƒW‚ğ‚UŠ„ŒyŒ¸", "Guard Bearing 4", "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 60%."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -6594,6 +6677,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE, PASSIVE_SKILL_B_DEADLY_BALANCE},
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT},
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_B_MYSTIC_BOOST_1, PASSIVE_SKILL_B_MYSTIC_BOOST_2, PASSIVE_SKILL_B_MYSTIC_BOOST_3, PASSIVE_SKILL_B_MYSTIC_BOOST_4},
+    [CHARACTER_HELL_ID] = {PASSIVE_SKILL_B_GUARD_BEARING_1, PASSIVE_SKILL_B_GUARD_BEARING_2, PASSIVE_SKILL_B_GUARD_BEARING_3, PASSIVE_SKILL_B_GUARD_BEARING_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -6690,6 +6774,7 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚R", "í“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Qƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 3", "InflictsyPaniczon target and foes within 2 space of target after combat."},
     {"‹°‚±‚¤‚Ì‚°‚ñ‚¦‚ñ‚S", "í“¬ŒãA“G‚Æ‚»‚ÌüˆÍ‚Rƒ}ƒX‚Ì“G‚ÉyƒpƒjƒbƒNz‚ğ•t—^", "Panic Smoke 4", "InflictsyPaniczon target and foes within 3 space of target after combat."},
     {"¶–½‚Ì‹P‚«", "ƒ^[ƒ“ŠJnA©•ª‚ğœ‚­Å‚à‚g‚o‚ªŒ¸‚Á‚Ä‚¢‚é–¡•ûiÅ‘å‚g‚o[Œ»‚g‚o‚Ì·‚ªÅ‚à‚‚¢–¡•ûj‚ğ‚P‚O‰ñ•œ", "Sparkling Boost", "At start of turn, restores 10 HP to ally that has been dealt the most damage. (Excludes unit.)"},
+    {"€‚©‚ç“¦‚ê‚ç‚ê‚Ê", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A‘¬‚³Aç”õA–‚–h[‚S", "Inevitable Death", "Inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces during combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -6710,6 +6795,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_LIF_ID] = {PASSIVE_SKILL_C_TIME_PULSE_1, PASSIVE_SKILL_C_TIME_PULSE_2, PASSIVE_SKILL_C_TIME_PULSE_3, PASSIVE_SKILL_C_TIME_PULSE_4},
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_C_PANIC_SMOKE_1, PASSIVE_SKILL_C_PANIC_SMOKE_2, PASSIVE_SKILL_C_PANIC_SMOKE_3, PASSIVE_SKILL_C_PANIC_SMOKE_4},
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST},
+    [CHARACTER_HELL_ID] = {PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
