@@ -89,6 +89,11 @@ extern const u8 musicFEThreeHouseRoarDominion[];
 extern const u8 musicFEThreeHouseSomewhere2Belong[];
 extern const u8 musicFEThreeHouseApexWorld[];
 extern const u8 musicFEThreeHouseUnfulfilled[];
+extern const u8 musicFE12EndlessBattle[];
+extern const u8 musicFE12Expedition[];
+extern const u8 musicFE12FootstepsOfFate[];
+extern const u8 musicFE12ForLiberty[];
+extern const u8 musicFE12Liberation[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1598,6 +1603,11 @@ const struct Song songs[] = {
         [MUSIC_FE_THREE_HOUSE_SOMEWHERE_BELONG] = {musicFEThreeHouseSomewhere2Belong, 1, 1},
         [MUSIC_FE_THREE_HOUSE_APEX_WORLD] = {musicFEThreeHouseApexWorld, 1, 1},
         [MUSIC_FE_THREE_HOUSE_UNFULFILLED] = {musicFEThreeHouseUnfulfilled, 1, 1},
+        [MUSIC_FE12_ENDLESS_BATTLE] = {musicFE12EndlessBattle, 1, 1},
+        [MUSIC_FE12_EXPEDITION] = {musicFE12Expedition, 1, 1},
+        [MUSIC_FE12_FOOTSTEPS_OF_FATE] = {musicFE12FootstepsOfFate, 1, 1},
+        [MUSIC_FE12_FOR_LIBERTY] = {musicFE12ForLiberty, 1, 1},
+        [MUSIC_FE12_LIBERATION] = {musicFE12Liberation, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1804,6 +1814,11 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_THREE_HOUSE_SOMEWHERE_BELONG, MUSIC_LENGTH(1, 38), 0, "ãAÇÈèÍèä"},
     {MUSIC_FE_THREE_HOUSE_APEX_WORLD, MUSIC_LENGTH(5, 0), 0, "Ç±ÇÃê¢äEÇÃí∏Ç≈"},
     {MUSIC_FE_THREE_HOUSE_UNFULFILLED, MUSIC_LENGTH(5, 0), 0, "â ÇΩÇπÇ évÇ¢"},
+    {MUSIC_FE12_ENDLESS_BATTLE, MUSIC_LENGTH(2, 42), 0, "êÌÇ¢â ÇƒÇÈÇ±Ç∆Ç»Ç≠"},
+    {MUSIC_FE12_EXPEDITION, MUSIC_LENGTH(2, 26), 0, "âìê™"},
+    {MUSIC_FE12_FOOTSTEPS_OF_FATE, MUSIC_LENGTH(3, 14), 0, "â^ñΩÇÃë´âπ"},
+    {MUSIC_FE12_FOR_LIBERTY, MUSIC_LENGTH(2, 9), 0, "âï˙Ç÷"},
+    {MUSIC_FE12_LIBERATION, MUSIC_LENGTH(2, 25), 0, "âï˙"},
 
     // End of table
     {-1, 0,                                              0, 0},
