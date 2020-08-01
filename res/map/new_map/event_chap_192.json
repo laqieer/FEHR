@@ -88,8 +88,8 @@
                  "y":82.6685330347145
                 }, 
                 {
-                 "gid":359,
-                 "height":16,
+                 "gid":351,
+                 "height":20,
                  "id":2,
                  "name":"\u30d1\u30a4\u30bd\u30f3",
                  "properties":[
@@ -141,7 +141,7 @@
                  "rotation":0,
                  "type":"EnemyUnit",
                  "visible":true,
-                 "width":16,
+                 "width":15,
                  "x":80,
                  "y":64
                 }, 

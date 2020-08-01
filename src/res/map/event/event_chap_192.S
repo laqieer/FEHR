@@ -52,7 +52,7 @@ AllyUnitsENM:
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSummonedStrongDrop,General,0,30,SIDE_ENEMY,1,6,4,6,4,RexHasta,None,0,0,AttackInRange,DontMove,NormalRecovery,DefaultAI4) // フォルス
-	UNIT(GenericSummonedStrong,Sniper,0,30,SIDE_ENEMY,1,5,3,5,3,Longbow,None,0,0,AttackInRange,DontMove,NormalRecovery,DefaultAI4) // パイソン
+	UNIT(GenericSummonedStrong,NomadTrooper,0,30,SIDE_ENEMY,1,5,3,5,3,Longbow,None,0,0,AttackInRange,DontMove,NormalRecovery,DefaultAI4) // パイソン
 	UNIT(GenericHelStrong,Bonewalker,0,30,SIDE_ENEMY,1,8,4,8,4,SilverSword,None,0,0,AttackInRange,DontMove,NormalRecovery,DefaultAI4) // ソードアーマー
 	UNIT(GenericSummonedStrong,Bishop_F,0,30,SIDE_ENEMY,1,8,3,8,3,Divine,Fortify,0,0,HealAllies,DontMove,NormalRecovery,DefaultAI4) // シルク
 	UNIT(GenericHelStrong,Revenant,0,30,SIDE_ENEMY,1,13,4,13,4,SharpClaw,None,0,0,AttackInRange,DontMove,NormalRecovery,DefaultAI4) // ランスナイト
