@@ -1,0 +1,214 @@
+{ "columns":15,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"",
+         "target":"."
+        }
+    },
+ "image":"S3121.png",
+ "imageheight":320,
+ "imagewidth":240,
+ "margin":0,
+ "name":"S3121",
+ "spacing":0,
+ "terrains":[
+        {
+         "name":"\u5730\u677f",
+         "properties":[
+                {
+                 "name":"default",
+                 "type":"bool",
+                 "value":true
+                }],
+         "tile":-1
+        }, 
+        {
+         "name":"\u6df1\u8c37",
+         "tile":-1
+        }],
+ "tilecount":300,
+ "tiledversion":"1.4.1",
+ "tileheight":16,
+ "tiles":[
+        {
+         "id":13,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":14,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":28,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":29,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":43,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":44,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":58,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":59,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":73,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":74,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":78,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":79,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":92,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":93,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":94,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":107,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":108,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":109,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":123,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":124,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":138,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":139,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":188,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":202,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":203,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":204,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":218,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":219,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":231,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":233,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":234,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":245,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":246,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":247,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":248,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":249,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":260,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":261,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":262,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":263,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":275,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":276,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":290,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":291,
+         "terrain":[1, 1, 1, 1]
+        }],
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.4
+}
