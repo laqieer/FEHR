@@ -94,6 +94,7 @@ extern const u8 musicFE12Expedition[];
 extern const u8 musicFE12FootstepsOfFate[];
 extern const u8 musicFE12ForLiberty[];
 extern const u8 musicFE12Liberation[];
+extern const u8 musicFE2AlmMap1[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1608,6 +1609,7 @@ const struct Song songs[] = {
         [MUSIC_FE12_FOOTSTEPS_OF_FATE] = {musicFE12FootstepsOfFate, 1, 1},
         [MUSIC_FE12_FOR_LIBERTY] = {musicFE12ForLiberty, 1, 1},
         [MUSIC_FE12_LIBERATION] = {musicFE12Liberation, 1, 1},
+        [MUSIC_FE_GAIDEN_ALM_MAP_1] = {musicFE2AlmMap1, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1819,6 +1821,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE12_FOOTSTEPS_OF_FATE, MUSIC_LENGTH(3, 14), 0, "‰^–½‚Ì‘«‰¹"},
     {MUSIC_FE12_FOR_LIBERTY, MUSIC_LENGTH(2, 9), 0, "‰ð•ú‚Ö"},
     {MUSIC_FE12_LIBERATION, MUSIC_LENGTH(2, 25), 0, "‰ð•ú"},
+    {MUSIC_FE_GAIDEN_ALM_MAP_1, MUSIC_LENGTH(5, 0), 0, "ƒAƒ‹ƒ€ŒRƒ}ƒbƒv‚P"},
 
     // End of table
     {-1, 0,                                              0, 0},
