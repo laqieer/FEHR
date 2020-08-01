@@ -130,6 +130,7 @@
 #define PoisonDagger 0xa2
 #define SmokeDagger 0xa3
 #define RogueDagger 0xa4
+#define ThiefDagger RogueDagger
 #define DeflectMelee 0xa5
 #define DeflectMissile 0xa6
 #define DeflectMagic 0xa7
