@@ -59,7 +59,7 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
             attacker->nonZeroDamage = 0;
             break;
         case PASSIVE_SKILL_S_DEFLECT_MELEE:
-            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && ((defender->weaponType == Sword) || (defender->weaponType == Lance) || (defender->weaponType == Axe)) && !IsWeaponDagger(defender->weaponBefore))
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && ((attacker->weaponType == Sword) || (attacker->weaponType == Lance) || (attacker->weaponType == Axe)) && !IsWeaponDagger(attacker->weaponBefore))
             {
                 gBattleStats.damage *= 0.2;
                 if(gBattleStats.damage == 0)
@@ -67,7 +67,7 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
             }
             break;
         case PASSIVE_SKILL_S_DEFLECT_MISSILE:
-            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && ((defender->weaponType == Bow) || IsWeaponDagger(defender->weaponBefore)))
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && ((attacker->weaponType == Bow) || IsWeaponDagger(attacker->weaponBefore)))
             {
                 gBattleStats.damage *= 0.2;
                 if(gBattleStats.damage == 0)
@@ -75,15 +75,21 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
             }
             break;
         case PASSIVE_SKILL_S_DEFLECT_MAGIC:
-            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (defender->weaponAttributes & IA_MAGIC))
+            if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker->weaponAttributes & IA_MAGIC))
             {
                 gBattleStats.damage *= 0.2;
                 if(gBattleStats.damage == 0)
                     attacker->nonZeroDamage = 0;
             }
             break;
+        default:
+            break;
+    }
+
+    switch(getUnitPassiveSkillB(&defender->unit))
+    {
         case PASSIVE_SKILL_B_GUARD_BEARING_1:
-            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker == &gBattleTarget))
+            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (defender == &gBattleTarget))
             {
                 gBattleStats.damage *= 1 - 0.3;
                 if(gBattleStats.damage == 0)
@@ -91,7 +97,7 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
             }
             break;
         case PASSIVE_SKILL_B_GUARD_BEARING_2:
-            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker == &gBattleTarget))
+            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (defender == &gBattleTarget))
             {
                 gBattleStats.damage *= 1 - 0.4;
                 if(gBattleStats.damage == 0)
@@ -99,7 +105,7 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
             }
             break;
         case PASSIVE_SKILL_B_GUARD_BEARING_3:
-            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker == &gBattleTarget))
+            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (defender == &gBattleTarget))
             {
                 gBattleStats.damage *= 1 - 0.5;
                 if(gBattleStats.damage == 0)
@@ -107,7 +113,7 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
             }
             break;
         case PASSIVE_SKILL_B_GUARD_BEARING_4:
-            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (attacker == &gBattleTarget))
+            if(!(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) && (defender == &gBattleTarget))
             {
                 gBattleStats.damage *= 1 - 0.6;
                 if(gBattleStats.damage == 0)
@@ -6555,7 +6561,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚P", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚A‘¬‚³{‚Q", "Swift Sparrow 1", "If unit initiates combat, grants Atk/Spd+2 during combat."},
     {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚A‘¬‚³{‚S", "Swift Sparrow 2", "If unit initiates combat, grants Atk/Spd+4 during combat."},
     {"‹S_‚Ğ‚¦‚ñˆêŒ‚‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚UA‘¬‚³{‚V", "Swift Sparrow 3", "If unit initiates combat, grants Atk+6, Spd+7 during combat."},
-    {"€Š™", "“G‚ª–‚–@AñˆÈŠO‚ÌA“G‚Ì–‚–h‚Åƒ_ƒ[ƒWŒvZ", "Hel's Reaper", "If foe does not use magic or staff, calculates damage using foe's Res"},
+    {"€‚Ì‚©‚Ü", "“G‚ª–‚–@AñˆÈŠO‚ÌA“G‚Ì–‚–h‚Åƒ_ƒ[ƒWŒvZ", "Hel's Reaper", "If foe does not use magic or staff, calculates damage using foe's Res"},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
