@@ -16,7 +16,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":15,
+ "tilecount":17,
  "tiledversion":"1.4.1",
  "tileheight":24,
  "tiles":[
@@ -109,6 +109,18 @@
          "image":"player_units\/MagicFalcoKnight.png",
          "imageheight":23,
          "imagewidth":16
+        }, 
+        {
+         "id":15,
+         "image":"player_units\/Bonewalker.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":16,
+         "image":"player_units\/Skelemonk.png",
+         "imageheight":16,
+         "imagewidth":13
         }],
  "tilewidth":16,
  "type":"tileset",
