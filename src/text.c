@@ -2134,6 +2134,10 @@ const char* const texts[] = {
 
        [TEXT_ITEM_HELP_HELL_FANG] = "長く鋭い牙",
 
+       [TEXT_CHARACTER_NAME_GENERIC_ELF] = "アルフ兵",
+
+       [TEXT_CHARACTER_HELP_GENERIC_ELF] = "悪夢の国スヴァルトアルフの兵士",
+
 #include "texts.txt"
 };
 

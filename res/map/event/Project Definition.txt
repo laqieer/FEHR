@@ -93,6 +93,14 @@
 #define GenericFlameWeak 0x7d
 #define GenericFlameStrong 0x7e
 
+#define GenericElf 0x8a
+#define GenericElfWeak 0x8b
+#define GenericElfStrong 0x8c
+
+#define GenericElfDrop 0x8f
+#define GenericElfWeakDrop 0x90
+#define GenericElfStrongDrop 0x91
+
 // Classes
 
 #define AlfonseLord EliwoodLord
