@@ -14,7 +14,7 @@
 
 #define GRID_STRIDE 32
 extern char textGrid[GRID_STRIDE * 32];
-extern u8 savLog[];
+extern volatile u8 savLog[];
 
 enum GBAEmulator {EMU_NONE = 0, EMU_MGBA, EMU_NOCASH, EMU_VBAM, EMU_VBA, EMU_RETROARCH};
 

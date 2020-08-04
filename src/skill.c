@@ -34,10 +34,10 @@
  * Specials are skills that activate based on a cooldown. They are reminiscent of critical hits from the main series Fire Emblem titles.
  */
 
-char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT];
-char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT];
-char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT];
-char gP4SkillCoolDown[P4_TOTAL_AMOUNT];
+volatile char gPlayerSkillCoolDown[PLAYER_TOTAL_AMOUNT];
+volatile char gEnemySkillCoolDown[ENEMY_TOTAL_AMOUNT];
+volatile char gNPCSkillCoolDown[NPC_TOTAL_AMOUNT];
+volatile char gP4SkillCoolDown[P4_TOTAL_AMOUNT];
 char FlagHpStealBySkill[20];
 char BattleHitCount;
 struct TextHandle TextHandleSpecialSkillLeft;

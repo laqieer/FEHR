@@ -15,16 +15,16 @@
 #include "gba_debug_print.h"
 
 // Buff
-struct Buff gPlayerBuff[PLAYER_TOTAL_AMOUNT];
-struct Buff gEnemyBuff[ENEMY_TOTAL_AMOUNT];
-struct Buff gNPCBuff[NPC_TOTAL_AMOUNT];
-struct Buff gP4Buff[P4_TOTAL_AMOUNT];
+volatile struct Buff gPlayerBuff[PLAYER_TOTAL_AMOUNT];
+volatile struct Buff gEnemyBuff[ENEMY_TOTAL_AMOUNT];
+volatile struct Buff gNPCBuff[NPC_TOTAL_AMOUNT];
+volatile struct Buff gP4Buff[P4_TOTAL_AMOUNT];
 
 // Debuff
-struct Buff gPlayerDebuff[PLAYER_TOTAL_AMOUNT];
-struct Buff gEnemyDebuff[ENEMY_TOTAL_AMOUNT];
-struct Buff gNPCDebuff[NPC_TOTAL_AMOUNT];
-struct Buff gP4Debuff[P4_TOTAL_AMOUNT];
+volatile struct Buff gPlayerDebuff[PLAYER_TOTAL_AMOUNT];
+volatile struct Buff gEnemyDebuff[ENEMY_TOTAL_AMOUNT];
+volatile struct Buff gNPCDebuff[NPC_TOTAL_AMOUNT];
+volatile struct Buff gP4Debuff[P4_TOTAL_AMOUNT];
 
 // units by side lookup table
 struct Unit * const unitsBySide[4] = {playerUnits, NPCUnits, enemyUnits, P4Units};

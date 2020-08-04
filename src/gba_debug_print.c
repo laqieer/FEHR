@@ -60,8 +60,8 @@ void nocash_print(const char* str) {
 
 __attribute__((format(printf, 1, 2)))
 int savprintf(const char* fmt, ...) {
-    static u8 locationLoByte = 0;
-    static u8 locationHiByte = 0;
+    static volatile u8 locationLoByte = 0;
+    static volatile u8 locationHiByte = 0;
     u16 location;
 
     char tmp[128];

@@ -36,20 +36,20 @@ enum AchievementLevel {
 };
 
 struct StoryProgress {
-    u8 clearPrologue:1;
-    u8 clearEpilogue:1;
-    u8 clearBook1:1;
-    u8 clearBook2:1;
-    u8 clearBook3:1;
-    u8 clearBook4:1;
-    u8 isInvalid:1;
+    volatile u8 clearPrologue:1;
+    volatile u8 clearEpilogue:1;
+    volatile u8 clearBook1:1;
+    volatile u8 clearBook2:1;
+    volatile u8 clearBook3:1;
+    volatile u8 clearBook4:1;
+    volatile u8 isInvalid:1;
 };
 
 void initInvalidGlobalCounter();
 
 struct U16InSRAM {
-    u8 lowByte;
-    u8 highByte;
+    volatile u8 lowByte;
+    volatile u8 highByte;
 };
 
 u16 getU16InSRAM(struct U16InSRAM *U16);

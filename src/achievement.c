@@ -50,7 +50,7 @@ void addU16InSRAM(struct U16InSRAM *U16, u16 value)
         setU16InSRAM(U16, 65534);
 }
 
-struct StoryProgress gStoryProgress;
+volatile struct StoryProgress gStoryProgress;
 
 void initStoryProgress()
 {
@@ -131,8 +131,8 @@ void setBook4Clear()
     gStoryProgress.clearBook4 = 1;
 }
 
-struct U16InSRAM killCount;
-struct U16InSRAM deathCount;
+volatile struct U16InSRAM killCount;
+volatile struct U16InSRAM deathCount;
 
 void initInvalidKillCount()
 {
@@ -254,7 +254,7 @@ int isGameTimeOver100h()
     return getGameTimeByHours() > 100;
 }
 
-u8 gHiddenTreasureProgress = 0;
+volatile u8 gHiddenTreasureProgress = 0;
 
 int isTreasureHidden(int n)
 {

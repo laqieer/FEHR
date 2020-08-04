@@ -2,24 +2,24 @@
 #define FE7_JP_STUNNING_TRIBBLE_NEW_UNIT_STATE_H
 
 struct PositiveState {
-    u8 mobilityIncreased:1;
-    u8 airOrders:1;
-    u8 effectiveAgainstDragons:1;
-    u8 bonusDoubler:1;
-    u8 dragonShield:1;
-    u8 svalinnShield:1;
-    u8 harshed:1; // Converts penalties into bonuses.
-    u8 moveAgain:1; // Can move again.
+    volatile u8 mobilityIncreased:1;
+    volatile u8 airOrders:1;
+    volatile u8 effectiveAgainstDragons:1;
+    volatile u8 bonusDoubler:1;
+    volatile u8 dragonShield:1;
+    volatile u8 svalinnShield:1;
+    volatile u8 harshed:1; // Converts penalties into bonuses.
+    volatile u8 moveAgain:1; // Can move again.
 };
 
 struct NegativeState {
-    u8 gravity:1; //Mobility decreased
-    u8 panic:1;
-    u8 counterattacksDisrupted:1;
-    u8 triangleAdept:1;
-    u8 guard:1;
-    u8 isolation:1;
-    u8 noMoveAgain:1;
+    volatile u8 gravity:1; //Mobility decreased
+    volatile u8 panic:1;
+    volatile u8 counterattacksDisrupted:1;
+    volatile u8 triangleAdept:1;
+    volatile u8 guard:1;
+    volatile u8 isolation:1;
+    volatile u8 noMoveAgain:1;
 };
 
 int checkUnitStateMobilityIncreased(struct Unit *unit);

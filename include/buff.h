@@ -4,13 +4,13 @@
 #include "character.h"
 
 struct Buff {
-    s8 hp;
-    s8 pow;
-    s8 skl;
-    s8 spd;
-    s8 def;
-    s8 res;
-    s8 luk;
+    volatile s8 hp;
+    volatile s8 pow;
+    volatile s8 skl;
+    volatile s8 spd;
+    volatile s8 def;
+    volatile s8 res;
+    volatile s8 luk;
 };
 
 struct JobCategoryStats {

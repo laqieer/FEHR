@@ -12,16 +12,16 @@
 #include "new_unit_state.h"
 
 // Positive state
-struct PositiveState gPlayerPositiveState[PLAYER_TOTAL_AMOUNT];
-struct PositiveState gEnemyPositiveState[ENEMY_TOTAL_AMOUNT];
-struct PositiveState gNPCPositiveState[NPC_TOTAL_AMOUNT];
-struct PositiveState gP4PositiveState[P4_TOTAL_AMOUNT];
+volatile struct PositiveState gPlayerPositiveState[PLAYER_TOTAL_AMOUNT];
+volatile struct PositiveState gEnemyPositiveState[ENEMY_TOTAL_AMOUNT];
+volatile struct PositiveState gNPCPositiveState[NPC_TOTAL_AMOUNT];
+volatile struct PositiveState gP4PositiveState[P4_TOTAL_AMOUNT];
 
 // Negative state
-struct NegativeState gPlayerNegativeState[PLAYER_TOTAL_AMOUNT];
-struct NegativeState gEnemyNegativeState[ENEMY_TOTAL_AMOUNT];
-struct NegativeState gNPCNegativeState[NPC_TOTAL_AMOUNT];
-struct NegativeState gP4NegativeState[P4_TOTAL_AMOUNT];
+volatile struct NegativeState gPlayerNegativeState[PLAYER_TOTAL_AMOUNT];
+volatile struct NegativeState gEnemyNegativeState[ENEMY_TOTAL_AMOUNT];
+volatile struct NegativeState gNPCNegativeState[NPC_TOTAL_AMOUNT];
+volatile struct NegativeState gP4NegativeState[P4_TOTAL_AMOUNT];
 
 struct PositiveState *getUnitPositiveState(struct Unit *unit)
 {
