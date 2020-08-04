@@ -125,6 +125,7 @@
 #define UndeadManakete 108
 #define Wolf 109
 #define DivineDragon 110
+#define DivineManakete DivineDragon
 
 // Items
 #define HeavyLance HeavySpear
