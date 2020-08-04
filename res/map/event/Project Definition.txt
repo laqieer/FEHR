@@ -124,6 +124,7 @@
 #define Skelemonk 107
 #define UndeadManakete 108
 #define Wolf 109
+#define DivineDragon 110
 
 // Items
 #define HeavyLance HeavySpear
