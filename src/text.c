@@ -2138,6 +2138,10 @@ const char* const texts[] = {
 
        [TEXT_CHARACTER_HELP_GENERIC_ELF] = "悪夢の国スヴァルトアルフの兵士",
 
+       [TEXT_JOB_NAME_DIVINE_MANAKETE] = "マムクート",
+
+       [TEXT_JOB_HELP_DIVINE_MANAKETE] = "神竜族のマムクート",
+
 #include "texts.txt"
 };
 
