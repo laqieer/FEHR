@@ -2142,6 +2142,10 @@ const char* const texts[] = {
 
        [TEXT_JOB_HELP_DIVINE_MANAKETE] = "神竜族",
 
+       [TEXT_ITEM_NAME_DIVINE_DRAGONSTONE] = "光のブレス",
+
+       [TEXT_ITEM_HELP_DIVINE_DRAGONSTONE] = "すべてをじょうかする神竜の息吹",
+
 #include "texts.txt"
 };
 

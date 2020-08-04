@@ -152,6 +152,8 @@
 #define LethalClaw 0xad
 #define FieryFang 0xae
 #define HellFang 0xaf
+#define DivineDragonstone 0xb0
+#define DivineDragonStone DivineDragonstone
 
 // AI
 #define DefaultAi4 DefaultAI4

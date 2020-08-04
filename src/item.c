@@ -12,6 +12,8 @@
 
 const int sizeofItem = sizeof(struct Item);
 
+const struct EquipBuff DivineDragonstoneBuff = {0, 10, 10, 0, 10, 20, 0, 0, 0};
+
 const struct Item items[] = {
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x00 None
 
@@ -364,6 +366,8 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_FIERY_FANG, TEXT_ITEM_HELP_FIERY_FANG, 0, 0xae, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 90, 5, 0, 1, 1, 0, 0, ITEM_ICON_FIERY_FANG, 0, 0, 0} ,  // 0xAE Fiery Fang
 
 {TEXT_ITEM_NAME_HELL_FANG, TEXT_ITEM_HELP_HELL_FANG, 0, 0xaf, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 80, 8, 0, 1, 1, 0, 0, ITEM_ICON_HELL_FANG, 0, 0, 0} ,  // 0xAF Hell Fang
+
+{TEXT_ITEM_NAME_DIVINE_DRAGONSTONE, TEXT_ITEM_HELP_DIVINE_DRAGONSTONE, TEXT_ITEM_HELP_DIVINE_DRAGONSTONE, 0xb0, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &DivineDragonstoneBuff, 0, 0, 10, 100, 0, 0, 3, 1, 0, 181, ITEM_ICON_DIVINE_DRAGONSTONE, 0, 0, 0} ,  // 0xB0 Divine Dragonstone
 };
 
 const struct Item * const pItems1 = items;
@@ -567,6 +571,7 @@ const struct ItemSpellAssociation itemSpellAssociations[] = {
     {0xa3, 2, 2, 0, 1, 0, 0, 0} ,
     {0xa4, 2, 2, 0, 1, 0, 0, 0} ,
     {ITEM_WRETCHED_AIR, 2, 0x15, 0, 1, 0, FLASH_COLOR_DRAK, 0} ,  // 
+    {ITEM_DIVINE_DRAGONSTONE, 2, 0x14, 0, 1, 0, FLASH_COLOR_BLUE, 0} ,  // 
 
     {65535, 2, 65535, 0, 1, 0, 0, 0} ,  // End of list 
 };
