@@ -30,6 +30,8 @@
 #include "moving_sprite_UndeadManakete.h"
 #include "standing_sprite_Wolf.h"
 #include "moving_sprite_Wolf.h"
+#include "standing_sprite_DivineDragon.h"
+#include "moving_sprite_DivineDragon.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 1, standing_sprite_AlfonseTiles} ,  
@@ -225,6 +227,8 @@ const struct StandingSprite standingSprites[] = {
     {2, MAP_SPRITE_SIZE_BIG, standing_sprite_UndeadManaketeTiles} ,  // 95 Undead Manakete
 
     {3, MAP_SPRITE_SIZE_TALL, standing_sprite_WolfTiles} ,  // 96 Wolf
+
+    {2, MAP_SPRITE_SIZE_SMALL, standing_sprite_DivineDragonTiles} ,  // 97 Divine Dragon (FE6's Fae)
 
     {0, 0, 1} ,  
 
@@ -471,6 +475,8 @@ const struct MovingSprite movingSprites[] = {
     {moving_sprite_UndeadManaketeTiles, 138263996} ,  // 0x6C UndeadManakete
 
     {moving_sprite_WolfTiles, 138263996} ,  // 0x6D Wolf
+
+    {moving_sprite_DivineDragonTiles, 138263996} ,  // 0x6E Divine Dragon (FE6's Fae)
 };
 
 const struct MovingSprite * const pMovingSprites1 = movingSprites;
