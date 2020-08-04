@@ -76,3 +76,5 @@
     .rodata.UndeadManakete : {*(.rodata.UndeadManakete)}
     . = 0x8E00008 + 0x20 * 0xc8;
     .rodata.Wolf : {*(.rodata.Wolf)}
+    . = 0x8E00008 + 0x20 * 0xc9;
+    .rodata.DivineDragon : {*(.rodata.DivineDragon)}
