@@ -2140,7 +2140,7 @@ const char* const texts[] = {
 
        [TEXT_JOB_NAME_DIVINE_MANAKETE] = "マムクート",
 
-       [TEXT_JOB_HELP_DIVINE_MANAKETE] = "神竜族のマムクート",
+       [TEXT_JOB_HELP_DIVINE_MANAKETE] = "神竜族",
 
 #include "texts.txt"
 };
