@@ -95,6 +95,11 @@ extern const u8 musicFE12FootstepsOfFate[];
 extern const u8 musicFE12ForLiberty[];
 extern const u8 musicFE12Liberation[];
 extern const u8 musicFE2AlmMap1[];
+extern const u8 musicFE5Base[];
+extern const u8 musicFE5Advance[];
+extern const u8 musicFE5Adversity[];
+extern const u8 musicFE5Leif[];
+extern const u8 musicFE5SearchEnemy[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1610,6 +1615,11 @@ const struct Song songs[] = {
         [MUSIC_FE12_FOR_LIBERTY] = {musicFE12ForLiberty, 1, 1},
         [MUSIC_FE12_LIBERATION] = {musicFE12Liberation, 1, 1},
         [MUSIC_FE_GAIDEN_ALM_MAP_1] = {musicFE2AlmMap1, 1, 1},
+        [MUSIC_FE5_BASE] = {musicFE5Base, 1, 1},
+        [MUSIC_FE5_ADVANCE] = {musicFE5Advance, 1, 1},
+        [MUSIC_FE5_ADVERSITY] = {musicFE5Adversity, 1, 1},
+        [MUSIC_FE5_LEIF] = {musicFE5Leif, 1, 1},
+        [MUSIC_FE5_SEARCH_ENEMY] = {musicFE5SearchEnemy, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1822,6 +1832,11 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE12_FOR_LIBERTY, MUSIC_LENGTH(2, 9), 0, "解放へ"},
     {MUSIC_FE12_LIBERATION, MUSIC_LENGTH(2, 25), 0, "解放"},
     {MUSIC_FE_GAIDEN_ALM_MAP_1, MUSIC_LENGTH(5, 0), 0, "アルム軍マップ１"},
+    {MUSIC_FE5_BASE, MUSIC_LENGTH(1, 12), 0, "リーフ軍、勝利を求めて　ベース"},
+    {MUSIC_FE5_ADVANCE, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　進撃"},
+    {MUSIC_FE5_ADVERSITY, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　逆境"},
+    {MUSIC_FE5_LEIF, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　リーフ"},
+    {MUSIC_FE5_SEARCH_ENEMY, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　索敵"},
 
     // End of table
     {-1, 0,                                              0, 0},
