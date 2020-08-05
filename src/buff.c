@@ -1207,7 +1207,7 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_DEF_4:
                             if(distance == 1)
-                                updateUnitBuffDefense(&units[i], 5);
+                                updateUnitBuffDefense(&units[i], 7);
                             break;
                         case PASSIVE_SKILL_C_ODD_ATK_WAVE_1:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
@@ -1256,6 +1256,22 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
                         case PASSIVE_SKILL_C_SPD_TACTIC_4:
                             if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
                                 updateUnitBuffSpeed(&units[i], 8);
+                            break;
+                        case PASSIVE_SKILL_C_FORTIFY_RES_1:
+                            if(distance == 1)
+                                updateUnitBuffResistance(&units[i], 2);
+                            break;
+                        case PASSIVE_SKILL_C_FORTIFY_RES_2:
+                            if(distance == 1)
+                                updateUnitBuffResistance(&units[i], 3);
+                            break;
+                        case PASSIVE_SKILL_C_FORTIFY_RES_3:
+                            if(distance == 1)
+                                updateUnitBuffResistance(&units[i], 4);
+                            break;
+                        case PASSIVE_SKILL_C_FORTIFY_RES_4:
+                            if(distance == 1)
+                                updateUnitBuffResistance(&units[i], 7);
                             break;
                         default:
                             break;

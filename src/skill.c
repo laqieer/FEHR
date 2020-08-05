@@ -635,6 +635,11 @@ int isAdjacentToAnyCompanion(struct Unit *unit)
     return findAliveUnitInSide(areTwoUnitsAdjacent, unit, unit->side);
 }
 
+int areTwoUnitsInCardinalDirection(struct Unit *unit1, struct Unit *unit2)
+{
+    return (unit1->positionX == unit2->positionX || unit1->positionY == unit2->positionY) && !(unit1->positionX == unit2->positionX && unit1->positionY == unit2->positionY);
+}
+
 // ブルーフレイム: 10を奥義ダメージに加算　味方と隣接している時、さらに15を奥義ダメージに加算。合計25を加算する
 void specialSkillBlueFlameEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
@@ -5064,6 +5069,40 @@ void ComputePassiveSkillCEffectFromOthers(struct Unit *unit, u32 *args)
     struct BattleUnit *attacker = args[0];
     struct BattleUnit *defender = args[1];
 
+    switch (getUnitPassiveSkillA(unit))
+    {
+        case PASSIVE_SKILL_A_FLOWER_OF_JOY_1:
+            if(areTwoUnitsInCardinalDirection(unit, &attacker->unit))
+            {
+                attacker->battleAttack += 1;
+                attacker->battleSpeed += 1;
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_JOY_2:
+            if(areTwoUnitsInCardinalDirection(unit, &attacker->unit))
+            {
+                attacker->battleAttack += 2;
+                attacker->battleSpeed += 2;
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_JOY_3:
+            if(areTwoUnitsInCardinalDirection(unit, &attacker->unit))
+            {
+                attacker->battleAttack += 3;
+                attacker->battleSpeed += 3;
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_JOY_4:
+            if(areTwoUnitsInCardinalDirection(unit, &attacker->unit))
+            {
+                attacker->battleAttack += 4;
+                attacker->battleSpeed += 4;
+            }
+            break;
+        default:
+            break;
+    }
+
     switch (getUnitPassiveSkillC(unit))
     {
         case PASSIVE_SKILL_C_SPUR_ATK_1:
@@ -5390,6 +5429,132 @@ void ComputeBattleUnitStatsInjector(struct BattleUnit* attacker, struct BattleUn
     ComputeBattleUnitStats(attacker, defender);
 }
 
+void ComputeBattleUnitEffectiveHitRate(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    attacker->battleEffectiveHitRate = attacker->battleHitRate - defender->battleAvoidRate;
+
+    switch(getUnitPassiveSkillB(&defender->unit))
+    {
+        case PASSIVE_SKILL_B_AEROBATICS_1:
+            if(attacker->weaponType == Bow)
+                attacker->battleEffectiveHitRate -= 20;
+            break;
+        case PASSIVE_SKILL_B_AEROBATICS_2:
+            if(attacker->weaponType == Bow)
+                attacker->battleEffectiveHitRate -= 40;
+            break;
+        case PASSIVE_SKILL_B_AEROBATICS_3:
+            if(attacker->weaponType == Bow)
+                attacker->battleEffectiveHitRate -= 60;
+            break;
+        case PASSIVE_SKILL_B_AEROBATICS_4:
+            if(attacker->weaponType == Bow)
+                attacker->battleEffectiveHitRate -= 80;
+            break;
+        default:
+            break;
+    }
+
+    if (attacker->battleEffectiveHitRate > 100)
+        attacker->battleEffectiveHitRate = 100;
+
+    if (attacker->battleEffectiveHitRate < 0)
+        attacker->battleEffectiveHitRate = 0;
+}
+
+void ComputeBattleUnitEffectiveCritRate(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int item, i;
+
+    attacker->battleEffectiveCritRate = attacker->battleCritRate - defender->battleDodgeRate;
+
+    // Remove tactician's crit avoid rate bonus here
+
+    //if (GetItemIndex(attacker->weapon) == ITEM_MONSTER_STONE)
+        //attacker->battleEffectiveCritRate = 0;
+
+    if (attacker->battleEffectiveCritRate < 0)
+        attacker->battleEffectiveCritRate = 0;
+
+    for (i = 0; (i < UNIT_ITEM_COUNT) && (item = defender->unit.items[i].itemId); ++i) 
+    {
+        if (GetItemAttributes(item) & IA_NEGATE_CRIT) 
+        {
+            attacker->battleEffectiveCritRate = 0;
+            break;
+        }
+    }
+}
+
+void ComputeBattleUnitSilencerRate(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if (!attacker->unit.character->ability_lethality && !attacker->unit.job->ability_lethality)
+        attacker->battleSilencerRate = 0;
+    else 
+    {
+        attacker->battleSilencerRate = 50;
+
+        if (defender->unit.character->ability_boss || defender->unit.job->ability_boss)
+            attacker->battleSilencerRate = 25;
+
+        if (defender->unit.character->ability_noExp || defender->unit.job->ability_noExp)
+            attacker->battleSilencerRate = 0;
+    }
+}
+
+void ComputeBattleUnitSpecialWeaponStats(struct BattleUnit* attacker, struct BattleUnit* defender) 
+{
+    if (attacker->weaponAttributes & IA_MAGICDAMAGE) 
+    {
+        switch (GetItemIndex(attacker->weapon)) 
+        {
+            case ITEM_LIGHTBRAND:
+            case ITEM_RUNESWORD:
+            case ITEM_WINDSWORD:
+                attacker->battleAttack -= attacker->unit.pow / 2;
+
+                attacker->battleCritRate = 0;
+                attacker->battleEffectiveCritRate = 0;
+
+                break;
+        } // switch (GetItemIndex(attacker->weapon))
+    }
+    else
+    {
+        if (GetItemWeaponEffect(attacker->weaponBefore) == WPN_EFFECT_HPHALVE) 
+        {
+            attacker->battleAttack = (defender->unit.hp + 1) >> 1;
+
+            if (attacker->battleAttack == 0)
+                attacker->battleAttack = 1;
+
+            defender->battleDefense = 0;
+
+            attacker->battleCritRate = 0;
+            attacker->battleEffectiveCritRate = 0;
+        }
+
+        if (attacker->weaponAttributes & IA_NEGATE_DEFENSE)
+            defender->battleDefense = 0;
+
+        //if (defender->unit.statusIndex == UNIT_STATUS_PETRIFY || defender->unit.statusIndex == UNIT_STATUS_13) {
+        //    attacker->battleEffectiveHitRate = 100;
+
+        //    attacker->battleEffectiveCritRate += 30;
+
+        //    if (attacker->battleEffectiveCritRate > 100)
+        //        attacker->battleEffectiveCritRate = 100;
+        //}
+    }
+}
+
+void ComputeBattleUnitEffectiveStats(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    ComputeBattleUnitEffectiveHitRate(attacker, defender);
+    ComputeBattleUnitEffectiveCritRate(attacker, defender);
+    ComputeBattleUnitSilencerRate(attacker, defender);
+    ComputeBattleUnitSpecialWeaponStats(attacker, defender);
+}
 
 /*
  * Assist Skills. 補助スキル.
@@ -5410,6 +5575,7 @@ const u16 characterAssistSkills[0x100] = {
         [CHARACTER_VERONICA_ID] = ASSIST_SKILL_HARSH_COMMAND,
         [CHARACTER_LOKI_ID] = ASSIST_SKILL_SACRIFICE,
         [CHARACTER_LAEVATEIN_ID] = ASSIST_SKILL_PIVOT,
+        [CHARACTER_PEONY_ID] = ASSIST_SKILL_GENTLE_DREAM,
 };
 
 const u16 jobAssistSkills[0x100] = {
@@ -6252,12 +6418,14 @@ void assistSkillFutureVisionEffect(struct Proc* proc, struct SelectTarget* targe
 // ユラリユルレリ: このスキルは「歌う」「踊る」として扱われる 対象を行動可能にする 対象が歩行、飛行の時、対象の移動+1（1ターン、重複しない）
 int assistSkillGrayWavesCondition(struct Unit *targetUnit)
 {
-    return targetUnit->state & UNIT_STATE_HAS_MOVED > 0;
+    return targetUnit->state & UNIT_STATE_UNSELECTABLE;
 }
 
 void giveUnitReaction(struct Unit *unit)
 {
-    unit->state &= ~UNIT_STATE_HAS_MOVED;
+    struct Unit *realUnit = GetUnitNew(unit->side, unit->number);
+
+    realUnit->state &= ~(UNIT_STATE_UNSELECTABLE | UNIT_STATE_HAS_MOVED);
 }
 
 void assistSkillGrayWavesEffect(struct Proc* proc, struct SelectTarget* target)
@@ -6273,10 +6441,10 @@ void assistSkillGrayWavesEffect(struct Proc* proc, struct SelectTarget* target)
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
-// やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、自分と対象の十字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防+3、かつ「周囲2マス以内の味方の隣接マスに移動可能」を付与（1ターン）
+// やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、対象の十字方向にいる味方の攻撃、速さ、守備、魔防+3、かつ「強化増幅」を付与（1ターン）
 int assistSkillGentleDreamCondition(struct Unit *targetUnit)
 {
-    return targetUnit->state & UNIT_STATE_HAS_MOVED > 0;
+    return targetUnit->state & UNIT_STATE_UNSELECTABLE;
 }
 
 void addUnitBuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
@@ -6299,16 +6467,17 @@ void assistSkillGentleDreamEffect(struct Proc* proc, struct SelectTarget* target
     giveUnitReaction(targetUnit);
     m4aSongNumStart(SFX_REACTION);
     ForEachUnitInCardinalDirection(target->x, target->y, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
-    ForEachUnitInCardinalDirectionExceptCenter(currentActiveUnit->positionX, currentActiveUnit->positionY, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
+    //ForEachUnitInCardinalDirectionExceptCenter(currentActiveUnit->positionX, currentActiveUnit->positionY, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
+    ForEachUnitInCardinalDirection(target->x, target->y, setUnitStateBonusDoubler);
+    //ForEachUnitInCardinalDirectionExceptCenter(currentActiveUnit->positionX, currentActiveUnit->positionY, setUnitStateBonusDoubler);
     StartSoundEffect(&se_sys_powerup1);
-    // Air Order has no real effect now.
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
 // こわいゆめ
 int assistSkillFrightfulDreamCondition(struct Unit *targetUnit)
 {
-    return targetUnit->state & UNIT_STATE_HAS_MOVED > 0;
+    return targetUnit->state & UNIT_STATE_UNSELECTABLE;
 }
 
 void addUnitDebuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
@@ -6331,7 +6500,7 @@ void assistSkillFrightfulDreamEffect(struct Proc* proc, struct SelectTarget* tar
     giveUnitReaction(targetUnit);
     m4aSongNumStart(SFX_REACTION);
     ForEachUnitInCardinalDirection(target->x, target->y, addFoeUnitDebuffAttackSpeedDefenseResistanceBy3);
-    ForEachUnitInCardinalDirection(currentActiveUnit->positionX, currentActiveUnit->positionY, addFoeUnitDebuffAttackSpeedDefenseResistanceBy3);
+    //ForEachUnitInCardinalDirection(currentActiveUnit->positionX, currentActiveUnit->positionY, addFoeUnitDebuffAttackSpeedDefenseResistanceBy3);
     StartSoundEffect(&se_sys_powerdown1);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
@@ -6339,7 +6508,7 @@ void assistSkillFrightfulDreamEffect(struct Proc* proc, struct SelectTarget* tar
 // あまいゆめ
 int assistSkillSweetDreamsCondition(struct Unit *targetUnit)
 {
-    return targetUnit->state & UNIT_STATE_HAS_MOVED > 0;
+    return targetUnit->state & UNIT_STATE_UNSELECTABLE;
 }
 
 void addUnitDebuffAttackSpeedDefenseResistanceBy4(struct Unit *unit)
@@ -6421,10 +6590,10 @@ const struct AssistSkill assistSkills[] = {
     {"攻撃守備の応援＋", "対象の攻撃、守備＋６", "Rally Atk/Def+", "Grants Atk/Def+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefensePlusEffect},
     {"いっかつ＋", "対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動開始時までの効果全般）。もし弱化の状態異常を受けている場合、解除後、強化に変換する", "Harsh Command+", "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.", assistSkillHarshCommandPlusCondition, assistSkillHarshCommandPlusEffect},
     {"速さ魔防の応援＋", "対象の速さ、魔防＋６", "Rally Spd/Res+", "Grants Spd/Res+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedResistancePlusEffect},
-    {"やさしいゆめ", "このスキルは「歌う」「踊る」として扱われる。対象を行動可能\な状態にし、対象と、自分と対象の十\字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防＋３、かつ「周囲２マス以内の味方の隣接マスに移動可能\」を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of unit and target (excluding unit): Unit can move to a space adjacent to any ally within 2 spaces.", assistSkillGentleDreamCondition, assistSkillGentleDreamEffect},
+    {"やさしいゆめ", "対象を行動可能\な状態にし、対象と、対象の十\字方向にいる味方の攻撃、速さ、守備、魔防＋３、かつ「強化増幅」を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of target: Grants bonus to unit's stats during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.", assistSkillGentleDreamCondition, assistSkillGentleDreamEffect},
     {"攻撃魔防の応援＋", "対象の攻撃、魔防＋６", "Rally Atk/Res+", "Grants Atk/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistancePlusEffect},
     {"運命を変える！", "対象を自分の反対側の位置に移動させ、その後、自分を行動可能\にする、かつ自分とダブル相手の攻撃＋６、自分とダブル相手に【補助不可】を付与", "To Change Fate!", "Moves target ally to opposite side of unit and grants another action to unit. Grants Atk+6 to unit and Pair Up cohort (if any) for 1 turn and inflicts【Isolation】on unit and Pair Up cohort (if any) through their next action.", assistSkillToChangeFateCondition, assistSkillToChangeFateEffect},
-    {"こわいゆめ", "こわいゆめ", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of unit and target through their next actions.", assistSkillFrightfulDreamCondition, assistSkillFrightfulDreamEffect},
+    {"こわいゆめ", "こわいゆめ", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of target through their next actions.", assistSkillFrightfulDreamCondition, assistSkillFrightfulDreamEffect},
     {"あまいゆめ", "あまいゆめ", "Sweet Dreams", "Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces of target ally through foes' next actions.", assistSkillSweetDreamsCondition, assistSkillSweetDreamsEffect},
 };
 
@@ -6562,6 +6731,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"鬼神ひえん一撃２", "自分から攻撃した時、戦闘中の攻撃、速さ＋４", "Swift Sparrow 2", "If unit initiates combat, grants Atk/Spd+4 during combat."},
     {"鬼神ひえん一撃３", "自分から攻撃した時、戦闘中の攻撃＋６、速さ＋７", "Swift Sparrow 3", "If unit initiates combat, grants Atk+6, Spd+7 during combat."},
     {"死のかま", "敵が魔法、杖以外の時、敵の魔防でダメージ計算", "Hel's Reaper", "If foe does not use magic or staff, calculates damage using foe's Res"},
+    {"幸福の花１", "十\字方向にいる味方は、戦闘中、攻撃、速さ＋１", "Flower of Joy 1", "Grants Atk/Spd+1 to any ally in a cardinal direction from unit during that ally's combat."},
+    {"幸福の花２", "十\字方向にいる味方は、戦闘中、攻撃、速さ＋２", "Flower of Joy 2", "Grants Atk/Spd+2 to any ally in a cardinal direction from unit during that ally's combat."},
+    {"幸福の花３", "十\字方向にいる味方は、戦闘中、攻撃、速さ＋３", "Flower of Joy 3", "Grants Atk/Spd+3 to any ally in a cardinal direction from unit during that ally's combat."},
+    {"幸福の花４", "十\字方向にいる味方は、戦闘中、攻撃、速さ＋４", "Flower of Joy 4", "Grants Atk/Spd+4 to any ally in a cardinal direction from unit during that ally's combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -6582,6 +6755,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_A_FLASHING_BLADE_1, PASSIVE_SKILL_A_FLASHING_BLADE_2, PASSIVE_SKILL_A_FLASHING_BLADE_3, PASSIVE_SKILL_A_FLASHING_BLADE_4},
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_A_DARTING_BLOW_1, PASSIVE_SKILL_A_SWIFT_SPARROW_1, PASSIVE_SKILL_A_SWIFT_SPARROW_2, PASSIVE_SKILL_A_SWIFT_SPARROW_3},
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE},
+    [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_A_FLOWER_OF_JOY_1, PASSIVE_SKILL_A_FLOWER_OF_JOY_2, PASSIVE_SKILL_A_FLOWER_OF_JOY_3, PASSIVE_SKILL_A_FLOWER_OF_JOY_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -6665,6 +6839,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"警かい姿勢２", "敵から攻撃された時、戦闘中、最初に受けた攻撃のダメージを４割軽減", "Guard Bearing 2", "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 40%."},
     {"警かい姿勢３", "敵から攻撃された時、戦闘中、最初に受けた攻撃のダメージを半分軽減", "Guard Bearing 3", "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 50%."},
     {"警かい姿勢４", "敵から攻撃された時、戦闘中、最初に受けた攻撃のダメージを６割軽減", "Guard Bearing 4", "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 60%."},
+    {"きょくぎ飛行１", "弓回避＋２０", "Aerobatics 1", "Bow avoid rate +20"},
+    {"きょくぎ飛行２", "弓回避＋４０", "Aerobatics 2", "Bow avoid rate +40"},
+    {"きょくぎ飛行３", "弓回避＋６０", "Aerobatics 3", "Bow avoid rate +60"},
+    {"きょくぎ飛行４", "弓回避＋８０", "Aerobatics 4", "Bow avoid rate +80"},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -6684,6 +6862,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT, PASSIVE_SKILL_B_KILLING_INTENT},
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_B_MYSTIC_BOOST_1, PASSIVE_SKILL_B_MYSTIC_BOOST_2, PASSIVE_SKILL_B_MYSTIC_BOOST_3, PASSIVE_SKILL_B_MYSTIC_BOOST_4},
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_B_GUARD_BEARING_1, PASSIVE_SKILL_B_GUARD_BEARING_2, PASSIVE_SKILL_B_GUARD_BEARING_3, PASSIVE_SKILL_B_GUARD_BEARING_4},
+    [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_B_AEROBATICS_1, PASSIVE_SKILL_B_AEROBATICS_2, PASSIVE_SKILL_B_AEROBATICS_3, PASSIVE_SKILL_B_AEROBATICS_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -6734,7 +6913,7 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"守備のこぶ１", "ターン開始時、周囲１マスの味方の守備＋２（１ターン）", "Fortify Def 1", "At start of turn, grants Def+2 to adjacent allies for 1 turn."},
     {"守備のこぶ２", "ターン開始時、周囲１マスの味方の守備＋３（１ターン）", "Fortify Def 2", "At start of turn, grants Def+3 to adjacent allies for 1 turn."},
     {"守備のこぶ３", "ターン開始時、周囲１マスの味方の守備＋４（１ターン）", "Fortify Def 3", "At start of turn, grants Def+4 to adjacent allies for 1 turn."},
-    {"守備のこぶ４", "ターン開始時、周囲１マスの味方の守備＋５（１ターン）", "Fortify Def 4", "At start of turn, grants Def+5 to adjacent allies for 1 turn."},
+    {"守備のこぶ４", "ターン開始時、周囲１マスの味方の守備＋７（１ターン）", "Fortify Def 4", "At start of turn, grants Def+7 to adjacent allies for 1 turn."},
     {"死のといき１", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に３ダメージ", "Savage Blow 1", "If unit initiates combat, deals 3 damage to foes within 2 spaces of target after combat."},
     {"死のといき２", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に５ダメージ", "Savage Blow 2", "If unit initiates combat, deals 5 damage to foes within 2 spaces of target after combat."},
     {"死のといき３", "自分から攻撃した時、戦闘後、敵の周囲２マスの敵に７ダメージ", "Savage Blow 3", "If unit initiates combat, deals 7 damage to foes within 2 spaces of target after combat."},
@@ -6781,6 +6960,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"恐こうのげんえん４", "戦闘後、敵とその周囲３マスの敵に【パニック】を付与", "Panic Smoke 4", "Inflicts【Panic】on target and foes within 3 space of target after combat."},
     {"生命の輝き", "ターン開始時、自分を除く最もＨＰが減っている味方（最大ＨＰー現ＨＰの差が最も高い味方）を１０回復", "Sparkling Boost", "At start of turn, restores 10 HP to ally that has been dealt the most damage. (Excludes unit.)"},
     {"死から逃れられぬ", "周囲２マスの敵は、戦闘中、攻撃、速さ、守備、魔防ー４", "Inevitable Death", "Inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces during combat."},
+    {"魔防のこぶ１", "ターン開始時、周囲１マスの味方の魔防＋２（１ターン）", "Fortify Res 1", "At start of turn, grants Res+2 to adjacent allies for 1 turn."},
+    {"魔防のこぶ２", "ターン開始時、周囲１マスの味方の魔防＋３（１ターン）", "Fortify Res 2", "At start of turn, grants Res+3 to adjacent allies for 1 turn."},
+    {"魔防のこぶ３", "ターン開始時、周囲１マスの味方の魔防＋４（１ターン）", "Fortify Res 3", "At start of turn, grants Res+4 to adjacent allies for 1 turn."},
+    {"魔防のこぶ４", "ターン開始時、周囲１マスの味方の魔防＋７（１ターン）", "Fortify Res 4", "At start of turn, grants Res+7 to adjacent allies for 1 turn."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -6802,6 +6985,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_SRASIR_ID] = {PASSIVE_SKILL_C_PANIC_SMOKE_1, PASSIVE_SKILL_C_PANIC_SMOKE_2, PASSIVE_SKILL_C_PANIC_SMOKE_3, PASSIVE_SKILL_C_PANIC_SMOKE_4},
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST},
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH},
+    [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_C_FORTIFY_RES_1, PASSIVE_SKILL_C_FORTIFY_RES_2, PASSIVE_SKILL_C_FORTIFY_RES_3, PASSIVE_SKILL_C_FORTIFY_RES_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
@@ -7133,10 +7317,10 @@ void BattleGenerate(struct Unit* actor, struct Unit* target) {
     ComputeBattleUnitStats(&gBattleActor, &gBattleTarget);
     ComputeBattleUnitStats(&gBattleTarget, &gBattleActor);
 
-    //ComputeBattleUnitEffectiveStats(&gBattleActor, &gBattleTarget);
-    //ComputeBattleUnitEffectiveStats(&gBattleTarget, &gBattleActor);
-    ComputeBattleUnitEffectiveStatsOriginal(&gBattleActor, &gBattleTarget);
-    ComputeBattleUnitEffectiveStatsOriginal(&gBattleTarget, &gBattleActor);
+    ComputeBattleUnitEffectiveStats(&gBattleActor, &gBattleTarget);
+    ComputeBattleUnitEffectiveStats(&gBattleTarget, &gBattleActor);
+    //ComputeBattleUnitEffectiveStatsOriginal(&gBattleActor, &gBattleTarget);
+    //ComputeBattleUnitEffectiveStatsOriginal(&gBattleTarget, &gBattleActor);
 
     if (target == 0)
         //ComputeBattleObstacleStats();
