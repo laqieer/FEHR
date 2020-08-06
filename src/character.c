@@ -71,7 +71,7 @@ const struct Character characters[] = {
 
 {TEXT_CHARACTER_NAME_EIR, TEXT_CHARACTER_HELP_EIR, 29, JOB_ID_MAGIC_FALCON, 0x107, 0, Light, 28, 1, 15, 7, 7, 8, 3, 6, 7, -1, 0, 0, 0, 0, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, 45, 55, 60, 65, 25, 55, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12} ,  // 0x1D Florina (Tutorial) -> Eir
 
-{TEXT_CHARACTER_NAME_SCABIOSA, TEXT_CHARACTER_HELP_SCABIOSA, 30, 50, 0x11d, 0, 3, 29, 7, 7, 4, 6, 8, 3, 5, 6, 0, 0, 71, 0, 0, 0, 0, 0, 0, 70, 35, 60, 50, 20, 50, 30, 80, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7} ,  // 0x1E Fiora -> Scabiosa
+{TEXT_CHARACTER_NAME_SCABIOSA, TEXT_CHARACTER_HELP_SCABIOSA, 30, JOB_ID_MAGIC_FALCON, 0x11d, 0, Thunder, 29, 1, 15, 5, 6, 6, 2, 4, 6, 0, 0, 0, 0, 0, 0, 71, 0, 0, 50, 65, 65, 65, 30, 40, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7} ,  // 0x1E Fiora -> Scabiosa
 
 {TEXT_CHARACTER_NAME_PLUMERIA, TEXT_CHARACTER_HELP_PLUMERIA, 31, 50, 0x11e, 0, 7, 30, 12, 10, 6, 8, 9, 7, 10, 10, 0, 0, 181, 0, 0, 0, 0, 0, 0, 75, 50, 40, 45, 25, 30, 45, 79, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8} ,  // 0x1F Farina -> Plumeria
 
