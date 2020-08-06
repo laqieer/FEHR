@@ -41,6 +41,23 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 - [Web 1](https://www.marcrobledo.com/RomPatcher.js/)
 - [Web 2](https://hack64.net/tools/patcher.php)
 
+## Compatibility
+
+### Emulator
+
+|Emulator|Software Version|Compatibility|
+|---|---|---|
+|mGBA|0.8.3|OK|
+|visualboyadvance-m|2.1.4|OK|
+|My Boy! Free|1.8.0|OK|
+
+### Flashcart
+
+|Flashcart|Kernel/Firmware|Compatibility|
+|---|---|---|
+|EverDrive-GBA X5|GBAOS-v1.12|OK|
+|EZ-Flash Omega|k1.06_fw7|OK|
+
 ## Credit
 
 ### Battle Animation
