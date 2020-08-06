@@ -41,6 +41,7 @@
 #define Gustaf Elbert
 #define Mirabilis Florina
 #define Scabiosa Fiora
+#define Triandra Scabiosa
 #define Plumeria Farina
 
 #define GenericSoldierHel 0x75
