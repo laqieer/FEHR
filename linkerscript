@@ -196,6 +196,7 @@ GetTerrainCureBadStatus = 0x8019f11;
 SetWorkingMoveCosts = 0x801a0c1;
 GenerateMovementMap = 0x801a0e1;
 MapAddInRange = 0x801a6b5;
+MapSetInRange = 0x801a7b9;
 DisplayActiveUnitEffectRange = 0x801ca29;
 ChangeActiveUnitFacing = 0x801ef95;
 GenericSelection_BackToUM = 0x8021acd;

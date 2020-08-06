@@ -764,8 +764,12 @@ void ComputeBattleUnitSupportBonusesOriginal(struct BattleUnit* attacker, struct
 void ComputeBattleUnitWeaponRankBonusesOriginal(struct BattleUnit* bu);
 void ComputeBattleUnitStatusBonusesOriginal(struct BattleUnit* bu);
 
+extern u8** gWorkingBmMap;
+
 void InitTargets(int x, int y);
 void MapAddInRange(int x, int y, int range, int value);
+void MapSetInRange(int x, int y, int range, int value);
+void MapAddInBoundedRange(short x, short y, short minRange, short maxRange);
 void ForEachUnitInRange(void(*func)(struct Unit *unit));
 void ForEachPositionInRange(void(*func)(int x, int y));
 

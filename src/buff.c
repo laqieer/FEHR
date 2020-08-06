@@ -995,6 +995,34 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                             if(skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY)
                                  setUnitStateGravity(&targetUnits[j]);
                             break;
+                        case PASSIVE_SKILL_A_FLOWER_OF_SORROW_1:
+                            if(skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY)
+                            {
+                                addUnitDebuffDefense(&targetUnits[j], -2);
+                                addUnitDebuffResistance(&targetUnits[j], -2);
+                            }
+                            break;
+                        case PASSIVE_SKILL_A_FLOWER_OF_SORROW_2:
+                            if(skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY)
+                            {
+                                addUnitDebuffDefense(&targetUnits[j], -3);
+                                addUnitDebuffResistance(&targetUnits[j], -3);
+                            }
+                            break;
+                        case PASSIVE_SKILL_A_FLOWER_OF_SORROW_3:
+                            if(skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY)
+                            {
+                                addUnitDebuffDefense(&targetUnits[j], -4);
+                                addUnitDebuffResistance(&targetUnits[j], -4);
+                            }
+                            break;
+                        case PASSIVE_SKILL_A_FLOWER_OF_SORROW_4:
+                            if(skillUnits[i].positionX == targetUnits[j].positionX || skillUnits[i].positionY == targetUnits[j].positionY)
+                            {
+                                addUnitDebuffDefense(&targetUnits[j], -5);
+                                addUnitDebuffResistance(&targetUnits[j], -5);
+                            }
+                            break;
                         default:
                             break;
                     }

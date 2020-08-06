@@ -5576,6 +5576,7 @@ const u16 characterAssistSkills[0x100] = {
         [CHARACTER_LOKI_ID] = ASSIST_SKILL_SACRIFICE,
         [CHARACTER_LAEVATEIN_ID] = ASSIST_SKILL_PIVOT,
         [CHARACTER_PEONY_ID] = ASSIST_SKILL_GENTLE_DREAM,
+        [CHARACTER_SCABIOSA_ID] = ASSIST_SKILL_FRIGHTFUL_DREAM,
 };
 
 const u16 jobAssistSkills[0x100] = {
@@ -5881,10 +5882,22 @@ void assistSkillRallySpeedDefensePlusEffect(struct Proc* proc, struct SelectTarg
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
+void MapAddInBoundedRange(short x, short y, short minRange, short maxRange)
+{
+    MapAddInRange(x, y, maxRange,     +1);
+    MapAddInRange(x, y, minRange - 1, -1);
+}
+
+void SetWorkingBmMap(u8** map)
+{
+    gWorkingBmMap = map;
+}
+
 // N is distance to target
 void ForEachUnitInNSpaces(int x, int y, void(*func)(struct Unit *unit), int N)
 {
     InitTargets(x, y);
+    SetWorkingBmMap(gBmMapPtr);
     MapAddInRange(x, y, N, 1);
     ForEachUnitInRange(func);
 }
@@ -5912,6 +5925,7 @@ void ForEachUnitIn4Spaces(int x, int y, void(*func)(struct Unit *unit))
 void ForEachUnitIn2SpacesExceptTargetUnit(int x, int y, void(*func)(struct Unit *unit))
 {
     InitTargets(x, y);
+    SetWorkingBmMap(gBmMapPtr);
     MapAddInRange(x, y, 2, 1);
     MapAddInRange(x, y, 0, -1);
     ForEachUnitInRange(func);
@@ -5920,6 +5934,7 @@ void ForEachUnitIn2SpacesExceptTargetUnit(int x, int y, void(*func)(struct Unit 
 void ForEachUnitIn2SpacesExceptActorUnit(int x, int y, void(*func)(struct Unit *unit))
 {
     InitTargets(x, y);
+    SetWorkingBmMap(gBmMapPtr);
     MapAddInRange(x, y, 2, 1);
     MapAddInRange(currentActiveUnit->positionX, currentActiveUnit->positionY, 0, -1);
     ForEachUnitInRange(func);
@@ -5929,20 +5944,42 @@ void ForEachUnitInCardinalDirection(int x, int y, void(*func)(struct Unit *unit)
 {
     InitTargets(x, y);
     for (int i = 0; i < gBmMapWidth; i++)
-        MapAddInRange(i, y, 0, 1);
+    {
+        gBmMapPtr[y][i] += 1;
+    }
     for (int j = 0; j < gBmMapHeight; j++)
-        MapAddInRange(x, j, 0, 1);
+    {
+        gBmMapPtr[j][x] += 1;
+    }
+    gBmMapPtr[y][x] -= 1;
     ForEachUnitInRange(func);
 }
 
 void ForEachUnitInCardinalDirectionExceptCenter(int x, int y, void(*func)(struct Unit *unit))
 {
     InitTargets(x, y);
+    SetWorkingBmMap(gBmMapPtr);
     for (int i = 0; i < gBmMapWidth; i++)
-        MapAddInRange(i, y, 0, 1);
+        MapSetInRange(i, y, 0, 1);
     for (int j = 0; j < gBmMapHeight; j++)
-        MapAddInRange(x, j, 0, 1);
-    MapAddInRange(x, y, 0, -1);
+        MapSetInRange(x, j, 0, 1);
+    MapSetInRange(x, y, 0, 0);
+    ForEachUnitInRange(func);
+}
+
+void ForEachUnitInDoubleCardinalDirection(int x1, int y1, int x2, int y2, void(*func)(struct Unit *unit))
+{
+    InitTargets(x1, y1);
+    for (int i = 0; i < gBmMapWidth; i++)
+    {
+        gBmMapPtr[y1][i] = 1;
+        gBmMapPtr[y2][i] = 1;
+    }
+    for (int j = 0; j < gBmMapHeight; j++)
+    {
+        gBmMapPtr[j][x1] = 1;
+        gBmMapPtr[j][x2] = 1;
+    }
     ForEachUnitInRange(func);
 }
 
@@ -6441,7 +6478,7 @@ void assistSkillGrayWavesEffect(struct Proc* proc, struct SelectTarget* target)
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
-// やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、対象の十字方向にいる味方の攻撃、速さ、守備、魔防+3、かつ「強化増幅」を付与（1ターン）
+// やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、自分と対象の十字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防+3、かつ「強化増幅」を付与（1ターン）
 int assistSkillGentleDreamCondition(struct Unit *targetUnit)
 {
     return targetUnit->state & UNIT_STATE_UNSELECTABLE;
@@ -6461,14 +6498,32 @@ void addAllyUnitBuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
         addUnitBuffAttackSpeedDefenseResistanceBy3(unit);
 }
 
+void setAllyUnitStateBonusDoubler(struct Unit *unit)
+{
+    if(isAllyUnit(unit))
+        setUnitStateBonusDoubler(unit);
+}
+
+void setAllyUnitGentleDreamEffect(struct Unit *unit)
+{
+    if(isAllyUnit(unit))
+    {
+        addUnitBuffAttackSpeedDefenseResistanceBy3(unit);
+        setUnitStateBonusDoubler(unit);
+    }
+}
+
 void assistSkillGentleDreamEffect(struct Proc* proc, struct SelectTarget* target)
 {
     struct Unit *targetUnit = GetUnit(target->uid);
     giveUnitReaction(targetUnit);
     m4aSongNumStart(SFX_REACTION);
-    ForEachUnitInCardinalDirection(target->x, target->y, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
+    ForEachUnitInDoubleCardinalDirection(target->x, target->y, currentActiveUnit->positionX, currentActiveUnit->positionY, setAllyUnitGentleDreamEffect);
+    //ForEachUnitInDoubleCardinalDirection(target->x, target->y, currentActiveUnit->positionX, currentActiveUnit->positionY, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
+    //ForEachUnitInCardinalDirection(target->x, target->y, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
     //ForEachUnitInCardinalDirectionExceptCenter(currentActiveUnit->positionX, currentActiveUnit->positionY, addAllyUnitBuffAttackSpeedDefenseResistanceBy3);
-    ForEachUnitInCardinalDirection(target->x, target->y, setUnitStateBonusDoubler);
+    //ForEachUnitInDoubleCardinalDirection(target->x, target->y, currentActiveUnit->positionX, currentActiveUnit->positionY, setAllyUnitStateBonusDoubler);
+    //ForEachUnitInCardinalDirection(target->x, target->y, setAllyUnitStateBonusDoubler);
     //ForEachUnitInCardinalDirectionExceptCenter(currentActiveUnit->positionX, currentActiveUnit->positionY, setUnitStateBonusDoubler);
     StartSoundEffect(&se_sys_powerup1);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
@@ -6494,12 +6549,22 @@ void addFoeUnitDebuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
         addUnitDebuffAttackSpeedDefenseResistanceBy3(unit);
 }
 
+void setFoeUnitFrightfulDreamEffect(struct Unit *unit)
+{
+    if(isFoeUnit(unit))
+    {
+        addUnitDebuffAttackSpeedDefenseResistanceBy3(unit);
+        setUnitStateGuard(unit);
+    }
+}
+
 void assistSkillFrightfulDreamEffect(struct Proc* proc, struct SelectTarget* target)
 {
     struct Unit *targetUnit = GetUnit(target->uid);
     giveUnitReaction(targetUnit);
     m4aSongNumStart(SFX_REACTION);
-    ForEachUnitInCardinalDirection(target->x, target->y, addFoeUnitDebuffAttackSpeedDefenseResistanceBy3);
+    ForEachUnitInDoubleCardinalDirection(target->x, target->y, currentActiveUnit->positionX, currentActiveUnit->positionY, setFoeUnitFrightfulDreamEffect);
+    //ForEachUnitInCardinalDirection(target->x, target->y, addFoeUnitDebuffAttackSpeedDefenseResistanceBy3);
     //ForEachUnitInCardinalDirection(currentActiveUnit->positionX, currentActiveUnit->positionY, addFoeUnitDebuffAttackSpeedDefenseResistanceBy3);
     StartSoundEffect(&se_sys_powerdown1);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
@@ -6590,11 +6655,11 @@ const struct AssistSkill assistSkills[] = {
     {"攻撃守備の応援＋", "対象の攻撃、守備＋６", "Rally Atk/Def+", "Grants Atk/Def+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackDefensePlusEffect},
     {"いっかつ＋", "対象が受けている不利な状態異常を解除（弱化、移動制限、パニック、反撃不可等、次回行動開始時までの効果全般）。もし弱化の状態異常を受けている場合、解除後、強化に変換する", "Harsh Command+", "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.", assistSkillHarshCommandPlusCondition, assistSkillHarshCommandPlusEffect},
     {"速さ魔防の応援＋", "対象の速さ、魔防＋６", "Rally Spd/Res+", "Grants Spd/Res+6 to target ally for 1 turn.", NULL, assistSkillRallySpeedResistancePlusEffect},
-    {"やさしいゆめ", "対象を行動可能\な状態にし、対象と、対象の十\字方向にいる味方の攻撃、速さ、守備、魔防＋３、かつ「強化増幅」を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of target: Grants bonus to unit's stats during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.", assistSkillGentleDreamCondition, assistSkillGentleDreamEffect},
+    {"やさしいゆめ", "対象を行動可能\な状態にし、対象と、自分と対象の十\字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防＋３、かつ【強化増幅】を付与", "Gentle Dream", "Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of target: Grants bonus to unit's stats during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.", assistSkillGentleDreamCondition, assistSkillGentleDreamEffect},
     {"攻撃魔防の応援＋", "対象の攻撃、魔防＋６", "Rally Atk/Res+", "Grants Atk/Res+6 to target ally for 1 turn.", NULL, assistSkillRallyAttackResistancePlusEffect},
     {"運命を変える！", "対象を自分の反対側の位置に移動させ、その後、自分を行動可能\にする、かつ自分とダブル相手の攻撃＋６、自分とダブル相手に【補助不可】を付与", "To Change Fate!", "Moves target ally to opposite side of unit and grants another action to unit. Grants Atk+6 to unit and Pair Up cohort (if any) for 1 turn and inflicts【Isolation】on unit and Pair Up cohort (if any) through their next action.", assistSkillToChangeFateCondition, assistSkillToChangeFateEffect},
-    {"こわいゆめ", "こわいゆめ", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of target through their next actions.", assistSkillFrightfulDreamCondition, assistSkillFrightfulDreamEffect},
-    {"あまいゆめ", "あまいゆめ", "Sweet Dreams", "Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces of target ally through foes' next actions.", assistSkillSweetDreamsCondition, assistSkillSweetDreamsEffect},
+    {"こわいゆめ", "対象を行動可能\な状態にし、自分と対象の十\字方向にいる敵の攻撃、速さ、守備、魔防ー３、かつ【キャンセル】を付与", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of target through their next actions.", assistSkillFrightfulDreamCondition, assistSkillFrightfulDreamEffect},
+    {"あまいゆめ", "対象を行動可能\な状態にし、対象の攻撃、速さ、守備、魔防＋３、かつ、対象の周囲４マス以内にいる敵の攻撃、速さ、守備、魔防ー４", "Sweet Dreams", "Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on foes within 4 spaces of target ally through foes' next actions.", assistSkillSweetDreamsCondition, assistSkillSweetDreamsEffect},
 };
 
 char *getAssistSkillNameTextInActionMenu()
@@ -6735,6 +6800,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"幸福の花２", "十\字方向にいる味方は、戦闘中、攻撃、速さ＋２", "Flower of Joy 2", "Grants Atk/Spd+2 to any ally in a cardinal direction from unit during that ally's combat."},
     {"幸福の花３", "十\字方向にいる味方は、戦闘中、攻撃、速さ＋３", "Flower of Joy 3", "Grants Atk/Spd+3 to any ally in a cardinal direction from unit during that ally's combat."},
     {"幸福の花４", "十\字方向にいる味方は、戦闘中、攻撃、速さ＋４", "Flower of Joy 4", "Grants Atk/Spd+4 to any ally in a cardinal direction from unit during that ally's combat."},
+    {"不幸の花１", "十\字方向にいる敵は、戦闘中、守備、魔防ー２", "Flower of Sorrow 1", "Inflicts Def/Res-2 on any foe in a cardinal direction from unit during that foe's combat."},
+    {"不幸の花２", "十\字方向にいる敵は、戦闘中、守備、魔防ー３", "Flower of Sorrow 2", "Inflicts Def/Res-3 on any foe in a cardinal direction from unit during that foe's combat."},
+    {"不幸の花３", "十\字方向にいる敵は、戦闘中、守備、魔防ー４", "Flower of Sorrow 3", "Inflicts Def/Res-4 on any foe in a cardinal direction from unit during that foe's combat."},
+    {"不幸の花４", "十\字方向にいる敵は、戦闘中、守備、魔防ー５", "Flower of Sorrow 4", "Inflicts Def/Res-5 on any foe in a cardinal direction from unit during that foe's combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -6756,6 +6825,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_A_DARTING_BLOW_1, PASSIVE_SKILL_A_SWIFT_SPARROW_1, PASSIVE_SKILL_A_SWIFT_SPARROW_2, PASSIVE_SKILL_A_SWIFT_SPARROW_3},
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE},
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_A_FLOWER_OF_JOY_1, PASSIVE_SKILL_A_FLOWER_OF_JOY_2, PASSIVE_SKILL_A_FLOWER_OF_JOY_3, PASSIVE_SKILL_A_FLOWER_OF_JOY_4},
+    [CHARACTER_SCABIOSA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_SORROW_1, PASSIVE_SKILL_A_FLOWER_OF_SORROW_2, PASSIVE_SKILL_A_FLOWER_OF_SORROW_3, PASSIVE_SKILL_A_FLOWER_OF_SORROW_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
