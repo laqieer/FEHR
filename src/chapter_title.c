@@ -232,6 +232,31 @@ extern u8 chapter_titles_216_lz[];
 extern u8 chapter_titles_217_lz[];
 extern u8 chapter_titles_218_lz[];
 extern u8 chapter_titles_219_lz[];
+extern u8 chapter_titles_220_lz[];
+extern u8 chapter_titles_221_lz[];
+extern u8 chapter_titles_222_lz[];
+extern u8 chapter_titles_223_lz[];
+extern u8 chapter_titles_224_lz[];
+extern u8 chapter_titles_225_lz[];
+extern u8 chapter_titles_226_lz[];
+extern u8 chapter_titles_227_lz[];
+extern u8 chapter_titles_228_lz[];
+extern u8 chapter_titles_229_lz[];
+extern u8 chapter_titles_230_lz[];
+extern u8 chapter_titles_231_lz[];
+extern u8 chapter_titles_232_lz[];
+extern u8 chapter_titles_233_lz[];
+extern u8 chapter_titles_234_lz[];
+extern u8 chapter_titles_235_lz[];
+extern u8 chapter_titles_236_lz[];
+extern u8 chapter_titles_237_lz[];
+extern u8 chapter_titles_238_lz[];
+extern u8 chapter_titles_239_lz[];
+extern u8 chapter_titles_240_lz[];
+extern u8 chapter_titles_241_lz[];
+extern u8 chapter_titles_242_lz[];
+extern u8 chapter_titles_243_lz[];
+extern u8 chapter_titles_244_lz[];
 extern u8 chapter_titles_no_data[];
 
 const u8 * const chapterTitles[] = {
@@ -456,6 +481,31 @@ const u8 * const chapterTitles[] = {
         chapter_titles_217_lz,
         chapter_titles_218_lz,
         chapter_titles_219_lz,
+        chapter_titles_220_lz,
+        chapter_titles_221_lz,
+        chapter_titles_222_lz,
+        chapter_titles_223_lz,
+        chapter_titles_224_lz,
+        chapter_titles_225_lz,
+        chapter_titles_226_lz,
+        chapter_titles_227_lz,
+        chapter_titles_228_lz,
+        chapter_titles_229_lz,
+        chapter_titles_230_lz,
+        chapter_titles_231_lz,
+        chapter_titles_232_lz,
+        chapter_titles_233_lz,
+        chapter_titles_234_lz,
+        chapter_titles_235_lz,
+        chapter_titles_236_lz,
+        chapter_titles_237_lz,
+        chapter_titles_238_lz,
+        chapter_titles_239_lz,
+        chapter_titles_240_lz,
+        chapter_titles_241_lz,
+        chapter_titles_242_lz,
+        chapter_titles_243_lz,
+        chapter_titles_244_lz,
 
         [255] = chapter_titles_no_data,
 };
