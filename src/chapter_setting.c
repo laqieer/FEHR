@@ -727,6 +727,8 @@ const struct Chapter chapters[0xff] = {
             DEFINE_SIMPLE_CHAPTER_NEW(211, "4.3.2)211", MUSIC_FE4_MAP_8)
             DEFINE_SIMPLE_CHAPTER_NEW(212, "4.3.3)212", MUSIC_FE4_MAP_9)
             DEFINE_SIMPLE_CHAPTER_NEW(213, "4.3.4)213", MUSIC_FE4_MAP_8)
+            DEFINE_SIMPLE_CHAPTER_NEW(214, "4.3.5)214", MUSIC_FE4_MAP_8)
+            DEFINE_SIMPLE_CHAPTER_NEW(215, "4.4.1)215", MUSIC_WIND_ACROSS_PLAINS)
 };
 
 const struct Chapter * const pChapters2 = chapters;
