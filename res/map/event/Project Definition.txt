@@ -155,6 +155,7 @@
 #define HellFang 0xaf
 #define DivineDragonstone 0xb0
 #define DivineDragonStone DivineDragonstone
+#define HardyBearing 0xb1
 
 // AI
 #define DefaultAi4 DefaultAI4

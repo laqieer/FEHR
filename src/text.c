@@ -300,6 +300,10 @@ const char* const texts[] = {
 
         [TEXT_ITEM_HELP_LEIPTR] = "「フィヨルム専用」ニフルの神器",
 
+        [TEXT_ITEM_NAME_HARDY_BEARING] = "不動の姿勢",
+
+        [TEXT_ITEM_HELP_HARDY_BEARING] = "自身と敵の戦闘順入替スキル（待ち伏せ、攻め立て等）無効",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening

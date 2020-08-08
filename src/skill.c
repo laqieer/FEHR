@@ -7157,6 +7157,7 @@ const struct PassiveSkill passiveSkillSs[] = {
     {"˜AŒ‚–hŒäEŒ•‘„•€", "Œ•A‘„A•€‚Ì“G‚©‚ç˜A‘±‚µ‚ÄUŒ‚‚ðŽó‚¯‚½ŽžA‚Q‰ñ–ÚˆÈ~‚Ìƒ_ƒ[ƒW‚ð‚WŠ„ŒyŒ¸", "Deflect Melee", "If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 80%."},
     {"˜AŒ‚–hŒäE‹|ˆÃŠí", "‹|AˆÃŠí‚Ì“G‚©‚ç˜A‘±‚µ‚ÄUŒ‚‚ðŽó‚¯‚½ŽžA‚Q‰ñ–ÚˆÈ~‚Ìƒ_ƒ[ƒW‚ð‚WŠ„ŒyŒ¸", "Deflect Missile", "If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 80%."},
     {"˜AŒ‚–hŒäE–‚“¹", "–‚–@‚Ì“G‚©‚ç˜A‘±‚µ‚ÄUŒ‚‚ðŽó‚¯‚½ŽžA‚Q‰ñ–ÚˆÈ~‚Ìƒ_ƒ[ƒW‚ð‚WŠ„ŒyŒ¸", "Deflect Magic", "If unit receives consecutive attacks and foe uses magic, reduces damage from foe's second attack onward by 80%."},
+    {"•s“®‚ÌŽp¨", "Ž©g‚Æ“G‚Ìí“¬‡“ü‘ÖƒXƒLƒ‹i‘Ò‚¿•š‚¹AU‚ß—§‚Ä“™j–³Œø", "Hardy Bearing", "Disables unit's and foe's skills that change attack priority."},
 };
 
 const u16 itemPassiveSkillSs[0x100] = {
@@ -7166,6 +7167,7 @@ const u16 itemPassiveSkillSs[0x100] = {
     [ITEM_SACRED_SEAL_DEFLECT_MELEE] = PASSIVE_SKILL_S_DEFLECT_MELEE,
     [ITEM_SACRED_SEAL_DEFLECT_MISSILE] = PASSIVE_SKILL_S_DEFLECT_MISSILE,
     [ITEM_SACRED_SEAL_DEFLECT_MAGIC] = PASSIVE_SKILL_S_DEFLECT_MAGIC,
+    [ITEM_SACRED_SEAL_HARDY_BEARING] = PASSIVE_SKILL_S_HARDY_BEARING,
 };
 
 u16 getUnitPassiveSkillS(struct Unit *unit)
@@ -7206,6 +7208,9 @@ void BattleGetBattleUnitOrder(struct BattleUnit** outAttacker, struct BattleUnit
 {
     *outAttacker = &gBattleActor;
     *outDefender = &gBattleTarget;
+
+    if(getUnitPassiveSkillS(&gBattleTarget.unit) == PASSIVE_SKILL_S_HARDY_BEARING || getUnitPassiveSkillS(&gBattleActor.unit) == PASSIVE_SKILL_S_HARDY_BEARING)
+        return;
 
     switch(getUnitPassiveSkillB(&gBattleTarget.unit))
     {
@@ -7364,39 +7369,48 @@ void BattleUnwind() {
 
         if (!BattleGenerateRoundHits(attacker, defender)) {
         //if (!BattleGenerateRoundHitsOriginal(attacker, defender)) {
-            switch(getUnitPassiveSkillB(&attacker->unit))
+            if(getUnitPassiveSkillS(&attacker->unit) == PASSIVE_SKILL_S_HARDY_BEARING || getUnitPassiveSkillS(&defender->unit) == PASSIVE_SKILL_S_HARDY_BEARING)
             {
-                case PASSIVE_SKILL_B_KILLING_INTENT:
-                    if((defender->hpInitial < defender->unit.maxHp || checkUnitNegativeState(&defender->unit)) && BattleGetFollowUpOrder(&attacker, &defender))
-                    {
-                        gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
-                        if(!BattleGenerateRoundHits(attacker, defender))
-                        {
-                            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
-                            BattleGenerateRoundHits(defender, attacker);
-                        }
-                    }
-                    else
-                    {
-                        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
-                        if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender))
+                gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+                if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender)) {
+                    gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
+                    BattleGenerateRoundHits(attacker, defender);
+                }
+            }
+            else
+                switch(getUnitPassiveSkillB(&attacker->unit))
+                {
+                    case PASSIVE_SKILL_B_KILLING_INTENT:
+                        if((defender->hpInitial < defender->unit.maxHp || checkUnitNegativeState(&defender->unit)) && BattleGetFollowUpOrder(&attacker, &defender))
                         {
                             gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
-                            BattleGenerateRoundHits(attacker, defender);
+                            if(!BattleGenerateRoundHits(attacker, defender))
+                            {
+                                gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+                                BattleGenerateRoundHits(defender, attacker);
+                            }
                         }
-                    }
-                    break;
-                default:
-                    gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
-                    if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender)) {
-                    //if (!BattleGenerateRoundHitsOriginal(defender, attacker) && BattleGetFollowUpOrderOriginal(&attacker, &defender)) {
-                        gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
+                        else
+                        {
+                            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+                            if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender))
+                            {
+                                gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
+                                BattleGenerateRoundHits(attacker, defender);
+                            }
+                        }
+                        break;
+                    default:
+                        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_RETALIATE;
+                        if (!BattleGenerateRoundHits(defender, attacker) && BattleGetFollowUpOrder(&attacker, &defender)) {
+                        //if (!BattleGenerateRoundHitsOriginal(defender, attacker) && BattleGetFollowUpOrderOriginal(&attacker, &defender)) {
+                            gBattleHitIterator->attributes = BATTLE_HIT_ATTR_FOLLOWUP;
 
-                        BattleGenerateRoundHits(attacker, defender);
-                        //BattleGenerateRoundHitsOriginal(attacker, defender);
-                    }
-                    break;
-            }
+                            BattleGenerateRoundHits(attacker, defender);
+                            //BattleGenerateRoundHitsOriginal(attacker, defender);
+                        }
+                        break;
+                }
         }
     //} while (0);
 

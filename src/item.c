@@ -368,6 +368,8 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_HELL_FANG, TEXT_ITEM_HELP_HELL_FANG, 0, 0xaf, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 80, 8, 0, 1, 1, 0, 0, ITEM_ICON_HELL_FANG, 0, 0, 0} ,  // 0xAF Hell Fang
 
 {TEXT_ITEM_NAME_DIVINE_DRAGONSTONE, TEXT_ITEM_HELP_DIVINE_DRAGONSTONE, TEXT_ITEM_HELP_DIVINE_DRAGONSTONE, 0xb0, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &DivineDragonstoneBuff, 0, 0, 10, 100, 0, 0, 3, 1, 0, 181, ITEM_ICON_DIVINE_DRAGONSTONE, 0, 0, 0} ,  // 0xB0 Divine Dragonstone
+
+{TEXT_ITEM_NAME_HARDY_BEARING, TEXT_ITEM_HELP_HARDY_BEARING, TEXT_ITEM_CANNOT_USE, 0xb1, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB1 Sacred Seal: Hardy Bearing
 };
 
 const struct Item * const pItems1 = items;
