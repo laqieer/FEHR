@@ -16,8 +16,8 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":85,
- "tiledversion":"1.4.1",
+ "tilecount":84,
+ "tiledversion":"1.4.2",
  "tileheight":32,
  "tiles":[
         {
@@ -115,12 +115,6 @@
          "image":"enemy_units\/Child_2.png",
          "imageheight":11,
          "imagewidth":12
-        }, 
-        {
-         "id":16,
-         "image":"enemy_units\/Child.png",
-         "imageheight":12,
-         "imagewidth":10
         }, 
         {
          "id":17,
