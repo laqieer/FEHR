@@ -625,6 +625,11 @@ int getDistanceBetweenTwoUnits(struct Unit *unit1, struct Unit *unit2)
     return RECT_DISTANCE(unit1->positionX, unit1->positionY, unit2->positionX, unit2->positionY);
 }
 
+int areTwoUnits(struct Unit *unit1, struct Unit *unit2)
+{
+    return unit1->side != unit2->side || unit1->number != unit2->number;
+}
+
 int areTwoUnitsAdjacent(struct Unit *unit1, struct Unit *unit2)
 {
     return getDistanceBetweenTwoUnits(unit1, unit2) == 1;
@@ -5099,6 +5104,38 @@ void ComputePassiveSkillCEffectFromOthers(struct Unit *unit, u32 *args)
                 attacker->battleSpeed += 4;
             }
             break;
+        case PASSIVE_SKILL_A_FLOWER_OF_PLENTY_1:
+            if(ABS(unit->positionY - attacker->unit.positionY) <= 2 && ABS(unit->positionX - attacker->unit.positionX) <= 1 && areTwoUnits(unit, &attacker->unit))
+            {
+                attacker->battleAttack += 1;
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 1;
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_PLENTY_2:
+            if(ABS(unit->positionY - attacker->unit.positionY) <= 2 && ABS(unit->positionX - attacker->unit.positionX) <= 1 && areTwoUnits(unit, &attacker->unit))
+            {
+                attacker->battleAttack += 2;
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 2;
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_PLENTY_3:
+            if(ABS(unit->positionY - attacker->unit.positionY) <= 2 && ABS(unit->positionX - attacker->unit.positionX) <= 1 && areTwoUnits(unit, &attacker->unit))
+            {
+                attacker->battleAttack += 3;
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 3;
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_PLENTY_4:
+            if(ABS(unit->positionY - attacker->unit.positionY) <= 2 && ABS(unit->positionX - attacker->unit.positionX) <= 1 && areTwoUnits(unit, &attacker->unit))
+            {
+                attacker->battleAttack += 4;
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 4;
+            }
+            break;
         default:
             break;
     }
@@ -5577,6 +5614,7 @@ const u16 characterAssistSkills[0x100] = {
         [CHARACTER_LAEVATEIN_ID] = ASSIST_SKILL_PIVOT,
         [CHARACTER_PEONY_ID] = ASSIST_SKILL_GENTLE_DREAM,
         [CHARACTER_SCABIOSA_ID] = ASSIST_SKILL_FRIGHTFUL_DREAM,
+        [CHARACTER_PLUMERIA_ID] = ASSIST_SKILL_SWEET_DREAMS,
 };
 
 const u16 jobAssistSkills[0x100] = {
@@ -6452,10 +6490,24 @@ void assistSkillFutureVisionEffect(struct Proc* proc, struct SelectTarget* targe
     m4aSongNumStart(SFX_REACTION);
 }
 
+int hasUnitAssistSkillDance(struct Unit *unit)
+{
+    switch (getUnitAssistSkill(unit))
+    {
+        case ASSIST_SKILL_GRAY_WAVES:
+        case ASSIST_SKILL_GENTLE_DREAM:
+        case ASSIST_SKILL_FRIGHTFUL_DREAM:
+        case ASSIST_SKILL_SWEET_DREAMS:
+            return 1;
+    }
+
+    return 0;
+}
+
 // ユラリユルレリ: このスキルは「歌う」「踊る」として扱われる 対象を行動可能にする 対象が歩行、飛行の時、対象の移動+1（1ターン、重複しない）
 int assistSkillGrayWavesCondition(struct Unit *targetUnit)
 {
-    return targetUnit->state & UNIT_STATE_UNSELECTABLE;
+    return (targetUnit->state & UNIT_STATE_UNSELECTABLE) && !hasUnitAssistSkillDance(targetUnit);
 }
 
 void giveUnitReaction(struct Unit *unit)
@@ -6481,7 +6533,7 @@ void assistSkillGrayWavesEffect(struct Proc* proc, struct SelectTarget* target)
 // やさしいゆめ: このスキルは「歌う」「踊る」として扱われる対象を行動可能な状態にし、対象と、自分と対象の十字方向にいる味方（自分を除く）の攻撃、速さ、守備、魔防+3、かつ「強化増幅」を付与（1ターン）
 int assistSkillGentleDreamCondition(struct Unit *targetUnit)
 {
-    return targetUnit->state & UNIT_STATE_UNSELECTABLE;
+    return (targetUnit->state & UNIT_STATE_UNSELECTABLE) && !hasUnitAssistSkillDance(targetUnit);
 }
 
 void addUnitBuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
@@ -6532,7 +6584,7 @@ void assistSkillGentleDreamEffect(struct Proc* proc, struct SelectTarget* target
 // こわいゆめ
 int assistSkillFrightfulDreamCondition(struct Unit *targetUnit)
 {
-    return targetUnit->state & UNIT_STATE_UNSELECTABLE;
+    return (targetUnit->state & UNIT_STATE_UNSELECTABLE) && !hasUnitAssistSkillDance(targetUnit);
 }
 
 void addUnitDebuffAttackSpeedDefenseResistanceBy3(struct Unit *unit)
@@ -6573,7 +6625,7 @@ void assistSkillFrightfulDreamEffect(struct Proc* proc, struct SelectTarget* tar
 // あまいゆめ
 int assistSkillSweetDreamsCondition(struct Unit *targetUnit)
 {
-    return targetUnit->state & UNIT_STATE_UNSELECTABLE;
+    return (targetUnit->state & UNIT_STATE_UNSELECTABLE) && !hasUnitAssistSkillDance(targetUnit);
 }
 
 void addUnitDebuffAttackSpeedDefenseResistanceBy4(struct Unit *unit)
@@ -6804,6 +6856,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"不幸の花２", "十\字方向にいる敵は、戦闘中、守備、魔防ー３", "Flower of Sorrow 2", "Inflicts Def/Res-3 on any foe in a cardinal direction from unit during that foe's combat."},
     {"不幸の花３", "十\字方向にいる敵は、戦闘中、守備、魔防ー４", "Flower of Sorrow 3", "Inflicts Def/Res-4 on any foe in a cardinal direction from unit during that foe's combat."},
     {"不幸の花４", "十\字方向にいる敵は、戦闘中、守備、魔防ー５", "Flower of Sorrow 4", "Inflicts Def/Res-5 on any foe in a cardinal direction from unit during that foe's combat."},
+    {"ほうじゅんの花１", "自分を中心としたたて５ｘよこ３マスにいる味方は、戦闘中、攻撃、魔防＋１", "Flower of Plenty 1", "Grants Atk/Res+1 to allies within 5 rows and 3 columns centered on unit during combat."},
+    {"ほうじゅんの花２", "自分を中心としたたて５ｘよこ３マスにいる味方は、戦闘中、攻撃、魔防＋２", "Flower of Plenty 2", "Grants Atk/Res+2 to allies within 5 rows and 3 columns centered on unit during combat."},
+    {"ほうじゅんの花３", "自分を中心としたたて５ｘよこ３マスにいる味方は、戦闘中、攻撃、魔防＋３", "Flower of Plenty 3", "Grants Atk/Res+3 to allies within 5 rows and 3 columns centered on unit during combat."},
+    {"ほうじゅんの花４", "自分を中心としたたて５ｘよこ３マスにいる味方は、戦闘中、攻撃、魔防＋４", "Flower of Plenty 4", "Grants Atk/Res+4 to allies within 5 rows and 3 columns centered on unit during combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -6826,6 +6882,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE, PASSIVE_SKILL_A_HELL_SCYTHE},
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_A_FLOWER_OF_JOY_1, PASSIVE_SKILL_A_FLOWER_OF_JOY_2, PASSIVE_SKILL_A_FLOWER_OF_JOY_3, PASSIVE_SKILL_A_FLOWER_OF_JOY_4},
     [CHARACTER_SCABIOSA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_SORROW_1, PASSIVE_SKILL_A_FLOWER_OF_SORROW_2, PASSIVE_SKILL_A_FLOWER_OF_SORROW_3, PASSIVE_SKILL_A_FLOWER_OF_SORROW_4},
+    [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_PLENTY_1, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_2, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_3, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
