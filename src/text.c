@@ -290,7 +290,7 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_NAME_PLUMERIA] = "プルメリア",
 
-        [TEXT_CHARACTER_HELP_PLUMERIA] = "悪夢の国スヴァルトアルフの妖精。淫らな夢を見せる。潔癖な性格で、人間が抱く欲望を嫌っている。",
+        [TEXT_CHARACTER_HELP_PLUMERIA] = "悪夢の国スヴァルトアルフの妖精。みだらな夢を見せる。潔癖な性格で、人間が抱く欲望を嫌っている。",
 
         [TEXT_CHARACTER_NAME_MIRABILIS] = "ルピナス",
 
