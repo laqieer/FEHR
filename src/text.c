@@ -2155,6 +2155,10 @@ const char* const texts[] = {
 
        [TEXT_ITEM_HELP_DIVINE_DRAGONSTONE] = "すべてをじょうかする神竜の息吹",
 
+       [TEXT_ITEM_NAME_ARMORED_BOOTS] = "重装のブーツ",
+
+       [TEXT_ITEM_HELP_ARMORED_BOOTS] = "ターン開始時、自身のＨＰが１００パーセントなら、移動＋１（１ターン、重複しない）",
+
 #include "texts.txt"
 };
 

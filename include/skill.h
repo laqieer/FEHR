@@ -834,10 +834,10 @@ struct StatScreenEffectProc
 extern const struct ProcCmd gProcScr_StatScreen[];
 extern const struct TextBatch sSSMasterTextBatch[];
 
-u16 getUnitPassiveSkillA(struct Unit *unit);
-u16 getUnitPassiveSkillB(struct Unit *unit);
-u16 getUnitPassiveSkillC(struct Unit *unit);
-u16 getUnitPassiveSkillS(struct Unit *unit);
+void ForAllPlayerUnits(void(*func)(struct Unit *unit));
+void ForAllEnemyUnits(void(*func)(struct Unit *unit));
+void ForAllNPCUnits(void(*func)(struct Unit *unit));
+void ForAllP4Units(void(*func)(struct Unit *unit));
 
 char *getNewUnlockedPassiveSkillNameText(struct Unit *unit);
 int isAnimationAtRight(void *AIS);

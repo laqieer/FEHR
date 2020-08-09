@@ -156,6 +156,7 @@
 #define DivineDragonstone 0xb0
 #define DivineDragonStone DivineDragonstone
 #define HardyBearing 0xb1
+#define ArmoredBoots 0xb2
 
 // AI
 #define DefaultAi4 DefaultAI4

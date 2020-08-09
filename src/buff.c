@@ -1338,6 +1338,47 @@ void updateBuffAndDebuffWithPassiveSkillCForAllUnits()
     updateBuffAndDebuffWithPassiveSkillCForP4Units();
 }
 
+void updateNewStateWithPassiveSkillSForUnit(struct Unit *unit)
+{
+    switch(getUnitPassiveSkillS(unit))
+    {
+        case PASSIVE_SKILL_S_ARMORED_BOOTS:
+            if(IsUnitArmour(unit) && GetUnitHp(unit) >= GetUnitMaxHp(unit))
+                setUnitStateMobilityIncreased(unit);
+            break;
+        default:
+            break;
+    }
+}
+
+void updateNewStateWithPassiveSkillSForPlayerUnits()
+{
+    ForAllPlayerUnits(updateNewStateWithPassiveSkillSForUnit);
+}
+
+void updateNewStateWithPassiveSkillSForEnemyUnits()
+{
+    ForAllEnemyUnits(updateNewStateWithPassiveSkillSForUnit);
+}
+
+void updateNewStateWithPassiveSkillSForNPCUnits()
+{
+    ForAllNPCUnits(updateNewStateWithPassiveSkillSForUnit);
+}
+
+void updateNewStateWithPassiveSkillSForP4Units()
+{
+    ForAllP4Units(updateNewStateWithPassiveSkillSForUnit);
+}
+
+void updateNewStateWithPassiveSkillSForAllUnits()
+{
+    updateNewStateWithPassiveSkillSForPlayerUnits();
+    updateNewStateWithPassiveSkillSForEnemyUnits();
+    updateNewStateWithPassiveSkillSForNPCUnits();
+    updateNewStateWithPassiveSkillSForP4Units();
+}
+
 /*
  * Duration: 1 turn. Clear units' buff & debuff when switching phase.
  */
@@ -1380,28 +1421,33 @@ void clearUnitsBuffAndDebuffEachTurn()
                 clearBuffDebuffAndNewStateForAllUnits();
                 updateBuffAndDebuffWithPassiveSkillCForAllUnits();
                 updateNewStateWithPassiveSkillAForAllUnits();
+                updateNewStateWithPassiveSkillSForAllUnits();
             }
             else
             {
                 clearBuffDebuffAndNewStateForPlayerUnits();
                 updateBuffAndDebuffWithPassiveSkillCForPlayerUnits();
                 updateNewStateWithPassiveSkillAForPlayerUnits();
+                updateNewStateWithPassiveSkillSForPlayerUnits();
             }
             break;
         case EnemySide: //EnemySide
             clearBuffDebuffAndNewStateForEnemyUnits();
             updateBuffAndDebuffWithPassiveSkillCForEnemyUnits();
             updateNewStateWithPassiveSkillAForEnemyUnits();
+            updateNewStateWithPassiveSkillSForEnemyUnits();
             break;
         case NPCSide: //NPCSide
             clearBuffDebuffAndNewStateForNPCUnits();
             updateBuffAndDebuffWithPassiveSkillCForNPCUnits();
             updateNewStateWithPassiveSkillAForNPCUnits();
+            updateNewStateWithPassiveSkillSForNPCUnits();
             break;
         default: //TODO: for link arena
             clearBuffDebuffAndNewStateForP4Units();
             updateBuffAndDebuffWithPassiveSkillCForP4Units();
             updateNewStateWithPassiveSkillAForP4Units();
+            updateNewStateWithPassiveSkillSForP4Units();
             break;
     }
 }

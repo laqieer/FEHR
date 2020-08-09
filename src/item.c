@@ -370,6 +370,8 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_DIVINE_DRAGONSTONE, TEXT_ITEM_HELP_DIVINE_DRAGONSTONE, TEXT_ITEM_HELP_DIVINE_DRAGONSTONE, 0xb0, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &DivineDragonstoneBuff, 0, 0, 10, 100, 0, 0, 3, 1, 0, 181, ITEM_ICON_DIVINE_DRAGONSTONE, 0, 0, 0} ,  // 0xB0 Divine Dragonstone
 
 {TEXT_ITEM_NAME_HARDY_BEARING, TEXT_ITEM_HELP_HARDY_BEARING, TEXT_ITEM_CANNOT_USE, 0xb1, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB1 Sacred Seal: Hardy Bearing
+
+{TEXT_ITEM_NAME_ARMORED_BOOTS, TEXT_ITEM_HELP_ARMORED_BOOTS, TEXT_ITEM_CANNOT_USE, 0xb2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB2 Sacred Seal: Armored Boots
 };
 
 const struct Item * const pItems1 = items;
