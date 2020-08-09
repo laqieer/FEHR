@@ -231,6 +231,7 @@ extern const u8 * const event_chap_220[];
 extern const u8 * const event_chap_221[];
 extern const u8 * const event_chap_222[];
 extern const u8 * const event_chap_223[];
+extern const u8 * const event_chap_224[];
 
 const u8 ** const events[0xff] = {
         NULL,
@@ -458,8 +459,10 @@ const u8 ** const events[0xff] = {
         event_chap_221,
         event_chap_222,
         event_chap_223,
+        event_chap_224,
 };
 
+extern const u8 * const event_chap_224_EN[];
 extern const u8 * const event_chap_223_EN[];
 extern const u8 * const event_chap_222_EN[];
 extern const u8 * const event_chap_221_EN[];
@@ -870,6 +873,7 @@ const u8 ** const events_EN[0xff] = {
         event_chap_221_EN,
         event_chap_222_EN,
         event_chap_223_EN,
+        event_chap_224_EN,
 };
 
 const u8 *** const pEvents = events;
