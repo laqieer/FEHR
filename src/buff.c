@@ -811,6 +811,46 @@ int GetUnitLuck(struct Unit* unit)
     return luck > 0? luck: 0;
 }
 
+int GetUnitBareMaxHp(struct Unit* unit)
+{
+    return unit->maxHp;
+}
+
+int GetUnitBareHp(struct Unit* unit)
+{
+    return unit->hp;
+}
+
+int GetUnitBarePower(struct Unit* unit)
+{
+    return unit->pow;
+}
+
+int GetUnitBareSkill(struct Unit* unit)
+{
+    return unit->skl;
+}
+
+int GetUnitBareSpeed(struct Unit* unit)
+{
+    return unit->spd;
+}
+
+int GetUnitBareDefense(struct Unit* unit)
+{
+    return unit->def;
+}
+
+int GetUnitBareResistance(struct Unit* unit)
+{
+    return unit->res;
+}
+
+int GetUnitBareLuck(struct Unit* unit)
+{
+    return unit->luk;
+}
+
 #pragma GCC push_options
 #pragma GCC optimize ("-O2")
 
@@ -964,10 +1004,10 @@ int getMaxValueInUnitsBySide(int side, int(*valueGetter)(struct Unit *unit))
 
 void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumber, struct Unit *targetUnits, int targetUnitNumber)
 {
-    int minDef = getMinValueInUnits(targetUnits, targetUnitNumber, GetUnitDefense);
-    int minRes = getMinValueInUnits(targetUnits, targetUnitNumber, GetUnitResistance);
-    int maxAtk = getMaxValueInUnits(targetUnits, targetUnitNumber, GetUnitPower);
-    int maxSpd = getMaxValueInUnits(targetUnits, targetUnitNumber, GetUnitSpeed);
+    int minDef = getMinValueInUnits(targetUnits, targetUnitNumber, GetUnitBareDefense);
+    int minRes = getMinValueInUnits(targetUnits, targetUnitNumber, GetUnitBareResistance);
+    int maxAtk = getMaxValueInUnits(targetUnits, targetUnitNumber, GetUnitBarePower);
+    int maxSpd = getMaxValueInUnits(targetUnits, targetUnitNumber, GetUnitBareSpeed);
 
     for(int i = 0; i < skillUnitNumber; i++)
     {
@@ -1074,6 +1114,22 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                         case PASSIVE_SKILL_B_CHILL_SPD_4:
                             if(GetUnitSpeed(&targetUnits[j]) == maxSpd)
                                 addUnitDebuffSpeed(&targetUnits[j], -10);
+                            break;
+                        case PASSIVE_SKILL_B_SABOTAGE_DEF_1:
+                            if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) <= GetUnitResistance(&skillUnits[i]) - 3)
+                                addUnitDebuffDefense(&targetUnits[j], -3);
+                            break;
+                        case PASSIVE_SKILL_B_SABOTAGE_DEF_2:
+                            if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) <= GetUnitResistance(&skillUnits[i]) - 3)
+                                addUnitDebuffDefense(&targetUnits[j], -5);
+                            break;
+                        case PASSIVE_SKILL_B_SABOTAGE_DEF_3:
+                            if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) <= GetUnitResistance(&skillUnits[i]) - 3)
+                                addUnitDebuffDefense(&targetUnits[j], -7);
+                            break;
+                        case PASSIVE_SKILL_B_SABOTAGE_DEF_4:
+                            if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) < GetUnitResistance(&skillUnits[i]))
+                                addUnitDebuffDefense(&targetUnits[j], -7);
                             break;
                         default:
                             break;
@@ -1202,12 +1258,19 @@ s8 isUnitMovementTypeNoMoreThanHalf(struct Unit *unit, struct JobCategoryStats *
         return 2 * stats->numInfantry <= stats->numTotal;
 }
 
+int GetUnitBareDefResSum(struct Unit *unit)
+{
+    return GetUnitBareDefense(unit) + GetUnitBareResistance(unit);
+}
+
 void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
 {
     struct JobCategoryStats *stats;
 
     clearJobCategoryStats(stats);
     calcJobCategoryStats(units, number, stats);
+
+    int maxDefResSum = getMaxValueInUnits(units, number, GetUnitBareDefResSum);
 
     for(int i = 0; i < number; i++)
     {
@@ -1223,83 +1286,111 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
                     {
                         case PASSIVE_SKILL_C_FORTIFY_DEF_1:
                             if(distance == 1)
-                                updateUnitBuffDefense(&units[i], 2);
+                                addUnitBuffDefense(&units[i], 2);
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_DEF_2:
                             if(distance == 1)
-                                updateUnitBuffDefense(&units[i], 3);
+                                addUnitBuffDefense(&units[i], 3);
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_DEF_3:
                             if(distance == 1)
-                                updateUnitBuffDefense(&units[i], 4);
+                                addUnitBuffDefense(&units[i], 4);
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_DEF_4:
                             if(distance == 1)
-                                updateUnitBuffDefense(&units[i], 7);
+                                addUnitBuffDefense(&units[i], 7);
                             break;
                         case PASSIVE_SKILL_C_ODD_ATK_WAVE_1:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
-                                updateUnitBuffPower(&units[i], 2);
+                                addUnitBuffPower(&units[i], 2);
                             break;
                         case PASSIVE_SKILL_C_ODD_ATK_WAVE_2:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
-                                updateUnitBuffPower(&units[i], 4);
+                                addUnitBuffPower(&units[i], 4);
                             break;
                         case PASSIVE_SKILL_C_ODD_ATK_WAVE_3:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
-                                updateUnitBuffPower(&units[i], 6);
+                                addUnitBuffPower(&units[i], 6);
                             break;
                         case PASSIVE_SKILL_C_ODD_ATK_WAVE_4:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
-                                updateUnitBuffPower(&units[i], 8);
+                                addUnitBuffPower(&units[i], 8);
                             break;
                         case PASSIVE_SKILL_C_ODD_SPD_WAVE_1:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
-                                updateUnitBuffSpeed(&units[i], 2);
+                                addUnitBuffSpeed(&units[i], 2);
                             break;
                         case PASSIVE_SKILL_C_ODD_SPD_WAVE_2:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
-                                updateUnitBuffSpeed(&units[i], 4);
+                                addUnitBuffSpeed(&units[i], 4);
                             break;
                         case PASSIVE_SKILL_C_ODD_SPD_WAVE_3:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
-                                updateUnitBuffSpeed(&units[i], 6);
+                                addUnitBuffSpeed(&units[i], 6);
                             break;
                         case PASSIVE_SKILL_C_ODD_SPD_WAVE_4:
                             if((gRAMChapterData.chapterTurnNumber % 2) && distance <= 1)
-                                updateUnitBuffSpeed(&units[i], 8);
+                                addUnitBuffSpeed(&units[i], 8);
                             break;
                         case PASSIVE_SKILL_C_SPD_TACTIC_1:
                             if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
-                                updateUnitBuffSpeed(&units[i], 2);
+                                addUnitBuffSpeed(&units[i], 2);
                             break;
                         case PASSIVE_SKILL_C_SPD_TACTIC_2:
                             if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
-                                updateUnitBuffSpeed(&units[i], 4);
+                                addUnitBuffSpeed(&units[i], 4);
                             break;
                         case PASSIVE_SKILL_C_SPD_TACTIC_3:
                             if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
-                                updateUnitBuffSpeed(&units[i], 6);
+                                addUnitBuffSpeed(&units[i], 6);
                             break;
                         case PASSIVE_SKILL_C_SPD_TACTIC_4:
                             if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
-                                updateUnitBuffSpeed(&units[i], 8);
+                                addUnitBuffSpeed(&units[i], 8);
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_RES_1:
                             if(distance == 1)
-                                updateUnitBuffResistance(&units[i], 2);
+                                addUnitBuffResistance(&units[i], 2);
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_RES_2:
                             if(distance == 1)
-                                updateUnitBuffResistance(&units[i], 3);
+                                addUnitBuffResistance(&units[i], 3);
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_RES_3:
                             if(distance == 1)
-                                updateUnitBuffResistance(&units[i], 4);
+                                addUnitBuffResistance(&units[i], 4);
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_RES_4:
                             if(distance == 1)
-                                updateUnitBuffResistance(&units[i], 7);
+                                addUnitBuffResistance(&units[i], 7);
+                            break;
+                        case PASSIVE_SKILL_C_DEF_RES_GAP_1:
+                            if(GetUnitBareDefResSum(&units[i]) == maxDefResSum)
+                            {
+                                addUnitBuffDefense(&units[i], 1);
+                                addUnitBuffResistance(&units[i], 1);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_DEF_RES_GAP_2:
+                            if(GetUnitBareDefResSum(&units[i]) == maxDefResSum)
+                            {
+                                addUnitBuffDefense(&units[i], 3);
+                                addUnitBuffResistance(&units[i], 3);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_DEF_RES_GAP_3:
+                            if(GetUnitBareDefResSum(&units[i]) == maxDefResSum)
+                            {
+                                addUnitBuffDefense(&units[i], 5);
+                                addUnitBuffResistance(&units[i], 5);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_DEF_RES_GAP_4:
+                            if(GetUnitBareDefResSum(&units[i]) == maxDefResSum)
+                            {
+                                addUnitBuffDefense(&units[i], 7);
+                                addUnitBuffResistance(&units[i], 7);
+                            }
                             break;
                         default:
                             break;

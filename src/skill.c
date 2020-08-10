@@ -5229,6 +5229,40 @@ void ComputePassiveSkillCEffectFromOppositeUnits(struct Unit *unit, u32 *args)
         default:
             break;
     }
+
+    switch (getUnitPassiveSkillA(unit))
+    {
+        case PASSIVE_SKILL_A_FLOWER_OF_EASE_1:
+            if(ABS(unit->positionX - attacker->unit.positionX) <= 1)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 1);
+                attacker->battleDefense = max(0, attacker->battleDefense - 1);
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_EASE_2:
+            if(ABS(unit->positionX - attacker->unit.positionX) <= 1)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 2);
+                attacker->battleDefense = max(0, attacker->battleDefense - 2);
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_EASE_3:
+            if(ABS(unit->positionX - attacker->unit.positionX) <= 1)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 3);
+                attacker->battleDefense = max(0, attacker->battleDefense - 3);
+            }
+            break;
+        case PASSIVE_SKILL_A_FLOWER_OF_EASE_4:
+            if(ABS(unit->positionX - attacker->unit.positionX) <= 1)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 4);
+                attacker->battleDefense = max(0, attacker->battleDefense - 4);
+            }
+            break;
+        default:
+            break;
+    }
 }
 
 int isAdjacentToSpecificUnitAndHasMagicRank(struct Unit *unit, struct Unit *specificUnit)
@@ -5615,6 +5649,7 @@ const u16 characterAssistSkills[0x100] = {
         [CHARACTER_PEONY_ID] = ASSIST_SKILL_GENTLE_DREAM,
         [CHARACTER_SCABIOSA_ID] = ASSIST_SKILL_FRIGHTFUL_DREAM,
         [CHARACTER_PLUMERIA_ID] = ASSIST_SKILL_SWEET_DREAMS,
+        [CHARACTER_MIRABILIS_ID] = ASSIST_SKILL_WHIMSICAL_DREAM,
 };
 
 const u16 jobAssistSkills[0x100] = {
@@ -6498,6 +6533,7 @@ int hasUnitAssistSkillDance(struct Unit *unit)
         case ASSIST_SKILL_GENTLE_DREAM:
         case ASSIST_SKILL_FRIGHTFUL_DREAM:
         case ASSIST_SKILL_SWEET_DREAMS:
+        case ASSIST_SKILL_WHIMSICAL_DREAM:
             return 1;
     }
 
@@ -6653,6 +6689,35 @@ void assistSkillSweetDreamsEffect(struct Proc* proc, struct SelectTarget* target
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
+// しろいゆめ
+int assistSkillWhimsicalDreamsCondition(struct Unit *targetUnit)
+{
+    return (targetUnit->state & UNIT_STATE_UNSELECTABLE) && !hasUnitAssistSkillDance(targetUnit);
+}
+
+void addAllyUnitBuffAttackBy5(struct Unit *unit)
+{
+    if(isAllyUnit(unit))
+        addUnitBuffPower(unit, 5);
+}
+
+void addFoeUnitDebuffAttackBy5(struct Unit *unit)
+{
+    if(isFoeUnit(unit))
+        addUnitDebuffPower(unit, -5);
+}
+
+void assistSkillWhimsicalDreamsEffect(struct Proc* proc, struct SelectTarget* target)
+{
+    struct Unit *targetUnit = GetUnit(target->uid);
+    giveUnitReaction(targetUnit);
+    m4aSongNumStart(SFX_REACTION);
+    ForEachUnitIn2Spaces(target->x, target->y, addAllyUnitBuffAttackBy5);
+    // I am too lazy to implement "nearest" unit, so I do "all" units here.
+    ForEachUnitIn4Spaces(target->x, target->y, addFoeUnitDebuffAttackBy5);
+    gActionData.unitActionType = UNIT_ACTION_WAIT;
+}
+
 // 運命を変える！: 対象を自分の反対側の位置に移動させ、その後、自分を行動可能にする、かつ自分とダブル相手の攻撃+6（1ターン）、自分とダブル相手に【補助不可】を付与（次回行動終了まで）（「その後」以降の効果は1ターンに1回のみ）【補助不可】自分は補助スキルを使用できず、仲間から補助スキルを受けることもできない異常状態（次回行動終了まで）（不利な状態異常を解除する「レスト」「一喝+」等の補助スキルを受けることもできない）
 int assistSkillToChangeFateCondition(struct Unit *targetUnit)
 {
@@ -6712,6 +6777,7 @@ const struct AssistSkill assistSkills[] = {
     {"運命を変える！", "対象を自分の反対側の位置に移動させ、その後、自分を行動可能\にする、かつ自分とダブル相手の攻撃＋６、自分とダブル相手に【補助不可】を付与", "To Change Fate!", "Moves target ally to opposite side of unit and grants another action to unit. Grants Atk+6 to unit and Pair Up cohort (if any) for 1 turn and inflicts【Isolation】on unit and Pair Up cohort (if any) through their next action.", assistSkillToChangeFateCondition, assistSkillToChangeFateEffect},
     {"こわいゆめ", "対象を行動可能\な状態にし、自分と対象の十\字方向にいる敵の攻撃、速さ、守備、魔防ー３、かつ【キャンセル】を付与", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of target through their next actions.", assistSkillFrightfulDreamCondition, assistSkillFrightfulDreamEffect},
     {"あまいゆめ", "対象を行動可能\な状態にし、対象の攻撃、速さ、守備、魔防＋３、かつ、対象の周囲４マス以内にいる敵の攻撃、速さ、守備、魔防ー４", "Sweet Dreams", "Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on foes within 4 spaces of target ally through foes' next actions.", assistSkillSweetDreamsCondition, assistSkillSweetDreamsEffect},
+    {"しろいゆめ", "対象を行動可能\な状態にし、対象と、その周囲２マスの味方（自分を除く）の攻撃＋５、かつ、対象の周囲４マス以内にいる敵の攻撃ー５", "Whimsical Dream", "Grants another action to target ally. Grants Atk+5 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn. Inflicts Atk-5 on nearest foes within 4 spaces of target ally and any foe within 2 spaces of those foes through their next actions.", assistSkillWhimsicalDreamsCondition, assistSkillWhimsicalDreamsEffect},
 };
 
 char *getAssistSkillNameTextInActionMenu()
@@ -6860,6 +6926,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"ほうじゅんの花２", "自分を中心としたたて５ｘよこ３マスにいる味方は、戦闘中、攻撃、魔防＋２", "Flower of Plenty 2", "Grants Atk/Res+2 to allies within 5 rows and 3 columns centered on unit during combat."},
     {"ほうじゅんの花３", "自分を中心としたたて５ｘよこ３マスにいる味方は、戦闘中、攻撃、魔防＋３", "Flower of Plenty 3", "Grants Atk/Res+3 to allies within 5 rows and 3 columns centered on unit during combat."},
     {"ほうじゅんの花４", "自分を中心としたたて５ｘよこ３マスにいる味方は、戦闘中、攻撃、魔防＋４", "Flower of Plenty 4", "Grants Atk/Res+4 to allies within 5 rows and 3 columns centered on unit during combat."},
+    {"びすいの花１", "自身を中心としたたて３列以内の敵は、戦闘中、攻撃、守備、魔防ー１", "Flower of Ease 1", "Inflicts Atk/Def/Res-1 on foes within 3 columns centered on unit during combat."},
+    {"びすいの花２", "自身を中心としたたて３列以内の敵は、戦闘中、攻撃、守備、魔防ー２", "Flower of Ease 2", "Inflicts Atk/Def/Res-2 on foes within 3 columns centered on unit during combat."},
+    {"びすいの花３", "自身を中心としたたて３列以内の敵は、戦闘中、攻撃、守備、魔防ー３", "Flower of Ease 3", "Inflicts Atk/Def/Res-3 on foes within 3 columns centered on unit during combat."},
+    {"びすいの花４", "自身を中心としたたて３列以内の敵は、戦闘中、攻撃、守備、魔防ー４", "Flower of Ease 4", "Inflicts Atk/Def/Res-4 on foes within 3 columns centered on unit during combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -6883,6 +6953,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_A_FLOWER_OF_JOY_1, PASSIVE_SKILL_A_FLOWER_OF_JOY_2, PASSIVE_SKILL_A_FLOWER_OF_JOY_3, PASSIVE_SKILL_A_FLOWER_OF_JOY_4},
     [CHARACTER_SCABIOSA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_SORROW_1, PASSIVE_SKILL_A_FLOWER_OF_SORROW_2, PASSIVE_SKILL_A_FLOWER_OF_SORROW_3, PASSIVE_SKILL_A_FLOWER_OF_SORROW_4},
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_PLENTY_1, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_2, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_3, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_4},
+    [CHARACTER_MIRABILIS_ID] = {PASSIVE_SKILL_A_FLOWER_OF_EASE_1, PASSIVE_SKILL_A_FLOWER_OF_EASE_2, PASSIVE_SKILL_A_FLOWER_OF_EASE_3, PASSIVE_SKILL_A_FLOWER_OF_EASE_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -6970,6 +7041,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"きょくぎ飛行２", "弓回避＋４０", "Aerobatics 2", "Bow avoid rate +40"},
     {"きょくぎ飛行３", "弓回避＋６０", "Aerobatics 3", "Bow avoid rate +60"},
     {"きょくぎ飛行４", "弓回避＋８０", "Aerobatics 4", "Bow avoid rate +80"},
+    {"守備の混乱１", "ターン開始時、敵同士が隣接していて、かつ、魔防が自分より３以上低い敵の守備ー３", "Sabotage Def 1", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Def-3 on that foe through its next action."},
+    {"守備の混乱２", "ターン開始時、敵同士が隣接していて、かつ、魔防が自分より３以上低い敵の守備ー５", "Sabotage Def 2", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Def-5 on that foe through its next action."},
+    {"守備の混乱３", "ターン開始時、敵同士が隣接していて、かつ、魔防が自分より３以上低い敵の守備ー７", "Sabotage Def 3", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Def-7 on that foe through its next action."},
+    {"守備の混乱４", "ターン開始時、敵同士が隣接していて、かつ、魔防が自分より１以上低い敵の守備ー７", "Sabotage Def 4", "At start of turn, if any foe's Res <= unit's Res-1 and that foe is adjacent to another foe, inflicts Def-7 on that foe through its next action."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -6990,6 +7065,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_B_MYSTIC_BOOST_1, PASSIVE_SKILL_B_MYSTIC_BOOST_2, PASSIVE_SKILL_B_MYSTIC_BOOST_3, PASSIVE_SKILL_B_MYSTIC_BOOST_4},
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_B_GUARD_BEARING_1, PASSIVE_SKILL_B_GUARD_BEARING_2, PASSIVE_SKILL_B_GUARD_BEARING_3, PASSIVE_SKILL_B_GUARD_BEARING_4},
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_B_AEROBATICS_1, PASSIVE_SKILL_B_AEROBATICS_2, PASSIVE_SKILL_B_AEROBATICS_3, PASSIVE_SKILL_B_AEROBATICS_4},
+    [CHARACTER_MIRABILIS_ID]= {PASSIVE_SKILL_B_SABOTAGE_DEF_1, PASSIVE_SKILL_B_SABOTAGE_DEF_2, PASSIVE_SKILL_B_SABOTAGE_DEF_3, PASSIVE_SKILL_B_SABOTAGE_DEF_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -7091,6 +7167,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"魔防のこぶ２", "ターン開始時、周囲１マスの味方の魔防＋３（１ターン）", "Fortify Res 2", "At start of turn, grants Res+3 to adjacent allies for 1 turn."},
     {"魔防のこぶ３", "ターン開始時、周囲１マスの味方の魔防＋４（１ターン）", "Fortify Res 3", "At start of turn, grants Res+4 to adjacent allies for 1 turn."},
     {"魔防のこぶ４", "ターン開始時、周囲１マスの味方の魔防＋７（１ターン）", "Fortify Res 4", "At start of turn, grants Res+7 to adjacent allies for 1 turn."},
+    {"守備魔防大開放１", "ターン開始時、最も守備＋魔防の合計値が高い味方の守備、魔防＋１（１ターン）", "Def/Res Gap 1", "At start of turn, grants Def/Res+1 to ally with the highest Def+Res total for 1 turn."},
+    {"守備魔防大開放２", "ターン開始時、最も守備＋魔防の合計値が高い味方の守備、魔防＋３（１ターン）", "Def/Res Gap 2", "At start of turn, grants Def/Res+3 to ally with the highest Def+Res total for 1 turn."},
+    {"守備魔防大開放３", "ターン開始時、最も守備＋魔防の合計値が高い味方の守備、魔防＋５（１ターン）", "Def/Res Gap 3", "At start of turn, grants Def/Res+5 to ally with the highest Def+Res total for 1 turn."},
+    {"守備魔防大開放４", "ターン開始時、最も守備＋魔防の合計値が高い味方の守備、魔防＋７（１ターン）", "Def/Res Gap 4", "At start of turn, grants Def/Res+7 to ally with the highest Def+Res total for 1 turn."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -7113,6 +7193,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_EIR_ID] = {PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST, PASSIVE_SKILL_C_SPARKLING_BOOST},
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH},
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_C_FORTIFY_RES_1, PASSIVE_SKILL_C_FORTIFY_RES_2, PASSIVE_SKILL_C_FORTIFY_RES_3, PASSIVE_SKILL_C_FORTIFY_RES_4},
+    [CHARACTER_MIRABILIS_ID] = {PASSIVE_SKILL_C_DEF_RES_GAP_1, PASSIVE_SKILL_C_DEF_RES_GAP_2, PASSIVE_SKILL_C_DEF_RES_GAP_3, PASSIVE_SKILL_C_DEF_RES_GAP_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
