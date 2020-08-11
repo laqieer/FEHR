@@ -1,0 +1,278 @@
+{ "columns":15,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"Fire Emblem (GBA) Tileset Terrain Binary",
+         "target":"..\/..\/..\/tool\/map\/tmp\/S4074.terrain.bin"
+        }
+    },
+ "image":"S4074.png",
+ "imageheight":320,
+ "imagewidth":240,
+ "margin":0,
+ "name":"S4074",
+ "spacing":0,
+ "terrains":[
+        {
+         "name":"\u5e73\u5730",
+         "properties":[
+                {
+                 "name":"default",
+                 "type":"bool",
+                 "value":true
+                }],
+         "tile":-1
+        }, 
+        {
+         "name":"\u68ee\u6797",
+         "tile":-1
+        }, 
+        {
+         "name":"\u5899\u58c1",
+         "tile":198
+        }, 
+        {
+         "name":"\u7834\u5899",
+         "tile":168
+        }],
+ "tilecount":300,
+ "tiledversion":"1.4.2",
+ "tileheight":16,
+ "tiles":[
+        {
+         "id":31,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":32,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":33,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":34,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":45,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":46,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":47,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":48,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":49,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":58,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":59,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":60,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":61,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":62,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":63,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":64,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":73,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":74,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":75,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":76,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":90,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":91,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":130,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":131,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":145,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":146,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":153,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":154,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":159,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":160,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":161,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":162,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":168,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":169,
+         "terrain":[3, 3, 3, 3]
+        }, 
+        {
+         "id":174,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":175,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":176,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":177,
+         "terrain":[1, 1, 1, 1]
+        }, 
+        {
+         "id":183,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":184,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":198,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":199,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":213,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":214,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":228,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":229,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":230,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":231,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":232,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":233,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":234,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":243,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":244,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":245,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":246,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":247,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":248,
+         "terrain":[2, 2, 2, 2]
+        }, 
+        {
+         "id":249,
+         "terrain":[2, 2, 2, 2]
+        }],
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.4
+}
