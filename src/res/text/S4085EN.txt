@@ -1,0 +1,57 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｔｈｉｓ　ｗａｙ！　Ｋｉｎｇ　Ｆｒｅｙｒ　ｉｓ　ｃｌｏｓｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｔｈａｔ　ｉｓ　ｗｈｙ　ｙｏｕ　ｃａｎｎｏｔ　ｂｅ　ａｌｌー"TCC_NEWLINE"ｏｗｅｄ　ｔｏ　ｐａｓｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｅｔｕｒｎ　Ｋｉｎｇ　Ｆｒｅｙｒ，　ｄｋｋｌｆｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄｎ’ｔ　ｂｅ　ｔｏｒｔｕｒｉｎｇ　ｐｅー"TCC_NEWLINE"ｏｐｌｅ　ｗｉｔｈ　ｂａｄ　ｄｒｅａｍｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ａｒｅ　ｄｋｋｌｆａｒ．．．　Ｗｅ　ＥＸＩＳＴ　ｉｎ"TCC_NEWLINE"　ｂａｄ　ｄｒｅａｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｈ－ｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｈｅ’ｓ　ｇｏｎｅ．．．　Ｉｓ　ｉｔ　ｏｖｅｒ？　Ｄｉｄ"TCC_NEWLINE"　ｗｅ．．．ｄｅｆｅａｔ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｗｅｌｌ，　ｎｏ　ｔｉｍｅ　ｔｏ　ｔｈｉｎｋ　ａｂｏー"TCC_NEWLINE"ｕｔ　ｔｈａｔ　ｎｏｗ．　Ｗｅ　ｈａｖｅ　ｔｏ　ｇｅｔ　ｔー"TCC_NEWLINE"ｏ　Ｋｉｎｇ　Ｆｒｅｙｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4085_EN] = TCC_OPEN_LEFT
+"Ｍｏｔｈｅｒ？　．．．Ｍｏｔｈｅｒ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｓｏ　ｄａｒｋ　ｈｅｒｅ．．．　Ｐｌｅａｓｅ，　"TCC_NEWLINE"ｈｅｌｐ　ｍｅ．．．　Ｉ　ｎｅｅｄ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｔｈｅｒ．．．　ＭＯＴＨＥＲＲＲＲＲＲ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｔｈａｔ．．．ｖｏｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｈｅｌｌｏ，　Ｐｌｕｍｅｒｉａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌａｄｙ　Ｆｒｅｙｊａ．　Ｍｙ　ａｐｏｌｏｇｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｏｒｒｙ　ｎｏｔ，　ｍｙ　ｄｅａｒ　ｌｉｔｔｌｅ　ｌｆｒ"TCC_NEWLINE"．　Ｉ　ｗｉｌｌ　ｇｒａｎｔ　ｙｏｕ　ｓｔｒｅｎｇｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｔｈｅｒｅ．　Ａｌｌ　ｂｅｔｔｅｒ　ｎｏｗ．　Ｙｏｕー"TCC_NEWLINE"ｒ　ｗｉｎｇｓ　ａｒｅ　ｉｎ　ｗｏｒｋｉｎｇ　ｏｒｄｅｒ　"TCC_NEWLINE"ａｇａｉｎ，　ｙｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｔｈａｎｋ　ｙｏｕ，　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｗｒｏｎｇ，　Ｐｌｕｍｅｒｉａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈｅａｒｄ　ａ　ｖｏｉｃｅ．．．ｊｕｓｔ　ｂｅｆｏｒｅ"TCC_NEWLINE"　ｙｏｕ　ａｒｒｉｖｅｄ．　Ａ　ｇｉｒｌ’ｓ　ｖｏｉｃｅ．"TCC_NEWLINE"．．ｃｒｙｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｓ　ｔｈａｔ　ｖｏｉｃｅ．．．ｍｉｎｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈｏｗ　ｃｏｕｌｄ　ｉｔ　ｂｅ　ｙｏｕｒｓ，　Ｐｌｕｍｅｒー"TCC_NEWLINE"ｉａ？　Ｙｏｕ　ａｒｅ　ａｎ　ｌｆｒ！　Ｓｏ，　ｔｈｅｒｅ"TCC_NEWLINE"　ｗｏｕｌｄ　ｂｅ　ｎｏｔｈｉｎｇ　ｔｏ　ｃｒｙ　ａｂｏｕー"TCC_NEWLINE"ｔ．．．ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ．．．　Ｂｅｆｏｒｅ　ｙｏｕ　ｇａｖｅ　ｍｅ　ｌｉｆｅ　"TCC_NEWLINE"ａｓ　ａｎ　ｌｆｒ．．．ｗａｓ　Ｉ　ａ　ｍｏｒｔａｌ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．Ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｔｉｎｙ　ｔｈｉｎｇ．．．　Ａ　ｇｉｒｌ　ｎｏ　ｏｎｅ"TCC_NEWLINE"　ｌｏｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｆａｔｈｅｒ　ｃｅｒｔａｉｎｌｙ　ｈａｄ　ｎｏ　"TCC_NEWLINE"ｌｏｖｅ　ｆｏｒ　ｙｏｕ，　ｏｒ　ｙｏｕｒ　ｍｏｔｈｅｒ．"TCC_NEWLINE"　Ｗｈｉｃｈ　ｉｓ　ｗｈｙ　ｈｅ　ａｂａｎｄｏｎｅｄ　ｙｏー"TCC_NEWLINE"ｕ　ｂｏｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ，　ｙｏｕｒ　ｍｏｔｈｅｒ　ｗａｓ　ｎｏー"TCC_NEWLINE"ｔ　ａｎｙ　ｂｅｔｔｅｒｑｕｉｔｅ　ａ　ｂｉｔ　ｗｏｒｓｅ"TCC_NEWLINE"，　ａｃｔｕａｌｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｎｃｅ　ｙｏｕ　ｇｏｔ　ｉｎ　ｔｈｅ　ｗａｙ　ｏｆ　ｈー"TCC_NEWLINE"ｅｒ　ｂｅｉｎｇ　ｗｉｔｈ　ａ　ｍａｎ，　ｓｈｅ　ｌｅｆｔ"TCC_NEWLINE"　ｙｏｕ　ｔｏｏ．　Ａｔ　ｔｈｅ　ｂｏｔｔｏｍ　ｏｆ　ａ　"TCC_NEWLINE"ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｎ　ｔｈｅ　ｃｏｌｄ，　ｄａｍｐ　ｄａｒｋ，　ｙー"TCC_NEWLINE"ｏｕ　ｃｒｉｅｄ　ｏｕｔ，　ａｎｄ　ｂｅｇｇｅｄ　ｆｏｒ　"TCC_NEWLINE"ｙｏｕｒ　ｍｏｔｈｅｒ　ｔｏ　ｈｅｌｐ　ｙｏｕ．．．ｔｏ　"TCC_NEWLINE"ｓａｖｅ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｂｕｔ　ｗｈｅｎ　ｙｏｕ　ｄｒａｎｋ　ｏｆ　ｔｈｅ　ｄｒｅー"TCC_NEWLINE"ａｍ　ｎｅｃｔａｒ，　ｙｏｕ　ｂｅｃａｍｅ　ａｎ　ｌｆｒ．"TCC_NEWLINE"　Ｎｏｗ，　ｙｏｕ　ａｒｅ　ｓｐｅｃｉａｌｂｅｔｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｌｅａｖｅ　ｙｏｕｒ　ｐａｓｔ　ｂｅｈｉｎー"TCC_NEWLINE"ｄ　ｙｏｕ．　Ｆｏｒｇｅｔ　ｔｈｅ　ｐａｉｎ　ｏｆ　ｍｏｒー"TCC_NEWLINE"ｔａｌ　ｌｉｆｅ．　Ｉｔ　ｉｓ　ａｌｌ　ｒｉｇｈｔ　ｔｏ　"TCC_NEWLINE"ｌｅｔ　ｉｔ　ｊｕｓｔ　ｄｉｓａｐｐｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ａｎ　ｌｆｒ．．．ａｎｄ　ｙｏｕ　ａｒｅ　"TCC_NEWLINE"ｌｏｖｅｄ　ｂｙ　Ｆｒｅｙｊａ　ｈｅｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

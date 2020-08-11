@@ -1,0 +1,94 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4083] = TCC_OPEN_LEFT 
+"兄上。。。なぜ帝国に従うのだ。" TCC_NEWLINE
+"私にはあなたの心がわからない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4083] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"この花の匂い。。。" TCC_NEWLINE
+"さっきの変な匂いとは違います。" TCC_NEWLINE
+"すごく良い匂い。。。" TCC_NEWLINE TCC_PUSH_A
+"あのお花畑にも。。。" TCC_NEWLINE
+"このお花の匂いがありました。" TCC_NEWLINE
+"わたし、覚えてます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"シャロンが小さな頃に" TCC_NEWLINE
+"夢で見たという場所のことかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。" TCC_NEWLINE
+"あの時もすごく良い匂いで。。。" TCC_NEWLINE
+"みんなでお花の匂いを嗅いだりして。。。" TCC_NEWLINE TCC_PUSH_A
+"あ。。。それから。。。" TCC_NEWLINE
+"女の子たちの中に一人、" TCC_NEWLINE
+"わたしとそっくりの子がいたんです。" TCC_NEWLINE TCC_PUSH_A
+"わたしと" TCC_NEWLINE
+"一番仲良しだった子、" TCC_NEWLINE
+"わたしの親友。。。" TCC_NEWLINE TCC_PUSH_A
+"わたしとその子は、" TCC_NEWLINE
+"よく『とりかえっこ遊び』を" TCC_NEWLINE
+"してたんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"とりかえっこ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"二人ともそっくりでしたから。" TCC_NEWLINE
+"はじめはちょっとした思いつきで、" TCC_NEWLINE
+"あなたが今からシャロンね、って感じで。" TCC_NEWLINE TCC_PUSH_A
+"そのうち、" TCC_NEWLINE
+"髪型も入れ替えたり、" TCC_NEWLINE
+"身につけていた髪飾りや、服も。。。" TCC_NEWLINE TCC_PUSH_A
+"ほんとう、そっくりだったんですよ。" TCC_NEWLINE
+"まるで、ほんとに" TCC_NEWLINE
+"入れ替わっちゃったみたいに。" TCC_NEWLINE TCC_PUSH_A
+"その子の名前は。。。" TCC_NEWLINE
+"ああ。。。忘れちゃいました。" TCC_NEWLINE TCC_PUSH_A
+"それで、とりかえたまま、" TCC_NEWLINE
+"女の子はお城に戻って、" TCC_NEWLINE
+"私はその女の子のおうちに戻ろうって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そ、そんなことを本当に。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。そんな話をしてて。。。" TCC_NEWLINE
+"それで、目が覚めたんです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"そういう夢を見たってこと？" TCC_NEWLINE
+"びっくりしたわ。" TCC_NEWLINE
+"まるで、チェンジリングね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"チェンジリング。。。" TCC_NEWLINE
+"ってなんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"いにしえの妖精の伝承にね、" TCC_NEWLINE
+"そういう言葉があるのよ。" TCC_NEWLINE
+"取り換え子、ともいうわね。" TCC_NEWLINE TCC_PUSH_A
+"妖精がこっそりと、" TCC_NEWLINE
+"人間の子供と妖精の子供を" TCC_NEWLINE
+"取り換えてしまうのね。" TCC_NEWLINE TCC_PUSH_A
+"取り換えられた妖精の子は、" TCC_NEWLINE
+"そのまま人間の子供として育てられる。。。" TCC_NEWLINE
+"そんな昔話よ。" TCC_NEWLINE TCC_PUSH_A
+"ま、あなたたちの場合は、" TCC_NEWLINE
+"そういう夢を見たって話だけど。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。チェンジリング。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"シャロン、大丈夫かい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、はい。ごめんなさい。。。" TCC_NEWLINE TCC_PUSH_A
+"なんだか。。。" TCC_NEWLINE
+"頭の中がふわふわして。。。" TCC_NEWLINE
+"とても不思議な気持ちです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

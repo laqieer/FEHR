@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4082_EN] = TCC_OPEN_LEFT
+"Ｅｖｅｎ　ａ　ｓｍａｌｌ　ａｃｔ　ｏｆ　ｃｏｍｐａｓｓｉｏー"TCC_NEWLINE"ｎ　ｃａｎ　ｈａｖｅ　ａ　ｔｒｅｍｅｎｄｏｕｓ　ｉｍｐａｃー"TCC_NEWLINE"ｔ　ｕｐｏｎ　ｔｈｅ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

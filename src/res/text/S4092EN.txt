@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4092_EN] = TCC_OPEN_LEFT
+"Ｙｏｕ　ｃａｎ　ｔｈａｎｋ　Ｌｅｎａ　ｆｏｒ　ｋｎｏｃｋｉー"TCC_NEWLINE"ｎｇ　ｓｏｍｅ　ｓｅｎｓｅ　ｉｎｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

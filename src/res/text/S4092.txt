@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4092] = TCC_OPEN_LEFT 
+"ごろつきだったオレは、" TCC_NEWLINE
+"レナさんのおかげで変われたんだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

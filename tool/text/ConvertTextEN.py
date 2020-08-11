@@ -44,7 +44,7 @@ FaceDefines = {
     "ID_ヴェロニカ":"PORTRAIT_VERONICA",
 }
 
-TextIDStart = 6020
+TextIDStart = 6476
 
 alphabets = "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ"
 

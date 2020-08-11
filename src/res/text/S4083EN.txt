@@ -1,0 +1,44 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4083_EN] = TCC_OPEN_LEFT
+"Ｉ　ｄｏ　ｎｏｔ　ｕｎｄｅｒｓｔａｎｄ　ｙｏｕｒ　ｔｈｉｎー"TCC_NEWLINE"ｋｉｎｇ，　Ｂｒｏｔｈｅｒ．　Ｆｉｅ，　ｗｈｙ　ｍｕｓｔ　"TCC_NEWLINE"ｙｏｕ　ｄｏ　ｔｈｅ　ｂｉｄｄｉｎｇ　ｏｆ　ｔｈｅ　ｅｍｐー"TCC_NEWLINE"ｉｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4083_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅ　ｓｃｅｎｔ　ｏｆ　ｔｈｉｓ　ｆｌｏｗｅｒ　ｈｅｒｅ"TCC_NEWLINE"．．．　Ｉｔ’ｓ　ｎｏｔ　ｌｉｋｅ　ｔｈａｔ　ｎｅｃｔａｒ"TCC_NEWLINE"　ｓｍｅｌｌ　ｆｒｏｍ　ｂｅｆｏｒｅ，　ｂｕｔ　ｓｏｍｅｔー"TCC_NEWLINE"ｈｉｎｇ　ａｂｏｕｔ　ｉｔ　ｉｓ　ｓｏ　ｌｏｖｅｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｒｅｍｉｎｄｓ　ｍｅ　ｏｆ．．．　Ｏｈ！　Ｔｈｅ　ｆー"TCC_NEWLINE"ｉｅｌｄ　ｏｆ　ｆｌｏｗｅｒｓ　ｆｒｏｍ　ｍｙ　ｄｒｅａｍー"TCC_NEWLINE"ｓ　ｓｍｅｌｌｅｄ　ｊｕｓｔ　ｌｉｋｅ　ｔｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｄｒｅａｍｓ　ｙｏｕ　ｈａｄ　ｗｈｅｎ　ｙｏｕ　ｗー"TCC_NEWLINE"ｅｒｅ　ｙｏｕｎｇ，　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．．．　Ｉ　ｒｅｍｅｍｂｅｒ　ｉｔ　ｓｍｅｌｌｉｎｇ"TCC_NEWLINE"　ｓｏ　ｇｏｏｄ．　Ｔｈｅ　ｏｔｈｅｒ　ｇｉｒｌｓ　ａｎｄ"TCC_NEWLINE"　Ｉ　ｊｕｓｔ　ｋｅｐｔ　ｓｎｉｆｆｉｎｇ　ａｌｌ　ｔｈｅ"TCC_NEWLINE"　ｆｌｏｗｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ａｎｄ．．．ｏｎｅ　ｏｆ　ｔｈｅ　ｏｔｈｅｒ　ｇｉー"TCC_NEWLINE"ｒｌｓ　ｌｏｏｋｅｄ　ｊｕｓｔ　ｌｉｋｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ａｎｄ　Ｉ　ｗｅｒｅ　ｌｉｋｅ　ｂｅｓｔ　ｆｒｉｅー"TCC_NEWLINE"ｎｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｐｌａｙｅｄ　ｄｒｅｓｓ－ｕｐ，　ａｎｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｒｅｓｓ－ｕｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｍ－ｈｍｍ．　Ｓｉｎｃｅ　ｗｅ　ｌｏｏｋｅｄ　ａｌｉｋｅ"TCC_NEWLINE"，　ｆｒｏｍ　ｔｈｅ　ｆｉｒｓｔ　ｔｉｍｅ　ｗｅ　ｍｅｔ，"TCC_NEWLINE"　ｗｅ　ｌｉｋｅｄ　ｔｏ　ｐｌａｙ　ｌｉｋｅ　ｗｅ　ｗｅｒー"TCC_NEWLINE"ｅ　ｅａｃｈ　ｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｏｕｌｄ　ｓｗａｐ　ｈａｉｒｓｔｙｌｅｓ，　ｃｌｏー"TCC_NEWLINE"ｔｈｉｎｇ，　ａｎｄ　ｊｅｗｅｌｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ｉｎｃｒｅｄｉｂｌｅ　ｈｏｗ　ａｌｉｋｅ　ｗー"TCC_NEWLINE"ｅ　ｌｏｏｋｅｄ．　Ａｓ　ｉｆ　ｗｅ　ｗｅｒｅ　ｃｏｐｉｅー"TCC_NEWLINE"ｓ　ｏｆ　ｏｎｅ　ａｎｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｄｄｌｙ　ｅｎｏｕｇｈ，　Ｉ．．．ｄｏｎ’ｔ　ｒｅｍｅｍー"TCC_NEWLINE"ｂｅｒ　ｈｅｒ　ｎａｍｅ，　ｔｈｏｕｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｓｏｍｅｔｉｍｅｓ，　ｗｅａｒｉｎｇ　ｅａｃｈ　ｏー"TCC_NEWLINE"ｔｈｅｒ’ｓ　ｔｈｉｎｇｓ，　ｗｅ’ｄ　ｔｒａｄｅ　ｈｏｍー"TCC_NEWLINE"ｅｓ　ｔｏｏ．．．　Ａｎｄ　ｓｈｅ’ｄ　ｃｏｍｅ　ｖｉｓｉー"TCC_NEWLINE"ｔ　ｔｈｅ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙ－ｙｏｕ　ｄｉｄ　ｗｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ａｎｄ　ｔｈｅｎ　ｗｅ’ｄ　ｍｅｅｔ　ａｇａｉｎ，　"TCC_NEWLINE"ａｎｄ　Ｉ　ｗｏｕｌｄ　ｗａｋｅ　ｕｐ　ｂａｃｋ　ｉｎ　Ａー"TCC_NEWLINE"ｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｈ．　Ｓｏ，　ｙｏｕ’ｒｅ　ｓａｙｉｎｇ　ｉｔ　ｗａｓ　"TCC_NEWLINE"ａｌｌ　ａ　ｄｒｅａｍ，　ｔｈｅｎ？　Ｔｈａｔ’ｓ　ａ　ｒー"TCC_NEWLINE"ｅｌｉｅｆ．　Ｓｏｕｎｄｓ　ｊｕｓｔ　ｌｉｋｅ　ａ　ｃｈａー"TCC_NEWLINE"ｎｇｅｌｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｖｅ　ｎｅｖｅｒ　ｈｅａｒｄ　ｏｆ　ｃｈａｎｇｅｌｉｎー"TCC_NEWLINE"ｇｓ．．．　Ｗｈａｔ　ａｒｅ　ｔｈｅｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅｒｅ　ａｒｅ　ｏｌｄ，　ｏｌｄ　ｓｔｏｒｉｅｓ　ａｂー"TCC_NEWLINE"ｏｕｔ　ａ　ｃｅｒｔａｉｎ　ｋｉｎｄ　ｏｆ　ｌｆｒ　ｔｈａー"TCC_NEWLINE"ｔ　ｗｏｕｌｄ　ｔａｋｅ　ｃｈｉｌｄｒｅｎ　ａｎｄ　ａｓｓー"TCC_NEWLINE"ｕｍｅ　ｔｈｅｉｒ　ｉｄｅｎｔｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｕｂｓｔｉｔｕｔｅ　ｌｆｒ　ｗｏｕｌｄ，　ｉｔ’"TCC_NEWLINE"ｓ　ｓａｉｄ，　ｔａｋｅ　ａ　ｃｈｉｌｄ’ｓ　ｐｌａｃｅ　"TCC_NEWLINE"ｓｏ　ｃｏｍｐｌｅｔｅｌｙ，　ｎｏ　ｏｎｅ　ｗｏｕｌｄ　ｅー"TCC_NEWLINE"ｖｅｒ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｈａｎｇｅｌｉｎｇ　ｗｏｕｌｄ　ｔｈｅｎ　ｂｅ　"TCC_NEWLINE"ｒａｉｓｅｄ　ｉｎ　ｔｈｅ　ｐｌａｃｅ　ｏｆ　ｔｈｅ　ｃｈー"TCC_NEWLINE"ｉｌｄ．．．ａｎｄ　ｓｏ　ｏｎ．　Ａｎｙｗａｙ，　ｉｔ’ｓ"TCC_NEWLINE"　ｊｕｓｔ　ａｎ　ｏｌｄ　ｓｔｏｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗａｙ　ｙｏｕ　ｄｅｓｃｒｉｂｅｄ　ｙｏｕｒ　ｄｒー"TCC_NEWLINE"ｅａｍ　ｒｅｍｉｎｄｅｄ　ｍｅ　ｏｆ　ｉｔ．　Ｔｈａｔ’ｓ"TCC_NEWLINE"　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｃｈａｎｇｅｌｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｈａｒｅｎａ？　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍ？　Ｏｈ，　ｙｅｓ．　Ｓｏｒｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｅａｄ　ｊｕｓｔ　ｆｅｅｌｓ　ａ　ｌｉｔｔｌｅ　ｆー"TCC_NEWLINE"ｕｚｚｙ．．．　Ｈｏｗ　ｓｔｒａｎｇｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,87 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4094] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
+"あっ、この先よ。" TCC_NEWLINE
+"この先にもうすぐ" TCC_NEWLINE
+"フロージ様が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"ええ、いるわ。" TCC_NEWLINE
+"でもあなたたちが" TCC_NEWLINE
+"たどり着くことはない。。。" TCC_NEWLINE TCC_PUSH_A
+"この悪夢の中で" TCC_NEWLINE
+"朽ち果てるの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4094] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"まだ。。。" TCC_NEWLINE
+"消えるわけにはいかない。。。" TCC_NEWLINE TCC_PUSH_A
+"私は。。。" TCC_NEWLINE
+"私が。。。守らないと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4094] = TCC_OPEN_LEFT 
+"もうやめて。。。" TCC_NEWLINE
+"おねえちゃんをいじめないで。。。" TCC_NEWLINE
+"おねえちゃん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だいじょうぶ。。。" TCC_NEWLINE
+"あたしが。。。まもってあげる。。。" TCC_NEWLINE
+"あたしが。。。ぜったい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"私が。。。絶対。。。" TCC_NEWLINE
+"あの子だけは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"気がついた？" TCC_NEWLINE
+"スカビオサ。" TCC_NEWLINE TCC_PUSH_A
+"私と共にいらっしゃい。" TCC_NEWLINE
+"彼らを追いましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい、フレイヤ様。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"どうしたの。。。？" TCC_NEWLINE
+"かわいそうに。。。人間だった頃の" TCC_NEWLINE
+"記憶を思い出したのね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あなたとあなたの妹は" TCC_NEWLINE
+"不幸せな家に生まれた" TCC_NEWLINE
+"女の子。。。" TCC_NEWLINE TCC_PUSH_A
+"血の繋がらない父親は毎日のように、" TCC_NEWLINE
+"あなたたちの顔を殴りつけ。。。そのせいで、" TCC_NEWLINE
+"妹の目はほとんど見えなくなった。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたたち姉妹は" TCC_NEWLINE
+"ろくに食事も与えられず、家にも入れず、" TCC_NEWLINE
+"冬の夜も裸同然で震えて眠った。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"痩せ衰えた妹は、殴り殺されていた。。。" TCC_NEWLINE
+"あの日、あなたが父親を殺さなければ。" TCC_NEWLINE TCC_PUSH_A
+"あなたは愛する妹のために" TCC_NEWLINE
+"できる精一杯のことをしたの。。。" TCC_NEWLINE
+"だから、何も気にすることはないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE
+"はい。。。フレイヤ様。。。" TCC_NEWLINE
+"。。。大丈夫です。" TCC_NEWLINE TCC_PUSH_A
+"私は。。。" TCC_NEWLINE
+"フレイヤ様のおかげで。。。" TCC_NEWLINE
+"とくべつな自分になれたのです。。。" TCC_NEWLINE TCC_PUSH_A
+"今の私はスカビオサ。。。" TCC_NEWLINE
+"スヴァルトアルフの黒妖精。。。" TCC_NEWLINE
+"ですから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

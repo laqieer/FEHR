@@ -1,0 +1,29 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"．．．Ｓｏｍｅｔｈｉｎｇ　ｉｓ　ｄｉｆｆｅｒｅｎｔ　ａｂｏー"TCC_NEWLINE"ｕｔ　ｔｈｅ　ａｉｒ　ｈｅｒｅ．　Ｉ　ｄｏｎ’ｔ　ｓｍｅｌー"TCC_NEWLINE"ｌ　ａｎｙｔｈｉｎｇ　ｓｗｅｅｔ　ｅｉｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅｌｌ，　ｔｈａｔ　ｉｓ　ｓｏｍｅ　ｒｅｌｉｅｆ．　Ｔｈー"TCC_NEWLINE"ｏｕｇｈ　ｏｎ　ｔｏｐ　ｏｆ　ｎｏｔ　ｓｍｅｌｌｉｎｇ　ａー"TCC_NEWLINE"ｎｙｔｈｉｎｇ，　Ｉ　ｃａｎ’ｔ　ｅｖｅｎ　ｆｅｅｌ　ｔｈー"TCC_NEWLINE"ｅ　ａｉｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｗｉｎｄ．　Ｎｏｔ　ｅｖｅｎ　ａ　ｂー"TCC_NEWLINE"ｒｅｅｚｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｉｔ’ｓ　ｓｃａｒｙ　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔｈｉｎｇ　ｌｉｋｅ　Ｌｊｓｌｆｈｅｉｍｒ’ｓ　ｂｒｉー"TCC_NEWLINE"ｇｈｔ，　ｈｏｐｅｆｕｌ　ｄｒｅａｍｓ．．．　Ｉｔ’ｓ　ｌー"TCC_NEWLINE"ｉｋｅ　ａｎ　ｅｍｐｔｙ　ｓｈｅｌｌ　ｏｆ　ａ　ｄｒｅａｍ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｓｈｏｕｌｄ　ｈｕｒｒｙ．　Ｗｅ　ｄｏｎ’ｔ　ｗａｎー"TCC_NEWLINE"ｔ　ｔｏ　ｂｅ　ｈｅｒｅ　ｌｏｎｇｅｒ　ｔｈａｎ　ｎｅｃｅー"TCC_NEWLINE"ｓｓａｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"Ｉ　ａｍ　ｔｈｅ　Ｎｉｇｈｔｍａｒｅ，　Ｔｒｉａｎｄｒａ．"TCC_NEWLINE"　Ｉ　ｄｒｅａｍ　ｏｆ　ａ　ｗｏｒｌｄ　ｏｆ　ｓａｄｎｅｓー"TCC_NEWLINE"ｓ　ａｎｄ　ｈｕｒｔ．　Ｉｆ　ｏｎｅ　ｄｒｅａｍ　ｉｓ　ｔー"TCC_NEWLINE"ｏ　ｃｏｍｅ　ｔｒｕｅ，　ｉｔ　ｗｉｌｌ　ｂｅ　ｍｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"Ａｓ　ｌｏｎｇ　ａｓ　Ｉ　ｈａｖｅ　ｔｈｅ　ｎｅｃｔａｒ　"TCC_NEWLINE"Ｌａｄｙ　Ｆｒｅｙｊａ　ｇａｖｅ　ｍｅ，　Ｉ　ｗｉｌｌ　ｎー"TCC_NEWLINE"ｏｔ　ｓｔｏｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4091_EN] = TCC_OPEN_LEFT
+"Ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｃａｒｅｄ．．．　Ｐｌｅａｓｅ．．．　Ｈｅｌｐ　"TCC_NEWLINE"ｍｅ，　Ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｅｖｅｒｙｔｈｉｎｇ　ｉｓ　ａｌー"TCC_NEWLINE"ｌ　ｒｉｇｈｔ．　Ｙｏｕｒ　ｓｉｓｔｅｒ　ｗｉｌｌ　ｐｒｏー"TCC_NEWLINE"ｔｅｃｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｈａｐｐｅｎｓ．．．　Ｉ　ｐー"TCC_NEWLINE"ｒｏｍｉｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｖｏｉｃｅｓ？　．．．Ｔｗｏ　ｌｉｔｔｌｅ　ｇｉｒｌｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｓｏｕｎｄｅｄ　ｓｏ　ｆａｍｉｌｉａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

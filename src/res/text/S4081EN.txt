@@ -1,0 +1,55 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｓ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｄｋｋｌｆｈｅｉｍｒ．．．ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｒｅー"TCC_NEWLINE"ａｌｍ．．．　Ｔｈｉｓ　ｉｓ　ａ　ｂａｄ　ｐｌａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｌａｎｄ　ｏｆ　ｎｉｇｈｔｍａｒｅｓ，　ｈｍ？　Ｂー"TCC_NEWLINE"ｕｔ．．．ｔｈｉｓ　ｓｍｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"＊ｓｎｉｆｆ　ｓｎｉｆｆ＊　Ｏｈ！　Ｔｈａｔ　ＩＳ　ａ　ｖー"TCC_NEWLINE"ｅｒｙ　ｎｉｃｅ　ｓｍｅｌｌ．．．ｖｅｒｙ　ｓｗｅｅｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　ｉｔ’ｓ　ｌｉｋｅ．．．ｎｅｃｔａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ’ｓ　ｅｎｃｈａｎｔｉｎｇ．．．　Ｍｙ　ｂｏｄｙ　ｅｖー"TCC_NEWLINE"ｅｎ　ｆｅｅｌｓ　ｌｉｇｈｔｅｒ．．．ｓｏｆｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ．．．ｌｏｖｅ　ｙｏｕ．　Ｉ．．．ｗａｎｔ　ｔｏ　ｂｅ　"TCC_NEWLINE"ｃｌｏｓｅｒ　ｔｏ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｕ－ｈｕｈ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｆｏｎｓｅ．．．　Ｉ　ｌｏｖｅ　ｙｏｕ．　Ｉ　ｗａｎｔ"TCC_NEWLINE"　ｔｏ　ｂｅ　ｃｌｏｓｅｒ　ｔｏ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓ－ｓｎａｐ　ｏｕｔ　ｏｆ　ｉｔ，　ａｌｌ　ｏｆ　ｙｏｕ！"TCC_NEWLINE"　Ｔｈｉｓ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｗｏｒｋ　ｏｆ　ｔｈｅ"TCC_NEWLINE"　ｄｋｋｌｆａｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｉ　ａｍ　Ｐｌｕｍｅｒｉａ，　ａｎｄ　ｔｈｉｓ　ｉｓ　ａ　"TCC_NEWLINE"ｗｏｒｌｄ　ｏｆ　ｍｙ　ｃｒｅａｔｉｏｎ，　ｔｈｅ　Ｌｅｗー"TCC_NEWLINE"ｄ　Ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｓｈｉｎｇ　ｔｏ　ｂｅ　ｌｏｖｅｄ．．．　Ｌｏｎｇｉｎー"TCC_NEWLINE"ｇ，　ｙｅａｒｎｉｎｇ，　ＤＹＩＮＧ　ｆｏｒ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｙｏｕ　ｍｏｒｔａｌｓ　ａｒｅ　ｔｈｅ　ｓａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｒｋ．．．　Ｇｅｔ　ｒｅａｄｙ　ｔｏ　ｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈ－ｔｈａｔ’ｓ　ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ！　Ｉ　ｋー"TCC_NEWLINE"ｎｅｗ　ｙｏｕ　ｗｏｕｌｄｎ’ｔ　ｂｅ　ｄｅｆｅａｔｅｄ　"TCC_NEWLINE"ｓｏ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈａｐｐｙ　ｔｏ　ｓｅｅ．．．ｙｏｕ’ｒｅ　ｙｏｕｒ　ｎｏー"TCC_NEWLINE"ｒｍａｌ　ｓｅｌｆ　ａｓ　ｗｅｌｌ，　Ｃｏｍｍａｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｌｅａｓｅ，　ｋｅｅｐ　ｙｏｕｒ　ｄｉｓｔａｎｃｅ．．．"TCC_NEWLINE"　Ｉｔ’ｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｆｉｇｈｔ　ｉｔ　ｗー"TCC_NEWLINE"ｈｅｎ　ｙｏｕ　ｇｅｔ　ｔｏｏ　ｃｌｏｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｆｏｃｕｓ　ｏｎ．．．ｔｈｅ"TCC_NEWLINE"　ｍｉｓｓｉｏｎ！　．．．Ａｎｄ　ｔｈｅ　ｒｅｗａｒｄ！　"TCC_NEWLINE"Ｎｏｗ，　ｌｅｔ’ｓ　ｐｕｔ　ｔｈｅｓｅ　ｎｉｇｈｔｍａｒー"TCC_NEWLINE"ｅｓ　ｔｏ　ｂｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｔｈｅｒｅ’ｓ　ｐｌｅａｓｕｒｅ　ｉｎ　ｓｕｒｒｅｎｄｅｒー"TCC_NEWLINE"ｉｎｇ　ｔｏ　ｙｏｕｒ　ｏｗｎ　ｉｎｄｕｌｇｅｎｃｅｓ．　"TCC_NEWLINE"Ｗｏｕｌｄｎ’ｔ　ｙｏｕ　ｒａｔｈｅｒ　ｂｅ．．．ｈａｐｐー"TCC_NEWLINE"ｙ　ｆｏｒ　ａ　ｃｈａｎｇｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｒｅｔｕｒｎ　ｗｉｔｈ　ｍｏｒｅ　ｄｒｅａｍ　ｎー"TCC_NEWLINE"ｅｃｔａｒ　ｆｒｏｍ　Ｌａｄｙ　Ｆｒｅｙｊａ，　ａｎｄ　ｗー"TCC_NEWLINE"ｅ　ｃａｎ　ｔｒｙ　ａｇａｉｎ，　ｈｍ？　Ｕｎｔｉｌ　ｔｈー"TCC_NEWLINE"ｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4081_EN] = TCC_OPEN_LEFT
+"Ｍ－Ｍｏｔｈｅｒ．．．　Ｉｔ’ｓ　ｄａｒｋ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈ－ｗｈｅｒｅ　ａｒｅ　ｙｏｕ，　Ｍｏｔｈｅｒ？　．．．"TCC_NEWLINE"Ｍｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ．．．　Ｉ　ｎｅｅｄ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗａｓ　ｔｈａｔ．．．ａ　ｖｏｉｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｏｕｎｄｅｄ．．．ｌｉｋｅ　ａ　ｓａｄ　ｌｉｔｔｌー"TCC_NEWLINE"ｅ　ｇｉｒｌ．．．　Ｉ　ｔｈｏｕｇｈｔ　Ｉ．．．　Ｈｍ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉｔ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　ｓｔｏｐｐｅｄ　ｎー"TCC_NEWLINE"ｏｗ．　Ｈｏｗ　ｓｔｒａｎｇｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,0 +1,43 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4094_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｏｖｅｒ　ｈｅｒｅ！　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ｉー"TCC_NEWLINE"ｓ　ｖｅｒｙ　ｃｌｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"Ｙｅｓ，　ｈｅ　ｉｓ．　Ｂｕｔ　ｙｏｕ　ｗｉｌｌ　ｎｅｖｅー"TCC_NEWLINE"ｒ　ｍａｋｅ　ｉｔ　ｔｏ　ｈｉｓ　ｓｉｄｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｐａｔｈ　ｅｎｄｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4094_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"Ｉ　ｃａｎ’ｔ．．．ｇｏ　ａｎｙｗｈｅｒｅ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ．．．ｋｅｅｐ　ｐｒｏｔｅｃｔｉｎｇ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4094_EN] = TCC_OPEN_LEFT
+"Ｓｔｏｐ　ｉｔ．．．　Ｄｏｎ’ｔ　ｈｕｒｔ　ｈｅｒ．．．　"TCC_NEWLINE"Ｄｏｎ’ｔ　ｈｕｒｔ　ｍｙ　ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ．．．　Ｄｏｎ’ｔ　ｙｏｕ　ｗー"TCC_NEWLINE"ｏｒｒｙ．．．　Ｉ’ｌｌ　ｐｒｏｔｅｃｔ　ｙｏｕ．．．　Ｙー"TCC_NEWLINE"ｏｕ’ｒｅ　ｐｅｒｆｅｃｔｌｙ　ｓａｆｅ　ｗｉｔｈ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"．．．ｓａｆｅ　ｗｉｔｈ　ｍｅ．．．　Ｔｈ－ｔｈａｔ　ｗａー"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｈａｖｅ　ｙｏｕ　ｒｅｔｕｒｎｅｄ　ｔｏ　ｕｓ，　Ｔｒｉａー"TCC_NEWLINE"ｎｄｒａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ．　Ｔｈｅｎ，　ｗｉｔｈ　ｍｅ．　Ｗｅ　ｍｕｓｔ　"TCC_NEWLINE"ｆｏｌｌｏｗ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　Ｌａｄｙ　Ｆｒｅｙｊａ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ’ｓ　ｗｒｏｎｇ，　Ｔｒｉａｎｄｒａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｙｏｕ　ｐｏｏｒ　ｔｈｉｎｇ．．．　Ｙｏｕｒ　ｅｙー"TCC_NEWLINE"ｅｓ　ｔｅｌｌ　ｍｅ　ｍｅｍｏｒｉｅｓ　ｆｒｏｍ　ｙｏｕｒ"TCC_NEWLINE"　ｍｏｒｔａｌ　ｌｉｆｅ　ｍｕｓｔ　ｈａｖｅ　ｂｅｅｎ　ｖー"TCC_NEWLINE"ｉｓｉｔｉｎｇ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅ　ｐｏｖｅｒｔｙ　ｙｏｕ　ａｎｄ　ｙｏｕｒ　ｓｉｓｔー"TCC_NEWLINE"ｅｒ　ｗｅｒｅ　ｂｏｒｎ　ｉｎｔｏ．．．ｓｏ　ｔｒａｇｉｃ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｍａｎ　ｙｏｕｒ　ｍｏｔｈｅｒ　ｍａｒｒｉｅｄ　ｗー"TCC_NEWLINE"ａｓ　ｃｒｕｅｌ．．．ａｎｄ　ｒｅｌｅｎｔｌｅｓｓｌｙ　ｓー"TCC_NEWLINE"ｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｔｗｏ　ｗｅｒｅ　ｓｔａｒｖｅｄ　ａｎｄ　ｍａｄｅ"TCC_NEWLINE"　ｔｏ　ｓｌｅｅｐ　ｏｕｔｓｉｄｅ，　ｅｖｅｎ　ｉｎ　ｗｉー"TCC_NEWLINE"ｎｔｅｒ，　ｗｉｔｈ　ｒａｇｓ　ａｓ　ｙｏｕｒ　ｏｎｌｙ　"TCC_NEWLINE"ｓｈｅｌｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕｒ　ｓｉｓｔｅｒ　ｗｏｕｌｄ　ｈａｖｅ　ｄｉｅｄ　ｔー"TCC_NEWLINE"ｈａｔ　ｄａｙ，　ｈａｄ　ｙｏｕ　ｎｏｔ　ｋｉｌｌｅｄ　ｙー"TCC_NEWLINE"ｏｕｒ　ｆａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｉｄ　ｗｈａｔ　ｙｏｕ　ｈａｄ　ｔｏ　ｄｏ　ｔｏ"TCC_NEWLINE"　ｓａｖｅ　ｙｏｕｒ　ｂｅｌｏｖｅｄ　ｓｉｓｔｅｒ．．．　"TCC_NEWLINE"Ｓｏ　ｄｏ　ｎｏｔ　ｂｅ　ｔｒｏｕｂｌｅｄ　ｂｙ　ｇｕｉｌー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｅｓ，　Ｌａｄｙ　Ｆｒｅｙｊａ．　Ｉ’ｍ　ａｌｌ　"TCC_NEWLINE"ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．　Ｔｈａｎｋｓ　ｔｏ　ｙｏｕ，　Ｌａｄｙ　Ｆｒｅｙー"TCC_NEWLINE"ｊａ．．．　Ｉ　ａｍ　ｍｏｒｅ　ｎｏｗ　ｔｈａｎ　Ｉ　ｅｖー"TCC_NEWLINE"ｅｒ　ｃｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　Ｉ　ａｍ　Ｔｒｉａｎｄｒａ．．．ｄｋｋｌｆｒ　ｏー"TCC_NEWLINE"ｆ　Ｄｋｋｌｆｈｅｉｍｒ．．．　Ｉ　ａｍ　ｙｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

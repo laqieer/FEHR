@@ -42,7 +42,7 @@ FaceDefines = {
     "ID_ヴェロニカ":"PORTRAIT_VERONICA",
 }
 
-TextIDStart = 5036
+TextIDStart = 5511
 
 for filename in sys.argv[1:]:
     filenameIn = "../../res/feh/files/assets/JPJA/Message/Scenario/" + filename + ".json"

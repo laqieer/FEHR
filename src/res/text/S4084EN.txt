@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4084_EN] = TCC_OPEN_LEFT
+"Ｌｅｔ　ｕｓ　ａｖｏｉｄ　ｓｅｎｓｅｌｅｓｓ　ｓｌａｕｇｈー"TCC_NEWLINE"ｔｅｒ．　Ｉｆ　ｙｏｕ　ｌａｙ　ｄｏｗｎ　ｙｏｕｒ　ｗｅａー"TCC_NEWLINE"ｐｏｎ，　Ｉ　ｗｉｌｌ　ｌｏｗｅｒ　ｍｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

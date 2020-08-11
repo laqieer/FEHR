@@ -1,0 +1,117 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4085] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
+"あっ。" TCC_NEWLINE
+"こっちよ、" TCC_NEWLINE
+"フロージ様はきっとこの奥に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"ええ、そうです。" TCC_NEWLINE
+"ですから、" TCC_NEWLINE
+"通すわけにはいきません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"黒妖精さん、" TCC_NEWLINE
+"フロージ様を返して！" TCC_NEWLINE TCC_PUSH_A
+"よくない夢で" TCC_NEWLINE
+"人を苦しめるのは" TCC_NEWLINE
+"とってもいけないことよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それはできません。" TCC_NEWLINE
+"私たちは黒妖精。。。" TCC_NEWLINE
+"人に良くない夢を見せるもの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4085] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"っ。。。そん。。。な。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"消えた。。。" TCC_NEWLINE
+"倒した。。。のか？" TCC_NEWLINE TCC_PUSH_A
+"先を急ごう。" TCC_NEWLINE
+"フロージ王のもとへ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4085] = TCC_OPEN_LEFT 
+"おかあさん。。。" TCC_NEWLINE
+"おかあさぁん。。。" TCC_NEWLINE TCC_PUSH_A
+"くらいよ。。。" TCC_NEWLINE
+"こわいよ。。。" TCC_NEWLINE
+"おねがい、そばにきて。。。" TCC_NEWLINE TCC_PUSH_A
+"おかあさん。。。" TCC_NEWLINE
+"おかあさぁん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"。。。この。。。声。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"。。。プルメリア。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。。。フレイヤ様。" TCC_NEWLINE
+"申\し訳ありません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"大丈夫よ、プルメリア。" TCC_NEWLINE
+"あなたは私の可愛い妖精。。。" TCC_NEWLINE
+"あなたに力を与えてあげる。" TCC_NEWLINE TCC_PUSH_A
+"さあ、もう大丈夫。" TCC_NEWLINE
+"これでまた" TCC_NEWLINE
+"飛べるようになったでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ありがとうございます、フレイヤ様。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"どうかして、プルメリア？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"さっき、声が。。。したのです。" TCC_NEWLINE
+"泣いている少女の声。。。" TCC_NEWLINE TCC_PUSH_A
+"あの声は。。。私の。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"大丈夫よ、プルメリア。" TCC_NEWLINE
+"あなたは妖精。" TCC_NEWLINE
+"もう悲しいことは何もないの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私は。。。フレイヤ様に" TCC_NEWLINE
+"命を授かる前。。。" TCC_NEWLINE
+"人間だったのでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。ええ。" TCC_NEWLINE TCC_PUSH_A
+"あなたは小さな女の子。。。" TCC_NEWLINE
+"誰からも愛されなかった子。" TCC_NEWLINE TCC_PUSH_A
+"あなたの父親は、あなたも" TCC_NEWLINE
+"あなたの母親も愛していなかった。" TCC_NEWLINE
+"だから、あなたたちを捨てて去ったの。" TCC_NEWLINE TCC_PUSH_A
+"あなたの母親もそう。" TCC_NEWLINE
+"幼いあなたを抱えて生きるより。。。" TCC_NEWLINE
+"愛する男と一緒になりたかった。" TCC_NEWLINE TCC_PUSH_A
+"その愛の邪魔になったから。。。" TCC_NEWLINE
+"娘のあなたを捨てたの。。。" TCC_NEWLINE
+"暗い井戸の底に投げ落として。" TCC_NEWLINE TCC_PUSH_A
+"冷たい闇の中で。。。" TCC_NEWLINE
+"あなたは泣きながら" TCC_NEWLINE
+"母の助けを求めていた。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"でも、あなたは夢の中で" TCC_NEWLINE
+"蜜を飲んで妖精になった。" TCC_NEWLINE
+"特別な存在になったの。" TCC_NEWLINE TCC_PUSH_A
+"プルメリア。忘れていいのよ、" TCC_NEWLINE
+"人間としての辛い一生なんて。" TCC_NEWLINE
+"そんな過去、なくしてしまえばいいの。" TCC_NEWLINE TCC_PUSH_A
+"今のあなたは妖精。。。" TCC_NEWLINE
+"私があなたを" TCC_NEWLINE
+"愛しているのだから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

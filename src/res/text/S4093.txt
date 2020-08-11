@@ -1,0 +1,81 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4093] = TCC_OPEN_LEFT 
+"たとえこの身がどうなろうと。。。" TCC_NEWLINE
+"マルス様の命だけは私がお守りします。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4093] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"さあ、お兄様。" TCC_NEWLINE
+"やっとその時が来たわ。。。" TCC_NEWLINE TCC_PUSH_A
+"私と一つになりましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_FREYR
+"それは。。。" TCC_NEWLINE
+"【ブリーシンガルの首飾り】。。。か。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"待ち焦がれたわ。。。" TCC_NEWLINE
+"この首飾りを復元するまで、" TCC_NEWLINE
+"長い長い時間が必要だった。" TCC_NEWLINE TCC_PUSH_A
+"さあ、お兄様と私の世界を" TCC_NEWLINE
+"もっともっと大きくしましょう。" TCC_NEWLINE
+"人間の世界を、私たちの夢で塗り潰して。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"フレイヤ。。。" TCC_NEWLINE TCC_PUSH_A
+"やはり我らは、" TCC_NEWLINE
+"すでに滅んでいたのだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何を言い出すの、お兄様？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"本来のお前ならば" TCC_NEWLINE
+"人の世界を滅ぼすような。。。" TCC_NEWLINE
+"そのようなことまでは望むまい。" TCC_NEWLINE TCC_PUSH_A
+"今の我々は" TCC_NEWLINE
+"懐かしき夢の残滓。。。" TCC_NEWLINE TCC_PUSH_A
+"かつて" TCC_NEWLINE
+"夢の世界が滅んだ時。。。" TCC_NEWLINE
+"我々もまた滅んだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いいえ、いいえ！" TCC_NEWLINE
+"お兄様と私は生き延びたの。" TCC_NEWLINE
+"だから、ここにこうしているの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。かつて、人は夢見ることを諦め、" TCC_NEWLINE
+"夢の世界は次第に" TCC_NEWLINE
+"虚無に覆われていった。。。" TCC_NEWLINE TCC_PUSH_A
+"世界には次々と虚ろな穴が穿たれ、" TCC_NEWLINE
+"最後には、夢の世界は" TCC_NEWLINE
+"ばらばらに引き裂かれようとしていた。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ、でも世界は救われた。" TCC_NEWLINE
+"あの子たちはそれを望み、" TCC_NEWLINE
+"花の蜜を飲んで特別な存在になったわ。。。" TCC_NEWLINE TCC_PUSH_A
+"そして、" TCC_NEWLINE
+"妖精たちの夢の力で虚無を退け、" TCC_NEWLINE
+"夢の世界も人間の世界も救った。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あの子らは二度と人には戻れぬ。" TCC_NEWLINE
+"幼き彼女たちの" TCC_NEWLINE
+"一生を狂わせたのは我らだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。相変わらずね、お兄様。" TCC_NEWLINE
+"私じゃなくて、人間のことばかり。。。" TCC_NEWLINE
+"ああ。。。あああ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、この首飾りをかければ。。。" TCC_NEWLINE
+"きっと、私を見てくれる。。。" TCC_NEWLINE
+"そうでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"フレイヤ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

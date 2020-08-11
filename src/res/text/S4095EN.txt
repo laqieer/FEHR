@@ -1,0 +1,79 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｒｅ　ｙｏｕ　ｈｕｒｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉ　ｒｅｇｒｅｔ　ｔｈｉｓ　ｆａｍｉｌｙ　ｓｑｕａｂー"TCC_NEWLINE"ｂｌｅ　ｈａｓ　ｃａｕｓｅｄ　ｙｏｕ　ｓｏ　ｍｕｃｈ　ｔｒー"TCC_NEWLINE"ｏｕｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｅｔ’ｓ　ｒｅｔｕｒｎ　ｔｏ　Ｌｊｓｌｆｈｅｉｍｒ．　Ｔー"TCC_NEWLINE"ｈｅｎ，　Ａｌｆｏｎｓｅ’ｓ　ｗｏｒｌｄ　ｓｈｏｕｌｄ　ｓー"TCC_NEWLINE"ｔａｒｔ　ｒｅｔｕｒｎｉｎｇ　ｔｏ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｉｓ．．．ａｌｒｅａｄｙ　ｔｏｏ　ｌａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？　Ｗｈａｔ’ｓ　ａｌｒｅー"TCC_NEWLINE"ａｄｙ　ｔｏｏ　ｌａｔｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆｒｅｙｊａ　ｈａｓ　ｐｌａｃｅｄ　ａ　ｃｕｒｓｅ　ｏｎ　"TCC_NEWLINE"ｍｅ．　Ｔｈｅ　ｎｅｃｋｌａｃｅ　Ｂｒｓｉｎｇａｍｅｎ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｉｔ，　ｏｎｅ　ｃａｎ　ｔａｋｅ　ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇ　ｆｒｏｍ　ｓｏｍｅｏｎｅ　ｅｌｓｅ　ａｎｄ　ｃｌａー"TCC_NEWLINE"ｉｍ　ｉｔ　ａｓ　ｏｎｅ’ｓ　ｏｗｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｒｅｙｊａ　ｈａｓ　ｃｏｍｐｌｅｔｅ　ｃｏｎｔｒｏｌ　ｏー"TCC_NEWLINE"ｖｅｒ　ｍｙ　ｐｏｗｅｒｓ　ｎｏｗ．　Ｉ　ｃａｎ　ｄｏ　ｎー"TCC_NEWLINE"ｏｔｈｉｎｇ　ｔｏ　ｓｔｏｐ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ｔｈａｔ’ｓ　ｔｒｕｅ，　ｔｈｅｎ．．．ｅｖｅｎ　ｉー"TCC_NEWLINE"ｆ　ｗｅ　ｒｅｔｕｒｎ　ｔｏ　Ｌｊｓｌｆｈｅｉｍｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆｒｅｙｊａ　ｎｏｗ　ｃｏｍｍａｎｄｓ　ｔｈｅ　ｐｏｗｅｒ"TCC_NEWLINE"　ｏｆ　ｏｕｒ　ｃｏｍｂｉｎｅｄ　ｓｔｒｅｎｇｔｈ．　Ｄｒー"TCC_NEWLINE"ｅａｍ　ａｎｄ　ｒｅａｌｉｔｙ　ｂｏｔｈ　ｂｅｎｄ　ｔｏ　"TCC_NEWLINE"ｈｅｒ　ｅｖｅｒｙ　ｗｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｃａｎｎｏｔ　ｂｅ　ｓｔｏｐｐｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗ－ｗｅｌｌ，　ｆｏｒ　ｎｏｗ，　ｌｅｔ’ｓ　ｇｅｔ　ｏｕー"TCC_NEWLINE"ｔ　ｏｆ　ｈｅｒｅ　ｗｈｉｌｅ　ｗｅ　ｃａｎ！　Ｗｅ　ｈａー"TCC_NEWLINE"ｖｅ　ｔｏ　ｇｅｔ　ｂａｃｋ　ｔｏ　Ｌｊｓｌｆｈｅｉｍｒ　"TCC_NEWLINE"ａｎｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｇｏ　ｂａｃｋ？　Ｉ’ｍ　ａｆｒａｉｄ　ｔｈａｔ　ｉｓ　ｎー"TCC_NEWLINE"ｏ　ｌｏｎｇｅｒ　ａｎ　ｏｐｔｉｏｎ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｗｉｔｈ　ｍｙ　ｂｒｏｔｈｅｒ’ｓ　ｐｏｗｅｒ　ｆｉｎａｌー"TCC_NEWLINE"ｌｙ　ａｓ　ｏｎｅ　ｗｉｔｈ　ｍｙ　ｏｗｎ，　ｄｒｅａｍｓ"TCC_NEWLINE"　ａｒｅ　ｍｉｎｅ　ｔｏ　ｃｏｍｍａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｎｏｎｅ　ｃａｎ　ｆｌｅｅ　ｆｒｏｍ　ｏｕｒ　ｇー"TCC_NEWLINE"ｒａｓｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｕｒｒｒｇｇｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｍｒｇｈ．．．　Ｉ　ｃａｎ　ｆｅｅｌ．．．Ｄｒｅａｍ－Ｋｉー"TCC_NEWLINE"ｎｇ　Ｆｒｅｙｒ’ｓ　ｐｏｗｅｒ，　ｔｉｇｈｔ　ｉｎ　Ｌａー"TCC_NEWLINE"ｄｙ　Ｆｒｅｙｊａ’ｓ　ｇｒｉｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｄｒｅａｍｓ　ａｒｅ　ｈｅｒｓ　ｎｏｗ．．．　Ｗｉー"TCC_NEWLINE"ｔｈｉｎ　ｔｈｅ　ｄｒｅａｍ　ｒｅａｌｍｓ，　ｎｏ　ｏｎｅ"TCC_NEWLINE"　ｃａｎ　ｓｔａｎｄ　ａｇａｉｎｓｔ　ｈｅｒ．　Ｎｏｔ　ａー"TCC_NEWLINE"ｎｙｍｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ，　Ｌａｄｙ　Ｆｒｅｙｊａ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｏ　ｏｎ．　Ｔｒｙ　ｔｏ　ｓｔｏｐ　ｍｅ　ｉｆ　ｙｏｕ　"TCC_NEWLINE"ｍｕｓｔ．　Ｂｕｔ　ｆｉｒｓｔ　ｙｏｕ’ｌｌ　ｈａｖｅ　ｔー"TCC_NEWLINE"ｏ　ｓｕｒｖｉｖｅ　ｍｙ　ｎｅｖｅｒ－ｅｎｄｉｎｇ　ｎｉｇー"TCC_NEWLINE"ｈｔｍａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｐｉｔｉｆｕｌ　ｍｏｒｔａｌｓ．　Ｈｏｗ　ａｍｕｓｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍａｎｙ　ｎｉｇｈｔｍａｒｅｓ"TCC_NEWLINE"　ｙｏｕ　ｍａｎａｇｅ　ｔｏ　ｄｅｆｅａｔ，　Ｉ　ａｍ　ａー"TCC_NEWLINE"ｂｏｖｅ　ｙｏｕ．．．　Ｂｅｙｏｎｄ　ｙｏｕ．　Ｒｅａｌｉー"TCC_NEWLINE"ｔｙ　ｉｓ　ｍｉｎｅ　ｔｏ　ｗｉｅｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｕｎ．　Ｒｕｎ！　Ｂｕｔ　ｋｎｏｗ　ｔｈｉｓ：　Ｔｈｅｒー"TCC_NEWLINE"ｅ　ｉｓ　ｎｏ　ｅｓｃａｐｅ　ｆｏｒ　ｙｏｕ．　Ｔｈｅ　ｎー"TCC_NEWLINE"ｉｇｈｔｍａｒｅ　ｗｉｌｌ　ａｌｗａｙｓ　ｂｅ　ｒｉｇｈｔ"TCC_NEWLINE"　ｂｅｈｉｎｄ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｔｈｉｓ　ｗａｙ，　ｅｖｅｒｙｏｎｅ！　Ｊｕｓｔ　ａ　ｌｉー"TCC_NEWLINE"ｔｔｌｅ　ｆａｒｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ！　．．．Ｔｈ－ｔｈｉｓ　ｃａｎ’ｔ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈ－ｈｏｗ　ｃｏｕｌｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｔｈｅ　ｂｒｉｄｇｅ　ｔｏ　ｔｈｅ　ｏｔｈｅｒ　ｗｏｒｌｄ"TCC_NEWLINE"　ｉｓ　ｇｏｎｅ．．．　Ｔｈｉｓ　ｍｕｓｔ　ｂｅ　ｂｅｃａー"TCC_NEWLINE"ｕｓｅ　ｏｆ　ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ’ｌｌ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｋｅｅｐ　ｔｒｙｉｎー"TCC_NEWLINE"ｇ．　Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ｓｏｍｅ　ｏｔｈｅｒ　ｗー"TCC_NEWLINE"ａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｏｔｈｅｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｔｈｅ　Ｄｒｅａｍ－Ｑｕｅｅｎ．　Ｍｙ　ｗｉｌｌ"TCC_NEWLINE"，　ｗｈａｔｅｖｅｒ　Ｉ　ｄｅｓｉｒｅ，　ｂｅｃｏｍｅｓ．"TCC_NEWLINE"　Ｎｏｎｅ　ｃａｎ　ｏｐｐｏｓｅ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ’ｓ．．．ａｌｌ　ｏｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｕｇｈ．．．　Ｃｏｍｅ　ｏｎ！　Ｌｅｔ’ｓ　ｒｅｔｒｅａｔ"TCC_NEWLINE"　ａｎｄ　ｂｕｙ　ｓｏｍｅ　ｔｉｍｅ．．．　Ｉ’ｍ　ｓｕｒー"TCC_NEWLINE"ｅ　ｗｅ　ｃａｎ　ｔｈｉｎｋ　ｏｆ　ａ　ｗａｙ　ｔｏ　ｅｓー"TCC_NEWLINE"ｃａｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｃｏｎｃｅｎｔｒａｔｅ，　Ｉ　ｋｎｏｗ　ｗｅ　"TCC_NEWLINE"ｃａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｆｒｕｉｔｌｅｓｓ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｅｌｙ　ｙｏｕ　ｒｅａｌｉｚｅｄ　ｄｕｒｉｎｇ　ｏｕー"TCC_NEWLINE"ｒ　ｌｉｔｔｌｅ　ｂａｔｔｌｅ　ｅａｒｌｉｅｒ，　ｄｉｄ　"TCC_NEWLINE"ｙｏｕ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ　ｃｒｅａｔｅ　ａｎｙ　ｎｉｇｈｔｍａｒｅ　Ｉ　"TCC_NEWLINE"ｐｌｅａｓｅ　ａｓ　ｍａｎｙ　ｔｉｍｅｓ　ａｓ　Ｉ　ｐｌｅー"TCC_NEWLINE"ａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｌｉｖｅ　ｂｅｃａｕｓｅ　Ｉ　ａｌｌｏｗ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｌｉｖｅ　ｆｏｒ　ｍｙ　ａｍｕｓｅｍｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｈｅｒｅ　ｉｓ　ｔｈｅ　ｆｕｎ　ｉｎ　ａｌｌｏｗｉｎｇ　"TCC_NEWLINE"ｙｏｕ　ｓｕｃｈ　ａｎ　ｅａｓｙ，　ｐａｉｎｌｅｓｓ　ｅｎー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｅｌｙ　ｔｈｉｅｖｅｓ　ｗｈｏ　ｓｏｕｇｈｔ　ｔｏ　"TCC_NEWLINE"ｓｔｅａｌ　ｍｙ　ｂｒｏｔｈｅｒ’ｓ　ｈｅａｒｔ　ｄｅｓｅー"TCC_NEWLINE"ｒｖｅ　ａ　ｐｒｏｐｅｒ　ａｍｏｕｎｔ　ｏｆ　ｐｕｎｉｓｈー"TCC_NEWLINE"ｍｅｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｒｕｎ　ａｌｏｎｇ．．．　Ａｎｄ　ｋｅｅｐ　ｒｕー"TCC_NEWLINE"ｎｎｉｎｇ．　Ｄｏ　ｔｒｙ　ｎｏｔ　ｔｏ　ｌｏｓｅ　ｙｏｕー"TCC_NEWLINE"ｒｓｅｌｖｅｓ　ｉｎ　ｔｈｅ　ｅｎｄｌｅｓｓ　ｔｗｉｓｔｉー"TCC_NEWLINE"ｎｇ　ｎｉｇｈｔｍａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｔｒｕｇｇｌｅ．　Ｃｌａｗ　ａｔ　ｔｈｅ　ｃｏｒｎｅｒｓ"TCC_NEWLINE"　ｏｆ　ｙｏｕｒ　ｍｉｎｄ　ｉｎ　ｓｅａｒｃｈ　ｏｆ　ｗａー"TCC_NEWLINE"ｙｓ　ｔｏ　ｌｅａｖｅ　ｍｙ　ｒｅａｌｍ　ｗｉｔｈ　ｙｏｕー"TCC_NEWLINE"ｒ　ｌｉｖｅｓ　ｉｎｔａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｌｏｎｇ　ｕｎｔｉｌ　ｔｈｅ　ｕｔｔｅｒ　ｈｏｐｅー"TCC_NEWLINE"ｌｅｓｓｎｅｓｓ　ｏｆ　ｙｏｕｒ　ｓｉｔｕａｔｉｏｎ　ｂｅー"TCC_NEWLINE"ｃｏｍｅｓ　ｃｌｅａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

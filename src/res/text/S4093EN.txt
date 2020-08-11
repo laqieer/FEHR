@@ -1,0 +1,38 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4093_EN] = TCC_OPEN_LEFT
+"Ｗｈａｔｅｖｅｒ　ｈａｒｍ　ｍａｙ　ｃｏｍｅ　ｔｏ　ｍｅ，"TCC_NEWLINE"　Ｉ　ｗｉｌｌ　ｋｅｅｐ　Ｐｒｉｎｃｅ　Ｍａｒｔｈ　ｓａｆー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4093_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｔｈｅ　ｔｉｍｅ　ｈａｓ　ｆｉｎａｌｌｙ　ｃｏｍｅ，　Ｂｒー"TCC_NEWLINE"ｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｍｏｍｅｎｔ　ｏｆ　ｏｕｒ　ｕｎｉｔｙ　ｉｓ　ｕｐー"TCC_NEWLINE"ｏｎ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FREYR
+"Ｔｈｅｎ　ｔｈａｔ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｎｅｃｋｌａｃー"TCC_NEWLINE"ｅ　Ｂｒｓｉｎｇａｍｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｈａｖｅ　ｗａｉｔｅｄ　ｌｏｎｇ　ｆｏｒ　ｉｔｓ　ｒｅー"TCC_NEWLINE"ｓｔｏｒａｔｉｏｎ．　Ｓｏ．．．ｓｏ　ｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｔｈｉｓ，　ｗｅ　ｗｉｌｌ　ｅｘｐａｎｄ　ｏｕｒ"TCC_NEWLINE"　ｌａｎｄｓ　ｔｏ　ｎｅｗ　ｒｅａｌｍｓ！　Ｔｈｅ　ｍｏｒー"TCC_NEWLINE"ｔａｌ　ｗｏｒｌｄ　ｗｉｌｌ　ｂｅ　ｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆｒｅｙｊａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｅｅ　ｎｏｗ　ｉｔ　ｉｓ　ａｌｒｅａｄｙ　ｔｏｏ　ｌー"TCC_NEWLINE"ａｔｅ　ｆｏｒ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｓａｙｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ｙｏｕ　ｗｏｕｌｄ　ｗｉｌｌｉｎｇｌｙ　ｂｒｉｎｇ　"TCC_NEWLINE"ｈａｒｍ　ｔｏ　ｔｈｅ　ｍｏｒｔａｌ　ｗｏｒｌｄ．．．　Ｙー"TCC_NEWLINE"ｏｕ　ａｒｅ　ｎｏ　ｌｏｎｇｅｒ　ｔｈｅ　Ｆｒｅｙｊａ　Ｉ"TCC_NEWLINE"　ｋｎｅｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌｏｖｅ　Ｉ　ｏｎｃｅ　ｆｅｌｔ　ｆｏｒ　ｙｏｕ　"TCC_NEWLINE"ｉｓ　ｎｏｗ　ｌｉｔｔｌｅ　ｍｏｒｅ　ｔｈａｎ　ｔｈｅ　ｒー"TCC_NEWLINE"ｅｍｎａｎｔ　ｏｆ　ａ　ｏｎｃｅ－ｐｌｅａｓａｎｔ　ｄｒｅー"TCC_NEWLINE"ａｍ　ｕｐｏｎ　ｗａｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｏｕｒ　ｄｒｅａｍ　ｗｏｒｌｄ　ｗａｓ　ｒｕｉｎー"TCC_NEWLINE"ｅｄ，　ｓｏ　ｔｏｏ　ｗｅｒｅ　ｗｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ！　．．．ＮＯ！　Ｗｅ　ｓｕｒｖｉｖｅｄ．　Ｗｅ　ａｒー"TCC_NEWLINE"ｅ　ｓｔｉｌｌ　ｈｅｒｅ．　Ｔｈａｔ　ｉｓ　ｗｈｙ　ｗｅ　"TCC_NEWLINE"ＭＵＳＴ　ｄｏ　ｔｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｔｈｅ　ｍｏｒｔａｌｓ　ｇａｖｅ　ｕｐ　ｔｈｅｉｒ　"TCC_NEWLINE"ｄｒｅａｍｓ．　Ｔｈｅ　ｗｏｒｌｄ　ｏｆ　ｄｒｅａｍｓ　ｗー"TCC_NEWLINE"ｉｌｌ　ｉｎｅｖｉｔａｂｌｙ　ｒｅｔｕｒｎ　ｔｏ　ｎｏｔｈー"TCC_NEWLINE"ｉｎｇｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｒｅｍｅｍｂｅｒ，　ｄｏ　ｙｏｕ　ｎｏｔ？　Ｏｕｒ"TCC_NEWLINE"　ｗｏｒｌｄ　ｂｅｉｎｇ　ｔｏｒｎ　ａｐａｒｔ，　ｈｏｌｅー"TCC_NEWLINE"ｓ　ｒｉｐｐｉｎｇ　ｔｈｒｏｕｇｈ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｒｅｍｅｍｂｅｒ．　Ｂｕｔ　ｗｅ　ＳＡＶＥＤ　ｉｔ．　"TCC_NEWLINE"Ｔｈｅ　ｃｈｉｌｄｒｅｎ　ｄｒａｎｋ　ｔｈｅ　ｎｅｃｔａｒ"TCC_NEWLINE"．．．　Ｔｈｅｙ　ｂｅｃａｍｅ　ｌｆａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｐｕｌｌｅｄ　ｕｓ　ｆｒｏｍ　ｔｈｅ　ｎｏｔｈｉー"TCC_NEWLINE"ｎｇｎｅｓｓ．　Ｔｈｅｙ　ｓａｖｅｄ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｏｓｅ　ｃｈｉｌｄｒｅｎ　ｗｉｌｌ　ｎｅｖｅｒ　ｂｅ　"TCC_NEWLINE"ｈｕｍａｎ　ａｇａｉｎ．　Ｗｅ　ｔｏｏｋ　ｔｈａｔ　ｆｒｏー"TCC_NEWLINE"ｍ　ｔｈｅｍ　ａｎｄ　ｍａｄｅ　ｔｈｅｍ　ｔｏ　ｆｉｇｈｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｖｅｒ　ｔｈｅ　ｓｔｕｂｂｏｒｎ　ｏｎｅ，　Ｂｒｏｔｈｅー"TCC_NEWLINE"ｒ．　Ａｌｗａｙｓ　ｃｏｎｃｅｒｎｅｄ　ｗｉｔｈ　ｔｈｅ　"TCC_NEWLINE"ｍｏｒｔａｌｓ，　ｂｕｔ　ｎｅｖｅｒ　ｗｉｔｈ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｉｓ　ｎｅｃｋｌａｃｅ　ｗｉｌｌ　ｓｕｒｅｌｙ"TCC_NEWLINE"　ｃｈａｎｇｅ　ｙｏｕｒ　ｍｉｎｄ．．．ｉｓｎ’ｔ　ｔｈａー"TCC_NEWLINE"ｔ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆｒｅｙｊａ，　ｐｌｅａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

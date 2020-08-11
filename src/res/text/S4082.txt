@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4082] = TCC_OPEN_LEFT 
+"一かけらの思いやりが" TCC_NEWLINE
+"世界を平和へと導く。。。" TCC_NEWLINE
+"私はそう信じています。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
