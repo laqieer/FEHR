@@ -26,10 +26,16 @@ const struct SupportData supportDataTable[] = {
         3
     },
     { // Bruno
-        {CHARACTER_ALFONSE_ID, CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID},
-        {72, 36, 36},
-        {2, 2, 2},
-        3,
+        {CHARACTER_ALFONSE_ID, CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID, CHARACTER_VERONICA_ID},
+        {72, 36, 36, 72},
+        {2, 2, 2, 3},
+        4
+    },
+    { // Veronica
+        {CHARACTER_BRUNO_ID},
+        {72},
+        {3},
+        1
     },
     { // End of list
         {0},
@@ -86,6 +92,14 @@ const struct SupportConversation supportConversations[] = {
         TEXT_SUPPORT_CONVERSATION_BRUNO_SHARENA_TEMP,
         TEXT_SUPPORT_CONVERSATION_BRUNO_SHARENA_TEMP,
         TEXT_SUPPORT_CONVERSATION_BRUNO_SHARENA_TEMP,
+        0
+    },
+    { // Bruno & Veronica
+        CHARACTER_BRUNO_ID,
+        CHARACTER_VERONICA_ID,
+        TEXT_SUPPORT_BRUNO_VERONICA,
+        TEXT_SUPPORT_BRUNO_VERONICA,
+        TEXT_SUPPORT_BRUNO_VERONICA,
         0
     },
     { // End of list

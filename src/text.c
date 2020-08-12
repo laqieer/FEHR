@@ -2163,6 +2163,17 @@ const char* const texts[] = {
 
        [TEXT_CHARACTER_HELP_FREYJA] = "悪夢の国スヴァルトアルフの女王。兄フロージを愛し、兄のすべてを独占したいと望む。",
 
+       [TEXT_SUPPORT_BRUNO_VERONICA] = TCC_OPEN_LEFT
+           TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+               "ここか。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_OPEN_RIGHT
+               TCC_LOAD_FACE PORTRAIT_VERONICA
+               "お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_OPEN_LEFT
+               TCC_CLEAR_FACE
+               TCC_OPEN_RIGHT
+               TCC_CLEAR_FACE,
+
 #include "texts.txt"
 };
 
