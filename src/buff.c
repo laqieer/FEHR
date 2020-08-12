@@ -1063,6 +1063,26 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                                 addUnitDebuffResistance(&targetUnits[j], -5);
                             }
                             break;
+                        case PASSIVE_SKILL_A_NIGHTMARE_QUEEN_1:
+                            addUnitDebuffDefense(&targetUnits[j], -1);
+                            addUnitDebuffResistance(&targetUnits[j], -1);
+                            break;
+                        case PASSIVE_SKILL_A_NIGHTMARE_QUEEN_2:
+                            addUnitDebuffDefense(&targetUnits[j], -2);
+                            addUnitDebuffResistance(&targetUnits[j], -2);
+                            break;
+                        case PASSIVE_SKILL_A_NIGHTMARE_QUEEN_3:
+                            addUnitDebuffDefense(&targetUnits[j], -2);
+                            addUnitDebuffResistance(&targetUnits[j], -2);
+                            addUnitDebuffPower(&targetUnits[j], -1);
+                            addUnitDebuffSpeed(&targetUnits[j], -1);
+                            break;
+                        case PASSIVE_SKILL_A_NIGHTMARE_QUEEN_4:
+                            addUnitDebuffDefense(&targetUnits[j], -2);
+                            addUnitDebuffResistance(&targetUnits[j], -2);
+                            addUnitDebuffPower(&targetUnits[j], -2);
+                            addUnitDebuffSpeed(&targetUnits[j], -2);
+                            break;
                         default:
                             break;
                     }

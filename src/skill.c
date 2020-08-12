@@ -6930,6 +6930,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"びすいの花２", "自身を中心としたたて３列以内の敵は、戦闘中、攻撃、守備、魔防ー２", "Flower of Ease 2", "Inflicts Atk/Def/Res-2 on foes within 3 columns centered on unit during combat."},
     {"びすいの花３", "自身を中心としたたて３列以内の敵は、戦闘中、攻撃、守備、魔防ー３", "Flower of Ease 3", "Inflicts Atk/Def/Res-3 on foes within 3 columns centered on unit during combat."},
     {"びすいの花４", "自身を中心としたたて３列以内の敵は、戦闘中、攻撃、守備、魔防ー４", "Flower of Ease 4", "Inflicts Atk/Def/Res-4 on foes within 3 columns centered on unit during combat."},
+    {"悪夢の女王１", "ターン開始時、全ての敵の守備、魔防ー１", "Queen of Nightmare 1", "At start of turn, foe's Def/Res-1."},
+    {"悪夢の女王２", "ターン開始時、全ての敵の守備、魔防ー２", "Queen of Nightmare 2", "At start of turn, foe's Def/Res-2."},
+    {"悪夢の女王３", "ターン開始時、全ての敵の守備、魔防ー２、攻撃、速さー１", "Queen of Nightmare 3", "At start of turn, foe's Def/Res-2, Atk/Spd-1."},
+    {"悪夢の女王４", "ターン開始時、全ての敵の攻撃、速さ、守備、魔防ー２", "Queen of Nightmare 4", "At start of turn, foe's Atk/Spd/Def/Res-2."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -6954,6 +6958,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_SCABIOSA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_SORROW_1, PASSIVE_SKILL_A_FLOWER_OF_SORROW_2, PASSIVE_SKILL_A_FLOWER_OF_SORROW_3, PASSIVE_SKILL_A_FLOWER_OF_SORROW_4},
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_PLENTY_1, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_2, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_3, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_4},
     [CHARACTER_MIRABILIS_ID] = {PASSIVE_SKILL_A_FLOWER_OF_EASE_1, PASSIVE_SKILL_A_FLOWER_OF_EASE_2, PASSIVE_SKILL_A_FLOWER_OF_EASE_3, PASSIVE_SKILL_A_FLOWER_OF_EASE_4},
+    [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_NIGHTMARE_QUEEN_1, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_2, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_3, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
