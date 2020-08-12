@@ -2159,6 +2159,10 @@ const char* const texts[] = {
 
        [TEXT_ITEM_HELP_ARMORED_BOOTS] = "ターン開始時、自身のＨＰが１００パーセントなら、移動＋１（１ターン、重複しない）",
 
+       [TEXT_CHARACTER_NAME_FREYJA] = "フレイヤ",
+
+       [TEXT_CHARACTER_HELP_FREYJA] = "悪夢の国スヴァルトアルフの女王。兄フロージを愛し、兄のすべてを独占したいと望む。",
+
 #include "texts.txt"
 };
 

@@ -43,6 +43,7 @@
 #define Scabiosa Fiora
 #define Triandra Scabiosa
 #define Plumeria Farina
+#define Freyja Rebecca
 
 #define GenericSoldierHel 0x75
 #define GenericSoldierHelWeak 0x76
