@@ -4209,8 +4209,8 @@ void BattleWeaponSpecialEffect(struct BattleUnit* attacker, struct BattleUnit* d
             {
                 addUnitDebuffDefense(&defender->unit, -5);
                 addUnitDebuffResistance(&defender->unit, -5);
-                addUnitBuffDefense(&defender->unit, 5);
-                addUnitBuffResistance(&defender->unit, 5);
+                addUnitBuffDefense(&attacker->unit, 5);
+                addUnitBuffResistance(&attacker->unit, 5);
             }
             break;
         default:
