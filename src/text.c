@@ -2178,11 +2178,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HRID
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "スリーズ、祖国を守るのが私たちの務め" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_GUNNTHRA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "ええ" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2193,11 +2193,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HRID
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "すまない、フィヨルム。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_FJORM
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "兄上。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2208,11 +2208,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HRID
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "兄様っ、フリーズ兄様。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_YLGR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "ユルグはここにいたのか" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2223,11 +2223,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_GUNNTHRA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "フィヨルム、私のかわいい妹。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_FJORM
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "姉上" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2237,12 +2237,14 @@ const char* const texts[] = {
        [TEXT_SUPPORT_GUNNTHRA_YURG] = 
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
-                    PORTRAIT_GUNNTHRA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    PORTRAIT_YLGR
+                    "姉様っ、スリーズ姉様。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
-                    PORTRAIT_YLGR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    PORTRAIT_GUNNTHRA
+                    "まあ、珍しいですねユルグ。"
+                    TCC_NEWLINE
+                    "こんな朝早くに起きるなんて。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2252,12 +2254,14 @@ const char* const texts[] = {
        [TEXT_SUPPORT_FJORM_YURG] = 
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
-                    PORTRAIT_FJORM
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    PORTRAIT_YLGR
+                    "姉様っ、フィヨルム姉様。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
-                    PORTRAIT_YLGR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    PORTRAIT_FJORM
+                    "珍しいですね。" TCC_NEWLINE
+                    "いつもならユルグは" TCC_NEWLINE
+                    "まだ眠っている時間なのに。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2268,11 +2272,14 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_YLGR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "あなたって、" TCC_NEWLINE
+                    "思ってたより良い人なんだね。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_HELBINDI
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "ああ？"
+                    TCC_NEWLINE
+                    "ぶち殺すぞガキが。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
