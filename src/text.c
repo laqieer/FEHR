@@ -2428,11 +2428,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_FREYJA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "スカビオサ。私と共にいらっしゃい。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_TRIANDRA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "はい、フレイヤ様。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2443,11 +2443,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_FREYJA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "プルメリア。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_PLUMERIA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "ああ、フレイヤ様。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2457,12 +2457,12 @@ const char* const texts[] = {
        [TEXT_SUPPORT_TRIANDRA_PLUMERIA] = 
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
-                    PORTRAIT_TRIANDRA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    PORTRAIT_PLUMERIA
+                    "早くフレイヤ様のご命令を果たして、スヴァルトアルフに帰りたいです。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
-                    PORTRAIT_PLUMERIA
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    PORTRAIT_TRIANDRA
+                    "そうね。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
