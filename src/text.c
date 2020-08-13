@@ -2290,11 +2290,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_LOKI
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "王様、私の身体なら、煮るなり焼くなりお好きになさって。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_SURTR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "下がれロキ。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2305,11 +2305,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_SURTR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "レーヴァテイン！" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_LAEVATAIN
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "はい" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2320,11 +2320,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_SURTR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "良かろう、行け。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_LAEGJARN
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "承知致しました。。。父上。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2334,12 +2334,12 @@ const char* const texts[] = {
        [TEXT_SUPPORT_LAEVATAIN_LAEGJARN] = 
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
-                    PORTRAIT_LAEGJARN
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    PORTRAIT_LAEVATAIN
+                    "姉上。。。おけがは？" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
-                    PORTRAIT_LAEVATAIN
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    PORTRAIT_LAEGJARN
+                    "大丈夫よ、ありがとうレーヴァテイン。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
