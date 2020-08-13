@@ -2174,6 +2174,291 @@ const char* const texts[] = {
                TCC_OPEN_RIGHT
                TCC_CLEAR_FACE,
 
+       [TEXT_SUPPORT_HRID_GUNNTHRA] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_HRID
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_GUNNTHRA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_HRID_FJORM] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_HRID
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_FJORM
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_HRID_YURG] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_HRID
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_YLGR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_GUNNTHRA_FJORM] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_GUNNTHRA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_FJORM
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_GUNNTHRA_YURG] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_GUNNTHRA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_YLGR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_FJORM_YURG] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_FJORM
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_YLGR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_YURG_HELBINDI] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_YLGR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_HELBINDI
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_LOKI_SURTR] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_LOKI
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_SURTR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_SURTR_LAEVATAIN] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_SURTR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_LAEVATAIN
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_SURTR_LAEGJARN] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_SURTR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_LAEGJARN
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_LAEVATAIN_LAEGJARN] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_LAEGJARN
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_LAEVATAIN
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_HEL_EIR] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_EIR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_HEL
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_HEL_LIF] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_HEL
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_LIF
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_HEL_SRASIR] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_HEL
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_THRASIR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_LIF_SRASIR] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_LIF
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_THRASIR
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_MIRABILIS_PEONY] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_PEONY
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_MIRABILIS
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_FREYJA_TRIANDRA] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_FREYJA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_TRIANDRA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_FREYJA_PLUMERIA] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_FREYJA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_PLUMERIA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_TRIANDRA_PLUMERIA] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_TRIANDRA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_PLUMERIA
+                    "" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
 #include "texts.txt"
 };
 

@@ -7,35 +7,143 @@
 #include "text_id.h"
 
 const struct SupportData supportDataTable[] = {
-    { // Alfonse
+    { // 0 Alfonse
         {CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID, CHARACTER_BRUNO_ID},
         {36, 72, 72},
         {2, 3, 2},
         3
     },
-    { // Anna
+    { // 1 Anna
         {CHARACTER_ALFONSE_ID, CHARACTER_SHARENA_ID, CHARACTER_BRUNO_ID},
         {36, 36, 36},
         {2, 2, 2},
         3
     },
-    { // Sharena
+    { // 2 Sharena
         {CHARACTER_ANNA_ID, CHARACTER_ALFONSE_ID, CHARACTER_BRUNO_ID},
         {36, 72, 36},
         {2, 3, 2},
         3
     },
-    { // Bruno
+    { // 3 Bruno
         {CHARACTER_ALFONSE_ID, CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID, CHARACTER_VERONICA_ID},
         {72, 36, 36, 72},
         {2, 2, 2, 3},
         4
     },
-    { // Veronica
+    { // 4 Veronica
         {CHARACTER_BRUNO_ID},
         {72},
         {3},
         1
+    },
+    { // 5 Hrid
+        {CHARACTER_GUNNTHRA_ID, CHARACTER_FJORM_ID, CHARACTER_YURG_ID},
+        {72, 72, 72},
+        {3, 3, 3},
+        3
+    },
+    { // 6 Gunnthra
+        {CHARACTER_HRID_ID, CHARACTER_FJORM_ID, CHARACTER_YURG_ID},
+        {72, 72, 72},
+        {3, 3, 3},
+        3
+    },
+    { // 7 Fjorm
+        {CHARACTER_GUNNTHRA_ID, CHARACTER_HRID_ID, CHARACTER_YURG_ID},
+        {72, 72, 72},
+        {3, 3, 3},
+        3
+    },
+    { // 8 Yurg
+        {CHARACTER_GUNNTHRA_ID, CHARACTER_FJORM_ID, CHARACTER_HRID_ID, CHARACTER_HELBINDI_ID},
+        {72, 72, 72, 72},
+        {3, 3, 3, 3},
+        4
+    },
+    { // 9 Helbindi
+        {CHARACTER_YURG_ID},
+        {72},
+        {3},
+        1
+    },
+    { // 10 Surtr
+        {CHARACTER_LOKI_ID, CHARACTER_LAEVATEIN_ID, CHARACTER_LAEGJARN_ID},
+        {36, 36, 36},
+        {2, 2, 2},
+        3
+    },
+    { // 11 Loki
+        {CHARACTER_SURTR_ID},
+        {36},
+        {2},
+        1
+    },
+    { // 12 Laevatain
+        {CHARACTER_SURTR_ID, CHARACTER_LAEGJARN_ID},
+        {36, 72},
+        {2, 3},
+        2
+    },
+    { // 13 Laegjarn
+        {CHARACTER_SURTR_ID, CHARACTER_LAEVATAIN_ID},
+        {36, 72},
+        {2, 3},
+        2
+    },
+    { // 14 Hel
+        {CHARACTER_EIR_ID, CHARACTER_SRASIR_ID, CHARACTER_LIF_ID},
+        {36, 36, 36},
+        {3, 2, 2},
+        3
+    },
+    { // 15 Eir
+        {CHARACTER_HELL_ID},
+        {36},
+        {3},
+        1
+    },
+    { // 16 Lif
+        {CHARACTER_HELL_ID, CHARACTER_SRASIR_ID},
+        {36, 36},
+        {2, 2},
+        2
+    },
+    { // 17 Srasir
+        {CHARACTER_HELL_ID, CHARACTER_LIF_ID},
+        {36, 36},
+        {2, 2},
+        2
+    },
+    { // 18 Mirabilis
+        {CHARACTER_PEONY_ID},
+        {36},
+        {2},
+        1
+    },
+    { // 19 Peony
+        {CHARACTER_MIRABILIS_ID},
+        {36},
+        {2},
+        1
+    },
+    { // 20 Freyja
+        {CHARACTER_TRIANDRA_ID, CHARACTER_PLUMERIA_ID},
+        {36, 36},
+        {2, 2},
+        2
+    },
+    { // 21 Triandra
+        {CHARACTER_FREYJA_ID, CHARACTER_PLUMERIA_ID},
+        {36, 36},
+        {2, 2},
+        2
+    },
+    { // 22 Plumeria
+        {CHARACTER_TRIANDRA_ID, CHARACTER_FREYJA_ID},
+        {36, 36},
+        {2, 2},
+        2
     },
     { // End of list
         {0},
@@ -100,6 +208,158 @@ const struct SupportConversation supportConversations[] = {
         TEXT_SUPPORT_BRUNO_VERONICA,
         TEXT_SUPPORT_BRUNO_VERONICA,
         TEXT_SUPPORT_BRUNO_VERONICA,
+        0
+    },
+    {
+        CHARACTER_HRID_ID,
+        CHARACTER_GUNNTHRA_ID,
+        TEXT_SUPPORT_HRID_GUNNTHRA,
+        TEXT_SUPPORT_HRID_GUNNTHRA,
+        TEXT_SUPPORT_HRID_GUNNTHRA,
+        0
+    },
+    {
+        CHARACTER_HRID_ID,
+        CHARACTER_FJORM_ID,
+        TEXT_SUPPORT_HRID_FJORM,
+        TEXT_SUPPORT_HRID_FJORM,
+        TEXT_SUPPORT_HRID_FJORM,
+        0
+    },
+    {
+        CHARACTER_HRID_ID,
+        CHARACTER_YURG_ID,
+        TEXT_SUPPORT_HRID_YURG,
+        TEXT_SUPPORT_HRID_YURG,
+        TEXT_SUPPORT_HRID_YURG,
+        0
+    },
+    {
+        CHARACTER_FJORM_ID,
+        CHARACTER_GUNNTHRA_ID,
+        TEXT_SUPPORT_GUNNTHRA_FJORM,
+        TEXT_SUPPORT_GUNNTHRA_FJORM,
+        TEXT_SUPPORT_GUNNTHRA_FJORM,
+        0
+    },
+    {
+        CHARACTER_YURG_ID,
+        CHARACTER_GUNNTHRA_ID,
+        TEXT_SUPPORT_GUNNTHRA_YURG,
+        TEXT_SUPPORT_GUNNTHRA_YURG,
+        TEXT_SUPPORT_GUNNTHRA_YURG,
+        0
+    },
+    {
+        CHARACTER_FJORM_ID,
+        CHARACTER_YURG_ID,
+        TEXT_SUPPORT_FJORM_YURG,
+        TEXT_SUPPORT_FJORM_YURG,
+        TEXT_SUPPORT_FJORM_YURG,
+        0
+    },
+    {
+        CHARACTER_YURG_ID,
+        CHARACTER_HELBINDI_ID,
+        TEXT_SUPPORT_YURG_HELBINDI,
+        TEXT_SUPPORT_YURG_HELBINDI,
+        TEXT_SUPPORT_YURG_HELBINDI,
+        0
+    },
+    {
+        CHARACTER_LOKI_ID,
+        CHARACTER_SURTR_ID,
+        TEXT_SUPPORT_LOKI_SURTR,
+        TEXT_SUPPORT_LOKI_SURTR,
+        TEXT_SUPPORT_LOKI_SURTR,
+        0
+    },
+    {
+        CHARACTER_SURTR_ID,
+        CHARACTER_LAEVATAIN_ID,
+        TEXT_SUPPORT_SURTR_LAEVATAIN,
+        TEXT_SUPPORT_SURTR_LAEVATAIN,
+        TEXT_SUPPORT_SURTR_LAEVATAIN,
+        0
+    },
+    {
+        CHARACTER_SURTR_ID,
+        CHARACTER_LAEGJARN_ID,
+        TEXT_SUPPORT_SURTR_LAEGJARN,
+        TEXT_SUPPORT_SURTR_LAEGJARN,
+        TEXT_SUPPORT_SURTR_LAEGJARN,
+        0
+    },
+    {
+        CHARACTER_LAEVATAIN_ID,
+        CHARACTER_LAEGJARN_ID,
+        TEXT_SUPPORT_LAEVATAIN_LAEGJARN,
+        TEXT_SUPPORT_LAEVATAIN_LAEGJARN,
+        TEXT_SUPPORT_LAEVATAIN_LAEGJARN,
+        0
+    },
+    {
+        CHARACTER_HELL_ID,
+        CHARACTER_EIR_ID,
+        TEXT_SUPPORT_HEL_EIR,
+        TEXT_SUPPORT_HEL_EIR,
+        TEXT_SUPPORT_HEL_EIR,
+        0
+    },
+    {
+        CHARACTER_HELL_ID,
+        CHARACTER_LIF_ID,
+        TEXT_SUPPORT_HEL_LIF,
+        TEXT_SUPPORT_HEL_LIF,
+        TEXT_SUPPORT_HEL_LIF,
+        0
+    },
+    {
+        CHARACTER_HELL_ID,
+        CHARACTER_SRASIR_ID,
+        TEXT_SUPPORT_HEL_SRASIR,
+        TEXT_SUPPORT_HEL_SRASIR,
+        TEXT_SUPPORT_HEL_SRASIR,
+        0
+    },
+    {
+        CHARACTER_LIF_ID,
+        CHARACTER_SRASIR_ID,
+        TEXT_SUPPORT_LIF_SRASIR,
+        TEXT_SUPPORT_LIF_SRASIR,
+        TEXT_SUPPORT_LIF_SRASIR,
+        0
+    },
+    {
+        CHARACTER_MIRABILIS_ID,
+        CHARACTER_PEONY_ID,
+        TEXT_SUPPORT_MIRABILIS_PEONY,
+        TEXT_SUPPORT_MIRABILIS_PEONY,
+        TEXT_SUPPORT_MIRABILIS_PEONY,
+        0
+    },
+    {
+        CHARACTER_FREYJA_ID,
+        CHARACTER_TRIANDRA_ID,
+        TEXT_SUPPORT_FREYJA_TRIANDRA,
+        TEXT_SUPPORT_FREYJA_TRIANDRA,
+        TEXT_SUPPORT_FREYJA_TRIANDRA,
+        0
+    },
+    {
+        CHARACTER_FREYJA_ID,
+        CHARACTER_PLUMERIA_ID,
+        TEXT_SUPPORT_FREYJA_PLUMERIA,
+        TEXT_SUPPORT_FREYJA_PLUMERIA,
+        TEXT_SUPPORT_FREYJA_PLUMERIA,
+        0
+    },
+    {
+        CHARACTER_TRIANDRA_ID,
+        CHARACTER_PLUMERIA_ID,
+        TEXT_SUPPORT_TRIANDRA_PLUMERIA,
+        TEXT_SUPPORT_TRIANDRA_PLUMERIA,
+        TEXT_SUPPORT_TRIANDRA_PLUMERIA,
         0
     },
     { // End of list
