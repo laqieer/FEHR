@@ -2351,7 +2351,7 @@ const char* const texts[] = {
                 TCC_LOAD_FACE
                     PORTRAIT_EIR
                     "お母様。。。"TCC_NEWLINE TCC_PUSH_A
-                    "お母様にとっては、私は娘じゃなかった。"TCC_NEWLINE TCC_PUSH_A
+                    "お母様にとっては、私は娘じゃなかった。"TCC_NEWLINE
                     "でも、私にとっては、お母様はたった一人の家族だった。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
@@ -2412,11 +2412,12 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_PEONY
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "おねぼうさん、起きて。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_MIRABILIS
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "ふわぁ。。。"TCC_NEWLINE
+                    "おはようございますぅ。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
