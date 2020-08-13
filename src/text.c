@@ -2350,11 +2350,13 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_EIR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "お母様。。。"TCC_NEWLINE TCC_PUSH_A
+                    "お母様にとっては、私は娘じゃなかった。"TCC_NEWLINE TCC_PUSH_A
+                    "でも、私にとっては、お母様はたった一人の家族だった。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_HEL
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2365,11 +2367,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HEL
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "リーヴ" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_LIF
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "はい" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2380,11 +2382,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HEL
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "スラシル" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_THRASIR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "はい" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
@@ -2395,11 +2397,11 @@ const char* const texts[] = {
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_LIF
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "ああ" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_THRASIR
-                    "" TCC_NEWLINE TCC_PUSH_A
+                    "どうしたの？" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
