@@ -2469,6 +2469,36 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
+       [TEXT_SUPPORT_GUSTAF_ALFONSE] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_GUSTAF
+                    "アルフォンス" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_ALFONSE
+                    "父上" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_GUSTAF_SHARENA] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_GUSTAF
+                    "シャロン" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_SHARENA
+                    "お父様" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
 #include "texts.txt"
 };
 

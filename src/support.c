@@ -8,10 +8,10 @@
 
 const struct SupportData supportDataTable[] = {
     { // 0 Alfonse
-        {CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID, CHARACTER_BRUNO_ID},
-        {36, 72, 72},
-        {2, 3, 2},
-        3
+        {CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID, CHARACTER_BRUNO_ID, CHARACTER_GUSTAF_ID},
+        {36, 72, 72, 72},
+        {2, 3, 2, 3},
+        4
     },
     { // 1 Anna
         {CHARACTER_ALFONSE_ID, CHARACTER_SHARENA_ID, CHARACTER_BRUNO_ID},
@@ -20,10 +20,10 @@ const struct SupportData supportDataTable[] = {
         3
     },
     { // 2 Sharena
-        {CHARACTER_ANNA_ID, CHARACTER_ALFONSE_ID, CHARACTER_BRUNO_ID},
-        {36, 72, 36},
-        {2, 3, 2},
-        3
+        {CHARACTER_ANNA_ID, CHARACTER_ALFONSE_ID, CHARACTER_BRUNO_ID, CHARACTER_GUSTAF_ID},
+        {36, 72, 36, 72},
+        {2, 3, 2, 3},
+        4
     },
     { // 3 Bruno
         {CHARACTER_ALFONSE_ID, CHARACTER_ANNA_ID, CHARACTER_SHARENA_ID, CHARACTER_VERONICA_ID},
@@ -143,6 +143,12 @@ const struct SupportData supportDataTable[] = {
         {CHARACTER_TRIANDRA_ID, CHARACTER_FREYJA_ID},
         {36, 36},
         {2, 2},
+        2
+    },
+    { // 23 Gustaf
+        {CHARACTER_ALFONSE_ID, CHARACTER_SHARENA_ID},
+        {72, 72},
+        {3, 3},
         2
     },
     { // End of list
@@ -360,6 +366,22 @@ const struct SupportConversation supportConversations[] = {
         TEXT_SUPPORT_TRIANDRA_PLUMERIA,
         TEXT_SUPPORT_TRIANDRA_PLUMERIA,
         TEXT_SUPPORT_TRIANDRA_PLUMERIA,
+        0
+    },
+    {
+        CHARACTER_GUSTAF_ID,
+        CHARACTER_ALFONSE_ID,
+        TEXT_SUPPORT_GUSTAF_ALFONSE,
+        TEXT_SUPPORT_GUSTAF_ALFONSE,
+        TEXT_SUPPORT_GUSTAF_ALFONSE,
+        0
+    },
+    {
+        CHARACTER_GUSTAF_ID,
+        CHARACTER_SHARENA_ID,
+        TEXT_SUPPORT_GUSTAF_SHARENA,
+        TEXT_SUPPORT_GUSTAF_SHARENA,
+        TEXT_SUPPORT_GUSTAF_SHARENA,
         0
     },
     { // End of list
