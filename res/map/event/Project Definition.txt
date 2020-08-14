@@ -15,8 +15,8 @@
 #define Anna Hector
 #define Sharena Lyn_t
 
-#define Bruno Ursula
-#define Veronica Sonia
+#define Bruno Wil_t
+#define Veronica Fargus
 #define Xander Maxime
 
 #define Eir Florina_t
@@ -36,9 +36,9 @@
 #define Srasir Erk
 #define Yurg Nino
 #define Ylgr Nino
-#define Hell Nergal
+#define Hell Bartre
 #define Hel Hell
-#define Gustaf Elbert
+#define Gustaf Oswin
 #define Mirabilis Florina
 #define Scabiosa Fiora
 #define Triandra Scabiosa
