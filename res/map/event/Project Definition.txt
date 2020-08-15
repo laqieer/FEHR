@@ -162,4 +162,7 @@
 // AI
 #define DefaultAi4 DefaultAI4
 
+// Background
+#define BG001BraveForest 0
+
 #endif

@@ -86,6 +86,12 @@ infos = {
         "list": "Item Spell Association.txt",
         "startIndex": 0
     },
+    "EvtCmdHandler" : {
+        "format": "u32u32<",
+        "start": 0xc00038,
+        "list": "EvtCmdHandler.txt",
+        "startIndex": 0
+    }
 }
 
 structName = sys.argv[1]

@@ -69,6 +69,8 @@ gBattleHitArray = 0x203a4ec;
 decodedText = 0x202A5B0;
 lastTextID = 0x202B5B0;
 
+DISPCNTBuffer = 0x3002790;
+
 gWorkingBmMap = 0x3004100;
 
 gBattleHitIterator = 0x203a508;
@@ -104,6 +106,14 @@ REG_BG1CNT_BUFFER = 0x30027A0;
 REG_BG2CNT_BUFFER = 0x30027A4;
 REG_BG3CNT_BUFFER = 0x30027A8;
 REG_BLDCNT_BUFFER = 0x30027CC;
+REG_BG2PA_BUFFER = 0x30027D8;
+REG_BG2PB_BUFFER = 0x30027DA;
+REG_BG2PC_BUFFER = 0x30027DC;
+REG_BG2PD_BUFFER = 0x30027DE;
+REG_BG2X_BUFFER = 0x30027E0;
+REG_BG2Y_BUFFER = 0x30027E4;
+
+BGTiles = 0x6002800;
 
 portraitTSALowOrig = 0x81911D4;
 portraitTSAHighOrig = 0x819128C;
@@ -117,6 +127,8 @@ GetGameClock = 0x8000eed;
 setBGMapBufferSyncFlag = 0x8000FD5;
 EnablePaletteSync = 0x8001035;
 writeBGPalette = 0x800105D;
+GetBackgroundTileDataOffset = 0x8001371;
+SetBgPosition = 0x8001d65;
 RegisterTileGraphics = 0x8002f55;
 enableOAMBufferSync = 0x80031BD;
 setOBJAttribute = 0x8003215;
@@ -154,6 +166,7 @@ playEyeAnimationOrig = 0x80075F1;
 playMouthAnimationOrig = 0x800749D;
 StartDialogue = 0x8007e09;
 newPopup = 0x800ace9;
+func800ec08 = 0x800ec09;
 GetItemHit = 0x8017701;
 GetItemWeight = 0x8017719;
 GetItemCrit = 0x8017731;
@@ -214,6 +227,7 @@ BattleGenerateHitTriangleAttack = 0x80297d5;
 BattleGenerateHitAttributesOriginal = 0x8029715;
 BattleGenerateHitEffects = 0x802984d;
 BattleApplyReaverEffect = 0x802a5d1;
+LockGameGraphicsLogic = 0x802d875;
 HandleActiveUnitDeath = 0x802ff61;
 NewBottomHelpText = 0x8032a91;
 func8033a38 = 0x8033a39;
@@ -242,6 +256,7 @@ AnimEvtCode2FHandler = 0x80543a5;
 AnimEvtCode3DHandler = 0x805441f;
 isAnimationAtRight = 0x8054E61;
 endProcLevelUp = 0x806a299;
+func806d51c = 0x806d51d;
 DrawStatBar = 0x8080601;
 DrawStatWithBar = 0x8080a95;
 DisplayPage1 = 0x8080e05;
@@ -455,6 +470,7 @@ SECTIONS
     INCLUDE ../lds/patch_enable_BWL_display_at_first.ld
     INCLUDE ../lds/patch_disable_suspend.ld
     INCLUDE ../lds/item_icon.ld
+    /*INCLUDE ../lds/event_handler.ld*/
     INCLUDE ../lds/patch_expand_icon_amount.ld
     INCLUDE ../lds/patch_unit_auto_level_weapon_rank_with_weapon_lock.ld
     INCLUDE ../lds/patch_fix_map_sprite_overwrite_dialogue_portrait.ld
