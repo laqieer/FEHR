@@ -82,13 +82,9 @@
 #define MUS3 .hword 0x79,
 #define SOUN .hword 0x7d,
 
-// Show CG/BG
+// Show CG
 #define BACG .hword 5,
 #define SHCG .hword 0xd6,
-/*#define LOBG .hword 0xec,
-#define CLBG .word 0xed
-#define LoadBG(id) LOBG id
-#define ClearBG CLBG*/
 
 // Gives item to the current character, like in villages.
 #define ITGV .word 0x59,
