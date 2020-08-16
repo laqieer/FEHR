@@ -16,8 +16,8 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":18,
- "tiledversion":"1.4.1",
+ "tilecount":19,
+ "tiledversion":"1.4.2",
  "tileheight":24,
  "tiles":[
         {
@@ -127,6 +127,12 @@
          "image":"player_units\/FalcoKnight.png",
          "imageheight":23,
          "imagewidth":16
+        }, 
+        {
+         "id":18,
+         "image":"player_units\/Paladin.png",
+         "imageheight":20,
+         "imagewidth":15
         }],
  "tilewidth":16,
  "type":"tileset",

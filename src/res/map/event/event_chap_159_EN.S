@@ -65,7 +65,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Surtr,General,Anna,7,17,7,17)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Gustaf,Paladin,0,25,SIDE_ENEMY,1,6,5,6,5,Armads,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // グスタフ
+	UNIT(0x7B,Paladin,0,25,SIDE_ENEMY,1,6,5,6,5,Armads,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // グスタフ
 	UNIT(GenericSummonedStrong,FalcoKnight,0,25,SIDE_ENEMY,1,8,5,8,5,SilverLance,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ティト
 	UNIT(GenericSummonedStrong,NomadTrooper_F,0,25,SIDE_ENEMY,1,10,4,10,4,ShortBow,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // スー
 	UNIT(GenericHelStrong,Druid,0,25,SIDE_ENEMY,1,4,4,4,4,Nosferatu,Eclipse,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // レッドマージ
