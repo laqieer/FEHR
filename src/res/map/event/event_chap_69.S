@@ -33,6 +33,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG007_SnowDreaming)
 	TEX1 MID_SCENARIO_OPENING_S1601
 REMA
 	ClearSpecialSkillCD
@@ -48,6 +49,7 @@ REMA
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_EVENT_1
+ShowBG(BG005_Castle)
 	TEX1 MID_SCENARIO_ENDING_S1601
 REMA
     UnlockBook1ClearAchievement

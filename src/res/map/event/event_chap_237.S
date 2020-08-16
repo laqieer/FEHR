@@ -45,6 +45,7 @@ BeginningScene:
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(EvBg_Svartalf)
 	TEX1 MID_SCENARIO_ENDING_S4083
 	REMA
 	MNCH 238

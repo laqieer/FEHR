@@ -38,6 +38,7 @@ Event10:
 	ENDA
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG001_BraveForest)
 	TEX1 MID_SCENARIO_OPENING_S2041_EN
 REMA
 	ClearSpecialSkillCD

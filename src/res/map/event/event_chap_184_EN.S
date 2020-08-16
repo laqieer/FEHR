@@ -35,6 +35,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(EvBg_AngrbodaTemple)
 	TEX1 MID_SCENARIO_OPENING_S3105_EN
 	REMA
 	ClearSpecialSkillCD

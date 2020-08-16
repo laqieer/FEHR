@@ -45,6 +45,7 @@ BeginningScene:
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG026_Muspel)
 	TEX1 MID_SCENARIO_ENDING_S2112
 	REMA
 	MNCH 122

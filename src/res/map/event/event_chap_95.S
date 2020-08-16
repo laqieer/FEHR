@@ -33,6 +33,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG007_SnowDreaming)
 	TEX1 MID_SCENARIO_OPENING_S2061
 REMA
 	ClearSpecialSkillCD

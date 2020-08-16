@@ -45,6 +45,7 @@ BeginningScene:
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG002_PlainForestInside)
 	TEX1 MID_SCENARIO_ENDING_S4052_EN
 	REMA
 	MNCH 222

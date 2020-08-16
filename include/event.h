@@ -85,6 +85,15 @@
 // Show CG
 #define BACG .hword 5,
 #define SHCG .hword 0xd6,
+#define FADI .hword 0x8c,
+#define FADU .hword 0x8d,
+#define HIDEMAP .word 0x90
+#define SHOWMAP .word 0x91
+#define ShowBG(backgroundId) FADI 0x10;\
+    HIDEMAP;\
+    BACG backgroundId;\
+    FADU 0x10;\
+    SHOWMAP
 
 // Gives item to the current character, like in villages.
 #define ITGV .word 0x59,

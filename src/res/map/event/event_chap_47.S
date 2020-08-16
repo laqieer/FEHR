@@ -45,6 +45,7 @@ REMA
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6B
+ShowBG(BG001_Brave)
 	TEX1 TEXT_CHAP_47_ED
 REMA
 	MNCH 48

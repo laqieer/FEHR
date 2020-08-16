@@ -33,6 +33,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG026_Muspel)
 	TEX1 MID_SCENARIO_OPENING_S2121_EN
 	REMA
 	ClearSpecialSkillCD

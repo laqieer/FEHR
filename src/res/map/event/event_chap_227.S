@@ -45,6 +45,7 @@ BeginningScene:
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG001_BraveForest)
 	TEX1 MID_SCENARIO_ENDING_S4063
 	REMA
 	MNCH 228

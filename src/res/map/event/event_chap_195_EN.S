@@ -33,6 +33,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(EvBg_Chapter3_Hell)
 	TEX1 MID_SCENARIO_OPENING_S3131_EN
 	REMA
 	ClearSpecialSkillCD

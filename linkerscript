@@ -117,6 +117,8 @@ GetGameClock = 0x8000eed;
 setBGMapBufferSyncFlag = 0x8000FD5;
 EnablePaletteSync = 0x8001035;
 writeBGPalette = 0x800105D;
+GetBackgroundTileDataOffset = 0x8001371;
+SetBgPosition = 0x8001d65;
 RegisterTileGraphics = 0x8002f55;
 enableOAMBufferSync = 0x80031BD;
 setOBJAttribute = 0x8003215;
@@ -154,6 +156,7 @@ playEyeAnimationOrig = 0x80075F1;
 playMouthAnimationOrig = 0x800749D;
 StartDialogue = 0x8007e09;
 newPopup = 0x800ace9;
+func800ec08 = 0x800ec09;
 GetItemHit = 0x8017701;
 GetItemWeight = 0x8017719;
 GetItemCrit = 0x8017731;
@@ -459,6 +462,7 @@ SECTIONS
     INCLUDE ../lds/patch_unit_auto_level_weapon_rank_with_weapon_lock.ld
     INCLUDE ../lds/patch_fix_map_sprite_overwrite_dialogue_portrait.ld
     INCLUDE ../lds/patch_allow_animation_off_for_fire_dragon.ld
+    INCLUDE ../lds/background.ld
 	. = 0xE007400;
 	.bss.skill : {*/skill.*(.bss.g*)}
 	.bss.buff : {*/buff.*(.bss.*)}

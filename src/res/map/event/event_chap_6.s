@@ -1,4 +1,5 @@
 	.section .rodata
+	#include "event.h"
 	.align 2
 	.global event_chap_6
 event_chap_6:

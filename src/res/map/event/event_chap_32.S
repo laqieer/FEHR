@@ -45,6 +45,7 @@ REMA
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_EVENT_1
+ShowBG(BG005_CastleJP)
 	TEX1 TEXT_CHAP_32_ED
 REMA
 	MNCH 33

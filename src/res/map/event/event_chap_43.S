@@ -39,6 +39,7 @@ BeginningScene:
 	ENUN
 	UpdateSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG001_Brave)
 	TEX1 TEXT_CHAP_43_OP
 REMA
 	ENDA

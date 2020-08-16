@@ -45,6 +45,7 @@ BeginningScene:
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG002_ForestNight)
 	TEX1 MID_SCENARIO_ENDING_S3083_EN
 	REMA
 	MNCH 173

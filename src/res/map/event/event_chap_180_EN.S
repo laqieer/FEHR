@@ -33,6 +33,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG005_Castle)
 	TEX1 MID_SCENARIO_OPENING_S3101_EN
 	REMA
 	ClearSpecialSkillCD

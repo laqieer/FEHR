@@ -162,4 +162,41 @@
 // AI
 #define DefaultAi4 DefaultAI4
 
+// Background
+#define BG001_Brave 0
+#define BG001_BraveAttack 1
+#define BG001_BraveForest 2
+#define BG001_BraveInside 3
+#define BG002_ForestNight 4
+#define BG002_PlainForest 5
+#define BG002_PlainForestInside 6
+#define BG002_PlainSea 7
+#define BG003_Volcano 8
+#define BG005_Castle 9
+#define BG005_CastleJP 10
+#define BG007_SnowDreaming 11
+#define BG013_ChristmasForest 12
+#define BG014_GaidenCastle 13
+#define BG022_ByakuyaSummer 14
+#define BG022_DreameInvisibleKingdom 15
+#define BG024_Valentine 16
+#define BG025_NiflPlain 17
+#define BG026_Muspel 18
+#define BG026_MuspelCastle 19
+#define BG026_MuspelNightForest 20
+#define BG026_MuspelTemple 21
+#define EvBg_Alfheim 22
+#define EvBg_Alfheim_Throne 23
+#define EvBg_AngrbodaTemple 24
+#define EvBg_BraveHell 25
+#define EvBg_BraveTwilight 26
+#define EvBg_BrideChurch_Outside 27
+#define EvBg_Chapter3_BraveHellGate 28
+#define EvBg_Chapter3_BraveInside 29
+#define EvBg_Chapter3_Hell 30
+#define EvBg_Chapter3_HellDoor 31
+#define EvBg_Easter2 32
+#define EvBg_Svartalf 33
+#define EvBg_Throne_Brave 34
+
 #endif

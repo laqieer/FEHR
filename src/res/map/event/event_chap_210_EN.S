@@ -33,6 +33,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(EvBg_Alfheim_Throne)
 	TEX1 MID_SCENARIO_OPENING_S4031_EN
 	REMA
 	ClearSpecialSkillCD
@@ -48,6 +49,7 @@ BeginningScene:
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(EvBg_Alfheim)
 	TEX1 MID_SCENARIO_ENDING_S4031_EN
 	REMA
 	MNCH 211

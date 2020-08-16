@@ -1,0 +1,12 @@
+. = 0x800B7B0;
+.rodata.pBackgrounds1 : {*(.rodata.pBackgrounds1)}
+. = 0x800B83C;
+.rodata.pBackgrounds2 : {*(.rodata.pBackgrounds2)}
+. = 0x8010E70;
+.rodata.pBackgrounds3 : {*(.rodata.pBackgrounds3)}
+. = 0x8011090;
+.rodata.pBackgrounds4 : {*(.rodata.pBackgrounds4)}
+. = 0x800b58e;
+.rodata.backgroundAmount : {*(.rodata.backgroundAmount)}
+. = 0x800b72c;
+.text.loadBackgroundInjector : {*(.text.loadBackgroundInjector)}

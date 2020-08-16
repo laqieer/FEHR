@@ -44,6 +44,7 @@ REMA
 	ENDA
 EndingScene:
     MUSC MUSIC_FE_H_EVENT_1
+ShowBG(BG002_PlainForest)
     TEX1 TEXT_CHAP_22_ED
 REMA
 	MNCH 23

@@ -33,6 +33,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_SHIPS_AND_HOMES
+ShowBG(BG014_GaidenCastle)
 	TEX1 MID_SCENARIO_OPENING_S3011_EN
 	REMA
 	ClearSpecialSkillCD

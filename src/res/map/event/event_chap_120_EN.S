@@ -36,6 +36,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG026_Muspel)
 	TEX1 MID_SCENARIO_OPENING_S2111_EN
 REMA
 	ClearSpecialSkillCD
@@ -75,6 +76,7 @@ NPCUnits:
 	END_UNIT
 HridJoin:
     MUSC MUSIC_TOGETHER_WE_RIDE
+ShowBG(BG026_Muspel)
     TEX1 MID_SCENARIO_ENDING_S2111_EN
 REMA
     CharacterJoin(Hrid)

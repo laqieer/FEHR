@@ -40,6 +40,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(BG001_Brave)
 	TEX1 MID_SCENARIO_OPENING_S1501_EN
 REMA
 	ClearSpecialSkillCD
@@ -55,6 +56,7 @@ REMA
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_EVENT_1
+ShowBG(BG005_Castle)
 	TEX1 MID_SCENARIO_ENDING_S1501_EN
 REMA
 	MNCH 69

@@ -35,6 +35,7 @@ MiscBasedEvents:
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(EvBg_Chapter3_BraveInside)
 	TEX1 MID_SCENARIO_OPENING_S3055
 	REMA
 	ClearSpecialSkillCD
@@ -53,6 +54,7 @@ EndingScene:
 	TEX1 MID_SCENARIO_MAP_END_S3055
 	REMA
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(EvBg_Chapter3_BraveHellGate)
 	TEX1 MID_SCENARIO_ENDING_S3055
 	REMA
 	MNCH 160

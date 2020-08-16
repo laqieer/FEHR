@@ -45,6 +45,7 @@ BeginningScene:
 EndingScene:
 	ClearSpecialSkillCD
 	MUSC MUSIC_FE_H_SERIOUS_6
+ShowBG(EvBg_BraveHell)
 	TEX1 MID_SCENARIO_ENDING_S4064
 	REMA
 	MNCH 229

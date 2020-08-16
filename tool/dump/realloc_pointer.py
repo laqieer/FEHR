@@ -21,6 +21,7 @@ ptrs = {
     "OptionMenuItemInfo": b'\xc4\xf0\xda\x08',
     "ItemSpellAssociation": b'\x78\x16\xd6\x08',
     "ItemIcon": b'\xf4\x12\x0c\x08',
+    "Background": b'\x98\x07\xc0\x08',
 }
 
 structName = sys.argv[1]
