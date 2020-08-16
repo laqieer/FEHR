@@ -962,8 +962,8 @@ const char* const texts[] = {
         [TEXT_CHAP_243_TITLE] = "‹s‚°‚ç‚ê‚éŽq‚½‚¿",
         [TEXT_CHAP_244_TITLE] = "‚·‚×‚Ä‚Ì–²‚Ì‰¤",
 
-        [TEXT_CHAP_245_TITLE] = "",
-        [TEXT_CHAP_246_TITLE] = "",
+        [TEXT_CHAP_245_TITLE] = "‰ä‚Í“ð‚ð¢Š«‚·",
+        [TEXT_CHAP_246_TITLE] = "“`³‚ÉžH‚­",
         [TEXT_CHAP_247_TITLE] = "",
         [TEXT_CHAP_248_TITLE] = "",
         [TEXT_CHAP_249_TITLE] = "",
