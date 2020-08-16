@@ -4,12 +4,6 @@
 
 #include <gba_types.h>
 
-extern u8 chapter_title_pre[];
-extern u8 chapter_title_1[];
-extern u8 chapter_title_2[];
-extern u8 chapter_title_3[];
-extern u8 chapter_title_4_lz[];
-
 // awk 'BEGIN{for(i=0; i<220; i++) print "extern u8 chapter_title_"i"[];"}'
 
 extern u8 chapter_titles_0_lz[];
@@ -257,6 +251,8 @@ extern u8 chapter_titles_241_lz[];
 extern u8 chapter_titles_242_lz[];
 extern u8 chapter_titles_243_lz[];
 extern u8 chapter_titles_244_lz[];
+extern u8 chapter_titles_245_lz[];
+extern u8 chapter_titles_246_lz[];
 extern u8 chapter_titles_no_data[];
 
 const u8 * const chapterTitles[] = {
@@ -506,6 +502,8 @@ const u8 * const chapterTitles[] = {
         chapter_titles_242_lz,
         chapter_titles_243_lz,
         chapter_titles_244_lz,
+        chapter_titles_245_lz,
+        chapter_titles_246_lz,
 
         [255] = chapter_titles_no_data,
 };
