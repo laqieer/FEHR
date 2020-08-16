@@ -49,7 +49,11 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 |---|---|---|
 |mGBA|0.8.3|OK|
 |visualboyadvance-m|2.1.4|OK|
-|My Boy! Free|1.8.0|OK|
+|Boycott Advance|0.4.2|Not OK|
+|My Boy!|1.8.0|OK|
+|John GBA Lite|3.91|OK|
+|GBA.emu|1.5.37|OK|
+|GBA.js|1.1|Not OK|
 
 ### Flashcart
 
