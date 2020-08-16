@@ -137,11 +137,22 @@ var ChapterEvent = {
                 }
             }
         }
+        var scenario = JSON.parse(scenarioText);
+        console.log(JSON.stringify(scenario));
 
         // Beginning Scene
         file.writeLine("BeginningScene:");
         if(scenarioText.indexOf("\"MID_SCENARIO_OPENING\"") != -1) {
             file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6");
+            for(i in scenario) {
+                if(scenario[i].key == "MID_SCENARIO_OPENING_IMAGE") {
+                    if(scenario[i].value.startsWith("E")) {
+                        file.writeLine("\tShowBG(" + scenario[i].value + ")");
+                    } else {
+                        file.writeLine("\tShowBG(BG" + scenario[i].value + ")");
+                    }
+                }
+            }
             file.writeLine("\tTEX1 MID_SCENARIO_OPENING_" + mapName);
             file.writeLine("\tREMA");
         }
@@ -178,6 +189,15 @@ var ChapterEvent = {
         }
         if(scenarioText.indexOf("\"MID_SCENARIO_ENDING\"") != -1) {
             file.writeLine("\tMUSC MUSIC_FE_H_SERIOUS_6");
+            for(i in scenario) {
+                if(scenario[i].key == "MID_SCENARIO_ENDING_IMAGE") {
+                    if(scenario[i].value.startsWith("E")) {
+                        file.writeLine("\tShowBG(" + scenario[i].value + ")");
+                    } else {
+                        file.writeLine("\tShowBG(BG" + scenario[i].value + ")");
+                    }
+                }
+            }
             file.writeLine("\tTEX1 MID_SCENARIO_ENDING_" + mapName);
             file.writeLine("\tREMA");
         }
