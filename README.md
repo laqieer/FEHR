@@ -25,7 +25,7 @@ cd build && make
 
 |Provider|Status|
 |---|---|
-|[Circle CI](https://circleci.com/)|[![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://app.circleci.com/gh/laqieer/fe7-jp-stunning-tribble/pipelines)|
+|[Circle CI](https://circleci.com/)|[![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://app.circleci.com/pipelines/github/laqieer/fe7-jp-stunning-tribble)|
 |[Cirrus CI](https://cirrus-ci.org/)|[![Build Status](https://api.cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble.svg)](https://cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble)|
 |[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079/badge.svg?token=04d9785a0636914175da8f17c5e66596a002faf43e68051077e30328eb070fe8 "buddy pipeline")](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079)|
 
