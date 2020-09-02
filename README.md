@@ -54,6 +54,7 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 |John GBA Lite|3.91|OK|
 |GBA.emu|1.5.37|OK|
 |GBA.js|1.1|Not OK|
+|NanoboyAdvance|1.2|OK|
 
 ### Flashcart
 
