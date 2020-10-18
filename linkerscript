@@ -450,7 +450,7 @@ SECTIONS
     INCLUDE ../lds/promotion.ld
     INCLUDE ../lds/patch_song_music_track_note.ld
     INCLUDE ../lds/animation.ld
-    INCLUDE ../lds/patch_expand_animation_script_compression_type.ld
+    INCLUDE ../lds/patch_expand_animation_compression_type.ld
     INCLUDE ../lds/patch_opening_movie_disabler.ld
     INCLUDE ../lds/death_quote.ld
     INCLUDE ../lds/patch_expand_chapter_amount.ld
