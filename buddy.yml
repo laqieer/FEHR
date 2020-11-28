@@ -1,10 +1,13 @@
-- pipeline: "Build"
+- pipeline: "Release"
   trigger_mode: "ON_EVERY_PUSH"
   ref_name: "refs/tags/*"
   ref_type: "WILDCARD"
-  trigger_condition: "ALWAYS"
+  priority: "NORMAL"
+  target_site_url: "https://github.com/laqieer/fe7-jp-stunning-tribble"
+  fail_on_prepare_env_warning: true
+  trigger_condition: "ON_CHANGE"
   actions:
-    - action: "Build"
+    - action: "Release"
       type: "BUILD"
       working_directory: "/buddy/fe7-jp-stunning-tribble"
       docker_image_name: "devkitpro/devkitarm"
