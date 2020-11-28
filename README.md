@@ -87,6 +87,7 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 |Phantom|Axe, HandAxe|TBA, Arch, Skitty, Temp|
 |Ghost Fire|Magic|Eldritch Abomination|
 |Skelemonk|Magic|JonoTheRed|
+|Anna|Axe, HandAxe|Greentea(qiuzf007)|
 
 ### Item Icon
 
