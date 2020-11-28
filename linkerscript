@@ -299,6 +299,10 @@ WalkingSoundFireDragon = 0x8d64efe;
 WalkingSoundInfantry = 0x8d64e10;
 WalkingSoundArmour = 0x8d64e34;
 
+IronBallistaAnimationPal = 0x81dfe78;
+BallistaAnimationPal = 0x81dfe98;
+KillerBallistaAnimationPal = 0x81dfeb8;
+
 SECTIONS
 {
 	. = 0x8000000;
@@ -462,6 +466,7 @@ SECTIONS
     INCLUDE ../lds/patch_unit_auto_level_weapon_rank_with_weapon_lock.ld
     INCLUDE ../lds/patch_fix_map_sprite_overwrite_dialogue_portrait.ld
     INCLUDE ../lds/patch_allow_animation_off_for_fire_dragon.ld
+    INCLUDE ../lds/patch_animation_palette_extension.lds
     INCLUDE ../lds/background.ld
 	. = 0xE007400;
 	.bss.skill : {*/skill.*(.bss.g*)}

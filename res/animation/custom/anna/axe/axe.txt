@@ -1,0 +1,192 @@
+/// - Mode 1
+C03
+C07
+1 p- 0001.png
+5 p- 0002.png
+5 p- 0003.png
+5 p- 0004.png
+8 p- 0005.png
+C41
+4 p- 0006.png
+4 p- 0007.png
+3 p- 0008.png
+3 p- 0009.png
+20 p- 0010.png
+C15
+4 p- 0011.png
+2 p- 0012.png
+2 p- 0013.png
+2 p- 0014.png
+2 p- 0015.png
+4 p- 0016.png
+6 p- 0017.png
+2 p- 0018.png
+2 p- 0019.png
+2 p- 0020.png
+C42
+C04
+3 p- 0021.png
+C14
+C1A
+C1F
+3 p- 0022.png
+2 p- 0023.png
+2 p- 0024.png
+2 p- 0025.png
+1 p- 0026.png
+C01
+C15
+C41
+5 p- 0027.png
+4 p- 0028.png
+3 p- 0029.png
+C06
+1 p- 0030.png
+5 p- 0031.png
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+1 p- 0032.png
+C41
+5 p- 0033.png
+5 p- 0034.png
+5 p- 0035.png
+20 p- 0036.png
+5 p- 0037.png
+2 p- 0038.png
+2 p- 0039.png
+1 p- 0040.png
+1 p- 0041.png
+1 p- 0042.png
+C42
+3 p- 0043.png
+4 p- 0044.png
+4 p- 0045.png
+4 p- 0046.png
+4 p- 0047.png
+6 p- 0048.png
+C41
+4 p- 0049.png
+4 p- 0050.png
+3 p- 0051.png
+3 p- 0052.png
+20 p- 0053.png
+C15
+4 p- 0054.png
+2 p- 0055.png
+2 p- 0056.png
+2 p- 0057.png
+2 p- 0058.png
+4 p- 0059.png
+6 p- 0060.png
+2 p- 0061.png
+2 p- 0062.png
+2 p- 0063.png
+C42
+C04
+3 p- 0064.png
+C14
+C0A
+C1F
+3 p- 0065.png
+2 p- 0066.png
+2 p- 0067.png
+2 p- 0068.png
+1 p- 0069.png
+C01
+C41
+C15
+5 p- 0070.png
+4 p- 0071.png
+3 p- 0072.png
+C06
+1 p- 0073.png
+5 p- 0074.png
+C0D
+~~~
+/// - Mode 5
+4 p- 0075.png
+~~~
+/// - Mode 6
+4 p- 0076.png
+~~~
+/// - Mode 7
+C02
+1 p- 0077.png
+C0E
+3 p- 0078.png
+1 p- 0079.png
+C01
+3 p- 0080.png
+C0D
+~~~
+/// - Mode 8
+C02
+1 p- 0081.png
+C0E
+3 p- 0078.png
+1 p- 0079.png
+C01
+3 p- 0080.png
+C0D
+~~~
+/// - Mode 9
+1 p- 0001.png
+C01
+~~~
+/// - Mode 10
+1 p- 0001.png
+C01
+~~~
+/// - Mode 11
+1 p- 0001.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+1 p- 0001.png
+5 p- 0002.png
+5 p- 0003.png
+5 p- 0004.png
+8 p- 0005.png
+C41
+4 p- 0006.png
+4 p- 0007.png
+3 p- 0008.png
+3 p- 0009.png
+20 p- 0010.png
+C15
+4 p- 0011.png
+2 p- 0012.png
+2 p- 0013.png
+2 p- 0014.png
+2 p- 0015.png
+4 p- 0016.png
+6 p- 0017.png
+2 p- 0018.png
+2 p- 0019.png
+2 p- 0020.png
+C42
+C04
+3 p- 0021.png
+C14
+3 p- 0022.png
+2 p- 0023.png
+2 p- 0024.png
+2 p- 0025.png
+1 p- 0026.png
+C01
+C14
+C41
+5 p- 0027.png
+4 p- 0028.png
+3 p- 0029.png
+C06
+1 p- 0030.png
+5 p- 0031.png
+C0D
+~~~
+/// - End of animation

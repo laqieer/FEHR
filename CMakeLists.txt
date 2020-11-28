@@ -15,7 +15,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 include(devkitPro)
 include(grit)
 
-file(GLOB_RECURSE DIR_SRCS src/*.h src/*.c src/*.s src/*.S src/res/text/*.txt)
+file(GLOB_RECURSE DIR_SRCS src/*.h src/*.inc src/*.c src/*.s src/*.S src/res/text/*.txt)
 set_source_files_properties(src/dummy.c PROPERTIES OBJECT_DEPENDS ${CMAKE_SOURCE_DIR}/linkerscript)
 
 process_gfx(GFX_SRCS font.grit title_screen_book_1.grit title_screen_book_2.grit title_screen_book_3.grit title_screen_book_4.grit stat_screen_page_name_skill.grit special_skill_icon.grit skill_page_icons_1.grit skill_page_icons_2.grit item_icons.grit trophy.grit standing_sprite_Alfonse.grit moving_sprite_Alfonse.grit standing_sprite_Anna.grit moving_sprite_Anna.grit standing_sprite_Sharena.grit moving_sprite_Sharena.grit standing_sprite_MageKnight.grit moving_sprite_MageKnight.grit portrait_Lord_classcard.grit classcard_MageKnight.grit classcard_Halberdier.grit chapter_opening_background.grit option_menu_icons.grit standing_sprite_Halberdier.grit moving_sprite_Halberdier.grit
@@ -32,7 +32,7 @@ process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit portrait_Anna_comma
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT})
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE C)
-target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx res/voice/include res/se/include src/res/text)
+target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx src/res/animation/include res/voice/include res/se/include src/res/text)
 find_library(VOICE_LIBRARY voice HINTS res/voice/lib)
 find_library(SE_LIBRARY se HINTS res/se/lib)
 target_link_libraries(${PROJECT_NAME} PRIVATE "-Wl,-Map,${PROJECT_NAME}.map" ${VOICE_LIBRARY} ${SE_LIBRARY})

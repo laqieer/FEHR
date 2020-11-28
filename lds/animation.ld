@@ -78,3 +78,9 @@
     .rodata.Wolf : {*(.rodata.Wolf)}
     . = 0x8E00008 + 0x20 * 0xc9;
     .rodata.DivineDragon : {*(.rodata.DivineDragon)}
+    . = 0x8E00008 + 0x20 * 0xca;
+    .rodata.AnnaAxe : {*(.rodata.AnnaAxe)}
+    . = 0x8E00008 + 0x20 * 0xcb;
+    .rodata.AnnaAxe : {*(.rodata.AnnaHandAxe)}
+    . = 0x8E00008 + 0x20 * 0xcc;
+    .rodata.AnnaAxe : {*(.rodata.AnnaUnarmed)}
