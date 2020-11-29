@@ -410,7 +410,7 @@ const char* const texts[] = {
                            "ここに来るまでに戦闘があってね。" TCC_PUSH_A
                            TCC_OPEN_MID_LEFT
                            "んん？そのお隣にいる方は。。。" TCC_NEWLINE
-                           "その手に燦然と輝く神器は。。。" TCC_NEWLINE TCC_PUSH_A
+                           "その手にさんぜんと輝く神器は。。。" TCC_NEWLINE TCC_PUSH_A
                            "もしやあなたが、異界の大英雄様！？" TCC_NEWLINE
                            "機関全員で夢にまで見た、" TCC_NEWLINE
                            //"噂の救世主ですかーーっ！？" TCC_PUSH_A
@@ -456,7 +456,7 @@ const char* const texts[] = {
                              TCC_OPEN_FAR_FAR_RIGHT
                              "わたしはミネルバ。" TCC_NEWLINE
                              "マケドニア王女だ。" TCC_NEWLINE
-                             "異邦の旅人よ。元いた世界に帰りなさい。" TCC_NEWLINE TCC_PUSH_A
+                             "いほうの旅人よ。元いた世界に帰りなさい。" TCC_NEWLINE TCC_PUSH_A
                              "我が身は既に「契約」を結ばれた。" TCC_NEWLINE
                              "エンブラ皇女ヴェロニカの命により、" TCC_NEWLINE
                              "これから異界に攻め入ることになる。" TCC_PUSH_A
@@ -496,7 +496,7 @@ const char* const texts[] = {
                 TCC_OPEN_MID_LEFT
                 TCC_TACTICIAN_NAME"さんの指揮、" TCC_NEWLINE
                 TCC_TACTICIAN_NAME"すっごく素晴らしかったです。。。！" TCC_NEWLINE
-                "ますます惚れ直しちゃいました！" TCC_PUSH_A
+                "ますますほれ直しちゃいました！" TCC_PUSH_A
                 TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_ANNA
                 "みんな聞いて！" TCC_NEWLINE
