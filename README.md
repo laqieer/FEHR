@@ -27,7 +27,7 @@ cd build && make
 |---|---|
 |[Circle CI](https://circleci.com/)|[![CircleCI](https://circleci.com/gh/laqieer/fe7-jp-stunning-tribble.svg?style=svg)](https://app.circleci.com/pipelines/github/laqieer/fe7-jp-stunning-tribble)|
 |[Cirrus CI](https://cirrus-ci.org/)|[![Build Status](https://api.cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble.svg)](https://cirrus-ci.com/github/laqieer/fe7-jp-stunning-tribble)|
-|[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079/badge.svg?token=04d9785a0636914175da8f17c5e66596a002faf43e68051077e30328eb070fe8 "buddy pipeline")](https://app.buddy.works/laqieer/fe7-jp-stunning-tribble/pipelines/pipeline/242079)|
+|[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer-1/fe7-jp-stunning-tribble/pipelines/pipeline/294192/badge.svg?token=b9393e91f0f5f4a2b753384c369aad3775df80f5482bec0b51c431b8c4a10235 "buddy pipeline")](https://app.buddy.works/laqieer-1/fe7-jp-stunning-tribble/pipelines/pipeline/294192)|
 
 ## Patch
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/laqieer/fe7-jp-stunning-tribble)](https://github.com/laqieer/fe7-jp-stunning-tribble/releases/latest)
