@@ -624,7 +624,7 @@ const char* const texts[] = {
             "敵が狙う英雄の名は。。。マルス。" TCC_PUSH_A
             TCC_OPEN_RIGHT
             "マルス。。。" TCC_NEWLINE
-            "英雄王とも謳われた伝説の英雄か。" TCC_NEWLINE TCC_PUSH_A
+            "英雄王ともうたわれた伝説の英雄か。" TCC_NEWLINE TCC_PUSH_A
             "彼が我が国に侵攻することは、" TCC_NEWLINE
             "なんとしても避けたいね。" TCC_PUSH_A
             TCC_OPEN_FAR_RIGHT
