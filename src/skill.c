@@ -1763,7 +1763,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "疾風の祝福",
-            "回復の杖使用時、自分を除く全味方の速さ＋４（1ターン）",
+            "回復の杖使用時、自分を除く全味方の速さ＋４（１ターン）",
             "Swift-Winds Balm",
             "When healing an ally with a staff, grants Spd+4 to all allies for 1 turn.",
             1,
