@@ -16,7 +16,7 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":84,
+ "tilecount":85,
  "tiledversion":"1.4.2",
  "tileheight":32,
  "tiles":[
@@ -523,6 +523,12 @@
          "image":"enemy_units\/DivineDragon.png",
          "imageheight":12,
          "imagewidth":10
+        }, 
+        {
+         "id":86,
+         "image":"enemy_units\/MagicGeneral.png",
+         "imageheight":22,
+         "imagewidth":16
         }],
  "tilewidth":30,
  "type":"tileset",

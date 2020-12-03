@@ -84,3 +84,11 @@
     .rodata.AnnaAxe : {*(.rodata.AnnaHandAxe)}
     . = 0x8E00008 + 0x20 * 0xcc;
     .rodata.AnnaAxe : {*(.rodata.AnnaUnarmed)}
+    . = 0x8E00008 + 0x20 * 0xcd;
+    .rodata.GeneralMagic : {*(.rodata.GeneralMagic)}
+    . = 0x8E00008 + 0x20 * 0xce;
+    .rodata.FalconAxe : {*(.rodata.FalconAxe)}
+    . = 0x8E00008 + 0x20 * 0xcf;
+    .rodata.FalconMagic : {*(.rodata.FalconMagic)}
+    . = 0x8E00008 + 0x20 * 0xd0;
+    .rodata.WyvernLordAxe : {*(.rodata.WyvernLordAxe)}

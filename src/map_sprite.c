@@ -477,6 +477,8 @@ const struct MovingSprite movingSprites[] = {
     {moving_sprite_WolfTiles, 138263996} ,  // 0x6D Wolf
 
     {moving_sprite_DivineDragonTiles, 138263996} ,  // 0x6E Divine Dragon (FE6's Fae)
+
+    {138191660, 138194400} ,  // 0x6F Magic General
 };
 
 const struct MovingSprite * const pMovingSprites1 = movingSprites;
