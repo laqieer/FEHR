@@ -72,13 +72,15 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 |Armour Knight|Sword, Axe, HandAxe, Bow|TBA|
 |Armour Knight|Magic|Orihara_Saki, TBA|
 |General|Bow|TBA|
+|General|Magic|DerTheVaporeon|
 |Cavalier|Axe, HandAxe|Skitty|
 |Pegasus Knight|Sword|MK404|
-|Falco Knight|HandAxe|flasuban|
+|Falco Knight|Axe, HandAxe|flasuban|
+|Falco Knight|Magic|Jeorge_Reds|
 |Falco Knight|Staff|ShadowOfChaos|
 |Wyvern Rider|Axe, HandAxe|Mikey Seregon, Alfred Kamon|
 |Wyvern Rider|Bow|PrincessKilvas, Spud, Blue Druid|
-|Wyvern Lord|HandAxe|TBA|
+|Wyvern Lord|Axe, HandAxe|TBA|
 |Wyvern Lord|Bow|PrincessKilvas, Spud, Blue Druid|
 |Halberdier|Lance|TBA|
 |Ephraim Lord Female|Lance|Circleseverywhere|
