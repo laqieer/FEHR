@@ -1059,7 +1059,7 @@ const char* const texts[] = {
         [TEXT_CHAP_12_OP] = TCC_OPEN_FAR_LEFT
                             TCC_LOAD_FACE PORTRAIT_XANDER
                             "面白い。。。" TCC_NEWLINE
-                            "ここまで辿り着くとはな。" TCC_NEWLINE TCC_PUSH_A
+                            "ここまでたどり着くとはな。" TCC_NEWLINE TCC_PUSH_A
                             "これも特務機関の。。。" TCC_NEWLINE
                             "ヴェロニカ皇女の言っていた" TCC_NEWLINE
                             "伝承の召喚師の力か。" TCC_NEWLINE TCC_PUSH_A
