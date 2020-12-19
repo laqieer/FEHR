@@ -1424,7 +1424,7 @@ const char* const texts[] = {
         TCC_LOAD_FACE PORTRAIT_SHARENA
         "もちろん特務機関は、" TCC_NEWLINE
         "扉の警護もしているんですよ？" TCC_NEWLINE
-        "でも、存在する扉の数は膨大で。。。" TCC_NEWLINE TCC_PUSH_A
+        "でも、存在する扉の数はぼうだいで。。。" TCC_NEWLINE TCC_PUSH_A
         "その上、エンブラ帝国軍は" TCC_NEWLINE
         "いつどこに攻め込んでくるかわかりません。" TCC_NEWLINE TCC_PUSH_A
         "私たち王族が扉を閉める力さえ" TCC_NEWLINE
