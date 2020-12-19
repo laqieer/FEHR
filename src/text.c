@@ -1332,7 +1332,7 @@ const char* const texts[] = {
 
         [TEXT_CHAP_22_ED] = TCC_OPEN_RIGHT
             "すまなかった、アルフォンス王子。。。" TCC_NEWLINE
-            "どうやら俺たちは騙されていたらしい。" TCC_NEWLINE TCC_PUSH_A
+            "どうやら俺たちはだまされていたらしい。" TCC_NEWLINE TCC_PUSH_A
             "侵略者はエンブラ帝国軍のほうで、" TCC_NEWLINE
             "特務機関は俺たちを" TCC_NEWLINE
             "助けに来てくれたんだな。" TCC_NEWLINE TCC_PUSH_A
@@ -1342,7 +1342,7 @@ const char* const texts[] = {
             TCC_CLEAR_FACE
             TCC_OPEN_LEFT
             TCC_LOAD_FACE PORTRAIT_ALFONSE
-            "「覚醒の異界」。。。" TCC_NEWLINE
+            "「覚せいの異界」。。。" TCC_NEWLINE
             "何とか解放できたね。" TCC_NEWLINE
             TCC_TACTICIAN_NAME "のおかげだ。" TCC_NEWLINE TCC_PUSH_A
             "君の指揮は、経験を重ねるごとに" TCC_NEWLINE
