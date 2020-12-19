@@ -1457,7 +1457,7 @@ const char* const texts[] = {
         "この白夜王国は女王の力により" TCC_NEWLINE
         "悪しき者の侵入から守られている。" TCC_NEWLINE TCC_PUSH_A
         "どうやってここまで" TCC_NEWLINE
-        "辿り着いた蚊は知らんが。。。" TCC_NEWLINE
+        "たどり着いたかは知らんが。。。" TCC_NEWLINE
         "貴様らは俺たちきょうだいが討つ！" TCC_NEWLINE TCC_PUSH_A,
 
     [TEXT_CHAP_28_ED] = TCC_OPEN_FAR_RIGHT
