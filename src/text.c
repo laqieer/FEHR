@@ -1469,7 +1469,7 @@ const char* const texts[] = {
         "落とさせてなるものか！" TCC_NEWLINE TCC_PUSH_A,
 
     [TEXT_CHAP_32_OP] = TCC_OPEN_LEFT
-        "よくここまで辿り着いたな。" TCC_NEWLINE
+        "よくここまでたどり着いたな。" TCC_NEWLINE
         "我が白夜軍。。。そして" TCC_NEWLINE
         "きょうだいたちは敗れたということか。" TCC_NEWLINE TCC_PUSH_A
         "だが。。。ここは通さん。" TCC_NEWLINE
