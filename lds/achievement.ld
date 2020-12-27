@@ -2,6 +2,8 @@
 .text.UnitKillInjector : {*(.text.UnitKillInjector)}
 . = 0x80a6cd0;
 .text.EnableGameMainMenuItemsInjector : {*(.text.EnableGameMainMenuItemsInjector)}
+. = 0x8000f20;
+.text.IncrementGameClockInjector : {*(.text.IncrementGameClockInjector)}
 . = 0x8dad5ac;
 .rodata.gProcCommand_StartAchievementMenuProcInjector : {*(.rodata.gProcCommand_StartAchievementMenuProcInjector)}
 . = 0x8dad564;

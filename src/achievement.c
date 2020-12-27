@@ -133,6 +133,7 @@ void setBook4Clear()
 
 volatile struct U16InSRAM killCount;
 volatile struct U16InSRAM deathCount;
+volatile struct U16InSRAM minuteCount;
 
 void initInvalidKillCount()
 {
@@ -142,6 +143,11 @@ void initInvalidKillCount()
 void initInvalidDeathCount()
 {
     initInvalidU16InSRAM(&deathCount);
+}
+
+void initInvalidMinuteCount()
+{
+    initInvalidU16InSRAM(&minuteCount);
 }
 
 void addKillCount()
@@ -156,6 +162,12 @@ void addDeathCount()
     addU16InSRAM(&deathCount, 1);
 }
 
+void addMinuteCount()
+{
+    initInvalidMinuteCount();
+    addU16InSRAM(&minuteCount, 1);
+}
+
 u16 getKillCount()
 {
     initInvalidKillCount();
@@ -168,11 +180,18 @@ u16 getDeathCount()
     return getU16InSRAM(&deathCount);
 }
 
+u16 getMinuteCount()
+{
+    initInvalidMinuteCount();
+    return getU16InSRAM(&minuteCount);
+}
+
 void initInvalidGlobalCounter()
 {
     initInvalidStoryProgress();
     initInvalidKillCount();
     initInvalidDeathCount();
+    initInvalidMinuteCount();
 }
 
 void ClearUnitSupports(struct Unit *unit);
@@ -228,10 +247,31 @@ int isDeathCountOver50()
     return getDeathCount() >= 50;
 }
 
+void IncrementGameClock()
+{
+    if (currentGameClock % 3600 == 3600 - 1)
+    {
+        addMinuteCount();
+    }
+
+    currentGameClock++;
+    if (currentGameClock > 215999999) 
+    {
+        currentGameClock = 213840000;
+    }
+};
+
+void IncrementGameClockInjector()
+{
+    IncrementGameClock();
+}
+
 u16 getGameTimeByHours()
 {
     // 1h = 60 * 60 * 60 frames
-    return GetGameClock() / 216000;
+    // return GetGameClock() / 216000; // currentGameClock is cleared when resetting game.
+    
+    return getMinuteCount() / 60;
 }
 
 int unlockedFromGameStart()

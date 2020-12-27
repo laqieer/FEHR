@@ -102,4 +102,6 @@ int isBook2Clear();
 int isBook3Clear();
 int isBook4Clear();
 
+extern u32 currentGameClock;
+
 #endif //FE7_JP_STUNNING_TRIBBLE_ACHIEVEMENT_H
