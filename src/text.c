@@ -681,11 +681,11 @@ const char* const texts[] = {
         [TEXT_CHAP_16_TITLE] = "風変わりな親子",
         [TEXT_CHAP_17_TITLE] = "封印の公子",
 
-        [TEXT_CHAP_18_TITLE] = "覚醒の試練",
+        [TEXT_CHAP_18_TITLE] = "覚せいの試練",
         [TEXT_CHAP_19_TITLE] = "踊り子と剣士",
         [TEXT_CHAP_20_TITLE] = "包囲作戦",
         [TEXT_CHAP_21_TITLE] = "強き村人",
-        [TEXT_CHAP_22_TITLE] = "覚醒の王子",
+        [TEXT_CHAP_22_TITLE] = "覚せいの王子",
 
         [TEXT_CHAP_23_TITLE] = "紋章再び",
         [TEXT_CHAP_24_TITLE] = "要塞の姫君",
@@ -1596,7 +1596,7 @@ const char* const texts[] = {
         "僕はすぐに扉を開いて彼を探したけど。。。" TCC_NEWLINE TCC_PUSH_A
         "いくら探しても結局、" TCC_NEWLINE
         "見つけることはできなかった。" TCC_NEWLINE TCC_PUSH_A
-        "彼が閉じ込められたのは「覚醒の異界」。" TCC_NEWLINE
+        "彼が閉じ込められたのは「覚せいの異界」。" TCC_NEWLINE
         "そうだね。。。次はもう一度、" TCC_NEWLINE
         "あの場所に行ってみてもいいかもしれない。" TCC_NEWLINE TCC_PUSH_A
         TCC_CLEAR_FACE,
@@ -1860,7 +1860,7 @@ const char* const texts[] = {
            "礼を言っておくよ。" TCC_NEWLINE
            "君のおかけで遺跡を無事に。。。" TCC_NEWLINE
            TCC_OPEN_MID_RIGHT
-           "覚醒の異界にいる英雄に聞いた。" TCC_NEWLINE
+           "覚せいの異界にいる英雄に聞いた。" TCC_NEWLINE
            "貴様らは、人を捜しているようだな。" TCC_NEWLINE TCC_PUSH_A
            TCC_OPEN_LEFT
            "ザカリアのことかい？" TCC_NEWLINE TCC_PUSH_A
