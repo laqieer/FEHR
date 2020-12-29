@@ -30,7 +30,7 @@ const unsigned short patch_expand_animation_palette_compression_type_5541c = 0xF
 
 const unsigned short patch_expand_animation_character_palette_compression_type_54882 = 0xF7BE;
 const unsigned short patch_expand_animation_character_palette_compression_type_54884 = 0xFF01;
-const unsigned int patch_expand_character_animation_palette_compression_type_5491c = 0xFEB4F7BE;
+const unsigned int patch_expand_animation_character_palette_compression_type_5491c = 0xFEB4F7BE;
 const unsigned short patch_expand_animation_character_palette_compression_type_55436 = 0xF7BE;
 const unsigned short patch_expand_animation_character_palette_compression_type_55438 = 0xF927;
 
