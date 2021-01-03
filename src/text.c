@@ -1614,7 +1614,7 @@ const char* const texts[] = {
         TCC_CLEAR_FACE TCC_CLOSE_FAST,
 
     [TEXT_CHAP_38_ED] = TCC_OPEN_FAR_LEFT
-        "僕の柵を破るなんて。。。" TCC_NEWLINE
+        "僕のさくを破るなんて。。。" TCC_NEWLINE
         "そちらの軍師もやるようだね。" TCC_NEWLINE TCC_PUSH_A
         "でも、これで終わりはしないさ。" TCC_NEWLINE
         "僕の策も仲間も、" TCC_NEWLINE
