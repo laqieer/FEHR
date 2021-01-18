@@ -39,12 +39,12 @@ TCC_OPEN_MID_LEFT
 "普通なら、相手側。。。" TCC_NEWLINE
 "ザカリアも石を持っていないと" TCC_NEWLINE
 "いけないんだけど。。。" TCC_NEWLINE TCC_PUSH_A
-"私たちはこれを触媒にして、" TCC_NEWLINE
+"私たちはこれをしょくばいにして、" TCC_NEWLINE
 "今から行く『共鳴の異界』で" TCC_NEWLINE
 "特殊な魔道儀式を行うの。" TCC_NEWLINE TCC_PUSH_A
 ""
 "ザカリアが生きていれば、" TCC_NEWLINE
-"必ず意思疎通ができるわ。" TCC_NEWLINE
+"必ず意思そつうができるわ。" TCC_NEWLINE
 "たとえ相手が眠っていてもね。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
@@ -53,7 +53,7 @@ TCC_OPEN_RIGHT
 "ザカリアさんとお話したいです！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S1201] = TCC_OPEN_LEFT 
+[MID_SCENARIO_MAP_BEGIN_S1201] = TCC_OPEN_LEFT
 "私はセリカ。" TCC_NEWLINE
 "アルムの幼なじみよ。" TCC_NEWLINE
 "戦いは好きではないけれど。。。。。。" TCC_NEWLINE TCC_PUSH_A
