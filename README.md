@@ -9,7 +9,7 @@ Fire Emblem Heroes Remake on Game Boy Advance.
 
 A hack based on Fire Emblem 7 Japanese version.
 
-## [Click to Play](http://laqieer.gitee.io/fehr/launcher.html#fehr)
+## [Click to Play](https://laqieer.gitee.io/fehr/launcher.html#fehr)
 
 ## Dependancy
 * devkitpro
