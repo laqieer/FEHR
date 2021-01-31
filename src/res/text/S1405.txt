@@ -84,7 +84,7 @@ TCC_OPEN_RIGHT
 "無理だ、隊長。" TCC_NEWLINE
 "俺も試してみたからわかる。。。" TCC_NEWLINE TCC_PUSH_A
 "無数の星々を訪ね歩き、" TCC_NEWLINE
-"砂粒を探すようなものだ。" TCC_NEWLINE
+"砂つぶを探すようなものだ。" TCC_NEWLINE
 "望みはない。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT
