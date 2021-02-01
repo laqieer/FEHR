@@ -1,6 +1,6 @@
 // Converted by ./ConvertText.py
 
-[MID_SCENARIO_OPENING_S1601] = TCC_OPEN_LEFT 
+[MID_SCENARIO_OPENING_S1601] = TCC_OPEN_LEFT
 "" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
 "" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE TCC_PUSH_A
 "こんばんは。" TCC_NEWLINE
@@ -15,7 +15,7 @@
 "。。。あら、ごめんなさい。" TCC_NEWLINE
 "申\し遅れました。" TCC_NEWLINE TCC_PUSH_A
 ""
-TCC_OPEN_RIGHT 
+TCC_OPEN_RIGHT
 "私はスリーズと申\します。" TCC_NEWLINE
 "氷の王国ニフルの第一王女です。" TCC_NEWLINE TCC_PUSH_A
 "フィヨルムとはもう" TCC_NEWLINE
@@ -28,7 +28,7 @@ TCC_OPEN_RIGHT
 "お伝えしたいのは" TCC_NEWLINE
 "そのことではなくて。。。" TCC_NEWLINE TCC_PUSH_A
 "アスク王国の西方に、" TCC_NEWLINE
-"アスクの【覚醒の儀】の" TCC_NEWLINE
+"アスクの【覚せいの儀】の" TCC_NEWLINE
 "神殿がありますね。" TCC_NEWLINE TCC_PUSH_A
 "そのさらに西方に。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -77,7 +77,7 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "　この儀を写すを禁ず。" TCC_NEWLINE
 "　この儀を明かすを禁ず』" TCC_NEWLINE TCC_PUSH_A
 "『これなる儀は" TCC_NEWLINE
-"　エンブラの【覚醒の儀】。。。" TCC_NEWLINE
+"　エンブラの【覚せいの儀】。。。" TCC_NEWLINE
 "　その片鱗をあらわすもの』" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
