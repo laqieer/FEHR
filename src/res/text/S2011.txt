@@ -90,7 +90,7 @@ TCC_OPEN_MID_LEFT
 "　不死にして不滅。" TCC_NEWLINE
 "　決して消えることなし』" TCC_NEWLINE TCC_PUSH_A
 "『山は焼け、木は倒れ、" TCC_NEWLINE
-"　水は乾き、海は呑まれ、" TCC_NEWLINE
+"　水はかわき、海は呑まれ、" TCC_NEWLINE
 "　天は焦げ、月は堕ちる』" TCC_NEWLINE TCC_PUSH_A
 "『世界は炎に包まれ、滅ぶ』。。。" TCC_NEWLINE TCC_PUSH_A
 ""
