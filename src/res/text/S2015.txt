@@ -6,7 +6,7 @@
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
 "うふふ。" TCC_NEWLINE
 "さあ、王女様。" TCC_NEWLINE
-"悦ばせてあげ。。。" TCC_NEWLINE TCC_PUSH_A
+"よろこばせてあげ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "って。。。あらん。" TCC_NEWLINE
 "お邪魔虫が来たみたいねえ。" TCC_NEWLINE TCC_PUSH_A
