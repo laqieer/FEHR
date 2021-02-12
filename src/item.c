@@ -331,7 +331,7 @@ const struct Item items[] = {
 
 {TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_NAME, TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_HELP, TEXT_ITEM_CANNOT_USE, 157, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9D Sacred Seal: Muspellflame
 
-{TEXT_ITEM_NAME_LEIPTR, TEXT_ITEM_HELP_LEIPTR, 0, 0x9e, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 16, 80, 8, 0, 2, 1, 600, 0, 28, 0, 0, 1} ,  // 0x9E Leiptr
+{TEXT_ITEM_NAME_LEIPTR, TEXT_ITEM_HELP_LEIPTR, 0, 0x9e, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 16, 80, 8, 0, 2, 1, 600, 0, ITEM_ICON_LEIPTR, 0, 0, 1} ,  // 0x9E Leiptr
 
 {ITEM_NAME_IRON_DAGGER, ITEM_HELP_IRON_DAGGER, 0, 0x9f, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 3, 110, 3, 0, 2, 1, 15, WPN_EXP_E, ITEM_ICON_IRON_DAGGER, 0, 0, 1} ,  // 0x9F Iron Daggeer
 
