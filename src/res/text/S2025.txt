@@ -100,7 +100,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SURTR
 "いずれ我が炎に染められる。。。" TCC_NEWLINE TCC_PUSH_A
 "貴様らと貴様らの民すべての" TCC_NEWLINE
 "皮を剥ぎ、火にくべ、" TCC_NEWLINE
-"松明として焼いてやるわ。" TCC_NEWLINE TCC_PUSH_A
+"たいまつとして焼いてやるわ。" TCC_NEWLINE TCC_PUSH_A
 "ニフルは半年。。。" TCC_NEWLINE
 "その前の国は三月。。。" TCC_NEWLINE
 "貴様らの国はどこまで抗える？" TCC_NEWLINE TCC_PUSH_A
