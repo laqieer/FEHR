@@ -92,3 +92,7 @@
     .rodata.FalconMagic : {*(.rodata.FalconMagic)}
     . = 0x8E00008 + 0x20 * 0xd0;
     .rodata.WyvernLordAxe : {*(.rodata.WyvernLordAxe)}
+    . = 0x8E00008 + 0x20 * 0xd1;
+    .rodata.AliceSolKatti : {*(.rodata.AliceSolKatti)}
+    . = 0x8E00008 + 0x20 * 0xd2;
+    .rodata.AliceSolKattiDisarmed : {*(.rodata.AliceSolKattiDisarmed)}

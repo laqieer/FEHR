@@ -343,6 +343,7 @@ SECTIONS
     INCLUDE ../lds/items.ld
     INCLUDE ../lds/map_sprites.ld
     INCLUDE ../lds/character_palette.ld
+    INCLUDE ../lds/character_animation.ld
     INCLUDE ../lds/music.ld
     INCLUDE ../lds/support.ld
     INCLUDE ../lds/chapter_op_bg.ld

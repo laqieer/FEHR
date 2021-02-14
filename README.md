@@ -92,6 +92,7 @@ md5: 9485f273f4e97e9e8f21966407f2e782
 |Ghost Fire|Magic|Eldritch Abomination|
 |Skelemonk|Magic|JonoTheRed|
 |Anna|Axe, HandAxe|Greentea(qiuzf007)|
+|Laevatein|Sword|FE7if|
 
 ### Item Icon
 

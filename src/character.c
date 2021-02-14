@@ -7,6 +7,7 @@
 #include "job_id.h"
 #include "text_id.h"
 #include "item.h"
+#include "job.h"
 
 extern const struct SupportData supportDataTable[];
 
@@ -19,7 +20,7 @@ const struct Character characters[] = {
 
 {1254, 436, 3, 2, 0x102, 0, 3, 3, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 71, 0, 0, 0, 0, 0, 0, 43 * 2, 32 * 1.5, 45, 32 * 1.5, 29 * 1.2, 22 * 1.2, 30, 0x7b, 0x7b, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[CHARACTER_SHARENA_ID - 1], 7} ,  // 0x03 Sharena
 
-{TEXT_CHARACTER_NAME_LAEVATEIN, TEXT_CHARACTER_HELP_LAEVATEIN, 4, 0x11, 0x10f, 0, Fire, 8, 15, 16, 10, 7, 6, 7, 4, 5, -1, 71, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 55, 60, 40, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[12], 1} ,  // 0x04 Raven -> Laevatein
+{TEXT_CHARACTER_NAME_LAEVATEIN, TEXT_CHARACTER_HELP_LAEVATEIN, 4, 0x11, 0x10f, 0, Fire, 8, 15, 16, 10, 7, 6, 7, 4, 5, -1, 71, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 55, 60, 40, 35, 0, 0x7d, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[12], 1} ,  // 0x04 Raven -> Laevatein
 
 {1256, 440, 5, 19, 36, 0, 2, 5, 3, 12, 9, 7, 7, 6, 3, 10, 0, 0, 0, 121, 121, 0, 0, 0, 0, 85, 50, 30, 40, 20, 20, 40, 0, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148244648, 2} ,  // 0x05 Geitz
 
@@ -544,3 +545,11 @@ const struct Character * const pCharacters17 = characters;
 const struct Character * const pCharacters18 = &characters[-1];
 const struct Character * const pCharacters19 = &characters[-1];
 const struct Character * const pCharacters20 = &characters[-1];
+
+const struct JobBattleAnimationConf LaevateinAnimationConf[] = {
+    {Sword, 1, 1 + 0xd1},
+    {Disarmed, 1, 1 + 0xd2},
+    JobBattleAnimationConfEnd
+};
+
+const struct JobBattleAnimationConf * const pLaevateinAnimationConf = LaevateinAnimationConf;
