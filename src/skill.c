@@ -4508,7 +4508,7 @@ void displayPositiveStateIcons()
     int x = 1;
     int y = 13;
 
-    drawIconInSkillPage(x, y, ICON_POSITIVE_STATE, 8);
+    drawIconInSkillPage(x, y, ICON_POSITIVE_STATE, 9);
     x += 2;
 
     if(checkUnitStateMobilityIncreased(gStatScreen.unit))
@@ -4576,13 +4576,13 @@ void displayNegativeStateIcons()
 
     if(checkUnitStateTriangleAdept(gStatScreen.unit))
     {
-        drawIconInSkillPage(x, y, ICON_TRIANGLE_ADEPT, 9);
+        drawIconInSkillPage(x, y, ICON_TRIANGLE_ADEPT, 8);
         x += 2;
     }
 
     if(checkUnitStateGuard(gStatScreen.unit))
     {
-        drawIconInSkillPage(x, y, ICON_GUARD, 9);
+        drawIconInSkillPage(x, y, ICON_GUARD, 8);
         x += 2;
     }
 
@@ -4742,7 +4742,7 @@ void displayTextsInPage3()
 void displaySkillLabelIconsInSkillPage()
 {
     drawIconInSkillPage(1, 1, ICON_SPECIAL_SKILL, 8);
-    drawIconInSkillPage(1, 3, ICON_ASSIST_SKILL, 8);
+    drawIconInSkillPage(1, 3, ICON_ASSIST_SKILL, 9);
     DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 5), PASSIVE_SKILL_A_ICON, TILEREF(0, 4));
     DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 7), PASSIVE_SKILL_B_ICON, TILEREF(0, 4));
     DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(1, 9), PASSIVE_SKILL_C_ICON, TILEREF(0, 4));
