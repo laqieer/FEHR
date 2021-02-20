@@ -16,7 +16,7 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_FJORM
 TCC_OPEN_LEFT
 "ほう、面白い。" TCC_NEWLINE
 "だが、貴様らは果たして" TCC_NEWLINE
-"ニフルまで辿り着けるか？" TCC_NEWLINE TCC_PUSH_A
+"ニフルまでたどり着けるか？" TCC_NEWLINE TCC_PUSH_A
 "アスクの王子よ。" TCC_NEWLINE
 "あちらの山に、" TCC_NEWLINE
 "貴様らの民の街があったな？" TCC_NEWLINE TCC_PUSH_A
@@ -40,7 +40,7 @@ TCC_OPEN_LEFT
 "あらゆる死の中でも格別よ。" TCC_NEWLINE TCC_PUSH_A
 ""
 "皮が剥がれ、肉が崩れ。。。" TCC_NEWLINE
-"皆、我に懇願するのだ。" TCC_NEWLINE
+"皆、我にこんがんするのだ。" TCC_NEWLINE
 "お願いですから殺してください、となあ？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
@@ -49,7 +49,7 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_LEFT
 "民を助けたいか？" TCC_NEWLINE
-"ならば我が前に跪き、その首を差し出せ。" TCC_NEWLINE
+"ならば我が前にひざまずき、その首を差し出せ。" TCC_NEWLINE
 "泣いて慈悲を乞うてみよ。" TCC_NEWLINE TCC_PUSH_A
 "我の気が変われば、" TCC_NEWLINE
 "民を見逃してやる気に" TCC_NEWLINE
