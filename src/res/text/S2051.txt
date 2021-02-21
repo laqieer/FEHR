@@ -173,7 +173,7 @@ TCC_OPEN_RIGHT
 ""
 "では、足跡を追跡しましょう。" TCC_NEWLINE
 "降る雪で消える前に追えば、" TCC_NEWLINE
-"いずれ彼らを捕捉でき。。。" TCC_NEWLINE TCC_PUSH_A
+"いずれ彼らをほそくでき。。。" TCC_NEWLINE TCC_PUSH_A
 "？" TCC_NEWLINE
 "。。。この足跡。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -205,7 +205,7 @@ TCC_OPEN_RIGHT
 "慌てて遠方へ逃がれたところで、" TCC_NEWLINE
 "ここは敵の支配地。。。" TCC_NEWLINE TCC_PUSH_A
 "敵軍の警戒の網に" TCC_NEWLINE
-"捕捉されては無意味よ。" TCC_NEWLINE TCC_PUSH_A
+"ほそくされては無意味よ。" TCC_NEWLINE TCC_PUSH_A
 "それなら、痕跡は残したくない。" TCC_NEWLINE
 "足跡を消し、そう遠くない場所に潜み、" TCC_NEWLINE
 "敵の目から逃れたい。。。" TCC_NEWLINE TCC_PUSH_A
