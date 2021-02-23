@@ -4576,7 +4576,7 @@ void displayNegativeStateIcons()
 
     if(checkUnitStateTriangleAdept(gStatScreen.unit))
     {
-        drawIconInSkillPage(x, y, ICON_TRIANGLE_ADEPT, 8);
+        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), STATE_ICON_TRIANGLE_ADEPT, TILEREF(0, 4));
         x += 2;
     }
 
@@ -4588,7 +4588,7 @@ void displayNegativeStateIcons()
 
     if(checkUnitStateIsolation(gStatScreen.unit))
     {
-        drawIconInSkillPage(x, y, ICON_ISOLATION, 9);
+        DrawIcon(gBmFrameTmap0 + TILEMAP_INDEX(x, y), STATE_ICON_ISOLATION, TILEREF(0, 4));
         x += 2;
     }
 }
