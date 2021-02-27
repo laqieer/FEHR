@@ -4,7 +4,7 @@
 "彼らの目的地は、ここ。。。" TCC_NEWLINE
 "ニフル北部の最果て。。。" TCC_NEWLINE
 "細氷の神殿。。。" TCC_NEWLINE TCC_PUSH_A
-"飛竜すら越せぬ峻厳な山々に左右を遮られ、" TCC_NEWLINE
+"飛竜すら越せぬしゅんげんな山々に左右をさえぎられ、" TCC_NEWLINE
 "私たちも一度しか足を踏み入れたことが" TCC_NEWLINE
 "なかった厳寒の極地。。。" TCC_NEWLINE TCC_PUSH_A
 "でも。。。奇妙ね。。。" TCC_NEWLINE TCC_PUSH_A
@@ -44,7 +44,7 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_LEFT
 "そう。。。私たちムスペルはまだ" TCC_NEWLINE
-"このニフルの地理に疎いようね。" TCC_NEWLINE
+"このニフルの地理にうといようね。" TCC_NEWLINE
 "あの道が閉ざされているだなんて。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "！？" TCC_NEWLINE
