@@ -1,6 +1,6 @@
 // Converted by ./ConvertText.py
 
-[MID_SCENARIO_MAP_BEGIN_S2064] = TCC_OPEN_LEFT 
+[MID_SCENARIO_MAP_BEGIN_S2064] = TCC_OPEN_LEFT
 "僕はマークです！" TCC_NEWLINE
 "あなたが" TCC_TACTICIAN_NAME "さん。。。" TCC_NEWLINE
 "特務機関の軍師の策、学ばせてもらいます！" TCC_NEWLINE TCC_PUSH_A
@@ -37,7 +37,7 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_LEFT
 "それでも、私たちの位置が" TCC_NEWLINE
-"常に捕捉されている以上。。。" TCC_NEWLINE
+"常にほそくされている以上。。。" TCC_NEWLINE
 "敵に先回りされるのは同じよ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
