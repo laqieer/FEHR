@@ -1,5 +1,5 @@
 # fe7-jp-stunning-tribble
-![GitHub language count](https://img.shields.io/github/languages/count/laqieer/fe7-jp-stunning-tribble) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![GitHub language count](https://img.shields.io/github/languages/count/laqieer/fe7-jp-stunning-tribble) [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Fire Emblem Heroes Remake on Game Boy Advance.
 
