@@ -159,7 +159,7 @@ TCC_OPEN_LEFT
 "。。。殺しなさい。" TCC_NEWLINE TCC_PUSH_A
 "人質をとったところで無駄よ。" TCC_NEWLINE
 "父上は私の命など一顧だにしない。" TCC_NEWLINE TCC_PUSH_A
-"それとも、拷問が望み？" TCC_NEWLINE
+"それとも、ごうもんが望み？" TCC_NEWLINE
 "私は敗戦の将、虜囚の辱めを" TCC_NEWLINE
 "受ける覚悟はできているわ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
