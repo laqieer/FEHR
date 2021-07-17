@@ -4,9 +4,11 @@
 "彼らの目的地は、ここ。。。" TCC_NEWLINE
 "ニフル北部の最果て。。。" TCC_NEWLINE
 "細氷の神殿。。。" TCC_NEWLINE TCC_PUSH_A
-"飛竜すら越せぬしゅんげんな山々に左右をさえぎられ、" TCC_NEWLINE
-"私たちも一度しか足を踏み入れたことが" TCC_NEWLINE
-"なかった厳寒の極地。。。" TCC_NEWLINE TCC_PUSH_A
+"飛竜すら越せぬしゅんげんな" TCC_NEWLINE
+"山々に左右をさえぎられ、" TCC_NEWLINE
+"私たちも一度しか足を踏み" TCC_NEWLINE
+"入れたことがなかった" TCC_NEWLINE
+"厳寒の極地。。。" TCC_NEWLINE TCC_PUSH_A
 "でも。。。奇妙ね。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LAEVATEIN
@@ -38,7 +40,8 @@ TCC_OPEN_LEFT
 "山脈を潜り、西へ抜ける道があったはず。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
-"だめ。。。洞窟は氷柱で凍ってて通れなかった。" TCC_NEWLINE
+"だめ。。。洞窟は氷柱で" TCC_NEWLINE
+"凍ってて通れなかった。" TCC_NEWLINE
 "前に姉上と来た時は" TCC_NEWLINE
 "そんなことなかったのに。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -48,7 +51,8 @@ TCC_OPEN_LEFT
 "あの道が閉ざされているだなんて。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "！？" TCC_NEWLINE
-"。。。あの道が。。。閉ざされている。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。あの道が。。。" TCC_NEWLINE
+"閉ざされている。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "どうしたの。。。姉上？" TCC_NEWLINE TCC_PUSH_A
