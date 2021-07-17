@@ -34,7 +34,7 @@
 #include "moving_sprite_DivineDragon.h"
 
 const struct StandingSprite standingSprites[] = {
-    {2, 1, standing_sprite_AlfonseTiles} ,  
+    {2, 0, standing_sprite_AlfonseTiles} ,  
 
     {2, 1, standing_sprite_SharenaTiles} ,  
 
