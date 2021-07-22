@@ -43,7 +43,7 @@ TCC_OPEN_MID_RIGHT
 ""
 "その通りになるとは。。。" TCC_NEWLINE
 "まったく、使えぬ。" TCC_NEWLINE
-"万死に値する腑抜けどもよ。" TCC_NEWLINE TCC_PUSH_A
+"万死に値するふぬけどもよ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "姉様はどこです！" TCC_NEWLINE TCC_PUSH_A
@@ -72,9 +72,10 @@ TCC_OPEN_LEFT
 "今、私がお助けし。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT
-"阿呆が。" TCC_NEWLINE
+"アホが。" TCC_NEWLINE
 "こ奴をこうして" TCC_NEWLINE
-"今まで生かしてやったのはなあ。。。！" TCC_NEWLINE TCC_PUSH_A
+"今まで生かして" TCC_NEWLINE
+"やったのはなあ。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_GUNNTHRA
 "ぁぁぁぁぁぁぁぁぁぁっ。。。！" TCC_NEWLINE TCC_PUSH_A
@@ -102,9 +103,9 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_FJORM
 TCC_OPEN_MID_RIGHT
 "もう死んだか。つまらぬな。" TCC_NEWLINE TCC_PUSH_A
 ""
-"弱者らしく足掻いてみせれば、" TCC_NEWLINE
+"弱者らしくあがいてみせれば、" TCC_NEWLINE
 "貴様らの母のように" TCC_NEWLINE
-"もっと嬲ってやったものをなあ？" TCC_NEWLINE TCC_PUSH_A
+"もっとなぶってやったものをなあ？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "あ。。。あ。。。ぁ。。。。。。" TCC_NEWLINE TCC_PUSH_A
