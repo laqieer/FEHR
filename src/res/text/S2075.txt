@@ -223,7 +223,7 @@ TCC_OPEN_RIGHT
 "神器が光ってます！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT
-"姉様は、最期の力を振り絞り、" TCC_NEWLINE
+"姉様は、最期の力を振りしぼり、" TCC_NEWLINE
 "私たちに託してくださいました。。。" TCC_NEWLINE TCC_PUSH_A
 "光が導く先に。。。" TCC_NEWLINE
 "私たちの求める氷の儀。。。" TCC_NEWLINE
