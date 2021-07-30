@@ -18,7 +18,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 "　その子フィヨルムの名において。。。" TCC_NEWLINE
 "　ここに願う』" TCC_NEWLINE TCC_PUSH_A
 "『供物は我が肉、" TCC_NEWLINE
-"　器は万界を統べし異邦の神器。。。』" TCC_NEWLINE TCC_PUSH_A
+"　器は万界を統べしいほうの神器。。。』" TCC_NEWLINE TCC_PUSH_A
 "『願う。" TCC_NEWLINE
 "　荒ぶる炎鎮める力を』" TCC_NEWLINE TCC_PUSH_A
 "『不死を殺し、" TCC_NEWLINE
@@ -58,7 +58,7 @@ TCC_OPEN_MID_LEFT
 ""
 TCC_OPEN_LEFT
 "あ、すみません。。。" TCC_NEWLINE
-"祭壇で冷気に肌を晒したせいか。。。" TCC_NEWLINE
+"祭壇で冷気に肌をさらしたせいか。。。" TCC_NEWLINE
 "風邪をひいてしまったようです。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
@@ -122,7 +122,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_LOKI
 "そ。" TCC_NEWLINE
 "わかってくれて良かったわあ、" TCC_NEWLINE
-"誠心誠意説得した甲斐があったわねえ。" TCC_NEWLINE TCC_PUSH_A
+"誠心誠意説得したかいがあったわねえ。" TCC_NEWLINE TCC_PUSH_A
 "マークス王子、" TCC_NEWLINE
 "あなたもじっとしててねえ？" TCC_NEWLINE
 "ヴェロニカ皇女を殺されたくないでしょ？" TCC_NEWLINE TCC_PUSH_A
@@ -139,7 +139,7 @@ TCC_OPEN_LEFT
 ""
 TCC_OPEN_MID_LEFT
 "手間をかけさせおって。。。" TCC_NEWLINE
-"塵芥が。" TCC_NEWLINE TCC_PUSH_A
+"塵あくたが。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "。。。ぅっ。。。。。。あぁっ。。。！" TCC_NEWLINE TCC_PUSH_A
