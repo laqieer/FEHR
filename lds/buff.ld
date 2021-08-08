@@ -20,3 +20,7 @@
 .rodata.gProcHealUnitsHPEachTurnInjector : {*(.rodata.gProcHealUnitsHPEachTurnInjector)}
 . = 0x8018e60;
 .text.GetUnitHpInjector : {*(.text.GetUnitHpInjector)}
+. = 0x80249c0;
+.rodata.pAddAsTargetIfCanStealFrom : {*(.rodata.pAddAsTargetIfCanStealFrom)}
+. = 0x8039194;
+.text.AiCompareSpeedAndGetBestItemSlotIndexToStealInjector : {*(.text.AiCompareSpeedAndGetBestItemSlotIndexToStealInjector)}

@@ -319,4 +319,6 @@ void func8033a38(struct Proc *proc);
 void func8033b40(struct Proc *proc);
 void func8033d60(struct Proc *proc);
 
+s8 IsItemStealable(u16 item);
+
 #endif //FE7_JP_STUNNING_TRIBBLE_ITEM_H

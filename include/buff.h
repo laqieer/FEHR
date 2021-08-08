@@ -53,6 +53,8 @@ void DrawUiSymbol(u16 *tileMap, int color, int symbol);
 void DrawUiSmallNumber(u16 *tileMap, int color, int number);
 
 u32 func8015818();
+s8 AiGetBestItemSlotIndexToSteal(struct Unit *targetUnit);
+s8 AiCompareSpeedAndGetBestItemSlotIndexToStealEnd(struct Unit *targetUnit);
 
 int GetTerrainHealAmount(int terrainID);
 int GetTerrainCureBadStatus(int terrainID);

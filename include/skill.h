@@ -723,7 +723,7 @@ struct AssistSkill {
 extern struct Unit *unitToMakeTargetList;
 extern u8 **gBmMapPtr;
 
-void AddTarget(int x, int y, u8 state, int param);
+void AddTarget(int x, int y, u8 id, int param);
 void MenuCallHelpBox(struct MenuProc *menuProc,int textId);
 void NewBottomHelpText(u32 parent,char *string);
 int GetTargetListSize();

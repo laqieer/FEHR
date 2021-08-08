@@ -1767,3 +1767,37 @@ void HealUnitsHPEachTurnInjector(struct Proc *proc)
 
 const struct ProcCmd gProcHealUnitsHPEachTurnInjector = PROC_CALL_ROUTINE(HealUnitsHPEachTurnInjector);
 
+void AddAsTargetIfCanStealFrom(struct Unit *targetUnit)
+{
+    if(targetUnit->side == EnemySide && GetUnitSpeed(targetUnit) <= GetUnitSpeed(currentActiveUnit))
+    {
+        for(int i = 0; i < 5; i++)
+        {
+            if(IsItemStealable(&targetUnit->items[i]))
+            {
+                AddTarget(targetUnit->positionX, targetUnit->positionY, targetUnit->number + targetUnit->side * 0x40, 0);
+                break;
+            }
+        }
+    }
+}
+
+void (* const pAddAsTargetIfCanStealFrom)(struct Unit *targetUnit) = AddAsTargetIfCanStealFrom;
+
+
+s8 AiCompareSpeedAndGetBestItemSlotIndexToSteal(struct Unit *targetUnit)
+{
+    if(GetUnitSpeed(targetUnit) <= GetUnitSpeed(currentActiveUnit))
+        return AiGetBestItemSlotIndexToSteal(targetUnit);
+
+    return -1;
+}
+
+__attribute__ ((optimize(2), noreturn))
+s8 AiCompareSpeedAndGetBestItemSlotIndexToStealInjector(struct Unit *targetUnit)
+{
+    asm("bl JumpToAiCompareSpeedAndGetBestItemSlotIndexToSteal");
+    asm("b AiCompareSpeedAndGetBestItemSlotIndexToStealEnd");
+    asm("JumpToAiCompareSpeedAndGetBestItemSlotIndexToSteal:\nldr r1,=AiCompareSpeedAndGetBestItemSlotIndexToSteal\nbx r1");
+}
+
