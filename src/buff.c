@@ -1773,7 +1773,7 @@ void AddAsTargetIfCanStealFrom(struct Unit *targetUnit)
     {
         for(int i = 0; i < 5; i++)
         {
-            if(IsItemStealable(&targetUnit->items[i]))
+            if(IsItemStealable(targetUnit->items[i].itemId))
             {
                 AddTarget(targetUnit->positionX, targetUnit->positionY, targetUnit->number + targetUnit->side * 0x40, 0);
                 break;
