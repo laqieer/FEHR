@@ -11,6 +11,10 @@ A hack based on Fire Emblem 7 Japanese version.
 
 ## [Click to Play](https://laqieer.gitee.io/fehr/launcher.html#fehr)
 
+## [Wiki](https://github.com/laqieer/fe7-jp-stunning-tribble/wiki)
+
+## [Discussions](https://github.com/laqieer/fe7-jp-stunning-tribble/discussions)
+
 ## Dependancy
 * devkitpro
 * cmake(>=3.13)
