@@ -4,7 +4,7 @@
 "ぎゃははははは！" TCC_NEWLINE
 "こりゃついてるぜ。" TCC_NEWLINE
 "ここにいやがったか、てめーら！" TCC_NEWLINE TCC_PUSH_A
-"俺は地獄から這い上がってきた！" TCC_NEWLINE
+"俺は地獄からはい上がってきた！" TCC_NEWLINE
 "このヘルビンディ様が" TCC_NEWLINE
 "今度こそぶっ殺してやるよ！" TCC_NEWLINE TCC_PUSH_A
 ""
