@@ -4,9 +4,6 @@
 [submodule "tool/music/midi2agb"]
 	path = tool/music/midi2agb
 	url = https://github.com/ipatix/midi2agb.git
-[submodule "tool/voice/wav2agb"]
-	path = res/voice/wav2agb
-	url = https://github.com/ipatix/wav2agb.git
 [submodule "res/voice/se2m4a"]
 	path = res/voice/se2m4a
 	url = https://github.com/laqieer/se2m4a.git
