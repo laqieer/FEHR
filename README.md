@@ -16,7 +16,7 @@ A hack based on Fire Emblem 7 Japanese version.
 ## [Discussions](https://github.com/laqieer/fe7-jp-stunning-tribble/discussions)
 
 ## Dependancy
-* devkitpro
+* [devkitpro](https://devkitpro.org)
 * cmake(>=3.13)
 
 ## Build
