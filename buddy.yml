@@ -1,7 +1,9 @@
 - pipeline: "Release"
-  trigger_mode: "ON_EVERY_PUSH"
-  ref_name: "refs/tags/*"
-  ref_type: "WILDCARD"
+  on: "EVENT"
+  events:
+  - type: "PUSH"
+    refs:
+    - "refs/tags/*"
   priority: "NORMAL"
   target_site_url: "https://github.com/laqieer/fe7-jp-stunning-tribble"
   fail_on_prepare_env_warning: true
