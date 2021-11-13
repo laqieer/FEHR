@@ -82,12 +82,12 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_RIGHT
 "一つは。。。" TCC_NEWLINE
 "あの男。。。ザカリアが" TCC_NEWLINE
-"我々を欺\いた。。。" TCC_NEWLINE TCC_PUSH_A
+"我々をあざむいた。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "いや、それはないよ。" TCC_NEWLINE
 "ザカリアは僕たちの仲間だ。" TCC_NEWLINE
-"彼が僕たちを騙すことはない。" TCC_NEWLINE TCC_PUSH_A
+"彼が僕たちをだますことはない。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT
 "。。。そうだな。" TCC_NEWLINE
