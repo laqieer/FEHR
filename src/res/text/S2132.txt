@@ -1,6 +1,6 @@
 // Converted by ./ConvertText.py
 
-[MID_SCENARIO_MAP_BEGIN_S2132] = TCC_OPEN_LEFT 
+[MID_SCENARIO_MAP_BEGIN_S2132] = TCC_OPEN_LEFT
 "契約。。。彼はその力に縛られ、" TCC_NEWLINE
 "自分を召喚したその男に。。。" TCC_NEWLINE
 "んふふ。。。色んな空想ができそう。。。！" TCC_NEWLINE TCC_PUSH_A
@@ -58,7 +58,7 @@ TCC_OPEN_MID_LEFT
 "おい、頼むから少し黙れ。" TCC_NEWLINE
 "他の兵どもに" TCC_NEWLINE
 "聞こえるだろうが。。。" TCC_NEWLINE TCC_PUSH_A
-"今、鎖を切ってやる。" TCC_NEWLINE
+"今、くさりを切ってやる。" TCC_NEWLINE
 "王に感づかれる前に" TCC_NEWLINE
 "ずらかるぞ。" TCC_NEWLINE TCC_PUSH_A
 ""
