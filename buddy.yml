@@ -6,6 +6,7 @@
     - "refs/tags/*"
   priority: "NORMAL"
   target_site_url: "https://github.com/laqieer/fe7-jp-stunning-tribble"
+  auto_clear_cache: true
   fail_on_prepare_env_warning: true
   trigger_condition: "ON_CHANGE"
   actions:
