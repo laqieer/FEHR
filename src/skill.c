@@ -2647,7 +2647,8 @@ u16 getUnitSpecialSkill(struct Unit *unit)
     if(specialSkill)
         return specialSkill;
 
-    specialSkill = getUnitRandomSpecialSkill(unit);
+    if(unit->side == EnemySide)
+        specialSkill = getUnitRandomSpecialSkill(unit);
 
     return specialSkill;
 }
