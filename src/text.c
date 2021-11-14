@@ -2207,11 +2207,11 @@ const char* const texts[] = {
        [TEXT_SUPPORT_HRID_YURG] = 
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
-                    PORTRAIT_HRID
+                    PORTRAIT_YLGR
                     "兄様っ、フリーズ兄様。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
-                    PORTRAIT_YLGR
+                    PORTRAIT_HRID
                     "ユルグはここにいたのか" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
