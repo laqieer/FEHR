@@ -64,14 +64,14 @@ TCC_OPEN_RIGHT
 "弱き貴様を燃え上がらせた。" TCC_NEWLINE TCC_PUSH_A
 "今の貴様は良いぞ。" TCC_NEWLINE
 "ようやく、" TCC_NEWLINE
-"我が嬲るに値する炎となった。" TCC_NEWLINE TCC_PUSH_A
+"我がなぶるに値する炎となった。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "戯言を。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "さて、御託はもう良かろう。" TCC_NEWLINE
-"我が炎がたまらず疼いておる。。。" TCC_NEWLINE TCC_PUSH_A
+"我が炎がたまらずうずいておる。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "殺し合いだぁ！" TCC_NEWLINE
 "ぐはははははははははははぁっ！" TCC_NEWLINE TCC_PUSH_A
