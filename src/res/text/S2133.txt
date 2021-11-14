@@ -1,6 +1,6 @@
 // Converted by ./ConvertText.py
 
-[MID_SCENARIO_MAP_BEGIN_S2133] = TCC_OPEN_LEFT 
+[MID_SCENARIO_MAP_BEGIN_S2133] = TCC_OPEN_LEFT
 "私はフローラ。" TCC_NEWLINE
 "契約に従い、我が主のために。。。" TCC_NEWLINE
 "殲滅します。" TCC_NEWLINE TCC_PUSH_A
@@ -55,7 +55,7 @@ TCC_OPEN_LEFT
 ""
 TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SURTR
 "ほう。。。" TCC_NEWLINE TCC_PUSH_A
-"鼠の気配を追ってきてみれば。。。" TCC_NEWLINE
+"ねずみの気配を追ってきてみれば。。。" TCC_NEWLINE
 "貴様は。。。" TCC_NEWLINE TCC_PUSH_A
 "そう、思い出したぞ。" TCC_NEWLINE
 "国境の守りを命じた" TCC_NEWLINE
