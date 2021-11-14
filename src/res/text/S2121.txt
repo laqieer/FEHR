@@ -111,9 +111,9 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 "炎の儀には今、" TCC_NEWLINE
 "供物として二人の少女が" TCC_NEWLINE
 "捧げられている。。。" TCC_NEWLINE TCC_PUSH_A
-"スルトを蘇らせる炎、" TCC_NEWLINE
+"スルトをよみがえらせる炎、" TCC_NEWLINE
 "その炎を保つための。。。" TCC_NEWLINE
-"言うなれば、薪だ。" TCC_NEWLINE TCC_PUSH_A
+"言うなれば、たきぎだ。" TCC_NEWLINE TCC_PUSH_A
 "ザカリアは言っていた。" TCC_NEWLINE
 "二人の少女のうち一人は、" TCC_NEWLINE
 "自分の妹だと。。。" TCC_NEWLINE TCC_PUSH_A
