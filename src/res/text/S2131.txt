@@ -13,14 +13,14 @@ TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LAEVATEIN
 "う。。。ぁっ。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
-"屑が。" TCC_NEWLINE TCC_PUSH_A
+"くずが。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "。。。か。。。かは。。。っ！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "ならばなぜ奴らは生きておる？" TCC_NEWLINE
-"なぜ貴様は生き恥を晒しておる？" TCC_NEWLINE
+"なぜ貴様は生き恥をさらしておる？" TCC_NEWLINE
 "ムスペル王族の面汚しが。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "弱者は死ね！" TCC_NEWLINE TCC_PUSH_A
@@ -81,7 +81,7 @@ TCC_OPEN_MID_LEFT
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S2131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
-"巧妙に隠された隠し扉。。。" TCC_NEWLINE
+"こう妙に隠された隠し扉。。。" TCC_NEWLINE
 "こんなの、ロキが教えてくれなかったら" TCC_NEWLINE
 "絶対見つけられなかったわね。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -102,10 +102,10 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_MID_LEFT
 "炎竜ムスペルよ。。。" TCC_NEWLINE
-"我が身を喰らい尽くせ。。。" TCC_NEWLINE TCC_PUSH_A
+"我が身をくらい尽くせ。。。" TCC_NEWLINE TCC_PUSH_A
 "頭を、胸を、" TCC_NEWLINE
-"腕を、脚を。。。" TCC_NEWLINE
-"我が身すべてを。。。咀嚼せよ。。。" TCC_NEWLINE TCC_PUSH_A
+"腕を、足を。。。" TCC_NEWLINE
+"我が身すべてを。。。そしゃくせよ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "あ。。。ああっ。。。" TCC_NEWLINE
 "あ。。。あ。。。あ。。。っ。。。" TCC_NEWLINE
