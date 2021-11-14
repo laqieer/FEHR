@@ -1,6 +1,6 @@
 // Converted by ./ConvertText.py
 
-[MID_SCENARIO_MAP_BEGIN_S2124] = TCC_OPEN_LEFT 
+[MID_SCENARIO_MAP_BEGIN_S2124] = TCC_OPEN_LEFT
 "俺はただの旅人。。。吟遊詩人さ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
@@ -70,7 +70,7 @@ TCC_OPEN_LEFT
 "ごめんねー？" TCC_NEWLINE
 "信じてくれたのに。" TCC_NEWLINE TCC_PUSH_A
 "フィヨルム姉様は、これから" TCC_NEWLINE
-"王様に嬲り殺しにされちゃうんだ～。" TCC_NEWLINE
+"王様になぶり殺しにされちゃうんだ～。" TCC_NEWLINE
 "スリーズ姉様とおんなじだね？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
