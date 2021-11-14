@@ -2600,7 +2600,7 @@ u16 getUnitRandomSpecialSkill(struct Unit *unit)
         // factor shouldn't change in a chapter
         realUnit = GetUnitNew(unit->side, unit->number);
         factor = realUnit->character->id + realUnit->job->id + realUnit->lv + realUnit->number + realUnit->side + realUnit->maxHp + realUnit->pow + realUnit->skl + realUnit->spd + realUnit->def + realUnit->res + realUnit->luk + realUnit->levelSword + realUnit->levelLance + realUnit->levelAxe + realUnit->levelBow + realUnit->levelStaff + realUnit->levelAnima + realUnit->levelLight + realUnit->levelDark + gRAMChapterData.chapterIndex + gRAMChapterData.playerName[0] + gRAMChapterData.playerName[1] + gRAMChapterData.playerName[2] + gRAMChapterData.playerName[3] + gRAMChapterData.playerName[4] + gRAMChapterData.playerName[5] + gRAMChapterData.playerName[6] + gRAMChapterData.playerName[7] + gRAMChapterData.playerName[8] + gRAMChapterData.playerName[9] + gRAMChapterData.playerBloodType + gRAMChapterData.playerBirthMonth + gRAMChapterData.playerGender + gRAMChapterData.playerStars;
-        Debugf("Generic unit special skill factor: unit %x, number %d, factor %d", unit, unit->number, factor);
+        //Debugf("Generic unit special skill factor: unit %x, number %d, factor %d", unit, unit->number, factor);
         switch(getEnemySpecialSkillLevel())
         {
             case ENEMY_SPECIAL_SKILL_LEVEL_WEAK:
@@ -3002,6 +3002,7 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
 
     // special skill effect when attacking
     specialSkillId = getUnitSpecialSkill(&attacker->unit);
+    Debugf("attacker's special skill: %d %s %d/%d", specialSkillId, specialSkills[specialSkillId].name_en, getUnitSkillCD(&attacker->unit), getUnitSkillCDMax(&attacker->unit));
     // if attacker has effective special skill when attacking & skill CD completed & (skill has no condition or condition satisfied)
     if(specialSkillId && specialSkills[specialSkillId].effectWhenAttack && isSkillCDFull(&attacker->unit)
         && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
@@ -3009,6 +3010,7 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
         (*(specialSkills[specialSkillId].effectWhenAttack))(attacker, defender);
         if(isInBattle())
         {
+            Debug("BATTLE_HIT_ATTR_SKILL_ATTACK set");
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_ATTACK;
             // restart skill CD (prediction for special skill is inaccurate)
             initUnitSkillCD(&attacker->unit);
@@ -3017,6 +3019,7 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
 
     // special skill effect when defending
     specialSkillId = getUnitSpecialSkill(&defender->unit);
+    Debugf("defender's special skill: %d %s %d/%d", specialSkillId, specialSkills[specialSkillId].name_en, getUnitSkillCD(&defender->unit), getUnitSkillCDMax(&defender->unit));
     // if defender has effective special skill when defending & skill CD completed & (skill has no condition or condition satisfied)
     if(specialSkillId && specialSkills[specialSkillId].effectWhenDefend && isSkillCDFull(&defender->unit) &&
         (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(defender, defender)))
@@ -3048,6 +3051,7 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
 
         if(isInBattle())
         {
+            Debug("BATTLE_HIT_ATTR_SKILL_DEFEND set");
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_DEFEND;
             // restart skill CD (prediction for special skill is inaccurate)
             initUnitSkillCD(&defender->unit);
@@ -4258,11 +4262,13 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
         hit = 1;
     }
 
-    // clear special skill CD for dead side
-    if (attacker->unit.hp == 0)
-        initUnitSkillCD(&attacker->unit);
-    if (defender->unit.hp == 0)
-        initUnitSkillCD(&defender->unit);
+    // clear special skill CD for dead side in real battle
+    if (isInBattle()) {
+        if (attacker->unit.hp == 0)
+            initUnitSkillCD(&attacker->unit);
+        if (defender->unit.hp == 0)
+            initUnitSkillCD(&defender->unit);
+    }
 
     // special skill effect after battle if one dies after the battle
     if(gBattleHitIterator->info & BATTLE_HIT_INFO_FINISHES)
@@ -4358,10 +4364,12 @@ int GetUnitItemHealAmount(struct Unit* unit, int item)
 
         // special skill effect when healing
         u16 specialSkillId = getUnitSpecialSkill(unit);
+        Debugf("healer's special skill: %d %s %d/%d", specialSkillId, specialSkills[specialSkillId].name_en, getUnitSkillCD(unit), getUnitSkillCDMax(unit));
         // if attacker has effective special skill when healing & skill CD completed (heal special skill has no condition)
         if(specialSkillId && specialSkills[specialSkillId].effectWhenHeal && isSkillCDFull(unit))
         {
             (*(specialSkills[specialSkillId].effectWhenHeal))(unit, &result);
+            Debug("BATTLE_HIT_ATTR_SKILL_HEAL set");
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_HEAL;
             // restart skill CD (healing has no prediction)
             initUnitSkillCD(unit);
