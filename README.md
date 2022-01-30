@@ -17,7 +17,8 @@ A hack based on Fire Emblem 7 Japanese version.
 
 ## Dependancy
 * [devkitpro](https://devkitpro.org)
-* cmake(>=3.13)
+* [cmake](https://cmake.org/)(>=3.13)
+* [python3](https://www.python.org/)
 
 ## Build
 ### Build Instruction
