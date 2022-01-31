@@ -50,8 +50,8 @@ AllyUnitsENM:
 EnemyUnitsENM:
 	UNIT(GenericHelWeak,UndeadManakete,0,7,SIDE_ENEMY,1,10,4,10,4,WretchedAir,None,0,0,AttackInRange,DelayedPursue,Cautious,DefaultAI4) // グルンマムクート
 	UNIT(GenericHelWeak,Skelemonk,0,7,SIDE_ENEMY,1,14,11,14,11,Heal,None,0,0,HealAllies,DelayedPursue,Cautious,DefaultAI4) // シスター
-	UNIT(GenericHelWeak,Bonewalker,0,7,SIDE_ENEMY,1,10,16,10,16,IronSword,None,0,0,HealAllies,Pursue,Cautious,DefaultAI4) // ソードファイター
-	UNIT(GenericHelWeak,Revenant,0,7,SIDE_ENEMY,1,5,19,5,19,RottenClaw,None,0,0,HealAllies,Pursue,Cautious,DefaultAI4) // ランスドラゴン
+	UNIT(GenericHelWeak,Bonewalker,0,7,SIDE_ENEMY,1,10,16,10,16,IronSword,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ソードファイター
+	UNIT(GenericHelWeak,Revenant,0,7,SIDE_ENEMY,1,5,19,5,19,RottenClaw,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ランスドラゴン
 	END_UNIT
 NPCUnits:
 	END_UNIT
