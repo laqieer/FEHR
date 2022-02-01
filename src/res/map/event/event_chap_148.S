@@ -51,8 +51,8 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Yurg,Thief_F,Anna,14,4,14,4)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(GenericSummoned,Wolf,0,14,SIDE_ENEMY,1,7,4,7,4,FieryFang,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ティバーン
-	UNIT(GenericSummoned,Wolf,0,14,SIDE_ENEMY,1,6,4,6,4,FieryFang,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // リュシオン
+	UNIT(GenericSummoned,Wolf,0,10,SIDE_ENEMY,1,7,4,7,4,FieryFang,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ティバーン
+	UNIT(GenericSummoned,Wolf,0,10,SIDE_ENEMY,1,6,4,6,4,FieryFang,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // リュシオン
 	UNIT(GenericHel,Skelemonk,0,14,SIDE_ENEMY,1,3,7,3,7,Heal,None,0,0,HealAllies,Pursue,Cautious,DefaultAI4) // シスター
 	UNIT(GenericHel,Bonewalker,0,14,SIDE_ENEMY,1,3,11,3,11,IronLance,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ランスアーマー
 	END_UNIT
