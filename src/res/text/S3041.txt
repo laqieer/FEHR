@@ -12,7 +12,7 @@ TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "ただ。。。まだ何か。。。" TCC_NEWLINE
 "胸に違和感が残っている。。。" TCC_NEWLINE TCC_PUSH_A
 "まるで冷たい刃を" TCC_NEWLINE
-"抉り込まれたような。。。" TCC_NEWLINE TCC_PUSH_A
+"えぐり込まれたような。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_EIR
 "。。。【死すべき定め】よ。" TCC_NEWLINE TCC_PUSH_A
@@ -53,7 +53,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_RIGHT
 "恐れながら、陛下。。。" TCC_NEWLINE
 "ヘルは我々の偵察網に全く感知されず、" TCC_NEWLINE
-"忽然と至近から奇襲を仕掛けてきました。" TCC_NEWLINE TCC_PUSH_A
+"こつ然と至近から奇襲を仕掛けてきました。" TCC_NEWLINE TCC_PUSH_A
 "まるで亡霊のように。。。" TCC_NEWLINE
 "あの戦況に陥った以上、とても撤退は。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -105,7 +105,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SHARENA
 ""
 TCC_OPEN_RIGHT
 "父上。。。" TCC_NEWLINE TCC_PUSH_A
-"父上のご期待に沿えない" TCC_NEWLINE
+"父上のご期待にそえない" TCC_NEWLINE
 "不出来な息子であったこと。。。" TCC_NEWLINE
 "お詫び致します。" TCC_NEWLINE TCC_PUSH_A
 ""
