@@ -353,6 +353,8 @@ SECTIONS
     INCLUDE ../lds/game_option.ld
     . = 0x8029b42;
     .rodata.levelLimit : {*(.rodata.levelLimit)}
+    . = 0x805956c;
+    .rodata.snowNumInFimbulvetr : {*(.rodata.snowNumInFimbulvetr)}
 	. = 0x802e3c6;
 	.rodata.patch_tutorial_disabler_2e3c6 : {*(.rodata.patch_tutorial_disabler_2e3c6)}
 	. = 0x8067e78;
