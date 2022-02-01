@@ -104,7 +104,7 @@ TCC_OPEN_LEFT
 "生者よ。" TCC_NEWLINE
 "残された時間を数えながら、" TCC_NEWLINE
 "震えて眠るがいい。。。" TCC_NEWLINE TCC_PUSH_A
-"死がお前の喉を撫でる。。。" TCC_NEWLINE
+"死がお前の喉をなでる。。。" TCC_NEWLINE
 "その時まで。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
