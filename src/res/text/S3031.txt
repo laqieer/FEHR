@@ -46,7 +46,7 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_LEFT
 "強い。。。弱い。。。" TCC_NEWLINE
-"死はそのような尺度で" TCC_NEWLINE
+"死はそのようなしゃくどで" TCC_NEWLINE
 "測れるものではない。" TCC_NEWLINE TCC_PUSH_A
 "あ奴は死そのものだ。" TCC_NEWLINE
 "定命の者は、必ず死ぬ。" TCC_NEWLINE
