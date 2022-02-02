@@ -981,43 +981,67 @@ void specialSkillVengeanceEffect(struct BattleUnit* attacker, struct BattleUnit*
 // —z‰e: —^‚¦‚½ƒ_ƒ[ƒW‚Ì30%‚ğ‰ñ•œ
 void specialSkillDaylightEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
-    {
-        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
-            attacker->unit.hp = attacker->unit.maxHp;
-        else
-            attacker->unit.hp += gBattleStats.damage * 0.3;
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS)
+	return;
 
-        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
-    }
+    int realDamage = gBattleStats.damage;
+    if(realDamage > defender->unit.hp)
+	realDamage = defender->unit.hp;
+
+    int drainHp = realDamage * 0.3;
+    if(drainHp == 0)
+	return;
+
+    if (attacker->unit.maxHp < attacker->unit.hp + drainHp)
+        attacker->unit.hp = attacker->unit.maxHp;
+    else
+        attacker->unit.hp += drainHp;
+
+    gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
 }
 
 // —[—z: —^‚¦‚½ƒ_ƒ[ƒW‚Ì30%‚ğ‰ñ•œ
 void specialSkillNoontimeEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
-    {
-        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
-            attacker->unit.hp = attacker->unit.maxHp;
-        else
-            attacker->unit.hp += gBattleStats.damage * 0.3;
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS)
+	return;
 
-        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
-    }
+    int realDamage = gBattleStats.damage;
+    if(realDamage > defender->unit.hp)
+	realDamage = defender->unit.hp;
+
+    int drainHp = realDamage * 0.3;
+    if(drainHp == 0)
+	return;
+
+    if (attacker->unit.maxHp < attacker->unit.hp + drainHp)
+        attacker->unit.hp = attacker->unit.maxHp;
+    else
+        attacker->unit.hp += drainHp;
+
+    gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
 }
 
 // ‘¾—z: —^‚¦‚½ƒ_ƒ[ƒW‚Ì50%©•ª‚ğ‰ñ•œ
 void specialSkillSolEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0 && gBattleStats.damage)
-    {
-        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
-            attacker->unit.hp = attacker->unit.maxHp;
-        else
-            attacker->unit.hp += gBattleStats.damage * 0.5;
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS)
+	return;
 
-        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
-    }
+    int realDamage = gBattleStats.damage;
+    if(realDamage > defender->unit.hp)
+	realDamage = defender->unit.hp;
+
+    int drainHp = realDamage * 0.5;
+    if(drainHp == 0)
+	return;
+
+    if (attacker->unit.maxHp < attacker->unit.hp + drainHp)
+        attacker->unit.hp = attacker->unit.maxHp;
+    else
+        attacker->unit.hp += drainHp;
+
+    gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
 }
 
 // “V‹ó: “G‚Ìç”õA–‚–h-50%ˆµ‚¢‚ÅUŒ‚A—^‚¦‚½ƒ_ƒ[ƒW‚Ì50%©•ª‚ğ‰ñ•œ
@@ -1036,16 +1060,25 @@ void specialSkillAetherEffect(struct BattleUnit* attacker, struct BattleUnit* de
         if (gBattleStats.damage < 0)
             gBattleStats.damage = 0;
 
-        if(gBattleStats.damage)
+        int realDamage = gBattleStats.damage;
+        if(realDamage > defender->unit.hp)
+            realDamage = defender->unit.hp;
+
+        if(realDamage)
         {
             attacker->nonZeroDamage = 1;
 
-            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
-                attacker->unit.hp = attacker->unit.maxHp;
-            else
-                attacker->unit.hp += gBattleStats.damage * 0.5;
+            int drainHp = realDamage * 0.5;
 
-            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+            if (drainHp)
+            {
+                if (attacker->unit.maxHp < attacker->unit.hp + drainHp)
+                    attacker->unit.hp = attacker->unit.maxHp;
+                else
+                    attacker->unit.hp += drainHp;
+
+                gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+	    }
         }
     }
 }
@@ -1066,16 +1099,25 @@ void specialSkillRadientAetherEffect(struct BattleUnit* attacker, struct BattleU
         if (gBattleStats.damage < 0)
             gBattleStats.damage = 0;
 
-        if(gBattleStats.damage)
+        int realDamage = gBattleStats.damage;
+        if(realDamage > defender->unit.hp)
+            realDamage = defender->unit.hp;
+
+        if(realDamage)
         {
             attacker->nonZeroDamage = 1;
 
-            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.5)
-                attacker->unit.hp = attacker->unit.maxHp;
-            else
-                attacker->unit.hp += gBattleStats.damage * 0.5;
+            int drainHp = realDamage * 0.5;
 
-            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+            if (drainHp)
+            {
+                if (attacker->unit.maxHp < attacker->unit.hp + drainHp)
+                    attacker->unit.hp = attacker->unit.maxHp;
+                else
+                    attacker->unit.hp += drainHp;
+
+                gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+	    }
         }
     }
 }
@@ -1097,16 +1139,25 @@ void specialSkillSiriusEffect(struct BattleUnit* attacker, struct BattleUnit* de
         if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
             gBattleStats.damage = BATTLE_MAX_DAMAGE;
 
-        if(gBattleStats.damage)
+        int realDamage = gBattleStats.damage;
+        if(realDamage > defender->unit.hp)
+            realDamage = defender->unit.hp;
+
+        if(realDamage)
         {
             attacker->nonZeroDamage = 1;
 
-            if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.3)
-                attacker->unit.hp = attacker->unit.maxHp;
-            else
-                attacker->unit.hp += gBattleStats.damage * 0.3;
+            int drainHp = realDamage * 0.3;
 
-            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+            if (drainHp)
+	    {
+                if (attacker->unit.maxHp < attacker->unit.hp + drainHp)
+                    attacker->unit.hp = attacker->unit.maxHp;
+                else
+                    attacker->unit.hp += drainHp;
+
+                gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+	    }
         }
     }
 }
@@ -1126,16 +1177,25 @@ void specialSkillOpenFutureEffect(struct BattleUnit* attacker, struct BattleUnit
     if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
         gBattleStats.damage = BATTLE_MAX_DAMAGE;
 
-    if(gBattleStats.damage)
+    int realDamage = gBattleStats.damage;
+    if(realDamage > defender->unit.hp)
+        realDamage = defender->unit.hp;
+
+    if(realDamage)
     {
         attacker->nonZeroDamage = 1;
 
-        if (attacker->unit.maxHp < attacker->unit.hp + gBattleStats.damage * 0.25)
-            attacker->unit.hp = attacker->unit.maxHp;
-        else
-            attacker->unit.hp += gBattleStats.damage * 0.25;
+        int drainHp = gBattleStats.damage * 0.25;
 
-        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+        if (drainHp)
+	{
+            if (attacker->unit.maxHp < attacker->unit.hp + drainHp)
+                attacker->unit.hp = attacker->unit.maxHp;
+            else
+                attacker->unit.hp += drainHp;
+
+            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_HPSTEAL;
+	}
     }
 }
 
