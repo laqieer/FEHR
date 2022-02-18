@@ -39,7 +39,7 @@ TCC_OPEN_RIGHT
 "死を殺せはせぬ。" TCC_NEWLINE TCC_PUSH_A
 "だが、何かが" TCC_NEWLINE
 "見い出せるやもしれぬ。" TCC_NEWLINE
-"ヘルを討つ策の片鱗が。。。" TCC_NEWLINE TCC_PUSH_A
+"ヘルを討つ策のへんりんが。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "わかりました。" TCC_NEWLINE
@@ -171,8 +171,8 @@ TCC_OPEN_LEFT
 "誰が何をしようと。。。" TCC_NEWLINE
 "死は絶対。" TCC_NEWLINE TCC_PUSH_A
 "さあ、受け入れよ。" TCC_NEWLINE
-"我が鎌が今、" TCC_NEWLINE
-"お前の命を刈り取るのを。。。" TCC_NEWLINE TCC_PUSH_A
+"我がかまが今、" TCC_NEWLINE
+"お前の命をかり取るのを。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "く。。。。。。っ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
@@ -201,8 +201,8 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_GUSTAV
 "それを教えてくれた。。。" TCC_NEWLINE TCC_PUSH_A
 "我が命も。。。" TCC_NEWLINE
 "アスクの王族の命。。。" TCC_NEWLINE
-"これで、死者の数の帳尻は合おう。。。" TCC_NEWLINE TCC_PUSH_A
-"貴様の呪いは成就した。" TCC_NEWLINE
+"これで、死者の数のちょうじりは合おう。。。" TCC_NEWLINE TCC_PUSH_A
+"貴様の呪いはじょうじゅした。" TCC_NEWLINE
 "去るがいい、死神よ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
