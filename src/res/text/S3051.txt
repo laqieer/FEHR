@@ -91,7 +91,7 @@ TCC_OPEN_MID_LEFT
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S3051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
-"現在の戦線は膠着状態よ。" TCC_NEWLINE
+"現在の戦線はこうちゃく状態よ。" TCC_NEWLINE
 "敵軍は死の王国につながる扉の" TCC_NEWLINE
 "周辺に布陣している。。。" TCC_NEWLINE TCC_PUSH_A
 "今は、王国騎士団が" TCC_NEWLINE
@@ -102,7 +102,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 "きりがないわ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
-"膠着は敵に利があります。" TCC_NEWLINE
+"こうちゃくは敵に利があります。" TCC_NEWLINE
 "ヘルが現れ、死の呪いをかける度に" TCC_NEWLINE
 "僕たちは次々と死んでいく。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -201,7 +201,7 @@ TCC_OPEN_RIGHT
 "誰をいつ死なせるかは思いのまま。。。" TCC_NEWLINE
 "もしもヘルの呪いが" TCC_NEWLINE
 "それほど万能\であれば。。。" TCC_NEWLINE TCC_PUSH_A
-"アスクの民全員一斉に、" TCC_NEWLINE
+"アスクの民全員いっせいに、" TCC_NEWLINE
 "あと一瞬で死ねと" TCC_NEWLINE
 "呪いをかければいい。" TCC_NEWLINE TCC_PUSH_A
 "そうすれば、" TCC_NEWLINE
@@ -213,12 +213,12 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "【死すべき定め】には制約がある。。。" TCC_NEWLINE
 "僕はそう予\想している。" TCC_NEWLINE TCC_PUSH_A
-"呪いから成就までには" TCC_NEWLINE
+"呪いからじょうじゅまでには" TCC_NEWLINE
 "少なくとも九日間が必要。。。" TCC_NEWLINE TCC_PUSH_A
 "そして、" TCC_NEWLINE
 "一度に呪える相手は一人だけだ。" TCC_NEWLINE TCC_PUSH_A
 "そして敵を呪う時と、" TCC_NEWLINE
-"呪いの成就の時しか" TCC_NEWLINE
+"呪いのじょうじゅの時しか" TCC_NEWLINE
 "ヘルは姿を見せなかった。" TCC_NEWLINE TCC_PUSH_A
 "なぜヘルは身を隠していた。。。？" TCC_NEWLINE
 "それは。。。" TCC_NEWLINE TCC_PUSH_A
