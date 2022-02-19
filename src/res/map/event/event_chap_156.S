@@ -50,7 +50,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Eir,MagicFalcoKnight,Anna,5,19,5,19)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(GenericSummoned,FalcoKnight,0,22,SIDE_ENEMY,1,5,3,5,3,SteelLance,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 
+	UNIT(GenericSummonedDropItem,FalcoKnight,0,22,SIDE_ENEMY,1,5,3,5,3,SteelLance,Lightning,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 
 	UNIT(GenericHel,FalcoKnight,0,22,SIDE_ENEMY,1,7,3,7,3,SteelSword,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 
 	UNIT(GenericHel,WyvernLord,0,22,SIDE_ENEMY,1,6,2,6,2,SteelBow,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 
 	UNIT(GenericHel,MagicFalcoKnight,0,22,SIDE_ENEMY,1,4,3,4,3,Thunder,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 
