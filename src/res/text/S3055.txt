@@ -41,7 +41,7 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_LEFT
 "わかっておろうな。" TCC_NEWLINE
-"ここでためらうような惰弱な者には、" TCC_NEWLINE
+"ここでためらうようなだじゃくな者には、" TCC_NEWLINE
 "アスクの王など到底務まらぬ。" TCC_NEWLINE TCC_PUSH_A
 "このような手は効かぬとヘルに示せ。。。" TCC_NEWLINE
 "肉親が敵となろうが、" TCC_NEWLINE
