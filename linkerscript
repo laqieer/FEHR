@@ -132,7 +132,6 @@ Proc_StartBlocking = 0x80043d5;
 EndProc = 0x8004461;
 Proc_Break = 0x800457D;
 Proc_Find = 0x8004585;
-func80045FC = 0x80045FD;
 GotoProcLabel = 0x80045FD;
 GetIconGfxIndex = 0x8004C6D;
 DrawIcon = 0x8004d05;
