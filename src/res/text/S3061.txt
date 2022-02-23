@@ -72,7 +72,7 @@ TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "おびただしい血の跡。。。" TCC_NEWLINE TCC_PUSH_A
 "異様な場所だ。。。" TCC_NEWLINE
 "処刑場。。。" TCC_NEWLINE
-"それとも拷問場。。。？" TCC_NEWLINE TCC_PUSH_A
+"それともごうもん場。。。？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_EIR
 "ここは、私の居場所。。。" TCC_NEWLINE TCC_PUSH_A
@@ -96,7 +96,8 @@ TCC_OPEN_RIGHT
 TCC_OPEN_MID_LEFT
 "ふつうの人間は、命は一つ。" TCC_NEWLINE
 "でも私は幾千幾万もの命を持つ。。。" TCC_NEWLINE
-"私は殺されてもしばらくすると蘇るの。" TCC_NEWLINE TCC_PUSH_A
+"私は殺されても" TCC_NEWLINE
+"しばらくするとよみがえるの。" TCC_NEWLINE TCC_PUSH_A
 "だから、" TCC_NEWLINE
 "お母様はここで私を殺すの。。。" TCC_NEWLINE TCC_PUSH_A
 ""
