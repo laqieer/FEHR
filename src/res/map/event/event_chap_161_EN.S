@@ -50,10 +50,10 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Hrid,KnightLord,Anna,7,15,7,15)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(GenericSummoned,Wolf,0,27,SIDE_ENEMY,1,7,4,7,4,HellFang,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // モゥディ
-	UNIT(GenericSummoned,Wolf,0,27,SIDE_ENEMY,1,9,4,9,4,FieryFang,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ライ
-	UNIT(GenericHel,FireDragon,0,27,SIDE_ENEMY,1,4,4,4,4,Flametongue,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ラウアマムクート
-	UNIT(GenericHel,Skelemonk,0,27,SIDE_ENEMY,1,10,1,10,1,Berserker,Physic,0,0,HealAllies,Pursue,Cautious,DefaultAI4) // シスター
+	UNIT(GenericSummonedWeak,Wolf,0,27,SIDE_ENEMY,1,7,4,7,4,HellFang,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // モゥディ
+	UNIT(GenericSummonedWeak,Wolf,0,27,SIDE_ENEMY,1,9,4,9,4,FieryFang,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ライ
+	UNIT(GenericHelWeak,FireDragon,0,27,SIDE_ENEMY,0,4,4,4,4,Flametongue,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ラウアマムクート
+	UNIT(GenericHelWeak,Skelemonk,0,27,SIDE_ENEMY,1,10,1,10,1,Berserk,Physic,0,0,HealAllies,Pursue,Cautious,DefaultAI4) // シスター
 	END_UNIT
 NPCUnits:
 	END_UNIT
