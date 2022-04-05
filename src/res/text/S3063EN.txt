@@ -56,8 +56,9 @@ TCC_OPEN_RIGHT
 "Ｗｈａｔ　ｉｎｓｏｌｅｎｃｅ！　Ｙｏｕ　ｄｏ　ｎｏｔ　ｆｅー"TCC_NEWLINE"ａｒ　ｍｙ　ｃｕｒｓｅ？　Ｙｏｕ　ｄｏ　ｎｏｔ　ｆｅａｒ　"TCC_NEWLINE"ｄｅａｔｈ？　Ｙｏｕ　ｄｏ　ｎｏｔ　ｆｅａｒ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
 "Ｖｅｒｙ　ｗｅｌｌ．　Ｉ　ｃａｎ　ｃｏｒｒｅｃｔ　ｔｈａｔ"TCC_NEWLINE"．　Ｉ　ｗｉｌｌ　ｗｉｔｈｈｏｌｄ　ｍｙ　ｄｅａｔｈ　ｃｕー"TCC_NEWLINE"ｒｓｅ．　Ｔｈａｔ　ｆａｔｅ　ｉｓ　ｔｏｏ　ｅａｓｙ　ｆｏー"TCC_NEWLINE"ｒ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｉｌｌ　ｃａｒｖｅ　ｔｈｅ　ｔｅｒｒｏｒ　ｏｆ　ｄｅー"TCC_NEWLINE"ａｔｈ　ｉｎｔｏ　ｙｏｕｒ　ｖｅｒｙ　ｂｏｎｅｓ．　Ｔｈｅー"TCC_NEWLINE"ｎ，　ａｎｄ　ｏｎｌｙ　ｔｈｅｎ，　ｗｉｌｌ　Ｉ　ｂｒｉｎー"TCC_NEWLINE"ｇ　ｙｏｕ　ｄｅａｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE
 TCC_OPEN_LEFT
 "Ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｈｅ’ｓ　ｇｏｎｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｎ　Ｉ　ｗａｓ　ｒｉｇｈｔ．　Ｓｏｍｅｗｈｅｒｅ　ｉー"TCC_NEWLINE"ｎ　ｔｈｉｓ　ｒｅａｌｍ．．．ｔｈｅｒｅ　ｉｓ　ａ　ｃｌｕー"TCC_NEWLINE"ｅ　ｔｏ　ｈｏｗ　Ｉ　ｍｉｇｈｔ　ｄｅｆｅａｔ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
