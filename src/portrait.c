@@ -433,7 +433,7 @@ const u16 portrait_Freeze_obj[] = {
 };
 
 const u16 portrait_Yurg_obj[] = {
-    10,
+    11,
     OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(24 - 64) | OBJ_SIZE(2), OBJ_CHAR(0),
     OBJ_Y(-16) | ATTR0_TALL, OBJ_X(24 + 32 - 64) | OBJ_SIZE(2), OBJ_CHAR(4),
     OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(24 - 64) | OBJ_SIZE(3), OBJ_CHAR(6),
@@ -443,8 +443,9 @@ const u16 portrait_Yurg_obj[] = {
     OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(0 - 64) | OBJ_SIZE(3), OBJ_CHAR(17),
     OBJ_Y(64 - 16) | ATTR0_SQUARE, OBJ_X(64 - 64) | OBJ_SIZE(2), OBJ_CHAR(25),
     OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(64 + 32 - 64) | OBJ_SIZE(2), OBJ_CHAR(29),
-    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(64 + 32 + 16 - 64) | OBJ_SIZE(1), OBJ_CHAR(31),
-    10,
+    OBJ_Y(64 - 16 + 16) | ATTR0_TALL, OBJ_X(64 + 32 + 16 - 64 + 8) | OBJ_SIZE(0), OBJ_CHAR(31),
+    OBJ_Y(64 - 16 + 16) | ATTR0_TALL, OBJ_X(64 + 32 + 16 - 64) | OBJ_SIZE(0), OBJ_CHAR(31 + 32 * 2),
+    11,
     OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(-(24 - 64) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(0),
     OBJ_Y(-16) | ATTR0_TALL, OBJ_X(-(24 + 32 - 64) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(4),
     OBJ_Y(32 - 16) | ATTR0_WIDE, OBJ_X(-(24 - 64) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(6),
@@ -454,7 +455,8 @@ const u16 portrait_Yurg_obj[] = {
     OBJ_Y(64 - 16) | ATTR0_WIDE, OBJ_X(-(0 - 64) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(17),
     OBJ_Y(64 - 16) | ATTR0_SQUARE, OBJ_X(-(64 - 64) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(25),
     OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(-(64 + 32 - 64) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(29),
-    OBJ_Y(64 - 16) | ATTR0_TALL, OBJ_X(-(64 + 32 + 16 - 64) - 8) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(31),
+    OBJ_Y(64 - 16 + 16) | ATTR0_TALL, OBJ_X(-(64 + 32 + 16 - 64 + 8) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(31),
+    OBJ_Y(64 - 16 + 16) | ATTR0_TALL, OBJ_X(-(64 + 32 + 16 - 64) - 8) | OBJ_SIZE(0) | OBJ_HFLIP, OBJ_CHAR(31 + 32 * 2),
 };
 
 const u16 portrait_Henriette_obj[] = {
