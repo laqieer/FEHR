@@ -77,7 +77,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "すべてが終わった後。。。" TCC_NEWLINE
 "ヘルは言った。" TCC_NEWLINE
-"「死者の数の帳尻を合わせよ」と。" TCC_NEWLINE TCC_PUSH_A
+"「死者の数のちょうじりを合わせよ」と。" TCC_NEWLINE TCC_PUSH_A
 "異界で一人が死ねば、" TCC_NEWLINE
 "僕たちの世界の一人は" TCC_NEWLINE
 "死なずにすむ。。。" TCC_NEWLINE TCC_PUSH_A
@@ -108,7 +108,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3095] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LIF
 "倒れるわけにはいかない。。。" TCC_NEWLINE
 "止まれば。。。みんなは。。。" TCC_NEWLINE TCC_PUSH_A
-"死者の数の帳尻を合わせる。。。" TCC_NEWLINE
+"死者の数のちょうじりを合わせる。。。" TCC_NEWLINE
 "僕は。。。みんなを救うんだ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
