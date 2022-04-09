@@ -53,7 +53,7 @@ TCC_OPEN_LEFT
 "。。。ふふっ。" TCC_NEWLINE TCC_PUSH_A
 "シャロン王女、あなたは元気ね。。。" TCC_NEWLINE
 "あなたの生命は" TCC_NEWLINE
-"輝きに彩られているわ。。。" TCC_NEWLINE TCC_PUSH_A
+"輝きにいろどられているわ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "そ、そうですか？" TCC_NEWLINE
