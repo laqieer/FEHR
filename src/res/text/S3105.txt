@@ -63,7 +63,7 @@ TCC_OPEN_MID_RIGHT
 "ここまで来た。。。どうして？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT
-"僕たちを罠に嵌められると思えば" TCC_NEWLINE
+"僕たちを罠にはめられると思えば" TCC_NEWLINE
 "君は、ここに来る。。。" TCC_NEWLINE
 "みずからとどめを刺すために。" TCC_NEWLINE TCC_PUSH_A
 "それは同時に、" TCC_NEWLINE
