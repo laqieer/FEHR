@@ -32,9 +32,9 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
 TCC_OPEN_LEFT
 "この書によれば。。。" TCC_NEWLINE TCC_PUSH_A
 "『忌まわしき" TCC_NEWLINE
-"　死の王の呪詛により" TCC_NEWLINE
+"　死の王のじゅそにより" TCC_NEWLINE
 "　偉大なる王は失われ。。。』" TCC_NEWLINE TCC_PUSH_A
-"『滅びの淵にあった" TCC_NEWLINE
+"『滅びのふちにあった" TCC_NEWLINE
 "　我らはエンブラと結び" TCC_NEWLINE
 "　【心臓】の禁忌に触れた。。。』" TCC_NEWLINE TCC_PUSH_A
 ""
