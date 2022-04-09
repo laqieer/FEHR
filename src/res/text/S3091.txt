@@ -7,7 +7,7 @@
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "あの男は" TCC_NEWLINE
-"否定も肯定もしなかった。。。" TCC_NEWLINE
+"否定もこう定もしなかった。。。" TCC_NEWLINE
 "でも、おそらく間違いない。" TCC_NEWLINE TCC_PUSH_A
 "彼は、初代王リーヴではなく、" TCC_NEWLINE
 "異界の僕だ。" TCC_NEWLINE TCC_PUSH_A
