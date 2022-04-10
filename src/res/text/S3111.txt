@@ -14,7 +14,7 @@ TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_VERONICA
 ""
 TCC_OPEN_LEFT
 "あ、いや、そういうわけじゃ。。。" TCC_NEWLINE
-"そんなに睨まないで？" TCC_NEWLINE TCC_PUSH_A
+"そんなににらまないで？" TCC_NEWLINE TCC_PUSH_A
 ""
 "問題は、これからどこを探すかね。" TCC_NEWLINE
 "さすがに大陸をやみくもに" TCC_NEWLINE
@@ -81,12 +81,12 @@ TCC_OPEN_RIGHT
 "ねえ、アルフォンス。" TCC_NEWLINE TCC_PUSH_A
 "ヘルは本当に、" TCC_NEWLINE
 "私たちの世界を" TCC_NEWLINE
-"蘇らせてくれる？" TCC_NEWLINE TCC_PUSH_A
+"よみがえらせてくれる？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "。。。ああ。" TCC_NEWLINE
 "ヘルにはその力がある。" TCC_NEWLINE TCC_PUSH_A
-"死者の数の帳尻を合わせる。。。" TCC_NEWLINE
+"死者の数のちょうじりを合わせる。。。" TCC_NEWLINE
 "そうして、僕たちの世界を取り戻すんだ。" TCC_NEWLINE
 "僕たち二人で。。。" TCC_NEWLINE TCC_PUSH_A
 ""
