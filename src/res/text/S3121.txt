@@ -6,7 +6,7 @@
 "俺とお前。。。" TCC_NEWLINE
 "どちらが生に執着できる。。。？" TCC_NEWLINE TCC_PUSH_A
 "お前はどこまで生き延びられる。。。？" TCC_NEWLINE
-"地下まで崩落したこの瓦礫に埋もれて。。。" TCC_NEWLINE TCC_PUSH_A
+"地下まで崩落したこのがれきに埋もれて。。。" TCC_NEWLINE TCC_PUSH_A
 "！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
@@ -38,7 +38,7 @@ TCC_OPEN_LEFT
 "僕に何と言うだろうか。。。" TCC_NEWLINE
 "もうやめて欲しいと。。。" TCC_NEWLINE
 "そう言うのだろうか。。。？" TCC_NEWLINE TCC_PUSH_A
-"こんなことをして蘇っても、" TCC_NEWLINE
+"こんなことをしてよみがえっても、" TCC_NEWLINE
 "シャロンは喜ばないのだろうか。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
