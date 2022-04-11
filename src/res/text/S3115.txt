@@ -19,7 +19,7 @@ TCC_OPEN_RIGHT
 "既にヘルも知っているはずだよ。" TCC_NEWLINE TCC_PUSH_A
 "必ずヘルに疑われる。" TCC_NEWLINE
 "遅かれ早かれ。。。" TCC_NEWLINE
-"君は拷問され、殺される。。。" TCC_NEWLINE TCC_PUSH_A
+"君はごう問され、殺される。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT
 "構\わないわ、" TCC_NEWLINE
@@ -139,7 +139,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "もう、遅い。" TCC_NEWLINE TCC_PUSH_A
 "ヴァイス・ブレイヴの。。。" TCC_NEWLINE
-"懐かしき城の瓦礫に埋もれ、" TCC_NEWLINE
+"懐かしき城のがれきに埋もれ、" TCC_NEWLINE
 "眠るがいい。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
