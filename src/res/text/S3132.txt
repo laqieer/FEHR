@@ -90,7 +90,7 @@ TCC_OPEN_LEFT
 "シャロン王女は。。。" TCC_NEWLINE
 "お母様に殺されたわ。" TCC_NEWLINE TCC_PUSH_A
 "アルフォンス王子は絶望して。。。" TCC_NEWLINE
-"シャロン王女を蘇らせるために" TCC_NEWLINE
+"シャロン王女をよみがえらせるために" TCC_NEWLINE
 "お母様と契約した。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
