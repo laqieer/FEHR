@@ -38,7 +38,7 @@ TCC_OPEN_RIGHT
 "私を討つことはできない。。。" TCC_NEWLINE TCC_PUSH_A
 "エイル。お前ももう不要だ。" TCC_NEWLINE
 "お前の最後の命も、" TCC_NEWLINE
-"ここで刈り取るとしよう。" TCC_NEWLINE TCC_PUSH_A
+"ここでかり取るとしよう。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "お母様。。。教えて。" TCC_NEWLINE
@@ -82,7 +82,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
 "。。。お母様。。。" TCC_NEWLINE
-"。。。私を。。。騙していたの。。。？" TCC_NEWLINE TCC_PUSH_A
+"。。。私を。。。だましていたの。。。？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "そうだ。" TCC_NEWLINE
