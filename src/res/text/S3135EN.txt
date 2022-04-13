@@ -1,11 +1,11 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_MAP_BEGIN_S3135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+[MID_SCENARIO_MAP_BEGIN_S3135_EN] = TCC_OPEN_FAR_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
 "Ｈｅｌ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_HEL
 "Ｓｏ．．．　Ａｔ　ｌａｓｔ，　ｔｈｅ　ｌｉｖｉｎｇ　ｓｅｔ"TCC_NEWLINE"　ｆｏｏｔ　ｉｎ　ｔｈｅ　ｈｅａｒｔ　ｏｆ　ｄｅａｔｈ’ｓ"TCC_NEWLINE"　ｄｏｍａｉｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ａｌａｓ，　ｔｏ　ｊｏｉｎ　ｕｓ　ｍｅａｎｓ　ｔｈａｔ　ｙー"TCC_NEWLINE"ｏｕ　ｗｉｌｌ　ｓｏｏｎ　ｂｅ　ａｌｉｖｅ　ｎｏ　ｌｏｎｇー"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_LEFT
 "Ｙｏｕ　ｈａｖｅ　ｓｌａｉｎ　ｃｏｕｎｔｌｅｓｓ　ｐｅｏｐー"TCC_NEWLINE"ｌｅ，　ｂｏｔｈ　ｉｎ　ｏｕｒ　Ａｓｋｒ　ａｎｄ　ａｎｏｔー"TCC_NEWLINE"ｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕ　ｓｔｏｌｅ　Ｅｉｒ’ｓ　ｆａｍｉｌｙ　ｆｒｏｍ　ｈー"TCC_NEWLINE"ｅｒ．　Ｙｏｕ　ｓｔｏｌｅ　ｈｅｒ　ｍｅｍｏｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ａｎｄ　ａｓ　ｉｆ　ｔｈａｔ　ｗａｓｎ’ｔ　ｅｎｏｕｇｈ，"TCC_NEWLINE"　ｙｏｕ　ｓｔｏｌｅ　ｈｅｒ　ｖｅｒｙ　ｌｉｆｅ，　ａｇａー"TCC_NEWLINE"ｉｎ　ａｎｄ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
@@ -16,10 +16,10 @@ TCC_OPEN_RIGHT
 "Ｆｏｒ　ａｓ　ｌｏｎｇ　ａｓ　ｔｈｅ　ｌｉｖｉｎｇ　ｒｅｍー"TCC_NEWLINE"ａｉｎ　ａｌｉｖｅ，　ｔｈｅｙ　ｗｉｓｈ　ｔｏ　ｃｏｎｔｉー"TCC_NEWLINE"ｎｕｅ　ｔｏ　ｂｅ　ｓｏ．　Ｙｅｔ　ｔｈｅ　ｅｎｄ　ｔｏ　"TCC_NEWLINE"ｌｉｆｅ　ｉｓ　ａｎ　ｉｎｅｖｉｔａｂｌｅ　ｆａｃｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｉｔｈ　ｅｖｅｒｙ　ｄｅａｔｈ，　ｏｎ　ｅｖｅｒｙ　ｗｏー"TCC_NEWLINE"ｒｌｄ，　Ｉ　ｇｒｏｗ　ｓｔｒｏｎｇｅｒａｎｄ　ｔｈｅ　ｎー"TCC_NEWLINE"ｕｍｂｅｒ　ｏｆ　ｗｏｒｌｄｓ，　ａｓ　ｙｏｕ　ｋｎｏｗ，"TCC_NEWLINE"　ｉｓ　ｌｉｍｉｔｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｏｕｒ　ｄｅｍｉｓｅ　ｗｉｌｌ　ｓｏｏｎ　ｎｏｕｒｉｓｈ"TCC_NEWLINE"　ｍｅ，　ｊｕｓｔ　ａｓ　ｙｏｕｒ　ｃｏｕｎｔｅｒｐａｒｔ"TCC_NEWLINE"’ｓ　ｄｉｄ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_LEFT
 "Ｉ　ｇａｖｅ　ｈｉｍ　ｍｙ　ｗｏｒｄ，　ｔｈａｔ　ｏｔｈｅー"TCC_NEWLINE"ｒ　Ａｌｆｏｎｓｅ，　ａｎｄ　Ｉ　ｉｎｔｅｎｄ　ｔｏ　ｆｕー"TCC_NEWLINE"ｌｆｉｌｌ　ｔｈａｔ　ｐｒｏｍｉｓｅ　ｔｏｄａｙ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｅｎｄ．　Ｉ　ｄｅｃｌａｒｅｈｅｒー"TCC_NEWLINE"ｅ　ａｎｄ　ｎｏｗｙｏｕ　ｗｉｌｌ　ｃｌａｉｍ　ｎｏ　ｍｏー"TCC_NEWLINE"ｒｅ　ｌｉｖｅｓ！　Ｎｏｔ　ｅｖｅｒ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+TCC_OPEN_FAR_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S3135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HEL
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
