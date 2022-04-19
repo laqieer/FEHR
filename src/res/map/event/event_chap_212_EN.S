@@ -58,7 +58,7 @@ EnemyUnitsENM:
 	UNIT(GenericSummoned,Swordmaster_F,0,30,SIDE_ENEMY,1,6,0,6,0,KillingEdge,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // ラクチェ
 	UNIT(GenericSummoned,Swordmaster,0,30,SIDE_ENEMY,1,8,19,8,19,KillingEdge,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // シャナン
 	UNIT(GenericElf,Bishop_F,0,30,SIDE_ENEMY,1,10,4,10,4,Physic,Lightning,0,0,HealAllies,Pursue,Cautious,DefaultAI4) // 
-	UNIT(GenericElf,FalcoKnight,0,30,SIDE_ENEMY,1,0,19,0,19,IronLance,None,0,0,HealAllies,Pursue,Cautious,DefaultAI4) // 
+	UNIT(GenericElf,FalcoKnight,0,30,SIDE_ENEMY,1,0,19,0,19,IronLance,None,0,0,AttackInRange,Pursue,Cautious,DefaultAI4) // 
 	END_UNIT
 NPCUnits:
 	END_UNIT
