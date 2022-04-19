@@ -20,7 +20,7 @@ TCC_OPEN_LEFT
 ""
 TCC_OPEN_RIGHT
 "私は人間に" TCC_NEWLINE
-"淫らな夢を見せる黒妖精。。。" TCC_NEWLINE TCC_PUSH_A
+"みだらな夢を見せる黒妖精。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "でも、人間たちのいやらしい想像には" TCC_NEWLINE
 "とてもついていけません。" TCC_NEWLINE
