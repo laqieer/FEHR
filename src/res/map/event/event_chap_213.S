@@ -58,7 +58,7 @@ EnemyUnitsENM:
 	UNIT(GenericSummoned,Sage,0,30,SIDE_ENEMY,1,0,9,0,9,Excalibur,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // セティ
 	UNIT(GenericElf,General,0,30,SIDE_ENEMY,1,6,9,6,9,SteelLance,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // 
 	UNIT(GenericElf,Druid,0,30,SIDE_ENEMY,1,6,1,6,1,Flux,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // 
-	UNIT(GenericElf,FalcoKnight,0,30,SIDE_ENEMY,1,14,4,14,4,SteelSword,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // 
+	UNIT(GenericElfDrop,FalcoKnight,0,30,SIDE_ENEMY,1,14,4,14,4,SteelSword,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // 
 	END_UNIT
 NPCUnits:
 	END_UNIT
