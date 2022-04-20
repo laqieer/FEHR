@@ -59,10 +59,10 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Lif,Bonewalker,Anna,7,19,7,19)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Triandra,MagicFalcoKnight,0,30,SIDE_ENEMY,1,5,5,5,5,Elfire,None,0,0,HealAllies,Pursue,NoRecovery,DefaultAI4) // カビオサ
-	UNIT(GenericSummonedWeak,DivineDragon,0,30,SIDE_ENEMY,1,9,5,9,5,DivineDragonstone,None,0,0,HealAllies,Pursue,NoRecovery,DefaultAI4) // ニルス
-	UNIT(GenericSummonedStrong,Thief_F,0,30,SIDE_ENEMY,1,0,5,0,5,PoisonDagger,None,0,0,HealAllies,Pursue,NoRecovery,DefaultAI4) // レイラ
-	UNIT(GenericSummonedStrong,FalcoKnight,0,30,SIDE_ENEMY,1,13,9,13,9,KillerLance,None,0,0,HealAllies,Pursue,NoRecovery,DefaultAI4) // フィオーラ
+	UNIT(Triandra,MagicFalcoKnight,0,30,SIDE_ENEMY,1,5,5,5,5,Elfire,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // カビオサ
+	UNIT(GenericSummonedWeak,DivineDragon,0,30,SIDE_ENEMY,1,9,5,9,5,DivineDragonstone,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // ニルス
+	UNIT(GenericSummonedStrong,Thief_F,0,30,SIDE_ENEMY,1,0,5,0,5,PoisonDagger,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // レイラ
+	UNIT(GenericSummonedStrong,FalcoKnight,0,30,SIDE_ENEMY,1,13,9,13,9,KillerLance,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // フィオーラ
 	END_UNIT
 NPCUnits:
 	END_UNIT
