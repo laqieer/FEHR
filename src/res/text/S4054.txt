@@ -1,8 +1,8 @@
 // Converted by ./ConvertText.py
 
 [MID_SCENARIO_MAP_BEGIN_S4054] = TCC_OPEN_LEFT 
-"引き籠もりたい。。。" TCC_NEWLINE
-"引き籠もりたい。。。" TCC_NEWLINE
+"引きこもりたい。。。" TCC_NEWLINE
+"引きこもりたい。。。" TCC_NEWLINE
 "はっ、禁断症状が。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
