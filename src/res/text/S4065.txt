@@ -63,7 +63,7 @@ TCC_OPEN_LEFT
 ""
 TCC_OPEN_RIGHT
 "。。。信用できるのか？" TCC_NEWLINE
-"お前を欺\こうとしている可能\性は？" TCC_NEWLINE TCC_PUSH_A
+"お前をあざむこうとしている可能\性は？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT
 "いや、僕は" TCC_NEWLINE
