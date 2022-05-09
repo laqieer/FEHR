@@ -1,7 +1,7 @@
 // Converted by ./ConvertText.py
 
 [MID_SCENARIO_OPENING_S4075] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_MIRABILIS
-"つきましたぁ、黄昏の岬ですぅ。" TCC_NEWLINE
+"つきましたぁ、たそがれのみさきですぅ。" TCC_NEWLINE
 "ちょうど日が沈んで。。。" TCC_NEWLINE
 "昼から夜へ変わる狭間ですぅ。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -28,8 +28,8 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
 TCC_OPEN_LEFT
 "ふわぁい。" TCC_NEWLINE
 "じゃあ、皆さんに" TCC_NEWLINE
-"妖精の粉を振りかけますぅ。。。" TCC_NEWLINE TCC_PUSH_A
-"この粉を浴びると、" TCC_NEWLINE
+"妖精のこなを振りかけますぅ。。。" TCC_NEWLINE TCC_PUSH_A
+"このこなを浴びると、" TCC_NEWLINE
 "人間はみんな白昼夢に。。。" TCC_NEWLINE
 "あ、あれれ？" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -70,12 +70,12 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_MIRABILIS
 TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
 "ルピナス、起きて起きて。" TCC_NEWLINE
 "夢に逃げないで。" TCC_NEWLINE
-"妖精の粉を使って！" TCC_NEWLINE TCC_PUSH_A
+"妖精のこなを使って！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT
 "で、でも、" TCC_NEWLINE
 "戦ってる人には" TCC_NEWLINE
-"妖精の粉は効かないんですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+"妖精のこなは効かないんですぅ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "っ。。。このままでは。。。" TCC_NEWLINE TCC_PUSH_A
