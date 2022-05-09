@@ -134,7 +134,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_MIRABILIS
 "えっと、あっちですぅ。。。" TCC_NEWLINE TCC_PUSH_A
-"夕日の沈む。。。黄昏の岬。。。" TCC_NEWLINE
+"夕日の沈む。。。たそがれのみさき。。。" TCC_NEWLINE
 "そこはスヴァルトアルフに" TCC_NEWLINE
 "すごく近い場所なんですぅ。" TCC_NEWLINE TCC_PUSH_A
 "そこから。。。" TCC_NEWLINE
