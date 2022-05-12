@@ -95,7 +95,7 @@ TCC_OPEN_MID_LEFT
 "愛する男と一緒になりたかった。" TCC_NEWLINE TCC_PUSH_A
 "その愛の邪魔になったから。。。" TCC_NEWLINE
 "娘のあなたを捨てたの。。。" TCC_NEWLINE
-"暗い井戸の底に投げ落として。" TCC_NEWLINE TCC_PUSH_A
+"暗いいどの底に投げ落として。" TCC_NEWLINE TCC_PUSH_A
 "冷たい闇の中で。。。" TCC_NEWLINE
 "あなたは泣きながら" TCC_NEWLINE
 "母の助けを求めていた。。。" TCC_NEWLINE TCC_PUSH_A
