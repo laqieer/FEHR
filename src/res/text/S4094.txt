@@ -61,14 +61,15 @@ TCC_OPEN_MID_LEFT
 "妹の目はほとんど見えなくなった。。。" TCC_NEWLINE TCC_PUSH_A
 "あなたたち姉妹は" TCC_NEWLINE
 "ろくに食事も与えられず、家にも入れず、" TCC_NEWLINE
-"冬の夜も裸同然で震えて眠った。。。" TCC_NEWLINE TCC_PUSH_A
+"冬の夜もはだか同然で震えて眠った。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT
-"痩せ衰えた妹は、殴り殺されていた。。。" TCC_NEWLINE
-"あの日、あなたが父親を殺さなければ。" TCC_NEWLINE TCC_PUSH_A
+"やせ衰えた妹は、殴り殺されていた。。。" TCC_NEWLINE
+"あの日、あなたが父親を"TCC_NEWLINE
+"殺さなければ。" TCC_NEWLINE TCC_PUSH_A
 "あなたは愛する妹のために" TCC_NEWLINE
 "できる精一杯のことをしたの。。。" TCC_NEWLINE
 "だから、何も気にすることはないわ。" TCC_NEWLINE TCC_PUSH_A
