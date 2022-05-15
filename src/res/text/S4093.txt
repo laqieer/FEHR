@@ -35,7 +35,7 @@ TCC_OPEN_RIGHT
 "人の世界を滅ぼすような。。。" TCC_NEWLINE
 "そのようなことまでは望むまい。" TCC_NEWLINE TCC_PUSH_A
 "今の我々は" TCC_NEWLINE
-"懐かしき夢の残滓。。。" TCC_NEWLINE TCC_PUSH_A
+"懐かしき夢のざんさい。。。" TCC_NEWLINE TCC_PUSH_A
 "かつて" TCC_NEWLINE
 "夢の世界が滅んだ時。。。" TCC_NEWLINE
 "我々もまた滅んだ。。。" TCC_NEWLINE TCC_PUSH_A
@@ -48,8 +48,8 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "。。。かつて、人は夢見ることを諦め、" TCC_NEWLINE
 "夢の世界は次第に" TCC_NEWLINE
-"虚無に覆われていった。。。" TCC_NEWLINE TCC_PUSH_A
-"世界には次々と虚ろな穴が穿たれ、" TCC_NEWLINE
+"きょむに覆われていった。。。" TCC_NEWLINE TCC_PUSH_A
+"世界には次々とうつろな穴がうがたれ、" TCC_NEWLINE
 "最後には、夢の世界は" TCC_NEWLINE
 "ばらばらに引き裂かれようとしていた。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -58,7 +58,7 @@ TCC_OPEN_LEFT
 "あの子たちはそれを望み、" TCC_NEWLINE
 "花の蜜を飲んで特別な存在になったわ。。。" TCC_NEWLINE TCC_PUSH_A
 "そして、" TCC_NEWLINE
-"妖精たちの夢の力で虚無を退け、" TCC_NEWLINE
+"妖精たちの夢の力できょむを退け、" TCC_NEWLINE
 "夢の世界も人間の世界も救った。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
