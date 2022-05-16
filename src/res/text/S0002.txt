@@ -1,8 +1,8 @@
 // Converted by ./ConvertText.py
 
 [MID_SCENARIO_OPENING_S0002] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
-"伝承に曰く。。。" TCC_NEWLINE
-"『真の鍵【ブレイザブリク】を捧げよ。。。』" TCC_NEWLINE TCC_PUSH_A
+"伝承にいわく。。。" TCC_NEWLINE
+"『真のかぎ【ブレイザブリク】を捧げよ。。。』" TCC_NEWLINE TCC_PUSH_A
 "『さすれば異界より、" TCC_NEWLINE
 "　【ブレイザブリク】を撃ち放つ" TCC_NEWLINE
 "　真の英雄が現れるであろう。。。』" TCC_NEWLINE TCC_PUSH_A
