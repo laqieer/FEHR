@@ -5,7 +5,7 @@
 "この世界に来てくれてありがとう！" TCC_NEWLINE
 "異界の大英雄様！" TCC_NEWLINE TCC_PUSH_A
 "いにしえの伝承の通り、" TCC_NEWLINE
-"あなた様こそが、滅亡に瀕した" TCC_NEWLINE
+"あなた様こそが、滅亡にひんした" TCC_NEWLINE
 "この国を救う救世主として。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "。。。って、あれ？" TCC_NEWLINE
