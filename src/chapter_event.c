@@ -255,7 +255,7 @@ extern const u8 * const event_chap_244[];
 extern const u8 * const event_chap_245[];
 extern const u8 * const event_chap_246[];
 
-const u8 ** const events[0xff] = {
+const u8 ** const events[] = {
         NULL,
         event_chap_pre,
         event_chap_1,
@@ -504,6 +504,8 @@ const u8 ** const events[0xff] = {
         event_chap_244,
         event_chap_245,
         event_chap_246,
+
+        //[0x100 + 244 + 1] = event_chap_233,
 };
 
 extern const u8 * const event_chap_246_EN[];
@@ -713,7 +715,7 @@ extern const u8 * const event_chap_69_EN[];
 extern const u8 * const event_chap_7_EN[];
 extern const u8 * const event_chap_8_EN[];
 
-const u8 ** const events_EN[0xff] = {
+const u8 ** const events_EN[] = {
         NULL,
         event_chap_pre_EN,
         event_chap_1_EN,
@@ -962,11 +964,11 @@ const u8 ** const events_EN[0xff] = {
         event_chap_244_EN,
         event_chap_245_EN,
         event_chap_246_EN,
+
+        //[0x100 + 244 + 1] = event_chap_233_EN,
 };
 
 const u8 *** const pEvents = events;
-
-extern const u8 *** gpDefaultChapterEvent;
 
 char getCurrentGameLanguage();
 
@@ -975,21 +977,34 @@ enum {
     LANGUAGE_EN
 };
 
+u32 getChapterEventID(u32 chapterId)
+{
+	u32 eventId = GetChapterSetting(chapterId)->eventId;
+	if(eventId == 0)
+	{
+		eventId = getCurrentChapterId(chapterId) + 1;
+	}
+	return eventId;
+}
+
 u8 ** GetChapterEventDataPointerForMultiLanguage(u32 chapterId)
 {
-  if (GetChapterSetting(chapterId)) {
+	if(isDefaultChapter(chapterId))
+	{
+		return gpDefaultChapterEvent;
+	}
+
+	u32 eventId = getChapterEventID(chapterId);
+
     switch(getCurrentGameLanguage())
     {
         case LANGUAGE_EN:
-            if(events_EN[GetChapterSetting(chapterId)->eventId])
-                return events_EN[GetChapterSetting(chapterId)->eventId];
+            if(events_EN[eventId])
+                return events_EN[eventId];
         case LANGUAGE_JP:
         default:
-            return events[GetChapterSetting(chapterId)->eventId];
+            return events[eventId];
     }
-  }
-
-  return *gpDefaultChapterEvent;
 }
 
 u8 ** GetChapterEventDataPointerForMultiLanguageInjector(u32 chapterId)

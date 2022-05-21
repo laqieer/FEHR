@@ -6,6 +6,7 @@
 #include <gba_base.h>
 
 #include "chapter.h"
+#include "skill.h"
 
 extern const u8 map_chap_pre[];
 extern const u8 map_chap_1[];
@@ -833,7 +834,7 @@ extern const u8 S0002Tiles[];
 extern const u8 S0002_cfg[];
 extern const u8 S0002Pal[];
 
-const u8 * const maps[0xff] = {
+const u8 * const maps[] = {
         map_chap_pre,
         map_chap_1,
         map_chap_2,
@@ -883,8 +884,6 @@ const u8 * const maps[0xff] = {
         map_chap_166,
 };
 
-const u8 ** const pMaps = maps;
-
 const u8 * const mapChanges[] = {
         NULL,
         map_chap_1_change,
@@ -924,8 +923,6 @@ const u8 * const mapChanges[] = {
         map_chap_169_change,
         map_chap_233_change,
 };
-
-const u8 ** const pMapChanges = mapChanges;
 
 /* Map Tileset */
 
@@ -1178,9 +1175,9 @@ const u8 * const tilesetImgs[] = {
     S4095Tiles,
     S0001Tiles,
     S0002Tiles,
-};
 
-const u8 ** const pTilesetImgs = tilesetImgs;
+    //[0x100 + 244 + 1] = S4074Tiles,
+};
 
 const u8 * const tilesetCfgs[] = {
     NULL,
@@ -1431,9 +1428,9 @@ const u8 * const tilesetCfgs[] = {
     S4095_cfg,
     S0001_cfg,
     S0002_cfg,
-};
 
-const u8 ** const pTilesetCfgs = tilesetCfgs;
+    //[0x100 + 244 + 1] = S4074_cfg,
+};
 
 const u8 * const tilesetPals[] = {
     NULL,
@@ -1684,21 +1681,26 @@ const u8 * const tilesetPals[] = {
     S4095Pal,
     S0001Pal,
     S0002Pal,
+
+    //[0x100 + 244 + 1] = S4074Pal,
 };
 
-const u8 ** const pTilesetPals = tilesetPals;
-
 void writeTiles(const u8 *src, u8 *dst);
-void writeBGPalette(void *src,int base,int size);
 
 void LoadChapterMapGfx(u32 chapterId)
 {
    struct Chapter *chapter = GetChapterSetting(chapterId);
 
-   writeTiles(tilesetImgs[chapter->mapGfx1Id], 0x6008000);
+   u32 mapGfx1Id = chapter->mapGfx1Id;
+   if(mapGfx1Id == 0)
+	   mapGfx1Id = getCurrentChapterId(chapterId) + 1;
+   writeTiles(tilesetImgs[mapGfx1Id], 0x6008000);
    if(tilesetImgs[chapter->mapGfx2Id])
        writeTiles(tilesetImgs[chapter->mapGfx1Id], 0x600c000);
-   writeBGPalette(tilesetPals[chapter->mapPalId], 0xc0, 0x140);
+   u32 mapPalId = chapter->mapPalId;
+   if(mapPalId == 0)
+	   mapPalId = getCurrentChapterId(chapterId) + 1;
+   writeBGPalette(tilesetPals[mapPalId], 0xc0, 0x140);
 }
 
 void LoadChapterMapGfxInjector(u32 chapterId)
@@ -1706,3 +1708,36 @@ void LoadChapterMapGfxInjector(u32 chapterId)
     LoadChapterMapGfx(chapterId);
 }
 
+void LoadChapterMap(void* into, int chapterId)
+{
+    writeTiles(GetChapterMapPointer(chapterId), into);
+
+    gBmMapWidth = ((u8*)(into))[0];
+    gBmMapHeight = ((u8*)(into))[1];
+
+	u32 mapTileConfId = GetChapterSetting(chapterId)->mapTileConfId;
+	if(mapTileConfId == 0)
+		mapTileConfId = getCurrentChapterId(chapterId) + 1;
+	writeTiles(tilesetCfgs[mapTileConfId], sTilesetConfig);
+
+    gBmMapCameraMaxOffsetX = gBmMapWidth*16 - 240;
+    gBmMapCameraMaxOffsetY = gBmMapHeight*16 - 160;
+}
+
+void LoadChapterMapInjector(void* into, int chapterId)
+{
+	LoadChapterMap(into, chapterId);
+}
+
+void LoadChapterMapPal()
+{
+	u32 mapPalId = GetChapterSetting(gRAMChapterData.chapterIndex)->mapPalId;
+	if(mapPalId == 0)
+		mapPalId = getCurrentChapterId(gRAMChapterData.chapterIndex) + 1;
+	writeBGPalette(tilesetPals[mapPalId], 0x20 * 6, 0x20 * 10);
+}
+
+void LoadChapterMapPalInjector()
+{
+	LoadChapterMapPal();
+}

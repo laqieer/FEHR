@@ -2,7 +2,9 @@
 // Created by laqieer on 2020/2/2.
 //
 
-#include <gba_types.h>
+#include <gba_base.h>
+
+#include "chapter.h"
 
 // awk 'BEGIN{for(i=0; i<220; i++) print "extern u8 chapter_title_"i"[];"}'
 
@@ -505,11 +507,37 @@ const u8 * const chapterTitles[] = {
         chapter_titles_245_lz,
         chapter_titles_246_lz,
 
-        [255] = chapter_titles_no_data,
+        [CHAPTER_ID_DEFAULT] = chapter_titles_no_data,
+
+        //[0x100 + 244] = chapter_titles_233_lz,
 };
 
-const u8 ** const pChapterTitles = chapterTitles;
+extern u16 gChapterTitleGfxTileId;
 
-const u8 chapterTitlesNum = 255 - 1;
+#define CHAPTER_TITLE_GFX_TILE_BASE_IN_SAVE_MENU 0xB40
 
-const u8 chapterTitleNoData = 255;
+void loadChapterTitleGfx(int destTileId, u32 chapterId, u32 a3)
+{
+	chapterId &= 0xff;
+	if(chapterId == a3)
+	{
+		if(chapterId != CHAPTER_ID_DEFAULT)
+			chapterId += getCurrentChapterBankNum() << 8;
+	}
+	else
+	{
+		int saveSlot = (destTileId - CHAPTER_TITLE_GFX_TILE_BASE_IN_SAVE_MENU) / 0x40;
+		if(chapterId != CHAPTER_ID_DEFAULT)
+			chapterId += getChapterBankNum(saveSlot) << 8;
+		else
+			clearChapterBankNum(saveSlot);
+	}
+	gChapterTitleGfxTileId = destTileId & 0x3ff;
+	writeTiles(chapterTitles[chapterId], VRAM + 32 * destTileId);
+}
+
+void loadChapterTitleGfxInjector(int destTileId, u32 chapterId, u32 a3)
+{
+	loadChapterTitleGfx(destTileId, chapterId, a3);
+}
+

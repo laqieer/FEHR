@@ -112,6 +112,35 @@ enum {
 
 extern const struct Chapter chapters[];
 
+// Note: chapter index 0x??ff is reserved for default chapter in empty save slot. It is displayed as "- NO DATA -" in save menu.
+#define CHAPTER_ID_DEFAULT 0xff
+
+extern const u8 * gpDefaultChapterMap;
+extern struct Chapter * gpDefaultChapterSetting;
+extern const u8 * gpDefaultChapterMapChange;
+extern const u8 ** gpDefaultChapterEvent;
+extern char * gpDefaultChapterNameText;
+
+extern const u8 * const maps[];
+extern const u8 * const mapChanges[];
+
+extern short gBmMapCameraMaxOffsetX, gBmMapCameraMaxOffsetY;
+extern u16 sTilesetConfig[];
+
+void writeTiles(const u8 *src, u8 *dst);
+extern void (*ReadSramFast)(const u8 *src, u8 *dest, u32 size);
+int func80a2a50();
+int func80a2a6c();
+void SaveSaveMetadata(int a1, int saveSlot);
+void UpdateLastUnusedSaveSlot(int saveSlot);
+void CopySaveSlot(int fromSaveSlot, int toSaveSlot);
+
 struct Chapter *GetChapterSetting(u32 chapterId);
+const u8 *GetChapterMapPointer(u32 chapterId);
+u8 getCurrentChapterBankNum();
+u8 getChapterBankNum(int saveSlot);
+int isDefaultChapter(u32 chapterId);
+void clearChapterBankNum(int saveSlot);
+u32 getCurrentChapterId(int chapterId);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_CHAPTER_H

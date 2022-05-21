@@ -50,6 +50,9 @@ enemyUnits = 0x202BD4C + 0x48 * 62;
 NPCUnits = 0x202BD4C + 0x48 * (62 + 50);
 P4Units = 0x202BD4C + 0x48 * (62 + 50 + 20);
 
+sTilesetConfig = 0x2030A8C;
+gBmMapCameraMaxOffsetX = 0x202BBDC;
+gBmMapCameraMaxOffsetY = 0x202BBDE;
 gBmMapWidth = 0x202e3d4;
 gBmMapHeight = 0x202e3d6;
 gBmMapUnit = 0x202e3d8;
@@ -68,6 +71,8 @@ gBattleHitArray = 0x203a4ec;
 
 decodedText = 0x202A5B0;
 lastTextID = 0x202B5B0;
+
+ReadSramFast = 0x3005d90;
 
 gWorkingBmMap = 0x3004100;
 
@@ -92,7 +97,13 @@ SpellAnimationIDAtRight = 0x203dffe;
 IsEffectiveAtLeft = 0x203e0bc;
 IsEffectiveAtRight = 0x203e0be;
 
+gpDefaultChapterMap = 0x2020140;
+gpDefaultChapterSetting = 0x203f000;
+gpDefaultChapterMapChange = 0x203f004;
 gpDefaultChapterEvent = 0x203f008;
+gpDefaultChapterNameText = 0x203f00C;
+
+gChapterTitleGfxTileId = 0x203E672;
 
 currentGameClock = 0x3000010;
 gpProc_0300003c = 0x300003c;
@@ -305,6 +316,13 @@ IronBallistaAnimationPal = 0x81dfe78;
 BallistaAnimationPal = 0x81dfe98;
 KillerBallistaAnimationPal = 0x81dfeb8;
 
+func80a2a50 = 0x80a2a51;
+func80a2a6c = 0x80a2a6d;
+
+SaveSaveMetadata = 0x809F1B1;
+UpdateLastUnusedSaveSlot = 0x80A0F61;
+CopySaveSlot = 0x80A0FE9;
+
 SECTIONS
 {
 	. = 0x8000000;
@@ -426,26 +444,14 @@ SECTIONS
 	.rodata.pChapters5 : {*(.rodata.pChapters5)}
 	. = 0x80b787c;
 	.rodata.pChapters6 : {*(.rodata.pChapters6)}
-	. = 0x8031ABC;
-	.rodata.pMaps : {*(.rodata.pMaps)}
-	. = 0x8031AE8;
-	.rodata.pMapChanges : {*(.rodata.pMapChanges)}
-	. = 0x8019618;
-	.rodata.pTilesetImgs : {*(.rodata.pTilesetImgs)}
-	. = 0x80195B0;
-	.rodata.pTilesetCfgs : {*(.rodata.pTilesetCfgs)}
+	. = 0x801955C;
+	.text.LoadChapterMapInjector : {*(.text.LoadChapterMapInjector)}
 	. = 0x80195BC;
 	.text.LoadChapterMapGfxInjector : {*(.text.LoadChapterMapGfxInjector)}
-	. = 0x801964C;
-	.rodata.pTilesetPals : {*(.rodata.pTilesetPals)}
-	. = 0x8031B18;
-	.rodata.pEvents : {*(.rodata.pEvents)}
-	. = 0x8082e68;
-	.rodata.pChapterTitles : {*(.rodata.pChapterTitles)}
-	. = 0x8082e32;
-	.rodata.chapterTitlesNum : {*(.rodata.chapterTitlesNum)}
-	. = 0x8082e36;
-	.rodata.chapterTitleNoData : {*(.rodata.chapterTitleNoData)}
+	. = 0x8019624;
+	.text.LoadChapterMapPalInjector : {*(.text.LoadChapterMapPalInjector)}
+	. = 0x8082E2C;
+	.text.loadChapterTitleGfxInjector : {*(.text.loadChapterTitleGfxInjector)}
 	. = 0x8053b98;
 	.text.hasWeaponLegendFlash : {*(.text.hasWeaponLegendFlash)}
 	. = 0x806d2e4;
@@ -479,6 +485,7 @@ SECTIONS
 	.bss.new_unit_state : {*/new_unit_state.*(.bss.*)}
 	.bss.achievement : {*/achievement.*(.bss.*)}
     .bss.game_option : {*/game_option.*(.bss.*)}
+    .bss.chapter_bank_nums : {*/patch_expand_chapter_amount.*(.bss.*)}
     savLog = .;
     . = 0xE008000 - 2;
     .bss.locationLoByte : {*/gba_debug_print.*(.bss.locationLoByte.*)}

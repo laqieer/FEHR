@@ -139,6 +139,9 @@
 // Move to chapter
 #define MNCH .hword 0x7f,
 
+// Move to next chapter bank
+#define MoveToNextChapterBank ASMC moveCurrentSaveSlotToNextChapterBankNum
+
 // call function
 #define ASMC .word 0x3c,
 
