@@ -6,7 +6,7 @@
 
 #include "chapter.h"
 
-// awk 'BEGIN{for(i=0; i<220; i++) print "extern u8 chapter_title_"i"[];"}'
+// awk 'BEGIN{for(i=0; i<220; i++) print "extern u8 chapter_titles_"i"_lz[];"}'
 
 extern u8 chapter_titles_0_lz[];
 extern u8 chapter_titles_1_lz[];
@@ -256,6 +256,126 @@ extern u8 chapter_titles_244_lz[];
 extern u8 chapter_titles_245_lz[];
 extern u8 chapter_titles_246_lz[];
 extern u8 chapter_titles_no_data[];
+extern u8 chapter_titles_247_lz[];
+extern u8 chapter_titles_248_lz[];
+extern u8 chapter_titles_249_lz[];
+extern u8 chapter_titles_250_lz[];
+extern u8 chapter_titles_251_lz[];
+extern u8 chapter_titles_252_lz[];
+extern u8 chapter_titles_253_lz[];
+extern u8 chapter_titles_254_lz[];
+extern u8 chapter_titles_256_lz[];
+extern u8 chapter_titles_257_lz[];
+extern u8 chapter_titles_258_lz[];
+extern u8 chapter_titles_259_lz[];
+extern u8 chapter_titles_260_lz[];
+extern u8 chapter_titles_261_lz[];
+extern u8 chapter_titles_262_lz[];
+extern u8 chapter_titles_263_lz[];
+extern u8 chapter_titles_264_lz[];
+extern u8 chapter_titles_265_lz[];
+extern u8 chapter_titles_266_lz[];
+extern u8 chapter_titles_267_lz[];
+extern u8 chapter_titles_268_lz[];
+extern u8 chapter_titles_269_lz[];
+extern u8 chapter_titles_270_lz[];
+extern u8 chapter_titles_271_lz[];
+extern u8 chapter_titles_272_lz[];
+extern u8 chapter_titles_273_lz[];
+extern u8 chapter_titles_274_lz[];
+extern u8 chapter_titles_275_lz[];
+extern u8 chapter_titles_276_lz[];
+extern u8 chapter_titles_277_lz[];
+extern u8 chapter_titles_278_lz[];
+extern u8 chapter_titles_279_lz[];
+extern u8 chapter_titles_280_lz[];
+extern u8 chapter_titles_281_lz[];
+extern u8 chapter_titles_282_lz[];
+extern u8 chapter_titles_283_lz[];
+extern u8 chapter_titles_284_lz[];
+extern u8 chapter_titles_285_lz[];
+extern u8 chapter_titles_286_lz[];
+extern u8 chapter_titles_287_lz[];
+extern u8 chapter_titles_288_lz[];
+extern u8 chapter_titles_289_lz[];
+extern u8 chapter_titles_290_lz[];
+extern u8 chapter_titles_291_lz[];
+extern u8 chapter_titles_292_lz[];
+extern u8 chapter_titles_293_lz[];
+extern u8 chapter_titles_294_lz[];
+extern u8 chapter_titles_295_lz[];
+extern u8 chapter_titles_296_lz[];
+extern u8 chapter_titles_297_lz[];
+extern u8 chapter_titles_298_lz[];
+extern u8 chapter_titles_299_lz[];
+extern u8 chapter_titles_300_lz[];
+extern u8 chapter_titles_301_lz[];
+extern u8 chapter_titles_302_lz[];
+extern u8 chapter_titles_303_lz[];
+extern u8 chapter_titles_304_lz[];
+extern u8 chapter_titles_305_lz[];
+extern u8 chapter_titles_306_lz[];
+extern u8 chapter_titles_307_lz[];
+extern u8 chapter_titles_308_lz[];
+extern u8 chapter_titles_309_lz[];
+extern u8 chapter_titles_310_lz[];
+extern u8 chapter_titles_311_lz[];
+extern u8 chapter_titles_312_lz[];
+extern u8 chapter_titles_313_lz[];
+extern u8 chapter_titles_314_lz[];
+extern u8 chapter_titles_315_lz[];
+extern u8 chapter_titles_316_lz[];
+extern u8 chapter_titles_317_lz[];
+extern u8 chapter_titles_318_lz[];
+extern u8 chapter_titles_319_lz[];
+extern u8 chapter_titles_320_lz[];
+extern u8 chapter_titles_321_lz[];
+extern u8 chapter_titles_322_lz[];
+extern u8 chapter_titles_323_lz[];
+extern u8 chapter_titles_324_lz[];
+extern u8 chapter_titles_325_lz[];
+extern u8 chapter_titles_326_lz[];
+extern u8 chapter_titles_327_lz[];
+extern u8 chapter_titles_328_lz[];
+extern u8 chapter_titles_329_lz[];
+extern u8 chapter_titles_330_lz[];
+extern u8 chapter_titles_331_lz[];
+extern u8 chapter_titles_332_lz[];
+extern u8 chapter_titles_333_lz[];
+extern u8 chapter_titles_334_lz[];
+extern u8 chapter_titles_335_lz[];
+extern u8 chapter_titles_336_lz[];
+extern u8 chapter_titles_337_lz[];
+extern u8 chapter_titles_338_lz[];
+extern u8 chapter_titles_339_lz[];
+extern u8 chapter_titles_340_lz[];
+extern u8 chapter_titles_341_lz[];
+extern u8 chapter_titles_342_lz[];
+extern u8 chapter_titles_343_lz[];
+extern u8 chapter_titles_344_lz[];
+extern u8 chapter_titles_345_lz[];
+extern u8 chapter_titles_346_lz[];
+extern u8 chapter_titles_347_lz[];
+extern u8 chapter_titles_348_lz[];
+extern u8 chapter_titles_349_lz[];
+extern u8 chapter_titles_350_lz[];
+extern u8 chapter_titles_351_lz[];
+extern u8 chapter_titles_352_lz[];
+extern u8 chapter_titles_353_lz[];
+extern u8 chapter_titles_354_lz[];
+extern u8 chapter_titles_355_lz[];
+extern u8 chapter_titles_356_lz[];
+extern u8 chapter_titles_357_lz[];
+extern u8 chapter_titles_358_lz[];
+extern u8 chapter_titles_359_lz[];
+extern u8 chapter_titles_360_lz[];
+extern u8 chapter_titles_361_lz[];
+extern u8 chapter_titles_362_lz[];
+extern u8 chapter_titles_363_lz[];
+extern u8 chapter_titles_364_lz[];
+extern u8 chapter_titles_365_lz[];
+extern u8 chapter_titles_366_lz[];
+extern u8 chapter_titles_367_lz[];
 
 const u8 * const chapterTitles[] = {
         // awk 'BEGIN{for(i=0; i<220; i++) print "chapter_titles_"i"_lz,"}'
@@ -506,15 +626,132 @@ const u8 * const chapterTitles[] = {
         chapter_titles_244_lz,
         chapter_titles_245_lz,
         chapter_titles_246_lz,
-
-        [CHAPTER_ID_DEFAULT] = chapter_titles_no_data,
-
-        //[0x100 + 244] = chapter_titles_233_lz,
+        chapter_titles_247_lz,
+        chapter_titles_248_lz,
+        chapter_titles_249_lz,
+        chapter_titles_250_lz,
+        chapter_titles_251_lz,
+        chapter_titles_252_lz,
+        chapter_titles_253_lz,
+        chapter_titles_254_lz,
+        chapter_titles_no_data,
+        chapter_titles_256_lz,
+        chapter_titles_257_lz,
+        chapter_titles_258_lz,
+        chapter_titles_259_lz,
+        chapter_titles_260_lz,
+        chapter_titles_261_lz,
+        chapter_titles_262_lz,
+        chapter_titles_263_lz,
+        chapter_titles_264_lz,
+        chapter_titles_265_lz,
+        chapter_titles_266_lz,
+        chapter_titles_267_lz,
+        chapter_titles_268_lz,
+        chapter_titles_269_lz,
+        chapter_titles_270_lz,
+        chapter_titles_271_lz,
+        chapter_titles_272_lz,
+        chapter_titles_273_lz,
+        chapter_titles_274_lz,
+        chapter_titles_275_lz,
+        chapter_titles_276_lz,
+        chapter_titles_277_lz,
+        chapter_titles_278_lz,
+        chapter_titles_279_lz,
+        chapter_titles_280_lz,
+        chapter_titles_281_lz,
+        chapter_titles_282_lz,
+        chapter_titles_283_lz,
+        chapter_titles_284_lz,
+        chapter_titles_285_lz,
+        chapter_titles_286_lz,
+        chapter_titles_287_lz,
+        chapter_titles_288_lz,
+        chapter_titles_289_lz,
+        chapter_titles_290_lz,
+        chapter_titles_291_lz,
+        chapter_titles_292_lz,
+        chapter_titles_293_lz,
+        chapter_titles_294_lz,
+        chapter_titles_295_lz,
+        chapter_titles_296_lz,
+        chapter_titles_297_lz,
+        chapter_titles_298_lz,
+        chapter_titles_299_lz,
+        chapter_titles_300_lz,
+        chapter_titles_301_lz,
+        chapter_titles_302_lz,
+        chapter_titles_303_lz,
+        chapter_titles_304_lz,
+        chapter_titles_305_lz,
+        chapter_titles_306_lz,
+        chapter_titles_307_lz,
+        chapter_titles_308_lz,
+        chapter_titles_309_lz,
+        chapter_titles_310_lz,
+        chapter_titles_311_lz,
+        chapter_titles_312_lz,
+        chapter_titles_313_lz,
+        chapter_titles_314_lz,
+        chapter_titles_315_lz,
+        chapter_titles_316_lz,
+        chapter_titles_317_lz,
+        chapter_titles_318_lz,
+        chapter_titles_319_lz,
+        chapter_titles_320_lz,
+        chapter_titles_321_lz,
+        chapter_titles_322_lz,
+        chapter_titles_323_lz,
+        chapter_titles_324_lz,
+        chapter_titles_325_lz,
+        chapter_titles_326_lz,
+        chapter_titles_327_lz,
+        chapter_titles_328_lz,
+        chapter_titles_329_lz,
+        chapter_titles_330_lz,
+        chapter_titles_331_lz,
+        chapter_titles_332_lz,
+        chapter_titles_333_lz,
+        chapter_titles_334_lz,
+        chapter_titles_335_lz,
+        chapter_titles_336_lz,
+        chapter_titles_337_lz,
+        chapter_titles_338_lz,
+        chapter_titles_339_lz,
+        chapter_titles_340_lz,
+        chapter_titles_341_lz,
+        chapter_titles_342_lz,
+        chapter_titles_343_lz,
+        chapter_titles_344_lz,
+        chapter_titles_345_lz,
+        chapter_titles_346_lz,
+        chapter_titles_347_lz,
+        chapter_titles_348_lz,
+        chapter_titles_349_lz,
+        chapter_titles_350_lz,
+        chapter_titles_351_lz,
+        chapter_titles_352_lz,
+        chapter_titles_353_lz,
+        chapter_titles_354_lz,
+        chapter_titles_355_lz,
+        chapter_titles_356_lz,
+        chapter_titles_357_lz,
+        chapter_titles_358_lz,
+        chapter_titles_359_lz,
+        chapter_titles_360_lz,
+        chapter_titles_361_lz,
+        chapter_titles_362_lz,
+        chapter_titles_363_lz,
+        chapter_titles_364_lz,
+        chapter_titles_365_lz,
+        chapter_titles_366_lz,
+        chapter_titles_367_lz,
 };
 
 extern u16 gChapterTitleGfxTileId;
 
-#define CHAPTER_TITLE_GFX_TILE_BASE_IN_SAVE_MENU 0xB40
+#define chapter_titles_GFX_TILE_BASE_IN_SAVE_MENU 0xB40
 
 void loadChapterTitleGfx(int destTileId, u32 chapterId, u32 a3)
 {
@@ -526,7 +763,7 @@ void loadChapterTitleGfx(int destTileId, u32 chapterId, u32 a3)
 	}
 	else
 	{
-		int saveSlot = (destTileId - CHAPTER_TITLE_GFX_TILE_BASE_IN_SAVE_MENU) / 0x40;
+		int saveSlot = (destTileId - chapter_titles_GFX_TILE_BASE_IN_SAVE_MENU) / 0x40;
 		if(chapterId != CHAPTER_ID_DEFAULT)
 			chapterId += getChapterBankNum(saveSlot) << 8;
 		else
