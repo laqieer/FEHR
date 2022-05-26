@@ -8,7 +8,7 @@ import re
 
 FacePositions = ("LEFT", "RIGHT", "MID_LEFT", "MID_RIGHT")
 
-# grep -r -h -o "PID_[^,^|]*" S*.json | sort | uniq -c | sort -k 1 -r
+# grep -r -h -o "[PE]ID_[^,^|]*" S????.json | sort | uniq -c | sort -k 1 -r
 FaceDefines = {
     "ID_アルフォンス":"PORTRAIT_ALFONSE",
     "ID_シャロン":"PORTRAIT_SHARENA",
@@ -42,6 +42,19 @@ FaceDefines = {
     "ID_フード":"PORTRAIT_HOOD",
     "ID_マークス":"PORTRAIT_XANDER",
     "ID_ヴェロニカ":"PORTRAIT_VERONICA",
+    "ID_レギン":"PORTRAIT_REGHIN",
+    "ID_レティシア":"PORTRAIT_LETIZIA",
+    "ID_オッテル":"PORTRAIT_OTR",
+    "ID_ファフニール":"PORTRAIT_FAFNIR",
+    "ID_エイトリ":"PORTRAIT_EITRI",
+    "ID_ダグ":"PORTRAIT_DAGR",
+    "ID_ノート":"PORTRAIT_NOTT",
+    "ID_アシュ":"PORTRAIT_ASH",
+    "ID_ヴェロニカ洗脳":"PORTRAIT_VERONICA_STAIN",
+    "ID_エルム":"PORTRAIT_ELM",
+    "ID_エンブラ兵":"PORTRAIT_FIGHTER_AX",
+    "ID_アスク兵":"PORTRAIT_FIGHTER_AX",
+    "ID_アルフォンス0":"PORTRAIT_ALFONSE",
 }
 
 TextIDStart = 6476
