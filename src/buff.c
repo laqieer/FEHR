@@ -1278,6 +1278,18 @@ s8 isUnitMovementTypeNoMoreThanHalf(struct Unit *unit, struct JobCategoryStats *
         return 2 * stats->numInfantry <= stats->numTotal;
 }
 
+s8 isUnitMovementTypeNoMoreThanTwo(struct Unit *unit, struct JobCategoryStats *stats)
+{
+    if(IsUnitArmour(unit))
+        return stats->numArmour <= 2;
+    if(IsUnitKnight(unit))
+        return stats->numKnight <= 2;
+    if(IsUnitFlier(unit))
+        return stats->numFlier <= 2;
+    if(IsUnitInfantry(unit))
+        return stats->numInfantry <= 2;
+}
+
 int GetUnitBareDefResSum(struct Unit *unit)
 {
     return GetUnitBareDefense(unit) + GetUnitBareResistance(unit);
@@ -1353,19 +1365,19 @@ void updateBuffAndDebuffWithPassiveSkillC(struct Unit *units, int number)
                                 addUnitBuffSpeed(&units[i], 8);
                             break;
                         case PASSIVE_SKILL_C_SPD_TACTIC_1:
-                            if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
+                            if(distance <= 2 && distance >= 1 && (isUnitMovementTypeNoMoreThanHalf(&units[i], stats) || isUnitMovementTypeNoMoreThanTwo(&units[i], stats)))
                                 addUnitBuffSpeed(&units[i], 2);
                             break;
                         case PASSIVE_SKILL_C_SPD_TACTIC_2:
-                            if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
+                            if(distance <= 2 && distance >= 1 && (isUnitMovementTypeNoMoreThanHalf(&units[i], stats) || isUnitMovementTypeNoMoreThanTwo(&units[i], stats)))
                                 addUnitBuffSpeed(&units[i], 4);
                             break;
                         case PASSIVE_SKILL_C_SPD_TACTIC_3:
-                            if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
+                            if(distance <= 2 && distance >= 1 && (isUnitMovementTypeNoMoreThanHalf(&units[i], stats) || isUnitMovementTypeNoMoreThanTwo(&units[i], stats)))
                                 addUnitBuffSpeed(&units[i], 6);
                             break;
                         case PASSIVE_SKILL_C_SPD_TACTIC_4:
-                            if(distance <= 2 && distance >= 1 && isUnitMovementTypeNoMoreThanHalf(&units[i], stats))
+                            if(distance <= 2 && distance >= 1 && (isUnitMovementTypeNoMoreThanHalf(&units[i], stats) || isUnitMovementTypeNoMoreThanTwo(&units[i], stats)))
                                 addUnitBuffSpeed(&units[i], 8);
                             break;
                         case PASSIVE_SKILL_C_FORTIFY_RES_1:
