@@ -123,3 +123,6 @@ tool/map/tmp
 tmp
 
 tool/__pycache__/
+
+# Temporary images created by Krita
+.png~
