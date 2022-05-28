@@ -202,7 +202,11 @@ var ChapterEvent = {
             file.writeLine("\tREMA");
         }
         var nextChapterId = chapterId + 1;
-        file.writeLine("\tMNCH " + nextChapterId);
+        if((nextChapterId & 0xff) == 0xff) {
+            file.writeLine("\tMoveToNextChapterBank");
+            nextChapterId++;
+        }
+        file.writeLine("\tMoveToChapter(" + nextChapterId + ")");
         file.writeLine("\tENDA");
 
         // Player Units
