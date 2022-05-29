@@ -7,10 +7,10 @@
                 "/opt/devkitpro/libgba/include"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc",
             "cStandard": "c11",
             "cppStandard": "c++14",
-            "intelliSenseMode": "linux-clang-x64",
+            "intelliSenseMode": "linux-gcc-arm",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
