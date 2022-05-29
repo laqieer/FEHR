@@ -97,6 +97,7 @@ extern struct KeyStatusBuffer sKeyStatusBuffer;
 void m4aSongNumStart(u16 songId);
 void m4aSongNumStop(u16 songId);
 
+void initInvalidStoryProgress();
 int isBook1Clear();
 int isBook2Clear();
 int isBook3Clear();

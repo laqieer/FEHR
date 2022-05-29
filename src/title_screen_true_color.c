@@ -30,6 +30,7 @@ extern u8 BG3MapBuffer[0x800];
 void showTitleScreenBG()
 {
     REG_DISPCNT_BUFFER = MODE_3 | BG2_ON | OBJ_ON;
+    initInvalidStoryProgress();
     if(isBook3Clear())
         writeTiles(title_screen_book_4Bitmap, MODE3_FB);
     else

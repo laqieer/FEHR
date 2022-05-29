@@ -71,13 +71,11 @@ void initInvalidStoryProgress()
 
 int isPrologueClear()
 {
-    initInvalidStoryProgress();
     return gStoryProgress.clearPrologue;
 }
 
 void setPrologueClear()
 {
-    initInvalidStoryProgress();
     gStoryProgress.clearPrologue = 1;
 }
 
