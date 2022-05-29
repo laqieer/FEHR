@@ -70,6 +70,8 @@
 #include "portrait_Mirabilis_tileset.h"
 #include "portrait_Freya_mini.h"
 #include "portrait_Freya_tileset.h"
+#include "portrait_Reghin_mini.h"
+#include "portrait_Reghin_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -136,6 +138,33 @@ const u16 portrait_Freya_obj[] = {
     OBJ_Y(8 + 40) | ATTR0_SQUARE, OBJ_X(-(64 - 64) - 32 + 8) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(25),
     OBJ_Y(8 + 40) | ATTR0_TALL, OBJ_X(-(64 + 32 - 64) - 16 + 8) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(29),
     OBJ_Y(8 + 40) | ATTR0_TALL, OBJ_X(-(64 + 32 + 16 - 64) - 8 + 8) | OBJ_SIZE(1) | OBJ_HFLIP, OBJ_CHAR(31),
+};
+
+#define portrait_Reghin_width 88
+#define portrait_Reghin_height 112
+const u16 portrait_Reghin_obj[] = {
+    10,
+    PORTRAIT_BLOCK(Reghin, 32, 16, 32, 0, 0, 0),
+    PORTRAIT_BLOCK(Reghin, 16, 16, 32 + 32, 0, 0, 2),
+    PORTRAIT_BLOCK(Reghin, 32, 32, 24, 16, 4, 0),
+    PORTRAIT_BLOCK(Reghin, 16, 32, 24 + 32, 16, 8, 0),
+    PORTRAIT_BLOCK(Reghin, 8, 32, 24 + 32 + 16, 16, 10, 0),
+    PORTRAIT_BLOCK(Reghin, 16, 16, 0, 64, 11, 2),
+    PORTRAIT_BLOCK(Reghin, 64, 32, 16, 48, 13, 0),
+    PORTRAIT_BLOCK(Reghin, 64, 32, 0, 80, 21, 0),
+    PORTRAIT_BLOCK(Reghin, 16, 32, 64, 80, 29, 0),
+    PORTRAIT_BLOCK(Reghin, 8, 32, 64 + 16, 80, 31, 0),
+    10,
+    PORTRAIT_BLOCK_R(Reghin, 32, 16, 32, 0, 0, 0),
+    PORTRAIT_BLOCK_R(Reghin, 16, 16, 32 + 32, 0, 0, 2),
+    PORTRAIT_BLOCK_R(Reghin, 32, 32, 24, 16, 4, 0),
+    PORTRAIT_BLOCK_R(Reghin, 16, 32, 24 + 32, 16, 8, 0),
+    PORTRAIT_BLOCK_R(Reghin, 8, 32, 24 + 32 + 16, 16, 10, 0),
+    PORTRAIT_BLOCK_R(Reghin, 16, 16, 0, 64, 11, 2),
+    PORTRAIT_BLOCK_R(Reghin, 64, 32, 16, 48, 13, 0),
+    PORTRAIT_BLOCK_R(Reghin, 64, 32, 0, 80, 21, 0),
+    PORTRAIT_BLOCK_R(Reghin, 16, 32, 64, 80, 29, 0),
+    PORTRAIT_BLOCK_R(Reghin, 8, 32, 64 + 16, 80, 31, 0),
 };
 
 const u16 portrait_Mirabilis_obj[] = {
@@ -695,6 +724,19 @@ const u16 portrait_Freya_bg[] = {
     3, 3, 3, 2, 3, 3, 2 + 32, 3, 3, 3,
 };
 
+const u16 portrait_Reghin_bg[] = {
+    0x809,
+    4, 12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2, 20 + 32 * 2,
+    4, 12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32, 19 + 32, 20 + 32,
+    4, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    4, 4, 4, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 10 + 32 * 3,
+    4, 4, 4, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2,
+    4, 4, 4, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32, 10 + 32,
+    4, 4, 4, 4, 5, 6, 7, 8, 9, 10,
+    4, 4, 4, 4, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 0 + 32 * 3, 1 + 32 * 3,
+    4, 4, 4, 4, 0, 1, 2, 3, 0 + 32 * 2, 1 + 32 * 2,
+};
+
 const u16 portrait_Mirabilis_bg[] = {
     0x809,
     18 + 32 * 3, 19 + 32 * 3, 20 + 32 * 3, 21 + 32 * 3, 22 + 32 * 3, 23 + 32 * 3, 24 + 32 * 3, 25 + 32 * 3, 26 + 32 * 3, 27 + 32 * 3,
@@ -1055,6 +1097,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Froda)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Hood)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Mirabilis)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Freya)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Reghin)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1136,6 +1179,7 @@ const Portrait* const portraits[] = {
     [CLASSCARD_PHANTOM] = &classcardPhantom, // 0x136
     [CLASSCARD_REVENANT] = &classcardRevenant, // 0x137
     [CLASSCARD_WOLF] = &classcardWolf, // 0x138
+    [PORTRAIT_ID_REGHIN] = &portraitReghin,
 };
 
 extern const Portrait portraitsOrig[];

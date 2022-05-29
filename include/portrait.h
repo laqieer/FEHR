@@ -28,4 +28,24 @@ typedef struct Proc PortaritProc;
 #define DEFINE_CLASSCARD(name) const Portrait classcard##name = {0, 0, portrait_##name##_classcardPal, 0, portrait_##name##_classcardTiles, 0, 0};
 #define DEFINE_CLASSCARD_NEW(name) const Portrait classcard##name = {0, 0, classcard_##name##Pal, 0, classcard_##name##Tiles, 0, 0};
 
+#define TILES_PER_ROW 32
+#define PORTRAIT_BASE_HEIGHT 80
+#define ATTR1_SIZE_8x8 ATTR1_SIZE_8
+#define ATTR1_SIZE_16x8 ATTR1_SIZE_8
+#define ATTR1_SIZE_8x16 ATTR1_SIZE_8
+#define ATTR1_SIZE_16x16 ATTR1_SIZE_16
+#define ATTR1_SIZE_32x8 ATTR1_SIZE_16
+#define ATTR1_SIZE_8x32 ATTR1_SIZE_16
+#define ATTR1_SIZE_32x32 ATTR1_SIZE_32
+#define ATTR1_SIZE_32x16 ATTR1_SIZE_32
+#define ATTR1_SIZE_16x32 ATTR1_SIZE_32
+#define ATTR1_SIZE_64x64 ATTR1_SIZE_64
+#define ATTR1_SIZE_64x32 ATTR1_SIZE_64
+#define ATTR1_SIZE_32x64 ATTR1_SIZE_64
+#define ATTR0_SHAPE(width, height) (width == height ? ATTR0_SQUARE : (width > height ? ATTR0_WIDE : ATTR0_TALL))
+#define ATTR1_SIZE(width, height) ATTR1_SIZE_##width##x##height
+
+#define PORTRAIT_BLOCK(name, width, height, x, y, tileX, tileY) OBJ_Y(y + PORTRAIT_BASE_HEIGHT - portrait_##name##_height) | ATTR0_SHAPE(width, height), OBJ_X(x - portrait_##name##_width / 2) | ATTR1_SIZE(width, height), OBJ_CHAR(tileX + TILES_PER_ROW * (tileY))
+#define PORTRAIT_BLOCK_R(name, width, height, x, y, tileX, tileY) OBJ_Y(y + PORTRAIT_BASE_HEIGHT - portrait_##name##_height) | ATTR0_SHAPE(width, height), OBJ_X(-(x - portrait_##name##_width / 2) - width) | ATTR1_SIZE(width, height) | OBJ_HFLIP, OBJ_CHAR(tileX + TILES_PER_ROW * (tileY))
+
 #endif //FE7_JP_STUNNING_TRIBBLE_PORTRAIT_H
