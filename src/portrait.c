@@ -72,6 +72,8 @@
 #include "portrait_Freya_tileset.h"
 #include "portrait_Reghin_mini.h"
 #include "portrait_Reghin_tileset.h"
+#include "portrait_Letizia_mini.h"
+#include "portrait_Letizia_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -165,6 +167,45 @@ const u16 portrait_Reghin_obj[] = {
     PORTRAIT_BLOCK_R(Reghin, 64, 32, 0, 80, 21, 0),
     PORTRAIT_BLOCK_R(Reghin, 16, 32, 64, 80, 29, 0),
     PORTRAIT_BLOCK_R(Reghin, 8, 32, 64 + 16, 80, 31, 0),
+};
+
+#define portrait_Letizia_width 80
+#define portrait_Letizia_height 128
+const u16 portrait_Letizia_obj[] = {
+    16,
+    PORTRAIT_BLOCK(Letizia, 32, 32, 16, 16, 0, 0),
+    PORTRAIT_BLOCK(Letizia, 32, 16, 24, 0, 4, 0),
+    PORTRAIT_BLOCK(Letizia, 16, 16, 48, 16, 8, 0),
+    PORTRAIT_BLOCK(Letizia, 16, 16, 48, 32, 10, 0),
+    PORTRAIT_BLOCK(Letizia, 32, 16, 8, 48, 4, 2),
+    PORTRAIT_BLOCK(Letizia, 32, 16, 40, 48, 8, 2),
+    PORTRAIT_BLOCK(Letizia, 64, 32, 8, 64, 13, 0),
+    PORTRAIT_BLOCK(Letizia, 64, 32, 0, 96, 22, 0),
+    PORTRAIT_BLOCK(Letizia, 16, 32, 64, 96, 30, 0),
+    PORTRAIT_BLOCK(Letizia, 8, 8, 0, 64, 12, 0),
+    PORTRAIT_BLOCK(Letizia, 8, 16, 0, 48, 12, 1),
+    PORTRAIT_BLOCK(Letizia, 8, 8, 0, 88, 12, 3),
+    PORTRAIT_BLOCK(Letizia, 8, 8, 72, 64, 21, 0),
+    PORTRAIT_BLOCK(Letizia, 8, 8, 16, 8, 21, 1),
+    PORTRAIT_BLOCK(Letizia, 8, 8, 56, 8, 21, 2),
+    PORTRAIT_BLOCK(Letizia, 8, 8, 72, 88, 21, 3),
+    16,
+    PORTRAIT_BLOCK_R(Letizia, 32, 32, 16, 16, 0, 0),
+    PORTRAIT_BLOCK_R(Letizia, 32, 16, 24, 0, 4, 0),
+    PORTRAIT_BLOCK_R(Letizia, 16, 16, 48, 16, 8, 0),
+    PORTRAIT_BLOCK_R(Letizia, 16, 16, 48, 32, 10, 0),
+    PORTRAIT_BLOCK_R(Letizia, 32, 16, 8, 48, 4, 2),
+    PORTRAIT_BLOCK_R(Letizia, 32, 16, 40, 48, 8, 2),
+    PORTRAIT_BLOCK_R(Letizia, 64, 32, 8, 64, 13, 0),
+    PORTRAIT_BLOCK_R(Letizia, 64, 32, 0, 96, 22, 0),
+    PORTRAIT_BLOCK_R(Letizia, 16, 32, 64, 96, 30, 0),
+    PORTRAIT_BLOCK_R(Letizia, 8, 8, 0, 64, 12, 0),
+    PORTRAIT_BLOCK_R(Letizia, 8, 16, 0, 48, 12, 1),
+    PORTRAIT_BLOCK_R(Letizia, 8, 8, 0, 88, 12, 3),
+    PORTRAIT_BLOCK_R(Letizia, 8, 8, 72, 64, 21, 0),
+    PORTRAIT_BLOCK_R(Letizia, 8, 8, 16, 8, 21, 1),
+    PORTRAIT_BLOCK_R(Letizia, 8, 8, 56, 8, 21, 2),
+    PORTRAIT_BLOCK_R(Letizia, 8, 8, 72, 88, 21, 3),
 };
 
 const u16 portrait_Mirabilis_obj[] = {
@@ -737,6 +778,31 @@ const u16 portrait_Reghin_bg[] = {
     4, 4, 4, 4, 0, 1, 2, 3, 0 + 32 * 2, 1 + 32 * 2,
 };
 
+const u16 portrait_Letizia_bg[] = {
+    0x809,
+    12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+    12 + 32 * 2, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 10 + 32 * 3, 11 + 32 * 3, 0,
+    12 + 32, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2, 0,
+    0, 0, 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 10 + 32 * 2, 11 + 32 * 2, 0, 0,
+    0, 0, 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 10 + 32, 11 + 32, 0, 0,
+    0, 0, 32, 1 + 32, 2 + 32, 3 + 32, 8 + 32, 9 + 32, 0, 0,
+    0, 0, 0, 1, 2, 3, 8, 9, 0, 0,
+    0, 0, 21 + 32, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 21 + 32 * 2, 0, 0,
+    0, 0, 0, 4, 5, 6, 7, 0, 0, 0,
+};
+
+const u16 portrait_Letizia_mask[] = {
+        0,0,0,1,1,1,1,0,0,0,
+        0,0,1,1,1,1,1,1,0,0,
+        0,0,1,1,1,1,1,1,0,0,
+        0,0,1,1,1,1,1,1,0,0,
+        0,0,1,1,1,1,1,1,0,0,
+        0,0,1,1,1,1,1,1,0,0,
+        1,1,1,1,1,1,1,1,1,0,
+        1,1,1,1,1,1,1,1,1,0,
+        1,1,1,1,1,1,1,1,1,1
+};
+
 const u16 portrait_Mirabilis_bg[] = {
     0x809,
     18 + 32 * 3, 19 + 32 * 3, 20 + 32 * 3, 21 + 32 * 3, 22 + 32 * 3, 23 + 32 * 3, 24 + 32 * 3, 25 + 32 * 3, 26 + 32 * 3, 27 + 32 * 3,
@@ -1098,6 +1164,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Hood)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Mirabilis)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Freya)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Reghin)
+DEFINE_PORTRAIT_SPECIAL(Letizia)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1180,6 +1247,7 @@ const Portrait* const portraits[] = {
     [CLASSCARD_REVENANT] = &classcardRevenant, // 0x137
     [CLASSCARD_WOLF] = &classcardWolf, // 0x138
     [PORTRAIT_ID_REGHIN] = &portraitReghin,
+    [PORTRAIT_ID_LETIZIA] = &portraitLetizia,
 };
 
 extern const Portrait portraitsOrig[];
