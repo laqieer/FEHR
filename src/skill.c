@@ -605,6 +605,24 @@ struct Unit *findInP4UnitsAlive(int (*condition)(struct Unit *unit, void *args),
     return resultUnit;
 }
 
+struct Unit *findInAllUnitsAlive(int (*condition)(struct Unit *unit, void *args), void *args)
+{
+    struct Unit *resultUnit = findInPlayerUnitsAlive(condition, args);
+    if(resultUnit)
+        return resultUnit;
+
+    resultUnit = findInEnemyUnitsAlive(condition, args);
+    if(resultUnit)
+        return resultUnit;
+
+    resultUnit = findInNPCUnitsAlive(condition, args);
+    if(resultUnit)
+        return resultUnit;
+
+    resultUnit = findInP4UnitsAlive(condition, args);
+    return resultUnit;
+}
+
 struct Unit *findAliveUnitInSide(int (*condition)(struct Unit *unit, void *args), void *args, int side)
 {
     switch (side)
@@ -6342,6 +6360,21 @@ void passiveSkillBLinkEffect(struct Unit *targetUnit)
     }
 }
 
+int IsUnitThere(struct Unit *unit, int *position)
+{
+    return unit->positionX == position[0] && unit->positionY == position[1];
+}
+
+int IsThereUnit(int x, int y)
+{
+    int position[2];
+
+    position[0] = x;
+    position[1] = y;
+
+    return findInAllUnitsAlive(IsUnitThere, position);
+}
+
 int CanUnitEnterPosition(struct Unit *unit, int x, int y)
 {
     return CanUnitCrossTerrain(unit, gBmMapTerrain[y][x]);
@@ -6355,7 +6388,7 @@ int assistSkillDrawBackCondition(struct Unit *targetUnit)
 
     int x = currentActiveUnit->positionX * 2 - targetUnit->positionX;
     int y = currentActiveUnit->positionY * 2 - targetUnit->positionY;
-    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(currentActiveUnit, x, y);
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(currentActiveUnit, x, y) && !IsThereUnit(x, y);
 }
 
 void assistSkillDrawBackEffect(struct Proc* proc, struct SelectTarget* target)
@@ -6378,7 +6411,7 @@ int assistSkillRepositionCondition(struct Unit *targetUnit)
 {
     int x = currentActiveUnit->positionX * 2 - targetUnit->positionX;
     int y = currentActiveUnit->positionY * 2 - targetUnit->positionY;
-    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y);
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y) && !IsThereUnit(x, y);
 }
 
 void assistSkillRepositionEffect(struct Proc* proc, struct SelectTarget* target)
@@ -6423,7 +6456,7 @@ int assistSkillPivotCondition(struct Unit *targetUnit)
 {
     int x = targetUnit->positionX * 2 - currentActiveUnit->positionX;
     int y = targetUnit->positionY * 2 - currentActiveUnit->positionY;
-    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(currentActiveUnit, x, y);
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(currentActiveUnit, x, y) && !IsThereUnit(x, y);
 }
 
 void assistSkillPivotEffect(struct Proc* proc, struct SelectTarget* target)
@@ -6443,7 +6476,7 @@ int assistSkillShoveCondition(struct Unit *targetUnit)
 {
     int x = targetUnit->positionX * 2 - currentActiveUnit->positionX;
     int y = targetUnit->positionY * 2 - currentActiveUnit->positionY;
-    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y);
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y) && !IsThereUnit(x, y);
 }
 
 void assistSkillShoveEffect(struct Proc* proc, struct SelectTarget* target)
@@ -6464,7 +6497,7 @@ int assistSkillSmiteCondition(struct Unit *targetUnit)
 {
     int x = targetUnit->positionX - (currentActiveUnit->positionX - targetUnit->positionX) * 2;
     int y = targetUnit->positionY - (currentActiveUnit->positionY - targetUnit->positionY) * 2;
-    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y);
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y) && !IsThereUnit(x, y);
 }
 
 void assistSkillSmiteEffect(struct Proc* proc, struct SelectTarget* target)
@@ -6792,7 +6825,7 @@ int assistSkillToChangeFateCondition(struct Unit *targetUnit)
 {
     int x = currentActiveUnit->positionX * 2 - targetUnit->positionX;
     int y = currentActiveUnit->positionY * 2 - targetUnit->positionY;
-    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y);
+    return x >= 0 && x < gBmMapWidth && y >= 0 && y < gBmMapHeight && CanUnitEnterPosition(targetUnit, x, y) && !IsThereUnit(x, y);
 }
 
 void assistSkillToChangeFateEffect(struct Proc* proc, struct SelectTarget* target)
