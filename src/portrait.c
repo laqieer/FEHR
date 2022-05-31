@@ -74,6 +74,8 @@
 #include "portrait_Reghin_tileset.h"
 #include "portrait_Letizia_mini.h"
 #include "portrait_Letizia_tileset.h"
+#include "portrait_Otr_mini.h"
+#include "portrait_Otr_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -206,6 +208,25 @@ const u16 portrait_Letizia_obj[] = {
     PORTRAIT_BLOCK_R(Letizia, 8, 8, 16, 8, 21, 1),
     PORTRAIT_BLOCK_R(Letizia, 8, 8, 56, 8, 21, 2),
     PORTRAIT_BLOCK_R(Letizia, 8, 8, 72, 88, 21, 3),
+};
+
+#define portrait_Otr_width 80
+#define portrait_Otr_height 128
+const u16 portrait_Otr_obj[] = {
+    6,
+    PORTRAIT_BLOCK(Otr, 32, 32, 24, 0, 0, 0),
+    PORTRAIT_BLOCK(Otr, 64, 32, 8, 32, 4, 0),
+    PORTRAIT_BLOCK(Otr, 64, 32, 0, 64, 12, 0),
+    PORTRAIT_BLOCK(Otr, 16, 32, 64, 64, 20, 0),
+    PORTRAIT_BLOCK(Otr, 64, 32, 0, 96, 22, 0),
+    PORTRAIT_BLOCK(Otr, 16, 32, 64, 96, 30, 0),
+    6,
+    PORTRAIT_BLOCK_R(Otr, 32, 32, 24, 0, 0, 0),
+    PORTRAIT_BLOCK_R(Otr, 64, 32, 8, 32, 4, 0),
+    PORTRAIT_BLOCK_R(Otr, 64, 32, 0, 64, 12, 0),
+    PORTRAIT_BLOCK_R(Otr, 16, 32, 64, 64, 20, 0),
+    PORTRAIT_BLOCK_R(Otr, 64, 32, 0, 96, 22, 0),
+    PORTRAIT_BLOCK_R(Otr, 16, 32, 64, 96, 30, 0),
 };
 
 const u16 portrait_Mirabilis_obj[] = {
@@ -791,6 +812,19 @@ const u16 portrait_Letizia_bg[] = {
     0, 0, 0, 4, 5, 6, 7, 0, 0, 0,
 };
 
+const u16 portrait_Otr_bg[] = {
+    0x809,
+    12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+    4, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3, 9 + 32 * 3, 10 + 32 * 3, 11 + 32 * 3, 4,
+    4, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2, 9 + 32 * 2, 10 + 32 * 2, 11 + 32 * 2, 4,
+    4, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32, 10 + 32, 11 + 32, 4,
+    4, 4, 5, 6, 7, 8, 9, 10, 11, 4,
+    4, 4, 4, 32 * 3, 1 + 32 * 3, 2 + 32 * 3, 3 + 32 * 3, 4, 4, 4,
+    4, 4, 4, 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4, 4, 4,
+    4, 4, 4, 32, 1 + 32, 2 + 32, 3 + 32, 4, 4, 4,
+    4, 4, 4, 0, 1, 2, 3, 4, 4, 4,
+};
+
 const u16 portrait_Letizia_mask[] = {
         0,0,0,1,1,1,1,0,0,0,
         0,0,1,1,1,1,1,1,0,0,
@@ -1165,6 +1199,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Mirabilis)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Freya)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Reghin)
 DEFINE_PORTRAIT_SPECIAL(Letizia)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Otr)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1248,6 +1283,7 @@ const Portrait* const portraits[] = {
     [CLASSCARD_WOLF] = &classcardWolf, // 0x138
     [PORTRAIT_ID_REGHIN] = &portraitReghin,
     [PORTRAIT_ID_LETIZIA] = &portraitLetizia,
+    [PORTRAIT_ID_OTR] = &portraitOtr,
 };
 
 extern const Portrait portraitsOrig[];
