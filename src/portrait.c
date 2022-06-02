@@ -78,6 +78,8 @@
 #include "portrait_Otr_tileset.h"
 #include "portrait_Fafnir_mini.h"
 #include "portrait_Fafnir_tileset.h"
+#include "portrait_Eitri_mini.h"
+#include "portrait_Eitri_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -250,6 +252,49 @@ const u16 portrait_Fafnir_obj[] = {
     PORTRAIT_BLOCK_R(Fafnir, 64, 32, 0, 64, 18, 0),
     PORTRAIT_BLOCK_R(Fafnir, 32, 32, 64, 64, 26, 0),
     PORTRAIT_BLOCK_R(Fafnir, 16, 32, 96, 64, 30, 0),
+};
+
+#define portrait_Eitri_width 112
+#define portrait_Eitri_height 96
+const u16 portrait_Eitri_obj[] = {
+    18,
+    PORTRAIT_BLOCK(Eitri, 8, 8, 24, 8, 0, 0),
+    PORTRAIT_BLOCK(Eitri, 16, 8, 32, 8, 1, 0),
+    PORTRAIT_BLOCK(Eitri, 8, 8, 0, 48, 2, 1),
+    PORTRAIT_BLOCK(Eitri, 16, 8, 0, 8, 0, 1),
+    PORTRAIT_BLOCK(Eitri, 16, 16, 0, 16, 0, 2),
+    PORTRAIT_BLOCK(Eitri, 32, 16, 48, 0, 3, 0),
+    PORTRAIT_BLOCK(Eitri, 16, 16, 80, 0, 7, 0),
+    PORTRAIT_BLOCK(Eitri, 16, 16, 16, 16, 9, 0),
+    PORTRAIT_BLOCK(Eitri, 8, 16, 40, 16, 2, 2),
+    PORTRAIT_BLOCK(Eitri, 32, 16, 48, 16, 3, 2),
+    PORTRAIT_BLOCK(Eitri, 32, 16, 80, 16, 7, 2),
+    PORTRAIT_BLOCK(Eitri, 64, 32, 8, 32, 11, 0),
+    PORTRAIT_BLOCK(Eitri, 16, 32, 72, 32, 19, 0),
+    PORTRAIT_BLOCK(Eitri, 8, 8, 88, 56, 21, 3),
+    PORTRAIT_BLOCK(Eitri, 8, 8, 8, 64, 21, 0),
+    PORTRAIT_BLOCK(Eitri, 8, 16, 8, 72, 21, 1),
+    PORTRAIT_BLOCK(Eitri, 64, 32, 16, 64, 22, 0),
+    PORTRAIT_BLOCK(Eitri, 16, 32, 80, 64, 30, 0),
+    18,
+    PORTRAIT_BLOCK_R(Eitri, 8, 8, 24, 8, 0, 0),
+    PORTRAIT_BLOCK_R(Eitri, 16, 8, 32, 8, 1, 0),
+    PORTRAIT_BLOCK_R(Eitri, 8, 8, 0, 48, 2, 1),
+    PORTRAIT_BLOCK_R(Eitri, 16, 8, 0, 8, 0, 1),
+    PORTRAIT_BLOCK_R(Eitri, 16, 16, 0, 16, 0, 2),
+    PORTRAIT_BLOCK_R(Eitri, 32, 16, 48, 0, 3, 0),
+    PORTRAIT_BLOCK_R(Eitri, 16, 16, 80, 0, 7, 0),
+    PORTRAIT_BLOCK_R(Eitri, 16, 16, 16, 16, 9, 0),
+    PORTRAIT_BLOCK_R(Eitri, 8, 16, 40, 16, 2, 2),
+    PORTRAIT_BLOCK_R(Eitri, 32, 16, 48, 16, 3, 2),
+    PORTRAIT_BLOCK_R(Eitri, 32, 16, 80, 16, 7, 2),
+    PORTRAIT_BLOCK_R(Eitri, 64, 32, 8, 32, 11, 0),
+    PORTRAIT_BLOCK_R(Eitri, 16, 32, 72, 32, 19, 0),
+    PORTRAIT_BLOCK_R(Eitri, 8, 8, 88, 56, 21, 3),
+    PORTRAIT_BLOCK_R(Eitri, 8, 8, 8, 64, 21, 0),
+    PORTRAIT_BLOCK_R(Eitri, 8, 16, 8, 72, 21, 1),
+    PORTRAIT_BLOCK_R(Eitri, 64, 32, 16, 64, 22, 0),
+    PORTRAIT_BLOCK_R(Eitri, 16, 32, 80, 64, 30, 0),
 };
 
 const u16 portrait_Mirabilis_obj[] = {
@@ -1207,6 +1252,19 @@ const u16 portrait_Veronica_bg[] = {
         0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
 };
 
+const u16 portrait_Eitri_bg[] = {
+        0x809,
+        22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
+        12 + 32 * 3, 13 + 32 * 3, 14 + 32 * 3, 15 + 32 * 3, 16 + 32 * 3, 17 + 32 * 3, 18 + 32 * 3, 19 + 32 * 3, 20 + 32 * 3, 21 + 32 * 3,
+        12 + 32 * 2, 13 + 32 * 2, 14 + 32 * 2, 15 + 32 * 2, 16 + 32 * 2, 17 + 32 * 2, 18 + 32 * 2, 19 + 32 * 2, 20 + 32 * 2, 7 + 32 * 2,
+        12 + 32, 13 + 32, 14 + 32, 15 + 32, 16 + 32, 17 + 32, 18 + 32, 19 + 32, 20 + 32, 7 + 32 * 2,
+        12, 13, 14, 15, 16, 17, 18, 19, 20, 7 + 32 * 2,
+        9 + 32, 10 + 32, 7 + 32 * 2, 2 + 32 * 3, 3 + 32 * 3, 4 + 32 * 3, 5 + 32 * 3, 6 + 32 * 3, 7 + 32 * 3, 8 + 32 * 3,
+        9, 10, 7 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 6 + 32 * 2, 7 + 32 * 2, 8 + 32 * 2,
+        7 + 32 * 2, 0, 1, 2, 3 + 32, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32,
+        7 + 32 * 2, 7 + 32 * 2, 7 + 32 * 2, 7 + 32 * 2, 3, 4, 5, 6, 7, 8,
+};
+
 DEFINE_PORTRAIT(Anna_commander)
 DEFINE_PORTRAIT(Sharena_princess)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
@@ -1237,6 +1295,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Reghin)
 DEFINE_PORTRAIT_SPECIAL(Letizia)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Otr)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Fafnir)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eitri)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1322,6 +1381,7 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_LETIZIA] = &portraitLetizia,
     [PORTRAIT_ID_OTR] = &portraitOtr,
     [PORTRAIT_ID_FAFNIR] = &portraitFafnir,
+    [PORTRAIT_ID_EITRI] = &portraitEitri,
 };
 
 extern const Portrait portraitsOrig[];
