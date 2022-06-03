@@ -82,6 +82,8 @@
 #include "portrait_Eitri_tileset.h"
 #include "portrait_Dagr_mini.h"
 #include "portrait_Dagr_tileset.h"
+#include "portrait_Nott_mini.h"
+#include "portrait_Nott_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -314,6 +316,23 @@ const u16 portrait_Dagr_obj[] = {
     PORTRAIT_BLOCK_R(Dagr, 8, 32, 0, 32, 15, 0),
     PORTRAIT_BLOCK_R(Dagr, 64, 32, 8, 32, 16, 0),
     PORTRAIT_BLOCK_R(Dagr, 64, 32, 72, 32, 24, 0),
+};
+
+#define portrait_Nott_width 136
+#define portrait_Nott_height 64
+const u16 portrait_Nott_obj[] = {
+    5,
+    PORTRAIT_BLOCK(Nott, 64, 32, 8, 0, 0, 0),
+    PORTRAIT_BLOCK(Nott, 64, 32, 64, 0, 7, 0),
+    PORTRAIT_BLOCK(Nott, 8, 32, 0, 32, 15, 0),
+    PORTRAIT_BLOCK(Nott, 64, 32, 8, 32, 16, 0),
+    PORTRAIT_BLOCK(Nott, 64, 32, 72, 32, 24, 0),
+    5,
+    PORTRAIT_BLOCK_R(Nott, 64, 32, 8, 0, 0, 0),
+    PORTRAIT_BLOCK_R(Nott, 64, 32, 64, 0, 7, 0),
+    PORTRAIT_BLOCK_R(Nott, 8, 32, 0, 32, 15, 0),
+    PORTRAIT_BLOCK_R(Nott, 64, 32, 8, 32, 16, 0),
+    PORTRAIT_BLOCK_R(Nott, 64, 32, 72, 32, 24, 0),
 };
 
 const u16 portrait_Mirabilis_obj[] = {
@@ -1297,6 +1316,31 @@ const u16 portrait_Dagr_bg[] = {
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 };
 
+const u16 portrait_Nott_bg[] = {
+        0x809,
+        TILE_ID(16, 3), TILE_ID(17, 3), TILE_ID(18, 3), TILE_ID(19, 3), TILE_ID(20, 3), TILE_ID(21, 3), TILE_ID(22, 3), TILE_ID(23, 3), TILE_ID(24, 3), TILE_ID(25, 3),
+        TILE_ID(16, 2), TILE_ID(17, 2), TILE_ID(18, 2), TILE_ID(19, 2), TILE_ID(20, 2), TILE_ID(21, 2), TILE_ID(22, 2), TILE_ID(23, 2), TILE_ID(24, 2), TILE_ID(25, 2),
+        TILE_ID(16, 1), TILE_ID(17, 1), TILE_ID(18, 1), TILE_ID(19, 1), TILE_ID(20, 1), TILE_ID(21, 1), TILE_ID(22, 1), TILE_ID(23, 1), TILE_ID(24, 1), TILE_ID(25, 1),
+        TILE_ID(16, 0), TILE_ID(17, 0), TILE_ID(18, 0), TILE_ID(19, 0), TILE_ID(20, 0), TILE_ID(21, 0), TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), TILE_ID(25, 0),
+        TILE_ID(0, 3), TILE_ID(1, 3), TILE_ID(2, 3), TILE_ID(3, 3), TILE_ID(4, 3), TILE_ID(5, 3), TILE_ID(6, 3), TILE_ID(7, 3), TILE_ID(8, 3), TILE_ID(9, 3),
+        TILE_ID(0, 2), TILE_ID(1, 2), TILE_ID(2, 2), TILE_ID(3, 2), TILE_ID(4, 2), TILE_ID(5, 2), TILE_ID(6, 2), TILE_ID(7, 2), TILE_ID(8, 2), TILE_ID(9, 2),
+        TILE_ID(0, 1), TILE_ID(1, 1), TILE_ID(2, 1), TILE_ID(3, 1), TILE_ID(4, 1), TILE_ID(5, 1), TILE_ID(6, 1), TILE_ID(7, 1), TILE_ID(8, 1), TILE_ID(9, 1),
+        TILE_ID(0, 0), TILE_ID(1, 0), TILE_ID(2, 0), TILE_ID(3, 0), TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), TILE_ID(8, 0), TILE_ID(9, 0),
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+};
+
+const u16 portrait_Nott_mask[] = {
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+};
+
 DEFINE_PORTRAIT(Anna_commander)
 DEFINE_PORTRAIT(Sharena_princess)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
@@ -1329,6 +1373,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Otr)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Fafnir)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eitri)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Dagr)
+DEFINE_PORTRAIT_SPECIAL(Nott)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1416,6 +1461,7 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_FAFNIR] = &portraitFafnir,
     [PORTRAIT_ID_EITRI] = &portraitEitri,
     [PORTRAIT_ID_DAGR] = &portraitDagr,
+    [PORTRAIT_ID_NOTT] = &portraitNott,
 };
 
 extern const Portrait portraitsOrig[];
