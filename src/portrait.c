@@ -84,6 +84,10 @@
 #include "portrait_Dagr_tileset.h"
 #include "portrait_Nott_mini.h"
 #include "portrait_Nott_tileset.h"
+#include "portrait_Dagr_bg_mini.h"
+#include "portrait_Dagr_bg_tileset.h"
+#include "portrait_Nott_bg_mini.h"
+#include "portrait_Nott_bg_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -1374,6 +1378,8 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Fafnir)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eitri)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Dagr)
 DEFINE_PORTRAIT_SPECIAL(Nott)
+DEFINE_PORTRAIT_BG(Dagr)
+DEFINE_PORTRAIT_BG(Nott)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1462,6 +1468,8 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_EITRI] = &portraitEitri,
     [PORTRAIT_ID_DAGR] = &portraitDagr,
     [PORTRAIT_ID_NOTT] = &portraitNott,
+    [PORTRAIT_ID_DAGR_BG] = &portraitDagrBG,
+    [PORTRAIT_ID_NOTT_BG] = &portraitNottBG,
 };
 
 extern const Portrait portraitsOrig[];
