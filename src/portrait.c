@@ -88,6 +88,8 @@
 #include "portrait_Dagr_bg_tileset.h"
 #include "portrait_Nott_bg_mini.h"
 #include "portrait_Nott_bg_tileset.h"
+#include "portrait_Ash_mini.h"
+#include "portrait_Ash_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -337,6 +339,37 @@ const u16 portrait_Nott_obj[] = {
     PORTRAIT_BLOCK_R(Nott, 8, 32, 0, 32, 15, 0),
     PORTRAIT_BLOCK_R(Nott, 64, 32, 8, 32, 16, 0),
     PORTRAIT_BLOCK_R(Nott, 64, 32, 72, 32, 24, 0),
+};
+
+#define portrait_Ash_width 80
+#define portrait_Ash_height 120
+const u16 portrait_Ash_obj[] = {
+    12,
+    PORTRAIT_BLOCK(Ash, 64, 32, 0, 0, 0, 0),
+    PORTRAIT_BLOCK(Ash, 64, 32, 8, 32, 8, 0),
+    PORTRAIT_BLOCK(Ash, 8, 32, 0, 64, 16, 0),
+    PORTRAIT_BLOCK(Ash, 64, 32, 8, 64, 17, 0),
+    PORTRAIT_BLOCK(Ash, 32, 16, 0, 96, 25, 0),
+    PORTRAIT_BLOCK(Ash, 32, 16, 32, 96, 29, 0),
+    PORTRAIT_BLOCK(Ash, 32, 8, 0, 112, 25, 2),
+    PORTRAIT_BLOCK(Ash, 32, 8, 32, 112, 29, 2),
+    PORTRAIT_BLOCK(Ash, 16, 8, 56, 96, 25, 3),
+    PORTRAIT_BLOCK(Ash, 16, 8, 56, 104, 27, 3),
+    PORTRAIT_BLOCK(Ash, 16, 8, 56, 112, 29, 3),
+    PORTRAIT_BLOCK(Ash, 8, 8, 72, 32, 31, 3),
+    12,
+    PORTRAIT_BLOCK_R(Ash, 64, 32, 0, 0, 0, 0),
+    PORTRAIT_BLOCK_R(Ash, 64, 32, 8, 32, 8, 0),
+    PORTRAIT_BLOCK_R(Ash, 8, 32, 0, 64, 16, 0),
+    PORTRAIT_BLOCK_R(Ash, 64, 32, 8, 64, 17, 0),
+    PORTRAIT_BLOCK_R(Ash, 32, 16, 0, 96, 25, 0),
+    PORTRAIT_BLOCK_R(Ash, 32, 16, 32, 96, 29, 0),
+    PORTRAIT_BLOCK_R(Ash, 32, 8, 0, 112, 25, 2),
+    PORTRAIT_BLOCK_R(Ash, 32, 8, 32, 112, 29, 2),
+    PORTRAIT_BLOCK_R(Ash, 16, 8, 56, 96, 25, 3),
+    PORTRAIT_BLOCK_R(Ash, 16, 8, 56, 104, 27, 3),
+    PORTRAIT_BLOCK_R(Ash, 16, 8, 56, 112, 29, 3),
+    PORTRAIT_BLOCK_R(Ash, 8, 8, 72, 32, 31, 3),
 };
 
 const u16 portrait_Mirabilis_obj[] = {
@@ -1345,6 +1378,20 @@ const u16 portrait_Nott_mask[] = {
         1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
 };
 
+const u16 portrait_Ash_bg[] = {
+        0x809,
+        TILE_ID(16, 1), TILE_ID(17, 1), TILE_ID(18, 1), TILE_ID(19, 1), TILE_ID(20, 1), TILE_ID(21, 1), TILE_ID(22, 1), TILE_ID(23, 1), TILE_ID(24, 1), 0,
+        TILE_ID(16, 0), TILE_ID(17, 0), TILE_ID(18, 0), TILE_ID(19, 0), TILE_ID(20, 0), TILE_ID(21, 0), TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), 0,
+        0, TILE_ID(8, 3), TILE_ID(9, 3), TILE_ID(10, 3), TILE_ID(11, 3), TILE_ID(12, 3), TILE_ID(13, 3), TILE_ID(14, 3), TILE_ID(15, 3), 0,
+        0, TILE_ID(8, 2), TILE_ID(9, 2), TILE_ID(10, 2), TILE_ID(11, 2), TILE_ID(12, 2), TILE_ID(13, 2), TILE_ID(14, 2), TILE_ID(15, 2), 0,
+        0, TILE_ID(8, 1), TILE_ID(9, 1), TILE_ID(10, 1), TILE_ID(11, 1), TILE_ID(12, 1), TILE_ID(13, 1), TILE_ID(14, 1), TILE_ID(15, 1), 0,
+        0, TILE_ID(8, 0), TILE_ID(9, 0), TILE_ID(10, 0), TILE_ID(11, 0), TILE_ID(12, 0), TILE_ID(13, 0), TILE_ID(14, 0), TILE_ID(15, 0), TILE_ID(31, 3),
+        TILE_ID(0, 3), TILE_ID(1, 3), TILE_ID(2, 3), TILE_ID(3, 3), TILE_ID(4, 3), TILE_ID(5, 3), TILE_ID(6, 3), TILE_ID(7, 3), 0, 0,
+        TILE_ID(0, 2), TILE_ID(1, 2), TILE_ID(2, 2), TILE_ID(3, 2), TILE_ID(4, 2), TILE_ID(5, 2), TILE_ID(6, 2), TILE_ID(7, 2), 0, 0,
+        TILE_ID(0, 1), TILE_ID(1, 1), TILE_ID(2, 1), TILE_ID(3, 1), TILE_ID(4, 1), TILE_ID(5, 1), TILE_ID(6, 1), TILE_ID(7, 1), 0, 0,
+        //TILE_ID(0, 0), TILE_ID(1, 0), TILE_ID(2, 0), TILE_ID(3, 0), TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), 0, 0,
+};
+
 DEFINE_PORTRAIT(Anna_commander)
 DEFINE_PORTRAIT(Sharena_princess)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
@@ -1380,6 +1427,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Dagr)
 DEFINE_PORTRAIT_SPECIAL(Nott)
 DEFINE_PORTRAIT_BG(Dagr)
 DEFINE_PORTRAIT_BG(Nott)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Ash)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1468,6 +1516,7 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_EITRI] = &portraitEitri,
     [PORTRAIT_ID_DAGR] = &portraitDagr,
     [PORTRAIT_ID_NOTT] = &portraitNott,
+    [PORTRAIT_ID_ASH] = &portraitAsh,
     [PORTRAIT_ID_DAGR_BG] = &portraitDagrBG,
     [PORTRAIT_ID_NOTT_BG] = &portraitNottBG,
 };
