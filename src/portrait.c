@@ -92,6 +92,8 @@
 #include "portrait_Ash_tileset.h"
 #include "portrait_Veronica_Stain_mini.h"
 #include "portrait_Veronica_Stain_tileset.h"
+#include "portrait_Elm_mini.h"
+#include "portrait_Elm_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -399,6 +401,43 @@ const u16 portrait_Veronica_Stain_obj[] = {
     PORTRAIT_BLOCK_R(Veronica_Stain, 32, 32, 56, 40, 17, 0),
     PORTRAIT_BLOCK_R(Veronica_Stain, 64, 32, 0, 72, 21, 0),
     PORTRAIT_BLOCK_R(Veronica_Stain, 32, 32, 56, 72, 28, 0),
+};
+
+#define portrait_Elm_width 128
+#define portrait_Elm_height 96
+const u16 portrait_Elm_obj[] = {
+    15,
+    PORTRAIT_BLOCK(Elm, 32, 32, 8, 0, 0, 0),
+    PORTRAIT_BLOCK(Elm, 16, 32, 16, 32, 4, 0),
+    PORTRAIT_BLOCK(Elm, 8, 16, 8, 48, 6, 0),
+    PORTRAIT_BLOCK(Elm, 8, 8, 0, 16, 7, 0),
+    PORTRAIT_BLOCK(Elm, 8, 8, 40, 12, 8, 0),
+    PORTRAIT_BLOCK(Elm, 16, 8, 104, 56, 9, 0),
+    PORTRAIT_BLOCK(Elm, 8, 8, 56, 56, 10, 1),
+    PORTRAIT_BLOCK(Elm, 16, 8, 72, 8, 7, 1),
+    PORTRAIT_BLOCK(Elm, 8, 8, 88, 8, 9, 1),
+    PORTRAIT_BLOCK(Elm, 8, 16, 64, 16, 6, 2),
+    PORTRAIT_BLOCK(Elm, 32, 16, 72, 16, 7, 2),
+    PORTRAIT_BLOCK(Elm, 32, 32, 64, 32, 11, 0),
+    PORTRAIT_BLOCK(Elm, 8, 32, 96, 32, 15, 0),
+    PORTRAIT_BLOCK(Elm, 64, 32, 0, 64, 16, 0),
+    PORTRAIT_BLOCK(Elm, 64, 32, 64, 64, 24, 0),
+    15,
+    PORTRAIT_BLOCK_R(Elm, 32, 32, 8, 0, 0, 0),
+    PORTRAIT_BLOCK_R(Elm, 16, 32, 16, 32, 4, 0),
+    PORTRAIT_BLOCK_R(Elm, 8, 16, 8, 48, 6, 0),
+    PORTRAIT_BLOCK_R(Elm, 8, 8, 0, 16, 7, 0),
+    PORTRAIT_BLOCK_R(Elm, 8, 8, 40, 12, 8, 0),
+    PORTRAIT_BLOCK_R(Elm, 16, 8, 104, 56, 9, 0),
+    PORTRAIT_BLOCK_R(Elm, 8, 8, 56, 56, 10, 1),
+    PORTRAIT_BLOCK_R(Elm, 16, 8, 72, 8, 7, 1),
+    PORTRAIT_BLOCK_R(Elm, 8, 8, 88, 8, 9, 1),
+    PORTRAIT_BLOCK_R(Elm, 8, 16, 64, 16, 6, 2),
+    PORTRAIT_BLOCK_R(Elm, 32, 16, 72, 16, 7, 2),
+    PORTRAIT_BLOCK_R(Elm, 32, 32, 64, 32, 11, 0),
+    PORTRAIT_BLOCK_R(Elm, 8, 32, 96, 32, 15, 0),
+    PORTRAIT_BLOCK_R(Elm, 64, 32, 0, 64, 16, 0),
+    PORTRAIT_BLOCK_R(Elm, 64, 32, 64, 64, 24, 0),
 };
 
 const u16 portrait_Mirabilis_obj[] = {
@@ -1434,6 +1473,19 @@ const u16 portrait_Veronica_Stain_bg[] = {
         1, TILE_ID(1, 0), TILE_ID(2, 0), TILE_ID(3, 0), TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), TILE_ID(8, 0), TILE_ID(9, 0),
 };
 
+const u16 portrait_Elm_bg[] = {
+        0x809,
+        TILE_ID(22, 1), TILE_ID(23, 1), TILE_ID(24, 1), TILE_ID(25, 1), TILE_ID(26, 1), TILE_ID(27, 1), TILE_ID(28, 1), TILE_ID(29, 1), TILE_ID(30, 1), TILE_ID(31, 1),
+        TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), TILE_ID(25, 0), TILE_ID(26, 0), TILE_ID(27, 0), TILE_ID(28, 0), TILE_ID(29, 0), TILE_ID(30, 0), TILE_ID(31, 0),
+        20, TILE_ID(10, 1), TILE_ID(11, 3), TILE_ID(12, 3), TILE_ID(13, 3), TILE_ID(14, 3), TILE_ID(15, 3), TILE_ID(9, 0), TILE_ID(10, 0), 20,
+        20, 20, TILE_ID(11, 2), TILE_ID(12, 2), TILE_ID(13, 2), TILE_ID(14, 2), TILE_ID(15, 2), 20, 20, 20,
+        20, 20, TILE_ID(11, 1), TILE_ID(12, 1), TILE_ID(13, 1), TILE_ID(14, 1), TILE_ID(15, 1), 20, 20, 20,
+        20, 20, TILE_ID(11, 0), TILE_ID(12, 0), TILE_ID(13, 0), TILE_ID(14, 0), TILE_ID(15, 0), 20, 20, 20,
+        20, 20, TILE_ID(6, 3), TILE_ID(7, 3), TILE_ID(8, 3), TILE_ID(9, 3), TILE_ID(10, 3), 20, 20, 20,
+        20, 20, TILE_ID(6, 2), TILE_ID(7, 2), TILE_ID(8, 2), TILE_ID(9, 2), TILE_ID(10, 2), 20, 20, 20,
+        20, 20, 20, TILE_ID(7, 1), TILE_ID(8, 1), TILE_ID(9, 1), 20, 20, 20, 20,
+};
+
 DEFINE_PORTRAIT(Anna_commander)
 DEFINE_PORTRAIT(Sharena_princess)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
@@ -1471,6 +1523,7 @@ DEFINE_PORTRAIT_BG(Dagr)
 DEFINE_PORTRAIT_BG(Nott)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Ash)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica_Stain)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Elm)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1560,6 +1613,7 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_DAGR] = &portraitDagr,
     [PORTRAIT_ID_NOTT] = &portraitNott,
     [PORTRAIT_ID_ASH] = &portraitAsh,
+    [PORTRAIT_ID_ELM] = &portraitElm,
     [PORTRAIT_ID_VERONICA_STAIN] = &portraitVeronica_Stain,
     [PORTRAIT_ID_DAGR_BG] = &portraitDagrBG,
     [PORTRAIT_ID_NOTT_BG] = &portraitNottBG,
