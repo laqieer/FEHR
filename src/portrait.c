@@ -10,8 +10,8 @@
 #include "character_voice.h"
 #include "proc.h"
 
-#include "portrait_alfonse_tileset.h"
-#include "portrait_alfonse_mini.h"
+#include "portrait_Alfons_tileset.h"
+#include "portrait_Alfons_mini.h"
 #include "portrait_Anna_commander_tileset.h"
 #include "portrait_Anna_commander_mini.h"
 #include "portrait_Sharena_princess_tileset.h"
@@ -107,13 +107,6 @@
 #include "classcard_Phantom.h"
 #include "classcard_Revenant.h"
 #include "classcard_Wolf.h"
-
-const Portrait portraitAlfonse = {
-        portrait_alfonse_tilesetTiles,
-        portrait_alfonse_miniTiles,
-        portrait_alfonse_tilesetPal,
-        0, 0, 0, 0
-};
 
 // For portrait display when using items
 const u16 portrait_standard_bg_obj[] = {
@@ -1011,6 +1004,29 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
 
+#define portrait_Alfons_width 128
+#define portrait_Alfons_height 96
+const u16 portrait_Alfons_obj[] = {
+    8,
+    PORTRAIT_BLOCK(Alfons, 8, 16, 32, 16, 0, 1),
+    PORTRAIT_BLOCK(Alfons, 8, 8, 40, 24, 0, 3),
+    PORTRAIT_BLOCK(Alfons, 16, 32, 48, 0, 1, 0),
+    PORTRAIT_BLOCK(Alfons, 32, 32, 64, 0, 3, 0),
+    PORTRAIT_BLOCK(Alfons, 8, 32, 40, 32, 7, 0),
+    PORTRAIT_BLOCK(Alfons, 64, 32, 48, 32, 8, 0),
+    PORTRAIT_BLOCK(Alfons, 64, 32, 0, 64, 16, 0),
+    PORTRAIT_BLOCK(Alfons, 64, 32, 64, 64, 24, 0),
+    8,
+    PORTRAIT_BLOCK_R(Alfons, 8, 16, 32, 16, 0, 1),
+    PORTRAIT_BLOCK_R(Alfons, 8, 8, 40, 24, 0, 3),
+    PORTRAIT_BLOCK_R(Alfons, 16, 32, 48, 0, 1, 0),
+    PORTRAIT_BLOCK_R(Alfons, 32, 32, 64, 0, 3, 0),
+    PORTRAIT_BLOCK_R(Alfons, 8, 32, 40, 32, 7, 0),
+    PORTRAIT_BLOCK_R(Alfons, 64, 32, 48, 32, 8, 0),
+    PORTRAIT_BLOCK_R(Alfons, 64, 32, 0, 64, 16, 0),
+    PORTRAIT_BLOCK_R(Alfons, 64, 32, 64, 64, 24, 0),
+};
+
 const u16 portrait_Freya_bg[] = {
     0x809,
     19 + 32 * 3, 20 + 32 * 3, 21 + 32 * 3, 22 + 32 * 3, 23 + 32 * 3, 24 + 32 * 3, 25 + 32 * 3, 26 + 32 * 3, 27 + 32 * 3, 28 + 32 * 3,
@@ -1526,6 +1542,20 @@ const u16 portrait_GenericSoldierBlue_bg[] = {
         TILE_ID(1, 0), TILE_ID(2, 0), TILE_ID(3, 0), TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), TILE_ID(8, 0), 0, 0,
 };
 
+const u16 portrait_Alfons_bg[] = {
+        0x809,
+        TILE_ID(20, 0), TILE_ID(21, 0), TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), TILE_ID(25, 0), TILE_ID(26, 0), TILE_ID(27, 0), TILE_ID(28, 0), TILE_ID(29, 0),
+        0, TILE_ID(7, 3), TILE_ID(8, 3), TILE_ID(9, 3), TILE_ID(10, 3), TILE_ID(11, 3), TILE_ID(12, 3), TILE_ID(13, 3), TILE_ID(14, 3), TILE_ID(15, 3),
+        0, TILE_ID(7, 2), TILE_ID(8, 2), TILE_ID(9, 2), TILE_ID(10, 2), TILE_ID(11, 2), TILE_ID(12, 2), TILE_ID(13, 2), TILE_ID(14, 2), TILE_ID(15, 2),
+        0, TILE_ID(7, 1), TILE_ID(8, 1), TILE_ID(9, 1), TILE_ID(10, 1), TILE_ID(11, 1), TILE_ID(12, 1), TILE_ID(13, 1), TILE_ID(14, 1), TILE_ID(15, 1),
+        0, TILE_ID(7, 0), TILE_ID(8, 0), TILE_ID(9, 0), TILE_ID(10, 0), TILE_ID(11, 0), TILE_ID(12, 0), TILE_ID(13, 0), TILE_ID(14, 0), TILE_ID(15, 0),
+        TILE_ID(0, 2), TILE_ID(0, 3), TILE_ID(1, 3), TILE_ID(2, 3), TILE_ID(3, 3), TILE_ID(4, 3), TILE_ID(5, 3), TILE_ID(6, 3), 0, 0,
+        TILE_ID(0, 1), 0, TILE_ID(1, 2), TILE_ID(2, 2), TILE_ID(3, 2), TILE_ID(4, 2), TILE_ID(5, 2), TILE_ID(6, 2), 0, 0,
+        0, 0, TILE_ID(1, 1), TILE_ID(2, 1), TILE_ID(3, 1), TILE_ID(4, 1), TILE_ID(5, 1), TILE_ID(6, 1), 0, 0,
+        0, 0, TILE_ID(1, 0), TILE_ID(2, 0), TILE_ID(3, 0), TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), 0, 0,
+};
+
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Alfons)
 DEFINE_PORTRAIT(Anna_commander)
 DEFINE_PORTRAIT(Sharena_princess)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
@@ -1609,7 +1639,7 @@ DEFINE_CLASSCARD_NEW(Revenant)
 DEFINE_CLASSCARD_NEW(Wolf)
 
 const Portrait* const portraits[] = {
-    [0x101] = &portraitAlfonse,
+    [0x101] = &portraitAlfons,
     [0x102] = &portraitSharena_princess,
     [0x103] = &portraitAnna_commander,
     [0x104] = &portraitBruno,
