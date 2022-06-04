@@ -23,12 +23,22 @@ process_gfx(GFX_SRCS font.grit title_screen_book_1.grit title_screen_book_2.grit
     moving_sprite_DivineDragon.grit standing_sprite_DivineDragon.grit
     portrait_GenericSoldierRed.grit portrait_GenericSoldierGreen.grit
     classcard_Bonewalker.grit classcard_Dracozombie.grit classcard_Ghost.grit classcard_Phantom.grit classcard_Revenant.grit classcard_Wolf.grit
-    BG001_Brave.grit                  BG002_PlainForestInside.grit      BG013_ChristmasForest.grit        BG026_Muspel.grit                 EvBg_AngrbodaTemple.grit          EvBg_Chapter3_Hell.grit
-    BG001_BraveAttack.grit            BG002_PlainSea.grit               BG014_GaidenCastle.grit           BG026_MuspelCastle.grit           EvBg_BraveHell.grit               EvBg_Chapter3_HellDoor.grit
-    BG001_BraveForest.grit            BG003_Volcano.grit                BG022_ByakuyaSummer.grit          BG026_MuspelNightForest.grit      EvBg_BraveTwilight.grit           EvBg_Easter2.grit
-    BG001_BraveInside.grit            BG005_Castle.grit                 BG022_DreameInvisibleKingdom.grit BG026_MuspelTemple.grit           EvBg_BrideChurch_Outside.grit     EvBg_Svartalf.grit
-    BG002_ForestNight.grit            BG005_CastleJP.grit               BG024_Valentine.grit              EvBg_Alfheim.grit                 EvBg_Chapter3_BraveHellGate.grit  EvBg_Throne_Brave.grit
-    BG002_PlainForest.grit            BG007_SnowDreaming.grit           BG025_NiflPlain.grit              EvBg_Alfheim_Throne.grit          EvBg_Chapter3_BraveInside.grit)
+    BG001_BraveAttack.grit  BG002_ForestNight.grit        BG003_Volcano.grit       BG011_HalloweenCourtyard.grit  BG022_DreameInvisibleKingdom.grit  BG026_Muspel.grit
+    BG001_BraveForest.grit  BG002_PlainForest.grit        BG005_Castle.grit        BG013_ChristmasForest.grit     BG024_Valentine.grit               BG026_MuspelNightForest.grit
+    BG001_Brave.grit        BG002_PlainForestInside.grit  BG005_CastleJP.grit      BG014_GaidenCastle.grit        BG025_NiflPlain.grit               BG026_MuspelTemple.grit
+    BG001_BraveInside.grit  BG002_PlainSea.grit           BG007_SnowDreaming.grit  BG022_ByakuyaSummer.grit       BG026_MuspelCastle.grit
+    EvBg_001_BraveGround.grit   EvBg_BraveHell.grit               EvBg_Easter2.grit             EvBg_NisaverilSaintForest.grit  EvBg_UndergroundPrison_Brave.grit
+    EvBg_001_BraveLibrary.grit  EvBg_BraveTwilight.grit           EvBg_EmbraGoingDark.grit      EvBg_NisaverilShrine.grit       EvBg_Valentine.grit
+    EvBg_011_Halloween.grit     EvBg_BrideChurch_Outside.grit     EvBg_EmbraInside.grit         EvBg_NisaverilTower.grit        EvBg_ValentineNature.grit
+    EvBg_038_Plegia.grit        EvBg_Building.grit                EvBg_EmbraMountain.grit       EvBg_Opening.grit               EvBg_Vortex.grit
+    EvBg_Alfheim.grit           EvBg_ByakuyaNewyear.grit          EvBg_EmbraOutsideForest.grit  EvBg__Plain30th.grit            EvBg_Wedding02Forest.grit
+    EvBg_Alfheim_Throne.grit    EvBg_ByakuyaNinja.grit            EvBg_EmbraOutside.grit        EvBg_SeisenCity.grit            EvBg_Wedding02.grit
+    EvBg_AngrbodaTemple.grit    EvBg_CastleJPWedding.grit         EvBg_Hood.grit                EvBg_SeisenDancehall.grit       EvBg_WeddingIliaInside.grit
+    EvBg_Beach02.grit           EvBg_Chapter3_BraveHellGate.grit  EvBg_NewYear.grit             EvBg_Svartalf.grit              EvBg_Winter.grit
+    EvBg_BeachAlf.grit          EvBg_Chapter3_BraveInside.grit    EvBg_NisaverilCastle.grit     EvBg_TelliusForest.grit
+    EvBg_Beach.grit             EvBg_Chapter3_HellDoor.grit       EvBg_NisaverilCorridor.grit   EvBg_Tellius.grit
+    EvBg_BraveCamp.grit         EvBg_Chapter3_Hell.grit           EvBg_Nisaveril.grit           EvBg_Throne_Brave.grit
+    EvBg_BraveColosseum.grit    EvBg_ChristmasNight.grit          EvBg_NisaverilOutside.grit    EvBg_TreasureIsland.grit)
 process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_alfonse.grit portrait_Anna_commander.grit portrait_Sharena_princess.grit portrait_Bruno.grit portrait_Xander.grit portrait_Veronica.grit portrait_Fjorm.grit portrait_Fjorm_bg.grit portrait_Surtr.grit portrait_Loki.grit portrait_Laevatain.grit portrait_Cerise.grit portrait_Laegjarn.grit portrait_Helbindi.grit portrait_Gustaf.grit portrait_Henriette.grit portrait_Yurg.grit portrait_Freeze.grit portrait_Lif.grit portrait_Srasir.grit portrait_Hell.grit portrait_Eir.grit portrait_Tor.grit portrait_Peony.grit portrait_Scabiosa.grit portrait_Plumeria.grit portrait_Froda.grit portrait_Hood.grit portrait_Mirabilis.grit portrait_Freya.grit portrait_Reghin.grit portrait_Letizia.grit portrait_Otr.grit portrait_Fafnir.grit portrait_Eitri.grit portrait_Dagr.grit portrait_Nott.grit portrait_Dagr_bg.grit portrait_Nott_bg.grit portrait_Ash.grit portrait_Veronica_Stain.grit portrait_Elm.grit portrait_GenericSoldierBlue.grit)
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT})
