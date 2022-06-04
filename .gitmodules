@@ -13,3 +13,6 @@
 [submodule "tool/music/m4a2s"]
 	path = tool/music/m4a2s
 	url = https://github.com/laqieer/m4a2s
+[submodule "tool/voice/cktool"]
+	path = tool/voice/cktool
+	url = https://github.com/laqieer/ck.git

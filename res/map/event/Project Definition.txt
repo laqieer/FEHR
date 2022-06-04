@@ -44,6 +44,22 @@
 #define Triandra Scabiosa
 #define Plumeria Farina
 #define Freyja Rebecca
+#define Freya Freyja
+#define Freyr Hawkeye
+#define Froda Freyr
+#define Thorr Renault
+#define Tor Thorr
+#define Hood Geitz
+#define Reghin Sain_t
+#define Letizia Marcus
+#define Otr Pent
+#define Fafnir Rath_t
+#define Eitri Wil_t
+#define Dagr Heath
+#define Nott Vaida
+#define Ash Lowen
+#define VeronicaStain Canas
+#define Elm Lucius
 
 #define GenericSoldierHel 0x75
 #define GenericSoldierHelWeak 0x76
