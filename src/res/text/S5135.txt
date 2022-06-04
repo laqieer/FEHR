@@ -1,0 +1,384 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_EITRI
+"おめでとう。" TCC_NEWLINE
+"よくここまでたどり着いたね。" TCC_NEWLINE
+"さあ、何から聞きたいんだい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"先ほどの。。。" TCC_NEWLINE
+"ニザヴェリルの建国王に" TCC_NEWLINE
+"仕えていたというのは本当か？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ。" TCC_NEWLINE
+"私のこの見た目はただの入れ物さ。" TCC_NEWLINE TCC_PUSH_A
+""
+"本当の私は。。。いくつだったかな。" TCC_NEWLINE
+"ゆうに数千年は生きているのは確かだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"す、数千！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ずっと考えていた。" TCC_NEWLINE
+"数多の異界で伝説とも神話とも伝えられる" TCC_NEWLINE
+"人を遥かに超えた命を持つ存在。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"エイトリ、君は竜なのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あっはははは！" TCC_NEWLINE
+"残念ながら私はただの人間さ。" TCC_NEWLINE TCC_PUSH_A
+""
+"正確には、竜の力を少し" TCC_NEWLINE
+"分けてもらっただけのね。" TCC_NEWLINE TCC_PUSH_A
+"肉体の寿命が近づくと" TCC_NEWLINE
+"魂だけ他の肉体に移ることができる。" TCC_NEWLINE TCC_PUSH_A
+"そうして何年もニザヴェリルを見守り" TCC_NEWLINE
+"発展させてきた。" TCC_NEWLINE TCC_PUSH_A
+""
+"君たちも城で見ただろう？" TCC_NEWLINE
+"ニザヴェリルの偉人たちを。" TCC_NEWLINE TCC_PUSH_A
+"アールヴリック、ドヴァリン、" TCC_NEWLINE
+"ベルリング、グレール。。。" TCC_NEWLINE
+"あれは全て私さ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ええっ！？" TCC_NEWLINE
+"あれが全部。。。あなた。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ファフニールの召喚や" TCC_NEWLINE
+"失敗した英雄たち。。。" TCC_NEWLINE TCC_PUSH_A
+"扉を壊す神器【ヤールングレイプル】も" TCC_NEWLINE
+"ニザヴェリルの発展のためだと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ。アスクの召喚の力は大変な脅威だ。" TCC_NEWLINE
+"備えておくに越したことはない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"エイトリ。。。あなたはどうして" TCC_NEWLINE
+"そこまで。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それがあの人の。。。" TCC_NEWLINE
+"建国王の望みだからさ。" TCC_NEWLINE TCC_PUSH_A
+"この国は私とあの人が共に築いた" TCC_NEWLINE
+"子供のようなもの。" TCC_NEWLINE TCC_PUSH_A
+"若くして病に倒れたあの人の代わりに" TCC_NEWLINE
+"私がこの国を守らなければ。" TCC_NEWLINE TCC_PUSH_A
+""
+"レギン、あの人の血を継ぐ君に" TCC_NEWLINE
+"私は身も心も捧げよう。" TCC_NEWLINE TCC_PUSH_A
+"ファフニールが広げた領土を生かし" TCC_NEWLINE
+"ニザヴェリルをこの世界一の" TCC_NEWLINE
+"大国にしてみせる。" TCC_NEWLINE TCC_PUSH_A
+""
+"魔道科学の力をもってすれば" TCC_NEWLINE
+"容易いことさ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"そんなの。。。そんなのいらない！！" TCC_NEWLINE
+"私の望みはひとつなの！！" TCC_NEWLINE TCC_PUSH_A
+""
+"お兄ちゃん達を返して！" TCC_NEWLINE
+"ファフニールお兄ちゃんを、" TCC_NEWLINE
+"オッテルお兄ちゃんを返してなの！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"なんだそんなこと。それなら簡単さ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"えっ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そこの召喚師に頼めばいい。" TCC_NEWLINE
+"違う次元の彼らを呼んでくれる。" TCC_NEWLINE TCC_PUSH_A
+"まあ、君の知る彼らとは" TCC_NEWLINE
+"多少違うかもしれないがね。" TCC_NEWLINE
+"構\成する組織は同じだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。。。。っ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。エイトリ。。。。。。" TCC_NEWLINE
+"人の命を。。。生きた時間を" TCC_NEWLINE
+"何だと思ってるんだ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。もういい。もう聞きたくない。" TCC_NEWLINE
+"私のニザヴェリルに" TCC_NEWLINE
+"あなたの居場所はない！" TCC_NEWLINE TCC_PUSH_A
+""
+"エイトリ、" TCC_NEWLINE
+"あなたは古きニザヴェリルの亡霊よ。" TCC_NEWLINE TCC_PUSH_A
+"新たな女王として" TCC_NEWLINE
+"あなたに死を命じます！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！　魔剣【グラム】。。。" TCC_NEWLINE
+"そうか、それは想定外だったな。" TCC_NEWLINE TCC_PUSH_A
+""
+"だが面白い。私の魔道科学の力と" TCC_NEWLINE
+"古の王家の秘宝。" TCC_NEWLINE
+"どちらの力が上回るのか。。。" TCC_NEWLINE TCC_PUSH_A
+"かかってきたまえ。" TCC_NEWLINE
+"私も全力でお相手しよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"でやぁあああーーーーーっ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_EITRI
+"。。。ぐ。。。うっ。。。。。。" TCC_NEWLINE
+"さすが。。。古の神竜の力。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"私にも。。。解き明かせなかった。。。" TCC_NEWLINE
+"だけはある。。。" TCC_NEWLINE TCC_PUSH_A
+"悔しいな。。。もっと。。。時間が。。。。。。" TCC_NEWLINE
+"。。。あれ。。。ば。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。エイトリ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。。。あなた。。。" TCC_NEWLINE
+"こうして見ると。。。。。。" TCC_NEWLINE
+"よく。。。。。。似て。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"！？　か、体が。。。っ。。。" TCC_NEWLINE
+"エイトリの体が塵になって" TCC_NEWLINE
+"消えちゃいましたよっ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"人ならざる力を" TCC_NEWLINE
+"人の身で使い続けた結果。。。" TCC_NEWLINE
+"なのかな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"とにかく！　これで本当に終わりね。" TCC_NEWLINE TCC_PUSH_A
+"おめでとう、レギン王女。" TCC_NEWLINE
+"これで晴れてニザヴェリルの女王ね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_REGHIN
+"【小人の王冠】。。。これを私が。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。えいっ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ああーっ！？" TCC_NEWLINE
+"王冠が粉々に。。。！" TCC_NEWLINE
+"いいんですか、レギン王女！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うん。こんな王冠なんてもういらない。" TCC_NEWLINE
+"この国は、エイトリの呪いから" TCC_NEWLINE
+"解放されなくちゃいけないの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"レギン王女。。。" TCC_NEWLINE
+"そうだね。それがいい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
+"さーって、ぼちぼち" TCC_NEWLINE
+"あたしたちも戻んなきゃなあ。" TCC_NEWLINE TCC_PUSH_A
+""
+"レギン、ひとりで大丈夫かあ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"あ、うん。。。" TCC_NEWLINE
+"大丈夫！　えへへ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"この状態のニザヴェリルを立て直すのは" TCC_NEWLINE
+"大変な責務だと思うけど、" TCC_NEWLINE
+"僕らも協力は惜しまないよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"これでレギン王女とは" TCC_NEWLINE
+"お別れなんですね。。。" TCC_NEWLINE
+"わたし寂しいですっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"またいつでも、アスク王国に" TCC_NEWLINE
+"遊びに来てちょうだい。" TCC_NEWLINE
+"元気でね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_DAGR
+"。。。レギン。あんた何か" TCC_NEWLINE
+"言いたいことあるんじゃないの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"えっ。。。！？" TCC_NEWLINE
+"な、何のこと？　何にもないの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふーん、ないならいいけど。" TCC_NEWLINE
+"じゃあ、あたしらもう行くね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"えっ、あっ。。。。。。、待ってなの！" TCC_NEWLINE
+"行かないでなの！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"レギン王女？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私、わたしっ。。。。。。" TCC_NEWLINE
+"本当は不安でいっぱいなの！" TCC_NEWLINE TCC_PUSH_A
+"お兄ちゃん達もいなくて、" TCC_NEWLINE
+"たったひとりで、" TCC_NEWLINE
+"立派な女王になれるかなって。。。" TCC_NEWLINE TCC_PUSH_A
+"もっとみんなと一緒に" TCC_NEWLINE
+"いろんなところに行って" TCC_NEWLINE
+"いろんなことを知りたかったの。" TCC_NEWLINE TCC_PUSH_A
+""
+"それに、みんなのこと大好きだから。。。" TCC_NEWLINE
+"お別れするのがとってもとっても" TCC_NEWLINE
+"寂しいの。。。っ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"レギン王女。。。、" TCC_NEWLINE
+"泣かないでください。" TCC_NEWLINE
+"わたしまで泣きたくなっちゃいます。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"私たちだって、お別れしたくないわ。" TCC_NEWLINE
+"でも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ぐすっ。。。うん。。。、わかってるの。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"はーっ、泣いたらすっきりしたの！" TCC_NEWLINE
+"わがまま言ってごめんなさい。" TCC_NEWLINE
+"みんな、今まで本当にありがとう。" TCC_NEWLINE TCC_PUSH_A
+""
+"私、ひとりでもがんばるの！" TCC_NEWLINE
+"だから心配しないで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_DAGR
+"あーあ、しょうがないなあ。" TCC_NEWLINE
+"ここは優しいダグちゃんが" TCC_NEWLINE
+"一肌脱いであげちゃいますか☆" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ダグ王女？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うちのママと相談して、" TCC_NEWLINE
+"しばらくニザヴェリルを" TCC_NEWLINE
+"ヨトゥンに預けない？" TCC_NEWLINE TCC_PUSH_A
+"そしたら、あたしが総督になって" TCC_NEWLINE
+"ニザヴェリルを見てあげられるからさ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"それって、ダグ王女が" TCC_NEWLINE
+"ニザヴェリルを治めるってこと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_DAGR
+"そ。ほらあたしも、ヨトゥンの" TCC_NEWLINE
+"次期女王ってことになっちゃったじゃん？" TCC_NEWLINE TCC_PUSH_A
+""
+"修業が必要だなーって思ってたんだ。" TCC_NEWLINE
+"ちょーどいいっしょ。" TCC_NEWLINE
+"きっとママも反対しないよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ダグ王女、本当にいいの？" TCC_NEWLINE
+"それができたら夢みたいだけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、ニザヴェリルのみんなは" TCC_NEWLINE
+"納得してくれるかな。" TCC_NEWLINE
+"私が国を出ること。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"レギン王女は今や" TCC_NEWLINE
+"ファフニールを倒した英雄だ。" TCC_NEWLINE TCC_PUSH_A
+"多少のわがままは" TCC_NEWLINE
+"許してもらえるんじゃないかな。" TCC_NEWLINE TCC_PUSH_A
+""
+"あくまで、そうして学んだ成果を" TCC_NEWLINE
+"未来のニザヴェリルに" TCC_NEWLINE
+"活かすことが前提だけど。" TCC_NEWLINE TCC_PUSH_A
+"約束できるかい？　レギン王女。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"うんっ、うんっ！！" TCC_NEWLINE
+"私、いっぱいいっぱい勉強するの！" TCC_NEWLINE TCC_PUSH_A
+"もっともーっと強くなって" TCC_NEWLINE
+"みんなもニザヴェリルも" TCC_NEWLINE
+"守れるようになるの！　約束する！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"じゃー決まりだ。" TCC_NEWLINE
+"いっておいで、レギン。" TCC_NEWLINE TCC_PUSH_A
+"ニザヴェリルはあたしがしっかり" TCC_NEWLINE
+"守っといてあげるからさ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ダグ王女。。。" TCC_NEWLINE
+"本当にありがとうなの。。。！" TCC_NEWLINE TCC_PUSH_A
+"いつか必ずダグ王女にもヨトゥン王国にも" TCC_NEWLINE
+"恩返しするから！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"楽しみにしてるよん。" TCC_NEWLINE
+"それじゃ、あたしはここまでってことで。" TCC_NEWLINE TCC_PUSH_A
+""
+"王子ちゃんも王女ちゃんも" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "も" TCC_NEWLINE
+"元気でね！" TCC_NEWLINE TCC_PUSH_A
+"たまには顔見せに来てくれないと" TCC_NEWLINE
+"ダグちゃん寂しがっちゃうよー？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"はい、来ます！　必ずっ！" TCC_NEWLINE
+"ね、お兄様っ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"うん。そうだね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"さあ、まだまだやることは" TCC_NEWLINE
+"たくさんあるわよ。" TCC_NEWLINE TCC_PUSH_A
+"がんばりましょう、レギン王女。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"あ、" TCC_TACTICIAN_NAME "さん。。。" TCC_NEWLINE
+"私を捜しに来てくれたの？" TCC_NEWLINE TCC_PUSH_A
+"ごめんなさい、待たせちゃって。" TCC_NEWLINE
+"出発する前にニザヴェリルの国を" TCC_NEWLINE
+"目に焼きつけておきたかったの。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。ファフニールお兄ちゃんは" TCC_NEWLINE
+"ニザヴェリルの民じゃなかったし" TCC_NEWLINE TCC_PUSH_A
+"オッテルお兄ちゃんは" TCC_NEWLINE
+"私のお兄ちゃんじゃなかった。" TCC_NEWLINE TCC_PUSH_A
+"私の周り、" TCC_NEWLINE
+"ぜーんぶ嘘ばっかりだったの。" TCC_NEWLINE TCC_PUSH_A
+""
+"それでも、お兄ちゃん達が" TCC_NEWLINE
+"私に優しくしてくれたこと。。。" TCC_NEWLINE TCC_PUSH_A
+"私がお兄ちゃん達を" TCC_NEWLINE
+"大好きだったことは本当なの。" TCC_NEWLINE
+"それだけは信じてていいよね。" TCC_NEWLINE TCC_PUSH_A
+"え？　この先もっと" TCC_NEWLINE
+"大好きになれる人に出会えるって。。。？" TCC_NEWLINE
+"えへへ、そうだといいなぁ！" TCC_NEWLINE TCC_PUSH_A
+""
+"あっ、それって" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんかも。。。？" TCC_NEWLINE
+"なーんてね！" TCC_NEWLINE TCC_PUSH_A
+"私、信じるよ。この先たっくさん" TCC_NEWLINE
+"楽しいことや幸せなことが待ってるって！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

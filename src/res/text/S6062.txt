@@ -1,0 +1,97 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6062] = TCC_OPEN_LEFT 
+"このペンダント？" TCC_NEWLINE
+"母様の形見よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6062] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。ぅ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"元気だったかしら？" TCC_NEWLINE
+"私の小さなヴェロニカ。" TCC_NEWLINE TCC_PUSH_A
+"おなかすいた？" TCC_NEWLINE
+"かわいそうに。もう何日も" TCC_NEWLINE
+"何も口にしてないんですって？" TCC_NEWLINE TCC_PUSH_A
+"それはそうよね。" TCC_NEWLINE
+"だって、私が命じたんですもの。" TCC_NEWLINE
+"水一滴も与えるな、って。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"処刑の日は明後日。" TCC_NEWLINE
+"もうすぐよ、" TCC_NEWLINE
+"楽しみで待ちきれないわね？" TCC_NEWLINE TCC_PUSH_A
+"ねえ、何か言ってごらんなさい。" TCC_NEWLINE
+"私に言いたいことがあるでしょう？" TCC_NEWLINE
+"ほら。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。お姉様。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。お姉様の、望みは何。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"決まっているでしょう。" TCC_NEWLINE
+"あなたたちからすべてを奪うの。" TCC_NEWLINE
+"富も権力も命もね。" TCC_NEWLINE TCC_PUSH_A
+"あなたを処刑した後、" TCC_NEWLINE
+"あなたの母が座る皇帝の座も" TCC_NEWLINE
+"すぐに奪ってあげるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。それから。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。" TCC_NEWLINE
+"それから。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"皇帝になって。。。それから。。。" TCC_NEWLINE
+"お姉様はどうしたいの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あたし。。。前は。。。" TCC_NEWLINE
+"国とか民とか。。。" TCC_NEWLINE
+"そんなこと、どうでもよかった。。。" TCC_NEWLINE TCC_PUSH_A
+"でも。。。ある人に言われたわ。" TCC_NEWLINE
+"王は、民のためにあるものだって。" TCC_NEWLINE
+"あたしは、ただのわがままだって。。。" TCC_NEWLINE TCC_PUSH_A
+"アルフォンス王子や" TCC_NEWLINE
+"シャロン王女と" TCC_NEWLINE
+"何度も会って。。。" TCC_NEWLINE TCC_PUSH_A
+"くやしいけど。。。おもったの。。。" TCC_NEWLINE
+"あの人たちは、ほんとうに" TCC_NEWLINE
+"民たちのことを思ってる。。。" TCC_NEWLINE TCC_PUSH_A
+"あたしも。。。いつか、" TCC_NEWLINE
+"あんなふうに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お姉様。。。あなたは。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"っ。。。黙りなさい！" TCC_NEWLINE
+"この私に向かって" TCC_NEWLINE
+"偉そうな口を！" TCC_NEWLINE TCC_PUSH_A
+"衛兵！" TCC_NEWLINE
+"この小娘を鞭打ちなさい！" TCC_NEWLINE TCC_PUSH_A
+"気を失うまで止めることは許さない。" TCC_NEWLINE
+"さあ、やりなさい！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。あたしのことは。。。どうでもいい。。。" TCC_NEWLINE
+"。。。すきにして。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、お姉様。。。" TCC_NEWLINE
+"この国の。。。みんなのことは。。。" TCC_NEWLINE
+"大切にしてあげて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

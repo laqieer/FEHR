@@ -1,0 +1,65 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｅｉｔｒｉ！　Ｒｅａｄｙ　ｔｈｅ　ｗｅａｐｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｗｈａｔ’ｓ　ｔｈｉｓ　ｎｏｗ？　Ｒｅｔｒｅａｔｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｍｅ？　Ｈｏｗ　ｐａｔｈｅｔｉｃ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｉｌｅｎｃｅ！　Ｔｈｅ　Ａｓｋｒａｎｓ　ａｒｅ　ｄｅｓｃー"TCC_NEWLINE"ｅｎｄｉｎｇ　ａｓ　ｗｅ　ｓｐｅａｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｈａｖｅ　ｙｏｕ　ｍａｎａｇｅｄ　ｔｏ　ｆｏｉｌ　"TCC_NEWLINE"ｍｙ　ｐｌａｎｓ　ｗｉｔｈ　ｙｏｕｒ　ｄａｗｄｌｉｎｇ　ｅー"TCC_NEWLINE"ｖｅｎ　ａｆｔｅｒ　Ｉ　ｗｅｎｔ　ｔｏ　ｔｈｅ　ｔｒｏｕｂー"TCC_NEWLINE"ｌｅ　ｏｆ　ｃａｐｔｕｒｉｎｇ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ａｍ　ｃｒｅａｔｉｎｇ　ａ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ"TCC_NEWLINE"　ｈｅｒｅ！　Ｄｏ　ｎｏｔ　ｐｒｅｔｅｎｄ　ｙｏｕ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｈａｖｅ　ｅｖｅｎ　ａ　ｆａｉｎｔ　ｉｄｅａ　ｗｈｅー"TCC_NEWLINE"ｒｅ　ｔｏ　ｂｅｇｉｎ　ｄｏｉｎｇ　ｓｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｎｏｕｇｈ！　Ｊｕｓｔ　ｈｕｒｒｙ　ｕｐ　ａｎｄ　ｕｓｅ"TCC_NEWLINE"　ｉｔ　ａｇａｉｎｓｔ　ｔｈｅｍ！　Ｓｕｒｅｌｙ　ｙｏｕ’"TCC_NEWLINE"ｖｅ　ｍａｄｅ　ｐｒｏｇｒｅｓｓ　ｅｎｏｕｇｈ　ｔｏ　ｂｕー"TCC_NEWLINE"ｙ　ｕｓ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｈａｓｔｙ．　Ｋｅｅｐ　ｒｕｓｈｉｎｇ　ｍｙ　ｃｒａー"TCC_NEWLINE"ｆｔ，　ａｎｄ　ｙｏｕ’ｒｅ　ｂｏｕｎｄ　ｔｏ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｓｈｕｔ　ｕｐ！　Ｗｅ’ｖｅ　ｎｏ　ｔｉｍｅ　ｆｏー"TCC_NEWLINE"ｒ　ｔｈｉｓ！　Ｊｕｓｔ　ｄｏ　ｉｔ　ａｌｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｐｈ．．．　Ｆｉｎｅ，　ｆｉｎｅ．　Ｉ　ｍｕｓｔ　ａｄー"TCC_NEWLINE"ｍｉｔ　Ｉ　ａｍ　ｃｕｒｉｏｕｓ　ｔｏ　ｌｅａｒｎ　ｈｏｗ"TCC_NEWLINE"　ｉｔ　ｗｉｌｌ　ｆｕｎｃｔｉｏｎ　ｕｎｄｅｒ　ｂａｔｔｌー"TCC_NEWLINE"ｅｆｉｅｌｄ　ｃｏｎｄｉｔｉｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ，　Ｓｕｍｍｏｎｅｒ，　ｂｕｔ　Ｉ’ｌｌ"TCC_NEWLINE"　ｈａｖｅ　ｔｏ　ｋｅｅｐ　ｙｏｕ　ｗａｉｔｉｎｇ　ｈｅｒー"TCC_NEWLINE"ｅ　ａ　ｍｏｍｅｎｔ．　Ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ，　ｄー"TCC_NEWLINE"ｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｓ　ｔｈａｔ　ｙｏｕ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｉｔ’ｓ．．．　Ａｒｅ　ｔｈｏｓｅ．．．Ｈｅｒｏｅー"TCC_NEWLINE"ｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｏｍｅｔｈｉｎｇ’ｓ　ｗｒｏｎｇ．　Ｔｈｅｙ　ｌｏｏｋ．"TCC_NEWLINE"．．ｏｆｆ．　Ａｌｍｏｓｔ　ａｓ　ｉｆ　ｔｈｅｙ’ｒｅ　ｅー"TCC_NEWLINE"ｍｐｔｙ　ｓｈｅｌｌｓ．．．　Ｗｈａｔ　ｈａｐｐｅｎｅｄ　"TCC_NEWLINE"ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｉｓ　ｉｓ　ｎｏ　ｔｉｍｅ　ｔｏ　ｌａｕｎｃｈ　ａｎ　"TCC_NEWLINE"ｉｎｖｅｓｔｉｇａｔｉｏｎ，　ｙｏｕ　ｔｗｏ！　Ｔｈｅｙ’"TCC_NEWLINE"ｒｅ　ｃｏｍｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｄｅｆｅａｔ，　ｈｍ？　Ｗｅｌｌ，　Ｉ　ｓｕｐｐｏｓｅ　ｖー"TCC_NEWLINE"ｉｃｔｏｒｙ　ｗｏｕｌｄ　ｂｅ　ｔｏｏ　ｍｕｃｈ　ｔｏ　ｅー"TCC_NEWLINE"ｘｐｅｃｔ　ｆｒｏｍ　ｒｕｓｈｅｄ　ａｔｔｅｍｐｔｓ　ａｎー"TCC_NEWLINE"ｄ　ｆａｉｌｕｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ，　ｆａｉｌｕｒｅｓ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｖｅ　ｂｅｅｎ　ｅｘｐｌｏｒｉｎｇ　ｔｈｅ　ｃａｐａｂー"TCC_NEWLINE"ｉｌｉｔｉｅｓ　ｏｆ　ｔｈｅ　ｓｕｍｍｏｎｅｒ’ｓ　ｄｉｖー"TCC_NEWLINE"ｉｎｅ　ｗｅａｐｏｎ，　ｙｏｕ　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｈｏｐｉｎｇ　ｔｏ　ｍａｋｅ　ｓｏｍｅｔｈｉｎｇ　"TCC_NEWLINE"ｓｉｍｉｌａｒ　ｕｓｉｎｇ　ｓｅｉｊｒｎ，　ｓｏ　Ｉ’ｖｅ"TCC_NEWLINE"　ｂｅｅｎ　ｓｔｕｄｙｉｎｇ　ｉｔｓ　ｉｎｔｒｉｃａｃｉｅー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｓｏ　ｆａｒ　Ｉ’ｖｅ　ｏｎｌｙ　ａｃｈｉｅｖｅｄ"TCC_NEWLINE"　ｆａｉｌｕｒｅ，　ｌｉｋｅ　ｔｈｅ　ｂｅｉｎｇｓ　ｙｏｕ"TCC_NEWLINE"　ｊｕｓｔ　ｅｎｃｏｕｎｔｅｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ａｆｔｅｒ　ｓｕｍｍｏｎｉｎｇ，　ｗｉｔｈｏｕｔ"TCC_NEWLINE"　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｔｈｅ　ｇｏｄ－ｄｒａｇｏｎ，"TCC_NEWLINE"　Ｉ　ｃａｎｎｏｔ　ｂｉｎｄ　ｔｈｅｍ　ｔｏ　ｍｅ　ｂｙ　"TCC_NEWLINE"ｃｏｎｔｒａｃｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｏ，　ｔｈｅｓｅ　ｐｅｏｐｌｅ　ｙｏｕ’ｖｅ　ｓｕｍｍｏー"TCC_NEWLINE"ｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｉｋｅ　Ｉ　ｓａｉｄ：　ｆａｉｌｕｒｅｓ．　Ｔｈｅｉｒ　"TCC_NEWLINE"ｓｕｍｍｏｎｓ　ｗｅｒｅ　ｉｎｃｏｍｐｌｅｔｅ，　ｓｏ　ｅー"TCC_NEWLINE"ｖｅｎ　ａｓ　ｆｏｒｍｅｒ　Ｈｅｒｏｅｓ，　ｔｈｅｉｒ　ｓー"TCC_NEWLINE"ｏｕｌｓ　ｗｅｒｅ　ｄｅｓｔｒｏｙｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈａｔ’ｓ　ｔｅｒｒｉｂｌｅ！　Ｄｏｎ’ｔ　ｙｏｕ　ｕｎー"TCC_NEWLINE"ｄｅｒｓｔａｎｄ　ｔｈａｔ　ｔｈｅｓｅ　ａｒｅ　ａｃｔｕａー"TCC_NEWLINE"ｌ　ｐｅｏｐｌｅ　ｙｏｕ’ｒｅ　ｔｏｙｉｎｇ　ｗｉｔｈ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｆ　ｃｏｕｒｓｅ　Ｉ　ｋｎｏｗ　ｔｈａｔ！　Ｔｈａｔ’ｓ"TCC_NEWLINE"　ｗｈｙ　Ｉ’ｍ　ｗｏｒｋｉｎｇ　ｔｏ　ｏｖｅｒｃｏｍｅ　"TCC_NEWLINE"ｔｈｅ　ｉｓｓｕｅ．　Ｉｔ’ｓ　ａ　ｐｒｏｃｅｓｓ．　Ｔｒー"TCC_NEWLINE"ｉａｌ　ａｎｄ　ｅｒｒｏｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ！　Ｔｈｉｓ．．．　Ｗｈａｔ　ｙｏｕ’ｒｅ　ｄｏｉｎｇ"TCC_NEWLINE"　ｈｅｒｅ　ｉｓ　ｕｎｆｏｒｇｉｖａｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｅｉｔｒｉ．．．　Ｉ　ｐｕｔ　ｍｙ　ｆａｉｔｈ　ｉｎ　ｙｏー"TCC_NEWLINE"ｕ．．．　Ｕｇｈ！　Ｗｈａｔ　ａ　ｆｏｏｌ　Ｉ　ｗａｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｏ，　ｙｏｕ’ｒｅ　ａ　ｖｉｌｌａｉｎ　ａｆｔｅｒ　ａｌー"TCC_NEWLINE"ｌ，　ｔｈｅｎ．．．　Ｔｈａｔ　ｍａｋｅｓ　ｙｏｕ　ｏｕｒ"TCC_NEWLINE"　ｅｎｅｍｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｈｅｈ．．．　Ｏｏｏｈ．．．　Ｈｏｗ　ｓｃａｒｙ！　Ｗｈａー"TCC_NEWLINE"ｔ　ｅｖｅｒ　ｓｈａｌｌ　Ｉ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｒｇｈ！　Ｅｖｅｒｙｏｎｅ，　ａｆｔｅｒ　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｗａｓ　ｉｔ．．．Ａｓｋｒ’ｓ　ｓｕｍｍｏｎｅｒ？　Ｎｏ．"TCC_NEWLINE"．．　Ｎｏ，　ｉｔ　ｃｏｕｌｄｎ’ｔ　ｈａｖｅ　ｂｅｅｎ．"TCC_NEWLINE"　Ｉｔ　ｗａｓ　ｓｏｍｅｏｎｅ　ｅｌｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｅｔ，　ａｆｔｅｒ　ｏｕｒ　ｆｉｇｈｔ，　ｔｈｅー"TCC_NEWLINE"ｒｅ’ｓ　ｂｅｅｎ　ｓｏｍｅｔｈｉｎｇ．．．ｓｔｉｃｋｉｎー"TCC_NEWLINE"ｇ　ｉｎ　ｍｙ　Ｇａｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｒｒｒｇｈ．．．　Ｍｙ　ｈｅａｄ．．．　Ａｌｗａｙｓ　ｔｈー"TCC_NEWLINE"ｉｓ　ｐａｉｎ　ｉｎ　ｍｙ　ｈｅａｄ．．．　Ａｌｗａｙｓ　"TCC_NEWLINE"ｔｈｉｓ　ｄａｍｎ　ｐａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｌｏｓｅｒ　Ｉ　ｇｅｔ　ｔｏ　Ａｓｋｒ，　ｔｈｅ"TCC_NEWLINE"　ｍｏｒｅ　ｉｔ　ｓｉｎｇｓ　ｏｕｔ．．．　Ｉ　ｄｏｎ’ｔ"TCC_NEWLINE"　ｕｎｄｅｒｓｔａｎｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ．　Ｉｔ　ｍｕｓｔ　ｂｅ　ｄｏｎｅ．　Ｉ"TCC_NEWLINE"　ｍｕｓｔ　ｃｏｎｔｉｎｕｅ　ｏｎ　ｍｙ　ｗａｙ．．．　Ｏー"TCC_NEWLINE"ｎ　ｔｏ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

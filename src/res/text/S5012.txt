@@ -1,0 +1,38 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5012] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ニザヴェリルは十\数年前の" TCC_NEWLINE
+"クーデターで王族が滅んでから" TCC_NEWLINE
+"ずっと国が荒れていて" TCC_NEWLINE TCC_PUSH_A
+"他の国に侵略する余裕なんて" TCC_NEWLINE
+"なかったの。" TCC_NEWLINE TCC_PUSH_A
+""
+"そんな中、一兵士から" TCC_NEWLINE
+"実力で王にのし上がったのが" TCC_NEWLINE
+"今のファフニール王よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"じゃあ、ものすごーっく" TCC_NEWLINE
+"強い人なんですねっ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"それはもう、この世のものとは" TCC_NEWLINE
+"思えない強さだそうだよ。" TCC_NEWLINE
+"それに。。。" TCC_NEWLINE TCC_PUSH_A
+"気さくな人柄で皆に慕われていたから" TCC_NEWLINE
+"王族ではないけど、" TCC_NEWLINE
+"民はファフニール王の即位を歓迎した。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でも、それも長くは持たなかった。" TCC_NEWLINE TCC_PUSH_A
+"即位後は次第に暴\君と化し" TCC_NEWLINE
+"民に圧政を布き、他国へ侵略を開始した。" TCC_NEWLINE
+"今では昔の王の面影もないそうよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それでアスクにも侵略を？" TCC_NEWLINE TCC_PUSH_A
+"権力を持つと" TCC_NEWLINE
+"人は変わっちゃうってことでしょうか。。。" TCC_NEWLINE
+"うーん、やるせない話です。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

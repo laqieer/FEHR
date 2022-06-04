@@ -1,0 +1,85 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。理解できないわ。" TCC_NEWLINE
+"。。。何なの。。。この気持ち。。。" TCC_NEWLINE TCC_PUSH_A
+"今まで。。。" TCC_NEWLINE
+"こんなこと。。。" TCC_NEWLINE
+"一度も。。。なかった。。。" TCC_NEWLINE TCC_PUSH_A
+"あの子たちがいない。。。" TCC_NEWLINE
+"ただ。。。" TCC_NEWLINE
+"それだけのことなのに。。。" TCC_NEWLINE TCC_PUSH_A
+"どうして。。。こんな。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"これが最後です、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。" TCC_NEWLINE TCC_PUSH_A
+"幸せな夢か、" TCC_NEWLINE
+"虚ろな現か。。。" TCC_NEWLINE
+"どちらを選ぶか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。それを決めるのは私。" TCC_NEWLINE
+"あなたに選ばせはしない。" TCC_NEWLINE TCC_PUSH_A
+"私の夢に沈みなさい。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"ああ。。。あああ。。。" TCC_NEWLINE
+"どうしても。。。戻るというのですね。" TCC_NEWLINE
+"現実に。。。" TCC_NEWLINE TCC_PUSH_A
+"いいわ。。。味わわせてあげましょう。" TCC_NEWLINE
+"妖精たちの死を。" TCC_NEWLINE
+"私がお兄様を失ったように。。。" TCC_NEWLINE TCC_PUSH_A
+"私の残る力。。。" TCC_NEWLINE
+"すべてを使い果たして。。。" TCC_NEWLINE TCC_PUSH_A
+"妖精たちの" TCC_NEWLINE
+"命も。。。記憶も。。。存在も。。。" TCC_NEWLINE
+"なにもかも。。。消してあげましょう。。。" TCC_NEWLINE TCC_PUSH_A
+"なにも。。。かも。。。" TCC_NEWLINE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4134] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
+"あとは、角笛を吹くだけ。" TCC_NEWLINE
+"それで、夢はおしまい。。。" TCC_NEWLINE TCC_PUSH_A
+"私のことなら気にしないで。" TCC_NEWLINE
+"ほら見て、私はこうして生きてるもの。" TCC_NEWLINE
+"ぴんぴんしてるでしょ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ごめんなさい。" TCC_NEWLINE
+"本当はね" TCC_NEWLINE
+"もうすぐ、終わりが来るわ。。。" TCC_NEWLINE TCC_PUSH_A
+"フレイヤ様は" TCC_NEWLINE
+"私の命を消して。。。" TCC_NEWLINE
+"なかったことにしてしまうから。。。" TCC_NEWLINE TCC_PUSH_A
+"それはもう。。。" TCC_NEWLINE
+"誰にも止めることは" TCC_NEWLINE
+"できないから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"でもね。。。それでもいいの。" TCC_NEWLINE TCC_PUSH_A
+"夢はいつか覚める。。。" TCC_NEWLINE
+"子供は大人になる。。。" TCC_NEWLINE
+"それでいいの。" TCC_NEWLINE TCC_PUSH_A
+"幸せな夢を見た子は、" TCC_NEWLINE
+"起きた時、少しだけ" TCC_NEWLINE
+"幸せな気持ちになれる。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、" TCC_NEWLINE
+"夢は消えても、無駄じゃない。" TCC_NEWLINE
+"なかったことにはならない。" TCC_NEWLINE TCC_PUSH_A
+"あなたの目覚めを。。。" TCC_NEWLINE
+"きっと大切な人が" TCC_NEWLINE
+"待っててくれる。" TCC_NEWLINE TCC_PUSH_A
+"だから、吹いて。" TCC_NEWLINE
+"角笛を。" TCC_NEWLINE TCC_PUSH_A
+"今までありがとう、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

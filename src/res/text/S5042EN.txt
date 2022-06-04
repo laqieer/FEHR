@@ -1,0 +1,53 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5042_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｏｎｅ　ｏｆ　ｔｈｅ　Ｆｏｕｒ　Ｈｅａｖｅｎｌｙ"TCC_NEWLINE"　Ｋｎｉｇｈｔｓ　ｏｆ　Ｓｉｌｅｓｓｅ．　Ｉ　ｗｉｌｌ　ｆー"TCC_NEWLINE"ｉｇｈｔ　ｈｏｎｏｒａｂｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5042_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｇｏｏｄ　ｗｏｒｋ．　Ｉｎ　ｔｈｅ　ｍｅａｎｔｉｍｅ，　Ｉ"TCC_NEWLINE"　ｈａｖｅ　ｆｉｎｉｓｈｅｄ　ｍｙ　ｒｅｓｅａｒｃｈ．　Ａー"TCC_NEWLINE"ｓ　ｙｏｕ　ｋｎｏｗ，　Ｆｆｎｉｒ’ｓ　ｉｓ　ｎｏ　ｏｒｄー"TCC_NEWLINE"ｉｎａｒｙ　ｓｔｒｅｎｇｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｏｕｒｃｅ　ｏｆ　ｔｈａｔ　ｓｔｒｅｎｇｔｈ　ｉー"TCC_NEWLINE"ｓ　ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅｒｇａｒ　ｈｅ"TCC_NEWLINE"　ｂｅａｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈａｔ　ｉｓ　ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅｒー"TCC_NEWLINE"ｇａｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａ　ｃｒｏｗｎ　ｐａｓｓｅｄ　ｄｏｗｎ　ｂｙ　ｔｈｅ　ｒｏー"TCC_NEWLINE"ｙａｌ　ｆａｍｉｌｙ　ｏｆ　Ｎｉａｖｅｌｌｉｒ．　Ｉｔ　ｇー"TCC_NEWLINE"ｒａｎｔｓ　ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｔｏ　ｐｒｏｔｅｃｔ"TCC_NEWLINE"　ｔｈｅ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｅｖｅｎ　ｉｎ　ｌｉｇｈｔ　ｏｆ　ｉｔｓ　ｌｏｎｇ"TCC_NEWLINE"　ｈｉｓｔｏｒｙ，　ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｉｔ　ｈａｓ"TCC_NEWLINE"　ｇｒａｎｔｅｄ　Ｆｆｎｉｒ　ｉｓ　ｕｎｐｒｅｃｅｄｅｎｔー"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ，　ｔｈｅｒｅ　ｉｓ　ａ　ｔｒｅａｓｕｒｅ　"TCC_NEWLINE"ｏｆ　ｓｉｍｉｌａｒ　ｍｉｇｈｔ　ｋｅｐｔ　ｂｙ　ｔｈｅ　"TCC_NEWLINE"ｒｏｙａｌ　ｆａｍｉｌｙ：　ｔｈｅ　ｓｗｏｒｄ　Ｇｒａｍｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｉｔ，　ｉｔ　ｍｉｇｈｔ　ｂｅ　ｐｏｓｓｉｂｌｅ"TCC_NEWLINE"　ｔｏ　ｍａｔｃｈ　Ｆｆｎｉｒ’ｓ　ｐｏｗｅｒ．　Ｂｕｔ，"TCC_NEWLINE"　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｂｕｔ．．．ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｒａｍｒ　ｉｓ　ａ　ｐｏｗｅｒｆｕｌ　ｂｌａｄｅ．　Ｂｕー"TCC_NEWLINE"ｔ　ｉｔ　ｉｓ　ｓａｉｄ　ｔｈａｔ　ｉｔｓ　ｔｒｕｅ　ｓｔー"TCC_NEWLINE"ｒｅｎｇｔｈ　ｃａｎ　ｏｎｌｙ　ｂｅ　ｄｒａｗｎ　ｏｕｔ　"TCC_NEWLINE"ｂｙ　ｏｎｅ　ｏｆ　ｒｏｙａｌ　ｂｌｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｔｈｅ　ｃｏｕｐ　ｄ’ｔａｔ，　ｔｈｅ　ｒｏｙａー"TCC_NEWLINE"ｌ　ｌｉｎｅ　ｗａｓ　ｅｎｄｅｄ．　Ｅｖｅｎ　ｓｏ，　ｉｔ"TCC_NEWLINE"　ｍａｙ　ｓｔｉｌｌ　ｂｅ　ｏｕｒ　ｂｅｓｔ　ｇａｍｂｌｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｈａｎｋ　ｙｏｕ，　Ｅｉｔｒｉ．　Ｉｆ　ｔｈａｔ’ｓ　ｔー"TCC_NEWLINE"ｈｅ　ｃａｓｅ，　ｔｈｅｎ　ｌｅｔ’ｓ　ｇｏ　ｇｅｔ　ｔｈー"TCC_NEWLINE"ｉｓ　ｍａｇｉｃａｌ　ｓｗｏｒｄ！　Ｗｅ’ｌｌ　ｄｅｆｉｎー"TCC_NEWLINE"ｉｔｅｌｙ　ｎｅｅｄ　Ｇｒａｍｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｅｒ．．．　Ｗｏｕｌｄｎ’ｔ　ａ　ｔｒｅａｓｕｒｅ　ｏｆ　"TCC_NEWLINE"Ｎｉａｖｅｌｌｉｒ　ｂｅ　ｉｎ　ｔｈｅ　ｒｏｙａｌ　ｐａｌー"TCC_NEWLINE"ａｃｅ　ｏｆ　Ｎｉａｖｅｌｌｉｒ？　Ｔｈａｔ　ｉｓ，　ｗｏー"TCC_NEWLINE"ｎ’ｔ　Ｆｆｎｉｒ　ｂｅ　ｇｕａｒｄｉｎｇ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｎｏ．　Ｇｒａｍｒ　ｉｓｎ’ｔ　ｋｅｐｔ　ａｔ　ｔｈｅ　ｃー"TCC_NEWLINE"ａｓｔｌｅ．　Ｉｔ　ｗａｓ　ｇｉｖｅｎ　ｔｏ　ｏｕｒ　ｎｅー"TCC_NEWLINE"ｉｇｈｂｏｒｉｎｇ　ｃｏｕｎｔｒｙ，　Ｊｔｕｎｈｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？！　Ｓｕｃｈ　ａｎ　ｉｍｐｏｒｔａｎｔ　ｓｗｏｒー"TCC_NEWLINE"ｄ　ｗａｓ　ｈａｎｄｅｄ　ｏｖｅｒ　ｔｏ　ａｎｏｔｈｅｒ　"TCC_NEWLINE"ｃｏｕｎｔｒｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈｅ　Ｎｉａｖｅｌｌｉｒ　ａｒｍｙ　ｕｓｅｓ　ｓｅｉｊｒー"TCC_NEWLINE"ｎ　ｗｅａｐｏｎｓ，　ｓｏ　ｗｅ　ｈａｖｅ　ｎｏ　ｕｓｅ　"TCC_NEWLINE"ｆｏｒ　ｔｈｉｎｇｓ　ｌｉｋｅ　ｓｗｏｒｄｓ　ａｎｙｍｏｒー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅａｒｓ　ａｇｏ，　ｏｕｒ　ｒｅｌａｔｉｏｎｓｈｉｐ　ｗー"TCC_NEWLINE"ｉｔｈ　Ｊｔｕｎｈｅｉｍｒ　ｈａｄ　ｄｅｖｏｌｖｅｄ　ｔｏ"TCC_NEWLINE"　ｓｕｃｈ　ａ　ｄｅｇｒｅｅ　ｉｔ　ａｌｍｏｓｔ　ｌｅｄ　"TCC_NEWLINE"ｔｏ　ｗａｒ．"TCC_NEWLINE TCC_PUSH_A
+"ｔｒ　ｈａｄ　ｔｈｅ　ｉｄｅａ　ｔｏ　ｏｆｆｅｒ　ｔｈｅｍ"TCC_NEWLINE"　ａ　ｔｒｅａｓｕｒｅ　ｉｎ　ｔｈｅ　ｎａｍｅ　ｏｆ　ｐｅー"TCC_NEWLINE"ａｃｅ，　ａｎｄ　Ｇｒａｍｒ　ｗａｓ　ｔｈｅ　ｐｅｒｆｅｃー"TCC_NEWLINE"ｔ　ｃｈｏｉｃｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｓｅｅ．．．　Ｓｕｃｈ　ａ　ｃｏｕｒｓｅ　ａｌｍｏｓｔ"TCC_NEWLINE"　ｓｅｅｍｓ　ｕｎｔｈｉｎｋａｂｌｅ　ｎｏｗ，　ａｎｄ　ｆー"TCC_NEWLINE"ｒｏｍ　ｔｒ　ｔｏｏ，　ｎｏ　ｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｇｏｏｄ　ｎｅｗｓ　ｆｏｒ　ｕｓ　ｔｈｏｕー"TCC_NEWLINE"ｇｈ．　Ｍｕｃｈ　ｂｅｔｔｅｒ　ｔｈａｎ　ｔｒｙｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｓｔｅａｌ　ｔｈｅ　ｓｗｏｒｄ　ｆｒｏｍ　Ｆｆｎｉｒ　"TCC_NEWLINE"ｈｉｍｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｉ　ｌｅａｖｅ　ｔｈｅ　ｎｅｇｏｔｉａｔｉｏｎｓ　ｗｉｔｈ"TCC_NEWLINE"　Ｊｔｕｎｈｅｉｍｒ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｄｏ　ｍａｎａｇｅ　ｔｏ　ｃｌａｉｍ　ｔｈｅ"TCC_NEWLINE"　ｂｌａｄｅ，　ｂｒｉｎｇ　ｉｔ　ｂａｃｋ　ｔｏ　ｍｅ，　"TCC_NEWLINE"ａｎｄ　Ｉ　ｗｉｌｌ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ　ｈー"TCC_NEWLINE"ｅｌｐ　ｙｏｕ　ｆｕｒｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｔｈａｔ　ｒｏｙａｌ　ｔｒｅａｓー"TCC_NEWLINE"ｕｒｅ　ｍａｙ　ｐｒｏｖｅ　ｕｓｅｆｕｌ　ｉｎ　ｍｙ　ｒｅー"TCC_NEWLINE"ｓｅａｒｃｈ　ｇｏｉｎｇ　ｆｏｒｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ　ｓｕｒｅ　ｉｓ　ｎｉｃｅ　ｔｏ　ｈａｖｅ　ｔｈｅ　ｆー"TCC_NEWLINE"ｏｒｅｍｏｓｔ　ｅｘｐｅｒｔ　ｉｎ　ｓｅｉｊｒｎ　ｏｎ　ｏー"TCC_NEWLINE"ｕｒ　ｓｉｄｅ！　Ｙｏｕ　ｃａｎ　ｃｏｕｎｔ　ｏｎ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｌｌ　ｒｉｇｈｔ，　ｌｅｔ’ｓ　ｍａｋｅ　ｈａｓｔｅ　ｔー"TCC_NEWLINE"ｏ　Ｊｔｕｎｈｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｅｓ！　Ｗｅ’ｌｌ　ｂｅ　ｂａｃｋ　ｗｉｔｈ　Ｇｒａｍｒ"TCC_NEWLINE"　ｉｎ　ｎｏ　ｔｉｍｅ，　Ｅｉｔｒｉ！　Ｊｕｓｔ　ｗａｔｃー"TCC_NEWLINE"ｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｏｆｆ　ｔｏ　Ｊｔｕｎｈｅｉｍｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｒｅｇｉｎｎ，　ｗａｉｔ．　Ｔｈｅｒｅ　ｉｓ　ｓｏｍー"TCC_NEWLINE"ｅｔｈｉｎｇ　Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ａｓｋ　ｙｏー"TCC_NEWLINE"ｕ　ｂｅｆｏｒｅ　ｙｏｕ　ｌｅａｖｅ．．．　Ｈａｖｅ　ｗｅ"TCC_NEWLINE"　ｎｏｔ　ｍｅｔ　ｂｅｆｏｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ’ｖｅ　ｓｅｅｎ　ｙｏｕ　ａｒｏｕｎｄ　ｔｈｅ　ｃａｓｔー"TCC_NEWLINE"ｌｅ！　Ｂｕｔ　ｔｈｉｓ　ｉｓ　ｔｈｅ　ｆｉｒｓｔ　ｔｉｍー"TCC_NEWLINE"ｅ　Ｉ’ｖｅ　ｓｐｏｋｅｎ　ｔｏ　ｙｏｕ　ｄｉｒｅｃｔｌｙ"TCC_NEWLINE"　ｔｈａｔ　Ｉ　ｒｅｃａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｓｅｅ．．．　Ｓｏｒｒｙ　ｔｏ　ａｓｋ　ｓｕｃｈ　ａ　"TCC_NEWLINE"ｓｔｒａｎｇｅ　ｑｕｅｓｔｉｏｎ　ａｓ　ｙｏｕ’ｒｅ　ａｂー"TCC_NEWLINE"ｏｕｔ　ｔｏ　ｌｅａｖｅ．　Ｙｏｕ’ｒｅ　ｆｒｅｅ　ｔｏ　"TCC_NEWLINE"ｇｏ．　Ｂｕｔ　ｂｅ　ｃａｒｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

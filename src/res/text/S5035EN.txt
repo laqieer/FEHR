@@ -1,0 +1,92 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｗｅ’ｒｅ　ｃｌｏｓｅ！　Ｅｉｔｒｉ’ｓ　ｇｒｏｖｅ　ｓｈー"TCC_NEWLINE"ｏｕｌｄ　ｂｅ　ｊｕｓｔ　ａｈｅａｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈａｔ’ｓ　ｔｈｅ　ｓａｇｅ　ｌｉｋｅ，　Ｉ　ｗｏｎｄｅー"TCC_NEWLINE"ｒ．．．　Ｆｒｏｍ　ｔｈｅ　ｓｏｕｎｄ　ｏｆ　ｉｔ，　Ｉ’"TCC_NEWLINE"ｍ　ｂｅｔｔｉｎｇ　ｈｅ　ｈａｓ　ａ　ｌｏｎｇ，　ｌｏｎｇ"TCC_NEWLINE"　ｂｅａｒｄ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ’ｍ　ｅｘｃｉｔｅｄ　ｔｏ　ｍｅｅｔ　ｈｉｍ！　Ｗー"TCC_NEWLINE"ｈａｔ　ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｈｅ’ｌｌ　ｂｅ　ｌｉｋー"TCC_NEWLINE"ｅ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｍ？　Ｗｈａｔ　ａｒｅ　ｙｏｕ　Ａｈ！　Ｌｏｏｋ　ｏｕｔ"TCC_NEWLINE"，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｑｕｉｔｅ　ｔｈｅ　ｄｏｄｇｅ　ｙｏｕ　ｍａｎａｇｅｄ　ｔー"TCC_NEWLINE"ｈｅｒｅ．　Ｉ　ｓｅｅ　ｎｏｗ　ｈｏｗ　ｙｏｕ’ｖｅ　ｂｅー"TCC_NEWLINE"ｅｎ　ａｂｌｅ　ｔｏ　ｅｌｕｄｅ　ｔｒ　ｔｈｕｓ　ｆａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈｏ　ａｒｅ　ｙｏｕ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｆｆｎｉｒ，　ｋｉｎｇ　ｏｆ　ｔｈｉｓ　ｒｅａｌｍ，　Ｎｉー"TCC_NEWLINE"ａｖｅｌｌｉｒ．　Ｉ’ｖｅ　ｃｏｍｅ　ｔｏ　ｇｒｅｅｔ　ｔー"TCC_NEWLINE"ｈｏｓｅ　ｗｈｏ　ｂｅｓｔｅｄ　ｍｙ　ｂｒｏｔｈｅｒ　ａｎー"TCC_NEWLINE"ｄ　ｓｅｄｕｃｅｄ　ｍｙ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ａｐｐｅａｒｓ　ｙｏｕ’ｒｅ　ｓｔｒｏｎｇｅｒ　ｔｈー"TCC_NEWLINE"ａｎ　ｅｘｐｅｃｔｅｄ．　Ｍａｙｂｅ　ｙｏｕ’ｌｌ　ｂｅ　"TCC_NEWLINE"ａｂｌｅ　ｔｏ　ｏｆｆｅｒ　ｍｅ　ｓｏｍｅ　ｅｎｔｅｒｔａー"TCC_NEWLINE"ｉｎｍｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｅｎｔｅｒｔａｉｎｍｅｎｔ，　ｈｍ？　Ｙｏｕ　ｋｎｏｗ　Ｒー"TCC_NEWLINE"ｅｇｉｎｎ　ｉｓ　ｉｎ　ｏｕｒ　ｃｏｍｐａｎｙ，　ｄｏｎ’"TCC_NEWLINE"ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｂｒｏｔｈｅｒ，　Ｉ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｓａｖｅ　ｙｏｕｒ　ｂｒｅａｔｈ，　Ｒｅｇｉｎｎ．　ｔｒ　"TCC_NEWLINE"ｔｏｌｄ　ｍｅ　ｅｖｅｒｙｔｈｉｎｇ．　Ｔｈｉｎｋ　ｙｏｕ"TCC_NEWLINE"　ｃａｎ　ｊｕｓｔ　ｊｏｉｎ　ｕｐ　ｗｉｔｈ　Ａｓｋｒ，　"TCC_NEWLINE"ｄｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｒｏｔｈｅｒ，　ｔｈｅ　ｆｉｇｈｔｉｎｇ　ｈａｓ　ｔｏ　"TCC_NEWLINE"ｓｔｏｐ！　Ｉｔ　ｏｎｌｙ　ｂｒｉｎｇｓ　ｓｕｆｆｅｒｉｎー"TCC_NEWLINE"ｇ！　Ｉ．．．Ｉ　ｗａｎｔ　ｍｙ　ｇｅｎｔｌｅ　ｂｒｏｔｈー"TCC_NEWLINE"ｅｒ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｈｍｐｈ．　Ｔｈｅ　ｓｔｒｏｎｇ　ｒｕｌｅ　ｔｈｅ　ｗｅａー"TCC_NEWLINE"ｋ．　Ｔｈａｔ　ｉｓ　ｔｈｅ　ｎａｔｕｒａｌ　ｏｒｄｅｒ，"TCC_NEWLINE"　ｉｓ　ｉｔ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｃｉｖｉｌｉｚｅｄ　ｌｏｕｔｓ　ｓｈｏｕｌｄ　ｋｎｅｅー"TCC_NEWLINE"ｌ　ａｎｄ　ｓｕｂｍｉｔ　ｔｏ　ｍｅ．　Ｗｈａｔ　ｃｏｕｌー"TCC_NEWLINE"ｄ　ｍａｋｅ　ｏｎｅ　ｈａｐｐｉｅｒ　ｔｈａｎ　ｋｎｏｗｉー"TCC_NEWLINE"ｎｇ　ｔｈｅｉｒ　ｐｌａｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｍｉｔ　ｍｅ　ｔｏ　ｄｅｍｏｎｓｔｒａｔｅ　ｅｘａｃー"TCC_NEWLINE"ｔｌｙ　ｗｈｅｒｅ　ｙｏｕｒ　ｐｌａｃｅ　ｉｓ！　ＡＨＡＨー"TCC_NEWLINE"ＡＨＡ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｏｕｔ？！　Ｈｏｗ　ｒｕｄｅ！　Ｉ’ｄ　ｎｅｖｅｒ　ｋｎー"TCC_NEWLINE"ｅｅｌ　ｂｅｆｏｒｅ　ｓｏｍｅｏｎｅ　ｗｈｏ　ｔｒｅａｔｅー"TCC_NEWLINE"ｄ　ｏｔｈｅｒｓ　ｗｉｔｈ　ｓｕｃｈ　ｄｉｓｒｅｓｐｅｃｔ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｙｏｕ’ｒｅ　ｗｒｏｎｇ．　Ｉ　ｃａｎ’ｔ　ａｃｃｅｐｔ　"TCC_NEWLINE"ｔｈａｔ！　Ａｎｄ　ｉｔ’ｓ　ｎｏｔ　ｏｎｌｙ　ｏｔｈｅｒ"TCC_NEWLINE"　ｋｉｎｇｄｏｍｓ　ｔｈａｔ　ｓｕｆｆｅｒ　ｆｒｏｍ　ｏｕー"TCC_NEWLINE"ｒ　ｃａｍｐａｉｇｎｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｏｎｓｔａｎｔ　ｗａｒ　ｈｕｒｔｓ　ｔｈｅ　ｐｅー"TCC_NEWLINE"ｏｐｌｅ　ｏｆ　Ｎｉａｖｅｌｌｉｒ　ｔｏｏ！　Ｃａｎ’ｔ　"TCC_NEWLINE"ｙｏｕ　ｓｅｅ　ｔｈａｔ，　Ｂｒｏｔｈｅｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｗｈｏ　ｂｒｏｕｇｈｔ　ｐｅａｃｅ　ｔｏ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ，　ｅｎｄｉｎｇ　ｔｈｅ　ｌｏｎｇ，　ｂｌｏｏｄｙ　ｓｔー"TCC_NEWLINE"ｒｕｇｇｌｅ？　Ａｓ　Ｉ　ｒｅｃａｌｌ，　ｉｔ　ｗａｓ　ｍー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ　Ｉ　ｂｒｉｎｇ　ｐｅａｃｅ　ｔｏ　ｅｖｅｒー"TCC_NEWLINE"ｙｏｎｅ　ｅｖｅｒｙｗｈｅｒｅ．　Ｔｈｅ　ｐｅｏｐｌｅ　ｓー"TCC_NEWLINE"ｈｏｕｌｄ　ｂｅ　ｒｅｊｏｉｃｉｎｇ，　ａｎｄ　ｙｏｕ　ａー"TCC_NEWLINE"ｌｏｎｇ　ｗｉｔｈ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｋｉｎｇ　Ｆｆｎｉｒ！　Ａ　ｋｉｎｇｄｏｍ　ｄｏｅｓ　ｎｏー"TCC_NEWLINE"ｔ　ｅｘｉｓｔ　ｗｉｔｈｏｕｔ　ｉｔｓ　ｐｅｏｐｌｅ，　ａー"TCC_NEWLINE"ｎｄ　ｎｅｉｔｈｅｒ　ａｒｅ　ｙｏｕｒ　ｐｒｏｐｅｒｔｙ，"TCC_NEWLINE"　ｅｖｅｎ　ａｓ　ｋｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｔｈｅｒ　ｙｏｕ　ａｒｅ　ｂｌｉｎｄ　ｔｏ　ｔｈａｔ"TCC_NEWLINE"　ｆａｃｔ　ｏｒ　ｒｅｆｕｓｅ　ｔｏ　ａｃｋｎｏｗｌｅｄｇー"TCC_NEWLINE"ｅ　ｉｔ，　ｙｏｕ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ　ｔｏ　ｌｅー"TCC_NEWLINE"ａｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅｈ．．．ｈａ．．．ＡＨＡＨＡＨＡ！　Ｙｏｕ　ｔｈｉｎｋ"TCC_NEWLINE"　ｔｈｅ　ｌｅｃｔｕｒｅｓ　ｏｆ　ａ　ｓｅｌｆ－ｒｉｇｈｔー"TCC_NEWLINE"ｅｏｕｓ　ｌｉｔｔｌｅ　ｐｒｉｇ　ｗｏｕｌｄ　ｃｈａｎｇｅ"TCC_NEWLINE"　ｍｙ　ｍｉｎｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｐａｒｅｎｔａｇｅ　ｉｓ　ｗｈａｔ　ｗｏｎ　ｙｏー"TCC_NEWLINE"ｕ　ｙｏｕｒ　ｃｒｏｗｎ，　ｓｗｅｅｔ　ｐｒｉｎｃｅ．　Ｗー"TCC_NEWLINE"ｈａｔ　ｃｏｕｌｄ　ｙｏｕ　ｐｏｓｓｉｂｌｙ　ｋｎｏｗ　ｏー"TCC_NEWLINE"ｆ　ｔｈｅ　ｒｉｇｈｔ　ｔｏ　ｒｕｌｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｒｕｌｅ　ｉｓ　ｔｏ　ｄｏ　ｖｉｏｌｅｎｃｅ．　Ａｎー"TCC_NEWLINE"ｄ　ａｓ　ｙｏｕｒ　ｒｕｌｅｒ，　Ｉ　ｗｉｌｌ　ｅｘｅｒｃー"TCC_NEWLINE"ｉｓｅ　ｍｙ　ｒｉｇｈｔ　ｔｏ　ｔａｋｅ　ｙｏｕｒ　ｌｉｆー"TCC_NEWLINE"ｅ　ｈｅｒｅ　ａｎｄ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｇｙａａａａａｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ．．．　Ｔｈｅｒｅ’ｓ　ｎｏ　ｗａｙ．．．　Ｈ－ｈｅ　"TCC_NEWLINE"ｃａｎ’ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｅ’ｓ　ａ　ｍｏｎｓｔｅｒ！　Ｈｅ’ｓ　ｔｏｏ　ｓｔｒｏー"TCC_NEWLINE"ｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"ＡＨＡＨＡＨＡ！　Ｗａｓ　ｔｈａｔ　ａｌｌ？　Ａｎｄ　ａｆー"TCC_NEWLINE"ｔｅｒ　Ｉ　ｃａｍｅ　ａｌｌ　ｔｈｉｓ　ｗａｙ．．．　Ｓｈー"TCC_NEWLINE"ａｍｅｆｕｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｇｉｎｎ，　ｄｉｄ　ｙｏｕ　ｒｅａｌｌｙ　ｔｈｒｏｗ　"TCC_NEWLINE"ｉｎ　ｗｉｔｈ　ｔｈｉｓ　ｓｏｒｒｙ　ｌｏｔ　ｉｎ　ｈｏｐー"TCC_NEWLINE"ｅｓ　ｏｆ　ｓｔｏｐｐｉｎｇ　ｍｅ？　Ｓａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｆｆ．．．ｎｉｒ．．．　Ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　ｗｈｏ’ｓ　ｔｈｉｓ　ｎｏｗ？　Ｉ　ｓｕｐｐｏｓｅ"TCC_NEWLINE"　ｙｏｕ　ｍｕｓｔ　ｂｅ　ｏｕｒ　ｓｗｅｅｔ　ｐｒｉｎｃｅ"TCC_NEWLINE"’ｓ　ｓｉｓｔｅｒ？　Ｗｈａｔ　ｐｒｅｔｔｙ　ｅｙｅｓ　ｙー"TCC_NEWLINE"ｏｕ　ｈａｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｄｏ　ｙｏｕ　ｉｍａｇｉｎｅ　ｙｏｕｒ　ｂｒｏｔｈー"TCC_NEWLINE"ｅｒ　ｗｏｕｌｄ　ｒｅａｃｔ　ｉｆ　Ｉ　ｐｌｕｃｋｅｄ　ｔー"TCC_NEWLINE"ｈｅｍ　ｏｕｔ　ａｎｄ　ｆｅｄ　ｔｈｅｍ　ｔｏ　ｈｉｍ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｎｙａａａｈｈ！　Ｄ－ｄｏｎ’ｔ　ｔｏｕｃｈ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｏｔｈ．．．ｅｒ！　Ｓｔｏｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｎｏｕｇｈ　ｗｉｔｈ　ｔｈｅ　Ａｈｈｈ！　Ｙｏｕ　ｍｕｓー"TCC_NEWLINE"ｔ　ｂｅ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　Ｉ’ｖｅ　ｈｅａｒｄ　"TCC_NEWLINE"ｓｏ　ｍｕｃｈ　ａｂｏｕｔ．．．ａｒｅｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｓａｙ　ｙｏｕ’ｒｅ　ｔｈｅ　ｓａｖｉｏｒ　ｏｆ"TCC_NEWLINE"　Ａｓｋｒ．　Ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　Ｉ’ｖｅ"TCC_NEWLINE"　ａｌｗａｙｓ　ｗｏｎｄｅｒｅｄ．　Ｍａｙｂｅ　ｙｏｕ　ｃー"TCC_NEWLINE"ａｎ　ａｎｓｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｄｏｅｓ　ａ　ｓａｖｉｏｒ’ｓ　ｈｅａｒｔ　ｌｏー"TCC_NEWLINE"ｏｋ　ｌｉｋｅ　ｗｈｅｎ　ｉｔ’ｓ　ｂｅｅｎ　ｆｒｅｅｄ　"TCC_NEWLINE"ｆｒｏｍ　ｔｈｅ　ｃｈｅｓｔ？　Ａｎｙ　ｄｉｆｆｅｒｅｎｔ"TCC_NEWLINE"，　ｙｏｕ　ｔｈｉｎｋ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｆｉｎｄ　ｏｕｔ　ｔｏｇｅｔｈｅｒ，　ｓｈａｌー"TCC_NEWLINE"ｌ　ｗｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｔｏｐ！　Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ｙｏｕ　ｌａｙ　ａ　ｆー"TCC_NEWLINE"ｉｎｇｅｒ　ｏｎ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｏ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｅｖｅｒｙｏｎｅ　ｔｏ　ｍｙ　ｇｒｏｖｅ　ａｎｄ　ｉｎｔｏ"TCC_NEWLINE"　ｔｈｅ　ｓｈｒｉｎｅｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｉｔｒｉ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗａｉｔｔｈａｔ　ＧＩＲＬ　ｉｓ　ｔｈｅ　ｓａｇｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈｉｓ　ｗａｙ！　Ｑｕｉｃｋ，　ｗｈｉｌｅ　ｗｅ　ｓｔｉー"TCC_NEWLINE"ｌｌ　ｃａｎ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｅｉｔｒｉ！　Ｙｏｕ　ｄａｒｅ　ｏｐｐｏｓｅ　ｍｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｆｆｎｉｒ，　ｙｏｕ　ａｒｅ　ａｎ　ａｂｏｍｉｎａｔｉｏｎ"TCC_NEWLINE"．　Ｉ　ｃａｎ　ｓｔａｎｄ　ｂｙ　ｎｏ　ｌｏｎｇｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｔｃｈ．　Ｇｏｎｅ．．．　Ｉｍｐｕｄｅｎｔ　ｂｒａｔ．　Ｎー"TCC_NEWLINE"ｏｔｈｉｎｇ　ｔｏ　ｄｏ　ｂｕｔ　ｗｉｔｈｄｒａｗ　ｆｏｒ"TCC_NEWLINE"　ｔｈｅ　ｍｏｍｅｎｔ，　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｈｅｒ　ｈｅｌｐｉｎｇ　ｔｈｅ　Ａｓｋｒ　ｗｈｅー"TCC_NEWLINE"ｌｐｓ，　ｃｒｕｓｈｉｎｇ　ｔｈｅｍ　ａｌｌ　ｍｉｇｈｔ　"TCC_NEWLINE"ｂｅ　ｗｏｒｔｈ　ｔｈｅ　ｗａｉｔ．　ＡＨＡＨＡＨＡ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,84 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"ＧＷＡＡＡＡＡＲＲＲＲＧＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ，　Ｐｒｉｎｃｅｓｓ　Ｒー"TCC_NEWLINE"ｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｉ　ｋｎｏｗ　ｗｈａｔ　Ｉ　ｎｅｅｄ　ｔｏ　ｄｏ"TCC_NEWLINE"．　Ｉ　ｗｏｎ’ｔ　ｈｉｄｅ　ｆｒｏｍ　ｉｔ　ａｎｙｍｏｒー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｄｏｎ’ｔ　ｓｔｏｐ　ｈｉｍ，　ｏｔｈｅｒ　ｐｅー"TCC_NEWLINE"ｏｐｌｅ　ｗｉｌｌ　ｌｏｓｅ　ｔｈｅｉｒ　ｌｉｖｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｅｎｏｕｇｈ　ｂｌｏｏｄ　ｏｎ　ｍｙ　ｈａｎー"TCC_NEWLINE"ｄｓ．．．　Ｉ　ｍａｙ　ｎｏｔ　ｂｅ　ａｂｌｅ　ｔｏ　ｕｎー"TCC_NEWLINE"ｄｏ　ａｌｌ　ｍｙ　ｂｒｏｔｈｅｒｓ　ｈａｖｅ　ｄｏｎｅ，"TCC_NEWLINE"　ｂｕｔ　Ｉ　ｈａｖｅ　ｔｏ　ｔｒｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"ＮＧＹＡＡＡＨＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"ＦＦＮＩＲ！　Ｙｏｕｒ　ｒｅｉｇｎ　ｏｆ　ｃｈａｏｓ　ｅｎー"TCC_NEWLINE"ｄｓ　ｈｅｒｅ　ａｎｄ　ｎｏｗ．　Ｉ　ｗｉｌｌ　ｓｔｏｐ　"TCC_NEWLINE"ｙｏｕ　ｍｙｓｅｌｆ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｇｗａｈｈｈ．．．　Ｒｒｒｒ．．．　Ｕｎｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｆｆｎｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　Ｎｉａｖｅｌｌｉｒ’ｓ　ｔｒｕｅ　ｐｒｉｎｃｅｓｓ，"TCC_NEWLINE"　Ｉ　ｃａｎｎｏｔ　ｔｏｌｅｒａｔｅ　ｙｏｕｒ　ｔｒｅａｔー"TCC_NEWLINE"ｍｅｎｔ　ｏｆ　ｍｙ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｔｈｉｓ　ｓｗｏｒｄ，　Ｇｒａｍｒ，　Ｉ　ｗｉｌー"TCC_NEWLINE"ｌ　ｅｎｄ　ｙｏｕ　ｎｏｗ．．．　Ｈｅｒｅ　Ｉ　ｃｏｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"ＧＷＡ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．Ｉ　ａｍ．．．　Ｍ－ｍｙ　ｎａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"＊ｓｎｉｆｆ＊"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｒｅｇｉｎｎ，　Ｉ　ｋｎｏｗ　Ｉ　ａｓｋｅｄ　ｙｏｕ　ｔｏ"TCC_NEWLINE"　ｓｔｏｐ　ｈｉｍ，　ｂｕｔ　Ｉ　ｄｉｄｎ’ｔ　ｓａｙ　ｙー"TCC_NEWLINE"ｏｕ　ｈａｄ　ｔｏ　ｆｅｅｌ　ｇｏｏｄ　ａｂｏｕｔ　ｉｔ．"TCC_NEWLINE"　Ｉｔ’ｓ　ＯＫ　ｔｏ　ｃｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｄａｇｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｇｏ　ｔｏ　ｈｉｍ．　Ｈｕｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｒｏｔｈｅｒ！　Ｆｆｎｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｎｉｆｆ＊　Ｆｉｎａｌｌｙ　Ｉ　ｃａｎ　ｈｕｇ　ｙｏｕ"TCC_NEWLINE"　ａｇａｉｎ，　ｌｉｋｅ　ｗｅ　ｕｓｅｄ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"．．．Ｆ．．．ｆｎｉｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎ－ｎｏ．．．　Ｍｙ　ｎａｍｅ．．．　Ｙｅｓ．．．　Ｍｙ　"TCC_NEWLINE"ｎａｍｅ　ｗａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｅｌｌ　ｍｅ，　Ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｆｆｎｉｒ．．．　Ｄｉｄ　ｙｏｕ　ｒｅｇａｉｎ　ｙｏｕｒ　"TCC_NEWLINE"ｍｅｍｏｒｉｅｓ　ｏｆ　ｔｈｅ　ｗｏｒｌｄ　ｙｏｕ　ｃａｍー"TCC_NEWLINE"ｅ　ｆｒｏｍ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ．．．　Ｉ　ｒｅｍｅｍｂｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｍｅｍｂｅｒ　ａｌｌ　ｏｆ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ａ　ｓｏｌｄｉｅｒ．．．ａ　ｍｅｍｂｅｒ　ｏｆ"TCC_NEWLINE"　ｔｈｅ　ｍｉｌｉｔａｒｙ　ｆｏｒｃｅ　ｏｆ　ａ　ｓｍａｌー"TCC_NEWLINE"ｌ　ｃｏｕｎｔｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｏｕｇｈｔ　ｅｖｅｒｙ　ｄａｙ　ａｎｄ　ｒｏｓｅ　ｕー"TCC_NEWLINE"ｐ　ｔｈｅ　ｒａｎｋｓ．．．ｔｏ　ｐｒｏｖｉｄｅ　ｆｏｒ　"TCC_NEWLINE"ｍｙ　ｆａｍｉｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｄ．．．ａ　ｗｉｆｅ．．．ａｎｄ　ａ　ｄａｕｇｈｔー"TCC_NEWLINE"ｅｒ．．．　Ｉ　ｊｕｓｔ　ｗａｎｔｅｄ　ｔｏ　ｇｉｖｅ　ｔー"TCC_NEWLINE"ｈｅｍ　ａ　ｇｏｏｄ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙ－ｙｏｕ　ｈａｄ　ａ　ｗｉｆｅ？！　Ａｎｄ　ａ　ｄａｕｇー"TCC_NEWLINE"ｈｔｅｒ？！　Ｉ　ｈａｄ　ｎｏ　ｉｄｅａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈｅｎ　Ｉ　ｗａｓ　ｓｕｍｍｏｎｅｄ　ｈｅｒｅ，　Ｉ　ｈー"TCC_NEWLINE"ａｄ　ｎｏ　ｉｄｅａ　ｗｈａｔ　ｈａｄ　ｈａｐｐｅｎｅｄ．"TCC_NEWLINE"．．　Ａｌｌ　Ｉ　ｃｏｕｌｄ　ｄｏ　ｗａｓ　ｆｉｇｈｔ　ｔー"TCC_NEWLINE"ｏ　ｓｕｒｖｉｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ．．．　Ａｎｄ　ｔｈｅｎ．．．　Ａｎｄ　ｔｈｅｎ　Ｉ　"TCC_NEWLINE"ｓａｗ　ｔｒ　ｈｏｌｄｉｎｇ　ｙｏｕ．．．　Ｌｉｋｅ　ｙｏー"TCC_NEWLINE"ｕ　ｗｅｒｅ　ｈｉｓ　ｄｅａｒ　ｌｉｔｔｌｅ　ｓｉｓｔｅｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｕｒｇｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂ－Ｂｒｏｔｈｅｒ！　Ｓｔａｙ　ｗｉｔｈ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｔｈｉｎｇ　ｗｉｌｌ　ｂｅ　ａｌｌ　ｒｉｇｈｔ　"TCC_NEWLINE"ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｓｅｎｄ　ｙｏｕ　ｂａｃｋ　ｔｏ　ｙｏｕｒ　"TCC_NEWLINE"ｗｏｒｌｄ　ａｇａｉｎ，　ｒｉｇｈｔ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｏｕ　ｃａｎ　ｓｅｅ．．．　Ｙｏｕ　ｃａｎ　ｓｅー"TCC_NEWLINE"ｅ　ｙｏｕｒ　ｒｅａｌ　ｆａｍｉｌｙ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．．．　Ｉ’ｍ　ｓｏｒｒｙ，"TCC_NEWLINE"　ｂｕｔ．．．　Ｉｔ’ｓ　ｔｏｏ　ｌａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｈ．．．　Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ｓｅｅ　ｉｔ．"TCC_NEWLINE"．．　ｏｎｅ　ｌａｓｔ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．Ｉ　ｋｎｏｗ，　ａｆｔｅｒ　ｗｈａｔ　Ｉ’ｖｅ"TCC_NEWLINE"　ｄｏｎｅ．．．　Ｉ　ｄｅｓｅｒｖｅ　ｎｏ　ｋｉｎｄｎｅｓー"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｇｉｎｎ．．．　ｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ．．．ａｌｓｏ．．．ｍｙ　ｒ－ｒｅａｌ　ｆー"TCC_NEWLINE"ａ．．．ｍｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｆ－Ｆｆｎｉｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｏｂ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｂｒｏｔｈｅｒ！　Ｍｙ　ｄｅａｒ，　ｄｅａｒ　ｂｒｏｔｈｅー"TCC_NEWLINE"ｒ．．．　Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ，　Ｆｆｎｉｒ！　Ｉ’ｍ"TCC_NEWLINE"　ｓｏ，　ｓｏ　ｓｏｒｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

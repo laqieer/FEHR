@@ -1,0 +1,108 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5061] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"えーっとえーっと。。。こっち！" TCC_NEWLINE
+"オッテルお兄ちゃんはこっちに行ったの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"レギン王女。。。本当に信じていいのかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"絶対大丈夫なの！" TCC_NEWLINE
+"このコンパスの光が指す方に進めば" TCC_NEWLINE
+"お兄ちゃんに会えるんだから！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"すごいですっ！" TCC_NEWLINE
+"それもニザヴェリルの魔道科学ですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"小さい頃、私が迷子にならないように" TCC_NEWLINE
+"ファフニールお兄ちゃんが" TCC_NEWLINE
+"作ってくれたの。" TCC_NEWLINE TCC_PUSH_A
+"さすがにもう迷子には" TCC_NEWLINE
+"たま～にしかならないけど" TCC_NEWLINE
+"お守りの代わりにいつも持ってるの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"たまにはなるのね。。。" TCC_NEWLINE
+"とにかく助かったわ。" TCC_NEWLINE TCC_PUSH_A
+"魔道科学って本当に便利ね。" TCC_NEWLINE
+"正しいことにだけ" TCC_NEWLINE
+"使ってくれればいいのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5061] = TCC_OPEN_LEFT 
+"パント先生、ルイーズ様。。。" TCC_NEWLINE
+"御恩はいつか必ずお返しします。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5061] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"あ！　ここ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"どうかしたのかい？　レギン王女。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うん。昔ね。この辺りの町に" TCC_NEWLINE
+"小さい家を借りて" TCC_NEWLINE
+"お兄ちゃんたちと住んでたの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"へぇー、そうなんですか。" TCC_NEWLINE
+"じゃあ里帰りですねっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの頃はファフニールお兄ちゃんも" TCC_NEWLINE
+"まだ、ただの一兵士で。。。" TCC_NEWLINE TCC_PUSH_A
+"でも絶対王様になってお前たちを" TCC_NEWLINE
+"お城に住ませてやるって" TCC_NEWLINE
+"いつも言ってたの。" TCC_NEWLINE TCC_PUSH_A
+""
+"それが本当になっちゃうなんて" TCC_NEWLINE
+"びっくりだったの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そういえば。。。ファフニールは" TCC_NEWLINE
+"素晴らしく武芸に秀でているけど" TCC_NEWLINE
+"どこか名家の出なのかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それが、覚えてないんだって。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"え？　どういうこと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私もよく分かんないの。" TCC_NEWLINE
+"気がついたら戦場にいたって言ってたの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうか。。。" TCC_NEWLINE
+"戦の途中で何か衝撃を受けて" TCC_NEWLINE
+"記憶を失ったのかな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"でも、王様になったんでしょ？" TCC_NEWLINE
+"顔が知れて、知り合いや家族が" TCC_NEWLINE
+"現れたりしなかったの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"オッテルお兄ちゃんもそう言ってたの。" TCC_NEWLINE
+"そしたら私たち捨てられちゃうって" TCC_NEWLINE
+"ふたりでわんわん泣いたの。" TCC_NEWLINE TCC_PUSH_A
+""
+"そしたらファフニールお兄ちゃん" TCC_NEWLINE
+"大笑いして。。。" TCC_NEWLINE TCC_PUSH_A
+"何があってもお前たちは俺の家族だ。" TCC_NEWLINE
+"ずっと一緒だって約束してくれたの。" TCC_NEWLINE TCC_PUSH_A
+""
+"結局、お兄ちゃんを知ってるって人は" TCC_NEWLINE
+"現れなかったんだけどね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。聞けば聞くほどあのファフニールと" TCC_NEWLINE
+"同じ人とは思えませんね。" TCC_NEWLINE
+"ファフニールって何者なんでしょう。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

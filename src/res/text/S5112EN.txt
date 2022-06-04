@@ -1,0 +1,63 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5112_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｙｏｕ’ｖｅ　ｃｏｍｅ　ｔｏ　ｋｉｌｌ　ｈｉｍ，　ａｄｍｉー"TCC_NEWLINE"ｔ　ｉｔ！　ＴＲＡＩＴＯＲ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　Ｂｒｏｔｈｅｒ，　ｄｏ　ａｓ　ｙｏｕ　ｐｌー"TCC_NEWLINE"ｅａｓｅ．　Ｙｏｕ　ａｒｅ　ｋｉｎｇ，　ａｆｔｅｒ　ａｌｌ"TCC_NEWLINE"．　Ｉ　ｗｉｌｌ　ｈａｎｄｌｅ　ｔｈｉｓ　ｒａｂｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｕｒｒｇｈ．．．　Ｕｕｗａｇｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｆｆｎｉｒ，　ｎｏ！　Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ，　ｔｒ？　Ｗｈｙ　ａｒｅｎ’ｔ　ｙｏｕ　ｔｒｙｉｎー"TCC_NEWLINE"ｇ　ｔｏ　ｓｔｏｐ　ｈｉｍ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｅｘｐｌａｉｎ　ｔｈｉｓ，　ｔｒ！　Ｗｈａｔ　ｈａｓ　ｂｅー"TCC_NEWLINE"ｃｏｍｅ　ｏｆ　Ｆｆｎｉｒ？　Ｗｈａｔ　ｄｉｄ　ｔｈｉｓ？"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｉｓ　ｏｎｅ　ｏｆ　ｔｈｅ　ｇｉｆｔｓ　ｏｆ　ｔー"TCC_NEWLINE"ｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅｒｇａｒ．　Ｉｔ　ｐー"TCC_NEWLINE"ｏｓｓｅｓｓｅｓ　ａｎｙ　ｗｈｏ　ｗｅａｒ　ｉｔａｎｙ　ｗー"TCC_NEWLINE"ｈｏ　ｉｔ　ｊｕｄｇｅｓ　ｕｎｗｏｒｔｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｒｏｗｎ　ｍａｋｅｓ　ａ　ｒｕｉｎ　ｏｆ　ｔｈｅー"TCC_NEWLINE"ｉｒ　ｍｉｎｄ　ａｎｄ　ｂｏｄｙ，　ｐｒｏｔｅｃｔｉｎｇ　"TCC_NEWLINE"ｔｈｅ　ｋｉｎｇｄｏｍ　ｆｒｏｍ　ｗｏｕｌｄ－ｂｅ　ｕｓｕー"TCC_NEWLINE"ｒｐｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｆａｃｔ　ｉｓ　ｗｈａｔ　ａｌｌｏｗｅｄ　ｔｈｅ"TCC_NEWLINE"　ｒｏｙａｌ　ｆａｍｉｌｙ　ｔｏ　ｒｕｌｅ　ｆｏｒ　ｇｅｎー"TCC_NEWLINE"ｅｒａｔｉｏｎ　ａｆｔｅｒ　ｇｅｎｅｒａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙ－ｙｏｕ　ｋｎｅｗ　ｔｈｉｓ　ｗｏｕｌｄ　ｈａｐｐｅｎ？"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｉｄｎ’ｔ　ｙｏｕ　ｓｔｏｐ　ｉｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｔｏｐ　ｉｔ？　．．．Ｗｈｙ　ｗｏｕｌｄ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈｏｕｔ　ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅｒー"TCC_NEWLINE"ｇａｒ，　ｍｙ　ｂｅｌｏｖｅｄ　ｂｒｏｔｈｅｒ　ｍｉｇｈｔ"TCC_NEWLINE"　ｈａｖｅ　ｒｅｇａｉｎｅｄ　ｃｏｎｔｒｏｌ　ｏｆ　ｈｉｓ"TCC_NEWLINE"　ｍｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅｎ．．．ｔｈｅｎ　ｈｅ　ｍｉｇｈｔ　ｒｅｍｅー"TCC_NEWLINE"ｍｂｅｒ　ｗｈｅｒｅ　ｈｅ　ｃａｍｅ　ｆｒｏｍ！　Ｈｅ’ｄ"TCC_NEWLINE"　ｓｅｅｋ　ｏｕｔ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｆｏｒ　ｈｅー"TCC_NEWLINE"ｌｐ，　ａｎｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈｏｗ　ｄｏｅｓ　ｔｈｉｓ　ｈａｖｅ　ａｎｙｔｈｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｄｏ　ｗｉｔｈ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｎｏ．　Ｉｔ　ｃａｎ’ｔ　ｂｅ！　Ｂｕｔ　ｉｆ　Ｈｍー"TCC_NEWLINE"ｍ．．．　Ａｈａ．　Ｉ　ｓｅｅ．．．　Ｔｈｅｎ　Ｆｆｎｉｒ"TCC_NEWLINE"　ｉｓ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_OTR
+"Ｈｅ　ｗａｓ　ｓｕｍｍｏｎｅｄ　ｄｕｒｉｎｇ　ｏｎｅ　ｏｆ"TCC_NEWLINE"　Ｅｉｔｒｉ’ｓ　ｅｘｐｅｒｉｍｅｎｔｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｆｆｎｉｒ　ｉｓ．．．ｆｒｏｍ　ａｎｏｔｈｅｒ　ｗｏｒｌｄ"TCC_NEWLINE"？！　Ｌｉｋｅ．．．ａ　Ｈｅｒｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｙ　ｂｒｏｔｈｅｒ　ｉｓ　ｅｖｅｒｙｔｈｉｎｇ　ｔｏ　ｍー"TCC_NEWLINE"ｅ，　ｙｏｕ　ｓｅｅ．　Ｉ　ｃａｎｎｏｔ　ｌｉｖｅ　ｗｉｔー"TCC_NEWLINE"ｈｏｕｔ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｅｔ．．．ｈｅ　ｓｔｉｌｌ　ｓｅａｒｃｈｅｓ　ｆー"TCC_NEWLINE"ｏｒ　ｔｈｅ　ｈｏｍｅ　ｈｅ　ｓｈｏｕｌｄ　ｈａｖｅ　ｆｏー"TCC_NEWLINE"ｒｇｏｔｔｅｎ　ｌｏｎｇ　ａｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｏｐｅ　ｔｏ　ｍａｋｅ　ｓｏｍｅｔｈｉｎｇ　ｃｌｅａー"TCC_NEWLINE"ｒ　ｔｏ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｈｅ　ｄｏｅｓ，　ｈｅ　ｈａー"TCC_NEWLINE"ｓ　ｎｏ　ｏｔｈｅｒ　ｐｌａｃｅ　ｔｏ　ｇｏ．　Ｈｅ　ｉｓ"TCC_NEWLINE"　ａｌｒｅａｄｙ　ｈｏｍｅｗｉｔｈ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａｂｏｕｔ？！　"TCC_NEWLINE"Ｈｅ　ｈａｓ　ｔｏ　ｇｅｔ　ｂａｃｋ　ｔｏ　ｈｉｓ　ｗｏｒー"TCC_NEWLINE"ｌｄ　ａｓ　ｓｏｏｎ　ａｓ　ｐｏｓｓｉｂｌｅ！　Ｌｅｔ　ｕー"TCC_NEWLINE"ｓ　ｈｅｌｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_OTR
+"．．．Ｈａｖｅ　ｙｏｕ　ｎｏｔ　ｂｅｅｎ　ｌｉｓｔｅｎｉｎー"TCC_NEWLINE"ｇ？　Ｆｆｎｉｒ　ｉｓ　ｎｏｔ　ｇｏｉｎｇ　ａｎｙｗｈｅｒー"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｏｏｋ　ｆｏｒ　ｙｏｕｒｓｅｌｆ！　Ｈｅ’ｓ　ｆｉｎａｌー"TCC_NEWLINE"ｌｙ　ｆｏｒｇｏｔｔｅｎ　ａｂｏｕｔ　ｔｈｏｓｅ　ｔｈｉｎー"TCC_NEWLINE"ｇｓ　ｔｈａｔ　ｍａｔｔｅｒ　ｓｏ　ｌｉｔｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｋｅ　ｗｈｅｒｅ　ｈｅ’ｓ　ｆｒｏｍａｎｄ　ｗｈｏ　ｙー"TCC_NEWLINE"ｏｕ　ａｒｅ，　Ｒｅｇｉｎｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓｎ’ｔ　ｔｈａｔ　ｗｏｎｄｅｒｆｕｌ？！　Ｆｉｎａｌｌー"TCC_NEWLINE"ｙ，　Ｉ　ａｍ　ｗｈａｔ　ｍａｔｔｅｒｓ，　ａｎｄ　Ｉ　ａー"TCC_NEWLINE"ｌｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"ｔｒ，　ｎｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅｈ　ｈｅｈ　ｈｅｈ　ｈａａｈｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｈ，　ｂｕｔ　Ｉ　ｍｕｓｔｎ’ｔ　ｌｅｔ　ｍｙ　ｇｕａｒー"TCC_NEWLINE"ｄ　ｄｏｗｎ　ｊｕｓｔ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｒｓｔ，　Ｉ　ｎｅｅｄ　ｔｏ　ｍａｋｅ　ｓｕｒｅ　ｅｖー"TCC_NEWLINE"ｅｒｙｏｎｅ　ｂｕｔ　ｍｅｙｏｕ　ａｌｌ，　ｔｈａｔ　ｉｓー"TCC_NEWLINE"ｉｓ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ　ｔｈａｔ"TCC_NEWLINE"　Ｉ　ｃａｎｎｏｔ　ｒｅｓｔ　ｅａｓｙ　ｗｈｉｌｅ　ｔｈｅ"TCC_NEWLINE"　ｓｕｍｍｏｎｅｒ　ｓｔｉｌｌ　ｌｉｖｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ｎｅｅｄ　ｏｆ　ａ　ｗｅａｐｏｎ　ｔｈー"TCC_NEWLINE"ａｔ　ｃａｎ　ｄｅｓｔｒｏｙ　ｇａｔｅｓ　ｉｆ　Ｉ　ｄｅｓー"TCC_NEWLINE"ｔｒｏｙ　ｔｈｅ　ｓｏｕｒｃｅ　ｏｆ　ｔｈｅ　ｇａｔｅｓ　"TCC_NEWLINE"ｔｈｅｍｓｅｌｖｅｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　ｔｉｍｅ　ｆｏｒ　ｔａｌｋ"TCC_NEWLINE"　ｈａｓ　ｐａｓｓｅｄ．　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ，"TCC_NEWLINE"　ａｒｅ　ｙｏｕ　ｐｒｅｐａｒｅｄ　ｆｏｒ　ｗｈａｔ　ｃｏー"TCC_NEWLINE"ｍｅｓ　ｎｅｘｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．Ｉ’ｍ　ｒｅａｄｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｌｅｔ’ｓ　ｇｏ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5112_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｕｒｇｈ．．．　Ｎｏｔ　ｄｏｎｅ．．．ｙｅｔ．　Ｉ　ｃａｎ"TCC_NEWLINE"．．．ｓｔｉｌｌ　ｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

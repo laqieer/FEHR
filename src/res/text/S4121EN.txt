@@ -1,0 +1,41 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．Ｗｈ－ｗｈｅｒｅ　ａｍ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏｗｅｒｓ　ｏｆ．．．ｍｅｔａｌ？　Ｔｈｅｙ’ｒｅ　ｓｏ"TCC_NEWLINE"　ｔａｌｌ．．．　Ｉｔ　ａｐｐｅａｒｓ　ｌｉｋｅ　ｔｈｅｙ"TCC_NEWLINE"　ｃｏｕｌｄ　ｐｉｅｒｃｅ　ｔｈｅ　ｖｅｒｙ　ｈｅａｖｅｎー"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈｉｓ．．．ａｎｏｔｈｅｒ　ｄｒｅａｍ？　Ｗｈｙ　"TCC_NEWLINE"ｗｏｕｌｄ　Ｉ　ｄｒｅａｍ　ｏｆ　ｓｕｃｈ　ａ　ｐｌａｃｅ"TCC_NEWLINE"？　Ｗｈｙ　ｗ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｗｈａｔ’ｓ　ｗｒｏｎｇ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．Ｊｕｓｔ　ｎｏｗ，　ａｓ　Ｉ　ｗａｓ　ｒｅｓｔｉｎｇ"TCC_NEWLINE"，　Ｉ　ｈａｄ　Ｉ　ｂｅｌｉｅｖｅ　ｉｔ　ｗａｓ　ａ　ｄａー"TCC_NEWLINE"ｙｄｒｅａｍ．．．　Ｉｔ　ｗａｓ　ｓｔｒａｎｇｅ　ｅｉｔｈー"TCC_NEWLINE"ｅｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏｗｅｒｓ　ｔｈａｔ　ｐｉｅｒｃｅｄ　ｔｈｅ　ｈｅａｖｅー"TCC_NEWLINE"ｎｓ．．．　Ｉｒｏｎ　ｈｏｒｓｅｓ　ｐｅｏｐｌｅ　ｒｏｄｅ"TCC_NEWLINE"　ｉｎｓｉｄｅ　ｏｆ　ｒａｔｈｅｒ　ｔｈａｎ　ａｔｏｐ．．"TCC_NEWLINE"．　Ｎｏ　ｗｏｒｌｄ　Ｉ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｓｏｕｎｄｓ　ｌｉｋｅ　ｔｈｅ　ｗｏｒｌｄ　ｏｆ　ｓｔｅｅー"TCC_NEWLINE"ｌ　ｔｏ　ｍｅ！　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ｔｏｌー"TCC_NEWLINE"ｄ　ｍｅ　ａｂｏｕｔ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｅｘｃｈａｎｇｅ　ｆｏｒ　ｌｉｖｉｎｇ　ｉｎ　ｅｘｔー"TCC_NEWLINE"ｒｅｍｅ　ｃｏｍｆｏｒｔ，　ｎｏ　ｏｎｅ　ｗｈｏ　ｌｉｖｅー"TCC_NEWLINE"ｓ　ｔｈｅｒｅ　ｉｓ　ａｂｌｅ　ｔｏ　ｄｒｅａｍ　ａｎｙ　"TCC_NEWLINE"ｌｏｎｇｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ａ　ｇｒａｙ　ｗｏｒｌｄ，　ｗｈｅｒｅ　ｎｏ　"TCC_NEWLINE"ｌｆｒ　ｃａｎ　ｌｉｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｍ．．．　Ｔｈｅ　ｗｏｒｌｄ　ｏｆ　ｓｔｅｅｌ．．．　"TCC_NEWLINE"Ｉ’ｄ　ｌｉｋｅ　ｔｏ　ｈｅａｒ　ｍｏ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｎｏｕｇｈ　ａｂｏｕｔ　ｔｈｅ　ｄｒｅａｍ！　Ｗｅ　ｈａー"TCC_NEWLINE"ｖｅ　ａ　ｎｉｇｈｔｍａｒｅ　ａｌｌ　ａｒｏｕｎｄ　ｕｓ．"TCC_NEWLINE"　Ｌｅｔ’ｓ　ｄｅａｌ　ｗｉｔｈ　ｔｈａｔ　ｆｉｒｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｉｇｈｔ．　Ｔｈｅ　Ｄｒｅａｍ　Ｇａｔｅ　ｏｆ　ｔｈｉｓ"TCC_NEWLINE"　ｗｏｒｌｄ　ｓｈｏｕｌｄ　ｂｅ．．．ｕｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｉｔ’ｓ　ｔｈｉｓ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｈ！　Ｔｈａｎｋ　ｙｏｕ，　Ｍｉｒａｂｉｌｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｏｕ’ｒｅ　＊ｙａａａｗｗｗｎｎｎｎ＊　ｗｅｌｃｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ．　Ｗａｋｅ　ｕｐ　ｏｒ　Ｉ’ｌｌ　ｗａｋｅ　ｙｏｕ"TCC_NEWLINE"　ｕｐ．　．．．Ｃａｎ　Ｉ　ａｃｔｕａｌｌｙ　ｒｅｌｙ　ｏー"TCC_NEWLINE"ｎ　ｔｈｅｓｅ　ｆｏｏｌｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"＊ｙａｗｎ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｗｈａｔ？　Ｙｏｕ　ｊｕｓｔ　ｓａｉｄ　ｉｔ　ｗａｓ　ｔｈー"TCC_NEWLINE"ｉｓ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ．．．　Ｄｉｄ　Ｉ？　ＯＫ，　ｔｈｉｓ　ｗａｙ，　ｔｈー"TCC_NEWLINE"ｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

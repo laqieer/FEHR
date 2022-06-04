@@ -1,0 +1,73 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5033] = TCC_OPEN_LEFT 
+"パパもママも死んじゃったわ。" TCC_NEWLINE
+"パパはおじいさまに殺されたんだって。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5033] = TCC_OPEN_LEFT 
+"ぐ。。。あ。。。っ。。。。。。！" TCC_NEWLINE
+"何という。。。強さ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"これが。。。ニザヴェリル王。。。。。。" TCC_NEWLINE
+"ファフ。。。ニ。。。。。。ル。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_FAFNIR
+"終いか。他愛もねえ。" TCC_NEWLINE
+"これでこの国も俺のものだ！" TCC_NEWLINE
+"ハーッハッハッハッハ！！" TCC_NEWLINE TCC_PUSH_A
+"ククッ。。。ハ。。。。。。ハハ。。。。。。" TCC_NEWLINE
+"。。。。。。、。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。違う。ここでもねえ。" TCC_NEWLINE
+"俺が捜しているものは。。。。。。" TCC_NEWLINE
+"俺は。。。何を捜しているんだ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"分からない。。。俺は。。。。。。" TCC_NEWLINE
+"。。。くっ。。。うぅ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"ファフニール兄さん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"オッテル。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"大丈夫？　また頭が痛むの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。。。何か。。。" TCC_NEWLINE
+"思い出せそうな気がするんだ。。。" TCC_NEWLINE TCC_PUSH_A
+"俺は。。。気がつくと戦場に立っていた。" TCC_NEWLINE
+"あの日よりも昔のことを。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ー無理しないで、兄さん。" TCC_NEWLINE
+"昔のことなんて思い出せなくても" TCC_NEWLINE
+"構\わないじゃないか。" TCC_NEWLINE TCC_PUSH_A
+""
+"今や兄さんはニザヴェリルの王なんだよ！" TCC_NEWLINE
+"これ以上何を望むの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"それよりすごいね！" TCC_NEWLINE
+"急いで加勢に来たのに" TCC_NEWLINE
+"もうここも制圧しちゃったんだ。" TCC_NEWLINE TCC_PUSH_A
+"次はどこへ攻める？" TCC_NEWLINE
+"ニフル？　ムスペル？" TCC_NEWLINE TCC_PUSH_A
+"死の国でも夢の国でも" TCC_NEWLINE
+"どこだって、兄さんなら" TCC_NEWLINE
+"手に入れることができるさ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。どこでもいい。それよりお前。。。" TCC_NEWLINE
+"アスク王国の連中からレギンを" TCC_NEWLINE
+"取り返しに行ったんじゃなかったのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あ。。。。。。" TCC_NEWLINE
+"そ、それがーー。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

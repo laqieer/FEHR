@@ -1,0 +1,70 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ａｈｈ，　Ｒｅｇｉｎｎ，　ｔｈｅｒｅ　ｙｏｕ　ａｒｅ．　Ｙー"TCC_NEWLINE"ｏｕ’ｖｅ　ｂｅｅｎ　ｇｏｎｅ　ｓｏ　ｌｏｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"ｔｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｓｏ　ｌｏｎｇ　ｙｏｕ　ｆｏｒｇｅｔ　ｙｏｕｒ　ｐｌー"TCC_NEWLINE"ａｃｅ．　Ｙｏｕ　ｗｉｌｌ　ｌｅａｒｎ　ｔｏ　ｒｅｆｅｒ　"TCC_NEWLINE"ｔｏ　ｍｅ　ａｓ　ｍｉｌｏｒｄ　ｅｖｅｎｔｕａｌｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｈａｔ　ｉｓ　ｔｈｉｓ？　Ｗｈａｔ　ａｒｅ　ｙｏー"TCC_NEWLINE"ｕ　ｕｐ　ｔｏ？　Ｄｉｄ　ｙｏｕ　ｆｏｒｇｅｔ　ｙｏｕｒ　"TCC_NEWLINE"ｏｒｄｅｒｓ　ｗｅｒｅ　ｔｏ　ｒｅｔｕｒｎ　ｗｉｔｈ　ｔｈー"TCC_NEWLINE"ｅ　ｓｕｍｍｏｎｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ　ｄｉｄ　ｙｏｕ　ｓｉｍｐｌｙ　ｄｅｃｉｄｅ　ｙｏｕ　"TCC_NEWLINE"ｗｏｕｌｄ　ｒａｔｈｅｒ　ｐｉｃｎｉｃ　ｗｉｔｈ　ｔｈｅ　"TCC_NEWLINE"ｅｎｅｍｙ　ａｒｍｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎ－ｎｏ．．．　Ｔｈａｔ’ｓ　ｎｏｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｂｒｏｔｈｅｒ　ｏｆ　Ｋｉー"TCC_NEWLINE"ｎｇ　Ｆｆｎｉｒ．　Ｐｒｉｎｃｅ　ｔｒ，　ｉｓ　ｉｔ？　Ｉ"TCC_NEWLINE"　ａｍ　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｂｅｌｉｅｖｅ　ｔｈｅｒｅ　ｔｏ　ｂｅ　ｇｏｏｄ　ｒー"TCC_NEWLINE"ｅａｓｏｎ　ｆｏｒ　ｕｓ　ｔｏ　ｃｏｏｐｅｒａｔｅ　ｗｉｔー"TCC_NEWLINE"ｈ　Ｒｅｇｉｎｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｃｏｏｐｅｒａｔｅ？　．．．Ｗｈａｔ　ｉｓ　ｔｈｅ　ｍｅａー"TCC_NEWLINE"ｎｉｎｇ　ｏｆ　ｔｈｉｓ，　Ｒｅｇｉｎｎ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｏｔｈｅｒ，　Ｉ"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｄｏ　ｉｔ　ａｎｙｍｏｒｅ．　Ｉ　ｃａｎ’"TCC_NEWLINE"ｔ　ｋｅｅｐ　ｏｎ　ｉｎｖａｄｉｎｇ　ｃｏｕｎｔｒｙ　ａｆー"TCC_NEWLINE"ｔｅｒ　ｃｏｕｎｔｒｙ　ｗｈｉｌｅ　ｏｕｒ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ｓｕｆｆｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅ　ｔｗｏ　ｏｆ　ｙｏｕ．．．Ｉ　ｃａｎ’ｔ　"TCC_NEWLINE"ｓｔａｎｄ　ｉｔ　ａｎｙｍｏｒｅ！　Ｉ　ｗａｎｔ　ｍｙ　ｂー"TCC_NEWLINE"ｒｏｔｈｅｒｓ　ｂａｃｋ．　Ｐｌｅａｓｅ，　Ｂｒｏｔｈｅｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｌｅａｓｅ？！　Ｙｏｕ　ａｓｋ　ｍｅ　ｔｏ　ｊｏｉｎ　ｆー"TCC_NEWLINE"ｏｒｃｅｓ　ｗｉｔｈ　ｏｕｒ　ｅｎｅｍｙ　ａｎｄ　ｗａｒ　"TCC_NEWLINE"ａｇａｉｎｓｔ　ｔｈｅ　ｍｉｇｈｔｙ　Ｎｉａｖｅｌｌｉｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｅｓ！　Ｔｈａｔ’ｓ　ｅｘａｃｔｌｙ　ｒｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｃａｎ’ｔ　ｂｅ　ａｌｌｏｗｅｄ　ｔｏ　ｃｏｎｔｉｎー"TCC_NEWLINE"ｕｅ　ｉｎｆｌｉｃｔｉｎｇ　ｐａｉｎ　ｏｎ　ｔｈｅ　ｗｏｒー"TCC_NEWLINE"ｌｄ．　Ｉ　ｓｗｅａｒ　Ｉ’ｌｌ　ｓｔｏｐ　ｈｉｍ．．．　"TCC_NEWLINE"Ｅｖｅｎ　ｉｆ　ｉｔ　ｋｉｌｌｓ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｈａｈ．．．ｈｅｈ　ｈｅｈ．．．　Ａｈ－ｈａｈａｈａー"TCC_NEWLINE"ａ！　Ｅｖｅｎ　ｉｆ　ｉｔ　ｋｉｌｌｓ　ｙｏｕ，　ｙｏｕ　"TCC_NEWLINE"ｓａｉｄ？　Ｅｈ－ｈｅｈ－ｈａｈｈ．．．　Ｈｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｒｉｎｃｅ　ｔｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄａｈａｈａ－ＨＡ－ＨＡＡ！　Ｉｔ’ｓ　ｐｅｒｆｅｃｔ！　"TCC_NEWLINE"Ｙｅｓ，　ｔｈｉｓ　ｗｉｌｌ　ｄｏ　ｊｕｓｔ　ｆｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｇｉｎｎ，　ｙｏｕ　ａｒｅ　ｍｙ　ｓｉｓｔｅｒ　ｎｏ　"TCC_NEWLINE"ｌｏｎｇｅｒ．　Ａｓ　ｏｆ　ｎｏｗ，　ｙｏｕ　ａｒｅ　ｍｙ"TCC_NEWLINE"　ｅｎｅｍｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｖｅ　ｆｏｒｓａｋｅｎ　ｙｏｕｒ　ｈｏｍｅｌａｎｄ"TCC_NEWLINE"，　ａｎｄ　ｆｏｒ　ｔｈａｔ，　Ｉ　ｗｉｌｌ　ｒｕｎ　ｙｏー"TCC_NEWLINE"ｕ　ｔｈｒｏｕｇｈ　ｗｉｔｈｏｕｔ　ｈｅｓｉｔａｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｏｎｌｙ　ｖａｌｕｅ　ｔｏ　ｍｅ　ｎｏｗ　ｉｓ　"TCC_NEWLINE"ａｓ　ｆｏｏｄ　ｆｏｒ　ｔｈｅ　ｄｏｇｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅｎ．．．　Ｔｈｅｎ！　Ｔｈｅｎ　Ｉ　ｗｉｌｌ"TCC_NEWLINE"　ｂｅ　ｔｈｅ　ｏｎｌｙ　ｆａｍｉｌｙ　ｏｕｒ　ｄｅａｒ　"TCC_NEWLINE"ｂｒｏｔｈｅｒ　ｈａｓ　ｌｅｆｔ！　ＨａｈａｈａＨＡＨＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂ－Ｂｒｏｔｈｅｒ，　ｎｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈｏｗ　ｃａｎ　ｙｏｕ　ｂｅ　ｓｏ　ｃｒｕｅｌ？！　Ｐｒｉー"TCC_NEWLINE"ｎｃｅｓｓ　Ｒｅｇｉｎｎ　ｉｓ　ｙｏｕｒ　ｏｎｌｙ　ｓｉｓー"TCC_NEWLINE"ｔｅｒ，　ｉｓｎ’ｔ　ｓｈｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｃｒｕｅｌ？　Ｓｈｅ’ｓ　ｄｏｎｅ　ｔｈｉｓ　ｔｏ　ｈｅｒー"TCC_NEWLINE"ｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　Ｉ　ｈａｖｅ　ｗｏｒｋ　ｔｏ　ｄｏ　ａｎｄ　ｎｏ"TCC_NEWLINE"　ｔｉｍｅ　ｔｏ　ｗａｓｔｅ　ｂｒｅａｔｈ　ｏｎ　ｙｏｕ．"TCC_NEWLINE"　Ｌｅａｖｅ　ｍｅ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ａｎｄ　ｂｅー"TCC_NEWLINE"ｇｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｄａｍｎ　ｉｔ．　Ｙｏｕ　ｍａｙ　ｈａｖｅ　ｆｏｒｃｅｄ　"TCC_NEWLINE"ｍｙ　ｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅ　ｓａｇｅ’ｓ　ｆｏｒｅｓｔ　ｌｉｅｓ　ａｈー"TCC_NEWLINE"ｅａｄ．　Ｙｏｕ　ｗｉｌｌ　ｎｏｔ　ｐａｓｓ　ｗｈａｔ　ａー"TCC_NEWLINE"ｗａｉｔｓ　ｙｏｕ　ｓｏ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"ｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｕｃｈ　ｓｐｉｔｅ！　Ｉｆ　ｍｙ　ｂｒｏｔｈｅｒ　ｓａｉー"TCC_NEWLINE"ｄ　ａｎｙｔｈｉｎｇ　ｌｉｋｅ　ｔｈａｔ　ｔｏ　ｍｅ，　Ｉ"TCC_NEWLINE"’ｄ　ｂｅ　ｃｕｒｌｅｄ　ｕｐ　ｉｎ　ａ　ｂａｌｌ，　ｓｏー"TCC_NEWLINE"ｂｂｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅ　ｍａｙ　ｓｅｅｍ　ｈａｔｅｆｕｌ　ｎｏｗ，　ｂｕｔ　"TCC_NEWLINE"ｔｒ　ｗａｓ　ｏｎｃｅ　ｖｅｒｙ　ｋｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒａｇｅ　ｈａｓ　ｏｖｅｒｐｏｗｅｒｅｄ　ｔｈｅｍ，　ｂｏー"TCC_NEWLINE"ｔｈ　Ｆｆｎｉｒ　ａｎｄ　ｔｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｅｄ　ｔｏ　ｌｅａｒｎ　ｗｈｙ．　Ｉ　ｎｅｅｄ　ｔー"TCC_NEWLINE"ｏ　ｆｉｘ　ｉｔ，　ｓｏ　ｔｈｅｙ　ｄｏｎ’ｔ　ｓｕｆｆｅー"TCC_NEWLINE"ｒ　ａｎｙｍｏｒｅｏｒ　ｂｒｉｎｇ　ｍｏｒｅ　ｓｕｆｆｅｒー"TCC_NEWLINE"ｉｎｇ　ｔｏ　ｏｔｈｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｃａｎ　ｄｏ　ｔｈａｔ，　ｔｈｅ　ｗａｒｓ　ｗｉー"TCC_NEWLINE"ｌｌ　ｓｔｏｐ，　ａｎｄ　ｗｅ　ｃａｎ　ａｌｌ　ｌｉｖｅ　"TCC_NEWLINE"ｉｎ　ｐｅａｃｅ！　Ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ　ｈｏｐｅ　ｓｏ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｒｓｔ，　Ｉ　ｈａｖｅ　ｔｏ　ａｓｋ．．．　Ｙｏｕ　ｗー"TCC_NEWLINE"ａｎｔｅｄ　ｔｏ　ｃａｐｔｕｒｅ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｆｏｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"ｔｒ　ｏｒｄｅｒｅｄ　ｍｅ　ｔｏ　ｄｏ　ｉｔ．　Ｂｕｔ　ｈー"TCC_NEWLINE"ｅ　ｎｅｖｅｒ　ｂｏｔｈｅｒｅｄ　ｔｏ　ｅｘｐｌａｉｎ　ｗー"TCC_NEWLINE"ｈｙ．　Ａｔ　ｌｅａｓｔ，　ｎｏｔ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈｍ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｗｈａｔ　ｄｏｅｓ　ｈｅ　ｐー"TCC_NEWLINE"ｌａｎ　ｔｏ　ｄｏ　ｏｎｃｅ　ｈｅ　ｈａｓ"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｓｏｒｒｙ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．　Ｙｏｕ　ｎｅｅｄｎ’ｔ　ｗｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗｉｌｌ　ｎｅｖｅｒ　ｇｅｔ　ａ　ｃｈａｎｃｅ　ｔｏ"TCC_NEWLINE"　ｌａｙ　ａ　ｓｉｎｇｌｅ　ｆｉｎｇｅｒ　ｏｎ　ｙｏｕ！　"TCC_NEWLINE"Ｔｈａｔ　ｓａｉｄ，　ｗｅ　ｓｈｏｕｌｄ　ｍｏｖｅ．　Ｔｏ"TCC_NEWLINE"　ｔｈｅ　ｆｏｒｅｓｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

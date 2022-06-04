@@ -1,0 +1,55 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5062_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｈｅ　ｌｉｇｈｔ　ｏｆ　ｍｙ　ｃｏｍｐａｓｓ　ｉｓ　ｇｒー"TCC_NEWLINE"ｏｗｉｎｇ　ｂｒｉｇｈｔｅｒ．　Ｗｅ　ｓｈｏｕｌｄ　ｃａｔー"TCC_NEWLINE"ｃｈ　ｔｒ　ｓｏｏｎ．　Ｈｅ　ｓｈｏｕｌｄ　ｂｅ　ｊｕｓｔ"TCC_NEWLINE"　ｕｐ　ａｈｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｕｐ　ａｈｅａｄ？　Ｄｏｅｓｎ’ｔ　ｔｈａｔ　ｍｅａｎ　ｈー"TCC_NEWLINE"ｅ’ｓ　ｇｏｎｅ　ｉｎｔｏ　ｔｈｅ　ｓａｇｅ’ｓ　ｆｏｒｅー"TCC_NEWLINE"ｓｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｄｏｅｓ　ｔｈａｔ　ｍｅａｎ．．．Ｅｉｔｒｉ　ａｎｄ　ｔｒ"TCC_NEWLINE"　ａｒｅ　ｗｏｒｋｉｎｇ　ｔｏｇｅｔｈｅｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ’ｓ　ｅｎｔｉｒｅｌｙ　ｐｏｓｓｉｂｌｅ．　Ｐｒｉｎｃー"TCC_NEWLINE"ｅｓｓ　Ｎｔｔ　ｗａｓ　ｗｏｒｋｉｎｇ　ｗｉｔｈ　ｈｉｍ，"TCC_NEWLINE"　ｓｏ　ｉｔ　ｉｓ　ｗｉｔｈｉｎ　ｔｈｅ　ｒｅａｌｍ　ｏｆ"TCC_NEWLINE"　ｒｅａｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｈｅｙ，　Ｓｉｓ．　Ｈｅａｒｄ　ａｎｙｔｈｉｎｇ　ａｂｏｕー"TCC_NEWLINE"ｔ　ａｎｙ　ｏｆ　ｔｈｉｓ　ｓａｇｅ　ｓｔｕｆｆ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｉ’ｖｅ　ｈｅａｒｄ　ｎｏｔｈｉｎｇ　ｏｆ　ｔｈｅ　ｓｏｒー"TCC_NEWLINE"ｔ．　ｔｒ　ａｓｋｅｄ　ｍｅ　ｔｏ　ｄｅｌｉｖｅｒ　ｔｈｅ"TCC_NEWLINE"　ｓｗｏｒｄ　ａｎｄ　ｔｈｅ　ｓｕｍｍｏｎｅｒ．　Ｔｈａｔ"TCC_NEWLINE"’ｓ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"＊ｓｉｇｈ＊　Ｉ　ｓｔｉｌｌ　ｄｏｎ’ｔ　ｇｅｔ　ｗｈｙ　"TCC_NEWLINE"ｙｏｕ　ｗｅｎｔ　ａｌｏｎｇ　ｗｉｔｈ　ｔｈａｔ　ｇｕｙ．"TCC_NEWLINE"　Ｗｈａｔ　ｗａｓ　ｇｏｉｎｇ　ｔｈｒｏｕｇｈ　ｙｏｕｒ　"TCC_NEWLINE"ｈｅａｄ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｈｉｓ　ｆａｃｅ！　Ｉ　ｔｏｌｄ　ｙｏｕｈｅ’ｓ　ｍｙ　ｔー"TCC_NEWLINE"ｙｐｅ！　Ｔｈａｔ’ｓ　ａｌｌ　ｔｈｅｒｅ　ｉｓ　ｔｏ　ｉー"TCC_NEWLINE"ｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｌｅｔ’ｓ　ｈｕｒｒｙ　ａｎｄ　ｇｅｔ　ｔｏ　ｔｈｅ"TCC_NEWLINE"　ｓａｎｃｔｕｍ．　Ｉｆ　ｗｅ’ｒｅ　ｑｕｉｃｋ，　ｗｅ　"TCC_NEWLINE"ｍａｙ　ｂｅ　ａｂｌｅ　ｔｏ　ｓａｖｅ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5062_EN] = TCC_OPEN_LEFT
+"Ｆｉｏｒａ，　Ｆｌｏｒｉｎａ．．．　Ｉ’ｌｌ　ｂｅ　ｂａｃー"TCC_NEWLINE"ｋ　ｏｎｅ　ｄａｙ．．．　ａｎｄ　Ｉ’ｌｌ　ｂｅ　ｈａｕｌー"TCC_NEWLINE"ｉｎｇ　ｌｏｔｓ　ｏｆ　ｇｏｌｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5062_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ａｈ，　ｈｅｌｌｏ．　Ｗｅ　ｍｅｅｔ　ａｇａｉｎ，　Ｓｕｍー"TCC_NEWLINE"ｍｏｎｅｒ．　Ｉ　ｄｏ　ｈｏｐｅ　ｙｏｕ　ａｒｅ　ｄｏｉｎー"TCC_NEWLINE"ｇ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｗ，　ｄｏｎ’ｔ　ｂｅ　ｓｏｕｒ．　Ｉ　ｔｏｌｄ　ｙｏｕ"TCC_NEWLINE"　ｎｏ　ｌｉｅｓ．　Ｉ　ｓｉｍｐｌｙ．．．ｄｉｄ　ｎｏｔ　"TCC_NEWLINE"ｒｅｖｅａｌ　ｔｈｅ　ｆｕｌｌｎｅｓｓ　ｏｆ　ｔｈｅ　ｓｉー"TCC_NEWLINE"ｔｕａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｄｏ　ｙｏｕ　ｈａｖｅ　ｅｖｅｒｙｔｈｉｎｇ　ｙｏｕ　ｎｅー"TCC_NEWLINE"ｅｄ　ｎｏｗ，　Ｅｉｔｒｉ？　Ｗｉｔｈ　ｔｈｅ　ｓｏｕｌ　"TCC_NEWLINE"ｏｆ　ｔｈｉｓ　ｓｕｍｍｏｎｅｒ，　ｗｉｌｌ　ｙｏｕ　ｒｅー"TCC_NEWLINE"ａｌｌｙ　ｂｅ　ａｂｌｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　ｙｅｓ．　Ｉ　ｏｕｇｈｔ　ｔｏ　ｂｅ　ａｂｌｅ　"TCC_NEWLINE"ｔｏ　ｃｒｅａｔｅ　ｔｈｅ　ｗｅａｐｏｎ　ｃａｐａｂｌｅ　"TCC_NEWLINE"ｏｆ　ｄｅｓｔｒｏｙｉｎｇ　ｇａｔｅｓ：　Ｊｒｎｇｒｅｉｐー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｂｅｇｉｎ　ｔｈｅ　ｐｒｅｐａｒａｔｉｏｎｓ"TCC_NEWLINE"．．．　Ｏｈ，　ａｎｄ　Ｉ’ｌｌ　ｂｅ　ｎｅｅｄｉｎｇ　ｔー"TCC_NEWLINE"ｈａｔ　ｗｅａｐｏｎ　ｏｆ　ｙｏｕｒｓ　ａｓ　ｗｅｌｌ，　"TCC_NEWLINE"Ｓｕｍｍｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅ　ｇｏｏｄ　ａｎｄ　ｈａｎｄ　ｉｔ　ｏｖｅｒ．　Ｙｏｕ"TCC_NEWLINE"　ｈａｖｅ　ｍｙ　ｅｎｄｌｅｓｓ　ｔｈａｎｋｓ，　ｏｆ　ｃー"TCC_NEWLINE"ｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｕｒｒｙ　ｕｐ．　Ｉ’ｖｅ　ｒｅｃｅｉｖｅｄ　ｒｅｐｏｒー"TCC_NEWLINE"ｔｓ　ｔｈａｔ　Ｎｔｔ，　Ｄａｇｒ，　ａｎｄ　ｔｈｅ　Ａｓー"TCC_NEWLINE"ｋｒａｎ　ｒａｂｂｌｅ　ｗｉｌｌ　ｂｅ　ａｒｒｉｖｉｎｇ　"TCC_NEWLINE"ｓｈｏｒｔｌｙ　ｂｅｈｉｎｄ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄａｍｎ　ｔｈａｔ　Ｎｔｔ．．．　Ｓｈｅ　ｎｏｔ　ｏｎｌｙ"TCC_NEWLINE"　ｆａｉｌｓ　ａｔ　ｔｈｅ　ｓｉｍｐｌｅ　ｔａｓｋ　Ｉ　ｓー"TCC_NEWLINE"ｅｔ　ｏｕｔ　ｆｏｒ　ｈｅｒ，　ｓｈｅ　ｂｅｔｒａｙｓ　ｍー"TCC_NEWLINE"ｅ　ａｓ　ｗｅｌｌ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｄｉｄ　ｎｏｔ　ｎｅｅｄ　ｔｏ　ｉｎｔｅｒｆｅｒｅ"TCC_NEWLINE"，　ｙｏｕ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｗｏｕｌｄ　ｈａｖｅ　ｒｅｔｕｒｎｅｄ　ｔｏ　ｍー"TCC_NEWLINE"ｅ　ｗｉｔｈ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ａｎｄ　ｔｈｅ　ｓー"TCC_NEWLINE"ｗｏｒｄ　ｂｅｆｏｒｅ　ｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ　Ｉ　ｓｕｐｐｏｓｅ　ｉｔ　ｉｓ　ｂｅｔｔｅｒ"TCC_NEWLINE"　ｔｏ　ｈａｖｅ　ｔｈｅ　ｒｅｓｔ　ｏｆ　ｔｈｅ　Ａｓｋｒー"TCC_NEWLINE"ａｎｓ　ｏｕｔ　ｏｆ　ｔｈｅ　ｗａｙ　ｆｏｒ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｈａｔ　ａｒｅ　ｙｏｕ　ｓｏ　ａｆｒａｉｄ　ｏｆ"TCC_NEWLINE"　ａｎｙｗａｙ，　ｔｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ａｍ　ｎｏｔ　ａｆｒａｉｄ　ｏｆ　ａｎｙｔｈｉｎｇ．　"TCC_NEWLINE"Ｊｕｓｔ　ｇｅｔ　ｓｔａｒｔｅｄ　ａｌｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｗｏｕｌｄ　ｌｏｖｅ　ｔｏ，　ｂｕｔ　ｉｔ　ｓｅｅｍｓ"TCC_NEWLINE"　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ａｎｄ　ｔｈｅ　ｒｅｓｔ　"TCC_NEWLINE"ｈａｖｅ　ｒｅｔｕｒｎｅｄ　ｓｏｏｎｅｒ　ｔｈａｎ　ｅｘｐー"TCC_NEWLINE"ｅｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？！　Ｈｏｗ　ｄｉｄ　ｔｈｅｙ"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ．．．　Ｒｅｇｉｎｎ’ｓ　ｃｏｍｐａｓｓ"TCC_NEWLINE"！　Ｓｏ　ｓｈｅ’ｓ　ｓｔｉｌｌ　ｃａｒｒｙｉｎｇ　ｔｈａー"TCC_NEWLINE"ｔ　ａｆｔｅｒ　ａｌｌ　ｔｈｉｓ　ｔｉｍｅ．．．　Ｄａｍｎ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｓｅｅｍｓ　ｙｏｕ　ａｒｅ　ｎｏｔ　ｉｍｍｕｎｅ　ｔー"TCC_NEWLINE"ｏ　ｆａｉｌｉｎｇ　ｓｉｍｐｌｅ　ｔａｓｋｓ　ｙｏｕｒｓｅー"TCC_NEWLINE"ｌｆ．．．　Ｗｅｌｌ，　Ｉ　ｌｅａｖｅ　ｔｈｅｍ　ｔｏ　ｙー"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｙ　ｍｅ　ｓｏｍｅ　ｔｉｍｅ　ｔｏ　ｃｏｎｄｕｃｔ　ｔー"TCC_NEWLINE"ｈｅ　ｐｒｏｐｅｒ　ｒｅｓｅａｒｃｈ　ｏｎ　ｔｈｉｓ　ｗｅー"TCC_NEWLINE"ａｐｏｎ　ａｎｄ　ｔｈｅ　ｓｕｍｍｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｓｕｐｐｏｓｅ　ｉｔ’ｓ　ａｌｌ　ｆｏｒ　ｔｈｅ　ｂｅー"TCC_NEWLINE"ｓｔ．　Ｉ’ｌｌ　ｔａｋｅ　ｔｈｉｓ　ｏｐｐｏｒｔｕｎｉｔー"TCC_NEWLINE"ｙ　ｔｏ　ｃｒｕｓｈ　ｔｈｅ　Ａｓｋｒａｎｓ　ｌｉｋｅ　ｔー"TCC_NEWLINE"ｈｅ　ｉｎｓｅｃｔｓ　ｔｈｅｙ　ａｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

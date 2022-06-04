@@ -1,0 +1,172 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6035] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ヴェロニカ皇女はまだ追ってきてるわ。" TCC_NEWLINE
+"とにかく、引き離すわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"エンブラの呪い。。。" TCC_NEWLINE
+"彼女の意志とは無関係に。。。" TCC_NEWLINE
+"僕たちを殺そうとしている。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ASH
+"えー、はい、その通りであります。" TCC_NEWLINE
+"憑竜エンブラの血を色濃く継ぐ人間は" TCC_NEWLINE
+"逆らうことはできないわけでして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ヴェロニカ皇女は" TCC_NEWLINE
+"そんなこと望んでないのに。。。" TCC_NEWLINE TCC_PUSH_A
+"アスクとエンブラが" TCC_NEWLINE
+"仲良くするなんて。。。" TCC_NEWLINE
+"やっぱり無理なんでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_VERONICA
+"うぅっ。。。ああっ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+"。。。は。。。はやく。。。にげて。。。" TCC_NEWLINE
+"でないと。。。こえが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"。。。ころせ。。。"
+"" TCC_NEWLINE
+"。。。にげて。。。" TCC_NEWLINE
+""
+"。。。ころせ。。。"
+"" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6035] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_VERONICA
+"あ。。。ああっ。。。。。。あ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"今のうちよ、" TCC_NEWLINE
+"このまま急ぎ撤退！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"で、でも、" TCC_NEWLINE
+"ヴェロニカ皇女。。。" TCC_NEWLINE
+"大丈夫でしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。ここから離れよう。" TCC_NEWLINE
+"今、僕たちが彼女にできることは" TCC_NEWLINE
+"それしかない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6035] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_VERONICA
+"はぁっ。。。はぁっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"っ。。。" TCC_NEWLINE
+"あたま。。。いたい。。。" TCC_NEWLINE
+"われそう。。。" TCC_NEWLINE TCC_PUSH_A
+"っ。。。こえが。。。やまない。。。" TCC_NEWLINE
+"いままで。。。" TCC_NEWLINE
+"こんなこと。。。なかった。。。のに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"ヴェロニカ、ここにいたのね。" TCC_NEWLINE
+"お願いだからもう逃げないで。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お姉様。。。" TCC_NEWLINE TCC_PUSH_A
+"ごめんなさい。。。" TCC_NEWLINE
+"もう。。。大丈夫。。。だから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"良かったわ。" TCC_NEWLINE
+"ああ、でも、ヴェロニカ。。。" TCC_NEWLINE
+"また悪い知らせが。。。" TCC_NEWLINE TCC_PUSH_A
+"皇宮の宝物殿から、" TCC_NEWLINE
+"エンブラの禁書が盗まれていたの。" TCC_NEWLINE TCC_PUSH_A
+"宝物殿を守る兵たちは、" TCC_NEWLINE
+"かわいそうに、" TCC_NEWLINE
+"皆殺しにされていたそうよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だれが、そんなこと。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それが、凶行を目撃した" TCC_NEWLINE
+"別の隊の兵士の話では。。。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ。。。" TCC_NEWLINE
+"あなたが兵たちを殺し" TCC_NEWLINE
+"禁書の封印を解いたと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！" TCC_NEWLINE
+"うそ。。。" TCC_NEWLINE
+"あたしはそんなことしてないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ、わかっているわ。" TCC_NEWLINE
+"小さなヴェロニカ。。。" TCC_NEWLINE
+"あなたは絶対そんなことしていない。" TCC_NEWLINE TCC_PUSH_A
+"あなたは罠にかけられたの。" TCC_NEWLINE
+"誰かに濡れ衣を着せられたのよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だれか。。。？" TCC_NEWLINE
+"いったいだれが、そんな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私がやったの。" TCC_NEWLINE TCC_PUSH_A
+"選帝侯や有力貴族を懐柔し、" TCC_NEWLINE
+"あなたに反逆の疑いをかけるよう" TCC_NEWLINE
+"仕組んだのは、私。" TCC_NEWLINE TCC_PUSH_A
+"宝物殿の禁書を盗み出し、" TCC_NEWLINE
+"兵が偽りを述べるよう" TCC_NEWLINE
+"仕組んだのも、私。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。お姉。。。様。。。？" TCC_NEWLINE TCC_PUSH_A
+"うそ。。。" TCC_NEWLINE
+"そんな。。。そんなのうそ。" TCC_NEWLINE
+"だって、お姉様は。。。やさしくて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もちろんよ、小さなヴェロニカ。" TCC_NEWLINE
+"あなたにはとっても" TCC_NEWLINE
+"優しくしてあげた。" TCC_NEWLINE TCC_PUSH_A
+"だって、そうした方が" TCC_NEWLINE
+"裏切られたあなたの傷は" TCC_NEWLINE
+"もっともっと深くなるでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。おねえ。。。さま。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ねえヴェロニカ。" TCC_NEWLINE
+"憶えてるかしら？" TCC_NEWLINE
+"あの日のこと。。。" TCC_NEWLINE TCC_PUSH_A
+"とても良いお天気で、" TCC_NEWLINE
+"中庭で二人でお茶会をして。。。" TCC_NEWLINE
+"あなた、言ってたわよね？" TCC_NEWLINE TCC_PUSH_A
+"皇位なんて、どうでもいい。" TCC_NEWLINE
+"二人でなかよくできたら、" TCC_NEWLINE
+"そんなの関係ないって。" TCC_NEWLINE TCC_PUSH_A
+"よく言えたものね？" TCC_NEWLINE
+"同じ日に。。。私の家から" TCC_NEWLINE
+"なにもかも奪っておいて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"奪ってあげるわ。" TCC_NEWLINE
+"あなたからすべてを。" TCC_NEWLINE TCC_PUSH_A
+"皇女としての権力も、" TCC_NEWLINE
+"民たちの信頼も、" TCC_NEWLINE
+"何もかも。" TCC_NEWLINE TCC_PUSH_A
+"すべてを失い、落ちなさい。" TCC_NEWLINE
+"かつて私が、" TCC_NEWLINE
+"あなたたちにそうされたように！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

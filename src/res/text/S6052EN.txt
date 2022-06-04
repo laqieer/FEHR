@@ -1,0 +1,38 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6052_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｐａｔｈ　ｔｈｒｏｕｇｈ　ｔｈｅ　ｍｏｕｎｔａｉｎー"TCC_NEWLINE"ｓ　ｉｓ　ｃｌｏｓｅｄ　ａｗａｙ　ｉｎｔｏ　ｄａｒｋｎｅｓー"TCC_NEWLINE"ｓ　ｕｐ　ａｈｅａｄ．　Ｗｅ　ｃａｎ’ｔ　ｇｏ　ｔｈｉｓ　"TCC_NEWLINE"ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｍｏｓｔ　ｄｉｒｅｃｔ　ｒｏｕｔｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　Ｉ　ｓａｉｄ　ｅａｒｌｉｅｒ，　Ｉ　ｄｏ　ｎｏｔ　ｋー"TCC_NEWLINE"ｎｏｗ　ｔｈａｔ　Ｉ　ｃａｎ　ｄｉｓｐｅｌ　ｔｈｅ　ｄａｒー"TCC_NEWLINE"ｋｎｅｓｓ．　Ｂｕｔ　ｔｈｉｓ　ｗｉｌｌ　ｇｉｖｅ　ｍｅ　"TCC_NEWLINE"ｔｈｅ　ｏｐｐｏｒｔｕｎｉｔｙ　ｔｏ　ｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｌ　ｒｉｇｈｔ．　Ｉｎ　ｔｈａｔ　ｃａｓｅ，　ｗｅ　ｃー"TCC_NEWLINE"ａｎ　ｋｅｅｐ　ｔｏ　ｔｈｉｓ　ｐａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6052_EN] = TCC_OPEN_LEFT
+"Ｔｈｅｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　Ｉ　ｃａｎｎｏｔ　ｄｏ．"TCC_NEWLINE"　Ｌｅａｖｅ　ｅｖｅｒｙｔｈｉｎｇ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6052_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ａｌｌ　ｒｉｇｈｔ，　ｔｈｅｎ．．．　Ｉ　ｍａｙ　ｂｅ　ｅー"TCC_NEWLINE"ｘｔｒｅｍｅｌｙ　ｎｅｒｖｏｕｓ　ａｂｏｕｔ　ｔｈｉｓ，　"TCC_NEWLINE"ｂｕｔ　Ｉ　ｗｉｌｌ　ｎｏｔ　ｌｅｔ　ｔｈａｔ　ｓｔｏｐ　"TCC_NEWLINE"ｍｅ．　Ｉ　ｗｉｌｌ　ｎｏｗ　ｂｅｇｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｓｏｕｌ　ｉｓ　ｍｅａｎｔ　ｆｏｒ　ｐｅａｃｅ．．．"TCC_NEWLINE"　Ｍｙ　ｂｏｄｙ，　ｍｅａｎｔ　ｆｏｒ　ｔｈｅ　ｐｅｏｐｌー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｌｏｏｄ，　ｍｅａｎｔ　ｔｏ　ｂｒｉｎｇ　ｌｉｇｈー"TCC_NEWLINE"ｔ．．．　Ｃｌｅａｎｓｅ　ｔｈｅ　ｄａｒｋ．　Ｏｐｅｎ．　"TCC_NEWLINE"Ｒｅｖｅａｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｄａｒｋｎｅｓｓ．．．ｉｔ’ｓ　ｄｉｓａｐｐｅａｒー"TCC_NEWLINE"ｉｎｇ！　Ｉｔ　ｗｏｒｋｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｅｘｃｅｌｌｅｎｔ！　Ｔｈａｔ　ｍｅａｎｓ　Ｌｅｔｉｚｉａ"TCC_NEWLINE"　ｉｓ　ｎｏ　ｌｏｎｇｅｒ　ａｎｙ　ｔｈｒｅａｔ　ｔｏ　ｕー"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｏｗ，　ｔｈａｔ　ｗａｓ　ａｍａｚｉｎｇ，　Ａｓｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ａｓｈ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ？　Ｉｓ　ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ　ｔｈｅ　ｍａｔｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ，　ｎｏ，　ｎｏ．．．　Ｆｏｒｇｉｖｅ　ｍｅ．　Ｙｏｕ"TCC_NEWLINE"　ｎｅｅｄ　ｎｏｔ　ｗｏｒｒｙ　ｙｏｕｒｓｅｌｖｅｓ　ｏｖー"TCC_NEWLINE"ｅｒ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈａｎｋ　ｙｏｕ，　Ａｓｈ．　Ｂｅｃａｕｓｅ　ｏｆ　ｙｏー"TCC_NEWLINE"ｕ，　Ａｓｋｒ　ｉｓ　ａｓ　ｇｏｏｄ　ａｓ　ｓａｖｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｊｕｓｔ　ｋｅｅｐ　ｍｏｖｉｎｇ　ａｌｏｎｇ　"TCC_NEWLINE"ｌｉｋｅ　ｔｈｉｓ，　ｙｏｕ　ｃａｎ　ｔａｋｅ　ｃａｒｅ　"TCC_NEWLINE"ｏｆ　ｔｈｅ　ｄａｒｋｎｅｓｓ　ｉｎ　ｔｈｅ　ｏｔｈｅｒ　"TCC_NEWLINE"ｐｌａｃｅｓ　ｔｈｅ　ｓａｍｅ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ．　Ｔｈａｔ　ｉｓ　ｔｈｅ　ｌー"TCC_NEWLINE"ｏｇｉｃａｌ　ｃｏｕｒｓｅ　ｏｆ　ａｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｇｌａｄ　Ｉ’ｍ　ａｂｌｅ　ｔｏ　ｂｅ　ｏｆ　ｕー"TCC_NEWLINE"ｓｅ　ｔｏ　ｙｏｕ　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

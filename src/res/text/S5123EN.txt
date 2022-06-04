@@ -1,0 +1,100 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5123_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｙｅｅｓｈ！　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ，　Ｒｅｇー"TCC_NEWLINE"ｉｎｎ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｉ’ｍ　ｓｔｉｌｌ　ｉｎ　ｏｎｅ　ｐｉｅｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｋｅｅｐ　ｙｏｕｒ　ｈｅａｄ　ｏｎ　ａ　ｓｗｉｖｅｌ！　Ｉー"TCC_NEWLINE"ｆ　ｙｏｕ　ｄｏｎ’ｔ，　ｙｏｕ’ｒｅ　ｇｏｉｎｇ　ｔｏ　"TCC_NEWLINE"ｄｉｅ　ｏｕｔ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｋｎｏｗ，　Ｉ　ｋｎｏｗ！　Ｂｕｔ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｇｒｒｒｒａａａｈｈｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｏｔｈｅｒ，　ｌｉｓｔｅｎ　ｔｏ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｅｇｉｎｎ！　Ｗａｔｃｈ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｎｇｈ　Ｒｒｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｄａｇｒ！　Ｎｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄａｇｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｈｕｈ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｈｒｇｈ！　＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓ－Ｓｉｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏｈ　ｎｏ．．．　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅｓｓ　Ｎｔー"TCC_NEWLINE"ｔ，　ｓｈｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｈａｒｅｎａ，　ｗｅ　ｎｅｅｄ　ｔｏ　ｇｅｔ　Ｆｆｎｉｒ"TCC_NEWLINE"　ａｗａｙ　ｆｒｏｍ　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｎｇ　ｉｎ　ｔｈｅｒｅ，　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｋｒｒｒａａａｈｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5123_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_NOTT
+"＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ．．．ｌｏｏｋｉｎｇ　ａｔ，　Ｄａー"TCC_NEWLINE"ｇｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ａｎ　ｅｍｐｔｙ－ｈｅａｄｅｄ　Ｗｈｙ　ｄｉｄ　ｙｏｕ　ｇー"TCC_NEWLINE"ｅｔ　ｉｎ　ｍｙ　ｗａｙ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ａｌｗａｙｓ　ｈａｖｅ　ｔｏ　ｒｕｉー"TCC_NEWLINE"ｎ　ｅｖｅｒｙｔｈｉｎｇ　ａｌｌ　ｔｈｅ　ｔｉｍｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ’ｓ．．．ａｌｌ　ｙｏｕ　ｈａｖｅ　ｔｏ　ｓａｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｄ　ｈｏｐｅｄ．．．ａｓ　ｍｙ　ｓｉｓｔｅｒ．．．"TCC_NEWLINE"ｙｏｕ’ｄ　ａｔ　ｌｅａｓｔ　ｈａｖｅ　ｔｈｅ　ｓｅｎｓｅ"TCC_NEWLINE"．．．ｔｏ　ｔｈａｎｋ　ｍｅ．．．　＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｌｏｖｅ　ｎｏｔ　ｈａｖｉｎｇ　ｓｅｎｓｅ！　Ａｎｄ　"TCC_NEWLINE"Ｉ　ｌｏｖｅ　ｔｈａｔ　ｙｏｕ　ｓｗｏｏｎ　ｏｖｅｒ．．．"TCC_NEWLINE"ｗｈａｔｅｖｅｒ　ｉｔ　ｉｓ　ｙｏｕ　ｓｅｅ　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｍｅｎ　ｙｏｕ　ｆａｌｌ　ｆｏｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｏｕ　ｋｎｏｗ　Ｉ　ｗｏｕｌｄ　ｇｅｔ　ｙｏｕ　"TCC_NEWLINE"ｔｈｅ　ｔｈｒｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ．．．ｄｏｎ’ｔ　ｄｉｅ！　Ｉ　ｄｏｎ’ｔ　ｋｎｏー"TCC_NEWLINE"ｗ　ｗｈａｔ　Ｉ’ｄ　ｄｏ　ｗｉｔｈｏｕｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｅｄ　ｙｏｕ，　Ｓｉｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｈｅｈ．　Ｓｏｒｒｙ，　Ｄａｇｒ，　ｂｕｔ　Ｉ　ｔｈー"TCC_NEWLINE"ｉｎｋ．．．ｉｔ’ｓ　ｔｉｍｅ　ｆｏｒ　ｍｅ　ｔｏ　ｇｏ．"TCC_NEWLINE"．．ａｎｄ　ｆｏｒ　ｙｏｕ　ｔｏ　ｆｉｎｄ　ｙｏｕｒ　ｏｗー"TCC_NEWLINE"ｎ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎｄ　ａ　ｗａｙ．．．ｔｏ　ｂｅ　ａ　ｇｒｅａｔ　ｑｕー"TCC_NEWLINE"ｅｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｕｒｅ　ｙｏｕ　ｗｉｌｌ．．．ｂｅ　ｓｐｌｅｎｄー"TCC_NEWLINE"ｉｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ．．．ｍｙ　ｓｉｓｔｅｒ，　ａｆｔｅｒ　ａｌー"TCC_NEWLINE"ｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｓｉｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｔｔ！　Ｎｏ！　Ｄｏｎ’ｔ　ｌｅａｖｅ　ｍｅ！　Ｄｏｎ’"TCC_NEWLINE"ｔ　ｌｅａｖｅ　ｍｅ　ａｌｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｎｏ，　ｎｏ，　ｎｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｏｂ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5123_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｎ－ｎｏ．．．　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ．．．　Ｉ－Ｉ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！　Ｗｅ　ｎｅｅｄ　ｔｏ　ｆー"TCC_NEWLINE"ｏｃｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｂｅｃａｕｓｅ　ｏｆ　ｍｅ，　ｓｈｅ．．．ｓｈｅ’"TCC_NEWLINE"ｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ！　Ｔｈｉｓ　ｉｓ　ａ　ｂａｔｔｌｅｆｉｅｌｄ．　Ｗｅ"TCC_NEWLINE"’ｒｅ　ａｌｌ　ａ　ｈａｉｒ’ｓ　ｂｒｅａｄｔｈ　ｆｒｏｍ"TCC_NEWLINE"　ｄｅａｔｈ　ａｔ　ａｎｙ　ｇｉｖｅｎ　ｍｏｍｅｎｔ　ｈｅー"TCC_NEWLINE"ｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｈｅ’ｓ　ｒｉｇｈｔ，　Ｒｅｇｉｎｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄ－Ｄａｇｒ！　Ａｒｅ　ｙｏｕ　ｓｅｒｉｏｕｓ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｃｈｏｓｅ　ｆｏｒ　ｍｙｓｅｌｆ　ｔｏ　ｆｏｌｌｏｗ　"TCC_NEWLINE"ａｎｄ　ｐｒｏｔｅｃｔ　ｙｏｕｊｕｓｔ　ｌｉｋｅ　ｍｙ　ｓー"TCC_NEWLINE"ｉｓｔｅｒ　ｃｈｏｓｅ　ｔｏ　ｐｒｏｔｅｃｔ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｎｏｔ　ｙｏｕｒ　ｆａｕｌｔ．　Ｗｅ　ｍａー"TCC_NEWLINE"ｄｅ　ｔｈｅｓｅ　ｃｈｏｉｃｅｓ　ｏｕｒｓｅｌｖｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄａｇｒ，　Ｉ’ｍ．．．Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈａｔ　ｔｏ　ｓａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ｓａｙ　ａｎｙｔｈｉｎー"TCC_NEWLINE"ｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ　ｗｈａｔ　"TCC_NEWLINE"ｙｏｕ　ｃａｎ　ＤＯ，　Ｉ　ｈａｖｅ　ｏｎｌｙ　ｏｎｅ　ａー"TCC_NEWLINE"ｎｓｗｅｒ　ｆｏｒ　ｙｏｕ：　ｄｅｆｅａｔ　Ｆｆｎｉｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔａｋｅ　ｈｉｍ　ｄｏｗｎ　ｙｏｕｒｓｅｌｆ．　Ｉｔ’ｓ　"TCC_NEWLINE"ｈｏｗ　ｉｔ　ｈａｓ　ｔｏ　ｂｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｒｉｎｃｅｓｓ　Ｄａｇｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ，　ｄｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｏｆ　ｕｓ　ｈｅｒｅｍｙ　ｓｉｓｔｅｒ　ａｎｄ　Ｉ"TCC_NEWLINE"，　ａｌｌ　ｔｈｅ　ｐｅｏｐｌｅ　ｉｎ　Ａｓｋｒ，　ａｎｄ"TCC_NEWLINE"　ａｌｌ　ｔｈｅ　ｐｅｏｐｌｅ　ｉｎ　Ｎｉａｖｅｌｌｉｒ　"TCC_NEWLINE"ｔｏｏｗｅ　ｎｅｅｄ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｎｅｅｄ　ｙｏｕ　ｔｏ　ｓｅｔ　ｔｈｉｎｇｓ　ｒｉｇー"TCC_NEWLINE"ｈｔ．　Ｆｏｒ　ａｌｌ　ｏｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉ　ｕｎｄｅｒｓｔａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｅｆｅａｔ　ｈｉｍ．．．　Ｉ　ｗｉｌｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ，　Ｆｆｎｉｒ，　Ｂｒｏｔｈｅｒ，　ｂｕー"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｔｏ　ｓｔｏｐ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

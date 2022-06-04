@@ -1,0 +1,73 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6054] = TCC_OPEN_LEFT 
+"技に心を乗せる。。。" TCC_NEWLINE
+"シャナン様からの大切な教えです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6054] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"み、みんな、起きて！" TCC_NEWLINE
+"緊急事態、緊急事態よ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"うーん、むにゃむにゃ。。。" TCC_NEWLINE
+"アンナ隊長？" TCC_NEWLINE
+"こんな朝早くに何か。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"輸送隊が火を放たれたわ！" TCC_NEWLINE
+"今、アルフォンスたちが対応してる。" TCC_NEWLINE
+"私たちも急ぐわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"えええっ！？" TCC_NEWLINE
+"は、はい、今行きます！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。なんとか全焼は免れたけど、" TCC_NEWLINE
+"食料や備品が半分近くやられたわ。" TCC_NEWLINE
+"これじゃ帰国まで持つかどうか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"犯人を捕らえようとしましたが。。。" TCC_NEWLINE
+"炎に飛び込んでみずから命を絶ちました。" TCC_NEWLINE
+"おそらくこれは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ、間違いなくレティシアの命令。" TCC_NEWLINE
+"相手の弱みを狙ってくる陰湿さ。。。" TCC_NEWLINE
+"これまでの戦いを見ればわかるわ。" TCC_NEWLINE TCC_PUSH_A
+"彼女は自分の策のためなら、" TCC_NEWLINE
+"兵たちを犠牲にすることなんて" TCC_NEWLINE
+"何とも思っていない。" TCC_NEWLINE TCC_PUSH_A
+"戦闘の時も同じよ。" TCC_NEWLINE
+"彼女自身は兵を盾にしてすぐに退き、" TCC_NEWLINE
+"絶対に安全な位置を保っている。。。" TCC_NEWLINE TCC_PUSH_A
+"冷酷そのもの。。。" TCC_NEWLINE
+"でも敵に回すと" TCC_NEWLINE
+"これほど厄介な相手もいないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。冷酷、か。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お兄様？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"うまくいくかどうかは" TCC_NEWLINE
+"わからないけれど、" TCC_NEWLINE
+"一つ、思いついたことがある。" TCC_NEWLINE TCC_PUSH_A
+"一度、彼女と話をしてみよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ちゃんと話し合って、" TCC_NEWLINE
+"みんなに危害を加えないよう" TCC_NEWLINE
+"お願いする。。。とかですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"いや。。。彼女は冷酷な人だ。" TCC_NEWLINE
+"情で訴えても、" TCC_NEWLINE
+"それを弱みとしか見ないだろう。" TCC_NEWLINE TCC_PUSH_A
+"それなら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

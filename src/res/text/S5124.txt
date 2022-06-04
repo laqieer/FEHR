@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5124] = TCC_OPEN_LEFT 
+"ビラクだ。" TCC_NEWLINE
+"オレルアンの【狼騎士団】に属している。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

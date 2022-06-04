@@ -1,0 +1,130 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4132] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
+"フレイヤ様の御力を感じる。。。" TCC_NEWLINE
+"あの方の力を弱めないと、" TCC_NEWLINE
+"角笛は吹けないわ。" TCC_NEWLINE TCC_PUSH_A
+"。。。" TCC_TACTICIAN_NAME "さん。" TCC_NEWLINE
+"元の世界に戻りましょう。" TCC_NEWLINE
+"私のことは気にしないでね。" TCC_NEWLINE TCC_PUSH_A
+"きっと、あなたの目覚めを" TCC_NEWLINE
+"待ってる人たちが" TCC_NEWLINE
+"いっぱいいると思うから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_VERONICA
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。でも。。。もしも。。。" TCC_NEWLINE TCC_PUSH_A
+"もしも。。。" TCC_NEWLINE
+"フレイヤの話が" TCC_NEWLINE
+"ほんとうだったら？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"。。。あぅぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"アルフォンス王子は死んだのかもしれない。。。" TCC_NEWLINE
+"目がさめたら、そのことを" TCC_NEWLINE
+"知ってしまうかもしれない。。。" TCC_NEWLINE TCC_PUSH_A
+"それでも、" TCC_NEWLINE
+"あなたは目ざめられるの？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4132] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"どうしたの、シャロン？" TCC_NEWLINE
+"こないだから、ずっと寂しそうな顔。" TCC_NEWLINE TCC_PUSH_A
+"安心して。" TCC_NEWLINE
+"アルフォンスさんのことなら、大丈夫。" TCC_NEWLINE
+"目が覚めればきっとまた会えるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"本当。。。ですか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ。" TCC_NEWLINE
+"だから、元気出して。" TCC_NEWLINE
+"ほらほら、えいえいおー。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。ピアニーさん。" TCC_NEWLINE TCC_PUSH_A
+"わたしが花園で遊んだ、" TCC_NEWLINE
+"一番仲の良かった友達。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたですよね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。うん、そうよ。" TCC_NEWLINE
+"人間だった時の記憶はないけれど。。。" TCC_NEWLINE
+"あなたのことは、おぼろげに覚えてるの。" TCC_NEWLINE TCC_PUSH_A
+"だって、私たち" TCC_NEWLINE
+"とっても仲良しだったものね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの子。。。言ったんです。" TCC_NEWLINE
+"とりかえっこ遊びをしてた時、" TCC_NEWLINE
+"あの子はちょうどシャロンだったから。。。" TCC_NEWLINE TCC_PUSH_A
+"夢の蜜。。。あなたの分も、" TCC_NEWLINE
+"わたしがかわりにのんじゃった、って。" TCC_NEWLINE TCC_PUSH_A
+"わたし、あの時はずるいって、泣いたんです。" TCC_NEWLINE
+"わたしも飲みたかったのに、" TCC_NEWLINE
+"えいゆう、になりたかったのに。。。" TCC_NEWLINE TCC_PUSH_A
+"でも。。。今は、わかります。" TCC_NEWLINE
+"あの子はすべてを知ってて。。。" TCC_NEWLINE
+"二度と人に戻れないと知ってて。。。" TCC_NEWLINE TCC_PUSH_A
+"なんにもわかってなかった" TCC_NEWLINE
+"わたしの分まで。。。" TCC_NEWLINE
+"犠牲になったんです。" TCC_NEWLINE TCC_PUSH_A
+"そうですよね、ピアニーさん。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。" TCC_NEWLINE
+"私ね、人に" TCC_NEWLINE
+"幸せになって欲しかったの。" TCC_NEWLINE TCC_PUSH_A
+"子供の頃からずっとそう思ってた。" TCC_NEWLINE
+"それが私の幸せだったの。" TCC_NEWLINE TCC_PUSH_A
+"だからね、" TCC_NEWLINE
+"あなたが幸せでいてくれたら" TCC_NEWLINE
+"私も嬉しいな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わたし。。。わからないんです。" TCC_NEWLINE
+"ピアニーさん。。。" TCC_NEWLINE TCC_PUSH_A
+"わたし、あなたと" TCC_NEWLINE
+"夢でいっぱい遊んで、" TCC_NEWLINE
+"何度も取り換え遊びをして。。。" TCC_NEWLINE TCC_PUSH_A
+"お互いの思い出を教え合って。。。" TCC_NEWLINE
+"入れ替わった自分を演じて。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたと出会う前、" TCC_NEWLINE
+"いちばんはじめ。。。わたしは本当に" TCC_NEWLINE
+"シャロン王女だったんでしょうか？" TCC_NEWLINE TCC_PUSH_A
+"それとも本当はあなたが。。。" TCC_NEWLINE
+"わたしを救うために。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はんぶんこ、よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もともとはどっちだったかなんて、" TCC_NEWLINE
+"どっちでもいいの。それはもう、" TCC_NEWLINE
+"私にもあなたにもわからない。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたと私は、いっしょに遊んで、" TCC_NEWLINE
+"お互いの心を行き来して。。。" TCC_NEWLINE
+"そうして、二人ではんぶんこしたの。" TCC_NEWLINE TCC_PUSH_A
+"私も、あなたも。。。" TCC_NEWLINE
+"半分あなたで、半分私。" TCC_NEWLINE TCC_PUSH_A
+"だから、半分ずつの私たちは" TCC_NEWLINE
+"二人ともおんなじなの。" TCC_NEWLINE TCC_PUSH_A
+"だから、安心して。" TCC_NEWLINE
+"にこにこって笑って。" TCC_NEWLINE
+"私はそれが一番好き。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ピアニーさん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

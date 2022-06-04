@@ -1,0 +1,95 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4103] = TCC_OPEN_LEFT 
+"理想的な結末じゃあなかったが。。。" TCC_NEWLINE
+"前に進むしかない。そうだろ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4103] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あの、フロージ様、" TCC_NEWLINE
+"どうか元気出してくださいね？" TCC_NEWLINE TCC_PUSH_A
+""
+"大丈夫です。" TCC_NEWLINE
+"お兄様がきっといい感じの策を" TCC_NEWLINE
+"考えてくれますから！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。すまない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どーんと任せてください。" TCC_NEWLINE
+"なんたって、わたしたち特務機関は何度も" TCC_NEWLINE
+"世界の危機を救ってきてますからね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"世界の危機。。。" TCC_NEWLINE TCC_PUSH_A
+"もしも、" TCC_NEWLINE
+"夢の世界が滅びの危機にあると" TCC_NEWLINE
+"知ったならば。。。" TCC_NEWLINE TCC_PUSH_A
+"そして夢の世界が滅びれば、" TCC_NEWLINE
+"人の心もまた色褪せることを" TCC_NEWLINE
+"知ったならば。。。" TCC_NEWLINE TCC_PUSH_A
+"そなたら人間は。。。" TCC_NEWLINE
+"この世界を" TCC_NEWLINE
+"救おうとするのだろうか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もちろんです！" TCC_NEWLINE
+"世界を救うために" TCC_NEWLINE
+"がんばっちゃいますよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"その代償に。。。" TCC_NEWLINE
+"二度と元の世界に" TCC_NEWLINE
+"帰れぬとしても。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"夢の世界を、人間の心を、" TCC_NEWLINE
+"滅びから救えるのは、" TCC_NEWLINE
+"子供たちのみ。。。" TCC_NEWLINE TCC_PUSH_A
+"だが、夢の蜜を飲んだ者は、" TCC_NEWLINE
+"人ではなくなる。。。" TCC_NEWLINE
+"もはや元の世界には帰れぬ。" TCC_NEWLINE TCC_PUSH_A
+"子供たちには皆、帰る家がある。" TCC_NEWLINE
+"愛する家族がいる。。。" TCC_NEWLINE TCC_PUSH_A
+"それらすべてを失う。。。辛いことだ。" TCC_NEWLINE
+"そんな苦しみを" TCC_NEWLINE
+"人に強いることはできぬ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"フロージ様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そして。。。我らは考えた。。。" TCC_NEWLINE
+"それは罪深い考えだ。。。" TCC_NEWLINE TCC_PUSH_A
+"帰る家もない、" TCC_NEWLINE
+"誰からも愛されぬ子供ならば。。。" TCC_NEWLINE TCC_PUSH_A
+"人間の世界が苦痛でしかない、" TCC_NEWLINE
+"そんな子供ならば。。。" TCC_NEWLINE TCC_PUSH_A
+"夢の世界でだけは、" TCC_NEWLINE
+"特別な自分でいられる。。。" TCC_NEWLINE
+"それは、幸せなことではないか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"一人迷い込んだ人間の王女は。。。" TCC_NEWLINE
+"運命のいたずら。。。" TCC_NEWLINE
+"巻き込むべきではなかった子。。。" TCC_NEWLINE TCC_PUSH_A
+"だが、夢の扉を開いた以上。。。" TCC_NEWLINE
+"もはや後戻りはできぬ。。。" TCC_NEWLINE TCC_PUSH_A
+"我らは" TCC_NEWLINE
+"世界の滅びを免れるために、" TCC_NEWLINE
+"子供たちに蜜を与えた。" TCC_NEWLINE TCC_PUSH_A
+"無垢な子供たちを、" TCC_NEWLINE
+"世界を救う英雄という名のもとに" TCC_NEWLINE
+"犠牲にしたのだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

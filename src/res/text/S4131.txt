@@ -1,0 +1,111 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"アルフォンス王子は死んだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ、嘘だ。。。" TCC_NEWLINE
+"あなたはそう思ったわ。" TCC_NEWLINE
+"そう思いたかったの。" TCC_NEWLINE TCC_PUSH_A
+"これは現実じゃない、" TCC_NEWLINE
+"アルフォンス王子は" TCC_NEWLINE
+"生きているって。。。" TCC_NEWLINE TCC_PUSH_A
+"辛いでしょうね、悲しいでしょうね。" TCC_NEWLINE
+"だから、あなたの心が作り出したの、" TCC_NEWLINE
+"この夢の世界を。。。" TCC_NEWLINE TCC_PUSH_A
+"そして、あなた自身が" TCC_NEWLINE
+"亡くなったアルフォンス王子を" TCC_NEWLINE
+"かわりに演じている。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
+"う、嘘よ！" TCC_NEWLINE
+"アルフォンスさんはきっと生きてる。" TCC_NEWLINE
+"だまされないで。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_VERONICA
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"ほんとうに。。。うそなの？" TCC_NEWLINE
+"こたえて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"わわ、わかんないですぅ。" TCC_NEWLINE
+"わたしには、フレイヤ様の" TCC_NEWLINE
+"お話がほんとかうそか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_FREYJA
+"さあ、" TCC_NEWLINE
+"これでわかったでしょう？" TCC_NEWLINE
+"この夢は永遠に続いた方がいいの。" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"あなたは夢の中にいるべきなの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"すべてをあきらめ、" TCC_NEWLINE
+"私に身を委ねなさい。。。" TCC_NEWLINE TCC_PUSH_A
+"それが、あなたの幸せよ。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"どうして。。。抗おうとするの？" TCC_NEWLINE
+"私があなたを軽んじていたことを" TCC_NEWLINE
+"怒っているの？" TCC_NEWLINE TCC_PUSH_A
+""
+"それなら、" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"これまでの非礼を詫びましょう。" TCC_NEWLINE TCC_PUSH_A
+"あなたは、あなただけは、" TCC_NEWLINE
+"敬意を払うべき特別な人間。。。" TCC_NEWLINE
+"そう認めてさしあげます。" TCC_NEWLINE TCC_PUSH_A
+""
+"だから。。。あなたにはわかるでしょう？" TCC_NEWLINE
+"夢か、現か。" TCC_NEWLINE
+"どちらを選ぶべきか。" TCC_NEWLINE TCC_PUSH_A
+"永遠に夢の中にいるか、" TCC_NEWLINE
+"夢を捨てて目覚めるか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お兄様も言っていたでしょう？" TCC_NEWLINE
+"あなたは世界の理から外れた者。。。" TCC_NEWLINE
+"私たち神々とも違う、理外の者。" TCC_NEWLINE TCC_PUSH_A
+"あなたの夢は、格別。" TCC_NEWLINE
+"あなたの力があれば、" TCC_NEWLINE
+"夢はこのまま永遠となるのです。。。" TCC_NEWLINE TCC_PUSH_A
+"私とあなたの夢を叶えましょう。" TCC_NEWLINE
+"お兄様を蘇らせ、" TCC_NEWLINE
+"アルフォンス王子を蘇らせましょう。。。" TCC_NEWLINE TCC_PUSH_A
+"世界のすべてを、" TCC_NEWLINE
+"すべての世界を、" TCC_NEWLINE
+"夢で塗り潰しましょう。。。" TCC_NEWLINE TCC_PUSH_A
+"私と夢を選ぶなら、" TCC_NEWLINE
+"あなたは永遠の幸せを得られる。" TCC_NEWLINE
+"欲しいものはすべてあげましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"けれどもし。。。" TCC_NEWLINE
+"もし現を選ぶというのなら。" TCC_NEWLINE TCC_PUSH_A
+"目覚めた先に、" TCC_NEWLINE
+"アルフォンス王子はいない。" TCC_NEWLINE
+"あなたは絶望を見るでしょう。" TCC_NEWLINE TCC_PUSH_A
+"そう。。。" TCC_NEWLINE
+"それに現を選ぶというのなら、" TCC_NEWLINE
+"私は妖精たちを皆、殺します。" TCC_NEWLINE TCC_PUSH_A
+"たとえ私を討とうと、止められはしない。" TCC_NEWLINE
+"妖精たちの命は。。。そのピアニーの命も、" TCC_NEWLINE
+"私が授けたものなのだから。。。" TCC_NEWLINE TCC_PUSH_A
+"それでも望むというのなら、来なさい。。。" TCC_NEWLINE
+"私を討ってごらんなさい。。。" TCC_NEWLINE TCC_PUSH_A
+"もっとも。。。" TCC_NEWLINE
+"あなたが望もうと望むまいと" TCC_NEWLINE
+"目を覚まさせはしないけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

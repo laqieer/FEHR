@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5103] = TCC_OPEN_LEFT 
+"槍の使い方は、" TCC_NEWLINE
+"兄上に教わったんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

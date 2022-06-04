@@ -1,0 +1,181 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5011] = TCC_OPEN_LEFT 
+"。。。。。。ーー。。。。。。。。。" TCC_NEWLINE
+""
+"。。。うぅ。。。。。。う。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。ここは。。。。。。一体。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！　誰だ！？" TCC_NEWLINE
+"教えてくれ！" TCC_NEWLINE
+"ここはどこなんだ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。はぁ。失敗か。" TCC_NEWLINE
+"今度こそいけると思ったんだが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。？　何の。。。" TCC_NEWLINE
+"話をしている。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"仕方ない。" TCC_NEWLINE
+"もったいないけど処分するか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"な。。。何をする！？" TCC_NEWLINE
+"やめろっ。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！　刃を向けた。。。" TCC_NEWLINE
+"やはり失敗だな。" TCC_NEWLINE
+"それなら躊躇する理由もない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"くっ。。。！　ちくしょう。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！　。。。逃げられたか。まあいい。" TCC_NEWLINE
+"そのうち野垂れ死ぬだろう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はあ、はあ。。。" TCC_NEWLINE TCC_PUSH_A
+"ここはどこだ？" TCC_NEWLINE
+"見渡す限り荒れ果てて。。。。。。" TCC_NEWLINE
+"戦をしているのか？" TCC_NEWLINE TCC_PUSH_A
+"。。。うぅ、頭がっ。。。。。。！。。。。。。" TCC_NEWLINE
+"。。。。。。あ。。。。。。う。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"くっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様！　大丈夫ですかっ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"僕は平気だ！" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "は。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"無事ですっ、ここにいますっ！" TCC_NEWLINE
+"それよりこの敵は" TCC_NEWLINE
+"何なんですかーーーっ！？！？" TCC_NEWLINE TCC_PUSH_A
+"いつのまにこんなにたくさん" TCC_NEWLINE
+"アスクに近づいてきたんです！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"分からない。。。" TCC_NEWLINE
+"警備兵たちは、気づいた時には" TCC_NEWLINE
+"もう国境の目前に迫っていたと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そんな、魔法じゃないんですから！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。魔法。。。魔道。。。？" TCC_NEWLINE
+"。。。まさか。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お兄様、心当たりでも？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな、見つけたわ！" TCC_NEWLINE
+"あいつが指揮官よ！" TCC_NEWLINE TCC_PUSH_A
+"あいつを倒せばとりあえずこの危機は" TCC_NEWLINE
+"乗り越えられるはず。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたがアスク王国の" TCC_NEWLINE
+"アルフォンス王子。。。" TCC_NEWLINE TCC_PUSH_A
+"そして召喚師の" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "ですね。" TCC_NEWLINE TCC_PUSH_A
+"初めてお目にかかります。" TCC_NEWLINE
+"私はニザヴェリル王国" TCC_NEWLINE
+"ファフニール王の妹、レギン。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"やはりニザヴェリル王国か。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"私の目的はふたつ。" TCC_NEWLINE
+"アスク王国の占領。" TCC_NEWLINE
+"そしてその召喚師の身柄の確保です。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"えっ！？　な、何で" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんを！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"それをあなた方が" TCC_NEWLINE
+"知る必要はありません。" TCC_NEWLINE
+"さあ、覚悟！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"くっ。。。強い。。。！" TCC_NEWLINE
+"ここは一旦退くしか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5011] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"敵が退いていきます。。。" TCC_NEWLINE
+"とりあえず助かりましたー。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ところでお兄様っ！" TCC_NEWLINE TCC_PUSH_A
+"ニザヴェリルって、" TCC_NEWLINE
+"あの小人の国といわれている" TCC_NEWLINE
+"ニザヴェリル王国ですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ああ。手先の器用な小人族の国で" TCC_NEWLINE
+"優れた魔道科学の力を持つ国だ。" TCC_NEWLINE TCC_PUSH_A
+"彼らなら、僕らに気づかれず" TCC_NEWLINE
+"国境に近づくことも可能\だろう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ま、まどうかがく？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"魔道と科学を融合させた技術よ。" TCC_NEWLINE
+"ニザヴェリルはこの世界で唯一" TCC_NEWLINE
+"その研究に成功した国なの。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも。。。油断していたわ。" TCC_NEWLINE
+"最近のニザヴェリルの動向が" TCC_NEWLINE
+"怪しいことは把握していたのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"とにかく、彼らが完全に撤退するまで" TCC_NEWLINE
+"ここで食い止めなきゃ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あのレギン王女を" TCC_NEWLINE
+"倒さなきゃいけないんです？" TCC_NEWLINE TCC_PUSH_A
+"うーん、" TCC_NEWLINE
+"わたしと同い年くらいなのに。。。" TCC_NEWLINE
+"気が重いです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。？" TCC_NEWLINE
+"何だい、" TCC_TACTICIAN_NAME "。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"" TCC_TACTICIAN_NAME "さん？" TCC_NEWLINE
+"何か気になることでも？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ああ、" TCC_TACTICIAN_NAME "。" TCC_NEWLINE
+"僕もそう思う。" TCC_NEWLINE TCC_PUSH_A
+"あのレギン王女。。。" TCC_NEWLINE
+"戦い方にどこか迷いがある気がする。" TCC_NEWLINE
+"もう少し様子を見よう。" TCC_NEWLINE TCC_PUSH_A
+""
+"彼女がなぜ君を狙うのかわからないけど。。。" TCC_NEWLINE
+"大丈夫だよ、" TCC_TACTICIAN_NAME "。" TCC_NEWLINE
+"君は絶対、僕が守るから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

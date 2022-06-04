@@ -1,0 +1,49 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5082_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈｍ．．．　Ｗｈａｔ’ｓ　ａｌｌ　ｔｈｉｓ　ｄｏｉｎｇ　ｈー"TCC_NEWLINE"ｅｒｅ？　Ｙｏｕ　ｔｈｅｒｅ！　Ｐｌｅａｓｅ　ｔａｋｅ　ｔー"TCC_NEWLINE"ｈｉｓ　ｏｖｅｒ　ｔｏ　ｔｈｅ　ｃｏｕｒｔｙａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃａｎ　ａｎｙｏｎｅ　ｅｌｓｅ　ｌｅｎｄ　ａ　ｆｒｅｅ　ｈー"TCC_NEWLINE"ａｎｄ？　Ｉ　ｈａｖｅ　ａ　ｆｅｗ　ｏｔｈｅｒ　ｔｈｉｎｇー"TCC_NEWLINE"ｓ　ｔｈａｔ　ｎｅｅｄ　ｔｏ　ｂｅ　ｈａｕｌｅｄ　ｏｆｆ　"TCC_NEWLINE"ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｈｅｌｌｏ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ！　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！　．．．Ｄｉｄ　ｙー"TCC_NEWLINE"ｏｕ　ｖｉｓｉｔ　Ｆｆｎｉｒ　ｉｎ　ｈｉｓ　ｃｅｌｌ　ａｇー"TCC_NEWLINE"ａｉｎ　ｔｏｄａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．．．　Ｈｅ’ｓ　ｂｅｅｎ　ｓｕｆｆｅｒｉｎｇ　ｆｏー"TCC_NEWLINE"ｒ　ａ　ｌｏｎｇ　ｔｉｍｅ　ｎｏｗｆｒｏｍ　ｎｉｇｈｔｍａー"TCC_NEWLINE"ｒｅｓ．．．ａｎｄ　ｈｅａｄａｃｈｅｓ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ　ｆｏｒ　ａｌｌ　ｔｈｅ　ｄｅｓｔｒｕｃー"TCC_NEWLINE"ｔｉｏｎ　ｈｅ’ｓ　ｃａｕｓｅｄ　ａｓ　ａ　ｒｅｓｕｌｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　ｗｅｌｌ，　ｉｔ　ｈａｓ　ｃｅｒｔａｉｎｌｙ　ｂー"TCC_NEWLINE"ｅｅｎ　ｋｅｅｐｉｎｇ　ｔｈｅ　Ｈｅｒｏｅｓ　ｂｕｓｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｑｕｅｅｎ　ａｓｓｕｒｅｓ　ｕｓ　ｓｈｅ’ｓ　ａｌー"TCC_NEWLINE"ｌ　ｒｉｇｈｔ　ｔｏｏ，　ｂｕｔ　ｓｈｅ　ｈａｓ　ｂｅｅｎ"TCC_NEWLINE"　ｓｔａｙｉｎｇ　ｉｎ　ｂｅｄ　ｔｏ　ｂｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ　ａｎｄ　Ｓｈａｒｅｎａ　ｈａｖｅ　ｂｅｅｎ"TCC_NEWLINE"　ｌｏｏｋｉｎｇ　ａｆｔｅｒ　ｔｈｅ　ｋｉｎｇｄｏｍ’ｓ　"TCC_NEWLINE"ａｆｆａｉｒｓ　ｉｎ　ｈｅｒ　ｓｔｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｄｏｎ’ｔ　ｗｏｒｒｙ　ａｂｏｕｔ　ｔｈａｔ，　Ｐー"TCC_NEWLINE"ｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！　Ｉｔ’ｓ　ｎｏｔ　ｌｉｋｅ"TCC_NEWLINE"　ａｎｙ　ｏｆ　ｔｈｉｓ　ｗａｓ　ｙｏｕｒ　ｆａｕｌｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅｆｅｎｓｅ　ｉｓ　ｍｙ　ｒｅｓｐｏｎｓｉｂｉｌｉｔｙ　"TCC_NEWLINE"ａｆｔｅｒ　ａｌｌ．　Ｙｏｕ’ｒｅ　ｔｈｅ　ｏｎｅ　ｈｅｌー"TCC_NEWLINE"ｐｉｎｇ　ｕｓ　ｏｕｔ．　Ａｎｄ　ｏｎ　ｔｈａｔ　ｎｏｔｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｉｄ　ｙｏｕ　ｓａｙ　ｙｏｕ　ｒｅｍｅｍｂｅｒｅｄ　ｓｏー"TCC_NEWLINE"ｍｅｔｈｉｎｇ　ｔｈａｔ　ｍｉｇｈｔ　ｂｅ　ａ　ｃｌｕｅ？"TCC_NEWLINE"　Ｔｈｅ　Ｔｏｗｅｒ　ｏｆ　Ｎｉａｖｅｌｌｉｒ，　ｗａｓ　"TCC_NEWLINE"ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｉｇｈｔ，　ｗｅｌｌ，　ｉｔ’ｓ　ｐｒｉｍａｒｉｌｙ　ｕー"TCC_NEWLINE"ｓｅｄ　ｆｏｒ　ｔｈｅ　ｋｉｎｇ’ｓ　ａｓｃｅｎｓｉｏｎ　"TCC_NEWLINE"ｃｅｒｅｍｏｎｙ，　ｗｈｅｒｅ　ｔｈｅ　ｋｉｎｇ　ｆｉｒｓー"TCC_NEWLINE"ｔ　ｔａｋｅｓ　ｔｈｅ　ｔｈｒｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｃｔｕａｌｌｙ，　ｗｈｅｎ　Ｆｆｎｉｒ　ｆｉｒｓｔ　ｓｔー"TCC_NEWLINE"ａｒｔｅｄ　ａｃｔｉｎｇ　ｓｔｒａｎｇｅ，　ｔｒ　ｗｅｎｔ"TCC_NEWLINE"　ｔｏ　ｔｈｅ　ｔｏｗｅｒ　ｔｈｉｎｋｉｎｇ　ｈｅ　ｍｉｇー"TCC_NEWLINE"ｈｔ　ｆｉｎｄ　ｓｏｍｅ　ｃｌｕｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｈｅｎ　ｈｅ　ｃａｍｅ　ｂａｃｋ．．．　Ｗｅｌｌ"TCC_NEWLINE"，　ｈｅ’ｓ　ｗｏｒｎ　ａ　ｇｒｉｍ　ｅｘｐｒｅｓｓｉｏｎ"TCC_NEWLINE"　ｅｖｅｒ　ｓｉｎｃｅ，　ａｎｄ　ｓｉｄｅｓ　ｗｉｔｈ　Ｆー"TCC_NEWLINE"ｆｎｉｒ　ｉｎ　ａｌｌ　ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍａｙｂｅ　ｉｆ　ｗｅ　ｖｉｓｉｔ　ｔｈｅ　Ｔｏｗｅｒ　ｏー"TCC_NEWLINE"ｆ　Ｎｉａｖｅｌｌｉｒ　ｔｏｏ，　ｗｅ　ｍｉｇｈｔ　ｆｉｎー"TCC_NEWLINE"ｄ　ｓｏｍｅ　ｉｎｆｏｒｍａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｉｔ’ｓ　ｌｏｃａｔｅｄ　ｈｉｇｈ　ｏｎ　ａ　ｓｔー"TCC_NEWLINE"ｅｅｐ　ｍｏｕｎｔａｉｎｓｉｄｅ，　ａｎｄ　ｔｈｅ　ｇｕａー"TCC_NEWLINE"ｒｄｓ　ａｒｅ　ｌｉｋｅｌｙ　ｏｎ　ｈｉｇｈ　ａｌｅｒｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｍｕｃｈ　ａｓ　Ｉ’ｄ　ｌｉｋｅ　ｔｏ　ｈａｖｅ　ａ"TCC_NEWLINE"　ｌｏｏｋ　ａｒｏｕｎｄ，　ｕｎｄｅｒ　ｔｈｅ　ｃｉｒｃｕー"TCC_NEWLINE"ｍｓｔａｎｃｅｓ，　Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｉｔ’ｓ　ｆー"TCC_NEWLINE"ｅａｓｉｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｔｈａｔ’ｓ　ａｌｌ　ｒｉｇｈｔ！　Ｉ’ｖｅ　ｂｅー"TCC_NEWLINE"ｅｎ　ｒｅｌｙｉｎｇ　ｏｎ　ｙｏｕ　ａｌｌ　ｓｏ　ｍｕｃｈ"TCC_NEWLINE"，　Ｉ　ｆｅｅｌ　Ｉ’ｍ　ａｓｋｉｎｇ　ｍｏｒｅ　ｔｈａｎ"TCC_NEWLINE"　ｍｙ　ｓｈａｒｅ　ｆｒｏｍ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ’ｌｌ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｗａｉｔ　ｕｎｔｉｌ"TCC_NEWLINE"　ｔｈｉｎｇｓ　ｃａｌｍ　ｄｏｗｎ　ａ　ｌｉｔｔｌｅ　ｍｏー"TCC_NEWLINE"ｒｅ，　ａｎｄ　ｔｈｅｎ　ｗｅ’ｌｌ　ｒｅｃｏｎｓｉｄｅｒ"TCC_NEWLINE"　ｖｉｓｉｔｉｎｇ　ｔｈｅ　ｔｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FJORM
+"Ｅｒ，　ｅｘｃｕｓｅ　ｍｅ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ"TCC_NEWLINE"．　Ｍｉｇｈｔ　Ｉ　ｓｐｅａｋ　ｗｉｔｈ　ｙｏｕ　ａ　ｍｏー"TCC_NEWLINE"ｍｅｎｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　Ｐｒｉｎｃｅｓｓ　Ｆｊｏｒｍ，　ｈｅｌｌｏ．　Ｄｏ"TCC_NEWLINE"　ｙｏｕ　ｎｅｅｄ　ｓｏｍｅｔｈｉｎｇ　ｆｒｏｍ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｅ’ｖｅ　ｊｕｓｔ　ｒｅｃｅｉｖｅｄ　ｒｅｐｏｒｔ　ｔｈー"TCC_NEWLINE"ａｔ　ｔｈｅ　ｒｅｍｎａｎｔｓ　ｏｆ　Ｎｉａｖｅｌｌｉｒ’"TCC_NEWLINE"ｓ　ａｒｍｙ　ｈａｖｅ　ｉｎｖａｄｅｄ　ａ　ｂｏｒｄｅｒ　"TCC_NEWLINE"ｖｉｌｌａｇｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｄｏ　ｎｏｔ　ｓｅｎｄ　ｈｅｌｐ　ｓｏｏｎ，　"TCC_NEWLINE"ｔｈｅｙ　ｍａｙ　ｎｏｔ　ｌａｓｔ　ｌｏｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？　Ｎｏｗ？！　Ｉ’ｍ　ｓｏｒｒｙ　ｆｏｒ　ｔｈｅ"TCC_NEWLINE"　ｂｕｒｄｅｎ，　ｂｕｔ　Ｉ　ｈａｖｅ　ｍｙ　ｈａｎｄｓ　"TCC_NEWLINE"ｆｕｌｌ　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｌｌ　ｙｏｕ　ｔａｋｅ　ｃａｒｅ　ｏｆ　ｔｈｅ　ｉｎｖー"TCC_NEWLINE"ａｄｅｒｓ　ｆｏｒ　ｍｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5082_EN] = TCC_OPEN_LEFT
+"Ｔｈｅ　ｗｏｒｌｄ　ｉｓ　ｌａｒｇｅｒ　ｔｈａｎ　ａｎｙ　"TCC_NEWLINE"ｏｆ　ｕｓ　ｃｏｕｌｄ　ｐｏｓｓｉｂｌｙ　ｃｏｍｐｒｅｈｅー"TCC_NEWLINE"ｎｄ．．．　Ｉ　ｍｕｓｔ　ｎｅｖｅｒ　ｓｔｏｐ　ｌｅａｒｎー"TCC_NEWLINE"ｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

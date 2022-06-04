@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5022] = TCC_OPEN_LEFT 
+"砂にまみれた傭兵人生なんて、" TCC_NEWLINE
+"もううんざりだぜ。。。俺は王になる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

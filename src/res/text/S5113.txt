@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5113] = TCC_OPEN_LEFT 
+"今は平民に身をやつしていますけど、" TCC_NEWLINE
+"私、名門ヌーヴェル家の血筋ですの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

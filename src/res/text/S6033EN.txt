@@ -1,0 +1,19 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6033_EN] = TCC_OPEN_LEFT
+"Ｉ’ｍ　Ｎｅｉｍｉ．　Ｉ’ｖｅ　ｌｅａｒｎｅｄ　ａ　ｌｉｔー"TCC_NEWLINE"ｔｌｅ　ｏｆ　ａｒｃｈｅｒｙ．　Ｉ　ｈｏｐｅ　ｉｔ　ｗｉｌー"TCC_NEWLINE"ｌ　ｂｅ　ｈｅｌｐｆｕｌ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6033_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｍｙ　ｓｉｎｃｅｒｅ　ａｐｏｌｏｇｉｅｓ，　Ｐｒｉｎｃｅ　"TCC_NEWLINE"Ｘａｎｄｅｒ．　Ｉｔ　ｓｅｅｍｓ　Ｉ’ｖｅ　ｂｒｏｕｇｈｔ"TCC_NEWLINE"　ｙｏｕ　ｏｎ　ａｎｏｔｈｅｒ　ｌｏｎｇ　ｊｏｕｒｎｅｙ　"TCC_NEWLINE"ｔｏ　ａ　ｆｒｕｉｔｌｅｓｓ　ｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_XANDER
+"Ｙｏｕ　ｎｅｅｄｎ’ｔ　ｗｏｒｒｙ．　Ｐｒｉｎｃｅｓｓ　Ｖー"TCC_NEWLINE"ｅｒｏｎｉｃａ　ｒｅｑｕｅｓｔｅｄ　Ｉ　ａｃｃｏｍｐａｎｙ"TCC_NEWLINE"　ｙｏｕ，　ｓｏ　ｉｔ　ｉｓ　ｍｙ　ｐｌｅａｓｕｒｅ，　ｏー"TCC_NEWLINE"ｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅ　Ｘａｎｄｅｒ．　Ｙｏｕ"TCC_NEWLINE"’ｖｅ　ｍａｎａｇｅｄ　ｔｏ　ｇｉｖｅ　ｈｅｒ　ｔｈｅ　ｓー"TCC_NEWLINE"ｕｐｐｏｒｔ　Ｉ　ａｌｗａｙｓ　ｗｉｓｈｅｄ　Ｉ　ｗｅｒｅ"TCC_NEWLINE"　ａｂｌｅ　ｔｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｉｆ　ｓｏｍｅｔｈｉｎｇ　ｗｅｒｅ　ｔｏ　ｈａｐー"TCC_NEWLINE"ｐｅｎ　ｔｏ　ｍｅ，　Ｉ　ｋｎｏｗ　ｔｈａｔ　Ｉ　ｃａｎ　"TCC_NEWLINE"ｔｒｕｓｔ　ｔｈａｔ　ｓｈｅ　ｗｉｌｌ　ｂｅ　ｓａｆｅ　ｗー"TCC_NEWLINE"ｉｔｈ　ｙｏｕ　ｂｅｓｉｄｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｌｅａｓｅ．　Ｙｏｕ　ａｒｅ　ｈｅｒ　ｏｎｌｙ　ｂｒｏｔー"TCC_NEWLINE"ｈｅｒ．　Ｙｏｕ　ｃａｎｎｏｔ　ｂｅ　ｒｅｐｌａｃｅｄ　ｓー"TCC_NEWLINE"ｏ　ｅａｓｉｌｙ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｓｏ，　ｗｈａｔ　ｓｈａｌｌ　ｗｅ　ｄｏ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｋｅｅｐ　ｇｏｉｎｇ．　Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　"TCC_NEWLINE"ｌｏｎｇ　ｉｔ　ｔａｋｅｓ．　Ｎｏ　ｍａｔｔｅｒ　ｔｈｅ　"TCC_NEWLINE"ｃｏｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｂｒｅａｋ　ｔｈー"TCC_NEWLINE"ｅ　ｃｕｒｓｅ　ｏｆ　Ｅｍｂｌａ’ｓ　ｂｌｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

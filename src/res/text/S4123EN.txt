@@ -1,0 +1,42 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4123_EN] = TCC_OPEN_LEFT
+"Ｔｉｍｅ　ｍａｙ　ｐａｓｓ　ａｎｄ　ｔｈｅ　ｗｏｒｌｄ　ｍー"TCC_NEWLINE"ａｙ　ｃｈａｎｇｅ，　ｂｕｔ　ｐｅｏｐｌｅ　ｗｉｌｌ　ｎｅー"TCC_NEWLINE"ｖｅｒ　ｓｔｏｐ　ｆｉｇｈｔｉｎｇ　ｅａｃｈ　ｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4123_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｆｌｙ　ｎｏｗ，　Ｔｒｉａｎｄｒａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｒｉｎｇ　ｔｈｅ　ｌｆａｒ　ｗｈｏ　ｈａｖｅ　ａｌｌｉｅー"TCC_NEWLINE"ｄ　ｗｉｔｈ　ｔｈｅ　ｍｏｒｔａｌｓ　ｊｕｓｔ　ｗｈａｔ　"TCC_NEWLINE"ｔｈｅｙ　ｄｅｓｅｒｖｅ．．．　Ｂｒｉｎｇ　ｔｈｅｍ　ｄｅー"TCC_NEWLINE"ａｔｈ．　Ａｌｌ　ｏｆ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"Ａｓ　ｙｏｕ　ｗｉｌｌ　ｉｔ，　Ｌａｄｙ　Ｆｒｅｙｊａ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｉａｎｄｒａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏｍｅｔｈｉｎｇ　ｍｏｒｅ，　Ｌａｄｙ　Ｆｒｅｙｊａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｌｕｍｅｒｉａ．．．ａｎｄ　ｙｏｕ　ｃｏｎｔｉｎｕｅ　ｏー"TCC_NEWLINE"ｂｅｙｉｎｇ　ｅｖｅｎ　ａｓ　ｔｈｅ　ｌｉｆｅ　ｗｉｔｈｉー"TCC_NEWLINE"ｎ　ｙｏｕ　ｉｓ　ｗｏｒｎ　ｄｏｗｎ　ｕｎｔｉｌ　ｎｏｔｈー"TCC_NEWLINE"ｉｎｇ　ｉｓ　ｌｅｆｔ．．．　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ．．．ｕｓｅｄ　ｙｏｕ．　Ａｎｄ　ｙｏｕ　ｋｎー"TCC_NEWLINE"ｏｗ　ｉｔ．　Ｙｅｔ　ｅｖｅｎ　ｓｔｉｌｌ．．．　Ｓｏ　Ｉ"TCC_NEWLINE"　ａｓｋ　ａｇａｉｎ：　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ｌｉｆｅ　ｂｅｌｏｎｇｓ　ｔｏ　ｙｏｕ，　Ｌａｄｙ　"TCC_NEWLINE"Ｆｒｅｙｊａ．．．　Ｅｖｅｒｙｔｈｉｎｇ　Ｉ　ｈａｖｅ，　"TCC_NEWLINE"ｅｖｅｒｙｔｈｉｎｇ　Ｉ　ＡＭ．．．　Ｉｔ’ｓ　ａｌｌ　ｂー"TCC_NEWLINE"ｅｃａｕｓｅ　ｏｆ　ｙｏｕ．　Ｉ　ａｍ　ｙｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｃａｎ　ｏｆｆｅｒ　ｙｏｕ　ａｎｙ　ｃｏｍｆｏｒー"TCC_NEWLINE"ｔ，　Ｉ　ｗｉｌｌ．　Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ．　Ｔｈー"TCC_NEWLINE"ａｔ　ｉｓ　ｙｏｕｒ　ａｎｓｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｂｅｌｉｅｖｅ　ｙｏｕ．．．ｏｗｅ　ｉｔ　ｔｏ　ｍー"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｅｌｌ，　ｎｏ．　Ｔｈｅｒｅ’ｓ　ｍｏｒｅ．　Ｉｔ"TCC_NEWLINE"　ｉｓ　ｎｏｔ　ｐｒｏｐｅｒ　ｆｏｒ　ｍｅ　ｔｏ　ａｄｍｉー"TCC_NEWLINE"ｔ　ｔｈｉｓ，　ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｕｍｅｒｉａ　ａｎｄ　Ｉ．．．　Ｗｅ　ａｄｏｒｅ　ｙｏー"TCC_NEWLINE"ｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ．．．ａｄｏｒｅ　ｍｅ？　Ｙｏｕ　ｔｈｉｎｋ　ｓｏ　"TCC_NEWLINE"ｈｉｇｈｌｙ　ｏｆ　ｍｅ．．．ａｓ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ｍｅｍｏｒｉｅｓ　ｏｆ　ｍｏｒｔａｌ　ｌｉｆｅ　ａｒー"TCC_NEWLINE"ｅ　ｌｉｋｅ　ｔｈｏｓｅ　ｏｆ　ａ　ｄｒｅａｍ　ｆｒｏｍ　"TCC_NEWLINE"ｌｏｎｇ　ａｇｏ，　ｂｕｔ　ｔｈｅｙ　ａｒｅ　ｎｏｔ　ａｌー"TCC_NEWLINE"ｌ　ｇｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｍｅｍｂｅｒ　ｗａｎｔｉｎｇ　ｔｏ　ｄｏ　ｋｉｎｄ"TCC_NEWLINE"　ｔｈｉｎｇｓ　ｆｏｒ　ｔｈｏｓｅ　Ｉ　ｃａｒｅ　ａｂｏｕー"TCC_NEWLINE"ｔ．．．　Ｅｖｅｎ　ｉｆ　ｔｈｅｒｅ　ｗａｓ　ｎｏ　ｒｅｗー"TCC_NEWLINE"ａｒｄ．．．　Ｅｖｅｎ　ｉｆ　Ｉ　ｄｉｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉ　ｄｏ　ｎｏｔ　ｕｎｄｅｒｓｔａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｄｉｅ，　ｙｏｕ　ｃａｎ　ｎｏ　ｌｏｎｇｅｒ"TCC_NEWLINE"　ｂｅ　ｗｉｔｈ　ｔｈｅ　ｐｅｒｓｏｎ　ｙｏｕ　ｃａｒｅ　"TCC_NEWLINE"ｆｏｒ．　Ｓｏ　ｗｈａｔ　ｉｓ　ｔｈｅ　ｐｕｒｐｏｓｅ，　"TCC_NEWLINE"ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈａｔ　ｔｈｅ　ｗａｙ　ｏｆ　ｍｏｒｔａｌ　ｌｏｖー"TCC_NEWLINE"ｅ？　Ｂｅｃａｕｓｅ　ｔｈｅｉｒ　ｆｒａｇｉｌｅ　ｌｉｖｅー"TCC_NEWLINE"ｓ　ａｒｅ　ｓｏ　ｅａｓｉｌｙ　ｅｎｄｅｄ，　Ｉ　ｓｕｐｐー"TCC_NEWLINE"ｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｇｏｄｓ　ａｒｅ　ａｂｏｖｅ　ｓｕｃｈ　ｐｉｔｉａｂー"TCC_NEWLINE"ｌｅ　ｓｈｏｒｔ－ｓｉｇｈｔｅｄｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｐｏｌｏｇｉｅｓ，　Ｌａｄｙ　Ｆｒｅｙｊａ．．．　Ｓｕｃー"TCC_NEWLINE"ｈ　ｌｏｗｌｙ　ｔｈｏｕｇｈｔｓ　ｈａｖｅ　ｎｏ　ｐｌａｃー"TCC_NEWLINE"ｅ　ｉｎ　ｙｏｕｒ　ｅａｒｓ．　Ｉ　ｗｉｌｌ　ｔａｋｅ　ｍー"TCC_NEWLINE"ｙ　ｌｅａｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

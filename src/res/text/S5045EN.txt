@@ -1,0 +1,66 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｙｏｏ－ｈｏｏ！　Ｙｏｕ’ｒｅ　ｔｈａｔ　ｃｒｅｗ　ｆｒｏー"TCC_NEWLINE"ｍ　Ａｓｋｒ，　Ｉ’ｍ　ｇｕｅｓｓｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｅｓ．　Ａｎｄ．．．ｗｈｏ　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ　Ｊｔｕｎｈｅｉｍｒ’ｓ　ｐｒｉｎｃｅｓｓ　ｒｏｙａー"TCC_NEWLINE"ｌ．　Ｙｏｕ　ｃａｎ　ｃａｌｌ　ｍｅ　Ｄａｇｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗａｎｔ　ｔｈａｔ　ｍａｇｉｃ　ｓｗｏｒｄ　Ｎｉａー"TCC_NEWLINE"ｖｅｌｌｉｒ　ｇａｖｅ　ｕｓ，　ｄｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｈ－ｔｈａｔ’ｓ　ｒｉｇｈｔ！　Ｗｅ’ｒｅ　ｄｅｓｐｅｒー"TCC_NEWLINE"ａｔｅ　ａｎｄ　ｎｅｅｄ　ｉｔｓ　ｐｏｗｅｒ．　Ｗｉｌｌ　"TCC_NEWLINE"ｙｏｕ　ｈｅｌｐ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐａｓｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａ　Ｈｕｈ？！　Ｗｈｙ？　Ｗｅ　ｎｅｅｄ　ｉｔ！　Ｗｉー"TCC_NEWLINE"ｔｈｏｕｔ　Ｇｒａｍｒ，　ｗｅ’ｒｅ　ｌｏｓｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏｕｎｄｓ　ｌｉｋｅ　ｙｏｕｒ　ｐｒｏｂｌｅｍ！　Ｉ　ｍー"TCC_NEWLINE"ｉｓｓｅｄ　ｔｈｅ　ｐａｒｔ　ｗｈｅｒｅ　Ｉ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｃａｒｅ．　Ｍｏｖｉｎｇ　ｏｎ　ｔｏ　ｔｈｉｎｇｓ　ｔｈー"TCC_NEWLINE"ａｔ　ｍａｔｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｄｅｆｅａｔ　ｙｏｕ，　ｎｏ　ｏｎｅ　ｗｉｌｌ　"TCC_NEWLINE"ｄｏｕｂｔ　ｈｏｗ　ｓｔｒｏｎｇ　Ｉ　ａｍ！　Ｔｈｅｎ　Ｉ"TCC_NEWLINE"’ｌｌ　ｂｅ　ｔｈｅ　ｎｅｘｔ　ｑｕｅｅｎ！　Ｇｅｔ　ｉｔ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｓｉｄｅｓ，　Ｉ’ｍ　ｔｈｅ　ｂｅｔｔｅｒ　ｄａｕｇｈー"TCC_NEWLINE"ｔｅｒ　ｂｙ　ＦＡＲｅｖｅｎ　ｉｆ　Ｍｏｍ　ｎｅｖｅｒ　ｓー"TCC_NEWLINE"ｔｏｐｓ　ｔａｌｋｉｎｇ　ａｂｏｕｔ　Ｎｔｔ，　Ｎｔｔ，　"TCC_NEWLINE"Ｎｔｔ．．．　ＵＧＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｕｍｍ．．．　Ｉｓ　ｔｈｉｓ　ｒｅｌｅｖａｎｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｒｉｇｈｔ！　Ｓｏｒｒｙ！　Ｉ　ｍｕｓｔ　ｍａｋｅ"TCC_NEWLINE"　ｎｏ　ｓｅｎｓｅ　ｔｏ　ｙｏｕ．．．ｂｕｔ　ｙｏｕ’ｌｌ"TCC_NEWLINE"　ｄｉｅ　ｈｅｒｅ，　ｓｏ　ｎｏ　ｕｓｅ　ｅｘｐｌａｉｎｉー"TCC_NEWLINE"ｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｔｈｅ　ｃａｒｎａｇｅ　ＢＥＧＩＮ！　Ｔｉｍｅ　ｔー"TCC_NEWLINE"ｏ　ｍｅｅｔ　Ｓｋｉｎｆａｘｉ！　Ｙｏｕ’ｒｅ　ａｌｌ　ａー"TCC_NEWLINE"ｂｏｕｔ　ｔｏ　ｂｅ　ｃｒｕｓｈｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｉｓ　ｉｓ　ａ　ｐｅａｃｅ－ｌｏｖｉｎｇ　ｐｅｒｓｏｎ"TCC_NEWLINE"？！　Ｗｈａｔ　ｎｏｎｓｅｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｈｕｈ．．．　Ｇｕｅｓｓ　Ｉ　ｌｏｓｅ！　Ｙｏｕ　ｇｕｙｓ"TCC_NEWLINE"　ｒｅａｌｌｙ　ａｒｅ　ｓｕｐｅｒ　ｓｔｒｏｎｇ．　Ｎｏ　"TCC_NEWLINE"ｆａｉｒ！　Ｂｏｏｏｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｃａｒｅ　ｔｏ　ｅｘｐｌａｉｎ　ｅｘａｃｔｌｙ　ｗｈａｔ　"TCC_NEWLINE"ｉｓ　ｇｏｉｎｇ　ｏｎ　ｈｅｒｅ，　Ｐｒｉｎｃｅｓｓ　Ｄａー"TCC_NEWLINE"ｇｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｅｒｅ　ｏｎ　ｏｕｒ　ｗａｙ　ｔｏ　ｍｅｅｔ　ｗｉー"TCC_NEWLINE"ｔｈ　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅａｈ，　ｓｕｒｅ．　Ｎｔｔ’ｓ　ｍｙ　ｔｗｉｎ　ｓｉｓー"TCC_NEWLINE"ｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｍ　ｓａｙｓ　ｗｈｉｃｈｅｖｅｒ　ｏｎｅ　ｏｆ　ｕｓ　"TCC_NEWLINE"ｉｓ　ｓｔｒｏｎｇｅｒ　ｗｈｅｎ　ｉｔ’ｓ　ｈｅｒ　ｔｉｍー"TCC_NEWLINE"ｅ　ｔｏ　ｓｔｅｐ　ｄｏｗｎ　ｇｅｔｓ　ｔｏ　ｂｅ　ｔｈｅ"TCC_NEWLINE"　ｎｅｘｔ　ｑｕｅｅｎ，　ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｉｇｕｒｅｄ　ｉｆ　Ｉ　ｔｏｏｋ　ｏｕｔ　ｔｈｅ　ｒー"TCC_NEWLINE"ｏｙａｌ　ｆａｍｉｌｉｅｓ　ｏｆ　ｂｏｔｈ　Ａｓｋｒ　ａｎー"TCC_NEWLINE"ｄ　Ｎｉａｖｅｌｌｉｒ　ｉｎ　ｏｎｅ　ｇｏ，　ｔｈｅ　ｔｈー"TCC_NEWLINE"ｒｏｎｅ　ｗｏｕｌｄ　ｂｅ　ｍｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｏ　ｗｅ’ｖｅ　ｂｅｅｎ　ｃａｕｇｈｔ　ｕｐ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｍｉｄｓｔ　ｏｆ　ａ　ｃｏｍｐｅｔｉｔｉｏｎ　ｂｅｔｗー"TCC_NEWLINE"ｅｅｎ　ｔｗｉｎ　ｓｉｓｔｅｒｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｐ．　Ｓｏｒｒｙ　’ｂｏｕｔ　ｔｈａｔ．　Ｂｕｔ　ｙｏー"TCC_NEWLINE"ｕ　ｗｏｎ　ａｎｙｗａｙ，　ｓｏ　ｎｏ　ｈａｒｍ　ｄｏｎｅ"TCC_NEWLINE"，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｉｋｅｓ！　Ｗｈａｔ　ａ　ｓｃｏｗｌ．　Ｙｏｕ　ｋｎｏｗ"TCC_NEWLINE"，　ｙｏｕ’ｌｌ　ｎｅｖｅｒ　ｇｅｔ　ａ　ｇｉｒｌｆｒｉｅー"TCC_NEWLINE"ｎｄ　ｍａｋｉｎｇ　ｆａｃｅｓ　ｌｉｋｅ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｗｏｗ！　Ｈｏｗ’ｄ　ｙｏｕ　ｍａｋｅ　ｉｔ　ｅｖー"TCC_NEWLINE"ｅｎ　ｓｃｏｗｌｉｅｒ！　Ｉ　ｓａｉｄ　Ｉ’ｍ　ｓｏｒｒｙ"TCC_NEWLINE"　ａｌｒｅａｄｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ａｂｏｕｔ　ｔｈｉｓ．．．　Ａｓ　ａ　ｒｅｗａｒｄ"TCC_NEWLINE"　ｆｏｒ　ｂｅａｔｉｎｇ　ｍｅ，　Ｉ’ｌｌ　ｈｅｌｐ　ｙｏー"TCC_NEWLINE"ｕ　ｇｅｔ　ｔｈａｔ　ｓｗｏｒｄ．　Ｓｏｕｎｄ　ｇｏｏｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ’ｌｌ．．．ｈｅｌｐ？　Ｓｈｏｕｌｄ　ｗｅ　ｂｅ　ｅー"TCC_NEWLINE"ｘｐｅｃｔｉｎｇ　ｓｏｍｅ　ｋｉｎｄ　ｏｆ　ｐｒｏｂｌｅｍ"TCC_NEWLINE"？　Ｉ　ｈａｄ　ｈｅａｒｄ　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ　ｉｓ"TCC_NEWLINE"　ｑｕｉｔｅ　ｓｅｎｓｉｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｏｏｋ．　Ｊｕｓｔ　ｔｒｕｓｔ　ｍｅ，　ａｌｌ　ｒｉｇｈー"TCC_NEWLINE"ｔ？　Ｙｏｕ’ｒｅ　ｈｅａｄｅｄ　ｔｏ　Ｂａｒｎｓｔｏｋｋー"TCC_NEWLINE"ｒ，　ａｒｅｎ’ｔ　ｙｏｕ？　Ｉ’ｌｌ　ｄｏ　ｙｏｕ　ａ　"TCC_NEWLINE"ｆａｖｏｒ　ａｎｄ　ｃｏｍｅ　ｗｉｔｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｐｒｏｂｌｅｍ　ｗｉｔｈ　ｔｈａｔ，　ｉｓ　ｔｈｅｒー"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｉ　ｓｕｐｐｏｓｅ　ｉｔ　ｗｏｕｌｄ　ｂｅ　ｆｏｒ　"TCC_NEWLINE"ｔｈｅ　ｂｅｓｔ．　Ｗｅ’ｖｅ　ｌｅａｒｎｅｄ　Ｊｔｕｎｈー"TCC_NEWLINE"ｅｉｍｒ　ｐｒｉｎｃｅｓｓｅｓ　ｍａｙ　ｎｏｔ　ｂｅ　ｓｏ"TCC_NEWLINE"　ｔｒｕｓｔｗｏｒｔｈｙ，　ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅｅｈｅｅ！　Ｏｈ，　ｍｙ　ｓｗｅｅｔ　ｌｉｔｔｌｅ　ｐー"TCC_NEWLINE"ｒｉｎｃｅ，　ｙｏｕ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ｂｅ　ｓー"TCC_NEWLINE"ｏ　ｓｈｙ　ａｂｏｕｔ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｊｕｓｔ　ａｄｍｉｔ　ｔｈａｔ　ｔｒａｖｅー"TCC_NEWLINE"ｌｉｎｇ　ｗｉｔｈ　ｓｕｃｈ　ａ　ｂｅａｕｔｉｆｕｌ　ｐｒー"TCC_NEWLINE"ｉｎｃｅｓｓ　ｗｏｕｌｄ　ｂｅ　ａ　ｇｒｅａｔ　ｈｏｎｏｒ"TCC_NEWLINE"　ｆｏｒ　ｙｏｕ！　＊ｗｉｎｋ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　Ａｌｆｏｎｓｅ’ｓ　ｂｒｏー"TCC_NEWLINE"ｗ　ｑｕｉｔｅ　ｓｏ　ｆｕｒｒｏｗｅｄ　ｂｅｆｏｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｗａｉｔ　ｔｏ　ｓｅｅ　ｈｏｗ　ｔｈｉｓ　"TCC_NEWLINE"ｐｌａｙｓ　ｏｕｔ！　Ｓｈｏｕｌｄ　ｂｅ　ｆｕｎ，　ｗｏｕー"TCC_NEWLINE"ｌｄｎ’ｔ　ｙｏｕ　ｓａｙ　ｓｏ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？　Ｈｅｅｈｅｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

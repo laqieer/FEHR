@@ -1,0 +1,22 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｔｏ　ａｖｏｉｄ　ａｎｙ　ｍｉｓｕｎｄｅｒｓｔａｎｄｉｎｇ"TCC_NEWLINE"　ａｎｄ　ｔｏ　ａｄｄｒｅｓｓ　ｔｈｅ　ｍａｔｔｅｒ　ａｓ"TCC_NEWLINE"　ｑｕｉｃｋｌｙ　ａｎｄ　ｄｉｒｅｃｔｌｙ　ａｓ　ｐｏｓｓー"TCC_NEWLINE"ｉｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"．．．Ｙｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｆｏｅ　ｗｅ　ｊｕｓｔ　ｅｎｃｏｕｎｔｅｒｅｄ　ｗー"TCC_NEWLINE"ａｓ　ａ　ｓｅｒｖａｎｔ　ｏｆ　Ｅｍｂｌａ　ｔｈａｔ　ｇｏー"TCC_NEWLINE"ｅｓ　ｂｙ　ｔｈｅ　ｎａｍｅ　Ｅｌｍ．　Ｗｅ　ｏｕｇｈｔ　"TCC_NEWLINE"ｔｏ　ｆｏｌｌｏｗ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ａｌｌ　ｌｉｋｅｌｉｈｏｏｄ，　ｈｅ　ｉｓ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅ　ｍｉｄｓｔ　ｏｆ　ｐｕｒｓｕｉｎｇ　ｓｏｍｅ　ｔｅｒー"TCC_NEWLINE"ｒｉｂｌｅ　ｓｃｈｅｍｅ　ｏｎ　ｔｈｅ　ｐａｒｔ　ｏｆ　Ｅー"TCC_NEWLINE"ｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉｆ　Ｉ　ａｍ　ｍｉｓｔａｋｅｎ　ａｂｏｕｔ　ａｎｙ"TCC_NEWLINE"　ｏｆ　ｔｈａｔ，　Ｉ　ｄｏ　ｓｉｎｃｅｒｅｌｙ　ａｐｏｌー"TCC_NEWLINE"ｏｇｉｚｅ，　ｏｆ　ｃｏｕｒｓｅ．　Ｂｕｔ　Ｉ　ｄｏ　ｎｏー"TCC_NEWLINE"ｔ　ｂｅｌｉｅｖｅ　ｔｈａｔ　ｉｓ　ｔｈｅ　ｃａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｎ　ｏｕｒ　ｎｅｘｔ　ｏｂｊｅｃｔｉｖｅ　ｉｓ　ｃｌー"TCC_NEWLINE"ｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｆｔｅｒ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｉ　ｒｅｑｕｅｓｔ　ｙｏｕ　ａｌｌ　ｄｏ　ｙｏｕｒ　ｂｅｓー"TCC_NEWLINE"ｔ　ｔｏ　ｓｔａｙ　ｏｎ　ｙｏｕｒ　ｇｕａｒｄ．　Ｔｈｅｓー"TCC_NEWLINE"ｅ　ｓｏｌｄｉｅｒｓ　ｓｅｅｍ　ｔｏ　ｂｅ　ｕｎｄｅｒ　Ｅー"TCC_NEWLINE"ｍｂｌａ’ｓ　ｃｏｍｍａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｒｅ　Ｉ　ｔｏ　ｖｅｎｔｕｒｅ　ａ　ｇｕｅｓｓ，　Ｉ　"TCC_NEWLINE"ｗｏｕｌｄ　ｓａｙ　ｔｈａｔ　Ｅｍｂｌａ’ｓ　ｒｅｔａｉｎー"TCC_NEWLINE"ｅｒ，　Ｅｌｍ，　ｗｈｏｍ　ｗｅ　ｓａｗ　ｂｅｆｏｒｅ．．"TCC_NEWLINE"．　Ｈｅ　ｉｓ　ｉｎ　ｃｏｍｍａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｕｒｔｈｅｒｍｏｒｅ，　ｉｔ　ｉｓ　ａｌｓｏ　ｌｉｋｅｌー"TCC_NEWLINE"ｙ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｇｏｔ　ｉｔ．　Ｐａｃｉｆｙｉｎｇ　ｏｐｐｏｎｅｎｔｓ　ｗー"TCC_NEWLINE"ｉｔｈｏｕｔ　ｋｉｌｌｉｎｇ　ｔｈｅｍ　ｉｓ　ａ　ｓｐｅｃー"TCC_NEWLINE"ｉａｌｔｙ　ｏｆ　ｏｕｒｓ．　Ｌｅｔ’ｓ　ｇｏ，　ｅｖｅｒー"TCC_NEWLINE"ｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

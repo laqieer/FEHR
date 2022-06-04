@@ -1,0 +1,176 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6053] = TCC_OPEN_LEFT 
+"ロプト教団は裏切り者を許さない。" TCC_NEWLINE
+"それが掟だ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6053] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あの、アシュさん？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ASH
+"。。。あ。" TCC_NEWLINE
+"申\し訳ありません、シャロン様、" TCC_NEWLINE
+"ついぼんやりしてしまいまして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"アスク王国に戻ったら、" TCC_NEWLINE
+"闇に閉ざされた町や村を" TCC_NEWLINE
+"順に解放していきましょう。" TCC_NEWLINE TCC_PUSH_A
+"忙しくなるわ。" TCC_NEWLINE
+"アシュ、" TCC_NEWLINE
+"あなたの力は大丈夫ね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい、もちろんであります。" TCC_NEWLINE
+"そうですね、" TCC_NEWLINE
+"あと五、六度くらいは問題なく。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。？" TCC_NEWLINE
+"ちょ、ちょっと待ってください。" TCC_NEWLINE TCC_PUSH_A
+"アシュさん、" TCC_NEWLINE
+"さっきから何か様子が変です。" TCC_NEWLINE
+"もしかして、どこか、身体の具合が。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、ええと、これはですね、" TCC_NEWLINE
+"なんといいましょうか、" TCC_NEWLINE
+"説明は難しいのですが。。。" TCC_NEWLINE TCC_PUSH_A
+"エンブラの闇を消すために、" TCC_NEWLINE
+"エンブラの闇と私の光といいますか、" TCC_NEWLINE
+"それらがこう、ぶつかり合いまして。。。" TCC_NEWLINE TCC_PUSH_A
+"そうして闇を退けているわけであります。" TCC_NEWLINE
+"ですから、私にも若干ながら" TCC_NEWLINE
+"その影響が出るといいましょうか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。アシュ、君はさっき" TCC_NEWLINE
+"あと五、六度といった。。。" TCC_NEWLINE TCC_PUSH_A
+"それだけの闇を打ち消した後、" TCC_NEWLINE
+"君の体は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええと、それはその。。。" TCC_NEWLINE
+"あくまでおそらく、ですから、" TCC_NEWLINE
+"絶対にそうなるわけではないのですが。。。" TCC_NEWLINE TCC_PUSH_A
+"今ですと、私の体の左半分。。。" TCC_NEWLINE
+"左足がうまく動きませんので。" TCC_NEWLINE TCC_PUSH_A
+"おそらく、" TCC_NEWLINE
+"手足があまり動かなくなる。。。と、" TCC_NEWLINE
+"そういった様子になるのではないかと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。あ、いえ。" TCC_NEWLINE
+"あくまで、おそらくは。。。ですので、" TCC_NEWLINE
+"あまり大ごとにお考えいただく必要は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"アシュ、君のおかげで僕たちは救われる。" TCC_NEWLINE
+"でも、そのせいで" TCC_NEWLINE
+"君が犠牲になってしまうのなら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、いえいえお気になさらず。" TCC_NEWLINE
+"私は皆様にご奉仕するための" TCC_NEWLINE
+"存在でありますから。。。" TCC_NEWLINE TCC_PUSH_A
+"皆様のためにこの身体を" TCC_NEWLINE
+"使わせていただく。。。それが" TCC_NEWLINE
+"私のあるべき姿なのであります。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"それは、君の主である" TCC_NEWLINE
+"神竜アスクがそのように。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、いえ。。。" TCC_NEWLINE
+"ただ私がそう思っているわけであります。" TCC_NEWLINE TCC_PUSH_A
+"私には皆様のように、" TCC_NEWLINE
+"大切な家族とか、守るべき民とか。。。" TCC_NEWLINE
+"そのような存在がいないものですから。" TCC_NEWLINE TCC_PUSH_A
+"ですから本当に" TCC_NEWLINE
+"お気になさることはないのです。はい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そんな。。。でも！" TCC_NEWLINE
+"そのせいでアシュさんが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、いえいえ、問題ございません。" TCC_NEWLINE
+"もともと、私の力は" TCC_NEWLINE
+"もうあまり残っていませんので。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え、それって。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あれは何百年前でしたでしょうか。。。" TCC_NEWLINE
+"以前も私は" TCC_NEWLINE
+"アスク様の眷属として。。。" TCC_NEWLINE TCC_PUSH_A
+"このように人間の皆様のもとへ" TCC_NEWLINE
+"参ったことがあります。" TCC_NEWLINE TCC_PUSH_A
+"そこで私は人間の皆様のご要望に" TCC_NEWLINE
+"お応えし、さまざまな" TCC_NEWLINE
+"ご奉仕をさせていただきました。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国に豊かな緑を育むために、" TCC_NEWLINE
+"当時の私の体。。。" TCC_NEWLINE
+"そのほとんどを注いでおります。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。じゃ、じゃあ、" TCC_NEWLINE
+"アスク王国の広い草原や、" TCC_NEWLINE
+"いっぱいの草花は、みんな。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"アスク王国の繁栄の歴史は。。。" TCC_NEWLINE
+"君の犠牲によって" TCC_NEWLINE
+"成り立っていたのか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、いえいえ、犠牲というわけではなく。。。" TCC_NEWLINE
+"私は皆様に" TCC_NEWLINE
+"ご奉仕する存在でありますから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。アシュ、わかった。ありがとう。" TCC_NEWLINE
+"でも、君の力を借りるのは、" TCC_NEWLINE
+"本当に必要になった時にしたい。" TCC_NEWLINE TCC_PUSH_A
+"他にあの闇を消す方法はあるだろうか？" TCC_NEWLINE
+"例えば、レティシア将軍を討てば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いえ、まことに遺憾ながら。。。" TCC_NEWLINE
+"あの闇は人の生むものではなく、" TCC_NEWLINE
+"エンブラの力によるものでありますから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"それなら。。。" TCC_NEWLINE TCC_PUSH_A
+"エンブラを倒せば。。。" TCC_NEWLINE
+"解くことができる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。ええ。" TCC_NEWLINE
+"確かに仰る通りではありますが、" TCC_NEWLINE
+"しかしながら。。。" TCC_NEWLINE TCC_PUSH_A
+"人であるアルフォンス様が" TCC_NEWLINE
+"神を討つというのは" TCC_NEWLINE
+"あまりにもあまりといいますか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"大丈夫です！　お兄様ならどんな" TCC_NEWLINE
+"神でも悪魔でも倒しちゃいますから！" TCC_NEWLINE
+"ね、お兄様！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ははあ。。。" TCC_NEWLINE
+"おみそれいたしました。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"あの闇は必ず取り除く。" TCC_NEWLINE
+"でも今はまず、レティシア将軍だ。" TCC_NEWLINE
+"彼女をなんとかしなければ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

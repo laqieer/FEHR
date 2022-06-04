@@ -1,0 +1,155 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S6015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ASH
+"あわわ。。。着いてしまいました。。。" TCC_NEWLINE
+"まだ心の準備が。。。" TCC_NEWLINE
+"深呼吸をして落ち着きましょう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ふぅ。。。はぁ。。。。" TCC_NEWLINE
+"えー、ついに私は、人間の皆様が住む地。。。" TCC_NEWLINE
+"ミズガルズへと来たわけであります。" TCC_NEWLINE TCC_PUSH_A
+"緊張のあまり" TCC_NEWLINE
+"胸のどきどきを禁じ得ません。" TCC_NEWLINE
+"私一人で、このような大事な使命を。。。" TCC_NEWLINE TCC_PUSH_A
+"ですが私としましては、" TCC_NEWLINE
+"人間の皆様をお救いするため、" TCC_NEWLINE
+"全力で邁進していく所存でありまして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ELM
+"ばーか。" TCC_NEWLINE
+"何一人でぶつぶつ言ってんだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、あなたは。。。？" TCC_NEWLINE
+"申\し訳ありません。。。" TCC_NEWLINE
+"騒がしくしてしまいまして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"私は。。。えー、名乗るほどの" TCC_NEWLINE
+"ものではありませんが、かといって" TCC_NEWLINE
+"名乗らないのも失礼にあたるかと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"黙ってろ、牛女。" TCC_NEWLINE TCC_PUSH_A
+"お前がエンブラ様が言ってた" TCC_NEWLINE
+"アスクのしもべ。。。" TCC_NEWLINE
+"僕の敵ってわけだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"蝙蝠の翼。。。！？" TCC_NEWLINE
+"も、もしかしてもしかすると。。。" TCC_NEWLINE
+"あなたはエンブラの眷属。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"僕はエルム。" TCC_NEWLINE
+"エンブラ様の忠実なしもべさ。" TCC_NEWLINE TCC_PUSH_A
+"お前みたいな" TCC_NEWLINE
+"とろくさい牛女をよこすなんて、" TCC_NEWLINE
+"アスクはよっぽど力が残ってないんだな。" TCC_NEWLINE TCC_PUSH_A
+"ま、エンブラ様に比べれば、" TCC_NEWLINE
+"アスクなんてもともと" TCC_NEWLINE
+"弱っちい死に損ないってことか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わ、私のことは" TCC_NEWLINE
+"何と言われても構\いませんが、" TCC_NEWLINE
+"アスク様のことを悪く言うのは、その。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。できればやめていただけたらと思います。" TCC_NEWLINE
+"敵であるあなたにお願いすることでは" TCC_NEWLINE
+"ないかもしれませんが、できればひとつ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。お前、鬱陶しいな。" TCC_NEWLINE
+"もういいや、死ねよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ASH
+"。。。あぅっ。。。" TCC_NEWLINE
+"。。。も、もう。。。力が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ELM
+"早く死ねよ、雑魚牛。" TCC_NEWLINE
+"そんな力じゃ" TCC_NEWLINE
+"エンブラ様の贄にさえ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"前方で戦闘！" TCC_NEWLINE
+"誰かが襲われている。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。邪魔するなよ、人間風情が！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ELM
+"。。。ちっ。" TCC_NEWLINE
+"ここで無駄な時間" TCC_NEWLINE
+"過ごしてる暇はないんだよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ASH
+"あの、あの。。。助かりました。" TCC_NEWLINE
+"えー、なんとお礼を申\し上げてよいやら、" TCC_NEWLINE
+"言葉に迷っております。まずは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"お礼はいいわ。" TCC_NEWLINE
+"それよりあなたは一体。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、すみませんそうでしたね。" TCC_NEWLINE
+"まずは名前を名乗るのが礼儀というもの、" TCC_NEWLINE
+"お詫びして改めて申\し上げます。" TCC_NEWLINE TCC_PUSH_A
+""
+"私はアシュ、アスク様の眷属であります。" TCC_NEWLINE
+"私がアスク様のご命令を受け、こちらへ" TCC_NEWLINE
+"来たそもそもの理由はといいますと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"え、アスク様。。。？" TCC_NEWLINE
+"それってもしかして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、えー、すみません。" TCC_NEWLINE
+"まずそこからお話しさせて" TCC_NEWLINE
+"いただくべきでしたね。ええとええと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"アスク様は、神竜アスク。。。かつて" TCC_NEWLINE
+"あなた方人間に力を与えた存在であります。" TCC_NEWLINE
+"きっと皆様もご存知のことでありましょう。" TCC_NEWLINE TCC_PUSH_A
+"私はアスク様の眷属であります。" TCC_NEWLINE
+"アスク様が司る世界で" TCC_NEWLINE
+"生まれたわけでありまして。。。" TCC_NEWLINE TCC_PUSH_A
+"そしてアスク様から使命を賜り、" TCC_NEWLINE
+"こちらへ参った次第であります。" TCC_NEWLINE
+"どうぞ何卒よろしくお願い申\し上げます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え、ええと、申\し訳ございません。" TCC_NEWLINE
+"私の話。。。長くてとろくて" TCC_NEWLINE
+"回りくどかったでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"いや、突然のことで" TCC_NEWLINE
+"まだ理解が追いついてないんだ。。。" TCC_NEWLINE
+"君は神竜アスクの眷属。。。" TCC_NEWLINE TCC_PUSH_A
+"それで、なぜ君がここへ？" TCC_NEWLINE
+"アスク様の使命とは？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"憑竜エンブラ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"エンブラは信じがたいほど恐ろしいことに、" TCC_NEWLINE
+"アスク様の血を引く者を根絶やしに" TCC_NEWLINE
+"しようとしているわけでありまして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"私は、それを防ぐために参りました。" TCC_NEWLINE
+"微力ながら皆様のお手伝いを" TCC_NEWLINE
+"させていただければ幸いに存じます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

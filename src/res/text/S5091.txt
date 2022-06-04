@@ -1,0 +1,226 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5091] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ひゃあぁああ！？" TCC_NEWLINE
+"お、お化け～～～～っ！！！" TCC_NEWLINE
+"お願い食べないで～～っ！！！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。あれ？　なぁんだ。" TCC_NEWLINE
+"ただの鳥なの。" TCC_NEWLINE TCC_PUSH_A
+""
+"やっぱりひとりで" TCC_NEWLINE
+"ニザヴェリルの塔へ行こうなんて、" TCC_NEWLINE
+"無理だったかな。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"ううん、弱気になっちゃだめなの！" TCC_NEWLINE
+"自分の国と、お兄ちゃん達の" TCC_NEWLINE
+"ことだもの！！" TCC_NEWLINE TCC_PUSH_A
+""
+"この森の先が山のふもとね。" TCC_NEWLINE
+"山なんだから、まっすぐ登っていけば" TCC_NEWLINE
+"きっと近道なの！" TCC_NEWLINE TCC_PUSH_A
+"よーし、がんばるぞー！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT 
+"。。。。。。ン。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。レギ。。。。。。ン。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。あれ？　何。。。？" TCC_NEWLINE
+"誰かが呼んでる声がする。。。" TCC_NEWLINE
+"そっち。。。なの。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5091] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ひぃ、はぁ。。。もうヘロヘロですぅ。。。" TCC_NEWLINE
+"ニザヴェリルの塔はこの上ですか？" TCC_NEWLINE
+"ほんとに険しい山ですね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"がんばれシャロン。" TCC_NEWLINE
+"ほら、何か見えてきた。" TCC_NEWLINE
+"あれがニザヴェリルの塔。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"本当にレギン王女は" TCC_NEWLINE
+"この山をひとりで" TCC_NEWLINE
+"登っていったんだろうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"すぐに追いつくと思ったのに" TCC_NEWLINE
+"おかしいわねぇ。。。" TCC_NEWLINE TCC_PUSH_A
+"警備の兵もいるのに" TCC_NEWLINE
+"彼女ひとりで進んでいけたとは" TCC_NEWLINE
+"とても思えないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"だが争った形跡もない。" TCC_NEWLINE
+"やはり先に進んだとしか考えられません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そうね。とにかく王女の無事を信じて" TCC_NEWLINE
+"私たちも塔を目指しましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5091] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"いましたっ！　レギン王女！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"あれっ、みんな！" TCC_NEWLINE
+"どうしてここに！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"あなたを追って来たに" TCC_NEWLINE
+"決まってるじゃない！" TCC_NEWLINE
+"ひとりで無茶なことをして！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ご、ごめんなさい。でも。。。" TCC_NEWLINE
+"私、迷惑ばかりかけてるから。。。" TCC_NEWLINE TCC_PUSH_A
+"せめてこれくらいは" TCC_NEWLINE
+"自分で解決したいなって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何を今更っ！　水臭いですよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"レギン王女。" TCC_NEWLINE
+"これは君だけの問題でも、" TCC_NEWLINE
+"ニザヴェリル王国だけの問題でもない。" TCC_NEWLINE TCC_PUSH_A
+"ひとりで抱え込まないで、" TCC_NEWLINE
+"僕たちを信じてほしい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_DAGR
+"ここまで来てそりゃないっしょ。" TCC_NEWLINE
+"あたし、レギンのこと" TCC_NEWLINE
+"妹みたいに思ってんだからさ。" TCC_NEWLINE TCC_PUSH_A
+""
+"このお姉ちゃんにどーんと頼ってちょ☆" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_NOTT
+"いーえ、姉と言えばこの私。" TCC_NEWLINE
+"頼るならこの私でしてよ、レギン王女。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"レギン王女、あなたはもう" TCC_NEWLINE
+"ヴァイス・ブレイヴの" TCC_NEWLINE
+"立派な一員なんだからね？" TCC_NEWLINE TCC_PUSH_A
+"これからは単独行動、絶対禁止！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。みんな。。。。。。" TCC_NEWLINE
+"ありがとう、ありがとうなのっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"私っ。。。みんなのこと大好き。。。。。。！" TCC_NEWLINE
+"うっ。。。うぇっ。。。。。。" TCC_NEWLINE
+"ふぇ～～～～ん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それにしてもレギン王女。" TCC_NEWLINE
+"よくこの山をおひとりで" TCC_NEWLINE
+"登れたものですわね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ぐすっ。。。あっ、そうなの！" TCC_NEWLINE TCC_PUSH_A
+"なんだか不思議な声が聞こえて、" TCC_NEWLINE
+"その声についていったら" TCC_NEWLINE
+"スルスル登れちゃったの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"不思議な声？" TCC_NEWLINE
+"僕たちには何も聞こえなかったけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。そうなの？" TCC_NEWLINE
+"うーん、空耳だったのかなあ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5091] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FAFNIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_OTR
+"！　兄さん！　無事だったんだね！" TCC_NEWLINE
+"アスク王国に捕らえられて" TCC_NEWLINE
+"いたんじゃなかったの！？" TCC_NEWLINE TCC_PUSH_A
+"ああよかった。。。！" TCC_NEWLINE
+"心配したんだよ。僕が留守の間に" TCC_NEWLINE
+"ひとりでアスクに攻め込むなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"レギンもレギンだ！" TCC_NEWLINE
+"アスクの連中と一緒になって" TCC_NEWLINE
+"兄さんを捕らえるなんて！！" TCC_NEWLINE TCC_PUSH_A
+"あんな奴、もう僕らの妹じゃないよ。" TCC_NEWLINE
+"兄さんもそう思うでしょ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。うるせえ黙れ！！" TCC_NEWLINE TCC_PUSH_A
+"アスク王国。。。あの扉。。。。。。" TCC_NEWLINE
+"あそこに何がある！？" TCC_NEWLINE
+"くそっ。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！　兄さん。。。" TCC_NEWLINE
+"何か。。。思い出したの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あぁ。。。？" TCC_NEWLINE
+"。。。そういえばオッテル。てめえはやたら" TCC_NEWLINE
+"アスクにこだわっていたな。" TCC_NEWLINE TCC_PUSH_A
+"お前、何か知ってんのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！　し、知らないよ。何のこと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"とぼけるな。お前がエイトリと" TCC_NEWLINE
+"こそこそ何かやってんのを" TCC_NEWLINE
+"俺が気づいてないとでも思ったか！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。ぐっ。。。！　ちくしょう、また頭が。。。" TCC_NEWLINE
+"あ。。。あぁ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ーー兄さん、落ち着いて。" TCC_NEWLINE
+"無理して思い出そうとするからだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。違う。。。記憶だけじゃねえ。。。。。。" TCC_NEWLINE
+"俺は。。。俺の力は明らかに異常だ。。。！" TCC_NEWLINE TCC_PUSH_A
+"時々、自分でも抑えきれない。。。" TCC_NEWLINE
+"何もかもぶち壊してしまいたくて" TCC_NEWLINE
+"たまらなくなる。。。っ。。。！" TCC_NEWLINE TCC_PUSH_A
+"俺は。。。いつからこうなった。。。！？" TCC_NEWLINE
+"ぐっ。。。うあぁあっ。。。。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"兄さん。。。兄さんはずっと変わらないよ。" TCC_NEWLINE
+"誰よりも強いこの国の王だ。" TCC_NEWLINE
+"何も不安に思うことなんてない。" TCC_NEWLINE TCC_PUSH_A
+"大丈夫、僕がついてる。" TCC_NEWLINE
+"僕は薄情者のレギンとは違う。" TCC_NEWLINE
+"兄さんを見捨てたりしないよ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"う。。。あぁ。。。。。。、。。。。。。。。。" TCC_NEWLINE
+"。。。あ。。。。。。俺は。。。何を。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"よかった、気がついた？" TCC_NEWLINE TCC_PUSH_A
+"アスクから脱出して" TCC_NEWLINE
+"よっぽど疲れていたんだね。" TCC_NEWLINE
+"気を失ってうなされていたんだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ。。。ああ。。。、そうか。。。。。。" TCC_NEWLINE
+"そうだ、アスクで" TCC_NEWLINE
+"あのロキとかいう女と。。。" TCC_NEWLINE TCC_PUSH_A
+"仕方ねえ。" TCC_NEWLINE
+"オッテル、出撃の準備をしろ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！　いいね！" TCC_NEWLINE
+"今度はどこに攻め込むの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"エンブラ帝国だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

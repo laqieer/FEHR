@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4122_EN] = TCC_OPEN_LEFT
+"Ｄｏ　ｎｏｔ　ｗｏｒｒｙ，　ａｓ　Ｉ　ｐｌａｎ　ｔｏ　ｇｉー"TCC_NEWLINE"ｖｅ　ｉｔ　ｍｙ　ａｌｌ．　Ｉ　ｌｏｖｅ　ｅｘｐｅｒｉｅｎー"TCC_NEWLINE"ｃｉｎｇ　ｎｅｗ　ｔｈｉｎｇｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

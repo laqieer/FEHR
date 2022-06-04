@@ -1,0 +1,73 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"レギン王女。。。王冠を。" TCC_NEWLINE
+"これは君のものだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。【小人の王冠】。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"偽王ファフニールは死んだ。" TCC_NEWLINE
+"君が正統なニザヴェリル王国の" TCC_NEWLINE
+"女王になるんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。わかってるの。" TCC_NEWLINE
+"でも、まだそれを" TCC_NEWLINE
+"戴くわけにはいかない。" TCC_NEWLINE TCC_PUSH_A
+"私にはまだやることがあるの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうだね。" TCC_NEWLINE
+"行こう、エイトリのところへ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5131] = TCC_OPEN_LEFT 
+"敵は。。。殺せ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5131] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LOKI
+"あらん、エイトリったら。。。" TCC_NEWLINE
+"しばらく見ないうちにずいぶん" TCC_NEWLINE
+"可愛い姿になったものね。" TCC_NEWLINE TCC_PUSH_A
+"そんなにのんびりしてていいの？" TCC_NEWLINE
+"もうすぐあの召喚師たちが" TCC_NEWLINE
+"鬼みたいな顔してここに来るわよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_EITRI
+"ロキ。。。なるほど、君か。" TCC_NEWLINE
+"ファフニールに入れ知恵したのは。" TCC_NEWLINE TCC_PUSH_A
+""
+"まあいい。" TCC_NEWLINE
+"おかげで手間が省けたからね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何のことかしら？　わからないわあ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いいんだ。君には感謝しているから。" TCC_NEWLINE
+"君のくれた力のおかげで、こうして" TCC_NEWLINE
+"この国を見守ることができる。" TCC_NEWLINE TCC_PUSH_A
+"それに王家の後継者が生きていたんだ。" TCC_NEWLINE
+"私も生きる希望が湧いてきたよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの王女様？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。ファフニールが滅び" TCC_NEWLINE
+"あのクーデターから始まった悪夢が" TCC_NEWLINE
+"ようやく終わった。" TCC_NEWLINE TCC_PUSH_A
+""
+"新たなニザヴェリル王国の夜明けだ。" TCC_NEWLINE
+"君も祝福してくれるだろう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふふ。。。そうねえ。" TCC_NEWLINE
+"面白いことになりそうね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,0 +1,6 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5023] = TCC_OPEN_LEFT 
+"私は帝国将軍【蛍石】のセライナ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

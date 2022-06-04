@@ -1,0 +1,9 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6012_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｉｓ　ａｒｅａ　ｉｓ　ｔｈｅ　ｓａｍｅ　ａｓ　ｔｈｅ　"TCC_NEWLINE"ｌａｓｔ　ｏｎｅ．　Ｔｈｅ　ａｒｅａ　ｈａｓ　ｂｅｅｎ　ｔー"TCC_NEWLINE"ｏｔａｌｌｙ　ｃｌｏｓｅｄ　ｏｆｆ　ｂｙ　ａ　ｗａｌｌ　ｏー"TCC_NEWLINE"ｆ　ｄａｒｋｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｏｗ　ｈａｓ　ｔｈｉｓ　ｍｕｃｈ　ｄａｍａｇｅ　ａｌｒｅー"TCC_NEWLINE"ａｄｙ　ｂｅｅｎ　ｄｏｎｅ？　Ａｎｄ　ｗｈｙ　ｈａｓ　ｔｈー"TCC_NEWLINE"ｉｓ　ａｌｌ　ｓｔａｒｔｅｄ　ｈａｐｐｅｎｉｎｇ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｒｅ　ａｒｅ　ｍａｎｙ　ｑｕｅｓｔｉｏｎｓ　ｗｅ　ｎー"TCC_NEWLINE"ｅｅｄ　ｔｏ　ａｎｓｗｅｒ．　Ｗｅ　ｓｈｏｕｌｄ　ｈｕｒｒー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

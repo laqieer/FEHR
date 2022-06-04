@@ -1,0 +1,92 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ａｈ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　ｔｈｅｒｅ　ｙｏｕ"TCC_NEWLINE"　ａｒｅ．　Ｈａｖｅ　ｙｏｕ　ｔｈｏｕｇｈｔ　ｔｈｉｎｇｓ"TCC_NEWLINE"　ｔｈｒｏｕｇｈ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｈｅｒｅ　ｔｏ　ｔｕｒｎ　ｙｏｕｒｓｅｌｆ"TCC_NEWLINE"　ｏｖｅｒ　ａｎｄ　ｂｅｃｏｍｅ　ｍｙ　ｐｒｉｓｏｎｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ　ｈａｖｅ　ｙｏｕ　ｃｈｏｓｅｎ　ｔｏ　ｓａｃｒｉｆｉー"TCC_NEWLINE"ｃｅ　ｔｈｅ　ｌｉｖｅｓ　ｏｆ　ｙｏｕｒ　ｃｉｔｉｚｅｎｓ"TCC_NEWLINE"　ｉｎｓｔｅａｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｅｓ，　Ｉ　ｈａｖｅ　ｉｎｄｅｅｄ　ｃｏｍｅ　ｔｏ　ｐｒー"TCC_NEWLINE"ｏｖｉｄｅ　ｙｏｕ　ｗｉｔｈ　ａｎ　ａｎｓｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"．．．Ｒｅｔｒｅａｔ？　Ｈｍ．　Ｉ’ｍ　ａｆｒａｉｄ　ｔｈー"TCC_NEWLINE"ａｔ　ｗｉｌｌ　ｃｏｎｃｌｕｄｅ　ｏｕｒ　ｎｅｇｏｔｉａｔー"TCC_NEWLINE"ｉｏｎｓ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．　Ｗｅ’ｒｅ　ａー"TCC_NEWLINE"ｔ　ａｎ　ｉｍｐａｓｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｆｏｒｔｕｎａｔｅｌｙ，　Ｉ　ｗｉｌｌ　ｂｅ　ｆｏｒｃー"TCC_NEWLINE"ｅｄ　ｔｏ　ｃｏｎｔｉｎｕｅ　ｃｌｏｓｉｎｇ　ｙｏｕｒ　ｖー"TCC_NEWLINE"ｉｌｌａｇｅｓ　ｏｕｔ　ｉｎｔｏ　ｄａｒｋｎｅｓｓ，　ａｓ"TCC_NEWLINE"　ｐｒｏｍｉｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕｒ　ｐｏｗｅｒ　ｉｓ　ｎｏ　ｌｏｎｇｅｒ　ａｎｙ　ｔー"TCC_NEWLINE"ｈｒｅａｔ　ｔｏ　ｕｓ．　Ｏｎｅ　ｏｆ　ｏｕｒ　ｎｕｍｂｅー"TCC_NEWLINE"ｒ　ｈａｓ　ｔｈｅ　ａｂｉｌｉｔｙ　ｔｏ　ｄｉｓｐｅｌ　Ｅー"TCC_NEWLINE"ｍｂｌａ’ｓ　ｄａｒｋｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｈｅａｄ　ｏｆ　ｔｈｅ　Ｃｕｒｓｅ　Ｄｉｒｅｃｔｉｖー"TCC_NEWLINE"ｅ，　ｙｏｕ　ｍｕｓｔ　ａｌｒｅａｄｙ　ｂｅ　ａｗａｒｅ　"TCC_NEWLINE"ｏｆ　ｔｈａｔ　ｂｙ　ｎｏｗ，　ｙｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｆ　ｃｏｕｒｓｅ　Ｉ　ａｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ａｌｓｏ　ｈｅａｒｄ　ｔｈａｔ　ｕｓｅ　ｏｆ　ｔー"TCC_NEWLINE"ｈａｔ　ｐｏｗｅｒ　ｃｏｓｔｓ　ｙｏｕｒ　ｓｉｄｅ　ｇｒｅー"TCC_NEWLINE"ａｔｌｙ．　Ａｍ　Ｉ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｍｏｒｅ　ｄａｒｋｎｅｓｓ　ｙｏｕ　ｄｉｓｐｅｌ，"TCC_NEWLINE"　ｔｈｅ　ｃｌｏｓｅｒ　ｙｏｕｒ　ｆｒｉｅｎｄ　ｔｏｔｔｅー"TCC_NEWLINE"ｒｓ　ｔｏ　ｈｅｒ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　ｓｈｅ　ｄｏｅｓ　ｎｏｔｈｉｎｇ，　ｍｏｒｅ"TCC_NEWLINE"　ａｎｄ　ｍｏｒｅ　ｏｆ　ｙｏｕｒ　ｐｅｏｐｌｅ　ｗｉｌｌ"TCC_NEWLINE"　ｓｅｒｖｅ　ａｓ　ｓａｃｒｉｆｉｃｅ　ｉｎｓｔｅａｄ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｗｈａｔ’ｓ　ｙｏｕｒ　ｐｏｉｎｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ｗｅ　ｇｉｖｅ　ｉｎ　ｔｏ　ｙｏｕ，　ｉｔ　ｐｕｔｓ"TCC_NEWLINE"　ｍｅ　ａｔ　ｒｉｓｋ．　Ｉｆ　ｗｅ　ｒｅｆｕｓｅ　ｙｏｕ"TCC_NEWLINE"，　ｏｔｈｅｒｓ　ｍａｙ　ｓｕｆｆｅｒ，　ｂｕｔ　ｎｏ　ｈー"TCC_NEWLINE"ａｒｍ　ｗｉｌｌ　ｃｏｍｅ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ａｎ　ｅａｓｙ　ｃｈｏｉｃｅ．　Ｓｏ，　ｉー"TCC_NEWLINE"ｆ　ｗｅ’ｒｅ　ｄｏｎｅ　ｈｅｒｅ，　Ｉ’ｌｌ　ｂｅ　ｏｎ"TCC_NEWLINE"　ｍｙ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｗｏｕｌｄ　ｈａｖｅ　ｍｅ　ｂｅｌｉｅｖｅ　ｙｏｕ"TCC_NEWLINE"　ｄｏ　ｎｏｔ　ｃａｒｅ　ｗｈａｔ　ｈａｐｐｅｎｓ　ｔｏ　"TCC_NEWLINE"ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　ｙｏｕｒ　ｋｉｎｇｄｏｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ’ｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｕｎｄｅｒｓｔａｎー"TCC_NEWLINE"ｄ？　Ｗｈｏ　ｉｓ　ｍｏｒｅ　ｉｍｐｏｒｔａｎｔ，　ｙｏｕー"TCC_NEWLINE"ｒ　ｕｎｄｅｒｌｉｎｇｓ　ｏｒ　ｙｏｕ？　Ｓａｍｅ　ｔｈｉー"TCC_NEWLINE"ｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　ｗｅｌｌ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｒａｔｈｅｒ　ｕｎｅｘｐｅｃｔｅｄ　ｇｉｖー"TCC_NEWLINE"ｅｎ　ｔｈｅ　ｉｎｔｅｌｌｉｇｅｎｃｅ　Ｉ　ｈａｖｅ　ｏｎ"TCC_NEWLINE"　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｃｏｕｌｄ　ｉｔ　ｂｅ．．．ｙｏｕ　ｈａｖｅ　ａ　"TCC_NEWLINE"ｍｏｒｅ　ｖｉｏｌｅｎｔ　ｓｉｄｅ　ｔｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎｔｅｌｌｉｇｅｎｃｅ　ａｌｓｏ　ｂｒｉｎｇｓ　ｍｅ　ｓー"TCC_NEWLINE"ｏｍｅ．．．　ｉｎｃｏｎｇｒｕｏｕｓ　ｉｎｆｏｒｍａｔｉｏー"TCC_NEWLINE"ｎ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｎｃｅｒｎｉｎｇ　ｔｈｅ　ｄｅａｔｈ　ｏｆ　Ｋｉｎｇ　"TCC_NEWLINE"Ｇｕｓｔａｖ，　ｆｏｒ　ｅｘａｍｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｎ　ｙｏｕ　ｍｕｓｔ　ｋｎｏｗ　ｔｈａｔ　Ｉ　ｋｉｌー"TCC_NEWLINE"ｌｅｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｇｏｔ　ｉｎ　ｍｙ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｓ　ｙｏｕ　ｎｏ　ｄｏｕｂｔ　ｋｎｏｗ，　ｍｙ　ｆａｔｈー"TCC_NEWLINE"ｅｒ　ａｂａｎｄｏｎｅｄ　ｍｅ　ｉｎ　ｏｕｒ　ｓｔｒｕｇｇー"TCC_NEWLINE"ｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｏｕｌｄ　ｎｏｔ　ｉｎｈｅｒｉｔ　ｔｈｅ　ｃｒｏｗｎ"TCC_NEWLINE"　ａｎｄ　ｔａｋｅ　ｔｈｅ　ｔｈｒｏｎｅ　ａｓ　ｔｈｉｎｇー"TCC_NEWLINE"ｓ　ｓｔｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｍｙ　ｆａｔｈｅｒ　ｗｅｒｅ　ｔｏ　ｄｉｓａー"TCC_NEWLINE"ｐｐｅａｒ，　Ｉ　ｗａｓ　ｎｅｘｔ　ｉｎ　ｌｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　Ｉ　ｋｉｌｌｅｄ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ａｎ　ｉｎｔｅｒｅｓｔｉｎｇ　ｓｔｏｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｕｒｅ　ｓｏｍｅｄａｙ　Ｉ’ｌｌ　ｂｅ　ａｂｌｅ"TCC_NEWLINE"　ｔｏ　ｕｓｅ　ｔｈａｔ　ｉｎｆｏｒｍａｔｉｏｎ　ｔｏ　ｓー"TCC_NEWLINE"ｈａｋｅ　ｔｈｅ　ｆｏｕｎｄａｔｉｏｎｓ　ｏｆ　Ａｓｋｒ　"TCC_NEWLINE"ｉｔｓｅｌｆ，　ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｄｏｎ’ｔ　ｓｅｅｍ　ｔｏ　ｂｅ　ｈｅａｒｉｎｇ　"TCC_NEWLINE"ｍｅ．　Ｗｈｙ　ｄｏ　ｙｏｕ　ｔｈｉｎｋ　Ｉ’ｍ　ｔａｌｋー"TCC_NEWLINE"ｉｎｇ　ａｂｏｕｔ　ｔｈｉｓ？　Ｗｈｙ　ｔｏ　ｙｏｕ？　Ｗー"TCC_NEWLINE"ｈｙ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｔｅｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｋｉｌｌ　ｙｏｕ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｉｎ　ｍｙ　ｗａｙ，　ｓｏ　ｔｈｉｓ　ｉｓ　"TCC_NEWLINE"ｈｏｗ　ｉｔ　ｗｉｌｌ　ｈａｖｅ　ｔｏ　ｂｅ．　Ｎｏ　ｍａー"TCC_NEWLINE"ｔｔｅｒ　ｗｈａｔ　ｉｔ　ｔａｋｅｓ，　ｍｙ　ｄｅｃｉｓｉー"TCC_NEWLINE"ｏｎ’ｓ　ｂｅｅｎ　ｍａｄｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｈｏｓｔａｇｅ　ｗｉｌｌ　ｓａｖｅ　ｙｏｕ．　Ｙｏｕ"TCC_NEWLINE"　ｃａｎｎｏｔ　ｓｔｏｐ　ｗｈａｔ’ｓ　ｃｏｍｉｎｇ　ｆｏー"TCC_NEWLINE"ｒ　ｙｏｕ．　Ｄｏ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉ　ｓｅｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　Ｉ　ｍｉｓｊｕｄｇｅｄ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｇｅｎｔｌｅ　ｐｒｉｎｃｅ　ｗｈｏ　ｃａｐｔｕｒｅー"TCC_NEWLINE"ｄ　ｔｈｅ　ｈｅａｒｔｓ　ｏｆ　ｈｉｓ　ｐｅｏｐｌｅ．．．"TCC_NEWLINE"　Ｈａｈ．　Ｉ　ｓｈｏｕｌｄ　ｈａｖｅ　ｋｎｏｗｎ　ｉｔ　"TCC_NEWLINE"ｗａｓ　ａｌｌ　ｌｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｒｏｕｄｉｎｇ　ｙｏｕｒｓｅｌｆ　ｉｎ　ａ　ｖｅｉｌ　"TCC_NEWLINE"ｏｆ　ｆａｌｓｅ　ａｆｆｅｃｔｉｏｎ　ａｓ　ａ　ｍｅａｎｓ"TCC_NEWLINE"　ｏｆ　ｃｏｎｔｒｏｌｌｉｎｇ　ｔｈｅ　ｆｏｏｌｉｓｈ　ｍー"TCC_NEWLINE"ａｓｓｅｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｋｉｌｌｉｎｇ　ｙｏｕｒ　ｏｗｎ　ｆａｔｈｅｒ　ｔｏ　ｇｅー"TCC_NEWLINE"ｔ　ｔｈｅ　ｃｒｏｗｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍａｒｋ　ｍｙ　ｗｏｒｄｓ：　ｔｈｅｓｅ　ｔｒｕｔｈｓ　ｗー"TCC_NEWLINE"ｉｌｌ　ｃｏｍｅ　ｔｏ　ｌｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｐｅｒｈａｐｓ　ｙｏｕ　ａｎｄ　Ｉ　ｓｈａｒｅ　ｍｏー"TCC_NEWLINE"ｒｅ　ｉｎ　ｃｏｍｍｏｎ　ｔｈａｎ　ｏｕｒ　ｒｅｓｐｅｃｔー"TCC_NEWLINE"ｉｖｅ　Ｏｒｄｅｒｓ　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｗａｓ　ｗｒｏｎｇ　ｔｏ　ｕｎｄｅｒｅｓｔｉｍａｔｅ　"TCC_NEWLINE"ｙｏｕ．　Ｙｏｕ　ｍａｙ　ｋｅｅｐ　ｙｏｕｒ　ｈｅａｄ　ｏー"TCC_NEWLINE"ｎ　ｙｏｕｒ　ｓｈｏｕｌｄｅｒｓ　ｆｏｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　Ｉ’ｖｅ　ｈａｄ　ｔｈｅ　ｓａｔｉｓｆａｃｔｉｏー"TCC_NEWLINE"ｎ　ｏｆ　ｓｅｐａｒａｔｉｎｇ　Ｖｅｒｏｎｉｃａ’ｓ　ｆｒー"TCC_NEWLINE"ｏｍ　ｈｅｒｓ，　ＴＨＥＮ　Ｉ　ｗｉｌｌ　ｃｏｍｅ　ｆｏｒ"TCC_NEWLINE"　ｙｏｕｒ　ｈｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"＊ｓｉｇｈ＊　Ｉ　ｈｏｐｅ　ｔｈｉｓ　ｉｓｎ’ｔ　ａｌｌ　"TCC_NEWLINE"ｆｏｒ　ｎｏｔｈｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ，　ｈａｖｅ　ｙｏｕ　ｌｏｓｔ　ｙｏｕｒ　ｍー"TCC_NEWLINE"ｉｎｄ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈ－Ｓｈａｒｅｎａ！　Ｗｈａｔ　ｄｉｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ　ｓａｙ　ｓｕｃｈ　ｔｅｒｒｉｂー"TCC_NEWLINE"ｌｅ，　ｈｅａｒｔｌｅｓｓ　ｔｈｉｎｇｓ？！　Ｈｏｗ　ＣＯー"TCC_NEWLINE"ＵＬＤ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｉｓｓ　ｍｙ　ｇｅｎｔｌｅ　ｂｒｏｔｈｅｒ！　Ｂｒｉー"TCC_NEWLINE"ｎｇ　ｈｉｍ　ｂａｃｋ　ｔｏ　ｍｅ！　Ｂｒｏｔｈｅｒｒｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｃａｌｍ　ｄｏｗｎ　ｆｏｒ　ａ　ｍｉｎｕｔｅ，　Ｓｈａｒｅー"TCC_NEWLINE"ｎａ！　Ｉｔ　ｗａｓ　ａｌｌ　ａｎ　ａｃｔ！　．．．Ｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"．．．Ｔｈｅｒｅ　ｎｅｖｅｒ　ｉｓ　ａ　ｄｕｌｌ　ｍｏｍｅー"TCC_NEWLINE"ｎｔ　ｗｉｔｈ　ｙｏｕ　ｔｗｏ，　ｉｓ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｚａｃｈａｒｉａｓ？！　Ｗｈｅｎ　Ｗｈｅｒｅ　ｄｉｄ　ｙｏー"TCC_NEWLINE"ｕ　ｃｏｍｅ　ｆｒｏｍ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｖｅｒｏｎｉｃａ　ｉｓ　ｓｅｔ　ｔｏ　ｂｅ　ｅｘｅｃｕｔｅー"TCC_NEWLINE"ｄ　１０　ｄａｙｓ　ｆｒｏｍ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｏｒｒｙ　ｔｏ　ｈａｖｅ　ｔｏ　ａｓｋ　ｌｉｋー"TCC_NEWLINE"ｅ　ｔｈｉｓ，　ｂｕｔ　Ｉ　ｎｅｅｄ　ｙｏｕｒ　ｓｔｒｅｎー"TCC_NEWLINE"ｇｔｈ　ｏｎｃｅ　ｍｏｒｅ．　Ｗｉｌｌ　ｙｏｕ　ｈｅｌｐ　"TCC_NEWLINE"ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

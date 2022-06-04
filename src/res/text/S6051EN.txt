@@ -1,0 +1,53 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｉｆ　ｅｖｅｒｙｏｎｅ　ｗｉｌｌ　ａｌｌｏｗ　ｍｅ，　Ｉ　"TCC_NEWLINE"ｃａｎ　ｅｘｐｌａｉｎ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｍｏｒー"TCC_NEWLINE"ｅ　ｆｕｌｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｍｂｌａ’ｓ　ｐｏｗｅｒ，　ｔｈｅ　ａｂｉｌｉｔｙ　ｔｏ"TCC_NEWLINE"　ｃｌｏｓｅ　ｔｈｅ　ｗｏｒｌｄ　ｏｆｆ　ｉｎｔｏ　ｄａｒー"TCC_NEWLINE"ｋｎｅｓｓ，　ｉｓ　ｔｈｅ　ｐｏｌａｒ　ｏｐｐｏｓｉｔｅ　"TCC_NEWLINE"ｏｆ　Ａｓｋｒ’ｓ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　Ｌｏｒｄ　Ａｓｋｒ’ｓ　ｒｅｔａｉｎｅｒ，　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ　ｂｅｅｎ　ｇｒａｃｅｄ　ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒ"TCC_NEWLINE"　ｔｏ　ｏｐｅｎ　ｔｈｅ　ｗｏｒｌｄ　ｉｎｔｏ　ｌｉｇｈｔ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏ－ｏｆ　ｃｏｕｒｓｅ，　ｍｙ　ｏｗｎ　ｐｏｗｅｒ　ｉｓ　"TCC_NEWLINE"ｂａｒｅｌｙ　ａ　ｓｌｉｖｅｒ　ｃｏｍｐａｒｅｄ　ｔｏ　ｔー"TCC_NEWLINE"ｈａｔ　ａｔ　Ｌｏｒｄ　Ａｓｋｒ’ｓ　ｃｏｍｍａｎｄ，　ｂー"TCC_NEWLINE"ｕｔ　ｅｖｅｎ　ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｔｏ　ｕｓｅ　ｗｈａｔ　ｐｏｗｅｒ　Ｉ　ｄｏ"TCC_NEWLINE"　ｈａｖｅ，　ａｎｄ　Ｉ　ｂｅｌｉｅｖｅ　Ｉ　ｍａｙ　ｂｅ"TCC_NEWLINE"　ｏｆ　ｓｏｍｅ　ｕｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｏ，　ｔｈｅｎ．．．ｙｏｕ　ｃａｎ　ｄｏ　ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ　ａｂｏｕｔ　ｔｈｉｓ　ｄａｒｋｎｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｂｅｌｉｅｖｅ　ｓｏ．　Ｉｆ　Ｉ　ｒｅａｃｈ　ｔｈｅ　"TCC_NEWLINE"ｄａｒｋｎｅｓｓ，　ｍｙ　ｔｏｕｃｈ　ｃａｎ　ｃａｎｃｅｌ"TCC_NEWLINE"　Ｅｍｂｌａ’ｓ　ｐｏｗｅｒ　ｗｉｔｈ　Ａｓｋｒ’ｓ，　ｗー"TCC_NEWLINE"ｈｉｃｈ　ｗｉｌｌ．．．ｕｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｕｐｐｏｓｅ　ｏｎｅ　ｍｉｇｈｔ　ｓａｙ　ｔｈａｔ　"TCC_NEWLINE"ｉｔ　ｗｉｌｌ　ｏｂｌｉｔｅｒａｔｅ　ｔｈｅ　ｄａｒｋｎｅー"TCC_NEWLINE"ｓｓ．　Ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｔｈａｔ　ｅｆｆｅｃｔ，"TCC_NEWLINE"　ａｔ　ｌｅａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓａｉｄ，　Ｉ　ｃａｎｎｏｔ　ｇｕａｒａｎｔｅｅ"TCC_NEWLINE"　ｒｅｓｕｌｔｓ．　Ｔｈｅｒｅ　ｉｓ　ａ　ｃｏｎｓｉｄｅｒー"TCC_NEWLINE"ａｂｌｅ　ｃｈａｎｃｅ　ｔｈａｔ　Ｉ’ｌｌ　ｈａｖｅ　ｎｏ"TCC_NEWLINE"　ｉｍｐａｃｔ，　ｂｕｔ　ｗｅ　ｃａｎ　ｔｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｏｗ，　Ａｓｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｆ　ｙｏｕｒ　ｐｏｗｅｒ　ｗｏｒｋｓ　ｌｉｋｅ　ｙｏｕ　"TCC_NEWLINE"ｄｅｓｃｒｉｂｅ，　ｉｔ　ｗｉｌｌ　ｒｅｎｄｅｒ　Ｄｉｒｅー"TCC_NEWLINE"ｃｔｏｒ　Ｌｅｔｉｚｉａ’ｓ　ａｔｔａｃｋｓ　ｍｏｏｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ａｎ　ｉｎｃｒｅｄｉｂｌｅ　ｈｅｌｐ，　Ａー"TCC_NEWLINE"ｓｈ．　Ｗｅ　ａｐｐｒｅｃｉａｔｅ　ｗｈａｔｅｖｅｒ　ｙｏー"TCC_NEWLINE"ｕ　ｃａｎ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｙｏｕ　ｎｅｅｄｎ’ｔ　ｓｐａｒｅ　ｉｔ　ａ　ｓｅー"TCC_NEWLINE"ｃｏｎｄ　ｔｈｏｕｇｈｔ．　Ｍｙ　ｄｕｔｙ　ｉｓ　ｔｏ　ａー"TCC_NEWLINE"ｓｓｉｓｔ　ｙｏｕ　ｉｎ　ｙｏｕｒ　ｅｆｆｏｒｔｓ，　ａｆー"TCC_NEWLINE"ｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅ　ｄａｒｋｎｅｓｓ　ｅｖｅｒ　ｅｎｃｒｏａｃｈー"TCC_NEWLINE"ｅｓ，　ｄｏ　ｎｏｔ　ｈｅｓｉｔａｔｅ　ｔｏ　ｃａｌｌ　ｏー"TCC_NEWLINE"ｎ　ｍｅ　ｆｏｒ　ａｉｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｓｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　Ｌａｄｙ　Ｓｈａｒｅｎａ？　Ｉｓ　ｔｈｅｒｅ　ｓー"TCC_NEWLINE"ｏｍｅｔｈｉｎｇ　ｙｏｕ　ｎｅｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ’ｒｅ　ａｌｗａｙｓ　ｓｏ　ｐｏｌｉｔｅ，　ｂｕｔ．"TCC_NEWLINE"．．　ｗｅ’ｒｅ　ｆｒｉｅｎｄｓ　ｎｏｗ！　Ｙｏｕ　ｃｏｕー"TCC_NEWLINE"ｌｄ　ｒｅｌａｘ　ａ　ｂｉｔ　ａｒｏｕｎｄ　ｕｓ，　ｙｏｕ"TCC_NEWLINE"　ｋｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｒｅｌａｘ？　Ｈｏｗ　ｄｏ　ｙｏｕ　ｍｅａｎ，　Ｌａー"TCC_NEWLINE"ｄｙ　Ｓｈａｒｅｎａ？　Ａｍ　Ｉ　ｕｓｉｎｇ　ａｎ　ｉｎａー"TCC_NEWLINE"ｐｐｒｏｐｒｉａｔｅ　ｔｏｎｅ　ｗｉｔｈ　ｙｏｕ？　Ｉ　ｍー"TCC_NEWLINE"ｅａｎ　ｎｏ　ｏｆｆｅｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｏｎｌｙ　ｍｅａｎ　ｔｈａｔ．．．ｙｏｕ　ｄｏｎ’ｔ　"TCC_NEWLINE"ｎｅｅｄ　ｔｏ　ｗｏｒｒｙ　ｓｏ　ｍｕｃｈ　ａｂｏｕｔ　ｗー"TCC_NEWLINE"ｈａｔ　ｙｏｕ’ｒｅ　ｓａｙｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｈｏｕｌｄ　ｆｅｅｌ　ｌｉｋｅ　ｙｏｕ　ｃａｎ　"TCC_NEWLINE"ｔａｌｋ　ｔｏ　ｕｓ　ｌｉｋｅ　ｙｏｕ’ｄ　ｔａｌｋ　ｔｏ"TCC_NEWLINE"　ａ　ｍｅｍｂｅｒ　ｏｆ　ｙｏｕｒ　ｆａｍｉｌｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍ．　Ｉ　ｓｅｅ．．．　Ｉ　ｂｅｌｉｅｖｅ　Ｉ　ｕｎｄｅー"TCC_NEWLINE"ｒｓｔａｎｄ．　Ｉ　ｗｉｌｌ　ｃｏｎｓｉｄｅｒ　ｈｏｗ　ｔー"TCC_NEWLINE"ｏ　ｓｐｅａｋ　ｔｏ　ｙｏｕ　ａｓ　ｍｏｒｔａｌｓ　ｓｐｅー"TCC_NEWLINE"ａｋ　ｔｏ　ｔｈｅｉｒ　ｆａｍｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6051_EN] = TCC_OPEN_LEFT
+"Ｍａｒｅｅｔａ．．．　Ｙｏｕ’ｖｅ　ｇｒｏｗｎ　ｕｐ　ｓｏ"TCC_NEWLINE"　ｓｔｒｏｎｇ，　ｓｏ　ｇｅｎｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ELM
+"Ｓｏ，　Ｌｅｔｉｚｉａ．．．　Ｓｕｐｐｏｓｉｎｇ　ｔｈｅ　"TCC_NEWLINE"Ａｓｋｒａｎｓ　ｔａｋｅ　ｙｏｕ　ａｔ　ｙｏｕｒ　ｗｏｒｄ"TCC_NEWLINE"　ａｎｄ　ｄｏ　ｃｏｍｅ　ｂａｃｋ．．．ｔｈｅｎ　ｗｈａｔ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｔｈｅｎ　Ｉ’ｌｌ　ｋｉｌｌ　ｔｈｅｍ　ｔｈｅｎ　ａｎｄ　"TCC_NEWLINE"ｔｈｅｒｅ．　Ｗｈａｔ　ｅｌｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓ　ｗｈａｔ　Ｉ　ｗａｓ　Ｉ　ｈｏｐｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｈｅａｒ．　Ｋｉｌｌ　Ａｓｋｒ．．．　Ｔｈａｔ　ｉｓ　"TCC_NEWLINE"Ｌａｄｙ　Ｅｍｂｌａ’ｓ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ　ｓｅｅｍｓ　ｔｏ　ｍｅ　ｙｏｕ　ｏｕｇｈｔ　ｔｏ　ｂー"TCC_NEWLINE"ｅ　ｍｏｒｅ　ｗｏｒｒｉｅｄ　ａｂｏｕｔ　ｔｈｅ　ｗｏｒｋ"TCC_NEWLINE"　ｙｏｕ’ｖｅ　ｓｅｔ　ｙｏｕｒｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｍａｎｙ　ｐｌａｃｅｓ　ｈａｖｅ　ｂｅｅｎ　ｄｏｎー"TCC_NEWLINE"ｅ　ｎｏｗ？　Ｔｈｒｅｅ？　Ｆｏｕｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅ　ｆｏｒｂｉｄｄｅｎ　ｔｏｍｅ？　Ｉｆ　ｗｅ"TCC_NEWLINE"　ａｒｅ　ｕｎａｂｌｅ　ｔｏ　ｐｅｒｆｏｒｍ　ｔｈｅ　Ｒｉー"TCC_NEWLINE"ｔｅ　ｏｆ　Ｃｌｏｓｉｎｇ，　ｉｔ　ｗｉｌｌ　ｈａｖｅ　ａー"TCC_NEWLINE"ｌｌ　ｂｅｅｎ　ｆｏｒ　ｎｏｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｋｎｏｗ　ｔｈａｔ！　Ａｎｄ　Ｉ　ｗｏｎ’ｔ　ｂｅ　ｏー"TCC_NEWLINE"ｒｄｅｒｅｄ　ａｒｏｕｎｄ　ｂｙ　ｓｏｍｅ　ｐｅｅｖｉｓｈ"TCC_NEWLINE"　ｍｏｒｔａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ｏｎｅ　ｗｈｏ　ｃａｎ　ｇｉｖー"TCC_NEWLINE"ｅ　ｍｅ　ｏｒｄｅｒｓ．．．ａｎｄ　ｔｈａｔ　ｉｓ　ｔｈｅ"TCC_NEWLINE"　ｓｉｎｇｕｌａｒ　Ｌａｄｙ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

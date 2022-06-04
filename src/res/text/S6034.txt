@@ -1,0 +1,86 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6034] = TCC_OPEN_LEFT 
+"昔の俺は愚かだったが。。。" TCC_NEWLINE
+"それでもこの十\年は" TCC_NEWLINE
+"俺にたくさんのことを教えてくれた。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6034] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_VERONICA
+"はぁ。。。はぁ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"ああ、ヴェロニカ。。。" TCC_NEWLINE
+"ここにいたのね。" TCC_NEWLINE
+"大丈夫？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！" TCC_NEWLINE
+"お姉様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"よく聞いて、ヴェロニカ。" TCC_NEWLINE
+"大変なことが起きたの。" TCC_NEWLINE TCC_PUSH_A
+"あなたが" TCC_NEWLINE
+"反逆の罪に問われているの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はんぎゃく。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"皇女ヴェロニカは売国奴。。。" TCC_NEWLINE
+"敵国のアスクと通じ、" TCC_NEWLINE
+"エンブラ帝国を滅ぼそうとしている。。。" TCC_NEWLINE TCC_PUSH_A
+"今、各地で起きている" TCC_NEWLINE
+"暗闇の被害も。。。" TCC_NEWLINE
+"あなたの仕業だって。。。" TCC_NEWLINE TCC_PUSH_A
+"有力貴族たちが皆、" TCC_NEWLINE
+"示し合わせたようにそう糾弾しているの。" TCC_NEWLINE
+"数々の証拠がある、と。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。そんなの、うそ。" TCC_NEWLINE
+"。。。あたしは、民を苦しめたりなんて" TCC_NEWLINE
+"ぜったいしてない。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ええ、わかってるわ。" TCC_NEWLINE
+"あなたはそんなこと絶対にしていない。" TCC_NEWLINE TCC_PUSH_A
+"これは、あなたを陥れる陰謀よ。" TCC_NEWLINE
+"彼らはおそらくずっと前から" TCC_NEWLINE
+"綿密に企てていたのでしょう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"でも、ああ。。。" TCC_NEWLINE
+"どうやってそれを" TCC_NEWLINE
+"証明すればいいのかしら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。お母様は。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。皇帝陛下はあなたを捕らえ、" TCC_NEWLINE
+"真偽を確かめるよう命じたわ。" TCC_NEWLINE TCC_PUSH_A
+"ごめんなさい、ヴェロニカ。" TCC_NEWLINE
+"手荒な真似はしたくないわ。" TCC_NEWLINE
+"だから、私と一緒に城へ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。っ。。。こえが。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ヴェロニカ。。。どうしたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"声が。。。やまないの。。。" TCC_NEWLINE
+"さからえない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"ころせ。。。ころせ。。。ころせ。。。" TCC_NEWLINE
+"アスクを。。。ころせ。。。"
+"" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ヴェロニカ、どこへ行くの！？" TCC_NEWLINE
+"待って！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

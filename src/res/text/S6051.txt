@@ -1,0 +1,118 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S6051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ASH
+"えー、それでは皆様、" TCC_NEWLINE
+"ご説明させていただきます。" TCC_NEWLINE TCC_PUSH_A
+"闇へ閉ざすエンブラの力。。。" TCC_NEWLINE
+"それと対を為すのが、" TCC_NEWLINE
+"光へ開くアスク様の御力であります。" TCC_NEWLINE TCC_PUSH_A
+"僭越ながらアスク様の眷属でありますから、" TCC_NEWLINE
+"私も開く力を畏れ多くも" TCC_NEWLINE
+"使うことができるわけでありまして。。。" TCC_NEWLINE TCC_PUSH_A
+"あ、もちろんその力はごくわずか、" TCC_NEWLINE
+"偉大なるアスク様とは" TCC_NEWLINE
+"比べるべくもないものでありますが。。。" TCC_NEWLINE TCC_PUSH_A
+"とはいえまったくもって無力というわけでも" TCC_NEWLINE
+"ありませんので、私としましても" TCC_NEWLINE
+"微力を尽くす所存であり。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"要するに。" TCC_NEWLINE
+"あなたなら、あの厄介な闇を" TCC_NEWLINE
+"なんとかできるってことね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。私自身があの闇に触れ、" TCC_NEWLINE
+"開く力と閉じる力を打ち消し合うことで。。。" TCC_NEWLINE
+"えー、なんと申\しましょうか、" TCC_NEWLINE TCC_PUSH_A
+"闇を退けるといいましょうか、" TCC_NEWLINE
+"消し去るといいましょうか、ともかく" TCC_NEWLINE
+"そういったことができるわけであります。" TCC_NEWLINE TCC_PUSH_A
+"もちろん絶対とは申\しませんが。。。" TCC_NEWLINE
+"おそらくはできるのではないかと。。。" TCC_NEWLINE
+"おそらくはですが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"すごいです、アシュさん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"それがうまくいけば、" TCC_NEWLINE
+"レティシア将軍の恫喝も無力になる。" TCC_NEWLINE
+"本当に感謝するよ、アシュ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、いえいえ、勿体ないお言葉です。" TCC_NEWLINE
+"私が皆様のお役に立てるのは" TCC_NEWLINE
+"このようなことくらいでありますから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"それでは、" TCC_NEWLINE
+"あの闇が近くに現れましたら、" TCC_NEWLINE
+"私をお呼びくださいますよう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あの、アシュさん。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい、シャロン様。" TCC_NEWLINE
+"いかがなさいましたでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"アシュさんの話し方って" TCC_NEWLINE
+"いつもすごく礼儀正しいですよね。" TCC_NEWLINE TCC_PUSH_A
+"でも、わたしたち仲間ですから！" TCC_NEWLINE
+"もっとふつうに話してくれて" TCC_NEWLINE
+"いいんですよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふつう。。。ですか。" TCC_NEWLINE
+"シャロン様。" TCC_NEWLINE
+"ふつうとおっしゃいますと。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"えっとですね。" TCC_NEWLINE
+"アシュさんが家族とか友達と" TCC_NEWLINE
+"気軽に話す感じで！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"家族。。。なるほど。" TCC_NEWLINE
+"人間の皆様のご家族のように。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6051] = TCC_OPEN_LEFT 
+"マリータ。。。" TCC_NEWLINE
+"強く優しい子に育ったな。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ELM
+"レティシア。" TCC_NEWLINE
+"もし、アスク王族どもが君を信じて" TCC_NEWLINE
+"投降してきたら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"ええ、即座に殺します。" TCC_NEWLINE
+"当然でしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ならいいんだ。" TCC_NEWLINE
+"アスクは殺せ。。。" TCC_NEWLINE
+"それがエンブラ様のご意思だからね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それよりあなたは、" TCC_NEWLINE
+"あなたの仕事をお忘れなく。" TCC_NEWLINE TCC_PUSH_A
+"各地の楔は" TCC_NEWLINE
+"何か所進んでいるのかしら？" TCC_NEWLINE
+"三つ？　四つ？" TCC_NEWLINE TCC_PUSH_A
+"宝物殿から奪ったエンブラの禁書も。。。" TCC_NEWLINE
+"【閉の儀】を執り行わなければ" TCC_NEWLINE
+"何の意味もありません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わかってるよ、うるさいな。" TCC_NEWLINE
+"人間ごときに偉そうに" TCC_NEWLINE
+"指図されたくないね。" TCC_NEWLINE TCC_PUSH_A
+""
+"僕に命令できるのはただ一人。。。" TCC_NEWLINE
+"偉大なるエンブラ様だけさ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

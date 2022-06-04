@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5022_EN] = TCC_OPEN_LEFT
+"Ｉ’ｍ　ｓｉｃｋ　ｔｏ　ｄｅａｔｈ　ｏｆ　ｌｉｖｉｎｇ　ｌー"TCC_NEWLINE"ｉｋｅ　ａ　ｄｅｓｅｒｔ　ｒａｔ．　Ｉ’ｍ　ｇｏｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｂｅ　ａ　ｋｉｎｇ　ｏｎｅ　ｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

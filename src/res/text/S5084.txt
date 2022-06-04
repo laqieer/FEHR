@@ -1,0 +1,92 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5084] = TCC_OPEN_LEFT 
+"パオラよ。" TCC_NEWLINE
+"アカネイア大陸から妹を探しに来たの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5084] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"お疲れ様、" TCC_TACTICIAN_NAME "！" TCC_NEWLINE
+"みんなも今日は" TCC_NEWLINE
+"ゆっくり休んでちょうだい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はあ、もうお腹ペコペコです～。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_NOTT
+"ちょっといいかしら？" TCC_NEWLINE
+"アンナ隊長。提案がありますの。" TCC_NEWLINE TCC_PUSH_A
+"今日の夕食は" TCC_NEWLINE
+"私に作らせてもらえませんか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えっ？　ノート王女が？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ええ。私、皆さんに" TCC_NEWLINE
+"大変ご迷惑をおかけしたでしょう？" TCC_NEWLINE TCC_PUSH_A
+"戦闘につぐ戦闘で" TCC_NEWLINE
+"うやむやになっていましたけど。。。" TCC_NEWLINE TCC_PUSH_A
+"きちんとお詫びしたいと" TCC_NEWLINE
+"思っていましたの。" TCC_NEWLINE
+"特に" TCC_TACTICIAN_NAME "様には。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。何をって、あなたをオッテルに" TCC_NEWLINE
+"引き渡しましたでしょう！？" TCC_NEWLINE
+"怒ってらっしゃらないの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたは。。。本当にお優しい方ですのね。" TCC_NEWLINE
+"それに引きかえ私は上辺にすぐ騙されて。。。" TCC_NEWLINE
+"自分が恥ずかしいですわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
+"これからは心を入れ替えて" TCC_NEWLINE
+"あなた様にお仕えします。" TCC_NEWLINE TCC_PUSH_A
+"ですからどうか。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。、。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ノート王女？　どうしたんです？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"" TCC_TACTICIAN_NAME "様のお顔。。。" TCC_NEWLINE
+"よく拝見すると" TCC_NEWLINE
+"とっても私好みですわ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"はっ、いけません！" TCC_NEWLINE
+"先ほど心を入れ替えると誓ったばかり" TCC_NEWLINE
+"ですのに。。。私ったら。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"あのー、ノート王女。。。" TCC_NEWLINE
+"私、すっごくお腹が空いたの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そ、そうでしたわね。" TCC_NEWLINE
+"任せてくださいませ！" TCC_NEWLINE TCC_PUSH_A
+""
+"真心を込めて、" TCC_NEWLINE
+"とーっても美味しいお料理を" TCC_NEWLINE
+"作ってご覧にいれますから！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"わーい！　楽しみなの！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5084] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ーーよし！　誰にも気づかれず" TCC_NEWLINE
+"お城を抜け出せたの。" TCC_NEWLINE TCC_PUSH_A
+"思った通り、" TCC_NEWLINE
+"ノート王女の料理のおかげで" TCC_NEWLINE
+"みんなお腹いっぱいでぐっすり寝てるの。" TCC_NEWLINE TCC_PUSH_A
+""
+"ごめんなさい。私たちのせいで" TCC_NEWLINE
+"みんな傷ついて疲れてる。。。" TCC_NEWLINE TCC_PUSH_A
+"だからせめて、お兄ちゃん達が" TCC_NEWLINE
+"おかしくなった原因くらい" TCC_NEWLINE
+"自分で突き止めなきゃなの。" TCC_NEWLINE TCC_PUSH_A
+""
+"ファフニールお兄ちゃん。。。" TCC_NEWLINE
+"地下牢でずっと苦しんで。。。" TCC_NEWLINE
+"待っててね、絶対私が助けてあげるから！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,96 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"この悪夢の世界のどこかに、フレイヤも" TCC_NEWLINE
+"知らない脱出路があるかもしれないわ。" TCC_NEWLINE
+"なんとかしてそれを探せば。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_FREYR
+"いや。。。このスヴァルトアルフは" TCC_NEWLINE
+"すべてフレイヤのものだ。" TCC_NEWLINE
+"フレイヤが閉ざした以上、出口はない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。では、フレイヤを討つ" TCC_NEWLINE
+"手がかりを探しましょう。" TCC_NEWLINE
+"必ず何か方法が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。すまない。私の力を手に入れた" TCC_NEWLINE
+"フレイヤはすべての夢の王となった。。。" TCC_NEWLINE
+"この夢の世界でフレイヤを討つすべはない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"悪夢の世界からは出られない。。。" TCC_NEWLINE
+"悪夢の世界では倒せない。。。" TCC_NEWLINE TCC_PUSH_A
+"じゃあ、もう本当に" TCC_NEWLINE
+"どうしようもないって" TCC_NEWLINE
+"ことでしょうか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。諦めるわけにはいかない。" TCC_NEWLINE
+"考えよう。" TCC_NEWLINE
+"考えれば、必ず何か方法が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"しかし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"と、とにかくこの場から逃げましょう。" TCC_NEWLINE
+"行先は。。。" TCC_NEWLINE
+"とりあえず、あっちよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"フロージ王、" TCC_NEWLINE
+"僕たちはこのまま撤退を続けます。" TCC_NEWLINE
+"どうかご一緒に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_FREYR
+"すまない。。。" TCC_NEWLINE
+"君たちには" TCC_NEWLINE
+"迷惑をかけてばかりいる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いいえ。" TCC_NEWLINE
+"あなたは僕たちを助けてくれた。。。" TCC_NEWLINE
+"とても感謝しています。" TCC_NEWLINE TCC_PUSH_A
+"悪夢の女王フレイヤのことも。。。" TCC_NEWLINE
+"あなたには何の罪もありません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。" TCC_NEWLINE
+"幼い頃のフレイヤは。。。" TCC_NEWLINE
+"気が弱く、心優しい子だった。" TCC_NEWLINE TCC_PUSH_A
+"鼻に大きな痣があり。。。" TCC_NEWLINE
+"豚のようだと皆に嘲笑われ、" TCC_NEWLINE
+"いつも泣いていた。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そんなことが。。。" TCC_NEWLINE
+"でも、あなたはきっと、" TCC_NEWLINE
+"彼女にも優しかったのでしょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私はフレイヤの兄だ。" TCC_NEWLINE
+"妹への愛が失われるはずもない。" TCC_NEWLINE TCC_PUSH_A
+"私が慰めの言葉をかけると。。。" TCC_NEWLINE
+"妹は私にだけ笑顔を" TCC_NEWLINE
+"見せるようになった。" TCC_NEWLINE TCC_PUSH_A
+"そうして。。。いつか大人になったら、" TCC_NEWLINE
+"私のような優しい相手と" TCC_NEWLINE
+"結ばれたいのだと言った。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"やがて、成長したフレイヤは" TCC_NEWLINE
+"誰もが心奪われるほどの" TCC_NEWLINE
+"美貌になった。。。" TCC_NEWLINE TCC_PUSH_A
+"多くの者たちが彼女に求婚したが、" TCC_NEWLINE
+"彼女は誰の愛も" TCC_NEWLINE
+"受け入れることはなかった。。。" TCC_NEWLINE TCC_PUSH_A
+"それもまた、私の罪か。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

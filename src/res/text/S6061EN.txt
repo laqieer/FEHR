@@ -1,0 +1,62 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｄｏ　ｓｏｍｅｔｈｉｎｇ　ａｂｏｕｔ"TCC_NEWLINE"　Ｖｅｒｏｎｉｃａ’ｓ　ｅｘｅｃｕｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗ－ｗｅ　ｃａｎ’ｔ　ａｌｌｏｗ　ｉｔ．　Ｗｅ　ｎｅｅｄ　"TCC_NEWLINE"ｔｏ　ｇｏ　ｓａｖｅ　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｄｏ　ｙｏｕ　ｈａｖｅ　ａ　ｐｌａｎ，　Ｚａｃｈａｒｉａｓ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｔｈｅ　ｋｅｅｐ　ｓｈｅ’ｓ　ｂｅｉｎｇ　ｈｅｌｄ　ｉｎ　"TCC_NEWLINE"ｉｓ　ｎｅａｒ　ｉｍｐｒｅｇｎａｂｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔｓ　ｇｕａｒｄｓ　ａｒｅ　ｅｘｔｒｅｍｅｌｙ　ｌｏｙａー"TCC_NEWLINE"ｌ　ｔｏ　ｔｈｅ　Ｅｍｐｉｒｅ　ａｓ　ｗｅｌｌ．　Ｔｈｅｙ"TCC_NEWLINE"　ｗｉｌｌ　ｎｏｔ　ｓｕｒｒｅｎｄｅｒ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｔｈｅ　Ｈｅｒｏｅｓ’　ｓｔｒｅｎｇｔｈ，　ｈｏー"TCC_NEWLINE"ｗｅｖｅｒ，　ｗｅ　ｍａｙ　ｂｅ　ａｂｌｅ　ｔｏ　ｄｅｆｅー"TCC_NEWLINE"ａｔ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｙ　ｗｉｌｌ　ｆｉｇｈｔ　ｔｏ　ｔｈｅ　ｌａー"TCC_NEWLINE"ｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｄｉｒｅｃｔ　ａｓｓａｕｌｔ　ｃｏｕｌｄ　ｒｅｓｕｌｔ"TCC_NEWLINE"　ｉｎ　ｔｈｅ　ｄｅａｔｈｓ　ｏｆ　ｓｃｏｒｅｓ　ｕｐｏｎ"TCC_NEWLINE"　ｓｃｏｒｅｓ　ｏｆ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ’ｌｌ　ｈａｖｅ　ｔｏ　ｓｅｎｄ　ｉｎ　ａ　ｓｐｅｃｉー"TCC_NEWLINE"ａｌ　ｕｎｉ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏ．　Ｓｎｅａｋｉｎｇ　ｉｎ　ｉｓ　ｎｏｔ　ａ　ｐｏｓｓー"TCC_NEWLINE"ｉｂｉｌｉｔｙ．　Ｔｈｅ　ｆｏｒｔｉｆｉｃａｔｉｏｎｓ　ａー"TCC_NEWLINE"ｒｅ　ａｉｒｔｉｇｈｔ．　Ｎｏｔｈｉｎｇ　ｃａｎ　ｓｌｉｐ"TCC_NEWLINE"　ｔｈｒｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｏｕｌｄｎ’ｔ　ｍａｔｔｅｒ　ｗｈｏ　ｗｅ　ｗｅｒー"TCC_NEWLINE"ｅ　ｔｏ　ｓｅｎｄ．　Ｔｈｅｙ　ｗｏｕｌｄ　ｎｏｔ　ｒｅｔー"TCC_NEWLINE"ｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｎ．．．ｉｓ　ｔｈｅｒｅ　ｎｏ　ｗａｙ　ｔｏ　ｓａｖー"TCC_NEWLINE"ｅ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅｒｅ　ｉｓ　ｏｎｅ　ｐｏｓｓｉｂｉｌｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｉｌｌ　ｒｅｑｕｉｒｅ　ｍｅ　ｔｏ　ａｃｔ　ｏｎ　"TCC_NEWLINE"ｍｙ　ｏｗｎ　ｆｏｒ　ａ　ｗｈｉｌｅ　ｙｅｔ，　ｔｈｏｕｇー"TCC_NEWLINE"ｈ，　ｕｎｆｏｒｔｕｎａｔｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｏｒｒｙ，　Ａｌｆｏｎｓｅ，　ｂｕｔ　Ｉ　ｍｕー"TCC_NEWLINE"ｓｔ　ａｓｋ　ｙｏｕ　ｔｏ　ｔａｋｅ　ｔｈｅ　ｆｉｇｈｔ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　Ｃｕｒｓｅ　Ｄｉｒｅｃｔｉｖｅ　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｍｅａｎｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｔｈｅｎ　ｙｏｕ　ｄｏ　ｈａｖｅ　ａ　ｐｌａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｄｏ．　Ｉ　ｐｌａｎ　ｔｏ　ｓａｖｅ　ｍｙ　ｓｉｓｔｅー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅｙ　ｄｏ　ｎｏｔ　ｌｅｔ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｍｕｓｔ　ｐｌａｎ　ｔｏ　ｄｏ　ｅｖｅｒｙｔｈｉー"TCC_NEWLINE"ｎｇ　ｔｈｅｙ　ｃａｎ　ｔｏ　ｋｅｅｐ　ｕｓ　ｆｒｏｍ　ｒー"TCC_NEWLINE"ｅａｃｈｉｎｇ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｔｒｕｓｔ　Ｚａｃｈａｒｉａｓ　ｋｎー"TCC_NEWLINE"ｏｗｓ　ｗｈａｔ　ｈｅ’ｓ　ｄｏｉｎｇ，　ａｎｄ　ｔｈａｔ"TCC_NEWLINE"　ｈｅ　ｃａｎ　ｓａｖｅ　ｔｈｅ　ｐｒｉｎｃｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ　ｎｏｗ，　ｔｈｏｕｇｈ，　ｗｅ’ｖｅ　ｓｔｉｌー"TCC_NEWLINE"ｌ　ｇｏｔ　ｔｈｅｓｅ　ｄｅｆｅｎｓｅｓ　ｔｏ　ｃｏｎｔｅー"TCC_NEWLINE"ｎｄ　ｗｉｔｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ELM
+"Ｌｅｔｉｚｉａ　ｍｕｓｔ　ｂｅ　ｕｐ　ｔｏ　ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"．．．Ｉ　ｂｅｇ　ｙｏｕｒ　ｐａｒｄｏｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｙｏｕ　ｈａｖｅｎ’ｔ　ｈｅａｒｄ？　Ｔｈｅｒｅ　"TCC_NEWLINE"ａｒｅ　ｒｕｍｏｒｓ　ｇｏｉｎｇ　ａｒｏｕｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｉｓ　ｉｎｎｏｃｅｎｔ"TCC_NEWLINE"，　ｔｈｅｙ　ｓａｙ．　Ｉｔ’ｓ　ａｌｌ　ａ　ｃｏｎｓｐｉー"TCC_NEWLINE"ｒａｃｙ　ａｇａｉｎｓｔ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔｉｚｉａ　ｍｕｓｔ　ｂｅ　ｕｐ　ｔｏ　ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ．　Ｏｒ　ｓｏ　ｔｈｅｙ　ｓａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｗｈａｔ　ｄｒｉｖｅｌ．　Ｔｈｅ　ｇｏｓｓｉｐ　ｏｆ"TCC_NEWLINE"　ｆｏｏｌｓ　ｉｓ　ｎｏｎｅ　ｏｆ　ｍｙ　ｃｏｎｃｅｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　ｙｏｕｒ　ｃｏｎｃｅｒｎ　ｉｓ　ｎｏｎｅ　ｏｆ　ｍー"TCC_NEWLINE"ｉｎｅ．　Ｂｕｕｕｔ．．．ｓａｙ　ｔｈｉｓ　ｇｏｓｓｉｐ　"TCC_NEWLINE"ｉｓ，　ｐｅｒｈａｐｓ，　ｎｏｔ　ｆａｒ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　ｔｒｕｔｈ．．．　Ｗｈａｔ　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｎ　ｉｔ　ｗｏｕｌｄ　ｂｅ　ｍｏｒｅ　ｔｈａｎ　ｇｏー"TCC_NEWLINE"ｓｓｉｐ，　ｗｏｕｌｄｎ’ｔ　ｉｔ？　Ｂｕｔ　ｗｅ　ｎｅｅー"TCC_NEWLINE"ｄ　ｎｏｔ　ｗｏｒｒｙ　ａｂｏｕｔ　ｔｈａｔ，　ａｎｄ　Ｉ"TCC_NEWLINE"’ｌｌ　ｔｅｌｌ　ｙｏｕ　ｗｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｔｒｕｔｈ　ｉｓ　ｓｉｍｐｌｙ　ｔｈｅ　ｌｉｅ　ｔー"TCC_NEWLINE"ｈａｔ　ｅｖｅｒｙｏｎｅ　ｃｏｎｔｉｎｕｅｓ　ｔｏ　ｂｅｌー"TCC_NEWLINE"ｉｅｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｋｉｎｄ　ｏｆ　ｇｏｓｓｉｐ"TCC_NEWLINE"　ｍｙ　ｆｏｅｓ　ｍａｙ　ｓｐｒｅａｄ，　Ｉ　ｗｉｌｌ　ｏー"TCC_NEWLINE"ｖｅｒｗｈｅｌｍ　ｔｈｅｍ　ｗｉｔｈ　ｔｈｅ　ｓｔｏｒｙ　"TCC_NEWLINE"ｏｆ　ｍｙ　ｃｈｏｏｓｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｏｌｄ　ｔｈｅ　ｌｅｖｅｒｓ　ｔｈａｔ　ｄｅｔｅｒｍー"TCC_NEWLINE"ｉｎｅ　ｔｈｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏ　ｙｏｕ　ｄｏ　ｈａｖｅ　ａ　ｐｌａｎ　ｔｈｅｎ．．．"TCC_NEWLINE"ｍｏｒｅ　ｏｒ　ｌｅｓｓ．　Ｈｏｗ　ｒｅａｓｓｕｒｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈａｖｅ　ｓｐｉｅｓ　ｅｍｂｅｄｄｅｄ　ａｃｒｏｓｓ　"TCC_NEWLINE"ｔｈｅ　ｗｈｏｌｅ　ｏｆ　ｔｈｅ　Ｅｍｐｉｒｅ．　Ｔｈｅｙ"TCC_NEWLINE"　ｗｉｌｌ　ｓｐｒｅａｄ　ｔｈｅ　ｎａｒｒａｔｉｖｅ　ｏｆ"TCC_NEWLINE"　Ｖｅｒｏｎｉｃａ’ｓ　ｖｉｌｌａｉｎｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｐｕｔ　ｅａｃｈ　ａｎｄ　ｅｖｅｒｙ　ｏｎｅ"TCC_NEWLINE"　ｏｆ　ｔｈｅｍ　ｉｎｔｏ　ａｃｔｉｏｎ．　Ｉ　ｗｉｌｌ　"TCC_NEWLINE"ｎｏｔ　ｆａｉｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｏｐａｇａｎｄａ　ａｎｄ　ｍａｎｉｐｕｌａｔｉｏｎ　ａー"TCC_NEWLINE"ｒｅ　ｍｙ　ｓｐｅｃｉａｌｔｉｅｓ．　Ｉ　ｃａｎｎｏｔ　ｂー"TCC_NEWLINE"ｅ　ｔｈｒｅａｔｅｎｅｄ　ｂｙ　ｒｕｍｏｒｓ　ａｍｏｎｇ　"TCC_NEWLINE"ｔｈｅ　ｐｅａｓａｎｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｏｖｅｌｙ．．．　Ｔｈｅｎ　Ｉ　ｓｕｐｐｏｓｅ　ｔｈｅｒー"TCC_NEWLINE"ｅ’ｓ　ｎｏｔｈｉｎｇ　ｔｏ　ｗｏｒｒｙ　ａｂｏｕｔ　ｔｈー"TCC_NEWLINE"ｅｎ，　ｉｓ　ｔｈｅｒｅ，　ｍｙ　ｆｕｔｕｒｅ　ｅｍｐｅｒー"TCC_NEWLINE"ｏｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

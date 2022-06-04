@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5043_EN] = TCC_OPEN_LEFT
+"Ｉ　ｗａｓ　ｃａｌｌｅｄ　ｃｒｙｂａｂｙ　ａｎｄ　ｗｏｒｓー"TCC_NEWLINE"ｅ　ｗｈｅｎ　Ｉ　ｗａｓ　ｙｏｕｎｇｅｒ，　ｂｕｔ　Ｉ　ａー"TCC_NEWLINE"ｍ　ｎｏ　ｌｏｎｇｅｒ　ｔｈａｔ　ｃｈｉｌｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

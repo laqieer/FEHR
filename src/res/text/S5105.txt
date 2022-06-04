@@ -1,0 +1,174 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5105] = TCC_OPEN_LEFT 
+"アンリはたった一人で" TCC_NEWLINE
+"戦いに勝利した。" TCC_NEWLINE
+"でも、ぼくはみんなの力がなければ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5105] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ニザヴェリル軍が退いていく。。。" TCC_NEWLINE
+"何かあったのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"はぁ。。。相変わらず手強いですね。" TCC_NEWLINE
+"ニザヴェリル軍は。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"何はともあれ助かった。" TCC_NEWLINE
+"感謝する。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"お兄ちゃん！　待って！" TCC_NEWLINE
+"まだ聞きたいことが。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"無理ですよ、レギン王女！" TCC_NEWLINE
+"もう追いつけません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"お兄。。。ちゃ。。。。。。、。。。っ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レギン王女！？　しっかりしろ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"ひどい熱だわ。。。！" TCC_NEWLINE
+"きっと心労がたたったのね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ヴェロニカ皇女、" TCC_NEWLINE
+"少しどこかで" TCC_NEWLINE
+"休ませてもらえませんか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_VERONICA
+"。。。。。。。" TCC_NEWLINE
+"こんかいだけ、よ。。。" TCC_NEWLINE
+"じゃあ、こっちにはこんで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ありがとう、ヴェロニカ皇女。" TCC_NEWLINE
+"みんな、後退しよう。" TCC_NEWLINE
+"あと少しがんばってくれ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5105] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"兄さん！　待って！！" TCC_NEWLINE
+"ファフニール兄さん！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_FAFNIR
+"エイトリ！　出てこい！！" TCC_NEWLINE
+"出てこないなら" TCC_NEWLINE
+"祠ごと焼き殺すぞ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_EITRI
+"ああ、ファフニール王。" TCC_NEWLINE
+"ちょうどいい、" TCC_NEWLINE
+"私もあなたに用があったんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"てめえの用なんざどうでもいい。" TCC_NEWLINE
+"お前、あの男を知っているのか！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あの男？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"しらばっくれるんじゃねぇ！" TCC_NEWLINE
+"お前が造ったあの召喚器を" TCC_NEWLINE
+"持った男だ！！" TCC_NEWLINE TCC_PUSH_A
+""
+"あいつが。。。あいつが俺を召喚した！" TCC_NEWLINE
+"そうなんだな！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！？　兄さん。。。！？" TCC_NEWLINE
+"な、何を言って。。。" TCC_NEWLINE
+"いきなりどうしたんだよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"これは驚いた。" TCC_NEWLINE
+"自力でそこまでたどり着いたのか。" TCC_NEWLINE
+"やはりあなたは只者じゃないな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。貴様。。。っ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あの不完全な召喚器でも唯一、" TCC_NEWLINE
+"正気を失わず現れたことは" TCC_NEWLINE
+"褒めてあげよう。" TCC_NEWLINE TCC_PUSH_A
+""
+"まあ、自我の代わりに記憶を失った" TCC_NEWLINE
+"失敗作には変わりないがね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ふざけるな！！" TCC_NEWLINE
+"てめえもあの男もぶっ殺してやる！！" TCC_NEWLINE TCC_PUSH_A
+"答えろ！　俺はどこから来た！？" TCC_NEWLINE
+"俺を。。。元の世界に戻せ！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"兄さん。。。。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ようやくわかった。。。" TCC_NEWLINE
+"俺が何を探していたのか。" TCC_NEWLINE TCC_PUSH_A
+"それはあのアスクの召喚の扉の" TCC_NEWLINE
+"向こうにあったんだ。。。。。。" TCC_NEWLINE
+"だからあんなに。。。っ。。。！" TCC_NEWLINE TCC_PUSH_A
+"俺は帰りたい。。。ずっと。。。ずっと。。。" TCC_NEWLINE
+"帰りたかったんだ。。。。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"おや、そんなことを言っていいのかい？" TCC_NEWLINE
+"弟が悲しむよ。" TCC_NEWLINE TCC_PUSH_A
+"あなたを元の世界に帰さないために" TCC_NEWLINE
+"多大な犠牲を払い、" TCC_NEWLINE
+"扉を壊す神器までつくろうとしていたのに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！？　何。。。？　オッテル、お前。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ぐぁっ。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ダメだよ兄さん。" TCC_NEWLINE
+"兄さんがいなくなったら。。。" TCC_NEWLINE
+"僕は。。。どうすればいいの。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それは。。。魔剣【グラム】。。。。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ファフニール。。。" TCC_NEWLINE
+"いずれ滅ぶと放っておいたが" TCC_NEWLINE
+"そろそろ終わりにしようか。" TCC_NEWLINE TCC_PUSH_A
+""
+"ああそうだ。最後にいいことを教えてやる。" TCC_NEWLINE
+"お前を召喚した男は私だよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"何。。。！？　どういう意味だ。。。" TCC_NEWLINE
+"エイトリ、お前は。。。何者だ。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ニザヴェリルを愛する者。" TCC_NEWLINE
+"お前よりも遥かに。" TCC_NEWLINE TCC_PUSH_A
+"王家の血が絶え" TCC_NEWLINE
+"その情熱も消え失せていたが。。。" TCC_NEWLINE
+"神竜はこの国を見捨てなかったようだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあファフニール。" TCC_NEWLINE
+"新たな王の治めるニザヴェリルへの" TCC_NEWLINE
+"祝福の供物となるがいい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ぐっ。。。【小人の王冠】が。。。。。。！？" TCC_NEWLINE TCC_PUSH_A
+"やめろっ。。。俺はもう。。。戦いたくないっ。。。" TCC_NEWLINE
+"。。。殺したくないんだ。。。っ。。。。。。！" TCC_NEWLINE
+"ああっ。。。あ。。。。。。あ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"あ。。。ああぁあーーーーーっ！！" TCC_NEWLINE
+"うぁああああーーーーーーーっ！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

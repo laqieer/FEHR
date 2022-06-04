@@ -1,0 +1,30 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ，　ｗｈａｔ　ｉｓ　ｔｈｅ　ｃｏｕｎｔｒｙ　"TCC_NEWLINE"ｏｆ　Ｊｔｕｎｈｅｉｍｒ　ｌｉｋｅ　ａｎｙｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｕｎｌｉｋｅ　Ｎｉａｖｅｌｌｉｒ，　ｔｈｅ　ｊｔｎａｒ　ｏー"TCC_NEWLINE"ｆ　Ｊｔｕｎｈｅｉｍｒ　ａｒｅ　ｆａｉｒｌｙ　ｌａｒｇｅ　"TCC_NEWLINE"ｆｏｌｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｎ　ｃｏｎｔｒａｓｔ　ｔｏ　Ｎｉａｖｅｌｌｉｒ’"TCC_NEWLINE"ｓ　ｒｅｖｅｒｅｎｃｅ　ｆｏｒ　ｉｎｎｏｖａｔｉｏｎ，　Ｊー"TCC_NEWLINE"ｔｕｎｈｅｉｍｒ　ｈａｓ　ａ　ｃｕｌｔｕｒｅ　ｒｏｏｔｅｄ"TCC_NEWLINE"　ｉｎ　ｔｒａｄｉｔｉｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｊｔｎａｒ　ｈａｖｅ　ｅｘｃｅｌｌｅｄ　ａｔ　ｃｏー"TCC_NEWLINE"ｍｂａｔ　ｓｉｎｃｅ　ａｎｃｉｅｎｔ　ｔｉｍｅｓ，　ｂｕｔ"TCC_NEWLINE"　ｉｔ　ｉｓ　ｓａｉｄ　ｔｈａｔ　ｔｈｅｙ　ｇｅｎｅｒａｌー"TCC_NEWLINE"ｌｙ　ｄｉｓｌｉｋｅ　ｆｉｇｈｔｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｔｕｎｈｅｉｍｒ　ｉｓ　ａ　ｐｅａｃｅｆｕｌ　ｃｏｕｎｔー"TCC_NEWLINE"ｒｙ，　ａｎｄ　ｉｔ　ｈａｓ　ｂｅｅｎ　ｒｕｌｅｄ　ｂｙ　"TCC_NEWLINE"ｑｕｅｅｎｓ　ｆｏｒ　ｇｅｎｅｒａｔｉｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ！　Ｓｏｕｎｄｓ　ｌｉｋｅ　ａ　ｎｉｃｅ　ｃｏｕｎｔｒー"TCC_NEWLINE"ｙ，　ｔｈｅｎ！　Ｉｎ　ｔｈａｔ　ｃａｓｅ，　ｉｔ　ｍｉｇー"TCC_NEWLINE"ｈｔ　ｂｅ　ｅａｓｉｅｒ　ｔｏ　ｇｅｔ　ｔｈｅ　ｓｗｏｒｄ"TCC_NEWLINE"　ｂａｃｋ　ｔｈａｎ　Ｉ　ｔｈｏｕｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈｏｐｅ　ｓｏ．．．　Ｉｎ　ｔｈｅ　ｒｅｓｐｏｎｓｅ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　ｍｉｓｓｉｖｅ　ｗｅ　ｓｅｎｔ　ａｈｅａｄ　"TCC_NEWLINE"ｏｆ　ｕｓ，　ｔｈｅｙ　ｓａｉｄ　ｔｈｅｙ　ａｒｅ　ｈａｐー"TCC_NEWLINE"ｐｙ　ｔｏ　ｍｅｅｔ，　ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ａｓ　ｌｏｎｇ　ａｓ　ｉｔ　ａｌｌ　ｅｎｄｓ　"TCC_NEWLINE"ｐｅａｃｅｆｕｌｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｗｅ’ｒｅ　ｍｅｅｔｉｎｇ　ｔｈｅ　ｅｌｄｅｓｔ　ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓ，　Ｎｔｔ，　ａｔ　ｔｈｅ　ｃａｓｔｌｅ　Ｂａｒｎー"TCC_NEWLINE"ｓｔｏｋｋｒ，　ｒｉｇｈｔ？　Ｔｈａｔ’ｓ　ｗｈａｔ　ｔｈー"TCC_NEWLINE"ｅｙ　ｓａｉｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏ　ｅｘｃｉｔｅｄ！　Ｔｈｉｓ　ｉｓ　ｍｙ　ｆｉー"TCC_NEWLINE"ｒｓｔ　ｔｉｍｅ　ｔｏ　Ｊｔｕｎｈｅｉｍｒ，　ｙｏｕ　ｋｎー"TCC_NEWLINE"ｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5044_EN] = TCC_OPEN_LEFT
+"Ａｒｖｉｓ．．．　Ｈｅ　ｗａｓ　ｍｏｒｅ　ｔｈａｎ　ａ　ｂー"TCC_NEWLINE"ｒｏｔｈｅｒ　ｔｏ　ｍｅ．　Ｍｏｒｅ　ｔｈａｎ　ａ　ｆａｔー"TCC_NEWLINE"ｈｅｒ，　ｅｖｅｎ．　Ｂｕｔ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ’ｖｅ　ｇｏｔ　ｔｒｏｕｂｌｅ，　Ａｌｆｏｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ’ｓ　ｗｒｏｎｇ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｃｃｏｒｄｉｎｇ　ｔｏ　ｏｕｒ　ｓｃｏｕｔｓ，　ａ　ｊｔー"TCC_NEWLINE"ｕｎ　ｆｏｒｃｅ　ｉｓ　ｗａｉｔｉｎｇ　ｆｏｒ　ｕｓ　ｉｎ"TCC_NEWLINE"　ｂａｔｔｌｅ　ｆｏｒｍａｔｉｏｎｓ　ｊｕｓｔ　ａｈｅａｄ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？　Ｂａｔｔｌｅ　ｆｏｒｍａｔｉｏｎｓ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

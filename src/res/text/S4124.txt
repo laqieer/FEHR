@@ -1,0 +1,63 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4124] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"スカビオサ。。。" TCC_NEWLINE
+"いいえ、あなたは。。。" TCC_NEWLINE
+"私の。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。私はずっと、無力だった。" TCC_NEWLINE TCC_PUSH_A
+"妹がひどい目にあわされてるのに。。。" TCC_NEWLINE
+"私はあの子のお姉ちゃんなのに。。。" TCC_NEWLINE
+"何もできなかった。。。" TCC_NEWLINE TCC_PUSH_A
+"そんな自分が許せなかった。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"夢の蜜を飲めば。。。" TCC_NEWLINE
+"私が欲しかった力が手に入る。" TCC_NEWLINE TCC_PUSH_A
+""
+"私は世界を救う英雄。。。" TCC_NEWLINE
+"ひどいことする悪者を。。。" TCC_NEWLINE
+"みんな。。。やっつける。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。殺す。。。" TCC_NEWLINE
+"それが、私の夢。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4124] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"。。。。。。もう、力が。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"ごめんね。。。" TCC_NEWLINE
+"もっと。。。守って。。。" TCC_NEWLINE
+"あげたかった。。。のに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。お姉。。。ちゃん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4124] = TCC_OPEN_LEFT 
+"あたしが、" TCC_NEWLINE
+"えいゆうになりたい理由。。。？" TCC_NEWLINE TCC_PUSH_A
+"あたしね。。。いもうとの" TCC_NEWLINE
+"にこにこってする" TCC_NEWLINE
+"かおが、だいすきだったの。" TCC_NEWLINE TCC_PUSH_A
+"おひさまみたいにまぶしくて。。。" TCC_NEWLINE
+"あたしは、あんなふうには" TCC_NEWLINE
+"わらえないから。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、あのこの" TCC_NEWLINE
+"えがおは。。。あいつのせいで。。。" TCC_NEWLINE
+"どんどん。。。どんどん。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。あたしがあの子をまもるの。" TCC_NEWLINE
+"どんなことしてでも。。。" TCC_NEWLINE
+"ぜったい、まもってみせる。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、ね。。。" TCC_NEWLINE TCC_PUSH_A
+"そんなことした、あたしに。。。" TCC_NEWLINE
+"あの子はにこにこって" TCC_NEWLINE
+"わらってくれるかなぁ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

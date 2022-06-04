@@ -1,0 +1,61 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｉｓ　ｔｈｉｓ　ｒｅａｌｌｙ　ｙｏｕｒ　ｂｅｓｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗａｓ　ｔｈａｔ　Ｅｉｔｒｉ’ｓ　ｖｏｉｃｅ？！　Ｗｈｅｒー"TCC_NEWLINE"ｅ　ｄｉｄ　ｉｔ　ｃｏｍｅ　ｆｒｏｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ，　ｔｏｏ，　ｉｓ　ａ　ｗｏｎｄｅｒ　ｍａｄｅ　ｐー"TCC_NEWLINE"ｏｓｓｉｂｌｅ　ｂｙ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｓｅｉｊｒー"TCC_NEWLINE"ｎ．　Ｉ　ｔｈｏｕｇｈｔ　ｗｅ　ｃｏｕｌｄ　ｓｐｅａｋ　ｌー"TCC_NEWLINE"ｅｓｓ　ｈａｓｔｉｌｙ　ｌｉｋｅ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｓｔｏｐ　ｔｏｙｉｎｇ　ｗｉｔｈ　ｕｓ，　Ｅｉｔｒｉ！　Ｉ"TCC_NEWLINE"　ａｌｒｅａｄｙ　ｔｏｌｄ　ｙｏｕ　Ｉ’ｌｌ　ｎｅｖｅｒ　"TCC_NEWLINE"ｆｏｒｇｉｖｅ　ｙｏｕ！　Ｎｏｔｈｉｎｇ　ｙｏｕ　ｓａｙ　"TCC_NEWLINE"ｃａｎ　ｃｈａｎｇｅ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓ　ａ　ｓｈａｍｅ．．．　Ａｎｄ　ａｆｔｅｒ　"TCC_NEWLINE"Ｉ’ｖｅ　ｗａｉｔｅｄ　ｓｏ　ｌｏｎｇ　ｔｏ　ｏｆｆｉｃｉー"TCC_NEWLINE"ａｌｌｙ　ｍｅｅｔ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎー"TCC_NEWLINE"ｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｄ　ａ　ｆｅｅｌｉｎｇ　ａｂｏｕｔ　ｙｏｕ．．．ｆー"TCC_NEWLINE"ｒｏｍ　ｔｈｅ　ｍｏｍｅｎｔ　ｗｅ　ｍｅｔ．　Ｓｏｍｅｔｈー"TCC_NEWLINE"ｉｎｇ　ａｂｏｕｔ　ｙｏｕ　ｒｅｍｉｎｄｓ　ｍｅ　ｏｆ　ｈー"TCC_NEWLINE"ｉｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｈｉｍ　ｗｈｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｆｉｒｓｔ　ｋｉｎｇ　ｏｆ　Ｎｉａｖｅｌｌｉｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗｈｏｓｅ　ｃｏｕｒａｇｅ　ｒａｎｇ　ｏｕｔ　ｔｏ　"TCC_NEWLINE"ｅｖｅｎ　ｔｈｅ　ｆａｒｔｈｅｓｔ　ｒｅａｌｍｓ，　ａｎｄ"TCC_NEWLINE"　ｗｈｏｓｅ　ｗｉｓｄｏｍ　ｉｌｌｕｍｉｎａｔｅｄ　ｔｈｅ"TCC_NEWLINE"　ｗａｙ　ｆｏｒ　ｈｉｓ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗａｓ　ａ　ｇｒｅａｔ　ｍａｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｙｏｕ　ｔａｌｋ　ａｓ　ｉｆ　ｙｏｕ　ｗｅｒｅ　ｔｈｅｒｅ"TCC_NEWLINE"　ｔｏ　ｓｅｅ　ｉｔ，　Ｅｉｔｒｉｂｕｔ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ　ｗａｓ　ｆｏｕｎｄｅｄ　ｔｈｏｕｓａｎｄｓ　ｏｆ　ｙｅー"TCC_NEWLINE"ａｒｓ　ａｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｄｉｄ　ｓｅｅ　ｉｔ．　Ｉ　ｓｅｒｖｅｄ　Ｈｉｓ　Ｍａー"TCC_NEWLINE"ｊｅｓｔｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈｏｗ　ｉｓ　ｔｈａｔ　ｐｏｓｓｉｂｌｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｅｅｅｙａａｈ！　Ｗｈ－ｗｈａｔ　ｉｓ　ｔｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EITRI
+"Ａｈ．　Ｉ　ｓｕｐｐｏｓｅ　ａｐｏｌｏｇｉｅｓ　ａｒｅ　ｉー"TCC_NEWLINE"ｎ　ｏｒｄｅｒ．　Ｉｔ　ｓｅｅｍｓ　ｓｏｍｅ　ｏｆ　ｍｙ　"TCC_NEWLINE"ｆａｉｌｅｄ　ａｔｔｅｍｐｔｓ　ａｔ　ｓｕｍｍｏｎｉｎｇ　"TCC_NEWLINE"ｈａｖｅ　ｓｕｒｖｉｖｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｈｉｎｄｓｉｇｈｔ，　Ｉ　ｓｈｏｕｌｄ　ｈａｖｅ　ｋー"TCC_NEWLINE"ｅｐｔ　ｂｅｔｔｅｒ　ｔｒａｃｋ　ｏｆ　ｓｕｃｈ．．．ｍｉー"TCC_NEWLINE"ｓｈａｐｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5134_EN] = TCC_OPEN_LEFT
+"Ｉ’ｍ　Ｖｏｌｋｅ．　Ｉ　ｓｏｌｖｅ　ｐｒｏｂｌｅｍｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"．．．Ｏｈ！　Ｉ　ｔｈｏｕｇｈｔ　Ｉ’ｄ　ｎｏｔｉｃｅｄ　"TCC_NEWLINE"ｓｏｍｅｔｈｉｎｇ　ｄｉｆｆｅｒｅｎｔ　ｗｉｔｈ　ｙｏｕ，"TCC_NEWLINE"　ａｎｄ　ｔｈｅｒｅ　ｉｔ　ｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅー"TCC_NEWLINE"ｒｇａｒ，　ｄｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｈｏｕｌｄ　ｈｏｐｅ　ｓｏ．　Ｉｔ　ｉｓ　ｙｏｕｒｓ"TCC_NEWLINE"　ｂｙ　ｒｉｇｈｔ，　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｅｓｉｇｎｅｄ　ｉｔ　ｗｉｔｈ　ｓｏ　ｍａｎｙ　ｉｎー"TCC_NEWLINE"ｔｒｉｃａｔｅ　ｍｅｃｈａｎｉｓｍｓ，　ａｌｌ　ｆｏｒ　ｔー"TCC_NEWLINE"ｈｉｓ　ｐｕｒｐｏｓｅ．　Ｉ　ａｍ　ｇｌａｄ　ｔｏ　ｋｎｏー"TCC_NEWLINE"ｗ　ｉｔ　ｗａｓｎ’ｔ　ｉｎ　ｖａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｏｕ　ｍａｄｅ　ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅー"TCC_NEWLINE"ｒｇａｒ　ｔｏｏ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｉ　ｋｎｅｗ　ｉｔ　ｈａｄ　ｂｅｅｎ　ｐａｓｓｅｄ　ｄｏｗー"TCC_NEWLINE"ｎ　ｔｈｒｏｕｇｈ　ｇｅｎｅｒａｔｉｏｎｓ　ｏｆ　Ｎｉａｖー"TCC_NEWLINE"ｅｌｌｉｒ’ｓ　ｒｏｙａｌ　ｆａｍｉｌｙ，　ｂｕｔ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"ＢＵＴ　ｉｎｄｅｅｄ．　Ｓｏｍｅ　ｒｕｆｆｉａｎｓ　ｔｈｏー"TCC_NEWLINE"ｕｇｈｔ　ｔｈｅｙ　ｃｏｕｌｄ　ｔａｋｅ　ｔｈｅ　ｔｈｒｏー"TCC_NEWLINE"ｎｅ，　ａｎｄ　ｔｈｅ　ｐｅｏｐｌｅ　ｗｏｕｌｄ　ｆａｌｌ"TCC_NEWLINE"　ｉｎ　ｌｉｎｅ．　Ｎｏｔ　ｓｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒｔｕｎａｔｅｌｙ，　Ｉ　ｈａｄ　ｔｈｅ　ｆｏｒｅｓｉー"TCC_NEWLINE"ｇｈｔ　ｔｏ　ｉｎｃｌｕｄｅ　ａ　ｍｅｃｈａｎｉｓｍ　ｔｈー"TCC_NEWLINE"ａｔ　ｗｏｕｌｄ　ｋｅｅｐ　ｕｓｕｒｐｅｒｓ　ｏｆｆ　ｔｈー"TCC_NEWLINE"ｅ　ｔｈｒｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｎ．．．　Ｗａｓ　Ｆｆｎｉｒ’ｓ　ｄｅｓｃｅｎｔ　ｉー"TCC_NEWLINE"ｎｔｏ　ｍａｄｎｅｓｓ　ｙｏｕｒ　ｄｏｉｎｇ　ｔｏｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎ　ａ　ｍａｎｎｅｒ　ｏｆ　ｓｐｅａｋｉｎｇ．　Ｉ　ｎｅー"TCC_NEWLINE"ｖｅｒ　ｔｈｏｕｇｈｔ　ｓｏｍｅ　ｅｓｃａｐｅｄ　ｒｅｊｅー"TCC_NEWLINE"ｃｔ　ｗｏｕｌｄ　ｇｏ　ｏｕｔ　ａｎｄ　ｂｅｃｏｍｅ　ｋｉー"TCC_NEWLINE"ｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｈｅｅｒ　ｌｕｃｋ　ｏｆ　ｈｉｍ　ｗｅａｒｉｎｇ"TCC_NEWLINE"　ｔｈｅ　ｃｒｏｗｎ，　ｆａｌｌｉｎｇ　ｔｏ　ｈｉｓ　ｒｕー"TCC_NEWLINE"ｉｎ，　ａｎｄ　ｔｈｅｎ　ｄｅｌｉｖｅｒｉｎｇ　ｔｈｅ　ｔー"TCC_NEWLINE"ｒｕｅ　ｈｅｉｒ　ｔｏ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｒｕｌｙ　ｃａｎｎｏｔ　ｅｘｐｒｅｓｓ　ｍｙ　ｄｅｌー"TCC_NEWLINE"ｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｔｈａｎｋ　ｈｉｍ！　Ｈａｈー"TCC_NEWLINE"ａｈａｈａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ　ｗｏｎ’ｔ　ｌｅｔ　ｙｏｕ　ｇｅｔ　ａｗａｙ　ｗｉｔー"TCC_NEWLINE"ｈ　ｔｈｉｓ，　Ｅｉｔｒｉ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｙｏｕ　ｋｉｌｌｅｄ　ｍｙ　ｓｉｓｔｅｒ　ｆｏｒ　ＴＨＩＳ"TCC_NEWLINE"？！　Ｓｏｍｅ　ｄｅａｄ　ｋｉｎｇ？！　Ｉ’ｌｌ．．．Ｉ’"TCC_NEWLINE"ＬＬ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｎｏ　ｎｅｅｄ　ｆｏｒ　ｈｏｓｔｉｌｉｔｙ．　Ｉ　ｗｉｌｌ"TCC_NEWLINE"　ｈａｐｐｉｌｙ　ｔｅｌｌ　ｙｏｕ　ａｎｙｔｈｉｎｇ　ｙｏー"TCC_NEWLINE"ｕ　ｗａｎｔ　ｔｏ　ｋｎｏｗ．．．　Ａｎｙｔｈｉｎｇ　ａｔ"TCC_NEWLINE"　ａｌｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｂｕｔ　ｙｏｕ　ｗｉｌｌ　ｈａｖｅ　ｔｏ　ｆｉｎｄ"TCC_NEWLINE"　ｍｅ　ｆｉｒｓｔ．．．　Ｇｏｏｄ　ｌｕｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

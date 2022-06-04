@@ -1,0 +1,99 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5011_EN] = TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｎｇｈ！　Ｇｕｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈ－ｗｈｅｒｅ．．．　Ｗｈａｔ　ｉｓ　ｔｈｉｓ　ｐｌａｃー"TCC_NEWLINE"ｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｏ　ｇｏｅｓ　ｔｈｅｒｅ？！　Ｓｈｏｗ　ｙｏｕｒｓｅｌー"TCC_NEWLINE"ｆ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ　ａｍ　Ｉ？！　．．．ＡＮＳＷＥＲ　ＭＥ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍ．　Ａｎｏｔｈｅｒ　ｆａｉｌｕｒｅ．　Ｉ　ｔｒｕｌｙ　"TCC_NEWLINE"ｔｈｏｕｇｈｔ　Ｉ　ｈａｄ　ｉｔ　ｆｉｇｕｒｅｄ　ｏｕｔ　"TCC_NEWLINE"ｔｈｉｓ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ．．．　Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａー"TCC_NEWLINE"ｂｏｕｔ？　Ｗｈｏ　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ　ｗｅｌｌ．　Ｎｏｔｈｉｎｇ　ｔｏ　ｂｅ　ｄｏｎｅ　ａー"TCC_NEWLINE"ｂｏｕｔ　ｉｔ，　Ｉ　ｓｕｐｐｏｓｅ．　Ｓｈａｍｅ　ｆｏｒ"TCC_NEWLINE"　ｍｙ　ｗｏｒｋ　ｔｏ　ｇｏ　ｔｏ　ｗａｓｔｅ，　ｂｕｔ．"TCC_NEWLINE"．．ａ　ｍｉｓｔａｋｅ　ｉｓ　ａ　ｍｉｓｔａｋｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈ－ｗｈａｔ　ａｒｅ　Ｓｔａｙ　ｂａｃｋ，　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ．．．　Ｉｔ　ｅｖｅｎ　ｔｕｒｎｓ　ｉｔｓ　ｂｌａｄｅ"TCC_NEWLINE"　ｏｎ　ｍｅ．　Ｎｏ　ｂｅｔｔｅｒ　ｔｈａｎ　ｔｈｅ　ｏｔー"TCC_NEWLINE"ｈｅｒｓ．　Ｗｅｌｌ．．．ｎｏ　ｒｅａｓｏｎ　ｔｏ　ｗａｓー"TCC_NEWLINE"ｔｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｒａｈ！　．．．Ｃｕｒｓｅ　ｙｏｕ！　Ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ！　Ａｎｄ　ｉｔ　ｅｓｃａｐｅｄ．．．　Ａｈ　ｗｅｌｌ"TCC_NEWLINE"．　Ｄｅａｔｈ　ｌｉｅｓ　ｊｕｓｔ　ａｓ　ｓｕｒｅｌｙ　ｏー"TCC_NEWLINE"ｕｔ　ｔｈｅｒｅ　ａｓ　ｉｔ　ｄｏｅｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｇｕｈ！　Ｈｕｆｈｈ．．．　Ｗｈｅｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ．．．ａｍ　Ｉ？　Ｄｅｖａｓｔａｔｉｏｎ　ｉｎ　"TCC_NEWLINE"ａｌｌ　ｄｉｒｅｃｔｉｏｎｓ，　ａｓ　ｆａｒ　ａｓ　ｔｈｅ"TCC_NEWLINE"　ｅｙｅ　ｃａｎ　ｓｅｅ．　Ｗｈａｔ　ｃｏｕｌｄ　ｃａｕｓー"TCC_NEWLINE"ｅ　ｓｕｃｈ　ｒｕｉｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗａｒ　ｃｏｕｌｄ　ｂｅ　ｓｏ　ｔｅｒｒｉ　Ｎｇー"TCC_NEWLINE"ａｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｒｒｇｈ．．．　Ｍｙ　ｈｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｂｌａｓｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ！　Ｉｓ　ｅｖｅｒｙｔｈｉｎｇ　ａｌｌ　ｒｉー"TCC_NEWLINE"ｇｈｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｎｇｓ　ａｒｅ　ｆｉｎｅ　ｆｏｒ　ｔｈｅ　ｍｏｍｅｎー"TCC_NEWLINE"ｔ，　ｂｕｔ．．．　ｗｈｅｒｅ　ｉｓ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅｒｅ，　ｓａｆｅ　ａｎｄ　ｓｏｕｎｄ．　Ｎｏｗ．．．ｗー"TCC_NEWLINE"ｈｏ’ｓ　ｏｕｒ　ｅｎｅｍｙ　ｈｅｒｅ？　Ａｎｄ　ｈｏｗ　"TCC_NEWLINE"ｄｉｄ　ｔｈｅｙ　ｓｕｄｄｅｎｌｙ　ｇｅｔ　ｓｏ　ｃｌｏｓー"TCC_NEWLINE"ｅ　ｔｏ　Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｙｅｔ．．．　Ｏｕｒ　ｓｃｏｕｔー"TCC_NEWLINE"ｓ　ｓａｉｄ　ｉｔ　ｗａｓ　ｌｉｋｅ　ｔｈｅ　ｅｎｅｍｙ　"TCC_NEWLINE"ｊｕｓｔ　ａｐｐｅａｒｅｄ　ｏｎ　ｏｕｒ　ｂｏｒｄｅｒｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？　Ｈｏｗ　ｃｏｕｌｄ　ａ　ｗｈｏｌｅ　ｃｏｍｐａー"TCC_NEWLINE"ｎｙ　ｏｆ　ｔｒｏｏｐｓ　ａｐｐｅａｒ　ｆｒｏｍ　ｎｏｗｈー"TCC_NEWLINE"ｅｒｅ　ａｓ　ｉｆ　ｂｙ　ｍａｇｉｃ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ａｓ　ｉｆ　ｂｙ　ｍａｇｉｃ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．．．　Ｓｕｒｅｌｙ　ｉｔ’ｓ　ｎｏｔ　ｐｏｓｓｉｂｌー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｏ　ｙｏｕ　ｈａｖｅ　ａｎｙ　ｉｄｅａ，　Ａｌｆｏｎｓｅ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗａｉｔｔｈｅｒｅ！　Ｔｈａｔ’ｓ　ｔｈｅｉｒ　ｃｏｍｍａー"TCC_NEWLINE"ｎｄｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｃａｎ　ｔａｋｅ　ｏｕｔ　ｔｈｅ　ｏｆｆｉｃｅー"TCC_NEWLINE"ｒ，　ｔｈａｔ　ｓｈｏｕｌｄ　ｒｅｓｏｌｖｅ　ｔｈｅ　ｓｉー"TCC_NEWLINE"ｔｕａｔｉｏｎ　ｆｏｒ　ｎｏｗ．　Ｌｅｔ’ｓ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｏｆ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈａｔ　ｗｏｕｌｄ　ｍａｋｅ　ｙｏｕ　ｔｈｅ　ｓー"TCC_NEWLINE"ｕｍｍｏｎｅｒ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌｏｗ　ｍｅ　ｔｏ　ｉｎｔｒｏｄｕｃｅ　ｍｙｓｅｌｆ．"TCC_NEWLINE"　Ｉ　ａｍ　Ｒｅｇｉｎｎ，　ｔｈｅ　ｓｉｓｔｅｒ　ｏｆ　Ｆー"TCC_NEWLINE"ｆｎｉｒ，　Ｋｉｎｇ　ｏｆ　Ｎｉａｖｅｌｌｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｉａｖｅｌｌｉｒ．　Ｊｕｓｔ　ａｓ　Ｉ　ｔｈｏｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｍｙ　ｐｕｒｐｏｓｅ　ｈｅｒｅ　ｉｓ　ｔｗｏｆｏｌｄ．　Ｉ"TCC_NEWLINE"　ａｍ　ｔｏ　ｏｃｃｕｐｙ　ｔｈｉｓ　ｋｉｎｇｄｏｍ　ａｎー"TCC_NEWLINE"ｄ　ｓｅｃｕｒｅ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｆｏｒ　Ｎｉａー"TCC_NEWLINE"ｖｅｌｌｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗｈａｔ？　Ｗｈ－ｗｈａｔ　ｄｏ　ｙｏｕ　ｗａｎｔ"TCC_NEWLINE"　ｗｉｔｈ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ｅｘｐｌａｉｎ　ｍｙｓｅｌー"TCC_NEWLINE"ｆ　ｔｏ　ｙｏｕ．　Ｉｆ　ｙｏｕ　ｄｏ　ｎｏｔ　ｍｅｅｔ　"TCC_NEWLINE"ｍｙ　ｄｅｍａｎｄｓ，　Ｉ　ｗｉｌｌ　ｊｕｓｔ　ｈａｖｅ　"TCC_NEWLINE"ｔｏ　ｍａｋｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｇｕｈ．．．　Ｙｏｕ’ｒｅ　ｐｒｅｔｔｙ　ｓｔｒｏｎｇ．　"TCC_NEWLINE"Ｉ’ｌｌ　ｒｅｔｒｅａｔ，　ｆｏｒ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅｙ’ｒｅ　ｇｏｎｅ．　Ｗｅ’ｒｅ　ｓａｆｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　Ｎｉａｖｅｌｌｉｒ．．．　Ｉｔ’ｓ　ｔｈｅ　ｈｏー"TCC_NEWLINE"ｍｅ　ｏｆ　ｔｈｅ　ｄｖｅｒｇａｒ，　ｉｓｎ’ｔ　ｉｔ？　"TCC_NEWLINE"Ｉｓ　ｉｔ　ｔｈａｔ　Ｎｉａｖｅｌｌｉｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｏ　ｉｔ　ｗｏｕｌｄ　ｓｅｅｍ．　Ｔｈｅ　ｓａｍｅ　ｄｖー"TCC_NEWLINE"ｅｒｇａｒ　ｗｈｏ　ｈａｖｅ　ｕｎｌｏｃｋｅｄ　ｔｈｅ　ｓー"TCC_NEWLINE"ｅｃｒｅｔｓ　ｏｆ　ｍａｇｉｃｔｈｅ　ｓｅｃｒｅｔｓ　ｏｆ"TCC_NEWLINE"　ｓｅｉｊｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｓｕｃｈ　ｐｏｗｅｒ　ａｔ　ｔｈｅｉｒ　ｄｉｓｐー"TCC_NEWLINE"ｏｓａｌ，　ｉｔ　ｉｓ　ｌｉｋｅｌｙ　ｔｈｅ　ｄｖｅｒｇａー"TCC_NEWLINE"ｒ　ｃｏｕｌｄ　ａｐｐｒｏａｃｈ　ｏｕｒ　ｂｏｒｄｅｒｓ　"TCC_NEWLINE"ｃｏｍｐｌｅｔｅｌｙ　ｕｎｄｅｔｅｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｃｅｄ’ｓ　Ｙａｒｎ？　Ｗｈａｔ　ｉｓ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"．．．Ｓｅｉｊｒｎ．　Ａ　ｓｙｓｔｅｍａｔｉｃ　ｓｔｕｄｙ"TCC_NEWLINE"　ａｎｄ　ａｐｐｌｉｃａｔｉｏｎ　ｏｆ　ｍａｇｉｃ．　Ｏｎー"TCC_NEWLINE"ｌｙ　Ｎｉａｖｅｌｌｉｒ　ｈａｓ　ｈａｄ　ａｎｙ　ｓｕｃｃー"TCC_NEWLINE"ｅｓｓ　ｗｉｔｈ　ｉｔｓ　ｕｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ　ｌｅｔ　ｍｙ　ｇｕａｒｄ　ｄｏｗｎ．　Ｉ　ｗａｓ"TCC_NEWLINE"　ａｗａｒｅ　ｏｆ　ｒｅｐｏｒｔｓ　ｎｏｔｉｎｇ　ｓｕｓｐー"TCC_NEWLINE"ｉｃｉｏｕｓ　ａｃｔｉｖｉｔｙ　ｉｎ　Ｎｉａｖｅｌｌｉｒ　"TCC_NEWLINE"ｏｆ　ｌａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｇａｒｄｌｅｓｓ，　ｗｅ　ｍｕｓｔ　ｎｏｔ　ｈｏｌｄ　"TCC_NEWLINE"ｂａｃｋ．　Ｎｏｔ　ｕｎｔｉｌ　ｔｈｅｙ　ｒｅｔｒｅａｔ　"TCC_NEWLINE"ｃｏｍｐｌｅｔｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｎ　ｗｅ　ｈａｖｅ　ｔｏ　ｄｅｆｅａｔ　ｔｈｅ　ｐｒー"TCC_NEWLINE"ｉｎｃｅｓｓ，　ｄｏｎ’ｔ　ｗｅ？　Ｒｅｇｉｎｎ，　Ｉ　ｍー"TCC_NEWLINE"ｅａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｌｏｏｋｓ　ｎｏ　ｏｌｄｅｒ　ｔｈａｎ　Ｉ　ａｍ．"TCC_NEWLINE"．．　Ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍａｋｅ　ｔｈｉｓ　ａｎｙ"TCC_NEWLINE"　ｅａｓｉｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｅｌｌ　ｍｅ，　ｄｉｄ　ｙｏｕ　ｎｏｔｉｃｅ　ｈｅｒ　ｈー"TCC_NEWLINE"ｅｓｉｔａｔｅ　ａｔ　ａｌｌ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ！　Ｍａｙｂｅ　ｗｅ　ｃａｎ　ｐｅｒｓｕａｄｅ　ｈｅｒ"TCC_NEWLINE"　ｔｏ　ｒｅｔｒｅａｔ　ｓｏｍｅｈｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｓｈｏｕｌｄｎ’ｔ　ｒｕｌｅ　ｏｕｔ　ｔｈｅ　ｐｏｓー"TCC_NEWLINE"ｓｉｂｉｌｉｔｙ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｗｏｎｄｅｒｉｎｇ　ｉｆ　Ｐｒｉｎｃｅｓｓ　Ｒー"TCC_NEWLINE"ｅｇｉｎｎ　ｗａｓ　ｈｏｌｄｉｎｇ　ｂａｃｋ．．．　Ｉｔ　"TCC_NEWLINE"ｍａｙ　ｈａｖｅ　ｂｅｅｎ　ａ　ｍｏｍｅｎｔａｒｙ　ｌａｐー"TCC_NEWLINE"ｓｅ　ｏｎ　ｈｅｒ　ｐａｒｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ａｎｙ　ｃａｓｅ，　ｌｅｔ’ｓ　ｋｅｅｐ　ｏｕｒ　ｅー"TCC_NEWLINE"ｙｅｓ　ｏｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｅ　ｋｎｏｗ　ｗｈｏ　ｓｈｅ’ｓ　ｔａｒｇｅｔｉー"TCC_NEWLINE"ｎｇ，　ｓｏ　ｗｅ　ｋｎｏｗ　ｗｈｏ　ｔｏ　ｐｒｏｔｅｃｔ"TCC_NEWLINE"．　Ｎｏ　ｎｅｅｄ　ｔｏ　ｗｏｒｒｙ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

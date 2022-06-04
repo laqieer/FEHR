@@ -1,0 +1,125 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5112] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"兄さんを殺しに来たんだろう！？" TCC_NEWLINE
+"この裏切り者！" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ兄さん、ここは僕に任せて。" TCC_NEWLINE
+"好きなだけ暴\れていいんだよ。" TCC_NEWLINE
+"ここは兄さんの国なんだから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_FAFNIR
+"ア。。。ア。。。。。。、" TCC_NEWLINE
+"うァ。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ファフニールお兄ちゃん！！" TCC_NEWLINE
+"待って！" TCC_NEWLINE TCC_PUSH_A
+""
+"オッテルお兄ちゃん、" TCC_NEWLINE
+"ファフニールお兄ちゃんを" TCC_NEWLINE
+"どうして止めないの！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"オッテル、これはどういうことだ！！" TCC_NEWLINE
+"ファフニールのあの姿は一体。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"【小人の王冠】さ。" TCC_NEWLINE
+"あれは王となる資格のない者の" TCC_NEWLINE
+"精神と身体を侵し。。。やがて破滅させる。" TCC_NEWLINE TCC_PUSH_A
+"そうやって王家の血統を" TCC_NEWLINE
+"守ってきたんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"オ。。。オッテルお兄ちゃんは" TCC_NEWLINE
+"こうなることを知ってたの。。。。。。！？" TCC_NEWLINE TCC_PUSH_A
+"じゃあ何で、どうして" TCC_NEWLINE
+"止めてくれなかったの！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"止める。。。？" TCC_NEWLINE
+"何でそんなことしなきゃいけないんだ？" TCC_NEWLINE TCC_PUSH_A
+"【小人の王冠】を奪ったら" TCC_NEWLINE
+"兄さんは正気に戻っちゃうじゃないか。" TCC_NEWLINE TCC_PUSH_A
+""
+"故郷を思い出して帰る方法を探して。。。" TCC_NEWLINE
+"そして召喚師、" TCC_NEWLINE
+"お前にたどり着いてしまう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SHARENA
+"えっ！？　な、何でそこで" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんが" TCC_NEWLINE
+"出てくるんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"！！　まさか。。。" TCC_NEWLINE
+"いや。。。そうか。。。。。。" TCC_NEWLINE
+"ファフニールは。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_OTR
+"そう。エイトリの実験によって" TCC_NEWLINE
+"召喚された異界の英雄さ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ファフニールお兄ちゃんが。。。" TCC_NEWLINE
+"異界の。。。英雄。。。。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"兄さんは僕の全てだ。" TCC_NEWLINE
+"兄さんがいなければ生きていけない。。。！" TCC_NEWLINE TCC_PUSH_A
+"なのに兄さんは。。。" TCC_NEWLINE
+"忘れたはずの故郷を" TCC_NEWLINE
+"捜してばかりいる。" TCC_NEWLINE TCC_PUSH_A
+""
+"だったら分かってもらった方が" TCC_NEWLINE
+"いいだろう？" TCC_NEWLINE TCC_PUSH_A
+"地の果てまで手に入れたって" TCC_NEWLINE
+"帰る場所なんてないって。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"あ。。。あなたは何を言っているの！？" TCC_NEWLINE
+"彼を一刻も早く元の世界に帰すべきよ！" TCC_NEWLINE
+"私たちも力を貸すから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_OTR
+"そんなことさせるもんか！" TCC_NEWLINE
+"兄さんはどこにも行かない！！" TCC_NEWLINE TCC_PUSH_A
+"見ろ！　今の兄さんは故郷のことも、" TCC_NEWLINE
+"レギン、お前のことも忘れてる。" TCC_NEWLINE TCC_PUSH_A
+""
+"嬉しくてしょうがないよ。" TCC_NEWLINE
+"これでやっと僕だけを見てくれる！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"オッテル。。。お兄ちゃん。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ヒヒッ。。。ふふふ。。。。。。" TCC_NEWLINE
+"でもまだ安心できないなぁ。。。" TCC_NEWLINE TCC_PUSH_A
+"僕以外の人間は" TCC_NEWLINE
+"みーんな殺してやらなきゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"それに召喚師。。。お前がいる限り" TCC_NEWLINE
+"僕は安心して眠れないんだよ。" TCC_NEWLINE TCC_PUSH_A
+"もう扉を壊す神器なんてどうでもいい。" TCC_NEWLINE
+"召喚の力なんか" TCC_NEWLINE
+"お前ごと消し去ってやる！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。もうこれ以上、" TCC_NEWLINE
+"話しても無駄なようだ。" TCC_NEWLINE
+"レギン王女、いいかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。。。っ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"いこう、" TCC_TACTICIAN_NAME "！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5112] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"ぐっ。。。うぅ。。。。。。" TCC_NEWLINE
+"まだだ。まだ。。。戦える。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

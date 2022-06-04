@@ -1,0 +1,232 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。！" TCC_NEWLINE TCC_PUSH_A
+"良かった、目が覚めたんだね！" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "！" TCC_NEWLINE TCC_PUSH_A
+""
+"？" TCC_NEWLINE
+"どうしたんだい？" TCC_NEWLINE
+"ぽかんとした顔をして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"良かったわ。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "が" TCC_NEWLINE
+"目覚めて、これでやっと全員ね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"もしかして。。。" TCC_NEWLINE
+"君も、何も覚えていないのかい？" TCC_NEWLINE TCC_PUSH_A
+"僕たちはみんな、" TCC_NEWLINE
+"三日三晩眠り続けてたそうなんだ。" TCC_NEWLINE
+"そして突然。。。次々と目を覚ました。" TCC_NEWLINE TCC_PUSH_A
+"君が一番最後で。。。" TCC_NEWLINE
+"君のすぐ前に目覚めたのが" TCC_NEWLINE
+"シャロンだよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ふわーあ。。。" TCC_NEWLINE
+"よく寝ました。" TCC_NEWLINE
+"おはようございます。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"わたしたち、" TCC_NEWLINE
+"ずっと眠ってたそうなんですよ。" TCC_NEWLINE
+"どうしてなんでしょう？" TCC_NEWLINE TCC_PUSH_A
+"何があったのか、" TCC_NEWLINE
+"みんなぜんぜん覚えてないんです。" TCC_NEWLINE
+"夢を見てたような気がするんですけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ま、いいか。" TCC_NEWLINE
+"夢なんかより、今まで寝てた分、" TCC_NEWLINE
+"取り戻さないとですよね。" TCC_NEWLINE TCC_PUSH_A
+"わたし、今日の任務は" TCC_NEWLINE
+"がんばっちゃいますよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LOKI
+"あらん。こんにちは。" TCC_NEWLINE
+"良いお天気ねえ。" TCC_NEWLINE
+"ご機嫌いかがかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"現れたわね、ロキ。。。" TCC_NEWLINE
+"このアスク王国で" TCC_NEWLINE
+"今度はいったい何を始める気！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私は何も。もし何かしたとしたら。。。" TCC_NEWLINE
+"それはあなたたちが知らない新たな世界。。。" TCC_NEWLINE
+"かしら、ねえ？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。あ、そうそう。" TCC_NEWLINE
+"お帰りなさい、" TCC_TACTICIAN_NAME "。" TCC_NEWLINE
+"良い夢見たかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"また逃げられちゃいました。。。" TCC_NEWLINE
+"いつもいつも掴みどころがないです！" TCC_NEWLINE TCC_PUSH_A
+"いつも。。。いつも。。。" TCC_NEWLINE
+"。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"シャロン。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"わたし。。。前にも。。。" TCC_NEWLINE
+"こんなこと。。。" TCC_NEWLINE
+"いってたような。。。" TCC_NEWLINE TCC_PUSH_A
+"あれは。。。夢。。。？" TCC_NEWLINE
+"いつの。。。夢。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どうしたんだい？" TCC_NEWLINE
+"もしかして、まだ調子が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ。。。" TCC_NEWLINE TCC_PUSH_A
+"これ。。。" TCC_NEWLINE
+"お花で作った指輪。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あ、あれ。。。？" TCC_NEWLINE
+"わたし、どうして。。。" TCC_NEWLINE TCC_PUSH_A
+"胸の奥が。。。苦しいです。。。" TCC_NEWLINE
+"心が。。。張り裂けそうです。。。" TCC_NEWLINE TCC_PUSH_A
+"わたし。。。" TCC_NEWLINE
+"わたし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"シャロン、ちょっといい？" TCC_NEWLINE
+"今、報告が入ったわ。" TCC_NEWLINE TCC_PUSH_A
+"あなたの幼馴染だっていう人が" TCC_NEWLINE
+"ここへ訪ねて来てるそうよ。" TCC_NEWLINE TCC_PUSH_A
+"あ、来たわ。" TCC_NEWLINE
+"ほら、彼女が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"おはようございます！" TCC_NEWLINE TCC_PUSH_A
+"私、幸夢のピアニー！" TCC_NEWLINE
+"夢の国アルフの妖精よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4135] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。ここ。。。は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。フレイヤ。。。様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"目覚めたのね、二人とも。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"フレイヤ様。。。？" TCC_NEWLINE
+"どうして。。。私たち。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。申\し訳ありません。" TCC_NEWLINE
+"すぐに戦いを。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"もう、いいの。" TCC_NEWLINE
+"あなたたちはもう、" TCC_NEWLINE
+"私に従わなくていい。" TCC_NEWLINE TCC_PUSH_A
+""
+"私は。。。もう。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"フレイヤ様。。。！" TCC_NEWLINE
+"そんな。。。お体が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。！" TCC_NEWLINE
+"まさか、私たちに。。。" TCC_NEWLINE
+"命を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ねえ、" TCC_NEWLINE
+"スカビオサ。。。" TCC_NEWLINE
+"プルメリア。。。" TCC_NEWLINE TCC_PUSH_A
+"私はお兄様を愛していたわ。。。" TCC_NEWLINE
+"お兄様だけを。" TCC_NEWLINE
+"それが私のすべてだった。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちを愛してはいなかった。。。" TCC_NEWLINE
+"お兄様以外は、" TCC_NEWLINE
+"私にとって無価値だから。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい。。。心得ています。" TCC_NEWLINE TCC_PUSH_A
+"それなのに、どうして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"どうして。。。？" TCC_NEWLINE
+"ふふ。。。前に私もあなたに聞いたわね。" TCC_NEWLINE
+"それなのに、どうしてって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"どうしてかしら。。。" TCC_NEWLINE
+"私にもわからないわ。" TCC_NEWLINE
+"こんな、人間みたいな。。。" TCC_NEWLINE TCC_PUSH_A
+"ずっと、お兄様の心がわからなかった。。。" TCC_NEWLINE
+"人間なんかを慈しむなんて。。。" TCC_NEWLINE
+"誰かのために命を捨てるなんて。。。" TCC_NEWLINE TCC_PUSH_A
+"でも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"フレイヤ様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"夢はおしまい。。。" TCC_NEWLINE
+"二人とも、どこへなりとお行きなさい。" TCC_NEWLINE TCC_PUSH_A
+"私が欲しかったのは" TCC_NEWLINE
+"人の身を捨ててくれる" TCC_NEWLINE
+"愚かで都合の良い子供たち。。。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちはただ、私に利用されただけ。" TCC_NEWLINE
+"それももう終わり。" TCC_NEWLINE
+"だから、早く消えなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いやです、そんなこと。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私たちはフレイヤ様の妖精。。。" TCC_NEWLINE
+"フレイヤ様のお傍を離れません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。無益なことよ。" TCC_NEWLINE
+"私の命はもう尽きる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そ、それなら、探します。" TCC_NEWLINE
+"フレイヤ様の命を" TCC_NEWLINE
+"蘇らせる方法を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい、必ず。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE
+"。。。理解、できないわ。" TCC_NEWLINE TCC_PUSH_A
+"私にとって、" TCC_NEWLINE
+"お兄様以外は何の価値もないのに。。。" TCC_NEWLINE
+"それなのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。嬉しい。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。フレイヤ。。。様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。少しの間お待ちください、フレイヤ様。" TCC_NEWLINE
+"再びお目覚めになるその時まで。。。" TCC_NEWLINE
+"それまではどうか。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。幸せな、夢を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

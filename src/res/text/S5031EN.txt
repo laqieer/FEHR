@@ -1,0 +1,40 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈ－ｗｈａａｕｇｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｈｎｇ　Ｇｏｔ　ｙａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｈａｒｅｎａ！　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａ．．．ｐｉｔ　ｔｒａｐ？　Ｉｆ　Ｐｒｉｎｃｅｓｓ　Ｒｅｇー"TCC_NEWLINE"ｉｎｎ　ｈａｄｎ’ｔ　ｇｒａｂｂｅｄ　ｍｅ，　Ｉ’ｄ　ｂｅ"TCC_NEWLINE"　ｓｋｅｗｅｒｅｄ　ｂｙ　ａｌｌ　ｔｈｅ　ｓｔａｋｅｓ　ａー"TCC_NEWLINE"ｔ　ｔｈｅ　ｂｏｔｔｏｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｏｗｅ　ｙｏｕ！　Ａｎｄ　Ｉ　ｗｏｎ’ｔ　ｆｏｒｇｅｔ"TCC_NEWLINE"　ｉｔ．．．　Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　Ｉ　ｃａｎ　ｔｈー"TCC_NEWLINE"ａｎｋ　ｙｏｕ　ｅｎｏｕｇｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａｎｏｔｈｅｒ　ｐｉｔ　ｔｒａｐ？　Ｗｈａｔ　ｉｓ　ｇｏｉー"TCC_NEWLINE"ｎｇ　ｏｎ　ｉｎ　ｔｈｅｓｅ　ｗｏｏｄｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ，　Ｅｉｔｒｉ，　ｔｈｅ　ｓａｇｅ，　ｉｓ　ａｌｓー"TCC_NEWLINE"ｏ　ａｎ　ｉｎｖｅｎｔｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｔｒａｐｓ　ｗｅｒｅ　ｉｎｖｅｎｔｅｄ　ｔｏ　ｋｅー"TCC_NEWLINE"ｅｐ　ｔｈｅ　ｉｎｔｒｕｄｅｒｓ　ｏｕｔ．　Ｔｈａｔ’ｓ　"TCC_NEWLINE"ｗｈａｔ　Ｅｉｔｒｉ　ｔｏｌｄ　ｍｅ，　ａｎｙｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈａｔ’ｓ　ｗｈｙ　ａｌｍｏｓｔ　ｎｏ　ｏｎｅ　"TCC_NEWLINE"ｆｒｏｍ　Ｎｉａｖｅｌｌｉｒ　ｅｖｅｒ　ｃｏｍｅｓ　ｈｅｒー"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｗｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ　ｎｉｃｅ　ｔｏ　ｈａー"TCC_NEWLINE"ｖｅ　ｋｎｏｗｎ　ｔｈａｔ　ｅａｒｌｉｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｕｈ！　Ｔｈｅ　ｆｏｒｅｓｔ　ｍａｙ　ｂｅ　ｔｒｅａｃｈー"TCC_NEWLINE"ｅｒｏｕｓ，　ｂｕｔ　ｌｏｏｋ　ａｔ　ｔｈｅｓｅ　ｂｅａｕー"TCC_NEWLINE"ｔｉｆｕｌ　ｂｌｏｓｓｏｍｓ！　Ｈｏｗ　ｒｅｆｒｅｓｈｉｎー"TCC_NEWLINE"ｇ．．．　Ａｎｄ　ｔｈｉｓ　ｏｎｅ　ｉｓ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｈａｒｅｎａ，　ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａａｈｈ！　Ｏｎｅ　ｓｔｅｐ　ｉｎｔｏ　ｔｈｅ　ｆｌｏｗｅー"TCC_NEWLINE"ｒｓ　ａｎｄ　ｅｎｅｍｙ　ｆｏｒｃｅｓ　ａｐｐｅａｒｅｄ　"TCC_NEWLINE"ｏｕｔ　ｏｆ　ｎｏｗｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5031_EN] = TCC_OPEN_LEFT
+"Ｓｏｒｒｙ　ｔｏ　ｍａｋｅ　ｙｏｕ　ｗｏｒｒｙ，　Ｍｏｔｈー"TCC_NEWLINE"ｅｒ．　Ｈｏｗｅｖｅｒ．．．Ｉ　ｍｕｓｔ　ｆｉｇｈｔ．　Ｔー"TCC_NEWLINE"ｈａｔ　ｉｓ　ｗｈａｔ　Ｉ’ｖｅ　ｄｅｃｉｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｙｏｕｒ　Ｍａｊｅｓｔｙ，　Ｉ　ｈａｖｅ　ｒｅｔｕｒｎｅｄ"TCC_NEWLINE"！　．．．Ｋｉｎｇ　Ｆｆｎｉｒ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｂｒｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ’ｓ　ｇｏｎｅ．．．　Ｂａｃｋ　ｏｎ　ｔｈｅ　ｂａｔｔー"TCC_NEWLINE"ｌｅｆｉｅｌｄ，　ｎｏ　ｄｏｕｂｔ．　Ｉ　ｓｈｏｕｌｄ　ｆー"TCC_NEWLINE"ｏｌｌｏｗ　ａｆｔｅｒ　ｈｉｍ，　ａｎｄ　ｑｕｉｃｋｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ａｒｅ　ｔｈｅ　ｏｎｌｙ　ｆａｍｉｌｙ　ｅａｃｈ　ｏー"TCC_NEWLINE"ｔｈｅｒ　ｈａｓ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｋｒ’ｓ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ．．．　Ｏｕｒ"TCC_NEWLINE"　ｕｓｕａｌ　ｍｅｔｈｏｄｓ　ｗｏｎ’ｔ　ｂｅ　ｅｎｏｕｇー"TCC_NEWLINE"ｈ　ｔｏ　ｄｅａｌ　ｗｉｔｈ　ｔｈｅｍ．　Ｂｕｔ　Ｉ　ｗｏー"TCC_NEWLINE"ｎ’ｔ　ｇｉｖｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｇｅｔ　ｔｈｅ　ｄｉｖｉｎー"TCC_NEWLINE"ｅ　ｗｅａｐｏｎ　Ｊｒｎｇｒｅｉｐｒ，　ｔｈｅ　ｗｅａｐｏー"TCC_NEWLINE"ｎ　ｔｈａｔ　ｄｅｓｔｒｏｙｓ　ｇａｔｅｓ．．．ｔｈａｔ　"TCC_NEWLINE"ｓｕｍｍｏｎｅｒ　ｗｉｌｌ　ｂｅ　ｋｅｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5054] = TCC_OPEN_LEFT 
+"私、ちゃんと" TCC_NEWLINE
+"皆さんの役に立っているでしょうか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

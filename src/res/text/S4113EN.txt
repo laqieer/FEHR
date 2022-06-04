@@ -1,0 +1,56 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4113_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｉｆ　ｔｈｅ　ｍｏｒｔａｌｓ　ｄｒａｗ　ｃｌｏｓｅｒ　ｔｏ"TCC_NEWLINE"　ｅｓｃａｐｅ，　ｉｔ　ｗｉｌｌ　ｂｅ　ｙｏｕｒ　ｔｕｒｎ"TCC_NEWLINE"　ｎｅｘｔ．　Ｙｏｕ　ｄｏ　ｕｎｄｅｒｓｔａｎｄ，　ｄｏｎ"TCC_NEWLINE"’ｔ　ｙｏｕ，　Ｐｌｕｍｅｒｉａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｎｉｓｈ　ｔｈｅｍ　ｏｆｆ．　Ｐｕｔ　ａｎ　ｅｎｄ　ｔー"TCC_NEWLINE"ｏ　ｙｏｕｒ　ｏｌｄ　ｆｒｉｅｎｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｙｅｓ，　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆｉｇｈｔ，　ｌｉｔｔｌｅ　ｌｆａｒ．．．　Ｆｉｇｈｔ　ｔー"TCC_NEWLINE"ｏ　ｔｈｅ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｅｅｌ　ｔｈｅ　ｐａｉｎ　ｏｆ　ｌｏｓｔ　ｌｏｖｅｔｈｅ"TCC_NEWLINE"　ｐａｉｎ　Ｉ　ｆｅｌｔ　ｗｈｅｎ　ｍｙ　ｂｒｏｔｈｅｒ　"TCC_NEWLINE"ｗａｓ　ｔａｋｅｎ　ｆｒｏｍ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4113_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"．．．Ａ－Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕ’ｒｅ　ａｗａｋｅ！　Ｙｏｕ　ｈａｄ　ｍｅ　ｗｏｒｒー"TCC_NEWLINE"ｉｅｄ，　ｆａｉｎｔｉｎｇ　ｓｏ　ｓｕｄｄｅｎｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｍｅｍｂｅｒ．．．ｓｏ　ｍｕｃｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌａｙｉｎｇ　ｗｉｔｈ　ｆｒｉｅｎｄｓ　ｉｎ　ｍｙ　ｄｒー"TCC_NEWLINE"ｅａｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂａｃｋ　ｗｈｅｎ　ｔｈｅｙ　ｗｅｒｅ　ｓｔｉｌｌ．．．　"TCC_NEWLINE"Ｂｅｆｏｒｅ　ｔｈｅｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｐｌａｙｅｄ　ｓｏ　ｍａｎｙ　ｄｉｆｆｅｒｅｎｔ　ｇー"TCC_NEWLINE"ａｍｅｓ．．．ａｎｄ　ｈａｄ　ｓｏ　ｍｕｃｈ　ｆｕｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｐｒｅｔｅｎｄｅｄ　ｔｏ　ｇｏ　ｏｎ　ａｄｖｅｎｔｕー"TCC_NEWLINE"ｒｅｓ．．．　Ｗｅ　ｗａｎｔｅｄ　ｔｏ　ｓａｖｅ　ｔｈｅ　"TCC_NEWLINE"ｗｏｒｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｌｙ．．．Ｉ　ｓｔａｙｅｄ　ｂｅｈｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ，　ｗｈｅｎ　ｗｅ　ｐｌａｙｅｄ　ｄｒｅｓｓ－ｕｐ．"TCC_NEWLINE"．．　Ｗｈｅｎ　ｔｈｅ　ｔｗｏ　ｏｆ　ｕｓ　ｗｏｕｌｄ　ｔー"TCC_NEWLINE"ｒａｄｅ　ｐｌａｃｅｓ　ｗｈｅｎ　ｗｅ　ｗｏｋｅ　ｕｐ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｎａ　ｃａｌｌｅｄ　ｔｈａｔ　ａ．．．ｃｈａｎｇｅｌｉー"TCC_NEWLINE"ｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆａｔｈｅｒ，　Ｍｏｔｈｅｒ．．．　Ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐａｐａ．．．　Ｓｉｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．Ｉ’ｍ　ｓｏｒｒｙ！　Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ！　"TCC_NEWLINE"Ｓｏ，　ｓｏ　ｓｏｒｒｙ！　Ｓｏ，　ｓｏ，　ｓｏ　ｓｏｒｒー"TCC_NEWLINE"ｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｈａｒｅｎａ！　Ｆｏｃｕｓ！　Ｗｈａｔ’ｓ　ｈａｐｐｅｎー"TCC_NEWLINE"ｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ，　Ｉ"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｉｇｈｔ　ｎｏｔ　ｂｅ　ｙｏｕｒ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ａｒｅ　ｙｏｕ　ｓｅｒｉｏｕｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ　ｔｒｙｉｎｇ　ｔｏ　ｔｅｌｌ　ｙｏｕ．．．　Ｗｈｅー"TCC_NEWLINE"ｎ　Ｉ　ｕｓｅｄ　ｔｏ　ｐｌａｙ　ｄｒｅｓｓ－ｕｐ　ｉｎ　"TCC_NEWLINE"ｍｙ　ｄｒｅａｍｓ．．．　Ｉ　ｔｈｉｎｋ　ｗｅ　ｗｅｒｅ　"TCC_NEWLINE"ｂｅｉｎｇ　ｃｈａｎｇｅｌｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｍｅｍｏｒｉｅｓ．．．ｏｆ　ｌｉｖｉｎｇ　ｗー"TCC_NEWLINE"ｉｔｈ　ａｎｏｔｈｅｒ　ｇｉｒｌ　ｉｎ　ａ　ｓｍａｌｌ，　"TCC_NEWLINE"ｃｒｕｍｂｌｉｎｇ　ｈｏｕｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｈｅｒｅ’ｓ　ｔｈｅ　ｔｒｕｔｈ：　Ｉ　ｍｉｇｈｔ"TCC_NEWLINE"　ｎｏｔ　ｈａｖｅ　ａｌｓｏ　ｂｅｅｎ　Ｐｒｉｎｃｅｓｓ　"TCC_NEWLINE"Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍａｙ　ｈａｖｅ　ｓｗｉｔｃｈｅｄ　ｐｌａｃｅｓ　ｗｉー"TCC_NEWLINE"ｔｈ　ｈｅｒ　ｗｈｉｌｅ　ｄｒｅａｍｉｎｇ．．．　Ｉ　ｄｏー"TCC_NEWLINE"ｎ’ｔ　ｋｎｏｗ　ｈｏｗ　ｔｏ　ｋｎｏｗ　ｆｏｒ　ｓｕｒｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．Ｉ　ｍａｙ　ｈａｖｅ　ｔａｋｅｎ　ｈｅｒ　ｐｌー"TCC_NEWLINE"ａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｂｅｃａｕｓｅ　ｏｆ　ｍｅ．．．　Ｓｈｅ．．．　Ｔー"TCC_NEWLINE"ｈｅ　ＲＥＡＬ　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ．．．　Ｓー"TCC_NEWLINE"ｈｅ，　ｓｈｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｈａｒｅｎａ，　ｄｅｓｐｉｔｅ　ｙｏｕｒ　ｍｅｍｏｒｉｅー"TCC_NEWLINE"ｓ，　ｔｈａｔ　ｃｏｕｌｄｎ’ｔ　ｈａｖｅ　ｈａｐｐｅｎｅー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ．．．ｔｈｅ　ｈｏｕｓｅ．．．ａｎｄ　ｔｈｅ　ｏｔｈー"TCC_NEWLINE"ｅｒ　ｇｉｒｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ｗｈａｔ　ｙｏｕ　ｓａｙ　ＩＳ　ｔｒｕｅ，　ｙｏｕ　"TCC_NEWLINE"ｔｗｏ　ｔｒａｄｅｄ　ｐｌａｃｅｓ　ｍａｎｙ　ｔｉｍｅｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｙｏｕＳｈａｒｅｎａｗｏｕｌｄ　ｓｔｉｌｌ　ｈａｖー"TCC_NEWLINE"ｅ　ｍｅｍｏｒｉｅｓ　ｆｒｏｍ　ｗｈｅｎ　ｙｏｕ　ｗｅｒｅ"TCC_NEWLINE"　ｖｉｓｉｔｉｎｇ　ｔｈａｔ　ｈｏｕｓｅ，　ｗｏｕｌｄｎ’"TCC_NEWLINE"ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｔｈｉｎｋ　ｗｅ　ｃｏｕｌｄ　ｕｓｅ　ａ　ｌｉｔｔｌｅ"TCC_NEWLINE"　ｒｅｓｔ．　Ｙｏｕ　ｔａｋｅ　ｓｏｍｅ　ｔｉｍｅ　ｔｏ　"TCC_NEWLINE"ｙｏｕｒｓｅｌｆ．　Ｗｅ’ｌｌ　ｈｅａｄ　ｏｕｔ　ｓｏｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

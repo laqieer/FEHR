@@ -1,0 +1,33 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5072_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"．．．Ｉｔ’ｓ　ｓｔａｒｔｉｎｇ　ｔｏ　ｇｅｔ　ｒａｔｈｅー"TCC_NEWLINE"ｒ　ｎｏｉｓｙ　ｏｕｔ　ｔｈｅｒｅ．　Ｉｆ　ｗｅ　ｄｏｎ’"TCC_NEWLINE"ｔ　ｈｕｒｒｙ，　ｔｈｅｙ　ｍｉｇｈｔ　ａｃｔｕａｌｌｙ　"TCC_NEWLINE"ｍａｋｅ　ｉｔ　ｔｈｒｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｂｅ　ｑｕｉｅｔ　ａｎｄ　ｈｕｒｒｙ　ｕｐ！　Ｃａｎ　ｙｏー"TCC_NEWLINE"ｕ　ｍａｋｅ　Ｊｒｎｇｒｅｉｐｒ　ｏｒ　ｃａｎ’ｔ　ｙｏｕ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ，　Ｓｕｍｍｏｎｅｒ，　ｉｔ　ｍｕｓｔ　ｂｅ　ｗｏｎｄー"TCC_NEWLINE"ｅｒｆｕｌ　ｆｏｒ　ｙｏｕ，　ｔｈｅ　ｏｎｅ　ｓｏｌｉｔａー"TCC_NEWLINE"ｒｙ　ｐｅｒｓｏｎ　ｔｏ　ｂｅ　ｃｈｏｓｅｎ　ｂｙ　ｔｈｅ"TCC_NEWLINE"　ｄｉｖｉｎｅ　ｗｅａｐｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｈａｄ　ｐｏｗｅｒ　ｌｉｋｅ　ｔｈａｔ，　ｏｈｈ"TCC_NEWLINE"．．．　Ｉ　ｃｏｕｌｄ　ｃｒｅａｔｅ　ａ　ｗｅａｐｏｎ　ｓー"TCC_NEWLINE"ｏ　ｆｉｎｅ　ｉｔ　ｗｏｕｌｄ　ｒｉｖａｌ　Ｔｈｒｒ’ｓ　"TCC_NEWLINE"Ｍｊｌｎｉｒ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｅｖｅｒｙｔｈｉｎｇ　ｉｓ　ｐｒｅｐａｒｅｄ．　Ｔｈー"TCC_NEWLINE"ｅｒｅ’ｓ　ｂｕｔ　ｏｎｅ　ｎｅｃｅｓｓｉｔｙ　ｒｅｍａｉー"TCC_NEWLINE"ｎｉｎｇ：　ｙｏｕｒ　ｓｏｕｌ．　Ｃｏｍｅ　ｎｏｗ，　Ｓｕー"TCC_NEWLINE"ｍｍｏｎｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｔｏｐ　ｒｉｇｈｔ　ｔｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ　ｍａｄｅ　ｉｔ！　Ｓｏｒｒｙ　ａｂｏｕｔ　ｋｅｅｐｉー"TCC_NEWLINE"ｎｇ　ｙｏｕ　ｗａｉｔｉｎｇ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ　ｙｏｕ’ｖｅ　ｇｏｔ　ｙｏｕｒ"TCC_NEWLINE"　ｈｅａｄ　ａｎｄ　ａｌｌ　ｙｏｕｒ　ｌｉｍｂｓ　ｔｈｏｕー"TCC_NEWLINE"ｇｈｓｏ　ｔｈａｔ’ｓ　ｇｏｏｄ　ｔｏ　ｓｅｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｉ　ｃａｎ’ｔ　ｂｅｌｉｅｖｅ　ｙｏｕ　ｕｓｅｄ　ｕｓ，　"TCC_NEWLINE"Ｅｉｔｒｉ！　Ｉ’ｌｌ　ｎｅｖｅｒ　ｆｏｒｇｉｖｅ　ｙｏｕ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｌｅａｖｅｓ　ｎｏ"TCC_NEWLINE"　ｏｎｅ　ｂｅｈｉｎｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"．．．Ｉ　ｋｎｏｗ　ｗｅ’ｒｅ　ａｌｌ　ｆｏｃｕｓｅｄ　ｏー"TCC_NEWLINE"ｎ　ｔｈｅ　ｓｕｍｍｏｎｅｒ，　ｂｕｔ　ｗｅ’ｒｅ　ｈｅｒー"TCC_NEWLINE"ｅ　ｔｏ　ｇｅｔ　Ｇｒａｍｒ　ｂａｃｋ　ｔｏｏ，　ｒｉｇｈー"TCC_NEWLINE"ｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｅｘｃｅｌｌｅｎｔ　ｐｏｉｎｔ，　Ｄａｇｒ．　Ｉ’ｌｌ　ｌー"TCC_NEWLINE"ｅａｖｅ　ｔｈｅ　ｗｅａｋ　ａｎｄ　ｓｉｃｋ－ｌｏｏｋｉｎー"TCC_NEWLINE"ｇ　ｏｎｅｓ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｇａｈ！　Ｙｏｕ　ｆｏｏｌｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｌｅｔ’ｓ　ｇｏ！　Ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｇｅｔ　ｙｏー"TCC_NEWLINE"ｕ　ｏｕｔ　ｏｆ　ｈｅｒｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5072_EN] = TCC_OPEN_LEFT
+"Ｕｐ　ｕｎｔｉｌ　ｎｏｗ，　ｍｙ　ｆａｉｔｈ　ｗａｓ　ｕｎー"TCC_NEWLINE"ｓｈａｋａｂｌｅ．　Ｉ　ｗａｓ　ｒｅａｄｙ　ｔｏ　ｋｉｌｌ"TCC_NEWLINE"　ｍｙ　ｏｗｎ　ｆｒｉｅｎｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

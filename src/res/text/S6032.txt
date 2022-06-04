@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6032] = TCC_OPEN_LEFT 
+"しょせんこの世は金、金、金。" TCC_NEWLINE
+"金がすべてなんだぜ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

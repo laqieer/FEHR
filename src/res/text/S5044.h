@@ -1,0 +1,5 @@
+// Converted by ./ConvertText.py
+
+#define MID_SCENARIO_OPENING_S5044 5627
+#define MID_SCENARIO_MAP_BEGIN_S5044 5628
+#define MID_SCENARIO_MAP_END_S5044 5629

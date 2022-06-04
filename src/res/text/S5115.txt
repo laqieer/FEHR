@@ -1,0 +1,232 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"。。。くそっ。。。。。。" TCC_NEWLINE
+"とうとう。。。ここまで。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"み、みんな待って！！" TCC_NEWLINE
+"オッテルお兄ちゃんが死んじゃう。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"レギン王女。。。そこをどいてくれ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"絶対嫌！！" TCC_NEWLINE
+"お願い、時間をちょうだい。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レギン。。。お前。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"オッテルお兄ちゃん、" TCC_NEWLINE
+"魔剣【グラム】を渡して！" TCC_NEWLINE TCC_PUSH_A
+"今ならまだ間に合うよ。" TCC_NEWLINE
+"ファフニールお兄ちゃんを元に戻して、" TCC_NEWLINE
+"また三人で静かに暮らそう？　ね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レギン。。。、。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。ふっ。。。くくく。。。。。。" TCC_NEWLINE
+"まだそんな甘いことを。。。何も知らずに。。。" TCC_NEWLINE
+"アッハハハハハハハ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お兄ちゃん。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうせ最後だ。" TCC_NEWLINE
+"いいことを教えてやる。" TCC_NEWLINE TCC_PUSH_A
+"レギン、お前の両親を殺したのは僕だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！？　私のお父さんと。。。お母さん。。。！？" TCC_NEWLINE TCC_PUSH_A
+"で、でもそれって。。。" TCC_NEWLINE
+"お兄ちゃんの。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"違う。お前とファフニール兄さんが" TCC_NEWLINE
+"勝手にそう思いこんでいただけだ。" TCC_NEWLINE
+"僕はお前の兄じゃない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"クーデターが起こる前、僕の両親は" TCC_NEWLINE
+"ニザヴェリル城で暮らしていた。" TCC_NEWLINE
+"父が王家の遠い傍系だったんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"実際はほとんど繋がりもない" TCC_NEWLINE
+"平民同然なのに、王族みたいな顔して" TCC_NEWLINE
+"ふんぞり返って。。。笑えるだろ。" TCC_NEWLINE TCC_PUSH_A
+""
+"だから僕も生まれた時から" TCC_NEWLINE
+"城で育ったんだ。" TCC_NEWLINE TCC_PUSH_A
+"ある夜、両親から裏門に訪ねて来た客を" TCC_NEWLINE
+"人目につかないように王の元へ" TCC_NEWLINE
+"案内するように言われたんだ。" TCC_NEWLINE TCC_PUSH_A
+"そんなの僕には朝飯前だ。" TCC_NEWLINE
+"言われた通り、誰にも見つからずに" TCC_NEWLINE
+"王と王妃のくつろぐ広間に連れて行ったよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！　まさか。。。ニザヴェリルの" TCC_NEWLINE
+"クーデターは。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ。両親はクーデター派に担がれて" TCC_NEWLINE
+"利用されたのさ。おおかた、" TCC_NEWLINE
+"王にしてやるとでも言われたんだろ。" TCC_NEWLINE TCC_PUSH_A
+""
+"あっという間に広間は血の海。。。" TCC_NEWLINE
+"僕には何が起こったか分からなかった。" TCC_NEWLINE TCC_PUSH_A
+"ただ夢中で、ここは危ないと思って" TCC_NEWLINE
+"揺りかごで眠っていた赤ん坊を抱いて" TCC_NEWLINE
+"逃げ出した。" TCC_NEWLINE TCC_PUSH_A
+"。。。それがお前だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"その赤ちゃんが。。。？" TCC_NEWLINE
+"じゃ、じゃあレギン王女って。。。" TCC_NEWLINE
+"本物のニザヴェリルの王女様っ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そんな。。。、そんなの。。。嘘なの。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"嘘なもんか。" TCC_NEWLINE
+"お前、ニザヴェリルの塔に入れたんだろう？" TCC_NEWLINE
+"それが何よりの証拠さ。" TCC_NEWLINE TCC_PUSH_A
+""
+"兄さんにも僕にも。。。扉は開かれなかった。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。レギン王女。" TCC_NEWLINE
+"魔剣【グラム】を彼から奪うんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ファフニールが乱心し" TCC_NEWLINE
+"国中が破壊され。。。" TCC_NEWLINE TCC_PUSH_A
+"ニザヴェリル王国の混乱は" TCC_NEWLINE
+"この先も長く続くだろう。" TCC_NEWLINE TCC_PUSH_A
+"でも、王女である君が" TCC_NEWLINE
+"生きていたと知れば" TCC_NEWLINE
+"民は希望を持ち団結できる。" TCC_NEWLINE TCC_PUSH_A
+"そのために、君がその手で" TCC_NEWLINE
+"ファフニールを倒し、名実共に" TCC_NEWLINE
+"正当な王女であることを示すんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わ。。。私が。。。" TCC_NEWLINE
+"ファフニールお兄ちゃんを。。。" TCC_NEWLINE
+"倒す。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"そんなこと。。。" TCC_NEWLINE
+"そんなことさせない！" TCC_NEWLINE TCC_PUSH_A
+"レギン、僕はお前が大っ嫌いだった。" TCC_NEWLINE
+"いつも何もできず" TCC_NEWLINE
+"泣いてばかりのお前が！" TCC_NEWLINE TCC_PUSH_A
+"僕が欲しくてたまらないものを" TCC_NEWLINE
+"当たり前のように持っているお前が。。。！！" TCC_NEWLINE TCC_PUSH_A
+"この上、兄さんまで" TCC_NEWLINE
+"僕から奪うのか！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"オッテルお兄ちゃん。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"僕と兄さんの邪魔をするな！！" TCC_NEWLINE
+"出ていけ！！　この国から" TCC_NEWLINE
+"みんな出ていけーーーーっ！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"。。。あ。。。ぁあ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。オッテル。。。" TCC_NEWLINE
+"魔剣【グラム】はもらっていくよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"く。。。そう。。。何で。。。。。。" TCC_NEWLINE
+"何で。。。殺せないんだ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"お兄ちゃん。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの頃、何度も。。。何度も、" TCC_NEWLINE
+"お前を捨てようとした。。。。。。" TCC_NEWLINE
+"殺そうとした。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"だってそうだろ。。。？" TCC_NEWLINE
+"お前のせいで。。。僕は。。。。。。" TCC_NEWLINE
+"辛いこと。。。ばかりだ。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"父。。。さんも、母さんも。。。失って。。。。。。" TCC_NEWLINE
+"城を追われて。。。ゴミを漁って。。。" TCC_NEWLINE
+"戦から逃げまわって。。。" TCC_NEWLINE TCC_PUSH_A
+"そんな時。。。ファフニール兄さんが。。。。。。" TCC_NEWLINE
+"僕を。。。助けてくれたんだ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"兄さんが。。。王に。。。なれば。。。。。。" TCC_NEWLINE
+"幸せになれると。。。。。。" TCC_NEWLINE
+"何もかも。。。忘れられると。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"なのに。。。また。。。。。。" TCC_NEWLINE
+"レギン。。。。。。お前が。。。。。。" TCC_NEWLINE
+"全部。。。奪っていくんだな。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。ああ。。。もう。。。目が。。。。。。" TCC_NEWLINE
+"兄さん。。。。。。どこ。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！　待って、お兄ちゃん！" TCC_NEWLINE
+"私は。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"来るな。。。。。。！" TCC_NEWLINE
+"兄さんは。。。兄さんだけは。。。。。。僕の。。。。。。" TCC_NEWLINE
+"お前。。。には。。。渡さ。。。。。。ない。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。うっ。。。うぅ。。。。。。" TCC_NEWLINE
+"オッテルお兄ちゃん！" TCC_NEWLINE
+"私は。。。お兄ちゃんが大好きだよ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"頑張り屋で優しいお兄ちゃんが。。。" TCC_NEWLINE
+"大好き。。。だったよ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FAFNIR
+"。。。ウ。。。グゥ。。。。。。" TCC_NEWLINE
+"アァア。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_OTR
+"に。。。いさ。。。。。。ん。。。。。。" TCC_NEWLINE
+"。。。よかった。。。。。。。。。" TCC_NEWLINE
+"。。。。。。ここに。。。いて。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"もう。。。そばを。。。。。。" TCC_NEWLINE
+"。。。離れる。。。もんか。。。。。。" TCC_NEWLINE
+"ずっと。。。一緒だよ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"兄さ。。。お願。。。い。。。。。。。。。" TCC_NEWLINE
+"。。。昔。。。みたい。。。に。。。。。。" TCC_NEWLINE
+"抱き。。。しめ。。。。。。て。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"グ。。。。。。アァ。。。。。。" TCC_NEWLINE
+"アアァアアアアーーーー！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。ぁ。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。ふ。。。。。。ふふ。。。。。。。。。" TCC_NEWLINE
+"に。。。。。。ぃ。。。、。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

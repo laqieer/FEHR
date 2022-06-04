@@ -1,0 +1,176 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5123] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
+"はぁ～きっつい！！" TCC_NEWLINE
+"レギン！　大丈夫！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"う、うん。。。。。。何とか。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ちょっ、しっかりしなよ！！" TCC_NEWLINE
+"やんなきゃこっちがやられんだよ！？" TCC_NEWLINE TCC_PUSH_A
+"いい加減腹くくんなって！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わかってるの！" TCC_NEWLINE
+"わかってるけど。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_FAFNIR
+"。。。ググ。。。。。。" TCC_NEWLINE
+"ガァ。。。アァアアアーーー！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！？　お兄ちゃん。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レギン！　危ない！！" TCC_NEWLINE TCC_PUSH_A
+""
+"あーーーーーーもう！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_NOTT
+"！？　ダグちゃん！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ダグ王女！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。っ。。。。。。。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。え。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。。。。くっ。。。。。。あぁ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ノート姉ちゃん！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SHARENA
+"そんな。。。！" TCC_NEWLINE
+"お兄様っ、ノート王女が。。。っ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"！　ノート王女。。。！" TCC_NEWLINE
+"シャロン、ノート王女から" TCC_NEWLINE
+"ファフニールを遠ざけるんだ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_SHARENA
+"うぅっ。。。はいっ。。。。。。！" TCC_NEWLINE
+"ノート王女、どうか無事で。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"キシャァアアアーーーーー！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5123] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_NOTT
+"。。。ごほっ。。。。。。あぁ。。。。。。" TCC_NEWLINE
+"ダグちゃん。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_DAGR
+"バカ！！" TCC_NEWLINE
+"何であたしを庇ったんだよ！？" TCC_NEWLINE TCC_PUSH_A
+"バカバカバカ！！" TCC_NEWLINE
+"姉ちゃんのバカーーーー！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。バカしか。。。。。。言えないの。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+"もう。。。ほんとに。。。。。。" TCC_NEWLINE
+"私の。。。妹。。。なのに。。。。。。" TCC_NEWLINE
+"頭が。。。。。。悪いん。。。だから。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"頭悪くていいよ！" TCC_NEWLINE
+"変な男に惚れてもいい！" TCC_NEWLINE
+"女王の座も姉ちゃんにあげる！！" TCC_NEWLINE TCC_PUSH_A
+"だからお願い、死なないで！！" TCC_NEWLINE
+"姉ちゃんがいないとあたし、" TCC_NEWLINE
+"どうしていいかわかんないよ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"やだよ姉ちゃん。。。姉ちゃぁん。。。っ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ふふ。。。。。。ふ。。。。。。" TCC_NEWLINE
+"ダグちゃん。。。そろそろ。。。。。。" TCC_NEWLINE
+"姉離れ。。。しなきゃ。。。ね。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+"どうか。。。立派。。。な。。。。。。" TCC_NEWLINE
+"ヨトゥンの。。。女王。。。。。。に。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"だいじょ。。。ぶ。。。。。。" TCC_NEWLINE
+"あなたは。。。。。。私。。。の。。。。。。" TCC_NEWLINE
+"いも。。。と。。。。。。なん。。。。。。だ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。、。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。姉ちゃん。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+"やだぁっ、ノート姉ちゃん！" TCC_NEWLINE
+"置いてかないで！" TCC_NEWLINE
+"あたしを一人にしないでよぉっ！！" TCC_NEWLINE TCC_PUSH_A
+""
+"やだぁーーーーっ！！！！" TCC_NEWLINE
+"うっ。。。うぅ。。。。。。あぁーーーー！！" TCC_NEWLINE
+"うわぁあぁーーーーーーー！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5123] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ノート。。。王女。。。。。。" TCC_NEWLINE
+"ああ。。。あ。。。。。。。。。" TCC_NEWLINE
+"私。。。。。。私。。。。。。っ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"レギン王女！" TCC_NEWLINE
+"しっかりするんだ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私、私のせいでっ。。。。。。" TCC_NEWLINE
+"ノート王女が。。。。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"違う！　ここは戦場だ。" TCC_NEWLINE
+"誰もが死と隣り合わせなんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でもっ。。。でもっ。。。。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
+"ーーその通りだよ、レギン。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！　ダグ王女。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"レギンを庇ったのはあたしの勝手で" TCC_NEWLINE
+"あたしを庇ったのは姉ちゃんの勝手。。。" TCC_NEWLINE
+"あんたのせいじゃない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ごめんなさいっ。。。" TCC_NEWLINE
+"ごめんなさい！！" TCC_NEWLINE TCC_PUSH_A
+"私。。。どうしよう。。。。。。" TCC_NEWLINE
+"どうしたらいいの。。。。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"だから謝るなって。" TCC_NEWLINE
+"でも、どうしようって言うなら" TCC_NEWLINE
+"答えはひとつだ。" TCC_NEWLINE TCC_PUSH_A
+"ファフニールを、" TCC_NEWLINE
+"あんたの兄ちゃんを倒せ。" TCC_NEWLINE
+"あんたの手で。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ダグ王女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"わかってんだろ？" TCC_NEWLINE TCC_PUSH_A
+"それがあたしと姉ちゃんと、" TCC_NEWLINE
+"アスク王国の連中やニザヴェリルの民。。。" TCC_NEWLINE
+"みんなへのあんたのけじめだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。わかり。。。ました。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"私が倒します。" TCC_NEWLINE
+"我が兄、ファフニールを" TCC_NEWLINE
+"必ずこの手で倒します！" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。必ず。。。私が。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

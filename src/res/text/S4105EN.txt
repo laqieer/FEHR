@@ -1,0 +1,76 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｉ　ｔｏｌｄ　ｙｏｕ，　ｒｕｎ　ａｓ　ｙｏｕ　ｍｉｇｈｔ，"TCC_NEWLINE"　ｉｔ　ｉｓ　ｎｏ　ｕｓｅ　ｓｏ　ｌｏｎｇ　ａｓ　ｍｙ　ｂー"TCC_NEWLINE"ｒｏｔｈｅｒ’ｓ　ｐｏｗｅｒ　ｈａｓ　ｂｅｅｎ　ａｄｄｅｄ"TCC_NEWLINE"　ｔｏ　ｍｙ　ｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｎｉｇｈｔｍａｒｅ　ｉｓ　ａｂｓｏｌｕｔｅ．　Ｔー"TCC_NEWLINE"ｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｗｈａｔ　ｗｉｌｌ　ｙｏｕ　ｄｏ，　ｈｍ？　Ｗｈｉー"TCC_NEWLINE"ｃｈ　ｗａｙ　ｗｉｌｌ　ｙｏｕ　ｆｌｅｅ？　Ｔｈｉｎｋ．　"TCC_NEWLINE"Ｔｈｉｎｋ　ａｓ　ｈａｒｄ　ａｓ　ｙｏｕ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｗｈ－ｗｈａｔ　ｄｏ　ｗｅ　ｄｏ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｒｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｕｒｅｌｙ　ｙｏｕ　ｍｕｓｔ　ｕｎｄｅｒｓｔａｎｄ　ｂｙ"TCC_NEWLINE"　ｎｏｗ！　Ａｎｙｔｈｉｎｇ　ｙｏｕ　ｄｏ　ｉｓ　ｕｓｅｌー"TCC_NEWLINE"ｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｗａｙ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FREYR
+"Ｎｏ．　Ｔｈｅｒｅ’ｓ　ｏｎｅ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｂｒｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｆｒｅｙｊａ．．．　Ｍｙ　ｓｉｓｔｅｒ．．．　Ｐｅｒｈａｐー"TCC_NEWLINE"ｓ　ｍｙ　ｗｏｒｄｓ　ａｒｅ　ｎｏ　ｌｏｎｇｅｒ　ｅｎｏｕー"TCC_NEWLINE"ｇｈ　ｔｏ　ｒｅａｃｈ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ａｓ　ｙｏｕｒ　ｅｌｄｅｒ　ｂｒｏｔｈｅｒ，　Ｉ　"TCC_NEWLINE"ａｃｃｅｐｔ　ｍｙ　ｒｅｓｐｏｎｓｉｂｉｌｉｔｙ　ｔｏ　ｓー"TCC_NEWLINE"ｔｏｐ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｉｓ　ｉｔ　ｙｏｕ　ａｒｅ　ｐｌａｎｎｉｎｇ　ｔー"TCC_NEWLINE"ｏ　Ｎｏ．　Ｙｏｕ　ｍｕｓｔｎ’ｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYR
+"Ｆｒｅｙｊａ’ｓ　ｐｏｗｅｒ　ｉｓ　ｔｈｅ　ｓｕｍ　ｏｆ　"TCC_NEWLINE"ｏｕｒ　ｃｏｍｂｉｎｅｄ　ｓｔｒｅｎｇｔｈｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅｆｏｒｅ，　ｏｎｅ　ｏｆ　ｕｓ　ｍｕｓｔ　ｂｅ　"TCC_NEWLINE"ｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｅｎｔｌｅ　ｍｏｒｔａｌｓ．．．　Ｉ　ｍｕｓｔ　ｅｎｔｒー"TCC_NEWLINE"ｕｓｔ　ｙｏｕ　ｗｉｔｈ　ｔｈｅ　ｐａｔｈ　ｔｏ　Ｆｒｅｙー"TCC_NEWLINE"ｊａ’ｓ　ｄｅｆｅａｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｂｒｏｔｈｅｒ？！　Ｎｉｇｈｔｍａｒｅ，　ｂｉｎｄ　ｈｉｍ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｎｄｅｒ　Ｆｒｅｙｊａ’ｓ　ｇｒｉｐ．．．Ｉ　ｃａｎｎｏー"TCC_NEWLINE"ｔ　ｓｔｏｐ　ｔｈｉｓ．．．　Ｙｏｕ　ｍｕｓｔ．．．ｈｕｒー"TCC_NEWLINE"ｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｔｉｍｅ．　Ｄｏ　ｗｈａｔ　ｙｏｕ"TCC_NEWLINE"　ｍｕｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYR
+"Ｔｈａｎｋ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｒｏｔｈｅｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｓ　Ｉ　ｄｉｅ．．．ｙｏｕｒ　ｐｏｗｅｒ　ｉｓ　ｈａｌｖー"TCC_NEWLINE"ｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｄｒｅａｍｓ　ａｎｄ　ｒｅａｌｉｔｙ．．．ｗｉｌー"TCC_NEWLINE"ｌ　ｄｒａｗ　ａｐａｒｔ．．．ａｎｄ　ｔｈｅｓｅ　ｍｏｒｔー"TCC_NEWLINE"ａｌｓ　ｃａｎ　ｒｅｔｕｒｎ　ｈｏｍｅ．．．ｔｏ　ｔｈｅｉー"TCC_NEWLINE"ｒ　ｗｏｒｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｏｔｈｅｒ，　ｎｏ！　Ｉｆ　ｙｏｕ　ｄｉｅ，　Ｉ"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｔｈｅｙ．．．ｔｒｕｌｙ　ｓｏ　ｄｅａｒ　ｔｏ　ｙー"TCC_NEWLINE"ｏｕ　ａｓ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏｔｈｉｎｇ　ｈａｓ　ｅｖｅｒ　ｂｅｅｎ　ｍｏｒｅ　ｉｍー"TCC_NEWLINE"ｐｏｒｔａｎｔ．．．ｔｈａｎ　ｙｏｕ，　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ａｓ　ｌｏｎｇ　ａｓ　Ｉ　ａｍ　ｗｉｔｈ　ｙｏｕ，"TCC_NEWLINE"　ｔｈｅ　ｍｏｒｔａｌｓ　ｗｉｌｌ　ｓｕｆｆｅｒ．．．ｕｎー"TCC_NEWLINE"ｔｉｌ　ｙｏｕ　ｆｉｎａｌｌｙ　ｄｅｓｔｒｏｙ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｏｕｌｄ　ｎｏｔ　ｂｅａｒ　ｔｏ　ｓｅｅ　ｙｏｕ　ｂー"TCC_NEWLINE"ｅｃｏｍｅ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｆｏｒ　ｙｏｕｒ　ｓａｋｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄｂｙｅ．．．Ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｏｔｈｅｒ．．．　ＮＯＯＯＯＯ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｄｒｅａｍ－Ｋｉｎｇ．．．Ｆｒｅｙｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．ＵｕｕｕａａａＡＡＡＧＧＧＨＨＨ！！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．．．　Ｎｏｔ　ｌｉｋｅ　ｔｈｉｓ．．．　Ｔｈｉｓ　ｉー"TCC_NEWLINE"ｓ　ｎｏｔ．．．　Ｔｈｉｓ　ｉｓ　ｎｏｔ　ｗｈａｔ　Ｉ　ｗー"TCC_NEWLINE"ａｎｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ．．．ｗａｎｔｅｄ　ｙｏｕ　ｔｏ　ｓｍｉｌｅ　"TCC_NEWLINE"ａｔ　ｍｅ　ａｇａｉｎ，　Ｂｒｏｔｈｅｒ．．．　Ｉ　ｊｕｓー"TCC_NEWLINE"ｔ　ｗａｎｔｅｄ　ｔｏ　ｆｅｅｌ　ｌｏｖｅｄ　ａｇａｉｎ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ．．．　Ａｌｌ　ｍｙ　ｈｏｐｅｓ．．．　ａｌー"TCC_NEWLINE"ｌ　ｍｙ．．．ｒｒｒｒａａａＡＡＡＧＧＧＨＨＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌａｄｙ　Ｆｒｅｙｊａ　ａｎｄ　ｔｈｅ　ｄｋｋｌｆａｒ　ｈー"TCC_NEWLINE"ａｖｅ　ｖａｎｉｓｈｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ｓａｉｄ，　ｄｒｅー"TCC_NEWLINE"ａｍｓ　ｃａｎ　ｎｏ　ｌｏｎｇｅｒ　ｂｅｎｄ　ｉｎｔｏ　ｒー"TCC_NEWLINE"ｅａｌｉｔｙ．　Ｔｈｅ　ｔｗｏ　ｒｅａｌｍｓ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｂｅ　ｓｅｐａｒａｔｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｓｈｏｕｌｄ　ｗａｋｅ　ｕｐ　ａｎｄ　ｒｅｔｕｒｎ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　ｗａｋｉｎｇ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｗａｓ．．．Ｆｒｅｙｒ’ｓ　ｗｉｓｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　ｗｅ　ａｗａｋｅｎ，　ｗｅ　ｃａｎ　ｆｉｎａー"TCC_NEWLINE"ｌｌｙ　ｒｅｕｎｉｔｅ　ｗｉｔｈ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ　ｈａｖｅ　ｔｏ　ｂｅｌｉｅｖｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

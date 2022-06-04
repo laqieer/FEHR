@@ -1,0 +1,45 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5053_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ａｈ，　Ｐｒｉｎｃｅ　ｔｒ！　Ｍｙ　ｄｅｅｐｅｓｔ　ａｐｏー"TCC_NEWLINE"ｌｏｇｉｅｓ　ｆｏｒ　ｈａｖｉｎｇ　ｋｅｐｔ　ｙｏｕ　ｗａー"TCC_NEWLINE"ｉｔｉｎｇ　ｓｏ　ｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｓｏ，　ｙｏｕ’ｒｅ　ｂａｃｋ　ｔｈｅｎ．　Ｄｉｄ　ｙｏｕ"TCC_NEWLINE"　ｄｏ　ａｓ　Ｉ　ａｓｋｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ｈｅｒｅ　ｉｓ　Ｇｒａｍｒａｎｄ　ｈｅｒｅ　ｉｓ"TCC_NEWLINE"　ｔｈｅ　ａｃｃｕｒｓｅｄ　ｓｕｍｍｏｎｅｒ　ｏｆ　Ａｓｋー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．．．　Ｉ　ｈｏｐｅ　ｙｏｕ　ｈａｖｅｎ’ｔ　ｉｎｆー"TCC_NEWLINE"ｌｉｃｔｅｄ　ａｎｙ　ｌａｓｔｉｎｇ　ｄａｍａｇｅ．　Ｉ　"TCC_NEWLINE"ｒｅｑｕｉｒｅ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｆｏｒ　ｍｙ　ｐー"TCC_NEWLINE"ｌａｎｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ？　Ａｎｄ　ｗｈａｔ　ａｒｅ　ｔｈｅｓｅ　ｐｌａｎｓ　"TCC_NEWLINE"ｏｆ　ｙｏｕｒｓ？　Ｗｈｙ　ｈａｖｅ　ｙｏｕ　ｎｏｔ　ｓｈー"TCC_NEWLINE"ａｒｅｄ　ｔｈｅｍ　ｗｉｔｈ　ｍｅ　ｙｅｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ．．．Ｎｔｔ．　Ｙｏｕ　ｓｅｅ，　Ｉ　ａｐｐｒｅｃー"TCC_NEWLINE"ｉａｔｅ　ａｌｌ　ｔｈａｔ　ｙｏｕ’ｖｅ　ｄｏｎｅ．　Ｉ　"TCC_NEWLINE"ｐｌａｎ　ｔｏ　ａｓｋ　Ｆｆｎｉｒ　ｆｏｒ　ｈｉｓ　ｂｌｅー"TCC_NEWLINE"ｓｓｉｎｇ．．．ａｎｄ　ｍａｒｒｙ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ．．．ｙｏｕ　ｗｏｕｌｄ　ｍａｋｅ　ｍｅ　ｙｏｕｒ　"TCC_NEWLINE"ｗｉｆｅ？　Ｔｒｕｌｙ，　Ｐｒｉｎｃｅ　ｔｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｆ　ｃｏｕｒｓｅ．　Ｗｈｙ　ｓｈｏｕｌｄｎ’ｔ　Ｉ？　Ｉー"TCC_NEWLINE"ｔ　ｏｕｇｈｔ　ｔｏ　ｈｅｌｐ　ｆｏｒｇｅ　ｒｅｌａｔｉｏー"TCC_NEWLINE"ｎｓ　ｂｅｔｗｅｅｎ　Ｎｉａｖｅｌｌｉｒ　ａｎｄ　Ｊｔｕｎー"TCC_NEWLINE"ｈｅｉｍｒ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　ｏｆ　ｃｏｕｒｓｅ！　Ｏｈｈｈ．．．　Ｉｔ　ｗｏー"TCC_NEWLINE"ｕｌｄ　ｂｅ　ａ　ｄｒｅａｍ　ｃｏｍｅ　ｔｒｕｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｍｉｇｈｔ　ｓｔａｎｄ　ｂｅｓｉｄｅ　ｍｙ　ｌｏー"TCC_NEWLINE"ｖｅ，　Ｐｒｉｎｃｅ　ｔｒ，　Ｊｔｕｎｈｅｉｍｒ’ｓ　ｔｈー"TCC_NEWLINE"ｒｏｎｅ　ｉｓ　ｏｆ　ｌｉｔｔｌｅ　ｃｏｎｓｅｑｕｅｎｃｅ"TCC_NEWLINE"　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ａｂｄｉｃａｔｅ　ｗｉｔｈｏｕｔ　ａ　ｍｏｍー"TCC_NEWLINE"ｅｎｔ’ｓ　ｈｅｓｉｔａｔｉｏｎ，　ａｎｄ　Ｄａｇｒ　ｍａー"TCC_NEWLINE"ｙ　ｄｏ　ｗｉｔｈ　ｉｔ　ａｓ　ｓｈｅ　ｐｌｅａｓｅｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈａｔ’ｓ　ｖｅｒｙ　ｇｏｏｄ　ｔｏ　ｈｅａｒ．　Ｎｏｗ"TCC_NEWLINE"，　Ｉ　ｗｉｌｌ　ｔａｋｅ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ａｎー"TCC_NEWLINE"ｄ　ｔｈｅ　ｓｗｏｒｄ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ　ｍｉｎｄ"TCC_NEWLINE"，　Ｎｔｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙ－ｙｅｓ，　ｏｆ　ｃｏｕｒｓｅ！　Ｗｈｅｒｅ　ａｒｅ　ｗー"TCC_NEWLINE"ｅ　ｇｏｉｎｇ　ｔｏ　ｔａｋｅ　ｔｈｅｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｗｉｌｌ　ｒｅｔｕｒｎ　ｔｏ　Ｎｉａｖｅｌｌｉｒ．　Ｙー"TCC_NEWLINE"ｏｕ，　ｈｏｗｅｖｅｒ，　ｓｈｏｕｌｄ　ｒｅｍａｉｎ　ｈｅー"TCC_NEWLINE"ｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｏｈ？　Ｉ　ｈａｖｅ　ｔｏ　ｂｅｌｉｅｖｅ　ｔｈｅ　"TCC_NEWLINE"Ａｓｋｒａｎｓ　ａｒｅ　ｎｏｔ　ｆａｒ　ｂｅｈｉｎｄ　ｍｅ"TCC_NEWLINE"　ｎｏｗ，　ｄｅｓｐｅｒａｔｅ　ｔｏ　ｃａｔｃｈ　ｍｅ，　"TCC_NEWLINE"ｎｏ　ｄｏｕｂｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｃａｎ　ｈａｎｄｌｅ　ｔｈａｔ　ｓｏｒｒｙ　ｌｏｔ"TCC_NEWLINE"　ｗｉｔｈｏｕｔ　ｍｙ　ｈｅｌｐ，　ｃａｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｍｙ　ｂｒｏｔｈｅｒ’ｓ　ｂｌｅｓｓｉｎｇ，　Ｉ"TCC_NEWLINE"　ｗｉｌｌ　ｓｅｎｄ　ｆｏｒ　ｙｏｕ　ｗｉｔｈ　ａ　ｆｏｒー"TCC_NEWLINE"ｍａｌ　ｉｎｖｉｔａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｌｌ　ｙｏｕ　ｗａｉｔ　ｕｎｔｉｌ　ｔｈｅｎ，　ｍｙ　"TCC_NEWLINE"ｂｅａｕｔｉｆｕｌ　ｂｒｉｄｅ－ｔｏ－ｂｅ？　Ｆｏｒ　ｍｅ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏ－ｏｆ　ｃｏｕｒｓｅ！　Ｌｅａｖｅ　ｔｈｅ　Ａｓｋｒａｎー"TCC_NEWLINE"ｓ　ｔｏ　ｍｅ，　Ｐｒｉｎｃｅ　ｔｒ！　Ｉ　ｗｉｌｌ　ｐｒー"TCC_NEWLINE"ｏｖｅ　ｍｙ　ｗｏｒｔｈ　ａｎｄ　ａｎｎｉｈｉｌａｔｅ　ｔー"TCC_NEWLINE"ｈｅｍｆｏｒ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｈｍｐｈ．　Ｉｓ　ｓｈｅ　ｇｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｏｄ．　Ｎｏｗ，　ｋｅｅｐ　ｗａｌｋｉｎｇ，　ｓｕｍｍー"TCC_NEWLINE"ｏｎｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｔｕｎｈｅｉｍｒ　ｔｒｕｌｙ　ｄｏｅｓ　ｈａｖｅ　ａ　ｆー"TCC_NEWLINE"ｏｏｌ　ｆｏｒ　ａｎ　ｈｅｉｒ　ａｐｐａｒｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｗｏｕｌｄ　ｂｅ　ｂｅｔｔｅｒ　ｏｆｆ　ｃｏｎｑー"TCC_NEWLINE"ｕｅｒｅｄ　ｂｙ　Ｎｉａｖｅｌｌｉｒ．　Ｌｅｔ　ｔｈｅｉｒ"TCC_NEWLINE"　ｐｒｉｎｃｅｓｓｅｓ　ｋｉｌｌ　ｅａｃｈ　ｏｔｈｅｒ　ａー"TCC_NEWLINE"ｎｄ　ｓａｖｅ　ｕｓ　ｔｈｅ　ｔｒｏｕｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5053_EN] = TCC_OPEN_LEFT
+"Ｉ　ｈａｖｅ　ｔｏ　ｆｉｇｈｔ　ｉｎ　ｔｈｉｓ　ｗｏｒｌｄ"TCC_NEWLINE"　ｔｏｏ？　Ｕｇｈ．　Ｆｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

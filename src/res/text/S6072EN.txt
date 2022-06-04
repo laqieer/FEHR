@@ -1,0 +1,6 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6072_EN] = TCC_OPEN_LEFT
+"Ｅｖｅｎ　ｔｈｏｕｇｈ　Ｉ　ｈａｄ　ｔｏ　ｄｏ　ｓｏｍｅ．"TCC_NEWLINE"．．　ｑｕｅｓｔｉｏｎａｂｌｅ　ｔｈｉｎｇｓ　ｔｏ　ａｃｈー"TCC_NEWLINE"ｉｅｖｅ　ｔｈａｔ　ｇｏａｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈｅｄ　ｔｏ　ｓｅｅ　Ｓｏｔｈｉｓ．．．ｍｙ　ｍー"TCC_NEWLINE"ｏｔｈｅｒ．．．　ｏｎｃｅ　ｍｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

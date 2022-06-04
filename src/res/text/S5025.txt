@@ -1,0 +1,145 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"久しぶりだな、レギン。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"！　オッテルお兄ちゃん！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"兄様と呼べと言ってるだろう。" TCC_NEWLINE
+"まったくお前は王族の自覚が足りない。" TCC_NEWLINE TCC_PUSH_A
+""
+"それで？　何をしている？" TCC_NEWLINE
+"召喚師を連れてこいと言ったのも忘れて" TCC_NEWLINE
+"敵国の連中と仲良くピクニックか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そ、それは。。。その。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"君がファフニール王の弟、" TCC_NEWLINE
+"オッテル王子か。" TCC_NEWLINE TCC_PUSH_A
+"僕はアスク王国の王子、アルフォンスだ。" TCC_NEWLINE
+"訳あってレギン王女に協力している。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"協力。。。？" TCC_NEWLINE
+"どういう意味だ、レギン！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お兄ちゃん。。。" TCC_NEWLINE TCC_PUSH_A
+"私、よその国に攻め込んだり" TCC_NEWLINE
+"民のみんなを苦しめたり。。。" TCC_NEWLINE
+"もうそんなことできない。" TCC_NEWLINE TCC_PUSH_A
+""
+"お兄ちゃんたちにもして欲しくない。" TCC_NEWLINE
+"昔の優しいお兄ちゃんたちに" TCC_NEWLINE
+"戻ってほしいの。だから。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"だから？　敵と手を組んで、" TCC_NEWLINE
+"ニザヴェリルと。。。僕たちと戦おうと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。そうよ！　そうなの！" TCC_NEWLINE TCC_PUSH_A
+""
+"これ以上ひどいことを続けるなら。。。" TCC_NEWLINE
+"たとえ死んでも" TCC_NEWLINE
+"私がお兄ちゃんたちを止めるんだから！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。くっ。。。ふふ。。。。。。" TCC_NEWLINE
+"くっくくく。。。そうか、" TCC_NEWLINE
+"死んでも。。。くくっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"オッテル王子。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はーっはっはっは！！！" TCC_NEWLINE
+"あっはははははっ！" TCC_NEWLINE
+"傑作だ！　そりゃあいい！" TCC_NEWLINE TCC_PUSH_A
+""
+"レギン。" TCC_NEWLINE
+"今からお前は妹でもなんでもない。" TCC_NEWLINE
+"僕たちの敵だ！" TCC_NEWLINE TCC_PUSH_A
+"よその国の連中と同じように" TCC_NEWLINE
+"刺して潰して切り刻んで、" TCC_NEWLINE
+"手足をちぎって犬に喰わせてやる！" TCC_NEWLINE TCC_PUSH_A
+""
+"これで兄さんの家族は僕ひとりだ！！" TCC_NEWLINE
+"あーっはっはっは！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お、お兄ちゃん。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ちょっと、ひどいじゃないですかっ！" TCC_NEWLINE
+"レギン王女は、あなたの" TCC_NEWLINE
+"たったひとりの妹なんでしょう！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_OTR
+"何がひどい？" TCC_NEWLINE
+"そいつが自分で言い出したんだろう。" TCC_NEWLINE TCC_PUSH_A
+""
+"さあ、僕は忙しいんだ。" TCC_NEWLINE
+"お前たちと無駄口を叩いてる暇はない。" TCC_NEWLINE
+"召喚師を置いてさっさと失せろ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"くそ。。。！" TCC_NEWLINE
+"ここは一旦退くしかないか。。。" TCC_NEWLINE TCC_PUSH_A
+"だが、この先は賢者の森。。。" TCC_NEWLINE
+"簡単に通れると思うなよ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5025] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"。。。オッテルお兄ちゃん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"もーっ！　ひどいお兄さんですねっ！" TCC_NEWLINE
+"わたし、お兄様にあんなこと言われたら" TCC_NEWLINE
+"泣いちゃいます。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ううん。シャロン王女。" TCC_NEWLINE
+"オッテルお兄ちゃん、怒りっぽいけど" TCC_NEWLINE
+"昔は優しかったの。" TCC_NEWLINE TCC_PUSH_A
+""
+"みんなおかしくなっちゃったの。" TCC_NEWLINE
+"ファフニールお兄ちゃんも" TCC_NEWLINE
+"オッテルお兄ちゃんも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"私、その訳を知りたい。" TCC_NEWLINE
+"そして元に戻さなきゃ。" TCC_NEWLINE TCC_PUSH_A
+""
+"そしたらお兄ちゃんたちも" TCC_NEWLINE
+"戦争やめて、みんな平和に" TCC_NEWLINE
+"暮らすことができるの！　でしょ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。ああ。そうなるといいね。" TCC_NEWLINE
+"ところでレギン王女。。。" TCC_NEWLINE TCC_PUSH_A
+"君は" TCC_TACTICIAN_NAME "を" TCC_NEWLINE
+"連れ去ろうとしていた。" TCC_NEWLINE
+"あれはもしかして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うん、オッテルお兄ちゃんに" TCC_NEWLINE
+"命令されたの。" TCC_NEWLINE
+"訳は教えてくれなかったけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"やはりそうか。" TCC_NEWLINE
+"彼の狙いはなんだ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。ああ、" TCC_TACTICIAN_NAME "。" TCC_NEWLINE
+"不安にさせてしまったらすまない。" TCC_NEWLINE TCC_PUSH_A
+"大丈夫、" TCC_NEWLINE
+"君には指一本触れさせはしない。" TCC_NEWLINE
+"さあ、賢者の森へ急ごう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

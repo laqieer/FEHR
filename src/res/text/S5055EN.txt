@@ -1,0 +1,106 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ａｌｌ　ｒｉｇｈｔ，　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ｇｅｔｔｉー"TCC_NEWLINE"ｎｇ　ｔｏ　ｎａｓｔｙ　Ｎｔｔ’ｓ　Ｎｉｇｈｔ　Ｔｅｍｐｌー"TCC_NEWLINE"ｅ　ｓｏｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｎｄ　ｗｈｅｎ　ｗｅ　ｒｅａｃｈ　ｔｈｅ　Ｎｉｇｈｔ　Ｔー"TCC_NEWLINE"ｅｍｐｌｅ，　ｗｅ　ｗｉｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｓａｖー"TCC_NEWLINE"ｅ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｆｏｒ　ｓｕｒｅ，"TCC_NEWLINE"　ｒｉｇｈｔ？　Ｗｈａｔ　ｋｉｎｄ　ｏｆ　ｆｏｏｌ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｍａｋｅ　ｔｈｅｉｒ　ｅｓｃａｐｅ　ｔｏ　ｓｕｃｈ　"TCC_NEWLINE"ａｎ　ｏｂｖｉｏｕｓ　ｐｌａｃｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａ－Ａｌｆｏｎｓｅｌｏｏｋ！　Ｏｖｅｒ　ｔｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｓ　ｔｈａｔ　Ｐｒｉｎｃｅ　ｔｒ？　Ａｎｄ　ｉｓ　ｔｈａー"TCC_NEWLINE"ｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｗｉｔｈ　ｈｉｍ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｈａｔ　ｉｓ　ｈｅ　ｄｏｉｎｇ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_OTR
+"Ｏｈ，　ｓｏ　ｙｏｕ’ｒｅ　ｈｅｒｅ　ａｌｒｅａｄｙ，　ａー"TCC_NEWLINE"ｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"ｔｒ，　ｓｔｏｐ　ｔｈｅｒｅ！　Ｗｈｅｒｅ　ａｒｅ　ｙｏｕ"TCC_NEWLINE"　ｇｏｉｎｇ？　Ｒｅｔｕｒｎ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｔｏ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｔｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｉ　ｗｉｌｌ　ｍａｋｅ　ｑｕｉｃｋ　ｗｏｒｋ　ｏｆ　ｔｈｅー"TCC_NEWLINE"ｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｎｔｔ？！　Ｗｈａｔ　ｈａｖｅ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ，　Ｓｉｓ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｉ　ｌｅａｖｅ　ｉｔ　ｔｏ　ｙｏｕ，　Ｎｔｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｉ　ｗｉｌｌ　ｍａｋｅ　ｙｏｕ　ｐｒｏｕｄ．　Ｎｏｗ　ｈｕー"TCC_NEWLINE"ｒｒｙ　ａｎｄ　ｇｏ，　ｍｙ　ｄｅａｒ　ｐｒｉｎｃｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｏｆ　ｃｏｕｒｓｅ！　Ｙｏｕ　ｓａｐ．　Ｙｏｕ’ｖｅ"TCC_NEWLINE"　ｆａｌｌｅｎ　ｆｏｒ　ｙｅｔ　ａｎｏｔｈｅｒ　ｇｕｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗａｉｔｗｈａｔ？　Ｗｈａｔ’ｓ　ｇｏｉｎｇ　ｏｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｔｔ　ｉｓ　ａ　ｓｕｃｋｅｒ　ｆｏｒ　ａｎｙ　ｍａｎ　ｗー"TCC_NEWLINE"ｉｔｈ　ａ　ｈａｌｆ－ｄｅｃｅｎｔ　ｆａｃｅ．　Ｓｈｅ　ｇー"TCC_NEWLINE"ｏｅｓ　ｇｏｏ－ｇｏｏ　ｆｏｒ　ｔｈｅｍ　ｉｆ　ｔｈｅｙ　"TCC_NEWLINE"ｅｖｅｎ　ｇｌａｎｃｅ　ｈｅｒ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ，　Ｎｔｔ．．．ＨＩＭ？！　Ｈｅ’ｓ　ｐｒｉｎｃｅ　"TCC_NEWLINE"ｏｆ　Ｎｉａｖｅｌｌｉｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｄｅａｒ　ｓｉｍｐｌｅｔｏｎ　ｓｉｓｔｅｒ，　ｈｅ’"TCC_NEWLINE"ｓ　ｓｏ　ｏｂｖｉｏｕｓｌｙ　ｕｓｉｎｇ　ｙｏｕ！　Ｅｎｄ"TCC_NEWLINE"　ｔｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｏｈ，　Ｄａｇｒ．．．　Ｓｕｃｈ　ｊｅａｌｏｕｓｙ　ｉｓ　"TCC_NEWLINE"ｕｎｂｅｃｏｍｉｎｇ　ｏｆ　ａ　ｐｒｉｎｃｅｓｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｃａｔｃｈｉｎｇ　ａ　ｐｒｉｎｃー"TCC_NEWLINE"ｅ　ｉｓ　ｂｅｙｏｎｄ　ｓｏｍｅ　ｐｒａｔｔｌｉｎｇ　ｐｅー"TCC_NEWLINE"ｓｔ　ｌｉｋｅ　ｙｏｕｒｓｅｌｆ，　ｂｕｔ．．．ｎｏｔ　ｆー"TCC_NEWLINE"ｏｒ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ａｂａｎｄｏｎ　ｈｏｐｅ，　ｄｅａｒ　ｓｉｓー"TCC_NEWLINE"ｔｅｒ．　Ｉ’ｖｅ　ｆａｉｔｈ　ｔｈｅｒｅ’ｓ　ａ　ｍａｎ"TCC_NEWLINE"　ｗｉｔｈ　ｓｔｅｎｃｈ　ｓｕｉｔａｂｌｅ　ｔｏ　ａ　ｂｕー"TCC_NEWLINE"ｚｚｉｎｇ　ｐｅｓｔ　ｌｉｋｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｌ　ｒｉｇｈｔ．　Ｔｈａｔ’ｓ　ＩＴ！　Ｉ’ｍ　ｇｏｉー"TCC_NEWLINE"ｎｇ　ｔｏ　ｋｉｌｌ　ｙｏｕ　ｏｎｃｅ　ａｎｄ　ｆｏｒ　ａー"TCC_NEWLINE"ｌｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｒｒｒｒ－ＲＡＡＡＨＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｎｙａａａｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｉｃｅ！　Ｌｏｏｋｓ　ｌｉｋｅ　Ｉ　ｗｉｎ．　Ｂｅｔｔｅー"TCC_NEWLINE"ｒ　ｌｕｃｋ　ｎｅｘｔ　ｔｉｍｅ，　Ｓｉｓ！　＊ｗｉｎｋ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｉｓ　ｃａｎ’ｔ　ｂｅ　ｈａｐｐｅｎｉｎｇ．．．　Ｉ　"TCC_NEWLINE"ｌｏｓｔ？　Ｔｏ　ＹＯＵ　ｏｆ　ａｌｌ　ｐｅｏｐｌｅ？！　"TCC_NEWLINE"Ｙ－ｙｏｕ’ｖｅ　ｎｅｖｅｒ　ｂｅａｔｅｎ　ｍｅ　ｂｅｆｏー"TCC_NEWLINE"ｒｅ，　ａｎｄ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｎｏｗ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｍａｙ　ｎｏｔ　ｂｅ　ａｂｌｅ　ｔｏ　ｂｅａｔ　ｙｏｕ"TCC_NEWLINE"　ｕｎｄｅｒ　ｎｏｒｍａｌ　ｃｉｒｃｕｍｓｔａｎｃｅｓ，　"TCC_NEWLINE"ｓｕｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｉｔｈ　ｔｈａｔ　ｍａｎ　ｄｉｓｔｒａｃｔｉｎｇ"TCC_NEWLINE"　ｙｏｕ，　Ｉ　ｃｏｕｌｄ　ｈａｖｅ　ｂｅａｔ　ｙｏｕ　ｗー"TCC_NEWLINE"ｉｔｈ　ｍｙ　ｅｙｅｓ　ｃｌｏｓｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｕｇｈ．．．　Ｆｏｒｇｉｖｅ　ｍｅ，　Ｐｒｉｎｃｅ　ｔｒ！"TCC_NEWLINE"　Ｉ　ａｍ　ｕｎｗｏｒｔｈｙ　ｏｆ　ｙｏｕｒ　ｌｏｖｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｎａｐ　ｏｕｔ　ｏｆ　ｉｔ！　Ｈｅ　ｕｓｅｄ　ｙｏｕ　ｌー"TCC_NEWLINE"ｉｋｅ　ａ　ｓａｃｒｉｆｉｃｉａｌ　ｐａｗｎ　ｔｏ　ｃｏｖー"TCC_NEWLINE"ｅｒ　ｈｉｓ　ｅｓｃａｐｅ，　ｄｉｄｎ’ｔ　ｈｅ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｄｏｅｓｎ’ｔ　ｃａｒｅ　ａｂｏｕｔ　ｙｏｕ！　Ｈｅ"TCC_NEWLINE"　ｊｕｓｔ　ｗａｎｔｅｄ　ｔｏ　ｕｓｅ　ｙｏｕ！　Ｈｅ’ｓ"TCC_NEWLINE"　ｓｃｕｍ　ａｎｄ　ａ　ｍａｎｉｐｕｌａｔｏｒａｎｄ　ｙｏー"TCC_NEWLINE"ｕ’ｒｅ　ｈｉｓ　ｍａｒｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｈｕｔ　ｕｐ！　Ｄａｍｎ　ｙｏｕ．．．　Ｉ　ｋｎｅｗ　ｗー"TCC_NEWLINE"ｈａｔ　ｗａｓ　ｈａｐｐｅｎｉｎｇ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ．．．　Ｉ　ｓｔｉｌｌ　ｌｏｖｅｄ　ｈｉｍ．．．"TCC_NEWLINE"　Ｏｈ，　ｔｒ．．．　＊ｓｏｂ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｅｒｒｒ．．．　Ｈｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ａｎ　ｅｍｂａｒｒａｓｓｍｅｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｒｉｇｈｔ．　Ｑｕｉｔ　ｃｒｙｉｎｇ．　Ｎｏ　ｏｎー"TCC_NEWLINE"ｅ’ｓ　ｇｏｉｎｇ　ｔｏ　ｆａｌｌ　ｆｏｒ　ｙｏｕｒ　ｃｏー"TCC_NEWLINE"ｏｌ－ｐｒｉｎｃｅｓｓ　ｓｈｔｉｃｋ　ｗｈｉｌｅ　ｙｏｕ’"TCC_NEWLINE"ｒｅ　ａｌｌ　ｗｅｅｐｙ．　Ｃ’ｍｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙ－ｙｏｕ　ａｒｅｎ’ｔ　ｕｐｓｅｔ　ｗｉｔｈ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　ｔｒｙｉｎｇ　ｔｏ　ｂｅａｔ　ｙｏｕ　ｔｏ　ｔー"TCC_NEWLINE"ｈｅ　ｐｕｎｃｈ，　Ｉ　ａｌｒｅａｄｙ　ｐｉｃｋｅｄ　ａ　"TCC_NEWLINE"ｆｉｇｈｔ　ｗｉｔｈ　Ａｌｆｓｔｅｒ　ｈｅｒｅ　ｍｙｓｅｌー"TCC_NEWLINE"ｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　Ｉ　ｄｏｎ’ｔ　ｈａｖｅ　ｍｕｃｈ　ｏｆ　ａ　ｈｉー"TCC_NEWLINE"ｇｈ　ｈｏｒｓｅ　ｔｏ　ｌｅｃｔｕｒｅ　ｙｏｕ　ｆｒｏｍ，"TCC_NEWLINE"　ｂｕｔ．．．ｙｏｕ　ｓｈｏｕｌｄ　ｈｅｌｐ　ｔｈｅ　Ａｓー"TCC_NEWLINE"ｋｒａｎｓ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｔｈａｎｋ　ｙｏｕ，　Ｄａｇｒ"TCC_NEWLINE"．　Ａｎｄ．．．　Ｉ　ｈｏｐｅ　ｙｏｕ　ｃａｎ　ｆｏｒｇｉー"TCC_NEWLINE"ｖｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｃｕｔ　ｉｔ　ｏｕｔ　ａｌｒｅａｄｙ．　Ｉｆ　ｙｏー"TCC_NEWLINE"ｕ　ｋｅｅｐ　ｓｎｉｖｅｌｉｎｇ　ｌｉｋｅ　ｔｈａｔ，　Ｉ"TCC_NEWLINE"’ｍ　ｇｏｉｎｇ　ｔｏ　ｌｏｓｅ　ｍｙ　ｍｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5055_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ’ｍ　ｈａｐｐｙ　ｔｈｅ　ｔｗｏ　ｏｆ　ｙｏｕ　ｗｅｒｅ"TCC_NEWLINE"　ａｂｌｅ　ｔｏ　ｍａｋｅ　ｕｐ！　Ｙｏｕ’ｒｅ　ｓｉｂｌー"TCC_NEWLINE"ｉｎｇｓ　ａｆｔｅｒ　ａｌｌ．　Ｉｔ’ｓ　ｆｏｒ　ｔｈｅ　"TCC_NEWLINE"ｂｅｓｔ　ｔｈａｔ　ｙｏｕ　ｇｅｔ　ａｌｏｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｔｈａｔ　ｊｕｓｔ．．．ｈｉｔ　ｍｙ　ｈｅａｒｔ　"TCC_NEWLINE"ａ　ｌｉｔｔｌｅ！　Ｉ　ｈｏｐｅ　ｍｙ　ｂｒｏｔｈｅｒｓ　"TCC_NEWLINE"ａｎｄ　Ｉ　ｃａｎ　ｃｏｍｅ　ｔｏ　ａｎ　ｕｎｄｅｒｓｔａー"TCC_NEWLINE"ｎｄｉｎｇ　ｓｏｍｅｄａｙ　ｔｏｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｔｈｅ　ｔｈｒｅｅ　ｏｆ　ｕｓ　ｃａｎ　ｌｉｖｅ"TCC_NEWLINE"　ｈａｐｐｉｌｙ　ｔｏｇｅｔｈｅｒ　ａｇａｉｎ！　Ｉｔ’ｌー"TCC_NEWLINE"ｌ　ｈａｐｐｅｎ　ｓｏｏｎ！　．．．Ｒｉｇｈｔ？　Ｗｏｎ’"TCC_NEWLINE"ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｆ　ｃｏｕｒｓｅ　ｉｔ　ｗｉｌｌ，　Ｒｅｇｉｎｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ！　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｄｏ　ｍｙ　ｂｅｓｔ　"TCC_NEWLINE"ｔｏ　ｍａｋｅ　ｉｔ　ｈａｐｐｅｎ　ａｓ　ｓｏｏｎ　ａｓ　"TCC_NEWLINE"Ｉ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｆｉｒｓｔ　ｔｈｉｎｇｓ　ｆｉｒｓｔ．．．　Ｗｅ　"TCC_NEWLINE"ｈａｖｅ　ｔｏ　ｇｏ　ｓａｖｅ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｗａｓ　ｔｈｉｎｋｉｎｇ　ｔｈｅ　ｓａｍｅ　ｔｈｉｎｇ"TCC_NEWLINE"，　ｂｕｔ．．．　Ｄｏ　ｙｏｕ　ｈａｖｅ　ａｎｙ　ｉｄｅａ"TCC_NEWLINE"　ｗｈｅｒｅ　Ｐｒｉｎｃｅ　ｔｒ　ｍｉｇｈｔ　ｈａｖｅ　ｇー"TCC_NEWLINE"ｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏｔ　ｙｅｔ，　ｂｕｔ　ｄｏｎ’ｔ　ｗｏｒｒｙ！　Ｉ’ｌー"TCC_NEWLINE"ｌ　ｆｉｇｕｒｅ　ｓｏｍｅｔｈｉｎｇ　ｏｕｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｆｏｌｌｏｗ　ｔｒ"TCC_NEWLINE"　ａｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｓｏｍｅｈｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

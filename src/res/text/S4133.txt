@@ -1,0 +1,155 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S4133] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"。。。理解できないわ。" TCC_NEWLINE TCC_PUSH_A
+"あの人間、どうして私に従わないの？" TCC_NEWLINE
+"私がこんなに言葉を尽くしているのに。" TCC_NEWLINE TCC_PUSH_A
+""
+"スカビオサ、どうし。。。" TCC_NEWLINE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。そう、だったわね。" TCC_NEWLINE
+"スカビオサも。。。プルメリアも。。。" TCC_NEWLINE
+"私の命令で。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。どうでもいいことよ。" TCC_NEWLINE
+"私にとって大切なのは" TCC_NEWLINE
+"お兄様だけなのだから。" TCC_NEWLINE TCC_PUSH_A
+"。。。ええ。" TCC_NEWLINE
+"どうでも。。。いいこと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4133] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"現に戻る理由など、" TCC_NEWLINE
+"ありはしないでしょう？" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "。。。" TCC_NEWLINE TCC_PUSH_A
+"幸せか、不幸か、" TCC_NEWLINE
+"それを選ぶだけのこと。。。" TCC_NEWLINE
+"現に何があるというのですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"。。。待ってる人がいるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"アルフォンスさんは生きてる。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんを" TCC_NEWLINE
+"きっと待ってる。。。" TCC_NEWLINE TCC_PUSH_A
+"このまま目覚めなかったら、" TCC_NEWLINE
+"アルフォンスさんと" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんは。。。" TCC_NEWLINE TCC_PUSH_A
+"もう二度と会えない。" TCC_NEWLINE
+"いっしょにお話もできない。" TCC_NEWLINE
+"そんなの、悲しいわ。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、目覚めるの、" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さん。" TCC_NEWLINE
+"あなたを待ってる人がいるから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4133] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
+"フレイヤ様の力が弱まっていく。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さん、" TCC_NEWLINE
+"もうすぐよ。" TCC_NEWLINE TCC_PUSH_A
+"もうすぐ、この夢もおしまい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ピアニーさん。。。" TCC_NEWLINE TCC_PUSH_A
+"夢が終わったら。。。" TCC_NEWLINE
+"ピアニーさんが殺されちゃうって" TCC_NEWLINE
+"ほんとなんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"えっと、それは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いやです。。。" TCC_NEWLINE
+"ピアニーさんが" TCC_NEWLINE
+"またいなくなっちゃうなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロン。。。" TCC_NEWLINE
+"ありがとう。" TCC_NEWLINE
+"私のことを思ってくれて。" TCC_NEWLINE TCC_PUSH_A
+"私も寂しいわ。" TCC_NEWLINE
+"できればあなたたちと" TCC_NEWLINE
+"ずっと一緒にいたい。。。" TCC_NEWLINE TCC_PUSH_A
+"でもね。。。" TCC_NEWLINE
+"夢は、いつか終わるの。" TCC_NEWLINE TCC_PUSH_A
+"安心して、シャロン。" TCC_NEWLINE
+"夢から覚めた時はね、" TCC_NEWLINE
+"きっとみんな忘れてしまうわ。。。" TCC_NEWLINE TCC_PUSH_A
+"だからね、あなたは" TCC_NEWLINE
+"寂しい思いはせずにすむから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いやです。。。そんなの！" TCC_NEWLINE
+"そんなの。。。あの時と。。。" TCC_NEWLINE
+"子供の時と一緒じゃないですか！" TCC_NEWLINE TCC_PUSH_A
+"わたし、もう" TCC_NEWLINE
+"友達をなくしたくないんです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロン。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"小さい頃、" TCC_NEWLINE
+"あんなに仲良しだったのに。。。" TCC_NEWLINE
+"それなのに。。。" TCC_NEWLINE TCC_PUSH_A
+"わたし、あの時の" TCC_NEWLINE
+"あなたの名前も思い出せないんです。。。" TCC_NEWLINE
+"薄情ですよね、冷たいです。でも。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、もう、忘れたくない。。。" TCC_NEWLINE
+"あなたのこと。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャロン。。。" TCC_NEWLINE TCC_PUSH_A
+"泣かないで。" TCC_NEWLINE
+"はい。これ、あげる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。これって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お花の指輪。。。一緒に遊んでた頃、" TCC_NEWLINE
+"あなたが私に作ってくれたの。" TCC_NEWLINE
+"私の宝物よ。" TCC_NEWLINE TCC_PUSH_A
+"あなたは私に大切なものを" TCC_NEWLINE
+"たくさんくれたの。" TCC_NEWLINE
+"今だって、そうよ。" TCC_NEWLINE TCC_PUSH_A
+"今あなたがくれた言葉は。。。ここにあるもの。" TCC_NEWLINE
+"私の胸の奥の、大切なところに。" TCC_NEWLINE
+"ずっとね。。。" TCC_NEWLINE TCC_PUSH_A
+"忘れるってことは、" TCC_NEWLINE
+"なかったことになるわけじゃない。" TCC_NEWLINE TCC_PUSH_A
+"あの花園で会った時から、" TCC_NEWLINE
+"私たちはともだち。" TCC_NEWLINE
+"そうでしょう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ピアニーさん。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、わたし、それでもいやです。。。" TCC_NEWLINE
+"ピアニーさんが死んじゃうなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ありがとう。。。" TCC_NEWLINE TCC_PUSH_A
+"夢はいつか終わる。。。" TCC_NEWLINE
+"現に人は戻っていく。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、そうね。。。" TCC_NEWLINE
+"あなたがもしも、" TCC_NEWLINE
+"私のことを憶えててくれたら。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちは、" TCC_NEWLINE
+"またどこかで会えるかもね。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、ね。" TCC_NEWLINE
+"二人でそうお祈りしましょ。" TCC_NEWLINE
+"それでもう安心。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ピアニー。。。さん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふふっ、" TCC_NEWLINE
+"もしほんとに" TCC_NEWLINE
+"そうなったら嬉しいなあ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

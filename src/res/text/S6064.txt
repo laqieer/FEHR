@@ -1,0 +1,84 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6064] = TCC_OPEN_LEFT 
+"私は。。。" TCC_NEWLINE
+"ユリウス様を愛しております。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6064] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_GENERIC_SOLDIER_RED
+"ヴェロニカ様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"。。。。。。。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。お召し上がりください。" TCC_NEWLINE
+"粗末な食事と水で" TCC_NEWLINE
+"申\し訳ありませんが。。。" TCC_NEWLINE TCC_PUSH_A
+"凶悪な死刑囚さえ、" TCC_NEWLINE
+"最期はせめて豪華な食事を許されます。" TCC_NEWLINE
+"このままではあまりに不憫。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。いらない。" TCC_NEWLINE
+"お姉様から。。。" TCC_NEWLINE
+"水もあげるなって言われてるでしょ。。。" TCC_NEWLINE TCC_PUSH_A
+"ばれたら、" TCC_NEWLINE
+"あなたがばつを受けるわ。" TCC_NEWLINE
+"だから、いらない。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。" TCC_NEWLINE
+"ヴェロニカ様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。なに。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"帝国は今、二つに割れております。" TCC_NEWLINE
+"あなたか、レティシア様か、" TCC_NEWLINE
+"どちらに真実があるのか。。。" TCC_NEWLINE TCC_PUSH_A
+"民たちも、我々兵も。。。" TCC_NEWLINE
+"迷っております。" TCC_NEWLINE TCC_PUSH_A
+"お教えください。" TCC_NEWLINE
+"ヴェロニカ様は、" TCC_NEWLINE
+"本当にあのような罪を。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いいえ。" TCC_NEWLINE
+"あたしはそんなことしてない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。" TCC_NEWLINE
+"では、やはり。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"まって。" TCC_NEWLINE
+"あたしだけじゃなく。。。" TCC_NEWLINE
+"お姉様にもきいて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レティシア様にも。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あたしがうそをついて、" TCC_NEWLINE
+"あなたをだまそうとしてるのかも" TCC_NEWLINE
+"しれないでしょう。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちが信じるべき" TCC_NEWLINE
+"真実はどちらか。。。" TCC_NEWLINE TCC_PUSH_A
+"かんたんに決めないで。" TCC_NEWLINE
+"あたしを処刑した後でいい。。。" TCC_NEWLINE
+"よく考えて。" TCC_NEWLINE TCC_PUSH_A
+"あたしの言葉だけじゃない。" TCC_NEWLINE
+"なるべくたくさん知って、考えて。。。" TCC_NEWLINE
+"それから、あなたが決めて。" TCC_NEWLINE TCC_PUSH_A
+"エンブラの未来は。。。" TCC_NEWLINE
+"あたしやお姉様みたいな皇族貴族が" TCC_NEWLINE
+"決めるものじゃない。" TCC_NEWLINE TCC_PUSH_A
+"未来は、" TCC_NEWLINE
+"あなたたちが決めるの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

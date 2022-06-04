@@ -1,0 +1,41 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6024_EN] = TCC_OPEN_LEFT
+"Ｉ’ｌｌ　ｃｕｔ　ｔｈａｔ　ｄａｓｔａｒｄ　Ｗａｌｈａｒｔ"TCC_NEWLINE"　ｄｏｗｎ　ｍｙｓｅｌｆ！　Ｉ　ｓｗｅａｒ　ｉｔ　ｂｅｆｏー"TCC_NEWLINE"ｒｅ　ｔｈｅ　ｇｏｄｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6024_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈ－ｗｈｅｒｅ　ｄｉｄ　ｈｅ　ｇｏ？　Ｔｒａｃｋｉｎｇ　"TCC_NEWLINE"ａ　ｆｏｅ　ｗｈｏ　ｃａｎ　ｆｌｙ　ｉｓ　ｎｏ　ｅａｓｙ　"TCC_NEWLINE"ｔａｓｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｌａｓｔ　Ｉ　ｓａｗ　ｏｆ　ｈｉｍ，　ｈｅ　ｗａｓ"TCC_NEWLINE"　ｍｏｖｉｎｇ　ａｃｒｏｓｓ　ｔｈｅ　ｓｋｙ　ｉｎ　ｔｈａー"TCC_NEWLINE"ｔ　ｄｉｒｅｃｔｉｏｎ，　ｓｏ　ｗｅ　ｓｈｏｕｌｄ　ｍｏｖー"TCC_NEWLINE"ｅ　ｔｈａｔ　ｗａｙ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"．．．Ｗａｉｔ　ａ　ｍｉｎｕｔｅ，　ｙｏｕ　ｔｗｏ！　Ｔｈー"TCC_NEWLINE"ｉｓ　ｉｓ　ｏｕｒ　ｂｏｒｄｅｒ　ｗｉｔｈ　Ｅｍｂｌａ　ｉー"TCC_NEWLINE"ｎ　ｆｒｏｎｔ　ｏｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　ｓｃｏｕｔｉｎｇ　ｒｅｐｏｒｔｓ　ａｒｅ　ａー"TCC_NEWLINE"ｃｃｕｒａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ｄｏ　ｔｈｅｙ　ｓａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈａｔ　ｆｏｒｔｒｅｓｓ　ｕｐ　ａｈｅａｄ．．．　Ｉｔ’"TCC_NEWLINE"ｓ　ｈｅｌｄ　ｂｙ　ａ　ｓｐｅｃｉａｌｉｚｅｄ　ｇｒｏｕｐ"TCC_NEWLINE"　ｏｆ　Ｅｍｂｌｉａｎ　ｔｒｏｏｐｓｎｏｔ　ｍｕｃｈ　ｅｌー"TCC_NEWLINE"ｓｅ　ｉｓ　ｋｎｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｏｎｌｙ　ｋｎｏｗ　ｔｈａｔ　ｔｈｅｙ　ｆｕｎｃｔｉー"TCC_NEWLINE"ｏｎ　ｉｎｄｅｐｅｎｄｅｎｔｌｙ　ｏｆ　ｔｈｅ　Ｅｍｂｌｉー"TCC_NEWLINE"ａｎ　ａｒｍｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｐｕｔ　ｉｔ　ｓｉｍｐｌｙ，　ｙｏｕ　ｃｏｕｌｄ　ｃー"TCC_NEWLINE"ａｌｌ　ｔｈｅｍ　Ｅｍｂｌａ’ｓ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒー"TCC_NEWLINE"ｏｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｍｂｌａ　ｈａｓ　ａｎ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ？"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｈａｔ　ｃａｓｅ，　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ａｂー"TCC_NEWLINE"ｌｅ　ｔｏ　ｇｅｔ　ａｌｏｎｇ，　ｒｉｇｈｔ？　Ｓｉｎｃｅ"TCC_NEWLINE"　ｗｅ　ｈａｖｅ　ｓｏ　ｍｕｃｈ　ｉｎ　ｃｏｍｍｏｎ，　Ｉ"TCC_NEWLINE"　ｍｅａｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ’ｍ　ｎｏｔ　ｓｏ　ｓｕｒｅ．．．　Ｏｕｔｓｉｄｅ　ｏｆ"TCC_NEWLINE"　Ｅｍｂｌａ，　ｔｈｅｙ’ｖｅ　ｅａｒｎｅｄ　ｔｈｅｍｓｅー"TCC_NEWLINE"ｌｖｅｓ　ａｎｏｔｈｅｒ　ｎａｍｅ：　ｔｈｅ　Ｃｕｒｓｅ　"TCC_NEWLINE"Ｄｉｒｅｃｔｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｈｅａｒｔ　ｏｆ　Ｅｍｂｌａ’ｓ　"TCC_NEWLINE"ｒｅｓｅａｒｃｈ　ｉｎｔｏ　ｔｈｅ　ｄａｒｋ　ａｒｔｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　Ｃｕｒｓｅ　Ｄｉｒｅｃｔｉｖｅ？　Ｔｈａｔ　ｄｏｅー"TCC_NEWLINE"ｓ　ｍａｋｅ　ｔｈｅｍ　ｓｏｕｎｄ　ｍｕｃｈ　ｓｃａｒｉｅー"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｃｃｏｒｄｉｎｇ　ｔｏ　ｔｈｅ　ｉｎｆｏｒｍａｔｉｏｎ　"TCC_NEWLINE"Ｉ　ｈａｖｅ，　ｆｅａｒ　ｉｓ　ａｐｐｒｏｐｒｉａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｕｓｅ　ａｓｓａｓｓｉｎａｔｉｏｎ，　ａｂｄｕｃー"TCC_NEWLINE"ｔｉｏｎ，　ｔｏｒｔｕｒｅ，　ｔｒｅａｃｈｅｒｙ．．．ｅｖー"TCC_NEWLINE"ｅｎ　ｔｈｅ　ｓｐｒｅａｄ　ｏｆ　ｆａｌｓｅ　ｉｎｆｏｒｍー"TCC_NEWLINE"ａｔｉｏｎ　ｔｏ　ｔｈｅｉｒ　ｏｗｎ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｏｐｅｒａｔｅ　ｉｎ　ｅｖｅｒｙ　ｓｈａｄｏｗｙ"TCC_NEWLINE"　ｃｏｒｎｅｒ　ｉｎ　Ｅｍｂｌａ，　ａｎｄ　ｄｏ　ｓｏ　ｗー"TCC_NEWLINE"ｉｔｈｏｕｔ　ａｎｙ　ｏｂｓｔａｃｌｅ　ｆｒｏｍ　ｔｈｅ　"TCC_NEWLINE"ｅｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｇｅｔ　ａｎｙ　ｃｌｏｓｅｒ　ｔｈａｎ　ｔｈｉー"TCC_NEWLINE"ｓ，　ｔｈｅｒｅ　ｉｓ　ａ　ｒｅａｌ　ｄａｎｇｅｒ　ｗｅ　"TCC_NEWLINE"ｗｉｌｌ　ｂｅ　ｆｏｒｃｅｄ　ｔｏ　ｅｎｇａｇｅ　ｔｈｅｍ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．　Ｉｆ　ｗｅ　ｃｒｏｓｓ　ｉｎｔー"TCC_NEWLINE"ｏ　Ｅｍｂｌａ’ｓ　ｔｅｒｒｉｔｏｒｙ　ｗｉｔｈｏｕｔ　ｃー"TCC_NEWLINE"ｌｅａｒ　ｃａｕｓｅ，　ｉｔ　ｍａｙ　ｓｏｕｒ　ｏｕｒ　ｃー"TCC_NEWLINE"ｏｏｐｅｒａｔｉｖｅ　ｒｅｌａｔｉｏｎｓｈｉｐ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｈ－ｈｅｙ！　Ｌｏｏｋ　ｏｖｅｒ　ｔｈｅｒｅ！　Ｃｏー"TCC_NEWLINE"ｍｉｎｇ　ｏｕｔ　ｏｆ　ｔｈｅ　ｆｏｒｅｓｔ　ｎｅａｒ　ｔー"TCC_NEWLINE"ｈｅ　ｆｏｒｔｒｅｓｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂａｔ　ｗｉｎｇｓ！　Ｔｈａｔ　ｍｕｓｔ　ｂｅ　ｏｕｒ　ｔー"TCC_NEWLINE"ａｒｇｅｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈａｎｇ　ｏｎｉｓ　ｓｏｍｅｏｎｅ　ｂｅｉｎｇ　ａｔｔａｃー"TCC_NEWLINE"ｋｅｄ？　．．．Ｉｓ　ｔｈａｔ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏー"TCC_NEWLINE"ｎｉｃａ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈｅ’ｓ　ｉｎ　ｔｒｏｕｂｌｅ！　Ｗｅ　ｈａｖｅ　ｔｏ　"TCC_NEWLINE"ｈｅｌｐ　ｈｅｒ．．．ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

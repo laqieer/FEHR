@@ -1,0 +1,111 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"ＮＧＹＡＡＨ！　Ａ　ｍ－ｍｏｎｓｔｅｒ！　Ｉ’ｍ　ｔｏｏ　"TCC_NEWLINE"ｙｏｕｎｇ　ｔｏ　ｂｅ　ｅａｔｅｎ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｈｕｈ？　Ｏｈ．　Ｉｔ’ｓ　ｊｕｓｔ　ａ　ｂｉｒｄ，"TCC_NEWLINE"　Ｉ　ｇｕｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍａｙｂｅ　ｈｅａｄｉｎｇ　ｏｆｆ　ｔｏ　ｔｈｅ　Ｔｏｗｅー"TCC_NEWLINE"ｒ　ｏｆ　Ｎｉａｖｅｌｌｉｒ　ａｌｏｎｅ　ｗａｓｎ’ｔ　ａ"TCC_NEWLINE"　ｇｒｅａｔ　ｉｄｅａ　ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　Ｉ　ｃａｎ　ｍａｋｅ　ｉｔ　ａｌー"TCC_NEWLINE"ｌ　ｔｈｅ　ｗａｙ　ｂｙ　ｍｙｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｉ　ｃａｎ’ｔ　ｇｅｔ　ｄｉｓｃｏｕｒａｇｅｄ　ｎー"TCC_NEWLINE"ｏｗ！　Ｍｙ　ｃｏｕｎｔｒｙ　ａｎｄ　ｍｙ　ｂｒｏｔｈｅｒー"TCC_NEWLINE"ｓ　ｎｅｅｄ　ｍｅ　ｍｏｒｅ　ｔｈａｎ　ｅｖｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｏｏｔｈｉｌｌｓ　ｓｈｏｕｌｄ　ｂｅ　ｏｎ　ｔｈー"TCC_NEWLINE"ｅ　ｏｔｈｅｒ　ｓｉｄｅ　ｏｆ　ｔｈｉｓ　ｆｏｒｅｓｔ．　"TCC_NEWLINE"Ｉｆ　Ｉ　ｊｕｓｔ　ｋｅｅｐ　ｇｏｉｎｇ　ｔｈｉｓ　ｗａｙ"TCC_NEWLINE"，　Ｉ　ｓｈｏｕｌｄ　ｇｅｔ　ｔｈｅｒｅ　ｓｏｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｄｏ　ｍｙ　ｂｅｓｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．ｉｎｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｒｅｇ．．．ｉｎｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｈｕｈ？　Ｗｈ－ｗｈｏ’ｓ　ｔｈｅｒｅ？　Ｉ　ｃａｎ"TCC_NEWLINE"　ｈｅａｒ　ｙｏｕｒ　ｖｏｉｃｅ，　ｂｕｔ　Ｉ　ｃａｎ’ｔ"TCC_NEWLINE"　ｓｅｅ　ａｎｙｏｎｅ！　Ａｒｅ　ｙｏｕ．．．ｏｖｅｒ　ｔー"TCC_NEWLINE"ｈｉｓ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｐｈｅｗ．．．　Ｔｈｉｓ　ｉｓ　ｅｘｈａｕｓｔｉｎｇ！　Ａー"TCC_NEWLINE"ｎｄ　ｔｈｅ　Ｔｏｗｅｒ　ｏｆ　Ｎｉａｖｅｌｌｉｒ　ｉｓ　"TCC_NEWLINE"ｈｉｇｈｅｒ　ｓｔｉｌｌ？　Ｔｈｉｓ　ｓｌｏｐｅ　ｉｓ　ｓー"TCC_NEWLINE"ｏ　ｓｔｅｅｐ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ’ｌｌ　ｍａｋｅ　ｉｔ，　Ｓｈａｒｅｎａ．．．　Ｔｈｅー"TCC_NEWLINE"ｒｅ，　ｌｏｏｋ．　Ｙｏｕ　ｃａｎ　ｓｅｅ　ｉｔ　ｎｏｗ，"TCC_NEWLINE"　ｏｖｅｒ　ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｏｕｒ　ｇｏａｌ，　ｔｈｅ　Ｔｏｗｅｒ　ｏー"TCC_NEWLINE"ｆ　Ｎｉａｖｅｌｌｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ　ｉｔ’ｓ　ｉｎｃｒｅｄｉｂｌｅ　ｔｈａｔ　Ｒー"TCC_NEWLINE"ｅｇｉｎｎ　ｍａｎａｇｅｄ　ｔｏ　ｃｌｉｍｂ　ｔｈｉｓ　ｍー"TCC_NEWLINE"ｏｕｎｔａｉｎ　ｏｎ　ｈｅｒ　ｏｗｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｒｉｇｈｔ．　Ｉ　ｔｈｏｕｇｈｔ　ｗｅ　ｗｏｕｌｄ　ｃａｔー"TCC_NEWLINE"ｃｈ　ｕｐ　ｔｏ　ｈｅｒ　ｒｉｇｈｔ　ａｗａｙ．　Ｉｔ’ｓ"TCC_NEWLINE"　ｓｔｒａｎｇｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｉｎｃｅ　ｗｅ　ｋｎｏｗ　ｔｈｅ　ｔｏｗｅｒ　ｉー"TCC_NEWLINE"ｓ　ｇｕａｒｄｅｄ，　ｉｔ’ｓ　ａｌｍｏｓｔ　ｕｎｔｈｉｎー"TCC_NEWLINE"ｋａｂｌｅ　ｔｈａｔ　ｓｈｅ’ｄ　ａｔｔｅｍｐｔ　ｔｈｉｓ"TCC_NEWLINE"　ｂｙ　ｈｅｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ’ｖｅ　ｓｅｅｎ　ｎｏ　ｓｉｇｎ　ｏｆ　ｂａｔｔｌｅ　"TCC_NEWLINE"ｔｈｕｓ　ｆａｒ，　ｓｏ　ｗｅ　ｃａｎ　ｏｎｌｙ　ａｓｓｕー"TCC_NEWLINE"ｍｅ　ｓｈｅ　ｉｓ　ｓｔｉｌｌ　ｓｏｍｅｗｈｅｒｅ　ａｈｅー"TCC_NEWLINE"ａｄ　ｏｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｓｕｐｐｏｓｅ　ｙｏｕ’ｒｅ　ｒｉｇｈｔ．　Ａｌｌ　ｗー"TCC_NEWLINE"ｅ　ｃａｎ　ｄｏ　ｉｓ　ｔｒｕｓｔ　ｓｈｅ’ｓ　ｓａｆｅ　"TCC_NEWLINE"ａｎｄ　ｋｅｅｐ　ｈｅａｄｉｎｇ　ｔｏｗａｒｄ　ｔｈｅ　ｔー"TCC_NEWLINE"ｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅｒｅ　ｓｈｅ　ｉｓ！　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｏｈ，　ｙｏｕ．．．ｙｏｕ　ｆｏｌｌｏｗｅｄ　ｍｅ！？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｆ　ｃｏｕｒｓｅ　ｗｅ　ｄｉｄ！　Ｙｏｕ　ｄｏｎ’ｔ　ｈー"TCC_NEWLINE"ａｖｅ　ｔｏ　ｄｏ　ｔｈｉｓ　ａｌｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ－Ｉ’ｍ　ｓｏｒｒｙ．　Ｉｔ’ｓ　ｊｕｓｔ．．．Ｉ’ｖｅ"TCC_NEWLINE"　ｃａｕｓｅｄ　ｙｏｕ　ａｌｌ　ｓｏ　ｍｕｃｈ　ｔｒｏｕｂー"TCC_NEWLINE"ｌｅ　ａｌｒｅａｄｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔｅｄ　ｔｏ　ｔａｋｅ　ｃａｒｅ　ｏｆ　ｔｈｉｓ"TCC_NEWLINE"　ｏｎｅ　ｔｈｉｎｇ　ｍｙｓｅｌｆ．．．　Ｉ　ｊｕｓｔ　ｔー"TCC_NEWLINE"ｈｏｕｇｈｔ　Ｉ’ｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｆｔｅｒ　ｅｖｅｒｙｔｈｉｎｇ　ｗｅ’ｖｅ　ｂｅｅｎ　ｔー"TCC_NEWLINE"ｈｒｏｕｇｈ　ｔｏｇｅｔｈｅｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｉｓ　ｉｓｎ’ｔ　ａ　ｐｒｏｂｌｅｍ　ｔｈａｔ　ｃｏｎー"TCC_NEWLINE"ｃｅｒｎｓ　ｙｏｕ　ａｌｏｎｅ，　ｏｒ　ｅｖｅｎ　ｊｕｓｔ"TCC_NEWLINE"　Ｎｉａｖｅｌｌｉｒ，　ｆｏｒ　ｔｈａｔ　ｍａｔｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ｔａｋｅ　ｉｔ　ｏｎ　"TCC_NEWLINE"ａｌｌ　ｂｙ　ｙｏｕｒｓｅｌｆ．　Ｙｏｕ　ｃａｎ　ｔｒｕｓー"TCC_NEWLINE"ｔ　ｕｓ　ｔｏ　ｈｅｌｐ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ａｆｔｅｒ　ｓｐｅｎｄｉｎｇ　ａｌｌ　ｔｈｉｓ　ｔｉｍｅ　"TCC_NEWLINE"ｔｏｇｅｔｈｅｒ，　Ｉ’ｖｅ　ｓｔａｒｔｅｄ　ｔｏ　ｔｈｉー"TCC_NEWLINE"ｎｋ　ｏｆ　ｙｏｕ　ｌｉｋｅ　ｍｙ　ｌｉｔｔｌｅ　ｓｉｓｔー"TCC_NEWLINE"ｅｒ，　Ｒｅｇｉｎｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｙｏｕｒ　Ｂｉｇ　Ｓｉｓ　ｈｅｌｐ　ｙｏｕ　ｏｕｔ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"．．．Ａｓ　ｔｈｅ　ｐｒｏｐｅｒ　ｅｌｄｅｒ　ｓｉｓｔｅｒ"TCC_NEWLINE"　ｈｅｒｅ，　ｉｆ　ｙｏｕ　ｎｅｅｄ　ｓｏｍｅｏｎｅ　ｙｏー"TCC_NEWLINE"ｕ　ｃａｎ　ｃｏｕｎｔ　ｏｎ，　ｙｏｕｒ　ｂｅｓｔ　ｃｈｏー"TCC_NEWLINE"ｉｃｅ　ｉｓ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ，　ｙｏｕ　ａｒｅ　ａ　ｖａー"TCC_NEWLINE"ｌｕｅｄ　ｍｅｍｂｅｒ　ｏｆ　ｏｕｒ　Ｏｒｄｅｒ　ｏｆ　Ｈー"TCC_NEWLINE"ｅｒｏｅｓ，　ａｎｄ　ｉｎ　ｌｉｇｈｔ　ｏｆ　ｔｈａｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｎｏｔ　ａｃｃｅｐｔ　ｙｏｕ　ｇｏｉｎｇ　ｏー"TCC_NEWLINE"ｎ　ａｎｙ　ｄａｎｇｅｒｏｕｓ　ｍｉｓｓｉｏｎｓ　ｂｙ　ｙー"TCC_NEWLINE"ｏｕｒｓｅｌｆ　ｆｒｏｍ　ｈｅｒｅ　ｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｔｈａｎｋ　ｙｏｕ．　Ａｌｌ　ｏｆ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ．．．ｙｏｕ’ｒｅ　ａｌｌ　ｓｏ　ｗｏｎｄｅｒｆｕｌ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｎｉｆｆ＊　Ｙｏｕ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｍａｋｅ　"TCC_NEWLINE"ｍｅ　ｃｒｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｌ　ｔｈａｔ　ｓａｉｄ，　ｙｏｕ　ｈａｖｅ　ｄｏｎｅ　"TCC_NEWLINE"ｒａｔｈｅｒ　ｗｅｌｌ　ｃｌｉｍｂｉｎｇ　ｔｈｉｓ　ｍｏｕー"TCC_NEWLINE"ｎｔａｉｎ　ｏｎ　ｙｏｕｒ　ｏｗｎ，　ｈａｖｅｎ’ｔ　ｙｏー"TCC_NEWLINE"ｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"＊ｓｎｉｆｆ＊　．．．Ｏｈ，　ｔｈａｔ’ｓ　ｒｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｅａｒｄ　ｔｈｉｓ　ｓｔｒａｎｇｅ　ｖｏｉｃｅ，　ａー"TCC_NEWLINE"ｎｄ　Ｉ　ｆｏｌｌｏｗｅｄ　ａｆｔｅｒ　ｉｔ．．．　Ｉ　ｈー"TCC_NEWLINE"ａｒｄｌｙ　ｅｖｅｎ　ｎｏｔｉｃｅｄ　ｔｈｅ　ｃｌｉｍｂ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａ　ｓｔｒａｎｇｅ　ｖｏｉｃｅ？　Ｗｅ　ｄｉｄｎ’ｔ　ｈｅー"TCC_NEWLINE"ａｒ　ａｎｙｔｈｉｎｇ　ｌｉｋｅ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ．．．　Ｒｅａｌｌｙ？　Ｈｍｍ．．．　Ｍａｙｂｅ　Ｉ　"TCC_NEWLINE"ｗａｓ　ｉｍａｇｉｎｉｎｇ　ｔｈｉｎｇｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5091_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｂｒｏｔｈｅｒ！　Ｙｏｕ’ｒｅ　ａｌｌ　ｒｉｇｈｔ！　Ｉ　"TCC_NEWLINE"ｔｈｏｕｇｈｔ．．．　Ｗｅｒｅｎ’ｔ　ｙｏｕ　ｔａｋｅｎ　"TCC_NEWLINE"ｃａｐｔｉｖｅ　ｂｙ　Ａｓｋｒ？！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ’ｍ　ｓｏ　ｇｌａｄ　ｔｏ　ｓｅｅ　ｙｏｕ！　Ｙｏー"TCC_NEWLINE"ｕ　ｈａｄ　ｍｅ　ｗｏｒｒｉｅｄ．　Ｉ　ｎｅｖｅｒ　ｔｈｏー"TCC_NEWLINE"ｕｇｈｔ　ｙｏｕ　ｗｏｕｌｄ　ｉｎｖａｄｅ　Ａｓｋｒ　ｗｈー"TCC_NEWLINE"ｉｌｅ　Ｉ　ｗａｓ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｒｅｇｉｎｎ．．．　Ｕｎｂｅｌｉｅｖａｂｌｅ！　Ｈー"TCC_NEWLINE"ｏｗ　ｄａｒｅ　ｓｈｅ　ｓｉｄｅ　ｗｉｔｈ　Ａｓｋｒ　ａｎー"TCC_NEWLINE"ｄ　ａｉｄ　ｔｈｅｍ　ｉｎ　ｃａｐｔｕｒｉｎｇ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｉｓ　ｎｏ　ｓｉｓｔｅｒ　ｏｆ　ｍｉｎｅ．．．　Ｎー"TCC_NEWLINE"ｏ，　ｎｏｔ　ａｎｙｍｏｒｅ．　Ｄｏｎ’ｔ　ｙｏｕ　ａｇｒー"TCC_NEWLINE"ｅｅ，　Ｂｒｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ｅｎｄｌｅｓｓ　ｙａｍｍｅｒｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"ＳＩＬＥＮＣＥ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｋｒ．．．　Ｔｈｅ　ｇａｔｅ，　ｉｔ．．．　Ｗｈａｔ’"TCC_NEWLINE"ｓ　ｏｎ　ｔｈｅ　ｏｔｈｅｒ　ｓｉｄｅ？！　．．．Ｄａｍｎ"TCC_NEWLINE"　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｏｔｈｅｒ．．．　Ｈａｖｅ　ｙｏｕ．．．ｒｅｍｅｍｂｅー"TCC_NEWLINE"ｒｅｄ　ｓｏｍｅｔｈｉｎｇ？　Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｈｍ．　Ｉ’ｖｅ　ｎｏｔｉｃｅｄ　ｙｏｕ’ｖｅ　ｂｅー"TCC_NEWLINE"ｅｎ　ｆｉｘａｔｅｄ　ｏｎ　Ａｓｋｒ　ｒｅｃｅｎｔｌｙ，　"TCC_NEWLINE"ｈａｖｅｎ’ｔ　ｙｏｕ，　ｔｒ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈａｔ　ｄｏ　ｙｏｕ　ｋｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍ－ｍｅ？　．．．Ｉ－Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ａｎｙｔｈー"TCC_NEWLINE"ｉｎｇ！　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ，　Ｂｒｏｔｈｅー"TCC_NEWLINE"ｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏｎ’ｔ　ｐｌａｙ　ｔｈｅ　ｆｏｏｌ　ｗｉｔｈ　ｍｅ．　"TCC_NEWLINE"Ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｙｏｕｒ　ｓｎｅａｋｉｎｇ　ａｒー"TCC_NEWLINE"ｏｕｎｄ　ｗｉｔｈ　Ｅｉｔｒｉ　ｈａｓ　ｇｏｎｅ　ｕｎｎｏー"TCC_NEWLINE"ｔｉｃｅｄ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｈｎｇ　Ｇｙａａｈｈ！　Ｍｙ．．．ｈｅａｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｒｏｔｈｅｒ，　ｔｒｙ　ｔｏ　ｃａｌｍ　ｙｏｕｒｓｅｌｆ"TCC_NEWLINE"！　Ｙｏｕ　ｍｕｓｔｎ’ｔ　ｔｒｙ　ｔｏ　ｆｏｒｃｅ　ｙｏー"TCC_NEWLINE"ｕｒ　ｍｅｍｏｒｉｅｓ　ｔｏ　ｒｅｔｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｉｓ　ｍｏｒｅ　ｔｈａｎ　ｍｙ　ｍｅｍｏｒｙ　ｔｈａー"TCC_NEWLINE"ｔ’ｓ　ｗｒｏｎｇ．．．　Ｍｙ　ｓｔｒｅｎｇｔｈ　ｉｓ　ｆー"TCC_NEWLINE"ａｒ　ｂｅｙｏｎｄ　ｔｈａｔ　ｏｆ　ｏｔｈｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｉｍｅｓ，　ｉｔ　ｉｓ　ｔｏｏ　ｍｕｃｈ　ｆｏｒ"TCC_NEWLINE"　ｅｖｅｎ　ｍｅ　ｔｏ　ｃｏｎｔｒｏｌ．．．　Ｉ　ｈａｖｅ"TCC_NEWLINE"　ｔｈｉｓ　ｔｈｉｒｓｔ　ｆｏｒ　ｄｅｓｔｒｕｃｔｉｏｎ　"TCC_NEWLINE"ｔｈａｔ　Ｉ　ｃａｎｎｏｔ　ｓａｔｉｓｆｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ．．．ｗｈｅｎ　ｄｉｄ　Ｉ　ｂｅｃｏｍｅ　ｔｈｉｓ"TCC_NEWLINE"？！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｒｒｋ！　Ｇｕｈｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｈａｖｅｎ’ｔ　ｃｈａｎｇｅｄ，　Ｂｒｏｔｈｅｒ．"TCC_NEWLINE"．．　Ｔｈａｔ　ｓｔｒｅｎｇｔｈ　ｉｓ　ｗｈａｔ　ｍａｄｅ"TCC_NEWLINE"　ｙｏｕ　ｋｉｎｇ，　ａｎｄ　ｋｉｎｇ　ｂｙ　ｒｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｎｅｅｄ　ｎｏｔ　ｗｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｈｅｒｅ　ｗｉｔｈ　ｙｏｕ．　Ｉ　ｗｏｎ’ｔ　ａｂー"TCC_NEWLINE"ａｎｄｏｎ　ｙｏｕ　ｌｉｋｅ　Ｒｅｇｉｎｎ　ｈａｓ，　ｔｈー"TCC_NEWLINE"ａｔ　ｔｒａｉｔｏｒｏｕｓ，　ｃｏｎｎｉｖｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｍｒｒｇｈ．．．　Ｈ－ｈｕｈ？　．．．Ｗｈ－ｗｈａｔ　ｉー"TCC_NEWLINE"ｓ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｈ，　ｔｈｅｒｅ　ｙｏｕ　ａｒｅ．．．　Ａｒｅ　ｙｏｕ　"TCC_NEWLINE"ｂａｃｋ　ｗｉｔｈ　ｍｅ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｌｉｋｅｌｙ　ｅｘｈａｕｓｔｅｄ　ａｆｔｅｒ"TCC_NEWLINE"　ｈａｖｉｎｇ　ｅｓｃａｐｅｄ　Ａｓｋｒ．．．　Ｙｏｕ　ｌー"TCC_NEWLINE"ｏｓｔ　ｃｏｎｓｃｉｏｕｓｎｅｓｓ　ｆｏｒ　ａ　ｍｏｍｅｎー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ，　ｔｈａｔ’ｓ　ｒｉｇｈｔ．．．　Ｔｈａｔ　ｗｏｍａー"TCC_NEWLINE"ｎ，　Ｌｏｋｉ．．．　Ｓｈｅ　ａｐｐｅａｒｅｄ　ｔｏ　ｍｅ"TCC_NEWLINE"　ｉｎ　Ａｓｋｒ，　ａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"ｔｒ，　ｂｅｇｉｎ　ｐｒｅｐａｒｉｎｇ　ｔｏ　ｉｎｖａｄｅ"TCC_NEWLINE"　ａ　ｎｅｗ　ｔａｒｇｅｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｏ－ｏｆ　ｃｏｕｒｓｅ！　Ｗｈａｔ　ｔａｒｇｅｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5064_EN] = TCC_OPEN_LEFT
+"Ｉｆ　ｓｏｍｅｔｈｉｎｇ　ｏｕｔ　ｔｈｅｒｅ　ｉｓ　ｇｕｉー"TCC_NEWLINE"ｄｉｎｇ　ｍｅ，　Ｉ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｏｔｈー"TCC_NEWLINE"ｅｒ　ｔｈａｎ　ｔｏ　ｂｏｗ　ｔｏ　ｔｈｅ　ｄｉｃｔａｔｅー"TCC_NEWLINE"ｓ　ｏｆ　ｆａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

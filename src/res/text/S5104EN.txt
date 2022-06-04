@@ -1,0 +1,66 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5104_EN] = TCC_OPEN_LEFT
+"Ｎｏ　ｍａｔｔｅｒ　ｗｈｅｒｅ　Ｉ’ｍ　ｓｔａｔｉｏｎｅｄ"TCC_NEWLINE"，　ｍｙ　ｏｎｌｙ　ｃｏｎｃｅｒｎ　ｉｓ　ｐｒｏｔｅｃｔｉー"TCC_NEWLINE"ｎｇ　ｔｈｅ　ｇａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5104_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LOKI
+"Ｗｅｌｃｏｍｅ　ｂａｃｋ，　Ｋｉｎｇ　Ｆｆｎｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｉｓ　ｉｔ，　ｔｈｅｎ？　Ｔｈｉｓ　ｉｓ　ｗｈａー"TCC_NEWLINE"ｔ　ｙｏｕ　ｗｅｒｅ　ａｆｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　ｉｔ　ｉｓ　ｉｎｄｅｅｄ．．．　Ｔｏ　ｔｈｉｎｋ"TCC_NEWLINE"　ｔｈｅｙ　ｗｅｒｅ　ｈｉｄｉｎｇ　ｉｔ　ｈｅｒｅ　ａｌｌ"TCC_NEWLINE"　ａｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｕｎａｂｌｅ　ｔｏ　ｅｎｔｅｒ　ｔｈｉｓ　ｔｅｍー"TCC_NEWLINE"ｐｌｅ，　ｓｏ　ｙｏｕ’ｖｅ　ｄｏｎｅ　ｍｅ　ａ　ｇｒｅａー"TCC_NEWLINE"ｔ　ｓｅｒｖｉｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｆ　ｙｏｕ　ｈａｖｅ　ｗｈａｔ　ｙｏｕ　ｗａｎｔ，　Ｉ’"TCC_NEWLINE"ｌｌ　ｂｅ　ｌｅａｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏｗ，　ｎｏｗ，　ｄｏｎ’ｔ　ｂｅ　ｓｏ　ｉｍｐａｔｉｅー"TCC_NEWLINE"ｎｔ．　Ｙｏｕ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｌｅａｖｅ　ｊー"TCC_NEWLINE"ｕｓｔ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｄｏ　ｙｏｕ　ｋｎｏｗ　ｗｈａｔ　ｅｘａｃｔｌｙ　ｉー"TCC_NEWLINE"ｔ　ｗａｓ　ｔｈａｔ　ｙｏｕ　ｌａｉｄ　ｃｌａｉｍ　ｔｏ　"TCC_NEWLINE"ｉｎ　ｔｈｅ　Ｅｍｂｌｉａｎ　ｂｌｏｏｄ　ｔｅｍｐｌｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｄｏｎ’ｔ　ｃａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔｎｏ．．．　Ｔｈｉｓ　ｄｅｓｉｇｎ　ｉｓ　ｆａｍｉー"TCC_NEWLINE"ｌｉａｒ．．．　Ｉｔ　ｌｏｏｋｓ　ｌｉｋｅ　ｔｈｅ　ｔｏｏー"TCC_NEWLINE"ｌ　Ａｓｋｒ’ｓ　ｓｕｍｍｏｎｅｒ　ｃａｒｒｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｔｈｉｓ　ｉｓ　ｔｈー"TCC_NEWLINE"ｅ　ｓｕｍｍｏｎｅｒ’ｓ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ　Ｂｒー"TCC_NEWLINE"ｅｉｄａｂｌｉｋ．．．ｏｒ　ａ　ｆａｋｅ，　ａｎｙｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ｏｎｅ　ｏｆ　ｔｈｏｓｅ　ｉｎ"TCC_NEWLINE"　ｔｈｉｓ　ｗｏｒｌｄ　ａｎｄ　ｉｔ　ｉｓ　ｈｅｌｄ　ｂｙ"TCC_NEWLINE"　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ，　ｈｏｗｅｖｅｒ，　ｉｓ　ａ　ｍｅｒｅ　ｔｒｉｎー"TCC_NEWLINE"ｋｅｔ　ｐｉｅｃｅｄ　ｔｏｇｅｔｈｅｒ　ｂｙ　ａ　ｐａｔｈー"TCC_NEWLINE"ｅｔｉｃ　ｓａｇｅ　ｌｕｓｔｉｎｇ　ａｆｔｅｒ　ｔｈｅ　ｐー"TCC_NEWLINE"ｏｗｅｒ　ｏｆ　ｔｈｅ　ｇｏｄｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａ．．．ｓａｇｅ，　ｄｉｄ　ｙｏｕ　ｓａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｃａｕｇｈｔ　ｗｉｎｄ　ｏｆ　ｔｈｅ　ｌｉｔｔｌｅ　ｓー"TCC_NEWLINE"ｃｈｅｍｅ　ｏｆ　Ｅｉｔｒｉ’ｓ　ａｎｄ　ｗｅｎｔ　ｔｏ　"TCC_NEWLINE"ｔａｋｅ　ｔｈｅ　ｗｅａｐｏｎ　ｆｏｒ　ｍｙｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｆｏｒｔｕｎａｔｅｌｙ，　Ｉ　ｗａｓ　ｆｏｕｎｄ　ｏｕー"TCC_NEWLINE"ｔ　ｔｏｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈａｔ’ｓ　ｗｈｅｎ　ｉｔ　ｗａｓ　ｈｉｄｄｅｎ"TCC_NEWLINE"　ａｗａｙ　ｉｎ　ａ　ｔｅｍｐｌｅ　ｗａｒｄｅｄ　ａｇａｉー"TCC_NEWLINE"ｎｓｔ　ｍｙ　ｅｎｔｒｙ，　ｙｏｕ　ｓｅｅ，　ａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ａｈ－ｈｅｍ？！　Ａｒｅ　ｙｏｕ　ｅｖｅｎ　ｌｉｓｔー"TCC_NEWLINE"ｅｎｉｎｇ　ｔｏ　ｗｈａｔ　Ｉ’ｍ　ｓａｙｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｓａｇｅ．．．ｃｒｅａｔｅｄ　ａ　ｃｏｐｙ　ｏｆ　"TCC_NEWLINE"ｔｈｅ　ｓｕｍｍｏｎｅｒ’ｓ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．．．　Ｉｔ　ｃａｎ’ｔ　ｂｅ．．．　Ｂｕｔ　ｉｆ　ｔー"TCC_NEWLINE"ｈａｔ’ｓ　ｔｒｕｅ，　ｔｈｅｎ．．．ｔｈｅｎ．．．　Ｔｈー"TCC_NEWLINE"ａｔ　ｍａｎ　ｆｒｏｍ　ｍｙ　ｍｅｍｏｒｙ！　Ｆｒｏｍ　ｗー"TCC_NEWLINE"ｈｅｎ　Ｉ　ａｒｒｉｖｅｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｅｌｌ　ｍｅ　ｗｈｏ　ｈｅ　ｉｓ，　Ｌｏｋｉ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｏ　ｂｅ　ｐｅｒｆｅｃｔｌｙ　ｈｏｎｅｓｔ，　Ｉ　ｈａｖー"TCC_NEWLINE"ｅｎ’ｔ　ｔｈｅ　ｆａｉｎｔｅｓｔ　ｉｄｅａ　ｗｈａｔ　ｙー"TCC_NEWLINE"ｏｕ’ｒｅ　ｔａｌｋｉｎｇ　ａｂｏｕｔ．．．　Ｓｏｍｅ　ｍー"TCC_NEWLINE"ａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏｎ’ｔ　ｐｌａｙ　ｉｎｎｏｃｅｎｔ　ｗｉｔｈ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｖｅｎ　ａｆｔｅｒ　ａｌｌ　ｔｈａｔ，　Ｉ　ｓｔｉｌｌ　"TCC_NEWLINE"ｈａｖｅ　ｎｏ　ａｎｓｗｅｒｓ　ｆｏｒ　ｙｏｕ．　Ｉ　ｓｉー"TCC_NEWLINE"ｍｐｌｙ　ｄｏ　ｎｏｔ　ｋｎｏｗ　ｗｈａｔ　ｙｏｕ’ｒｅ　"TCC_NEWLINE"ｔａｌｋｉｎｇ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓｎ’ｔ　ｔｈｅｒｅ　ｓｏｍｅｏｎｅ　ｅｌｓｅ　ｙｏｕ　"TCC_NEWLINE"ｃｏｕｌｄ　ａｓｋｓｏｍｅｏｎｅ　ｗｈｏ　ｍｉｇｈｔ　ａｃー"TCC_NEWLINE"ｔｕａｌｌｙ　ｈａｖｅ　ｔｈｅ　ａｎｓｗｅｒｓ　ｙｏｕ　ｓー"TCC_NEWLINE"ｅｅｋ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｎｄｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｒｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｂｒｏｔｈｅｒ！　Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ！　．．．Ａｎー"TCC_NEWLINE"ｄ　ｗｈｏ　ｉｓ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｅｖｅｒ　ｍｉｎｄ．　Ｗｅ’ｒｅ　ｌｅａｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｂ－ｂｕｔ，　Ｂｒｏｔｈｅｒ，　ｗｈａｔ　ａｂｏｕｔ　Ｅｍー"TCC_NEWLINE"ｂｌａ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ．　Ｉ　ｈａｖｅ　ｂｕｓー"TCC_NEWLINE"ｉｎｅｓｓ　ｗｉｔｈ　Ｅｉｔｒｉ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｗｉｌｌ　ｔｅｌｌ　ｍｅ　ｗｈａｔ　Ｉ　ｗａｎｔ　"TCC_NEWLINE"ｔｏ　ｋｎｏｗ．　Ｔｈｅｙ　ａｌｗａｙｓ　ｄｏ．．．ｅｖｅー"TCC_NEWLINE"ｎｔｕａｌｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｂｕｔ．．．ｗｈｙ　Ｅｉｔｒｉ？　Ｗａｉｔ，　Ｂｒｏｔｈｅー"TCC_NEWLINE"ｒ！　Ｗｈａｔ　ｈａｐｐｅｎｅｄ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅｈ．．．　Ｔｈｉｎｇｓ　ｓｅｅｍ　ｔｏ　ｂｅ　ｇｏｉｎー"TCC_NEWLINE"ｇ　ａｃｃｏｒｄｉｎｇ　ｔｏ　ｐｌａｎ．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｉｇｈ＊　Ｉ　ｓｕｐｐｏｓｅ　ｓｉｎｃｅ　ｔｈｉｓ　ｆー"TCC_NEWLINE"ａｋｅ　ｉｓ　ｎｏ　ｌｏｎｇｅｒ　ｏｆ　ａｎｙ　ｕｓｅ　ｔー"TCC_NEWLINE"ｏ　ａｎｙｏｎｅ，　Ｉ　ｏｕｇｈｔ　ｔｏ　ｄｅｓｔｒｏｙ　"TCC_NEWLINE"ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　Ｎｉａｖｅｌｌｉｒ，　ｗｉｔｈ　ｙｏｕｒ　ｓｅｉｊー"TCC_NEWLINE"ｒｎ．．．　Ｙｏｕ　ｔｒｉｅｄ　ｔｏ　ｆｌｙ　ａ　ｌｉｔｔー"TCC_NEWLINE"ｌｅ　ｔｏｏ　ｈｉｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｏｕｇｈｔ　ｔｏ　ｉｍｉｔａｔｅ　Ａｓｋｒ，　ｔー"TCC_NEWLINE"ｏ　ａｄｄ　ｔｈｅｉｒ　ｐｏｗｅｒ　ｔｏ　ｙｏｕｒ　ｏｗｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｓｕｃｈ　ｐｏｗｅｒ　ｗｏｕｌｄ　ｂｅ　ｔｏｏ　ｍー"TCC_NEWLINE"ｕｃｈ　ｆｏｒ　ａｎｙ　ｏｎｅ　ｒｅａｌｍ．　Ｔｈａｔ　ｉー"TCC_NEWLINE"ｓ　ｎｏｔ　ｐａｒｔ　ｏｆ　Ａｌｆａｒ’ｓ　ｄｅｓｉｇｎ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

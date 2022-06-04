@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5113_EN] = TCC_OPEN_LEFT
+"Ｔｈｏｕｇｈ　Ｈｏｕｓｅ　Ｎｕｖｅｌｌｅ　ｈａｓ　ｆａｌｌー"TCC_NEWLINE"ｅｎ，　ｉｔ　ｉｓ　ｓｔｉｌｌ　ｅｖｅｒｙ　ｎｏｂｌｅ’ｓ"TCC_NEWLINE"　ｄｕｔｙ　ｔｏ　ｐｒｏｖｉｄｅ　ｆｏｒ　ｔｈｅ　ｃｏｍｍー"TCC_NEWLINE"ｏｎｆｏｌｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

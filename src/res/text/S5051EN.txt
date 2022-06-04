@@ -1,0 +1,55 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｇｒｅｅｔｉｎｇｓ　ｔｏ　ｙｏｕ，　ｆｉｎｅ　ｐｅｏｐｌｅ"TCC_NEWLINE"　ｏｆ　Ａｓｋｒ．　Ａｎｄ　ｔｏ　ｙｏｕ　ａｓ　ｗｅｌｌ，"TCC_NEWLINE"　Ｒｅｇｉｎｎ，　Ｐｒｉｎｃｅｓｓ　ｏｆ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｊｔｕｎｈｅｉｍｒ’ｓ　ｃｒｏｗｎ　ｐｒｉｎｃｅー"TCC_NEWLINE"ｓｓ　ａｎｄ　ｈｅｉｒ　ａｐｐａｒｅｎｔ，　Ｎｔｔ．　Ｉｔ"TCC_NEWLINE"　ｉｓ　ｍｙ　ｇｒｅａｔ　ｐｌｅａｓｕｒｅ　ｔｏ　ｍｅｅｔ"TCC_NEWLINE"　ｙｏｕ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏｏｈ，　ｓｈｅ’ｓ　ｓｏ　ｅｌｅｇａｎｔ　ａｎｄ　ｒｅｆー"TCC_NEWLINE"ｉｎｅｄ．．．　Ｓｈｅ’ｓ　ｔｈｅ　ｃｏｍｐｌｅｔｅ　ｏｐー"TCC_NEWLINE"ｐｏｓｉｔｅ　ｏｆ　Ｄａｇｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｈｅｙ，　ｋｅｅｐ　ｔｈａｔ　ｔｏ　ｙｏｕｒｓｅｌｆ．　Ｙー"TCC_NEWLINE"ｏｕ　ｄｏｎ’ｔ　ｈａｖｅ　ｔｏ　ｓｈｏｕｔ　ｉｔ　ａｃｒー"TCC_NEWLINE"ｏｓｓ　ｔｈｅ　ｗｈｏｌ　Ｅｒ，　ｈｅｙｙｙｙ，　Ｓｉｓ！"TCC_NEWLINE"　Ｂｅｅｎ　ａ　ｗｈｉｌｅ，　ｈｕｈ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｈｍ？　Ｗｈａｔ　ｉｓ　ｔｈａｔ　ｂｕｚｚｉｎｇ　ｓー"TCC_NEWLINE"ｏｕｎｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈｏｕｇｈｔ　ｆｏｒ　ａ　ｍｏｍｅｎｔ　Ｉ’ｄ　ｈｅー"TCC_NEWLINE"ａｒｄ　ｔｈｅ　ｄｒｏｎｉｎｇ　ｏｆ　ａ　ｔｒｏｕｂｌｅｓー"TCC_NEWLINE"ｏｍｅ　ｐｅｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｌｌ，　ｙｏｕ　ｍｕｓｔ　ｂｅ　ｅｘｈａｕｓｔｅｄ　ａー"TCC_NEWLINE"ｆｔｅｒ　ｙｏｕｒ　ａｒｄｕｏｕｓ　ｊｏｕｒｎｅｙ．　Ｐｌー"TCC_NEWLINE"ｅａｓｅ　ｄｏ　ｔａｋｅ　ｔｈｅ　ｒｅｍａｉｎｄｅｒ　ｏｆ"TCC_NEWLINE"　ｔｈｅ　ｄａｙ　ｔｏ　ｒｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈａｎｋ　ｙｏｕ　ｆｏｒ　ｙｏｕｒ　ｃｏｎｃｅｒｎ　ａｎー"TCC_NEWLINE"ｄ　ｇｅｎｅｒｏｓｉｔｙ，　ｂｕｔ　ｗｅ　ｈａｖｅｎ’ｔ　"TCC_NEWLINE"ｔｈｅ　ｔｉｍｅ　ｔｏ　ｄｅｌａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ　ｆｏｒｇｉｖｅ　ｔｈｅ　ｄｉｒｅｃｔｎｅｓｓ"TCC_NEWLINE"　ｏｆ　ｍｙ　ｒｅｑｕｅｓｔ，　ｂｕｔ　ｗｅ　ａｒｅ　ｉｎ"TCC_NEWLINE"　ｎｅｅｄ　ｏｆ　Ｇｒａｍｒ．　Ａｒｅ　ｙｏｕ　ｗｉｌｌｉー"TCC_NEWLINE"ｎｇ　ｔｏ　ｇｉｖｅ　ｉｔ　ｔｏ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｏｆ　ｃｏｕｒｓｅ．　Ｆｆｎｉｒ’ｓ　ｔｙｒａｎｎー"TCC_NEWLINE"ｙ　ｉｓ　ａ　ｃｏｎｃｅｒｎ　ｆｏｒ　ｕｓ　Ｊｔｎａｒ　ａー"TCC_NEWLINE"ｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｏ　ａｌｌ　ｔｈａｔ　ｉｓ　ｉｎ　ｍｙ　ｐー"TCC_NEWLINE"ｏｗｅｒ　ｔｏ　ａｓｓｉｓｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｗｏｎｄｅｒｆｕｌ！　Ｔｈａｎｋ　ｙｏｕ　ｓｏ　ｍｕｃｈ，"TCC_NEWLINE"　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｃｅ　ｗｅ　ｈａｖｅ　ｉｔ，　Ｉ’ｌｌ　ｂｅ　ａｂｌｅ"TCC_NEWLINE"　ｔｏ　ｓｔｏｐ　Ｆｆｎｉｒａｎｄ　ｔｈｅｎ　ｗｅ’ｌｌ　"TCC_NEWLINE"ａｌｌ　ｂｅ　ｓａｆｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｇｏｏｄ　ｎｅｗｓ！　Ａｆｔｅｒ　ｏｕｒ　ｒｕｎ"TCC_NEWLINE"－ｉｎ　ｗｉｔｈ　Ｄａｇｒ，　Ｉ　ｗａｓ　ｗｏｒｒｉｅｄ，"TCC_NEWLINE"　ｂｕｔ　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ　ｉｓ　ａ　ｇｏｏｄ　ｐー"TCC_NEWLINE"ｅｒｓｏｎ　ａｆｔｅｒ　ａｌｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈｅｙ，　Ｓｉｓ．．．　Ｉ　ｗａｓ　ｃｈｅｃｋｉｎｇ　ｏｕー"TCC_NEWLINE"ｔ　ｔｈｅ　ｆｏｒｔｒｅｓｓｅｓ　ｏｎ　ｔｈｅ　ｗａｙ　ｈー"TCC_NEWLINE"ｅｒｅ，　ｂｕｔ．．．　ｔｈｅｙ　ａｌｌ　ｌｏｏｋｅｄ　ｐー"TCC_NEWLINE"ｒｅｔｔｙ　ｅｍｐｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｅ　ｔｏ　ｔｈｉｎｋ　ｏｆ　ｉｔ，　Ｉ　ｄｉｄｎ’ｔ"TCC_NEWLINE"　ｅｖｅｎ　ｓｅｅ　ＯＮＥ　ｓｏｌｄｉｅｒ　ｔｈｅ　ｗｈｏー"TCC_NEWLINE"ｌｅ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"．．．Ａｎｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｒｏｐ　ｔｈｅ　ａｃｔ　ａｌｒｅａｄｙ．　Ｙｏｕ’ｖｅ　"TCC_NEWLINE"ｃａｌｌｅｄ　ｔｈｅｍ　ｈｅｒｅ　ｔｏ　ｔｈｅ　ｃａｓｔｌー"TCC_NEWLINE"ｅ，　ｈａｖｅｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｉｄｅａ　ｏｆ　ｈａｎｄｉｎｇ　ｔｈａｔ　ｓｗｏｒー"TCC_NEWLINE"ｄ　ｏｖｅｒ　ｎｅｖｅｒ　ｏｎｃｅ　ｃｒｏｓｓｅｄ　ｙｏｕー"TCC_NEWLINE"ｒ　ｍｉｎｄ！　．．．Ｓｏ？　Ｉ’ｍ　ｒｉｇｈｔ，　ａｒｅー"TCC_NEWLINE"ｎ’ｔ　Ｉ？　Ｔｏｔａｌｌｙ　ｎａｉｌｅｄ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｇｙａｈａｈａ！　Ｉ　ＫＮＥＷ　ｉｔ！　Ｙｏｕｒ　ｌｅｆｔ"TCC_NEWLINE"　ｅｙｅ　ａｌｗａｙｓ　ｔｗｉｔｃｈｅｓ　ｗｈｅｎ　ｙｏｕ"TCC_NEWLINE"　ｔｒｙ　ｔｏ　ｃｏｖｅｒ　ｕｐ　ａ　ｌｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｍ　ｓｕｒｅ　ｙｏｕ　ｄｏｎ’ｔ　ｎｅｅｄ　ｍー"TCC_NEWLINE"ｅ　ｔｏ　ｔｅｌｌ　ｙｏｕ　ｔｈａｔ，　ｒｉｇｈｔ？　＊ｗー"TCC_NEWLINE"ｉｎｋ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｐｒｉｎｃｅｓｓ　Ｎｔｔ．．．　Ｗｈａｔ　ｅｘａｃｔｌｙ　"TCC_NEWLINE"ｄｏ　ｙｏｕ　ｉｎｔｅｎｄ　ｔｏ　ｄｏ？　Ｗｈａｔ　ａｒｅ"TCC_NEWLINE"　ｙｏｕ　ｐｌａｎｎｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5051_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_NOTT
+"＊ｓｉｇｈ＊　Ｗｈｙ　ｗｏｕｌｄ　ｙｏｕ　ｆｒｉｇｈｔｅｎ"TCC_NEWLINE"　ｔｈｅ　ｐｏｏｒ　ｔｈｉｎｇｓ？　Ｉ　ｗａｓ　ｈｏｐｉｎー"TCC_NEWLINE"ｇ　ｔｏ　ｓｉｍｐｌｙ　ｌｏｐ　ｏｆｆ　ｔｈｅｉｒ　ｈｅａー"TCC_NEWLINE"ｄｓ　ａｓ　ｔｈｅｙ　ｓｌｅｐｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ　ｔｅｌｌ　ｍｅ　ｙｏｕ　ｄｏｎ’ｔ　ｈａｒｂー"TCC_NEWLINE"ｏｒ　ｓｏｍｅ　ｉｌｌ－ｃｏｎｃｅｉｖｅｄ　ａｆｆｅｃｔｉー"TCC_NEWLINE"ｏｎ　ｆｏｒ　ｔｈｅｍ，　Ｄａｇｒ．　．．．Ｙｏｕ　ｔｒｕー"TCC_NEWLINE"ｌｙ　ａｒｅ　ａ　ｔｒｏｕｂｌｅｓｏｍｅ　ｐｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｎｔｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｉｆ　Ｉ’ｍ　ａ　ｐｅｓｔ，　ｔｈｅｎ　ｗｈａｔ　ｄｏｅｓ"TCC_NEWLINE"　ｔｈａｔ　ｍａｋｅ　ｙｏｕ？　Ｙｏｕ　ｔｗｏ－ｆａｃｅｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｖｅｎ　ｔｈｅ　ｓｏｕｎｄ　ｏｆ　ｙｏｕｒ　ｖｏｉｃｅ．"TCC_NEWLINE"．．　Ｉ　ｆｅｅｌ　Ｉ　ａｍ　ｂｅｉｎｇ　ｓｏｍｅｈｏｗ　"TCC_NEWLINE"ｉｎｆｅｃｔｅｄ　ｂｙ　ｉｔ　ｊｕｓｔ　ｌｉｓｔｅｎｉｎｇ"TCC_NEWLINE"　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　Ｉ　ｈａｖｅ　ｉｍｐｏｒｔａｎｔ　ｂｕｓｉｎｅｓー"TCC_NEWLINE"ｓ　ｔｏ　ａｔｔｅｎｄ　ｔｏ．　Ｙｏｕ　ｊｕｓｔ　ｓｉｔ　"TCC_NEWLINE"ｔｈｅｒｅ　ａｎｄ　ｂｅ　ｑｕｉｅｔ　ｌｉｋｅ　ａ　ｇｏｏー"TCC_NEWLINE"ｄ　ｇｉｒｌ　ｆｏｒ　ｏｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｕｓｉｎｅｓｓ？　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｏｎ’ｔ　ｊｕｓｔ　ｓｔａｎｄ　ｔｈｅｒｅ，　Ａｌｆｏｎー"TCC_NEWLINE"ｓｅ！　Ｓｈｅ’ｓ　ｃｏｍｉｎｇ　ｆｏｒ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

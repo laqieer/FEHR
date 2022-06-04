@@ -1,0 +1,13 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5024_EN] = TCC_OPEN_LEFT
+"Ａｓ　ａ　ｗａｒｒｉｏｒ，　Ｉ　ｔａｋｅ　ｐｒｉｄｅ　ｉｎ"TCC_NEWLINE"　ｉｍｐｒｏｖｉｎｇ　ｍｙ　ｓｋｉｌｌｓ　ａｎｄ　ｐａｓｓー"TCC_NEWLINE"ｉｎｇ　ｔｈｅｍ　ｏｎ　ｔｏ　ｗｉｌｌｉｎｇ　ｓｔｕｄｅｎー"TCC_NEWLINE"ｔｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5024_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"．．．Ｓｔｒａｎｇｅ．　Ｔｈｅ　Ａｓｋｒａｎ　ａｒｍｙ　ｗー"TCC_NEWLINE"ｅｎｔ　ｔｈｉｓ　ｗａｙ？　Ｔｈｅｎ　ｔｈｅ　ｃａｓｔｌｅ"TCC_NEWLINE"　ｗａｓｎ’ｔ　ｔｈｅｉｒ　ｔａｒｇｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｔｈｅｙ　ａｆｔｅｒ　Ｅｉｔｒｉ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｕｂｔ　ｔｈｅ　Ａｓｋｒａｎ　ａｒｍｙ　ｓｔａｎｄー"TCC_NEWLINE"ｓ　ａ　ｃｈａｎｃｅ　ｏｆ　ｃａｐｔｕｒｉｎｇ　ｈｅｒ．　"TCC_NEWLINE"Ｅｖｅｎ　ｓｏ，　Ｉ　ｓｈｏｕｌｄ　ｇｏ　ｍａｋｅ　ｓｕｒー"TCC_NEWLINE"ｅ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｎｖｅｎｉｅｎｔ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｗｏｕｌｄ"TCC_NEWLINE"　ｐａｙ　ｈｅｒ　ａ　ｖｉｓｉｔ　ｂｙ　ｃｈｏｉｃｅ，　ｔー"TCC_NEWLINE"ｈｏｕｇｈ．　Ｉ　ｏｎｌｙ　ｎｅｅｄ　ｋｉｌｌ　ｔｈｏｓｅ"TCC_NEWLINE"　ｉｎ　ｔｈｅ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｅｖｅｎ　Ｒｅｇｉｎｎ　ｗｉｌｌ"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｗｈ－ｗｈａｔ　ａｍ　Ｉ　ｔｈｉｎｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

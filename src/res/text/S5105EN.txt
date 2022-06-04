@@ -1,0 +1,89 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5105_EN] = TCC_OPEN_LEFT
+"Ａｎｒｉ　ｗｏｎ　ｈｉｓ　ｂａｔｔｌｅ　ａｌｌ　ａｌｏｎｅ"TCC_NEWLINE"．　Ｉ，　ｏｎ　ｔｈｅ　ｏｔｈｅｒ　ｈａｎｄ，　ｒｅｌｙ　"TCC_NEWLINE"ｏｎ　ｔｈｅ　ｓｔｒｅｎｇｔｈ　ｏｆ　ｍｙ　ｆｒｉｅｎｄｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｎｉａｖｅｌｌｉｒ’ｓ　ｔｒｏｏｐｓ　ａｒｅ　ｗｉｔｈｄｒー"TCC_NEWLINE"ａｗｉｎｇ．．．　Ｄｉｄ　ｓｏｍｅｔｈｉｎｇ　ｈａｐｐｅｎ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈｅｗ．．．　Ｔｈｅｙ　ａｒｅ　ｉｎｃｒｅｄｉｂｌｙ　ｓー"TCC_NEWLINE"ｔｒｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｗｅ　ｍａｄｅ　ｉｔ　ｔｈｒｏｕｇｈ　ｔｈａｎｋｓ　ｉｎ　"TCC_NEWLINE"ｐａｒｔ　ｔｏ　ｙｏｕｒ　ｈｅｌｐ．　Ｆｏｒ　ｔｈａｔ，　"TCC_NEWLINE"Ｉ　ｔｈａｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｈｅ’ｓ　ｇｏｎｅ？　Ｎｏ！　Ｉ　ｓｔｉｌｌ　ｈａｖｅ　ｓー"TCC_NEWLINE"ｏ　ｍａｎｙ　ｑｕｅｓｔｉｏｎｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ　ｎｏ　ｕｓｅ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！"TCC_NEWLINE"　Ｗｅ　ｃａｎ’ｔ　ｆｏｌｌｏｗ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｂ－Ｂｒｏｔｈ．．．ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？　．．．Ａｒｅ　ｙｏｕ　ａー"TCC_NEWLINE"ｌｌ　ｒｉｇｈｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｈｅ’ｓ　ｂｕｒｎｉｎｇ　ｕｐ．　Ｔｈｅ　ｓｈｏｃｋ　ｏー"TCC_NEWLINE"ｆ　ｗｈａｔ’ｓ　ｈａｐｐｅｎｅｄ　ｍｕｓｔ　ｂｅ　ｓｅｔー"TCC_NEWLINE"ｔｉｎｇ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｓ　ｔｈｅｒｅ　ａ　ｐｌａｃｅ　ｗｅ　ｃａｎ　ｔａｋｅ　"TCC_NEWLINE"ｈｅｒ　ｗｈｅｒｅ　ｓｈｅ　ｃａｎ　ｒｅｓｔ，　Ｐｒｉｎｃー"TCC_NEWLINE"ｅｓｓ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｙｏｕ　ｍａｙ　ｂｒｉｎｇ　ｈｅｒ　ａｌｏｎｇ．．．　Ｊｕー"TCC_NEWLINE"ｓｔ　ｔｈｉｓ　ｏｎｃｅ．　Ａｓ　ａ　ｔｏｋｅｎ　ｏｆ　ｍー"TCC_NEWLINE"ｙ　ａｐｐｒｅｃｉａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈａｎｋ　ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE"　Ｆａｌｌ　ｂａｃｋ，　ｅｖｅｒｙｏｎｅ！　Ｗｅ　ｎｅｅｄ"TCC_NEWLINE"　ｏｎｌｙ　ｈｏｌｄ　ｏｕｔ　ａ　ｌｉｔｔｌｅ　ｌｏｎｇｅー"TCC_NEWLINE"ｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5105_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｂｒｏｔｈｅｒ！　Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｆｆｎｉｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｓｈｏｗ　ｙｏｕｒｓｅｌｆ，　Ｅｉｔｒｉ！　Ｉ’ｌｌ　ｌｅー"TCC_NEWLINE"ｖｅｌ　ｔｈｉｓ　ｗｈｏｌｅ　ｓａｎｃｔｕｍ　ｏｆ　ｙｏｕー"TCC_NEWLINE"ｒｓ　ｗｉｔｈ　ｙｏｕ　ｉｎ　ｉｔ　ｉｆ　Ｉ　ｈａｖｅ　ｔー"TCC_NEWLINE"ｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ａｈ，　Ｋｉｎｇ　Ｆｆｎｉｒ．　Ｗｈａｔ　ｌｏｖｅｌｙ　ｔー"TCC_NEWLINE"ｉｍｉｎｇ．　Ｉ　ｈａｖｅ　ｓｏｍｅ　ｍａｔｔｅｒｓ　Ｉ’"TCC_NEWLINE"ｄ　ｌｉｋｅ　ｔｏ　ａｄｄｒｅｓｓ　ｗｉｔｈ　ｙｏｕ　ａｓ"TCC_NEWLINE"　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕｒ　ａｆｆａｉｒｓ　ｄｏｎ’ｔ　ｍａｔｔｅｒ　ｔｏ　"TCC_NEWLINE"ｍｅ．　Ｔｅｌｌ　ｍｅ　ｗｈａｔ　ｙｏｕ　ｋｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ　Ｉ　ｋｎｏｗ？　Ｙｏｕ’ｌｌ　ｈａｖｅ　ｔｏ　ｂー"TCC_NEWLINE"ｅ　ｍｏｒｅ　ｓｐｅｃｉｆｉｃ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｏｎ’ｔ　ｐｌａｙ　ｔｈｅ　ｆｏｏｌ！　Ｔｈｅ　ｆａｌｓー"TCC_NEWLINE"ｅ　ｄｉｖｉｎｅ　ｗｅａｐｏｎ　ｙｏｕ　ｍａｄｅ！　Ｔｈｅ"TCC_NEWLINE"　ｉｍｉｔａｔｉｏｎ　ｓｕｍｍｏｎｉｎｇ　ｔｏｏｌ！　Ｗｈー"TCC_NEWLINE"ｏ　ｕｓｅｄ　ｉｔ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ．．．ｈｅ　ｓｕｍｍｏｎｅｄ　ｍｅ　ｈｅｒｅ，　ｔｏ　"TCC_NEWLINE"ｔｈｉｓ　ｗｏｒｌｄ，　ｄｉｄｎ’ｔ　ｈｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｒｏｔｈｅｒ！　Ｗｈ－ｗｈａｔ　ａｒｅ　ｙｏｕ　ｓａｙｉ"TCC_NEWLINE"　Ｗｈｅｒｅ　ｉｓ　ｔｈｉｓ　ｃｏｍｉｎｇ　ｆｒｏｍ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ’ｌｌ　ａｄｍｉｔ　Ｉ’ｍ　ｓｕｒｐｒｉｓｅｄ　ｙｏｕ　"TCC_NEWLINE"ｗｅｒｅ　ａｂｌｅ　ｔｏ　ｇｅｔ　ｔｈａｔ　ｆａｒ　ｂｙ　"TCC_NEWLINE"ｙｏｕｒｓｅｌｆ．　Ｒａｔｈｅｒ　ｉｍｐｒｅｓｓｉｖｅ，　"TCC_NEWLINE"ａｃｔｕａｌｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｅｉｔｒｉ，　ｉｆ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｆ　ｔｈｏｓｅ　ｓｕｍｍｏｎｅｄ　ｈｅｒｅ　ｂｅｆｏｒｅ"TCC_NEWLINE"　ｙｏｕ，　ｙｏｕ　ｈａｖｅ　ｂｅｅｎ　ｔｈｅ　ｏｎｌｙ　"TCC_NEWLINE"ｏｎｅ　ｔｏ　ｍａｉｎｔａｉｎ　ａｎｙ　ｓｅｍｂｌａｎｃｅ"TCC_NEWLINE"　ｏｆ　ｓａｎｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｇａｉｎ，　ｔｒｕｌｙ　ｉｍｐｒｅｓｓｉｖｅ．　Ｉ　ｗｏー"TCC_NEWLINE"ｕｌｄ　ｇｏ　ｓｏ　ｆａｒ　ａｓ　ｔｏ　ｓａｙ　ｐｒａｉｓー"TCC_NEWLINE"ｅｗｏｒｔｈｙ，　ｅｖｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌａｓ，　ｙｏｕ　ｄｉｄ　ｌｏｓｅ　ｙｏｕｒ　ｍｅｍｏｒー"TCC_NEWLINE"ｉｅｓ，　ｓｏ，　ｕｌｔｉｍａｔｅｌｙ．．．ｊｕｓｔ　ａｎー"TCC_NEWLINE"ｏｔｈｅｒ　ｉｎ　ａ　ｓｔｒｉｎｇ　ｏｆ　ｆａｉｌｕｒｅｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｗｏｎ’ｔ　ｂｅ　ｙｏｕｒ　ｐｕｐｐｅｔ　ａｎｙ　ｌｏー"TCC_NEWLINE"ｎｇｅｒ！　Ｉ　ｗｉｌｌ　ｓｔｒａｎｇｌｅ　ｙｏｕ　ｗｉｔー"TCC_NEWLINE"ｈ　ｗｈａｔｅｖｅｒ　ｓｔｒｉｎｇｓ　ｙｏｕ’ｖｅ　ｂｏｕー"TCC_NEWLINE"ｎｄ　ｍｅ　ｗｉｔｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ　ｄｉｄ　Ｉ　ｃｏｍｅ　ｆｒｏｍ？！　Ａｎｓｗｅー"TCC_NEWLINE"ｒ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｎｄ　ｍｅ　ｂａｃｋ．．．　Ｓｅｎｄ　ｍｅ　ｂａｃｋ　"TCC_NEWLINE"ｗｈｅｒｅ　Ｉ　ｂｅｌｏｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｒｏｔｈｅｒ，　ｎｏ！　Ｄｏｎ’ｔ　ｓａｙ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｎｏｗ．．．ｗｈａｔ　Ｉ’ｖｅ　"TCC_NEWLINE"ｂｅｅｎ　ｓｅａｒｃｈｉｎｇ　ｆｏｒ　ａｌｌ　ｔｈｉｓ　ｔー"TCC_NEWLINE"ｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ｏｎ　ｔｈｅ　ｏｔｈｅｒ　ｓｉｄｅ　ｏｆ　ｔー"TCC_NEWLINE"ｈａｔ　ｓｕｍｍｏｎｉｎｇ　ｇａｔｅ　ｉｎ　Ａｓｋｒ．．．"TCC_NEWLINE"　Ｔｈａｔ’ｓ　ｗｈｙ　Ｉ"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｏｎｌｙ　ｗａｎｔｅｄ　ｔｏ　ｇｏ　ｂａｃｋ．．．ａｌー"TCC_NEWLINE"ｌ　ｔｈｉｓ　ｔｉｍｅ．．．　Ａｌｌ　ｔｈｉｓ　ｔｉｍｅ！"TCC_NEWLINE"　Ｉ　ｗａｎｔｅｄ　ｔｏ　ｇｏ　ｈｏｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｈ，　ｄｏ　ｙｏｕ　ｒｅａｌｌｙ　ｍｅａｎ　ｔｈａｔ？　"TCC_NEWLINE"Ｙｏｕ’ｒｅ　ｌｉｋｅｌｙ　ｔｏ　ｈｕｒｔ　ｔｒ’ｓ　ｆｅー"TCC_NEWLINE"ｅｌｉｎｇｓ．　Ｈｅ’ｓ　ｙｏｕｒ　ｂｒｏｔｈｅｒ，　ａｆー"TCC_NEWLINE"ｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｆｔｅｒ　ｈｅ’ｓ　ｍａｄｅ　ｓｏ　ｍａｎｙ　ｓー"TCC_NEWLINE"ａｃｒｉｆｉｃｅｓ　ｔｏ　ｋｅｅｐ　ｙｏｕ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｅｖｅｎ　ｈｅｌｐｅｄ　ｃｒｅａｔｅ　ａ　ｗｅａｐｏー"TCC_NEWLINE"ｎ　ｔｏ　ｄｅｓｔｒｏｙ　ｇａｔｅｓ　ａｌｌ　ｔｏ　ｍａｋー"TCC_NEWLINE"ｅ　ｓｕｒｅ　ｙｏｕ　ｃａｎ　ｎｅｖｅｒ　ｒｅｔｕｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｗｈａｔ？！　ｔｒ，　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+"Ｎｇｙａｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｃａｎ’ｔ　ｌｅａｖｅ，　Ｂｒｏｔｈｅｒ．　Ｗｉｔー"TCC_NEWLINE"ｈｏｕｔ　ｙｏｕ，　ｗｈａｔ　ａｍ　Ｉ？　Ｗｈａｔ　ｗｉｌー"TCC_NEWLINE"ｌ　Ｉ　ｂｅｃｏｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｉｓ．．．　Ｉｓ　ｔｈａｔ　Ｇｒａｍｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｈａｄ　ｔｏ　ｅｎｄ　ａｔ　ｓｏｍｅ　ｐｏｉｎｔ，　"TCC_NEWLINE"Ｆｆｎｉｒ．．．　Ｐｅｒｈａｐｓ　ｔｈｅ　ｔｉｍｅ　ｈａｓ"TCC_NEWLINE"　ｃｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ！　Ａｎｄ　Ｉ　ｗｉｌｌ　ａｎｓｗｅｒ　ｙｏｕｒ　ｑｕー"TCC_NEWLINE"ｅｓｔｉｏｎ　ｂｅｆｏｒｅ　Ｉ　ｅｒａｓｅ　ｙｏｕ．　Ｔｈー"TCC_NEWLINE"ｅ　ａｎｓｗｅｒ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｙｏｕ　ｗｉｌー"TCC_NEWLINE"ｌ　ｆｉｎｄ．．．ｃｏｍｐｅｌｌｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｍａｎ，　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｓｕｍｍｏｎｅー"TCC_NEWLINE"ｄ　ｙｏｕ．．．．　Ｉｔ　ｗａｓ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？！　Ｈｏｗ　ｄｏ．．．　Ｅｘｐｌａｉｎ　ｙｏｕｒー"TCC_NEWLINE"ｓｅｌｆ！　Ｗｈｏ　ａｒｅ　ｙｏｕ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｏｍｅｏｎｅ　ｗｈｏ　ｌｏｖｅｓ　Ｎｉａｖｅｌｌｉｒ．　"TCC_NEWLINE"Ｍｏｒｅ　ｔｈａｎ　ｙｏｕ　ｃａｎ　ｉｍａｇｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｚｅａｌ　ｔｈａｔ　ｂｅａｔ　ｉｎ　ｔｈｅ　ｈｅａー"TCC_NEWLINE"ｒｔ　ｏｆ　ｔｈｅ　ｒｅａｌｍ　ｄｉｅｄ　ｗｉｔｈ　ｔｈｅ"TCC_NEWLINE"　ｒｏｙａｌ　ｂｌｏｏｄｌｉｎｅ．．．　Ａｎｄ　ｙｅｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ｏｕｒ　ｇｏｄ　ｈａｓ　ｎｏｔ　ｙｅｔ　"TCC_NEWLINE"ａｂａｎｄｏｎｅｄ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｉｇｈ＊　Ｎｏｗ，　Ｆｆｎｉｒ．．．ｙｏｕ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅｃｏｍｅ　ａｎ　ｏｆｆｅｒｉｎｇ　ｏｎ　ｔｈｅ　ａｌｔー"TCC_NEWLINE"ａｒ　ｏｆ　Ｎｉａｖｅｌｌｉｒ’ｓ　ｎｅｘｔ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｇｙａａａｈｈｈ！　Ｔｈｅ　ｃｒｏｗｎ．．．　Ｗｈａｔ　ｉー"TCC_NEWLINE"ｓ　ｉｔ　ａｂｏｕｔ　ｔｈｉｓ　ｃｒｏｗｎ？！　Ｗｈａｔ　"TCC_NEWLINE"ｄｖｅｒｇｒ　ｃｕｒｓｅ　ｉｓ"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｓｔｏｐ！　Ｉ．．．ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｆー"TCC_NEWLINE"ｉｇｈｔ　ａｎｙｍｏｒｅ！　Ｉ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ"TCC_NEWLINE"　ｋｉｌｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｒｒｇｇ．．．　Ｎｙａａｒｇｇｈｈｈ！　Ｕｗａａｇｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

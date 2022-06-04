@@ -1,0 +1,52 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6074_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｗｈｙ　ｃａｎ　ｎｏｔｈｉｎｇ　ｅｖｅｒ　ｇｏ　ｔｏ　ｐｌー"TCC_NEWLINE"ａｎ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｅｌｄ　ｔｒｕｔｈ　ｉｎ　ｔｈｅ　ｐａｌｍ　ｏｆ　ｍー"TCC_NEWLINE"ｙ　ｈａｎｄ，　ｌｉｋｅ　ａ　ｐｌａｙｔｈｉｎｇ．．．　Ｌー"TCC_NEWLINE"ｉｆｅ　ｗａｓ　ｓｏ　ｃｌｏｓｅ　ｔｏ　ｈｏｗ　ｉｔ　ｓｈー"TCC_NEWLINE"ｏｕｌｄ　ｈａｖｅ　ａｌｗａｙｓ　ｂｅｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｕｒｒｅｎｄｅｒ　ｎｏｗ，　Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚー"TCC_NEWLINE"ｉａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6074_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｉｔ’ｓ　ｏｖｅｒ，　Ｌｅｔｉｚｉａ！　Ｖｅｒｏｎｉｃａ　"TCC_NEWLINE"ｗｉｌｌ　ａｒｒｉｖｅ　ｈｅｒｅ　ｓｏｏｎ．　Ｍａｋｅ　ｔー"TCC_NEWLINE"ｈｉｓ　ｅａｓｙ　ａｎｄ　ｓｕｒｒｅｎｄｅｒ　ｙｏｕｒｓｅー"TCC_NEWLINE"ｌｆ．　Ｐｌｅａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｄｏ　ｙｏｕ　ｈｅａｒ　ｙｏｕｒｓｅｌｆ？！　Ｗｈａｔ　ｆー"TCC_NEWLINE"ｏｏｌ　ｗｏｕｌｄ　ｔｕｒｎ　ｔｈｅｍｓｅｌｖｅｓ　ｏｖｅー"TCC_NEWLINE"ｒ　ａｔ　ｔｈｅｉｒ　ｅｎｅｍｙ’ｓ　ｒｅｑｕｅｓｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6074_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｗｈｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｆｔｅｒ　ｅｖｅｒｙｔｈｉｎｇ．．．　Ａｌｌ　ｔｈａｔ　"TCC_NEWLINE"ｓａｃｒｉｆｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　Ｉ　ｌｏｓｅ　ｔｏ　ｐｉｇｓ！　Ｐｉｇｓ　ｗｈｏ　"TCC_NEWLINE"ｈａｖｅ　ｗａｌｌｏｗｅｄ　ｉｎ　ｄｅｃａｄｅｎｃｅ　ｆｏー"TCC_NEWLINE"ｒ　ｓｏ　ｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈｒｅｗ　ａｗａｙ　ｅｖｅｒｙｔｈｉｎｇ　ｔｏ　ｇｅー"TCC_NEWLINE"ｔ　ｔｈｅ　ｎｏｂｉｌｉｔｙ　ｏｎ　ｍｙ　ｓｉｄｅ，　ａｎー"TCC_NEWLINE"ｄ　ｅｖｅｎ　ｓｔｉｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｔｈｉｎｇ　Ｉ　ｗｅｎｔ　ｔｈｒｏｕｇｈ　ｔｏ　"TCC_NEWLINE"ｓａｔｅ　ｔｈｅｉｒ　ｄｅｓｉｒｅｓ，　ｆｉｎｄ　ｔｈｅｉー"TCC_NEWLINE"ｒ　ｗｅａｋｎｅｓｓｅｓ．．．　Ａｌｌ　ｔｈａｔ　ｗｏｒｋ"TCC_NEWLINE"　ａｍｏｕｎｔｓ　ｔｏ　ｎｏｔｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ｌｅｔｉｚｉａ！　Ｎｉｎｔｈ　ｉｎ　Ｅｍｂｌａ’"TCC_NEWLINE"ｓ　ｌｉｎｅ　ｏｆ　ｓｕｃｃｅｓｓｉｏｎ！　Ｉ　ａｍ　ａｂー"TCC_NEWLINE"ｏｖｅ　ｔｈｅ　ｆｉｌｔｈ　ａｎｄ　ｔｈｅ　ｒａｂｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｓｉｓｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈｈ．．．　Ｖｅｒｏｎｉｃａ，　ｈｅｒｅ　ａｔ　ｔｈｅ　"TCC_NEWLINE"ｅｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｏｗ　ｄｉｄ　ｙｏｕ　ｄｏ　ｉｔ？　Ｉ　ｋｅｅｐ　ａｓｋー"TCC_NEWLINE"ｉｎｇ　ｍｙｓｅｌｆ，　ｂｕｔ　Ｉ　ｃａｎｎｏｔ　ｕｎｄｅー"TCC_NEWLINE"ｒｓｔａｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｄｉｄ　ｙｏｕ　ｐｒｏｍｉｓｅ　ｙｏｕｒ　ｇｕａー"TCC_NEWLINE"ｒｄｓ　ｔｏ　ｇｅｔ　ｔｈｅｍ　ｔｏ　ｆｒｅｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｌｗａｙｓ　ｋｎｅｗ　ｔｈｅ　ｌｏｗｂｏｒｎ　ｍａｓー"TCC_NEWLINE"ｓｅｓ　ｗｅｒｅ　ｆｏｎｄ　ｏｆ　ｙｏｕ，　ｂｕｔ　Ｉ　ｈー"TCC_NEWLINE"ａｄ　ｎｏｔ　ｉｍａｇｉｎｅｄ　ｙｏｕ　ｈｅｌｄ　ｓｏ　ｍー"TCC_NEWLINE"ｕｃｈ　ｓｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｏｗｂｏｒｎ　ｍａｓｓｅｓ？　Ｓｉｓｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　ｔｅｌｌ　ｍｅ，　Ｖｅｒｏｎｉｃａ．　Ｔｅｌｌ　"TCC_NEWLINE"ｍｅ　ｈｏｗ　ｙｏｕ　ｗｏｎ　ｔｈｅｉｒ　ｆａｖｏｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｎｅｙ？　Ｐｅｒｈａｐｓ　ｓｏｍｅｔｈｉｎｇ．．．　ｌー"TCC_NEWLINE"ｅｓｓ　ｓａｖｏｒｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗａｎｔ　ｔｏ　ｂｅ　ｅｍｐｅｒｏｒ，　Ｓｉｓｓｙ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈａｖｅ　Ｉ　ｎｏｔ　ｍａｄｅ　ｔｈａｔ　ｃｌｅａｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ｙｏｕ　ｈａｄ　ｅｖｅｒｙｏｎｅ’ｓ　ｂｅｓｔ　ｉｎー"TCC_NEWLINE"ｔｅｒｅｓｔ　ａｔ　ｈｅａｒｔ，　Ｉ　ｗｏｕｌｄ　ｌｏｖｅ"TCC_NEWLINE"　ｔｏ　ｈａｖｅ　ｙｏｕ　ｓｉｔｔｉｎｇ　ｏｎ　ｔｈｅ　ｔー"TCC_NEWLINE"ｈｒｏｎｅ，　Ｓｉｓｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ．．．ｎｏｔ　ｓｕｉｔｅｄ　ｆｏｒ　ｉｔ．　Ｉ　ｋー"TCC_NEWLINE"ｎｏｗ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｕｔ　Ｉ　ｈｅａｒ　ｔｈｅ　ｗａｙ　ｙｏｕ　ｓｐｅａｋ　"TCC_NEWLINE"ａｂｏｕｔ　ｏｕｒ　ｐｅｏｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｅｖｅｎ　ｓｏ　ｃｌｏｓｅ　ｔｏ　ｔｈｅ　ｔｈｒｏー"TCC_NEWLINE"ｎｅ，　ｙｏｕ　ｔｈｉｎｋ　ｏｎｌｙ　ｏｆ　ｙｏｕｒｓｅｌー"TCC_NEWLINE"ｆ，　ｉｇｎｏｒｉｎｇ　ｔｈｅ　ｓｕｆｆｅｒｉｎｇ　ｙｏｕ"TCC_NEWLINE"　ｃａｕｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｗｈｙ　Ｉ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｙｏー"TCC_NEWLINE"ｕ　ｔｏ　ｂｅｃｏｍｅ　ｅｍｐｅｒｏｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｕｎｆｉｔ　ｆｏｒ　ｔｈｅ　ｔｈｒｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈ－ｈｏｗ　ｄａｒｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

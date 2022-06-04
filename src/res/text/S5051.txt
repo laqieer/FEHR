@@ -1,0 +1,112 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_NOTT
+"ようこそいらっしゃいました、" TCC_NEWLINE
+"アスク王国の皆さん。" TCC_NEWLINE
+"そしてニザヴェリルのレギン王女。" TCC_NEWLINE TCC_PUSH_A
+"私はヨトゥン王国第一王女ノート。" TCC_NEWLINE
+"お会いできて光栄ですわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ふわ～。。。上品で優雅な方ですね。" TCC_NEWLINE
+"ダグ王女と全然似てませんね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
+"うるさいよっ！" TCC_NEWLINE
+"よお、姉貴。久しぶりじゃん。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。あら？" TCC_NEWLINE
+"どこかにお猿さんがいるのかしら。" TCC_NEWLINE
+"鳴き声が聞こえますわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"さ、長旅でさぞお疲れでしょう。" TCC_NEWLINE
+"今日はゆっくりとお休みになって。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"お気遣いには感謝しますが" TCC_NEWLINE
+"それには及びません。" TCC_NEWLINE TCC_PUSH_A
+"ノート王女、率直に伺います。" TCC_NEWLINE
+"魔剣【グラム】を" TCC_NEWLINE
+"返していただけるのでしょうか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それはもちろん。ファフニールの暴\虐は" TCC_NEWLINE
+"我がヨトゥンにとっても" TCC_NEWLINE
+"憂慮すべき事態ですもの。" TCC_NEWLINE TCC_PUSH_A
+""
+"私の持ち得る全ての力をもって" TCC_NEWLINE
+"皆さんにご協力致しますわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_REGHIN
+"よかった。。。！" TCC_NEWLINE
+"ありがとうございます、ノート王女！" TCC_NEWLINE TCC_PUSH_A
+"これでお兄ちゃんを止められるの。。。" TCC_NEWLINE
+"みんなを助けることができるの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"よかったですね、レギン王女っ！" TCC_NEWLINE
+"なぁんだ。" TCC_NEWLINE
+"やっぱりいい人じゃないですか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。ねー姉貴ぃ。ここに来るまで" TCC_NEWLINE
+"周囲の砦を調べたんだけどさぁ。" TCC_NEWLINE
+"どこも空。兵がいねーの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_NOTT
+"それが？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"とぼけんなっつーの。" TCC_NEWLINE
+"この城に集めてんだろ？" TCC_NEWLINE TCC_PUSH_A
+""
+"最初っから魔剣を" TCC_NEWLINE
+"渡す気なんかねーくせに。" TCC_NEWLINE
+"でしょでしょ？　図星？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ぎゃはははははーっ！　大当たり！！" TCC_NEWLINE
+"あんた、昔っから嘘がばれると" TCC_NEWLINE
+"左目だけ吊り上がんの。" TCC_NEWLINE TCC_PUSH_A
+"自分で気づいてるぅ？　ププー☆" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ノート王女。。。本心をお聞かせください。" TCC_NEWLINE
+"何をお考えです？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5051] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_NOTT
+"。。。はあ。怖がらせたら可哀そうだから" TCC_NEWLINE
+"おねんねしてる間に首を" TCC_NEWLINE
+"チョン切っちゃおうと思っていたのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ダグちゃん。あなたには" TCC_NEWLINE
+"情けというものがないの？" TCC_NEWLINE
+"本当に人間以下のお猿さんね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ノート王女。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
+"あたしが猿なら" TCC_NEWLINE
+"あんたは腹の真っ黒な狸じゃん。" TCC_NEWLINE
+"尻尾を出しやがったな性悪女ぁ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ダグちゃんの声を聞いてると私まで" TCC_NEWLINE
+"お猿さんになっちゃいそう。" TCC_NEWLINE TCC_PUSH_A
+"私には大事なお仕事があるの。" TCC_NEWLINE
+"大人しくそこで見てらっしゃいな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"仕事。。。？　何のことだ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ボケっとすんなアルフォンス！" TCC_NEWLINE
+"来るぞ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

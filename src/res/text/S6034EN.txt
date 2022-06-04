@@ -1,0 +1,44 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6034_EN] = TCC_OPEN_LEFT
+"Ｉ　ｗａｓ　ａ　ｆｏｏｌ　ｉｎ　ｍｙ　ｙｏｕｔｈ，　ｙｅｓ"TCC_NEWLINE"，　ｂｕｔ　Ｉ　ｌｅａｒｎｅｄ　ｍｕｃｈ　ｏｖｅｒ　ｔｈｅー"TCC_NEWLINE"ｓｅ　ｔｅｎ　ｙｅａｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6034_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｕｎｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ａｈ，　Ｖｅｒｏｎｉｃａ．．．　Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ"TCC_NEWLINE"．　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓ－Ｓｉｓｓｙ，　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｉｓｔｅｎ　ｔｏ　ｍｅ，　Ｖｅｒｏｎｉｃａ．　Ｉ’ｖｅ　"TCC_NEWLINE"ｂｅｅｎ　ｌｏｏｋｉｎｇ　ｆｏｒ　ｙｏｕ．　Ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ　ｔｅｒｒｉｂｌｅ　ｈａｓ　ｈａｐｐｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｂｅｅｎ　ａｃｃｕｓｅｄ　ｏｆ　ｔｒｅａー"TCC_NEWLINE"ｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｒｅａｓｏｎ？　Ｍｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｙ’ｒｅ　ｓａｙｉｎｇ　ｙｏｕ　ａｒｅ　ａ　ｔｒａｉー"TCC_NEWLINE"ｔｏｒ　ｔｏ　ｙｏｕｒ　ｃｏｕｎｔｒｙｔｈａｔ　ｙｏｕ　ｗー"TCC_NEWLINE"ａｎｔ　ｔｏ　ｈｅｌｐ　Ａｓｋｒ　ｄｅｓｔｒｏｙ　Ｅｍｂｌー"TCC_NEWLINE"ａ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｉｔｈ　ｔｈｅ　ｓｕｄｄｅｎ　ａｔｔａｃｋｓ　ｏー"TCC_NEWLINE"ｎ　ｔｈｅ　ｖｉｌｌａｇｅｓ　ａｃｒｏｓｓ　Ｅｍｂｌａ．　"TCC_NEWLINE"Ｔｈｅｙ　ｓａｙ　ｉｔ　ｗａｓ　ｙｏｕ　ｗｈｏ　ｏｒｄｅｒー"TCC_NEWLINE"ｅｄ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｏｗｅｒｆｕｌ　ｎｏｂｌｅｓ　ａｒｅ　ｃｌａｉｍｉｎｇ　"TCC_NEWLINE"ｙｏｕ　ｐｌａｎｎｅｄ　ｔｈｉｓ　ｆｏｒ　ａ　ｌｏｎｇ　ｔー"TCC_NEWLINE"ｉｍｅ　ｎｏｗ，　ａｎｄ　ｔｈａｔ　ｔｈｅｙ　ｈａｖｅ　ｐー"TCC_NEWLINE"ｒｏｏｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｌ　ｌｉｅｓ．　Ｉ　ｗｏｕｌｄ　ｎｅｖｅｒ　ｗｉｓｈ　"TCC_NEWLINE"ｓｕｆｆｅｒｉｎｇ　ｏｎ　ｍｙ　ｏｗｎ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｆ　ｃｏｕｒｓｅ　ｙｏｕ　ｗｏｕｌｄｎ’ｔ．　Ｉ　ｋｎｏー"TCC_NEWLINE"ｗ　ｔｈａｔ，　ａｎｄ　Ｉ　ｂｅｌｉｅｖｅ　ｙｏｕ’ｒｅ　"TCC_NEWLINE"ｔｅｌｌｉｎｇ　ｍｅ　ｔｈｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ａ　ｃｏｎｓｐｉｒａｃｙ　ａｇａｉｎｓｔ　"TCC_NEWLINE"ｙｏｕ，　ｄｅｓｉｇｎｅｄ　ｔｏ　ｆｒａｍｅ　ｙｏｕ　ｆｏー"TCC_NEWLINE"ｒ　ｈｅｉｎｏｕｓ　ｃｒｉｍｅｓ　ａｇａｉｎｓｔ　Ｅｍｂｌー"TCC_NEWLINE"ａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ａｌｌ　ｌｉｋｅｌｉｈｏｏｄ，　ｔｈｅｙ　ｈａｖｅ　"TCC_NEWLINE"ｂｅｅｎ　ｐｌａｎｎｉｎｇ　ｔｈｉｓ　ｓｔｒｉｋｅ　ａｇａー"TCC_NEWLINE"ｉｎｓｔ　ｙｏｕ　ｆｏｒ　ｓｏｍｅ　ｔｉｍｅ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｈｏｗ　ｃｏｕｌｄ　ｗｅ　ｐｏｓｓｉｂｌｙ　ｐー"TCC_NEWLINE"ｒｏｖｅ　ａｎｙ　ｏｆ　ｔｈａｔ？　Ｗｈａｔ　ｃｏｕｎｔｅー"TCC_NEWLINE"ｒｅｖｉｄｅｎｃｅ　ｄｏ　ｗｅ　ｈａｖｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ａｎｄ　ｗｈａｔ　ｄｏｅｓ　Ｍｏｔｈｅｒ　ｂｅｌｉｅー"TCC_NEWLINE"ｖｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｈｅｒ　Ｍａｊｅｓｔｙ　ｈａｓ　ｏｒｄｅｒｅｄ　ｙｏー"TCC_NEWLINE"ｕ　ｂｅ　ａｐｐｒｅｈｅｎｄｅｄ　ｓｏ　ｔｈａｔ　ｔｈｅ　"TCC_NEWLINE"ｔｒｕｔｈ　ｍｉｇｈｔ　ｂｅ　ａｓｃｅｒｔａｉｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｓｏｒｒｙ，　Ｖｅｒｏｎｉｃａ．　Ｉ　ｈａｖｅ　"TCC_NEWLINE"ｎｏ　ｄｅｓｉｒｅ　ｔｏ　ｈａｒｍ　ｙｏｕ．．．　Ｓｏ，　"TCC_NEWLINE"ｐｌｅａｓｅ，　ｃｏｍｅ　ｗｉｔｈ　ｍｅ，　ｐｅａｃｅｆｕー"TCC_NEWLINE"ｌｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｕｈ．．．　Ｔｈｉｓ　ｖｏｉｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｖｅｒｏｎｉｃａ？　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｖｏｉｃｅ．．．　Ｉｔ　ｗｏｎ’ｔ　ｓｔｏｐ．．．"TCC_NEWLINE"　Ｉ　ｃａｎ’ｔ　ｆｉｇｈｔ　ｉｔ！　Ｍｕｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"Ｋｉｌｌ　Ａｓｋｒ．．．"
+TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｖｅｒｏｎｉｃａ，　Ｉ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｙｏｕ　"TCC_NEWLINE"ｔｏ　ｌｅａｖｅ　ｈｅｒｅ　ｓｏ　ｅａｓｉ　Ｖｅｒｏｎｉｃー"TCC_NEWLINE"ａ！　Ｗｈｅｒｅ　ａｒｅ　ｙｏｕ　ｇｏｉｎｇ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

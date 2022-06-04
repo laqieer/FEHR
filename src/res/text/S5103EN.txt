@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5103_EN] = TCC_OPEN_LEFT
+"Ｉ　ｌｅａｒｎｅｄ　ｈｏｗ　ｔｏ　ｗｉｅｌｄ　ａ　ｓｐｅａー"TCC_NEWLINE"ｒ　ｆｒｏｍ　ｍｙ　ｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,39 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5095_EN] = TCC_OPEN_LEFT
+"Ｉ　ｌｉｋｅ　ａｎｉｍａｌｓ．　Ｔｈｅｙ　ａｒｅｎ’ｔ　ｓー"TCC_NEWLINE"ｃａｒｅｄ　ｏｆ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｈｏｗ　ｍａｎｙ　ｏｆ　ｔｈｅｓｅ　ｇｕｙｓ　ａｒｅ　ｔｈー"TCC_NEWLINE"ｅｒｅ？！　Ｔｈｅｙ　ｊｕｓｔ　ｋｅｅｐ　ｃｏｍｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｔｈｅｙ　ｍｕｓｔ　ｈａｖｅ　ａｒｒｉｖｅｄ　ｗｈｉｌｅ　"TCC_NEWLINE"ｗｅ　ｗｅｒｅ　ｉｎｖｅｓｔｉｇａｔｉｎｇ　ｔｈｅ　ｔｏｗー"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｉｒ　ｒｅｉｎｆｏｒｃｅｍｅｎｔｓ　ｓｅｅｍ　ａｌｍー"TCC_NEWLINE"ｏｓｔ　ｅｎｄｌｅｓｓ！　Ｉｆ　ｗｅ　ｄｏｎ’ｔ　ｒｅｔｒー"TCC_NEWLINE"ｅａｔ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｔａｙ　ｆｏｃｕｓｅｄ，　ｅｖｅｒｙｏｎｅ！　Ｗｈｅｎ　"TCC_NEWLINE"ｗｅ　ｈａｖｅ　ａｎ　ｏｐｅｎｉｎｇ　ｔｏ　ｇｅｔ　ｃｌｅー"TCC_NEWLINE"ａｒ，　ｔａｋｅ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5095_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｅｎｅｍｉｅｓ！　Ｗａｉｔｗｈｏ’ｓ　ｔｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈａｔ　ｌａｎｃｅ－ｗｏｒｋ．．．　Ｉｔ　ｃｏｕｌｄｎ’"TCC_NEWLINE"ｔ　ｂｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｚａｃｈａｒｉａｓ！　Ｗｈｅｒｅ　ｄｉｄ　ｙｏｕ　ｃｏｍｅ"TCC_NEWLINE"　ｆｒｏｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｒｅ　ｙｏｕ　ｈｅｒｅ　ｔｏ　ｈｅｌｐ　ｕｓ？　Ｗｏｗ！"TCC_NEWLINE"　Ｗｈａｔ　ｉｎｃｒｅｄｉｂｌｅ　ｔｉｍｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．Ｔｈａｔ　ｉｓ　ｎｏｔ　ｗｈｙ　Ｉ’ｍ　ｈｅｒｅ．　"TCC_NEWLINE"Ｉｆ　ａｎｙｔｈｉｎｇ，　Ｉ’ｖｅ　ｃｏｍｅ　ｔｏ　ａｓｋ"TCC_NEWLINE"　ｆｏｒ　ｙｏｕｒ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｉａｖｅｌｌｉｒ’ｓ　ａｒｍｙ．．．　Ｆｆｎｉｒ　ｈａｓ"TCC_NEWLINE"　ｉｎｖａｄｅｄ　ｔｈｅ　Ｅｍｂｌｉａｎ　Ｅｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？　Ｈｅ　ｅｓｃａｐｅｄ　ｆｒｏｍ　Ａｓｋｒ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ－ｉｓ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ａｌｌ　ｒｉー"TCC_NEWLINE"ｇｈｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｈｅ’ｓ　ｍａｎａｇｅｄ　ｔｏ　ｈｏｌｄ　ｔｈｅｍ　ｏｆー"TCC_NEWLINE"ｆ　ｓｏｍｅｈｏｗ，　ｂｕｔ　ｉｔ’ｓ　ｏｎｌｙ　ａ　ｍａー"TCC_NEWLINE"ｔｔｅｒ　ｏｆ　ｔｉｍｅ　ｂｅｆｏｒｅ　ｓｈｅ’ｓ　ｏｖｅー"TCC_NEWLINE"ｒｗｈｅｌｍｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｗｅｌｌ　ａｗａｒｅ　ｗｅ　ａｒｅ　ｉｎ　ｎｏ　ｐー"TCC_NEWLINE"ｏｓｉｔｉｏｎ　ｔｏ　ａｓｋ　ｆａｖｏｒｓ　ｏｆ　ｙｏｕ，"TCC_NEWLINE"　ｂｕｔ．．．　Ｐｌｅａｓｅ，　ｈｅｌｐ　Ｖｅｒｏｎｉｃａ"TCC_NEWLINE"．　Ｈｅｌｐ　ｍｙ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｚａｃｈａｒｉａｓ，　ｙｏｕ’ｖｅ　ｂｅｅｎ　ａｗａｙ，　"TCC_NEWLINE"ｓｏ　ｙｏｕ　ｍａｙ　ｎｏｔ　ｋｎｏｗ　ｔｈｉｓ，　ｂｕｔ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｅｓｐｉｔｅ　ｈｅｒ　ｉｎｉｔｉａｌ　ａｇｇｒｅｓｓｉｏー"TCC_NEWLINE"ｎ　ｔｏｗａｒｄ　Ａｓｋｒ，　Ｖｅｒｏｎｉｃａ　ｈａｓ　ｃー"TCC_NEWLINE"ｏｏｐｅｒａｔｅｄ　ｗｉｔｈ　ｕｓ　ｏｎ　ｍａｎｙ　ａｎ　"TCC_NEWLINE"ｏｃｃａｓｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｉｌｌ　ｒｅｓｐｏｎｄ　ａｓ　ｗｅ　ｗｏｕｌｄ　ｉー"TCC_NEWLINE"ｆ　ａｎｙ　ａｌｌｙ　ｗｅｒｅ　ｉｎ　ｔｒｏｕｂｌｅ．　Ｗー"TCC_NEWLINE"ｅ　ｗｉｌｌ　ｎｏｔ　ａｂａｎｄｏｎ　ｈｅｒ　ｔｏ　Ｎｉａー"TCC_NEWLINE"ｖｅｌｌｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"ＥｖｅｒｙｏｎｅＥｍｂｌａ　ｉｓ　ｉｎ　ｎｅｅｄ！　Ｗｅ　"TCC_NEWLINE"ｍｕｓｔ　ｈｕｒｒｙ　ｔｏ　ｔｈｅｉｒ　ａｉｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6073_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｇｕｓｔａｖ．　Ｍｙ　ｆｌｅｓｈ　ｈａｓ　ｂｅｅー"TCC_NEWLINE"ｎ　ｒｅｃｏｎｓｔｒｕｃｔｅｄ　ｂｙ　ｔｈｅ　ｄｒｅａｄ　"TCC_NEWLINE"ｐｏｗｅｒ　ｏｆ　Ｈｅｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

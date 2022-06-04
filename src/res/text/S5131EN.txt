@@ -1,0 +1,38 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．．．　Ｔｈｅ　ｃｒｏｗｎ．"TCC_NEWLINE"　Ｉｔ’ｓ　ｙｏｕｒｓ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅｒｇａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ　ｆａｌｓｅ　ｋｉｎｇ　ｉｓ　ｎｏ　ｍｏｒｅ．　Ｗｉー"TCC_NEWLINE"ｔｈ　Ｆｆｎｉｒ　ｇｏｎｅ，　ｙｏｕ　ａｒｅ　ｆｒｅｅ　ｔー"TCC_NEWLINE"ｏ　ａｓｃｅｎｄ　ａｓ　ｔｈｅ　ｑｕｅｅｎ　ｏｆ　Ｎｉａｖー"TCC_NEWLINE"ｅｌｌｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉ　ｋｎｏｗ．　Ｂｕｔ　Ｉ’ｍ　ｎｏｔ　ｒｅａｄｙ　"TCC_NEWLINE"ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｓｔｉｌｌ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｈａｖー"TCC_NEWLINE"ｅ　ｌｅｆｔ　ｔｏ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｉｇｈｔ．　Ｌｅｔ’ｓ　ｇｏ　ｓｅｅ　Ｅｉｔｒｉ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5131_EN] = TCC_OPEN_LEFT
+"Ｋｉｌｌ　ｔｈｅ　ｅｎｅｍｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
+"Ｅｉｔｒｉ，　ｄｅａｒ．．．　Ｉｔ　ｈａｓ　ｂｅｅｎ　ｓｏー"TCC_NEWLINE"ｍｅ　ｔｉｍｅ，　ｈａｓｎ’ｔ　ｉｔ？　Ｏｌｄ　ａｇｅ　ｓー"TCC_NEWLINE"ｕｉｔｓ　ｙｏｕ！　Ｙｏｕ’ｖｅ　ｏｎｌｙ　ｇｏｔｔｅｎ　"TCC_NEWLINE"ｃｕｔｅｒ，　ｉｔ　ｓｅｅｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｒｅａｌｌｙ　ｔｈｉｎｋ　ｗｈａｔ　ｙｏｕ’"TCC_NEWLINE"ｒｅ　ｄｏｉｎｇ　ｎｏｗ　ｉｓ　ｔｈｅ　ｂｅｓｔ　ｕｓｅ　"TCC_NEWLINE"ｏｆ　ｙｏｕｒ　ｔｉｍｅ？　Ｔｈｅ　Ａｓｋｒａｎｓ　ａｒｅ"TCC_NEWLINE"　ｏｎ　ｔｈｅｉｒ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ａｈ，　Ｌｏｋｉ．．．　Ｉｔ　ａｌｌ　ｍａｋｅｓ　ｓｅｎｓー"TCC_NEWLINE"ｅ　ｎｏｗ．　Ｙｏｕ’ｒｅ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｐｕｔ"TCC_NEWLINE"　ｔｈａｔ　ｉｄｅａ　ｉｎ　Ｆｆｎｉｒ’ｓ　ｈｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｎｏｔ　ｔｈａｔ　ｉｔ　ｍａｔｔｅｒｓ　ｏｎｅ　ｗａー"TCC_NEWLINE"ｙ　ｏｒ　ｔｈｅ　ｏｔｈｅｒ．　Ｉｎ　ｆａｃｔ，　ｙｏｕ　"TCC_NEWLINE"ｍａｙ　ｈａｖｅ　ｓａｖｅｄ　ｍｅ　ｓｏｍｅ　ｔｒｏｕｂｌー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｄｅａ　ｗｈａｔ　ｙｏｕ’ｒｅ　ｔａー"TCC_NEWLINE"ｌｋｉｎｇ　ａｂｏｕｔ，　ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｍ　ｓｕｒｅ．　Ｎｅｖｅｒｔｈｅｌｅｓｓ，　ｔｈａｎｋ"TCC_NEWLINE"　ｙｏｕ　ａｌｌ　ｔｈｅ　ｓａｍｅ．　Ｗｉｔｈ　ｔｈｅ　ｐー"TCC_NEWLINE"ｏｗｅｒ　ｙｏｕ　ｇａｖｅ　ｍｅ，　Ｉ’ｖｅ　ｋｅｐｔ　ｔー"TCC_NEWLINE"ｈｉｓ　ｒｅａｌｍ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅ　ｓｕｃｃｅｓｓｏｒ　ｔｏ　ｔｈｅ　ｒｏｙａー"TCC_NEWLINE"ｌ　ｆａｍｉｌｙ　ｓｔｉｌｌ　ｌｉｖｅｓ．　Ｍｙ　ｄｒｅａー"TCC_NEWLINE"ｍｓ　ｈａｖｅ　ｎｅｖｅｒ　ｂｅｅｎ　ｃｌｏｓｅｒ　ｔｏ　"TCC_NEWLINE"ｒｅａｌｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｕｃｃｅｓｓｏｒ？　Ｔｈａｔ　ｐｒｉｎｃｅｓｓ，　ｙｏｕ"TCC_NEWLINE"　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　ａｎｄ　Ｆｆｎｉｒ’ｓ　ｄｏｍｉｎｉｏｎａｎｄ　"TCC_NEWLINE"ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｔｈａｔ　ｂｅｇａｎ　ｗｉｔｈ"TCC_NEWLINE"　ｔｈｅ　ｃｏｕｐ　ａｌｌ　ｔｈｏｓｅ　ｙｅａｒｓ　ａｇｏ"TCC_NEWLINE"．．．ｉｓ　ａｔ　ｉｔｓ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｈｅ　ｂｉｒｔｈ　ｏｆ　ａ　ｎｅｗ　Ｎｉａｖー"TCC_NEWLINE"ｅｌｌｉｒ．．．　Ｄｏｅｓ　ｉｔ　ｈａｖｅ　ｙｏｕｒ　ｂｌー"TCC_NEWLINE"ｅｓｓｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍ．．．　Ｉ　ｓｕｐｐｏｓｅ．　Ｏｆ　ｃｏｕｒｓｅ，　ｗー"TCC_NEWLINE"ｈｏ　ｃａｎ　ｓａｙ　ｗｈａｔ　ｔｈｅ　ｆｕｔｕｒｅ　ｍａー"TCC_NEWLINE"ｙ　ｈｏｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

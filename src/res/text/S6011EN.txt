@@ -1,0 +1,92 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HENRIETTE
+"Ｗｅ　ｗｉｌｌ　ｓｏｏｎ　ａｒｒｉｖｅ　ａｔ　ｔｈｅ　ｖｉー"TCC_NEWLINE"ｌｌａｇｅ．．．　Ａｌｆｏｎｓｅ，　Ｓｈａｒｅｎａ，　ｌｅー"TCC_NEWLINE"ｔ’ｓ　ｎｏｔ　ｄｅｌａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏ－ｏｆ　ｃｏｕｒｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｍｏｔｈｅｒ．．．　Ｗｏｕｌｄｎ’ｔ　ｉｔ　ｈａｖｅ　ｂｅー"TCC_NEWLINE"ｅｎ　ａｐｐｒｏｐｒｉａｔｅ　ｆｏｒ　ｙｏｕ　ｔｏ　ｈａｖー"TCC_NEWLINE"ｅ　ｒｅｍａｉｎｅｄ　ａｔ　ｔｈｅ　ｃａｓｔｌｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉ　ｍｕｓｔ　ｃｏｎｃｕｒ．　Ｗｅ　ａｒｅ　ｎｅａｒｉｎｇ"TCC_NEWLINE"　Ｅｍｂｌａ’ｓ　ｂｏｒｄｅｒｓ．．．　Ｉｔ’ｓ　ｎｏｔ　"TCC_NEWLINE"ｓａｆｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｔｒｕｓｔ　ｕｓ　ｔｏ　ｉｎｖｅｓｔｉｇａー"TCC_NEWLINE"ｔｅ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｉｎ　ｔｈｅ　ｖｉｌｌａー"TCC_NEWLINE"ｇｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｎｋ　ｙｏｕ　ｂｏｔｈ．　Ｉ　ａｍ　ｓｏｒｒｙ　ｆｏー"TCC_NEWLINE"ｒ　ｍａｋｉｎｇ　ｙｏｕ　ｗｏｒｒｙ　ｄｕｅ　ｔｏ　ｍｙ　"TCC_NEWLINE"ｓｅｌｆｉｓｈ　ｃｕｒｉｏｓｉｔｙ．　Ｂｕｔ　ｅｖｅｎ　ｓー"TCC_NEWLINE"ｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｃａｎ，　Ｉ　ｍｕｓｔ　ｓｅｅ　ｔｈｉｓ　ｗｉｔー"TCC_NEWLINE"ｈ　ｍｙ　ｏｗｎ　ｅｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈｙ’ｓ　ｔｈａｔ，　Ｍｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｍａｙ　ｗｅｌｌ　ｃｏｎｃｅｒｎ　ｂｏｔｈ　Ａｓー"TCC_NEWLINE"ｋｒ　ａｎｄ　Ｅｍｂｌａａｎｄ　ｔｈｅｉｒ　ｃｏｎｔｉｎｕー"TCC_NEWLINE"ｅｄ　ｅｘｉｓｔｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈ－ｗｈａｔ　ｉｓ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ’ｖｅ　ｎｅｖｅｒ　Ｉｔ’ｓ　ｌｉｋｅ　ｔｈｅ　ｗｈｏｌー"TCC_NEWLINE"ｅ　ａｒｅａ　ｉｓ　ｃｏｖｅｒｅｄ　ｉｎ　ａ　ｓｈａｄｏｗ"TCC_NEWLINE"　ｏｆ．．．ｐｕｒｅ　ｂｌａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓ　ｗｈｅｒｅ　ｔｈｅ　ｖｉｌｌａｇｅ　ｓｈｏー"TCC_NEWLINE"ｕｌｄ　ｂｅ．　Ｎｏｗ　ｉｔ’ｓ　ｌｉｋｅ　ｉｔ　ｗａｓ　"TCC_NEWLINE"ｎｅｖｅｒ　ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｈａｐｐｅｎｅｄ　ｈｅｒｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_HENRIETTE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈｉｓ　ｗｈａｔ　ｙｏｕ　ｓｐｏｋｅ　ｏｆ　ａｌｌ"TCC_NEWLINE"　ｔｈｏｓｅ　ｙｅａｒｓ　ａｇｏ，　ｍｙ　ｌｏｖｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｅｎｅｍｙ　ｉｓ　ｈｅｒｅ！　Ｒｅａｄｙ　ｙｏｕｒー"TCC_NEWLINE"ｓｅｌｖｅｓ　ｆｏｒ　ｂａｔｔｌｅ，　ｅｖｅｒｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｕｒ　ｓｃｏｕｔｓ　ｒｅｐｏｒｔ　ｎｏ　ｓｉｇｈｔｉｎｇー"TCC_NEWLINE"ｓ　ｏｆ　ａｎｙｏｎｅ　ｆｒｏｍ　ｔｈｅ　ｖｉｌｌａｇｅ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｌｉｋｅ　ｔｈｅ　ｖｉｌｌａｇｅ　ｉｓ　ｃｏｍｐー"TCC_NEWLINE"ｌｅｔｅｌｙ　ｃｌｏｓｅｄ　ｏｆｆ　ｂｙ　ｔｈｅ　ｄａｒｋ"TCC_NEWLINE"　ｂａｒｒｉｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｃｌｏｓｅｄ　ｏｆｆ？　Ａｌｆｏｎｓｅ，　ｃｏｕｌｄ　ｉｔ"TCC_NEWLINE"　ｂｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_HENRIETTE
+"Ｔｈｉｓ　ｉｓ　Ｅｍｂｌａ’ｓ　ｄｏｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｅｍｂｌａ’ｓ　ｒｏｙａｌ　ｆａｍｉｌｙ　ｗｉｅｌｄｓ　ｔー"TCC_NEWLINE"ｈｅ　ｐｏｗｅｒ　ｔｏ　ｃｌｏｓｅ　ｇａｔｅｓ　ｏｐｅｎｅー"TCC_NEWLINE"ｄ　ｂｙ　Ａｓｋｒ，　ｂｕｔ　ｔｈａｔ　ｉｓ　ｎｏｔ　ｔｈー"TCC_NEWLINE"ｅ　ｐｏｗｅｒ’ｓ　ｆｕｌｌ　ｅｘｔｅｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｌｔｉｍａｔｅｌｙ，　ｉｔ　ｉｓ　ｔｈｅ　ｐｏｗｅｒ　ｏー"TCC_NEWLINE"ｆ　ｃｌｏｓｕｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｖｉｌｌａｇｅ　ｗａｓ　ｃｌｏｓｅｄ　ｏｆｆ　ｂｙ"TCC_NEWLINE"　Ｅｍｂｌａ’ｓ　ｐｏｗｅｒｃｌｏｓｅｄ　ｏｆｆ　ｆｒｏｍ"TCC_NEWLINE"　ｏｕｒ　ｗｏｒｌｄ　ｃｏｍｐｌｅｔｅｌｙ．　Ｎｏｗ　ｉｔ"TCC_NEWLINE"　ｅｘｉｓｔｓ　ｎｏｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　Ｅｍｂｌａ’ｓ　ｒｏｙａｌ　ｆａｍｉｌｙ　ｄｉｄ　ｔー"TCC_NEWLINE"ｈｉｓ，　ｔｈｅｎ　ｔｈａｔ　ｃａｎ　ｏｎｌｙ　ｍｅａｎ　"TCC_NEWLINE"ｔｈａｔ　Ａｌｆｏｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｍｏｔｈｅｒ，　ｔｈｅ　ｒｏａｄ　ａｈｅａｄ　ｗｉｌー"TCC_NEWLINE"ｌ　ｂｅ　ｄａｎｇｅｒｏｕｓ．　Ｐｌｅａｓｅ　ｔａｋｅ　ａ"TCC_NEWLINE"　ｒｅｔｉｎｕｅ　ａｎｄ　ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　ｃａー"TCC_NEWLINE"ｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅｓ　ｗｉｌｌ　ｇｅｔ　"TCC_NEWLINE"ｔｏ　ｔｈｅ　ｂｏｔｔｏｍ　ｏｆ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｗｉｌｌ　ｇｏ　ａｔ　ｙｏｕｒ　ｉｎｓｉｓｔｅｎｃｅ，"TCC_NEWLINE"　ｂｕｔ　ｐｌｅａｓｅ　ｒｅｍｅｍｂｅｒ　ｔｈｅｓｅ　ｗｏー"TCC_NEWLINE"ｒｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｆａｔｈｅｒ　ｏｆｔｅｎ　ｓａｉｄ，　Ａｓｋｒ　"TCC_NEWLINE"ｉｓ　ａ　ｒｅａｌｍ　ｔｈａｔ　ｓｅｅｋｓ　ｏｐｅｎｎｅｓー"TCC_NEWLINE"ｓ　ａｎｄ　ｐｅａｃｅ　ｗｉｔｈ　ｏｔｈｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ，　ｈｏｗｅｖｅｒ，　ｄｏｅｓ　ｎｏｔ　ｍｅａｎ　"TCC_NEWLINE"ｉｔ　ｉｓ　ｄｅｆｅｎｓｅｌｅｓｓ　ｉｎ　ｔｈｅ　ｆａｃｅ"TCC_NEWLINE"　ｏｆ　ｉｎｖａｄｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｗｈｏ　ｓｅｅｋｓ　ｔｏ　ｔａｋｅ　ａｄｖａｎｔａー"TCC_NEWLINE"ｇｅ　ｏｆ　ｏｕｒ　ｏｐｅｎｎｅｓｓ　ａｎｄ　ｃｏｍｅｓ　"TCC_NEWLINE"ｉｌｌ－ｐｒｅｐａｒｅｄ　ｆｏｒ　ｗｈａｔ　ｔｈｅｙ’ｌｌ"TCC_NEWLINE"　ｆｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"ｗｉｌｌ　ｂｅ　ｕｎｄｏｎｅ　ｂｙ　ｔｈｅｉｒ　ｏｗｎ　ｌー"TCC_NEWLINE"ｕｓｔ　ｆｏｒ　ｗａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｉｆ　ｔｈｉｓ　ｉｓ　ａｎ　ｅー"TCC_NEWLINE"ｎｅｍｙ　ａｔｔａｃｋ，　Ｉ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｃａー"TCC_NEWLINE"ｕｇｈｔ　ｕｎａｗａｒｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｙ　ｅｎｅｍｙ　ｗｈｏ　ｗｏｕｌｄ　ｂｒｉｎｇ　ｓｕｃー"TCC_NEWLINE"ｈ　ｃａｌａｍｉｔｙ　ｏｎ　Ａｓｋｒ　ｍｕｓｔ　ｂｅ　ｓｔー"TCC_NEWLINE"ｏｐｐｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6011_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｔ’ｓ　ｎｏ　ｕｓｅ．　Ｅｖｅｎ　ｒｉｇｈｔ　ｕｐ　ｎｅー"TCC_NEWLINE"ｘｔ　ｔｏ　ｔｈｅ　ｄａｒｋｎｅｓｓ，　ｎｏｔｈｉｎｇ　ｉー"TCC_NEWLINE"ｓ　ｖｉｓｉｂｌｅ　ｏｎ　ｔｈｅ　ｏｔｈｅｒ　ｓｉｄｅ　ｏー"TCC_NEWLINE"ｆ　ｔｈｅ　ｂａｒｒｉｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｃａｎ　ｗｅ　ｄｏ　ｆｏｒ　ｔｈｅ　ｖｉｌｌａｇー"TCC_NEWLINE"ｅｒｓ　ｔｒａｐｐｅｄ　ｉｎ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｔｈｒｏｗ　ａ　ｐｅｂｂｌｅ　ｉｎ．．．ｉｔ　ｄー"TCC_NEWLINE"ｉｓａｐｐｅａｒｓ　ｗｉｔｈｏｕｔ　ａ　ｓｏｕｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｏｋｉｎｇ　ｉｔ　ｗｉｔｈ　ａ　ｓｔｉｃｋ，　ｔｈｅ　ｄー"TCC_NEWLINE"ａｒｋｎｅｓｓ　ｃｏｎｓｕｍｅｓ　ｗｈａｔｅｖｅｒ　ｐｏｒー"TCC_NEWLINE"ｔｉｏｎ　ｏｆ　ｔｈｅ　ｓｔｉｃｋ　ｐａｓｓｅｓ　ｔｈｅ　"TCC_NEWLINE"ｂｏｕｎｄａｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ’ｓ　ｂｅｃｏｍｅ　ｏｆ　ｔｈｅ　ｖｉｌｌａｇｅｒー"TCC_NEWLINE"ｓ　ｗｈｏ　ｗｅｒｅ　ｉｎ　ｔｈｅ　ｖｉｌｌａｇｅ　ｗｈｅー"TCC_NEWLINE"ｎ　ｔｈｉｓ　ｈａｐｐｅｎｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ，　Ｉ　ｔｈｉｎｋ　ｗｅ　ｓｈｏｕｌｄ　ｇｏ"TCC_NEWLINE"　ｉｎ．　Ｇｏｉｎｇ　ｉｎｔｏ　ｔｈｅ　ｄａｒｋｎｅｓｓ　"TCC_NEWLINE"ｏｕｒｓｅｌｖｅｓ　ｉｓ　ｔｈｅ　ｏｎｌｙ　ｗａｙ　ｗｅ’"TCC_NEWLINE"ｌｌ　ｆｉｎｄ　ｏｕｔ　ｗｈａ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ，　Ｓｈａｒｅｎａ，　Ｉ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｔー"TCC_NEWLINE"ｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂ－ｂｕｔ　ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔｅｖｅｒ　ｇｏｅｓ　ｂｅｙｏｎｄ　ｔｈｅ　ｅｄｇｅ"TCC_NEWLINE"　ｏｆ　ｔｈｅ　ｄａｒｋｎｅｓｓ　ｄｉｓａｐｐｅａｒｓ．　"TCC_NEWLINE"Ｉｔ　ｃｏｕｌｄ　ｂｅ　ｄｕｓｔ　ｎｏｗ　ｆｏｒ　ａｌｌ　"TCC_NEWLINE"ｗｅ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ｅｎｏｕｇｈ　ｉｎｆｏｒｍａｔー"TCC_NEWLINE"ｉｏｎ．　Ｉｔ’ｓ　ｔｏｏ　ｒｉｓｋｙ　ｔｏ　ｔｒｙ　ｉｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｉｆ　ｔｈｅ　ｖｉｌｌａｇｅｒｓ　ａｒｅ　ａｌｉｖー"TCC_NEWLINE"ｅ，　ｔｈｅｎ　ｔｈｅｙ　ｎｅｅｄ　ｏｕｒ　ｈｅｌｐａｎｄ"TCC_NEWLINE"　ｗｅ　ｓｈｏｕｌｄ　ｇｅｔ　ｔｏ　ｔｈｅｍ　ａｓ　ｆａｓー"TCC_NEWLINE"ｔ　ａｓ　ｗｅ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｖｅｎ　ｉｆ　ｔｈｅｙ　ａｒｅ　ａｌｉｖｅ　ａｎｄ　ｗｅ"TCC_NEWLINE"　ｄｏ　ｇｏ　ｉｎ　ａｆｔｅｒ　ｔｈｅｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｎｏ　ｗａｙ　ｏｆ　ｋｎｏｗｉｎｇ　ｗｅ’"TCC_NEWLINE"ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｇｅｔ　ｂａｃｋ　ｏｕｔｗｉｔー"TCC_NEWLINE"ｈ　ｏｒ　ｗｉｔｈｏｕｔ　ｔｈｅ　ｖｉｌｌａｇｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｍ　ｓｏｒｒｙ，　Ｓｈａｒｅｎａ．　Ｔｈｉｓ　ｉｓ　ｎー"TCC_NEWLINE"ｏｔ　ｍｙ　ｆｉｒｓｔ　ｃｈｏｉｃｅ　ｅｉｔｈｅｒ，　ａｎー"TCC_NEWLINE"ｄ　Ｉ’ｍ　ｎｏｔ　ｅｖｅｎ　ｓｕｒｅ　ｔｈｉｓ　ｉｓ　ｔー"TCC_NEWLINE"ｈｅ　ｃｏｒｒｅｃｔ　ｗａｙ　ｆｏｒｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｉｔ　ｍａｙ　ｌｏｏｋ　ｌｉｋｅ　Ｉ’ｍ　ｇー"TCC_NEWLINE"ｉｖｉｎｇ　ｕｐ　ｏｎ　ｔｈｏｓｅ　ｃｌｏｓｅｄ　ｏｆｆ　"TCC_NEWLINE"ｆｒｏｍ　ｔｈｅ　ｗｏｒｌｄ　ｗｉｔｈｉｎ　ｔｈｅ　ｄａｒー"TCC_NEWLINE"ｋｎｅｓｓ，　ｂｕｔ．．．ｅｖｅｎ　ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｗｅ　ｃａｎ　ｄｏ　ｉｓ　ｃｏｎｔｉｎｕｅ　ｏｕｒ"TCC_NEWLINE"　ｉｎｖｅｓｔｉｇａｔｉｏｎ　ｏｆ　ｔｈｅ　ａｒｅａ　ｆｏー"TCC_NEWLINE"ｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

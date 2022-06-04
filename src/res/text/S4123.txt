@@ -1,0 +1,80 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4123] = TCC_OPEN_LEFT 
+"いずれの世界にあっても、" TCC_NEWLINE
+"人同士の争いというのは絶えぬものだな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4123] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"さあ、スカビオサ。。。" TCC_NEWLINE
+"お行きなさい。" TCC_NEWLINE TCC_PUSH_A
+"人間に味方する妖精たちを。。。" TCC_NEWLINE
+"みんな殺してしまうの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"はい、フレイヤ様。。。" TCC_NEWLINE
+"行って参ります。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。スカビオサ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"プルメリアもあなたも、" TCC_NEWLINE
+"私の言葉に従う。" TCC_NEWLINE
+"命を投げ出してまで。。。" TCC_NEWLINE TCC_PUSH_A
+"私はあなたたちを犠牲にし、" TCC_NEWLINE
+"使い捨てようとしている。。。" TCC_NEWLINE
+"それなのに、どうして。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"この命はフレイヤ様のものです。。。" TCC_NEWLINE
+"フレイヤ様が、" TCC_NEWLINE
+"私たちにすべてをくださったのです。" TCC_NEWLINE TCC_PUSH_A
+"フレイヤ様の御心を" TCC_NEWLINE
+"お慰めできるのでしたら。。。" TCC_NEWLINE
+"私はそれで十\分です。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"私への恩返し、ということ。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。いいえ。少し、違います。" TCC_NEWLINE
+"申\し上げるのは" TCC_NEWLINE
+"畏れ多いことですが。。。" TCC_NEWLINE TCC_PUSH_A
+"プルメリアと私は。。。" TCC_NEWLINE
+"フレイヤ様をお慕いしています。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"慕う。。。？" TCC_NEWLINE
+"私を想っていると。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私が人間だった頃の記憶は" TCC_NEWLINE
+"夢のようにおぼろげですが。。。" TCC_NEWLINE TCC_PUSH_A
+"好きな相手のために何かをしたい。。。" TCC_NEWLINE
+"人間は、そう思うものなのでしょう。。。" TCC_NEWLINE
+"たとえ報われることはなくても。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。理解できないわ。" TCC_NEWLINE TCC_PUSH_A
+"自分が死ねば、もう相手には会えない。" TCC_NEWLINE
+"愛する相手と幸せにもなれない。" TCC_NEWLINE
+"それでは何の意味もないでしょう？" TCC_NEWLINE TCC_PUSH_A
+"それが、人間の愛。。。？" TCC_NEWLINE
+"すぐに死ぬ脆い命だからそんなことを。。。？" TCC_NEWLINE
+"私たち神々とは程遠い感情ね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"はい、申\し訳ありません。。。お耳汚しを。" TCC_NEWLINE
+"それではフレイヤ様、" TCC_NEWLINE
+"行って参ります。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

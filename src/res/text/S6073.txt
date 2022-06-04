@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6073] = TCC_OPEN_LEFT 
+"この身はヘルの" TCC_NEWLINE
+"忌まわしき力によるもの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

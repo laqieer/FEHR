@@ -1,0 +1,50 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6062_EN] = TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｐｅｎｄａｎｔ？　Ｉｔ’ｓ　ａ　ｍｅｍｅｎｔｏ．"TCC_NEWLINE"　Ｉ　ｃａｒｒｙ　ｉｔ　ａｌｗａｙｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6062_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"．．．Ｕｇｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ，　ｍｙ　ｌｉｔｔｌｅ　Ｖｅｒｏー"TCC_NEWLINE"ｎｉｃａ．．．　Ｈｏｗ　ｈａｖｅ　ｙｏｕ　ｂｅｅｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｕｓｔ　ｂｅ　ｈｕｎｇｒｙ．．．　Ｐｏｏｒ　ｔｈー"TCC_NEWLINE"ｉｎｇ．　Ｉ　ｈｅａｒｄ　ｙｏｕ’ｖｅ　ｎｏｔ　ｅａｔｅｎ"TCC_NEWLINE"　ｆｏｒ　ｄａｙｓ．　Ｎｏｔ　ｅｖｅｎ　ａ　ｄｒｏｐ　ｏｆ"TCC_NEWLINE"　ｗａｔｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｏｆ　ｃｏｕｒｓｅ　ｙｏｕ　ｈａｖｅｎ’ｔ　ｂｅｅー"TCC_NEWLINE"ｎ　ｇｉｖｅｎ　ａｎｙｔｈｉｎｇ．．．　Ｗｈｅｎ　Ｉ　ｇｉー"TCC_NEWLINE"ｖｅ　ａｎ　ｏｒｄｅｒ，　Ｉ　ａｍ　ｏｂｅｙｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕｒ　ｅｘｅｃｕｔｉｏｎ　ｗｉｌｌ　ｔａｋｅ　ｐｌａｃー"TCC_NEWLINE"ｅ　ｏｎ　ｔｈｅ　ｄａｙ　ａｆｔｅｒ　ｔｏｍｏｒｒｏｗ．　"TCC_NEWLINE"Ｉｔ’ｓ　ｎｅａｒｌｙ　ｈｅｒｅ！　Ｔｈｅ　ａｎｔｉｃｉｐー"TCC_NEWLINE"ａｔｉｏｎ　ｍｕｓｔ　ｂｅ　ｕｎｂｅａｒａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃａｒｅ　ｔｏ　ｓｈａｒｅ　ｗｈａｔ’ｓ　ｏｎ　ｙｏｕｒ　"TCC_NEWLINE"ｍｉｎｄ？　Ｙｏｕ　ｌｏｏｋ　ｌｉｋｅ　ｙｏｕ　ｈａｖｅ　"TCC_NEWLINE"ｓｏｍｅｔｈｉｎｇ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｓａｙ．．．　"TCC_NEWLINE"Ｄｏ　ｇｏ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｉｓｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈ－ｗｈａｔ　ｄｏ　ｙｏｕ　ｗａｎｔ　ｆｒｏｍ　ｍー"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？　Ｉｓ　ｉｔ　ｎｏｔ　ｃｌｅａｒ　ｙｅｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｔｈｉｎｇ！　Ｉ　ｗａｎｔ　ｔｏ　ｔａｋｅ　ｅｖー"TCC_NEWLINE"ｅｒｙｔｈｉｎｇ　ｆｒｏｍ　ｙｏｕ．　Ｙｏｕｒ　ｗｅａｌｔー"TCC_NEWLINE"ｈ，　ｙｏｕｒ　ｐｏｗｅｒ，　ｙｏｕｒ　ｌｉｆｅ．．．ｅｖー"TCC_NEWLINE"ｅｒｙｔｈｉｎｇ　ｙｏｕ　ｈａｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｆｔｅｒ　ｙｏｕｒ　ｅｘｅｃｕｔｉｏｎ，　Ｉ’ｌー"TCC_NEWLINE"ｌ　ｔａｋｅ　ｙｏｕｒ　ｍｏｔｈｅｒ’ｓ　ｓｅａｔ　ｏｎ　"TCC_NEWLINE"ｔｈｅ　ｉｍｐｅｒｉａｌ　ｔｈｒｏｎｅ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　ｗｈａｔ　ｔｈｅｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｐａｒｄｏｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｂｅｃｏｍｅ　ｅｍｐｅｒｏｒ．．．ａｎｄ　ｔｈｅｎ"TCC_NEWLINE"．．．　Ｗｈａｔ　ｗｉｌｌ　ｙｏｕ　ｄｏ　ａｓ　ｅｍｐｅｒー"TCC_NEWLINE"ｏｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｕｓｅｄ　ｔｏ　ｎｅｖｅｒ　ｃｏｎｓｉｄｅｒ　ｔｈｅ　"TCC_NEWLINE"ｉｍｐａｃｔ　ｐｅｏｐｌｅ　ｈａｖｅ　ｏｎ　ｔｈｅ　Ｅｍｐー"TCC_NEWLINE"ｉｒｅ，　ｂｕｔ　ｓｏｍｅｏｎｅ　ｃｈａｎｇｅｄ　ｍｙ　ｍー"TCC_NEWLINE"ｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｓａｉｄ　ａ　ｒｕｌｅｒ’ｓ　ｐｕｒｐｏｓｅ　ｉー"TCC_NEWLINE"ｓ　ｔｈｅ　ｓｅｒｖｉｃｅ　ｏｆ　ｔｈｅｉｒ　ｐｅｏｐｌｅー"TCC_NEWLINE"ｔｈａｔ　Ｉ　ｗａｓ　ｓｅｌｆｉｓｈ　ｆｏｒ　ｂｅｈａｖｉー"TCC_NEWLINE"ｎｇ　ｏｔｈｅｒｗｉｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｓｐｅｎｔ　ｍｏｒｅ　ｔｉｍｅ　ｗｉｔｈ　Ｐー"TCC_NEWLINE"ｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ａｎｄ　Ｐｒｉｎｃｅｓｓ　Ｓｈー"TCC_NEWLINE"ａｒｅｎａ　ｔｈａｎ　Ｉ　ｍａｙ　ｃａｒｅ　ｔｏ　ａｄｍｉー"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｌｉｅｖｅ　ｔｈｅｙ　ａｌｗａｙｓ　ｈａｖｅ　ｔｈー"TCC_NEWLINE"ｅ　ｎｅｅｄｓ　ｏｆ　ｔｈｅｉｒ　ｐｅｏｐｌｅ　ａｔ　ｈｅー"TCC_NEWLINE"ａｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｔｏ　ｂｅ　ｍｏｒｅ　ｌｉｋｅ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｓｉｓｓｙ？　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｔｈｉｎｋ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｓｐａｒｅ　ｍｅ！　Ｅｖｅｎ　ｎｏｗ，　ｐｉｔｉｆｕー"TCC_NEWLINE"ｌ　ａｓ　ｙｏｕ　ａｒｅ，　ｙｏｕ　ｓｔｉｌｌ　ｄａｒｅ　"TCC_NEWLINE"ｔｏ　ｃｏｎｄｅｓｃｅｎｄ　ｔｏ　ｍｅａｓ　ｉｆ　ｙｏｕ’"TCC_NEWLINE"ｒｅ　ｍｙ　ｂｅｔｔｅｒ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｇｕａｒｄｓ！　Ｔｈｉｓ　ｐｒｉｓｏｎｅｒ　ｒｅｑｕｉｒｅー"TCC_NEWLINE"ｓ　ａ　ｌａｓｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ｓｔｏｐ　ｕｎｔｉｌ　ｙｏｕ’ｖｅ　ｗｉｐｅー"TCC_NEWLINE"ｄ　ａｌｌ　ｄｅｆｉａｎｃｅ　ｆｒｏｍ　ｈｅｒ　ｆａｃｅ．"TCC_NEWLINE"．．　ＮＯＷ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏ　ｗｈａｔ　ｙｏｕ　ｗａｎｔ　ｗｉｔｈ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ　ｔｒｅａｔ．．．ｍｙ　ｐｅｏｐｌｅ．．．ｗｅｌｌ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -50,15 +50,15 @@ FaceDefines = {
     "ID_アシュ":"PORTRAIT_ASH",
     "ID_ヴェロニカ洗脳":"PORTRAIT_VERONICA_STAIN",
     "ID_エルム":"PORTRAIT_ELM",
-    "ID_エンブラ兵":"PORTRAIT_GENERIC_SODIER_RED",
-    "ID_アスク兵":"PORTRAIT_GENERIC_SODIER_BLUE",
+    "ID_エンブラ兵":"PORTRAIT_GENERIC_SOLDIER_RED",
+    "ID_アスク兵":"PORTRAIT_GENERIC_SOLDIER_BLUE",
     "ID_アルフォンス0":"PORTRAIT_ALFONSE",
     #"ID_ザカリア影":"",
     #"ID_スリーズ声":"",
     #"ID_スルト名前":"",
 }
 
-TextIDStart = 5511
+TextIDStart = 5536
 
 for filename in sys.argv[1:]:
     filenameIn = "../../res/feh/files/assets/JPJA/Message/Scenario/" + filename + ".json"

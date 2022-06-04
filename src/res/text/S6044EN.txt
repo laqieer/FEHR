@@ -1,0 +1,42 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6044_EN] = TCC_OPEN_LEFT
+"Ｗｉｎｄ，　ｔｒｅｅｓ，　ｌａｕｇｈｔｅｒ．．．　Ｉ　ｋｎー"TCC_NEWLINE"ｏｗ　ｔｈｅｓｅ　ｔｈｉｎｇｓ　ｎｏｗ．　Ｔｈａｎｋｓ　ｔー"TCC_NEWLINE"ｏ　ｔｈｅｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6044_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"Ｗｈｅｒｅ．．．　Ｗｈｅｒｅ　ａｍ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！　Ｉ’ｍ　ｓｏ　ｇｌａー"TCC_NEWLINE"ｄ　ｔｏ　ｓｅｅ　ｙｏｕ’ｒｅ　ａｗａｋｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｈｕｎｇｒｙ？　Ｔｈｉｒｓｔｙ？　Ｃａｎ　"TCC_NEWLINE"Ｉ　ｇｅｔ　ｙｏｕ　ａｎｙｔｈｉｎｇ　ａｔ　ａｌｌ？　Ｍａー"TCC_NEWLINE"ｙｂｅ　ａ　ｆｌｕｆｆｉｅｒ　ｐｉｌｌｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｑｕｉｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｉｎｇ　ｓａｖｅｄ　ｂｙ　ｙｏｕ　ｌｏｔ　ｉｓ．．．　"TCC_NEWLINE"ｍｏｒｅ　ｔｈａｎ　ｅｎｏｕｇｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｒｅｌｙｉｎー"TCC_NEWLINE"ｇ　ｏｎ　ｙｏｕｒ　ｃｈａｒｉｔｙ，　ｓｏ　Ｉ　ｗｉｌｌ　"TCC_NEWLINE"ｔａｋｅ　ｍｙ　ｌｅａｖｅ　ｏｆ　ｙｏｕ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ！　Ｕｍ，　Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ　ｙｏｕ　ｓｈｏー"TCC_NEWLINE"ｕｌｄ　ｂｅ　ｕｐ　ａｎｄ　ｍｏｖｉｎｇ　ｊｕｓｔ　ｙｅｔ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｅｅ？　Ｙｏｕ’ｒｅ　ｈｕｒｔ，　ｓｏ　ｙｏｕ　ｓｈｏｕー"TCC_NEWLINE"ｌｄ　ｒｅｓｔ　ｆｏｒ　ａ　ｗｈｉｌｅ　ｕｎｔｉｌ　ｙｏｕ"TCC_NEWLINE"’ｖｅ　ｈｅａｌｅｄ　ａ　ｂｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｓｉｄｅｓ，　Ａｌｆｏｎｓｅ　ａｎｄ　Ｃｏｍｍａｎｄｅー"TCC_NEWLINE"ｒ　Ａｎｎａ　ａｌｒｅａｄｙ　ｓａｉｄ　ｔｈｅｙ　ｈａｖｅ"TCC_NEWLINE"　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｔｕｒｎｉｎｇ　ｙｏｕ　"TCC_NEWLINE"ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｗｈａｔ　ｅｘａｃｔｌｙ　ｈａｐー"TCC_NEWLINE"ｐｅｎｅｄ，　ｂｕｔ　ｉｔ　ｓｅｅｍｓ　ｌｉｋｅ　Ｌｅｔｉー"TCC_NEWLINE"ｚｉａ　ｈａｓ　ｍａｄｅ　ｓｏｍｅ　ａｃｃｕｓａｔｉｏｎｓ"TCC_NEWLINE"　ａｇａｉｎｓｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｏｕｎｄｓ　ｌｉｋｅ　ｓｈｅ　ｗａｎｔｓ　ｙｏｕ　"TCC_NEWLINE"ｔｒｉｅｄ　ａｎｄ　ｅｘｅｃｕｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈａｔ’ｓ　ｉｔ　ｔｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｄｏｅｓ　ｍｙ　ｅｘｅｃｕｔｉｏｎ　ｈａｖｅ　ｔー"TCC_NEWLINE"ｏ　ｄｏ　ｗｉｔｈ　ｙｏｕｏｒ　Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｏｗ　ｃｏｕｌｄ　ｉｔ　ｎｏｔ　ｍａｔｔｅｒ？！　Ｗｅ　"TCC_NEWLINE"ｗｅｒｅ　ｗｏｒｋｉｎｇ　ｔｏｇｅｔｈｅｒ　ｎｏｔ　ｓｏ　"TCC_NEWLINE"ｌｏｎｇ　ａｇｏ，　ｗｅｒｅｎ’ｔ　ｗｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｎｏｔ　ｆｏｒ　Ｅｍｂｌａ’ｓ　ｃｕｒｓｅ，　ｔｈｅー"TCC_NEWLINE"ｒｅ　ｗｏｕｌｄｎ’ｔ　ｅｖｅｎ　ｂｅ　ａ　ｒｅａｓｏｎ　"TCC_NEWLINE"ｆｏｒ　ｕｓ　ｔｏ　ｆｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃｏｕｌｄ　ｅｖｅｎ　ｂｅ　ｆｒｉｅｎｄｓ，　Ｉ　ｔー"TCC_NEWLINE"ｈｉｎｋ．．．　Ｄｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｘｈａｕｓｔｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ．．．ｉｎｔｅｎｔｉｏｎ　ｏｆ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｌ　ｒｉｇｈｔ．．．　Ｗｅｌｌ，　Ｉ’ｌｌ　ｌｅｔ　ｙー"TCC_NEWLINE"ｏｕ　ｓｌｅｅｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ　ｗｏｕｌｄ　ｂｅ　ｈａｐｐｙ　ｔｏ　ｂｒｉｎｇ"TCC_NEWLINE"　ｙｏｕ　ｓｏｍｅ　ｆｏｏｄ，　ｉｆ　ｙｏｕ’ｒｅ　ｈｕｎー"TCC_NEWLINE"ｇｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ａｂｏｕｔ　ｓｏｍｅ　ｂｒｅａｄ？　Ｏｒ　ｍａｙｂー"TCC_NEWLINE"ｅ　ｙｏｕ’ｄ　ｐｒｅｆｅｒ　ｓｏｍｅ　ｓｏｕｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｙｅｓ．　Ｓｏｕｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

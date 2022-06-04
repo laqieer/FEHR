@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6022] = TCC_OPEN_LEFT 
+"世の中には" TCC_NEWLINE
+"まだまだ不思議なことが" TCC_NEWLINE
+"多いのですね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

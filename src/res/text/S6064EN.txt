@@ -1,0 +1,41 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6064_EN] = TCC_OPEN_LEFT
+"Ｌｏｒｄ　Ｊｕｌｉｕｓ．．．　Ｉ　ｄｏ　ｌｏｖｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6064_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_GENERIC_SOLDIER_RED
+"Ｙｏｕｒ　Ｈｉｇｈｎｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"．．．Ｗｈ－ｗｈｏ’ｓ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｌｅａｓｅ，　ｔａｋｅ　ｔｈｉｓ．　Ｉ　ｈｏｐｅ　ｙｏｕ"TCC_NEWLINE"　ｃａｎ　ｆｏｒｇｉｖｅ　ｔｈｅ　ｈｕｍｂｌｅ　ｑｕａｌｉー"TCC_NEWLINE"ｔｙ　ｏｆ　ｔｈｉｓ　ｆｏｏｄ　ａｎｄ　ｄｒｉｎｋ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｔｈｏｓｅ　ｃｏｎｄｅｍｎｅｄ　ｔｏ　ｄｅａｔｈ"TCC_NEWLINE"　ｄｅｓｅｒｖｅ　ａ　ｌａｓｔ　ｍｅａｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｎｏ．　Ｉ　ｃａｎ’ｔ　ｔａｋｅ　ｉｔ．　Ｌｅｔｉｚー"TCC_NEWLINE"ｉａ　ｔｏｌｄ　ｍｅ　ａｂｏｕｔ　ｔｈｅ　ｏｒｄｅｒｓ　ｓー"TCC_NEWLINE"ｈｅ　ｇａｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｓｈｅ　ｆｉｎｄｓ　ｏｕｔ　ｙｏｕ　ｄｉｄ　ｔｈｉｓ"TCC_NEWLINE"，　ｓｈｅ　ｗｉｌｌ　ｈａｖｅ　ｙｏｕ　ｐｕｎｉｓｈｅｄ．"TCC_NEWLINE"　Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ｔｈａｔ　ｈａｐｐｅｎ　ｆｏｒ　"TCC_NEWLINE"ｍｙ　ｓａｋｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕｒ　Ｈｉｇｈｎｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｅｍｐｉｒｅ　ｉｓ　ｄｉｖｉｄｅｄ．　Ｔｈｅ　ｐｅー"TCC_NEWLINE"ｏｐｌｅ　ｄｏ　ｎｏｔ　ｋｎｏｗ　ｗｈｏ，　ｂｅｔｗｅｅｎ"TCC_NEWLINE"　ｙｏｕ　ａｎｄ　Ｌｅｔｉｚｉａ，　ｉｓ　ｏｎ　ｔｈｅ　ｓー"TCC_NEWLINE"ｉｄｅ　ｏｆ　ｔｒｕｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｉｔｉｚｅｎｒｙ．．．ｅｖｅｎ　ｗｅ　ｓｏｌｄｉー"TCC_NEWLINE"ｅｒｓ．．．　Ｗｅ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈａｔ　ｔｏ　"TCC_NEWLINE"ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　Ｙｏｕｒ　Ｈｉｇｈｎｅｓｓ．．．　Ｙｏｕ　"TCC_NEWLINE"ｄｉｄｎ’ｔ　ｒｅａｌｌｙ　ｃｏｍｍｉｔ　ａｌｌ　ｔｈｏｓー"TCC_NEWLINE"ｅ　ｈｏｒｒｉｂｌｅ　ａｃｔｓ，　ｄｉｄ　ｙｏｕ？　Ｉ　ｎー"TCC_NEWLINE"ｅｅｄ　ｔｏ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ．　Ｉ　ｗｏｕｌｄ　ｎｏｔ　ａｃｔ　ａｇａｉｎｓｔ　ｍー"TCC_NEWLINE"ｙ　ｏｗｎ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｎ　ｉｔ　ｉｓ　ａｓ　ｗｅ　ｆｅａｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗ－ｗａｉｔ．　Ｄｏ　ｎｏｔ　ｂｅ　ｓａｔｉｓｆｉｅｄ　ｗー"TCC_NEWLINE"ｉｔｈ　ｍｙ　ａｎｓｗｅｒ　ａｌｏｎｅ．　Ｇｏ　ｔｏ　Ｌｅー"TCC_NEWLINE"ｔｉｚｉａ．　Ａｓｋ　ｆｏｒ　ｈｅｒ　ｔｒｕｔｈ　ａｓ　ｗー"TCC_NEWLINE"ｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｗａｎｔ　ｍｅ　ｔｏ．．．ａｓｋ　Ｄｉｒｅｃｔｏｒ"TCC_NEWLINE"　Ｌｅｔｉｚｉａ？　Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｍａｙ　ｂｅ　ｌｙｉｎｇ　ａｓ　ｆａｒ　ａｓ　ｙｏｕ　"TCC_NEWLINE"ｋｎｏｗ，　ｔｒｙｉｎｇ　ｔｏ　ｐｌａｙ　ｙｏｕ　ｆｏｒ　"TCC_NEWLINE"ａ　ｆｏｏｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｎｏｔ　ｂｅ　ｓｗａｙｅｄ　ｔｏ　ｔａｋｅ　ｓｉｄｅー"TCC_NEWLINE"ｓ　ｓｏ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｍｅｍｂｅｒ　ｔｈａｔ，　ａｆｔｅｒ　ｍｙ　ｅｘｅｃｕー"TCC_NEWLINE"ｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔａｋｅ　ｎｏ　ｏｎｅ　ａｔ　ｔｈｅｉｒ　ｗｏｒｄ．　Ｌｅー"TCC_NEWLINE"ａｒｎ　ａｌｌ　ｙｏｕ　ｃａｎ　ｂｅｆｏｒｅ　ｄｅｃｉｄｉー"TCC_NEWLINE"ｎｇ　ｆｏｒ　ｙｏｕｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｍｂｌａ’ｓ　ｆｕｔｕｒｅ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｄｅー"TCC_NEWLINE"ｔｅｒｍｉｎｅｄ　ｂｙ　ｒｏｙａｌｓ　ｌｉｋｅ　ｍｅ，　ｏー"TCC_NEWLINE"ｒ　ｌｉｋｅ　Ｌｅｔｉｚｉａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｉｌｌ　ｂｅ　ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　Ｅｍｂｌー"TCC_NEWLINE"ａ　ｗｈｏ　ｄｅｃｉｄｅ　ｉｔｓ　ｆａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

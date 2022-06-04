@@ -1,0 +1,73 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｗｈｙ？　Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏｅｓ　ｔｈｉｓ　ｍｏｒｔａｌ　ｓｔｉｌｌ　ｏｐー"TCC_NEWLINE"ｐｏｓｅ　ｍｅａｆｔｅｒ　Ｉ’ｖｅ　ｅｘｐｌａｉｎｅｄ　ｅー"TCC_NEWLINE"ｖｅｒｙｔｈｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｉａｎｄｒａ，　ｔｅｌｌ　ｍ"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉｓｎ’ｔ　ｔｈａｔ　ｓｏｍｅｔｈｉｎｇ．　Ｗｉｔｈ"TCC_NEWLINE"　ｍｙ　ｌｉｆｅ，　Ｔｒｉａｎｄｒａ　ａｎｄ　Ｐｌｕｍｅｒー"TCC_NEWLINE"ｉａ　ｃｏｕｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ．　Ｎｏｎｅ　ｏｆ　ｔｈａｔ　ｍａｔｔｅｒｓ．　Ｔｈｅ"TCC_NEWLINE"　ｏｎｌｙ　ｔｈｉｎｇ　ｔｈａｔ　ｍａｔｔｅｒｓ　ｉｓ　ｍー"TCC_NEWLINE"ｙ　ｂｒｏｔｈｅｒ．　Ｈｉｍ　ａｎｄ　ｈｉｍ　ａｌｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｎｅ　ｏｆ　ｔｈａｔ　ｍａｔｔｅｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｗｈｙ　ｗｏｕｌｄ　ｙｏｕ　ｗｉｓｈ　ｔｏ　ｒｅｔｕｒｎ　"TCC_NEWLINE"ｔｏ　ｒｅａｌｉｔｙ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃｈｏｏｓｅ　ｍｉｓｅｒｙ　ｏｖｅｒ　ｈａｐｐｉｎー"TCC_NEWLINE"ｅｓｓ？　Ｗｈａｔ　ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ａｗａｉｔｓ"TCC_NEWLINE"　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｆｒｉｅｎｄｓ！　Ｔｈａｔ’ｓ　ｗｈａｔ’ｓ　ａｗａｉｔｉー"TCC_NEWLINE"ｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｆｏｎｓｅ　ｉｓ　ａｌｉｖｅ　ａｎｄ　ｗｏｒｒｉｅｄ！"TCC_NEWLINE"　Ａｌｌ　ｙｏｕｒ　ｆｒｉｅｎｄｓ　ｈａｖｅ　ｂｅｅｎ　ｗー"TCC_NEWLINE"ａｉｔｉｎｇ　ｆｏｒ　ｙｏｕ　ｔｏ　ｗａｋｅ　ｕｐ　ｆｏｒ"TCC_NEWLINE"　ａ　ｌｏｎｇ　ｔｉｍｅ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　ｙｏｕ　ｄｏｎ’ｔ．．．ｙｏｕ’ｌｌ　ｎｅｖー"TCC_NEWLINE"ｅｒ　ｓｅｅ　ｅａｃｈ　ｏｔｈｅｒ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｏｎ’ｔ　ｅｖｅｒ　ｈｅａｒ　ｔｈｅ　ｓｏｕｎｄ"TCC_NEWLINE"　ｏｆ　ｏｎｅ　ａｎｏｔｈｅｒ’ｓ　ｖｏｉｃｅ　ａｇａｉｎ"TCC_NEWLINE"．．．　Ａｎｄ　ｔｈａｔ　ｉｓ　ｊｕｓｔ　ｔｏｏ　ｓａｄ　"TCC_NEWLINE"ｆｏｒ　ｍｅ　ｔｏ　ｓｔａｎｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｓ　ｗｈｙ　ｙｏｕ　ｈａｖｅ　ｔｏ　ｗａｋｅ　ｕー"TCC_NEWLINE"ｐ．　Ｙｏｕｒ　ｆｒｉｅｎｄｓ　ｍｉｓｓ　ｙｏｕ　ａｎｄ　"TCC_NEWLINE"ｗａｎｔ　ｙｏｕ　ｔｏ　ｃｏｍｅ　ｂａｃｋ　ｔｏ　ｔｈｅｍ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4133_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｌａｄｙ　Ｆｒｅｙｊａ’ｓ　ｇｅｔｔｉｎｇ　ｗｅａｋｅｒ！"TCC_NEWLINE"　Ｗｅ’ｒｅ　ｃｌｏｓｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｄｒｅａｍ　ｗｉｌｌ　ｅｎｄ　ｓｏｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｐｅｏｎｙ，　ｉｆ　ｔｈｉｓ　ｄｒｅａｍ　ｅｎｄｓ，　ｗｉー"TCC_NEWLINE"ｌｌ　ｙｏｕ　ｒｅａｌｌｙ　ｄｉｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｕｍ，　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｗｏｎ’ｔ　ａｌｌｏｗ　ｉｔ！　Ｉ　ｗｏｎ’ｔ　ｌｅｔ"TCC_NEWLINE"　ｙｏｕ　ｊｕｓｔ　ｄｉｓａｐｐｅａｒ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｎｋ　ｙｏｕ，　Ｓｈａｒｅｎａ．．．ｆｏｒ　ｔｈｉｎー"TCC_NEWLINE"ｋｉｎｇ　ｏｆ　ｍｅ．　Ｉ　ｃａｎ’ｔ　ｓａｙ　Ｉ’ｍ　ｎー"TCC_NEWLINE"ｏｔ　ｓａｄ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｓｔａｙ　ｗｉｔｈ　ｙｏｕ　"TCC_NEWLINE"ａｌｌ　ｆｏｒｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅ　ｄｒｅａｍ　ｈａｓ　ｔｏ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｄｏｎ’ｔ　ｎｅｅｄ　ｔｏ　ｗｏｒｒｙ，　Ｓｈａｒー"TCC_NEWLINE"ｅｎａ．　Ｏｎｃｅ　ｙｏｕ　ｗａｋｅ　ｕｐ，　ｉｔ’ｓ　ｌー"TCC_NEWLINE"ｉｋｅｌｙ　ｙｏｕ　ｗｏｎ’ｔ　ｒｅｍｅｍｂｅｒ　ａｎｙ　"TCC_NEWLINE"ｏｆ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｙｏｕ　ｗｏｎ’ｔ　ｅｖｅｎ　ｆｅｅｌ　ｓａｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ！　Ｔｈａｔ’ｓ　ｎｏｔ　ｗｈａｔ　Ｉ　ｗａｎｔ！　Ｉー"TCC_NEWLINE"ｆ　ｉｔ　ｅｎｄｓ　ｌｉｋｅ　ｔｈｉｓ，　ｔｈｅｎ．．．ｉー"TCC_NEWLINE"ｔ’ｓ　ｎｏ　ｄｉｆｆｅｒｅｎｔ　ｔｈａｎ　ｗｈｅｎ　ｗｅ"TCC_NEWLINE"　ｗｅｒｅ　ｃｈｉｌｄｒｅｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｌｏｓｅ　ｍｙ　ｆｒｉｅｎー"TCC_NEWLINE"ｄ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈｅｎ　ｗｅ　ｗｅｒｅ　ｙｏｕｎｇ，　ｗｅ　ｗｅｒｅ　ｓー"TCC_NEWLINE"ｏ　ｃｌｏｓｅ，　ａｎｄ　ｙｅｔ　Ｉ　ｃａｎ’ｔ　ｒｅｍｅー"TCC_NEWLINE"ｍｂｅｒ　ｗｈａｔ　ｙｏｕｒ　ｎａｍｅ　ｗａｓ　ｂａｃｋ　"TCC_NEWLINE"ｔｈｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｅｓｎ’ｔ　ｔｈａｔ　ｓｅｅｍ　ｈｅａｒｔｌｅｓｓ　ｏー"TCC_NEWLINE"ｆ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｆｏｒｇｅｔ　ｙｏｕ　ａｇー"TCC_NEWLINE"ａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏｎ’ｔ　ｃｒｙ，　Ｓｈａｒｅｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ，　ｔａｋｅ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｉｓ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａ　ｃｈａｉｎ　ｏｆ　ｆｌｏｗｅｒｓ．．．　Ｙｏｕ　ｍａｄー"TCC_NEWLINE"ｅ　ｉｔ　ｆｏｒ　ｍｅ　ｂａｃｋ　ｔｈｅｎ，　ｗｈｅｎ　ｗー"TCC_NEWLINE"ｅ　ｐｌａｙｅｄ　ｔｏｇｅｔｈｅｒ．　Ｉ’ｖｅ　ｋｅｐｔ　"TCC_NEWLINE"ｉｔ　ｅｖｅｒ　ｓｉｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｈａｖｅ　ｇｉｖｅｎ　ｍｅ　ｓｏ　ｍｕｃｈ　ｔｈａー"TCC_NEWLINE"ｔ　Ｉ　ｈｏｌｄ　ｄｅａｒ．　Ａｎｄ　ｙｏｕ　ｃｏｎｔｉｎー"TCC_NEWLINE"ｕｅ　ｔｏ　ｇｉｖｅ　ｅｖｅｎ　ｓｔｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｗｏｒｄｓ　ｙｏｕ’ｖｅ　ｇｉｖｅｎ　ｍｅ　ｈｅｒー"TCC_NEWLINE"ｅ　ａｒｅ　ｎｏｗ　ｅｔｃｈｅｄ　ｏｎ　ｍｙ　ｈｅａｒｔ　"TCC_NEWLINE"ｆｏｒｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｅｖｅｎ　ｉｆ　ｗｅ　ｄｏ　ｆｏｒｇｅｔ，　ｔｈａー"TCC_NEWLINE"ｔ　ｄｏｅｓ　ｎｏｔ　ｕｎｄｏ　ｅｖｅｒｙｔｈｉｎｇ　ｔｈー"TCC_NEWLINE"ａｔ’ｓ　ｈａｐｐｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｖｅ　ｂｅｅｎ　ｆｒｉｅｎｄｓ　ｅｖｅｒ　ｓｉｎｃｅ"TCC_NEWLINE"　ｗｅ　ｍｅｔ　ｉｎ　ｔｈａｔ　ｆｌｏｗｅｒ　ｇａｒｄｅｎ"TCC_NEWLINE"．　Ｎｏｔｈｉｎｇ　ｃａｎ　ｃｈａｎｇｅ　ｔｈａｔ，　ｒｉー"TCC_NEWLINE"ｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｕｔ　Ｉ　ｃａｎ’ｔ　ｓｔａｎｄ　ｔｈｅ　ｔｈｏｕｇｈｔ"TCC_NEWLINE"　ｏｆ　ｙｏｕ　ｄｙｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｎｋ　ｙｏｕ，　Ｓｈａｒｅｎａ．．．　Ｂｕｔ　ｅｖｅー"TCC_NEWLINE"ｎ　ｔｈｅ　ｓｗｅｅｔｅｓｔ　ｄｒｅａｍｓ　ｃｏｍｅ　ｔｏ"TCC_NEWLINE"　ａｎ　ｅｎｄ　ｅｖｅｎｔｕａｌｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ａｌｌ　ｍｕｓｔ　ｆａｃｅ　ｔｈａｔ　ｒｅａｌｉｔｙ"TCC_NEWLINE"　ａｔ　ｓｏｍｅ　ｐｏｉｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ．．．ｉｆ　ｔｈｅｒｅ’ｓ　ｓｏｍｅ　ｗａｙ　"TCC_NEWLINE"ｙｏｕ　ｃａｎ　ｒｅｍｅｍｂｅｒ　ｍｅ，　ｔｈｅｎ　ｍａｙー"TCC_NEWLINE"ｂｅ　ｗｅ　ｃａｎ　ｍｅｅｔ　ａｇａｉｎ　ｓｏｍｅｄａｙ，"TCC_NEWLINE"　ｓｏｍｅｈｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｂｏｔｈ　ｐｒａｙ　ｔｈａｔ　ｄａｙ　ｃｏｍｅー"TCC_NEWLINE"ｓ！　Ｔｈｅｒｅ’ｓ　ｎｏｔｈｉｎｇ　ｍｏｒｅ　ｗｅ　ｃａー"TCC_NEWLINE"ｎ　ｄｏ，　ｓｏ　ｎｏ　ｓｅｎｓｅ　ｉｎ　ｗｏｒｒｙｉｎｇ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｅｏｎｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅｅ　ｈｅｅ！　Ａｎｄ　ｉｆ　ｉｔ　ＩＳ　ｐｏｓｓｉｂｌー"TCC_NEWLINE"ｅ，　ｏｈ．．．　Ｔｈａｔ　ｗｉｌｌ　ｍａｋｅ　ｍｅ　ｓｏ"TCC_NEWLINE"，　ｓｏ　ｈａｐｐｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

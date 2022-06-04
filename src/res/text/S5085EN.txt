@@ -1,0 +1,50 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"＊ｙａｗｎ＊　Ｗｈｅｗ！　Ｉ　ｍｕｓｔ　ｈａｖｅ　ｆａｌｌー"TCC_NEWLINE"ｅｎ　ｉｍｍｅｄｉａｔｅｌｙ　ａｓｌｅｅｐ　ｌａｓｔ　ｎｉー"TCC_NEWLINE"ｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｇｕｅｓｓ　Ｉ　ｍｕｓｔ　ｈａｖｅ　ｅａｔｅｎ　ｔｏｏ"TCC_NEWLINE"　ｍｕｃｈ　ｏｆ　ｔｈａｔ　ｆｏｏｄ　Ｐｒｉｎｃｅｓｓ　Ｎー"TCC_NEWLINE"ｔｔ　ｍａｄｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！　．．．Ｐｒｉｎｃｅｓｓ　"TCC_NEWLINE"Ｒｅｇｉｎｎ？　Ｃｏｍｍａｎｄｅｒ，　ｈａｖｅ　ｙｏｕ　ｓー"TCC_NEWLINE"ｅｅｎ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈｅ　ｉｓｎ’ｔ　ｉｎ　ｈｅｒ　ｒｏｏｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｎｏ．　Ｎｏｒ　ｉｓ　ｓｈｅ　ａｎｙｗｈｅｒｅ　ｅｌｓｅ　"TCC_NEWLINE"ｎｅａｒｂｙ　ａｓ　ｆａｒ　ａｓ　Ｉ　ｃａｎ　ｔｅｌｌ．．"TCC_NEWLINE"．　Ｎｏ　ｏｎｅ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　ｓｅｅｎ　ｈー"TCC_NEWLINE"ｅｒ　ｓｉｎｃｅ　ｌａｓｔ　ｎｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？　Ｄｏ　ｙｏｕ　ｋｎｏｗ　ａｎｙｔｈｉｎｇ　ａｂー"TCC_NEWLINE"ｏｕｔ　ｔｈｉｓ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｗｅｎｔ　ｔｏ　ｔｈｅ　Ｔｏｗｅｒ　ｏｆ　Ｎｉａｖー"TCC_NEWLINE"ｅｌｌｉｒ？　Ａｎｄ　ｓｈｅ　ｗｅｎｔ　ａｌｏｎｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？！　Ｓｈｅ　ｄｉｄ　ｓａｙ　ｓｈｅ　ｆｅｌｔ　ｂー"TCC_NEWLINE"ａｄ　ａｂｏｕｔ　ｔｈｅ　ｄａｍａｇｅ　Ｆｆｎｉｒ　ｃａｕー"TCC_NEWLINE"ｓｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｎｄ　ｏｎ　ｔｏｐ　ｏｆ　ｔｈａｔａｎｄ　ｔｈｉｓ　ｉｓ"TCC_NEWLINE"　ｊｕｓｔ　ａ　ｇｕｅｓｓ，　ｂｕｔｓｈｅ　ｐｒｏｂａｂｌー"TCC_NEWLINE"ｙ　ｃａｎ’ｔ　ｓｔａｎｄ　ｓｅｅｉｎｇ　ｈｅｒ　ｂｒｏｔー"TCC_NEWLINE"ｈｅｒ　ｓｕｆｆｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｅｇａｒｄｌｅｓｓ　ｏｆ　ｈｅｒ　ｒｅａｓｏｎｓ，　ｉｔ"TCC_NEWLINE"’ｓ　ｆａｒ　ｔｏｏ　ｄａｎｇｅｒｏｕｓ　ｆｏｒ　ｈｅｒ　"TCC_NEWLINE"ｔｏ　ｇｏ　ｔｈｅｒｅ　ａｌｏｎｅ．　Ｗｅ　ｈａｖｅ　ｔｏ"TCC_NEWLINE"　ｇｏ　ａｆｔｅｒ　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5085_EN] = TCC_OPEN_LEFT
+"Ｈｅｒ　ｆａｃｅ　ｉｓ　ｄｉｍ，　ｂｕｔ　ｉｔ　ｉｓ　ｔｈー"TCC_NEWLINE"ｅｒｅ，　ｅｔｃｈｅｄ　ｉｎ　ｔｈｅ　ｒｅｃｅｓｓｅｓ　ｏー"TCC_NEWLINE"ｆ　ｍｅｍｏｒｙ．．．　ｔｈｅ　ｆａｃｅ　ｏｆ　ｍｙ．．．"TCC_NEWLINE"ｍｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5085_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｇｕｈｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LOKI
+"Ｗｅｌｌ　ｎｏｗ，　Ｋｉｎｇ　Ｆｆｎｉｒ．．．　Ｑｕｉｔｅ"TCC_NEWLINE"　ｔｈｅ　ｐａｔｈｅｔｉｃ　ｓｔａｔｅ　ｙｏｕ’ｖｅ　ｆｏー"TCC_NEWLINE"ｕｎｄ　ｙｏｕｒｓｅｌｆ　ｉｎ　ｈｅｒｅ，　ｉｓｎ’ｔ　ｉー"TCC_NEWLINE"ｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｏ．．．ｗｈｏ　ａｒｅ　ｙｏｕ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ｎａｍｅ　ｉｓ　Ｌｏｋｉ．　Ｅｎｃｈａｎｔｅｄ，　Ｉ"TCC_NEWLINE"’ｍ　ｓｕｒｅ．　Ｐｌｅａｓａｎｔｒｉｅｓ　ａｓｉｄｅ，　"TCC_NEWLINE"ｙｏｕ　ｓｅｅｍ　ｔｏ　ｂｅ　ｉｎ　ｑｕｉｔｅ　ｔｈｅ　ｐー"TCC_NEWLINE"ｒｅｄｉｃａｍｅｎｔ，　ｈｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔｅｄ　ｔｏ　ｏｆｆｅｒ　ｍｙ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈａｈ．　Ｗｈａｔ　ｈｅｌｐ　ｃａｎ　ｙｏｕ，　ａ　ｓｔｒー"TCC_NEWLINE"ａｎｇｅｒ，　ｐｏｓｓｉｂｌｙ　ｈａｖｅ　ｔｏ　ｏｆｆｅｒ"TCC_NEWLINE"　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ．．．　Ｓｏ　ｙｏｕ　ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　Ｉ　"TCC_NEWLINE"ｃａｎ　ｈｅｌｐ　ｙｏｕ　ｔｈｅｎ？　Ｗｅｌｌ　ｔｈａｔ’"TCC_NEWLINE"ｓ　ｊｕｓｔ　ｈｕｒｔｆｕｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｄｏ　ｙｏｕ　ｑｕｅｓｔｉｏｎ　ｗｈｅｔｈｅｒ　Ｉ　ａｍ　"TCC_NEWLINE"ｃｏｎｃｅｒｎｅｄ　ｆｏｒ　ｙｏｕ，　Ｂｒｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ｉｓ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｆｆｎｉｒ．．．　Ｂｒｏｔｈｅｒ．．．　Ｉ’ｍ　ｓｏｒｒｙ"TCC_NEWLINE"　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｉｍｐｒｉｓｏｎｅｄ！　Ｉ’ｌｌ"TCC_NEWLINE"　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｈｅｌｐ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ａｎｄ　ｗｈａｔ　ｄｏ　ｙｏｕ　ｓｕｐｐｏｓｅ　Ｉ　"TCC_NEWLINE"ｈａｖｅ　ｔｏ　ｏｆｆｅｒ　ｙｏｕ　ｎｏｗ？　Ｆｒｅｅｉｎー"TCC_NEWLINE"ｇ　ｙｏｕ　ｆｒｏｍ　ｔｈｉｓ　ｐｌａｃｅ　ｗｏｕｌｄ　ｂー"TCC_NEWLINE"ｅ　ｃｈｉｌｄ’ｓ　ｐｌａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ．．．　Ｆｒｅｅｄｏｍ　ｈａｓ　ｉｔｓ　ｐｒー"TCC_NEWLINE"ｉｃｅ．　Ｓｏ，　ｌｉｓｔｅｎ　ｃｌｏｓｅｌｙ　ｎｏｗ，　"TCC_NEWLINE"Ｋｉｎｇ　Ｆｆｎｉｒ．．．　Ｉ　ｎｅｅｄ　ｙｏｕ　ｔｏ　ｄー"TCC_NEWLINE"ｏ　ｓｏｍｅｔｈｉｎｇ　ｆｏｒ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

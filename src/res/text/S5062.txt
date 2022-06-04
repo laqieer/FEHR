@@ -1,0 +1,111 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5062] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"光が強くなってきた。。。" TCC_NEWLINE
+"もうすぐオッテルお兄ちゃんに" TCC_NEWLINE
+"追いつけるの。でも。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"この先って。。。賢者の森じゃないですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ちょっと！" TCC_NEWLINE
+"エイトリもオッテルの" TCC_NEWLINE
+"仲間だったってこと！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"可能\性はあります。" TCC_NEWLINE
+"ノート王女の件もありますし。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_DAGR
+"ねー姉貴ぃ。何か聞いてねーの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_NOTT
+"なぁんにも。オッテルはただ" TCC_NEWLINE
+"魔剣と召喚師をよこせーって。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_DAGR
+"はあ。。。" TCC_NEWLINE
+"なーんでそれで協力するかな。" TCC_NEWLINE
+"逆にすげーわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_NOTT
+"だって顔がよかったんだもん！！" TCC_NEWLINE
+"好みだったんだもん！！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"と。。。とにかく祠へ急ごう。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "も" TCC_NEWLINE
+"そこにいるかもしれない！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5062] = TCC_OPEN_LEFT 
+"姉貴、フロリーナ。。。" TCC_NEWLINE
+"いつかきっと、" TCC_NEWLINE
+"お金たくさん持って帰るからね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5062] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_EITRI
+"やあ、また会ったね召喚師どの。" TCC_NEWLINE
+"ご機嫌いかがかな？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。ふふ、そんな顔で睨まないでくれよ。" TCC_NEWLINE
+"私は別に君たちを騙したわけじゃない。" TCC_NEWLINE
+"黙っていただけさ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_OTR
+"エイトリ。これでいいんだな？" TCC_NEWLINE
+"本当にこいつの魂があれば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ。扉を壊す神器" TCC_NEWLINE
+"【ヤールングレイプル】を" TCC_NEWLINE
+"造ることができるはずだ。" TCC_NEWLINE TCC_PUSH_A
+"さっそく準備に取り掛かろう。" TCC_NEWLINE
+"ああそうだ、召喚師どの。" TCC_NEWLINE
+"君の神器も渡してもらおうか。" TCC_NEWLINE TCC_PUSH_A
+""
+"大人しく従った方がいい。" TCC_NEWLINE
+"。。。そう、いい子だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"急げよ。報告によるとノートもダグも" TCC_NEWLINE
+"アスクの連中についたらしい。" TCC_NEWLINE TCC_PUSH_A
+""
+"ノート。。。あのバカ女め！" TCC_NEWLINE
+"しくじった上に僕の敵に回るのか！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あのまま放っておいても" TCC_NEWLINE
+"よかったんだけどね。" TCC_NEWLINE TCC_PUSH_A
+"彼らは魔剣と召喚師を連れて" TCC_NEWLINE
+"私の元へ戻ってきただろうから。" TCC_NEWLINE TCC_PUSH_A
+"確かにアスクの特務機関は" TCC_NEWLINE
+"片付けておくに越したことはないが。。。" TCC_NEWLINE
+"オッテル、何をそんなに焦っているんだい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。焦ってなどいない。" TCC_NEWLINE
+"さあ、さっさと始めろ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうしたいところだけど。。。どうやら" TCC_NEWLINE
+"アルフォンス王子たちが戻ってきたようだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"何だと！？　なぜここだと。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。！　レギンのコンパスか。。。！？" TCC_NEWLINE
+"あいつ、あんなものをまだ。。。くそっ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうやら君の失態のようだな。" TCC_NEWLINE
+"じゃあ彼らの相手は任せるよ。" TCC_NEWLINE TCC_PUSH_A
+"私はゆっくりこの神器と召喚師を" TCC_NEWLINE
+"調べさせてもらおう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ、それでいい。あのうるさい蠅ども、" TCC_NEWLINE
+"今度こそ叩き潰してやる。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

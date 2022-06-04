@@ -1,0 +1,25 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6023_EN] = TCC_OPEN_LEFT
+"Ｔｈｅ　ｒｏａｄ　ｔｏ　ｓｔｒｅｎｇｔｈ．．．　Ｆｏｒ　ｙー"TCC_NEWLINE"ｏｕ，　Ｉ　ｇｕｅｓｓ，　ｔｈａｔ　ｍｅａｎｓ　ｓｅｅｋｉー"TCC_NEWLINE"ｎｇ　ｓｔｒｏｎｇｅｒ　Ｈｅｒｏｅｓ，　ｄｏｅｓｎ’ｔ　ｉー"TCC_NEWLINE"ｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6023_EN] = TCC_OPEN_LEFT
+"Ｅｖｅｒｙｔｈｉｎｇ　ｉｓ　ｐｒｏｃｅｅｄｉｎｇ　ａｓ　ｐー"TCC_NEWLINE"ｌａｎｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ａｌｒｅａｄｙ　ａ　ｍａｊｏｒｉｔｙ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅ　ｇｒｅａｔ　ｈｏｕｓｅｓ　ｈａｖｅ　ｓｉｄｅｄ　ｗｉｔー"TCC_NEWLINE"ｈ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ　ｉｓ　ｗｉｌｌｉｎｇ　ｔｏ　ｄｏ　ｔｈｅー"TCC_NEWLINE"ｉｒ　ｐａｒｔ　ｉｆ　ｉｔ　ｍｅａｎｓ　ｒｅｍｏｖｉｎｇ　"TCC_NEWLINE"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｆｒｏｍ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ，　ａｓ　ｉｍｐｅｒｉａｌ　ｍａｒｑｕｅｓｓ，"TCC_NEWLINE"　ｈａｖｅ　ｔｈｅ　ｆｏｒｃｅ　ｏｆ　ｔｈｅ　ｖａｓｓａｌ"TCC_NEWLINE"　ｈｏｕｓｅｓ　ｉｎ　ｓｕｃｈ　ｒｅｇｉｏｎｓ　ｂｅｈｉｎー"TCC_NEWLINE"ｄ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｎ　ｔｈｅ　ｅｍｐｉｒｅ　ｗｉｌｌ　ｆｏｌｌｏｗ　ｔー"TCC_NEWLINE"ｈｅ　ｄｉｒｅｃｔｉｏｎ　ｏｆ　ｍｙ　ｃｈｏｏｓｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．　Ａｎｄ　ｓｏ，　ｃｏｎｓｉｄｅｒ　ｙｏｕｒ　ｒｅー"TCC_NEWLINE"ｑｕｅｓｔ　ｇｒａｎｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｈｏｎｏｒｅｄ．　Ｎｏｗ，　ｔｈｅｒｅ　ｉｓ　ｏー"TCC_NEWLINE"ｎｅ　ｍａｔｔｅｒ　ｌｅｆｔ　ｔｏ　ｄｉｓｃｕｓｓ．　Ｔｈー"TCC_NEWLINE"ｅ　ｅｍｐｅｒｏｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｕｔ　ｙｏｕｒ　ｍｉｎｄ　ａｔ　ｅａｓｅ．　Ｔｈｅ　ｅｍー"TCC_NEWLINE"ｐｅｒｏｒ　ｉｓ　ｎｏ　ｆｒｉｅｎｄ　ｔｏ　Ｖｅｒｏｎｉｃー"TCC_NEWLINE"ａ．　Ａｆｔｅｒ　ａｌｌ，　ｔｈｅ　ｔｗｏ　ｓｈａｒｅ　ｎー"TCC_NEWLINE"ｏ　ｂｌｏｏｄ　ｂｅｔｗｅｅｎ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　Ｖｅｒｏｎｉｃａ　ｆａｃｅｓ　ａｃｃｕｓａｔｉｏー"TCC_NEWLINE"ｎ，　ｓｈｅ　ｗｉｌｌ　ｂｅｃｏｍｅ　ａ　ｐｏｌｉｔｉｃａー"TCC_NEWLINE"ｌ　ｌｉａｂｉｌｉｔｙ　ａｎｄ　ａ　ｔｈｒｅａｔ　ｔｈｅ　"TCC_NEWLINE"ｅｍｐｅｒｏｒ’ｓ　ｃｏｎｔｒｏｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　Ｖｅｒｏｎｉｃａ　ｍｏｒｅ　ｐｏｐｕｌａｒ　ｗｉー"TCC_NEWLINE"ｔｈ　ｔｈｅ　ｐｅｏｐｌｅ，　ｔｈｅ　ｅｍｐｅｒｏｒ　ｗｉー"TCC_NEWLINE"ｌｌ　ｌｉｋｅｌｙ　ｎｏｔ　ｓｈｙ　ａｗａｙ　ｆｒｏｍ　ｒー"TCC_NEWLINE"ｅｍｏｖｉｎｇ　ｔｈａｔ　ｔｈｒｅａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ　ｕｓｅ　ｔｈｅ　ｏｐｐｏｒｔｕｎｉｔｙ　ｔｏ"TCC_NEWLINE"　ｈａｖｅ　Ｖｅｒｏｎｉｃａ　ｐｕｔ　ｉｎｔｏ　ｅｘｉｌｅ"TCC_NEWLINE"．．．　Ｐｅｒｈａｐｓ　ｅｖｅｎ　ｅｘｅｃｕｔｉｏｎ　ｗｉー"TCC_NEWLINE"ｌｌ　ｂｅ　ａｎ　ｏｐｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｘｃｅｌｌｅｎｔ．　Ｔｈｅｎ．．．ａｌｌｏｗ　ｍｅ　ｔｏ"TCC_NEWLINE"　ｐｒｏｐｏｓｅ　ａ　ｔｏａｓｔ　ｔｈｅｎ．　Ｔｏ　ｏｕｒ"TCC_NEWLINE"　ｓｕｃｃｅｓｓ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ａｎｄ　Ｖｅｒｏｎｉｃａ’ｓ　ｄｅｍｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

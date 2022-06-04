@@ -1,0 +1,24 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5013_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａｔｔｅｎｔｉｏｎ！　Ｄｖｅｒｇｒ　ｔｒｏｏｐｓ　ｈａｖｅ"TCC_NEWLINE"　ａｐｐｅａｒｅｄ　ｏｎ　ｔｈｅ　ｎｏｒｔｈｅｒｎ　ｂｏｒー"TCC_NEWLINE"ｄｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅｙ’ｒｅ　ｉｎ　ｔｈｅ　ｎｏｒｔｈ　ｔｈｉｓ　ｔｉｍー"TCC_NEWLINE"ｅ？！　Ｈｏｗ　ｃａｎ　ｗｅ　ｅｖｅｒ　ｋｎｏｗ　ｗｈｅｒー"TCC_NEWLINE"ｅ　ｔｈｅｙ’ｌｌ　ｓｈｏｗ　ｕｐ　ｉｆ　ｔｈｅｙ　ｃａｎ"TCC_NEWLINE"　ａｐｐｅａｒ　ａｎｙｗｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ’ｌｌ　ｍａｋｅ　ｓｔｒａｔｅｇｉｚｉｎｇ　ｔｒｉー"TCC_NEWLINE"ｃｋｙ，　ｅｖｅｎ　ｆｏｒ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅｙ　ａｒｅ　ｆｏｒｍｉｄａｂｌｅ　ｉｎｄｅｅｄ．　Ｅー"TCC_NEWLINE"ｖｅｒｙ　ｏｔｈｅｒ　ｃｏｕｎｔｒｙ　ｔｈｅｙ’ｖｅ　ｉｎー"TCC_NEWLINE"ｖａｄｅｄ　ｈａｓ　ｆａｌｌｅｎ，　ｏｎｅ　ｂｙ　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｔｈｅ　ｐｏｗｅｒ　ｇｒａｎｔｅｄ　ｔｏ　"TCC_NEWLINE"ｔｈｅｍ　ｂｙ　ｔｈｅｉｒ　ｍａｓｔｅｒｙ　ｏｆ　ｓｅｉｊー"TCC_NEWLINE"ｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｙ’ｖｅ　ａｌｒｅａｄｙ　ｃｏｎｑｕｅｒｅｄ　ｓｏ　"TCC_NEWLINE"ｍａｎｙ　ｏｔｈｅｒｓ？　Ａｌｆｏｎｓｅ，　ｔｈｉｓ　ａｌー"TCC_NEWLINE"ｌ　ｇｉｖｅｓ　ｍｅ　ａ　ｂａｄ　ｆｅｅｌｉｎｇ，　ｄｏｗー"TCC_NEWLINE"ｎ　ｔｏ　ｍｙ　ｂｏｎｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｅ　ｍｕｓｔｎ’ｔ　ｌｏｓｅ　ｈｏｐｅ，　Ｓｈａｒｅｎａ"TCC_NEWLINE"．　Ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｄｏｎ’ｔ　ｇｉｖｅ　ｕｐ"TCC_NEWLINE"，　ｗｅ　ｈａｖｅ　ａ　ｃｈａｎｃｅ．　Ｐｌｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｌｕｓ．．．ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｅ　ｍａｙ　ｂｅ　ａｂｌｅ　ｔｏ　ｇｅｔ　ｓｏｍｅ　ｉｎー"TCC_NEWLINE"ｓｉｇｈｔ　ｗｈｅｎ　ｎｅｘｔ　ｗｅ　ｍｅｅｔ　Ｐｒｉｎｃー"TCC_NEWLINE"ｅｓｓ　Ｒｅｇｉｎｎ．　Ｃａｌｌ　ｉｔ　ａ　ｆｅｅｌｉｎｇ"TCC_NEWLINE"　ｉｎ　ｍｙ　ｂｏｎｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ　ｔｅｌｌ　ｗｅ’ｒｅ　ｏｎ　ｔｈｅ　ｓａｍｅ　"TCC_NEWLINE"ｐａｇｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．　Ｉ’ｍ　ｇｌａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏｇｅｔｈｅｒ，　ｔｈｅｒｅ　ｉｓ　ｎｏ　ｏｂｓｔａｃｌー"TCC_NEWLINE"ｅ　ｔｏｏ　ｇｒｅａｔ　ｆｏｒ　ｕｓ　ｔｏ　ｏｖｅｒｃｏｍー"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈａｔ　ｉｓ　ｍｏｒｅ　ｔｈａｎ　ａ　ｆｅｅｌｉー"TCC_NEWLINE"ｎｇ　ｉｎ　ｔｈｅ　ｂｏｎｅｓＩ　ｋｎｏｗ　ｉｔ　ｉｎ　ｍー"TCC_NEWLINE"ｙ　ｈｅａｒｔ　ｏｆ　ｈｅａｒｔｓ．　Ｎｏｗ，　ｌｅａｄ　"TCC_NEWLINE"ｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

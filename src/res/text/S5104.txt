@@ -1,0 +1,116 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5104] = TCC_OPEN_LEFT 
+"どこであろうと、" TCC_NEWLINE
+"役目を果たすのみであります！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5104] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FAFNIR
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LOKI
+"お帰りなさい、ファフニール王。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"見つけたぞ。てめえの探し物はこれか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そうそう、これこれ。。。" TCC_NEWLINE
+"やっぱりここに隠してたのね。" TCC_NEWLINE TCC_PUSH_A
+"私、この神殿には入れないから" TCC_NEWLINE
+"助かっちゃったわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"これで気が済んだか。俺は帰る。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あらん、せっかちねえ。" TCC_NEWLINE
+"ちょっと待って。" TCC_NEWLINE TCC_PUSH_A
+""
+"ファフニール王、あなたが" TCC_NEWLINE
+"鮮血の神殿から持ち帰ったコレ、" TCC_NEWLINE
+"何だかおわかり？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"興味ねえ。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"いや、どこかで見たことが。。。" TCC_NEWLINE
+"そうだ、あのアスクの召喚師が" TCC_NEWLINE
+"持っていたやつに似ている。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そう、これは召喚の神器" TCC_NEWLINE
+"【ブレイザブリク】。" TCC_NEWLINE
+"。。。のニセモノ。" TCC_NEWLINE TCC_PUSH_A
+"本物はこの世界にひとつ、" TCC_NEWLINE
+"アスク王国にしかないの。" TCC_NEWLINE TCC_PUSH_A
+"これは神の力を手にしようとした" TCC_NEWLINE
+"哀れな賢者がつくったガラクタよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"賢者。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"私はその企みに気づいて" TCC_NEWLINE
+"この偽召喚器を奪おうとしたわ。" TCC_NEWLINE
+"でも気づかれちゃって。。。" TCC_NEWLINE TCC_PUSH_A
+"私の手出しできないこの神殿に" TCC_NEWLINE
+"隠されちゃったの。" TCC_NEWLINE TCC_PUSH_A
+"。。。ねえ、聞いてる？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"賢者。。。召喚器。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。まさか。。。いや、そうだとしたら俺は。。。" TCC_NEWLINE
+"いや、あの男は。。。！？" TCC_NEWLINE TCC_PUSH_A
+"教えろロキ！　あの男は何者だ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あらん、何のお話？" TCC_NEWLINE
+"私にはわからないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"とぼけるな！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そんなことをしても無駄よ。" TCC_NEWLINE
+"私は本当に知らないわ。" TCC_NEWLINE TCC_PUSH_A
+"もっと話を聞くべき相手が" TCC_NEWLINE
+"他にいるんじゃなくて。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。っ。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"兄さん！　こんなところにいたんだね。" TCC_NEWLINE
+"。。。誰？　そいつ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"帰るぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！？　兄さん！？" TCC_NEWLINE
+"でも、エンブラ帝国は。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうでもいい。それよりエイトリだ！" TCC_NEWLINE TCC_PUSH_A
+"あのガキ、締め上げて" TCC_NEWLINE
+"洗いざらい吐かせてやる。。。。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"エイトリ。。。！？　ま、待って兄さん！" TCC_NEWLINE
+"どうしたんだよいきなり。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ふふふ。。。思った通りにいきそう。" TCC_NEWLINE
+"じゃあこのニセモノはもう用なしね。" TCC_NEWLINE
+"壊しちゃいましょ。" TCC_NEWLINE TCC_PUSH_A
+""
+"魔道科学の国ニザヴェリル。。。" TCC_NEWLINE
+"ちょっと調子に乗っちゃったわね。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国の真似事にまで" TCC_NEWLINE
+"手を出すなんて。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちは力を持ち過ぎた。" TCC_NEWLINE
+"それはアルフォズル様の" TCC_NEWLINE
+"本意ではないの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

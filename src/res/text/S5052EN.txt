@@ -1,0 +1,48 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5052_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｉｎｇｒｉｄ　Ｂｒａｎｄｌ　Ｇａｌａｔｅａ．　Ｐー"TCC_NEWLINE"ｌｅａｓｕｒｅ　ｔｏ　ｍａｋｅ　ｙｏｕｒ　ａｃｑｕａｉｎｔー"TCC_NEWLINE"ａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5052_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｈｍｐｈ！　Ｉ　ｈａｖｅ　ｙｏｕ　ｎｏｗ．　Ａｈｈ．．．ａー"TCC_NEWLINE"ｎｄ　ｙｏｕ　ｍｕｓｔ　ｂｅ　ｔｈｅ　ｓｕｍｍｏｎｅｒ．　"TCC_NEWLINE"Ａｌｌ　ｒｉｇｈｔ．　Ｙｏｕ　ｗｉｌｌ　ｂｅ　ｃｏｍｉｎｇ"TCC_NEWLINE"　ｗｉｔｈ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｉｌｌ　ｂｅ　ｂｅｓｔ　ｆｏｒ　ｙｏｕ　ｔｏ　ｄｏ"TCC_NEWLINE"　ａｓ　Ｉ　ｓａｙ．　Ｉｆ　ｙｏｕ　ｄｏ　ｎｏｔ，　ｙｏｕー"TCC_NEWLINE"ｒ　ｐｕｎｉｓｈｍｅｎｔ　ｗｉｌｌ　ｂｅ　ｓｅｖｅｒｅ，　"TCC_NEWLINE"ｓｏ　ｆｏｒ　ｙｏｕｒ　ｏｗｎ　ｓａｋｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｎｏ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｎｔｔ，　ｗａｉｔ！　Ｗｈａｔ　ａｒｅ　"TCC_NEWLINE"ｙｏｕｒ　ｐｌａｎｓ　ｆｏｒ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5052_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗａｉｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｗｈｅｒｅ　ｈａｓ　ｍｙ　ｄａｍｎｅｄ　ｓｉｓｔｅｒ　ｇｏー"TCC_NEWLINE"ｎｅ　ｎｏｗ？！　Ｂｕｚｚｅｄ　ｏｆｆ，　Ｉ　ｇｕｅｓｓ！"TCC_NEWLINE"　Ｇｅｔ　ｂａｃｋ　ｈｅｒｅ，　ｙｏｕ．．．ＹＯＵ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｒｉｎｃｅｓｓ　Ｄａｇｒ！　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ　ｉー"TCC_NEWLINE"ｓ　ｇｏｎｅ！　Ｓｈｅ　ｔｏｏｋ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｕｈ？！　Ｗｈａｔ　ｉｓ　ｓｈｅ　ｕｐ　ｔｏ？　Ａｎｄ　"TCC_NEWLINE"ｗｈｙ　ｔａｋｅ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｅｔ’ｓ　ａｌｌ　ｃａｌｍ　ｄｏｗｎ！　Ｉ’ｍ　ｗｏｒｒー"TCC_NEWLINE"ｉｅｄ　ａｂｏｕｔ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｔｏｏ，　ｂー"TCC_NEWLINE"ｕｔ．．．ｉｓ　Ｇｒａｍｒ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｉ　ｓｅａｒｃｈｅｄ　ｔｈｅ　ｖａｕｌｔ，　ｂｕｔ　Ｉ　ｗー"TCC_NEWLINE"ａｓｎ’ｔ　ａｂｌｅ　ｔｏ　ｆｉｎｄ　ａｎｙｔｈｉｎｇ．．"TCC_NEWLINE"．　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ　ｍｕｓｔ　ｈａｖｅ　ｔａｋｅー"TCC_NEWLINE"ｎ　ｉｔ　ｗｉｔｈ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｒｉｎｃｅｓｓ　Ｄａｇｒ，　ｄｏ　ｙｏｕ　ｈａｖｅ　ａｎー"TCC_NEWLINE"ｙ　ｉｄｅａ　ｗｈｅｒｅ　ｓｈｅ　ｍｉｇｈｔ　ｈａｖｅ　ｇー"TCC_NEWLINE"ｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｍ．．．　Ｓｈｅ　ｄｏｅｓ　ｌｏｖｅ　ｈａｎｇｉｎｇ　"TCC_NEWLINE"ａｒｏｕｎｄ　ｈｅｒ　ｓｔｒｏｎｇｈｏｌｄ，　ｔｈｅ　Ｎｉー"TCC_NEWLINE"ｇｈｔ　Ｔｅｍｐｌｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｏｕｌｄ　ｓｈｅ　ｒｅａｌｌｙ　ｇｏ　ｔｏ　ｔｈー"TCC_NEWLINE"ｅ　ｆｉｒｓｔ　ｐｌａｃｅ　ｗｅ’ｄ　ｔｈｉｎｋ　ｏｆ？　"TCC_NEWLINE"Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ’ｖｅ　ｎｏ　ｃｈｏｉｃｅ．　Ｌｅｔ’ｓ　ｈｅａｄ　ｔー"TCC_NEWLINE"ｈａｔ　ｗａｙ　ａｓ　ｓｏｏｎ　ａｓ　ｗｅ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ａｃｔｕａｌｌｙ．．．　Ｈｅｙ，　Ａｌｆｓｔｅｒ！"TCC_NEWLINE"　．．．Ｈｅｙ！　Ａｒｅ　ｙｏｕ　ｉｇｎｏｒｉｎｇ　ｍｅ？"TCC_NEWLINE"　Ｊｕｓｔ　ｒｕｎｎｉｎｇ　ｏｆｆ，　ａｒｅ　ｙｏｕ？　Ｗー"TCC_NEWLINE"ｈａｔ’ｓ　ｔｈｅ　ＲＵＳＨ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｏｈ！　Ａｒｅ　Ａｌｆｓｔｅｒ　ａｎｄ　ｔｈｅ　ｓｕｍｍー"TCC_NEWLINE"ｏｎｅｒ．．．　Ａｒｅ　ｔｈｅｙ，　ｙ’ｋｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈｕｈ？　．．．Ｏｈ！　Ｎｏ，　ｎｏｔｈｉｎｇ　ｌｉｋｅ　"TCC_NEWLINE"ｔｈａｔ．　Ｂｕｔ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｉｓ，　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｇｕｅｓｓ　ｙｏｕ　ｃｏｕｌｄ　ｓａｙ　ｔｈｅｙ　ｓｈー"TCC_NEWLINE"ａｒｅ　ａ　ｓｐｅｃｉａｌ　ｂｏｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｉｓ　ｓｐｅｃｉａｌ　ｔー"TCC_NEWLINE"ｏ　ｍｅ　ｔｏｏ，　ｏｆ　ｃｏｕｒｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｐｌｅａｓｅ　ｓｔａｙ　ｓａｆｅ，　ｗｈａｔｅｖｅｒ　ｈａー"TCC_NEWLINE"ｐｐｅｎｓ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

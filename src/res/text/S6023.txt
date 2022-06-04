@@ -1,0 +1,57 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6023] = TCC_OPEN_LEFT 
+"お前も強さを。。。" TCC_NEWLINE
+"いや、強い英雄を求めるのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6023] = TCC_OPEN_LEFT 
+"。。。それでは、" TCC_NEWLINE
+"計画は予\定通り、" TCC_NEWLINE
+"というわけじゃな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ。" TCC_NEWLINE
+"既に有力貴族は" TCC_NEWLINE
+"過半がこちら側へ転んでおります。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女を引きずり下ろす。。。" TCC_NEWLINE
+"そのためなら、" TCC_NEWLINE
+"皆、喜んで口裏を合わせるでしょう。" TCC_NEWLINE TCC_PUSH_A
+"さらに、" TCC_NEWLINE
+"選帝侯のお一人であられる貴方様。。。" TCC_NEWLINE
+"辺境伯様のお力があれば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"帝国の盤面を" TCC_NEWLINE
+"わしの望む方にひっくり返せる。。。" TCC_NEWLINE
+"というわけか。" TCC_NEWLINE TCC_PUSH_A
+"ふむ、良かろう。" TCC_NEWLINE
+"そなたの願いを聞き届けようぞ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"光栄に存じます。" TCC_NEWLINE
+"残る唯一の懸念は、" TCC_NEWLINE
+"皇帝陛下ですが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"安心せい。皇帝は。。。あの女は、" TCC_NEWLINE
+"ヴェロニカの味方などせんよ。" TCC_NEWLINE
+"もともと実の親子でもないのだ。。。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカが罪に問われたとて、" TCC_NEWLINE
+"下手に庇えば自分の立場まで危うい。" TCC_NEWLINE
+"それに。。。" TCC_NEWLINE TCC_PUSH_A
+"民の人気を集めるのは" TCC_NEWLINE
+"いつも皇帝ではなくヴェロニカ。。。" TCC_NEWLINE
+"内心面白いはずがなかろう。" TCC_NEWLINE TCC_PUSH_A
+"この機に乗じて" TCC_NEWLINE
+"ヴェロニカを追放か。。。" TCC_NEWLINE
+"処刑を命じたとて不思議はあるまい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"実に結構\。" TCC_NEWLINE
+"それでは、乾杯致しましょうか。" TCC_NEWLINE
+"我らの計画の成功と。。。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女の" TCC_NEWLINE
+"処刑を祝して。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

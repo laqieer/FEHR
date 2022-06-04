@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5114_EN] = TCC_OPEN_LEFT
+"Ｉ　ｄｏｎ’ｔ　ｅｖｅｎ　ｋｎｏｗ　ｍｕｃｈ　ａｂｏｕｔ　"TCC_NEWLINE"ｗｈｅｒｅ　Ｉ　ｃｏｍｅ　ｆｒｏｍｏｒ　ｗｈｙ　Ｉ　ｈａｖー"TCC_NEWLINE"ｅ　ｔｈｉｓ　Ｃｒｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

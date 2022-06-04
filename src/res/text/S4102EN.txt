@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4102_EN] = TCC_OPEN_LEFT
+"Ｔｈｏｕｇｈ　ｓｏｍｅ　ｓｉｎｓ　ｃａｎｎｏｔ　ｂｅ　ｆｏー"TCC_NEWLINE"ｒｇｉｖｅｎ，　ｅｆｆｏｒｔ　ｔｏ　ｒｅｄｅｅｍ　ｏｎｅｓー"TCC_NEWLINE"ｅｌｆ　ｉｓ　ｎｅｖｅｒ　ｗａｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

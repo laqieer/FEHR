@@ -1,0 +1,20 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5012_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｄｅｃａｄｅｓ　ａｇｏ　ａ　ｃｏｕｐ　ｄ’ｔａｔ　ｔｏｐｐー"TCC_NEWLINE"ｌｅｄ　ｔｈｅ　ｋｉｎｇｄｏｍ　ｏｆ　Ｎｉａｖｅｌｌｉｒ，"TCC_NEWLINE"　ａｎｄ　ｔｈｅ　ｃｏｕｎｔｒｙ　ｆｅｌｌ　ｔｏ　ｒｕｉｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｔｉｌ　ｒｅｃｅｎｔｌｙ，　ｔｈｅｙ　ｗｏｕｌｄ　ｈａー"TCC_NEWLINE"ｖｅ　ｂｅｅｎ　ｃｏｍｐｌｅｔｅｌｙ　ｕｎａｂｌｅ　ｔｏ　"TCC_NEWLINE"ｍｕｓｔｅｒ　ａ　ｆｏｒｃｅ　ｌａｒｇｅ　ｅｎｏｕｇｈ　ｔー"TCC_NEWLINE"ｏ　ｉｎｖａｄｅ　ａ　ｃｏｕｎｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ｌｏｎｇ　ａｇｏ，　ａ　ｓｏｌｄｉｅｒ　ｓｅｉｚｅー"TCC_NEWLINE"ｄ　ｔｈｅ　ｔｈｒｏｎｅ　ｂｙ　ｆｏｒｃｅ．　Ｈｉｓ　ｎａー"TCC_NEWLINE"ｍｅ　ｉｓ　Ｆｆｎｉｒ，　ａｎｄ　ｈｅ　ｉｓ　ｎｏｗ　ｔｈー"TCC_NEWLINE"ｅｉｒ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈｅ　ｍｕｓｔ　ｂｅ　ｉｎｃｒｅｄｉｂｌｙ　ｓｔｒｏｎｇ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｏ　ａｃｃｏｍｐｌｉｓｈ　ｓｕｃｈ　ａ　ｆｅａｔ，　ｈｅ"TCC_NEWLINE"　ｓｕｒｅｌｙ　ｃｏｍｍａｎｄｓ　ａ　ｓｔｒｅｎｇｔｈ　ｂー"TCC_NEWLINE"ｅｙｏｎｄ　ａｎｙｔｈｉｎｇ　ｋｎｏｗｎ　ｔｏ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　Ｎｉａｖｅｌｌｉｒ　ｈｏｐｅｄ"TCC_NEWLINE"　ｆｏｒ　ａ　ｒｉｇｈｔｅｏｕｓ　ｋｉｎｇ，　ａｎｄ　ｔｈー"TCC_NEWLINE"ｅｙ　ｗｅｌｃｏｍｅｄ　Ｆｆｎｉｒ’ｓ　ｒｕｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆａｃｔ　ｔｈａｔ　ｈｅ　ｗａｓ　ｎｏｔ　ｄｖｅｒー"TCC_NEWLINE"ｇｒ　ｒｏｙａｌｔｙ　ｄｉｄｎ’ｔ　ｍａｔｔｅｒ　ｔｏ　ｔー"TCC_NEWLINE"ｈｅ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｔｈｅ　ｒｉｇｈｔｅｏｕｓｎｅｓｓ　ｔｈｅｙ　ｔｈー"TCC_NEWLINE"ｏｕｇｈｔ　ｔｈｅｙ　ｓａｗ　ｉｎ　ｈｉｍ　ｄｉｄｎ’ｔ　"TCC_NEWLINE"ｌａｓｔ　ｌｏｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｑｕｉｃｋｌｙ　ａｓ　ｈｅ’ｄ　ｔａｋｅｎ　ｔｈｅ　"TCC_NEWLINE"ｔｈｒｏｎｅ，　ｈｅ　ｂｅｃａｍｅ　ａ　ｔｙｒａｎｔ，　ｓー"TCC_NEWLINE"ｕｂｊｕｇａｔｉｎｇ　ｈｉｓ　ｐｅｏｐｌｅ　ａｎｄ　ｉｎｖー"TCC_NEWLINE"ａｄｉｎｇ　ｏｔｈｅｒ　ｃｏｕｎｔｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｎｄ　ｎｏｗ　ｈｉｓ　ｆｏｒｃｅｓ　ｈａｖｅ　ｆｉｎａｌー"TCC_NEWLINE"ｌｙ　ａｒｒｉｖｅｄ　ｉｎ　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｕｌｄ　ｐｏｗｅｒ　ｐｏｓｓｉｂｌｙ　ｃｏｒｒｕｐｔ　"TCC_NEWLINE"ａ　ｇｏｏｄ　ｈｅａｒｔ　ｓｏ　ｑｕｉｃｋｌｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈｏｐｅ　ｉｔ’ｓ　ｎｏｔ　ｓｏ　ｓｉｍｐｌｅ．．．　"TCC_NEWLINE"Ｔｈａｔ　ｗｏｕｌｄ　ｂｅ　ｔｏｏ　ｓａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

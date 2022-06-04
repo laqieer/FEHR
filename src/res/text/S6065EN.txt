@@ -1,0 +1,83 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ａｈ，　ｈｅｌｌｏ，　Ａｓｋｒａｎｓ．　Ｔｈｅ　ｄａｙ　ｗー"TCC_NEWLINE"ｅ’ｖｅ　ａｌｌ　ｂｅｅｎ　ｗａｉｔｉｎｇ　ｆｏｒ　ｉｓ　"TCC_NEWLINE"ｆｉｎａｌｌｙ　ｈｅｒｅ．　Ｈｏｗ　ｗｉｌｌ　ｙｏｕ　ｃｅー"TCC_NEWLINE"ｌｅｂｒａｔｅ　Ｖｅｒｏｎｉｃａ’ｓ　ｄｅａｔｈ？"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｙ　ｓｏｏｎ　ｎｏｗ．．．ｗｈｅｎ　ｔｈｅ　ｓｕｎ　"TCC_NEWLINE"ｒｅａｃｈｅｓ　ｉｔｓ　ａｐｅｘ，　ｔｈｅ　ｅｘｅｃｕｔｉー"TCC_NEWLINE"ｏｎ　ｗｉｌｌ　ｃｏｍｍｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃａｎ　Ｚａｃｈａｒｉａｓ　ｓｔｏｐ　ｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｉ’ｍ　ｃｅｒｔａｉｎ　Ｚａｃｈー"TCC_NEWLINE"ａｒｉａｓ　ｈａｓ　ａ　ｐｌａｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｆ　ｙｏｕ　ｗｉｓｈ　ｔｏ　ｃｏｎｖｅｙ　ａｎｙ　ｌａｓー"TCC_NEWLINE"ｔ　ｍｅｓｓａｇｅｓ　ｔｏ　Ｖｅｒｏｎｉｃａ，　ｎｏｗ　ｉー"TCC_NEWLINE"ｓ　ｔｈｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ａｒｒａｎｇｅ　ｔｏ　ｈａｖｅ　ｈｅｒ　ｈｅー"TCC_NEWLINE"ａｄ　ｓｅｎｔ　ｔｏ　ｙｏｕｂｕｔ　Ｉ　ｄｏｎ’ｔ　ｔｈｉー"TCC_NEWLINE"ｎｋ　ｓｈｅ　ｗｉｌｌ　ｂｅ　ｖｅｒｙ　ｔａｌｋａｔｉｖｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈ－ｈｏｗ　ｃａｎ　ｙｏｕ　ｓａｙ　ｓｕｃｈ　ｔｈｉｎｇｓ"TCC_NEWLINE"？！　Ｙｏｕ’ｒｅ　ｔｅｒｒｉｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｉ　ｓｕｐｐｏｓｅ　ｗｅ　ｃａｎ　ｗｉｔｈｄｒａｗ．．．　"TCC_NEWLINE"Ｂｕｔ　ｄｏ　ｋｎｏｗ　ｔｈａｔ　Ｉ　ｈａｖｅ　ｗｏｎ　ｈー"TCC_NEWLINE"ｅｒｅ，　ｅｖｅｎ　ｓｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ，　ｄｏｎ’ｔ　ｙｏｕ，　Ｐｒー"TCC_NEWLINE"ｉｎｃｅ　Ａｌｆｏｎｓｅ？　Ｙｏｕ’ｖｅ　ｌｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｉｌｅ　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｐｒｅｏｃｃｕｐｉｅｄ"TCC_NEWLINE"　ｗｉｔｈ　ｕｓ　ｈｅｒｅ，　Ｖｅｒｏｎｉｃａ’ｓ　ｅｘｅー"TCC_NEWLINE"ｃｕｔｉｏｎ　ｈａｓ　ｊｕｓｔ　ｂｅｅｎ　ｃｏｍｐｌｅｔｅー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｉｓ　ｔｏｏ　ｂａｄ　ｗｅ　ｈａｄ　ｔｏ　ｍｉｓｓ　"TCC_NEWLINE"ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｇａｒｄｌｅｓｓ，　ａｓ　ｐｒｏｍｉｓｅｄ，　ｙｏｕ　"TCC_NEWLINE"ｃａｎ　ｅｘｐｅｃｔ　ｔｏ　ｈａｖｅ　Ｖｅｒｏｎｉｃａ’ｓ"TCC_NEWLINE"　ｈｅａｄ　ｄｅｌｉｖｅｒｅｄ　ｔｏ　ｙｏｕ　ｉｎ　ｓｈｏー"TCC_NEWLINE"ｒｔ　ｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_GENERIC_SOLDIER_RED
+"Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ！　Ｉ　ｈａｖｅ　ａ　ｒｅー"TCC_NEWLINE"ｐｏｒｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｒｉｎｃｅｓｓ　ｈａｓ　ｂｅｅｎ　ｒｅｍｏｖｅｄ"TCC_NEWLINE"　ｆｒｏｍ　ｈｅｒ　ｃｅｌｌ，　ａｎｄ．．．ａｎｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｎｅｘｔ　ｗｏｒｄｓ　ｏｕｔ　ｏｆ　ｙｏｕｒ　ｍｏー"TCC_NEWLINE"ｕｔｈ　ｈａｄ　ｂｅｔｔｅｒ　ｂｅ　ｔｈａｔ　ｔｈｅ　ｅｘー"TCC_NEWLINE"ｅｃｕｔｉｏｎ　ｈａｓ　ｐｒｏｃｅｅｄｅｄ　ｗｉｔｈｏｕｔ"TCC_NEWLINE"　ｉｎｃｉｄｅｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅ　ｇｕａｒｄｓ　ｒｅｌｅａｓｅｄ　ｔｈｅ　ｐｒｉｎｃー"TCC_NEWLINE"ｅｓｓ！　Ｔｈｅｙ　ｌｅｔ　ｈｅｒ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉ　ｂｅｇ　ｙｏｕｒ　ｐａｒｄｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｉｓ　ｔｈｅ　ｍｅａｎｉｎｇ　ｏｆ"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｆｒｅｅｄ　ｈｅｒ？！　Ｔｒｅａｃｈｅｒｙ！　Ｉ"TCC_NEWLINE"　ｏｒｄｅｒｅｄ　ａｎ　ｅｘｅｃｕｔｉｏｎｏｎｅ　ｓｉｍｐー"TCC_NEWLINE"ｌｅ　ｅｘｅｃｕｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｉｓ　ｔｈｉｓ　ｐｏｓｓｉｂｌｅ？！　Ａｒｅ　ｔｈー"TCC_NEWLINE"ｅｓｅ　ｆｏｏｌ　ｓｏｌｄｉｅｒｓ　ｔｒｕｌｙ　ｓｏ　ｃｏー"TCC_NEWLINE"ｍｐｌｅｔｅｌｙ　ｕｓｅｌｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｔｈｅ　ｅｒｒｏｒ　ｗａｓ　ｏｎ　ｙｏｕｒ　ｐａｒｔ，　ｎー"TCC_NEWLINE"ｏｔ　ｔｈｅｉｒｓ，　Ｌｅｔｉｚｉａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙ－ＹＯＵ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6065_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｙｏｕ　ｌｉｅ　ｗｅｌｌ，　Ｌｅｔｉｚｉａ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｏｕ　ｌｉｅ　ｅｎｏｕｇｈ　ｔｏ　ｃｏｎｃｅａｌ"TCC_NEWLINE"　ｔｈｅ　ｔｒｕｔｈ，　ａｎｄ　ｅｖｅｎ　ｕｎｄｏ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｍｉｓｔａｋｅ　ｗａｓ　ｔｈｉｎｋｉｎｇ　ｔｈｏー"TCC_NEWLINE"ｓｅ　ｌｉｅｓ　ｗｏｕｌｄ　ｎｅｖｅｒ　ｃａｔｃｈ　ｕｐ　"TCC_NEWLINE"ｔｏ　ｙｏｕ，　ｔｈａｔ　ｙｏｕ　ｃｏｕｌｄ　ｓｉｍｐｌｙ"TCC_NEWLINE"　ｄｉｃｔａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｍｏｒｅ　ｌｉｅｓ　ｙｏｕ　ｔｅｌｌ　ｔｏ　ｄｉｓー"TCC_NEWLINE"ｇｕｉｓｅ　ｔｈｅ　ｔｒｕｅ　ｎａｔｕｒｅ　ｏｆ　ｔｈｉｎー"TCC_NEWLINE"ｇｓ，　ｔｈｅ　ｍｏｒｅ　ｆｒａｇｉｌｅ　ｔｈａｔ　ｆａｃー"TCC_NEWLINE"ａｄｅ　ｂｅｃｏｍｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｕｒｔｈｅｒ　ｆｒｏｍ　ｔｈｅ　ｔｒｕｔｈ，　ｔー"TCC_NEWLINE"ｈｅ　ｅａｓｉｅｒ　ｔｈｅ　ｌｉｅ　ｉｓ　ｔｏ　ｓｔｒｉｐ"TCC_NEWLINE"　ａｗａｙ．　Ｗｉｔｈ　ｔｈｏｓｅ　ｆａｌｓｅｈｏｏｄｓ　"TCC_NEWLINE"ｇｏｎｅ，　ｙｏｕ　ａｒｅ　ｅｘｐｏｓｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｓｕｇｇｅｓｔｉｎｇ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｓｐｒｅａｄ　ｙｏｕｒｓｅｌｆ　ｔｏｏ　ｔｈｉｎ，"TCC_NEWLINE"　ｔｒｙｉｎｇ　ｔｏ　ｃｏｖｅｒ　ｕｐ　ｔｈｅ　ｔｒｕｔｈ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｎｅｅｄｅｄ　ｔｏ　ｉｎｖｏｌｖｅ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ｏｕｔｓｉｄｅ　ｙｏｕｒ　ｉｎｎｅｒ　ｃｉｒｃｌｅ．　Ｓｕー"TCC_NEWLINE"ｒｅｌｙ　ｙｏｕ　ｋｎｅｗ　ｔｈｅｙ　ｗｅｒｅｎ’ｔ　ａｌー"TCC_NEWLINE"ｌ　ｐｅｒｆｅｃｔｌｙ　ｌｏｙａｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅ　ｅｖｅｎ　ｔｏｌｄ　ｍｅ　ｗｈａｔｅｖｅｒ　Ｉ　"TCC_NEWLINE"ｗａｎｔｅｄ　ｔｏ　ｋｎｏｗ　ｉｎ　ｆｕｌｌ　ｖｉｅｗ　ｏー"TCC_NEWLINE"ｆ　ｏｔｈｅｒ　ｓｏｌｄｉｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｆ　ｃｏｕｒｓｅ，　ｔｈｅｙ　ｃｏｕｌｄ　ｏｆｆｅｒ　ｍー"TCC_NEWLINE"ｅ　ｎｏ　ｐｒｏｏｆ　ｏｆ　ｗｈａｔ　ｔｈｅｙ　ｔｏｌｄ　"TCC_NEWLINE"ｍｅ，　ｗｈｉｃｈ　Ｉ’ｍ　ｓｕｒｅ　ｗａｓ　ａ　ｐａｒｔ"TCC_NEWLINE"　ｏｆ　ｙｏｕｒ　ｐｌａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｏｎｃｅ　ｔｈｅ　ｒｏｏｔｓ　ｏｆ　ｄｏｕｂｔ　ｔー"TCC_NEWLINE"ａｋｅ　ｈｏｌｄ　ｏｆ　ｔｈｅ　ｈｅａｒｔ，　ｉｔ　ｉｓ　"TCC_NEWLINE"ａ　ｄｉｆｆｉｃｕｌｔ　ｗｅｅｄ　ｔｏ　ｒｅｍｏｖｅ　ｉｎー"TCC_NEWLINE"ｄｅｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ｉｓ　ｉｎ　ｔｈｅ　ｒｉｇｈｔ？　Ｖｅｒｏｎｉｃａ"TCC_NEWLINE"　ｏｒ　Ｌｅｔｉｚｉａ？　Ｅｖｅｎ　ｔｈｅ　ｐｒｉｓｏｎ　"TCC_NEWLINE"ｇｕａｒｄｓ　ｗｅｒｅ　ｕｎｓｕｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｙ　ａｌｌ　ｓｏｏｎ　ｒｅａｌｉｚｅｄ　ｔｈー"TCC_NEWLINE"ｅ　ｔｒｕｔｈ．　Ａｎｄ　ｉｎ　ｔｈｅｉｒ　ｏｗｎ　ｗａｙ"TCC_NEWLINE"，　Ｉ　ｍｉｇｈｔ　ａｄｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｒｒ．．．　Ｈｏｗ　ｄａｒｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｖｅｒｏｎｉｃａ　ｗｉｌｌ　ｓｏｏｎ　ａｒｒｉｖｅ　ｊｏｉー"TCC_NEWLINE"ｎｅｄ　ｂｙ　ｔｈｅ　ｆｏｒｃｅｓ　ｆｒｏｍ　ｔｈｅ　ｐｒー"TCC_NEWLINE"ｉｓｏｎ　ｋｅｅｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｒｒｙ　ａｗａｙ　ｉｆ　ｙｏｕ　ｗａｎｔ　ａｎｙ　ｈｏー"TCC_NEWLINE"ｐｅ　ｏｆ　ｅｓｃａｐｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ．．．ｙｏｕ．．．　Ｉ　ｗｉｌｌ　ｎｏｔ　ｆｏｒｇｅー"TCC_NEWLINE"ｔ　ｔｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ　ｗｉｌｌ　ｍａｋｅ　ｙｏｕ　ｒｅｇｒｅｔ　ｉｔ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｚａｃｈａｒｉａｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈａｎｋ　ｙｏｕ，　Ｚａｃｈａｒｉａｓ．　Ｉｔ　ｓｅｅｍー"TCC_NEWLINE"ｓ　ｙｏｕ’ｖｅ　ｍａｎａｇｅｄ　ｔｏ　ｃｏｍｅ　ｔｏ　ｏー"TCC_NEWLINE"ｕｒ　ｒｅｓｃｕｅ　ｏｎｃｅ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｓｈｏｕｌｄ　ｂｅ　ｔｈｅ　ｏｎｅ　ｔｈａｎｋｉｎｇ　"TCC_NEWLINE"ｙｏｕ．　Ｂｕｔ　ｍａｔｔｅｒｓ　ａｒｅ　ｎｏｔ　ｙｅｔ　"TCC_NEWLINE"ｓｅｔｔｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｉｍｐｅｒｉａｌ　ｆｏｒｃｅｓ　ａｒｅ　ｄｉｖｉｄー"TCC_NEWLINE"ｅｄ　ｂｅｔｗｅｅｎ　Ｖｅｒｏｎｉｃａ　ａｎｄ　Ｌｅｔｉｚー"TCC_NEWLINE"ｉａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｆｉｇｈｔ　ｉｓ　ｎｏｔ　ｏｖｅｒ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

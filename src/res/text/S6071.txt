@@ -1,0 +1,172 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S6071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"援軍が来ない。。。？" TCC_NEWLINE TCC_PUSH_A
+"どういうことなの！" TCC_NEWLINE
+"ヴェロニカと監獄要塞の兵どもは" TCC_NEWLINE
+"反乱を起こしたのよ！" TCC_NEWLINE TCC_PUSH_A
+"選帝侯の軍が、" TCC_NEWLINE
+"エンブラ軍が、" TCC_NEWLINE
+"鎮圧に動くのが当然でしょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_GENERIC_SOLDIER_RED
+"そ、それが、" TCC_NEWLINE
+"兵の編成に" TCC_NEWLINE
+"時間を要しているとのことで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。選帝侯に伝えなさい、" TCC_NEWLINE
+"今すぐに軍を出し、" TCC_NEWLINE
+"ヴェロニカと反逆者どもを殺しなさい。。。" TCC_NEWLINE TCC_PUSH_A
+"でなければ、" TCC_NEWLINE
+"あなたが秘密にしておきたい真実を" TCC_NEWLINE
+"すべて暴\露すると。。。早くなさい！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"ヴェロニカと兵たちは" TCC_NEWLINE
+"今、エンブラ帝国内では" TCC_NEWLINE
+"反逆者とされているが。。。" TCC_NEWLINE TCC_PUSH_A
+"各有力貴族の軍は" TCC_NEWLINE
+"すぐには鎮圧には動いていない。" TCC_NEWLINE
+"。。。決めかねているようだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ヴェロニカ皇女は無実かどうか。。。" TCC_NEWLINE
+"真実がどちらにあるか、" TCC_NEWLINE
+"迷ってるってことでしょうか？" TCC_NEWLINE TCC_PUSH_A
+"それなら、" TCC_NEWLINE
+"すべてはレティシアさんの陰謀だって" TCC_NEWLINE
+"ちゃんと伝えれば。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"いや。。。貴族たちは最初から、" TCC_NEWLINE
+"ヴェロニカの無実を知っている。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"え。。。？" TCC_NEWLINE
+"えええ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ヴェロニカを陥れることは" TCC_NEWLINE
+"彼らの利でもあった。。。だから、" TCC_NEWLINE
+"陰謀を知りつつそれに加担した。" TCC_NEWLINE TCC_PUSH_A
+"そして今、" TCC_NEWLINE
+"彼らが決めかねているのは" TCC_NEWLINE
+"ただ一つ。。。" TCC_NEWLINE TCC_PUSH_A
+"レティシアか、ヴェロニカか。" TCC_NEWLINE
+"どちらに媚びを売れば" TCC_NEWLINE
+"今後、果実を得られるか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"そんな。。。じゃあ、" TCC_NEWLINE
+"ヴェロニカ皇女が無実って知ってて" TCC_NEWLINE
+"討伐に動くこともあるってことですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"それが" TCC_NEWLINE
+"エンブラの貴族というものだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"彼らが利で動くなら。。。" TCC_NEWLINE
+"それはそれで" TCC_NEWLINE
+"動きが読みやすいともいえる。" TCC_NEWLINE TCC_PUSH_A
+"レティシア将軍が形勢不利と見れば、" TCC_NEWLINE
+"彼らはあっさり彼女を見捨てるはずだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"はい。" TCC_NEWLINE
+"真実は必ず勝ちます！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そうだな。" TCC_NEWLINE
+"そうありたいものだ。" TCC_NEWLINE TCC_PUSH_A
+""
+"だが、エンブラ帝国では。。。" TCC_NEWLINE
+"勝った者が真実。。。" TCC_NEWLINE TCC_PUSH_A
+"形勢がこちらに傾くまで、" TCC_NEWLINE
+"敗北は許されない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"！" TCC_NEWLINE
+"今、報告があったわ。" TCC_NEWLINE
+"みんな、敵襲に備えて！" TCC_NEWLINE TCC_PUSH_A
+"レティシアが仕掛けてきたわ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"もう、言葉は不要です。" TCC_NEWLINE
+"挨拶も、交渉も、嘘も、何もかも。" TCC_NEWLINE TCC_PUSH_A
+"我が【呪詛部隊】の全力をもって。。。" TCC_NEWLINE
+"あなたたちを殲滅しましょう。" TCC_NEWLINE
+"行きなさい！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"あきらめはしない。。。決して！" TCC_NEWLINE
+"次こそは、次こそはっ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6071] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"敵軍は撤退。。。" TCC_NEWLINE
+"でもまたすぐに仕掛けてくるわ。" TCC_NEWLINE
+"警戒を続けましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"ヴェロニカたちはこちらへ向かっている。。。" TCC_NEWLINE
+"到着すれば、もはやレティシアも" TCC_NEWLINE
+"勝ち目はないと悟るだろう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"じゃあ、それまで時間を稼げば" TCC_NEWLINE
+"わたしたちの勝ちですね！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"それにしても、" TCC_NEWLINE
+"ヴェロニカ皇女の方じゃなく、" TCC_NEWLINE
+"私たちに攻撃を仕掛けてくるなんて。。。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女の件は、" TCC_NEWLINE
+"いってしまえば" TCC_NEWLINE
+"エンブラ帝国の内政問題よ。" TCC_NEWLINE TCC_PUSH_A
+"私たちアスク王国が表\立って干渉し、" TCC_NEWLINE
+"ヴェロニカ皇女と共闘するかは" TCC_NEWLINE
+"微妙なところだわ。" TCC_NEWLINE TCC_PUSH_A
+"なのにレティシアが" TCC_NEWLINE
+"今、私たちを狙うのは" TCC_NEWLINE
+"愚策だと思うけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"今、レティシアは疑心暗鬼だ。" TCC_NEWLINE TCC_PUSH_A
+"俺とアルフォンス達は旧知の仲。。。" TCC_NEWLINE
+"その情報もつかんでいる。" TCC_NEWLINE
+"それゆえに、恐れている。" TCC_NEWLINE TCC_PUSH_A
+"アスク王国はヴェロニカに味方し、" TCC_NEWLINE
+"レティシアを挟撃するかもしれない。。。" TCC_NEWLINE TCC_PUSH_A
+"そうなれば得意の逃げも通じない。" TCC_NEWLINE
+"捕らえられ、" TCC_NEWLINE
+"憎むべきヴェロニカの手で処刑される。。。" TCC_NEWLINE TCC_PUSH_A
+"それはレティシアには耐え難いことだ。" TCC_NEWLINE
+"その恐怖が彼女を駆り立てている。。。" TCC_NEWLINE TCC_PUSH_A
+"哀れとは言うまい。。。" TCC_NEWLINE
+"昔の彼女であれば。。。" TCC_NEWLINE
+"別の道もあっただろうが。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"昔の。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。" TCC_NEWLINE
+"幼い頃。。。" TCC_NEWLINE
+"レティシアとは親しかった。" TCC_NEWLINE TCC_PUSH_A
+"当時の彼女は" TCC_NEWLINE
+"絵物語に出てくる姫のように" TCC_NEWLINE
+"純粋で優しく、美しかった。。。" TCC_NEWLINE TCC_PUSH_A
+"子供同士の約束に過ぎないが。。。" TCC_NEWLINE
+"いつか、大人になったら二人で。。。" TCC_NEWLINE
+"そう語り合ったこともある。。。" TCC_NEWLINE TCC_PUSH_A
+"あの時の言葉もまた。。。" TCC_NEWLINE
+"嘘になったが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ザカリアさん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

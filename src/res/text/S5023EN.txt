@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5023_EN] = TCC_OPEN_LEFT
+"Ｉ　ａｍ　Ｇｅｎｅｒａｌ　Ｓｅｌｅｎａ，　ｔｈｅ　Ｆｌｕｏー"TCC_NEWLINE"ｒｓｐａｒ　ｏｆ　ｔｈｅ　Ｇｒａｄｏ　Ｅｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

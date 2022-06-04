@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5114] = TCC_OPEN_LEFT 
+"俺は自分がよくわかってねえ。" TCC_NEWLINE
+"何でこんな紋章を持っているかも。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6072] = TCC_OPEN_LEFT 
+"たとえ禁忌を犯してでも。。。" TCC_NEWLINE
+"私は神祖に。。。母に会いたかった。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,86 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｉｓ　ｓｔｉｌｌ　ｉｎ"TCC_NEWLINE"　ｐｕｒｓｕｉｔ．　Ｗｅ　ｎｅｅｄ　ｔｏ　ｐｕｔ　ｓｏｍｅ"TCC_NEWLINE"　ｄｉｓｔａｎｃｅ　ｂｅｔｗｅｅｎ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｅｍｂｌａ’ｓ　ｃｕｒｓｅ．．．　Ｓｈｅ’ｓ　ｂｅｉｎｇ　"TCC_NEWLINE"ｆｏｒｃｅｄ　ｔｏ　ｔｕｒｎ　ｏｎ　ｕｓ　ａｇａｉｎｓｔ　"TCC_NEWLINE"ｈｅｒ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｙｅｓ，　ｙｏｕｒ　ａｓｓｅｓｓｍｅｎｔ　ｉｓ　ａｃｃｕｒー"TCC_NEWLINE"ａｔｅ．　Ｍｏｒｔａｌｓ　ｗｈｏ　ｈａｖｅ　ｉｎｈｅｒｉｔー"TCC_NEWLINE"ｅｄ　Ｅｍｂｌａ’ｓ　ｂｌｏｏｄ　ｃａｎｎｏｔ　ｄｉｓｏｂー"TCC_NEWLINE"ｅｙ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｏ　ｅｖｅｎ　ｔｈｏｕｇｈ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎー"TCC_NEWLINE"ｉｃａ　ｄｏｅｓｎ’ｔ　ｗａｎｔ　ｔｏ　ｈｕｒｔ　ｕｓ，　"TCC_NEWLINE"ｓｈｅ　ｃａｎ’ｔ　ｈｅｌｐ　ｂｕｔ　ｆｉｇｈｔ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃａｎ　ｗｅ　ｅｖｅｒ　ｈｏｐｅ　ｔｏ　ｂｕｉｌｄ"TCC_NEWLINE"　ａｎｙ　ｓｏｒｔ　ｏｆ　ｒｅｌａｔｉｏｎｓｈｉｐ　ｂｅｔー"TCC_NEWLINE"ｗｅｅｎ　Ａｓｋｒ　ａｎｄ　Ｅｍｂｌａ　ｉｎ　ｔｈａｔ　ｃー"TCC_NEWLINE"ａｓｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｕｒｒｒｇｈ．．．　Ｒｒｒａａａｈｈｈ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｒ－ｒｕｎ！　Ｂｅ　Ｂｅｆｏｒｅ　ｔｈｅ　ｖｏｉｃｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"Ｋｉｌｌ．．．"
+TCC_NEWLINE TCC_PUSH_A
+"Ｒｕｎ　ｗｈｉｌｅ　ｙ"
+"Ｋｉｌｌ．．．Ａｓｋｒ！"
+TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｒｒｒ－ｒａａａｇｈｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｅｔ’ｓ　ｇｏｗｈｉｌｅ　ｗｅ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｂ－ｂｕｔ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．．．　Ｓー"TCC_NEWLINE"ｈｏｕｌｄ　ｗｅ　ｒｅａｌｌｙ　ｊｕｓｔ　ｌｅａｖｅ　ｈｅー"TCC_NEWLINE"ｒ　ｌｉｋｅ　ｔｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．Ｗｅ　ｈａｖｅ　ｔｏ　ｇｏ．　Ｗｅ　ｈａｖｅ　ｎｏ　"TCC_NEWLINE"ｃｈｏｉｃｅ．　Ｔｈｅｒｅ’ｓ　ｎｏｔｈｉｎｇ　ｅｌｓｅ　"TCC_NEWLINE"ｗｅ　ｃａｎ　ｄｏ　ｆｏｒ　ｈｅｒ　ｒｉｇｈｔ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6035_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｕｎｇｇｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｅａｄ．．．ｆｅｅｌｓ　ｌｉｋｅ　ｉｔ’ｓ　ｓｐｌー"TCC_NEWLINE"ｉｔｔｉｎｇ　ｉｎ　ｔｗｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｖｏｉｃｅ．．．ｗｏｎ’ｔ　ｓｔｏｐ．．．　Ｗｈー"TCC_NEWLINE"ｙ　ｈａｓ　ｔｈｉｓ．．．ｊｕｓｔ　ｓｔａｒｔｅｄ　ｈａｐー"TCC_NEWLINE"ｐｅｎｉｎｇ　ｔｏ　ｍｅ？　Ｗｈｙ．．．ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｖｅｒｏｎｉｃａ，　ｔｈｅｒｅ　ｙｏｕ　ａｒｅ．　Ｐｌｅａー"TCC_NEWLINE"ｓｅ，　ｄｏ　ｎｏｔ　ｒｕｎ　ａｇａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｉｓｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒｇｉｖｅ　ｍｅ．．．　Ｉ　ｄｉｄ　ｎｏｔ　ｍｅａｎ　"TCC_NEWLINE"ｔｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈａｔ　ｉｓ　ｇｏｏｄ．．．　Ｂｕｔ　ｕｎｆｏｒｔｕｎａー"TCC_NEWLINE"ｔｅｌｙ，　Ｖｅｒｏｎｉｃａ，　Ｉ　ｈａｖｅ　ｍｏｒｅ　ｂー"TCC_NEWLINE"ａｄ　ｎｅｗｓ　ｔｏ　ｄｅｌｉｖｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ａ　ｆｏｒｂｉｄｄｅｎ　ｔｏｍｅ　ｗａｓ"TCC_NEWLINE"　ｓｔｏｌｅｎ　ｆｒｏｍ　ｔｈｅ　ｉｍｐｅｒｉａｌ　ｖａｕー"TCC_NEWLINE"ｌｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｔｈｅ　ｇｕａｒｄｓ　ｗｅｒｅ　ｆｏｕｎｄ　ｄｅａー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｏ　ｗｏｕｌｄ　ｄｏ　ｓｕｃｈ　ａ　ｔｈｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｃｃｏｒｄｉｎｇ　ｔｏ　ａ　ｓｏｌｄｉｅｒ　ｗｈｏ　ｃｌー"TCC_NEWLINE"ａｉｍｓ　ｔｏ　ｈａｖｅ　ｓｕｒｖｉｖｅｄ　ｔｈｅ　ａｔｔー"TCC_NEWLINE"ａｃｋ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｏｒｅ　ｌｉｅｓ！　Ｉｔ　ｃｏｕｌｄ　ｎｏｔ　ｈａｖｅ　"TCC_NEWLINE"ｂｅｅｎ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　ｙｅｓ．　Ｉ　ｋｎｏｗ　ｔｈａｔ，　ｏｆ　ｃｏｕー"TCC_NEWLINE"ｒｓｅ．　Ｍｙ　ｌｉｔｔｌｅ　Ｖｅｒｏｎｉｃａ　ｃｏｕｌｄ"TCC_NEWLINE"　ｎｅｖｅｒ　ｄｏ　ｓｕｃｈ　ａ　ｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ｙｏｕ’ｖｅ　ｓｔｕｍｂｌｅｄ　ｉｎｔｏ"TCC_NEWLINE"　ａ　ｔｒａｐ．　Ｓｏｍｅｏｎｅ　ｉｓ　ｆｒａｍｉｎｇ　ｙー"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈ－ｗｈｏ　ｗｏｕｌｄ　ｄｏ　ｓｏｍｅｔｈｉｎｇ　ｌｉｋー"TCC_NEWLINE"ｅ　ｔｈａｔ　ｔｏ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｗｏｕｌｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｙ－ｙｏｕ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｍｅ．　Ｌｅｔｉｚｉａ．　Ｙｏｕｒ　Ｓｉｓｓｙ．"TCC_NEWLINE"　Ｉ　ｄｉｄ　ｔｈｉｓ　ｔｏ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ｅｌｓｅ　ｃｏｕｌｄ　ｈａｖｅ　ｗｏｎ　ｔｈｅ　ｌー"TCC_NEWLINE"ｏｙａｌｔｙ　ｏｆ　ｌｏｒｄｓ　ａｎｄ　ｎｏｂｌｅｓ，　ｌー"TCC_NEWLINE"ｅａｄｉｎｇ　ｔｈｅｍ　ｔｏ　ｓｕｓｐｉｃｉｏｎ，　ｔｏ　"TCC_NEWLINE"ｔｈｉｎｋ　ｙｏｕ　ｔｒｅａｓｏｎｏｕｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｎｖｉｎｃｉｎｇ　ｔｈａｔ　ｓｕｒｖｉｖｉｎｇ　ｓｏｌー"TCC_NEWLINE"ｄｉｅｒ　ｔｏ　ｓａｙ　ｅｘａｃｔｌｙ　ｗｈａｔ　Ｉ　ｗａー"TCC_NEWLINE"ｎｔｅｄ　ｗａｓ　ｔｈｅ　ｅａｓｙ　ｐａｒｔ．　Ｓｉｍｐｌー"TCC_NEWLINE"ｅ，　ｂｕｔ　ｅｆｆｅｃｔｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ．．．ｈｏｗ　ｃｏｕｌー"TCC_NEWLINE"ｄ　ｙｏｕ　ｄｏ　ｔｈｉｓ　ｔｏ"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ａｌｗａｙｓ　ｓｏ　ｋｉｎｄ　ｔｏ　ｍｅ"TCC_NEWLINE"．．．　Ｓｏ　ｃａｒｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｆ　ｃｏｕｒｓｅ！　Ｉ　ｈａｖｅ　ｂｅｅｎ　ｎｏｔｈｉｎー"TCC_NEWLINE"ｇ　ｂｕｔ　ｋｉｎｄ　ｔｏ　ｍｙ　ｓｗｅｅｔ　ｌｉｔｔｌｅ"TCC_NEWLINE"　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍａｋｅｓ　ｔｈｅ　ｓｔｉｎｇ　ｏｆ　ｙｏｕｒ　ｕｎー"TCC_NEWLINE"ｄｏｉｎｇ　ｔｈａｔ　ｍｕｃｈ　ｓｗｅｅｔｅｒ，　ｄｏｅｓー"TCC_NEWLINE"ｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｉｓｓｙ．．．　Ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｅｌｌ　ｍｅ，　Ｖｅｒｏｎｉｃａ，　ｄｏ　ｙｏｕ　ｒｅｍー"TCC_NEWLINE"ｅｍｂｅｒ　ｗｈｅｎ　ｙｏｕ　ｔｏｌｄ　ｍｅ　ｒｏｙａｌ　"TCC_NEWLINE"ｓｔａｔｕｓ　ｍｅａｎｔ　ｎｏｔｈｉｎｇ　ｔｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｍｅｍｂｅｒ　ａｓ　ｉｆ　ｉｔ　ｗｅｒｅ　ｙｅｓｔー"TCC_NEWLINE"ｅｒｄａｙ．　Ｔｈｅ　ｔｗｏ　ｏｆ　ｕｓ　ｗｅｒｅ　ｓｈａー"TCC_NEWLINE"ｒｉｎｇ　ｓｏｍｅ　ｔｅａ　ｉｎ　ｔｈｅ　ｇａｒｄｅｎ　ｏー"TCC_NEWLINE"ｎｅ　ｂｒｉｇｈｔ，　ｓｕｎｎｙ　ｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓａｉｄ　ｔｈａｔ．．．ａｓ　ｌｏｎｇ　ａｓ　ｗｅ"TCC_NEWLINE"　ｗｅｒｅ　ａｂｌｅ　ｔｏ　ｓｔａｙ　ｃｌｏｓｅ，　ｙｏｕ"TCC_NEWLINE"　ｄｉｄｎ’ｔ　ｃａｒｅ　ａｂｏｕｔ　ｔｉｔｌｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｃｈ　ｌｏｖｅｌｙ　ｗｏｒｄｓ．．．　Ｏｎｌｙ　ｌａｔー"TCC_NEWLINE"ｅｒ　ｔｈａｔ　ｄａｙ　ｄｉｄ　Ｉ　ｌｅａｒｎ　ｉｔ　ｗａー"TCC_NEWLINE"ｓ　ｔｈｅ　ｓｐａｗｎ　ｏｆ　ａ　ｕｓｕｒｐｅｒ　ｔｈａｔ"TCC_NEWLINE"　ｈａｄ　ｓｐｏｋｅｎ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｆｔｅｒ　ｙｏｕ　ｈａｄ　ａｌｒｅａｄｙ　ｔａｋー"TCC_NEWLINE"ｅｎ　ｅｖｅｒｙｔｈｉｎｇ　ｆｒｏｍ　ｍｙ　ｆａｍｉｌｙｆー"TCC_NEWLINE"ｒｏｍ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏｗ　Ｉ　ｗｉｌｌ　ｅｘｔｅｎｄ　ｙｏｕ　ｔｈｅ　ｓａｍー"TCC_NEWLINE"ｅ　ｃｏｕｒｔｅｓｙ　ａｎｄ　ｔａｋｅ　ｅｖｅｒｙｔｈｉｎー"TCC_NEWLINE"ｇ　ｆｒｏｍ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｒｏｌｅ　ａｓ　ｐｒｉｎｃｅｓｓ，　ｔｈｅ　ｆａー"TCC_NEWLINE"ｉｔｈ　ｏｆ　ｙｏｕｒ　ｐｅｏｐｌｅ．．．　Ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇ　ｙｏｕ　ｈｏｌｄ　ｄｅａｒ　ｒｅｄｕｃｅｄ　ｔｏ　"TCC_NEWLINE"ａｓｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ，　ｗｈｅｎ　ｙｏｕ　ｈａｖｅ　ｌｏｓｔ　ｉｔ　ａー"TCC_NEWLINE"ｌｌ．．．　ｔｈｅｎ　ｔｅｌｌ　ｍｅ　ｈｏｗ　ｌｉｔｔｌｅ"TCC_NEWLINE"　ｙｏｕｒ　ｒｏｙａｌ　ｓｔａｔｕｓ　ｍａｔｔｅｒｓ　ｔｏ"TCC_NEWLINE"　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

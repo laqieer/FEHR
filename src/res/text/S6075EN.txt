@@ -1,0 +1,54 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｖｅｒｏｎｉｃａ　ａｎｄ　ｈｅｒ　ｆｏｒｃｅｓ　ｈａｖｅ　"TCC_NEWLINE"ａｒｒｉｖｅｄ，　ａｎｄ　ｔｈｅｙ　ａｒｅ　ｆｉｇｈｔｉｎー"TCC_NEWLINE"ｇ　Ｌｅｔｉｚｉａ’ｓ　ｆｏｒｃｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｉｓ　ｂａｔｔｌｅ　ｗｉｌｌ　ｂｅ　ｄｅｃｉｓｉｖｅ．"TCC_NEWLINE"　Ｌｅｔ’ｓ　ｇｉｖｅ　ｉｔ　ｅｖｅｒｙｔｈｉｎｇ　ｗｅ’"TCC_NEWLINE"ｖｅ　ｇｏｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｖｅｒｏｎｉｃａ，　ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ？　"TCC_NEWLINE"Ｉｓ　Ｌｅｔｉｚｉａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈｅ’ｓ　ａｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｙｏｕ．．．ｃｈｏｓｅ　ｔｏ　ｌｅｔ　ｈｅｒ　ｌｉー"TCC_NEWLINE"ｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｕｒ　ｆａｍｉｌｙ，　ｗｈａｔ　ｗｅ　ｄｉｄ　ｔｏ　ｈｅー"TCC_NEWLINE"ｒ．．．　Ｉｔ　ｃｈａｎｇｅｄ　ｈｅｒ．　Ｗｅ　ｈｕｒｔ　"TCC_NEWLINE"ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｍｏｒｅ　ｔｈａｎ　ｔｈａｔ，　ｓｈｅ　ｗａｓ　ａー"TCC_NEWLINE"ｌｗａｙｓ　ｓｏｍｅｏｎｅ　Ｉ　ｌｏｏｋｅｄ　ｕｐ　ｔｏ．"TCC_NEWLINE"．．　Ｉ　ｃｏｕｌｄｎ’ｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｉｔｈｅｒ　ｗａｙ，　ｉｔ’ｓ　ｄｏｎｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ELM
+"Ｈａｈ！　Ｏｎ　ｔｈｅ　ｃｏｎｔｒａｒｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｗｈｅｒｅ　ｉｔ　ｂｅｇｉｎｓ！　Ｏｕｒ　"TCC_NEWLINE"ｍａｓｔｅｒ，　ｔｈｅ　ｇｒｅａｔ　Ｌａｄｙ　Ｅｍｂｌａ，"TCC_NEWLINE"　ｗｉｌｌ　ｓｏｏｎ　ｍａｋｅ　ｈｅｒ　ｇｒａｎｄ　ｅｎｔー"TCC_NEWLINE"ｒａｎｃｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅ－Ｅｍｂｌａ？　Ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕ　ｐｅｓｔｓ　ａｒｅ　ａ　ｐａｉｎ　ｔｏ　ｐｒｅｄｉー"TCC_NEWLINE"ｃｔ　ｗｉｔｈ　ａｎｙ　ａｃｃｕｒａｃｙｓｏ　ｅｒｒａｔｉー"TCC_NEWLINE"ｃ！　Ｂｕｔ　ｙｏｕｒ　ｍｅｄｄｌｉｎｇ　ｉｓ　ｆｉｎａｌー"TCC_NEWLINE"ｌｙ　ａｔ　ａｎ　ｅｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｄｙ　Ｅｍｂｌａ　ｄｅｓｃｅｎｄｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6075_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈ－ｗｈａｔ’ｓ　ｈａｐｐｅｎｉｎｇ？　Ｔｈｅ　ｓｋｙ　"TCC_NEWLINE"ｗａｓ　ｃｌｅａｒ　ａ　ｍｏｍｅｎｔ　ａｇｏ，　ｗａｓｎ’"TCC_NEWLINE"ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｈ．．．　Ｗｈａｔ　ｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ　ｄｏ　ｙｏｕ　ｓｅｅ，　Ｓｈａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｐ　ｉｎ　ｔｈｅ　ｓｋｙ．．．　Ｄｏ　ｙｏｕ　ｓｅｅ　ｔー"TCC_NEWLINE"ｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ．．．ｉｔ’ｓ　ｊｕｓｔ．．．ｄａｒｋｎｅｓｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｈｕｇｅｌｉｋｅ　ｉｔ’ｓ　ｓｔｒｅｔｃｈｅｄ　"TCC_NEWLINE"ａｃｒｏｓｓ　ｔｈｅ　ｗｈｏｌｅ　ｓｋｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉｔ’ｓ　ｃｏｍｉｎｇ　ｔｈｉｓ　ｗａｙ！　Ｗｅ　ａｒｅ　"TCC_NEWLINE"ｇｏｉｎｇ　ｔｏ　ｂｅ　ｓｗａｌｌｏｗｅｄ　ｂｙ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｅｔｒｅａｔ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｎｏ，　ｉｔ’ｓ　ａｌｒｅａｄｙ　ｆａｒ　ｔｏｏ　ｌー"TCC_NEWLINE"ａｔｅ　ｆｏｒ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｌｏｏｋｓ　ｂｉｇ　ｅｎｏｕｇｈ　ｔｏ　ｅｎｇｕｌｆ"TCC_NEWLINE"　ｔｈｅ　ｅｎｔｉｒｅｔｙ　ｏｆ　Ｅｍｂｌａ　ａｎｄ　Ａｓー"TCC_NEWLINE"ｋｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｆｏｎｓｅ，　ｉｆ　ｉｔ　ｃｏｖｅｒｓ　Ａｓｋｒ，　ｔー"TCC_NEWLINE"ｈｅｎ　Ｍｏｔｈｅｒ　ｉｓ　Ａｎｄ　ｔｈｅ　ｐｅｏｐｌｅ　"TCC_NEWLINE"ｏｆ　Ａｓｋｒ　ｔｏｏ！　Ｏｈ　ｎｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｕｒ　ｔｗｏ　ｒｅａｌｍｓ　ａｒｅ　ｇｏｉｎｇ　ｔｏ　ｂー"TCC_NEWLINE"ｅ　ｃｏｍｐｌｅｔｅｌｙ　ｅｎｃｌｏｓｅｄ　ｉｎ　ｄａｒｋー"TCC_NEWLINE"ｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｃａｎ　ｔｈｉｓ．．．ｂｅ　ｈａｐｐｅｎｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

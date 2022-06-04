@@ -1,0 +1,36 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5033_EN] = TCC_OPEN_LEFT
+"Ｍｙ　ｍｏｔｈｅｒ　ａｎｄ　ｆａｔｈｅｒ　ａｒｅ　ｄｅａｄ"TCC_NEWLINE"．　Ａｎｄ　ｔｈｅｙ　ｓａｙ　ｉｔ　ｗａｓ　ｍｙ　ｇｒａｎー"TCC_NEWLINE"ｄｆａｔｈｅｒ　ｗｈｏ　ｍｕｒｄｅｒｅｄ　ｍｙ　ｆａｔｈｅー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5033_EN] = TCC_OPEN_LEFT
+"Ｕｒｇｈｈ．．．　Ｗｈａｔ　ｉｓ　ｔｈｉｓ　ｐｏｗｅｒ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｍｉｇｈｔ．．．ｏｆ　Ｎｉａｖｅｌｌｉｒ．．．　Ｆー"TCC_NEWLINE"ｆ．．．ｎｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｉｓ　ｔｈａｔ　ａｌｌ？　Ａｂｓｕｒｄ．　Ｏｎｅ　ｍｏｒｅ"TCC_NEWLINE"　ｃｏｕｎｔｒｙ　ｃｌａｉｍｅｄ　ｉｎ　ｍｙ　ｎａｍｅ！　"TCC_NEWLINE"ＨＡＨＡＨＡＨＡ！"TCC_NEWLINE TCC_PUSH_A
+"ＨＡＨＡｈａ．．．ｈａｈ．．．　Ｈｍｐｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓｎ’ｔ　Ｎｏｔ　ｈｅｒｅ　ｅｉｔｈｅｒ．　Ｗー"TCC_NEWLINE"ｈｅｒｅ　ｉｓ　ｉｔ？！　Ｗｈａｔ　ａｍ　Ｉ　ｓｅａｒｃｈー"TCC_NEWLINE"ｉｎｇ　ｆｏｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ．．．ｅｌｕｄｅｓ　ｍｅ　ｓｔｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｂｒｏｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．ｔｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ？　Ｉｓ　ｉｔ　ａｎｏｔー"TCC_NEWLINE"ｈｅｒ　ｈｅａｄａｃｈｅ　ａｇａｉｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　Ｉ．．．ｆｅｅｌ　ｌｉｋｅ　Ｉ’ｍ　ｏｎ　ｔｈｅ"TCC_NEWLINE"　ｖｅｒｇｅ　ｏｆ　ｒｅｍｅｍｂｅｒｉｎｇ　ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ　ｂｅｆｏｒｅ　ｅｖｅｎ　ｗａｋｉｎｇ　"TCC_NEWLINE"ｏｎ　ｔｈａｔ　ｂａｔｔｌｅｆｉｅｌｄ　ｉｎ　ｒｕｉｎ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｏｎ’ｔ　ｏｖｅｒｅｘｅｒｔ　ｙｏｕｒｓｅｌｆ，　Ｂｒｏー"TCC_NEWLINE"ｔｈｅｒ．　Ｔｈｉｎｇｓ　ｓｏ　ｆａｒ　ｉｎ　ｔｈｅ　ｐａー"TCC_NEWLINE"ｓｔ　ｈａｒｄｌｙ　ｍａｔｔｅｒ　ｎｏｗ，　ｄｏ　ｔｈｅｙ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｒｅ　ｋｉｎｇ　ｏｆ　Ｎｉａｖｅｌｌｉｒ！　Ｗｈー"TCC_NEWLINE"ａｔ　ｍｏｒｅ　ｃｏｕｌｄ　ａｎｙｏｎｅ　ｗａｎｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｎｄ　ｗｈａｔ　ａ　ｓｐｅｃｔａｃｌｅ　ｙｏｕ’ｖｅ　ｍー"TCC_NEWLINE"ａｄｅ！　Ｉ　ｆｏｌｌｏｗｅｄ　ａｓ　ｆａｓｔ　ａｓ　Ｉ　"TCC_NEWLINE"ｃｏｕｌｄ，　ｂｕｔ　ｙｏｕ　ｓｅｅｍ　ｔｏ　ｈａｖｅ　ｅー"TCC_NEWLINE"ｎｄｅｄ　ｔｈｉｎｇｓ　ｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｗｈｅｒｅ　ｓｈｏｕｌｄ　ｗｅ　ｉｎｖａｄｅ　ｎｅー"TCC_NEWLINE"ｘｔ？　Ｎｉｆｌ？　．．．Ｍｓｐｅｌｌ，　ｐｅｒｈａｐｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｔｈｅ　ｄｅａｄ，　ｔｈｅ　ｒｅー"TCC_NEWLINE"ａｌｍ　ｏｆ　ｄｒｅａｍｓ．．．　Ｔａｋｅ　ｙｏｕｒ　ｐｉー"TCC_NEWLINE"ｃｋ！　Ｉｔ　ｗｉｌｌ　ａｌｌ　ｂｅ　ｙｏｕｒｓ　ｅｖｅｎー"TCC_NEWLINE"ｔｕａｌｌｙ，　Ｂｒｏｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｎｙｗｈｅｒｅ　ｗｉｌｌ　ｄｏ．　Ｂｕｔ　ｆｉｒｓｔ，　"TCC_NEWLINE"ｙｏｕ　ｗｅｎｔ　ｔｏ　ｃｏｌｌｅｃｔ　Ｒｅｇｉｎｎ　ｆｒー"TCC_NEWLINE"ｏｍ　ｔｈａｔ　ｌｏｔ　ｉｎ　Ａｓｋｒ，　ｄｉｄｎ’ｔ　ｙー"TCC_NEWLINE"ｏｕ？　Ａｎｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｈ，　ｒｉｇｈｔ．　Ｌｅｔ　ｍｅ　ｅｘｐｌａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

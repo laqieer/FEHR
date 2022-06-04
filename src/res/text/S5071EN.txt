@@ -1,0 +1,54 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈａｔ’ｓ　ｗｒｏｎｇ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　Ｉ　ｊｕｓｔ　ｆｅｅｌ　ｓｏ　ｂａｄ．．．　Ｉ　ｄー"TCC_NEWLINE"ｉｄｎ’ｔ　ｔｈｉｎｋ　Ｅｉｔｒｉ　ｗａｓ　ｔｈｅ　ｓｏｒー"TCC_NEWLINE"ｔ　ｏｆ　ｐｅｒｓｏｎ　ｗｈｏ　ｗｏｕｌｄ　ｄｏ　ｓｏｍｅー"TCC_NEWLINE"ｔｈｉｎｇ　ｌｉｋｅ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ！　Ａｔ　ｔｈｉｓ　ｒａｔｅ，　Ｉ"TCC_NEWLINE"’ｍ　ａｆｒａｉｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｗｉｌｌ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ－ｉｔ’ｌｌ　ｂｅ　ａｌｌ　ｒｉｇｈｔ！　Ｉｆ　ａｎｙ　"TCC_NEWLINE"ｃａｎ　ｈａｎｄｌｅ　ｔｈｉｓ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+"ＰＬＵＳ，　ａｌｌ　ｔｈａｎｋｓ　ｔｏ　Ｅｉｔｒｉ’ｓ　ｄー"TCC_NEWLINE"ｅｃｅｉｔ，　ｗｅ　ｎｏｗ　ｈａｖｅ　ｔｗｏ　ｓｔｒｏｎｇ"TCC_NEWLINE"　ｎｅｗ　ａｌｌｉｅｓ　ｉｎ　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ　ａー"TCC_NEWLINE"ｎｄ　Ｐｒｉｎｃｅｓｓ　Ｄａｇｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｔｈｉｎｇ’ｓ　ａｒｅｎ’ｔ　ａｌｌ　ｂａｄ　ａｆｔー"TCC_NEWLINE"ｅｒ　ａｌｌ．　．．．Ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．Ｙｅｓ，　Ｉ　ｓｕｐｐｏｓｅ　ｔｈａｔ　ｉｓ　ｏｎｅ"TCC_NEWLINE"　ｗａｙ　ｙｏｕ　ｃｏｕｌｄ　ｆｒａｍｅ　ｔｈｅ　ｓｉｔｕー"TCC_NEWLINE"ａｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ａｗ，　ｃ’ｍｏｎ，　Ａｌｆｓｔｅｒ！　Ｄｏｎ’ｔ　ｌｏｏー"TCC_NEWLINE"ｋ　ｓｏ　ｇｌｕｍ！　Ａｌｌ　ｗｅ　ｎｅｅｄ　ｔｏ　ｄｏ　"TCC_NEWLINE"ｉｓ　ｓｔｏｐ　ｏｎｅ　ｔｉｎｙ　ｇｉｒｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｏｕｌｄ　ｈａｎｄｌｅ　ｈｅｒ　ｍｙｓｅｌｆ！　Ｉ　"TCC_NEWLINE"ｎｅａｒｌｙ　ｓｔｏｐｐｅｄ　ａｌｌ　ｏｆ　ｙｏｕ，　ｓｏ"TCC_NEWLINE"　ｗｈａｔ’ｓ　ｏｎｅ　ｌｉｔｔｌｅ　ｇｉｒｌ　ｇｏｉｎｇ"TCC_NEWLINE"　ｔｏ　ｄｏ，　ｈｍ？　＊ｗｉｎｋ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"＊ｓｉｇｈ＊　Ｄａｇｒ．．．　Ｔｒｙ　ｅｘｅｒｃｉｓｉｎｇ"TCC_NEWLINE"　ｙｏｕｒ　ｂｒａｉｎ　ｆｏｒ　ｏｎｃｅ．　Ａｔ　ｌｅａｓー"TCC_NEWLINE"ｔ．．．ｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｌｉｔｔｌｅ　ｇｉｒｌ　ｉｓ　ｍａｋｉｎｇ　ｓｏー"TCC_NEWLINE"ｍｅｔｈｉｎｇ　ａｎｄ　ａｉｍｉｎｇ　ｔｏ　ｒｉｖａｌ　ｔー"TCC_NEWLINE"ｈｅ　ｓｕｍｍｏｎｅｒ．　Ｔｈａｔ　ｎｅｗｓ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｔｒｏｕｂｌｅ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈａｔ’ｓ　ｗｈｙ　ｓｈｅ　ｓｎａｔｃｈｅｄ　ｂｏｔｈ　"TCC_NEWLINE"ｉｔ　ａｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｅｒ，　ｂｕｔ　ｗａｉｔ．．．　Ｗｈａｔ　ｄｏｅｓ　"TCC_NEWLINE"ｓｈｅ　ｎｅｅｄ　ａｎｙ　ｏｆ　ｔｈａｔ　ｆｏｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈｍｍ．．．　Ｉｔ’ｓ　ｓｔｒａｎｇｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｇｏ　ｏｎ，　Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　Ｉ　ｃｈｅｃｋｅｄ　ｏｕｔ　ｔｈｅ　Ｈｅｒｏｅー"TCC_NEWLINE"ｓ　ｗｅ　ｅｎｃｏｕｎｔｅｒｅｄ，　ａｎｄ　ａｌｌ　ｏｆ　"TCC_NEWLINE"ｔｈｅｍ　ｗｅｒｅ　ｓｕｍｍｏｎｅｄ　ｏｖｅｒ　ｆｉｖｅ　"TCC_NEWLINE"ｙｅａｒｓ　ａｇｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｅａｌｌｙ？　Ｔｈａｔ　ｌｏｎｇ　ａｇｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈａｔ　ｍｅａｎｓ　Ｅｉｔｒｉ　ｈａｓｎ’ｔ　ｄｏｎｅ　"TCC_NEWLINE"ａｎｙ　ｓｕｍｍｏｎｉｎｇ　ｌａｔｅｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｉｇｈｔ．　Ｂｕｔ　ｉｔ　ｓｅｅｍｓ　ｌｉｋｅ　ｓｈｅ　"TCC_NEWLINE"ｓｕｄｄｅｎｌｙ　ｈａｓ　ａ　ｒｅｎｅｗｅｄ　ｉｎｔｅｒｅー"TCC_NEWLINE"ｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｃｏｕｌｄ　ｉｔ　ｂｅ　ｃｏｎｎｅｃｔｅｄ　ｔｏ　ｍｙ　ｂー"TCC_NEWLINE"ｒｏｔｈｅｒ　ｉｎ　ｓｏｍｅ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈａｔ　ｉｓ　ｄｅｆｉｎｉｔｅｌｙ　ａ　ｐｏｓｓｉｂｉｌー"TCC_NEWLINE"ｉｔｙ．　Ｃａｎ　ｙｏｕ　ｔｈｉｎｋ　ｏｆ　ａｎｙ　ｗａｙ"TCC_NEWLINE"　ｔｈａｔ　ｍｉｇｈｔ　ｂｅ　ｔｒｕｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｍｍ．．．　Ｈａｎｇ　ｏｎ．．．　Ｉ　ｔｈｉｎｋ　Ｉ’ｍ"TCC_NEWLINE"　ｒｅｍｅｍｂｅｒｉｎｇ　ｓｏｍｅｔｈｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｕｍｍ．．．　Ｕｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｋｅｅｐ　ｔｒｙｉｎｇ　ｔｏ　ｒｅｍｅｍｂｅｒ，　Ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓ　Ｒｅｇｉｎｎｂｕｔ　ｗｅ　ａｌｓｏ　ｎｅｅｄ　ｔー"TCC_NEWLINE"ｏ　ｍｏｖｅ　ｔｏ　ｓａｖｅ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｆ　ｃｏｕｒｓｅ！　Ｉ’ｌｌ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ"TCC_NEWLINE"　ｔｏ　ｈｅｌｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

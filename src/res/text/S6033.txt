@@ -1,0 +1,38 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6033] = TCC_OPEN_LEFT 
+"私。。。ネイミー。。。っていいます。" TCC_NEWLINE
+"少しだけですけど、弓が使えます。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6033] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"すまない、マークス王子。" TCC_NEWLINE
+"この地もまた。。。収穫なしだ。" TCC_NEWLINE
+"長い徒労の旅に付き合わせてしまった。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_XANDER
+"気にすることはない。" TCC_NEWLINE
+"私が皇子に同行することは" TCC_NEWLINE
+"ヴェロニカ皇女の願いでもある。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。感謝する、マークス王子。" TCC_NEWLINE
+"君はヴェロニカの兄のように、" TCC_NEWLINE
+"彼女を支えてくれた。" TCC_NEWLINE TCC_PUSH_A
+"この身に万一のことがあっても。。。" TCC_NEWLINE
+"君がいてくれれば安心できる。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"彼女の兄は君一人だ。" TCC_NEWLINE TCC_PUSH_A
+"さあ、" TCC_NEWLINE
+"次の手がかりへ向かうとしよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"無数の星々を訪ね歩き、" TCC_NEWLINE
+"砂粒を探すようなもの。。。" TCC_NEWLINE
+"だが。。。" TCC_NEWLINE TCC_PUSH_A
+"見つけねばならない。" TCC_NEWLINE
+"憑竜エンブラの呪い。。。" TCC_NEWLINE
+"それを解く方法を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

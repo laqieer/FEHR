@@ -1,0 +1,135 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｗｅ　ｆｉｎａｌｌｙ　ｍａｄｅ　ｉｔ！　Ｔｈｅ　Ｄｒｅａｍ"TCC_NEWLINE"　Ｇａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｉ　ｄｏｎ’ｔ　ｓｍｅｌｌ　Ｆｒｅｙｊａ’ｓ　ｎｉｇｈｔｍー"TCC_NEWLINE"ａｒｅｓ．．．　Ｎｏｗ，　Ａｌｆｏｎｓｅ．．．　Ｂｌｏｗ　"TCC_NEWLINE"ｔｈｅ　ｈｏｒｎ　ｗｈｉｌｅ　ｗｅ　ｈａｖｅ　ｔｈｅ　ｃｈー"TCC_NEWLINE"ａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｒｉｇｈｔ．　Ｌｅｔ’ｓ　ｔｒｙ　ｉｔ．　Ｄｒｅａｍ－Ｋｉー"TCC_NEWLINE"ｎｇ　Ｆｒｅｙｒ　ｔｏｌｄ　ｍｅ　ｔｏ　ｐｉｃｔｕｒｅ　ｔー"TCC_NEWLINE"ｈｅ　ｗｏｒｌｄ　ｏｕｔｓｉｄｅ　ｔｈｅ　ｄｒｅａｍ　ａｎー"TCC_NEWLINE"ｄ　ｗｉｓｈ　ｔｏ　ｒｅｔｕｒｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｉｔｈ　ｔｈａｔ　ｄｅｓｉｒｅ　ｉｎ　ｍｙ　ｈｅー"TCC_NEWLINE"ａｒｔ，　ｔｏ　ｓｏｕｎｄ　ａ　ｂｌａｓｔ　ｏｎ　ｔｈｅ　"TCC_NEWLINE"ｈｏｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　Ｉ　ｎｅｅｄ　ｏｎｌｙ　ｔｏ　ｒｅｍｅｍｂｅｒ　"TCC_NEWLINE"ｍｙ　ｌｉｆｅ　ｂｅｆｏｒｅ　ｆａｌｌｉｎｇ　ａｓｌｅｅｐ"TCC_NEWLINE"，　ｐｕｔ　ｔｈｅ　ｈｏｒｎ　ｔｏ　ｍｙ　ｌｉｐｓ，　ａｎー"TCC_NEWLINE"ｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"＊ｙａｗｎ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏｔｈｉｎｇ．．．ｈａｐｐｅｎｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｕｔ．．．ｗｈｙ？　Ｍｉｒａｂｉｌｉｓ，　ｄｉｄ　ｙｏｕ"TCC_NEWLINE"　ｆａｌｌ　ａｓｌｅｅｐ　ｏｎ　ｔｈｅ　ｗａｙ　ｈｅｒｅ　"TCC_NEWLINE"ａｎｄ　ｌｅａｄ　ｕｓ　ｔｏ　ｔｈｅ　ｗｒｏｎｇ　ｐｌａｃー"TCC_NEWLINE"ｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ．．．　Ｔｈｉｓ　ｉｓ　ｔｈｅ　ｐｌａｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅｎ，　ｗｈｙ．．．　Ｗｈａｔ　ａｍ　Ｉ　ｄｏｉｎｇ　"TCC_NEWLINE"ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｓ　ｔｈｅｒｅ　ｎｏｔｈｉｎｇ　ｅｌｓｅ　ｗｅ　ｃａｎ　"TCC_NEWLINE"ｄｏ？　Ｏｔｈｅｒ　ｔｈａｎ　ｒｕｎ　ｆｒｏｍ　ｎｉｇｈｔー"TCC_NEWLINE"ｍａｒｅｓ　ｆｏｒｅｖｅｒ，　ｔｈａｔ　ｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｌｅａｓｅ　ｗａｉｔ．．．　Ｌｅｔ　ｍｅ　ｔｈｉｎｋ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｗａｓ　ｄｏｉｎｇ　ｓｏｍｅｔｈｉｎｇ　ｗｒｏｎー"TCC_NEWLINE"ｇ，　ｗｈｅｒｅ　ｃｏｕｌｄ　Ｉ　ｐｏｓｓｉｂｌｙ　ｅｒｒ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｐｉｃｔｕｒｅｄ　ｔｈｅ　ｗｏｒｌｄ　ｏｕｔｓｉｄｅ　"TCC_NEWLINE"ｔｈｅ　ｄｒｅａｍ，　ａｎｄ　Ｉ　ｔｈｏｕｇｈｔ　ａｂｏｕー"TCC_NEWLINE"ｔ　ｍｙ　ｌｉｆｅ　ｂｅｆｏｒｅ　ｆａｌｌｉｎｇ　ａｓｌｅー"TCC_NEWLINE"ｅｐ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｈａｔ　Ｉ　ｓｕｓｐｅｃｔ　ｉｓ　ｔｒｕｅ．．．ｔー"TCC_NEWLINE"ｈｅｎ　ｔｈｅ　ｌｉｆｅ　Ｉ　ｒｅｍｅｍｂｅｒ　ｂｅｆｏｒー"TCC_NEWLINE"ｅ　ｔｈｅ　ｄｒｅａｍ．．．　ｉｓ　ｎｏｔ　ｍｙ　ｌｉｆｅ"TCC_NEWLINE"　ａｔ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｎ　ｆａｃｔ，　ｔｈｅ　ｍｅ　ｆｒｏｍ　ｍｙ　ｌー"TCC_NEWLINE"ｉｆｅ　ｂｅｆｏｒｅ　ｔｈｅ　ｄｒｅａｍ　ａｎｄ　ｔｈｅ　"TCC_NEWLINE"ｍｅ　ｆｒｏｍ　ｗｉｔｈｉｎ　ｔｈｅ　ｄｒｅａｍ．．．ａｒー"TCC_NEWLINE"ｅ　ｓｅｐａｒａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｐａｒｄｏｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅ　ｃｏｍｍａｎｄｅｒ　ｓａｉｄ　ｓｏｍｅｔｈｉｎｇ　"TCC_NEWLINE"ａｂｏｕｔ　ｈｏｗ，　ｉｎ　ｈｅｒ　ｄｒｅａｍ，　ｓｈｅ　"TCC_NEWLINE"ｗａｓ　ａ　ｓｑｕｉｒｒｅｌ，　ａｎｄ　ｗｈｉｌｅ　ｉｎ　"TCC_NEWLINE"ｔｈｅ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"ｓｈｅ　ｈａｄ　ｎｏ　ｄｏｕｂｔｓ　ａｂｏｕｔ　ｗｈｅｔｈー"TCC_NEWLINE"ｅｒ　ｓｈｅ　ｗａｓ　ａ　ｓｑｕｉｒｒｅｌ．　Ｉｔ　ｓｅｅー"TCC_NEWLINE"ｍｅｄ　ｃｏｍｐｌｅｔｅｌｙ　ｎａｔｕｒａｌ　ｔｏ　ｈｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ　ｒｅａｌｉｚｅｄ　ｔｈａｔ．．．ｗｈｉｌｅ　ｄー"TCC_NEWLINE"ｒｅａｍｉｎｇ，　ａ　ｐｅｒｓｏｎ　ｂｅｌｉｅｖｅｓ　ｔｈー"TCC_NEWLINE"ｅｙ　ａｒｅ　ｔｈｅ　ｐｅｒｓｏｎ　ｉｎ　ｔｈｅ　ｄｒｅａー"TCC_NEWLINE"ｍ　ｗｉｔｈｏｕｔ　ｅｖ"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｏ　ｇｏｅｓ　ｔｈｅｒｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_HOOD
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｈ！"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！　Ｉ’ｍ　ｓｏ　ｇｌａｄ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｍｅｔｈｉｎｇ　ｓｅｅｍｓ　ｏｆｆ　ａｂｏｕｔ　ｔｈｉー"TCC_NEWLINE"ｓ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HOOD
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ’ｓ　ｗｒｏｎｇ？　Ｄｏ　ｙｏｕ　ｎｏｔ　ｒｅｃｏー"TCC_NEWLINE"ｇｎｉｚｅ　ｕｓ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｉ　ｓｍｅｌｌ　ｔｈｅ　ｎｉｇｈｔｍａｒｅ　ｏｎ　ｔｈｅｍ"TCC_NEWLINE"．．．　Ｗｈｏｅｖｅｒ　ｔｈｅｙ　ａｒｅ，　ｔｈｅｙ’ｒｅ"TCC_NEWLINE"　ｂｅｉｎｇ　ｃｏｎｔｒｏｌｌｅｄ　ｂｙ　ｔｈｅ　ｎｉｇｈー"TCC_NEWLINE"ｔｍａｒｅｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｔｈｅｎ　ｗｅ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ．．．　Ｗｅ　"TCC_NEWLINE"ｆｉｇｈｔ．　Ｉｆ　ｌｕｃｋ’ｓ　ｏｎ　ｏｕｒ　ｓｉｄｅ，"TCC_NEWLINE"　ｗｅ　ｃａｎ　ｅｎｄ　ｔｈｉｓ　ｗｉｔｈ　ｅｖｅｒｙｏｎー"TCC_NEWLINE"ｅ　ｓｔｉｌｌ　ａｌｉｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4125_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HOOD
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"．．．Ｕｎｃｏｎｓｃｉｏｕｓ．　Ｇｏｏｄ！　Ｔｈａｔ　ｍｅー"TCC_NEWLINE"ａｎｓ　ｓｔｉｌｌ　ａｌｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｇｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｌｌ　ｒｉｇｈｔ．　Ｎｏｗ，　ｌｅｔ’ｓ　ｔａｋｅ　ｔｈー"TCC_NEWLINE"ｉｓ　ｈｏｏｄ　ｏｆｆ　ａｎｄ　ｍａｙｂｅ　ｗｅ　ｃａｎ　"TCC_NEWLINE"ｇｅｔ　ｔｏ　ｔｈｅ　ｂｏｔｔｏｍ　ｏｆ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｆｅｅｌｓ　ｗｒｏｎｇ　ｔｏ　ｅｘｐｏｓｅ　ａｎｙｏー"TCC_NEWLINE"ｎｅ　ｕｎｃｏｎｓｃｉｏｕｓａｎｄ　ｄｏｕｂｌｙ　ｓｏ　ｗー"TCC_NEWLINE"ｈｅｎ　ｉｔ’ｓ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｕｎｄｅｒ　ｔｈｅｓｅ　ｃｉｒｃｕｍｓｔａｎｃｅｓ"TCC_NEWLINE"，　Ｉ　ｓｕｐｐｏｓｅ　ｗｅ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｍ　ｓｕｒｅ　ｉｔ　ｗｉｌｌ　ａｌｌ　ｂｅ　ｆｉｎｅ．"TCC_NEWLINE"　Ｌｉｋｅ　ｙｏｕ　ｓａｉｄ，　ｎｉｇｈｔｍａｒｅ　ｃｉｒー"TCC_NEWLINE"ｃｕｍｓｔａｎｃｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ　ｗａｎｔ　ｔｏ　ｆｉｎａｌｌｙ　ｍｅｅｔ　ｔー"TCC_NEWLINE"ｈｅ　ｏｎｅ　ａｎｄ　ｏｎｌｙ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｈｅａｒｄ　ｓｏ　ｍｕｃｈ，　ａｎｄ　ｙｅｔ　Ｉ"TCC_NEWLINE"　ｈａｖｅ　ｎｏ　ｉｄｅａ　ｗｈａｔ　ｙｏｕ　ｌｏｏｋ　ｌー"TCC_NEWLINE"ｉｋｅ！　Ｓｏ，　ｎｏｗ，　ｌｅｔ’ｓ　ｓｅｅｅｅ．．．ｙー"TCC_NEWLINE"ｏｏｏｕｒ　ｆａｃｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4125_EN] = TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｈｕｈ？　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｏｎｓｅ，　ｗｈａｔ　ｄｏｅｓ　ｔｈｉｓ　ｍｅａｎ？"TCC_NEWLINE"　Ｈｏｗ　ａｒｅ　ｔｈｅｒｅ　ＴＷＯ．．．Ａｌｆｏｎｓｅ．"TCC_NEWLINE"．．ｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｅｖｅｒｙｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｗｅｌｌ，　ｌｅｔ’ｓ　ｈｅａｒ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈｙ　Ｉ’ｍ　ｌａｙｉｎｇ　ｈｅｒｅ　ｂｅｆｏｒｅ　ｕｓ"TCC_NEWLINE"．．．　Ｗｈｙ　Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ　ｍｅｅｔー"TCC_NEWLINE"ｉｎｇ　Ｚａｃｈａｒｉａｓ　ｆｏｒ　ｔｈｅ　ｆｉｒｓｔ　ｔー"TCC_NEWLINE"ｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｈｙ　Ｉ　ｄｒｅａｍｔ　ａｂｏｕｔ　ｔｈｅ　Ｗｏー"TCC_NEWLINE"ｒｌｄ　ｏｆ　Ｓｔｅｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｊｕｓｔ　ｌｉｋｅ　ｙｏｕ　ｓａｉｄ，　Ｐｅｏｎー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｉｋｅ　Ｉ　ｓａｉｄ？　．．．Ｗｈｅｎ？　Ｗｈａｔ　ｄｏ"TCC_NEWLINE"　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｎ　ａ　ｄｒｅａｍ，　ｙｏｕ　ｃａｎ　ｄｏ　ｗｈａｔｅｖー"TCC_NEWLINE"ｅｒ　ｙｏｕ　ｗａｎｔ．　Ａｎｙｔｈｉｎｇ　ｉｓ　ｐｏｓｓー"TCC_NEWLINE"ｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｉ　ｄｉｄ　ｓａｙ　ｔー"TCC_NEWLINE"ｈａｔ　ｂｅｆｏｒｅ，　ｄｉｄｎ’ｔ　Ｉ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｒｅａｍｓ　ａｒｅ　ｍｙｓｔｅｒｉｏｕｓ．　Ｙｏｕ　ｃａー"TCC_NEWLINE"ｎ　ｂｅｃｏｍｅ　ｓｏｍｅｏｎｅ　ｅｌｓｅ　ａｎｄ　ｄｏ　"TCC_NEWLINE"ｉｍｐｏｓｓｉｂｌｅ　ｔｈｉｎｇｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｏｔ　Ａｌｆｏｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｈａｖｉｎｇ　ａ　ｄｒｅａｍ　ｏｆ　ｂｅｉｎｇ　"TCC_NEWLINE"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａａａｔ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ．．．ｗｈｏ　ＡＲＥ　ｙｏｕ？　Ｔｅｌｌ　ｕｓ　ｙー"TCC_NEWLINE"ｏｕｒ　ｎａｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｍｙ　ｎａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"ｉｓ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ａｈ．．．　Ｓｏ　ｙｏｕ　ｆｉｎａｌｌｙ　ｒｅａｌｉｚｅｄ"TCC_NEWLINE"　ｔｈｅ　ｔｒｕｔｈ　ａｂｏｕｔ　ｙｏｕｒｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｄｏ　ｙｏｕ　ｋｎｏｗ，　Ｌａｄｙ　Ｆｒｅｙｊａ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｗｏｒｌｄ　ｃｏｕｌｄ　ｖｅｒｙ　ｗｅｌｌ　ｂｅ"TCC_NEWLINE"　ｅｎｔｉｒｅｌｙ　ｏｆ　ｙｏｕｒ　ｏｗｎ　ｉｎｖｅｎｔｉー"TCC_NEWLINE"ｏｎ，　ｗｉｔｈ　ｙｏｕ　ａｓ　ｔｈｅ　ｌｏｎｅ　ｓｏｕｌ"TCC_NEWLINE"　ｗｉｔｈｉｎ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｎｄｅｒ．．．ｄｉｄ　ｙｏｕ　ｅｖｅｒ　ｆｅｅｌ　"TCC_NEWLINE"ｌｉｋｅ　ｔｈａｔ　ａｓ　ａ　ｃｈｉｌｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｍａｙ　ｂｅ　ｔｈａｔ　ｙｏｕ　ａｌｏｎｅ　ａｒｅ　"TCC_NEWLINE"ａｌｉｖｅ　ａｎｄ　ｔｈａｔ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ　"TCC_NEWLINE"ｉｓ　ａｎ　ｅｍｐｔｙ　ｓｈｅｌｌ．．．　Ｈａｖｅ　ｙｏｕ"TCC_NEWLINE"　ｅｖｅｒ　ｔｈｏｕｇｈｔ　ｓｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｄｏ　ｙｏｕ　ｋｎｏｗ　ＷＨＹ　ｙｏｕ　ａｒｅ　ｈａー"TCC_NEWLINE"ｖｉｎｇ　ｔｈｉｓ　ｄｒｅａｍ？　Ａｌｌｏｗ　ｍｅ　ｔｏ　"TCC_NEWLINE"ｅｘｐｌａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｉｓ　ｗｈａｔ　ｙｏｕ　ｗａｎｔ．　Ｙｏｕ　ｗｉー"TCC_NEWLINE"ｓｈ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｙｅｔ　ｌｉｖｅｄ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｙｏｕ’ｖｅ　ｄｒｅａｍｔ　ａ　ｒｅａｌｉｔｙ　ｗｈー"TCC_NEWLINE"ｅｒｅ　ｈｅ　ｃａｎ　ｃｏｎｔｉｎｕｅ　ｔｏ　ｌｉｖｅ　ｈー"TCC_NEWLINE"ａｐｐｉｌｙ，　ｓｕｒｒｏｕｎｄｅｄ　ｂｙ　ｆｒｉｅｎｄｓ"TCC_NEWLINE"　ａｎｄ　ａｌｌｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｗｈａｔ　ａｒｅ　ｙ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｄｏｎ’ｔ　ｓｕｐｐｏｓｅ　ｙｏｕ　ＣＡＮ　ｒｅｍｅｍー"TCC_NEWLINE"ｂｅｒ　ｗｈａｔ　ｈａｐｐｅｎｅｄ．．．　Ｉｆ　ｙｏｕ　ｃー"TCC_NEWLINE"ｏｕｌｄ　ｒｅｃａｌｌ，　ｔｈｅ　ｄｒｅａｍ　ｗｏｕｌｄ　"TCC_NEWLINE"ｌｉｋｅｌｙ　ｃｏｌｌａｐｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅ　ｔｈａｔ　ａｓ　ｉｔ　ｍａｙ，　ｔｈｅ　ｔｒｕｔｈ　"TCC_NEWLINE"ｉｓ　ｔｈａｔ　ｔｈｉｓ　ｍｏｒｔａｌ　ｙｏｕ　ｃａｒｅ　"TCC_NEWLINE"ｓｏ　ｍｕｃｈ　ｆｏｒ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　"TCC_NEWLINE"ｄｅｆｅａｔｅｄ　ｄｅａｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｉｔｈ　ｔｈａｔ，　Ｈｅ　Ｗｈｏ　Ｃｒｅａｔｅｄ"TCC_NEWLINE"　Ｅｖｅｒｙｔｈｉｎｇ，　Ａｌｆａｒ，　ｈａｓ　ｄｅｃｉｄー"TCC_NEWLINE"ｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｃｏｕｌｄ　ｎｏ　ｌｏｎｇｅー"TCC_NEWLINE"ｒ　ｂｅ　ａｌｌｏｗｅｄ　ｔｏ　ｅｘｉｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｄｅｃｉｓｉｏｎ　ｍａｄｅ　ｂｙ　ｔｈｅ　Ｃｒｅａｔｏー"TCC_NEWLINE"ｒ　ｉｓ　ａｂｓｏｌｕｔｅ．　Ｈｉｓ　ｗｉｌｌ　ｉｓ　ｔｒー"TCC_NEWLINE"ｕｔｈａｎｄ　ａｓ　ｙｏｕ　ｋｎｏｗ，　ｔｒｕｔｈ　ｉｓ　"TCC_NEWLINE"ｉｎｅｓｃａｐａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｔ　ｈｅｒｅ　ｙｏｕ　ａｒｅ，　ｆｌｅｅｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏｏｎ　ｙｏｕ　ｗｉｌｌ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　"TCC_NEWLINE"ｂｕｔ　ｔｏ　ａｃｃｅｐｔ　ｉｔ．　Ｐｒｉｎｃｅ　Ａｌｆｏー"TCC_NEWLINE"ｎｓｅ　ｉｓ　ｇｏｎｅ．　Ｙｏｕ　ｗｉｌｌ　ｎｅｖｅｒ　ｓー"TCC_NEWLINE"ｅｅ　ｈｉｍ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

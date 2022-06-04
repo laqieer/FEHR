@@ -1,0 +1,82 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｗｅ　ｈａｖｅ　ｎｏ　ｒｅｉｎｆｏｒｃｅｍｅｎｔｓ　ｃｏｍー"TCC_NEWLINE"ｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｉｓ　ｔｈｉｓ　ｐｏｓｓｉｂｌｅ？！　Ｖｅｒｏｎｉー"TCC_NEWLINE"ｃａ　ｈａｓ　ｓｏｍｅｈｏｗ　ｔｒｉｃｋｅｄ　ｔｈｅ　ｐｒー"TCC_NEWLINE"ｉｓｏｎ　ｇｕａｒｄｓ　ｉｎｔｏ　ｉｎｃｉｔｉｎｇ　ａ　ｒー"TCC_NEWLINE"ｅｂｅｌｌｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｅｍｐｉｒｅ’ｓ　ｖａｓｓａｌ　ｈｏｕｓｅｓ　ｓｈー"TCC_NEWLINE"ｏｕｌｄ　ｂｅ　ｓｕｐｐｒｅｓｓｉｎｇ　ｔｈａｔ　ｒｅｂｅー"TCC_NEWLINE"ｌｌｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_GENERIC_SOLDIER_RED
+"Ｔｈｅｙ　ｒｅｑｕｉｒｅ　ｔｉｍｅ　ｔｏ　ｏｒｇａｎｉｚｅ"TCC_NEWLINE"　ｔｈｅｉｒ　ｆｏｒｃｅｓ　ａｎｄ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｅｌｌ　ｔｈｅｍ　ｔｏ　ｄｅｐｌｏｙ　ｉｍｍｅｄｉａｔｅー"TCC_NEWLINE"ｌｙ！　Ｋｉｌｌ　Ｖｅｒｏｎｉｃａ　ａｎｄ　ｈｅｒ　ｂａｎー"TCC_NEWLINE"ｄ　ｏｆ　ｒｅｂｅｌｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅｙ　ｓｅｅｍ　ｄｉｓｉｎｃｌｉｎｅｄ，　ｒｅｍー"TCC_NEWLINE"ｉｎｄ　ｔｈｅｍ　ｏｆ　ａｌｌ　ｔｈｅｙ　ｗｉｓｈ　ｔｏ　"TCC_NEWLINE"ｈａｖｅ　ｒｅｍａｉｎ　ｓｅｃｒｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｌｅｔｉｚｉａ　ｗｉｌｌ　ｂｅ　ｆｏｒｃｅｄ　ｔｏ　ｒｅｓー"TCC_NEWLINE"ｐｏｎｄ　ｔｏ　Ｖｅｒｏｎｉｃａ　ｂｙ　ｌａｂｅｌｉｎｇ　"TCC_NEWLINE"ｈｅｒ　ｆｏｒｃｅｓ　ａ　ｒｅｂｅｌｌｉｏｕｓ　ｆａｃｔｉー"TCC_NEWLINE"ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ａｒｍｉｅｓ　ｏｆ　ｔｈｅ　ｖａｓｓａｌ　ｈｏｕｓー"TCC_NEWLINE"ｅｓ　ｗｉｌｌ　ｔａｋｅ　ｔｉｍｅ　ｔｏ　ｍｕｓｔｅｒ．　"TCC_NEWLINE"Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　ｏｕｔｃｏｍｅ　ｒｅｍａｉｎｓ　"TCC_NEWLINE"ｕｎｃｌｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｎｄ　ｗｈａｔ　ａｂｏｕｔ　Ｖｅｒｏｎｉｃａ？　Ｄｏ　ｔー"TCC_NEWLINE"ｈｅ　ｐｅｏｐｌｅ　ｋｎｏｗ　ｗｈａｔ’ｓ　ｒｅａｌｌｙ　"TCC_NEWLINE"ｈａｐｐｅｎｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｕｌｄ　ｗｅ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｍａｋｅ　ｉー"TCC_NEWLINE"ｔ　ｃｌｅａｒ　ｔｈａｔ　ｔｈｉｓ　ｗａｓ　ａｌｌ　Ｌｅｔー"TCC_NEWLINE"ｉｚｉａ’ｓ　ｄｏｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅ　ｖａｓｓａｌ　ｈｏｕｓｅｓ　ｈａｖｅ　ｋｎｏｗｎ　"TCC_NEWLINE"Ｖｅｒｏｎｉｃａ　ｉｓ　ｉｎｎｏｃｅｎｔ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　ｖｅｒｙ　ｓｔａｒｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｌｌｏｗｉｎｇ　Ｖｅｒｏｎｉｃａ’ｓ　ｃａｐｔｕｒｅ　ａー"TCC_NEWLINE"ｌｌｏｗｅｄ　ｔｈｅｍ　ｃｅｒｔａｉｎ　ｆｒｅｅｄｏｍｓ，"TCC_NEWLINE"　ｗｈｉｃｈ　ｔｈｅｙ　ｔｏｏｋ　ａｄｖａｎｔａｇｅ　ｏｆ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｗｈｙ　ｔｈｅｙ’ｖｅ　ｐｌａｙｅｄ　ａｌー"TCC_NEWLINE"ｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏｗ　ｔｈｅｙ　ａｒｅ　ｂｅｉｎｇ　ｆｏｒｃｅｄ"TCC_NEWLINE"　ｔｏ　ｍａｋｅ　ａ　ｄｅｃｉｓｉｏｎ：　ｔｏ　ｂａｃｋ　"TCC_NEWLINE"Ｌｅｔｉｚｉａ　ｏｒ　ｔｏ　ｂａｃｋ　Ｖｅｒｏｎｉｃａ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｗｉｌｌ　ｃｈｏｏｓｅ　ｗｈｏｅｖｅｒ　ｔｈｅｙ"TCC_NEWLINE"　ｂｅｌｉｅｖｅ　ｗｉｌｌ　ｅｎａｃｔ　ｐｏｌｉｃｉｅｓ　"TCC_NEWLINE"ｔｈａｔ　ｆａｖｏｒ　ｔｈｅ　ｐｏｗｅｒｆｕｌ　ａｍｏｎｇ"TCC_NEWLINE"　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｏｆ　ｎｏｗ，　ｉｔ　ｉｓ　ｕｎｃｌｅａｒ　ｗｈｏ　"TCC_NEWLINE"ｔｈｅｙ　ｗｉｌｌ　ｃｈｏｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｓｏ　ｅｖｅｎ　ｋｎｏｗｉｎｇ　ｔｈａｔ　Ｖｅｒｏｎｉｃａ"TCC_NEWLINE"　ｉｓ　ｉｎｎｏｃｅｎｔ，　ｔｈｅｒｅ’ｓ　ａ　ｃｈａｎｃー"TCC_NEWLINE"ｅ　ｔｈｅｙ　ｃｈｏｏｓｅ　ｔｏ　ｓｉｄｅ　ｗｉｔｈ　Ｌｅー"TCC_NEWLINE"ｔｉｚｉａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈａｔ　ｉｓ　ｈｏｗ　ｔｈｅ　ｎｏｂｉｌｉｔｙ　ｏｆ　Ｅー"TCC_NEWLINE"ｍｂｌａ　ｈａｖｅ　ａｌｗａｙｓ　ａｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅｙ　ｔｅｎｄ　ｔｏｗａｒｄ　ｗｈａｔｅｖｅｒ　ｔｈｅー"TCC_NEWLINE"ｙ　ｉｍａｇｉｎｅ　ｂｅｎｅｆｉｔｓ　ｔｈｅｍ　ｍｏｓｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｆａｃｔ　ａｌｏｎｅ　ｓｈｏｕｌｄ　ｍａｋｅ　ｔー"TCC_NEWLINE"ｈｅｉｒ　ｔａｃｔｉｃｓ　ｓｉｍｐｌｅ　ｅｎｏｕｇｈ　ｔｏ"TCC_NEWLINE"　ｒｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｅｉｎｇ　Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ’ｓ　ｆｏｒー"TCC_NEWLINE"ｔｕｎｅｓ　ｃｈａｎｇｅ　ｍａｙ　ｒｅｓｕｌｔ　ｉｎ　ｓｏー"TCC_NEWLINE"ｍｅ　ｏｆ　ｔｈｅｍ　ｃｈｏｏｓｉｎｇ　ｔｏ　ｓｉｄｅ　ａー"TCC_NEWLINE"ｇａｉｎｓｔ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｎｄ　ｔｈｅｎ．．．ｔｒｕｔｈ　ｗｉｌｌ　ｐｒｅｖａｉｌ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｈｏｐｅ　ｔｈａｔ　ｉｓ　ｔｈｅ　ｃａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　Ｅｍｂｌａ，　ｈｏｗｅｖｅｒ，　ｉｔ　ｉｓ　ｔｈｅ　"TCC_NEWLINE"ｖｉｃｔｏｒ　ｗｈｏ　ｄｅｃｉｄｅｓ　ｔｈｅ　ｔｒｕｔｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｅ　ｄｅｆｅａｔｅｄ　ｋｎｏｗ　ｎｏ　ｍｅｒｃー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａ　ｒｅｐｏｒｔ’ｓ　ｊｕｓｔ　ｃｏｍｅ　ｉｎ！　Ｔｈｅ　"TCC_NEWLINE"ｅｎｅｍｙ　ｉｓ　ａｐｐｒｏａｃｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔｉｚｉａ　ｉｓ　ｏｎ　ｈｅｒ　ｗａｙ　ｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｗｅ　ａｒｅ　ｂｅｙｏｎｄ　ｗｏｒｄｓ　ｎｏｗ，　Ｉ　ｔｈー"TCC_NEWLINE"ｉｎｋ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｐｏｉｎｔ　ｉｎ　ｐｌｅー"TCC_NEWLINE"ａｓａｎｔｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓｔａｎｄ　ｉｎ　ｔｈｅ　ｓｈａｄｏｗ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅ　Ｃｕｒｓｅ　Ｄｉｒｅｃｔｉｖｅ，　ａｎｄ　ｙｏｕ　ｗｉー"TCC_NEWLINE"ｌｌ　ｂｅ　ｃｒｕｓｈｅｄ　ｂｅｎｅａｔｈ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｔｈｉｓ　ｉｓ　ｎｏｔ　ｔｈｅ　ｅｎｄ．．．　Ｉ　ｓｗｅａー"TCC_NEWLINE"ｒ　ｉｔ！　Ｎｅｘｔ　ｔｉｍｅ，　Ｉ．．．　Ｙｏｕ　ｗｉｌー"TCC_NEWLINE"ｌ　ｓｕｆｆｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6071_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｅｎｅｍｙ　ｈａｓ　ｒｅｔｒｅａｔｅｄ，　ｂｕｔ　"TCC_NEWLINE"ｔｈｅｒｅ’ｓ　ｎｏ　ｔｅｌｌｉｎｇ　ｈｏｗ　ｍｕｃｈ　ｔー"TCC_NEWLINE"ｉｍｅ　ｗｅ　ｈａｖｅ　ｂｅｆｏｒｅ　ｔｈｅｙ　ｒｅｔｕｒー"TCC_NEWLINE"ｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｖｅｒｏｎｉｃａ　ｉｓ　ｏｎ　ｈｅｒ　ｗａｙ　ｈｅｒｅ．　"TCC_NEWLINE"Ｌｅｔｉｚｉａ　ｓｕｒｅｌｙ　ｋｎｏｗｓ　ｓｈｅ　ｈａｓ　"TCC_NEWLINE"ｎｏ　ｃｈａｎｃｅ　ｏｆ　ｖｉｃｔｏｒｙ　ｉｆ　Ｖｅｒｏｎー"TCC_NEWLINE"ｉｃａ　ａｒｒｉｖｅｓ　ｓａｆｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｓ　ｌｏｎｇ　ａｓ　ｗｅ　ｃａｎ　ｈｏｌｄ　ｏｕｔ　ｕｎー"TCC_NEWLINE"ｔｉｌ　ｔｈｅｎ，　ｗｅ’ｖｅ　ｗｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｔ　ｓｈｅ　ｓｅｅｍｓ　ｆｏｃｕｓｅｄ　ｏｎ　ｕｓ　ｒー"TCC_NEWLINE"ａｔｈｅｒ　ｔｈａｎ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｗｉｔｈ　ｔｈｅ　ｐｒｉｎｃｅー"TCC_NEWLINE"ｓｓ　ｉｓ　ａｎ　ｉｎｔｅｒｎａｌ　ｉｓｓｕｅ　ｆｏｒ　Ｅー"TCC_NEWLINE"ｍｂｌａ，　ｂｕｔ　Ａｓｋｒ　ｏｐｅｎｌｙ　ｓｉｄｅｄ　ｗー"TCC_NEWLINE"ｉｔｈ　Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａ　ｄｅｌｉｃａｔｅ　ｓｉｔｕａｔｉｏｎ，　ａｎー"TCC_NEWLINE"ｄ　ｉｔ　ｍｕｓｔ　ｂｅ　ｄｉｆｆｉｃｕｌｔ　ｆｏｒ　Ｌｅー"TCC_NEWLINE"ｔｉｚｉａ　ｔｏ　ｍａｉｎｔａｉｎ　ｈｅｒ　ｃｏｎｔｒｏｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｃｕｓｉｎｇ　ｏｎ　ｕｓ　ｏｖｅｒ　ｅｌｉｍｉｎａｔｉー"TCC_NEWLINE"ｎｇ　ｔｈｅ　ｔｈｒｅａｔ　ｔｏ　ｈｅｒ　ａｕｔｈｏｒｉｔー"TCC_NEWLINE"ｙ　ｓｅｅｍｓ　ｌｉｋｅ　ｂａｄ　ｓｔｒａｔｅｇｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｅｔｉｚｉａ　ｉｓ　ｎｅｒｖｏｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｋｎｏｗｓ　ｔｈａｔ　Ｉ　ｗａｓ　ｃｌｏｓｅ　ｔｏ"TCC_NEWLINE"　ｙｏｕ　ｌｏｎｇ　ａｇｏ，　ａｎｄ　ｓｏ　ｓｈｅ　ｍｕｓー"TCC_NEWLINE"ｔ　ｆｅａｒ　ｈｅｒ　ｇｒｉｐ　ｏｎ　ｔｈｅ　ｓｉｔｕａｔー"TCC_NEWLINE"ｉｏｎ　ｉｓ　ｆａｉｌｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　Ａｓｋｒ　ａｌｌｉｅｄ　ｗｉｔｈ　Ｖｅｒｏｎｉｃー"TCC_NEWLINE"ａ，　ｓｈｅ　ｍａｙ　ｒｅａｌｉｚｅ　ｉｔ’ｓ　ｐｏｓｓｉー"TCC_NEWLINE"ｂｌｅ　ｆｏｒ　ｕｓ　ｔｏ　ｓｕｒｒｏｕｎｄ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｄｏ，　ｓｈｅ　ｈａｓ　ｎｏｗｈｅｒｅ　ｔｏ　"TCC_NEWLINE"ｒｕｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｓｈｅ’ｓ　ｃａｐｔｕｒｅｄ，　ｓｈｅ　ｗｉｌｌ　ｂー"TCC_NEWLINE"ｅ　ｔｈｅ　ｏｎｅ　ｔｏ　ｂｅ　ｅｘｅｃｕｔｅｄ．　Ａｎｄ"TCC_NEWLINE"　ｉｔ　ｗｉｌｌ　ｂｅ　ｏｒｄｅｒｅｄ　ｂｙ　Ｖｅｒｏｎｉー"TCC_NEWLINE"ｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｆｅａｒ　ｉｓ　ｗｈａｔ　ｍｏｔｉｖａｔｅｓ　ｈー"TCC_NEWLINE"ｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａ　ｓｈａｍｅ．．．　Ｔｈｅ　Ｌｅｔｉｚｉａ　Ｉ"TCC_NEWLINE"　ｋｎｅｗ　ｃｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ　ｓｏｍｅｔｈｉー"TCC_NEWLINE"ｎｇ　ｍｏｒｅ．．．　Ｂｕｔ　ｔｈａｔ　ｗａｓ　ｌｏｎｇ　"TCC_NEWLINE"ａｇｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕ　ｗｅｒｅ．．．ｃｌｏｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｗｈｅｎ　ｗｅ　ｗｅｒｅ　ｙｏｕｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂａｃｋ　ｔｈｅｎ，　ｓｈｅ　ｌｏｏｋｅｄ　ｌｉｋｅ　ａ　"TCC_NEWLINE"ｐｒｉｎｃｅｓｓ　ｈａｄ　ｓｔｅｐｐｅｄ　ｏｕｔ　ｏｆ　ａ"TCC_NEWLINE"　ｐｉｃｔｕｒｅ　ｂｏｏｋ．　Ｓｈｅ　ｗａｓ　ｂｅａｕｔｉー"TCC_NEWLINE"ｆｕｌ，　ｇｅｎｔｌｅ，　ａｎｄ　ｋｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｗｅ　ｗｅｒｅ　ｃｈｉｌｄｒｅｎ，　ｔｈｅ　ｔｗー"TCC_NEWLINE"ｏ　ｏｆ　ｕｓ　ｐｒｏｍｉｓｅｄ　ｔｏｗｅｌｌ，　ｓｐｏｋー"TCC_NEWLINE"ｅ　ｏｆ．．．　ｐｌａｎｓ　ｆｏｒ　ｏｕｒ　ｌｉｖｅｓ　ｔー"TCC_NEWLINE"ｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｖｅ　ｓｉｎｃｅ　ｒｅａｌｉｚｅｄ　ｔｈａｔ　"TCC_NEWLINE"ｓｈｅ　ｓｐｏｋｅ　ｆａｌｓｅｌｙ　ｅｖｅｎ　ｔｈｅｎ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ’ｍ　ｓｏｒｒｙ，　Ｚａｃｈａｒｉａｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

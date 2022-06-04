@@ -1,0 +1,138 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
+"やっほーっ☆" TCC_NEWLINE
+"あんたらがアスク王国の連中？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"あなたは。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あたしはヨトゥンの第二王女" TCC_NEWLINE
+"ダグちゃんだよ☆" TCC_NEWLINE TCC_PUSH_A
+""
+"あんたら、ニザヴェリルから贈られた" TCC_NEWLINE
+"魔剣が欲しいんでしょ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"そ、そうなの！" TCC_NEWLINE
+"どうか返してくださいなの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"べーっ！　やーだねっ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"えっ。。。えぇっ！？　どうしてなの？" TCC_NEWLINE
+"私たち、あの剣が必要なの！" TCC_NEWLINE
+"【グラム】がないとみんなが。。。！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"よその国がどうなろうと" TCC_NEWLINE
+"知ったこっちゃないもーん。" TCC_NEWLINE
+"それより！" TCC_NEWLINE TCC_PUSH_A
+"ここであんたらをまとめて倒せば" TCC_NEWLINE
+"ダグちゃん超強い！　ってなって" TCC_NEWLINE
+"あたしが次期女王になれちゃうじゃん？" TCC_NEWLINE TCC_PUSH_A
+""
+"あたしの方がいい子なのに" TCC_NEWLINE
+"ママもみんなもノートノートって。。。" TCC_NEWLINE
+"んもぅ、やんなっちゃう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"？　あの。。。何の話だい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ・ごめーん☆" TCC_NEWLINE
+"あんたらには訳わかんないよねっ。" TCC_NEWLINE
+"でも死んじゃうから関係ないじゃん？" TCC_NEWLINE TCC_PUSH_A
+""
+"んじゃ、殺し合いのはっじまりーーい！！" TCC_NEWLINE
+"あたしの【スキンファクシ】で" TCC_NEWLINE
+"プチっと潰しちゃうよ☆" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"この人のどこが" TCC_NEWLINE
+"争いを好まないんですかっ！？" TCC_NEWLINE
+"嘘つきーーーーっ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
+"あーあ負けちゃったぁ。。。" TCC_NEWLINE
+"あんたら超強いじゃん！！" TCC_NEWLINE
+"反則ー！　ぶーぶー！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"とりあえず。。。どういうことか" TCC_NEWLINE
+"説明してくれないか？　ダグ王女。" TCC_NEWLINE TCC_PUSH_A
+"僕たちはノート王女と" TCC_NEWLINE
+"会う予\定だったんだけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ノートはあたしの" TCC_NEWLINE
+"双子の姉ちゃんだよーん。" TCC_NEWLINE TCC_PUSH_A
+"ママがあたしとあいつと、" TCC_NEWLINE
+"どっちか強い方を" TCC_NEWLINE
+"次の女王にするっていうからさ。" TCC_NEWLINE TCC_PUSH_A
+""
+"アスクとニザヴェリルの王族を" TCC_NEWLINE
+"まとめて倒しちゃえば" TCC_NEWLINE
+"あたしが選ばれるかなーって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"要するに、何の関係もない" TCC_NEWLINE
+"姉妹の後継争いに" TCC_NEWLINE
+"巻き込まれたってこと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ごめんってぇ。" TCC_NEWLINE
+"結局勝ったからいいじゃん。" TCC_NEWLINE
+"許して？　ね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うっわ怖い顔。。。" TCC_NEWLINE
+"そんな顔したらもてないゾ☆" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、もっと怖くなった。。。" TCC_NEWLINE
+"ほんとごめんって！" TCC_NEWLINE
+"お詫びに魔剣取り戻すの協力するからぁ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"協力。。。？　何か問題が？" TCC_NEWLINE
+"ノート王女は聡明な人物だと聞いてるけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いーからいーから。" TCC_NEWLINE
+"バルンストック城に行くんだよね。" TCC_NEWLINE
+"あたしも一緒に行ってあ・げ・る☆" TCC_NEWLINE TCC_PUSH_A
+"ね、いいっしょ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。そうだね。それがいいかもしれない。" TCC_NEWLINE
+"ヨトゥンの王女は信用できないと" TCC_NEWLINE
+"よくわかったし。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あっはっは！" TCC_NEWLINE
+"もー王子ちゃんってば" TCC_NEWLINE
+"可愛くないんだからぁ。" TCC_NEWLINE TCC_PUSH_A
+"素直にこんな美人王女とご一緒できるなんて" TCC_NEWLINE
+"最高～って言えばいいのに☆" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ああ。。。お兄様の眉間に" TCC_NEWLINE
+"見たことのない深い皺が。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+"どうなってしまうのか目が離せませんねっ！" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "さんっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

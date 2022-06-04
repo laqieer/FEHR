@@ -1,0 +1,84 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4112_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｕｎｇｈ．．．　Ｍｍｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｍｉｒａｂｉｌｉｓ，　ｗａｋｅ　ＵＰ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"＊ｙａａａａａｗｎ＊　Ｉ’ｍ　ｓｏｒｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｈａｖｅ　ａｎｙ　ｉｄｅａ　ｗｈｅｒｅ　ｗー"TCC_NEWLINE"ｅ　ｓｈｏｕｌｄ　ｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｙｏｕ　ｈａｖｅ　ｎｏｗｈｅｒｅ　ＴＯ　ｇｏ．　Ｎｏｗｈｅー"TCC_NEWLINE"ｒｅ　ａｔ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗａａｈｈ！　Ｓｈｅ’ｓ　ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｈ？　Ａ　ｓｈｒｉｅｋ　ｉｓ　ａｌｌ　ｔｈｅ　ｇｒｅｅｔー"TCC_NEWLINE"ｉｎｇ　ｙｏｕ　ｈａｖｅ　ｆｏｒ　ｍｅ？　Ｈａｖｅ　ｙｏｕ"TCC_NEWLINE"　ｆｏｒｇｏｔｔｅｎ　ｗｈａｔ　Ｉ’ｖｅ　ｄｏｎｅ　ｆｏｒ"TCC_NEWLINE"　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｎｏｔ　ｆｏｒ　ｍｅ　ａｎｄ　ｍｙ　ｂｒｏｔｈｅｒ，"TCC_NEWLINE"　ｙｏｕ　ｗｏｕｌｄ　ｎｏｔ　ｂｅ　ｗｈａｔ　ｙｏｕ　ａｒー"TCC_NEWLINE"ｅ　ｔｏｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｈｕｈ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｉｒａｂｉｌｉｓ．　Ｉｔ　ｉｓ　ｈａｒｄ　ａｌｗａｙｓ　"TCC_NEWLINE"ｂｅｉｎｇ　ｈｕｎｇｒｙ，　ｉｓｎ’ｔ　ｉｔ？　Ａｌｗａｙー"TCC_NEWLINE"ｓ　ｂａｒｅｌｙ　ａｗａｋｅ，　ｄａｙｄｒｅａｍｉｎｇ　ｏー"TCC_NEWLINE"ｆ　ａ　ｆｕｌｌ　ｂｅｌｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ，　ｉｔ　ｉｓｎ’ｔ　ｙｏｕｒ　ｆａｕｌー"TCC_NEWLINE"ｔ．　Ｏｎｌｙ　ｎａｔｕｒａｌ　ｗｈｅｎ　ｙｏｕｒ　ｍｏｔー"TCC_NEWLINE"ｈｅｒ　ｉｇｎｏｒｅｄ　ｙｏｕ　ｏｎｃｅ　ｙｏｕ　ｌｅｆｔ"TCC_NEWLINE"　ｈｅｒ　ｗｏｍｂ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｃｏｕｌｄ　ｙｏｕ　ｈａｖｅ　ｂｅｅｎ　ｔｏ　ｈー"TCC_NEWLINE"ｅｒ，　ａ　ｗｏｍａｎ　ｗｈｏ　ｈａｄ　ｎｏ　ｉｎｔｅｎｔー"TCC_NEWLINE"ｉｏｎ　ｏｆ　ｅｖｅｒ　ｇｉｖｉｎｇ　ｂｉｒｔｈ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅ　ｆｉｒｓｔ　ｐｌａｃｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｉｔｔｌｅ　ｍｏｒｅ　ｔｈａｎ　ａ　ｐｅｂｂｌｅ　ｉｎ　"TCC_NEWLINE"ｈｅｒ　ｓｈｏｅ，　Ｉ　ｉｍａｇｉｎｅ．　Ｆｉｔ　ｏｎｌｙ"TCC_NEWLINE"　ｔｏ　ｂｅ　ｔｏｓｓｅｄ　ａｗａｙ．　Ａｎｄ　ｔｒｏｕｂー"TCC_NEWLINE"ｌｅｓｏｍｅ　ｕｎｔｉｌ　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈ－ｗｈａｔ．．．　Ｉ　ｄｏｎ’ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｏ　ｎｏｔ　ｆｒｅｔ，　Ｍｉｒａｂｉｌｉｓ．　Ｔｈａｔ　"TCC_NEWLINE"ｉｓ　ｎｏｔ　ｙｏｕ．　Ｙｏｕ　ａｒｅ　ｓｏｍｅｔｈｉｎｇ"TCC_NEWLINE"　ｅｌｓｅ　ｎｏｗ．　Ｙｏｕ　ａｒｅ　ｏｆ　ｔｈｅ　ｓａｍー"TCC_NEWLINE"ｅ　ｓｔｕｆｆ　ａｓ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ　ｔｏ　ｃｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｓｔａｙ　ｈｅｒｅ，　ｌｉｖｉｎｇ　ｈａｐー"TCC_NEWLINE"ｐｉｌｙ　ｉｎ　ａ　ｌｏｖｅｌｙ　ｄｒｅａｍ．　Ａ　ｌｏｖー"TCC_NEWLINE"ｅｌｙ　ｄｒｅａｍ　ｏｆ　ｍｙ　ａｌｌ－ｃｏｎｓｕｍｉｎｇ"TCC_NEWLINE"　ｎｉｇｈｔｍａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4112_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｓｔｉｌｌ　ｙｏｕ　ｄｅｆｙ　ｍｅ？　Ｗｈｙ？　Ｉｔ　ｉｓ"TCC_NEWLINE"　ｕｓｅｌｅｓｓ．　Ｇｉｖｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4112_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｈｕｓｈ，　ｎｏｗ，　Ｍｉｒａｂｉｌｉｓ．．．　Ｂａｃｋ　"TCC_NEWLINE"ｔｏ　ｓｌｅｅｐ．　Ｉ　ｒｅｍｅｍｂｅｒ　ｈｏｗ　ｙｏｕ　"TCC_NEWLINE"ｃｒｉｅｄ　ａｎｄ　ｃｒｉｅｄ，　ｂｕｔ　ｎｏ　ｏｎｅ　ｈー"TCC_NEWLINE"ｅｌｐｅｄ　ｙｏｕ．．．ｄｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ａｌｏｎｅ．．．　Ａｌｗａｙｓ　ａｌｏｎｅ．．．　"TCC_NEWLINE"Ｆｏｒｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｉ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｐｌｅａｓｅ，　ｓｔｏｐ！　Ｙｏｕ’ｒｅ　ｈｕｒｔｉｎｇ　"TCC_NEWLINE"ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｙｏｕ’ｒｅ　ｈｅｒｅ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｅ？　Ｗｈａｔ　ａｂｏｕｔ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｈｅａｒｔｌｅｓｓ　ｔｒａｉｔｏｒ　ｗｈｏ　ａｂａー"TCC_NEWLINE"ｎｄｏｎｅｄ　ｈｅｒ　ｆｒｉｅｎｄｓ　ａｎｄ　ｒａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｌｉｖｅｄ　ｙｏｕｒ　ｌｉｆｅ　ａｗａｙ　ｉｎ　ｔー"TCC_NEWLINE"ｈｅ　ｒｅａｌ　ｗｏｒｌｄ，　ｆｒｅｅ　ｆｒｏｍ　ｃａｒｅ"TCC_NEWLINE"，　ａｎｄ　ｆｏｒｇｏｔ　ａｌｌ　ａｂｏｕｔ　ｙｏｕｒ　ｌー"TCC_NEWLINE"ｉｆｅ　ａｍｏｎｇ　ｔｈｅ　ｄｒｅａｍｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ　ｍｅ　ｈｅｌｐ　ｙｏｕ　ｒｅｍｅｍｂｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ．．．　Ｂｕｔ　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏ？　Ｄｏ　ｙｏｕ　ｒｅｍｅｍｂｅｒ　ｎｏｗ？　Ｃａｎ　"TCC_NEWLINE"ｙｏｕ　ｒｅｃａｌｌ　ｙｏｕｒ　ｆｒｉｅｎｄｓ　ｆｒｏｍ　"TCC_NEWLINE"ｓｏ　ｌｏｎｇ　ａｇｏ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌａｙ，　ｐｌａｙ，　ｐｌａｙ！　Ｃ’ｍｏｎｌｅｔ’ｓ　"TCC_NEWLINE"ｐｌａｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｏｕｌｄ　ｃａｌｌ　ｏｕｔ　ｔｏ　ｅａｃｈ　ｏｔー"TCC_NEWLINE"ｈｅｒ　ａｎｄ　ｐｌａｙ　ｆｏｒ　ｈｏｕｒｓ　ａｎｄ　ｈｏー"TCC_NEWLINE"ｕｒｓ．．．　Ｙｏｕ　ｒｅｍｅｍｂｅｒ，　ｄｏｎ’ｔ　ｙｏー"TCC_NEWLINE"ｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｄｏ　ｙｏｕ．．．ｋｎｏｗ　ｗｈａｔ　ｓｈｅ’ｓ　ｔａｌｋー"TCC_NEWLINE"ｉｎｇ　ａｂｏｕｔ，　Ｓｈａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｒｅ　ｗａｓ　ａ　ｔｉｍｅ　ｗｈｅｎ　ｔｈｅ　ｄｒｅー"TCC_NEWLINE"ａｍ　ｒｅａｌｍ　ｆａｃｅｄ　ｒｕｉｎ．．．　Ｉｆ　ｔｈｅ"TCC_NEWLINE"　ｄｒｅａｍｓ　ｄｉｅｄ，　ｙｏｕ　ｍｏｒｔａｌｓ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ａｌｓｏ　ｓｕｆｆｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎｎｏｃｅｎｔ　ｃｈｉｌｄｒｅｎ　ｗｅｒｅ　ｔｈｅ　ｏｎー"TCC_NEWLINE"ｌｙ　ｗａｙ　ｗｅ　ｃｏｕｌｄ　ｓａｖｅ　ｏｕｒ　ｈｏｍｅ"TCC_NEWLINE"．　Ａｎｄ　ｓｏ　ｗｅ　ｃａｌｌｅｄ　ｃｈｉｌｄｒｅｎ　ｉー"TCC_NEWLINE"ｎｔｏ　ｔｈｅ　ｄｒｅａｍ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｎｄ　ｗｈａｔ　ｈａｐｐｅｎｅｄ　ｔｏ　ｔｈｅｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌｅａｒｎｉｎｇ　ｏｆ　ｏｕｒ　ｐｌｉｇｈｔ，　ｔｈｅｙ　"TCC_NEWLINE"ｄｒａｎｋ　ｏｆ　ｔｈｅ　ｎｅｃｔａｒ　ｉｎ　ｏｒｄｅｒ　"TCC_NEWLINE"ｔｏ　ｓａｖｅ　ｏｕｒ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｏ　ｔｈｅｙ　ｇａｖｅ　ｕｐ　ｔｈｅｉｒ　ｍｏｒー"TCC_NEWLINE"ｔａｌ　ｌｉｖｅｓ　ｔｏ　ｂｅｃｏｍｅ　ｓｏｍｅｔｈｉｎｇ"TCC_NEWLINE"　ｍｏｒｅ．　Ｔｈｅｙ　ｂｅｃａｍｅ　ｌｆｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｃａｎ’ｔ　ｂｅｌｉｅｖｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｒｉａｎｄｒａ，　Ｐｌｕｍｅｒｉａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｏｎｙ，　Ｍｉｒａｂｉｌｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｈｏｗ　ｔｈｅｙ　ｃａｍｅ　ｔｏ　ｂｅ　ｗー"TCC_NEWLINE"ｈｏ　ｔｈｅｙ　ａｒｅ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ，　ｏｆ　ｔｈｏｓｅ　ｇｉｒｌｓ，　ｏｎｌｙ　ｙｏｕ"TCC_NEWLINE"　ｒｅｍａｉｎ　ｍｏｒｔａｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｓａｃｒｉｆｉｃｅｄ　ｙｏｕｒ　ｆｒｉｅｎｄｓ，　"TCC_NEWLINE"ｌｅａｖｉｎｇ　ｔｈｅｍ　ｂｅｈｉｎｄ　ｗｈｉｌｅ　ｙｏｕ"TCC_NEWLINE"　ｗｅｎｔ　ｏｎ　ａｌｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ．．．　Ｉ．．．　ＩｉｉｉｉｉｉｅｅｅｅｅＥＥＹＹＹＡＡー"TCC_NEWLINE"ＡＧＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｓｈａｒｅｎａ！　Ｔｒｙ　ｔｏ　ｋｅｅｐ　ｃａｌｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍｈｍｈｍ．．．　Ｉｆ　ｉｔ　ｈｕｒｔｓ，　ｓｌｅｅｐ　"TCC_NEWLINE"ｉｔ　ｏｆｆ．　Ｆｏｒｇｅｔ　ｉｔ　ａｌｌ．．．　Ｊｕｓｔ"TCC_NEWLINE"　ｄｒｅａｍ　ｉｔ　ａｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

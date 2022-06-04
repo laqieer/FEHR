@@ -1,0 +1,156 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4112] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"うーん。。。むにゃむにゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"ルピナスー、" TCC_NEWLINE
+"おーきーてー。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふわわ、ごめんなさいですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+"でもでもぉ。。。" TCC_NEWLINE
+"どこへいけばいいのか" TCC_NEWLINE
+"わかんないですぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"どこへもいけないのよ。" TCC_NEWLINE
+"あなたたちは、みんな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ひゃああ。。。" TCC_NEWLINE
+"また出ましたぁ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あら、私を見て悲鳴？" TCC_NEWLINE
+"恩知らずな子ですこと。" TCC_NEWLINE TCC_PUSH_A
+"私とお兄様のおかげで、" TCC_NEWLINE
+"あなたは妖精になれたというのに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ルピナス。" TCC_NEWLINE
+"あなたはいつもねむいでしょう？" TCC_NEWLINE
+"いつもおなかがすいているでしょう？" TCC_NEWLINE TCC_PUSH_A
+"それは当然のこと。だって、" TCC_NEWLINE
+"あなたの母は、生まれたばかりの赤ん坊に" TCC_NEWLINE
+"何一つ与えなかったんだもの。" TCC_NEWLINE TCC_PUSH_A
+"生む気などなかった母からすれば" TCC_NEWLINE
+"あなたは無価値な石ころ。。。いいえ、" TCC_NEWLINE
+"それ以下の面倒なゴミかしら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ。。。。。。ぅ。。。。。。あぅぅ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"でも、安心なさいな。" TCC_NEWLINE
+"あなたは夢の世界で妖精になったの。" TCC_NEWLINE
+"もう、泣かなくていいのよ。" TCC_NEWLINE TCC_PUSH_A
+"ずっと幸せな夢の中にいられるわ。" TCC_NEWLINE
+"みんな。。。私の悪夢で包んであげる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4112] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"まだ抗うのね。" TCC_NEWLINE
+"何をしても無駄なのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4112] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"ルピナス、あなたはもうお眠りなさいな。" TCC_NEWLINE
+"いくら泣いても。。。泣いても。。。" TCC_NEWLINE
+"誰も助けてはくれなかったでしょう？" TCC_NEWLINE TCC_PUSH_A
+"あなたは一人。。。" TCC_NEWLINE
+"永遠に一人きり。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"あぅぅ。。。。。。" TCC_NEWLINE
+"わ。。。。。。わたし。。。。。。わたし。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"もうやめてください、" TCC_NEWLINE
+"ルピナスさんをいじめないで！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あら、あなた。。。" TCC_NEWLINE
+"そう、あなたがいたのだったわね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたは薄情な裏切り者。" TCC_NEWLINE
+"５人の英雄たちの中でただ１人、" TCC_NEWLINE
+"みんなを見捨てて逃げ出した女の子。。。" TCC_NEWLINE TCC_PUSH_A
+"そしてのうのうと現実で暮らし、" TCC_NEWLINE
+"夢の世界のことなど" TCC_NEWLINE
+"すっかり忘れてしまった子。。。" TCC_NEWLINE TCC_PUSH_A
+"さあ、思い出してごらんなさい。" TCC_NEWLINE
+"夢の世界の出来事を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。ぁ。。。。。。" TCC_NEWLINE
+"。。。。。。ぁ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どう？　少しは思い出したかしら？" TCC_NEWLINE
+"小さなあなたと、" TCC_NEWLINE
+"あなたのお友達のことを。" TCC_NEWLINE TCC_PUSH_A
+"あそぼ　あそぼ" TCC_NEWLINE
+"あそびましょ。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちはそうやって" TCC_NEWLINE
+"ずうっと遊んでいたわよね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"いったい何の話を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"知りなさい、人間。" TCC_NEWLINE
+"かつて夢の世界は滅びの淵にあったの。。。" TCC_NEWLINE
+"夢が滅びれば、人間もまた夢見る心を失う。" TCC_NEWLINE TCC_PUSH_A
+"世界を救えるのは、純真な子供たちだけ。" TCC_NEWLINE
+"だから、私たちは夢の世界に" TCC_NEWLINE
+"あの子たちを呼び寄せたの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"あの子たち。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"小さなあの子たちは、その危機を知った。" TCC_NEWLINE
+"そして世界を救う英雄になるために、" TCC_NEWLINE
+"花の蜜を飲んだの。" TCC_NEWLINE TCC_PUSH_A
+"そして、" TCC_NEWLINE
+"人であることを捨てて、" TCC_NEWLINE
+"妖精になった。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"まさか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"スカビオサ。プルメリア。" TCC_NEWLINE
+"ピアニー。ルピナス。" TCC_NEWLINE
+"それがあの子たちが生まれた理由よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。ぁ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でも、あの花畑の少女たちの中で、" TCC_NEWLINE
+"あなたは今も人間のまま。。。" TCC_NEWLINE TCC_PUSH_A
+"おともだちをみんな犠牲にして、" TCC_NEWLINE
+"あなただけが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"。。。。。。ぁぁ。。。ぁぁぁ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"シャロン！？" TCC_NEWLINE
+"しっかりするんだ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ふふ。。。、" TCC_NEWLINE
+"辛いなら眠ってしまいなさい。" TCC_NEWLINE
+"すべてを忘れて、夢の中に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

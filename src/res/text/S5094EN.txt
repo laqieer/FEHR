@@ -1,0 +1,84 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5094_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｈｍｍｍ．．．　Ｗｈｅｒｅ　ｉｓ．．．　Ｈｕｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ　ｉｓ　ｉｔ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　ｔｈｉｓ　ｉｓ　ｗｈｅｒｅ　ｔｈｅ　ｋｉｎｇ　"TCC_NEWLINE"ｗｏｕｌｄ　ｈａｖｅ　ｃｏｍｅ　ｔｏ　ｐｅｒｆｏｒｍ　ｔｈー"TCC_NEWLINE"ｅ　ｆｏｒｍａｌ　ｒｉｔｅｓ　ｏｆ　ａｓｃｅｎｓｉｏｎ　ｔー"TCC_NEWLINE"ｏ　ｔｈｅ　ｔｈｒｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｉｔｅ　ｉｎｖｏｌｖｅｓ　ｃｌｉｍｂｉｎｇ　ｆｒー"TCC_NEWLINE"ｏｍ　ｔｈｅ　ｂｏｔｔｏｍ　ｏｆ　ｔｈｅ　ｍｏｕｎｔａｉｎ"TCC_NEWLINE"　ｔｏ　ｔｈｅ　ｔｏｗｅｒ　ａｎｄ　ｐｌａｃｉｎｇ　ａ　ｔー"TCC_NEWLINE"ｒｅａｓｕｒｅ　ｏｎ　ｔｈｅ　ａｌｔａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．Ｉ　ｄｏｎ’ｔ　ｓｅｅ　Ｆｆｎｉｒ’ｓ　ｔｒｅー"TCC_NEWLINE"ａｓｕｒｅ　ｈｅｒｅ　ａｎｙｗｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｄｉｄ　Ｆｆｎｉｒ．．．ｎｏｔ　ｐｅｒｆｏｒｍ　ｔｈｅ　ｒー"TCC_NEWLINE"ｉｔｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅ　ｄｉｄ！　Ｗｅｌｌ，　ｈｅ　ｔｏｏｋ　ａ　ｔｒｅａｓー"TCC_NEWLINE"ｕｒｅ　ａｎｄ　ｃｌｉｍｂｅｄ　ｔｈｉｓ　ｍｏｕｎｔａｉｎ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｂｕｔ　ｈｅ　ｗｅｎｔ　ａｌｏｎｅ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗ－ｗｅｌｌ，　ｏｆ　ｃｏｕｒｓｅ，　ｂｕｔ　ｎｏｔ　ｂｅー"TCC_NEWLINE"ｃａｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｓ　ｔｈｉｓ　ｔｈｅ　ｔｒｅａｓｕｒｅ　ｈｅ　ｃａｒｒｉー"TCC_NEWLINE"ｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈ－ｔｈａｔ’ｓ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈｙ　ｄｏ　ｙｏｕ　ｈａｖｅ　ｉｔ，　Ｐｒｉｎｃｅ"TCC_NEWLINE"　Ａｌｆｏｎｓｅ？　Ｗｈｅｒｅ　ｄｉｄ　ｙｏｕ　ｆｉｎｄ　"TCC_NEWLINE"ｉｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ　ｗａｓ　ｏｎ　ｔｈｅ　ｇｒｏｕｎｄ　ｏｕｔｓｉｄｅ　"TCC_NEWLINE"ａｓ　ｗｅ　ａｐｐｒｏａｃｈｅｄ　ｔｈｅ　ｔｏｗｅｒ．　Ｉー"TCC_NEWLINE"ｔ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　ｂｅｅｎ　ｔｈｒｏｗｎ　ｉー"TCC_NEWLINE"ｎｔｏ　ｔｈｅ　ｔｈｉｃｋｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｗｈｏ　ｆｏｕｎｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ．．．ｗｈｙ　ｗｏｕｌｄ　Ｈｅ　ｓａｉｄ　ｈｅ　ｇａー"TCC_NEWLINE"ｖｅ　ｈｉｓ　ｔｒｅａｓｕｒｅ　ａｓ　ａｎ　ｏｆｆｅｒｉｎー"TCC_NEWLINE"ｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｈｅ　ｗａｓ　ｕｎａｂｌｅ　ｔｏ　ｏｐｅｎ　ｔｈｅ　ｇａｔー"TCC_NEWLINE"ｅ，　ｉｎ　ａｌｌ　ｌｉｋｅｌｉｈｏｏｄ．　Ｂｌｏｃｋｅｄ"TCC_NEWLINE"　ｆｒｏｍ　ｍａｋｉｎｇ　ｈｉｓ　ｏｆｆｅｒｉｎｇ，　ｈｅ"TCC_NEWLINE"　ｔｏｓｓｅｄ　ｉｔ　ａｓｉｄｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｔｈｅｎ．．．ｗｈａｔ　ｄｏｅｓ　ｔｈａｔ　ｍｅａｎ　ｆｏー"TCC_NEWLINE"ｒ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｍｅｎｔｉｏｎｅｄ　ｔｈａｔ　ｏｎｌｙ　ｔｈｅ　ｒー"TCC_NEWLINE"ｏｙａｌ　ｌｉｎｅ　ｉｓ　ａｂｌｅ　ｔｏ　ｅｎｔｅｒ　ｔｈー"TCC_NEWLINE"ｅ　ｔｏｗｅｒ，　ｒｉｇｈｔ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉー"TCC_NEWLINE"ｎｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｄｏｅｓ　ｔｈｅ　ｔｏｗｅｒ　ｒｅｃｏｇｎｉｚｅ　"TCC_NEWLINE"ｓｏｍｅｏｎｅ　ａｓ　ｋｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｏ　ｂｅ　ｃｌａｉｍ　ｔｈｅ　ｔｈｒｏｎｅ，　ｙｏｕ　ｎー"TCC_NEWLINE"ｅｅｄ　ｔｏ　ｈａｖｅ　ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　"TCC_NEWLINE"Ｄｖｅｒｇａｒ　ａｎｄ　ｂｅ　ｂｏｒｎ　ｏｆ　Ｎｉａｖｅｌー"TCC_NEWLINE"ｌｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｈｅ　ｂｏｒｅ　ｔｈｅ　ｃｒｏｗｎ．　Ｗｈｉｃｈ　ｃａｎ　"TCC_NEWLINE"ｍｅａｎ　ｏｎｌｙ　ｔｈａｔ　ｈｅ　ｉｓ　ｎｏｔ　ｂｏｒｎ"TCC_NEWLINE"　ｏｆ　Ｎｉａｖｅｌｌｉｒ．　Ｉｓ　ｔｈａｔ　ｎｏｔ　ｔｈー"TCC_NEWLINE"ｅ　ｃａｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ　ｐｏｓｓｉｂｌｅ．．．　Ａｓ　Ｉ　ｕｎｄｅｒｓｔー"TCC_NEWLINE"ａｎｄ　ｉｔ，　Ｆｆｎｉｒ　ｌｏｓｔ　ａｌｌ　ｏｆ　ｈｉｓ"TCC_NEWLINE"　ｍｅｍｏｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｈ－ｔｈｅｎ．．．ｊｕｓｔ　ｗｈｏ　ＩＳ　ｍｙ　ｂｒｏｔー"TCC_NEWLINE"ｈｅｒ？　Ａｎｄ　ｗｈｅｒｅ　ｄｉｄ　ｈｅ　ｃｏｍｅ　ｆｒー"TCC_NEWLINE"ｏｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｓ　ｏｆ　ｎｏｗ，　ｗｅ　ｈａｖｅ　ｎｏ　ｗａｙ　ｏｆ　"TCC_NEWLINE"ｋｎｏｗｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ’ｓ　ｐｏｓｓｉｂｌｅ　ｅｖｅｎ　ｈｅ　ｄｏｅｓｎ’ｔ"TCC_NEWLINE"　ｋｎｏｗ　ａｎｙｔｈｉｎｇ　ａｂｏｕｔ　ｈｉｓ　ｐａｓｔ"TCC_NEWLINE"　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｔｈｅ　ｆａｃｔ　ｔｈａｔ　ｈｅ’ｓ　ｎｏｔ"TCC_NEWLINE"　ｂｏｒｎ　ｏｆ　ｔｈｉｓ　ｒｅａｌｍ　ｗｅｒｅ　ｔｏ　ｂー"TCC_NEWLINE"ｅｃｏｍｅ　ｗｉｄｅｌｙ　ｋｎｏｗｎ，　ｈｅ　ｃｏｕｌｄ　"TCC_NEWLINE"ｂｅ　ｄｅｐｏｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｌｉｋｅｌｙ　ｔｈａｔ　ｉｓ　ｔｈｅ　ｒｅａｓｏー"TCC_NEWLINE"ｎ　ｗｈｙ　ｈｅ　ｄｉｄｎ’ｔ　ｔｅｌｌ　ａｎｙｏｎｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈａ！　Ａｎｄ　ｍａｙｂｅ　ｔｒ　ｋｎｏｗｓ　ｔｈｅ　ｔー"TCC_NEWLINE"ｒｕｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｉｇｈｔ．　Ｈｅ　ｐｒｏｂａｂｌｙ　ｆｏｕｎｄ　ｔｈｅ　"TCC_NEWLINE"ｔｒｅａｓｕｒｅ　ａｓ　ｗｅｌｌ，　ａｎｄ　ｔｈｒｅｗ　ｉー"TCC_NEWLINE"ｔ　ｉｎｔｏ　ｔｈｅ　ｔｈｉｃｋｅｔ　ｈｉｍｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｔｈａｔ’ｓ　ａｌｌ　ｇｒｅａｔ，　ｂｕｔ．．．ｔｈｅ　ｏー"TCC_NEWLINE"ｎｌｙ　ｔｈｉｎｇ　ｔｈｉｓ　ｔｅｌｌｓ　ｕｓ　ｉｓ　ｔｈー"TCC_NEWLINE"ａｔ　ｈｅ　ｉｓｎ’ｔ　ｆｒｏｍ　Ｎｉａｖｅｌｌｉｒ，　ｒー"TCC_NEWLINE"ｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｗｅ’ｖｅ　ｇａｉｎｅｄ　ｉｎｓｉｇｈｔ　ｉｎｔｏ　ｏｕｒ"TCC_NEWLINE"　ｆｏｅ．　Ｉｔ　ｉｓ　ａ　ｓｔｅｐ　ｉｎ　ｔｈｅ　ｒｉｇー"TCC_NEWLINE"ｈｔ　ｄｉｒｅｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｈａｔ　ｓｔｅｐ　ｃｏｍｅｓ　ｎｅｘｔ　ｔｈｅｎ？　Ｄｏ"TCC_NEWLINE"　ｗｅ　ｐｕｒｓｕｅ　ｔｒ　ａｎｄ　Ｅｉｔｒｉ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｍｍ．．．　Ｍａｋｉｎｇ　ｏｕｒ　ｗａｙ　ｂａｃｋ　ｄー"TCC_NEWLINE"ｏｗｎ　ｔｈｅ　ｍｏｕｎｔａｉｎ　ｗｉｌｌ　ｂｅ　ｄａｎｇー"TCC_NEWLINE"ｅｒｏｕｓ　ａｆｔｅｒ　ｄａｒｋｗｅ　ｓｈｏｕｌｄ　ｈｕｒー"TCC_NEWLINE"ｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5094_EN] = TCC_OPEN_LEFT
+"Ｉ’ｌｌ　ｍａｋｅ　ｙｏｕ　ｍｙ　ｅｘｔｒａ－ｓｐｅｃｉａー"TCC_NEWLINE"ｌ　ｌｕｎｃｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5094_EN] = TCC_OPEN_LEFT
+"．．．Ｒｅｇｉｎｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｗｈ－ｗｈｏ’ｓ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ｔｈｅ　ｏｎｅ　ｗｈｏ　ｃａｌｌｅｄ　ｏー"TCC_NEWLINE"ｕｔ　ｔｏ　ｍｅ　ａｔ　ｔｈｅ　ｆｏｏｔ　ｏｆ　ｔｈｅ　ｍー"TCC_NEWLINE"ｏｕｎｔａｉｎ，　ｗｅｒｅｎ’ｔ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｈａｖｅ　ｄｏｎｅ　ｗｅｌｌ，　ｃｈｉｌｄ　ｏｆ　"TCC_NEWLINE"ｏｕｒ　ｂｌｏｏｄ．．．　Ｗｒｅｓｔ　ｔｈｅ　ｃｒｏｗｎ　"TCC_NEWLINE"ｆｒｏｍ　ｔｈｅ　ｈｅｒｅｔｉｃ．．．　Ｒｅｔｕｒｎ　ｉｔ"TCC_NEWLINE"　ｔｏ　ｒｉｇｈｔｆｕｌ　ｈａｎｄｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ．．．ｈｅｒｅｔｉｃ？　Ｄｏ　ｙｏｕ　ｍｅａｎ　Ｆｆー"TCC_NEWLINE"ｎｉｒ？　Ｂｕｔ．．．ｂｕｔ　Ｉ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？　Ｗｈｏ　ａｒｅ　ｙｏｕ　"TCC_NEWLINE"ｔａｌｋｉｎｇ　ｔｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈ－ｈｕｈ？　Ｙｏｕ　ｃａｎ’ｔ　ｈｅａｒ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈ－ｈｅａｒ　ｗｈａｔ？　．．．Ｉ’ｍ　ｎｏｔ　ｆａｌｌｉー"TCC_NEWLINE"ｎｇ　ｆｏｒ　ｔｈｉｓ　ｔｒｉｃｋ　ａｇａｉｎ！　Ａｎｙｗー"TCC_NEWLINE"ａｙ，　Ｉ　ｃａｍｅ　ｔｏ　ｔｅｌｌ　ｙｏｕ　ｉｔ’ｓ　ｎー"TCC_NEWLINE"ｅａｒｌｙ　ｔｉｍｅ　ｔｏ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｉｇｈｔ．．．　Ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

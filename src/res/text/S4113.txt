@@ -1,0 +1,112 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4113] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"いいわね、プルメリア。。。" TCC_NEWLINE
+"あの人間たちがまだしぶとく逃れたなら。。。" TCC_NEWLINE
+"次はあなたの番よ。" TCC_NEWLINE TCC_PUSH_A
+"あなたがおやりなさい。" TCC_NEWLINE
+"昔のお友達に、" TCC_NEWLINE
+"あなたがとどめを刺すの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"はい。。。フレイヤ様。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"妖精たちよ。。。" TCC_NEWLINE
+"殺し合いなさい。" TCC_NEWLINE TCC_PUSH_A
+"お兄様を亡くした" TCC_NEWLINE
+"痛みを、悲しみを。。。" TCC_NEWLINE
+"あなたたちも味わいなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4113] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"。。。。。。。。。。。。。。。。。。" TCC_NEWLINE
+"あ、お兄様。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"気がついたかい、シャロン。" TCC_NEWLINE
+"急に倒れるなんて。。。びっくりしたよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+"わたし。。。思い出したんです。。。" TCC_NEWLINE
+"いっぱい、いろんなこと。。。" TCC_NEWLINE TCC_PUSH_A
+"ゆめのなかで、" TCC_NEWLINE
+"わたしたち。。。" TCC_NEWLINE
+"いろんなあそびをして。。。" TCC_NEWLINE TCC_PUSH_A
+"ぼうけんごっこで。。。" TCC_NEWLINE
+"みんなでせかいを" TCC_NEWLINE
+"すくおうっていったのに。。。" TCC_NEWLINE TCC_PUSH_A
+"わたしだけ、" TCC_NEWLINE
+"えいゆう、になれなかった。。。" TCC_NEWLINE TCC_PUSH_A
+"それに。。。" TCC_NEWLINE
+"とりかえっこあそび。。。" TCC_NEWLINE TCC_PUSH_A
+"二人で、夢から覚める度。。。" TCC_NEWLINE
+"わたしたち、入れ替わって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"お父様。。。お母様。。。お兄様。。。" TCC_NEWLINE
+"お父さん。。。お姉ちゃん。。。" TCC_NEWLINE TCC_PUSH_A
+"ああ。。。あああ。。。" TCC_NEWLINE
+"ごめんなさい。。。ごめんなさい。。。！" TCC_NEWLINE
+"ごめんなさい。。。ごめんなさい。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"シャロン！？" TCC_NEWLINE
+"落ち着くんだ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの、お兄様。。。！" TCC_NEWLINE
+"わたし。。。わたし。。。" TCC_NEWLINE TCC_PUSH_A
+"わたし、本当は" TCC_NEWLINE
+"お兄様の妹じゃ" TCC_NEWLINE
+"ないのかもしれません。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"とりかえっこ遊び。。。" TCC_NEWLINE
+"前に話しましたよね。。。" TCC_NEWLINE TCC_PUSH_A
+"わたし。。。記憶があるんです。" TCC_NEWLINE
+"女の子の住んでいたお家に。" TCC_NEWLINE
+"ぼろぼろの。。。小さな家。。。" TCC_NEWLINE TCC_PUSH_A
+"わたし、本当は。。。" TCC_NEWLINE
+"シャロン王女じゃ" TCC_NEWLINE
+"なかったのかもしれません。。。" TCC_NEWLINE TCC_PUSH_A
+"夢の世界で" TCC_NEWLINE
+"シャロン王女と入れ替わった。。。" TCC_NEWLINE
+"子供だったのかも。。。" TCC_NEWLINE TCC_PUSH_A
+"わたしが。。。" TCC_NEWLINE
+"シャロン王女を" TCC_NEWLINE
+"取っちゃったのかも。。。" TCC_NEWLINE TCC_PUSH_A
+"わたしのせいで。。。" TCC_NEWLINE
+"あの女の子は。。。" TCC_NEWLINE
+"本当のシャロン王女は。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"シャロン、落ち着くんだ。" TCC_NEWLINE
+"そんなこと、あるはずがない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でも、でも。。。" TCC_NEWLINE
+"お家の記憶が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もしも君の話が本当なら。。。" TCC_NEWLINE
+"とりかえっこ遊びをした君は、" TCC_NEWLINE
+"何度もお互いに入れ替わった。。。" TCC_NEWLINE TCC_PUSH_A
+"それなら、シャロンはその子になって" TCC_NEWLINE
+"目覚めたことがあることになる。。。" TCC_NEWLINE
+"きっと、その時の記憶だよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もうしばらく休むと良い。" TCC_NEWLINE
+"それから、出発しよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

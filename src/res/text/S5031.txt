@@ -1,0 +1,79 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"きゃーーーーっ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ひゃああっ！？" TCC_NEWLINE
+"シャロン王女ーーっ！　だめーーーっ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"シャロン！！　大丈夫かい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お、お、お、落とし穴が。。。！" TCC_NEWLINE
+"レギン王女が手をつかんでくれなかったら" TCC_NEWLINE
+"底の槍で串刺しでした。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"ありがとうございますっ！" TCC_NEWLINE
+"このご恩は一生忘れません。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"また罠があったの？" TCC_NEWLINE
+"何なのよ、この森は！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"えーっとね、賢者エイトリは" TCC_NEWLINE
+"発明家でもあるの。" TCC_NEWLINE TCC_PUSH_A
+"森に自分で発明した罠を設置して" TCC_NEWLINE
+"侵入者から身を守ってるんだって。" TCC_NEWLINE TCC_PUSH_A
+"だからニザヴェリルの人たちも" TCC_NEWLINE
+"ここには滅多に近づかないの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"もっと早く言ってくれないかな、" TCC_NEWLINE
+"そういうことは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あれっ？　こんな怪しい森なのに" TCC_NEWLINE
+"綺麗なお花が咲いてます！" TCC_NEWLINE
+"癒されますね～どれどれ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！　シャロン！　待っ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うわーーーーっ！？！？" TCC_NEWLINE
+"お、お花畑に足を踏み入れたら" TCC_NEWLINE
+"どこからともなく兵隊さんたちが。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ああ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5031] = TCC_OPEN_LEFT 
+"母さん、心配かけてごめん。" TCC_NEWLINE
+"でも僕は戦う。" TCC_NEWLINE
+"もう決めたことなんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5031] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"ファフニール王、ただいま戻りました。" TCC_NEWLINE
+"国王陛下。。。" TCC_NEWLINE
+"ファフニール兄さん。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。いない。。。" TCC_NEWLINE
+"そうか、また戦に。。。。。。" TCC_NEWLINE
+"急いで後を追わなくちゃ。" TCC_NEWLINE TCC_PUSH_A
+"兄さんの家族はもう僕だけなんだから。" TCC_NEWLINE
+"そして僕にも。。。もう兄さんしか。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"アスク王国のヴァイス・ブレイヴ。。。" TCC_NEWLINE
+"さすがに一筋縄ではいかないな。" TCC_NEWLINE
+"でも、あきらめるものか。" TCC_NEWLINE TCC_PUSH_A
+""
+"扉を壊す神器。。。【ヤールングレイプル】を" TCC_NEWLINE
+"手にするためには、あの召喚師が" TCC_NEWLINE
+"どうしても必要なんだ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

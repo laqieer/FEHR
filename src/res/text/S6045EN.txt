@@ -1,0 +1,88 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｗｅｌｌ，　ｗｅｌｌ，　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ？　Ｈー"TCC_NEWLINE"ａｖｅ　ｙｏｕ　ｒｅｃｏｎｓｉｄｅｒｅｄ　ｙｏｕｒ　ｐｏｓー"TCC_NEWLINE"ｉｔｉｏｎ　ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ　ｙｏｕ　ｓａｉｄ　ｗａｓ　ｔｒｕｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｃａｎ　ｏｎｌｙ　ｍｅａｎ　ｔｈａｔ　ｙｏｕ　ｍー"TCC_NEWLINE"ｕｓｔ　ｂｅ　ｂｅｈｉｎｄ　ｔｈｅ　ｄａｒｋ　ｅｎｃｌｏｓー"TCC_NEWLINE"ｕｒｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎｄｅｅｄ．　Ｂｕｔ　ｄｏｎ’ｔ　ａｓｓｕｍｅ　ｔｈａｔ"TCC_NEWLINE"　ｙｏｕ　ｃａｎ　ａｔｔａｃｋ　ｍｅ　ｈｅｒｅ　ｔｏ　ｓｏー"TCC_NEWLINE"ｌｖｅ　ｙｏｕｒ　ｌｉｔｔｌｅ　ｃｏｎｕｎｄｒｕｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｓｏｌｄｉｅｒｓ　ｗｉｌｌ　ｎｏｔ　ｈｅｓｉｔａｔｅ"TCC_NEWLINE"　ｔｏ　ｓｈｉｅｌｄ　ｍｅ　ａｓ　Ｉ　ｍａｋｅ　ｍｙ　ｅｓー"TCC_NEWLINE"ｃａｐｅ．．．ａｎｄ　ａｌｌｏｗ　ｍｅ　ｔｏ　ｃｌｏｓｅ　"TCC_NEWLINE"ｏｆｆ　ｙｅｔ　ａｎｏｔｈｅｒ　ｖｉｌｌａｇｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕｒ　ｏｎｌｙ　ｏｐｔｉｏｎ　ｉｓ　ｔｏ　ｇｉｖｅ　Ｖー"TCC_NEWLINE"ｅｒｏｎｉｃａ　ｔｏ　ｍｅ．　Ｕｎｔｉｌ　ｔｈｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌｐ　ｍｅ　ｋｅｅｐ　ｔｒａｃｋ　ｏｆ　ｈｏｗ　ｍａｎー"TCC_NEWLINE"ｙ　ｖｉｌｌａｇｅｓ　ｙｏｕ　ｌｏｓｅ　ｂｅｆｏｒｅ　ｙｏー"TCC_NEWLINE"ｕ　ｇｉｖｅ　ｍｅ　ｗｈａｔ　Ｉ　ｗａｎｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｎ－ｎｅｖｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｉｆ　ｙｏｕ　ｗｏｎ’ｔ　ｃｏｍｅ　ｔｏ　ｙｏｕｒ　ｓｅｎー"TCC_NEWLINE"ｓｅｓ，　Ｉ　ｓｕｐｐｏｓｅ　Ｉ　ｈａｖｅ　ｎｏ　ｃｈｏｉー"TCC_NEWLINE"ｃｅ　ｂｕｔ　ｔｏ　ｆｏｌｌｏｗ　ｔｈｒｏｕｇｈ　ｏｎ　ｍー"TCC_NEWLINE"ｙ　ｐｒｏｍｉｓｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"Ｗａｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？！　Ｈｏｗ　ｄｉｄ　ｙー"TCC_NEWLINE"ｏｕ　Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｄｏｉｎｇ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｅｖｅｎ　ｗｉｔｈ　ｙｏｕｒ　ｗｏｕｎｄｓ，　ｙｏｕ　ｆｏー"TCC_NEWLINE"ｌｌｏｗｅｄ　ｕｓ　ａｌｌ　ｔｈｅ　ｗａｙ　ｏｕｔ　ｈｅｒー"TCC_NEWLINE"ｅ？　Ｗｈ－ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ．．．ａｍ　ｔｕｒｎｉｎｇ　ｍｙｓｅｌｆ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅａｖｅ　Ａｓｋｒ．．．ｏｕｔ　ｏｆ　ｔｈｉｓ．　Ｔｈｉー"TCC_NEWLINE"ｓ　ｈａｓ　ｎｏｔｈｉｎｇ．．．ｔｏ　ｄｏ　ｗｉｔｈ　ｔｈー"TCC_NEWLINE"ｅｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｖｅｒｙ　ｗｅｌｌ．　Ｓｅｉｚｅ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｍｅｍｂｅｒ：　Ｔｒａｉｔｏｒｓ　ｇｅｔ　ｎｏ　ｂｅｔー"TCC_NEWLINE"ｔｅｒ　ｔｒｅａｔｍｅｎｔ　ｔｈａｎ　ａｎｙ　ｐｒｉｓｏｎー"TCC_NEWLINE"ｅｒ　ｏｆ　ｗａｒ．　Ｉｆ　ｓｈｅ　ｒｅｓｉｓｔｓ，　ｂｒー"TCC_NEWLINE"ｅａｋ　ｈｅｒ　ｌｅｇｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｖｅｒｏｎｉｃａ，　ｗａｉｔ！　Ｙｏｕ　ｃａｎ’ｔ．．．　"TCC_NEWLINE"Ｗｅ　ｃａｎ’ｔ　ｌｅｔ　ｙｏｕ　ｇｏ　ｌｉｋｅ　ｔｈｉｓ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｓｈｕｔ　ｕｐ．　Ｙｏｕ　ａｒｅ　ｍｙ　ｅｎｅｍｉｅー"TCC_NEWLINE"ｓ．．．　Ｉ　ｏｗｅ　ｙｏｕ　ｎｏｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏ　ａｓ　Ｉ　ｃｈｏｏｓｅ．　Ｙｏｕ　ｈｏｌｄ　ｎｏ"TCC_NEWLINE"　ｓｗａｙ　ｈｅｒｅｎｏ　ｐｏｗｅｒ　ｏｖｅｒ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｂ－ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6045_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｉ　ｄｏ　ａｐｐｒｅｃｉａｔｅ　ｈｏｗ　ｃｏｏｐｅｒａｔｉー"TCC_NEWLINE"ｖｅ　ｙｏｕ　Ａｓｋｒａｎｓ　ｃａｎ　ｂｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｔｒａｄｅ　ｙｏｕ　ｗａｎｔｅｄ　ｉｓ　ｄｏｎｅ．"TCC_NEWLINE"　Ｎｏｗ，　ａｌｌｏｗ　ｕｓ　ｔｏ　ｒｅｔｕｒｎ　ｔｏ　Ａー"TCC_NEWLINE"ｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ．．．　Ｉ’ｍ　ａｆｒａｉｄ　Ｉ　ｃａｎ’ｔ　ａｌｌｏー"TCC_NEWLINE"ｗ　ｔｈａｔ，　ａｓ　ｉｔ　ｔｕｒｎｓ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒー"TCC_NEWLINE"ｅｎａ，　ｒｅｌｉｎｑｕｉｓｈ　ｙｏｕｒ　ｗｅａｐｏｎｓ　"TCC_NEWLINE"ａｎｄ　ｓｕｒｒｅｎｄｅｒ　ｔｏ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈ－ｗｈａｔ？！　Ｙｏｕ　ｇｏｔ　ｗｈａｔ　ｙｏｕ　ｗａー"TCC_NEWLINE"ｎｔｅｄ　ａｌｒｅａｄｙ，　ｄｉｄｎ’ｔ　ｙｏｕ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｇｏ！　Ｗｅ　ｃａｎ　ｗｉｔｈｄｒａｗ　ａｎｄ"TCC_NEWLINE"　ｒｅｔｕｒｎ　ｔｏ　ａｄｄｒｅｓｓ　ｔｈｉｓ　ｏｎｃｅ　"TCC_NEWLINE"ｗｅ’ｒｅ　ａｂｌｅ　ｔｏ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｃｏｎｄｉｔｉｏｎｓ　ｈａｖｅ　ｎｏｔ　ｃｈａｎｇー"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｄｏ　ｎｏｔ　ｃｏｍｐｌｙ　ｗｉｔｈ　ｍｙ　"TCC_NEWLINE"ｗｉｓｈｅｓ，　Ｉ　ｗｉｌｌ　ｔａｋｅ　ｙｏｕｒ　ｖｉｌｌー"TCC_NEWLINE"ａｇｅｓ　ｏｎｅ　ｂｙ　ｏｎｅ　ｕｎｔｉｌ　ｙｏｕ　ｃｏｏー"TCC_NEWLINE"ｐｅｒａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｏｕ．．．　Ｄｏｎ’ｔ　ｄｏ　ｔｈｉｓ！　Ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｆ　ｃｏｕｒｓｅ！　Ｏｆ　ｃｏｕｒｓｅ．．．　Ｉ　ｈａｖー"TCC_NEWLINE"ｅ　ｎｏ　ｄｅｓｉｒｅ　ｔｏ　ｂｒｉｎｇ　ｈａｒｍ　ｏｎ　"TCC_NEWLINE"ａｎｙ　ｏｆ　ｙｏｕ　ｏｒ　ｙｏｕｒ　ｐｅｏｐｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｎｅｅｄ　ｏｎｌｙ　ｓｕｂｍｉｔ　ｔｏ　ｍｙ　ｄｅー"TCC_NEWLINE"ｍａｎｄｓ，　ａｎｄ　ｗｅ　ｂｏｔｈ　ｃａｎ　ｇｅｔ　ｗｈー"TCC_NEWLINE"ａｔ　ｗｅ　ｗａｎｔ　ｏｕｔ　ｏｆ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｎｅｅｄ　ｎｏｔ　ｗｏｒｒｙ　ｏｖｅｒ　ｙｏｕｒ　"TCC_NEWLINE"ｏｗｎ　ｓａｆｅｔｙ．　Ｉ　ｗｏｕｌｄ　ｎｅｖｅｒ　ｈａｒー"TCC_NEWLINE"ｍ　ａ　ｖｉｓｉｔｉｎｇ　ｎｏｂｌｅ．　Ｙｏｕ　ｈａｖｅ　"TCC_NEWLINE"ｍｙ　ｗｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｆ　ｉｔ　ｍｅａｎｓ　ｙｏｕ’ｌｌ　ｓｔｏｐ　ａｔｔａｃー"TCC_NEWLINE"ｋｉｎｇ　ｖｉｌｌａｇｅｓ，　ｔｈｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｈａｒｅｎａ．　Ｗａｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｃａｎ　ｔｅｌｌ　ｙｏｕ　ｎｅｅｄ　ｓｏｍｅ　ｔｉｍｅ"TCC_NEWLINE"　ｔｏ　ｔｈｉｎｋ　ｉｔ　ｏｖｅｒ．　Ｔａｋｅ　ａｓ　ｌｏー"TCC_NEWLINE"ｎｇ　ａｓ　ｙｏｕ　ｎｅｅｄ，　ｂｕｔ　ｔｈｅ　ｆａｃｔｓ"TCC_NEWLINE"　ｗｉｌｌ　ｎｏｔ　ｃｈａｎｇｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｂｅ　ｂａｃｋ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｃａｎ’ｔ　ｌｅｔ　ｈｅｒ　ｇｅｔ　ａｗａｙ　ｗｉｔー"TCC_NEWLINE"ｈ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｔｗｏ　ｈａｎｄ　ｙｏｕｒｓｅｌｖｅｓ　ｏｖー"TCC_NEWLINE"ｅｒ，　ｙｏｕ’ｌｌ　ｂｅｃｏｍｅ　ｐｏｌｉｔｉｃａｌ　ｐー"TCC_NEWLINE"ｒｉｓｏｎｅｒｓ　ａｔ　ｂｅｓｔａｎｄ　ｌｉｋｅｌｙ　ｗｏー"TCC_NEWLINE"ｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ’ｔ　ｌｅｔ　ｔｈａｔ　ｈａｐｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｂｕｔ　ｉｆ　ｗｅ　ｄｏｎ’ｔ　ｄｏ　ｗｈａｔ　ｓｈｅ　ｓー"TCC_NEWLINE"ａｙｓ，　ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　Ａｓｋｒ　ｗｉｌｌ　"TCC_NEWLINE"ｂｅ　ｃｌｏｓｅｄ　ｏｆｆ　ｂｙ　ｄａｒｋｎｅｓｓ　ｕｎｔー"TCC_NEWLINE"ｉｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｆ　Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ　ｉｓ　ｔｈｅ　ｃａー"TCC_NEWLINE"ｕｓｅ，　ｗｅ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕｔ　ｔｏ"TCC_NEWLINE"　ｆｏｒｃｅ　ｈｅｒ　ｔｏ　ｒｅｔｕｒｎ　ｔｈｉｎｇｓ　ｔー"TCC_NEWLINE"ｏ　ｎｏｒｍａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｏｎ’ｔ　ｂｅ　ｅａｓｙ，　ｂｕｔ　ｒｉｇｈｔ　ｎー"TCC_NEWLINE"ｏｗ　ｔｈｅｒｅ　ｄｏｅｓｎ’ｔ　ｓｅｅｍ　ｔｏ　ｂｅ　ａー"TCC_NEWLINE"ｎｙ　ｏｔｈｅｒ　ｏｐｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ASH
+"Ｔｈｉｓ　ｓｉｔｕａｔｉｏｎ　ｉｓ　ｐｒｏｂｌｅｍａｔｉｃ"TCC_NEWLINE"　ｉｎｄｅｅｄ．　Ａｓ　ｙｏｕ　ｏｂｓｅｒｖｅｄ，　Ｐｒｉー"TCC_NEWLINE"ｎｃｅ　Ａｌｆｏｎｓｅ，　ｔｈｅ　ｓｏｕｒｃｅ　ｉｓ　Ｅｍー"TCC_NEWLINE"ｂｌａ’ｓ　ｐｏｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗｅｖｅｒ，　ａｌｌｏｗ　ｍｅ　ｔｏ　ａｓｓｕａｇｅ　"TCC_NEWLINE"ｙｏｕｒ　ｗｏｒｒｉｅｓ：　Ｉ　ｈａｖｅ　ｂｅｅｎ　ｅｎｔー"TCC_NEWLINE"ｒｕｓｔｅｄ　ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒｓ　ｏｆ　Ａｓｋー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ　ｔｈｅ　ｐｒｅｃｉｓｅ　ｓｏｌｕｔｉｏｎ　ｉー"TCC_NEWLINE"ｓ　ｓｔｉｌｌ　ｕｎｃｌｅａｒ，　Ｉ　ｂｅｌｉｅｖｅ　ｔｈー"TCC_NEWLINE"ｅｒｅ　ｉｓ　ａ　ｃｈａｎｃｅ　Ｅｍｂｌａ’ｓ　ｅｎｃｌｏー"TCC_NEWLINE"ｓｕｒｅｓ　ｃａｎ　ｂｅ　ｒｅｏｐｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｅａｌｌｙ？　Ｔｈａｔ’ｓ　ｓｕｃｈ　ｇｏｏｄ　ｎｅｗｓ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｏ　ｂｅ　ｃｌｅａｒ，　Ｉ　ｃａｎ　ｍａｋｅ　ｎｏ　ｇｕー"TCC_NEWLINE"ａｒａｎｔｅｅ．　Ｔｈｉｓ　ｉｓ　ｍｅｒｅ　ｓｐｅｃｕｌａー"TCC_NEWLINE"ｔｉｏｎ　ｏｎ　ｍｙ　ｐａｒｔ，　ｓｏ　Ｉ　ａｐｏｌｏｇｉー"TCC_NEWLINE"ｚｅ　ｉｆ　Ｉ　ｆａｉｌ，　ｂｕｔ．．．ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｄｏ　ｅｖｅｒｙｔｈｉｎｇ　ｉｎ　ｍｙ　ｐｏー"TCC_NEWLINE"ｗｅｒ　ｔｏ　ｈｅｌｐ！　Ｉ　ｓｗｅａｒ　ｉｔｉｎ　ｔｈｅ"TCC_NEWLINE"　ｎａｍｅ　ｏｆ　ｈａｐｐｉｎｅｓｓ　ｆｏｒ　ａｌｌ　ｌｉー"TCC_NEWLINE"ｖｉｎｇ　ｔｈｉｎｇｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

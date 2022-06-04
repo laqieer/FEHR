@@ -1,0 +1,107 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6074] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"どうして。。。" TCC_NEWLINE
+"誰も彼も、何もかも。。。" TCC_NEWLINE
+"どうして思い通りにならないの！" TCC_NEWLINE TCC_PUSH_A
+"私はすべてを偽り、すべてを操る。" TCC_NEWLINE
+"そのはずだったのに。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"降伏するんだ、レティシア将軍。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6074] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"これまでだ、レティシア。" TCC_NEWLINE
+"まもなくヴェロニカたちも来る。" TCC_NEWLINE
+"頼む。。。降伏してくれ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"黙りなさい。。。！" TCC_NEWLINE
+"誰が。。。従うもんですか。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6074] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"どうして。。。" TCC_NEWLINE
+"どうしてなの。。。" TCC_NEWLINE TCC_PUSH_A
+"あんなに。。。" TCC_NEWLINE
+"あんなにすべてを" TCC_NEWLINE
+"捧げてきたのに。。。" TCC_NEWLINE TCC_PUSH_A
+"何もせずに" TCC_NEWLINE
+"のうのうと生きている" TCC_NEWLINE
+"肥え太った豚ども。。。" TCC_NEWLINE TCC_PUSH_A
+"宮廷内で" TCC_NEWLINE
+"奴らを味方につけるために" TCC_NEWLINE
+"すべてを費やしてきたのに。。。" TCC_NEWLINE TCC_PUSH_A
+"奴らの欲しいものを差し出し。。。" TCC_NEWLINE
+"奴らの弱みを握ってきた。。。" TCC_NEWLINE
+"どれほど苦労したことか。。。なのに。。。" TCC_NEWLINE TCC_PUSH_A
+"私は皇位継承順位第九位のレティシア！" TCC_NEWLINE
+"下賤な愚民どもとは違うの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_VERONICA
+"お姉様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。！？" TCC_NEWLINE
+"ヴェロニカ。。。" TCC_NEWLINE TCC_PUSH_A
+"もう。。。ここまで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"自分を処刑する兵どもを" TCC_NEWLINE
+"寝返らせるなんて。。。" TCC_NEWLINE
+"一体どうやってたらし込んだのかしら。" TCC_NEWLINE TCC_PUSH_A
+"下賤な者どもに" TCC_NEWLINE
+"慕われているとは知ってたけれど。。。" TCC_NEWLINE
+"でも、まさかこれほどなんてね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"げせん。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"教えて、ヴェロニカ。" TCC_NEWLINE
+"どうやって賤しい賤しい下民どもの" TCC_NEWLINE
+"人気を得てきたのかしら？" TCC_NEWLINE TCC_PUSH_A
+"金？" TCC_NEWLINE
+"それとも女の。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お姉様。。。" TCC_NEWLINE
+"お姉様は、皇帝になりたかった。。。" TCC_NEWLINE
+"そうよね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ、そうよ！" TCC_NEWLINE
+"次期皇帝の座をヴェロニカ、" TCC_NEWLINE
+"あなたから奪い取ってやるの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お姉様。" TCC_NEWLINE
+"お姉様がほんとうに。。。" TCC_NEWLINE
+"みんなのために、って思ってくれるなら。" TCC_NEWLINE TCC_PUSH_A
+"あたしはお姉様に皇帝になって欲しい。" TCC_NEWLINE
+"だって。。。" TCC_NEWLINE
+"あたしはその器じゃないから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"でも、お姉様。。。" TCC_NEWLINE
+"あなたは民たちを下賤と呼んだわ。" TCC_NEWLINE
+"賤しいものどもだって。" TCC_NEWLINE TCC_PUSH_A
+"そうして今も、" TCC_NEWLINE
+"自分のために" TCC_NEWLINE
+"みんなを苦しめようとしている。" TCC_NEWLINE TCC_PUSH_A
+"あなたに。。。" TCC_NEWLINE
+"この国はわたせない。" TCC_NEWLINE TCC_PUSH_A
+"あなたに。。。" TCC_NEWLINE
+"皇帝の資格はないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ヴェロニカぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

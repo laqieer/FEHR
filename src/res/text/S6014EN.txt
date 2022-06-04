@@ -1,0 +1,24 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｌｏｏｋ　ａｔ　ｔｈｉｓ　ｍａｐ．．．　Ｔｈｉｓ　ａｒｅａ"TCC_NEWLINE"　ｉｎ　ｔｈｅ　ｎｏｒｔｈ　ｈｅｒｅ．．．　Ｗｅ　ｓｈｏｕー"TCC_NEWLINE"ｌｄ　ｓｔａｒｔ　ｔｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｆｏｒｅｓｔ　ａｌｏｎｇ　ｏｕｒ　ｂｏｒｄｅｒｓ？"TCC_NEWLINE"　Ｗｈｙ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｖｅ　ｓｅｅｎ　ａ　ｓｔｒａｎｇｅ　ｓｉｌｈｏｕｅｔｔー"TCC_NEWLINE"ｅ　ｈｅａｄｅｄ　ｉｎ　ｔｈａｔ　ｄｉｒｅｃｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｔｒａｎｇｅ？　Ｉｎ　ｗｈａｔ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｈａｄ　ｗｉｎｇｓ　ｌｉｋｅ　ａ　ｂａｔ．．．ａｎｄ"TCC_NEWLINE"　ａｐｐｅａｒｅｄ　ｔｏ　ｂｅ　ｆｌｙｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｎｏｔｈｅｒ　ｒａｃｅ　ｏｆ　ｍｏｒｔａｌｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｉｎｃｅ　ｔｈｅ　ｆｏｒｅｓｔ　ｉｓ　ｏｎ　ｔｈｅ　ｂｏー"TCC_NEWLINE"ｒｄｅｒ，　ｗｅ　ｓｈｏｕｌｄ　ａｖｏｉｄ　ｃｒｏｓｓｉｎー"TCC_NEWLINE"ｇ　ｉｎｔｏ　ｅａｃｈ　ｏｔｈｅｒ’ｓ　ｔｅｒｒｉｔｏｒｙ"TCC_NEWLINE"　ｉｆ　ｗｅ　ｃａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ａｖｏｉｄ　ａｎｙ　ｄｉｐｌｏｍａｔｉｃ　ｍｉｓｕｎー"TCC_NEWLINE"ｄｅｒｓｔａｎｄｉｎｇｓ　ａｍｏｎｇ　ｔｈｅ　ｐｅｏｐｌｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｉｓ　ｗａｙ　ｗｅ　ｓｈｏｕｌｄ　ｂｅ　ａｂｌｅ　ｔｏ"TCC_NEWLINE"　ｓｅａｒｃｈ　ｔｏｇｅｔｈｅｒ　ｗｈｉｌｅ　ａｖｏｉｄｉー"TCC_NEWLINE"ｎｇ　ａｎｙ　ｕｎｎｅｃｅｓｓａｒｙ　ｖｉｏｌｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｕｎｄｅｒｓｔｏｏｄ．　Ｗｅ　ｗｉｌｌ　ｓｅａｒｃｈ　ｔｈー"TCC_NEWLINE"ｅ　Ａｓｋｒａｎ　ｓｉｄｅ　ｏｆ　ｔｈｅ　ｂｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6014_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｓｅ　Ｅｍｂｌｉａｎ　ｓｏｌｄｉｅｒｓ　ｌｏｏｋ　ｄー"TCC_NEWLINE"ｉｆｆｅｒｅｎｔ　ｔｈａｎ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉー"TCC_NEWLINE"ｃａ’ｓ　ｔｒｏｏｐｓ．　Ａｒｅ　ｔｈｅｒｅ　ｏｔｈｅｒ　"TCC_NEWLINE"Ｅｍｂｌｉａｎ　ｆｏｒｃｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

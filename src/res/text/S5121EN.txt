@@ -1,0 +1,41 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5121_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｎｏｗ　ｔｈａｔ　ｗｅ’ｖｅ　ｍａｄｅ　ｉｔ　ｔｏ　Ｎｉａー"TCC_NEWLINE"ｖｅｌｌｉｒ’ｓ　ｃａｓｔｌｅ，　ｗｉｌｌ　ｙｏｕ　ｇｕｉー"TCC_NEWLINE"ｄｅ　ｕｓ　ｉｎ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｈｍｍ．．．　Ｉ　ｈａｖｅ　ａ　ｆｅｅｌｉｎｇ　Ｆｆｎｉｒ"TCC_NEWLINE"　ｗｏｕｌｄ　ｇｏ　ｔｏ　ｔｈｅ　ｔｈｒｏｎｅ　ｒｏｏｍ．"TCC_NEWLINE"　Ｆｏｌｌｏｗ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｏｗ．．．　Ｅｖｅｒｙｔｈｉｎｇ　ｉｎ　ｔｈｉｓ　ｃａｓー"TCC_NEWLINE"ｔｌｅ　ｉｓ　ｅｎｔｉｒｅｌｙ　ｄｉｆｆｅｒｅｎｔ　ｆｒｏー"TCC_NEWLINE"ｍ　ｔｈｅ　ｃａｓｔｌｅ　ｉｎ　Ａｓｋｒ．　Ｉｎｃｒｅｄｉー"TCC_NEWLINE"ｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅｒｅ　ａｒｅ　ｓｉｍｉｌａｒｉｔｉｅｓ　ｔｈｏｕｇｈ"TCC_NEWLINE"　ｔｏｏ．　Ｔｈｅｙ　ａｌｓｏ　ｈａｖｅ　ｐｏｒｔｒａｉｔー"TCC_NEWLINE"ｓ　ｌｉｎｉｎｇ　ｔｈｅｉｒ　ｈａｌｌｗａｙｓ．　Ｓｅｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｓｅ　ｍｕｓｔ　ｂｅ　ｙｏｕｒ　ａｎｃｅｓｔｏｒｓ，"TCC_NEWLINE"　ｒｉｇｈｔ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅｓｅ　ａｒｅ　ｔｈｅ　ｎａｍｅｓ　ｏｆ　ｔｈｏｓｅ　"TCC_NEWLINE"ｔｈａｔ　ｃｏｎｔｒｉｂｕｔｅｄ　ｍｏｓｔ　ｔｏ　Ｎｉａｖー"TCC_NEWLINE"ｅｌｌｉｒ’ｓ　ｄｅｖｅｌｏｐｍｅｎｔ．　Ｓｅｉｊｒｎ　ｒー"TCC_NEWLINE"ｅｓｅａｒｃｈｅｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｒｉｋ，　Ｄｖａｌｉｎｎ，　Ｂｉｌｌｉｎｇｒ，　Ｇｒー"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｉａｖｅｌｌｉｒ　ｗａｓ　ａｂｌｅ　ｔｏ　ｇｒｏｗ　ｉｎー"TCC_NEWLINE"ｔｏ　ｓｏｍｅｔｈｉｎｇ　ｇｒｅａｔ　ｂｅｃａｕｓｅ　ｏｆ"TCC_NEWLINE"　ｔｈｅｉｒ　ｗｏｒｋｓ，　ｗｈａｔ　ｔｈｅｙ　ｃｒｅａｔー"TCC_NEWLINE"ｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆｏｒ　ｔｈａｔ　ｓａｍｅ　ｔｅｃｈｎｏｌｏｇｙ　ｔｏ　ｂー"TCC_NEWLINE"ｅ　ｕｓｅｄ　ｔｏ　ｔｏｒｔｕｒｅ　ｔｈｅ　ｋｉｎｇ　ａｎー"TCC_NEWLINE"ｄ　ｉｎｖａｄｅ　ｏｔｈｅｒ　ｋｉｎｇｄｏｍｓ　ｉｓ　ａ　"TCC_NEWLINE"ｓｈａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｕｂｔ　ｔｈｅｙ　ｗｏｕｌｄ　ｈａｖｅ　ｗａｎｔｅー"TCC_NEWLINE"ｄ　ｔｈｉｓ　ｔｏ　ｈａｐｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ’ｒｅ　ｒｉｇｈｔ．．．　Ｉ’ｖｅ　ｂｅｅｎ　ｔｈｉー"TCC_NEWLINE"ｎｋｉｎｇ　ａ　ｌｏｔ　ｌａｔｅｌｙ　ａｂｏｕｔ　ｈｏｗ，"TCC_NEWLINE"　ｂｅｆｏｒｅ　ａｌｌ　ｏｆ　ｔｈｉｓ，　ｍａｙｂｅ　Ｉ　"TCC_NEWLINE"ｃｏｕｌｄ　ｈａｖｅ　ｄｏｎｅ　ｍｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｏｈ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！　Ｙｏｕ’ｖｅ　ｄー"TCC_NEWLINE"ｏｎｅ　ｅｖｅｒｙｔｈｉｎｇ　ｙｏｕ　ｃｏｕｌｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｔａｋｅ　ｉｔ　ｆｒｏｍ　ｍｅ：　ｔｕｒｎｉｎｇ　ａｇａｉー"TCC_NEWLINE"ｎｓｔ　ｙｏｕｒ　ｏｗｎ　ｓｉｂｌｉｎｇｓ　ｉｓ　ｎｅｖｅー"TCC_NEWLINE"ｒ　ｅａｓｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｈｍ．　Ｓｐｅａｋ　ｆｏｒ　ｙｏｕｒｓｅｌｆ，　Ｄａｇｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｎｏｔ　ｅｖｅｒｙｏｎｅ　ｉｓ　ａｓ　ｓｏｕｌｌｅｓｓ　ａー"TCC_NEWLINE"ｓ　ｙｏｕ　ａｒｅ，　Ｎｔｔ！　Ｗｈｅｎ　Ｉ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａ－ａｎｙｗａｙ！　Ｙｏｕ　ｆｏｕｇｈｔ　ｆｏｒ　Ｎｉａｖー"TCC_NEWLINE"ｅｌｌｉｒ　ａｎｄ　ｇｏｔ　ｔｈｉｓ　ｆａｒ，　ｒｉｇｈｔ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ａｓｋ　ｍｅ，　ｙｏｕ’ｖｅ　ｄｏｎｅ　ａｓ"TCC_NEWLINE"　ｍｕｃｈ　ａｓ　ａｎｙｏｎｅ　ｃｏｕｌｄ　ｈａｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ａｇｒｅｅｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ，　Ｐｒｉｎｃｅｓｓ　Ｄａー"TCC_NEWLINE"ｇｒ，　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ．．．　Ｐｒｉｎｃｅ　Ａｌー"TCC_NEWLINE"ｆｏｎｓｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"，　ａｌｌ　ｏｆ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ．　Ｉ’ｍ　ｓｏ　ｈａｐｐｙ　Ｉ　ｍｅｔ"TCC_NEWLINE"　ａｎｄ　ｇｏｔ　ｔｏ　ｋｎｏｗ　ｙｏｕ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5121_EN] = TCC_OPEN_LEFT
+"Ｉ’ｍ　Ｍａｌｉｃｅ，　ａ　ｍｅｒｃｅｎａｒｙ．　Ｗａｎｔ"TCC_NEWLINE"　ｔｏ　ｈｉｒｅ　ｍｅ？　Ｉｔ　ｄｏｎ’ｔ　ｃｏｍｅ　ｃｈー"TCC_NEWLINE"ｅａｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

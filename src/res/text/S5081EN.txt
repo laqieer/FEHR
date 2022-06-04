@@ -1,0 +1,78 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"．．．Ｈｍｐｈ．　Ｎｏｔｈｉｎｇ．　Ｔｈｅｒｅ’ｓ　ｎｏｔー"TCC_NEWLINE"ｈｉｎｇ　ｈｅｒｅ！　Ｗａｓ　ｔｈｉｓ　ａｌｌ　ｆｏｒ　ｎー"TCC_NEWLINE"ｏｔｈｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗａｉｔ．．．　Ｔｈｉｓ　ｇａｔｅ　ｈｅｒｅ．．．　Ｗｈｙ"TCC_NEWLINE"　ｄｏ　Ｉ　ｆｅｅｌ　ｓｏ　ｄｒａｗｎ　ｔｏ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｈｏｗ　ｄｏｅｓ　ｉｔ　ｏｐｅｎ？　Ｄａｍｎ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｔｏｐ　ｔｈｅｒｅ！　Ａｎｙ　ｆｕｒｔｈｅｒ　ｖｉｏｌｅー"TCC_NEWLINE"ｎｃｅ　ｗｉｌｌ　ｎｏｔ　ｂｅ　ｔｏｌｅｒａｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｏ　ａｒｅ　ｙｏｕ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_HENRIETTE
+"Ｉ　ａｍ　Ｈｅｎｒｉｅｔｔｅ，　Ａｓｋｒ’ｓ　ｑｕｅｅｎ　"TCC_NEWLINE"ａｎｄ　ｓｏｖｅｒｅｉｇｎ　ａｆｔｅｒ　ｔｈｅ　ｐａｓｓｉー"TCC_NEWLINE"ｎｇ　ｏｆ　ｍｙ　ｈｕｓｂａｎｄ，　Ｋｉｎｇ　Ｇｕｓｔａｖ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｑｕｅｅｎ，　ｈｍ？　Ｏｐｅｎ　ｔｈｉｓ　ｇａｔｅ，　ｗｏー"TCC_NEWLINE"ｍａｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｗｉｌｌ　ｎｏｔ．　Ａｎｄ　Ｉ　ａｓｋ　ｔｈａｔ　ｙｏー"TCC_NEWLINE"ｕ　ｓｔｅｐ　ａｗａｙ　ｆｒｏｍ　ｉｔ，　Ｋｉｎｇ　Ｆｆｎー"TCC_NEWLINE"ｉｒ．　Ｔｈｉｓ　ｐｌａｃｅ　ｉｓ　ｎｏｔ　ｆｏｒ　ｙｏｕ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｉｌｅｎｃｅ！　Ｓｈｕｔ　ｙｏｕｒ　ｍｏｕｔｈ　ａｎｄ　"TCC_NEWLINE"ｄｏ　ａｓ　Ｉ　ｃｏｍｍａｎｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｒｒａａａｇｇｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｍｏｔｈｅｒ！　Ｌｅｔ　ｈｅｒ　ｇｏ，　Ｆｆｎｉｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｍｐｅｒｔｉｎｅｎｔ　ｗｏｍａｎ．．．　Ｉ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｓｎａｐ　ｙｏｕｒ　ｓｔｕｂｂｏｒｎ　ｎｅｃｋ　ｒｉｇｈー"TCC_NEWLINE"ｔ　ｈｅｒｅ　ｉｎ　ｆｒｏｎｔ　ｏｆ　ｙｏｕｒ　ｗｅａｋｌー"TCC_NEWLINE"ｉｎｇ　ｓｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｒｇｈ．．．　Ｇｕｈ！　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｓｔｏｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｒｒｒ－ｒａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"＊ｇａｓｐ＊"TCC_NEWLINE TCC_PUSH_A
+"＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｍｏｔｈｅｒ！　Ｍｏｔｈｅｒ，　ａｒｅ　ｙｏｕ　ａｌｌ　ｒー"TCC_NEWLINE"ｉｇｈｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙ－ｙｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｎｇｈ！　Ｄａｍｎ　ｔｈｉｓ　ｈｅａｄａｃｈｅ．．．"TCC_NEWLINE"　Ｗｈｙ　ｄｏｅｓ　ｉｔ　ｔｈｒｏｂ　ｌｉｋｅ　ｔｈｉｓ？"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒ　ｓｉｎｃｅ　ｅｎｔｅｒｉｎｇ　ｔｈｉｓ　ｃｏｕｎー"TCC_NEWLINE"ｔｒｙ，　ｔｈｅ　ｍｏｒｅ　Ｉ　ｋｉｌｌ，　ｔｈｅ　ｍｏｒー"TCC_NEWLINE"ｅ　ｐａｉｎ　ｇｒｉｐｓ　ａｔ　ｍｙ　ｃｈｅｓｔ，　ｍｙ　"TCC_NEWLINE"ｔｈｒｏａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｇｙａｈ！　．．．Ｍｙ．．．ｍｙ　ｈｅａｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｆ－Ｆｆｎｉｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｙｏｕ，　ｏｐｅｎ　ｔｈｉｓ　ｇａｔｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｆｆｎｉｒ，　ｗｈａｔ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｉｌｅｎｃｅ！　Ｏｐｅｎ　ｉｔ！　Ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｗｉｌｌ　ｎｏｔ．　Ｉ　ｃａｎ’ｔ　ａｌｌｏｗ　ｙｏｕ"TCC_NEWLINE"　ｔｏ　ｔｈｒｅａｔｅｎ　ａｎｙ　ｏｔｈｅｒ　ｗｏｒｌｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｍｐｕｄｅｎｔ　ｂｒａｔ．．．　Ｉ　ｗｉｌｌ　ｏｐｅｎ　"TCC_NEWLINE"ｉｔ　ｍｙｓｅｌｆ！　Ｂｙ　ｍｙ　ｐｏｗｅｒ　ａｌｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5081_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｕｒｇｈ．．．　Ｍｙ．．．ｈｅａｄ．．．　Ｃａｎ’ｔ　ｍｕー"TCC_NEWLINE"ｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｏｓｔ？　．．．Ｔｏ　ｔｈｅｍ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗ－ｗｅ　ｄｅｆｅａｔｅｄ　Ｆｆｎｉｒ．．．　Ｅｖｅｎ　ｔー"TCC_NEWLINE"ｈｏｕｇｈ　ｗｅ　ｓｔｏｏｄ　ｎｏ　ｃｈａｎｃｅ　ａｇａｉー"TCC_NEWLINE"ｎｓｔ　ｈｉｍ　ｉｎ　ｔｈｅ　ｐａｓｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｉｓ　ｃｏｕｌｄ　ｂｅ　ｏｕｒ　ｃｈａｎｃｅ　ｔｏ　ｅー"TCC_NEWLINE"ｎｄ　ａｌｌ　ｏｆ　ｔｈｉｓ　ｈｅｒｅ　ａｎｄ　ｎｏｗ，　"TCC_NEWLINE"ｅｖｅｎ　ｗｉｔｈｏｕｔ　Ｇｒａｍｒ．．．　Ｗｅ　ｃａｎ　"TCC_NEWLINE"ｄｅｆｅａｔ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ，　ｗａｉｔ！　Ｐｌｅａｓｅ！"TCC_NEWLINE"　Ｓｐａｒｅ　ｈｉｓ　ｌｉｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ．　Ｏｆ　ｃｏｕｒｓｅ．．．　Ｗｅ　ｗｉｌｌ　ｃａｐー"TCC_NEWLINE"ｔｕｒｅ　ｈｉｍ　ａｎｄ　ｈｏｌｄ　ｈｉｍ　ｉｎ　ａ　ｐｒー"TCC_NEWLINE"ｉｓｏｎ　ｃｅｌｌ．　Ｔｈａｔ’ｌｌ　ｐｕｔ　ａ　ｓｔｏｐ"TCC_NEWLINE"　ｔｏ　ｔｈｅ　ｗａｒ’ｓ　ｓｐｒｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｆｆｎｉｒ　ｇｏｔ　ｈｉｓ　ｓｔｒｅｎｇｔｈ　ｆｒｏｍ　ｔー"TCC_NEWLINE"ｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅｒｇａｒ，　ｒｉｇｈー"TCC_NEWLINE"ｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｆｏｒｅ　ｗｅ　ｓｅａｌ　ｈｉｍ　ａｗａｙ　ｉｎ　ｐｒー"TCC_NEWLINE"ｉｓｏｎ，　ｗｅ　ｓｈｏｕｌｄ　ｐｒｏｂａｂｌｙ　ｔａｋｅ"TCC_NEWLINE"　ｔｈａｔ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｎｄｅｅｄ．　Ｌｅｔ’ｓ　ｄｏ　ｔｈａｔ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈ－ｈｕｈ？　Ｉ　ｃａｎ’ｔ　ｇｅｔ　ｉｔ　ｏｆｆ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅｒｇａｒ　ｃー"TCC_NEWLINE"ａｎ　ｏｎｌｙ　ｂｅ　ｒｅｍｏｖｅｄ　ｂｙ　ｔｈｅ　ｏｎｅ"TCC_NEWLINE"　ｗｈｏ　ｗｅａｒｓ　ｉｔ．　Ｏｒ　ｗｈｅｎ　ｔｈｅ　ｏｎー"TCC_NEWLINE"ｅ　ｗｈｏ　ｗｅａｒｓ　ｉｔ　ｄｉｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂ－ｂｕｔ　ｐｌｅａｓｅ　ｄｏｎ’ｔ　ｋｉｌｌ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．"TCC_NEWLINE"．．　Ｔｈｏｕｇｈ　ｗｅ　ｗｉｌｌ　ｎｅｅｄ　ｔｏ　ｍａｋー"TCC_NEWLINE"ｅ　ｈｉｓ　ｐｒｉｓｏｎ　ｃｅｌｌ　ａｓ　ｓｅｃｕｒｅ　ａー"TCC_NEWLINE"ｓ　ｗｅ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

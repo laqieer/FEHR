@@ -1,0 +1,25 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5024] = TCC_OPEN_LEFT 
+"わしは武人だ。" TCC_NEWLINE
+"武を磨き伝えることしかできぬ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5024] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"。。。妙だな。" TCC_NEWLINE
+"アスク軍のこのルート。。。" TCC_NEWLINE
+"この王城が目的地ではない。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。！　まさか狙いはエイトリか！？" TCC_NEWLINE TCC_PUSH_A
+"あいつがアスク軍に捕まるとも思えないが" TCC_NEWLINE
+"万が一ということもある。" TCC_NEWLINE
+"念のため向かうとするか。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。だが、召喚師が自ら" TCC_NEWLINE
+"あいつの元へ出向いてくれるのは" TCC_NEWLINE
+"好都合だ。邪魔な奴らだけ殺せばいい。" TCC_NEWLINE TCC_PUSH_A
+"ついでにレギンを。。。、。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。僕は。。。何を考えて。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

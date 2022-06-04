@@ -1,0 +1,118 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ELM
+"Ｙｏｕ　ａｒｅ　ｓｏ，　ＳＯ　ｗｅａｋ．　Ｕｇｈ．．．　Ｈー"TCC_NEWLINE"ｏｗ　ｄｉｓａｐｐｏｉｎｔｉｎｇ．　Ｙｏｕ　ｄｏｎ’ｔ　ｅー"TCC_NEWLINE"ｖｅｎ　ｍａｋｅ　ａ　ｇｏｏｄ　ｔｏｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｗａｓ　ｉｔ　ｙｏｕ　ｗｈｏ　ｃｌｏｓｅｄ　ｏｕｒ　ｐｅｏー"TCC_NEWLINE"ｐｌｅ　ｉｎ　ｄａｒｋｎｅｓｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ，　ｔｈａｔ？　．．．Ｄｏｅｓ　ｉｔ　ｍａｔｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｅｔｕｒｎ　ｔｈｅｍ．．．ｔｏ　ｔｈｅｉｒ　ｐｒｏｐｅｒ"TCC_NEWLINE"　ｓｔａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈａｈａ！　Ｎｏ．．．　Ｎｏ，　Ｉ　ｄｏｎ’ｔ　ｔｈｉｎｋ"TCC_NEWLINE"　Ｉ　ｗｉｌｌ．．．　Ｔｈｅｙ　ａｒｅ　ａｎ　ｏｆｆｅｒｉー"TCC_NEWLINE"ｎｇ　ｔｏ　ｍｙ　ｍｏｓｔ　ｍａｇｎｉｆｉｃｅｎｔ　ｍａｓー"TCC_NEWLINE"ｔｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｎ．．．ｏｆｆｅｒｉｎｇ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｅｅ？　Ｙｏｕ　ｇｅｔ　ｉｔ！　Ａｌｌ　ｙｏｕ　ｍｏｒｔー"TCC_NEWLINE"ａｌｓ　ｄｉｅ　ｓｏ　ｑｕｉｃｋｌｙ　ａｎｙｗａｙ．　Ｌｏー"TCC_NEWLINE"ｓｉｎｇ　ａ　ｆｅｗ　ｌｏｎｅｌｙ　ｉｎｄｉｖｉｄｕａｌｓ"TCC_NEWLINE"　ｓｈｏｕｌｄｎ’ｔ　ｂｏｔｈｅｒ　ａｎｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｒｖｉｎｇ　ｔｏ　ｎｏｕｒｉｓｈ　ｍｙ　ｌａｄｙ　ｗｉー"TCC_NEWLINE"ｌｌ　ａｔ　ｌｅａｓｔ　ｇｉｖｅ　ｔｈｅｉｒ　ｗｏｒｔｈｌー"TCC_NEWLINE"ｅｓｓ　ｌｉｖｅｓ　ｓｏｍｅ　ｍｅａｎｉｎｇ　ａｓ　ｔｈｅー"TCC_NEWLINE"ｙ　ｅｎｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｉ　ｗｉｌｌ．．．ｄｅｓｔｒｏｙ　ｙｏｕ　ｆｏｒ　ｔー"TCC_NEWLINE"ｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍｐｈ．　Ｏｎｅ　ｎｕｉｓａｎｃｅ　ｗｏｕｌｄ　ｂｅ　ｔー"TCC_NEWLINE"ｏｏ　ｓｉｍｐｌｅ，　ｗｏｕｌｄｎ’ｔ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ELM
+"Ａｓｋｒａｎ　ｆｏｏｌｓ．．．　Ｗｈｅｎ　ｍｙ　ｌａｄｙ’"TCC_NEWLINE"ｓ　ｔｉｍｅ　ａｒｒｉｖｅｓ，　ｎｏｎｅ　ｏｆ　ｙｏｕ　ｗー"TCC_NEWLINE"ｉｌｌ　ｌｉｖｅ　ｔｏ　ｆｉｇｈｔ　ｍｕｃｈ　ｌｏｎｇｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｙｏｕ’ｒｅ　ｉｎ　ｓｕｃｈ　ａ　ｒｕｓｈ　"TCC_NEWLINE"ｔｏ　ｄｉｅ，　Ｉ　ａｍ　ｗｉｌｌｉｎｇ　ｔｏ　ｏｂｌｉｇー"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ELM
+"．．．Ｅｒｇｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　Ｌａｄｙ．．．　Ｉｆ　Ｉ　ｗａｓ　ａｔ　ｍｙ　ｆｕｌー"TCC_NEWLINE"ｌ　ｐｏｗｅｒ．．．　ｔｈｉｓ　ｗｏｕｌｄｎ’ｔ　ｈａｖｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｈｅ　ｄｉｓａｐｐｅａｒｅｄ．　Ｄｉｄ　ｈｅ．．．ｄｉｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｉｎ　ｏｎｅ　ｓｅｎｓｅ，　ｙｅｓ，　ｂｕｔ　ｉｎ　ａｎｏー"TCC_NEWLINE"ｔｈｅｒ，　ｎｏ．　Ｈｅ　ｈａｓ　ｅｎｔｅｒｅｄ　ａ　ｓｔー"TCC_NEWLINE"ａｔｅ　ｔｈａｔ　ｉｓ　ｄｉｆｆｉｃｕｌｔ　ｔｏ　ｐｕｔ　"TCC_NEWLINE"ｉｎｔｏ　ｓｔｒａｉｇｈｔｆｏｒｗａｒｄ　ｌａｎｇｕａｇｅ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｈｅ　ｉｓ　Ｅｍｂｌａ’ｓ　ｒｅｔａｉｎｅｒ，　ｈｏー"TCC_NEWLINE"ｗｅｖｅｒ，　ｗｅ　ｍｕｓｔ　ｓｔａｙ　ａｌｅｒｔ　ａｎｄ"TCC_NEWLINE"　ｃｏｎｔｉｎｕｅ　ｔｏ　ｂｅ　ａｗａｒｅ　ｏｆ　ｏｕｒ　"TCC_NEWLINE"ｓｕｒｒｏｕｎｄｉｎｇｓ，　ｓｏ　ｗｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｃｏｕｔｓ　ｒｅｐｏｒｔ　ａｎ　Ｅｍｂｌｉａｎ　ｆｏｒｃー"TCC_NEWLINE"ｅ　ｈａｓ　ｂｅｅｎ　ｓｅｎｔ　ｏｕｔ　ｆｒｏｍ　ｔｈｅ　"TCC_NEWLINE"ｆｏｒｔｒｅｓｓ，　ａｎｄ　ｔｈｅｙ’ｒｅ　ｈｅａｄｅｄ　"TCC_NEWLINE"ｔｈｉｓ　ｄｉｒｅｃｔｉｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ　ｈａｖｅ　ｔｏ　ｒｅｔｒｅａｔ　ｂｅｆｏｒｅ　ｉｔ’"TCC_NEWLINE"ｓ　ｔｏｏ　ｌａｔｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ－ｉｔ’ｓ　ａｌｒｅａｄｙ　ｔｏｏ　ｌａｔｅ！　Ｉ　ｃａー"TCC_NEWLINE"ｎ　ｓｅｅ　ｔｈｅ　ｄｕｓｔ　ｃｌｏｕｄ　ｋｉｃｋｅｄ　ｕー"TCC_NEWLINE"ｐ　ｂｙ　ｔｈｅｉｒ　ｈｏｒｓｅｓ．　Ｗｅ　ｗｏｎ’ｔ　ｍー"TCC_NEWLINE"ａｋｅ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｇａｈ．．．　Ｔｈｅｙ’ｒｅ　ｅｖｅｎ　ｆａｓｔｅｒ　ｔｈー"TCC_NEWLINE"ａｎ　Ｉ’ｄ　ａｎｔｉｃｉｐａｔｅｄ．．．　Ｉｔ　ｓｅｅｍー"TCC_NEWLINE"ｓ　ｌｉｋｅ　ｗｅ’ｒｅ　ｓｈｏｒｔ　ｏｎ　ｏｐｔｉｏｎｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗａｉｔ．　Ｔｈａｔ’ｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔｉｚｉａ？　Ｉｓ　ｔｈａｔ　ｙｏｕ？　．．．Ｓｉｓｓー"TCC_NEWLINE"ｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6025_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｖｅｒｏｎｉｃａ？　Ａｎｄ．．．ｃｏｍｐａｎｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｖｅｒ　ｅｘｐｅｃｔｅｄ　ｗｅ’ｄ　ｈａｖｅ　ｏｕー"TCC_NEWLINE"ｒ　ｎｅｘｔ　ｒｅｕｎｉｏｎ　ｈｅｒｅ　ｏｆ　ａｌｌ　ｐｌー"TCC_NEWLINE"ａｃｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｍａｎｙ　ｙｅａｒｓ　ｈａｓ　ｉｔ　ｂｅｅｎ　ｎｏー"TCC_NEWLINE"ｗ？　Ｙｏｕ’ｖｅ　ｃｅｒｔａｉｎｌｙ　ｇｒｏｗｎ　ｓｉｎー"TCC_NEWLINE"ｃｅ　ｌａｓｔ　Ｉ　ｓａｗ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｉｔ　ｈａｓ　ｂｅｅｎ　ａ　ｌｏｎｇ　ｔｉｍｅ．　Ｉ　ａｍ"TCC_NEWLINE"　ｈａｐｐｙ　ｔｏ　ｓｅｅ　ｙｏｕ　ｌｏｏｋｉｎｇ　ｗｅｌー"TCC_NEWLINE"ｌ，　Ｓｉｓｓｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｎｄ　Ｉ　ｙｏｕ！　Ｓｔｉｌｌ　ｔｈｉｎｋ　ｏｆ　ｍｅ　"TCC_NEWLINE"ａｓ　ｙｏｕｒ　Ｓｉｓｓｙ，　ｄｏ　ｙｏｕ？　Ｓｏｍｅ　ｔー"TCC_NEWLINE"ｈｉｎｇｓ　ｎｅｖｅｒ　ｄｏ　ｃｈａｎｇｅ，　Ｉ　ｓｕｐｐー"TCC_NEWLINE"ｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？　Ｗｈｏ　ｉｓ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ！　Ｉ　ａｍ　Ｌｅｔｉｚｉａ．　Ｎｉｎｔｈ　ｉｎ　Ｅｍー"TCC_NEWLINE"ｂｌａ’ｓ　ｌｉｎｅ　ｏｆ　ｓｕｃｃｅｓｓｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｌｅａｄ　Ｅｍｂｌａ’ｓ　Ｏｒｄｅｒ　ｏｆ　Ｈｅｒｏｅー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｏ，　ｔｈｉｓ　ｉｓ　ｔｈｅ　Ｄｉｒｅｃｔｉｖｅ’ｓ　ｌー"TCC_NEWLINE"ｅａｄｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｍｕｓｔ　ｂｅ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅｗｈｉー"TCC_NEWLINE"ｃｈ　ｗｏｕｌｄ　ｍａｋｅ　ｙｏｕ　Ｐｒｉｎｃｅｓｓ　Ｓｈー"TCC_NEWLINE"ａｒｅｎａ，　ｕｎｌｅｓｓ　Ｉ’ｍ　ｍｉｓｔａｋｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｈ！　Ｒｉｇｈｔ．　Ａｌｔｈｏｕｇｈ　Ａｓｋｒ　ｉｓ　ｏー"TCC_NEWLINE"ｕｒ　ｓｗｏｒｎ　ｅｎｅｍｙ，　ａｔ　ｔｈｅ　ｍｏｍｅｎ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｎｅｅｄｎ’ｔ　ｗｏｒｒｙ，　Ｖｅｒｏｎｉｃａ．　"TCC_NEWLINE"Ａｓ　ａｌｗａｙｓ，　Ｉ　ａｍ　ａｔ　ｙｏｕｒ　ｓｅｒｖｉー"TCC_NEWLINE"ｃｅ　ｗｉｔｈｏｕｔ　ｑｕｅｓｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｆｉｇｈｔｉー"TCC_NEWLINE"ｎｇ　ａｎｙ　ａｌｌｉｅｓ　ｏｆ　ｙｏｕｒｓ，　ｔｅｍｐｏー"TCC_NEWLINE"ｒａｒｙ　ａｓ　ｔｈｅｙ　ｍａｙ　ｂｅ．　Ｔｈｅｙ　ａｒｅ"TCC_NEWLINE"　ｆｒｅｅ　ｔｏ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｐｒｅｓｕｍｅ　ｙｏｕ　ｈａｄ　ｎｏｔ　ｉｎｔｅｎｄｅー"TCC_NEWLINE"ｄ　ｔｏ　ｅｎｃｒｏａｃｈ　ｏｎ　Ｅｍｂｌａ’ｓ　ｂｏｒｄー"TCC_NEWLINE"ｅｒｓ．．．　Ｉｓ　ｔｈａｔ　ｃｏｒｒｅｃｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｙｅｓ！　Ｗｅ　ｈａｄ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｔー"TCC_NEWLINE"ｒｅｓｐａｓｓｉｎｇ．　Ｔｈａｎｋ　ｙｏｕ　ｓｏ　ｍｕｃｈ"TCC_NEWLINE"　ｆｏｒ　ｕｎｄｅｒｓｔａｎｄｉｎｇ，　Ｌｅｔｉｚｉａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｉｎｄｅｅｄ．　Ｔｈｅｒｅ　ｉｓ　ｏｎｅ　ｏｔｈｅｒ　ｍａー"TCC_NEWLINE"ｔｔｅｒ　Ｉ　ｗｉｌｌ　ｗａｒｎ　ｙｏｕ　ａｂｏｕｔ　ａｓ"TCC_NEWLINE"　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｔ　ｔｈｉｓ　ｍｏｍｅｎｔ，　ｔｈｅｒｅ　ｉｓ　ａ　ｒｏー"TCC_NEWLINE"ｕｔｉｎｅ　ｂｏｒｄｅｒ　ｐａｔｒｏｌ　ｐａｓｓｉｎｇ　ｂー"TCC_NEWLINE"ｅｔｗｅｅｎ　ｈｅｒｅ　ａｎｄ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｌｉｅｖｅ　ｔｈｅｙ　ｐｌａｎ　ｔｏ　ｐｅｒｆｏｒー"TCC_NEWLINE"ｍ　ｃｏｍｂａｔ　ｄｒｉｌｌｓ　ｉｎ　ｔｈｅ　ａｒｅａ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｃｏｍｍｅｎｄ　ｙｏｕ　ｈｅａｄ　ｔｏｗａｒｄ　ｔー"TCC_NEWLINE"ｈｅ　ｍｏｕｎｔａｉｎ　ｐａｓｓ　ｔｏ　ｔｈｅ　ｓｏｕｔｈ"TCC_NEWLINE"．　Ｔｈａｔ　ｒｏｕｔｅ　ｗｉｌｌ　ａｌｌｏｗ　ｙｏｕ　ｓー"TCC_NEWLINE"ａｆｅ　ｐａｓｓａｇｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ．　Ｔｈｉｓ　ｍａｐ　ｗｉｌｌ　ｈｅｌｐ　ｙｏｕ　"TCC_NEWLINE"ｆｉｎｄ　ｙｏｕｒ　ｗａｙ．　Ｗｉｔｈ　ｔｈａｔ，　Ｉ’ｌー"TCC_NEWLINE"ｌ　ｂｅ　ｏｆｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｏｎｉｃａ，　ｗｅ’ｌｌ　ｓｐｅａｋ　ａｇａｉｎ　ｓー"TCC_NEWLINE"ｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｓｏ　ｔｈａｔ’ｓ　Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ．．．"TCC_NEWLINE"　Ｉｓ　ｔｈａｔ　ｔｈｅ　ｒｉｇｈｔ　ｔｉｔｌｅ？　Ｅｉｔー"TCC_NEWLINE"ｈｅｒ　ｗａｙ，　ｗｅ’ｒｅ　ｌｕｃｋｙ　ｓｈｅ’ｓ　ａ　"TCC_NEWLINE"ｒｅａｓｏｎａｂｌｅ　ｐｅｒｓｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｉｓｓｙ’ｓ　ａｌｗａｙｓ　ｂｅｅｎ　ｋｉｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　Ｉ　ｗａｓ　ｙｏｕｎｇｅｒ，　ｗｈｅｎｅｖｅｒ　"TCC_NEWLINE"Ｉ　ｆｅｌｔ　ａｌｏｎｅ，　ｓｈｅ　ｗａｓ　ａｌｗａｙｓ　"TCC_NEWLINE"ｔｈｅｒｅ　ｔｏ　ｐｌａｙ　ｗｉｔｈ　ｍｅ．．．ａｎｄ　ｃー"TCC_NEWLINE"ｏｍｆｏｒｔ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｅ　ｈａｖｅｎ’ｔ　ｂｅｅｎ　ａｂｌｅ　ｔｏ　ｓー"TCC_NEWLINE"ｅｅ　ｏｎｅ　ａｎｏｔｈｅｒ　ｆｏｒ　ｓｏｍｅ　ｔｉｍｅ　"TCC_NEWLINE"ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈａｔ　ｋｅｐｔ　ｙｏｕ　ａｐａｒｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒ　ｆａｍｉｌｙ　ｗａｓ．．．ｆａｌｓｅｌｙ　ａｃｃｕー"TCC_NEWLINE"ｓｅｄ　ｏｆ　ｐｌｏｔｔｉｎｇ　ａｇａｉｎｓｔ　ｔｈｅ　ｅー"TCC_NEWLINE"ｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｗｅｒｅ　ｓｔｒｉｐｐｅｄ　ｏｆ　ｔｈｅｉｒ　ｌー"TCC_NEWLINE"ａｎｄｓ，　ａｎｄ　Ｉ．．．ｓａｗ　ｌｅｓｓ　ｏｆ　ｔｈｅー"TCC_NEWLINE"ｍ　ａｓ　ａ　ｒｅｓｕｌｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈｅ　ｓｔｒｕｃｔｕｒｅ　ｏｆ　Ｅｍｂｌａ’ｓ　ｌｉｎｅ"TCC_NEWLINE"　ｏｆ　ｓｕｃｃｅｓｓｉｏｎ　ｉｓ　ａ　ｃｏｍｐｌｉｃａｔー"TCC_NEWLINE"ｅｄ　ａｆｆａｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｎｄｌｅｓｓ　ｐｏｗｅｒ　ｓｔｒｕｇｇｌｅｓ　ｂｅｔｗｅー"TCC_NEWLINE"ｅｎ　ｋｉｎｓｍａｎ，　ａｓ　Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｉー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｃａｌｌ　ｒｕｍｏｒｓ　ｏｆ　ｔｒｅａｓｏｎ　ｉｎ"TCC_NEWLINE"　Ｅｍｂｌａ　ｓｏｍｅ　ｙｅａｒｓ　ａｇｏ．．．　Ａｎｏｔー"TCC_NEWLINE"ｈｅｒ　ｂｒａｎｃｈ　ｕｓｅｄ　ｔｈｅｍ　ｔｏ　ｓｅｉｚｅ"TCC_NEWLINE"　ｔｈｅ　ｔｈｒｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｏｕ　ａｒｅ　ｒｅｆｅｒｒｉｎｇ　ｔｏ　ｍｙ　ｌａー"TCC_NEWLINE"ｔｅ　ｆａｔｈｅｒ．　Ｈｅ　ｉｓ　ｗｈｏ　ｔｏｏｋ　ｔｈｅ"TCC_NEWLINE"　ｔｈｒｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？！　Ｉｆ　ｔｈａｔ’ｓ　ｔｈｅ　ｃａｓｅ，　ｔｈー"TCC_NEWLINE"ｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ｔｈｉｎｋ　ｔｈａｔ　ｍｉｇｈｔ　ｈａｖｅ"TCC_NEWLINE"　ｓｏｍｅｔｈｉｎｇ　ｔｏ　ｄｏ　ｗｉｔｈ　ｗｈｙ　ｙｏｕ"TCC_NEWLINE"　ｈａｖｅｎ’ｔ　ｓｅｅｎ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏｒｍａｌｌｙ　Ｉ　ｗｏｕｌｄ　ａｇｒｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｓｈｅ　ｗｒｉｔｅｓ　ｍｅ　ｏｆｔｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｈａｓ　ａｌｗａｙｓ　ｓａｉｄ　ｔｈａｔ　ｗｈａｔー"TCC_NEWLINE"ｅｖｅｒ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｂｅｔｗｅｅｎ　ｏｕー"TCC_NEWLINE"ｒ　ｐａｒｅｎｔｓ，　ｉｔ　ｗｉｌｌ　ｎｏｔ　ｃｏｍｅ　ｂー"TCC_NEWLINE"ｅｔｗｅｅｎ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｏｆｔｅｎ　ｓａｙｓ　ｓｈｅ　ｓｔｉｌｌ　ｔｈｉｎー"TCC_NEWLINE"ｋｓ　ｏｆ　ｍｅ　ａｓ　ａ　ｌｉｔｔｌｅ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｈｅ　ｓｏｕｎｄｓ　ｓｏ　ｎｉｃｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．．．　Ｓｈｅ　ｉｓ　ｍｙ　Ｓｉｓｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_LETIZIA
+"．．．Ｈｏｗ　ｎｏｓｔａｌｇｉｃ．　Ｈｏｗ　ｌｏｎｇ　ｈａー"TCC_NEWLINE"ｓ　ｉｔ　ｂｅｅｎ　ｓｉｎｃｅ　ｙｏｕ　ｌａｓｔ　ｃａｌｌー"TCC_NEWLINE"ｅｄ　ｍｅ　Ｓｉｓｓｙ，　Ｉ　ｗｏｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ａｌｗａｙｓ　ｓｏ　ｇｏｏｄ　ｔｏ　ｓｅｅ　ｙｏー"TCC_NEWLINE"ｕ，　ｍｙ　ｄｅａｒ　ｌｉｔｔｌｅ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

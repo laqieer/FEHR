@@ -1,0 +1,84 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4114] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"フレイヤ様のご命令です。" TCC_NEWLINE
+"これより先へは行かせません。" TCC_NEWLINE
+"私の命に代えても。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"待って！" TCC_NEWLINE
+"ねえ、もうやめましょう、" TCC_NEWLINE
+"こんなこと。" TCC_NEWLINE TCC_PUSH_A
+"だって、" TCC_NEWLINE
+"フレイヤ様は教えてくれたわ。" TCC_NEWLINE
+"私たち５人はもともと一緒に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。あなたたちのせいで、" TCC_NEWLINE
+"思い出してしまいました。" TCC_NEWLINE TCC_PUSH_A
+"妖精になる前の。。。" TCC_NEWLINE
+"人間だった頃の記憶。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"「あんたなんて死ねばいいのに」" TCC_NEWLINE
+"「あんたさえいなければ幸せになれるのに」" TCC_NEWLINE
+"。。。おかあさんは、いつも私にそう言いました。" TCC_NEWLINE TCC_PUSH_A
+"私は、望んで" TCC_NEWLINE
+"妖精になったんです。" TCC_NEWLINE TCC_PUSH_A
+"現実の私は、惨めで、" TCC_NEWLINE
+"誰からも愛されなくて。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、夢の中だけは。。。" TCC_NEWLINE
+"私は特別な存在でいられるんです。" TCC_NEWLINE TCC_PUSH_A
+"私たち、大人たちのかわりに" TCC_NEWLINE
+"世界を救ったんです。" TCC_NEWLINE
+"私たちがみんなを救ったんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"現実なんていらないです、" TCC_NEWLINE
+"ずっと夢の中にいたいです。。。" TCC_NEWLINE TCC_PUSH_A
+"私の夢を、" TCC_NEWLINE
+"壊さないでください。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4114] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"私。。。私たちは。。。" TCC_NEWLINE
+"世界を救った。。。英雄なんです。。。" TCC_NEWLINE TCC_PUSH_A
+"私たち。。。" TCC_NEWLINE
+"みんなのためにがんばったんです。。。" TCC_NEWLINE
+"ですから。。。ですから、きっと。。。" TCC_NEWLINE TCC_PUSH_A
+"私は。。。いらない子じゃないです。。。" TCC_NEWLINE
+"私は。。。" TCC_NEWLINE TCC_PUSH_A
+"おかあさん。。。" TCC_NEWLINE
+"おかあさぁん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4114] = TCC_OPEN_LEFT 
+"わたしが、" TCC_NEWLINE
+"もしもほんとに" TCC_NEWLINE
+"えいゆうになったら。。。？" TCC_NEWLINE TCC_PUSH_A
+"おかあさんに" TCC_NEWLINE
+"ほめてもらえたら。。。" TCC_NEWLINE
+"うれしいです。" TCC_NEWLINE TCC_PUSH_A
+"わたし、" TCC_NEWLINE
+"やくたたずで、だめな子だから。。。、" TCC_NEWLINE
+"おかあさんはいつもおこってて。。。" TCC_NEWLINE TCC_PUSH_A
+"だから、" TCC_NEWLINE
+"えいゆうになって" TCC_NEWLINE
+"みんなをすくったら。。。" TCC_NEWLINE TCC_PUSH_A
+"そしたら" TCC_NEWLINE
+"おかあさん、わたしのこと" TCC_NEWLINE
+"えらいねってほめてくれるかもって。。。" TCC_NEWLINE TCC_PUSH_A
+"ふふっ、たのしみです。" TCC_NEWLINE
+"わたし、おかあさんのこと" TCC_NEWLINE
+"だいすきですから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

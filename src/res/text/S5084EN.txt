@@ -1,0 +1,50 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5084_EN] = TCC_OPEN_LEFT
+"Ｉ’ｍ　Ｐａｌｌａ．　Ｉ’ｖｅ　ｃｏｍｅ　ｆｒｏｍ　Ａｒｃー"TCC_NEWLINE"ｈａｎｅａ　ｉｎ　ｓｅａｒｃｈ　ｏｆ　ｍｙ　ｓｉｓｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5084_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｇｏｏｄ　ｗｏｒｋ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｅｌｌ　ｄｏｎｅ，　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ　"TCC_NEWLINE"ｔｏｏ．　Ｇｅｔ　ｓｏｍｅ　ｒｅｓｔ．　Ｙｏｕ　ｅａｒｎｅー"TCC_NEWLINE"ｄ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｆｔｅｒ　ａｌｌ　ｔｈａｔ，　Ｉ’ｍ　ｓｏｏｏ　ｈｕｎｇー"TCC_NEWLINE"ｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　Ｉ　ｈａｖｅ　ａ　ｐｒｏｐー"TCC_NEWLINE"ｏｓａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｏｕｌｄ　ｙｏｕ　ａｌｌｏｗ　ｍｅ　ｔｏ　ｐｒｅｐａｒｅ"TCC_NEWLINE"　ｄｉｎｎｅｒ　ｔｈｉｓ　ｅｖｅｎｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｕｈ？　．．．Ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ！　Ｉ　ｋｎｏｗ　Ｉ　ｃａｕｓｅｄ　ｙｏｕ　ａｌｌ　"TCC_NEWLINE"ｓｏ　ｍｕｃｈ　ｔｒｏｕｂｌｅ　ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｉｎｃｅ　ｗｅ　ｗｅｒｅ　ｃａｕｇｈｔ　ｕｐ　ｉー"TCC_NEWLINE"ｎ　ｔｈｅ　ｍｉｄｄｌｅ　ｏｆ　ａ　ｃｈａｓｅ，　ｔｈｉｎー"TCC_NEWLINE"ｇｓ　ｗｅｒｅ　ｎｅｖｅｒ　ｅｘａｃｔｌｙ　ｒｅｓｏｌｖｅー"TCC_NEWLINE"ｄ，　ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ａｓｋｉｎｇ　ｆｏｒ　ａ　ｃｈａｎｃｅ　ｔｏ　ｏー"TCC_NEWLINE"ｆｆｅｒ　ａ　ｐｒｏｐｅｒ　ｆｏｏｄ－ｂａｓｅｄ　ａｐｏｌー"TCC_NEWLINE"ｏｇｙ　ｔｏ　ｅｖｅｒｙｏｎｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｓｐｅｃｉａｌｌｙ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｎｄｅｄ　ｙｏｕ　ｏｖｅｒ　ｔｏ　ｔｒ，　ａｆｔｅー"TCC_NEWLINE"ｒ　ａｌｌ！　Ｓｕｒｅｌｙ　ｙｏｕ’ｒｅ　ａｎｇｒｙ　ａｂー"TCC_NEWLINE"ｏｕｔ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｈａｖｅ　ｆｏｒｇｉｖｅｎ　ｍｅ　ｓｏ　ｅａｓｉｌｙ"TCC_NEWLINE"．．．　Ｙｏｕ　ａｒｅ　ａ　ｔｒｕｌｙ　ｋｉｎｄ　ｐｅｒｓー"TCC_NEWLINE"ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｓｏ，　Ｉ　ａｍ　ｑｕｉｔｅ　ｅｍｂａｒｒａｓｓー"TCC_NEWLINE"ｅｄ　ｔｏ　ｈａｖｅ　ｂｅｅｎ　ｍａｎｉｐｕｌａｔｅｄ　ｓー"TCC_NEWLINE"ｏ　ｅａｓｉｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ　ｈａｄ　ａ　ｃｈａｎｇｅ　ｏｆ　ｈｅａｒｔ，　ａー"TCC_NEWLINE"ｎｄ　Ｉ　ｗａｎｔ　ｔｏ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ"TCC_NEWLINE"　ｍａｋｅ　ｔｈｉｎｇｓ　ｒｉｇｈｔ　ｗｉｔｈ　ｙｏｕ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｃａｎ　ｓｏｍｅｈｏｗ　ｆｉｎｄ　ｉｔ　ｉｎ"TCC_NEWLINE"　ｙｏｕｒ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｒｒ．．．　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｏｕｒ　ｆａｃｅ．．．　Ｎｏｗ　ｔｈａｔ　Ｉ’ｖｅ　ｈａー"TCC_NEWLINE"ｄ　ａ　ｇｏｏｄ　ｌｏｏｋ　ａｔ　ｉｔ，　Ｉ　ｃａｎｎｏｔ"TCC_NEWLINE"　ｈｅｌｐ　ｂｕｔ　ｎｏｔｉｃｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"，　ｔｈａｔ　ｙｏｕ’ｒｅ"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ！　Ｉ　ｍｕｓｔｎ’ｔ！　Ｉ　ｊｕｓｔ　ｓｗｏｒｅ　Ｉ"TCC_NEWLINE"’ｄ　ｃｈａｎｇｅ　ｍｙ　ｗａｙｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｕｍｍ．．．　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ？　Ｔｈｅｒｅ　ｗａー"TCC_NEWLINE"ｓ　ｍｅｎｔｉｏｎ　ｏｆ　ｆｏｏｄ，　ａｎｄ　Ｉ’ｍ　ｒｅー"TCC_NEWLINE"ａｌｌｙ　ｑｕｉｔｅ　ｈｕｎｇｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙ－ｙｅｓ！　Ｏｆ　ｃｏｕｒｓｅ！　Ｐｌｅａｓｅ，　ｌｅａー"TCC_NEWLINE"ｖｅ　ｉｔ　ａｌｌ　ｔｏ　ｍｅ，　ａｎｄ　ｙｏｕ　ｗｏｎ’"TCC_NEWLINE"ｔ　ｒｅｇｒｅｔ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｐｕｔ　ｍｙ　ｗｈｏｌｅ　ｈｅａｒｔ　ｉｎｔー"TCC_NEWLINE"ｏ　ｔｈｉｓ　ｍｅａｌ　ａｎｄ　ｍａｋｅ　ｉｔ　ａ　ｄｅｌー"TCC_NEWLINE"ｉｃｉｏｕｓ　ｔｒｅａｔ　ｆｏｒ　ａｌｌ　ｔｏ　ｐａｒｔａー"TCC_NEWLINE"ｋｅ　ｏｆ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｌｌ　ｒｉｇｈｔ！　Ｉ　ｃａｎ’ｔ　ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5084_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"．．．Ｙｅｓ！　Ｓｅｅｍｓ　ｌｉｋｅ　Ｉ　ｗａｓ　ａｂｌｅ"TCC_NEWLINE"　ｔｏ　ｓｎｅａｋ　ｏｕｔ　ｏｆ　ｔｈｅ　ｃａｓｔｌｅ　ｗー"TCC_NEWLINE"ｉｔｈｏｕｔ　ａｎｙｏｎｅ　ｎｏｔｉｃｉｎｇ　ｍｅ　ｓｌｉー"TCC_NEWLINE"ｐ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋｓ　ｔｏ　Ｐｒｉｎｃｅｓｓ　Ｎｔｔ’ｓ　ｃｏｏｋー"TCC_NEWLINE"ｉｎｇ，　ｅｖｅｒｙｏｎｅ　ｆｅｌｌ　ｆａｓｔ　ａｓｌｅｅー"TCC_NEWLINE"ｐ　ｏｎｃｅ　ｔｈｅｉｒ　ｂｅｌｌｉｅｓ　ｗｅｒｅ　ｆｕｌー"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏ　ｓｏｒｒｙ，　ｅｖｅｒｙｏｎｅ．．．　Ｉｔ’"TCC_NEWLINE"ｓ　ｍｙ　ｆａｕｌｔ　ｙｏｕ’ｒｅ　ａｌｌ　ｅｘｈａｕｓｔー"TCC_NEWLINE"ｅｄ　ａｎｄ　ｉｎ　ｐａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌｅａｓｔ　Ｉ　ｃａｎ　ｄｏ　ｉｓ　ｇｏ　ｆｉｎｄ"TCC_NEWLINE"　ｔｈｅ　ｃａｕｓｅ　ｏｆ　ｍｙ　ｂｒｏｔｈｅｒ’ｓ　ｂｅー"TCC_NEWLINE"ｈａｖｉｏｒａｎｄ　ｄｏ　ｉｔ　ａｌｏｎｅ　ｉｆ　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ　ｔｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｆｎｉｒ，　Ｂｒｏｔｈｅｒ．．．　Ｉ　ｋｎｏｗ　ｙｏｕ　"TCC_NEWLINE"ａｒｅ　ｓｕｆｆｅｒｉｎｇ　ｒｉｇｈｔ　ｎｏｗ，　ｂｕｔ．"TCC_NEWLINE"．．Ｉ　ｗｉｌｌ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｈｅｌｐ　ｙー"TCC_NEWLINE"ｏｕ！　Ｊｕｓｔ　ｈｏｌｄ　ｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

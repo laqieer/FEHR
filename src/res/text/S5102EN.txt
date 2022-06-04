@@ -1,0 +1,29 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5102_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｈｅｈ．．．　Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ，　Ｓｕｍｍｏｎｅー"TCC_NEWLINE"ｒ．　Ｈｏｗ　ｐｒｅｄｉｃｔａｂｌｅ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｌｅｔ’ｓ　ｎｏｔ　ｍｉｎｃｅ　ｗｏｒｄｓ：　ＤＩー"TCC_NEWLINE"Ｅ！　Ｔｈｉｓ　ｌａｎｄ　ｗｉｌｌ　ｂｅ　ｏｕｒｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"ｔｒ！　Ｌｉｓｔｅｎ　ｔｏ　ｍｅ！　Ｗｅ’ｖｅ　ｊｕｓｔ　"TCC_NEWLINE"ｃｏｍｅ　ｂａｃｋ　ｆｒｏｍ　ｔｈｅ　Ｔｏｗｅｒ　ｏｆ　Ｎー"TCC_NEWLINE"ｉａｖｅｌｌｉｒ．　Ｔｈｅｒｅ’ｓ　ｓｏｍｅｔｈｉｎｇ　Ｉ"TCC_NEWLINE"　ｍｕｓｔ　ａｓｋ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｗｈａｔ？　Ｄｉｄ　ｙｏｕ　ｇｏ　ｉｎｓｉｄｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｄｉｄ．　Ａｎｄ　ａｆｔｅｒ　ｗｈａｔ　ｗｅ　ｌｅａー"TCC_NEWLINE"ｒｎｅｄ，　Ｉ’ｖｅ　ｂｅｅｎ　ｔｈｉｎｋｉｎｇ　ｔｈａｔ"TCC_NEWLINE"．．．ｍａｙｂｅ　Ｆｆｎｉｒ　ｉｓｎ’ｔ　ｆｒｏｍ　Ｎｉａー"TCC_NEWLINE"ｖｅｌｌｉｒ　ａｆｔｅｒ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ　ｄｉｄ　ｙｏｕ　ｋｎｏｗ　ｔｈａｔ　ａｌｒｅａｄｙ，"TCC_NEWLINE"　ｔｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｙｅｓ，　ｔｈｉｎｇｓ　ａｒｅ　ｊｕｓｔ　ａｓ　ｙｏー"TCC_NEWLINE"ｕ　ｓａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ　ｔｈａｔ　ｙｏｕ　ｋｎｏｗ　ｔｈａｔ，　ａー"TCC_NEWLINE"ｌｌ　ｔｈｅ　ｍｏｒｅ　ｒｅａｓｏｎ　ｆｏｒ　ｍｅ　ｔｏ　"TCC_NEWLINE"ｅｎｄ　ｙｏｕｒ　ｌｉｖｅｓ　ｈｅｒｅ　ａｎｄ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ｔｒ，　ｗａｉｔ！　Ｗｈａｔ　ｗｅｒｅ　ｙｏｕ　ａｎｄ　Ｅー"TCC_NEWLINE"ｉｔｒｉ　ｐｌａｎｎｉｎｇ？！　Ｉ　ｎｅｅｄ　ｔｏ　ｋｎｏー"TCC_NEWLINE"ｗ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈｅｒｅ　ｓｏｍｅ　ｃｏｎｎｅｃｔｉｏｎ　ｔｏ　Ｆー"TCC_NEWLINE"ｆｎｉｒ’ｓ　ｔｒｕｅ　ｏｒｉｇｉｎｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓ　ｍｙ　ｃｏｎｃｅｒｎ，　ａｎｄ　ｍｉｎｅ　"TCC_NEWLINE"ａｌｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｌｏｔ．．．　Ａｌｗａｙｓ　ｐｒｙｉｎｇ，　ｄｉｇー"TCC_NEWLINE"ｇｉｎｇ　ｉｎｔｏ　ｏｔｈｅｒｓ’　ａｆｆａｉｒｓ．　Ｉ’"TCC_NEWLINE"ｌｌ　ｓｈｏｗ　ｙｏｕ　ｗｈｅｒｅ　ｙｏｕ　ｂｅｌｏｎｇ！"TCC_NEWLINE"　Ｂｅｎｅａｔｈ　ｍｙ　ｈｅｅｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5102_EN] = TCC_OPEN_LEFT
+"Ｐｌｅａｓｅ，　Ｇｏｄｄｅｓｓ．．．　Ｌｅｎｄ　ｍｅ　ｔｈー"TCC_NEWLINE"ｅ　ｃｏｕｒａｇｅ　Ｉ　ｎｅｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5102_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"．．．Ｄａｍｎ　ｉｔ！　Ｉ　ｈａｖｅ　ｔｏ　ｒｅｔｒｅａｔ"TCC_NEWLINE"．　Ｉ’ｌｌ　ｐｕｌｌ　ｂａｃｋ　ａｎｄ　ｒｅｇｒｏｕｐ　"TCC_NEWLINE"ｗｉｔｈ　Ｆｆｎｉｒ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈｅｒｅ　ｈａｖｅ　ｙｏｕ　ｇｏｔｔｅｎ　ｔｏ，　"TCC_NEWLINE"Ｂｒｏｔｈｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

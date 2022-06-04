@@ -52,12 +52,12 @@ FaceDefines = {
     "ID_アシュ":"PORTRAIT_ASH",
     "ID_ヴェロニカ洗脳":"PORTRAIT_VERONICA_STAIN",
     "ID_エルム":"PORTRAIT_ELM",
-    "ID_エンブラ兵":"PORTRAIT_GENERIC_SODIER_RED",
-    "ID_アスク兵":"PORTRAIT_GENERIC_SODIER_BLUE",
+    "ID_エンブラ兵":"PORTRAIT_GENERIC_SOLDIER_RED",
+    "ID_アスク兵":"PORTRAIT_GENERIC_SOLDIER_BLUE",
     "ID_アルフォンス0":"PORTRAIT_ALFONSE",
 }
 
-TextIDStart = 6476
+TextIDStart = 6501
 
 alphabets = "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ"
 

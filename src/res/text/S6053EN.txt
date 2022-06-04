@@ -1,0 +1,80 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6053_EN] = TCC_OPEN_LEFT
+"Ｔｈｅ　Ｌｏｐｔｒ　Ｃｈｕｒｃｈ　ｗｉｌｌ　ｎｏｔ　ｓｕｆー"TCC_NEWLINE"ｆｅｒ　ａ　ｔｒａｉｔｏｒ．　Ｔｈａｔ　ｉｓ　ｌａｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6053_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"．．．Ａｓｈ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ASH
+"Ａｈ，　ｍｙ　ａｐｏｌｏｇｉｅｓ，　Ｌａｄｙ　Ｓｈａｒｅｎー"TCC_NEWLINE"ａ．　Ｉ　ｗａｓ　ｍｏｍｅｎｔａｒｉｌｙ．．．ｄｉｓｔｒａー"TCC_NEWLINE"ｃｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｈｅｎ　ｗｅ　ｇｅｔ　ｂａｃｋ　ｔｏ　Ａｓｋｒ，　ｗｅ　"TCC_NEWLINE"ｓｈｏｕｌｄ　ｆｒｅｅ　ｔｈｅ　ｖｉｌｌａｇｅｓ　ａｎｄ　"TCC_NEWLINE"ｔｏｗｎｓ　ｅｎｃｌｏｓｅｄ　ｉｎ　ｄａｒｋｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｏｕｒ　ｗｏｒｋ　ｃｕｔ　ｏｕｔ　ｆｏｒ　"TCC_NEWLINE"ｕｓ．　Ａｓｈ，　ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｙｏｕｒ　ｐｏー"TCC_NEWLINE"ｗｅｒ　ｗｉｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｈａｎｄｌｅ　ｉｔ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　ｏｆ　ｃｏｕｒｓｅ．　Ｉｎ　ｆａｃｔ．．．ｈｍｍ"TCC_NEWLINE"．．．　Ｉ　ｂｅｌｉｅｖｅ　Ｉ　ｗｉｌｌ　ｂｅ　ａｂｌｅ　"TCC_NEWLINE"ｔｏ　ｄｏ　ｉｔ　ａｂｏｕｔ　ｆｉｖｅ　ｏｒ　ｓｉｘ　ｍｏー"TCC_NEWLINE"ｒｅ　ｔｉｍｅｓ　ｗｉｔｈｏｕｔ　ａｎｙ　ｓｉｇｎｉｆｉｃー"TCC_NEWLINE"ａｎｔ　ｉｓｓｕｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｗ－ｗａｉｔ　ａ　ｍｉｎｕｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｈ，　ｙｏｕ’ｖｅ　ｓｅｅｍｅｄ　ａ　ｂｉｔ　ｏｕｔ　"TCC_NEWLINE"ｏｆ　ｓｏｒｔｓ　ｓｉｎｃｅ　ｗｅ　ｃｌｅａｒｅｄ　ａｗａー"TCC_NEWLINE"ｙ　ｔｈａｔ　ｄａｒｋｎｅｓｓ　ｂａｃｋ　ｔｈｅｒｅ．　Ｉー"TCC_NEWLINE"ｓ　ｓｏｍｅｔｈｉｎｇ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｗｅｌｌ，　ａｂｏｕｔ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ｄｏ　Ｉ　ｐｕｔ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｏｒｄｅｒ　ｔｏ　ｄｉｓｐｅｌ　Ｅｍｂｌａ’ｓ　ｄａー"TCC_NEWLINE"ｒｋｎｅｓｓ，　ｈｅｒ　ｄａｒｋｎｅｓｓ　ａｎｄ　ｍｙ　ｌー"TCC_NEWLINE"ｉｇｈｔ　ｍｕｓｔ　ｃｏｍｅ　ｉｎｔｏ　ｃｏｎｔａｃｔ，　"TCC_NEWLINE"ｙｏｕ　ｓｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｄａｒｋｎｅｓｓ　ｉｓ　ｂｒｏｋｅｎ，　ｂｕｔ．．"TCC_NEWLINE"．ｔｈｅ　ｐｒｏｃｅｓｓ　ｉｓ　ｎｏｔ　ｗｉｔｈｏｕｔ　ｉー"TCC_NEWLINE"ｔｓ　ｓｉｄｅ　ｅｆｆｅｃｔｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕ　ｓａｉｄ　ｙｏｕ　ｃａｎ　ｄｏ　ｉｔ　ａｎｏｔｈｅー"TCC_NEWLINE"ｒ　ｆｉｖｅ　ｏｒ　ｓｉｘ　ｔｉｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗｉｌｌ　ｈａｐｐｅｎ　ｔｏ　ｙｏｕ　ｉｆ　ｙｏー"TCC_NEWLINE"ｕ　ｋｅｅｐ　ｇｏｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ，　ａｇａｉｎ，　ｎｏ　ｇｕａｒａｎｔｅｅｓ，　ａー"TCC_NEWLINE"ｎｄ　ｔｈｅ　ｅｆｆｅｃｔｓ　ｍａｙ　ｃｈａｎｇｅ　ｏｒ　"TCC_NEWLINE"ｃｏｍｐｏｕｎｄ　ｉｎ　ｔｉｍｅ，　ｓｏ　ｉｔ　ｉｓ　ｄｉー"TCC_NEWLINE"ｆｆｉｃｕｌｔ　ｔｏ　ｓａｙ　ｅｘａｃｔｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓａｉｄ，　ａｓ　ｏｆ　ｎｏｗ，　Ｉ　ｈａｖｅ　"TCC_NEWLINE"ｂｅｇｕｎ　ｔｏ　ｌｏｓｅ　ｆｅｅｌｉｎｇ　ｉｎ　ｍｙ　ｌー"TCC_NEWLINE"ｅｆｔ　ｌｅｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｉ　ｗｅｒｅ　ｔｏ　ｇｕｅｓｓ，　Ｉ　ｗｏｕｌｄ　ｉー"TCC_NEWLINE"ｍａｇｉｎｅ　Ｉ　ｗｉｌｌ　ｂｅｇｉｎ　ｔｏ　ｌｏｓｅ　ｆー"TCC_NEWLINE"ｅｅｌｉｎｇ　ａｃｒｏｓｓ　ａｌｌ　ｍｙ　ｌｉｍｂｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｅａｌｌｙ？　Ａｓｈ，　ｉｆ　ｔｈａｔ’ｓ　ｔｈｅ　ｃａー"TCC_NEWLINE"ｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｌｅａｓｅ　ｕｎｄｅｒｓｔａｎｄ　ｔｈａｔ　ｔｈｉｓ　ｉー"TCC_NEWLINE"ｓ　ｊｕｓｔ　ａ　ｇｕｅｓｓ　ｏｎ　ｍｙ　ｐａｒｔ，　ｓｏ"TCC_NEWLINE"　ｙｏｕ　ｎｅｅｄ　ｎｏｔ　ｂａｓｅ　ａｎｙ　ａｃｔｉｏｎ"TCC_NEWLINE"　ｏｎ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｓｈ，　ｙｏｕ’ｖｅ　ｏｆｆｅｒｅｄ　ｕｓ　ａ　ｓｏｌｕー"TCC_NEWLINE"ｔｉｏｎ，　ｂｕｔ　ｉｆ　ｐｕｒｓｕｉｎｇ　ｉｔ　ｍｅａｎー"TCC_NEWLINE"ｓ　ｗｅ　ｈａｖｅ　ｔｏ　ｓａｃｒｉｆｉｃｅ　ｙｏｕｒ　ｈー"TCC_NEWLINE"ｅａｌｔｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｌｅａｓｅ，　ｔｈｅｒｅ　ｉｓ　ｎｏ　ｃａｌｌ　ｆｏｒ　"TCC_NEWLINE"ｃｏｎｃｅｒｎ．　Ｉ　ｅｘｉｓｔ　ｔｏ　ｓｅｒｖｅ　ｙｏｕ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｏｄｉｌｙ　ｈｅａｌｔｈ　ｉｓ　ｓｏｌｅｌｙ　ｆｏー"TCC_NEWLINE"ｒ　ｔｈｅ　ｂｅｎｅｆｉｔ　ｏｆ　ｙｏｕ　ａｎｄ　ｔｈｅ　"TCC_NEWLINE"ｏｔｈｅｒ　ｐｅｏｐｌｅ　ｏｆ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｓ　ｔｈａｔ．．．Ａｓｋｒ’ｓ　ｗｉｌｌ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｎｏ．　Ｔｈｅｓｅ　ａｒｅ　ｍｙ　ｏｗｎ　ｔｈｏｕー"TCC_NEWLINE"ｇｈｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｅｉｔｈｅｒ　ａ　ｍｅｍｂｅｒ　ｏｆ　ａｎｙ　"TCC_NEWLINE"ｆａｍｉｌｙ　ｎｏｒ　ａ　ｂｅｌｏｖｅｄ　ｎｏｂｌｅ　ｌｉー"TCC_NEWLINE"ｋｅ　ｏｔｈｅｒｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅｆｏｒｅ，　ｔｈｅｒｅ　ｉｓ　ｎｏ　ｎｅｅｄ　ｆー"TCC_NEWLINE"ｏｒ　ａｎｙ　ｔｏ　ｗｏｒｒｙ　ｏｖｅｒ　ｍｅ　ｆｒｏｍ　"TCC_NEWLINE"ｍｙ　ｐｅｒｓｐｅｃｔｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ，　ｙ－ｙｏｕ’ｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｏ　ｎｏｔ　ｗｏｒｒｙ！　Ｉ　ｈａｖｅ　ｏｎｌｙ　ａ　ｌー"TCC_NEWLINE"ｉｔｔｌｅ　ｐｏｗｅｒ　ｒｅｍａｉｎｉｎｇ　ｗｉｔｈｉｎ　"TCC_NEWLINE"ｍｅ　ａｓ　ｉｔ　ｓｔａｎｄｓ，　ｓｏ　ｅｖｅｒｙｔｈｉｎー"TCC_NEWLINE"ｇ　ｉｓ　ｉｎ　ｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ？　Ｏｎｌｙ．．．ａ　ｌｉｔｔｌｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｉｔ　ｈａｓ　ｂｅｅｎ，　ｏｈ，　ｈｕｎｄｒｅｄー"TCC_NEWLINE"ｓ　ｏｆ　ｙｅａｒｓ　ｎｏｗ，　ｂｕｔ　ｏｎ　ａ　ｐｒｉｏー"TCC_NEWLINE"ｒ　ｍｉｓｓｉｏｎ　ａｓ　ｒｅｔａｉｎｅｒ　ｔｏ　Ｌｏｒｄ"TCC_NEWLINE"　Ａｓｋｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｅｔ　ｗｉｔｈ　ａ　ｇｒｏｕｐ　ｏｆ　ｍｏｒｔａｌｓ"TCC_NEWLINE"，　ｌｉｋｅ　Ｉ　ｈａｖｅ　ｍｅｔ　ｗｉｔｈ　ｙｏｕ　ａｌー"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｇｒａｎｔ　ｔｈｅｉｒ　ｒｅｑｕｅｓｔｓ，　Ｉ　ｐｅー"TCC_NEWLINE"ｒｆｏｒｍｅｄ　ｖａｒｉｏｕｓ　ｓｅｒｖｉｃｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｍａｋｅ　ｔｈｅ　ｃｏｕｎｔｒｙ　ｏｆ　Ａｓｋｒ　ｌー"TCC_NEWLINE"ｕｓｈ　ａｎｄ　ｇｒｅｅｎ，　Ｉ　ｐｏｕｒｅｄ　ｍｏｓｔ　"TCC_NEWLINE"ｏｆ　ｍｙ　ｐｏｗｅｒ　ｉｎｔｏ　ｔｈｅ　ｌａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅｎ．．．ａｌｌ　ｏｆ　ｏｕｒ　ｂｏｕｎｔｉｆｕｌ　ｃー"TCC_NEWLINE"ｒｏｐｓ　ａｎｄ　ａｂｕｎｄａｎｃｅ　ｏｆ　ｆｌｏｗｅｒｓ"TCC_NEWLINE"　ｉｓ　ｔｈａｎｋｓ　ｔｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｌｌ　ｏｆ　Ａｓｋｒ’ｓ　ｐｒｏｓｐｅｒｉｔｙ．．．ｗａー"TCC_NEWLINE"ｓ　ｃｒｅａｔｅｄ　ｆｒｏｍ　ｔｈｅ　ｆｒｕｉｔｓ　ｏｆ　"TCC_NEWLINE"ｙｏｕｒ　ｓａｃｒｉｆｉｃｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｄｏ　ｎｏｔ　ｔｈｉｎｋ　ｏｆ　ｉｔ　ａｓ　ａ　ｓａｃー"TCC_NEWLINE"ｒｉｆｉｃｅ．　Ｉｔ　ｉｓ　ｍｅｒｅｌｙ　ｍｙ　ｄｕｔｙ　"TCC_NEWLINE"ｔｏ　ｓｅｒｖｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｕｎｄｅｒｓｔａｎｄ，　Ａｓｈ．　Ｔｈａｎｋ　ｙｏｕ　"TCC_NEWLINE"ｆｏｒ　ｅｘｐｌａｉｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓａｉｄ，　Ｉ　ｏｎｌｙ　ｗａｎｔ　ｔｏ　ｕｓｅ"TCC_NEWLINE"　ｙｏｕｒ　ｐｏｗｅｒ　ｗｈｅｎ　ａｂｓｏｌｕｔｅｌｙ　ｎー"TCC_NEWLINE"ｅｃｅｓｓａｒｙ．　Ａｌｌ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ｔｈｅｒｅ　ｓｏｍｅ　ｏｔｈｅｒ　ｗａｙ　ｗｅ　ｃｏー"TCC_NEWLINE"ｕｌｄ　ｄｉｓｐｅｌ　ｔｈｅ　ｄａｒｋｎｅｓｓ？　Ｗｏｕｌー"TCC_NEWLINE"ｄ　ｄｅｆｅａｔｉｎｇ　Ｌｅｔｉｚｉａ　ｂｅ　ｅｎｏｕｇｈ"TCC_NEWLINE"　ｔｏ　ｕｎｄｏ　ｔｈｉｎｇｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ．　Ｕｎｆｏｒｔｕｎａｔｅｌｙ，　ｓｈｅ　ｉｓ　ｎｏｔ"TCC_NEWLINE"　ｔｈｅ　ｓｏｕｒｃｅ　ｏｆ　ｔｈｅ　ｄａｒｋｎｅｓｓｉｔ"TCC_NEWLINE"　ｉｓ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ｌａｄｙ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｎ　ｔｈａｔ　ｃａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｏｕｌｄ　ｄｅｆｅａｔｉｎｇ　Ｅｍｂｌａ　ｓｅｔ　ｔｈｉー"TCC_NEWLINE"ｎｇｓ　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｈ．．．　Ｙｅｓ．　Ｉ　ｂｅｌｉｅｖｅ　ｓｏ．　Ｉ　ｃａー"TCC_NEWLINE"ｎ　ｓｅｅ　ｎｏ　ｏｔｈｅｒ　ａｌｔｅｒｎａｔｉｖｅ，　ｂー"TCC_NEWLINE"ｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ａ　ｍｏｒｔａｌ，　ｙｏｕ　ｈａｖｅ　ｌｉｔｔｌｅ　"TCC_NEWLINE"ｃｈａｎｃｅ　ｏｆ　ｋｉｌｌｉｎｇ　ａ　ｇｏｄ，　Ｌｏｒｄ"TCC_NEWLINE"　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏｎ’ｔ　ｙｏｕ　ｗｏｒｒｙ！　Ｍｙ　ｂｒｏｔｈｅｒ　ｃー"TCC_NEWLINE"ａｎ　ｄｅｆｅａｔ　ａｎｙ　ｆｏｅｇｏｄ　ｏｒ　ｄｅｍｏｎ"TCC_NEWLINE"！　Ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ｓｉｎｃｅｒｅｓｔ　ａｐｏｌｏｇｉｅｓ．　Ｉｔ　ｓｅー"TCC_NEWLINE"ｅｍｓ　Ｉ　ｕｎｄｅｒｅｓｔｉｍａｔｅｄ　ｙｏｕｒ　ａｂｉー"TCC_NEWLINE"ｌｉｔｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｅ　ｗｉｌｌ　ｒｉｄ　ｏｕｒｓｅｌｖｅｓ　ｏｆ　ｔｈａｔ"TCC_NEWLINE"　ｄａｒｋｎｅｓｓ　ｏｎｅ　ｗａｙ　ｏｒ　ａｎｏｔｈｅｒ．"TCC_NEWLINE"　Ｂｕｔ　ｆｉｒｓｔ　ｗｅ　ｎｅｅｄ　ｔｏ　ｃｏｎｆｒｏｎー"TCC_NEWLINE"ｔ　Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

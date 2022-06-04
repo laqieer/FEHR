@@ -1,0 +1,176 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"ごきげんよう、アルフォンス王子。" TCC_NEWLINE
+"考え直していただけましたか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。" TCC_NEWLINE
+"君の言葉は嘘ではなかった。" TCC_NEWLINE TCC_PUSH_A
+"つまり、" TCC_NEWLINE
+"この闇をもたらした元凶は" TCC_NEWLINE
+"君ということになる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ。" TCC_NEWLINE
+"ですが、私をここで討とうなどと" TCC_NEWLINE
+"考えても無駄なことです。" TCC_NEWLINE TCC_PUSH_A
+"この戦いにあなたが勝っても、" TCC_NEWLINE
+"私は兵を盾にして一時撤退し、" TCC_NEWLINE
+"報復に新たな町を闇に沈めるだけ。。。" TCC_NEWLINE TCC_PUSH_A
+"さあ、一緒に数えましょうか。" TCC_NEWLINE
+"いくつの町を滅ぼしたら、" TCC_NEWLINE
+"あなたはヴェロニカを渡すのかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。くっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"あくまで拒否、ということですね。" TCC_NEWLINE
+"残念です。" TCC_NEWLINE
+"それではまた町が一つ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"まって。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ヴェロニカ皇女！？" TCC_NEWLINE
+"どうしてここに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"そんな。。。" TCC_NEWLINE
+"あんな怪我で。。。" TCC_NEWLINE
+"ここまで来るなんて。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"おねえさま。。。" TCC_NEWLINE
+"あたしはここよ。" TCC_NEWLINE
+"おねえさまといっしょにいくわ。" TCC_NEWLINE TCC_PUSH_A
+"だから。。。アスクは。。。" TCC_NEWLINE
+"かんけいないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"結構\。" TCC_NEWLINE
+"ではお前たち、" TCC_NEWLINE
+"ヴェロニカを連行しなさい。" TCC_NEWLINE TCC_PUSH_A
+"捕虜以下の扱いで構\いません。" TCC_NEWLINE
+"抵抗したら手足の骨を折りなさい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"待ってください、ヴェロニカ皇女！" TCC_NEWLINE
+"だめです、このままじゃあなたが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。だまりなさい。" TCC_NEWLINE
+"あなたたちは敵よ。。。" TCC_NEWLINE
+"敵とはなすことなんて、何もない。" TCC_NEWLINE TCC_PUSH_A
+"あたしのことはあたしが決める。。。" TCC_NEWLINE
+"敵のあなたたちが、さしずしないで。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ヴェロニカ。。。皇女。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"ご協力に感謝致します。" TCC_NEWLINE
+"アスク王国の皆様。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"もう用は済んだでしょ。" TCC_NEWLINE
+"私たちはアスクに戻らせてもらうわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"いいえ、まだ帰らせはしません。" TCC_NEWLINE TCC_PUSH_A
+"アルフォンス王子、シャロン王女。" TCC_NEWLINE
+"お二人も武器を捨て、" TCC_NEWLINE
+"こちらへ投降していただきましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"な、何言ってるの！" TCC_NEWLINE
+"そんな要求に従えるわけないでしょ！" TCC_NEWLINE TCC_PUSH_A
+"行くわよ、みんな！" TCC_NEWLINE
+"一刻も早くアスク領に戻って、" TCC_NEWLINE
+"この件を正式に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"先ほどと同じです。" TCC_NEWLINE
+"従わないのなら、またあなた方の" TCC_NEWLINE
+"町が一つずつ滅んでいくでしょうね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"そんな。。。" TCC_NEWLINE
+"そんなこともうやめてください！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"でしたらシャロン王女、" TCC_NEWLINE
+"あなたが武器を捨て、" TCC_NEWLINE
+"こちらへ来てくださればいいのです。" TCC_NEWLINE TCC_PUSH_A
+"ご心配なく。" TCC_NEWLINE
+"大切な貴賓に危害など加えません。" TCC_NEWLINE
+"我が名において誓いましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"わ、わかりました。。。" TCC_NEWLINE
+"だからもう、これ以上ひどいことは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"シャロン、待つんだ。" TCC_NEWLINE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"まだお時間が必要なようですね、" TCC_NEWLINE
+"それではゆっくりお考えくださいな。" TCC_NEWLINE TCC_PUSH_A
+"ごきげんよう。" TCC_NEWLINE
+"またお会いしましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"当然だけど、" TCC_NEWLINE
+"要求に従うことはあり得ないわ。" TCC_NEWLINE TCC_PUSH_A
+"今、あなたたちが敵の手に落ちれば、" TCC_NEWLINE
+"外交上の人質にされ、" TCC_NEWLINE
+"最悪殺されるわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"でも、このままじゃ。。。" TCC_NEWLINE
+"みんながどんどん" TCC_NEWLINE
+"闇に飲み込まれていくんですよね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"レティシア将軍が闇の元凶。。。" TCC_NEWLINE
+"彼女に元通りにさせるしかない。" TCC_NEWLINE
+"容易ではなさそうだけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ASH
+"えー、誠に遺憾ではございますが。。。" TCC_NEWLINE
+"アルフォンス様の仰る通りであります。" TCC_NEWLINE
+"あの闇はエンブラの力でありますので。。。" TCC_NEWLINE TCC_PUSH_A
+"ですが皆様、どうかご安心ください。" TCC_NEWLINE
+"偉大なるアスク様から私が" TCC_NEWLINE
+"お預かりしたお力をもってすれば。。。" TCC_NEWLINE TCC_PUSH_A
+"あの如何ともしがたい闇を。。。" TCC_NEWLINE
+"もしかすると打ち消すことも" TCC_NEWLINE
+"できるのではないかと思われます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"本当ですか！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ、ええと、あくまで絶対ではなく、" TCC_NEWLINE
+"もしかしたら。。。ですから、" TCC_NEWLINE
+"だめでしたら大変申\し訳ありません。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"このアシュ、皆様の明るい暮らしのため、" TCC_NEWLINE
+"精一杯善処致しますので、" TCC_NEWLINE
+"どうぞよろしくお願い申\し上げます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

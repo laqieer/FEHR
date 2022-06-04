@@ -1,0 +1,88 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"Ｕｒｇｈ．．．　＊ｐａｎｔ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｊｕｓｔ　ｗｈｅｒｅ　ａｒｅ　ｙｏｕ　ｒｕｎｎｉｎｇ，　ｍー"TCC_NEWLINE"ｙ　ｄｅａｒ　ｌｉｔｔｌｅ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗａｎｔ　ｔｏ　ｐｌａｙ　ｈｉｄｅ－ａｎｄ－ｓｅｅー"TCC_NEWLINE"ｋ？　Ｈｏｗ　ｎｏｓｔａｌｇｉｃ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｆｏｒｔｕｎａｔｅｌｙ，　ｔｈｅｒｅ　ｉｓ　ｎｏｔ　ｍー"TCC_NEWLINE"ｕｃｈ　ｒｏｏｍ　ｔｏ　ｒｕｎ　ｂｅｔｗｅｅｎ　ｈｅｒｅ　"TCC_NEWLINE"ａｎｄ　ｔｈｅ　ｃｌｉｆｆ　ｕｐ　ａｈｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓ－Ｓｉｓｓｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｇｉｖｅ　ｕｐ．　Ｙｏｕ　ｈａｖｅ　ｎｏｗｈｅｒｅ　ｔｏ　"TCC_NEWLINE"ｒｕｎ，　ｎｏ　ａｌｌｉｅｓ　ｌｅｆｔ　ｉｎ　ａｌｌ　ｔｈー"TCC_NEWLINE"ｅ　ｅｍｐｉｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ，　ｏｆ　ｃｏｕｒｓｅ，　ｃａｎｎｏｔ　ａｌｌｏｗ　ｙｏー"TCC_NEWLINE"ｕ　ｔｏ　ｄｉｅ　ｏｕｔ　ｈｅｒｅ，　ｉｎ　ｏｂｓｃｕｒｉー"TCC_NEWLINE"ｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ，　ｙｏｕ　ｍｕｓｔ　ｆａｃｅ　ｅｘｅｃｕｔｉｏｎ　ｂー"TCC_NEWLINE"ｅｆｏｒｅ　ｔｈｅ　ｐｅｏｐｌｅ．．．ｔｏ　ｂｅ　ｊｅｅｒー"TCC_NEWLINE"ｅｄ，　ｓｐｉｔ　ｕｐｏｎ，　ｐｅｌｔｅｄ　ｗｉｔｈ　ｓｔー"TCC_NEWLINE"ｏｎｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｌｌ　ｋｎｏｗ　ｔｈｅ　ｄｉｓｇｒａｃｅ　ｏｆ"TCC_NEWLINE"　ｂｅｉｎｇ　ｔｈｒｏｗｎ　ｆｒｏｍ　ｔｈｅ　ｉｍｐｅｒｉー"TCC_NEWLINE"ａｌ　ｃｏｕｒｔ，　ｃａｓｔ　ｄｏｗｎ　ｗｈｅｒｅ　ｙｏｕ"TCC_NEWLINE"　ｂｅｌｏｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ，　ｏｎｃｅ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ　ｗｈａー"TCC_NEWLINE"ｔ　ｉｔ　ｍｅａｎｓ　ｔｏ　ｈａｖｅ　ｅｖｅｒｙｔｈｉｎｇ"TCC_NEWLINE"　ｔａｋｅｎ　ｆｒｏｍ　ｙｏｕ．．．ＴＨＥＮ　ｙｏｕ　ｃａー"TCC_NEWLINE"ｎ　ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｎ－ｎｏ，　Ｉ’ｌｌ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｖｅｒｏｎｉｃａ？　Ｗｈｅｒｅ　ｄｉｄ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｒｅｌｙ　ｙｏｕ　ｗｏｕｌｄｎ’ｔ　ｄａｒｅ　ｔｈｒｏー"TCC_NEWLINE"ｗ　ｙｏｕｒｓｅｌｆ　ｆｒｏｍ　ａ　ｃｌｉｆｆ　ｏｆ　ｔｈー"TCC_NEWLINE"ｉｓ　ｈｅｉｇｈｔ．　Ｕｎｌｉｋｅｌｙ　ｙｏｕ　ｗｏｕｌｄ"TCC_NEWLINE"　ｓｕｒｖｉｖｅ　ｔｈｅ　ｆａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｄｏ　ｙｏｕ　ｉｎｓｉｓｔ　ｏｎ　ｍａｋｉｎｇ　ｔー"TCC_NEWLINE"ｈｉｓ　ｍｏｒｅ　ｄｉｆｆｉｃｕｌｔ　ｆｏｒ　ｙｏｕｒｓｅー"TCC_NEWLINE"ｌｆ？　Ｉ　ａｌｒｅａｄｙ　ｔｏｌｄ　ｙｏｕ　Ｉ　ｗｉｌｌ"TCC_NEWLINE"　ａｌｌｏｗ　ｙｏｕ　ｎｏ　ｅｓｃａｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｙｏｕ　ｓｔｒｕｇｇｌｅ，　ｙー"TCC_NEWLINE"ｏｕ　ｗｉｌｌ　ｓｔａｎｄ　ｂｅｆｏｒｅ　ｙｏｕｒ　ｐｅｏー"TCC_NEWLINE"ｐｌｅ，　ｆａｃｅ　ｙｏｕｒ　ｊｕｄｇｍｅｎｔ，　ａｎｄ　"TCC_NEWLINE"ｂｅ　ｓｅｎｔｅｎｃｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ．．．　Ｄｉｄｎ’ｔ　ｔｈａｔ　ｈｉｌｌ．．"TCC_NEWLINE"．　Ｔｈｅｒｅ　ｗａｓ　ａ　ｖｉｌｌａｇｅ　ｔｈｅｒｅ，　"TCC_NEWLINE"ｗａｓｎ’ｔ　ｔｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ　ｈａｓ　ｂｅｅｎ　ｅｎｃｌｏｓｅｄ　ｉｎ　ｄａｒｋｎー"TCC_NEWLINE"ｅｓｓ．　Ｊｕｓｔ　ｌｉｋｅ　ｔｈｅ　ｏｔｈｅｒ　ｖｉｌｌー"TCC_NEWLINE"ａｇｅ．．．　Ｎｏｔ　ｅｖｅｎ　Ｅｍｂｌａ’ｓ　ｐｅｏｐｌー"TCC_NEWLINE"ｅ　ａｒｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｂｕｔ　ｗｅ　ｄｅｆｅａｔｅｄ　Ｅｌｍ！　Ｄｉｄ　ｔｈａｔ"TCC_NEWLINE"　ｃｈａｎｇｅ　ｎｏｔｈｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｎｏｔ　Ｅｌｍ，　ｔｈｅｎ　ｗｈｏ　ｉｓ　ｃａｕｓｉー"TCC_NEWLINE"ｎｇ　ｔｈｉｓ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｈｅｌｌｏ，　Ａｓｋｒａｎｓ．　Ｉ　ｃａｎ’ｔ　ｈｅｌｐ　"TCC_NEWLINE"ｂｕｔ　ｎｏｔｉｃｅ　ｙｏｕ　ａｒｅ　ｓｔｉｌｌ　ｗｉｔｈー"TCC_NEWLINE"ｉｎ　Ｅｍｂｌａ’ｓ　ｂｏｒｄｅｒｓ．　Ｗｈｙ　ｗｏｕｌｄ"TCC_NEWLINE"　ｔｈａｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ！　Ｔｏ　ｂｅ　ｃｌｅａｒ"TCC_NEWLINE"，　ｗｅ　ｈａｖｅ　ｅｖｅｒｙ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　"TCC_NEWLINE"ｒｅｔｕｒｎｉｎｇ　ｔｏ　Ａｓｋｒ　ａｓ　ｓｏｏｎ　ａｓ　"TCC_NEWLINE"ｗｅ　ａｒｅ　ａｂｌｅ，　ｂｕｔ　ｗｅ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｐｌｅａｓｅ．　Ｔｈｅｒｅ　ｉｓ　ｎｏ　ｃａｕｓｅ　ｆｏｒ"TCC_NEWLINE"　ａｌａｒｍ．　Ｗｅ’ｌｌ　ｅｎｓｕｒｅ　ｙｏｕ　ａｒｒｉー"TCC_NEWLINE"ｖｅ　ｈｏｍｅ　ｓａｆｅｌｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｔｈｏｕｇｈ，　Ｉ　ｄｏ　ｈａｖｅ　ｏｎｅ　ｑｕｅｓｔー"TCC_NEWLINE"ｉｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈａｖｅ　ｙｏｕ　ｓｅｅｎ　Ｖｅｒｏｎｉｃａ　ａｎｙｗｈｅー"TCC_NEWLINE"ｒｅ　ｎｅａｒｂｙ？　Ｓｈｅ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　"TCC_NEWLINE"ｖａｎｉｓｈｅｄ，　ａｎｄ　Ｉ　ｗｏｒｒｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？　Ｗｅ　ｈａｖｅｎ’ｔ"TCC_NEWLINE"　ｓｅｅｎ　ｈｅｒ　ｅｉｔｈｅｒ．　Ｗｅ　ｗｏｕｌｄ　ｈｅー"TCC_NEWLINE"ｌｐ　ｉｆ　ｗｅ　ｃｏｕｌｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｈｍ．．．　Ｙｅｓ，　Ｉ　ｂｅｌｉｅｖｅ　ｙｏｕ　ｗｏｕｌー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｉｍａｇｉｎｅ　ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ　ｔｈａｔ"TCC_NEWLINE"　ｉｆ　ｙｏｕ　ＷＥＲＥ　ｔｏ　ｌｉｅ　ｔｏ　ｍｅ，　ｉｔ"TCC_NEWLINE"　ｗｏｕｌｄ　ｂｅ　ｖｅｒｙ　ｕｎｆｏｒｔｕｎａｔｅ．　Ｆー"TCC_NEWLINE"ｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈ－ｗｈａｔ　ｄｏｅｓ　ｔｈａｔ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ．　Ｔｈｅｒｅ　ｉｓ"TCC_NEWLINE"　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ａｓー"TCC_NEWLINE"ｋ　ｙｏｕ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｇｏ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａ　ｂｒｉｄｇｅ　ａｌｏｎｇ　ｔｈｅ　ｒｏｕｔｅ　ｙｏｕ　"TCC_NEWLINE"ｔｏｌｄ　ｕｓ　ｔｏ　ｔａｋｅ　ｈａｄ　ｂｅｅｎ　ｄａｍａー"TCC_NEWLINE"ｇｅｄ，　ｍａｋｉｎｇ　ｉｔ　ｕｎｃｒｏｓｓａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ａｓ　ｉｆ　ｓｏｍｅｏｎｅ　ｗｈｏ　ｋｎｅｗ"TCC_NEWLINE"　ｗｅ　ｗｏｕｌｄ　ｔａｋｅ　ｔｈａｔ　ｒｏｕｔｅ　ｗａｓ"TCC_NEWLINE"　ａｔｔｅｍｐｔｉｎｇ　ｔｏ　ｐｒｅｖｅｎｔ　ｏｕｒ　ｒｅー"TCC_NEWLINE"ｔｕｒｎ　ｔｏ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｃｏｉｎｃｉｄｅｎｃｅｓ　ｈａｐｐｅｎ，　ａー"TCC_NEWLINE"ｎｄ　Ｉ　ｈａｖｅ　ｎｏ　ｒｅａｓｏｎ　ｔｏ　ｂｅｌｉｅｖー"TCC_NEWLINE"ｅ　ｙｏｕ　ｗｉｓｈ　ｕｓ　ａｎｙ　ｉｌｌ　ｗｉｌｌ．　Ｎー"TCC_NEWLINE"ｅｖｅｒｔｈｅｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ａｓｋ　ｙｏｕ　ｔｅｌｌ　ｕｓ　ｗｈｙ　ｙｏー"TCC_NEWLINE"ｕ　ａｒｅ　ｐｕｒｓｕｉｎｇ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎー"TCC_NEWLINE"ｉｃａ．　Ｉｆ　ｙｏｕ　ｃａｎｎｏｔ　ａｎｓｗｅｒ，　ｗｅ"TCC_NEWLINE"　ａｒｅ　ａｔ　ａｎ　ｉｍｐａｓｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ　ｓｅｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｙｏｕ　ａｒｅ　ｐｒｏｔｅｃｔｉｎｇ　ｈｅｒ，　ｋｅー"TCC_NEWLINE"ｅｐｉｎｇ　ｈｅｒ　ｈｉｄｄｅｎ，　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｍｕｓｔ　ｉｎｓｉｓｔ　ｙｏｕ　ｈａｎｄ　ｈｅｒ　ｏｖー"TCC_NEWLINE"ｅｒ　ｉｍｍｅｄｉａｔｅｌｙ．　Ｓｈｅ　ｍｕｓｔ　ｂｅ　ｔー"TCC_NEWLINE"ｒｉｅｄ　ｆｏｒ　ｈｅｒ　ｃｒｉｍｅｓ　ａｇａｉｎｓｔ　ｔー"TCC_NEWLINE"ｈｅ　ｅｍｐｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｎｄ　ｉｆ　ｗｅ　ｄｏ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｓｕｒｅｌｙ　ｙｏｕ　ｄｏｎ’ｔ　ｉｎｔｅｎｄ　ｔｏ　ａｔー"TCC_NEWLINE"ｔａｃｋ　Ａｓｋｒａｎ　ｒｏｙａｌｔｙ！　Ｙｏｕ’ｌｌ　ｓー"TCC_NEWLINE"ｔａｒｔ　ａ　ｗａｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈｅｒｅ　ｗｉｌｌ　ｂｅ　ｎｏ　ｗａｒ．　Ｙｏｕ　ｕｎｌー"TCC_NEWLINE"ａｗｆｕｌｌｙ　ｅｎｔｅｒｅｄ　Ｅｍｂｌａ，　ａｎｄ　ｓｕー"TCC_NEWLINE"ｂｓｅｑｕｅｎｔｌｙ　ｗｅｎｔ　ｍｉｓｓｉｎｇ．　Ｂａｄ　"TCC_NEWLINE"ｌｕｃｋ，　Ｉ’ｍ　ａｆｒａｉｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　Ｄｉｒｅｃｔｉｖｅ　ｉｓ　ｅｖｅｒ　ｓｏ　ｐｒａｃｔー"TCC_NEWLINE"ｉｃｅｄ　ｉｎ　ｔｈｅ　ａｒｔ　ｏｆ　ｐｒｏｐａｇａｎｄａ"TCC_NEWLINE"．．．　Ｉｔ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｏｆ　ａ　ｓｐｅｃー"TCC_NEWLINE"ｉａｌｔｙ　ｏｆ　ｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｙｏｕ　ｎｅｅｄｎ’ｔ　ｗｏｒｒｙ；　ｔｈｅ　ｃｏー"TCC_NEWLINE"ｎｓｅｑｕｅｎｃｅｓ　ｏｆ　ｙｏｕｒ　ｄｅａｔｈｓ　ｗｉｌー"TCC_NEWLINE"ｌ　ｂｅ　ｍｉｎｉｍａｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ａｌｌ　ｆｏｒｃｅｓ　ｔｏ　ｃｏｎｖｅｒｇｅ　ｏｎ　ｍｙ　"TCC_NEWLINE"ｐｏｓｉｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｕｒｓｕｅ　ｔｈｅ　ｅｎｅｍｙ　ｕｎｔｉｌ　ｗｅ　ｈａｖー"TCC_NEWLINE"ｅ　Ｖｅｒｏｎｉｃａ　ｉｎ　ｃｕｓｔｏｄｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｈａｔ　ｉｓ　ｈａｐｐｅｎｉｎｇ？　Ｌｅｔｉｚｉａ　ｓｅー"TCC_NEWLINE"ｅｍｅｄ　ｔｏｔａｌｌｙ　ｄｉｆｆｅｒｅｎｔ　ｆｒｏｍ　ｏー"TCC_NEWLINE"ｕｒ　ｌａｓｔ　ｍｅｅｔｉｎｇ．　Ｉｓ　ｔｈａｔ　ｗｈａｔ"TCC_NEWLINE"　ｓｈｅ’ｓ　ｒｅａｌｌｙ　ｌｉｋｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｈｅ　ｔｏｌｄ　ｕｓ　ｔｏ　ｈａｎｄ　ｏｖｅｒ　Ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓ　Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈｙ　ｗｏｕｌｄ　Ｌｅｔｉｚｉａ　ｔｈｉｎｋ　ｗｅ　ｗｅー"TCC_NEWLINE"ｒｅ　ｗｉｔｈ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？　Ｉｔ"TCC_NEWLINE"　ｄｏｅｓｎ’ｔ　ｍａｋｅ　ｓｅｎｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ　ｃｏｕｌｄ　ｂｅ　ｔｈｅ　ｃａｓｅ　ｔｈａｔ　Ｐｒｉー"TCC_NEWLINE"ｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｈａｄ　ｃａｕｓｅ　ｔｏ　ｆー"TCC_NEWLINE"ｌｅｅ　ｆｒｏｍ　Ｌｅｔｉｚｉａ　ａｎｄ　ｓｈｅ’ｓ　ｈｉー"TCC_NEWLINE"ｄｄｅｎ　ｈｅｒｓｅｌｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｎｃｅ　Ｌｅｔｉｚｉａ　ｄｏｕｂｔｓ　ｏｕｒ　ｗｏｒｄ"TCC_NEWLINE"，　ｔｈｅ　ｐｒｉｎｃｅｓｓ　ｍａｙ　ｂｅ　ｃｌｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎ　ｔｈａｔ　ｃａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｃａｎ’ｔ　ｌｅｔ　Ｅｍｂｌａ’ｓ　ｓｏ－ｃａｌｌｅー"TCC_NEWLINE"ｄ　Ｈｅｒｏｅｓ　ｗｉｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｓｅａｒｃｈ　ｔｈｅ　ａｒｅａ　ｏｕｒｓｅｌｖー"TCC_NEWLINE"ｅｓ．　ａｎｄ　ｌｏｃａｔｅ　ｔｈｅ　ｐｒｉｎｃｅｓｓ　ｂー"TCC_NEWLINE"ｅｆｏｒｅ　ｔｈｅ　Ｄｉｒｅｃｔｉｖｅ　ｃａｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

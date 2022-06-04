@@ -1,0 +1,80 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｕｒ．．．ｒｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．ｃｅｓｓ　Ｒｅｇｉｎｎ！　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉー"TCC_NEWLINE"ｎｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍｍ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈ－ｗｈｅｒｅ　ａｒｅ　ｗｅ？！　Ｗｈａｔ　ｈａｐー"TCC_NEWLINE"ｐｅｎｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ’ｒｅ　ａｔ　ｔｈｅ　Ｅｍｂｌｉａｎ　ｉｍｐｅｒｉａｌ"TCC_NEWLINE"　ｖｉｌｌａ．　Ｙｏｕ　ｗｅｒｅ　ｓｔｒｕｃｋ　ｕｎｃｏｎー"TCC_NEWLINE"ｓｃｉｏｕｓ　ａｎｄ　ｈａｖｅ　ｂｅｅｎ　ａｓｌｅｅｐ　ｆー"TCC_NEWLINE"ｏｒ　ｄａｙｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏ　ｈａｐｐｙ　ｔｏ　ｓｅｅ　ｙｏｕ　ａｗａｋｅ"TCC_NEWLINE"！　Ｉ　ｗａｓ　ｓｏ　ｗｏｒｒｉｅｄ　ａｂｏｕｔ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ－Ｉ’ｍ　ｓｏｒｒｙ．　Ｉ　ｆｅｅｌ　ａｌｌ　ｒｉｇｈｔ"TCC_NEWLINE"　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+"ＷａｉｔＩ’ｖｅ　ｂｅｅｎ　ａｓｌｅｅｐ？！　Ｉ　ｈａｖｅ"TCC_NEWLINE"　ｔｏ　ｇｏ　ａｆｔｅｒ　ｍｙ　ｂｒｏｔｈｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏ，　ｗａｉｔ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！　Ｙｏー"TCC_NEWLINE"ｕ　ｓｔｉｌｌ　ｎｅｅｄ　ｔｏ　ｒｅｓｔ．　Ｙｏｕ　ｓｈｏー"TCC_NEWLINE"ｕｌｄｎ’ｔ　ｂｅ　ｕｐ　ａｎｄ　ｍｏｖｉｎｇ　ｙｅｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｓｉｄｅｓ，　ｍｙ　ｂｒｏｔｈｅｒ　ａｎｄ　ｔｈｅ　ｏー"TCC_NEWLINE"ｔｈｅｒｓ　ａｒｅ　ｆｏｌｌｏｗｉｎｇ　ｕｐ　ｏｎ　ｗｈａー"TCC_NEWLINE"ｔ　ｙｏｕｒ　ｂｒｏｔｈｅｒｓ　ａｒｅ　ｄｏｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｈ！　Ｗｅ’ｖｅ　ｊｕｓｔ　ｒｅｔｕｒｎｅｄ！　．．．Ｉ"TCC_NEWLINE"　ｓｅｅ　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ　ｈａｓ　ｒｅｔｕー"TCC_NEWLINE"ｒｎｅｄ　ｔｏ　ｕｓ　ａｓ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｏｈ！　Ｗｅｌｃｏｍｅ　ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｃａｎ　ｙｏｕ　ｔｅｌｌ　ｍｅ　ａｎｙｔｈｉｎｇ　ａｂｏｕー"TCC_NEWLINE"ｔ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｗｉｔｈ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ，　ｏｒ　ｍｙ　ｂｒｏｔｈｅｒｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｔｈｅ　ｔｒｕｔｈ　ｉｓ．．．ｗｅ　ｈａｖｅ　ｎｏ　ａｎｓー"TCC_NEWLINE"ｗｅｒｓ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｗｈｅｎ　ｙｏｕ　ｆｅｅｌ　ｕｐ　ｔｏ　ｉｔ，　Ｉ"TCC_NEWLINE"　ｄｏ　ｈｏｐｅ　ｙｏｕ　ｗｉｌｌ　ｊｏｉｎ　ｕｓ　ａｓ　"TCC_NEWLINE"ｗｅ　ｖｅｎｔｕｒｅ　ｂａｃｋ　ｉｎｔｏ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｉａｖｅｌｌｉｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"＊ｇａｓｐ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈ－ｗｈａｔ　ｈａｐｐｅｎｅｄ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃａｐｉｔａｌ　ｉｓ　ａ　ｓｍｏｋｉｎｇ　ｒｕｉｎ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅｒｅ　ａｒｅ　ｂｏｄｉｅｓ　ｅｖｅｒｙｗｈｅｒｅ．．"TCC_NEWLINE"．　Ｈ－ｈｏｗ　ａｗｆｕｌ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｓ　ｔｈａｔ　ｙｏｕ．．．Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ"TCC_NEWLINE"？　Ｈ－ｈａｖｅ　ｙｏｕ　ｒｅｔｕｒｎｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ，　Ｉ’ｍ　ｈｅｒｅ．　Ｃａｎ　ｙｏｕ　ｔｅｌｌ　ｍー"TCC_NEWLINE"ｅ　ｗｈａｔ　ｈａｐｐｅｎｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｗａｓ．．．ａ　ｍｏｎｓｔｅｒ．　Ａ　ｇｈａｓｔｌｙ"TCC_NEWLINE"　ｔｈｉｎｇ　Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　ｂｅｆｏｒｅ"TCC_NEWLINE"　ｉｎ　ａｌｌ　ｍｙ　ｌｉｆｅ　ａｔｔａｃｋｅｄ　ａｓ　ｉー"TCC_NEWLINE"ｆ　ｆｒｏｍ　ｎｏｗｈｅｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ．．．　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．．．　"TCC_NEWLINE"Ｙｏｕ　ｍｕｓｔ．．．ｓａｖｅ　Ｎｉａｖｅｌｌｉｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈ－ｈｅｙ！　Ｓｔａｙ　ｗｉｔｈ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｓｔａｙ　ｗｉｔｈ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ．　Ｗｈｏ　ｃｏｕｌｄ"TCC_NEWLINE"　ｈａｖｅ　ｄｏｎｅ　ｓｕｃｈ　ａ　ｔｅｒｒ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"ＧＲＡＡＡＧＨＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｉｓ　ｔｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"ＲＲＲＡＡＡＡＨＨＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｍｏｎｓｔｅｒｉｔ’ｓ　ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｉｔ　ｃｏｕｌｄ　ｄｅｓｔｒｏｙ　ａｌｌ　ｏｆ　Ｎｉａｖｅー"TCC_NEWLINE"ｌｌｉｒ！　Ｎｏｔ　ｅｖｅｎ　ｔｈｅ　ｃａｐｉｔａｌ　ｗａー"TCC_NEWLINE"ｓ　ｓａｆｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｗａｉｔ．．．　Ｂｒｏｔｈｅｒ？　Ｔｈａｔ．．．　Ｔｈａｔ"TCC_NEWLINE"’ｓ　Ｆｆｎｉｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？！　Ｈｏｗ　ｉｓ　ｔｈａｔ　ｐｏｓｓｉｂｌｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ｈａｐｐｅｎｅｄ　ｔｏ　ｙｏｕ，　Ｆｆｎｉｒ？　"TCC_NEWLINE"Ｂｒｏｔｈｅｒ，　ｐｌｅａｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗａｉｔｄｏｎ’ｔ　ｇｅｔ　ｔｏｏ　ｃｌｏｓｅ，　Ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓ　Ｒｅｇｉｎｎ！　Ｈｅ’ｓ　ｄａｎｇｅｒｏｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｈ　ｎｏ！　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｕｎｎｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｆｆｎｉｒ！　Ｇｅｔ　ａ　ｈｏｌｄ　ｏｆ　ｙｏｕｒｓｅｌｆ"TCC_NEWLINE"！　Ｉｔ’ｓ　ｍｅ，　Ｒｅｇｉｎｎｙｏｕｒ　ｓｉｓｔｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｅ．．．ｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"ＧＥＴ　ＡＷＡＹ　ＦＲＯＭ　ＨＩＭ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"－ｔｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

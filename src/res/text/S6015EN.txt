@@ -1,0 +1,70 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ａｈ．．．　Ｉ　ｂｅｌｉｅｖｅ　Ｉ　ｈａｖｅ　ａｒｒｉｖｅー"TCC_NEWLINE"ｄ．　Ｉ　ａｍ　ｕｎｓｕｒｅ　ｏｆ　ｗｈｅｔｈｅｒ　Ｉ’ｍ"TCC_NEWLINE"　ｒｅａｄｙ，　ｂｕｔ．．．　ａ　ｆｅｗ　ｄｅｅｐ　ｂｒｅー"TCC_NEWLINE"ａｔｈｓ　ｗｉｌｌ　ｈｅｌｐ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｈｅｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ　ｔｈｅｎ．．．　Ｉ　ｈａｖｅ　ｆｉｎａｌｌｙ　ａｒー"TCC_NEWLINE"ｒｉｖｅｄ　ｉｎ　ｔｈｅ　ｍｏｒｔａｌ　ｒｅａｌｍ　ｏｆ　"TCC_NEWLINE"Ｍｉｄｇａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｈｅａｒｔ　ｉｓ　ｎｅａｒｌｙ　ｂｅａｔｉｎｇ　ｏｕー"TCC_NEWLINE"ｔ　ｏｆ　ｍｙ　ｃｈｅｓｔ．．．　Ｈｏｗ　ｃａｎ　Ｉ　ｅｘー"TCC_NEWLINE"ｐｅｃｔ　ｔｏ　ａｃｃｏｍｐｌｉｓｈ　ｔｈｉｓ　ｍｉｓｓｉー"TCC_NEWLINE"ｏｎ　ａｌｏｎｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｎｅｖｅｒｔｈｅｌｅｓｓ，　Ｉ　ｍｕｓｔ　ｎｏｔ　ｇｉｖｅ"TCC_NEWLINE"　ｉｎ　ｔｏ　ｍｙ　ｄｏｕｂｔｓ．．．　Ｉ　ｍｕｓｔ　ｄｏ"TCC_NEWLINE"　ｗｈａｔｅｖｅｒ　Ｉ　ｃａｎ　ｔｏ　ｈｅｌｐ　ｔｈｅ　ｍー"TCC_NEWLINE"ｏｒｔａｌｓ　ｏｆ　ｔｈｉｓ　ｗｏｒｌｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ELM
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｍｕｍｂｌｉｎｇ　ａｂｏｕｔ　ｏー"TCC_NEWLINE"ｖｅｒ　ｔｈｅｒｅ，　ｙｏｕ　ｓｉｍｐｌｅｔｏｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｙ　ａｐｏｌｏｇｉｅｓ．．．　Ｉ　ｈｏｐｅ　Ｉ　ｗａｓｎ"TCC_NEWLINE"’ｔ　ｄｉｓｔｕｒｂｉｎｇ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ．．．　Ｗｅｌｌ，　ｎｏｔ　ｔｈａｔ　ｙｏｕ　ｈａー"TCC_NEWLINE"ｖｅ　ａｎｙ　ｒｅａｓｏｎ　ｔｏ　ｋｎｏｗ　ｍｙ　ｎａｍｅ"TCC_NEWLINE"，　ｂｕｔ　ｉｔ　ｗｏｕｌｄ　ｓｅｅｍ　ｒｕｄｅ　ｎｏｔ　"TCC_NEWLINE"ｔｏ　ｉｎｔｒｏｄｕｃ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｈｕｔ　ｙｏｕｒ　ｍｏｕｔｈ，　ｃｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｏｗ　ｗｈｏ　ｙｏｕ　ａｒｅ．　Ｙｏｕ’ｒｅ　Ａｓー"TCC_NEWLINE"ｋｒ’ｓ　ｌｉｔｔｌｅ　ｓｅｒｖａｎｔ．　Ｌａｄｙ　Ｅｍｂー"TCC_NEWLINE"ｌａ　ｔｏｌｄ　ｍｅ　ａｌｌ　ａｂｏｕｔ　ｙｏｕ．．．　Ｙー"TCC_NEWLINE"ｏｕ’ｒｅ　ｍｙ　ｅｎｅｍｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂａｔ　ｗｉｎｇｓ，　ａｎｄ．．．　Ｙ－ｙｏｕ　ｓｅｒｖｅ"TCC_NEWLINE"　Ｅｍｂｌａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ．　Ｉ’ｍ　Ｅｌｍ，　ｆａｉｔｈｆｕｌ　ｒｅｔａｉｎー"TCC_NEWLINE"ｅｒ　ｔｏ　Ｌａｄｙ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ａｌｌ　ｈｅ　ｃａｎ　ｍｕｓｔｅｒ　ｉｓ　ａ　ｄｕｌー"TCC_NEWLINE"ｌ　ｌｉｔｔｌｅ　ｃｏｗ　ｌｉｋｅ　ｙｏｕ，　Ａｓｋｒ’ｓ"TCC_NEWLINE"　ｐｏｗｅｒ　ｍｕｓｔ　ｂｅ　ｗａｎｉｎｇ　ｉｎｄｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｉｔｈｅｒ　ｔｈａｔ　ｏｒ　ｈｅ　ｍｕｓｔ　ｈａｖｅ　ａー"TCC_NEWLINE"ｌｗａｙｓ　ｂｅｅｎ　ｗｅａｋ　ｃｏｍｐａｒｅｄ　ｔｏ　Ｌー"TCC_NEWLINE"ａｄｙ　Ｅｍｂｌａ．　Ｗｅａｋ　ａｎｄ　ｄｅｓｅｒｖｉｎｇ"TCC_NEWLINE"　ｏｆ　ｄｅａｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙ－ｙｏｕ　ｍａｙ　ｓａｙ　ｗｈａｔｅｖｅｒ　ｗｉｓｈ　ａー"TCC_NEWLINE"ｂｏｕｔ　ｍｅ，　ｂｕｔ　Ｉ　ｃａｎｎｏｔ　ａｌｌｏｗｏｒ"TCC_NEWLINE"　ｒａｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ａｐｐｒｅｃｉａｔｅ　ｉｔ　ｉｆ　ｙｏｕ　"TCC_NEWLINE"ｗｏｕｌｄ　ｒｅｆｒａｉｎ　ｆｒｏｍ　ｓａｙｉｎｇ　ｓｕｃー"TCC_NEWLINE"ｈ　ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｆ　ｃｏｕｒｓｅ，　Ｉ　ｒｅａｌｉｚｅ　ｔｈａｔ　Ｉ　ａー"TCC_NEWLINE"ｍ　ｙｏｕｒ　ｆｏｅ　ａｎｄ　ｙｏｕ　ｍａｙ　ｒｅｆｕｓｅ"TCC_NEWLINE"　ｔｏ　ｌｉｓｔｅｎ　ｔｏ　ｍｅ，　ｂｕｔ　ｎｅｖｅｒｔｈー"TCC_NEWLINE"ｅｌｅｓｓ，　Ｉ　ｍｕｓｔ　ａｓｋ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｏｕ’ｒｅ　ｉｎｃｒｅｄｉｂｌｙ　ｉｒｒｉｔａｔｉー"TCC_NEWLINE"ｎｇ．　Ａｌｌ　ｔｈｅ　ｍｏｒｅ　ｒｅａｓｏｎ　ｆｏｒ　ｙー"TCC_NEWLINE"ｏｕ　ｔｏ　ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｕｒｇｈ！　．．．Ｍ－ｍｙ　ｓｔｒｅｎｇｔｈ．．．ｈａｓ　"TCC_NEWLINE"ｇｉｖｅｎ　ｏｕｔ　ｔｏｏ　ｓｏｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ELM
+"Ｈｕｒｒｙ　ｕｐ　ａｎｄ　ｄｉｅ，　ｗｅａｋｌｉｎｇ．　Ｉ"TCC_NEWLINE"　ｈａｖｅ　ｍｏｒｅ　ｗｏｒｔｈｙ　ｓａｃｒｉｆｉｃｅｓ　"TCC_NEWLINE"ｔｏ　ｍａｋｅ　ｏｎ　ｔｈｅ　ａｌｔａｒ　ｏｆ　ｍｙ　ｌａー"TCC_NEWLINE"ｄｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｕｐ　ａｈｅａｄ！　Ｓｏｍｅｏｎｅ’ｓ　ｕｎｄｅｒ　ａｔｔー"TCC_NEWLINE"ａｃｋ　ｂｙ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｏ　ｎｏｔ　ｉｎｔｅｒｆｅｒｅ，　ｍｏｒｔａｌ　ｓｃｕｍ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ELM
+"Ｔｃｈ．　Ｗｅ’ｒｅ　ｄｏｎｅ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｙｏｕ．．．ｙｏｕ　ｓａｖｅｄ　ｍｅ！　Ｉ’ｍ　ｓｔｒｕｇー"TCC_NEWLINE"ｇｌｉｎｇ　ｔｏ　ｆｉｎｄ　ｔｈｅ　ｗｏｒｄｓ　ｔｏ　ａｄー"TCC_NEWLINE"ｅｑｕａｔｅｌｙ　ｅｘｐｒｅｓｓ　ｍｙ　ｔｈａｎｋｓ．　Ｆー"TCC_NEWLINE"ｉｒｓｔ，　ｌｅｔ　ｍｅ　ｓａ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｎｏ　ｎｅｅｄ　ｔｏ　ｔｈａｎｋ　ｕｓ！　Ｂｕｔ　Ｉ　ｗｏー"TCC_NEWLINE"ｕｌｄ　ｌｉｋｅ　ｔｏ　ｋｎｏｗ　ｍｏｒｅ　ａｂｏｕｔ　ｗー"TCC_NEWLINE"ｈｏ　ｙｏｕ　ａｒｅ　ｅｘａｃｔｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ！　Ｏｆ　ｃｏｕｒｓｅ！　Ｐｌｅａｓｅ　ａｌｌｏｗ　ｍー"TCC_NEWLINE"ｅ　ｔｏ　ｉｎｔｒｏｄｕｃｅ　ｍｙｓｅｌｆａｓ　ｉｓ　ｏｎー"TCC_NEWLINE"ｌｙ　ｐｒｏｐｅｒ　ｉｎ　ｃｉｒｃｕｍｓｔａｎｃｅｓ　ｓｕー"TCC_NEWLINE"ｃｈ　ａｓ　ｔｈｅｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　Ａｓｈ，　ｒｅｔａｉｎｅｒ　ｔｏ　Ｌｏｒｄ　Ａｓー"TCC_NEWLINE"ｋｒ．　Ｉ　ｈａｖｅ　ｃｏｍｅ　ｈｅｒｅ　ａｔ　ｔｈｅ　ｂー"TCC_NEWLINE"ｅｈｅｓｔ　ｏｆ　ｍｙ　ｌｏｒｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｌｏｒｄ　Ａｓｋｒ？　Ｙｏｕ　ｍｅａｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ，　ｙｅｓ，　ｐｅｒｈａｐｓ　Ｉ　ｓｈｏｕｌｄ　ｂａｃー"TCC_NEWLINE"ｋ　ｕｐ　ａｎｄ　ｅｘｐｌａｉｎ　ｍｙｓｅｌｆ　ｍｏｒｅ　"TCC_NEWLINE"ｆｕｌｌｙ．．．　Ｕｍｍｍ．．．　Ｈｍｍｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｏｒｄ　Ａｓｋｒ，　ｔｈｅ　Ｄｉｖｉｎｅ　Ｄｒａｇｏｎ　"TCC_NEWLINE"ｗｈｏ　ｏｎｃｅ　ｇｒａｎｔｅｄ　ｈｉｓ　ｐｏｗｅｒ　ｔｏ"TCC_NEWLINE"　ｍｏｒｔａｌｓ．　Ｉ　ｂｅｌｉｅｖｅ　ｙｏｕ’ｒｅ　ｆａー"TCC_NEWLINE"ｍｉｌｉａｒ？　Ｔｈａｔ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｃｒｅａｔｅｄ　ｏｆ　Ａｓｋｒ’ｓ　ｄｏｍａｉー"TCC_NEWLINE"ｎ　ａｎｄ　Ｉ　ｈａｖｅ　ｓｅｒｖｅｄ　ｈｉｍ　ｓｉｎｃｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｉｓ　ｔｈａｔ　ｖｅｒｙ　ｓｅｒｖｉｃｅ　ｔｈａｔ　"TCC_NEWLINE"ｂｒｉｎｇｓ　ｍｅ　ｂｅｆｏｒｅ　ｙｏｕ　ｎｏｗａｎｄ　Ｉ"TCC_NEWLINE"　ｍｕｓｔ　ｓａｙ　Ｉ　ａｍ　ｐｌｅａｓｅｄ　ｔｏ　ｍａｋー"TCC_NEWLINE"ｅ　ｙｏｕｒ　ａｃｑｕａｉｎｔａｎｃｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｆｏｒｇｉｖｅ　ｍｅ．　Ｗａｓ　ｔｈａｔ　ｔｏｏ　ｍー"TCC_NEWLINE"ｕｃｈ？　Ｗｏｕｌｄ　ｙｏｕ　ｌｉｋｅ　ｍｅ　ｔｏ　ｒｅｐー"TCC_NEWLINE"ｅａｔ　ｍｙｓｅｌｆ　ｍｏｒｅ　ｓｌｏｗｌｙ？　Ｗｉｌｌ　"TCC_NEWLINE"ｔｈａｔ　ｈｅｌｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｎｏ，　ｎｏ．　Ｔｈｉｓ　ｉｓ　ａｌｌ　ｓｏ　ｓｕｄｄｅｎ"TCC_NEWLINE"，　ｍｙ　ｍｉｎｄ　ｉｓ　ｒａｃｉｎｇ　ｔｏ　ｃａｔｃｈ　"TCC_NEWLINE"ｕｐ．　Ｙｏｕ　ａｒｅ　ｒｅｔａｉｎｅｒ　ｔｏ　Ａｓｋｒ．"TCC_NEWLINE"．．ｔｈｅ　Ｄｉｖｉｎｅ　Ｄｒａｇｏｎ．　Ｔｈｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ａｒｅ　ｙｏｕ　ｈｅｒｅ？　Ｗｈａｔ　ｄｉｄ　Ｌｏー"TCC_NEWLINE"ｒｄ　Ａｓｋｒ　ｓｅｎｄ　ｙｏｕ　ｔｏ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｍｕｓｔ　ｓｔｏｐ　Ｅｍｂｌａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｂｕｔ　Ｅｍｂｌａ　ｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｍｂｌａ　ｉｓ　ｔｅｒｒｉｂｌｅ　ｉｎ　ａ　ｗａｙ　ｔｈー"TCC_NEWLINE"ａｔ　ｄｅｆｉｅｓ　ａｌｌ　ｒｅａｓｏｎ，　ａｎｄ　ｓｈｅ"TCC_NEWLINE"　ｈａｓ　ｄｅｃｉｄｅｄ　ｔｈａｔ　ａｎｙ　ｗｈｏ　ｃａｒー"TCC_NEWLINE"ｒｙ　Ａｓｋｒ’ｓ　ｂｌｏｏｄ　ｍｕｓｔ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ　Ｉ　ｈａｖｅ　ｏｎｌｙ　ｓｏ　ｍｕｃｈ　ｔｏ"TCC_NEWLINE"　ｏｆｆｅｒ，　ｉｔ　ｗｏｕｌｄ　ｂｅ　ｍｙ　ｈｏｎｏｒ　"TCC_NEWLINE"ｔｏ　ｄｏ　ｗｈａｔ　Ｉ　ｃａｎ　ｔｏ　ｐｒｅｖｅｎｔ　ｓー"TCC_NEWLINE"ｕｃｈ　ａｎ　ｏｃｃｕｒｒｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

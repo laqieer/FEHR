@@ -1,0 +1,187 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FREYJA
+"プルメリアを消して。。。それから？" TCC_NEWLINE
+"どこへどうやって逃れるつもりかしら？" TCC_NEWLINE TCC_PUSH_A
+"滑稽ね。" TCC_NEWLINE
+"終わりなき悪夢に" TCC_NEWLINE
+"苦しみ続ける人間たちの姿は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。くっ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"大丈夫よ、すぐに殺しはしないわ。" TCC_NEWLINE
+"そうでなければ、お兄様を失った。。。" TCC_NEWLINE
+"この痛みは。。。この悲しみは。。。" TCC_NEWLINE TCC_PUSH_A
+"ああ。。。ああ。。。ああああ！" TCC_NEWLINE
+"お兄様。。。どうして。。。あああああ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
+"？　どうかしたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ピアニー、君に確認したい。" TCC_NEWLINE
+"フロージ王がいない今。。。" TCC_NEWLINE
+"もう、夢現は起こらない。" TCC_NEWLINE TCC_PUSH_A
+"悪夢が現実を歪めることはない。" TCC_NEWLINE
+"そうだったね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ええ、そうよ。" TCC_NEWLINE
+"なのに悪夢さんが出てきて、" TCC_NEWLINE
+"私もこんらんしてるの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それなら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"もしかしたら。。。" TCC_NEWLINE
+"いや、そうとしか考えられない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_PEONY
+"？" TCC_NEWLINE
+"何かわかったの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ああ。" TCC_NEWLINE TCC_PUSH_A
+"悪夢はもう現実には現れない。。。" TCC_NEWLINE
+"なのに悪夢はここに現れた。。。" TCC_NEWLINE
+"それなら、答えは一つしかない。" TCC_NEWLINE TCC_PUSH_A
+""
+"これはーー夢だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え、えええ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はじめから、" TCC_NEWLINE
+"何もかも夢だったんだ。。。" TCC_NEWLINE TCC_PUSH_A
+"すべてがはじまったあの日、" TCC_NEWLINE
+"僕は母上から" TCC_NEWLINE
+"眠り病の村の話を聞いた。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、あの時から" TCC_NEWLINE
+"すでに夢の世界にいたんだ。" TCC_NEWLINE TCC_PUSH_A
+"だから、" TCC_NEWLINE
+"同じ世界に戻ってきた今の僕は、" TCC_NEWLINE
+"まだ、同じ夢の中にいる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_VERONICA
+"これが。。。" TCC_NEWLINE
+"ぜんぶ夢だっていうの。。。？" TCC_NEWLINE TCC_PUSH_A
+"じゃあ、どうすれば" TCC_NEWLINE
+"目が覚めるの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"これが夢なら、" TCC_NEWLINE
+"たぶん、これが役に立つはずだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！" TCC_NEWLINE
+"フロージ様からいただいた" TCC_NEWLINE
+"【グリンカムビの角笛】ね！" TCC_NEWLINE TCC_PUSH_A
+"じゃあ、" TCC_NEWLINE
+"この世界の夢の門を探して、" TCC_NEWLINE
+"角笛をぷぷーって吹けば！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ああ。" TCC_NEWLINE
+"夢から目覚め。。。" TCC_NEWLINE
+"今度こそ、現実に戻れるはずだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4115] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"アンナ隊長、" TCC_NEWLINE
+"シャロンの様子は。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"今は眠ってるわ。" TCC_NEWLINE
+"一晩中泣いてたけど。。。" TCC_NEWLINE
+"ようやく落ち着いたみたいね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"すみません。。。" TCC_NEWLINE
+"ご迷惑をおかけして。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"気にしないで、" TCC_NEWLINE
+"私も付き添ってる間、" TCC_NEWLINE
+"うとうとしちゃってたし。。。" TCC_NEWLINE TCC_PUSH_A
+"ふわーあ。。。" TCC_NEWLINE
+"あ、そういえばこないだ、" TCC_NEWLINE
+"へんな夢を見たのよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"へんな夢。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"夢の中でね、" TCC_NEWLINE
+"私はなんと" TCC_NEWLINE
+"リスになってるの。" TCC_NEWLINE TCC_PUSH_A
+"人間じゃないから" TCC_NEWLINE
+"しがらみもないし、" TCC_NEWLINE
+"任務もないし。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"きっと、" TCC_NEWLINE
+"自由に森で過ごせますね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"甘いわね、" TCC_NEWLINE
+"金色の木の実を一生懸命" TCC_NEWLINE
+"貯め込むノルマの日々だったわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。なんというか、" TCC_NEWLINE
+"隊長らしい夢ですね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"夢って不思議よね。" TCC_NEWLINE
+"私がリスなわけないでしょ？" TCC_NEWLINE
+"でも、夢の中では変だと思わないの。" TCC_NEWLINE TCC_PUSH_A
+"私はリスだって、" TCC_NEWLINE
+"当たり前みたいに受け入れて、" TCC_NEWLINE
+"リスの一生を過ごしてる。。。" TCC_NEWLINE TCC_PUSH_A
+"夢から覚めて、はじめて。。。" TCC_NEWLINE
+"自分が本当はリスじゃないって" TCC_NEWLINE
+"気づくのよね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。" TCC_NEWLINE
+"。。。自分が。。。本当は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_PEONY
+"きゃっ、楽しそうなお話。" TCC_NEWLINE
+"それって夢の素敵なところね。" TCC_NEWLINE TCC_PUSH_A
+"夢の中では" TCC_NEWLINE
+"なんでもできる、" TCC_NEWLINE
+"なんにでもなれる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。なんにでも。。。なれる。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"？" TCC_NEWLINE
+"どうかしたの" TCC_NEWLINE
+"アルフォンスさん。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何か。。。" TCC_NEWLINE
+"大切なことを。。。" TCC_NEWLINE
+"思い出せそうなんだ。。。" TCC_NEWLINE TCC_PUSH_A
+"あの時は、わからなかった。。。" TCC_NEWLINE
+"なぜ、昔の記憶を" TCC_NEWLINE
+"思い出せないのか。。。？" TCC_NEWLINE TCC_PUSH_A
+"なぜ、" TCC_TACTICIAN_NAME "との" TCC_NEWLINE
+"思い出だけは、" TCC_NEWLINE
+"はっきり憶えているのか。。。？" TCC_NEWLINE TCC_PUSH_A
+"夢の中では、" TCC_NEWLINE
+"なんでもできる、" TCC_NEWLINE
+"なんにでもなれる。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。。。。僕。。。は。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

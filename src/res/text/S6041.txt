@@ -1,0 +1,192 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S6041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"ぁっ。。。はぁっ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"あらあら、小さなヴェロニカ。" TCC_NEWLINE
+"どこへ逃げたのかしら？" TCC_NEWLINE TCC_PUSH_A
+"かくれんぼかしら。" TCC_NEWLINE
+"懐かしい。。。" TCC_NEWLINE
+"昔を思い出すわね？" TCC_NEWLINE TCC_PUSH_A
+"でもね、その先は断崖。" TCC_NEWLINE
+"もう逃げ場はないのよ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。おねえ。。。さま。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どこへ逃げたって無駄なのよ。" TCC_NEWLINE
+"エンブラ帝国で" TCC_NEWLINE
+"あなたに味方する者はもういない。。。" TCC_NEWLINE TCC_PUSH_A
+"でもねヴェロニカ、" TCC_NEWLINE
+"だからってここで野垂れ死になんて" TCC_NEWLINE
+"死に方は許さないわ。" TCC_NEWLINE TCC_PUSH_A
+"あなたは、" TCC_NEWLINE
+"みんなの前で処刑されるの。。。" TCC_NEWLINE
+"罵られ、唾を吐かれ、石を投げられてね。" TCC_NEWLINE TCC_PUSH_A
+"華々しい宮廷から、" TCC_NEWLINE
+"汚泥にまみれた貧民街に落ちた" TCC_NEWLINE
+"私が受けた屈辱を。。。" TCC_NEWLINE TCC_PUSH_A
+"よおく味わってから死ぬのよ！" TCC_NEWLINE
+"ヴェロニカぁっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"っ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ヴェロニカ、どこに。。。" TCC_NEWLINE
+"！" TCC_NEWLINE TCC_PUSH_A
+"まさか。。。" TCC_NEWLINE
+"この高さから身を投げたの。。。？" TCC_NEWLINE
+"助かるはずないのに。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。困った子ね、ヴェロニカ。" TCC_NEWLINE
+"言ったでしょう。" TCC_NEWLINE
+"そんな死に方は許さないって。" TCC_NEWLINE TCC_PUSH_A
+"たとえ死んでいようと、" TCC_NEWLINE
+"民衆の前に引きずり出して" TCC_NEWLINE
+"処刑してあげるわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お、お兄様。。。" TCC_NEWLINE
+"あの丘のあたりって。。。" TCC_NEWLINE
+"エンブラ帝国の村がありましたよね。。。？" TCC_NEWLINE TCC_PUSH_A
+"なのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"暗闇に閉ざされている。。。" TCC_NEWLINE
+"あの若草の村と同じように。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"あの蝙蝠の翼の。。。" TCC_NEWLINE
+"エルムを倒したのに、" TCC_NEWLINE
+"状況は変わってないってこと？" TCC_NEWLINE TCC_PUSH_A
+"一体、誰が。。。？" TCC_NEWLINE
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"ごきげんよう。" TCC_NEWLINE
+"アスク王国の皆さま。" TCC_NEWLINE
+"まだこのエンブラにいらしたのですね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"レティシア将軍！？" TCC_NEWLINE
+"。。。誤解のないように言っておくわ。" TCC_NEWLINE
+"私たちはすぐにアスクに帰還する。ただ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ご安心ください。" TCC_NEWLINE
+"私が安全にお送りいたしましょう。" TCC_NEWLINE
+"ところで。。。" TCC_NEWLINE TCC_PUSH_A
+"近くでヴェロニカを見かけませんでしたか？" TCC_NEWLINE
+"あの子の行方がわからず。。。" TCC_NEWLINE
+"姉としてとても心配なのです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ヴェロニカ皇女が。。。？" TCC_NEWLINE
+"いえ、私たちにも" TCC_NEWLINE
+"行方はわからないけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。。。。。" TCC_NEWLINE
+"本当に？" TCC_NEWLINE TCC_PUSH_A
+"もしも嘘なら。。。" TCC_NEWLINE
+"後で大変な不幸に" TCC_NEWLINE
+"見舞われることになりますが。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？" TCC_NEWLINE
+"ど、どういう意味ですか。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。" TCC_NEWLINE
+"レティシア将軍、" TCC_NEWLINE
+"僕からも聞きたいことがある。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"君が教えてくれた道は、橋が落ちていた。" TCC_NEWLINE
+"まるで僕たちの帰還を阻むように。" TCC_NEWLINE TCC_PUSH_A
+"きっと、ただの偶然なのだろう。" TCC_NEWLINE
+"君は善意で教えてくれたのだろう。" TCC_NEWLINE
+"それなら。。。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女を捜す理由を教えて欲しい。" TCC_NEWLINE
+"そうでなければ。。。" TCC_NEWLINE
+"行方を知っていても答える気はない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"。。。そうですか。" TCC_NEWLINE TCC_PUSH_A
+"。。。やはり匿っているのですね、" TCC_NEWLINE
+"ヴェロニカを。" TCC_NEWLINE TCC_PUSH_A
+"直ちに引き渡していただきましょう。" TCC_NEWLINE
+"あの子は断罪されねばなりません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"拒むというのなら。。。" TCC_NEWLINE
+"とても痛ましい事故が" TCC_NEWLINE
+"起こることになるでしょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！　まさか。。。アスク王族相手に" TCC_NEWLINE
+"ここで戦いを仕掛ける気なの！？" TCC_NEWLINE
+"戦争になるわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"戦争など起こりません。" TCC_NEWLINE
+"あなた方はこのエンブラに不法に侵入し、" TCC_NEWLINE
+"行方不明になるだけです。" TCC_NEWLINE TCC_PUSH_A
+"私たち特務部隊は" TCC_NEWLINE
+"白を黒に塗り変える。。。" TCC_NEWLINE
+"工作の術に長けていますから。" TCC_NEWLINE TCC_PUSH_A
+"ですから安心して、" TCC_NEWLINE
+"死んでいただいて結構\です。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"。。。伝令。" TCC_NEWLINE
+"待機させていた本隊を" TCC_NEWLINE
+"こちらへ合流させなさい。" TCC_NEWLINE TCC_PUSH_A
+"敵がヴェロニカを引き渡すまで" TCC_NEWLINE
+"追跡を続けます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"いったいどういうことなの？" TCC_NEWLINE
+"レティシアはこの間とは別人。。。というか、" TCC_NEWLINE
+"さっきのおっかない方が本性ってこと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。" TCC_NEWLINE
+"ヴェロニカ皇女を引き渡せ。。。" TCC_NEWLINE
+"彼女はそう言っていました。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"そうでした、へんですよね？" TCC_NEWLINE
+"引き渡すも何も" TCC_NEWLINE
+"わたしたちのとこにいないのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。" TCC_NEWLINE
+"例えば。。。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカ皇女は" TCC_NEWLINE
+"レティシア将軍の追跡から逃れ。。。" TCC_NEWLINE
+"どこかに身を隠している。。。" TCC_NEWLINE TCC_PUSH_A
+"レティシア将軍は僕たちを疑っていた。。。" TCC_NEWLINE
+"つまり、ヴェロニカ皇女はこの付近に。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あり得るわね。" TCC_NEWLINE
+"それなら。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"他所の国の特務機関に負けてられないわ。" TCC_NEWLINE
+"偵察部隊と共に付近一帯を捜索！" TCC_NEWLINE
+"敵より先に見つけ出すわよ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

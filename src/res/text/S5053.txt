@@ -1,0 +1,92 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5053] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_NOTT
+"ああ。。。オッテル様。。。！" TCC_NEWLINE
+"お待たせして申\し訳ありません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_OTR
+"戻ったか、ノート。" TCC_NEWLINE
+"例のものは手に入ったか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい。こちらが魔剣【グラム】。" TCC_NEWLINE
+"そしてこちらがアスク王国の" TCC_NEWLINE
+"召喚師めですわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"よし。。。手荒に扱うなよ。" TCC_NEWLINE
+"こいつがいないと" TCC_NEWLINE
+"僕の計画は完成しないんだからな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あの。。。、その計画というのは。。。？" TCC_NEWLINE
+"どうしても私には" TCC_NEWLINE
+"教えていただけませんの。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ノート。お前には感謝している。" TCC_NEWLINE
+"僕は国に帰ったら、兄さんにお前を" TCC_NEWLINE
+"妻にしたいとお願いするつもりだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"つっ。。。つ、つ、妻！？" TCC_NEWLINE
+"ほ、本当ですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ。ニザヴェリルとヨトゥン、" TCC_NEWLINE
+"両国にとっても悪い話ではないはずだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"はい、はいっ！！" TCC_NEWLINE
+"ああ。。。夢のようです。" TCC_NEWLINE TCC_PUSH_A
+"愛するオッテル様のお傍にいられるなら" TCC_NEWLINE
+"ヨトゥン女王の座など" TCC_NEWLINE
+"惜しくはありません。" TCC_NEWLINE TCC_PUSH_A
+"リボンをかけてダグちゃんに" TCC_NEWLINE
+"くれてやりますわ。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"それはよかった。" TCC_NEWLINE
+"さあ来い、召喚師。" TCC_NEWLINE
+"ノート、魔剣をこちらに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"は、はいっ！　あの、どちらへ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"僕は一旦国に戻る。お前はここに残れ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"え。。。？　しかし、じきにアスクの一行が" TCC_NEWLINE
+"追ってくるかと思われますが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あんな連中、お前ひとりで" TCC_NEWLINE
+"どうにでもなるだろう。" TCC_NEWLINE TCC_PUSH_A
+"兄さんの許しを得たら" TCC_NEWLINE
+"改めて正式に迎えに来よう。" TCC_NEWLINE TCC_PUSH_A
+""
+"その時まで待ってくれるな？" TCC_NEWLINE
+"我が美しき妻よ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"は。。。はい。。。！　お任せください！" TCC_NEWLINE
+"必ずや奴らを殲滅してご覧にいれます。" TCC_NEWLINE
+"私たちの未来のために。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。ふん。行ったか。" TCC_NEWLINE
+"さあとっとと歩け、召喚師。" TCC_NEWLINE TCC_PUSH_A
+"まったく、あんなバカ女が" TCC_NEWLINE
+"ヨトゥンの次期女王候補とはな。" TCC_NEWLINE TCC_PUSH_A
+""
+"この国も兄さんに" TCC_NEWLINE
+"支配された方が幸せだろう。" TCC_NEWLINE
+"せいぜい姉妹同士で殺し合うがいいさ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5053] = TCC_OPEN_LEFT 
+"この世界でも戦わなきゃいけないの？" TCC_NEWLINE
+"うわあ、面倒だなあ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

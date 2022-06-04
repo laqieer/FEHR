@@ -1,0 +1,79 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｂｒｏｔｈｅ　Ｅｘｃｕｓｅ　ｍｅ，　Ｋｉｎｇ　Ｆｆｎｉｒ．"TCC_NEWLINE"　Ｙｏｕｒ　Ｍａｊｅｓｔｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｏｕｔ　ｗｉｔｈ　ｉｔ，　ｔｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｅ　ｔｒｏｏｐｓ　ｗｅ　ｓｅｎｔ　ｔｏ　Ａｓｋｒ　ｗｅー"TCC_NEWLINE"ｒｅ　ｄｅｆｅａｔｅｄ　ａｔ　ｔｈｅ　ｂｏｒｄｅｒ，　ｓｉー"TCC_NEWLINE"ｒｅ．．．ａｎｄ　ｏｕｒ　ｓｉｓｔｅｒ　Ｒｅｇｉｎｎ　ｇｏー"TCC_NEWLINE"ｔ　ｈｅｒｓｅｌｆ　ｃａｐｔｕｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ　ｔｈｅ　Ａｓｋｒａｎ　ａｒｍｙ　ｉｓ　ａｄー"TCC_NEWLINE"ｖａｎｃｉｎｇ　ｏｎ　Ｎｉａｖｅｌｌｉｒ，　ｗｉｔｈ　Ｒｅー"TCC_NEWLINE"ｇｉｎｎ　ｉｎ　ｔｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍ．　Ｔｏｏ　ｍｕｃｈ　ｆｏｒ　ｈｅｒ　ｔｏ　ｈａｎｄｌー"TCC_NEWLINE"ｅ　ａｆｔｅｒ　ａｌｌ，　ｗａｓ　ｉｔ？　Ｆｉｎｅ．　Ｌｅー"TCC_NEWLINE"ａｖｅ　ｈｅｒ．　Ｉｔ’ｓ　ｂｅｔｔｅｒ　ｔｈｉｓ　ｗａｙ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ，　ｓｉｒｅ，　ｉｆ　ｗｅ　ｄｏ　ｎｏｔｈｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｓｔｏｐ　ｔｈｅｍ，　Ｒｅｇｉｎｎ　ｗｉｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｅｘｐｌａｉｎ　ｔｏ　ｍｅ　ｗｈｙ　Ｉ　ｓｈｏｕｌｄ　ｃａー"TCC_NEWLINE"ｒｅ　ｆｏｒ　ｓｏｍｅｏｎｅ　ｓｏ　ｃｌｅａｒｌｙ　ｗｏｒー"TCC_NEWLINE"ｔｈｌｅｓｓ．　Ｓｉｓｔｅｒｓ　ｂｅ　ｄａｍｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅ　Ａｓｋｒａｎｓ　ｄｉｓｐｏｓｅ　ｏｆ　ｈｅｒ"TCC_NEWLINE"，　ｔｈａｔ’ｓ　ｏｎｅ　ｌｅｓｓ　ｐｉｅｃｅ　ｏｆ　ｔｒー"TCC_NEWLINE"ａｓｈ　Ｉ　ｎｅｅｄ　ｔｏ　ｄｅａｌ　ｗｉｔｈ　ｍｙｓｅｌー"TCC_NEWLINE"ｆ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｅｒｈａｐｓ　Ｉ　ｓｈｏｕｌｄ　ｔｈａｎｋ　ｔｈｅｍ　ｆー"TCC_NEWLINE"ｏｒ　ｓａｖｉｎｇ　ｍｅ　ｔｈｅ　ｔｉｍｅ　ａｎｄ　ｅｆｆー"TCC_NEWLINE"ｏｒｔ，　ｈｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｓ　ｙｏｕ　ｗｉｓｈ．．．Ｙｏｕｒ　Ｍａｊｅｓｔｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔｅｖｅｒ　ｅｌｓｅ　ｃｏｍｅｓ　ｏｆ　ｉｔ　ｉｓ　"TCC_NEWLINE"ｙｏｕｒ　ｒｅｓｐｏｎｓｉｂｉｌｉｔｙ．　Ｉｔ　ｗａｓ　ｙー"TCC_NEWLINE"ｏｕｒ　ｉｄｅａ　ｔｏ　ｉｎｖａｄｅ　Ａｓｋｒ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｆｉｒｓ"TCC_NEWLINE TCC_PUSH_A
+"Ｈｎｇ！　Ｇｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｒｏｔｈｅｒ！　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ？　Ｉー"TCC_NEWLINE"ｓ　ｙｏｕｒ　ｈｅａｄ　ｓｔｉｌｌ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ　ｎｏｔｈｉｎｇ！　Ａｓ　Ｉ　ｗａｓ　ｓａｙｉｎｇ"TCC_NEWLINE"．．．ｔｈｅ　ｍｅｓｓ　ｉｓ　ｙｏｕｒｓ　ｔｏ　ｃｌｅａｎ"TCC_NEWLINE"　ｕｐ．　Ｉ　ｈａｖｅｎ’ｔ　ｔｈｅ　ｔｉｍｅ　ｆｏｒ　ｓー"TCC_NEWLINE"ｕｃｈ　ｔｒｉｆｌｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｒｅ　ｔｏ　ｎｅｘｔ．．．　Ｗｈｅｒｅ　ｔｏ　ｎｅｘー"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｔｒｉｆｌｅ？　Ｔｈｅ　ｃａｐｔｕｒｅ　ｏｆ　ｏｕｒ"TCC_NEWLINE"　ｓｉｓｔｅｒ　ｉｓ　ｓｏ　ｕｎｗｏｒｔｈｙ　ｏｆ　ｙｏｕー"TCC_NEWLINE"ｒ　ｔｉｍｅ？　Ｗｈａｔ　ｈａｓ　ｈａｐｐｅｎｅｄ　ｔｏ　"TCC_NEWLINE"ｙｏｕ，　Ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｏ，　ｙｏｕ　ｈａｖｅ　ｂｒｏｔｈｅｒｓ，　Ｐｒｉｎｃｅー"TCC_NEWLINE"ｓｓ　Ｒｅｇｉｎｎ？　Ｔｗｏ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｈａｔ’ｓ　ｒｉｇｈｔ！　Ｔｈｅ　ｏｌｄｅｓｔ　ｉｓ　Ｆー"TCC_NEWLINE"ｆｎｉｒ，　ｗｈｏ　ｉｓ　ｋｉｎｇ　ｏｆ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｏｕｒ　ｍｉｄｄｌｅ　ｓｉｂｌｉｎｇ　ｉｓ　ｎａー"TCC_NEWLINE"ｍｅｄ　ｔｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｕｇｈ，　ｏｎｌｙ　ｔｒ　ａｎｄ　Ｉ　ａｒｅ　ｒｅｌー"TCC_NEWLINE"ａｔｅｄ　ｂｙ　ｂｌｏｏｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｏｗ　ｄｏ　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｔｒ　ａｎｄ　Ｉ　ａｒｅ　ｏｒｐｈａｎｓ！　Ｉ　ｄー"TCC_NEWLINE"ｏｎ’ｔ　ｒｅｍｅｍｂｅｒ　ｅｖｅｒｙｔｈｉｎｇ　ｂｅｃａー"TCC_NEWLINE"ｕｓｅ　Ｉ　ｗａｓ　ｊｕｓｔ　ａ　ｂａｂｙ，　ｂｕｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｔｈｅ　ｏｌｄ　ｋｉｎｇ　ｗａｓ　ｋｉｌｌｅｄ，"TCC_NEWLINE"　ａ　ｌｏｎｇ　ｔｉｍｅ　ａｇｏ，　ｔｈｅ　ｋｉｎｇｄｏｍ"TCC_NEWLINE"　ｆｅｌｌ　ｉｎｔｏ　ｃｈａｏｓ．　Ｔｈａｔ　ｗａｓ　ｗｈー"TCC_NEWLINE"ｅｎ　ｏｕｒ　ｐａｒｅｎｔｓ　ｄｉｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｒ　ｋｅｐｔ　ｍｅ　ｃｌｏｓｅ，　ａｎｄ　ｗｅ　"TCC_NEWLINE"ｗａｎｄｅｒｅｄ　ｈｅｒｅ　ａｎｄ　ｔｈｅｒｅ，　ｊｕｓｔ"TCC_NEWLINE"　ｔｒｙｉｎｇ　ｔｏ　ｓｕｒｖｉｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｅｒｅ　ｓｔａｙｉｎｇ　ｉｎ　ａ　ｖｉｌｌａｇｅ　"TCC_NEWLINE"ｗｈｅｎ　ｖｉｏｌｅｎｃｅ　ｂｒｏｋｅ　ｏｕｔ．　Ｆｆｎｉー"TCC_NEWLINE"ｒ　ｓａｖｅｄ　ｕｓ，　ａｎｄ　ｈｅ　ｌｅｔ　ｕｓ　ｓｔａー"TCC_NEWLINE"ｙ　ｗｉｔｈ　ｈｉｍ　ａｆｔｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｓｅｅ　ｎｏｗ　ｗｈｙ　ｙｏｕ　ｍｅｎｔｉｏｎｅｄ　ｙー"TCC_NEWLINE"ｏｕ’ｒｅ　ｎｏｔ　ｂｌｏｏｄ　ｒｅｌａｔｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏｎｅ　ｏｆ　ｔｈａｔ　ｍａｔｔｅｒｓ，　ｔｈｏｕｇｈ，"TCC_NEWLINE"　ｒｅａｌｌｙ．　Ｗｈａｔ　ｍａｔｔｅｒｓ　ｉｓ　ｔｈｅ　"TCC_NEWLINE"ｔｉｍｅ　ｗｅ　ｓｐｅｎｔ　ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ’ｒｅ　ｂｏｔｈ　ｓｔｒｏｎｇ　ａｎｄ　ｂｒｉｌｌー"TCC_NEWLINE"ｉａｎｔ．　Ｉ’ｍ　ｐｒｏｕｄ　ｔｏ　ｈａｖｅ　ｔｈｅｍ　"TCC_NEWLINE"ａｓ　ｂｒｏｔｈｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏｕｎｄｓ　ｌｉｋｅ　ｙｏｕ　ｈａｖｅ　ｅｖｅｒｙ　ｒｉー"TCC_NEWLINE"ｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｋｉｎｇ　Ｆｆｎｉｒ　ｔｏｏｋ　ｉｎ　ｏｒｐｈａｎｓ　ａｎー"TCC_NEWLINE"ｄ　ｒａｉｓｅｄ　ｔｈｅｍ　ａｓ　ｆａｍｉｌｙ．．．　Ｔｈー"TCC_NEWLINE"ａｔ　ｉｓ　ｎｏ　ｓｍａｌｌ　ａｃｔ　ｏｆ　ｋｉｎｄｎｅｓー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｉｖｅｎ　ｈｉｓ　ｒｅｃｅｎｔ　ｉｎｈｕｍａｎｅ　ａｇｇー"TCC_NEWLINE"ｒｅｓｓｉｏｎ，　Ｉ　ａｌｍｏｓｔ　ｃａｎ’ｔ　ｂｅｌｉｅー"TCC_NEWLINE"ｖｅ　ｉｔ　ｒｅａｌｌｙ　ｈａｐｐｅｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｃｏｍｍａｎｄｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ａｈ．　Ｍｙ　ａｐｏｌｏｇｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ，　ｎｏ．　Ｉｔ’ｓ　ｔｒｕｅ，　ｗｈａｔ　ｙｏｕ　ｓー"TCC_NEWLINE"ａｉｄ．　Ａｎｄ　ｈｉｓ　ｉｒｅ　ｉｓ　ｎｏｔ　ｌｉｍｉｔー"TCC_NEWLINE"ｅｄ　ｔｏ　ｔｈｏｓｅ　ｏｕｔｓｉｄｅ　ｏｕｒ　ｂｏｒｄｅー"TCC_NEWLINE"ｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｎｃｅ　Ｎｉａｖｅｌｌｉｒ　ｉｓ　ａｌｗａｙｓ　ａｔ　"TCC_NEWLINE"ｗａｒ，　ｆａｍｉｌｉｅｓ　ａｒｅ　ｓｅｐａｒａｔｅｄ　ｔー"TCC_NEWLINE"ｏ　ａｄｄ　ｂｏｄｉｅｓ　ｔｏ　ｔｈｅ　ｗａｒ　ｅｆｆｏｒー"TCC_NEWLINE"ｔ，　ａｎｄ　ｆｏｏｄ　ｉｓ　ｓｃａｒｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｏｎｅ　ｈａｓ　ｂｅｅｎ　ｓｕｆｆｅｒｉｎｇ　ｆー"TCC_NEWLINE"ｏｒ　ａ　ｌｏｎｇ，　ｌｏｎｇ　ｔｉｍｅ．　Ｓｏ　ｔｈａｔ"TCC_NEWLINE"’ｓ　ｗｈｙ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅ　ｅｎｅｍｙ！　Ｔｈｅｙ’ｒｅ　ｕｐｏｎ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5021_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｈｏｓｅ　ｗｅｒｅ　ｔｒ’ｓ　ｔｒｏｏｐｓ！　Ｃｏｕｌｄ"TCC_NEWLINE"　ｈｅ　ｈａｖｅ　ｆｏｕｎｄ　ｍｅ　ａｌｒｅａｄｙ？　Ｉ　"TCC_NEWLINE"ｔｈｏｕｇｈｔ　ｔｈｉｓ　ｒｏｕｔｅ　ｗｏｕｌｄ　ｈｉｄｅ"TCC_NEWLINE"　ｕｓ　ｂｅｔｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅ　ｓｅｉｊｒｎ　ａｒｔｓ　ｏｆ　Ｎｉａｖｅｌｌｉｒ　"TCC_NEWLINE"ａｒｅ　ｍｏｒｅ　ｐｏｗｅｒｆｕｌ　ｔｈａｎ　ｅｘｐｅｃｔー"TCC_NEWLINE"ｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ　ｗｅｒｅ　ａｌｗａｙｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ｆｏー"TCC_NEWLINE"ｕｎｄ　ｏｕｔ　ｓｏｏｎｅｒ　ｏｒ　ｌａｔｅｒ，　ｂｕｔ　"TCC_NEWLINE"ｗｅ’ｌｌ　ｎｅｅｄ　ｔｏ　ａｖｏｉｄ　ｓｅｎｓｅｌｅｓｓ"TCC_NEWLINE"　ｃｏｍｂａｔ　ｔｏ　ｓｕｃｃｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ，　ｈｏｗ　ｌｏｎｇ　ｕｎｔー"TCC_NEWLINE"ｉｌ　ｗｅ　ｒｅａｃｈ　ｏｕｒ　ｄｅｓｔｉｎａｔｉｏｎ，　"TCC_NEWLINE"ｔｈｅ　ｇｏａｌ　ｙｏｕ　ｓｐｏｋｅ　ｏｆ　ｂｅｆｏｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍ．．．　Ｌｅｓｓ　ｔｈａｎ　ｔｈｒｅｅ　ｄａｙｓ．　Ｗー"TCC_NEWLINE"ｅ　ｈａｖｅ　ｔｏ　ｇｅｔ　ｔｏ　ｔｈｅ　ｆｏｒｅｓｔ　ｓー"TCC_NEWLINE"ａｎｃｔｕｍ，　ｗｈｅｒｅ　ｔｈｅ　ｆｏｒｅｓｔ　ｓａｇｅ"TCC_NEWLINE"　Ｅｉｔｒｉ　ｌｉｖｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｉｔｒｉ　ｗｉｌｌ　ｄｅｆｉｎｉｔｅｌｙ　ｋｎｏｗ　ｈｏー"TCC_NEWLINE"ｗ　ｗｅ　ｃａｎ　ｓｔｏｐ　Ｆｆｎｉｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｔｒ　ｋｎｏｗｓ　ｗｅ’ｒｅ　ｈｅｒｅ，　ｗー"TCC_NEWLINE"ｅ’ｌｌ　ｈａｖｅ　ｔｏ　ｍａｋｅ　ｅｖｅｒｙ　ｓｅｃｏｎー"TCC_NEWLINE"ｄ　ｃｏｕｎｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｉｇｈｔ．　Ｃｏｎｔｉｎｕｉｎｇ　ｔｏ　ｃｏｎｆｒｏｎｔ"TCC_NEWLINE"　Ｎｉａｖｅｌｌｉｒ’ｓ　ａｒｍｙ　ｗｉｌｌ　ｎｏｔ　ｅｎー"TCC_NEWLINE"ｄ　ｗｅｌｌ　ｆｏｒ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｍｏｖｅ，　ｑｕｉｃｋ　ａｎｄ　ｑｕｉｅｔ　ａー"TCC_NEWLINE"ｓ　ｗｅ　ｃａｎ．　Ｗｅ’ｌｌ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　"TCC_NEWLINE"ｄｏ　ｏｕｒ　ｂｅｓｔ　ｔｏ　ｃｏｎｓｅｒｖｅ　ｓｔｒｅｎー"TCC_NEWLINE"ｇｔｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

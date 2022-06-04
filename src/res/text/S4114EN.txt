@@ -1,0 +1,42 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4114_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｉ　ｈａｖｅ　ｏｒｄｅｒｓ　ｆｒｏｍ　Ｌａｄｙ　Ｆｒｅｙｊー"TCC_NEWLINE"ａ．　Ｉ　ｃａｎｎｏｔ　ａｌｌｏｗ　ｙｏｕ　ｔｏ　ｇｏ　ａー"TCC_NEWLINE"ｎｙ　ｆｕｒｔｈｅｒｎｏ　ｍａｔｔｅｒ　ｔｈｅ　ｃｏｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｗａｉｔ！　Ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ｔｏ　ｄｏ　ｔｈｉー"TCC_NEWLINE"ｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｄｙ　Ｆｒｅｙｊａ　ｊｕｓｔ　ｔｏｌｄ　ｕｓ　ａｂｏｕー"TCC_NEWLINE"ｔ　ａｌｌ　ｆｉｖｅ　ｏｆ　ｕｓ　ｂｅｉｎｇ　ｔｏｇｅｔｈー"TCC_NEWLINE"ｅｒ，　ｂｅｉｎｇ　ｆｒｉｅｎｄｓ，　ｂａｃｋ　ｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｂｅｇｉｎｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｅｃａｕｓｅ　ｏｆ　ｙｏｕ　Ｉ　ｗａｓ　ｆｏｒｃｅｄ　ｔー"TCC_NEWLINE"ｏ　ｒｅｍｅｍｂｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒｃｅｄ　ｔｏ　ｒｅｍｅｍｂｅｒ　ｍｙ　ｌｉｆｅ　ｂｅー"TCC_NEWLINE"ｆｏｒｅ．．．　Ｆｏｒｃｅｄ　ｔｏ　ｈａｖｅ　ｔｈｅ　ｍｅー"TCC_NEWLINE"ｍｏｒｉｅｓ　ｏｆ　ｍｙ　ｍｏｒｔａｌ　ｌｉｆｅ　ｆｌｏｏー"TCC_NEWLINE"ｄ　ｉｎｔｏ　ｍｙ　ｍｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｗｉｓｈ　ｙｏｕ’ｄ　ｊｕｓｔ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｉｔ　ｗｅｒｅｎ’ｔ　ｆｏｒ　ｙｏｕ，　Ｉ’ｄ　ｂｅ"TCC_NEWLINE"　ｈａｐｐｙ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｔｈｏｓｅ　ｗｅｒｅ　ｔｈｅ　ｗｏｒｄｓ　Ｉ　ｈｅａー"TCC_NEWLINE"ｒｄ　ｍｏｓｔ　ｆｒｏｍ　ｍｙ　ｍｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｂｅｃａｍｅ　ｔｈｉｓ　ｂｅｃａｕｓｅ　Ｉ　ｗａｎｔｅー"TCC_NEWLINE"ｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｆｏｒｅ，　Ｉ　ｗａｓ　ｍｉｓｅｒａｂｌｅ，　ｃｏｍｐー"TCC_NEWLINE"ｌｅｔｅｌｙ　ｕｎｌｏｖｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｎ　ｔｈｅ　ｗｏｒｌｄ　ｏｆ　ｍｙ　ｄｒｅａｍｓ"TCC_NEWLINE"．．．　Ｉ　ｂｅｃａｍｅ　ｓｏｍｅｔｈｉｎｇ　ｓｐｅｃｉａー"TCC_NEWLINE"ｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｅ　ｓａｖｅｄ　ｔｈｅ　ｗｏｒｌｄ　ｗｈｅｎ　ｎー"TCC_NEWLINE"ｏ　ａｄｕｌｔ　ｃｏｕｌｄｏｒ　ｅｖｅｎ　ｋｎｅｗ　ｔｏ．"TCC_NEWLINE"　Ｗｅ　ｓａｖｅｄ　ｅｖｅｒｙｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｄｏｎ’ｔ　ｎｅｅｄ　ｒｅａｌｉｔｙ．　Ｔｈｉｓ　ｉｓ"TCC_NEWLINE"　ｗｈａｔ　Ｉ　ａｌｗａｙｓ　ｄｒｅａｍｅｄ　ｏｆ　ｂｅｉー"TCC_NEWLINE"ｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔ　ｙｅｔ　ｓａｔｉｓｆｉｅｄ．　Ｉ　ｗｏｎ’"TCC_NEWLINE"ｔ　ｌｅｔ　ｙｏｕ　ｔａｋｅ　ｍｙ　ｄｒｅａｍ　ｆｒｏｍ　"TCC_NEWLINE"ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4114_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｉ．．．　Ｗｅ．．．ｗｅ　ｓａｖｅｄ　ｔｈｅ　ｗｏｒｌｄ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｂｅｃａｍｅ．．．ｏｕｒ　ｂｅｓｔ　ｓｅｌｖｅｓ．．"TCC_NEWLINE"．　ｆｏｒ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ’ｓ　ｓａｋｅ．．．"TCC_NEWLINE"　Ｓｏ．．．ｎｏｗ，　Ｉ　ｓｈｏｕｌｄ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｎｏｔ　ｔｈａｔ．．．ｕｎｗａｎｔｅｄ　ｃｈｉｌー"TCC_NEWLINE"ｄ．．．　Ｉ－Ｉ　ａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｏｔｈｅｒ，　Ｉ　Ｍｏ．．．ｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4114_EN] = TCC_OPEN_LEFT
+"Ｉｆ　Ｉ　ｂｅｃｏｍｅ　ａ　ｔｒｕｅ　ｈｅｒｏ，　ｔｈｅｎ"TCC_NEWLINE"　ｗｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　Ｍｏｔｈｅｒ　ｗａｓ　ｎｉｃｅ　ｔｏ　ｍｅ．．．　Ｔー"TCC_NEWLINE"ｈａｔ　ｗｏｕｌｄ　ｍａｋｅ　ｍｅ　ｈａｐｐｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ’ｍ　ａ　ｕｓｅｌｅｓｓ　ｃｈｉｌｄ．．．　Ｉ　"TCC_NEWLINE"ｃａｎ’ｔ　ｄｏ　ａｎｙｔｈｉｎｇ　ｒｉｇｈｔ，　ｓｏ　Ｍー"TCC_NEWLINE"ｏｔｈｅｒ　ａｌｗａｙｓ　ｈａｓ　ｔｏ　ｙｅｌｌ　ａｔ　ｍー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　Ｉ　ｗａｎｔ　ｔｏ　ｂｅｃｏｍｅ　ａ　ｈｅｒｏ．　Ｉ"TCC_NEWLINE"　ｗａｎｔ　ｔｏ　ｓａｖｅ　ｅｖｅｒｙｏｎｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍａｙｂｅ　Ｍｏｔｈｅｒ　ｗｉｌｌ　ｔｅｌｌ　ｍｅ　Ｉ　ｄー"TCC_NEWLINE"ｉｄ　ｇｏｏｄ　ｔｈｅｎ．．．　Ｍａｙｂｅ　ｓｈｅ’ｌｌ　"TCC_NEWLINE"ｅｖｅｎ　ｓａｙ　Ｉ’ｍ　ａ　ｈｅｒｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｅｈｅｅ！　Ｉ　ｃａｎ’ｔ　ｗａｉｔ！　Ｉ　ｈｏｐｅ　"TCC_NEWLINE"Ｉ　ｃａｎ　ｍａｋｅ　ｙｏｕ　ｐｒｏｕｄ　ｓｏｍｅｄａｙ，"TCC_NEWLINE"　Ｍｏｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

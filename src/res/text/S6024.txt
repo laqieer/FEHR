@@ -1,0 +1,89 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6024] = TCC_OPEN_LEFT 
+"お堅そうな面してやがるねえ。" TCC_NEWLINE
+"小突いたくらいじゃ効かなそうだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6024] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あ、あれれ。。。？" TCC_NEWLINE
+"どっちにいったんでしょう？" TCC_NEWLINE
+"空を飛ばれるとなかなか追いつけません！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"大丈夫、あちらの空に" TCC_NEWLINE
+"飛翔する影が見えた。" TCC_NEWLINE
+"このまま追跡を続けよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"！" TCC_NEWLINE
+"。。。ちょっと待って、二人とも。" TCC_NEWLINE
+"この先はもうエンブラ領よ。" TCC_NEWLINE TCC_PUSH_A
+"しかもここって、" TCC_NEWLINE
+"よりによって。。。あの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"？" TCC_NEWLINE
+"どうかしたんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"あの城砦。。。あそこには" TCC_NEWLINE
+"エンブラ帝国で最も得体の知れない" TCC_NEWLINE
+"部隊が駐屯しているの。" TCC_NEWLINE TCC_PUSH_A
+"帝国の正規軍とは異なる組織。。。" TCC_NEWLINE
+"言ってみれば、" TCC_NEWLINE
+"エンブラ帝国の特務機関ね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"エンブラ帝国にも、" TCC_NEWLINE
+"わたしたちヴァイス・ブレイヴみたいな" TCC_NEWLINE
+"組織があったんですね！" TCC_NEWLINE TCC_PUSH_A
+"同じ特務機関同士、" TCC_NEWLINE
+"仲良くできそうです！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"どうかしら。。。" TCC_NEWLINE
+"あっちの別名は【呪詛部隊】。。。" TCC_NEWLINE
+"エンブラの呪術師たちが中心よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"じゅ、呪詛部隊。。。？" TCC_NEWLINE
+"そう聞くとなんだか怖そうです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ええ、入ってくる情報では、" TCC_NEWLINE
+"そりゃもう怖い相手よ。" TCC_NEWLINE TCC_PUSH_A
+"暗殺、誘拐、拷問、破壊工作。。。" TCC_NEWLINE
+"虚偽情報を拡散して" TCC_NEWLINE
+"民衆の扇動まで。。。" TCC_NEWLINE TCC_PUSH_A
+"エンブラの闇。。。" TCC_NEWLINE
+"汚れ仕事を一手に担っている" TCC_NEWLINE
+"組織と言われているわ。" TCC_NEWLINE TCC_PUSH_A
+"不気味な相手には違いないわね。。。" TCC_NEWLINE
+"これ以上進めば、その部隊と" TCC_NEWLINE
+"一戦交える危険が出てくるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"確かに。。。" TCC_NEWLINE
+"今、不用意に国境を侵せば" TCC_NEWLINE
+"ヴェロニカ皇女との協力関係も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。" TCC_NEWLINE
+"あ、あれ。。。？" TCC_NEWLINE
+"あれ見てください！" TCC_NEWLINE TCC_PUSH_A
+"あの城砦付近の森。。。" TCC_NEWLINE
+"大きな蝙蝠の翼！" TCC_NEWLINE
+"目標発見です！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"！" TCC_NEWLINE
+"誰かと交戦中。。。？" TCC_NEWLINE
+"あれは。。。ヴェロニカ皇女。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ヴェロニカ皇女が危険です。。。！" TCC_NEWLINE
+"ほっとけません！" TCC_NEWLINE
+"急ぎましょう！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

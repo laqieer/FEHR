@@ -1,0 +1,90 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｓｏ，　ｙｏｕ’ｖｅ　ｂｅａｔｅｎ　Ｐｌｕｍｅｒｉａ．．．"TCC_NEWLINE"　Ｎｏｗ　ｗｈａｔ？　Ｗｈａｔ　ｗｉｌｌ　ｙｏｕ　ｄｏ？　"TCC_NEWLINE"Ｈｏｗ　ｗｉｌｌ　ｙｏｕ　ｅｓｃａｐｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ａｌｍｏｓｔ　ｍａｋｅｓ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｌー"TCC_NEWLINE"ａｕｇｈ，　ｄｏｅｓ　ｉｔ　ｎｏｔ？　Ｍｏｒｔａｌｓ　ｗｒー"TCC_NEWLINE"ｉｔｈｉｎｇ，　ｕｎａｂｌｅ　ｔｏ　ｅｓｃａｐｅ　ｔｈｅｉー"TCC_NEWLINE"ｒ　ｔｏｒｍｅｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｇｒｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏ　ｎｏｔ　ｗｏｒｒｙ．　Ｉ　ｗｉｌｌ　ｎｏｔ　ｅｎｄ　"TCC_NEWLINE"ｙｏｕｒ　ｌｉｖｅｓ　ｒｉｇｈｔ　ａｗａｙ．　Ｉｆ　Ｉ　ｄー"TCC_NEWLINE"ｉｄ，　ｔｈｅ　ｐａｉｎ．．．　ｔｈｅ　ｌｏｓｓ．．．ｏｆ"TCC_NEWLINE"　ｍｙ　ｂｒｏｔｈｅｒ　ｗｏｕｌｄ"TCC_NEWLINE TCC_PUSH_A
+"ＲｒｒｒａａａＡＡＡＧＧＧＨＨＨ！　Ｂｒｏｔｈｅｒ！　Ｗｈー"TCC_NEWLINE"ｙ？！　Ｈｏｗ　ｃｏｕｌｄ　ｙｏｕ！　Ａｆｔｅｒ　ｅｖｅｒー"TCC_NEWLINE"ｙｔｈｉｎｇ！　．．．ＡＡＡＨＨＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｙｏｕ　ｈａｖｅ　ａｎ　ｉｄｅａ，　Ａｌｆｏｎｓｅ？　Ｗｈー"TCC_NEWLINE"ａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｌｅｔ　ｍｅ　ａｓｋ　ｙｏｕ　ｓｏｍｅｔｈｉｎｇ，　Ｐｅｏー"TCC_NEWLINE"ｎｙ．．．　Ｗｉｔｈｏｕｔ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙー"TCC_NEWLINE"ｒ．．．ｔｈｅ　Ｗａｋｉｎｇ　Ｄｒｅａｍ　ｓｈｏｕｌｄ　ｂー"TCC_NEWLINE"ｅ　ｉｍｐｏｓｓｉｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｎｉｇｈｔｍａｒｅｓ　ｓｈｏｕｌｄ　ｎｏ　ｌｏｎｇー"TCC_NEWLINE"ｅｒ　ｂｅ　ａｂｌｅ　ｔｏ　ｈａｖｅ　ａｎｙ　ｅｆｆｅｃｔ"TCC_NEWLINE"　ｏｎ　ｒｅａｌｉｔｙ．　Ｉｓ　ｔｈａｔ　ａｌｌ　ｃｏｒｒー"TCC_NEWLINE"ｅｃｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ，　ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｂｕｔ　ｔｈｅ　ｎｉー"TCC_NEWLINE"ｇｈｔｍａｒｅｓ　ａｒｅ　ｓｔｉｌｌ　ａｐｐｅａｒｉｎｇ！"TCC_NEWLINE"　Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ｈｏｗ　ｏｒ　ｗｈー"TCC_NEWLINE"ｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ａｌｌ　ｔｈａｔ　ｉｓ　ｔｒｕｅ，　ｔｈｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｆ　ａｌｌ　ｔｈａｔ　ｉｓ　ｔｒｕｅ，　ｔｈｅｒｅ’ｓ　"TCC_NEWLINE"ｏｎｌｙ　ｏｎｅ　ｐｏｓｓｉｂｌｅ　ｅｘｐｌａｎａｔｉｏｎ"TCC_NEWLINE"　Ｉ　ｃａｎ　ｉｍａｇｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｗｈａｔ　ｉｓ　ｉｔ？　Ｇｏ　ｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｒｉｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｎｉｇｈｔｍａｒｅｓ　ｃａｎ　ｎｏ　ｌｏｎｇｅｒ　"TCC_NEWLINE"ａｐｐｅａｒ　ｉｎ　ｔｈｅ　ｒｅａｌ　ｗｏｒｌｄ，　ｂｕｔ"TCC_NEWLINE"．．．ｎｉｇｈｔｍａｒｅｓ　ａｒｅ　ａｐｐｅａｒｉｎｇ　ｈー"TCC_NEWLINE"ｅｒｅ．．．ｌｅａｖｉｎｇ　ｏｎｅ　ｓｏｌｕｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｒｅ　ｓｔｉｌｌ　ｉｎ　ａ　ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒ－ｒｅａｌｌｙ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈｉｓ　ｈａｓ　ａｌｌ　ｂｅｅｎ　ａ　ｄｒｅａｍ．．．　"TCC_NEWLINE"Ｆｒｏｍ　ｔｈｅ　ｖｅｒｙ　ｂｅｇｉｎｎｉｎｇ．．．　Ｅｖー"TCC_NEWLINE"ｅｒｙｔｈｉｎｇ．　Ａｌｌ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒ　ｓｉｎｃｅ　ｍｙ　ｍｏｔｈｅｒ　ｔｏｌｄ　ｕｓ　"TCC_NEWLINE"ａｂｏｕｔ　ｔｈｅ　ｓｌｅｅｐｉｎｇ　ｓｉｃｋｎｅｓｓ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒ　ｓｉｎｃｅ　ｔｈｅｎ，　ｗｅ　ｈａｖｅ　ｂｅｅｎ"TCC_NEWLINE"　ｉｎ　ｔｈｅ　ｄｒｅａｍ　ｒｅａｌｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｅｖｅｎ　ｒｅｔｕｒｎｉｎｇ　ｔｏ　ｔｈｉｓ　ｗｏー"TCC_NEWLINE"ｒｌｄ，　ｎｏｗ，　ｗｅ　ａｒｅ　ｓｔｉｌｌ　ｉｎ　ｔｈａー"TCC_NEWLINE"ｔ　ｆｉｒｓｔ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"．．．Ｙｏｕ’ｒｅ　ｓａｙｉｎｇ　ｔｈｉｓ　ｈａｓ　ＡＬＬ"TCC_NEWLINE"　ｂｅｅｎ　ａ　ｄｒｅａｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ’ｓ　ｔｒｕｅ，　ｈｏｗ　ｃａｎ　ｗｅ　ｗａー"TCC_NEWLINE"ｋｅ　ｏｕｒｓｅｌｖｅｓ　ｕｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｆ　ｔｈｉｓ　ＩＳ　ａ　ｄｒｅａｍ，　ｗｅ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｂｅ　ａｂｌｅ　ｔｏ　ｍａｋｅ　ｕｓｅ　ｏｆ　ｔｈｉｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ　ｈｏｒｎ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ　ｇａｖー"TCC_NEWLINE"ｅ　ｔｏ　ｕｓＧｕｌｌｉｎｋａｍｂｉ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｃａｎ　ｆｉｎｄ　ｔｈｅ　Ｄｒｅａｍ　Ｇａｔｅ"TCC_NEWLINE"　ｉｎ　ｔｈｉｓ　ｗｏｒｌｄ　ａｎｄ　ｂｌｏｗ　ｔｈｅ　ｈー"TCC_NEWLINE"ｏｒｎ，　ｔｈａｔ　ｓｈｏｕｌｄ　ｄｏ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ａｎｄ　ｗｅ　ｃａｎ　ａｗａｋｅｎ　ａｎｄ　ｆｉー"TCC_NEWLINE"ｎａｌｌｙ　ｒｅｔｕｒｎ　ｔｏ　ｏｕｒ　ｒｅａｌｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ｈｏｗ　ｉｓ　Ｓｈａｒｅｎー"TCC_NEWLINE"ａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｈｅ’ｓ　ｒｅｓｔｉｎｇ　ｎｏｗ，　ｂｕｔ．．．ｓｈｅ　"TCC_NEWLINE"ｗａｓ　ｕｐ　ａｌｌ　ｎｉｇｈｔ　ｃｒｙｉｎｇ．　Ｓｈｅ　"TCC_NEWLINE"ｈａｓ　ｏｎｌｙ　ｊｕｓｔ　ｂｅｅｎ　ａｂｌｅ　ｔｏ　ｇｅー"TCC_NEWLINE"ｔ　ｃｏｍｆｏｒｔａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ　ｓｏｒｒｙ　Ｉ　ｗａｓｎ’ｔ　ｈｅｒｅ　ｔｏ　ｏｆー"TCC_NEWLINE"ｆｅｒ　ｍｙ　ｓｕｐｐｏｒｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ　ｎｏ　ｔｒｏｕｂｌｅ．　Ｉ　ｎｏｄｄｅｄ　ｏｆｆ"TCC_NEWLINE"　ｈｅｒｅ　ａｎｄ　ｔｈｅｒｅ　ａｓ　Ｉ　ｗａｓ　ｓｔａｎー"TCC_NEWLINE"ｄｉｎｇ　ｂｙ　ｔｏ　ｃｏｍｆｏｒｔ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，　ｓｐｅａｋｉｎｇ　ｏｆ　ｗｈｉｃｈ，　Ｉ　ｈａｄ　"TCC_NEWLINE"ｔｈｅ　ｓｔｒａｎｇｅｓｔ　ｄｒｅａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａ　ｓｔｒａｎｇｅ　ｄｒｅａｍ，　ｈｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｉ　ｗａｓ　ａ　ｓｑｕｉｒｒｅｌ！　Ｏｆ　ａｌｌ　ｔー"TCC_NEWLINE"ｈｉｎｇｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｉｎｃｅ　Ｉ　ｗａｓｎ’ｔ　ｈｕｍａｎ，　Ｉ　ｄｉｄｎ’"TCC_NEWLINE"ｔ　ｈａｖｅ　ａｎｙ　ｄｕｔｉｅｓ　ｓｔｏｐｐｉｎｇ　ｍｅ"TCC_NEWLINE"　ｆｒｏｍ　ｄｏｉｎｇ　ｅｘａｃｔｌｙ　ｗｈａｔｅｖｅｒ　"TCC_NEWLINE"Ｉ　ｗａｎｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕ　ｍｕｓｔ　ｈａｖｅ　ｅｎｊｏｙｅｄ　ｔｈｅ　ｆｏｒー"TCC_NEWLINE"ｅｓｔ　ｆｒｅｅｌｙ，　ｔｈｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏｔ　ｅｘａｃｔｌｙ．．．　Ｉｎｓｔｅａｄ　Ｉ　ｗａｓ　"TCC_NEWLINE"ｗｏｒｋｉｎｇ　ａｓ　ｈａｒｄ　ａｓ　Ｉ　ｃｏｕｌｄ　ｔｏ"TCC_NEWLINE"　ｇａｔｈｅｒ　ａｌｌ　ｔｈｅｓｅ　ｇｏｌｄｅｎ　ｎｕｔｓ"TCC_NEWLINE"　ｆｒｏｍ　ａｒｏｕｎｄ　ａ　ｔｒｅｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｗｅｌｌ，　Ｉ　ｈａｖｅ　ｔｏ　ｓａｙ，　ｔｈａｔ　"TCC_NEWLINE"ｄｏｅｓｎ’ｔ　ｓｏｕｎｄ　ａｌｌ　ｔｈａｔ　ｓｔｒａｎｇー"TCC_NEWLINE"ｅ　ｃｏｍｉｎｇ　ｆｒｏｍ　ｙｏｕ，　Ｃｏｍｍａｎｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｒｅａｍｓ　ａｒｅ　ｍｙｓｔｅｒｉｏｕｓ．．．　Ｉ　ｍｅー"TCC_NEWLINE"ａｎ，　Ｉ’ｍ　ｎｏｔ　ａ　ｓｑｕｉｒｒｅｌ，　ｒｉｇｈｔ"TCC_NEWLINE"？　Ｂｕｔ　ｗｈｅｎ　Ｉ　ｄｒｅａｍｅｄ　ｏｆ　ｂｅｉｎｇ"TCC_NEWLINE"　ｏｎｅ，　ｉｔ　ｆｅｌｔ．．．ｒｅａｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈｏｕｇｈｔ　ｌｉｋｅ　ａ　ｓｑｕｉｒｒｅｌ，　ａｎー"TCC_NEWLINE"ｄ　ｉｔ　ｓｅｅｍｅｄ　ｎａｔｕｒａｌ　ｔｏ　ｂｅ　ｏｎｅ"TCC_NEWLINE"，　ａｎｄ　ｓｏ　Ｉ　ｌｉｖｅｄ　ｔｈｅ　ｌｉｆｅ　ｏｆ　"TCC_NEWLINE"ａ　ｓｑｕｉｒｒｅｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｎｔｉｌ　Ｉ　ｗｏｋｅ　ｕｐ，　ａｔ　ｌｅａｓｔ．　Ｂｕー"TCC_NEWLINE"ｔ　ｗｈｉｌｅ　ｉｎ　ｔｈｅ　ｄｒｅａｍ，　Ｉ　ｎｅｖｅｒ"TCC_NEWLINE"　ｗｏｕｌｄ　ｈａｖｅ　ｒｅａｌｉｚｅｄ　Ｉ　ｗａｓｎ’ｔ"TCC_NEWLINE"　ａｃｔｕａｌｌｙ　ａ　ｓｑｕｉｒｒｅｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｍ　Ｉ．．．ａｃｔｕａｌｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ａｒｅｎ’ｔ　ｄｒｅａｍｓ　ｆｕｎ？　Ｈｅａｒｉｎｇ　ａｂー"TCC_NEWLINE"ｏｕｔ　ｄｒｅａｍｓ　ｐｅｏｐｌｅ　ｈａｖｅ　ｉｓ　ｏｎｅ"TCC_NEWLINE"　ｏｆ　ｍｙ　ｆａｖｏｒｉｔｅ　ｔｈｉｎｇｓ．．．　Ｉｔ’"TCC_NEWLINE"ｓ　ｓｏ　ｉｎｔｅｒｅｓｔｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｂｅ　ａｎｙｔｈｉｎｇ　ａｎｄ　ｄｏ　ａｎー"TCC_NEWLINE"ｙｔｈｉｎｇ　ｙｏｕ　ｗａｎｔ！　Ｕｎｌｅｓｓ　ｙｏｕ’ｒー"TCC_NEWLINE"ｅ　ａ　ｓｑｕｉｒｒｅｌ，　Ｉ　ｓｕｐｐｏｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．．．　Ｙｏｕ　ｃａｎ　ｂｅ．．．ａｎｙｔｈｉｎｇ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．Ａｌｆｏｎｓｅ？　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ．．．　Ｉ’ｍ　ｒｅｍｅｍｂｅｒｉｎｇ　ｓｏｍｅｔｈー"TCC_NEWLINE"ｉｎｇ．．．　Ｓｏｍｅｔｈｉｎｇ　ｉｍｐｏｒｔａｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｉｄｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ｉｔ　ｂｅｆｏｒｅ"TCC_NEWLINE"．．．　Ｗｈｙ　Ｉ　ｃｏｕｌｄｎ’ｔ　ｒｅｍｅｍｂｅｒ　ａー"TCC_NEWLINE"ｎｙｔｈｉｎｇ　ｆｒｏｍ　ａ　ｌｏｎｇ　ｔｉｍｅ　ａｇｏ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ｔｈｅ　ｏｎｌｙ　ｃｌｅａｒ　ｍｅｍｏｒｉｅｓ　Ｉ"TCC_NEWLINE"　ｈａｄ　ｗｅｒｅ　ｏｆ　ｔｉｍｅｓ　Ｉ　ｓｐｅｎｔ　ｗｉー"TCC_NEWLINE"ｔｈ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ａ　ｄｒｅａｍ，　ｙｏｕ　ｃａｎ　ｂｅ　ａｎｙｔｈｉー"TCC_NEWLINE"ｎｇ　ａｎｄ　ｄｏ　ａｎｙｔｈｉｎｇ　ｙｏｕ　ｗａｎｔ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ．．．　Ｉ　ａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

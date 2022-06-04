@@ -1,0 +1,189 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6055] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"またお会いしましたね、" TCC_NEWLINE
+"アルフォンス王子。" TCC_NEWLINE
+"考えていただけましたか？" TCC_NEWLINE TCC_PUSH_A
+"私の要求に従い、" TCC_NEWLINE
+"投降して捕虜となるか。。。" TCC_NEWLINE TCC_PUSH_A
+"それともこの場で戦い、" TCC_NEWLINE
+"アスクの民を犠牲にするか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。ああ。" TCC_NEWLINE
+"今から、その返答をしよう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6055] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"。。。撤退。" TCC_NEWLINE
+"それではアルフォンス王子、" TCC_NEWLINE
+"交渉決裂ということですね。" TCC_NEWLINE TCC_PUSH_A
+"残念ですが、約束通り、" TCC_NEWLINE
+"またあなた方の民を闇に。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"レティシア。" TCC_NEWLINE
+"君の闇の力はもう通じない。" TCC_NEWLINE TCC_PUSH_A
+"僕たちの中には" TCC_NEWLINE
+"特別な力を持つ仲間がいる。" TCC_NEWLINE
+"その力で、エンブラの闇を打ち消した。" TCC_NEWLINE TCC_PUSH_A
+"【呪詛部隊】を率いる君のことだ。" TCC_NEWLINE
+"もう既に" TCC_NEWLINE
+"その情報を得ているのだろう？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ、もちろん。" TCC_NEWLINE TCC_PUSH_A
+"ですが、私が知らないとお思い？" TCC_NEWLINE
+"その力には大きな犠牲が" TCC_NEWLINE
+"伴うのでしょう？" TCC_NEWLINE TCC_PUSH_A
+"闇を打ち消すほど" TCC_NEWLINE
+"お仲間の命は削られ、" TCC_NEWLINE
+"やがて死に至る。。。" TCC_NEWLINE TCC_PUSH_A
+"闇を打ち消さなければ、" TCC_NEWLINE
+"民たちは次々と闇に飲まれ、" TCC_NEWLINE
+"犠牲になっていく。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。だから？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"君の要求をのめば、僕の身が危険に晒される。" TCC_NEWLINE
+"断れば、他人は犠牲になっても僕は安全だ。" TCC_NEWLINE TCC_PUSH_A
+"どちらを選ぶかは決まっている。" TCC_NEWLINE
+"君は交渉をしているつもりらしいけれど。。。" TCC_NEWLINE
+"はじめから話にもなっていない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたの仲間や、" TCC_NEWLINE
+"民たちがどうなろうと構\わないと？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"君ならわかるだろう？" TCC_NEWLINE
+"自分か仲間か、どちらが大切か。" TCC_NEWLINE
+"僕も同じだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。" TCC_NEWLINE
+"アルフォンス王子。。。" TCC_NEWLINE TCC_PUSH_A
+"調査による" TCC_NEWLINE
+"あなたの人物像とは" TCC_NEWLINE
+"異なるようですが。。。" TCC_NEWLINE TCC_PUSH_A
+"ですが、確かに。。。" TCC_NEWLINE
+"あなたには別の顔も。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アルフォンス王子。" TCC_NEWLINE
+"あなたの父。。。" TCC_NEWLINE
+"先王グスタフの死について。" TCC_NEWLINE TCC_PUSH_A
+"私はいくつかの情報を得ているのです。" TCC_NEWLINE
+"例えばグスタフ王の死、" TCC_NEWLINE
+"実はあれは。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ああ、そうだ。" TCC_NEWLINE TCC_PUSH_A
+"父上は僕が殺した。" TCC_NEWLINE
+"邪魔だったからね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"君も知っての通り、" TCC_NEWLINE
+"僕は父上から見放されていた。" TCC_NEWLINE
+"このままでは王位は継げない。。。" TCC_NEWLINE TCC_PUSH_A
+"でも、父上が消えれば、" TCC_NEWLINE
+"王位は僕のものだ。" TCC_NEWLINE
+"だから、殺したんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"それはそれは。。。" TCC_NEWLINE
+"大変面白いお話をお聞きしました。" TCC_NEWLINE TCC_PUSH_A
+"いずれ来たるべき日。。。" TCC_NEWLINE
+"アスク王国を揺るがすために" TCC_NEWLINE
+"ぜひ使わせていただき。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"わかってないようだね。" TCC_NEWLINE
+"僕がなぜ、こんなことを" TCC_NEWLINE
+"ぺらぺら喋ったと思う？" TCC_NEWLINE TCC_PUSH_A
+"君は殺す。" TCC_NEWLINE
+"どんな犠牲を払ってでも。" TCC_NEWLINE
+"僕はもう決めているんだ。" TCC_NEWLINE TCC_PUSH_A
+"人質が無価値な今、" TCC_NEWLINE
+"余裕ぶってる暇は君にはない。" TCC_NEWLINE
+"それを、理解しているかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。なるほど。" TCC_NEWLINE TCC_PUSH_A
+"よくわかりました。" TCC_NEWLINE
+"私はあなたを" TCC_NEWLINE
+"誤解していたようです。" TCC_NEWLINE TCC_PUSH_A
+""
+"民想いの" TCC_NEWLINE
+"心優しい王子。。。" TCC_NEWLINE
+"ええ、そんなものはすべて、嘘。" TCC_NEWLINE TCC_PUSH_A
+"愚かな民衆の心を操るための" TCC_NEWLINE
+"虚飾の仮面にすぎない。" TCC_NEWLINE TCC_PUSH_A
+"玉座のためなら" TCC_NEWLINE
+"邪魔な父王を殺し、" TCC_NEWLINE
+"その事実さえ完璧に隠蔽してみせる。。。" TCC_NEWLINE TCC_PUSH_A
+"私と、あなた。。。" TCC_NEWLINE
+"我が部隊と、特務機関。。。" TCC_NEWLINE
+"とてもよく似ているようですね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あなたを侮っていたのは誤りでした。" TCC_NEWLINE
+"今は、あなたの首は" TCC_NEWLINE
+"あきらめることにしましょう。" TCC_NEWLINE TCC_PUSH_A
+"まずは" TCC_NEWLINE
+"ヴェロニカの処刑を楽しんだ後で、" TCC_NEWLINE
+"ゆっくりあなた方を狙うとします。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6055] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ふぅ。。。" TCC_NEWLINE
+"これで、うまくいくといいけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"お兄様のばか！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"シャ、シャロン？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"どうしてあんな" TCC_NEWLINE
+"ひどいこと言うんですか！" TCC_NEWLINE
+"ばかばかばか！　冷血漢！" TCC_NEWLINE TCC_PUSH_A
+"元の優しい" TCC_NEWLINE
+"お兄様に戻ってください！" TCC_NEWLINE
+"うわあああん。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ちょ、ちょっと待つんだシャロン。" TCC_NEWLINE
+"あれはただ演技を。。。いたたた。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"。。。相変わらず賑やかだな、お前たちは。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ザカリア。。。！？" TCC_NEWLINE
+"いつここに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ヴェロニカの処刑の日。。。" TCC_NEWLINE
+"それが、十\日後と決まった。" TCC_NEWLINE TCC_PUSH_A
+"すまないが。。。" TCC_NEWLINE
+"また、お前たちの力を貸してもらいたい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

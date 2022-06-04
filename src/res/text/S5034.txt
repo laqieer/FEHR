@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5034] = TCC_OPEN_LEFT 
+"リーフ様はぼくにとって、" TCC_NEWLINE
+"とても大切な方なんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,132 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S6043] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"ヴェロニカ皇女、" TCC_NEWLINE
+"見つかったんですか！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ええ。" TCC_NEWLINE
+"ぼろぼろの姿で" TCC_NEWLINE
+"川岸に流れついていたそうよ。" TCC_NEWLINE TCC_PUSH_A
+"今は治療を受けているわ。" TCC_NEWLINE
+"衰弱がひどいから、話ができるのは" TCC_NEWLINE
+"意識が戻ってからになるわね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あのヴェロニカ皇女が。。。" TCC_NEWLINE
+"エンブラは敵国ですけど、" TCC_NEWLINE
+"なんだか、かわいそうですね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"でも、厄介なのは" TCC_NEWLINE
+"レティシア将軍たちの部隊よ。" TCC_NEWLINE
+"皇女の引き渡しを要求してる。" TCC_NEWLINE TCC_PUSH_A
+"拒否すれば、" TCC_NEWLINE
+"戦闘の激化は避けられないわね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6043] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"アスク王国の皆様、" TCC_NEWLINE
+"私に攻撃の意志はありません。" TCC_NEWLINE TCC_PUSH_A
+"あなたたちが拐した" TCC_NEWLINE
+"ヴェロニカ皇女を引き渡してください。" TCC_NEWLINE TCC_PUSH_A
+"大切な皇女を" TCC_NEWLINE
+"敵国に奪われたままでは、" TCC_NEWLINE
+"私たちも引き下がるわけには参りません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。レティシア将軍、君は言った。" TCC_NEWLINE
+"ヴェロニカ皇女は" TCC_NEWLINE
+"断罪されねばならない、と。" TCC_NEWLINE TCC_PUSH_A
+"それはどういうことか、" TCC_NEWLINE
+"教えて欲しい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。余計な詮索は無用です。" TCC_NEWLINE
+"敵国のあなた方には関係のないこと。" TCC_NEWLINE TCC_PUSH_A
+"ヴェロニカは罪を犯しました。" TCC_NEWLINE
+"正当な裁きを受けなければなりません。" TCC_NEWLINE
+"それだけです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"正当な裁きだというのなら、" TCC_NEWLINE
+"どのような疑いと証拠があるのか、" TCC_NEWLINE
+"僕たちにも説明できるはずだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"下等なアスク王族ごときが。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"疑い？　証拠？" TCC_NEWLINE
+"そんなもの、いくらでも" TCC_NEWLINE
+"私が捏造できるのです。" TCC_NEWLINE TCC_PUSH_A
+"さっさと" TCC_NEWLINE
+"ヴェロニカを渡しなさい。" TCC_NEWLINE
+"さもなければ。。。" TCC_NEWLINE TCC_PUSH_A
+"私たちがなぜ" TCC_NEWLINE
+"【呪詛部隊】と呼ばれているのか。。。" TCC_NEWLINE
+"その理由を知ることになるでしょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6043] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"あくまで拒否するのですね。。。" TCC_NEWLINE
+"それでは、" TCC_NEWLINE
+"一旦失礼致しましょう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうそう。そういえば、" TCC_NEWLINE
+"ここから南に数日の地に。。。" TCC_NEWLINE
+"アスク王国の町がありましたね。" TCC_NEWLINE TCC_PUSH_A
+"丘の上にある美しい町。。。" TCC_NEWLINE
+"なんという名だったかしら。。。？" TCC_NEWLINE TCC_PUSH_A
+"あの町はたった今、" TCC_NEWLINE
+"エンブラの闇に閉ざされました。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"なっ。。。。。。！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"嘘だとお思い？" TCC_NEWLINE
+"時間をさしあげますから、" TCC_NEWLINE
+"ぜひ確かめてごらんなさい。" TCC_NEWLINE TCC_PUSH_A
+"かわいそうに。あの町の民たちは" TCC_NEWLINE
+"闇に閉ざされたまま、" TCC_NEWLINE
+"二度と戻ることはないでしょう。。。" TCC_NEWLINE TCC_PUSH_A
+"それもこれも、あなたが" TCC_NEWLINE
+"ヴェロニカを渡さないからです。" TCC_NEWLINE
+"よくおわかり？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。レティシア将軍。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6043] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"。。。天馬の偵察が戻ったわ。" TCC_NEWLINE
+"町に近づくまでもなく、" TCC_NEWLINE
+"遠方からでもわかったそうよ。" TCC_NEWLINE TCC_PUSH_A
+"山岳の町は闇に閉ざされたわ。" TCC_NEWLINE
+"レティシア将軍の宣告通りに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あれが【呪詛部隊】。。。" TCC_NEWLINE
+"町を、城を、あんなふうに" TCC_NEWLINE
+"次々に闇に閉ざせるとしたら。。。" TCC_NEWLINE TCC_PUSH_A
+"この戦い、たとえ勝利できても、" TCC_NEWLINE
+"アスク王国は" TCC_NEWLINE
+"壊滅的な被害を被ることになるわ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

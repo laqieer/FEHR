@@ -1,0 +1,38 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5122] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FAFNIR
+"グァ。。。アアァ。。。。。。" TCC_NEWLINE
+"。。。ウウ。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ファフニールお兄ちゃん。。。。。。" TCC_NEWLINE
+"私なの、レギンなの！" TCC_NEWLINE
+"お兄ちゃんを助けに来たの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ウゥ。。。。。。。。。" TCC_NEWLINE
+"。。。レギ。。。ン。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"！　お兄ちゃん、私がわかるの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ウアァアアアアーーーーッ！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"危ない！　レギン王女！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ウゥ。。。ウ。。。。。。" TCC_NEWLINE
+"殺ス。。。ヒトリ。。。残ラズ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"グゥッ。。。ウウゥ。。。。。。" TCC_NEWLINE
+"ウガァッ、アアァアアアーーーーー！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"レギン王女。。。もう彼に言葉は通じない。" TCC_NEWLINE
+"覚悟を決めるんだ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"お兄ちゃん。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

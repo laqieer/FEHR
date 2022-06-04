@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5133] = TCC_OPEN_LEFT 
+"私は、私自身の" TCC_NEWLINE
+"力と意思で生きたいのです。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

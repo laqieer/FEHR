@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S4102] = TCC_OPEN_LEFT 
+"許されるとは思っていない。" TCC_NEWLINE
+"だが、償い続けるしかないんだ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

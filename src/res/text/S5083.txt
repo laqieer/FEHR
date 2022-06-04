@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5083] = TCC_OPEN_LEFT 
+"ジークには過去の記憶がないの。" TCC_NEWLINE
+"私が海岸で助けたのよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

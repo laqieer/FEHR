@@ -1,0 +1,40 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5093_EN] = TCC_OPEN_LEFT
+"Ｉ　ｔｏｏｋ　ｃｏｕｎｔｌｅｓｓ　ｌｉｖｅｓ　ｉｎ　ｍｙ　"TCC_NEWLINE"ｆｏｏｌｉｓｈ　ｙｏｕｔｈ．　Ｆｏｒ　ｔｈａｔ，　Ｉ　ｗａー"TCC_NEWLINE"ｓ　ｃｕｒｓｅｄ　ｗｉｔｈ　ｔｈｉｓ　ｕｎａｇｉｎｇ　ｂｏー"TCC_NEWLINE"ｄｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5093_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｆｉｎａｌｌｙ！　Ｗｅ　ｍａｄｅ　ｉｔ！　Ｎｏｗ，　ｔｏ　"TCC_NEWLINE"ｇｅｔ　ｔｈａｔ　ｇａｔｅ　ｏｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｍｍｍ－ＭＭＰＨ"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｉｓ　ｉｓ　ｎｏ　ｔｉｍｅ　ｆｏｒ　ｐｌａｙｉｎｇ　ａー"TCC_NEWLINE"ｒｏｕｎｄ，　Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｍ　ｎｏｔ　ｐｌａｙｉｎｇ　ａｒｏｕｎｄ！　Ｔｈｅ　ｇー"TCC_NEWLINE"ａｔｅ　ｗｏｎ’ｔ　ｂｕｄｇｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｂｕｔ　ｔｈｅｒｅ’ｓ　ｎｏ　ｌｏｃｋ．．．　Ｓｔｒａｎｇー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｏｈ　ｎｏ！　Ｔｈａｔ’ｓ　ｒｉｇｈｔ．．．　Ｉ’ｍ　ｓｏー"TCC_NEWLINE"ｒｒｙ．．．　Ｔｈｉｓ　ｇａｔｅ　ｃａｎ　ｏｎｌｙ　ｂｅ　"TCC_NEWLINE"ｏｐｅｎｅｄ　ｂｙ　ｔｈｏｓｅ　ｆｒｏｍ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ’ｓ　ｒｏｙａｌ　ｌｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｗｅ　ｈａｖｅ　ｎｏ　ｗａｙ　ｔｏ　ｇｅｔ　ｐａｓｔ"TCC_NEWLINE"　ｔｈｅ　ｇａｔｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ’ｍ　ａｆｒａｉｄ　ｎｏｔ．．．　Ｉ　ｗｉｓｈ　Ｉ　ｋｎー"TCC_NEWLINE"ｅｗ　ｏｆ　ａｎｙ　ｏｔｈｅｒ　ｗａｙ　ｔｏ　ｏｐｅｎ　ｉー"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ｃａｎ’ｔ　ｇｅｔ　ｐａｓｔ　ｉｔ，　ｗｅ’ｌー"TCC_NEWLINE"ｌ　ｂｅ　ｕｎａｂｌｅ　ｔｏ　ｉｎｖｅｓｔｉｇａｔｅ　ｗｈー"TCC_NEWLINE"ａｔｅｖｅｒ　ｉｔ　ｉｓ　ｍｙ　ｂｒｏｔｈｅｒｓ　ａｒｅ　"TCC_NEWLINE"ｕｐ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈ－ｈｕｈ？！　．．．Ｉ－ｉｔ　ｊｕｓｔ　ｏｐｅｎｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｙｅｓ！　Ｔｈｉｓ　ｉｓ　ａｍａｚｉｎｇ．．．　Ｔｈｅ　ｋー"TCC_NEWLINE"ｉｎｇｓ　ｏｆ　ａｇｅｓ　ｐａｓｔ　ｍｕｓｔ　ｂｅ　ｗａｔー"TCC_NEWLINE"ｃｈｉｎｇ　ｏｖｅｒ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ，　Ｙｏｕｒ　Ｍａｊｅｓｔｉｅｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｃｏｎｖｅｎｉｅｎｔ．．．　Ｔｈａｔ　ｃｅｒｔａｉｎｌｙ　"TCC_NEWLINE"ｓａｖｅｓ　ｕｓ　ｓｏｍｅ　ｔｒｏｕｂｌｅ！　Ｌｅｔ’ｓ　"TCC_NEWLINE"ｈｕｒｒｙ　ｔｈｒｏｕｇｈ　ｂｅｆｏｒｅ　ｔｈｅ　ｋｉｎｇー"TCC_NEWLINE"ｓ　ｃｈａｎｇｅ　ｔｈｅｉｒ　ｍｉｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｒｉｇｈｔ！　Ｌｅｔ’ｓ　ｇｅｔ　ｇｏｉｎｇ！　Ｅｒ．．．"TCC_NEWLINE"ｗｈａｔ’ｓ　ｗｒｏｎｇ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ’ｓ　ｔｈａｔ　ｙｏｕ　ｆｏｕｎｄ？　Ｏｈ！　Ｔｈー"TCC_NEWLINE"ａｔ　ｌｏｏｋｓ　ｌｉｋｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5093_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｔｈｅ　ｇａｔｅ．．．ｉｓ　ｏｐｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ．．．　Ｈｅｈ　ｈｅｈ　ｈｅｈ．．．　ＡＨ－ＨＡＨＡー"TCC_NEWLINE"ＨＡＨＡＡＡＨＨ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｔｈｉｓ　ｉｓ　ｈｏｗ　ｔｈｉｎｇｓ　ａｒｅ，　ｉｓ"TCC_NEWLINE"　ｉｔ？！　Ｈｏｗ　ｄａｒｅ　ｙｏｕ，　ｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｄｉｖｉｎｅ　ｄｒａｇｏｎ　ｈａｓ　ｎｏｔ　ａｂａー"TCC_NEWLINE"ｎｄｏｎｅｄ　Ｎｉａｖｅｌｌｉｒ　ｙｅｔ．　Ｙｏｕ　ｗｉｌー"TCC_NEWLINE"ｌ　ｎｏｔ　ｂｅ　ａｌｌｏｗｅｄ　ｔｏ　ｓｉｍｐｌｙ　ｄｏ"TCC_NEWLINE"　ｗｈａｔｅｖｅｒ　ｙｏｕ　ｐｌｅａｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

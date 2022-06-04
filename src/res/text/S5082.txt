@@ -1,0 +1,98 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5082] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"ああ、それはこっちじゃないわ。" TCC_NEWLINE
+"中庭に運んでちょうだい。" TCC_NEWLINE TCC_PUSH_A
+"ねえ、誰か手は空いてる？" TCC_NEWLINE
+"この資材を運んでほしいんだけど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"アンナ隊長。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"レギン王女！" TCC_NEWLINE
+"今日も地下牢のファフニールに" TCC_NEWLINE
+"会いに行ったの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"うん。お兄ちゃん、" TCC_NEWLINE
+"ずっとうなされてて苦しそうなの。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"それと、ごめんなさいなの。" TCC_NEWLINE
+"お兄ちゃん達があちこち壊したせいで。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"まあね。" TCC_NEWLINE
+"もう民も英雄も総出で大忙し！" TCC_NEWLINE TCC_PUSH_A
+"女王は平気平気！　。。。なんて" TCC_NEWLINE
+"おっしゃってたけど" TCC_NEWLINE
+"大事をとって休んでいただいてるから" TCC_NEWLINE TCC_PUSH_A
+"アルフォンスとシャロンは" TCC_NEWLINE
+"代わりに公務で走り回ってるわ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あ。。。気にしないで！　レギン王女。" TCC_NEWLINE
+"あなたのせいじゃないわ。" TCC_NEWLINE TCC_PUSH_A
+""
+"それより、こっちこそごめんなさいね。" TCC_NEWLINE
+"せっかく手掛かりになりそうなことを" TCC_NEWLINE
+"思い出してくれたのに。。。" TCC_NEWLINE TCC_PUSH_A
+"たしか、" TCC_NEWLINE
+"ニザヴェリルの塔だったっけ？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"うん。。。" TCC_NEWLINE
+"ニザヴェリルの王が即位する" TCC_NEWLINE
+"特別な儀式に使う塔なの。" TCC_NEWLINE TCC_PUSH_A
+"ファフニールお兄ちゃんの様子が" TCC_NEWLINE
+"おかしくなった時、オッテルお兄ちゃんが" TCC_NEWLINE
+"何かあるかもってそこへ行ったの。" TCC_NEWLINE TCC_PUSH_A
+""
+"だけど、暗い顔で帰って来て。。。" TCC_NEWLINE TCC_PUSH_A
+"それからオッテルお兄ちゃんも" TCC_NEWLINE
+"ファフニールお兄ちゃんの味方に" TCC_NEWLINE
+"なっちゃった。" TCC_NEWLINE TCC_PUSH_A
+"だから、ニザヴェリルの塔を調べれば" TCC_NEWLINE
+"何かわかるかもしれないの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"とても険しい山の上にあるのよね。" TCC_NEWLINE
+"きっと警戒も厳しいだろうし。。。" TCC_NEWLINE TCC_PUSH_A
+"本当は今すぐ調査に向かいたいけど、" TCC_NEWLINE
+"この状態じゃあね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"いいのいいの！" TCC_NEWLINE
+"元々私たちの国の話だもん。" TCC_NEWLINE
+"そこまでみんなに甘えられないの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"悪いわね、レギン王女。" TCC_NEWLINE
+"もう少し落ち着くまで待ってちょうだい。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_FJORM
+"アンナ隊長、よろしいですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"あらフィヨルム王女。どうしたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"たった今、ニザヴェリル軍の敗残兵が" TCC_NEWLINE
+"国境付近の村を荒らしていると" TCC_NEWLINE
+"報告が入りました。" TCC_NEWLINE TCC_PUSH_A
+"救援に向かわないと。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ええ！？　この忙しいときに。。。" TCC_NEWLINE
+"" TCC_TACTICIAN_NAME "、" TCC_NEWLINE
+"悪いけど頼めるかしら？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5082] = TCC_OPEN_LEFT 
+"世界は想像もつかぬほど広い。" TCC_NEWLINE
+"俺の魔道もまだまだだな。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

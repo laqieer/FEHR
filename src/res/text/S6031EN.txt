@@ -1,0 +1,79 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ　ｗｉｌｌ　ｔａｋｅ　ｔｈｅ　ｒｏｕｔｅ　Ｄｉｒｅｃｔー"TCC_NEWLINE"ｏｒ　Ｌｅｔｉｚｉａ　ｉｎｆｏｒｍｅｄ　ｕｓ　ｏｆ　ａｎｄ"TCC_NEWLINE"　ｒｅｔｕｒｎ　ｔｏ　Ａｓｋｒ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒー"TCC_NEWLINE"ｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ　ｎｅｅｄ　ｔｏ　ｉｎｖｅｓｔｉｇａｔｅ　ｔｈａｔ　ｖー"TCC_NEWLINE"ｉｌｌａｇｅ　ｔｈａｔ’ｓ　ｅｎｃｌｏｓｅｄ　ｉｎ　ｄａｒー"TCC_NEWLINE"ｋｎｅｓｓ　ａｓ　ｗｅｌｌ．　Ｉ　ｈｏｐｅ　ｔｈｅｒｅ’ｓ"TCC_NEWLINE"　ｓｏｍｅｔｈｉｎｇ　ｗｅ　ｃａｎ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｉｎｄｅｅｄ．　Ｌｉｋｅｗｉｓｅ，　Ｉ　ｗｉｌｌ　ｃｈｅｃー"TCC_NEWLINE"ｋ　ｏｎ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｈｅｒｅ　ｉｎ　Ｅｍー"TCC_NEWLINE"ｂｌａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ASH
+"．．．Ｏｎ　ｔｈａｔ　ｎｏｔｅａｌｔｈｏｕｇｈ　Ｉ　ａｄｍー"TCC_NEWLINE"ｉｔ　ｔｈａｔ　Ｉ　ｃａｎｎｏｔ　ｍａｋｅ　ｐｒｏｍｉｓｅー"TCC_NEWLINE"ｓ，　ｏｆ　ｃｏｕｒｓｅＩ　ｗｉｌｌ　ｓａｙ　ｔｈｉｓ，　"TCC_NEWLINE"ａｔ　ｌｅａｓｔ："TCC_NEWLINE TCC_PUSH_A
+"Ｋｅｅｐｉｎｇ　ｈｏｐｅ　ｉｓ　ａ　ｋｅｙ　ｆａｃｔｏｒ　"TCC_NEWLINE"ｏｆ　ｓｕｃｃｅｓｓ　ａｎｄ　Ｉ，　ｔｏｏ，　ｅｎｄｅａｖー"TCC_NEWLINE"ｏｒ　ｔｏ　ｍａｉｎｔａｉｎ　ｍｉｎｅ　ｇｏｉｎｇ　ｆｏｒー"TCC_NEWLINE"ｗａｒｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈｅｒｅ’ｓ　ｎｏ　ｎｅｅｄ　ｔｏ　ｗｏｒｒｙ！　Ｉ’ｍ"TCC_NEWLINE"　ｓｕｒｅ　ｅｖｅｒｙｔｈｉｎｇ　ｗｉｌｌ　ｔｕｒｎ　ｏｕー"TCC_NEWLINE"ｔ　ｗｅｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　Ａｓｋｒ　ａｎｄ　Ｅｍｂｌａ　ｃａｎ　ｃｏｏｐｅー"TCC_NEWLINE"ｒａｔｅ　ａｎｄ　ａｉｄ　ｅａｃｈ　ｏｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｅｓ．．．　Ａｓｋｒ　ａｎｄａｎｄ　Ｅｍｂｌａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｒｋ！　Ｕｒｇｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｕｈｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｒｉｎｃｅｓｓ．．．Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈｙ．．．　Ｓｕｄｄｅｎｌｙ，　Ｉ　ＡＡＡＧＧＧＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｖ－Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｏｈ　ｎｏ．．．　Ｔｈｉｓ　ｉｓ　ｓｕｒｅ　ｔｏ　ｂｅ　ｔー"TCC_NEWLINE"ｒｏｕｂｌｅ．　Ｆｏｒ　ｓｕｃｈ　ａ　ｔｅｒｒｉｂｌｅ　ｔー"TCC_NEWLINE"ｈｉｎｇ　ｔｏ　ｈａｐｐｅｎ，　ａｎｄ　ｎｏｗ，　ｏｆ　ａー"TCC_NEWLINE"ｌｌ　ｔｉｍｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｕｒｓｅ　ｏｆ　Ｅｍｂｌａ’ｓ　ｂｌｏｏｄ　ｈａー"TCC_NEWLINE"ｕｎｔｓ　ｈｅｒ　ｂｏｄｙ　ａｎｄ　ｍｉｎｄ，　ｗａｉｔｉー"TCC_NEWLINE"ｎｇ　ｆｏｒ　ｔｈｅ　ｍｏｍｅｎｔ　ｔｏ　ｔａｋｅ　ｃｏｎー"TCC_NEWLINE"ｔｒｏｌ　ｏｆ　ｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｓｈｅ．．．Ｅｍｂｌａ　ｗｉｌｌ　ｓｅｅｋ　ｔｏ　"TCC_NEWLINE"ｋｉｌｌ　ａｌｌ　ｔｈｏｓｅ　ｗｈｏ　ｈａｖｅ　ｃｏｍｅ　"TCC_NEWLINE"ｆｒｏｍ　Ａｓｋｒ，　ｍｙｓｅｌｆ　ｉｎｃｌｕｄｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｍｕｓｔ．．．ｋｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"Ｋｉｌｌ．．．Ａｓｋｒ．．．"
+TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"Ｈｅｒｅ．．．　Ｙｏｕ　ｄｉｅ　ｈｅｒｅ．．．　Ａｓｋｒ！"
+TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ’ｖｅ　ｎｅｖｅｒ　ｓｅｅｎ　Ｅｍｂｌａ’ｓ　ｃｕｒｓｅ"TCC_NEWLINE"　ｍａｎｉｆｅｓｔ　ｌｉｋｅ　ｔｈｉｓ　ｂｅｆｏｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｉｇｈｔ　ｉｔ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｋｉｌｌ．．．　ＫＩＬＬ．．．"
+"Ｎｙａｈ－ＡＡＡＧＨ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｖｏｉｃｅ．．．　Ｉｔ　ｗｏｎ’ｔ　ｓｔｏｐ．．．"TCC_NEWLINE"　ｔｅｌｌｉｎｇ　ｍｅ　ｔｏ　ｋｉｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ，　ａｒｅ　ｙｏｕ　ｂａー"TCC_NEWLINE"ｃｋ　ｉｎ　ｃｏｎｔｒｏｌ？　Ｌｅｔ　ｍｅ　ｔａｋｅ　ａ　"TCC_NEWLINE"ｌｏｏ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ！　Ｓｔａｙ　ｂａｃｋ．　Ｒｕｎ．．．　Ｈｕｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｓｔａｙ　ｈｅｒｅ．．．　Ｙｏｕ’ｒｅ　ａｓ"TCC_NEWLINE"　ｇｏｏｄ　ａｓ　ｄｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ．．．ｔｏ　ｓｔｏｐ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｅｖｅｒｙｏｎｅ，　ｐｕｌｌ　ｂａｃｋ！　Ｑｕｉｃｋｌｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6031_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｓｉｇｈｔ　ｌｉｎｅｓ　ｏｎ　ｔｈｉｓ　ｍｏｕｎｔー"TCC_NEWLINE"ａｉｎ　ｒｏｕｔｅ　ａｒｅ　ｃｅｒｔａｉｎｌｙ　ｎｏｔ　ｉー"TCC_NEWLINE"ｄｅａｌ　ｆｏｒ　ｕｎｄｅｒｓｔａｎｄｉｎｇ　ｔｈｅ　ｔｅー"TCC_NEWLINE"ｒｒａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓａｉｄ，　Ｉ　ｓｕｐｐｏｓｅ　ｉｔ　ｉｓ　ｐｒー"TCC_NEWLINE"ｅｆｅｒａｂｌｅ　ｔｏ　ａ　ｒｅｔｒｅａｔ　ｏｖｅｒ　ａｎ"TCC_NEWLINE"　ｏｐｅｎ　ｆｉｅｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｔ’ｓ　ａ　ｇｏｏｄ　ｔｈｉｎｇ　Ｌｅｔｉｚｉａ　ｔｏｌー"TCC_NEWLINE"ｄ　ｕｓ　ｔｈｉｓ　ｒｏｕｔｅ　ｗａｓ　ａｎ　ｏｐｔｉｏｎ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｕｍ．．．　Ａｓｈ？　Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ　"TCC_NEWLINE"ｂａｃｋ　ｔｈｅｒｅ，　ｂｙ　ｔｈｅ　ｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ASH
+"Ｏｈ．．．　Ｈｅｈ．．．　Ｙｅｓ．　Ｔｈａｎｋ　ｙｏｕ　ｆー"TCC_NEWLINE"ｏｒ　ａｓｋｉｎｇ，　ａｎｄ　Ｉ　ｄｏ　ａｐｏｌｏｇｉｚｅ"TCC_NEWLINE"　ｆｏｒ　ｍｙ　ｐａｃｅ．　Ｉ　ａｍ　ｉｍｐｒｅｓｓｅｄ　"TCC_NEWLINE"ｂｙ　ｙｏｕ　ａｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａ　ｓｃｏｕｔ　ｒｅｐｏｒｔ’ｓ　ｊｕｓｔ　ｃｏｍｅ　ｉｎ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｉｓ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｅ　ｈａｖｅ　ａ　ｐｒｏｂｌｅｍ．　Ｔｈｅ　ｂｒｉｄｇｅ"TCC_NEWLINE"　ｕｐ　ａｈｅａｄ　ｈａｓ　ｂｅｅｎ　ｋｎｏｃｋｅｄ　ｏｕー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｏｒｄｅｒ　ｔｏ　ｇｅｔ　ｂａｃｋ　ｔｏ　Ａｓｋｒ　"TCC_NEWLINE"ｆｒｏｍ　ｈｅｒｅ，　ｗｅ’ｌｌ　ｈａｖｅ　ｔｏ　ｔａｋｅ"TCC_NEWLINE"　ａ　ｒａｔｈｅｒ　ｌｅｎｇｔｈｙ　ｄｅｔｏｕｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ，　ｄｏｅｓ　ｔｈｉｓ　ｍｅａー"TCC_NEWLINE"ｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｔ　ｍｅａｎｓ　ｓｏｍｅｏｎｅ　ｉｓ　ｔｒｙｉｎｇ　ｔｏ"TCC_NEWLINE"　ｓｔｏｐ　ｕｓ　ｆｒｏｍ　ｒｅｔｕｒｎｉｎｇ　ｔｏ　Ａｓー"TCC_NEWLINE"ｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｗｈｏ？　Ｓｕｒｅｌｙ　ｉｔ　ｃｏｕｌｄｎ’ｔ"TCC_NEWLINE"　ｂｅ　ａｎｙｏｎｅ　ｗｈｏ　ｓｅｒｖｅｓ　Ｐｒｉｎｃｅｓー"TCC_NEWLINE"ｓ　Ｖｅｒｏｎｉｃａ，　ｃｏｕｌｄ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｍ．．．　Ａｎ　ｕｎｋｎｏｗｎ　ｆｏｅ．．．ａｎｄ　ｏｎー"TCC_NEWLINE"ｅ　ｔｈａｔ　ｉｓ　ｌｉｋｅｌｙ　ｃｌｏｓｅ　ｂｙ　ｅｖｅー"TCC_NEWLINE"ｎ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｓｕｓｐｅｃｔ　ｏｕｒ　ｒｅｔｕｒｎ　ｔｏ　Ａｓｋｒ　"TCC_NEWLINE"ｗｉｌｌ　ｐｒｏｖｅ　ｔｏ　ｂｅ　ｍｏｒｅ　ｏｆ　ａ　ｃｈー"TCC_NEWLINE"ａｌｌｅｎｇｅ　ｔｈａｎ　ｗｅ　ｈａｄ　ａｎｔｉｃｉｐａｔー"TCC_NEWLINE"ｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

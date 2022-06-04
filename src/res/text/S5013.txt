@@ -1,0 +1,45 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5013] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
+"みんな！" TCC_NEWLINE
+"国境の北にニザヴェリル兵が現れたわ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"今度は北ですか！？" TCC_NEWLINE
+"うぅ。。。姿を消して移動するから" TCC_NEWLINE
+"どこに現れるのか見当がつきません！" TCC_NEWLINE TCC_PUSH_A
+"" TCC_TACTICIAN_NAME "さんも" TCC_NEWLINE
+"作戦の立てようがなくて困ってますよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"手強いな。。。" TCC_NEWLINE
+"他の国もこの魔道科学の力の前に" TCC_NEWLINE
+"次々と敗北していったそうだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そ、そんな国に勝てるんでしょうか？" TCC_NEWLINE
+"お兄様、わたし不安です。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"弱気になるな、シャロン。" TCC_NEWLINE
+"諦めなければ道は開けるはずだ。" TCC_NEWLINE
+"そして。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"そして。。。なんですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"その道を開く鍵は、あのレギン王女が" TCC_NEWLINE
+"握っているのかもしれない。" TCC_NEWLINE
+"ただの直感だけど。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。" TCC_TACTICIAN_NAME "？" TCC_NEWLINE
+"君もそう思うのかい？" TCC_NEWLINE TCC_PUSH_A
+""
+"ありがとう。心強いよ。" TCC_NEWLINE
+"大丈夫、君と僕となら" TCC_NEWLINE
+"きっとこの難局も切り抜けられる。" TCC_NEWLINE TCC_PUSH_A
+""
+"これは直感じゃなくて確信だ。" TCC_NEWLINE
+"さあ、今日も僕たちを導いてくれ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

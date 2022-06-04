@@ -1,0 +1,39 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6054_EN] = TCC_OPEN_LEFT
+"Ｇｏｏｄ　ｔｅｃｈｎｉｑｕｅ　ｃｏｍｅｓ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　ｈｅａｒｔ．　Ｓｈａｎｎａｎ　ｔａｕｇｈｔ　ｍｅ　ｔｈａー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6054_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗａｋｅ　ｕｐ，　ｅｖｅｒｙｏｎｅ！　Ｗｅ　ｈａｖｅ　ａｎ"TCC_NEWLINE"　ｅｍｅｒｇｅｎｃｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"＊ｙａｗｎ＊　．．．Ｃｏｍｍａｎｄｅｒ　Ａｎｎａ？　Ｗｈａー"TCC_NEWLINE"ｔ　ｃｏｕｌｄ　ｂｅ　ｈａｐｐｅｎｉｎｇ　ｔｈｉｓ　ｅａｒー"TCC_NEWLINE"ｌｙ　ｉｎ　ｔｈｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｕｒ　ｓｕｐｐｌｙ　ｃｏｎｖｏｙ　ｉｓ　ｏｎ　ｆｉｒｅ！"TCC_NEWLINE"　Ａｌｆｏｎｓｅ　ａｎｄ　ｓｏｍｅ　ｏｆ　ｔｈｅ　ｏｔｈｅー"TCC_NEWLINE"ｒｓ　ａｒｅ　ｄｅａｌｉｎｇ　ｗｉｔｈ　ｉｔ　ｎｏｗ．　Ｗー"TCC_NEWLINE"ｅ　ｎｅｅｄ　ｔｏ　ｈｕｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｌｌ　ｂｅ　ｒｉｇｈｔ　ｔｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｗｅ　ｍａｎａｇｅｄ　ｔｏ　ｋｅｅｐ　ｉｔ　ｆｒｏｍ"TCC_NEWLINE"　ｂｕｒｎｉｎｇ　ｅｖｅｒｙｔｈｉｎｇ，　ｂｕｔ　ｗｅ　ｌー"TCC_NEWLINE"ｏｓｔ　ａｒｏｕｎｄ　ｈａｌｆ　ｏｕｒ　ｆｏｏｄ　ａｎｄ　"TCC_NEWLINE"ｇｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｕｎｃｌｅａｒ　ｗｈｅｔｈｅｒ　ｗｅ’ｌｌ　ｂｅ"TCC_NEWLINE"　ａｂｌｅ　ｔｏ　ｍａｋｅ　ｉｔ　ａｌｌ　ｔｈｅ　ｗａｙ　"TCC_NEWLINE"ｈｏｍｅ　ｗｉｔｈｏｕｔ　ｓｕｐｐｌｅｍｅｎｔｉｎｇ　ｏｕー"TCC_NEWLINE"ｒ　ｉｎｖｅｎｔｏｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈｅｎ　ｗｅ　ｃｏｒｎｅｒｅｄ　ｔｈｅ　ａｒｓｏｎｉｓｔ"TCC_NEWLINE"，　ｔｈｅｙ　ｔｈｒｅｗ　ｔｈｅｍｓｅｌｖｅｓ　ｉｎｔｏ　"TCC_NEWLINE"ｔｈｅ　ｆｌａｍｅｓ　ｒａｔｈｅｒ　ｔｈａｎ　ｂｅ　ｃａｕー"TCC_NEWLINE"ｇｈｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ａ　ｆｅｅｌｉｎｇ　Ｉ　ｋｎｏｗ　ｗｈｏ　ｓー"TCC_NEWLINE"ｅｎｔ　ｔｈｅｍ　ｏｕｒ　ｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｉｇｈｔ．　Ｉｔ　ｍｕｓｔ　ｈａｖｅ　ｂｅｅｎ　ｂｙ　Ｄー"TCC_NEWLINE"ｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ’ｓ　ｃｏｍｍａｎｄ．　Ｓｈー"TCC_NEWLINE"ｅ　ｆｏｕｎｄ　ａ　ｗｅａｋ　ｐｏｉｎｔ　ａｎｄ　ｅｘｐｌー"TCC_NEWLINE"ｏｉｔｅｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｈｏｗ　ｓｈｅ　ａｐｐｅａｒｓ　ｔｏ　ｏｐー"TCC_NEWLINE"ｅｒａｔｅ，　ｂａｓｅｄ　ｏｎ　ｗｈａｔ　ｗｅ’ｖｅ　ｓｅー"TCC_NEWLINE"ｅｎ　ｓｏ　ｆａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｉｔ　ｓｅｒｖｅｓ　ｈｅｒ　ｓｔｒａｔｅｇｙ，　ｓｈー"TCC_NEWLINE"ｅ　ｗｏｎ’ｔ　ｅｖｅｎ　ｈｅｓｉｔａｔｅ　ｔｏ　ｓａｃｒー"TCC_NEWLINE"ｉｆｉｃｅ　ｈｅｒ　ｏｗｎ　ｓｏｌｄｉｅｒｓ．　Ｓｈｅ’ｓ"TCC_NEWLINE"　ｍｅｒｃｉｌｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｊｕｓｔ　ａｓ　ｉｎ　ｂａｔｔｌｅ，　ｓｈｅ　ｓｅー"TCC_NEWLINE"ｎｄｓ　ｓｏｌｄｉｅｒｓ　ｉｎ　ａｓ　ｈｅｒ　ｓｈｉｅｌｄ"TCC_NEWLINE"　ｗｈｉｌｅ　ｓｈｅ　ｈｉｄｅｓ　ａｗａｙ　ｓｏｍｅｐｌａー"TCC_NEWLINE"ｃｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ’ｓ　ａｓ　ｃｏｗａｒｄｌｙ　ａｓ　ｓｈｅ　ｉｓ　ｃー"TCC_NEWLINE"ｒｕｅｌ，　ｌｉｋｅ　ｎｏ　ｏｎｅ　ｗｅ’ｖｅ　ｙｅｔ　ｅー"TCC_NEWLINE"ｎｃｏｕｎｔｅｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．Ｃｒｕｅｌ　ｉｎｄｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ｉｓ　ｉｔ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｉｆ　ｉｔ’ｌｌ　ｗｏｒｋ，　ｂー"TCC_NEWLINE"ｕｔ　Ｉ　ｈａｖｅ　ａｎ　ｉｄｅａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｔｏ　ｔｒｙ　ｔｏ　ｔａｌｋ　ｔｏ　ｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｍｅａｎ．．．ｓｉｔ　ｄｏｗｎ　ａｎｄ　ｄｉｓｃｕー"TCC_NEWLINE"ｓｓ　ｔｅｒｍｓ　ｗｉｔｈ　ｈｅｒ？　Ｇｅｔ　ｈｅｒ　ｔｏ"TCC_NEWLINE"　ｐｒｏｍｉｓｅ　ｎｏｔ　ｔｏ　ｄｏ　ａｎｙ　ｍｏｒｅ　ｈー"TCC_NEWLINE"ａｒｍ　ｓｏｍｅｈｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏ．　Ｌｉｋｅ　ｗｅ　ｓａｉｄ，　ｓｈｅ’ｓ　ｃｒｕｅｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｗｅ　ａｐｐｒｏａｃｈ　ｈｅｒ　ｌｉｋｅ　ｗｅ　ｗａー"TCC_NEWLINE"ｎｔ　ｔｏ　ａｐｐｅａｌ　ｔｏ　ｈｅｒ　ｅｍｏｔｉｏｎｓ，"TCC_NEWLINE"　ｓｈｅ　ｗｉｌｌ　ｏｎｌｙ　ｓｅｅ　ｉｔ　ａｓ　ｗｅａｋー"TCC_NEWLINE"ｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｈｅｒｅ’ｓ　ｗｈａｔ　ｗｅ’ｌｌ　ｄｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

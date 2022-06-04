@@ -1,0 +1,112 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｈ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ　ｇｌａｄ　ｔｏ　ｓｅｅ　ｙｏｕ　ｆｉｎａｌｌｙ　"TCC_NEWLINE"ａｗａｋｅ！　Ｙｏｕ　ｈａｄ　ｍｅ　ｗｏｒｒｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉｓ　ｓｏｍｅｔｈｉｎｇ　ｗｒｏｎｇ？　Ｗｈａｔ　ｉー"TCC_NEWLINE"ｓ　ｔｈｉｓ　ｂｌａｎｋ　ｅｘｐｒｅｓｓｉｏｎ　ｙｏｕ　ｈー"TCC_NEWLINE"ａｖｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｅｘｃｅｌｌｅｎｔ．　Ｎｏｗ　ｗｅ’ｒｅ　ａｌｌ　ａｗａｋー"TCC_NEWLINE"ｅ　ａｇａｉｎ，　ｗｉｔｈ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏ　ｄｏ　ｙｏｕ　ｎｏｔ　ｒｅｍｅｍｂｅｒ　ａｎｙｔｈｉー"TCC_NEWLINE"ｎｇ　ｅｉｔｈｅｒ？　Ｌｅｔ　ｍｅ　ｅｘｐｌａｉｎ　ｗｈａー"TCC_NEWLINE"ｔ　Ｉ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｏｆ　ｕｓ　ｓｌｅｐｔ　ｆｏｒ　ｔｈｒｅｅ　ｄａｙー"TCC_NEWLINE"ｓ　ａｎｄ　ｔｈｒｅｅ　ｎｉｇｈｔｓ．　Ａｎｄ　ｓｕｄｄｅー"TCC_NEWLINE"ｎｌｙ，　ｎｏｗ，　ｗｅ　ａｌｌ　ｗｏｋｅ　ｕｐ，　ｏｎｅ"TCC_NEWLINE"　ｂｙ　ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ｔｈｅ　ｌａｓｔ　ｏｆ　ｕｓ　ｔｏ　ｗａー"TCC_NEWLINE"ｋｅ，　ｆｏｌｌｏｗｉｎｇ　ｊｕｓｔ　ａｆｔｅｒ　Ｓｈａｒー"TCC_NEWLINE"ｅｎａ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｈｅｗ！　Ｔｈａｔ　ｗａｓ　ａ　ｇｒｅａｔ　ｎａｐ．．．"TCC_NEWLINE"　Ｏｈ，　ｇｏｏｄ　ｍｏｒｎｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ｌｉｋｅ　ｗｅ　ｗｅｒｅ　ａｌｌ　ｓｌｅー"TCC_NEWLINE"ｅｐｉｎｇ　ｆｏｒ　ｑｕｉｔｅ　ａ　ｗｈｉｌｅ，　ｗｅｒｅー"TCC_NEWLINE"ｎ’ｔ　ｗｅ？　Ｗｈｙ　ｄｉｄ　ｗｅ　ａｌｌ　ｆａｌｌ　ｓー"TCC_NEWLINE"ｌｅｅｐ，　ｔｈｏｕｇｈ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅｒ　ａ　ｔｈｉｎｇ！　Ｉｔ　"TCC_NEWLINE"ｆｅｅｌｓ　ｌｉｋｅ　Ｉ　ｈａｄ　ａ　ｒｅａｌｌｙ　ｌｏｎー"TCC_NEWLINE"ｇ　ｄｒｅａｍ，　ｂｕｔ　ｔｈｅ　ｄｅｔａｉｌｓ　ａｒｅ．"TCC_NEWLINE"．．ｇｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ　ｗｅｌｌ！　Ｉ’ｍ　ｓｕｒｅ　ｗｅ　ｈａｖｅ　ｎｏｔー"TCC_NEWLINE"ｈｉｎｇ　ｔｏ　ｗｏｒｒｙ　ａｂｏｕｔ．　Ｗｅ　ｓｈｏｕｌー"TCC_NEWLINE"ｄ　ｆｏｃｕｓ　ｏｎ　ｔｈｅ　ｔｉｍｅ　ｗｅ　ｌｏｓｔ　ｔー"TCC_NEWLINE"ｏ　ｏｕｒ　ｎａｐ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｉｍｅ　ｔｏ　ｇｅｔ　ｏｕｔ　ｔｈｅｒｅ　ａｎｄ　ｔａｋー"TCC_NEWLINE"ｅ　ｔｏｄａｙ’ｓ　ｍｉｓｓｉｏｎｓ　ｂｙ　ｓｔｏｒｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LOKI
+"Ｏｈ，　ｈｅｌｌｏ．　Ｌｏｖｅｌｙ　ｗｅａｔｈｅｒ，　ｉｓー"TCC_NEWLINE"ｎ’ｔ　ｉｔ？　Ｈｏｗ　ｈａｖｅ　ｙｏｕ　ｂｅｅｎ？　Ｗｅー"TCC_NEWLINE"ｌｌ，　Ｉ　ｈｏｐｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌｏｋｉ．．．　Ｉ　ｓｈｏｕｌｄ　ｈａｖｅ　ｇｕｅｓｓｅｄ"TCC_NEWLINE"．　Ｗｈａｔ　ｈａｖｅ　ｙｏｕ　ｄｏｎｅ　ｔｈｉｓ　ｔｉｍー"TCC_NEWLINE"ｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｅ？　Ｉ　ｈａｖｅｎ’ｔ　ｄｏｎｅ　ａ　ｔｈｉｎｇ．　Ｉー"TCC_NEWLINE"ｆ　ｙｏｕ　ｗａｎｔ　ｓｏｍｅｏｎｅ　ｔｏ　ｂｌａｍｅ．．"TCC_NEWLINE"．ｗｅｌｌ．．．　Ｉ　ｗｏｕｌｄｎ’ｔ　ｗａｎｔ　ｔｏ　ｓー"TCC_NEWLINE"ｐｏｉｌ　ｔｈｅ　ｓｕｒｐｒｉｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ａｈ！　Ｆｏｒｇｉｖｅ　ｍｙ　ｒｕｄｅｎｅｓｓ．　Ｗー"TCC_NEWLINE"ｅｌｃｏｍｅ　ｂａｃｋ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｄｉｄ　ｙｏｕ　ｈａｖｅ　ａ　ｐｌｅａｓａｎｔ　ｄｒｅａｍ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｈｅ’ｓ　ｇｏｎｅ．．．ａｇａｉｎ！　Ｗｅ’ｌｌ　ｎｅｖー"TCC_NEWLINE"ｅｒ　ｇｅｔ　ｃｌｏｓｅ　ｅｎｏｕｇｈ　ｔｏ　ｃａｐｔｕｒー"TCC_NEWLINE"ｅ　ｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏｎｅ．．．ａｇａｉｎ．．．　Ｈｕｈ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ　ｉｓ　ｉｔ，　Ｓｈａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｆｅｅｌ　ｌｉｋｅ．．．　Ｓｏｍｅｔｈｉｎｇ　ｉｓ　ｆー"TCC_NEWLINE"ａｍｉｌｉａｒ　ａｂｏｕｔ　ｔｈｉｓ．　Ｉｓ　ｉｔ　ｄｊ　"TCC_NEWLINE"ｖｕ，　ｏｒ　ｉｓ　ｉｔ　ｓｏｍｅｔｈｉｎｇ　ｆｒｏｍ　ａ"TCC_NEWLINE"　ｄｒｅａｍ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．ｗｈａｔ　ｄｒｅａｍ　ｗｏｕｌｄ　ｉｔ　ｈａｖー"TCC_NEWLINE"ｅ　ｂｅｅｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｒｅ　ｙｏｕ　ａｌｌ　ｒｉｇｈｔ，　Ｓｈａｒｅｎａ？　Ａー"TCC_NEWLINE"ｒｅ　ｙｏｕ　ｓｔｉｌｌ　ｈａｌｆ－ａｓｌｅｅｐ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｏｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｃｈａｉｎ　ｏｆ　ｆｌｏｗｅｒｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ．．．　Ｗｈｅｒｅ　ｄｉｄ　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｙ　ａｍ　Ｉ　ｓｕｄｄｅｎｌｙ．．．ｓｏ　ｓａｄ？　Ｔー"TCC_NEWLINE"ｈｅｓｅ　ｆｌｏｗｅｒｓ　ａｒｅ　ｂｒｅａｋｉｎｇ　ｍｙ　"TCC_NEWLINE"ｈｅａｒｔ，　ａｎｄ　Ｉ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｏｒｒｙ　ｔｏ　ｉｎｔｅｒｒｕｐｔ，　ｂｕｔ　Ｉ’ｖｅ　"TCC_NEWLINE"ｊｕｓｔ　ｒｅｃｅｉｖｅｄ　ａ　ｒｅｐｏｒｔ　ｙｏｕ’ｌｌ"TCC_NEWLINE"　ｗａｎｔ　ｔｏ　ｈｅａｒ，　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅー"TCC_NEWLINE"ｎａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｓｅｅｍｓ　ａ　ｃｈｉｌｄｈｏｏｄ　ｆｒｉｅｎｄ　ｏー"TCC_NEWLINE"ｆ　ｙｏｕｒｓ　ｈａｓ　ｊｕｓｔ　ａｒｒｉｖｅｄ　ｆｏｒ　"TCC_NEWLINE"ａｎ　ｕｎａｎｎｏｕｎｃｅｄ　ｖｉｓｉｔ．．．　Ａｈ，　ｓー"TCC_NEWLINE"ｐｅａｋｉｎｇ　ｏｆ，　ｔｈｅｒｅ　ｓｈｅ　ｉｓ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｇｏｏｄ　ｍｏｒｎｉｎｇ，　ｅｖｅｒｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　Ｐｅｏｎｙ！　Ｉ’ｍ　ａ　ｌｊｓｌｆｒｏｒ　ｌｉｇー"TCC_NEWLINE"ｈｔ　ｅｌｆ，　ｙｏｕ　ｍｉｇｈｔ　ｓａｙ．　Ｉ’ｍ　ｆｒー"TCC_NEWLINE"ｏｍ　ｔｈｅ　ｌａｎｄ　ｏｆ　ｄｒｅａｍｓ，　Ｌｊｓｌｆｈー"TCC_NEWLINE"ｅｉｍｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PLUMERIA
+"Ｗｈｅｒｅ．．．ａｍ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"．．．Ｌ－Ｌａｄｙ　Ｆｒｅｙｊａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｙｏｕ　ｈａｖｅ　ａｗｏｋｅｎ．　Ｂｏｔｈ　ｏｆ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌａｄｙ　Ｆｒｅｙｊａ，　ｗｈｙ．．．　Ｗｈａｔ　ｉｓ　ｔー"TCC_NEWLINE"ｈｉｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｍｙ　ｄｅｅｐｅｓｔ　ａｐｏｌｏｇｉｅｓ．　Ｉ　ｗｉｌｌ　"TCC_NEWLINE"ｐｒｅｐａｒｅ　ｔｏ　ｆａｃｅ　ｏｕｒ　ｅｎｅｍｉｅｓ　ｐー"TCC_NEWLINE"ｒｏｐｅｒｌｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｎｏ．　Ｔｈｅｒｅ　ｉｓ．．．ｎｏ　ｎｅｅｄ　ａｎｙ　ｌｏー"TCC_NEWLINE"ｎｇｅｒ．　Ｔｈｅ　ｔｗｏ　ｏｆ　ｙｏｕ　ａｒｅ　ｆｒｅｅ"TCC_NEWLINE"．　Ｙｏｕ　ｎｅｅｄ　ｎｏｔ　ｏｂｅｙ　ｍｅ　ａｎｙｍｏｒー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｍ．．．ａｌｒｅａｄｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌａｄｙ　Ｆｒｅｙｊａ，　ｎｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗｏｕｌｄ．．．　Ｙｏｕ’ｄ　ｇｉｖｅ　ｙｏｕｒ　"TCC_NEWLINE"ｌｉｆｅ　ｆｏｒ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｒｉａｎｄｒａ．　Ｐｌｕｍｅｒｉａ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｌｏｖｅｄ　ｍｙ　ｂｒｏｔｈｅｒａｎｄ　ｏｎｌｙ　ｈｉー"TCC_NEWLINE"ｍ．　Ｈｅ　ｗａｓ　ｅｖｅｒｙｔｈｉｎｇ　ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｖｅｒ　ｌｏｖｅｄ　ｙｏｕ，　ｂｅｃａｕｓｅ　ｏｎー"TCC_NEWLINE"ｌｙ　ｍｙ　ｂｒｏｔｈｅｒ　ｍｅａｎｔ　ａｎｙｔｈｉｎｇ　"TCC_NEWLINE"ｔｏ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｋｎｏｗ，　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｎ．．．ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈｙ？　Ｈｅｈ．．．　Ｉ　ａｓｋｅｄ　ｙｏｕ　ｔｈｅ　ｓー"TCC_NEWLINE"ａｍｅ　ｑｕｅｓｔｉｏｎ，　ｄｉｄ　Ｉ　ｎｏｔ？　Ｅｖｅｎ"TCC_NEWLINE"　ｋｎｏｗｉｎｇ　ｗｈａｔ　ｙｏｕ　ｄｏ，　ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ａｎｓｗｅｒ　ｆｏｒ　ｙｏｕ．　Ｉ　ｃー"TCC_NEWLINE"ａｎｎｏｔ　ｕｎｄｅｒｓｔａｎｄ　ｉｔ　ｍｙｓｅｌｆ．　Ｉー"TCC_NEWLINE"ｔ　ｒｅｍｉｎｄｓ　ｍｅ　ｏｆ　ｓｏｍｅｔｈｉｎｇ　ａ　ｍー"TCC_NEWLINE"ｏｒｔａｌ　ｍｉｇｈｔ　ｄｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｎｅｖｅｒ　ｕｎｄｅｒｓｔｏｏｄ　ｍｙ　ｂｒｏｔｈｅｒ"TCC_NEWLINE"，　ｗｈｙ　ｈｅ　ｌｏｖｅｄ　ｈｕｍａｎｓ，　ｗｈｙ　ｈｅ"TCC_NEWLINE"　ｗｏｕｌｄ　ｔｈｒｏｗ　ｈｉｓ　ｌｉｆｅ　ａｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｌａｄｙ　Ｆｒｅｙｊａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｙ　ｄｒｅａｍ　ｈａｓ　ｃｏｍｅ　ｔｏ　ｉｔｓ　ｅｎｄ．"TCC_NEWLINE"　Ｙｏｕ　ｍｕｓｔ　ｆｉｎｄ　ａ　ｎｅｗ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｏｎｌｙ　ｗｉｓｈｅｄ　ｆｏｒ　ｆｏｏｌｉｓｈ　ｃｈｉー"TCC_NEWLINE"ｌｄｒｅｎ　ｗｈｏ　ｗｏｕｌｄ　ｔｏｓｓ　ｔｈｅｉｒ　ｍｏー"TCC_NEWLINE"ｒｔａｌ　ｌｉｖｅｓ　ｂｅｈｉｎｄ　ａｎｄ　ｓｅｒｖｅ　ｍー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｍｅ，　ｙｏｕ　ｗｅｒｅ　ｍｅｒｅ　ｔｏｏｌｓ．　Ｂー"TCC_NEWLINE"ｕｔ　ｎｏｗ　ｔｈａｔ，　ｔｏｏ，　ｈａｓ　ｅｎｄｅｄ．　"TCC_NEWLINE"Ｓｏ　ｐｌｅａｓｅ，　ｌｅａｖｅ　ｍｅ．　Ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ，　ｗｅ　ｒｅｆｕｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ａｒｅ　ｙｏｕｒ　ｌｆａｒ　Ｌａｄｙ　Ｆｒｅｙｊａ．"TCC_NEWLINE"　Ｗｅ　ｗｉｌｌ　ｎｏｔ　ｌｅａｖｅ　ｙｏｕｒ　ｓｉｄｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｉｓ　ｎｏ　ｕｓｅ．　Ｍｙ　ｆａｔｅ　ｉｓ　ａｌｒｅー"TCC_NEWLINE"ａｄｙ　ｓｅａｌｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅ　ｗｉｌｌ　ｆｉｎｄ　ａ　ｗａｙａ　ｗａｙ　ｔｏ　ｂｒー"TCC_NEWLINE"ｉｎｇ　ｙｏｕ　ｂａｃｋ　ｔｏ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ，　ｔｈｅｒｅ　ｍｕｓｔ　ｓｕｒｅｌｙ　ｂｅ　ａ　ｗー"TCC_NEWLINE"ａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｌｌ　ｎｅｖｅｒ　ｕｎｄｅｒｓｔａｎｄ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｒｏｔｈｅｒ　ａｌｏｎｅ　ｍｅａｎｔ　ａｎｙｔｈｉー"TCC_NEWLINE"ｎｇ　ｔｏ　ｍｅ，　ａｎｄ　ｙｅｔ，　ｅｖｅｎ　ｓｔｉｌｌ"TCC_NEWLINE"．．．ｗｉｔｈ　ｙｏｕ　ｔｗｏ，　ｈｅｒｅ．．．ｎｏｗ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｖｅ　ｍａｄｅ　ｍｅ．．．ｓｍｉｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｌａｄｙ　Ｆｒｅｙｊａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｌｅａｓｅ　ｈｏｌｄ　ｏｎ，　Ｌａｄｙ　Ｆｒｅｙｊａ．．"TCC_NEWLINE"．　Ｗｅ　ｗｉｌｌ　ｆｉｎｄ　ａ　ｗａｙ　ｔｏ　ｗａｋｅ　"TCC_NEWLINE"ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｕｎｔｉｌ　ｗｅ　ｄｏ．．．ｒｅｓｔ　ｅａｓｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,54 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｕｍｍ．．．　Ｈｍｍ．．．　Ｏｈ！　Ｔｈｉｓ　ｗａｙ！　ｔー"TCC_NEWLINE"ｒ　ｗｅｎｔ　ｔｈｉｓ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ａｒｅ　ｙｏｕ　ｓｕｒｅ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｅｆｉｎｉｔｅｌｙ！　Ｉｆ　ｗｅ　ｊｕｓｔ　ｆｏｌｌｏｗ"TCC_NEWLINE"　ｗｈｅｒｅ　ｍｙ　ｃｏｍｐａｓｓ　ｐｏｉｎｔｓ，　ｗｅ’"TCC_NEWLINE"ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｉｎｔｅｒｃｅｐｔ　ｍｙ　ｂｒー"TCC_NEWLINE"ｏｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏｈ，　ｗｏｗ！　Ｉｓ　ｔｈａｔ　ａｎｏｔｈｅｒ　ｅｘａｍー"TCC_NEWLINE"ｐｌｅ　ｏｆ　Ｎｉａｖｅｌｌｉｒ’ｓ　ｓｅｉｊｒｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆｆｎｉｒ　ｍａｄｅ　ｉｔ　ｆｏｒ　ｍｅ　ｗｈｅｎ　Ｉ　ｗー"TCC_NEWLINE"ａｓ　ｙｏｕｎｇｓｏ　Ｉ　ｗｏｕｌｄｎ’ｔ　ｇｅｔ　ｌｏｓー"TCC_NEWLINE"ｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔ　ｔｈａｔ　Ｉ　ｇｅｔ　ｌｏｓｔ　ａｌｌ　ｔｈｅ　ｔー"TCC_NEWLINE"ｉｍｅ，　ｂｕｔ　Ｉ　ａｌｗａｙｓ　ｃａｒｒｙ　ｉｔ　ｗｉー"TCC_NEWLINE"ｔｈ　ｍｅ．．．　Ｌｉｋｅ　ａ　ｐｒｏｔｅｃｔｉｏｎ　ｃｈー"TCC_NEWLINE"ａｒｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｎｏｔ　ａｌｌ　ｔｈｅ　ｔｉｍｅ，　ｈｕｈ．．．　Ｗｅｌｌ"TCC_NEWLINE"，　ｉｔ　ｓｕｒｅ　ｉｓ　ｈｅｌｐｆｕｌ　ｎｏｗ，　ａｔ　"TCC_NEWLINE"ｌｅａｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｅｉｊｒｎ　ｃｅｒｔａｉｎｌｙ　ｍａｋｅｓ　ｌｉｆｅ　ｅー"TCC_NEWLINE"ａｓｉｅｒ　ｓｏｍｅｔｉｍｅｓ．　Ｉｔ’ｓ　ａ　ｓｈａｍｅ"TCC_NEWLINE"　ｉｔ　ｃａｎ　ｂｅ　ｔｗｉｓｔｅｄ　ａｎｄ　ｕｓｅｄ　ｆー"TCC_NEWLINE"ｏｒ　ｕｎｊｕｓｔ　ｃａｕｓｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5061_EN] = TCC_OPEN_LEFT
+"Ｌｏｒｄ　Ｐｅｎｔ，　Ｌａｄｙ　Ｌｏｕｉｓｅ．．．　Ｉ　ｗー"TCC_NEWLINE"ｉｌｌ　ｒｅｐａｙ　ｍｙ　ｄｅｂｔ　ｔｏ　ｙｏｕ　ｏｎｅ　"TCC_NEWLINE"ｄａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5061_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ａｈ！　Ｉ　ｒｅｃｏｇｎｉｚｅ　ｔｈｉｓ　ｐｌａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｓ　ｔｈｅｒｅ　ｓｏｍｅｔｈｉｎｇ　ｓｉｇｎｉｆｉｃａｎー"TCC_NEWLINE"ｔ　ａｂｏｕｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　ａ　ｌｏｎｇ　ｔｉｍｅ　ａｇｏ，　ｍｙ　ｂｒｏー"TCC_NEWLINE"ｔｈｅｒｓ　ａｎｄ　Ｉ　ｌｉｖｅｄ　ｔｏｇｅｔｈｅｒ　ｉｎ"TCC_NEWLINE"　ａ　ｓｍａｌｌ　ｈｏｕｓｅ　ｉｎ　ａ　ｎｅａｒｂｙ　ｖｉー"TCC_NEWLINE"ｌｌａｇｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏｈ，　ｒｅａｌｌｙ？　Ｓｏ　ｔｈｉｓ　ｉｓ　ｓｏｍｅｔｈー"TCC_NEWLINE"ｉｎｇ　ｏｆ　ａ　ｈｏｍｅｃｏｍｉｎｇ　ｔｈｅｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎ　ｔｈｏｓｅ　ｄａｙｓ，　Ｆｆｎｉｒ　ｗａｓ　ｓｔｉｌー"TCC_NEWLINE"ｌ　ｊｕｓｔ　ａ　ｒｅｇｕｌａｒ　ｓｏｌｄｉｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｅｖｅｎ　ｔｈｅｎ　ｈｅ　ｗｏｕｌｄ　ｔａｌｋ　ａー"TCC_NEWLINE"ｂｏｕｔ　ｈｏｗ　ｈｅ　ｗｏｕｌｄ　ｓｏｍｅｄａｙ　ｂｅ　"TCC_NEWLINE"ｋｉｎｇ　ａｎｄ　ｔａｋｅ　ｕｓ　ｔｏ　ｌｉｖｅ　ｉｎ　ａ"TCC_NEWLINE"　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｈｅ　ａｃｔｕａｌｌｙ　ｄｉｄ　ｊｕｓｔ　ｔｈａー"TCC_NEWLINE"ｔ，　Ｉ　ｃｏｕｌｄ　ｈａｒｄｌｙ　ｂｅｌｉｅｖｅ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｖｅ　ｂｅｅｎ　ｗｏｎｄｅｒｉｎｇ．．．　Ｆｆｎｉｒ　"TCC_NEWLINE"ｅｘｃｅｌｓ　ａｔ　ｂａｔｔｌｅ，　ｂｕｔ　ｄｏｅｓ　ｈｅ"TCC_NEWLINE"　ｃｏｍｅ　ｆｒｏｍ　ａ　ｎｏｂｌｅ　ｆａｍｉｌｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｈｅ　ａｌｗａｙｓ　ｓａｉｄ　ｈｅ　ｄｏｅｓｎ’ｔ　ｒｅｍー"TCC_NEWLINE"ｅｍｂｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈｕｈ？　Ｈｏｗ　ｃｏｕｌｄ　ｔｈａｔ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｃａｎ’ｔ　ｓａｙ　Ｉ　ｕｎｄｅｒｓｔａｎｄ　ｉｔ　ｍー"TCC_NEWLINE"ｙｓｅｌｆ．　Ｈｅ　ｔｏｌｄ　ｕｓ　ｈｅ　ｊｕｓｔ．．．ｗー"TCC_NEWLINE"ｏｋｅ　ｕｐ　ｏｎ　ａ　ｂａｔｔｌｅｆｉｅｌｄ　ｏｎｅ　ｄー"TCC_NEWLINE"ａｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｓｅｅ．．．　Ｐｅｒｈａｐｓ　ｈｅ　ｗａｓ　ｄｅａｌｔ"TCC_NEWLINE"　ａ　ｂｌｏｗ　ｄｕｒｉｎｇ　ｂａｔｔｌｅ　ａｎｄ　ｌｏｓー"TCC_NEWLINE"ｔ　ｈｉｓ　ｍｅｍｏｒｙ　ａｓ　ａ　ｒｅｓｕｌｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｂｕｔ　ｈｅ’ｓ　ｋｉｎｇ　ｎｏｗ，　ｒｉｇｈｔ？　Ｅｖｅー"TCC_NEWLINE"ｎ　ｂｅｉｎｇ　ｋｎｏｗｎ　ａｃｒｏｓｓ　ｔｈｅ　ｒｅａｌー"TCC_NEWLINE"ｍ，　ｎｏ　ｏｎｅ　ｃａｍｅ　ｆｏｒｗａｒｄ　ａｎｄ　ｃｌー"TCC_NEWLINE"ａｉｍｅｄ　ｈｉｍ　ａｓ　ｆａｍｉｌｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"ｔｒ　ｗｏｒｒｉｅｄ　ｔｈａｔ　ｗｏｕｌｄ　ｈａｐｐｅｎ．"TCC_NEWLINE"．．　Ｈｅ　ｔｈｏｕｇｈｔ　ｉｆ　ｓｏｍｅｔｈｉｎｇ　ｌｉー"TCC_NEWLINE"ｋｅ　ｔｈａｔ　ｈａｐｐｅｎｅｄ，　Ｆｆｎｉｒ　ｗｏｕｌｄ"TCC_NEWLINE"　ｌｅａｖｅ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｔｗｏ　ｏｆ　ｕｓ　ｃｒｉｅｄ　ａｔ　ｔｈｅ　ｔｈー"TCC_NEWLINE"ｏｕｇｈｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｆｆｎｉｒ　ｊｕｓｔ　ｓｍｉｌｅｄ　ａｎｄ　ｃｏｍー"TCC_NEWLINE"ｆｏｒｔｅｄ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｔｏｌｄ　ｕｓ　ｔｈａｔ　ｗｅ　ｗｅｒｅ　ｈｉｓ　ｆー"TCC_NEWLINE"ａｍｉｌｙ　ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｈａｐｐｅｎｅｄ"TCC_NEWLINE"，　ａｎｄ　ｈｅ　ｐｒｏｍｉｓｅｄ　ｔｏ　ｓｔａｙ　ｗｉｔー"TCC_NEWLINE"ｈ　ｕｓ　ｆｏｒｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏ　ｏｎｅ　ｅｖｅｒ　ｓｈｏｗｅｄ　ｕｐ　ｃｌａー"TCC_NEWLINE"ｉｍｉｎｇ　ｔｏ　ｋｎｏｗ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．Ｔｈｅ　ｍｏｒｅ　Ｉ　ｌｅａｒｎ　ａｂｏｕｔ　Ｆｆｎー"TCC_NEWLINE"ｉｒ，　ｔｈｅ　ｈａｒｄｅｒ　ｉｔ　ｉｓ　ｆｏｒ　ｍｅ　ｔー"TCC_NEWLINE"ｏ　ｂｅｌｉｅｖｅ　ｈｅ　ｉｓ　ｔｈｅ　ｓａｍｅ　ｐｅｒｓー"TCC_NEWLINE"ｏｎ　ｗｅ　ｊｕｓｔ　ｍｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｊｕｓｔ　ｇｅｔ　ｍｏｒｅ　ａｎｄ　ｍｏｒｅ　ｃｕｒｉー"TCC_NEWLINE"ｏｕｓ．　Ｗｈｏ　ｉｓ　ｈｅ　ｒｅａｌｌｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

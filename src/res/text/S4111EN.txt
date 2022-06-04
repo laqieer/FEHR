@@ -1,0 +1,63 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"．．．ａｋｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗａｋｅ　ＵＰ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｇｎｈ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅｌｌ，　ｉｆ　ｙｏｕ　ｉｎｓｉｓｔ　ｏｎ　ｓｌｅｅｐｉー"TCC_NEWLINE"ｎｇ，　Ｉ　ｃａｎ　ｔａｋｅ　ｔｈｉｓ　ｃｈａｎｃｅ　ｔｏ"TCC_NEWLINE"　ｆｉｎａｌｌｙ　ｅｎｄ　ｙｏｕ．．．　Ａｎｙ　ｌａｓｔ　"TCC_NEWLINE"ｗｏｒｄｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗ－ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？　Ｗｈａｔ　ａｒｅ　ｗー"TCC_NEWLINE"ｅ　．．．Ｗｈｅｒｅ　ａｒｅ　ｗｅ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｆｔｅｒ　ｙｏｕ　ｆｅｌｌ　ａｓｌｅｅｐ，　ｔｈｅ　ｎｉー"TCC_NEWLINE"ｇｈｔｍａｒｅｓ　ｊｕｓｔ　ｄｉｓａｐｐｅａｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｗｈａｔ　ｙｏｕ　ｄｉｄ，　ｂｕー"TCC_NEWLINE"ｔ　ｉｔ　ｓｅｅｍｓ　ｔｏ　ｈａｖｅ　ｗｏｒｋｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｓｅｅ．　Ｔｈａｎｋ　ｇｏｏｄｎｅｓｓ　ｅｖｅｒｙｔｈー"TCC_NEWLINE"ｉｎｇ　ｉｓ　ｆｉｎａｌｌｙ　ｂａｃｋ　ｔｏ　ｎｏｒｍａｌ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"．．．Ｆｏｏｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｆ－Ｆｒｅｙｊａ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ａｒｅ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉ　ｔｏｌｄ　ｙｏｕ．　Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｙｏー"TCC_NEWLINE"ｕ　ｄｏ，　ｔｈｅｒｅ　ｉｓ　ｎｏ　ｅｓｃａｐｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ．．．ｉｓｎ’ｔ　ｏｖｅｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｈｏｗ？！　Ｗｉｔｈｏｕｔ　ｔｈｅ　ｐｏｗｅｒ　ｏー"TCC_NEWLINE"ｆ　Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ，　ｙｏｕｒ　ｎｉｇｈー"TCC_NEWLINE"ｔｍａｒｅｓ　ｓｈｏｕｌｄ　ｈａｖｅ　ｎｏ　ｉｎｆｌｕｅｎー"TCC_NEWLINE"ｃｅ　ｏｎ　ｒｅａｌｉｔｙ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　ｈｏｗ　ａｒｅ　ｙ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｗｈｙ　ｗｏｕｌｄ　Ｉ　ｔｅｌｌ　ｙｏｕ　ｗｈｅｎ　Ｉ　ｃー"TCC_NEWLINE"ａｎ　ｌｅａｖｅ　ｔｈｅ　ｑｕｅｓｔｉｏｎ　ｔｏ　ｇｎａｗ"TCC_NEWLINE"　ａｗａｙ　ａｔ　ｙｏｕｒ　ｍｉｎｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｎｏ　ｍａｔｔｅｒ　ｗｈａｔ　ｙｏｕ　ｄｏ，　ｎｉｇｈｔｍー"TCC_NEWLINE"ａｒｅｓ　ｗｉｌｌ　ｈａｕｎｔ　ｙｏｕｒ　ｅｖｅｒｙ　ｓｔー"TCC_NEWLINE"ｅｐ．．．　Ｎｏｔｈｉｎｇ　ｃａｎ　ｃｈａｎｇｅ　ｔｈａｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4111_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｗｈａｔ　ｄｏｅｓ　ｓｈｅ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅｒｅｎ’ｔ　ｙｏｕ　ｇｏｉｎｇ　ｔｏ　ｍａｋｅ　ｔｈｅ"TCC_NEWLINE"　ｎｉｇｈｔｍａｒｅｓ　ｄｉｓａｐｐｅａｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉ’ｍ　ｓｏｒｒｙ．．．　Ｉｔ　ｗａｓｎ’ｔ　ｓｕｐｐｏｓー"TCC_NEWLINE"ｅｄ　ｔｏ　ｂｅ　ｌｉｋｅ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｉ　ａｍ　ｓｏ，　ｓｏ　ｓｏｒｒｙ．　Ａｆｔｅｒ　ｙｏｕ　"TCC_NEWLINE"ｐｕｔ　ｙｏｕｒ　ｔｒｕｓｔ　ｉｎ　ｍｅ，　ｔｈｉｓ　ｉｓ"TCC_NEWLINE"　ｈｏｗ　ｉｔ　ａｌｌ　ｔｕｒｎｅｄ　ｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔａｎｄ　ｉｔ！　Ｗｈｙ．．．"TCC_NEWLINE"ＨＯＷ　ａｒｅ　ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ　ｓｔｉｌｌ　"TCC_NEWLINE"ｃｒｏｓｓｉｎｇ　ｏｖｅｒ　ｉｎｔｏ　ｒｅａｌｉｔｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｍｉｒａｂｉｌｉｓ！　Ｄｏ　ｙｏｕ　ｈａｖｅ　ａｎｙ　ｉｄー"TCC_NEWLINE"ｅａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｚｚｚ．．．　Ｚｚｚ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｍｉｒａｂｉｌｉｓ！　Ｗａｋｅ　ｕｐ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"＊ｙａｗｎ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｈａｖｅ　ｎｏ　ｃｌｕｅ．　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　"TCC_NEWLINE"ａｎｙｔｈｉｎｇ　ａｂｏｕｔ　ａｎｙｔｈｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ　ｈａｖｅ　ｎｏｗｈｅｒｅ　ｌｅｆｔ　ｔｏ　ｒｕｎ．．"TCC_NEWLINE"．　Ｂｕｔ　ｆｏｒ　ｎｏｗ，　ｗｅ　ｈａｖｅ　ｎｏ　ｃｈｏー"TCC_NEWLINE"ｉｃｅ　ｂｕｔ　ｔｏ　ｋｅｅｐ　ｍｏｖｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｎｉｇｈｔｍａｒｅｓ　ｗｉｌｌ　ｂｅ　ｏｎ　ｏｕｒ"TCC_NEWLINE"　ｈｅｅｌｓ　ｎｏ　ｍａｔｔｅｒ　ｗｈｅｒｅ　ｗｅ　ｇｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｊｕｓｔ　ｈａｖｅ　ｔｏ　ｆｅｎｄ　ｔｈｅｍ　"TCC_NEWLINE"ｏｆｆ　ａｓ　ｂｅｓｔ　ｗｅ　ｃａｎ　ａｓ　ｗｅ　ｒｅｔｒー"TCC_NEWLINE"ｅａｔ．．．　Ｕｎｔｉｌ　ｗｅ　ｈａｖｅ　ａ　ｂｅｔｔｅｒ"TCC_NEWLINE"　ｐｌａｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａｆｔｅｒ　ａｌｌ　ｔｈａｔ，　ｗｅ　ｆｉｎａｌｌｙ　ｗａー"TCC_NEWLINE"ｋｅ　ｒｅａｄｙ　ｆｏｒ　ａ　ｇｏｏｄ　ｍｏｒｎｉｎｇ．．"TCC_NEWLINE"．ｏｎｌｙ　ｔｏ　ｈａｖｅ　ｎｉｇｈｔｍａｒｅｓ　ｓｔｉｌー"TCC_NEWLINE"ｌ　ｃｈａｓｉｎｇ　ｕｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉｔ’ｓ　ａｌｌ　ｒｉｇｈｔ！　Ｎｏ　ｍａｔｔｅｒ　ｉｆ　"TCC_NEWLINE"ｗｅ’ｒｅ　ｉｎ　ａ　ｄｒｅａｍ　ｏｒ　ｒｅａｌｉｔｙ，　"TCC_NEWLINE"ｗｅ　ａｌｗａｙｓ　ｆｉｎｄ　ｓｏｍｅ　ｗａｙ　ｔｏ　ｏｖー"TCC_NEWLINE"ｅｒｃｏｍｅ　ｔｈｅ　ｏｄｄｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｌｅｔ’ｓ　ｒｕｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,188 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｗｅｌｌ　ｄｏｎｅ．　Ｙｏｕ　ｍａｄｅ　ｉｔ！　Ｎｏｗ，　"TCC_NEWLINE"ｗｈｅｒｅ　ｗｏｕｌｄ　ｙｏｕ　ｌｉｋｅ　ｍｅ　ｔｏ　ｂｅー"TCC_NEWLINE"ｇｉｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕ　ｓａｉｄ　ｙｏｕ　ｓｅｒｖｅｄ　ｔｈｅ　ｆｉｒｓｔ"TCC_NEWLINE"　ｋｉｎｇ　ｏｆ　Ｎｉａｖｅｌｌｉｒ．　Ｗａｓ　ｔｈａｔ　"TCC_NEWLINE"ｔｒｕｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ｔｈｉｓ　ｂｏｄｙ　ｉｓ　ｊｕｓｔ　ａ　ｖｅｓｓー"TCC_NEWLINE"ｅｌ，　ｙｏｕ　ｓｅｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｏｒｉｇｉｎａｌ　ｍｅ　ｌｉｖｅｄ．．．　Ｈｍ．　"TCC_NEWLINE"Ｉ　ｃａｎ’ｔ　ｓｅｅｍ　ｔｏ　ｒｅｍｅｍｂｅｒ！　Ｓｕｆー"TCC_NEWLINE"ｆｉｃｅ　ｉｔ　ｔｏ　ｓａｙ，　Ｉ’ｖｅ　ｌｉｖｅｄ　ｔｈー"TCC_NEWLINE"ｏｕｓａｎｄｓ　ｏｆ　ｙｅａｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｔｈ－ｔｈｏｕｓａｎｄｓ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ　ｌｅｇｅｎｄｓ　ａｎｄ　ｍｙｔｈｓ　ａｃｒｏｓｓ　"TCC_NEWLINE"ａｌｌ　ｔｈｅ　ｍａｎｙ　ｗｏｒｌｄｓ　ｍａｋｅ　ｍｅｎｔー"TCC_NEWLINE"ｉｏｎ　ｏｆ　ｂｅｉｎｇｓ　ｂｌｅｓｓｅｄ　ｗｉｔｈ　ｅｘー"TCC_NEWLINE"ｔｒｅｍｅｌｙ　ｌｏｎｇ　ｌｉｖｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｉｔｒｉ，　ａｒｅ　ｙｏｕ　ａ　ｄｒａｇｏｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈａｈａｈａ！　Ｎｏ，　ｎｏ．．．　Ａｌａｓ，　Ｉ　ａｍ"TCC_NEWLINE"　ｓｔｉｌｌ　ａ　ｍｅｒｅ　ｍｏｒｔａｌ．　Ｍｏｒｅ　ｏｒ"TCC_NEWLINE"　ｌｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｉｄ　ｍａｎａｇｅ　ｔｏ　ｂｏｒｒｏｗ　ｓｏｍｅ　ｔー"TCC_NEWLINE"ａｌｅｎｔｓ　ｆｒｏｍ　ａ　ｄｒａｇｏｎ，　ｈｏｗｅｖｅｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｍｙ　ｂｏｄｙ　ｃｅａｓｅｓ　ｔｏ　ｌｉｖｅ，　"TCC_NEWLINE"Ｉ　ｃａｎ　ｔｒａｎｓｆｅｒ　ｍｙ　ｅｓｓｅｎｃｅ　ｔｏ　"TCC_NEWLINE"ａ　ｎｅｗ　ｖｅｓｓｅｌ，　ａ　ｎｅｗ　ｂｏｄｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｙ　ｄｏｉｎｇ　ｓｏ　ｃｏｕｎｔｌｅｓｓ　ｔｉｍｅｓ，　"TCC_NEWLINE"Ｉ　ｈａｖｅ　ｓｈａｐｅｄ　Ｎｉａｖｅｌｌｉｒ　ａｎｄ　ｓー"TCC_NEWLINE"ａｆｅｇｕａｒｄｅｄ　ｉｔ　ｆｏｒ　ｍａｎｙ　ｌｏｎｇ　ｙー"TCC_NEWLINE"ｅａｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｈｅ　ｃａｓｔｌｅ．．．　Ｙｏｕ　ｋｎｏｗ　ｔｈｅ"TCC_NEWLINE"　ｍｕｒａｌｓ　ａｎｄ　ｓｔａｔｕｅｓ　ｏｆ　ａｌｌ　ｔｈー"TCC_NEWLINE"ｅ　ｇｒｅａｔ　ｆｉｇｕｒｅｓ　ｆｒｏｍ　ｔｈｅ　ｈｉｓｔー"TCC_NEWLINE"ｏｒｙ　ｏｆ　Ｎｉａｖｅｌｌｉｒ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｆｒｉｋ，　Ｄｖａｌｉｎｎ，　Ｂｉｌｌｉｎｇｒ，　Ｇｒー"TCC_NEWLINE"ｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｏｆ　ｔｈｅｍ　ｗｅｒｅ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｙｏｕ　ｗｅｒｅ．．．ＡＬＬ　ｏｆ　ｔｈｅｍ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｆｆｎｉｒ　ａｎｄ　ｔｈｅ　ｏｔｈｅｒ　ｆａｉｌｅｄ　ｓｕー"TCC_NEWLINE"ｍｍｏｎｓ　ｙｏｕ　ｐｅｒｆｏｒｍｅｄ．．．　Ａｎｄ　Ｊｒー"TCC_NEWLINE"ｎｇｒｅｉｐｒ，　ａ　ｗｅａｐｏｎ　ｄｅｓｉｇｎｅｄ　ｔｏ"TCC_NEWLINE"　ｄｅｓｔｒｏｙ　ｇａｔｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｏｆ　ｉｔ　ｗａｓ　ｉｎ　ｓｅｒｖｉｃｅ　ｔｏ　Ｎー"TCC_NEWLINE"ｉａｖｅｌｌｉｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ！　Ａｓｋｒ’ｓ　ａｂｉｌｉｔｙ　ｔｏ　ｓｕｍｍｏｎ"TCC_NEWLINE"　ｂｅｉｎｇｓ　ｆｒｏｍ　ｏｔｈｅｒ　ｗｏｒｌｄｓ　ｉｓ　"TCC_NEWLINE"ａ　ｔｅｒｒｉｂｌｅ　ｔｈｒｅａｔ！　Ｉｔ　ｈａｄ　ｔｏ　"TCC_NEWLINE"ｂｅ　ａｄｄｒｅｓｓｅｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｂｕｔ，　Ｅｉｔｒｉ．．．　Ｗｈｙ　ｇｏ　ａｓ　ｆａｒ　ａー"TCC_NEWLINE"ｓ　ｙｏｕ　ｄｉｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆｏｒ　ｈｉｍ．．．ｆｏｒ　Ｈｉｓ　Ｍａｊｅｓｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｂｕｉｌｔ　ｔｈｉｓ　ｃｏｕｎｔｒｙ　ｔｏｇｅｔｈｅー"TCC_NEWLINE"ｒ．　Ｉｔ　ｗａｓ　ｏｕｒ　ｃｈｉｌｄ．　Ｗｅ　ｗａｎｔｅー"TCC_NEWLINE"ｄ　ｉｔ　ｔｏ　ｓｕｃｃｅｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｆｅｌｌ　ｉｌｌ　ｗｈｉｌｅ　ｈｅ　ｗａｓ　ｓｔｉｌー"TCC_NEWLINE"ｌ　ｙｏｕｎｇ，　ａｎｄ　ｎｏｗ　Ｉ．．．Ｉ　ｍｕｓｔ　ｄー"TCC_NEWLINE"ｏ　ｔｈｅ　ｗｏｒｋ　ａｌｏｎｅ，　ｉｎ　ｈｉｓ　ｐｌａｃー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｇｉｎｎ，　ｙｏｕ　ａｒｅ　ｈｉｓ　ｄｅｓｃｅｎｄａｎー"TCC_NEWLINE"ｔ．　Ｂｅ　ｐｒｏｕｄ．　Ｕｓｅ　ｙｏｕｒ　ｇｉｆｔｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｔｕｒｎ　ｔｈｅ　ｌｉｆｅ　Ｆｆｎｉｒ　ｈａｓ　ｗｒｕー"TCC_NEWLINE"ｎｇ　ｆｒｏｍ　ｔｈｉｓ　ｌａｎｄ　ａｎｄ　ｒｅｔｕｒｎ　"TCC_NEWLINE"Ｎｉａｖｅｌｌｉｒ　ｔｏ　ｉｔｓ　ｒｉｇｈｔｆｕｌ　ｓｔａー"TCC_NEWLINE"ｔｅ　ａｓ　ｇｒｅａｔｅｓｔ　ｏｆ　ａｌｌ　ｒｅａｌｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　ｓｅｉｊｒｎ　ａｔ　ｙー"TCC_NEWLINE"ｏｕｒ　ｃｏｍｍａｎｄ，　ｙｏｕ　ｓｈｏｕｌｄ　ｈａｖｅ　"TCC_NEWLINE"ｎｏ　ｄｉｆｆｉｃｕｌｔｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉ．．．Ｉ　ｄｏｎ’ｔ　ｃａｒｅ　ａｂｏｕｔ　ａｎｙ　ｏｆ"TCC_NEWLINE"　ｔｈａｔ！　Ｔｈｅｒｅ　ｉｓ　ｏｎｌｙ　ｏｎｅ　ｔｈｉｎー"TCC_NEWLINE"ｇ　Ｉ　ｗａｎｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｍｙ　ｂｒｏｔｈｅｒｓ　ｂａｃｋ！　Ｂｒｉｎー"TCC_NEWLINE"ｇ　ｂａｃｋ　Ｆｆｎｉｒ　ａｎｄ　ｔｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉｓ　ｔｈａｔ　ａｌｌ？　Ｓｉｍｐｌｅ　ｅｎｏｕｇｈ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｈａｔ　ｄｏ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｏｕｒ　ｆｒｉｅｎｄ　ｔｈｅｒｅ　ｉｓ　ｔｈｅ　ｓｕｍｍー"TCC_NEWLINE"ｏｎｅｒ．　Ｓｕｍｍｏｎ　ｎｅｗ　ｂｒｏｔｈｅｒｓ　ｆｒｏー"TCC_NEWLINE"ｍ　ｏｎｅ　ｏｆ　ｔｈｅ　ｉｎｆｉｎｉｔｅ　ｏｔｈｅｒ　ｗー"TCC_NEWLINE"ｏｒｌｄｓ．　Ｄｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｍａｙ　ｂｅ　ｓｌｉｇｈｔｌｙ　ｄｉｆｆｅｒｅｎー"TCC_NEWLINE"ｔ　ｆｒｏｍ　ｔｈｅ　ｂｒｏｔｈｅｒｓ　ｙｏｕ　ｋｎｅｗ，"TCC_NEWLINE"　ｂｕｔ．．．　Ｔｈｅｙ　ｗｉｌｌ　ａｔ　ｌｅａｓｔ　ｌｏー"TCC_NEWLINE"ｏｋ　ｔｈｅ　ｐａｒｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｅｉｔｒｉ，　Ｉ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｏｅｓ　ｌｉｆｅ　ｍｅａｎ　ｎｏｔｈｉｎｇ　ｔｏ　ｙｏｕ"TCC_NEWLINE"？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"．．．Ｗｅ’ｒｅ　ｄｏｎｅ．　Ｉ　ｗｏｎ’ｔ　ｈｅａｒ　ａー"TCC_NEWLINE"ｎｙ　ｍｏｒｅ　ｆｒｏｍ　ｙｏｕ，　Ｅｉｔｒｉ．　Ｍｙ　Ｎー"TCC_NEWLINE"ｉａｖｅｌｌｉｒ　ｈａｓ　ｎｏ　ｐｌａｃｅ　ｆｏｒ　ｙｏｕ"TCC_NEWLINE"　ｉｎ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　Ｎｉａｖｅｌｌｉｒ　ｏｆ　ｔｈｅ　ｐａｓｔ　ｉｓ　"TCC_NEWLINE"ｎｏｔｈｉｎｇ　ｂｕｔ　ａｎｃｉｅｎｔ　ｈｉｓｔｏｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｙｏｕｒ　ｑｕｅｅｎ，　Ｉ　ｃｏｍｍａｎｄ　ｙｏｕ　"TCC_NEWLINE"ｊｏｉｎ　ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｈａ！　Ｇｒａｍｒ，　ｈｍ？　Ｉ　ｓｅｅ．．．　Ｔｈｅｒー"TCC_NEWLINE"ｅ　ｉｓ　ａ　ｔｗｉｓｔ　Ｉ　ｈａｄｎ’ｔ　ａｃｃｏｕｎｔー"TCC_NEWLINE"ｅｄ　ｆｏｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｌｌ　ｔｈａｔ　ｒｅｌｉｃ　ｂｅ　ｅｎｏｕｇｈ　ａｇａー"TCC_NEWLINE"ｉｎｓｔ　ｔｈｅ　ｍｉｇｈｔ　ｏｆ　ｓｅｉｊｒｎ？　Ｉ　ｗー"TCC_NEWLINE"ｉｌｌ　ａｄｍｉｔ，　Ｉ’ｍ　ｃｕｒｉｏｕｓ　ｔｏ　ｋｎｏー"TCC_NEWLINE"ｗ　ｔｈｅ　ａｎｓｗｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｔｅｓｔ　ｉｔ．．．　Ｗｅ’ｌｌ　ｆｉｎｄ　ｏー"TCC_NEWLINE"ｕｔ　ｔｏｇｅｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"ＨＹＡＡＨＨＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EITRI
+"．．．Ｇｕｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｄｒａｇｏｎ’ｓ　ｐｏｗｅｒ，　ａｎｃｉｅｎｔ　ａｓ　"TCC_NEWLINE"ｉｔ　ｉｓ．．．　ｉｓ　ｓｔｉｌｌ　ｓｏｍｅｔｈｉｎｇ　ｔー"TCC_NEWLINE"ｏ　ｂｅｈｏｌｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　Ｉ．．．ｗａｓ　ｎｏ　ｍａｔｃｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄａｍｎ　ｉｔ．．．　Ｉｆ　ｏｎｌｙ　Ｉ　ｈａｄ．．．ａ　"TCC_NEWLINE"ｌｉｔｔｌｅ　ｍｏｒｅ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｅｉｔｒｉ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｄｏ　ｌｏｏｋ．．．ｊｕｓｔ　ｌｉｋｅ　ｈｉｍ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"＊ｇａｓｐ＊　Ｓｈｅ’ｓ．．．ｔｕｒｎｅｄ　ｔｏ　ｄｕｓｔ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅ　ｒｅｓｕｌｔ　ｏｆ　ａ　ｐｏｗｅｒ　ｔｏｏ　ｇｒｅー"TCC_NEWLINE"ａｔ　ｆｏｒ　ｔｈｅ　ｌｉｋｅｓ　ｏｆ　ｍｏｒｔａｌｓ　ｐー"TCC_NEWLINE"ｅｒｈａｐｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｉｓ　ｍｅａｎｓ　ｉｔ’ｓ　ａｌｌ　ｏｖｅｒ，　ｄｏｅー"TCC_NEWLINE"ｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｉ　ｂｅｌｉｅｖｅ　ａ　ｃｏｒｏｎａｔｉｏｎ　ｍａｙ"TCC_NEWLINE"　ｂｅ　ｉｎ　ｏｒｄｅｒ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ"TCC_NEWLINE"．　Ｔｈｅｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　ｂｅｔｗｅｅｎ　ｙｏー"TCC_NEWLINE"ｕ　ａｎｄ　ｔｈｅ　ｔｈｒｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｈｅ　Ｃｒｏｗｎ　ｏｆ　ｔｈｅ　Ｄｖｅｒｇａｒ．．．　Ｉー"TCC_NEWLINE"ｔ’ｓ　ａｌｌ　ｂｅｃａｕｓｅ　ｏｆ　ｔｈｉｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．ＹＡＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐ－Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ！　Ｙｏｕ　ｓｍａｓｈｅー"TCC_NEWLINE"ｄ　ｉｔ！　Ｗｏｎ’ｔ　ｙｏｕ　ｎｅｅｄ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ．　Ｔｈｉｓ　ｌａｎｄ　ｎｅｅｄｓ　ｔｏ　ｂｅ　ｆｒｅー"TCC_NEWLINE"ｅ　ｆｒｏｍ　Ｅｉｔｒｉ’ｓ　ｃｏｒｒｕｐｔｉｏｎ，　ｓｔー"TCC_NEWLINE"ａｒｔｉｎｇ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ，　Ｉ．．．　Ｙｏｕ’ｒｅ　"TCC_NEWLINE"ｒｉｇｈｔ．　Ｉｔ’ｓ　ｆｏｒ　ｔｈｅ　ｂｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5135_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_DAGR
+"Ａｌｌ　ｒｉｇｈｔ！　Ｓｏｕｎｄｓ　ｌｉｋｅ　ｅｖｅｒｙｔー"TCC_NEWLINE"ｈｉｎｇ’ｓ　ｓｅｔｔｌｅｄ　ｈｅｒｅａｎｄ　Ｉ’ｖｅ　ｇー"TCC_NEWLINE"ｏｔ　ｍｙ　ｏｗｎ　ｓｉｔｕａｔｉｏｎ　ｔｏ　ａｔｔｅｎｄ"TCC_NEWLINE"　ｔｏ　ｂａｃｋ　ｈｏｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｈａｖｅ　ｅｖｅｒｙｔｈｉｎｇ　ｙｏｕ　ｎｅー"TCC_NEWLINE"ｅｄ，　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｙｅｓ，　Ｉ　ｔｈｉｎｋ　ｓｏ．．．　Ｔｈａｎｋ　ｙｏｕ　"TCC_NEWLINE"ｓｏ　ｍｕｃｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｒｅｂｕｉｌｄｉｎｇ　Ｎｉａｖｅｌｌｉｒ　ｗｉｌｌ　ｂｅ　"TCC_NEWLINE"ａｎ　ｅｎｏｒｍｏｕｓ　ｕｎｄｅｒｔａｋｉｎｇ，　ｂｕｔ　"TCC_NEWLINE"ｉｆ　ｗｅ　ｃａｎ　ｏｆｆｅｒ　ａｎｙ　ｈｅｌｐ，　ｗｅ　"TCC_NEWLINE"ｇｌａｄｌｙ　ｗｉｌｌ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ　ｇｕｅｓｓ　ｉｔｓ　ｇｏｏｄｂｙｅ　ｆｏｒ　ｎｏｗ，　"TCC_NEWLINE"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．．．　Ｏｈ，　Ｉ’ｍ　ｇｏー"TCC_NEWLINE"ｉｎｇ　ｔｏ　ｃｒｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｐｌｅａｓｅ　ｃｏｍｅ　ｖｉｓｉｔ　ｕｓ　ｉｎ　Ａｓｋｒ．"TCC_NEWLINE"　Ｗｈｅｎｅｖｅｒ　ｙｏｕ’ｄ　ｌｉｋｅ．　Ａｎｄ　ｐｌｅー"TCC_NEWLINE"ａｓｅ．．．　ｔａｋｅ　ｃａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"．．．Ｒｅｇｉｎｎ？　Ａｒｅ　ｙｏｕ　ｓｕｒｅ　ｙｏｕ’ｌー"TCC_NEWLINE"ｌ　ｂｅ　ａｌｌ　ｒｉｇｈｔ？　Ｙｏｕ’ｒｅ　ｌｏｏｋｉｎー"TCC_NEWLINE"ｇ　ａ　ｌｉｔｔｌｅ．．．ｓｉｃｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｕｈ？！　Ｗｈ－ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？　Ｉ’"TCC_NEWLINE"ｍ　ｆｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉｆ　ｙｏｕ　ｓａｙ　ｓｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ，　ｕｈ．．．　Ｓｅｅ　ｙａ　ａｒｏｕｎｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ，　ｅｒ．．．　Ｗａｉｔ！　Ｄｏｎ’ｔ　ｇｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｐｒｉｎｃｅｓ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ．．．　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｉｆ　Ｉ　ｃａｎ　ｄｏ"TCC_NEWLINE"　ｔｈｉｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｈｏｗ　ａｍ　Ｉ　ｓｕｐｐｏｓｅｄ　ｔｏ　ｂｅ　ａ　ｇｏｏー"TCC_NEWLINE"ｄ　ｑｕｅｅｎ，　ａｌｌ　ａｌｏｎｅ，　ｗｉｔｈｏｕｔ　ｍー"TCC_NEWLINE"ｙ　ｂｒｏｔｈｅｒｓ　ｂｅｓｉｄｅ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｉｓｈ　Ｉ　ｃｏｕｌｄ　ｓｐｅｎｄ　ｍｏｒｅ　ｔｉｍー"TCC_NEWLINE"ｅ　ｗｉｔｈ　ｙｏｕ　ａｌｌ，　ａｎｄ　ｔｒａｖｅｌ　ｔｏ"TCC_NEWLINE"　ｎｅｗ　ｐｌａｃｅｓ．．．　Ｉ　ｃｏｕｌｄ　ｌｅａｒｎ　"TCC_NEWLINE"ｓｏ　ｍｕｃｈ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　Ｉ．．．Ｉ　ｌｏｖｅ　ｙｏｕ　ａｌｌ　ｓｏ　ｍｕｃー"TCC_NEWLINE"ｈ！　Ｓａｙｉｎｇ　ｇｏｏｄｂｙｅ　ｉｓ　ｍａｋｉｎｇ　ｍー"TCC_NEWLINE"ｙ　ｈｅａｒｔ　ａｃｈｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．．．　Ｐｌｅａｓｅ　ｄｏｎ"TCC_NEWLINE"’ｔ　ｃｒｙ．　Ｙｏｕ’ｒｅ　ｇｏｉｎｇ　ｔｏ　ｍａｋｅ　"TCC_NEWLINE"ｍｅ　ｃｒｙ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｗｅ　ｄｏｎ’ｔ　ｗａｎｔ　ｔｏ　ｓａｙ　ｇｏｏｄｂｙｅ　"TCC_NEWLINE"ｅｉｔｈｅｒ．　Ｉｔ’ｓ　ｊｕｓｔ　ｔｈａｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"＊ｓｎｉｆｆ＊　Ｉ　ｋｎｏｗ．．．　Ｉ　ｕｎｄｅｒｓｔａｎー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｉｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｐｈｅｗ！　Ｃｒｙｉｎｇ　ａ　ｌｉｔｔｌｅ　ｈｅｌｐｅｄ！"TCC_NEWLINE"　Ｓｏｒｒｙ　Ｉ’ｍ　ｓｏ　ｓｅｌｆｉｓｈ，　ｅｖｅｒｙｏー"TCC_NEWLINE"ｎｅ．．．　Ａｎｄ　ｔｈａｎｋ　ｙｏｕ　ａｌｌ　ａｇａｉｎ"TCC_NEWLINE"．．．ｆｏｒ　ｅｖｅｒｙｔｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｄｏ　ｍｙ　ｂｅｓｔ，　ｅｖｅｎ　ｉｆ　Ｉ　ｈａー"TCC_NEWLINE"ｖｅ　ｔｏ　ｄｏ　ｉｔ　ａｌｌ　ａｌｏｎｅ！　Ｄｏｎ’ｔ　"TCC_NEWLINE"ｗｏｒｒｙ　ａｂｏｕｔ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｔｈａｔ’ｓ　ｉｔ！　Ｙｏｕ’ｖｅ　ｇｕｉｌｔｅｄ　ｍｅ　"TCC_NEWLINE"ｉｎｔｏ　ｉｔ！　Ｗｈｙ　ｄｏｎ’ｔ　ｙｏｕ　ｌｅｔ　ｙｏー"TCC_NEWLINE"ｕｒ　ｇｏｏｄ　ｐａｌ　Ｄａｇｒ　ｔａｋｅ　ｓｏｍｅ　ｏｆ"TCC_NEWLINE"　ｔｈｅ　ｈｅａｖｙ　ｌｉｆｔｉｎｇ？　＊ｗｉｎｋ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｒｉｎｃｅｓｓ　Ｄａｇｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ’ｌｌ　ｔａｌｋ　ｔｏ　Ｍｏｍ　ａｎｄ　ａｓｋ　ｉｆ　ｔー"TCC_NEWLINE"ｈｅ　ｊｔｎａｒ　ｃａｎ　ｋｅｅｐ　ａｎ　ｅｙｅ　ｏｎ　Ｎー"TCC_NEWLINE"ｉａｖｅｌｌｉｒ　ｆｏｒ　ｙｏｕ　ｆｏｒ　ａ　ｗｈｉｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃａｎ　ｍａｋｅ　ｍｅ，　ｕｈ．．．ｖｉｃｅｒｏｙ"TCC_NEWLINE"！　Ｉ’ｌｌ　ｈａｎｄｌｅ　ｔｈｉｎｇｓ　ｗｈｉｌｅ　ｙｏー"TCC_NEWLINE"ｕ’ｒｅ　ａｗａｙ．　．．．Ｈｏｗ　ｄｏｅｓ　ｔｈａｔ　ｓー"TCC_NEWLINE"ｏｕｎｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｙｏｕ　ｍｅａｎ．．．ｙｏｕ’ｄ　ｂｅ　ｔｈｅ　ｏｎｅ　ｒー"TCC_NEWLINE"ｕｌｉｎｇ　ｏｖｅｒ　Ｎｉａｖｅｌｌｉｒ，　Ｐｒｉｎｃｅｓー"TCC_NEWLINE"ｓ　Ｄａｇｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｓｕｒｅ！　Ｉ　ｍｅａｎ，　Ｉ’ｍ　ｎｅｘｔ　ｉｎ　ｌｉｎー"TCC_NEWLINE"ｅ　ｆｏｒ　ｔｈｅ　ｔｈｒｏｎｅ　ｉｎ　Ｊｔｕｎｈｅｉｍｒ"TCC_NEWLINE"　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ’ｒｅ　ｎｏｔ　ｔｈｅ　ｏｎｌｙ　ｏｎｅ　ｗｈｏ　ｎー"TCC_NEWLINE"ｅｅｄｓ　ｔｏ　ｇｅｔ　ｓｏｍｅ　ｅｘｐｅｒｉｅｎｃｅ　ｏー"TCC_NEWLINE"ｕｔ　ｉｎ　ｔｈｅ　ｗｏｒｌｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｆｅｅｌｓ　ｌｉｋｅ　ｔｈｅ　ｒｉｇｈｔ　ｔｈｉｎｇ"TCC_NEWLINE"　ｔｏ　ｄｏ．　Ａｎｄ　Ｉ　ｔｈｉｎｋ　Ｍｏｍ　ｗｉｌｌ　"TCC_NEWLINE"ａｇｒｅｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｒｅ　ｙｏｕ．．．ｓｕｒｅ？　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　"TCC_NEWLINE"ｗｈａｔ　ｔｏ　ｓａｙ！　Ｉｔ’ｓ　ｌｉｋｅ　ａ　ｄｒｅａー"TCC_NEWLINE"ｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　Ｎｉａｖｅｌｌｉｒ　ｗー"TCC_NEWLINE"ｏｕｌｄ　ｈａｖｅ　ｔｏ　ａｇｒｅｅ　ｔｏ　ｉｔ，　ｗｏｕー"TCC_NEWLINE"ｌｄｎ’ｔ　ｔｈｅｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｓｕｍｉｎｇ　ｔｈｅｙ　ｅｖｅｎ　ｒｅｃｏｇｎｉｚｅ　"TCC_NEWLINE"ｍｅ　ａｓ　ｔｈｅｉｒ　ｑｕｅｅｎ　ｉｎ　ｔｈｅ　ｆｉｒｓー"TCC_NEWLINE"ｔ　ｐｌａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｅｇｉｎｎ，　ｙｏｕ　ａｒｅ　ｔｈｅ　ｈｅｒｏ　ｗｈｏ　"TCC_NEWLINE"ｄｅｆｅａｔｅｄ　ｔｈｅ　ｔｙｒａｎｔ　Ｆｆｎｉｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｔｈｉｎｋ　ｔｈｅ　ｐｅｏｐｌｅ　ｍｉｇｈｔ　ａｌｌｏー"TCC_NEWLINE"ｗ　ｙｏｕ　ｔｈｉｓ　ｓｍａｌｌ　ｉｎｄｕｌｇｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｓｐｅｃｉａｌｌｙ　ｓｉｎｃｅ　ｔｈｅ　ｅｎｄ　ｒｅｓｕー"TCC_NEWLINE"ｌｔ　ｗｉｌｌ　ｂｅ　ｔｏ　ｔｈｅ　ｂｅｎｅｆｉｔ　ｏｆ　"TCC_NEWLINE"Ｎｉａｖｅｌｌｉｒ　ａｎｄ　ｉｔｓ　ｆｕｔｕｒｅ．　Ｒｉｇー"TCC_NEWLINE"ｈｔ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｅｓ！　Ｏｈ，　ｙｅｓ！　Ｉ　ｗｉｌｌ　ｌｅａｒｎ　ｓｏ"TCC_NEWLINE"　ｍｕｃｈａｓ　ｍｕｃｈ　ａｓ　Ｉ　ｐｏｓｓｉｂｌｙ　ｃａー"TCC_NEWLINE"ｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｎ’ｔ　ｒｅｓｔ　ｕｎｔｉｌ　Ｉ　ｃａｎ　ｄｅｆｅー"TCC_NEWLINE"ｎｄ　ｍｙ　ｋｉｎｇｄｏｍ　ａｎｄ　ｉｔｓ　ｐｅｏｐｌｅ！"TCC_NEWLINE"　Ａｎｄ　ｔｈａｔ’ｓ　ａ　ｐｒｏｍｉｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｒｅａｔ！　Ｔｈｅｎ，　ｕｈ．．．　Ｓｅｅ　ｙａ　ａｒｏー"TCC_NEWLINE"ｕｎｄ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｄｏｎ’ｔ　ｆｏｒｇｅｔ　ｔｏ　ｈａｖｅ　ａ　ｌｉー"TCC_NEWLINE"ｔｔｌｅ　ｆｕｎ　ｗｈｉｌｅ　ｙｏｕ’ｒｅ　ａｔ　ｉｔ，　"TCC_NEWLINE"ｅｈ，　Ｒｅｇｉｎｎ？　＊ｗｉｎｋ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｎｉａｖｅｌｌｉｒ’ｓ　ｉｎ　ｇｏｏｄ　ｈａｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｒｉｎｃｅｓｓ　Ｄａｇｒ，　Ｉ．．．　Ｔｈａｎｋ　ｙｏｕ"TCC_NEWLINE"　ｓｏ　ｍｕｃｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ｆｉｇｕｒｅ　ｏｕｔ　ａ　ｗａｙ　ｔｏ　ｒｅｐａー"TCC_NEWLINE"ｙ　ｙｏｕ　ａｎｄ　Ｊｔｕｎｈｅｉｍｒ　ｓｏｍｅｄａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａｌｌ　ｒｉｇｈｔ，　ｎｏｗ　Ｉ　ａｃｔｕａｌｌｙ　ｓｈｏー"TCC_NEWLINE"ｕｌｄ　ｇｅｔ　ｇｏｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔａｋｅ　ｃａｒｅ　ｏｆ　ｙｏｕｒｓｅｌｖｅｓ，　Ａｌｆｓー"TCC_NEWLINE"ｔｅｒ，　Ｓｈａｒｅ－Ｂｅａｒａｌｌ　ｏｆ　ｙｏｕ　Ａｓｋー"TCC_NEWLINE"ｒａｎｓ！　Ａｎｄ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｏｕ　ｂｅｔｔｅｒ　ｃｏｍｅ　ｖｉｓｉｔ　ｏｒ　"TCC_NEWLINE"Ｉ’ｌｌ　ｔｈｉｎｋ　ｙｏｕ　ｆｏｒｇｏｔ　ａｂｏｕｔ　ｙー"TCC_NEWLINE"ｏｕｒ　ｐａｌ　Ｄａｇｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｅ’ｌｌ　ｄｅｆｉｎｉｔｅｌｙ　ｖｉｓｉｔ！　Ｒｉｇｈｔ"TCC_NEWLINE"，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ，　ｏｆ　ｃｏｕｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｓｅｅｍｓ　ｗｅ　ｓｔｉｌｌ　ｈａｖｅ　ａ　ｌｏｎｇ　ｒｏー"TCC_NEWLINE"ａｄ　ｔｏ　ｔｒａｖｅｌ　ａｈｅａｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｎｏ　ｓｅｎｓｅ　ｉｎ　ｓｌｏｗｉｎｇ　ｄｏｗｎ！　"TCC_NEWLINE"Ｒｉｇｈｔ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｇｏ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｈ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｏｒｒｙ．　Ｉ’ｍ　ｎｏｔ　ｈｏｌｄｉｎｇ　ｅｖー"TCC_NEWLINE"ｅｒｙｏｎｅ　ｕｐ，　ａｍ　Ｉ？　Ｉ　ｗａｎｔｅｄ　ｔｏ　"TCC_NEWLINE"ｔａｋｅ　ａ　ｌａｓｔ　ｌｏｏｋ　ａｔ　ｔｈｅ　Ｎｉａｖｅー"TCC_NEWLINE"ｌｌｉｒ　Ｉ　ｋｎｅｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｆｆｎｉｒ　ｗａｓｎ’ｔ　ｆｒｏｍ　ｏｕｒ　ｗｏｒｌー"TCC_NEWLINE"ｄ．"TCC_NEWLINE TCC_PUSH_A
+"ｔｒ　ｗａｓｎ’ｔ　ｒｅａｌｌｙ　ｍｙ　ｂｒｏｔｈｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｗｈｏｌｅ　ｌｉｆｅ，　ｌａｙｅｒｓ　ｏｎ　ｌａｙｅー"TCC_NEWLINE"ｒｓ　ｏｆ　ｌｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｓｔｉｌｌ，　ｔｈｅ　ｋｉｎｄｎｅｓｓ　ｍｙ　ｂｒー"TCC_NEWLINE"ｏｔｈｅｒｓ　ｏｎｃｅ　ｓｈｏｗｅｄ　ｍｅ．．．　Ｔｈａｔ"TCC_NEWLINE"　ｗａｓ　ｒｅａｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｌｏｖｅ　Ｉ　ｆｅｌｔ　ｆｏｒ　ｔｈｅｍ　ｗａｓ　"TCC_NEWLINE"ｒｅａｌ．　Ｉ　ｃａｎ　ｂｅｌｉｅｖｅ　ｉｎ　ｔｈａｔ　ａー"TCC_NEWLINE"ｔ　ｌｅａｓｔ，　ｃａｎ’ｔ　Ｉ？"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏ　ｙｏｕ　ｔｈｉｎｋ　ｔｈｅｒｅ’ｓ　ａ　ｃｈａｎｃｅ"TCC_NEWLINE"　Ｉ’ｌｌ　ｍｅｅｔ　ｓｏｍｅｏｎｅ　Ｉ　ｃａｎ　ｌｏｖｅ"TCC_NEWLINE"　ｌｉｋｅ　ｔｈａｔ　ａｇａｉｎ？"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｅｈｅｅ．．．　Ｉ　ｓｕｒｅ　ｈｏｐｅ　ｓｏ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｐｅａｋｉｎｇ　ｏｆ　ｗｈｉｃｈ．．．ｙｏｕ　ｄｏｎ’ｔ"TCC_NEWLINE"　ｈａｐｐｅｎ　ｔｏ　ｈａｖｅ　ａｎｙｏｎｅ　ｉｎ　ｍｉｎー"TCC_NEWLINE"ｄ，　ｄｏ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｏｎｌｙ　ｋｉｄｄｉｎｇ！　Ｈａｈａｈａ！　Ｔｈｅ　"TCC_NEWLINE"ｌｏｏｋ　ｏｎ　ｙｏｕｒ　ｆａｃｅ　ｗａｓ　ｐｒｉｃｅｌｅー"TCC_NEWLINE"ｓｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔｅｖｅｒ　ｌｉｅｓ　ａｈｅａｄ，　ａｓ　ｌｏｎｇ　"TCC_NEWLINE"ａｓ　Ｉ’ｍ　ｗｉｔｈ　ｍｙ　ｎｅｗ　ｆａｍｉｌｙ　ｏｆ　"TCC_NEWLINE"Ｈｅｒｏｅｓ，　Ｉ　ｋｎｏｗ　ｅｖｅｒｙｔｈｉｎｇ　ｗｉｌー"TCC_NEWLINE"ｌ　ｔｕｒｎ　ｏｕｔ　ｇｒｅａｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

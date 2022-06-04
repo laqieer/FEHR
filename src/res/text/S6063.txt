@@ -1,0 +1,51 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6063] = TCC_OPEN_LEFT 
+"俺の母は、" TCC_NEWLINE
+"解放軍の魔法戦士だったんだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6063] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ELM
+"レティシア。" TCC_NEWLINE
+"例の噂\のことだけれど。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_LETIZIA
+"。。。あなたから聞くまでもないわ。" TCC_NEWLINE
+"この国にあふれる愚民どもの様子は" TCC_NEWLINE
+"常に監視してる。" TCC_NEWLINE TCC_PUSH_A
+"レティシアか、ヴェロニカか、" TCC_NEWLINE
+"どちらが真実か。。。" TCC_NEWLINE
+"現状は、六対四で私の優勢よ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お見事。" TCC_NEWLINE
+"嘘で塗り潰せば、それが真実になる。。。" TCC_NEWLINE
+"結局、君の言う通りだったね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"どうかした？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"。。。本来なら、" TCC_NEWLINE
+"私が圧倒的に勝っているはずだったわ。" TCC_NEWLINE
+"それほどの工作を仕掛けたのだから。" TCC_NEWLINE TCC_PUSH_A
+"なのに、なぜ。。。" TCC_NEWLINE
+"こんなわずかな優勢でしかないの？" TCC_NEWLINE
+"なぜヴェロニカを信じる者がいるの？" TCC_NEWLINE TCC_PUSH_A
+"あんな愚民どもが。。。" TCC_NEWLINE
+"真実に気づけるはずないのに！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。さあね。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"もっとヴェロニカの悪事を。。。" TCC_NEWLINE
+"醜聞を作らないと。。。" TCC_NEWLINE
+"ええ、私にとっては造作もないことよ。" TCC_NEWLINE TCC_PUSH_A
+"愚民どもの真実を決めるのは私。。。" TCC_NEWLINE
+"それを教えてあげるわ、ヴェロニカ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

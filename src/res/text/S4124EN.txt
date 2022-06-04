@@ -1,0 +1,34 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4124_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｔｒｉａｎｄｒａ．．．　Ｎｏｗａｉｔ．．．　Ｙ－ｙｏｕ’ｒー"TCC_NEWLINE"ｅ　ｍｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｅｆｏｒｅ，　Ｉ　ｗａｓ　ｓｏ　ｐｏｗｅｒｌｅｓｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｔｈｅ　ｏｌｄｅｒ　ｓｉｓｔｅｒ，　Ｉ　ｓｈｏｕｌｄ"TCC_NEWLINE"　ｈａｖｅ　ｄｏｎｅ　ｓｏｍｅｔｈｉｎｇ．　Ｂｕｔ　Ｉ　ｎー"TCC_NEWLINE"ｅｖｅｒ　ｃｏｕｌｄ．．．　Ｉ　ｃｏｕｌｄ　ｎｅｖｅｒ　ｓー"TCC_NEWLINE"ｔｏｐ　ｔｈｅ　ａｂｕｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｆｏｒ　ｔｈａｔ　Ｉ　ｃｏｕｌｄ　ｎｅｖｅｒ　ｆｏー"TCC_NEWLINE"ｒｇｉｖｅ　ｍｙｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ．．．ｉｆ　Ｉ　ｄｒａｎｋ　ｔｈｅ　ｄｒｅａｍ　ｎｅー"TCC_NEWLINE"ｃｔａｒ．．．　Ｉ　ｗｏｕｌｄ　ｈａｖｅ　ｔｈｅ　ｐｏｗｅー"TCC_NEWLINE"ｒ　Ｉ　ｎｅｅｄｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ｂｅ　ａ　ｈｅｒｏ．　Ｉ　ｗｏｕｌｄ　ｓａー"TCC_NEWLINE"ｖｅ　ｔｈｅ　ｗｏｒｌｄ，　ｐｒｏｔｅｃｔ　ｅｖｅｒｙｏｎー"TCC_NEWLINE"ｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｏｓｅ　ｗｈｏ　ｔｒｅａｔｅｄ　ｏｔｈｅｒｓ　ａｓ　ｍー"TCC_NEWLINE"ｙ　ｓｉｓｔｅｒ　ｈａｄ　ｂｅｅｎ　ｔｒｅａｔｅｄ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｄｉｅ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ａｎｄ　Ｉ　ｗｏｕｌｄ　ｓｅｅ　ｔｏ　ｔｈｅｉｒ　ｄー"TCC_NEWLINE"ｅａｔｈｓ　ｐｅｒｓｏｎａｌｌｙ．　Ｔｈａｔ　ｉｓ　ＭＹ　"TCC_NEWLINE"ｄｒｅａｍ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4124_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TRIANDRA
+"．．．Ｉ　ｈａｖｅ　ｎｏｔｈｉｎｇ　ｌｅｆｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒｇｉｖｅ　ｍｅ．．．　Ｉ　ｗａｎｔｅｄ　ｔｏ　ｋｅｅー"TCC_NEWLINE"ｐ　ｙｏｕ　ｓａｆｅ　ｊｕｓｔ．．．ａ　ｗｈｉｌｅ　ｌｏｎー"TCC_NEWLINE"ｇｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"．．．Ｓ－ｓｉｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｏｂ＊"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4124_EN] = TCC_OPEN_LEFT
+"Ｍｅ？　Ｕｍｍ．．．　Ｉ　ｗａｎｔ　ｔｏ　ｂｅ　ａ　ｈｅｒー"TCC_NEWLINE"ｏ　ｂｅｃａｕｓｅ　Ｉ．．．　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｌｏｖｅ　ｓｅｅｉｎｇ　ｍｙ　ｓｉｓｔｅｒ　ｓｍｉｌｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｓｏ　ｂｉｇ　ａｎｄ　ｂｒｉｇｈｔ．．．　Ｓｈｅ"TCC_NEWLINE"　ｌｏｏｋｓ　ｊｕｓｔ　ｌｉｋｅ　ａ　ｐｒｉｎｃｅｓｓ．　"TCC_NEWLINE"Ｉ　ｃｏｕｌｄ　ｎｅｖｅｒ　ｂｅ　ｔｈａｔ　ｈａｐｐｙ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｓｈｅ　ｓｍｉｌｅｓ　ｌｅｓｓ　ａｎｄ　ｌｅｓｓ．"TCC_NEWLINE"．．　Ｂｅｃａｕｓｅ　ｏｆ　ｈｉｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｎｔ　ｔｏ　ｐｒｏｔｅｃｔ　ｈｅｒ．　Ｎｏ　ｍａｔー"TCC_NEWLINE"ｔｅｒ　ｗｈａｔ　ｉｔ　ｔａｋｅｓ，　Ｉ　ｗａｎｔ　ｈｅｒ"TCC_NEWLINE"　ｔｏ　ｂｅ　ｓａｆｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　Ｉ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｌｌ　ｓｈｅ　ｓｔｉｌｌ　ｓｍｉｌｅ　ｉｆ　ｓｈｅ　ｌー"TCC_NEWLINE"ｅａｒｎｓ　ｗｈａｔ　ｉｔ　ｔｏｏｋ？　Ｗｈａｔ　Ｉ　ｈａー"TCC_NEWLINE"ｄ　ｔｏ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

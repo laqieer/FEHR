@@ -1,0 +1,35 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6013_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｅｍｂｌａ’ｓ　ｂｏｒｄｅｒ　ｉｓ　ｊｕｓｔ　ａｈｅａｄ．"TCC_NEWLINE"　Ｉｔ　ｓｅｅｍｓ　ｔｈｅ　ｄａｒｋｎｅｓｓ　ｅｘｔｅｎｄー"TCC_NEWLINE"ｓ　ｂｅｙｏｎｄ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6013_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ，　ｌｏｏｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｅｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ａ　ｖｉｌｌａｇｅ　ｉｎ　Ａｓｋｒ　ｈａｓ　ｄｉｓａｐｐｅー"TCC_NEWLINE"ａｒｅｄ．　Ｗｉｐｅｄ　ｆｒｏｍ　ｔｈｅ　ｗｏｒｌｄ　ｗｉー"TCC_NEWLINE"ｔｈｏｕｔ　ｓｏ　ｍｕｃｈ　ａｓ　ａ　ｔｒａｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｂｅｌｉｅｖｅ　ｔｈｅ　ｐｏｗｅｒ　ｏｆ　Ｅｍｂｌａ"TCC_NEWLINE"’ｓ　ｒｏｙａｌ　ｆａｍｉｌｙ　ｉｓ　ｎｅｃｅｓｓａｒｙ　"TCC_NEWLINE"ｔｏ　ｃｌｏｓｅ　ｏｆｆ　ｐａｒｔｓ　ｏｆ　ｔｈｅ　ｗｏｒー"TCC_NEWLINE"ｌｄ　ｌｉｋｅ　ｔｈｉｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｇｏ　ｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｉｔ　ｉｓｎ’ｔ　ｙｏｕｒ　ｄｏｉｎｇ．　Ａｎｄ　ｏｆ　ｃー"TCC_NEWLINE"ｏｕｒｓｅ，　ｉｔ’ｓ　ｎｏｔ　ｔｈｅ　ｗｏｒｋ　ｏｆ　Ｚー"TCC_NEWLINE"ａｃｈａｒｉａｓ　ｅｉｔｈｅｒ．　Ｏｆ　ｔｈａｔ，　Ｉ’ｍ"TCC_NEWLINE"　ｃｅｒｔａｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　Ｉ’ｍ　ｈｏｐｉｎｇ　ｙｏｕ　ｗｉｌｌ　ｃｏｏｐｅｒー"TCC_NEWLINE"ａｔｅ　ｗｉｔｈ　ｕｓ　ｔｏ　ｈｅｌｐ　ｓｏｌｖｅ　ｔｈｉー"TCC_NEWLINE"ｓ　ｐｒｏｂｌｅｍ　ｂｅｆｏｒｅ　ｉｔ　ｇｅｔｓ　ｗｏｒｓー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｌｐ　ｕｓ　ｆｉｎｄ　ｔｈｅ　ｔｒｕｅ　ｓｏｕｒｃｅ　"TCC_NEWLINE"ｏｆ　ｔｈｉｓ　ｄｉｓａｓｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎ　ｔｈｅ　ｎａｍｅ　ｏｆ　ｔｈｅ　ｔｉｅｓ　ｂｅｔｗｅー"TCC_NEWLINE"ｅｎ　ｏｕｒ　ｔｗｏ　ｃｏｕｎｔｒｉｅｓ，　ｗｅ　ｂｅｇ　"TCC_NEWLINE"ｙｏｕ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｕｎｄｅｒ　ｎｏｒｍａｌ　ｃｉｒｃｕｍｓｔａｎｃｅｓ"TCC_NEWLINE"，　Ｉ　ｗｏｕｌｄｎ’ｔ　ｃａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅ　ｆａｃｔ　ｉｓ　ｔｈａｔ　ｔｈｅ　ｓａｍｅ"TCC_NEWLINE"　ｔｈｉｎｇ　ｉｓ　ｈａｐｐｅｎｉｎｇ　ｉｎ　Ｅｍｂｌａ　"TCC_NEWLINE"ａｓ　ｗｅｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ　ｎｏ！　Ｔｈａｔ’ｓ　ｔｅｒｒｉｂｌｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｅｓ．　Ｉ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ．　Ｉ　ｗー"TCC_NEWLINE"ｉｌｌ　ｗｏｒｋ　ｗｉｔｈ　ｙｏｕ　ｕｎｔｉｌ　ｗｅ　ｃａー"TCC_NEWLINE"ｎ　ｆｉｎｄ　ｔｈｅ　ｃａｕｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

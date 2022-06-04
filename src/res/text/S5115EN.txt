@@ -1,0 +1,124 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｄａｍｎ　ｉｔ．．．　Ｔｈｉｓ　ｉｓ　ｉｔ，　ｔｈｅｎ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｗ－ｗａｉｔ！　Ｏｒ　ｔｒ　ｗｉｌｌ　ｄｉｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｔｅｐ　ａｗａｙ　ｆｒｏｍ　ｈｉｍ，　Ｐｒｉｎｃｅｓｓ　"TCC_NEWLINE"Ｒｅｇｉｎｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎｏ！　Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ｙｏｕ　ｋｉｌｌ　ｈｉｍ！"TCC_NEWLINE"　Ｊｕｓｔ．．．ｇｉｖｅ　ｍｅ　ｔｉｍｅ　ｔｏ　ｔａｌｋ　"TCC_NEWLINE"ｔｏ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｅｇｉｎｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｇｉｖｅ　Ｇｒａｍｒ　ｔｏ　ｍｅ，　ｔｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ’ｓ　ｓｔｉｌｌ　ｔｉｍｅ．　Ｗｅ　ｃａｎ　ｒｅー"TCC_NEWLINE"ｔｕｒｎ　Ｆｆｎｉｒ　ｔｏ　ｎｏｒｍａｌ，　ａｎｄ　ｔｈｅ"TCC_NEWLINE"　ｔｈｒｅｅ　ｏｆ　ｕｓ　ｃａｎ　ｌｉｖｅ　ｔｏｇｅｔｈｅー"TCC_NEWLINE"ｒ　ａｇａｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｄｏｎ’ｔ　ｙｏｕ．．．ｗａｎｔ　ｔｈａｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｅｇｉｎｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｈ．．．　Ｈａｈａ　＊ｃｏｕｇｈ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｒｅａｌｌｙ　ｄｏ　ｎｏｔ　ｕｎｄｅｒｓｔａｎｄ，"TCC_NEWLINE"　ｄｏ　ｙｏｕ．．．　Ｈａｈａｈａｈａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａｂｏｕｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ　ｗｈａｔ　ｙｏｕ　ｄｏ"TCC_NEWLINE"　ｎｏｗ，　Ｉ’ｍ　ｇｏｉｎｇ　ｔｏ　ｄｉｅ　ｈｅｒｅｓｏ"TCC_NEWLINE"　Ｉ　ｍｉｇｈｔ　ａｓ　ｗｅｌｌ　ｌｅｔ　ｙｏｕ　ｉｎ　ｏー"TCC_NEWLINE"ｎ　ａ　ｌｉｔｔｌｅ　ｓｅｃｒｅｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｉｌｌｅｄ　ｙｏｕｒ　ｐａｒｅｎｔｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈ－ｗｈａｔ？！　Ｂｕｔ　ｔｈｅｙ　Ｔｈｅｙ　ｗｅｒｅ　"TCC_NEWLINE"ｙｏｕｒ　ｐａｒｅｎｔｓ　ｔｏｏ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ．　Ｉ　ｓｉｍｐｌｙ　ｌｅｔ　ｙｏｕ　ａｎｄ　Ｆｆｎｉー"TCC_NEWLINE"ｒ　ａｓｓｕｍｅ，　ａｓ　ｙｏｕ　ｗｅｒｅ　ｈａｐｐｙ　ｔー"TCC_NEWLINE"ｏ　ｄｏ．．．　Ｙｏｕ　ａｒｅ　ｎｏ　ｆａｍｉｌｙ　ｏｆ　"TCC_NEWLINE"ｍｉｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ．．．　Ｉ　ｄｏｎ’ｔ．．．ｕｎｄｅｒｓｔａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｙ　ｐａｒｅｎｔｓ　ｌｉｖｅｄ　ｉｎｓｉｄｅ　ｔｈｅ　ｗー"TCC_NEWLINE"ａｌｌｓ　ｏｆ　Ｎｉａｖｅｌｌｉｒ’ｓ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｆａｔｈｅｒ　ｌｉｖｅｄ　ａｓ　ａ　ｄｉｓｔａｎｔ　"TCC_NEWLINE"ｒｅｌａｔｉｖｅ　ｏｆ　ｔｈｅ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｌｙ．．．ｔｈｅ　ｔｒｕｔｈ　ｗａｓ，　ｈｅ　ｗａｓ　"TCC_NEWLINE"ｎｏｔｈｉｎｇ　ｍｏｒｅ　ｔｈａｎ　ａ　ｃｏｍｍｏｎｅｒ　"TCC_NEWLINE"ｗｉｔｈ　ａ　ｆａｃｅ　ｔｈｅ　ｎｏｂｌｅｓ　ｆｏｕｎｄ　"TCC_NEWLINE"ｐｌｅａｓａｎｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｆａｃｅ，　ｔｈｅｙ　ｔｈｏｕｇｈｔ，　ｔｈａｔ　ｌｏー"TCC_NEWLINE"ｏｋｅｄ　ｓｏ　ｍｕｃｈ　ｌｉｋｅ　ｔｈｅｉｒｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｒｏｙａｌｓ　ｗｅｒｅ　ｅａｇｅｒ　ｔｏ　ｃｌａｉー"TCC_NEWLINE"ｍ　ｈｉｍ　ａｓ　ｔｈｅｉｒ　ｏｗｎ．．．　Ｔｈｅ　ｓｈｅー"TCC_NEWLINE"ｅｒ　ａｒｒｏｇａｎｃｅ．．．　Ｌａｕｇｈａｂｌｅ，　ｉｓー"TCC_NEWLINE"ｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　Ｉ　ｗａｓ　ｂｏｒｎ　ａｎｄ　ｒａｉｓｅｄ　ｉｎ　"TCC_NEWLINE"ｔｈｅ　ｃａｓｔｌｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｎｅ　ｎｉｇｈｔ，　ｍｙ　ｐａｒｅｎｔｓ　ｏｐｅｎｅｄ　"TCC_NEWLINE"ｔｈｅ　ｒｅａｒ　ｇａｔｅ　ｆｏｒ　ｓｏｍｅ　ｎｅｗ　ｖｉー"TCC_NEWLINE"ｓｉｔｏｒｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｙ　ｔｏｌｄ　ｍｅ　ｔｏ　ｓｈｏｗ　ｔｈｅｍ　ｈｏｗ"TCC_NEWLINE"　ｔｏ　ｆｉｎｄ　ｔｈｅ　ｋｉｎｇ　ｗｉｔｈｏｕｔ　ｂｅｉー"TCC_NEWLINE"ｎｇ　ｎｏｔｉｃｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｍｅ，　ｉｔ　ｗａｓ　ｌｉｔｅｒａｌ　ｃｈｉｌｄ’"TCC_NEWLINE"ｓ　ｐｌａｙ．　Ｉ　ｄｉｄ　ａｓ　Ｉ　ｗａｓ　ｔｏｌｄ　ｗー"TCC_NEWLINE"ｉｔｈｏｕｔ　ｑｕｅｓｔｉｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｔｈｅｎ．．．ｔｈａｔ　ｍｅａｎｓ，　Ｎｉａｖｅｌｌｉｒ’"TCC_NEWLINE"ｓ　ｃｏｕｐ　ｗａｓ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｍｙ　ｐａｒｅｎｔｓ　ｗｅｒｅ　ｕｓｅｄ　ｂｙ　ｔｈｅ　ｐー"TCC_NEWLINE"ｅｏｐｌｅ　ｗｈｏ　ｗａｎｔｅｄ　ｔｏ　ｋｉｌｌ　ｔｈｅ　"TCC_NEWLINE"ｒｏｙａｌ　ｆａｍｉｌｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｕｒｅ　ｔｈｅｙ　ｔｏｌｄ　ｍｙ　ｆａｔｈｅｒ　"TCC_NEWLINE"ｔｈｅｙ　ｗｏｕｌｄ　ｍａｋｅ　ｈｉｍ　ｋｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｏｎｌｙ　ｔｏｏｋ　ａｎ　ｉｎｓｔａｎｔ　ｆｏｒ　ｔー"TCC_NEWLINE"ｈｅ　ｈａｌｌ　ｔｏ　ｂｅ　ａｗａｓｈ　ｗｉｔｈ　ｂｌｏｏー"TCC_NEWLINE"ｄ．　Ｉ　ｈａｄ　ｎｏ　ｉｄｅａ　ｗｈａｔ　ｗａｓ　ｈａｐー"TCC_NEWLINE"ｐｅｎｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｃｏｎｆｕｓｅｄ，　ｂｕｔ　Ｉ　ｋｎｅｗ　ｉｔ"TCC_NEWLINE"　ｗａｓ　ｄａｎｇｅｒｏｕｓ　ｔｏ　ｓｔａｙ　ｗｈｅｒｅ　"TCC_NEWLINE"Ｉ　ｓｔｏｏｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｈｅ　ｃｏｍｍｏｔｉｏｎ，　Ｉ　ｔｏｏｋ　ｔｈｅ　"TCC_NEWLINE"ｋｉｎｇ　ａｎｄ　ｑｕｅｅｎ’ｓ　ｃｒｙｉｎｇ　ｂａｂｙ　"TCC_NEWLINE"ｆｒｏｍ　ｔｈｅ　ｃｒａｄｌｅ　ａｎｄ　ｒａｎ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｔｈａｔ　ｂａｂｙ　ｗａｓ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｏ，　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ　ｈａｓ　ａｌｗａｙー"TCC_NEWLINE"ｓ　ｂｅｅｎ　ａ　ｐｒｉｎｃｅｓｓ　ｏｆ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ，　ｆｒｏｍ　ｔｈｅ　ｖｅｒｙ　ｓｔａｒｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈａｔ．．．ｔｈａｔ　ｃａｎ’ｔ　ｂｅ　ｔｒｕｅ．　Ｉ　"TCC_NEWLINE"ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈｙ　ｗｏｕｌｄ　Ｉ　ｌｉｅ？　Ｙｏｕ　ｗｅｒｅ　ａｂｌー"TCC_NEWLINE"ｅ　ｔｏ　ｅｎｔｅｒ　ｔｈｅ　Ｔｏｗｅｒ　ｏｆ　Ｎｉａｖｅー"TCC_NEWLINE"ｌｌｉｒ．　Ｗｈａｔ　ｍｏｒｅ　ｐｒｏｏｆ　ｄｏ　ｙｏｕ　"TCC_NEWLINE"ｎｅｅｄ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｇａｔｅｓ　ｔｈｅｒｅ　ｎｅｖｅｒ　ｏｐｅｎｅｄ　"TCC_NEWLINE"ｆｏｒ　ｅｉｔｈｅｒ　ｏｆ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔａｋｅ　Ｇｒａｍｒ　ｆｒｏｍ　ｈｉｍ　ｎｏｗ，　Ｐｒｉｎー"TCC_NEWLINE"ｃｅｓｓ　Ｒｅｇｉｎｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｗｈａｔ？　Ｎｏｗ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｙｅｓ．　Ｆｆｎｉｒ’ｓ　ｒａｍｐａｇｅ　ｈａｓ　ａｌｒｅー"TCC_NEWLINE"ａｄｙ　ｄｅｓｔｒｏｙｅｄ　ｍｕｃｈ　ｏｆ　ｔｈｅ　ｋｉｎー"TCC_NEWLINE"ｇｄｏｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｒｅｃｏｖｅｒｙ　ｆｒｏｍ　ｔｈｉｓ　ｄｉｓａｓｔｅｒ　ｗー"TCC_NEWLINE"ｉｌｌ　ｔａｋｅ　ａ　ｌｏｎｇ　ｔｉｍｅ　ａｓ　ｉｔ　ｉｓ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｙｏｕ，　ｔｈｅｉｒ　ｐｒｉｎｃｅｓｓ，　ｒｅｔー"TCC_NEWLINE"ｕｒｎｅｄ，　ｔｈｅ　ｐｅｏｐｌｅ　ｗｉｌｌ　ｈａｖｅ　ｓー"TCC_NEWLINE"ｏｍｅｔｈｉｎｇ　ｔｏ　ｒａｌｌｙ　ａｒｏｕｎｄｔｏ　ｈｏー"TCC_NEWLINE"ｐｅ　ｆｏｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ　ｔｈｅ　ｗｏｒｋ　ｏｆ　ｒｅｂｕｉｌｄｉｎｇ　ｃー"TCC_NEWLINE"ａｎ　ｔｒｕｌｙ　ｂｅｇｉｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｆｉｒｓｔ，　Ｆｆｎｉｒ　ｈａｓ　ｔｏ　ｂｅ　ｓｔー"TCC_NEWLINE"ｏｐｐｅｄ．　Ａｎｄ　ｙｏｕ　ｈａｖｅ　ｔｏ　ｂｅ　ｔｈｅ"TCC_NEWLINE"　ｏｎｅ　ｔｏ　ｄｏ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｄｅｆｅａｔ　ｈｉｍ，　ｎｏ　ｏｎｅ　ｗｉｌー"TCC_NEWLINE"ｌ　ａｒｇｕｅ　ｙｏｕｒ　ｒｉｇｈｔ　ｔｏ　ｔｈｅ　ｔｈｒー"TCC_NEWLINE"ｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗａｎｔ．．．ｍｅ？　Ｔｏ　ｄｅｆｅａｔ．．．Ｆｆー"TCC_NEWLINE"ｎｉｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｎｏ！　Ｙｏｕ　ｃａｎ’ｔ！　Ｉ　ｗｏｎ’ｔ　ａｌｌｏｗ　"TCC_NEWLINE"ｉｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ｎｅｖｅｒ　ａｎｙｔｈｉｎｇ　ｍｏｒｅ　"TCC_NEWLINE"ｔｈａｎ　ａ　ｓｎｉｖｅｌｉｎｇ　ｃｒｙｂａｂｙ！　．．．"TCC_NEWLINE"Ｉ　ｈａｔｅ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｇｅｔ　ｅｖｅｒｙｔｈｉｎｇ　Ｉ　ｅｖｅｒ　ｗａｎー"TCC_NEWLINE"ｔｅｄ，　ａｌｌ　ｗｉｔｈｏｕｔ　ｅｖｅｒ　ｌｉｆｔｉｎｇ"TCC_NEWLINE"　ａ　ｆｉｎｇｅｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｎｏｗ．．．　Ｎｏｗ　ｙｏｕ　ｗａｎｔ　ｔｏ　ｔａー"TCC_NEWLINE"ｋｅ　ｍｙ　ｂｒｏｔｈｅｒ　ｆｒｏｍ　ｍｅ　ｔｏｏ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"ｔｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｊｕｓｔ　ｇｏ！　Ｌｅａｖｅ　ｕｓ！　Ｙｏｕ　ａｎｄ　ａｌー"TCC_NEWLINE"ｌ　ｙｏｕｒ　ｌｉｔｔｌｅ　ｆｒｉｅｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅａｖｅ　ｔｈｉｓ　ｋｉｎｇｄｏｍ　ｎｏｗ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｊｕｓｔ．．．ｇｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｅ　ｗｉｌｌ　ｂｅ　ｔａｋｉｎｇ　Ｇｒａｍｒ　ｆｒｏｍ　"TCC_NEWLINE"ｙｏｕ　ｎｏｗ，　ｔｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄａｍｎ　ｉｔ．．．　Ｗｈｙ．．．ｗｈｙ　ｄｏｎ’ｔ　ｙｏー"TCC_NEWLINE"ｕ　ｊｕｓｔ．．．ｋｉｌｌ　ｍｅ　ａｌｒｅａｄｙ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"ｔｒ，　ｄｏｎ’ｔ　ｓａｙ　ｓｕｃｈ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｔｒｉｅｄ，　ｙｏｕ　ｋｎｏｗ．．．　Ｔｏ　ｇｅｔ　ｒー"TCC_NEWLINE"ｉｄ　ｏｆ　ｙｏｕ．．．　Ａｌｌ　ｔｈｉｓ　ｔｉｍｅ．　Ｉ"TCC_NEWLINE"　ｗａｎｔｅｄ　ｔｏ　ｋｉｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｃａｕｓｅ　ｏｆ　ｙｏｕ．．．Ｉ’ｖｅ　ｏｎｌｙ　ｋｎー"TCC_NEWLINE"ｏｗｎ．．．ｐａｉｎ　ａｎｄ　ｓｕｆｆｅｒｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｌｏｓｔ　ｍｙ　ｍｏｔｈｅｒ　ａｎｄ　ｆａｔｈｅｒ．．"TCC_NEWLINE"．ｗａｓ　ｃｈａｓｅｄ　ｏｕｔ　ｏｆ　ｔｈｅ　ｃａｓｔｌｅ"TCC_NEWLINE"．．．ｆｏｒｃｅｄ　ｔｏ　ｄｉｇ　ｔｈｒｏｕｇｈ　ｇａｒｂー"TCC_NEWLINE"ａｇｅ　ｔｏ　ｓｕｒｖｉｖｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｎ．．．ｔｈｅｎ　Ｆｆｎｉｒ　ｃａｍｅ．．．"TCC_NEWLINE"　Ａｎｄ　ｈｅ　ｓａｖｅｄ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｋｎｅｗ　ｔｈａｔ．．．ｉｆ　ｈｅ　ｗａｓ　ｋｉｎｇ．"TCC_NEWLINE"．．Ｉ　ｃｏｕｌｄ　ｂｅ　ｈａｐｐｙ．．．ａｎｄ　Ｉ　ｗｏー"TCC_NEWLINE"ｕｌｄ　ｎｅｖｅｒ　ｈａｖｅ　ｔｏ　ｗｏｒｒｙ　ａｇａｉｎ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｅｔ　ｙｏｕ　ｍａｎａｇｅｄ　ｔｏ　ｒｕｉｎ　ｅー"TCC_NEWLINE"ｖｅｎ　ｔｈａｔ．．．　Ａｇａｉｎ，　ｙｏｕ　ｔａｋｅ　ｅー"TCC_NEWLINE"ｖｅｒｙｔｈｉｎｇ　ｆｒｏｍ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｒｙｔｈｉｎｇ　ｂｕｔ．．．ｂｕｔ．．．　Ｈｎｇｈ！"TCC_NEWLINE"　Ｂ－Ｂｒｏｔｈｅｒ？！　．．．Ｂｒｏｔｈｅｒ，　ｗｈｅｒー"TCC_NEWLINE"ｅ　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"ｔｒ，　ｗａｉｔ！　Ｄｏｎ’ｔ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"ＳＴＡＹ　ＡＷＡＹ　ＦＲＯＭ　ＭＥ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｎ’ｔ　ｌｅｔ　ｙｏｕ　ｔａｋｅ　ｍｙ　ｂｒｏｔｈー"TCC_NEWLINE"ｅｒ　ｆｒｏｍ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．ｔｒ．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｙｏｕ　ｗｅｒｅ　ｍｙ　ｂｒｏｔｈｅｒ　ｔｏｏ，　ｔー"TCC_NEWLINE"ｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ａｌｗａｙｓ　ｓｏ　ｋｉｎｄ　ａｎｄ　ｄー"TCC_NEWLINE"ｉｄ　ｓｏ　ｍｕｃｈ．．．　Ｉ　ａｌｗａｙｓ　ａｄｍｉｒｅー"TCC_NEWLINE"ｄ　ｔｈａｔ．　Ｉ　ｌｏｖｅｄ　ｙｏｕ　ｆｏｒ　ｔｈａｔ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5115_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｕｎｎｎｇｈｈ．．．　Ａａａ－ＡＡＲＲＧＨ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｂｒｏ．．．ｔｈｅｒ．．．　Ｉ　ａｍ　ｓｏ　ｇｌａｄ　ｙｏー"TCC_NEWLINE"ｕ’ｖｅ　ｃｏｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｐｒｏｍｉｓｅ．．．　ｔｏ　ｎｅｖｅｒ　ｌｅａｖｅ　ｙー"TCC_NEWLINE"ｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｊｕｓｔ．．．　Ｈｏｌｄ　ｍｅ　ｃｌｏｓｅ．．．　Ｌｉｋｅ"TCC_NEWLINE"　ｗｈｅｎ．．．ｗｅ　ｗｅｒｅ　ｙｏｕｎｇｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｇｈｈｎｎｇｋ．．．　Ａｕｏｇｈ．．．　ＡＡＡ－ＡＡＵＵＯー"TCC_NEWLINE"ＯＯＧＨ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｕｒｋ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｒｏ．．．ｔｈｈ－ｈｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

@@ -1,0 +1,52 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5102] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"ヒヒッ。。。やっぱり来たな召喚師。" TCC_NEWLINE
+"もう回りくどい真似はしない。" TCC_NEWLINE
+"皆殺しにしてお前を手に入れる！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"オッテルお兄ちゃん！" TCC_NEWLINE
+"聞きたいことがあるの。" TCC_NEWLINE
+"私たち、ニザヴェリルの塔に行ったの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"何。。。？" TCC_NEWLINE
+"お前、塔に入ったのか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"うん。それでファフニールお兄ちゃんは" TCC_NEWLINE
+"ニザヴェリルの民じゃ" TCC_NEWLINE
+"ないんじゃないかって。。。" TCC_NEWLINE TCC_PUSH_A
+"オッテルお兄ちゃんも気づいてたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。ああ、その通りだ。" TCC_NEWLINE
+"知られたからにはますます" TCC_NEWLINE
+"お前たちを生かしてはおけないな。。。。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"待て、オッテル！" TCC_NEWLINE
+"君とエイトリは一体何を企んでいる！？" TCC_NEWLINE TCC_PUSH_A
+"それはファフニールの正体と" TCC_NEWLINE
+"何か関係が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"お前たちが知る必要はない！！" TCC_NEWLINE
+"あれこれ首を突っ込んで嗅ぎ回って。。。" TCC_NEWLINE TCC_PUSH_A
+"下品な奴らだ。" TCC_NEWLINE
+"僕が教育してやる！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5102] = TCC_OPEN_LEFT 
+"主よ。。。私にどうか勇気を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5102] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_OTR
+"くそっ。。。！" TCC_NEWLINE
+"ここは退いて、兄さんと合流するか。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。？　兄さん？" TCC_NEWLINE
+"兄さんはどこに。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

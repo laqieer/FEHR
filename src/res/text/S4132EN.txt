@@ -1,0 +1,60 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｉ　ｃａｎ　ｓｔｉｌｌ　ｓｅｎｓｅ　Ｌａｄｙ　Ｆｒｅｙｊａ"TCC_NEWLINE"’ｓ　ｐｏｗｅｒ．．．　Ｗｅ　ｓｔｉｌｌ　ｎｅｅｄ　ｔｏ　"TCC_NEWLINE"ｗｅａｋｅｎ　ｈｅｒ，　ｏｒ　ｗｅ’ｌｌ　ｎｅｖｅｒ　ｂｅ"TCC_NEWLINE"　ａｂｌｅ　ｔｏ　ｕｓｅ　ｔｈｅ　ｈｏｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｈｅｎ　ｗｅ　ｄｏ．．．ｙｏｕ　ｎｅｅｄ　ｔｏ　"TCC_NEWLINE"ｒｅｔｕｒｎ　ｔｏ　ｙｏｕｒ　ｗｏｒｌｄ，　ａｌｌ　ｒｉｇー"TCC_NEWLINE"ｈｔ？　Ｄｏｎ’ｔ　ｗｏｒｒｙ　ａｂｏｕｔ　ｍｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｍ　ｓｕｒｅ　ｔｈｅｒｅ　ａｒｅ　ａ　ｌｏｔ　ｏｆ　ｐー"TCC_NEWLINE"ｅｏｐｌｅ　ｗｈｏ’ｖｅ　ｂｅｅｎ　ｗａｉｔｉｎｇ　ｆｏｒ"TCC_NEWLINE"　ｙｏｕ　ｔｏ　ｗａｋｅ　ｕｐ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ａｎｄ　ｗｈａｔ　ｉｆ　Ｆｒｅｙｊａ　ｉｓ　ｔｅｌｌｉｎｇ"TCC_NEWLINE"　ｔｈｅ　ｔｒｕｔｈ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｍａｙ　ｂｅ　ｄｅａｄ．．．"TCC_NEWLINE"　Ｔｈａｔ　ｃｏｕｌｄ　ｂｅ　ｔｈｅ　ｒｅａｌｉｔｙ　ｗｅ"TCC_NEWLINE"　ａｗａｋｅｎ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｋｎｏｗｉｎｇ　ｔｈａｔ，　ｗｏｕｌｄ　ｙｏｕ　"TCC_NEWLINE"ｓｔｉｌｌ　ｗａｋｅ　ｕｐ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｗｈａｔ’ｓ　ｔｈｅ　ｍａｔｔｅｒ，　Ｓｈａｒｅｎａ？　Ｙー"TCC_NEWLINE"ｏｕ　ｌｏｏｋ　ｗｏｒｒｉｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｌｌ　ｂｅ　ａｌｌ　ｒｉｇｈｔ！　Ｉ’ｍ　ｓｕｒｅ　"TCC_NEWLINE"Ａｌｆｏｎｓｅ　ｉｓ　ｆｉｎｅ．　Ｏｎｃｅ　ｙｏｕ　ｗａｋー"TCC_NEWLINE"ｅ　ｕｐ，　ｈｅ’ｌｌ　ｂｅ　ｗａｉｔｉｎｇ　ｆｏｒ　ｙｏー"TCC_NEWLINE"ｕ！"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ．．．ｎｏ　ｎｅｅｄ　ｔｏ　ｗｏｒｒｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａ－ａｒｅ　ｙｏｕ　ｓｕｒｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ａｍ．　Ｓｏ　ｄｏｎ’ｔ　ｂｅ　ｓａｄ！　Ｙｏｕ　ｈａー"TCC_NEWLINE"ｖｅ　ｎｏｔｈｉｎｇ　ｔｏ　ｗｏｒｒｙ　ａｂｏｕｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｅｏｎｙ．．．　Ｍｙ　ｂｅｓｔ　ｆｒｉｅｎｄ，　ｗｈｏ　"TCC_NEWLINE"Ｉ　ｐｌａｙｅｄ　ｗｉｔｈ　ｉｎ　ｔｈｅ　ｆｌｏｗｅｒ　ｇー"TCC_NEWLINE"ａｒｄｅｎ．．．　Ｔｈａｔ　ｗａｓ　ｙｏｕ，　ｗａｓｎ’ｔ"TCC_NEWLINE"　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｙｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｒｅａｌｌｙ　ｒｅｍｅｍｂｅｒ　ｍｕｃｈ　"TCC_NEWLINE"ｆｒｏｍ　ｂｅｆｏｒｅ　Ｉ　ｗａｓ　ａｎ　ｌｆｒ，　ｂｕｔ"TCC_NEWLINE"　Ｉ　ｄｏ　ｒｅｍｅｍｂｅｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｒｅｍｅｍｂｅｒ　ｔｈａｔ　ｗｅ　ｗｅｒｅ　ｖｅｒｙ　"TCC_NEWLINE"ｇｏｏｄ　ｆｒｉｅｎｄｓ，　ｂｕｔ　Ｉ　ｓｔｉｌｌ　ｈａｖー"TCC_NEWLINE"ｅ　ｏｎｌｙ　ｈａｚｙ　ｈａｌｆ－ｍｅｍｏｒｉｅｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｇｉｒｌ　ｔｏｌｄ　ｍｅ．．．ｗｈｅｎ　ｗｅ　ｗー"TCC_NEWLINE"ｅｒｅ　ｔｒａｄｉｎｇ　ｐｌａｃｅｓ　ｗｉｔｈ　ｅａｃｈ　"TCC_NEWLINE"ｏｔｈｅｒ，　ｓｈｅ　ｗａｓ　Ｓｈａｒｅｎａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｔｏｌｄ　ｍｅ　ｓｈｅ　ｄｒａｎｋ　ｍｙ　ｓｈａｒー"TCC_NEWLINE"ｅ　ｏｆ　ｔｈｅ　ｄｒｅａｍ　ｎｅｃｔａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｆｅｌｔ　ｃｈｅａｔｅｄ．．．　Ｉ　ｃｒｉｅｄ　ｏｖｅー"TCC_NEWLINE"ｒ　ｉｔ！　Ｉ　ｗａｎｔｅｄ　ｔｏ　ｄｒｉｎｋ　ｔｈｅ　ｎー"TCC_NEWLINE"ｅｃｔａｒ！　Ｉ　ｗａｎｔｅｄ　ｔｏ　ｂｅｃｏｍｅ　ａ　ｈー"TCC_NEWLINE"ｅｒｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｎｏｗ　Ｉ　ｕｎｄｅｒｓｔａｎｄ．　Ｔｈａｔ　ｇｉー"TCC_NEWLINE"ｒｌ．．．　Ｓｈｅ　ｋｎｅｗ　ｗｈａｔ　ｗａｓ　ａｂｏｕｔ"TCC_NEWLINE"　ｔｏ　ｈａｐｐｅｎ．　Ｓｈｅ　ｋｎｅｗ　ｔｈｅｒｅ　ｗａー"TCC_NEWLINE"ｓ　ｎｏ　ｃｏｍｉｎｇ　ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｅ　ｓａｃｒｉｆｉｃｅｄ　ｈｅｒｓｅｌｆ　ａｎｄ　ｄｒー"TCC_NEWLINE"ａｎｋ　ｍｙ　ｓｈａｒｅ　ｏｆ　ｔｈｅ　ｎｅｃｔａｒ　ｗｉー"TCC_NEWLINE"ｔｈｏｕｔ　ｅｖｅｒ　ｌｅｔｔｉｎｇ　ｏｎ　ｈｏｗ　ｓｈｅ"TCC_NEWLINE"　ｓａｖｅｄ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｓ　ａｌｌ　ｔｈａｔ　ｔｒｕｅ，　Ｐｅｏｎｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｉ　ｗａｎｔｅｄ　ｔｏ　ｈｅｌｐ　ｐｅｏｐｌｅ　ｂｅ"TCC_NEWLINE"　ｈａｐｐｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ａｓ　ａ　ｃｈｉｌｄ，　ａｓ　ｌｏｎｇ　ａｓ　ｔー"TCC_NEWLINE"ｈｅ　ｐｅｏｐｌｅ　Ｉ　ｃａｒｅｄ　ａｂｏｕｔ　ｗｅｒｅ　"TCC_NEWLINE"ｈａｐｐｙ，　ｔｈａｔ　ｗａｓ　ａｌｌ　Ｉ　ｎｅｅｄｅｄ．"TCC_NEWLINE"　Ｉ　ｗａｓ　ｈａｐｐｙ　ｔｏｏ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｗｅｒｅ　ｈａｐｐｙ，　ｗｈａｔ　ｍｏｒｅ　"TCC_NEWLINE"ｃｏｕｌｄ　Ｉ　ａｓｋ　ｆｏｒ？　Ｍｙ　ｄｒｅａｍ　ｈａｄ"TCC_NEWLINE"　ｃｏｍｅ　ｔｒｕｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｗｅ　Ｙｏｕ　ａｎｄ　Ｉ　ｐｌａｙｅｄ　ｔｏｇｅｔー"TCC_NEWLINE"ｈｅｒ　ａｎｄ　ｃｈａｎｇｅｄ　ｐｌａｃｅｓ　ｍｏｒｅ　ｔー"TCC_NEWLINE"ｈａｎ　ａ　ｆｅｗ　ｔｉｍｅｓ，　ｄｉｄｎ’ｔ　ｗｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｓｈａｒｅｄ　ｏｕｒ　ｔｈｏｕｇｈｔｓ　ｗｉｔｈ　ｏー"TCC_NEWLINE"ｎｅ　ａｎｏｔｈｅｒ．．．ｂｅｃａｍｅ　ｅａｃｈ　ｏｔｈｅー"TCC_NEWLINE"ｒ　ｅｖｅｎ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｅｆｏｒｅ　Ｉ　ｍｅｔ　ｙｏｕ，　ｂｅｆｏｒｅ　ａｎｙ　"TCC_NEWLINE"ｏｆ　ｔｈｉｓ，　ｗａｓ　Ｉ．．．ｔｈｅ　ｏｒｉｇｉｎａｌ"TCC_NEWLINE"　Ｐｒｉｎｃｅｓｓ　Ｓｈａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ　ｗｅｒｅ　ｙｏｕ　Ｓｈａｒｅｎａ，　ａｎｄ　ｙｏｕ　"TCC_NEWLINE"ｓａｖｅｄ　ｍｅ　ｂｙ　ｄｒｉｎｋｉｎｇ　ｍｙ　ｎｅｃｔａー"TCC_NEWLINE"ｒ　ａｎｄ　ｌｅａｖｉｎｇ　ｍｅ　ｗｉｔｈ　ｙｏｕｒ　ｌｉー"TCC_NEWLINE"ｆｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ’ｓ　ｍｉｎｅ　ｉｓ　ｙｏｕｒｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ　ｄｏｅｓｎ’ｔ　ｍａｔｔｅｒ　ｗｈｏ　ｗａｓ　ｗｈｏ"TCC_NEWLINE"　ｏｒｉｇｉｎａｌｌｙ．　Ａｎｄ　ｂｅｓｉｄｅｓ，　ｎｅｉー"TCC_NEWLINE"ｔｈｅｒ　ｏｆ　ｕｓ　ｃａｎ　ｒｅｍｅｍｂｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｅｎ　ｗｅ　ｐｌａｙｅｄ　ｔｏｇｅｔｈｅｒ，　ｗｅ　ｓー"TCC_NEWLINE"ｈａｒｅｄ　ｅｖｅｒｙｔｈｉｎｇ．　Ｅｖｅｎ　ｏｕｒ　ｈｅー"TCC_NEWLINE"ａｒｔｓ，　ａｎｄ　ｏｕｒ　ｍｉｎｄｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｎｄ　Ｉ　ａｒｅ　ｔｗｏ　ｈａｌｖｅｓ　ｏｆ　ａ"TCC_NEWLINE"　ｗｈｏｌｅ．　Ｗｅ　ｅａｃｈ　ｈａｖｅ　ｈａｌｆ　ｔｈｅ"TCC_NEWLINE"　ｏｔｈｅｒ　ｉｎ　ｕｓ．　Ｔｈａｔ　ｍａｋｅｓ　ｕｓ　ｔー"TCC_NEWLINE"ｈｅ　ｓａｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ’ｓ　ｄｏｎｅ　ｉｓ　ｄｏｎｅ．　Ｓｏ　ｄｏｎ’ｔ"TCC_NEWLINE"　ｗｏｒｒｙ！　Ｊｕｓｔ．．．ｂｅ　ｈａｐｐｙ！　Ｔｈａｔ"TCC_NEWLINE"’ｓ　ａｌｌ　Ｉ　ａｓｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐｅｏｎｙ，　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈａｔ　ｔｏ　ｓー"TCC_NEWLINE"ａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

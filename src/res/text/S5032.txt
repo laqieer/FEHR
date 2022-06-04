@@ -1,0 +1,8 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5032] = TCC_OPEN_LEFT 
+"どんなに落ちぶれても、" TCC_NEWLINE
+"アルスターの誇りを" TCC_NEWLINE
+"忘れたことはありません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

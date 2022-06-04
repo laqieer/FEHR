@@ -1,0 +1,43 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ．．．ｗｈａｔ　ｉｓ　ｔｈｉｓ　ｆｅｅｌｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｖｅ．．．ｎｅｖｅｒ　ｆｅｌｔ　ｌｉｋｅ　ｔｈｉｓ　ｂー"TCC_NEWLINE"ｅｆｏｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｃｈｉｌｄｒｅｎ　ａｒｅ　ｇｏｎｅ，　ａｎｄ　ｙｅー"TCC_NEWLINE"ｔ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ＩＳ　ｔｈｉｓ．．．ａｎｄ　ｗｈｙ　ｉｓ　ｉｔ　"TCC_NEWLINE"ｓｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｙｏｕ　ｈａｖｅ　ｒｅａｃｈｅｄ　ｔｈｅ　ｅｎｄ　ｈｅｒｅ"TCC_NEWLINE"，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｉｃｈ　ｗｉｌｌ　ｉｔ　ｂｅ？　Ｅｖｅｒｌａｓｔｉｎｇ"TCC_NEWLINE"　ｊｏｙ　ｗｉｔｈｉｎ　ｔｈｅ　ｄｒｅａｍ？　Ｏｒ　ｔｈｅ"TCC_NEWLINE"　ｈｏｌｌｏｗ　ｒｅａｌｉｔｙ　ｙｏｕ’ｖｅ　ｌｅｆｔ　ｂー"TCC_NEWLINE"ｅｈｉｎｄ？"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｓｉｎｃｅ　ｙｏｕ’ｖｅ　ｄｅｍｏｎｓｔｒａｔｅｄ　"TCC_NEWLINE"ｙｏｕｒ　ｉｎａｂｉｌｉｔｙ　ｔｏ　ａｃｔ　ｗｉｔｈ　ｓｅー"TCC_NEWLINE"ｌｆ－ｉｎｔｅｒｅｓｔ，　ｌｅｔ　ｍｅ　ｍａｋｅ　ｔｈｅ　"TCC_NEWLINE"ｃｈｏｉｃｅ　ｆｏｒ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｕｓｈ　ｎｏｗ．．．　Ａｎｄ　ｌｅｔ　ｍｙ　ｄｒｅａｍ　"TCC_NEWLINE"ｄｒａｇ　ｙｏｕ　ｄｅｅｐｅｒ　ａｎｄ　ｄｅｅｐｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S4134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"ＲｒｒａａＡＡＨＨＨ！　Ｙｏｕ　ｄｅｍａｎｄ　ｒｅａｌｉｔー"TCC_NEWLINE"ｙ，　ｄｏ　ｙｏｕ？　Ｄｅｓｐｉｔｅ　ｔｈｅ　ｃｏｎｓｅｑー"TCC_NEWLINE"ｕｅｎｃｅｓ，　ａｆｔｅｒ　ｅｖｅｒｙｔｈｉｎｇ？"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｙ　ｗｅｌｌ．．．　Ｉ　ｗｉｌｌ　ｇｉｖｅ　ｙｏｕ　"TCC_NEWLINE"ａ　ｔａｓｔｅ　ｏｆ　ｔｈｅ　ｒｅａｌｉｔｙ　ｙｏｕ　ｃｒー"TCC_NEWLINE"ａｖｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｈｅ　ｄｅａｔｈ　ｏｆ　ｍｙ　ｂｒｏｔｈｅｒ，　"TCC_NEWLINE"ｈａｖｅ　ｔｈｅ　ｄｅａｔｈ　ｏｆ　ｔｈｅ　ｌｆａｒ！　Ｓー"TCC_NEWLINE"ｉｍｐｌｅ，　ｒｅａｌ，　ｃａｕｓｅ　ａｎｄ　ｅｆｆｅｃｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｗｈａｔ　ｐｏｗｅｒ　ｒｅｍａｉｎｓ　ｔｏ　ｍｅ"TCC_NEWLINE"，　Ｉ　ｗｉｌｌ　ｅｒａｓｅ　ｔｈｅｍ　ｆｒｏｍ　ｅｘｉｓー"TCC_NEWLINE"ｔｅｎｃｅ．　Ｔｈｅｉｒ　ｌｉｖｅｓ，　ｍｅｍｏｒｉｅｓ．"TCC_NEWLINE"．．ｅｖｅｒｙｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗｉｌｌ　ｂｅ　ａｓ　ｉｆ　ｔｈｅ　ｖｅｒｙ　ｉｄｅー"TCC_NEWLINE"ａ　ｏｆ　ｌｆａｒ　ｎｅｖｅｒ　ｅｘｉｓｔｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4134_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ａｌｌ　ｗｅ　ｎｅｅｄ　ｔｏ　ｄｏ　ｎｏｗ　ｉｓ　ｂｌｏｗ"TCC_NEWLINE"　ｔｈｅ　ｈｏｒｎ．　Ｏｎｃｅ　ｗｅ　ｄｏ　ｔｈａｔ，　ｔー"TCC_NEWLINE"ｈｅ　ｄｒｅａｍ　ｗｉｌｌ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｄｏｎ’ｔ　ｙｏｕ　ｗｏｒｒｙ　ａｂｏｕｔ　ｍｅ"TCC_NEWLINE"．　Ｌｏｏｋ！　Ｉ’ｍ　ｓｔｉｌｌ　ａｌｉｖｅａｎｄ　ｆｕー"TCC_NEWLINE"ｌｌ　ｏｆ　ｅｎｅｒｇｙ　ａｓ　ｅｖｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｉ’ｍ　ｓｏｒｒｙ．　Ｔｈｅ　ｔｒｕｔｈ　ｉｓ．．．"TCC_NEWLINE"ｔｈｉｓ　ｗｉｌｌ　ａｌｌ　ｂｅ　ｏｖｅｒ　ｖｅｒｙ　ｓｏー"TCC_NEWLINE"ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌａｄｙ　Ｆｒｅｙｊａ　ｗｉｌｌ　ｅｎｄ　ｍｙ　ｌｉｆｅ．"TCC_NEWLINE"．．　Ｉｔ　ｗｉｌｌ　ｂｅ　ａｓ　ｉｆ　Ｉ　ｎｅｖｅｒ　ｅー"TCC_NEWLINE"ｘｉｓｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｔｈｉｎｇ　ｃａｎ　ｐｒｅｖｅｎｔ　ｔｈａｔ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ．．．Ｉ　ａｃｃｅｐｔ　ｔｈａｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｄｒｅａｍｅｒｓ　ｗａｋｅ　ｅｖｅｎｔｕａｌｌｙ．"TCC_NEWLINE"．．　Ｃｈｉｌｄｒｅｎ　ｗｉｌｌ　ｇｒｏｗ　ｉｎｔｏ　ａｄー"TCC_NEWLINE"ｕｌｔｓ．．．　Ｔｈａｔ’ｓ　ｔｈｅ　ｗａｙ　ｔｈｉｎｇｓ"TCC_NEWLINE"　ａｒｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａ　ｃｈｉｌｄ　ｗｈｏ　ｈａｓ　ａ　ｓｗｅｅｔ　ｄｒｅａｍ"TCC_NEWLINE"　ｗａｋｅｓ　ｔｏ　ｆｅｅｌｉｎｇ　ｈａｐｐｙ　ｉｎｓｉｄー"TCC_NEWLINE"ｅ，　ｅｖｅｎ　ｉｆ　ｔｈｅｙ　ｃａｎ’ｔ　ｒｅｍｅｍｂｅー"TCC_NEWLINE"ｒ　ｗｈｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ｗｈｙ　ｄｒｅａｍｓ　ｍａｔｔｅｒ．．．ｅー"TCC_NEWLINE"ｖｅｎ　ｔｈｏｕｇｈ　ｔｈｅｙ　ｅｎｄ．　Ｅｖｅｒｙ　ｄｒー"TCC_NEWLINE"ｅａｍ　ｌｅａｖｅｓ　ｉｔｓ　ｍａｒｋ　ｏｎ　ｒｅａｌｉｔー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏｗ，　ｙｏｕｒ　ｆｒｉｅｎｄｓ　ａｒｅ　ｗａｉｔｉｎｇ"TCC_NEWLINE"　ｆｏｒ　ｙｏｕ　ｔｏ　ｆｉｎａｌｌｙ　ａｗａｋｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ　ｄｏ　ｉｔ！　Ｂｌｏｗ　ｔｈｅ　ｈｏｒｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ．．．"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｎｋ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

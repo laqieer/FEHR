@@ -1,0 +1,51 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｙｏｕ　ｕｎｄｅｒｓｔａｎｄ，　ｄｏｎ’ｔ　ｙｏｕ？　Ｐｒー"TCC_NEWLINE"ｉｎｃｅ　Ａｌｆｏｎｓｅ　ｉｓ　ｄｅａｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ，　ｉｔ　ｃａｎｎｏｔ　ｂｅ　ｔｒｕｅ！　ｅｃｈｏｅｓ"TCC_NEWLINE"　ｉｎ　ｙｏｕｒ　ｍｉｎｄ，　ｂｕｔ　ｙｏｕｒ　ｗｉｓｈｅー"TCC_NEWLINE"ｓ　ｃａｎｎｏｔ　ｃｈａｎｇｅ　ｔｈｅ　ｒｅａｌｉｔｙ　ｏー"TCC_NEWLINE"ｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｃａｎｎｏｔ　ｄｉｅ！　Ｈｅ"TCC_NEWLINE"　ｍｕｓｔ　ｂｅ　ａｌｉｖｅ　ａｎｄ　ｗｅｌｌ！"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｔｈｒｏｕｇｈ　ｙｏｕｒ　ｐａｉｎ　ａｎｄ　ｙｏｕー"TCC_NEWLINE"ｒ　ｓａｄｎｅｓｓ，　ｙｏｕ　ｃｒｅａｔｅｄ　ｔｈｉｓ　ｗー"TCC_NEWLINE"ｏｒｌｄ　ｏｆ　ｄｒｅａｍｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｅｖｅｎ　ｔｏｏｋ　ｏｎ　ｔｈｅ　ｒｏｌｅ　ｏｆ　"TCC_NEWLINE"ｙｏｕｒ　ｂｅｌｏｖｅｄ　ｌａｔｅ　ｐｒｉｎｃｅ　ｙｏｕｒー"TCC_NEWLINE"ｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_PEONY
+"Ｉｔ’ｓ　ａｌｌ　ｌｉｅｓ！　Ｙｏｕ’ｒｅ　ｍａｋｉｎｇ　"TCC_NEWLINE"ｉｔ　ｕｐ！　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ　ｈａｓ　ｔｏ　"TCC_NEWLINE"ｂｅ　ａｌｉｖｅ．．．　Ｓｔｏｐ　ｔｒｙｉｎｇ　ｔｏ　ｔｒー"TCC_NEWLINE"ｉｃｋ　ｕｓ，　Ｆｒｅｙｊａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｉｓ　ｉｔ　ａ　ｌｉｅ？　Ｉ　ｎｅｅｄ　ａｎｓｗｅｒｓ，　"TCC_NEWLINE"ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_MIRABILIS
+"Ｉ－Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ！　Ｔｈｅｒｅ’ｓ　ｎｏ　ｗａー"TCC_NEWLINE"ｙ　ｔｏ　ｔｅｌｌ　ｉｆ　ｓｈｅ’ｓ　ｌｙｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｉ　ｋｎｏｗ　ａ　ｗａｙ．　Ｓｉｍｐｌｙ　ｏｂｓｅｒｖｅ　"TCC_NEWLINE"ａｓ　ｔｈｉｓ　ｄｒｅａｍ　ｃｏｎｔｉｎｕｅｓ　ｆｏｒ　ａー"TCC_NEWLINE"ｌｌ　ｅｔｅｒｎｉｔｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｕｓｔ　ｋｅｅｐ　ｏｎ　ｄｒｅａｍｉｎｇ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．　Ｆｏｒｅｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｓｕｂｍｉｔ　ｔｏ　ｍｅ．　Ｏｎｌｙ　ｔｈｅｎ　ｗｉｌｌ　"TCC_NEWLINE"ｙｏｕ　ｆｉｎｄ　ｈａｐｐｉｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｒｕｓｔ　ｍｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4131_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
+"Ｗｈｙ．．．ｒｅｓｉｓｔ？　Ａｒｅ　ｙｏｕ　ｕｐｓｅｔ　ｔー"TCC_NEWLINE"ｈａｔ　Ｉ　ｒｕｉｎｅｄ　ｙｏｕｒ　ｄｒｅａｍ　ａｎｄ　ｔー"TCC_NEWLINE"ｏｌｄ　ｙｏｕ　ｔｈｅ　ｔｒｕｔｈ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈａｔ　ｉｓ　ｔｈｅ　ｃａｓｅ，　ｐｌｅａｓｅ　ａー"TCC_NEWLINE"ｃｃｅｐｔ　ｍｙ　ａｐｏｌｏｇｉｅｓ．．．ｆｏｒ　ｅｖｅｒー"TCC_NEWLINE"ｙｔｈｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕａｎｄ　ｏｎｌｙ　ｙｏｕａｒｅ　ｖｅｒｙ　ｓｐｅｃｉー"TCC_NEWLINE"ａｌ．　Ｙｏｕ　ｓｈｏｕｌｄ　ｂｅ　ｔｒｅａｔｅｄ　ｗｉｔー"TCC_NEWLINE"ｈ　ｒｅｓｐｅｃｔ．　Ｉ　ａｃｋｎｏｗｌｅｄｇｅ　ｔｈａｔ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｏ，　Ｉ　ｗｉｌｌ　ｏｆｆｅｒ　ｙｏｕ　ｔｈｅ　ｃｈｏｉー"TCC_NEWLINE"ｃｅ．．．　Ｉｆ　ｙｏｕ　ｍｕｓｔ　ｋｎｏｗ　ｔｈｅ　ｔｒー"TCC_NEWLINE"ｕｔｈ，　ｙｏｕ　ｍｕｓｔ　ｃｈｏｏｓｅ．　Ｄｒｅａｍ　ｏー"TCC_NEWLINE"ｒ　ｒｅａｌｉｔｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈｉｃｈ　ｗｉｌｌ　ｉｔ　ｂｅ？　Ｒｅｍａｉｎ　ｉｎ　ａ"TCC_NEWLINE"　ｄｒｅａｍ　ｗｉｔｈ　ｙｏｕｒ　ｆｒｉｅｎｄ　ａｌｉｖｅ"TCC_NEWLINE"　ｆｏｒｅｖｅｒ，　ｏｒ　ｔｏｓｓ　ｈｉｍ　ａｓｉｄｅ　ｔー"TCC_NEWLINE"ｏ　ｒｅｔｕｒｎ　ｔｏ　ｙｏｕｒ　ｒｅａｌｉｔｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｕｒｅｌｙ　ｍｙ　ｂｒｏｔｈｅｒ　ｎｏｔｉｃｅｄ　ｙｏｕ"TCC_NEWLINE"　ａｌｓｏ．．．　Ｙｏｕ　ａｒｅ　ａ　ｍｙｓｔｅｒｙ　ｔｏ"TCC_NEWLINE"　ｕｓ．　Ｂｅｙｏｎｄ　ｕｓ．　Ｙｏｕ　ｅｓｃａｐｅ　ｄｉー"TCC_NEWLINE"ｖｉｎｅ　ｕｎｄｅｒｓｔａｎｄｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｍａｋｅｓ　ｙｏｕｒ　ｄｒｅａｍ　ｓｐｅｃｉａｌ"TCC_NEWLINE"．　Ｗｉｔｈ　ｙｏｕｒ　ｐｏｗｅｒ，　ｔｈｉｓ　ｄｒｅａｍ"TCC_NEWLINE"　ｔｒｕｌｙ　ｃｏｕｌｄ　ｃｏｎｔｉｎｕｅ　ｆｏｒｅｖｅｒ"TCC_NEWLINE"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒｅ，　ｗｅ　ｃａｎ　ｂｏｔｈ　ｈａｖｅ　ｗｈａｔ　ｗー"TCC_NEWLINE"ｅ　ｗａｎｔ．　Ｗｅ　ｃａｎ　ｒｅｓｕｒｒｅｃｔ　ｍｙ　ｂー"TCC_NEWLINE"ｒｏｔｈｅｒ　ａｎｄ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｏｒｌｄｓ　ａｒｅ　ｙｏｕｒｓ　ｔｏ　ｃｒｅａｔｅ　ａｎー"TCC_NEWLINE"ｄ　ｍｏｌｄ　ｔｏ　ｙｏｕｒ　ｗｉｓｈｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｃｈｏｏｓｅ　ｔｈｅ　ｄｒｅａｍ，　ａｎｄ　ｙｏｕ　ｗｉｌー"TCC_NEWLINE"ｌ　ｅｎｊｏｙ　ｎｅｖｅｒ－ｅｎｄｉｎｇ　ｈａｐｐｉｎｅｓー"TCC_NEWLINE"ｓ．　Ｉ　ｗｉｌｌ　ｇｉｖｅ　ｙｏｕ　ａｌｌ　ｙｏｕ　ｄｅー"TCC_NEWLINE"ｓｉｒｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｆ　ｙｏｕ　ｓｈｏｕｌｄ　ｃｈｏｏｓｅ　ｒｅａｌｉｔｙ，"TCC_NEWLINE"　ｈｏｗｅｖｅｒ．．．ｙｏｕ　ｗｉｌｌ　ｗａｋｅ　ｔｏ　ａ"TCC_NEWLINE"　ｗｏｒｌｄ　ｗｉｔｈｏｕｔ　Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｏｕｌｄ　ｙｏｕ　ｃｈｏｏｓｅ　ｒｅａｌｉｔｙ，　Ｉ　"TCC_NEWLINE"ｗｉｌｌ　ｂｒｉｎｇ　ｔｈｅ　ｌｉｖｅｓ　ｏｆ　ｔｈｅ　ｌー"TCC_NEWLINE"ｆａｒ　ｔｏ　ａｎ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｎｏ　ｄｅｆｅａｔ　ｗｉｌｌ　ｓｔｏｐ　ｍｅ．　Ｉ　ｇａｖー"TCC_NEWLINE"ｅ　ｔｈｅｍ　ｔｈｅｉｒ　ｌｉｖｅｓ，　ａｎｄ　ｉｔ　ｗｏー"TCC_NEWLINE"ｕｌｄ　ｂｅ　ａ　ｓｉｍｐｌｅ　ｔａｓｋ　ｔｏ　ｔａｋｅ　"TCC_NEWLINE"ｔｈｅｍ　ａｗａｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｈｏｕｌｄ　ｙｏｕ　ｃｈｏｏｓｅ　ｒｅａｌｉｔｙ，　ｔｈー"TCC_NEWLINE"ｅｎ　ｂｙ　ａｌｌ　ｍｅａｎｓ，　ｔｒｙ　ｔｏ　ｄｅｆｅａー"TCC_NEWLINE"ｔ　ｍｅ．　Ｙｏｕ　ｗｉｌｌ　ｈａｖｅ　ｔｏ　ｉｎ　ｏｒｄー"TCC_NEWLINE"ｅｒ　ｔｏ　ａｗａｋｅｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ｔｈｅ　ｅｎｄ，　ｒｅｇａｒｄｌｅｓｓ　ｏｆ　ｙｏｕー"TCC_NEWLINE"ｒ　ｃｈｏｉｃｅ，　Ｉ　ｗｉｌｌ　ｎｏｔ　ａｌｌｏｗ　ｙｏー"TCC_NEWLINE"ｕ　ｔｏ　ｗａｋｅ．　Ｔｈｅｒｅ　ｉｓ　ｎｏｔｈｉｎｇ　ｙー"TCC_NEWLINE"ｏｕ　ｃａｎ　ｄｏ．　Ｓｕｂｍｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

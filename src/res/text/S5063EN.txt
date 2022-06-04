@@ -1,0 +1,44 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5063_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ａｌｆｏｎｓｅ！　Ｏｖｅｒ　ｔｈｅｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_OTR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｓｏ，　ｔｒ，　ｙｏｕ’ｖｅ　ｂｅｅｎ　ｗｏｒｋｉｎｇ　ｗー"TCC_NEWLINE"ｉｔｈ　Ｅｉｔｒｉ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"ｔｒ！　Ｂｒｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ａｈ，　Ｒｅｇｉｎｎ．．．　Ｉ　ｓｅｅ　ｙｏｕ　ａｒｅ　ｓー"TCC_NEWLINE"ｔｉｌｌ　ｃｌｉｎｇｉｎｇ　ｔｏ　ｔｈａｔ　ｃｈｉｌｄ’ｓ"TCC_NEWLINE"　ｂａｕｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｔ’ｓ　ｎｏｔ　ａ　ｂａｕｂｌｅ！　Ｉｔ　ｗａｓ　ａ　ｇー"TCC_NEWLINE"ｉｆｔ，　ａｎｄ　ｉｔ　ｍｅａｎｓ　ａ　ｌｏｔ　ｔｏ　ｍｅ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｒｏｔｈｅｒ　Ｆｆｎｉｒ　ｍａｄｅ　ｉｔ　ｆｏｒ　"TCC_NEWLINE"ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｈ，　ｃｏｍｅ　ｏｆｆ　ｉｔ．．．　Ｙｏｕ　ｄａｒｅ　ｓー"TCC_NEWLINE"ｐｅａｋ　ｔｏ　ｍｅ　ａｓ　ｉｆ　ｙｏｕ’ｒｅ　ｍｙ　ｓｉー"TCC_NEWLINE"ｓｔｅｒ　ｎｏｗ？！　Ｙｏｕ　ｍａｋｅ　ｍｅ　ｓｉｃｋ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｌｒｅａｄｙ　ｔｏｌｄ　ｙｏｕ，　ｄｉｄ　Ｉ　ｎｏｔ"TCC_NEWLINE"？　Ｎｏ　ｍａｔｔｅｒ　ｈｏｗ　ｍｕｃｈ　ｙｏｕ　ｃａｌｌ"TCC_NEWLINE"　ｕｓ　ｙｏｕｒ　ｂｒｏｔｈｅｒｓ，　ｗｅ　ａｒｅ　ｎｏ　"TCC_NEWLINE"ｌｏｎｇｅｒ　ｆａｍｉｌｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"ｔｒ！　Ｈｏｗ　ｃａｎ　ｙｏｕ　ｓａｙ　ｓｕｃｈ　ｔｈｉｎー"TCC_NEWLINE"ｇｓ？！"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ａｎｄ　Ｆｆｎｉｒ．．．ｂｏｔｈ　ｏｆ　ｙｏｕ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｅｒｅ　ａｌｗａｙｓ　ｓｏ　ｋｉｎｄ　ｂｅｆｏｒー"TCC_NEWLINE"ｅ．　Ｂｕｔ　ｎｏｗ．．．　Ｉ　ｄｏｎ’ｔ　ｕｎｄｅｒｓｔー"TCC_NEWLINE"ａｎｄ　ｗｈａｔ　ｃｈａｎｇｅｄ　ｂｅｔｗｅｅｎ　ｕｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｕｇｈ．　Ｙｏｕ’ｖｅ　ａｌｗａｙｓ　ｂｅｅｎ　ｌｉｋｅ　"TCC_NEWLINE"ｔｈｉｓ，　ｃｒｙｉｎｇ　ｔｏ　ｇｅｔ　ｐｅｏｐｌｅ　ａｒー"TCC_NEWLINE"ｏｕｎｄ　ｙｏｕ　ｔｏ　ｈｅｌｐ　ａｎｄ　ｐｒｏｔｅｃｔ　"TCC_NEWLINE"ｙｏｕ．．．　Ｉ’ｍ　ｓｉｃｋ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ　ｃａｎｎｏｔ　ｕｎｄｅｒｓｔａｎｄ　ｕｓ　ｎー"TCC_NEWLINE"ｏｗ，　Ｉ　ｄｏｕｂｔ　ｙｏｕ　ｅｖｅｒ　ｃａｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｗｉｌｌ　ｎｅｖｅｒ　ｕｎｄｅｒｓｔａｎｄ　ｓｏｍー"TCC_NEWLINE"ｅｏｎｅ　ｌｉｋｅ　ｍｅ，　ｓｏｍｅｏｎｅ　ｗｈｏ　ｇｕａー"TCC_NEWLINE"ｒｄｓ　ａ　ｇｒｅａｔ　ｓｅｃｒｅｔ　ｔｈａｔ　ｎｏ　ｏｎー"TCC_NEWLINE"ｅ　ｅｌｓｅ　ｃａｎ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｗｈａｔ．．．ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｗｉｌｌ　ｄｉｅ　ｎｏｔ　ｋｎｏｗｉｎｇ．　Ｔｈｅ"TCC_NEWLINE"　ｓｅｃｒｅｔ　ｏｆ　ｔｈｅ　ｐａｓｔ　ｉｓ　ｍｉｎｅ　ａー"TCC_NEWLINE"ｌｏｎｅ　ｔｏ　ｋｅｅｐ．．．　Ｉ　ｗｉｌｌ　ｔｅｌｌ　ｙー"TCC_NEWLINE"ｏｕ　ｎｏｔｈｉｎｇ！　Ｎｏｔ　ａ　ｗｏｒｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5063_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｄａｍｎ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ｔｒ！　Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈｅ’ｓ　ｒｅｔｒｅａｔｉｎｇ　ｔｏ　ｔｈｅ　ｓａｎｃｔｕー"TCC_NEWLINE"ｍ．　Ａｆｔｅｒ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｂｕｔ　Ｅｉｔｒｉ　ｗｉｌｌ　ｂｅ　ａｔ　ｔｈｅ　ｓａｎｃー"TCC_NEWLINE"ｔｕｍ．．．　Ｓｈｅ　ｍｉｇｈｔ　ｂｅ　ｏｕｒ　ｅｎｅｍｙ"TCC_NEWLINE"　ｔｏｏ，　ｒｉｇｈｔ？　Ｉｓ　ｉｔ　ｓａｆｅ　ｔｏ　ｆｏー"TCC_NEWLINE"ｌｌｏｗ　ｈｉｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｅｒ　ｓｅｉｊｒｎ　ｉｓ　ｃｅｒｔａｉｎｌｙ　ｆｅａｒｓー"TCC_NEWLINE"ｏｍｅ，　ｂｕｔ　ｗｅ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　ｂｕー"TCC_NEWLINE"ｔ　ｔｏ　ｆｏｌｌｏｗ　ｈｉｍ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ’ｌｌ　ｂｅ　ｔｈｅｒｅ　ｓｏｏｎ！　Ｐｌｅａｓｅ　ｓー"TCC_NEWLINE"ｔａｙ　ｓａｆｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

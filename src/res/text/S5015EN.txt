@@ -1,0 +1,40 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｉ　ｗｉｌｌ　ｎｏｔ　ｌｏｓｅ　ａｇａｉｎ．　Ｎｏｔ　ｔｈー"TCC_NEWLINE"ｉｓ　ｔｉｍｅ！　Ｉ　ｃｌａｉｍ　ｂｏｔｈ　ｔｈｅ　ｓｕｍー"TCC_NEWLINE"ｍｏｎｅｒ　ａｎｄ　ｔｈｉｓ　ｃｏｕｎｔｒｙ　ｉｎ　ｔｈｅ"TCC_NEWLINE"　ｎａｍｅ　ｏｆ　Ｎｉａｖｅｌｌｉｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗａｉｔ！　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ，　ａｒｅ　ｙｏー"TCC_NEWLINE"ｕ　ｓｕｒｅ　ｔｈｉｓ　ｉｓ　ｗｈａｔ　ｙｏｕ　ｗａｎｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｈａｔ　ｓｏｒｔ　ｏｆ　ｑｕｅｓｔｉｏｎ　ｉｓ　ｔｈａｔ"TCC_NEWLINE"？　Ｏ－ｏｆ　ｃｏｕｒｓｅ　ｉｔ　ｉｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｙｏｕ　ｌａｃｋ　ｃｏｎｖｉｃｔｉｏｎ．　Ｉ　ｃａｎ　ｔｅー"TCC_NEWLINE"ｌｌ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗｏｕｌｄ　ｒａｔｈｅｒ　ｎｏｔ　ｆｉｇｈｔ　ａ　ｍｅー"TCC_NEWLINE"ａｎｉｎｇｌｅｓｓ　ｂａｔｔｌｅ　ａｇａｉｎｓｔ　ｓｏｍｅー"TCC_NEWLINE"ｏｎｅ　ｗｉｔｈ　ｎｏ　ｗｉｌｌ　ｔｏ　ｆｉｇｈｔ．　Ｓｏ"TCC_NEWLINE"，　ｐｌｅａｓｅ，　ｗｏｕｌｄ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｇｈ．．．　Ｓｈｕｔ　ｕｐ，　ｓｈｕｔ　ｕｐ，　ｓｈｕｔ"TCC_NEWLINE"　ＵＰ！"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｉｆ　ｉｔ　ｍｅａｎｓ　Ｉ　ｄｉｅ　ｈｅｒｅ　ａー"TCC_NEWLINE"ｎｄ　ｎｏｗ，　Ｉ　ｗｉｌｌ　ｐｒｏｖｅ　ｍｙｓｅｌｆ　ｗー"TCC_NEWLINE"ｏｒｔｈｙ　ｏｆ　ｍｙ．．．　ｍｙ　ｋｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｏｐｐｏｓｅ　ｍｅ　ａｔ　ｙｏｕｒ　ｏｗｎ　ｐｅｒｉｌ．　"TCC_NEWLINE"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｔａｋｉｎｇ"TCC_NEWLINE"　ｐｒｉｓｏｎｅｒｓ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｉ．．．ｌｏｓｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5015_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｕｗａａａｕｕｕｇｈｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｂｒｏｔｈｅｒ！　Ｐｌｅａｓｅ　ｆｏｒｇｉｖｅ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｗａｓ　ｔｏｏ　ｗｅａｋ．．．　Ｉ　ｃｏｕｌｄｎ’ｔ．"TCC_NEWLINE"．．　Ｉｔ　ｗａｓ　ｔｏｏ　ｍｕｃｈ　ｆｏｒ　ｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｈｅ　ｓｅｅｍｓ　ｄｉｆｆｅｒｅｎｔ　ｆｒｏｍ　ｈｏｗ　"TCC_NEWLINE"ｓｈｅ　ｗａｓ　ａ　ｍｏｍｅｎｔ　ａｇｏ．．．　Ｉｓ　ｔｈー"TCC_NEWLINE"ｉｓ　ｔｈｅ　ｓａｍｅ　Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ．　Ｙｏｕ　ｈｅｌｄ　ｂａｃー"TCC_NEWLINE"ｋ．　Ｔｈａｔ　ｉｓ　ｗｈｙ　ｙｏｕ　ｌｏｓｔ．．．　Ｂｕー"TCC_NEWLINE"ｔ　ｗｈｙ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｔｈｅｒｅ’ｓ　ａｎｙｔｈｉｎｇ　ｙｏｕ　ｃａｎ　ｔー"TCC_NEWLINE"ｅｌｌ　ｕｓ，　ｐｌｅａｓｅ　ｄｏ．　Ｗｅ　ｗｉｌｌ　ｇｌー"TCC_NEWLINE"ａｄｌｙ　ｌｉｓｔｅｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｐ－Ｐｒｉｎｃｅ　Ａｌｆｏｎｓｅ．．．　Ｗｈｙ　ａｒｅ　Ａー"TCC_NEWLINE"ｒｅ　ｙｏｕ　ｗｏｒｒｉｅｄ　ａｂｏｕｔ　ｍｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｕｐ　ｕｎｔｉｌ　ａ　ｍｏｍｅｎｔ　ａｇｏ，　Ｉ　ｗａｓ　"TCC_NEWLINE"ｙｏｕｒ　ｅｎｅｍｙ．　Ｉ　ｓａｉｄ　Ｉ　ｗｏｕｌｄ　ｋｉー"TCC_NEWLINE"ｌｌ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｐｅｏｐｌｅ　ｏｆ　Ａｓｋｒ　ａｒｅ　ｔｒｕｌｙ　"TCC_NEWLINE"ｋｉｎｄ，　ａｒｅｎ’ｔ　ｙｏｕ？　Ｋｉｎｄｅｒ　ｔｈａｎ"TCC_NEWLINE"　Ｉ　ｅｖｅｒ　ｃｏｕｌｄ　ｈａｖｅ　ｉｍａｇｉｎｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｐｒｉｎｃｅｓｓ　Ｒｅｇｉｎｎ，　ｃａｎ　ｙｏｕ　ｔｅｌｌ"TCC_NEWLINE"　ｕｓ　ａｎｙｔｈｉｎｇ？　Ａｎｙｔｈｉｎｇ　ａｔ　ａｌｌ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ａｌｌ　ｒｉｇｈｔ．　Ｔｈａｔ’ｓ　ｉｔ．　Ｉ’ｖｅ"TCC_NEWLINE"　ｍａｄｅ　ｕｐ　ｍｙ　ｍｉｎｄ！　Ｉ’ｍ　ｃｏｍｉｎｇ　"TCC_NEWLINE"ｗｉｔｈ　ｙｏｕｔｏ　ｈｅｌｐ　ｙｏｕ　ｆｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"Ｍｙ　ｂｒｏｔｈｅｒ，　Ｋｉｎｇ　Ｆｆｎｉｒ，　ｈｅ’ｓ"TCC_NEWLINE TCC_PUSH_A
+"Ｙ－ｙｏｕ　ｈａｖｅ　ｔｏ　ｓｔｏｐ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

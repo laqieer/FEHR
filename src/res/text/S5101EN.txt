@@ -1,0 +1,28 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FAFNIR
+"Ｇｏ，　Ｇｕｌｌｉｎｂｕｒｓｔｉ！　Ｔｒａｍｐｌｅ　ｔｈｅー"TCC_NEWLINE"ｍ　ｕｎｄｅｒ　ｙｏｕｒ　ｉｒｏｎ　ｈｏｏｖｅｓ．　Ｒｅｔー"TCC_NEWLINE"ｕｒｎ　ｔｈｅ　ｐｅｏｐｌｅ　ｔｏ　ｔｈｅ　ｇｒｏｕｎｄ　"TCC_NEWLINE"ｔｈｅｙ　ｓｏ　ｃｈｅｒｉｓｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｎｏ　ｍｅｒｃｙ！　Ｓｐａｒｅ　ｎｏ　ｏｎｅ！　Ｍｙ　ｂｒー"TCC_NEWLINE"ｏｔｈｅｒ　ｄｅｍａｎｄｓ　ａｌｌ　ｔｒｅｍｂｌｅ　ｂｅｆー"TCC_NEWLINE"ｏｒｅ　ｈｉｍ　ａｎｄ　ｐｅｒｉｓｈ！　Ａｈ－ｈａｈａｈａー"TCC_NEWLINE"ｈａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_VERONICA
+"Ｗｈａｔ　ｉｓ　ｈｅ　ｄｏｉｎｇ　ｈｅｒｅ？　Ｗｈｙ　ａｔー"TCC_NEWLINE"ｔａｃｋ　ｏｕｔ　ｏｆ　ｎｏｗｈｅｒｅ　ｌｉｋｅ　ｔｈｉｓ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+"Ｖｅｒｏｎｉｃａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｒｏｔｈｅｒ？！　Ｙｏｕ’ｖｅ．．．ｃｏｍｅ　ｂａｃｋ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ’ｖｅ　ｂｒｏｕｇｈｔ　ｙｏｕ　ｒｅｉｎｆｏｒｃｅｍｅｎー"TCC_NEWLINE"ｔｓ．　Ａｌｆｏｎｓｅ　ａｎｄ　ｈｉｓ　ｃｏｍｐａｎｉｏｎー"TCC_NEWLINE"ｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ．．．　Ｊｕｓｔ　ｔｈｅｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｏｗ！　Ａｎｄ　ａｆｔｅｒ　ｗｅ’ｖｅ　ｃｏｍｅ　ｔｏ　"TCC_NEWLINE"ｈｅｌｐ　ｙｏｕ　ａｎｄ　ｅｖｅｒｙｔｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ　ｉｓ　ｔｈｅ　ｓｉｔｕａｔｉｏｎ　ｏｎ　ｔｈｅ　"TCC_NEWLINE"ｆｉｅｌｄ，　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｅｅ　ｆｏｒ　ｙｏｕｒｓｅｌｆ．．．　Ｉｔ’ｓ　ｎｏｔ　"TCC_NEWLINE"ｌｏｏｋｉｎｇ　ｇｏｏｄ．．．　Ｈｅ　ｈａｓ　ｓｔｒａｎｇー"TCC_NEWLINE"ｅ　ｓｏｌｄｉｅｒｓ　ａｔ　ｈｉｓ　ｃｏｍｍａｎｄ，　ａｎー"TCC_NEWLINE"ｄ　ｗｅ　ｃａｎ’ｔ　ｃｏｍｐｅｔｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｓ　ｆｏｒ　Ｆｆｎｉｒ　ｈｉｍｓｅｌｆ．．．ｈｅ"TCC_NEWLINE"　ｍｕｓｔ　ｂｅ　ｓｏｍｅ　ｋｉｎｄ　ｏｆ　ｍｏｎｓｔｅｒ"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｔ　ｓｅｅｍｓ　ｈｅ　ｈａｓ　ｒｅｇａｉｎｅｄ　ｈｉｓ　"TCC_NEWLINE"ｓｔｒｅｎｇｔｈ　ｔｈｅｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｎｏｗ，　ａｌｌ　ｗｅ　ｃａｎ　ｄｏ　ｉｓ　ｔｒｙ"TCC_NEWLINE"　ｔｏ　ｆｏｒｃｅ　ｔｈｅｉｒ　ｗｉｔｈｄｒａｗａｌ　ｆｒー"TCC_NEWLINE"ｏｍ　Ｅｍｂｌａ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

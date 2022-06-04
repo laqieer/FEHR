@@ -1,0 +1,40 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｔｈｅｒｅ　ｙｏｕ　ａｒｅ，　Ｒｅｇｉｎｎ．　Ｉ’ｖｅ　ｂー"TCC_NEWLINE"ｅｅｎ　ｗａｉｔｉｎｇ　ｓｏｍｅ　ｔｉｍｅ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｗｈ－ｗｈａｔ　ａｒｅ　ｙｏｕ　Ｅｎｏｕｇｈ，　Ｅｉｔｒｉ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃａｎ’ｔ　ｆｏｒｇｉｖｅ　ｗｈａｔ　ｙｏｕ’ｖｅ　ｄー"TCC_NEWLINE"ｏｎｅ．　Ｗｈａｔ　ｙｏｕ．．．ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｙｅｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｈａｔ　ｉｓ　ｉｔ　ｔｈａｔ　ｙｏｕ’ｒｅ　ｓｏ"TCC_NEWLINE"　ａｎｇｒｙ　ａｂｏｕｔ？　Ｔｈｅ　ｋｉｎｇｄｏｍ　ｉｓ　"TCC_NEWLINE"ｙｏｕｒｓ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｄｏｎ’ｔ　ＣＡＲＥ　ａｂｏｕｔ　ｔｈａｔ！　Ｙｏｕ’"TCC_NEWLINE"ｒｅ　ｔｈｅ　ｒｅａｓｏｎ．．．　Ｉｔ’ｓ　ｂｅｃａｕｓｅ"TCC_NEWLINE"　ｏｆ　ｙｏｕ　ｔｈａｔ　ｍｙ　ｂｒｏｔｈｅｒｓ　ａｎｄ　"TCC_NEWLINE"Ｐｒｉｎｃｅｓｓ　Ｎｔｔ　ａｒｅ．．．ａｒｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｎｆｏｒｔｕｎａｔｅ　ｂｕｔ　ｎｅｃｅｓｓａｒｙ　ｌｏｓー"TCC_NEWLINE"ｓｅｓ．　Ｆｏｒ　ｔｈｅ　ｓａｋｅ　ｏｆ　Ｎｉａｖｅｌｌｉー"TCC_NEWLINE"ｒ’ｓ　ｆｕｔｕｒｅ！　Ａ　ｗｏｒｔｈｙ　ｃａｕｓｅ　ｆｏー"TCC_NEWLINE"ｒ　ｓａｃｒｉｆｉｃｅ，　ｉｓｎ’ｔ　ｉｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｎｅｃｅｓｓａｒｙ　ｌｏｓｓｅｓ？！　Ｐｅｏｐｌｅ　ａｒｅ"TCC_NEWLINE"　ｎｏｔ　ｙｏｕｒ　ｐｌａｙｔｈｉｎｇｓ　ｔｏ　ｄｏ　ｗｈー"TCC_NEWLINE"ａｔｅｖｅｒ　ｙｏｕ　ｗａｎｔ　ｗｉｔｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｔｈａｔ　ｉｓ　ｗｈｅｒｅ　ｗｅ　ｄｉｓａｇｒｅｅ，　Ｉ’"TCC_NEWLINE"ｍ　ａｆｒａｉｄ．　Ｌｅｔ　ｍｅ　ｄｅｍｏｎｓｔｒａｔｅ　"TCC_NEWLINE"ｍｙ　ｐｏｉｎｔ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"．．．Ｎｇｙａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｔｒｙ　ａｌｌ　ｙｏｕ　ｗａｎｔ！　Ｙｏｕ　ｓｔａｎｄ　ｎー"TCC_NEWLINE"ｏ　ｃｈａｎｃｅ　ａｇａｉｎｓｔ　ａ　ｗｅａｐｏｎ　ｏｆ　"TCC_NEWLINE"ｍｙ　ｉｍｍａｃｕｌａｔｅ　ｄｅｓｉｇｎ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ’ｌｌ　ａｌｌｏｗ　ｙｏｕ　ａ　ｍｏｍｅｎｔ　ｔｏ　ｒｅー"TCC_NEWLINE"ｇａｉｎ　ｙｏｕｒ　ｃｏｍｐｏｓｕｒｅ．　Ｉ’ｌｌ　ｂｅ　"TCC_NEWLINE"ｉｎｓｉｄｅ　ｗｈｅｎ　ｙｏｕ’ｒｅ　ｒｅａｄｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗａｉｔ！　．．．Ｅｉｔｒｉ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5132_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｓｈｅ　ｊｕｓｔ．．．ｗａｌｋｅｄ　ａｗａｙ．　Ｉｓ　ｔｈー"TCC_NEWLINE"ｅｒｅ　ｎｏ　ｗａｙ　ｗｅ　ｃａｎ　ｗｉｎ　ａｇａｉｎｓｔ"TCC_NEWLINE"　Ｅｉｔｒｉ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｈｍ．．．　Ｎｏ，　Ｉ　ｔｈｉｎｋ　ｔｈｅｒｅ　ｉｓ　ａ　"TCC_NEWLINE"ｗａｙ．　Ｓｈｅ　ｔｏｌｄ　ｕｓ　ｈｅｒｓｅｌｆ，　ｄｉｄー"TCC_NEWLINE"ｎ’ｔ　ｓｈｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"．．．Ｏｈ，　ｒｉｇｈｔ！　Ｇｒａｍｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｇｒａｍｒ　ｒｅｖｅａｌｓ　ｉｔｓ　ｔｒｕｅ　ｐｏｗｅｒ　"TCC_NEWLINE"ｗｈｅｎ　ｈｅｌｄ　ｂｙ　ｓｏｍｅｏｎｅ　ｆｒｏｍ　ｔｈｅ"TCC_NEWLINE"　ｒｏｙａｌ　ｌｉｎｅ　ｏｆ　Ｎｉａｖｅｌｌｉｒ，　ｒｉｇー"TCC_NEWLINE"ｈｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ｅｉｔｒｉ　ｂｅｌｉｅｖｅｓ　ｔｈｅ　ｒｏｙａｌ　ｂｌｏｏー"TCC_NEWLINE"ｄｌｉｎｅ　ｈａｄ　ｅｎｄｅｄ．．．　Ｂｕｔ　ｎｏｗ　ｗｅ"TCC_NEWLINE"　ｋｎｏｗ　ｔｈａｔ　ｉｓｎ’ｔ　ｔｈｅ　ｃａｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｙｅｓ．．．　Ｙｏｕ’ｒｅ　ｒｉｇｈｔ！"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗａｔｃｈ　ｏｖｅｒ　ｍｅ，　Ｂｒｏｔｈｅｒｓ．　Ｉ"TCC_NEWLINE"　ｗｉｌｌ　ｎｏｔ　ｌｅｔ　Ｅｉｔｒｉ　ｇｅｔ　ａｗａｙ　"TCC_NEWLINE"ｗｉｔｈ　ｗｈａｔ　ｓｈｅ’ｓ　ｄｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

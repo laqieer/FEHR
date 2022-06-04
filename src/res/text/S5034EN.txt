@@ -1,0 +1,5 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S5034_EN] = TCC_OPEN_LEFT
+"Ｌｅｉｆ　ｉｓ　ｔｈｅ　ｓｏｒｔ　ｏｆ　ｐｅｒｓｏｎ　ｗｈー"TCC_NEWLINE"ｏ，　ｔｏ　ｍｅ，　ｉｓ　ｏｆ　ｇｒｅａｔ　ｓｉｇｎｉｆｉー"TCC_NEWLINE"ｃａｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

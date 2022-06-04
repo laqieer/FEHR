@@ -1,0 +1,112 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5073_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｄａｍｎ　ｉｔ．．．　Ｉｆ　ｗｅ　ｄｏ　ｎｏｔｈｉｎｇ　Ｇー"TCC_NEWLINE"ａｈ！"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｅ，　Ｓｕｍｍｏｎｅｒ！　Ｗｅ　ｃａｎｎｏｔ　ａｆｆー"TCC_NEWLINE"ｏｒｄ　ｔｏ　ｌｅｔ　ｙｏｕ　ｇｏ，　ｙｏｕ　ｕｎｄｅｒｓー"TCC_NEWLINE"ｔａｎｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_NOTT
+"Ｓｔｏｐ　ｗｈｅｒｅ　ｙｏｕ　ａｒｅ，　ｔｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｎ－Ｎｔｔ？　Ｗｈａｔ　ａｒｅ　ｙｏｕ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ　ｓｕｒｐｒｉｓｅｄ　ｔｏ　ｓｅｅ　ｍｅ，　ｄｅａｒｅー"TCC_NEWLINE"ｓｔ？　．．．Ｙｏｕ　ｗｉｌｌ　ｒｅｇｒｅｔ　ｌｅａｄｉｎー"TCC_NEWLINE"ｇ　ｍｅ　ａｌｏｎｇ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｏｖｅｒ　ｈｅｒｅ！　Ｉ’ｖｅ　ｇｏｔ　Ｂｒｅｉｄａｂｌｉー"TCC_NEWLINE"ｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_NEWLINE
+TCC_TACTICIAN_NAME"！　Ｉ　ｇｏｔ　ｔｈｉｓ　ｂａｃｋ　ｆｏｒ　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｏｖｅｒ　ｈｅｒｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ！　Ｔｈｅ　ｓｕｍｍｏｎｅｒ　ｓｔａｙｓ　ｗｉｔｈ　ｍー"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｔ’ｓ　ｅｎｏｕｇｈ　ｔｏ　ｍａｋｅ　ａ　ｊｔｕｎ　ｊｅー"TCC_NEWLINE"ａｌｏｕｓ！　Ｔａｋｉｎｇ　ｙｏｕｒ　ａｔｔｅｎｔｉｏｎ　"TCC_NEWLINE"ｏｆｆ　ｍｅ　ｉｓ　ａ　ｍｉｓｔａｋｅ！　Ｈｙａａｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｕｒｒｇｈ！　．．．Ｓｕｃｈ　ｓｔｒｅｎｇｔｈ！　Ｙｏｕ　"TCC_NEWLINE"ｊｔｕｎ　ｗｏｍｅｎ　ａｒｅ　ａｌｌ　ｍｕｓｃｌｅ，　ｎｏ"TCC_NEWLINE"　ｓｅｎｓｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_DAGR
+"Ｌｏｏｋｓ　ｌｉｋｅ　ｈｅ　ｎｅｅｄｓ　ａｎｏｔｈｅｒ，　"TCC_NEWLINE"Ｎｔｔ！　Ｇｅｔ　ｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｎ－ｎｙａｈ！　．．．Ｈｕｈ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｅｎｏｕｇｈ　ｓｅｌｆ－ｉｎｄｕｌｇｅｎｃｅ，　ｔｒ．　Ｉー"TCC_NEWLINE"ｔ’ｓ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5073_EN] = TCC_OPEN_LEFT
+"Ａｌｌ　ｔｈａｔ　ｒｅｍａｉｎｓ　ｏｆ　ｍｅ　ｉｓ　ｍｙ　"TCC_NEWLINE"ｈａｔｅ．　Ｉｆ　Ｉ　ｃｏｕｌｄ　ｔｅａｒ　ｈｅｒ　ｔｏ　"TCC_NEWLINE"ｓｈｒｅｄｓ　ｒｉｇｈｔ　ｈｅｒｅ　ａｎｄ　ｎｏｗ，　Ｉ　"TCC_NEWLINE"ｗｏｕｌｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5073_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｇｙａａａｈｈ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｙｏｕ　ｈａｖｅ　ｎｏ　ｈｏｐｅ　ｏｆ　ｃｈａｌｌｅｎｇｉー"TCC_NEWLINE"ｎｇ　ｍｅ．　Ｉ　ｃｒｅａｔｅｄ　Ｇｕｌｌｉｎｂｕｒｓｔｉ"TCC_NEWLINE"　ａｎｄ　ｔｈｅ　ｓｗｏｒｄ，　Ｒｅｇｉｎｎ．　Ｗｈａｔ　"TCC_NEWLINE"ｈｏｐｅ　ｄｏ　ｙｏｕ　ｈａｖｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｃｏｍｅ，　ｔｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_OTR
+"Ｗｈａｔ　ａｂｏｕｔ　ｔｈｅ　ｓｕｍｍｏｎｅｒ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｈａｖｅ　ｎｏ　ｉｎｔｅｎｔｉｏｎ　ｏｆ　ｃｏｍｍｉｔー"TCC_NEWLINE"ｔｉｎｇ　ｓｕｉｃｉｄｅ　ｗｉｔｈ　ｙｏｕ　ｈｅｒｅ．　Ｗー"TCC_NEWLINE"ｅ’ｌｌ　ｇｉｖｅ　ｕｐ　ｔｈｅ　ｓｕｍｍｏｎｅｒ　ａｎｄ"TCC_NEWLINE"　ｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｒｅｔｒｅａｔ？　Ｗｈａｔ　ａｂｏｕｔ　Ｊｒｎｇｒｅｉｐｒ"TCC_NEWLINE"？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｏｎ’ｔ　ｗｏｒｒｙ．　Ｙｏｕ　ｓｔｉｌｌ　ｈａｖｅ　ｔー"TCC_NEWLINE"ｈｅ　ｓｗｏｒｄ　Ｇｒａｍｒ，　ｃｏｒｒｅｃｔ？"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｗｅ’ｌｌ　ｂｅ　ａｂｌｅ　ｔｏ　ｆｉｎｄ　ｔｈｅー"TCC_NEWLINE"ｍ　ｅａｓｉｌｙ　ｅｎｏｕｇｈ．　Ｔｈｉｓ　ｓｏｒｔ　ｗｏー"TCC_NEWLINE"ｎ’ｔ　ａｂｉｄｅ　Ｆｆｎｉｒ’ｓ　ｂｒｕｔａｌ　ｔａｃｔー"TCC_NEWLINE"ｉｃｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｌｌ　ｗｅ　ｎｅｅｄ　ｄｏ　ｉｓ　ａｔｔａｃｋ　ａｎｏｔー"TCC_NEWLINE"ｈｅｒ　ｃｏｕｎｔｒｙ，　ａｎｄ　ｔｈｅｙ’ｌｌ　ｃｏｍｅ"TCC_NEWLINE"　ｒｕｎｎｉｎｇ．　Ｅｖｅｒｙ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"．．．Ｙｏｕ　ｈａｖｅ　ａ　ｐｏｉｎｔ．　Ｔｈｅｎ　ｗｅ　"TCC_NEWLINE"ｈａｖｅ　ａｎ　ｅｘｃｕｓｅ　ｔｏ　ｅｘｅｒｃｉｓｅ　ｏｕー"TCC_NEWLINE"ｒ　ｃｒｕｅｌｔｙ！　Ｗｅ　ｃａｎ　ｋｉｌｌ　ａｎｄ　ｃｏー"TCC_NEWLINE"ｎｑｕｅｒ　ａｔ　ｗｈｉｍ！"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔ’ｓ　ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　ｃａｓｔｌｅ　ａｎー"TCC_NEWLINE"ｄ　ｍａｋｅ　ｏｕｒ　ｐｒｅｐａｒａｔｉｏｎｓ．　Ｈｅｈ．"TCC_NEWLINE"．．　Ｗａｉｔ　ｕｎｔｉｌ　ｙｏｕ　ｈｅａｒ　ｔｈｉｓ，　"TCC_NEWLINE"Ｂｒｏｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5073_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"Ａｒｅ　ｙｏｕ　ｉｎｊｕｒｅｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｉ’ｍ　ｓｏ　ｇｌａｄ　ｔｏ　ｓｅｅ　ｙｏｕ　ｉｎ　ｏｎｅ"TCC_NEWLINE"　ｐｉｅｃｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｗｈａｔ　ｗｅ’ｄ　ｄｏ　ｗｉｔー"TCC_NEWLINE"ｈｏｕｔ　ｙｏｕ　ａｒｏｕｎｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｉ．．．　Ｉ　ｗａｓ　ｓｏ　ｗｏｒｒｉｅｄ！　Ｉ’ｍ　ｓｏー"TCC_NEWLINE"ｒｒｙ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
+"＊ｓｎｉｆｆ＊"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ　ｆｏｒｇｉｖｅ　ｍｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ａ－ａｌｌ　ｒｉｇｈｔ，　ｔｈａｔ’ｓ　ｅｎｏｕｇｈ，　ｅー"TCC_NEWLINE"ｖｅｒｙｏｎｅ！"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｓａｉｄ，　ｉｔ　ｉｓ　ｇｏｏｄ　ｔｏ　ｈａｖｅ"TCC_NEWLINE"　ｙｏｕ　ｂａｃｋ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｓｏ，　ｗｈｙ　ｄｉｄ　ｔｈｅｙ　ａｂｄｕｃｔ　ｙｏｕ　ａー"TCC_NEWLINE"ｎｙｗａｙ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｊｒｎｇｒｅｉｐｒ．．．　Ｓｏ　ｔｈａｔ’ｓ　ｗｈａｔ　ｔー"TCC_NEWLINE"ｒ’ｓ　ａｆｔｅｒ．　Ａ　ｗｅａｐｏｎ　ｔｏ　ｄｅｓｔｒｏー"TCC_NEWLINE"ｙ　ｇａｔｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"Ｉｆ　ｔｈｅｙ’ｒｅ　ｓｕｃｃｅｓｓｆｕｌ，　ｔｈａｔ’ｌー"TCC_NEWLINE"ｌ　ｂｅ　ｔｒｏｕｂｌｅ　ｆｏｒ　Ａｓｋｒ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｗｏｎ’ｔ　ｂｅ　ａｂｌｅ　ｔｏ　ｓｕｍｍｏｎ　ａｎー"TCC_NEWLINE"ｙ　Ｈｅｒｏｅｓ，　ａｎｄ　ｔｈｅ　ｏｎｅｓ　ｈｅｒｅ　ｗー"TCC_NEWLINE"ｏｎ’ｔ　ｂｅ　ａｂｌｅ　ｔｏ　ｒｅｔｕｒｎ　ｈｏｍｅ，　"TCC_NEWLINE"ｒｉｇｈｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔ　ｃｏｕｌｄ　ｈｅ　ｗａｎｔ　ｗｉｔｈ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｓ　ｔｒ　ｓｏ　ｉｎｔｅｎｔ　ｏｎ　ｄｅｆｅａｔｉｎｇ　"TCC_NEWLINE"Ａｓｋｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｈｍｍ．．．　Ｉ’ｍ　ｎｏｔ　ｓｕｒｅ　ｉｔ　ｈａｓ　ａｎー"TCC_NEWLINE"ｙｔｈｉｎｇ　ｔｏ　ｄｏ　ｗｉｔｈ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｃｏｕｌｄ　ｓｕｍｍｏｎ　ａｌｌ　ｔｈｅ　Ｈｅｒｏー"TCC_NEWLINE"ｅｓ　ｔｈｅｒｅ　ａｒｅ，　ａｎｄ　ｙｏｕ’ｄ　ｓｔｉｌｌ"TCC_NEWLINE"　ｆａｌｌ　ｔｏ　Ｎｉａｖｅｌｌｉｒ’ｓ　ｓｅｉｊｒｎ　ｉー"TCC_NEWLINE"ｎ　ｔｈｅ　ｅｎｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｍｕｓｔ　ｗａｎｔ　Ｊｒｎｇｒｅｉｐｒ　ｆｏｒ　ｓｏー"TCC_NEWLINE"ｍｅ　ｏｔｈｅｒ　ｒｅａｓｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈａｔ　ｄｏｅｓｎ’ｔ　ｍａｋｅ　ｍｅ　ｆｅｅｌ　ｍｕｃー"TCC_NEWLINE"ｈ　ｂｅｔｔｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｉｆ　ｔｈａｔ’ｓ　ｔｒｕｅ，　ｗｈａｔ　ｃｏｕｌー"TCC_NEWLINE"ｄ　ｔｒ　ｂｅ　ａｆｔｅｒ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT
+"＊ｓｉｇｈ＊　Ｗｅ　ｄｏｎ’ｔ　ｈａｖｅ　ｅｎｏｕｇｈ　ｉー"TCC_NEWLINE"ｎｆｏｒｍａｔｉｏｎ　ｔｏ　ｍａｋｅ　ａｎ　ｉｎｆｏｒｍｅー"TCC_NEWLINE"ｄ　ａｓｓｅｓｓｍｅｎｔ　ｊｕｓｔ　ｙｅｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｅｖｅｎ　ｉｆ　ｗｅ　ｌｏｓｔ　Ｇｒａｍｒ，　ｉｔ"TCC_NEWLINE"’ｓ　ｇｏｏｄ　ｔｏ　ｈａｖｅ"TCC_NEWLINE
+TCC_TACTICIAN_NAME"ｂａｃｋ．"TCC_NEWLINE TCC_PUSH_A
+"Ｒｉｇｈｔ，　Ａｌｆｏｎｓｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｎｄｅｅｄ，　Ｃｏｍｍａｎｄｅｒ．　Ｉ’ｍ　ｓｏ　ｇｌａー"TCC_NEWLINE"ｄ　ｙｏｕ’ｒｅ　ｓａｆｅ，"TCC_NEWLINE
+TCC_TACTICIAN_NAME"．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈｏｕｔ　ｙｏｕ，　Ｉ　ｄｏｎ’ｔ　ｋｎｏｗ　ｈｏｗ"TCC_NEWLINE"　Ｉ　ｃｏｕｌｄ　ｌｉｖｅ　ｏｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ｗｈａｔ’ｓ　ｓｏ　ｆｕｎｎｙ，　Ｓｈａｒｅｎａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈ－ｈｕｈ？　Ｏｈ！　Ｎ－ｎｏｔｈｉｎｇ！　Ｐｌｅａｓｅ　"TCC_NEWLINE"ｊｕｓｔ．．．　ｉｇｎｏｒｅ　ｍｅ！　Ｉ’ｍ　ｆｉｎｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．Ｙｏｕ　ｍｕｓｔ　ｂｅ　ｅｘｈａｕｓｔｅｄ．　Ｌｅｔ"TCC_NEWLINE"’ｓ　ｔａｋｅ　ｔｈｅ　ｒｅｓｔ　ｏｆ　ｔｈｅ　ｄａｙ　ｆー"TCC_NEWLINE"ｏｒ　ｒｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_PEONY
+"Ａｔｔｅｎｔｉｏｎ，　ｅｖｅｒｙｏｎｅ！　Ｓｏｍｅｔｈｉｎー"TCC_NEWLINE"ｇ　ｔｅｒｒｉｂｌｅ　ｈａｓ　ｈａｐｐｅｎｅｄ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｐｅｏｎｙ！　Ｗｈａｔ　ｉｓ　ｉｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｆｆｎｉｒ　ｉｓ　ａｔｔａｃｋｉｎｇ　Ａｓｋｒ！　Ｉ　ｃａー"TCC_NEWLINE"ｍｅ　ｔｏ　ｃａｌｌ　ｙｏｕ　ｂａｃｋ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｗｈａｔ？！　Ｎｏ．．．　Ｍｏｔｈｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｅ’ｖｅ　ｇｏｔ　ｔｏ　ｇｅｔ　ｂａｃｋ！　Ｌｅｔ’ｓ　"TCC_NEWLINE"ｇｏ！　Ｓｔａｙ　ｓａｆｅ，　Ｍｏｔｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

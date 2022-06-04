@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5043] = TCC_OPEN_LEFT 
+"昔は泣き虫フュリーなんて言われたけど、" TCC_NEWLINE
+"もう昔の私じゃありません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,42 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S5041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｗｅｌｃｏｍｅ，　ｐｅｏｐｌｅ　ｏｆ　Ａｓｋｒ．　Ｉ　ａｍ"TCC_NEWLINE"　Ｅｉｔｒｉ，　ａ　ｈｕｍｂｌｅ　ｓｃｈｏｌａｒ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｏｗ！　Ｓｕｃｈ　ａ　ｃｏｌｌｅｃｔｉｏｎ　ｏｆ　ｕｎｕー"TCC_NEWLINE"ｓｕａｌ　ｃｏｎｔｒａｐｔｉｏｎｓ！　Ｔｈｉｓ　ｍｕｓｔ　"TCC_NEWLINE"ｂｅ　ｗｈａｔ　ｙｏｕ　ｃａｌｌ　ｓｅｉｊｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕ　ｈａｖｅ　ｍｙ　ｔｈａｎｋｓ　ｆｏｒ　ｈｅｌｐｉｎー"TCC_NEWLINE"ｇ　ｕｓ，　Ｅｉｔｒｉ，　ｂｕｔ　Ｉ　ｗｏｒｒｙ　ｆｏｒ　"TCC_NEWLINE"ｙｏｕ，　ｈａｖｉｎｇ　ｊｕｓｔ　ｏｐｐｏｓｅｄ　ｔｈｅ　"TCC_NEWLINE"ｋｉｎｇ　ｉｎ　ｓｕｃｈ　ａ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏｎ’ｔ　ｆｒｅｔ．　Ｈｉｓ　ｍｏｏｄ　ｍａｙ　ｂｅ　ｎー"TCC_NEWLINE"ｏ　ｂｅｔｔｅｒ　ｎｏｗ，　ｂｕｔ　Ｉ　ｃａｎ’ｔ　ｉｍａー"TCC_NEWLINE"ｇｉｎｅ　ｉｔ　ｇｅｔｔｉｎｇ　ｍｕｃｈ　ｗｏｒｓｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈｏｕｔ　ｓｅｉｊｒｎ，　Ｎｉａｖｅｌｌｉｒ　ｗｏｕー"TCC_NEWLINE"ｌｄ　ｂｅ　ｎｏｔｈｉｎｇ　ｃｏｍｐａｒｅｄ　ｔｏ　ｗｈａー"TCC_NEWLINE"ｔ　ｉｔ　ｉｓ　ｎｏｗ．　Ｆｆｎｉｒ　ｃａｎ’ｔ　ａｆｆｏー"TCC_NEWLINE"ｒｄ　ｔｏ　ｐｕｎｉｓｈ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｈｍ！　Ｓｕｃｈ　ｉｎｓｉｇｈｔ　ｆｏｒ　ｓｏｍｅｏｎｅ　"TCC_NEWLINE"ｏｆ　ｙｏｕｒ　ｙｅａｒｓ．　Ｉ　ｓｕｐｐｏｓｅ　ｔｈａｔ"TCC_NEWLINE"　ｉｓ　ｗｈａｔ　ｍａｋｅｓ　ｙｏｕ　ａ　ｇｅｎｉｕｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｅｉｔｒｉ，　Ｉ　ａｍ　Ｋｉｎｇ　Ｆｆｎｉｒ’ｓ　ｙｏｕｎー"TCC_NEWLINE"ｇｅｒ　ｓｉｓｔｅｒ，　Ｒｅｇｉｎｎ．　Ｉ’ｍ　ｇｌａｄ　"TCC_NEWLINE"ｔｏ　ｆｉｎａｌｌｙ　ｍｅｅｔ　ｙｏｕ．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｕｓｔ　ａｌｒｅａｄｙ　ｈａｖｅ　ｓｏｍｅ　ｉｄー"TCC_NEWLINE"ｅａ，　ｂｕｔ　ｓｏｍｅｔｈｉｎｇ　ｉｓ　ｗｒｏｎｇ　ｗｉー"TCC_NEWLINE"ｔｈ　Ｆｆｎｉｒ．　Ｈｅ　ｎｏｗ　ｔｈｉｎｋｓ　ｏｎｌｙ　"TCC_NEWLINE"ｏｆ　ｃｏｎｑｕｅｓｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅ　ｗａｓｎ’ｔ　ａｌｗａｙｓ　ｔｈａｔ　ｗａｙ．　Ｈｅ"TCC_NEWLINE"　ｕｓｅｄ　ｔｏ　ｓａｙ　ｈｅ　ｗａｎｔｅｄ　ｔｏ　ｍａｋー"TCC_NEWLINE"ｅ　Ｎｉａｖｅｌｌｉｒ　ａ　ｌａｎｄ　ｏｆ　ｐｌｅｎｔｙ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｆｆｎｉｒ　ｎｏｗ　ｐｏｓｅｓ　ａ　ｇｒｅａｔ　ｔｈｒｅａー"TCC_NEWLINE"ｔ　ｔｏ　ｔｈｅ　Ｋｉｎｇｄｏｍ　ｏｆ　Ａｓｋｒ．　Ｉ　ｈー"TCC_NEWLINE"ｏｐｅ　ｔｏ　ｓｔｏｐ　ｈｉｍ．　Ｗｉｌｌ　ｙｏｕ　ｈｅｌー"TCC_NEWLINE"ｐ　ｕｓ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｆｉｒｓｔ，　ｌｅｔ　ｍｅ　ａｓｋ　ｙｏｕ　ｔｈｉｓ．．．"TCC_NEWLINE"　Ｄｏ　ｙｏｕ　ｋｎｏｗ　ｈｏｗ　Ｎｉａｖｅｌｌｉｒ　ｃａー"TCC_NEWLINE"ｍｅ　ｔｏ　ｂｅ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｈｍｍ．．．　Ｉ　ｔｈｉｎｋ　Ｉ　ｒｅｍｅｍｂｅｒ　ｓｔｕー"TCC_NEWLINE"ｄｙｉｎｇ　ｉｔｓ　ｈｉｓｔｏｒｙ，　ｂｕｔ　Ｉ　ｃａｎ’"TCC_NEWLINE"ｔ　ｒｅｃａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｌｏｎｇ　ａｇｏ，　ｔｈｅ　ｄｖｅｒｇａｒ　ｗｅｒｅ　ｒｕー"TCC_NEWLINE"ｌｅｄ　ｂｙ　ｔｈｅ　ｊｔｎａｒｂｕｔ　ａ　ｙｏｕｎｇ　ｄー"TCC_NEWLINE"ｖｅｒｇｒ　ｕｓｅｄ　ｔｈｅｉｒ　ｃｒａｆｔ　ｔｏ　ｂｕｉー"TCC_NEWLINE"ｌｄ　ｇｒｅａｔ　ｗｅａｐｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｉｔｈ　ｔｈｏｓｅ　ｗｅａｐｏｎｓ，　ｔｈｅ　ｄｖｅｒｇー"TCC_NEWLINE"ａｒ　ｆｏｕｇｈｔ　ｏｎ　ｅｑｕａｌ　ｆｏｏｔｉｎｇ　ｗｉー"TCC_NEWLINE"ｔｈ　ｔｈｅ　ｊｔｎａｒ　ａｎｄ　ｇａｉｎｅｄ　ｉｎｄｅｐー"TCC_NEWLINE"ｅｎｄｅｎｃｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｙｏｕｎｇ　ｄｖｅｒｇｒ　ｗａｓ　ｎａｍｅｄ　ｋー"TCC_NEWLINE"ｉｎｇ，　ａｎｄ　ｔｈｕｓ　Ｎｉａｖｅｌｌｉｒ　ｗａｓ　ｂー"TCC_NEWLINE"ｏｒｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｑｕｉｔｅ　ｒｉｇｈｔ．　Ａｆｔｅｒ　ｔｈａｔ，　ｔｈｅ　"TCC_NEWLINE"ｆｉｒｓｔ　ｋｉｎｇ　ｆｏｓｔｅｒｅｄ　ａ　ｃｕｌｔｕｒｅ"TCC_NEWLINE"　ｏｆ　ｉｎｖｅｎｔｏｒｓ，　ａｎｄ　ｔｈａｔ　ｉｓ　ｈｏー"TCC_NEWLINE"ｗ　ｓｅｉｊｒｎ　ｃａｍｅ　ｉｎｔｏ　ｂｅｉｎｇ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｓｏｍｅｔｈｉｎｇ　ｏｆ　ａｎ　ｉｎｖｅｎｔｏｒ　ｍー"TCC_NEWLINE"ｙｓｅｌｆ，　Ｉ　ｈａｖｅ　ｔｈｅ　ｕｔｍｏｓｔ　ｒｅｓｐー"TCC_NEWLINE"ｅｃｔ　ｆｏｒ　ｏｕｒ　ｆｉｒｓｔ　ｋｉｎｇａｎｄ　Ｉ　ｌー"TCC_NEWLINE"ｏｖｅ　ｔｈｉｓ　ｃｏｕｎｔｒｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ａ　ｃｏｕｐ　ｄ’ｔａｔ　ｂｒｏｕｇｈｔ　Ｎｉａｖー"TCC_NEWLINE"ｅｌｌｉｒ　ｔｏ　ｒｕｉｎ．．．　Ｉ　ｗｉｌｌ　ｄｏ　ａｎー"TCC_NEWLINE"ｙｔｈｉｎｇ　ｔｏ　ｓａｖｅ　ｔｈｉｓ　ｃｏｕｎｔｒｙ，　"TCC_NEWLINE"ｓｏ　ｙｏｕ　ｈａｖｅ　ｍｙ　ｓｕｐｐｏｒｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_REGHIN
+"Ｔｈａｎｋ　ｙｏｕ，　Ｅｉｔｒｉ！　Ｉ　ｈａｄ　ｈｏｐｅｄ"TCC_NEWLINE"　ｙｏｕ’ｄ　ｓａｙ　ｊｕｓｔ　ｔｈａｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5041_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈｕｈ？　Ｗｈａｔ　ｗａｓ　ｔｈａｔ　ｓｏｕｎｄ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_EITRI
+"Ｔｈｅ　ｒｅｍｎａｎｔｓ　ｏｆ　Ｆｆｎｉｒ’ｓ　ｆｏｒｃｅー"TCC_NEWLINE"ｓ　ｍｕｓｔ　ｂｅ　ａｄｖａｎｃｉｎｇ　ｏｎ　ｕｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｒｅ　ｉｓ　ｓｏｍｅｔｈｉｎｇ　Ｉ　ｍｕｓｔ　ｉｎｖー"TCC_NEWLINE"ｅｓｔｉｇａｔｅ．　Ｐｌｅａｓｅ，　ｈａｎｄｌｅ　ｔｈｅ　"TCC_NEWLINE"ｆｏｅｓ　ｏｕｔｓｉｄｅ　ｗｈｉｌｅ　Ｉ　ｗｏｒｋ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｕｎｄｅｒｓｔｏｏｄ．　Ｌｅｔ’ｓ　ｇｏ，　ｅｖｅｒｙｏｎー"TCC_NEWLINE"ｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,46 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S4103_EN] = TCC_OPEN_LEFT
+"Ｉｔ　ｍａｙ　ｎｏｔ　ｂｅ　ｗｈａｔ　Ｉ　ｈａｄ　ｈｏｐｅー"TCC_NEWLINE"ｄ　ｆｏｒ．．．　Ｂｕｔ　ｉｔ’ｓ　ｔｉｍｅ　ｔｏ　ｍｏｖー"TCC_NEWLINE"ｅ　ｆｏｒｗａｒｄ，　ｒｉｇｈｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4103_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYR
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ，　ｐｌｅａｓｅ　ｃｈｅｅー"TCC_NEWLINE"ｒ　ｕｐ，　ｗｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｇｏｉｎｇ　ｔｏ　ｂｅ　ａｌｌ　ｒｉｇｈｔ．　Ｉ"TCC_NEWLINE"’ｍ　ｓｕｒｅ　ｍｙ　ｂｒｏｔｈｅｒ　ｗｉｌｌ　ｃｏｍｅ　"TCC_NEWLINE"ｕｐ　ｗｉｔｈ　ａ　ｇｏｏｄ　ｉｄｅａ　ｓｏｏｎ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ａｍ　ｓｏｒｒｙ．　Ｔｒｕｌｙ，　Ｉ　ａｍ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｊｕｓｔ　ｌｅａｖｅ　ｉｔ　ｔｏ　ｕｓ！　Ｔｈｅ　Ｏｒｄｅー"TCC_NEWLINE"ｒ　ｏｆ　Ｈｅｒｏｅｓ　ｈａｓ　ｈｅｌｐｅｄ　ａｌｌ　ｍａー"TCC_NEWLINE"ｎｎｅｒ　ｏｆ　ｒｅａｌｍｓ　ｉｎ　ｃｒｉｓｉｓ　ｂｅｆｏー"TCC_NEWLINE"ｒｅ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｒｅａｌｍｓ　ｉｎ　ｃｒｉｓｉｓ．．．　Ａｓ　ｙｏｕ　ｓａー"TCC_NEWLINE"ｙ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ａ　ｃｒｉｓｉｓ　ｂｅｆｅｌｌ　ｔｈｅ　ｄｒｅａｍ　"TCC_NEWLINE"ｒｅａｌｍ．．．　Ａ　ｃｒｉｓｉｓ　ｔｈａｔ　ｐｒｏｍｉｓー"TCC_NEWLINE"ｅｄ　ｔｏ　ｐｕｔ　ａｌｌ　ｔｈｅ　ｒｅａｌｍ　ｔｏ　ｒｕー"TCC_NEWLINE"ｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｓｕｃｈ　ａ　ｃｒｉｓｉｓ　ｗｏｕｌｄ　ｃａｕｓｅ　ｔｈｅ"TCC_NEWLINE"　ｈｏｐｅ　ｉｎ　ｈｅａｒｔｓ　ｅｖｅｒｙｗｈｅｒｅ　ｔｏ"TCC_NEWLINE"　ｆａｄｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｙｏｕ　ｍｏｒｔａｌｓ　ｗｏｕｌｄ　ｄｏ　ｗｈａｔｅｖｅｒ"TCC_NEWLINE"　ｉｔ　ｔｏｏｋ．．．ｔｏ　ｓａｖｅ　ｔｈｉｓ　ｒｅａｌｍ"TCC_NEWLINE"，　ｗｏｕｌｄ　ｙｏｕ　ｎｏｔ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｆ　ｃｏｕｒｓｅ　ｗｅ　ｗｏｕｌｄ！　Ｗｅ　ｗｏｕｌｄ　"TCC_NEWLINE"ｄｏ　ｅｖｅｒｙｔｈｉｎｇ　ｉｎ　ｏｕｒ　ｐｏｗｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｖｅｎ　ｉｆ．．．ｉｔ　ｍｅａｎｔ　ｙｏｕ　ｃｏｕｌｄ　"TCC_NEWLINE"ｎｅｖｅｒ　ｒｅｔｕｒｎ　ｔｏ　ｙｏｕｒ　ｏｗｎ　ｗｏｒｌー"TCC_NEWLINE"ｄ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｗｈａｔ　ｄｏ　ｙｏｕ　ｍｅａｎ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｎｌｙ　ａ　ｃｈｉｌｄ　ｃａｎ　ｓａｖｅ　ｔｈｅ　ｒｅａー"TCC_NEWLINE"ｌｍ　ｏｆ　ｄｒｅａｍｓａｎｄ　ｔｈｅ　ｈｏｐｅ　ｉｎ　ｍー"TCC_NEWLINE"ｏｒｔａｌ　ｈｅａｒｔｓｆｒｏｍ　ｒｕｉｎ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ａｎｙｏｎｅ　ｗｈｏ　ｄｒｉｎｋｓ　ｏｆ　ｔｈｅ　"TCC_NEWLINE"ｄｒｅａｍ　ｎｅｃｔａｒ　ｗｉｌｌ　ｎｏ　ｌｏｎｇｅｒ　ｂー"TCC_NEWLINE"ｅ　ｍｏｒｔａｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"．．．Ａｎｄ　ｔｈｅｙ　ｗｉｌｌ　ｎｅｖｅｒ　ａｇａｉｎ　"TCC_NEWLINE"ｂｅ　ａｂｌｅ　ｔｏ　ｒｅｔｕｒｎ　ｈｏｍｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｌｏｓｅ　ａ　ｈｏｍｅ．．．　Ｔｈａｔ　ｉｓ　ａ　ｖー"TCC_NEWLINE"ｅｒｙ　ｃｒｕｅｌ　ｔｈｉｎｇ．　Ｉ　ｃｏｕｌｄ　ｎｏｔ　"TCC_NEWLINE"ａｌｌｏｗ　ｉｔ　ｆｏｒｃｅｄ　ｕｐｏｎ　ａｎｙｏｎｅ．．"TCC_NEWLINE"．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ，　Ｉ"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｂｕｔ　ｗｅ　ｈａｄ　ａｎ　ｉｄｅａ．．．　Ｉ　ｄｏ　ｎｏー"TCC_NEWLINE"ｔ　ｒｅｃａｌｌ　ｗｈｉｃｈ　ｏｆ　ｕｓ　ｆｉｒｓｔ　ｓｕー"TCC_NEWLINE"ｇｇｅｓｔｅｄ　ｉｔ，　ｂｕｔ　Ｉ　ａｍ　ｎｏｔ　ｗｉｔｈー"TCC_NEWLINE"ｏｕｔ　ｂｌａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｔｈｏｕｇｈｔ，　Ｗｈａｔ　ｉｆ　ａ　ｃｈｉｌｄ　ｈー"TCC_NEWLINE"ａｄ　ｎｏ　ｈｏｍｅ　ｔｏ　ｒｅｔｕｒｎ　ｔｏ？　．．．Ｎー"TCC_NEWLINE"ｏ　ｆａｍｉｌｙ　ｔｈａｔ　ｌｏｖｅｄ　ｔｈｅｍ？　Ｎｏ　"TCC_NEWLINE"ｆａｍｉｌｙ　ｔｏ　ｍｉｓｓ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｍｏｒｔａｌ　ｒｅａｌｍ　ｗｏｕｌｄ　ｍｅａｎ　ｌー"TCC_NEWLINE"ｉｔｔｌｅ　ｍｏｒｅ　ｔｈａｎ　ｐａｉｎ　ｔｏ　ｔｈｅｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｈｏｓｅ　ｃｈｉｌｄｒｅｎ　ｔｏ　ｄｒｉｎｋ　ｔー"TCC_NEWLINE"ｈｅ　ｎｅｃｔａｒ．．．　Ｔｏ　ｃｈｏｏｓｅ　ｔｏ　ｌｉｖー"TCC_NEWLINE"ｅ　ｗｉｔｈｉｎ　ｔｈｅ　ｒｅａｌｍ　ｏｆ　ｄｒｅａｍｓ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｏｕｌｄ　ｔｈａｔ　ｎｏｔ　ｂｅ　ａ　ｂｅｔｔｅｒ　ｌｉー"TCC_NEWLINE"ｆｅ　ｆｏｒ　ｔｈｅｍ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ａ　ｍｏｒｔａｌ　ｐｒｉｎｃｅｓｓ　ｌｏｓｔ　ｈｅｒ　ｗａー"TCC_NEWLINE"ｙ．．．　ｉｎ　ａ　ｔｗｉｓｔ　ｏｆ　ｆａｔｅ．．．　Ｓｈー"TCC_NEWLINE"ｅ　ｓｈｏｕｌｄ　ｎｅｖｅｒ　ｈａｖｅ　ｂｅｅｎ　ｉｎｖｏー"TCC_NEWLINE"ｌｖｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｏｎｃｅ　ｔｈｅ　ｇａｔｅ　ｔｏ　ｔｈｅ　ｄｒｅａー"TCC_NEWLINE"ｍ　ｒｅａｌｍ　ｗａｓ　ｏｐｅｎｅｄ．．．ｉｔ　ｗａｓ　ａー"TCC_NEWLINE"ｌｒｅａｄｙ　ｔｏｏ　ｌａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｏ　ｋｅｅｐ　ｔｈｅ　ｒｅａｌｍ　ｆｒｏｍ　ｒｕｉｎ，　"TCC_NEWLINE"ｗｅ　ｇａｖｅ　ｔｈｅ　ｃｈｉｌｄｒｅｎ　ｔｈｅ　ｎｅｃｔー"TCC_NEWLINE"ａｒ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｔｈｒｕｓｔ　ｔｈｅ　ｍａｎｔｌｅ　ｏｆ　Ｈｅｒｏ　"TCC_NEWLINE"ｏｎｔｏ　ｉｎｎｏｃｅｎｔ　ｃｈｉｌｄｒｅｎ．．．ａｎｄ　"TCC_NEWLINE"ｗｅ　ｓａｃｒｉｆｉｃｅｄ　ｔｈｅｍ　ｔｏ　ｓａｖｅ　ｅｖー"TCC_NEWLINE"ｅｒｙｔｈｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

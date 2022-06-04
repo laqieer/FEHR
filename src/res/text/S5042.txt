@@ -1,0 +1,114 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5042] = TCC_OPEN_LEFT 
+"私はシレジア四天馬騎士の一人。" TCC_NEWLINE
+"決して無様な戦いはしません。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5042] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_EITRI
+"お疲れ様。こちらも調べがついたよ。" TCC_NEWLINE
+"君たちも知ってのとおり、" TCC_NEWLINE
+"ファフニールの強さは尋常じゃない。" TCC_NEWLINE TCC_PUSH_A
+"原因は彼の戴く" TCC_NEWLINE
+"【小人の王冠】にある。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"【小人の王冠】って何ですか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"ニザヴェリルの王家に" TCC_NEWLINE
+"代々伝わる王冠で" TCC_NEWLINE
+"王を守護し力を与えるものだ。" TCC_NEWLINE TCC_PUSH_A
+"もっともファフニールほどの力を得た者は" TCC_NEWLINE
+"史上に類を見ないがね。" TCC_NEWLINE TCC_PUSH_A
+"だが、同じくニザヴェリル王家の秘宝に" TCC_NEWLINE
+"【グラム】という魔剣がある。" TCC_NEWLINE
+"あれなら対抗できるかもしれない。ただ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"ただ。。。何だい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"【グラム】は強力な魔剣だが、" TCC_NEWLINE
+"王家の血を継ぐ者が持ってこそ" TCC_NEWLINE
+"真価を発揮すると言われている。" TCC_NEWLINE TCC_PUSH_A
+"クーデターで血筋が絶えたのは痛手だな。" TCC_NEWLINE
+"それでも、これに賭けるしかない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ありがとうエイトリ。" TCC_NEWLINE
+"わかったなの！" TCC_NEWLINE
+"魔剣【グラム】を手に入れてくるの！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
+"でも。。。王家の秘宝ってことは" TCC_NEWLINE
+"ニザヴェリルの王城にあるのよね？" TCC_NEWLINE TCC_PUSH_A
+"ということは、ファフニールが" TCC_NEWLINE
+"がっちり守ってるんじゃない？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"ううん。魔剣【グラム】は" TCC_NEWLINE
+"お城にはないの。" TCC_NEWLINE
+"お隣のヨトゥン王国へ贈っちゃったの。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え。。。ええーーーーっ！？" TCC_NEWLINE
+"そんな大事な剣を" TCC_NEWLINE
+"よその国にあげちゃったんですかっ！？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"だって、ニザヴェリルの軍は" TCC_NEWLINE
+"みんな魔道科学の武器だから" TCC_NEWLINE
+"魔剣なんて使わないの。" TCC_NEWLINE TCC_PUSH_A
+"何年か前にね、" TCC_NEWLINE
+"ヨトゥンとの関係がすごく悪くなって" TCC_NEWLINE
+"戦争になりそうだったの。" TCC_NEWLINE TCC_PUSH_A
+""
+"そしたらオッテルお兄ちゃんが" TCC_NEWLINE
+"お飾りにしとくくらいならって" TCC_NEWLINE
+"【グラム】を献上して仲直りしたの！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"そうだったのか。。。" TCC_NEWLINE
+"今の彼らからは考えられない" TCC_NEWLINE
+"柔和な対応だね。" TCC_NEWLINE TCC_PUSH_A
+"でも、ファフニールから直接" TCC_NEWLINE
+"魔剣を奪うよりは可能\性がありそうだ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_EITRI
+"ヨトゥン王国との交渉は任せるよ。" TCC_NEWLINE
+"魔剣を手に入れたら" TCC_NEWLINE
+"ぜひ私の元へ持ってきてほしい。" TCC_NEWLINE TCC_PUSH_A
+""
+"王家の秘宝の力。。。" TCC_NEWLINE
+"今後の研究に役に立つかもしれない。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"さすが魔道科学の第一人者ですね！" TCC_NEWLINE
+"わかりましたっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"よし。じゃあヨトゥン王国へ急ごう。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"はいなの！" TCC_NEWLINE
+"絶対に魔剣を持って帰ってくるの。" TCC_NEWLINE
+"待っててね、エイトリ！" TCC_NEWLINE TCC_PUSH_A
+""
+"ではでは、ヨトゥンにしゅっぱ～つ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。待ってくれ、レギン。" TCC_NEWLINE
+"ひとつ聞きたいんだが。。。" TCC_NEWLINE
+"私は君と会ったことがあったかな。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT
+"お城で何度か見かけたの！" TCC_NEWLINE
+"あ、お話しするのは初めてだけど？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"そうか。。。" TCC_NEWLINE
+"いや、妙なことを聞いてすまない。" TCC_NEWLINE
+"気をつけて。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,

@@ -1,0 +1,91 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_OPENING_S5041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_EITRI
+"ようこそ、アスク王国のみなさん。" TCC_NEWLINE
+"私はエイトリ。しがない学者さ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"わー。。。っ！" TCC_NEWLINE
+"不思議な物がいっぱいです！" TCC_NEWLINE
+"これが魔道科学というものなんですねっ！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"賢者エイトリ、助けてくれて感謝する。" TCC_NEWLINE
+"でもいいのかい？" TCC_NEWLINE
+"王に逆らってしまっても。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"問題ない。多少機嫌は" TCC_NEWLINE
+"損ねたかもしれないがね。" TCC_NEWLINE TCC_PUSH_A
+"今日のニザヴェリルの繁栄は" TCC_NEWLINE
+"魔道科学なしにはありえない。" TCC_NEWLINE
+"ファフニールが私を処することはないさ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"はあ。。。その年齢でずいぶん達観してるのね。" TCC_NEWLINE
+"天才ってそういうものかしら。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_REGHIN
+"初めまして、エイトリ。" TCC_NEWLINE
+"私はファフニール王の妹、レギンなの。" TCC_NEWLINE TCC_PUSH_A
+""
+"あなたもわかってると思うけど" TCC_NEWLINE
+"お兄ちゃんはおかしいの。" TCC_NEWLINE
+"急に好戦的になって戦争ばかりしてる。" TCC_NEWLINE TCC_PUSH_A
+""
+"昔はああじゃなかった。" TCC_NEWLINE
+"戦で荒れたニザヴェリルを" TCC_NEWLINE
+"豊かな国にしようって言ってたのに。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"ファフニールの存在は" TCC_NEWLINE
+"アスク王国にとっても脅威だ。" TCC_NEWLINE
+"彼を止めたい。力を貸してくれないか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_EITRI
+"その話の前に。。。" TCC_NEWLINE
+"君たちはニザヴェリル王国の" TCC_NEWLINE
+"成り立ちを知っているかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"え？　えーっと。。。" TCC_NEWLINE
+"歴史のお勉強で習ったような。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT
+"遥か昔、小人族は巨人族に支配されていた。" TCC_NEWLINE
+"しかしひとりの若者が立ち上がり" TCC_NEWLINE
+"知恵を合わせ兵器を作ることを提案した。" TCC_NEWLINE TCC_PUSH_A
+"小人族はその兵器によって" TCC_NEWLINE
+"巨人族と対等な力を手に入れ、ついに" TCC_NEWLINE
+"国として独立し、若者は王となった。" TCC_NEWLINE TCC_PUSH_A
+"それがこのニザヴェリル王国だ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"その通り。偉大なる建国王はその後も" TCC_NEWLINE
+"発明家たちを庇護し、" TCC_NEWLINE
+"それが魔道科学のはしりと言われている。" TCC_NEWLINE TCC_PUSH_A
+""
+"私も学者の端くれとして" TCC_NEWLINE
+"建国王を崇め、この国を愛しているんだ。" TCC_NEWLINE TCC_PUSH_A
+"あの野蛮なクーデター以降" TCC_NEWLINE
+"ニザヴェリルは狂ってしまった。" TCC_NEWLINE
+"救うためなら助力は惜しまないよ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_REGHIN
+"エイトリ。。。ありがとう！" TCC_NEWLINE
+"きっとそう言ってくれるって信じてたの！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S5041] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"なっ！？　何ですか今の！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_EITRI
+"ファフニール軍の追手が" TCC_NEWLINE
+"攻撃しているみたいだね。" TCC_NEWLINE TCC_PUSH_A
+"少しこの件について調べたいことがある。" TCC_NEWLINE
+"君たちは外の敵を片づけてくれ。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"わかった。行こう、みんな！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,

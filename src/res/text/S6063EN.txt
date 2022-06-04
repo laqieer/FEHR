@@ -1,0 +1,27 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_MAP_BEGIN_S6063_EN] = TCC_OPEN_LEFT
+"Ｍｙ　ｍｏｔｈｅｒ　ｗａｓ　ａ　ｍａｇｅ　ｔｏｏ．　Ｓｈｅ"TCC_NEWLINE"　ｓｅｒｖｅｄ　ｉｎ　ｔｈｅ　ｌｉｂｅｒａｔｉｏｎ　ａｒｍー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6063_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ELM
+"Ｔｈｅ　ｒｕｍｏｒｓ　ａｒｅｎ’ｔ　ｏｕｔ　ｏｆ　ｙｏｕｒ"TCC_NEWLINE"　ｃｏｎｔｒｏｌ．．．ａｒｅ　ｔｈｅｙ，　Ｌｅｔｉｚｉａ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"．．．Ｉ　ａｍ　ｐｅｒｆｅｃｔｌｙ　ａｗａｒｅ　ｏｆ　ｔｈー"TCC_NEWLINE"ｅ　ｖａｒｉｏｕｓ　ｏｐｉｎｉｏｎｓ　ｐａｓｓｅｄ　ａｍｏー"TCC_NEWLINE"ｎｇ　ｔｈｅ　ｅｍｐｉｒｅ’ｓ　ｉｇｎｏｒａｎｔ　ｍａｓｓー"TCC_NEWLINE"ｅｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ｌｅｔｉｚｉａ　ｏｒ　Ｖｅｒｏｎｉｃａ．．．　Ｗｈｉｃｈ　"TCC_NEWLINE"ｉｓ　ｔｅｌｌｉｎｇ　ｔｈｅ　ｔｒｕｔｈ？　Ａｔ　ｔｈｅ　"TCC_NEWLINE"ｍｏｍｅｎｔ，　ｓｉｘ　ｏｕｔ　ｏｆ　ｔｅｎ　ｐｅｏｐｌｅ"TCC_NEWLINE"　ｂｅｌｉｅｖｅ　ｍｙ　ｓｉｄｅ　ｏｆ　ｔｈｉｎｇｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｗｅｌｌ，　ｗｅｌｌ．　Ｉｍｐｒｅｓｓｉｖｅ！　Ｓｐｒｅａー"TCC_NEWLINE"ｄ　ｅｎｏｕｇｈ　ｌｉｅｓ，　ａｎｄ　ｔｈｅ　ｔｒｕｔｈ　"TCC_NEWLINE"ｉｓ　ｗｈａｔｅｖｅｒ　ｙｏｕ　ｗａｎｔ　ｉｔ　ｔｏ　ｂｅ"TCC_NEWLINE"，　ｊｕｓｔ　ｌｉｋｅ　ｙｏｕ　ｓａｉｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｓｏｍｅｔｈｉｎｇ　ｗｒｏｎｇ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｔｈｅ　ｐｒｏｐａｇａｎｄａ　ｗｅ’ｖｅ　ｂｅｅｎ　"TCC_NEWLINE"ｐｕｔｔｉｎｇ　ｏｕｔ　ｓｈｏｕｌｄ　ｈａｖｅ　ｈａｄ　ａ"TCC_NEWLINE"　ｇｒｅａｔｅｒ　ｉｍｐａｃｔ　ｏｎ　ｓｗａｙｉｎｇ　ｔｈー"TCC_NEWLINE"ｅ　ｐｕｂｌｉｃ．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｕｒ　ｔａｃｔｉｃｓ　ｗｅｒｅ．．．ｃａｌｃｕｌａｔｅｄ"TCC_NEWLINE"．　Ｄｉｓｓｅｎｔ　ｓｈｏｕｌｄ　ｈａｖｅ　ｄｉｓａｐｐｅー"TCC_NEWLINE"ａｒｅｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｙｅｔ．．．Ｉ　ａｍ　ｂａｒｅｌｙ　ｈｏｌｄｉｎｇ"TCC_NEWLINE"　ｏｎ　ｔｏ　ｃｏｎｔｒｏｌ　ｏｆ　ｔｈｅ　ｎａｒｒａｔｉー"TCC_NEWLINE"ｖｅ．　Ｗｈｙ　ｄｏ　ｓｏ　ｍａｎｙ　ｓｔｉｌｌ　ｈａｖｅ"TCC_NEWLINE"　ｆａｉｔｈ　ｉｎ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｓｅ　ｓｉｍｐｌｅｔｏｎｓ．．．　Ｉｓ　ｔｈｅｒｅ　"TCC_NEWLINE"ｎｏｔｈｉｎｇ　ｔｈａｔ　ｃａｎ　ｍａｋｅ　ｔｈｅｍ　ｓｅー"TCC_NEWLINE"ｅ　ｔｈｅ　ｔｒｕｔｈ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｑｕｉｔｅ　ｔｈｅ　ｑｕａｎｄａｒｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉ　ｓｉｍｐｌｙ　ｎｅｅｄ　ｔｏ　ｒｅｉｎｆｏｒｃｅ　Ｖｅー"TCC_NEWLINE"ｒｏｎｉｃａ’ｓ　ｃｒｉｍｉｎａｌｉｔｙｅｍｂｒｏｉｌ　ｈー"TCC_NEWLINE"ｅｒ　ｉｎ　ｅｖｅｎ　ｍｏｒｅ　ｓｃａｎｄａｌ．．．　Ｗｈー"TCC_NEWLINE"ａｔｅｖｅｒ　ｉｔ　ｔａｋｅｓ！"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｏｎｔｒｏｌ　ｔｈｅ　ｔｒｕｔｈ　ｉｎ　Ｅｍｂｌａ！"TCC_NEWLINE"　Ａｎｄ　ｎｏｗ　Ｉ　ｗｉｌｌ　ｐｒｏｖｅ　ｉｔ　ｔｏ　ｙー"TCC_NEWLINE"ｏｕ，　ｌｉｔｔｌｅ　Ｖｅｒｏｎｉｃａ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

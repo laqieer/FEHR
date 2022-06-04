@@ -1,0 +1,82 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S6044] = TCC_OPEN_LEFT 
+"風、木、笑うこと。。。" TCC_NEWLINE
+"みんな教えてもらいました。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6044] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。ここ。。。は。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"あ、ヴェロニカ皇女！" TCC_NEWLINE
+"目が覚めたんですね！" TCC_NEWLINE
+"良かったです！" TCC_NEWLINE TCC_PUSH_A
+"おなかすいてますか？" TCC_NEWLINE
+"のどかわいてますか？" TCC_NEWLINE
+"それとも枕はもっと高い方が。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。しずかにして。" TCC_NEWLINE
+"どれもいらない。" TCC_NEWLINE
+"あなたたちに助けられるなんて。。。" TCC_NEWLINE TCC_PUSH_A
+"これ以上、めいわくを" TCC_NEWLINE
+"かけるつもりはないわ。" TCC_NEWLINE
+"あたしは出ていくから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、だめですよまだ動いちゃ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。っ。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"ほらほら、" TCC_NEWLINE
+"大怪我してるんですから。。。" TCC_NEWLINE
+"傷が治るまで動くなんて無理ですよ。" TCC_NEWLINE TCC_PUSH_A
+"それに、" TCC_NEWLINE
+"アンナ隊長やお兄様は言ってました。" TCC_NEWLINE
+"ヴェロニカ皇女は渡さないって。" TCC_NEWLINE TCC_PUSH_A
+"よくわかりませんけど、レティシアさんは" TCC_NEWLINE
+"ヴェロニカ皇女に無実の罪を着せて、" TCC_NEWLINE
+"処刑しようとしてるんです。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。そうだとしても、" TCC_NEWLINE
+"なぜあなたたちが" TCC_NEWLINE
+"あたしをかくまうの？" TCC_NEWLINE TCC_PUSH_A
+"あたしが処刑されたって。。。" TCC_NEWLINE
+"あなたたちにはかんけいないのに。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"関係あります！" TCC_NEWLINE
+"だってこの間は、一緒に" TCC_NEWLINE
+"協力し合ったじゃないですか。" TCC_NEWLINE TCC_PUSH_A
+"エンブラの呪いさえなければ、" TCC_NEWLINE
+"わたしたちは戦う必要なんてないんです。" TCC_NEWLINE TCC_PUSH_A
+"そうすれば、友達にだってなれます。" TCC_NEWLINE
+"そうですよね？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。。" TCC_NEWLINE
+"。。。あきれるわ。" TCC_NEWLINE
+"そんなこと考えてたなんて。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"あたしは。。。べつに。。。" TCC_NEWLINE
+"。。。っ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"あ、だから" TCC_NEWLINE
+"寝てないとだめですってば。" TCC_NEWLINE TCC_PUSH_A
+"あ、その前にごはん食べないと。" TCC_NEWLINE
+"パン食べれそうですか？" TCC_NEWLINE
+"それともスープとか？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+"。。。すこしだけ。。。" TCC_NEWLINE
+"。。。スープをちょうだい。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

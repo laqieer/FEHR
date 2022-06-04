@@ -1,0 +1,43 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S4101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｔｈｅｒｅ　ｍｕｓｔ　ｂｅ　ｓｏｍｅ　ｗａｙ　ｏｕｔ　ｏｆ"TCC_NEWLINE"　ｔｈｉｓ　ｎｉｇｈｔｍａｒｅ　ｒｅａｌｍ　ｔｈａｔ　Ｆｒー"TCC_NEWLINE"ｅｙｊａ　ｄｏｅｓｎ’ｔ　ｋｎｏｗ　ａｂｏｕｔ．　Ｗｅ　ｊー"TCC_NEWLINE"ｕｓｔ　ｎｅｅｄ　ｔｏ　ｆｉｎｄ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FREYR
+"Ｎｏ．．．　Ｄｋｋｌｆｈｅｉｍｒ　ｉｓ　ｃｏｍｐｌｅｔｅｌー"TCC_NEWLINE"ｙ　ｕｎｄｅｒ　ｈｅｒ　ｃｏｎｔｒｏｌ　ｎｏｗ．　Ｉｆ　Ｆー"TCC_NEWLINE"ｒｅｙｊａ　ｓｅａｌｅｄ　ｉｔ　ｏｆｆ，　ｔｈｅｒｅ　ｉｓ"TCC_NEWLINE"　ｎｏ　ｅｓｃａｐｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｔｈｅｎ　ｗｅ　ｎｅｅｄ　ｔｏ　ｌｏｏｋ　ｆｏｒ　ｓｏｍｅ"TCC_NEWLINE"　ｃｌｕｅ　ｔｏ　ｄｅｆｅａｔ　ｈｅｒ．　Ｔｈｅｒｅ　ｈａー"TCC_NEWLINE"ｓ　ｔｏ　ｂｅ　ａ　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｉｔｈ　ｍｙ　ｐｏｗｅｒ　ａｔ　ｈｅｒ　ｃｏｍｍａｎｄ，"TCC_NEWLINE"　Ｆｒｅｙｊａ　ｒｕｌｅｓ　ａｌｌ　ｄｒｅａｍｓ．．．　Ｗー"TCC_NEWLINE"ｉｔｈｉｎ　ｄｒｅａｍｓ，　ｓｈｅ　ｃａｎｎｏｔ　ｂｅ　ｄー"TCC_NEWLINE"ｅｆｅａｔｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ　ｃａｎ’ｔ　ｄｅｆｅａｔ　ｈｅｒ　ｗｉｔｈｉｎ　ｔｈー"TCC_NEWLINE"ｅ　ｒｅａｌｍ　ｏｆ　ｎｉｇｈｔｍａｒｅｓ．．．ａｎｄ　ｗー"TCC_NEWLINE"ｅ　ｃａｎ’ｔ　ｅｓｃａｐｅ　ｔｏ　ｃｏｎｆｒｏｎｔ　ｈｅー"TCC_NEWLINE"ｒ　ｏｕｔｓｉｄｅ　ｏｆ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ＣＡＮ　ｗｅ　ｄｏ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT
+"Ｗｈａｔｅｖｅｒ　ｗｅ　ｄｏ，　ｗｅ　ｃａｎ’ｔ　ｇｉｖｅ"TCC_NEWLINE"　ｕｐ．　Ｔｈｉｎｋ．　Ｉｆ　ｗｅ　ａｌｌ　ｐｕｔ　ｏｕｒ"TCC_NEWLINE"　ｍｉｎｄｓ　ｔｏ　ｉｔ，　ｓｕｒｅｌｙ　ｗｅ　ｃａｎ　ｔー"TCC_NEWLINE"ｈｉｎｋ　ｏｆ　ｓｏｍｅｔｈｉｎｇ！"TCC_NEWLINE TCC_PUSH_A
+"Ｗｅ　ｈａｖｅ　ｔｏ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S4101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｌ－ｌｅｔ’ｓ　ｒｅｔｒｅａｔ　ｆｏｒ　ｎｏｗ！　Ｔｈｉｓ"TCC_NEWLINE"　ｗａｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S4101_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｄｒｅａｍ－Ｋｉｎｇ　Ｆｒｅｙｒ，　ｗｅ　ｍｕｓｔ　ｒｅｔー"TCC_NEWLINE"ｒｅａｔ．　Ｐｌｅａｓｅ，　ｔｈｉｓ　ｗａｙ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_FREYR
+"Ｆｏｒｇｉｖｅ　ｍｅ．．．　Ｉ　ｈａｖｅ　ｄｏｎｅ　ｎｏｔー"TCC_NEWLINE"ｈｉｎｇ　ｂｕｔ　ｂｒｉｎｇ　ｙｏｕ　ｔｒｏｕｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｎｏ，　ｎｏ．　Ｔｈａｔ’ｓ　ｎｏｔ　ｔｒｕｅ．　Ｙｏｕ　"TCC_NEWLINE"ｓａｖｅｄ　ｕｓ．　Ａｎｄ　Ｉ　ａｍ　ｖｅｒｙ　ｇｒａｔｅー"TCC_NEWLINE"ｆｕｌ　ｙｏｕ　ｄｉｄ．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｒｅｙｊａ，　ｅｖｅｒｙｔｈｉｎｇ　ｓｈｅ’ｓ　ｄｏｎｅ"TCC_NEWLINE"．．．　Ｙｏｕ　ｃａｎｎｏｔ　ｂｌａｍｅ　ｙｏｕｒｓｅｌｆ"TCC_NEWLINE"　ｆｏｒ　ｈｅｒ　ａｃｔｉｏｎｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｗｈｅｎ　ｓｈｅ　ｗａｓ　ｙｏｕｎｇ，　Ｆｒｅｙｊａ"TCC_NEWLINE"　ｗａｓ　ｔｉｍｉｄ，　ｃｏｍｐａｓｓｉｏｎａｔｅ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｔｈｅｒｅ　ｗｅｒｅ　ｍａｎｙ　ｗｈｏ　ｍｏｃｋｅー"TCC_NEWLINE"ｄ　ｈｅｒ　ａｐｐｅａｒａｎｃｅ．．．ａｌｌ　ｄｕｅ　ｔｏ"TCC_NEWLINE"　ａ　ｍａｒｋ　ｏｎ　ｔｈｅ　ｕｎｄｅｒｓｉｄｅ　ｏｆ　ｈー"TCC_NEWLINE"ｅｒ　ｎｏｓｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉ　ｈａｄ　ｎｏ　ｉｄｅａ．．．　Ｂｕｔ　Ｉ’ｍ　ｓｕｒｅ"TCC_NEWLINE"　ｙｏｕ　ｗｅｒｅ　ｋｉｎｄ　ｔｏ　ｈｅｒ，　ｗｅｒｅｎ’"TCC_NEWLINE"ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｏｆ　ｃｏｕｒｓｅ．．．　Ｉ　ａｍ　Ｆｒｅｙｊａ’ｓ　ｅｌー"TCC_NEWLINE"ｄｅｒ　ｂｒｏｔｈｅｒ，　ａｆｔｅｒ　ａｌｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ｃｏｍｆｏｒｔｅｄ　ｈｅｒ．．．　Ｂｕｔ　ｓｏｏｎ　ｓー"TCC_NEWLINE"ｈｅ　ｓｍｉｌｅｄ　ｆｏｒ　ｍｅ　ａｌｏｎｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅｎ．．．ｈａｖｉｎｇ　ｇｒｏｗｎ，　ｓｈｅ　ｂｅｇａー"TCC_NEWLINE"ｎ　ｔｏ　ｓｐｅａｋ　ｏｆ　ｎｅｖｅｒ　ｐａｒｔｉｎｇ．．"TCC_NEWLINE"．ｏｆ　ｗａｎｔｉｎｇ　ｔｏ　ｂｅ　ｅｖｅｒ　ｉｎ　ｍｙ　"TCC_NEWLINE"ｇｅｎｔｌｅ　ｐｒｅｓｅｎｃｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｂｅｆｏｒｅ　ｌｏｎｇ，　Ｆｒｅｙｊａ’ｓ　ｂｅａｕｔｙ　"TCC_NEWLINE"ｂｌｏｓｓｏｍｅｄ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｍａｎｙ　ｓｏｕｇｈｔ　ｔｏ　ｃｏｕｒｔ　ｈｅｒ，　ｂｕｔ"TCC_NEWLINE"　ｓｈｅ　ａｌｌｏｗｅｄ　ｎｏｎｅ　ｔｏ　ｗｏｏ　ｈｅｒ．"TCC_NEWLINE"．．"TCC_NEWLINE TCC_PUSH_A
+"Ｆｏｒ　ｔｈｉｓ，　ｔｏｏ，　Ｉ　ａｍ　ｎｏ　ｄｏｕｂｔ　"TCC_NEWLINE"ｔｏ　ｂｌａｍｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

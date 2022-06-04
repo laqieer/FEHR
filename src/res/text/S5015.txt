@@ -1,0 +1,83 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"今度こそ負けません。" TCC_NEWLINE
+"この国と召喚師は" TCC_NEWLINE
+"我がニザヴェリルがいただきます。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"待ってくれ！" TCC_NEWLINE
+"レギン王女、君は本当に" TCC_NEWLINE
+"この戦いを望んでいるのかい？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"！？　何を。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT
+"君は迷っているように見える。" TCC_NEWLINE TCC_PUSH_A
+"僕は戦意のない者と" TCC_NEWLINE
+"無益な戦いはしたくない。" TCC_NEWLINE
+"だから。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"うっ。。。うるさいうるさい" TCC_NEWLINE
+"うるさいの！！" TCC_NEWLINE TCC_PUSH_A
+""
+"私は絶対、たとえ死ぬことになっても" TCC_NEWLINE
+"おにぃ。。。ファフニール王の役に" TCC_NEWLINE
+"立たなくちゃいけないんですっ！！" TCC_NEWLINE TCC_PUSH_A
+""
+"死ぬ気でかかっていらっしゃい！" TCC_NEWLINE
+"私もあなたたちを。。。" TCC_NEWLINE
+"殺す気で参ります！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S5015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"。。。私。。。" TCC_NEWLINE
+"負けちゃった。。。の。。。。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S5015] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_REGHIN
+"ぐすっ。。。ふ。。。ふえぇ。。。。。。" TCC_NEWLINE
+"ふえぇええーーーーーん！！" TCC_NEWLINE
+"うわああぁーーーーん！！" TCC_NEWLINE TCC_PUSH_A
+"ごめんなさいなのーーー！！" TCC_NEWLINE
+"お兄ちゃーーーーん！！" TCC_NEWLINE TCC_PUSH_A
+""
+"私。。。やっぱり無理だったの。。。。。。！" TCC_NEWLINE
+"負けちゃったよぉ。。。。。。" TCC_NEWLINE
+"ぐすっ、うっ。。。ふえぇ～。。。！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
+"な。。。何だか最初とずいぶん違いますね。" TCC_NEWLINE
+"こっちが本当のレギン王女。。。？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
+"レギン王女。" TCC_NEWLINE
+"君が負けたのは" TCC_NEWLINE
+"本気を出せなかったからだ。" TCC_NEWLINE TCC_PUSH_A
+"君は何を迷っているんだい？" TCC_NEWLINE
+"よかったら聞かせてくれないか。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"アルフォンス王子。。。" TCC_NEWLINE
+"私を心配してくれるの。。。？" TCC_NEWLINE
+"私。。。さっきまで敵だったのに。。。" TCC_NEWLINE TCC_PUSH_A
+"アスクの人たちって。。。" TCC_NEWLINE
+"とってもとっても優しいのね。。。" TCC_NEWLINE TCC_PUSH_A
+""
+"。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
+"レギン王女？" TCC_NEWLINE
+"どうしたの？" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT
+"。。。決めた！　決めたなの！" TCC_NEWLINE
+"私、あなたたちと一緒に戦うの！" TCC_NEWLINE TCC_PUSH_A
+""
+"だからお願い。" TCC_NEWLINE
+"ファフニール王を。。。" TCC_NEWLINE
+"お兄ちゃんを止めてください！！" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE ,

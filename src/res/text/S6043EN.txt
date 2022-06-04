@@ -1,0 +1,68 @@
+// Converted by ./ConvertTextEN.py
+
+[MID_SCENARIO_OPENING_S6043_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｗｅ　ｌｏｃａｔｅｄ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ？"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｙｅｓ，　ｗｅ　ｆｏｕｎｄ　ｈｅｒ　ｗａｓｈｅｄ　ｕｐ　ｏー"TCC_NEWLINE"ｎ　ｔｈｅ　ｒｉｖｅｒｂａｎｋ．　Ｓｈｅ’ｓ　ｉｎ　ｐｒｅー"TCC_NEWLINE"ｔｔｙ　ｒｏｕｇｈ　ｓｈａｐｅ．"TCC_NEWLINE TCC_PUSH_A
+"Ｈｅｒ　ｗｏｕｎｄｓ　ａｒｅ　ｂｅｉｎｇ　ｔｒｅａｔｅｄ　"TCC_NEWLINE"ｎｏｗ．　Ｗｅ　ｗｏｎ’ｔ　ｋｎｏｗ　ｗｈａｔ　ｈａｐｐｅー"TCC_NEWLINE"ｎｅｄ　ｕｎｔｉｌ　ｓｈｅ　ｒｅｇａｉｎｓ　ｃｏｎｓｃｉｏー"TCC_NEWLINE"ｕｓｎｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｖｅｎ　ｔｈｏｕｇｈ　Ａｓｋｒ　ｉｓ　ａｔ　ｏｄｄｓ　ｗー"TCC_NEWLINE"ｉｔｈ　Ｅｍｂｌａ，　Ｉ　ｃａｎ’ｔ　ｈｅｌｐ　ｂｕｔ　ｆー"TCC_NEWLINE"ｅｅｌ　ｂａｄ　ｆｏｒ　ｈｅｒ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｔｈｅ　ｒｅａｌ　ｔｈｒｅａｔ　ｗｏｕｌｄ　ｓｅｅｍ　ｔｏ"TCC_NEWLINE"　ｂｅ　Ｄｉｒｅｃｔｏｒ　Ｌｅｔｉｚｉａ　ａｎｄ　ｈｅｒ　"TCC_NEWLINE"ｏｒｄｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｓｈｅ　ｆｉｎｄｓ　ｏｕｔ　ｗｅ　ｈａｖｅ　ｔｈｅ　"TCC_NEWLINE"ｐｒｉｎｃｅｓｓ，　ｓｈｅ　ｗｉｌｌ　ｄｅｍａｎｄ　ｗｅ　"TCC_NEWLINE"ｈａｎｄ　ｈｅｒ　ｏｖｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ｉｆ　ｗｅ　ｒｅｆｕｓｅ，　ｉｔ’ｓ　ｌｉｋｅｌｙ"TCC_NEWLINE"　ｔｈｉｎｇｓ　ｗｉｌｌ　ｅｓｃａｌａｔｅ，　ａｎｄ　ｗｅ"TCC_NEWLINE"’ｌｌ　ｂｅ　ｕｎａｂｌｅ　ｔｏ　ａｖｏｉｄ　ｖｉｏｌｅｎー"TCC_NEWLINE"ｃｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_BEGIN_S6043_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｐｅｏｐｌｅ　ｏｆ　Ａｓｋｒ，　Ｉ　ｗｉｓｈ　ｙｏｕ　ｎｏ"TCC_NEWLINE"　ｈａｒｍ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉ　ａｓｋ　ｏｎｌｙ　ｔｈａｔ　ｙｏｕ　ｄｅｌｉｖｅｒ　Ｖー"TCC_NEWLINE"ｅｒｏｎｉｃａ　ｔｏ　ｕｓ．　Ｗｅ　ｗｉｌｌ　ｎｏｔ　ｓｔー"TCC_NEWLINE"ａｎｄ　ｆｏｒ　ｔｈｅ　ａｂｄｕｃｔｉｏｎ　ｏｆ　ｏｕｒ　"TCC_NEWLINE"ｐｒｉｎｃｅｓｓ．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓ　ｌｏｎｇ　ａｓ　ｙｏｕ　ｈｏｌｄ　ｈｅｒ　ｃａｐｔｉー"TCC_NEWLINE"ｖｅ，　ｗｅ　ｃａｎｎｏｔ　ｂａｃｋ　ｄｏｗｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｙｏｕ　ｓａｉｄ　Ｐｒｉｎｃｅｓｓ　Ｖｅｒｏｎｉｃａ　ｗａー"TCC_NEWLINE"ｓ　ｔｏ　ｓｔａｎｄ　ｔｒｉａｌ　ｆｏｒ　ｈｅｒ　ｃｒｉｍー"TCC_NEWLINE"ｅｓ，　ｙｅｓ？"TCC_NEWLINE TCC_PUSH_A
+"Ｐｌｅａｓｅ，　ｈｅｌｐ　ｕｓ　ｕｎｄｅｒｓｔａｎｄ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｍｂｌａ’ｓ　ｉｎｔｅｒｎａｌ　ａｆｆａｉｒｓ　ａｒｅ　"TCC_NEWLINE"ｎｏｔ　ｙｏｕｒ　ｃｏｎｃｅｒｎ．　Ｔｈｉｓ　ｈａｓ　ｎｏー"TCC_NEWLINE"ｔｈｉｎｇ　ｔｏ　ｄｏ　ｗｉｔｈ　ｙｏｕ　ｏｒ　Ａｓｋｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｖｅｒｏｎｉｃａ　ｈａｓ　ｂｅｅｎ　ａｃｃｕｓｅｄ　ｏｆ　"TCC_NEWLINE"ａ　ｃｒｉｍｅ．　Ｉｔ　ｉｓ　ｏｕｒ　ｃｈａｒｇｅ　ｔｏ　"TCC_NEWLINE"ｆｉｎｄ　ｏｕｔ　ｗｈｅｔｈｅｒ　ｓｈｅ　ｉｓ　ｇｕｉｌｔー"TCC_NEWLINE"ｙ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈａｔ　ｉｓ　ａｌｌ　ｙｏｕ　ｎｅｅｄ　ｔｏ　ｋｎｏｗ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｉｆ　ｆａｉｒ　ｊｕｄｇｍｅｎｔ　ｉｓ　ｙｏｕｒ　ｇｏａｌ"TCC_NEWLINE"，　ｓｕｒｅｌｙ　ｙｏｕ　ｃａｎ　ｏｆｆｅｒ　ｓｏｍｅ　ｐー"TCC_NEWLINE"ｉｅｃｅ　ｏｆ　ｅｖｉｄｅｎｃｅ　ｔｏ　ｃｏｎｆｉｒｍ　ｔー"TCC_NEWLINE"ｈｅ　ｍｅｒｉｔ　ｏｆ　ｔｈｅ　ｃｈａｒｇｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｓｋｒａｎ　ｌｏｗｌｉｆｅｓ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_MID_LEFT TCC_LOAD_FACE PORTRAIT_SHARENA
+"Ｈ－ｈｅｙ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｅｖｉｄｅｎｃｅ？　Ｃｈａｒｇｅｓ？！　Ｈａｈ！　Ｉ　ｃｏー"TCC_NEWLINE"ｕｌｄ　ｏｆ　ｃｏｕｒｓｅ　ｔｅｌｌ　ｙｏｕ　ｗｈａｔｅｖー"TCC_NEWLINE"ｅｒ　Ｉ　ｗａｎｔ，　ａｎｄ　ｙｏｕ　ｗｏｕｌｄ　ｂｅ　ｎー"TCC_NEWLINE"ｏｎｅ　ｔｈｅ　ｗｉｓｅｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｂｕｔ　ｈｏｗ　ａｂｏｕｔ，　ｉｎｓｔｅａｄ　ｏｆ　ａｌｌ"TCC_NEWLINE"　ｔｈａｔ，　ｙｏｕ　ｇｉｖｅ　Ｖｅｒｏｎｉｃａ　ｔｏ　ｍー"TCC_NEWLINE"ｅ　ｎｏｗ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｏｒ　ｗｅ　ｗｉｌｌ　ｓｈｏｗ　ｙｏｕ　ｒｅａｓｏｎ　ｔｈー"TCC_NEWLINE"ｅｙ　ｃａｌｌ　ｕｓ　ｔｈｅ　Ｃｕｒｓｅ　Ｄｉｒｅｃｔｉｖー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"．．．Ｗａｉｔ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE ,
+[MID_SCENARIO_MAP_END_S6043_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_LETIZIA
+"Ｓｏ，　ｙｏｕ　ｐｌａｎ　ｔｏ　ｒｅｓｉｓｔ．．．　Ｉｎ　"TCC_NEWLINE"ｔｈａｔ　ｃａｓｅ，　Ｉ　ｗｉｌｌ　ｄｅｐａｒｔ　ｆｏｒ　"TCC_NEWLINE"ｎｏｗ．　Ｂｕｔ　Ｉ　ｗｉｌｌ　ｒｅｔｕｒｎ！　Ｔｈａｔ　"TCC_NEWLINE"ｙｏｕ　ｃａｎ　ｃｏｕｎｔ　ｏｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｏｈ．．．　Ｔｈａｔ’ｓ　ｒｉｇｈｔ．　Ｉ　ｗａｎｔｅｄ　"TCC_NEWLINE"ｔｏ　ａｓｋ　ｙｏｕ　ｓｏｍｅｔｈｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｗｈａｔ　ｗａｓ　ｔｈｅ　ｎａｍｅ　ｏｆ　ｔｈａｔ　ｖｉｌー"TCC_NEWLINE"ｌａｇｅ　ｉｎ　Ａｓｋｒ？　Ｔｈｅ　ｏｎｅ　ｊｕｓｔ　ｓｏー"TCC_NEWLINE"ｕｔｈ　ｏｆ　ｈｅｒｅ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ　ｗａｓ　ａ　ｂｅａｕｔｉｆｕｌ　ｖｉｌｌａｇｅ　ｏｎ"TCC_NEWLINE"　ａ　ｈｉｌｌ．．．　Ｙｏｕ　ｋｎｏｗ　ｔｈｅ　ｏｎｅ，　"TCC_NEWLINE"ｄｏｎ’ｔ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
+"Ｉｎ　ａｎｙ　ｃａｓｅ，　ｉｔ’ｓ　ｇｏｎｅ　ｎｏｗ．　Ａー"TCC_NEWLINE"ｌａｓ！　Ｓｗａｌｌｏｗｅｄ　ｂｙ　Ｅｍｂｌａ’ｓ　ｄａｒー"TCC_NEWLINE"ｋｎｅｓｓ．　Ｓｕｃｈ　ａ　ｓｈａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｗｈａｔ？！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｄｏｎ’ｔ　ｂｅｌｉｅｖｅ　ｍｅ？　Ｉ’ｌｌ　ａｌｌｏｗ　"TCC_NEWLINE"ｙｏｕ　ｔｈｅ　ｔｉｍｅ　ｔｏ　ｓｅｅ　ｆｏｒ　ｙｏｕｒｓー"TCC_NEWLINE"ｅｌｆ．　Ｂｙ　ａｌｌ　ｍｅａｎｓ，　Ｉ　ｅｎｃｏｕｒａｇー"TCC_NEWLINE"ｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｔ’ｓ　ｔｏｏ　ｂａｄ，　ｒｅａｌｌｙ．　Ａｌｌ　ｔｈｏー"TCC_NEWLINE"ｓｅ　ｖｉｌｌａｇｅｒｓ，　ｃｌｏｓｅｄ　ｏｆｆ　ｆｒｏｍ"TCC_NEWLINE"　ｔｈｅ　ｗｏｒｌｄ　ｗｉｔｈ　ｎｏ　ｈｏｐｅ　ｏｆ　ｅｖー"TCC_NEWLINE"ｅｒ　ｒｅｔｕｒｎｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ａｎｄ　ａｌｌ　ｂｅｃａｕｓｅ　ｙｏｕ　ｒｅｆｕｓｅｄ　ｔー"TCC_NEWLINE"ｏ　ｇｉｖｅ　ｍｅ　Ｖｅｒｏｎｉｃａ．"TCC_NEWLINE TCC_PUSH_A
+"Ｉｆ　ｙｏｕ’ｌｌ　ｅｘｃｕｓｅ　ｍｅ，　Ｉ’ｌｌ　ｇｉｖー"TCC_NEWLINE"ｅ　ｙｏｕ　ｔｉｍｅ　ｔｏ　ｌｅｔ　ｒｅａｌｉｔｙ　ｓｉｎー"TCC_NEWLINE"ｋ　ｉｎ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT
+"Ｃｕｒｓｅ　ｙｏｕ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+[MID_SCENARIO_ENDING_S6043_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_ANNA
+"Ｏｕｒ　ａｅｒｉａｌ　ｓｃｏｕｔ　ｈａｓ　ｒｅｔｕｒｎｅｄ"TCC_NEWLINE"．　Ｅｖｅｎ　ｆｒｏｍ　ａ　ｄｉｓｔａｎｃｅ，　ｔｈｅ　ｔー"TCC_NEWLINE"ｒｕｔｈ　ｗａｓ　ｃｌｅａｒ．"TCC_NEWLINE TCC_PUSH_A
+"Ｔｈｅ　ｖｉｌｌａｇｅ　ｉｓ　ｅｎｃｌｏｓｅｄ　ｉｎ　ａ　"TCC_NEWLINE"ｖｅｉｌ　ｏｆ　ｄａｒｋｎｅｓｓ，　ｊｕｓｔ　ａｓ　Ｄｉｒー"TCC_NEWLINE"ｅｃｔｏｒ　Ｌｅｔｉｚｉａ　ｓａｉｄ　ｉｔ　ｗｏｕｌｄ　ｂー"TCC_NEWLINE"ｅ．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+"Ｉｔ　ｃａｎ’ｔ　ｂｅ．．．"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT
+"Ｉｆ　ｔｈｉｓ　ｃｏｎｔｉｎｕｅｓ，　ｔｈｅ　Ｃｕｒｓｅ　"TCC_NEWLINE"Ｄｉｒｅｃｔｉｖｅ　ｗｉｌｌ　ｃｌｏｓｅ　ｏｆｆ　ｖｉｌｌー"TCC_NEWLINE"ａｇｅｓ　ａｎｄ　ｃａｓｔｌｅｓ　ｏｎｅ　ｂｙ　ｏｎｅ　ｕー"TCC_NEWLINE"ｎｔｉｌ．．．"TCC_NEWLINE TCC_PUSH_A
+"Ｅｖｅｎ　ｉｆ　ｗｅ　ｃａｎ　ｄｅｆｅａｔ　ｔｈｅｍ　ｏｎ"TCC_NEWLINE"　ｔｈｅ　ｆｉｅｌｄ，　Ａｓｋｒ　ｉｓ　ｉｎ　ｉｎｃｒｅｄー"TCC_NEWLINE"ｉｂｌｅ　ｄａｎｇｅｒ！"TCC_NEWLINE TCC_PUSH_A
+TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,

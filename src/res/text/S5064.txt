@@ -1,0 +1,7 @@
+// Converted by ./ConvertText.py
+
+[MID_SCENARIO_MAP_BEGIN_S5064] = TCC_OPEN_LEFT 
+"これも何かの導きか。。。" TCC_NEWLINE
+"ならば、その運命に従うのみ。。。" TCC_NEWLINE TCC_PUSH_A
+""
+TCC_OPEN_LEFT TCC_CLEAR_FACE ,
