@@ -94,6 +94,10 @@
 #include "portrait_Veronica_Stain_tileset.h"
 #include "portrait_Elm_mini.h"
 #include "portrait_Elm_tileset.h"
+#include "portrait_GenericSoldierBlue_mini.h"
+#include "portrait_GenericSoldierBlue_tileset.h"
+#include "portrait_GenericSoldierRed.h"
+#include "portrait_GenericSoldierGreen.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -438,6 +442,29 @@ const u16 portrait_Elm_obj[] = {
     PORTRAIT_BLOCK_R(Elm, 8, 32, 96, 32, 15, 0),
     PORTRAIT_BLOCK_R(Elm, 64, 32, 0, 64, 16, 0),
     PORTRAIT_BLOCK_R(Elm, 64, 32, 64, 64, 24, 0),
+};
+
+#define portrait_GenericSoldierBlue_width 88
+#define portrait_GenericSoldierBlue_height 96
+const u16 portrait_GenericSoldierBlue_obj[] = {
+    8,
+    PORTRAIT_BLOCK_R(GenericSoldierBlue, 64, 32, 0, 0, 0, 0),
+    PORTRAIT_BLOCK_R(GenericSoldierBlue, 8, 32, 64, 0, 8, 0),
+    PORTRAIT_BLOCK_R(GenericSoldierBlue, 8, 16, 72, 16, 9, 2),
+    PORTRAIT_BLOCK_R(GenericSoldierBlue, 8, 8, 80, 24, 9, 0),
+    PORTRAIT_BLOCK_R(GenericSoldierBlue, 64, 32, 0, 32, 10, 0),
+    PORTRAIT_BLOCK_R(GenericSoldierBlue, 32, 32, 56, 32, 17, 0),
+    PORTRAIT_BLOCK_R(GenericSoldierBlue, 64, 32, 0, 64, 21, 0),
+    PORTRAIT_BLOCK_R(GenericSoldierBlue, 32, 32, 56, 64, 28, 0),
+    8,
+    PORTRAIT_BLOCK(GenericSoldierBlue, 64, 32, 0, 0, 0, 0),
+    PORTRAIT_BLOCK(GenericSoldierBlue, 8, 32, 64, 0, 8, 0),
+    PORTRAIT_BLOCK(GenericSoldierBlue, 8, 16, 72, 16, 9, 2),
+    PORTRAIT_BLOCK(GenericSoldierBlue, 8, 8, 80, 24, 9, 0),
+    PORTRAIT_BLOCK(GenericSoldierBlue, 64, 32, 0, 32, 10, 0),
+    PORTRAIT_BLOCK(GenericSoldierBlue, 32, 32, 56, 32, 17, 0),
+    PORTRAIT_BLOCK(GenericSoldierBlue, 64, 32, 0, 64, 21, 0),
+    PORTRAIT_BLOCK(GenericSoldierBlue, 32, 32, 56, 64, 28, 0),
 };
 
 const u16 portrait_Mirabilis_obj[] = {
@@ -1486,6 +1513,19 @@ const u16 portrait_Elm_bg[] = {
         20, 20, 20, TILE_ID(7, 1), TILE_ID(8, 1), TILE_ID(9, 1), 20, 20, 20, 20,
 };
 
+const u16 portrait_GenericSoldierBlue_bg[] = {
+        0x809,
+        TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), TILE_ID(25, 0), TILE_ID(26, 0), TILE_ID(27, 0), TILE_ID(28, 0), TILE_ID(29, 0), TILE_ID(30, 0), TILE_ID(31, 0),
+        TILE_ID(11, 3), TILE_ID(12, 3), TILE_ID(13, 3), TILE_ID(14, 3), TILE_ID(15, 3), TILE_ID(16, 3), TILE_ID(17, 3), TILE_ID(18, 3), TILE_ID(19, 3), TILE_ID(20, 3),
+        TILE_ID(11, 2), TILE_ID(12, 2), TILE_ID(13, 2), TILE_ID(14, 2), TILE_ID(15, 2), TILE_ID(16, 2), TILE_ID(17, 2), TILE_ID(18, 2), TILE_ID(19, 2), TILE_ID(20, 2),
+        TILE_ID(11, 1), TILE_ID(12, 1), TILE_ID(13, 1), TILE_ID(14, 1), TILE_ID(15, 1), TILE_ID(16, 1), TILE_ID(17, 1), TILE_ID(18, 1), TILE_ID(19, 1), TILE_ID(20, 1),
+        TILE_ID(11, 0), TILE_ID(12, 0), TILE_ID(13, 0), TILE_ID(14, 0), TILE_ID(15, 0), TILE_ID(16, 0), TILE_ID(17, 0), TILE_ID(18, 0), TILE_ID(19, 0), TILE_ID(20, 0),
+        TILE_ID(1, 3), TILE_ID(2, 3), TILE_ID(3, 3), TILE_ID(4, 3), TILE_ID(5, 3), TILE_ID(6, 3), TILE_ID(7, 3), TILE_ID(8, 3), TILE_ID(9, 3), TILE_ID(9, 0),
+        TILE_ID(1, 2), TILE_ID(2, 2), TILE_ID(3, 2), TILE_ID(4, 2), TILE_ID(5, 2), TILE_ID(6, 2), TILE_ID(7, 2), TILE_ID(8, 2), TILE_ID(9, 2), 0,
+        TILE_ID(1, 1), TILE_ID(2, 1), TILE_ID(3, 1), TILE_ID(4, 1), TILE_ID(5, 1), TILE_ID(6, 1), TILE_ID(7, 1), TILE_ID(8, 1), TILE_ID(9, 1), 0,
+        TILE_ID(1, 0), TILE_ID(2, 0), TILE_ID(3, 0), TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), TILE_ID(8, 0), 0, 0,
+};
+
 DEFINE_PORTRAIT(Anna_commander)
 DEFINE_PORTRAIT(Sharena_princess)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
@@ -1524,6 +1564,9 @@ DEFINE_PORTRAIT_BG(Nott)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Ash)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica_Stain)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Elm)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(GenericSoldierBlue)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK_RECOLOR(GenericSoldierRed, GenericSoldierBlue)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK_RECOLOR(GenericSoldierGreen, GenericSoldierBlue)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1595,16 +1638,9 @@ const Portrait* const portraits[] = {
     [0x11D] = &portraitScabiosa,
     [0x11E] = &portraitPlumeria,
     [0x11F] = &portraitHood,
-    [0x130] = &classcardLord,
-    [0x140] = &portraitFjormBG,
-    [CLASSCARD_MAGE_KNIGHT] = &classcardMageKnight, // 0x131
-    [CLASSCARD_HALBERDIER] = &classcardHalberdier, // 0x132
-    [CLASSCARD_BONEWALKER] = &classcardBonewalker, // 0x133
-    [CLASSCARD_DRACOZOMBIE] = &classcardDracozombie, // 0x134
-    [CLASSCARD_GHOST] = &classcardGhost, // 0x135
-    [CLASSCARD_PHANTOM] = &classcardPhantom, // 0x136
-    [CLASSCARD_REVENANT] = &classcardRevenant, // 0x137
-    [CLASSCARD_WOLF] = &classcardWolf, // 0x138
+    [0x120] = &portraitGenericSoldierBlue,
+    [0x121] = &portraitGenericSoldierRed,
+    [0x122] = &portraitGenericSoldierGreen,
     [PORTRAIT_ID_REGHIN] = &portraitReghin,
     [PORTRAIT_ID_LETIZIA] = &portraitLetizia,
     [PORTRAIT_ID_OTR] = &portraitOtr,
@@ -1615,6 +1651,16 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_ASH] = &portraitAsh,
     [PORTRAIT_ID_ELM] = &portraitElm,
     [PORTRAIT_ID_VERONICA_STAIN] = &portraitVeronica_Stain,
+    [0x130] = &classcardLord,
+    [CLASSCARD_MAGE_KNIGHT] = &classcardMageKnight, // 0x131
+    [CLASSCARD_HALBERDIER] = &classcardHalberdier, // 0x132
+    [CLASSCARD_BONEWALKER] = &classcardBonewalker, // 0x133
+    [CLASSCARD_DRACOZOMBIE] = &classcardDracozombie, // 0x134
+    [CLASSCARD_GHOST] = &classcardGhost, // 0x135
+    [CLASSCARD_PHANTOM] = &classcardPhantom, // 0x136
+    [CLASSCARD_REVENANT] = &classcardRevenant, // 0x137
+    [CLASSCARD_WOLF] = &classcardWolf, // 0x138
+    [0x140] = &portraitFjormBG,
     [PORTRAIT_ID_DAGR_BG] = &portraitDagrBG,
     [PORTRAIT_ID_NOTT_BG] = &portraitNottBG,
 };
