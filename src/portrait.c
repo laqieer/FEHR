@@ -18,8 +18,8 @@
 #include "portrait_Sharon_mini.h"
 #include "portrait_Bruno_Masked_mini.h"
 #include "portrait_Bruno_Masked_tileset.h"
-#include "portrait_Xander_mini.h"
-#include "portrait_Xander_tileset.h"
+#include "portrait_Marks_mini.h"
+#include "portrait_Marks_tileset.h"
 #include "portrait_Veronica_Normal_mini.h"
 #include "portrait_Veronica_Normal_tileset.h"
 #include "portrait_Fjorm_mini.h"
@@ -967,7 +967,7 @@ const u16 portrait_Bruno_obj[] = {
         OBJ_Y(-8 + 32 * 2 - 8) | ATTR0_WIDE, OBJ_X(- (0 - 48) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(20),
         OBJ_Y(-8 + 32 * 2 - 8) | ATTR0_SQUARE, OBJ_X(- (64 - 48 + 16) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
-*/
+
 const u16 portrait_Xander_obj[] = {
         7,
         OBJ_Y(-16) | ATTR0_SQUARE, OBJ_X(32 - 56) | OBJ_SIZE(2), OBJ_CHAR(0),
@@ -986,7 +986,7 @@ const u16 portrait_Xander_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_SQUARE, OBJ_X(-(64 - 56) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(25),
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(96 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(29),
 };
-/*
+
 const u16 portrait_Veronica_obj[] = {
         6,
         OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(0 - 40) | OBJ_SIZE(3), OBJ_CHAR(0),
@@ -1411,7 +1411,7 @@ const u16 portrait_Bruno_bg[] = {
         0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32,
         0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
 };
-*/
+
 const u16 portrait_Xander_bg[] = {
         0x809,
         19 + 32, 20 + 32, 21 + 32, 22 + 32, 23 + 32, 24 + 32, 25 + 32, 26 + 32, 27 + 32, 28 + 32,
@@ -1424,7 +1424,7 @@ const u16 portrait_Xander_bg[] = {
         0, 0, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 0, 0, 0,
         0, 0, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 0, 0, 0,
 };
-/*
+
 const u16 portrait_Veronica_bg[] = {
         0x809,
         20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
@@ -1645,7 +1645,7 @@ const u16 portrait_Bruno_Masked_obj[] = {
 
 const u16 portrait_Bruno_Masked_bg[] = {
         0x809,
-         TILE_ID(20, 0), TILE_ID(21, 0), TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), TILE_ID(25, 0), TILE_ID(26, 0), TILE_ID(27, 0), TILE_ID(28, 0), TILE_ID(29, 0),
+        TILE_ID(20, 0), TILE_ID(21, 0), TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), TILE_ID(25, 0), TILE_ID(26, 0), TILE_ID(27, 0), TILE_ID(28, 0), TILE_ID(29, 0),
         0, TILE_ID(11, 3), TILE_ID(12, 3), TILE_ID(13, 3), TILE_ID(14, 3), TILE_ID(15, 3), TILE_ID(16, 3), TILE_ID(17, 3), TILE_ID(18, 3), TILE_ID(19, 3),
         0, TILE_ID(11, 2), TILE_ID(12, 2), TILE_ID(13, 2), TILE_ID(14, 2), TILE_ID(15, 2), TILE_ID(16, 2), TILE_ID(17, 2), TILE_ID(18, 2), TILE_ID(19, 2),
         0, TILE_ID(11, 1), TILE_ID(12, 1), TILE_ID(13, 1), TILE_ID(14, 1), TILE_ID(15, 1), TILE_ID(16, 1), TILE_ID(17, 1), TILE_ID(18, 1), TILE_ID(19, 1),
@@ -1659,11 +1659,58 @@ const u16 portrait_Bruno_Masked_bg[] = {
 #define portrait_Veronica_Normal_obj portrait_Veronica_Stain_obj
 #define portrait_Veronica_Normal_bg portrait_Veronica_Stain_bg
 
+#define portrait_Marks_width 120
+#define portrait_Marks_height 88
+#define portrait_Marks_block_num 13
+const u16 portrait_Marks_obj[] = {
+    portrait_Marks_block_num,
+    PORTRAIT_BLOCK_R(Marks, 32, 8, 40, 0, 0, 0),
+    PORTRAIT_BLOCK_R(Marks, 32, 16, 40, 8, 0, 1),
+    PORTRAIT_BLOCK_R(Marks, 8, 8, 24, 32, 0, 3),
+    PORTRAIT_BLOCK_R(Marks, 8, 8, 24, 40, 1, 3),
+    PORTRAIT_BLOCK_R(Marks, 16, 8, 16, 48, 2, 3),
+    PORTRAIT_BLOCK_R(Marks, 64, 32, 32, 24, 4, 0),
+    PORTRAIT_BLOCK_R(Marks, 8, 32, 96, 24, 12, 0),
+    PORTRAIT_BLOCK_R(Marks, 16, 16, 104, 40, 13, 2),
+    PORTRAIT_BLOCK_R(Marks, 16, 32, 120, 24, 15, 0),
+    PORTRAIT_BLOCK_R(Marks, 8, 8, 80, 16, 13, 0),
+    PORTRAIT_BLOCK_R(Marks, 8, 8, 136, 32, 14, 0),
+    PORTRAIT_BLOCK_R(Marks, 64, 32, 0, 56, 17, 0),
+    PORTRAIT_BLOCK_R(Marks, 64, 32, 56, 56, 24, 0),
+    portrait_Marks_block_num,
+    PORTRAIT_BLOCK(Marks, 32, 8, 40, 0, 0, 0),
+    PORTRAIT_BLOCK(Marks, 32, 16, 40, 8, 0, 1),
+    PORTRAIT_BLOCK(Marks, 8, 8, 24, 32, 0, 3),
+    PORTRAIT_BLOCK(Marks, 8, 8, 24, 40, 1, 3),
+    PORTRAIT_BLOCK(Marks, 16, 8, 16, 48, 2, 3),
+    PORTRAIT_BLOCK(Marks, 64, 32, 32, 24, 4, 0),
+    PORTRAIT_BLOCK(Marks, 8, 32, 96, 24, 12, 0),
+    PORTRAIT_BLOCK(Marks, 16, 16, 104, 40, 13, 2),
+    PORTRAIT_BLOCK(Marks, 16, 32, 120, 24, 15, 0),
+    PORTRAIT_BLOCK(Marks, 8, 8, 80, 16, 13, 0),
+    PORTRAIT_BLOCK(Marks, 8, 8, 136, 32, 14, 0),
+    PORTRAIT_BLOCK(Marks, 64, 32, 0, 56, 17, 0),
+    PORTRAIT_BLOCK(Marks, 64, 32, 56, 56, 24, 0),
+};
+
+const u16 portrait_Marks_bg[] = {
+        0x809,
+        TILE_ID(20, 1), TILE_ID(21, 1), TILE_ID(22, 1), TILE_ID(23, 1), TILE_ID(24, 1), TILE_ID(25, 1), TILE_ID(26, 1), TILE_ID(27, 1), TILE_ID(28, 1), TILE_ID(29, 1),
+        TILE_ID(20, 0), TILE_ID(21, 0), TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), TILE_ID(25, 0), TILE_ID(26, 0), TILE_ID(27, 0), TILE_ID(28, 0), TILE_ID(29, 0),
+        TILE_ID(3, 3), TILE_ID(4, 3), TILE_ID(5, 3), TILE_ID(6, 3), TILE_ID(7, 3), TILE_ID(8, 3), TILE_ID(9, 3), TILE_ID(10, 3), TILE_ID(11, 3), TILE_ID(12, 3),
+        TILE_ID(1, 3), TILE_ID(4, 2), TILE_ID(5, 2), TILE_ID(6, 2), TILE_ID(7, 2), TILE_ID(8, 2), TILE_ID(9, 2), TILE_ID(10, 2), TILE_ID(11, 2), TILE_ID(12, 2),
+        TILE_ID(0, 3), TILE_ID(4, 1), TILE_ID(5, 1), TILE_ID(6, 1), TILE_ID(7, 1), TILE_ID(8, 1), TILE_ID(9, 1), TILE_ID(10, 1), TILE_ID(11, 1), TILE_ID(12, 1),
+        12, TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), TILE_ID(8, 0), TILE_ID(9, 0), TILE_ID(10, 0), TILE_ID(11, 0), TILE_ID(12, 0),
+        12, 12, TILE_ID(0, 2), TILE_ID(1, 2), TILE_ID(2, 2), TILE_ID(3, 2), 12, TILE_ID(13, 0), 12, 12,
+        12, 12, TILE_ID(0, 1), TILE_ID(1, 1), TILE_ID(2, 1), TILE_ID(3, 1), 12, 12, 12, 12,
+        12, 12, TILE_ID(0, 0), TILE_ID(1, 0), TILE_ID(2, 0), TILE_ID(3, 0), 12, 12, 12, 12,
+};
+
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Alfons)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Anna)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Sharon)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno_Masked)
-DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Xander)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Marks)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica_Normal)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Surtr)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Loki)
@@ -1762,7 +1809,7 @@ const Portrait* const portraits[] = {
     [0x113] = &portraitSurtr,
     [0x114] = &portraitSrasir,
     [0x115] = &portraitYurg,
-    [0x116] = &portraitXander,
+    [0x116] = &portraitMarks,
     [0x117] = &portraitHell,
     [0x118] = &portraitFroda,
     [0x119] = &portraitGustaf,
