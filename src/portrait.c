@@ -20,8 +20,8 @@
 #include "portrait_Bruno_tileset.h"
 #include "portrait_Xander_mini.h"
 #include "portrait_Xander_tileset.h"
-#include "portrait_Veronica_mini.h"
-#include "portrait_Veronica_tileset.h"
+#include "portrait_Veronica_Normal_mini.h"
+#include "portrait_Veronica_Normal_tileset.h"
 #include "portrait_Fjorm_mini.h"
 #include "portrait_Fjorm_tileset.h"
 #include "portrait_Fjorm_bg_mini.h"
@@ -986,7 +986,7 @@ const u16 portrait_Xander_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_SQUARE, OBJ_X(-(64 - 56) - 32) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(25),
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(96 - 56) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(29),
 };
-
+/*
 const u16 portrait_Veronica_obj[] = {
         6,
         OBJ_Y(-16) | ATTR0_WIDE, OBJ_X(0 - 40) | OBJ_SIZE(3), OBJ_CHAR(0),
@@ -1003,7 +1003,7 @@ const u16 portrait_Veronica_obj[] = {
         OBJ_Y(-16 + 32 * 2) | ATTR0_WIDE, OBJ_X(-(0 - 40) - 64) | OBJ_SIZE(3) | OBJ_HFLIP, OBJ_CHAR(20),
         OBJ_Y(-16 + 32 * 2) | ATTR0_TALL, OBJ_X(-(64 - 40) - 16) | OBJ_SIZE(2) | OBJ_HFLIP, OBJ_CHAR(28),
 };
-
+*/
 #define portrait_Alfons_width 128
 #define portrait_Alfons_height 96
 const u16 portrait_Alfons_obj[] = {
@@ -1424,7 +1424,7 @@ const u16 portrait_Xander_bg[] = {
         0, 0, 0 + 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 0, 0, 0,
         0, 0, 0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 0, 0, 0,
 };
-
+/*
 const u16 portrait_Veronica_bg[] = {
         0x809,
         20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
@@ -1437,7 +1437,7 @@ const u16 portrait_Veronica_bg[] = {
         0 + 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 5 + 32, 6 + 32, 7 + 32, 8 + 32, 9 + 32,
         0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
 };
-
+*/
 const u16 portrait_Eitri_bg[] = {
         0x809,
         22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
@@ -1617,12 +1617,15 @@ const u16 portrait_Sharon_bg[] = {
         TILE_ID(0, 0), TILE_ID(1, 0), TILE_ID(2, 0), TILE_ID(3, 0), TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), 0, 0,
 };
 
+#define portrait_Veronica_Normal_obj portrait_Veronica_Stain_obj
+#define portrait_Veronica_Normal_bg portrait_Veronica_Stain_bg
+
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Alfons)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Anna)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Sharon)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Bruno)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Xander)
-DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica_Normal)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Surtr)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Loki)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Cerise)
@@ -1705,7 +1708,7 @@ const Portrait* const portraits[] = {
     [0x102] = &portraitSharon,
     [0x103] = &portraitAnna,
     [0x104] = &portraitBruno,
-    [0x105] = &portraitVeronica,
+    [0x105] = &portraitVeronica_Normal,
     [0x107] = &portraitEir,
     [0x109] = &portraitFjorm,
     [0x10A] = &portraitCerise,
