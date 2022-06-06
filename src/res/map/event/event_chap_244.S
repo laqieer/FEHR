@@ -94,7 +94,7 @@ EnemyUnitsTurn2:
 	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,6,0,6,0,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
 	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,13,19,13,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
 	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,1,19,1,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(GenericSummonedStrong,Bishop_F,0,30,SIDE_ENEMY,1,4,0,4,0,Aura,Fortify,0,0,HealAllies,DontMove,NoRecovery,DefaultAI4) // レ�?
+	UNIT(GenericSummonedStrong,Bishop_F,0,30,SIDE_ENEMY,1,4,0,4,0,Aura,Fortify,0,0,HealAllies,DontMove,NoRecovery,DefaultAI4) // レナ
 	END_UNIT
 LoadEnemyUnitsTurn3:
 	LOU1 EnemyUnitsTurn3
