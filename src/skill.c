@@ -5516,6 +5516,34 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleSpeed += 7;
             }
             break;
+        case PASSIVE_SKILL_A_ATK_SPD_SOLO_1:
+            if(!isAdjacentToAnyCompanion(&attacker->unit))
+            {
+                attacker->battleAttack += 2;
+                attacker->battleSpeed += 2;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_SOLO_2:
+            if(!isAdjacentToAnyCompanion(&attacker->unit))
+            {
+                attacker->battleAttack += 4;
+                attacker->battleSpeed += 4;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_SOLO_3:
+            if(!isAdjacentToAnyCompanion(&attacker->unit))
+            {
+                attacker->battleAttack += 6;
+                attacker->battleSpeed += 6;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_SOLO_4:
+            if(!isAdjacentToAnyCompanion(&attacker->unit))
+            {
+                attacker->battleAttack += 7;
+                attacker->battleSpeed += 7;
+            }
+            break;
         default:
             break;
     }
@@ -7036,6 +7064,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"悪夢の女王２", "ターン開始時、全ての敵の守備、魔防ー２", "Queen of Nightmare 2", "At start of turn, foe's Def/Res-2."},
     {"悪夢の女王３", "ターン開始時、全ての敵の守備、魔防ー２、攻撃、速さー１", "Queen of Nightmare 3", "At start of turn, foe's Def/Res-2, Atk/Spd-1."},
     {"悪夢の女王４", "ターン開始時、全ての敵の攻撃、速さ、守備、魔防ー２", "Queen of Nightmare 4", "At start of turn, foe's Atk/Spd/Def/Res-2."},
+    {"攻撃速さの孤軍１", "周囲１マス以内に味方がいない時、戦闘中、攻撃、速さ＋２", "Atk/Spd Solo 1", "If unit is not adjacent to an ally, grants Atk/Spd+2 during combat."},
+    {"攻撃速さの孤軍２", "周囲１マス以内に味方がいない時、戦闘中、攻撃、速さ＋４", "Atk/Spd Solo 2", "If unit is not adjacent to an ally, grants Atk/Spd+4 during combat."},
+    {"攻撃速さの孤軍３", "周囲１マス以内に味方がいない時、戦闘中、攻撃、速さ＋６", "Atk/Spd Solo 3", "If unit is not adjacent to an ally, grants Atk/Spd+6 during combat."},
+    {"攻撃速さの孤軍４", "周囲１マス以内に味方がいない時、戦闘中、攻撃、速さ＋７", "Atk/Spd Solo 4", "If unit is not adjacent to an ally, grants Atk/Spd+7 during combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -7060,7 +7092,8 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_SCABIOSA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_SORROW_1, PASSIVE_SKILL_A_FLOWER_OF_SORROW_2, PASSIVE_SKILL_A_FLOWER_OF_SORROW_3, PASSIVE_SKILL_A_FLOWER_OF_SORROW_4},
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_A_FLOWER_OF_PLENTY_1, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_2, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_3, PASSIVE_SKILL_A_FLOWER_OF_PLENTY_4},
     [CHARACTER_MIRABILIS_ID] = {PASSIVE_SKILL_A_FLOWER_OF_EASE_1, PASSIVE_SKILL_A_FLOWER_OF_EASE_2, PASSIVE_SKILL_A_FLOWER_OF_EASE_3, PASSIVE_SKILL_A_FLOWER_OF_EASE_4},
-    [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_NIGHTMARE_QUEEN_1, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_2, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_3, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_4},
+    //[CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_NIGHTMARE_QUEEN_1, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_2, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_3, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_4},
+    [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_ATK_SPD_SOLO_1, PASSIVE_SKILL_A_ATK_SPD_SOLO_2, PASSIVE_SKILL_A_ATK_SPD_SOLO_3, PASSIVE_SKILL_A_ATK_SPD_SOLO_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
