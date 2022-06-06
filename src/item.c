@@ -14,6 +14,8 @@ const int sizeofItem = sizeof(struct Item);
 
 const struct EquipBuff DivineDragonstoneBuff = {0, 10, 10, 0, 10, 20, 0, 0, 0};
 
+const struct EquipBuff NightmareFangBuff = {0, 0, 0, 3, 0, 0, 0, 0, 0};
+
 const struct Item items[] = {
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x00 None
 
@@ -372,6 +374,8 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_HARDY_BEARING, TEXT_ITEM_HELP_HARDY_BEARING, TEXT_ITEM_CANNOT_USE, 0xb1, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB1 Sacred Seal: Hardy Bearing
 
 {TEXT_ITEM_NAME_ARMORED_BOOTS, TEXT_ITEM_HELP_ARMORED_BOOTS, TEXT_ITEM_CANNOT_USE, 0xb2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB2 Sacred Seal: Armored Boots
+
+{TEXT_ITEM_NAME_NIGHTMARE_FANG, TEXT_ITEM_HELP_NIGHTMARE_FANG, 0, 0xb3, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &NightmareFangBuff, 0, 0, 14, 90, 10, 0, 1, 1, 0, 0, ITEM_ICON_NIGHTMARE_FANG, 0, 0, 0} ,  // 0xB3 Nightmare Fang
 };
 
 const struct Item * const pItems1 = items;

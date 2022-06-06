@@ -68,9 +68,9 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Lif,Bonewalker,Anna,9,9,9,9)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,5,0,5,0,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,0,19,0,19,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,14,19,14,19,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,5,0,5,0,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,0,19,0,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,14,19,14,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
 	UNIT(GenericSummonedStrong,FalcoKnight,0,30,SIDE_ENEMY,1,0,4,0,4,RexHasta,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // クリス女
 	UNIT(GenericSummonedStrong,SwordGreatLord,0,30,SIDE_ENEMY,1,3,16,3,16,LightBrand,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // クリス男
 	END_UNIT
@@ -81,9 +81,9 @@ LoadEnemyUnitsTurn1:
 	ENUN
 	ENDA
 EnemyUnitsTurn1:
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,0,0,0,0,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,14,0,14,0,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,6,19,6,19,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,0,0,0,0,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,14,0,14,0,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,6,19,6,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
 	UNIT(GenericSummonedStrong,Bishop_F,0,30,SIDE_ENEMY,1,12,19,12,19,Luna,Fortify,0,0,HealAllies,DontMove,NoRecovery,DefaultAI4) // エレミヤ
 	END_UNIT
 LoadEnemyUnitsTurn2:
@@ -91,10 +91,10 @@ LoadEnemyUnitsTurn2:
 	ENUN
 	ENDA
 EnemyUnitsTurn2:
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,6,0,6,0,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,13,19,13,19,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,1,19,1,19,HellFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(GenericSummonedStrong,Bishop_F,0,30,SIDE_ENEMY,1,4,0,4,0,Aura,Fortify,0,0,HealAllies,DontMove,NoRecovery,DefaultAI4) // レナ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,6,0,6,0,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,13,19,13,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,1,19,1,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
+	UNIT(GenericSummonedStrong,Bishop_F,0,30,SIDE_ENEMY,1,4,0,4,0,Aura,Fortify,0,0,HealAllies,DontMove,NoRecovery,DefaultAI4) // レ�?
 	END_UNIT
 LoadEnemyUnitsTurn3:
 	LOU1 EnemyUnitsTurn3

@@ -2256,6 +2256,10 @@ const char* const texts[] = {
 
        [TEXT_ITEM_HELP_HELL_FANG] = "長く鋭い牙",
 
+       [TEXT_ITEM_NAME_NIGHTMARE_FANG] = "悪夢の牙",
+
+       [TEXT_ITEM_HELP_NIGHTMARE_FANG] = "悪夢の女王の鋭い牙　速さ＋３",
+
        [TEXT_CHARACTER_NAME_GENERIC_ELF] = "エルフ兵",
 
        [TEXT_CHARACTER_HELP_GENERIC_ELF] = "悪夢の国スヴァルトアルフの兵士",
