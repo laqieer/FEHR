@@ -71,7 +71,7 @@ EnemyUnitsENM:
 	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,5,0,5,0,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
 	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,0,19,0,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
 	UNIT(Freyja,Wolf,0,30,SIDE_ENEMY,1,14,19,14,19,NightmareFang,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // フレイヤ
-	UNIT(GenericSummonedStrong,FalcoKnight,0,30,SIDE_ENEMY,1,0,4,0,4,RexHasta,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // クリス女
+	UNIT(GenericSummonedStrong,LanceGreatLord,0,30,SIDE_ENEMY,1,0,4,0,4,RexHasta,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // クリス女
 	UNIT(GenericSummonedStrong,SwordGreatLord,0,30,SIDE_ENEMY,1,3,16,3,16,LightBrand,None,0,0,AttackInRange,DontMove,NoRecovery,DefaultAI4) // クリス男
 	END_UNIT
 NPCUnits:
