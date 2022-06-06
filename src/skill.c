@@ -3814,6 +3814,32 @@ void makeP4Panic(struct Unit *unit)
     makeUnitPanicBySide(unit, P4Side);
 }
 
+void decreaseUnitSkillCDBy1BySide(struct Unit *unit, int side)
+{
+    if(isUnitAlive(unit) && unit->side == side)
+        decreaseUnitSkillCD(unit, 1);
+}
+
+void decreasePlayerSkillCDBy1(struct Unit *unit)
+{
+    decreaseUnitSkillCDBy1BySide(unit, PlayerSide);
+}
+
+void decreaseEnemySkillCDBy1(struct Unit *unit)
+{
+    decreaseUnitSkillCDBy1BySide(unit, EnemySide);
+}
+
+void decreaseNPCSkillCDBy1(struct Unit *unit)
+{
+    decreaseUnitSkillCDBy1BySide(unit, NPCSide);
+}
+
+void decreaseP4SkillCDBy1(struct Unit *unit)
+{
+    decreaseUnitSkillCDBy1BySide(unit, P4Side);
+}
+
 void PassiveSkillCEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
     switch(getUnitPassiveSkillC(&gBattleActor.unit))
@@ -4017,6 +4043,64 @@ void PassiveSkillCEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
             }
             break;
 
+        case PASSIVE_SKILL_C_PULSE_SMOKE_1:
+            decreaseUnitSkillCD(&gBattleTarget.unit, 1);
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn1Space(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreasePlayerSkillCDBy1);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn1Space(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseEnemySkillCDBy1);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn1Space(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseNPCSkillCDBy1);
+                    break;
+                default:
+                    ForEachUnitIn1Space(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseP4SkillCDBy1);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_PULSE_SMOKE_2:
+        case PASSIVE_SKILL_C_PULSE_SMOKE_3:
+            decreaseUnitSkillCD(&gBattleTarget.unit, 1);
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreasePlayerSkillCDBy1);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseEnemySkillCDBy1);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseNPCSkillCDBy1);
+                    break;
+                default:
+                    ForEachUnitIn2Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseP4SkillCDBy1);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_PULSE_SMOKE_4:
+            decreaseUnitSkillCD(&gBattleTarget.unit, 1);
+            switch(gBattleTarget.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn3Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreasePlayerSkillCDBy1);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn3Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseEnemySkillCDBy1);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn3Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseNPCSkillCDBy1);
+                    break;
+                default:
+                    ForEachUnitIn3Spaces(gBattleTarget.unit.positionX, gBattleTarget.unit.positionY, decreaseP4SkillCDBy1);
+                    break;
+            }
+            break;
+
         default:
             break;
     }
@@ -4127,6 +4211,44 @@ void PassiveSkillCEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
                     break;
                 default:
                     ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, makeP4Panic);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_PULSE_SMOKE_3:
+            decreaseUnitSkillCD(&gBattleActor.unit, 1);
+            switch(gBattleActor.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn2Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, decreasePlayerSkillCDBy1);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn2Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, decreaseEnemySkillCDBy1);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn2Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, decreaseNPCSkillCDBy1);
+                    break;
+                default:
+                    ForEachUnitIn2Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, decreaseP4SkillCDBy1);
+                    break;
+            }
+            break;
+
+        case PASSIVE_SKILL_C_PULSE_SMOKE_4:
+            decreaseUnitSkillCD(&gBattleActor.unit, 1);
+            switch(gBattleActor.unit.side)
+            {
+                case PlayerSide:
+                    ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, decreasePlayerSkillCDBy1);
+                    break;
+                case EnemySide:
+                    ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, decreaseEnemySkillCDBy1);
+                    break;
+                case NPCSide:
+                    ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, decreaseNPCSkillCDBy1);
+                    break;
+                default:
+                    ForEachUnitIn3Spaces(gBattleActor.unit.positionX, gBattleActor.unit.positionY, decreaseP4SkillCDBy1);
                     break;
             }
             break;
@@ -7342,6 +7464,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"守備魔防大開放２", "ターン開始時、最も守備＋魔防の合計値が高い味方の守備、魔防＋３（１ターン）", "Def/Res Gap 2", "At start of turn, grants Def/Res+3 to ally with the highest Def+Res total for 1 turn."},
     {"守備魔防大開放３", "ターン開始時、最も守備＋魔防の合計値が高い味方の守備、魔防＋５（１ターン）", "Def/Res Gap 3", "At start of turn, grants Def/Res+5 to ally with the highest Def+Res total for 1 turn."},
     {"守備魔防大開放４", "ターン開始時、最も守備＋魔防の合計値が高い味方の守備、魔防＋７（１ターン）", "Def/Res Gap 4", "At start of turn, grants Def/Res+7 to ally with the highest Def+Res total for 1 turn."},
+    {"こ動のげんえん１", "自分から攻撃した時、戦闘後、敵とその周囲１マスの敵の奥義発動カウントー１", "Pulse Smoke 1", "If unit initiates combat, inflicts Special cooldown count-1 on target and foes within 1 space of target after combat. (No effect on Special cooldown counts already at 0.)"},
+    {"こ動のげんえん２", "自分から攻撃した時、戦闘後、敵とその周囲２マスの敵の奥義発動カウントー１", "Pulse Smoke 2", "If unit initiates combat, inflicts Special cooldown count-1 on target and foes within 2 space of target after combat. (No effect on Special cooldown counts already at 0.)"},
+    {"こ動のげんえん３", "戦闘後、敵とその周囲２マスの敵の奥義発動カウントー１", "Pulse Smoke 3", "Inflicts Special cooldown count-1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at 0.)"},
+    {"こ動のげんえん４", "戦闘後、敵とその周囲３マスの敵の奥義発動カウントー１", "Pulse Smoke 4", "Inflicts Special cooldown count-1 on target and foes within 3 spaces of target after combat. (No effect on Special cooldown counts already at 0.)"},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -7365,6 +7491,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH, PASSIVE_SKILL_C_INEVITABLE_DEATH},
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_C_FORTIFY_RES_1, PASSIVE_SKILL_C_FORTIFY_RES_2, PASSIVE_SKILL_C_FORTIFY_RES_3, PASSIVE_SKILL_C_FORTIFY_RES_4},
     [CHARACTER_MIRABILIS_ID] = {PASSIVE_SKILL_C_DEF_RES_GAP_1, PASSIVE_SKILL_C_DEF_RES_GAP_2, PASSIVE_SKILL_C_DEF_RES_GAP_3, PASSIVE_SKILL_C_DEF_RES_GAP_4},
+    [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_C_PULSE_SMOKE_1, PASSIVE_SKILL_C_PULSE_SMOKE_2, PASSIVE_SKILL_C_PULSE_SMOKE_3, PASSIVE_SKILL_C_PULSE_SMOKE_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
