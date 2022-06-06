@@ -2568,6 +2568,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_HELL_ID] = SPECIAL_SKILL_GLIMMER,
         [CHARACTER_GUSTAF_ID] = SPECIAL_SKILL_SOL,
         [CHARACTER_HELL_ID] = SPECIAL_SKILL_MIRACLE,
+        [CHARACTER_FREYJA_ID] = SPECIAL_SKILL_LUNA,
 };
 
 const u16 jobSpecialSkills[0x100] = {
