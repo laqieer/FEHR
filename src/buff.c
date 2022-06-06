@@ -1194,6 +1194,18 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                         default:
                             break;
                     }
+
+                    switch(getUnitPassiveSkillS(&skillUnits[i]))
+                    {
+                        case PASSIVE_SKILL_S_NIGHTMARE:
+                            addUnitDebuffDefense(&targetUnits[j], -2);
+                            addUnitDebuffResistance(&targetUnits[j], -2);
+                            addUnitDebuffPower(&targetUnits[j], -2);
+                            addUnitDebuffSpeed(&targetUnits[j], -2);
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
         }
