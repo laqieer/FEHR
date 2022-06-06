@@ -5549,6 +5549,23 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             break;
     }
 
+    switch (getUnitPassiveSkillB(&attacker->unit))
+    {
+        case PASSIVE_SKILL_B_BINDING_NECKLACE:
+            if(!isAdjacentToAnyCompanion(&attacker->unit))
+            {
+                attacker->battleAttack += 2 + getUnitTotalBuffPower(&defender->unit) > 0 ? getUnitTotalBuffPower(&defender->unit) : 0;
+                attacker->battleSpeed += 2 + getUnitTotalBuffSpeed(&defender->unit) > 0 ? getUnitTotalBuffSpeed(&defender->unit) : 0;
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 2 + getUnitTotalBuffResistance(&defender->unit) > 0 ? getUnitTotalBuffResistance(&defender->unit) : 0;
+                else
+                    attacker->battleDefense += 2 + getUnitTotalBuffDefense(&defender->unit) > 0 ? getUnitTotalBuffDefense(&defender->unit) : 0;
+            }
+            break;
+        default:
+            break;
+    }
+
     switch (getUnitPassiveSkillB(&defender->unit))
     {
         case PASSIVE_SKILL_B_GUARD_4:
@@ -5569,6 +5586,17 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleSpeed -= 5;
                 if(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC))
                     attacker->battleDefense -= 5;
+            }
+            break;
+        case PASSIVE_SKILL_B_BINDING_NECKLACE:
+            if(!isAdjacentToAnyCompanion(&defender->unit))
+            {
+                attacker->battleAttack -= 2 + getUnitTotalBuffPower(&attacker->unit) > 0 ? getUnitTotalBuffPower(&attacker->unit) : 0;
+                attacker->battleSpeed -= 2 + getUnitTotalBuffSpeed(&attacker->unit) > 0 ? getUnitTotalBuffSpeed(&attacker->unit) : 0;
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense -= 2 + getUnitTotalBuffResistance(&attacker->unit) > 0 ? getUnitTotalBuffResistance(&attacker->unit) : 0;
+                else
+                    attacker->battleDefense -= 2 + getUnitTotalBuffDefense(&attacker->unit) > 0 ? getUnitTotalBuffDefense(&attacker->unit) : 0;
             }
             break;
         default:
@@ -7186,6 +7214,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"守備の混乱２", "ターン開始時、敵同士が隣接していて、かつ、魔防が自分より３以上低い敵の守備ー５", "Sabotage Def 2", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Def-5 on that foe through its next action."},
     {"守備の混乱３", "ターン開始時、敵同士が隣接していて、かつ、魔防が自分より３以上低い敵の守備ー７", "Sabotage Def 3", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Def-7 on that foe through its next action."},
     {"守備の混乱４", "ターン開始時、敵同士が隣接していて、かつ、魔防が自分より１以上低い敵の守備ー７", "Sabotage Def 4", "At start of turn, if any foe's Res <= unit's Res-1 and that foe is adjacent to another foe, inflicts Def-7 on that foe through its next action."},
+    {"束ばくの首かざり", "周囲１マス以内に味方がいない時、戦闘中、攻撃、速さ、守備、魔防＋２、敵の－２、かつ、自身のが敵の強化値だけ上昇し、敵のが減少", "Binding Necklace", "If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+2 to unit and inflicts Atk/Spd/Def/Res-2 on foe during combat, and also, if foe has bonuses, grants bonus to unit's Atk/Spd/Def/Res and inflicts penalty on foe's Atk/Spd/Def/Res during combat=current bonus on each of foe's stats. Calculates each stat bonus independently."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -7207,6 +7236,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_HELL_ID] = {PASSIVE_SKILL_B_GUARD_BEARING_1, PASSIVE_SKILL_B_GUARD_BEARING_2, PASSIVE_SKILL_B_GUARD_BEARING_3, PASSIVE_SKILL_B_GUARD_BEARING_4},
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_B_AEROBATICS_1, PASSIVE_SKILL_B_AEROBATICS_2, PASSIVE_SKILL_B_AEROBATICS_3, PASSIVE_SKILL_B_AEROBATICS_4},
     [CHARACTER_MIRABILIS_ID]= {PASSIVE_SKILL_B_SABOTAGE_DEF_1, PASSIVE_SKILL_B_SABOTAGE_DEF_2, PASSIVE_SKILL_B_SABOTAGE_DEF_3, PASSIVE_SKILL_B_SABOTAGE_DEF_4},
+    [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
