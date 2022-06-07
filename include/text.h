@@ -58,6 +58,7 @@
 #define TCC_CLOSE_EYES_HALF "\x80\x1e"
 #define TCC_WINK "\x80\x1f"
 #define TCC_TACTICIAN_NAME "\x80\x20"
+#define TCC_SUMMONER_NAME TCC_TACTICIAN_NAME
 #define TCC_TOGGLE_RED "\x80\x21"
 #define TCC_ITEM_NAME "\x80\x22"
 #define TCC_SET_NAME "\x80\x23"

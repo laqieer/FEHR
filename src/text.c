@@ -26,6 +26,74 @@ const char* const texts[] = {
         // Tutorial Lyn's character description
         //[0x01B4] = "キアラン公女、本名はリンディス。草原で一人、生きてきた過去を持つ、気丈でさっぱりとした性格。",
 
+        // Summoner's default name
+        [0x569] = "エクラ", // seems useless?
+        [0x79D] = "エクラ", // default name for profile setting
+
+        // Guide for profile setting
+        [0x79E] = //"あなたはエレブ大陸を旅する" TCC_NEWLINE
+                    //"見習いの軍師です。" TCC_PUSH_A TCC_NEWLINE2
+                    "歴戦の英雄たちの" TCC_NEWLINE
+                    "力を借り得る「召喚師」として" TCC_PUSH_A TCC_NEWLINE
+                    "特別な力を持つあなたは、" TCC_NEWLINE
+                    "滅亡の危機にひんする" TCC_PUSH_A TCC_NEWLINE
+                    "アスク王国を救うため、" TCC_NEWLINE
+                    "特務機関「ヴァイス・ブレイヴ」" TCC_PUSH_A TCC_NEWLINE
+                    "の一員となり、" TCC_NEWLINE
+                    "果てない戦いに挑みます。"  TCC_PUSH_A TCC_NEWLINE
+                    "最初に"TCC_TOGGLE_RED"名前"TCC_TOGGLE_RED"と" TCC_NEWLINE
+                    TCC_TOGGLE_RED"血液型"TCC_TOGGLE_RED"、"TCC_TOGGLE_RED"生まれ月"TCC_TOGGLE_RED"、"TCC_TOGGLE_RED"性別"TCC_TOGGLE_RED TCC_NEWLINE
+                    "を設定することができます。" TCC_PUSH_A TCC_NEWLINE2
+                    "十\字ボタンとＡボタンを使って" TCC_NEWLINE
+                    "項目ごとに設定してください。" TCC_PUSH_A TCC_NEWLINE2
+                    "入力が面倒な方は、" TCC_NEWLINE
+                    "「いいえ」を選んでください。" TCC_PUSH_A TCC_NEWLINE
+                    "デフォルトの設定で" TCC_NEWLINE
+                    "ゲームがスタートします。" TCC_PUSH_A TCC_NEWLINE
+                    "ちなみにマイ召喚師は序章ではなく、" TCC_NEWLINE
+                    "２４４章後の破章から参戦してきます。" TCC_NEWLINE
+                    "その時の"TCC_TOGGLE_RED"外見"TCC_TOGGLE_RED"や"TCC_TOGGLE_RED"能\力"TCC_TOGGLE_RED"を決めます！" TCC_PUSH_A TCC_NEWLINE,
+        
+        // Tactician -> Summoner
+        /*
+        [0x305] = "軍師"TCC_TACTICIAN_NAME"が記した書物" TCC_NEWLINE
+                    "持っていると戦いが有利になります",
+        [0x30F] = "軍師"TCC_TACTICIAN_NAME"の剣",
+        [0x310] = "軍師"TCC_TACTICIAN_NAME"の槍",
+        [0x311] = "軍師"TCC_TACTICIAN_NAME"の斧",
+        [0x312] = "軍師"TCC_TACTICIAN_NAME"の斧",
+        [0x380] = "軍師自身のことを" TCC_NEWLINE
+                    "占ってくれます",
+        [0x3E4] = "軍師の名前です",
+        [0x3E5] = "軍師の血液型です",
+        [0x3E6] = "軍師の生まれた月です",
+        [0x3E7] = "軍師の性別です",
+        [0x552] = "軍師",
+        [0x7A0] = "軍師の設定は" TCC_NEWLINE
+                    "これでよろしいですか？" TCC_NEWLINE
+                    TCC_YES,
+        [0x7A1] = "軍師を参加させますか？" TCC_NEWLINE2
+                    TCC_YES,
+        */
+        [0x305] = "召喚師"TCC_SUMMONER_NAME"が記した書物" TCC_NEWLINE
+                    "持っていると戦いが有利になります",
+        [0x30F] = "召喚師"TCC_SUMMONER_NAME"の剣",
+        [0x310] = "召喚師"TCC_SUMMONER_NAME"の槍",
+        [0x311] = "召喚師"TCC_SUMMONER_NAME"の斧",
+        [0x312] = "召喚師"TCC_SUMMONER_NAME"の斧",
+        [0x380] = "召喚師自身のことを" TCC_NEWLINE
+                    "占ってくれます",
+        [0x3E4] = "召喚師の名前です",
+        [0x3E5] = "召喚師の血液型です",
+        [0x3E6] = "召喚師の生まれた月です",
+        [0x3E7] = "召喚師の性別です",
+        [0x552] = "召喚師",
+        [0x7A0] = "召喚師の設定は" TCC_NEWLINE
+                    "これでよろしいですか？" TCC_NEWLINE
+                    TCC_YES,
+        [0x7A1] = "召喚師を参加させますか？" TCC_NEWLINE2
+                    TCC_YES,
+
         // character GenericSoldierEmblianSuperWeak name
         [0x557] = "エンブラ兵",
 
