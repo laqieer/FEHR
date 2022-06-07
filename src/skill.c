@@ -3102,7 +3102,7 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
     Debugf("defender's special skill: %d %s %d/%d", specialSkillId, specialSkills[specialSkillId].name_en, getUnitSkillCD(&defender->unit), getUnitSkillCDMax(&defender->unit));
     // if defender has effective special skill when defending & skill CD completed & (skill has no condition or condition satisfied)
     if(specialSkillId && specialSkills[specialSkillId].effectWhenDefend && isSkillCDFull(&defender->unit) &&
-        (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(defender, defender)))
+        (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
     {
         (*(specialSkills[specialSkillId].effectWhenDefend))(attacker, defender);
 
