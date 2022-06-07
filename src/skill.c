@@ -7538,7 +7538,7 @@ const struct PassiveSkill passiveSkillSs[] = {
     {"連撃防御・魔道", "魔法の敵から連続して攻撃を受けた時、２回目以降のダメージを８割軽減", "Deflect Magic", "If unit receives consecutive attacks and foe uses magic, reduces damage from foe's second attack onward by 80%."},
     {"不動の姿勢", "自身と敵の戦闘順入替スキル（待ち伏せ、攻め立て等）無効", "Hardy Bearing", "Disables unit's and foe's skills that change attack priority."},
     {"重装のブーツ", "ターン開始時、自身のＨＰが１００パーセントなら、移動＋１（１ターン、重複しない）", "Armored Boots", "At start of turn, if unit's HP = 100%, unit can move 1 extra space. (That turn only. Does not stack.)"},
-    {"悪夢", "ターン開始時、全ての敵の攻撃、速さ、守備、魔防ー２", "Nightmare", "At start of turn, foe's Atk/Spd/Def/Res-2."},
+    {"無限の悪夢", "ターン開始時、全ての敵の攻撃、速さ、守備、魔防ー２", "Infinite Nightmare", "At start of turn, foe's Atk/Spd/Def/Res-2."},
 };
 
 const u16 itemPassiveSkillSs[0x100] = {
