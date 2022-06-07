@@ -52,7 +52,7 @@ const char* const texts[] = {
                     "ゲームがスタートします。" TCC_PUSH_A TCC_NEWLINE
                     "ちなみにマイ召喚師は序章ではなく、" TCC_NEWLINE
                     "２４４章後の破章から参戦してきます。" TCC_NEWLINE
-                    "その時の"TCC_TOGGLE_RED"外見"TCC_TOGGLE_RED"や"TCC_TOGGLE_RED"能\力"TCC_TOGGLE_RED"を決めます！" TCC_PUSH_A TCC_NEWLINE,
+                    "その時の"TCC_TOGGLE_RED"外見"TCC_TOGGLE_RED"と"TCC_TOGGLE_RED"属性"TCC_TOGGLE_RED"は変わります。" TCC_PUSH_A TCC_NEWLINE,
         
         // Tactician -> Summoner
         /*
