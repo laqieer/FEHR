@@ -262,6 +262,14 @@ const struct JobBattleAnimationConf AnnaAnimationConf[] = {
     JobBattleAnimationConfEnd
 };
 
+const struct JobBattleAnimationConf SummonerAnimationConf[] = {
+    {Disarmed, 1, 0x69},
+    {AnimaMagic, 1, 0x69},
+    {LightMagic, 1, 0x69},
+    {DarkMagic, 1, 0x69},
+    JobBattleAnimationConfEnd
+};
+
 const struct Job jobs[] = {
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 86, 5, 0, 0, -3, 57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x00 None
 
@@ -493,6 +501,8 @@ const struct Job jobs[] = {
 
 {1192, 599, 111, 98, 17, 1, 195, 14, 21, 8, 4, 3, 13, 3, 15, 5, 60, 29, 27, 24, 30, 25, 20, 3, 75, 30, 20, 10, 23, 25, 20, 4, 2, 2, 3, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, GeneralMagicAnimationConf, 147139606, 147140711, 147141751, 147142661, 147142726, 147142791, 0} ,  // 0x6F Magic General
 
+{TEXT_JOB_NAME_SUMMONER, TEXT_JOB_HELP_SUMMONER, JOB_ID_SUMMONER, JOB_ID_SUMMONER, 30, 0, 202, 14, 20, 5, 4, 4, 5, 5, 7, 6, 60, 28, 30, 26, 21, 25, 20, 3, 45, 45, 30, 25, 10, 40, 15, 4, 1, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, SummonerAnimationConf, 147139996, 147141101, 147142141, 147142661, 147142726, 147142791, 0} ,  // 0x70 Summoner
+
 };
 
 const struct Job * const pJobs1 = jobs;
@@ -504,7 +514,7 @@ const u8 JobListArmour[] = {0x14, 0x16, 0x15, 0x17, 9, JOB_ID_MAGIC_ARMOUR, JOB_
 const u8 JobListKnight[] = {0x2E, 0x2F, 0x30, 0x31, 0x2C, 0x2D, 0x28, 0x29, 0x2A, 0x2B, 7, JOB_ID_MAGE_KNIGHT, 0};
 const u8 JobListArmourAndKnight[] = {0x14, 0x16, 0x15, 0x17, 9, JOB_ID_MAGIC_ARMOUR, 0x2E, 0x2F, 0x30, 0x31, 0x2C, 0x2D, 0x28, 0x29, 0x2A, 0x2B, 7, JOB_ID_MAGE_KNIGHT, JOB_ID_MAGIC_GENERAL, 0};
 const u8 JobListFlier[] = {0x32, 0x33, 0x34, 0x35, 0x36, 0x37, JOB_ID_MAGIC_FALCON, JOB_ID_UNDEAD_MANAKETE, JOB_ID_DIVINE_DRAGON, 0};
-const u8 JobListInfantry[] = {1, 2, 3, 4, 5, 6, 8, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10, 0x11, 0x12, 0x13, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f, 0x20, 0x21, 0x22, 0x23, 0x24, 0x25, 0x26, 0x27, 0x38, 0x39, 0x3a, 0x3b, 0x3c, 0x3d, 0x3e, 0x3f, 0x40, 0x41, 0x42, 0x43, 0x45, 0x47, 0x48, 0x49, 0x4a, 0x4b, 0x4c, 0x4d, 0x4e, 0x4f, 0x51, 0x52, 0x53, 0x54, 0x56, 0x57, 0x58, 0x5a, 0x65, JOB_ID_BONEWALKER, JOB_ID_BONEWALKER_BOW, JOB_ID_PHANTOM, JOB_ID_REVENANT, JOB_ID_SKELEMONK, JOB_ID_WOLF, 0};
+const u8 JobListInfantry[] = {1, 2, 3, 4, 5, 6, 8, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10, 0x11, 0x12, 0x13, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f, 0x20, 0x21, 0x22, 0x23, 0x24, 0x25, 0x26, 0x27, 0x38, 0x39, 0x3a, 0x3b, 0x3c, 0x3d, 0x3e, 0x3f, 0x40, 0x41, 0x42, 0x43, 0x45, 0x47, 0x48, 0x49, 0x4a, 0x4b, 0x4c, 0x4d, 0x4e, 0x4f, 0x51, 0x52, 0x53, 0x54, 0x56, 0x57, 0x58, 0x5a, 0x65, JOB_ID_BONEWALKER, JOB_ID_BONEWALKER_BOW, JOB_ID_PHANTOM, JOB_ID_REVENANT, JOB_ID_SKELEMONK, JOB_ID_WOLF, JOB_ID_SUMMONER, 0};
 const u8 JobListUndead[] = {JOB_ID_BONEWALKER, JOB_ID_BONEWALKER_BOW, JOB_ID_GHOST_FIRE, JOB_ID_PHANTOM, JOB_ID_REVENANT, JOB_ID_SKELEMONK, JOB_ID_UNDEAD_MANAKETE, 0};
 
 //const u8 * const pJobListFlier = JobListFlier; // For flying effectiveness negation checking in function IsItemEffectiveAgainst

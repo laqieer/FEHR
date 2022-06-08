@@ -64,6 +64,8 @@
 #define TCC_SET_NAME "\x80\x23"
 #define TCC_TOGGLE_COLOR_INVERT "\x80\x25"
 
+extern char gTacticianName[];
+
 // max line width
 #define TEXT_LINE_WIDTH_MAX 185
 #define SKILL_HELP_WIDTH_MAX 169

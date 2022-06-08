@@ -52,7 +52,7 @@ EndingScene:
 	MNCH 246
 	ENDA
 AllyUnitsENM:
-	UNIT(Gustaf,Paladin,Anna,1,SIDE_ALLY,1,0,11,0,11,IronAxe,0,0,0,0,0,0,0)
+	UNIT(MyUnit,Summoner,Anna,1,SIDE_ALLY,1,0,11,0,11,Fire,0,0,0,0,0,0,0)
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericEmblianSuperWeak,Warrior,0,30,SIDE_ENEMY,1,14,5,14,5,DevilAxe,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 

@@ -94,6 +94,13 @@ const char* const texts[] = {
         [0x7A1] = "召喚師を参加させますか？" TCC_NEWLINE2
                     TCC_YES,
 
+        // MyUnit(Summoner) related
+        //[TEXT_CHARACTER_NAME_MYUNIT] = TCC_SUMMONER_NAME,
+        [TEXT_CHARACTER_NAME_MYUNIT] = gTacticianName,
+        [TEXT_CHARACTER_HELP_MYUNIT] = "異世界から召喚された、あなた。伝説では、世界を救う救世主と伝えられている。",
+        [TEXT_JOB_NAME_SUMMONER] = "しょうかん師",
+        [TEXT_JOB_HELP_SUMMONER] = "異界から英雄たちを召喚できる魔法使い",
+
         // character GenericSoldierEmblianSuperWeak name
         [0x557] = "エンブラ兵",
 
@@ -108,7 +115,7 @@ const char* const texts[] = {
         [1377] = "異界の英雄",
 
         // GenericSoldierSummoned description
-        [555] = "ヴェロニカと契約を結ぶ英雄",
+        [555] = "異界から召喚されて契約を結んだ英雄",
 
         // character Alfonse name
         [0x4E4] = "アルフォンス",

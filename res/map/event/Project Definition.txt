@@ -60,6 +60,7 @@
 #define Ash Lowen
 #define VeronicaStain Canas
 #define Elm Lucius
+#define MyUnit Athos
 
 #define GenericSoldierHel 0x75
 #define GenericSoldierHelWeak 0x76
@@ -144,6 +145,7 @@
 #define Wolf 109
 #define DivineDragon 110
 #define MagicGeneral 111
+#define Summoner 112
 #define DivineManakete DivineDragon
 
 // Items
