@@ -9,6 +9,7 @@ extern u8 * const character_palette_Anna_lz[];
 extern u8 * const character_palette_Sharena_lz[];
 extern u8 * const character_palette_Xander_lz[];
 extern u8 * const character_palette_Laevatein_lz[];
+extern u8 * const character_palette_MyUnit_lz[];
 
 const struct CharacterPalette characterPalettes[] = {
     {"lin", 150835200} ,  // 0x01 Lyn unpromoted
@@ -260,6 +261,8 @@ const struct CharacterPalette characterPalettes[] = {
     {"Xander", character_palette_Xander_lz}, // 0x7C Xander
 
     {"Laevatein", character_palette_Laevatein_lz}, // 0x7D Laevatein
+
+    {"Kiran", character_palette_MyUnit_lz}, // 0x7E My Unit
 };
 
 const struct CharacterPalette * const pCharacterPalettes1 = characterPalettes;
