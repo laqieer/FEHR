@@ -376,6 +376,8 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_ARMORED_BOOTS, TEXT_ITEM_HELP_ARMORED_BOOTS, TEXT_ITEM_CANNOT_USE, 0xb2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB2 Sacred Seal: Armored Boots
 
 {TEXT_ITEM_NAME_NIGHTMARE_FANG, TEXT_ITEM_HELP_NIGHTMARE_FANG, 0, 0xb3, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &NightmareFangBuff, 0, 0, 14, 90, 10, 0, 1, 1, 0, 0, ITEM_ICON_NIGHTMARE_FANG, 0, 0, 0} ,  // 0xB3 Nightmare Fang
+
+{TEXT_ITEM_NAME_BREIDABLIK, TEXT_ITEM_HELP_BREIDABLIK, 0, ITEM_BREIDABLIK, DarkMagic, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 80, 10, 0, 2, 1, 0, 0, ITEM_ICON_BREIDABLIK, 0, 0, 1} ,  // 0xB4 Breidablik
 };
 
 const struct Item * const pItems1 = items;
@@ -580,6 +582,7 @@ const struct ItemSpellAssociation itemSpellAssociations[] = {
     {0xa4, 2, 2, 0, 1, 0, 0, 0} ,
     {ITEM_WRETCHED_AIR, 2, 0x15, 0, 1, 0, FLASH_COLOR_DRAK, 0} ,  // 
     {ITEM_DIVINE_DRAGONSTONE, 2, 0x14, 0, 1, 0, FLASH_COLOR_BLUE, 0} ,  // 
+    {ITEM_BREIDABLIK, 2, 2, 0, 1, 0, FLASH_COLOR_DRAK, 0} ,  // 
 
     {65535, 2, 65535, 0, 1, 0, 0, 0} ,  // End of list 
 };

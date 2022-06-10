@@ -178,6 +178,7 @@
 #define HardyBearing 0xb1
 #define ArmoredBoots 0xb2
 #define NightmareFang 0xb3
+#define Breidablik 0xb4
 
 // AI
 #define DefaultAi4 DefaultAI4
