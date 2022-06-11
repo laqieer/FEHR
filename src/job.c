@@ -267,6 +267,7 @@ const struct JobBattleAnimationConf SummonerAnimationConf[] = {
     {AnimaMagic, 1, 0x69},
     {LightMagic, 1, 0x69},
     {DarkMagic, 1, 0x69},
+    {Staff, 1, 1 + 0xd3},
     JobBattleAnimationConfEnd
 };
 

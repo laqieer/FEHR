@@ -93,6 +93,7 @@ cd build && make
 |Skelemonk|Magic|JonoTheRed|
 |Anna|Axe, HandAxe|Greentea(qiuzf007)|
 |Laevatein|Sword|FE7if|
+|Shaman|Staff|Temp|
 
 ### Item Icon
 

@@ -96,3 +96,5 @@
     .rodata.AliceSolKatti : {*(.rodata.AliceSolKatti)}
     . = 0x8E00008 + 0x20 * 0xd2;
     .rodata.AliceSolKattiDisarmed : {*(.rodata.AliceSolKattiDisarmed)}
+    . = 0x8E00008 + 0x20 * 0xd3;
+    .rodata.ShamanStaff : {*(.rodata.ShamanStaff)}
