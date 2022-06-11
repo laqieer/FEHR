@@ -5981,6 +5981,7 @@ const u16 characterAssistSkills[0x100] = {
         [CHARACTER_SCABIOSA_ID] = ASSIST_SKILL_FRIGHTFUL_DREAM,
         [CHARACTER_PLUMERIA_ID] = ASSIST_SKILL_SWEET_DREAMS,
         [CHARACTER_MIRABILIS_ID] = ASSIST_SKILL_WHIMSICAL_DREAM,
+        [CHARACTER_ID_MYUNIT] = ASSIST_SKILL_SUPPLY,
 };
 
 const u16 jobAssistSkills[0x100] = {
@@ -6047,6 +6048,11 @@ void MakeTargetListForAssistSkill(struct Unit *unit)
     unitToMakeTargetList = unit;
     BmMapFill(gBmMapPtr, 0);
     ForEachAdjacentUnit(x, y, TryAddUnitToAssistSkillTargetList);
+}
+
+u8 isSupplyAvailable()
+{
+    return getUnitAssistSkill(currentActiveUnit) == ASSIST_SKILL_SUPPLY;
 }
 
 u8 isAssistSkillAvailable(const struct MenuItem* menuItem, int number)
@@ -6153,7 +6159,7 @@ const struct MenuItem gUnitActionMenuItems[] = {
     {136091308, 4303, 861, 4, 98, 134356345, 0, 134356417, 0, 0, 0} ,  //
     {136091296, 4304, 874, 0, 99, 134358517, 0, 134358549, 0, 0, 0} ,  //
     {136091288, 4305, 875, 4, 100, 134357641, 0, 134357725, 0, 0, 0} ,  //
-    {136091276, 4306, 876, 4, 101, 134361497, 0, 134361645, 0, 0, 0} ,  //
+    {136091276, 4306, 876, 4, 101, isSupplyAvailable, 0, 134361645, 0, 0, 0} ,  //
     {136091268, 4310, 886, 0, 102, 134362081, 0, 134362105, 0, 0, 0} ,  //
     {136091260, 4307, 853, 0, 103, 134525141, 0, 134355645, 0, 0, 0} ,  //
     {"補助スキル", TEXT_ASSIST_SKILL_NAME_IN_ACTION_MENU, TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU, TEXT_COLOR_GREEN, 105, isAssistSkillAvailable, 0, AssistSkillSelected, 0, 0, 0} ,  //
@@ -7083,6 +7089,7 @@ void assistSkillToChangeFateEffect(struct Proc* proc, struct SelectTarget* targe
     setUnitStateIsolation(currentActiveUnit);
 }
 
+void assistSkillSupplyEffect(struct Proc* proc, struct SelectTarget* target);
 
 const struct AssistSkill assistSkills[] = {
     {"ーー", "補助スキルを持っていない", "NO DATA", "No assist skill available", conditionAlwaysFalse, NULL},
@@ -7124,6 +7131,7 @@ const struct AssistSkill assistSkills[] = {
     {"こわいゆめ", "対象を行動可能\な状態にし、自分と対象の十\字方向にいる敵の攻撃、速さ、守備、魔防ー３、かつ【キャンセル】を付与", "Frightful Dream", "Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of target through their next actions.", assistSkillFrightfulDreamCondition, assistSkillFrightfulDreamEffect},
     {"あまいゆめ", "対象を行動可能\な状態にし、対象の攻撃、速さ、守備、魔防＋３、かつ、対象の周囲４マス以内にいる敵の攻撃、速さ、守備、魔防ー４", "Sweet Dreams", "Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on foes within 4 spaces of target ally through foes' next actions.", assistSkillSweetDreamsCondition, assistSkillSweetDreamsEffect},
     {"しろいゆめ", "対象を行動可能\な状態にし、対象と、その周囲２マスの味方（自分を除く）の攻撃＋５、かつ、対象の周囲４マス以内にいる敵の攻撃ー５", "Whimsical Dream", "Grants another action to target ally. Grants Atk+5 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn. Inflicts Atk-5 on nearest foes within 4 spaces of target ally and any foe within 2 spaces of those foes through their next actions.", assistSkillWhimsicalDreamsCondition, assistSkillWhimsicalDreamsEffect},
+    {"輸送隊", "持ち物を輸送隊で整理します", "Supply", "Manage items with supply.", conditionAlwaysFalse, NULL},
 };
 
 char *getAssistSkillNameTextInActionMenu()

@@ -101,6 +101,8 @@ const char* const texts[] = {
         [TEXT_JOB_NAME_SUMMONER] = "‚µ‚å‚¤‚©‚ñt",
         [TEXT_JOB_HELP_SUMMONER] = "ˆÙŠE‚©‚ç‰p—Y‚½‚¿‚ğ¢Š«‚Å‚«‚é–‚–@g‚¢",
 
+        [0x36C] = "‚¿•¨‚ğ—A‘—‘à‚Å®—‚µ‚Ü‚·",
+
         // character GenericSoldierEmblianSuperWeak name
         [0x557] = "ƒGƒ“ƒuƒ‰•º",
 

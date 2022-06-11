@@ -118,6 +118,7 @@ enum AssistSkillID {
     ASSIST_SKILL_FRIGHTFUL_DREAM, // こわいゆめ
     ASSIST_SKILL_SWEET_DREAMS, // あまいゆめ
     ASSIST_SKILL_WHIMSICAL_DREAM, // しろいゆめ
+    ASSIST_SKILL_SUPPLY, // 輸送隊
 };
 
 enum PassiveSkillAID {
