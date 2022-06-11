@@ -2569,6 +2569,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_GUSTAF_ID] = SPECIAL_SKILL_SOL,
         [CHARACTER_HELL_ID] = SPECIAL_SKILL_MIRACLE,
         [CHARACTER_FREYJA_ID] = SPECIAL_SKILL_LUNA,
+        [CHARACTER_ID_MYUNIT] = SPECIAL_SKILL_FIRE_EMBLEM,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -5416,6 +5417,38 @@ void ComputePassiveSkillCEffectFromOthers(struct Unit *unit, u32 *args)
             if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2 && getDistanceBetweenTwoUnits(&defender->unit, &attacker->unit) > 1)
                 attacker->battleDefense += 5;
             break;
+        case PASSIVE_SKILL_C_FIRE_EMBLEM_1:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack += 1;
+                attacker->battleSpeed += 1;
+                attacker->battleDefense += 1;
+            }
+            break;
+        case PASSIVE_SKILL_C_FIRE_EMBLEM_2:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack += 2;
+                attacker->battleSpeed += 2;
+                attacker->battleDefense += 2;
+            }
+            break;
+        case PASSIVE_SKILL_C_FIRE_EMBLEM_3:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack += 3;
+                attacker->battleSpeed += 3;
+                attacker->battleDefense += 3;
+            }
+            break;
+        case PASSIVE_SKILL_C_FIRE_EMBLEM_4:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack += 4;
+                attacker->battleSpeed += 4;
+                attacker->battleDefense += 4;
+            }
+            break;
         default:
             break;
     }
@@ -5429,6 +5462,38 @@ void ComputePassiveSkillCEffectFromOppositeUnits(struct Unit *unit, u32 *args)
     switch (getUnitPassiveSkillC(unit))
     {
         case PASSIVE_SKILL_C_INEVITABLE_DEATH:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 4);
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 4);
+                attacker->battleDefense = max(0, attacker->battleDefense - 4);
+            }
+            break;
+        case PASSIVE_SKILL_C_FIRE_EMBLEM_1:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 1);
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 1);
+                attacker->battleDefense = max(0, attacker->battleDefense - 1);
+            }
+            break;
+        case PASSIVE_SKILL_C_FIRE_EMBLEM_2:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 2);
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 2);
+                attacker->battleDefense = max(0, attacker->battleDefense - 2);
+            }
+            break;
+        case PASSIVE_SKILL_C_FIRE_EMBLEM_3:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 3);
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 3);
+                attacker->battleDefense = max(0, attacker->battleDefense - 3);
+            }
+            break;
+        case PASSIVE_SKILL_C_FIRE_EMBLEM_4:
             if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
             {
                 attacker->battleAttack = max(0, attacker->battleAttack - 4);
@@ -7468,6 +7533,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"こ動のげんえん２", "自分から攻撃した時、戦闘後、敵とその周囲２マスの敵の奥義発動カウントー１", "Pulse Smoke 2", "If unit initiates combat, inflicts Special cooldown count-1 on target and foes within 2 space of target after combat. (No effect on Special cooldown counts already at 0.)"},
     {"こ動のげんえん３", "戦闘後、敵とその周囲２マスの敵の奥義発動カウントー１", "Pulse Smoke 3", "Inflicts Special cooldown count-1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at 0.)"},
     {"こ動のげんえん４", "戦闘後、敵とその周囲３マスの敵の奥義発動カウントー１", "Pulse Smoke 4", "Inflicts Special cooldown count-1 on target and foes within 3 spaces of target after combat. (No effect on Special cooldown counts already at 0.)"},
+    {"ファイアエブレム１", "周囲２マスの味方は、戦闘中、攻撃、速さ、守備、魔防＋１、周囲２マスの敵は、戦闘中、攻撃、速さ、守備、魔防ー１", "Fire Emblem 1", "Grants Atk/Spd/Def/Res+1 to allies within 2 spaces during combat. Inflicts Atk/Spd/Def/Res-1 on foes within 2 spaces during combat."},
+    {"ファイアエブレム２", "周囲２マスの味方は、戦闘中、攻撃、速さ、守備、魔防＋２、周囲２マスの敵は、戦闘中、攻撃、速さ、守備、魔防ー２", "Fire Emblem 2", "Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat. Inflicts Atk/Spd/Def/Res-2 on foes within 2 spaces during combat."},
+    {"ファイアエブレム３", "周囲２マスの味方は、戦闘中、攻撃、速さ、守備、魔防＋３、周囲２マスの敵は、戦闘中、攻撃、速さ、守備、魔防ー３", "Fire Emblem 3", "Grants Atk/Spd/Def/Res+3 to allies within 2 spaces during combat. Inflicts Atk/Spd/Def/Res-3 on foes within 2 spaces during combat."},
+    {"ファイアエブレム４", "周囲２マスの味方は、戦闘中、攻撃、速さ、守備、魔防＋４、周囲２マスの敵は、戦闘中、攻撃、速さ、守備、魔防ー４", "Fire Emblem 4", "Grants Atk/Spd/Def/Res+4 to allies within 2 spaces during combat. Inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces during combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -7492,6 +7561,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_C_FORTIFY_RES_1, PASSIVE_SKILL_C_FORTIFY_RES_2, PASSIVE_SKILL_C_FORTIFY_RES_3, PASSIVE_SKILL_C_FORTIFY_RES_4},
     [CHARACTER_MIRABILIS_ID] = {PASSIVE_SKILL_C_DEF_RES_GAP_1, PASSIVE_SKILL_C_DEF_RES_GAP_2, PASSIVE_SKILL_C_DEF_RES_GAP_3, PASSIVE_SKILL_C_DEF_RES_GAP_4},
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_C_PULSE_SMOKE_1, PASSIVE_SKILL_C_PULSE_SMOKE_2, PASSIVE_SKILL_C_PULSE_SMOKE_3, PASSIVE_SKILL_C_PULSE_SMOKE_4},
+    [CHARACTER_ID_MYUNIT] = {PASSIVE_SKILL_C_FIRE_EMBLEM_1, PASSIVE_SKILL_C_FIRE_EMBLEM_2, PASSIVE_SKILL_C_FIRE_EMBLEM_3, PASSIVE_SKILL_C_FIRE_EMBLEM_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
