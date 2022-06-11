@@ -2697,6 +2697,26 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
+       [TEXT_SUPPORT_AVATAR_ANNA] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_HOOD
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_ANNA
+                    TCC_SUMMONER_NAME"さんのスキルのおかげで、" TCC_NEWLINE
+                    "戦闘はかなり順調に進んでるよ。" TCC_NEWLINE TCC_PUSH_A
+                    "あなたがいてくれて、" TCC_NEWLINE
+                    "本当によかった。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                    "いいえ、全部隊長の指揮のおかけだよ。" TCC_NEWLINE
+                    "隊長はいつも私たちを勝利に導いていく。" TCC_NEWLINE 
+                    "これからもよろしくお願いします！" TCC_NEWLINE TCC_PUSH_A
+                    TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
 #include "texts.txt"
 };
 

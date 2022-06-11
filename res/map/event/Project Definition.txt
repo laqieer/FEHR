@@ -61,6 +61,7 @@
 #define VeronicaStain Canas
 #define Elm Lucius
 #define MyUnit Athos
+#define Avatar MyUnit
 
 #define GenericSoldierHel 0x75
 #define GenericSoldierHelWeak 0x76
