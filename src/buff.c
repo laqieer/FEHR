@@ -808,6 +808,24 @@ int GetUnitLuck(struct Unit* unit)
 {
     int luck = unit->luk + GetItemLukBonus(GetUnitEquippedItem(unit)) + getUnitTotalBuffLuck(unit);
 
+    switch(getUnitPassiveSkillA(unit))
+    {
+        case PASSIVE_SKILL_A_LUCK_1:
+            luck += 1;
+            break;
+        case PASSIVE_SKILL_A_LUCK_2:
+            luck += 3;
+            break;
+        case PASSIVE_SKILL_A_LUCK_3:
+            luck += 5;
+            break;
+        case PASSIVE_SKILL_A_LUCK_4:
+            luck += 7;
+            break;
+        default:
+            break;
+    }
+
     return luck > 0? luck: 0;
 }
 

@@ -7219,10 +7219,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"‹S_‚ÌˆêŒ‚‚Q", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚S", "Death Blow 2", "If unit initiates combat, grants Atk+4 during combat."},
     {"‹S_‚ÌˆêŒ‚‚R", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚U", "Death Blow 3", "If unit initiates combat, grants Atk+6 during combat."},
     {"‹S_‚ÌˆêŒ‚‚S", "©•ª‚©‚çUŒ‚‚µ‚½Aí“¬’†‚ÌUŒ‚{‚W", "Death Blow 4", "If unit initiates combat, grants Atk+8 during combat."},
-    {"‘¬‚³‚P", "‘¬‚³{‚P", "Speed +1", "Grants Spd+1."},
-    {"‘¬‚³‚Q", "‘¬‚³{‚Q", "Speed +2", "Grants Spd+2."},
-    {"‘¬‚³‚R", "‘¬‚³{‚R", "Speed +3", "Grants Spd+3."},
-    {"‘¬‚³‚S", "‘¬‚³{‚S", "Speed +4", "Grants Spd+4."},
+    {"‘¬‚³‚P", "‘¬‚³{‚P", "Speed 1", "Grants Spd+1."},
+    {"‘¬‚³‚Q", "‘¬‚³{‚Q", "Speed 2", "Grants Spd+2."},
+    {"‘¬‚³‚R", "‘¬‚³{‚R", "Speed 3", "Grants Spd+3."},
+    {"‘¬‚³‚S", "‘¬‚³{‚S", "Speed 4", "Grants Spd+4."},
     {"‚q‚Ó‚ñ‚¶‚ñ‚P", "UŒ‚A‘¬‚³Aç”õA–‚–h{‚PBí“¬ŒãA©•ª‚É‚Qƒ_ƒ[ƒWB", "Fury 1", "Grants Atk/Spd/Def/Res+1. After combat, deals 2 damage to unit."},
     {"‚q‚Ó‚ñ‚¶‚ñ‚Q", "UŒ‚A‘¬‚³Aç”õA–‚–h{‚QBí“¬ŒãA©•ª‚É‚Sƒ_ƒ[ƒWB", "Fury 2", "Grants Atk/Spd/Def/Res+2. After combat, deals 4 damage to unit."},
     {"‚q‚Ó‚ñ‚¶‚ñ‚R", "UŒ‚A‘¬‚³Aç”õA–‚–h{‚RBí“¬ŒãA©•ª‚É‚Uƒ_ƒ[ƒWB", "Fury 3", "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit."},
@@ -7292,6 +7292,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"UŒ‚‘¬‚³‚ÌŒÇŒR‚Q", "üˆÍ‚Pƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚È‚¢Aí“¬’†AUŒ‚A‘¬‚³{‚S", "Atk/Spd Solo 2", "If unit is not adjacent to an ally, grants Atk/Spd+4 during combat."},
     {"UŒ‚‘¬‚³‚ÌŒÇŒR‚R", "üˆÍ‚Pƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚È‚¢Aí“¬’†AUŒ‚A‘¬‚³{‚U", "Atk/Spd Solo 3", "If unit is not adjacent to an ally, grants Atk/Spd+6 during combat."},
     {"UŒ‚‘¬‚³‚ÌŒÇŒR‚S", "üˆÍ‚Pƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚È‚¢Aí“¬’†AUŒ‚A‘¬‚³{‚V", "Atk/Spd Solo 4", "If unit is not adjacent to an ally, grants Atk/Spd+7 during combat."},
+    {"K‰^‚P", "K‰^{‚P", "Luck 1", "Grants Luk+1."},
+    {"K‰^‚Q", "K‰^{‚R", "Luck 2", "Grants Luk+3."},
+    {"K‰^‚R", "K‰^{‚T", "Luck 3", "Grants Luk+5."},
+    {"K‰^‚S", "K‰^{‚V", "Luck 4", "Grants Luk+7."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -7318,6 +7322,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_MIRABILIS_ID] = {PASSIVE_SKILL_A_FLOWER_OF_EASE_1, PASSIVE_SKILL_A_FLOWER_OF_EASE_2, PASSIVE_SKILL_A_FLOWER_OF_EASE_3, PASSIVE_SKILL_A_FLOWER_OF_EASE_4},
     //[CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_NIGHTMARE_QUEEN_1, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_2, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_3, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_4},
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_ATK_SPD_SOLO_1, PASSIVE_SKILL_A_ATK_SPD_SOLO_2, PASSIVE_SKILL_A_ATK_SPD_SOLO_3, PASSIVE_SKILL_A_ATK_SPD_SOLO_4},
+    [CHARACTER_ID_MYUNIT] = {PASSIVE_SKILL_A_LUCK_1, PASSIVE_SKILL_A_LUCK_2, PASSIVE_SKILL_A_LUCK_3, PASSIVE_SKILL_A_LUCK_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
