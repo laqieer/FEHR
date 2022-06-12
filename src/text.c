@@ -99,7 +99,7 @@ const char* const texts[] = {
         [TEXT_CHARACTER_NAME_MYUNIT] = gTacticianName,
         [TEXT_CHARACTER_HELP_MYUNIT] = "ˆÙ¢ŠE‚©‚ç¢Š«‚³‚ê‚½A‚ ‚È‚½B“`à‚Å‚ÍA¢ŠE‚ð‹~‚¤‹~¢Žå‚Æ“`‚¦‚ç‚ê‚Ä‚¢‚éB",
         [TEXT_JOB_NAME_SUMMONER] = "‚µ‚å‚¤‚©‚ñŽt",
-        [TEXT_JOB_HELP_SUMMONER] = "ˆÙŠE‚©‚ç‰p—Y‚½‚¿‚ð¢Š«‚Å‚«‚é–‚–@Žg‚¢",
+        [TEXT_JOB_HELP_SUMMONER] = "ˆÙŠE‚©‚ç‰p—Y‚½‚¿‚ð¢Š«‚Å‚«‚é¢Š«Žt",
 
         [0x36C] = "Ž‚¿•¨‚ð—A‘—‘à‚Å®—‚µ‚Ü‚·",
 
