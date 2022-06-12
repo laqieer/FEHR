@@ -60,6 +60,7 @@ const struct DeathQuote deathQuotes[] = {
         {CHARACTER_MIRABILIS_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_MIRABILIS, 0, 0},
         {CHARACTER_SCABIOSA_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_SCABIOSA, 0, 0},
         {CHARACTER_PLUMERIA_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_PLUMERIA, 0, 0},
+        {CHARACTER_FREYA_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_FREYA, 0, 0},
 
         {0, 0, 0, 0, 0, 0}
 };

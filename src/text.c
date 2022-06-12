@@ -300,6 +300,12 @@ const char* const texts[] = {
                "するつもりです。。。" TCC_NEWLINE TCC_PUSH_A
                TCC_CLEAR_FACE,
 
+        [TEXT_DEATH_QUOTE_FREYA] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_FREYJA
+               "ああ。。。" TCC_NEWLINE
+               "お兄様。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
         [TEXT_CHARACTER_NAME_LOKI] = "ロキ",
 
         [TEXT_CHARACTER_HELP_LOKI] = "炎の王国ムスペルの軍師。悪戯好きで、人を誘惑することを好む。",
