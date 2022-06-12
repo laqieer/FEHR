@@ -377,7 +377,7 @@ const struct Item items[] = {
 
 {TEXT_ITEM_NAME_NIGHTMARE_FANG, TEXT_ITEM_HELP_NIGHTMARE_FANG, 0, 0xb3, 11, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &NightmareFangBuff, 0, 0, 14, 90, 10, 0, 1, 1, 0, 0, ITEM_ICON_NIGHTMARE_FANG, 0, 0, 0} ,  // 0xB3 Nightmare Fang
 
-{TEXT_ITEM_NAME_BREIDABLIK, TEXT_ITEM_HELP_BREIDABLIK, 0, ITEM_BREIDABLIK, DarkMagic, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 80, 10, 0, 2, 2, 0, 0, ITEM_ICON_BREIDABLIK, 0, 0, 1} ,  // 0xB4 Breidablik
+{TEXT_ITEM_NAME_BREIDABLIK, TEXT_ITEM_HELP_BREIDABLIK, 0, ITEM_BREIDABLIK, DarkMagic, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 80, 10, 0, 2, 2, 0, 0, ITEM_ICON_BREIDABLIK, 0, 0, 0} ,  // 0xB4 Breidablik
 };
 
 const struct Item * const pItems1 = items;
