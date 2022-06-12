@@ -41,6 +41,8 @@ const char* const texts[] = {
                     "特務機関「ヴァイス・ブレイヴ」" TCC_PUSH_A TCC_NEWLINE
                     "の一員となり、" TCC_NEWLINE
                     "果てない戦いに挑みます。"  TCC_PUSH_A TCC_NEWLINE
+                    "ちなみにマイ召喚師は２４４章後の" TCC_NEWLINE
+                    "破章から参戦してきます。" TCC_PUSH_A TCC_NEWLINE
                     "最初に"TCC_TOGGLE_RED"名前"TCC_TOGGLE_RED"と" TCC_NEWLINE
                     TCC_TOGGLE_RED"血液型"TCC_TOGGLE_RED"、"TCC_TOGGLE_RED"生まれ月"TCC_TOGGLE_RED"、"TCC_TOGGLE_RED"性別"TCC_TOGGLE_RED TCC_NEWLINE
                     "を設定することができます。" TCC_PUSH_A TCC_NEWLINE2
@@ -49,11 +51,8 @@ const char* const texts[] = {
                     "入力が面倒な方は、" TCC_NEWLINE
                     "「いいえ」を選んでください。" TCC_PUSH_A TCC_NEWLINE
                     "デフォルトの設定で" TCC_NEWLINE
-                    "ゲームがスタートします。" TCC_PUSH_A TCC_NEWLINE
-                    "ちなみにマイ召喚師は序章ではなく、" TCC_NEWLINE
-                    "２４４章後の破章から参戦してきます。" TCC_NEWLINE
-                    "その時の"TCC_TOGGLE_RED"外見"TCC_TOGGLE_RED"と"TCC_TOGGLE_RED"属性"TCC_TOGGLE_RED"は変わります。" TCC_PUSH_A TCC_NEWLINE,
-        
+                    "ゲームがスタートします。" TCC_PUSH_A TCC_NEWLINE,
+
         // Tactician -> Summoner
         /*
         [0x305] = "軍師"TCC_TACTICIAN_NAME"が記した書物" TCC_NEWLINE
