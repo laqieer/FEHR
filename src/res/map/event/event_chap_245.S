@@ -53,6 +53,9 @@ EndingScene:
 	ENDA
 AllyUnitsENM:
 	UNIT(MyUnit,Summoner,Anna,1,SIDE_ALLY,1,0,11,0,11,Breidablik,0,0,0,0,0,0,0)
+	//UNIT(Yurg,Thief,Anna,1,SIDE_ALLY,1,0,12,0,12,SmokeDagger,0,0,0,0,0,0,0)
+	//UNIT(Fjorm,SharenaLord,Anna,1,SIDE_ALLY,1,0,13,0,13,Leiptr,0,0,0,0,0,0,0)
+	//UNIT(Veronica,VeronicaPrincess,Anna,1,SIDE_ALLY,1,0,14,0,14,Ereshkigal,0,0,0,0,0,0,0)
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericEmblianSuperWeak,Warrior,0,30,SIDE_ENEMY,1,14,5,14,5,DevilAxe,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 

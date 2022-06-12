@@ -2234,6 +2234,8 @@ const char* const texts[] = {
 
        [ITEM_HELP_ROGUE_DAGGER] = "敵の守備、魔防ー５、自分の守備、魔防＋５",
 
+       [720] = "死の皇女専用",
+
        [ITEM_NAME_SACRED_SEAL_DEFLECT_MELEE] = "連撃防御剣槍斧",
 
        [ITEM_HELP_SACRED_SEAL_DEFLECT_MELEE] = "剣、槍、斧の敵から連続して攻撃を受けた時、２回目以降のダメージを８割軽減",

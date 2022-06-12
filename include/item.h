@@ -93,11 +93,11 @@ struct Item
     // unrepairable? 修理不可?
     u8 isUnrepairable : 1;
 
-    // The dragon stone weapon lock. 竜石専用.
+    // The dragon stone weapon lock. 竜石専用. -> The dragon stone and monster weapon lock. 竜石/魔物専用.
     u8 dragonStoneWPLock : 1;
 
-    // The unused weapon lock
-    u8 unusedWPLock : 1;
+    // Locked to Roy. ロイ専用. -> The dagger weapon lock. Locked to Theif. 暗器. シーフ専用.
+    u8 RoyWPLock : 1;
 
     // The sword weapon lock. Swordfighter/Swordmaster/Lyn. 剣士系専用.
     u8 swordWPLock : 1;
@@ -128,7 +128,7 @@ struct Item
     // Locked to Lyn. リン専用.
     u8 LynWPLock : 1;
 
-    // Locked to Athos. アトス専用.
+    // Locked to Athos. アトス専用. -> Locked to Avatar. マイ召喚師専用.
     u8 AthosWPLock : 1;
 
     // The unknown ability4

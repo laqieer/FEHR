@@ -301,7 +301,7 @@ const struct Item items[] = {
 
 {1064, 685, 0, 141, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, JobListArmourAndKnight, 30, 10, 75, 10, 5, 1, 1, 200, WPN_EXP_A, 160, 0, 0, 1} ,  // 0x8D Wolf Beil
 
-{1098, 720, 0, 142, 7, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 95, 12, 0, 2, 1, 0, WPN_EXP_S, 161, 0, 0, 1} ,  // 0x8E Ereshkigal
+{1098, 720, 0, 142, 7, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 95, 12, 0, 2, 1, 0, WPN_EXP_S, 161, 0, 0, 1} ,  // 0x8E Ereshkigal
 
 {1164, 994, 995, 143, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148245764, 0, 0, 10, 100, 0, 0, 3, 1, 0, 181, 162, 0, 0, 0} ,  // 0x8F Flametongue
 
@@ -333,19 +333,19 @@ const struct Item items[] = {
 
 {TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_NAME, TEXT_ITEM_SACRED_SEAL_MUSPELL_FLAME_HELP, TEXT_ITEM_CANNOT_USE, 157, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0x9D Sacred Seal: Muspellflame
 
-{TEXT_ITEM_NAME_LEIPTR, TEXT_ITEM_HELP_LEIPTR, 0, 0x9e, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 16, 80, 8, 0, 2, 1, 600, 0, ITEM_ICON_LEIPTR, 0, 0, 1} ,  // 0x9E Leiptr
+{TEXT_ITEM_NAME_LEIPTR, TEXT_ITEM_HELP_LEIPTR, 0, 0x9e, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 16, 80, 8, 0, 2, 1, 600, WPN_EXP_E, ITEM_ICON_LEIPTR, 0, 0, 1} ,  // 0x9E Leiptr
 
-{ITEM_NAME_IRON_DAGGER, ITEM_HELP_IRON_DAGGER, 0, 0x9f, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 3, 110, 3, 0, 2, 1, 15, WPN_EXP_E, ITEM_ICON_IRON_DAGGER, 0, 0, 1} ,  // 0x9F Iron Daggeer
+{ITEM_NAME_IRON_DAGGER, ITEM_HELP_IRON_DAGGER, 0, 0x9f, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 3, 110, 3, 0, 2, 1, 15, WPN_EXP_E, ITEM_ICON_IRON_DAGGER, 0, 0, 1} ,  // 0x9F Iron Daggeer
 
-{ITEM_NAME_STEEL_DAGGER, ITEM_HELP_STEEL_DAGGER, 0, 0xa0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 5, 95, 8, 0, 2, 1, 20, WPN_EXP_D, ITEM_ICON_STEEL_DAGGER, 0, 0, 1} ,  // 0xA0 Steel Dagger
+{ITEM_NAME_STEEL_DAGGER, ITEM_HELP_STEEL_DAGGER, 0, 0xa0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 5, 95, 8, 0, 2, 1, 20, WPN_EXP_D, ITEM_ICON_STEEL_DAGGER, 0, 0, 1} ,  // 0xA0 Steel Dagger
 
-{ITEM_NAME_SILVER_DAGGER, ITEM_HELP_SILVER_DAGGER, 0, 0xa1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 10, 100, 6, 0, 2, 1, 75, WPN_EXP_A, ITEM_ICON_SILVER_DAGGER, 0, 0, 1} ,  // 0xA1 Silver Dagger
+{ITEM_NAME_SILVER_DAGGER, ITEM_HELP_SILVER_DAGGER, 0, 0xa1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 10, 100, 6, 0, 2, 1, 75, WPN_EXP_A, ITEM_ICON_SILVER_DAGGER, 0, 0, 1} ,  // 0xA1 Silver Dagger
 
-{ITEM_NAME_POISON_DAGGER, ITEM_HELP_POISON_DAGGER, 0, 0xa2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, JobListInfantry, 45, 5, 90, 4, 0, 2, 1, 0, WPN_EXP_C, ITEM_ICON_POISON_DAGGER, 0, 1, 1} ,  // 0xA2 Poison Dagger
+{ITEM_NAME_POISON_DAGGER, ITEM_HELP_POISON_DAGGER, 0, 0xa2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, JobListInfantry, 45, 5, 90, 4, 0, 2, 1, 0, WPN_EXP_C, ITEM_ICON_POISON_DAGGER, 0, 1, 1} ,  // 0xA2 Poison Dagger
 
-{ITEM_NAME_SMOKE_DAGGER, ITEM_HELP_SMOKE_DAGGER, 0, 0xa3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 9, 105, 5, 0, 2, 1, 60, WPN_EXP_B, ITEM_ICON_SMOKE_DAGGER, 0, 0, 1} ,  // 0xA3 Smoke Dagger
+{ITEM_NAME_SMOKE_DAGGER, ITEM_HELP_SMOKE_DAGGER, 0, 0xa3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 9, 105, 5, 0, 2, 1, 60, WPN_EXP_B, ITEM_ICON_SMOKE_DAGGER, 0, 0, 1} ,  // 0xA3 Smoke Dagger
 
-{ITEM_NAME_ROGUE_DAGGER, ITEM_HELP_ROGUE_DAGGER, 0, 0xa4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 7, 115, 2, 0, 2, 1, 600, WPN_EXP_S, ITEM_ICON_ROGUE_DAGGER, 0, 0, 1} ,  // 0xA4 Rogue Dagger
+{ITEM_NAME_ROGUE_DAGGER, ITEM_HELP_ROGUE_DAGGER, 0, 0xa4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 7, 115, 2, 0, 2, 1, 600, WPN_EXP_S, ITEM_ICON_ROGUE_DAGGER, 0, 0, 1} ,  // 0xA4 Rogue Dagger
 
 {ITEM_NAME_SACRED_SEAL_DEFLECT_MELEE, ITEM_HELP_SACRED_SEAL_DEFLECT_MELEE, TEXT_ITEM_CANNOT_USE, 0xa5, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xA5 Sacred Seal: Deflect Melee
 
@@ -375,9 +375,9 @@ const struct Item items[] = {
 
 {TEXT_ITEM_NAME_ARMORED_BOOTS, TEXT_ITEM_HELP_ARMORED_BOOTS, TEXT_ITEM_CANNOT_USE, 0xb2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB2 Sacred Seal: Armored Boots
 
-{TEXT_ITEM_NAME_NIGHTMARE_FANG, TEXT_ITEM_HELP_NIGHTMARE_FANG, 0, 0xb3, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &NightmareFangBuff, 0, 0, 14, 90, 10, 0, 1, 1, 0, 0, ITEM_ICON_NIGHTMARE_FANG, 0, 0, 0} ,  // 0xB3 Nightmare Fang
+{TEXT_ITEM_NAME_NIGHTMARE_FANG, TEXT_ITEM_HELP_NIGHTMARE_FANG, 0, 0xb3, 11, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &NightmareFangBuff, 0, 0, 14, 90, 10, 0, 1, 1, 0, 0, ITEM_ICON_NIGHTMARE_FANG, 0, 0, 0} ,  // 0xB3 Nightmare Fang
 
-{TEXT_ITEM_NAME_BREIDABLIK, TEXT_ITEM_HELP_BREIDABLIK, 0, ITEM_BREIDABLIK, DarkMagic, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 80, 10, 0, 2, 1, 0, 0, ITEM_ICON_BREIDABLIK, 0, 0, 1} ,  // 0xB4 Breidablik
+{TEXT_ITEM_NAME_BREIDABLIK, TEXT_ITEM_HELP_BREIDABLIK, 0, ITEM_BREIDABLIK, DarkMagic, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 80, 10, 0, 2, 1, 0, 0, ITEM_ICON_BREIDABLIK, 0, 0, 1} ,  // 0xB4 Breidablik
 };
 
 const struct Item * const pItems1 = items;

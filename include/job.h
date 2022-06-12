@@ -167,8 +167,8 @@ struct Job
 
     // Class & Character Ability 3
 
-    // 未使用武器锁
-    u8 ability_unusedWeaponLock:1;
+    // 罗伊武器锁 -> 暗器武器锁
+    u8 ability_RoyWeaponLock:1;
     // 倭刀武器锁
     u8 ability_WoDaoWeaponLock:1;
     // 龙石武器锁
@@ -200,7 +200,7 @@ struct Job
     u8 ability_HectorWeaponLock:1;
     // 琳武器锁
     u8 ability_LynWeaponLock:1;
-    // 阿特斯武器锁
+    // 阿特斯武器锁 -> 召唤师武器锁
     u8 ability_AthosWeaponLock:1;
 
     // 武器熟练度基础值
