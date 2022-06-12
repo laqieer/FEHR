@@ -62,6 +62,7 @@ const struct DeathQuote deathQuotes[] = {
         {CHARACTER_PLUMERIA_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_PLUMERIA, 0, 0},
         {CHARACTER_FREYA_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_FREYA, 0, 0},
         {CHARACTER_HOOD_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_HOOD, 0, 0},
+        {CHARACTER_ID_AVATAR, AnyChapter, 0, TEXT_DEATH_QUOTE_AVATAR, 0, LordDeathTriggerEventID},
 
         {0, 0, 0, 0, 0, 0}
 };
