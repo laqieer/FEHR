@@ -16,7 +16,7 @@ struct OptionMenuInfo {
 const u8 optionMenuList1[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xf, 0xb, 3, 6, 7, 8};
 const u8 optionMenuList2[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xb, 3, 0xc, 6, 7, 8};
 const u8 optionMenuList3[] = {0, 5, 4, 1, 2, 0xa, 0xe, 0xb, 3, 0xc, 6, 7, 8};
-const u8 optionMenuListAll[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10, 0x11, 0x12, 0x13, 0x14};
+const u8 optionMenuListAll[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16};
 
 const struct OptionMenuInfo OptionMenuInfos[] = {
     //{0xd, optionMenuList1},
@@ -72,6 +72,8 @@ volatile char gCurrentGameLanguage;
 volatile char gRandomMode;
 volatile char gTrueHitConf;
 volatile char gEnemySpecialSkillLevel;
+extern char gSummonerGender;
+volatile char gSummonerAppearance;
 
 enum {
     LANGUAGE_JP,
@@ -94,6 +96,52 @@ enum {
     ENEMY_SPECIAL_SKILL_LEVEL_STRONG,
     ENEMY_SPECIAL_SKILL_LEVEL_MIXED
 };
+
+enum {
+    GENDER_MALE,
+    GENDER_FEMALE,
+    GENDER_MYSTERY
+};
+
+#define DefineGameOption(name, min, max)    char get##name() \
+                                            { \
+                                                if(g##name < (min) || g##name > (max)) \
+                                                    g##name = (min); \
+                                                return g##name; \
+                                            } \
+                                            void set##name(char name) \
+                                            { \
+                                                if(g##name >= (min) && g##name <= (max)) \
+                                                    g##name = name; \
+                                            } \
+                                            int OptionMenuItem##name##Handler(u32 procParent) \
+                                            { \
+                                                int item = gCurrentSelectedItemInOptionMenu; \
+                                                if((sKeyStatusBuffer.repeatedKeys & 0x30) == 0) \
+                                                    return 0; \
+                                                int result = OptionMenuItemHandlerBasic(procParent); \
+                                                if((sKeyStatusBuffer.repeatedKeys & 0x20) == 0) \
+                                                { \
+                                                    if(get##name() >= (min) && get##name() < (max)) \
+                                                    { \
+                                                        set##name(get##name() + 1); \
+                                                        result = 1; \
+                                                    } \
+                                                } \
+                                                else \
+                                                { \
+                                                    if(get##name() > (min) && get##name() <= (max)) \
+                                                    { \
+                                                        set##name(get##name() - 1); \
+                                                        result = 1; \
+                                                    } \
+                                                } \
+                                                if(result) \
+                                                { \
+                                                    DisplayItemAlternativesInOptionMenu(item, item % 7, item * 2 + 4); \
+                                                } \
+                                                return result; \
+                                            }
 
 char getCurrentGameLanguage()
 {
@@ -307,13 +355,20 @@ int OptionMenuItemEnemySpecialSkillLevelHandler(u32 procParent)
     return result;
 }
 
+DefineGameOption(SummonerGender, GENDER_MALE, GENDER_MYSTERY)
+DefineGameOption(SummonerAppearance, 0, 3)
+
 #pragma GCC push_options
 #pragma GCC optimize ("-O2")
 
 int getOptionMenuItemCurrentValue(u32 item)
 {
-    if(item > 0x14)
+    if(item > 0x16)
         return 0;
+    if(item == 0x16)
+        return getSummonerAppearance();
+    if(item == 0x15)
+        return getSummonerGender();
     if(item == 0x14)
         return getEnemySpecialSkillLevel();
     if(item == 0x13)
@@ -354,6 +409,8 @@ const struct OptionMenuItemInfo OptionMenuItemInfos[] = {
     {TEXT_OPTION_RANDOM_MODE, 0, {{TEXT_OPTION_PSEUDO_RANDOM_HELP, TEXT_OPTION_PSEUDO_RANDOM, 120, 2, 0}, {TEXT_OPTION_REAL_RANDOM_HELP, TEXT_OPTION_REAL_RANDOM, 143 + 8, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 36, 0, 0, OptionMenuItemRandomModeHandler} ,  // 12 ランダムモード
     {TEXT_OPTION_TRUE_HIT, 0, {{TEXT_OPTION_TRUE_HIT_ON_HELP, TEXT_OPTION_TRUE_HIT_ON, 120, 2, 0}, {TEXT_OPTION_TRUE_HIT_OFF_HELP, TEXT_OPTION_TRUE_HIT_OFF, 143 + 8 * 3, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 38, 0, 0, OptionMenuItemTrueHitHandler} ,  // 13 命中判定
     {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL, 0, {{TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_NONE_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_NONE, 120, 1, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_WEAK_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_WEAK, 135, 1, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_STRONG_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_STRONG, 150, 2, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED, 165, 2, 0}}, 40, 0, 0, OptionMenuItemEnemySpecialSkillLevelHandler} ,  // 14 雑魚敵の奥義スキル
+    {TEXT_OPTION_SUMMONER_GENDER, 0, {{TEXT_OPTION_SUMMONER_GENDER_MALE_HELP, TEXT_OPTION_SUMMONER_GENDER_MALE, 120, 1, 0}, {TEXT_OPTION_SUMMONER_GENDER_FEMALE_HELP, TEXT_OPTION_SUMMONER_GENDER_FEMALE, 135, 1, 0}, {TEXT_OPTION_SUMMONER_GENDER_MYSTERY_HELP, TEXT_OPTION_SUMMONER_GENDER_MYSTERY, 150, 2, 0}, {0, 0, 197, 0, 0}}, 42, 0, 0, OptionMenuItemSummonerGenderHandler} ,  // 15 マイ召喚師の性別
+    {TEXT_OPTION_SUMMONER_APPEARANCE, 0, {{TEXT_OPTION_SUMMONER_APPEARANCE_1_HELP, TEXT_OPTION_SUMMONER_APPEARANCE_1, 120, 1, 0}, {TEXT_OPTION_SUMMONER_APPEARANCE_2_HELP, TEXT_OPTION_SUMMONER_APPEARANCE_2, 135, 1, 0}, {TEXT_OPTION_SUMMONER_APPEARANCE_3_HELP, TEXT_OPTION_SUMMONER_APPEARANCE_3, 150, 2, 0}, {TEXT_OPTION_SUMMONER_APPEARANCE_4_HELP, TEXT_OPTION_SUMMONER_APPEARANCE_4, 165, 2, 0}}, 44, 0, 0, OptionMenuItemSummonerAppearanceHandler} ,  // 15 マイ召喚師の外見
 };
 
 const struct OptionMenuItemInfo * const pOptionMenuItemInfos1 = OptionMenuItemInfos;

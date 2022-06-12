@@ -2122,10 +2122,35 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_AVATAR_M_4] = &portraitAvatar_M_4,
 };
 
+char getSummonerGender();
+char getSummonerAppearance();
+
+const int AvatarPortraits[3][4] = {
+    {PORTRAIT_ID_AVATAR_M_1,
+    PORTRAIT_ID_AVATAR_M_2,
+    PORTRAIT_ID_AVATAR_M_3,
+    PORTRAIT_ID_AVATAR_M_4},
+    {PORTRAIT_ID_AVATAR_F_1,
+    PORTRAIT_ID_AVATAR_F_2,
+    PORTRAIT_ID_AVATAR_F_3,
+    PORTRAIT_ID_AVATAR_F_4},
+    {PORTRAIT_ID_HOOD,
+    PORTRAIT_ID_HOOD,
+    PORTRAIT_ID_HOOD,
+    PORTRAIT_ID_HOOD}
+};
+
+int getAvatarPortraitID()
+{
+    return AvatarPortraits[getSummonerGender()][getSummonerAppearance()];
+}
+
 extern const Portrait portraitsOrig[];
 
 const Portrait *getPortraitByID(int id)
 {
+    if(id == PORTRAIT_ID_AVATAR)
+        id = getAvatarPortraitID();
     if(id < sizeof(portraits) / sizeof(portraits[0]) && portraits[id])
         return portraits[id];
     return &portraitsOrig[id];

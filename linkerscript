@@ -10,6 +10,7 @@ DeleteAnimsOnPopup = 0x806b85d;
 endNotQuitIfNoWeaponRankUp = 0x806bd37;
 
 gTacticianName = 0x202BC14;
+gSummonerGender = 0x202BC20;
 
 DAT_0203e0ac = 0x203e0ac;
 
