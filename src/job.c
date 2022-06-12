@@ -264,9 +264,7 @@ const struct JobBattleAnimationConf AnnaAnimationConf[] = {
 
 const struct JobBattleAnimationConf SummonerAnimationConf[] = {
     {Disarmed, 1, 0x69},
-    {AnimaMagic, 1, 0x69},
-    {LightMagic, 1, 0x69},
-    {DarkMagic, 1, 0x69},
+    {ITEM_BREIDABLIK, 0, 0x69},
     {Staff, 1, 1 + 0xd3},
     JobBattleAnimationConfEnd
 };
