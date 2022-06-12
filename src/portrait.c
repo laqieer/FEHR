@@ -102,6 +102,8 @@
 #include "portrait_Avatar_F_1_tileset.h"
 #include "portrait_Avatar_F_2_mini.h"
 #include "portrait_Avatar_F_2_tileset.h"
+#include "portrait_Avatar_F_3_mini.h"
+#include "portrait_Avatar_F_3_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -1772,6 +1774,35 @@ const u16 portrait_Avatar_F_2_bg[] = {
         TILE_ID(0, 0), TILE_ID(1, 0),  TILE_ID(2, 0),  TILE_ID(3, 0),  TILE_ID(4, 0),  TILE_ID(5, 0),  TILE_ID(6, 0),  TILE_ID(7, 0), 0, 0,
 };
 
+#define portrait_Avatar_F_3_width 72
+#define portrait_Avatar_F_3_height 96
+#define portrait_Avatar_F_3_block_num 4
+const u16 portrait_Avatar_F_3_obj[] = {
+    portrait_Avatar_F_3_block_num,
+    PORTRAIT_BLOCK(Avatar_F_3, 64, 32, 0, 0, 0, 0),
+    PORTRAIT_BLOCK(Avatar_F_3, 64, 32, 8, 32, 8, 0),
+    PORTRAIT_BLOCK(Avatar_F_3, 64, 32, 0, 64, 16, 0),
+    PORTRAIT_BLOCK(Avatar_F_3, 8, 32, 64, 64, 24, 0),
+    portrait_Avatar_F_3_block_num,
+    PORTRAIT_BLOCK(Avatar_F_3, 64, 32, 0, 0, 0, 0),
+    PORTRAIT_BLOCK(Avatar_F_3, 64, 32, 8, 32, 8, 0),
+    PORTRAIT_BLOCK(Avatar_F_3, 64, 32, 0, 64, 16, 0),
+    PORTRAIT_BLOCK(Avatar_F_3, 8, 32, 64, 64, 24, 0),
+};
+
+const u16 portrait_Avatar_F_3_bg[] = {
+        0x809,
+        TILE_ID(16, 0), TILE_ID(17, 0), TILE_ID(18, 0), TILE_ID(19, 0), TILE_ID(20, 0), TILE_ID(21, 0), TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), 0,
+        0, TILE_ID(8, 3), TILE_ID(9, 3), TILE_ID(10, 3), TILE_ID(11, 3), TILE_ID(12, 3), TILE_ID(13, 3), TILE_ID(14, 3), TILE_ID(15, 3), 0,
+        0, TILE_ID(8, 2), TILE_ID(9, 2), TILE_ID(10, 2), TILE_ID(11, 2), TILE_ID(12, 2), TILE_ID(13, 2), TILE_ID(14, 2), TILE_ID(15, 2), 0,
+        0, TILE_ID(8, 1), TILE_ID(9, 1), TILE_ID(10, 1), TILE_ID(11, 1), TILE_ID(12, 1), TILE_ID(13, 1), TILE_ID(14, 1), TILE_ID(15, 1), 0,
+        0, TILE_ID(8, 0), TILE_ID(9, 0), TILE_ID(10, 0), TILE_ID(11, 0), TILE_ID(12, 0), TILE_ID(13, 0), TILE_ID(14, 0), TILE_ID(15, 0), 0,
+        TILE_ID(0, 3), TILE_ID(1, 3),  TILE_ID(2, 3),  TILE_ID(3, 3),  TILE_ID(4, 3),  TILE_ID(5, 3),  TILE_ID(6, 3),  TILE_ID(7, 3), 0, 0,
+        TILE_ID(0, 2), TILE_ID(1, 2),  TILE_ID(2, 2),  TILE_ID(3, 2),  TILE_ID(4, 2),  TILE_ID(5, 2),  TILE_ID(6, 2),  TILE_ID(7, 2), 0, 0,
+        TILE_ID(0, 1), TILE_ID(1, 1),  TILE_ID(2, 1),  TILE_ID(3, 1),  TILE_ID(4, 1),  TILE_ID(5, 1),  TILE_ID(6, 1),  TILE_ID(7, 1), 0, 0,
+        TILE_ID(0, 0), TILE_ID(1, 0),  TILE_ID(2, 0),  TILE_ID(3, 0),  TILE_ID(4, 0),  TILE_ID(5, 0),  TILE_ID(6, 0),  TILE_ID(7, 0), 0, 0,
+};
+
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Alfons)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Anna)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Sharon)
@@ -1816,6 +1847,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK_RECOLOR(GenericSoldierRed, GenericSoldierBl
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK_RECOLOR(GenericSoldierGreen, GenericSoldierBlue)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_F_1)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_F_2)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_F_3)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -1914,6 +1946,7 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_NOTT_BG] = &portraitNottBG,
     [PORTRAIT_ID_AVATAR_F_1] = &portraitAvatar_F_1,
     [PORTRAIT_ID_AVATAR_F_2] = &portraitAvatar_F_2,
+    [PORTRAIT_ID_AVATAR_F_3] = &portraitAvatar_F_3,
 };
 
 extern const Portrait portraitsOrig[];
