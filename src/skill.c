@@ -5231,7 +5231,7 @@ void ComputeBattleUnitSupportBonuses(struct BattleUnit* attacker, struct BattleU
     {
         struct SupportBonuses tmpBonuses;
 
-        GetUnitSupportBonuses(&attacker->unit, &tmpBonuses);
+        getUnitSupportBonuses(&attacker->unit, &tmpBonuses);
 
         attacker->battleAttack    += tmpBonuses.bonusAttack;
         attacker->battleDefense   += tmpBonuses.bonusDefense;

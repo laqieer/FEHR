@@ -209,6 +209,8 @@ struct Character {
     u8 dialogueId;
 };
 
+extern const struct Character characters[];
+
 enum Affinity {None = 0, Fire, Thunder, Wind, Water, Dark, Light, Anima};
 
 struct ItemSlot
@@ -395,7 +397,7 @@ struct SupportBonuses
     /* 06 */ u8 bonusDodge;
 };
 
-int GetUnitSupportBonuses(struct Unit* unit, struct SupportBonuses* bonuses);
+int getUnitSupportBonuses(struct Unit* unit, struct SupportBonuses* bonuses);
 
 // support conversation between character 1 & character 2
 struct SupportConversation

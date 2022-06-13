@@ -10,9 +10,11 @@ DeleteAnimsOnPopup = 0x806b85d;
 endNotQuitIfNoWeaponRankUp = 0x806bd37;
 
 gTacticianName = 0x202BC14;
+gSummonerBirthMonthAndBloodType = 0x202BC1F;
 gSummonerGender = 0x202BC20;
-
 DAT_0203e0ac = 0x203e0ac;
+
+gSummonerAffinityLUT = 0x81C8FCC;
 
 gStatScreen = 0x200310C;
 pCurrentUnitInStatusScreen = 0x2003118;
@@ -221,7 +223,6 @@ ForEachUnitInRange = 0x8023e3d;
 ForEachPositionInRange = 0x8023ea9;
 ForEachAdjacentUnit = 0x8023f01;
 ForEachAdjacentPosition = 0x8023f35;
-GetUnitSupportBonuses = 0x8026ea5;
 BattleGenerateRealInternal = 0x8028725;
 BattleRoll1RN = 0x8028a09;
 BattleRoll2RN = 0x8028a35;
@@ -263,6 +264,7 @@ isAnimationAtRight = 0x8054E61;
 endProcLevelUp = 0x806a299;
 DrawStatBar = 0x8080601;
 DrawStatWithBar = 0x8080a95;
+DisplayPage0 = 0x8080B5D;
 DisplayPage1 = 0x8080e05;
 UnitSlide_SetNewUnit = 0x80816c9;
 StatScreen_Display = 0x8081ef9;
@@ -325,6 +327,14 @@ func80a2a6c = 0x80a2a6d;
 SaveSaveMetadata = 0x809F1B1;
 UpdateLastUnusedSaveSlot = 0x80A0F61;
 CopySaveSlot = 0x80A0FE9;
+
+InitSupportBonuses = 0x8026E95;
+GetUnitSupporterCount = 0x8026AB5;
+GetUnitSupporterUnit = 0x8026AD9;
+GetUnitSupporterNum = 0x8026C99;
+GetUnitSupportLevel = 0x8026B21;
+ApplyAffinitySupportBonuses = 0x8026E3D;
+GetAffinityName = 0x8027001;
 
 SECTIONS
 {
@@ -482,6 +492,7 @@ SECTIONS
     INCLUDE ../lds/patch_allow_animation_off_for_fire_dragon.ld
     INCLUDE ../lds/patch_animation_palette_extension.lds
     INCLUDE ../lds/background.ld
+	INCLUDE ../lds/affinity.ld
 	. = 0xE007400;
 	.bss.skill : {*/skill.*(.bss.g*)}
 	.bss.buff : {*/buff.*(.bss.*)}
