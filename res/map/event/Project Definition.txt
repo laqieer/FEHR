@@ -54,7 +54,7 @@
 #define Letizia Marcus
 #define Otr Pent
 #define Fafnir Rath_t
-#define Eitri Wil_t
+#define Eitri Wil
 #define Dagr Heath
 #define Nott Vaida
 #define Ash Lowen
