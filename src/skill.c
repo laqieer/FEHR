@@ -6052,7 +6052,15 @@ void MakeTargetListForAssistSkill(struct Unit *unit)
 
 u8 isSupplyAvailable()
 {
-    return getUnitAssistSkill(currentActiveUnit) == ASSIST_SKILL_SUPPLY;
+    if(getUnitAssistSkill(currentActiveUnit) == ASSIST_SKILL_SUPPLY)
+    {
+        if(checkUnitStateIsolation(currentActiveUnit))
+            return MENU_DISABLED;
+
+        return MENU_ENABLED;
+    }
+
+    return MENU_NOTSHOWN;
 }
 
 u8 isAssistSkillAvailable(const struct MenuItem* menuItem, int number)
@@ -6062,14 +6070,14 @@ u8 isAssistSkillAvailable(const struct MenuItem* menuItem, int number)
     if(assistSkillId == 0)
         return MENU_NOTSHOWN;
 
-    // Effect of unit state Isolation
-    if(checkUnitStateIsolation(currentActiveUnit))
-        return MENU_DISABLED;
-
     // Check if target list is empty (no companion unit adjacent)
     MakeTargetListForAssistSkill(currentActiveUnit);
     if(GetTargetListSize() == 0)
         return MENU_NOTSHOWN;
+
+    // Effect of unit state Isolation
+    if(checkUnitStateIsolation(currentActiveUnit))
+        return MENU_DISABLED;
 
     return MENU_ENABLED;
 }
