@@ -2416,6 +2416,10 @@ const char* const texts[] = {
 
        [TEXT_CHARACTER_HELP_FREYJA] = "悪夢の国スヴァルトアルフの女王。兄フロージを愛し、兄のすべてを独占したいと望む。",
 
+       [TEXT_CHARACTER_NAME_TAKUMI] = "タクミ",
+
+       [TEXT_CHARACTER_HELP_TAKUMI] = "白夜王国の王子。神器【風神弓】の使い手。自己けんじ欲が強く、ひねくれ屋。",
+
        [TEXT_SUPPORT_BRUNO_VERONICA] = TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
                "ここか。。。" TCC_NEWLINE TCC_PUSH_A
