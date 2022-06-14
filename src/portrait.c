@@ -114,6 +114,8 @@
 #include "portrait_Avatar_M_3_tileset.h"
 #include "portrait_Avatar_M_4_mini.h"
 #include "portrait_Avatar_M_4_tileset.h"
+#include "portrait_Takumi_mini.h"
+#include "portrait_Takumi_tileset.h"
 #include "portrait_Lord_classcard.h"
 #include "classcard_MageKnight.h"
 #include "classcard_Halberdier.h"
@@ -1966,6 +1968,43 @@ const u16 portrait_Avatar_M_4_bg[] = {
         TILE_ID(1, 0),  TILE_ID(2, 0),  TILE_ID(3, 0),  TILE_ID(4, 0),  TILE_ID(5, 0),  TILE_ID(6, 0),  TILE_ID(7, 0), 0, 0, 0,
 };
 
+#define portrait_Takumi_width 120
+#define portrait_Takumi_height 112
+#define portrait_Takumi_block_num 8
+const u16 portrait_Takumi_obj[] = {
+    portrait_Takumi_block_num,
+    PORTRAIT_BLOCK_R(Takumi, 16, 8, 0, 104, 0, 1),
+    PORTRAIT_BLOCK_R(Takumi, 8, 16, 16, 64, 2, 0),
+    PORTRAIT_BLOCK_R(Takumi, 8, 16, 88, 64, 3, 0),
+    PORTRAIT_BLOCK_R(Takumi, 32, 16, 32, 0, 0, 2),
+    PORTRAIT_BLOCK_R(Takumi, 64, 32, 24, 16, 4, 0),
+    PORTRAIT_BLOCK_R(Takumi, 64, 32, 24, 48, 12, 0),
+    PORTRAIT_BLOCK_R(Takumi, 64, 32, 16, 80, 20, 0),
+    PORTRAIT_BLOCK_R(Takumi, 32, 32, 80, 80, 28, 0),
+    portrait_Takumi_block_num,
+    PORTRAIT_BLOCK(Takumi, 16, 8, 0, 104, 0, 1),
+    PORTRAIT_BLOCK(Takumi, 8, 16, 16, 64, 2, 0),
+    PORTRAIT_BLOCK(Takumi, 8, 16, 88, 64, 3, 0),
+    PORTRAIT_BLOCK(Takumi, 32, 16, 32, 0, 0, 2),
+    PORTRAIT_BLOCK(Takumi, 64, 32, 24, 16, 4, 0),
+    PORTRAIT_BLOCK(Takumi, 64, 32, 24, 48, 12, 0),
+    PORTRAIT_BLOCK(Takumi, 64, 32, 16, 80, 20, 0),
+    PORTRAIT_BLOCK(Takumi, 32, 32, 80, 80, 28, 0),
+};
+
+const u16 portrait_Takumi_bg[] = {
+    0x809,
+    TILE_ID(2, 0), TILE_ID(12, 2), TILE_ID(13, 2), TILE_ID(14, 2), TILE_ID(15, 2), TILE_ID(16, 2), TILE_ID(17, 2), TILE_ID(18, 2), TILE_ID(19, 2), TILE_ID(3, 0),
+    0, TILE_ID(12, 1), TILE_ID(13, 1), TILE_ID(14, 1), TILE_ID(15, 1), TILE_ID(16, 1), TILE_ID(17, 1), TILE_ID(18, 1), TILE_ID(19, 1), 0,
+    0, TILE_ID(12, 0), TILE_ID(13, 0), TILE_ID(14, 0), TILE_ID(15, 0), TILE_ID(16, 0), TILE_ID(17, 0), TILE_ID(18, 0), TILE_ID(19, 0), 0,
+    0, TILE_ID(4, 3), TILE_ID(5, 3), TILE_ID(6, 3), TILE_ID(7, 3), TILE_ID(8, 3), TILE_ID(9, 3), TILE_ID(10, 3), TILE_ID(11, 3), 0,
+    0, TILE_ID(4, 2), TILE_ID(5, 2), TILE_ID(6, 2), TILE_ID(7, 2), TILE_ID(8, 2), TILE_ID(9, 2), TILE_ID(10, 2), TILE_ID(11, 2), 0,
+    0, TILE_ID(4, 1), TILE_ID(5, 1), TILE_ID(6, 1), TILE_ID(7, 1), TILE_ID(8, 1), TILE_ID(9, 1), TILE_ID(10, 1), TILE_ID(11, 1), 0,
+    0, TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), TILE_ID(8, 0), TILE_ID(9, 0), TILE_ID(10, 0), TILE_ID(11, 0), 0,
+    0, 0, TILE_ID(0, 3), TILE_ID(1, 3), TILE_ID(2, 3), TILE_ID(3, 3), 0, 0, 0, 0,
+    0, 0, TILE_ID(0, 2), TILE_ID(1, 2), TILE_ID(2, 2), TILE_ID(3, 2), 0, 0, 0, 0,
+};
+
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Alfons)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Anna)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Sharon)
@@ -2016,6 +2055,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_M_1)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_M_2)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_M_3)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_M_4)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Takumi)
 
 const Portrait portraitFjorm = {
     portrait_Fjorm_tilesetTiles,
@@ -2120,6 +2160,7 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_AVATAR_M_2] = &portraitAvatar_M_2,
     [PORTRAIT_ID_AVATAR_M_3] = &portraitAvatar_M_3,
     [PORTRAIT_ID_AVATAR_M_4] = &portraitAvatar_M_4,
+    [PORTRAIT_ID_TAKUMI] = &portraitTakumi,
 };
 
 char getSummonerGender();

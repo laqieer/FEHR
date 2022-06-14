@@ -62,6 +62,7 @@
 #define Elm Lucius
 #define MyUnit Athos
 #define Avatar MyUnit
+#define Takumi Matthew
 
 #define GenericSoldierHel 0x75
 #define GenericSoldierHelWeak 0x76

@@ -5,7 +5,7 @@
 "Ｉｔ　ｆｉｒｅｓ　ｓｏｍｅｔｈｉｎｇ　ｏｕｔ　ｏｆ　ｉｔ，"TCC_NEWLINE"　ａｃｃｏｒｄｉｎｇ　ｔｏ　ｌｅｇｅｎｄ，　ｂｕｔ　Ｂｒｅー"TCC_NEWLINE"ｉｄａｂｌｉｋ　ｄｏｅｓｎ’ｔ　ｌｏｏｋ　ｌｉｋｅ　ａｎｙ"TCC_NEWLINE"　ｂｏｗ　Ｉ’ｖｅ　ｅｖｅｒ　ｓｅｅｎ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅ　ｌｅｇｅｎｄ　ａｌｓｏ　ｃａｌｌｓ　ｉｔ　ｔｈｅ　"TCC_NEWLINE"ｔｒｕｅ　ｋｅｙ，　ｗｈｉｃｈ，　ｉｆ　ｒａｉｓｅｄ　ｈｉー"TCC_NEWLINE"ｇｈ，　ｗｉｌｌ　ｓｕｍｍｏｎ　ｔｈｅ　Ｇｒｅａｔ　Ｈｅｒー"TCC_NEWLINE"ｏ　ｗｈｏ　ｃａｎ　ｆｉｒｅ　ｉｔ．"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈａｔ’ｓ　ｗｈａｔ　Ｉ　ｄｉｄ．　Ａｎｄ　ｎｏｗ　ｙｏー"TCC_NEWLINE"ｕ’ｒｅ　ｈｅｒｅ．　Ｓｏ　ｉｔ’ｓ　ａｌｌ　ｙｏｕｒｓ　"TCC_NEWLINE"ｎｏｗ．　Ｈｏｐｅｆｕｌｌｙ　ｙｏｕ　ｃａｎ　ｆｉｇｕｒｅ"TCC_NEWLINE"　ｏｕｔ　ｈｏｗ　ｔｏ"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT
+TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_GENERIC_SOLDIER_RED
 "ＴＨＥＲＥ　ＳＨＥ　ＩＳ！　ＧＥＴ　ＨＥＲ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｄｒａｔ．　Ｍｏｒｅ　ｏｆ　ｔｈｏｓｅ　Ｅｍｂｌｉａｎ　ｓー"TCC_NEWLINE"ｏｌｄｉｅｒｓ．　Ｉ　ｃａｎ’ｔ　ｄｅｆｅａｔ　ｔｈｅｍ　"TCC_NEWLINE"ａｌｌ　ｂｙ　ｍｙｓｅｌｆ，　ａｎｄ　ｙｏｕ’ｒｅ　ｎｏｔ"TCC_NEWLINE"　ｅｑｕｉｐｐｅｄ　ｔｏ　ｈｅｌｐ　ｍｅ．"TCC_NEWLINE TCC_PUSH_A
@@ -13,7 +13,7 @@ TCC_OPEN_LEFT
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ’ｓ　ｔｈａｔ？！　Ｔｈａｔ　ｂｒｉｇｈｔ　ｌｉｇー"TCC_NEWLINE"ｈｔ，　ｃｏｍｉｎｇ　ｆｒｏｍ．．．"
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
-[MID_SCENARIO_MAP_BEGIN_S0002_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_MAP_BEGIN_S0002_EN] = TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_TAKUMI
 "Ｉ’ｍ　Ｔａｋｕｍｉ，　ａ　ｐｒｉｎｃｅ　ｏｆ　Ｈｏｓｈｉー"TCC_NEWLINE"ｄｏ　ａｎｄ　ｗｉｅｌｄｅｒ　ｏｆ　ｔｈｅ　ｄｉｖｉｎｅ　"TCC_NEWLINE"Ｆｕｊｉｎ　Ｙｕｍｉ．　Ｗｈｉｃｈ　ｍａｋｅｓ　ｍｅ　ｐｒー"TCC_NEWLINE"ｅｔｔｙ　ｕｓｅｆｕｌ，　Ｉ’ｄ　ｓａｙ．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT TCC_LOAD_FACE PORTRAIT_ANNA
 "Ｈｏｗ’ｄ　ｙｏｕ　ｄｏ　ｔｈａｔ？　Ｙｏｕ　ｓｕｍｍｏｎー"TCC_NEWLINE"ｅｄ　ａ　Ｈｅｒｏ，"TCC_NEWLINE
