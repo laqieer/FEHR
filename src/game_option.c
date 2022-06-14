@@ -100,48 +100,64 @@ enum {
 enum {
     GENDER_MALE,
     GENDER_FEMALE,
-    GENDER_MYSTERY
+    //GENDER_MYSTERY
 };
 
-#define DefineGameOption(name, min, max)    char get##name() \
-                                            { \
-                                                if(g##name < (min) || g##name > (max)) \
-                                                    g##name = (min); \
-                                                return g##name; \
-                                            } \
-                                            void set##name(char name) \
-                                            { \
-                                                if(g##name >= (min) && g##name <= (max)) \
-                                                    g##name = name; \
-                                            } \
-                                            int OptionMenuItem##name##Handler(u32 procParent) \
-                                            { \
-                                                int item = gCurrentSelectedItemInOptionMenu; \
-                                                if((sKeyStatusBuffer.repeatedKeys & 0x30) == 0) \
-                                                    return 0; \
-                                                int result = OptionMenuItemHandlerBasic(procParent); \
-                                                if((sKeyStatusBuffer.repeatedKeys & 0x20) == 0) \
+int getSummonerGender()
+{
+    return gSummonerGender & 1;
+}
+
+void setSummonerGender(int gender)
+{
+    gSummonerGender = (gSummonerGender & 0xFE) | (gender & 1);
+}
+
+#define DefineGameOptionGetter(name, min, max)  char get##name() \
                                                 { \
-                                                    if(get##name() >= (min) && get##name() < (max)) \
+                                                    if(g##name < (min) || g##name > (max)) \
+                                                        g##name = (min); \
+                                                    return g##name; \
+                                                }
+
+#define DefineGameOptionSetter(name, min, max)  void set##name(char name) \
+                                                { \
+                                                    if(g##name >= (min) && g##name <= (max)) \
+                                                        g##name = name; \
+                                                }
+
+#define DefineGameOptionHandler(name, min, max) int OptionMenuItem##name##Handler(u32 procParent) \
+                                                { \
+                                                    int item = gCurrentSelectedItemInOptionMenu; \
+                                                    if((sKeyStatusBuffer.repeatedKeys & 0x30) == 0) \
+                                                        return 0; \
+                                                    int result = OptionMenuItemHandlerBasic(procParent); \
+                                                    if((sKeyStatusBuffer.repeatedKeys & 0x20) == 0) \
                                                     { \
-                                                        set##name(get##name() + 1); \
-                                                        result = 1; \
+                                                        if(get##name() >= (min) && get##name() < (max)) \
+                                                        { \
+                                                            set##name(get##name() + 1); \
+                                                            result = 1; \
+                                                        } \
                                                     } \
-                                                } \
-                                                else \
-                                                { \
-                                                    if(get##name() > (min) && get##name() <= (max)) \
+                                                    else \
                                                     { \
-                                                        set##name(get##name() - 1); \
-                                                        result = 1; \
+                                                        if(get##name() > (min) && get##name() <= (max)) \
+                                                        { \
+                                                            set##name(get##name() - 1); \
+                                                            result = 1; \
+                                                        } \
                                                     } \
-                                                } \
-                                                if(result) \
-                                                { \
-                                                    DisplayItemAlternativesInOptionMenu(item, item % 7, item * 2 + 4); \
-                                                } \
-                                                return result; \
-                                            }
+                                                    if(result) \
+                                                    { \
+                                                        DisplayItemAlternativesInOptionMenu(item, item % 7, item * 2 + 4); \
+                                                    } \
+                                                    return result; \
+                                                }
+
+#define DefineGameOption(name, min, max)    DefineGameOptionGetter(name, min, max) \
+                                            DefineGameOptionSetter(name, min, max) \
+                                            DefineGameOptionHandler(name, min, max)
 
 char getCurrentGameLanguage()
 {
@@ -355,7 +371,7 @@ int OptionMenuItemEnemySpecialSkillLevelHandler(u32 procParent)
     return result;
 }
 
-DefineGameOption(SummonerGender, GENDER_MALE, GENDER_MYSTERY)
+DefineGameOptionHandler(SummonerGender, GENDER_MALE, GENDER_FEMALE)
 DefineGameOption(SummonerAppearance, 0, 3)
 
 #pragma GCC push_options
@@ -409,7 +425,8 @@ const struct OptionMenuItemInfo OptionMenuItemInfos[] = {
     {TEXT_OPTION_RANDOM_MODE, 0, {{TEXT_OPTION_PSEUDO_RANDOM_HELP, TEXT_OPTION_PSEUDO_RANDOM, 120, 2, 0}, {TEXT_OPTION_REAL_RANDOM_HELP, TEXT_OPTION_REAL_RANDOM, 143 + 8, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 36, 0, 0, OptionMenuItemRandomModeHandler} ,  // 12 ランダムモード
     {TEXT_OPTION_TRUE_HIT, 0, {{TEXT_OPTION_TRUE_HIT_ON_HELP, TEXT_OPTION_TRUE_HIT_ON, 120, 2, 0}, {TEXT_OPTION_TRUE_HIT_OFF_HELP, TEXT_OPTION_TRUE_HIT_OFF, 143 + 8 * 3, 2, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 38, 0, 0, OptionMenuItemTrueHitHandler} ,  // 13 命中判定
     {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL, 0, {{TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_NONE_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_NONE, 120, 1, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_WEAK_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_WEAK, 135, 1, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_STRONG_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_STRONG, 150, 2, 0}, {TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED_HELP, TEXT_OPTION_ENEMY_SPECIAL_SKILL_LEVEL_MIXED, 165, 2, 0}}, 40, 0, 0, OptionMenuItemEnemySpecialSkillLevelHandler} ,  // 14 雑魚敵の奥義スキル
-    {TEXT_OPTION_SUMMONER_GENDER, 0, {{TEXT_OPTION_SUMMONER_GENDER_MALE_HELP, TEXT_OPTION_SUMMONER_GENDER_MALE, 120, 1, 0}, {TEXT_OPTION_SUMMONER_GENDER_FEMALE_HELP, TEXT_OPTION_SUMMONER_GENDER_FEMALE, 135, 1, 0}, {TEXT_OPTION_SUMMONER_GENDER_MYSTERY_HELP, TEXT_OPTION_SUMMONER_GENDER_MYSTERY, 150, 2, 0}, {0, 0, 197, 0, 0}}, 42, 0, 0, OptionMenuItemSummonerGenderHandler} ,  // 15 マイ召喚師の性別
+    //{TEXT_OPTION_SUMMONER_GENDER, 0, {{TEXT_OPTION_SUMMONER_GENDER_MALE_HELP, TEXT_OPTION_SUMMONER_GENDER_MALE, 120, 1, 0}, {TEXT_OPTION_SUMMONER_GENDER_FEMALE_HELP, TEXT_OPTION_SUMMONER_GENDER_FEMALE, 135, 1, 0}, {TEXT_OPTION_SUMMONER_GENDER_MYSTERY_HELP, TEXT_OPTION_SUMMONER_GENDER_MYSTERY, 150, 2, 0}, {0, 0, 197, 0, 0}}, 42, 0, 0, OptionMenuItemSummonerGenderHandler} ,  // 15 マイ召喚師の性別
+    {TEXT_OPTION_SUMMONER_GENDER, 0, {{TEXT_OPTION_SUMMONER_GENDER_MALE_HELP, TEXT_OPTION_SUMMONER_GENDER_MALE, 120, 1, 0}, {TEXT_OPTION_SUMMONER_GENDER_FEMALE_HELP, TEXT_OPTION_SUMMONER_GENDER_FEMALE, 151, 1, 0}, {0, 0, 198, 0, 0}, {0, 0, 197, 0, 0}}, 42, 0, 0, OptionMenuItemSummonerGenderHandler} ,  // 15 マイ召喚師の性別
     {TEXT_OPTION_SUMMONER_APPEARANCE, 0, {{TEXT_OPTION_SUMMONER_APPEARANCE_1_HELP, TEXT_OPTION_SUMMONER_APPEARANCE_1, 120, 1, 0}, {TEXT_OPTION_SUMMONER_APPEARANCE_2_HELP, TEXT_OPTION_SUMMONER_APPEARANCE_2, 135, 1, 0}, {TEXT_OPTION_SUMMONER_APPEARANCE_3_HELP, TEXT_OPTION_SUMMONER_APPEARANCE_3, 150, 2, 0}, {TEXT_OPTION_SUMMONER_APPEARANCE_4_HELP, TEXT_OPTION_SUMMONER_APPEARANCE_4, 165, 2, 0}}, 44, 0, 0, OptionMenuItemSummonerAppearanceHandler} ,  // 15 マイ召喚師の外見
 };
 
