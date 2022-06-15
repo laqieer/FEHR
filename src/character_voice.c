@@ -42,6 +42,7 @@ const struct CharacterVoice characterVoices[0xff] = {
         DEFINE_CHARACTER_VOICE(ASH)
         DEFINE_CHARACTER_VOICE(VERONICA_STAIN)
         DEFINE_CHARACTER_VOICE(ELM)
+        DEFINE_CHARACTER_VOICE(TAKUMI)
 };
 /*
 const struct Song *textVoices[0xffff] = {
