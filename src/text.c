@@ -2420,6 +2420,17 @@ const char* const texts[] = {
 
        [TEXT_CHARACTER_HELP_TAKUMI] = "白夜王国の王子。神器【風神弓】の使い手。自己けんじ欲が強く、ひねくれ屋。",
 
+       [TEXT_SUPPORT_AVATAR_TAKUMI]= TCC_OPEN_LEFT
+           TCC_LOAD_FACE PORTRAIT_TAKUMI
+               "。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_OPEN_RIGHT
+               TCC_LOAD_FACE PORTRAIT_AVATAR
+               "。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_OPEN_LEFT
+               TCC_CLEAR_FACE
+               TCC_OPEN_RIGHT
+               TCC_CLEAR_FACE,
+
        [TEXT_SUPPORT_BRUNO_VERONICA] = TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
                "ここか。。。" TCC_NEWLINE TCC_PUSH_A
