@@ -10,6 +10,7 @@ extern u8 * const character_palette_Sharena_lz[];
 extern u8 * const character_palette_Xander_lz[];
 extern u8 * const character_palette_Laevatein_lz[];
 extern u8 * const character_palette_MyUnit_lz[];
+extern u8 * const character_palette_Takumi_lz[];
 
 const struct CharacterPalette characterPalettes[] = {
     {"lin", 150835200} ,  // 0x01 Lyn unpromoted
@@ -263,6 +264,8 @@ const struct CharacterPalette characterPalettes[] = {
     {"Laevatein", character_palette_Laevatein_lz}, // 0x7D Laevatein
 
     {"Kiran", character_palette_MyUnit_lz}, // 0x7E My Unit
+
+    {"Takumi", character_palette_Takumi_lz}, // 0x7F Takumi
 };
 
 const struct CharacterPalette * const pCharacterPalettes1 = characterPalettes;
