@@ -586,7 +586,7 @@ const struct ItemSpellAssociation itemSpellAssociations[] = {
     {0xa4, 2, 2, 0, 1, 0, 0, 0} ,
     {ITEM_WRETCHED_AIR, 2, 0x15, 0, 1, 0, FLASH_COLOR_DRAK, 0} ,  // 
     {ITEM_DIVINE_DRAGONSTONE, 2, 0x14, 0, 1, 0, FLASH_COLOR_BLUE, 0} ,  // 
-    {ITEM_BREIDABLIK, 2, 2, 0, 1, 0, FLASH_COLOR_DRAK, 0} ,  // 
+    {ITEM_BREIDABLIK, 2, 2, 0, 1, 0, FLASH_COLOR_WHITE, 0} ,  // 
     {ITEM_FUJIN_YUMI, 2, 2, 0, 1, 0, FLASH_COLOR_BLUE, 0} ,  // 
 
     {65535, 2, 65535, 0, 1, 0, 0, 0} ,  // End of list 
