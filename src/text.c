@@ -322,6 +322,12 @@ const char* const texts[] = {
                "すぎたか。。。" TCC_NEWLINE TCC_PUSH_A
                TCC_CLEAR_FACE,
 
+        [TEXT_DEATH_QUOTE_TAKUMI] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_TAKUMI
+               "お前。。。" TCC_NEWLINE
+               "なんかに。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
         [TEXT_CHARACTER_NAME_LOKI] = "ロキ",
 
         [TEXT_CHARACTER_HELP_LOKI] = "炎の王国ムスペルの軍師。悪戯好きで、人を誘惑することを好む。",
