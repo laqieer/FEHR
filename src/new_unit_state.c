@@ -8,6 +8,7 @@
 #include "job_id.h"
 #include "character.h"
 #include "skill.h"
+#include "skill_id.h"
 
 #include "new_unit_state.h"
 
@@ -538,12 +539,24 @@ int GetUnitMovement(struct Unit* unit)
 }
 
 const s8* GetUnitMovementCost(struct Unit* unit);
-void SetWorkingMoveCosts(const s8 mct[]);
 void GenerateMovementMap(int x, int y, int movement, int unitId);
+
+void setWorkingMoveCosts(const s8 mct[])
+{
+    for (int i = 0; i < TERRAIN_COUNT; ++i)
+    {
+        if(getUnitPassiveSkillS(currentActiveUnit) == PASSIVE_SKILL_S_SUREFOOTED && mct[i] > 0)
+        {
+            gWorkingTerrainMoveCosts[i] = 1;
+            continue;
+        }
+        gWorkingTerrainMoveCosts[i] = mct[i];
+    }
+}
 
 void GenerateUnitMovementMap(struct Unit* unit)
 {
-    SetWorkingMoveCosts(GetUnitMovementCost(unit));
+    setWorkingMoveCosts(GetUnitMovementCost(unit));
     gWorkingBmMap = gBmMapMovement;
     GenerateMovementMap(unit->positionX, unit->positionY, GetUnitMovement(unit), unit->number + (unit->side << 6));
 }
@@ -555,7 +568,7 @@ void GenerateUnitMovementMapInjector(struct Unit* unit)
 
 void GenerateUnitMovementMapExt(struct Unit* unit, s8 movement)
 {
-    SetWorkingMoveCosts(GetUnitMovementCost(unit));
+    setWorkingMoveCosts(GetUnitMovementCost(unit));
     gWorkingBmMap = gBmMapMovement;
     GenerateMovementMap(unit->positionX, unit->positionY, checkUnitStateGravity(unit)? 1: movement + checkUnitStateMobilityIncreased(unit), unit->number + (unit->side << 6));
 }
@@ -567,7 +580,7 @@ void GenerateUnitMovementMapExtInjector(struct Unit* unit, s8 movement)
 
 void GenerateMovementMapOnWorkingMap(struct Unit* unit, int x, int y, int movement)
 {
-    SetWorkingMoveCosts(GetUnitMovementCost(unit));
+    setWorkingMoveCosts(GetUnitMovementCost(unit));
     GenerateMovementMap(x, y, checkUnitStateGravity(unit)? 1: movement + checkUnitStateMobilityIncreased(unit), unit->number + (unit->side << 6));
 }
 

@@ -104,6 +104,9 @@ extern const struct WeaponTriangleRule sWeaponTriangleRules[];
 
 extern u8** gBmMapMovement;
 extern u8** gWorkingBmMap;
+extern u8 gWorkingTerrainMoveCosts[];
+
+#define TERRAIN_COUNT 65
 
 void BattleApplyReaverEffect(struct BattleUnit* attacker, struct BattleUnit* defender);
 

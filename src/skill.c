@@ -7630,6 +7630,7 @@ const struct PassiveSkill passiveSkillSs[] = {
     {"不動の姿勢", "自身と敵の戦闘順入替スキル（待ち伏せ、攻め立て等）無効", "Hardy Bearing", "Disables unit's and foe's skills that change attack priority."},
     {"重装のブーツ", "ターン開始時、自身のＨＰが１００パーセントなら、移動＋１（１ターン、重複しない）", "Armored Boots", "At start of turn, if unit's HP = 100%, unit can move 1 extra space. (That turn only. Does not stack.)"},
     {"無限の悪夢", "ターン開始時、全ての敵の攻撃、速さ、守備、魔防ー２", "Infinite Nightmare", "At start of turn, foe's Atk/Spd/Def/Res-2."},
+    {"悪路とうは", "移動できる地形を平地同様に移動できる", "Surefooted", "unit cannot be slowed by terrain. (Does not apply to impassable terrain.)"},
 };
 
 const u16 itemPassiveSkillSs[0x100] = {
@@ -7642,6 +7643,7 @@ const u16 itemPassiveSkillSs[0x100] = {
     [ITEM_SACRED_SEAL_HARDY_BEARING] = PASSIVE_SKILL_S_HARDY_BEARING,
     [ITEM_SACRED_SEAL_ARMORED_BOOTS] = PASSIVE_SKILL_S_ARMORED_BOOTS,
     [ITEM_NIGHTMARE_FANG] = PASSIVE_SKILL_S_NIGHTMARE,
+    [ITEM_FUJIN_YUMI] = PASSIVE_SKILL_S_SUREFOOTED,
 };
 
 u16 getUnitPassiveSkillS(struct Unit *unit)

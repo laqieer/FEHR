@@ -67,6 +67,7 @@ gBmMapPtr = 0x202e3e4;
 gBmMapFog = 0x202e3e8;
 gBmMapHidden = 0x202e3ec;
 gRAMChapterData = 0x202bbf4;
+gWorkingTerrainMoveCosts = 0x3004310;
 
 gBattleStats = 0x203a3d4;
 gBattleActor = 0x203a3ec;
