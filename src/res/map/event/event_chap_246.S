@@ -56,7 +56,7 @@ EndingScene:
 	ENDA
 AllyUnitsENM:
 	UNIT(MyUnit,Summoner,Anna,1,SIDE_ALLY,1,0,11,0,11,Breidablik,0,0,0,0,0,0,0)
-	UNIT(Takumi,Sniper,Anna,1,SIDE_ALLY,1,0,13,0,13,SilverBow,0,0,0,0,0,0,0)
+	UNIT(Takumi,Sniper,Anna,1,SIDE_ALLY,1,0,13,0,13,FujinYumi,0,0,0,0,0,0,0)
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericEmblianSuperWeak,Warrior,0,30,SIDE_ENEMY,1,8,11,8,11,SteelAxe,None,0,0,AttackInRange,Pursue,NoRecovery,DefaultAI4) // 

@@ -2426,6 +2426,10 @@ const char* const texts[] = {
 
        [TEXT_CHARACTER_HELP_TAKUMI] = "白夜王国の王子。神器【風神弓】の使い手。自己けんじ欲が強く、ひねくれ屋。",
 
+       [TEXT_ITEM_NAME_FUJIN_YUMI] = "風神弓",
+
+       [TEXT_ITEM_HELP_FUJIN_YUMI] = "飛行特効　タクミ専用　魔防＋３",
+
        [TEXT_SUPPORT_AVATAR_TAKUMI]= TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_TAKUMI
                "。。。" TCC_NEWLINE TCC_PUSH_A

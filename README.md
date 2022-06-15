@@ -101,4 +101,4 @@ cd build && make
 |---|---|
 |Iron Dagger, Steel Dagger, Silver Dagger|FEier|
 |Poison Dagger, Smoke Dagger, Rogue Dagger|Ereshkigal|
-
+|Fujin Yumi|Beansy|

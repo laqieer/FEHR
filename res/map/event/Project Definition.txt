@@ -181,6 +181,7 @@
 #define ArmoredBoots 0xb2
 #define NightmareFang 0xb3
 #define Breidablik 0xb4
+#define FujinYumi 0xb5
 
 // AI
 #define DefaultAi4 DefaultAI4
