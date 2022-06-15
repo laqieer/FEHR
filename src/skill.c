@@ -931,7 +931,10 @@ void specialSkillFireEmblemEffect(struct BattleUnit* attacker, struct BattleUnit
     if(gBattleStats.damage)
         attacker->nonZeroDamage = 1;
 
-    //TODO: buff self & companions
+    forAllAliveUnitsInSide(addUnitBuffPower, 4, attacker->unit.side);
+    forAllAliveUnitsInSide(addUnitBuffSpeed, 4, attacker->unit.side);
+    forAllAliveUnitsInSide(addUnitBuffDefense, 4, attacker->unit.side);
+    forAllAliveUnitsInSide(addUnitBuffResistance, 4, attacker->unit.side);
 }
 
 /*
