@@ -2573,6 +2573,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_HELL_ID] = SPECIAL_SKILL_MIRACLE,
         [CHARACTER_FREYJA_ID] = SPECIAL_SKILL_LUNA,
         [CHARACTER_ID_MYUNIT] = SPECIAL_SKILL_FIRE_EMBLEM,
+        [CHARACTER_ID_TAKUMI] = SPECIAL_SKILL_VENGEANCE,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -7266,7 +7267,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"–‚“¹‚Ìn‚Q", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª”¼•ªˆÈã‚ÅŽ©g‚ª–¡•û‚Ì–‚–@‚Æ—×Ú‚µ‚Ä‚¢‚éê‡A“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZ", "Sorcery Blade 2", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"–‚“¹‚Ìn‚R", "í“¬ŠJŽnŽžAŽ©g‚ª–¡•û‚Ì–‚–@‚Æ—×Ú‚µ‚Ä‚¢‚éê‡A“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZ", "Sorcery Blade 3", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"–‚“¹‚Ìn‚S", "í“¬ŠJŽnŽžAŽ©g‚ª–¡•û‚Ì–‚–@‚Æ—×Ú‚µ‚Ä‚¢‚éê‡A“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZA‚©‚ÂAƒ_ƒ[ƒW{‚T", "Sorcery Blade 4", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res and deals +5 damage to foe."},
-    {"‰“‚«‚å—£”½Œ‚", "“G‚©‚çUŒ‚‚³‚ê‚½ŽžA‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Distant Counter", "Unit can counterattack regardless of foe's range."},
+    {"‰“‚«‚å‚è”½Œ‚", "“G‚©‚çUŒ‚‚³‚ê‚½ŽžA‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Distant Counter", "Unit can counterattack regardless of foe's range."},
     {"_Œ•‚P", "‘¬‚³‚ª“G‚æ‚è‚TˆÈã‚‚¢ŽžAŽ©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 1", "If unitfs Spd >= foefs Spd+5, grants Special cooldown charge +1 per unit's attack."},
     {"_Œ•‚Q", "‘¬‚³‚ª“G‚æ‚è‚RˆÈã‚‚¢ŽžAŽ©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 2", "If unitfs Spd >= foefs Spd+3, grants Special cooldown charge +1 per unit's attack."},
     {"_Œ•‚R", "‘¬‚³‚ª“G‚æ‚è‚PˆÈã‚‚¢ŽžAŽ©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 3", "If unitfs Spd > foefs Spd, grants Special cooldown charge +1 per unit's attack."},
@@ -7307,6 +7308,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"K‰^‚Q", "K‰^{‚R", "Luck 2", "Grants Luk+3."},
     {"K‰^‚R", "K‰^{‚T", "Luck 3", "Grants Luk+5."},
     {"K‰^‚S", "K‰^{‚V", "Luck 4", "Grants Luk+7."},
+    {"‹ß‚«‚å‚è”½Œ‚", "“G‚©‚çUŒ‚‚³‚ê‚½ŽžA‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Close Counter", "Unit can counterattack regardless of foe's range."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -7334,6 +7336,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     //[CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_NIGHTMARE_QUEEN_1, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_2, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_3, PASSIVE_SKILL_A_NIGHTMARE_QUEEN_4},
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_ATK_SPD_SOLO_1, PASSIVE_SKILL_A_ATK_SPD_SOLO_2, PASSIVE_SKILL_A_ATK_SPD_SOLO_3, PASSIVE_SKILL_A_ATK_SPD_SOLO_4},
     [CHARACTER_ID_MYUNIT] = {PASSIVE_SKILL_A_LUCK_1, PASSIVE_SKILL_A_LUCK_2, PASSIVE_SKILL_A_LUCK_3, PASSIVE_SKILL_A_LUCK_4},
+    [CHARACTER_ID_TAKUMI] = {PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -7561,6 +7564,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"ƒtƒ@ƒCƒAƒGƒuƒŒƒ€‚Q", "ŽüˆÍ‚Qƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚A‘¬‚³AŽç”õA–‚–h{‚QAŽüˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A‘¬‚³AŽç”õA–‚–h[‚Q", "Fire Emblem 2", "Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat. Inflicts Atk/Spd/Def/Res-2 on foes within 2 spaces during combat."},
     {"ƒtƒ@ƒCƒAƒGƒuƒŒƒ€‚R", "ŽüˆÍ‚Qƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚A‘¬‚³AŽç”õA–‚–h{‚RAŽüˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A‘¬‚³AŽç”õA–‚–h[‚R", "Fire Emblem 3", "Grants Atk/Spd/Def/Res+3 to allies within 2 spaces during combat. Inflicts Atk/Spd/Def/Res-3 on foes within 2 spaces during combat."},
     {"ƒtƒ@ƒCƒAƒGƒuƒŒƒ€‚S", "ŽüˆÍ‚Qƒ}ƒX‚Ì–¡•û‚ÍAí“¬’†AUŒ‚A‘¬‚³AŽç”õA–‚–h{‚SAŽüˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A‘¬‚³AŽç”õA–‚–h[‚S", "Fire Emblem 4", "Grants Atk/Spd/Def/Res+4 to allies within 2 spaces during combat. Inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces during combat."},
+    {"‘¬‚³‚Ì‚¢‚©‚­‚P", "ƒ^[ƒ“ŠJŽnŽžAŽüˆÍ‚Qƒ}ƒX‚Ì“G‚Ì‘¬‚³|‚Ri‚Pƒ^[ƒ“j", "Threaten Spd 1", "At start of turn, inflicts Spd-3 on foes within 2 spaces for 1 turn."},
+    {"‘¬‚³‚Ì‚¢‚©‚­‚Q", "ƒ^[ƒ“ŠJŽnŽžAŽüˆÍ‚Qƒ}ƒX‚Ì“G‚Ì‘¬‚³|‚Si‚Pƒ^[ƒ“j", "Threaten Spd 2", "At start of turn, inflicts Spd-4 on foes within 2 spaces for 1 turn."},
+    {"‘¬‚³‚Ì‚¢‚©‚­‚R", "ƒ^[ƒ“ŠJŽnŽžAŽüˆÍ‚Qƒ}ƒX‚Ì“G‚Ì‘¬‚³|‚Ti‚Pƒ^[ƒ“j", "Threaten Spd 3", "At start of turn, inflicts Spd-5 on foes within 2 spaces for 1 turn."},
+    {"‘¬‚³‚Ì‚¢‚©‚­‚S", "ƒ^[ƒ“ŠJŽnŽžAŽüˆÍ‚Qƒ}ƒX‚Ì“G‚Ì‘¬‚³|‚Vi‚Pƒ^[ƒ“j", "Threaten Spd 4", "At start of turn, inflicts Spd-7 on foes within 2 spaces for 1 turn."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -7586,6 +7593,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_MIRABILIS_ID] = {PASSIVE_SKILL_C_DEF_RES_GAP_1, PASSIVE_SKILL_C_DEF_RES_GAP_2, PASSIVE_SKILL_C_DEF_RES_GAP_3, PASSIVE_SKILL_C_DEF_RES_GAP_4},
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_C_PULSE_SMOKE_1, PASSIVE_SKILL_C_PULSE_SMOKE_2, PASSIVE_SKILL_C_PULSE_SMOKE_3, PASSIVE_SKILL_C_PULSE_SMOKE_4},
     [CHARACTER_ID_MYUNIT] = {PASSIVE_SKILL_C_FIRE_EMBLEM_1, PASSIVE_SKILL_C_FIRE_EMBLEM_2, PASSIVE_SKILL_C_FIRE_EMBLEM_3, PASSIVE_SKILL_C_FIRE_EMBLEM_4},
+    [CHARACTER_ID_TAKUMI] = {PASSIVE_SKILL_C_THREATEN_SPD_1, PASSIVE_SKILL_C_THREATEN_SPD_2, PASSIVE_SKILL_C_THREATEN_SPD_3, PASSIVE_SKILL_C_THREATEN_SPD_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
@@ -8692,7 +8700,7 @@ void SetBattleUnitWeapon(struct BattleUnit* bu, int itemSlot) {
         }
 
         if (!IsItemCoveringRange(bu->weapon, gBattleStats.range) || bu->weaponSlotIndex == 0xFF) {
-            if (gBattleStats.range == 1 || bu == &gBattleActor || getUnitPassiveSkillA(&bu->unit) != PASSIVE_SKILL_A_DISTANT_COUNTER) {
+            if (bu == &gBattleActor || (getUnitPassiveSkillA(&bu->unit) != PASSIVE_SKILL_A_DISTANT_COUNTER && getUnitPassiveSkillA(&bu->unit) != PASSIVE_SKILL_A_CLOSE_COUNTER)) {
                 bu->weapon = 0;
                 bu->canCounter = 0;
             }
