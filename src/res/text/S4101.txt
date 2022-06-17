@@ -62,8 +62,8 @@ TCC_OPEN_RIGHT
 "。。。。。。。" TCC_NEWLINE
 "幼い頃のフレイヤは。。。" TCC_NEWLINE
 "気が弱く、心優しい子だった。" TCC_NEWLINE TCC_PUSH_A
-"鼻に大きな痣があり。。。" TCC_NEWLINE
-"豚のようだと皆に嘲笑われ、" TCC_NEWLINE
+"鼻に大きなあざがあり。。。" TCC_NEWLINE
+"ぶたのようだと皆に嘲笑われ、" TCC_NEWLINE
 "いつも泣いていた。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT

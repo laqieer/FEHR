@@ -1,12 +1,4 @@
 { "columns":0,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"",
-         "target":"."
-        }
-    },
  "grid":
     {
      "height":1,
@@ -16,8 +8,8 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":19,
- "tiledversion":"1.4.2",
+ "tilecount":21,
+ "tiledversion":"1.8.6",
  "tileheight":24,
  "tiles":[
         {
@@ -133,8 +125,20 @@
          "image":"player_units\/Paladin.png",
          "imageheight":20,
          "imagewidth":15
+        }, 
+        {
+         "id":19,
+         "image":"player_units\/Sniper.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":20,
+         "image":"player_units\/Summoner.png",
+         "imageheight":16,
+         "imagewidth":12
         }],
  "tilewidth":16,
  "type":"tileset",
- "version":1.4
+ "version":"1.8"
 }

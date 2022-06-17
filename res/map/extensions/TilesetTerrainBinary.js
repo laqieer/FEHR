@@ -80,7 +80,7 @@ var TilesetTerrainBinary = {
         let defaultTerrain;
         let error;
 
-        for (const t of tileset.terrains) {
+        for (const t of tileset.wangSets) {
             if(t.property("default") === true) {
                 if(defaultTerrain === undefined) {
                     defaultTerrain = t;
@@ -106,22 +106,23 @@ var TilesetTerrainBinary = {
             }
         }
 
-        //if (defaultTerrain !== undefined) {
-        //    bufView.fill(getTerrainID(defaultTerrain));
-        //}
+        function getTerrain(tile) {
+            for (const t of tileset.wangSets) {
+                if(t.wangId(tile).some(color => color!==0)) {
+                    return t;
+                }
+            }
+            return defaultTerrain;
+        }
 
         for (const tile of tileset.tiles) {
-            // One tile has 4 corners. Top left corner's terrain info is used here.
-            if(tile.terrain.topLeft == null) {
-                if(defaultTerrain === undefined) {
-                    error = "tile #" + tile.id + " doesn't have terrain info.";
-                    tiled.error(error);
-                } else {
-                    bufView[tile.id + 1] = getTerrainID(defaultTerrain);
-                }
-            } else {
-                bufView[tile.id + 1] = getTerrainID(tile.terrain.topLeft);
+            terrain = getTerrain(tile)
+            if(terrain === undefined) {
+                error = "tile #" + tile.id + " doesn't have terrain info.";
+                tiled.error(error);
+                break;
             }
+            bufView[tile.id + 1] = getTerrainID(terrain);
         }
 
         file.write(buf);

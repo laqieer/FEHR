@@ -1,0 +1,79 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "new_map/event_chap_247.tmx",
+    "expandedProjectPaths": [
+        "new_map"
+    ],
+    "fileStates": {
+        "event/unit/enemy_unit_set.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "event/unit/player_unit_set.json": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "new_map/S0002.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "new_map/S4101.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/event_chap_246.json": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
+            "scale": 2.31859375,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 105.66749780982546,
+                "y": 159.7951344430218
+            }
+        },
+        "new_map/event_chap_247.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
+            "scale": 2.31859375,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 120.33155873037268,
+                "y": 159.3638385335939
+            }
+        }
+    },
+    "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
+    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/event/unit/player_units",
+    "lastUsedTilesetExportFilter": "Fire Emblem (GBA) map tileset terrain binary (*.bin)",
+    "map.height": 20,
+    "map.lastUsedExportFilter": "Fire Emblem (GBA) chapter event (*.S)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 15,
+    "openFiles": [
+        "new_map/event_chap_247.tmx"
+    ],
+    "project": "map.tiled-project",
+    "property.type": "Unit",
+    "recentFiles": [
+        "new_map/event_chap_247.tmx",
+        "event/unit/player_unit_set.json",
+        "new_map/event_chap_246.json",
+        "new_map/S4101.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

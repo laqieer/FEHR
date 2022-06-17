@@ -5,6 +5,54 @@ var ChapterEvent = {
     write: function(map, fileName) {
         var file = new TextFile(fileName, TextFile.WriteOnly);
 
+        const genericCharacters = [
+            "None",
+            "GenericSoldierHel",
+            "GenericSoldierHelWeak",
+            "GenericSoldierHelStrong",
+            "GenericSoldierEmblian",
+            "GenericSoldierEmblianWeak",
+            "GenericSoldierEmblianStrong",
+            "GenericSoldierEmblianSuperWeak",
+            "GenericSoldierEmblianWeakDropItem",
+            "GenericSoldierSummoned",
+            "GenericSoldierSummonedWeak",
+            "GenericSoldierSummonedStrong",
+            "GenericSoldierSummonedDropItem",
+            "GenericSoldierSummonedWeakDropItem",
+            "GenericSoldierSummonedStrongDropItem",
+            "GenericSoldierFlame",
+            "GenericSoldierFlameWeak",
+            "GenericSoldierFlameStrong",
+            "GenericHel",
+            "GenericHelWeak",
+            "GenericHelStrong",
+            "GenericEmblian",
+            "GenericEmblianWeak",
+            "GenericEmblianStrong",
+            "GenericEmblianSuperWeak",
+            "GenericEmblianWeakDropItem",
+            "GenericEmblianWeakDrop",
+            "GenericSummoned",
+            "GenericSummonedWeak",
+            "GenericSummonedStrong",
+            "GenericSummonedDropItem",
+            "GenericSummonedWeakDropItem",
+            "GenericSummonedStrongDropItem",
+            "GenericSummonedDrop",
+            "GenericSummonedWeakDrop",
+            "GenericSummonedStrongDrop",
+            "GenericFlame",
+            "GenericFlameWeak",
+            "GenericFlameStrong",
+            "GenericElf",
+            "GenericElfWeak",
+            "GenericElfStrong",
+            "GenericElfDrop",
+            "GenericElfWeakDrop",
+            "GenericElfStrongDrop"
+        ];
+
         file.writeLine("//Exported by Tiled extension: ChapterEvent.js");
 
         file.writeLine("\t#include \"event.h\"")
@@ -126,14 +174,14 @@ var ChapterEvent = {
         for(const tileset of map.usedTilesets()) {
             if(tileset.name.startsWith("S")) {
                 mapName = tileset.name;
-                var jsonFilename = "/Users/zhuzhiwen/CLionProjects/fe7-jp-stunning-tribble/res/feh/files/assets/JPJA/Message/Scenario/" + tileset.name + ".json"
+                var jsonFilename = "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/feh/files/assets/JPJA/Message/Scenario/" + tileset.name + ".json"
                 try {
                     var scenarioFile = new TextFile(jsonFilename, TextFile.ReadOnly);
                     scenarioText = scenarioFile.readAll();
                     scenarioFile.close();
                 }
                 catch (e) {
-                    ;
+                    tiled.error(e);
                 }
             }
         }
@@ -245,18 +293,19 @@ var ChapterEvent = {
                         var x = parseInt(object.x / 16);
                         var y = parseInt(object.y / 16) - 1;
                         var comment = object.name;
-                        var character = object.property("Character");
+                        var unit = object.property("Unit").value;
+                        var character = unit.Character && unit.Character.value ? genericCharacters[unit.Character.value] : comment;
                         var leader = 0;
                         var job = object.tile.imageFileName;
                         job = job.substring(job.lastIndexOf("\\")+1).substring(job.lastIndexOf("/")+1).split(".")[0];
-                        var level = object.property("Level");
-                        var autoLevel = object.property("AutoLevel");
-                        var equip = object.property("Equip");
-                        var item = object.property("Item");
-                        var AI1 = object.property("AI1");
-                        var AI2 = object.property("AI2");
-                        var AI3 = object.property("AI3");
-                        var AI4 = object.property("AI4");
+                        var level = unit.Level.value;
+                        var autoLevel = unit.AutoLevel ? 1 : 0;
+                        var equip = unit.Equip ? unit.Equip.value : 0;
+                        var item = unit.Item ? unit.Item.value : 0;
+                        var AI1 = unit.AI1 ? unit.AI1.value : 0;
+                        var AI2 = unit.AI2 ? unit.AI2.value : 0;
+                        var AI3 = unit.AI3 ? unit.AI3.value : 0;
+                        var AI4 = unit.AI4 && unit.AI4.value ? "GuardTile" : 0;
                         var enemyUnit = new Array("\tUNIT(" + character, job, leader, level, "SIDE_ENEMY", autoLevel, x, y, x, y, equip, item, 0, 0, AI1, AI2, AI3, AI4 + ") // " + comment);
                         file.writeLine(enemyUnit.join(","));
                     }
@@ -277,18 +326,19 @@ var ChapterEvent = {
                         var x = parseInt(object.x / 16);
                         var y = parseInt(object.y / 16) - 1;
                         var comment = object.name;
-                        var character = object.property("Character");
+                        var unit = object.property("Unit").value;
+                        var character = unit.Character && unit.Character.value ? genericCharacters[unit.Character.value] : comment;
                         var leader = 0;
                         var job = object.tile.imageFileName;
                         job = job.substring(job.lastIndexOf("\\")+1).substring(job.lastIndexOf("/")+1).split(".")[0];
-                        var level = object.property("Level");
-                        var autoLevel = object.property("AutoLevel");
-                        var equip = object.property("Equip");
-                        var item = object.property("Item");
-                        var AI1 = object.property("AI1");
-                        var AI2 = object.property("AI2");
-                        var AI3 = object.property("AI3");
-                        var AI4 = object.property("AI4");
+                        var level = unit.Level.value;
+                        var autoLevel = unit.AutoLevel ? 1 : 0;
+                        var equip = unit.Equip ? unit.Equip.value : 0;
+                        var item = unit.Item ? unit.Item.value : 0;
+                        var AI1 = unit.AI1 ? unit.AI1.value : 0;
+                        var AI2 = unit.AI2 ? unit.AI2.value : 0;
+                        var AI3 = unit.AI3 ? unit.AI3.value : 0;
+                        var AI4 = unit.AI4 && unit.AI4.value ? "GuardTile" : 0;
                         var enemyUnit = new Array("\tUNIT(" + character, job, leader, level, "SIDE_NPC", autoLevel, x, y, x, y, equip, item, 0, 0, AI1, AI2, AI3, AI4 + ") // " + comment);
                         file.writeLine(enemyUnit.join(","));
                     }
@@ -313,18 +363,19 @@ var ChapterEvent = {
                         var x = parseInt(object.x / 16);
                         var y = parseInt(object.y / 16) - 1;
                         var comment = object.name;
-                        var character = object.property("Character");
+                        var unit = object.property("Unit").value;
+                        var character = unit.Character && unit.Character.value ? genericCharacters[unit.Character.value] : comment;
                         var leader = 0;
                         var job = object.tile.imageFileName;
                         job = job.substring(job.lastIndexOf("\\")+1).substring(job.lastIndexOf("/")+1).split(".")[0];
-                        var level = object.property("Level");
-                        var autoLevel = object.property("AutoLevel");
-                        var equip = object.property("Equip");
-                        var item = object.property("Item");
-                        var AI1 = object.property("AI1");
-                        var AI2 = object.property("AI2");
-                        var AI3 = object.property("AI3");
-                        var AI4 = object.property("AI4");
+                        var level = unit.Level.value;
+                        var autoLevel = unit.AutoLevel ? 1 : 0;
+                        var equip = unit.Equip ? unit.Equip.value : 0;
+                        var item = unit.Item ? unit.Item.value : 0;
+                        var AI1 = unit.AI1 ? unit.AI1.value : 0;
+                        var AI2 = unit.AI2 ? unit.AI2.value : 0;
+                        var AI3 = unit.AI3 ? unit.AI3.value : 0;
+                        var AI4 = unit.AI4 && unit.AI4.value ? "GuardTile" : 0;
                         var enemyUnit = new Array("\tUNIT(" + character, job, leader, level, "SIDE_ENEMY", autoLevel, x, y, x, y, equip, item, 0, 0, AI1, AI2, AI3, AI4 + ") // " + comment);
                         file.writeLine(enemyUnit.join(","));
                     }
