@@ -100,6 +100,7 @@ extern const u8 musicFE5Advance[];
 extern const u8 musicFE5Adversity[];
 extern const u8 musicFE5Leif[];
 extern const u8 musicFE5SearchEnemy[];
+extern const u8 musicFEThreeHouseBetweenHeavenAndEarth[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1620,6 +1621,7 @@ const struct Song songs[] = {
         [MUSIC_FE5_ADVERSITY] = {musicFE5Adversity, 1, 1},
         [MUSIC_FE5_LEIF] = {musicFE5Leif, 1, 1},
         [MUSIC_FE5_SEARCH_ENEMY] = {musicFE5SearchEnemy, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_BETWEEN_HEAVEN_AND_EARTH] = {musicFEThreeHouseBetweenHeavenAndEarth, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1837,6 +1839,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE5_ADVERSITY, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　逆境"},
     {MUSIC_FE5_LEIF, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　リーフ"},
     {MUSIC_FE5_SEARCH_ENEMY, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　索敵"},
+    {MUSIC_FE_THREE_HOUSE_BETWEEN_HEAVEN_AND_EARTH, MUSIC_LENGTH(5, 19), 0, "天と地の境界"},
 
     // End of table
     {-1, 0,                                              0, 0},
