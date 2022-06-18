@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_249.tmx",
+    "activeFile": "new_map/event_chap_250.tmx",
     "expandedProjectPaths": [
         "new_map"
     ],
@@ -30,6 +30,10 @@
             "scaleInDock": 1
         },
         "new_map/S4103.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/S4104.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
@@ -75,9 +79,17 @@
                 "x": 118.60637509266124,
                 "y": 248.64209178516074
             }
+        },
+        "new_map/event_chap_250.tmx": {
+            "scale": 2.31859375,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 112.13693645124334,
+                "y": 160.22643035244963
+            }
         }
     },
-    "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
+    "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/tool/map/tmp",
     "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/new_map",
     "lastUsedTilesetExportFilter": "Fire Emblem (GBA) map tileset terrain binary (*.bin)",
     "map.height": 20,
@@ -87,11 +99,13 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_249.tmx"
+        "new_map/event_chap_250.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_250.tmx",
+        "new_map/S4104.tsx",
         "new_map/event_chap_249.tmx",
         "new_map/event_chap_248.tmx",
         "new_map/S4103.tsx",
