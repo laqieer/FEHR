@@ -449,6 +449,14 @@ void forAllP4UnitsAlive(void (*func)(struct Unit *unit, void *args), void *args)
     }
 }
 
+void forAllAliveUnits(void (*func)(struct Unit *unit, void *args), void *args)
+{
+    forAllPlayerUnitsAlive(func, args);
+    forAllNPCUnitsAlive(func, args);
+    forAllEnemyUnitsAlive(func, args);
+    forAllP4UnitsAlive(func, args);
+}
+
 void forAllAliveUnitsInSide(void (*func)(struct Unit *unit, void *args), void *args, int side)
 {
     switch (side)
@@ -2933,7 +2941,7 @@ void updateUnitSkillCD(struct Unit *unit)
         case PASSIVE_SKILL_C_INFANTRY_PULSE_2:
         case PASSIVE_SKILL_C_INFANTRY_PULSE_3:
         case PASSIVE_SKILL_C_INFANTRY_PULSE_4:
-            forAllUnitsInSide(updateAllyUnitSkillCD, unit, unit->side);
+            forAllAliveUnitsInSide(updateAllyUnitSkillCD, unit, unit->side);
             break;
         default:
             break;
@@ -2942,7 +2950,7 @@ void updateUnitSkillCD(struct Unit *unit)
 
 void updateSkillCDForAllUnits()
 {
-    ForAllUnits(updateUnitSkillCD);
+    forAllAliveUnits(updateUnitSkillCD, NULL);
 }
 
 void initSkillCDForAllUnits()
