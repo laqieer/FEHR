@@ -7275,7 +7275,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"–‚“¹‚Ìn‚Q", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª”¼•ªˆÈã‚ÅŽ©g‚ª–¡•û‚Ì–‚–@‚Æ—×Ú‚µ‚Ä‚¢‚éê‡A“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZ", "Sorcery Blade 2", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"–‚“¹‚Ìn‚R", "í“¬ŠJŽnŽžAŽ©g‚ª–¡•û‚Ì–‚–@‚Æ—×Ú‚µ‚Ä‚¢‚éê‡A“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZ", "Sorcery Blade 3", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res."},
     {"–‚“¹‚Ìn‚S", "í“¬ŠJŽnŽžAŽ©g‚ª–¡•û‚Ì–‚–@‚Æ—×Ú‚µ‚Ä‚¢‚éê‡A“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZA‚©‚ÂAƒ_ƒ[ƒW{‚T", "Sorcery Blade 4", "At start of combat, if unit's HP >= 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res and deals +5 damage to foe."},
-    {"‰“‚«‚å‚è”½Œ‚", "“G‚©‚çUŒ‚‚³‚ê‚½ŽžA‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Distant Counter", "Unit can counterattack regardless of foe's range."},
+    {"‰“‚«‚å‚è”½Œ‚", "‰“‹——£‚Ì“G‚©‚çUŒ‚‚³‚ê‚½ŽžA‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Distant Counter", "Unit can counterattack regardless of foe's range."},
     {"_Œ•‚P", "‘¬‚³‚ª“G‚æ‚è‚TˆÈã‚‚¢ŽžAŽ©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 1", "If unitfs Spd >= foefs Spd+5, grants Special cooldown charge +1 per unit's attack."},
     {"_Œ•‚Q", "‘¬‚³‚ª“G‚æ‚è‚RˆÈã‚‚¢ŽžAŽ©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 2", "If unitfs Spd >= foefs Spd+3, grants Special cooldown charge +1 per unit's attack."},
     {"_Œ•‚R", "‘¬‚³‚ª“G‚æ‚è‚PˆÈã‚‚¢ŽžAŽ©g‚ÌUŒ‚‚É‚æ‚é‰œ‹`”­“®ƒJƒEƒ“ƒg•Ï“®—Ê{‚P", "Flashing Blade 3", "If unitfs Spd > foefs Spd, grants Special cooldown charge +1 per unit's attack."},
@@ -7316,7 +7316,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"K‰^‚Q", "K‰^{‚R", "Luck 2", "Grants Luk+3."},
     {"K‰^‚R", "K‰^{‚T", "Luck 3", "Grants Luk+5."},
     {"K‰^‚S", "K‰^{‚V", "Luck 4", "Grants Luk+7."},
-    {"‹ß‚«‚å‚è”½Œ‚", "“G‚©‚çUŒ‚‚³‚ê‚½ŽžA‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Close Counter", "Unit can counterattack regardless of foe's range."},
+    {"‹ß‚«‚å‚è”½Œ‚", "‹ß‹——£‚Ì“G‚©‚çUŒ‚‚³‚ê‚½ŽžA‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Close Counter", "Unit can counterattack regardless of foe's range."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -8708,7 +8708,7 @@ void SetBattleUnitWeapon(struct BattleUnit* bu, int itemSlot) {
         }
 
         if (!IsItemCoveringRange(bu->weapon, gBattleStats.range) || bu->weaponSlotIndex == 0xFF) {
-            if (bu == &gBattleActor || (getUnitPassiveSkillA(&bu->unit) != PASSIVE_SKILL_A_DISTANT_COUNTER && getUnitPassiveSkillA(&bu->unit) != PASSIVE_SKILL_A_CLOSE_COUNTER)) {
+            if (bu == &gBattleActor || !((getUnitPassiveSkillA(&bu->unit) == PASSIVE_SKILL_A_DISTANT_COUNTER && gBattleStats.range > 1) || (getUnitPassiveSkillA(&bu->unit) == PASSIVE_SKILL_A_CLOSE_COUNTER && gBattleStats.range == 1))) {
                 bu->weapon = 0;
                 bu->canCounter = 0;
             }
