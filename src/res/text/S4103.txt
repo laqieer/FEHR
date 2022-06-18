@@ -30,7 +30,7 @@ TCC_OPEN_LEFT
 "夢の世界が滅びの危機にあると" TCC_NEWLINE
 "知ったならば。。。" TCC_NEWLINE TCC_PUSH_A
 "そして夢の世界が滅びれば、" TCC_NEWLINE
-"人の心もまた色褪せることを" TCC_NEWLINE
+"人の心もまた色あせることを" TCC_NEWLINE
 "知ったならば。。。" TCC_NEWLINE TCC_PUSH_A
 "そなたら人間は。。。" TCC_NEWLINE
 "この世界を" TCC_NEWLINE
@@ -88,7 +88,7 @@ TCC_OPEN_LEFT
 "我らは" TCC_NEWLINE
 "世界の滅びを免れるために、" TCC_NEWLINE
 "子供たちに蜜を与えた。" TCC_NEWLINE TCC_PUSH_A
-"無垢な子供たちを、" TCC_NEWLINE
+"むくな子供たちを、" TCC_NEWLINE
 "世界を救う英雄という名のもとに" TCC_NEWLINE
 "犠牲にしたのだ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
