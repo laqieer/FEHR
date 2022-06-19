@@ -4459,7 +4459,8 @@ char BattleGenerateHit(struct BattleUnit* attacker, struct BattleUnit* defender)
     BattleGenerateHitTriangleAttack(attacker, defender);
     //BattleGenerateHitAttributesOriginal(attacker, defender);
     BattleGenerateHitAttributes(attacker, defender);
-    BattleGenerateHitSpecialSkill(attacker, defender);
+    if(isInBattle())
+        BattleGenerateHitSpecialSkill(attacker, defender);
     BattlePassiveSkillSEffect(attacker, defender);
     if(isInBattle())
         BattleWeaponSpecialEffect(attacker, defender);
