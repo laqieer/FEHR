@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_251.tmx",
+    "activeFile": "new_map/event_chap_252.tmx",
     "expandedProjectPaths": [
         "new_map"
     ],
@@ -38,6 +38,10 @@
             "scaleInEditor": 2
         },
         "new_map/S4105.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/S4111.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
@@ -96,8 +100,16 @@
             "scale": 2.31859375,
             "selectedLayer": 2,
             "viewCenter": {
+                "x": 119.68461486623089,
+                "y": 159.3638385335939
+            }
+        },
+        "new_map/event_chap_252.tmx": {
+            "scale": 2.31859375,
+            "selectedLayer": 2,
+            "viewCenter": {
                 "x": 112.13693645124334,
-                "y": 158.06995080531033
+                "y": 160.22643035244963
             }
         }
     },
@@ -111,11 +123,13 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_251.tmx"
+        "new_map/event_chap_252.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_252.tmx",
+        "new_map/S4111.tsx",
         "new_map/event_chap_251.tmx",
         "new_map/S4105.tsx",
         "new_map/event_chap_250.tmx",
@@ -125,8 +139,7 @@
         "new_map/S4103.tsx",
         "new_map/event_chap_247.tmx",
         "event/unit/player_unit_set.json",
-        "new_map/event_chap_246.json",
-        "new_map/S4101.tsx"
+        "new_map/event_chap_246.json"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
