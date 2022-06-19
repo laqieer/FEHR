@@ -101,6 +101,10 @@ extern const u8 musicFE5Adversity[];
 extern const u8 musicFE5Leif[];
 extern const u8 musicFE5SearchEnemy[];
 extern const u8 musicFEThreeHouseBetweenHeavenAndEarth[];
+extern const u8 musicFEPoRBittersweetVictory[];
+extern const u8 musicFEPoRDreamingOfHome[];
+extern const u8 musicFEPoRHisFathersSon[];
+extern const u8 musicFEPoRMemoryOfMom[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1622,6 +1626,10 @@ const struct Song songs[] = {
         [MUSIC_FE5_LEIF] = {musicFE5Leif, 1, 1},
         [MUSIC_FE5_SEARCH_ENEMY] = {musicFE5SearchEnemy, 1, 1},
         [MUSIC_FE_THREE_HOUSE_BETWEEN_HEAVEN_AND_EARTH] = {musicFEThreeHouseBetweenHeavenAndEarth, 1, 1},
+        [MUSIC_FE_PATH_OF_RADIANCE_BITTERSWEET_VICTORY] = {musicFEPoRBittersweetVictory, 1, 1},
+        [MUSIC_FE_PATH_OF_RADIANCE_DREAMING_OF_HOME] = {musicFEPoRDreamingOfHome, 1, 1},
+        [MUSIC_FE_PATH_OF_RADIANCE_HIS_FATHERS_SON] = {musicFEPoRHisFathersSon, 1, 1},
+        [MUSIC_FE_PATH_OF_RADIANCE_MEMORY_OF_MOM] = {musicFEPoRMemoryOfMom, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1840,6 +1848,10 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE5_LEIF, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　リーフ"},
     {MUSIC_FE5_SEARCH_ENEMY, MUSIC_LENGTH(5, 0), 0, "リーフ軍、勝利を求めて　索敵"},
     {MUSIC_FE_THREE_HOUSE_BETWEEN_HEAVEN_AND_EARTH, MUSIC_LENGTH(5, 19), 0, "天と地の境界"},
+    {MUSIC_FE_PATH_OF_RADIANCE_BITTERSWEET_VICTORY, MUSIC_LENGTH(2, 11), 0, "Ｂｉｔｔｅｒｓｗｅｅｔ　Ｖｉｃｔｏｒｙ"},
+    {MUSIC_FE_PATH_OF_RADIANCE_DREAMING_OF_HOME, MUSIC_LENGTH(2, 0), 0, "Ｄｒｅａｍｉｎｇ　ｏｆ　Ｈｏｍｅ"},
+    {MUSIC_FE_PATH_OF_RADIANCE_HIS_FATHERS_SON, MUSIC_LENGTH(1, 30), 0, "Ｈｉｓ　Ｆａｔｈｅｒ’ｓ　Ｓｏｎ"},
+    {MUSIC_FE_PATH_OF_RADIANCE_MEMORY_OF_MOM, MUSIC_LENGTH(2, 54), 0, "Ｍｅｍｏｒｙ　ｏｆ　Ｍｏｍ"},
 
     // End of table
     {-1, 0,                                              0, 0},
