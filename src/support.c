@@ -128,10 +128,10 @@ const struct SupportData supportDataTable[] = {
         1
     },
     { // 20 Freyja
-        {CHARACTER_TRIANDRA_ID, CHARACTER_PLUMERIA_ID},
-        {36, 36},
-        {2, 2},
-        2
+        {CHARACTER_TRIANDRA_ID, CHARACTER_PLUMERIA_ID, CHARACTER_FREYR_ID},
+        {36, 36, 72},
+        {2, 2, 3},
+        3
     },
     { // 21 Triandra
         {CHARACTER_FREYJA_ID, CHARACTER_PLUMERIA_ID},
@@ -161,6 +161,12 @@ const struct SupportData supportDataTable[] = {
         {CHARACTER_ID_AVATAR},
         {72},
         {2},
+        1
+    },
+    { // 26 Freyr
+        {CHARACTER_FREYJA_ID},
+        {72},
+        {3},
         1
     },
     { // End of list
@@ -410,6 +416,14 @@ const struct SupportConversation supportConversations[] = {
         TEXT_SUPPORT_AVATAR_TAKUMI,
         TEXT_SUPPORT_AVATAR_TAKUMI,
         TEXT_SUPPORT_AVATAR_TAKUMI,
+        0
+    },
+    {
+        CHARACTER_FREYJA_ID,
+        CHARACTER_FREYR_ID,
+        TEXT_SUPPORT_FREYR_FREYJA,
+        TEXT_SUPPORT_FREYR_FREYJA,
+        TEXT_SUPPORT_FREYR_FREYJA,
         0
     },
     { // End of list

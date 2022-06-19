@@ -57,6 +57,7 @@
 #define PORTRAIT_ELM "\x2C\x2"
 #define PORTRAIT_TAKUMI "\x2D\x2"
 
+#define PORTRAIT_ID_FREYR 0x118
 #define PORTRAIT_ID_HOOD 0x11F
 
 #define PORTRAIT_ID_REGHIN 0x123

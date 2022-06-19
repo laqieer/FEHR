@@ -2430,6 +2430,10 @@ const char* const texts[] = {
 
        [TEXT_ITEM_HELP_FUJIN_YUMI] = "飛行特効　タクミ専用　魔防＋３",
 
+       [TEXT_CHARACTER_NAME_FREYR] = "フロージ",
+
+       [TEXT_CHARACTER_HELP_FREYR] = "夢の国アルフの王。夢を司る神で、人々の安らぎを望んでいる。",
+
        [TEXT_SUPPORT_AVATAR_TAKUMI]= TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_TAKUMI
                "。。。" TCC_NEWLINE TCC_PUSH_A
@@ -2793,6 +2797,21 @@ const char* const texts[] = {
                     "隊長はいつも私たちを勝利に導いていく。" TCC_NEWLINE 
                     "これからもよろしくお願いします！" TCC_NEWLINE TCC_PUSH_A
                     TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_FREYR_FREYJA] = 
+           TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_FREYJA
+                    "兄様。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_FREYR
+                    "フレイヤ。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
                 TCC_CLEAR_FACE
         ,
