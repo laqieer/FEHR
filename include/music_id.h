@@ -2,7 +2,7 @@
 // Created by laqieer on 2020/2/13.
 //
 
-// FEHで使用されて�?る楽曲: https://wikiwiki.jp/adan/BGM
+// FEHで使用されてる楽曲: https://wikiwiki.jp/adan/BGM
 
 #ifndef FE7_JP_STUNNING_TRIBBLE_MUSIC_ID_H
 #define FE7_JP_STUNNING_TRIBBLE_MUSIC_ID_H
