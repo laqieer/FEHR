@@ -107,7 +107,7 @@ TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 ""
 TCC_OPEN_LEFT
 "知りなさい、人間。" TCC_NEWLINE
-"かつて夢の世界は滅びの淵にあったの。。。" TCC_NEWLINE
+"かつて夢の世界は滅びのふちにあったの。。。" TCC_NEWLINE
 "夢が滅びれば、人間もまた夢見る心を失う。" TCC_NEWLINE TCC_PUSH_A
 "世界を救えるのは、純真な子供たちだけ。" TCC_NEWLINE
 "だから、私たちは夢の世界に" TCC_NEWLINE
