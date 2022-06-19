@@ -96,7 +96,7 @@ const struct Character characters[] = {
 
 {1288, 471, 38, 65, 65, 0, 4, 37, 1, 0, -1, -2, 5, 4, 4, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 5, 5, 70, 30, 70, 80, 32, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13} ,  // 0x26 Nils
 
-{TEXT_CHARACTER_NAME_MYUNIT, TEXT_CHARACTER_HELP_MYUNIT, CHARACTER_ID_MYUNIT, JOB_ID_SUMMONER, PORTRAIT_ID_AVATAR, 0, None, 38, 1, 19, 9, 9, 9, 6, 6, 6, 0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_E, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, 50, 60, 60, 60, 50, 50, 50, 0, 0x7E, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[24], 0} ,  // 0x27 Athos -> MyUnit
+{TEXT_CHARACTER_NAME_MYUNIT, TEXT_CHARACTER_HELP_MYUNIT, CHARACTER_ID_MYUNIT, JOB_ID_SUMMONER, PORTRAIT_ID_AVATAR, 0, Dark, 38, 1, 19, 9, 9, 9, 6, 6, 6, 0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_E, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, 50, 60, 60, 60, 50, 50, 50, 0, 0x7E, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[24], 0} ,  // 0x27 Athos -> MyUnit
 
 {1290, 473, 40, 68, 74, 0, 5, 39, 5, 3, 0, 1, 2, 2, 2, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 0, 90, 90, 30, 15, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148245296, 4} ,  // 0x28 Merlinus
 
