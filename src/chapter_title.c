@@ -747,6 +747,7 @@ const u8 * const chapterTitles[] = {
         chapter_titles_365_lz,
         chapter_titles_366_lz,
         chapter_titles_367_lz,
+        [256 + 254] = chapter_titles_254_lz,
 };
 
 extern u16 gChapterTitleGfxTileId;
