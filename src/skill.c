@@ -5514,6 +5514,38 @@ void ComputePassiveSkillCEffectFromOppositeUnits(struct Unit *unit, u32 *args)
                 attacker->battleDefense = max(0, attacker->battleDefense - 4);
             }
             break;
+        case PASSIVE_SKILL_C_ATK_RES_REIN_1:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 2);
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense = max(0, attacker->battleDefense - 2);
+            }
+            break;
+        case PASSIVE_SKILL_C_ATK_RES_REIN_2:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 3);
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense = max(0, attacker->battleDefense - 3);
+            }
+            break;
+        case PASSIVE_SKILL_C_ATK_RES_REIN_3:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 4);
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense = max(0, attacker->battleDefense - 4);
+            }
+            break;
+        case PASSIVE_SKILL_C_ATK_RES_REIN_4:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleAttack = max(0, attacker->battleAttack - 5);
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense = max(0, attacker->battleDefense - 5);
+            }
+            break;
         default:
             break;
     }
@@ -7438,6 +7470,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"ç”õ‚Ì¬—‚R", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚RˆÈã’á‚¢“G‚Ìç”õ[‚V", "Sabotage Def 3", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Def-7 on that foe through its next action."},
     {"ç”õ‚Ì¬—‚S", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚PˆÈã’á‚¢“G‚Ìç”õ[‚V", "Sabotage Def 4", "At start of turn, if any foe's Res <= unit's Res-1 and that foe is adjacent to another foe, inflicts Def-7 on that foe through its next action."},
     {"‘©‚Î‚­‚Ìñ‚©‚´‚è", "üˆÍ‚Pƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚È‚¢Aí“¬’†AUŒ‚A‘¬‚³Aç”õA–‚–h{‚QA“G‚Ì|‚QA‚©‚ÂA©g‚Ì‚ª“G‚Ì‹­‰»’l‚¾‚¯ã¸‚µA“G‚Ì‚ªŒ¸­", "Binding Necklace", "If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+2 to unit and inflicts Atk/Spd/Def/Res-2 on foe during combat, and also, if foe has bonuses, grants bonus to unit's Atk/Spd/Def/Res and inflicts penalty on foe's Atk/Spd/Def/Res during combat=current bonus on each of foe's stats. Calculates each stat bonus independently."},
+    {"‘¬‚³‚Ì¬—‚P", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚RˆÈã’á‚¢“G‚Ì‘¬‚³[‚R", "Sabotage Spd 1", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Spd-3 on that foe through its next action."},
+    {"‘¬‚³‚Ì¬—‚Q", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚RˆÈã’á‚¢“G‚Ì‘¬‚³[‚T", "Sabotage Spd 2", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Spd-5 on that foe through its next action."},
+    {"‘¬‚³‚Ì¬—‚R", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚RˆÈã’á‚¢“G‚Ì‘¬‚³[‚V", "Sabotage Spd 3", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Spd-7 on that foe through its next action."},
+    {"‘¬‚³‚Ì¬—‚S", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚PˆÈã’á‚¢“G‚Ì‘¬‚³[‚V", "Sabotage Spd 4", "At start of turn, if any foe's Res <= unit's Res-1 and that foe is adjacent to another foe, inflicts Spd-7 on that foe through its next action."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -7460,6 +7496,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_PEONY_ID] = {PASSIVE_SKILL_B_AEROBATICS_1, PASSIVE_SKILL_B_AEROBATICS_2, PASSIVE_SKILL_B_AEROBATICS_3, PASSIVE_SKILL_B_AEROBATICS_4},
     [CHARACTER_MIRABILIS_ID]= {PASSIVE_SKILL_B_SABOTAGE_DEF_1, PASSIVE_SKILL_B_SABOTAGE_DEF_2, PASSIVE_SKILL_B_SABOTAGE_DEF_3, PASSIVE_SKILL_B_SABOTAGE_DEF_4},
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE},
+    [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_B_SABOTAGE_SPD_1, PASSIVE_SKILL_B_SABOTAGE_SPD_2, PASSIVE_SKILL_B_SABOTAGE_SPD_3, PASSIVE_SKILL_B_SABOTAGE_SPD_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -7577,6 +7614,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"‘¬‚³‚Ì‚¢‚©‚­‚Q", "ƒ^[ƒ“ŠJnAüˆÍ‚Qƒ}ƒX‚Ì“G‚Ì‘¬‚³|‚Si‚Pƒ^[ƒ“j", "Threaten Spd 2", "At start of turn, inflicts Spd-4 on foes within 2 spaces for 1 turn."},
     {"‘¬‚³‚Ì‚¢‚©‚­‚R", "ƒ^[ƒ“ŠJnAüˆÍ‚Qƒ}ƒX‚Ì“G‚Ì‘¬‚³|‚Ti‚Pƒ^[ƒ“j", "Threaten Spd 3", "At start of turn, inflicts Spd-5 on foes within 2 spaces for 1 turn."},
     {"‘¬‚³‚Ì‚¢‚©‚­‚S", "ƒ^[ƒ“ŠJnAüˆÍ‚Qƒ}ƒX‚Ì“G‚Ì‘¬‚³|‚Vi‚Pƒ^[ƒ“j", "Threaten Spd 4", "At start of turn, inflicts Spd-7 on foes within 2 spaces for 1 turn."},
+    {"UŒ‚–‚–h‚¯‚ñ§‚P", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A–‚–h|‚Q", "Atk/Res Rein 1", "Inflicts Atk/Res-2 on foes within 2 spaces during combat."},
+    {"UŒ‚–‚–h‚¯‚ñ§‚Q", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A–‚–h|‚R", "Atk/Res Rein 2", "Inflicts Atk/Res-3 on foes within 2 spaces during combat."},
+    {"UŒ‚–‚–h‚¯‚ñ§‚R", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A–‚–h|‚S", "Atk/Res Rein 3", "Inflicts Atk/Res-4 on foes within 2 spaces during combat."},
+    {"UŒ‚–‚–h‚¯‚ñ§‚S", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A–‚–h|‚T", "Atk/Res Rein 4", "Inflicts Atk/Res-5 on foes within 2 spaces during combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -7603,6 +7644,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_C_PULSE_SMOKE_1, PASSIVE_SKILL_C_PULSE_SMOKE_2, PASSIVE_SKILL_C_PULSE_SMOKE_3, PASSIVE_SKILL_C_PULSE_SMOKE_4},
     [CHARACTER_ID_MYUNIT] = {PASSIVE_SKILL_C_FIRE_EMBLEM_1, PASSIVE_SKILL_C_FIRE_EMBLEM_2, PASSIVE_SKILL_C_FIRE_EMBLEM_3, PASSIVE_SKILL_C_FIRE_EMBLEM_4},
     [CHARACTER_ID_TAKUMI] = {PASSIVE_SKILL_C_THREATEN_SPD_1, PASSIVE_SKILL_C_THREATEN_SPD_2, PASSIVE_SKILL_C_THREATEN_SPD_3, PASSIVE_SKILL_C_THREATEN_SPD_4},
+    [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_C_ATK_RES_REIN_1, PASSIVE_SKILL_C_ATK_RES_REIN_2, PASSIVE_SKILL_C_ATK_RES_REIN_3, PASSIVE_SKILL_C_ATK_RES_REIN_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

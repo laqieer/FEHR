@@ -1169,6 +1169,22 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                             if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) < GetUnitResistance(&skillUnits[i]))
                                 addUnitDebuffDefense(&targetUnits[j], -7);
                             break;
+                        case PASSIVE_SKILL_B_SABOTAGE_SPD_1:
+                            if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) <= GetUnitResistance(&skillUnits[i]) - 3)
+                                addUnitDebuffSpeed(&targetUnits[j], -3);
+                            break;
+                        case PASSIVE_SKILL_B_SABOTAGE_SPD_2:
+                            if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) <= GetUnitResistance(&skillUnits[i]) - 3)
+                                addUnitDebuffSpeed(&targetUnits[j], -5);
+                            break;
+                        case PASSIVE_SKILL_B_SABOTAGE_SPD_3:
+                            if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) <= GetUnitResistance(&skillUnits[i]) - 3)
+                                addUnitDebuffSpeed(&targetUnits[j], -7);
+                            break;
+                        case PASSIVE_SKILL_B_SABOTAGE_SPD_4:
+                            if(isAdjacentToAnyCompanion(&targetUnits[j]) && GetUnitResistance(&targetUnits[j]) < GetUnitResistance(&skillUnits[i]))
+                                addUnitDebuffSpeed(&targetUnits[j], -7);
+                            break;
                         default:
                             break;
                     }
