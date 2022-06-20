@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_256.tmx",
+    "activeFile": "new_map/event_chap_257.tmx",
     "expandedProjectPaths": [
         "new_map"
     ],
@@ -61,6 +61,10 @@
             "scaleInEditor": 2
         },
         "new_map/S4114.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/S4115.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
@@ -154,6 +158,14 @@
                 "x": 112.13693645124334,
                 "y": 160.22643035244963
             }
+        },
+        "new_map/event_chap_257.tmx": {
+            "scale": 2.31859375,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 111.27434463238765,
+                "y": 149.875328526181
+            }
         }
     },
     "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
@@ -166,23 +178,23 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_256.tmx"
+        "new_map/event_chap_257.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_257.tmx",
         "new_map/event_chap_256.tmx",
+        "new_map/S4115.tsx",
+        "event/unit/traps.json",
         "new_map/event_chap_254.tmx",
         "new_map/S4114.tsx",
         "new_map/S4113.tsx",
         "new_map/event_chap_253.tmx",
         "new_map/S4112.tsx",
         "new_map/event_chap_252.tmx",
-        "event/unit/traps.json",
         "new_map/S4111.tsx",
-        "new_map/event_chap_251.tmx",
-        "new_map/S4105.tsx",
-        "new_map/event_chap_250.tmx"
+        "new_map/event_chap_251.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
