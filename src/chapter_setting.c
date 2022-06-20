@@ -3,6 +3,7 @@
 //
 
 #include <gba_types.h>
+#include <gba_base.h>
 #include "text_id.h"
 #include "music_id.h"
 #include "chapter.h"
@@ -770,6 +771,8 @@ const struct Chapter chapters[] = {
             DEFINE_SIMPLE_CHAPTER_NEW(252, "4.11.1)252", MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL)
             DEFINE_SIMPLE_CHAPTER_NEW(253, "4.11.2)253", MUSIC_FE_PATH_OF_RADIANCE_HIS_FATHERS_SON)
             DEFINE_SIMPLE_CHAPTER_NEW(254, "4.11.3)254", MUSIC_FE_PATH_OF_RADIANCE_MEMORY_OF_MOM)
+            DEFINE_SIMPLE_CHAPTER_NEW(255, "nodata)255", NULL)
+            DEFINE_SIMPLE_EXT_CHAPTER(256, "4.11.4)256", MUSIC_FE_PATH_OF_RADIANCE_DREAMING_OF_HOME)
 
             //[0x100 + 244] = DEFINE_SIMPLE_EXT_CHAPTER_WITH_MAP_CHANGE(233, "4.7.4)233", MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL, 36)
 };

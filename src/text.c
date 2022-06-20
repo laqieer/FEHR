@@ -408,6 +408,8 @@ const char* const texts[] = {
 
         [TEXT_ITEM_HELP_HARDY_BEARING] = "自身と敵の戦闘順入替スキル（待ち伏せ、攻め立て等）無効",
 
+        [TEXT_CHAP_255_TITLE] = "NO DATA",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
