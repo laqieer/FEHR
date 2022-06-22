@@ -104,11 +104,11 @@ TCC_OPEN_MID_LEFT
 TCC_OPEN_RIGHT
 "Ｗｈａａａｔ？！"TCC_NEWLINE TCC_PUSH_A
 "Ｔｈｅｎ．．．ｗｈｏ　ＡＲＥ　ｙｏｕ？　Ｔｅｌｌ　ｕｓ　ｙー"TCC_NEWLINE"ｏｕｒ　ｎａｍｅ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT TCC_LOAD_FACE PORTRAIT_ALFONSE
+TCC_OPEN_MID_LEFT
 "Ｍｙ　ｎａｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
 "ｉｓ"TCC_NEWLINE
 TCC_TACTICIAN_NAME"！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_LOAD_FACE PORTRAIT_FREYJA
+TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_FREYJA
 "Ａｈ．．．　Ｓｏ　ｙｏｕ　ｆｉｎａｌｌｙ　ｒｅａｌｉｚｅｄ"TCC_NEWLINE"　ｔｈｅ　ｔｒｕｔｈ　ａｂｏｕｔ　ｙｏｕｒｓｅｌｆ．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_RIGHT
 "Ｗｈａｔ　ｄｏ　ｙｏｕ　ｋｎｏｗ，　Ｌａｄｙ　Ｆｒｅｙｊａ"TCC_NEWLINE"！"TCC_NEWLINE TCC_PUSH_A
@@ -116,7 +116,7 @@ TCC_OPEN_LEFT
 "Ｔｈｉｓ　ｗｏｒｌｄ　ｃｏｕｌｄ　ｖｅｒｙ　ｗｅｌｌ　ｂｅ"TCC_NEWLINE"　ｅｎｔｉｒｅｌｙ　ｏｆ　ｙｏｕｒ　ｏｗｎ　ｉｎｖｅｎｔｉー"TCC_NEWLINE"ｏｎ，　ｗｉｔｈ　ｙｏｕ　ａｓ　ｔｈｅ　ｌｏｎｅ　ｓｏｕｌ"TCC_NEWLINE"　ｗｉｔｈｉｎ　ｉｔ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｉ　ｗｏｎｄｅｒ．．．ｄｉｄ　ｙｏｕ　ｅｖｅｒ　ｆｅｅｌ　"TCC_NEWLINE"ｌｉｋｅ　ｔｈａｔ　ａｓ　ａ　ｃｈｉｌｄ？"TCC_NEWLINE TCC_PUSH_A
 "Ｉｔ　ｍａｙ　ｂｅ　ｔｈａｔ　ｙｏｕ　ａｌｏｎｅ　ａｒｅ　"TCC_NEWLINE"ａｌｉｖｅ　ａｎｄ　ｔｈａｔ　ｅｖｅｒｙｏｎｅ　ｅｌｓｅ　"TCC_NEWLINE"ｉｓ　ａｎ　ｅｍｐｔｙ　ｓｈｅｌｌ．．．　Ｈａｖｅ　ｙｏｕ"TCC_NEWLINE"　ｅｖｅｒ　ｔｈｏｕｇｈｔ　ｓｏ？"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_MID_RIGHT
+TCC_OPEN_MID_LEFT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "．．．Ｄｏ　ｙｏｕ　ｋｎｏｗ　ＷＨＹ　ｙｏｕ　ａｒｅ　ｈａー"TCC_NEWLINE"ｖｉｎｇ　ｔｈｉｓ　ｄｒｅａｍ？　Ａｌｌｏｗ　ｍｅ　ｔｏ　"TCC_NEWLINE"ｅｘｐｌａｉｎ．"TCC_NEWLINE TCC_PUSH_A
@@ -132,4 +132,4 @@ TCC_OPEN_LEFT
 "Ａ　ｄｅｃｉｓｉｏｎ　ｍａｄｅ　ｂｙ　ｔｈｅ　Ｃｒｅａｔｏー"TCC_NEWLINE"ｒ　ｉｓ　ａｂｓｏｌｕｔｅ．　Ｈｉｓ　ｗｉｌｌ　ｉｓ　ｔｒー"TCC_NEWLINE"ｕｔｈａｎｄ　ａｓ　ｙｏｕ　ｋｎｏｗ，　ｔｒｕｔｈ　ｉｓ　"TCC_NEWLINE"ｉｎｅｓｃａｐａｂｌｅ．"TCC_NEWLINE TCC_PUSH_A
 "Ｙｅｔ　ｈｅｒｅ　ｙｏｕ　ａｒｅ，　ｆｌｅｅｉｎｇ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｓｏｏｎ　ｙｏｕ　ｗｉｌｌ　ｈａｖｅ　ｎｏ　ｃｈｏｉｃｅ　"TCC_NEWLINE"ｂｕｔ　ｔｏ　ａｃｃｅｐｔ　ｉｔ．　Ｐｒｉｎｃｅ　Ａｌｆｏー"TCC_NEWLINE"ｎｓｅ　ｉｓ　ｇｏｎｅ．　Ｙｏｕ　ｗｉｌｌ　ｎｅｖｅｒ　ｓー"TCC_NEWLINE"ｅｅ　ｈｉｍ　ａｇａｉｎ！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGHT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
+TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_LEFT TCC_CLEAR_FACE ,
