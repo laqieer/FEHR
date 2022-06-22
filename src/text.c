@@ -410,6 +410,10 @@ const char* const texts[] = {
 
         [TEXT_CHAP_255_TITLE] = "NO DATA",
 
+        [TEXT_CHARACTER_NAME_HOOD] = "？？？",
+
+        [TEXT_CHARACTER_HELP_HOOD] = "？？？",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
