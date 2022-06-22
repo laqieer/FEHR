@@ -5546,6 +5546,38 @@ void ComputePassiveSkillCEffectFromOppositeUnits(struct Unit *unit, u32 *args)
                     attacker->battleDefense = max(0, attacker->battleDefense - 5);
             }
             break;
+        case PASSIVE_SKILL_C_SPD_RES_REIN_1:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 2);
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense = max(0, attacker->battleDefense - 2);
+            }
+            break;
+        case PASSIVE_SKILL_C_SPD_RES_REIN_2:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 3);
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense = max(0, attacker->battleDefense - 3);
+            }
+            break;
+        case PASSIVE_SKILL_C_SPD_RES_REIN_3:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 4);
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense = max(0, attacker->battleDefense - 4);
+            }
+            break;
+        case PASSIVE_SKILL_C_SPD_RES_REIN_4:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+            {
+                attacker->battleSpeed = max(0, attacker->battleSpeed - 5);
+                if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense = max(0, attacker->battleDefense - 5);
+            }
+            break;
         default:
             break;
     }
@@ -7497,6 +7529,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_MIRABILIS_ID]= {PASSIVE_SKILL_B_SABOTAGE_DEF_1, PASSIVE_SKILL_B_SABOTAGE_DEF_2, PASSIVE_SKILL_B_SABOTAGE_DEF_3, PASSIVE_SKILL_B_SABOTAGE_DEF_4},
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE},
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_B_SABOTAGE_SPD_1, PASSIVE_SKILL_B_SABOTAGE_SPD_2, PASSIVE_SKILL_B_SABOTAGE_SPD_3, PASSIVE_SKILL_B_SABOTAGE_SPD_4},
+    [CHARACTER_TRIANDRA_ID] = {PASSIVE_SKILL_B_AEROBATICS_1, PASSIVE_SKILL_B_AEROBATICS_2, PASSIVE_SKILL_B_AEROBATICS_3, PASSIVE_SKILL_B_AEROBATICS_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -7618,6 +7651,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"UŒ‚–‚–h‚¯‚ñ§‚Q", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A–‚–h|‚R", "Atk/Res Rein 2", "Inflicts Atk/Res-3 on foes within 2 spaces during combat."},
     {"UŒ‚–‚–h‚¯‚ñ§‚R", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A–‚–h|‚S", "Atk/Res Rein 3", "Inflicts Atk/Res-4 on foes within 2 spaces during combat."},
     {"UŒ‚–‚–h‚¯‚ñ§‚S", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†AUŒ‚A–‚–h|‚T", "Atk/Res Rein 4", "Inflicts Atk/Res-5 on foes within 2 spaces during combat."},
+    {"‘¬‚³–‚–h‚¯‚ñ§‚P", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†A‘¬‚³A–‚–h|‚Q", "Spd/Res Rein 1", "Inflicts Spd/Res-2 on foes within 2 spaces during combat."},
+    {"‘¬‚³–‚–h‚¯‚ñ§‚Q", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†A‘¬‚³A–‚–h|‚R", "Spd/Res Rein 2", "Inflicts Spd/Res-3 on foes within 2 spaces during combat."},
+    {"‘¬‚³–‚–h‚¯‚ñ§‚R", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†A‘¬‚³A–‚–h|‚S", "Spd/Res Rein 3", "Inflicts Spd/Res-4 on foes within 2 spaces during combat."},
+    {"‘¬‚³–‚–h‚¯‚ñ§‚S", "üˆÍ‚Qƒ}ƒX‚Ì“G‚ÍAí“¬’†A‘¬‚³A–‚–h|‚T", "Spd/Res Rein 4", "Inflicts Spd/Res-5 on foes within 2 spaces during combat."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -7645,6 +7682,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_ID_MYUNIT] = {PASSIVE_SKILL_C_FIRE_EMBLEM_1, PASSIVE_SKILL_C_FIRE_EMBLEM_2, PASSIVE_SKILL_C_FIRE_EMBLEM_3, PASSIVE_SKILL_C_FIRE_EMBLEM_4},
     [CHARACTER_ID_TAKUMI] = {PASSIVE_SKILL_C_THREATEN_SPD_1, PASSIVE_SKILL_C_THREATEN_SPD_2, PASSIVE_SKILL_C_THREATEN_SPD_3, PASSIVE_SKILL_C_THREATEN_SPD_4},
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_C_ATK_RES_REIN_1, PASSIVE_SKILL_C_ATK_RES_REIN_2, PASSIVE_SKILL_C_ATK_RES_REIN_3, PASSIVE_SKILL_C_ATK_RES_REIN_4},
+    [CHARACTER_TRIANDRA_ID] = {PASSIVE_SKILL_C_SPD_RES_REIN_1, PASSIVE_SKILL_C_SPD_RES_REIN_2, PASSIVE_SKILL_C_SPD_RES_REIN_3, PASSIVE_SKILL_C_SPD_RES_REIN_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
