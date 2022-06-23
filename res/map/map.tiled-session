@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_262.tmx",
+    "activeFile": "new_map/event_chap_263.tmx",
     "expandedProjectPaths": [
         "new_map"
     ],
@@ -25,6 +25,9 @@
         },
         "new_map/S0002.json": {
             "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "new_map/S2122.json": {
             "scaleInDock": 1
         },
         "new_map/S4101.tsx": {
@@ -88,6 +91,18 @@
         "new_map/S4125.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
+        },
+        "new_map/S4131.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/event_chap_126.json": {
+            "scale": 2.1760937499999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 120.39922452789547,
+                "y": 160.14935018309762
+            }
         },
         "new_map/event_chap_246.json": {
             "expandedObjectLayers": [
@@ -229,6 +244,14 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 112.12752207941409,
+                "y": 160.60888920801324
+            }
+        },
+        "new_map/event_chap_263.tmx": {
+            "scale": 2.1760937499999997,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 112.12752207941409,
                 "y": 160.14935018309762
             }
         }
@@ -243,11 +266,14 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_262.tmx"
+        "new_map/event_chap_263.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_263.tmx",
+        "new_map/S4131.tsx",
+        "new_map/event_chap_126.json",
         "new_map/event_chap_262.tmx",
         "new_map/S4125.tsx",
         "new_map/event_chap_261.tmx",
@@ -256,10 +282,7 @@
         "new_map/S4123.tsx",
         "new_map/event_chap_259.tmx",
         "new_map/S4122.tsx",
-        "new_map/event_chap_258.tmx",
-        "new_map/S4121.tsx",
-        "new_map/event_chap_257.tmx",
-        "new_map/event_chap_256.tmx"
+        "new_map/event_chap_258.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
