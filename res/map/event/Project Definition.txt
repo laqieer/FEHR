@@ -182,6 +182,7 @@
 #define NightmareFang 0xb3
 #define Breidablik 0xb4
 #define FujinYumi 0xb5
+#define GranisShield 0xb6
 
 // AI
 #define DefaultAi4 DefaultAI4

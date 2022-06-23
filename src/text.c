@@ -414,6 +414,10 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_HELP_HOOD] = "？？？",
 
+        [TEXT_ITEM_NAME_GRANIS_SHIELD] = "グラニの盾",
+
+        [TEXT_ITEM_HELP_GRANIS_SHIELD] = "騎馬特効無効",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening

@@ -5163,9 +5163,14 @@ void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* def
         if (IsItemEffectiveAgainst(attacker->weapon, &defender->unit))
         {
             attack = attacker->battleAttack;
-  
-            // Effect of unit state Dragon Shield & Svalinn Shield
-            if(!((checkUnitStateDragonShield(&defender->unit) && GetItemEffectiveness(attacker->weapon) == JobListDragon) || (checkUnitStateSvalinnShield(&defender->unit) && GetItemEffectiveness(attacker->weapon) == JobListArmour)))
+
+            // Effect of unit state Dragon Shield & Svalinn Shield; Effect of passive skill Grani's Shield
+            if(!((checkUnitStateDragonShield(&defender->unit) && GetItemEffectiveness(attacker->weapon) == JobListDragon) ||
+                (checkUnitStateSvalinnShield(&defender->unit) && GetItemEffectiveness(attacker->weapon) == JobListArmour) ||
+                (checkUnitStateSvalinnShield(&defender->unit) && GetItemEffectiveness(attacker->weapon) == JobListArmourAndKnight && IsUnitArmour(&defender->unit)) ||
+                (getUnitPassiveSkillS(&defender->unit) == PASSIVE_SKILL_S_GRANIS_SHIELD && GetItemEffectiveness(attacker->weapon) == JobListKnight) ||
+                (getUnitPassiveSkillS(&defender->unit) == PASSIVE_SKILL_S_GRANIS_SHIELD && GetItemEffectiveness(attacker->weapon) == JobListArmourAndKnight && IsUnitKnight(&defender->unit))
+                ))
             {
                 switch (GetItemIndex(attacker->weapon))
                 {
@@ -7735,6 +7740,7 @@ const struct PassiveSkill passiveSkillSs[] = {
     {"重装のブーツ", "ターン開始時、自身のＨＰが１００パーセントなら、移動＋１（１ターン、重複しない）", "Armored Boots", "At start of turn, if unit's HP = 100%, unit can move 1 extra space. (That turn only. Does not stack.)"},
     {"無限の悪夢", "ターン開始時、全ての敵の攻撃、速さ、守備、魔防ー２", "Infinite Nightmare", "At start of turn, foe's Atk/Spd/Def/Res-2."},
     {"悪路とうは", "移動できる地形を平地同様に移動できる", "Surefooted", "unit cannot be slowed by terrain. (Does not apply to impassable terrain.)"},
+    {"グラニの盾", "騎馬特効無効", "Grani's Shield", "Neutralizes \"effective against cavalry\" bonuses."},
 };
 
 const u16 itemPassiveSkillSs[0x100] = {
@@ -7748,6 +7754,7 @@ const u16 itemPassiveSkillSs[0x100] = {
     [ITEM_SACRED_SEAL_ARMORED_BOOTS] = PASSIVE_SKILL_S_ARMORED_BOOTS,
     [ITEM_NIGHTMARE_FANG] = PASSIVE_SKILL_S_NIGHTMARE,
     [ITEM_FUJIN_YUMI] = PASSIVE_SKILL_S_SUREFOOTED,
+    [ITEM_SACRED_SEAL_GRANIS_SHIELD] = PASSIVE_SKILL_S_GRANIS_SHIELD,
 };
 
 u16 getUnitPassiveSkillS(struct Unit *unit)

@@ -382,6 +382,8 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_BREIDABLIK, TEXT_ITEM_HELP_BREIDABLIK, 0, ITEM_BREIDABLIK, DarkMagic, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 80, 10, 0, 2, 2, 0, 0, ITEM_ICON_BREIDABLIK, 0, 0, 0} ,  // 0xB4 Breidablik
 
 {TEXT_ITEM_NAME_FUJIN_YUMI, TEXT_ITEM_HELP_FUJIN_YUMI, 0, ITEM_FUJIN_YUMI, ITYPE_BOW, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &FujinYumiBuff, JobListFlier, 1, 14, 70, 6, 5, 2, 2, 80, WPN_EXP_A, ITEM_ICON_FUJIN_YUMI, 0, 0, 1} ,  // 0xB5 Fujin Yumi
+
+{TEXT_ITEM_NAME_GRANIS_SHIELD, TEXT_ITEM_HELP_GRANIS_SHIELD, TEXT_ITEM_CANNOT_USE, ITEM_SACRED_SEAL_GRANIS_SHIELD, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB6 Sacred Seal: Grani's Shield
 };
 
 const struct Item * const pItems1 = items;
