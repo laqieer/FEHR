@@ -78,8 +78,8 @@ TCC_OPEN_LEFT
 "あなたの力があれば、" TCC_NEWLINE
 "夢はこのまま永遠となるのです。。。" TCC_NEWLINE TCC_PUSH_A
 "私とあなたの夢を叶えましょう。" TCC_NEWLINE
-"お兄様を蘇らせ、" TCC_NEWLINE
-"アルフォンス王子を蘇らせましょう。。。" TCC_NEWLINE TCC_PUSH_A
+"お兄様をよみがえらせ、" TCC_NEWLINE
+"アルフォンス王子をよみがえらせましょう。。。" TCC_NEWLINE TCC_PUSH_A
 "世界のすべてを、" TCC_NEWLINE
 "すべての世界を、" TCC_NEWLINE
 "夢で塗り潰しましょう。。。" TCC_NEWLINE TCC_PUSH_A
