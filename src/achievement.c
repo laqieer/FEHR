@@ -50,6 +50,7 @@ void addU16InSRAM(struct U16InSRAM *U16, u16 value)
         setU16InSRAM(U16, 65534);
 }
 
+volatile u8 gStoryProgressUninitialized;
 volatile struct StoryProgress gStoryProgress;
 
 void initStoryProgress()
@@ -60,12 +61,14 @@ void initStoryProgress()
     gStoryProgress.clearBook2 = 0;
     gStoryProgress.clearBook3 = 0;
     gStoryProgress.clearBook4 = 0;
-    gStoryProgress.isInvalid = 0;
+    gStoryProgress.clearBook5 = 0;
+    gStoryProgress.clearBook6 = 0;
+    gStoryProgressUninitialized = 0;
 }
 
 void initInvalidStoryProgress()
 {
-    if(gStoryProgress.isInvalid)
+    if(gStoryProgressUninitialized)
         initStoryProgress();
 }
 
@@ -127,6 +130,26 @@ int isBook4Clear()
 void setBook4Clear()
 {
     gStoryProgress.clearBook4 = 1;
+}
+
+int isBook5Clear()
+{
+    return gStoryProgress.clearBook5;
+}
+
+void setBook5Clear()
+{
+    gStoryProgress.clearBook5 = 1;
+}
+
+int isBook6Clear()
+{
+    return gStoryProgress.clearBook6;
+}
+
+void setBook6Clear()
+{
+    gStoryProgress.clearBook6 = 1;
 }
 
 volatile struct U16InSRAM killCount;
@@ -383,14 +406,16 @@ const struct Achievement achievements[] = {
     {"金翼の王子", "ストーリー序章クリア", isPrologueClear, ProgressAchievement, BronzeAchievement, 0},
     {"伝説の英雄", "ストーリー終章クリア", isEpilogueClear, ProgressAchievement, GoldAchievement, 0},
     {"始まりの証", "ストーリー第１部クリア", isBook1Clear, ProgressAchievement, BronzeAchievement, 0},
-    {"炎の証", "ストーリー第２部クリア", isBook2Clear, ProgressAchievement, SilverAchievement, 0},
+    {"炎の証", "ストーリー第２部クリア", isBook2Clear, ProgressAchievement, BronzeAchievement, 0},
     {"死の証", "ストーリー第３部クリア", isBook3Clear, ProgressAchievement, SilverAchievement, 0},
-    {"夢の証", "ストーリー第４部クリア", isBook4Clear, ProgressAchievement, GoldAchievement, 0},
-    {"十\人ぎり", "敵を１０体倒す", isKillCountOver10, ChallengeAchievement, BronzeAchievement, 0},
+    {"夢の証", "ストーリー第４部クリア", isBook4Clear, ProgressAchievement, SilverAchievement, 0},
+    {"機の証", "ストーリー第５部クリア", isBook5Clear, ProgressAchievement, GoldAchievement, 0},
+    {"神の証", "ストーリー第６部クリア", isBook6Clear, ProgressAchievement, GoldAchievement, 0},
+    //{"十\人ぎり", "敵を１０体倒す", isKillCountOver10, ChallengeAchievement, BronzeAchievement, 0},
     {"百人ぎり", "敵を１００体倒す", isKillCountOver100, ChallengeAchievement, SilverAchievement, 0},
     {"千人ぎり", "敵を１０００体倒す", isKillCountOver1000, ChallengeAchievement, GoldAchievement, 0},
     {"ノーギブアップ", "５０回死ぬ", isDeathCountOver50, ChallengeAchievement, BronzeAchievement, 0},
-    {"ニューカマー", "ゲームを遊ぶ", unlockedFromGameStart, ChallengeAchievement, BronzeAchievement, 0},
+    //{"ニューカマー", "ゲームを遊ぶ", unlockedFromGameStart, ChallengeAchievement, BronzeAchievement, 0},
     {"ビギナー", "ゲームを１時間遊ぶ", isGameTimeOver1h, ChallengeAchievement, BronzeAchievement, 0},
     {"ルーキー", "ゲームを１０時間遊ぶ", isGameTimeOver10h, ChallengeAchievement, SilverAchievement, 0},
     {"ベテラン", "ゲームを１００時間遊ぶ", isGameTimeOver100h, ChallengeAchievement, GoldAchievement, 0},

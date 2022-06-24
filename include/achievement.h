@@ -42,7 +42,8 @@ struct StoryProgress {
     volatile u8 clearBook2:1;
     volatile u8 clearBook3:1;
     volatile u8 clearBook4:1;
-    volatile u8 isInvalid:1;
+    volatile u8 clearBook5:1;
+    volatile u8 clearBook6:1;
 };
 
 void initInvalidGlobalCounter();
@@ -102,6 +103,8 @@ int isBook1Clear();
 int isBook2Clear();
 int isBook3Clear();
 int isBook4Clear();
+int isBook5Clear();
+int isBook6Clear();
 
 extern u32 currentGameClock;
 
