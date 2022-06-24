@@ -18,7 +18,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 "これが最後です、" TCC_NEWLINE
 "" TCC_TACTICIAN_NAME "。" TCC_NEWLINE TCC_PUSH_A
 "幸せな夢か、" TCC_NEWLINE
-"虚ろな現か。。。" TCC_NEWLINE
+"うつろな現か。。。" TCC_NEWLINE
 "どちらを選ぶか。。。？" TCC_NEWLINE TCC_PUSH_A
 ""
 "。。。それを決めるのは私。" TCC_NEWLINE
