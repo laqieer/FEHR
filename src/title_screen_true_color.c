@@ -12,6 +12,8 @@
 #include "title_screen_book_2.h"
 #include "title_screen_book_3.h"
 #include "title_screen_book_4.h"
+#include "title_screen_book_5.h"
+#include "title_screen_book_6.h"
 #include "achievement.h"
 
 extern vu16 REG_DISPCNT_BUFFER;
@@ -31,16 +33,22 @@ void showTitleScreenBG()
 {
     REG_DISPCNT_BUFFER = MODE_3 | BG2_ON | OBJ_ON;
     initInvalidStoryProgress();
-    if(isBook3Clear())
-        writeTiles(title_screen_book_4Bitmap, MODE3_FB);
+    if(isBook5Clear())
+        writeTiles(title_screen_book_6Bitmap, MODE3_FB);
     else
-        if(isBook2Clear())
-            writeTiles(title_screen_book_3Bitmap, MODE3_FB);
+        if(isBook4Clear())
+            writeTiles(title_screen_book_5Bitmap, MODE3_FB);
         else
-            if(isBook1Clear())
-                writeTiles(title_screen_book_2Bitmap, MODE3_FB);
+            if(isBook3Clear())
+                writeTiles(title_screen_book_4Bitmap, MODE3_FB);
             else
-                writeTiles(title_screen_book_1Bitmap, MODE3_FB);
+                if(isBook2Clear())
+                    writeTiles(title_screen_book_3Bitmap, MODE3_FB);
+                else
+                    if(isBook1Clear())
+                        writeTiles(title_screen_book_2Bitmap, MODE3_FB);
+                    else
+                        writeTiles(title_screen_book_1Bitmap, MODE3_FB);
     CpuFastSet(BG0MapAddr, BG0MapBuffer, sizeof(BG0MapBuffer) / 4);
     CpuFastSet(BG1MapAddr, BG1MapBuffer, sizeof(BG1MapBuffer) / 4);
     CpuFastSet(BG2MapAddr, BG2MapBuffer, sizeof(BG2MapBuffer) / 4);

@@ -3,9 +3,9 @@
 
 Remake [Fire Emblem Heroes](https://fire-emblem-heroes.com/) on [Fire Emblem 7 (J) (GBA)](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%BC%E3%82%A8%E3%83%A0%E3%83%96%E3%83%AC%E3%83%A0_%E7%83%88%E7%81%AB%E3%81%AE%E5%89%A3).
 
-![title_screen_book_1](res/gfx/raw/title_screen_book_1.png) ![title_screen_book_2](res/gfx/raw/title_screen_book_2.png)
+![title_screen_book_1](res/gfx/raw/title_screen_book_1.png) ![title_screen_book_2](res/gfx/raw/title_screen_book_2.png) ![title_screen_book_3](res/gfx/raw/title_screen_book_3.png)
 
-![title_screen_book_3](res/gfx/raw/title_screen_book_3.png) ![title_screen_book_4](res/gfx/raw/title_screen_book_4.png)
+![title_screen_book_4](res/gfx/raw/title_screen_book_4.png) ![title_screen_book_5](res/gfx/raw/title_screen_book_5.png) ![title_screen_book_6](res/gfx/raw/title_screen_book_6.png)
 
 [【Click to Play】](https://laqieer.gitee.io/fehr/launcher.html#fehr) [【Wiki】](https://github.com/laqieer/fe7-jp-stunning-tribble/wiki) [【Discussions】](https://github.com/laqieer/fe7-jp-stunning-tribble/discussions) [【All Chapter Videos】](https://space.bilibili.com/343025/channel/seriesdetail?sid=917293)
 
