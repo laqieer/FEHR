@@ -58,7 +58,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Hrid,KnightLord,Anna,3,18,3,18)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(GenericSummonedStrongDrop,TransporterHorse,0,30,SIDE_ENEMY,1,14,7,14,7,86,182,0,0,0,3,3,0) // Merlinus
+	UNIT(GenericSummonedStrongDrop,TransporterHorse,0,30,SIDE_ENEMY,1,14,7,14,7,182,86,0,0,0,3,3,0) // Merlinus
 	UNIT(GenericElfStrong,Bishop_F,0,30,SIDE_ENEMY,1,11,9,11,9,77,0,0,0,14,3,3,0) // Cleric
 	UNIT(GenericElfStrong,FalcoKnight,0,30,SIDE_ENEMY,1,5,5,5,5,27,0,0,0,0,3,3,0) // Lance Flier
 	UNIT(GenericElfStrong,DivineDragon,0,30,SIDE_ENEMY,1,0,2,0,2,176,0,0,0,0,3,3,0) // Red Manakete

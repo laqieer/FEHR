@@ -43,8 +43,8 @@
       <property name="AI3" propertytype="AI3" value="CautiousRecovery"/>
       <property name="AutoLevel" type="bool" value="true"/>
       <property name="Character" propertytype="Character" value="GenericSummonedStrongDrop"/>
-      <property name="Equip" propertytype="Item" value="Hammerne"/>
-      <property name="Item" propertytype="Item" value="GranisShield"/>
+      <property name="Equip" propertytype="Item" value="GranisShield"/>
+      <property name="Item" propertytype="Item" value="Hammerne"/>
       <property name="Level" type="int" propertytype="Level" value="30"/>
      </properties>
     </property>
