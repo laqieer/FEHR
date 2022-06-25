@@ -10,10 +10,16 @@ extern const u8 musicMapFE3[];
 extern const u8 musicFEIfLostInThoughtsAllAlone[];
 extern const u8 musicFEHEvent1[];
 extern const u8 musicFEHGearUp[];
+extern const u8 musicFEHMapBook1[];
 extern const u8 musicFEHMapBook2[];
+extern const u8 musicFEHMapBook3[];
+extern const u8 musicFEHHel[];
+extern const u8 musicFEHFreyja[];
 extern const u8 musicFEHSerious6[];
 extern const u8 musicFEHSerious6B[];
 extern const u8 musicFEHTempestTrial[];
+extern const u8 musicFEHAetherRaids[];
+extern const u8 musicFEHRokkrSiege[];
 extern const u8 musicFE3DivineDragonLegendA[];
 extern const u8 musicFEIfEndAll[];
 extern const u8 music_FE_Awakening_Id_Serenity[];
@@ -1630,6 +1636,12 @@ const struct Song songs[] = {
         [MUSIC_FE_PATH_OF_RADIANCE_DREAMING_OF_HOME] = {musicFEPoRDreamingOfHome, 1, 1},
         [MUSIC_FE_PATH_OF_RADIANCE_HIS_FATHERS_SON] = {musicFEPoRHisFathersSon, 1, 1},
         [MUSIC_FE_PATH_OF_RADIANCE_MEMORY_OF_MOM] = {musicFEPoRMemoryOfMom, 1, 1},
+        [MUSIC_FE_H_AETHER_RAIDS] = {musicFEHAetherRaids, 1, 1},
+        [MUSIC_FE_H_ROKKR_SIEGE] = {musicFEHRokkrSiege, 1, 1},
+        [MUSIC_FE_H_MAP_BOOK_1] = {musicFEHMapBook1, 1, 1},
+        [MUSIC_FE_H_MAP_BOOK_3] = {musicFEHMapBook3, 1, 1},
+        [MUSIC_FE_H_HEL] = {musicFEHHel, 1, 1},
+        [MUSIC_FE_H_FREYJA] = {musicFEHFreyja, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1758,7 +1770,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_IF_LOST_IN_THOUGHTS_ALL_ALONE, 355 * 0x30, 0, "ひとり思う"},
     {MUSIC_FE_H_EVENT_1, 115 * 0x30,                     0, "イベント一"},
     {MUSIC_FE_H_GEAR_UP, 219 * 0x30,                     0, "準備"},
-    {MUSIC_FE_H_MAP_BOOK_2, 226 * 0x30,                  0, "第二部マップ"},
+    {MUSIC_FE_H_MAP_BOOK_2, 226 * 0x30,                  0, "第２部マップ"},
     {MUSIC_FE_H_SERIOUS_6, 129 * 0x30,                   0, "緊張六"},
     {MUSIC_FE_H_SERIOUS_6B, 177 * 0x30,                  0, "緊張六改"},
     {MUSIC_FE_H_TEMPEST_TRIAL, 120 * 0x30,               0, "戦渦の連戦"},
@@ -1852,6 +1864,12 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_PATH_OF_RADIANCE_DREAMING_OF_HOME, MUSIC_LENGTH(2, 0), 0, "Ｄｒｅａｍｉｎｇ　ｏｆ　Ｈｏｍｅ"},
     {MUSIC_FE_PATH_OF_RADIANCE_HIS_FATHERS_SON, MUSIC_LENGTH(1, 30), 0, "Ｈｉｓ　Ｆａｔｈｅｒ’ｓ　Ｓｏｎ"},
     {MUSIC_FE_PATH_OF_RADIANCE_MEMORY_OF_MOM, MUSIC_LENGTH(2, 54), 0, "Ｍｅｍｏｒｙ　ｏｆ　Ｍｏｍ"},
+    {MUSIC_FE_H_MAP_BOOK_1, MUSIC_LENGTH(2, 53), 0, "第１部マップ"},
+    {MUSIC_FE_H_MAP_BOOK_3, MUSIC_LENGTH(2, 12), 0, "第３部マップ"},
+    {MUSIC_FE_H_HEL, MUSIC_LENGTH(2, 15), 0, "ヘル"},
+    {MUSIC_FE_H_FREYJA, MUSIC_LENGTH(2, 1), 0, "フレイヤ"},
+    {MUSIC_FE_H_AETHER_RAIDS, MUSIC_LENGTH(3, 57), 0, "飛空城"},
+    {MUSIC_FE_H_ROKKR_SIEGE, MUSIC_LENGTH(3, 4), 0, "巨影討滅戦"},
 
     // End of table
     {-1, 0,                                              0, 0},
