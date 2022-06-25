@@ -55,6 +55,7 @@ EndingScene:
 	ShowBG(EvBg_Svartalf)
 	TEX1 MID_SCENARIO_ENDING_S4135_EN
 	REMA
+	UnlockBook4ClearAchievement
 	MoveToChapter(268)
 	ENDA
 AllyUnitsENM:
