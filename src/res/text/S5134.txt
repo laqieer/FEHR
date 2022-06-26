@@ -8,7 +8,7 @@ TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "どこから。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
-"これも魔道科学の力だよ。" TCC_NEWLINE
+"これも魔道かがくの力だよ。" TCC_NEWLINE
 "私の姿が見えない方が" TCC_NEWLINE
 "冷静に話し合えると思ってね。" TCC_NEWLINE TCC_PUSH_A
 ""

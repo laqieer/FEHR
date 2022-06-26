@@ -105,7 +105,7 @@ TCC_OPEN_RIGHT
 "じゃあこのニセモノはもう用なしね。" TCC_NEWLINE
 "壊しちゃいましょ。" TCC_NEWLINE TCC_PUSH_A
 ""
-"魔道科学の国ニザヴェリル。。。" TCC_NEWLINE
+"魔道かがくの国ニザヴェリル。。。" TCC_NEWLINE
 "ちょっと調子に乗っちゃったわね。" TCC_NEWLINE TCC_PUSH_A
 "アスク王国の真似事にまで" TCC_NEWLINE
 "手を出すなんて。" TCC_NEWLINE TCC_PUSH_A

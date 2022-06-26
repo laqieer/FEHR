@@ -67,7 +67,7 @@ TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 TCC_OPEN_LEFT
 "私はアスク王国の召喚の神器に" TCC_NEWLINE
 "興味があってね。" TCC_NEWLINE TCC_PUSH_A
-"魔道科学の力で同じものが作れないか" TCC_NEWLINE
+"魔道かがくの力で同じものが作れないか" TCC_NEWLINE
 "長年研究していたんだよ。" TCC_NEWLINE TCC_PUSH_A
 ""
 "でもダメだね。呼び出すことはできても" TCC_NEWLINE

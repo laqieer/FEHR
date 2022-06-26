@@ -14,7 +14,7 @@ TCC_OPEN_LEFT
 ""
 TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_SHARENA
 "すごいですっ！" TCC_NEWLINE
-"それもニザヴェリルの魔道科学ですか？" TCC_NEWLINE TCC_PUSH_A
+"それもニザヴェリルの魔道かがくですか？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "小さい頃、私が迷子にならないように" TCC_NEWLINE
@@ -27,7 +27,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
 "たまにはなるのね。。。" TCC_NEWLINE
 "とにかく助かったわ。" TCC_NEWLINE TCC_PUSH_A
-"魔道科学って本当に便利ね。" TCC_NEWLINE
+"魔道かがくって本当に便利ね。" TCC_NEWLINE
 "正しいことにだけ" TCC_NEWLINE
 "使ってくれればいいのに。。。" TCC_NEWLINE TCC_PUSH_A
 ""

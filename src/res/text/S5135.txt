@@ -76,7 +76,7 @@ TCC_OPEN_LEFT
 "ニザヴェリルをこの世界一の" TCC_NEWLINE
 "大国にしてみせる。" TCC_NEWLINE TCC_PUSH_A
 ""
-"魔道科学の力をもってすれば" TCC_NEWLINE
+"魔道かがくの力をもってすれば" TCC_NEWLINE
 "容易いことさ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT
@@ -122,7 +122,7 @@ TCC_OPEN_LEFT
 "！　魔剣【グラム】。。。" TCC_NEWLINE
 "そうか、それは想定外だったな。" TCC_NEWLINE TCC_PUSH_A
 ""
-"だが面白い。私の魔道科学の力と" TCC_NEWLINE
+"だが面白い。私の魔道かがくの力と" TCC_NEWLINE
 "古の王家の秘宝。" TCC_NEWLINE
 "どちらの力が上回るのか。。。" TCC_NEWLINE TCC_PUSH_A
 "かかってきたまえ。" TCC_NEWLINE

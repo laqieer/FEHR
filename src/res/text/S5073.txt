@@ -157,7 +157,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_LEFT
 "ううん。そんなふうには見えなかったの。" TCC_NEWLINE TCC_PUSH_A
 "いくらアスク王国が英雄を呼んだって" TCC_NEWLINE
-"ニザヴェリルの魔道科学に" TCC_NEWLINE
+"ニザヴェリルの魔道かがくに" TCC_NEWLINE
 "勝てるわけがないって。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT

@@ -58,7 +58,7 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_MID_RIGHT
 "だって、ニザヴェリルの軍は" TCC_NEWLINE
-"みんな魔道科学の武器だから" TCC_NEWLINE
+"みんな魔道かがくの武器だから" TCC_NEWLINE
 "魔剣なんて使わないの。" TCC_NEWLINE TCC_PUSH_A
 "何年か前にね、" TCC_NEWLINE
 "ヨトゥンとの関係がすごく悪くなって" TCC_NEWLINE
@@ -84,7 +84,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_EITRI
 "今後の研究に役に立つかもしれない。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
-"さすが魔道科学の第一人者ですね！" TCC_NEWLINE
+"さすが魔道かがくの第一人者ですね！" TCC_NEWLINE
 "わかりましたっ！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT

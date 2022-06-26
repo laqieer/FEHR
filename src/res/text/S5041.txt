@@ -7,7 +7,7 @@
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
 "わー。。。っ！" TCC_NEWLINE
 "不思議な物がいっぱいです！" TCC_NEWLINE
-"これが魔道科学というものなんですねっ！" TCC_NEWLINE TCC_PUSH_A
+"これが魔道かがくというものなんですねっ！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "賢者エイトリ、助けてくれて感謝する。" TCC_NEWLINE
@@ -18,7 +18,7 @@ TCC_OPEN_LEFT
 "問題ない。多少機嫌は" TCC_NEWLINE
 "損ねたかもしれないがね。" TCC_NEWLINE TCC_PUSH_A
 "今日のニザヴェリルの繁栄は" TCC_NEWLINE
-"魔道科学なしにはありえない。" TCC_NEWLINE
+"魔道かがくなしにはありえない。" TCC_NEWLINE
 "ファフニールが私を処することはないさ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
@@ -63,7 +63,7 @@ TCC_OPEN_MID_LEFT
 TCC_OPEN_LEFT
 "その通り。偉大なる建国王はその後も" TCC_NEWLINE
 "発明家たちを庇護し、" TCC_NEWLINE
-"それが魔道科学のはしりと言われている。" TCC_NEWLINE TCC_PUSH_A
+"それが魔道かがくのはしりと言われている。" TCC_NEWLINE TCC_PUSH_A
 ""
 "私も学者の端くれとして" TCC_NEWLINE
 "建国王を崇め、この国を愛しているんだ。" TCC_NEWLINE TCC_PUSH_A

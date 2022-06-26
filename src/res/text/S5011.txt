@@ -133,7 +133,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "ああ。手先の器用な小人族の国で" TCC_NEWLINE
-"優れた魔道科学の力を持つ国だ。" TCC_NEWLINE TCC_PUSH_A
+"優れた魔道かがくの力を持つ国だ。" TCC_NEWLINE TCC_PUSH_A
 "彼らなら、僕らに気づかれず" TCC_NEWLINE
 "国境に近づくことも可能\だろう。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -141,7 +141,7 @@ TCC_OPEN_LEFT
 "ま、まどうかがく？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
-"魔道と科学を融合させた技術よ。" TCC_NEWLINE
+"魔道とかがくを融合させた技術よ。" TCC_NEWLINE
 "ニザヴェリルはこの世界で唯一" TCC_NEWLINE
 "その研究に成功した国なの。" TCC_NEWLINE TCC_PUSH_A
 ""

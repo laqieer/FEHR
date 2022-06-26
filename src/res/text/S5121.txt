@@ -21,7 +21,7 @@ TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
 ""
 TCC_OPEN_RIGHT
 "ううん。これはニザヴェリルの発展に" TCC_NEWLINE
-"貢献した、歴代の魔道科学者たちなの。" TCC_NEWLINE TCC_PUSH_A
+"貢献した、歴代の魔道かがく者たちなの。" TCC_NEWLINE TCC_PUSH_A
 "アールヴリック、ドヴァリン、" TCC_NEWLINE
 "ベルリング、グレール。。。" TCC_NEWLINE TCC_PUSH_A
 "彼らのおかげでニザヴェリルは" TCC_NEWLINE
