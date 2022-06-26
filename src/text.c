@@ -328,6 +328,71 @@ const char* const texts[] = {
                "なんかに。。。" TCC_NEWLINE TCC_PUSH_A
                TCC_CLEAR_FACE,
 
+        [TEXT_DEATH_QUOTE_TOR] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_TOR
+               "。。。見事" TCC_NEWLINE
+               "。。。だ。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_REGHIN] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_REGHIN
+               "私。。。" TCC_NEWLINE
+               "やっぱりダメなの。。。？" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_LETIZIA] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_LETIZIA
+               "この恨み。。。" TCC_NEWLINE
+               "かなら。。。ず。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_OTR] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_OTR
+               "嫌だ。。。" TCC_NEWLINE
+               "兄さん。。。！" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_FAFNIR] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_FAFNIR
+               "。。。俺は。。。" TCC_NEWLINE
+               "誰だ。。。？" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_EITRI] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_EITRI
+               "困ったな。。。" TCC_NEWLINE
+               "私は。。。まだ。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_DAGR] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_DAGR
+               "うっそ。。。" TCC_NEWLINE
+               "マジで。。。？" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_NOTT] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_NOTT
+               "負けましたわ。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_ASH] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_ASH
+               "ふがいない最期で。。。" TCC_NEWLINE
+               "ありました。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_VERONICA_STAIN] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_VERONICA_STAIN
+               "エンブラ様。。。" TCC_NEWLINE
+               "お許しください。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
+        [TEXT_DEATH_QUOTE_ELM] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_ELM
+               "エンブラ様。。。" TCC_NEWLINE
+               "お許しください。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
         [TEXT_CHARACTER_NAME_LOKI] = "ロキ",
 
         [TEXT_CHARACTER_HELP_LOKI] = "炎の王国ムスペルの軍師。悪戯好きで、人を誘惑することを好む。",

@@ -65,6 +65,17 @@ const struct DeathQuote deathQuotes[] = {
         {CHARACTER_ID_AVATAR, AnyChapter, 0, TEXT_DEATH_QUOTE_AVATAR, 0, LordDeathTriggerEventID},
         {CHARACTER_FREYR_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_FREYR, 0, 0},
         {CHARACTER_TAKUMI_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_TAKUMI, 0, 0},
+        {CHARACTER_TOR_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_TOR, 0, 0},
+        {CHARACTER_REGHIN_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_REGHIN, 0, 0},
+        {CHARACTER_LETIZIA_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_LETIZIA, 0, 0},
+        {CHARACTER_OTR_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_OTR, 0, 0},
+        {CHARACTER_FAFNIR_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_FAFNIR, 0, 0},
+        {CHARACTER_EITRI_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_EITRI, 0, 0},
+        {CHARACTER_DAGR_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_DAGR, 0, 0},
+        {CHARACTER_NOTT_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_NOTT, 0, 0},
+        {CHARACTER_ASH_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_ASH, 0, 0},
+        {CHARACTER_VERONICA_STAIN_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_VERONICA_STAIN, 0, 0},
+        {CHARACTER_ELM_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_ELM, 0, 0},
 
         {0, 0, 0, 0, 0, 0}
 };
