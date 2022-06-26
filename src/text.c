@@ -175,7 +175,7 @@ const char* const texts[] = {
         [TEXT_JOB_NAME_VERONICA_PRINCESS] = "死の皇女",
 
         // Veronica job description
-        [TEXT_JOB_HELP_VERONICA_PRINCESS] = "エンブラ帝国皇女。",
+        [TEXT_JOB_HELP_VERONICA_PRINCESS] = "エンブラ帝国皇女",
 
         // character Veronica death quote
         [TEXT_DEATH_QUOTE_VERONICA] = TCC_OPEN_FAR_RIGHT
@@ -417,6 +417,10 @@ const char* const texts[] = {
         [TEXT_ITEM_NAME_GRANIS_SHIELD] = "グラニの盾",
 
         [TEXT_ITEM_HELP_GRANIS_SHIELD] = "騎馬特効無効",
+
+        [TEXT_JOB_NAME_GREAT_KNIGHT] = "スチームナイト",
+
+        [TEXT_JOB_HELP_GREAT_KNIGHT] = "高い守備力と機動力を誇る魔道科学騎兵"TCC_NEWLINE"移動力に優れる　装備「剣・槍・斧」",
 
         // Chapter event dialogue
 
