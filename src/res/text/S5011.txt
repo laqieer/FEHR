@@ -141,7 +141,7 @@ TCC_OPEN_LEFT
 "ま、まどうかがく？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ANNA
-"魔道とかがくを融合させた技術よ。" TCC_NEWLINE
+"魔道とかがくをゆうごうさせた技術よ。" TCC_NEWLINE
 "ニザヴェリルはこの世界で唯一" TCC_NEWLINE
 "その研究に成功した国なの。" TCC_NEWLINE TCC_PUSH_A
 ""
