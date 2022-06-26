@@ -26,7 +26,7 @@ ifneq ($(shell uname -s),Darwin)
 endif
 	sox $*_$*_extracted.wav -r $(SAMPLE_RATE) -b 8 -c 1 $*.wav
 	rm $*_$*_extracted.wav
-	se2m4a/se2m4a.py $*.wav $*.s
+	se2m4a/se2m4a.py $*.wav $*.s -c
 	$(DEVKITARM)/bin/arm-none-eabi-as -mcpu=arm7tdmi -Ise2m4a $*.s -o $@
 
 $(header): $(lib)
