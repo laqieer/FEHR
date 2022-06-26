@@ -1,12 +1,4 @@
 { "columns":0,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"",
-         "target":"."
-        }
-    },
  "grid":
     {
      "height":1,
@@ -16,8 +8,8 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":85,
- "tiledversion":"1.4.2",
+ "tilecount":86,
+ "tiledversion":"1.8.6",
  "tileheight":32,
  "tiles":[
         {
@@ -529,8 +521,14 @@
          "image":"enemy_units\/MagicGeneral.png",
          "imageheight":22,
          "imagewidth":16
+        }, 
+        {
+         "id":87,
+         "image":"enemy_units\/SteamKnight.png",
+         "imageheight":20,
+         "imagewidth":15
         }],
  "tilewidth":30,
  "type":"tileset",
- "version":1.4
+ "version":"1.8"
 }

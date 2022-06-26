@@ -149,6 +149,8 @@
 #define MagicGeneral 111
 #define Summoner 112
 #define DivineManakete DivineDragon
+#define GreatKnight 113
+#define SteamKnight GreatKnight
 
 // Items
 #define HeavyLance HeavySpear

@@ -4,7 +4,8 @@
     ],
     "extensionsPath": "extensions",
     "folders": [
-        "new_map"
+        "new_map",
+        "event/unit"
     ],
     "objectTypesFile": "",
     "propertyTypes": [

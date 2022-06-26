@@ -8,7 +8,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":21,
+ "tilecount":22,
  "tiledversion":"1.8.6",
  "tileheight":24,
  "tiles":[
@@ -137,6 +137,12 @@
          "image":"player_units\/Summoner.png",
          "imageheight":16,
          "imagewidth":12
+        }, 
+        {
+         "id":21,
+         "image":"player_units\/SteamKnight.png",
+         "imageheight":20,
+         "imagewidth":15
         }],
  "tilewidth":16,
  "type":"tileset",
