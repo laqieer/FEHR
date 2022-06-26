@@ -76,6 +76,7 @@ enum SpecialSkillID {
     SPECIAL_SKILL_NJORUN_ZEAL, // ノヴァの聖戦士
     SPECIAL_SKILL_TWIN_BLADES, // 双刃
     SPECIAL_SKILL_OPEN_FUTURE, // 開世
+    SPECIAL_SKILL_SEIOR_SHELL, // 魔弾
 };
 
 enum AssistSkillID {

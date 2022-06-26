@@ -692,6 +692,32 @@ void specialSkillBlueFlameEffect(struct BattleUnit* attacker, struct BattleUnit*
         attacker->nonZeroDamage = 1;
 }
 
+// –‚’eF‚P‚T‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZA‚©‚ÂA“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZ
+void specialSkillSeiorShellEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    int damagePlus = 15;
+
+    if(getUnitPassiveSkillB(&defender->unit) < PASSIVE_SKILL_B_MYSTIC_BOOST_1 || getUnitPassiveSkillB(&defender->unit) > PASSIVE_SKILL_B_MYSTIC_BOOST_4)
+    {
+        short defense = defender->terrainDefense + defender->unit.def;
+        short resistance = defender->terrainResistance + defender->unit.res;
+        short battleDefense = (GetItemAttributes(attacker->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(attacker->weapon) & IA_MAGIC) ? resistance: defense;
+        damagePlus += max(0, battleDefense - min(defense, resistance));
+    }
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage += damagePlus * 3;
+    else
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage += damagePlus;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
 /*
  * ŒŽ“øEŒŽŒõŒn‚Ì‰œ‹`ƒXƒLƒ‹
  */
@@ -2553,6 +2579,21 @@ const struct SpecialSkill specialSkills[] = {
                 0,
                 0
         },
+        {
+            "–‚’e",
+            "‚Pƒ^[ƒ“–ÚŠJŽnŽžA‰œ‹`”­“®ƒJƒEƒ“ƒg|‚R"TCC_NEWLINE
+            "‚P‚T‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZA‚©‚ÂA"TCC_NEWLINE
+            "“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZ",
+            "Sei?r Shell",
+            "At the start of turn 1, grants Special cooldown count-3 to unit. Boosts damage by 15 and calculates damage using the lower of foe's Def or Res.",
+            3,
+                0,
+                specialSkillSeiorShellEffect,
+                0,
+                0,
+                0,
+                0
+        },
 };
 
 const u16 itemSpecialSkills[0x100] = {
@@ -2583,6 +2624,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_FREYJA_ID] = SPECIAL_SKILL_LUNA,
         [CHARACTER_ID_MYUNIT] = SPECIAL_SKILL_FIRE_EMBLEM,
         [CHARACTER_ID_TAKUMI] = SPECIAL_SKILL_VENGEANCE,
+        [CHARACTER_REGHIN_ID] = SPECIAL_SKILL_SEIOR_SHELL,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -2658,7 +2700,7 @@ const u16 strongSpecialSkills[] = {
     SPECIAL_SKILL_AEGIS,
     SPECIAL_SKILL_MIRACLE,
     SPECIAL_SKILL_AETHER,
-    SPECIAL_SKILL_GALEFORCE,
+    //SPECIAL_SKILL_GALEFORCE, // Enemy AI cannot use it.
     SPECIAL_SKILL_RUPTURED_SKY,
     SPECIAL_SKILL_BLUE_FLAME,
 };
@@ -2911,6 +2953,15 @@ void updateAllyUnitSkillCD(struct Unit *allyUnit, struct Unit *skillUnit)
 
 void updateUnitSkillCD(struct Unit *unit)
 {
+    switch(getUnitSpecialSkill(unit))
+    {
+        case SPECIAL_SKILL_SEIOR_SHELL:
+            increaseUnitSkillCD(unit, 3);
+            break;
+        default:
+            break;
+    }
+
     switch(getUnitPassiveSkillS(unit))
     {
         case PASSIVE_SKILL_S_QUICKENED_PULSE:
@@ -5121,7 +5172,7 @@ void ComputeBattleUnitDefense(struct BattleUnit* attacker, struct BattleUnit* de
     else
         attacker->battleDefense = defense;
 
-     switch (getUnitPassiveSkillA(&attacker->unit))
+     switch (getUnitPassiveSkillB(&attacker->unit))
      {
          case PASSIVE_SKILL_B_MYSTIC_BOOST_1:
          case PASSIVE_SKILL_B_MYSTIC_BOOST_2:
