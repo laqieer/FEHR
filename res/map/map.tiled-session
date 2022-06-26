@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_268.tmx",
+    "activeFile": "new_map/event_chap_269.tmx",
     "expandedProjectPaths": [
         "event/unit",
         "new_map"
@@ -119,6 +119,9 @@
         "new_map/S5011.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
+        },
+        "new_map/S5012.tsx": {
+            "scaleInDock": 1
         },
         "new_map/event_chap_126.json": {
             "scale": 2.1760937499999997,
@@ -318,10 +321,18 @@
                 "x": 120.39922452789547,
                 "y": 160.60888920801324
             }
+        },
+        "new_map/event_chap_269.tmx": {
+            "scale": 2.1760937499999997,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 120.39922452789547,
+                "y": 160.14935018309762
+            }
         }
     },
     "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
-    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/new_map",
+    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/event/unit/player_units",
     "lastUsedTilesetExportFilter": "Fire Emblem (GBA) map tileset terrain binary (*.bin)",
     "map.height": 20,
     "map.lastUsedExportFilter": "Fire Emblem (GBA) chapter event (*.S)",
@@ -330,23 +341,23 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_268.tmx"
+        "new_map/event_chap_269.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_269.tmx",
         "new_map/event_chap_268.tmx",
+        "event/unit/player_unit_set.json",
         "new_map/event_chap_267.tmx",
         "new_map/S5011.tsx",
         "event/unit/enemy_unit_set.json",
-        "event/unit/player_unit_set.json",
         "new_map/S4135.tsx",
         "new_map/event_chap_266.tmx",
         "new_map/event_chap_265.tmx",
         "new_map/S4134.tsx",
         "new_map/S4133.tsx",
-        "new_map/event_chap_264.tmx",
-        "new_map/S4132.tsx"
+        "new_map/event_chap_264.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
