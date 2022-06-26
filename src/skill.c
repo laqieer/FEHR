@@ -3253,15 +3253,12 @@ void SpecialSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUni
     // attacker's special skill effect after battle
     specialSkillId = getUnitSpecialSkill(&attacker->unit);
     // if attacker has effective special skill after battle & skill CD completed & (skill has no condition or condition satisfied)
-    if(specialSkillId && specialSkills[specialSkillId].effectAfterBattle && isSkillCDFull(&attacker->unit)
+    if(isInBattle() && specialSkillId && specialSkills[specialSkillId].effectAfterBattle && isSkillCDFull(&attacker->unit)
        && (specialSkills[specialSkillId].condition == 0 || specialSkills[specialSkillId].condition(attacker, defender)))
     {
         (*(specialSkills[specialSkillId].effectAfterBattle))(attacker, defender);
-        if(isInBattle())
-        {
-            gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_AFTER_BATTLE;
-            initUnitSkillCD(&attacker->unit);
-        }
+        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SKILL_AFTER_BATTLE;
+        initUnitSkillCD(&attacker->unit);
     }
 }
 
@@ -4293,6 +4290,16 @@ void PassiveSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUni
     PassiveSkillBEffectAfterBattle(attacker, defender);
     PassiveSkillCEffectAfterBattle(attacker, defender);
     PassiveSkillSEffectAfterBattle(attacker, defender);
+}
+
+void OtherEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if(attacker->unit.job->id == JOB_ID_STEAM_KNIGHT)
+    {
+        setUnitStateMoveAgain(&attacker->unit);
+        setUnitStateNoMoveAgain(&attacker->unit);
+        attacker->unit.state |= UNIT_STATE_CANTOING | UNIT_STATE_CANTOING_AI;
+    }
 }
 
 void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender) {
@@ -8007,6 +8014,7 @@ void BattleUnwind() {
     {
         SpecialSkillEffectAfterBattle(attacker, defender);
         PassiveSkillEffectAfterBattle(attacker, defender);
+        OtherEffectAfterBattle(attacker, defender);
     }
 
     //DebugPrintBattleHitArray();

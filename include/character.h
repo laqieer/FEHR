@@ -20,7 +20,7 @@ struct SupportData
 };
 
 struct Character {
-    // 人物名字
+    // 人物名�?
     u16 nameTextId;
 
     // 人物描述
@@ -29,13 +29,13 @@ struct Character {
     // 人物序号
     u8 id;
 
-    // 职业(用于在支援界面显示)
+    // 职�?(用于在支援界面显示)
     u8 job;
 
-    // 人物头像
+    // 人物头�?
     u16 portrait;
 
-    // 小头像(覆盖人物头像里的小头像,0-默认)
+    // 小头�?(�?盖人物头像里�?小头�?,0-默认)
     // 0x00 Default
     // 0x01 Dragon
     // 0x02 Ostia/Caelin/Civilian
@@ -45,7 +45,7 @@ struct Character {
     // 属性
     u8 affinity;
 
-    // 部队菜单排序顺序
+    // 部队菜单排序顺�?
     u8 sortID;
 
     // 能力基础值
@@ -55,22 +55,22 @@ struct Character {
 
     // hp
     s8 baseHp;
-    // 力/魔力
+    // �?/魔力
     s8 baseStr;
     // 技术
     s8 baseSkl;
     // 速度
     s8 baseSpd;
-    // 守备
+    // 守�?
     s8 baseDef;
     // 魔防
     s8 baseRes;
-    // 幸运
+    // 幸�?
     s8 baseLuk;
-    // 体格附加值
+    // 体�?��?�?值
     s8 baseConBonus;
 
-    // 武器熟练度
+    // 武器熟�?度
 
     // 剑等级
     u8 levelSword;
@@ -82,129 +82,129 @@ struct Character {
     u8 levelBow;
     // 杖等级
     u8 levelStaff;
-    // 理等级
+    // �?等级
     u8 levelAnima;
     // 光等级
     u8 levelLight;
-    // 闇等级
+    // �?等级
     u8 levelDark;
 
-    // 成长率
+    // 成长�?
 
     // hp成长
     u8 growthHp;
-    // 力/魔力成长
+    // �?/魔力成长
     u8 growthStr;
     // 技术成长
     u8 growthSkl;
     // 速度成长
     u8 growthSpd;
-    // 守备成长
+    // 守�?成长
     u8 growthDef;
     // 魔防成长
     u8 growthRes;
-    // 幸运成长
+    // 幸运�?�长
     u8 growthLuk;
 
-    // 人物战斗动画特殊调色板编号
+    // 人物战斗动画特殊�?色板编号
 
-    // 低位职业
+    // 低位职�?
     u8 paletteIdUnpromoted;
-    // 高位职业
+    // 高位职�?
     u8 paletteIdPromoted;
 
-    // 人物特殊战斗动画编号
+    // 人物特殊�?�斗动画编号
 
-    // 低位职业
+    // 低位职�?
     u8 battleAnimationIdUnpromoted;
-    // 高位职业
+    // 高位职�?
     u8 battleAnimationIdPromoted;
 
-    // 填充字节
+    // 填�?字节
     u8 pad_27;
 
-    // 特殊能力(人物/职业共通)
+    // 特殊�?��?(人物/职业�?��?)
 
     // Class & Character Ability 1
 
-    // 骑乘系救出
+    // 骑乘系救�?�
     u8 ability_mountedAid:1;
     // 再移动
     u8 ability_moveAgain:1;
-    // 盗窃
+    // 盗�?
     u8 ability_steal:1;
-    // 使用盗贼钥匙
+    // 使用盗贼钥�?
     u8 ability_theifKey:1;
-    // 舞蹈
+    // 舞�?
     u8 ability_dance:1;
-    // 吹奏
+    // 吹�?
     u8 ability_play:1;
-    // 必杀加成
+    // �?杀�?�?
     u8 ability_criticalBonus:1;
     // 使用弩车
     u8 ability_ballista:1;
 
     // Class & Character Ability 2
 
-    // 上位职业
+    // 上位职�?
     u8 ability_promoted:1;
     // 运输队
     u8 ability_supplyDepot:1;
-    // 骑马图标显示
+    // 骑马图�?显示
     u8 ability_mountedIcon:1;
-    // 龙骑士图标显示
+    // 龙骑士图�?显示
     u8 ability_dragonKnightIcon:1;
-    // 天马骑士图标显示
+    // 天马骑士图�?显示
     u8 ability_pegasusKnightIcon:1;
-    // 领主
+    // �?主
     u8 ability_lord:1;
     // 女性
     u8 ability_female:1;
-    // boss图标显示
+    // boss图�?显示
     u8 ability_boss:1;
 
     // Class & Character Ability 3
 
-    // 罗伊武器锁 -> 暗器武器锁
+    // 罗伊武器�? -> 暗器武器�?
     u8 ability_RoyWeaponLock:1;
-    // 倭刀武器锁
+    // 倭刀武器�?
     u8 ability_WoDaoWeaponLock:1;
-    // 龙石武器锁
+    // 龙石武器�?
     u8 ability_dragonStoneWeaponLock:1;
-    // 人造人(包括作为boss出现时的维达)
+    // 人�?人(�?括作为boss出现时�?维达)
     u8 ability_morph:1;
-    // 无法选中(例如倒下的尼尔斯)
+    // �?法选中(例如倒下的尼尔斯)
     u8 ability_preventControl:1;
     // 天马三角攻击
     u8 ability_pegasusTriangleAttack:1;
     // 重甲三角攻击
     u8 ability_armorTriangleAttack:1;
-    // 不要使用这个能力位
+    // 不要使用这个能力�?
     u8 ability_forbidden:1;
 
     // Class & Character Ability 4
 
-    // 击破无经验值，瞬杀无效(例如封魔者).
+    // 击破�?经验值?��瞬杀�?�?(例如�?魔�?).
     u8 ability_noExp:1;
     // 瞬杀
     u8 ability_lethality:1;
-    // 封魔
+    // �?�?
     u8 ability_magicSeal:1;
-    // 物品栏最后一个物品可掉落
+    // 物品�?�最后一个物品可掉落
     u8 ability_dropLastItem:1;
-    // 艾利乌德武器锁
+    // 艾利乌德武器�?
     u8 ability_EliwoodWeaponLock:1;
-    // 海克托尔武器锁
+    // 海克托尔武器�?
     u8 ability_HectorWeaponLock:1;
-    // 琳武器锁
+    // 琳武器�?
     u8 ability_LynWeaponLock:1;
-    // 阿特斯武器锁 -> 召唤师武器锁
+    // 阿特斯武器�? -> 召唤师武器�?
     u8 ability_AthosWeaponLock:1;
 
-    // 支援设定
+    // 支援设�?
     struct SupportData *support;
 
-    // 控制不同人物在某个场景下说不同的话
+    // 控制不同人物在某个场景下说不同�?�?
     // http://feuniverse.us/t/fe7-ch25h-fort-seizing-dialogue/1446
     u8 dialogueId;
 };
@@ -321,6 +321,7 @@ enum
     UNIT_STATE_BIT8 = (1 << 8), // has been seen?
     UNIT_STATE_BIT9 = (1 << 9), // hidden by fog?
     UNIT_STATE_HAS_MOVED_AI = (1 << 10),
+    UNIT_STATE_CANTOING_AI = UNIT_STATE_HAS_MOVED_AI,
     UNIT_STATE_IN_BALLISTA = (1 << 11),
     UNIT_STATE_DROP_ITEM = (1 << 12),
     UNIT_STATE_GROWTH_BOOST = (1 << 13),

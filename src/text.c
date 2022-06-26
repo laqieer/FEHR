@@ -485,7 +485,7 @@ const char* const texts[] = {
 
         [TEXT_JOB_NAME_GREAT_KNIGHT] = "スチームナイト",
 
-        [TEXT_JOB_HELP_GREAT_KNIGHT] = "高い守備力と機動力を誇る魔道科学騎兵"TCC_NEWLINE"移動力に優れる　装備「剣・槍・斧」",
+        [TEXT_JOB_HELP_GREAT_KNIGHT] = "高い守備力と機動力を誇る魔道かがく騎兵。移動力に優れる。攻撃した後、再移動できる。装備「剣・槍・斧」",
 
         [TEXT_CHARACTER_NAME_REGHIN] = "レギン",
 
