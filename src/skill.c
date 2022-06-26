@@ -5919,13 +5919,33 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
         case PASSIVE_SKILL_B_BINDING_NECKLACE:
             if(!isAdjacentToAnyCompanion(&defender->unit))
             {
-                attacker->battleAttack -= 2 + getUnitTotalBuffPower(&attacker->unit) > 0 ? getUnitTotalBuffPower(&attacker->unit) : 0;
-                attacker->battleSpeed -= 2 + getUnitTotalBuffSpeed(&attacker->unit) > 0 ? getUnitTotalBuffSpeed(&attacker->unit) : 0;
+                attacker->battleAttack -= 2 + max(0, getUnitTotalBuffPower(&attacker->unit));
+                attacker->battleSpeed -= 2 + max(0, getUnitTotalBuffSpeed(&attacker->unit));
                 if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
-                    attacker->battleDefense -= 2 + getUnitTotalBuffResistance(&attacker->unit) > 0 ? getUnitTotalBuffResistance(&attacker->unit) : 0;
+                    attacker->battleDefense -= 2 + max(0, getUnitTotalBuffResistance(&attacker->unit));
                 else
-                    attacker->battleDefense -= 2 + getUnitTotalBuffDefense(&attacker->unit) > 0 ? getUnitTotalBuffDefense(&attacker->unit) : 0;
+                    attacker->battleDefense -= 2 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             }
+            break;
+        case PASSIVE_SKILL_B_Lull_Spd_Def_1:
+            attacker->battleSpeed -= 1 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 1 + max(0, getUnitTotalBuffDefense(&attacker->unit));
+            break;
+        case PASSIVE_SKILL_B_Lull_Spd_Def_2:
+            attacker->battleSpeed -= 2 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 2 + max(0, getUnitTotalBuffDefense(&attacker->unit));
+            break;
+        case PASSIVE_SKILL_B_Lull_Spd_Def_3:
+            attacker->battleSpeed -= 3 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 3 + max(0, getUnitTotalBuffDefense(&attacker->unit));
+            break;
+        case PASSIVE_SKILL_B_Lull_Spd_Def_4:
+            attacker->battleSpeed -= 4 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 4 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             break;
         default:
             break;
@@ -7572,6 +7592,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"‘¬‚³‚Ì¬—‚Q", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚RˆÈã’á‚¢“G‚Ì‘¬‚³[‚T", "Sabotage Spd 2", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Spd-5 on that foe through its next action."},
     {"‘¬‚³‚Ì¬—‚R", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚RˆÈã’á‚¢“G‚Ì‘¬‚³[‚V", "Sabotage Spd 3", "At start of turn, if any foe's Res <= unit's Res-3 and that foe is adjacent to another foe, inflicts Spd-7 on that foe through its next action."},
     {"‘¬‚³‚Ì¬—‚S", "ƒ^[ƒ“ŠJnA“G“¯m‚ª—×Ú‚µ‚Ä‚¢‚ÄA‚©‚ÂA–‚–h‚ª©•ª‚æ‚è‚PˆÈã’á‚¢“G‚Ì‘¬‚³[‚V", "Sabotage Spd 4", "At start of turn, if any foe's Res <= unit's Res-1 and that foe is adjacent to another foe, inflicts Spd-7 on that foe through its next action."},
+    {"‘¬‚³ç”õ‚Ì‚È‚¬‚P", "í“¬’†A“G‚Ì‘¬‚³Aç”õ|‚PA‚©‚ÂA“G‚Ì‘¬‚³Aç”õ‚Ì‹­‰»‚Ì{‚ğ–³Œø‚É‚·‚é", "Lull Spd/Def 1", "Inflicts Spd/Def-1 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
+    {"‘¬‚³ç”õ‚Ì‚È‚¬‚Q", "í“¬’†A“G‚Ì‘¬‚³Aç”õ|‚QA‚©‚ÂA“G‚Ì‘¬‚³Aç”õ‚Ì‹­‰»‚Ì{‚ğ–³Œø‚É‚·‚é", "Lull Spd/Def 2", "Inflicts Spd/Def-2 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
+    {"‘¬‚³ç”õ‚Ì‚È‚¬‚R", "í“¬’†A“G‚Ì‘¬‚³Aç”õ|‚RA‚©‚ÂA“G‚Ì‘¬‚³Aç”õ‚Ì‹­‰»‚Ì{‚ğ–³Œø‚É‚·‚é", "Lull Spd/Def 3", "Inflicts Spd/Def-3 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
+    {"‘¬‚³ç”õ‚Ì‚È‚¬‚S", "í“¬’†A“G‚Ì‘¬‚³Aç”õ|‚SA‚©‚ÂA“G‚Ì‘¬‚³Aç”õ‚Ì‹­‰»‚Ì{‚ğ–³Œø‚É‚·‚é", "Lull Spd/Def 4", "Inflicts Spd/Def-4 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -7596,6 +7620,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE},
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_B_SABOTAGE_SPD_1, PASSIVE_SKILL_B_SABOTAGE_SPD_2, PASSIVE_SKILL_B_SABOTAGE_SPD_3, PASSIVE_SKILL_B_SABOTAGE_SPD_4},
     [CHARACTER_TRIANDRA_ID] = {PASSIVE_SKILL_B_AEROBATICS_1, PASSIVE_SKILL_B_AEROBATICS_2, PASSIVE_SKILL_B_AEROBATICS_3, PASSIVE_SKILL_B_AEROBATICS_4},
+    [CHARACTER_REGHIN_ID] = {PASSIVE_SKILL_B_Lull_Spd_Def_1, PASSIVE_SKILL_B_Lull_Spd_Def_2, PASSIVE_SKILL_B_Lull_Spd_Def_3, PASSIVE_SKILL_B_Lull_Spd_Def_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)

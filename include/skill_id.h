@@ -267,6 +267,10 @@ enum PassiveSkillBID {
     PASSIVE_SKILL_B_SABOTAGE_SPD_2,
     PASSIVE_SKILL_B_SABOTAGE_SPD_3,
     PASSIVE_SKILL_B_SABOTAGE_SPD_4,
+    PASSIVE_SKILL_B_Lull_Spd_Def_1, // 速さ守備の凪
+    PASSIVE_SKILL_B_Lull_Spd_Def_2,
+    PASSIVE_SKILL_B_Lull_Spd_Def_3,
+    PASSIVE_SKILL_B_Lull_Spd_Def_4,
 };
 
 enum PassiveSkillCID {
