@@ -122,10 +122,10 @@ const struct SupportData supportDataTable[] = {
         1
     },
     { // 19 Peony
-        {CHARACTER_MIRABILIS_ID},
-        {36},
-        {2},
-        1
+        {CHARACTER_MIRABILIS_ID, CHARACTER_TRIANDRA_ID},
+        {36, 72},
+        {2, 3},
+        2
     },
     { // 20 Freyja
         {CHARACTER_TRIANDRA_ID, CHARACTER_PLUMERIA_ID, CHARACTER_FREYR_ID},
@@ -134,10 +134,10 @@ const struct SupportData supportDataTable[] = {
         3
     },
     { // 21 Triandra
-        {CHARACTER_FREYJA_ID, CHARACTER_PLUMERIA_ID},
-        {36, 36},
-        {2, 2},
-        2
+        {CHARACTER_FREYJA_ID, CHARACTER_PLUMERIA_ID, CHARACTER_PEONY_ID},
+        {36, 36, 72},
+        {2, 2, 3},
+        3
     },
     { // 22 Plumeria
         {CHARACTER_TRIANDRA_ID, CHARACTER_FREYJA_ID},
@@ -424,6 +424,14 @@ const struct SupportConversation supportConversations[] = {
         TEXT_SUPPORT_FREYR_FREYJA,
         TEXT_SUPPORT_FREYR_FREYJA,
         TEXT_SUPPORT_FREYR_FREYJA,
+        0
+    },
+    {
+        CHARACTER_TRIANDRA_ID,
+        CHARACTER_PEONY_ID,
+        TEXT_SUPPORT_TRIANDRA_PEONY,
+        TEXT_SUPPORT_TRIANDRA_PEONY,
+        TEXT_SUPPORT_TRIANDRA_PEONY,
         0
     },
     { // End of list

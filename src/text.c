@@ -2903,6 +2903,22 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
+       [TEXT_SUPPORT_TRIANDRA_PEONY] = 
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_TRIANDRA
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_PEONY
+                    "éoè„" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                    "ÅBÅBÅB" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
 #include "texts.txt"
 };
 
