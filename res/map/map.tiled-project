@@ -155,7 +155,13 @@
                 "GenericElfStrong",
                 "GenericElfDrop",
                 "GenericElfWeakDrop",
-                "GenericElfStrongDrop"
+                "GenericElfStrongDrop",
+                "GenericNioavellir",
+                "GenericNioavellirWeak",
+                "GenericNioavellirStrong",
+                "GenericNioavellirDrop",
+                "GenericNioavellirWeakDrop",
+                "GenericNioavellirStrongDrop"
             ],
             "valuesAsFlags": false
         },

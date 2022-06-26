@@ -426,6 +426,10 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_HELP_REGHIN] = "ニザヴェリル王ファフニールの義理の妹。豹変した兄を止めるためアスク王国に協力する。",
 
+        [TEXT_CHARACTER_NAME_GENERIC_NIOAVELLIR] = "ニザヴェリル兵",
+
+        [TEXT_CHARACTER_HELP_GENERIC_NIOAVELLIR] = "小人族の国ニザヴェリルの兵士",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening

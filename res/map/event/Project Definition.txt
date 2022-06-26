@@ -123,6 +123,14 @@
 #define GenericElfWeakDrop 0x90
 #define GenericElfStrongDrop 0x91
 
+#define GenericNioavellir 0x92
+#define GenericNioavellirWeak 0x93
+#define GenericNioavellirStrong 0x95
+
+#define GenericNioavellirDrop 0x96
+#define GenericNioavellirWeakDrop 0x97
+#define GenericNioavellirStrongDrop 0x98
+
 // Classes
 
 #define AlfonseLord EliwoodLord

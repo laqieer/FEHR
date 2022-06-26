@@ -50,7 +50,13 @@ var ChapterEvent = {
             "GenericElfStrong",
             "GenericElfDrop",
             "GenericElfWeakDrop",
-            "GenericElfStrongDrop"
+            "GenericElfStrongDrop",
+            "GenericNioavellir",
+            "GenericNioavellirWeak",
+            "GenericNioavellirStrong",
+            "GenericNioavellirDrop",
+            "GenericNioavellirWeakDrop",
+            "GenericNioavellirStrongDrop"
         ];
 
         file.writeLine("//Exported by Tiled extension: ChapterEvent.js");
