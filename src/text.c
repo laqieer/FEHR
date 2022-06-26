@@ -424,7 +424,7 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_NAME_REGHIN] = "レギン",
 
-        [TEXT_CHARACTER_HELP_REGHIN] = "ニザヴェリル王ファフニールの義理の妹。豹変した兄を止めるためアスク王国に協力する。",
+        [TEXT_CHARACTER_HELP_REGHIN] = "ニザヴェリル王ファフニールの義理の妹。ひょうへんした兄を止めるためアスク王国に協力する。",
 
         [TEXT_CHARACTER_NAME_GENERIC_NIOAVELLIR] = "ニザヴェリル兵",
 
