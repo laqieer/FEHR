@@ -422,6 +422,10 @@ const char* const texts[] = {
 
         [TEXT_JOB_HELP_GREAT_KNIGHT] = "高い守備力と機動力を誇る魔道科学騎兵"TCC_NEWLINE"移動力に優れる　装備「剣・槍・斧」",
 
+        [TEXT_CHARACTER_NAME_REGHIN] = "レギン",
+
+        [TEXT_CHARACTER_HELP_REGHIN] = "ニザヴェリル王ファフニールの義理の妹。豹変した兄を止めるためアスク王国に協力する。",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening

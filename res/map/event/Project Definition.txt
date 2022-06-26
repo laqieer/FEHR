@@ -51,6 +51,7 @@
 #define Tor Thorr
 #define Hood Geitz
 #define Reghin Sain_t
+#define Reginn Reghin
 #define Letizia Marcus
 #define Otr Pent
 #define Fafnir Rath_t
