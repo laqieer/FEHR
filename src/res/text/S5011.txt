@@ -33,14 +33,14 @@ TCC_OPEN_LEFT
 TCC_OPEN_LEFT
 "！　刃を向けた。。。" TCC_NEWLINE
 "やはり失敗だな。" TCC_NEWLINE
-"それなら躊躇する理由もない。" TCC_NEWLINE TCC_PUSH_A
+"それならちゅうちょする理由もない。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "くっ。。。！　ちくしょう。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "！　。。。逃げられたか。まあいい。" TCC_NEWLINE
-"そのうち野垂れ死ぬだろう。。。" TCC_NEWLINE TCC_PUSH_A
+"そのうち野たれ死ぬだろう。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "はあ、はあ。。。" TCC_NEWLINE TCC_PUSH_A
