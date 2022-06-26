@@ -98,3 +98,13 @@
     .rodata.AliceSolKattiDisarmed : {*(.rodata.AliceSolKattiDisarmed)}
     . = 0x8E00008 + 0x20 * 0xd3;
     .rodata.ShamanStaff : {*(.rodata.ShamanStaff)}
+    . = 0x8E00008 + 0x20 * 0xd4;
+    .rodata.GreatKnightSword : {*(.rodata.GreatKnightSword)}
+    . = 0x8E00008 + 0x20 * 0xd5;
+    .rodata.GreatKnightLance : {*(.rodata.GreatKnightLance)}
+    . = 0x8E00008 + 0x20 * 0xd6;
+    .rodata.GreatKnightAxe : {*(.rodata.GreatKnightAxe)}
+    . = 0x8E00008 + 0x20 * 0xd7;
+    .rodata.GreatKnightHandAxe : {*(.rodata.GreatKnightHandAxe)}
+    . = 0x8E00008 + 0x20 * 0xd8;
+    .rodata.GreatKnightDisarmed : {*(.rodata.GreatKnightDisarmed)}
