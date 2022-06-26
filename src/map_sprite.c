@@ -34,6 +34,8 @@
 #include "moving_sprite_DivineDragon.h"
 #include "standing_sprite_Avatar.h"
 #include "moving_sprite_Avatar.h"
+#include "standing_sprite_GreatKnight.h"
+#include "moving_sprite_GreatKnight.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 0, standing_sprite_AlfonseTiles} ,  
@@ -233,6 +235,8 @@ const struct StandingSprite standingSprites[] = {
     {2, MAP_SPRITE_SIZE_SMALL, standing_sprite_DivineDragonTiles} ,  // 97 Divine Dragon (FE6's Fae)
 
     {2, MAP_SPRITE_SIZE_SMALL, standing_sprite_AvatarTiles} ,  // 98 Summoner (Recolored Shaman)
+
+    {2, MAP_SPRITE_SIZE_TALL, standing_sprite_GreatKnightTiles} ,  // 99 Great Knight
 
     {0, 0, 1} ,  
 
@@ -485,6 +489,8 @@ const struct MovingSprite movingSprites[] = {
     {138191660, 138194400} ,  // 0x6F Magic General
 
     {moving_sprite_AvatarTiles, 138226384} ,  // 0x70 Summoner (Recolored Shaman)
+
+    {moving_sprite_GreatKnightTiles, 138263996} ,  // 0x71 Great Knight
 };
 
 const struct MovingSprite * const pMovingSprites1 = movingSprites;
