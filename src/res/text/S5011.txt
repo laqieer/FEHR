@@ -1,15 +1,15 @@
 // Converted by ./ConvertText.py
 
-[MID_SCENARIO_OPENING_S5011] = TCC_OPEN_LEFT 
+[MID_SCENARIO_OPENING_S5011] = TCC_OPEN_FAR_FAR_RIGHT 
 "。。。。。。ーー。。。。。。。。。" TCC_NEWLINE
 ""
 "。。。うぅ。。。。。。う。。。" TCC_NEWLINE TCC_PUSH_A
 "。。。ここは。。。。。。一体。。。。。。？" TCC_NEWLINE TCC_PUSH_A
 ""
-TCC_OPEN_LEFT
+TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HOOD
 "。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "！　誰だ！？" TCC_NEWLINE
 "教えてくれ！" TCC_NEWLINE
 "ここはどこなんだ？" TCC_NEWLINE TCC_PUSH_A
@@ -18,7 +18,7 @@ TCC_OPEN_LEFT
 "。。。はぁ。失敗か。" TCC_NEWLINE
 "今度こそいけると思ったんだが。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "。。。？　何の。。。" TCC_NEWLINE
 "話をしている。。。。。。？" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -26,7 +26,7 @@ TCC_OPEN_LEFT
 "仕方ない。" TCC_NEWLINE
 "もったいないけど処分するか。" TCC_NEWLINE TCC_PUSH_A
 ""
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "な。。。何をする！？" TCC_NEWLINE
 "やめろっ。。。！！" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -35,14 +35,14 @@ TCC_OPEN_LEFT
 "やはり失敗だな。" TCC_NEWLINE
 "それならちゅうちょする理由もない。" TCC_NEWLINE TCC_PUSH_A
 ""
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "くっ。。。！　ちくしょう。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "！　。。。逃げられたか。まあいい。" TCC_NEWLINE
 "そのうち野たれ死ぬだろう。。。" TCC_NEWLINE TCC_PUSH_A
 ""
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "はあ、はあ。。。" TCC_NEWLINE TCC_PUSH_A
 "ここはどこだ？" TCC_NEWLINE
 "見渡す限り荒れ果てて。。。。。。" TCC_NEWLINE

@@ -1,29 +1,29 @@
 // Converted by ./ConvertTextEN.py
 
-[MID_SCENARIO_OPENING_S5011_EN] = TCC_OPEN_LEFT
+[MID_SCENARIO_OPENING_S5011_EN] = TCC_OPEN_FAR_FAR_RIGHT
 "．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｈｎｇｈ！　Ｇｕｈｈ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈ－ｗｈｅｒｅ．．．　Ｗｈａｔ　ｉｓ　ｔｈｉｓ　ｐｌａｃー"TCC_NEWLINE"ｅ？！"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT
+TCC_OPEN_LEFT TCC_LOAD_FACE PORTRAIT_HOOD
 "．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "Ｗｈｏ　ｇｏｅｓ　ｔｈｅｒｅ？！　Ｓｈｏｗ　ｙｏｕｒｓｅｌー"TCC_NEWLINE"ｆ！"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｅｒｅ　ａｍ　Ｉ？！　．．．ＡＮＳＷＥＲ　ＭＥ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｈｍ．　Ａｎｏｔｈｅｒ　ｆａｉｌｕｒｅ．　Ｉ　ｔｒｕｌｙ　"TCC_NEWLINE"ｔｈｏｕｇｈｔ　Ｉ　ｈａｄ　ｉｔ　ｆｉｇｕｒｅｄ　ｏｕｔ　"TCC_NEWLINE"ｔｈｉｓ　ｔｉｍｅ．．．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "Ｙｏｕ．．．　Ｗｈａｔ　ａｒｅ　ｙｏｕ　ｔａｌｋｉｎｇ　ａー"TCC_NEWLINE"ｂｏｕｔ？　Ｗｈｏ　ａｒｅ　ｙｏｕ？"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ　ｗｅｌｌ．　Ｎｏｔｈｉｎｇ　ｔｏ　ｂｅ　ｄｏｎｅ　ａー"TCC_NEWLINE"ｂｏｕｔ　ｉｔ，　Ｉ　ｓｕｐｐｏｓｅ．　Ｓｈａｍｅ　ｆｏｒ"TCC_NEWLINE"　ｍｙ　ｗｏｒｋ　ｔｏ　ｇｏ　ｔｏ　ｗａｓｔｅ，　ｂｕｔ．"TCC_NEWLINE"．．ａ　ｍｉｓｔａｋｅ　ｉｓ　ａ　ｍｉｓｔａｋｅ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "Ｗｈ－ｗｈａｔ　ａｒｅ　Ｓｔａｙ　ｂａｃｋ，　ｙｏｕ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ａｈ．．．　Ｉｔ　ｅｖｅｎ　ｔｕｒｎｓ　ｉｔｓ　ｂｌａｄｅ"TCC_NEWLINE"　ｏｎ　ｍｅ．　Ｎｏ　ｂｅｔｔｅｒ　ｔｈａｎ　ｔｈｅ　ｏｔー"TCC_NEWLINE"ｈｅｒｓ．　Ｗｅｌｌ．．．ｎｏ　ｒｅａｓｏｎ　ｔｏ　ｗａｓー"TCC_NEWLINE"ｔｅ　ｔｉｍｅ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "Ｇｒａｈ！　．．．Ｃｕｒｓｅ　ｙｏｕ！　Ｈａｈ！"TCC_NEWLINE TCC_PUSH_A
 TCC_OPEN_LEFT
 "Ｏｈ！　Ａｎｄ　ｉｔ　ｅｓｃａｐｅｄ．．．　Ａｈ　ｗｅｌｌ"TCC_NEWLINE"．　Ｄｅａｔｈ　ｌｉｅｓ　ｊｕｓｔ　ａｓ　ｓｕｒｅｌｙ　ｏー"TCC_NEWLINE"ｕｔ　ｔｈｅｒｅ　ａｓ　ｉｔ　ｄｏｅｓ　ｈｅｒｅ．"TCC_NEWLINE TCC_PUSH_A
-TCC_OPEN_LEFT
+TCC_OPEN_FAR_FAR_RIGHT
 "．．．Ｇｕｈ！　Ｈｕｆｈｈ．．．　Ｗｈｅｗ．．．"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈｅｒｅ．．．ａｍ　Ｉ？　Ｄｅｖａｓｔａｔｉｏｎ　ｉｎ　"TCC_NEWLINE"ａｌｌ　ｄｉｒｅｃｔｉｏｎｓ，　ａｓ　ｆａｒ　ａｓ　ｔｈｅ"TCC_NEWLINE"　ｅｙｅ　ｃａｎ　ｓｅｅ．　Ｗｈａｔ　ｃｏｕｌｄ　ｃａｕｓー"TCC_NEWLINE"ｅ　ｓｕｃｈ　ｒｕｉｎ？"TCC_NEWLINE TCC_PUSH_A
 "Ｗｈａｔ　ｗａｒ　ｃｏｕｌｄ　ｂｅ　ｓｏ　ｔｅｒｒｉ　Ｎｇー"TCC_NEWLINE"ａｈ！"TCC_NEWLINE TCC_PUSH_A
