@@ -94,6 +94,7 @@ cd build && make
 |Anna|Axe, HandAxe|Greentea(qiuzf007)|
 |Laevatein|Sword|FE7if|
 |Shaman|Staff|Temp|
+|Dracozombie|Dragonstone|Marlon0027, Orihara_Saki|
 
 ### Item Icon
 

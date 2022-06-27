@@ -108,3 +108,5 @@
     .rodata.GreatKnightHandAxe : {*(.rodata.GreatKnightHandAxe)}
     . = 0x8E00008 + 0x20 * 0xd8;
     .rodata.GreatKnightDisarmed : {*(.rodata.GreatKnightDisarmed)}
+    . = 0x8E00008 + 0x20 * 0xd9;
+    .rodata.Dracozombie : {*(.rodata.Dracozombie)}
