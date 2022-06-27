@@ -123,6 +123,9 @@
         "new_map/S5012.tsx": {
             "scaleInDock": 1
         },
+        "new_map/S5013.tsx": {
+            "scaleInEditor": 2
+        },
         "new_map/event_chap_126.json": {
             "scale": 2.1760937499999997,
             "selectedLayer": 0,
@@ -332,7 +335,7 @@
         }
     },
     "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
-    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/event/unit/enemy_units",
+    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/new_map",
     "lastUsedTilesetExportFilter": "Fire Emblem (GBA) map tileset terrain binary (*.bin)",
     "map.height": 20,
     "map.lastUsedExportFilter": "Fire Emblem (GBA) chapter event (*.S)",
@@ -346,6 +349,7 @@
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/S5013.tsx",
         "new_map/event_chap_269.tmx",
         "event/unit/enemy_unit_set.json",
         "new_map/event_chap_268.tmx",
@@ -356,8 +360,7 @@
         "new_map/event_chap_266.tmx",
         "new_map/event_chap_265.tmx",
         "new_map/S4134.tsx",
-        "new_map/S4133.tsx",
-        "new_map/event_chap_264.tmx"
+        "new_map/S4133.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
