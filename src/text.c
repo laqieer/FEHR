@@ -2523,7 +2523,7 @@ const char* const texts[] = {
 
        [TEXT_JOB_NAME_STEAM_DRAGON] = "スチームドラゴン",
 
-       [TEXT_JOB_HELP_STEAM_DRAGON] = "魔道かがくを駆使した飛行機動兵器。",
+       [TEXT_JOB_HELP_STEAM_DRAGON] = "魔道かがくを駆使した飛行機動兵器",
 
        [TEXT_ITEM_NAME_SCALDING_BREATH] = "じょうきのブレス",
 
