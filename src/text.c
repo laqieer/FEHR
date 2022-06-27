@@ -2521,6 +2521,10 @@ const char* const texts[] = {
 
        [TEXT_CHARACTER_HELP_FREYR] = "夢の国アルフの王。夢を司る神で、人々の安らぎを望んでいる。",
 
+       [TEXT_JOB_NAME_STEAM_DRAGON] = "スチームドラゴン",
+
+       [TEXT_JOB_HELP_STEAM_DRAGON] = "魔道かがくを駆使した飛行機動兵器。",
+
        [TEXT_SUPPORT_AVATAR_TAKUMI]= TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_TAKUMI
                "。。。" TCC_NEWLINE TCC_PUSH_A

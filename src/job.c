@@ -282,6 +282,13 @@ const struct JobBattleAnimationConf GreatKnightAnimationConf[] = {
     JobBattleAnimationConfEnd
 };
 
+const struct JobBattleAnimationConf SteamDragonAnimationConf[] = {
+    {Disarmed, 1, ANIMATION_DRACOZOMBIE},
+    {DragonStone, 1, ANIMATION_DRACOZOMBIE},
+    {FlameDragonStone, 1, ANIMATION_DRACOZOMBIE},
+    JobBattleAnimationConfEnd
+};
+
 const struct Job jobs[] = {
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 86, 5, 0, 0, -3, 57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x00 None
 
@@ -517,17 +524,19 @@ const struct Job jobs[] = {
 
 {TEXT_JOB_NAME_GREAT_KNIGHT, TEXT_JOB_HELP_GREAT_KNIGHT, JOB_ID_STEAM_KNIGHT, JOB_ID_STEAM_KNIGHT, 99, 0, CLASSCARD_GREAT_KNIGHT, 35, 21, 8, 4, 6, 11, 3, 13, 8, 60, 28, 24, 24, 29, 25, 25, 3, 70, 30, 20, 15, 21, 20, 20, 3, 2, 1, 2, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, WPN_EXP_E, WPN_EXP_E, WPN_EXP_E, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, GreatKnightAnimationConf, 147140191, 147141296, 147142336, 147142661, 147142726, 147142791, 0} ,  // 0x71 Steam Knight (Great Knight)
 
+{TEXT_JOB_NAME_STEAM_DRAGON, TEXT_JOB_HELP_STEAM_DRAGON, JOB_ID_STEAM_DRAGON, JOB_ID_STEAM_DRAGON, 100, 1, CLASSCARD_DRACOZOMBIE, 0, 53, 1, 0, 1, 0, 3, 25, 5, 80, 50, 50, 50, 50, 50, 25, 3, 85, 35, 20, 20, 30, 10, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, SteamDragonAnimationConf, 147140386, 147141491, 147142531, 147142856, 147142921, 147142986, 0} ,  // 0x72 Steam Dragon (Dracozombie)
+
 };
 
 const struct Job * const pJobs1 = jobs;
 const struct Job * const pJobs2 = jobs;
 const struct Job * const pJobs3 = jobs;
 
-const u8 JobListDragon[] = {0x46, 0x34, 0x35, 0x36, 0x37, JOB_ID_UNDEAD_MANAKETE, JOB_ID_DIVINE_DRAGON, 0};
-const u8 JobListArmour[] = {0x14, 0x16, 0x15, 0x17, 9, JOB_ID_MAGIC_ARMOUR, JOB_ID_MAGIC_GENERAL, JOB_ID_GREAT_KNIGHT, 0};
+const u8 JobListDragon[] = {0x46, 0x34, 0x35, 0x36, 0x37, JOB_ID_UNDEAD_MANAKETE, JOB_ID_DIVINE_DRAGON, JOB_ID_STEAM_DRAGON, 0};
+const u8 JobListArmour[] = {0x14, 0x16, 0x15, 0x17, 9, JOB_ID_MAGIC_ARMOUR, JOB_ID_MAGIC_GENERAL, JOB_ID_GREAT_KNIGHT, JOB_ID_STEAM_DRAGON, 0};
 const u8 JobListKnight[] = {0x2E, 0x2F, 0x30, 0x31, 0x2C, 0x2D, 0x28, 0x29, 0x2A, 0x2B, 7, JOB_ID_MAGE_KNIGHT, JOB_ID_GREAT_KNIGHT, 0};
-const u8 JobListArmourAndKnight[] = {0x14, 0x16, 0x15, 0x17, 9, JOB_ID_MAGIC_ARMOUR, 0x2E, 0x2F, 0x30, 0x31, 0x2C, 0x2D, 0x28, 0x29, 0x2A, 0x2B, 7, JOB_ID_MAGE_KNIGHT, JOB_ID_MAGIC_GENERAL, JOB_ID_GREAT_KNIGHT, 0};
-const u8 JobListFlier[] = {0x32, 0x33, 0x34, 0x35, 0x36, 0x37, JOB_ID_MAGIC_FALCON, JOB_ID_UNDEAD_MANAKETE, JOB_ID_DIVINE_DRAGON, 0};
+const u8 JobListArmourAndKnight[] = {0x14, 0x16, 0x15, 0x17, 9, JOB_ID_MAGIC_ARMOUR, 0x2E, 0x2F, 0x30, 0x31, 0x2C, 0x2D, 0x28, 0x29, 0x2A, 0x2B, 7, JOB_ID_MAGE_KNIGHT, JOB_ID_MAGIC_GENERAL, JOB_ID_GREAT_KNIGHT, JOB_ID_STEAM_DRAGON, 0};
+const u8 JobListFlier[] = {0x32, 0x33, 0x34, 0x35, 0x36, 0x37, JOB_ID_MAGIC_FALCON, JOB_ID_UNDEAD_MANAKETE, JOB_ID_DIVINE_DRAGON, JOB_ID_STEAM_DRAGON, 0};
 const u8 JobListInfantry[] = {1, 2, 3, 4, 5, 6, 8, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf, 0x10, 0x11, 0x12, 0x13, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f, 0x20, 0x21, 0x22, 0x23, 0x24, 0x25, 0x26, 0x27, 0x38, 0x39, 0x3a, 0x3b, 0x3c, 0x3d, 0x3e, 0x3f, 0x40, 0x41, 0x42, 0x43, 0x45, 0x47, 0x48, 0x49, 0x4a, 0x4b, 0x4c, 0x4d, 0x4e, 0x4f, 0x51, 0x52, 0x53, 0x54, 0x56, 0x57, 0x58, 0x5a, 0x65, JOB_ID_BONEWALKER, JOB_ID_BONEWALKER_BOW, JOB_ID_PHANTOM, JOB_ID_REVENANT, JOB_ID_SKELEMONK, JOB_ID_WOLF, JOB_ID_SUMMONER, 0};
 const u8 JobListUndead[] = {JOB_ID_BONEWALKER, JOB_ID_BONEWALKER_BOW, JOB_ID_GHOST_FIRE, JOB_ID_PHANTOM, JOB_ID_REVENANT, JOB_ID_SKELEMONK, JOB_ID_UNDEAD_MANAKETE, 0};
 
@@ -556,6 +565,7 @@ void decideWalkingSoundByJob(struct Proc *proc)
             case JOB_ID_GHOST_FIRE:
             case JOB_ID_UNDEAD_MANAKETE:
             case JOB_ID_DIVINE_DRAGON:
+            case JOB_ID_STEAM_DRAGON:
                 walkingSound = WalkingSoundDragon;
                 break;
             default:
@@ -573,6 +583,7 @@ void decideWalkingSoundByJob(struct Proc *proc)
             case JOB_ID_GHOST_FIRE:
             case JOB_ID_UNDEAD_MANAKETE:
             case JOB_ID_DIVINE_DRAGON:
+            case JOB_ID_STEAM_DRAGON:
                 walkingSound = WalkingSoundDragon;
                 break;
             case JOB_ID_WOLF:

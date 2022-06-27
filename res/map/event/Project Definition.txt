@@ -160,6 +160,8 @@
 #define DivineManakete DivineDragon
 #define GreatKnight 113
 #define SteamKnight GreatKnight
+#define Dracozombie 114
+#define SteamDragon Dracozombie
 
 // Items
 #define HeavyLance HeavySpear
