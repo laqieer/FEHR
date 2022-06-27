@@ -196,6 +196,7 @@
 #define Breidablik 0xb4
 #define FujinYumi 0xb5
 #define GranisShield 0xb6
+#define ScaldingBreath 0xb7
 
 // AI
 #define DefaultAi4 DefaultAI4

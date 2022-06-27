@@ -18,6 +18,8 @@ const struct EquipBuff NightmareFangBuff = {0, 0, 0, 3, 0, 0, 0, 0, 0};
 
 const struct EquipBuff FujinYumiBuff = {0, 0, 0, 0, 0, 3, 0, 0, 0};
 
+const struct EquipBuff ScaldingBreathBuff = {0, 10, 10, 0, 20, 10, 0, 0, 0};
+
 const struct Item items[] = {
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x00 None
 
@@ -384,6 +386,8 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_FUJIN_YUMI, TEXT_ITEM_HELP_FUJIN_YUMI, 0, ITEM_FUJIN_YUMI, ITYPE_BOW, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &FujinYumiBuff, JobListFlier, 1, 14, 70, 6, 5, 2, 2, 80, WPN_EXP_A, ITEM_ICON_FUJIN_YUMI, 0, 0, 1} ,  // 0xB5 Fujin Yumi
 
 {TEXT_ITEM_NAME_GRANIS_SHIELD, TEXT_ITEM_HELP_GRANIS_SHIELD, TEXT_ITEM_CANNOT_USE, ITEM_SACRED_SEAL_GRANIS_SHIELD, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB6 Sacred Seal: Grani's Shield
+
+{TEXT_ITEM_NAME_SCALDING_BREATH, TEXT_ITEM_HELP_SCALDING_BREATH, 0, ITEM_SCALDING_BREATH, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &ScaldingBreathBuff, 0, 0, 16, 80, 0, 0, 3, 1, 0, WPN_EXP_A, ITEM_ICON_SCALDING_BREATH, 0, 0, 0} ,  // 0xB7 Scalding Breath
 };
 
 const struct Item * const pItems1 = items;
@@ -590,6 +594,7 @@ const struct ItemSpellAssociation itemSpellAssociations[] = {
     {ITEM_DIVINE_DRAGONSTONE, 2, 0x14, 0, 1, 0, FLASH_COLOR_BLUE, 0} ,  // 
     {ITEM_BREIDABLIK, 2, 2, 0, 1, 0, FLASH_COLOR_WHITE, 0} ,  // 
     {ITEM_FUJIN_YUMI, 2, 2, 0, 1, 0, FLASH_COLOR_BLUE, 0} ,  // 
+    {ITEM_SCALDING_BREATH, 2, 0x14, 0, 1, 0, FLASH_COLOR_WHITE, 0} ,  // 
 
     {65535, 2, 65535, 0, 1, 0, 0, 0} ,  // End of list 
 };
