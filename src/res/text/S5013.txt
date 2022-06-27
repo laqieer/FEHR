@@ -29,7 +29,7 @@ TCC_OPEN_RIGHT
 "そして。。。なんですか？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT
-"その道を開く鍵は、あのレギン王女が" TCC_NEWLINE
+"その道を開くかぎは、あのレギン王女が" TCC_NEWLINE
 "握っているのかもしれない。" TCC_NEWLINE
 "ただの直感だけど。。。" TCC_NEWLINE TCC_PUSH_A
 "。。。" TCC_TACTICIAN_NAME "？" TCC_NEWLINE
