@@ -700,7 +700,7 @@ void BKSEL_Draw(struct Proc *proc)
     {
         func8033a38(proc);
         func8033b40(proc);
-        if((gBattleActor.weapon || gBattleActor.weaponBroke) && IsUnitEffectiveAgainst(&gBattleActor.unit, &gBattleTarget.unit))
+        if((gBattleActor.weapon || gBattleActor.weaponBroke) && (gBattleActor.weaponAttributes & IA_WEAPON) && IsUnitEffectiveAgainst(&gBattleActor.unit, &gBattleTarget.unit))
             proc->data[0x29] = 1;
     }
     else
@@ -709,7 +709,7 @@ void BKSEL_Draw(struct Proc *proc)
         {
             func8033a38(proc);
             func8033d60(proc);
-            if((gBattleTarget.weapon || gBattleTarget.weaponBroke) && IsUnitEffectiveAgainst(&gBattleTarget.unit, &gBattleActor.unit))
+            if((gBattleTarget.weapon || gBattleTarget.weaponBroke) && (gBattleTarget.weaponAttributes & IA_WEAPON) && IsUnitEffectiveAgainst(&gBattleTarget.unit, &gBattleActor.unit))
                 proc->data[0x2a] = 1;
         }
     }
