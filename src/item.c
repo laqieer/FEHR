@@ -9,6 +9,7 @@
 #include "item_id.h"
 #include "item_icon.h"
 #include "skill.h"
+#include "skill_id.h"
 
 const int sizeofItem = sizeof(struct Item);
 
@@ -648,26 +649,38 @@ s8 IsItemEffectiveAgainst(u16 item, struct Unit* unit) {
         for (; *effList; ++effList)
             if (*effList == classId)
                 // NOTE: maybe there's a better way to make this work (using an inline maybe?)
-                goto check_flying_effectiveness_negation;
+                goto check_effectiveness_negation;
 
         return 0;
 
-        check_flying_effectiveness_negation: {
-            u32 attributes;
-            int i;
+        check_effectiveness_negation: {
+            if (GetItemEffectiveness(item) == JobListFlier)
+            {
+                u32 attributes = 0;
+                for (int i = 0; i < 5; ++i)
+                    attributes = attributes | GetItemAttributes(unit->items[i].itemId);
 
-            if (GetItemEffectiveness(item) != JobListFlier)
-                return 1;
+                return !(attributes & IA_NEGATE_FLYING);
+            }
 
-            attributes = 0;
+            if (GetItemEffectiveness(item) == JobListDragon)
+                return !(checkUnitStateDragonShield(unit));
 
-            for (i = 0; i < 5; ++i)
-                attributes = attributes | GetItemAttributes(unit->items[i].itemId);
+            if (GetItemEffectiveness(item) == JobListArmour)
+                return !(checkUnitStateSvalinnShield(unit));
 
-            if (!(attributes & IA_NEGATE_FLYING))
-                return 1;
-            else
-                return 0;
+            if (GetItemEffectiveness(item) == JobListKnight)
+                return !(getUnitPassiveSkillS(unit) == PASSIVE_SKILL_S_GRANIS_SHIELD);
+
+            if (GetItemEffectiveness(item) == JobListArmourAndKnight)
+            {
+                if (IsUnitArmour(unit) && IsUnitKnight(unit))
+                    return !(checkUnitStateSvalinnShield(unit) && getUnitPassiveSkillS(unit) == PASSIVE_SKILL_S_GRANIS_SHIELD);
+
+                return !((checkUnitStateSvalinnShield(unit) && IsUnitArmour(unit)) || (getUnitPassiveSkillS(unit) == PASSIVE_SKILL_S_GRANIS_SHIELD && IsUnitKnight(unit)));
+            }
+
+            return 1;
         }
     }
 
