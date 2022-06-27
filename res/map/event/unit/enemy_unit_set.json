@@ -8,8 +8,8 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":86,
- "tiledversion":"1.8.6",
+ "tilecount":87,
+ "tiledversion":"1.9.0",
  "tileheight":32,
  "tiles":[
         {
@@ -527,6 +527,12 @@
          "image":"enemy_units\/SteamKnight.png",
          "imageheight":20,
          "imagewidth":15
+        }, 
+        {
+         "id":88,
+         "image":"enemy_units\/SteamDragon.png",
+         "imageheight":25,
+         "imagewidth":16
         }],
  "tilewidth":30,
  "type":"tileset",

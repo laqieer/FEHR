@@ -5,8 +5,8 @@
     },
     "activeFile": "new_map/event_chap_269.tmx",
     "expandedProjectPaths": [
-        "event/unit",
-        "new_map"
+        "new_map",
+        "event/unit"
     ],
     "file.lastUsedOpenFilter": "全部文件 (*)",
     "fileStates": {
@@ -327,12 +327,12 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 120.39922452789547,
-                "y": 160.14935018309762
+                "y": 160.60888920801324
             }
         }
     },
     "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
-    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/event/unit/player_units",
+    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/event/unit/enemy_units",
     "lastUsedTilesetExportFilter": "Fire Emblem (GBA) map tileset terrain binary (*.bin)",
     "map.height": 20,
     "map.lastUsedExportFilter": "Fire Emblem (GBA) chapter event (*.S)",
@@ -347,11 +347,11 @@
     "property.type": "Unit",
     "recentFiles": [
         "new_map/event_chap_269.tmx",
+        "event/unit/enemy_unit_set.json",
         "new_map/event_chap_268.tmx",
         "event/unit/player_unit_set.json",
         "new_map/event_chap_267.tmx",
         "new_map/S5011.tsx",
-        "event/unit/enemy_unit_set.json",
         "new_map/S4135.tsx",
         "new_map/event_chap_266.tmx",
         "new_map/event_chap_265.tmx",

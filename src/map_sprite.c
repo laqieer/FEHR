@@ -36,6 +36,8 @@
 #include "moving_sprite_Avatar.h"
 #include "standing_sprite_GreatKnight.h"
 #include "moving_sprite_GreatKnight.h"
+#include "standing_sprite_Dracozombie.h"
+#include "moving_sprite_Dracozombie.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 0, standing_sprite_AlfonseTiles} ,  
@@ -237,6 +239,8 @@ const struct StandingSprite standingSprites[] = {
     {2, MAP_SPRITE_SIZE_SMALL, standing_sprite_AvatarTiles} ,  // 98 Summoner (Recolored Shaman)
 
     {2, MAP_SPRITE_SIZE_TALL, standing_sprite_GreatKnightTiles} ,  // 99 Great Knight
+
+    {2, MAP_SPRITE_SIZE_TALL, standing_sprite_DracozombieTiles} ,  // 100 Dracozombie
 
     {0, 0, 1} ,  
 
@@ -491,6 +495,8 @@ const struct MovingSprite movingSprites[] = {
     {moving_sprite_AvatarTiles, 138226384} ,  // 0x70 Summoner (Recolored Shaman)
 
     {moving_sprite_GreatKnightTiles, 138263996} ,  // 0x71 Great Knight
+
+    {moving_sprite_DracozombieTiles, 138263996} ,  // 0x72 Dracozombie
 };
 
 const struct MovingSprite * const pMovingSprites1 = movingSprites;
