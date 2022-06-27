@@ -175,7 +175,7 @@ var ChapterEvent = {
             }
         }
 
-        var scenarioText = "";
+        var scenarioText = "{}";
         var mapName = "";
         for(const tileset of map.usedTilesets()) {
             if(tileset.name.startsWith("S")) {
