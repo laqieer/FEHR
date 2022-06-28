@@ -77,6 +77,8 @@ var TilesetTerrainBinary = {
             "壊れた家":42,
         };
 
+        const defaultTerrainID = 1;
+
         let defaultTerrain;
         let error;
 
@@ -93,6 +95,9 @@ var TilesetTerrainBinary = {
         }
 
         function getTerrainID(terrain) {
+            if(terrain === undefined) {
+                return defaultTerrainID;
+            }
             if(terrain.property("ID") === undefined) {
                 if(terrains.hasOwnProperty(terrain.name)) {
                     return terrains[terrain.name];
@@ -116,13 +121,7 @@ var TilesetTerrainBinary = {
         }
 
         for (const tile of tileset.tiles) {
-            terrain = getTerrain(tile)
-            if(terrain === undefined) {
-                error = "tile #" + tile.id + " doesn't have terrain info.";
-                tiled.error(error);
-                break;
-            }
-            bufView[tile.id + 1] = getTerrainID(terrain);
+            bufView[tile.id + 1] = getTerrainID(getTerrain(tile));
         }
 
         file.write(buf);
