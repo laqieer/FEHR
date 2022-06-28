@@ -145,9 +145,9 @@ var ChapterEvent = {
                     for (const object of layer.objects) {
                         var eventId = object.property("EventID");
                         var x1 = parseInt(object.x / 16);
-                        var y1 = parseInt((object.y - object.height) / 16);
-                        var x2 = Math.ceil((object.x + object.width) / 16);
-                        var y2 = Math.ceil(object.y / 16);
+                        var y1 = parseInt(object.y / 16);
+                        var x2 = parseInt((object.x + object.width) / 16);
+                        var y2 = parseInt((object.y + object.height) / 16);
                         var areaEvent = new Array("\tAREA(" + eventId, "Event" + eventId, x1, y1, x2, y2 + ") // Hidden Treasure");
                         file.writeLine(areaEvent.join(","));
                     }

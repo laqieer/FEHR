@@ -30,7 +30,12 @@ LocationBasedEvents:
 MiscBasedEvents:
 	CauseGameOverIfLordDies
 	DefeatAll(EndingScene)
+	AREA(10,Event10,12,19,12,19) // Hidden Treasure
 	END_MAIN
+Event10:
+	UnlockHiddenTreasure5Achievement
+	ITGV Boots
+	ENDA
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
 	ShowBG(EvBg_NisaverilCastle)

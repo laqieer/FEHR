@@ -29,6 +29,9 @@
             "dynamicWrapping": false,
             "scaleInDock": 1
         },
+        "new_map/S2041.json": {
+            "scaleInDock": 1
+        },
         "new_map/S2122.json": {
             "scaleInDock": 1
         },
@@ -371,15 +374,29 @@
             }
         },
         "new_map/event_chap_273.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
             "scale": 2.1760937499999997,
-            "selectedLayer": 2,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 120.39922452789547,
-                "y": 160.14935018309762
+                "x": 141.07848064909888,
+                "y": 159.68981115818195
+            }
+        },
+        "new_map/event_chap_85.json": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 2.1760937499999997,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 183.81560996625262,
+                "y": 264.00516981403035
             }
         }
     },
-    "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
+    "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/tool/map/tmp",
     "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/new_map",
     "lastUsedTilesetExportFilter": "Fire Emblem (GBA) map tileset terrain binary (*.bin)",
     "map.height": 20,
@@ -392,10 +409,11 @@
         "new_map/event_chap_273.tmx"
     ],
     "project": "map.tiled-project",
-    "property.type": "Unit",
+    "property.type": "string",
     "recentFiles": [
         "new_map/event_chap_273.tmx",
         "new_map/S5021.tsx",
+        "new_map/event_chap_85.json",
         "new_map/event_chap_272.tmx",
         "new_map/event_chap_271.tmx",
         "new_map/S5015.tsx",
@@ -404,8 +422,7 @@
         "new_map/S5013.tsx",
         "new_map/event_chap_269.tmx",
         "event/unit/enemy_unit_set.json",
-        "new_map/event_chap_268.tmx",
-        "event/unit/player_unit_set.json"
+        "new_map/event_chap_268.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

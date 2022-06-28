@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="6">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="9">
+ <editorsettings>
+  <export target="../../../src/res/map/event/event_chap_273.S" format="Fire Emblem (GBA) Event"/>
+ </editorsettings>
  <tileset firstgid="1" source="S5021.tsx"/>
  <tileset firstgid="301" source="../event/unit/player_unit_set.json"/>
  <tileset firstgid="324" source="../event/unit/enemy_unit_set.json"/>
@@ -92,6 +95,15 @@
       <property name="Level" type="int" propertytype="Level" value="20"/>
      </properties>
     </property>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Treasure">
+  <object id="8" name="靴子" class="HiddenTreasure" x="194.385" y="305.593" width="11.4885" height="11.948">
+   <properties>
+    <property name="EventID" type="int" value="10"/>
+    <property name="Item" value="Boots"/>
+    <property name="TreasureID" type="int" value="5"/>
    </properties>
   </object>
  </objectgroup>
