@@ -4345,7 +4345,7 @@ void PassiveSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUni
 
 void OtherEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if(attacker->unit.job->id == JOB_ID_STEAM_KNIGHT)
+    if(attacker == &gBattleActor && attacker->unit.job->id == JOB_ID_STEAM_KNIGHT)
     {
         setUnitStateMoveAgain(&attacker->unit);
         setUnitStateNoMoveAgain(&attacker->unit);
