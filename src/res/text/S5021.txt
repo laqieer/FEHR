@@ -142,12 +142,12 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 ""
 TCC_OPEN_LEFT
 "えっと。。。、三日もかからないと思うの。" TCC_NEWLINE
-"森の祠に住む賢者エイトリは" TCC_NEWLINE
+"森のほこらに住む賢者エイトリは" TCC_NEWLINE
 "ニザヴェリル一の学者様なの。" TCC_NEWLINE TCC_PUSH_A
 "絶対、お兄ちゃんを止めるための" TCC_NEWLINE
 "いい知恵を授けてくれるの！" TCC_NEWLINE TCC_PUSH_A
 ""
-"こうなったら、一秒でも早く" TCC_NEWLINE
+"こうなったら、一びょうでも早く" TCC_NEWLINE
 "会いに行かなくっちゃなの！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT
