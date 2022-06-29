@@ -5968,9 +5968,6 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             break;
     }
 
-    if(attacker->battleAttack < 0)
-        attacker->battleAttack = 0;
-
     args[0] = attacker;
     args[1] = defender;
 
@@ -6004,6 +6001,13 @@ void ComputeBattleUnitStats(struct BattleUnit* attacker, struct BattleUnit* defe
     //ComputeBattleUnitStatusBonusesOriginal(attacker);
     if(isInBattle() || isInSimulation())
         ComputeBattleUnitPassiveSkillEffects(attacker, defender);
+}
+
+void ValidateBattleUnitStats(struct BattleUnit* bu)
+{
+    bu->battleAttack = max(0, bu->battleAttack);
+    bu->battleDefense = max(0, bu->battleDefense);
+    bu->battleSpeed = max(0, bu->battleSpeed);
 }
 
 void ComputeBattleUnitStatsInjector(struct BattleUnit* attacker, struct BattleUnit* defender)
@@ -8149,6 +8153,9 @@ void BattleGenerate(struct Unit* actor, struct Unit* target) {
 
     ComputeBattleUnitStats(&gBattleActor, &gBattleTarget);
     ComputeBattleUnitStats(&gBattleTarget, &gBattleActor);
+
+    ValidateBattleUnitStats(&gBattleActor);
+    ValidateBattleUnitStats(&gBattleTarget);
 
     ComputeBattleUnitEffectiveStats(&gBattleActor, &gBattleTarget);
     ComputeBattleUnitEffectiveStats(&gBattleTarget, &gBattleActor);
