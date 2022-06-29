@@ -475,6 +475,22 @@ void forAllAliveUnitsInSide(void (*func)(struct Unit *unit, void *args), void *a
     }
 }
 
+void forAllAliveUnitsInOppositeSide(void (*func)(struct Unit *unit, void *args), void *args, int side)
+{
+    switch (side)
+    {
+        case PlayerSide:
+        case NPCSide:
+            forAllEnemyUnitsAlive(func, args);
+            forAllP4UnitsAlive(func, args);
+            break;
+        case EnemySide:
+        default:
+            forAllPlayerUnitsAlive(func, args);
+            forAllNPCUnitsAlive(func, args);
+    }
+}
+
 void forAllPlayerUnitsAliveExcept(void (*func)(struct Unit *unit, int arg), int arg, u8 exceptNumber)
 {
     struct Unit *unit;
@@ -4479,7 +4495,8 @@ void BattleWeaponSpecialEffect(struct BattleUnit* attacker, struct BattleUnit* d
         case ITEM_SMOKE_DAGGER:
             if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_FOLLOWUP) == 0)
             {
-                ForAllUnitsInSide(defender->unit.side, SmokeDaggerEffect, &defender->unit);
+                // ForAllUnitsInSide(defender->unit.side, SmokeDaggerEffect, &defender->unit);
+                forAllAliveUnitsInSide(SmokeDaggerEffect, &defender->unit, defender->unit.side);
             }
             break;
         case ITEM_ROGUE_DAGGER:
@@ -5957,8 +5974,10 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
     args[0] = attacker;
     args[1] = defender;
 
-    ForAllUnitsInSide(attacker->unit.side, ComputePassiveSkillCEffectFromOthers, args);
-    ForAllOppositeUnitsToSide(attacker->unit.side, ComputePassiveSkillCEffectFromOppositeUnits, args);
+    // ForAllUnitsInSide(attacker->unit.side, ComputePassiveSkillCEffectFromOthers, args);
+    forAllAliveUnitsInSide(ComputePassiveSkillCEffectFromOthers, args, attacker->unit.side);
+    // ForAllOppositeUnitsToSide(attacker->unit.side, ComputePassiveSkillCEffectFromOppositeUnits, args);
+    forAllAliveUnitsInOppositeSide(ComputePassiveSkillCEffectFromOppositeUnits, args, attacker->unit.side);
 }
 
 void ComputeBattleUnitStats(struct BattleUnit* attacker, struct BattleUnit* defender)
