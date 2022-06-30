@@ -276,6 +276,10 @@ enum PassiveSkillBID {
     PASSIVE_SKILL_B_Lull_Spd_Def_2,
     PASSIVE_SKILL_B_Lull_Spd_Def_3,
     PASSIVE_SKILL_B_Lull_Spd_Def_4,
+    PASSIVE_SKILL_B_FLOW_REFRESH_1, // 怒涛・再起
+    PASSIVE_SKILL_B_FLOW_REFRESH_2,
+    PASSIVE_SKILL_B_FLOW_REFRESH_3,
+    PASSIVE_SKILL_B_FLOW_REFRESH_4,
 };
 
 enum PassiveSkillCID {

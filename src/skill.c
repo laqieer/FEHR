@@ -3676,6 +3676,40 @@ void PassiveSkillBEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
         default:
             break;
     }
+
+    switch(getUnitPassiveSkillB(&gBattleActor.unit))
+    {
+        case PASSIVE_SKILL_B_FLOW_REFRESH_1:
+            if(gBattleActor.unit.hp == 0 || gBattleActor.hpInitial < gBattleActor.unit.maxHp)
+                break;
+            gBattleActor.unit.hp += 5;
+            if(gBattleActor.unit.hp > gBattleActor.unit.maxHp)
+                gBattleActor.unit.hp = gBattleActor.unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_FLOW_REFRESH_2:
+            if(gBattleActor.unit.hp == 0 || gBattleActor.hpInitial * 2 < gBattleActor.unit.maxHp)
+                break;
+            gBattleActor.unit.hp += 7;
+            if(gBattleActor.unit.hp > gBattleActor.unit.maxHp)
+                gBattleActor.unit.hp = gBattleActor.unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_FLOW_REFRESH_3:
+            if(gBattleActor.unit.hp == 0)
+                break;
+            gBattleActor.unit.hp += 10;
+            if(gBattleActor.unit.hp > gBattleActor.unit.maxHp)
+                gBattleActor.unit.hp = gBattleActor.unit.maxHp;
+            break;
+        case PASSIVE_SKILL_B_FLOW_REFRESH_4:
+            if(gBattleActor.unit.hp == 0)
+                break;
+            gBattleActor.unit.hp += 15;
+            if(gBattleActor.unit.hp > gBattleActor.unit.maxHp)
+                gBattleActor.unit.hp = gBattleActor.unit.maxHp;
+            break;
+        default:
+            break;
+    }
 }
 
 void reduceHPKeepAlive(struct Unit *unit, int damage, int side)
@@ -7711,6 +7745,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"速さ守備のなぎ２", "戦闘中、敵の速さ、守備－２、かつ、敵の速さ、守備の強化の＋を無効にする", "Lull Spd/Def 2", "Inflicts Spd/Def-2 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
     {"速さ守備のなぎ３", "戦闘中、敵の速さ、守備－３、かつ、敵の速さ、守備の強化の＋を無効にする", "Lull Spd/Def 3", "Inflicts Spd/Def-3 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
     {"速さ守備のなぎ４", "戦闘中、敵の速さ、守備－４、かつ、敵の速さ、守備の強化の＋を無効にする", "Lull Spd/Def 4", "Inflicts Spd/Def-4 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
+    {"怒とう・再起１", "戦闘開始時、自身のＨＰが全部で自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ５回復", "Flow Refresh 1", "At the start of combat, if unit's HP=100% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 5 HP to unit after combat."},
+    {"怒とう・再起２", "戦闘開始時、自身のＨＰが半分以上で自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ７回復", "Flow Refresh 2", "At the start of combat, if unit's HP ? 50% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 7 HP to unit after combat."},
+    {"怒とう・再起３", "自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ１０回復", "Flow Refresh 3", "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 10 HP to unit after combat."},
+    {"怒とう・再起４", "自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ１５回復", "Flow Refresh 4", "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 15 HP to unit after combat."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -7736,6 +7774,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_B_SABOTAGE_SPD_1, PASSIVE_SKILL_B_SABOTAGE_SPD_2, PASSIVE_SKILL_B_SABOTAGE_SPD_3, PASSIVE_SKILL_B_SABOTAGE_SPD_4},
     [CHARACTER_TRIANDRA_ID] = {PASSIVE_SKILL_B_AEROBATICS_1, PASSIVE_SKILL_B_AEROBATICS_2, PASSIVE_SKILL_B_AEROBATICS_3, PASSIVE_SKILL_B_AEROBATICS_4},
     [CHARACTER_REGHIN_ID] = {PASSIVE_SKILL_B_Lull_Spd_Def_1, PASSIVE_SKILL_B_Lull_Spd_Def_2, PASSIVE_SKILL_B_Lull_Spd_Def_3, PASSIVE_SKILL_B_Lull_Spd_Def_4},
+    [CHARACTER_OTR_ID] = {PASSIVE_SKILL_B_FLOW_REFRESH_1, PASSIVE_SKILL_B_FLOW_REFRESH_2, PASSIVE_SKILL_B_FLOW_REFRESH_3, PASSIVE_SKILL_B_FLOW_REFRESH_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -8060,6 +8099,47 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
     if (ABS(gBattleActor.battleSpeed - gBattleTarget.battleSpeed) < BATTLE_FOLLOWUP_SPEED_THRESHOLD)
         return 0;
 
+    if (gBattleActor.battleSpeed > gBattleTarget.battleSpeed) {
+        *outAttacker = &gBattleActor;
+        *outDefender = &gBattleTarget;
+    } else {
+        *outAttacker = &gBattleTarget;
+        *outDefender = &gBattleActor;
+    }
+
+    if (GetItemWeaponEffect((*outAttacker)->weaponBefore) == WPN_EFFECT_HPHALVE)
+        return 0;
+
+    //if (GetItemIndex((*outAttacker)->weapon) == ITEM_MONSTER_STONE)
+    //    return 0;
+
+    switch (getUnitPassiveSkillB(&(*outAttacker)->unit))
+    {
+        case PASSIVE_SKILL_B_FLOW_REFRESH_1:
+            if(*outAttacker == &gBattleActor && (*outAttacker)->hpInitial >= (*outAttacker)->unit.maxHp)
+                return 1;
+        case PASSIVE_SKILL_B_FLOW_REFRESH_2:
+            if(*outAttacker == &gBattleActor && (*outAttacker)->hpInitial * 2 >= (*outAttacker)->unit.maxHp)
+                return 1;
+        case PASSIVE_SKILL_B_FLOW_REFRESH_3:
+            if(*outAttacker == &gBattleActor)
+                return 1;
+        case PASSIVE_SKILL_B_FLOW_REFRESH_4:
+            if(*outAttacker == &gBattleActor)
+                return 1;
+        default:
+            break;
+    }
+
+    switch (getUnitPassiveSkillA(&(*outDefender)->unit))
+    {
+        case PASSIVE_SKILL_A_LOFNHEIOR_4:
+            if(*outDefender == &gBattleActor || hasCompanionIn2Spaces(&(*outDefender)->unit))
+                return 0;
+        default:
+            break;
+    }
+
     switch (getUnitPassiveSkillB(&gBattleActor.unit))
     {
         case PASSIVE_SKILL_B_WARY_FIGHTER_1:
@@ -8090,29 +8170,6 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
                 return 0;
         case PASSIVE_SKILL_B_WARY_FIGHTER_4:
             return 0;
-        default:
-            break;
-    }
-
-    if (gBattleActor.battleSpeed > gBattleTarget.battleSpeed) {
-        *outAttacker = &gBattleActor;
-        *outDefender = &gBattleTarget;
-    } else {
-        *outAttacker = &gBattleTarget;
-        *outDefender = &gBattleActor;
-    }
-
-    if (GetItemWeaponEffect((*outAttacker)->weaponBefore) == WPN_EFFECT_HPHALVE)
-        return 0;
-
-    //if (GetItemIndex((*outAttacker)->weapon) == ITEM_MONSTER_STONE)
-    //    return 0;
-
-    switch (getUnitPassiveSkillA(&(*outDefender)->unit))
-    {
-        case PASSIVE_SKILL_A_LOFNHEIOR_4:
-            if(*outDefender == &gBattleActor || hasCompanionIn2Spaces(&(*outDefender)->unit))
-                return 0;
         default:
             break;
     }
