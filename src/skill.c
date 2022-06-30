@@ -682,6 +682,16 @@ int isAdjacentToAnyCompanion(struct Unit *unit)
     return findAliveUnitInSide(areTwoUnitsAdjacent, unit, unit->side);
 }
 
+int areTwoUnitsWithin2Spaces(struct Unit *unit1, struct Unit *unit2)
+{
+    return areTwoUnits(unit1, unit2) && getDistanceBetweenTwoUnits(unit1, unit2) <= 2;
+}
+
+int hasCompanionIn2Spaces(struct Unit *unit)
+{
+    return findAliveUnitInSide(areTwoUnitsWithin2Spaces, unit, unit->side);
+}
+
 int areTwoUnitsInCardinalDirection(struct Unit *unit1, struct Unit *unit2)
 {
     return (unit1->positionX == unit2->positionX || unit1->positionY == unit2->positionY) && !(unit1->positionX == unit2->positionX && unit1->positionY == unit2->positionY);
@@ -5928,6 +5938,44 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                 attacker->battleSpeed += 7;
             }
             break;
+        case PASSIVE_SKILL_A_LOFNHEIOR_1:
+            if(attacker == &gBattleActor || hasCompanionIn2Spaces(&attacker->unit))
+                attacker->battleAttack += 2;
+            break;
+        case PASSIVE_SKILL_A_LOFNHEIOR_2:
+            if(attacker == &gBattleActor || hasCompanionIn2Spaces(&attacker->unit))
+                attacker->battleAttack += 4;
+            break;
+        case PASSIVE_SKILL_A_LOFNHEIOR_3:
+            if(attacker == &gBattleActor || hasCompanionIn2Spaces(&attacker->unit))
+                attacker->battleAttack += 6;
+            break;
+        case PASSIVE_SKILL_A_LOFNHEIOR_4:
+            if(attacker == &gBattleActor || hasCompanionIn2Spaces(&attacker->unit))
+                attacker->battleAttack += 6;
+            break;
+        default:
+            break;
+    }
+
+    switch (getUnitPassiveSkillA(&defender->unit))
+    {
+        case PASSIVE_SKILL_A_LOFNHEIOR_1:
+            if(defender == &gBattleActor || hasCompanionIn2Spaces(&defender->unit))
+                attacker->battleAttack -= 2;
+            break;
+        case PASSIVE_SKILL_A_LOFNHEIOR_2:
+            if(defender == &gBattleActor || hasCompanionIn2Spaces(&defender->unit))
+                attacker->battleAttack -= 4;
+            break;
+        case PASSIVE_SKILL_A_LOFNHEIOR_3:
+            if(defender == &gBattleActor || hasCompanionIn2Spaces(&defender->unit))
+                attacker->battleAttack -= 6;
+            break;
+        case PASSIVE_SKILL_A_LOFNHEIOR_4:
+            if(defender == &gBattleActor || hasCompanionIn2Spaces(&defender->unit))
+                attacker->battleAttack -= 6;
+            break;
         default:
             break;
     }
@@ -7528,6 +7576,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"K‰^‚R", "K‰^{‚T", "Luck 3", "Grants Luk+5."},
     {"K‰^‚S", "K‰^{‚V", "Luck 4", "Grants Luk+7."},
     {"‹ß‚«‚å‚è”½Œ‚", "‹ß‹——£‚Ì“G‚©‚çUŒ‚‚³‚ê‚½ŽžA‹——£‚ÉŠÖŒW‚È‚­”½Œ‚‚·‚é", "Close Counter", "Unit can counterattack regardless of foe's range."},
+    {"ƒƒ”ƒ“ƒwƒCƒY‚P", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚QA“G‚ÌUŒ‚|‚Q", "Lofnheior 1", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+2 to unit during combat, inflicts Atk-2 on foe during combat."},
+    {"ƒƒ”ƒ“ƒwƒCƒY‚Q", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚SA“G‚ÌUŒ‚|‚S", "Lofnheior 2", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+4 to unit during combat, inflicts Atk-4 on foe during combat."},
+    {"ƒƒ”ƒ“ƒwƒCƒY‚R", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚UA“G‚ÌUŒ‚|‚U", "Lofnheior 3", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat."},
+    {"ƒƒ”ƒ“ƒwƒCƒY‚S", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚UA“G‚ÌUŒ‚|‚UA“G‚Í’ÇŒ‚•s‰Â", "Lofnheior 4", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat, and foe cannot make a follow-up attack."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -7558,6 +7610,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_A_ATK_SPD_SOLO_1, PASSIVE_SKILL_A_ATK_SPD_SOLO_2, PASSIVE_SKILL_A_ATK_SPD_SOLO_3, PASSIVE_SKILL_A_ATK_SPD_SOLO_4},
     [CHARACTER_ID_MYUNIT] = {PASSIVE_SKILL_A_LUCK_1, PASSIVE_SKILL_A_LUCK_2, PASSIVE_SKILL_A_LUCK_3, PASSIVE_SKILL_A_LUCK_4},
     [CHARACTER_ID_TAKUMI] = {PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER},
+    [CHARACTER_OTR_ID] = {PASSIVE_SKILL_A_LOFNHEIOR_1, PASSIVE_SKILL_A_LOFNHEIOR_2, PASSIVE_SKILL_A_LOFNHEIOR_3, PASSIVE_SKILL_A_LOFNHEIOR_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -8054,6 +8107,15 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
 
     //if (GetItemIndex((*outAttacker)->weapon) == ITEM_MONSTER_STONE)
     //    return 0;
+
+    switch (getUnitPassiveSkillA(&(*outDefender)->unit))
+    {
+        case PASSIVE_SKILL_A_LOFNHEIOR_4:
+            if(*outDefender == &gBattleActor || hasCompanionIn2Spaces(&(*outDefender)->unit))
+                return 0;
+        default:
+            break;
+    }
 
     return 1;
 }
