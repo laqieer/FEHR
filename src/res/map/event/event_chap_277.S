@@ -30,7 +30,12 @@ LocationBasedEvents:
 MiscBasedEvents:
 	CauseGameOverIfLordDies
 	DefeatAll(EndingScene)
+	AREA(10,Event10,0,14,0,14) // Hidden Treasure
 	END_MAIN
+Event10:
+	UnlockHiddenTreasure6Achievement
+	ITGV Lancereaver
+	ENDA
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6
 	ShowBG(EvBg_Nisaveril)

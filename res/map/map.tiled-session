@@ -5,8 +5,8 @@
     },
     "activeFile": "new_map/event_chap_277.tmx",
     "expandedProjectPaths": [
-        "new_map",
-        "event/unit"
+        "event/unit",
+        "new_map"
     ],
     "file.lastUsedOpenFilter": "全部文件 (*)",
     "fileStates": {
@@ -426,7 +426,7 @@
         },
         "new_map/event_chap_277.tmx": {
             "scale": 2.1760937499999997,
-            "selectedLayer": 2,
+            "selectedLayer": 3,
             "viewCenter": {
                 "x": 120.39922452789547,
                 "y": 160.60888920801324
@@ -457,7 +457,7 @@
         "new_map/event_chap_277.tmx"
     ],
     "project": "map.tiled-project",
-    "property.type": "Unit",
+    "property.type": "string",
     "recentFiles": [
         "new_map/event_chap_277.tmx",
         "new_map/event_chap_276.tmx",

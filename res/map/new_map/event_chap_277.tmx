@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="6">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="7">
  <tileset firstgid="1" source="S5025.tsx"/>
  <tileset firstgid="301" source="../event/unit/player_unit_set.json"/>
  <tileset firstgid="324" source="../event/unit/enemy_unit_set.json"/>
@@ -80,6 +80,15 @@
       <property name="Level" type="int" propertytype="Level" value="30"/>
      </properties>
     </property>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Treasure">
+  <object id="6" name="破枪剑" x="3.21677" y="228" width="8" height="8">
+   <properties>
+    <property name="EventID" type="int" value="10"/>
+    <property name="Item" value="Lancereaver"/>
+    <property name="TreasureID" type="int" value="6"/>
    </properties>
   </object>
  </objectgroup>
