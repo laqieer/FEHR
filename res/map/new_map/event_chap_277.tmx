@@ -76,7 +76,7 @@
       <property name="AI2" propertytype="AI2" value="DoNotMove"/>
       <property name="AutoLevel" type="bool" value="true"/>
       <property name="Character" propertytype="Character" value="GenericSummonedStrong"/>
-      <property name="Equip" propertytype="Item" value="SilverLance"/>
+      <property name="Equip" propertytype="Item" value="Axereaver"/>
       <property name="Level" type="int" propertytype="Level" value="30"/>
      </properties>
     </property>

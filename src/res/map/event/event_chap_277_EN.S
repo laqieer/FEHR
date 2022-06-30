@@ -64,7 +64,7 @@ EnemyUnitsENM:
 	UNIT(Otr,SteamKnight,0,30,SIDE_ENEMY,1,9,0,9,0,33,0,0,0,0,3,0,0) // Otr
 	UNIT(GenericSummonedStrong,Hero,0,30,SIDE_ENEMY,1,5,4,5,4,41,0,0,0,0,3,0,0) // Caellach
 	UNIT(GenericSummonedStrong,Valkyrie,0,30,SIDE_ENEMY,1,14,5,14,5,58,0,0,0,0,3,0,0) // Selena
-	UNIT(GenericSummonedStrong,Paladin,0,30,SIDE_ENEMY,1,0,5,0,5,23,0,0,0,0,3,0,0) // Duessel
+	UNIT(GenericSummonedStrong,Paladin,0,30,SIDE_ENEMY,1,0,5,0,5,30,0,0,0,0,3,0,0) // Duessel
 	END_UNIT
 NPCUnits:
 	END_UNIT
