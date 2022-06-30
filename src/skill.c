@@ -7746,7 +7746,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"速さ守備のなぎ３", "戦闘中、敵の速さ、守備－３、かつ、敵の速さ、守備の強化の＋を無効にする", "Lull Spd/Def 3", "Inflicts Spd/Def-3 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
     {"速さ守備のなぎ４", "戦闘中、敵の速さ、守備－４、かつ、敵の速さ、守備の強化の＋を無効にする", "Lull Spd/Def 4", "Inflicts Spd/Def-4 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat."},
     {"怒とう・再起１", "戦闘開始時、自身のＨＰが全部で自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ５回復", "Flow Refresh 1", "At the start of combat, if unit's HP=100% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 5 HP to unit after combat."},
-    {"怒とう・再起２", "戦闘開始時、自身のＨＰが半分以上で自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ７回復", "Flow Refresh 2", "At the start of combat, if unit's HP ? 50% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 7 HP to unit after combat."},
+    {"怒とう・再起２", "戦闘開始時、自身のＨＰが半分以上で自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ７回復", "Flow Refresh 2", "At the start of combat, if unit's HP >= 50% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 7 HP to unit after combat."},
     {"怒とう・再起３", "自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ１０回復", "Flow Refresh 3", "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 10 HP to unit after combat."},
     {"怒とう・再起４", "自分から攻撃した時、戦闘中、自分の追撃不可を無効、かつ、戦闘後、ＨＰ１５回復", "Flow Refresh 4", "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 15 HP to unit after combat."},
 };
@@ -7900,6 +7900,14 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"速さ魔防けん制２", "周囲２マスの敵は、戦闘中、速さ、魔防－３", "Spd/Res Rein 2", "Inflicts Spd/Res-3 on foes within 2 spaces during combat."},
     {"速さ魔防けん制３", "周囲２マスの敵は、戦闘中、速さ、魔防－４", "Spd/Res Rein 3", "Inflicts Spd/Res-4 on foes within 2 spaces during combat."},
     {"速さ魔防けん制４", "周囲２マスの敵は、戦闘中、速さ、魔防－５", "Spd/Res Rein 4", "Inflicts Spd/Res-5 on foes within 2 spaces during combat."},
+    {"守備のいかく１", "ターン開始時、周囲２マスの敵の守備－３（１ターン）", "Threaten Def 1", "At start of turn, inflicts Def-3 on foes within 2 spaces for 1 turn."},
+    {"守備のいかく２", "ターン開始時、周囲２マスの敵の守備－４（１ターン）", "Threaten Def 2", "At start of turn, inflicts Def-4 on foes within 2 spaces for 1 turn."},
+    {"守備のいかく３", "ターン開始時、周囲２マスの敵の守備－５（１ターン）", "Threaten Def 3", "At start of turn, inflicts Def-5 on foes within 2 spaces for 1 turn."},
+    {"守備のいかく４", "ターン開始時、周囲２マスの敵の守備－７（１ターン）", "Threaten Def 4", "At start of turn, inflicts Def-7 on foes within 2 spaces for 1 turn."},
+    {"攻撃守備いかく１", "ターン開始時、周囲２マスの敵の攻撃、守備－３（１ターン）", "Threat. Atk/Def 1", "At start of turn, inflicts Atk/Def-3 on foes within 2 spaces for 1 turn."},
+    {"攻撃守備いかく２", "ターン開始時、周囲２マスの敵の攻撃、守備－４（１ターン）", "Threat. Atk/Def 2", "At start of turn, inflicts Atk/Def-4 on foes within 2 spaces for 1 turn."},
+    {"攻撃守備いかく３", "ターン開始時、周囲２マス以内に敵がいる場合、自分の攻撃、守備＋５（１ターン）、かつ、周囲２マス以内の敵の攻撃、守備－５（１ターン）", "Threat. Atk/Def 3", "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Def+5 to unit for 1 turn and inflicts Atk/Def-5 on foes within 2 spaces for 1 turn."},
+    {"攻守のきょうかく", "ターン開始時、周囲４マス以内に敵がいる時、最も近い敵の攻撃、守備－６（１ターン）、かつ、自身の攻撃、守備＋６（１ターン）", "Atk/Def Menace", "At start of turn, if unit is within 4 spaces of a foe, inflicts Atk/Def-6 on nearest foes for 1 turn and grants Atk/Def+6 to unit for 1 turn."},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -7930,6 +7938,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_ID_TAKUMI] = {PASSIVE_SKILL_C_THREATEN_SPD_1, PASSIVE_SKILL_C_THREATEN_SPD_2, PASSIVE_SKILL_C_THREATEN_SPD_3, PASSIVE_SKILL_C_THREATEN_SPD_4},
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_C_ATK_RES_REIN_1, PASSIVE_SKILL_C_ATK_RES_REIN_2, PASSIVE_SKILL_C_ATK_RES_REIN_3, PASSIVE_SKILL_C_ATK_RES_REIN_4},
     [CHARACTER_TRIANDRA_ID] = {PASSIVE_SKILL_C_SPD_RES_REIN_1, PASSIVE_SKILL_C_SPD_RES_REIN_2, PASSIVE_SKILL_C_SPD_RES_REIN_3, PASSIVE_SKILL_C_SPD_RES_REIN_4},
+    [CHARACTER_OTR_ID] = {PASSIVE_SKILL_C_THREATEN_DEF_1, PASSIVE_SKILL_C_THREAT_ATK_DEF_1, PASSIVE_SKILL_C_THREAT_ATK_DEF_2, PASSIVE_SKILL_C_ATK_DEF_MENACE},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

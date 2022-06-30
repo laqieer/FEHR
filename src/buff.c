@@ -992,9 +992,32 @@ int getMinValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(str
     return minValue == 10000? 0: minValue;
 }
 
+int getMinValueInUnitsWithArgs(struct Unit *units, int unitNumber, int(*valueGetter)(struct Unit *unit, void *args), void *args)
+{
+    int minValue = 10000;
+
+    for(int i = 1; i < unitNumber; i++)
+    {
+        if(isUnitAlive(&units[i]))
+        {
+            int value = (*valueGetter)(&units[i], args);
+
+            if(value < minValue)
+                minValue = value;
+        }
+    }
+
+    return minValue == 10000? 0: minValue;
+}
+
 int getMinValueInUnitsBySide(int side, int(*valueGetter)(struct Unit *unit))
 {
     return getMinValueInUnits(unitsBySide[side], unitAmountBySide[side], valueGetter);
+}
+
+int getMinValueInUnitsBySideWithArgs(int side, int(*valueGetter)(struct Unit *unit, void *args), void *args)
+{
+    return getMinValueInUnitsWithArgs(unitsBySide[side], unitAmountBySide[side], valueGetter, args);
 }
 
 int getMaxValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(struct Unit *unit))
@@ -1015,9 +1038,32 @@ int getMaxValueInUnits(struct Unit *units, int unitNumber, int(*valueGetter)(str
     return maxValue == -10000? 0: maxValue;
 }
 
+int getMaxValueInUnitsWithArgs(struct Unit *units, int unitNumber, int(*valueGetter)(struct Unit *unit, void *args), void *args)
+{
+    int maxValue = -10000;
+
+    for(int i = 0; i < unitNumber; i++)
+    {
+        if(isUnitAlive(&units[i]))
+        {
+            int value = (*valueGetter)(&units[i], args);
+
+            if(value > maxValue)
+                maxValue = value;
+        }
+    }
+
+    return maxValue == -10000? 0: maxValue;
+}
+
 int getMaxValueInUnitsBySide(int side, int(*valueGetter)(struct Unit *unit))
 {
     return getMaxValueInUnits(unitsBySide[side], unitAmountBySide[side], valueGetter);
+}
+
+int getMaxValueInUnitsBySideWithArgs(int side, int(*valueGetter)(struct Unit *unit, void *args), void *args)
+{
+    return getMaxValueInUnitsWithArgs(unitsBySide[side], unitAmountBySide[side], valueGetter, args);
 }
 
 void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumber, struct Unit *targetUnits, int targetUnitNumber)
@@ -1031,6 +1077,30 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
     {
         if((skillUnits[i].state & UNIT_STATE_UNAVAILABLE) == 0 && skillUnits[i].character && skillUnits[i].job && skillUnits[i].hp && (getUnitPassiveSkillA(&skillUnits[i]) || getUnitPassiveSkillB(&skillUnits[i]) || getUnitPassiveSkillC(&skillUnits[i])))
         {
+            int minDis = 0;
+
+            switch(getUnitPassiveSkillC(&skillUnits[i]))
+            {
+                case PASSIVE_SKILL_C_THREAT_ATK_DEF_3:
+                    minDis = getMinValueInUnitsWithArgs(targetUnits, targetUnitNumber, getDistanceBetweenTwoUnits, &skillUnits[i]);
+                    if(minDis > 0 && minDis <= 2)
+                    {
+                        addUnitBuffPower(&skillUnits[i], 5);
+                        addUnitBuffDefense(&skillUnits[i], 5);
+                    }
+                    break;
+                case PASSIVE_SKILL_C_ATK_DEF_MENACE:
+                    minDis = getMinValueInUnitsWithArgs(targetUnits, targetUnitNumber, getDistanceBetweenTwoUnits, &skillUnits[i]);
+                    if(minDis > 0 && minDis <= 4)
+                    {
+                        addUnitBuffPower(&skillUnits[i], 6);
+                        addUnitBuffDefense(&skillUnits[i], 6);
+                    }
+                    break;
+                default:
+                    break;
+            }
+            
             for(int j = 0; j < targetUnitNumber; j++)
             {
                 if((targetUnits[j].state & UNIT_STATE_UNAVAILABLE) == 0 && targetUnits[j].character && targetUnits[j].hp && targetUnits[j].job)
@@ -1240,6 +1310,50 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                         case PASSIVE_SKILL_C_THREATEN_SPD_4:
                             if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
                                 addUnitDebuffSpeed(&targetUnits[j], -7);
+                            break;
+                        case PASSIVE_SKILL_C_THREATEN_DEF_1:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                                addUnitDebuffDefense(&targetUnits[j], -3);
+                            break;
+                        case PASSIVE_SKILL_C_THREATEN_DEF_2:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                                addUnitDebuffDefense(&targetUnits[j], -4);
+                            break;
+                        case PASSIVE_SKILL_C_THREATEN_DEF_3:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                                addUnitDebuffDefense(&targetUnits[j], -5);
+                            break;
+                        case PASSIVE_SKILL_C_THREATEN_DEF_4:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                                addUnitDebuffDefense(&targetUnits[j], -7);
+                            break;
+                        case PASSIVE_SKILL_C_THREAT_ATK_DEF_1:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -3);
+                                addUnitDebuffDefense(&targetUnits[j], -3);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_THREAT_ATK_DEF_2:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -4);
+                                addUnitDebuffDefense(&targetUnits[j], -4);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_THREAT_ATK_DEF_3:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -5);
+                                addUnitDebuffDefense(&targetUnits[j], -5);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_ATK_DEF_MENACE:
+                            if(minDis > 0 && minDis <= 4 && getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) == minDis)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -6);
+                                addUnitDebuffDefense(&targetUnits[j], -6);
+                            }
                             break;
                         default:
                             break;
