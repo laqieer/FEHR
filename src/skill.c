@@ -795,6 +795,25 @@ void specialSkillLunaEffect(struct BattleUnit* attacker, struct BattleUnit* defe
         attacker->nonZeroDamage = 1;
 }
 
+// 凶弾: 敵の守備、魔防-50%扱いで攻撃
+void specialSkillBrutalShellEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
+{
+    if((gBattleHitIterator->attributes & BATTLE_HIT_ATTR_MISS) == 0)
+        gBattleStats.damage = gBattleStats.attack - gBattleStats.defense * (1 - 0.5);
+
+    if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
+        gBattleStats.damage *= 3;
+
+    if (gBattleStats.damage > BATTLE_MAX_DAMAGE)
+        gBattleStats.damage = BATTLE_MAX_DAMAGE;
+
+    if (gBattleStats.damage < 0)
+        gBattleStats.damage = 0;
+
+    if(gBattleStats.damage)
+        attacker->nonZeroDamage = 1;
+}
+
 // 黒の月光: 敵の守備、魔防-80%扱いで攻撃
 void specialSkillBlackLunaEffect(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
@@ -2600,11 +2619,26 @@ const struct SpecialSkill specialSkills[] = {
             "１ターン目開始時、奥義発動カウント－３"TCC_NEWLINE
             "１５を奥義ダメージに加算、かつ、"TCC_NEWLINE
             "敵の守備か魔防の低い方でダメージ計算",
-            "Sei?r Shell",
+            "Seior Shell",
             "At the start of turn 1, grants Special cooldown count-3 to unit. Boosts damage by 15 and calculates damage using the lower of foe's Def or Res.",
             3,
                 0,
                 specialSkillSeiorShellEffect,
+                0,
+                0,
+                0,
+                0
+        },
+        {
+            "きょうだん",
+            "１ターン目開始時、奥義発動カウント－３"TCC_NEWLINE
+            "奥義発動時、"TCC_NEWLINE
+            "敵の守備、魔防半分扱いで攻撃",
+            "Brutal Shell",
+            "At the start of turn 1, grants Special cooldown count-3 to unit. Treats foe's Def/Res as if reduced by 50% when Special triggers.",
+            3,
+                0,
+                specialSkillBrutalShellEffect,
                 0,
                 0,
                 0,
@@ -2641,6 +2675,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_ID_MYUNIT] = SPECIAL_SKILL_FIRE_EMBLEM,
         [CHARACTER_ID_TAKUMI] = SPECIAL_SKILL_VENGEANCE,
         [CHARACTER_REGHIN_ID] = SPECIAL_SKILL_SEIOR_SHELL,
+        [CHARACTER_OTR_ID] = SPECIAL_SKILL_BRUTAL_SHELL,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -2972,6 +3007,9 @@ void updateUnitSkillCD(struct Unit *unit)
     switch(getUnitSpecialSkill(unit))
     {
         case SPECIAL_SKILL_SEIOR_SHELL:
+            increaseUnitSkillCD(unit, 3);
+            break;
+        case SPECIAL_SKILL_BRUTAL_SHELL:
             increaseUnitSkillCD(unit, 3);
             break;
         default:

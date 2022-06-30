@@ -77,6 +77,7 @@ enum SpecialSkillID {
     SPECIAL_SKILL_TWIN_BLADES, // 双刃
     SPECIAL_SKILL_OPEN_FUTURE, // 開世
     SPECIAL_SKILL_SEIOR_SHELL, // 魔弾
+    SPECIAL_SKILL_BRUTAL_SHELL, // 凶弾
 };
 
 enum AssistSkillID {
