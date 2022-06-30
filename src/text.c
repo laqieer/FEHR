@@ -2529,6 +2529,10 @@ const char* const texts[] = {
 
        [TEXT_ITEM_HELP_SCALDING_BREATH] = "高温の蒸気",
 
+       [TEXT_CHARACTER_NAME_OTR] = "オッテル",
+
+       [TEXT_CHARACTER_HELP_OTR] = "ニザヴェリル王ファフニールの義理の弟でレギンの兄。兄を崇拝しその野望に加担する。",
+
        [TEXT_SUPPORT_AVATAR_TAKUMI]= TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_TAKUMI
                "。。。" TCC_NEWLINE TCC_PUSH_A
