@@ -66,7 +66,7 @@ TCC_OPEN_LEFT
 "僕たちの敵だ！" TCC_NEWLINE TCC_PUSH_A
 "よその国の連中と同じように" TCC_NEWLINE
 "刺して潰して切り刻んで、" TCC_NEWLINE
-"手足をちぎって犬に喰わせてやる！" TCC_NEWLINE TCC_PUSH_A
+"手足をちぎって犬にくわせてやる！" TCC_NEWLINE TCC_PUSH_A
 ""
 "これで兄さんの家族は僕ひとりだ！！" TCC_NEWLINE
 "あーっはっはっは！！" TCC_NEWLINE TCC_PUSH_A
