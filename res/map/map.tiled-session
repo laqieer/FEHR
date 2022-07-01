@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_278.tmx",
+    "activeFile": "new_map/event_chap_279.tmx",
     "expandedProjectPaths": [
-        "event/unit",
-        "new_map"
+        "new_map",
+        "event/unit"
     ],
     "file.lastUsedOpenFilter": "全部文件 (*)",
     "fileStates": {
@@ -159,6 +159,10 @@
             "scaleInEditor": 2
         },
         "new_map/S5031.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/S5032.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
@@ -440,6 +444,14 @@
             "scale": 2.1760937499999997,
             "selectedLayer": 2,
             "viewCenter": {
+                "x": 119.70991599052203,
+                "y": 159.689811158182
+            }
+        },
+        "new_map/event_chap_279.tmx": {
+            "scale": 2.1760937499999997,
+            "selectedLayer": 2,
+            "viewCenter": {
                 "x": 120.39922452789547,
                 "y": 160.14935018309762
             }
@@ -466,11 +478,13 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_278.tmx"
+        "new_map/event_chap_279.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_279.tmx",
+        "new_map/S5032.tsx",
         "new_map/event_chap_278.tmx",
         "new_map/event_chap_277.tmx",
         "new_map/S5031.tsx",
@@ -480,9 +494,7 @@
         "new_map/event_chap_275.tmx",
         "new_map/event_chap_274.tmx",
         "new_map/S5023.tsx",
-        "new_map/event_chap_273.tmx",
-        "new_map/S5022.tsx",
-        "new_map/S5021.tsx"
+        "new_map/event_chap_273.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

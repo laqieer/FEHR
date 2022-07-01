@@ -55,7 +55,7 @@ var TilesetTerrainBinary = {
             "Wreck Tile (Ship)":43, "沉船":43,
             "Building 1 (Desert)":44,
             "Stairs":45, "階段":45, "楼梯":45, "台阶":45,
-            "Tile 46":46, "Building 2 (Village, Vendor, etc)":46, "建筑":46,
+            "Tile 46":46, "Building 2 (Village, Vendor, etc)":46, "建筑":46, "坑":46, "陷阱":46,
             "Glacier":47, "氷河":47, "冰川":47,
             "Link Arena":48, "通信闘技":48, "通信斗技场":48,
             "Valley":49, "谷":49, "谷地":49, "溪谷":49, "山谷":49, "深谷":49, "熔岩":49, "岩浆":49,
