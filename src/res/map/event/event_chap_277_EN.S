@@ -34,7 +34,7 @@ MiscBasedEvents:
 	END_MAIN
 Event10:
 	UnlockHiddenTreasure6Achievement
-	ITGV Lancereaver
+	ITGV SilverSword
 	ENDA
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6

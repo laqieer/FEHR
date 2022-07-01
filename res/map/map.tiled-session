@@ -5,8 +5,8 @@
     },
     "activeFile": "new_map/event_chap_277.tmx",
     "expandedProjectPaths": [
-        "event/unit",
-        "new_map"
+        "new_map",
+        "event/unit"
     ],
     "file.lastUsedOpenFilter": "全部文件 (*)",
     "fileStates": {

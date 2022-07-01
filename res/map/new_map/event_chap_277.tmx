@@ -84,10 +84,10 @@
   </object>
  </objectgroup>
  <objectgroup id="4" name="Treasure">
-  <object id="6" name="破枪剑" x="3.21677" y="228" width="8" height="8">
+  <object id="6" name="银剑" x="3.21677" y="228" width="8" height="8">
    <properties>
     <property name="EventID" type="int" value="10"/>
-    <property name="Item" value="Lancereaver"/>
+    <property name="Item" value="SilverSword"/>
     <property name="TreasureID" type="int" value="6"/>
    </properties>
   </object>
