@@ -2,7 +2,7 @@
 <tileset version="1.9" tiledversion="1.9.0" name="S5031" tilewidth="16" tileheight="16" tilecount="300" columns="15">
  <image source="S5031.png" width="240" height="320"/>
  <wangsets>
-  <wangset name="柱子" type="corner" tile="-1">
+  <wangset name="围墙" type="corner" tile="-1">
    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
    <wangtile tileid="48" wangid="0,1,0,1,0,1,0,1"/>
    <wangtile tileid="56" wangid="0,1,0,1,0,1,0,1"/>
@@ -36,7 +36,7 @@
    <wangtile tileid="294" wangid="0,1,0,1,0,1,0,1"/>
    <wangtile tileid="295" wangid="0,1,0,1,0,1,0,1"/>
   </wangset>
-  <wangset name="深谷" type="corner" tile="-1">
+  <wangset name="陷阱" type="corner" tile="-1">
    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
    <wangtile tileid="130" wangid="0,1,0,1,0,1,0,1"/>
    <wangtile tileid="131" wangid="0,1,0,1,0,1,0,1"/>
