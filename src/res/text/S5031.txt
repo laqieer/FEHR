@@ -13,7 +13,7 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 TCC_OPEN_LEFT
 "お、お、お、落とし穴が。。。！" TCC_NEWLINE
 "レギン王女が手をつかんでくれなかったら" TCC_NEWLINE
-"底の槍で串刺しでした。。。" TCC_NEWLINE TCC_PUSH_A
+"底の槍でくし刺しでした。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 "ありがとうございますっ！" TCC_NEWLINE
 "このご恩は一生忘れません。。。！" TCC_NEWLINE TCC_PUSH_A
