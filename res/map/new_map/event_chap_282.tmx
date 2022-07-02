@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="11">
+ <properties>
+  <property name="turns" type="int" value="6"/>
+ </properties>
  <tileset firstgid="1" source="S5035.tsx"/>
  <tileset firstgid="301" source="../event/unit/player_unit_set.json"/>
  <tileset firstgid="324" source="../event/unit/enemy_unit_set.json"/>

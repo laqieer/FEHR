@@ -22,6 +22,7 @@ event_chap_282:
 	.word EndingScene
 TurnBasedEvents:
 	LoadBeginningScene
+	TurnEvent(7, EndingScene, 0, 0)
 	TurnEvent(2, LoadEnemyUnitsTurn2, TURN_MOMENT_PLAYER_PHASE, 0)
 	TurnEvent(3, LoadEnemyUnitsTurn3, TURN_MOMENT_PLAYER_PHASE, 0)
 	TurnEvent(4, LoadEnemyUnitsTurn4, TURN_MOMENT_PLAYER_PHASE, 0)
@@ -32,7 +33,6 @@ LocationBasedEvents:
 	END_MAIN
 MiscBasedEvents:
 	CauseGameOverIfLordDies
-	DefeatAll(EndingScene)
 	END_MAIN
 BeginningScene:
 	MUSC MUSIC_FE_H_SERIOUS_6

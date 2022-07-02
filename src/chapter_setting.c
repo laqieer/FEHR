@@ -30,6 +30,7 @@ const int sizeofChapter = sizeof(struct Chapter);
 #define DEFINE_SIMPLE_CHAPTER_WITH_MAP_CHANGE(index, name, bgm, mapChange) { name, (index) + 1, 0, (index) + 1, (index) + 1, 18, 0, 0, mapChange, 0, 0, index, index, 1, 0, 0, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, TEXT_CHAP_##index##_TITLE, TEXT_CHAP_##index##_TITLE, (index) + 1, 0, 0, 0, 0, 0, 0, 0, index, index, 0xff, 0xff, 0, 0, 1, 0, TEXT_CHAP_STATUS_GOAL_DEFEAT_ALL, TEXT_CHAP_GOAL_DEFEAT_ALL, 1, 0, 0, 0xff, 0, 14},
 #define DEFINE_SIMPLE_EXT_CHAPTER_WITH_MAP_CHANGE(index, name, bgm, mapChange) { name, 0, 0, 0, 0, 18, 0, 0, mapChange, 0, 0, 0 /* refEM */, 0 /* refHM */, 1, 0, 0, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, TEXT_CHAP_##index##_TITLE, TEXT_CHAP_##index##_TITLE, 0, 0, 0, 0, 0, 0, 0, 0, 0 /* chapNumInPrepScreenEM */, 0 /* chapNumInPrepScreenHM */, 0xff, 0xff, 0, 0, 1, 0, TEXT_CHAP_STATUS_GOAL_DEFEAT_ALL, TEXT_CHAP_GOAL_DEFEAT_ALL, 1, 0, 0, 0xff, 0, 14},
 #define DEFINE_SIMPLE_EXT_CHAPTER(index, name, bgm) DEFINE_SIMPLE_EXT_CHAPTER_WITH_MAP_CHANGE(index, name, bgm, 0)
+#define DEFINE_DEFENSE_EXT_CHAPTER(index, name, bgm, turns) { name, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, TEXT_CHAP_##index##_TITLE, TEXT_CHAP_##index##_TITLE, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xff, 0xff, 0, 0, 1, 0, TEXT_CHAP_GOAL_DEFENSE_##turns##_TURNS, TEXT_CHAP_GOAL_DEFENSE_##turns##_TURNS, 2, (turns) + 1, 0, 0xff, 0, 14},
 
 const struct Chapter chapters[] = {
             {
@@ -798,7 +799,7 @@ const struct Chapter chapters[] = {
             DEFINE_SIMPLE_EXT_CHAPTER(279, "5.3.2)279", MUSIC_FE5_ADVANCE)
             DEFINE_SIMPLE_EXT_CHAPTER(280, "5.3.3)280", MUSIC_FE5_ADVERSITY)
             DEFINE_SIMPLE_EXT_CHAPTER(281, "5.3.4)281", MUSIC_FE5_LEIF)
-            DEFINE_SIMPLE_EXT_CHAPTER(282, "5.3.5)282", MUSIC_FE5_SEARCH_ENEMY)
+            DEFINE_DEFENSE_EXT_CHAPTER(282, "5.3.5)282", MUSIC_FE5_SEARCH_ENEMY, 6)
 
             //[0x100 + 244] = DEFINE_SIMPLE_EXT_CHAPTER_WITH_MAP_CHANGE(233, "4.7.4)233", MUSIC_FE_PATH_OF_RADIANCE_POWER_HUNGRY_FOOL, 36)
 };
