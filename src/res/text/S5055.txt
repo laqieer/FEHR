@@ -109,7 +109,7 @@ TCC_OPEN_LEFT
 ""
 TCC_OPEN_RIGHT
 "うぅ。。。" TCC_NEWLINE
-"不甲斐ない妻で申\し訳ありません、" TCC_NEWLINE
+"ふがいない妻で申\し訳ありません、" TCC_NEWLINE
 "オッテル様。。。！！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
