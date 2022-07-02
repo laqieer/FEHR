@@ -74,7 +74,7 @@ const struct Character characters[] = {
 
 {TEXT_CHARACTER_NAME_LOKI, TEXT_CHARACTER_HELP_LOKI, 27, JOB_ID_BISHOP_F, 0x111, 0, Water, 26, 10, 17, 8, 8, 8, 2, 5, 8, 0, 0, 0, 0, 0, WPN_EXP_B, WPN_EXP_C, WPN_EXP_C, WPN_EXP_C, 55, 55, 50, 60, 30, 45, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[11], 11} ,  // 0x1B Priscilla -> Loki
 
-{1278, 460, 28, 46, 46, 0, 5, 27, 7, 9, 3, 5, 5, 3, 2, 5, 1, 0, 0, 0, 71, 0, 0, 0, 0, 80, 50, 40, 50, 10, 25, 30, 65, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6} ,  // 0x1C Rath (Tutorial)
+{TEXT_CHARACTER_NAME_FAFNIR, TEXT_CHARACTER_HELP_FAFNIR, CHARACTER_FAFNIR_ID, JOB_ID_STEAM_KNIGHT, PORTRAIT_ID_FAFNIR, 0, Anima, 27, 1, 10, 8, 10, 11, 9, 3, 5, 2, 0, WPN_EXP_A, 0, 0, 0, 0, 0, 0, 50, 70, 55, 60, 65, 30, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6} ,  // 0x1C Rath (Tutorial) -> Fafnir
 
 {TEXT_CHARACTER_NAME_EIR, TEXT_CHARACTER_HELP_EIR, 29, JOB_ID_MAGIC_FALCON, 0x107, 0, Light, 28, 1, 15, 7, 7, 8, 3, 6, 7, -1, 0, 0, 0, 0, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, 45, 55, 60, 65, 25, 55, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[15], 12} ,  // 0x1D Florina (Tutorial) -> Eir
 
