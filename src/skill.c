@@ -55,6 +55,7 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
     {
         case PASSIVE_SKILL_S_EMBLA_WARD:
         case PASSIVE_SKILL_S_MUSPELL_FLAME:
+        case PASSIVE_SKILL_S_NIOAVELLIR_AXIOM:
             gBattleStats.damage = 0;
             attacker->nonZeroDamage = 0;
             break;
@@ -7988,6 +7989,7 @@ const struct PassiveSkill passiveSkillSs[] = {
     {"無限の悪夢", "ターン開始時、全ての敵の攻撃、速さ、守備、魔防ー２", "Infinite Nightmare", "At start of turn, foe's Atk/Spd/Def/Res-2."},
     {"悪路とうは", "移動できる地形を平地同様に移動できる", "Surefooted", "unit cannot be slowed by terrain. (Does not apply to impassable terrain.)"},
     {"グラニの盾", "騎馬特効無効", "Grani's Shield", "Neutralizes \"effective against cavalry\" bonuses."},
+    {"ニザヴェリルの理", "自身が受けるダメージは０になる", "Nioavellir Axiom", "Reduces damage dealt to unit to 0."},
 };
 
 const u16 itemPassiveSkillSs[0x100] = {
@@ -8002,6 +8004,7 @@ const u16 itemPassiveSkillSs[0x100] = {
     [ITEM_NIGHTMARE_FANG] = PASSIVE_SKILL_S_NIGHTMARE,
     [ITEM_FUJIN_YUMI] = PASSIVE_SKILL_S_SUREFOOTED,
     [ITEM_SACRED_SEAL_GRANIS_SHIELD] = PASSIVE_SKILL_S_GRANIS_SHIELD,
+    [ITEM_SACRED_SEAL_NIOAVELLIR_AXIOM] = PASSIVE_SKILL_S_NIOAVELLIR_AXIOM,
 };
 
 u16 getUnitPassiveSkillS(struct Unit *unit)

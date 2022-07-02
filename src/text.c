@@ -2537,6 +2537,10 @@ const char* const texts[] = {
 
        [TEXT_CHARACTER_HELP_FAFNIR] = "ニザヴェリル王国の王。一兵士から成り上がった。過去の記憶を失っている。",
 
+       [TEXT_ITEM_SACRED_SEAL_NIOAVELLIR_AXIOM_NAME] = "ニザヴェリルの理",
+
+       [TEXT_ITEM_SACRED_SEAL_NIOAVELLIR_AXIOM_HELP] = "自身が受けるダメージは０になる",
+
        [TEXT_SUPPORT_AVATAR_TAKUMI]= TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_TAKUMI
                "。。。" TCC_NEWLINE TCC_PUSH_A

@@ -389,6 +389,8 @@ const struct Item items[] = {
 {TEXT_ITEM_NAME_GRANIS_SHIELD, TEXT_ITEM_HELP_GRANIS_SHIELD, TEXT_ITEM_CANNOT_USE, ITEM_SACRED_SEAL_GRANIS_SHIELD, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB6 Sacred Seal: Grani's Shield
 
 {TEXT_ITEM_NAME_SCALDING_BREATH, TEXT_ITEM_HELP_SCALDING_BREATH, 0, ITEM_SCALDING_BREATH, 11, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &ScaldingBreathBuff, 0, 0, 16, 80, 0, 0, 3, 1, 0, WPN_EXP_A, ITEM_ICON_SCALDING_BREATH, 0, 0, 0} ,  // 0xB7 Scalding Breath
+
+{TEXT_ITEM_SACRED_SEAL_NIOAVELLIR_AXIOM_NAME, TEXT_ITEM_SACRED_SEAL_NIOAVELLIR_AXIOM_HELP, TEXT_ITEM_CANNOT_USE, ITEM_SACRED_SEAL_NIOAVELLIR_AXIOM, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, ITEM_EMBLEM_SEAL_ICON, 0, 0, 0} ,  // 0xB8 Sacred Seal: Nioavellir Axiom
 };
 
 const struct Item * const pItems1 = items;

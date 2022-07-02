@@ -197,6 +197,7 @@
 #define FujinYumi 0xb5
 #define GranisShield 0xb6
 #define ScaldingBreath 0xb7
+#define NioavellirAxiom 0xb8
 
 // AI
 #define DefaultAi4 DefaultAI4

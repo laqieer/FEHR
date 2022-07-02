@@ -66,7 +66,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Plumeria,MagicFalcoKnight,Anna,8,12,8,12)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Fafnir,SteamKnight,0,30,SIDE_ENEMY,1,3,3,3,3,23,0,0,0,0,3,0,0) // Fafnir
+	UNIT(Fafnir,SteamKnight,0,30,SIDE_ENEMY,1,3,3,3,3,23,184,0,0,0,3,0,0) // Fafnir
 	UNIT(GenericSummoned,Sage_F,0,30,SIDE_ENEMY,1,14,0,14,0,57,0,0,0,0,0,0,0) // Miranda
 	UNIT(GenericSummoned,Bishop_F,0,30,SIDE_ENEMY,1,8,0,8,0,70,0,0,0,0,0,0,0) // Sara
 	UNIT(GenericNioavellir,Paladin,0,30,SIDE_ENEMY,1,8,3,8,3,6,0,0,0,0,0,0,0) // Sword Cavalier
