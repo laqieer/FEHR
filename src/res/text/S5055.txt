@@ -73,7 +73,7 @@ TCC_OPEN_MID_RIGHT
 "まあダグちゃんったら。。。" TCC_NEWLINE
 "私が素敵な王子様と結ばれたから" TCC_NEWLINE
 "嫉妬してるのね。" TCC_NEWLINE TCC_PUSH_A
-"そりゃあ猿を通り越して" TCC_NEWLINE
+"そりゃあサルを通り越して" TCC_NEWLINE
 "ヒヒみたいなダグちゃんには" TCC_NEWLINE
 "王子様は難しいかもしれないけど。。。" TCC_NEWLINE TCC_PUSH_A
 ""

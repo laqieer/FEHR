@@ -17,7 +17,7 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
 ""
 TCC_OPEN_LEFT
 "。。。あら？" TCC_NEWLINE
-"どこかにお猿さんがいるのかしら。" TCC_NEWLINE
+"どこかにおサルさんがいるのかしら。" TCC_NEWLINE
 "鳴き声が聞こえますわ。" TCC_NEWLINE TCC_PUSH_A
 ""
 "さ、長旅でさぞお疲れでしょう。" TCC_NEWLINE
@@ -86,19 +86,19 @@ TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC_CLEAR_FACE TCC_OPEN_MID_RIGH
 ""
 "ダグちゃん。あなたには" TCC_NEWLINE
 "情けというものがないの？" TCC_NEWLINE
-"本当に人間以下のお猿さんね。" TCC_NEWLINE TCC_PUSH_A
+"本当に人間以下のおサルさんね。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "ノート王女。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
-"あたしが猿なら" TCC_NEWLINE
+"あたしがサルなら" TCC_NEWLINE
 "あんたは腹の真っ黒な狸じゃん。" TCC_NEWLINE
 "尻尾を出しやがったな性悪女ぁ！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "ダグちゃんの声を聞いてると私まで" TCC_NEWLINE
-"お猿さんになっちゃいそう。" TCC_NEWLINE TCC_PUSH_A
+"おサルさんになっちゃいそう。" TCC_NEWLINE TCC_PUSH_A
 "私には大事なお仕事があるの。" TCC_NEWLINE
 "大人しくそこで見てらっしゃいな。" TCC_NEWLINE TCC_PUSH_A
 ""
