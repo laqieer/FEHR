@@ -136,7 +136,7 @@ TCC_OPEN_MID_LEFT
 ""
 TCC_OPEN_MID_RIGHT
 "【小人の王冠】は" TCC_NEWLINE
-"戴いた本人にしか外せないの。" TCC_NEWLINE
+"いただいた本人にしか外せないの。" TCC_NEWLINE
 "もしくは本人が死ぬか。。。" TCC_NEWLINE TCC_PUSH_A
 "で、でもそれはやめてなの！！" TCC_NEWLINE TCC_PUSH_A
 ""

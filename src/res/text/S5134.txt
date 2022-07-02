@@ -92,7 +92,7 @@ TCC_OPEN_LEFT
 "そうとも言えるね。" TCC_NEWLINE
 "私の下から逃げ出した彼が" TCC_NEWLINE
 "王になるとは思ってもみなかったが。。。" TCC_NEWLINE TCC_PUSH_A
-"それが自ら王冠を戴き、破滅し、" TCC_NEWLINE
+"それが自ら王冠をいただき、破滅し、" TCC_NEWLINE
 "おまけに王家の後継者を" TCC_NEWLINE
 "私へと導いてくれるとは！" TCC_NEWLINE TCC_PUSH_A
 "彼には感謝してもしきれないよ。" TCC_NEWLINE

@@ -9,7 +9,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 "お疲れ様。こちらも調べがついたよ。" TCC_NEWLINE
 "君たちも知ってのとおり、" TCC_NEWLINE
 "ファフニールの強さは尋常じゃない。" TCC_NEWLINE TCC_PUSH_A
-"原因は彼の戴く" TCC_NEWLINE
+"原因は彼のいただく" TCC_NEWLINE
 "【小人の王冠】にある。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
