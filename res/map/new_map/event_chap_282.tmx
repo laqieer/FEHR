@@ -40,7 +40,7 @@
    <properties>
     <property name="Unit" type="class" propertytype="Unit">
      <properties>
-      <property name="AI2" propertytype="AI2" value="DoNotMove"/>
+      <property name="AI2" propertytype="AI2" value="DelayedPursue"/>
       <property name="AutoLevel" type="bool" value="true"/>
       <property name="Equip" propertytype="Item" value="SilverLance"/>
       <property name="Item" propertytype="Item" value="NioavellirAxiom"/>
