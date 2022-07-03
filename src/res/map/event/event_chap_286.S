@@ -32,6 +32,7 @@ MiscBasedEvents:
 	DefeatAll(EndingScene)
 	END_MAIN
 BeginningScene:
+	SaveFjorm
 	MUSC MUSIC_FE_H_SERIOUS_6
 	ShowBG(BG002_PlainForestInside)
 	TEX1 MID_SCENARIO_OPENING_S5044

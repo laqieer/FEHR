@@ -555,3 +555,20 @@ const struct JobBattleAnimationConf LaevateinAnimationConf[] = {
 };
 
 const struct JobBattleAnimationConf * const pLaevateinAnimationConf = LaevateinAnimationConf;
+
+void SavePlayerCharacter(int characterID)
+{
+    for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)
+    {
+        if(playerUnits[i].character == &characters[characterID - 1])
+        {
+            playerUnits[i].state &= ~(UNIT_STATE_DEAD | UNIT_STATE_HIDDEN);
+            break;
+        }
+    }
+}
+
+void saveFjorm()
+{
+    SavePlayerCharacter(CHARACTER_FJORM_ID);
+}

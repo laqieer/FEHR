@@ -53,7 +53,7 @@
 #define Reghin Sain_t
 #define Reginn Reghin
 #define Letizia Marcus
-#define Otr Pent
+#define Otr Legault
 #define Fafnir Rath_t
 #define Eitri Wil
 #define Dagr Heath

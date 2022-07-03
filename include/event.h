@@ -170,4 +170,6 @@
 #define UnlockHiddenTreasure6Achievement ASMC findTreasure6
 #define UnlockHiddenTreasure7Achievement ASMC findTreasure7
 
+#define SaveFjorm ASMC saveFjorm
+
 #endif //FE7_JP_STUNNING_TRIBBLE_EVENT_H
