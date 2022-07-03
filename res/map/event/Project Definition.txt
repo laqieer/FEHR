@@ -131,6 +131,9 @@
 #define GenericNioavellirWeakDrop 0x97
 #define GenericNioavellirStrongDrop 0x98
 
+#define GenericJotunheimr 0x9a
+#define GenericJotunheimrWeak 0x9b
+
 // Classes
 
 #define AlfonseLord EliwoodLord

@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_287.tmx",
+    "activeFile": "new_map/event_chap_288.tmx",
     "expandedProjectPaths": [
         "event/unit",
         "new_map"
@@ -196,6 +196,12 @@
             "scaleInEditor": 2
         },
         "new_map/S5045.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/S5051.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
@@ -547,10 +553,21 @@
         },
         "new_map/event_chap_287.tmx": {
             "scale": 2.1760937499999997,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 120.39922452789547,
+                "y": 160.60888920801324
+            }
+        },
+        "new_map/event_chap_288.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 2.1760937499999997,
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 120.39922452789547,
-                "y": 160.14935018309762
+                "y": 160.60888920801324
             }
         },
         "new_map/event_chap_85.json": {
@@ -566,7 +583,7 @@
         }
     },
     "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
-    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/new_map",
+    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/event/unit/player_units",
     "lastUsedTilesetExportFilter": "Fire Emblem (GBA) map tileset terrain binary (*.bin)",
     "map.height": 20,
     "map.lastUsedExportFilter": "Fire Emblem (GBA) chapter event (*.S)",
@@ -575,12 +592,15 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_287.tmx"
+        "new_map/event_chap_288.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_288.tmx",
         "new_map/event_chap_287.tmx",
+        "new_map/S5051.tsx",
+        "event/unit/player_unit_set.json",
         "new_map/S5045.tsx",
         "new_map/event_chap_286.tmx",
         "new_map/S5044.tsx",
@@ -588,10 +608,7 @@
         "new_map/S5043.tsx",
         "new_map/event_chap_284.tmx",
         "new_map/event_chap_283.tmx",
-        "new_map/S5042.tsx",
-        "new_map/event_chap_282.tmx",
-        "new_map/S5041.tsx",
-        "new_map/S5035.tsx"
+        "new_map/S5042.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
