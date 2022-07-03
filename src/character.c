@@ -562,7 +562,7 @@ void SavePlayerCharacter(int characterID)
     {
         if(playerUnits[i].character == &characters[characterID - 1])
         {
-            playerUnits[i].state &= ~(UNIT_STATE_DEAD | UNIT_STATE_HIDDEN);
+            playerUnits[i].state &= ~UNIT_STATE_DEAD;
             break;
         }
     }
