@@ -3535,6 +3535,26 @@ void PassiveSkillAEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
             if(unit->hp < 1)
                 unit->hp = 1;
             break;
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_1:
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_2:
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_3:
+            if(!attacker->canCounter || attacker->hpInitial < unit->maxHp)
+                break;
+            if(unit->hp < 2)
+                break;
+            unit->hp -= 1;
+            if(unit->hp < 1)
+                unit->hp = 1;
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_4:
+            if(!attacker->canCounter || attacker->hpInitial * 4 < unit->maxHp)
+                break;
+            if(unit->hp < 2)
+                break;
+            unit->hp -= 5;
+            if(unit->hp < 1)
+                unit->hp = 1;
+            break;
         default:
             break;
     }
@@ -3573,6 +3593,26 @@ void PassiveSkillAEffectAfterBattle(struct BattleUnit* attacker, struct BattleUn
             if(unit->hp < 2)
                 break;
             unit->hp -= 8;
+            if(unit->hp < 1)
+                unit->hp = 1;
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_1:
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_2:
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_3:
+            if(!defender->canCounter || defender->hpInitial < unit->maxHp)
+                break;
+            if(unit->hp < 2)
+                break;
+            unit->hp -= 1;
+            if(unit->hp < 1)
+                unit->hp = 1;
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_4:
+            if(!defender->canCounter || defender->hpInitial * 4 < unit->maxHp)
+                break;
+            if(unit->hp < 2)
+                break;
+            unit->hp -= 5;
             if(unit->hp < 1)
                 unit->hp = 1;
             break;
@@ -5990,6 +6030,34 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             if(attacker == &gBattleActor || hasCompanionIn2Spaces(&attacker->unit))
                 attacker->battleAttack += 6;
             break;
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_1:
+            if(attacker->hpInitial >= attacker->unit.maxHp)
+            {
+                attacker->battleAttack += 3;
+                attacker->battleSpeed += 3;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_2:
+            if(attacker->hpInitial >= attacker->unit.maxHp)
+            {
+                attacker->battleAttack += 4;
+                attacker->battleSpeed += 4;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_3:
+            if(attacker->hpInitial >= attacker->unit.maxHp)
+            {
+                attacker->battleAttack += 5;
+                attacker->battleSpeed += 5;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_SPD_PUSH_4:
+            if(attacker->hpInitial * 4 >= attacker->unit.maxHp)
+            {
+                attacker->battleAttack += 7;
+                attacker->battleSpeed += 7;
+            }
+            break;
         default:
             break;
     }
@@ -7616,6 +7684,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"ƒƒ”ƒ“ƒwƒCƒY‚Q", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚SA“G‚ÌUŒ‚|‚S", "Lofnheior 2", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+4 to unit during combat, inflicts Atk-4 on foe during combat."},
     {"ƒƒ”ƒ“ƒwƒCƒY‚R", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚UA“G‚ÌUŒ‚|‚U", "Lofnheior 3", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat."},
     {"ƒƒ”ƒ“ƒwƒCƒY‚S", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚UA“G‚ÌUŒ‚|‚UA“G‚Í’ÇŒ‚•s‰Â", "Lofnheior 4", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat, and foe cannot make a follow-up attack."},
+    {"UŒ‚‘¬‚³‚±‚ñg‚P", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çUŒ‚A‘¬‚³{‚RA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 1", "At start of combat, if unit's HP = 100%, grants Atk/Spd+3, but if unit attacked, deals 1 damage to unit after combat."},
+    {"UŒ‚‘¬‚³‚±‚ñg‚Q", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çUŒ‚A‘¬‚³{‚SA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 2", "At start of combat, if unit's HP = 100%, grants Atk/Spd+4, but if unit attacked, deals 1 damage to unit after combat."},
+    {"UŒ‚‘¬‚³‚±‚ñg‚R", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çUŒ‚A‘¬‚³{‚TA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 3", "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat."},
+    {"UŒ‚‘¬‚³‚±‚ñg‚S", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‚S•ª‚Ì‚PˆÈã‚È‚çUŒ‚A‘¬‚³{‚VA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Tƒ_ƒ[ƒW", "Atk/Spd Push 4", "At start of combat, if unit's HP >= 25%, grants Atk/Spd+7, but if unit attacked, deals 5 damage to unit after combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -7647,6 +7719,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_ID_MYUNIT] = {PASSIVE_SKILL_A_LUCK_1, PASSIVE_SKILL_A_LUCK_2, PASSIVE_SKILL_A_LUCK_3, PASSIVE_SKILL_A_LUCK_4},
     [CHARACTER_ID_TAKUMI] = {PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER, PASSIVE_SKILL_A_CLOSE_COUNTER},
     [CHARACTER_OTR_ID] = {PASSIVE_SKILL_A_LOFNHEIOR_1, PASSIVE_SKILL_A_LOFNHEIOR_2, PASSIVE_SKILL_A_LOFNHEIOR_3, PASSIVE_SKILL_A_LOFNHEIOR_4},
+    [CHARACTER_DAGR_ID] = {PASSIVE_SKILL_A_ATK_SPD_PUSH_1, PASSIVE_SKILL_A_ATK_SPD_PUSH_2, PASSIVE_SKILL_A_ATK_SPD_PUSH_3, PASSIVE_SKILL_A_ATK_SPD_PUSH_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
