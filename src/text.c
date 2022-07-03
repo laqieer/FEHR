@@ -2541,6 +2541,10 @@ const char* const texts[] = {
 
        [TEXT_ITEM_SACRED_SEAL_NIOAVELLIR_AXIOM_HELP] = "自身が受けるダメージは０になる",
 
+       [TEXT_CHARACTER_NAME_DAGR] = "ダグ",
+
+       [TEXT_CHARACTER_HELP_DAGR] = "ヨトゥン王国の第二王女。ノートの双子の妹。陽気で大らか。好戦的な性格。",
+
        [TEXT_SUPPORT_AVATAR_TAKUMI]= TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_TAKUMI
                "。。。" TCC_NEWLINE TCC_PUSH_A
