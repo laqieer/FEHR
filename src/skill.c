@@ -6134,25 +6134,32 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                     attacker->battleDefense -= 2 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             }
             break;
-        case PASSIVE_SKILL_B_Lull_Spd_Def_1:
+        case PASSIVE_SKILL_B_LULL_SPD_DEF_1:
             attacker->battleSpeed -= 1 + max(0, getUnitTotalBuffPower(&attacker->unit));
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 1 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             break;
-        case PASSIVE_SKILL_B_Lull_Spd_Def_2:
+        case PASSIVE_SKILL_B_LULL_SPD_DEF_2:
             attacker->battleSpeed -= 2 + max(0, getUnitTotalBuffPower(&attacker->unit));
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 2 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             break;
-        case PASSIVE_SKILL_B_Lull_Spd_Def_3:
+        case PASSIVE_SKILL_B_LULL_SPD_DEF_3:
             attacker->battleSpeed -= 3 + max(0, getUnitTotalBuffPower(&attacker->unit));
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 3 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             break;
-        case PASSIVE_SKILL_B_Lull_Spd_Def_4:
+        case PASSIVE_SKILL_B_LULL_SPD_DEF_4:
             attacker->battleSpeed -= 4 + max(0, getUnitTotalBuffPower(&attacker->unit));
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 4 + max(0, getUnitTotalBuffDefense(&attacker->unit));
+            break;
+        case PASSIVE_SKILL_B_SUN_TWIN_WING:
+            if(defender->hpInitial * 4 < defender->unit.maxHp)
+                break;
+            attacker->battleAttack -= 5;
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 5;
             break;
         default:
             break;
@@ -7684,10 +7691,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"ƒƒ”ƒ“ƒwƒCƒY‚Q", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚SA“G‚ÌUŒ‚|‚S", "Lofnheior 2", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+4 to unit during combat, inflicts Atk-4 on foe during combat."},
     {"ƒƒ”ƒ“ƒwƒCƒY‚R", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚UA“G‚ÌUŒ‚|‚U", "Lofnheior 3", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat."},
     {"ƒƒ”ƒ“ƒwƒCƒY‚S", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžA‚Ü‚½‚ÍAŽüˆÍ‚Qƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚éŽžAí“¬’†AUŒ‚{‚UA“G‚ÌUŒ‚|‚UA“G‚Í’ÇŒ‚•s‰Â", "Lofnheior 4", "If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat, and foe cannot make a follow-up attack."},
-    {"UŒ‚‘¬‚³‚±‚ñg‚P", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çUŒ‚A‘¬‚³{‚RA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 1", "At start of combat, if unit's HP = 100%, grants Atk/Spd+3, but if unit attacked, deals 1 damage to unit after combat."},
-    {"UŒ‚‘¬‚³‚±‚ñg‚Q", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çUŒ‚A‘¬‚³{‚SA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 2", "At start of combat, if unit's HP = 100%, grants Atk/Spd+4, but if unit attacked, deals 1 damage to unit after combat."},
-    {"UŒ‚‘¬‚³‚±‚ñg‚R", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çUŒ‚A‘¬‚³{‚TA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 3", "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat."},
-    {"UŒ‚‘¬‚³‚±‚ñg‚S", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‚S•ª‚Ì‚PˆÈã‚È‚çUŒ‚A‘¬‚³{‚VA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Tƒ_ƒ[ƒW", "Atk/Spd Push 4", "At start of combat, if unit's HP >= 25%, grants Atk/Spd+7, but if unit attacked, deals 5 damage to unit after combat."},
+    {"UŒ‚‘¬‚³‚±‚ñg‚P", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çAUŒ‚A‘¬‚³{‚RA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 1", "At start of combat, if unit's HP = 100%, grants Atk/Spd+3, but if unit attacked, deals 1 damage to unit after combat."},
+    {"UŒ‚‘¬‚³‚±‚ñg‚Q", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çAUŒ‚A‘¬‚³{‚SA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 2", "At start of combat, if unit's HP = 100%, grants Atk/Spd+4, but if unit attacked, deals 1 damage to unit after combat."},
+    {"UŒ‚‘¬‚³‚±‚ñg‚R", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‘S•”‚È‚çAUŒ‚A‘¬‚³{‚TA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Pƒ_ƒ[ƒW", "Atk/Spd Push 3", "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat."},
+    {"UŒ‚‘¬‚³‚±‚ñg‚S", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‚S•ª‚Ì‚PˆÈã‚È‚çAUŒ‚A‘¬‚³{‚VA‚»‚Ìó‘Ô‚ÅUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚É‚Tƒ_ƒ[ƒW", "Atk/Spd Push 4", "At start of combat, if unit's HP >= 25%, grants Atk/Spd+7, but if unit attacked, deals 5 damage to unit after combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -7824,6 +7831,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"“{‚Æ‚¤EÄ‹N‚Q", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª”¼•ªˆÈã‚ÅŽ©•ª‚©‚çUŒ‚‚µ‚½ŽžAí“¬’†AŽ©•ª‚Ì’ÇŒ‚•s‰Â‚ð–³ŒøA‚©‚ÂAí“¬ŒãA‚g‚o‚V‰ñ•œ", "Flow Refresh 2", "At the start of combat, if unit's HP >= 50% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 7 HP to unit after combat."},
     {"“{‚Æ‚¤EÄ‹N‚R", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžAí“¬’†AŽ©•ª‚Ì’ÇŒ‚•s‰Â‚ð–³ŒøA‚©‚ÂAí“¬ŒãA‚g‚o‚P‚O‰ñ•œ", "Flow Refresh 3", "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 10 HP to unit after combat."},
     {"“{‚Æ‚¤EÄ‹N‚S", "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžAí“¬’†AŽ©•ª‚Ì’ÇŒ‚•s‰Â‚ð–³ŒøA‚©‚ÂAí“¬ŒãA‚g‚o‚P‚T‰ñ•œ", "Flow Refresh 4", "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 15 HP to unit after combat."},
+    {"‘o•P‚Ì—z—ƒ", "í“¬ŠJŽnŽžAŽ©g‚Ì‚g‚o‚ª‚S•ª‚Ì‚PˆÈã‚È‚çAí“¬’†A“G‚Ì‘¬‚³AŽç”õ|‚TA‚©‚ÂA“G‚Ìâ‘Î’ÇŒ‚‚ð–³ŒøAŽ©•ª‚Ì’ÇŒ‚•s‰Â‚ð–³Œø", "Sun-Twin Wing", "At start of combat, if unit's HP >= 25%, inflicts Spd/Def-5 on foe and also neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -7848,8 +7856,9 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_FREYJA_ID] = {PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE, PASSIVE_SKILL_B_BINDING_NECKLACE},
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_B_SABOTAGE_SPD_1, PASSIVE_SKILL_B_SABOTAGE_SPD_2, PASSIVE_SKILL_B_SABOTAGE_SPD_3, PASSIVE_SKILL_B_SABOTAGE_SPD_4},
     [CHARACTER_TRIANDRA_ID] = {PASSIVE_SKILL_B_AEROBATICS_1, PASSIVE_SKILL_B_AEROBATICS_2, PASSIVE_SKILL_B_AEROBATICS_3, PASSIVE_SKILL_B_AEROBATICS_4},
-    [CHARACTER_REGHIN_ID] = {PASSIVE_SKILL_B_Lull_Spd_Def_1, PASSIVE_SKILL_B_Lull_Spd_Def_2, PASSIVE_SKILL_B_Lull_Spd_Def_3, PASSIVE_SKILL_B_Lull_Spd_Def_4},
+    [CHARACTER_REGHIN_ID] = {PASSIVE_SKILL_B_LULL_SPD_DEF_1, PASSIVE_SKILL_B_LULL_SPD_DEF_2, PASSIVE_SKILL_B_LULL_SPD_DEF_3, PASSIVE_SKILL_B_LULL_SPD_DEF_4},
     [CHARACTER_OTR_ID] = {PASSIVE_SKILL_B_FLOW_REFRESH_1, PASSIVE_SKILL_B_FLOW_REFRESH_2, PASSIVE_SKILL_B_FLOW_REFRESH_3, PASSIVE_SKILL_B_FLOW_REFRESH_4},
+    [CHARACTER_DAGR_ID] = {PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -8212,6 +8221,9 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
                 return 1;
         case PASSIVE_SKILL_B_FLOW_REFRESH_4:
             if(*outAttacker == &gBattleActor)
+                return 1;
+        case PASSIVE_SKILL_B_SUN_TWIN_WING:
+            if((*outAttacker)->hpInitial * 4 >= (*outAttacker)->unit.maxHp)
                 return 1;
         default:
             break;
