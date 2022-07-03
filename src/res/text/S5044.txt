@@ -48,7 +48,7 @@ TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "アンナ隊長。どうしたんです？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
-"斥候部隊の報告によると。。。" TCC_NEWLINE
+"せっこう部隊の報告によると。。。" TCC_NEWLINE
 "この先にヨトゥン軍が" TCC_NEWLINE
 "陣をはって待ち構\えてるって！" TCC_NEWLINE TCC_PUSH_A
 ""
