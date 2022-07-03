@@ -548,14 +548,6 @@ const struct Character * const pCharacters18 = &characters[-1];
 const struct Character * const pCharacters19 = &characters[-1];
 const struct Character * const pCharacters20 = &characters[-1];
 
-const struct JobBattleAnimationConf LaevateinAnimationConf[] = {
-    {Sword, 1, 1 + 0xd1},
-    {Disarmed, 1, 1 + 0xd2},
-    JobBattleAnimationConfEnd
-};
-
-const struct JobBattleAnimationConf * const pLaevateinAnimationConf = LaevateinAnimationConf;
-
 void SavePlayerCharacter(int characterID)
 {
     for(int i = 0; i < PLAYER_TOTAL_AMOUNT; i++)

@@ -50,6 +50,12 @@ infos = {
         "list": "Character Palettes.txt",
         "startIndex": 1
     },
+    "CharacterAnimation": {
+        "format": "u32<",
+        "start": 0xd6136c,
+        "list": "Custom Battle Sprites.txt",
+        "startIndex": 0
+    },
     "Song": {
         "format": "u32u16u16<",
         "start": 0x6ea8d0,
