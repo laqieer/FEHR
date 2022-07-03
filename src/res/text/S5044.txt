@@ -8,7 +8,7 @@
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "ヨトゥンはニザヴェリルと" TCC_NEWLINE
 "対をなす巨人族の国だよ。" TCC_NEWLINE TCC_PUSH_A
-"発展著しいニザヴェリルに対し" TCC_NEWLINE
+"発展いちじるしいニザヴェリルに対し" TCC_NEWLINE
 "伝統を重んじる" TCC_NEWLINE
 "古風な文化が息づいている。。。" TCC_NEWLINE TCC_PUSH_A
 "巨人族は古代から" TCC_NEWLINE
