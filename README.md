@@ -95,6 +95,7 @@ cd build && make
 |Laevatein|Sword|FE7if|
 |Shaman|Staff|Temp|
 |Dracozombie|Dragonstone|Marlon0027, Orihara_Saki|
+|Warrior Female|Axe, HandAxe, Bow|Temp|
 
 ### Item Icon
 

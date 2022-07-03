@@ -110,3 +110,11 @@
     .rodata.GreatKnightDisarmed : {*(.rodata.GreatKnightDisarmed)}
     . = 0x8E00008 + 0x20 * 0xd9;
     .rodata.Dracozombie : {*(.rodata.Dracozombie)}
+    . = 0x8E00008 + 0x20 * 0xda;
+    .rodata.WarriorFemaleAxe : {*(.rodata.WarriorFemaleAxe)}
+    . = 0x8E00008 + 0x20 * 0xdb;
+    .rodata.WarriorFemaleHandAxe : {*(.rodata.WarriorFemaleHandAxe)}
+    . = 0x8E00008 + 0x20 * 0xdc;
+    .rodata.WarriorFemaleBow : {*(.rodata.WarriorFemaleBow)}
+    . = 0x8E00008 + 0x20 * 0xdd;
+    .rodata.WarriorFemaleDisarmed : {*(.rodata.WarriorFemaleDisarmed)}
