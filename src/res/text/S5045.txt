@@ -1,7 +1,7 @@
 // Converted by ./ConvertText.py
 
 [MID_SCENARIO_MAP_BEGIN_S5045] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_DAGR
-"やっほーっ☆" TCC_NEWLINE
+"やっほーっ" TCC_NEWLINE
 "あんたらがアスク王国の連中？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
@@ -9,7 +9,7 @@ TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 ""
 TCC_OPEN_LEFT
 "あたしはヨトゥンの第二王女" TCC_NEWLINE
-"ダグちゃんだよ☆" TCC_NEWLINE TCC_PUSH_A
+"ダグちゃんだよ" TCC_NEWLINE TCC_PUSH_A
 ""
 "あんたら、ニザヴェリルから贈られた" TCC_NEWLINE
 "魔剣が欲しいんでしょ？" TCC_NEWLINE TCC_PUSH_A
@@ -42,13 +42,13 @@ TCC_OPEN_RIGHT
 "？　あの。。。何の話だい？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
-"あ・ごめーん☆" TCC_NEWLINE
+"あ・ごめーん" TCC_NEWLINE
 "あんたらには訳わかんないよねっ。" TCC_NEWLINE
 "でも死んじゃうから関係ないじゃん？" TCC_NEWLINE TCC_PUSH_A
 ""
 "んじゃ、殺し合いのはっじまりーーい！！" TCC_NEWLINE
 "あたしの【スキンファクシ】で" TCC_NEWLINE
-"プチっと潰しちゃうよ☆" TCC_NEWLINE TCC_PUSH_A
+"プチっと潰しちゃうよ" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_SHARENA
 "この人のどこが" TCC_NEWLINE
@@ -93,7 +93,7 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_LEFT
 "うっわ怖い顔。。。" TCC_NEWLINE
-"そんな顔したらもてないゾ☆" TCC_NEWLINE TCC_PUSH_A
+"そんな顔したらもてないゾ" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
@@ -110,7 +110,7 @@ TCC_OPEN_RIGHT
 TCC_OPEN_LEFT
 "いーからいーから。" TCC_NEWLINE
 "バルンストック城に行くんだよね。" TCC_NEWLINE
-"あたしも一緒に行ってあ・げ・る☆" TCC_NEWLINE TCC_PUSH_A
+"あたしも一緒に行ってあ・げ・る" TCC_NEWLINE TCC_PUSH_A
 "ね、いいっしょ？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
@@ -123,7 +123,7 @@ TCC_OPEN_LEFT
 "もー王子ちゃんってば" TCC_NEWLINE
 "可愛くないんだからぁ。" TCC_NEWLINE TCC_PUSH_A
 "素直にこんな美人王女とご一緒できるなんて" TCC_NEWLINE
-"最高～って言えばいいのに☆" TCC_NEWLINE TCC_PUSH_A
+"最高～って言えばいいのに" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A

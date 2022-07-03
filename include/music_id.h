@@ -146,7 +146,9 @@
 #define MUSIC_FE4_MAP_2 0x44d
 #define MUSIC_FE4_MAP_3 0x44e
 #define MUSIC_FE4_MAP_4 0x44f
+#define MUSIC_FE4_MAP_5 0x47b
 #define MUSIC_FE4_MAP_6 0x450
+#define MUSIC_FE4_MAP_7 0x47c
 #define MUSIC_FE4_MAP_8 0x451
 #define MUSIC_FE4_MAP_9 0x452
 #define MUSIC_FE4_MAP_10 0x453

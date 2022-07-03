@@ -74,7 +74,9 @@ extern const u8 musicFE4Chap1[];
 extern const u8 musicFE4Chap2[];
 extern const u8 musicFE4Chap3[];
 extern const u8 musicFE4Chap4[];
+extern const u8 musicFE4Chap5[];
 extern const u8 musicFE4Chap6[];
+extern const u8 musicFE4Chap7[];
 extern const u8 musicFE4Chap8[];
 extern const u8 musicFE4Chap9[];
 extern const u8 musicFE4Chap10[];
@@ -1642,6 +1644,8 @@ const struct Song songs[] = {
         [MUSIC_FE_H_MAP_BOOK_3] = {musicFEHMapBook3, 1, 1},
         [MUSIC_FE_H_HEL] = {musicFEHHel, 1, 1},
         [MUSIC_FE_H_FREYJA] = {musicFEHFreyja, 1, 1},
+        [MUSIC_FE4_MAP_5] = {musicFE4Chap5, 1, 1},
+        [MUSIC_FE4_MAP_7] = {musicFE4Chap7, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1827,7 +1831,9 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE4_MAP_2, MUSIC_LENGTH(3, 16), 0, "アグストリアの動乱"},
     {MUSIC_FE4_MAP_3, MUSIC_LENGTH(1, 32), 0, "獅子王エルトシャン"},
     {MUSIC_FE4_MAP_4, MUSIC_LENGTH(3, 13), 0, "空に舞う"},
+    {MUSIC_FE4_MAP_5, MUSIC_LENGTH(2, 29), 0, "運命の扉"},
     {MUSIC_FE4_MAP_6, MUSIC_LENGTH(2, 2), 0, "光をつぐもの"},
+    {MUSIC_FE4_MAP_7, MUSIC_LENGTH(1, 47), 0, "砂漠を越えて"},
     {MUSIC_FE4_MAP_8, MUSIC_LENGTH(1, 35), 0, "トラキアの竜騎士"},
     {MUSIC_FE4_MAP_9, MUSIC_LENGTH(1, 48), 0, "誰がために"},
     {MUSIC_FE4_MAP_10, MUSIC_LENGTH(1, 53), 0, "光と闇と"},

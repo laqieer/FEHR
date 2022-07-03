@@ -72,7 +72,7 @@ TCC_OPEN_MID_LEFT
 "ぎゃはははははーっ！　大当たり！！" TCC_NEWLINE
 "あんた、昔っから嘘がばれると" TCC_NEWLINE
 "左目だけ吊り上がんの。" TCC_NEWLINE TCC_PUSH_A
-"自分で気づいてるぅ？　ププー☆" TCC_NEWLINE TCC_PUSH_A
+"自分で気づいてるぅ？　ププー" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT
 "ノート王女。。。本心をお聞かせください。" TCC_NEWLINE
