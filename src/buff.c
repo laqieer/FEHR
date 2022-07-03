@@ -1408,6 +1408,65 @@ void updateNewStateWithPassiveSkillAForAllUnits()
     updateNewStateWithPassiveSkillAForP4Units();
 }
 
+void updateNewStateWithPassiveSkillC(struct Unit *units, int number)
+{
+    for(int i = 0; i < number; i++)
+    {
+        if((units[i].state & UNIT_STATE_UNAVAILABLE) == 0 && units[i].character && units[i].job && units[i].hp)
+        {
+            switch(getUnitPassiveSkillC(&units[i]))
+            {
+                case PASSIVE_SKILL_C_EVEN_TEMPEST_1:
+                    if((gRAMChapterData.chapterTurnNumber % 2) == 0 && GetUnitHp(&units[i]) >= GetUnitMaxHp(&units[i]))
+                        setUnitStateMobilityIncreased(&units[i]);
+                    break;
+                case PASSIVE_SKILL_C_EVEN_TEMPEST_2:
+                    if((gRAMChapterData.chapterTurnNumber % 2) == 0 && GetUnitHp(&units[i]) * 2 >= GetUnitMaxHp(&units[i]))
+                        setUnitStateMobilityIncreased(&units[i]);
+                    break;
+                case PASSIVE_SKILL_C_EVEN_TEMPEST_3:
+                    if((gRAMChapterData.chapterTurnNumber % 2) == 0 && GetUnitHp(&units[i]) * 4 >= GetUnitMaxHp(&units[i]))
+                        setUnitStateMobilityIncreased(&units[i]);
+                    break;
+                case PASSIVE_SKILL_C_EVEN_TEMPEST_4:
+                    if((gRAMChapterData.chapterTurnNumber % 2) == 0)
+                        setUnitStateMobilityIncreased(&units[i]);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+}
+
+void updateNewStateWithPassiveSkillCForPlayerUnits()
+{
+    updateNewStateWithPassiveSkillC(playerUnits, PLAYER_TOTAL_AMOUNT);
+}
+
+void updateNewStateWithPassiveSkillCForEnemyUnits()
+{
+    updateNewStateWithPassiveSkillC(enemyUnits, ENEMY_TOTAL_AMOUNT);
+}
+
+void updateNewStateWithPassiveSkillCForNPCUnits()
+{
+    updateNewStateWithPassiveSkillC(NPCUnits, NPC_TOTAL_AMOUNT);
+}
+
+void updateNewStateWithPassiveSkillCForP4Units()
+{
+    updateNewStateWithPassiveSkillC(P4Units, P4_TOTAL_AMOUNT);
+}
+
+void updateNewStateWithPassiveSkillCForAllUnits()
+{
+    updateNewStateWithPassiveSkillCForPlayerUnits();
+    updateNewStateWithPassiveSkillCForEnemyUnits();
+    updateNewStateWithPassiveSkillCForNPCUnits();
+    updateNewStateWithPassiveSkillCForP4Units();
+}
+
 void clearJobCategoryStats(struct JobCategoryStats *stats)
 {
     stats->numTotal = 0;
@@ -1720,6 +1779,7 @@ void clearUnitsBuffAndDebuffEachTurn()
                 clearBuffDebuffAndNewStateForAllUnits();
                 updateBuffAndDebuffWithPassiveSkillCForAllUnits();
                 updateNewStateWithPassiveSkillAForAllUnits();
+                updateNewStateWithPassiveSkillCForAllUnits();
                 updateNewStateWithPassiveSkillSForAllUnits();
             }
             else
@@ -1727,6 +1787,7 @@ void clearUnitsBuffAndDebuffEachTurn()
                 clearBuffDebuffAndNewStateForPlayerUnits();
                 updateBuffAndDebuffWithPassiveSkillCForPlayerUnits();
                 updateNewStateWithPassiveSkillAForPlayerUnits();
+                updateNewStateWithPassiveSkillCForPlayerUnits();
                 updateNewStateWithPassiveSkillSForPlayerUnits();
             }
             break;
@@ -1734,18 +1795,21 @@ void clearUnitsBuffAndDebuffEachTurn()
             clearBuffDebuffAndNewStateForEnemyUnits();
             updateBuffAndDebuffWithPassiveSkillCForEnemyUnits();
             updateNewStateWithPassiveSkillAForEnemyUnits();
+            updateNewStateWithPassiveSkillCForEnemyUnits();
             updateNewStateWithPassiveSkillSForEnemyUnits();
             break;
         case NPCSide: //NPCSide
             clearBuffDebuffAndNewStateForNPCUnits();
             updateBuffAndDebuffWithPassiveSkillCForNPCUnits();
             updateNewStateWithPassiveSkillAForNPCUnits();
+            updateNewStateWithPassiveSkillCForNPCUnits();
             updateNewStateWithPassiveSkillSForNPCUnits();
             break;
         default: //TODO: for link arena
             clearBuffDebuffAndNewStateForP4Units();
             updateBuffAndDebuffWithPassiveSkillCForP4Units();
             updateNewStateWithPassiveSkillAForP4Units();
+            updateNewStateWithPassiveSkillCForP4Units();
             updateNewStateWithPassiveSkillSForP4Units();
             break;
     }

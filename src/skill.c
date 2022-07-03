@@ -7992,6 +7992,10 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"攻撃守備いかく２", "ターン開始時、周囲２マスの敵の攻撃、守備－４（１ターン）", "Threat. Atk/Def 2", "At start of turn, inflicts Atk/Def-4 on foes within 2 spaces for 1 turn."},
     {"攻撃守備いかく３", "ターン開始時、周囲２マス以内に敵がいる場合、自分の攻撃、守備＋５（１ターン）、かつ、周囲２マス以内の敵の攻撃、守備－５（１ターン）", "Threat. Atk/Def 3", "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Def+5 to unit for 1 turn and inflicts Atk/Def-5 on foes within 2 spaces for 1 turn."},
     {"攻守のきょうかく", "ターン開始時、周囲４マス以内に敵がいる時、最も近い敵の攻撃、守備－６（１ターン）、かつ、自身の攻撃、守備＋６（１ターン）", "Atk/Def Menace", "At start of turn, if unit is within 4 spaces of a foe, inflicts Atk/Def-6 on nearest foes for 1 turn and grants Atk/Def+6 to unit for 1 turn."},
+    {"じん雷風烈ぐう数１", "偶数ターン開始時、自身のＨＰが全部なら、移動＋１（１ターン、重複しない）", "Even Tempest 1", "At start of even-numbered turns, if unit's HP=100%, unit can move 1 extra space. (That turn only. Does not stack.)"},
+    {"じん雷風烈ぐう数２", "偶数ターン開始時、自身のＨＰが半分以上なら、移動＋１（１ターン、重複しない）", "Even Tempest 2", "At start of even-numbered turns, if unit's HP>=50%, unit can move 1 extra space. (That turn only. Does not stack.)"},
+    {"じん雷風烈ぐう数３", "偶数ターン開始時、自身のＨＰが４分の１以上なら、移動＋１（１ターン、重複しない）", "Even Tempest 3", "At start of even-numbered turns, if unit's HP>=25%, unit can move 1 extra space. (That turn only. Does not stack.)"},
+    {"じん雷風烈ぐう数４", "偶数ターン開始時、移動＋１（１ターン、重複しない）", "Even Tempest 4", "At start of even-numbered turns, unit can move 1 extra space. (That turn only. Does not stack.)"},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -8023,6 +8027,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_PLUMERIA_ID] = {PASSIVE_SKILL_C_ATK_RES_REIN_1, PASSIVE_SKILL_C_ATK_RES_REIN_2, PASSIVE_SKILL_C_ATK_RES_REIN_3, PASSIVE_SKILL_C_ATK_RES_REIN_4},
     [CHARACTER_TRIANDRA_ID] = {PASSIVE_SKILL_C_SPD_RES_REIN_1, PASSIVE_SKILL_C_SPD_RES_REIN_2, PASSIVE_SKILL_C_SPD_RES_REIN_3, PASSIVE_SKILL_C_SPD_RES_REIN_4},
     [CHARACTER_OTR_ID] = {PASSIVE_SKILL_C_THREATEN_DEF_1, PASSIVE_SKILL_C_THREAT_ATK_DEF_1, PASSIVE_SKILL_C_THREAT_ATK_DEF_2, PASSIVE_SKILL_C_ATK_DEF_MENACE},
+    [CHARACTER_DAGR_ID] = {PASSIVE_SKILL_C_EVEN_TEMPEST_1, PASSIVE_SKILL_C_EVEN_TEMPEST_2, PASSIVE_SKILL_C_EVEN_TEMPEST_3, PASSIVE_SKILL_C_EVEN_TEMPEST_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)
