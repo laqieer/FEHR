@@ -48,7 +48,7 @@ const struct Character characters[] = {
 
 {TEXT_CHARACTER_NAME_FREYJA, TEXT_CHARACTER_HELP_FREYJA, 14, JOB_ID_WOLF, 0x10d, 0, Dark, 13, 1, 15, 9, 9, 10, 4, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 55, 65, 70, 75, 45, 35, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[20], 7} ,  // 0x0E Rebecca -> Freyja
 
-{TEXT_CHARACTER_NAME_FJORM, TEXT_CHARACTER_HELP_FJORM, 15, 5, 0x140, 0, Water, 14, 1, 16, 7, 7, 6, 7, 7, 16, 0, 0, 1, 0, 0, 0, 0, 0, 0, 50, 50, 50, 55, 50, 60, 50, 0, 0x7b, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[7], 11} ,  // 0x0F Louise -> Fjorm
+{TEXT_CHARACTER_NAME_FJORM, TEXT_CHARACTER_HELP_FJORM, 15, 5, PORTRAIT_ID_FJORM, 0, Water, 14, 1, 16, 7, 7, 6, 7, 7, 16, 0, 0, 1, 0, 0, 0, 0, 0, 0, 50, 50, 50, 55, 50, 60, 50, 0, 0x7b, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[7], 11} ,  // 0x0F Louise -> Fjorm
 
 {1266, 448, 16, 28, 61, 0, 6, 15, 3, 0, 6, 5, 8, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 31, 0, 55, 60, 50, 40, 10, 60, 20, 63, 26, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148244768, 12} ,  // 0x10 Lucius
 
@@ -82,7 +82,7 @@ const struct Character characters[] = {
 
 {TEXT_CHARACTER_NAME_PLUMERIA, TEXT_CHARACTER_HELP_PLUMERIA, 31, JOB_ID_MAGIC_FALCON, 0x11e, 0, Dark, 30, 1, 16, 7, 5, 4, 2, 3, 4, 2, 0, 0, 0, 0, 0, 0, 0, WPN_EXP_B, 50, 70, 40, 30, 30, 70, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[22], 8} ,  // 0x1F Farina -> Plumeria
 
-{TEXT_CHARACTER_NAME_DAGR, TEXT_CHARACTER_HELP_DAGR, CHARACTER_DAGR_ID, JOB_ID_WARRIOR, PORTRAIT_ID_DAGR_BG, 0, Light, 31, 1, 19, 9, 5, 11, 8, 6, 7, 3, 0, 0, WPN_EXP_A, 0, 0, 0, 0, 0, 50, 70, 50, 70, 50, 45, 20, 0, 0x80, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x20 Heath -> Dagr
+{TEXT_CHARACTER_NAME_DAGR, TEXT_CHARACTER_HELP_DAGR, CHARACTER_DAGR_ID, JOB_ID_WARRIOR, PORTRAIT_ID_DAGR, 0, Light, 31, 1, 19, 9, 5, 11, 8, 6, 7, 3, 0, 0, WPN_EXP_A, 0, 0, 0, 0, 0, 50, 70, 50, 70, 50, 45, 20, 0, 0x80, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x20 Heath -> Dagr
 
 {1283, 465, 33, 55, 55, 0, 1, 32, 9, 19, 12, 12, 6, 12, 4, 11, 2, 181, 181, 0, 0, 0, 0, 0, 0, 60, 45, 25, 40, 25, 15, 30, 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148245176, 9} ,  // 0x21 Vaida
 

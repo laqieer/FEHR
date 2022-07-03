@@ -22,10 +22,9 @@
 #include "portrait_Marks_tileset.h"
 #include "portrait_Veronica_Normal_mini.h"
 #include "portrait_Veronica_Normal_tileset.h"
+#include "portrait_Fjorm_bg.h"
 #include "portrait_Fjorm_mini.h"
 #include "portrait_Fjorm_tileset.h"
-#include "portrait_Fjorm_bg_mini.h"
-#include "portrait_Fjorm_bg_tileset.h"
 #include "portrait_Surtr_mini.h"
 #include "portrait_Surtr_tileset.h"
 #include "portrait_Loki_mini.h"
@@ -80,14 +79,12 @@
 #include "portrait_Fafnir_tileset.h"
 #include "portrait_Eitri_mini.h"
 #include "portrait_Eitri_tileset.h"
+#include "portrait_Dagr_bg.h"
 #include "portrait_Dagr_mini.h"
 #include "portrait_Dagr_tileset.h"
+#include "portrait_Nott_bg.h"
 #include "portrait_Nott_mini.h"
 #include "portrait_Nott_tileset.h"
-#include "portrait_Dagr_bg_mini.h"
-#include "portrait_Dagr_bg_tileset.h"
-#include "portrait_Nott_bg_mini.h"
-#include "portrait_Nott_bg_tileset.h"
 #include "portrait_Ash_mini.h"
 #include "portrait_Ash_tileset.h"
 #include "portrait_Veronica_Stain_mini.h"
@@ -2038,10 +2035,9 @@ DEFINE_PORTRAIT_SPECIAL(Letizia)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Otr)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Fafnir)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eitri)
-DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Dagr)
-DEFINE_PORTRAIT_SPECIAL(Nott)
-DEFINE_PORTRAIT_BG(Dagr)
-DEFINE_PORTRAIT_BG(Nott)
+DEFINE_PORTRAIT_WITH_BG(Dagr)
+DEFINE_PORTRAIT_WITH_BG(Nott)
+DEFINE_PORTRAIT_WITH_BG(Fjorm)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Ash)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Veronica_Stain)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Elm)
@@ -2057,26 +2053,6 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_M_2)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_M_3)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Avatar_M_4)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Takumi)
-
-const Portrait portraitFjorm = {
-    portrait_Fjorm_tilesetTiles,
-    portrait_Fjorm_miniTiles,
-    portrait_Fjorm_tilesetPal,
-    portrait_Fjorm_obj,
-    0,
-    0,
-    0
-};
-
-const Portrait portraitFjormBG = {
-    portrait_Fjorm_bg_tilesetTiles,
-    portrait_Fjorm_bg_miniTiles,
-    portrait_Fjorm_bg_tilesetPal,
-    portrait_standard_bg_obj,
-    0,
-    portrait_standard_bg,
-    0
-};
 
 const Portrait portraitLaevatain = {
     portrait_Laevatain_tilesetTiles,
@@ -2106,7 +2082,7 @@ const Portrait* const portraits[] = {
     [0x104] = &portraitBruno_Masked,
     [0x105] = &portraitVeronica_Normal,
     [0x107] = &portraitEir,
-    [0x109] = &portraitFjorm,
+    [PORTRAIT_ID_FJORM] = &portraitFjorm,
     [0x10A] = &portraitCerise,
     [0x10B] = &portraitHelbindi,
     [0x10C] = &portraitFreeze,
@@ -2152,9 +2128,6 @@ const Portrait* const portraits[] = {
     [CLASSCARD_REVENANT] = &classcardRevenant, // 0x137
     [CLASSCARD_WOLF] = &classcardWolf, // 0x138
     [CLASSCARD_GREAT_KNIGHT] = &classcardGreatKnight, // 0x139
-    [0x140] = &portraitFjormBG,
-    [PORTRAIT_ID_DAGR_BG] = &portraitDagrBG,
-    [PORTRAIT_ID_NOTT_BG] = &portraitNottBG,
     [PORTRAIT_ID_AVATAR_F_1] = &portraitAvatar_F_1,
     [PORTRAIT_ID_AVATAR_F_2] = &portraitAvatar_F_2,
     [PORTRAIT_ID_AVATAR_F_3] = &portraitAvatar_F_3,
