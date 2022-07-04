@@ -73,7 +73,7 @@ TCC_OPEN_LEFT
 "は。。。はい。。。！　お任せください！" TCC_NEWLINE
 "必ずや奴らを殲滅してご覧にいれます。" TCC_NEWLINE
 "私たちの未来のために。。。！" TCC_NEWLINE TCC_PUSH_A
-""
+TCC_CLEAR_FACE
 TCC_OPEN_RIGHT
 "。。。ふん。行ったか。" TCC_NEWLINE
 "さあとっとと歩け、召喚師。" TCC_NEWLINE TCC_PUSH_A
@@ -83,8 +83,7 @@ TCC_OPEN_RIGHT
 "この国も兄さんに" TCC_NEWLINE
 "支配された方が幸せだろう。" TCC_NEWLINE
 "せいぜい姉妹同士で殺し合うがいいさ。。。" TCC_NEWLINE TCC_PUSH_A
-""
-TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
+TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_BEGIN_S5053] = TCC_OPEN_LEFT 
 "この世界でも戦わなきゃいけないの？" TCC_NEWLINE
 "うわあ、面倒だなあ。" TCC_NEWLINE TCC_PUSH_A
