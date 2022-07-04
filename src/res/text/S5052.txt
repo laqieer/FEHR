@@ -1,7 +1,7 @@
 // Converted by ./ConvertText.py
 
 [MID_SCENARIO_MAP_BEGIN_S5052] = TCC_OPEN_LEFT 
-"私はイングリット＝ブランドル＝ガラテア。" TCC_NEWLINE
+"私はイングリット・ブランドル・ガラテア。" TCC_NEWLINE
 "よろしくお願いします。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
