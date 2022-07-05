@@ -285,6 +285,7 @@ enum PassiveSkillBID {
     PASSIVE_SKILL_B_FLOW_REFRESH_3,
     PASSIVE_SKILL_B_FLOW_REFRESH_4,
     PASSIVE_SKILL_B_SUN_TWIN_WING, // 双姫の陽翼
+    PASSIVE_SKILL_B_MOON_TWIN_WING, // 双姫の月翼
 };
 
 enum PassiveSkillCID {

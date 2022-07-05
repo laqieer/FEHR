@@ -3244,12 +3244,18 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
             case PASSIVE_SKILL_B_SHIELD_PULSE_3:
                 gBattleStats.damage -= 5;
                 if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
-                    gBattleStats.damage -= 5 * 2;
+                    gBattleStats.damage -= 5 * 3;
                 break;
             case PASSIVE_SKILL_B_SHIELD_PULSE_4:
                 gBattleStats.damage -= 10;
                 if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
-                    gBattleStats.damage -= 10 * 2;
+                    gBattleStats.damage -= 10 * 3;
+                break;
+            case PASSIVE_SKILL_B_MOON_TWIN_WING:
+                if(defender->hpInitial * 4 < defender->unit.maxHp)
+                    break;
+                if(defender->battleSpeed > attacker->battleSpeed)
+                    gBattleStats.damage *= min(0.4, 0.04 * (defender->battleSpeed -  attacker->battleSpeed));
                 break;
             default:
                 break;
@@ -6158,9 +6164,15 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
         case PASSIVE_SKILL_B_SUN_TWIN_WING:
             if(defender->hpInitial * 4 < defender->unit.maxHp)
                 break;
-            attacker->battleAttack -= 5;
+            attacker->battleSpeed -= 5;
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 5;
+            break;
+        case PASSIVE_SKILL_B_MOON_TWIN_WING:
+            if(defender->hpInitial * 4 < defender->unit.maxHp)
+                break;
+            attacker->battleAttack -= 5;
+            attacker->battleSpeed -= 5;
             break;
         default:
             break;
@@ -7834,6 +7846,7 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"ì{Ç∆Ç§ÅEçƒãNÇR", "é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨íÜÅAé©ï™ÇÃí«åÇïsâ¬Çñ≥å¯ÅAÇ©Ç¬ÅAêÌì¨å„ÅAÇgÇoÇPÇOâÒïú", "Flow Refresh 3", "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 10 HP to unit after combat."},
     {"ì{Ç∆Ç§ÅEçƒãNÇS", "é©ï™Ç©ÇÁçUåÇÇµÇΩéûÅAêÌì¨íÜÅAé©ï™ÇÃí«åÇïsâ¬Çñ≥å¯ÅAÇ©Ç¬ÅAêÌì¨å„ÅAÇgÇoÇPÇTâÒïú", "Flow Refresh 4", "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 15 HP to unit after combat."},
     {"ëoïPÇÃózóÉ", "êÌì¨äJénéûÅAé©êgÇÃÇgÇoÇ™ÇSï™ÇÃÇPà»è„Ç»ÇÁÅAêÌì¨íÜÅAìGÇÃë¨Ç≥ÅAéÁîıÅ|ÇTÅAÇ©Ç¬ÅAìGÇÃê‚ëŒí«åÇÇñ≥å¯ÅAé©ï™ÇÃí«åÇïsâ¬Çñ≥å¯", "Sun-Twin Wing", "At start of combat, if unit's HP >= 25%, inflicts Spd/Def-5 on foe and also neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat."},
+    {"ëoïPÇÃåéóÉ", "êÌì¨äJénéûÅAé©êgÇÃÇgÇoÇ™ÇSï™ÇÃÇPà»è„Ç»ÇÁÅAêÌì¨íÜÅAìGÇÃçUåÇÅAë¨Ç≥Å|ÇTÅAÇ©Ç¬ÅAë¨Ç≥Ç™ìGÇÊÇËçÇÇ¢éûÅAéÛÇØÇΩÉ_ÉÅÅ[ÉWÇë¨Ç≥ÇÃç∑ÇÊÇËåyå∏Åiç≈ëÂÇSäÑÅj", "Moon-Twin Wing", "At start of combat, if unit's HP ? 25%, inflicts Atk/Spd-5 on foe during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R?kkr area-of-effect Specials) by percentage = difference between stats Å~ 4 (max 40%)."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -7861,6 +7874,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_REGHIN_ID] = {PASSIVE_SKILL_B_LULL_SPD_DEF_1, PASSIVE_SKILL_B_LULL_SPD_DEF_2, PASSIVE_SKILL_B_LULL_SPD_DEF_3, PASSIVE_SKILL_B_LULL_SPD_DEF_4},
     [CHARACTER_OTR_ID] = {PASSIVE_SKILL_B_FLOW_REFRESH_1, PASSIVE_SKILL_B_FLOW_REFRESH_2, PASSIVE_SKILL_B_FLOW_REFRESH_3, PASSIVE_SKILL_B_FLOW_REFRESH_4},
     [CHARACTER_DAGR_ID] = {PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING},
+    [CHARACTER_NOTT_ID] = {PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
