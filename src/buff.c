@@ -1355,6 +1355,34 @@ void updateNewStateWithPassiveSkillA(struct Unit *skillUnits, int skillUnitNumbe
                                 addUnitDebuffDefense(&targetUnits[j], -6);
                             }
                             break;
+                        case PASSIVE_SKILL_C_THREAT_ATK_SPD_1:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -3);
+                                addUnitDebuffSpeed(&targetUnits[j], -3);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_THREAT_ATK_SPD_2:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -4);
+                                addUnitDebuffSpeed(&targetUnits[j], -4);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_THREAT_ATK_SPD_3:
+                            if(getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) <= 2)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -5);
+                                addUnitDebuffSpeed(&targetUnits[j], -5);
+                            }
+                            break;
+                        case PASSIVE_SKILL_C_ATK_SPD_MENACE:
+                            if(minDis > 0 && minDis <= 4 && getDistanceBetweenTwoUnits(&skillUnits[i], &targetUnits[j]) == minDis)
+                            {
+                                addUnitDebuffPower(&targetUnits[j], -6);
+                                addUnitDebuffSpeed(&targetUnits[j], -6);
+                            }
+                            break;
                         default:
                             break;
                     }
