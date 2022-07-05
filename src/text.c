@@ -2549,6 +2549,10 @@ const char* const texts[] = {
 
        [TEXT_CHARACTER_HELP_GENERIC_JOTUNHEIMR] = "巨人族の国ヨトゥンの兵士",
 
+       [TEXT_CHARACTER_NAME_NOTT] = "ノート",
+
+       [TEXT_CHARACTER_HELP_NOTT] = "ヨトゥン王国の第一王女。ダグの双子の姉。優雅で美しいものを好む。",
+
        [TEXT_SUPPORT_AVATAR_TAKUMI]= TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_TAKUMI
                "。。。" TCC_NEWLINE TCC_PUSH_A
