@@ -80,7 +80,7 @@ TCC_OPEN_LEFT
 ""
 TCC_OPEN_RIGHT
 "頭悪くていいよ！" TCC_NEWLINE
-"変な男に惚れてもいい！" TCC_NEWLINE
+"変な男にほれてもいい！" TCC_NEWLINE
 "女王の座も姉ちゃんにあげる！！" TCC_NEWLINE TCC_PUSH_A
 "だからお願い、死なないで！！" TCC_NEWLINE
 "姉ちゃんがいないとあたし、" TCC_NEWLINE

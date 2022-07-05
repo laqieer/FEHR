@@ -50,7 +50,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 "ご機嫌いかがかな？" TCC_NEWLINE TCC_PUSH_A
 ""
 "。。。ふふ、そんな顔で睨まないでくれよ。" TCC_NEWLINE
-"私は別に君たちを騙したわけじゃない。" TCC_NEWLINE
+"私は別に君たちをだましたわけじゃない。" TCC_NEWLINE
 "黙っていただけさ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_OTR

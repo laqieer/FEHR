@@ -13,7 +13,7 @@
 TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_MAP_END_S0505] = TCC_OPEN_LEFT 
 "すまなかった、アルフォンス王子。。。" TCC_NEWLINE
-"どうやら俺たちは騙されていたらしい。" TCC_NEWLINE TCC_PUSH_A
+"どうやら俺たちはだまされていたらしい。" TCC_NEWLINE TCC_PUSH_A
 "侵略者はエンブラ帝国軍のほうで、" TCC_NEWLINE
 "特務機関は俺たちを" TCC_NEWLINE
 "助けに来てくれたんだな。" TCC_NEWLINE TCC_PUSH_A

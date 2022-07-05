@@ -54,19 +54,19 @@ TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_NOTT
 ""
 TCC_OPEN_RIGHT
 "。。。やっぱり！　あのバカ姉貴" TCC_NEWLINE
-"また男に騙されてやがる！" TCC_NEWLINE TCC_PUSH_A
+"また男にだまされてやがる！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE  TCC_LOAD_FACE PORTRAIT_ANNA
 "え？　どういうこと？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "ノートは顔のいい男に弱くて" TCC_NEWLINE
-"びょうで惚れちゃうんだよっ！" TCC_NEWLINE TCC_PUSH_A
+"びょうでほれちゃうんだよっ！" TCC_NEWLINE TCC_PUSH_A
 "しかもあいつ、" TCC_NEWLINE
 "ニザヴェリルの王子だろ！？" TCC_NEWLINE TCC_PUSH_A
 ""
 "おいバカ姉貴！" TCC_NEWLINE
-"あんた明らかに騙されてっぞ！" TCC_NEWLINE
+"あんた明らかにだまされてっぞ！" TCC_NEWLINE
 "やめとけって！！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT
@@ -104,7 +104,7 @@ TCC_OPEN_LEFT
 "そりゃ普段なら勝てねーよ。" TCC_NEWLINE TCC_PUSH_A
 ""
 "でも、男にメロメロで" TCC_NEWLINE
-"騙されてんのにも気づかない" TCC_NEWLINE
+"だまされてんのにも気づかない" TCC_NEWLINE
 "今のあんたになら余裕で勝てんじゃん？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT

@@ -35,7 +35,7 @@ TCC_OPEN_MID_LEFT
 "怒ってらっしゃらないの。。。？" TCC_NEWLINE TCC_PUSH_A
 ""
 "あなたは。。。本当にお優しい方ですのね。" TCC_NEWLINE
-"それに引きかえ私は上辺にすぐ騙されて。。。" TCC_NEWLINE
+"それに引きかえ私は上辺にすぐだまされて。。。" TCC_NEWLINE
 "自分が恥ずかしいですわ。" TCC_NEWLINE TCC_PUSH_A
 ""
 "" TCC_TACTICIAN_NAME "様。。。" TCC_NEWLINE
