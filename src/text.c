@@ -2951,6 +2951,22 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
+       [TEXT_SUPPORT_DAGR_NOTT] = 
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE
+                    PORTRAIT_DAGR
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE
+                    PORTRAIT_NOTT
+                    "あ、素敵！" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                    "バカ姉貴、また男にメロメロ。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
 #include "texts.txt"
 };
 

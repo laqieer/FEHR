@@ -169,6 +169,18 @@ const struct SupportData supportDataTable[] = {
         {3},
         1
     },
+    { // 27 Dagr
+        {CHARACTER_NOTT_ID},
+        {72},
+        {3},
+        1
+    },
+    { // 28 Nott
+        {CHARACTER_DAGR_ID},
+        {72},
+        {3},
+        1
+    },
     { // End of list
         {0},
         {0},
@@ -432,6 +444,14 @@ const struct SupportConversation supportConversations[] = {
         TEXT_SUPPORT_TRIANDRA_PEONY,
         TEXT_SUPPORT_TRIANDRA_PEONY,
         TEXT_SUPPORT_TRIANDRA_PEONY,
+        0
+    },
+    {
+        CHARACTER_DAGR_ID,
+        CHARACTER_NOTT_ID,
+        TEXT_SUPPORT_DAGR_NOTT,
+        TEXT_SUPPORT_DAGR_NOTT,
+        TEXT_SUPPORT_DAGR_NOTT,
         0
     },
     { // End of list
