@@ -8,7 +8,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":24,
+ "tilecount":25,
  "tiledversion":"1.9.0",
  "tileheight":24,
  "tiles":[
@@ -154,6 +154,12 @@
          "id":23,
          "image":"player_units\/Warrior.png",
          "imageheight":21,
+         "imagewidth":16
+        }, 
+        {
+         "id":24,
+         "image":"player_units\/Halberdier.png",
+         "imageheight":16,
          "imagewidth":16
         }],
  "tilewidth":16,
