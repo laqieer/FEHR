@@ -49,7 +49,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 "やあ、また会ったね召喚師どの。" TCC_NEWLINE
 "ご機嫌いかがかな？" TCC_NEWLINE TCC_PUSH_A
 ""
-"。。。ふふ、そんな顔で睨まないでくれよ。" TCC_NEWLINE
+"。。。ふふ、そんな顔でにらまないでくれよ。" TCC_NEWLINE
 "私は別に君たちをだましたわけじゃない。" TCC_NEWLINE
 "黙っていただけさ。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -105,7 +105,7 @@ TCC_OPEN_LEFT
 "調べさせてもらおう。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
-"ああ、それでいい。あのうるさい蠅ども、" TCC_NEWLINE
+"ああ、それでいい。あのうるさいハエども、" TCC_NEWLINE
 "今度こそ叩き潰してやる。。。！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
