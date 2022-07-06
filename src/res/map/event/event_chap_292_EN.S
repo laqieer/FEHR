@@ -63,7 +63,7 @@ AllyUnitsENM:
 EnemyUnitsENM:
 	UNIT(Nott,Halberdier,0,30,SIDE_ENEMY,1,5,2,5,2,23,0,0,0,0,0,0,0) // Nott
 	UNIT(GenericJotunheimrWeak,SteamDragon,0,30,SIDE_ENEMY,1,4,2,4,2,183,0,0,0,0,0,0,0) // Red Fafnir
-	UNIT(GenericSummonedDrop,General,0,30,SIDE_ENEMY,1,8,6,8,6,34,0,0,0,0,0,0,0) // Dedue
+	UNIT(GenericSummonedDrop,General,0,30,SIDE_ENEMY,1,8,6,8,6,36,0,0,0,0,0,0,0) // Dedue
 	UNIT(GenericSummoned,Sage_F,0,30,SIDE_ENEMY,1,10,2,10,2,59,0,0,0,0,0,0,0) // Marianne
 	END_UNIT
 NPCUnits:

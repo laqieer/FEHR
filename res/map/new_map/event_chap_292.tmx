@@ -60,7 +60,7 @@
      <properties>
       <property name="AutoLevel" type="bool" value="true"/>
       <property name="Character" propertytype="Character" value="GenericSummonedDrop"/>
-      <property name="Equip" propertytype="Item" value="PoisonAxe"/>
+      <property name="Equip" propertytype="Item" value="KillerAxe"/>
       <property name="Level" type="int" propertytype="Level" value="30"/>
      </properties>
     </property>
