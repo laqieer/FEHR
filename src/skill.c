@@ -9233,9 +9233,17 @@ const short AffinitySpellAnimations[] = {
 
 short getDefaultSpellAnimationID(struct BattleUnit* bu)
 {
-    if(bu->weaponType == Axe)
-        return 1; // Throwing Axe
-    return AffinitySpellAnimations[bu->unit.character->affinity];
+    switch(bu->weaponType)
+    {
+        case Axe:
+            return 1; // Throwing Axe
+        case Bow:
+            return 2; // Arrow
+        case Lance:
+            return 3; // Javelin
+        default:
+            return AffinitySpellAnimations[bu->unit.character->affinity];
+    }
 }
 
 s8 InitializeBattleDataBeforeAnimation()
