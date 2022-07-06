@@ -121,6 +121,14 @@ void BattlePassiveSkillSEffect(struct BattleUnit* attacker, struct BattleUnit* d
                     attacker->nonZeroDamage = 0;
             }
             break;
+        case PASSIVE_SKILL_B_MOON_TWIN_WING:
+            if(defender->hpInitial * 4 >= defender->unit.maxHp && defender->battleSpeed > attacker->battleSpeed)
+            {
+                gBattleStats.damage *= max(1 - 0.4, 1 - 0.04 * (defender->battleSpeed -  attacker->battleSpeed));
+                if(gBattleStats.damage == 0)
+                    attacker->nonZeroDamage = 0;
+            }
+            break;
         default:
             break;
     }
@@ -3244,18 +3252,12 @@ void BattleGenerateHitSpecialSkill(struct BattleUnit* attacker, struct BattleUni
             case PASSIVE_SKILL_B_SHIELD_PULSE_3:
                 gBattleStats.damage -= 5;
                 if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
-                    gBattleStats.damage -= 5 * 3;
+                    gBattleStats.damage -= 5 * 2;
                 break;
             case PASSIVE_SKILL_B_SHIELD_PULSE_4:
                 gBattleStats.damage -= 10;
                 if(gBattleHitIterator->attributes & BATTLE_HIT_ATTR_CRIT)
-                    gBattleStats.damage -= 10 * 3;
-                break;
-            case PASSIVE_SKILL_B_MOON_TWIN_WING:
-                if(defender->hpInitial * 4 < defender->unit.maxHp)
-                    break;
-                if(defender->battleSpeed > attacker->battleSpeed)
-                    gBattleStats.damage *= min(0.4, 0.04 * (defender->battleSpeed -  attacker->battleSpeed));
+                    gBattleStats.damage -= 10 * 2;
                 break;
             default:
                 break;
