@@ -15,7 +15,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 include(devkitPro)
 include(grit)
 
-file(GLOB_RECURSE DIR_SRCS src/*.h src/*.inc src/*.c src/*.s src/*.S src/res/text/*.txt)
+file(GLOB_RECURSE DIR_SRCS src/*.h src/*.inc src/*.c src/*.s src/*.S src/res/text/S????.txt)
 set_source_files_properties(src/dummy.c PROPERTIES OBJECT_DEPENDS ${CMAKE_SOURCE_DIR}/linkerscript)
 
 process_gfx(GFX_SRCS font.grit title_screen_book_1.grit title_screen_book_2.grit title_screen_book_3.grit title_screen_book_4.grit title_screen_book_5.grit title_screen_book_6.grit stat_screen_page_name_skill.grit special_skill_icon.grit skill_page_icons_1.grit skill_page_icons_2.grit item_icons.grit trophy.grit standing_sprite_Alfonse.grit moving_sprite_Alfonse.grit standing_sprite_Anna.grit moving_sprite_Anna.grit standing_sprite_Sharena.grit moving_sprite_Sharena.grit standing_sprite_MageKnight.grit moving_sprite_MageKnight.grit portrait_Lord_classcard.grit classcard_MageKnight.grit classcard_Halberdier.grit chapter_opening_background.grit option_menu_icons.grit standing_sprite_Halberdier.grit moving_sprite_Halberdier.grit

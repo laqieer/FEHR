@@ -615,6 +615,8 @@ const u8 ** const events[] = {
         //[0x100 + 244 + 1] = event_chap_233,
 };
 
+#ifdef SUPPORT_ENGLISH
+
 extern const u8 * const event_chap_246_EN[];
 extern const u8 * const event_chap_245_EN[];
 extern const u8 * const event_chap_244_EN[];
@@ -1181,6 +1183,8 @@ const u8 ** const events_EN[] = {
         //[0x100 + 244 + 1] = event_chap_233_EN,
 };
 
+#endif
+
 const u8 *** const pEvents = events;
 
 char getCurrentGameLanguage();
@@ -1212,8 +1216,10 @@ u8 ** GetChapterEventDataPointerForMultiLanguage(u32 chapterId)
     switch(getCurrentGameLanguage())
     {
         case LANGUAGE_EN:
+#ifdef SUPPORT_ENGLISH
             if(events_EN[eventId])
                 return events_EN[eventId];
+#endif
         case LANGUAGE_JP:
         default:
             return events[eventId];
