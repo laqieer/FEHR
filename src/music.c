@@ -113,6 +113,8 @@ extern const u8 musicFEPoRBittersweetVictory[];
 extern const u8 musicFEPoRDreamingOfHome[];
 extern const u8 musicFEPoRHisFathersSon[];
 extern const u8 musicFEPoRMemoryOfMom[];
+extern const u8 musicFEAwakeningConquest[];
+extern const u8 musicFEAwakeningDuty[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1646,6 +1648,8 @@ const struct Song songs[] = {
         [MUSIC_FE_H_FREYJA] = {musicFEHFreyja, 1, 1},
         [MUSIC_FE4_MAP_5] = {musicFE4Chap5, 1, 1},
         [MUSIC_FE4_MAP_7] = {musicFE4Chap7, 1, 1},
+        [MUSIC_FE_AWAKENING_CONQUEST] = {musicFEAwakeningConquest, 1, 1},
+        [MUSIC_FE_AWAKENING_DUTY] = {musicFEAwakeningDuty, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1816,6 +1820,8 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE6_MAP_TRIAL, MUSIC_LENGTH(2, 2), 0, "「ＦＥ外伝プレイヤーマップより」"},
     {MUSIC_FE6_MAP_ALLIED, MUSIC_LENGTH(1, 23), 0, "むすばれた約束（ロイの友情）"},
     {MUSIC_FE_3R_HOLY_WAR, MUSIC_LENGTH(2, 23), 0, "聖戦（紋章の謎より）"},
+    {MUSIC_FE_AWAKENING_DUTY, MUSIC_LENGTH(3, 20), 0, "使命"},
+    {MUSIC_FE_AWAKENING_CONQUEST, MUSIC_LENGTH(2, 6), 0, "遠征"},
     {MUSIC_FE_AWAKENING_CHAOS, MUSIC_LENGTH(5, 8), 0, "混沌"},
     {MUSIC_FE_AWAKENING_AND_WHAT_IF, MUSIC_LENGTH(3, 48), 0, "俺にそんな力が資格があると思うのか"},
     {MUSIC_FE_AWAKENING_ID_DILEMMA, MUSIC_LENGTH(2, 42), 0, "悩"},
