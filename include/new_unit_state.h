@@ -89,7 +89,6 @@ s8 IsUnitArmour(struct Unit* unit);
 s8 IsUnitKnight(struct Unit* unit);
 s8 IsUnitFlier(struct Unit* unit);
 s8 IsUnitInfantry(struct Unit* unit);
-s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target);
 s8 IsUnitMagic(struct Unit* unit);
 s8 IsUnitUndead(struct Unit* unit);
 
