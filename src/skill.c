@@ -9189,12 +9189,12 @@ void SetBattleUnitWeapon(struct BattleUnit* bu, int itemSlot) {
             } // switch (GetItemIndex(bu->weapon))
         } // if (bu->weaponAttributes & IA_MAGICDAMAGE)
 
-        if (checkUnitStateCounterattacksDisrupted(&bu->unit)) {
+        if (checkUnitStateCounterattacksDisrupted(&bu->unit) || bu->weaponSlotIndex == 0xFF) {
             bu->weapon = 0;
             bu->canCounter = 0;
         }
 
-        if (!IsItemCoveringRange(bu->weapon, gBattleStats.range) || bu->weaponSlotIndex == 0xFF) {
+        if (!IsItemCoveringRange(bu->weapon, gBattleStats.range)) {
             if (bu == &gBattleActor || !((getUnitPassiveSkillA(&bu->unit) == PASSIVE_SKILL_A_DISTANT_COUNTER && gBattleStats.range > 1) || (getUnitPassiveSkillA(&bu->unit) == PASSIVE_SKILL_A_CLOSE_COUNTER && gBattleStats.range == 1))) {
                 bu->weapon = 0;
                 bu->canCounter = 0;
