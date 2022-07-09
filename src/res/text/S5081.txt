@@ -90,7 +90,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "そんなことはできない。" TCC_NEWLINE
 "異界の人たちを" TCC_NEWLINE
-"お前の脅威に晒す訳にはいかない！" TCC_NEWLINE TCC_PUSH_A
+"お前の脅威にさらす訳にはいかない！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
 "生意気なガキが。。。！" TCC_NEWLINE

@@ -998,6 +998,9 @@ extern const u8 S5074Pal[];
 extern const u8 S5075Tiles[];
 extern const u8 S5075_cfg[];
 extern const u8 S5075Pal[];
+extern const u8 S5081Tiles[];
+extern const u8 S5081_cfg[];
+extern const u8 S5081Pal[];
 
 const u8 * const maps[] = {
         map_chap_pre,
@@ -1396,6 +1399,7 @@ const u8 * const tilesetImgs[] = {
     S5073Tiles,
     S5074Tiles,
     S5075Tiles,
+    S5081Tiles,
 
     //[0x100 + 244 + 1] = S4074Tiles,
 };
@@ -1705,6 +1709,7 @@ const u8 * const tilesetCfgs[] = {
     S5073_cfg,
     S5074_cfg,
     S5075_cfg,
+    S5081_cfg,
 
     //[0x100 + 244 + 1] = S4074_cfg,
 };
@@ -2014,6 +2019,7 @@ const u8 * const tilesetPals[] = {
     S5073Pal,
     S5074Pal,
     S5075Pal,
+    S5081Pal,
 
     //[0x100 + 244 + 1] = S4074Pal,
 };

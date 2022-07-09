@@ -50,7 +50,7 @@ TCC_OPEN_LEFT
 "。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
-"君の要求をのめば、僕の身が危険に晒される。" TCC_NEWLINE
+"君の要求をのめば、僕の身が危険にさらされる。" TCC_NEWLINE
 "断れば、他人は犠牲になっても僕は安全だ。" TCC_NEWLINE TCC_PUSH_A
 "どちらを選ぶかは決まっている。" TCC_NEWLINE
 "君は交渉をしているつもりらしいけれど。。。" TCC_NEWLINE
