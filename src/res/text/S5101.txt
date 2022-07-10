@@ -2,8 +2,8 @@
 
 [MID_SCENARIO_OPENING_S5101] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_FAFNIR
 "行け！　グリンブルスティ！！" TCC_NEWLINE
-"鉄の蹄で民も草木も踏み荒らし" TCC_NEWLINE
-"大地の肥やしにしてやるがいい！！" TCC_NEWLINE TCC_PUSH_A
+"鉄のひづめで民も草木も踏み荒らし" TCC_NEWLINE
+"大地のこやしにしてやるがいい！！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_OTR
 "女子供であっても容赦するなよ。" TCC_NEWLINE

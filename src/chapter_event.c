@@ -319,6 +319,7 @@ extern const u8 * const event_chap_309[];
 extern const u8 * const event_chap_310[];
 extern const u8 * const event_chap_311[];
 extern const u8 * const event_chap_312[];
+extern const u8 * const event_chap_313[];
 
 const u8 ** const events[] = {
         NULL,
@@ -635,6 +636,7 @@ const u8 ** const events[] = {
         event_chap_310,
         event_chap_311,
         event_chap_312,
+        event_chap_313,
 
         //[0x100 + 244 + 1] = event_chap_233,
 };
