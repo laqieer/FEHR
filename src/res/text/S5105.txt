@@ -89,7 +89,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_LEFT
 "これは驚いた。" TCC_NEWLINE
 "自力でそこまでたどり着いたのか。" TCC_NEWLINE
-"やはりあなたは只者じゃないな。" TCC_NEWLINE TCC_PUSH_A
+"やはりあなたはただものじゃないな。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "。。。貴様。。。っ。。。！" TCC_NEWLINE TCC_PUSH_A

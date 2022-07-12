@@ -25,7 +25,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE ,
 [MID_SCENARIO_ENDING_S6052] = TCC_OPEN_LEFT  TCC_LOAD_FACE PORTRAIT_ASH
 "えー、それでは。。。" TCC_NEWLINE
 "私、大変緊張しておりますが、" TCC_NEWLINE
-"只今より始めさせていただきます。" TCC_NEWLINE TCC_PUSH_A
+"ただいまより始めさせていただきます。" TCC_NEWLINE TCC_PUSH_A
 ""
 "我が魂は安息のため。。。" TCC_NEWLINE
 "我が肉は人々のため。。。" TCC_NEWLINE TCC_PUSH_A
