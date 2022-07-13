@@ -375,6 +375,12 @@ const char* const texts[] = {
                "誰だ。。。？" TCC_NEWLINE TCC_PUSH_A
                TCC_CLEAR_FACE,
 
+        [TEXT_DEATH_QUOTE_FAFNIR2] = TCC_OPEN_FAR_RIGHT
+               TCC_LOAD_FACE PORTRAIT_FAFNIR2
+               "アァ。。。" TCC_NEWLINE
+               "ア。。。" TCC_NEWLINE TCC_PUSH_A
+               TCC_CLEAR_FACE,
+
         [TEXT_DEATH_QUOTE_EITRI] = TCC_OPEN_FAR_RIGHT
                TCC_LOAD_FACE PORTRAIT_EITRI
                "困ったな。。。" TCC_NEWLINE

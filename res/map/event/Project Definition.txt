@@ -55,6 +55,7 @@
 #define Letizia Marcus
 #define Otr Legault
 #define Fafnir Rath_t
+#define Fafnir2 Jaffar
 #define Eitri Wil
 #define Dagr Heath
 #define Nott Vaida

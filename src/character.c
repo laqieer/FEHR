@@ -90,7 +90,7 @@ const struct Character characters[] = {
 
 {TEXT_CHARACTER_NAME_TAKUMI, TEXT_CHARACTER_HELP_TAKUMI, CHARACTER_ID_TAKUMI, JOB_ID_SNIPER, PORTRAIT_ID_TAKUMI, 0, Wind, 34, 1, 10, 4, 5, 3, 2, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 50, 55, 70, 60, 45, 30, 40, 0, 0x7F, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[25], 2} ,  // 0x23 Matthew -> Takumi
 
-{1286, 469, 36, 62, 33, 0, 4, 35, 13, 18, 16, 24, 15, 13, 11, 10, 2, 181, 0, 0, 0, 0, 0, 0, 0, 65, 15, 40, 35, 30, 30, 20, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148245248, 6} ,  // 0x24 Jaffar
+{TEXT_CHARACTER_NAME_FAFNIR, TEXT_CHARACTER_HELP_FAFNIR, CHARACTER_FAFNIR2_ID, JOB_ID_STEAM_DRAGON, PORTRAIT_ID_FAFNIR2, 0, Dark, 35, 1, 18, 10, 8, 12, 11, 7, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 60, 65, 50, 70, 55, 55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6} ,  // // 0x24 Jaffar -> Fafnir2
 
 {TEXT_CHARACTER_NAME_PEONY, TEXT_CHARACTER_HELP_PEONY, 37, JOB_ID_FALCOKNIGHT, 0x112, 0, Light, 36, 1, 15, 4, 6, 7, 2, 4, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 65, 30, 45, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[19], 12} ,  // 0x25 Ninian -> Peony
 

@@ -42,7 +42,7 @@ BeginningScene:
 	LOU1 AllyUnitsENM
 	ENUN
 	UpdateSpecialSkillCD
-	MUSC MUSIC_FE_H_SERIOUS_6
+	MUSC MUSIC_FE_H_SERIOUS_6B
 	TEX1 MID_SCENARIO_MAP_BEGIN_S5111
 	REMA
 	ENDA
@@ -57,7 +57,7 @@ AllyUnitsENM:
 	UNIT_ALLY_JOINED(Reginn,SteamKnight,Anna,5,19,5,19)
 	END_UNIT
 EnemyUnitsENM:
-	UNIT(Fafnir,SteamDragon,0,30,SIDE_ENEMY,1,5,3,5,3,183,0,0,0,0,32,0,0) // Fafnir
+	UNIT(Fafnir2,SteamDragon,0,30,SIDE_ENEMY,1,5,3,5,3,183,0,0,0,0,32,0,0) // Fafnir2
 	UNIT(GenericSummonedStrongDrop,Warrior,0,30,SIDE_ENEMY,1,0,7,0,7,89,0,0,0,0,0,0,0) // Balthus
 	UNIT(GenericNioavellirStrong,General,0,30,SIDE_ENEMY,1,6,3,6,3,4,0,0,0,0,0,0,0) // Sword Knight
 	UNIT(GenericNioavellirStrong,NomadTrooper,0,30,SIDE_ENEMY,1,11,0,11,0,46,0,0,0,0,0,0,0) // Bow Cavalier

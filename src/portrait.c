@@ -77,6 +77,8 @@
 #include "portrait_Otr_tileset.h"
 #include "portrait_Fafnir_mini.h"
 #include "portrait_Fafnir_tileset.h"
+#include "portrait_Fafnir2_mini.h"
+#include "portrait_Fafnir2_tileset.h"
 #include "portrait_Eitri_mini.h"
 #include "portrait_Eitri_tileset.h"
 #include "portrait_Dagr_bg.h"
@@ -279,6 +281,31 @@ const u16 portrait_Fafnir_obj[] = {
     PORTRAIT_BLOCK_R(Fafnir, 64, 32, 0, 64, 18, 0),
     PORTRAIT_BLOCK_R(Fafnir, 32, 32, 64, 64, 26, 0),
     PORTRAIT_BLOCK_R(Fafnir, 16, 32, 96, 64, 30, 0),
+};
+
+#define portrait_Fafnir2_width 112
+#define portrait_Fafnir2_height 96
+const u16 portrait_Fafnir2_obj[] = {
+    9,
+    PORTRAIT_BLOCK(Fafnir2, 8, 8, 96, 24, 0, 1),
+    PORTRAIT_BLOCK(Fafnir2, 8, 16, 0, 80, 1, 0),
+    PORTRAIT_BLOCK(Fafnir2, 16, 16, 32, 16, 0, 2),
+    PORTRAIT_BLOCK(Fafnir2, 32, 32, 48, 0, 2, 0),
+    PORTRAIT_BLOCK(Fafnir2, 16, 32, 80, 0, 6, 0),
+    PORTRAIT_BLOCK(Fafnir2, 64, 32, 24, 32, 8, 0),
+    PORTRAIT_BLOCK(Fafnir2, 32, 32, 80, 32, 15, 0),
+    PORTRAIT_BLOCK(Fafnir2, 64, 32, 8, 64, 19, 0),
+    PORTRAIT_BLOCK(Fafnir2, 64, 32, 48, 64, 24, 0),
+    9,
+    PORTRAIT_BLOCK_R(Fafnir2, 8, 8, 96, 24, 0, 1),
+    PORTRAIT_BLOCK_R(Fafnir2, 8, 16, 0, 80, 1, 0),
+    PORTRAIT_BLOCK_R(Fafnir2, 16, 16, 32, 16, 0, 2),
+    PORTRAIT_BLOCK_R(Fafnir2, 32, 32, 48, 0, 2, 0),
+    PORTRAIT_BLOCK_R(Fafnir2, 16, 32, 80, 0, 6, 0),
+    PORTRAIT_BLOCK_R(Fafnir2, 64, 32, 24, 32, 8, 0),
+    PORTRAIT_BLOCK_R(Fafnir2, 32, 32, 80, 32, 15, 0),
+    PORTRAIT_BLOCK_R(Fafnir2, 64, 32, 8, 64, 19, 0),
+    PORTRAIT_BLOCK_R(Fafnir2, 64, 32, 48, 64, 24, 0),
 };
 
 #define portrait_Eitri_width 112
@@ -1106,6 +1133,19 @@ const u16 portrait_Fafnir_bg[] = {
     0, 0, 0, 32 * 2, 1 + 32 * 2, 2 + 32 * 2, 3 + 32 * 2, 4 + 32 * 2, 5 + 32 * 2, 0,
     0, 0, 0, 32, 1 + 32, 2 + 32, 3 + 32, 4 + 32, 5 + 32, 0,
     0, 0, 0, 0, 1, 2, 3, 4, 5, 0,
+};
+
+const u16 portrait_Fafnir2_bg[] = {
+    0x809,
+    TILE_ID(21, 0), TILE_ID(22, 0), TILE_ID(23, 0), TILE_ID(24, 0), TILE_ID(25, 0), TILE_ID(26, 0), TILE_ID(27, 0), TILE_ID(28, 0), TILE_ID(29, 0), TILE_ID(30, 0),
+    TILE_ID(8, 3), TILE_ID(9, 3), TILE_ID(10, 3), TILE_ID(11, 3), TILE_ID(12, 3), TILE_ID(13, 3), TILE_ID(14, 3), TILE_ID(15, 3), TILE_ID(16, 3), TILE_ID(17, 3),
+    TILE_ID(8, 2), TILE_ID(9, 2), TILE_ID(10, 2), TILE_ID(11, 2), TILE_ID(12, 2), TILE_ID(13, 2), TILE_ID(14, 2), TILE_ID(15, 2), TILE_ID(16, 2), TILE_ID(17, 2),
+    TILE_ID(8, 1), TILE_ID(9, 1), TILE_ID(10, 1), TILE_ID(11, 1), TILE_ID(12, 1), TILE_ID(13, 1), TILE_ID(14, 1), TILE_ID(15, 1), TILE_ID(16, 1), TILE_ID(17, 1),
+    TILE_ID(8, 0), TILE_ID(9, 0), TILE_ID(10, 0), TILE_ID(11, 0), TILE_ID(12, 0), TILE_ID(13, 0), TILE_ID(14, 0), TILE_ID(15, 0), TILE_ID(16, 0), TILE_ID(17, 0),
+    0, TILE_ID(0, 3), TILE_ID(1, 3), TILE_ID(2, 3), TILE_ID(3, 3), TILE_ID(4, 3), TILE_ID(5, 3), TILE_ID(6, 3), TILE_ID(7, 3), TILE_ID(0, 1),
+    0, TILE_ID(0, 2), TILE_ID(1, 2), TILE_ID(2, 2), TILE_ID(3, 2), TILE_ID(4, 2), TILE_ID(5, 2), TILE_ID(6, 2), TILE_ID(7, 2), 0,
+    0, 0, 0, TILE_ID(2, 1), TILE_ID(3, 1), TILE_ID(4, 1), TILE_ID(5, 1), TILE_ID(6, 1), TILE_ID(7, 1), 0,
+    0, 0, 0, TILE_ID(2, 0), TILE_ID(3, 0), TILE_ID(4, 0), TILE_ID(5, 0), TILE_ID(6, 0), TILE_ID(7, 0), 0,
 };
 
 const u16 portrait_Letizia_mask[] = {
@@ -2034,6 +2074,7 @@ DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Reghin)
 DEFINE_PORTRAIT_SPECIAL(Letizia)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Otr)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Fafnir)
+DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Fafnir2)
 DEFINE_PORTRAIT_SPECIAL_WITHOUT_MASK(Eitri)
 DEFINE_PORTRAIT_WITH_BG(Dagr)
 DEFINE_PORTRAIT_WITH_BG(Nott)
@@ -2112,6 +2153,7 @@ const Portrait* const portraits[] = {
     [PORTRAIT_ID_LETIZIA] = &portraitLetizia,
     [PORTRAIT_ID_OTR] = &portraitOtr,
     [PORTRAIT_ID_FAFNIR] = &portraitFafnir,
+    [PORTRAIT_ID_FAFNIR2] = &portraitFafnir2,
     [PORTRAIT_ID_EITRI] = &portraitEitri,
     [PORTRAIT_ID_DAGR] = &portraitDagr,
     [PORTRAIT_ID_NOTT] = &portraitNott,

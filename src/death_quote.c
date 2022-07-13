@@ -70,6 +70,7 @@ const struct DeathQuote deathQuotes[] = {
         {CHARACTER_LETIZIA_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_LETIZIA, 0, 0},
         {CHARACTER_OTR_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_OTR, 0, 0},
         {CHARACTER_FAFNIR_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_FAFNIR, 0, 0},
+        {CHARACTER_FAFNIR2_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_FAFNIR2, 0, 0},
         {CHARACTER_EITRI_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_EITRI, 0, 0},
         {CHARACTER_DAGR_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_DAGR, 0, 0},
         {CHARACTER_NOTT_ID, AnyChapter, 0, TEXT_DEATH_QUOTE_NOTT, 0, 0},

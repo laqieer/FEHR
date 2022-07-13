@@ -31,7 +31,7 @@
   <object id="1" name="Reginn" gid="322" x="80.4317" y="321.533" width="15" height="20"/>
  </objectgroup>
  <objectgroup id="3" name="Enemy">
-  <object id="2" name="Fafnir" gid="414" x="80.352" y="67.7599" width="16" height="25">
+  <object id="2" name="Fafnir2" gid="414" x="80.352" y="67.7599" width="16" height="25">
    <properties>
     <property name="Unit" type="class" propertytype="Unit">
      <properties>
