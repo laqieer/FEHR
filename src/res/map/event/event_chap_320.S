@@ -48,6 +48,7 @@ EndingScene:
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Avatar,Summoner,Anna,7,19,7,19)
+	UNIT_ALLY_JOINED(Freyja,Wolf,Anna,8,19,8,19)
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSummonedStrong,MagicFalcoKnight,0,30,SIDE_ENEMY,1,6,0,6,0,73,0,0,0,0,0,3,0) // Constance
