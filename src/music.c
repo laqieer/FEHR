@@ -115,6 +115,11 @@ extern const u8 musicFEPoRHisFathersSon[];
 extern const u8 musicFEPoRMemoryOfMom[];
 extern const u8 musicFEAwakeningConquest[];
 extern const u8 musicFEAwakeningDuty[];
+extern const u8 musicFEThreeHouseBlueSkiesAndBattle[];
+extern const u8 musicFEThreeHouseBrokenRoutine[];
+extern const u8 musicFEThreeHouseChasingDaybreak[];
+extern const u8 musicFEThreeHouseIndomitableWill[];
+extern const u8 musicFEThreeHouseTheShackledWolves[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1650,6 +1655,11 @@ const struct Song songs[] = {
         [MUSIC_FE4_MAP_7] = {musicFE4Chap7, 1, 1},
         [MUSIC_FE_AWAKENING_CONQUEST] = {musicFEAwakeningConquest, 1, 1},
         [MUSIC_FE_AWAKENING_DUTY] = {musicFEAwakeningDuty, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_BLUE_SKIES_AND_A_BATTLE] = {musicFEThreeHouseBlueSkiesAndBattle, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_BROKEN_ROUTINE] = {musicFEThreeHouseBrokenRoutine, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_CHASING_DAYBREAK] = {musicFEThreeHouseChasingDaybreak, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_INDOMITABLE_WILL] = {musicFEThreeHouseIndomitableWill, 1, 1},
+        [MUSIC_FE_THREE_HOUSE_THE_SHACKLED_WOLVES] = {musicFEThreeHouseTheShackledWolves, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1882,6 +1892,11 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_H_FREYJA, MUSIC_LENGTH(2, 1), 0, "ÉtÉåÉCÉÑ"},
     {MUSIC_FE_H_AETHER_RAIDS, MUSIC_LENGTH(3, 57), 0, "îÚãÛèÈ"},
     {MUSIC_FE_H_ROKKR_SIEGE, MUSIC_LENGTH(3, 4), 0, "ãêâeì¢ñ≈êÌ"},
+    {MUSIC_FE_THREE_HOUSE_BLUE_SKIES_AND_A_BATTLE, MUSIC_LENGTH(5, 42), 0, "òhéÇéqÇΩÇøÇÃëìãÛ"},
+    {MUSIC_FE_THREE_HOUSE_BROKEN_ROUTINE, MUSIC_LENGTH(4, 43), 0, "âÛÇ≥ÇÍÇΩì˙èÌ"},
+    {MUSIC_FE_THREE_HOUSE_CHASING_DAYBREAK, MUSIC_LENGTH(4, 23), 0, "ñÏñ]ÇÃínïΩ"},
+    {MUSIC_FE_THREE_HOUSE_INDOMITABLE_WILL, MUSIC_LENGTH(3, 45), 0, "ä—Ç≠à”éu"},
+    {MUSIC_FE_THREE_HOUSE_THE_SHACKLED_WOLVES, MUSIC_LENGTH(2, 55), 0, "ÉnÉNÉTÇÃåQòT"},
 
     // End of table
     {-1, 0,                                              0, 0},
