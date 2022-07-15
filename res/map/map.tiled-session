@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_321.tmx",
+    "activeFile": "new_map/event_chap_323.tmx",
     "expandedProjectPaths": [
         "new_map"
     ],
@@ -340,6 +340,11 @@
             "scaleInEditor": 2
         },
         "new_map/S5115.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/S5121.tsx": {
+            "scaleInDock": 1,
             "scaleInEditor": 2
         },
         "new_map/event_chap_126.json": {
@@ -971,6 +976,22 @@
                 "y": 160.60888920801324
             }
         },
+        "new_map/event_chap_322.tmx": {
+            "scale": 2.1760937499999997,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 120.39922452789547,
+                "y": 160.60888920801324
+            }
+        },
+        "new_map/event_chap_323.tmx": {
+            "scale": 2.1760937499999997,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 120.39922452789547,
+                "y": 160.14935018309762
+            }
+        },
         "new_map/event_chap_85.json": {
             "expandedObjectLayers": [
                 4
@@ -993,11 +1014,14 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_321.tmx"
+        "new_map/event_chap_323.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_323.tmx",
+        "new_map/S5121.tsx",
+        "new_map/event_chap_322.tmx",
         "new_map/event_chap_321.tmx",
         "new_map/S5115.tsx",
         "new_map/event_chap_320.tmx",
@@ -1006,10 +1030,7 @@
         "new_map/S5113.tsx",
         "new_map/event_chap_318.tmx",
         "new_map/S5112.tsx",
-        "new_map/event_chap_317.tmx",
-        "new_map/S5111.tsx",
-        "new_map/S5105.tsx",
-        "new_map/event_chap_316.tmx"
+        "new_map/event_chap_317.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
