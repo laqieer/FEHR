@@ -118,3 +118,7 @@
     .rodata.WarriorFemaleBow : {*(.rodata.WarriorFemaleBow)}
     . = 0x8E00008 + 0x20 * 0xdd;
     .rodata.WarriorFemaleDisarmed : {*(.rodata.WarriorFemaleDisarmed)}
+    . = 0x8E00008 + 0x20 * 0xde;
+    .rodata.WitchMagic : {*(.rodata.WitchMagic)}
+    . = 0x8E00008 + 0x20 * 0xdf;
+    .rodata.WitchStaff : {*(.rodata.WitchStaff)}

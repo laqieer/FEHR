@@ -96,6 +96,7 @@ cd build && make
 |Shaman|Staff|Temp|
 |Dracozombie|Dragonstone|Marlon0027, Orihara_Saki|
 |Warrior Female|Axe, HandAxe, Bow|Temp|
+|Witch|Magic, Staff|Aruka|
 
 ### Item Icon
 
