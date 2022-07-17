@@ -13,6 +13,7 @@ extern u8 * const character_palette_MyUnit_lz[];
 extern u8 * const character_palette_Takumi_lz[];
 extern u8 * const character_palette_Dagr_lz[];
 extern u8 * const character_palette_Nott_lz[];
+extern u8 * const character_palette_Eitri_lz[];
 
 const struct CharacterPalette characterPalettes[] = {
     {"lin", 150835200} ,  // 0x01 Lyn unpromoted
@@ -272,6 +273,8 @@ const struct CharacterPalette characterPalettes[] = {
     {"Dagr", character_palette_Dagr_lz}, // 0x80 Dagr
 
     {"Nott", character_palette_Nott_lz}, // 0x81 Nott
+
+    {"Eitri", character_palette_Eitri_lz}, // 0x82 Eitri
 };
 
 const struct CharacterPalette * const pCharacterPalettes1 = characterPalettes;
