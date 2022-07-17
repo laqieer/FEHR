@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="10">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="12">
  <editorsettings>
   <export target="../../../src/res/map/event/event_chap_329.S" format="Fire Emblem (GBA) Event"/>
  </editorsettings>
@@ -32,6 +32,8 @@
  </layer>
  <objectgroup id="2" name="Player">
   <object id="1" name="Avatar" gid="321" x="128.185" y="320.487" width="12" height="16"/>
+  <object id="10" name="Plumeria" gid="315" x="144.567" y="324.027" width="16" height="23"/>
+  <object id="11" name="Hel" gid="312" x="112.399" y="322.108" width="16" height="21"/>
  </objectgroup>
  <objectgroup id="3" name="Enemy">
   <object id="2" name="Eitri" gid="416" x="224.986" y="17.2717" width="16" height="18">

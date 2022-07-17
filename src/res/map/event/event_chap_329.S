@@ -57,6 +57,8 @@ EndingScene:
 	ENDA
 AllyUnitsENM:
 	UNIT_ALLY_JOINED(Avatar,Summoner,Anna,8,19,8,19)
+	UNIT_ALLY_JOINED(Plumeria,MagicFalcoKnight,Anna,9,19,9,19)
+	UNIT_ALLY_JOINED(Hel,WyvernLord_F,Anna,7,19,7,19)
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(Eitri,Witch,0,30,SIDE_ENEMY,1,14,0,14,0,61,0,0,0,0,0,0,0) // Eitri
