@@ -8,7 +8,7 @@ else
 	CKB2WAV = $(VOICE)/CKBtoWav.exe
 endif
 
-SAMPLE_RATE = 21024
+SAMPLE_RATE = 10512
 
 lib = lib/libse.a
 header = include/se.h

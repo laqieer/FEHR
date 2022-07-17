@@ -6,7 +6,7 @@ else
 	CKB2WAV = ./CKBtoWav.exe
 endif
 
-SAMPLE_RATE = 10512
+SAMPLE_RATE = 7884
 
 lib = lib/libvoice.a
 header = include/voice.h
