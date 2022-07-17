@@ -8,7 +8,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":25,
+ "tilecount":26,
  "tiledversion":"1.9.0",
  "tileheight":24,
  "tiles":[
@@ -160,6 +160,12 @@
          "id":24,
          "image":"player_units\/Halberdier.png",
          "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":25,
+         "image":"player_units\/YouthfulSage.png",
+         "imageheight":18,
          "imagewidth":16
         }],
  "tilewidth":16,

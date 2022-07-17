@@ -166,6 +166,8 @@
 #define SteamKnight GreatKnight
 #define Dracozombie 114
 #define SteamDragon Dracozombie
+#define Witch 115
+#define YouthfulSage Witch
 
 // Items
 #define HeavyLance HeavySpear

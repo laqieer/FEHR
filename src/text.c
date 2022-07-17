@@ -518,6 +518,14 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_HELP_GENERIC_NIOAVELLIR] = "小人族の国ニザヴェリルの兵士",
 
+        [TEXT_CHARACTER_NAME_EITRI] = "エイトリ",
+
+        [TEXT_CHARACTER_HELP_EITRI] = "ニザヴェリル王国の学者。幼いながらその優れた頭脳で賢者と呼ばれている。",
+
+        [TEXT_JOB_NAME_YOUTHFUL_SAGE] = "幼き賢者",
+
+        [TEXT_JOB_HELP_YOUTHFUL_SAGE] = "幼いながら知を究めた魔道士"TCC_NEWLINE"あらゆる魔法と杖を知る",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
