@@ -47,13 +47,13 @@ EndingScene:
 	MoveToChapter(331)
 	ENDA
 AllyUnitsENM:
-	UNIT(Gustaf,Paladin,0,1,SIDE_ALLY,1,4,19,4,19,1,0,0,0,0,0,0,0) // Gustaf
+	UNIT(Gustaf,Paladin,0,1,SIDE_ALLY,1,4,19,4,19,33,0,0,0,0,0,0,0) // Gustaf
 	END_UNIT
 EnemyUnitsENM:
 	UNIT(GenericSummonedWeak,NomadTrooper_F,0,5,SIDE_ENEMY,1,14,4,14,4,50,0,0,0,0,0,3,0) // Astrid
-	UNIT(GenericNioavellirWeak,SteamKnight,0,5,SIDE_ENEMY,1,8,4,8,4,3,0,0,0,0,0,3,0) // Steam Sword
+	UNIT(GenericNioavellirWeak,SteamKnight,0,5,SIDE_ENEMY,1,8,4,8,4,18,0,0,0,0,0,3,0) // Steam Sword
 	UNIT(GenericNioavellirWeak,Sage,0,5,SIDE_ENEMY,1,3,4,3,4,62,0,0,0,0,0,3,0) // Blue Mage
-	UNIT(GenericNioavellirWeak,Bishop_F,0,5,SIDE_ENEMY,1,14,8,14,8,74,0,0,0,14,32,3,0) // Cleric	
+	UNIT(GenericNioavellirWeak,Bishop_F,0,5,SIDE_ENEMY,1,14,8,14,8,74,0,0,0,14,32,3,0) // Cleric
 	UNIT(GenericNioavellirWeak,WyvernLord,0,5,SIDE_ENEMY,1,5,0,5,0,44,0,0,0,0,0,3,0) // Bow Flier
 	END_UNIT
 NPCUnits:

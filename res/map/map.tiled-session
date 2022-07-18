@@ -5,8 +5,8 @@
     },
     "activeFile": "new_map/event_chap_330.tmx",
     "expandedProjectPaths": [
-        "new_map",
-        "event/unit"
+        "event/unit",
+        "new_map"
     ],
     "file.lastUsedOpenFilter": "全部文件 (*)",
     "fileStates": {
@@ -1075,7 +1075,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 120.39922452789547,
-                "y": 160.14935018309762
+                "y": 160.60888920801324
             }
         },
         "new_map/event_chap_85.json": {

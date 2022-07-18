@@ -34,7 +34,7 @@
     <property name="Unit" type="class" propertytype="Unit">
      <properties>
       <property name="AutoLevel" type="bool" value="true"/>
-      <property name="Equip" propertytype="Item" value="IronSword"/>
+      <property name="Equip" propertytype="Item" value="SilverAxe"/>
       <property name="Level" type="int" propertytype="Level" value="1"/>
      </properties>
     </property>
@@ -60,7 +60,7 @@
       <property name="AI3" propertytype="AI3" value="CautiousRecovery"/>
       <property name="AutoLevel" type="bool" value="true"/>
       <property name="Character" propertytype="Character" value="GenericNioavellirWeak"/>
-      <property name="Equip" propertytype="Item" value="SteelSword"/>
+      <property name="Equip" propertytype="Item" value="Lancereaver"/>
       <property name="Level" type="int" propertytype="Level" value="5"/>
      </properties>
     </property>
@@ -79,7 +79,7 @@
     </property>
    </properties>
   </object>
-  <object id="7" name="Cleric&#9;" gid="335" x="224" y="145" width="15" height="16">
+  <object id="7" name="Cleric" gid="335" x="224" y="145" width="15" height="16">
    <properties>
     <property name="Unit" type="class" propertytype="Unit">
      <properties>
