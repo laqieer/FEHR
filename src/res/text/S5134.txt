@@ -28,8 +28,8 @@ TCC_OPEN_RIGHT
 ""
 TCC_OPEN_LEFT
 "このニザヴェリルの偉大な建国王さ。" TCC_NEWLINE TCC_PUSH_A
-"その武勇は地の果てまで轟き" TCC_NEWLINE
-"その叡智はあまねく民を照らす。" TCC_NEWLINE
+"その武勇は地の果てまでとどろき" TCC_NEWLINE
+"そのえいちはあまねく民を照らす。" TCC_NEWLINE
 "すばらしい人だった。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA

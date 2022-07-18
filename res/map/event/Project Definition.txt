@@ -39,6 +39,7 @@
 #define Hell Bartre
 #define Hel Hell
 #define Gustaf Oswin
+#define Gustav Gustaf
 #define Mirabilis Florina
 #define Scabiosa Fiora
 #define Triandra Scabiosa
