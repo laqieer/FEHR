@@ -20,11 +20,15 @@ enum GBAEmulator {EMU_NONE = 0, EMU_MGBA, EMU_NOCASH, EMU_VBAM, EMU_VBA, EMU_RET
 
 #ifdef EMULATOR
 #define Debugf(fmt, ...) \
-    debugprintf("File %s, Line %d, Function %s: ", __FILE__, __LINE__, __func__); \
-    debugprintf(fmt, __VA_ARGS__)
+    { \
+      debugprintf("File %s, Line %d, Function %s: ", __FILE__, __LINE__, __func__); \
+      debugprintf(fmt, __VA_ARGS__); \
+    }
 #define Debug(str) \
-    debugprintf("File %s, Line %d, Function %s: ", __FILE__, __LINE__, __func__); \
-    debugprintf(str)
+    { \
+      debugprintf("File %s, Line %d, Function %s: ", __FILE__, __LINE__, __func__); \
+      debugprintf(str); \
+    }
 #else
 #define Debugf(fmt, ...) 
 #define Debug(str) 

@@ -4506,18 +4506,18 @@ void PassiveSkillEffectAfterBattle(struct BattleUnit* attacker, struct BattleUni
 
 void OtherEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if(attacker == &gBattleActor && attacker->unit.job->id == JOB_ID_STEAM_KNIGHT)
+    if(!checkUnitStateNoMoveAgain(&gBattleActor.unit) && gBattleActor.unit.job->id == JOB_ID_STEAM_KNIGHT)
     {
-        setUnitStateMoveAgain(&attacker->unit);
-        setUnitStateNoMoveAgain(&attacker->unit);
-        attacker->unit.state |= UNIT_STATE_CANTOING | UNIT_STATE_CANTOING_AI;
+        setUnitStateMoveAgain(&gBattleActor.unit);
+        setUnitStateNoMoveAgain(&gBattleActor.unit);
+        gBattleActor.unit.state |= UNIT_STATE_CANTOING | UNIT_STATE_CANTOING_AI;
     }
-    if(attacker == &gBattleActor && getUnitPassiveSkillB(&attacker->unit) >= PASSIVE_SKILL_B_A_D_NEAR_TRACE_1 && getUnitPassiveSkillB(&attacker->unit) <= PASSIVE_SKILL_B_A_D_NEAR_TRACE_4)
+    if(!checkUnitStateNoMoveAgain(&gBattleActor.unit) && getUnitPassiveSkillB(&gBattleActor.unit) >= PASSIVE_SKILL_B_A_D_NEAR_TRACE_1 && getUnitPassiveSkillB(&gBattleActor.unit) <= PASSIVE_SKILL_B_A_D_NEAR_TRACE_4)
     {
-        setUnitStateMoveAgain(&attacker->unit);
-        setUnitStateNoMoveAgain(&attacker->unit);
-        attacker->unit.state |= UNIT_STATE_CANTOING | UNIT_STATE_CANTOING_AI;
-        setUnitStateMobilityIncreased(&attacker->unit);
+        setUnitStateMoveAgain(&gBattleActor.unit);
+        setUnitStateNoMoveAgain(&gBattleActor.unit);
+        gBattleActor.unit.state |= UNIT_STATE_CANTOING | UNIT_STATE_CANTOING_AI;
+        setUnitStateMobilityIncreased(&gBattleActor.unit);
     }
 }
 
@@ -8298,6 +8298,8 @@ void BattleGetBattleUnitOrder(struct BattleUnit** outAttacker, struct BattleUnit
     *outAttacker = &gBattleActor;
     *outDefender = &gBattleTarget;
 
+    Debugf("actor side: %d, target side: %d", gBattleActor.unit.side, gBattleTarget.unit.side);
+
     if(getUnitPassiveSkillS(&gBattleTarget.unit) == PASSIVE_SKILL_S_HARDY_BEARING || getUnitPassiveSkillS(&gBattleActor.unit) == PASSIVE_SKILL_S_HARDY_BEARING)
         return;
 
@@ -8331,6 +8333,9 @@ void BattleGetBattleUnitOrder(struct BattleUnit** outAttacker, struct BattleUnit
         default:
             break;
     }
+
+    if(*outAttacker == &gBattleTarget)
+        Debug("swap actor & target");
 }
 
 __attribute__ ((optimize(2)))

@@ -118,6 +118,7 @@ void clearPositiveStateForAllPlayerUnits()
         pUnitPositiveState->dragonShield = 0;
         pUnitPositiveState->svalinnShield = 0;
         pUnitPositiveState->harshed = 0;
+        pUnitPositiveState->moveAgain = 0;
     }
 }
 
@@ -135,6 +136,7 @@ void clearNegativeStateForAllPlayerUnits()
         pUnitNegativeState->triangleAdept = 0;
         pUnitNegativeState->guard = 0;
         pUnitNegativeState->isolation = 0;
+        pUnitNegativeState->noMoveAgain = 0;
     }
 }
 
@@ -153,6 +155,7 @@ void clearPositiveStateForAllEnemyUnits()
         pUnitPositiveState->dragonShield = 0;
         pUnitPositiveState->svalinnShield = 0;
         pUnitPositiveState->harshed = 0;
+        pUnitPositiveState->moveAgain = 0;
     }
 }
 
@@ -170,6 +173,7 @@ void clearNegativeStateForAllEnemyUnits()
         pUnitNegativeState->triangleAdept = 0;
         pUnitNegativeState->guard = 0;
         pUnitNegativeState->isolation = 0;
+        pUnitNegativeState->noMoveAgain = 0;
     }
 }
 
@@ -188,6 +192,7 @@ void clearPositiveStateForAllNPCUnits()
         pUnitPositiveState->dragonShield = 0;
         pUnitPositiveState->svalinnShield = 0;
         pUnitPositiveState->harshed = 0;
+        pUnitPositiveState->moveAgain = 0;
     }
 }
 
@@ -205,6 +210,7 @@ void clearNegativeStateForAllNPCUnits()
         pUnitNegativeState->triangleAdept = 0;
         pUnitNegativeState->guard = 0;
         pUnitNegativeState->isolation = 0;
+        pUnitNegativeState->noMoveAgain = 0;
     }
 }
 
@@ -223,6 +229,7 @@ void clearPositiveStateForAllP4Units()
         pUnitPositiveState->dragonShield = 0;
         pUnitPositiveState->svalinnShield = 0;
         pUnitPositiveState->harshed = 0;
+        pUnitPositiveState->moveAgain = 0;
     }
 }
 
@@ -240,6 +247,7 @@ void clearNegativeStateForAllP4Units()
         pUnitNegativeState->triangleAdept = 0;
         pUnitNegativeState->guard = 0;
         pUnitNegativeState->isolation = 0;
+        pUnitNegativeState->noMoveAgain = 0;
     }
 }
 
@@ -381,17 +389,17 @@ void clearUnitStateMoveAgain(struct Unit *unit)
 
 int checkUnitStateNoMoveAgain(struct Unit *unit)
 {
-    return getUnitPositiveState(unit)->moveAgain;
+    return getUnitNegativeState(unit)->noMoveAgain;
 }
 
 void setUnitStateNoMoveAgain(struct Unit *unit)
 {
-    getUnitPositiveState(unit)->moveAgain = 1;
+    getUnitNegativeState(unit)->noMoveAgain = 1;
 }
 
 void clearUnitStateNoMoveAgain(struct Unit *unit)
 {
-    getUnitPositiveState(unit)->moveAgain = 0;
+    getUnitNegativeState(unit)->noMoveAgain = 0;
 }
 
 int checkUnitStateSvalinnShield(struct Unit *unit)
