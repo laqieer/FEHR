@@ -2699,7 +2699,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_SRASIR_ID] = SPECIAL_SKILL_MOONBOW,
         [CHARACTER_EIR_ID] = SPECIAL_SKILL_ICEBERG,
         [CHARACTER_HELL_ID] = SPECIAL_SKILL_GLIMMER,
-        [CHARACTER_GUSTAF_ID] = SPECIAL_SKILL_SOL,
+        [CHARACTER_GUSTAF_ID] = SPECIAL_SKILL_BONFIRE,
         [CHARACTER_HELL_ID] = SPECIAL_SKILL_MIRACLE,
         [CHARACTER_FREYJA_ID] = SPECIAL_SKILL_LUNA,
         [CHARACTER_ID_MYUNIT] = SPECIAL_SKILL_FIRE_EMBLEM,
@@ -4512,6 +4512,13 @@ void OtherEffectAfterBattle(struct BattleUnit* attacker, struct BattleUnit* defe
         setUnitStateNoMoveAgain(&attacker->unit);
         attacker->unit.state |= UNIT_STATE_CANTOING | UNIT_STATE_CANTOING_AI;
     }
+    if(attacker == &gBattleActor && getUnitPassiveSkillB(&attacker->unit) >= PASSIVE_SKILL_B_A_D_NEAR_TRACE_1 && getUnitPassiveSkillB(&attacker->unit) <= PASSIVE_SKILL_B_A_D_NEAR_TRACE_4)
+    {
+        setUnitStateMoveAgain(&attacker->unit);
+        setUnitStateNoMoveAgain(&attacker->unit);
+        attacker->unit.state |= UNIT_STATE_CANTOING | UNIT_STATE_CANTOING_AI;
+        setUnitStateMobilityIncreased(&attacker->unit);
+    }
 }
 
 void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender) {
@@ -4953,8 +4960,11 @@ void displayPositiveStateIcons()
     int x = 1;
     int y = 13;
 
-    drawIconInSkillPage(x, y, ICON_POSITIVE_STATE, 9);
-    x += 2;
+    if(isUnitBuffed(gStatScreen.unit))
+    {
+        drawIconInSkillPage(x, y, ICON_BUFF, 9);
+        x += 2;
+    }
 
     if(checkUnitStateMobilityIncreased(gStatScreen.unit))
     {
@@ -4998,8 +5008,11 @@ void displayNegativeStateIcons()
     int x = 1;
     int y = 15;
 
-    drawIconInSkillPage(x, y, ICON_NEGATIVE_STATE, 8);
-    x += 2;
+    if(isUnitDebuffed(gStatScreen.unit))
+    {
+        drawIconInSkillPage(x, y, ICON_DEBUFF, 8);
+        x += 2;
+    }
 
     if(checkUnitStateGravity(gStatScreen.unit))
     {
@@ -5926,6 +5939,44 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                     attacker->battleDefense += 7;
             }
             break;
+        case PASSIVE_SKILL_A_ATK_DEF_CATCH_1:
+            if(defender->hpInitial >= defender->unit.maxHp || checkUnitNegativeState(&defender->unit))
+            {
+                attacker->battleAttack += 3;
+                if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 3;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_DEF_CATCH_2:
+            if(defender->hpInitial >= defender->unit.maxHp || checkUnitNegativeState(&defender->unit))
+            {
+                attacker->battleAttack += 4;
+                if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 4;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_DEF_CATCH_3:
+            if(defender->hpInitial >= defender->unit.maxHp || checkUnitNegativeState(&defender->unit))
+            {
+                attacker->battleAttack += 5;
+                if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 5;
+            }
+            break;
+        case PASSIVE_SKILL_A_ATK_DEF_CATCH_4:
+            if(defender->hpInitial >= defender->unit.maxHp || checkUnitNegativeState(&defender->unit))
+            {
+                attacker->battleAttack += 7;
+                if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 7;
+            }
+            if(defender->hpInitial >= defender->unit.maxHp && checkUnitNegativeState(&defender->unit))
+            {
+                attacker->battleAttack += 2;
+                if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 2;
+            }
+            break;
         case PASSIVE_SKILL_A_BLAZING_PRINCESS_1:
             if(getUnitTotalBuffAllStats(&defender->unit) > 0)
             {
@@ -6226,6 +6277,26 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             attacker->battleAttack -= 4;
             attacker->battleSpeed -= 4;
             attacker->battleDefense -= 4;
+            break;
+        case PASSIVE_SKILL_B_A_D_NEAR_TRACE_1:
+            attacker->battleSpeed -= 1;
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 1;
+            break;
+        case PASSIVE_SKILL_B_A_D_NEAR_TRACE_2:
+            attacker->battleSpeed -= 2;
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 2;
+            break;
+        case PASSIVE_SKILL_B_A_D_NEAR_TRACE_3:
+            attacker->battleSpeed -= 3;
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 3;
+            break;
+        case PASSIVE_SKILL_B_A_D_NEAR_TRACE_4:
+            attacker->battleSpeed -= 4;
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 4;
             break;
         default:
             break;
@@ -7226,7 +7297,7 @@ void assistSkillSmiteEffect(struct Proc* proc, struct SelectTarget* target)
 // ˆêŠ…: ‘ÎÛ‚ªó‚¯‚Ä‚¢‚éã‰»‚ğ–³Œø‰»‚µA‹­‰»‚É•ÏŠ·‚·‚é
 int assistSkillHarshCommandCondition(struct Unit *unit)
 {
-    return !checkUnitStateHarshed(unit);
+    return !checkUnitStateHarshed(unit) && isUnitDebuffed(unit);
 }
 
 void assistSkillHarshCommandEffect(struct Proc* proc, struct SelectTarget* target)
@@ -7765,6 +7836,10 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"UŒ‚–‚–h‚ÌŒÇŒR‚Q", "üˆÍ‚Pƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚È‚¢Aí“¬’†AUŒ‚A–‚–h{‚S", "Atk/Res Solo 2", "If unit is not adjacent to an ally, grants Atk/Res+4 during combat."},
     {"UŒ‚–‚–h‚ÌŒÇŒR‚R", "üˆÍ‚Pƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚È‚¢Aí“¬’†AUŒ‚A–‚–h{‚U", "Atk/Res Solo 3", "If unit is not adjacent to an ally, grants Atk/Res+6 during combat."},
     {"UŒ‚–‚–h‚ÌŒÇŒR‚S", "üˆÍ‚Pƒ}ƒXˆÈ“à‚É–¡•û‚ª‚¢‚È‚¢Aí“¬’†AUŒ‚A–‚–h{‚V", "Atk/Res Solo 4", "If unit is not adjacent to an ally, grants Atk/Res+7 during combat."},
+    {"UŒ‚ç”õ‚Ì‹@æ‚P", "“G‚Ì‚g‚o‚ª‘S•”‚Åí“¬ŠJnA‚Ü‚½‚ÍA“G‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éAí“¬’†A©•ª‚ÌUŒ‚Aç”õ{‚R", "Atk/Def Catch 1", "At start of combat, if foe's HP = 100% or ifyPenaltyzis active on foe, grants Atk/Def+3 to unit during combat."},
+    {"UŒ‚ç”õ‚Ì‹@æ‚Q", "“G‚Ì‚g‚o‚ª‘S•”‚Åí“¬ŠJnA‚Ü‚½‚ÍA“G‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éAí“¬’†A©•ª‚ÌUŒ‚Aç”õ{‚S", "Atk/Def Catch 2", "At start of combat, if foe's HP = 100% or ifyPenaltyzis active on foe, grants Atk/Def+4 to unit during combat."},
+    {"UŒ‚ç”õ‚Ì‹@æ‚R", "“G‚Ì‚g‚o‚ª‘S•”‚Åí“¬ŠJnA‚Ü‚½‚ÍA“G‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éAí“¬’†A©•ª‚ÌUŒ‚Aç”õ{‚T", "Atk/Def Catch 3", "At start of combat, if foe's HP = 100% or ifyPenaltyzis active on foe, grants Atk/Def+5 to unit during combat."},
+    {"UŒ‚ç”õ‚Ì‹@æ‚S", "“G‚Ì‚g‚o‚ª‘S•”‚Åí“¬ŠJnA‚Ü‚½‚ÍA“G‚ªy•s—˜‚Èó‘ÔˆÙíz‚ğó‚¯‚Ä‚¢‚éAí“¬’†A©•ª‚ÌUŒ‚Aç”õ{‚VA‚©‚ÂA‚³‚ç‚É{‚Q", "Atk/Def Catch 4", "At start of combat, if foe's HP = 100% or ifyPenaltyzis active on foe, grants Atk/Def+7 to unit during combat. At start of combat, if foe's HP = 100% andyPenaltyzis active on foe, grants an additional Atk/Def+2 to unit during combat."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -7799,6 +7874,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_DAGR_ID] = {PASSIVE_SKILL_A_ATK_SPD_PUSH_1, PASSIVE_SKILL_A_ATK_SPD_PUSH_2, PASSIVE_SKILL_A_ATK_SPD_PUSH_3, PASSIVE_SKILL_A_ATK_SPD_PUSH_4},
     [CHARACTER_NOTT_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
     [CHARACTER_EITRI_ID] = {PASSIVE_SKILL_A_ATK_RES_SOLO_1, PASSIVE_SKILL_A_ATK_RES_SOLO_2, PASSIVE_SKILL_A_ATK_RES_SOLO_3, PASSIVE_SKILL_A_ATK_RES_SOLO_4},
+    [CHARACTER_GUSTAV_ID] = {PASSIVE_SKILL_A_ATK_DEF_CATCH_1, PASSIVE_SKILL_A_ATK_DEF_CATCH_2, PASSIVE_SKILL_A_ATK_DEF_CATCH_3, PASSIVE_SKILL_A_ATK_DEF_CATCH_4},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -7906,6 +7982,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"‘o•P‚Ì—z—ƒ", "í“¬ŠJnA©g‚Ì‚g‚o‚ª‚S•ª‚Ì‚PˆÈã‚È‚çAí“¬’†A“G‚Ì‘¬‚³Aç”õ|‚TA‚©‚ÂA“G‚Ìâ‘Î’ÇŒ‚‚ğ–³ŒøA©•ª‚Ì’ÇŒ‚•s‰Â‚ğ–³Œø", "Sun-Twin Wing", "At start of combat, if unit's HP >= 25%, inflicts Spd/Def-5 on foe and also neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat."},
     {"‘o•P‚ÌŒ—ƒ", "í“¬ŠJnA©g‚Ì‚g‚o‚ª‚S•ª‚Ì‚PˆÈã‚È‚çAí“¬’†A“G‚ÌUŒ‚A‘¬‚³|‚TA‚©‚ÂA‘¬‚³‚ª“G‚æ‚è‚‚¢Aó‚¯‚½ƒ_ƒ[ƒW‚ğ‘¬‚³‚Ì·‚æ‚èŒyŒ¸iÅ‘å‚SŠ„j", "Moon-Twin Wing", "At start of combat, if unit's HP ? 25%, inflicts Atk/Spd-5 on foe during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R?kkr area-of-effect Specials) by percentage = difference between stats ~ 4 (max 40%)."},
     {"‚»‚ê‚Í‹»–¡[‚¢‚Ë", "í“¬ŠJnA“G‚Ì‚g‚o‚ª”¼•ªˆÈã‚È‚çA“G‚ÌUŒ‚A‘¬‚³Aç”õA–‚–h|‚SA‚©‚ÂAÅ‰‚Éó‚¯‚½ƒ_ƒ[ƒW‚ğ‚RŠ„ŒyŒ¸‚µA©g‚ÌŸ‚ÌUŒ‚‚É{", "Divine Recreation", "At start of combat, if foe's HP >= 50%, inflicts Atk/Spd/Def/Res-4 on foe during combat, reduces damage from foe's first attack during combat by 30%, and boosts unit's next attack by total damage reduced (by any source, including other skills). Resets at end of combat."},
+    {"UŒ‚ç”õ‚Ì‹ß‰e‚P", "yÄˆÚ“®i{‚Pjz‚ğ”­“®‰Â”\\Aí“¬’†A“G‚ÌUŒ‚Aç”õ|‚P", "A/D Near Trace 1", "EnablesyCanto (+1)z. Inflicts Atk/Def-1 on foe during combat."},
+    {"UŒ‚ç”õ‚Ì‹ß‰e‚Q", "yÄˆÚ“®i{‚Pjz‚ğ”­“®‰Â”\\Aí“¬’†A“G‚ÌUŒ‚Aç”õ|‚Q", "A/D Near Trace 2", "EnablesyCanto (+1)z. Inflicts Atk/Def-2 on foe during combat."},
+    {"UŒ‚ç”õ‚Ì‹ß‰e‚R", "yÄˆÚ“®i{‚Pjz‚ğ”­“®‰Â”\\Aí“¬’†A“G‚ÌUŒ‚Aç”õ|‚R", "A/D Near Trace 3", "EnablesyCanto (+1)z. Inflicts Atk/Def-3 on foe during combat."},
+    {"UŒ‚ç”õ‚Ì‹ß‰e‚S", "yÄˆÚ“®i{‚Pjz‚ğ”­“®‰Â”\\Aí“¬’†A“G‚ÌUŒ‚Aç”õ|‚S", "A/D Near Trace 4", "EnablesyCanto (+1)z. Inflicts Atk/Def-4 on foe during combat."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -7935,6 +8015,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_DAGR_ID] = {PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING, PASSIVE_SKILL_B_SUN_TWIN_WING},
     [CHARACTER_NOTT_ID] = {PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING},
     [CHARACTER_EITRI_ID] = {PASSIVE_SKILL_B_DIVINE_RECREATION, PASSIVE_SKILL_B_DIVINE_RECREATION, PASSIVE_SKILL_B_DIVINE_RECREATION, PASSIVE_SKILL_B_DIVINE_RECREATION},
+    [CHARACTER_GUSTAV_ID] = {PASSIVE_SKILL_B_A_D_NEAR_TRACE_1, PASSIVE_SKILL_B_A_D_NEAR_TRACE_2, PASSIVE_SKILL_B_A_D_NEAR_TRACE_3, PASSIVE_SKILL_B_A_D_NEAR_TRACE_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -8110,6 +8191,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_DAGR_ID] = {PASSIVE_SKILL_C_EVEN_TEMPEST_1, PASSIVE_SKILL_C_EVEN_TEMPEST_2, PASSIVE_SKILL_C_EVEN_TEMPEST_3, PASSIVE_SKILL_C_EVEN_TEMPEST_4},
     [CHARACTER_NOTT_ID] = {PASSIVE_SKILL_C_THREATEN_SPD_1, PASSIVE_SKILL_C_THREAT_ATK_SPD_1, PASSIVE_SKILL_C_THREAT_ATK_SPD_2, PASSIVE_SKILL_C_ATK_SPD_MENACE},
     [CHARACTER_EITRI_ID] = {PASSIVE_SKILL_C_ATK_RES_REIN_1, PASSIVE_SKILL_C_ATK_RES_REIN_2, PASSIVE_SKILL_C_ATK_RES_REIN_3, PASSIVE_SKILL_C_ATK_RES_REIN_4},
+    [CHARACTER_GUSTAV_ID] = {PASSIVE_SKILL_C_ATK_SMOKE_1, PASSIVE_SKILL_C_ATK_SMOKE_2, PASSIVE_SKILL_C_ATK_SMOKE_3, PASSIVE_SKILL_C_ATK_SMOKE_4},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

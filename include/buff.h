@@ -23,6 +23,9 @@ struct JobCategoryStats {
     u8 numMagic;
 };
 
+int isUnitBuffed(struct Unit *unit);
+int isUnitDebuffed(struct Unit *unit);
+
 u16 GetUnitEquippedItem(struct Unit* unit);
 int GetItemHpBonus(u16 item);
 int GetItemPowBonus(u16 item);

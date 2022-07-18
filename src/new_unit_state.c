@@ -402,13 +402,13 @@ int checkUnitStateSvalinnShield(struct Unit *unit)
 int checkUnitPositiveState(struct Unit *unit)
 {
     // Harshed & MoveAgain are not displayed in stat screen.
-    return checkUnitStateMobilityIncreased(unit) || checkUnitStateAirOrders(unit) || checkUnitStateEffectiveAgainstDragons(unit) || checkUnitStateBonusDoubler(unit) || checkUnitStateDragonShield(unit) || checkUnitStateSvalinnShield(unit);
+    return isUnitBuffed(unit) || checkUnitStateMobilityIncreased(unit) || checkUnitStateAirOrders(unit) || checkUnitStateEffectiveAgainstDragons(unit) || checkUnitStateBonusDoubler(unit) || checkUnitStateDragonShield(unit) || checkUnitStateSvalinnShield(unit);
 }
 
 int checkUnitNegativeState(struct Unit *unit)
 {
     // NoMoveAgain is not displayed in stat screen.
-    return checkUnitStateGravity(unit) || checkUnitStatePanic(unit) || checkUnitStateCounterattacksDisrupted(unit) || checkUnitStateTriangleAdept(unit) || checkUnitStateGuard(unit) || checkUnitStateIsolation(unit);
+    return isUnitDebuffed(unit) || checkUnitStateGravity(unit) || checkUnitStatePanic(unit) || checkUnitStateCounterattacksDisrupted(unit) || checkUnitStateTriangleAdept(unit) || checkUnitStateGuard(unit) || checkUnitStateIsolation(unit);
 }
 
 void setUnitStateSvalinnShield(struct Unit *unit)

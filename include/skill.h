@@ -565,7 +565,7 @@ char *getPassiveSkillSHelpText();
 enum {
     // Icons in skill page.
     ICON_SPECIAL_SKILL = 0,
-    ICON_NEGATIVE_STATE,
+    ICON_DEBUFF,
     ICON_GUARD,
     ICON_GRAVITY,
     ICON_PANIC,
@@ -574,7 +574,7 @@ enum {
     ICON_TRIANGLE_ADEPT,
 
     ICON_ASSIST_SKILL,
-    ICON_POSITIVE_STATE,
+    ICON_BUFF,
     ICON_AIR_ORDERS,
     ICON_BONUS_DOUBLER,
     ICON_EFFECTIVE_AGAINST_DRAGONS,

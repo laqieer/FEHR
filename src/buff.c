@@ -30,6 +30,11 @@ volatile struct Buff gP4Debuff[P4_TOTAL_AMOUNT];
 struct Unit * const unitsBySide[4] = {playerUnits, NPCUnits, enemyUnits, P4Units};
 const int unitAmountBySide[4] = {PLAYER_TOTAL_AMOUNT, NPC_TOTAL_AMOUNT, ENEMY_TOTAL_AMOUNT, P4_TOTAL_AMOUNT};
 
+int isBuffNonZero(struct Buff *buff)
+{
+    return buff->hp || buff->pow || buff->skl || buff->spd || buff->def || buff->res || buff->luk;
+}
+
 struct Buff *getUnitBuff(struct Unit *unit)
 {
     struct Buff *pUnitBuff = 0;
@@ -74,6 +79,16 @@ struct Buff *getUnitDebuff(struct Unit *unit)
     }
 
     return pUnitDebuff;
+}
+
+int isUnitBuffed(struct Unit *unit)
+{
+    return isBuffNonZero(getUnitBuff(unit));
+}
+
+int isUnitDebuffed(struct Unit *unit)
+{
+    return isBuffNonZero(getUnitDebuff(unit));
 }
 
 void calcUnitTotalBuff(struct Unit *unit, struct Buff *pTotalBuff)
