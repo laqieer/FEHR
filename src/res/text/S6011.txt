@@ -165,7 +165,7 @@ TCC_OPEN_LEFT
 ""
 TCC_OPEN_RIGHT
 "。。。石や木枝は消えた。" TCC_NEWLINE
-"粉々になってしまったのか、" TCC_NEWLINE
+"こなごなになってしまったのか、" TCC_NEWLINE
 "今も闇の中にあるのか。。。" TCC_NEWLINE TCC_PUSH_A
 "それすらわからない。" TCC_NEWLINE
 "今の情報だけで、" TCC_NEWLINE

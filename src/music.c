@@ -120,6 +120,7 @@ extern const u8 musicFEThreeHouseBrokenRoutine[];
 extern const u8 musicFEThreeHouseChasingDaybreak[];
 extern const u8 musicFEThreeHouseIndomitableWill[];
 extern const u8 musicFEThreeHouseTheShackledWolves[];
+extern const u8 song041_agbfe3_bgm_evt_11[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1660,6 +1661,7 @@ const struct Song songs[] = {
         [MUSIC_FE_THREE_HOUSE_CHASING_DAYBREAK] = {musicFEThreeHouseChasingDaybreak, 1, 1},
         [MUSIC_FE_THREE_HOUSE_INDOMITABLE_WILL] = {musicFEThreeHouseIndomitableWill, 1, 1},
         [MUSIC_FE_THREE_HOUSE_THE_SHACKLED_WOLVES] = {musicFEThreeHouseTheShackledWolves, 1, 1},
+        [MUSIC_FE8_SORROW] = {song041_agbfe3_bgm_evt_11, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1897,6 +1899,7 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_THREE_HOUSE_CHASING_DAYBREAK, MUSIC_LENGTH(4, 23), 0, "ñÏñ]ÇÃínïΩ"},
     {MUSIC_FE_THREE_HOUSE_INDOMITABLE_WILL, MUSIC_LENGTH(3, 45), 0, "ä—Ç≠à”éu"},
     {MUSIC_FE_THREE_HOUSE_THE_SHACKLED_WOLVES, MUSIC_LENGTH(2, 55), 0, "ÉnÉNÉTÇÃåQòT"},
+    {MUSIC_FE8_SORROW, 3180, 0, "ÇrÇÅÇÑÇéÇÖÇìÇìÅ@ÇîÇâÇçÇÖ"},
 
     // End of table
     {-1, 0,                                              0, 0},
