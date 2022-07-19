@@ -121,6 +121,11 @@ extern const u8 musicFEThreeHouseChasingDaybreak[];
 extern const u8 musicFEThreeHouseIndomitableWill[];
 extern const u8 musicFEThreeHouseTheShackledWolves[];
 extern const u8 song041_agbfe3_bgm_evt_11[];
+extern const u8 musicFEHNifl[];
+extern const u8 musicFEHFanFest[];
+extern const u8 musicFEHHappyBook4[];
+extern const u8 musicFEHHeroesJourney[];
+extern const u8 musicFEHSummonerDuels[];
 
 const struct Song songs[] = {
         {141477904, 0, 0} ,  // 0x0000 Nothing
@@ -1662,6 +1667,11 @@ const struct Song songs[] = {
         [MUSIC_FE_THREE_HOUSE_INDOMITABLE_WILL] = {musicFEThreeHouseIndomitableWill, 1, 1},
         [MUSIC_FE_THREE_HOUSE_THE_SHACKLED_WOLVES] = {musicFEThreeHouseTheShackledWolves, 1, 1},
         [MUSIC_FE8_SORROW] = {song041_agbfe3_bgm_evt_11, 1, 1},
+        [MUSIC_FE_H_NIFL] = {musicFEHNifl, 1, 1},
+        [MUSIC_FE_H_FAN_FEST] = {musicFEHFanFest, 1, 1},
+        [MUSIC_FE_H_HAPPY_BOOK_4] = {musicFEHHappyBook4, 1, 1},
+        [MUSIC_FE_H_HEROES_JOURNEY] = {musicFEHHeroesJourney, 1, 1},
+        [MUSIC_FE_H_SUMMONER_DUELS] = {musicFEHSummonerDuels, 1, 1},
 };
 
 const struct Song * const pSongs1 = songs;
@@ -1900,6 +1910,11 @@ const struct SoundRoomEntry soundRoomEntries[] = {
     {MUSIC_FE_THREE_HOUSE_INDOMITABLE_WILL, MUSIC_LENGTH(3, 45), 0, "貫く意志"},
     {MUSIC_FE_THREE_HOUSE_THE_SHACKLED_WOLVES, MUSIC_LENGTH(2, 55), 0, "ハクサの群狼"},
     {MUSIC_FE8_SORROW, 3180, 0, "Ｓａｄｎｅｓｓ　ｔｉｍｅ"},
+    {MUSIC_FE_H_NIFL, MUSIC_LENGTH(1, 45), 0, "ニフル"},
+    {MUSIC_FE_H_FAN_FEST, MUSIC_LENGTH(1, 8), 0, "ファンフェスト"},
+    {MUSIC_FE_H_HAPPY_BOOK_4, MUSIC_LENGTH(1, 56), 0, "イベント喜び"},
+    {MUSIC_FE_H_HEROES_JOURNEY, MUSIC_LENGTH(2, 6), 0, "英雄たちの二人旅"},
+    {MUSIC_FE_H_SUMMONER_DUELS, MUSIC_LENGTH(4, 9), 0, "英雄決闘"},
 
     // End of table
     {-1, 0,                                              0, 0},
