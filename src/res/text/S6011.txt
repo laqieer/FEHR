@@ -114,7 +114,7 @@ TCC_OPEN_MID_LEFT
 "『だが、平和とは、" TCC_NEWLINE
 "　他国の侵略に" TCC_NEWLINE
 "　無防備であることではない』" TCC_NEWLINE TCC_PUSH_A
-"『丸裸で門扉を開く者は、" TCC_NEWLINE
+"『丸はだかで門扉を開く者は、" TCC_NEWLINE
 "　己を滅ぼす戦争を" TCC_NEWLINE
 "　みずから願っているに等しい』" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -137,7 +137,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ALFONSE
 "。。。。。。。。。。。。" TCC_NEWLINE TCC_PUSH_A
 "小石を闇に放ると。。。" TCC_NEWLINE
-"虚空に吸い込まれたように。。。" TCC_NEWLINE
+"こくうに吸い込まれたように。。。" TCC_NEWLINE
 "何の音もしなかった。" TCC_NEWLINE TCC_PUSH_A
 "木の枝を差し入れると。。。" TCC_NEWLINE
 "闇に入った部分は、" TCC_NEWLINE

@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "new_map/event_chap_332.tmx",
+    "activeFile": "new_map/event_chap_333.tmx",
     "expandedProjectPaths": [
-        "new_map",
-        "event/unit"
+        "event/unit",
+        "new_map"
     ],
     "file.lastUsedOpenFilter": "全部文件 (*)",
     "fileStates": {
@@ -382,6 +382,10 @@
             "scaleInEditor": 2
         },
         "new_map/S5135.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "new_map/S6011.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
@@ -1099,7 +1103,15 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 120.39922452789547,
-                "y": 160.14935018309762
+                "y": 160.60888920801324
+            }
+        },
+        "new_map/event_chap_333.tmx": {
+            "scale": 2.1760937499999997,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 120.39922452789547,
+                "y": 183.1263014288792
             }
         },
         "new_map/event_chap_85.json": {
@@ -1124,12 +1136,14 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "new_map/event_chap_332.tmx"
+        "new_map/event_chap_333.tmx"
     ],
     "project": "map.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "new_map/event_chap_333.tmx",
         "new_map/event_chap_332.tmx",
+        "new_map/S6011.tsx",
         "new_map/S5135.tsx",
         "new_map/event_chap_331.tmx",
         "new_map/event_chap_330.tmx",
@@ -1138,9 +1152,7 @@
         "new_map/event_chap_329.tmx",
         "new_map/S5132.tsx",
         "new_map/event_chap_328.tmx",
-        "event/unit/enemy_unit_set.json",
-        "event/unit/player_unit_set.json",
-        "new_map/event_chap_327.tmx"
+        "event/unit/enemy_unit_set.json"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

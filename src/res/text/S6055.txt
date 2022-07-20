@@ -131,7 +131,7 @@ TCC_OPEN_LEFT
 "心優しい王子。。。" TCC_NEWLINE
 "ええ、そんなものはすべて、嘘。" TCC_NEWLINE TCC_PUSH_A
 "愚かな民衆の心を操るための" TCC_NEWLINE
-"虚飾の仮面にすぎない。" TCC_NEWLINE TCC_PUSH_A
+"きょしょくの仮面にすぎない。" TCC_NEWLINE TCC_PUSH_A
 "玉座のためなら" TCC_NEWLINE
 "邪魔な父王を殺し、" TCC_NEWLINE
 "その事実さえ完璧に隠蔽してみせる。。。" TCC_NEWLINE TCC_PUSH_A

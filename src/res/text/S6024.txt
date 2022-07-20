@@ -54,7 +54,7 @@ TCC_OPEN_MID_LEFT
 "ええ、入ってくる情報では、" TCC_NEWLINE
 "そりゃもう怖い相手よ。" TCC_NEWLINE TCC_PUSH_A
 "暗殺、誘拐、拷問、破壊工作。。。" TCC_NEWLINE
-"虚偽情報を拡散して" TCC_NEWLINE
+"きょぎ情報を拡散して" TCC_NEWLINE
 "民衆の扇動まで。。。" TCC_NEWLINE TCC_PUSH_A
 "エンブラの闇。。。" TCC_NEWLINE
 "汚れ仕事を一手に担っている" TCC_NEWLINE
