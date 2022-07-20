@@ -408,7 +408,7 @@ const struct Achievement achievements[] = {
     {"始まりの証", "ストーリー第１部クリア", isBook1Clear, ProgressAchievement, BronzeAchievement, 0},
     {"氷と炎の証", "ストーリー第２部クリア", isBook2Clear, ProgressAchievement, BronzeAchievement, 0},
     {"生と死の証", "ストーリー第３部クリア", isBook3Clear, ProgressAchievement, SilverAchievement, 0},
-    {"夢の証", "ストーリー第４部クリア", isBook4Clear, ProgressAchievement, SilverAchievement, 0},
+    {"夢と現の証", "ストーリー第４部クリア", isBook4Clear, ProgressAchievement, SilverAchievement, 0},
     {"魔道かがくの証", "ストーリー第５部クリア", isBook5Clear, ProgressAchievement, GoldAchievement, 0},
     {"神の証", "ストーリー第６部クリア", isBook6Clear, ProgressAchievement, GoldAchievement, 0},
     //{"十\人ぎり", "敵を１０体倒す", isKillCountOver10, ChallengeAchievement, BronzeAchievement, 0},
