@@ -5,7 +5,7 @@
 "北の方。。。このへんをさがすの。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ANNA
-"国境沿いの。。。" TCC_NEWLINE
+"国境ぞいの。。。" TCC_NEWLINE
 "夕闇の森のあたりね。" TCC_NEWLINE
 "なぜここを？" TCC_NEWLINE TCC_PUSH_A
 ""
