@@ -125,6 +125,7 @@
 #include "classcard_Revenant.h"
 #include "classcard_Wolf.h"
 #include "classcard_GreatKnight.h"
+#include "classcard_Bat.h"
 
 // For portrait display when using items
 const u16 portrait_standard_bg_obj[] = {
@@ -2115,6 +2116,7 @@ DEFINE_CLASSCARD_NEW(Phantom)
 DEFINE_CLASSCARD_NEW(Revenant)
 DEFINE_CLASSCARD_NEW(Wolf)
 DEFINE_CLASSCARD_NEW(GreatKnight)
+DEFINE_CLASSCARD_NEW(Bat)
 
 const Portrait* const portraits[] = {
     [0x101] = &portraitAlfons,
@@ -2170,6 +2172,7 @@ const Portrait* const portraits[] = {
     [CLASSCARD_REVENANT] = &classcardRevenant, // 0x137
     [CLASSCARD_WOLF] = &classcardWolf, // 0x138
     [CLASSCARD_GREAT_KNIGHT] = &classcardGreatKnight, // 0x139
+    [CLASSCARD_BAT] = &classcardBat, // 0x13A
     [PORTRAIT_ID_AVATAR_F_1] = &portraitAvatar_F_1,
     [PORTRAIT_ID_AVATAR_F_2] = &portraitAvatar_F_2,
     [PORTRAIT_ID_AVATAR_F_3] = &portraitAvatar_F_3,
