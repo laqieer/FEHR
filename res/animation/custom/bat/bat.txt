@@ -1,0 +1,591 @@
+/// - Mode 1
+
+C03 -
+
+C07 -
+
+1  p- bat_1.png
+
+/// - Attack Frames
+
+2  p- bat_57.png
+
+2  p- bat_58.png
+
+2  p- bat_59.png
+
+C25
+
+2  p- bat_60.png
+
+2  p- bat_61.png
+
+2  p- bat_62.png
+
+2  p- bat_63.png
+
+2  p- bat_64.png
+
+2  p- bat_65.png
+
+2  p- bat_66.png
+
+2  p- bat_67.png
+
+2  p- bat_68.png
+
+2  p- bat_69.png
+
+C04
+
+C1A
+
+C1F
+
+/// - Frames after hitting but before stopping to wait for HP depletion
+
+1  p- bat_70.png
+
+C01
+
+/// - RETURN TO BASE
+
+2  p- bat_71.png
+
+2  p- bat_72.png
+
+2  p- bat_73.png
+
+C25
+
+2  p- bat_74.png
+
+2  p- bat_75.png
+
+2  p- bat_76.png
+
+2  p- bat_77.png
+
+2  p- bat_78.png
+
+2  p- bat_79.png
+
+2  p- bat_80.png
+
+2  p- bat_81.png
+
+2  p- bat_82.png
+
+2  p- bat_83.png
+
+1  p- bat_1.png
+
+C06
+
+C0D
+
+~~~ -
+
+/// - Mode 3
+
+C03 -
+
+C07 -
+
+1  p- bat_1.png
+
+/// - Critical Frames
+
+2  p- bat_111.png
+
+C33
+
+2  p- bat_112.png
+
+2  p- bat_113.png
+
+2  p- bat_114.png
+
+2  p- bat_115.png
+
+2  p- bat_116.png
+
+2  p- bat_117.png
+
+2  p- bat_118.png
+
+2  p- bat_119.png
+
+2  p- bat_120.png
+
+2  p- bat_121.png
+
+2  p- bat_122.png
+
+2  p- bat_123.png
+
+2  p- bat_124.png
+
+2  p- bat_125.png
+
+2  p- bat_126.png
+
+2  p- bat_127.png
+
+2  p- bat_128.png
+
+2  p- bat_129.png
+
+2  p- bat_130.png
+
+2  p- bat_131.png
+
+2  p- bat_132.png
+
+2  p- bat_133.png
+
+2  p- bat_134.png
+
+2  p- bat_135.png
+
+2  p- bat_136.png
+
+2  p- bat_137.png
+
+2  p- bat_138.png
+
+2  p- bat_139.png
+
+2  p- bat_140.png
+
+2  p- bat_141.png
+
+2  p- bat_142.png
+
+2  p- bat_143.png
+
+2  p- bat_144.png
+
+2  p- bat_145.png
+
+2  p- bat_146.png
+
+2  p- bat_147.png
+
+2  p- bat_148.png
+
+2  p- bat_149.png
+
+2  p- bat_150.png
+
+2  p- bat_151.png
+
+2  p- bat_152.png
+
+2  p- bat_153.png
+
+2  p- bat_154.png
+
+2  p- bat_155.png
+
+/// - Attack Frames
+
+2  p- bat_57.png
+
+2  p- bat_58.png
+
+2  p- bat_59.png
+
+C25
+
+2  p- bat_60.png
+
+2  p- bat_61.png
+
+2  p- bat_62.png
+
+2  p- bat_63.png
+
+2  p- bat_64.png
+
+2  p- bat_65.png
+
+2  p- bat_66.png
+
+2  p- bat_67.png
+
+2  p- bat_68.png
+
+2  p- bat_69.png
+
+C04
+
+C08
+
+C1F
+
+/// - Frames after hitting but before stopping to wait for HP depletion
+
+1  p- bat_70.png
+
+C01
+
+/// - RETURN TO BASE
+
+2  p- bat_71.png
+
+2  p- bat_72.png
+
+2  p- bat_73.png
+
+C25
+
+2  p- bat_74.png
+
+2  p- bat_75.png
+
+2  p- bat_76.png
+
+2  p- bat_77.png
+
+2  p- bat_78.png
+
+2  p- bat_79.png
+
+2  p- bat_80.png
+
+2  p- bat_81.png
+
+2  p- bat_82.png
+
+2  p- bat_83.png
+
+1  p- bat_1.png
+
+C06
+
+C0D
+
+~~~ - Mode 5
+
+C03 -
+
+C07 -
+
+1  p- bat_1.png
+
+C05
+
+1  p- bat_1.png
+
+C01
+
+1  p- bat_1.png
+
+C06
+
+1  p- bat_1.png
+
+C0D
+
+~~~ - Mode 6
+
+C03 -
+
+C07 -
+
+1  p- bat_1.png
+
+C05
+
+1  p- bat_1.png
+
+C01
+
+1  p- bat_1.png
+
+C06
+
+1  p- bat_1.png
+
+C0D
+
+~~~ - Mode 7
+
+C02
+
+1  p- bat_1.png
+
+C0E
+
+2  p- bat_57.png
+
+2  p- bat_58.png
+
+2  p- bat_59.png
+
+C25
+
+2  p- bat_60.png
+
+2  p- bat_61.png
+
+C01
+
+1  p- bat_62.png
+
+C06
+
+2  p- bat_79.png
+
+2  p- bat_80.png
+
+2  p- bat_81.png
+
+2  p- bat_82.png
+
+2  p- bat_83.png
+
+1  p- bat_1.png
+
+C0D
+
+~~~ - Mode 8
+
+C02
+
+1  p- bat_1.png
+
+C0E
+
+2  p- bat_57.png
+
+2  p- bat_58.png
+
+2  p- bat_59.png
+
+C25
+
+2  p- bat_60.png
+
+2  p- bat_61.png
+
+C01
+
+1  p- bat_62.png
+
+C06
+
+2  p- bat_79.png
+
+2  p- bat_80.png
+
+2  p- bat_81.png
+
+2  p- bat_82.png
+
+2  p- bat_83.png
+
+1  p- bat_1.png
+
+C0D
+
+~~~ - Mode 9
+
+1 p- bat_1.png
+
+1 p- bat_2.png
+
+1 p- bat_3.png
+
+1 p- bat_4.png
+
+1 p- bat_5.png
+
+C25
+
+1 p- bat_6.png
+
+1 p- bat_7.png
+
+1 p- bat_8.png
+
+1 p- bat_9.png
+
+1 p- bat_10.png
+
+1 p- bat_11.png
+
+1 p- bat_12.png
+
+1 p- bat_13.png
+
+1 p- bat_14.png
+
+1 p- bat_15.png
+
+1 p- bat_1.png
+
+C01 -
+
+~~~ - Mode 10
+
+1 p- bat_1.png
+
+1 p- bat_2.png
+
+1 p- bat_3.png
+
+1 p- bat_4.png
+
+1 p- bat_5.png
+
+C25
+
+1 p- bat_6.png
+
+1 p- bat_7.png
+
+1 p- bat_8.png
+
+1 p- bat_9.png
+
+1 p- bat_10.png
+
+1 p- bat_11.png
+
+1 p- bat_12.png
+
+1 p- bat_13.png
+
+1 p- bat_14.png
+
+1 p- bat_15.png
+
+1 p- bat_1.png
+
+C01 -
+
+~~~ - Mode 11
+
+1 p- bat_1.png
+
+1 p- bat_2.png
+
+1 p- bat_3.png
+
+1 p- bat_4.png
+
+1 p- bat_5.png
+
+C25
+
+1 p- bat_6.png
+
+1 p- bat_7.png
+
+1 p- bat_8.png
+
+1 p- bat_9.png
+
+1 p- bat_10.png
+
+1 p- bat_11.png
+
+1 p- bat_12.png
+
+1 p- bat_13.png
+
+1 p- bat_14.png
+
+1 p- bat_15.png
+
+1 p- bat_1.png
+
+C01 -
+
+~~~ - Mode 12
+
+C03 -
+
+C07 -
+
+1  p- bat_1.png
+
+/// - Attack-That-Will-Miss Frames
+
+2  p- bat_57.png
+
+2  p- bat_58.png
+
+2  p- bat_59.png
+
+C25
+
+2  p- bat_60.png
+
+2  p- bat_61.png
+
+2  p- bat_62.png
+
+2  p- bat_63.png
+
+2  p- bat_64.png
+
+2  p- bat_65.png
+
+2  p- bat_66.png
+
+2  p- bat_67.png
+
+2  p- bat_68.png
+
+2  p- bat_69.png
+
+C04
+
+C1F
+
+/// - Frames after hitting but before stopping to wait for HP depletion
+
+1  p- bat_70.png
+
+C01
+
+/// - RETURN TO BASE
+
+2  p- bat_71.png
+
+2  p- bat_72.png
+
+2  p- bat_73.png
+
+C25
+
+2  p- bat_74.png
+
+2  p- bat_75.png
+
+2  p- bat_76.png
+
+2  p- bat_77.png
+
+2  p- bat_78.png
+
+2  p- bat_79.png
+
+2  p- bat_80.png
+
+2  p- bat_81.png
+
+2  p- bat_82.png
+
+2  p- bat_83.png
+
+1  p- bat_1.png
+
+C06
+
+C0D
+
+~~~ - End Animation Data

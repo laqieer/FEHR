@@ -122,3 +122,7 @@
     .rodata.WitchMagic : {*(.rodata.WitchMagic)}
     . = 0x8E00008 + 0x20 * 0xdf;
     .rodata.WitchStaff : {*(.rodata.WitchStaff)}
+    . = 0x8E00008 + 0x20 * 0xe0;
+    .rodata.Bat : {*(.rodata.Bat)}
+    . = 0x8DD0000;
+    .rodata : {*/banim_Bat.*(.rodata)}
