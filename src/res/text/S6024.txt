@@ -73,7 +73,7 @@ TCC_OPEN_LEFT
 "あ、あれ。。。？" TCC_NEWLINE
 "あれ見てください！" TCC_NEWLINE TCC_PUSH_A
 "あの城砦付近の森。。。" TCC_NEWLINE
-"大きな蝙蝠の翼！" TCC_NEWLINE
+"大きなコウモリの翼！" TCC_NEWLINE
 "目標発見です！" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_MID_LEFT

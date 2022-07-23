@@ -528,11 +528,11 @@ const char* const texts[] = {
 
         [TEXT_JOB_NAME_BAT] = "バット",
 
-        [TEXT_JOB_HELP_BAT] = "飛行する蝙蝠。"TCC_NEWLINE"山や河にも移動できるが、弓に弱い。",
+        [TEXT_JOB_HELP_BAT] = "飛行するコウモリ。"TCC_NEWLINE"山や河にも移動できるが、弓に弱い。",
 
         [TEXT_CHARACTER_NAME_ELM] = "エルム",
 
-        [TEXT_CHARACTER_HELP_ELM] = "閉ざす神エンブラのしもべである眷属。冷酷な性格で、直截で棘のある言葉を使う。",
+        [TEXT_CHARACTER_HELP_ELM] = "閉ざす神エンブラのしもべであるけんぞく。冷酷な性格で、ちょくせつでトゲのある言葉を使う。",
 
         // Chapter event dialogue
 

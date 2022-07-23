@@ -6,7 +6,7 @@
 "闇へ閉ざすエンブラの力。。。" TCC_NEWLINE
 "それと対を為すのが、" TCC_NEWLINE
 "光へ開くアスク様の御力であります。" TCC_NEWLINE TCC_PUSH_A
-"僭越ながらアスク様の眷属でありますから、" TCC_NEWLINE
+"僭越ながらアスク様のけんぞくでありますから、" TCC_NEWLINE
 "私も開く力を畏れ多くも" TCC_NEWLINE
 "使うことができるわけでありまして。。。" TCC_NEWLINE TCC_PUSH_A
 "あ、もちろんその力はごくわずか、" TCC_NEWLINE

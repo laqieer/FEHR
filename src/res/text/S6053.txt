@@ -109,7 +109,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_RIGHT
 "あれは何百年前でしたでしょうか。。。" TCC_NEWLINE
 "以前も私は" TCC_NEWLINE
-"アスク様の眷属として。。。" TCC_NEWLINE TCC_PUSH_A
+"アスク様のけんぞくとして。。。" TCC_NEWLINE TCC_PUSH_A
 "このように人間の皆様のもとへ" TCC_NEWLINE
 "参ったことがあります。" TCC_NEWLINE TCC_PUSH_A
 "そこで私は人間の皆様のご要望に" TCC_NEWLINE

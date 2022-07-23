@@ -13,7 +13,7 @@
 "私一人で、このような大事な使命を。。。" TCC_NEWLINE TCC_PUSH_A
 "ですが私としましては、" TCC_NEWLINE
 "人間の皆様をお救いするため、" TCC_NEWLINE
-"全力で邁進していく所存でありまして。。。" TCC_NEWLINE TCC_PUSH_A
+"全力でまいしんしていく所存でありまして。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ELM
 "ばーか。" TCC_NEWLINE
@@ -29,21 +29,21 @@ TCC_OPEN_LEFT
 "名乗らないのも失礼にあたるかと。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
-"黙ってろ、牛女。" TCC_NEWLINE TCC_PUSH_A
+"黙ってろ、うし女。" TCC_NEWLINE TCC_PUSH_A
 "お前がエンブラ様が言ってた" TCC_NEWLINE
 "アスクのしもべ。。。" TCC_NEWLINE
 "僕の敵ってわけだ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT
-"蝙蝠の翼。。。！？" TCC_NEWLINE
+"コウモリの翼。。。！？" TCC_NEWLINE
 "も、もしかしてもしかすると。。。" TCC_NEWLINE
-"あなたはエンブラの眷属。。。？" TCC_NEWLINE TCC_PUSH_A
+"あなたはエンブラのけんぞく。。。？" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
 "僕はエルム。" TCC_NEWLINE
 "エンブラ様の忠実なしもべさ。" TCC_NEWLINE TCC_PUSH_A
 "お前みたいな" TCC_NEWLINE
-"とろくさい牛女をよこすなんて、" TCC_NEWLINE
+"とろくさいうし女をよこすなんて、" TCC_NEWLINE
 "アスクはよっぽど力が残ってないんだな。" TCC_NEWLINE TCC_PUSH_A
 "ま、エンブラ様に比べれば、" TCC_NEWLINE
 "アスクなんてもともと" TCC_NEWLINE
@@ -58,7 +58,7 @@ TCC_OPEN_LEFT
 "ないかもしれませんが、できればひとつ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT
-"。。。お前、鬱陶しいな。" TCC_NEWLINE
+"。。。お前、うっとうしいな。" TCC_NEWLINE
 "もういいや、死ねよ。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
@@ -67,7 +67,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE ,
 "。。。も、もう。。。力が。。。" TCC_NEWLINE TCC_PUSH_A
 ""
 TCC_OPEN_RIGHT  TCC_LOAD_FACE PORTRAIT_ELM
-"早く死ねよ、雑魚牛。" TCC_NEWLINE
+"早く死ねよ、雑魚うし。" TCC_NEWLINE
 "そんな力じゃ" TCC_NEWLINE
 "エンブラ様の贄にさえ。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -99,7 +99,7 @@ TCC_OPEN_LEFT
 "まずは名前を名乗るのが礼儀というもの、" TCC_NEWLINE
 "お詫びして改めて申\し上げます。" TCC_NEWLINE TCC_PUSH_A
 ""
-"私はアシュ、アスク様の眷属であります。" TCC_NEWLINE
+"私はアシュ、アスク様のけんぞくであります。" TCC_NEWLINE
 "私がアスク様のご命令を受け、こちらへ" TCC_NEWLINE
 "来たそもそもの理由はといいますと。。。" TCC_NEWLINE TCC_PUSH_A
 ""
@@ -115,7 +115,7 @@ TCC_OPEN_LEFT
 "アスク様は、神竜アスク。。。かつて" TCC_NEWLINE
 "あなた方人間に力を与えた存在であります。" TCC_NEWLINE
 "きっと皆様もご存知のことでありましょう。" TCC_NEWLINE TCC_PUSH_A
-"私はアスク様の眷属であります。" TCC_NEWLINE
+"私はアスク様のけんぞくであります。" TCC_NEWLINE
 "アスク様が司る世界で" TCC_NEWLINE
 "生まれたわけでありまして。。。" TCC_NEWLINE TCC_PUSH_A
 "そしてアスク様から使命を賜り、" TCC_NEWLINE
@@ -133,7 +133,7 @@ TCC_OPEN_LEFT
 TCC_OPEN_MID_RIGHT
 "いや、突然のことで" TCC_NEWLINE
 "まだ理解が追いついてないんだ。。。" TCC_NEWLINE
-"君は神竜アスクの眷属。。。" TCC_NEWLINE TCC_PUSH_A
+"君は神竜アスクのけんぞく。。。" TCC_NEWLINE TCC_PUSH_A
 "それで、なぜ君がここへ？" TCC_NEWLINE
 "アスク様の使命とは？" TCC_NEWLINE TCC_PUSH_A
 ""

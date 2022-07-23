@@ -68,7 +68,7 @@ TCC_OPEN_MID_LEFT  TCC_LOAD_FACE PORTRAIT_ASH
 "えー、そうであるともそうでないとも" TCC_NEWLINE
 "はっきりとは申\し上げられず、" TCC_NEWLINE
 "予\断を許さない状況でありまして。。。" TCC_NEWLINE TCC_PUSH_A
-"エンブラの眷属は油断のできない相手です。" TCC_NEWLINE
+"エンブラのけんぞくは油断のできない相手です。" TCC_NEWLINE
 "まさかということもありますから、" TCC_NEWLINE
 "しばらくは周囲の様子を慎重に調べつつ。。。" TCC_NEWLINE TCC_PUSH_A
 ""

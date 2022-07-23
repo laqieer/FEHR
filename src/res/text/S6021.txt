@@ -29,7 +29,7 @@ TCC_OPEN_LEFT TCC_CLEAR_FACE TCC_OPEN_RIGHT TCC_CLEAR_FACE TCC_OPEN_MID_LEFT TCC
 "お気をつけくださいますようお願い致します。" TCC_NEWLINE
 "この兵士の方々からも。。。" TCC_NEWLINE
 "エンブラの支配の力を感じております。" TCC_NEWLINE TCC_PUSH_A
-"おそらくはあのエンブラの眷属。。。" TCC_NEWLINE
+"おそらくはあのエンブラのけんぞく。。。" TCC_NEWLINE
 "エルムが操っているものと思われます。" TCC_NEWLINE
 "おそらく、ですが。。。" TCC_NEWLINE TCC_PUSH_A
 ""
