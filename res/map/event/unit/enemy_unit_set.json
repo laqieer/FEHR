@@ -8,7 +8,7 @@
  "margin":0,
  "name":"enemy_unit_set",
  "spacing":0,
- "tilecount":88,
+ "tilecount":89,
  "tiledversion":"1.9.0",
  "tileheight":32,
  "tiles":[
@@ -538,6 +538,12 @@
          "id":89,
          "image":"enemy_units\/Witch.png",
          "imageheight":18,
+         "imagewidth":16
+        }, 
+        {
+         "id":90,
+         "image":"enemy_units\/Bat.png",
+         "imageheight":20,
          "imagewidth":16
         }],
  "tilewidth":30,

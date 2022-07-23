@@ -169,6 +169,7 @@
 #define SteamDragon Dracozombie
 #define Witch 115
 #define YouthfulSage Witch
+#define Bat 116
 
 // Items
 #define HeavyLance HeavySpear

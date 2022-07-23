@@ -526,6 +526,10 @@ const char* const texts[] = {
 
         [TEXT_JOB_HELP_YOUTHFUL_SAGE] = "幼いながら知を究めた魔道士"TCC_NEWLINE"あらゆる魔法と杖を知る",
 
+        [TEXT_JOB_NAME_BAT] = "バット",
+
+        [TEXT_JOB_HELP_BAT] = "飛行する蝙蝠。"TCC_NEWLINE"山や河にも移動できるが、弓に弱い。",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
