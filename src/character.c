@@ -50,7 +50,7 @@ const struct Character characters[] = {
 
 {TEXT_CHARACTER_NAME_FJORM, TEXT_CHARACTER_HELP_FJORM, 15, 5, PORTRAIT_ID_FJORM, 0, Water, 14, 1, 16, 7, 7, 6, 7, 7, 16, 0, 0, 1, 0, 0, 0, 0, 0, 0, 50, 50, 50, 55, 50, 60, 50, 0, 0x7b, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[7], 11} ,  // 0x0F Louise -> Fjorm
 
-{1266, 448, 16, 28, 61, 0, 6, 15, 3, 0, 6, 5, 8, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 31, 0, 55, 60, 50, 40, 10, 60, 20, 63, 26, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148244768, 12} ,  // 0x10 Lucius
+{TEXT_CHARACTER_NAME_ELM, TEXT_CHARACTER_HELP_ELM, 16, JOB_ID_BAT, PORTRAIT_ID_ELM, 0, Dark, 15, 1, 19, 9, 12, 12, 5, 7, 10, 5, 0, 0, 0, 0, 0, 0, 0, 0, 50, 65, 70, 70, 50, 55, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12} ,  // 0x10 Lucius -> Elm
 
 {TEXT_CHARACTER_NAME_GUNNTHRA, TEXT_CHARACTER_HELP_GUNNTHRA, 17, 0x2d, 0x10a, 0, Water, 16, 1, 14, 6, 7, 8, 5, 5, 7, 6, 0, 0, 0, 0, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, 50, 55, 55, 55, 30, 45, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[6], 8} ,  // 0x11 Serra -> Gunnthra
 
