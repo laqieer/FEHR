@@ -42,6 +42,8 @@
 #include "moving_sprite_Witch.h"
 #include "standing_sprite_Bat.h"
 #include "moving_sprite_Bat.h"
+#include "standing_sprite_Cow.h"
+#include "moving_sprite_Cow.h"
 
 const struct StandingSprite standingSprites[] = {
     {2, 0, standing_sprite_AlfonseTiles} ,  
@@ -249,6 +251,8 @@ const struct StandingSprite standingSprites[] = {
     {2, MAP_SPRITE_SIZE_TALL, standing_sprite_WitchTiles} ,  // 101 Witch
 
     {2, MAP_SPRITE_SIZE_BIG, standing_sprite_BatTiles} ,  // 102 Bat
+
+    {2, MAP_SPRITE_SIZE_BIG, standing_sprite_CowTiles} ,  // 103 Cow
 
     {0, 0, 1} ,  
 
@@ -509,6 +513,8 @@ const struct MovingSprite movingSprites[] = {
     {moving_sprite_WitchTiles, 138263996} ,  // 0x73 Witch
 
     {moving_sprite_BatTiles, 138263996} ,  // 0x74 Bat
+
+    {moving_sprite_CowTiles, 138263996} ,  // 0x75 Cow
 };
 
 const struct MovingSprite * const pMovingSprites1 = movingSprites;
