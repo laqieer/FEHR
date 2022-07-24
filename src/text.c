@@ -538,6 +538,10 @@ const char* const texts[] = {
 
         [TEXT_JOB_HELP_COW] = "ウシ娘。"TCC_NEWLINE"聖なる光魔法を使える。",
 
+        [TEXT_CHARACTER_NAME_ASH] = "アシュ",
+
+        [TEXT_CHARACTER_HELP_ASH] = "開く神アスクのしもべであるけんぞく。真面目な性格で、丁寧で回りくどい言葉を使う。",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening
