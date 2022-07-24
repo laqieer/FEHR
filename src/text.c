@@ -534,6 +534,10 @@ const char* const texts[] = {
 
         [TEXT_CHARACTER_HELP_ELM] = "閉ざす神エンブラのしもべであるけんぞく。冷酷な性格で、ちょくせつでトゲのある言葉を使う。",
 
+        [TEXT_JOB_NAME_COW] = "カウガール",
+
+        [TEXT_JOB_HELP_COW] = "ウシ娘。"TCC_NEWLINE"聖なる光魔法を使える。",
+
         // Chapter event dialogue
 
                     // Chapter prologue opening

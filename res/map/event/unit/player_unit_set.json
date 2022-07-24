@@ -8,7 +8,7 @@
  "margin":0,
  "name":"player_unit_set",
  "spacing":0,
- "tilecount":26,
+ "tilecount":27,
  "tiledversion":"1.9.0",
  "tileheight":24,
  "tiles":[
@@ -167,8 +167,14 @@
          "image":"player_units\/YouthfulSage.png",
          "imageheight":18,
          "imagewidth":16
+        }, 
+        {
+         "id":26,
+         "image":"player_units\/Cow.png",
+         "imageheight":22,
+         "imagewidth":32
         }],
- "tilewidth":16,
+ "tilewidth":32,
  "type":"tileset",
  "version":"1.8"
 }
