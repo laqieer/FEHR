@@ -126,3 +126,5 @@
     .rodata.Bat : {*(.rodata.Bat)}
     . = 0x8DD0000;
     .rodata : {*/banim_Bat.*(.rodata)}
+    . = 0x8E00008 + 0x20 * 0xe1;
+    .rodata.Ash : {*(.rodata.Ash)}

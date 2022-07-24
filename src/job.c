@@ -305,6 +305,14 @@ const struct JobBattleAnimationConf BatAnimationConf[] = {
     JobBattleAnimationConfEnd
 };
 
+const struct JobBattleAnimationConf CowGirlAnimationConf[] = {
+    {Disarmed, 1, ANIMATION_ASH},
+    {AnimaMagic, 1, ANIMATION_ASH},
+    {LightMagic, 1, ANIMATION_ASH},
+    {DarkMagic, 1, ANIMATION_ASH},
+    JobBattleAnimationConfEnd
+};
+
 const struct Job jobs[] = {
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 86, 5, 0, 0, -3, 57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x00 None
 

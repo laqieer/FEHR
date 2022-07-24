@@ -1,0 +1,237 @@
+/// - Mode 1
+
+C03 -
+
+C07 -
+
+3  p- ash_1.png
+
+/// - Attack Frames
+
+C4C
+
+6  p- ash_2.png
+
+6  p- ash_3.png
+
+6  p- ash_4.png
+
+3  p- ash_1.png
+
+C04
+
+C1A
+
+C1F
+
+/// - Frames after hitting but before stopping to wait for HP depletion
+
+C01
+
+/// - RETURN TO BASE
+
+3  p- ash_1.png
+
+C06
+
+C0D
+
+~~~ -
+
+/// - Mode 3
+
+C03 -
+
+C07 -
+
+3  p- ash_1.png
+
+/// - Critical Frames
+
+C4D
+
+6  p- ash_2.png
+
+6  p- ash_3.png
+
+6  p- ash_4.png
+
+3  p- ash_1.png
+
+C04
+
+C08
+
+C1F
+
+/// - Frames after hitting but before stopping to wait for HP depletion
+
+C01
+
+/// - RETURN TO BASE
+
+3  p- ash_1.png
+
+C06
+
+C0D
+
+~~~ - Mode 5
+
+C03 -
+
+C07 -
+
+5  p- ash_1.png
+
+C4C
+
+6  p- ash_2.png
+
+6  p- ash_3.png
+
+6  p- ash_4.png
+
+3 p- ash_1.png
+
+C05
+
+6  p- ash_1.png
+
+C01
+
+6  p- ash_1.png
+
+C06
+
+3  p- ash_1.png
+
+C0D
+
+~~~ - Mode 6
+
+C03 -
+
+C07 -
+
+5  p- ash_1.png
+
+C4D
+
+6  p- ash_2.png
+
+6  p- ash_3.png
+
+6  p- ash_4.png
+
+3 p- ash_1.png
+
+C05
+
+6  p- ash_1.png
+
+C01
+
+6  p- ash_1.png
+
+C06
+
+3  p- ash_1.png
+
+C0D
+
+~~~ - Mode 7
+
+C02
+
+2  p- ash_1.png
+
+C0E
+
+3  p- ash_1.png
+
+C01
+
+2  p- ash_1.png
+
+C06
+
+2  p- ash_1.png
+
+C0D
+
+~~~ - Mode 8
+
+C02
+
+2  p- ash_1.png
+
+C0E
+
+3  p- ash_1.png
+
+C01
+
+2  p- ash_1.png
+
+C06
+
+2  p- ash_1.png
+
+C0D
+
+~~~ - Mode 9
+
+3 p- ash_1.png
+
+C01 -
+
+~~~ - Mode 10
+
+3 p- ash_1.png
+
+C01 -
+
+~~~ - Mode 11
+
+3 p- ash_1.png
+
+C01 -
+
+~~~ - Mode 12
+
+C03 -
+
+C07 -
+
+3  p- ash_1.png
+
+/// - Attack-That-Will-Miss Frames
+
+C4C
+
+6  p- ash_2.png
+
+6  p- ash_3.png
+
+6  p- ash_4.png
+
+3  p- ash_1.png
+
+C04
+
+C1F
+
+/// - Frames after hitting but before stopping to wait for HP depletion
+
+C01
+
+/// - RETURN TO BASE
+
+3  p- ash_1.png
+
+C06
+
+C0D
+
+~~~ - End Animation Data
