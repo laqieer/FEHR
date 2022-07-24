@@ -106,6 +106,7 @@ sources = list(size_by_source.keys())
 sources.sort(key = lambda x: size_by_source[x].total())
 sumtotal = sumcode = sumdata = 0
 sumtileset = sumevent = sumbanim = sumvoice = sumsfx = sumsong = sumtext = sumportrait = sumclasscard = summapsprite = sumchaptitle = sumbg = sumtitlescreen = 0
+numtileset = numevent = numbanim = numvoice = numsfx = numsong = numportrait = numclasscard = nummapsprite = numchaptitle = numbg = numtitlescreen = 0
 freespace = 16 * 1024 * 1024
 for source in sources:
     size = size_by_source[source]
@@ -115,46 +116,61 @@ for source in sources:
     #print("%-40s \t%7s  (code: %d data: %d)" % (os.path.normpath(source), size.total(), size.code, size.data))
     if "src/res/map/tileset" in source:
         sumtileset += size.data
+        numtileset += 1
     elif "src/res/map/event/event_chap_" in source:
         sumevent += size.data
+        numevent += 1
     elif "src/res/animation" in source:
         sumbanim += size.data
+        if "_sheets.c" not in source:
+            numbanim += 1
     elif "res/voice/lib/libvoice.a" in source:
         sumvoice += size.data
+        numvoice += 1
     elif "res/se/lib/libse.a" in source:
         sumsfx += size.data
+        numsfx += 1
     elif "src/res/music" in source:
         sumsong += size.data
+        numsong += 1
     elif "src/text" in source:
         sumtext += size.data
     elif "src/res/gfx/portrait_" in source:
         sumportrait += size.data
+        numportrait += 1
     elif "src/res/gfx/classcard_" in source:
         sumclasscard += size.data
+        numclasscard += 1
     elif "src/res/gfx/standing_sprite_" in source:
         summapsprite += size.data
+        nummapsprite += 1
     elif "src/res/gfx/moving_sprite_" in source:
         summapsprite += size.data
-    elif "src/res/chapter_title/chapter_title_" in source:
+        nummapsprite += 1
+    elif "src/res/chapter_title/chapter_title" in source:
         sumchaptitle += size.data
+        numchaptitle += 1
     elif "src/res/gfx/BG" in source:
         sumbg += size.data
+        numbg += 1
     elif "src/res/gfx/EvBg_" in source:
         sumbg += size.data
+        numbg += 1
     elif "src/res/gfx/title_screen_" in source:
         sumtitlescreen += size.data
+        numtitlescreen += 1
 print("TOTAL %d  (code: %d data: %d)" % (sumtotal, sumcode, sumdata))
-print("chapter map: %d(%f%%)" % (sumtileset, sumtileset / freespace * 100))
-print("chapter title: %d(%f%%)" % (sumchaptitle, sumchaptitle / freespace * 100))
-print("chapter event: %d(%f%%)" % (sumevent, sumevent / freespace * 100))
-print("battle animation: %d(%f%%)" % (sumbanim, sumbanim / freespace * 100))
-print("character voice: %d(%f%%)" % (sumvoice, sumvoice / freespace * 100))
-print("sound effect: %d(%f%%)" % (sumsfx, sumsfx / freespace * 100))
-print("song: %d(%f%%)" % (sumsong, sumsong / freespace * 100))
+print("chapter map (%d): %d(%f%%)" % (numtileset, sumtileset, sumtileset / freespace * 100))
+print("chapter title (%d): %d(%f%%)" % (numchaptitle, sumchaptitle, sumchaptitle / freespace * 100))
+print("chapter event (%d): %d(%f%%)" % (numevent, sumevent, sumevent / freespace * 100))
+print("battle animation (%d): %d(%f%%)" % (numbanim, sumbanim, sumbanim / freespace * 100))
+print("character voice (%d): %d(%f%%)" % (numvoice, sumvoice, sumvoice / freespace * 100))
+print("sound effect (%d): %d(%f%%)" % (numsfx, sumsfx, sumsfx / freespace * 100))
+print("song (%d): %d(%f%%)" % (numsong, sumsong, sumsong / freespace * 100))
 print("text: %d(%f%%)" % (sumtext, sumtext / freespace * 100))
-print("background: %d(%f%%)" % (sumbg, sumbg / freespace * 100))
-print("portrait: %d(%f%%)" % (sumportrait, sumportrait / freespace * 100))
-print("class card: %d(%f%%)" % (sumclasscard, sumclasscard / freespace * 100))
-print("map sprite: %d(%f%%)" % (summapsprite, summapsprite / freespace * 100))
-print("title screen: %d(%f%%)" % (sumtitlescreen, sumtitlescreen / freespace * 100))
+print("background (%d): %d(%f%%)" % (numbg, sumbg, sumbg / freespace * 100))
+print("portrait (%d): %d(%f%%)" % (numportrait / 2, sumportrait, sumportrait / freespace * 100))
+print("class card (%d): %d(%f%%)" % (numclasscard, sumclasscard, sumclasscard / freespace * 100))
+print("map sprite (%d): %d(%f%%)" % (nummapsprite, summapsprite, summapsprite / freespace * 100))
+print("title screen (%d): %d(%f%%)" % (numtitlescreen, sumtitlescreen, sumtitlescreen / freespace * 100))
 print("code: %d(%f%%)" % (sumcode, sumcode / freespace * 100))
