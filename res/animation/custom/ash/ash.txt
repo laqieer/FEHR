@@ -4,9 +4,7 @@ C03 -
 
 C07 -
 
-3  p- ash_1.png
-
-/// - Attack Frames
+5  p- ash_1.png
 
 C4C
 
@@ -16,23 +14,19 @@ C4C
 
 6  p- ash_4.png
 
-3  p- ash_1.png
+3 p- ash_1.png
 
-C04
+C05
 
-C1A
-
-C1F
-
-/// - Frames after hitting but before stopping to wait for HP depletion
+6  p- ash_1.png
 
 C01
 
-/// - RETURN TO BASE
-
-3  p- ash_1.png
+6  p- ash_1.png
 
 C06
+
+3  p- ash_1.png
 
 C0D
 
@@ -44,9 +38,7 @@ C03 -
 
 C07 -
 
-3  p- ash_1.png
-
-/// - Critical Frames
+5  p- ash_1.png
 
 C4D
 
@@ -56,23 +48,19 @@ C4D
 
 6  p- ash_4.png
 
-3  p- ash_1.png
+3 p- ash_1.png
 
-C04
+C05
 
-C08
-
-C1F
-
-/// - Frames after hitting but before stopping to wait for HP depletion
+6  p- ash_1.png
 
 C01
 
-/// - RETURN TO BASE
-
-3  p- ash_1.png
+6  p- ash_1.png
 
 C06
+
+3  p- ash_1.png
 
 C0D
 
@@ -218,9 +206,7 @@ C4C
 
 3  p- ash_1.png
 
-C04
-
-C1F
+C05
 
 /// - Frames after hitting but before stopping to wait for HP depletion
 
