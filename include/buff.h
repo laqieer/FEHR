@@ -71,6 +71,21 @@ int GetUnitDefense(struct Unit* unit);
 int GetUnitResistance(struct Unit* unit);
 int GetUnitLuck(struct Unit* unit);
 
+s8 getUnitBuffHP(struct Unit *unit);
+s8 getUnitBuffPower(struct Unit *unit);
+s8 getUnitBuffSkill(struct Unit *unit);
+s8 getUnitBuffSpeed(struct Unit *unit);
+s8 getUnitBuffDefense(struct Unit *unit);
+s8 getUnitBuffResistance(struct Unit *unit);
+s8 getUnitBuffLuck(struct Unit *unit);
+s8 getUnitDebuffHP(struct Unit *unit);
+s8 getUnitDebuffPower(struct Unit *unit);
+s8 getUnitDebuffSkill(struct Unit *unit);
+s8 getUnitDebuffSpeed(struct Unit *unit);
+s8 getUnitDebuffDefense(struct Unit *unit);
+s8 getUnitDebuffResistance(struct Unit *unit);
+s8 getUnitDebuffLuck(struct Unit *unit);
+
 s16 getUnitTotalBuffAllStats(struct Unit *unit);
 s8 getUnitTotalBuffHP(struct Unit *unit);
 s8 getUnitTotalBuffPower(struct Unit *unit);

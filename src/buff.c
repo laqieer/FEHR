@@ -1475,6 +1475,11 @@ void updateNewStateWithPassiveSkillC(struct Unit *units, int number)
                     if((gRAMChapterData.chapterTurnNumber % 2) == 0)
                         setUnitStateMobilityIncreased(&units[i]);
                     break;
+                case PASSIVE_SKILL_C_OPENING_RETAINER:
+                    if(hasCompanionIn2Spaces(&units[i]))
+                        //setUnitStateMobilityIncreased(&units[i]);
+                        ForEachUnitIn2Spaces(units[i].positionX, units[i].positionY, setUnitStateMobilityIncreased);
+                    break;
                 default:
                     break;
             }

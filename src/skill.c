@@ -2709,6 +2709,7 @@ const u16 characterSpecialSkills[0x100] = {
         [CHARACTER_DAGR_ID] = SPECIAL_SKILL_DRAGON_FANG,
         [CHARACTER_NOTT_ID] = SPECIAL_SKILL_DRACONIC_AURA,
         [CHARACTER_EITRI_ID] = SPECIAL_SKILL_DRAGON_FANG,
+        [CHARACTER_ASH_ID] = SPECIAL_SKILL_BONFIRE,
 };
 
 const u16 jobSpecialSkills[0x100] = {
@@ -5633,6 +5634,10 @@ void ComputePassiveSkillCEffectFromOthers(struct Unit *unit, u32 *args)
             if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
                 attacker->battleAttack += 4;
             break;
+        case PASSIVE_SKILL_C_OPENING_RETAINER:
+            if(getDistanceBetweenTwoUnits(unit, &attacker->unit) > 0 && getDistanceBetweenTwoUnits(unit, &attacker->unit) <= 2)
+                attacker->battleAttack += 4;
+            break;
         case PASSIVE_SKILL_C_SPUR_RES_1:
             if(areTwoUnitsAdjacent(unit, &attacker->unit))
                 if((GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) || (GetItemAttributes(defender->weapon) & IA_MAGIC))
@@ -5939,6 +5944,14 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                     attacker->battleDefense += 7;
             }
             break;
+        case PASSIVE_SKILL_A_ATK_DEF_UNITY:
+            if(hasCompanionIn2Spaces(&attacker->unit))
+            {
+                attacker->battleAttack += 5 + 2 * getUnitDebuffPower(&attacker->unit);
+                if(!(GetItemAttributes(defender->weapon) & IA_MAGICDAMAGE) && !(GetItemAttributes(defender->weapon) & IA_MAGIC))
+                    attacker->battleDefense += 5 + 2 * getUnitDebuffDefense(&attacker->unit);
+            }
+            break;
         case PASSIVE_SKILL_A_ATK_DEF_CATCH_1:
             if(defender->hpInitial >= defender->unit.maxHp || checkUnitNegativeState(&defender->unit))
             {
@@ -6201,6 +6214,10 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
                     attacker->battleDefense += 2 + getUnitTotalBuffDefense(&defender->unit) > 0 ? getUnitTotalBuffDefense(&defender->unit) : 0;
             }
             break;
+        case PASSIVE_SKILL_C_OPENING_RETAINER:
+            if(hasCompanionIn2Spaces(&attacker->unit))
+                attacker->battleAttack += 4;
+            break;
         default:
             break;
     }
@@ -6239,22 +6256,42 @@ void ComputeBattleUnitPassiveSkillEffects(struct BattleUnit* attacker, struct Ba
             }
             break;
         case PASSIVE_SKILL_B_LULL_SPD_DEF_1:
-            attacker->battleSpeed -= 1 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            attacker->battleSpeed -= 1 + max(0, getUnitTotalBuffSpeed(&attacker->unit));
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 1 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             break;
         case PASSIVE_SKILL_B_LULL_SPD_DEF_2:
-            attacker->battleSpeed -= 2 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            attacker->battleSpeed -= 2 + max(0, getUnitTotalBuffSpeed(&attacker->unit));
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 2 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             break;
         case PASSIVE_SKILL_B_LULL_SPD_DEF_3:
-            attacker->battleSpeed -= 3 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            attacker->battleSpeed -= 3 + max(0, getUnitTotalBuffSpeed(&attacker->unit));
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 3 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             break;
         case PASSIVE_SKILL_B_LULL_SPD_DEF_4:
-            attacker->battleSpeed -= 4 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            attacker->battleSpeed -= 4 + max(0, getUnitTotalBuffSpeed(&attacker->unit));
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 4 + max(0, getUnitTotalBuffDefense(&attacker->unit));
+            break;
+        case PASSIVE_SKILL_B_LULL_ATK_DEF_1:
+            attacker->battleAttack -= 1 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 1 + max(0, getUnitTotalBuffDefense(&attacker->unit));
+            break;
+        case PASSIVE_SKILL_B_LULL_ATK_DEF_2:
+            attacker->battleAttack -= 2 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 2 + max(0, getUnitTotalBuffDefense(&attacker->unit));
+            break;
+        case PASSIVE_SKILL_B_LULL_ATK_DEF_3:
+            attacker->battleAttack -= 3 + max(0, getUnitTotalBuffPower(&attacker->unit));
+            if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
+                attacker->battleDefense -= 3 + max(0, getUnitTotalBuffDefense(&attacker->unit));
+            break;
+        case PASSIVE_SKILL_B_LULL_ATK_DEF_4:
+            attacker->battleAttack -= 4 + max(0, getUnitTotalBuffPower(&attacker->unit));
             if(!(GetItemAttributes(defender->weapon) & (IA_MAGICDAMAGE | IA_MAGIC)))
                 attacker->battleDefense -= 4 + max(0, getUnitTotalBuffDefense(&attacker->unit));
             break;
@@ -7840,6 +7877,7 @@ const struct PassiveSkill passiveSkillAs[] = {
     {"攻撃守備の機先２", "敵のＨＰが全部で戦闘開始時、または、敵が【不利な状態異常】を受けている時、戦闘中、自分の攻撃、守備＋４", "Atk/Def Catch 2", "At start of combat, if foe's HP = 100% or if【Penalty】is active on foe, grants Atk/Def+4 to unit during combat."},
     {"攻撃守備の機先３", "敵のＨＰが全部で戦闘開始時、または、敵が【不利な状態異常】を受けている時、戦闘中、自分の攻撃、守備＋５", "Atk/Def Catch 3", "At start of combat, if foe's HP = 100% or if【Penalty】is active on foe, grants Atk/Def+5 to unit during combat."},
     {"攻撃守備の機先４", "敵のＨＰが全部で戦闘開始時、または、敵が【不利な状態異常】を受けている時、戦闘中、自分の攻撃、守備＋７、かつ時、さらに＋２", "Atk/Def Catch 4", "At start of combat, if foe's HP = 100% or if【Penalty】is active on foe, grants Atk/Def+7 to unit during combat. At start of combat, if foe's HP = 100% and【Penalty】is active on foe, grants an additional Atk/Def+2 to unit during combat."},
+    {"攻撃守備の連帯", "周囲２マス以内に味方がいる時、戦闘中、攻撃、守備＋５、かつ、攻撃、守備が弱化の値の２倍だけ上昇", "Atk/Def Unity", "If unit is within 2 spaces of an ally, grants Atk/Def+5 and bonus to Atk/Def during combat = current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+19, for a net bonus of Atk+12.) Calculates each stat bonus independently."},
 };
 
 const u16 characterPassiveSkillAs[0x100][4] = {
@@ -7875,6 +7913,7 @@ const u16 characterPassiveSkillAs[0x100][4] = {
     [CHARACTER_NOTT_ID] = {PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER, PASSIVE_SKILL_A_DISTANT_COUNTER},
     [CHARACTER_EITRI_ID] = {PASSIVE_SKILL_A_ATK_RES_SOLO_1, PASSIVE_SKILL_A_ATK_RES_SOLO_2, PASSIVE_SKILL_A_ATK_RES_SOLO_3, PASSIVE_SKILL_A_ATK_RES_SOLO_4},
     [CHARACTER_GUSTAV_ID] = {PASSIVE_SKILL_A_ATK_DEF_CATCH_1, PASSIVE_SKILL_A_ATK_DEF_CATCH_2, PASSIVE_SKILL_A_ATK_DEF_CATCH_3, PASSIVE_SKILL_A_ATK_DEF_CATCH_4},
+    [CHARACTER_ASH_ID] = {PASSIVE_SKILL_A_ATK_DEF_BOND_1, PASSIVE_SKILL_A_ATK_DEF_BOND_2, PASSIVE_SKILL_A_ATK_DEF_BOND_3, PASSIVE_SKILL_A_ATK_DEF_UNITY},
 };
 
 u16 getUnitPassiveSkillA(struct Unit *unit)
@@ -7986,6 +8025,10 @@ const struct PassiveSkill passiveSkillBs[] = {
     {"攻撃守備の近影２", "【再移動（＋１）】を発動可能\、戦闘中、敵の攻撃、守備－２", "A/D Near Trace 2", "Enables【Canto (+1)】. Inflicts Atk/Def-2 on foe during combat."},
     {"攻撃守備の近影３", "【再移動（＋１）】を発動可能\、戦闘中、敵の攻撃、守備－３", "A/D Near Trace 3", "Enables【Canto (+1)】. Inflicts Atk/Def-3 on foe during combat."},
     {"攻撃守備の近影４", "【再移動（＋１）】を発動可能\、戦闘中、敵の攻撃、守備－４", "A/D Near Trace 4", "Enables【Canto (+1)】. Inflicts Atk/Def-4 on foe during combat."},
+    {"攻撃守備のなぎ１", "戦闘中、敵の攻撃、守備－１、かつ、敵の攻撃、守備の強化の＋を無効にする", "Lull Atk/Def 1", "Inflicts Atk/Def-1 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat."},
+    {"攻撃守備のなぎ２", "戦闘中、敵の攻撃、守備－２、かつ、敵の攻撃、守備の強化の＋を無効にする", "Lull Atk/Def 2", "Inflicts Atk/Def-2 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat."},
+    {"攻撃守備のなぎ３", "戦闘中、敵の攻撃、守備－３、かつ、敵の攻撃、守備の強化の＋を無効にする", "Lull Atk/Def 3", "Inflicts Atk/Def-3 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat."},
+    {"攻撃守備のなぎ４", "戦闘中、敵の攻撃、守備－４、かつ、敵の攻撃、守備の強化の＋を無効にする", "Lull Atk/Def 4", "Inflicts Atk/Def-4 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat."},
 };
 
 const u16 characterPassiveSkillBs[0x100][4] = {
@@ -8016,6 +8059,7 @@ const u16 characterPassiveSkillBs[0x100][4] = {
     [CHARACTER_NOTT_ID] = {PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING, PASSIVE_SKILL_B_MOON_TWIN_WING},
     [CHARACTER_EITRI_ID] = {PASSIVE_SKILL_B_DIVINE_RECREATION, PASSIVE_SKILL_B_DIVINE_RECREATION, PASSIVE_SKILL_B_DIVINE_RECREATION, PASSIVE_SKILL_B_DIVINE_RECREATION},
     [CHARACTER_GUSTAV_ID] = {PASSIVE_SKILL_B_A_D_NEAR_TRACE_1, PASSIVE_SKILL_B_A_D_NEAR_TRACE_2, PASSIVE_SKILL_B_A_D_NEAR_TRACE_3, PASSIVE_SKILL_B_A_D_NEAR_TRACE_4},
+    [CHARACTER_ASH_ID] = {PASSIVE_SKILL_B_LULL_ATK_DEF_1, PASSIVE_SKILL_B_LULL_ATK_DEF_2, PASSIVE_SKILL_B_LULL_ATK_DEF_3, PASSIVE_SKILL_B_LULL_ATK_DEF_4},
 };
 
 u16 getUnitPassiveSkillB(struct Unit *unit)
@@ -8157,6 +8201,7 @@ const struct PassiveSkill passiveSkillCs[] = {
     {"攻撃速さいかく２", "ターン開始時、周囲２マスの敵の攻撃、速さ－４（１ターン）", "Threat. Atk/Spd 2", "At start of turn, inflicts Atk/Spd-4 on foes within 2 spaces for 1 turn."},
     {"攻撃速さいかく３", "ターン開始時、周囲２マス以内に敵がいる場合、自分の攻撃、速さ＋５（１ターン）、かつ、周囲２マス以内の敵の攻撃、速さ－５（１ターン）", "Threat. Atk/Spd 3", "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd+5 to unit for 1 turn and inflicts Atk/Spd-5 on foes within 2 spaces for 1 turn."},
     {"攻速のきょうかく", "ターン開始時、周囲４マス以内に敵がいる時、最も近い敵の攻撃、速さ－６（１ターン）、かつ、自身の攻撃、速さ＋６（１ターン）", "Atk/Spd Menace", "At start of turn, if unit is within 4 spaces of a foe, inflicts Atk/Spd-6 on nearest foes for 1 turn and grants Atk/Spd+6 to unit for 1 turn."},
+    {"開神のけんぞく", "周囲２マス以内に味方がいる時、戦闘中、自身と味方の攻撃＋４、ターン開始時、自身と味方の移動＋１（１ターン、重複しない）", "Opening Retainer", "Grants Atk+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk+4 to unit during combat. At start of turn, allies within 2 spaces can move 1 extra space. At start of turn, unit can move 1 extra space if within 2 spaces of an ally. (That turn only. Does not stack.)"},
 };
 
 const u16 characterPassiveSkillCs[0x100][4] = {
@@ -8192,6 +8237,7 @@ const u16 characterPassiveSkillCs[0x100][4] = {
     [CHARACTER_NOTT_ID] = {PASSIVE_SKILL_C_THREATEN_SPD_1, PASSIVE_SKILL_C_THREAT_ATK_SPD_1, PASSIVE_SKILL_C_THREAT_ATK_SPD_2, PASSIVE_SKILL_C_ATK_SPD_MENACE},
     [CHARACTER_EITRI_ID] = {PASSIVE_SKILL_C_ATK_RES_REIN_1, PASSIVE_SKILL_C_ATK_RES_REIN_2, PASSIVE_SKILL_C_ATK_RES_REIN_3, PASSIVE_SKILL_C_ATK_RES_REIN_4},
     [CHARACTER_GUSTAV_ID] = {PASSIVE_SKILL_C_ATK_SMOKE_1, PASSIVE_SKILL_C_ATK_SMOKE_2, PASSIVE_SKILL_C_ATK_SMOKE_3, PASSIVE_SKILL_C_ATK_SMOKE_4},
+    [CHARACTER_ASH_ID] = {PASSIVE_SKILL_C_OPENING_RETAINER, PASSIVE_SKILL_C_OPENING_RETAINER, PASSIVE_SKILL_C_OPENING_RETAINER, PASSIVE_SKILL_C_OPENING_RETAINER},
 };
 
 u16 getUnitPassiveSkillC(struct Unit *unit)

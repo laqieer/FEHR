@@ -982,6 +982,7 @@ void DeleteAnimsOnPopup();
 void endNotQuitIfNoWeaponRankUp();
 
 int isAdjacentToAnyCompanion(struct Unit *unit);
+int hasCompanionIn2Spaces(struct Unit *unit);
 int areTwoUnits(struct Unit *unit1, struct Unit *unit2);
 
 #endif //FE7_JP_STUNNING_TRIBBLE_SKILL_H
