@@ -544,8 +544,6 @@ C25
 
 C04
 
-C1F
-
 /// - Frames after hitting but before stopping to wait for HP depletion
 
 1  p- bat_70.png
