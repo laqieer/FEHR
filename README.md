@@ -41,7 +41,7 @@ cd build && make
 |---|---|
 |[Circle CI](https://circleci.com/)|[![CircleCI](https://circleci.com/gh/laqieer/FEHR.svg?style=svg)](https://app.circleci.com/pipelines/github/laqieer/FEHR)|
 |[Cirrus CI](https://cirrus-ci.org/)|[![Build Status](https://api.cirrus-ci.com/github/laqieer/FEHR.svg)](https://cirrus-ci.com/github/laqieer/FEHR)|
-|[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer-3/FEHR/pipelines/pipeline/391264/badge.svg?token=fe41368f258a1488a5615886d1e0f9f7609d83aa4a42d804a24db543d1f59590 "buddy pipeline")](https://app.buddy.works/laqieer-3/FEHR/pipelines/pipeline/391264)|
+|[Buddy](https://buddy.works/)|[![buddy pipeline](https://app.buddy.works/laqieer-3/fehr/pipelines/pipeline/391264/badge.svg?token=fe41368f258a1488a5615886d1e0f9f7609d83aa4a42d804a24db543d1f59590 "buddy pipeline")](https://app.buddy.works/laqieer-3/fehr/pipelines/pipeline/391264)|
 
 ## Compatibility
 
