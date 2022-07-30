@@ -371,6 +371,8 @@ SECTIONS
 	.rodata.patch_tutorial_disabler_d752 : {*(.rodata.patch_tutorial_disabler_d752)}
 	. = 0x8013318;
 	.text.decodeTextInjector : {*(.text.decodeTextInjector)}
+	. = 0x8009D28;
+	.rodata.textBubblePositionYInDialogue : {*(.rodata.textBubblePositionYInDialogue)}
 	. = 0x8017CE0;
     .rodata.pJobs1 : {*(.rodata.pJobs1)}
     . = 0x8018C1C;

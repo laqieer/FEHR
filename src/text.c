@@ -3139,3 +3139,5 @@ char *decodeTextInjector(int textID)
 {
     return decodeText(textID);
 }
+
+const char textBubblePositionYInDialogue = 5; // StartTalkOpen()
