@@ -7,7 +7,7 @@ executors:
 jobs:
   build:
     executor: my-executor
-    working_directory: ~/fe7-jp-stunning-tribble
+    working_directory: ~/FEHR
     steps:
     - checkout
     - run:

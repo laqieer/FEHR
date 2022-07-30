@@ -1200,8 +1200,8 @@
             }
         }
     },
-    "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/src/res/map/event",
-    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/fe7-jp-stunning-tribble/res/map/new_map",
+    "last.exportedFilePath": "//wsl.localhost/Debian/home/laqieer/Projects/FEHR/src/res/map/event",
+    "last.imagePath": "//wsl.localhost/Debian/home/laqieer/Projects/FEHR/res/map/new_map",
     "lastUsedTilesetExportFilter": "Fire Emblem (GBA) map tileset terrain binary (*.bin)",
     "map.height": 20,
     "map.lastUsedExportFilter": "Fire Emblem (GBA) chapter event (*.S)",

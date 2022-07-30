@@ -5,7 +5,7 @@ if(NOT DEFINED CMAKE_BUILD_TYPE)
 endif()
 
 
-project(fe7-jp-stunning-tribble
+project(FEHR
         VERSION 0.0.1
         DESCRIPTION "GBA game hacking"
         LANGUAGES C ASM)

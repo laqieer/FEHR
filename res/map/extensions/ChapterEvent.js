@@ -182,7 +182,7 @@ var ChapterEvent = {
         for(const tileset of map.usedTilesets()) {
             if(tileset.name.startsWith("S")) {
                 mapName = tileset.name;
-                var jsonFilename = fileName.substring(0, fileName.lastIndexOf("fe7-jp-stunning-tribble")+24) + "res/feh/files/assets/JPJA/Message/Scenario/" + tileset.name + ".json"
+                var jsonFilename = fileName.substring(0, fileName.lastIndexOf("FEHR") + "FEHR".length + 1) + "res/feh/files/assets/JPJA/Message/Scenario/" + tileset.name + ".json"
                 try {
                     var scenarioFile = new TextFile(jsonFilename, TextFile.ReadOnly);
                     scenarioText = scenarioFile.readAll();

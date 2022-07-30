@@ -1,5 +1,5 @@
 /*
- * Support between units. https://github.com/laqieer/fe7-jp-stunning-tribble/issues/11.
+ * Support between units. https://github.com/laqieer/FEHR/issues/11.
  */
 
 #include "character.h"

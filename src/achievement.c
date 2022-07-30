@@ -1,6 +1,6 @@
 /*
  * Achievement System: Achievements / Trophies / Badges
- * https://github.com/laqieer/fe7-jp-stunning-tribble/projects/2.
+ * https://github.com/laqieer/FEHR/projects/2.
  */
 
 #include <gba_types.h>
