@@ -76,7 +76,7 @@ gBattleTarget = 0x203a46c;
 gBattleHitArray = 0x203a4ec;
 
 decodedText = 0x202A5B0;
-lastTextID = 0x202B5B0;
+lastText = 0x202B5B0;
 
 ReadSramFast = 0x3005d90;
 
