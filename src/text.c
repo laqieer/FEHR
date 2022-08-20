@@ -79,7 +79,7 @@ const char* const texts[] = {
         [0x30F] = "¢Š«Žt"TCC_SUMMONER_NAME"‚ÌŒ•",
         [0x310] = "¢Š«Žt"TCC_SUMMONER_NAME"‚Ì‘„",
         [0x311] = "¢Š«Žt"TCC_SUMMONER_NAME"‚Ì•€",
-        [0x312] = "¢Š«Žt"TCC_SUMMONER_NAME"‚Ì•€",
+        [0x312] = "¢Š«Žt"TCC_SUMMONER_NAME"‚Ì‹|",
         [0x380] = "¢Š«ŽtŽ©g‚Ì‚±‚Æ‚ð" TCC_NEWLINE
                     "è‚Á‚Ä‚­‚ê‚Ü‚·",
         [0x3E4] = "¢Š«Žt‚Ì–¼‘O‚Å‚·",
