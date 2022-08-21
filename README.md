@@ -9,6 +9,8 @@ Remake [Fire Emblem Heroes](https://fire-emblem-heroes.com/) on [Fire Emblem 7 (
 
 [【Click to Play】](https://laqieer.gitee.io/fehr/launcher.html#fehr) [【Wiki】](https://github.com/laqieer/FEHR/wiki) [【Discussions】](https://github.com/laqieer/FEHR/discussions) [【All Chapter Videos】](https://space.bilibili.com/343025/channel/seriesdetail?sid=917293)
 
+[Sideline Story Remake](https://github.com/laqieer/FEHRG)
+
 ## Patch
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/laqieer/FEHR)](https://github.com/laqieer/FEHR/releases/latest)
 
