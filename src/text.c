@@ -14,6 +14,7 @@
  * */
 
 #include <stdbool.h>
+#include <stddef.h>
 
 #include "text.h"
 #include "text_id.h"
@@ -3084,6 +3085,18 @@ char *decodeText(int textID)
         p = getPassiveSkillSHelpText();
     if(textID == TEXT_NEW_PASSIVE_SKILL_UNLOCKED)
         p = getNewUnlockedPassiveSkillNameTextByCurrentAIS();
+
+    if(p == NULL)
+    {
+        p = compressedText[textID];
+
+        if(p != lastText)
+            decompressText(p, decodedText);
+
+        lastText = p;
+
+        return decodedText;
+    }
     
     if(p == lastText)
         return decodedText;
@@ -3092,47 +3105,43 @@ char *decodeText(int textID)
 
     char *p0 = p;
     char *q = decodedText;
-    if(textID < sizeof(texts) / 4 && p)
-    {
-        unsigned int maxLineWidth = TEXT_LINE_WIDTH_MAX;
-        if(textID == TEXT_SPECIAL_SKILL_HELP || textID == TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU || textID == TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN || textID == TEXT_PASSIVE_SKILL_A_HELP || textID == TEXT_PASSIVE_SKILL_B_HELP || textID == TEXT_PASSIVE_SKILL_C_HELP || textID == TEXT_PASSIVE_SKILL_S_HELP)
-            maxLineWidth = SKILL_HELP_WIDTH_MAX;
+    unsigned int maxLineWidth = TEXT_LINE_WIDTH_MAX;
+    if(textID == TEXT_SPECIAL_SKILL_HELP || textID == TEXT_ASSIST_SKILL_HELP_IN_ACTION_MENU || textID == TEXT_ASSIST_SKILL_HELP_IN_STAT_SCREEN || textID == TEXT_PASSIVE_SKILL_A_HELP || textID == TEXT_PASSIVE_SKILL_B_HELP || textID == TEXT_PASSIVE_SKILL_C_HELP || textID == TEXT_PASSIVE_SKILL_S_HELP)
+        maxLineWidth = SKILL_HELP_WIDTH_MAX;
 
-        // copy text directly
-        if (getStringTextWidth(p) <= maxLineWidth)
-            while (*p)
+    // copy text directly
+    if (getStringTextWidth(p) <= maxLineWidth)
+        while (*p)
+            *q++ = *p++;
+    else {
+        // add new lines automatically
+        unsigned int charWidth = 0;
+        unsigned int lineWidth = 0;
+
+        while (*p) {
+            if (*p > 0 && *p < 0x20)
                 *q++ = *p++;
-        else {
-            // add new lines automatically
-            unsigned int charWidth = 0;
-            unsigned int lineWidth = 0;
-
-            while (*p) {
-                if (*p > 0 && *p < 0x20)
-                    *q++ = *p++;
-                else {
-                    char *p_next = getCharTextWidth(p, &charWidth);
-                    lineWidth += charWidth;
-                    if (lineWidth > maxLineWidth) {
-                        *q++ = 1; // new line
-                        lineWidth = charWidth;
-                    }
-                    while (*p && p < p_next)
-                        *q++ = *p++;
+            else {
+                char *p_next = getCharTextWidth(p, &charWidth);
+                lineWidth += charWidth;
+                if (lineWidth > maxLineWidth) {
+                    *q++ = 1; // new line
+                    lineWidth = charWidth;
                 }
+                while (*p && p < p_next)
+                    *q++ = *p++;
             }
         }
-        
-        // add 0 to end string
-        *q = 0;
-
-        if(getStringTextWidth(p0) > maxLineWidth)
-        {
-            Debugf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(p0), getStringTextWidth(decodedText));
-        }
     }
-    else
-        decompressText(compressedText[textID], decodedText);
+    
+    // add 0 to end string
+    *q = 0;
+
+    if(getStringTextWidth(p0) > maxLineWidth)
+    {
+        Debugf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(p0), getStringTextWidth(decodedText));
+    }
+    
     return decodedText;
 }
 
