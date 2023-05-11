@@ -1589,7 +1589,7 @@ const char* const texts[] = {
         [TEXT_PASSIVE_SKILL_B_HELP] = "",
         [TEXT_PASSIVE_SKILL_C_HELP] = "",
         [TEXT_PASSIVE_SKILL_S_HELP] = "",
-        
+
         [TEXT_ITEM_CANNOT_USE] = "使用不可",
         [TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_NAME] = "奥義のこどう",
         [TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_HELP] = "１ターン目開始時、奥義発動カウントー１",
@@ -1601,19 +1601,36 @@ const char* const texts[] = {
                 TCC_OPEN_LEFT
                 "シャロン、今日はどんな予\定があるんだ？" TCC_PUSH_A
                 TCC_OPEN_RIGHT
-                "ええと、まずは図書館で本を借りて、それからソ\フィアさんに魔法の練習を教えてもらって、午後はベロニカ姫とお茶会をするつもりよ。" TCC_PUSH_A
+                "ええと、まずは図書館で本を借りて、それから" TCC_NEWLINE
+                "ソ\フィアさんに魔法の練習を教えてもらって、" TCC_NEWLINE
+                "ごごはベロニカ姫とお茶会をするつもりよ。" TCC_PUSH_A
                 TCC_OPEN_LEFT
-                "なるほど、充実した一日だな。私は今日は戦略会議に出席しなければならない。それから訓練場で剣の稽古をする。" TCC_PUSH_A
+                "なるほど、充実した一日だな。私は今日は" TCC_NEWLINE
+                "戦略会議に出席しなければならない。" TCC_NEWLINE
+                "それから訓練場で剣の稽古をする。" TCC_PUSH_A
                 TCC_OPEN_RIGHT
-                "お兄様、いつも忙しそうね。でも、無理はしないでね。体調を崩したら大変だから。" TCC_PUSH_A
+                "お兄様、いつも忙しそうね。" TCC_NEWLINE
+                "でも、無理はしないでね。" TCC_NEWLINE
+                "体調を崩したら大変だから。" TCC_PUSH_A
                 TCC_OPEN_LEFT
-                "ありがとう、心配かけないようにするよ。でも、異界からやってきた英雄たちと共に戦っていると、故郷の平和な日々が懐かしくなるよ。いつになったらこの戦争が終わるのだろうか。" TCC_PUSH_A
+                "ありがとう、心配かけないようにするよ。" TCC_NEWLINE
+                "でも、異界からやってきた英雄たちと共に" TCC_NEWLINE
+                "戦っていると、故郷の平和な日々が" TCC_NEWLINE
+                "懐かしくなるよ。いつになったら" TCC_NEWLINE
+                "この戦争が終わるのだろうか。" TCC_PUSH_A
                 TCC_OPEN_RIGHT
-                "私もそう思うわ。でも、私たちは仲間たちと一緒に頑張っているんだから、きっといつかは夢が叶うと信じてる。お兄様もそう思わない？" TCC_PUSH_A
+                "私もそう思うわ。" TCC_NEWLINE
+                "でも、私たちは仲間たちと" TCC_NEWLINE
+                "一緒に頑張っているんだから、" TCC_NEWLINE
+                "きっといつかは夢が叶うと信じてる。" TCC_NEWLINE
+                "お兄様もそう思わない？" TCC_PUSH_A
                 TCC_OPEN_LEFT
-                "うん、そうだね。シャロンの笑顔を見ると、希望が湧いてくるよ。ありがとう、シャロン。" TCC_PUSH_A
+                "うん、そうだね。" TCC_NEWLINE
+                "シャロンの笑顔を見ると、" TCC_NEWLINE
+                "希望が湧いてくるよ。" TCC_NEWLINE
+                "ありがとう、シャロン。" TCC_PUSH_A
                 TCC_OPEN_RIGHT
-                "お兄様……" TCC_PUSH_A
+                "お兄様。。。" TCC_PUSH_A
                 TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
                 TCC_OPEN_RIGHT
@@ -1633,7 +1650,7 @@ const char* const texts[] = {
 
         [TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_TEMP] = TCC_OPEN_MID_LEFT
             TCC_LOAD_FACE PORTRAIT_SHARENA
-                TCC_OPEN_FAR_RIGHT 
+                TCC_OPEN_FAR_RIGHT
                 TCC_LOAD_FACE PORTRAIT_ANNA
                 "シャロン、怪我はありませんか。" TCC_PUSH_A
                 TCC_OPEN_MID_LEFT
@@ -1645,12 +1662,12 @@ const char* const texts[] = {
                 "ありがとうございます。" TCC_NEWLINE
                 TCC_OPEN_MID_RIGHT
                 TCC_CLEAR_FACE
-                TCC_OPEN_MID_LEFT 
+                TCC_OPEN_MID_LEFT
                 "隊長さんは優しいですね。" TCC_PUSH_A
                 TCC_CLEAR_FACE,
 
         [TEXT_NEW_PASSIVE_SKILL_UNLOCKED] = "新たなパッシブスキル",
-        
+
         [TEXT_UNIT_LEVEL_HELP] = "ユニットのレベルです"TCC_NEWLINE"最高３０レベルです",
 
         [TEXT_CHAP_18_OP] = TCC_OPEN_LEFT
@@ -2520,7 +2537,7 @@ const char* const texts[] = {
        [TEXT_ITEM_HELP_POISON_CLAW] = "毒がぬられた爪",
 
        [TEXT_ITEM_HELP_LETHAL_CLAW] = "毒がぬられた強力な爪",
-       
+
        [TEXT_JOB_HELP_BISHOP] = "死者に対し絶大な力を発揮する聖職者",
 
        [TEXT_JOB_NAME_WOLF] = "狼",
@@ -2629,7 +2646,7 @@ const char* const texts[] = {
                TCC_OPEN_RIGHT
                TCC_CLEAR_FACE,
 
-       [TEXT_SUPPORT_HRID_GUNNTHRA] = 
+       [TEXT_SUPPORT_HRID_GUNNTHRA] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HRID
@@ -2644,7 +2661,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_HRID_FJORM] = 
+       [TEXT_SUPPORT_HRID_FJORM] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HRID
@@ -2659,7 +2676,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_HRID_YURG] = 
+       [TEXT_SUPPORT_HRID_YURG] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_YLGR
@@ -2674,7 +2691,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_GUNNTHRA_FJORM] = 
+       [TEXT_SUPPORT_GUNNTHRA_FJORM] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_GUNNTHRA
@@ -2689,7 +2706,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_GUNNTHRA_YURG] = 
+       [TEXT_SUPPORT_GUNNTHRA_YURG] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_YLGR
@@ -2706,7 +2723,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_FJORM_YURG] = 
+       [TEXT_SUPPORT_FJORM_YURG] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_YLGR
@@ -2723,7 +2740,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_YURG_HELBINDI] = 
+       [TEXT_SUPPORT_YURG_HELBINDI] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_YLGR
@@ -2741,7 +2758,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_LOKI_SURTR] = 
+       [TEXT_SUPPORT_LOKI_SURTR] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_LOKI
@@ -2756,7 +2773,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_SURTR_LAEVATAIN] = 
+       [TEXT_SUPPORT_SURTR_LAEVATAIN] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_SURTR
@@ -2771,7 +2788,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_SURTR_LAEGJARN] = 
+       [TEXT_SUPPORT_SURTR_LAEGJARN] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_SURTR
@@ -2786,7 +2803,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_LAEVATAIN_LAEGJARN] = 
+       [TEXT_SUPPORT_LAEVATAIN_LAEGJARN] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_LAEVATAIN
@@ -2801,7 +2818,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_HEL_EIR] = 
+       [TEXT_SUPPORT_HEL_EIR] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_EIR
@@ -2818,7 +2835,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_HEL_LIF] = 
+       [TEXT_SUPPORT_HEL_LIF] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HEL
@@ -2833,7 +2850,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_HEL_SRASIR] = 
+       [TEXT_SUPPORT_HEL_SRASIR] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HEL
@@ -2848,7 +2865,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_LIF_SRASIR] = 
+       [TEXT_SUPPORT_LIF_SRASIR] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_LIF
@@ -2863,7 +2880,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_MIRABILIS_PEONY] = 
+       [TEXT_SUPPORT_MIRABILIS_PEONY] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_PEONY
@@ -2879,7 +2896,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_FREYJA_TRIANDRA] = 
+       [TEXT_SUPPORT_FREYJA_TRIANDRA] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_FREYJA
@@ -2894,7 +2911,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_FREYJA_PLUMERIA] = 
+       [TEXT_SUPPORT_FREYJA_PLUMERIA] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_FREYJA
@@ -2909,7 +2926,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_TRIANDRA_PLUMERIA] = 
+       [TEXT_SUPPORT_TRIANDRA_PLUMERIA] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_PLUMERIA
@@ -2924,7 +2941,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_GUSTAF_ALFONSE] = 
+       [TEXT_SUPPORT_GUSTAF_ALFONSE] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_GUSTAF
@@ -2939,7 +2956,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_GUSTAF_SHARENA] = 
+       [TEXT_SUPPORT_GUSTAF_SHARENA] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_GUSTAF
@@ -2954,7 +2971,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_AVATAR_ANNA] = 
+       [TEXT_SUPPORT_AVATAR_ANNA] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_HOOD
@@ -2967,14 +2984,14 @@ const char* const texts[] = {
                     "本当によかった。" TCC_NEWLINE TCC_PUSH_A
             TCC_OPEN_LEFT
                     "いいえ、全部隊長の指揮のおかけだよ。" TCC_NEWLINE
-                    "隊長はいつも私たちを勝利に導いていく。" TCC_NEWLINE 
+                    "隊長はいつも私たちを勝利に導いていく。" TCC_NEWLINE
                     "これからもよろしくお願いします！" TCC_NEWLINE TCC_PUSH_A
                     TCC_CLEAR_FACE
             TCC_OPEN_RIGHT
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_FREYR_FREYJA] = 
+       [TEXT_SUPPORT_FREYR_FREYJA] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE
                     PORTRAIT_FREYJA
@@ -2989,7 +3006,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_TRIANDRA_PEONY] = 
+       [TEXT_SUPPORT_TRIANDRA_PEONY] =
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_TRIANDRA
@@ -3005,7 +3022,7 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
-       [TEXT_SUPPORT_DAGR_NOTT] = 
+       [TEXT_SUPPORT_DAGR_NOTT] =
             TCC_OPEN_RIGHT
                 TCC_LOAD_FACE
                     PORTRAIT_DAGR
@@ -3101,10 +3118,10 @@ char *decodeText(int textID)
 
         return decodedText;
     }
-    
+
     if(p == lastText)
         return decodedText;
-    
+
     lastText = p;
 
     char *p0 = p;
@@ -3137,7 +3154,7 @@ char *decodeText(int textID)
             }
         }
     }
-    
+
     // add 0 to end string
     *q = 0;
 
@@ -3145,7 +3162,7 @@ char *decodeText(int textID)
     {
         Debugf("AutoNewLine for text 0x%x, width %d -> %d", textID, getStringTextWidth(p0), getStringTextWidth(decodedText));
     }
-    
+
     return decodedText;
 }
 
