@@ -1598,19 +1598,23 @@ const char* const texts[] = {
             TCC_LOAD_FACE PORTRAIT_ALFONSE
                 TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_SHARENA
-                "ねえお兄ちゃん結婚しないの？" TCC_PUSH_A
                 TCC_OPEN_LEFT
-                "えっしないよ" TCC_PUSH_A
+                "シャロン、今日はどんな予\定があるんだ？" TCC_PUSH_A
                 TCC_OPEN_RIGHT
-                "なんで？" TCC_PUSH_A
+                "ええと、まずは図書館で本を借りて、それからソ\フィアさんに魔法の練習を教えてもらって、午後はベロニカ姫とお茶会をするつもりよ。" TCC_PUSH_A
                 TCC_OPEN_LEFT
-                "俺には心に決めた人がいるから。。。" TCC_NEWLINE
-                "その人が振り向いてくれるのを" TCC_NEWLINE
-                "１０年間ずっと待ってるんだよ（適当）" TCC_PUSH_A
+                "なるほど、充実した一日だな。私は今日は戦略会議に出席しなければならない。それから訓練場で剣の稽古をする。" TCC_PUSH_A
                 TCC_OPEN_RIGHT
-                "ただモテないだけでしょ？" TCC_PUSH_A
+                "お兄様、いつも忙しそうね。でも、無理はしないでね。体調を崩したら大変だから。" TCC_PUSH_A
                 TCC_OPEN_LEFT
-                "ぶっころすぞ" TCC_PUSH_A
+                "ありがとう、心配かけないようにするよ。でも、異界からやってきた英雄たちと共に戦っていると、故郷の平和な日々が懐かしくなるよ。いつになったらこの戦争が終わるのだろうか。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "私もそう思うわ。でも、私たちは仲間たちと一緒に頑張っているんだから、きっといつかは夢が叶うと信じてる。お兄様もそう思わない？" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "うん、そうだね。シャロンの笑顔を見ると、希望が湧いてくるよ。ありがとう、シャロン。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "お兄様……" TCC_PUSH_A
+                TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
                 TCC_OPEN_RIGHT
                 TCC_CLEAR_FACE,
