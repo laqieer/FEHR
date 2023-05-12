@@ -1594,7 +1594,7 @@ const char* const texts[] = {
         [TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_NAME] = "奥義のこどう",
         [TEXT_ITEM_SACRED_SEAL_QUICKENED_PULSE_HELP] = "１ターン目開始時、奥義発動カウントー１",
 
-        [TEXT_SUPPORT_CONVERSATION_ALFONSE_SHARENA_TEMP] = TCC_OPEN_LEFT
+        [TEXT_SUPPORT_CONVERSATION_ALFONSE_SHARENA_C] = TCC_OPEN_LEFT
             TCC_LOAD_FACE PORTRAIT_ALFONSE
                 TCC_OPEN_RIGHT
                 TCC_LOAD_FACE PORTRAIT_SHARENA
@@ -1631,6 +1631,124 @@ const char* const texts[] = {
                 "ありがとう、シャロン。" TCC_PUSH_A
                 TCC_OPEN_RIGHT
                 "お兄様。。。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+                TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_ALFONSE_SHARENA_B] = TCC_OPEN_LEFT
+            TCC_LOAD_FACE PORTRAIT_ALFONSE
+                TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_SHARENA
+                "お兄ちゃん、今日はどんな訓練を" TCC_NEWLINE
+                "しましょうか？" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "ええと、私は剣の技術を磨きたい" TCC_NEWLINE
+                "と思っているけど、シャロンはどうかな？" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "私も剣の技術を磨きたいです。" TCC_NEWLINE
+                "でも、それだけではなくて、" TCC_NEWLINE
+                "他の武器も使えるようになりたいです。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "そうか。じゃあ、何か試してみたい" TCC_NEWLINE
+                "武器はあるかな？" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "ええと、私は。。。槍に興味があります。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "槍？シャロンは槍が好きなんだね。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "はい、好きです。槍はリーチが長くて、" TCC_NEWLINE
+                "命中率が高くて、突き刺すと気持ちがいいです。" TCC_NEWLINE TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "なるほど。私も槍は嫌いじゃないよ。" TCC_NEWLINE
+                "特に、敵の移動を制限することができる" TCC_NEWLINE
+                "槍が有効だと思う。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "私は攻撃力を上げることができる槍が好きです。" TCC_NEWLINE
+                "敵の防御を貫いて一撃で倒します。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "ふふ、それぞれ違う槍が好きなんだね。" TCC_NEWLINE
+                "でも、それがいいと思うよ。" TCC_NEWLINE
+                "色々な槍があるからこそ、" TCC_NEWLINE
+                "戦闘は面白いんだから。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "そうですね。色々な槍があるからこそ、" TCC_NEWLINE
+                "戦略や判断力が問われます。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "そうだね。さあ、行こうか。" TCC_NEWLINE
+                "訓練場に着くまでにはまだ少し走るから。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "はい、行きましょう。" TCC_NEWLINE
+                "アルフォンスと一緒に" TCC_NEWLINE
+                "槍を振るのが楽しみです。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+                TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_ALFONSE_SHARENA_A] = TCC_OPEN_LEFT
+            TCC_LOAD_FACE PORTRAIT_ALFONSE
+                TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_SHARENA
+                TCC_OPEN_LEFT
+                "この戦いは終わりが見えないな。" TCC_NEWLINE
+                "敵はどこからともなく現れるし、" TCC_NEWLINE
+                "味方は次々と倒れていく。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "でも、兄さん。" TCC_NEWLINE
+                "私たちはあきらめられないよ。" TCC_NEWLINE
+                "アスク王国を守るために、" TCC_NEWLINE
+                "戦わなくちゃ。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "そうだね。" TCC_NEWLINE
+                "君はいつも勇気づけてくれるね。" TCC_NEWLINE
+                "ありがとう、シャロン。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "兄さんこそ、" TCC_NEWLINE"いつも私を守ってくれてありがとう。" TCC_NEWLINE
+                "私は兄さんが大好きだよ。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "えっ、そうかい？" TCC_NEWLINE
+                "それは嬉しいな。" TCC_NEWLINE
+                "私も君が大好きだよ。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "ほんと？じゃあ、兄さん。" TCC_NEWLINE
+                "私に一つだけ約束してほしい" TCC_NEWLINE
+                "ことがあるんだけど。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "なんだい？" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "この戦いが終わったら、" TCC_NEWLINE
+                "私と一緒に旅に出てくれる？" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "旅？どこに行くんだい？" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "どこでもいいの。" TCC_NEWLINE
+                "私たちは色々な世界を見てきたけど、" TCC_NEWLINE
+                "本当に自分たちの目で見たい" TCC_NEWLINE
+                "ところがたくさんあるの。" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "そうか。確かに、私もそう思うよ。" TCC_NEWLINE
+                "でも、王国を放っておけるかな？" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "大丈夫だよ。" TCC_NEWLINE
+                "王国は父様やキランさんや仲間たちが" TCC_NEWLINE
+                "守ってくれるから。" TCC_NEWLINE
+                "私たちは少しだけ自分の時間を" TCC_NEWLINE
+                "楽しんでもいいんじゃないかな？" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "うーん、それもそうだね。" TCC_NEWLINE
+                "じゃあ、約束するよ。" TCC_NEWLINE
+                "この戦いが終わったら、" TCC_NEWLINE
+                "君と一緒に旅に出よう。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "やった！ありがとう、兄さん！" TCC_NEWLINE
+                "私、すごく嬉しいよ！" TCC_PUSH_A
+                TCC_OPEN_LEFT
+                "私もだよ。さあ、行こうか。" TCC_NEWLINE
+                "敵はまだ待ってくれないからね。" TCC_PUSH_A
+                TCC_OPEN_RIGHT
+                "うん！兄さんと一緒なら、" TCC_NEWLINE
+                "どんな敵も怖くないよ！" TCC_PUSH_A
                 TCC_OPEN_LEFT
                 TCC_CLEAR_FACE
                 TCC_OPEN_RIGHT
