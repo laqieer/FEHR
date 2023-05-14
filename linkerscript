@@ -501,6 +501,7 @@ SECTIONS
 	INCLUDE ../lds/affinity.ld
 	INCLUDE ../lds/patch_sound_compression_support.ld
 	INCLUDE ../lds/patch_list_all_allied_units_for_debug.ld
+	INCLUDE ../lds/patch_unlock_support_conversations.ld
 	. = 0xE007400;
 	.bss.skill : {*/skill.*(.bss.g*)}
 	.bss.buff : {*/buff.*(.bss.*)}
