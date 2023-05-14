@@ -433,8 +433,8 @@ SECTIONS
 	.rodata.pCharacters12 : {*(.rodata.pCharacters12)}
 	. = 0x809dfac;
 	.rodata.pCharacters13 : {*(.rodata.pCharacters13)}
-	. = 0x809f7b0;
-	.rodata.pCharacters14 : {*(.rodata.pCharacters14)}
+	/*. = 0x809f7b0;
+	.rodata.pCharacters14 : {*(.rodata.pCharacters14)}*/
 	. = 0x809f888;
 	.rodata.pCharacters15 : {*(.rodata.pCharacters15)}
 	. = 0x80b9494;

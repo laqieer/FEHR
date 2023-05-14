@@ -14,8 +14,8 @@
 .rodata.pSupportConversations6 : {*(.rodata.pSupportConversations6)}
 . = 0x809F730;
 .rodata.pSupportConversations7 : {*(.rodata.pSupportConversations7)}
-. = 0x809F83C;
-.rodata.pSupportConversations8 : {*(.rodata.pSupportConversations8)}
+/*. = 0x809F83C;
+.rodata.pSupportConversations8 : {*(.rodata.pSupportConversations8)}*/
 . = 0x809F8AC;
 .rodata.pSupportConversations9 : {*(.rodata.pSupportConversations9)}
 . = 0x8026b7e;

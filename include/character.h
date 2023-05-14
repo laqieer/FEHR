@@ -19,6 +19,8 @@ struct SupportData
     u8 supportNumber;
 };
 
+extern const struct SupportData supportDataTable[];
+
 struct Character {
     // 人物名字
     u16 nameTextId;
@@ -410,6 +412,8 @@ struct SupportConversation
     int rankC;
     int unk;
 };
+
+extern const struct SupportConversation supportConversations[];
 
 extern struct Unit *unitAtLeft;
 extern struct Unit *unitAtRight;
