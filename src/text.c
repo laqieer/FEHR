@@ -3519,6 +3519,303 @@ const char* const texts[] = {
                 TCC_CLEAR_FACE
         ,
 
+       [TEXT_SUPPORT_AVATAR_ANNA_C] =
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_AVATAR
+                "アンナさん、" TCC_NEWLINE
+                "ちょっといいですか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "あら、"TCC_SUMMONER_NAME"さん。" TCC_NEWLINE
+                "どうしたの？" TCC_NEWLINE
+                "何か用事でも？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "実は、この前の戦闘でお世話になった" TCC_NEWLINE
+                "お礼を言いたくて。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ええ、それはどういたしまして。" TCC_NEWLINE
+                "私はただ、仲間を助けたかっただけよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "でも、あなたは自分の身を危険に" TCC_NEWLINE
+                "さらしてまで私を守ってくれました。" TCC_NEWLINE
+                "それに、あの時の作戦も" TCC_NEWLINE
+                "あなたの提案でしたよね。" TCC_NEWLINE
+                "あれがなかったら、" TCC_NEWLINE
+                "私たちは勝てなかったかもしれません。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そう言ってもらえると嬉しいわ。" TCC_NEWLINE
+                "私は戦闘のことなら得意なんだから。" TCC_NEWLINE
+                "商売のセンスもあるしね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "商売のセンス？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ええ、私は商人なのよ。" TCC_NEWLINE
+                "戦場で見つけた貴重品や" TCC_NEWLINE
+                "敵の装備品を売ったり買ったりして、" TCC_NEWLINE
+                "利益を得るのが趣味なの。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "趣味？！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そうよ、趣味。" TCC_NEWLINE
+                "だって、商売は楽しいものじゃないと" TCC_NEWLINE
+                "ダメでしょ？" TCC_NEWLINE
+                "お金を稼ぐだけじゃつまらないわ。" TCC_NEWLINE
+                "お客さんと交渉したり、" TCC_NEWLINE
+                "競争相手と駆け引きしたり、" TCC_NEWLINE
+                "新しい商品を探したりするのが面白いのよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "すごいですね。" TCC_NEWLINE
+                "私には想像もつきません。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そう？" TCC_NEWLINE
+                "でも、あなたもすごいわよ。" TCC_NEWLINE
+                "召喚師として英雄たちを呼び出したり、" TCC_NEWLINE
+                "指揮官として作戦を立てたりするのは" TCC_NEWLINE
+                "大変でしょう？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "ええ、それなりに大変ですが。。。" TCC_NEWLINE
+                "でも、私は仲間や国を守るために" TCC_NEWLINE
+                "やっているだけです。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "私も同じよ。" TCC_NEWLINE
+                "仲間や国を守るために" TCC_NEWLINE
+                "戦っているんだから。" TCC_NEWLINE
+                "それに、戦闘中に見つけた物品は" TCC_NEWLINE
+                "自分のものにする権利があると思うのよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうですか。。。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "もちろん、" TCC_NEWLINE
+                "必要な物品は仲間に分け与えるわよ。" TCC_NEWLINE
+                "私は強欲ではないから。" TCC_NEWLINE
+                "でも、余分な物品は自由に" TCC_NEWLINE
+                "扱ってもいいでしょ？" TCC_NEWLINE
+                "それが商人のだいごみなんだから。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "なるほど。。。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_SUMMONER_NAME"さんも興味があったら、" TCC_NEWLINE
+                "一緒に商売してみませんか？" TCC_NEWLINE
+                "私が教えてあげるわよ。" TCC_NEWLINE
+                "商売のコツやテクニックをね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "えっ、私にできるでしょうか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "できるできる。" TCC_NEWLINE
+                "あなたは頭がいいし、" TCC_NEWLINE
+                "人望もあるし、" TCC_NEWLINE
+                "素質は十\分よ。" TCC_NEWLINE
+                "私と一緒になれば、" TCC_NEWLINE
+                "すぐに商売のプロになれるわ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そう言われると、" TCC_NEWLINE
+                "ちょっと興味がわきますね。。。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "それなら、" TCC_NEWLINE
+                "さっそく始めましょうか？" TCC_NEWLINE
+                "私が持っているこの宝石を、" TCC_NEWLINE
+                "あなたに売ってあげましょう。" TCC_NEWLINE
+                "どうですか？" TCC_NEWLINE
+                "この輝き、この色合い、この重さ。" TCC_NEWLINE
+                "これはとても貴重なものなんですよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "本当ですか？" TCC_NEWLINE
+                "でも、私にはお金がありません。。。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "大丈夫よ。" TCC_NEWLINE
+                "今回は特別に、" TCC_NEWLINE
+                "あなたにサービスしてあげるわ。" TCC_NEWLINE
+                "ただし、条件があるのよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "条件？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ええ。" TCC_NEWLINE
+                "この宝石を受け取ったら、" TCC_NEWLINE
+                "私とレベルＣの支援関係に" TCC_NEWLINE
+                "なってくれること。" TCC_NEWLINE
+                "それだけよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "えっ？！" TCC_NEWLINE
+                TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_AVATAR_ANNA_B] =
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_AVATAR
+                "アンナさん、" TCC_NEWLINE
+                "ちょっといいですか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "あら、" TCC_NEWLINE
+                TCC_SUMMONER_NAME"さん。" TCC_NEWLINE
+                "どうしたの？" TCC_NEWLINE
+                "何か用事でも？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "実は、この前あなたからもらった" TCC_NEWLINE
+                "宝石についてなんですが。。。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ああ、あれね。" TCC_NEWLINE
+                "どうしたの？" TCC_NEWLINE
+                "気に入ってくれたかしら？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "ええ、とてもきれいで" TCC_NEWLINE
+                "素敵な宝石です。" TCC_NEWLINE
+                "でも、それが問題なんです。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "問題？" TCC_NEWLINE
+                "どういうこと？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "この宝石、" TCC_NEWLINE
+                "実はとても高価なものだと聞きました。" TCC_NEWLINE
+                "戦場で見つけたものだと言っていましたが、" TCC_NEWLINE
+                "本当にそうなんですか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ええ、もちろんよ。" TCC_NEWLINE
+                "私は嘘はつかないから。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "でも、こんなに貴重なものを" TCC_NEWLINE
+                "私にタダでくれるなんて、" TCC_NEWLINE
+                "ありえませんよ。" TCC_NEWLINE
+                "何か裏があるんじゃないですか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "裏？そんなことないわよ。" TCC_NEWLINE
+                "私はただ、あなたに感謝の" TCC_NEWLINE
+                "気持ちを伝えたかっただけよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "感謝の気持ち？" TCC_NEWLINE
+                "私に？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ええ。" TCC_NEWLINE
+                "あなたは私にとって" TCC_NEWLINE
+                "大切な仲間だから。" TCC_NEWLINE
+                "私は仲間を大事にするタイプなのよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうですか。。。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そうよ。" TCC_NEWLINE
+                "だから、" TCC_NEWLINE
+                "この宝石は私からのプレゼントなの。" TCC_NEWLINE
+                "あなたが喜んでくれると" TCC_NEWLINE
+                "思って渡したのよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "でも、これは私には重すぎます。" TCC_NEWLINE
+                "こんなに高価なものを受け取る" TCC_NEWLINE
+                "資格はありません。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そんなこと言わないでよ。" TCC_NEWLINE
+                "あなたは十\分に価値があるわ。" TCC_NEWLINE
+                "私はあなたのことを尊敬しているし、" TCC_NEWLINE
+                "信頼しているし、" TCC_NEWLINE
+                "好きだし。。。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "好き？" TCC_NEWLINE
+                TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                "えっ？！" TCC_NEWLINE
+                TCC_PUSH_A
+                TCC_CLEAR_FACE
+        ,
+
+       [TEXT_SUPPORT_AVATAR_ANNA_A] =
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_AVATAR
+                "アンナさん、" TCC_NEWLINE
+                "ちょっといいですか？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "あら、"TCC_SUMMONER_NAME"さん。" TCC_NEWLINE
+                "どうしたの？" TCC_NEWLINE
+                "何か用事でも？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "実は、この前のあなたの発言" TCC_NEWLINE
+                "についてなんですが。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ああ、あれね。" TCC_NEWLINE
+                "どうしたの？" TCC_NEWLINE
+                "気になっていたの？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "ええ、とても気になっていました。" TCC_NEWLINE
+                "あなたは私のことを好きだと" TCC_NEWLINE
+                "言いましたよね。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ええ、そう言いました。" TCC_NEWLINE
+                "それがどうかしました？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "それがどうかしたというか。。。" TCC_NEWLINE
+                "あなたは私に何を求めているんですか？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "求めている？" TCC_NEWLINE
+                "そんなことはないわよ。" TCC_NEWLINE
+                "私はただ、" TCC_NEWLINE
+                "あなたに自分の気持ちを" TCC_NEWLINE
+                "伝えたかっただけよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "自分の気持ち？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ええ。" TCC_NEWLINE
+                "私はあなたのことを好きなんだから。" TCC_NEWLINE
+                "恋愛感情で好きなんだから。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "恋愛感情？！" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そうよ。恋愛感情。" TCC_NEWLINE
+                "あなたは私のことをどう思っているの？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "私は。。。" TCC_NEWLINE TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+        ,
+
        [TEXT_SUPPORT_FREYR_FREYJA] =
            TCC_OPEN_LEFT
                 TCC_LOAD_FACE

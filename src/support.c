@@ -417,9 +417,9 @@ const struct SupportConversation supportConversations[] = {
     {
         CHARACTER_ID_AVATAR,
         CHARACTER_ANNA_ID,
-        TEXT_SUPPORT_AVATAR_ANNA,
-        TEXT_SUPPORT_AVATAR_ANNA,
-        TEXT_SUPPORT_AVATAR_ANNA,
+        TEXT_SUPPORT_AVATAR_ANNA_C,
+        TEXT_SUPPORT_AVATAR_ANNA_B,
+        TEXT_SUPPORT_AVATAR_ANNA_A,
         0
     },
     {
