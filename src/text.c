@@ -1931,6 +1931,251 @@ const char* const texts[] = {
             TCC_OPEN_RIGHT
                 TCC_CLEAR_FACE,
 
+        [TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_C] =
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_SHARENA
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+            TCC_OPEN_LEFT
+                "あの、アンナさん、" TCC_NEWLINE
+                "ちょっとお話しできますか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "もちろん、シャロンちゃん。" TCC_NEWLINE
+                "どうしたの？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "実は、私、" TCC_NEWLINE
+                "アンナさんに憧れているんです。" TCC_NEWLINE
+                "あなたは商売上手で、" TCC_NEWLINE
+                "冒険好きで、" TCC_NEWLINE
+                "自由奔放で。。。" TCC_NEWLINE
+                "私もそんな風になりたいんです。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ええっ？" TCC_NEWLINE"私に憧れてるの？" TCC_NEWLINE
+                "それは嬉しいけど、" TCC_NEWLINE
+                "私だって完璧じゃないよ。" TCC_NEWLINE
+                "失敗もたくさんしてるし、" TCC_NEWLINE
+                "困難もたくさん乗り越えてきたし。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "でも、それでも前向きに" TCC_NEWLINE
+                "生きているんですよね。" TCC_NEWLINE
+                "私は。。。" TCC_NEWLINE
+                "自分に自信がなくて、" TCC_NEWLINE
+                "いつも人に頼ってばかりで。" TCC_NEWLINE
+                "だから、" TCC_NEWLINE
+                "アンナさんに教えてほしいんです。" TCC_NEWLINE
+                "どうしたら、" TCC_NEWLINE
+                "あなたみたいに強くなれるんですか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "うーん、" TCC_NEWLINE
+                "それは難しい質問だなぁ。" TCC_NEWLINE
+                "私も自分で自分を強くしたわけじゃないし。" TCC_NEWLINE
+                "でも、ひとつ言えることは。。。" TCC_NEWLINE
+                "自分を信じることかな。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "自分を信じること。。。？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そう。" TCC_NEWLINE
+                "自分には何かできることがあるって思うこと。" TCC_NEWLINE
+                "自分には価値があるって思うこと。" TCC_NEWLINE
+                "自分には夢があるって思うこと。" TCC_NEWLINE
+                "そうやって自分をこうていすると、" TCC_NEWLINE
+                "自信がつくし、" TCC_NEWLINE
+                "勇気が出るし、" TCC_NEWLINE
+                "楽しくなるよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうなんですか。。。？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "もちろん。" TCC_NEWLINE
+                "だから、" TCC_NEWLINE
+                "シャロンちゃんも、" TCC_NEWLINE
+                "自分の良いところを見つけて、" TCC_NEWLINE
+                "褒めてあげてね。" TCC_NEWLINE
+                "私はシャロンちゃんのことを" TCC_NEWLINE
+                "素直で優しくて可愛いって思ってるよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "あっ。。。" TCC_NEWLINE
+                "ありがとうございます。" TCC_NEWLINE
+                "アンナさんのお言葉、" TCC_NEWLINE
+                "心に刻みます。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "いい子だね。" TCC_NEWLINE
+                "これからも仲良くしてね。" TCC_NEWLINE
+                "私もシャロンちゃんのことを" TCC_NEWLINE
+                "応援してるから。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "はい！" TCC_NEWLINE
+                "アンナさん、" TCC_NEWLINE
+                "これからもよろしくお願いします！" TCC_NEWLINE
+                TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_B] =
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_SHARENA
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+                "シャロンちゃん、" TCC_NEWLINE
+                "今日は一緒に買い物に行こうよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "えっ、買い物ですか？" TCC_NEWLINE
+                "でも、私、お金があまりなくて。。。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "大丈夫、大丈夫。" TCC_NEWLINE
+                "私がおごってあげるよ。" TCC_NEWLINE
+                "それに、買い物といっても、" TCC_NEWLINE
+                "見るだけでも楽しいんだから。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうですか。。。？" TCC_NEWLINE
+                "でも、アンナさんは見るだけで" TCC_NEWLINE
+                "満足できるんですか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "もちろん、できないよ。" TCC_NEWLINE
+                "だから、見つけたら即買いするの。" TCC_NEWLINE
+                "それが商売の鉄則だからね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "商売の鉄則。。。？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そう。" TCC_NEWLINE
+                "迷ったら買え。" TCC_NEWLINE
+                "後悔したら売れ。" TCC_NEWLINE
+                "それが私のモットーだよ。" TCC_NEWLINE
+                "だから、" TCC_NEWLINE
+                "私はいつもお金に困らないし、" TCC_NEWLINE
+                "楽しく暮らせるんだ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "すごいですね。。。" TCC_NEWLINE
+                "でも、私には無理です。" TCC_NEWLINE
+                "私はお金を使うのが怖くて、" TCC_NEWLINE
+                "いつも節約してばかりで。" TCC_NEWLINE
+                "だから、買い物に行っても、" TCC_NEWLINE
+                "自分に必要なものしか買えないんです。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そんなこと言わないでよ。" TCC_NEWLINE
+                "シャロンちゃんは自分に甘くないとダメだよ。" TCC_NEWLINE
+                "自分にご褒美をあげることも大切だからね。" TCC_NEWLINE
+                "たまには気分転換に、" TCC_NEWLINE
+                "自分の好きなものを買ってみたら？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "自分の好きなもの。。。？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そう。" TCC_NEWLINE
+                "例えば、" TCC_NEWLINE
+                "可愛い服とか、" TCC_NEWLINE
+                "美味しいお菓子とか、" TCC_NEWLINE
+                "素敵なアクセサリーとか。" TCC_NEWLINE
+                "そういうものを身につけたり食べたりすると、" TCC_NEWLINE
+                "気分が上がるし、" TCC_NEWLINE
+                "自信も出るよ。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうなんですか。。。？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "もちろん。" TCC_NEWLINE
+                "だから、" TCC_NEWLINE
+                "今日は私と一緒に、" TCC_NEWLINE
+                "シャロンちゃんの好きなものを" TCC_NEWLINE
+                "探してみようよ。" TCC_NEWLINE
+                "私も一緒に選んであげるから。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "あっ。。。" TCC_NEWLINE
+                "ありがとうございます。" TCC_NEWLINE
+                "アンナさん、" TCC_NEWLINE
+                "優しいですね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "いえいえ。" TCC_NEWLINE
+                "私はシャロンちゃんの笑顔が" TCC_NEWLINE
+                "見たいだけだよ。" TCC_NEWLINE
+                "さあ、行こうか。" TCC_NEWLINE
+                "今日は楽しい一日になりそうだね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "はい！" TCC_NEWLINE
+                "アンナさん、" TCC_NEWLINE
+                "今日は本当にありがとうございます！" TCC_NEWLINE
+                TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_A] =
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_SHARENA
+                "アンナさん、" TCC_NEWLINE
+                "今日は私に付き合ってくれて" TCC_NEWLINE
+                "ありがとうございました。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "いえいえ、" TCC_NEWLINE"こちらこそ、" TCC_NEWLINE
+                "シャロンちゃんと一緒に" TCC_NEWLINE
+                "買い物ができて楽しかったよ。" TCC_NEWLINE
+                "シャロンちゃん、" TCC_NEWLINE
+                "いろいろなものを買ったね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "はい。" TCC_NEWLINE
+                "アンナさんのおかげで、" TCC_NEWLINE
+                "自分の好きなものを見つける" TCC_NEWLINE
+                "ことができました。" TCC_NEWLINE
+                "アンナさんは私にとって、" TCC_NEWLINE
+                "良き先生であり、" TCC_NEWLINE
+                "良き友人でもあります。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "あら、" TCC_NEWLINE
+                "そんなに褒められると照れちゃうな。" TCC_NEWLINE
+                "私もシャロンちゃんのことを、" TCC_NEWLINE
+                "大切な友人だと思ってるよ。" TCC_NEWLINE
+                "だから、これからも仲良くしてね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "はい、もちろんです。" TCC_NEWLINE
+                "アンナさんと一緒にいると、" TCC_NEWLINE
+                "私は自分を信じられるようになりました。" TCC_NEWLINE
+                "アンナさんは私に勇気と希望をくれました。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そう言ってもらえると嬉しいよ。" TCC_NEWLINE
+                "私もシャロンちゃんから" TCC_NEWLINE
+                "たくさんのことを学びました。" TCC_NEWLINE
+                "シャロンちゃんは私に" TCC_NEWLINE
+                "優しさと真心をくれました。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "アンナさん。。。" TCC_NEWLINE
+                TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
         [TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_TEMP] = TCC_OPEN_MID_LEFT
             TCC_LOAD_FACE PORTRAIT_SHARENA
                 TCC_OPEN_FAR_RIGHT
