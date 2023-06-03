@@ -1766,6 +1766,171 @@ const char* const texts[] = {
                 TCC_OPEN_LEFT
                 TCC_CLEAR_FACE,
 
+        [TEXT_SUPPORT_CONVERSATION_ALFONSE_ANNA_C] =
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+                "アンナ隊長、" TCC_NEWLINE
+                "ちょっとお時間いただけますか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "もちろん、アルフォンス王子。" TCC_NEWLINE
+                "何でしょう？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "最近、私たちの軍団が拡大している" TCC_NEWLINE
+                "ことについて考えていました。" TCC_NEWLINE
+                "新しい英雄たちが加わり、" TCC_NEWLINE
+                "私たちの力は確実に強くなっています。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そうですね。" TCC_NEWLINE
+                "私たちの軍団はますます強くなっています。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "でも、それだけではありません。" TCC_NEWLINE
+                "私たちは、新しい英雄たちとの絆" TCC_NEWLINE
+                "を深めることも大切だと思います。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "確かに、絆は非常に重要です。" TCC_NEWLINE
+                "英雄たちがお互いを信頼し、" TCC_NEWLINE
+                "助け合うことができれば、" TCC_NEWLINE
+                "私たちの力はさらに強くなります。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうですね。" TCC_NEWLINE
+                "私たちは、英雄たちとの絆を深めるために" TCC_NEWLINE
+                "もっと努力しなければなりません。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "私もそう思います。" TCC_NEWLINE
+                "私たちは、" TCC_NEWLINE
+                "英雄たちと一緒に訓練したり、" TCC_NEWLINE
+                "お茶会を開いたりして、" TCC_NEWLINE
+                "絆を深めることができます。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうしましょう。" TCC_NEWLINE
+                "私たちの軍団がさらに強くなるように、" TCC_NEWLINE
+                "一緒に頑張りましょう。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "はい、王子。" TCC_NEWLINE
+                "一緒に頑張りましょう。" TCC_NEWLINE
+                TCC_PUSH_A
+                TCC_CLEAR_FACE,
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_ALFONSE_ANNA_B] =
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+                "よし、次は私と一緒に練習しよう！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_GENERIC_SOLDIER_BLUE
+                "はい、王子！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+                "さあ、次は私と一緒に！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_LEFT
+                TCC_LOAD_FACE PORTRAIT_GENERIC_SOLDIER_BLUE
+                "はい、隊長！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "よくやった！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "ありがとうございます、王子！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_RIGHT
+                "素晴らしい！" TCC_NEWLINE
+                "もっと頑張ろう！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_LEFT
+                "はい、隊長！" TCC_NEWLINE
+                "もっと頑張ります！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "皆さん、今日も素晴らしい訓練でした。" TCC_NEWLINE
+                "お互いに助け合いながら、" TCC_NEWLINE
+                "技術を磨きましょう。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_RIGHT
+                "そうですね。" TCC_NEWLINE
+                "私たちはお互いを信頼し合い、" TCC_NEWLINE
+                "助け合うことができれば、" TCC_NEWLINE
+                "私たちの力はさらに強くなります。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "はい！" TCC_NEWLINE
+                TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_FAR_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE
+            TCC_OPEN_FAR_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_ALFONSE_ANNA_A] =
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+                "このお茶、とても美味しいですね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_FAR_RIGHT
+                "本当に美味しいです。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ANNA
+                "このお菓子も絶品です。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_FAR_LEFT
+                "本当に美味しいです。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_FAR_RIGHT
+                "私は最近、剣術の練習に夢中です。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_FAR_LEFT
+                "私もそうです。" TCC_NEWLINE
+                "剣術は本当に奥が深いですよね。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_FAR_RIGHT
+                "私は最近、料理に興味があります。" TCC_NEWLINE
+                "新しいレシピを試してみるのが" TCC_NEWLINE
+                "楽しいです。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "私も料理が好きです。" TCC_NEWLINE
+                "一緒に料理を作ってみませんか？" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_FAR_RIGHT
+                "それは良いですね！" TCC_NEWLINE
+                "ぜひ一緒に料理を作りましょう！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "皆さん、今日も楽しい時間を" TCC_NEWLINE
+                "ありがとうございました。" TCC_NEWLINE
+                "また一緒にお茶会を開きましょう。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そうですね。" TCC_NEWLINE
+                "私たちはお互いを知り合い、" TCC_NEWLINE
+                "絆を深めることができます。" TCC_NEWLINE
+                "また一緒に楽しい時間を過ごしましょう。" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_FAR_FAR_LEFT
+                "はい！" TCC_NEWLINE
+                TCC_PUSH_A
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
         [TEXT_SUPPORT_CONVERSATION_ANNA_SHARENA_TEMP] = TCC_OPEN_MID_LEFT
             TCC_LOAD_FACE PORTRAIT_SHARENA
                 TCC_OPEN_FAR_RIGHT
