@@ -3163,6 +3163,250 @@ const char* const texts[] = {
                TCC_OPEN_RIGHT
                TCC_CLEAR_FACE,
 
+        [TEXT_SUPPORT_AVATAR_TAKUMI_C] =
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_AVATAR
+                "タクミ、ちょっといいかな？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_TAKUMI
+                "ん？何だよ、"TCC_SUMMONER_NAME"。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "君は弓の使い手だよね。" TCC_NEWLINE
+                "僕も弓に興味があってさ。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "興味があるだけで" TCC_NEWLINE
+                "弓が使えると思ってるのか？" TCC_NEWLINE
+                "弓は簡単に扱える武器じゃないぞ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうだろうね。" TCC_NEWLINE
+                "だからこそ、" TCC_NEWLINE
+                "君に教えてもらいたいんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "教えてもらいたい？" TCC_NEWLINE
+                "お前、俺に何か恩でもあるのか？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "恩？" TCC_NEWLINE
+                "いや、そういうわけじゃなくて。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "じゃあ何で俺に頼むんだ？" TCC_NEWLINE
+                "他に弓の使い手はいくらでもいるだろう。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "確かにそうだけど。。。" TCC_NEWLINE
+                "君は特別だと思うんだ。" TCC_NEWLINE
+                "弓の扱い方はもちろん、" TCC_NEWLINE
+                "戦闘の判断力や気迫も素晴らしい。" TCC_NEWLINE
+                "僕は君に憧れてるんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "憧れてる？" TCC_NEWLINE
+                "お前、本気で言ってるのか？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "本気だよ。" TCC_NEWLINE
+                "僕は君のような弓の使い手になりたいんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "。。。ふん。" TCC_NEWLINE
+                "そう言われても困るな。" TCC_NEWLINE
+                "俺はお前の師匠になる気はないぞ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そうか。。。" TCC_NEWLINE
+                "残念だけど、仕方ないね。" TCC_NEWLINE
+                "でも、僕は諦めないよ。" TCC_NEWLINE
+                "君が教えてくれるまで、" TCC_NEWLINE
+                "頑張って練習するよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "。。。まったく、しつこい奴だな。" TCC_NEWLINE
+                "。。。分かったよ。" TCC_NEWLINE
+                "一回だけな。" TCC_NEWLINE
+                "一回だけ、" TCC_NEWLINE
+                "弓の基礎を教えてやる。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "本当かい？" TCC_NEWLINE
+                "やった！" TCC_NEWLINE
+                "ありがとう、タクミ！" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "感謝するなら早く準備しろよ。" TCC_NEWLINE
+                "時間がもったいない。" TCC_NEWLINE
+                "それに、俺は厳しいぞ。" TCC_NEWLINE
+                "泣き言は聞かないからな。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "大丈夫だよ。" TCC_NEWLINE
+                "僕は君について行ける自信があるから。" TCC_NEWLINE
+                "さあ、行こう！" TCC_NEWLINE TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_AVATAR_TAKUMI_B] =
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_AVATAR
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_TAKUMI
+                "おい、"TCC_SUMMONER_NAME"。" TCC_NEWLINE
+                "今日の練習はどうだった？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "タクミ、こんにちは。" TCC_NEWLINE
+                "今日の練習は。。。" TCC_NEWLINE
+                "まあまあかな。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "まあまあ？" TCC_NEWLINE
+                "それじゃあダメだぞ。" TCC_NEWLINE
+                "もっと自信を持てよ。" TCC_NEWLINE
+                "お前は弓の才能\があるんだから。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そう言ってくれると嬉しいけど。。。" TCC_NEWLINE
+                "でも、まだまだ足りないよ。" TCC_NEWLINE
+                "君のように的確に狙えないし、" TCC_NEWLINE
+                "動きもぎこちないし。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そんなことないぞ。" TCC_NEWLINE
+                "お前はすごく上達してる。" TCC_NEWLINE
+                "俺が教えたことをしっかり覚えて、" TCC_NEWLINE
+                "実践に活かしてる。" TCC_NEWLINE
+                "俺はお前の成長を誇りに思うよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "本当？" TCC_NEWLINE
+                "ありがとう、タクミ。" TCC_NEWLINE
+                "君のおかげで弓に対する情熱が湧いてきたよ。" TCC_NEWLINE
+                "君は僕にとって最高の師匠だよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "師匠か。。。" TCC_NEWLINE
+                "そんな大それたことを言われても困るな。" TCC_NEWLINE
+                "俺はただ、" TCC_NEWLINE
+                "お前に弓の楽しさを伝えたかっただけだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "弓の楽しさ。。。" TCC_NEWLINE
+                "君は弓が好きなんだね。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "当然だろう。" TCC_NEWLINE
+                "弓は俺の命だからな。" TCC_NEWLINE
+                "俺は弓があれば何でもできると思ってる。" TCC_NEWLINE
+                "敵を倒すのはもちろん、" TCC_NEWLINE
+                "仲間を守るのも、" TCC_NEWLINE
+                "自分を表\現するのも。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "自分を表\現する？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ああ。" TCC_NEWLINE
+                "弓は言葉よりも強いと思うんだ。" TCC_NEWLINE
+                "言葉は嘘をつくことができるけど、" TCC_NEWLINE
+                "弓は嘘をつかない。" TCC_NEWLINE
+                "弓は使う者の心をそのまま反映する。" TCC_NEWLINE
+                "だから、" TCC_NEWLINE
+                "俺は弓で自分の気持ちを伝えたいんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "なるほど。。。" TCC_NEWLINE
+                "君は弓に対して深い思い入れがあるんだね。" TCC_NEWLINE
+                "それは素晴らしいことだと思うよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "お前もそう思ってくれるか？" TCC_NEWLINE
+                "ありがとう、"TCC_SUMMONER_NAME"。" TCC_NEWLINE
+                "お前は俺の気持ちを理解してくれる" TCC_NEWLINE
+                "数少ない人だ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "僕もありがとう、タクミ。" TCC_NEWLINE
+                "君は僕に弓の魅力を教えてくれた" TCC_NEWLINE
+                "数少ない人だ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "お互いに感謝しあえる仲間だな。" TCC_NEWLINE
+                "これからも一緒に弓を極めていこうぜ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "うん、約束だよ。" TCC_NEWLINE
+                "これからも一緒に頑張ろう！" TCC_NEWLINE TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_AVATAR_TAKUMI_A] =
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_TAKUMI
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_AVATAR
+                "タクミ、" TCC_NEWLINE
+                "その弓は風神弓というんだよね？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ああ、そうだ。" TCC_NEWLINE
+                "俺の専用武器だ。" TCC_NEWLINE
+                "なぜ聞く？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "いや、ただ興味があってね。" TCC_NEWLINE
+                "どんな力があるのかなと思って。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "どんな力か。。。" TCC_NEWLINE
+                "まず、" TCC_NEWLINE
+                "この弓は風を操ることができるんだ。" TCC_NEWLINE
+                "矢は風で作られているから、" TCC_NEWLINE
+                "弦も矢も見えないんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "へえ、すごいね。" TCC_NEWLINE
+                "じゃあ、どうやって撃つの？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "心で撃つんだよ。" TCC_NEWLINE
+                "心が晴れていれば、" TCC_NEWLINE
+                "矢は的に向かって飛ぶ。" TCC_NEWLINE
+                "でも、心が曇っていれば、" TCC_NEWLINE
+                "矢は飛ばない。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "心が曇っているというと。。。？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "自信がなかったり、" TCC_NEWLINE
+                "迷ったり、怒ったりしたときだ。" TCC_NEWLINE
+                "この弓は俺の心と一体になっているから、" TCC_NEWLINE
+                "俺の感情に影響されるんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "なるほど。。。" TCC_NEWLINE
+                "それは大変そうだね。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "そうでもないさ。" TCC_NEWLINE
+                "俺はこの弓と長く付き合ってきたから、" TCC_NEWLINE
+                "だいたいコントロールできるようになった。" TCC_NEWLINE
+                "それに、お前がそばにいてくれると、" TCC_NEWLINE
+                "心が安定するからな。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そう言ってくれると嬉しいよ。" TCC_NEWLINE
+                "僕も君がそばにいてくれると、心強いよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "ありがとう、"TCC_SUMMONER_NAME"。" TCC_NEWLINE
+                "お前は俺の大切な仲間だ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "僕もありがとう、タクミ。" TCC_NEWLINE
+                "君は僕の大切な存在だ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "大切な存在。。。か。" TCC_NEWLINE
+                "お前も俺にとって大切な存在だ。" TCC_NEWLINE
+                "お前がいなかったら、" TCC_NEWLINE
+                "俺は今頃どうなっていたかわからない。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "どういう意味だい？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "。。。実はな、俺は昔、" TCC_NEWLINE
+                "自分の世界で戦争に巻き込まれて、" TCC_NEWLINE
+                "苦しんでいたんだ。" TCC_NEWLINE
+                "自分の力を信じられなくて、" TCC_NEWLINE
+                "仲間や家族とも離れ離れになって。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "そんなことがあったのか。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "あったんだよ。" TCC_NEWLINE
+                "でも、お前が俺を召喚してくれたおかげで、" TCC_NEWLINE
+                "俺は変われたんだ。" TCC_NEWLINE
+                "お前は俺の力を認めてくれたし、" TCC_NEWLINE
+                "俺の心を開いてくれたし、" TCC_NEWLINE
+                "俺のそばにいてくれた。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "それは僕も同じだよ。" TCC_NEWLINE
+                "君が僕に教えてくれたことはたくさんあるよ。" TCC_NEWLINE
+                "君は僕の心を癒してくれたし、" TCC_NEWLINE
+                "僕の力を引き出してくれたし、" TCC_NEWLINE
+                "僕の仲間になってくれた。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT
+                "じゃあ、" TCC_NEWLINE
+                "これからも一緒に戦おうぜ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT
+                "うん、そうしよう。" TCC_NEWLINE
+                "これからも一緒に戦おうね。" TCC_NEWLINE TCC_PUSH_A
+                TCC_CLEAR_FACE
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
        [TEXT_SUPPORT_BRUNO_VERONICA] = TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
                "ここか。。。" TCC_NEWLINE TCC_PUSH_A

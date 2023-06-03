@@ -425,9 +425,9 @@ const struct SupportConversation supportConversations[] = {
     {
         CHARACTER_ID_AVATAR,
         CHARACTER_ID_TAKUMI,
-        TEXT_SUPPORT_AVATAR_TAKUMI,
-        TEXT_SUPPORT_AVATAR_TAKUMI,
-        TEXT_SUPPORT_AVATAR_TAKUMI,
+        TEXT_SUPPORT_AVATAR_TAKUMI_C,
+        TEXT_SUPPORT_AVATAR_TAKUMI_B,
+        TEXT_SUPPORT_AVATAR_TAKUMI_A,
         0
     },
     {
