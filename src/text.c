@@ -2838,6 +2838,83 @@ const char* const texts[] = {
             "アルフォンス王子。。。" TCC_NEWLINE TCC_PUSH_A
             TCC_CLEAR_FACE,
 
+        [TEXT_SUPPORT_CONVERSATION_BRUNO_ALFONSE_C] =
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+
+            TCC_OPEN_LEFT "アルフォンス、" TCC_NEWLINE "ちょっといいか？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "ブルーノ？" TCC_NEWLINE "どうしたんだ？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "君に謝りたいんだ。" TCC_NEWLINE "あの日、" TCC_NEWLINE "君たちに刃を向けたことを。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "。。。そうか。" TCC_NEWLINE "でも、それは君のせいじゃない。" TCC_NEWLINE "君は呪われていたんだから。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "呪われていたとしても、" TCC_NEWLINE "許されることじゃない。" TCC_NEWLINE "君は僕の友だったのに、" TCC_NEWLINE "僕は君を裏切った。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "友だった？" TCC_NEWLINE "今も友だろう？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "本当に？" TCC_NEWLINE "君は僕を許してくれるのか？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "もちろんだ。" TCC_NEWLINE "君は今、" TCC_NEWLINE "僕たちと一緒に戦ってくれている。" TCC_NEWLINE "それだけで十\分だ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "ありがとう、" TCC_NEWLINE "アルフォンス。" TCC_NEWLINE "君の言葉に救われるよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "いや、僕こそ感謝している。" TCC_NEWLINE "君がいなかったら、" TCC_NEWLINE "僕はもっと苦しんでいただろう。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "苦しんでいる？" TCC_NEWLINE "どういうことだ？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "。。。それはまた今度話そう。" TCC_NEWLINE "今は戦場だからな。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "分かった。" TCC_NEWLINE "では、また後で会おう。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "ああ、そうしよう。" TCC_NEWLINE "気をつけてな。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "君もな。" TCC_NEWLINE TCC_PUSH_A
+
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE,
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_BRUNO_ALFONSE_B] =
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+
+            TCC_OPEN_LEFT "アルフォンス、" TCC_NEWLINE "話があるんだが。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "ブルーノ、" TCC_NEWLINE "どうしたんだ？" TCC_NEWLINE "顔色が悪いぞ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "実は、僕はもうすぐこの世界を" TCC_NEWLINE "去らなければならない。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "え？どういうことだ？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "僕はこの世界に来たときから、" TCC_NEWLINE "呪いの影響で体が蝕まれているんだ。" TCC_NEWLINE "もう長くは持たない。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "そんな。。。" TCC_NEWLINE "でも、何か方法はないのか？" TCC_NEWLINE "治療できないのか？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "残念ながら、" TCC_NEWLINE "この世界には僕を救える力はない。" TCC_NEWLINE "唯一の方法は、" TCC_NEWLINE "僕の故郷に帰ることだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "故郷に帰る？" TCC_NEWLINE "それはどこだ？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "。。。言えない。" TCC_NEWLINE "君にも危険が及ぶかもしれないから。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "危険だとしても、" TCC_NEWLINE "僕は君を見捨てない。" TCC_NEWLINE "君は僕の友だ。" TCC_NEWLINE "一緒に行こう。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "ありがとう、" TCC_NEWLINE "アルフォンス。" TCC_NEWLINE "でも、それはできない。" TCC_NEWLINE "君はこの世界の王子だ。" TCC_NEWLINE "君の居場所はここだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "そんなの関係ない。" TCC_NEWLINE "僕は君を失いたくないんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "。。。ごめんなさい、" TCC_NEWLINE "アルフォンス。" TCC_NEWLINE "でも、これが僕の決断だ。" TCC_NEWLINE "君に幸せになってほしい。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "ブルーノ。。。" TCC_NEWLINE TCC_PUSH_A
+
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE,
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
+        [TEXT_SUPPORT_CONVERSATION_BRUNO_ALFONSE_A] =
+            TCC_OPEN_LEFT
+                TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
+            TCC_OPEN_RIGHT
+                TCC_LOAD_FACE PORTRAIT_ALFONSE
+
+            TCC_OPEN_LEFT "アルフォンス、" TCC_NEWLINE "ちょっと話があるんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "ブルーノ、" TCC_NEWLINE "どうしたの？" TCC_NEWLINE "何か悩んでいることでも？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "いや、悩んでいるというよりは。。。" TCC_NEWLINE "感謝したいことがあるんだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "感謝？" TCC_NEWLINE "僕に？" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "ああ。" TCC_NEWLINE "君は僕にとって大切な友だ。" TCC_NEWLINE "僕が暗黒の魔力に囚われていた時も、" TCC_NEWLINE "君は僕を見捨てなかった。" TCC_NEWLINE "君は僕を信じてくれた。" TCC_NEWLINE "それがどれだけ僕の心を救ってくれたか、" TCC_NEWLINE "言葉では言い表\せない。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "ブルーノ。。。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "だから、" TCC_NEWLINE "君に感謝したい。" TCC_NEWLINE "そして、謝りたい。" TCC_NEWLINE "僕は君に多くの苦しみを与えてしまった。" TCC_NEWLINE "君の国を襲ったり、" TCC_NEWLINE "君の仲間を傷つけたり。。。" TCC_NEWLINE "許せないことばかりだ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "ブルーノ、" TCC_NEWLINE "それはもう過去のことだ。" TCC_NEWLINE "今はもう大丈夫だよ。" TCC_NEWLINE "僕は君を責めないし、" TCC_NEWLINE "恨んでもいない。" TCC_NEWLINE "君は暗黒の魔力に操られていただけだ。" TCC_NEWLINE "本当の君は優しくて勇敢で賢い人だ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "アルフォンス。。。" TCC_NEWLINE "ありがとう。" TCC_NEWLINE "君の言葉が嘘でないことを祈るよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "嘘じゃないよ。" TCC_NEWLINE "本当だよ。" TCC_NEWLINE "僕は君を信じてるし、" TCC_NEWLINE "応援してる。" TCC_NEWLINE "君が暗黒の魔力から" TCC_NEWLINE "完全に解放される日まで、" TCC_NEWLINE "ずっとそばにいるよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_LEFT "ありがとう、" TCC_NEWLINE "アルフォンス。" TCC_NEWLINE "君は本当に素晴らしい友だ。" TCC_NEWLINE "これからもよろしく頼むよ。" TCC_NEWLINE TCC_PUSH_A
+            TCC_OPEN_RIGHT "こちらこそ、" TCC_NEWLINE "ブルーノ。" TCC_NEWLINE "これからも一緒に戦おうね。" TCC_NEWLINE
+
+            TCC_OPEN_LEFT
+                TCC_CLEAR_FACE,
+            TCC_OPEN_RIGHT
+                TCC_CLEAR_FACE,
+
        [TEXT_SUPPORT_CONVERSATION_BRUNO_ANNA_TEMP] = TCC_OPEN_LEFT
            TCC_LOAD_FACE PORTRAIT_BRUNO_MASKED
             TCC_OPEN_RIGHT
