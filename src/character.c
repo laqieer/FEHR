@@ -58,7 +58,7 @@ const struct Character characters[] = {
 
 {TEXT_CHARACTER_NAME_YURG, TEXT_CHARACTER_HELP_YURG, 20, JOB_ID_THIEF_F, 0x115, 0, Water, 19, 1, 15, 6, 8, 9, 6, 4, 10, 0, WPN_EXP_C, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 65, 35, 35, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[8], 13} ,  // 0x14 Nino -> Yurg
 
-{TEXT_CHARACTER_NAME_OTR, TEXT_CHARACTER_HELP_OTR, CHARACTER_OTR_ID, JOB_ID_STEAM_KNIGHT, PORTRAIT_ID_OTR, 0, Thunder, 20, 1, 17, 11, 6, 4, 7, 11, 14, 1, 0, 0, WPN_EXP_A, 0, 0, 0, 0, 0, 55, 70, 40, 30, 75, 55, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3} ,  // 0x15 Pent -> Otr
+{TEXT_CHARACTER_NAME_OTR, TEXT_CHARACTER_HELP_OTR, 21, JOB_ID_STEAM_KNIGHT, PORTRAIT_ID_OTR, 0, Thunder, 20, 1, 17, 11, 6, 4, 7, 11, 14, 1, 0, 0, WPN_EXP_A, 0, 0, 0, 0, 0, 55, 70, 40, 30, 75, 55, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3} ,  // 0x15 Pent -> Otr (Enemy?)
 
 {1272, 454, 22, 36, 60, 0, 7, 21, 8, 5, 8, 8, 6, 3, 4, 7, 0, 0, 0, 0, 0, 0, 0, 0, 121, 70, 45, 40, 35, 25, 45, 25, 90, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148244912, 0} ,  // 0x16 Canas
 
