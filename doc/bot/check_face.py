@@ -7,11 +7,14 @@ import csv
 def check_face(csv_file):
     with open(csv_file, 'r') as f:
         reader = csv.reader(f)
+        names = []
         for row in reader:
             if '->' in row[-1]:
                 name = row[-1].split('->')[1].strip()
+                names.append(name)
                 if name != 'Avatar' and not os.path.exists(f'../../res/gfx/portrait/portrait_{name}.png'):
                     print(f'Portrait {name} not found')
+        print(names)
 
 if __name__ == '__main__':
     check_face(sys.argv[1])
