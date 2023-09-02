@@ -10,7 +10,7 @@ def check_face(csv_file):
         for row in reader:
             if '->' in row[-1]:
                 name = row[-1].split('->')[1].strip()
-                if not os.path.exists(f'../../res/gfx/portrait/portrait_{name}.png'):
+                if name != 'Avatar' and not os.path.exists(f'../../res/gfx/portrait/portrait_{name}.png'):
                     print(f'Portrait {name} not found')
 
 if __name__ == '__main__':
