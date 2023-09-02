@@ -107,3 +107,6 @@ cd build && make
 |Iron Dagger, Steel Dagger, Silver Dagger|FEier|
 |Poison Dagger, Smoke Dagger, Rogue Dagger|Ereshkigal|
 |Fujin Yumi|Beansy|
+
+## Bot Support
+[CromarBot](https://github.com/knabepicer/CromarBot/) is supported in https://github.com/knabepicer/CromarBot/pull/6.
