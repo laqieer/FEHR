@@ -13,13 +13,13 @@
 const int sizeofCharacter = sizeof(struct Character);
 
 const struct Character characters[] = {
-{1252, 434, 1, 1, 0x101, 0, 7, 1, 1, 0, 0, 0, 0, 0, 0, 3, 0, 71, 0, 0, 0, 0, 0, 0, 0, 43 * 2, 35 * 1.5, 45, 25 * 1.5, 32 * 1.2, 22 * 1.2, 30, 0x79, 0x79, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[CHARACTER_ALFONSE_ID - 1], 0} ,  // 0x01 Alfonse
+{1252, 434, 1, 1, 0x101, 0, 7, 1, 1, 0, 0, 0, 0, 0, 0, 3, 0, 71, 0, 0, 0, 0, 0, 0, 0, 43 * 2, 35 * 1.5, 45, 25 * 1.5, 32 * 1.2, 22 * 1.2, 30, 0x79, 0x79, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[CHARACTER_ALFONSE_ID - 1], 0} ,  // 0x01 Eliwood -> Alfons
 
-{1253, 435, 2, 3, 0x103, 0, 2, 2, 1, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 71, 0, 0, 0, 0, 0, 41 * 2, 45 * 1.5, 50, 38 * 1.5, 22 * 1.2, 28 * 1.2, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[CHARACTER_ANNA_ID - 1], 2} ,  // 0x02 Anna
+{1253, 435, 2, 3, 0x103, 0, 2, 2, 1, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 71, 0, 0, 0, 0, 0, 41 * 2, 45 * 1.5, 50, 38 * 1.5, 22 * 1.2, 28 * 1.2, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[CHARACTER_ANNA_ID - 1], 2} ,  // 0x02 Hector -> Anna
 
-{1254, 436, 3, 2, 0x102, 0, 3, 3, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 71, 0, 0, 0, 0, 0, 0, 43 * 2, 32 * 1.5, 45, 32 * 1.5, 29 * 1.2, 22 * 1.2, 30, 0x7b, 0x7b, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[CHARACTER_SHARENA_ID - 1], 7} ,  // 0x03 Sharena
+{1254, 436, 3, 2, 0x102, 0, 3, 3, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 71, 0, 0, 0, 0, 0, 0, 43 * 2, 32 * 1.5, 45, 32 * 1.5, 29 * 1.2, 22 * 1.2, 30, 0x7b, 0x7b, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[CHARACTER_SHARENA_ID - 1], 7} ,  // 0x03 Lyn -> Sharon
 
-{TEXT_CHARACTER_NAME_LAEVATEIN, TEXT_CHARACTER_HELP_LAEVATEIN, 4, 0x11, 0x10f, 0, Fire, 8, 15, 16, 10, 7, 6, 7, 4, 5, -1, 71, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 55, 60, 40, 35, 0, 0x7d, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[12], 1} ,  // 0x04 Raven -> Laevatein
+{TEXT_CHARACTER_NAME_LAEVATEIN, TEXT_CHARACTER_HELP_LAEVATEIN, 4, 0x11, 0x10f, 0, Fire, 8, 15, 16, 10, 7, 6, 7, 4, 5, -1, 71, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 55, 60, 40, 35, 0, 0x7d, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[12], 1} ,  // 0x04 Raven -> Laevatain
 
 {TEXT_CHARACTER_NAME_HOOD, TEXT_CHARACTER_HELP_HOOD, 5, 1, PORTRAIT_ID_HOOD, 0, 7, 1, 1, 20, 10, 10, 10, 10, 10, 13, 0, 71, 0, 0, 0, 0, 0, 0, 0, 43 * 2, 35 * 1.5, 45, 25 * 1.5, 32 * 1.2, 22 * 1.2, 30, 0x79, 0x79, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x05 Geitz -> Hood
 
@@ -36,7 +36,7 @@ const struct Character characters[] = {
 {1363, 1363, 10, 71, 0, 2, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 25, 60, 10, 15, 15, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3} ,  // 0x0A Citizen
 
 //{1261, 443, 11, 20, 41, 0, 7, 10, 9, 11, 8, 7, 5, 4, 3, 3, 1, 0, 121, 0, 0, 0, 0, 0, 0, 90, 40, 30, 30, 55, 30, 35, 8, 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148244672, 3} ,  // 0x0B Oswin
-{TEXT_CHARACTER_NAME_GUSTAF, TEXT_CHARACTER_HELP_GUSTAF, 11, JOB_ID_PALADIN, 0x119, 0, Anima, 10, 20, 17, 8, 5, 3, 8, 6, 1, 0, 181, 181, WPN_EXP_S, 0, 0, 0, 0, 0, 55, 65, 60, 50, 60, 35, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[23], 3} ,  // 0xB Oswin -> Gustav
+{TEXT_CHARACTER_NAME_GUSTAF, TEXT_CHARACTER_HELP_GUSTAF, 11, JOB_ID_PALADIN, 0x119, 0, Anima, 10, 20, 17, 8, 5, 3, 8, 6, 1, 0, 181, 181, WPN_EXP_S, 0, 0, 0, 0, 0, 55, 65, 60, 50, 60, 35, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[23], 3} ,  // 0xB Oswin -> Gustaf
 
 //{1262, 444, 12, 59, 80, 0, 2, 11, 18, 34, 17, 9, 7, 12, 17, 15, 2, 0, 0, 181, 0, 0, 0, 0, 0, 90, 40, 30, 30, 55, 30, 35, 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1} ,  // 0x0C Fargus
 {1335, 529, 12, 90, 0x105, 0, Dark, 11, 1, 16, 8, 4, 4, 6, 5, 4, 0, 0, 0, 0, 0, 181, 0, 0, WPN_EXP_S, 55, 60, 50, 40, 50, 35, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[4], 0} ,  // 0x0C Fargus -> Veronica
@@ -44,25 +44,25 @@ const struct Character characters[] = {
 //{1263, 445, 13, 24, 43, 0, 3, 12, 3, 2, 2, 2, 2, 2, 0, 6, -1, 0, 0, 0, 31, 0, 0, 0, 0, 75, 50, 50, 40, 20, 25, 40, 3, 96, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5} ,  // 0x0D Wil (Tutorial)
 {1323, 522, 13, JOB_ID_MAGE_KNIGHT, 0x104, 0, Light, 12, 1, 24, 33 * 0.5, 23 * 0.5, 23 * 0.5, 13 * 0.5, 16 * 0.5, 14 * 0.5, 1, 0, 0, 0, 0, 121, 0, 181, 0, 35 * 2, 45 * 1.5, 40 * 1.5, 38 * 1.5, 24 * 1.2, 27 * 1.2, 26 * 1.2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[3], 0} ,  // 0x0D Wil (Tutorial) -> Bruno
 
-{TEXT_CHARACTER_NAME_FREYJA, TEXT_CHARACTER_HELP_FREYJA, 14, JOB_ID_WOLF, 0x10d, 0, Dark, 13, 1, 15, 9, 9, 10, 4, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 55, 65, 70, 75, 45, 35, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[20], 7} ,  // 0x0E Rebecca -> Freyja
+{TEXT_CHARACTER_NAME_FREYJA, TEXT_CHARACTER_HELP_FREYJA, 14, JOB_ID_WOLF, 0x10d, 0, Dark, 13, 1, 15, 9, 9, 10, 4, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 55, 65, 70, 75, 45, 35, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[20], 7} ,  // 0x0E Rebecca -> Freya
 
 {TEXT_CHARACTER_NAME_FJORM, TEXT_CHARACTER_HELP_FJORM, 15, 5, PORTRAIT_ID_FJORM, 0, Water, 14, 1, 16, 7, 7, 6, 7, 7, 16, 0, 0, 1, 0, 0, 0, 0, 0, 0, 50, 50, 50, 55, 50, 60, 50, 0, 0x7b, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[7], 11} ,  // 0x0F Louise -> Fjorm
 
 {TEXT_CHARACTER_NAME_ELM, TEXT_CHARACTER_HELP_ELM, 16, JOB_ID_BAT, PORTRAIT_ID_ELM, 0, Dark, 15, 1, 19, 9, 12, 12, 5, 7, 10, 5, 0, 0, 0, 0, 0, 0, 0, 0, 50, 65, 70, 70, 50, 55, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12} ,  // 0x10 Lucius -> Elm
 
-{TEXT_CHARACTER_NAME_GUNNTHRA, TEXT_CHARACTER_HELP_GUNNTHRA, 17, 0x2d, 0x10a, 0, Water, 16, 1, 14, 6, 7, 8, 5, 5, 7, 6, 0, 0, 0, 0, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, 50, 55, 55, 55, 30, 45, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[6], 8} ,  // 0x11 Serra -> Gunnthra
+{TEXT_CHARACTER_NAME_GUNNTHRA, TEXT_CHARACTER_HELP_GUNNTHRA, 17, 0x2d, 0x10a, 0, Water, 16, 1, 14, 6, 7, 8, 5, 5, 7, 6, 0, 0, 0, 0, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, WPN_EXP_A, 50, 55, 55, 55, 30, 45, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[6], 8} ,  // 0x11 Serra -> Cerise
 
 {1268, 450, 18, 30, 69, 0, 7, 17, 16, 22, 8, 18, 16, 12, 10, 10, 2, 0, 0, 0, 0, 181, 0, 181, 0, 60, 40, 30, 35, 20, 40, 15, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148244816, 1} ,  // 0x12 Renault
 
 {TEXT_CHARACTER_NAME_SRASIR, TEXT_CHARACTER_HELP_SRASIR, 19, JOB_ID_SKELEMONK, 0x114, 0, Dark, 18, 1, 17, 8, 8, 8, 5, 4, 0, 1, 0, 0, 0, 0, 0, 31, 0, 0, 50, 55, 65, 70, 40, 50, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[17], 3} ,  // 0x13 Erk -> Srasir
 
-{TEXT_CHARACTER_NAME_YURG, TEXT_CHARACTER_HELP_YURG, 20, 0x3d, 0x115, 0, Water, 19, 1, 15, 6, 8, 9, 6, 4, 10, 0, 71, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 65, 35, 35, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[8], 13} ,  // 0x14 Nino -> Ylgr
+{TEXT_CHARACTER_NAME_YURG, TEXT_CHARACTER_HELP_YURG, 20, 0x3d, 0x115, 0, Water, 19, 1, 15, 6, 8, 9, 6, 4, 10, 0, 71, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 65, 35, 35, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[8], 13} ,  // 0x14 Nino -> Yurg
 
 {TEXT_CHARACTER_NAME_OTR, TEXT_CHARACTER_HELP_OTR, CHARACTER_OTR_ID, JOB_ID_STEAM_KNIGHT, PORTRAIT_ID_OTR, 0, Thunder, 20, 1, 17, 11, 6, 4, 7, 11, 14, 1, 0, 0, WPN_EXP_A, 0, 0, 0, 0, 0, 55, 70, 40, 30, 75, 55, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3} ,  // 0x15 Pent -> Otr
 
 {1272, 454, 22, 36, 60, 0, 7, 21, 8, 5, 8, 8, 6, 3, 4, 7, 0, 0, 0, 0, 0, 0, 0, 0, 121, 70, 45, 40, 35, 25, 45, 25, 90, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148244912, 0} ,  // 0x16 Canas
 
-{TEXT_CHARACTER_NAME_HRID, TEXT_CHARACTER_HELP_HRID, 23, JOB_ID_KNIGHTLORD, 0x10c, 0, Water, 22, 1, 18, 6, 4, 3, 11, 3, 0, 2, WPN_EXP_A, 0, 0, 0, 0, 0, 0, 0, 50, 70, 40, 30, 55, 50, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[5], 3} ,  // 0x17 Kent (Tutorial) -> Hrid
+{TEXT_CHARACTER_NAME_HRID, TEXT_CHARACTER_HELP_HRID, 23, JOB_ID_KNIGHTLORD, 0x10c, 0, Water, 22, 1, 18, 6, 4, 3, 11, 3, 0, 2, WPN_EXP_A, 0, 0, 0, 0, 0, 0, 0, 50, 70, 40, 30, 55, 50, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[5], 3} ,  // 0x17 Kent (Tutorial) -> Freeze
 
 {TEXT_CHARACTER_NAME_REGHIN, TEXT_CHARACTER_HELP_REGHIN, 24, JOB_ID_GREAT_KNIGHT, PORTRAIT_ID_REGHIN, 0, 3, 23, 1, 16, 10, 10, 10, 8, 5, 4, 0, WPN_EXP_A, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 70, 50, 45, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x18 Sain (Tutorial) -> Reghin
 
@@ -84,17 +84,17 @@ const struct Character characters[] = {
 
 {TEXT_CHARACTER_NAME_NOTT, TEXT_CHARACTER_HELP_NOTT, CHARACTER_NOTT_ID, JOB_ID_HALBERDIER, PORTRAIT_ID_NOTT, 0, Light, 32, 1, 18, 12, 11, 10, 6, 8, 11, 2, 0, WPN_EXP_A, 0, 0, 0, 0, 0, 0, 50, 70, 50, 70, 50, 45, 20, 0, 0x81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[28], 9} ,  // 0x21 Vaida -> Nott
 
-{TEXT_CHARACTER_NAME_FREYR, TEXT_CHARACTER_HELP_FREYR, CHARACTER_FREYR_ID, JOB_ID_WOLF, PORTRAIT_ID_FREYR, 0, Light, 33, 20, 17, 12, 8, 3, 10, 7, 30, 3, 0, 0, 0, 0, 0, 0, 0, 0, 55, 65, 50, 30, 50, 75, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[26], 6} ,  // 0x22 Hawkeye -> Freyr
+{TEXT_CHARACTER_NAME_FREYR, TEXT_CHARACTER_HELP_FREYR, CHARACTER_FREYR_ID, JOB_ID_WOLF, PORTRAIT_ID_FREYR, 0, Light, 33, 20, 17, 12, 8, 3, 10, 7, 30, 3, 0, 0, 0, 0, 0, 0, 0, 0, 55, 65, 50, 30, 50, 75, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[26], 6} ,  // 0x22 Hawkeye -> Froda
 
 {TEXT_CHARACTER_NAME_TAKUMI, TEXT_CHARACTER_HELP_TAKUMI, CHARACTER_ID_TAKUMI, JOB_ID_SNIPER, PORTRAIT_ID_TAKUMI, 0, Wind, 34, 1, 10, 4, 5, 3, 2, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 50, 55, 70, 60, 45, 30, 40, 0, 0x7F, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[25], 2} ,  // 0x23 Matthew -> Takumi
 
-{TEXT_CHARACTER_NAME_FAFNIR, TEXT_CHARACTER_HELP_FAFNIR, CHARACTER_FAFNIR2_ID, JOB_ID_STEAM_DRAGON, PORTRAIT_ID_FAFNIR2, 0, Dark, 35, 1, 18, 10, 8, 12, 11, 7, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 60, 65, 50, 70, 55, 55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6} ,  // // 0x24 Jaffar -> Fafnir2
+{TEXT_CHARACTER_NAME_FAFNIR, TEXT_CHARACTER_HELP_FAFNIR, CHARACTER_FAFNIR2_ID, JOB_ID_STEAM_DRAGON, PORTRAIT_ID_FAFNIR2, 0, Dark, 35, 1, 18, 10, 8, 12, 11, 7, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 60, 65, 50, 70, 55, 55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6} ,  // 0x24 Jaffar -> Fafnir2
 
 {TEXT_CHARACTER_NAME_PEONY, TEXT_CHARACTER_HELP_PEONY, 37, JOB_ID_FALCOKNIGHT, 0x112, 0, Light, 36, 1, 15, 4, 6, 7, 2, 4, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 60, 60, 65, 30, 45, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[19], 12} ,  // 0x25 Ninian -> Peony
 
 {1288, 471, 38, 65, 65, 0, 4, 37, 1, 0, -1, -2, 5, 4, 4, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 5, 5, 70, 30, 70, 80, 32, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13} ,  // 0x26 Nils
 
-{TEXT_CHARACTER_NAME_MYUNIT, TEXT_CHARACTER_HELP_MYUNIT, CHARACTER_ID_MYUNIT, JOB_ID_SUMMONER, PORTRAIT_ID_AVATAR, 0, Dark, 38, 1, 19, 9, 9, 9, 6, 6, 6, 0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_E, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, 50, 60, 60, 60, 50, 50, 50, 0, 0x7E, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[24], 0} ,  // 0x27 Athos -> MyUnit
+{TEXT_CHARACTER_NAME_MYUNIT, TEXT_CHARACTER_HELP_MYUNIT, CHARACTER_ID_MYUNIT, JOB_ID_SUMMONER, PORTRAIT_ID_AVATAR, 0, Dark, 38, 1, 19, 9, 9, 9, 6, 6, 6, 0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_E, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, 50, 60, 60, 60, 50, 50, 50, 0, 0x7E, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, &supportDataTable[24], 0} ,  // 0x27 Athos -> Avatar
 
 {1290, 473, 40, 68, 74, 0, 5, 39, 5, 3, 0, 1, 2, 2, 2, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 0, 90, 90, 30, 15, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148245296, 4} ,  // 0x28 Merlinus
 
@@ -262,7 +262,7 @@ const struct Character characters[] = {
 
 {1346, 533, 122, 77, 81, 0, 0, 0, 11, 10, 7, 7, 8, 8, 13, 5, 0, 181, 0, 0, 0, 0, 0, 0, 0, 80, 40, 50, 40, 25, 40, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3} ,  // 0x7A Zephiel
 
-{TEXT_CHARACTER_NAME_GUSTAF, TEXT_CHARACTER_HELP_GUSTAF, 123, JOB_ID_PALADIN, 0x119, 0, Anima, 0, 1, 18, 11, 5, 3, 10, 8, 1, 0, 181, 181, WPN_EXP_S, 0, 0, 0, 0, 0, 50, 70, 60, 50, 65, 50, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3} ,  // 0x7B Elbert -> Gustav
+{TEXT_CHARACTER_NAME_GUSTAF, TEXT_CHARACTER_HELP_GUSTAF, 123, JOB_ID_PALADIN, 0x119, 0, Anima, 0, 1, 18, 11, 5, 3, 10, 8, 1, 0, 181, 181, WPN_EXP_S, 0, 0, 0, 0, 0, 50, 70, 60, 50, 65, 50, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3} ,  // 0x7B Elbert -> Gustav (Enemy)
 
 {TEXT_CHARACTER_NAME_GENERIC_FLAME, TEXT_CHARACTER_HELP_GENERIC_FLAME, 124, 22, 0, 2, 0, 0, 1, 5, 3, 3, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 85 + 10, 25 + 10, 60 + 10, 10 + 10, 15 + 5, 15 + 5, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} ,  // 0x7C Generic Flame
 
