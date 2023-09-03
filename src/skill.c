@@ -1525,7 +1525,7 @@ void specialSkillIceMirrorEffect(struct BattleUnit* attacker, struct BattleUnit*
     int damageReduced = gBattleStats.damage * 0.3;
 
     gBattleStats.damage -= damageReduced;
- 
+
     switch (getUnitPassiveSkillB(&defender->unit))
     {
         case PASSIVE_SKILL_B_SHIELD_PULSE_2:
@@ -2465,8 +2465,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "”j“V",
-            "“G‚ÌUŒ‚‚Ì‚QŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ"
-            "“G‚ª—³Ab‚ÌŽžA‚QŠ„‚Å‚Í‚È‚­‚SŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
+            "“G‚ÌUŒ‚‚Ì‚QŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ""“G‚ª—³Ab‚ÌŽžA‚QŠ„‚Å‚Í‚È‚­‚SŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Ruptured Sky",
             "Boosts damage by 20% of foe's Atk. If in combat against a dragon foe or beast foe, boosts damage by 40% instead of 20%.",
             2,
@@ -2479,8 +2478,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ƒuƒ‹[ƒtƒŒƒCƒ€",
-            "‚P‚O‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ"
-            "–¡•û‚Æ—×Ú‚µ‚Ä‚¢‚éŽžA‚³‚ç‚É‚P‚T‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZB‡Œv‚Q‚T‚ð‰ÁŽZ‚·‚éB",
+            "‚P‚O‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ""–¡•û‚Æ—×Ú‚µ‚Ä‚¢‚éŽžA‚³‚ç‚É‚P‚T‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZB‡Œv‚Q‚T‚ð‰ÁŽZ‚·‚éB",
             "Blue Flame",
             "Boosts damage by 10. If unit is adjacent to an ally, boosts damage by 25 instead.",
             3,
@@ -2532,8 +2530,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "•X‚Ì¹‚«‚å‚¤",
-            "“G‚Ì‰“‹——£UŒ‚‚Ìƒ_ƒ[ƒW‚ð‚RŠ„ŒyŒ¸"
-            "‰œ‹`”­“®‚ÅŒyŒ¸‚µ‚½’l‚ðA“G‚É”½ŽË",
+            "“G‚Ì‰“‹——£UŒ‚‚Ìƒ_ƒ[ƒW‚ð‚RŠ„ŒyŒ¸""‰œ‹`”­“®‚ÅŒyŒ¸‚µ‚½’l‚ðA“G‚É”½ŽË",
             "Ice Mirror",
             "If foe's Range = 2, reduces damage from foe's attacks by 30%. Boosts unit's next attack by total damage reduced (by any source, including other skills) when Special triggers. Resets at end of combat.",
             2,
@@ -2560,9 +2557,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "‰Š‚Ì–äÍ",
-            "‘¬‚³‚Ì‚RŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ"
-            "í“¬ŒãAŽ©•ª‚Æ‘S–¡•û‚ÌUŒ‚A‘¬‚³AŽç”õA–‚–h{‚Si‚Pƒ^[ƒ“j"
-            "i‚»‚Ìí“¬‚ÅŽž•ª‚Ì‚g‚o‚ª‚O‚É‚È‚Á‚Ä‚àŒø‰Ê‚Í”­“®j",
+            "‘¬‚³‚Ì‚RŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ""í“¬ŒãAŽ©•ª‚Æ‘S–¡•û‚ÌUŒ‚A‘¬‚³AŽç”õA–‚–h{‚Si‚Pƒ^[ƒ“j""i‚»‚Ìí“¬‚ÅŽž•ª‚Ì‚g‚o‚ª‚O‚É‚È‚Á‚Ä‚àŒø‰Ê‚Í”­“®j",
             "Fire Emblem",
             "Boosts damage by 30% of unit's Spd."
             "Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
@@ -2576,8 +2571,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ŒŽŒõ‘M",
-            "“G‚ÌŽç”õE–‚–h‚WŠ„ˆµ‚¢‚ÅUŒ‚"
-            "‘¬‚³‚Ì‚QŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
+            "“G‚ÌŽç”õE–‚–h‚WŠ„ˆµ‚¢‚ÅUŒ‚""‘¬‚³‚Ì‚QŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ",
             "Lunar Flash",
             "Treats foefs Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd.",
             2,
@@ -2590,8 +2584,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "“V˜T",
-            "‘¬‚³‚Ì‚RŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ"
-            "—^‚¦‚½ƒ_ƒ[ƒW‚Ì‚RŠ„Ž©•ª‚ð‰ñ•œ",
+            "‘¬‚³‚Ì‚RŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ""—^‚¦‚½ƒ_ƒ[ƒW‚Ì‚RŠ„Ž©•ª‚ð‰ñ•œ",
             "Sirius",
             "Boosts damage by 30% of unit's Spd. Restores HP = 30% of damage dealt.",
             2,
@@ -2604,8 +2597,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ƒmƒ”ƒ@‚Ì¹íŽm",
-            "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚ðs“®‰Â”\\‚É‚·‚éi‚Pƒ^[ƒ“‚É‚P‰ñ‚Ì‚Ýj"
-            "‚±‚Ì‰œ‹`”­“®ŽžAŽ©•ª‚Æƒ_ƒuƒ‹‘ŠŽè‚ÉˆÚ“®‚ðÅ‘å1ƒ}ƒX‚É§ŒÀ‚·‚éó‘ÔˆÙí‚ð•t—^iŽŸ‰ñs“®I—¹‚Ü‚Åj",
+            "Ž©•ª‚©‚çUŒ‚‚µ‚½ŽžAí“¬ŒãAŽ©•ª‚ðs“®‰Â”\\‚É‚·‚éi‚Pƒ^[ƒ“‚É‚P‰ñ‚Ì‚Ýj""‚±‚Ì‰œ‹`”­“®ŽžAŽ©•ª‚Æƒ_ƒuƒ‹‘ŠŽè‚ÉˆÚ“®‚ðÅ‘å1ƒ}ƒX‚É§ŒÀ‚·‚éó‘ÔˆÙí‚ð•t—^iŽŸ‰ñs“®I—¹‚Ü‚Åj",
             "Njorun's Zeal",
             "If unit initiates combat, grants another action to unit after combat. (Once per turn.) When Special triggers, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort through their next action.",
             3,
@@ -2618,8 +2610,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "‘on",
-            "–‚–h‚Ì‚SŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ"
-            "‰œ‹`ˆÈŠO‚ÌƒXƒLƒ‹‚É‚æ‚éuƒ_ƒ[ƒW‚ðZŠ„ŒyŒ¸v‚ð–³Œø",
+            "–‚–h‚Ì‚SŠ„‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ""‰œ‹`ˆÈŠO‚ÌƒXƒLƒ‹‚É‚æ‚éuƒ_ƒ[ƒW‚ðZŠ„ŒyŒ¸v‚ð–³Œø",
             "Twin Blades",
             "Boosts damage by 40% of unit's Res. Disables non-Special skills that \"reduce damage by X%.\"",
             2,
@@ -2632,8 +2623,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "ŠJ¢",
-            "Žç”õ‚Ì”¼•ª‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ"
-            "—^‚¦‚½ƒ_ƒ[ƒW‚Ì‚S•ª‚Ì‚PŽ©•ª‚ð‰ñ•œ",
+            "Žç”õ‚Ì”¼•ª‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZ""—^‚¦‚½ƒ_ƒ[ƒW‚Ì‚S•ª‚Ì‚PŽ©•ª‚ð‰ñ•œ",
             "Open the Future",
             "Boosts damage by 50% of unit's Def. Restores HP = 25% of damage dealt.",
             3,
@@ -2646,9 +2636,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "–‚’e",
-            "‚Pƒ^[ƒ“–ÚŠJŽnŽžA‰œ‹`”­“®ƒJƒEƒ“ƒg|‚R"TCC_NEWLINE
-            "‚P‚T‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZA‚©‚ÂA"TCC_NEWLINE
-            "“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZ",
+            "‚Pƒ^[ƒ“–ÚŠJŽnŽžA‰œ‹`”­“®ƒJƒEƒ“ƒg|‚R"TCC_NEWLINE"‚P‚T‚ð‰œ‹`ƒ_ƒ[ƒW‚É‰ÁŽZA‚©‚ÂA"TCC_NEWLINE"“G‚ÌŽç”õ‚©–‚–h‚Ì’á‚¢•û‚Åƒ_ƒ[ƒWŒvŽZ",
             "Seior Shell",
             "At the start of turn 1, grants Special cooldown count-3 to unit. Boosts damage by 15 and calculates damage using the lower of foe's Def or Res.",
             3,
@@ -2661,9 +2649,7 @@ const struct SpecialSkill specialSkills[] = {
         },
         {
             "‚«‚å‚¤‚¾‚ñ",
-            "‚Pƒ^[ƒ“–ÚŠJŽnŽžA‰œ‹`”­“®ƒJƒEƒ“ƒg|‚R"TCC_NEWLINE
-            "‰œ‹`”­“®ŽžA"TCC_NEWLINE
-            "“G‚ÌŽç”õA–‚–h”¼•ªˆµ‚¢‚ÅUŒ‚",
+            "‚Pƒ^[ƒ“–ÚŠJŽnŽžA‰œ‹`”­“®ƒJƒEƒ“ƒg|‚R"TCC_NEWLINE"‰œ‹`”­“®ŽžA"TCC_NEWLINE"“G‚ÌŽç”õA–‚–h”¼•ªˆµ‚¢‚ÅUŒ‚",
             "Brutal Shell",
             "At the start of turn 1, grants Special cooldown count-3 to unit. Treats foe's Def/Res as if reduced by 50% when Special triggers.",
             3,
@@ -5224,7 +5210,7 @@ void DisplayPage3()
 
     // Help Box Info
     gStatScreen.help = &gHelpInfo_Ss3SpecialSkillName;
-   
+
     displayNewUnitStateIcons();
 }
 
@@ -5408,12 +5394,12 @@ void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* def
             {
                 switch (GetItemIndex(attacker->weapon))
                 {
-    
+
                 /*
                  * Effective coefficient (English version): 2 if weapon is effective against enemy, 1 if not.
                  * Effective coefficient (Japanese version): 3 if weapon is effective against enemy (2 for dragon-slaying weapons, excluding Aureola), 1 if not.
                  */
-    
+
                 case ITEM_WYRMSLAYER:
                 case ITEM_FORBLAZE:
                 case ITEM_DURANDAL:
@@ -5421,11 +5407,11 @@ void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* def
                 case ITEM_SOL_KATTI:
                     attack *= 2;
                     break;
-    
+
                 default:
                     attack *= 3;
                     break;
-    
+
                 } // switch (GetItemIndex(attacker->weapon))
             }
         }
@@ -6433,9 +6419,9 @@ void ComputeBattleUnitEffectiveCritRate(struct BattleUnit* attacker, struct Batt
     if (attacker->battleEffectiveCritRate < 0)
         attacker->battleEffectiveCritRate = 0;
 
-    for (i = 0; (i < UNIT_ITEM_COUNT) && (item = defender->unit.items[i].itemId); ++i) 
+    for (i = 0; (i < UNIT_ITEM_COUNT) && (item = defender->unit.items[i].itemId); ++i)
     {
-        if (GetItemAttributes(item) & IA_NEGATE_CRIT) 
+        if (GetItemAttributes(item) & IA_NEGATE_CRIT)
         {
             attacker->battleEffectiveCritRate = 0;
             break;
@@ -6447,7 +6433,7 @@ void ComputeBattleUnitSilencerRate(struct BattleUnit* attacker, struct BattleUni
 {
     if (!attacker->unit.character->ability_lethality && !attacker->unit.job->ability_lethality)
         attacker->battleSilencerRate = 0;
-    else 
+    else
     {
         attacker->battleSilencerRate = 50;
 
@@ -6459,11 +6445,11 @@ void ComputeBattleUnitSilencerRate(struct BattleUnit* attacker, struct BattleUni
     }
 }
 
-void ComputeBattleUnitSpecialWeaponStats(struct BattleUnit* attacker, struct BattleUnit* defender) 
+void ComputeBattleUnitSpecialWeaponStats(struct BattleUnit* attacker, struct BattleUnit* defender)
 {
-    if (attacker->weaponAttributes & IA_MAGICDAMAGE) 
+    if (attacker->weaponAttributes & IA_MAGICDAMAGE)
     {
-        switch (GetItemIndex(attacker->weapon)) 
+        switch (GetItemIndex(attacker->weapon))
         {
             case ITEM_LIGHTBRAND:
             case ITEM_RUNESWORD:
@@ -6478,7 +6464,7 @@ void ComputeBattleUnitSpecialWeaponStats(struct BattleUnit* attacker, struct Bat
     }
     else
     {
-        if (GetItemWeaponEffect(attacker->weaponBefore) == WPN_EFFECT_HPHALVE) 
+        if (GetItemWeaponEffect(attacker->weaponBefore) == WPN_EFFECT_HPHALVE)
         {
             attacker->battleAttack = (defender->unit.hp + 1) >> 1;
 
@@ -6598,7 +6584,7 @@ void MakeTargetListForAssistSkill(struct Unit *unit)
 {
     u8 x;
     u8 y;
-    
+
     x = unit->positionX;
     y = unit->positionY;
     unitToMakeTargetList = unit;
@@ -6688,7 +6674,7 @@ u8 AssistSkillSelected(struct MenuProc* menuProc, struct MenuItemProc* menuItemP
         //return MENU_ACT_SKIPCURSOR | MENU_ACT_END | MENU_ACT_SND6B;
         return MENU_ACT_SKIPCURSOR;
     }
-    
+
     MakeTargetListForAssistSkill(currentActiveUnit);
     BmMapFill(gBmMapMovement,-1);
     NewTargetSelection(&gSelectInfoAssistSkill);
@@ -7230,7 +7216,7 @@ int assistSkillRepositionCondition(struct Unit *targetUnit)
 
 void assistSkillRepositionEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    struct Unit *targetUnit = GetUnit(target->uid); 
+    struct Unit *targetUnit = GetUnit(target->uid);
     targetUnit->positionX = currentActiveUnit->positionX * 2 - targetUnit->positionX;
     targetUnit->positionY = currentActiveUnit->positionY * 2 - targetUnit->positionY;
 
@@ -7258,7 +7244,7 @@ void assistSkillSwapEffect(struct Proc* proc, struct SelectTarget* target)
     //gActionData.yOther = target->y;
     gActionData.xMove = target->x;
     gActionData.yMove = target->y;
-    
+
     StartSoundEffect(&se_test_jump);
     gActionData.unitActionType = UNIT_ACTION_WAIT;
 
@@ -7275,7 +7261,7 @@ int assistSkillPivotCondition(struct Unit *targetUnit)
 
 void assistSkillPivotEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    struct Unit *targetUnit = GetUnit(target->uid); 
+    struct Unit *targetUnit = GetUnit(target->uid);
     gActionData.xMove = targetUnit->positionX * 2 - currentActiveUnit->positionX;
     gActionData.yMove = targetUnit->positionY * 2 - currentActiveUnit->positionY;
 
@@ -7295,7 +7281,7 @@ int assistSkillShoveCondition(struct Unit *targetUnit)
 
 void assistSkillShoveEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    struct Unit *targetUnit = GetUnit(target->uid); 
+    struct Unit *targetUnit = GetUnit(target->uid);
     targetUnit->positionX = targetUnit->positionX * 2 - currentActiveUnit->positionX;
     targetUnit->positionY = targetUnit->positionY * 2 - currentActiveUnit->positionY;
 
@@ -7316,7 +7302,7 @@ int assistSkillSmiteCondition(struct Unit *targetUnit)
 
 void assistSkillSmiteEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    struct Unit *targetUnit = GetUnit(target->uid); 
+    struct Unit *targetUnit = GetUnit(target->uid);
     targetUnit->positionX = targetUnit->positionX - (currentActiveUnit->positionX - targetUnit->positionX) * 2;
     targetUnit->positionY = targetUnit->positionY - (currentActiveUnit->positionY - targetUnit->positionY) * 2;
 
@@ -7378,7 +7364,7 @@ void assistSkillArdentSacrificeEffect(struct Proc* proc, struct SelectTarget* ta
    gActionData.unitActionType = UNIT_ACTION_WAIT;
 }
 
-// ‘ŠŒÝ‰‡•: Ž©•ª‚Æ‘ÎÛ‚ÌHP‚ð“ü‚ê‘Ö‚¦‚é	
+// ‘ŠŒÝ‰‡•: Ž©•ª‚Æ‘ÎÛ‚ÌHP‚ð“ü‚ê‘Ö‚¦‚é
 int assistSkillReciprocalAidCondition(struct Unit *targetUnit)
 {
     return targetUnit->hp != currentActiveUnit->hp;
@@ -7644,7 +7630,7 @@ int assistSkillToChangeFateCondition(struct Unit *targetUnit)
 
 void assistSkillToChangeFateEffect(struct Proc* proc, struct SelectTarget* target)
 {
-    struct Unit *targetUnit = GetUnit(target->uid); 
+    struct Unit *targetUnit = GetUnit(target->uid);
     targetUnit->positionX = currentActiveUnit->positionX * 2 - targetUnit->positionX;
     targetUnit->positionY = currentActiveUnit->positionY * 2 - targetUnit->positionY;
     StartSoundEffect(&se_test_jump);
@@ -8497,7 +8483,7 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
 
 s8 BattleGenerateRoundHits(struct BattleUnit* attacker, struct BattleUnit* defender) {
     int i, count;
-    u16 attrs; 
+    u16 attrs;
 
     if (!attacker->weapon)
         return 0;
@@ -8585,7 +8571,7 @@ void BattleUnwind() {
     //} while (0);
 
     gBattleHitIterator->info |= BATTLE_HIT_INFO_END;
-        
+
     if(isInBattle())
     {
         SpecialSkillEffectAfterBattle(attacker, defender);
@@ -8680,7 +8666,7 @@ const struct PopupCmd gPopupPassiveSkillUnlocked[] = {
 char *tryToGetPassiveSkillANameText(struct Unit *unit, int skillLevel)
 {
     int passiveSkillId = characterPassiveSkillAs[unit->character->id][skillLevel - 1];
-    
+
     if(passiveSkillId && (skillLevel == 1 || (skillLevel > 1 && passiveSkillId != characterPassiveSkillAs[unit->character->id][skillLevel - 2])))
         return passiveSkillAs[passiveSkillId].name;
 
@@ -8690,7 +8676,7 @@ char *tryToGetPassiveSkillANameText(struct Unit *unit, int skillLevel)
 char *tryToGetPassiveSkillBNameText(struct Unit *unit, int skillLevel)
 {
     int passiveSkillId = characterPassiveSkillBs[unit->character->id][skillLevel - 1];
-    
+
     if(passiveSkillId && (skillLevel == 1 || (skillLevel > 1 && passiveSkillId != characterPassiveSkillBs[unit->character->id][skillLevel - 2])))
         return passiveSkillBs[passiveSkillId].name;
 
@@ -8700,7 +8686,7 @@ char *tryToGetPassiveSkillBNameText(struct Unit *unit, int skillLevel)
 char *tryToGetPassiveSkillCNameText(struct Unit *unit, int skillLevel)
 {
     int passiveSkillId = characterPassiveSkillCs[unit->character->id][skillLevel - 1];
-    
+
     if(passiveSkillId && (skillLevel == 1 || (skillLevel > 1 && passiveSkillId != characterPassiveSkillCs[unit->character->id][skillLevel - 2])))
         return passiveSkillCs[passiveSkillId].name;
 
@@ -9078,7 +9064,7 @@ void displaySpecialSkillNameInBattleNew(void *AIS)
     setBGMapBufferSyncFlag(1);
 
     Debugf("BattleHitCount: %d, gBattleHitArray[BattleHitCount]: %x, %x, %x, %d", BattleHitCount, &gBattleHitArray[BattleHitCount], gBattleHitArray[BattleHitCount].attributes, gBattleHitArray[BattleHitCount].info, gBattleHitArray[BattleHitCount].hpChange);
-    
+
     BattleHitCount++;
 }
 
@@ -9197,7 +9183,7 @@ void showSpecialSkillsInBattle(void *AIS)
     *(void **)(&proc->data[1]) = AIS;*/
 
     //BattleHitCount++;
-    
+
     //hideSpecialSkillsInBattle();
     displaySpecialSkillIconInBattle(AIS);
     displaySpecialSkillNameInBattleNew(AIS);
