@@ -2439,8 +2439,7 @@ const struct SpecialSkill specialSkills[] = {
             "天空",
             "敵の守備、魔防半分扱いで攻撃　与えたダメージの半分自分を回復",
             "Aether",
-            "Treats foe's Def/Res as if reduced by 50% during combat."
-            "Restores HP = half of damage dealt.",
+            "Treats foe's Def/Res as if reduced by 50% during combat.""Restores HP = half of damage dealt.",
             5,
                 0,
                 specialSkillAetherEffect,
@@ -2453,8 +2452,7 @@ const struct SpecialSkill specialSkills[] = {
             "しっぷうじんらい",
             "自分から攻撃した時、戦闘後、自分を行動可能\にする",
             "Galeforce",
-            "If unit initiates combat, grants unit another action after combat."
-            "(Once per turn.)",
+            "If unit initiates combat, grants unit another action after combat.""(Once per turn.)",
             5,
                 specialSkillGaleforceCondition,
                 0,
@@ -2545,8 +2543,7 @@ const struct SpecialSkill specialSkills[] = {
             "蒼の天空",
             "敵の守備、魔防半分扱いで攻撃　与えたダメージの半分自分を回復",
             "Radiant Aether",
-            "During combat, treats foe's Def/Res as if reduced by 50%."
-            "Restores HP = 50% of damage dealt.",
+            "During combat, treats foe's Def/Res as if reduced by 50%.""Restores HP = 50% of damage dealt.",
             4,
                 0,
                 specialSkillRadientAetherEffect,
@@ -2559,8 +2556,7 @@ const struct SpecialSkill specialSkills[] = {
             "炎の紋章",
             "速さの３割を奥義ダメージに加算""戦闘後、自分と全味方の攻撃、速さ、守備、魔防＋４（１ターン）""（その戦闘で時分のＨＰが０になっても効果は発動）",
             "Fire Emblem",
-            "Boosts damage by 30% of unit's Spd."
-            "Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
+            "Boosts damage by 30% of unit's Spd.""Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
             2,
                 0,
                 specialSkillFireEmblemEffect,
