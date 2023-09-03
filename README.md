@@ -109,4 +109,6 @@ cd build && make
 |Fujin Yumi|Beansy|
 
 ## Bot Support
-[CromarBot](https://github.com/knabepicer/CromarBot/) is supported in https://github.com/knabepicer/CromarBot/pull/6.
+[CromarBot](https://github.com/knabepicer/CromarBot/) is supported.
+- `/unit` in https://github.com/knabepicer/CromarBot/pull/6
+- `/skill` in https://github.com/knabepicer/CromarBot/pull/7
