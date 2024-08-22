@@ -11,6 +11,8 @@ Remake [Fire Emblem Heroes](https://fire-emblem-heroes.com/) on [Fire Emblem 7 (
 
 [Sideline Story Remake](https://github.com/laqieer/FEHRG)
 
+[New Mainline Story Remake](https://github.com/laqieer/FEHRR)
+
 ## Patch
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/laqieer/FEHR)](https://github.com/laqieer/FEHR/releases/latest)
 
