@@ -42,6 +42,8 @@ process_gfx(GFX_SRCS font.grit title_screen_book_1.grit title_screen_book_2.grit
 process_gfx_portrait(GFX_SRCS_PORTRAIT portrait_Alfons.grit portrait_Anna.grit portrait_Sharon.grit portrait_Bruno_Masked.grit portrait_Marks.grit portrait_Veronica_Normal.grit portrait_Surtr.grit portrait_Loki.grit portrait_Laevatain.grit portrait_Cerise.grit portrait_Laegjarn.grit portrait_Helbindi.grit portrait_Gustaf.grit portrait_Henriette.grit portrait_Yurg.grit portrait_Freeze.grit portrait_Lif.grit portrait_Srasir.grit portrait_Hell.grit portrait_Eir.grit portrait_Tor.grit portrait_Peony.grit portrait_Scabiosa.grit portrait_Plumeria.grit portrait_Froda.grit portrait_Hood.grit portrait_Mirabilis.grit portrait_Freya.grit portrait_Reghin.grit portrait_Letizia.grit portrait_Otr.grit portrait_Fafnir.grit portrait_Fafnir2.grit portrait_Eitri.grit portrait_Ash.grit portrait_Veronica_Stain.grit portrait_Elm.grit portrait_GenericSoldierBlue.grit portrait_Avatar_F_1.grit portrait_Avatar_F_2.grit portrait_Avatar_F_3.grit portrait_Avatar_F_4.grit portrait_Avatar_M_1.grit portrait_Avatar_M_2.grit portrait_Avatar_M_3.grit portrait_Avatar_M_4.grit portrait_Takumi.grit)
 process_gfx_portrait_with_bg(GFX_SRCS_PORTRAIT_WITH_BG portrait_Fjorm.grit portrait_Dagr.grit portrait_Nott.grit)
 
+add_compile_options(-Wno-incompatible-pointer-types -Wno-implicit-function-declaration)
+
 add_executable(${PROJECT_NAME} ${DIR_SRCS} ${GFX_SRCS} ${GFX_SRCS_PORTRAIT} ${GFX_SRCS_PORTRAIT_WITH_BG})
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE C)
 target_include_directories(${PROJECT_NAME} PRIVATE include ${DEVKITPRO_ROOT_DIR}/libgba/include src/res/gfx src/res/animation/include res/voice/include res/se/include src/res/text)
