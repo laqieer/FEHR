@@ -81,9 +81,9 @@
     . = 0x8E00008 + 0x20 * 0xca;
     .rodata.AnnaAxe : {*(.rodata.AnnaAxe)}
     . = 0x8E00008 + 0x20 * 0xcb;
-    .rodata.AnnaAxe : {*(.rodata.AnnaHandAxe)}
+    .rodata.AnnaHandAxe : {*(.rodata.AnnaHandAxe)}
     . = 0x8E00008 + 0x20 * 0xcc;
-    .rodata.AnnaAxe : {*(.rodata.AnnaUnarmed)}
+    .rodata.AnnaUnarmed : {*(.rodata.AnnaUnarmed)}
     . = 0x8E00008 + 0x20 * 0xcd;
     .rodata.GeneralMagic : {*(.rodata.GeneralMagic)}
     . = 0x8E00008 + 0x20 * 0xce;
@@ -125,6 +125,6 @@
     . = 0x8E00008 + 0x20 * 0xe0;
     .rodata.Bat : {*(.rodata.Bat)}
     . = 0x8DD0000;
-    .rodata : {*/banim_Bat.*(.rodata)}
+    .rodata.BanimBat : {*/banim_Bat.*(.rodata)}
     . = 0x8E00008 + 0x20 * 0xe1;
     .rodata.Ash : {*(.rodata.Ash)}
